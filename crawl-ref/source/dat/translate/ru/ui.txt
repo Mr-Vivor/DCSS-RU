@@ -164,9 +164,6 @@ Inventory
 Weapons
 Оружие
 %%%%
-Armour
-Доспехи
-%%%%
 Missiles
 Боеприпасы
 %%%%
@@ -296,90 +293,6 @@ invisible
 berserk
 ярость
 %%%%
-Fighting
-Бой
-%%%%
-Short Blades
-Короткие клинки
-%%%%
-Long Blades
-Длинные клинки
-%%%%
-Axes
-Топоры
-%%%%
-Maces & Flails
-Булавы и цепы
-%%%%
-Polearms
-Древковое оружие
-%%%%
-Staves
-Посохи
-%%%%
-Ranged Weapons
-Стрелковое оружие
-%%%%
-Throwing
-Метание
-%%%%
-Dodging
-Уклонение
-%%%%
-Stealth
-Скрытность
-%%%%
-Shields
-Щиты
-%%%%
-Unarmed Combat
-Безоружный бой
-%%%%
-Spellcasting
-Колдовство
-%%%%
-Conjurations
-Разрушение
-%%%%
-Hexes
-Проклятия
-%%%%
-Summonings
-Призывание
-%%%%
-Necromancy
-Некромантия
-%%%%
-Translocations
-Перемещения
-%%%%
-Forgecraft
-Кузнечная магия
-%%%%
-Fire Magic
-Магия огня
-%%%%
-Ice Magic
-Магия льда
-%%%%
-Air Magic
-Магия воздуха
-%%%%
-Earth Magic
-Магия земли
-%%%%
-Alchemy
-Алхимия
-%%%%
-Invocations
-Молитвы
-%%%%
-Evocations
-Управление устройствами
-%%%%
-Shapeshifting
-Оборотничество
-%%%%
 the @num@ @arg@
 @num@ @arg@
 %%%%
@@ -388,3 +301,75 @@ a @num@ @arg@
 %%%%
 your @num@ @arg@
 @num@ @arg@
+%%%%
+Please select your species.
+Выберите вид персонажа.
+%%%%
+Please select your background.
+Выберите предысторию.
+%%%%
+Simple
+Простые
+%%%%
+Intermediate
+Средние
+%%%%
+Advanced
+Сложные
+%%%%
+Warrior
+Боец
+%%%%
+Mage
+Маг
+%%%%
+Warrior-mage
+Воин-маг
+%%%%
+Zealot
+Фанатик
+%%%%
+Adventurer
+Искатель приключений
+%%%%
++ - Recommended species
++ - Подходящий вид
+%%%%
++ - Recommended background
++ - Подходящая предыстория
+%%%%
+% - List aptitudes
+% - Склонности к навыкам
+%%%%
+? - Help
+? - Справка
+%%%%
+Space - Change species
+Пробел - Изменить вид
+%%%%
+Space - Change background
+Пробел - Изменить предысторию
+%%%%
+Space - Pick background first
+Пробел - Сначала предыстория
+%%%%
+Space - Pick species first
+Пробел - Сначала вид
+%%%%
+Recommended
+Рекомендуемый
+%%%%
+Random character
+Случайный персонаж
+%%%%
+Recommended character
+Рекомендуемый персонаж
+%%%%
+Do you want to play this combination? [Y/n/q]
+Играть этим персонажем? [Y/n/q]
+%%%%
+You are @a_species@.
+Ваш вид: @a_species@.
+%%%%
+You are @a_background@.
+Ваша предыстория: @a_background@.

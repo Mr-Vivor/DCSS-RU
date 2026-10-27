@@ -80,6 +80,15 @@ def serialize_db(entries):
 
 def outputs(entities):
     result = {ROOT / "crawl-ref/source/dat/translate/ru/entities.txt": serialize_db(game_entries(entities))}
+    terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
+    term_entries = {}
+    for group in terms.values():
+        for english, russian in group.items():
+            term_entries[english] = russian
+            term_entries["the " + english] = russian.lower()
+            term_entries["a " + english] = russian.lower()
+    result[ROOT / "crawl-ref/source/dat/translate/ru/terms.txt"] = serialize_db(term_entries)
+    result[ROOT / "wiki/ru/terms.json"] = json.dumps(terms, ensure_ascii=False, indent=2) + "\n"
     wiki = {entity["id"]: dict(title=entity["forms"]["singular"]["nom"].capitalize(),
                                 en=entity["en"], en_plural=entity["en_plural"],
                                 kind=entity["kind"], forms=entity["forms"], review=entity["review"])
@@ -91,17 +100,29 @@ def outputs(entities):
     for entity in entities:
         title = wiki[entity["id"]]["title"]
         index.append(f"| `{entity['id']}` | [{title}](pages/{entity['id']}.md) | {entity['en']} | {entity['review']} |")
-        page = [f"# {title}", "", f"**English:** {entity['en']}", f"**ID:** `{entity['id']}`", "",
-                "Черновая карточка термина. Описание механик и советы ещё не добавлены.", "",
-                "| Падеж | Единственное число | Множественное число |", "|---|---|---|"]
+        page = [f"# {title}", "", f"**English:** {entity['en']}", f"**ID:** `{entity['id']}`", ""]
+        content_path = ROOT / "wiki/ru/content" / (entity["id"] + ".md")
+        if content_path.exists():
+            page.extend((content_path.read_text(encoding="utf8").strip(), "", "## Формы названия", ""))
+        else:
+            page.extend(("Черновая карточка термина. Описание механик и советы ещё не добавлены.", ""))
+        page.extend(("| Падеж | Единственное число | Множественное число |", "|---|---|---|"))
         labels = ("Именительный", "Родительный", "Дательный", "Винительный", "Творительный", "Предложный")
         for label, case in zip(labels, CASES):
             page.append(f"| {label} | {entity['forms']['singular'][case]} | {entity['forms']['plural'][case]} |")
         page.extend(("", "Название и формы берутся из `localization/ru/entities.json`. Исправления вносятся туда.", ""))
         result[ROOT / "wiki/ru/pages" / (entity["id"] + ".md")] = "\n".join(page)
     result[ROOT / "wiki/ru/README.md"] = "\n".join(index) + "\n"
+    term_index = ["# Виды, предыстории и навыки", "", "Имена из localization/ru/terms.json используются и в игре, и в вики.", ""]
+    for category, values in terms.items():
+        term_index.extend(("## " + category, "", "| English | Русское название |", "|---|---|"))
+        term_index.extend(f"| {en} | {ru} |" for en, ru in values.items())
+        term_index.append("")
+    result[ROOT / "wiki/ru/character-terms.md"] = "\n".join(term_index)
     stats = dict(entities=len(entities), kinds=dict(Counter(e["kind"] for e in entities)),
-                 generated_game_keys=len(game_entries(entities)), review=dict(Counter(e["review"] for e in entities)))
+                 generated_game_keys=len(game_entries(entities)), review=dict(Counter(e["review"] for e in entities)),
+                 wiki_articles=sum((ROOT / "wiki/ru/content" / (e["id"] + ".md")).exists() for e in entities),
+                 additional_terms={group: len(values) for group, values in terms.items()})
     result[ROOT / "localization/ru/coverage.json"] = json.dumps(stats, ensure_ascii=False, indent=2) + "\n"
     return result
 

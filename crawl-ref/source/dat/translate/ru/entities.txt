@@ -17,7 +17,7 @@
 @num@ амулетов регенерации
 %%%%
 @num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 @num@ arbalests
 @num@ арбалетов
@@ -104,7 +104,7 @@
 @num@ глубинных эльфов-рыцарей
 %%%%
 @num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 @num@ elephants
 @num@ слонов
@@ -134,7 +134,7 @@
 @num@ морозных великанов
 %%%%
 @num@ glaives
-@num@ глефов
+@num@ глеф
 %%%%
 @num@ gnoll boudas
 @num@ гнолл-буда
@@ -236,7 +236,7 @@
 @num@ кожаных доспехов
 %%%%
 @num@ liches
-@num@ лич
+@num@ личей
 %%%%
 @num@ long swords
 @num@ длинных мечей
@@ -254,10 +254,10 @@
 @num@ мумий
 %%%%
 @num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 @num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 @num@ orange demons
 @num@ оранжевых демонов
@@ -353,7 +353,7 @@
 @num@ ртутных драконов
 %%%%
 @num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 @num@ rapiers
 @num@ рапир
@@ -407,7 +407,7 @@
 @num@ шарфов
 %%%%
 @num@ scimitars
-@num@ скимитар
+@num@ скимитаров
 %%%%
 @num@ scorpions
 @num@ скорпионов
@@ -515,7 +515,7 @@
 @num@ троллей
 %%%%
 @num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 @num@ ugly things
 @num@ уродливых существ
@@ -605,10 +605,10 @@ a amulet's
 {m}амулета
 %%%%
 a ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 a ancient lich's
-{n}древнего лич
+{m}древнего лича
 %%%%
 a arbalest
 {m}арбалет
@@ -779,10 +779,10 @@ a deep elf knight's
 {m}глубинного эльфа-рыцаря
 %%%%
 a deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 a deep elf pyromancer's
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 a elephant
 {m}слон
@@ -839,10 +839,10 @@ a frost giant's
 {m}морозного великана
 %%%%
 a glaive
-{m}глеф
+{f}глефа
 %%%%
 a glaive's
-{m}глефа
+{f}глефы
 %%%%
 a gnoll
 {m}гнолл
@@ -1043,10 +1043,10 @@ a leather armour's
 {m}кожаного доспеха
 %%%%
 a lich
-{n}лич
+{m}лич
 %%%%
 a lich's
-{n}лич
+{m}лича
 %%%%
 a long sword
 {m}длинный меч
@@ -1079,16 +1079,16 @@ a mummy's
 {f}мумии
 %%%%
 a naga
-{f}нагая
+{f}нага
 %%%%
 a naga's
-{f}нагой
+{f}наги
 %%%%
 a ogre
-{n}огр
+{m}огр
 %%%%
 a ogre's
-{n}огр
+{m}огра
 %%%%
 a orange demon
 {m}оранжевый демон
@@ -1277,10 +1277,10 @@ a quicksilver dragon's
 {m}ртутного дракона
 %%%%
 a quokka
-{m}квокк
+{f}квокка
 %%%%
 a quokka's
-{m}квокка
+{f}квокки
 %%%%
 a rapier
 {f}рапира
@@ -1385,10 +1385,10 @@ a scarf's
 {m}шарфа
 %%%%
 a scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 a scimitar's
-{n}скимитар
+{m}скимитара
 %%%%
 a scorpion
 {m}скорпион
@@ -1601,10 +1601,10 @@ a troll's
 {m}тролля
 %%%%
 a two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 a two-headed ogre's
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 a ugly thing
 {n}уродливое существо
@@ -1796,10 +1796,10 @@ an amulet's
 {m}амулета
 %%%%
 an ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 an ancient lich's
-{n}древнего лич
+{m}древнего лича
 %%%%
 an arbalest
 {m}арбалет
@@ -1970,10 +1970,10 @@ an deep elf knight's
 {m}глубинного эльфа-рыцаря
 %%%%
 an deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 an deep elf pyromancer's
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 an elephant
 {m}слон
@@ -2030,10 +2030,10 @@ an frost giant's
 {m}морозного великана
 %%%%
 an glaive
-{m}глеф
+{f}глефа
 %%%%
 an glaive's
-{m}глефа
+{f}глефы
 %%%%
 an gnoll
 {m}гнолл
@@ -2234,10 +2234,10 @@ an leather armour's
 {m}кожаного доспеха
 %%%%
 an lich
-{n}лич
+{m}лич
 %%%%
 an lich's
-{n}лич
+{m}лича
 %%%%
 an long sword
 {m}длинный меч
@@ -2270,16 +2270,16 @@ an mummy's
 {f}мумии
 %%%%
 an naga
-{f}нагая
+{f}нага
 %%%%
 an naga's
-{f}нагой
+{f}наги
 %%%%
 an ogre
-{n}огр
+{m}огр
 %%%%
 an ogre's
-{n}огр
+{m}огра
 %%%%
 an orange demon
 {m}оранжевый демон
@@ -2468,10 +2468,10 @@ an quicksilver dragon's
 {m}ртутного дракона
 %%%%
 an quokka
-{m}квокк
+{f}квокка
 %%%%
 an quokka's
-{m}квокка
+{f}квокки
 %%%%
 an rapier
 {f}рапира
@@ -2576,10 +2576,10 @@ an scarf's
 {m}шарфа
 %%%%
 an scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 an scimitar's
-{n}скимитар
+{m}скимитара
 %%%%
 an scorpion
 {m}скорпион
@@ -2792,10 +2792,10 @@ an troll's
 {m}тролля
 %%%%
 an two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 an two-headed ogre's
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 an ugly thing
 {n}уродливое существо
@@ -2912,13 +2912,13 @@ an yak's
 {m}яка
 %%%%
 ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 ancient lich's
-{n}древнего лич
+{m}древнего лича
 %%%%
 ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 arbalest
 {m}арбалет
@@ -3173,13 +3173,13 @@ deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
 deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 deep elf pyromancer's
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 elephant
 {m}слон
@@ -3263,10 +3263,10 @@ frost giants
 {pl}морозные великаны
 %%%%
 glaive
-{m}глеф
+{f}глефа
 %%%%
 glaive's
-{m}глефа
+{f}глефы
 %%%%
 glaives
 {pl}глефы
@@ -3569,13 +3569,13 @@ leather armours
 {pl}кожаные доспехи
 %%%%
 lich
-{n}лич
+{m}лич
 %%%%
 lich's
-{n}лич
+{m}лича
 %%%%
 liches
-{pl}лич
+{pl}личи
 %%%%
 long sword
 {m}длинный меч
@@ -3623,22 +3623,22 @@ mummy's
 {f}мумии
 %%%%
 naga
-{f}нагая
+{f}нага
 %%%%
 naga's
-{f}нагой
+{f}наги
 %%%%
 nagas
-{pl}нагие
+{pl}наги
 %%%%
 ogre
-{n}огр
+{m}огр
 %%%%
 ogre's
-{n}огр
+{m}огра
 %%%%
 ogres
-{pl}огр
+{pl}огры
 %%%%
 orange demon
 {m}оранжевый демон
@@ -3920,10 +3920,10 @@ quicksilver dragons
 {pl}ртутные драконы
 %%%%
 quokka
-{m}квокк
+{f}квокка
 %%%%
 quokka's
-{m}квокка
+{f}квокки
 %%%%
 quokkas
 {pl}квокки
@@ -4082,13 +4082,13 @@ scarves
 {pl}шарфы
 %%%%
 scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 scimitar's
-{n}скимитар
+{m}скимитара
 %%%%
 scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 scorpion
 {m}скорпион
@@ -4415,13 +4415,13 @@ the amulets of regeneration
 {pl}амулеты регенерации
 %%%%
 the ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 the ancient lich's
-{n}древнего лич
+{m}древнего лича
 %%%%
 the ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 the arbalest
 {m}арбалет
@@ -4676,13 +4676,13 @@ the deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
 the deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 the deep elf pyromancer's
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 the deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 the elephant
 {m}слон
@@ -4766,10 +4766,10 @@ the frost giants
 {pl}морозные великаны
 %%%%
 the glaive
-{m}глеф
+{f}глефа
 %%%%
 the glaive's
-{m}глефа
+{f}глефы
 %%%%
 the glaives
 {pl}глефы
@@ -5072,13 +5072,13 @@ the leather armours
 {pl}кожаные доспехи
 %%%%
 the lich
-{n}лич
+{m}лич
 %%%%
 the lich's
-{n}лич
+{m}лича
 %%%%
 the liches
-{pl}лич
+{pl}личи
 %%%%
 the long sword
 {m}длинный меч
@@ -5126,22 +5126,22 @@ the mummy's
 {f}мумии
 %%%%
 the naga
-{f}нагая
+{f}нага
 %%%%
 the naga's
-{f}нагой
+{f}наги
 %%%%
 the nagas
-{pl}нагие
+{pl}наги
 %%%%
 the ogre
-{n}огр
+{m}огр
 %%%%
 the ogre's
-{n}огр
+{m}огра
 %%%%
 the ogres
-{pl}огр
+{pl}огры
 %%%%
 the orange demon
 {m}оранжевый демон
@@ -5423,10 +5423,10 @@ the quicksilver dragons
 {pl}ртутные драконы
 %%%%
 the quokka
-{m}квокк
+{f}квокка
 %%%%
 the quokka's
-{m}квокка
+{f}квокки
 %%%%
 the quokkas
 {pl}квокки
@@ -5585,13 +5585,13 @@ the scarves
 {pl}шарфы
 %%%%
 the scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 the scimitar's
-{n}скимитар
+{m}скимитара
 %%%%
 the scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 the scorpion
 {m}скорпион
@@ -5909,13 +5909,13 @@ the trolls
 {pl}тролли
 %%%%
 the two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 the two-headed ogre's
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 the two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 the ugly thing
 {n}уродливое существо
@@ -6125,13 +6125,13 @@ trolls
 {pl}тролли
 %%%%
 two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 two-headed ogre's
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 ugly thing
 {n}уродливое существо
@@ -6350,13 +6350,13 @@ your amulets of regeneration
 {pl}амулеты регенерации
 %%%%
 your ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 your ancient lich's
-{n}древнего лич
+{m}древнего лича
 %%%%
 your ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 your arbalest
 {m}арбалет
@@ -6611,13 +6611,13 @@ your deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
 your deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 your deep elf pyromancer's
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 your deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 your elephant
 {m}слон
@@ -6701,10 +6701,10 @@ your frost giants
 {pl}морозные великаны
 %%%%
 your glaive
-{m}глеф
+{f}глефа
 %%%%
 your glaive's
-{m}глефа
+{f}глефы
 %%%%
 your glaives
 {pl}глефы
@@ -7007,13 +7007,13 @@ your leather armours
 {pl}кожаные доспехи
 %%%%
 your lich
-{n}лич
+{m}лич
 %%%%
 your lich's
-{n}лич
+{m}лича
 %%%%
 your liches
-{pl}лич
+{pl}личи
 %%%%
 your long sword
 {m}длинный меч
@@ -7061,22 +7061,22 @@ your mummy's
 {f}мумии
 %%%%
 your naga
-{f}нагая
+{f}нага
 %%%%
 your naga's
-{f}нагой
+{f}наги
 %%%%
 your nagas
-{pl}нагие
+{pl}наги
 %%%%
 your ogre
-{n}огр
+{m}огр
 %%%%
 your ogre's
-{n}огр
+{m}огра
 %%%%
 your ogres
-{pl}огр
+{pl}огры
 %%%%
 your orange demon
 {m}оранжевый демон
@@ -7358,10 +7358,10 @@ your quicksilver dragons
 {pl}ртутные драконы
 %%%%
 your quokka
-{m}квокк
+{f}квокка
 %%%%
 your quokka's
-{m}квокка
+{f}квокки
 %%%%
 your quokkas
 {pl}квокки
@@ -7520,13 +7520,13 @@ your scarves
 {pl}шарфы
 %%%%
 your scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 your scimitar's
-{n}скимитар
+{m}скимитара
 %%%%
 your scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 your scorpion
 {m}скорпион
@@ -7844,13 +7844,13 @@ your trolls
 {pl}тролли
 %%%%
 your two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 your two-headed ogre's
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 your two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 your ugly thing
 {n}уродливое существо
@@ -8039,7 +8039,7 @@ your yaks
 @num@ амулета регенерации
 %%%%
 {acc_few}@num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 {acc_few}@num@ arbalests
 @num@ арбалета
@@ -8126,7 +8126,7 @@ your yaks
 @num@ глубинных эльфов-рыцарей
 %%%%
 {acc_few}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 {acc_few}@num@ elephants
 @num@ слонов
@@ -8156,7 +8156,7 @@ your yaks
 @num@ морозных великанов
 %%%%
 {acc_few}@num@ glaives
-@num@ глефа
+@num@ глефы
 %%%%
 {acc_few}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -8258,7 +8258,7 @@ your yaks
 @num@ кожаного доспеха
 %%%%
 {acc_few}@num@ liches
-@num@ лич
+@num@ личей
 %%%%
 {acc_few}@num@ long swords
 @num@ длинного меча
@@ -8276,10 +8276,10 @@ your yaks
 @num@ мумий
 %%%%
 {acc_few}@num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 {acc_few}@num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 {acc_few}@num@ orange demons
 @num@ оранжевых демонов
@@ -8375,7 +8375,7 @@ your yaks
 @num@ ртутных драконов
 %%%%
 {acc_few}@num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 {acc_few}@num@ rapiers
 @num@ рапиры
@@ -8429,7 +8429,7 @@ your yaks
 @num@ шарфа
 %%%%
 {acc_few}@num@ scimitars
-@num@ скимитар
+@num@ скимитара
 %%%%
 {acc_few}@num@ scorpions
 @num@ скорпионов
@@ -8537,7 +8537,7 @@ your yaks
 @num@ троллей
 %%%%
 {acc_few}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 {acc_few}@num@ ugly things
 @num@ уродливого существа
@@ -8612,7 +8612,7 @@ your yaks
 @num@ амулетов регенерации
 %%%%
 {acc_many}@num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 {acc_many}@num@ arbalests
 @num@ арбалетов
@@ -8699,7 +8699,7 @@ your yaks
 @num@ глубинных эльфов-рыцарей
 %%%%
 {acc_many}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 {acc_many}@num@ elephants
 @num@ слонов
@@ -8729,7 +8729,7 @@ your yaks
 @num@ морозных великанов
 %%%%
 {acc_many}@num@ glaives
-@num@ глефов
+@num@ глеф
 %%%%
 {acc_many}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -8831,7 +8831,7 @@ your yaks
 @num@ кожаных доспехов
 %%%%
 {acc_many}@num@ liches
-@num@ лич
+@num@ личей
 %%%%
 {acc_many}@num@ long swords
 @num@ длинных мечей
@@ -8849,10 +8849,10 @@ your yaks
 @num@ мумий
 %%%%
 {acc_many}@num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 {acc_many}@num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 {acc_many}@num@ orange demons
 @num@ оранжевых демонов
@@ -8948,7 +8948,7 @@ your yaks
 @num@ ртутных драконов
 %%%%
 {acc_many}@num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 {acc_many}@num@ rapiers
 @num@ рапир
@@ -9002,7 +9002,7 @@ your yaks
 @num@ шарфов
 %%%%
 {acc_many}@num@ scimitars
-@num@ скимитар
+@num@ скимитаров
 %%%%
 {acc_many}@num@ scorpions
 @num@ скорпионов
@@ -9110,7 +9110,7 @@ your yaks
 @num@ троллей
 %%%%
 {acc_many}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 {acc_many}@num@ ugly things
 @num@ уродливых существ
@@ -9185,7 +9185,7 @@ your yaks
 @num@ амулет регенерации
 %%%%
 {acc_one}@num@ ancient liches
-@num@ древний лич
+@num@ древнего лича
 %%%%
 {acc_one}@num@ arbalests
 @num@ арбалет
@@ -9200,7 +9200,7 @@ your yaks
 @num@ василиска
 %%%%
 {acc_one}@num@ bats
-@num@ летучая мышь
+@num@ летучую мышь
 %%%%
 {acc_one}@num@ battleaxes
 @num@ секиру
@@ -9209,10 +9209,10 @@ your yaks
 @num@ чёрного медведя
 %%%%
 {acc_one}@num@ black mambas
-@num@ чёрная мамба
+@num@ чёрную мамбу
 %%%%
 {acc_one}@num@ blink frogs
-@num@ мерцающая лягушку
+@num@ мерцающую лягушку
 %%%%
 {acc_one}@num@ boomerangs
 @num@ бумеранг
@@ -9272,7 +9272,7 @@ your yaks
 @num@ глубинного эльфа-рыцаря
 %%%%
 {acc_one}@num@ deep elf pyromancers
-@num@ глубинный эльф-пироманту
+@num@ глубинного эльфа-пироманта
 %%%%
 {acc_one}@num@ elephants
 @num@ слона
@@ -9302,22 +9302,22 @@ your yaks
 @num@ морозного великана
 %%%%
 {acc_one}@num@ glaives
-@num@ глеф
+@num@ глефу
 %%%%
 {acc_one}@num@ gnoll boudas
-@num@ гнолл-буда
+@num@ гнолла-буды
 %%%%
 {acc_one}@num@ gnoll sergeants
-@num@ гнолл-сержант
+@num@ гнолла-сержанта
 %%%%
 {acc_one}@num@ gnolls
-@num@ гнолл
+@num@ гнолла
 %%%%
 {acc_one}@num@ goblins
 @num@ гоблина
 %%%%
 {acc_one}@num@ gold pieces
-@num@ золотая монету
+@num@ золотую монету
 %%%%
 {acc_one}@num@ golden dragons
 @num@ золотого дракона
@@ -9335,7 +9335,7 @@ your yaks
 @num@ ручной топор
 %%%%
 {acc_one}@num@ hand cannons
-@num@ ручная пушку
+@num@ ручную пушку
 %%%%
 {acc_one}@num@ hats
 @num@ шляпу
@@ -9359,7 +9359,7 @@ your yaks
 @num@ лошадь
 %%%%
 {acc_one}@num@ hounds
-@num@ гончая
+@num@ гончую
 %%%%
 {acc_one}@num@ hydras
 @num@ гидру
@@ -9404,7 +9404,7 @@ your yaks
 @num@ кожаный доспех
 %%%%
 {acc_one}@num@ liches
-@num@ лич
+@num@ лича
 %%%%
 {acc_one}@num@ long swords
 @num@ длинный меч
@@ -9422,10 +9422,10 @@ your yaks
 @num@ мумию
 %%%%
 {acc_one}@num@ nagas
-@num@ нагого
+@num@ нагу
 %%%%
 {acc_one}@num@ ogres
-@num@ огр
+@num@ огра
 %%%%
 {acc_one}@num@ orange demons
 @num@ оранжевого демона
@@ -9455,7 +9455,7 @@ your yaks
 @num@ орка
 %%%%
 {acc_one}@num@ phantoms
-@num@ фантом
+@num@ фантома
 %%%%
 {acc_one}@num@ plate armours
 @num@ латный доспех
@@ -9512,7 +9512,7 @@ your yaks
 @num@ боевой посох
 %%%%
 {acc_one}@num@ queen bees
-@num@ пчелиная матка
+@num@ пчелиную матку
 %%%%
 {acc_one}@num@ quick blades
 @num@ быстрый клинок
@@ -9521,7 +9521,7 @@ your yaks
 @num@ ртутного дракона
 %%%%
 {acc_one}@num@ quokkas
-@num@ квокка
+@num@ квокку
 %%%%
 {acc_one}@num@ rapiers
 @num@ рапиру
@@ -9671,7 +9671,7 @@ your yaks
 @num@ солнечного демона
 %%%%
 {acc_one}@num@ throwing nets
-@num@ метательная сеть
+@num@ метательную сеть
 %%%%
 {acc_one}@num@ tower shields
 @num@ башенный щит
@@ -9683,7 +9683,7 @@ your yaks
 @num@ тролля
 %%%%
 {acc_one}@num@ two-headed ogres
-@num@ двухголовый огр
+@num@ двухголового огра
 %%%%
 {acc_one}@num@ ugly things
 @num@ уродливое существо
@@ -9737,7 +9737,7 @@ your yaks
 @num@ призрака
 %%%%
 {acc_one}@num@ wyverns
-@num@ виверна
+@num@ виверну
 %%%%
 {acc_one}@num@ yaks
 @num@ яка
@@ -9758,7 +9758,7 @@ your yaks
 {m}амулет регенерации
 %%%%
 {acc}a ancient lich
-{n}древний лич
+{m}древнего лича
 %%%%
 {acc}a arbalest
 {m}арбалет
@@ -9773,7 +9773,7 @@ your yaks
 {m}василиска
 %%%%
 {acc}a bat
-{f}летучая мышь
+{f}летучую мышь
 %%%%
 {acc}a battleaxe
 {f}секиру
@@ -9782,10 +9782,10 @@ your yaks
 {m}чёрного медведя
 %%%%
 {acc}a black mamba
-{f}чёрная мамба
+{f}чёрную мамбу
 %%%%
 {acc}a blink frog
-{f}мерцающая лягушку
+{f}мерцающую лягушку
 %%%%
 {acc}a boomerang
 {m}бумеранг
@@ -9845,7 +9845,7 @@ your yaks
 {m}глубинного эльфа-рыцаря
 %%%%
 {acc}a deep elf pyromancer
-{f}глубинный эльф-пироманту
+{m}глубинного эльфа-пироманта
 %%%%
 {acc}a elephant
 {m}слона
@@ -9875,22 +9875,22 @@ your yaks
 {m}морозного великана
 %%%%
 {acc}a glaive
-{m}глеф
+{f}глефу
 %%%%
 {acc}a gnoll
-{m}гнолл
+{m}гнолла
 %%%%
 {acc}a gnoll bouda
-{m}гнолл-буда
+{m}гнолла-буды
 %%%%
 {acc}a gnoll sergeant
-{m}гнолл-сержант
+{m}гнолла-сержанта
 %%%%
 {acc}a goblin
 {m}гоблина
 %%%%
 {acc}a gold piece
-{f}золотая монету
+{f}золотую монету
 %%%%
 {acc}a golden dragon
 {m}золотого дракона
@@ -9908,7 +9908,7 @@ your yaks
 {m}ручной топор
 %%%%
 {acc}a hand cannon
-{f}ручная пушку
+{f}ручную пушку
 %%%%
 {acc}a hat
 {f}шляпу
@@ -9932,7 +9932,7 @@ your yaks
 {f}лошадь
 %%%%
 {acc}a hound
-{f}гончая
+{f}гончую
 %%%%
 {acc}a hydra
 {f}гидру
@@ -9977,7 +9977,7 @@ your yaks
 {m}кожаный доспех
 %%%%
 {acc}a lich
-{n}лич
+{m}лича
 %%%%
 {acc}a long sword
 {m}длинный меч
@@ -9995,10 +9995,10 @@ your yaks
 {f}мумию
 %%%%
 {acc}a naga
-{f}нагого
+{f}нагу
 %%%%
 {acc}a ogre
-{n}огр
+{m}огра
 %%%%
 {acc}a orange demon
 {m}оранжевого демона
@@ -10028,7 +10028,7 @@ your yaks
 {m}орка-волшебника
 %%%%
 {acc}a phantom
-{m}фантом
+{m}фантома
 %%%%
 {acc}a plate armour
 {m}латный доспех
@@ -10085,7 +10085,7 @@ your yaks
 {m}боевой посох
 %%%%
 {acc}a queen bee
-{f}пчелиная матка
+{f}пчелиную матку
 %%%%
 {acc}a quick blade
 {m}быстрый клинок
@@ -10094,7 +10094,7 @@ your yaks
 {m}ртутного дракона
 %%%%
 {acc}a quokka
-{m}квокка
+{f}квокку
 %%%%
 {acc}a rapier
 {f}рапиру
@@ -10148,7 +10148,7 @@ your yaks
 {m}шарф
 %%%%
 {acc}a scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {acc}a scorpion
 {m}скорпиона
@@ -10244,7 +10244,7 @@ your yaks
 {m}солнечного демона
 %%%%
 {acc}a throwing net
-{f}метательная сеть
+{f}метательную сеть
 %%%%
 {acc}a tower shield
 {m}башенный щит
@@ -10256,7 +10256,7 @@ your yaks
 {m}тролля
 %%%%
 {acc}a two-headed ogre
-{n}двухголовый огр
+{m}двухголового огра
 %%%%
 {acc}a ugly thing
 {n}уродливое существо
@@ -10310,7 +10310,7 @@ your yaks
 {m}призрака
 %%%%
 {acc}a wyvern
-{f}виверна
+{f}виверну
 %%%%
 {acc}a yak
 {m}яка
@@ -10361,7 +10361,7 @@ your yaks
 {m}амулет регенерации
 %%%%
 {acc}an ancient lich
-{n}древний лич
+{m}древнего лича
 %%%%
 {acc}an arbalest
 {m}арбалет
@@ -10376,7 +10376,7 @@ your yaks
 {m}василиска
 %%%%
 {acc}an bat
-{f}летучая мышь
+{f}летучую мышь
 %%%%
 {acc}an battleaxe
 {f}секиру
@@ -10385,10 +10385,10 @@ your yaks
 {m}чёрного медведя
 %%%%
 {acc}an black mamba
-{f}чёрная мамба
+{f}чёрную мамбу
 %%%%
 {acc}an blink frog
-{f}мерцающая лягушку
+{f}мерцающую лягушку
 %%%%
 {acc}an boomerang
 {m}бумеранг
@@ -10448,7 +10448,7 @@ your yaks
 {m}глубинного эльфа-рыцаря
 %%%%
 {acc}an deep elf pyromancer
-{f}глубинный эльф-пироманту
+{m}глубинного эльфа-пироманта
 %%%%
 {acc}an elephant
 {m}слона
@@ -10478,22 +10478,22 @@ your yaks
 {m}морозного великана
 %%%%
 {acc}an glaive
-{m}глеф
+{f}глефу
 %%%%
 {acc}an gnoll
-{m}гнолл
+{m}гнолла
 %%%%
 {acc}an gnoll bouda
-{m}гнолл-буда
+{m}гнолла-буды
 %%%%
 {acc}an gnoll sergeant
-{m}гнолл-сержант
+{m}гнолла-сержанта
 %%%%
 {acc}an goblin
 {m}гоблина
 %%%%
 {acc}an gold piece
-{f}золотая монету
+{f}золотую монету
 %%%%
 {acc}an golden dragon
 {m}золотого дракона
@@ -10511,7 +10511,7 @@ your yaks
 {m}ручной топор
 %%%%
 {acc}an hand cannon
-{f}ручная пушку
+{f}ручную пушку
 %%%%
 {acc}an hat
 {f}шляпу
@@ -10535,7 +10535,7 @@ your yaks
 {f}лошадь
 %%%%
 {acc}an hound
-{f}гончая
+{f}гончую
 %%%%
 {acc}an hydra
 {f}гидру
@@ -10580,7 +10580,7 @@ your yaks
 {m}кожаный доспех
 %%%%
 {acc}an lich
-{n}лич
+{m}лича
 %%%%
 {acc}an long sword
 {m}длинный меч
@@ -10598,10 +10598,10 @@ your yaks
 {f}мумию
 %%%%
 {acc}an naga
-{f}нагого
+{f}нагу
 %%%%
 {acc}an ogre
-{n}огр
+{m}огра
 %%%%
 {acc}an orange demon
 {m}оранжевого демона
@@ -10631,7 +10631,7 @@ your yaks
 {m}орка-волшебника
 %%%%
 {acc}an phantom
-{m}фантом
+{m}фантома
 %%%%
 {acc}an plate armour
 {m}латный доспех
@@ -10688,7 +10688,7 @@ your yaks
 {m}боевой посох
 %%%%
 {acc}an queen bee
-{f}пчелиная матка
+{f}пчелиную матку
 %%%%
 {acc}an quick blade
 {m}быстрый клинок
@@ -10697,7 +10697,7 @@ your yaks
 {m}ртутного дракона
 %%%%
 {acc}an quokka
-{m}квокка
+{f}квокку
 %%%%
 {acc}an rapier
 {f}рапиру
@@ -10751,7 +10751,7 @@ your yaks
 {m}шарф
 %%%%
 {acc}an scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {acc}an scorpion
 {m}скорпиона
@@ -10847,7 +10847,7 @@ your yaks
 {m}солнечного демона
 %%%%
 {acc}an throwing net
-{f}метательная сеть
+{f}метательную сеть
 %%%%
 {acc}an tower shield
 {m}башенный щит
@@ -10859,7 +10859,7 @@ your yaks
 {m}тролля
 %%%%
 {acc}an two-headed ogre
-{n}двухголовый огр
+{m}двухголового огра
 %%%%
 {acc}an ugly thing
 {n}уродливое существо
@@ -10913,16 +10913,16 @@ your yaks
 {m}призрака
 %%%%
 {acc}an wyvern
-{f}виверна
+{f}виверну
 %%%%
 {acc}an yak
 {m}яка
 %%%%
 {acc}ancient lich
-{n}древний лич
+{m}древнего лича
 %%%%
 {acc}ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {acc}arbalest
 {m}арбалет
@@ -10949,7 +10949,7 @@ your yaks
 {pl}василисков
 %%%%
 {acc}bat
-{f}летучая мышь
+{f}летучую мышь
 %%%%
 {acc}bats
 {pl}летучих мышей
@@ -10967,13 +10967,13 @@ your yaks
 {pl}чёрных медведей
 %%%%
 {acc}black mamba
-{f}чёрная мамба
+{f}чёрную мамбу
 %%%%
 {acc}black mambas
-{pl}чёрных мамба
+{pl}чёрных мамб
 %%%%
 {acc}blink frog
-{f}мерцающая лягушку
+{f}мерцающую лягушку
 %%%%
 {acc}blink frogs
 {pl}мерцающих лягушек
@@ -11093,10 +11093,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {acc}deep elf pyromancer
-{f}глубинный эльф-пироманту
+{m}глубинного эльфа-пироманта
 %%%%
 {acc}deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {acc}elephant
 {m}слона
@@ -11126,7 +11126,7 @@ your yaks
 {m}фальшион
 %%%%
 {acc}falchions
-{pl}фальшион
+{pl}фальшионы
 %%%%
 {acc}fire dragon
 {m}огненного дракона
@@ -11153,28 +11153,28 @@ your yaks
 {pl}морозных великанов
 %%%%
 {acc}glaive
-{m}глеф
+{f}глефу
 %%%%
 {acc}glaives
 {pl}глефы
 %%%%
 {acc}gnoll
-{m}гнолл
+{m}гнолла
 %%%%
 {acc}gnoll bouda
-{m}гнолл-буда
+{m}гнолла-буды
 %%%%
 {acc}gnoll boudas
 {pl}гнолл-буда
 %%%%
 {acc}gnoll sergeant
-{m}гнолл-сержант
+{m}гнолла-сержанта
 %%%%
 {acc}gnoll sergeants
-{pl}гнолл-сержант
+{pl}гноллов-сержантов
 %%%%
 {acc}gnolls
-{pl}гнолл
+{pl}гноллов
 %%%%
 {acc}goblin
 {m}гоблина
@@ -11183,7 +11183,7 @@ your yaks
 {pl}гоблинов
 %%%%
 {acc}gold piece
-{f}золотая монету
+{f}золотую монету
 %%%%
 {acc}gold pieces
 {pl}золотые монеты
@@ -11219,7 +11219,7 @@ your yaks
 {pl}ручные топоры
 %%%%
 {acc}hand cannon
-{f}ручная пушку
+{f}ручную пушку
 %%%%
 {acc}hand cannons
 {pl}ручные пушки
@@ -11240,7 +11240,7 @@ your yaks
 {n}адское крыло
 %%%%
 {acc}hellwings
-{pl}адских крыло
+{pl}адских крыльев
 %%%%
 {acc}helmet
 {m}шлем
@@ -11267,7 +11267,7 @@ your yaks
 {pl}лошадей
 %%%%
 {acc}hound
-{f}гончая
+{f}гончую
 %%%%
 {acc}hounds
 {pl}гончих
@@ -11357,10 +11357,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {acc}lich
-{n}лич
+{m}лича
 %%%%
 {acc}liches
-{pl}лич
+{pl}личей
 %%%%
 {acc}long sword
 {m}длинный меч
@@ -11384,7 +11384,7 @@ your yaks
 {m}моргенштерн
 %%%%
 {acc}morningstars
-{pl}моргенштерн
+{pl}моргенштерны
 %%%%
 {acc}mummies
 {pl}мумий
@@ -11393,16 +11393,16 @@ your yaks
 {f}мумию
 %%%%
 {acc}naga
-{f}нагого
+{f}нагу
 %%%%
 {acc}nagas
-{pl}нагих
+{pl}наг
 %%%%
 {acc}ogre
-{n}огр
+{m}огра
 %%%%
 {acc}ogres
-{pl}огр
+{pl}огров
 %%%%
 {acc}orange demon
 {m}оранжевого демона
@@ -11459,10 +11459,10 @@ your yaks
 {pl}орков
 %%%%
 {acc}phantom
-{m}фантом
+{m}фантома
 %%%%
 {acc}phantoms
-{pl}фантом
+{pl}фантомов
 %%%%
 {acc}plate armour
 {m}латный доспех
@@ -11573,10 +11573,10 @@ your yaks
 {pl}боевые посохи
 %%%%
 {acc}queen bee
-{f}пчелиная матка
+{f}пчелиную матку
 %%%%
 {acc}queen bees
-{pl}пчелиных матка
+{pl}пчелиных маток
 %%%%
 {acc}quick blade
 {m}быстрый клинок
@@ -11591,10 +11591,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {acc}quokka
-{m}квокка
+{f}квокку
 %%%%
 {acc}quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {acc}rapier
 {f}рапиру
@@ -11699,10 +11699,10 @@ your yaks
 {pl}шарфы
 %%%%
 {acc}scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {acc}scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {acc}scorpion
 {m}скорпиона
@@ -11846,7 +11846,7 @@ your yaks
 {n}слизистое существо
 %%%%
 {acc}slime creatures
-{pl}слизистые существо
+{pl}слизистые существа
 %%%%
 {acc}sling
 {f}пращу
@@ -11921,10 +11921,10 @@ your yaks
 {pl}амулеты регенерации
 %%%%
 {acc}the ancient lich
-{n}древний лич
+{m}древнего лича
 %%%%
 {acc}the ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {acc}the arbalest
 {m}арбалет
@@ -11951,7 +11951,7 @@ your yaks
 {pl}василисков
 %%%%
 {acc}the bat
-{f}летучая мышь
+{f}летучую мышь
 %%%%
 {acc}the bats
 {pl}летучих мышей
@@ -11969,13 +11969,13 @@ your yaks
 {pl}чёрных медведей
 %%%%
 {acc}the black mamba
-{f}чёрная мамба
+{f}чёрную мамбу
 %%%%
 {acc}the black mambas
-{pl}чёрных мамба
+{pl}чёрных мамб
 %%%%
 {acc}the blink frog
-{f}мерцающая лягушку
+{f}мерцающую лягушку
 %%%%
 {acc}the blink frogs
 {pl}мерцающих лягушек
@@ -12095,10 +12095,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {acc}the deep elf pyromancer
-{f}глубинный эльф-пироманту
+{m}глубинного эльфа-пироманта
 %%%%
 {acc}the deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {acc}the elephant
 {m}слона
@@ -12128,7 +12128,7 @@ your yaks
 {m}фальшион
 %%%%
 {acc}the falchions
-{pl}фальшион
+{pl}фальшионы
 %%%%
 {acc}the fire dragon
 {m}огненного дракона
@@ -12155,28 +12155,28 @@ your yaks
 {pl}морозных великанов
 %%%%
 {acc}the glaive
-{m}глеф
+{f}глефу
 %%%%
 {acc}the glaives
 {pl}глефы
 %%%%
 {acc}the gnoll
-{m}гнолл
+{m}гнолла
 %%%%
 {acc}the gnoll bouda
-{m}гнолл-буда
+{m}гнолла-буды
 %%%%
 {acc}the gnoll boudas
 {pl}гнолл-буда
 %%%%
 {acc}the gnoll sergeant
-{m}гнолл-сержант
+{m}гнолла-сержанта
 %%%%
 {acc}the gnoll sergeants
-{pl}гнолл-сержант
+{pl}гноллов-сержантов
 %%%%
 {acc}the gnolls
-{pl}гнолл
+{pl}гноллов
 %%%%
 {acc}the goblin
 {m}гоблина
@@ -12185,7 +12185,7 @@ your yaks
 {pl}гоблинов
 %%%%
 {acc}the gold piece
-{f}золотая монету
+{f}золотую монету
 %%%%
 {acc}the gold pieces
 {pl}золотые монеты
@@ -12221,7 +12221,7 @@ your yaks
 {pl}ручные топоры
 %%%%
 {acc}the hand cannon
-{f}ручная пушку
+{f}ручную пушку
 %%%%
 {acc}the hand cannons
 {pl}ручные пушки
@@ -12242,7 +12242,7 @@ your yaks
 {n}адское крыло
 %%%%
 {acc}the hellwings
-{pl}адских крыло
+{pl}адских крыльев
 %%%%
 {acc}the helmet
 {m}шлем
@@ -12269,7 +12269,7 @@ your yaks
 {pl}лошадей
 %%%%
 {acc}the hound
-{f}гончая
+{f}гончую
 %%%%
 {acc}the hounds
 {pl}гончих
@@ -12359,10 +12359,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {acc}the lich
-{n}лич
+{m}лича
 %%%%
 {acc}the liches
-{pl}лич
+{pl}личей
 %%%%
 {acc}the long sword
 {m}длинный меч
@@ -12386,7 +12386,7 @@ your yaks
 {m}моргенштерн
 %%%%
 {acc}the morningstars
-{pl}моргенштерн
+{pl}моргенштерны
 %%%%
 {acc}the mummies
 {pl}мумий
@@ -12395,16 +12395,16 @@ your yaks
 {f}мумию
 %%%%
 {acc}the naga
-{f}нагого
+{f}нагу
 %%%%
 {acc}the nagas
-{pl}нагих
+{pl}наг
 %%%%
 {acc}the ogre
-{n}огр
+{m}огра
 %%%%
 {acc}the ogres
-{pl}огр
+{pl}огров
 %%%%
 {acc}the orange demon
 {m}оранжевого демона
@@ -12461,10 +12461,10 @@ your yaks
 {pl}орков
 %%%%
 {acc}the phantom
-{m}фантом
+{m}фантома
 %%%%
 {acc}the phantoms
-{pl}фантом
+{pl}фантомов
 %%%%
 {acc}the plate armour
 {m}латный доспех
@@ -12575,10 +12575,10 @@ your yaks
 {pl}боевые посохи
 %%%%
 {acc}the queen bee
-{f}пчелиная матка
+{f}пчелиную матку
 %%%%
 {acc}the queen bees
-{pl}пчелиных матка
+{pl}пчелиных маток
 %%%%
 {acc}the quick blade
 {m}быстрый клинок
@@ -12593,10 +12593,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {acc}the quokka
-{m}квокка
+{f}квокку
 %%%%
 {acc}the quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {acc}the rapier
 {f}рапиру
@@ -12701,10 +12701,10 @@ your yaks
 {pl}шарфы
 %%%%
 {acc}the scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {acc}the scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {acc}the scorpion
 {m}скорпиона
@@ -12848,7 +12848,7 @@ your yaks
 {n}слизистое существо
 %%%%
 {acc}the slime creatures
-{pl}слизистые существо
+{pl}слизистые существа
 %%%%
 {acc}the sling
 {f}пращу
@@ -12893,7 +12893,7 @@ your yaks
 {pl}солнечных демонов
 %%%%
 {acc}the throwing net
-{f}метательная сеть
+{f}метательную сеть
 %%%%
 {acc}the throwing nets
 {pl}метательные сети
@@ -12917,16 +12917,16 @@ your yaks
 {pl}троллей
 %%%%
 {acc}the two-headed ogre
-{n}двухголовый огр
+{m}двухголового огра
 %%%%
 {acc}the two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {acc}the ugly thing
 {n}уродливое существо
 %%%%
 {acc}the ugly things
-{pl}уродливые существо
+{pl}уродливые существа
 %%%%
 {acc}the vampire
 {m}вампира
@@ -12938,7 +12938,7 @@ your yaks
 {n}очень уродливое существо
 %%%%
 {acc}the very ugly things
-{pl}очень уродливые существо
+{pl}очень уродливые существа
 %%%%
 {acc}the wand of acid
 {f}палочку кислоты
@@ -13010,7 +13010,7 @@ your yaks
 {n}умертвие
 %%%%
 {acc}the wights
-{pl}умертвие
+{pl}умертвий
 %%%%
 {acc}the wolf
 {m}волка
@@ -13025,10 +13025,10 @@ your yaks
 {pl}призраков
 %%%%
 {acc}the wyvern
-{f}виверна
+{f}виверну
 %%%%
 {acc}the wyverns
-{pl}виверна
+{pl}виверн
 %%%%
 {acc}the yak
 {m}яка
@@ -13037,7 +13037,7 @@ your yaks
 {pl}яков
 %%%%
 {acc}throwing net
-{f}метательная сеть
+{f}метательную сеть
 %%%%
 {acc}throwing nets
 {pl}метательные сети
@@ -13061,16 +13061,16 @@ your yaks
 {pl}троллей
 %%%%
 {acc}two-headed ogre
-{n}двухголовый огр
+{m}двухголового огра
 %%%%
 {acc}two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {acc}ugly thing
 {n}уродливое существо
 %%%%
 {acc}ugly things
-{pl}уродливые существо
+{pl}уродливые существа
 %%%%
 {acc}vampire
 {m}вампира
@@ -13082,7 +13082,7 @@ your yaks
 {n}очень уродливое существо
 %%%%
 {acc}very ugly things
-{pl}очень уродливые существо
+{pl}очень уродливые существа
 %%%%
 {acc}wand of acid
 {f}палочку кислоты
@@ -13154,7 +13154,7 @@ your yaks
 {n}умертвие
 %%%%
 {acc}wights
-{pl}умертвие
+{pl}умертвий
 %%%%
 {acc}wolf
 {m}волка
@@ -13169,10 +13169,10 @@ your yaks
 {pl}призраков
 %%%%
 {acc}wyvern
-{f}виверна
+{f}виверну
 %%%%
 {acc}wyverns
-{pl}виверна
+{pl}виверн
 %%%%
 {acc}yak
 {m}яка
@@ -13211,10 +13211,10 @@ your yaks
 {pl}амулеты регенерации
 %%%%
 {acc}your ancient lich
-{n}древний лич
+{m}древнего лича
 %%%%
 {acc}your ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {acc}your arbalest
 {m}арбалет
@@ -13241,7 +13241,7 @@ your yaks
 {pl}василисков
 %%%%
 {acc}your bat
-{f}летучая мышь
+{f}летучую мышь
 %%%%
 {acc}your bats
 {pl}летучих мышей
@@ -13259,13 +13259,13 @@ your yaks
 {pl}чёрных медведей
 %%%%
 {acc}your black mamba
-{f}чёрная мамба
+{f}чёрную мамбу
 %%%%
 {acc}your black mambas
-{pl}чёрных мамба
+{pl}чёрных мамб
 %%%%
 {acc}your blink frog
-{f}мерцающая лягушку
+{f}мерцающую лягушку
 %%%%
 {acc}your blink frogs
 {pl}мерцающих лягушек
@@ -13385,10 +13385,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {acc}your deep elf pyromancer
-{f}глубинный эльф-пироманту
+{m}глубинного эльфа-пироманта
 %%%%
 {acc}your deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {acc}your elephant
 {m}слона
@@ -13418,7 +13418,7 @@ your yaks
 {m}фальшион
 %%%%
 {acc}your falchions
-{pl}фальшион
+{pl}фальшионы
 %%%%
 {acc}your fire dragon
 {m}огненного дракона
@@ -13445,28 +13445,28 @@ your yaks
 {pl}морозных великанов
 %%%%
 {acc}your glaive
-{m}глеф
+{f}глефу
 %%%%
 {acc}your glaives
 {pl}глефы
 %%%%
 {acc}your gnoll
-{m}гнолл
+{m}гнолла
 %%%%
 {acc}your gnoll bouda
-{m}гнолл-буда
+{m}гнолла-буды
 %%%%
 {acc}your gnoll boudas
 {pl}гнолл-буда
 %%%%
 {acc}your gnoll sergeant
-{m}гнолл-сержант
+{m}гнолла-сержанта
 %%%%
 {acc}your gnoll sergeants
-{pl}гнолл-сержант
+{pl}гноллов-сержантов
 %%%%
 {acc}your gnolls
-{pl}гнолл
+{pl}гноллов
 %%%%
 {acc}your goblin
 {m}гоблина
@@ -13475,7 +13475,7 @@ your yaks
 {pl}гоблинов
 %%%%
 {acc}your gold piece
-{f}золотая монету
+{f}золотую монету
 %%%%
 {acc}your gold pieces
 {pl}золотые монеты
@@ -13511,7 +13511,7 @@ your yaks
 {pl}ручные топоры
 %%%%
 {acc}your hand cannon
-{f}ручная пушку
+{f}ручную пушку
 %%%%
 {acc}your hand cannons
 {pl}ручные пушки
@@ -13532,7 +13532,7 @@ your yaks
 {n}адское крыло
 %%%%
 {acc}your hellwings
-{pl}адских крыло
+{pl}адских крыльев
 %%%%
 {acc}your helmet
 {m}шлем
@@ -13559,7 +13559,7 @@ your yaks
 {pl}лошадей
 %%%%
 {acc}your hound
-{f}гончая
+{f}гончую
 %%%%
 {acc}your hounds
 {pl}гончих
@@ -13649,10 +13649,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {acc}your lich
-{n}лич
+{m}лича
 %%%%
 {acc}your liches
-{pl}лич
+{pl}личей
 %%%%
 {acc}your long sword
 {m}длинный меч
@@ -13676,7 +13676,7 @@ your yaks
 {m}моргенштерн
 %%%%
 {acc}your morningstars
-{pl}моргенштерн
+{pl}моргенштерны
 %%%%
 {acc}your mummies
 {pl}мумий
@@ -13685,16 +13685,16 @@ your yaks
 {f}мумию
 %%%%
 {acc}your naga
-{f}нагого
+{f}нагу
 %%%%
 {acc}your nagas
-{pl}нагих
+{pl}наг
 %%%%
 {acc}your ogre
-{n}огр
+{m}огра
 %%%%
 {acc}your ogres
-{pl}огр
+{pl}огров
 %%%%
 {acc}your orange demon
 {m}оранжевого демона
@@ -13751,10 +13751,10 @@ your yaks
 {pl}орков
 %%%%
 {acc}your phantom
-{m}фантом
+{m}фантома
 %%%%
 {acc}your phantoms
-{pl}фантом
+{pl}фантомов
 %%%%
 {acc}your plate armour
 {m}латный доспех
@@ -13865,10 +13865,10 @@ your yaks
 {pl}боевые посохи
 %%%%
 {acc}your queen bee
-{f}пчелиная матка
+{f}пчелиную матку
 %%%%
 {acc}your queen bees
-{pl}пчелиных матка
+{pl}пчелиных маток
 %%%%
 {acc}your quick blade
 {m}быстрый клинок
@@ -13883,10 +13883,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {acc}your quokka
-{m}квокка
+{f}квокку
 %%%%
 {acc}your quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {acc}your rapier
 {f}рапиру
@@ -13991,10 +13991,10 @@ your yaks
 {pl}шарфы
 %%%%
 {acc}your scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {acc}your scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {acc}your scorpion
 {m}скорпиона
@@ -14138,7 +14138,7 @@ your yaks
 {n}слизистое существо
 %%%%
 {acc}your slime creatures
-{pl}слизистые существо
+{pl}слизистые существа
 %%%%
 {acc}your sling
 {f}пращу
@@ -14183,7 +14183,7 @@ your yaks
 {pl}солнечных демонов
 %%%%
 {acc}your throwing net
-{f}метательная сеть
+{f}метательную сеть
 %%%%
 {acc}your throwing nets
 {pl}метательные сети
@@ -14207,16 +14207,16 @@ your yaks
 {pl}троллей
 %%%%
 {acc}your two-headed ogre
-{n}двухголовый огр
+{m}двухголового огра
 %%%%
 {acc}your two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {acc}your ugly thing
 {n}уродливое существо
 %%%%
 {acc}your ugly things
-{pl}уродливые существо
+{pl}уродливые существа
 %%%%
 {acc}your vampire
 {m}вампира
@@ -14228,7 +14228,7 @@ your yaks
 {n}очень уродливое существо
 %%%%
 {acc}your very ugly things
-{pl}очень уродливые существо
+{pl}очень уродливые существа
 %%%%
 {acc}your wand of acid
 {f}палочку кислоты
@@ -14300,7 +14300,7 @@ your yaks
 {n}умертвие
 %%%%
 {acc}your wights
-{pl}умертвие
+{pl}умертвий
 %%%%
 {acc}your wolf
 {m}волка
@@ -14315,10 +14315,10 @@ your yaks
 {pl}призраков
 %%%%
 {acc}your wyvern
-{f}виверна
+{f}виверну
 %%%%
 {acc}your wyverns
-{pl}виверна
+{pl}виверн
 %%%%
 {acc}your yak
 {m}яка
@@ -14342,7 +14342,7 @@ your yaks
 @num@ амулетам регенерации
 %%%%
 {dat_few}@num@ ancient liches
-@num@ древним лич
+@num@ древним личам
 %%%%
 {dat_few}@num@ arbalests
 @num@ арбалетам
@@ -14429,7 +14429,7 @@ your yaks
 @num@ глубинным эльфам-рыцарям
 %%%%
 {dat_few}@num@ deep elf pyromancers
-@num@ глубинным эльф-пиромантам
+@num@ глубинным эльфам-пиромантам
 %%%%
 {dat_few}@num@ elephants
 @num@ слонам
@@ -14561,7 +14561,7 @@ your yaks
 @num@ кожаным доспехам
 %%%%
 {dat_few}@num@ liches
-@num@ лич
+@num@ личам
 %%%%
 {dat_few}@num@ long swords
 @num@ длинным мечам
@@ -14579,10 +14579,10 @@ your yaks
 @num@ мумиям
 %%%%
 {dat_few}@num@ nagas
-@num@ нагим
+@num@ нагам
 %%%%
 {dat_few}@num@ ogres
-@num@ огр
+@num@ ограм
 %%%%
 {dat_few}@num@ orange demons
 @num@ оранжевым демонам
@@ -14732,7 +14732,7 @@ your yaks
 @num@ шарфам
 %%%%
 {dat_few}@num@ scimitars
-@num@ скимитар
+@num@ скимитарам
 %%%%
 {dat_few}@num@ scorpions
 @num@ скорпионам
@@ -14840,7 +14840,7 @@ your yaks
 @num@ троллям
 %%%%
 {dat_few}@num@ two-headed ogres
-@num@ двухголовым огр
+@num@ двухголовым ограм
 %%%%
 {dat_few}@num@ ugly things
 @num@ уродливым существам
@@ -14915,7 +14915,7 @@ your yaks
 @num@ амулетам регенерации
 %%%%
 {dat_many}@num@ ancient liches
-@num@ древним лич
+@num@ древним личам
 %%%%
 {dat_many}@num@ arbalests
 @num@ арбалетам
@@ -15002,7 +15002,7 @@ your yaks
 @num@ глубинным эльфам-рыцарям
 %%%%
 {dat_many}@num@ deep elf pyromancers
-@num@ глубинным эльф-пиромантам
+@num@ глубинным эльфам-пиромантам
 %%%%
 {dat_many}@num@ elephants
 @num@ слонам
@@ -15134,7 +15134,7 @@ your yaks
 @num@ кожаным доспехам
 %%%%
 {dat_many}@num@ liches
-@num@ лич
+@num@ личам
 %%%%
 {dat_many}@num@ long swords
 @num@ длинным мечам
@@ -15152,10 +15152,10 @@ your yaks
 @num@ мумиям
 %%%%
 {dat_many}@num@ nagas
-@num@ нагим
+@num@ нагам
 %%%%
 {dat_many}@num@ ogres
-@num@ огр
+@num@ ограм
 %%%%
 {dat_many}@num@ orange demons
 @num@ оранжевым демонам
@@ -15305,7 +15305,7 @@ your yaks
 @num@ шарфам
 %%%%
 {dat_many}@num@ scimitars
-@num@ скимитар
+@num@ скимитарам
 %%%%
 {dat_many}@num@ scorpions
 @num@ скорпионам
@@ -15413,7 +15413,7 @@ your yaks
 @num@ троллям
 %%%%
 {dat_many}@num@ two-headed ogres
-@num@ двухголовым огр
+@num@ двухголовым ограм
 %%%%
 {dat_many}@num@ ugly things
 @num@ уродливым существам
@@ -15488,7 +15488,7 @@ your yaks
 @num@ амулету регенерации
 %%%%
 {dat_one}@num@ ancient liches
-@num@ древнему лич
+@num@ древнему личу
 %%%%
 {dat_one}@num@ arbalests
 @num@ арбалету
@@ -15575,7 +15575,7 @@ your yaks
 @num@ глубинному эльфу-рыцарю
 %%%%
 {dat_one}@num@ deep elf pyromancers
-@num@ глубинной эльф-пироманте
+@num@ глубинному эльфу-пироманту
 %%%%
 {dat_one}@num@ elephants
 @num@ слону
@@ -15605,7 +15605,7 @@ your yaks
 @num@ морозному великану
 %%%%
 {dat_one}@num@ glaives
-@num@ глефу
+@num@ глефе
 %%%%
 {dat_one}@num@ gnoll boudas
 @num@ гноллу-буде
@@ -15707,7 +15707,7 @@ your yaks
 @num@ кожаному доспеху
 %%%%
 {dat_one}@num@ liches
-@num@ лич
+@num@ личу
 %%%%
 {dat_one}@num@ long swords
 @num@ длинному мечу
@@ -15725,10 +15725,10 @@ your yaks
 @num@ мумии
 %%%%
 {dat_one}@num@ nagas
-@num@ нагой
+@num@ наге
 %%%%
 {dat_one}@num@ ogres
-@num@ огр
+@num@ огру
 %%%%
 {dat_one}@num@ orange demons
 @num@ оранжевому демону
@@ -15824,7 +15824,7 @@ your yaks
 @num@ ртутному дракону
 %%%%
 {dat_one}@num@ quokkas
-@num@ квокку
+@num@ квокке
 %%%%
 {dat_one}@num@ rapiers
 @num@ рапире
@@ -15878,7 +15878,7 @@ your yaks
 @num@ шарфу
 %%%%
 {dat_one}@num@ scimitars
-@num@ скимитар
+@num@ скимитару
 %%%%
 {dat_one}@num@ scorpions
 @num@ скорпиону
@@ -15986,7 +15986,7 @@ your yaks
 @num@ троллю
 %%%%
 {dat_one}@num@ two-headed ogres
-@num@ двухголовому огр
+@num@ двухголовому огру
 %%%%
 {dat_one}@num@ ugly things
 @num@ уродливому существу
@@ -16061,7 +16061,7 @@ your yaks
 {m}амулету регенерации
 %%%%
 {dat}a ancient lich
-{n}древнему лич
+{m}древнему личу
 %%%%
 {dat}a arbalest
 {m}арбалету
@@ -16148,7 +16148,7 @@ your yaks
 {m}глубинному эльфу-рыцарю
 %%%%
 {dat}a deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинному эльфу-пироманту
 %%%%
 {dat}a elephant
 {m}слону
@@ -16178,7 +16178,7 @@ your yaks
 {m}морозному великану
 %%%%
 {dat}a glaive
-{m}глефу
+{f}глефе
 %%%%
 {dat}a gnoll
 {m}гноллу
@@ -16280,7 +16280,7 @@ your yaks
 {m}кожаному доспеху
 %%%%
 {dat}a lich
-{n}лич
+{m}личу
 %%%%
 {dat}a long sword
 {m}длинному мечу
@@ -16298,10 +16298,10 @@ your yaks
 {f}мумии
 %%%%
 {dat}a naga
-{f}нагой
+{f}наге
 %%%%
 {dat}a ogre
-{n}огр
+{m}огру
 %%%%
 {dat}a orange demon
 {m}оранжевому демону
@@ -16397,7 +16397,7 @@ your yaks
 {m}ртутному дракону
 %%%%
 {dat}a quokka
-{m}квокку
+{f}квокке
 %%%%
 {dat}a rapier
 {f}рапире
@@ -16451,7 +16451,7 @@ your yaks
 {m}шарфу
 %%%%
 {dat}a scimitar
-{n}скимитар
+{m}скимитару
 %%%%
 {dat}a scorpion
 {m}скорпиону
@@ -16559,7 +16559,7 @@ your yaks
 {m}троллю
 %%%%
 {dat}a two-headed ogre
-{n}двухголовому огр
+{m}двухголовому огру
 %%%%
 {dat}a ugly thing
 {n}уродливому существу
@@ -16664,7 +16664,7 @@ your yaks
 {m}амулету регенерации
 %%%%
 {dat}an ancient lich
-{n}древнему лич
+{m}древнему личу
 %%%%
 {dat}an arbalest
 {m}арбалету
@@ -16751,7 +16751,7 @@ your yaks
 {m}глубинному эльфу-рыцарю
 %%%%
 {dat}an deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинному эльфу-пироманту
 %%%%
 {dat}an elephant
 {m}слону
@@ -16781,7 +16781,7 @@ your yaks
 {m}морозному великану
 %%%%
 {dat}an glaive
-{m}глефу
+{f}глефе
 %%%%
 {dat}an gnoll
 {m}гноллу
@@ -16883,7 +16883,7 @@ your yaks
 {m}кожаному доспеху
 %%%%
 {dat}an lich
-{n}лич
+{m}личу
 %%%%
 {dat}an long sword
 {m}длинному мечу
@@ -16901,10 +16901,10 @@ your yaks
 {f}мумии
 %%%%
 {dat}an naga
-{f}нагой
+{f}наге
 %%%%
 {dat}an ogre
-{n}огр
+{m}огру
 %%%%
 {dat}an orange demon
 {m}оранжевому демону
@@ -17000,7 +17000,7 @@ your yaks
 {m}ртутному дракону
 %%%%
 {dat}an quokka
-{m}квокку
+{f}квокке
 %%%%
 {dat}an rapier
 {f}рапире
@@ -17054,7 +17054,7 @@ your yaks
 {m}шарфу
 %%%%
 {dat}an scimitar
-{n}скимитар
+{m}скимитару
 %%%%
 {dat}an scorpion
 {m}скорпиону
@@ -17162,7 +17162,7 @@ your yaks
 {m}троллю
 %%%%
 {dat}an two-headed ogre
-{n}двухголовому огр
+{m}двухголовому огру
 %%%%
 {dat}an ugly thing
 {n}уродливому существу
@@ -17222,10 +17222,10 @@ your yaks
 {m}яку
 %%%%
 {dat}ancient lich
-{n}древнему лич
+{m}древнему личу
 %%%%
 {dat}ancient liches
-{pl}древним лич
+{pl}древним личам
 %%%%
 {dat}arbalest
 {m}арбалету
@@ -17396,10 +17396,10 @@ your yaks
 {pl}глубинным эльфам-рыцарям
 %%%%
 {dat}deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинному эльфу-пироманту
 %%%%
 {dat}deep elf pyromancers
-{pl}глубинным эльф-пиромантам
+{pl}глубинным эльфам-пиромантам
 %%%%
 {dat}elephant
 {m}слону
@@ -17456,7 +17456,7 @@ your yaks
 {pl}морозным великанам
 %%%%
 {dat}glaive
-{m}глефу
+{f}глефе
 %%%%
 {dat}glaives
 {pl}глефам
@@ -17660,10 +17660,10 @@ your yaks
 {pl}кожаным доспехам
 %%%%
 {dat}lich
-{n}лич
+{m}личу
 %%%%
 {dat}liches
-{pl}лич
+{pl}личам
 %%%%
 {dat}long sword
 {m}длинному мечу
@@ -17696,16 +17696,16 @@ your yaks
 {f}мумии
 %%%%
 {dat}naga
-{f}нагой
+{f}наге
 %%%%
 {dat}nagas
-{pl}нагим
+{pl}нагам
 %%%%
 {dat}ogre
-{n}огр
+{m}огру
 %%%%
 {dat}ogres
-{pl}огр
+{pl}ограм
 %%%%
 {dat}orange demon
 {m}оранжевому демону
@@ -17894,7 +17894,7 @@ your yaks
 {pl}ртутным драконам
 %%%%
 {dat}quokka
-{m}квокку
+{f}квокке
 %%%%
 {dat}quokkas
 {pl}квоккам
@@ -18002,10 +18002,10 @@ your yaks
 {pl}шарфам
 %%%%
 {dat}scimitar
-{n}скимитар
+{m}скимитару
 %%%%
 {dat}scimitars
-{pl}скимитар
+{pl}скимитарам
 %%%%
 {dat}scorpion
 {m}скорпиону
@@ -18224,10 +18224,10 @@ your yaks
 {pl}амулетам регенерации
 %%%%
 {dat}the ancient lich
-{n}древнему лич
+{m}древнему личу
 %%%%
 {dat}the ancient liches
-{pl}древним лич
+{pl}древним личам
 %%%%
 {dat}the arbalest
 {m}арбалету
@@ -18398,10 +18398,10 @@ your yaks
 {pl}глубинным эльфам-рыцарям
 %%%%
 {dat}the deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинному эльфу-пироманту
 %%%%
 {dat}the deep elf pyromancers
-{pl}глубинным эльф-пиромантам
+{pl}глубинным эльфам-пиромантам
 %%%%
 {dat}the elephant
 {m}слону
@@ -18458,7 +18458,7 @@ your yaks
 {pl}морозным великанам
 %%%%
 {dat}the glaive
-{m}глефу
+{f}глефе
 %%%%
 {dat}the glaives
 {pl}глефам
@@ -18662,10 +18662,10 @@ your yaks
 {pl}кожаным доспехам
 %%%%
 {dat}the lich
-{n}лич
+{m}личу
 %%%%
 {dat}the liches
-{pl}лич
+{pl}личам
 %%%%
 {dat}the long sword
 {m}длинному мечу
@@ -18698,16 +18698,16 @@ your yaks
 {f}мумии
 %%%%
 {dat}the naga
-{f}нагой
+{f}наге
 %%%%
 {dat}the nagas
-{pl}нагим
+{pl}нагам
 %%%%
 {dat}the ogre
-{n}огр
+{m}огру
 %%%%
 {dat}the ogres
-{pl}огр
+{pl}ограм
 %%%%
 {dat}the orange demon
 {m}оранжевому демону
@@ -18896,7 +18896,7 @@ your yaks
 {pl}ртутным драконам
 %%%%
 {dat}the quokka
-{m}квокку
+{f}квокке
 %%%%
 {dat}the quokkas
 {pl}квоккам
@@ -19004,10 +19004,10 @@ your yaks
 {pl}шарфам
 %%%%
 {dat}the scimitar
-{n}скимитар
+{m}скимитару
 %%%%
 {dat}the scimitars
-{pl}скимитар
+{pl}скимитарам
 %%%%
 {dat}the scorpion
 {m}скорпиону
@@ -19220,10 +19220,10 @@ your yaks
 {pl}троллям
 %%%%
 {dat}the two-headed ogre
-{n}двухголовому огр
+{m}двухголовому огру
 %%%%
 {dat}the two-headed ogres
-{pl}двухголовым огр
+{pl}двухголовым ограм
 %%%%
 {dat}the ugly thing
 {n}уродливому существу
@@ -19364,10 +19364,10 @@ your yaks
 {pl}троллям
 %%%%
 {dat}two-headed ogre
-{n}двухголовому огр
+{m}двухголовому огру
 %%%%
 {dat}two-headed ogres
-{pl}двухголовым огр
+{pl}двухголовым ограм
 %%%%
 {dat}ugly thing
 {n}уродливому существу
@@ -19514,10 +19514,10 @@ your yaks
 {pl}амулетам регенерации
 %%%%
 {dat}your ancient lich
-{n}древнему лич
+{m}древнему личу
 %%%%
 {dat}your ancient liches
-{pl}древним лич
+{pl}древним личам
 %%%%
 {dat}your arbalest
 {m}арбалету
@@ -19688,10 +19688,10 @@ your yaks
 {pl}глубинным эльфам-рыцарям
 %%%%
 {dat}your deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинному эльфу-пироманту
 %%%%
 {dat}your deep elf pyromancers
-{pl}глубинным эльф-пиромантам
+{pl}глубинным эльфам-пиромантам
 %%%%
 {dat}your elephant
 {m}слону
@@ -19748,7 +19748,7 @@ your yaks
 {pl}морозным великанам
 %%%%
 {dat}your glaive
-{m}глефу
+{f}глефе
 %%%%
 {dat}your glaives
 {pl}глефам
@@ -19952,10 +19952,10 @@ your yaks
 {pl}кожаным доспехам
 %%%%
 {dat}your lich
-{n}лич
+{m}личу
 %%%%
 {dat}your liches
-{pl}лич
+{pl}личам
 %%%%
 {dat}your long sword
 {m}длинному мечу
@@ -19988,16 +19988,16 @@ your yaks
 {f}мумии
 %%%%
 {dat}your naga
-{f}нагой
+{f}наге
 %%%%
 {dat}your nagas
-{pl}нагим
+{pl}нагам
 %%%%
 {dat}your ogre
-{n}огр
+{m}огру
 %%%%
 {dat}your ogres
-{pl}огр
+{pl}ограм
 %%%%
 {dat}your orange demon
 {m}оранжевому демону
@@ -20186,7 +20186,7 @@ your yaks
 {pl}ртутным драконам
 %%%%
 {dat}your quokka
-{m}квокку
+{f}квокке
 %%%%
 {dat}your quokkas
 {pl}квоккам
@@ -20294,10 +20294,10 @@ your yaks
 {pl}шарфам
 %%%%
 {dat}your scimitar
-{n}скимитар
+{m}скимитару
 %%%%
 {dat}your scimitars
-{pl}скимитар
+{pl}скимитарам
 %%%%
 {dat}your scorpion
 {m}скорпиону
@@ -20510,10 +20510,10 @@ your yaks
 {pl}троллям
 %%%%
 {dat}your two-headed ogre
-{n}двухголовому огр
+{m}двухголовому огру
 %%%%
 {dat}your two-headed ogres
-{pl}двухголовым огр
+{pl}двухголовым ограм
 %%%%
 {dat}your ugly thing
 {n}уродливому существу
@@ -20645,7 +20645,7 @@ your yaks
 @num@ амулета регенерации
 %%%%
 {few}@num@ ancient liches
-@num@ древнего лич
+@num@ древнего лича
 %%%%
 {few}@num@ arbalests
 @num@ арбалета
@@ -20732,7 +20732,7 @@ your yaks
 @num@ глубинного эльфа-рыцаря
 %%%%
 {few}@num@ deep elf pyromancers
-@num@ глубинной эльф-пироманты
+@num@ глубинного эльфа-пироманта
 %%%%
 {few}@num@ elephants
 @num@ слона
@@ -20762,7 +20762,7 @@ your yaks
 @num@ морозного великана
 %%%%
 {few}@num@ glaives
-@num@ глефа
+@num@ глефы
 %%%%
 {few}@num@ gnoll boudas
 @num@ гнолла-буды
@@ -20864,7 +20864,7 @@ your yaks
 @num@ кожаного доспеха
 %%%%
 {few}@num@ liches
-@num@ лич
+@num@ лича
 %%%%
 {few}@num@ long swords
 @num@ длинного меча
@@ -20882,10 +20882,10 @@ your yaks
 @num@ мумии
 %%%%
 {few}@num@ nagas
-@num@ нагой
+@num@ наги
 %%%%
 {few}@num@ ogres
-@num@ огр
+@num@ огра
 %%%%
 {few}@num@ orange demons
 @num@ оранжевого демона
@@ -20981,7 +20981,7 @@ your yaks
 @num@ ртутного дракона
 %%%%
 {few}@num@ quokkas
-@num@ квокка
+@num@ квокки
 %%%%
 {few}@num@ rapiers
 @num@ рапиры
@@ -21035,7 +21035,7 @@ your yaks
 @num@ шарфа
 %%%%
 {few}@num@ scimitars
-@num@ скимитар
+@num@ скимитара
 %%%%
 {few}@num@ scorpions
 @num@ скорпиона
@@ -21143,7 +21143,7 @@ your yaks
 @num@ тролля
 %%%%
 {few}@num@ two-headed ogres
-@num@ двухголового огр
+@num@ двухголового огра
 %%%%
 {few}@num@ ugly things
 @num@ уродливого существа
@@ -21218,7 +21218,7 @@ your yaks
 @num@ амулетов регенерации
 %%%%
 {gen_few}@num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 {gen_few}@num@ arbalests
 @num@ арбалетов
@@ -21305,7 +21305,7 @@ your yaks
 @num@ глубинных эльфов-рыцарей
 %%%%
 {gen_few}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 {gen_few}@num@ elephants
 @num@ слонов
@@ -21335,7 +21335,7 @@ your yaks
 @num@ морозных великанов
 %%%%
 {gen_few}@num@ glaives
-@num@ глефов
+@num@ глеф
 %%%%
 {gen_few}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -21437,7 +21437,7 @@ your yaks
 @num@ кожаных доспехов
 %%%%
 {gen_few}@num@ liches
-@num@ лич
+@num@ личей
 %%%%
 {gen_few}@num@ long swords
 @num@ длинных мечей
@@ -21455,10 +21455,10 @@ your yaks
 @num@ мумий
 %%%%
 {gen_few}@num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 {gen_few}@num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 {gen_few}@num@ orange demons
 @num@ оранжевых демонов
@@ -21554,7 +21554,7 @@ your yaks
 @num@ ртутных драконов
 %%%%
 {gen_few}@num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 {gen_few}@num@ rapiers
 @num@ рапир
@@ -21608,7 +21608,7 @@ your yaks
 @num@ шарфов
 %%%%
 {gen_few}@num@ scimitars
-@num@ скимитар
+@num@ скимитаров
 %%%%
 {gen_few}@num@ scorpions
 @num@ скорпионов
@@ -21716,7 +21716,7 @@ your yaks
 @num@ троллей
 %%%%
 {gen_few}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 {gen_few}@num@ ugly things
 @num@ уродливых существ
@@ -21791,7 +21791,7 @@ your yaks
 @num@ амулетов регенерации
 %%%%
 {gen_many}@num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 {gen_many}@num@ arbalests
 @num@ арбалетов
@@ -21878,7 +21878,7 @@ your yaks
 @num@ глубинных эльфов-рыцарей
 %%%%
 {gen_many}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 {gen_many}@num@ elephants
 @num@ слонов
@@ -21908,7 +21908,7 @@ your yaks
 @num@ морозных великанов
 %%%%
 {gen_many}@num@ glaives
-@num@ глефов
+@num@ глеф
 %%%%
 {gen_many}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -22010,7 +22010,7 @@ your yaks
 @num@ кожаных доспехов
 %%%%
 {gen_many}@num@ liches
-@num@ лич
+@num@ личей
 %%%%
 {gen_many}@num@ long swords
 @num@ длинных мечей
@@ -22028,10 +22028,10 @@ your yaks
 @num@ мумий
 %%%%
 {gen_many}@num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 {gen_many}@num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 {gen_many}@num@ orange demons
 @num@ оранжевых демонов
@@ -22127,7 +22127,7 @@ your yaks
 @num@ ртутных драконов
 %%%%
 {gen_many}@num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 {gen_many}@num@ rapiers
 @num@ рапир
@@ -22181,7 +22181,7 @@ your yaks
 @num@ шарфов
 %%%%
 {gen_many}@num@ scimitars
-@num@ скимитар
+@num@ скимитаров
 %%%%
 {gen_many}@num@ scorpions
 @num@ скорпионов
@@ -22289,7 +22289,7 @@ your yaks
 @num@ троллей
 %%%%
 {gen_many}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 {gen_many}@num@ ugly things
 @num@ уродливых существ
@@ -22364,7 +22364,7 @@ your yaks
 @num@ амулета регенерации
 %%%%
 {gen_one}@num@ ancient liches
-@num@ древнего лич
+@num@ древнего лича
 %%%%
 {gen_one}@num@ arbalests
 @num@ арбалета
@@ -22451,7 +22451,7 @@ your yaks
 @num@ глубинного эльфа-рыцаря
 %%%%
 {gen_one}@num@ deep elf pyromancers
-@num@ глубинной эльф-пироманты
+@num@ глубинного эльфа-пироманта
 %%%%
 {gen_one}@num@ elephants
 @num@ слона
@@ -22481,7 +22481,7 @@ your yaks
 @num@ морозного великана
 %%%%
 {gen_one}@num@ glaives
-@num@ глефа
+@num@ глефы
 %%%%
 {gen_one}@num@ gnoll boudas
 @num@ гнолла-буды
@@ -22583,7 +22583,7 @@ your yaks
 @num@ кожаного доспеха
 %%%%
 {gen_one}@num@ liches
-@num@ лич
+@num@ лича
 %%%%
 {gen_one}@num@ long swords
 @num@ длинного меча
@@ -22601,10 +22601,10 @@ your yaks
 @num@ мумии
 %%%%
 {gen_one}@num@ nagas
-@num@ нагой
+@num@ наги
 %%%%
 {gen_one}@num@ ogres
-@num@ огр
+@num@ огра
 %%%%
 {gen_one}@num@ orange demons
 @num@ оранжевого демона
@@ -22700,7 +22700,7 @@ your yaks
 @num@ ртутного дракона
 %%%%
 {gen_one}@num@ quokkas
-@num@ квокка
+@num@ квокки
 %%%%
 {gen_one}@num@ rapiers
 @num@ рапиры
@@ -22754,7 +22754,7 @@ your yaks
 @num@ шарфа
 %%%%
 {gen_one}@num@ scimitars
-@num@ скимитар
+@num@ скимитара
 %%%%
 {gen_one}@num@ scorpions
 @num@ скорпиона
@@ -22862,7 +22862,7 @@ your yaks
 @num@ тролля
 %%%%
 {gen_one}@num@ two-headed ogres
-@num@ двухголового огр
+@num@ двухголового огра
 %%%%
 {gen_one}@num@ ugly things
 @num@ уродливого существа
@@ -22937,7 +22937,7 @@ your yaks
 {m}амулета регенерации
 %%%%
 {gen}a ancient lich
-{n}древнего лич
+{m}древнего лича
 %%%%
 {gen}a arbalest
 {m}арбалета
@@ -23024,7 +23024,7 @@ your yaks
 {m}глубинного эльфа-рыцаря
 %%%%
 {gen}a deep elf pyromancer
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 {gen}a elephant
 {m}слона
@@ -23054,7 +23054,7 @@ your yaks
 {m}морозного великана
 %%%%
 {gen}a glaive
-{m}глефа
+{f}глефы
 %%%%
 {gen}a gnoll
 {m}гнолла
@@ -23156,7 +23156,7 @@ your yaks
 {m}кожаного доспеха
 %%%%
 {gen}a lich
-{n}лич
+{m}лича
 %%%%
 {gen}a long sword
 {m}длинного меча
@@ -23174,10 +23174,10 @@ your yaks
 {f}мумии
 %%%%
 {gen}a naga
-{f}нагой
+{f}наги
 %%%%
 {gen}a ogre
-{n}огр
+{m}огра
 %%%%
 {gen}a orange demon
 {m}оранжевого демона
@@ -23273,7 +23273,7 @@ your yaks
 {m}ртутного дракона
 %%%%
 {gen}a quokka
-{m}квокка
+{f}квокки
 %%%%
 {gen}a rapier
 {f}рапиры
@@ -23327,7 +23327,7 @@ your yaks
 {m}шарфа
 %%%%
 {gen}a scimitar
-{n}скимитар
+{m}скимитара
 %%%%
 {gen}a scorpion
 {m}скорпиона
@@ -23435,7 +23435,7 @@ your yaks
 {m}тролля
 %%%%
 {gen}a two-headed ogre
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 {gen}a ugly thing
 {n}уродливого существа
@@ -23540,7 +23540,7 @@ your yaks
 {m}амулета регенерации
 %%%%
 {gen}an ancient lich
-{n}древнего лич
+{m}древнего лича
 %%%%
 {gen}an arbalest
 {m}арбалета
@@ -23627,7 +23627,7 @@ your yaks
 {m}глубинного эльфа-рыцаря
 %%%%
 {gen}an deep elf pyromancer
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 {gen}an elephant
 {m}слона
@@ -23657,7 +23657,7 @@ your yaks
 {m}морозного великана
 %%%%
 {gen}an glaive
-{m}глефа
+{f}глефы
 %%%%
 {gen}an gnoll
 {m}гнолла
@@ -23759,7 +23759,7 @@ your yaks
 {m}кожаного доспеха
 %%%%
 {gen}an lich
-{n}лич
+{m}лича
 %%%%
 {gen}an long sword
 {m}длинного меча
@@ -23777,10 +23777,10 @@ your yaks
 {f}мумии
 %%%%
 {gen}an naga
-{f}нагой
+{f}наги
 %%%%
 {gen}an ogre
-{n}огр
+{m}огра
 %%%%
 {gen}an orange demon
 {m}оранжевого демона
@@ -23876,7 +23876,7 @@ your yaks
 {m}ртутного дракона
 %%%%
 {gen}an quokka
-{m}квокка
+{f}квокки
 %%%%
 {gen}an rapier
 {f}рапиры
@@ -23930,7 +23930,7 @@ your yaks
 {m}шарфа
 %%%%
 {gen}an scimitar
-{n}скимитар
+{m}скимитара
 %%%%
 {gen}an scorpion
 {m}скорпиона
@@ -24038,7 +24038,7 @@ your yaks
 {m}тролля
 %%%%
 {gen}an two-headed ogre
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 {gen}an ugly thing
 {n}уродливого существа
@@ -24098,10 +24098,10 @@ your yaks
 {m}яка
 %%%%
 {gen}ancient lich
-{n}древнего лич
+{m}древнего лича
 %%%%
 {gen}ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {gen}arbalest
 {m}арбалета
@@ -24272,10 +24272,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {gen}deep elf pyromancer
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 {gen}deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {gen}elephant
 {m}слона
@@ -24332,10 +24332,10 @@ your yaks
 {pl}морозных великанов
 %%%%
 {gen}glaive
-{m}глефа
+{f}глефы
 %%%%
 {gen}glaives
-{pl}глефов
+{pl}глеф
 %%%%
 {gen}gnoll
 {m}гнолла
@@ -24536,10 +24536,10 @@ your yaks
 {pl}кожаных доспехов
 %%%%
 {gen}lich
-{n}лич
+{m}лича
 %%%%
 {gen}liches
-{pl}лич
+{pl}личей
 %%%%
 {gen}long sword
 {m}длинного меча
@@ -24572,16 +24572,16 @@ your yaks
 {f}мумии
 %%%%
 {gen}naga
-{f}нагой
+{f}наги
 %%%%
 {gen}nagas
-{pl}нагих
+{pl}наг
 %%%%
 {gen}ogre
-{n}огр
+{m}огра
 %%%%
 {gen}ogres
-{pl}огр
+{pl}огров
 %%%%
 {gen}orange demon
 {m}оранжевого демона
@@ -24770,10 +24770,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {gen}quokka
-{m}квокка
+{f}квокки
 %%%%
 {gen}quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {gen}rapier
 {f}рапиры
@@ -24878,10 +24878,10 @@ your yaks
 {pl}шарфов
 %%%%
 {gen}scimitar
-{n}скимитар
+{m}скимитара
 %%%%
 {gen}scimitars
-{pl}скимитар
+{pl}скимитаров
 %%%%
 {gen}scorpion
 {m}скорпиона
@@ -25100,10 +25100,10 @@ your yaks
 {pl}амулетов регенерации
 %%%%
 {gen}the ancient lich
-{n}древнего лич
+{m}древнего лича
 %%%%
 {gen}the ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {gen}the arbalest
 {m}арбалета
@@ -25274,10 +25274,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {gen}the deep elf pyromancer
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 {gen}the deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {gen}the elephant
 {m}слона
@@ -25334,10 +25334,10 @@ your yaks
 {pl}морозных великанов
 %%%%
 {gen}the glaive
-{m}глефа
+{f}глефы
 %%%%
 {gen}the glaives
-{pl}глефов
+{pl}глеф
 %%%%
 {gen}the gnoll
 {m}гнолла
@@ -25538,10 +25538,10 @@ your yaks
 {pl}кожаных доспехов
 %%%%
 {gen}the lich
-{n}лич
+{m}лича
 %%%%
 {gen}the liches
-{pl}лич
+{pl}личей
 %%%%
 {gen}the long sword
 {m}длинного меча
@@ -25574,16 +25574,16 @@ your yaks
 {f}мумии
 %%%%
 {gen}the naga
-{f}нагой
+{f}наги
 %%%%
 {gen}the nagas
-{pl}нагих
+{pl}наг
 %%%%
 {gen}the ogre
-{n}огр
+{m}огра
 %%%%
 {gen}the ogres
-{pl}огр
+{pl}огров
 %%%%
 {gen}the orange demon
 {m}оранжевого демона
@@ -25772,10 +25772,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {gen}the quokka
-{m}квокка
+{f}квокки
 %%%%
 {gen}the quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {gen}the rapier
 {f}рапиры
@@ -25880,10 +25880,10 @@ your yaks
 {pl}шарфов
 %%%%
 {gen}the scimitar
-{n}скимитар
+{m}скимитара
 %%%%
 {gen}the scimitars
-{pl}скимитар
+{pl}скимитаров
 %%%%
 {gen}the scorpion
 {m}скорпиона
@@ -26096,10 +26096,10 @@ your yaks
 {pl}троллей
 %%%%
 {gen}the two-headed ogre
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 {gen}the two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {gen}the ugly thing
 {n}уродливого существа
@@ -26240,10 +26240,10 @@ your yaks
 {pl}троллей
 %%%%
 {gen}two-headed ogre
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 {gen}two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {gen}ugly thing
 {n}уродливого существа
@@ -26390,10 +26390,10 @@ your yaks
 {pl}амулетов регенерации
 %%%%
 {gen}your ancient lich
-{n}древнего лич
+{m}древнего лича
 %%%%
 {gen}your ancient liches
-{pl}древних лич
+{pl}древних личей
 %%%%
 {gen}your arbalest
 {m}арбалета
@@ -26564,10 +26564,10 @@ your yaks
 {pl}глубинных эльфов-рыцарей
 %%%%
 {gen}your deep elf pyromancer
-{f}глубинной эльф-пироманты
+{m}глубинного эльфа-пироманта
 %%%%
 {gen}your deep elf pyromancers
-{pl}глубинных эльф-пиромант
+{pl}глубинных эльфов-пиромантов
 %%%%
 {gen}your elephant
 {m}слона
@@ -26624,10 +26624,10 @@ your yaks
 {pl}морозных великанов
 %%%%
 {gen}your glaive
-{m}глефа
+{f}глефы
 %%%%
 {gen}your glaives
-{pl}глефов
+{pl}глеф
 %%%%
 {gen}your gnoll
 {m}гнолла
@@ -26828,10 +26828,10 @@ your yaks
 {pl}кожаных доспехов
 %%%%
 {gen}your lich
-{n}лич
+{m}лича
 %%%%
 {gen}your liches
-{pl}лич
+{pl}личей
 %%%%
 {gen}your long sword
 {m}длинного меча
@@ -26864,16 +26864,16 @@ your yaks
 {f}мумии
 %%%%
 {gen}your naga
-{f}нагой
+{f}наги
 %%%%
 {gen}your nagas
-{pl}нагих
+{pl}наг
 %%%%
 {gen}your ogre
-{n}огр
+{m}огра
 %%%%
 {gen}your ogres
-{pl}огр
+{pl}огров
 %%%%
 {gen}your orange demon
 {m}оранжевого демона
@@ -27062,10 +27062,10 @@ your yaks
 {pl}ртутных драконов
 %%%%
 {gen}your quokka
-{m}квокка
+{f}квокки
 %%%%
 {gen}your quokkas
-{pl}квокков
+{pl}квокк
 %%%%
 {gen}your rapier
 {f}рапиры
@@ -27170,10 +27170,10 @@ your yaks
 {pl}шарфов
 %%%%
 {gen}your scimitar
-{n}скимитар
+{m}скимитара
 %%%%
 {gen}your scimitars
-{pl}скимитар
+{pl}скимитаров
 %%%%
 {gen}your scorpion
 {m}скорпиона
@@ -27386,10 +27386,10 @@ your yaks
 {pl}троллей
 %%%%
 {gen}your two-headed ogre
-{n}двухголового огр
+{m}двухголового огра
 %%%%
 {gen}your two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых огров
 %%%%
 {gen}your ugly thing
 {n}уродливого существа
@@ -27521,7 +27521,7 @@ your yaks
 @num@ амулетами регенерации
 %%%%
 {ins_few}@num@ ancient liches
-@num@ древними лич
+@num@ древними личами
 %%%%
 {ins_few}@num@ arbalests
 @num@ арбалетами
@@ -27608,7 +27608,7 @@ your yaks
 @num@ глубинными эльфами-рыцарями
 %%%%
 {ins_few}@num@ deep elf pyromancers
-@num@ глубинными эльф-пиромантами
+@num@ глубинными эльфами-пиромантами
 %%%%
 {ins_few}@num@ elephants
 @num@ слонами
@@ -27740,7 +27740,7 @@ your yaks
 @num@ кожаными доспехами
 %%%%
 {ins_few}@num@ liches
-@num@ лич
+@num@ личами
 %%%%
 {ins_few}@num@ long swords
 @num@ длинными мечами
@@ -27758,10 +27758,10 @@ your yaks
 @num@ мумиями
 %%%%
 {ins_few}@num@ nagas
-@num@ нагими
+@num@ нагами
 %%%%
 {ins_few}@num@ ogres
-@num@ огр
+@num@ ограми
 %%%%
 {ins_few}@num@ orange demons
 @num@ оранжевыми демонами
@@ -27911,7 +27911,7 @@ your yaks
 @num@ шарфами
 %%%%
 {ins_few}@num@ scimitars
-@num@ скимитар
+@num@ скимитарами
 %%%%
 {ins_few}@num@ scorpions
 @num@ скорпионами
@@ -28019,7 +28019,7 @@ your yaks
 @num@ троллями
 %%%%
 {ins_few}@num@ two-headed ogres
-@num@ двухголовыми огр
+@num@ двухголовыми ограми
 %%%%
 {ins_few}@num@ ugly things
 @num@ уродливыми существами
@@ -28094,7 +28094,7 @@ your yaks
 @num@ амулетами регенерации
 %%%%
 {ins_many}@num@ ancient liches
-@num@ древними лич
+@num@ древними личами
 %%%%
 {ins_many}@num@ arbalests
 @num@ арбалетами
@@ -28181,7 +28181,7 @@ your yaks
 @num@ глубинными эльфами-рыцарями
 %%%%
 {ins_many}@num@ deep elf pyromancers
-@num@ глубинными эльф-пиромантами
+@num@ глубинными эльфами-пиромантами
 %%%%
 {ins_many}@num@ elephants
 @num@ слонами
@@ -28313,7 +28313,7 @@ your yaks
 @num@ кожаными доспехами
 %%%%
 {ins_many}@num@ liches
-@num@ лич
+@num@ личами
 %%%%
 {ins_many}@num@ long swords
 @num@ длинными мечами
@@ -28331,10 +28331,10 @@ your yaks
 @num@ мумиями
 %%%%
 {ins_many}@num@ nagas
-@num@ нагими
+@num@ нагами
 %%%%
 {ins_many}@num@ ogres
-@num@ огр
+@num@ ограми
 %%%%
 {ins_many}@num@ orange demons
 @num@ оранжевыми демонами
@@ -28484,7 +28484,7 @@ your yaks
 @num@ шарфами
 %%%%
 {ins_many}@num@ scimitars
-@num@ скимитар
+@num@ скимитарами
 %%%%
 {ins_many}@num@ scorpions
 @num@ скорпионами
@@ -28592,7 +28592,7 @@ your yaks
 @num@ троллями
 %%%%
 {ins_many}@num@ two-headed ogres
-@num@ двухголовыми огр
+@num@ двухголовыми ограми
 %%%%
 {ins_many}@num@ ugly things
 @num@ уродливыми существами
@@ -28667,7 +28667,7 @@ your yaks
 @num@ амулетом регенерации
 %%%%
 {ins_one}@num@ ancient liches
-@num@ древним лич
+@num@ древним личем
 %%%%
 {ins_one}@num@ arbalests
 @num@ арбалетом
@@ -28754,7 +28754,7 @@ your yaks
 @num@ глубинным эльфом-рыцарем
 %%%%
 {ins_one}@num@ deep elf pyromancers
-@num@ глубинной эльф-пиромантой
+@num@ глубинным эльфом-пиромантом
 %%%%
 {ins_one}@num@ elephants
 @num@ слоном
@@ -28784,7 +28784,7 @@ your yaks
 @num@ морозным великаном
 %%%%
 {ins_one}@num@ glaives
-@num@ глефом
+@num@ глефой
 %%%%
 {ins_one}@num@ gnoll boudas
 @num@ гноллом-будой
@@ -28886,7 +28886,7 @@ your yaks
 @num@ кожаным доспехом
 %%%%
 {ins_one}@num@ liches
-@num@ лич
+@num@ личем
 %%%%
 {ins_one}@num@ long swords
 @num@ длинным мечом
@@ -28907,7 +28907,7 @@ your yaks
 @num@ нагой
 %%%%
 {ins_one}@num@ ogres
-@num@ огр
+@num@ огром
 %%%%
 {ins_one}@num@ orange demons
 @num@ оранжевым демоном
@@ -29003,7 +29003,7 @@ your yaks
 @num@ ртутным драконом
 %%%%
 {ins_one}@num@ quokkas
-@num@ квокком
+@num@ квоккой
 %%%%
 {ins_one}@num@ rapiers
 @num@ рапирой
@@ -29057,7 +29057,7 @@ your yaks
 @num@ шарфом
 %%%%
 {ins_one}@num@ scimitars
-@num@ скимитар
+@num@ скимитаром
 %%%%
 {ins_one}@num@ scorpions
 @num@ скорпионом
@@ -29165,7 +29165,7 @@ your yaks
 @num@ троллем
 %%%%
 {ins_one}@num@ two-headed ogres
-@num@ двухголовым огр
+@num@ двухголовым огром
 %%%%
 {ins_one}@num@ ugly things
 @num@ уродливым существом
@@ -29240,7 +29240,7 @@ your yaks
 {m}амулетом регенерации
 %%%%
 {ins}a ancient lich
-{n}древним лич
+{m}древним личем
 %%%%
 {ins}a arbalest
 {m}арбалетом
@@ -29327,7 +29327,7 @@ your yaks
 {m}глубинным эльфом-рыцарем
 %%%%
 {ins}a deep elf pyromancer
-{f}глубинной эльф-пиромантой
+{m}глубинным эльфом-пиромантом
 %%%%
 {ins}a elephant
 {m}слоном
@@ -29357,7 +29357,7 @@ your yaks
 {m}морозным великаном
 %%%%
 {ins}a glaive
-{m}глефом
+{f}глефой
 %%%%
 {ins}a gnoll
 {m}гноллом
@@ -29459,7 +29459,7 @@ your yaks
 {m}кожаным доспехом
 %%%%
 {ins}a lich
-{n}лич
+{m}личем
 %%%%
 {ins}a long sword
 {m}длинным мечом
@@ -29480,7 +29480,7 @@ your yaks
 {f}нагой
 %%%%
 {ins}a ogre
-{n}огр
+{m}огром
 %%%%
 {ins}a orange demon
 {m}оранжевым демоном
@@ -29576,7 +29576,7 @@ your yaks
 {m}ртутным драконом
 %%%%
 {ins}a quokka
-{m}квокком
+{f}квоккой
 %%%%
 {ins}a rapier
 {f}рапирой
@@ -29630,7 +29630,7 @@ your yaks
 {m}шарфом
 %%%%
 {ins}a scimitar
-{n}скимитар
+{m}скимитаром
 %%%%
 {ins}a scorpion
 {m}скорпионом
@@ -29738,7 +29738,7 @@ your yaks
 {m}троллем
 %%%%
 {ins}a two-headed ogre
-{n}двухголовым огр
+{m}двухголовым огром
 %%%%
 {ins}a ugly thing
 {n}уродливым существом
@@ -29843,7 +29843,7 @@ your yaks
 {m}амулетом регенерации
 %%%%
 {ins}an ancient lich
-{n}древним лич
+{m}древним личем
 %%%%
 {ins}an arbalest
 {m}арбалетом
@@ -29930,7 +29930,7 @@ your yaks
 {m}глубинным эльфом-рыцарем
 %%%%
 {ins}an deep elf pyromancer
-{f}глубинной эльф-пиромантой
+{m}глубинным эльфом-пиромантом
 %%%%
 {ins}an elephant
 {m}слоном
@@ -29960,7 +29960,7 @@ your yaks
 {m}морозным великаном
 %%%%
 {ins}an glaive
-{m}глефом
+{f}глефой
 %%%%
 {ins}an gnoll
 {m}гноллом
@@ -30062,7 +30062,7 @@ your yaks
 {m}кожаным доспехом
 %%%%
 {ins}an lich
-{n}лич
+{m}личем
 %%%%
 {ins}an long sword
 {m}длинным мечом
@@ -30083,7 +30083,7 @@ your yaks
 {f}нагой
 %%%%
 {ins}an ogre
-{n}огр
+{m}огром
 %%%%
 {ins}an orange demon
 {m}оранжевым демоном
@@ -30179,7 +30179,7 @@ your yaks
 {m}ртутным драконом
 %%%%
 {ins}an quokka
-{m}квокком
+{f}квоккой
 %%%%
 {ins}an rapier
 {f}рапирой
@@ -30233,7 +30233,7 @@ your yaks
 {m}шарфом
 %%%%
 {ins}an scimitar
-{n}скимитар
+{m}скимитаром
 %%%%
 {ins}an scorpion
 {m}скорпионом
@@ -30341,7 +30341,7 @@ your yaks
 {m}троллем
 %%%%
 {ins}an two-headed ogre
-{n}двухголовым огр
+{m}двухголовым огром
 %%%%
 {ins}an ugly thing
 {n}уродливым существом
@@ -30401,10 +30401,10 @@ your yaks
 {m}яком
 %%%%
 {ins}ancient lich
-{n}древним лич
+{m}древним личем
 %%%%
 {ins}ancient liches
-{pl}древними лич
+{pl}древними личами
 %%%%
 {ins}arbalest
 {m}арбалетом
@@ -30575,10 +30575,10 @@ your yaks
 {pl}глубинными эльфами-рыцарями
 %%%%
 {ins}deep elf pyromancer
-{f}глубинной эльф-пиромантой
+{m}глубинным эльфом-пиромантом
 %%%%
 {ins}deep elf pyromancers
-{pl}глубинными эльф-пиромантами
+{pl}глубинными эльфами-пиромантами
 %%%%
 {ins}elephant
 {m}слоном
@@ -30635,7 +30635,7 @@ your yaks
 {pl}морозными великанами
 %%%%
 {ins}glaive
-{m}глефом
+{f}глефой
 %%%%
 {ins}glaives
 {pl}глефами
@@ -30839,10 +30839,10 @@ your yaks
 {pl}кожаными доспехами
 %%%%
 {ins}lich
-{n}лич
+{m}личем
 %%%%
 {ins}liches
-{pl}лич
+{pl}личами
 %%%%
 {ins}long sword
 {m}длинным мечом
@@ -30878,13 +30878,13 @@ your yaks
 {f}нагой
 %%%%
 {ins}nagas
-{pl}нагими
+{pl}нагами
 %%%%
 {ins}ogre
-{n}огр
+{m}огром
 %%%%
 {ins}ogres
-{pl}огр
+{pl}ограми
 %%%%
 {ins}orange demon
 {m}оранжевым демоном
@@ -31073,7 +31073,7 @@ your yaks
 {pl}ртутными драконами
 %%%%
 {ins}quokka
-{m}квокком
+{f}квоккой
 %%%%
 {ins}quokkas
 {pl}квокками
@@ -31181,10 +31181,10 @@ your yaks
 {pl}шарфами
 %%%%
 {ins}scimitar
-{n}скимитар
+{m}скимитаром
 %%%%
 {ins}scimitars
-{pl}скимитар
+{pl}скимитарами
 %%%%
 {ins}scorpion
 {m}скорпионом
@@ -31403,10 +31403,10 @@ your yaks
 {pl}амулетами регенерации
 %%%%
 {ins}the ancient lich
-{n}древним лич
+{m}древним личем
 %%%%
 {ins}the ancient liches
-{pl}древними лич
+{pl}древними личами
 %%%%
 {ins}the arbalest
 {m}арбалетом
@@ -31577,10 +31577,10 @@ your yaks
 {pl}глубинными эльфами-рыцарями
 %%%%
 {ins}the deep elf pyromancer
-{f}глубинной эльф-пиромантой
+{m}глубинным эльфом-пиромантом
 %%%%
 {ins}the deep elf pyromancers
-{pl}глубинными эльф-пиромантами
+{pl}глубинными эльфами-пиромантами
 %%%%
 {ins}the elephant
 {m}слоном
@@ -31637,7 +31637,7 @@ your yaks
 {pl}морозными великанами
 %%%%
 {ins}the glaive
-{m}глефом
+{f}глефой
 %%%%
 {ins}the glaives
 {pl}глефами
@@ -31841,10 +31841,10 @@ your yaks
 {pl}кожаными доспехами
 %%%%
 {ins}the lich
-{n}лич
+{m}личем
 %%%%
 {ins}the liches
-{pl}лич
+{pl}личами
 %%%%
 {ins}the long sword
 {m}длинным мечом
@@ -31880,13 +31880,13 @@ your yaks
 {f}нагой
 %%%%
 {ins}the nagas
-{pl}нагими
+{pl}нагами
 %%%%
 {ins}the ogre
-{n}огр
+{m}огром
 %%%%
 {ins}the ogres
-{pl}огр
+{pl}ограми
 %%%%
 {ins}the orange demon
 {m}оранжевым демоном
@@ -32075,7 +32075,7 @@ your yaks
 {pl}ртутными драконами
 %%%%
 {ins}the quokka
-{m}квокком
+{f}квоккой
 %%%%
 {ins}the quokkas
 {pl}квокками
@@ -32183,10 +32183,10 @@ your yaks
 {pl}шарфами
 %%%%
 {ins}the scimitar
-{n}скимитар
+{m}скимитаром
 %%%%
 {ins}the scimitars
-{pl}скимитар
+{pl}скимитарами
 %%%%
 {ins}the scorpion
 {m}скорпионом
@@ -32399,10 +32399,10 @@ your yaks
 {pl}троллями
 %%%%
 {ins}the two-headed ogre
-{n}двухголовым огр
+{m}двухголовым огром
 %%%%
 {ins}the two-headed ogres
-{pl}двухголовыми огр
+{pl}двухголовыми ограми
 %%%%
 {ins}the ugly thing
 {n}уродливым существом
@@ -32543,10 +32543,10 @@ your yaks
 {pl}троллями
 %%%%
 {ins}two-headed ogre
-{n}двухголовым огр
+{m}двухголовым огром
 %%%%
 {ins}two-headed ogres
-{pl}двухголовыми огр
+{pl}двухголовыми ограми
 %%%%
 {ins}ugly thing
 {n}уродливым существом
@@ -32693,10 +32693,10 @@ your yaks
 {pl}амулетами регенерации
 %%%%
 {ins}your ancient lich
-{n}древним лич
+{m}древним личем
 %%%%
 {ins}your ancient liches
-{pl}древними лич
+{pl}древними личами
 %%%%
 {ins}your arbalest
 {m}арбалетом
@@ -32867,10 +32867,10 @@ your yaks
 {pl}глубинными эльфами-рыцарями
 %%%%
 {ins}your deep elf pyromancer
-{f}глубинной эльф-пиромантой
+{m}глубинным эльфом-пиромантом
 %%%%
 {ins}your deep elf pyromancers
-{pl}глубинными эльф-пиромантами
+{pl}глубинными эльфами-пиромантами
 %%%%
 {ins}your elephant
 {m}слоном
@@ -32927,7 +32927,7 @@ your yaks
 {pl}морозными великанами
 %%%%
 {ins}your glaive
-{m}глефом
+{f}глефой
 %%%%
 {ins}your glaives
 {pl}глефами
@@ -33131,10 +33131,10 @@ your yaks
 {pl}кожаными доспехами
 %%%%
 {ins}your lich
-{n}лич
+{m}личем
 %%%%
 {ins}your liches
-{pl}лич
+{pl}личами
 %%%%
 {ins}your long sword
 {m}длинным мечом
@@ -33170,13 +33170,13 @@ your yaks
 {f}нагой
 %%%%
 {ins}your nagas
-{pl}нагими
+{pl}нагами
 %%%%
 {ins}your ogre
-{n}огр
+{m}огром
 %%%%
 {ins}your ogres
-{pl}огр
+{pl}ограми
 %%%%
 {ins}your orange demon
 {m}оранжевым демоном
@@ -33365,7 +33365,7 @@ your yaks
 {pl}ртутными драконами
 %%%%
 {ins}your quokka
-{m}квокком
+{f}квоккой
 %%%%
 {ins}your quokkas
 {pl}квокками
@@ -33473,10 +33473,10 @@ your yaks
 {pl}шарфами
 %%%%
 {ins}your scimitar
-{n}скимитар
+{m}скимитаром
 %%%%
 {ins}your scimitars
-{pl}скимитар
+{pl}скимитарами
 %%%%
 {ins}your scorpion
 {m}скорпионом
@@ -33689,10 +33689,10 @@ your yaks
 {pl}троллями
 %%%%
 {ins}your two-headed ogre
-{n}двухголовым огр
+{m}двухголовым огром
 %%%%
 {ins}your two-headed ogres
-{pl}двухголовыми огр
+{pl}двухголовыми ограми
 %%%%
 {ins}your ugly thing
 {n}уродливым существом
@@ -33824,7 +33824,7 @@ your yaks
 @num@ амулетов регенерации
 %%%%
 {many}@num@ ancient liches
-@num@ древних лич
+@num@ древних личей
 %%%%
 {many}@num@ arbalests
 @num@ арбалетов
@@ -33911,7 +33911,7 @@ your yaks
 @num@ глубинных эльфов-рыцарей
 %%%%
 {many}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромант
+@num@ глубинных эльфов-пиромантов
 %%%%
 {many}@num@ elephants
 @num@ слонов
@@ -33941,7 +33941,7 @@ your yaks
 @num@ морозных великанов
 %%%%
 {many}@num@ glaives
-@num@ глефов
+@num@ глеф
 %%%%
 {many}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -34043,7 +34043,7 @@ your yaks
 @num@ кожаных доспехов
 %%%%
 {many}@num@ liches
-@num@ лич
+@num@ личей
 %%%%
 {many}@num@ long swords
 @num@ длинных мечей
@@ -34061,10 +34061,10 @@ your yaks
 @num@ мумий
 %%%%
 {many}@num@ nagas
-@num@ нагих
+@num@ наг
 %%%%
 {many}@num@ ogres
-@num@ огр
+@num@ огров
 %%%%
 {many}@num@ orange demons
 @num@ оранжевых демонов
@@ -34160,7 +34160,7 @@ your yaks
 @num@ ртутных драконов
 %%%%
 {many}@num@ quokkas
-@num@ квокков
+@num@ квокк
 %%%%
 {many}@num@ rapiers
 @num@ рапир
@@ -34214,7 +34214,7 @@ your yaks
 @num@ шарфов
 %%%%
 {many}@num@ scimitars
-@num@ скимитар
+@num@ скимитаров
 %%%%
 {many}@num@ scorpions
 @num@ скорпионов
@@ -34322,7 +34322,7 @@ your yaks
 @num@ троллей
 %%%%
 {many}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых огров
 %%%%
 {many}@num@ ugly things
 @num@ уродливых существ
@@ -34397,7 +34397,7 @@ your yaks
 {m}амулет регенерации
 %%%%
 {nom}a ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 {nom}a arbalest
 {m}арбалет
@@ -34484,7 +34484,7 @@ your yaks
 {m}глубинный эльф-рыцарь
 %%%%
 {nom}a deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 {nom}a elephant
 {m}слон
@@ -34514,7 +34514,7 @@ your yaks
 {m}морозный великан
 %%%%
 {nom}a glaive
-{m}глеф
+{f}глефа
 %%%%
 {nom}a gnoll
 {m}гнолл
@@ -34616,7 +34616,7 @@ your yaks
 {m}кожаный доспех
 %%%%
 {nom}a lich
-{n}лич
+{m}лич
 %%%%
 {nom}a long sword
 {m}длинный меч
@@ -34634,10 +34634,10 @@ your yaks
 {f}мумия
 %%%%
 {nom}a naga
-{f}нагая
+{f}нага
 %%%%
 {nom}a ogre
-{n}огр
+{m}огр
 %%%%
 {nom}a orange demon
 {m}оранжевый демон
@@ -34733,7 +34733,7 @@ your yaks
 {m}ртутный дракон
 %%%%
 {nom}a quokka
-{m}квокк
+{f}квокка
 %%%%
 {nom}a rapier
 {f}рапира
@@ -34787,7 +34787,7 @@ your yaks
 {m}шарф
 %%%%
 {nom}a scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {nom}a scorpion
 {m}скорпион
@@ -34895,7 +34895,7 @@ your yaks
 {m}тролль
 %%%%
 {nom}a two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 {nom}a ugly thing
 {n}уродливое существо
@@ -35000,7 +35000,7 @@ your yaks
 {m}амулет регенерации
 %%%%
 {nom}an ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 {nom}an arbalest
 {m}арбалет
@@ -35087,7 +35087,7 @@ your yaks
 {m}глубинный эльф-рыцарь
 %%%%
 {nom}an deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 {nom}an elephant
 {m}слон
@@ -35117,7 +35117,7 @@ your yaks
 {m}морозный великан
 %%%%
 {nom}an glaive
-{m}глеф
+{f}глефа
 %%%%
 {nom}an gnoll
 {m}гнолл
@@ -35219,7 +35219,7 @@ your yaks
 {m}кожаный доспех
 %%%%
 {nom}an lich
-{n}лич
+{m}лич
 %%%%
 {nom}an long sword
 {m}длинный меч
@@ -35237,10 +35237,10 @@ your yaks
 {f}мумия
 %%%%
 {nom}an naga
-{f}нагая
+{f}нага
 %%%%
 {nom}an ogre
-{n}огр
+{m}огр
 %%%%
 {nom}an orange demon
 {m}оранжевый демон
@@ -35336,7 +35336,7 @@ your yaks
 {m}ртутный дракон
 %%%%
 {nom}an quokka
-{m}квокк
+{f}квокка
 %%%%
 {nom}an rapier
 {f}рапира
@@ -35390,7 +35390,7 @@ your yaks
 {m}шарф
 %%%%
 {nom}an scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {nom}an scorpion
 {m}скорпион
@@ -35498,7 +35498,7 @@ your yaks
 {m}тролль
 %%%%
 {nom}an two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 {nom}an ugly thing
 {n}уродливое существо
@@ -35558,10 +35558,10 @@ your yaks
 {m}як
 %%%%
 {nom}ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 {nom}ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 {nom}arbalest
 {m}арбалет
@@ -35732,10 +35732,10 @@ your yaks
 {pl}глубинные эльфы-рыцари
 %%%%
 {nom}deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 {nom}deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 {nom}elephant
 {m}слон
@@ -35792,7 +35792,7 @@ your yaks
 {pl}морозные великаны
 %%%%
 {nom}glaive
-{m}глеф
+{f}глефа
 %%%%
 {nom}glaives
 {pl}глефы
@@ -35996,10 +35996,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {nom}lich
-{n}лич
+{m}лич
 %%%%
 {nom}liches
-{pl}лич
+{pl}личи
 %%%%
 {nom}long sword
 {m}длинный меч
@@ -36032,16 +36032,16 @@ your yaks
 {f}мумия
 %%%%
 {nom}naga
-{f}нагая
+{f}нага
 %%%%
 {nom}nagas
-{pl}нагие
+{pl}наги
 %%%%
 {nom}ogre
-{n}огр
+{m}огр
 %%%%
 {nom}ogres
-{pl}огр
+{pl}огры
 %%%%
 {nom}orange demon
 {m}оранжевый демон
@@ -36230,7 +36230,7 @@ your yaks
 {pl}ртутные драконы
 %%%%
 {nom}quokka
-{m}квокк
+{f}квокка
 %%%%
 {nom}quokkas
 {pl}квокки
@@ -36338,10 +36338,10 @@ your yaks
 {pl}шарфы
 %%%%
 {nom}scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {nom}scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {nom}scorpion
 {m}скорпион
@@ -36560,10 +36560,10 @@ your yaks
 {pl}амулеты регенерации
 %%%%
 {nom}the ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 {nom}the ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 {nom}the arbalest
 {m}арбалет
@@ -36734,10 +36734,10 @@ your yaks
 {pl}глубинные эльфы-рыцари
 %%%%
 {nom}the deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 {nom}the deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 {nom}the elephant
 {m}слон
@@ -36794,7 +36794,7 @@ your yaks
 {pl}морозные великаны
 %%%%
 {nom}the glaive
-{m}глеф
+{f}глефа
 %%%%
 {nom}the glaives
 {pl}глефы
@@ -36998,10 +36998,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {nom}the lich
-{n}лич
+{m}лич
 %%%%
 {nom}the liches
-{pl}лич
+{pl}личи
 %%%%
 {nom}the long sword
 {m}длинный меч
@@ -37034,16 +37034,16 @@ your yaks
 {f}мумия
 %%%%
 {nom}the naga
-{f}нагая
+{f}нага
 %%%%
 {nom}the nagas
-{pl}нагие
+{pl}наги
 %%%%
 {nom}the ogre
-{n}огр
+{m}огр
 %%%%
 {nom}the ogres
-{pl}огр
+{pl}огры
 %%%%
 {nom}the orange demon
 {m}оранжевый демон
@@ -37232,7 +37232,7 @@ your yaks
 {pl}ртутные драконы
 %%%%
 {nom}the quokka
-{m}квокк
+{f}квокка
 %%%%
 {nom}the quokkas
 {pl}квокки
@@ -37340,10 +37340,10 @@ your yaks
 {pl}шарфы
 %%%%
 {nom}the scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {nom}the scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {nom}the scorpion
 {m}скорпион
@@ -37556,10 +37556,10 @@ your yaks
 {pl}тролли
 %%%%
 {nom}the two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 {nom}the two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 {nom}the ugly thing
 {n}уродливое существо
@@ -37700,10 +37700,10 @@ your yaks
 {pl}тролли
 %%%%
 {nom}two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 {nom}two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 {nom}ugly thing
 {n}уродливое существо
@@ -37850,10 +37850,10 @@ your yaks
 {pl}амулеты регенерации
 %%%%
 {nom}your ancient lich
-{n}древнее лич
+{m}древний лич
 %%%%
 {nom}your ancient liches
-{pl}древние лич
+{pl}древние личи
 %%%%
 {nom}your arbalest
 {m}арбалет
@@ -38024,10 +38024,10 @@ your yaks
 {pl}глубинные эльфы-рыцари
 %%%%
 {nom}your deep elf pyromancer
-{f}глубинная эльф-пироманта
+{m}глубинный эльф-пиромант
 %%%%
 {nom}your deep elf pyromancers
-{pl}глубинные эльф-пироманты
+{pl}глубинные эльфы-пироманты
 %%%%
 {nom}your elephant
 {m}слон
@@ -38084,7 +38084,7 @@ your yaks
 {pl}морозные великаны
 %%%%
 {nom}your glaive
-{m}глеф
+{f}глефа
 %%%%
 {nom}your glaives
 {pl}глефы
@@ -38288,10 +38288,10 @@ your yaks
 {pl}кожаные доспехи
 %%%%
 {nom}your lich
-{n}лич
+{m}лич
 %%%%
 {nom}your liches
-{pl}лич
+{pl}личи
 %%%%
 {nom}your long sword
 {m}длинный меч
@@ -38324,16 +38324,16 @@ your yaks
 {f}мумия
 %%%%
 {nom}your naga
-{f}нагая
+{f}нага
 %%%%
 {nom}your nagas
-{pl}нагие
+{pl}наги
 %%%%
 {nom}your ogre
-{n}огр
+{m}огр
 %%%%
 {nom}your ogres
-{pl}огр
+{pl}огры
 %%%%
 {nom}your orange demon
 {m}оранжевый демон
@@ -38522,7 +38522,7 @@ your yaks
 {pl}ртутные драконы
 %%%%
 {nom}your quokka
-{m}квокк
+{f}квокка
 %%%%
 {nom}your quokkas
 {pl}квокки
@@ -38630,10 +38630,10 @@ your yaks
 {pl}шарфы
 %%%%
 {nom}your scimitar
-{n}скимитар
+{m}скимитар
 %%%%
 {nom}your scimitars
-{pl}скимитар
+{pl}скимитары
 %%%%
 {nom}your scorpion
 {m}скорпион
@@ -38846,10 +38846,10 @@ your yaks
 {pl}тролли
 %%%%
 {nom}your two-headed ogre
-{n}двухголовое огр
+{m}двухголовый огр
 %%%%
 {nom}your two-headed ogres
-{pl}двухголовые огр
+{pl}двухголовые огры
 %%%%
 {nom}your ugly thing
 {n}уродливое существо
@@ -38981,7 +38981,7 @@ your yaks
 @num@ амулет регенерации
 %%%%
 {one}@num@ ancient liches
-@num@ древнее лич
+@num@ древний лич
 %%%%
 {one}@num@ arbalests
 @num@ арбалет
@@ -39068,7 +39068,7 @@ your yaks
 @num@ глубинный эльф-рыцарь
 %%%%
 {one}@num@ deep elf pyromancers
-@num@ глубинная эльф-пироманта
+@num@ глубинный эльф-пиромант
 %%%%
 {one}@num@ elephants
 @num@ слон
@@ -39098,7 +39098,7 @@ your yaks
 @num@ морозный великан
 %%%%
 {one}@num@ glaives
-@num@ глеф
+@num@ глефа
 %%%%
 {one}@num@ gnoll boudas
 @num@ гнолл-буда
@@ -39218,7 +39218,7 @@ your yaks
 @num@ мумия
 %%%%
 {one}@num@ nagas
-@num@ нагая
+@num@ нага
 %%%%
 {one}@num@ ogres
 @num@ огр
@@ -39317,7 +39317,7 @@ your yaks
 @num@ ртутный дракон
 %%%%
 {one}@num@ quokkas
-@num@ квокк
+@num@ квокка
 %%%%
 {one}@num@ rapiers
 @num@ рапира
@@ -39479,7 +39479,7 @@ your yaks
 @num@ тролль
 %%%%
 {one}@num@ two-headed ogres
-@num@ двухголовое огр
+@num@ двухголовый огр
 %%%%
 {one}@num@ ugly things
 @num@ уродливое существо
@@ -39554,7 +39554,7 @@ your yaks
 @num@ амулетах регенерации
 %%%%
 {prep_few}@num@ ancient liches
-@num@ древних лич
+@num@ древних личах
 %%%%
 {prep_few}@num@ arbalests
 @num@ арбалетах
@@ -39641,7 +39641,7 @@ your yaks
 @num@ глубинных эльфах-рыцарях
 %%%%
 {prep_few}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромантах
+@num@ глубинных эльфах-пиромантах
 %%%%
 {prep_few}@num@ elephants
 @num@ слонах
@@ -39773,7 +39773,7 @@ your yaks
 @num@ кожаных доспехах
 %%%%
 {prep_few}@num@ liches
-@num@ лич
+@num@ личах
 %%%%
 {prep_few}@num@ long swords
 @num@ длинных мечах
@@ -39791,10 +39791,10 @@ your yaks
 @num@ мумиях
 %%%%
 {prep_few}@num@ nagas
-@num@ нагих
+@num@ нагах
 %%%%
 {prep_few}@num@ ogres
-@num@ огр
+@num@ ограх
 %%%%
 {prep_few}@num@ orange demons
 @num@ оранжевых демонах
@@ -39944,7 +39944,7 @@ your yaks
 @num@ шарфах
 %%%%
 {prep_few}@num@ scimitars
-@num@ скимитар
+@num@ скимитарах
 %%%%
 {prep_few}@num@ scorpions
 @num@ скорпионах
@@ -40052,7 +40052,7 @@ your yaks
 @num@ троллях
 %%%%
 {prep_few}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых ограх
 %%%%
 {prep_few}@num@ ugly things
 @num@ уродливых существах
@@ -40127,7 +40127,7 @@ your yaks
 @num@ амулетах регенерации
 %%%%
 {prep_many}@num@ ancient liches
-@num@ древних лич
+@num@ древних личах
 %%%%
 {prep_many}@num@ arbalests
 @num@ арбалетах
@@ -40214,7 +40214,7 @@ your yaks
 @num@ глубинных эльфах-рыцарях
 %%%%
 {prep_many}@num@ deep elf pyromancers
-@num@ глубинных эльф-пиромантах
+@num@ глубинных эльфах-пиромантах
 %%%%
 {prep_many}@num@ elephants
 @num@ слонах
@@ -40346,7 +40346,7 @@ your yaks
 @num@ кожаных доспехах
 %%%%
 {prep_many}@num@ liches
-@num@ лич
+@num@ личах
 %%%%
 {prep_many}@num@ long swords
 @num@ длинных мечах
@@ -40364,10 +40364,10 @@ your yaks
 @num@ мумиях
 %%%%
 {prep_many}@num@ nagas
-@num@ нагих
+@num@ нагах
 %%%%
 {prep_many}@num@ ogres
-@num@ огр
+@num@ ограх
 %%%%
 {prep_many}@num@ orange demons
 @num@ оранжевых демонах
@@ -40517,7 +40517,7 @@ your yaks
 @num@ шарфах
 %%%%
 {prep_many}@num@ scimitars
-@num@ скимитар
+@num@ скимитарах
 %%%%
 {prep_many}@num@ scorpions
 @num@ скорпионах
@@ -40625,7 +40625,7 @@ your yaks
 @num@ троллях
 %%%%
 {prep_many}@num@ two-headed ogres
-@num@ двухголовых огр
+@num@ двухголовых ограх
 %%%%
 {prep_many}@num@ ugly things
 @num@ уродливых существах
@@ -40700,7 +40700,7 @@ your yaks
 @num@ амулете регенерации
 %%%%
 {prep_one}@num@ ancient liches
-@num@ древнем лич
+@num@ древнем личе
 %%%%
 {prep_one}@num@ arbalests
 @num@ арбалете
@@ -40787,7 +40787,7 @@ your yaks
 @num@ глубинном эльфе-рыцаре
 %%%%
 {prep_one}@num@ deep elf pyromancers
-@num@ глубинной эльф-пироманте
+@num@ глубинном эльфе-пироманте
 %%%%
 {prep_one}@num@ elephants
 @num@ слоне
@@ -40919,7 +40919,7 @@ your yaks
 @num@ кожаном доспехе
 %%%%
 {prep_one}@num@ liches
-@num@ лич
+@num@ личе
 %%%%
 {prep_one}@num@ long swords
 @num@ длинном мече
@@ -40937,10 +40937,10 @@ your yaks
 @num@ мумии
 %%%%
 {prep_one}@num@ nagas
-@num@ нагой
+@num@ наге
 %%%%
 {prep_one}@num@ ogres
-@num@ огр
+@num@ огре
 %%%%
 {prep_one}@num@ orange demons
 @num@ оранжевом демоне
@@ -41090,7 +41090,7 @@ your yaks
 @num@ шарфе
 %%%%
 {prep_one}@num@ scimitars
-@num@ скимитар
+@num@ скимитаре
 %%%%
 {prep_one}@num@ scorpions
 @num@ скорпионе
@@ -41198,7 +41198,7 @@ your yaks
 @num@ тролле
 %%%%
 {prep_one}@num@ two-headed ogres
-@num@ двухголовом огр
+@num@ двухголовом огре
 %%%%
 {prep_one}@num@ ugly things
 @num@ уродливом существе
@@ -41273,7 +41273,7 @@ your yaks
 {m}амулете регенерации
 %%%%
 {prep}a ancient lich
-{n}древнем лич
+{m}древнем личе
 %%%%
 {prep}a arbalest
 {m}арбалете
@@ -41360,7 +41360,7 @@ your yaks
 {m}глубинном эльфе-рыцаре
 %%%%
 {prep}a deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинном эльфе-пироманте
 %%%%
 {prep}a elephant
 {m}слоне
@@ -41390,7 +41390,7 @@ your yaks
 {m}морозном великане
 %%%%
 {prep}a glaive
-{m}глефе
+{f}глефе
 %%%%
 {prep}a gnoll
 {m}гнолле
@@ -41492,7 +41492,7 @@ your yaks
 {m}кожаном доспехе
 %%%%
 {prep}a lich
-{n}лич
+{m}личе
 %%%%
 {prep}a long sword
 {m}длинном мече
@@ -41510,10 +41510,10 @@ your yaks
 {f}мумии
 %%%%
 {prep}a naga
-{f}нагой
+{f}наге
 %%%%
 {prep}a ogre
-{n}огр
+{m}огре
 %%%%
 {prep}a orange demon
 {m}оранжевом демоне
@@ -41609,7 +41609,7 @@ your yaks
 {m}ртутном драконе
 %%%%
 {prep}a quokka
-{m}квокке
+{f}квокке
 %%%%
 {prep}a rapier
 {f}рапире
@@ -41663,7 +41663,7 @@ your yaks
 {m}шарфе
 %%%%
 {prep}a scimitar
-{n}скимитар
+{m}скимитаре
 %%%%
 {prep}a scorpion
 {m}скорпионе
@@ -41771,7 +41771,7 @@ your yaks
 {m}тролле
 %%%%
 {prep}a two-headed ogre
-{n}двухголовом огр
+{m}двухголовом огре
 %%%%
 {prep}a ugly thing
 {n}уродливом существе
@@ -41876,7 +41876,7 @@ your yaks
 {m}амулете регенерации
 %%%%
 {prep}an ancient lich
-{n}древнем лич
+{m}древнем личе
 %%%%
 {prep}an arbalest
 {m}арбалете
@@ -41963,7 +41963,7 @@ your yaks
 {m}глубинном эльфе-рыцаре
 %%%%
 {prep}an deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинном эльфе-пироманте
 %%%%
 {prep}an elephant
 {m}слоне
@@ -41993,7 +41993,7 @@ your yaks
 {m}морозном великане
 %%%%
 {prep}an glaive
-{m}глефе
+{f}глефе
 %%%%
 {prep}an gnoll
 {m}гнолле
@@ -42095,7 +42095,7 @@ your yaks
 {m}кожаном доспехе
 %%%%
 {prep}an lich
-{n}лич
+{m}личе
 %%%%
 {prep}an long sword
 {m}длинном мече
@@ -42113,10 +42113,10 @@ your yaks
 {f}мумии
 %%%%
 {prep}an naga
-{f}нагой
+{f}наге
 %%%%
 {prep}an ogre
-{n}огр
+{m}огре
 %%%%
 {prep}an orange demon
 {m}оранжевом демоне
@@ -42212,7 +42212,7 @@ your yaks
 {m}ртутном драконе
 %%%%
 {prep}an quokka
-{m}квокке
+{f}квокке
 %%%%
 {prep}an rapier
 {f}рапире
@@ -42266,7 +42266,7 @@ your yaks
 {m}шарфе
 %%%%
 {prep}an scimitar
-{n}скимитар
+{m}скимитаре
 %%%%
 {prep}an scorpion
 {m}скорпионе
@@ -42374,7 +42374,7 @@ your yaks
 {m}тролле
 %%%%
 {prep}an two-headed ogre
-{n}двухголовом огр
+{m}двухголовом огре
 %%%%
 {prep}an ugly thing
 {n}уродливом существе
@@ -42434,10 +42434,10 @@ your yaks
 {m}яке
 %%%%
 {prep}ancient lich
-{n}древнем лич
+{m}древнем личе
 %%%%
 {prep}ancient liches
-{pl}древних лич
+{pl}древних личах
 %%%%
 {prep}arbalest
 {m}арбалете
@@ -42608,10 +42608,10 @@ your yaks
 {pl}глубинных эльфах-рыцарях
 %%%%
 {prep}deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинном эльфе-пироманте
 %%%%
 {prep}deep elf pyromancers
-{pl}глубинных эльф-пиромантах
+{pl}глубинных эльфах-пиромантах
 %%%%
 {prep}elephant
 {m}слоне
@@ -42668,7 +42668,7 @@ your yaks
 {pl}морозных великанах
 %%%%
 {prep}glaive
-{m}глефе
+{f}глефе
 %%%%
 {prep}glaives
 {pl}глефах
@@ -42872,10 +42872,10 @@ your yaks
 {pl}кожаных доспехах
 %%%%
 {prep}lich
-{n}лич
+{m}личе
 %%%%
 {prep}liches
-{pl}лич
+{pl}личах
 %%%%
 {prep}long sword
 {m}длинном мече
@@ -42908,16 +42908,16 @@ your yaks
 {f}мумии
 %%%%
 {prep}naga
-{f}нагой
+{f}наге
 %%%%
 {prep}nagas
-{pl}нагих
+{pl}нагах
 %%%%
 {prep}ogre
-{n}огр
+{m}огре
 %%%%
 {prep}ogres
-{pl}огр
+{pl}ограх
 %%%%
 {prep}orange demon
 {m}оранжевом демоне
@@ -43106,7 +43106,7 @@ your yaks
 {pl}ртутных драконах
 %%%%
 {prep}quokka
-{m}квокке
+{f}квокке
 %%%%
 {prep}quokkas
 {pl}квокках
@@ -43214,10 +43214,10 @@ your yaks
 {pl}шарфах
 %%%%
 {prep}scimitar
-{n}скимитар
+{m}скимитаре
 %%%%
 {prep}scimitars
-{pl}скимитар
+{pl}скимитарах
 %%%%
 {prep}scorpion
 {m}скорпионе
@@ -43436,10 +43436,10 @@ your yaks
 {pl}амулетах регенерации
 %%%%
 {prep}the ancient lich
-{n}древнем лич
+{m}древнем личе
 %%%%
 {prep}the ancient liches
-{pl}древних лич
+{pl}древних личах
 %%%%
 {prep}the arbalest
 {m}арбалете
@@ -43610,10 +43610,10 @@ your yaks
 {pl}глубинных эльфах-рыцарях
 %%%%
 {prep}the deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинном эльфе-пироманте
 %%%%
 {prep}the deep elf pyromancers
-{pl}глубинных эльф-пиромантах
+{pl}глубинных эльфах-пиромантах
 %%%%
 {prep}the elephant
 {m}слоне
@@ -43670,7 +43670,7 @@ your yaks
 {pl}морозных великанах
 %%%%
 {prep}the glaive
-{m}глефе
+{f}глефе
 %%%%
 {prep}the glaives
 {pl}глефах
@@ -43874,10 +43874,10 @@ your yaks
 {pl}кожаных доспехах
 %%%%
 {prep}the lich
-{n}лич
+{m}личе
 %%%%
 {prep}the liches
-{pl}лич
+{pl}личах
 %%%%
 {prep}the long sword
 {m}длинном мече
@@ -43910,16 +43910,16 @@ your yaks
 {f}мумии
 %%%%
 {prep}the naga
-{f}нагой
+{f}наге
 %%%%
 {prep}the nagas
-{pl}нагих
+{pl}нагах
 %%%%
 {prep}the ogre
-{n}огр
+{m}огре
 %%%%
 {prep}the ogres
-{pl}огр
+{pl}ограх
 %%%%
 {prep}the orange demon
 {m}оранжевом демоне
@@ -44108,7 +44108,7 @@ your yaks
 {pl}ртутных драконах
 %%%%
 {prep}the quokka
-{m}квокке
+{f}квокке
 %%%%
 {prep}the quokkas
 {pl}квокках
@@ -44216,10 +44216,10 @@ your yaks
 {pl}шарфах
 %%%%
 {prep}the scimitar
-{n}скимитар
+{m}скимитаре
 %%%%
 {prep}the scimitars
-{pl}скимитар
+{pl}скимитарах
 %%%%
 {prep}the scorpion
 {m}скорпионе
@@ -44432,10 +44432,10 @@ your yaks
 {pl}троллях
 %%%%
 {prep}the two-headed ogre
-{n}двухголовом огр
+{m}двухголовом огре
 %%%%
 {prep}the two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых ограх
 %%%%
 {prep}the ugly thing
 {n}уродливом существе
@@ -44576,10 +44576,10 @@ your yaks
 {pl}троллях
 %%%%
 {prep}two-headed ogre
-{n}двухголовом огр
+{m}двухголовом огре
 %%%%
 {prep}two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых ограх
 %%%%
 {prep}ugly thing
 {n}уродливом существе
@@ -44726,10 +44726,10 @@ your yaks
 {pl}амулетах регенерации
 %%%%
 {prep}your ancient lich
-{n}древнем лич
+{m}древнем личе
 %%%%
 {prep}your ancient liches
-{pl}древних лич
+{pl}древних личах
 %%%%
 {prep}your arbalest
 {m}арбалете
@@ -44900,10 +44900,10 @@ your yaks
 {pl}глубинных эльфах-рыцарях
 %%%%
 {prep}your deep elf pyromancer
-{f}глубинной эльф-пироманте
+{m}глубинном эльфе-пироманте
 %%%%
 {prep}your deep elf pyromancers
-{pl}глубинных эльф-пиромантах
+{pl}глубинных эльфах-пиромантах
 %%%%
 {prep}your elephant
 {m}слоне
@@ -44960,7 +44960,7 @@ your yaks
 {pl}морозных великанах
 %%%%
 {prep}your glaive
-{m}глефе
+{f}глефе
 %%%%
 {prep}your glaives
 {pl}глефах
@@ -45164,10 +45164,10 @@ your yaks
 {pl}кожаных доспехах
 %%%%
 {prep}your lich
-{n}лич
+{m}личе
 %%%%
 {prep}your liches
-{pl}лич
+{pl}личах
 %%%%
 {prep}your long sword
 {m}длинном мече
@@ -45200,16 +45200,16 @@ your yaks
 {f}мумии
 %%%%
 {prep}your naga
-{f}нагой
+{f}наге
 %%%%
 {prep}your nagas
-{pl}нагих
+{pl}нагах
 %%%%
 {prep}your ogre
-{n}огр
+{m}огре
 %%%%
 {prep}your ogres
-{pl}огр
+{pl}ограх
 %%%%
 {prep}your orange demon
 {m}оранжевом демоне
@@ -45398,7 +45398,7 @@ your yaks
 {pl}ртутных драконах
 %%%%
 {prep}your quokka
-{m}квокке
+{f}квокке
 %%%%
 {prep}your quokkas
 {pl}квокках
@@ -45506,10 +45506,10 @@ your yaks
 {pl}шарфах
 %%%%
 {prep}your scimitar
-{n}скимитар
+{m}скимитаре
 %%%%
 {prep}your scimitars
-{pl}скимитар
+{pl}скимитарах
 %%%%
 {prep}your scorpion
 {m}скорпионе
@@ -45722,10 +45722,10 @@ your yaks
 {pl}троллях
 %%%%
 {prep}your two-headed ogre
-{n}двухголовом огр
+{m}двухголовом огре
 %%%%
 {prep}your two-headed ogres
-{pl}двухголовых огр
+{pl}двухголовых ограх
 %%%%
 {prep}your ugly thing
 {n}уродливом существе

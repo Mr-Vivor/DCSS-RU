@@ -1535,7 +1535,7 @@ static void _redraw_title()
             string msg = make_stringf("%s of %s", species.c_str(), god.c_str());
             msg = localise(msg);
             textwidth = strwidth(msg);
-            NOWRAP_EOL_CPRINTF(msg.c_str());
+            NOWRAP_EOL_CPRINTF("%s", msg.c_str());
         }
         formatted_string piety = formatted_string::parse_string(_god_asterisks(true));
         textcolour(_god_status_colour(YELLOW));

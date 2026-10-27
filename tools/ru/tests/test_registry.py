@@ -26,6 +26,9 @@ class SharedRegistryTests(unittest.TestCase):
         self.assertEqual(self.by_name["potion of curing"]["forms"]["singular"]["ins"],
                          "зельем исцеления")
 
+    def test_feminine_adjective_uses_accusative(self):
+        self.assertEqual(self.by_name["bat"]["forms"]["singular"]["acc"], "летучую мышь")
+
     def test_wiki_and_game_use_the_same_canonical_name(self):
         wiki = json.loads((ROOT / "wiki/ru/entities.json").read_text(encoding="utf8"))
         for entity in self.entities:

@@ -34,8 +34,14 @@ def propose(name, indices, animate):
             result = words.copy()
             for i, parsed in parses.items():
                 tags = {gram_case, gram_number}
-                if case == "acc":
-                    tags.add("anim" if animate else "inan")
+                if case == "acc" and (number == "plural" or gender == "m"):
+                    if parsed.tag.POS == "NOUN":
+                        # Noun lexemes cannot change lexical animacy. Choose
+                        # the equivalent genitive/nominative form explicitly.
+                        tags.discard("accs")
+                        tags.add("gent" if animate else "nomn")
+                    else:
+                        tags.add("anim" if animate else "inan")
                 if parsed.tag.POS in {"ADJF", "PRTF"} and number == "singular":
                     tags.add({"m": "masc", "f": "femn", "n": "neut"}[gender])
                 inflected = parsed.inflect(tags)

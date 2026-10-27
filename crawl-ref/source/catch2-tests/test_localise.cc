@@ -46,6 +46,9 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
 {
     russian_localisation language;
 
+    CHECK(localise("Human") == "Человек");
+    CHECK(localise("Fighter") == "Воин");
+    CHECK(localise("Short Blades") == "Короткие клинки");
     CHECK(localise("the ice dragon") == "ледяной дракон");
     CHECK(localise_in_context("acc", "the ice dragon") == "ледяного дракона");
     CHECK(localise_in_context("ins", "a long sword") == "длинным мечом");
@@ -67,6 +70,9 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Здесь лежит зелье исцеления.");
     CHECK(localise("You see 2 rats and 21 scrolls of teleportation.")
           == "Вы видите 2 крыс и 21 свиток телепортации.");
+    CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")
+          == "Вы видите +2 кинжал и 21 свиток телепортации.");
+    CHECK(localise("You hit the bat!") == "Вы ударяете летучую мышь!");
     CHECK(localise("An untranslated message about MrVivor.")
           == "An untranslated message about MrVivor.");
     CHECK(localise("<red>You die...</red>") == "<red>Вы погибаете...</red>");

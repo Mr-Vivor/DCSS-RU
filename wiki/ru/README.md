@@ -6,7 +6,7 @@
 | ID | Название | English | Статус |
 |---|---|---|---|
 | `monster.rat` | [Крыса](pages/monster.rat.md) | rat | draft |
-| `monster.quokka` | [Квокк](pages/monster.quokka.md) | quokka | draft |
+| `monster.quokka` | [Квокка](pages/monster.quokka.md) | quokka | draft |
 | `monster.bat` | [Летучая мышь](pages/monster.bat.md) | bat | draft |
 | `monster.goblin` | [Гоблин](pages/monster.goblin.md) | goblin | draft |
 | `monster.hobgoblin` | [Хобгоблин](pages/monster.hobgoblin.md) | hobgoblin | draft |
@@ -29,7 +29,7 @@
 | `monster.gnoll_bouda` | [Гнолл-буда](pages/monster.gnoll_bouda.md) | gnoll bouda | draft |
 | `monster.gnoll_sergeant` | [Гнолл-сержант](pages/monster.gnoll_sergeant.md) | gnoll sergeant | draft |
 | `monster.ogre` | [Огр](pages/monster.ogre.md) | ogre | draft |
-| `monster.two_headed_ogre` | [Двухголовое огр](pages/monster.two_headed_ogre.md) | two-headed ogre | draft |
+| `monster.two_headed_ogre` | [Двухголовый огр](pages/monster.two_headed_ogre.md) | two-headed ogre | draft |
 | `monster.troll` | [Тролль](pages/monster.troll.md) | troll | draft |
 | `monster.centaur` | [Кентавр](pages/monster.centaur.md) | centaur | draft |
 | `monster.centaur_warrior` | [Кентавр-воин](pages/monster.centaur_warrior.md) | centaur warrior | draft |
@@ -62,7 +62,7 @@
 | `monster.basilisk` | [Василиск](pages/monster.basilisk.md) | basilisk | draft |
 | `monster.black_mamba` | [Чёрная мамба](pages/monster.black_mamba.md) | black mamba | draft |
 | `monster.water_moccasin` | [Водяной щитомордник](pages/monster.water_moccasin.md) | water moccasin | draft |
-| `monster.naga` | [Нагая](pages/monster.naga.md) | naga | draft |
+| `monster.naga` | [Нага](pages/monster.naga.md) | naga | draft |
 | `monster.mummy` | [Мумия](pages/monster.mummy.md) | mummy | draft |
 | `monster.vampire` | [Вампир](pages/monster.vampire.md) | vampire | draft |
 | `monster.wight` | [Умертвие](pages/monster.wight.md) | wight | draft |
@@ -70,13 +70,13 @@
 | `monster.phantom` | [Фантом](pages/monster.phantom.md) | phantom | draft |
 | `monster.shadowghast` | [Теневой дух](pages/monster.shadowghast.md) | shadowghast | draft |
 | `monster.lich` | [Лич](pages/monster.lich.md) | lich | draft |
-| `monster.ancient_lich` | [Древнее лич](pages/monster.ancient_lich.md) | ancient lich | draft |
+| `monster.ancient_lich` | [Древний лич](pages/monster.ancient_lich.md) | ancient lich | draft |
 | `monster.slime_creature` | [Слизистое существо](pages/monster.slime_creature.md) | slime creature | draft |
 | `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | draft |
 | `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | draft |
 | `monster.orc_sorcerer` | [Орк-колдун](pages/monster.orc_sorcerer.md) | orc sorcerer | draft |
 | `monster.deep_elf_archer` | [Глубинный эльф-лучник](pages/monster.deep_elf_archer.md) | deep elf archer | draft |
-| `monster.deep_elf_pyromancer` | [Глубинная эльф-пироманта](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | draft |
+| `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | draft |
 | `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | draft |
 | `monster.stone_giant` | [Каменный великан](pages/monster.stone_giant.md) | stone giant | draft |
 | `monster.fire_giant` | [Огненный великан](pages/monster.fire_giant.md) | fire giant | draft |
@@ -118,7 +118,7 @@
 | `item.spear` | [Копьё](pages/item.spear.md) | spear | draft |
 | `item.trident` | [Трезубец](pages/item.trident.md) | trident | draft |
 | `item.halberd` | [Алебарда](pages/item.halberd.md) | halberd | draft |
-| `item.glaive` | [Глеф](pages/item.glaive.md) | glaive | draft |
+| `item.glaive` | [Глефа](pages/item.glaive.md) | glaive | draft |
 | `item.bardiche` | [Бердыш](pages/item.bardiche.md) | bardiche | draft |
 | `item.quarterstaff` | [Боевой посох](pages/item.quarterstaff.md) | quarterstaff | draft |
 | `item.lajatang` | [Ладжатанг](pages/item.lajatang.md) | lajatang | draft |
