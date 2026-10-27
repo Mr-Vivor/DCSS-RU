@@ -201,7 +201,8 @@ void init_localisation()
         // @any@ allows any chars
         pattern = any_arg_patt.replace(pattern, "(.*)");
         // normal args can't span sentences
-        pattern = str_arg_patt.replace(pattern, "([^.!?{}()\\[\\]*)");
+        // Put ] first in the bracket expression for POSIX/PCRE compatibility.
+        pattern = str_arg_patt.replace(pattern, "([^][.!?{}()]*)");
         // adjectives can change "a" to "an" or vice versa
         pattern = a_an_patt.replace(pattern, "an? ");
         pattern = "^" + pattern + "$";
