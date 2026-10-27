@@ -3,6 +3,15 @@
 #include "AppHdr.h"
 #include "pattern.h"
 
+TEST_CASE("Localisation message placeholders", "[single-file]")
+{
+    text_pattern pattern("^You hit ([^].!?{}()[]*)([.!?]+)$");
+    CHECK(pattern.matches("You hit the ice dragon!"));
+    CHECK_FALSE(pattern.matches("You hit [an annotation]!"));
+    vector<string> expected = {"the ice dragon", "!"};
+    CHECK(pattern.capture("You hit the ice dragon!") == expected);
+}
+
 TEST_CASE( "Pattern matches", "[single-file]" ) {
     // match substring
     text_pattern pattern1("[A-Za-z]+:[0-9]+");

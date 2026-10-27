@@ -13,7 +13,7 @@ class russian_localisation
 public:
     russian_localisation()
         : old_language(Options.language), old_name(Options.lang_name),
-          old_directory(SysEnv.crawl_dir)
+          old_directory(SysEnv.crawl_dir.empty() ? "." : SysEnv.crawl_dir)
     {
         shutdown_localisation();
         databaseSystemShutdown();
