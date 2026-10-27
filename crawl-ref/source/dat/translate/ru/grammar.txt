@@ -1,0 +1,24 @@
+# Russian integer count contexts. Case-specific variants are generated per entity.
+%%%%
+PLURAL_RULES
+one: n % 10 == 1 and n % 100 ~= 11
+few: n % 10 >= 2 and n % 10 <= 4 and not (n % 100 >= 12 and n % 100 <= 14)
+many: true
+%%%%
+@Sentence@.
+@Sentence@.
+%%%%
+@Sentence@!
+@Sentence@!
+%%%%
+@Sentence@!!
+@Sentence@!!
+%%%%
+@Sentence@!!!
+@Sentence@!!!
+%%%%
+@Sentence@?
+@Sentence@?
+%%%%
+@Sentence@...
+@Sentence@...

@@ -69,3 +69,6 @@
 # Turn the shift-vi keys into safe move, instead of run.
 # include = safe_move_shift.txt
 
+# DCSS-RU: Russian is enabled by default. Use language = en for English.
+language = ru
+

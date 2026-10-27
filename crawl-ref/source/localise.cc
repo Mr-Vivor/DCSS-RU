@@ -241,6 +241,8 @@ void shutdown_localisation()
     _pregenerated.clear();
     _patterns.clear();
     _initialised = false;
+    _paused = false;
+    _context.clear();
 }
 
 void pause_localisation()
@@ -526,19 +528,31 @@ static string _handle_variable_punctuation(const string& rest, const string& pun
 // Get the correct plural form for languages that have different forms for different numbers.
 // For example, Russian has one plural form for 2-4, and a different one for 5-10.
 // Returns the context specificer for the correct plural form
-static string _get_correct_plural_form(const string& s)
+static string _get_correct_plural_form(const map<string, string>& params)
 {
     string plural_rules = getTranslatedString("PLURAL_RULES");
     trim_string(plural_rules);
     if (plural_rules.empty())
         return "";
 
-    // extract the number from the string to be translated
-    static const text_pattern number_pattern("[0-9]+");
-    pattern_match match = number_pattern.match_location(s);
-    if (!match)
+    // Use captured numeric parameters, not the first number in the message.
+    // A weapon enchantment or a floor number may precede an item count.
+    // Multiple counts must be localised in their own noun phrases.
+    string num_str;
+    static const text_pattern number_pattern("^[+]?[0-9]+$");
+    for (const auto& param : params)
+    {
+        if (!starts_with(param.first, "num")
+            || !number_pattern.matches(param.second))
+        {
+            continue;
+        }
+        if (!num_str.empty())
+            return "";
+        num_str = param.second;
+    }
+    if (num_str.empty())
         return "";
-    string num_str = match.matched_text();
 
     vector<string> rules = split_string("\n", plural_rules, true, false);
     for (string rule: rules)
@@ -553,7 +567,7 @@ static string _get_correct_plural_form(const string& s)
 
         // evaluate the condition
         string expression = tokens[1];
-        string lua_code = make_stringf("n=%s\nreturn %s", num_str.c_str(), expression.c_str());
+        string lua_code = make_stringf("local n=%s\nreturn %s", num_str.c_str(), expression.c_str());
 
         if (clua.execstring(lua_code.c_str(), "plural_lua", 1) != 0)
         {
@@ -632,9 +646,15 @@ static string _localise_parameterised_string(const string& s, bool full_sentence
 
     string format = match.second;
 
-    string plural_form = _get_correct_plural_form(s);
+    string plural_form = _get_correct_plural_form(params);
     if (!plural_form.empty())
-        format = _ctx_translate(plural_form, match.second);
+    {
+        // Case and count are independent: e.g. instrumental + few.
+        format = _translate(add_context(_context + "_" + plural_form,
+                                        match.second));
+        if (format.empty())
+            format = _ctx_translate(plural_form, match.second);
+    }
     else
         format = _ctx_translate(_context, match.second);
 

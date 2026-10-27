@@ -1,0 +1,85 @@
+name: DCSS-RU
+
+on:
+  push:
+    branches: [master, ru-bootstrap]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ru-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  russian-tests:
+    name: Russian dictionaries and engine tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python tools/ru/generate.py --check
+      - run: python -m unittest discover -s tools/ru/tests -v
+      - name: Install compiler and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libncursesw5-dev bison flex liblua5.4-dev libsqlite3-dev zlib1g-dev pkg-config
+          python -m pip install PyYAML
+      - uses: hendrikmuhs/ccache-action@v1.2
+        with:
+          key: ru-linux
+      - name: Build engine regression tests
+        working-directory: crawl-ref/source
+        run: make -j2 CXX='ccache g++' catch2-tests-executable
+      - name: Run Russian grammar tests
+        working-directory: crawl-ref/source
+        env:
+          LANG: C.UTF-8
+        run: ./catch2-tests-executable '[localise]'
+      - name: Run engine regression suite
+        working-directory: crawl-ref/source
+        env:
+          LANG: C.UTF-8
+        run: ./catch2-tests-executable
+      - name: Upload shared wiki dictionary
+        uses: actions/upload-artifact@v4
+        with:
+          name: dcss-ru-wiki-draft
+          path: wiki/ru
+
+  windows-tiles:
+    name: Windows Tiles preview
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install cross compiler and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential mingw-w64 bison flex libpng-dev pkg-config zip
+          python -m pip install PyYAML
+      - uses: hendrikmuhs/ccache-action@v1.2
+        with:
+          key: ru-win32
+      - name: Build Windows Tiles package
+        working-directory: crawl-ref/source
+        run: make -j2 CROSSHOST=i686-w64-mingw32 package-windows-tiles
+      - name: Upload playable preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: dcss-ru-windows-tiles
+          path: crawl-ref/source/stone_soup-*-tiles-win32.zip
+          if-no-files-found: error

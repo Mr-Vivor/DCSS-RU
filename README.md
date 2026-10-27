@@ -2,6 +2,8 @@
 
 # Dungeon Crawl Stone Soup
 
+**DCSS-RU: [Русский перевод — состояние, сборки и участие](README.ru.md).**
+
 Dungeon Crawl Stone Soup is a game of dungeon exploration, combat and magic, involving characters of diverse skills, worshipping deities of great power and caprice. To win, you'll need to be a master of tactics and strategy, and prevail against overwhelming odds.
 
 ## Contents

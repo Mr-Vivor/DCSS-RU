@@ -2668,8 +2668,8 @@ game_options::game_options()
     seed(0), seed_from_rc(0),
     no_save(false), no_player_bones(false),
     sc_entries(0), sc_format(-1),
-    language(lang_t::EN),
-    lang_name(nullptr)
+    language(lang_t::RU),
+    lang_name("ru")
 {
     reset_options();
 }

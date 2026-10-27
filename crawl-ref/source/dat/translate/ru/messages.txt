@@ -1,0 +1,253 @@
+# Russian first pass. Unlisted messages fall back to English.
+%%%%
+You hit @arg@@punct@
+Вы ударяете {acc}@arg@@punct@
+%%%%
+You hit @arg@ with @your_weapon@@punct@
+Вы ударяете {acc}@arg@ {ins}@your_weapon@@punct@
+%%%%
+You kill @arg@!
+Вы убиваете {acc}@arg@!
+%%%%
+You destroy @arg@!
+Вы уничтожаете {acc}@arg@!
+%%%%
+You miss @arg@.
+Вы промахиваетесь по {dat}@arg@.
+%%%%
+You closely miss @arg@.
+Вы едва не попадаете по {dat}@arg@.
+%%%%
+You barely miss @arg@.
+Вы чуть-чуть не попадаете по {dat}@arg@.
+%%%%
+You punch @arg@@punct@
+Вы бьёте кулаком {acc}@arg@@punct@
+%%%%
+You kick @arg@@punct@
+Вы пинаете {acc}@arg@@punct@
+%%%%
+You slash @arg@@punct@
+Вы рубите {acc}@arg@@punct@
+%%%%
+You slice @arg@@punct@
+Вы рассекаете {acc}@arg@@punct@
+%%%%
+You claw @arg@@punct@
+Вы терзаете когтями {acc}@arg@@punct@
+%%%%
+You scratch @arg@@punct@
+Вы царапаете {acc}@arg@@punct@
+%%%%
+You bite @arg@@punct@
+Вы кусаете {acc}@arg@@punct@
+%%%%
+You impale @arg@@punct@
+Вы пронзаете {acc}@arg@@punct@
+%%%%
+You puncture @arg@@punct@
+Вы прокалываете {acc}@arg@@punct@
+%%%%
+You bludgeon @arg@@punct@
+Вы сокрушаете {acc}@arg@@punct@
+%%%%
+You pummel @arg@@punct@
+Вы избиваете {acc}@arg@@punct@
+%%%%
+@Arg@ hits you@punct@
+@Arg@ ударяет вас@punct@
+%%%%
+@Arg@ bites you@punct@
+@Arg@ кусает вас@punct@
+%%%%
+@Arg@ claws you@punct@
+@Arg@ царапает вас@punct@
+%%%%
+@Arg@ pecks you@punct@
+@Arg@ клюёт вас@punct@
+%%%%
+@Arg@ stings you@punct@
+@Arg@ жалит вас@punct@
+%%%%
+@Arg@ misses you.
+@Arg@ промахивается по вам.
+%%%%
+@Arg@ closely misses you.
+@Arg@ едва не попадает по вам.
+%%%%
+@Arg@ barely misses you.
+@Arg@ чуть-чуть не попадает по вам.
+%%%%
+@Arg@ completely misses you.
+@Arg@ совсем не попадает по вам.
+%%%%
+@Arg@ hits you but does no damage.
+@Arg@ ударяет вас, но не наносит урона.
+%%%%
+@Arg1@ hits @arg2@@punct@
+@Arg1@ ударяет {acc}@arg2@@punct@
+%%%%
+@Arg1@ bites @arg2@@punct@
+@Arg1@ кусает {acc}@arg2@@punct@
+%%%%
+@Arg@ comes into view.
+В поле зрения появляется {nom}@arg@.
+%%%%
+@Arg@ shouts!
+@Arg@ кричит!
+%%%%
+You block @arg@'s attack.
+Вы блокируете атаку {gen}@arg@.
+%%%%
+You block @arg@.
+Вы блокируете {acc}@arg@.
+%%%%
+You see here @arg@.
+Здесь лежит {nom}@arg@.
+%%%%
+You see @arg1@ and @arg2@.
+Вы видите {acc}@arg1@ и {acc}@arg2@.
+%%%%
+You drop @arg@.
+Вы бросаете {acc}@arg@.
+%%%%
+You remove @arg@.
+Вы снимаете {acc}@arg@.
+%%%%
+You pick up @arg@.
+Вы подбираете {acc}@arg@.
+%%%%
+You wield @arg@.
+Вы берёте в руки {acc}@arg@.
+%%%%
+You pick up the Orb of Zot!
+Вы подбираете Сферу Зота!
+%%%%
+You feel better.
+Вы чувствуете себя лучше.
+%%%%
+You feel sick.
+Вас тошнит.
+%%%%
+You feel very sick.
+Вас сильно тошнит.
+%%%%
+You are poisoned.
+Вы отравлены.
+%%%%
+You are confused.
+Вы сбиты с толку.
+%%%%
+You resist.
+Вы сопротивляетесь.
+%%%%
+You barely resist.
+Вы едва сопротивляетесь.
+%%%%
+You die...
+Вы погибаете...
+%%%%
+You start resting.
+Вы начинаете отдыхать.
+%%%%
+You start waiting.
+Вы начинаете ждать.
+%%%%
+Done waiting.
+Ожидание завершено.
+%%%%
+Done exploring.
+Исследование завершено.
+%%%%
+There are no monsters in sight!
+В поле зрения нет монстров!
+%%%%
+There are no visible monsters within range!
+В пределах досягаемости нет видимых монстров!
+%%%%
+You can't do that.
+Вы не можете этого сделать.
+%%%%
+You cannot move.
+Вы не можете двигаться.
+%%%%
+You can't go down here!
+Здесь нельзя спуститься!
+%%%%
+You can't go up here!
+Здесь нельзя подняться!
+%%%%
+You are now level @num@!
+Вы достигаете уровня @num@!
+%%%%
+You have reached level @num@!
+Вы достигаете уровня @num@!
+%%%%
+You feel a surge of power!
+Вы чувствуете прилив силы!
+%%%%
+You feel a surge of magic.
+Вы чувствуете прилив магии.
+%%%%
+You feel mighty!
+Вы чувствуете невероятную силу!
+%%%%
+You feel yourself speed up.
+Вы ускоряетесь.
+%%%%
+You feel yourself slow down.
+Вы замедляетесь.
+%%%%
+Your magical contamination has completely faded away.
+Магическое загрязнение полностью исчезло.
+%%%%
+You are no longer poisoned.
+Вы больше не отравлены.
+%%%%
+You feel less confused.
+Ваши мысли проясняются.
+%%%%
+You are no longer berserk.
+Ярость покидает вас.
+%%%%
+You are exhausted.
+Вы истощены.
+%%%%
+Your movement speed is average.
+Вы двигаетесь с обычной скоростью.
+%%%%
+As you read @arg@, it crumbles to dust.
+Вы читаете {acc}@arg@, и свиток рассыпается в пыль.
+%%%%
+It was @arg@.
+Это: {nom}@arg@.
+%%%%
+You drink @arg@.
+Вы выпиваете {acc}@arg@.
+%%%%
+You quaff @arg@.
+Вы выпиваете {acc}@arg@.
+%%%%
+@Arg@ is poisoned.
+@Arg@ испытывает действие яда.
+%%%%
+@Arg@ looks sick.
+У {gen}@arg@ болезненный вид.
+%%%%
+@Arg@ looks frightened!
+@Arg@ испытывает страх!
+%%%%
+@Arg@ is moderately wounded.
+У {gen}@arg@ заметные раны.
+%%%%
+@Arg@ is heavily wounded.
+У {gen}@arg@ тяжёлые раны.
+%%%%
+@Arg@ is severely wounded.
+У {gen}@arg@ очень тяжёлые раны.
+%%%%
+@Arg@ is lightly wounded.
+У {gen}@arg@ лёгкие раны.
+%%%%
+@Arg@ is almost dead.
+@Arg@ при смерти.
