@@ -26,6 +26,7 @@
 #include "items.h"
 #include "item-name.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "message.h"
 #include "religion.h"
@@ -1149,7 +1150,7 @@ static void _send_god_ui(god_type god, bool is_altar)
     tiles.json_close_object();
 
     tiles.json_write_int("colour", god_colour(god));
-    tiles.json_write_string("name", god_name(god, true));
+    tiles.json_write_string("name", localise(god_name(god, true)));
     tiles.json_write_bool("is_altar", is_altar);
 
     tiles.json_write_string("description", getLongDescription(god_name(god)));

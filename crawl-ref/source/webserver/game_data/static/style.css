@@ -275,6 +275,7 @@ canvas {
 }
 .game_message {
     white-space: pre-wrap;
+    overflow-wrap: anywhere;
 }
 
 #minimap_block {

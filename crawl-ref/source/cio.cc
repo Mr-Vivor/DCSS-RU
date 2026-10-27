@@ -289,8 +289,10 @@ static void wrapcprint_skipping(int skiplines, int wrapcol, const string &buf)
                 if (skiplines == 0)
                     cprintf("%s", line.c_str());
 
-                linebreak = skiplines == 0
-                            && line.length() >= static_cast<unsigned int>(avail);
+                // Cursor columns count displayed cells, not UTF-8 bytes.
+                // Counting bytes wraps Cyrillic colour spans too early and
+                // lets the next message overwrite their continuation.
+                linebreak = skiplines == 0 && strwidth(line) >= avail;
             }
         }
         else

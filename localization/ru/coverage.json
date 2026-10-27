@@ -12,6 +12,46 @@
   "additional_terms": {
     "species": 27,
     "background": 28,
-    "skill": 29
+    "skill": 29,
+    "gods": 26,
+    "spell": 12
+  },
+  "static_catalogs": {
+    "ui": 477,
+    "input": 18,
+    "misc": 67,
+    "statuses": 527,
+    "abilities": 186,
+    "skills": 65,
+    "player-backgrounds": 129,
+    "player-species": 176,
+    "player-genus": 43,
+    "player-misc": 6,
+    "gods": 170,
+    "features": 308,
+    "features-counted": 57,
+    "dungeon": 251,
+    "annotations": 187,
+    "transforms": 185,
+    "hiscores": 246,
+    "shops": 110,
+    "mutations": 970,
+    "spells": 464,
+    "player-title-def": 395,
+    "player-title-plain": 393,
+    "monster-props": 195
+  },
+  "static_unique_keys": 5625,
+  "descriptions": {
+    "species": 27,
+    "backgrounds": 28,
+    "gods": 82,
+    "tutorial": 88,
+    "hints": 217,
+    "commands": 98
+  },
+  "help_databases": {
+    "help": 13,
+    "FAQ": 38
   }
 }

@@ -3,8 +3,10 @@ import importlib.util
 import json
 import re
 import unittest
+import sys
 
 ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "tools/ru"))
 spec = importlib.util.spec_from_file_location("ru_generate", ROOT / "tools/ru/generate.py")
 generate = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(generate)

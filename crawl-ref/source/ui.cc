@@ -17,6 +17,7 @@
 #include "tileweb.h"
 #include "unicode.h"
 #include "libutil.h"
+#include "localise.h"
 #include "windowmanager.h"
 #include "ui-scissor.h"
 
@@ -633,10 +634,13 @@ Text::Text()
 
 void Text::set_text(const formatted_string &fs)
 {
-    if (fs == m_text)
+    // Translate before measuring/wrapping. Modern character-creation widgets
+    // bypass the older Menu translation hook, including tutorial lesson names.
+    const formatted_string translated = localise(fs);
+    if (translated == m_text)
         return;
     m_text.clear();
-    m_text += fs;
+    m_text += translated;
     _invalidate_sizereq();
     _expose();
     m_wrapped_size = Size(-1);

@@ -6,6 +6,7 @@ from pathlib import Path
 from collections import Counter
 import argparse
 import json
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db
 
 ROOT = Path(__file__).resolve().parents[2]
 CASES = ("nom", "gen", "dat", "acc", "ins", "prep")
@@ -82,12 +83,53 @@ def outputs(entities):
     result = {ROOT / "crawl-ref/source/dat/translate/ru/entities.txt": serialize_db(game_entries(entities))}
     terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
     term_entries = {}
-    for group in terms.values():
+    for category, group in terms.items():
         for english, russian in group.items():
             term_entries[english] = russian
-            term_entries["the " + english] = russian.lower()
-            term_entries["a " + english] = russian.lower()
+            term_entries["the " + english] = russian if category == "gods" else russian.lower()
+            term_entries["a " + english] = russian if category == "gods" else russian.lower()
     result[ROOT / "crawl-ref/source/dat/translate/ru/terms.txt"] = serialize_db(term_entries)
+    static = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
+    static_entries = {}
+    for filename in STATIC_FILES:
+        expected = read_db(ROOT / f"crawl-ref/source/dat/translate/{filename}.txt", True)
+        missing = set(expected) - set(static[filename])
+        if missing:
+            raise ValueError(f"Missing static translations in {filename}: {sorted(missing)}")
+        static_entries.update(static[filename])
+    # The original hand-edited translations and morphological registry win.
+    reserved = set(term_entries) | set(game_entries(entities))
+    for path in (ROOT / "crawl-ref/source/dat/translate/ru").glob("*.txt"):
+        if path.name not in ("entities.txt", "terms.txt", "static.txt"):
+            reserved.update(read_db(path, True))
+    static_entries = {key: value for key, value in static_entries.items() if key not in reserved}
+    def quoted(value):
+        return '"' + value + '"' if value != value.strip() else value
+    result[ROOT / "crawl-ref/source/dat/translate/ru/static.txt"] = write_db(
+        {quoted(k): quoted(v) for k, v in static_entries.items()},
+        "Generated from localization/ru/static.json; draft prose, protected engine tokens.")
+    result[ROOT / "wiki/ru/static-catalog.json"] = json.dumps(static, ensure_ascii=False, indent=2) + "\n"
+    descriptions = json.loads((ROOT / "localization/ru/character-descriptions.json").read_text(encoding="utf8"))
+    gods = read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
+    gods.update(json.loads((ROOT / "localization/ru/god-introductions.json").read_text(encoding="utf8")))
+    descriptions["gods"] = gods
+    for filename, group in descriptions.items():
+        source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
+        if set(source) != set(group):
+            raise ValueError("Character descriptions do not match upstream: " + filename)
+        result[ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"] = write_db(group,
+            "Generated from localization/ru/character-descriptions.json.")
+    for category, filename in (("species", "species"), ("background", "backgrounds"), ("gods", "gods")):
+        group = descriptions.get(filename) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt")
+        for english, title in terms[category].items():
+            slug = english.lower().replace(" ", "-")
+            page = [f"# {title}", "", f"**English:** {english}", "", group[english], ""]
+            if category == "gods":
+                for suffix, heading in ((" powers", "Силы и благочестие"), (" wrath", "Гнев"), (" extra", "Дополнительно")):
+                    if english + suffix in group:
+                        page.extend(("## " + heading, "", group[english + suffix], ""))
+            page.extend(("Текст и название взяты из тех же словарей, что использует игра. Черновик для вычитки.", ""))
+            result[ROOT / "wiki/ru/characters" / category / (slug + ".md")] = "\n".join(page)
     result[ROOT / "wiki/ru/terms.json"] = json.dumps(terms, ensure_ascii=False, indent=2) + "\n"
     wiki = {entity["id"]: dict(title=entity["forms"]["singular"]["nom"].capitalize(),
                                 en=entity["en"], en_plural=entity["en_plural"],
@@ -95,6 +137,7 @@ def outputs(entities):
             for entity in entities}
     result[ROOT / "wiki/ru/entities.json"] = json.dumps(wiki, ensure_ascii=False, indent=2) + "\n"
     index = ["# Словарь русской вики DCSS", "", "Автоматически создан из общего словаря игры и вики.",
+             "", "[Виды, предыстории, боги и навыки](character-terms.md): названия и описания из игры.",
              "Формы со статусом draft допускают точечные исправления.", "", "| ID | Название | English | Статус |",
              "|---|---|---|---|"]
     for entity in entities:
@@ -113,16 +156,23 @@ def outputs(entities):
         page.extend(("", "Название и формы берутся из `localization/ru/entities.json`. Исправления вносятся туда.", ""))
         result[ROOT / "wiki/ru/pages" / (entity["id"] + ".md")] = "\n".join(page)
     result[ROOT / "wiki/ru/README.md"] = "\n".join(index) + "\n"
-    term_index = ["# Виды, предыстории и навыки", "", "Имена из localization/ru/terms.json используются и в игре, и в вики.", ""]
+    term_index = ["# Виды, предыстории, боги и навыки", "", "Имена из localization/ru/terms.json используются и в игре, и в вики.", ""]
     for category, values in terms.items():
         term_index.extend(("## " + category, "", "| English | Русское название |", "|---|---|"))
-        term_index.extend(f"| {en} | {ru} |" for en, ru in values.items())
+        for en, ru in values.items():
+            slug = en.lower().replace(" ", "-")
+            label = f"[{ru}](characters/{category}/{slug}.md)" if category in ("species", "background", "gods") else ru
+            term_index.append(f"| {en} | {label} |")
         term_index.append("")
     result[ROOT / "wiki/ru/character-terms.md"] = "\n".join(term_index)
     stats = dict(entities=len(entities), kinds=dict(Counter(e["kind"] for e in entities)),
                  generated_game_keys=len(game_entries(entities)), review=dict(Counter(e["review"] for e in entities)),
                  wiki_articles=sum((ROOT / "wiki/ru/content" / (e["id"] + ".md")).exists() for e in entities),
-                 additional_terms={group: len(values) for group, values in terms.items()})
+                 additional_terms={group: len(values) for group, values in terms.items()},
+                 static_catalogs={name: len(static[name]) for name in STATIC_FILES},
+                 static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
+                 descriptions={name: len(descriptions.get(name) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{name}.txt")) for name in DESCRIPTION_FILES},
+                 help_databases={name: len(read_db(ROOT / f"crawl-ref/source/dat/database/ru/{name}.txt")) for name in DATABASE_FILES})
     result[ROOT / "localization/ru/coverage.json"] = json.dumps(stats, ensure_ascii=False, indent=2) + "\n"
     return result
 

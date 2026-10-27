@@ -5,6 +5,7 @@
 #include "initfile.h"
 #include "localise.h"
 #include "options.h"
+#include "ui.h"
 
 namespace
 {
@@ -76,4 +77,16 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("An untranslated message about MrVivor.")
           == "An untranslated message about MrVivor.");
     CHECK(localise("<red>You die...</red>") == "<red>Вы погибаете...</red>");
+
+    CHECK(localise("Spriggan") == "Спригган");
+    CHECK(localise("Gnoll") == "Гнолл");
+    CHECK(localise("Barachi") == "Барачи");
+    CHECK(localise("the Trog") == "Трог");
+    CHECK(localise("Shock") == "Электрический разряд");
+    CHECK(localise("Lesson 5: Gods and Divine Abilities")
+          == "Урок 5: Боги и божественные способности");
+    ui::Text lesson("Lesson 1: Movement and Exploration");
+    CHECK(lesson.get_text().tostring() == "Урок 1: Передвижение и исследование");
+    formatted_string multiline("Human\nSpriggan");
+    CHECK(localise(multiline).tostring() == "Человек\nСпригган");
 }

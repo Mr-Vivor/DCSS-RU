@@ -950,7 +950,8 @@ formatted_string localise(const formatted_string& fs)
     formatted_string result;
     for (auto op: fs.ops)
     {
-        op.text = _localise_string(op.text);
+        if (op.type == FSOP_TEXT)
+            op.text = localise_in_context("", op.text);
         result.ops.push_back(op);
     }
     return result;

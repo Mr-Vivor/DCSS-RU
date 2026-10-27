@@ -1321,11 +1321,11 @@ void TilesFramework::_send_player(bool force_full)
                     json_write_bool("use_html", true);
                 }
                 else
-                    json_write_string("light", status.light_text);
-                json_write_string("desc", status_light_description(status));
+                    json_write_string("light", localise(status.light_text));
+                json_write_string("desc", localise(status_light_description(status)));
             }
             if (!status.short_text.empty())
-                json_write_string("text", status.short_text);
+                json_write_string("text", localise(status.short_text));
             if (status.light_colour)
                 json_write_int("col", macro_colour(status.light_colour));
             json_close_object(true);
@@ -2733,7 +2733,15 @@ void TilesFramework::json_write_string(const string& name, const string& value)
     if (!name.empty())
         json_write_name(name);
 
-    json_write_string(value);
+    // These fields are presentation text. Localise before sending it to the
+    // browser; identifiers, key bindings and input contents stay byte-exact.
+    if (name == "title" || name == "prompt" || name == "description"
+        || name == "label")
+    {
+        json_write_string(localise(value));
+    }
+    else
+        json_write_string(value);
 }
 
 bool is_tiles()

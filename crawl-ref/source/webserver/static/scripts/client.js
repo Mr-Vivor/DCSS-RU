@@ -66,8 +66,8 @@ function (exports, $, key_conversion, chat, comm) {
             }
             catch (e)
             {
-                console.error("Parsing error:", e);
-                console.error("Source message:", msgtext);
+                console.error("Ошибка анализа:", e);
+                console.error("Исходное сообщение:", msgtext);
                 return;
             }
             var msgs = msgobj.msgs;
@@ -76,7 +76,7 @@ function (exports, $, key_conversion, chat, comm) {
             for (var i in msgs)
             {
                 if (window.log_messages && window.log_messages !== 2)
-                    console.log("Message: " + msgs[i].msg, msgs[i]);
+                    console.log("Сообщение: " + msgs[i].msg, msgs[i]);
                 if (!comm.handle_message_immediately(msgs[i]))
                     message_queue.push(msgs[i]);
             }
@@ -107,7 +107,7 @@ function (exports, $, key_conversion, chat, comm) {
                 }
                 catch (err)
                 {
-                    console.error("Error in message:", msg);
+                    console.error("Ошибка в сообщении:", msg);
                     console.error(err.message);
                     console.error(err.stack);
                 }
@@ -225,7 +225,7 @@ function (exports, $, key_conversion, chat, comm) {
             // needed for Mozilla where neither ctrlKey or altKey is set
             if ($.browser.mozilla || !e.ctrlKey || !e.altKey)
             {
-                //log("CTRL key: " + e.ctrlKey + " " + e.which
+                //log("Клавиша CTRL: " + e.ctrlKey + " " + e.which
                 //    + " " + String.fromCharCode(e.which));
                 return;
             }
@@ -442,7 +442,7 @@ function (exports, $, key_conversion, chat, comm) {
                 send_keycode(key_conversion.legacy[e.which]);
             }
             // else
-            //    log("Unhandled key: " + e.which + ", " + code);
+            //    log("Необработанный ключ: " + e.which + ", " + code);
         }
     }
 
@@ -453,7 +453,7 @@ function (exports, $, key_conversion, chat, comm) {
             $("#login_form").hide();
             $("#reg_link").hide();
             $("#forgot_link").hide();
-            $("#login_message").html("Logging in...");
+            $("#login_message").html("Вход в систему...");
             send_message("token_login", {
                 cookie: get_login_cookie()
             });
@@ -475,7 +475,7 @@ function (exports, $, key_conversion, chat, comm) {
         $("#login_form").hide();
         $("#reg_link").hide();
         $("#forgot_link").hide();
-        $("#login_message").html("Logging in...");
+        $("#login_message").html("Вход в систему...");
         var username = $("#username").val();
         var password = $("#password").val();
         send_message("login", {
@@ -491,7 +491,7 @@ function (exports, $, key_conversion, chat, comm) {
         if (reason)
             $("#login_message").html(reason);
         else
-            $("#login_message").html("Login failed.");
+            $("#login_message").html("Не удалось войти в систему.");
     }
 
     function login_failed(data)
@@ -508,7 +508,7 @@ function (exports, $, key_conversion, chat, comm) {
     {
         var username = data.username;
         hide_prompt();
-        $("#login_message").html("Logged in as " + username);
+        $("#login_message").html("Вошёл как " + username);
         current_user = username;
         admin_user = data.admin;
         hide_dialog();
@@ -604,7 +604,7 @@ function (exports, $, key_conversion, chat, comm) {
     {
         var username = $("#admin_username").val();
         if (username.length == 0)
-            admin_log_msg("No username provided!");
+            admin_log_msg("Имя пользователя не указано!");
         else
             send_message("admin_pw_reset", {username: username});
     }
@@ -612,14 +612,14 @@ function (exports, $, key_conversion, chat, comm) {
     function admin_pw_reset_done(data)
     {
         if (data.error)
-            admin_log_msg("Password reset failed: " + data.error);
+            admin_log_msg("Не удалось сбросить пароль: " + data.error);
         else
         {
-            admin_log_msg("Password reset token set for " + data.username);
-            $("#ok_message_content").html("<div><span><b>Password reset info:</b></span></div>");
-            $("#ok_message_content").append("<div><span>Username: " + data.username + "</span></div>");
-            $("#ok_message_content").append("<div><span>User email: <tt>" + data.email + "</tt></span></div>");
-            $("#ok_message_content").append("<div>Message to send:<pre>" + data.email_body + "</pre></div>");
+            admin_log_msg("Набор токенов сброса пароля для " + data.username);
+            $("#ok_message_content").html("<div> <span> <b> Информация для сброса пароля: </b> </span> </div>");
+            $("#ok_message_content").append("<div> <span> Имя пользователя: " + data.username + "</span></div>");
+            $("#ok_message_content").append("<div> <span> Электронная почта пользователя: <tt>" + data.email + "</tt></span></div>");
+            $("#ok_message_content").append("<div> Сообщение для отправки: <pre>" + data.email_body + "</pre></div>");
             show_dialog("#floating_ok_message");
         }
     }
@@ -628,10 +628,10 @@ function (exports, $, key_conversion, chat, comm) {
     {
         var username = $("#admin_username").val();
         if (username.length == 0)
-            admin_log_msg("No username provided!");
+            admin_log_msg("Имя пользователя не указано!");
         else
         {
-            admin_log_msg("Password reset token cleared for " + username);
+            admin_log_msg("Токен сброса пароля очищен для " + username);
             send_message("admin_pw_reset_clear", {username: username});
         }
     }
@@ -649,7 +649,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function server_announcement(data)
     {
-        var text = '<span class="fg5">Serverwide announcement: </span><span>'
+        var text = "<span class=\"fg5\"> Объявление для всего сервера: </span> <span>"
             + data.text + '</span>';
         chat.show_in_chat(text);
     }
@@ -714,18 +714,18 @@ function (exports, $, key_conversion, chat, comm) {
             case "dead":
                 return null;
             case "cancel":
-                return watched_name + " quit before creating a character.";
+                return watched_name + " завершил работу перед созданием персонажа.";
             case "saved":
-                return watched_name + " stopped playing (saved).";
+                return watched_name + " перестал воспроизводиться (сохранено).\nИгра";
             case "crash":
-                return possessive(watched_name) + " game crashed.";
+                return possessive(watched_name) + " вылетела.\nИгра";
             case "error":
                 return possessive(watched_name)
-                       + " game was terminated due to an error.";
+                       + " была прекращена из-за ошибки.";
             case "disconnect":
-                return watched_name + " has been disconnected.";
+                return watched_name + " отключен.\nИгра";
             default:
-                return possessive(watched_name) + " game ended unexpectedly."
+                return possessive(watched_name) + " неожиданно завершилась."
                        + (reason != "unknown" ? " (" + reason + ")" : "");
             }
         }
@@ -741,13 +741,13 @@ function (exports, $, key_conversion, chat, comm) {
             case "cancel":
                 return null;
             case "crash":
-                return "Unfortunately your game crashed.";
+                return "К сожалению, ваша игра вылетела.";
             case "error":
-                return "Unfortunately your game terminated due to an error.";
+                return "К сожалению, ваша игра была прервана из-за ошибки.";
             case "disconnect":
-                return "You have been disconnected.";
+                return "Вы были отключены.";
             default:
-                return "Unfortunately your game ended unexpectedly."
+                return "К сожалению, ваша игра неожиданно закончилась."
                        + (reason != "unknown" ? " (" + reason + ")" : "");
             }
         }
@@ -771,11 +771,11 @@ function (exports, $, key_conversion, chat, comm) {
             var a = $("<a>").attr("target", "_blank")
                             .attr("href", dump + ".txt");
             if (reason === "saved")
-                a.text("Character dump");
+                a.text("Дамп символов");
             else if (reason === "crash")
-                a.text("Crash log");
+                a.text("Журнал сбоев");
             else
-                a.text("Morgue file");
+                a.text("Файл морга");
             $("#exit_game_dump").html(a).show();
         }
         else
@@ -804,13 +804,13 @@ function (exports, $, key_conversion, chat, comm) {
 
         if (username.indexOf(" ") >= 0)
         {
-            $("#register_message").html("The username can't contain spaces.");
+            $("#register_message").html("Имя пользователя не может содержать пробелы.");
             return false;
         }
 
         if (password !== password_repeat)
         {
-            $("#register_message").html("Passwords don't match.");
+            $("#register_message").html("Пароли не совпадают.");
             return false;
         }
 
@@ -848,7 +848,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function change_password_done(data)
     {
-        $("#ok_message_content").html("Password changed!");
+        $("#ok_message_content").html("Пароль изменен!");
         show_dialog("#floating_ok_message");
     }
 
@@ -860,7 +860,7 @@ function (exports, $, key_conversion, chat, comm) {
 
         if (new_password !== new_password_repeat)
         {
-            $("#chpw_message").html("Passwords don't match.");
+            $("#chpw_message").html("Пароли не совпадают.");
             return false;
         }
 
@@ -874,7 +874,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function change_password_failed(data)
     {
-        var msg = "Password change failed!";
+        var msg = "Не удалось изменить пароль!";
         if (data.reason)
             msg = msg + " " + data.reason;
         $("#ok_message_content").html(msg);
@@ -919,11 +919,11 @@ function (exports, $, key_conversion, chat, comm) {
     {
         if ( data.email == "" )
         {
-            $("#ok_message_content").html("Your account is no longer associated with an email address.");
+            $("#ok_message_content").html("Ваша учетная запись больше не связана с адресом электронной почты.");
         }
         else
         {
-            $("#ok_message_content").html("Your email address has been set to " + data.email + ".");
+            $("#ok_message_content").html("Ваш адрес электронной почты установлен на " + data.email + ".");
         }
 
         show_dialog("#floating_ok_message");
@@ -947,7 +947,7 @@ function (exports, $, key_conversion, chat, comm) {
 
         if (email.indexOf(" ") >= 0)
         {
-            $("#forgot_message").html("The email address can't contain spaces.");
+            $("#forgot_message").html("Адрес электронной почты не может содержать пробелов.");
             return false;
         }
 
@@ -976,7 +976,7 @@ function (exports, $, key_conversion, chat, comm) {
 
         if (password !== password_repeat)
         {
-            $("#reset_pw_message").html("Passwords don't match.");
+            $("#reset_pw_message").html("Пароли не совпадают.");
             return false;
         }
 
@@ -1008,7 +1008,7 @@ function (exports, $, key_conversion, chat, comm) {
     function rcfile_contents(data)
     {
         // Ignores wrong rcfile if on a slow connection we clicked two different
-        // "edit rc" buttons quickly
+        // "редактировать rc" buttons quickly
         if (data.game_id && data.game_id !== editing_rc)
             return;
         $("#rc_file_contents").val(data.contents);
@@ -1078,7 +1078,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function cleanup()
     {
-        document.title = "WebTiles - Dungeon Crawl Stone Soup";
+        document.title = "Веб-тайлы — Dungeon Crawl Stone Soup";
 
         hide_dialog();
 
@@ -1141,9 +1141,9 @@ function (exports, $, key_conversion, chat, comm) {
     {
         cleanup();
         show_loading_screen();
-        show_prompt("Login required to play <span id='prompt_game'>"
+        show_prompt("Для игры в <span id='prompt_game'> требуется вход"
                     + data.game + "</span>:",
-                    "<a href='#lobby'>Back to lobby</a>");
+                    "<a href='#lobby'> Вернуться в лобби </a>");
     }
 
     function chat_login(data)
@@ -1152,7 +1152,7 @@ function (exports, $, key_conversion, chat, comm) {
 
         var a = $("<a href='javascript:'>Close</a>");
         a.click(hide_prompt);
-        show_prompt("Login to chat:", a);
+        show_prompt("Вход в чат:", a);
     }
 
     var new_list = null;
@@ -1271,7 +1271,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function make_watch_link(data)
     {
-        if (data.username.startsWith("[account hold]"))
+        if (data.username.startsWith("[блокировка счета]"))
             return "<b></b>"; // don't linkify, watching disabled
         else
             return "<a href='#watch-" + data.username + "'></a>";
@@ -1531,7 +1531,7 @@ function (exports, $, key_conversion, chat, comm) {
     catch (e)
     {
         blob_construction_supported = false;
-        log("Blob construction not supported, disabling compression");
+        log("Конструкция Blob не поддерживается, сжатие отключено.");
     }
 
     function inflate_works_on_ua()
@@ -1633,7 +1633,7 @@ function (exports, $, key_conversion, chat, comm) {
                 ev.preventDefault();
                 ev.returnValue = '';
                 // n.b. this return value is ignored by 95% of browsers
-                return "Really save and quit the game?";
+                return "Действительно сохраниться и выйти из игры?";
             }
         });
 
@@ -1726,16 +1726,16 @@ function (exports, $, key_conversion, chat, comm) {
                     var decompressed = inflater.append(data);
                     if (decompressed === -1)
                     {
-                        console.error("Decompression error!");
+                        console.error("Ошибка распаковки!");
                         var x = inflater.append(data);
                     }
                     decode_utf8(decompressed, function (s) {
                         if (window.log_messages === 2)
-                            console.log("Message: " + s);
+                            console.log("Сообщение: " + s);
                         if (window.log_message_size)
                         {
-                            console.log("Message size: " + s.length
-                                + " (compressed " + msg.data.byteLength + ")");
+                            console.log("Размер сообщения: " + s.length
+                                + " (сжатый " + msg.data.byteLength + ")");
                         }
                         enqueue_messages(s);
                     });
@@ -1743,9 +1743,9 @@ function (exports, $, key_conversion, chat, comm) {
                 }
 
                 if (window.log_messages === 2)
-                    console.log("Message: " + msg.data);
+                    console.log("Сообщение: " + msg.data);
                 if (window.log_message_size)
-                    console.log("Message size: " + msg.data.length);
+                    console.log("Размер сообщения: " + msg.data.length);
 
                 enqueue_messages(msg.data);
             };
@@ -1756,7 +1756,7 @@ function (exports, $, key_conversion, chat, comm) {
                 {
                     set_layer("crt");
                     $("#crt").html("");
-                    $("#crt").append("The WebSocket connection failed.<br>");
+                    $("#crt").append("Не удалось подключиться к WebSocket. <br>");
                     showing_close_message = true;
                 }
             };
@@ -1767,12 +1767,12 @@ function (exports, $, key_conversion, chat, comm) {
                 {
                     set_layer("crt");
                     $("#crt").html("");
-                    $("#crt").append("The Websocket connection was closed.<br>");
+                    $("#crt").append("Соединение Websocket было закрыто. <br>");
                     if (ev.reason)
                     {
                         $("#crt").append("Reason:<br>" + ev.reason + "<br>");
                     }
-                    $("#crt").append("Reload to try again.<br>");
+                    $("#crt").append("Перезагрузите компьютер и повторите попытку. <br>");
                     showing_close_message = true;
                 }
             };
@@ -1780,14 +1780,14 @@ function (exports, $, key_conversion, chat, comm) {
         else
         {
             set_layer("crt");
-            $("#crt").html("Sadly, your browser does not support WebSockets. <br><br>");
-            $("#crt").append("The following browsers can be used to run WebTiles: ");
-            $("#crt").append("<ul><li>Chrome 6 and greater</li>" +
-                             "<li>Firefox 4 and 5, after enabling the " +
+            $("#crt").html("К сожалению, ваш браузер не поддерживает WebSockets.  <br> <br>");
+            $("#crt").append("Для запуска WebTiles можно использовать следующие браузеры: ");
+            $("#crt").append("<ul> <li> Chrome 6 и более поздних версий </li>" +
+                             "<li> Firefox 4 и 5, после включения " +
                              "network.websocket.override-security-block setting in " +
-                             "about:config</li><li>Opera 11, after " +
+                             "о:конфиге </li> <li> Opera 11, после " +
                              " enabling WebSockets in opera:config#Enable%20WebSockets" +
-                             "<li>Safari 5</li></ul>");
+                             "<li> Сафари 5 </li> </ul>");
         }
     });
 

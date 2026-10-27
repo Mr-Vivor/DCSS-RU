@@ -1,3 +1,4 @@
+# Russian text; draft additions checked for engine placeholders.
 %%%%
 tutorial intro
 
@@ -65,7 +66,7 @@ tutorial1 autoexplore
 
 Исследовать вручную со временем надоедает, так что пусть это делается само.
 Попробуйте нажать <input>$cmd[CMD_EXPLORE]</input><localtiles> или щёлкнуть по
-кнопке «autoexplore» — первой на панели команд под миникартой.</localtiles>.
+кнопке «Автоисследование» — первой на панели команд под миникартой.</localtiles>.
 %%%%
 tutorial1 exclusion
 
@@ -166,7 +167,7 @@ tutorial2 melee
 tutorial2 resting
 
 Очень хорошо! Восстановить здоровье можно отдыхом через
-<input>$cmd[CMD_REST]</input><localtiles> или щелчком по кнопке «rest» на
+<input>$cmd[CMD_REST]</input><localtiles> или щелчком по кнопке «Отдых» на
 панели команд под миникартой</localtiles>. Вы будете отдыхать, пока здоровье
 не восполнится, но важные события отдых прервут.
 %%%%
@@ -677,4 +678,3 @@ tutorial5 exit
 <yellow>Прочие команды</yellow>
   <input>$cmd[CMD_DISPLAY_OVERMAP]</input> показать обзор подземелья
   <input>$cmd[CMD_DISPLAY_COMMANDS]/</input>  искать в базе описаний
-%%%%

@@ -35,7 +35,7 @@
         autocapitalize="off"
         spellcheck="false"
         type="text"
-        placeholder="Tap here for keyboard input"
+        placeholder="Нажмите здесь для ввода с клавиатуры."
       />
     </div>
     <canvas
@@ -47,7 +47,7 @@
       <div id="messages_container">
         <div id="messages"></div>
       </div>
-      <div id="more" style="display: none">--more--</div>
+      <div id="more" style="display: none">--подробнее--</div>
     </div>
   </div>
   <div id="right_column">
@@ -63,7 +63,7 @@
       <div id="stats_hpline">
         <!-- These <span>s must be on the same logical line to prevent rendering bugs -->
         <span id="stats_hp_bar" class="bar" style="float: right; width: 55%; height: 1em"><span id="stats_hp_bar_full"></span><span id="stats_hp_bar_poison"></span><span id="stats_hp_bar_decrease"></span><span id="stats_hp_bar_increase"></span></span>
-        <span id="stats_hp_caption" class="stats_caption">HP:</span>
+        <span id="stats_hp_caption" class="stats_caption">ЗД:</span>
         <!-- These <span>s must be on the same logical line to prevent rendering bugs -->
         <span id="stats_hp"></span><span id="stats_hp_separator">/</span><span id="stats_hp_max"></span>
         <span id="stats_real_hp_max"></span>
@@ -71,7 +71,7 @@
       <div id="stats_mpline">
         <!-- These <span>s must be on the same logical line to prevent rendering bugs -->
         <span id="stats_mp_bar" class="bar" style="float: right; width: 55%; height: 1em"><span id="stats_mp_bar_full"></span><span id="stats_mp_bar_decrease"></span><span id="stats_mp_bar_increase"></span></span>
-        <span id="stats_mp_caption" class="stats_caption">Magic:</span>
+        <span id="stats_mp_caption" class="stats_caption">Магия:</span>
         <!-- These <span>s must be on the same logical line to prevent rendering bugs -->
         <span id="stats_mp"></span><span id="stats_mp_separator">/</span><span id="stats_mp_max"></span>
         <span id="stats_dd_real_mp_max"></span>
@@ -79,18 +79,18 @@
       <div>
         <div id="stats_leftcolumn" style="float: left; width: 45%">
           <div>
-            <span id = "stats_ac_caption" class="stats_caption">AC:</span> <span id="stats_ac"></span>
+            <span id = "stats_ac_caption" class="stats_caption">БР:</span> <span id="stats_ac"></span>
           </div>
           <div>
-            <span id = "stats_ev_caption" class="stats_caption">EV:</span> <span id="stats_ev"></span>
+            <span id = "stats_ev_caption" class="stats_caption">УК:</span> <span id="stats_ev"></span>
           </div>
           <div>
-            <span id = "stats_sh_caption" class="stats_caption">SH:</span> <span id="stats_sh"></span>
+            <span id = "stats_sh_caption" class="stats_caption">ЩТ:</span> <span id="stats_sh"></span>
           </div>
           <div>
-            <span id = "stats_xl_caption" class="stats_caption">XL:</span>
+            <span id = "stats_xl_caption" class="stats_caption">Ур.:</span>
             <span id="stats_xl"></span>
-            <span id = "stats_progress_caption" class="stats_caption">Next:</span>
+            <span id = "stats_progress_caption" class="stats_caption">Далее:</span>
             <span id="stats_progress"></span>%
           </div>
           <div id="stats_noise" style="float: left; width: 95%">
@@ -108,24 +108,24 @@
               id="stats_noise_status"
               style="float: right; width: 0%"
             ></span>
-            <span id="stats_noise_caption" class="stats_caption">Noise:</span>
+            <span id="stats_noise_caption" class="stats_caption">Шум:</span>
             <span id="stats_noise_num"></span>
           </div>
         </div>
         <div id="stats_rightcolumn" style="float: right; width: 55%">
           <div>
-            <span id="stats_str_caption" class="stats_caption">Str:</span> <span id="stats_str"></span>
-            <span id="stats_doom_ui"><span class="stats_caption" style="margin-left:2.2em">Doom:</span><span id="stats_doom"></span></span>
+            <span id="stats_str_caption" class="stats_caption">Сил:</span> <span id="stats_str"></span>
+            <span id="stats_doom_ui"><span class="stats_caption" style="margin-left:2.2em">Рок:</span><span id="stats_doom"></span></span>
           </div>
           <div>
-            <span id="stats_int_caption" class="stats_caption">Int:</span> <span id="stats_int"></span>
-            <span id="stats_contam_ui"><span class="stats_caption" style="margin-left:1.1em">Contam:</span><span id="stats_contam"></span></span>
+            <span id="stats_int_caption" class="stats_caption">Инт:</span> <span id="stats_int"></span>
+            <span id="stats_contam_ui"><span class="stats_caption" style="margin-left:1.1em">Загр.:</span><span id="stats_contam"></span></span>
           </div>
           <div>
-            <span id="stats_dex_caption" class="stats_caption">Dex:</span> <span id="stats_dex"></span>
+            <span id="stats_dex_caption" class="stats_caption">Лов:</span> <span id="stats_dex"></span>
           </div>
           <div>
-            <span id="stats_place_caption" class="stats_caption">Place:</span>
+            <span id="stats_place_caption" class="stats_caption">Место:</span>
             <span id="stats_place"></span>
           </div>
           <div>
@@ -207,7 +207,7 @@
       <span></span>
     </div>
     <div class="body fg7"></div>
-    <div class="actions hidden">(M)emorise this spell.</div>
+    <div class="actions hidden">(M) — выучить это заклинание.</div>
   </div>
 
   <div class="describe-cards"></div>
@@ -222,20 +222,20 @@
         <div class="desc"></div>
         <table class="god-favour">
           <tr>
-            <td>Title</td>
+            <td>Титул</td>
             <td>-</td>
             <td class="title"></td>
           </tr>
           <tr>
-            <td>Favour</td>
+            <td>Благосклонность</td>
             <td>-</td>
             <td class="favour"></td>
           </tr>
         </table>
         <div class="god-powers">
           <div class="power">
-            <div>Granted powers</div>
-            <div>(Cost)</div>
+            <div>Дарованные силы</div>
+            <div>(Цена)</div>
           </div>
         </div>
       </div>
@@ -246,24 +246,24 @@
       <div><b class="fg3">!</b>/<b class="fg3">^</b>:&nbsp;</div>
       <div class="paneset">
         <div class="pane">
-          <b class="fg15">Overview</b> | Powers | Wrath
+          <b class="fg15">Обзор</b> | Полномочия | Гнев
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
         <div class="pane">
-          Overview | <b class="fg15">Powers</b> | Wrath
+          Обзор | <b class="fg15">Силы</b> | Гнев
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
         <div class="pane">
-          Overview | Powers | <b class="fg15">Wrath</b>
+          Обзор | Полномочия | <b class="fg15">Гнев</b>
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
       </div>
@@ -279,20 +279,20 @@
         <div class="desc"></div>
         <table class="god-favour">
           <tr>
-            <td>Title</td>
+            <td>Титул</td>
             <td>-</td>
             <td class="title"></td>
           </tr>
           <tr>
-            <td>Favour</td>
+            <td>Благосклонность</td>
             <td>-</td>
             <td class="favour"></td>
           </tr>
         </table>
         <div class="god-powers">
           <div class="power">
-            <div>Granted powers</div>
-            <div>(Cost)</div>
+            <div>Дарованные силы</div>
+            <div>(Цена)</div>
           </div>
         </div>
       </div>
@@ -304,31 +304,31 @@
       <div><b class="fg3">!</b>/<b class="fg3">^</b>:&nbsp;</div>
       <div class="paneset">
         <div class="pane">
-          <b class="fg15">Overview</b> | Powers | Wrath | Extra
+          <b class="fg15">Обзор</b> | Полномочия | Гнев | Экстра
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
         <div class="pane">
-          Overview | <b class="fg15">Powers</b> | Wrath | Extra
+          Обзор | <b class="fg15">Силы</b> | Гнев | Экстра
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
         <div class="pane">
-          Overview | Powers | <b class="fg15">Wrath</b> | Extra
+          Обзор | Полномочия | <b class="fg15">Гнев</b> | Экстра
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
         <div class="pane">
-          Overview | Powers | Wrath | <b class="fg15">Extra</b>
+          Обзор | Полномочия | Гнев | <b class="fg15">Дополнительно</b>
           <span class="join-keyhelp"
-            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Enter</b>: join
-            religion</span
+            >&nbsp;&nbsp;<b class="fg3">J</b>/<b class="fg3">Войти</b>: присоединиться
+            религия</span
           >
         </div>
       </div>
@@ -387,26 +387,26 @@
     <div class="body fg7">
       <p class="body-text"></p>
       <div class="seed-input">
-        <span>Enter seed: </span>
+        <span>Введите начальное значение: </span>
         <input type="text" data-sync-id="seed" />
         <button data-hotkey="-" data-sync-id="btn-clear">
-          <span>[-] Clear</span>
+          <span>[-] Очистить</span>
         </button>
         <button data-hotkey="d" data-sync-id="btn-daily">
-          <span>[d] Today's daily seed</span>
+          <span>[d] Сегодняшнее ежедневное семя</span>
         </button>
       </div>
       <p class="footer"></p>
       <div class="pregen-toggle">
         <label>
           <input type="checkbox" data-sync-id="pregenerate" />
-          <span>Fully pregenerate the Dungeon</span>
+          <span>Полностью создать подземелье.</span>
         </label>
       </div>
     </div>
     <div class="button-bar">
       <button data-hotkey="Enter" data-sync-id="btn-begin">
-        <span>[Enter] Begin!</span>
+        <span>[Входит] Начинайте!</span>
       </button>
     </div>
   </div>
@@ -415,16 +415,16 @@
 <div id="action-panel-tooltip" style="display: none"></div>
 <div id="action-panel-settings" style="display: none">
   <fieldset>
-    <legend>Orientation:</legend>
+    <legend>Ориентация:</legend>
     <div>
       <input
         type="radio"
         class="text"
         id="action-orient-horizontal"
         name="action_panel_orientation"
-        value="horizontal"
+        value="горизонтально"
       />
-      <label for="action-orient-horizontal">horizontal</label>
+      <label for="action-orient-horizontal">горизонтально</label>
     </div>
     <div>
       <input
@@ -432,13 +432,13 @@
         class="text"
         id="action-orient-vertical"
         name="action_panel_orientation"
-        value="vertical"
+        value="вертикально"
       />
-      <label for="action-orient-vertical">vertical</label>
+      <label for="action-orient-vertical">вертикально</label>
     </div>
   </fieldset>
   <fieldset id="scale-set" class="option">
-    <legend>Scale, %:</legend>
+    <legend>Масштаб, %:</legend>
     <input
       type="number"
       class="text"
@@ -448,10 +448,10 @@
       name="action_panel_scale"
       required
     />
-    <button class="reset" type="button" tabindex="-1">reset</button>
+    <button class="reset" type="button" tabindex="-1">сбросить</button>
   </fieldset>
   <fieldset id="font-size-set" class="option">
-    <legend>Font size, px:</legend>
+    <legend>Размер шрифта, пикселей:</legend>
     <input
       type="number"
       class="text"
@@ -461,11 +461,11 @@
       name="action_panel_font_size"
       required
     />
-    <button class="reset" type="button" tabindex="-1">reset</button>
+    <button class="reset" type="button" tabindex="-1">сбросить</button>
   </fieldset>
   <div class="settings-buttons">
-    <button id="minimize-panel" type="button" tabindex="-1">Minimize</button>
-    <button id="close-settings" type="button" tabindex="-1">Close</button>
+    <button id="minimize-panel" type="button" tabindex="-1">Свернуть</button>
+    <button id="close-settings" type="button" tabindex="-1">Закрыть</button>
   </div>
 </div>
 <div

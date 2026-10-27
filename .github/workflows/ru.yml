@@ -5,6 +5,11 @@ on:
     branches: [master, ru-bootstrap]
   pull_request:
   workflow_dispatch:
+    inputs:
+      build_windows:
+        description: Build the optional Windows preview
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -55,6 +60,7 @@ jobs:
           path: wiki/ru
 
   windows-tiles:
+    if: github.event_name == 'workflow_dispatch' && inputs.build_windows
     name: Windows Tiles preview
     needs: russian-tests
     runs-on: ubuntu-24.04
@@ -83,4 +89,49 @@ jobs:
         with:
           name: dcss-ru-windows-tiles
           path: crawl-ref/source/stone_soup-*-tiles-win32.zip
+          if-no-files-found: error
+
+  webtiles:
+    name: WebTiles browser preview
+    needs: russian-tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install WebTiles dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libncursesw5-dev bison flex liblua5.4-dev libsqlite3-dev libpng-dev zlib1g-dev pkg-config
+          python -m pip install -r crawl-ref/source/webserver/requirements/base.py3.txt playwright
+          python -m playwright install --with-deps chromium
+      - uses: hendrikmuhs/ccache-action@v1.2
+        with:
+          key: ru-webtiles
+      - name: Build WebTiles
+        working-directory: crawl-ref/source
+        run: make -j2 WEBTILES=y CXX='ccache g++'
+      - name: Verify Russian interface in Chromium
+        run: python tools/ru/web_smoke.py
+      - name: Package Linux web preview
+        run: |
+          mkdir -p dist/dcss-ru-web
+          cp crawl-ref/source/crawl dist/dcss-ru-web/
+          cp -R crawl-ref/source/dat crawl-ref/source/webserver crawl-ref/docs crawl-ref/settings dist/dcss-ru-web/
+          cp README.ru.md dist/dcss-ru-web/
+          tar -czf dist/dcss-ru-web-ubuntu24.tar.gz -C dist dcss-ru-web
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dcss-ru-web-smoke
+          path: web-smoke
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dcss-ru-web-ubuntu24
+          path: dist/dcss-ru-web-ubuntu24.tar.gz
           if-no-files-found: error

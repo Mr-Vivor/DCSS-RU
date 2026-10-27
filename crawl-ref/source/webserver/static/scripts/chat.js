@@ -14,7 +14,10 @@ define(["jquery", "comm", "linkify"], function ($, comm, linkify) {
     {
         delete data["msg"];
         $.extend(spectators, data);
-        let spectatorsLabel = data.count === 1 ? "spectator" : "spectators";
+        let last = data.count % 10;
+        let teens = data.count % 100 >= 11 && data.count % 100 <= 14;
+        let spectatorsLabel = !teens && last === 1 ? "зритель"
+                            : !teens && last >= 2 && last <= 4 ? "зрителя" : "зрителей";
         $("#spectator_count").html(`${data.count} ${spectatorsLabel}`);
         $("#spectator_list").html(data.names);
         $(document).trigger("spectators_changed", [spectators]);
@@ -52,8 +55,8 @@ define(["jquery", "comm", "linkify"], function ($, comm, linkify) {
 
     function update_message_count()
     {
-        var press_key = new_message_count > 0 ? " (Press F12)" : "";
-        $("#message_count").html(new_message_count + " new messages" + press_key);
+        var press_key = new_message_count > 0 ? " (нажмите F12)" : "";
+        $("#message_count").html("Новых сообщений: " + new_message_count + press_key);
         $("#message_count").toggleClass("has_new", new_message_count > 0);
     }
 
@@ -132,7 +135,7 @@ define(["jquery", "comm", "linkify"], function ($, comm, linkify) {
             $("#chat_body").slideDown(200);
             new_message_count = 0;
             update_message_count();
-            $("#message_count").html("(Esc: close)");
+            $("#message_count").html("(Esc: закрыть)");
             $('#chat_history_container').scrollTop($('#chat_history_container')[0].scrollHeight);
         }
         else
@@ -206,7 +209,7 @@ define(["jquery", "comm", "linkify"], function ($, comm, linkify) {
     {
         $("#spectator_list").html("&nbsp;");
         $("#chat_history").html("");
-        $("#spectator_count").html("0 spectators");
+        $("#spectator_count").html("Зрителей: 0");
         new_message_count = 0;
         update_message_count();
         $("#chat_body").slideUp(200);
