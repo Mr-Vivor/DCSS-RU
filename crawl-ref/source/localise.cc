@@ -12,6 +12,7 @@
 #include "pattern.h"
 #include "options.h"
 #include "stringutil.h"
+#include "unicode.h"
 
 #include <algorithm>
 #include <map>
@@ -41,6 +42,21 @@ static vector<pair<text_pattern, string>> _patterns;
 static bool _initialised = false;
 static bool _paused = false;
 static string _context;
+
+static bool _contains_cyrillic(const string& text)
+{
+    for (const char* p = text.c_str(); *p;)
+    {
+        char32_t c;
+        const int length = utf8towc(&c, p);
+        if (length <= 0)
+            break;
+        if (c >= 0x0400 && c <= 0x052f)
+            return true;
+        p += length;
+    }
+    return false;
+}
 
 static string _get_pregenerated_translation(const string& s)
 {
@@ -882,14 +898,26 @@ static string _localise_string(const string& s, bool fallback_en)
     auto tokens = tokenise_comma_separated_list(s);
     if (tokens.size() > 1)
     {
+        bool translated_item = false;
         for (string token: tokens)
         {
             string saved_context = _context;
             token = maybe_lowercase_first(token);
-            result += _localise_string(token);
+            const string translated = _localise_string(token);
+            // Separators alone do not make an otherwise English phrase a
+            // translated list. Preserve a coherent English fallback instead.
+            const bool separator = token == ", " || token == "; "
+                || token == " and " || token == " or "
+                || token == ", and " || token == ", or "
+                || token == "; and " || token == "; or ";
+            if (!separator && translated != token)
+                translated_item = true;
+            result += translated;
             if (!saved_context.empty())
                 _context = saved_context;
         }
+        if (Options.language == lang_t::RU && !translated_item && !_contains_cyrillic(s))
+            return fallback_en ? s : "";
         return result;
     }
 

@@ -26,15 +26,15 @@ Dismissing @arg@
 %%%%
 " (WIZ)"
 
-(ВИЗ)
+" (ВИЗ)"
 %%%%
 "quick-load last game: "
 
-быстрая загрузка последней игры:
+"быстрая загрузка последней игры: "
 %%%%
 "quick-start last combo: "
 
-Быстрый старт последней комбинации:
+"Быстрый старт последней комбинации: "
 %%%%
 view rc file information and log
 
@@ -83,7 +83,7 @@ Unknown
 %%%%
 "Welcome, @arg@. "
 
-Добро пожаловать, @arg@.
+"Добро пожаловать, @arg@. "
 %%%%
 You are @a_combo@.
 
@@ -115,19 +115,19 @@ Opens the help screen.
 %%%%
 "    * - Random species"
 
-* - Случайный вид
+"    * - Случайный вид"
 %%%%
 "    * - Random background"
 
-* - Случайный фон
+"    * - Случайный фон"
 %%%%
 "    ! - Random character"
 
-! - Случайный персонаж
+"    ! - Случайный персонаж"
 %%%%
 "  Tab - "
 
-Вкладка -
+"  Tab — "
 %%%%
 Picks a random species.
 
@@ -167,11 +167,11 @@ Incompatible species and background (@arg@) selected.
 %%%%
 "Random "
 
-Случайный
+"Случайный "
 %%%%
 "Recommended "
 
-Рекомендуется
+"Рекомендуется "
 %%%%
 Random Mummy
 
@@ -231,7 +231,7 @@ hand crossbow and bolts
 %%%%
 "Tab - "
 
-Вкладка -
+"Tab — "
 %%%%
 Bksp - Return to character menu
 
@@ -283,7 +283,7 @@ Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
 %%%%
 "Seed: "
 
-Семя:
+"Семя: "
 %%%%
 [-] Clear
 
@@ -495,7 +495,7 @@ SИнв @pips@
 %%%%
 Will    @pips@
 
-Будет @pips@
+Воля    @pips@
 %%%%
 Stlth   @pips@
 
@@ -547,7 +547,7 @@ no status effects
 %%%%
 "@num1@/@num2@ runes: "
 
-@num1@/@num2@ руны:
+"@num1@/@num2@ руны: "
 %%%%
 WIZARD
 
@@ -944,7 +944,7 @@ Show previous page of items
 %%%%
 " (holding @arg@)"
 
-(держит @arg@)
+" (держит @arg@)"
 %%%%
 nobody
 
@@ -1667,27 +1667,27 @@ DECIMAL_POINT
 %%%%
 ", and "
 
-и
+" и "
 %%%%
 ", or "
 
-или
+" или "
 %%%%
 "; and "
 
-; и
+"; и "
 %%%%
 "; or "
 
-; или
+"; или "
 %%%%
 " and "
 
-и
+" и "
 %%%%
 " or "
 
-или
+" или "
 %%%%
 Escape
 
@@ -1871,11 +1871,11 @@ moon pie
 %%%%
 " (expiring)"
 
-(срок действия истекает)
+" (срок действия истекает)"
 %%%%
 "Expiring: "
 
-Срок действия истекает:
+"Срок действия истекает: "
 %%%%
 Ray
 
@@ -2257,7 +2257,7 @@ very heavily contaminated
 %%%%
 Regen Will++
 
-Регенерация будет++
+Реген. Воля++
 %%%%
 You are regenerating.
 
@@ -2709,7 +2709,7 @@ You are no longer on fire.
 %%%%
 Will/2
 
-Будет/2
+Воля/2
 %%%%
 lowered wl
 
@@ -4669,7 +4669,7 @@ Resistance
 %%%%
 "This ability costs: "
 
-Эта способность стоит:
+"Эта способность стоит: "
 %%%%
 nothing.
 
@@ -6374,11 +6374,11 @@ the Wu Jian Council's
 %%%%
 " of @arg@"
 
-из @arg@
+" из @arg@"
 %%%%
 " of the Shining One"
 
-из Сияющий
+" из Сияющий"
 %%%%
 Beogh blesses you with reinforcements.
 
@@ -9133,35 +9133,35 @@ in the Desolation of Salt
 %%%%
 " (gone by now)"
 
-(уже нет)
+" (уже нет)"
 %%%%
 " (skeletalised by now)"
 
-(сейчас скелетонизирован)
+" (сейчас скелетонизирован)"
 %%%%
 " (bound)"
 
-(связанный)
+" (связанный)"
 %%%%
 " (curse)"
 
-(проклятие)
+" (проклятие)"
 %%%%
 " (unknown)"
 
-(неизвестно)
+" (неизвестно)"
 %%%%
 " (inert)"
 
-(инертный)
+" (инертный)"
 %%%%
 " (damnation)"
 
-(проклятие)
+" (проклятие)"
 %%%%
 " (the Realm of Zot)"
 
-(Царство Зот)
+" (Царство Зот)"
 %%%%
 god gift
 
@@ -9315,7 +9315,7 @@ rSteam
 %%%%
 Will
 
-Будет
+Воля
 %%%%
 dropped
 
@@ -9709,39 +9709,39 @@ AutoDazzle
 %%%%
 " (melded)"
 
-(объединенный)
+" (объединенный)"
 %%%%
 " (weapon)"
 
-(оружие)
+" (оружие)"
 %%%%
 " (offhand)"
 
-(навскидку)
+" (навскидку)"
 %%%%
 " (worn)"
 
-(изношен)
+" (изношен)"
 %%%%
 " (haunted)"
 
-(с привидениями)
+" (с привидениями)"
 %%%%
 " (installed)"
 
-(установлен)
+" (установлен)"
 %%%%
 " (carried) "
 
-(переносится)
+" (переносится) "
 %%%%
 " (quivered)"
 
-(вздрогнул)
+" (вздрогнул)"
 %%%%
 " (quivered ammo)"
 
-(дрожали патроны)
+" (дрожали патроны)"
 %%%%
 Item in an invalid slot
 
@@ -9749,99 +9749,99 @@ Item in an invalid slot
 %%%%
 " (in hand)"
 
-(в руке)
+" (в руке)"
 %%%%
 " (in claw)"
 
-(в клешне)
+" (в клешне)"
 %%%%
 " (in tentacle)"
 
-(в щупальце)
+" (в щупальце)"
 %%%%
 " (in mouth)"
 
-(во рту)
+" (во рту)"
 %%%%
 " (around neck)"
 
-(на шее)
+" (на шее)"
 %%%%
 " (around mantle)"
 
-(вокруг мантии)
+" (вокруг мантии)"
 %%%%
 " (left hand)"
 
-(левая рука)
+" (левая рука)"
 %%%%
 " (right hand)"
 
-(правая рука)
+" (правая рука)"
 %%%%
 " (left paw)"
 
-(левая лапа)
+" (левая лапа)"
 %%%%
 " (right paw)"
 
-(правая лапа)
+" (правая лапа)"
 %%%%
 " (left claw)"
 
-(левая клешня)
+" (левая клешня)"
 %%%%
 " (right claw)"
 
-(правая клешня)
+" (правая клешня)"
 %%%%
 " (left tentacle)"
 
-(левое щупальце)
+" (левое щупальце)"
 %%%%
 " (right tentacle)"
 
-(правое щупальце)
+" (правое щупальце)"
 %%%%
 " (on tentacle)"
 
-(на щупальце)
+" (на щупальце)"
 %%%%
 " (on amulet)"
 
-(на амулете)
+" (на амулете)"
 %%%%
 " (left branch)"
 
-(левая ветвь)
+" (левая ветвь)"
 %%%%
 " (right branch)"
 
-(правая ветвь)
+" (правая ветвь)"
 %%%%
 " (left front leg)"
 
-(левая передняя нога)
+" (левая передняя нога)"
 %%%%
 " (right front leg)"
 
-(правая передняя нога)
+" (правая передняя нога)"
 %%%%
 " (left blade hand)"
 
-(левая рука с лезвием)
+" (левая рука с лезвием)"
 %%%%
 " (right blade hand)"
 
-(правая рука)
+" (правая рука)"
 %%%%
 " (under bush)"
 
-(под втулкой)
+" (под втулкой)"
 %%%%
 " (under plant)"
 
-(под заводом)
+" (под заводом)"
 %%%%
 in_shop
 
@@ -10642,7 +10642,7 @@ The game lasted @arg@ (@num@ turns).
 %%%%
 " on @mon@ @d@, @yyyy@"
 
-на @mon@ @d@, @yyyy@
+" на @mon@ @d@, @yyyy@"
 %%%%
 Jan
 
@@ -11567,15 +11567,15 @@ Xom's destruction
 %%%%
 " (shapeshifter)"
 
-(оборотень)
+" (оборотень)"
 %%%%
 " (glowing shapeshifter)"
 
-(светящийся оборотень)
+" (светящийся оборотень)"
 %%%%
 " (illusionary)"
 
-(иллюзорный)
+" (иллюзорный)"
 %%%%
 Death's Door abortion
 
@@ -12855,15 +12855,15 @@ You feel stable.
 %%%%
 You are strong-willed. (Will+)
 
-У вас сильная воля. (Уилл+)
+У вас сильная воля. (Воля+)
 %%%%
 You are highly strong-willed. (Will++)
 
-У вас очень волевой характер. (Уилл++)
+У вас очень сильная воля. (Воля++)
 %%%%
 You are extremely strong-willed. (Will+++)
 
-У вас чрезвычайно волевой характер. (Уилл+++)
+У вас исключительно сильная воля. (Воля+++)
 %%%%
 You feel more strong-willed.
 
@@ -14992,7 +14992,7 @@ demonic willpower
 %%%%
 You punish those that try to bend your will. (Will+)
 
-Вы наказываете тех, кто пытается подчинить вашу волю. (Уилл+)
+Вы наказываете пытающихся сломить вашу волю. (Воля+)
 %%%%
 You feel willful.
 
@@ -15396,15 +15396,15 @@ You reflexes speed back up.
 %%%%
 You are slightly weak-willed. (Will-)
 
-У тебя слегка слабовольный характер. (Уилл-)
+Ваша воля немного ослаблена. (Воля-)
 %%%%
 You are weak-willed. (Will--)
 
-У тебя слабовольный характер. (Уилл--)
+Ваша воля ослаблена. (Воля--)
 %%%%
 You are extremely weak-willed. (Will---)
 
-Вы крайне безвольны. (Будет---)
+Ваша воля сильно ослаблена. (Воля---)
 %%%%
 You feel weak-willed.
 
@@ -16641,7 +16641,7 @@ Wind Blast
 %%%%
 Strip Willpower
 
-Раздеть силу воли
+Подавление воли
 %%%%
 Wereblood
 
@@ -18743,7 +18743,7 @@ the @Adj@ Ballista
 %%%%
 the Covered
 
-Покрытый
+Латник
 %%%%
 the Protected
 
@@ -20319,7 +20319,7 @@ Hawkeye
 %%%%
 Covered
 
-Покрытый
+Латник
 %%%%
 Protected
 

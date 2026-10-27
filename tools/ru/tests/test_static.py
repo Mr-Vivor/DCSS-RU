@@ -12,6 +12,21 @@ from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, to
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_fragment_whitespace_survives_the_generated_database(self):
+        data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
+        generated = read_db(ROOT / "crawl-ref/source/dat/translate/ru/static.txt", True)
+        for group in data.values():
+            for source, target in group.items():
+                leading = re.match(r"^\s*", source).group()
+                trailing = re.search(r"\s*$", source).group()
+                for value in (target, generated.get(source, target)):
+                    if leading:
+                        self.assertTrue(value.startswith(leading), repr(source))
+                    if trailing:
+                        self.assertTrue(value.endswith(trailing), repr(source))
+        self.assertEqual(generated[" and "], " и ")
+        self.assertEqual(generated[", and "], " и ")
+
     def test_system_messages_preserve_substitutions(self):
         messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
         for source, target in messages.items():

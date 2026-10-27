@@ -51,6 +51,21 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("Human") == "Человек");
     CHECK(localise("Fighter") == "Воин");
     CHECK(localise("Short Blades") == "Короткие клинки");
+    CHECK(localise(" and ") == " и ");
+    CHECK(localise(" or ") == " или ");
+    CHECK(localise("flurble and blorb") == "flurble and blorb");
+    CHECK(localise("flurble or blorb") == "flurble or blorb");
+    CHECK(localise("flurble, blorb, and zorb") == "flurble, blorb, and zorb");
+    CHECK(localise("flurble; blorb; and zorb") == "flurble; blorb; and zorb");
+    CHECK(localise("a dagger and a club") == "кинжал и дубина");
+    CHECK(localise("a dagger and blorb") == "кинжал и blorb");
+    CHECK(localise("a dagger, a club, and a rat") == "кинжал, дубина и крыса");
+    CHECK(localise("кинжал and дубина") == "кинжал и дубина");
+    CHECK(localise("+0 buckler of the Valley {Will+++}")
+          == "+0 buckler of the Valley {Воля+++}");
+    CHECK(localise("Will/2") == "Воля/2");
+    CHECK(localise("Covered") == "Латник");
+    CHECK(localise("the Covered") == "Латник");
     CHECK(localise("the ice dragon") == "ледяной дракон");
     CHECK(localise_in_context("acc", "the ice dragon") == "ледяного дракона");
     CHECK(localise_in_context("ins", "a long sword") == "длинным мечом");

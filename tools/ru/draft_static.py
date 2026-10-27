@@ -9,7 +9,7 @@ import re
 import time
 import requests
 import argparse
-from catalog import ROOT, STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, write_db, tokens
+from catalog import ROOT, STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, write_db, tokens, preserve_boundary_whitespace
 
 CACHE = ROOT / "localization/ru/static.json"
 terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
@@ -141,6 +141,9 @@ def main():
                 targets.append((group, key, value))
 
     def save():
+        for group in data.values():
+            for key, value in group.items():
+                group[key] = preserve_boundary_whitespace(key, value)
         CACHE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf8", newline="\n")
         for filename, group in descriptions.items():
             path = ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"
