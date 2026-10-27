@@ -92,9 +92,6 @@ Background
 Weapon
 Оружие
 %%%%
-Random
-Случайно
-%%%%
 Viable
 Подходящие
 %%%%
@@ -356,15 +353,6 @@ Space - Pick background first
 Space - Pick species first
 Пробел - Сначала вид
 %%%%
-Recommended
-Рекомендуемый
-%%%%
-Random character
-Случайный персонаж
-%%%%
-Recommended character
-Рекомендуемый персонаж
-%%%%
 Do you want to play this combination? [Y/n/q]
 Играть этим персонажем? [Y/n/q]
 %%%%
@@ -406,3 +394,27 @@ a staircase leading up
 %%%%
 an exit from the tutorial
 выход из обучения
+%%%%
+Tutorial
+Обучение
+%%%%
+, level @num@
+, ур. @num@
+%%%%
+quick-load last game: @any@
+загрузить последнюю игру: @any@
+%%%%
+quick-start last combo: @any@
+повторить последнего персонажа: @any@
+%%%%
+Random
+Случайный
+%%%%
+Recommended
+Рекомендуемый
+%%%%
+Random character
+Случайный персонаж
+%%%%
+Recommended character
+Рекомендуемый персонаж

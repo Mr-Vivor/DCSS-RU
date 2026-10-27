@@ -5,6 +5,7 @@
 #include "initfile.h"
 #include "localise.h"
 #include "options.h"
+#include "player-save-info.h"
 #include "ui.h"
 
 namespace
@@ -96,4 +97,13 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(lesson.get_text().tostring() == "Урок 1: Передвижение и исследование");
     formatted_string multiline("Human\nSpriggan");
     CHECK(localise(multiline).tostring() == "Человек\nСпригган");
+
+    player_save_info saved;
+    saved.name = "Vivor";
+    saved.species_name = "Human";
+    saved.class_name = "Fighter";
+    saved.experience_level = 2;
+    saved.saved_game_type = GAME_TYPE_TUTORIAL;
+    CHECK(saved.short_desc() == "[Обучение] Vivor, ур. 2 · Человек · Воин");
+    CHECK(saved.really_short_desc() == "Vivor · Человек · Воин");
 }

@@ -705,7 +705,8 @@ public:
         {
             instructions_text +=
                     "<white>[tab]</white> quick-start last combo: "
-                    + (defaults.name.size() ? (defaults.name + " the ") : "")
+                    + (defaults.name.size() ? (defaults.name
+                        + (localisation_active() ? " · " : " the ")) : "")
                     + newgame_char_description(defaults) + "\n";
         }
         instructions_text +=

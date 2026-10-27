@@ -52,6 +52,7 @@
 #include "kills.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "map-knowledge.h"
 #include "melee-attack.h"
@@ -6006,7 +6007,10 @@ bool player_save_info::operator<(const player_save_info& rhs) const
 string player_save_info::really_short_desc() const
 {
     ostringstream desc;
-    desc << name << " the " << species_name << ' ' << class_name;
+    if (localisation_active())
+        desc << name << " · " << localise(species_name) << " · " << localise(class_name);
+    else
+        desc << name << " the " << species_name << ' ' << class_name;
 
     return desc.str();
 }
@@ -6019,15 +6023,19 @@ string player_save_info::short_desc(bool use_qualifier) const
                     ? game_state::game_type_name_for(saved_game_type)
                     : "";
     if (!qualifier.empty())
-        desc << "[" << qualifier << "] ";
+        desc << "[" << localise(qualifier) << "] ";
 
-    desc << name << ", a level " << experience_level << ' '
-         << species_name << ' ' << class_name;
+    if (localisation_active())
+        desc << name << localisef(", level %d", experience_level)
+             << " · " << localise(species_name) << " · " << localise(class_name);
+    else
+        desc << name << ", a level " << experience_level << ' '
+             << species_name << ' ' << class_name;
 
     if (religion == GOD_JIYVA)
-        desc << " of " << god_name << " " << jiyva_second_name;
+        desc << (localisation_active() ? " · " : " of ") << localise(god_name) << " " << jiyva_second_name;
     else if (religion != GOD_NO_GOD)
-        desc << " of " << god_name;
+        desc << (localisation_active() ? " · " : " of ") << localise(god_name);
 
 #ifdef WIZARD
     if (wizard)

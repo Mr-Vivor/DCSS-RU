@@ -20,6 +20,7 @@
 #include "job-groups.h"
 #include "jobs.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "maps.h"
 #include "menu.h"
@@ -147,21 +148,23 @@ static char_choice_restriction _job_allowed(species_type sp, job_type job) {
 string newgame_char_description(const newgame_def& ng)
 {
     if (_is_random_viable_choice(ng))
-        return "Recommended character";
+        return localise("Recommended character");
     else if (_is_random_choice(ng))
-        return "Random character";
+        return localise("Random character");
     else if (_is_random_job(ng.job))
     {
         const string j = (ng.job == JOB_RANDOM ? "Random " : "Recommended ");
-        return j + species::name(ng.species);
+        return localise(j) + localise(species::name(ng.species));
     }
     else if (_is_random_species(ng.species))
     {
         const string s = (ng.species == SP_RANDOM ? "Random " : "Recommended ");
-        return s + get_job_name(ng.job);
+        return localise(s) + localise(get_job_name(ng.job));
     }
     else
-        return species::name(ng.species) + " " + get_job_name(ng.job);
+        return localise(species::name(ng.species))
+               + (localisation_active() ? " · " : " ")
+               + localise(get_job_name(ng.job));
 }
 
 static string _welcome(const newgame_def& ng)
