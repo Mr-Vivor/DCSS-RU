@@ -37,7 +37,7 @@ jobs:
           key: ru-linux
       - name: Build engine regression tests
         working-directory: crawl-ref/source
-        run: make -j2 CXX='ccache g++' catch2-tests-executable
+        run: make -j2 CXX='ccache g++' STDFLAG=-std=c++14 catch2-tests-executable
       - name: Run Russian grammar tests
         working-directory: crawl-ref/source
         env:
