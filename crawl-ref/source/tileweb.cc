@@ -1190,14 +1190,15 @@ void TilesFramework::_send_player(bool force_full)
     _update_int(force_full, c.explore, you.explore, "explore");
     _update_string(force_full, c.species, species::name(you.species),
                    "species");
-    _update_string(force_full, c.species_display_name, player_species_name(),
+    _update_string(force_full, c.species_display_name, localise(player_species_name()),
                    "species_display_name");
     string god = "";
     if (you_worship(GOD_JIYVA))
         god = god_name_jiyva(true);
     else if (!you_worship(GOD_NO_GOD))
         god = god_name(you.religion);
-    _update_string(force_full, c.god, god, "god");
+    if (_update_string(force_full, c.god, god, "god"))
+        json_write_string("god_display_name", localise(god));
     _update_int(force_full, c.under_penance, (bool) player_under_penance(), "penance");
     int prank = 0;
     if (you_worship(GOD_XOM))
@@ -1292,7 +1293,8 @@ void TilesFramework::_send_player(bool force_full)
             short_name = article_a(short_name);
         }
     }
-    _update_string(force_full, c.place, short_name, "place");
+    if (_update_string(force_full, c.place, short_name, "place"))
+        json_write_string("place_display_name", localise(short_name));
     _update_int(force_full, c.depth, brdepth[place.branch] > 1 ? you.depth : 0, "depth");
 
     if (m_origin.equals(-1, -1))
@@ -1317,7 +1319,7 @@ void TilesFramework::_send_player(bool force_full)
             {
                 if (!status.light_text_formatted.empty())
                 {
-                    json_write_string("light", status.light_text_formatted);
+                    json_write_string("light", localise(status.light_text_formatted));
                     json_write_bool("use_html", true);
                 }
                 else
@@ -1325,7 +1327,8 @@ void TilesFramework::_send_player(bool force_full)
                 json_write_string("desc", localise(status_light_description(status)));
             }
             if (!status.short_text.empty())
-                json_write_string("text", localise(status.short_text));
+                // A machine-readable status name, used to colour boosted stats.
+                json_write_string("text", status.short_text);
             if (status.light_colour)
                 json_write_int("col", macro_colour(status.light_colour));
             json_close_object(true);
@@ -2736,7 +2739,10 @@ void TilesFramework::json_write_string(const string& name, const string& value)
     // These fields are presentation text. Localise before sending it to the
     // browser; identifiers, key bindings and input contents stay byte-exact.
     if (name == "title" || name == "prompt" || name == "description"
-        || name == "label")
+        || name == "label" || name == "body" || name == "desc"
+        || name == "footer" || name == "more" || name == "favour"
+        || name == "powers_list" || name == "powers" || name == "wrath"
+        || name == "extra" || name == "service_fee")
     {
         json_write_string(localise(value));
     }

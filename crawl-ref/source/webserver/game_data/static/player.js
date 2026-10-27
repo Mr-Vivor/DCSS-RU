@@ -401,7 +401,7 @@ function ($, comm, client, enums, map_knowledge, messages, options, util) {
 
         var species_god = player.species_display_name;
         if (player.god != "")
-            species_god += " of " + player.god;
+            species_god += " · " + (player.god_display_name || player.god);
         if (player.god == "Xom")
         {
             if (player.piety_rank >=0)
@@ -497,7 +497,7 @@ function ($, comm, client, enums, map_knowledge, messages, options, util) {
         if (player.time_delta)
             $("#stats_time").append(" (" + (player.time_delta / 10.0).toFixed(1) + ")");
 
-        var place_desc = player.place;
+        var place_desc = player.place_display_name || player.place;
         if (player.depth) place_desc += ":" + player.depth;
         $("#stats_place").text(place_desc);
 

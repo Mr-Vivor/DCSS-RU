@@ -1,0 +1,507 @@
+{
+  "templates/client.html": [
+    [
+      "label",
+      {
+        "for": "username"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "username",
+        "name": "username",
+        "type": "text"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "password",
+        "name": "password",
+        "type": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "username"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_username",
+        "name": "username",
+        "type": "text"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "reg_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_password",
+        "name": "reg_password",
+        "type": "password"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "reg_repeat_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_repeat_password",
+        "name": "reg_repeat_password",
+        "type": "password"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "reg_email"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_email",
+        "name": "reg_email",
+        "type": "text"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reg_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "change_cur_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "change_cur_password",
+        "name": "change_cur_password",
+        "type": "password"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "change_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "change_new_password",
+        "name": "change_new_password",
+        "type": "password"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "change_repeat_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "change_repeat_password",
+        "name": "change_repeat_password",
+        "type": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chpw_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chpw_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "chem_email"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chem_email",
+        "name": "chem_email",
+        "type": "text"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chem_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chem_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "input",
+      {
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "forgot_email"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "forgot_email",
+        "name": "forgot_email",
+        "type": "text"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "forgot_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "forgot_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "input",
+      {
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_token",
+        "name": "reset_pw_token",
+        "type": "hidden",
+        "value": "{{ reset_token }}"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "reset_pw_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_password",
+        "name": "reset_pw_password",
+        "type": "password"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "reset_pw_repeat_password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_repeat_password",
+        "name": "reset_pw_repeat_password",
+        "type": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_cancel",
+        "name": "cancel",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "reset_pw_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "rc_submit",
+        "name": "submit",
+        "type": "submit"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "announcement_text"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "announcement_text",
+        "name": "announcement_text",
+        "type": "text"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "admin_username"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "admin_username",
+        "name": "admin_username",
+        "type": "text"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "admin_pw_reset",
+        "name": "admin_pw_reset",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "admin_pw_reset_clear",
+        "name": "admin_pw_reset_clear",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "force_terminate_no",
+        "name": "force_terminate_no",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "force_terminate_yes",
+        "name": "force_terminate_yes",
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "chat_input",
+        "name": "chat_input",
+        "type": "text"
+      }
+    ]
+  ],
+  "game_data/templates/game.html": [
+    [
+      "input",
+      {
+        "type": "text"
+      }
+    ],
+    [
+      "input",
+      {
+        "type": "text",
+        "data-sync-id": "input"
+      }
+    ],
+    [
+      "input",
+      {
+        "type": "text",
+        "data-sync-id": "seed"
+      }
+    ],
+    [
+      "button",
+      {
+        "data-hotkey": "-",
+        "data-sync-id": "btn-clear"
+      }
+    ],
+    [
+      "button",
+      {
+        "data-hotkey": "d",
+        "data-sync-id": "btn-daily"
+      }
+    ],
+    [
+      "label",
+      {}
+    ],
+    [
+      "input",
+      {
+        "type": "checkbox",
+        "data-sync-id": "pregenerate"
+      }
+    ],
+    [
+      "button",
+      {
+        "data-hotkey": "Enter",
+        "data-sync-id": "btn-begin"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "action-orient-horizontal",
+        "name": "action_panel_orientation",
+        "type": "radio",
+        "value": "horizontal"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "action-orient-horizontal"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "action-orient-vertical",
+        "name": "action_panel_orientation",
+        "type": "radio",
+        "value": "vertical"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "action-orient-vertical"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "scale-val",
+        "name": "action_panel_scale",
+        "type": "number"
+      }
+    ],
+    [
+      "button",
+      {
+        "type": "button"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "font-size-val",
+        "name": "action_panel_font_size",
+        "type": "number"
+      }
+    ],
+    [
+      "button",
+      {
+        "type": "button"
+      }
+    ],
+    [
+      "button",
+      {
+        "id": "minimize-panel",
+        "type": "button"
+      }
+    ],
+    [
+      "button",
+      {
+        "id": "close-settings",
+        "type": "button"
+      }
+    ]
+  ]
+}
