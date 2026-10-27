@@ -1,0 +1,4777 @@
+{
+  "monster.rat": {
+    "title": "Крыса",
+    "en": "rat",
+    "en_plural": "rats",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "крыса",
+        "gen": "крысы",
+        "dat": "крысе",
+        "acc": "крысу",
+        "ins": "крысой",
+        "prep": "крысе"
+      },
+      "plural": {
+        "nom": "крысы",
+        "gen": "крыс",
+        "dat": "крысам",
+        "acc": "крыс",
+        "ins": "крысами",
+        "prep": "крысах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.quokka": {
+    "title": "Квокк",
+    "en": "quokka",
+    "en_plural": "quokkas",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "квокк",
+        "gen": "квокка",
+        "dat": "квокку",
+        "acc": "квокка",
+        "ins": "квокком",
+        "prep": "квокке"
+      },
+      "plural": {
+        "nom": "квокки",
+        "gen": "квокков",
+        "dat": "квоккам",
+        "acc": "квокков",
+        "ins": "квокками",
+        "prep": "квокках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.bat": {
+    "title": "Летучая мышь",
+    "en": "bat",
+    "en_plural": "bats",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "летучая мышь",
+        "gen": "летучей мыши",
+        "dat": "летучей мыши",
+        "acc": "летучая мышь",
+        "ins": "летучей мышью",
+        "prep": "летучей мыши"
+      },
+      "plural": {
+        "nom": "летучие мыши",
+        "gen": "летучих мышей",
+        "dat": "летучим мышам",
+        "acc": "летучих мышей",
+        "ins": "летучими мышами",
+        "prep": "летучих мышах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.goblin": {
+    "title": "Гоблин",
+    "en": "goblin",
+    "en_plural": "goblins",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гоблин",
+        "gen": "гоблина",
+        "dat": "гоблину",
+        "acc": "гоблина",
+        "ins": "гоблином",
+        "prep": "гоблине"
+      },
+      "plural": {
+        "nom": "гоблины",
+        "gen": "гоблинов",
+        "dat": "гоблинам",
+        "acc": "гоблинов",
+        "ins": "гоблинами",
+        "prep": "гоблинах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hobgoblin": {
+    "title": "Хобгоблин",
+    "en": "hobgoblin",
+    "en_plural": "hobgoblins",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "хобгоблин",
+        "gen": "хобгоблина",
+        "dat": "хобгоблину",
+        "acc": "хобгоблина",
+        "ins": "хобгоблином",
+        "prep": "хобгоблине"
+      },
+      "plural": {
+        "nom": "хобгоблины",
+        "gen": "хобгоблинов",
+        "dat": "хобгоблинам",
+        "acc": "хобгоблинов",
+        "ins": "хобгоблинами",
+        "prep": "хобгоблинах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.kobold": {
+    "title": "Кобольд",
+    "en": "kobold",
+    "en_plural": "kobolds",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "кобольд",
+        "gen": "кобольда",
+        "dat": "кобольду",
+        "acc": "кобольда",
+        "ins": "кобольдом",
+        "prep": "кобольде"
+      },
+      "plural": {
+        "nom": "кобольды",
+        "gen": "кобольдов",
+        "dat": "кобольдам",
+        "acc": "кобольдов",
+        "ins": "кобольдами",
+        "prep": "кобольдах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ball_python": {
+    "title": "Королевский питон",
+    "en": "ball python",
+    "en_plural": "ball pythons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "королевский питон",
+        "gen": "королевского питона",
+        "dat": "королевскому питону",
+        "acc": "королевского питона",
+        "ins": "королевским питоном",
+        "prep": "королевском питоне"
+      },
+      "plural": {
+        "nom": "королевские питоны",
+        "gen": "королевских питонов",
+        "dat": "королевским питонам",
+        "acc": "королевских питонов",
+        "ins": "королевскими питонами",
+        "prep": "королевских питонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.adder": {
+    "title": "Гадюка",
+    "en": "adder",
+    "en_plural": "adders",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гадюка",
+        "gen": "гадюки",
+        "dat": "гадюке",
+        "acc": "гадюку",
+        "ins": "гадюкой",
+        "prep": "гадюке"
+      },
+      "plural": {
+        "nom": "гадюки",
+        "gen": "гадюк",
+        "dat": "гадюкам",
+        "acc": "гадюк",
+        "ins": "гадюками",
+        "prep": "гадюках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.jackal": {
+    "title": "Шакал",
+    "en": "jackal",
+    "en_plural": "jackals",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "шакал",
+        "gen": "шакала",
+        "dat": "шакалу",
+        "acc": "шакала",
+        "ins": "шакалом",
+        "prep": "шакале"
+      },
+      "plural": {
+        "nom": "шакалы",
+        "gen": "шакалов",
+        "dat": "шакалам",
+        "acc": "шакалов",
+        "ins": "шакалами",
+        "prep": "шакалах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hound": {
+    "title": "Гончая",
+    "en": "hound",
+    "en_plural": "hounds",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гончая",
+        "gen": "гончей",
+        "dat": "гончей",
+        "acc": "гончая",
+        "ins": "гончей",
+        "prep": "гончей"
+      },
+      "plural": {
+        "nom": "гончие",
+        "gen": "гончих",
+        "dat": "гончим",
+        "acc": "гончих",
+        "ins": "гончими",
+        "prep": "гончих"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.dart_slug": {
+    "title": "Слизень-стрелок",
+    "en": "dart slug",
+    "en_plural": "dart slugs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "слизень-стрелок",
+        "gen": "слизня-стрелка",
+        "dat": "слизню-стрелку",
+        "acc": "слизня-стрелка",
+        "ins": "слизнем-стрелком",
+        "prep": "слизне-стрелке"
+      },
+      "plural": {
+        "nom": "слизни-стрелки",
+        "gen": "слизней-стрелков",
+        "dat": "слизням-стрелкам",
+        "acc": "слизней-стрелков",
+        "ins": "слизнями-стрелками",
+        "prep": "слизнях-стрелках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ribbon_worm": {
+    "title": "Ленточный червь",
+    "en": "ribbon worm",
+    "en_plural": "ribbon worms",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ленточный червь",
+        "gen": "ленточного червя",
+        "dat": "ленточному червю",
+        "acc": "ленточного червя",
+        "ins": "ленточным червём",
+        "prep": "ленточном черве"
+      },
+      "plural": {
+        "nom": "ленточные черви",
+        "gen": "ленточных червей",
+        "dat": "ленточным червям",
+        "acc": "ленточных червей",
+        "ins": "ленточными червями",
+        "prep": "ленточных червях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.endoplasm": {
+    "title": "Эндоплазма",
+    "en": "endoplasm",
+    "en_plural": "endoplasms",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "эндоплазма",
+        "gen": "эндоплазмы",
+        "dat": "эндоплазме",
+        "acc": "эндоплазму",
+        "ins": "эндоплазмой",
+        "prep": "эндоплазме"
+      },
+      "plural": {
+        "nom": "эндоплазмы",
+        "gen": "эндоплазм",
+        "dat": "эндоплазмам",
+        "acc": "эндоплазмы",
+        "ins": "эндоплазмами",
+        "prep": "эндоплазмах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.jelly": {
+    "title": "Желе",
+    "en": "jelly",
+    "en_plural": "jellies",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "желе",
+        "gen": "желе",
+        "dat": "желе",
+        "acc": "желе",
+        "ins": "желе",
+        "prep": "желе"
+      },
+      "plural": {
+        "nom": "желе",
+        "gen": "желе",
+        "dat": "желе",
+        "acc": "желе",
+        "ins": "желе",
+        "prep": "желе"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc": {
+    "title": "Орк",
+    "en": "orc",
+    "en_plural": "orcs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк",
+        "gen": "орка",
+        "dat": "орку",
+        "acc": "орка",
+        "ins": "орком",
+        "prep": "орке"
+      },
+      "plural": {
+        "nom": "орки",
+        "gen": "орков",
+        "dat": "оркам",
+        "acc": "орков",
+        "ins": "орками",
+        "prep": "орках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_priest": {
+    "title": "Орк-жрец",
+    "en": "orc priest",
+    "en_plural": "orc priests",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-жрец",
+        "gen": "орка-жреца",
+        "dat": "орку-жрецу",
+        "acc": "орка-жреца",
+        "ins": "орком-жрецом",
+        "prep": "орке-жреце"
+      },
+      "plural": {
+        "nom": "орки-жрецы",
+        "gen": "орков-жрецов",
+        "dat": "оркам-жрецам",
+        "acc": "орков-жрецов",
+        "ins": "орками-жрецами",
+        "prep": "орках-жрецах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_wizard": {
+    "title": "Орк-волшебник",
+    "en": "orc wizard",
+    "en_plural": "orc wizards",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-волшебник",
+        "gen": "орка-волшебника",
+        "dat": "орку-волшебнику",
+        "acc": "орка-волшебника",
+        "ins": "орком-волшебником",
+        "prep": "орке-волшебнике"
+      },
+      "plural": {
+        "nom": "орки-волшебники",
+        "gen": "орков-волшебников",
+        "dat": "оркам-волшебникам",
+        "acc": "орков-волшебников",
+        "ins": "орками-волшебниками",
+        "prep": "орках-волшебниках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_warrior": {
+    "title": "Орк-воин",
+    "en": "orc warrior",
+    "en_plural": "orc warriors",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-воин",
+        "gen": "орка-воина",
+        "dat": "орку-воину",
+        "acc": "орка-воина",
+        "ins": "орком-воином",
+        "prep": "орке-воине"
+      },
+      "plural": {
+        "nom": "орки-воины",
+        "gen": "орков-воинов",
+        "dat": "оркам-воинам",
+        "acc": "орков-воинов",
+        "ins": "орками-воинами",
+        "prep": "орках-воинах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_knight": {
+    "title": "Орк-рыцарь",
+    "en": "orc knight",
+    "en_plural": "orc knights",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-рыцарь",
+        "gen": "орка-рыцаря",
+        "dat": "орку-рыцарю",
+        "acc": "орка-рыцаря",
+        "ins": "орком-рыцарем",
+        "prep": "орке-рыцаре"
+      },
+      "plural": {
+        "nom": "орки-рыцари",
+        "gen": "орков-рыцарей",
+        "dat": "оркам-рыцарям",
+        "acc": "орков-рыцарей",
+        "ins": "орками-рыцарями",
+        "prep": "орках-рыцарях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_warlord": {
+    "title": "Орк-полководец",
+    "en": "orc warlord",
+    "en_plural": "orc warlords",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-полководец",
+        "gen": "орка-полководца",
+        "dat": "орку-полководцу",
+        "acc": "орка-полководца",
+        "ins": "орком-полководцем",
+        "prep": "орке-полководце"
+      },
+      "plural": {
+        "nom": "орки-полководцы",
+        "gen": "орков-полководцев",
+        "dat": "оркам-полководцам",
+        "acc": "орков-полководцев",
+        "ins": "орками-полководцами",
+        "prep": "орках-полководцах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.gnoll": {
+    "title": "Гнолл",
+    "en": "gnoll",
+    "en_plural": "gnolls",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гнолл",
+        "gen": "гнолла",
+        "dat": "гноллу",
+        "acc": "гнолл",
+        "ins": "гноллом",
+        "prep": "гнолле"
+      },
+      "plural": {
+        "nom": "гноллы",
+        "gen": "гноллов",
+        "dat": "гноллам",
+        "acc": "гнолл",
+        "ins": "гноллами",
+        "prep": "гноллах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.gnoll_bouda": {
+    "title": "Гнолл-буда",
+    "en": "gnoll bouda",
+    "en_plural": "gnoll boudas",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гнолл-буда",
+        "gen": "гнолла-буды",
+        "dat": "гноллу-буде",
+        "acc": "гнолл-буда",
+        "ins": "гноллом-будой",
+        "prep": "гнолле-буде"
+      },
+      "plural": {
+        "nom": "гнолл-буда",
+        "gen": "гнолл-буда",
+        "dat": "гнолл-буда",
+        "acc": "гнолл-буда",
+        "ins": "гнолл-буда",
+        "prep": "гнолл-буда"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.gnoll_sergeant": {
+    "title": "Гнолл-сержант",
+    "en": "gnoll sergeant",
+    "en_plural": "gnoll sergeants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гнолл-сержант",
+        "gen": "гнолла-сержанта",
+        "dat": "гноллу-сержанту",
+        "acc": "гнолл-сержант",
+        "ins": "гноллом-сержантом",
+        "prep": "гнолле-сержанте"
+      },
+      "plural": {
+        "nom": "гноллы-сержанты",
+        "gen": "гноллов-сержантов",
+        "dat": "гноллам-сержантам",
+        "acc": "гнолл-сержант",
+        "ins": "гноллами-сержантами",
+        "prep": "гноллах-сержантах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ogre": {
+    "title": "Огр",
+    "en": "ogre",
+    "en_plural": "ogres",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "огр",
+        "gen": "огр",
+        "dat": "огр",
+        "acc": "огр",
+        "ins": "огр",
+        "prep": "огр"
+      },
+      "plural": {
+        "nom": "огр",
+        "gen": "огр",
+        "dat": "огр",
+        "acc": "огр",
+        "ins": "огр",
+        "prep": "огр"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.two_headed_ogre": {
+    "title": "Двухголовое огр",
+    "en": "two-headed ogre",
+    "en_plural": "two-headed ogres",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "двухголовое огр",
+        "gen": "двухголового огр",
+        "dat": "двухголовому огр",
+        "acc": "двухголовый огр",
+        "ins": "двухголовым огр",
+        "prep": "двухголовом огр"
+      },
+      "plural": {
+        "nom": "двухголовые огр",
+        "gen": "двухголовых огр",
+        "dat": "двухголовым огр",
+        "acc": "двухголовых огр",
+        "ins": "двухголовыми огр",
+        "prep": "двухголовых огр"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.troll": {
+    "title": "Тролль",
+    "en": "troll",
+    "en_plural": "trolls",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "тролль",
+        "gen": "тролля",
+        "dat": "троллю",
+        "acc": "тролля",
+        "ins": "троллем",
+        "prep": "тролле"
+      },
+      "plural": {
+        "nom": "тролли",
+        "gen": "троллей",
+        "dat": "троллям",
+        "acc": "троллей",
+        "ins": "троллями",
+        "prep": "троллях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.centaur": {
+    "title": "Кентавр",
+    "en": "centaur",
+    "en_plural": "centaurs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "кентавр",
+        "gen": "кентавра",
+        "dat": "кентавру",
+        "acc": "кентавра",
+        "ins": "кентавром",
+        "prep": "кентавре"
+      },
+      "plural": {
+        "nom": "кентавры",
+        "gen": "кентавров",
+        "dat": "кентаврам",
+        "acc": "кентавров",
+        "ins": "кентаврами",
+        "prep": "кентаврах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.centaur_warrior": {
+    "title": "Кентавр-воин",
+    "en": "centaur warrior",
+    "en_plural": "centaur warriors",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "кентавр-воин",
+        "gen": "кентавра-воина",
+        "dat": "кентавру-воину",
+        "acc": "кентавра-воина",
+        "ins": "кентавром-воином",
+        "prep": "кентавре-воине"
+      },
+      "plural": {
+        "nom": "кентавры-воины",
+        "gen": "кентавров-воинов",
+        "dat": "кентаврам-воинам",
+        "acc": "кентавров-воинов",
+        "ins": "кентаврами-воинами",
+        "prep": "кентаврах-воинах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.yak": {
+    "title": "Як",
+    "en": "yak",
+    "en_plural": "yaks",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "як",
+        "gen": "яка",
+        "dat": "яку",
+        "acc": "яка",
+        "ins": "яком",
+        "prep": "яке"
+      },
+      "plural": {
+        "nom": "яки",
+        "gen": "яков",
+        "dat": "якам",
+        "acc": "яков",
+        "ins": "яками",
+        "prep": "яках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.death_yak": {
+    "title": "Смертоносный як",
+    "en": "death yak",
+    "en_plural": "death yaks",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "смертоносный як",
+        "gen": "смертоносного яка",
+        "dat": "смертоносному яку",
+        "acc": "смертоносного яка",
+        "ins": "смертоносным яком",
+        "prep": "смертоносном яке"
+      },
+      "plural": {
+        "nom": "смертоносные яки",
+        "gen": "смертоносных яков",
+        "dat": "смертоносным якам",
+        "acc": "смертоносных яков",
+        "ins": "смертоносными яками",
+        "prep": "смертоносных яках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.elephant": {
+    "title": "Слон",
+    "en": "elephant",
+    "en_plural": "elephants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "слон",
+        "gen": "слона",
+        "dat": "слону",
+        "acc": "слона",
+        "ins": "слоном",
+        "prep": "слоне"
+      },
+      "plural": {
+        "nom": "слоны",
+        "gen": "слонов",
+        "dat": "слонам",
+        "acc": "слонов",
+        "ins": "слонами",
+        "prep": "слонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hippogriff": {
+    "title": "Гиппогриф",
+    "en": "hippogriff",
+    "en_plural": "hippogriffs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гиппогриф",
+        "gen": "гиппогрифа",
+        "dat": "гиппогрифу",
+        "acc": "гиппогрифа",
+        "ins": "гиппогрифом",
+        "prep": "гиппогрифе"
+      },
+      "plural": {
+        "nom": "гиппогрифы",
+        "gen": "гиппогрифов",
+        "dat": "гиппогрифам",
+        "acc": "гиппогрифов",
+        "ins": "гиппогрифами",
+        "prep": "гиппогрифах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.griffon": {
+    "title": "Грифон",
+    "en": "griffon",
+    "en_plural": "griffons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "грифон",
+        "gen": "грифона",
+        "dat": "грифону",
+        "acc": "грифона",
+        "ins": "грифоном",
+        "prep": "грифоне"
+      },
+      "plural": {
+        "nom": "грифоны",
+        "gen": "грифонов",
+        "dat": "грифонам",
+        "acc": "грифонов",
+        "ins": "грифонами",
+        "prep": "грифонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hydra": {
+    "title": "Гидра",
+    "en": "hydra",
+    "en_plural": "hydras",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гидра",
+        "gen": "гидры",
+        "dat": "гидре",
+        "acc": "гидру",
+        "ins": "гидрой",
+        "prep": "гидре"
+      },
+      "plural": {
+        "nom": "гидры",
+        "gen": "гидр",
+        "dat": "гидрам",
+        "acc": "гидр",
+        "ins": "гидрами",
+        "prep": "гидрах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ice_dragon": {
+    "title": "Ледяной дракон",
+    "en": "ice dragon",
+    "en_plural": "ice dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ледяной дракон",
+        "gen": "ледяного дракона",
+        "dat": "ледяному дракону",
+        "acc": "ледяного дракона",
+        "ins": "ледяным драконом",
+        "prep": "ледяном драконе"
+      },
+      "plural": {
+        "nom": "ледяные драконы",
+        "gen": "ледяных драконов",
+        "dat": "ледяным драконам",
+        "acc": "ледяных драконов",
+        "ins": "ледяными драконами",
+        "prep": "ледяных драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.fire_dragon": {
+    "title": "Огненный дракон",
+    "en": "fire dragon",
+    "en_plural": "fire dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "огненный дракон",
+        "gen": "огненного дракона",
+        "dat": "огненному дракону",
+        "acc": "огненного дракона",
+        "ins": "огненным драконом",
+        "prep": "огненном драконе"
+      },
+      "plural": {
+        "nom": "огненные драконы",
+        "gen": "огненных драконов",
+        "dat": "огненным драконам",
+        "acc": "огненных драконов",
+        "ins": "огненными драконами",
+        "prep": "огненных драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.quicksilver_dragon": {
+    "title": "Ртутный дракон",
+    "en": "quicksilver dragon",
+    "en_plural": "quicksilver dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ртутный дракон",
+        "gen": "ртутного дракона",
+        "dat": "ртутному дракону",
+        "acc": "ртутного дракона",
+        "ins": "ртутным драконом",
+        "prep": "ртутном драконе"
+      },
+      "plural": {
+        "nom": "ртутные драконы",
+        "gen": "ртутных драконов",
+        "dat": "ртутным драконам",
+        "acc": "ртутных драконов",
+        "ins": "ртутными драконами",
+        "prep": "ртутных драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.golden_dragon": {
+    "title": "Золотой дракон",
+    "en": "golden dragon",
+    "en_plural": "golden dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "золотой дракон",
+        "gen": "золотого дракона",
+        "dat": "золотому дракону",
+        "acc": "золотого дракона",
+        "ins": "золотым драконом",
+        "prep": "золотом драконе"
+      },
+      "plural": {
+        "nom": "золотые драконы",
+        "gen": "золотых драконов",
+        "dat": "золотым драконам",
+        "acc": "золотых драконов",
+        "ins": "золотыми драконами",
+        "prep": "золотых драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.storm_dragon": {
+    "title": "Штормовой дракон",
+    "en": "storm dragon",
+    "en_plural": "storm dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "штормовой дракон",
+        "gen": "штормового дракона",
+        "dat": "штормовому дракону",
+        "acc": "штормового дракона",
+        "ins": "штормовым драконом",
+        "prep": "штормовом драконе"
+      },
+      "plural": {
+        "nom": "штормовые драконы",
+        "gen": "штормовых драконов",
+        "dat": "штормовым драконам",
+        "acc": "штормовых драконов",
+        "ins": "штормовыми драконами",
+        "prep": "штормовых драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.shadow_dragon": {
+    "title": "Теневой дракон",
+    "en": "shadow dragon",
+    "en_plural": "shadow dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "теневой дракон",
+        "gen": "теневого дракона",
+        "dat": "теневому дракону",
+        "acc": "теневого дракона",
+        "ins": "теневым драконом",
+        "prep": "теневом драконе"
+      },
+      "plural": {
+        "nom": "теневые драконы",
+        "gen": "теневых драконов",
+        "dat": "теневым драконам",
+        "acc": "теневых драконов",
+        "ins": "теневыми драконами",
+        "prep": "теневых драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.iron_dragon": {
+    "title": "Железный дракон",
+    "en": "iron dragon",
+    "en_plural": "iron dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "железный дракон",
+        "gen": "железного дракона",
+        "dat": "железному дракону",
+        "acc": "железного дракона",
+        "ins": "железным драконом",
+        "prep": "железном драконе"
+      },
+      "plural": {
+        "nom": "железные драконы",
+        "gen": "железных драконов",
+        "dat": "железным драконам",
+        "acc": "железных драконов",
+        "ins": "железными драконами",
+        "prep": "железных драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.steam_dragon": {
+    "title": "Паровой дракон",
+    "en": "steam dragon",
+    "en_plural": "steam dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "паровой дракон",
+        "gen": "парового дракона",
+        "dat": "паровому дракону",
+        "acc": "парового дракона",
+        "ins": "паровым драконом",
+        "prep": "паровом драконе"
+      },
+      "plural": {
+        "nom": "паровые драконы",
+        "gen": "паровых драконов",
+        "dat": "паровым драконам",
+        "acc": "паровых драконов",
+        "ins": "паровыми драконами",
+        "prep": "паровых драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.acid_dragon": {
+    "title": "Кислотный дракон",
+    "en": "acid dragon",
+    "en_plural": "acid dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "кислотный дракон",
+        "gen": "кислотного дракона",
+        "dat": "кислотному дракону",
+        "acc": "кислотного дракона",
+        "ins": "кислотным драконом",
+        "prep": "кислотном драконе"
+      },
+      "plural": {
+        "nom": "кислотные драконы",
+        "gen": "кислотных драконов",
+        "dat": "кислотным драконам",
+        "acc": "кислотных драконов",
+        "ins": "кислотными драконами",
+        "prep": "кислотных драконах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.wyvern": {
+    "title": "Виверна",
+    "en": "wyvern",
+    "en_plural": "wyverns",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "виверна",
+        "gen": "виверны",
+        "dat": "виверне",
+        "acc": "виверна",
+        "ins": "виверной",
+        "prep": "виверне"
+      },
+      "plural": {
+        "nom": "виверны",
+        "gen": "виверн",
+        "dat": "вивернам",
+        "acc": "виверна",
+        "ins": "вивернами",
+        "prep": "вивернах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.scorpion": {
+    "title": "Скорпион",
+    "en": "scorpion",
+    "en_plural": "scorpions",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "скорпион",
+        "gen": "скорпиона",
+        "dat": "скорпиону",
+        "acc": "скорпиона",
+        "ins": "скорпионом",
+        "prep": "скорпионе"
+      },
+      "plural": {
+        "nom": "скорпионы",
+        "gen": "скорпионов",
+        "dat": "скорпионам",
+        "acc": "скорпионов",
+        "ins": "скорпионами",
+        "prep": "скорпионах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.killer_bee": {
+    "title": "Пчела-убийца",
+    "en": "killer bee",
+    "en_plural": "killer bees",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "пчела-убийца",
+        "gen": "пчелы-убийцы",
+        "dat": "пчеле-убийце",
+        "acc": "пчелу-убийцу",
+        "ins": "пчелой-убийцей",
+        "prep": "пчеле-убийце"
+      },
+      "plural": {
+        "nom": "пчёлы-убийцы",
+        "gen": "пчёл-убийц",
+        "dat": "пчёлам-убийцам",
+        "acc": "пчёл-убийц",
+        "ins": "пчёлами-убийцами",
+        "prep": "пчёлах-убийцах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.queen_bee": {
+    "title": "Пчелиная матка",
+    "en": "queen bee",
+    "en_plural": "queen bees",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "пчелиная матка",
+        "gen": "пчелиной матки",
+        "dat": "пчелиной матке",
+        "acc": "пчелиная матка",
+        "ins": "пчелиной маткой",
+        "prep": "пчелиной матке"
+      },
+      "plural": {
+        "nom": "пчелиные матки",
+        "gen": "пчелиных маток",
+        "dat": "пчелиным маткам",
+        "acc": "пчелиных матка",
+        "ins": "пчелиными матками",
+        "prep": "пчелиных матках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.wolf": {
+    "title": "Волк",
+    "en": "wolf",
+    "en_plural": "wolves",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "волк",
+        "gen": "волка",
+        "dat": "волку",
+        "acc": "волка",
+        "ins": "волком",
+        "prep": "волке"
+      },
+      "plural": {
+        "nom": "волки",
+        "gen": "волков",
+        "dat": "волкам",
+        "acc": "волков",
+        "ins": "волками",
+        "prep": "волках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.black_bear": {
+    "title": "Чёрный медведь",
+    "en": "black bear",
+    "en_plural": "black bears",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "чёрный медведь",
+        "gen": "чёрного медведя",
+        "dat": "чёрному медведю",
+        "acc": "чёрного медведя",
+        "ins": "чёрным медведем",
+        "prep": "чёрном медведе"
+      },
+      "plural": {
+        "nom": "чёрные медведи",
+        "gen": "чёрных медведей",
+        "dat": "чёрным медведям",
+        "acc": "чёрных медведей",
+        "ins": "чёрными медведями",
+        "prep": "чёрных медведях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.polar_bear": {
+    "title": "Белый медведь",
+    "en": "polar bear",
+    "en_plural": "polar bears",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "белый медведь",
+        "gen": "белого медведя",
+        "dat": "белому медведю",
+        "acc": "белого медведя",
+        "ins": "белым медведем",
+        "prep": "белом медведе"
+      },
+      "plural": {
+        "nom": "белые медведи",
+        "gen": "белых медведей",
+        "dat": "белым медведям",
+        "acc": "белых медведей",
+        "ins": "белыми медведями",
+        "prep": "белых медведях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.bullfrog": {
+    "title": "Лягушка-бык",
+    "en": "bullfrog",
+    "en_plural": "bullfrogs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "лягушка-бык",
+        "gen": "лягушки-быка",
+        "dat": "лягушке-быку",
+        "acc": "лягушку-быка",
+        "ins": "лягушкой-быком",
+        "prep": "лягушке-быке"
+      },
+      "plural": {
+        "nom": "лягушки-быки",
+        "gen": "лягушек-быков",
+        "dat": "лягушкам-быкам",
+        "acc": "лягушек-быков",
+        "ins": "лягушками-быками",
+        "prep": "лягушках-быках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.blink_frog": {
+    "title": "Мерцающая лягушка",
+    "en": "blink frog",
+    "en_plural": "blink frogs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "мерцающая лягушка",
+        "gen": "мерцающей лягушки",
+        "dat": "мерцающей лягушке",
+        "acc": "мерцающая лягушку",
+        "ins": "мерцающей лягушкой",
+        "prep": "мерцающей лягушке"
+      },
+      "plural": {
+        "nom": "мерцающие лягушки",
+        "gen": "мерцающих лягушек",
+        "dat": "мерцающим лягушкам",
+        "acc": "мерцающих лягушек",
+        "ins": "мерцающими лягушками",
+        "prep": "мерцающих лягушках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.cane_toad": {
+    "title": "Жаба-ага",
+    "en": "cane toad",
+    "en_plural": "cane toads",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "жаба-ага",
+        "gen": "жабы-аги",
+        "dat": "жабе-аге",
+        "acc": "жабу-агу",
+        "ins": "жабой-агой",
+        "prep": "жабе-аге"
+      },
+      "plural": {
+        "nom": "жабы-аги",
+        "gen": "жаб-аг",
+        "dat": "жабам-агам",
+        "acc": "жаб-аг",
+        "ins": "жабами-агами",
+        "prep": "жабах-агах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.komodo_dragon": {
+    "title": "Комодский варан",
+    "en": "komodo dragon",
+    "en_plural": "komodo dragons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "комодский варан",
+        "gen": "комодского варана",
+        "dat": "комодскому варану",
+        "acc": "комодского варана",
+        "ins": "комодским вараном",
+        "prep": "комодском варане"
+      },
+      "plural": {
+        "nom": "комодские вараны",
+        "gen": "комодских варанов",
+        "dat": "комодским варанам",
+        "acc": "комодских варанов",
+        "ins": "комодскими варанами",
+        "prep": "комодских варанах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.basilisk": {
+    "title": "Василиск",
+    "en": "basilisk",
+    "en_plural": "basilisks",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "василиск",
+        "gen": "василиска",
+        "dat": "василиску",
+        "acc": "василиска",
+        "ins": "василиском",
+        "prep": "василиске"
+      },
+      "plural": {
+        "nom": "василиски",
+        "gen": "василисков",
+        "dat": "василискам",
+        "acc": "василисков",
+        "ins": "василисками",
+        "prep": "василисках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.black_mamba": {
+    "title": "Чёрная мамба",
+    "en": "black mamba",
+    "en_plural": "black mambas",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "чёрная мамба",
+        "gen": "чёрной мамбы",
+        "dat": "чёрной мамбе",
+        "acc": "чёрная мамба",
+        "ins": "чёрной мамбой",
+        "prep": "чёрной мамбе"
+      },
+      "plural": {
+        "nom": "чёрные мамбы",
+        "gen": "чёрных мамб",
+        "dat": "чёрным мамбам",
+        "acc": "чёрных мамба",
+        "ins": "чёрными мамбами",
+        "prep": "чёрных мамбах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.water_moccasin": {
+    "title": "Водяной щитомордник",
+    "en": "water moccasin",
+    "en_plural": "water moccasins",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "водяной щитомордник",
+        "gen": "водяного щитомордника",
+        "dat": "водяному щитоморднику",
+        "acc": "водяного щитомордника",
+        "ins": "водяным щитомордником",
+        "prep": "водяном щитоморднике"
+      },
+      "plural": {
+        "nom": "водяные щитомордники",
+        "gen": "водяных щитомордников",
+        "dat": "водяным щитомордникам",
+        "acc": "водяных щитомордников",
+        "ins": "водяными щитомордниками",
+        "prep": "водяных щитомордниках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.naga": {
+    "title": "Нагая",
+    "en": "naga",
+    "en_plural": "nagas",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "нагая",
+        "gen": "нагой",
+        "dat": "нагой",
+        "acc": "нагого",
+        "ins": "нагой",
+        "prep": "нагой"
+      },
+      "plural": {
+        "nom": "нагие",
+        "gen": "нагих",
+        "dat": "нагим",
+        "acc": "нагих",
+        "ins": "нагими",
+        "prep": "нагих"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.mummy": {
+    "title": "Мумия",
+    "en": "mummy",
+    "en_plural": "mummies",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "мумия",
+        "gen": "мумии",
+        "dat": "мумии",
+        "acc": "мумию",
+        "ins": "мумией",
+        "prep": "мумии"
+      },
+      "plural": {
+        "nom": "мумии",
+        "gen": "мумий",
+        "dat": "мумиям",
+        "acc": "мумий",
+        "ins": "мумиями",
+        "prep": "мумиях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.vampire": {
+    "title": "Вампир",
+    "en": "vampire",
+    "en_plural": "vampires",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "вампир",
+        "gen": "вампира",
+        "dat": "вампиру",
+        "acc": "вампира",
+        "ins": "вампиром",
+        "prep": "вампире"
+      },
+      "plural": {
+        "nom": "вампиры",
+        "gen": "вампиров",
+        "dat": "вампирам",
+        "acc": "вампиров",
+        "ins": "вампирами",
+        "prep": "вампирах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.wight": {
+    "title": "Умертвие",
+    "en": "wight",
+    "en_plural": "wights",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "умертвие",
+        "gen": "умертвия",
+        "dat": "умертвию",
+        "acc": "умертвие",
+        "ins": "умертвием",
+        "prep": "умертвии"
+      },
+      "plural": {
+        "nom": "умертвия",
+        "gen": "умертвий",
+        "dat": "умертвиям",
+        "acc": "умертвие",
+        "ins": "умертвиями",
+        "prep": "умертвиях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.wraith": {
+    "title": "Призрак",
+    "en": "wraith",
+    "en_plural": "wraiths",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "призрак",
+        "gen": "призрака",
+        "dat": "призраку",
+        "acc": "призрака",
+        "ins": "призраком",
+        "prep": "призраке"
+      },
+      "plural": {
+        "nom": "призраки",
+        "gen": "призраков",
+        "dat": "призракам",
+        "acc": "призраков",
+        "ins": "призраками",
+        "prep": "призраках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.phantom": {
+    "title": "Фантом",
+    "en": "phantom",
+    "en_plural": "phantoms",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "фантом",
+        "gen": "фантома",
+        "dat": "фантому",
+        "acc": "фантом",
+        "ins": "фантомом",
+        "prep": "фантоме"
+      },
+      "plural": {
+        "nom": "фантомы",
+        "gen": "фантомов",
+        "dat": "фантомам",
+        "acc": "фантом",
+        "ins": "фантомами",
+        "prep": "фантомах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.shadowghast": {
+    "title": "Теневой дух",
+    "en": "shadowghast",
+    "en_plural": "shadowghasts",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "теневой дух",
+        "gen": "теневого духа",
+        "dat": "теневому духу",
+        "acc": "теневого духа",
+        "ins": "теневым духом",
+        "prep": "теневом духе"
+      },
+      "plural": {
+        "nom": "теневые духи",
+        "gen": "теневых духов",
+        "dat": "теневым духам",
+        "acc": "теневых духов",
+        "ins": "теневыми духами",
+        "prep": "теневых духах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.lich": {
+    "title": "Лич",
+    "en": "lich",
+    "en_plural": "liches",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "лич",
+        "gen": "лич",
+        "dat": "лич",
+        "acc": "лич",
+        "ins": "лич",
+        "prep": "лич"
+      },
+      "plural": {
+        "nom": "лич",
+        "gen": "лич",
+        "dat": "лич",
+        "acc": "лич",
+        "ins": "лич",
+        "prep": "лич"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ancient_lich": {
+    "title": "Древнее лич",
+    "en": "ancient lich",
+    "en_plural": "ancient liches",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "древнее лич",
+        "gen": "древнего лич",
+        "dat": "древнему лич",
+        "acc": "древний лич",
+        "ins": "древним лич",
+        "prep": "древнем лич"
+      },
+      "plural": {
+        "nom": "древние лич",
+        "gen": "древних лич",
+        "dat": "древним лич",
+        "acc": "древних лич",
+        "ins": "древними лич",
+        "prep": "древних лич"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.slime_creature": {
+    "title": "Слизистое существо",
+    "en": "slime creature",
+    "en_plural": "slime creatures",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "слизистое существо",
+        "gen": "слизистого существа",
+        "dat": "слизистому существу",
+        "acc": "слизистое существо",
+        "ins": "слизистым существом",
+        "prep": "слизистом существе"
+      },
+      "plural": {
+        "nom": "слизистые существа",
+        "gen": "слизистых существ",
+        "dat": "слизистым существам",
+        "acc": "слизистые существо",
+        "ins": "слизистыми существами",
+        "prep": "слизистых существах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ugly_thing": {
+    "title": "Уродливое существо",
+    "en": "ugly thing",
+    "en_plural": "ugly things",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "уродливое существо",
+        "gen": "уродливого существа",
+        "dat": "уродливому существу",
+        "acc": "уродливое существо",
+        "ins": "уродливым существом",
+        "prep": "уродливом существе"
+      },
+      "plural": {
+        "nom": "уродливые существа",
+        "gen": "уродливых существ",
+        "dat": "уродливым существам",
+        "acc": "уродливые существо",
+        "ins": "уродливыми существами",
+        "prep": "уродливых существах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.very_ugly_thing": {
+    "title": "Очень уродливое существо",
+    "en": "very ugly thing",
+    "en_plural": "very ugly things",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "очень уродливое существо",
+        "gen": "очень уродливого существа",
+        "dat": "очень уродливому существу",
+        "acc": "очень уродливое существо",
+        "ins": "очень уродливым существом",
+        "prep": "очень уродливом существе"
+      },
+      "plural": {
+        "nom": "очень уродливые существа",
+        "gen": "очень уродливых существ",
+        "dat": "очень уродливым существам",
+        "acc": "очень уродливые существо",
+        "ins": "очень уродливыми существами",
+        "prep": "очень уродливых существах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_sorcerer": {
+    "title": "Орк-колдун",
+    "en": "orc sorcerer",
+    "en_plural": "orc sorcerers",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "орк-колдун",
+        "gen": "орка-колдуна",
+        "dat": "орку-колдуну",
+        "acc": "орка-колдуна",
+        "ins": "орком-колдуном",
+        "prep": "орке-колдуне"
+      },
+      "plural": {
+        "nom": "орки-колдуны",
+        "gen": "орков-колдунов",
+        "dat": "оркам-колдунам",
+        "acc": "орков-колдунов",
+        "ins": "орками-колдунами",
+        "prep": "орках-колдунах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.deep_elf_archer": {
+    "title": "Глубинный эльф-лучник",
+    "en": "deep elf archer",
+    "en_plural": "deep elf archers",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "глубинный эльф-лучник",
+        "gen": "глубинного эльфа-лучника",
+        "dat": "глубинному эльфу-лучнику",
+        "acc": "глубинного эльфа-лучника",
+        "ins": "глубинным эльфом-лучником",
+        "prep": "глубинном эльфе-лучнике"
+      },
+      "plural": {
+        "nom": "глубинные эльфы-лучники",
+        "gen": "глубинных эльфов-лучников",
+        "dat": "глубинным эльфам-лучникам",
+        "acc": "глубинных эльфов-лучников",
+        "ins": "глубинными эльфами-лучниками",
+        "prep": "глубинных эльфах-лучниках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.deep_elf_pyromancer": {
+    "title": "Глубинная эльф-пироманта",
+    "en": "deep elf pyromancer",
+    "en_plural": "deep elf pyromancers",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "глубинная эльф-пироманта",
+        "gen": "глубинной эльф-пироманты",
+        "dat": "глубинной эльф-пироманте",
+        "acc": "глубинный эльф-пироманту",
+        "ins": "глубинной эльф-пиромантой",
+        "prep": "глубинной эльф-пироманте"
+      },
+      "plural": {
+        "nom": "глубинные эльф-пироманты",
+        "gen": "глубинных эльф-пиромант",
+        "dat": "глубинным эльф-пиромантам",
+        "acc": "глубинных эльф-пиромант",
+        "ins": "глубинными эльф-пиромантами",
+        "prep": "глубинных эльф-пиромантах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.deep_elf_knight": {
+    "title": "Глубинный эльф-рыцарь",
+    "en": "deep elf knight",
+    "en_plural": "deep elf knights",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "глубинный эльф-рыцарь",
+        "gen": "глубинного эльфа-рыцаря",
+        "dat": "глубинному эльфу-рыцарю",
+        "acc": "глубинного эльфа-рыцаря",
+        "ins": "глубинным эльфом-рыцарем",
+        "prep": "глубинном эльфе-рыцаре"
+      },
+      "plural": {
+        "nom": "глубинные эльфы-рыцари",
+        "gen": "глубинных эльфов-рыцарей",
+        "dat": "глубинным эльфам-рыцарям",
+        "acc": "глубинных эльфов-рыцарей",
+        "ins": "глубинными эльфами-рыцарями",
+        "prep": "глубинных эльфах-рыцарях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.stone_giant": {
+    "title": "Каменный великан",
+    "en": "stone giant",
+    "en_plural": "stone giants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "каменный великан",
+        "gen": "каменного великана",
+        "dat": "каменному великану",
+        "acc": "каменного великана",
+        "ins": "каменным великаном",
+        "prep": "каменном великане"
+      },
+      "plural": {
+        "nom": "каменные великаны",
+        "gen": "каменных великанов",
+        "dat": "каменным великанам",
+        "acc": "каменных великанов",
+        "ins": "каменными великанами",
+        "prep": "каменных великанах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.fire_giant": {
+    "title": "Огненный великан",
+    "en": "fire giant",
+    "en_plural": "fire giants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "огненный великан",
+        "gen": "огненного великана",
+        "dat": "огненному великану",
+        "acc": "огненного великана",
+        "ins": "огненным великаном",
+        "prep": "огненном великане"
+      },
+      "plural": {
+        "nom": "огненные великаны",
+        "gen": "огненных великанов",
+        "dat": "огненным великанам",
+        "acc": "огненных великанов",
+        "ins": "огненными великанами",
+        "prep": "огненных великанах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.frost_giant": {
+    "title": "Морозный великан",
+    "en": "frost giant",
+    "en_plural": "frost giants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "морозный великан",
+        "gen": "морозного великана",
+        "dat": "морозному великану",
+        "acc": "морозного великана",
+        "ins": "морозным великаном",
+        "prep": "морозном великане"
+      },
+      "plural": {
+        "nom": "морозные великаны",
+        "gen": "морозных великанов",
+        "dat": "морозным великанам",
+        "acc": "морозных великанов",
+        "ins": "морозными великанами",
+        "prep": "морозных великанах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.cyclops": {
+    "title": "Циклоп",
+    "en": "cyclops",
+    "en_plural": "cyclopes",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "циклоп",
+        "gen": "циклопа",
+        "dat": "циклопу",
+        "acc": "циклопа",
+        "ins": "циклопом",
+        "prep": "циклопе"
+      },
+      "plural": {
+        "nom": "циклопы",
+        "gen": "циклопов",
+        "dat": "циклопам",
+        "acc": "циклопов",
+        "ins": "циклопами",
+        "prep": "циклопах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ettin": {
+    "title": "Эттин",
+    "en": "ettin",
+    "en_plural": "ettins",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "эттин",
+        "gen": "эттина",
+        "dat": "эттину",
+        "acc": "эттина",
+        "ins": "эттином",
+        "prep": "эттине"
+      },
+      "plural": {
+        "nom": "эттины",
+        "gen": "эттинов",
+        "dat": "эттинам",
+        "acc": "эттинов",
+        "ins": "эттинами",
+        "prep": "эттинах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orc_high_priest": {
+    "title": "Верховный жрец орков",
+    "en": "orc high priest",
+    "en_plural": "orc high priests",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "верховный жрец орков",
+        "gen": "верховного жреца орков",
+        "dat": "верховному жрецу орков",
+        "acc": "верховного жреца орков",
+        "ins": "верховным жрецом орков",
+        "prep": "верховном жреце орков"
+      },
+      "plural": {
+        "nom": "верховные жрецы орков",
+        "gen": "верховных жрецов орков",
+        "dat": "верховным жрецам орков",
+        "acc": "верховных жрецов орков",
+        "ins": "верховными жрецами орков",
+        "prep": "верховных жрецах орков"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.reaper": {
+    "title": "Жнец",
+    "en": "reaper",
+    "en_plural": "reapers",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "жнец",
+        "gen": "жнеца",
+        "dat": "жнецу",
+        "acc": "жнеца",
+        "ins": "жнецом",
+        "prep": "жнеце"
+      },
+      "plural": {
+        "nom": "жнецы",
+        "gen": "жнецов",
+        "dat": "жнецам",
+        "acc": "жнецов",
+        "ins": "жнецами",
+        "prep": "жнецах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hellion": {
+    "title": "Адский демон",
+    "en": "hellion",
+    "en_plural": "hellions",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "адский демон",
+        "gen": "адского демона",
+        "dat": "адскому демону",
+        "acc": "адского демона",
+        "ins": "адским демоном",
+        "prep": "адском демоне"
+      },
+      "plural": {
+        "nom": "адские демоны",
+        "gen": "адских демонов",
+        "dat": "адским демонам",
+        "acc": "адских демонов",
+        "ins": "адскими демонами",
+        "prep": "адских демонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.sun_demon": {
+    "title": "Солнечный демон",
+    "en": "sun demon",
+    "en_plural": "sun demons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "солнечный демон",
+        "gen": "солнечного демона",
+        "dat": "солнечному демону",
+        "acc": "солнечного демона",
+        "ins": "солнечным демоном",
+        "prep": "солнечном демоне"
+      },
+      "plural": {
+        "nom": "солнечные демоны",
+        "gen": "солнечных демонов",
+        "dat": "солнечным демонам",
+        "acc": "солнечных демонов",
+        "ins": "солнечными демонами",
+        "prep": "солнечных демонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.ice_devil": {
+    "title": "Ледяной дьявол",
+    "en": "ice devil",
+    "en_plural": "ice devils",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ледяной дьявол",
+        "gen": "ледяного дьявола",
+        "dat": "ледяному дьяволу",
+        "acc": "ледяного дьявола",
+        "ins": "ледяным дьяволом",
+        "prep": "ледяном дьяволе"
+      },
+      "plural": {
+        "nom": "ледяные дьяволы",
+        "gen": "ледяных дьяволов",
+        "dat": "ледяным дьяволам",
+        "acc": "ледяных дьяволов",
+        "ins": "ледяными дьяволами",
+        "prep": "ледяных дьяволах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.orange_demon": {
+    "title": "Оранжевый демон",
+    "en": "orange demon",
+    "en_plural": "orange demons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "оранжевый демон",
+        "gen": "оранжевого демона",
+        "dat": "оранжевому демону",
+        "acc": "оранжевого демона",
+        "ins": "оранжевым демоном",
+        "prep": "оранжевом демоне"
+      },
+      "plural": {
+        "nom": "оранжевые демоны",
+        "gen": "оранжевых демонов",
+        "dat": "оранжевым демонам",
+        "acc": "оранжевых демонов",
+        "ins": "оранжевыми демонами",
+        "prep": "оранжевых демонах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.hellwing": {
+    "title": "Адское крыло",
+    "en": "hellwing",
+    "en_plural": "hellwings",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "адское крыло",
+        "gen": "адского крыла",
+        "dat": "адскому крылу",
+        "acc": "адское крыло",
+        "ins": "адским крылом",
+        "prep": "адском крыле"
+      },
+      "plural": {
+        "nom": "адские крылья",
+        "gen": "адских крыльев",
+        "dat": "адским крыльям",
+        "acc": "адских крыло",
+        "ins": "адскими крыльями",
+        "prep": "адских крыльях"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.red_devil": {
+    "title": "Красный дьявол",
+    "en": "red devil",
+    "en_plural": "red devils",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "красный дьявол",
+        "gen": "красного дьявола",
+        "dat": "красному дьяволу",
+        "acc": "красного дьявола",
+        "ins": "красным дьяволом",
+        "prep": "красном дьяволе"
+      },
+      "plural": {
+        "nom": "красные дьяволы",
+        "gen": "красных дьяволов",
+        "dat": "красным дьяволам",
+        "acc": "красных дьяволов",
+        "ins": "красными дьяволами",
+        "prep": "красных дьяволах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.crimson_imp": {
+    "title": "Багровый бес",
+    "en": "crimson imp",
+    "en_plural": "crimson imps",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "багровый бес",
+        "gen": "багрового беса",
+        "dat": "багровому бесу",
+        "acc": "багрового беса",
+        "ins": "багровым бесом",
+        "prep": "багровом бесе"
+      },
+      "plural": {
+        "nom": "багровые бесы",
+        "gen": "багровых бесов",
+        "dat": "багровым бесам",
+        "acc": "багровых бесов",
+        "ins": "багровыми бесами",
+        "prep": "багровых бесах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.white_imp": {
+    "title": "Белый бес",
+    "en": "white imp",
+    "en_plural": "white imps",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "белый бес",
+        "gen": "белого беса",
+        "dat": "белому бесу",
+        "acc": "белого беса",
+        "ins": "белым бесом",
+        "prep": "белом бесе"
+      },
+      "plural": {
+        "nom": "белые бесы",
+        "gen": "белых бесов",
+        "dat": "белым бесам",
+        "acc": "белых бесов",
+        "ins": "белыми бесами",
+        "prep": "белых бесах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.iron_imp": {
+    "title": "Железный бес",
+    "en": "iron imp",
+    "en_plural": "iron imps",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "железный бес",
+        "gen": "железного беса",
+        "dat": "железному бесу",
+        "acc": "железного беса",
+        "ins": "железным бесом",
+        "prep": "железном бесе"
+      },
+      "plural": {
+        "nom": "железные бесы",
+        "gen": "железных бесов",
+        "dat": "железным бесам",
+        "acc": "железных бесов",
+        "ins": "железными бесами",
+        "prep": "железных бесах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.shadow_imp": {
+    "title": "Теневой бес",
+    "en": "shadow imp",
+    "en_plural": "shadow imps",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "теневой бес",
+        "gen": "теневого беса",
+        "dat": "теневому бесу",
+        "acc": "теневого беса",
+        "ins": "теневым бесом",
+        "prep": "теневом бесе"
+      },
+      "plural": {
+        "nom": "теневые бесы",
+        "gen": "теневых бесов",
+        "dat": "теневым бесам",
+        "acc": "теневых бесов",
+        "ins": "теневыми бесами",
+        "prep": "теневых бесах"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.butterfly": {
+    "title": "Бабочка",
+    "en": "butterfly",
+    "en_plural": "butterflies",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "бабочка",
+        "gen": "бабочки",
+        "dat": "бабочке",
+        "acc": "бабочку",
+        "ins": "бабочкой",
+        "prep": "бабочке"
+      },
+      "plural": {
+        "nom": "бабочки",
+        "gen": "бабочек",
+        "dat": "бабочкам",
+        "acc": "бабочек",
+        "ins": "бабочками",
+        "prep": "бабочках"
+      }
+    },
+    "review": "draft"
+  },
+  "monster.horse": {
+    "title": "Лошадь",
+    "en": "horse",
+    "en_plural": "horses",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "лошадь",
+        "gen": "лошади",
+        "dat": "лошади",
+        "acc": "лошадь",
+        "ins": "лошадью",
+        "prep": "лошади"
+      },
+      "plural": {
+        "nom": "лошади",
+        "gen": "лошадей",
+        "dat": "лошадям",
+        "acc": "лошадей",
+        "ins": "лошадьми",
+        "prep": "лошадях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.club": {
+    "title": "Дубинка",
+    "en": "club",
+    "en_plural": "clubs",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "дубинка",
+        "gen": "дубинки",
+        "dat": "дубинке",
+        "acc": "дубинку",
+        "ins": "дубинкой",
+        "prep": "дубинке"
+      },
+      "plural": {
+        "nom": "дубинки",
+        "gen": "дубинок",
+        "dat": "дубинкам",
+        "acc": "дубинки",
+        "ins": "дубинками",
+        "prep": "дубинках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.whip": {
+    "title": "Кнут",
+    "en": "whip",
+    "en_plural": "whips",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кнут",
+        "gen": "кнута",
+        "dat": "кнуту",
+        "acc": "кнут",
+        "ins": "кнутом",
+        "prep": "кнуте"
+      },
+      "plural": {
+        "nom": "кнут",
+        "gen": "кнут",
+        "dat": "кнут",
+        "acc": "кнут",
+        "ins": "кнут",
+        "prep": "кнут"
+      }
+    },
+    "review": "draft"
+  },
+  "item.mace": {
+    "title": "Булава",
+    "en": "mace",
+    "en_plural": "maces",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "булава",
+        "gen": "булавы",
+        "dat": "булаве",
+        "acc": "булаву",
+        "ins": "булавой",
+        "prep": "булаве"
+      },
+      "plural": {
+        "nom": "булавы",
+        "gen": "булав",
+        "dat": "булавам",
+        "acc": "булавы",
+        "ins": "булавами",
+        "prep": "булавах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.flail": {
+    "title": "Цеп",
+    "en": "flail",
+    "en_plural": "flails",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "цеп",
+        "gen": "цепа",
+        "dat": "цепу",
+        "acc": "цеп",
+        "ins": "цепом",
+        "prep": "цепе"
+      },
+      "plural": {
+        "nom": "цепы",
+        "gen": "цепов",
+        "dat": "цепам",
+        "acc": "цепы",
+        "ins": "цепами",
+        "prep": "цепах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.morningstar": {
+    "title": "Моргенштерн",
+    "en": "morningstar",
+    "en_plural": "morningstars",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "моргенштерн",
+        "gen": "моргенштерна",
+        "dat": "моргенштерну",
+        "acc": "моргенштерн",
+        "ins": "моргенштерном",
+        "prep": "моргенштерне"
+      },
+      "plural": {
+        "nom": "моргенштерны",
+        "gen": "моргенштернов",
+        "dat": "моргенштернам",
+        "acc": "моргенштерн",
+        "ins": "моргенштернами",
+        "prep": "моргенштернах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.dagger": {
+    "title": "Кинжал",
+    "en": "dagger",
+    "en_plural": "daggers",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кинжал",
+        "gen": "кинжала",
+        "dat": "кинжалу",
+        "acc": "кинжал",
+        "ins": "кинжалом",
+        "prep": "кинжале"
+      },
+      "plural": {
+        "nom": "кинжалы",
+        "gen": "кинжалов",
+        "dat": "кинжалам",
+        "acc": "кинжалы",
+        "ins": "кинжалами",
+        "prep": "кинжалах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.quick_blade": {
+    "title": "Быстрый клинок",
+    "en": "quick blade",
+    "en_plural": "quick blades",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "быстрый клинок",
+        "gen": "быстрого клинка",
+        "dat": "быстрому клинку",
+        "acc": "быстрый клинок",
+        "ins": "быстрым клинком",
+        "prep": "быстром клинке"
+      },
+      "plural": {
+        "nom": "быстрые клинки",
+        "gen": "быстрых клинков",
+        "dat": "быстрым клинкам",
+        "acc": "быстрые клинки",
+        "ins": "быстрыми клинками",
+        "prep": "быстрых клинках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.short_sword": {
+    "title": "Короткий меч",
+    "en": "short sword",
+    "en_plural": "short swords",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "короткий меч",
+        "gen": "короткого меча",
+        "dat": "короткому мечу",
+        "acc": "короткий меч",
+        "ins": "коротким мечом",
+        "prep": "коротком мече"
+      },
+      "plural": {
+        "nom": "короткие мечи",
+        "gen": "коротких мечей",
+        "dat": "коротким мечам",
+        "acc": "короткие мечи",
+        "ins": "короткими мечами",
+        "prep": "коротких мечах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.rapier": {
+    "title": "Рапира",
+    "en": "rapier",
+    "en_plural": "rapiers",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "рапира",
+        "gen": "рапиры",
+        "dat": "рапире",
+        "acc": "рапиру",
+        "ins": "рапирой",
+        "prep": "рапире"
+      },
+      "plural": {
+        "nom": "рапиры",
+        "gen": "рапир",
+        "dat": "рапирам",
+        "acc": "рапиры",
+        "ins": "рапирами",
+        "prep": "рапирах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.falchion": {
+    "title": "Фальшион",
+    "en": "falchion",
+    "en_plural": "falchions",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "фальшион",
+        "gen": "фальшиона",
+        "dat": "фальшиону",
+        "acc": "фальшион",
+        "ins": "фальшионом",
+        "prep": "фальшионе"
+      },
+      "plural": {
+        "nom": "фальшионы",
+        "gen": "фальшионов",
+        "dat": "фальшионам",
+        "acc": "фальшион",
+        "ins": "фальшионами",
+        "prep": "фальшионах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.long_sword": {
+    "title": "Длинный меч",
+    "en": "long sword",
+    "en_plural": "long swords",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "длинный меч",
+        "gen": "длинного меча",
+        "dat": "длинному мечу",
+        "acc": "длинный меч",
+        "ins": "длинным мечом",
+        "prep": "длинном мече"
+      },
+      "plural": {
+        "nom": "длинные мечи",
+        "gen": "длинных мечей",
+        "dat": "длинным мечам",
+        "acc": "длинные мечи",
+        "ins": "длинными мечами",
+        "prep": "длинных мечах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scimitar": {
+    "title": "Скимитар",
+    "en": "scimitar",
+    "en_plural": "scimitars",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "скимитар",
+        "gen": "скимитар",
+        "dat": "скимитар",
+        "acc": "скимитар",
+        "ins": "скимитар",
+        "prep": "скимитар"
+      },
+      "plural": {
+        "nom": "скимитар",
+        "gen": "скимитар",
+        "dat": "скимитар",
+        "acc": "скимитар",
+        "ins": "скимитар",
+        "prep": "скимитар"
+      }
+    },
+    "review": "draft"
+  },
+  "item.great_sword": {
+    "title": "Двуручный меч",
+    "en": "great sword",
+    "en_plural": "great swords",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "двуручный меч",
+        "gen": "двуручного меча",
+        "dat": "двуручному мечу",
+        "acc": "двуручный меч",
+        "ins": "двуручным мечом",
+        "prep": "двуручном мече"
+      },
+      "plural": {
+        "nom": "двуручные мечи",
+        "gen": "двуручных мечей",
+        "dat": "двуручным мечам",
+        "acc": "двуручные мечи",
+        "ins": "двуручными мечами",
+        "prep": "двуручных мечах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.hand_axe": {
+    "title": "Ручной топор",
+    "en": "hand axe",
+    "en_plural": "hand axes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "ручной топор",
+        "gen": "ручного топора",
+        "dat": "ручному топору",
+        "acc": "ручной топор",
+        "ins": "ручным топором",
+        "prep": "ручном топоре"
+      },
+      "plural": {
+        "nom": "ручные топоры",
+        "gen": "ручных топоров",
+        "dat": "ручным топорам",
+        "acc": "ручные топоры",
+        "ins": "ручными топорами",
+        "prep": "ручных топорах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.war_axe": {
+    "title": "Боевой топор",
+    "en": "war axe",
+    "en_plural": "war axes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "боевой топор",
+        "gen": "боевого топора",
+        "dat": "боевому топору",
+        "acc": "боевой топор",
+        "ins": "боевым топором",
+        "prep": "боевом топоре"
+      },
+      "plural": {
+        "nom": "боевые топоры",
+        "gen": "боевых топоров",
+        "dat": "боевым топорам",
+        "acc": "боевые топоры",
+        "ins": "боевыми топорами",
+        "prep": "боевых топорах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.broad_axe": {
+    "title": "Широкий топор",
+    "en": "broad axe",
+    "en_plural": "broad axes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "широкий топор",
+        "gen": "широкого топора",
+        "dat": "широкому топору",
+        "acc": "широкий топор",
+        "ins": "широким топором",
+        "prep": "широком топоре"
+      },
+      "plural": {
+        "nom": "широкие топоры",
+        "gen": "широких топоров",
+        "dat": "широким топорам",
+        "acc": "широкие топоры",
+        "ins": "широкими топорами",
+        "prep": "широких топорах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.battleaxe": {
+    "title": "Секира",
+    "en": "battleaxe",
+    "en_plural": "battleaxes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "секира",
+        "gen": "секиры",
+        "dat": "секире",
+        "acc": "секиру",
+        "ins": "секирой",
+        "prep": "секире"
+      },
+      "plural": {
+        "nom": "секиры",
+        "gen": "секир",
+        "dat": "секирам",
+        "acc": "секиры",
+        "ins": "секирами",
+        "prep": "секирах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.executioner_s_axe": {
+    "title": "Топор палача",
+    "en": "executioner's axe",
+    "en_plural": "executioner's axes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "топор палача",
+        "gen": "топора палача",
+        "dat": "топору палача",
+        "acc": "топор палача",
+        "ins": "топором палача",
+        "prep": "топоре палача"
+      },
+      "plural": {
+        "nom": "топоры палача",
+        "gen": "топоров палача",
+        "dat": "топорам палача",
+        "acc": "топоры палача",
+        "ins": "топорами палача",
+        "prep": "топорах палача"
+      }
+    },
+    "review": "draft"
+  },
+  "item.spear": {
+    "title": "Копьё",
+    "en": "spear",
+    "en_plural": "spears",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "копьё",
+        "gen": "копья",
+        "dat": "копью",
+        "acc": "копьё",
+        "ins": "копьём",
+        "prep": "копье"
+      },
+      "plural": {
+        "nom": "копья",
+        "gen": "копий",
+        "dat": "копьям",
+        "acc": "копья",
+        "ins": "копьями",
+        "prep": "копьях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.trident": {
+    "title": "Трезубец",
+    "en": "trident",
+    "en_plural": "tridents",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "трезубец",
+        "gen": "трезубца",
+        "dat": "трезубцу",
+        "acc": "трезубец",
+        "ins": "трезубцем",
+        "prep": "трезубце"
+      },
+      "plural": {
+        "nom": "трезубцы",
+        "gen": "трезубцев",
+        "dat": "трезубцам",
+        "acc": "трезубцы",
+        "ins": "трезубцами",
+        "prep": "трезубцах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.halberd": {
+    "title": "Алебарда",
+    "en": "halberd",
+    "en_plural": "halberds",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "алебарда",
+        "gen": "алебарды",
+        "dat": "алебарде",
+        "acc": "алебарду",
+        "ins": "алебардой",
+        "prep": "алебарде"
+      },
+      "plural": {
+        "nom": "алебарды",
+        "gen": "алебард",
+        "dat": "алебардам",
+        "acc": "алебарды",
+        "ins": "алебардами",
+        "prep": "алебардах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.glaive": {
+    "title": "Глеф",
+    "en": "glaive",
+    "en_plural": "glaives",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "глеф",
+        "gen": "глефа",
+        "dat": "глефу",
+        "acc": "глеф",
+        "ins": "глефом",
+        "prep": "глефе"
+      },
+      "plural": {
+        "nom": "глефы",
+        "gen": "глефов",
+        "dat": "глефам",
+        "acc": "глефы",
+        "ins": "глефами",
+        "prep": "глефах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.bardiche": {
+    "title": "Бердыш",
+    "en": "bardiche",
+    "en_plural": "bardiches",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "бердыш",
+        "gen": "бердыша",
+        "dat": "бердышу",
+        "acc": "бердыш",
+        "ins": "бердышом",
+        "prep": "бердыше"
+      },
+      "plural": {
+        "nom": "бердыши",
+        "gen": "бердышей",
+        "dat": "бердышам",
+        "acc": "бердыши",
+        "ins": "бердышами",
+        "prep": "бердышах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.quarterstaff": {
+    "title": "Боевой посох",
+    "en": "quarterstaff",
+    "en_plural": "quarterstaves",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "боевой посох",
+        "gen": "боевого посоха",
+        "dat": "боевому посоху",
+        "acc": "боевой посох",
+        "ins": "боевым посохом",
+        "prep": "боевом посохе"
+      },
+      "plural": {
+        "nom": "боевые посохи",
+        "gen": "боевых посохов",
+        "dat": "боевым посохам",
+        "acc": "боевые посохи",
+        "ins": "боевыми посохами",
+        "prep": "боевых посохах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.lajatang": {
+    "title": "Ладжатанг",
+    "en": "lajatang",
+    "en_plural": "lajatangs",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "ладжатанг",
+        "gen": "ладжатанга",
+        "dat": "ладжатангу",
+        "acc": "ладжатанг",
+        "ins": "ладжатангом",
+        "prep": "ладжатанге"
+      },
+      "plural": {
+        "nom": "ладжатанги",
+        "gen": "ладжатангов",
+        "dat": "ладжатангам",
+        "acc": "ладжатанги",
+        "ins": "ладжатангами",
+        "prep": "ладжатангах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scythe": {
+    "title": "Коса",
+    "en": "scythe",
+    "en_plural": "scythes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "коса",
+        "gen": "косы",
+        "dat": "косе",
+        "acc": "косу",
+        "ins": "косой",
+        "prep": "косе"
+      },
+      "plural": {
+        "nom": "косы",
+        "gen": "кос",
+        "dat": "косам",
+        "acc": "косы",
+        "ins": "косами",
+        "prep": "косах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.sling": {
+    "title": "Праща",
+    "en": "sling",
+    "en_plural": "slings",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "праща",
+        "gen": "пращи",
+        "dat": "праще",
+        "acc": "пращу",
+        "ins": "пращой",
+        "prep": "праще"
+      },
+      "plural": {
+        "nom": "пращи",
+        "gen": "пращей",
+        "dat": "пращам",
+        "acc": "пращи",
+        "ins": "пращами",
+        "prep": "пращах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.shortbow": {
+    "title": "Короткий лук",
+    "en": "shortbow",
+    "en_plural": "shortbows",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "короткий лук",
+        "gen": "короткого лука",
+        "dat": "короткому луку",
+        "acc": "короткий лук",
+        "ins": "коротким луком",
+        "prep": "коротком луке"
+      },
+      "plural": {
+        "nom": "короткие луки",
+        "gen": "коротких луков",
+        "dat": "коротким лукам",
+        "acc": "короткие луки",
+        "ins": "короткими луками",
+        "prep": "коротких луках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.longbow": {
+    "title": "Длинный лук",
+    "en": "longbow",
+    "en_plural": "longbows",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "длинный лук",
+        "gen": "длинного лука",
+        "dat": "длинному луку",
+        "acc": "длинный лук",
+        "ins": "длинным луком",
+        "prep": "длинном луке"
+      },
+      "plural": {
+        "nom": "длинные луки",
+        "gen": "длинных луков",
+        "dat": "длинным лукам",
+        "acc": "длинные луки",
+        "ins": "длинными луками",
+        "prep": "длинных луках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.arbalest": {
+    "title": "Арбалет",
+    "en": "arbalest",
+    "en_plural": "arbalests",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "арбалет",
+        "gen": "арбалета",
+        "dat": "арбалету",
+        "acc": "арбалет",
+        "ins": "арбалетом",
+        "prep": "арбалете"
+      },
+      "plural": {
+        "nom": "арбалеты",
+        "gen": "арбалетов",
+        "dat": "арбалетам",
+        "acc": "арбалеты",
+        "ins": "арбалетами",
+        "prep": "арбалетах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.hand_cannon": {
+    "title": "Ручная пушка",
+    "en": "hand cannon",
+    "en_plural": "hand cannons",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "ручная пушка",
+        "gen": "ручной пушки",
+        "dat": "ручной пушке",
+        "acc": "ручная пушку",
+        "ins": "ручной пушкой",
+        "prep": "ручной пушке"
+      },
+      "plural": {
+        "nom": "ручные пушки",
+        "gen": "ручных пушек",
+        "dat": "ручным пушкам",
+        "acc": "ручные пушки",
+        "ins": "ручными пушками",
+        "prep": "ручных пушках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.robe": {
+    "title": "Мантия",
+    "en": "robe",
+    "en_plural": "robes",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "мантия",
+        "gen": "мантии",
+        "dat": "мантии",
+        "acc": "мантию",
+        "ins": "мантией",
+        "prep": "мантии"
+      },
+      "plural": {
+        "nom": "мантии",
+        "gen": "мантий",
+        "dat": "мантиям",
+        "acc": "мантии",
+        "ins": "мантиями",
+        "prep": "мантиях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.leather_armour": {
+    "title": "Кожаный доспех",
+    "en": "leather armour",
+    "en_plural": "leather armours",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кожаный доспех",
+        "gen": "кожаного доспеха",
+        "dat": "кожаному доспеху",
+        "acc": "кожаный доспех",
+        "ins": "кожаным доспехом",
+        "prep": "кожаном доспехе"
+      },
+      "plural": {
+        "nom": "кожаные доспехи",
+        "gen": "кожаных доспехов",
+        "dat": "кожаным доспехам",
+        "acc": "кожаные доспехи",
+        "ins": "кожаными доспехами",
+        "prep": "кожаных доспехах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_mail": {
+    "title": "Кольчатый доспех",
+    "en": "ring mail",
+    "en_plural": "ring mails",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольчатый доспех",
+        "gen": "кольчатого доспеха",
+        "dat": "кольчатому доспеху",
+        "acc": "кольчатый доспех",
+        "ins": "кольчатым доспехом",
+        "prep": "кольчатом доспехе"
+      },
+      "plural": {
+        "nom": "кольчатые доспехи",
+        "gen": "кольчатых доспехов",
+        "dat": "кольчатым доспехам",
+        "acc": "кольчатые доспехи",
+        "ins": "кольчатыми доспехами",
+        "prep": "кольчатых доспехах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scale_mail": {
+    "title": "Чешуйчатый доспех",
+    "en": "scale mail",
+    "en_plural": "scale mails",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "чешуйчатый доспех",
+        "gen": "чешуйчатого доспеха",
+        "dat": "чешуйчатому доспеху",
+        "acc": "чешуйчатый доспех",
+        "ins": "чешуйчатым доспехом",
+        "prep": "чешуйчатом доспехе"
+      },
+      "plural": {
+        "nom": "чешуйчатые доспехи",
+        "gen": "чешуйчатых доспехов",
+        "dat": "чешуйчатым доспехам",
+        "acc": "чешуйчатые доспехи",
+        "ins": "чешуйчатыми доспехами",
+        "prep": "чешуйчатых доспехах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.chain_mail": {
+    "title": "Кольчуга",
+    "en": "chain mail",
+    "en_plural": "chain mails",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольчуга",
+        "gen": "кольчуги",
+        "dat": "кольчуге",
+        "acc": "кольчугу",
+        "ins": "кольчугой",
+        "prep": "кольчуге"
+      },
+      "plural": {
+        "nom": "кольчуги",
+        "gen": "кольчуг",
+        "dat": "кольчугам",
+        "acc": "кольчуги",
+        "ins": "кольчугами",
+        "prep": "кольчугах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.plate_armour": {
+    "title": "Латный доспех",
+    "en": "plate armour",
+    "en_plural": "plate armours",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "латный доспех",
+        "gen": "латного доспеха",
+        "dat": "латному доспеху",
+        "acc": "латный доспех",
+        "ins": "латным доспехом",
+        "prep": "латном доспехе"
+      },
+      "plural": {
+        "nom": "латные доспехи",
+        "gen": "латных доспехов",
+        "dat": "латным доспехам",
+        "acc": "латные доспехи",
+        "ins": "латными доспехами",
+        "prep": "латных доспехах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.helmet": {
+    "title": "Шлем",
+    "en": "helmet",
+    "en_plural": "helmets",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "шлем",
+        "gen": "шлема",
+        "dat": "шлему",
+        "acc": "шлем",
+        "ins": "шлемом",
+        "prep": "шлеме"
+      },
+      "plural": {
+        "nom": "шлемы",
+        "gen": "шлемов",
+        "dat": "шлемам",
+        "acc": "шлемы",
+        "ins": "шлемами",
+        "prep": "шлемах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.hat": {
+    "title": "Шляпа",
+    "en": "hat",
+    "en_plural": "hats",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "шляпа",
+        "gen": "шляпы",
+        "dat": "шляпе",
+        "acc": "шляпу",
+        "ins": "шляпой",
+        "prep": "шляпе"
+      },
+      "plural": {
+        "nom": "шляпы",
+        "gen": "шляп",
+        "dat": "шляпам",
+        "acc": "шляпы",
+        "ins": "шляпами",
+        "prep": "шляпах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.cloak": {
+    "title": "Плащ",
+    "en": "cloak",
+    "en_plural": "cloaks",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "плащ",
+        "gen": "плаща",
+        "dat": "плащу",
+        "acc": "плащ",
+        "ins": "плащом",
+        "prep": "плаще"
+      },
+      "plural": {
+        "nom": "плащи",
+        "gen": "плащей",
+        "dat": "плащам",
+        "acc": "плащи",
+        "ins": "плащами",
+        "prep": "плащах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scarf": {
+    "title": "Шарф",
+    "en": "scarf",
+    "en_plural": "scarves",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "шарф",
+        "gen": "шарфа",
+        "dat": "шарфу",
+        "acc": "шарф",
+        "ins": "шарфом",
+        "prep": "шарфе"
+      },
+      "plural": {
+        "nom": "шарфы",
+        "gen": "шарфов",
+        "dat": "шарфам",
+        "acc": "шарфы",
+        "ins": "шарфами",
+        "prep": "шарфах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.buckler": {
+    "title": "Баклер",
+    "en": "buckler",
+    "en_plural": "bucklers",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "баклер",
+        "gen": "баклера",
+        "dat": "баклеру",
+        "acc": "баклер",
+        "ins": "баклером",
+        "prep": "баклере"
+      },
+      "plural": {
+        "nom": "баклеры",
+        "gen": "баклеров",
+        "dat": "баклерам",
+        "acc": "баклеры",
+        "ins": "баклерами",
+        "prep": "баклерах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.kite_shield": {
+    "title": "Каплевидный щит",
+    "en": "kite shield",
+    "en_plural": "kite shields",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "каплевидный щит",
+        "gen": "каплевидного щита",
+        "dat": "каплевидному щиту",
+        "acc": "каплевидный щит",
+        "ins": "каплевидным щитом",
+        "prep": "каплевидном щите"
+      },
+      "plural": {
+        "nom": "каплевидные щиты",
+        "gen": "каплевидных щитов",
+        "dat": "каплевидным щитам",
+        "acc": "каплевидные щиты",
+        "ins": "каплевидными щитами",
+        "prep": "каплевидных щитах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.tower_shield": {
+    "title": "Башенный щит",
+    "en": "tower shield",
+    "en_plural": "tower shields",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "башенный щит",
+        "gen": "башенного щита",
+        "dat": "башенному щиту",
+        "acc": "башенный щит",
+        "ins": "башенным щитом",
+        "prep": "башенном щите"
+      },
+      "plural": {
+        "nom": "башенные щиты",
+        "gen": "башенных щитов",
+        "dat": "башенным щитам",
+        "acc": "башенные щиты",
+        "ins": "башенными щитами",
+        "prep": "башенных щитах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion": {
+    "title": "Зелье",
+    "en": "potion",
+    "en_plural": "potions",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье",
+        "gen": "зелья",
+        "dat": "зелью",
+        "acc": "зелье",
+        "ins": "зельем",
+        "prep": "зелье"
+      },
+      "plural": {
+        "nom": "зелья",
+        "gen": "зелий",
+        "dat": "зельям",
+        "acc": "зелья",
+        "ins": "зельями",
+        "prep": "зельях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_curing": {
+    "title": "Зелье исцеления",
+    "en": "potion of curing",
+    "en_plural": "potions of curing",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье исцеления",
+        "gen": "зелья исцеления",
+        "dat": "зелью исцеления",
+        "acc": "зелье исцеления",
+        "ins": "зельем исцеления",
+        "prep": "зелье исцеления"
+      },
+      "plural": {
+        "nom": "зелья исцеления",
+        "gen": "зелий исцеления",
+        "dat": "зельям исцеления",
+        "acc": "зелья исцеления",
+        "ins": "зельями исцеления",
+        "prep": "зельях исцеления"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_heal_wounds": {
+    "title": "Зелье лечения ран",
+    "en": "potion of heal wounds",
+    "en_plural": "potions of heal wounds",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье лечения ран",
+        "gen": "зелья лечения ран",
+        "dat": "зелью лечения ран",
+        "acc": "зелье лечения ран",
+        "ins": "зельем лечения ран",
+        "prep": "зелье лечения ран"
+      },
+      "plural": {
+        "nom": "зелья лечения ран",
+        "gen": "зелий лечения ран",
+        "dat": "зельям лечения ран",
+        "acc": "зелья лечения ран",
+        "ins": "зельями лечения ран",
+        "prep": "зельях лечения ран"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_might": {
+    "title": "Зелье мощи",
+    "en": "potion of might",
+    "en_plural": "potions of might",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье мощи",
+        "gen": "зелья мощи",
+        "dat": "зелью мощи",
+        "acc": "зелье мощи",
+        "ins": "зельем мощи",
+        "prep": "зелье мощи"
+      },
+      "plural": {
+        "nom": "зелья мощи",
+        "gen": "зелий мощи",
+        "dat": "зельям мощи",
+        "acc": "зелья мощи",
+        "ins": "зельями мощи",
+        "prep": "зельях мощи"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_haste": {
+    "title": "Зелье ускорения",
+    "en": "potion of haste",
+    "en_plural": "potions of haste",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье ускорения",
+        "gen": "зелья ускорения",
+        "dat": "зелью ускорения",
+        "acc": "зелье ускорения",
+        "ins": "зельем ускорения",
+        "prep": "зелье ускорения"
+      },
+      "plural": {
+        "nom": "зелья ускорения",
+        "gen": "зелий ускорения",
+        "dat": "зельям ускорения",
+        "acc": "зелья ускорения",
+        "ins": "зельями ускорения",
+        "prep": "зельях ускорения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_magic": {
+    "title": "Зелье магии",
+    "en": "potion of magic",
+    "en_plural": "potions of magic",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье магии",
+        "gen": "зелья магии",
+        "dat": "зелью магии",
+        "acc": "зелье магии",
+        "ins": "зельем магии",
+        "prep": "зелье магии"
+      },
+      "plural": {
+        "nom": "зелья магии",
+        "gen": "зелий магии",
+        "dat": "зельям магии",
+        "acc": "зелья магии",
+        "ins": "зельями магии",
+        "prep": "зельях магии"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_berserk_rage": {
+    "title": "Зелье ярости",
+    "en": "potion of berserk rage",
+    "en_plural": "potions of berserk rage",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье ярости",
+        "gen": "зелья ярости",
+        "dat": "зелью ярости",
+        "acc": "зелье ярости",
+        "ins": "зельем ярости",
+        "prep": "зелье ярости"
+      },
+      "plural": {
+        "nom": "зелья ярости",
+        "gen": "зелий ярости",
+        "dat": "зельям ярости",
+        "acc": "зелья ярости",
+        "ins": "зельями ярости",
+        "prep": "зельях ярости"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_lignification": {
+    "title": "Зелье одревеснения",
+    "en": "potion of lignification",
+    "en_plural": "potions of lignification",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье одревеснения",
+        "gen": "зелья одревеснения",
+        "dat": "зелью одревеснения",
+        "acc": "зелье одревеснения",
+        "ins": "зельем одревеснения",
+        "prep": "зелье одревеснения"
+      },
+      "plural": {
+        "nom": "зелья одревеснения",
+        "gen": "зелий одревеснения",
+        "dat": "зельям одревеснения",
+        "acc": "зелья одревеснения",
+        "ins": "зельями одревеснения",
+        "prep": "зельях одревеснения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_mutation": {
+    "title": "Зелье мутации",
+    "en": "potion of mutation",
+    "en_plural": "potions of mutation",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье мутации",
+        "gen": "зелья мутации",
+        "dat": "зелью мутации",
+        "acc": "зелье мутации",
+        "ins": "зельем мутации",
+        "prep": "зелье мутации"
+      },
+      "plural": {
+        "nom": "зелья мутации",
+        "gen": "зелий мутации",
+        "dat": "зельям мутации",
+        "acc": "зелья мутации",
+        "ins": "зельями мутации",
+        "prep": "зельях мутации"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_cancellation": {
+    "title": "Зелье отмены",
+    "en": "potion of cancellation",
+    "en_plural": "potions of cancellation",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье отмены",
+        "gen": "зелья отмены",
+        "dat": "зелью отмены",
+        "acc": "зелье отмены",
+        "ins": "зельем отмены",
+        "prep": "зелье отмены"
+      },
+      "plural": {
+        "nom": "зелья отмены",
+        "gen": "зелий отмены",
+        "dat": "зельям отмены",
+        "acc": "зелья отмены",
+        "ins": "зельями отмены",
+        "prep": "зельях отмены"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_invisibility": {
+    "title": "Зелье невидимости",
+    "en": "potion of invisibility",
+    "en_plural": "potions of invisibility",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье невидимости",
+        "gen": "зелья невидимости",
+        "dat": "зелью невидимости",
+        "acc": "зелье невидимости",
+        "ins": "зельем невидимости",
+        "prep": "зелье невидимости"
+      },
+      "plural": {
+        "nom": "зелья невидимости",
+        "gen": "зелий невидимости",
+        "dat": "зельям невидимости",
+        "acc": "зелья невидимости",
+        "ins": "зельями невидимости",
+        "prep": "зельях невидимости"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_resistance": {
+    "title": "Зелье сопротивления",
+    "en": "potion of resistance",
+    "en_plural": "potions of resistance",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье сопротивления",
+        "gen": "зелья сопротивления",
+        "dat": "зелью сопротивления",
+        "acc": "зелье сопротивления",
+        "ins": "зельем сопротивления",
+        "prep": "зелье сопротивления"
+      },
+      "plural": {
+        "nom": "зелья сопротивления",
+        "gen": "зелий сопротивления",
+        "dat": "зельям сопротивления",
+        "acc": "зелья сопротивления",
+        "ins": "зельями сопротивления",
+        "prep": "зельях сопротивления"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_enlightenment": {
+    "title": "Зелье просветления",
+    "en": "potion of enlightenment",
+    "en_plural": "potions of enlightenment",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье просветления",
+        "gen": "зелья просветления",
+        "dat": "зелью просветления",
+        "acc": "зелье просветления",
+        "ins": "зельем просветления",
+        "prep": "зелье просветления"
+      },
+      "plural": {
+        "nom": "зелья просветления",
+        "gen": "зелий просветления",
+        "dat": "зельям просветления",
+        "acc": "зелья просветления",
+        "ins": "зельями просветления",
+        "prep": "зельях просветления"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_attraction": {
+    "title": "Зелье притяжения",
+    "en": "potion of attraction",
+    "en_plural": "potions of attraction",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье притяжения",
+        "gen": "зелья притяжения",
+        "dat": "зелью притяжения",
+        "acc": "зелье притяжения",
+        "ins": "зельем притяжения",
+        "prep": "зелье притяжения"
+      },
+      "plural": {
+        "nom": "зелья притяжения",
+        "gen": "зелий притяжения",
+        "dat": "зельям притяжения",
+        "acc": "зелья притяжения",
+        "ins": "зельями притяжения",
+        "prep": "зельях притяжения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.potion_of_ambrosia": {
+    "title": "Зелье амброзии",
+    "en": "potion of ambrosia",
+    "en_plural": "potions of ambrosia",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "зелье амброзии",
+        "gen": "зелья амброзии",
+        "dat": "зелью амброзии",
+        "acc": "зелье амброзии",
+        "ins": "зельем амброзии",
+        "prep": "зелье амброзии"
+      },
+      "plural": {
+        "nom": "зелья амброзии",
+        "gen": "зелий амброзии",
+        "dat": "зельям амброзии",
+        "acc": "зелья амброзии",
+        "ins": "зельями амброзии",
+        "prep": "зельях амброзии"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll": {
+    "title": "Свиток",
+    "en": "scroll",
+    "en_plural": "scrolls",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток",
+        "gen": "свитка",
+        "dat": "свитку",
+        "acc": "свиток",
+        "ins": "свитком",
+        "prep": "свитке"
+      },
+      "plural": {
+        "nom": "свитки",
+        "gen": "свитков",
+        "dat": "свиткам",
+        "acc": "свитки",
+        "ins": "свитками",
+        "prep": "свитках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_identify": {
+    "title": "Свиток опознания",
+    "en": "scroll of identify",
+    "en_plural": "scrolls of identify",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток опознания",
+        "gen": "свитка опознания",
+        "dat": "свитку опознания",
+        "acc": "свиток опознания",
+        "ins": "свитком опознания",
+        "prep": "свитке опознания"
+      },
+      "plural": {
+        "nom": "свитки опознания",
+        "gen": "свитков опознания",
+        "dat": "свиткам опознания",
+        "acc": "свитки опознания",
+        "ins": "свитками опознания",
+        "prep": "свитках опознания"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_teleportation": {
+    "title": "Свиток телепортации",
+    "en": "scroll of teleportation",
+    "en_plural": "scrolls of teleportation",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток телепортации",
+        "gen": "свитка телепортации",
+        "dat": "свитку телепортации",
+        "acc": "свиток телепортации",
+        "ins": "свитком телепортации",
+        "prep": "свитке телепортации"
+      },
+      "plural": {
+        "nom": "свитки телепортации",
+        "gen": "свитков телепортации",
+        "dat": "свиткам телепортации",
+        "acc": "свитки телепортации",
+        "ins": "свитками телепортации",
+        "prep": "свитках телепортации"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_blinking": {
+    "title": "Свиток скачка",
+    "en": "scroll of blinking",
+    "en_plural": "scrolls of blinking",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток скачка",
+        "gen": "свитка скачка",
+        "dat": "свитку скачка",
+        "acc": "свиток скачка",
+        "ins": "свитком скачка",
+        "prep": "свитке скачка"
+      },
+      "plural": {
+        "nom": "свитки скачка",
+        "gen": "свитков скачка",
+        "dat": "свиткам скачка",
+        "acc": "свитки скачка",
+        "ins": "свитками скачка",
+        "prep": "свитках скачка"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_fear": {
+    "title": "Свиток страха",
+    "en": "scroll of fear",
+    "en_plural": "scrolls of fear",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток страха",
+        "gen": "свитка страха",
+        "dat": "свитку страха",
+        "acc": "свиток страха",
+        "ins": "свитком страха",
+        "prep": "свитке страха"
+      },
+      "plural": {
+        "nom": "свитки страха",
+        "gen": "свитков страха",
+        "dat": "свиткам страха",
+        "acc": "свитки страха",
+        "ins": "свитками страха",
+        "prep": "свитках страха"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_revelation": {
+    "title": "Свиток откровения",
+    "en": "scroll of revelation",
+    "en_plural": "scrolls of revelation",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток откровения",
+        "gen": "свитка откровения",
+        "dat": "свитку откровения",
+        "acc": "свиток откровения",
+        "ins": "свитком откровения",
+        "prep": "свитке откровения"
+      },
+      "plural": {
+        "nom": "свитки откровения",
+        "gen": "свитков откровения",
+        "dat": "свиткам откровения",
+        "acc": "свитки откровения",
+        "ins": "свитками откровения",
+        "prep": "свитках откровения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_enchant_weapon": {
+    "title": "Свиток зачарования оружия",
+    "en": "scroll of enchant weapon",
+    "en_plural": "scrolls of enchant weapon",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток зачарования оружия",
+        "gen": "свитка зачарования оружия",
+        "dat": "свитку зачарования оружия",
+        "acc": "свиток зачарования оружия",
+        "ins": "свитком зачарования оружия",
+        "prep": "свитке зачарования оружия"
+      },
+      "plural": {
+        "nom": "свитки зачарования оружия",
+        "gen": "свитков зачарования оружия",
+        "dat": "свиткам зачарования оружия",
+        "acc": "свитки зачарования оружия",
+        "ins": "свитками зачарования оружия",
+        "prep": "свитках зачарования оружия"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_enchant_armour": {
+    "title": "Свиток зачарования доспехов",
+    "en": "scroll of enchant armour",
+    "en_plural": "scrolls of enchant armour",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток зачарования доспехов",
+        "gen": "свитка зачарования доспехов",
+        "dat": "свитку зачарования доспехов",
+        "acc": "свиток зачарования доспехов",
+        "ins": "свитком зачарования доспехов",
+        "prep": "свитке зачарования доспехов"
+      },
+      "plural": {
+        "nom": "свитки зачарования доспехов",
+        "gen": "свитков зачарования доспехов",
+        "dat": "свиткам зачарования доспехов",
+        "acc": "свитки зачарования доспехов",
+        "ins": "свитками зачарования доспехов",
+        "prep": "свитках зачарования доспехов"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_brand_weapon": {
+    "title": "Свиток наделения оружия свойством",
+    "en": "scroll of brand weapon",
+    "en_plural": "scrolls of brand weapon",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток наделения оружия свойством",
+        "gen": "свитка наделения оружия свойством",
+        "dat": "свитку наделения оружия свойством",
+        "acc": "свиток наделения оружия свойством",
+        "ins": "свитком наделения оружия свойством",
+        "prep": "свитке наделения оружия свойством"
+      },
+      "plural": {
+        "nom": "свитки наделения оружия свойством",
+        "gen": "свитков наделения оружия свойством",
+        "dat": "свиткам наделения оружия свойством",
+        "acc": "свитки наделения оружия свойством",
+        "ins": "свитками наделения оружия свойством",
+        "prep": "свитках наделения оружия свойством"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_acquirement": {
+    "title": "Свиток приобретения",
+    "en": "scroll of acquirement",
+    "en_plural": "scrolls of acquirement",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток приобретения",
+        "gen": "свитка приобретения",
+        "dat": "свитку приобретения",
+        "acc": "свиток приобретения",
+        "ins": "свитком приобретения",
+        "prep": "свитке приобретения"
+      },
+      "plural": {
+        "nom": "свитки приобретения",
+        "gen": "свитков приобретения",
+        "dat": "свиткам приобретения",
+        "acc": "свитки приобретения",
+        "ins": "свитками приобретения",
+        "prep": "свитках приобретения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_fog": {
+    "title": "Свиток тумана",
+    "en": "scroll of fog",
+    "en_plural": "scrolls of fog",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток тумана",
+        "gen": "свитка тумана",
+        "dat": "свитку тумана",
+        "acc": "свиток тумана",
+        "ins": "свитком тумана",
+        "prep": "свитке тумана"
+      },
+      "plural": {
+        "nom": "свитки тумана",
+        "gen": "свитков тумана",
+        "dat": "свиткам тумана",
+        "acc": "свитки тумана",
+        "ins": "свитками тумана",
+        "prep": "свитках тумана"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_silence": {
+    "title": "Свиток тишины",
+    "en": "scroll of silence",
+    "en_plural": "scrolls of silence",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток тишины",
+        "gen": "свитка тишины",
+        "dat": "свитку тишины",
+        "acc": "свиток тишины",
+        "ins": "свитком тишины",
+        "prep": "свитке тишины"
+      },
+      "plural": {
+        "nom": "свитки тишины",
+        "gen": "свитков тишины",
+        "dat": "свиткам тишины",
+        "acc": "свитки тишины",
+        "ins": "свитками тишины",
+        "prep": "свитках тишины"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_immolation": {
+    "title": "Свиток воспламенения",
+    "en": "scroll of immolation",
+    "en_plural": "scrolls of immolation",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток воспламенения",
+        "gen": "свитка воспламенения",
+        "dat": "свитку воспламенения",
+        "acc": "свиток воспламенения",
+        "ins": "свитком воспламенения",
+        "prep": "свитке воспламенения"
+      },
+      "plural": {
+        "nom": "свитки воспламенения",
+        "gen": "свитков воспламенения",
+        "dat": "свиткам воспламенения",
+        "acc": "свитки воспламенения",
+        "ins": "свитками воспламенения",
+        "prep": "свитках воспламенения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_poison": {
+    "title": "Свиток яда",
+    "en": "scroll of poison",
+    "en_plural": "scrolls of poison",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток яда",
+        "gen": "свитка яда",
+        "dat": "свитку яда",
+        "acc": "свиток яда",
+        "ins": "свитком яда",
+        "prep": "свитке яда"
+      },
+      "plural": {
+        "nom": "свитки яда",
+        "gen": "свитков яда",
+        "dat": "свиткам яда",
+        "acc": "свитки яда",
+        "ins": "свитками яда",
+        "prep": "свитках яда"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_vulnerability": {
+    "title": "Свиток уязвимости",
+    "en": "scroll of vulnerability",
+    "en_plural": "scrolls of vulnerability",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток уязвимости",
+        "gen": "свитка уязвимости",
+        "dat": "свитку уязвимости",
+        "acc": "свиток уязвимости",
+        "ins": "свитком уязвимости",
+        "prep": "свитке уязвимости"
+      },
+      "plural": {
+        "nom": "свитки уязвимости",
+        "gen": "свитков уязвимости",
+        "dat": "свиткам уязвимости",
+        "acc": "свитки уязвимости",
+        "ins": "свитками уязвимости",
+        "prep": "свитках уязвимости"
+      }
+    },
+    "review": "draft"
+  },
+  "item.scroll_of_torment": {
+    "title": "Свиток мучения",
+    "en": "scroll of torment",
+    "en_plural": "scrolls of torment",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "свиток мучения",
+        "gen": "свитка мучения",
+        "dat": "свитку мучения",
+        "acc": "свиток мучения",
+        "ins": "свитком мучения",
+        "prep": "свитке мучения"
+      },
+      "plural": {
+        "nom": "свитки мучения",
+        "gen": "свитков мучения",
+        "dat": "свиткам мучения",
+        "acc": "свитки мучения",
+        "ins": "свитками мучения",
+        "prep": "свитках мучения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_flame": {
+    "title": "Палочка пламени",
+    "en": "wand of flame",
+    "en_plural": "wands of flame",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка пламени",
+        "gen": "палочки пламени",
+        "dat": "палочке пламени",
+        "acc": "палочку пламени",
+        "ins": "палочкой пламени",
+        "prep": "палочке пламени"
+      },
+      "plural": {
+        "nom": "палочки пламени",
+        "gen": "палочек пламени",
+        "dat": "палочкам пламени",
+        "acc": "палочки пламени",
+        "ins": "палочками пламени",
+        "prep": "палочках пламени"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_paralysis": {
+    "title": "Палочка паралича",
+    "en": "wand of paralysis",
+    "en_plural": "wands of paralysis",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка паралича",
+        "gen": "палочки паралича",
+        "dat": "палочке паралича",
+        "acc": "палочку паралича",
+        "ins": "палочкой паралича",
+        "prep": "палочке паралича"
+      },
+      "plural": {
+        "nom": "палочки паралича",
+        "gen": "палочек паралича",
+        "dat": "палочкам паралича",
+        "acc": "палочки паралича",
+        "ins": "палочками паралича",
+        "prep": "палочках паралича"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_polymorph": {
+    "title": "Палочка полиморфа",
+    "en": "wand of polymorph",
+    "en_plural": "wands of polymorph",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка полиморфа",
+        "gen": "палочки полиморфа",
+        "dat": "палочке полиморфа",
+        "acc": "палочку полиморфа",
+        "ins": "палочкой полиморфа",
+        "prep": "палочке полиморфа"
+      },
+      "plural": {
+        "nom": "палочки полиморфа",
+        "gen": "палочек полиморфа",
+        "dat": "палочкам полиморфа",
+        "acc": "палочки полиморфа",
+        "ins": "палочками полиморфа",
+        "prep": "палочках полиморфа"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_digging": {
+    "title": "Палочка копания",
+    "en": "wand of digging",
+    "en_plural": "wands of digging",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка копания",
+        "gen": "палочки копания",
+        "dat": "палочке копания",
+        "acc": "палочку копания",
+        "ins": "палочкой копания",
+        "prep": "палочке копания"
+      },
+      "plural": {
+        "nom": "палочки копания",
+        "gen": "палочек копания",
+        "dat": "палочкам копания",
+        "acc": "палочки копания",
+        "ins": "палочками копания",
+        "prep": "палочках копания"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_acid": {
+    "title": "Палочка кислоты",
+    "en": "wand of acid",
+    "en_plural": "wands of acid",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка кислоты",
+        "gen": "палочки кислоты",
+        "dat": "палочке кислоты",
+        "acc": "палочку кислоты",
+        "ins": "палочкой кислоты",
+        "prep": "палочке кислоты"
+      },
+      "plural": {
+        "nom": "палочки кислоты",
+        "gen": "палочек кислоты",
+        "dat": "палочкам кислоты",
+        "acc": "палочки кислоты",
+        "ins": "палочками кислоты",
+        "prep": "палочках кислоты"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_iceblast": {
+    "title": "Палочка ледяного взрыва",
+    "en": "wand of iceblast",
+    "en_plural": "wands of iceblast",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка ледяного взрыва",
+        "gen": "палочки ледяного взрыва",
+        "dat": "палочке ледяного взрыва",
+        "acc": "палочку ледяного взрыва",
+        "ins": "палочкой ледяного взрыва",
+        "prep": "палочке ледяного взрыва"
+      },
+      "plural": {
+        "nom": "палочки ледяного взрыва",
+        "gen": "палочек ледяного взрыва",
+        "dat": "палочкам ледяного взрыва",
+        "acc": "палочки ледяного взрыва",
+        "ins": "палочками ледяного взрыва",
+        "prep": "палочках ледяного взрыва"
+      }
+    },
+    "review": "draft"
+  },
+  "item.wand_of_light": {
+    "title": "Палочка света",
+    "en": "wand of light",
+    "en_plural": "wands of light",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "палочка света",
+        "gen": "палочки света",
+        "dat": "палочке света",
+        "acc": "палочку света",
+        "ins": "палочкой света",
+        "prep": "палочке света"
+      },
+      "plural": {
+        "nom": "палочки света",
+        "gen": "палочек света",
+        "dat": "палочкам света",
+        "acc": "палочки света",
+        "ins": "палочками света",
+        "prep": "палочках света"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring": {
+    "title": "Кольцо",
+    "en": "ring",
+    "en_plural": "rings",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо",
+        "gen": "кольца",
+        "dat": "кольцу",
+        "acc": "кольцо",
+        "ins": "кольцом",
+        "prep": "кольце"
+      },
+      "plural": {
+        "nom": "кольца",
+        "gen": "колец",
+        "dat": "кольцам",
+        "acc": "кольца",
+        "ins": "кольцами",
+        "prep": "кольцах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_protection": {
+    "title": "Кольцо защиты",
+    "en": "ring of protection",
+    "en_plural": "rings of protection",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо защиты",
+        "gen": "кольца защиты",
+        "dat": "кольцу защиты",
+        "acc": "кольцо защиты",
+        "ins": "кольцом защиты",
+        "prep": "кольце защиты"
+      },
+      "plural": {
+        "nom": "кольца защиты",
+        "gen": "колец защиты",
+        "dat": "кольцам защиты",
+        "acc": "кольца защиты",
+        "ins": "кольцами защиты",
+        "prep": "кольцах защиты"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_evasion": {
+    "title": "Кольцо уклонения",
+    "en": "ring of evasion",
+    "en_plural": "rings of evasion",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо уклонения",
+        "gen": "кольца уклонения",
+        "dat": "кольцу уклонения",
+        "acc": "кольцо уклонения",
+        "ins": "кольцом уклонения",
+        "prep": "кольце уклонения"
+      },
+      "plural": {
+        "nom": "кольца уклонения",
+        "gen": "колец уклонения",
+        "dat": "кольцам уклонения",
+        "acc": "кольца уклонения",
+        "ins": "кольцами уклонения",
+        "prep": "кольцах уклонения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_strength": {
+    "title": "Кольцо силы",
+    "en": "ring of strength",
+    "en_plural": "rings of strength",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо силы",
+        "gen": "кольца силы",
+        "dat": "кольцу силы",
+        "acc": "кольцо силы",
+        "ins": "кольцом силы",
+        "prep": "кольце силы"
+      },
+      "plural": {
+        "nom": "кольца силы",
+        "gen": "колец силы",
+        "dat": "кольцам силы",
+        "acc": "кольца силы",
+        "ins": "кольцами силы",
+        "prep": "кольцах силы"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_intelligence": {
+    "title": "Кольцо интеллекта",
+    "en": "ring of intelligence",
+    "en_plural": "rings of intelligence",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо интеллекта",
+        "gen": "кольца интеллекта",
+        "dat": "кольцу интеллекта",
+        "acc": "кольцо интеллекта",
+        "ins": "кольцом интеллекта",
+        "prep": "кольце интеллекта"
+      },
+      "plural": {
+        "nom": "кольца интеллекта",
+        "gen": "колец интеллекта",
+        "dat": "кольцам интеллекта",
+        "acc": "кольца интеллекта",
+        "ins": "кольцами интеллекта",
+        "prep": "кольцах интеллекта"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_dexterity": {
+    "title": "Кольцо ловкости",
+    "en": "ring of dexterity",
+    "en_plural": "rings of dexterity",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо ловкости",
+        "gen": "кольца ловкости",
+        "dat": "кольцу ловкости",
+        "acc": "кольцо ловкости",
+        "ins": "кольцом ловкости",
+        "prep": "кольце ловкости"
+      },
+      "plural": {
+        "nom": "кольца ловкости",
+        "gen": "колец ловкости",
+        "dat": "кольцам ловкости",
+        "acc": "кольца ловкости",
+        "ins": "кольцами ловкости",
+        "prep": "кольцах ловкости"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_fire": {
+    "title": "Кольцо огня",
+    "en": "ring of fire",
+    "en_plural": "rings of fire",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо огня",
+        "gen": "кольца огня",
+        "dat": "кольцу огня",
+        "acc": "кольцо огня",
+        "ins": "кольцом огня",
+        "prep": "кольце огня"
+      },
+      "plural": {
+        "nom": "кольца огня",
+        "gen": "колец огня",
+        "dat": "кольцам огня",
+        "acc": "кольца огня",
+        "ins": "кольцами огня",
+        "prep": "кольцах огня"
+      }
+    },
+    "review": "draft"
+  },
+  "item.ring_of_ice": {
+    "title": "Кольцо льда",
+    "en": "ring of ice",
+    "en_plural": "rings of ice",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "кольцо льда",
+        "gen": "кольца льда",
+        "dat": "кольцу льда",
+        "acc": "кольцо льда",
+        "ins": "кольцом льда",
+        "prep": "кольце льда"
+      },
+      "plural": {
+        "nom": "кольца льда",
+        "gen": "колец льда",
+        "dat": "кольцам льда",
+        "acc": "кольца льда",
+        "ins": "кольцами льда",
+        "prep": "кольцах льда"
+      }
+    },
+    "review": "draft"
+  },
+  "item.amulet": {
+    "title": "Амулет",
+    "en": "amulet",
+    "en_plural": "amulets",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "амулет",
+        "gen": "амулета",
+        "dat": "амулету",
+        "acc": "амулет",
+        "ins": "амулетом",
+        "prep": "амулете"
+      },
+      "plural": {
+        "nom": "амулеты",
+        "gen": "амулетов",
+        "dat": "амулетам",
+        "acc": "амулеты",
+        "ins": "амулетами",
+        "prep": "амулетах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.amulet_of_reflection": {
+    "title": "Амулет отражения",
+    "en": "amulet of reflection",
+    "en_plural": "amulets of reflection",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "амулет отражения",
+        "gen": "амулета отражения",
+        "dat": "амулету отражения",
+        "acc": "амулет отражения",
+        "ins": "амулетом отражения",
+        "prep": "амулете отражения"
+      },
+      "plural": {
+        "nom": "амулеты отражения",
+        "gen": "амулетов отражения",
+        "dat": "амулетам отражения",
+        "acc": "амулеты отражения",
+        "ins": "амулетами отражения",
+        "prep": "амулетах отражения"
+      }
+    },
+    "review": "draft"
+  },
+  "item.amulet_of_regeneration": {
+    "title": "Амулет регенерации",
+    "en": "amulet of regeneration",
+    "en_plural": "amulets of regeneration",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "амулет регенерации",
+        "gen": "амулета регенерации",
+        "dat": "амулету регенерации",
+        "acc": "амулет регенерации",
+        "ins": "амулетом регенерации",
+        "prep": "амулете регенерации"
+      },
+      "plural": {
+        "nom": "амулеты регенерации",
+        "gen": "амулетов регенерации",
+        "dat": "амулетам регенерации",
+        "acc": "амулеты регенерации",
+        "ins": "амулетами регенерации",
+        "prep": "амулетах регенерации"
+      }
+    },
+    "review": "draft"
+  },
+  "item.stone": {
+    "title": "Камень",
+    "en": "stone",
+    "en_plural": "stones",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "камень",
+        "gen": "камня",
+        "dat": "камню",
+        "acc": "камень",
+        "ins": "камнем",
+        "prep": "камне"
+      },
+      "plural": {
+        "nom": "камни",
+        "gen": "камней",
+        "dat": "камням",
+        "acc": "камни",
+        "ins": "камнями",
+        "prep": "камнях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.javelin": {
+    "title": "Дротик",
+    "en": "javelin",
+    "en_plural": "javelins",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "дротик",
+        "gen": "дротика",
+        "dat": "дротику",
+        "acc": "дротик",
+        "ins": "дротиком",
+        "prep": "дротике"
+      },
+      "plural": {
+        "nom": "дротики",
+        "gen": "дротиков",
+        "dat": "дротикам",
+        "acc": "дротики",
+        "ins": "дротиками",
+        "prep": "дротиках"
+      }
+    },
+    "review": "draft"
+  },
+  "item.throwing_net": {
+    "title": "Метательная сеть",
+    "en": "throwing net",
+    "en_plural": "throwing nets",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "метательная сеть",
+        "gen": "метательной сети",
+        "dat": "метательной сети",
+        "acc": "метательная сеть",
+        "ins": "метательной сетью",
+        "prep": "метательной сети"
+      },
+      "plural": {
+        "nom": "метательные сети",
+        "gen": "метательных сетей",
+        "dat": "метательным сетям",
+        "acc": "метательные сети",
+        "ins": "метательными сетями",
+        "prep": "метательных сетях"
+      }
+    },
+    "review": "draft"
+  },
+  "item.boomerang": {
+    "title": "Бумеранг",
+    "en": "boomerang",
+    "en_plural": "boomerangs",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "бумеранг",
+        "gen": "бумеранга",
+        "dat": "бумерангу",
+        "acc": "бумеранг",
+        "ins": "бумерангом",
+        "prep": "бумеранге"
+      },
+      "plural": {
+        "nom": "бумеранги",
+        "gen": "бумерангов",
+        "dat": "бумерангам",
+        "acc": "бумеранги",
+        "ins": "бумерангами",
+        "prep": "бумерангах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.dart": {
+    "title": "Игла",
+    "en": "dart",
+    "en_plural": "darts",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "игла",
+        "gen": "иглы",
+        "dat": "игле",
+        "acc": "иглу",
+        "ins": "иглой",
+        "prep": "игле"
+      },
+      "plural": {
+        "nom": "иглы",
+        "gen": "игл",
+        "dat": "иглам",
+        "acc": "иглы",
+        "ins": "иглами",
+        "prep": "иглах"
+      }
+    },
+    "review": "draft"
+  },
+  "item.gold_piece": {
+    "title": "Золотая монета",
+    "en": "gold piece",
+    "en_plural": "gold pieces",
+    "kind": "item",
+    "forms": {
+      "singular": {
+        "nom": "золотая монета",
+        "gen": "золотой монеты",
+        "dat": "золотой монете",
+        "acc": "золотая монету",
+        "ins": "золотой монетой",
+        "prep": "золотой монете"
+      },
+      "plural": {
+        "nom": "золотые монеты",
+        "gen": "золотых монет",
+        "dat": "золотым монетам",
+        "acc": "золотые монеты",
+        "ins": "золотыми монетами",
+        "prep": "золотых монетах"
+      }
+    },
+    "review": "draft"
+  }
+}
