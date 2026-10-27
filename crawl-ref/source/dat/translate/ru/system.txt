@@ -1,0 +1,589 @@
+# Generated from localization/ru/system-messages.json.
+%%%%
+Found @arg@.
+
+Найдено: @arg@.
+%%%%
+Found @arg@
+
+Найдено: @arg@
+%%%%
+Done.
+
+Готово.
+%%%%
+You cannot move away from @arg@!
+
+Вы не можете отойти от @arg@!
+%%%%
+You cannot move while held in a net.
+
+Вы не можете двигаться, пока запутаны в сети.
+%%%%
+You cannot move while caught in a web.
+
+Вы не можете двигаться, пока запутаны в паутине.
+%%%%
+Unknown command.
+
+Неизвестная команда.
+%%%%
+Unknown command, not repeating.
+
+Неизвестная команда; повтор отменён.
+%%%%
+Unknown command. (For a list of commands type <w>?\?</w>.)
+
+Неизвестная команда. Список команд: <w>?\?</w>.
+%%%%
+Nothing happens.
+
+Ничего не происходит.
+%%%%
+You hear a distant slurping noise.
+
+Вдалеке слышно хлюпанье.
+%%%%
+You hear a grinding noise.
+
+Вы слышите скрежет.
+%%%%
+You enter the shallow water.
+
+Вы входите на мелководье.
+%%%%
+You enter the deep water.
+
+Вы входите в глубокую воду.
+%%%%
+You enter @arg@!
+
+Вы входите: @arg@!
+%%%%
+You climb downwards.
+
+Вы спускаетесь вниз.
+%%%%
+You climb upwards.
+
+Вы поднимаетесь вверх.
+%%%%
+There is a staircase leading down here.
+
+Здесь лестница вниз.
+%%%%
+There is a staircase leading up here.
+
+Здесь лестница вверх.
+%%%%
+There is a staircase leading out of the dungeon here.
+
+Здесь лестница из подземелья.
+%%%%
+You open the door.
+
+Вы открываете дверь.
+%%%%
+You close the door.
+
+Вы закрываете дверь.
+%%%%
+You push open the door.
+
+Вы толкаете дверь и открываете её.
+%%%%
+You open the gate.
+
+Вы открываете ворота.
+%%%%
+You close the gate.
+
+Вы закрываете ворота.
+%%%%
+You open the large door.
+
+Вы открываете большую дверь.
+%%%%
+You close the large door.
+
+Вы закрываете большую дверь.
+%%%%
+Which direction?
+
+В каком направлении?
+%%%%
+Drink which item (* to show all)?
+
+Какое зелье выпить? (* — показать все)
+%%%%
+Read which item (* to show all)?
+
+Какой свиток прочесть? (* — показать все)
+%%%%
+Use which ability? (? or * to list)
+
+Какую способность применить? (? или * — список)
+%%%%
+Cast which spell? (? or * to list)
+
+Какое заклинание сотворить? (? или * — список)
+%%%%
+Cast which spell?
+
+Какое заклинание сотворить?
+%%%%
+You don't know any spells.
+
+Вы не знаете заклинаний.
+%%%%
+You don't have enough magic to cast this spell.
+
+Для этого заклинания не хватает магии.
+%%%%
+You don't have enough magic to cast that spell.
+
+Для этого заклинания не хватает магии.
+%%%%
+You don't have enough magic to cast that spell!
+
+Для этого заклинания не хватает магии!
+%%%%
+You cannot cast spells while silenced!
+
+Нельзя колдовать под действием тишины!
+%%%%
+You cannot cast spells while confused.
+
+Нельзя колдовать в замешательстве.
+%%%%
+You can't see any susceptible monsters within range! (Use <w>Z</w> to cast anyway.)
+
+В пределах дальности нет подходящих видимых врагов! (<w>Z</w> — всё равно сотворить.)
+%%%%
+You can't see any susceptible monsters within range!
+
+В пределах дальности нет подходящих видимых врагов!
+%%%%
+You start memorising the spell.
+
+Вы начинаете учить заклинание.
+%%%%
+You finish memorising @arg@.
+
+Вы выучили заклинание: @arg@.
+%%%%
+You memorise @arg@.
+
+Вы запоминаете заклинание: @arg@.
+%%%%
+You cannot memorise any of the available spells.
+
+Вы не можете выучить ни одно из доступных заклинаний.
+%%%%
+You cannot memorise this spell because @arg@
+
+Вы не можете выучить это заклинание: @arg@
+%%%%
+Your memory of @arg@ unravels.
+
+Вы забываете заклинание: @arg@.
+%%%%
+You feel forgetful for a moment.
+
+На миг вы становитесь забывчивее.
+%%%%
+You begin with the following spells memorised: @arg@
+
+Вы начинаете со следующими заклинаниями: @arg@
+%%%%
+You begin with the following equipment: @arg@
+
+Начальное снаряжение: @arg@
+%%%%
+You feel a surge of power.
+
+Вы ощущаете прилив силы.
+%%%%
+You feel a slight surge of power.
+
+Вы ощущаете небольшой прилив силы.
+%%%%
+You feel a strong surge of power!
+
+Вы ощущаете сильный прилив силы!
+%%%%
+You feel a huge surge of power!
+
+Вы ощущаете огромный прилив силы!
+%%%%
+You miscast @arg@.
+
+Вы допускаете осечку: @arg@.
+%%%%
+You miscast @arg@!
+
+Вы допускаете осечку: @arg@!
+%%%%
+The spell is quite dangerous to cast (miscast protection: @num@%). Continue anyway?
+
+Это заклинание опасно (защита от осечек: @num@%). Всё равно продолжить?
+%%%%
+You have reached level @num@, the highest you will ever reach!
+
+Вы достигли уровня @num@ — вашего предела!
+%%%%
+You have reached level 27, the final one!
+
+Вы достигли последнего, 27-го уровня!
+%%%%
+You feel more experienced!
+
+Вы становитесь опытнее!
+%%%%
+You feel a bit more experienced.
+
+Вы становитесь немного опытнее.
+%%%%
+You feel your magic capacity increase.
+
+Ваш запас магии увеличивается.
+%%%%
+You feel your magic capacity decrease.
+
+Ваш запас магии уменьшается.
+%%%%
+You feel your power returning.
+
+Ваша магическая энергия возвращается.
+%%%%
+You feel a bit better.
+
+Вам становится немного лучше.
+%%%%
+You feel much better.
+
+Вы чувствуете себя намного лучше.
+%%%%
+You feel extremely sick.
+
+Вы очень сильно страдаете от яда.
+%%%%
+You feel momentarily confused.
+
+На миг вы теряетесь.
+%%%%
+You feel drained.
+
+Вы чувствуете истощение.
+%%%%
+You feel invigorated.
+
+Вы чувствуете прилив бодрости.
+%%%%
+You feel less invigorated.
+
+Бодрость ослабевает.
+%%%%
+You feel yourself moving faster!
+
+Вы начинаете двигаться быстрее!
+%%%%
+You feel very mighty all of a sudden.
+
+Вас внезапно наполняет огромная сила.
+%%%%
+You feel agile all of a sudden.
+
+Вы внезапно становитесь ловче.
+%%%%
+You feel clever all of a sudden.
+
+Вы внезапно становитесь умнее.
+%%%%
+You feel strangely unstable.
+
+Вы ощущаете странную нестабильность.
+%%%%
+You feel strangely stable.
+
+Вы ощущаете странную устойчивость.
+%%%%
+You feel momentarily disoriented.
+
+На миг вы теряете ориентацию.
+%%%%
+You start putting on your armour.
+
+Вы начинаете надевать доспехи.
+%%%%
+You start removing your armour.
+
+Вы начинаете снимать доспехи.
+%%%%
+You start putting on your amulet.
+
+Вы начинаете надевать амулет.
+%%%%
+You start removing your amulet.
+
+Вы начинаете снимать амулет.
+%%%%
+You finish putting on @arg@.
+
+Вы надели @arg@.
+%%%%
+You finish taking off @arg@.
+
+Вы сняли @arg@.
+%%%%
+You feel protected from fire.
+
+Вы чувствуете защиту от огня.
+%%%%
+You feel protected from cold.
+
+Вы чувствуете защиту от холода.
+%%%%
+You feel protected from electricity.
+
+Вы чувствуете защиту от электричества.
+%%%%
+You feel more protected from fire.
+
+Защита от огня усиливается.
+%%%%
+You feel more protected from cold.
+
+Защита от холода усиливается.
+%%%%
+You feel more protected from electricity.
+
+Защита от электричества усиливается.
+%%%%
+You feel more protected from physical damage.
+
+Защита от физического урона усиливается.
+%%%%
+You feel less protected.
+
+Вы чувствуете себя менее защищённо.
+%%%%
+You must catch your breath between uses of this ability.
+
+Между применениями этой способности нужно перевести дух.
+%%%%
+This ability takes some time before being effective.
+
+Этой способности требуется время, чтобы подействовать.
+%%%%
+Using this ability will hurt you.
+
+Применение этой способности причинит вам урон.
+%%%%
+This ability causes exhaustion, and cannot be used when exhausted.
+
+Эта способность вызывает истощение и недоступна, пока вы истощены.
+%%%%
+This ability is instantaneous.
+
+Эта способность действует мгновенно.
+%%%%
+You can use this ability even if confused.
+
+Эту способность можно применять даже в замешательстве.
+%%%%
+no special abilities
+
+нет особых способностей
+%%%%
+No description found.
+
+Описание не найдено.
+%%%%
+Sacrifices cannot be taken back.
+
+От жертв нельзя отказаться впоследствии.
+%%%%
+You are not religious.
+
+Вы не поклоняетесь богу.
+%%%%
+You are not religious!
+
+Вы не поклоняетесь богу!
+%%%%
+You are not under penance.
+
+Вы не отбываете покаяние.
+%%%%
+@Arg@ welcomes you!
+
+@Arg@ приветствует вас!
+%%%%
+@Arg@ welcomes you back!
+
+@Arg@ приветствует ваше возвращение!
+%%%%
+@Arg@ is exalted by your worship.
+
+@Arg@ восхищается вашей верой.
+%%%%
+@Arg@ is pleased with you.
+
+@Arg@ доволен вами.
+%%%%
+@Arg@ is extremely pleased with you.
+
+@Arg@ чрезвычайно доволен вами.
+%%%%
+@Arg@ is greatly pleased with you.
+
+@Arg@ очень доволен вами.
+%%%%
+@Arg@ is most pleased with you.
+
+@Arg@ весьма доволен вами.
+%%%%
+@Arg@ is aware of your devotion.
+
+@Arg@ замечает вашу преданность.
+%%%%
+You feel a strong urge to attack something.
+
+Вам нестерпимо хочется кого-нибудь атаковать.
+%%%%
+You feel your anger nearly subside.
+
+Ваша ярость почти угасла.
+%%%%
+You feel a bit tired.
+
+Вы немного устали.
+%%%%
+You feel yourself come back to life.
+
+Вы чувствуете, как возвращаетесь к жизни.
+%%%%
+You swap places.
+
+Вы меняетесь местами.
+%%%%
+You swap places with @arg@.
+
+Вы меняетесь местами с @arg@.
+%%%%
+You hear a shout!
+
+Вы слышите крик!
+%%%%
+You shout!
+
+Вы кричите!
+%%%%
+Your surroundings suddenly seem different.
+
+Всё вокруг внезапно меняется.
+%%%%
+You feel aware of your surroundings.
+
+Вы лучше осознаёте, что находится вокруг.
+%%%%
+Your attacks no longer feel as feeble.
+
+Ваши атаки больше не кажутся такими слабыми.
+%%%%
+You feel less contaminated with magical energies.
+
+Магическое загрязнение ослабевает.
+%%%%
+You feel slightly less contaminated with magical energies.
+
+Магическое загрязнение немного ослабевает.
+%%%%
+You are fully healed.
+
+Вы полностью восстановили здоровье.
+%%%%
+Your magic is already full.
+
+Ваш запас магии уже полон.
+%%%%
+You have nothing to do.
+
+Сейчас делать нечего.
+%%%%
+There are no items here.
+
+Здесь нет предметов.
+%%%%
+There is nothing here.
+
+Здесь ничего нет.
+%%%%
+You have nothing to drop.
+
+Вам нечего выбросить.
+%%%%
+Your pack is full.
+
+Ваш рюкзак полон.
+%%%%
+You have no items to read.
+
+Вам нечего читать.
+%%%%
+You have no potions to quaff.
+
+У вас нет зелий.
+%%%%
+You have no items to evoke.
+
+У вас нет предметов для применения.
+%%%%
+You don't have anything to throw.
+
+Вам нечего метать.
+%%%%
+You don't have anything to fire.
+
+Вам нечем стрелять.
+%%%%
+You can't see any enemies this would affect.
+
+Вы не видите врагов, на которых это подействует.
+%%%%
+You cannot shoot at yourself!
+
+Нельзя стрелять в себя!
+%%%%
+Out of range.
+
+Слишком далеко.
+%%%%
+That is beyond the maximum range.
+
+Это за пределами максимальной дальности.
+%%%%
+There is no target in range.
+
+В пределах дальности нет цели.
+%%%%
+You stop ascending the stairs.
+
+Вы прекращаете подъём.
+%%%%
+You stop descending the stairs.
+
+Вы прекращаете спуск.
+%%%%
+You stop memorising the spell.
+
+Вы прекращаете изучение заклинания.
+%%%%
+You stop putting on your armour.
+
+Вы прекращаете надевать доспехи.
+%%%%
+You stop removing your armour.
+
+Вы прекращаете снимать доспехи.

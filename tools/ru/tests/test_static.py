@@ -12,6 +12,12 @@ from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, to
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_system_messages_preserve_substitutions(self):
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        for source, target in messages.items():
+            self.assertEqual(tokens(source), tokens(target), source)
+            self.assertRegex(target, r"[А-Яа-яЁё]", source)
+
     def test_web_controls_keep_protocol_values_and_hotkeys(self):
         class Controls(HTMLParser):
             def __init__(self):

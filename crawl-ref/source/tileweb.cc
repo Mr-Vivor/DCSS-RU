@@ -1349,7 +1349,7 @@ void TilesFramework::_send_player(bool force_full)
                 (int8_t) you.quiver_action.get()->get_item(), "quiver_item");
 
     _update_string(force_full, c.quiver_desc,
-                you.quiver_action.get()->quiver_description().to_colour_string(LIGHTGRAY),
+                localise(you.quiver_action.get()->quiver_description()).to_colour_string(LIGHTGRAY),
                 "quiver_desc");
 
     item_def* weapon = you.weapon();
@@ -1359,7 +1359,7 @@ void TilesFramework::_send_player(bool force_full)
     _update_int(force_full, c.offhand_weapon, (bool) offhand, "offhand_weapon");
 
     _update_string(force_full, c.unarmed_attack,
-                   you.unarmed_attack_name(), "unarmed_attack");
+                   localise(you.unarmed_attack_name()), "unarmed_attack");
     _update_int(force_full, c.weapon_colour, _stats_weapon_colour(weapon),
                 "weapon_colour");
     _update_int(force_full, c.offhand_weapon_colour,

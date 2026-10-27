@@ -190,7 +190,8 @@ void init_localisation()
         // escape characters that mean something to regex
         pattern = escape_regex_specials(pattern);
         pattern = replace_all(pattern, "@xx@", "([A-Z][A-Za-z])");
-        pattern = player_name_patt.replace(pattern, "([A-Za-z0-9._ -]+)");
+        // Player names can contain Cyrillic; preserve their UTF-8 bytes.
+        pattern = player_name_patt.replace(pattern, "([^!?{}()<>]+)");
         pattern = num_arg_patt.replace(pattern, "([\\+\\-]?[0-9]+)");
         // float is problematic because decimal point may already be changed by user's locale
         //pattern = float_arg_patt.replace(pattern, "([\\+|\\-]?[0-9]*[\\.,][0-9]+)");

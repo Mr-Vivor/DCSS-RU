@@ -89,6 +89,9 @@ def outputs(entities):
             term_entries["the " + english] = russian if category == "gods" else russian.lower()
             term_entries["a " + english] = russian if category == "gods" else russian.lower()
     result[ROOT / "crawl-ref/source/dat/translate/ru/terms.txt"] = serialize_db(term_entries)
+    system_messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+    result[ROOT / "crawl-ref/source/dat/translate/ru/system.txt"] = write_db(system_messages,
+        "Generated from localization/ru/system-messages.json.")
     static = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
     static_entries = {}
     for filename in STATIC_FILES:
@@ -98,9 +101,9 @@ def outputs(entities):
             raise ValueError(f"Missing static translations in {filename}: {sorted(missing)}")
         static_entries.update(static[filename])
     # The original hand-edited translations and morphological registry win.
-    reserved = set(term_entries) | set(game_entries(entities))
+    reserved = set(term_entries) | set(game_entries(entities)) | set(system_messages)
     for path in (ROOT / "crawl-ref/source/dat/translate/ru").glob("*.txt"):
-        if path.name not in ("entities.txt", "terms.txt", "static.txt"):
+        if path.name not in ("entities.txt", "terms.txt", "static.txt", "system.txt"):
             reserved.update(read_db(path, True))
     static_entries = {key: value for key, value in static_entries.items() if key not in reserved}
     def quoted(value):
@@ -171,6 +174,7 @@ def outputs(entities):
                  additional_terms={group: len(values) for group, values in terms.items()},
                  static_catalogs={name: len(static[name]) for name in STATIC_FILES},
                  static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
+                 additional_system_messages=len(system_messages),
                  descriptions={name: len(descriptions.get(name) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{name}.txt")) for name in DESCRIPTION_FILES},
                  help_databases={name: len(read_db(ROOT / f"crawl-ref/source/dat/database/ru/{name}.txt")) for name in DATABASE_FILES})
     result[ROOT / "localization/ru/coverage.json"] = json.dumps(stats, ensure_ascii=False, indent=2) + "\n"

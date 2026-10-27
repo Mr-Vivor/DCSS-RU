@@ -84,6 +84,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("the Trog") == "Трог");
     CHECK(localise("Shock") == "Электрический разряд");
     CHECK(localise("You hear a click...") == "Вы слышите щелчок...");
+    CHECK(localise("Welcome, Vivor.") == "Добро пожаловать, Vivor.");
+    CHECK(localise("Welcome, Спригган.") == "Добро пожаловать, Спригган.");
+    CHECK(localise("Found a staircase leading out of the dungeon.")
+          == "Найдено: лестница из подземелья.");
+    CHECK(localise("Hello, welcome to Dungeon Crawl Stone Soup 0.35-a0-1349-g89dca86ecd!")
+          == "Добро пожаловать в Dungeon Crawl Stone Soup 0.35-a0-1349-g89dca86ecd!");
     CHECK(localise("Lesson 5: Gods and Divine Abilities")
           == "Урок 5: Боги и божественные способности");
     ui::Text lesson("Lesson 1: Movement and Exploration");

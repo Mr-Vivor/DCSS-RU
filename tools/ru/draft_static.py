@@ -88,6 +88,10 @@ def translate_batch(batch):
         if tokens(original) != tokens(value):
             from collections import Counter
             raise ValueError(f"Token mismatch: {original[:90]}\nMissing: {Counter(tokens(original))-Counter(tokens(value))}\nAdded: {Counter(tokens(value))-Counter(tokens(original))}")
+        if not value.strip():
+            if len(batch) > 1:
+                return [translate_batch([text])[0] for text in batch]
+            raise ValueError("Empty draft: " + original)
         out.append(value.strip())
     return out
 
