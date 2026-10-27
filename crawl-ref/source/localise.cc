@@ -551,6 +551,8 @@ static string _get_correct_plural_form(const map<string, string>& params)
         if (!num_str.empty())
             return "";
         num_str = param.second;
+        if (num_str[0] == '+')
+            num_str.erase(0, 1);
     }
     if (num_str.empty())
         return "";
