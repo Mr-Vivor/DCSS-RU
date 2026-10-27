@@ -57,10 +57,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("flurble or blorb") == "flurble or blorb");
     CHECK(localise("flurble, blorb, and zorb") == "flurble, blorb, and zorb");
     CHECK(localise("flurble; blorb; and zorb") == "flurble; blorb; and zorb");
-    CHECK(localise("a dagger and a club") == "кинжал и дубина");
+    CHECK(localise("a dagger and a club") == "кинжал и дубинка");
     CHECK(localise("a dagger and blorb") == "кинжал и blorb");
-    CHECK(localise("a dagger, a club, and a rat") == "кинжал, дубина и крыса");
-    CHECK(localise("кинжал and дубина") == "кинжал и дубина");
+    CHECK(localise("a dagger, a club, and a rat") == "кинжал, дубинка и крыса");
+    CHECK(localise("кинжал and дубинка") == "кинжал и дубинка");
     CHECK(localise("+0 buckler of the Valley {Will+++}")
           == "+0 buckler of the Valley {Воля+++}");
     CHECK(localise("Will/2") == "Воля/2");
