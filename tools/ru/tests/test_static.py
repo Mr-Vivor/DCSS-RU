@@ -64,6 +64,13 @@ class StaticTranslationTests(unittest.TestCase):
             for value in entries:
                 self.assertRegex(value, r"[А-Яа-яЁё]")
 
+    def test_literal_tutorial_script_messages_are_translated(self):
+        messages = read_db(ROOT / "crawl-ref/source/dat/translate/ru/messages.txt", True)
+        for path in (ROOT / "crawl-ref/source/dat/des/tutorial").glob("lesson*.des"):
+            for literal in re.findall(r'crawl\.mpr\("([^"\n]+)"\)', path.read_text(encoding="utf8")):
+                self.assertIn(literal, messages, str(path))
+                self.assertRegex(messages[literal], r"[А-Яа-яЁё]")
+
     def test_canonical_transliterations_and_wiki_descriptions(self):
         terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
         self.assertEqual(terms["species"]["Spriggan"], "Спригган")

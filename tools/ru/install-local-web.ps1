@@ -7,7 +7,7 @@ $cacheRoot = Join-Path $Workspace '.tools/cygwin-cache'
 $setupPath = Join-Path $Workspace '.tools/setup-x86_64.exe'
 New-Item -ItemType Directory -Force $cacheRoot | Out-Null
 Invoke-WebRequest -Uri 'https://cygwin.com/setup-x86_64.exe' -OutFile $setupPath
-$packages = 'gcc-g++,make,python3,python3-pip,python3-devel,liblua5.4-devel,libncurses-devel,libsqlite3-devel,zlib-devel,libpng-devel,flex,bison,pkg-config,git,unzip'
+$packages = 'gcc-g++,make,python3,python3-pip,python3-devel,libncurses-devel,libsqlite3-devel,zlib-devel,libpng-devel,flex,bison,pkg-config,git,unzip'
 $process = Start-Process -FilePath $setupPath -WindowStyle Hidden -Wait -PassThru -ArgumentList @(
     '--quiet-mode', '--no-admin', '--no-shortcuts', '--root', $runtimeRoot,
     '--local-package-dir', $cacheRoot,

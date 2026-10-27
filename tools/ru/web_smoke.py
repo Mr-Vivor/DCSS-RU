@@ -2,6 +2,7 @@
 from pathlib import Path
 import os
 import subprocess
+import shutil
 import time
 import urllib.request
 from playwright.sync_api import sync_playwright
@@ -35,12 +36,21 @@ def main():
                         raise
                     time.sleep(0.25)
             with sync_playwright() as playwright:
-                browser = playwright.chromium.launch()
+                # Hosted runners already include Chrome. Reuse it instead of
+                # reinstalling Chromium and unrelated font packages each push.
+                browser = playwright.chromium.launch(
+                    channel="chrome" if shutil.which("google-chrome") else None)
                 page = browser.new_page(viewport={"width": 1280, "height": 900})
                 errors = []
                 page.on("pageerror", lambda error: errors.append(str(error)))
                 page.goto("http://127.0.0.1:8080/")
-                page.wait_for_function("document.body.innerText.includes('Введите имя')", timeout=60000)
+                try:
+                    page.wait_for_function("document.body.innerText.includes('Введите имя')", timeout=60000)
+                except Exception:
+                    page.screenshot(path=str(ARTIFACTS / "startup-failure.png"), full_page=True)
+                    (ARTIFACTS / "startup-failure.txt").write_text(
+                        page.locator("body").inner_text() + "\n" + "\n".join(errors), encoding="utf8")
+                    raise
                 page.screenshot(path=str(ARTIFACTS / "russian-startup.png"), full_page=True)
                 (ARTIFACTS / "startup.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                 assert "Обучение" in page.locator("body").inner_text()

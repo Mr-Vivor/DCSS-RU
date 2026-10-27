@@ -83,6 +83,7 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("Barachi") == "Барачи");
     CHECK(localise("the Trog") == "Трог");
     CHECK(localise("Shock") == "Электрический разряд");
+    CHECK(localise("You hear a click...") == "Вы слышите щелчок...");
     CHECK(localise("Lesson 5: Gods and Divine Abilities")
           == "Урок 5: Боги и божественные способности");
     ui::Text lesson("Lesson 1: Movement and Exploration");

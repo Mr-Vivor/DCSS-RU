@@ -109,7 +109,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y build-essential libncursesw5-dev bison flex liblua5.4-dev libsqlite3-dev libpng-dev zlib1g-dev pkg-config
           python -m pip install -r crawl-ref/source/webserver/requirements/base.py3.txt playwright
-          python -m playwright install --with-deps chromium
+          if ! command -v google-chrome >/dev/null; then
+            python -m playwright install --with-deps chromium
+          fi
       - uses: hendrikmuhs/ccache-action@v1.2
         with:
           key: ru-webtiles
