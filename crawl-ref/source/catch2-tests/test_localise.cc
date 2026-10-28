@@ -3,7 +3,9 @@
 #include "AppHdr.h"
 #include "database.h"
 #include "artefact.h"
+#include "clua.h"
 #include "describe.h"
+#include "l-libs.h"
 #include "initfile.h"
 #include "localise.h"
 #include "options.h"
@@ -145,6 +147,7 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
 TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-file]")
 {
     russian_localisation language;
+    cluaopen_you(clua.state());
     CHECK(getLongDescription("ring of willpower").find("Волю") != string::npos);
     CHECK(getLongDescription("potion of invisibility").find("[[player invis desc]]") == string::npos);
     CHECK(getLongDescription("potion of invisibility").find("Стоя в воде") != string::npos);
@@ -153,7 +156,7 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
 
     const species_type old_species = you.species;
     you.species = SP_DJINNI;
-    const string djinni = getLongDescription("Spellcasting");
+    const string djinni = trimmed_string(getLongDescription("Spellcasting"));
     CHECK(djinni == "Навык Колдовства повышает вероятность успешного сотворения и силу всех заклинаний.");
     CHECK(getLongDescription("Invocations").find("запас магии") == string::npos);
     you.species = SP_HUMAN;
@@ -165,8 +168,8 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     // Exercise the real artifact formatter, including long wrapped text and
     // labels. The generated description must already be Russian at this stage.
     item_def item;
-    item.base_type = OBJ_JEWELLERY;
-    item.sub_type = RING_PROTECTION;
+    item.base_type = OBJ_WEAPONS;
+    item.sub_type = WPN_DAGGER;
     item.quantity = 1;
     item.flags |= ISFLAG_RANDART | ISFLAG_IDENTIFIED;
     CrawlVector &props = item.props[ARTEFACT_PROPS_KEY].new_vector(SV_SHORT);
@@ -181,6 +184,7 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     desc_randart_props(item, lines);
     REQUIRE(lines.size() >= 3);
     const string properties = join_strings(lines.begin(), lines.end(), "\n");
+    INFO(properties);
     CHECK(properties.find("Бр+4:") != string::npos);
     CHECK(properties.find("Изменяет вашу броню (+4).") != string::npos);
     CHECK(properties.find("Значительно повышает вашу Волю.") != string::npos);
