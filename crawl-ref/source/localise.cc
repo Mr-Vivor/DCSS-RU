@@ -796,7 +796,10 @@ static string _localise_string(const string& s, bool fallback_en)
 
     if (trimmed.length() != s.length())
     {
-        result = _localise_string(trimmed, fallback_en);
+        // A failed lookup of the trimmed text must not return the English
+        // fallback yet: parameterised prompts may include a trailing space in
+        // their dictionary key and can only match the original string below.
+        result = _localise_string(trimmed, false);
         if (!result.empty())
             return replace_first(s, trimmed, result);
     }

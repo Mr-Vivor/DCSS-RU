@@ -213,6 +213,10 @@ TEST_CASE("Russian runtime comparisons describe the direction of stat changes", 
           == "Вероятность неудачи при колдовстве уменьшилась бы на величину до 3 процентных пунктов ('!' — подробнее).");
     CHECK(localise("Enter a base skill target for Short Blades: ")
           == "Укажите целевой базовый уровень навыка «Короткие клинки»: ");
+    CHECK(localise("Enter a skill target for Armour: ")
+          == "Укажите целевой уровень навыка «Доспехи»: ");
+    CHECK(localise("  Human  ") == "  Человек  ");
+    CHECK(localise("  flurble blorb  ") == "  flurble blorb  ");
     CHECK(localise("Spell refund chance: 25% (max 50%)")
           == "Шанс вернуть затраченную магию: 25% (максимум 50%)");
 
