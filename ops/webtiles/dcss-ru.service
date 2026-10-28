@@ -1,0 +1,26 @@
+[Unit]
+Description=DCSS-RU WebTiles
+After=network.target
+
+[Service]
+Type=simple
+User=dcssru
+Group=dcssru
+WorkingDirectory=/srv/dcss-ru/current
+ExecStart=/srv/dcss-ru/venv/bin/python webserver/server.py
+Environment=LANG=C.UTF-8
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=45
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/srv/dcss-ru/shared
+MemoryMax=1200M
+TasksMax=128
+
+[Install]
+WantedBy=multi-user.target

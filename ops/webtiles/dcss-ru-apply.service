@@ -1,0 +1,6 @@
+[Unit]
+Description=Apply a tested DCSS-RU release when no games are running
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/dcss-ru-activate --pending

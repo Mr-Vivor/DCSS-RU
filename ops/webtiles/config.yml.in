@@ -1,0 +1,45 @@
+# Generated per release so asset URLs change even for translation-only updates.
+dgl_mode: true
+bind_address: 127.0.0.1
+bind_port: 8088
+http_xheaders: true
+server_id: DCSS-RU
+server_name: DCSS-RU
+password_db: /srv/dcss-ru/shared/accounts.db3
+settings_db: /srv/dcss-ru/shared/settings.db3
+dgl_status_file: /srv/dcss-ru/shared/status
+crypt_algorithm: '6'
+crypt_salt_length: 16
+max_passwd_length: 128
+allow_password_reset: false
+init_player_program: /srv/dcss-ru/bin/init-player.py
+server_socket_path: /srv/dcss-ru/shared/sockets
+enable_ttyrecs: false
+max_connections: 30
+use_game_yaml: false
+games:
+  dcss-ru: &dcss_ru
+    name: 'DCSS-RU — Подземелье'
+    crawl_binary: '@RELEASE@/crawl'
+    dir_path: '@RELEASE@'
+    client_path: '@RELEASE@/webserver/game_data'
+    rcfile_path: /srv/dcss-ru/shared/rc
+    macro_path: /srv/dcss-ru/shared/rc
+    morgue_path: /srv/dcss-ru/shared/morgues/%n
+    socket_path: /srv/dcss-ru/shared/sockets
+    inprogress_path: /srv/dcss-ru/shared/running
+    ttyrec_path: /srv/dcss-ru/shared/ttyrecs/%n
+    options:
+      - -extra-opt-last
+      - 'save_dir = /srv/dcss-ru/shared/saves/%n'
+      - -extra-opt-first
+      - 'language = ru'
+  tutorial-ru:
+    <<: *dcss_ru
+    name: 'DCSS-RU — Обучение'
+    options:
+      - -tutorial
+      - -extra-opt-last
+      - 'save_dir = /srv/dcss-ru/shared/saves/%n'
+      - -extra-opt-first
+      - 'language = ru'

@@ -1,0 +1,10 @@
+[Unit]
+Description=Check deferred DCSS-RU updates
+
+[Timer]
+OnBootSec=90
+OnUnitActiveSec=60
+Unit=dcss-ru-apply.service
+
+[Install]
+WantedBy=timers.target
