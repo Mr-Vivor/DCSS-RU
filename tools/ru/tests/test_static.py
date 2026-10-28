@@ -9,11 +9,22 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, message_syntax_matches
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, reviewed_random_messages, message_syntax_matches
 from message_catalog import SOURCE, catalog as message_catalog, coverage as message_coverage, translations
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_random_messages_preserve_choices_weights_and_recursive_references(self):
+        data = reviewed_random_messages()
+        original = read_db(ROOT / "crawl-ref/source/dat/database/miscname.txt")
+        self.assertEqual(set(data["miscname"]), set(original))
+        for filename, entries in data.items():
+            generated = read_db(ROOT / f"crawl-ref/source/dat/database/ru/{filename}.txt")
+            for key, entry in entries.items():
+                self.assertEqual(generated[key], entry["text"], key)
+                for variant in entry["text"].split("\n\n"):
+                    self.assertRegex(variant, r"[А-Яа-яЁё]", key)
+
     def test_context_review_marks_only_the_current_translations(self):
         review = json.loads((ROOT / "localization/ru/context-review.json").read_text(encoding="utf8"))
         data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))

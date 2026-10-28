@@ -103,6 +103,8 @@
 #include "mutation.h"
 #include "movement.h"
 #include "nearby-danger.h"
+#include "newgame.h"
+#include "newgame-def.h"
 #include "notes.h"
 #include "options.h"
 #include "output.h"
@@ -438,10 +440,12 @@ NORETURN static void _launch_game()
 
     if (!crawl_state.game_is_tutorial())
     {
-        msg::stream << "<yellow>Welcome" << (game_start? "" : " back") << ", "
-                    << you.your_name << " the "
-                    << species::name(you.species)
-                    << " " << get_job_name(you.char_class) << ".</yellow>";
+        newgame_def character;
+        character.name = you.your_name;
+        character.species = you.species;
+        character.job = you.char_class;
+        msg::stream << "<yellow>" << newgame_welcome(character, !game_start)
+                    << "</yellow>";
         // TODO: seeded sprint?
         if (crawl_state.type == GAME_TYPE_CUSTOM_SEED)
             msg::stream << endl << "<white>" << seed_description() << "</white>";

@@ -264,14 +264,6 @@ Adventurer
 
 ? - Помощь
 %%%%
-Picks a random recommended species based on your current background choice.
-
-Случайный рекомендуемый вид для выбранной предыстории.
-%%%%
-Picks a random recommended background based on your current species choice.
-
-Случайная рекомендуемая предыстория для выбранного вида.
-%%%%
 Shuffles through random recommended character combinations until you accept one.
 
 Предлагает случайные рекомендуемые комбинации персонажа, пока вы не выберете подходящую.
@@ -316,33 +308,9 @@ Space - Pick species first
 
 "  Tab — "
 %%%%
-Picks a random species.
-
-Выбирает случайный вид.
-%%%%
-Picks a random background.
-
-Выбирает случайную предысторию.
-%%%%
 Shuffles through random character combinations until you accept one.
 
 Предлагает случайные комбинации персонажа, пока вы не выберете подходящую.
-%%%%
-Lets you change your species choice.
-
-Позволяет изменить выбор вида.
-%%%%
-Lets you change your background choice.
-
-Позволяет изменить выбранную предысторию.
-%%%%
-Lets you pick your background first.
-
-Позволяет сначала выбрать предысторию.
-%%%%
-Lets you pick your species first.
-
-Позволяет сначала выбрать свой вид.
 %%%%
 Play a new game with your previous choice.
 
@@ -488,10 +456,6 @@ Play a game with a custom seed for version @arg@.
 
 Игра с заданным зерном генерации для версии @arg@.
 %%%%
-Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
-
-0 — случайное зерно. [Tab]/[Shift-Tab] — переключить поле ввода.
-%%%%
 "Seed: "
 
 "Зерно: "
@@ -563,14 +527,6 @@ Select your previous sprint map and character
 Custom seed:
 
 Заданное зерно:
-%%%%
-You have a choice of lessons:
-
-У вас есть выбор уроков:
-%%%%
-You have a choice of maps:
-
-У вас есть выбор карт:
 %%%%
 Lesson 1: Movement and Exploration
 

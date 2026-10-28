@@ -167,8 +167,26 @@ string newgame_char_description(const newgame_def& ng)
                + localise(get_job_name(ng.job));
 }
 
-static string _welcome(const newgame_def& ng)
+string newgame_welcome(const newgame_def& ng, bool returning)
 {
+    if (localisation_active() && Options.language == lang_t::RU)
+    {
+        // Names are user input; localise the species and background separately
+        // instead of asking a regex to split a multi-word English title.
+        string text = localise(returning ? "Welcome back" : "Welcome");
+        if (!ng.name.empty())
+            text += ", " + ng.name;
+        text += ".";
+        vector<string> character;
+        if (ng.species != SP_UNKNOWN)
+            character.push_back(localise(species::name(ng.species)));
+        if (ng.job != JOB_UNKNOWN)
+            character.push_back(localise(get_job_name(ng.job)));
+        if (!character.empty())
+            text += " " + join_strings(character.begin(), character.end(), " · ") + ".";
+        return text;
+    }
+
     string text;
     if (ng.species != SP_UNKNOWN)
         text = species::name(ng.species);
@@ -188,8 +206,13 @@ static string _welcome(const newgame_def& ng)
         text = "unnamed " + text;
     if (!text.empty())
         text = ", " + text;
-    text = "Welcome" + text + ".";
+    text = string(returning ? "Welcome back" : "Welcome") + text + ".";
     return text;
+}
+
+static string _welcome(const newgame_def& ng)
+{
+    return newgame_welcome(ng);
 }
 
 void choose_tutorial_character(newgame_def& ng_choice)
@@ -361,7 +384,11 @@ static bool _reroll_random(newgame_def& ng)
     string specs = chop_string(species::name(ng.species), 79, false);
 
     formatted_string prompt;
-    prompt.cprintf("You are a%s %s %s.",
+    if (localisation_active() && Options.language == lang_t::RU)
+        prompt.cprintf("%s %s.", localise("Your character:").c_str(),
+                       newgame_char_description(ng).c_str());
+    else
+        prompt.cprintf("You are a%s %s %s.",
             (is_vowel(specs[0])) ? "n" : "", specs.c_str(),
             get_job_name(ng.job));
 
@@ -584,7 +611,11 @@ static void _choose_name(newgame_def& ng, newgame_def& choice)
     string specs = chop_string(species::name(ng.species), 79, false);
 
     formatted_string title;
-    title.cprintf("You are a%s %s %s.",
+    if (localisation_active() && Options.language == lang_t::RU)
+        title.cprintf("%s %s.", localise("Your character:").c_str(),
+                      newgame_char_description(ng).c_str());
+    else
+        title.cprintf("You are a%s %s %s.",
             (is_vowel(specs[0])) ? "n" : "", specs.c_str(),
             get_job_name(ng.job));
 

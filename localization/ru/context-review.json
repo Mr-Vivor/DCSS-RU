@@ -1169,36 +1169,36 @@
       "translation_sha256": "6a9bd1634382c18b00492150e12c64dfdd9a7eb95af1913f70221eb1a8d696f4"
     },
     "The percentage of incoming experience used to train each skill is in <brown>brown</brown>.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "4fb36130f55bf9b4c946f431387fbac9283ebd18fb643dba7659c7d6a28e93b8"
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "f7df1683a52123f778867bff6ff9c8263f7513056ce7840046bda79c6a79dc09"
     },
     "The current training targets, if any.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "3451839af671d68f6fcd36b6f56c72b2010b1842460a5a467da6ee56e9938e50"
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "0c37001bfffdf99c3f8e02a3b87ceef5f32c296e04220adf0396e72a21ac462b"
     },
     "The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "a8dd72a8ea830080bcc2031b80888c5a4fa86b7a7478b4fab2b9466acc14a54c"
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "12c087aa9191418e9f7f4fce65fbc584c6e3a29c443fdec8c681ffa92e91b5f1"
     },
     "The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).": {
       "context": "skill-menu.cc",
       "translation_sha256": "516d37ba5a9d16d1ed46b1ad9b2bd730c46cf3b0ca0b0ebb82c2467c1934087b"
     },
     "Enter a skill target for @arg@: ": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "222a8bfb7a662b3f1321872d541bd0148471d8f8d4d87b6d564f4c977ffb4a68"
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "d6785c0b8a03a1da91f6d0a9aae13a375710367d1bef36044714719d10796719"
     },
     "You need to enable at least one skill.": {
       "context": "skill-menu.cc",
       "translation_sha256": "2e9da218bec6f796469b2254461e371c8e7059cda491f65c0ce9217cef107638"
     },
     "Press the letter of a skill to read its description.": {
-      "context": "skill-menu.cc",
+      "context": "skill-menu.cc / skill training and actual menu controls",
       "translation_sha256": "9773e16f2068d63694745d983b143516de7a25595c10f2f6288bd730f87efac8"
     },
     "Press <w>?</w> for a general explanation of skilling and the various toggles.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "1638be34ecae596a9538330c36275fc32d17d9d43df554c463085323ea10e2cf"
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "17e5fae01d31541cbd29aed7a2807566c60cf62faf1a26eaaba55eb2e3b54c2a"
     },
     "Skill descriptions": {
       "context": "skill-menu.cc",
@@ -2565,15 +2565,15 @@
       "translation_sha256": "90a6dec5dba226daa1073ed2a1d3c2e8757cadd628ff2a09f5ffa94ff4159bd5"
     },
     "Damage rating: @any@": {
-      "context": "describe.cc",
-      "translation_sha256": "43f5a59592e3b9dab38e5f30562950600f90824959caae08a9c53eccbe8218d7"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "6037e67f0400975ad13403ea4d853f33326119ece38c149aec07caffcea7c2e8"
     },
     "Your skill: @num1@.@num2@": {
       "context": "describe.cc",
       "translation_sha256": "0bbfee712f2fcb0067c8da275b66140d01023cbb56d90643a2f314a15934a6cd"
     },
     "Your (base) skill: @num1@.@num2@": {
-      "context": "describe.cc",
+      "context": "describe.cc / skill targets, projected defences and spell failure",
       "translation_sha256": "ba6426adf5b75e7e2aec5b45ff1dcd2105af9ae6e9dd24ea22d9506b064d75bf"
     },
     "Your skill: @num1@.@num2@; use <white>(s)</white> to set @num3@.@num4@ as a target for @arg@.": {
@@ -2581,7 +2581,7 @@
       "translation_sha256": "a9d5e5d370a5fa6fb0e4496c9c6b865578f2173b6d41d40b203e62df1b4a8bf8"
     },
     "Your (base) skill: @num1@.@num2@; use <white>(s)</white> to set @num3@.@num4@ as a target for @arg@.": {
-      "context": "describe.cc",
+      "context": "describe.cc / skill targets, projected defences and spell failure",
       "translation_sha256": "394822bcf3201d82103a690b83b36e4a5158d328004429152ad2dfbba940fb85"
     },
     "You cannot currently reach @num1@.@num2@.": {
@@ -2589,12 +2589,12 @@
       "translation_sha256": "72c92ada74b6bc73099930c86ba385604c08a625d21526b90f7d79d333e40c14"
     },
     "about @num1@.@num2@ XLs": {
-      "context": "describe.cc",
-      "translation_sha256": "8f3551949ee9551b05a91dd39125aa94a52a5a0cd0a6ec9c763ad8fb0bc84acd"
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "7a38f0b73375eadc199ba1f5788ca74ee453fe038046bcc0ff1e71eb2f8929bb"
     },
     "the equivalent of @num1@.@num2@ XLs": {
-      "context": "describe.cc",
-      "translation_sha256": "05ce0adb68f7f774f4465854825e7764a59e90ede8949e0e8fc4f35378e499a0"
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "96f4b7e07cdbc465628241accd29d960be114de78450b8180f28b035b3ee799f"
     },
     "At 100% training you would reach @num1@.@num2@ in @any@.": {
       "context": "describe.cc",
@@ -2605,8 +2605,8 @@
       "translation_sha256": "63037815a6cc9270522650c64b728103f93032c50dd2b1f8991372065f1eef56"
     },
     "At a training level of @num1@% you would reach @num2@.@num3@ in @any@.": {
-      "context": "describe.cc",
-      "translation_sha256": "dbd9695f4898a68cdac0ef88e41d93b4cb50c25b9ca81b8bc8e005d112634962"
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "7744099465f0476bafe16094fcaa28947790211f076e8901326b30d583f49134"
     },
     "@Arg@ slows your attacks with this weapon by @num1@.@num2@.": {
       "context": "describe.cc",
@@ -2629,11 +2629,11 @@
       "translation_sha256": "2c97720d10aa09f33be2aeae5590f50d03fcabeb6b865f09f8f17e6cadec6c48"
     },
     "Base armour rating: @num1@       Encumbrance rating: @num2@": {
-      "context": "describe.cc",
+      "context": "describe.cc / weapon, shield and device mechanics",
       "translation_sha256": "093047c3c01db686fcd640c2f8c23d1a7520b9e989e21b7972dca7e13dc410ff"
     },
     "Base armour rating: @num1@       Evasion: @num2@": {
-      "context": "describe.cc",
+      "context": "describe.cc / weapon, shield and device mechanics",
       "translation_sha256": "86113545e0cbabf75bcd7e8c6a622bf8b22b0b3466b9d00ebac88359d7623734"
     },
     "Base armour rating: @num@": {
@@ -2641,7 +2641,7 @@
       "translation_sha256": "ed18340b1e914c562cefbf8f9b7bf8b2e4b3b15429c89440dd56c1942ba08748"
     },
     "Base shield rating: @num1@     Encumbrance rating: @num2@     Max blocks/turn: @num3@": {
-      "context": "describe.cc",
+      "context": "describe.cc / weapon, shield and device mechanics",
       "translation_sha256": "19a348335d82e818c99f7f23a028e252f34914ddeeb49c5ea286fb9b125945b8"
     },
     "It is cumbersome to wear, and slightly impedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.": {
@@ -2657,48 +2657,48 @@
       "translation_sha256": "cc9fa5723916427a769848301d179eb899605fa6bb88a6116367ea7b69595b6e"
     },
     "It is always destroyed on impact.": {
-      "context": "describe.cc",
+      "context": "describe.cc / weapon, shield and device mechanics",
       "translation_sha256": "7789869e63cbfcd9a7c4cb00463af501984f46fe0cb7b061d066d7846cdb746c"
     },
     "It has a 1/@num@ chance to be destroyed on impact.": {
-      "context": "describe.cc",
-      "translation_sha256": "2db382e6b8eeb6c5dc94b8daa636d52bc5312742774d6ca8ec702763bc5ee1c3"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "385f10601b0726b80268f867ad952ad8d5d8ed646fbfcec70f364ab5d01693ab"
     },
     "With your current SH, it has a @num@% chance to reflect attacks against your willpower and other normally unblockable effects.": {
-      "context": "describe.cc",
-      "translation_sha256": "a575b1e71e28102b945538b46ff517f87604fc6dbf4e04b2c0c5e3cdf42b480a"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "c0bd5b3acc158b4a5d008dc281e3b467a4034d3f2f8a9afbed369214be5bd2ca"
     },
     "Spell refund chance: @num1@% (max @num2@%)": {
-      "context": "describe.cc",
-      "translation_sha256": "662b2769c634a0837cedeee83e94c64b932b3164a5d1041fd7f2334a2b01a918"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "566b4180fc4e137169fc85b2dcf1ed0a40b5e6a678d6a7fff525fb2e36f39024"
     },
     "Enemy Willpower: -@num1@ (max -@num2@)": {
-      "context": "describe.cc",
-      "translation_sha256": "9dd4f75c3c72f53e761651eb4d554add42fe084b73457b80b06dc5f1cb7c5291"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "d82ff2f28bfdbd04164b1da508683eead8981c3b0b1d65f629dd7e4c5cacbeb2"
     },
     "Vitrify chance: @num1@% (max @num2@%)": {
-      "context": "describe.cc",
-      "translation_sha256": "5c2c5b1add924f908d618b6af053efc84a23b8649fbde00d651c5961a0014edc"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "cac8ad1dcc4a9b12a75aaf9a2a84fbcfa77d77bcf19a7dd40c7dc7a8dbe5a754"
     },
     "Explosion chance: @num1@% (max @num2@%)": {
-      "context": "describe.cc",
-      "translation_sha256": "dbaf04bcaaa1e3ef1f5d257d2bce5a5b320e54ca75f6a7ed7a4c8fdcadeb10ea"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "158c8b25a4ec2d59d8c602116162a3ab015a4cf995a7421e26a8dbbed7c85625"
     },
     "Explosion damage: @num1@d@num2@ (max @num3@d@num4@)": {
-      "context": "describe.cc",
-      "translation_sha256": "8cead155bb3864c2cd426ca2a80222e5df7690f5ba5d22c9af3cd16edfbb628f"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "7a8901f363355873772ba6c1943b1736bb3406a66e3bb8b2ee9ba3b9658f9f46"
     },
     "Base shooting star damage: @num1@d@num2@ (max @num3@d@num4@) + 25% per MP spent": {
-      "context": "describe.cc",
-      "translation_sha256": "95137d2c244afab8096dc7f14bd60667083205e9fad7ed8f0b00a164abd13e2c"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "5fbc8366fc9d954f15a57248ccdcf8da7e14fe164ba731b4248a6c4e84c982de"
     },
     "Shooting stars conjured: 1 + 1 per visible enemy, up to @num1@ (@num2@ at max skill)": {
-      "context": "describe.cc",
-      "translation_sha256": "1d7b3e65b0cf6b6f60f7182b6bd9e2aeebb0347de84b8a2944f709f27ac2ded1"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "e39e5e86bc2b85fe43ff417813b1e7ea4462738108de934d523e0c8b6e85f235"
     },
     "Mesmerism radius: @num1@ (max @num2@)": {
-      "context": "describe.cc",
-      "translation_sha256": "e8e65a46ad5e80d73af706c00910fac7ea3fd2de116c45cc0f8a00706e84ee62"
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "099b9bf188c27da8f21ccc27088552e0d38784078e40c5dda6581bb5e2050f72"
     },
     "'Of @arg@'": {
       "context": "describe.cc",
@@ -4965,32 +4965,32 @@
       "translation_sha256": "0c1ff20c0c9b0c6fe09ec91ece228daf9bde8906135c91f24ad41491d2cc3203"
     },
     "Press [p] or [ctrl-v] to paste a seed from the clipboard": {
-      "context": "newgame.cc",
-      "translation_sha256": "eecf2bcf66916933a9bab7c1b48de710ad84fcb2b2a5668c0829ae0494922696"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "782c149f743b3e03b21903ebe69e34a9e3d2225b888080617390a5bd2ba257f2"
     },
     "(overwriting the current value).": {
-      "context": "newgame.cc",
-      "translation_sha256": "98b4212a59df3b35fb285f3ffd25328dc9a14c2016a41f15f3f441f71e9bea1d"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "16d2851151be9f3f4267531d5034ac5c3be6bff6a41546e1b917d04bd4e19a3c"
     },
     "The seed will determine the dungeon layout, monsters, and items": {
-      "context": "newgame.cc",
-      "translation_sha256": "84c0457e37c40ab61f83e7b8d94bd682dcc0970229721983f96cc27f3f918862"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "943e08205d88b1049410d2e187060f53346f74bbbd1f45ba345e3454d0b2ae03"
     },
     "that you discover, relative to this version of crawl. Upgrading": {
-      "context": "newgame.cc",
-      "translation_sha256": "fd107838d4566f95cdc946b41836135c2afec3238f0de31374f953d6e68faa95"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "3d06fb89ef6520ef0bdd08170c1045b6e5e16489f2344f1cbaa33ed69abf3bd2"
     },
     "mid-game may affect seeding. (See the manual for more details.)": {
-      "context": "newgame.cc",
-      "translation_sha256": "4cbb9b063acb80db83ef00e4b812e808f01dc970b4a241c01fafbf8e1cf66de4"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "3fd5370ccea4bc2236e5bfb6cb777ef7cce2977cd2500783b11c51f083e7eb4d"
     },
     "Warning: your build of crawl does not support stable seeding!": {
-      "context": "newgame.cc",
-      "translation_sha256": "67b8316dd97e450517bf9aa42ba792d211ed66ecd4561c0cab0fc020135f4e9d"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "683ded4daf1b4d05f38e74f742b6ee722685a23b40b34da63451b81c53069bb8"
     },
     "Levels may differ from 'official' seeded games.": {
-      "context": "newgame.cc",
-      "translation_sha256": "6e645b56c9a165c74e9b7431ea51287aeb1f88d9f9e851aee93f49b68531268e"
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "73bc746bf11b86d706c319fec0bbd2a543a9a0a1002ea1fe9ab8bdccbe4f2fb0"
     },
     "Seeded play": {
       "context": "newgame.cc",
@@ -22453,8 +22453,8 @@
       "translation_sha256": "df0507e3231461d93fa0e8fa7066b3f1f2d5e299e766d2a5adb9f4c7babfd109"
     },
     "It can be dug through.": {
-      "context": "describe.cc",
-      "translation_sha256": "2e77dc91bc438c659f0c354b0a679e1497436d0b60a74aabc378cc7bb53e1702"
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "a78a6035faeef051c188e757cfba543a2990a328b451bbc9d1e996398820292d"
     },
     "irresistible damage": {
       "context": "describe.cc",
@@ -23097,16 +23097,16 @@
       "translation_sha256": "415b0ce767c50c267c421a994603c857de975335d45e4d4d68da739fd5c26a5e"
     },
     "This cloud is opaque; one tile will not block vision, but multiple will.": {
-      "context": "describe.cc",
-      "translation_sha256": "0111b56730b4369cd9066770dbaa8621c1600962b8e8147ae878e8558900c188"
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "4ed0342dcb7b5a51f61d7fc00f2ec27953b8270fdb7fbe7093b65d6af9eadd8b"
     },
     "Clouds of this kind an adventurer makes will vanish quickly once outside their sight.": {
       "context": "describe.cc",
       "translation_sha256": "9c90098e6348ef33282d12e9f0b694fac4daebf4269e87c47c1a31836447e690"
     },
     "Clouds of this kind an adventurer makes will vanish almost instantly once outside their sight.": {
-      "context": "describe.cc",
-      "translation_sha256": "cec3e6f9d47262b3c97ea661d251f114b878d283b3c3cb215c5674b57d9553f5"
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "6b932643ba075b5a3cdd47fc446b324727cbe386a0ee2ace761d61a9dfba70b8"
     },
     "The tide is released from @arg@ call.": {
       "context": "dgn-shoals.cc",
@@ -26411,6 +26411,678 @@
     "<w>X?</w>     list map-mode commands": {
       "context": "wizard.cc",
       "translation_sha256": "be9ef4471053aa2cecf46317fca00f813d6c6965db32a69a417e7c71b0e96b95"
+    },
+    "Welcome": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "c4bb09e20d2b0fc5c8595e1fb1e4043d644fcb82a72e027665dafc8a8cc96d0e"
+    },
+    "Welcome back": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "a4d4f34d1b3fb6d49c3dead8c72cba082a78fdc395155930b5294982c33c0652"
+    },
+    "What is your name today? ": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "553478270a313ce419ec07a70efef604054752515d201ede48884f41892cae3b"
+    },
+    " Please select your background.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "ac680799c3ed5d39c223e72a9179f3b45d73fb6a1a1108f275988ee60ca426f5"
+    },
+    " Please select your species.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "4ca65d945742c09d0a19dfa4ffe5c480464704073c803a795c6a069764594f61"
+    },
+    "Play a game with a custom seed for version @any@.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "2335c50cc6e1aa299f8537905574d2f01ceec8b2c470d6ace812febbb6d43af8"
+    },
+    "Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "99fde202f6af20d0c6ba0884ad14943983fbf873860813f928763a3e26844005"
+    },
+    "Custom seed: @num@": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "215586039d90471ce2fad4a5a17b58053d9b10b50b4c30ce47cb67ca8777e9ae"
+    },
+    "You have a choice of lessons:": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "0e303515a1875e17c92b02feeda1267d589a3b879ec404671864c9232e5876d1"
+    },
+    "You have a choice of maps:": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "afb4bed94f07387236b6c1f582a2a2716412600e936d8b9e3cf47f4bc26d34f6"
+    },
+    "Picks a random recommended species based on your current background choice.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "7292bbcf16ef520aea394db21e2244ea80f42445afcebcbae89eb8539ae64b21"
+    },
+    "Picks a random recommended background based on your current species choice.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "daf05f01936a7189f29e85901e1021d72b507aa90f5d120548943300e63bc3a8"
+    },
+    "Picks a random species.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "dd5277c8ab7d92f1f7e07b8ac88a651da3157a1332535165c7d8d7035ab8a422"
+    },
+    "Picks a random background.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "92bcb8b0852eb5fac253ae3bfb534f3846e7dba3234660c39842fd31cb43bdd7"
+    },
+    "Lets you change your species choice.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "28737584b988aee608a5751e4411b9af5eb71325be688421479b22bb8b73224d"
+    },
+    "Lets you change your background choice.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "9a1e92f183b82ea0681a479ce655d0af022a9d9509d618a2ad535cec732f5679"
+    },
+    "Lets you pick your species first.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "0d42daa86994f6301009a2392e2309ee36f957f68d30d9b70e3405098929228e"
+    },
+    "Lets you pick your background first.": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "ef4e91c6a31d4accaab062a768a606df0858fa347c2cabe34b725afcbc181937"
+    },
+    " (<red>Errors during initialization!</red>)": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "5db6f902dc5b4fabdfbf2e4805672d6b35fcb646cd41e2ec0c3b1d6ed9677c76"
+    },
+    "@num1@/@num2@ gear slots": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "559a6369fa4bc481e4475cecd321948cc845d9380281cb65fde5fea3926b7570"
+    },
+    "Gear: ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "d11c47cf147f6a7f29c38b7728be22ba93571d8bfaf65e329b1ea60792d69480"
+    },
+    "Potions: ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "085f7c89fd2d204a73eefe11d7e8f083a9017a03729bff041038b09b265f7aa2"
+    },
+    "Scrolls: ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "33cf175f593db90c82bf0808d2be580f15d1b0601a3055386b233d57c22e2f0b"
+    },
+    "Evocable Items: ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "55a757f467eabe873fb2d6cc35de89bb0484e5e9d29996621183d5d3dee1e0e7"
+    },
+    "    (Left/Right/Tab to switch category)": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "1ce9be94b61933e6d4b065fd54c7d077165108cfa89d904d64bf101023ec6bd3"
+    },
+    "Inventory: ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "4c6c3082fdb55c443662928ee364d2e975c303f9a5ce2adf770fd776b7439690"
+    },
+    "Drop what? (Left/Right/Tab to switch category) ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "e4edfd75425b52592442ee0d0709e4094204dcd62da4ba8e44c580a1d2d63b44"
+    },
+    " (_ for help)": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "e66ed21dcbb010537945aa20c7592cc0aaf5080f48ad7e8fe904599e21cc920e"
+    },
+    "Pick up how many? ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "345ad23185e4d7cb2db14a9f54c1e5999f68ea1d9ed30ed39ee51a04f28b0ce7"
+    },
+    "Drop how many? ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "944bf8f5285691c1355491af6cba9913aa453ccd0fcf8ea62ad30e2e0ed392b4"
+    },
+    "To do this, you must remove one of the following items:": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "88268bdcdccf4279401607a8a0c9246b26cf06168341206ab119a9be3c06b5f3"
+    },
+    " (cancels current teleport)": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "9165ff655e3dd62d489e552d510fb24e2fe509d17a081e7135070cb76a757dfd"
+    },
+    " (current attack)": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "03a8c2cc2e3f0c6a65a873032810fece31ec78b150acb2b15fabe040b579461c"
+    },
+    "[<w>?</w>] describe selected": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "db2f7f1c5b30b254a0590b3c5008729eeabbddccc8596c4eee045be2f43cd557"
+    },
+    "<w>equip</w>|unequip  ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "3d456e502f2760bbdb69c74677652738dbabc164b467da2e027354570eb1dbdb"
+    },
+    "equip|<w>unequip</w>  ": {
+      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "translation_sha256": "a7152606fddcae8e7757664df9acf03a4445bfaeaea7af803a1425281c561c61"
+    },
+    "     Skill": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "f40469cbf7139435280f781c80409bdef5dc66c1f4fd73a679c766d1927803f0"
+    },
+    "<blue>Apt </blue>": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "3461f0213c616b005bc047b4be0950a768e535e14ce3a8c189e972e043314dcd"
+    },
+    "Enter a base skill target for @arg@: ": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "d91ac11653a6c0fc3fe2c57e61d0515a85440c29137acb7d3ea6653208911dc3"
+    },
+    "<lightred>Your training target must be 27 or below!</lightred>": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "f7935c49bc1dca58ffa3d64b28459f9128b2c504f5f444084ce5d2d571c6f9f0"
+    },
+    "<lightred>You need to enable at least one skill.</lightred>": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "10a0f2d2af71ace137cc4da75f8f4e735fb54b3483367d76262075830ee2a2b7"
+    },
+    "[<yellow>=</yellow>] set a skill target": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "fb63ca2d535bd55cbbf0f5b788388e261a97dcaadf87650646e37c1eef50aff2"
+    },
+    "Bonus from skill manuals is in <lightred>red</lightred>. ": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "29cf5e3c6be7dfed758c002610483d4f105ccfabbc26e22d616144704774f734"
+    },
+    "scribal knowledge": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "bb30d0708c7fbcac1d369b8044ca747ce28b784236213d153bcee66ba8bd04ab"
+    },
+    "jademantle form": {
+      "context": "skill-menu.cc / skill training and actual menu controls",
+      "translation_sha256": "9dbb879f4b56ee051f4ecf4fddcd47a84dcacb1429f34f40256588e17c96d93b"
+    },
+    "Your current training target is @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "5b86a69eb0442561f352129ec70853ef61f6ede1354797a4fdedfbae874ecdc6"
+    },
+    "Your current base training target is @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "d8f6c0e383dcb95f54099d21e0863031291af5d50eff612992a54fa0ae22f31a"
+    },
+    "It would also improve your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "9bba588a000cc9580f0394e0d5f5c59c1fcb247b74711dfee75554bc1d910301"
+    },
+    "It would also worsen your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "ee02ce531a0e96205c7c77fa2d850cb1f7d2397d809575774ef4615552d75436"
+    },
+    "It would also improve your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "62fed3e9aaa5d2eb31197dfed36d53e09e7995219db3d89ec7721ce6c1877968"
+    },
+    "It would also worsen your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "3ab8208df41c85fb8db08b19a2478ef2be01dab98f03007106e01879f72a43bd"
+    },
+    "It would also improve your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "f47f14f7d99f8bd3dec79f7cf03af98dbbc67e068553e5bbd161d3b1ff11ee66"
+    },
+    "It would also worsen your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "8cbd1104a28557d84f396583a4febb46ba1c074b6eb7d73440111352fb58910f"
+    },
+    "Your spell failure would improve trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "62a1f1103c2822dcb6f0cb1bd41aeac640f6325ac7a1695eb7a953742583137c"
+    },
+    "Your spell failure would worsen trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "08c41659ad94c7fd3bded38c056ddb640619c3eae31183542d170896ea073309"
+    },
+    "Your spell failure would improve by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "e4b149770f1c89256942d8bd0e408da00d3a91b1bf19e19fbfda9c3035c86171"
+    },
+    "Your spell failure would worsen by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "401aa52cff727f587293f029d7c3c2d73145d31a3a27d8b936a486282d58be8d"
+    },
+    "If you transformed using this talisman:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "0fc169546a60bc255d7d6240db1026e403bee20b9a6252020f9d6b347d0fae67"
+    },
+    "If you were wearing this ring:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "aad612d461e5fc7e2c65f3a8f9513916aa1445e33eba502ae46729e8689d7473"
+    },
+    "If you switch to wielding this weapon in your main hand:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "1217cfa9a8e9e17cd8879eedf2fb7394cd2d9bfccbcc4f94bee589726fab4a34"
+    },
+    "If you mastered this skill, your spell failure would improve:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "003405ddb9204280a4dec4b7acc8ba064b4c4b25389cd7fc25ed369fb052fc83"
+    },
+    "If you mastered this skill, your spell failure would worsen:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "1a22f94c24a8379d22424f013b85a5dcf1306c653333803e4f6cabd883c831fb"
+    },
+    "If you trained 1 level of this skill, your spell failure would improve:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "dffea09cdff4fc4d77bd090dd6197135bf956b894e2226db216fbd09508059b9"
+    },
+    "If you trained 1 level of this skill, your spell failure would worsen:": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "b394a74305f017ef3caf7d19c7dd2ea0b2409e84d29661db7baff8582121a02b"
+    },
+    "With your current stats and equipment, mastering this skill would increase your AC by @num1@.@num2@ and your EV by @num3@.@num4@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "2783c2ab61f5724b560a2386320722982aee5b63124256a95f402a2cb0ddb350"
+    },
+    "With your current stats and equipment, mastering this skill would increase your EV by @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "efe5c6e4361735061a6be47d1c76b696aae18a8cea14f25df0a2af2aa1b2aed1"
+    },
+    "With your current stats and equipment, mastering this skill would increase your SH by @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "36c871a2ba99e5c8e7b616d0dca47df6b29647de3ffda1eb5d34a3fd49020dd9"
+    },
+    "With your current stats and equipment, mastering this skill would improve your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "b77e75cc1177900a221fea4458631ee8fc229c7125b92cf81e3431aac9b9d71e"
+    },
+    "With your current stats and equipment, mastering this skill would improve your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "7029be6a11abe98d8e706acb409bcfd1179b85a1d3b8ffbd06a1ca9595f0a97e"
+    },
+    "With your current stats and equipment, mastering this skill would improve your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "bb75945a15917d1e0f228a71324cfb8bc45d3c99c7191f1d11c9b64d488b3696"
+    },
+    "With your current stats and equipment, mastering this skill would worsen your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "9cccd00cd725e13d5ba40c04a2ca5b0142c938d1cf8b3c4dc25391f0cb3bca20"
+    },
+    "With your current stats and equipment, mastering this skill would worsen your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "02d5384fa6273898d00f12885d707c871e4ccba6c8d61151c34f19a55f47589f"
+    },
+    "With your current stats and equipment, mastering this skill would worsen your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "db54c15efdef2f1317d80e605aa1f8be59ef32349305ea7cb2499e762db98d1b"
+    },
+    "With your current stats and equipment, training 1 level of this skill would increase your AC by @num1@.@num2@ and your EV by @num3@.@num4@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "c08ab56c8b014901e237dc48ee8abef0bb4c3009aca9a2095ce3d6f857b049a9"
+    },
+    "With your current stats and equipment, training 1 level of this skill would increase your EV by @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "9c9a3a1f8321d4103c0bd6c5d0342ea45680f7e6a14f79b1bbdba64e67c84deb"
+    },
+    "With your current stats and equipment, training 1 level of this skill would increase your SH by @num1@.@num2@.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "16e828554c58d3bbf856ef73afac19684b6f52a7cac465aca8993411d2c0b6bf"
+    },
+    "With your current stats and equipment, training 1 level of this skill would improve your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "de3c4ec913b927e752b0d4c7dbf09d2fb79c314b1a83b43431e309747de53974"
+    },
+    "With your current stats and equipment, training 1 level of this skill would improve your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "4aafc325540b6a95e5487e9377957a06c977062313d8da0812f3e9d9d0444943"
+    },
+    "With your current stats and equipment, training 1 level of this skill would improve your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "d117a0743460277b4f1467983ff81b2e518326d886f05ed0e66961dfb7069ae8"
+    },
+    "With your current stats and equipment, training 1 level of this skill would worsen your spell failure trivially.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "82600af232838ee818995270e7ea99a49de18a6c0796b2752ba3176665a7f291"
+    },
+    "With your current stats and equipment, training 1 level of this skill would worsen your spell failure by up to @num@%.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "ca91daabd6b6b655e921274a35fcc426e487c881977c2dd591220dcc88b5d7ea"
+    },
+    "With your current stats and equipment, training 1 level of this skill would worsen your spell failure by up to @num@% (press '!' for details).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "6829558584546f3743b3799cd7ac828337e99386b024b8058b9568e364006f96"
+    },
+    "Your AC would remain unchanged.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "b0e1f0676919c2a139c0128e1158ac6e1b84d210f1a46b0b7c2435befda39e57"
+    },
+    "Your AC would increase by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "ec5ccfbbae6dc29f2b29e253dd0726e846f5d2f2e4f14c61de4783914be12b5c"
+    },
+    "Your AC would decrease by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "36abae3972a886470e25f3b3235691f42b002787a11806f97d28ca28fdf6ea1d"
+    },
+    "Your EV would remain unchanged.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "18cac6505a859c7a48498524b225168fdc75d8afdc2c8660a2ee192ab5f74333"
+    },
+    "Your EV would increase by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "6b2c0f61bd902a5523df092ecd56a871614a298473f3ad29427c8ec96ac4894c"
+    },
+    "Your EV would decrease by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "6b27351bb913bb78e143e062c11d9cb2b31f7394166a864f0408f0e9eb645458"
+    },
+    "Your SH would remain unchanged.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "536d1f01ccfec30c992c4c49e697d4ab03b49a03edff2266f884f183666a5183"
+    },
+    "Your SH would increase by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "94b977a853565dd481cafc595bdbbbfcd3733345ba5d266fcd64f60a15329910"
+    },
+    "Your SH would decrease by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "940f2aef19dc3a2c32b72324064687d7a98bfcf843768524b418ca61b4d40564"
+    },
+    "Your attack delay would remain unchanged.": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "c75c29342a7e27cb7b5b79f04995649ebcb7bf488f198565aed3b04d71efdc9e"
+    },
+    "Your attack delay would increase by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "19d5fae514771dffee4cf49aa0891675f4dfcf1337b00f353e3654ee4602fea5"
+    },
+    "Your attack delay would decrease by @num1@.@num2@ (@num3@.@num4@ -> @num5@.@num6@).": {
+      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "translation_sha256": "ac81ec3b53d4a1fd3c591433792e494d8447899d0320925f08a7395a495f1e17"
+    },
+    "It is too large for you to wield.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "13be8c43cb09fdc7dca681cb93b613e7682f734793010f8e30666ccffb385d96"
+    },
+    "You are unable to wield it.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "acb6aa6988b69f47111e0110c125b179918e8c8c6dd35fea6a7acd5d66e5849a"
+    },
+    "This weapon falls into the '@arg@' category.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "11e35bd3652fc65e6aa803f354bda3e7455eac5548ddac87fd567b9890f867f1"
+    },
+    "It falls into the 'Staves' category.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "15701aa81248f0aaf57ce79e4f37c883c63795531f15fc5c9cce93cfaecd411f"
+    },
+    "It has an extended reach (target with [<white>v</white>]).": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "183b10102ae8f8e123278ffd33b80b6a0e5a9fdaa0592f4847a369ac0f276362"
+    },
+    "It hits all enemies adjacent to the wielder, dealing less damage to those not targeted.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "21a316ecaf4bab30204e7e21c6b8c7c9a94e12c7df076a416221c5874e97bc3c"
+    },
+    "It is extremely good for stabbing helpless or unaware enemies.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "180b1f0a6f55372b6a171e4df37117f622f20262ade3fb2643a308b912cd0b0e"
+    },
+    "It is good for stabbing helpless or unaware enemies.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "49b335fff973849398c1092c88b39f18be77b7cb6daee101d26c9ff3bd38dfa1"
+    },
+    "Wearing heavy armour or a shield would reduce your attack speed with this weapon.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "7e6c6634b8942de25b3448cfdc9d55d466c395779607a80b672b7138d1df5718"
+    },
+    "Wearing heavy armour would reduce your attack speed with this weapon.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "91459b3f1c9dbe2555d92c3b2529f51701cc44c9c4e7b15a8f88ff252776c159"
+    },
+    "Wearing a shield would reduce your attack speed with this weapon.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "fbecd4663654c4a4a6dc31751b5eb96cafb159d94492f108074257f745c19202"
+    },
+    "@arg@ slightly slows your attacks with this weapon.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "46c22cf68e41a032d5e33f7964e1f94b4b9de1d6d1141567b89f8ee6717ba800"
+    },
+    "It can be maximally enchanted to +@num@.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "cd2760acf2e3374960fb28d1f20ada29cf3a1ba9c3beb03da6797af55185a10d"
+    },
+    "It cannot be enchanted further.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "f512b0310a77f75b02f4544c831ccda0c6fd5eaf200bd43b009eb9f6a5d3b0ed"
+    },
+    "It is an ancient artefact.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "a5d1173bd418f48180b1b93dacb44a39bb77f65f9fcf548e8b599aa75b7137e5"
+    },
+    "Enchanting this artefact any further is beyond even your skills.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "458beec07f51f294e17bef1581505b7917a89a0fbec40e87f6b1da63546a51ae"
+    },
+    "This ancient artefact cannot be changed by magic or mundane means.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "03dbdfc12dff420968b980822cea1ce90c968b90a4c543a88cc2f1460809d80a"
+    },
+    "This item has been removed.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "1da818dc62b54f6a5f5e66203dc3b307ceec7f9a3821b40f4e8eac12d9e10440"
+    },
+    "It has a curse placed upon it.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "b32b4aecdb8e9676f7108f6caec27266c7bee9c901545d7f20631f41c290012e"
+    },
+    "Once activated, this device is rendered temporarily inert.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "47bbc21c43697ecbc6a4c0ac8a1fc22fc6e47127cdc4d7054685decae1595113"
+    },
+    "Once all charges have been used, this device is rendered temporarily inert.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "34ce12d9a364610eedf250bf07a4dbcac53d35b18c931af4be4f2a6bc9fd8b28"
+    },
+    "However, it recharges as you gain experience.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "2d0114883e5ed4ed4ba32677c430e948a16f3273c23faf852821be2e5672748e"
+    },
+    "Additional devices of the same type can be combined with it to improve the rate at which it recharges.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "f50d3472d1b74d9ae6fc0a0725e52a69ce4d50b3648f448036448ec81a0188ca"
+    },
+    "Increasing your evocations skill will improve the rate at which it recharges.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "97d780af6f4e050dbcfde449d7a6570e753f5956fdba5c224b71ce18b645549a"
+    },
+    "Charges: @num@.": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "a555d310c2b13bbdfa4f9e05ae2b9ccce997ea010f4d3833a6e7b0242985ff20"
+    },
+    "Damage: @any@": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "74eb0d6ddebdc3082ee6fcde6ba9aa595c229400045256cddb4a005ab904c1b2"
+    },
+    "Noise: @any@": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "e0911d4be769c18d281bacc7ce0ae5039a7853355ba512763a9e7aa4f7f3c6dc"
+    },
+    "Stash search prefixes: @any@": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "012d2957756d886503d6cd4e4774056d3d319169596dc8ab3f2b1de381536e87"
+    },
+    "Menu/colouring prefixes: @any@": {
+      "context": "describe.cc / weapon, shield and device mechanics",
+      "translation_sha256": "3d8864a3212e6719653b7c5e356162394ed1bd598525932db6b284d82b86d9ae"
+    },
+    "While standing here, you can exit the dungeon with the <w>@key@</w> key.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "676c5a0bfedcabd2798e67ca8b0fc4a35056cf1fa54cafa0161784695a902405"
+    },
+    "Pray here with <w>@key@</w> to learn more.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "8d8a08ac2562b0c1bda8a2d6afce8d4bb11cfff0738726e62da0e09070802742"
+    },
+    "While standing here, you can enter <w>@place@</w> with the <w>@key@</w> key.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "a9a88060e2f798fe5a9aafae2e2dd92ca5d8d233b2bbf0c20f4bc6ba2c7bcb8c"
+    },
+    "While standing here, you can enter @place@ with with the <w>@key@</w> key.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "23dcf5e445e0628f63d73ce62a91861d4ff41bdc53b4b77620259c6f1a581be3"
+    },
+    "(If you entered the Abyss now, you could be pulled as deep as Abyss:@num@.)": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "8d32acff5b24bedcd63af376d7832c90f176f7a1c0acf275aab3fff98715e614"
+    },
+    "Your adherence to the laws of Zin forbids you from using such a device.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "9c9893e310c63393a869503c1d89a22d58f5769990ba925e436fd3e7ab342413"
+    },
+    "You must first come back to life before you may mutate.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "ead05ae4b20e2e7c1f420e8a808c6678a9ba9cd253e6e88974d0a370eeaf44d0"
+    },
+    "This is completely useless to you, as you cannot mutate.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "8ccb6a4b61bdd942cc583cd4b05bdb1e09531e6f6f805a7e7cc36665c3f79ac7"
+    },
+    "It does @num1@d@num2@ damage.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "2fd4557773512541562991d71653d67c726fea44f2ac0ec4a660a576c1f161d8"
+    },
+    "It inflicts @any@ damage when channelled.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "720a1953e966f73e829832a0330740a06a43fc3912033d02c8e07d02cc7c7216"
+    },
+    "Stepping on it inflicts @num1@d@num2@ damage.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "e0d15a7e53186c1b19a4a04662c876575724d1af1105fe45e32ee348c8535ac3"
+    },
+    "A suitable weapon or spell can reach past it.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "accf13f76e833c6fd595f0cacd6ebb526a11d207fabce34454e3e09279c7e2c1"
+    },
+    "Some spells can be cast through it.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "b1909f869505a2cc89034cdae016cfc477f7bc4ce1f224b06c7a73c148950700"
+    },
+    "You are here.": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "83d7a02ded661cf36f9b00ff04422b590d2b04b67e5b10b152daa7902b26d3e0"
+    },
+    "(s)kill target": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "655faa9a643ee42917a58ff963d401a3ad986c04d7a500e38640e808a4d5d0e5"
+    },
+    "(g)o to location": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "2bbd3d95aaa2cb17d6dd784c3ada5767f7eeae8061ebbb468ae57bce159bd7f5"
+    },
+    "(])view destination": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "da6f0055b91359c4aa1d9e882df4b7c3ad1ab25c63b3408f1c152bdc84fcd454"
+    },
+    "([)view destination": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "72c293ae2d6fb570faa4f008c968e41734bd43c5991507cbeb166e7296339d64"
+    },
+    "Replace inscription with what? ": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "fcd118ec229f6f6f242bb390cce288b2ac960aeab238edb16eb6253e4285f398"
+    },
+    "Inscribe with what? ": {
+      "context": "describe.cc / terrain actions and targeting explanations",
+      "translation_sha256": "5689ad00c2ff5c1e99126ead8601823c690409cf2b57c23d8c3737966ed3ece3"
+    },
+    "[<w>?</w>] help": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "1a04d0eb3ec8a71b434d924daf736e181d0cb0254851898af1437e244a4b8acb"
+    },
+    " toggle spell headers": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "cf0d3e42efa9f5c4be75e4d2775ef671235f9956243464b7e2d8f5fc8096de92"
+    },
+    "chance to blind: @num@%": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "3d1cefe575abd9bd9bfe822a638128068fd1baffee90f41334c57aee0543f21d"
+    },
+    "empty space bonus: @num@/8": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "6e6d9b7942612d58cdf6b9e81ba918f3747fbabbb73de279410e9cca23c3328f"
+    },
+    "chance to weaken: @num@%": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "b8882e76394b4d99c598ae963f9ecfa9249bbce9241396291fae04a2cf3a6f9f"
+    },
+    "chance to blink: @num@%": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "689227c95962b2735759960b6cc642db8ae427aa76cccc27f80dcecbe0763607"
+    },
+    "chance to daze and blind: @num@%": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "81fb0e63eced26b6a7e0f28efa103ce3139032dd5e2e47f093fe21180f78952f"
+    },
+    "immune to roots": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "9b9655ed71d37d40b20f7351b140a231a47836675c1fd91a75f6ed7b262c238a"
+    },
+    "already infected": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "985055107dba07a3452077ec11d8e2d14ac5184b1613e73f61ed2eb3876c423b"
+    },
+    "cannot heal from": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "2c5372924de88e87ade75b4e2891581645b5e21e353f2e708b45b6b2e36071cb"
+    },
+    "inflict weakness": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "161af534c9aaad15f216a57a5db39c976801552d915e1ae65f2eccc0ee1878b8"
+    },
+    "diminish spells": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "4a0ab6efddfad8e46994cd7b3919b6f89656a2c7b72956f91825654c137aac8b"
+    },
+    "astonishingly dangerous": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "8954f836dd1d91547b5fd06d61b893dae3c9bdc206fca3843af0e27d58a6369b"
+    },
+    "<lightred>Restarting spell</lightred>": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "1a773a1075b975ec9e885405ff37e3e145c3b09b10d2b734f2b2e85f0d689d1a"
+    },
+    "<lightgrey> (@num1@/@num2@ uses available)</lightgrey>": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "7351236084e839f689b6f629129a278f76e6480d9afb7b44a4e587c9e4f795b8"
+    },
+    "You cannot reach a failure rate of @num@% for this spell by training only its schools.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "28c07624fbb8e178c75819a4267aaf8a02ac6c1544a2dd63bc616b26d6c815c0"
+    },
+    "Your servitor can be imbued with this spell.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "4fd249124019b38af35831f9c00ce3b52b48dca19b09b316a758069b235ec7c3"
+    },
+    "Your servitor could be imbued with this spell if your spell success rate were higher.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "f19a71bc703fdd6689f781734739e1170d319fedc5a4bc170938c87bdffcd873"
+    },
+    "This inflicts up to 40% magical contamination when cast by you.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "c119257b47ddba4633f555ba9cd0892c34c99e0d963585f49b1a3143f625424a"
+    },
+    "This spell is empowered while you are enkindled.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "72a08a24363cb3a668f9acc3f9fc4616135cc83deaf672bb46bb87704c0f272d"
+    },
+    "You currently have no enchantments that could be removed by this.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "2d8e7761a313168df7a4b5beebbe20204291ca6e8991ebabd55c7797d3caafa7"
+    },
+    "<magenta>This spell cannot be performed via Aphotic Marionette.</magenta>": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "c2aadc535f27f34ede7540b02ddfc164cc8abe3959a25ab1cdcdcd254003c962"
+    },
+    "<magenta>When cast via Aphotic Marionette, this spell will affect the player instead.": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "a0f243bfb7128590a0adeb528bf29b8b23ff7820430c3616d63a7777d7fbbd6e"
+    },
+    "Chance to defeat your Will: @num@%": {
+      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "translation_sha256": "a65c13391a2191d7528c4f5a7a911873b19260656c702636dba13cbca38b05ff"
+    },
+    "Your character:": {
+      "context": "newgame.cc / character creation and seeded games",
+      "translation_sha256": "0becc94df6cc1450fb1199a6a5ba05ea95f7b057617103577fb60e4e8e30e47d"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

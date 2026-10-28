@@ -18,6 +18,7 @@ struct menu_letter;
 struct newgame_def;
 
 string newgame_char_description(const newgame_def& ng);
+string newgame_welcome(const newgame_def& ng, bool returning = false);
 
 void choose_tutorial_character(newgame_def& ng_choice);
 

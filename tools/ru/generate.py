@@ -6,7 +6,7 @@ from pathlib import Path
 from collections import Counter
 import argparse
 import json
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions, reviewed_random_messages
 from message_catalog import coverage as message_coverage
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -116,6 +116,11 @@ def outputs(entities):
     result[ROOT / "crawl-ref/source/dat/translate/ru/static.txt"] = write_db(
         {quoted(k): quoted(v) for k, v in static_entries.items()},
         "Generated from localization/ru/static.json; draft prose, protected engine tokens.")
+    random_messages = reviewed_random_messages()
+    for filename, entries in random_messages.items():
+        result[ROOT / f"crawl-ref/source/dat/database/ru/{filename}.txt"] = write_db(
+            {key: entry["text"] for key, entry in entries.items()},
+            "Generated from localization/ru/random-messages.json; reviewed random-message variants.")
     result[ROOT / "wiki/ru/static-catalog.json"] = json.dumps(static, ensure_ascii=False, indent=2) + "\n"
     descriptions = json.loads((ROOT / "localization/ru/character-descriptions.json").read_text(encoding="utf8"))
     gods = read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
@@ -219,6 +224,9 @@ def outputs(entities):
                  static_catalogs={name: len(static[name]) for name in STATIC_FILES},
                  static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
                  additional_system_messages=len(system_messages),
+                 reviewed_random_messages={name: dict(entries=len(entries),
+                     variants=sum(len(e["text"].split("\n\n")) for e in entries.values()))
+                     for name, entries in random_messages.items()},
                  imported_message_templates={k: messages_coverage[k] for k in ("total", "translated", "missing")},
                  reviewed_descriptions={name: len(group) for name, group in reviewed.items()},
                  descriptions={name: len(descriptions.get(name) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{name}.txt")) for name in DESCRIPTION_FILES},

@@ -8,6 +8,7 @@
 #include "l-libs.h"
 #include "initfile.h"
 #include "localise.h"
+#include "newgame.h"
 #include "options.h"
 #include "player-save-info.h"
 #include "ui.h"
@@ -170,6 +171,62 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     saved.saved_game_type = GAME_TYPE_TUTORIAL;
     CHECK(saved.short_desc() == "[Обучение] Vivor, ур. 2 · Человек · Воин");
     CHECK(saved.really_short_desc() == "Vivor · Человек · Воин");
+}
+
+TEST_CASE("Russian character greetings preserve user names and multiword choices", "[localise][single-file]")
+{
+    russian_localisation language;
+    newgame_def character;
+    character.name = "Human"; // A user name that is also a dictionary key.
+    character.species = SP_HUMAN;
+    character.job = JOB_CHAOS_KNIGHT;
+    CHECK(newgame_welcome(character) == "Добро пожаловать, Human. Человек · Рыцарь хаоса.");
+    character.name = "Вивор";
+    character.species = SP_DEEP_ELF;
+    character.job = JOB_AIR_ELEMENTALIST;
+    CHECK(newgame_welcome(character) == "Добро пожаловать, Вивор. Глубинный эльф · Маг воздуха.");
+    CHECK(newgame_welcome(character, true) == "С возвращением, Вивор. Глубинный эльф · Маг воздуха.");
+    character.species = SP_UNKNOWN;
+    character.job = JOB_UNKNOWN;
+    character.name.clear();
+    CHECK(newgame_welcome(character) == "Добро пожаловать.");
+
+    Options.language = lang_t::EN;
+    character.name = "Human";
+    character.species = SP_HUMAN;
+    character.job = JOB_FIGHTER;
+    CHECK(newgame_welcome(character) == "Welcome, Human the Human Fighter.");
+    CHECK(newgame_welcome(character, true) == "Welcome back, Human the Human Fighter.");
+    Options.language = lang_t::RU;
+}
+
+TEST_CASE("Russian runtime comparisons describe the direction of stat changes", "[localise][single-file]")
+{
+    russian_localisation language;
+    CHECK(localise("Your EV would decrease by 2.0 (10.0 -> 8.0).")
+          == "Уклонение уменьшилось бы на 2.0 (10.0 → 8.0).");
+    CHECK(localise("Your attack delay would increase by 0.2 (1.0 -> 1.2).")
+          == "Задержка атаки увеличилась бы на 0.2 (1.0 → 1.2).");
+    CHECK(localise("With your current stats and equipment, training 1 level of this skill would increase your AC by 0.4 and your EV by 0.1.")
+          == "С вашими текущими характеристиками и снаряжением повышение на один уровень этого навыка повысило бы броню на 0.4 и уклонение на 0.1.");
+    CHECK(localise("Your spell failure would improve by up to 3% (press '!' for details).")
+          == "Вероятность неудачи при колдовстве уменьшилась бы на величину до 3 процентных пунктов ('!' — подробнее).");
+    CHECK(localise("Enter a base skill target for Short Blades: ")
+          == "Укажите целевой базовый уровень навыка «Короткие клинки»: ");
+    CHECK(localise("Spell refund chance: 25% (max 50%)")
+          == "Шанс вернуть затраченную магию: 25% (максимум 50%)");
+
+    for (const string key : {"welcome_spam", "welcome_spam dungeon descent", "welcome_spam Halloween"})
+    {
+        for (int i = 0; i < 30; ++i)
+        {
+            const string message = getMiscString(key);
+            INFO(message);
+            CHECK(message.find("Сфер") != string::npos);
+            CHECK(message.find('@') == string::npos);
+            CHECK(message.find("Orb of Zot") == string::npos);
+        }
+    }
 }
 
 TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-file]")

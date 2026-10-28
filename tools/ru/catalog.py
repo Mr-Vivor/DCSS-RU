@@ -111,3 +111,25 @@ def reviewed_descriptions():
             if re.findall(r"\[\[.*?\]\]", original) != re.findall(r"\[\[.*?\]\]", entry["text"]):
                 raise ValueError(f"Changed description references: {filename}/{key}")
     return data
+
+
+def reviewed_random_messages():
+    """Keep random-message choices, weights, recursive references and Lua intact."""
+    data = json.loads((ROOT / "localization/ru/random-messages.json").read_text(encoding="utf8"))
+    for filename, entries in data.items():
+        source = read_db(ROOT / f"crawl-ref/source/dat/database/{filename}.txt")
+        for key, entry in entries.items():
+            original = source[key]
+            if hashlib.sha256(original.encode()).hexdigest() != entry["source_sha256"]:
+                raise ValueError(f"Recheck changed random-message source: {filename}/{key}")
+            expected = translated_lua(original, entry.get("lua_strings", {}))
+            if tokens(expected) != tokens(entry["text"]):
+                raise ValueError(f"Changed random-message syntax: {filename}/{key}")
+            choices = original.split("\n\n")
+            translated = entry["text"].split("\n\n")
+            if len(choices) != len(translated):
+                raise ValueError(f"Changed random-message choices: {filename}/{key}")
+            for before, after in zip(choices, translated):
+                if re.findall(r"^w:\d+$", before, re.M) != re.findall(r"^w:\d+$", after, re.M):
+                    raise ValueError(f"Changed random-message weights: {filename}/{key}")
+    return data
