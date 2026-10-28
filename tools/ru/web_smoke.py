@@ -118,6 +118,8 @@ def main():
                     assert "Сфер" in body, body
                     assert "Orb of Zot" not in body, body
                     assert "Welcome" not in body, body
+                    assert "+0 рапира" in body, body
+                    assert "+0 rapier" not in body, body
                     page.screenshot(path=str(ARTIFACTS / "first-level.png"), full_page=True)
                     (ARTIFACTS / "first-level.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                 except Exception:

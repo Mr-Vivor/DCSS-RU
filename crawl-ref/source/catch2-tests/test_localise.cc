@@ -181,11 +181,17 @@ TEST_CASE("Russian character greetings preserve user names and multiword choices
     character.species = SP_HUMAN;
     character.job = JOB_CHAOS_KNIGHT;
     CHECK(newgame_welcome(character) == "Добро пожаловать, Human. Человек · Рыцарь хаоса.");
+    // The message stream and Text widgets also run the localisation hook.
+    // A second pass must not translate the user's name as a species name.
+    CHECK(localise(newgame_welcome(character)) == newgame_welcome(character));
+    CHECK(localise(formatted_string(newgame_welcome(character))).tostring()
+          == newgame_welcome(character));
     character.name = "Вивор";
     character.species = SP_DEEP_ELF;
     character.job = JOB_AIR_ELEMENTALIST;
     CHECK(newgame_welcome(character) == "Добро пожаловать, Вивор. Глубинный эльф · Маг воздуха.");
     CHECK(newgame_welcome(character, true) == "С возвращением, Вивор. Глубинный эльф · Маг воздуха.");
+    CHECK(localise(newgame_welcome(character, true)) == newgame_welcome(character, true));
     character.species = SP_UNKNOWN;
     character.job = JOB_UNKNOWN;
     character.name.clear();
@@ -219,6 +225,9 @@ TEST_CASE("Russian runtime comparisons describe the direction of stat changes", 
     CHECK(localise("  flurble blorb  ") == "  flurble blorb  ");
     CHECK(localise("Spell refund chance: 25% (max 50%)")
           == "Шанс вернуть затраченную магию: 25% (максимум 50%)");
+    CHECK(localise("+0 rapier") == "+0 рапира");
+    CHECK(localise("-2 leather armour") == "-2 кожаный доспех");
+    CHECK(localise("+0 flurble") == "+0 flurble");
 
     for (const string key : {"welcome_spam", "welcome_spam dungeon descent", "welcome_spam Halloween"})
     {

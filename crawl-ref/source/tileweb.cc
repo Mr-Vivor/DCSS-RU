@@ -1486,7 +1486,9 @@ void TilesFramework::_send_item(item_def& current, const item_def& next,
         if (force_full || current.name(DESC_A, true, false, true) != name
             || xp_evoker_changed)
         {
-            json_write_string("name", name);
+            // This inventory field is display text. Keep the raw name above
+            // for action ordering, and preserve the numeric slot identifiers.
+            json_write_string("name", localise(name));
         }
 
         // -1 in this field means don't show. *note*: showing in the action

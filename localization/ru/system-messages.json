@@ -6880,5 +6880,9 @@
   "<magenta>This spell cannot be performed via Aphotic Marionette.</magenta>": "<magenta>Это заклинание нельзя сотворить с помощью Марионетки тьмы.</magenta>",
   "<magenta>When cast via Aphotic Marionette, this spell will affect the player instead.": "<magenta>При сотворении через Марионетку тьмы это заклинание подействует на игрока.",
   "Chance to defeat your Will: @num@%": "Шанс преодолеть вашу Волю: @num@%",
-  "Your character:": "Ваш персонаж:"
+  "Your character:": "Ваш персонаж:",
+  "Добро пожаловать, @player_name@.": "Добро пожаловать, @player_name@.",
+  "С возвращением, @player_name@.": "С возвращением, @player_name@.",
+  "+@num@ @arg@": "+@num@ @arg@",
+  "-@num@ @arg@": "-@num@ @arg@"
 }

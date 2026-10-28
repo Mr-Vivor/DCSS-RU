@@ -27083,6 +27083,22 @@
     "Your character:": {
       "context": "newgame.cc / character creation and seeded games",
       "translation_sha256": "0becc94df6cc1450fb1199a6a5ba05ea95f7b057617103577fb60e4e8e30e47d"
+    },
+    "Добро пожаловать, @player_name@.": {
+      "context": "newgame.cc repeated UI localisation / tileweb.cc terse inventory names; preserve user names and enchantment signs",
+      "translation_sha256": "81b28f914f217d205d12efe7a991aff8ff1a048f34d2093d35758d590b931b19"
+    },
+    "С возвращением, @player_name@.": {
+      "context": "newgame.cc repeated UI localisation / tileweb.cc terse inventory names; preserve user names and enchantment signs",
+      "translation_sha256": "9d46114c5d570cf3f1f7caa8a8d729d3b8b54a9f9bbe8ce58ed1bacf458a0678"
+    },
+    "+@num@ @arg@": {
+      "context": "newgame.cc repeated UI localisation / tileweb.cc terse inventory names; preserve user names and enchantment signs",
+      "translation_sha256": "80d7f0cea076582743aa82cbe948456c7db82903e625dd8f98229c1216eaf38b"
+    },
+    "-@num@ @arg@": {
+      "context": "newgame.cc repeated UI localisation / tileweb.cc terse inventory names; preserve user names and enchantment signs",
+      "translation_sha256": "a1da6a52f842f199dda6cd4d9162b14278ddda37babaf79b44ff3a0561da4f03"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
