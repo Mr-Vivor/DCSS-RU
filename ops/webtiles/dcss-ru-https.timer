@@ -1,0 +1,11 @@
+[Unit]
+Description=Retry initial DCSS-RU HTTPS provisioning while DNS propagates
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=30min
+RandomizedDelaySec=30
+Unit=dcss-ru-https.service
+
+[Install]
+WantedBy=timers.target

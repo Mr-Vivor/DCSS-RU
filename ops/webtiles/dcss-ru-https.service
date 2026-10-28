@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable DCSS-RU HTTPS after domain DNS is ready
+After=network-online.target nginx.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /srv/dcss-ru/bin/enable-https.py
+TimeoutStartSec=300
