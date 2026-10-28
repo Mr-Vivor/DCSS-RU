@@ -59,7 +59,8 @@ private:
 TEST_CASE("Russian command help translates before binding and column layout", "[localise][single-file]")
 {
     russian_localisation language;
-    init_keybindings();
+    if (command_to_name(CMD_WIELD_WEAPON) == "CMD_NO_CMD")
+        init_keybindings();
     for (bool hints : { false, true })
     {
         const string text = command_keyhelp_text(hints).tostring();
@@ -76,9 +77,14 @@ TEST_CASE("Russian command help translates before binding and column layout", "[
         for (const string &line : split_string("\n", text, false, true))
             CHECK(strwidth(line) <= 82);
     }
+    const int previous_key = command_to_key(CMD_WIELD_WEAPON);
+    const command_type displaced_command = key_to_command('W',
+                                           context_for_command(CMD_WIELD_WEAPON));
     bind_command_to_key(CMD_WIELD_WEAPON, 'W');
     CHECK(command_keyhelp_text().tostring().find("оружие (взять — W)") != string::npos);
-    init_keybindings();
+    bind_command_to_key(CMD_WIELD_WEAPON, previous_key);
+    if (displaced_command != CMD_NO_CMD)
+        bind_command_to_key(displaced_command, 'W');
 
     Options.language = lang_t::EN;
     CHECK(command_keyhelp_text().tostring().find("hand weapons (wield)") != string::npos);
