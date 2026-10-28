@@ -66,6 +66,7 @@ TEST_CASE("Russian command help translates before binding and column layout", "[
         CHECK(text.find("Передвижение:") != string::npos);
         CHECK(text.find("зелья (выпить — q)") != string::npos);
         CHECK(text.find("посохи (взять — w)") != string::npos);
+        CHECK(text.find("талисманы (применить — V)") != string::npos);
         CHECK(text.find("колдовать") != string::npos);
         CHECK(text.find("hand weapons") == string::npos);
         CHECK(text.find("memorise") == string::npos);
