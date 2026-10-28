@@ -191,6 +191,14 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     const string human = getLongDescription("Spellcasting");
     CHECK(human.find("уровней для изучения") != string::npos);
     CHECK(getLongDescription("Invocations").find("запас магии") != string::npos);
+    CHECK(getLongDescription("quick blade").find("два удара") != string::npos);
+    CHECK(getLongDescription("quicksilver dragon scales").find("нельзя зачаровать") != string::npos);
+    CHECK(getLongDescription("javelin").find("слишком длинное") == string::npos);
+    you.species = SP_KOBOLD;
+    CHECK(getLongDescription("javelin").find("слишком длинное") != string::npos);
+    CHECK(getLongDescription("large rock").find("только крупные") != string::npos);
+    you.species = SP_TROLL;
+    CHECK(getLongDescription("large rock").find("только крупные") == string::npos);
     you.species = old_species;
 
     // Exercise the real artifact formatter, including long wrapped text and

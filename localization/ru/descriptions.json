@@ -384,6 +384,534 @@
       "source_sha256": "220c2ba858df3c51d277f9929fbf1b94c388c8d39bf905025dc9461872bd5242",
       "text": "Волшебное устройство, создающее кратковременный, но мощный пространственный разрыв. Он ранит всех задетых существ и иногда перемещает их скачком на небольшое расстояние.",
       "context": "Current upstream item description; effects, restrictions and timing checked against the English source."
+    },
+    "acid dragon scales": {
+      "source_sha256": "167cd55882ecaaee1d2175e99b19ba4455b785cc43171e7bcf40c8aa44c714dd",
+      "text": "Чешуя кислотного дракона. Защищает слабее, чем доспехи из чешуи некоторых крупных драконов, зато легче и меньше стесняет движения. Её необычайно гладкая поверхность позволяет едкой слизи стекать, словно воде.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "animal skin": {
+      "source_sha256": "10d0b1896826f32b8c2e3bfdee8a3f1987e263aa12c98a5581bf9ece8a964c05",
+      "text": "Большой кусок толстой меховой шкуры, снятой с туши животного и служащей примитивной одеждой. Даёт лишь простейшую защиту. Шкура не выделана, поэтому от неё слегка пахнет гниющей плотью.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "arbalest": {
+      "source_sha256": "e8b68babe5cb67f8128f4c34cd2e0337398ebb03a292d2ab827609c9ff83fbf6",
+      "text": "Большой механизм для стрельбы болтами, усиленный сталью и взводимый воротом. Заряжание и выстрел требуют времени.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "assassin centipede": {
+      "source_sha256": "b59f023a0e690aafbeca3a7882e4689ea6c13094d2eacb29ca5f44085167aba8",
+      "text": "Живое оружие с острыми как кинжалы ногочелюстями и большой досягаемостью. Его уколы вводят ослабляющие токсины, а при высоком уровне зачарования могут даже ненадолго замедлить или парализовать врага.\n\nПосле некоторого числа атак многоножка отделяется от вашего тела и некоторое время самостоятельно атакует врагов, прежде чем погибнуть.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "athame": {
+      "source_sha256": "0fd7704ae24ff77653338448ace8a1698c4a6c81b3ba1ce93cf4ca5366196fd5",
+      "text": "Богато украшенный зачарованный ритуальный нож. Даже взяв его в руки, вы теряете немного здоровья. Удары по врагам под отрицательными эффектами, кроме яда, получают повышенный базовый урон: до +4 при двух таких недугах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "bardiche": {
+      "source_sha256": "c49491b9a7faa0c6e80c1cb2f21b102f7a4d059c9c3fef29ffe29a198372b770",
+      "text": "Длинное древко с огромным рубящим лезвием на конце.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "barding": {
+      "source_sha256": "bbb431f6d8e41856b6a6977c3b0e741ed9788402b824e9e475ad559171925bf2",
+      "text": "Доспех для чешуйчатой нижней части тела наг и кентавров.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "battleaxe": {
+      "source_sha256": "2de1bd139c003d5722b59825b4da8795bac7ae7f1c05e5a6d1648d419f36cc9e",
+      "text": "Большой боевой топор с грозным двусторонним лезвием.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "boomerang": {
+      "source_sha256": "f63254a37cce63a1d72e32147b46ba0d60681ef06b20a6fb61e1397e0d57cf39",
+      "text": "Изогнутая плоская метательная палка, возвращающаяся к владельцу.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "broad axe": {
+      "source_sha256": "b4bbdde6b06fcb7ba019304eca1a5de3756848b73d5dd5fb6c17e78ce337f387",
+      "text": "Топор с укрепляющими накладками, шипами, удлинённым топорищем и односторонним полулунным лезвием.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "buckler": {
+      "source_sha256": "f504f436f6be301e2524f7a396171173473df2865394ea7e8e3016999c69a44a",
+      "text": "Небольшой щит из дерева и металла, закрепляемый на одной руке для защиты.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "chain mail": {
+      "source_sha256": "dea99834d223698f0c5009d91b08269573ada7ec1daff10a886328f50a474db8",
+      "text": "Доспех, целиком сплетённый из маленьких металлических колец.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "cloak": {
+      "source_sha256": "cc3d3cdab115c6b35f58b041a53fd324efdbd23b08c67d3e6a4c53fcd481b327",
+      "text": "Тканевый плащ.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "club": {
+      "source_sha256": "ffd11d2eec1fb1af61dcf5ad067c7e6be99fcde8bf0116961d9c80e77cfab20a",
+      "text": "Тяжёлый кусок дерева. Дубинка — оружие примитивное, но проломить ею кому-нибудь череп по-прежнему считается популярным и действенным способом разрешения споров.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "crystal plate armour": {
+      "source_sha256": "0fd4adf647e73545047b2c61f3ac8ac22081f4f29004fd3e8a045559f3646f67",
+      "text": "Невероятно тяжёлый, но исключительно надёжный кристаллический доспех.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "dagger": {
+      "source_sha256": "c0186fa287342c7cc5d50723d50995d8d30b5bfe9dd5ffde62ac69d3d06788cb",
+      "text": "Боевой нож с обоюдоострым лезвием и острым концом.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "dart": {
+      "source_sha256": "9aa36e655fd1fae8e1c8ff5cb7ef6cbf025cb9107f8b87919b40d266266ea3bc",
+      "text": "Тонкий металлический дротик, обычно покрытый каким-нибудь вредоносным веществом. При броске он вводит токсины в кровь живого или демонического существа.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "demon blade": {
+      "source_sha256": "5d6568c69ed1d73fb8fa2711db7d94141944d64cb2d69ce07536699ca8db86ad",
+      "text": "Ужасное оружие, выкованное в пламени Ада.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "demon trident": {
+      "source_sha256": "d758f869c21af31d77b741897c62823a8c18bce8677d4717ad7e10d51463e4b6",
+      "text": "Ужасное трёхзубое оружие, созданное огнём и серой.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "demon whip": {
+      "source_sha256": "9a73f024c3ea8ba250e89a6378d1a4ed744db0623cdf144f3511037b2511176f",
+      "text": "Ужасное оружие, сплетённое в адских глубинах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "dire flail": {
+      "source_sha256": "f418c94fe7c1ccbb898030d8c5979972341183e5824a749b691cfab4a94edd04",
+      "text": "Цеп с длинными шипами и тяжёлым навершием.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "double sword": {
+      "source_sha256": "83eeb4923320bd8fe41217d2ecb265d3559d3da7a6d07a2a371b34f160ec4de5",
+      "text": "Грозное оружие с раздвоенным, острым как бритва клинком.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "eudemon blade": {
+      "source_sha256": "a5ea2b2a6372378772210caeece3d6ed54a6e6b99305b9917f8dd6a6db01ab55",
+      "text": "Священный клинок из небесных кузниц, в котором обитает добрый дух. Излюбленное оружие слуг Сияющего.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "eveningstar": {
+      "source_sha256": "35f65653704e12e712f410dca179e838254f688357407fd6328b0999f267ac9d",
+      "text": "Противоположность моргенштерну. Сбалансированная булава с длинной рукоятью и металлическим навершием, покрытым смертоносными шипами.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "executioner's axe": {
+      "source_sha256": "f8e92160bf8bc3269d9ce770ff62dc92faecfc2c5749a641db6e116338dc2401",
+      "text": "Грозное оружие с огромным лезвием, покрытое засохшей кровью и грубыми изображениями пыток и смерти.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "falchion": {
+      "source_sha256": "ce69aaf8e9c4a3ae425fd8723eb8ca96c05fa31e3749bbe0e6a326af6e15a040",
+      "text": "Длинный однолезвийный меч со слегка изогнутым клинком.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "fire dragon scales": {
+      "source_sha256": "2dab2dcfc8a5be6ea6ef46654183663cc9ffab12942e902f09b9a9aeaeb88734",
+      "text": "Чешуя огнедышащего дракона. Даёт сильную защиту от огня, но делает владельца более уязвимым к холоду.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "flail": {
+      "source_sha256": "3c09725fd7d79a475a6788e8c1229c0ddd831086814550f76fc50824edb6f9cd",
+      "text": "Булава, у которой навершие соединено с рукоятью короткой цепью.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "giant club": {
+      "source_sha256": "aeee8e63f42b606b5fceeab1c345322596cba84012de8620d99d00037040fa1f",
+      "text": "Гигантский кусок дерева.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "giant spiked club": {
+      "source_sha256": "23c868ad99ea473663638043e92718e72d2bf3399f8360effa61dbfe38e0f78a",
+      "text": "Гигантский кусок дерева с острыми шипами на одном конце.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "glaive": {
+      "source_sha256": "a621cb683598028ce865374d64fb7200db68f9de65320c55c38956aa6e69ecf3",
+      "text": "Древко с большим тяжёлым лезвием на конце.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "golden dragon scales": {
+      "source_sha256": "737dd90e482277aca94ea5490e61f1fa64ca9bb7b71318beeaa1e0dcccb5a968",
+      "text": "Чешуя золотого дракона. Гораздо тяжелее большинства драконьих доспехов и даёт владельцу устойчивость к яду, огню и холоду.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "great mace": {
+      "source_sha256": "861e96af2fc5522b7da48601826f275e1fea624734cd9269fcfbec80fd8dd4ae",
+      "text": "Огромная металлическая боевая булава, весьма громоздкая.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "great sword": {
+      "source_sha256": "e6ab6aab7d25e6fbd57e1c9bf320b5360616de058b0d9bcbdb9297a0c4408eb5",
+      "text": "Меч с очень длинным тяжёлым клинком и длинной рукоятью.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "halberd": {
+      "source_sha256": "7b5205944086417862edd0700029618c369a7f8fcd5e4304e7f1fb8374966229",
+      "text": "Древковое оружие с топорным лезвием и остриём над ним.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "hammer": {
+      "source_sha256": "a5ad02a35c3b514063b227719e1d15b4b68ce7d3e8c84f44c21f39f38c06b7d9",
+      "text": "Тупое ударное оружие, по сути аналогичное булаве.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "hand axe": {
+      "source_sha256": "f289fcf6de6716ac1883663756ae0edb42af3cbd91a6f2f4c2029962dc77fe69",
+      "text": "Небольшой топор.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "hand cannon": {
+      "source_sha256": "0acfa030c1cd47bbb919b5911c69fbc7c93fed78250a45467de6a3fe85fc2425",
+      "text": "Устройство, стреляющее металлическими пулями при помощи прикладного чародейства. Одни зачаровывают пули так, чтобы те падали вперёд, а не вниз; другие наделяют их роковым влечением к цели. Все такие пушки медленны, шумны и выбрасывают густой дым при каждом выстреле.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "hat": {
+      "source_sha256": "9002847e6f602d386b181986ac614440a684a04cb951ffcd72acc44fb5cd9573",
+      "text": "Тканевая шапка.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "helmet": {
+      "source_sha256": "622f1ced4f198223c3546be11f3058290bbb02386b55e6bd0d385e13cbc86ca3",
+      "text": "Металлический головной убор.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "sling": {
+      "source_sha256": "d10d5d4ef8090f8e6e793915e43b35bff0eab636c17c77863f4cbde4737499cf",
+      "text": "Приспособление из ткани и кожи для метания камней, подходящее для охоты на мелкую дичь вроде кроликов или гоблинов.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "ice dragon scales": {
+      "source_sha256": "7e4b34dda91ee40b59e1c87044f41522621c5adeb2bea637c5ef4b098ac7b2c7",
+      "text": "Чешуя дракона с морозным дыханием. Даёт сильную защиту от холода, но делает владельца более уязвимым к огню.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "javelin": {
+      "source_sha256": "83ea56d6ccbee79861a672a5be771f5c5cfc293b0c82da636a053ac8b20070fa",
+      "text": "Лёгкое пробивное копьё для метания. Пролетает сквозь поражённые цели и может задеть всех на своём пути вплоть до предельной дальности.\n{{\n    if you.race() == \"Kobold\" or you.race() == \"Spriggan\" then\n        return \"К сожалению, оно слишком длинное и неудобное для вас.\"\n    end\n}}",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version",
+      "lua_strings": {
+        "Unfortunately, it is too long and awkward for you to use.": "К сожалению, оно слишком длинное и неудобное для вас."
+      },
+      "wiki_text": "Лёгкое пробивное копьё для метания. Пролетает сквозь поражённые цели и может задеть всех на своём пути вплоть до предельной дальности.\n\nКобольды и спригганы не могут им пользоваться."
+    },
+    "kite shield": {
+      "source_sha256": "e5a8bec0d62f555be5b0890602fbcb26c6ea0aedd99e6fea1d9f01cf608ea9e3",
+      "text": "Щит из дерева и металла, закрепляемый на одной руке для защиты.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "lajatang": {
+      "source_sha256": "95e9bd7739ec025f16276e03c1c1b6ec5f213b2bec516f7dd3a4c4703a3a0421",
+      "text": "Очень редкое и исключительно эффективное оружие: древко с полулунными лезвиями на обоих концах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "large rock": {
+      "source_sha256": "4a3a8143467cdc9aece905ca0f1c53376c280a21222477bce838888bd2b2590d",
+      "text": "Очень большой и очень тяжёлый камень.\n{{\n    if you.race() == \"Oni\"\n       or you.race() == \"Troll\"\n   then\n       return \"\"\n   else\n       return \"Метать его способны только крупные существа.\"\n   end\n}}",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version",
+      "lua_strings": {
+        "Only large creatures are capable of throwing it.": "Метать его способны только крупные существа."
+      },
+      "wiki_text": "Очень большой и очень тяжёлый камень.\n\nМетать его способны только крупные существа."
+    },
+    "leather armour": {
+      "source_sha256": "c7798a10af626f76d66c2fb5aef17b09e78e96e63171909603c1fe5fc5f063f5",
+      "text": "Доспех из нескольких слоёв выделанной звериной кожи. Даёт базовую защиту, почти не мешая колдовству и скрытному передвижению.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "long sword": {
+      "source_sha256": "0a75fdbc8504763bb25d7e1fc9514fa5b7a89c26e2056456e4781d7363cbf663",
+      "text": "Меч с длинным рубящим клинком.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "longbow": {
+      "source_sha256": "8559da5a63762b7e2749df38a9ff65f1abc154c4644e59fa539a7c0fc14e60ac",
+      "text": "Длинный крепкий лук из тиса.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "mace": {
+      "source_sha256": "7b0ee7ff08819db668538261d1d61e10b57822d6c2322a534d86a2c107834bdf",
+      "text": "Короткая дубинка с металлическим навершием.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "morningstar": {
+      "source_sha256": "7841823c22cde7a9cae75000cd150ce6698581ad37871024a438d42ed1049a8a",
+      "text": "Булава с навершием, покрытым короткими шипами.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "orb": {
+      "source_sha256": "1b8d17f9a633ae67271806933ebba2c261e4e8c7d6238d60402ee2907bc25feb",
+      "text": "Кристальная сфера, которую держат вместо щита. В её глубине мерцает магия.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "orb of zot": {
+      "source_sha256": "a0ca4d9ffa23f64d7a583568dece3c39bbb17ea567acc0e124001bba9e9e9578",
+      "text": "Бесценный артефакт. Когда вы выберетесь с ним на поверхность, ваша цель будет достигнута.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "orcbow": {
+      "source_sha256": "85d304e3e9a1f34896a5223ce2b44127b722fbef3b9c891ee131638f917e23ce",
+      "text": "Изогнутый лук, грубо сделанный из кости тролля и волос варга. Стрельба из лука, столь несвойственная наземным предкам пещерных орков, показывает влияние их эльфийских союзников.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "pair of boots": {
+      "source_sha256": "e7f2cd95e2cad10c774e44946037cb98661e847ed0c410f608cd13b4a51201bb",
+      "text": "Пара сапог. Их носят на ногах; они закрывают любые копыта и когти, кроме самых больших.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "pair of gloves": {
+      "source_sha256": "5596cbf64d7182234fe64abfbb5832510b194d0e7d97664059ac4cd2da1ddad7",
+      "text": "Пара перчаток. Их носят на руках; они закрывают любые когти, кроме самых больших.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "partisan": {
+      "source_sha256": "bffead325ec20cfb97ba08447f96bc82bc3646ee8b64b03f086e52589051e47a",
+      "text": "Длинное древковое оружие с острыми выступами по обеим сторонам наконечника копья.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "pearl dragon scales": {
+      "source_sha256": "17375e3761c2c4b0d999f5a39f75288b901294a66ac32fc7d5dc7b5c0d27b8f3",
+      "text": "Перламутровая чешуя жемчужного дракона. Даёт владельцу устойчивость к отрицательной энергии.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "plate armour": {
+      "source_sha256": "9ab36f584f7d77510c34dea00bc7e290d901f271a2393f69961488c5ca522bbc",
+      "text": "Полный доспех из цельных металлических пластин: кирасы, наплечников, наручей, поясной пластины и поножей. Даёт превосходную защиту.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "quarterstaff": {
+      "source_sha256": "9d7dfd1fd1a24c3ec37b3d7a8a0819ed8baed519509070a9f9d4131bda94eb02",
+      "text": "Крепкий деревянный шест, предназначенный для боя.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "quicksilver dragon scales": {
+      "source_sha256": "249cc9d36648a93aa4cde121373ac5bde172c4cc1e7d1b9541c122ccfe615dff",
+      "text": "Чешуя ртутного дракона. Защищает слабее, чем чешуя некоторых более тяжёлых драконов, зато легче и меньше стесняет движения. Доспех отражает как воздействия на волю владельца, так и магические изменения самого себя: его нельзя зачаровать.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "quick blade": {
+      "source_sha256": "194c9a995e34521b0ccf0820c93cebc704e88a8f6bdb6fcde2ea28463b1e69e4",
+      "text": "Кинжал под необычайными чарами, наносящий два удара за каждый взмах владельца. Для полного раскрытия его возможностей требуется большое мастерство.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "rapier": {
+      "source_sha256": "e6a8f4fc679b70ff0e187aafe0ab544bf9006d6b025d7523d7683521fa9a8b2b",
+      "text": "Тонкий меч с острым концом, отличающийся необычайно изящной конструкцией.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "ring mail": {
+      "source_sha256": "a626325ba48f0d32fa70d8fde433531e4ebec016ddcb9c1b9f1eadadb0db1a2e",
+      "text": "Лёгкий кожаный доспех, усиленный металлическими кольцами. Защищает в бою, но из-за дополнительного веса слегка неудобен.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "robe": {
+      "source_sha256": "c275649dd4f5a15c0edc4274f574a63eb7c61d7e380900523a1e4f3c2d01a3aa",
+      "text": "Широкое свободное одеяние из лёгкой ткани с просторными рукавами. Почти не защищает от физических повреждений, зато не мешает уклонению и колдовству.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "sacred scourge": {
+      "source_sha256": "7791e72f05791dc462bb1b8ccd1d255f037fb8fcb3ef6c731feab3dc1e4b4069",
+      "text": "Благословенное оружие, сплетённое небесными святыми и ненавистное нечестивым существам. Излюбленное оружие слуг Сияющего.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "scale mail": {
+      "source_sha256": "d5c55dc706b19899eb18f38e9634ac1eec9ae90b07221436095bbc93acf27da3",
+      "text": "Кожаный доспех с металлическими пластинами, соединёнными перекрывающимися рядами. Обеспечивает сплошную защиту ценой свободы движений.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "scarf": {
+      "source_sha256": "1a5119892289759bd2c1e9ae4ba6e08924fcbced95e68219a6022844007b5601",
+      "text": "Полоса стильной ткани. Чары были вплетены в неё при изготовлении, поэтому дальше зачаровать её нельзя.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "scimitar": {
+      "source_sha256": "3ddf86d00afc4b9cf4e8b8f20e24540415e8b07d81b5910c4e1a4f2415f3107e",
+      "text": "Длинный меч с широким изогнутым клинком.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "scythe": {
+      "source_sha256": "b775eeaf1e951eaef65031853d1fedf70d5220202bc0cd3190b3baf493d6c00d",
+      "text": "Сельскохозяйственное орудие, обычно применяемое в бою лишь необученной толпой. На практике весьма похоже на алебарду.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "shortbow": {
+      "source_sha256": "312cd200c52ce03c303c6cd4b6f1dbc35494305a2c414f368dbb815788b13946",
+      "text": "Изогнутая деревяшка с тетивой для стрельбы стрелами.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "short sword": {
+      "source_sha256": "5176ae98402730842247c96b8370f7ff8e4998052f330d626689ae8b57d26427",
+      "text": "Короткоклинковое колющее оружие с небольшой рукоятью.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "spear": {
+      "source_sha256": "1f918f7b5eef276e08854a4ffa7cb6ed7ac512003ddcf68ed7e8a9ebe11c9a76",
+      "text": "Охотничье оружие: деревянное древко с острым металлическим наконечником.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of air": {
+      "source_sha256": "70a5b648f4cbc78e90b4d61164eb206f2f056126bbb604b61b948da88489dea4",
+      "text": "Посох, усиливающий заклинания Воздуха и защищающий владельца от электричества. Владение навыками Управления устройствами и Магии воздуха позволяет при ударах поражать врагов электричеством; этот урон обходит половину брони цели.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of alchemy": {
+      "source_sha256": "8ec63e040cdcd9a03a3be78010302f7dc621af8c56a222b30a3f5addfafd32b5",
+      "text": "Посох, усиливающий заклинания Алхимии и защищающий владельца от яда. Владение навыками Управления устройствами и Алхимии позволяет отравлять врагов при ударах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of cold": {
+      "source_sha256": "af875e62c396441b493788d7ba2399de1c8d34aeb6ce2e84348333bb31a93745",
+      "text": "Посох, усиливающий ледяные заклинания и защищающий владельца от холода. Владение навыками Управления устройствами и Магии льда позволяет замораживать врагов при ударах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of conjuration": {
+      "source_sha256": "312ea613f04115b0c85fd0272ce0a68a7f99e2e6e2135751ed92f678f9286f2c",
+      "text": "Посох, усиливающий заклинания Разрушения. Владение навыками Управления устройствами и Разрушения позволяет поражать врагов чистой энергией при ударах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of necromancy": {
+      "source_sha256": "c38c1582128b99315938ce4c7774a1a1079d6e618465823ca7bfd46d79f4ef08",
+      "text": "Посох, усиливающий некромантические заклинания и защищающий владельца от отрицательной энергии. Владение навыками Управления устройствами и Некромантии позволяет причинять живым врагам сильную боль при ударах: этот урон отрицательной энергией обходит броню.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of earth": {
+      "source_sha256": "710eb40c71a1166ef943cdd85dc046d4d6e5c543eb2d93a8fa4bb8fe628794f9",
+      "text": "Посох, усиливающий заклинания Земли. Владение навыками Управления устройствами и Магии земли позволяет при ударах раскалывать землю под врагами, нанося значительный урон. Летающие существа получают от этого гораздо меньше урона.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "staff of fire": {
+      "source_sha256": "39e354358f1273452e1ca8a1f2d70bf2155990df7d097fcc0f87c83f0e2dcdb8",
+      "text": "Посох, усиливающий огненные заклинания и защищающий владельца от огня. Владение навыками Управления устройствами и Магии огня позволяет обжигать врагов при ударах.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "steam dragon scales": {
+      "source_sha256": "6623c3b1f618e8f60a63124596d539c6a942087f5ea2b7d0f12217945157f97b",
+      "text": "Чешуя дракона, дышащего паром. В отличие от чешуи некоторых крупных драконов, почти не защищает, кроме устойчивости к обжигающему пару, зато исключительно легка и гибка.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "stone": {
+      "source_sha256": "0f31ab469ebf9ec081408fcb198c877169278b569e3b6f2b49903d42fe9ac866",
+      "text": "Небольшой кусочек плотного, ничем не примечательного природного минерала. Его можно метнуть, чтобы нанести небольшой урон.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "shadow dragon scales": {
+      "source_sha256": "e354411d0b64aafee13c26d2d43dcac11929faeae56a5f2c9d5a69223b1535af",
+      "text": "Чешуя великого теневого дракона. Тяжелее большинства драконьих доспехов, но её тяжесть не ухудшает скрытность. Кроме того, она сама повышает скрытность владельца.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "storm dragon scales": {
+      "source_sha256": "d0ad12690989a7af12f7cf17b6f25be26f7e54bbe671d7d66213adf13f511be2",
+      "text": "Чешуя дракона, дышащего молниями. Тяжелее большинства драконьих доспехов и даёт владельцу устойчивость к электрическим разрядам.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "swamp dragon scales": {
+      "source_sha256": "9a1ce3a34122c00e7b86ed66eb32fa87df040b341c326443833eab5b04f0d20f",
+      "text": "Чешуя болотного дракона. Даёт владельцу устойчивость к яду.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "throwing net": {
+      "source_sha256": "0ac0c25d62d853693610929ad7d43487df22ef8639b2dcc381ddd05959ba2f05",
+      "text": "Сеть из связанных верёвок с грузилами по краям, предназначенная для опутывания целей. Пойманные жертвы со временем могут разорвать сеть и освободиться — если проживут достаточно долго.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "tower shield": {
+      "source_sha256": "efee374daff6f8d05d7199040b9c635f788308458f863307a193ec10868abae5",
+      "text": "Большой щит из дерева и металла, закрепляемый на одной руке для защиты.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "trident": {
+      "source_sha256": "d39436c0ac7fcac955cf00ef6ef10d1b9843bf8b4dcc2e1868b41357ec28a14d",
+      "text": "Рыболовная острога, усовершенствованная длинным древком и трёхзубым металлическим наконечником.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "triple crossbow": {
+      "source_sha256": "fd0828b1387dce4a09f5900cc97fcaf60e243ca29e4864d408d4338883500d6e",
+      "text": "Арбалет с тремя последовательно расположенными тетивами, обеспечивающими исключительную мощь. Изначально задумывался как осадное орудие, затем был уменьшен. Заряжание и выстрел требуют значительного времени.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "triple sword": {
+      "source_sha256": "641ddb8723feabdbfd3646c5e504c49f0e7ca0d64e55ef4fdbdfc76d276a12c0",
+      "text": "Грозное оружие, созданное искусным мастером. Клинок меча разветвляется на три огромных лезвия, острых как бритва.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "trishula": {
+      "source_sha256": "251f105c69eb90a7396c704f4a7982b85475377410f485018fa3b7b5bdda539e",
+      "text": "Благословенный трезубец, созданный очищающим пламенем. Три острия символизируют объединённое могущество трёх добрых богов. Излюбленное оружие слуг Сияющего.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "troll leather armour": {
+      "source_sha256": "3b1f1f331cac7f95fc2f819335a0fe6cff5d2a37cab52c513bf3bd8d71e44b38",
+      "text": "Жёсткая бугристая кожа тролля. Магически восстанавливает плоть владельца после того, как настроится на его тело при полном здоровье.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "war axe": {
+      "source_sha256": "9371a9114a09253044c285507ac30011edf5371f0ba06244f192f812f8a4378c",
+      "text": "Боевой топор с длинным топорищем и односторонним лезвием.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "whip": {
+      "source_sha256": "b9cbde3fac3d571b0852dec9d366a6aed7a458e82b1df2d8f6f2a2af8a1aab3d",
+      "text": "Длинная плетёная кожаная полоса. Первоначально служила для разногласий со скотом; теперь это простое оружие широко используется для улаживания споров между самыми разными существами.",
+      "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
+    },
+    "box of beasts": {
+      "source_sha256": "aed1715b515fa16c32b46a7cbfd929f80851226a08858ddc7b214a700d69e44c",
+      "text": "Ящик с причудливыми остатками магических опытов порочного волшебника. При открытии может выпустить дружественного зверя-мутанта — странное существо со своим сочетанием свойств. Чем выше навык Управления устройствами, тем сильнее выпущенный зверь.\n\nИзвестны шесть свойств:\n * Звери-летучие мыши летают и движутся очень быстро, но беспорядочно.\n * Огненные звери устойчивы к огню и дышат им.\n * Звери-быки устойчивы к холоду, защищены густым мехом и могут отбрасывать врагов.\n * Электрические звери устойчивы к электричеству и могут превращаться в живую молнию.\n * Жалящие звери устойчивы к яду и атакуют ядовитым хвостом на расстоянии.\n * Странные звери видят невидимое и сдавливают врагов щупальцами.\n\nНасколько известно, у каждого зверя ровно два таких свойства.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "condenser vane": {
+      "source_sha256": "ffb260aaeb7ffe25ae1d3124dfb17e4a50488d33424c37abaaa4d5b2c06045ee",
+      "text": "Магическое устройство, сгущающее окружающую энергию в различные разрушительные облака. При активации они образуются вокруг враждебных монстров поблизости. Их количество и смертоносность растут с навыком Управления устройствами. При малой мощности возникают одурманивающие испарения; затем становятся доступны бушующее пламя, ледяной пар и ядовитый газ. На высших уровнях мощности появляются грозовые тучи, кислотный туман и облака мучительных страданий.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "figurine of a ziggurat": {
+      "source_sha256": "3c56a0ba6f8d9f428cc7489dc94c89b94fb174dd51ac6a68058371ad4924a536",
+      "text": "Маленькая фигурка из странного материала в форме ступенчатой пирамиды. Она поразительно подробна — словно настоящее огромное сооружение каким-то образом уменьшили до размера меньше человеческой ладони.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "gell's gravitambourine": {
+      "source_sha256": "e0cf2de43962e962f0959093003a4f534e275af9ec0009890b6e9efcc02a51fd",
+      "text": "Медно-вольфрамовый бубен возбуждённо вибрирует в руках, словно жаждет, чтобы им воспользовались.\n\nМузыка сближает: если встряхнуть бубен в нужном ритме, он стянет большую группу монстров в тесное пространство и ненадолго удержит враждебных на месте неотвратимыми волнами сокрушительной гравитации.\n\nОбласть действия и длительность растут с навыком Управления устройствами.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "horn of Geryon": {
+      "source_sha256": "1df48278600e657dfb563cc203bcf52618dbae533c019eda06babd0dd602fe9d",
+      "text": "Рог Гериона, стража Преддверия Ада. Способен призывать демонических зверей. Высокий навык Управления устройствами позволяет призвать больше зверей с меньшей вероятностью того, что они окажутся враждебными.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "lightning rod": {
+      "source_sha256": "7af35f0f39bf448901720b9d6ad50e95c9956b650c756bdf78ee39cea0c78e52",
+      "text": "Жезл, выпускающий неотвратимые разряды молнии. Последовательные активации поддерживают разряд, увеличивая его мощность вплоть до четырёхкратной и позволяя перенаправить его на целую область. Сила разряда растёт с навыком Управления устройствами, а при перенаправлении уменьшается с размером поражаемой области.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "phantom mirror": {
+      "source_sha256": "3061347200fcd12e3023f40641278edca4049d492ecc0f0a41a6096251252643",
+      "text": "Ручное зеркало, способное создать отражение существа поблизости, после чего мутнеет. Длительность существования отражения растёт с навыком Управления устройствами и уменьшается с Волей цели. Отражение всегда немного слабее своего оригинала.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "phial of floods": {
+      "source_sha256": "7ce49c9907e3268ffba7d9cc863c11045281ea31c58e6729644febbf2ff0373e",
+      "text": "Зачарованный сосуд со стихийной водой. Если вынуть пробку, наружу вырвется поток, который ударит цель и затопит окрестности. Поглощённые волной существа, которым нужен воздух для дыхания, не смогут творить заклинания, пока не оправятся. Сила потока и длительность затопления растут с навыком Управления устройствами.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "sack of spiders": {
+      "source_sha256": "f713de0dddb7148aff30d848189e022488ad3d342ed04521c05f3d55192a16fd",
+      "text": "Мешок из тканого шёлка. При открытии покрывает окрестности паутиной, пауками и прочей ползучей живностью. Навык Управления устройствами повышает силу и количество пауков, а также количество паутины.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
+    },
+    "tin of tremorstones": {
+      "source_sha256": "0d26b49f50697e95c3902295344853d22830647ca10068609b685af82cdfb176",
+      "text": "Набор спящих магнитных элементалей земли в виде крошечных, очень тяжёлых камешков. Освободившись, они притягиваются к центру группы монстров поблизости и буквально взрываются от ярости за потревоженный покой. Камни обычно приземляются немного в стороне от цели, и владелец всегда рискует попасть под взрыв. Однако броня исключительно хорошо защищает от лёгких каменных осколков, поэтому хорошо защищённому владельцу почти нечего бояться. Навык Управления устройствами увеличивает число взрывов.",
+      "context": "dat/descript/items.txt; current evoker restrictions, power scaling, area and ally risks"
     }
   },
   "skills": {

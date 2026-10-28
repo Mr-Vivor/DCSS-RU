@@ -190,6 +190,63 @@
 | wand of quicksilver | палочка ртути |
 | wand of roots | палочка корней |
 | wand of warping | палочка искривления |
+| acid dragon scales | чешуя кислотного дракона |
+| animal skin | звериная шкура |
+| assassin centipede | многоножка-убийца |
+| athame | атам |
+| barding | бардинг |
+| crystal plate armour | кристаллический латный доспех |
+| demon blade | демонический клинок |
+| demon trident | демонический трезубец |
+| demon whip | демонический кнут |
+| dire flail | тяжёлый цеп |
+| double sword | двойной меч |
+| eudemon blade | эвдемонический клинок |
+| eveningstar | вечерняя звезда |
+| hammer | молот |
+| orb | сфера |
+| orb of zot | Сфера Зота |
+| pair of boots | пара сапог |
+| pair of gloves | пара перчаток |
+| partisan | протазан |
+| pearl dragon scales | чешуя жемчужного дракона |
+| quicksilver dragon scales | чешуя ртутного дракона |
+| sacred scourge | священный бич |
+| scarf | шарф |
+| scythe | коса |
+| staff of air | посох воздуха |
+| staff of alchemy | посох алхимии |
+| staff of cold | посох холода |
+| staff of conjuration | посох разрушения |
+| staff of necromancy | посох некромантии |
+| staff of earth | посох земли |
+| staff of fire | посох огня |
+| steam dragon scales | чешуя парового дракона |
+| shadow dragon scales | чешуя теневого дракона |
+| storm dragon scales | чешуя грозового дракона |
+| swamp dragon scales | чешуя болотного дракона |
+| triple sword | тройной меч |
+| trishula | тришула |
+| troll leather armour | доспех из кожи тролля |
+| fire dragon scales | чешуя огненного дракона |
+| giant club | гигантская дубина |
+| giant spiked club | гигантская шипастая дубина |
+| golden dragon scales | чешуя золотого дракона |
+| great mace | огромная булава |
+| ice dragon scales | чешуя ледяного дракона |
+| large rock | большой камень |
+| orcbow | орочий лук |
+| triple crossbow | тройной арбалет |
+| box of beasts | ящик зверей |
+| condenser vane | конденсатор облаков |
+| figurine of a ziggurat | фигурка зиккурата |
+| gell's gravitambourine | гравитационный бубен Гелла |
+| horn of Geryon | рог Гериона |
+| lightning rod | жезл молний |
+| phantom mirror | призрачное зеркало |
+| phial of floods | флакон потопа |
+| sack of spiders | мешок пауков |
+| tin of tremorstones | коробка сотрясающих камней |
 
 ## ability
 
