@@ -132,9 +132,9 @@ def main():
                     (ARTIFACTS / "first-level.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                     # Help is assembled from descriptions plus configurable
                     # bindings. Exercise the actual popup after substitution.
-                    page.keyboard.press("Shift+/")
+                    page.keyboard.type("?")
                     page.wait_for_function("document.body.innerText.includes('Содержание руководства')")
-                    page.keyboard.press("Shift+/")
+                    page.keyboard.type("?")
                     page.wait_for_function("document.body.innerText.includes('Передвижение:')")
                     help_text = page.locator("body").inner_text()
                     assert "зелья (выпить — q)" in help_text, help_text
