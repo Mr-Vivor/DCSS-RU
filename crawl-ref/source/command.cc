@@ -25,6 +25,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "lookup-help.h"
 #include "macro.h"
 #include "message.h"
@@ -623,7 +624,11 @@ static void _add_command(column_composer &cols, const int column,
     string line = "<w>" + command_name + "</w>";
     for (unsigned int i = cmd_len; i < space_to_colon; ++i)
         line += " ";
-    line += ": " + untag_tiles_console(desc) + "\n";
+    // Translate before adding the binding: the dictionary contains descriptions,
+    // while the prefix depends on the player's keybindings.
+    line += ": " + untag_tiles_console(localise(desc)) + "\n";
+    if (Options.language == lang_t::RU)
+        linebreak_string(line, 40, true, space_to_colon + 2);
 
     cols.add_formatted(
             column,
@@ -636,6 +641,7 @@ static void _add_insert_commands(column_composer &cols, const int column,
                                  command_type lead_cmd, string desc,
                                  const vector<command_type> &cmd_vector)
 {
+    desc = localise(desc);
     insert_commands(desc, cmd_vector);
     desc += "\n";
     _add_command(cols, column, lead_cmd, desc, space_to_colon);
@@ -645,8 +651,11 @@ static void _add_insert_commands(column_composer &cols, const int column,
                                  string desc,
                                  const vector<command_type> &cmd_vector)
 {
+    desc = localise(desc);
     insert_commands(desc, cmd_vector);
     desc += "\n";
+    if (Options.language == lang_t::RU)
+        linebreak_string(desc, 40, true, 4);
     cols.add_formatted(column, desc.c_str(), false);
 }
 
@@ -958,9 +967,9 @@ static void _add_formatted_keyhelp(column_composer &cols)
 
     string item_types = "<lightcyan>";
     item_types += stringize_glyph(get_item_symbol(SHOW_ITEM_BOOK));
-    item_types +=
+    item_types += localise(
         "</lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,\n"
-        "    pick up to add to library)";
+        "    pick up to add to library)");
     _add_insert_commands(cols, 0, item_types,
                          { CMD_MEMORISE_SPELL, CMD_CAST_SPELL,
                            CMD_FORCE_CAST_SPELL });
@@ -1138,6 +1147,7 @@ static void _add_formatted_keyhelp(column_composer &cols)
             "You can read descriptions of your "
             "current spells (<w>%</w>), skills (<w>%?</w>) and "
             "abilities (<w>%!</w>).";
+    text = localise(text);
     insert_commands(text, { CMD_DISPLAY_MAP, CMD_LOOK_AROUND, CMD_FIRE,
                             CMD_SEARCH_STASHES, CMD_INTERLEVEL_TRAVEL,
                             CMD_DISPLAY_SPELLS, CMD_DISPLAY_SKILLS,
@@ -1260,10 +1270,10 @@ static void _add_formatted_hints_help(column_composer &cols)
     string item_types =
                   "<console><lightcyan>";
     item_types += stringize_glyph(get_item_symbol(SHOW_ITEM_BOOK));
-    item_types +=
+    item_types += localise(
         "</lightcyan> : </console>"
         "books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,\n"
-        "    pick up to add to spell library)";
+        "    pick up to add to spell library)");
     _add_insert_commands(cols, 1, item_types,
                          { CMD_MEMORISE_SPELL, CMD_CAST_SPELL,
                            CMD_FORCE_CAST_SPELL });
@@ -1271,9 +1281,9 @@ static void _add_formatted_hints_help(column_composer &cols)
     item_types =
                   "<console><brown>";
     item_types += stringize_glyph(get_item_symbol(SHOW_ITEM_STAFF));
-    item_types +=
+    item_types += localise(
         "</brown> : </console>"
-        "staves (<w>%</w>ield)";
+        "staves (<w>%</w>ield)");
     _add_insert_commands(cols, 1, item_types,
                          { CMD_WIELD_WEAPON });
 
@@ -1317,6 +1327,11 @@ static formatted_string _col_conv(void (*func)(column_composer &))
     }
     contents.ops.pop_back();
     return contents;
+}
+
+formatted_string command_keyhelp_text(bool hints)
+{
+    return _col_conv(hints ? _add_formatted_hints_help : _add_formatted_keyhelp);
 }
 
 static int _get_help_section(int section, formatted_string &header_out, formatted_string &text_out, int &scroll_out)
@@ -1367,10 +1382,7 @@ static int _get_help_section(int section, formatted_string &header_out, formatte
     switch (section)
     {
         case '?':
-            if (crawl_state.game_is_hints_tutorial())
-                text_out = _col_conv(_add_formatted_hints_help);
-            else
-                text_out = _col_conv(_add_formatted_keyhelp);
+            text_out = command_keyhelp_text(crawl_state.game_is_hints_tutorial());
             return page;
         case CK_HOME:
             text_out = _col_conv(_add_formatted_help_menu);

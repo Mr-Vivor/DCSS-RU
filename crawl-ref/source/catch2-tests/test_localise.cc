@@ -4,11 +4,13 @@
 #include "database.h"
 #include "artefact.h"
 #include "clua.h"
+#include "command.h"
 #include "describe.h"
 #include "l-libs.h"
 #include "initfile.h"
 #include "hiscores.h"
 #include "localise.h"
+#include "macro.h"
 #include "newgame.h"
 #include "options.h"
 #include "player-save-info.h"
@@ -16,6 +18,7 @@
 #include "item-prop.h"
 #include "player.h"
 #include "stringutil.h"
+#include "unicode.h"
 
 namespace
 {
@@ -51,6 +54,39 @@ private:
     const char* old_name;
     string old_directory;
 };
+}
+
+TEST_CASE("Russian command help translates before binding and column layout", "[localise][single-file]")
+{
+    russian_localisation language;
+    init_keybindings();
+    for (bool hints : { false, true })
+    {
+        const string text = command_keyhelp_text(hints).tostring();
+        CHECK(text.find("Передвижение:") != string::npos);
+        CHECK(text.find("зелья (выпить — q)") != string::npos);
+        CHECK(text.find("посохи (взять — w)") != string::npos);
+        CHECK(text.find("колдовать") != string::npos);
+        CHECK(text.find("hand weapons") == string::npos);
+        CHECK(text.find("memorise") == string::npos);
+        CHECK(text.find("uaff") == string::npos);
+        CHECK(text.find("percent") == string::npos);
+        CHECK(text.find("%</w>") == string::npos);
+        for (const string &line : split_string("\n", text, false, true))
+            CHECK(strwidth(line) <= 82);
+    }
+    bind_command_to_key(CMD_WIELD_WEAPON, 'W');
+    CHECK(command_keyhelp_text().tostring().find("оружие (взять — W)") != string::npos);
+    init_keybindings();
+
+    Options.language = lang_t::EN;
+    CHECK(command_keyhelp_text().tostring().find("hand weapons (wield)") != string::npos);
+    Options.language = lang_t::RU;
+
+    CHECK(localise(", v - describe") == ", v — описание");
+    CHECK(localise("Shift-Dir - straight line") == "Shift + направление — по прямой");
+    CHECK(localise(" <w>buy</w>|examine items") == " <w>купить</w>|осмотреть");
+    CHECK(localise("sort (price)") == "сортировка (цена)");
 }
 
 TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")

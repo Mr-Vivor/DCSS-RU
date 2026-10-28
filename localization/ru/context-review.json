@@ -997,8 +997,8 @@
       "translation_sha256": "998b2d036c0f4250c0f665b954bf039dc1306a86eb2966eda8a7c6273aa7a0ed"
     },
     "put item on shopping list": {
-      "context": "shopping.cc",
-      "translation_sha256": "4047488d19ae287a2cb77ab0d0090a8cfc5a92fba75d1eb801068c5d4e4c6679"
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "37553a8344227218c3a778e9651864df8c864fef7b827d61fc3bd0d7d7f95856"
     },
     "You don't have enough money.": {
       "context": "shopping.cc",
@@ -6273,7 +6273,7 @@
       "translation_sha256": "377509e0e91364eb9cc168a29923ad80f35506556df86391cff2bb19fb165823"
     },
     "examine item": {
-      "context": "acquire.cc",
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
       "translation_sha256": "c5771b7522eb17932914a6b9640186aca2fb9cd6954d86d707a03215e29994b4"
     },
     "Acquire @arg1@? (@arg2@/@arg3@)": {
@@ -6293,7 +6293,7 @@
       "translation_sha256": "c40a773770dc03d73157c9ca948c335e95df5624322f4c5cd602134ecb59939a"
     },
     "Press: ? - help": {
-      "context": "live tutorial check: directn.cc target prompt, quiver.cc ranged attacks, skills.cc Fighting title and player stat increase",
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
       "translation_sha256": "39fb7c35990110782ff368fedbb4e236653feac6466d6fb2b9b8b01ab9e4fba7"
     },
     "v - describe": {
@@ -6309,16 +6309,16 @@
       "translation_sha256": "edcd4cf66cb3ccd982726db55a9e1aad560bbb148bb099d0389a1739bd02ecf7"
     },
     "Dir - look around, f - activate": {
-      "context": "directn.cc",
-      "translation_sha256": "3912e651c3ae7314673807be3376caf3731fcf6828a9c856d2b873c356206b80"
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "58841929f4566995ffacf647e282c6f02fdeda9d7d0e35c3d5ab9975484e4370"
     },
     "Shift-Dir - straight line": {
-      "context": "directn.cc",
-      "translation_sha256": "59de5770e61f46c7ea68c3f7cc7c3e3da0f8770691ce19e071410c375ae8448c"
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "bf13a6596261dfe978aa68d2ed7abb30bf5d00fa7f3f59f9a4e985c44f853a26"
     },
     "Dir - move target": {
-      "context": "directn.cc",
-      "translation_sha256": "f33b773a9f3a0bd665720ad625a8f7c4172a79ea85ab8917962d01c216db8ba3"
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d5aaada3074692a0ed94a3c4b9762b9d6be0346598106b9f5edcd15bff8dd254"
     },
     "Visible Monsters": {
       "context": "directn.cc",
@@ -27791,6 +27791,962 @@
     "You feel agile.": {
       "context": "live tutorial check: directn.cc target prompt, quiver.cc ranged attacks, skills.cc Fighting title and player stat increase",
       "translation_sha256": "8bae715c75df6079cd3d22e9a8462f315f91e4dcb0c9c7b823053413ecc293db"
+    },
+    "<h>Dungeon Crawl Help": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "560200f08d9c7e9f52bc99868d599d56cacfb4072487bd7103c28f189df93a94"
+    },
+    "Press one of the following keys to": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f9d89f33316aa757efadd8010df3ecdb55fd3c52f6920342d002bf4a812910eb"
+    },
+    "obtain more information on a certain": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "28c3abae60b2f671daf06270171d6f0a2487d0b93522658473070457e24340ea"
+    },
+    "aspect of Dungeon Crawl.": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "388901e3a2fffd4283a1a7c036c30b968051cd7c786c9565e016e3fc9533150b"
+    },
+    "<w>?</w>: List of commands": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "aa8e4ef7866c9437b35d797e77f30ff18a2bd0d82e68fba421ad63378e63bcd9"
+    },
+    "<w>^</w>: Quickstart Guide": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "db7c1cfe7d4a87db9ece5fd083c8595fe700f898e18a32aae3e0388ba3a083c4"
+    },
+    "<darkgrey>:: Browse character notes</darkgrey>": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "010d54967adf621489ada90cc4ce16c01963f2d1df267757d3c73c387ce4c7c6"
+    },
+    "<darkgrey>#: Browse character dump</darkgrey>": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c5ae14a0ac047f0d920fb40a53e8ff065b09e76e2a8ed74e58af46aa0616df95"
+    },
+    "<w>:</w>: Browse character notes": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "beb97a7bf9846eb4b258f2e151c1fa3d7c77853c4e2aff2097c7093845b9a313"
+    },
+    "<w>#</w>: Browse character dump": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d098bc03d05970f888c58d907b1bd3ddb094a547dd17f6eee5ac28eac4ae2b3e"
+    },
+    "<w>~</w>: Macros help": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ad8c437cfe055981dfa2b4e56fd5b039a55a0932425754e350855cc19fe70a2e"
+    },
+    "<w>&</w>: Options help": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a22a0f69ef508f8714f93007dfd745db74b3cc4f86d53b1583b1e405e3a83559"
+    },
+    "<w>%</w>: Table of aptitudes": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "94f52e46220251b1c900feb107a48b1665bd5d02766c2b95ed8e3c12a61047ef"
+    },
+    "<w>/</w>: Lookup description": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "29feb99a15110b0ca6b10f027c5ad54118c5cfc3b34ec60412d961278a920ca3"
+    },
+    "<w>Q</w>: FAQ": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c1e65ab7abaedf7477dbdcea5921a24c23fbefd557741941590c9a2d52c44d96"
+    },
+    "<w>T</w>: Tiles key help": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "33fe9c5f61d78eec149c8336a34d4e09034c915ba02c8aea345196b858e457d5"
+    },
+    "<w>V</w>: Version information": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b879a36b2e24c172330e99c0065cafcc768f5023b0689849615cb397c1ac7ee5"
+    },
+    "<w>!</w>: Display diagnostics": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f19f1ccc7d6e4ac429d50556ade5a45a3e2e1c888ad95197a988a3838cbfdda7"
+    },
+    "<w>Home</w>: This screen": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8bed6c71f10b4b802546b66e6fcb898cac38b460de6f3d2fc831387dc4ba91ad"
+    },
+    "<h>Manual Contents": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8321ada097fac1b8a56ef8e0a5321cdbdc0493d136739b6bb3d5eff0e0031e1a"
+    },
+    "<w>*</w>       Table of contents": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "95b24dec61eb63c495d45c20dcac1ed5969653f5baf61d2db10aed35e97e41a7"
+    },
+    "<w>A</w>.      Overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e54a86fe2f929719d9b98e612479e82349170f271ad4977610281113f410a278"
+    },
+    "<w>B</w>.      Starting Screen": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "14f8f0e575ac21c644e4ca98f723b97ab0c27b7896cc4c64303e0145307c30a5"
+    },
+    "<w>C</w>.      Attributes and Stats": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "248c3d93ae09feb5ee4f09f2eb8a23c6627918a81637068b714a929bce8fcf35"
+    },
+    "<w>D</w>.      Exploring the Dungeon": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "97185468a575f35baaa042fa953030f02a527868105ba430aec3b1fa3e50c37f"
+    },
+    "<w>E</w>.      Experience and Skills": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "eb8011bf91e8a459089915eadfc5538fb0ecf96746ac468e10123abc4a13e211"
+    },
+    "<w>F</w>.      Monsters": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4dcbf660a1457ef7626e564908c637ff26c39976a0e2c0dada5c8ec17cd5a6aa"
+    },
+    "<w>G</w>.      Items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d2b1e833a46cbfdb848209169993ca8f91ad7e8cc31da1f19efff149b2da2ce1"
+    },
+    "<w>H</w>.      Spellcasting": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f5fd333918fe36c018b79cb8221accf1a953d8841bd3c32e3e7de1e74323cbcd"
+    },
+    "<w>I</w>.      Targeting": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "52e5c48f0a10c26a5e371af65628ec63929abd425d6d13c9dc0f2c3b386448c3"
+    },
+    "<w>J</w>.      Religion": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "25cff02355814bfff12eecc5f310f2c19d701b4824f2a409e77507c2fcfff701"
+    },
+    "<w>K</w>.      Mutations": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f863d95495aca0573c1cf0e2c386774e9b2ef6063be965d596e7610b14ba9dcb"
+    },
+    "<w>L</w>.      Licence, Contact, History": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c9e1b5ef600a341525243ae7d84e39dfda773a420936c4fb737b97a88113d245"
+    },
+    "<w>M</w>.      Macros, Options, Performance": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8eabbdbcb37e1bcc15afca35965aeb20603e3b387811abc04516541988212603"
+    },
+    "<w>N</w>.      Philosophy": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "32bd41309d2a839a94205e20884c10a0ad25bb41fc377545b6438f3323238ce2"
+    },
+    "<w>1</w>.      List of Character Species": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4d6eb99b175e49c07c51b393225409e3b51e10208208570c6162ff90b227e228"
+    },
+    "<w>2</w>.      List of Character Backgrounds": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7a6ca8c069d867d8a65a08505893276f6f3c62cf193d233d49fa17d805a2193a"
+    },
+    "<w>3</w>.      List of Skills": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5579458226bd607344297e62156921a0ba9fe818ff86fa38601da988336e966a"
+    },
+    "<w>4</w>.      List of Keys and Commands": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "eda3252f48b0a182abf336eaf2ef13c41ef489a24073bccb39b8ded64025bcc4"
+    },
+    "<w>5</w>.      Inscriptions": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ff8b9e842d84c11a0aa53f04bd193dfda13c1712a3615a791dfce718c62149dc"
+    },
+    "<w>6</w>.      Dungeon sprint modes": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "0eeb57f5cc79e87a8b9024815ed669dcf372506c24b9a8ea6cbf6d896ec3293f"
+    },
+    "<h>Movement:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "bf07c3750f40661054d5a74379b4540eb7666a30e901ea2f342d572ebd0f2249"
+    },
+    "To move in a direction or to attack,": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "cbc05e6252482e0c074d2a8c7ea0185be098b7385ff9ed07d9262966a7c4c545"
+    },
+    "use the numpad (try Numlock off and": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fc414fe4029d190b1e1caee9b7efa3f69e9adf48445f7cca9ce4882bc2fc5978"
+    },
+    "on) or vi keys:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "162060388e5d97349c242960deb6f86ce92c17f884619f65d7ee32c7105f499a"
+    },
+    "<h>Rest:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4f069ab706da93834c8de016a6b8b2fa06a41b0ae88927ecf5f20e07d50b5471"
+    },
+    "wait a turn (also <w>s</w>, <w>Del</w>)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2adc09fc7e5a5ece4a9fd5ee3024cbe422000cd78c8b5f017868581df28fec62"
+    },
+    "rest and long wait; stops when": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "357c65982033d96dfcab6a6db24395c5275b57c8eda26e79434854e3721ed56c"
+    },
+    "Health or Magic become full or": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "794a1a1f364d5d74cc85fb2e08a372cffb03d8289d36261ad4fbb4410da636b0"
+    },
+    "something is detected. If Health": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7783c5b504d872ead89b2546cb675e1c07fbf2d2efa879409bc1c71f11fda885"
+    },
+    "and Magic are already full, stops": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fd087be5028b01350bfe541bce02d8d3e74ac458ef5c96b69dcf2c449f8a26a0"
+    },
+    "when 100 turns over (<w>numpad-5</w>)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5d1aa6c902de3e1ef5f54a3db730ab75a9dc1c52aa33dedc4a9b4d848f44ed66"
+    },
+    "<h>Extended Movement:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2ee257150447642a628ab36500d4b2a2532ad5316e7ffa2392674fbb40d8456e"
+    },
+    "auto-explore": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "902951d326244affec92b055ceab23554cbb3355b9f79368f957b6e5b2d5cac3"
+    },
+    "interlevel travel": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "66d4e5115ad6253e7459e6352ff78e9a7028f8f8fd05bf899ffae4d9328c2839"
+    },
+    "Find items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8ab08ee4ebbe5f133e96abb80872f2f2d96311ed3c314dc2f9d67ad4d23253de"
+    },
+    "set Waypoint": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1cc4f9bc6020f64fa061042dd09d08a35d15a30f5c38321950ac14ed5939f8ef"
+    },
+    "<w>/ Dir.</w>, <w>Shift-Dir.</w>: long walk": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "323fcbd56264dba66e5f9a64bfc45a99b2d55acd7e622d660d20a1e15f078aa5"
+    },
+    "<w>* Dir.</w>, <w>Ctrl-Dir.</w> : attack without move": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "3dca1c8f1652c5cf9dc36b01bf34855f826be2a6e1c3bde085bb9aeb05b8249c"
+    },
+    "<h>Autofight:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e40e0b276a4208eb30bec4323a9b9b9aad7a6dbe5d88b5db8cc852d5297a5074"
+    },
+    "<w>Tab</w>          : attack nearest monster,": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a5a5806e11245393595650dbdaa0318213d570ee8e2841e1ae376658502c6e09"
+    },
+    "moving if necessary": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ff6d8225329b8dc8089a19da6919fdb80d5a32bafe08b761cd5763ef229e9cad"
+    },
+    "<w>Shift-Tab</w>, <w>p</w> : trigger quivered action;": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1bff777a77a67705b1c3a41b17b7d802d53696fa59dd75135f12453719a59add"
+    },
+    "if targeted, aims at": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "cc85c8fcfe9d7cd2ea2ce624dd6a2cce76f2c2021066ad9170c26c9633c17775"
+    },
+    "nearest monster": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "0eb7c4a0e25bfdb1bd33a8747dcaf502bc26794c42cf115d834c29df25f757a7"
+    },
+    "<h>Item types (and common commands)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "75f961cd0a360c870e7e1e9076cd7a8c46dd9fe5ea1b7b0df84cc894b7d5458c"
+    },
+    "<cyan>)</cyan> : hand weapons (<w>%</w>ield)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f9e5eabd2b90e3ab6db28e23e682242b6364ef9ff624469d99be8e978622ff8a"
+    },
+    "<brown>(</brown> : missiles (<w>%</w>uiver, <w>%</w>ire, <w>%</w>/<w>%</w> cycle)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7cf06339e0d11c5a7c0886200dc5a062d9453c45dd5a4d15bfe049313166cd3a"
+    },
+    "<cyan>[</cyan> : armour (<w>%</w>ear and <w>%</w>ake off)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "82f0dfc2a30ef4a948ff8ea0e23d6f11cea08c526ed8d7eca3a4afc43768351b"
+    },
+    "<w>?</w> : scrolls (<w>%</w>ead)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c6ae2386626ff439e1ec52a82943f7d6c89a737634561bb44ba500044e7e49b8"
+    },
+    "<magenta>!</magenta> : potions (<w>%</w>uaff)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f3cb5867b262a7d111487d67b80ccf759df42531190ec71f28575764309d13a2"
+    },
+    "<blue>=</blue> : rings (<w>%</w>ut on and <w>%</w>emove)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4c4eef258d850bb7f5dacf5ced2f44602aab28cbc8bac1de9d2ccc5d395942b8"
+    },
+    "<red>\"</red> : amulets (<w>%</w>ut on and <w>%</w>emove)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fa69f1ab910a52875aeb02cc547508b80fa573fb7b94b50704bd3aa7a5223d5b"
+    },
+    "<lightred>percent</lightred> : talismans (e<w>%</w>oke)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2bc125366315703767615f4bbd7350054d987bcb4db20631be706ea59fcea516"
+    },
+    "<lightgrey>/</lightgrey> : wands (e<w>%</w>oke)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "381bb485a667d89432f67fcf3555de1dcf2325bcf4900c883192b1e2cda56355"
+    },
+    "</lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7ff8a5d70e64a0b40e9aee01597a33461395071cf1494d54c2719a63d48174a8"
+    },
+    "pick up to add to library)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "69bf83071fe574dce754dcb484a3943f62502b223ec090c710110d19edcd842a"
+    },
+    "<brown>|</brown> : staves (<w>%</w>ield)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "91cfccfd7e4d935b55ac4dc28f77f94bd69696d0c75709f04d949ae0864a69ad"
+    },
+    "<lightgreen>}</lightgreen> : miscellaneous items (e<w>%</w>oke)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2e59395858ae1d170778e1b42f7ac0c2ae6c179aafe060f16a41ad30fc6aa56b"
+    },
+    "<yellow>$</yellow> : gold (<w>%</w> counts gold)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b525bc181a2ccf1d2b18f6e84843d12646d6426eb400e0eaa9b9df001b608440"
+    },
+    "<lightmagenta>0</lightmagenta> : the Orb of Zot": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ae8c3bfaad79aad0158112dae009a1aaa3ac53ec250c84ee178878590d6ad066"
+    },
+    "Carry it to the surface and win!": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2a9cbc9f09d388ea37a377ad38f32fcb438ad5fd1d72bbf9ecb0617280a2f888"
+    },
+    "<h>Other Gameplay Actions:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "66e69444debe5dede368f89ef5142ea8242d3b0985d54dda9a65882e513e7b4a"
+    },
+    "use special Ability (<w>%!</w> for help)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2ff0289ea5f218d989519b1387972b30ee54eca54d3b4de364feff65d4d46a30"
+    },
+    "cast spell, abort without targets": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b3e407b58c726fab0f62a1df6d4e1595cb545d7662dfd56877a2f35397cbefe8"
+    },
+    "cast spell, no matter what": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2c03b2f88f6300e6568ca17cc6747b5d40f208f20c8f66b0a79fa0bb1bd99889"
+    },
+    "list all memorised spells": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "19f41a4921e3f26f9a2c9a7333e6653490d9413ee862de44d33fdb21f5ac1dce"
+    },
+    "Memorise a spell from your library": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "416b107bec972cf302099882c7050fa16cfd26f13c7739a6573fbc3e8e441244"
+    },
+    "tell allies (<w>%t</w> to shout)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a840d30a37f394ca7e5ecc3d030fef0a4f7603d854ce1e5543a2548d8df22436"
+    },
+    "re-do previous command": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "65ea281e7584a24362155b7c9ebae300c2e3a07f1da0047f7cb31833f88e1432"
+    },
+    "repeat next command # of times": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "15a6ff4c25367b38d13f2094b10c9752c17b8b12150287f21564643d50e41349"
+    },
+    "<h>Non-Gameplay Commands / Info": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "96063aef6a09f54ff1237b6066f3f75762095033861ecd87df7464df1f44cc85"
+    },
+    "game menu": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b2d171aa44e589620afd162166f442e30ce9bcc298488913f5227615f174a255"
+    },
+    "show Previous messages": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "adaa524b8fa1ad09ca99a0d07a6b6d46067a2eb4a9d03e769bae267e63fa5106"
+    },
+    "Redraw screen": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1c7a2971afc6a36ee7013040708e71e4431941da691f26e88fa8612df306cb4b"
+    },
+    "Clear main and level maps": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f5eab36c717f953dce937598e9c1005628a63ce2956966ef948f643102390f6e"
+    },
+    "quick add macro": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "887f0fef2b80ab695481bf42c5b4e9df88d4d6a50ecf3a016bca140c046aa64d"
+    },
+    "edit macros": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4aaf4d4542c9c021ef27d2a027365fc763d11f6906f4e52b56eb7dd753248a15"
+    },
+    "annotate the dungeon level": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c9ec6dc4b5b851f345aa608952207f8ee4f46d69c65901222842d1ef6d7a4e21"
+    },
+    "dump character to file": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "69d72834022d7a8b1f18090076657f6d0b0ce4b850b7445c314ec969e4e42e49"
+    },
+    "add note (use <w>%:</w> to read notes)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "976423e7430015039c782d64291f1c8a256cb11e5403beb844092118da7ebe24"
+    },
+    "reassign inventory/spell letters": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2f197964c393daa0b5ee7c69e0c0cb73bb3b64ed98c1f009475890ad7d3944be"
+    },
+    "edit player doll": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c62a8ed64be49ef84216e447f8d95f35ee2edd064f9f06b09a3375cc3b63f321"
+    },
+    "<w>F12</w> : read messages (online play only)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "188ba960ff34069f3c6bc7494f39143f528b71a3375dd51ac3a36216890896ca"
+    },
+    "read messages (online play only)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c64e760723f1976c2fdca051b299c10f4c0ff994d93f4c489b6fbeee57fff36e"
+    },
+    "<h>Game Saving and Quitting:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "410692781d3436bdc72ff71b0ac893784970e72b01c01e3052974d76bf2fea51"
+    },
+    "Save game and exit": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "abb03a433553ce68242eb3e0449aaaa742c541725067013bbd18cf9c060290c2"
+    },
+    "Save and exit without query": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "da3be77b2915debbdc5402ae867a0c00358a006a74bbf4b45c6421502911a9c9"
+    },
+    "Abandon the current character": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5e5c99c6ef3808cfe2baeb57edaa9bf9b7a4552d2bc42bf0e968e2052b94f399"
+    },
+    "and quit the game": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "12c06b0f2969ba24c9297118b1b693eebcc1e3bcdd3040455c64aea81ae8ffd7"
+    },
+    "<h>Player Character Information:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "05b5caef862efea0faee8443d593146ab20eafdf3cb66e388d0269a2ac5e4f5e"
+    },
+    "display character status": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f89ccde4b1a6f9e42b637333be7e268e4812ff8771611f5e8fd74199ab0be6f5"
+    },
+    "show skill screen": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "6dc836d3f7a9062ed30af571169144b0b877881a9e8c03e3ad1b7e0cc6906373"
+    },
+    "character overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "333ec6920a2d3dd767cd087b4619501a6978933bc757992de0a4afd25a8fba1e"
+    },
+    "show religion screen": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f014ac631686846c9de0ccf35d49b9b9ff2f085589b37271bc7de14343b29bf8"
+    },
+    "show Abilities/mutations": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "712d6797681d867940930c91bb27540435dcf2d6f92d6a2bdef49a7f5ff208f8"
+    },
+    "show item knowledge": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "03df439d77638e2330f4f144a965c17714996b1e4ed704aa497314d3beaa9c80"
+    },
+    "show your spell library": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a685e62f351d1fec823f4428467e88452c2544dfa8eaf4da470d5a4f7417573c"
+    },
+    "show runes collected": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d6d4c2a5f97c7f1f95f6f847b595a023ea7b241222428a1376c6e7df218b967f"
+    },
+    "display worn armour": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e4d537172c5d3fa364c088521e19e85935021f7b9c36bdf46818e50bb6ac094e"
+    },
+    "display worn jewellery": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ad14e021c7d79d102f8033643d8035263fb4a4f057a0b6486fddb04b59762180"
+    },
+    "display gold in possession": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "09ceff0a3ebbb86090a7cf56db96079d2cb0315097125d5fc34e6ec3f7b5f1a4"
+    },
+    "display experience info": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ead19c6715d5308aaba13552cc71e7b8fac127baf264f91d63ef31811659335f"
+    },
+    "<h>Dungeon Interaction and Information:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "70c16efd299d7b1b44a924c5d45dd7d008618832dc8dc810008566a0add66a70"
+    },
+    "<w>%</w>/<w>%</w>    : Open/Close door": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "25b89e4ca43ab9fd1cd7388a3876d452ce3548039a225c008164485db39d208b"
+    },
+    "<w>%</w>/<w>%</w>    : use staircase": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5fd3f40e0bc09164875a6059050574fd38a635a620419bbfa3bbff47232baafd"
+    },
+    "examine occupied tile and": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5628b32773f9c5c9c4fdc969f39cb35b8ab7e33e800877fd81d04bf5b440b860"
+    },
+    "pickup part of a single stack": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a64ed04314014826dbc358962dbc6da685ad5ad61c168daf38fe2ec34c5c12cb"
+    },
+    "eXamine surroundings/targets": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a9286161c771f433aa8aa94bbe2e705ef6e05c7a81287931a9a79411514616b0"
+    },
+    "eXamine level map (<w>%?</w> for help)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "40a57b7f02a37b86450d14933cb65383698c2ba45a1e23c409912082a5bc5c6a"
+    },
+    "list monsters, items, features": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c5dd821bc79b07b6c0d2840b08b8db6db3f114873b0641014ebf2206abbad467"
+    },
+    "in view": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "782454e97d167a9fa2739742761a2ef0cd73768b4218871fc536575d234bc265"
+    },
+    "toggle view layers": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d4c2267d06066d4cfb6168eff03bde7d59b7683bc5865d604d789c3a56a959e3"
+    },
+    "show dungeon Overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7cd7e8ad0fa86124e13f7a2bed158cb53a5b7b58970e123955cac86fd6d8e2d5"
+    },
+    "toggle auto-pickup": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "af1276ec5e5bdc6ff2fa573ce80d9d8a99c861ddb248210d12f81847d6ea6518"
+    },
+    "suppress invisible monster warnings": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1a9521215b99c2d416df81c9b54569ae370e28cdd100d123211a2e2ad93b3557"
+    },
+    "mute/unmute sound effects": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "91af12e653272f7a50e69dc88274151463a406233c7c28c84223be3e62e52b5d"
+    },
+    "<w>%</w>/<w>%</w> : zoom out/in": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8d649137e2a58bb6a7174c04bfb91c07d0257aa23b1944d4e3cee63ed6fdf2af"
+    },
+    "<h>Inventory management:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9994a0b634904012e8587b5f63eefe0dccf27b3b58979ea9b1d89793309b5a0d"
+    },
+    "show Inventory list": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1b38a27ec76442d3277845df44d5c22d6710835f57731a7eb00c07fa5674e033"
+    },
+    "pick up items (also <w>g</w>)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "0fa57129d007e8e725cb47c6e18302f741229d76d2f7ca1944e803ffb564bc00"
+    },
+    "(press twice for pick up menu)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "f5ac67bda21ebe92c95fb17b03b8d4df016016706f0c2438296b9a36cc906da0"
+    },
+    "Drop an item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4072936a31529bb01fe22fd7964dfca39646faab21d995855d1fc09c7c493c38"
+    },
+    "<w>%#</w>: Drop exact number of items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8217300e730722745c7d2ea95c9039439bdb00df6f8cb3d88dea783f9a3d1093"
+    },
+    "Drop the last item(s) you picked up": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9c1ada814745735bcfc14b6f3e166b48bb8fe30d0ed9776e0ebe550082de791e"
+    },
+    "<h>Item Interaction:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "354fbb583121daad5537a75d0eaef9bf879d90a9c028e0f3b7f52dc4dbd5f56c"
+    },
+    "inscribe item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e0f5da715ff0a28ca9749eb815c1316cbea1a04fb1783b290ffa200427c45193"
+    },
+    "Fire the currently quivered action": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b7f5ceade9daa0e6e087ec0b20b0137b3b048317c82c5facbe99519933200584"
+    },
+    "select an item and Fire it": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9b04945942a3315b7a02083357768c07ecb2034d67148038abf2a761b5367226"
+    },
+    "select action to be Quivered": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "0647836cc93eff72e9c67d533be24c737d870ca79f2ce2bb699a3d2f6e57dd8a"
+    },
+    "swap between most recent quiver actions": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b5de3a33867545c72d515962e466d6c964fc1c803bbfcf2ffcf3a908ba196d44"
+    },
+    "Quaff a potion": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fa923fd6679cf420ca2ac4b2f2e7e91bdef31d57b452b179e772d291d03620cf"
+    },
+    "Read a scroll": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ef807414e912be2250d0aff9c6fead7206069bfbd11e83b5981477981014242e"
+    },
+    "Wield an item (<w>-</w> for none)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "be43d8aaa30f491b27b469ef03546194652b6268339ada1f332a5c2feb77e3e3"
+    },
+    "wield item a, or switch to b": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9d29bf2c2ac3171ddc8ffb0069d3ec37aee3ea3ec173c74d4310e5d8dd155130"
+    },
+    "(use <w>%</w> to assign slots)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1b2c81155e75c3b5ab22b542f7b59b31914278de30bf1c556aa3674d9a2e2f5d"
+    },
+    "attack with wielded item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4437435419faa53a4e5871b19e7577a4efb7c7789208170a22462f7fbb024a49"
+    },
+    "eVoke wand and miscellaneous item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "6d20171a4c200c196951c0379e3794763a46c5bd4dc8987748bc2da867b1c433"
+    },
+    "<w>%</w>/<w>%</w> : Equip or Unequip an item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8cda623bd09c1bd55095222cefb70493aecf68f0c5aedd3c9dadaa0c261cddb3"
+    },
+    "<w>%</w>/<w>%</w> : Wear or Take off armour": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "58cf9b5fefd682fa0064ae862c815a84a15c2d27fdcf3446673f698bb18a330e"
+    },
+    "<w>%</w>/<w>%</w> : Put on or Remove jewellery": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "24ab9f16058a2a0926e66d96804abd0b634b19547aba49dd7c5a78e45caf0b28"
+    },
+    "<h>Additional help:": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "3ad9d2c698cbe62656cd5b5af11da8848b5844cbfd06e3e27b826e366353a834"
+    },
+    "Many commands have context sensitive help, among them <w>%</w>, <w>%</w>, <w>%</w> (or any form of targeting), <w>%</w>, and <w>%</w>.": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a3ae2ab49e0a0a9ad9a35095e4d6123979182e83f7a1dcbabc145f4b5a4b4aad"
+    },
+    "You can read descriptions of your current spells (<w>%</w>), skills (<w>%?</w>) and abilities (<w>%!</w>).": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2a558769fcd03fd56d5c366745afbc594165d2f213a12a37e44302fa36fc145a"
+    },
+    "<w>Shift-Dir.</w> runs into one direction": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e47d3d7f9ca0a5c519e0f962c3b0d9df92cbac3a5e2cf18a5d2ed7a7491f5585"
+    },
+    "<w>%</w> or <w>%</w> : ascend/descend the stairs": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "404a3a52639d486a7faf064df9ce5465e492c04eff6b624c69057aecf852be09"
+    },
+    "autoexplore": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "902951d326244affec92b055ceab23554cbb3355b9f79368f957b6e5b2d5cac3"
+    },
+    "<h>Attacking monsters": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "e5afbad432bc3d3e928d4dff5645a78b95de80c170d94d86e9c2b52a69e5d4fc"
+    },
+    "Walking into a monster will attack it": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "5b05d25cb5a49aab2ecfdb38db703cfe44ff7b5c3396127d0cc9a293ec01a5aa"
+    },
+    "with the wielded weapon or barehanded.": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1d5aa2cc668e51b47b73c8bb41040e04413bc87dbb4c7a859c4f9d023f52fd27"
+    },
+    "<h>Ranged combat and magic": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7f18da23d75a7b449cfbdf6b6bf65fdfa1bb5e93f1f99502f35010321cf3319e"
+    },
+    "<w>%</w> to throw/fire missiles": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "058aa059b250a3a78f25e757261eeceaf09bc6d64385beb3344de94df8d83590"
+    },
+    "<w>%</w>/<w>%</w> to cast spells (<w>%?/%</w> lists spells)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c0cdaabbfe51bc678604487a3f5963cf6d323ba7902b9535827bcb1be7ab57f9"
+    },
+    "Memorise spells and view spell": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a0be0bb71672f60264e0173bc5d39d009408c99743ff810f38220505bc1ce22e"
+    },
+    "library (get books to add to it)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "6d042b5eff6c867ff35e3c6efe219500a21062f206a4fb16029bf4b5a6f21f95"
+    },
+    "<h>Item types and inventory management": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "1faf672b442f78fc4133416bed52ca9b2d0a089ea0e1f69d2623055f38a9757e"
+    },
+    "<console><cyan>)</cyan> : </console>hand weapons (<w>%</w>ield)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9289f123c45144258ae30a76e0420f956830d3a1d6274cb0e8b7a727cb7f4ae0"
+    },
+    "<console><brown>(</brown> : </console>missiles (<w>%</w>uiver, <w>%</w>ire, <w>%</w>/<w>%</w> cycle)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8df539509327c14a3aa252eb0191cafe931cb5baa5727d5f930526d4b730a717"
+    },
+    "<console><cyan>[</cyan> : </console>armour (<w>%</w>ear and <w>%</w>ake off)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "3ada5b30ce8ce13ec12814b8bc66895557c0e0afaabb840ad768aaf7d0731307"
+    },
+    "<console><w>?</w> : </console>scrolls (<w>%</w>ead)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4450fd46e4ff4343a0cb397c8ba0a48fd5f8dd72363eaf0601497d6721656d92"
+    },
+    "<console><magenta>!</magenta> : </console>potions (<w>%</w>uaff)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "787ab98ff75c0b8c96b85a391ab0e81dea26f9f6f91a744416997cbf25f259c2"
+    },
+    "<console><blue>=</blue> : </console>rings (<w>%</w>ut on and <w>%</w>emove)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "cbe216b225e75d4eb1ce6a74280f7a42f57c1b7a473358a473d7348de3a8efdc"
+    },
+    "<console><red>\"</red> : </console>amulets (<w>%</w>ut on and <w>%</w>emove)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "81c7afcfb8def76bfc9afcad768ad33720fbae59ae2aa9d8e9762fc28a0629cc"
+    },
+    "<console><lightred>percent</lightred> : </console>talismans (e<w>%</w>oke)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fa289d1c617469e9bfcc180d662f6850927d14477b6d275c8319942918819367"
+    },
+    "<console><lightgrey>/</lightgrey> : </console>wands (e<w>%</w>oke)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "3ae370c3a606e9c96148ada6f187228daa9ed69effc74aac07883040e3e2f322"
+    },
+    "</lightcyan> : </console>books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "c4454f1fe6c86c91befd072fdaccf6ce96a6949313349cb08902ce89b264dbf6"
+    },
+    "pick up to add to spell library)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "69bf83071fe574dce754dcb484a3943f62502b223ec090c710110d19edcd842a"
+    },
+    "</brown> : </console>staves (<w>%</w>ield)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "dc91621234b32ff370d06d38bebfc754086ddaa98ed744ea0f08ebac82ec8d33"
+    },
+    "inventory (select item to view)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8dd9ffda1cec4950b0574bf1f9943d11b5ccd2557b2174be9d8848a806ab81b8"
+    },
+    "pick up item from ground (also <w>g</w>)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "6cee5a2388591224a1e7cd4b68d36e168361cc5849a5a6fedc15e387ee37bf94"
+    },
+    "drop item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4072936a31529bb01fe22fd7964dfca39646faab21d995855d1fc09c7c493c38"
+    },
+    "drop the last item(s) you picked up": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "9c1ada814745735bcfc14b6f3e166b48bb8fe30d0ed9776e0ebe550082de791e"
+    },
+    "<h>Additional important commands": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4c5c950d9da5d2974e8ef81551fc87c56af3a43b8915fccb4af564d591a1d3ab"
+    },
+    "Save the game and exit": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "750aa8c87909e66dcc7485552eeb2ec3da6eda94501ff42cbe244c74c14f571d"
+    },
+    "show previous messages": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "adaa524b8fa1ad09ca99a0d07a6b6d46067a2eb4a9d03e769bae267e63fa5106"
+    },
+    "use an ability": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "2e68fc3945c6ac2a6344b70db3641bb4bcaecbabc3ba00422cc3ece5940e44d5"
+    },
+    "show character overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "333ec6920a2d3dd767cd087b4619501a6978933bc757992de0a4afd25a8fba1e"
+    },
+    "show religion overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "be22a74b649673662947360d498ca692a367202ff672fad3d1036fc82c15a7a3"
+    },
+    "show map of the whole level": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "10d36dc019b2ac19dee787c2db705f1ce083eff8d5be730788ad032cb15fb89d"
+    },
+    "show dungeon overview": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7cd7e8ad0fa86124e13f7a2bed158cb53a5b7b58970e123955cac86fd6d8e2d5"
+    },
+    "<h>Targeting": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "cd3adfd0196b92733751ccc2d9be352c4d1e472dfe876198b4202870fb91079d"
+    },
+    "<w>Enter</w> or <w>.</w> or <w>Del</w> : confirm target": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "70486c787b18bda03fe0f39f6cb565829dc641ef692e51e1df1d71351f6be77c"
+    },
+    "<w>+</w> and <w>-</w> : cycle between targets": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "b14736e8d2b20f8c036bda5e4044502e2c9201dbc60e1cf711f004cf5e40cab0"
+    },
+    "<w>f</w> or <w>p</w> : shoot at previous target": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "d2233a092769782b9322c91d207b04b6e863e81424c994d6490c2fde2de55685"
+    },
+    "if still alive and in sight": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "fa797a27edba0679b57ac3dccc3df35c125eedbdf222ee1af5da377d939b68f5"
+    },
+    ", v - describe": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "09503ad8f1454e8317c93f84ae5ab1e0491ddf89c77eea87bb47c3739354eb07"
+    },
+    ", . - travel": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7660a869c66c654452f31ddd99488381ad9b08e7251bcafc5cac681e838f483b"
+    },
+    ", g - get item": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7702f8cf3013abc9bee2e3f98060ce465983b2cedd5ac6a85a9cbfa34fcd1c3d"
+    },
+    "(Right-click to examine)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a39aee370aa17b5326a513dbe3d0ac156e8e9f3eff387c7cf285b4b2c3519e79"
+    },
+    "describe": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "a04288f0bc2564c4ed0d10c022221e048796378d9d942a439a9a69f9c7d9649b"
+    },
+    "buy shopping list": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ebfe078b088d1d4ad3c59cf36b9deef0db2e7e6f30506b932df6773ea15ed77f"
+    },
+    "buy marked items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ef3bdf45c092ce3355798c37c9675c0b5eaef0d476eb6d7e2c5f448875601bde"
+    },
+    "<w>buy</w>|examine items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7b4f3e10787749a0835877b5e3cbee4e3c520d4a0b6fd56dbe700c8b4d8e4cc3"
+    },
+    "buy|<w>examine</w> items": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "ee16c64ec72957c7578b126fe878a25fc64147f453b29a72e88d804ac491eb85"
+    },
+    "exit": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "4e9d56e63f864b19e4e9bf64c70bd8c01796d2d0061e827cd17c2ade92597ac7"
+    },
+    "mark item for purchase": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "8f6180b1703568054f4bdb7e47c9cd5a732c8d3ffa1b223b05999614dd6d7ec8"
+    },
+    "sort (type)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7aa9c5e914f52707bfcc64c2e4660943ada2a3107ff277adfb04248adcff3ac8"
+    },
+    "sort (price)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "3b2b89d622c9eeb0cf725c10d539ab02c8fa99e1d298377aa36a442149f1f9bf"
+    },
+    "sort (name)": {
+      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "translation_sha256": "7d8e3897f3d28ba8af2d550e55a72862e2edab488bf961341d94b72362b10037"
+    },
+    "To move in a direction or to attack, ": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "b20c26aeff5d99057ffb46df1cd5d5b841e7ad26ec556f3f4f8afa627004ba8c"
+    },
+    "use the numpad (try Numlock off and ": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "cc0bf634ebdaeb0539f02b164e2fb6939255e26ec9ff24670d88ce875318e651"
+    },
+    "    Health or Magic become full or": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "d82638f5483d52a8fc3f767e343d2f88170ec3232deb39b1f6ef39b9c7c2f2fe"
+    },
+    "    something is detected. If Health": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "06c505484a6011ec43c87a44e46af815b3cb227f9b2233a2ec3e8a8c839f6ad0"
+    },
+    "    and Magic are already full, stops": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "3ab0e08442c21345ea3a9336311e6a8f9909e529944e55608eb937b7d2e776ff"
+    },
+    "    when 100 turns over (<w>numpad-5</w>)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "82f585334ef93cf23113dd0f59e75ecc4637f26f219918ca01148d6614fcb7c4"
+    },
+    "<w>* Dir.</w>, <w>Ctrl-Dir.</w> : attack without move ": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "36ea2b2a2a98741838148deba75f06094a105b4c208188172b9cbafe05212ffc"
+    },
+    "               moving if necessary": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "43a3fd30cf0ad4748e4230bf252f40f8cf96e3b2ffe7a766aa17769241b834e4"
+    },
+    "               if targeted, aims at": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "6304512c5d69cd0ddcfeaa8a78be3ab1881f97e5cb20f27256e8cab528ba7773"
+    },
+    "               nearest monster": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "290742ece266bd003c798c7e9ec5592d71a909f13cb124ddf2ba84fd668e91a2"
+    },
+    "    pick up to add to library)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "09d146a49ec7303687c6c28b3b01f6fd3a7ab73a862796fc96d9348880248344"
+    },
+    "    Carry it to the surface and win!": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "e48d42c10e3ff52b2f336822c690ef4f8bac4b2a8dc7570608aa9512808d126c"
+    },
+    "         and quit the game": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "fbef76fdac0bc5b6eb60958e195cae14138994095426358b67843c9cb5f906f9"
+    },
+    "         pickup part of a single stack": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "e414dc0781293a3b0c827cdebb4654191567234e53045b93bbec00a173614a28"
+    },
+    "         in view": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "68ce38ddfd5885875e92c81aace75f6fd209cce110caae17873982e8f762b88a"
+    },
+    "    (press twice for pick up menu)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "dd80370a49797306025c3188a038b4b74be19efa50a067b6ed4796f80e314e0d"
+    },
+    "    (use <w>%</w> to assign slots)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "d67a6687b11d70bf83ee28549f626be8e8e58a1fd111f545a9832777a5b6cb9b"
+    },
+    "    library (get books to add to it)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "0915293ef0b03733054aed35f9910d86fa5ff0680f3d8538424d73c83f2be540"
+    },
+    "    pick up to add to spell library)": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "09d146a49ec7303687c6c28b3b01f6fd3a7ab73a862796fc96d9348880248344"
+    },
+    "         if still alive and in sight": {
+      "context": "command.cc:help column indentation",
+      "translation_sha256": "5a9dff7879bfebb0adaedd0014b55f13bcc6f90b3fcc4ff6b1ff772973b42a4c"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

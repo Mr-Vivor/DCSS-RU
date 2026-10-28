@@ -27,6 +27,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "message.h"
 #include "notes.h"
@@ -1192,6 +1193,7 @@ void ShopMenu::update_help()
                          (you.gold - total_cost != 1) ? "s" : "");
     }
     top_line += "</yellow>";
+    top_line = localise(top_line);
 
     // Ensure length >= 80ch, which prevents the local tiles menu from resizing
     // as the player selects/deselects entries. Blegh..
@@ -1206,30 +1208,32 @@ void ShopMenu::update_help()
                 || menu_action == ACT_EXAMINE && !is_set(MF_ARROWS_SELECT);
     const string action_key = no_action ? "       " // max: "[Enter]"
         : menu_keyhelp_cmd(CMD_MENU_ACCEPT_SELECTION);
-    const string action_desc = action_key +
+    const string action_desc = action_key + localise(
             (no_action                   ? "                  "
             : menu_action == ACT_EXAMINE ? " describe         "
             : from_shopping_list         ? " buy shopping list"
-                                         : " buy marked items ");
+                                         : " buy marked items "));
 
     // XX swap shopping list / select by letter?
     const string mode_desc = !can_purchase ? ""
         : menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE)
-            + (menu_action == ACT_EXECUTE ? " <w>buy</w>|examine items"
+            + localise(menu_action == ACT_EXECUTE ? " <w>buy</w>|examine items"
                                           : " buy|<w>examine</w> items");
-    string m = menu_keyhelp_cmd(CMD_MENU_EXIT)+ " exit          ";
+    string m = menu_keyhelp_cmd(CMD_MENU_EXIT)+ localise(" exit          ");
     m += mode_desc;
     m = pad_more_with(m, make_stringf("%s %s",
         hyphenated_hotkey_letters(item_count(), 'a').c_str(),
-        menu_action == ACT_EXECUTE ? "mark item for purchase   "
-                                   : "examine item             "));
-    m += make_stringf("\n[<w>/</w>] sort (%s)%s  %s",
-        shopping_order_names[order],
-        string(7 - strwidth(shopping_order_names[order]), ' ').c_str(),
+        localise(menu_action == ACT_EXECUTE ? "mark item for purchase   "
+                                   : "examine item             ").c_str()));
+    const string sort_desc = localise(make_stringf("sort (%s)",
+                                                   shopping_order_names[order]));
+    m += make_stringf("\n[<w>/</w>] %s%s  %s",
+        sort_desc.c_str(),
+        string(max(0, 14 - strwidth(sort_desc)), ' ').c_str(),
         action_desc.c_str());
 
     m = pad_more_with(m, hyphenated_hotkey_letters(item_count(), 'A')
-                                  + " put item on shopping list");
+                                  + localise(" put item on shopping list"));
 
 
     const string col = colour_to_str(channel_to_colour(MSGCH_PROMPT));

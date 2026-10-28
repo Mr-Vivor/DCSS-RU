@@ -37,6 +37,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "macro.h"
 #include "mapmark.h"
@@ -250,15 +251,15 @@ void direction_chooser::print_top_prompt() const
 void direction_chooser::print_key_hints() const
 {
     // TODO: build this as a vector and insert ,s and \ns in a smarter way
-    string prompt = "Press: ? - help";
+    string prompt = localise("Press: ? - help");
 
     if (just_looking)
     {
         if (you.see_cell(target()))
-            prompt += ", v - describe";
-        prompt += ", . - travel";
+            prompt += localise(", v - describe");
+        prompt += localise(", . - travel");
         if (in_bounds(target()) && env.map_knowledge(target()).item())
-            prompt += ", g - get item";
+            prompt += localise(", g - get item");
     }
     else
     {
@@ -266,7 +267,7 @@ void direction_chooser::print_key_hints() const
         {
             const string hint = moves.fire_context->fire_key_hints();
             if (!hint.empty())
-                prompt += hint + "\n";
+                prompt += localise(hint) + "\n";
         }
         string direction_hint = "";
         if (!behaviour->targeted())
@@ -289,7 +290,7 @@ void direction_chooser::print_key_hints() const
         {
             if (prompt[prompt.size() - 1] != '\n')
                 prompt += ", ";
-            prompt += direction_hint;
+            prompt += localise(direction_hint);
         }
     }
 

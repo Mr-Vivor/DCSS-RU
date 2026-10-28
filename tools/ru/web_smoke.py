@@ -130,6 +130,20 @@ def main():
                     })""")
                     page.screenshot(path=str(ARTIFACTS / "first-level.png"), full_page=True)
                     (ARTIFACTS / "first-level.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
+                    # Help is assembled from descriptions plus configurable
+                    # bindings. Exercise the actual popup after substitution.
+                    page.keyboard.press("Shift+/")
+                    page.wait_for_function("document.body.innerText.includes('Содержание руководства')")
+                    page.keyboard.press("Shift+/")
+                    page.wait_for_function("document.body.innerText.includes('Передвижение:')")
+                    help_text = page.locator("body").inner_text()
+                    assert "зелья (выпить — q)" in help_text, help_text
+                    assert "hand weapons" not in help_text, help_text
+                    assert "uaff" not in help_text, help_text
+                    page.screenshot(path=str(ARTIFACTS / "russian-keyhelp.png"), full_page=True)
+                    (ARTIFACTS / "keyhelp.txt").write_text(help_text, encoding="utf8")
+                    page.keyboard.press("Escape")
+                    page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                 except Exception:
                     page.screenshot(path=str(ARTIFACTS / "newgame-failure.png"), full_page=True)
                     (ARTIFACTS / "newgame-failure.txt").write_text(
@@ -137,7 +151,7 @@ def main():
                     raise
                 assert not errors, errors
                 browser.close()
-                print("Russian startup and first level render; character creation reaches a visible dungeon without reloading; Cyrillic messages wrap.")
+                print("Russian startup, first level and key help render; character creation reaches a visible dungeon without reloading; Cyrillic messages wrap.")
     finally:
         if server is not None:
             server.terminate()

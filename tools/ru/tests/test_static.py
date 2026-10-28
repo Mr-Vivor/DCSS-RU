@@ -151,6 +151,16 @@ class StaticTranslationTests(unittest.TestCase):
             if re.search(r"[A-Za-z]{2}", prose):
                 self.assertRegex(target, r"[А-Яа-яЁё]", source)
 
+    def test_help_binding_placeholders_survive_translation(self):
+        # Bare % markers belong to insert_commands(), rather than printf.
+        review = json.loads((ROOT / "localization/ru/context-review.json").read_text(encoding="utf8"))
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        bindings = [key for key, entry in review["messages"].items()
+                    if "command.cc:_add_formatted_keyhelp" in entry["context"] and "%" in key]
+        self.assertGreater(len(bindings), 25)
+        for key in bindings:
+            self.assertEqual(key.count("%"), messages[key].count("%"), key)
+
     def test_web_controls_keep_protocol_values_and_hotkeys(self):
         class Controls(HTMLParser):
             def __init__(self):
