@@ -41,6 +41,7 @@
 #endif
 #include "kills.h"
 #include "libutil.h"
+#include "localise.h"
 #include "menu.h"
 #include "misc.h"
 #include "mon-util.h"
@@ -1848,6 +1849,69 @@ string scorefile_entry::game_time(death_desc_verbosity verbosity) const
     }
 
     return line;
+}
+
+// Presentation-only summary for WebTiles. The xlog, score and morgue formats
+// remain independent of the selected display language.
+string scorefile_entry::localised_summary() const
+{
+    if (!localisation_active() || Options.language != lang_t::RU)
+        return hiscore_line(DDV_VERBOSE);
+
+    string result = name;
+    if (!title.empty())
+        result += " — " + localise(title);
+    result += "\n" + localise("Score:") + " " + to_string(points)
+              + " · " + localise("Level:") + " " + to_string(lvl);
+    if (final_max_max_hp > 0)
+    {
+        result += "\n" + localise("Final health:") + " "
+                  + to_string(final_hp) + "/" + to_string(final_max_hp);
+        if (final_max_hp < final_max_max_hp)
+            result += " (" + localise("without draining:") + " "
+                      + to_string(final_max_max_hp) + ")";
+    }
+    result += "\n" + localise(_species_name(race)) + " · "
+              + localise(_job_name(job)) + "\n";
+
+    auto append_date = [&](const char* label, time_t time)
+    {
+        if (!time)
+            return;
+        const tm *date = TIME_FN(&time);
+        result += localise(label) + " "
+                  + make_stringf("%02d.%02d.%04d", date->tm_mday,
+                                 date->tm_mon + 1, date->tm_year + 1900) + "\n";
+    };
+    append_date("Started:", birth_time);
+    append_date("Ended:", death_time);
+    if (god != GOD_NO_GOD)
+    {
+        result += localise("God:") + " " + localise(god_name(god)) + "\n";
+        const char *rank = god == GOD_XOM
+            ? (lvl >= 20 ? "Favourite Plaything" : "Plaything")
+            : piety >= piety_breakpoint(5) ? "Champion"
+            : piety >= piety_breakpoint(4) ? "High Priest"
+            : piety >= piety_breakpoint(3) ? "Elder"
+            : piety >= piety_breakpoint(2) ? "Priest"
+            : piety >= piety_breakpoint(1) ? "Believer"
+            : piety >= piety_breakpoint(0) ? "Follower" : "Initiate";
+        result += localise(string("Faith rank: ") + rank);
+        if (penance > 0)
+            result += " (" + localise("under penance") + ")";
+        result += "\n";
+    }
+    if (wiz_mode)
+        result += localise("Wizard mode") + "\n";
+    if (explore_mode)
+        result += localise("Explore mode") + "\n";
+    result += "\n" + trimmed_string(localise(death_description(DDV_VERBOSE)));
+    result += "\n" + localise("Place:") + " "
+              + localise(level_id(branch, dlvl).describe(true));
+    if (!mapdesc.empty())
+        result += " (" + localise(mapdesc) + ")";
+    result += "\n" + trimmed_string(localise(game_time(DDV_VERBOSE)));
+    return result;
 }
 
 const char *scorefile_entry::damage_verb() const

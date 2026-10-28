@@ -5685,8 +5685,8 @@
       "translation_sha256": "58b7be82ef58a51be6a70a579aba0bf98d9d7b2479fa66a27e3e09499b21f839"
     },
     "Level @num@ of @arg@": {
-      "context": "travel.cc",
-      "translation_sha256": "7b735312d9240b50b858321c5cc1478d683df6409273eec270de90d4e0d0ad4e"
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "4e8a8907f893440be0838ac9b4c0d661c94aee566765a6a813caeceaa32f469e"
     },
     "Existing waypoints:": {
       "context": "travel.cc",
@@ -27519,6 +27519,234 @@
     "The air fills with toxic fumes!": {
       "context": "spl-clouds.cc: poison cloud created by the scroll of poison; observed in public WebTiles",
       "translation_sha256": "990e125f3ceeaaaa133eaac01c32824b9399d3a53f6177d57a83bce61fb6cb69"
+    },
+    "Score:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "175ce7ef7fafd3019e9df93f35b7ce0e39ba8b960804a4519eb14f5c22c0e544"
+    },
+    "Final health:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "179730ec1d7409a3204fd367ef45903eadca5125aef27d6b2f6bef563ecce102"
+    },
+    "without draining:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "2bec8aa5f32871cd6ab16ca33eed16cfc81f22198ec19264d3393ff069a0420d"
+    },
+    "Started:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "a438994439e33711b6a7d6266d0c398cbe0c99fabff7714ca72b7c78aa1ac162"
+    },
+    "Ended:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "5180ae398f358ec0d9dcc6db7cc99979b154d8fb2bafcc079b1c6837d2ed73c3"
+    },
+    "God:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "140a9eac6a8a06b5ab2d199ec4033b8d7a0666334c3972c2c72118b5c8701d06"
+    },
+    "Faith rank: Champion": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c0fa6c17a4ac289d03f89e224725ec31b5f20a23a8518518d7ca50a87161a665"
+    },
+    "Faith rank: High Priest": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "a95afc469a33f661ef273c008f7e76a79a3456c051d3e0358887d37b58af16a5"
+    },
+    "Faith rank: Elder": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "a85c4d98c09d514b1910b932c418af03c1b6c9c8b4086e5e2675d775c19f27c3"
+    },
+    "Faith rank: Priest": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "2a70aeb4ac0efd06b8258dd12f0de25739410ae7f2a277e7b172b8f54c8c69e2"
+    },
+    "Faith rank: Believer": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "57f49bcb8cf5b084c909b6de14c68317e32a2b978b5e3ae330bac7ac7024a6b2"
+    },
+    "Faith rank: Follower": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "05809fda1e9dff1a976036900fc81c4b8a4c969681e6ad1e2db82cad143eb781"
+    },
+    "Faith rank: Initiate": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "1f9026c950c3253a97e8bca6815138d89fd42e49da1f989814d522e7852285c5"
+    },
+    "Faith rank: Favourite Plaything": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "fc3fa10873d80b29d2764617018489d832c0114d7f1a35b559ca4667165d106a"
+    },
+    "Faith rank: Plaything": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "75d0dd591579fa4aeba3365405c357fab4829c808ff36401993f1579659a7d75"
+    },
+    "under penance": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "2f57575998dcb5dff9b9aa53b6c396528f250d59287445ca1b5608ce01b8d36d"
+    },
+    "Wizard mode": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "4ab6fa75ff2a8207ff6bcae478ee322fe5060c13bb4c1af9df7a6bdd7e628463"
+    },
+    "Explore mode": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "f775737598d1d7d8de15e3a7ff9401162534fc269ceced5696246d6cec01bd9b"
+    },
+    "The game lasted @arg@ (@num@ turns).": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "6b5d13e0d0a7fb89bbae51ad4fae912a2509b61f0de6c166d6ffb34447f7a9ec"
+    },
+    "Succumbed to poison": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "9785b660be212cdf85f7f6b9939518d34b73a74ead13108c9467053bb14ddbe7"
+    },
+    "Succumbed to their own poison": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "e8c23a521aa69e52e3dcd9f4c3721a77dc7868615e3d59ed0f3d40f2502d2643"
+    },
+    "Succumbed to barbed spike wounds": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "472ea3f08b7348abc662e6aacdf2b407d75919720a1673e907086fa83b176509"
+    },
+    "Succumbed to @arg@'s poison": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "99ed894eb1c0a85443f1bd0d7e52626cbd6191c6b7d65c5c3d514e43bb020a3b"
+    },
+    "Succumbed to @arg@ poison": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "8b150e188bb0805a93d359fc8a2521ce4d3c7ae6cc72d8e3a98cbf12effeac5d"
+    },
+    "Succumbed to @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "e85056ace477be34ecc09e854e8566af01f26637f61b01df38243b9a070e9699"
+    },
+    "Succumbed to their own @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "5cf82b99e16ad3a71a84a99052b697f99f460e8d31f60183164b230449929f62"
+    },
+    "Slain by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "4b26f9201f59f17d006793151dc4c55a21fa3f7cf5aef0fb2174031f5b720623"
+    },
+    "Mangled by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "18864df50b182c049b74c248497418a326e45a3f7552f92c4da2fed39bf70656"
+    },
+    "Mauled by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "18864df50b182c049b74c248497418a326e45a3f7552f92c4da2fed39bf70656"
+    },
+    "Demolished by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "74403c8ad2bbb60517a6f5df53ff6c1045ba7e83ef5f4e32e8b3308b1969b557"
+    },
+    "Annihilated by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "7ec4fd181e3a19a81fa3d05a4682781021ad6935770ce5cef00a057ea5df9072"
+    },
+    "Killed by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "4b26f9201f59f17d006793151dc4c55a21fa3f7cf5aef0fb2174031f5b720623"
+    },
+    "Killed from afar by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "0390d91cf5fdb33441f7793ce6b5ab9d55d596a433dcdc79355ef09915caa8de"
+    },
+    "Killed by their own @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "ef32931cfe4d4331dfeb5d3148131891a8a26d8eabe3c55048fe5292694ce004"
+    },
+    "Killed by mirror damage": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "290b7bc125e13b9e3553fb8f53bef7b7c9031c773fe8a36dd638a255938dc3bf"
+    },
+    "Constricted to death by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c760cb9bfecede62edad7af6ac8c3f7efd178cd8b5cc8cc9339472dcb14a20f0"
+    },
+    "Headbutted by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "612cdea4642c6aa66cc354d5ec0088172fd6ea4dafac99a9712a7fc517c63ec7"
+    },
+    "Rolled over by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "f475a1422fa5a09c224fcd1e704aa352e4af13aefc1e3f93a63d23fb6a459cbf"
+    },
+    "Thrown by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "e85f8b0de595a170baf5353d2a7c9cf10a3447e8e24b8bc6946a95289f521886"
+    },
+    "Blown up by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "05466815f6b6aa1769b722172f5eb112dc5fcc629a6ede5c963d0d08770a07f5"
+    },
+    "Blew themself up": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "4fadba67e768d5d00988d4c19ce4ea0361df5f5c8f8841b72ca68751a7c903df"
+    },
+    "Collided with @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "2add73c5eb1db93a216033360d95bfa697fcda6e75679aff7dac93195ec37915"
+    },
+    "Tarried too long and was consumed by Zot": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "846be413161b3f52d9633b5079a3615ad8d092ff18282d2e3a98c24107d0ec86"
+    },
+    "Nibbled to death by software bugs": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "be850997e5c51644b01d5beb48cbc82c9ea2294f557a43f908e10492af1a5864"
+    },
+    "Engulfed by a cloud of @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c6d89158ee9a74d56049b4e431cb0ddc92e10f217f7d102c86116cfd1d6a44fe"
+    },
+    "Engulfed by their own @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "678459c09a45aa3efa97834e9f97a0f51f4902d01d9b2f090a102d7d991d4791"
+    },
+    "Engulfed by @arg1@'s @arg2@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "3cf8d59ced95e107dd92f7b714b5d125c2ccc45108ba774d541b1ffbcade0bca"
+    },
+    "... wielding @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "f5b20d8da891deead12c1163a7f87d885a34eda176b73b7ecbcc5d320fa26b80"
+    },
+    "... caused by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "83e456131146992f35f6ebe1f40ac65ba4c4a501304c72b33e12228903035a49"
+    },
+    "... with @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c9256f9817dab83ad18227879de138440a7efdcbb2718d38b4876a99aadc85e7"
+    },
+    "... with a @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c9256f9817dab83ad18227879de138440a7efdcbb2718d38b4876a99aadc85e7"
+    },
+    "... with an @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "c9256f9817dab83ad18227879de138440a7efdcbb2718d38b4876a99aadc85e7"
+    },
+    "... invoked by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "591f652318860fcc39f616eb528f3bf55c2a91425e184bb3abf9433e2ee5e6e5"
+    },
+    "... generated by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "7d7a53f74a9783b6fc3e950032991e6306258a346090037b3213671616df820f"
+    },
+    "... awakened by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "e68030f4663f89954b14f67dfbb76edf29a6588f02ba754508f2e13c1bf933f4"
+    },
+    "... after being knocked back by @arg@": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "6e505796b55b08c2e9dda971e28c60fb0bb9bd6c760e37d7d59834ff37f726ad"
+    },
+    "Level:": {
+      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
+      "translation_sha256": "b7c430224fd7ffc0c8b8d862697da93a1e702149ff4104bd346dc2d0a40011c6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

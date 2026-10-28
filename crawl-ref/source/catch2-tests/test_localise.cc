@@ -7,6 +7,7 @@
 #include "describe.h"
 #include "l-libs.h"
 #include "initfile.h"
+#include "hiscores.h"
 #include "localise.h"
 #include "newgame.h"
 #include "options.h"
@@ -203,6 +204,34 @@ TEST_CASE("Russian character greetings preserve user names and multiword choices
     character.job = JOB_FIGHTER;
     CHECK(newgame_welcome(character) == "Welcome, Human the Human Fighter.");
     CHECK(newgame_welcome(character, true) == "Welcome back, Human the Human Fighter.");
+    Options.language = lang_t::RU;
+}
+
+TEST_CASE("Russian endgame summary uses structured character data and preserves xlog", "[localise][single-file]")
+{
+    russian_localisation language;
+    const string record = "v=0.35:name=Human:sc=1061:race=Troll:cls=Berserker:char=TrBe:xl=8:"
+        "title=Ruffian:ktyp=pois:killer=a water moccasin:br=D:lvl=5:hp=0:mhp=112:mmhp=112:"
+        "god=Trog:piety=85:start=20260928120000S:end=20260928121158S:dur=718:turn=3249";
+    scorefile_entry score;
+    REQUIRE(score.parse(record));
+    const string summary = score.localised_summary();
+    INFO(summary);
+    CHECK(summary.find("Human — Разбойник") != string::npos);
+    CHECK(summary.find("Тролль · Берсерк") != string::npos);
+    CHECK(summary.find("Очки: 1061") != string::npos);
+    CHECK(summary.find("Уровень: 8") != string::npos);
+    CHECK(summary.find("Бог: Трог") != string::npos);
+    CHECK(summary.find("Духовный сан: Жрец") != string::npos);
+    CHECK(summary.find("Погиб от яда водяного щитомордника") != string::npos);
+    CHECK(summary.find("Ходов: 3249") != string::npos);
+    CHECK(summary.find("Began as") == string::npos);
+    CHECK(summary.find("turns") == string::npos);
+    CHECK(score.raw_string() == record);
+
+    Options.language = lang_t::EN;
+    CHECK(score.localised_summary() == score.hiscore_line(scorefile_entry::DDV_VERBOSE));
+    CHECK(score.raw_string() == record);
     Options.language = lang_t::RU;
 }
 

@@ -179,6 +179,7 @@ public:
     bool parse(const string &line);
 
     string hiscore_line(death_desc_verbosity verbosity) const;
+    string localised_summary() const;
 
     string character_description(death_desc_verbosity) const;
     // Full description of death: Killed by an xyz wielding foo

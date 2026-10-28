@@ -425,7 +425,7 @@ NORETURN void end_game(scorefile_entry &se)
     }
 
 #ifdef USE_TILE_WEB
-    tiles.send_exit_reason(reason, hiscore);
+    tiles.send_exit_reason(reason, se.localised_summary());
 #endif
 
     game_ended(exit_reason);
