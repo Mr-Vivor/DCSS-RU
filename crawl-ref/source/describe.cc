@@ -278,6 +278,22 @@ string process_description(const describe_info &inf, bool include_title)
 //      seems acceptable.
 static string _format_prop_desc(string prop_name, string prop_desc)
 {
+    // Translate complete descriptions before wrapping them. Translating the
+    // already wrapped lines loses sentence matches in the message database.
+    if (localisation_active())
+    {
+        const int original_name_width = strwidth(prop_name);
+        const string leading = prop_name.substr(0, prop_name.find_first_not_of(" \t\n"));
+        trim_string(prop_name);
+        if (ends_with(prop_name, ":"))
+            prop_name = localise(prop_name.substr(0, prop_name.size() - 1)) + ":";
+        else
+            prop_name = localise(prop_name);
+        prop_name = leading + prop_name;
+        prop_name += string(max(1, original_name_width - strwidth(prop_name)), ' ');
+        prop_desc = localise(prop_desc);
+    }
+
     // XXX: It is possible some Android layouts are too small to wrap properly
     //      to 80 characters (and I am currently not certain how to check on my
     //      own), so let's just not do any justification.
@@ -788,18 +804,20 @@ void desc_randart_props(const item_def &item, vector<string> &lines)
         // these two have some custom string replacement
         if (prop == ARTP_WILLPOWER)
         {
-            lines.push_back(make_stringf("%sIt %s%s your willpower.",
-                     _padded_artp_name(ARTP_WILLPOWER, stval).c_str(),
+            lines.push_back(_format_prop_desc(
+                     _padded_artp_name(ARTP_WILLPOWER, stval),
+                     make_stringf("It %s%s your willpower.",
                      (stval < -1 || stval > 1) ? "greatly " : "",
-                     (stval < 0) ? "decreases" : "increases"));
+                     (stval < 0) ? "decreases" : "increases")));
             continue;
         }
         else if (prop == ARTP_STEALTH)
         {
-            lines.push_back(make_stringf("%sIt makes you %s%s stealthy.",
-                     _padded_artp_name(ARTP_STEALTH, stval).c_str(),
+            lines.push_back(_format_prop_desc(
+                     _padded_artp_name(ARTP_STEALTH, stval),
+                     make_stringf("It makes you %s%s stealthy.",
                      (stval < -1 || stval > 1) ? "much " : "",
-                     (stval < 0) ? "less" : "more"));
+                     (stval < 0) ? "less" : "more")));
             continue;
         }
 

@@ -1,0 +1,2514 @@
+{
+  "date": "2026-10-28",
+  "source_revision": "60e87af94598266f6dc32eb73014942b8cc4b59a",
+  "method": "Context review against the checked-out English templates and gameplay descriptions; no external machine-draft service used in this pass.",
+  "catalogs": {
+    "ui": {
+      "context": [
+        "dat/translate/ui.txt",
+        "startup.cc",
+        "newgame.cc",
+        "tileweb.cc",
+        "player.cc:get_exp_progress",
+        "skill-menu.cc",
+        "tilereg-doll.cc"
+      ],
+      "translations_sha256": "1a3bd5c36f527ab58c9d526cdb06c9551665f39eb0605646556be7005e343e1d",
+      "entries": 477
+    },
+    "annotations": {
+      "context": [
+        "dat/translate/annotations.txt",
+        "item-name.cc",
+        "artefact.cc",
+        "dat/descript/egos.txt",
+        "describe.cc"
+      ],
+      "translations_sha256": "5656b61c7b8e3579efc951a1f74dd03b29d6f99a9e0c288d0deb1a0e3a8e67b5",
+      "entries": 187
+    },
+    "skills": {
+      "context": [
+        "dat/translate/skills.txt",
+        "skills.cc",
+        "dat/descript/skills.txt"
+      ],
+      "translations_sha256": "0f3872194eb7043ef3fcec3c662f474ab0298562c2f39ccea11214b31736b434",
+      "entries": 65
+    },
+    "player-misc": {
+      "context": [
+        "dat/translate/player-misc.txt",
+        "player-stats.cc"
+      ],
+      "translations_sha256": "1619456a02fb5aac5cf29b79bc188e42c1ba474ce06a1314dd9274f53fcdb9cb",
+      "entries": 6
+    }
+  },
+  "messages": {
+    "You aren't carrying anything.": {
+      "context": "invent.cc",
+      "translation_sha256": "0a7d1b5ab72d8195a48d614f71512125eb03d6e44b50631c71e6385bfa78bc94"
+    },
+    "You aren't carrying any weapons.": {
+      "context": "invent.cc",
+      "translation_sha256": "5244c456a18a435a589b57088a6d5fec6f7d0ad78d0ee094b80fd183b6abe1cb"
+    },
+    "You aren't carrying any weapons that can be blessed.": {
+      "context": "invent.cc",
+      "translation_sha256": "3342a6efe4e8076597db78829c3c631a0768ef5e81f1723934104b4b5435ccb5"
+    },
+    "Your armour is currently melded into you.": {
+      "context": "invent.cc",
+      "translation_sha256": "b2b16cd649f45d7d6aa18305dc3c21b11f18477481b957f4f6f54f712c558395"
+    },
+    "You aren't carrying any currently wearable armour.": {
+      "context": "invent.cc",
+      "translation_sha256": "1645a9e99f4f8f7efbee7af75141f475a79cffbd8180fbf7996bc4700c43726d"
+    },
+    "You aren't carrying any wearable armour.": {
+      "context": "invent.cc",
+      "translation_sha256": "b75d0343c090b104fdccfc34a023e8abb5c9ef40b432e19223a7afea690753a2"
+    },
+    "You don't have any unidentified items.": {
+      "context": "invent.cc",
+      "translation_sha256": "d0a6f328402f8de716a36a051bda8d88de317384b453a13357b74bc0c67a07ec"
+    },
+    "You aren't carrying any armour which can be enchanted further.": {
+      "context": "invent.cc",
+      "translation_sha256": "87e4b7dd777897f5c0b9397f6d205a5ba258105a798cd4cb08f9d29761043d69"
+    },
+    "You don't have any corpses.": {
+      "context": "invent.cc",
+      "translation_sha256": "c3a53221b41f7d9489a825274d0f2eb89c0f6afc135b8bc24a5750207ed9014d"
+    },
+    "You aren't carrying any potions.": {
+      "context": "invent.cc",
+      "translation_sha256": "486294ce71b1121cf598a64bd308681d22f2e8712c0a9af19372d7898e6f5ed5"
+    },
+    "You aren't carrying any scrolls.": {
+      "context": "invent.cc",
+      "translation_sha256": "ef0c725ba3fc132bd75496e0ca1f300cd10e7590457b43714ec3f60a29bf7748"
+    },
+    "You don't have any books.": {
+      "context": "invent.cc",
+      "translation_sha256": "9885b6d92eba556816435a1965e2ea9ae166fec62198c3b100a04ebd69dc597d"
+    },
+    "You aren't carrying any wands.": {
+      "context": "invent.cc",
+      "translation_sha256": "499c387bc1db90fa50736f37cec3629c4cbe2f9d519c5eaecccee429e6138815"
+    },
+    "You aren't carrying any pieces of jewellery.": {
+      "context": "invent.cc",
+      "translation_sha256": "244833922d0ffb1eaa2d70ab796e946a79464ca9c477e2a132546e28d76156f0"
+    },
+    "You aren't carrying any items that might be thrown or fired.": {
+      "context": "invent.cc",
+      "translation_sha256": "563a25680b8c9560fa537fca8a9adef0eb3fb57be567f53c67217ea4f395b64f"
+    },
+    "You aren't carrying any items that you can evoke without wielding.": {
+      "context": "invent.cc",
+      "translation_sha256": "e0c147a5e5b3182aa3beea4bba866cb21fca38a2c5731147eb447e48bf3b34b8"
+    },
+    "You aren't carrying any items that you can evoke.": {
+      "context": "invent.cc",
+      "translation_sha256": "30126e8de295cc70ef08cdcef800ac0c2a5477e28264a57785d87d9795be996f"
+    },
+    "None of your equipped items are cursed.": {
+      "context": "invent.cc",
+      "translation_sha256": "0dc7ac0223e402b4a2e930a21813eaffabacef528f54fc62f3561f4f92c55a2e"
+    },
+    "You aren't carrying any weapons that can be branded.": {
+      "context": "invent.cc",
+      "translation_sha256": "6a25e1a897d65b3ab28a3c1998f7db969da7f7674bded5811611765547533c71"
+    },
+    "You aren't carrying any weapons that can be enchanted.": {
+      "context": "invent.cc",
+      "translation_sha256": "fb95b9c6ed50b36066b28802937cdd9c1fab3c2c40a5749421abd366f69dfada"
+    },
+    "You aren't carrying anything you can give to a follower.": {
+      "context": "invent.cc",
+      "translation_sha256": "6ae8523e378f1119a39ddf3ae0c4091456775224ec6ad29cd0aa13e746b099a0"
+    },
+    "You aren't wearing any cursable items.": {
+      "context": "invent.cc",
+      "translation_sha256": "8fb32e1918f4440b48c232e228191fd6c8792b0e19ed2a5b42552be9bc1d2544"
+    },
+    "You aren't wearing any uncursed rings.": {
+      "context": "invent.cc",
+      "translation_sha256": "54b9dc5e19b7c5ff17d15ed5fa4f6318463d7737520c146744f80e5ca0750a89"
+    },
+    "You don't have any quiverable items.": {
+      "context": "invent.cc",
+      "translation_sha256": "50e549c05e8a01dcd9f1d437a7d83631df87f1bd3e35897ac6e5a203619f40c7"
+    },
+    "You aren't carrying any such object.": {
+      "context": "invent.cc",
+      "translation_sha256": "e528e3cd3544f253923e7c03f5700a708244128234d626bc49e4cd2215b96dd3"
+    },
+    " (1 turn)": {
+      "context": "invent.cc",
+      "translation_sha256": "72cd0bf760d3d3db10f3bf2acd42142caf194bced2d2a5944207d0790dfe1562"
+    },
+    " (1+ turns)": {
+      "context": "invent.cc",
+      "translation_sha256": "bb0ce6bda684b4ffcdafe5f18d927883d969130f8871bcc92ee0417172bf1749"
+    },
+    " (@num@ turns)": {
+      "context": "invent.cc",
+      "translation_sha256": "f3578e002551be4e6df4bab259be61490211ba37c47913d969862a795cb0ba57"
+    },
+    " (@num@+ turns)": {
+      "context": "invent.cc",
+      "translation_sha256": "ae46490d10415ac2639d0df9f176ef1d182ad57bcf0e16c50757235639bc2686"
+    },
+    "Drop (and turn off autopickup for) what?": {
+      "context": "invent.cc",
+      "translation_sha256": "708001ca89b58b7fcc24269362a536ea254a2b35ec06bfc0e5b032d45ea44b59"
+    },
+    "Drop what?": {
+      "context": "invent.cc",
+      "translation_sha256": "bfbf1a7b3791834d6f1dbd461dcd48e593bfa7d79e44ad66405edef428f55e29"
+    },
+    "(<Enter> or tap header to drop)": {
+      "context": "invent.cc",
+      "translation_sha256": "b9698c793a7f41e94656d54ad6d27de54783f6040217c39f9283b68e21dd33f2"
+    },
+    "(_ for help)": {
+      "context": "invent.cc",
+      "translation_sha256": "0f4f96c8c9591a2dbb44f3b8b6ed66935e1ac62fdd29056ae3686269e0df26b0"
+    },
+    "@Arg@ (<w>?</w> for menu, <w>Esc</w> to quit)": {
+      "context": "invent.cc",
+      "translation_sha256": "00b0640140438c92d4f1686accf4f8dd6467b4a0b3b54a5a68f23b73125e4df1"
+    },
+    "You don't have any such object.": {
+      "context": "invent.cc",
+      "translation_sha256": "e528e3cd3544f253923e7c03f5700a708244128234d626bc49e4cd2215b96dd3"
+    },
+    "Really unwield @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "9936fa6c4a96797d885eb65cb99690279aec0201a3c9169a69c5e27a2907ae90"
+    },
+    "Really take off @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "f313092eb9307d0fe023572d95653cbce696fa4f76ea93a07489e415eda87964"
+    },
+    "Really remove @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "d086da576f94384bc8abd072e44175559b60c17f6f1bcaebbfb422461c956749"
+    },
+    " Item will be destroyed.": {
+      "context": "invent.cc",
+      "translation_sha256": "69a0ec450db05599da05fddc7801cbd69b1078dc3c61123519ee857249ff245e"
+    },
+    " This could place you under penance!": {
+      "context": "invent.cc",
+      "translation_sha256": "acce7ff418d8e50a8cb47eaa5f2cbd2b3c7daaa7b953f1a62621baea842d2845"
+    },
+    "Really wield @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "9502a8f3aaffcba9a3e4bb6fe3587e5efe3ac632a893484fa88b3b385f6f7dfe"
+    },
+    "Really quaff @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "857a620cba35ce217c4cd09983267213aa6a759f78f422889c5eb938f93ee4ce"
+    },
+    "Really drop @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "a02b0e5e42464ba5302ff87bc425ec745dda0fa14b2a59dd4922fff8251e0e19"
+    },
+    "Really wear @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "f97cd01763f8fc135f2328ad788abe639619776d3811c4d6431ca3f13ce9a141"
+    },
+    "Really put on @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "306dbee3e3800dc0bf50de28412323547d86517796499f172fd709da9714f2be"
+    },
+    "Really read @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "a1604cc38228f3cfce2b6e6c3c85d770dd854a63662ec58b1881b83d626bea38"
+    },
+    "Really memorise from @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "302108d4cf25dd49bff5c9ed0f084c0ceabe11261ffb35e7944845443d6c6334"
+    },
+    "Really zap @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "30b77f076814f5ee78b13307104a8327e90151ae84e915ca27241f47efde2011"
+    },
+    "Really fire @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "a81dc7c7cc1357f86669379500b20fc59988164d6ae2d56f97ff5007e2aee14d"
+    },
+    "Really evoke @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "a5340973e2ba3817b5bf80acb5c3e699d441a276c335380807c9645d6168c184"
+    },
+    "Really destroy @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "013081bcfb8e6d218030fb603ddcafc6537605617044e97d48faf79fd4f3a119"
+    },
+    "Really quiver @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "31f9642be2219baa72ebfe4df0bf50db730f674bfc236f89e816055c5378eeed"
+    },
+    "Really choose @arg@?": {
+      "context": "invent.cc",
+      "translation_sha256": "11f4cefb1e3656286d8e3f6a0a1ace22d182ba6932328fde3196b18e1b302fef"
+    },
+    " This could place you under penance AND you're about to teleport!": {
+      "context": "invent.cc",
+      "translation_sha256": "d62a279f9d07001b0af7d3753f59f943d4db1196ca733864436dde366e1dfedc"
+    },
+    " You're about to teleport!": {
+      "context": "invent.cc",
+      "translation_sha256": "84b8615e53a07057af0971d0132c5b39732f02c8fc145a29d7c1d6d05619ae1f"
+    },
+    "That's the wrong kind of item! (Use * to select it.)": {
+      "context": "invent.cc",
+      "translation_sha256": "288379c708afa5a74cde58ec5ea870194e4b8fcd63596ffd21fe837325edaebb"
+    },
+    "That item is melded into your body.": {
+      "context": "invent.cc",
+      "translation_sha256": "a6d5f0aff86c16bad7fa15b5939725a885ce2a884d27a95973bf706ba75f7ba3"
+    },
+    "That item can only be evoked when wielded.": {
+      "context": "invent.cc",
+      "translation_sha256": "28bb7c6a184df6c9d60e016bf09fcf6cff3c24c228f70c7a40e83251c25500c3"
+    },
+    "That item cannot be used by those hated by all!": {
+      "context": "invent.cc",
+      "translation_sha256": "c2f885484f01c9274a17784b04c1dd4bed4032ed9ea2e6b33198d33f6fac60cb"
+    },
+    "That item cannot be evoked!": {
+      "context": "invent.cc",
+      "translation_sha256": "652c493534ca1edc6e3b50ca721c2c4248ed419741bc2a15f1adbb6ffc3707a8"
+    },
+    "Inventory Items": {
+      "context": "item-use.cc",
+      "translation_sha256": "a8d8edfef40808f286d7ba909dace0ed0ee5e30bc9008d088684a77cbd9d3ac7"
+    },
+    " (',' to select)": {
+      "context": "item-use.cc",
+      "translation_sha256": "dfacf077a661a7eced86bd09bfccf218239906e2ef59519ce0d55421839625b8"
+    },
+    "Floor Items": {
+      "context": "item-use.cc",
+      "translation_sha256": "8a0b40f5615d5ada6cb0bc0967b5dedbf979807e13d49c600b12cf3e94e54da3"
+    },
+    "Your weapon is melded into your body!": {
+      "context": "item-use.cc",
+      "translation_sha256": "8719611b0c78e15e629cdc9d9dc97ffcc9ebe068710666671878237207a23d33"
+    },
+    "You can't wield anything in your present form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "7b7fd4deb48a2053f08ba3104fd827834df8e28c8483c1b9df9ab1f54f4c31ee"
+    },
+    "You cannot break your focus on the pain!": {
+      "context": "item-use.cc",
+      "translation_sha256": "b99a90feb7bed291a7a754052e3d4abbf9e367f3d8a2228bdf71358a2df5c387"
+    },
+    "Your thirst for blood prevents you from unwielding your weapon!": {
+      "context": "item-use.cc",
+      "translation_sha256": "21b7efba9dc820c8ed968fec856913198afafa0458f6e0ab2823369a945a3e68"
+    },
+    "You can't unwield your weapon!": {
+      "context": "item-use.cc",
+      "translation_sha256": "c84e996d8e8524d60dc8e4121a83dba2001863b8fd11882ed6d5762197f3631e"
+    },
+    "You can't unwield your weapon to draw a new one!": {
+      "context": "item-use.cc",
+      "translation_sha256": "30f9e389bda94c73496fc1b196aa2849731f6f26b6399cd18dd91c19553423b0"
+    },
+    "You can't wield that without your missing tentacle.": {
+      "context": "item-use.cc",
+      "translation_sha256": "6e1da5561435ff2d29db2efcb6322b5108d4a28e86f2263cfc2a2aa717b09893"
+    },
+    "You can't wield that without your missing arm.": {
+      "context": "item-use.cc",
+      "translation_sha256": "61a9ad985d80aae8095637c10049f1eeecedb2dec8aaa63226e30e93c00501dd"
+    },
+    "You are wearing that object!": {
+      "context": "item-use.cc",
+      "translation_sha256": "f8a102bfd5ed0fd4600a8c3695119b1e76956bb4ac1e30f099d7c52cf8536f53"
+    },
+    "You can't wield that with a shield.": {
+      "context": "item-use.cc",
+      "translation_sha256": "7986247b1f1e21d488d97a6827e18fb65878dfbccd786749e1a9e901bf142cd4"
+    },
+    "This weapon is holy and will not allow you to wield it.": {
+      "context": "item-use.cc",
+      "translation_sha256": "76701bc21365e660d60ffe390aa6dcf9b97dbd0eb03b5b48e6a6e67bdbb8f4e1"
+    },
+    "You can't carry that many items.": {
+      "context": "item-use.cc",
+      "translation_sha256": "5d66d29ccfb4b80baa583be18b5ee17478b4675b77e75e2107d462493e2ed3d5"
+    },
+    "Wield which item (- for none, * to show all)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "016d81f40816ea974895f29306b4d7604e0cde15d6571f024f2e53610052c731"
+    },
+    "You are already wielding that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "261345cf02d9b37d0c5947813913a2bda5f38da8b709228840b5cb80fcab161e"
+    },
+    "You can't shoot while berserk! Really wield @arg@?": {
+      "context": "item-use.cc",
+      "translation_sha256": "b29f636557dd01f72bd1dea4e3e0f3a3e7a08d5876ec92a4820ce84f8c848531"
+    },
+    "You can't wear that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "0b24aa0c87d8ec093ca922e135b5b4c2a328401efdb383eef6556845415f829d"
+    },
+    "You can wear that only in your normal form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "6148aa324e8c366e657973ed47f2e91a4d28fa88bb4b72b718b6fd8d168f64c8"
+    },
+    "Your wings won't fit in that.": {
+      "context": "item-use.cc",
+      "translation_sha256": "004c7303ab8807fd3fe6be8b773424937f017973a192d4fda7c9d1ec954f7d91"
+    },
+    "Your wings, even vestigial as they are, won't fit in that.": {
+      "context": "item-use.cc",
+      "translation_sha256": "16f83d9cd09df316a4710a30bef77aee227b8d95c2d9b37f7d2d7d49bfec43d7"
+    },
+    "You need the rest of your tentacles for walking.": {
+      "context": "item-use.cc",
+      "translation_sha256": "c9a6a8460988ec0886180c3fb81d81336c0f9c6acb7e51cad0fc47ae42578d37"
+    },
+    "You'd need another arm to do that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "b1e4c9d3e50c07675605cc0cf2dfd9f3825463dd39fab5abe3a93cc47c8c23b7"
+    },
+    "You'd need three arms to do that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "96d5ecb1b4a07d7339c8e3b39d636afb33d31c6eb60b6a73d7ecb9ccaf877214"
+    },
+    "The hauberk won't fit over your tail.": {
+      "context": "item-use.cc",
+      "translation_sha256": "098f7b3ef63461eb59bb7ec75e36553af41eca04f6be5093eb2dde5b4a84dbf3"
+    },
+    "You have no feet.": {
+      "context": "item-use.cc",
+      "translation_sha256": "462efdd19d3a5c1285fd3f3d47885852997a913cc6a3d3a24e73e655834bb5ee"
+    },
+    "The hauberk won't fit your claws.": {
+      "context": "item-use.cc",
+      "translation_sha256": "0976784decc9e4648d7ec3a126e4ff8e974f54e2384aba17e9e92365a9191bd8"
+    },
+    "The hauberk won't fit your head.": {
+      "context": "item-use.cc",
+      "translation_sha256": "dad18f62938f241b8957467e65e5978e328520579e58ea6cbba0063e1fab5554"
+    },
+    "You'd need to take off your headwear first.": {
+      "context": "item-use.cc",
+      "translation_sha256": "d2e1f1d9d26b3ba114a45d8ceeef7984fa8035d454064978bcc816071d884e47"
+    },
+    "You'd need to take off your gloves first.": {
+      "context": "item-use.cc",
+      "translation_sha256": "3d1b4574ab436be01321371c9b6bcc1d3b309b0722b263a449dffd6f496f2a66"
+    },
+    "You'd need to take off your boots first.": {
+      "context": "item-use.cc",
+      "translation_sha256": "70400b73370f97d08bcac85474e6182ac0ae04f2453f52d179cad46e2a75e761"
+    },
+    "You can't wear the hauberk in your current form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "02e331b3a1ae75bfe3927c58ec2f101b23aeedf05e7cde7a5e11ec96db687571"
+    },
+    "You can't wear this over your hauberk.": {
+      "context": "item-use.cc",
+      "translation_sha256": "cd079be96b2a25c1056f003fed34c9bdf8e7693840b503d8c2068a28b0eb5f02"
+    },
+    "This armour is too big for you!": {
+      "context": "item-use.cc",
+      "translation_sha256": "192ea94c02dfa82f98ae2723c16e04037889f7d5e169eac79d6a9f89c9a158a5"
+    },
+    "This armour is too small for you!": {
+      "context": "item-use.cc",
+      "translation_sha256": "d019bb9c1d8fbf2fe744f4313185864f75d5d9fd0cabca526690550e581283ee"
+    },
+    "You can't wear a glove with your huge claw!": {
+      "context": "item-use.cc",
+      "translation_sha256": "ec1828acc667935cb5049f14a6f298276e23d408d193e0aa4d8a808801f190dd"
+    },
+    "You can't wear gloves with your huge claws!": {
+      "context": "item-use.cc",
+      "translation_sha256": "97d7db20290f0041861e531928c0fc7f026f9b28f9119e31bf164b07330ef946"
+    },
+    "You can't wear boots with hooves!": {
+      "context": "item-use.cc",
+      "translation_sha256": "ceb8c50a66be14fc366146b0c5ae1f74814c6f0016c78aee7b441d015d63c2f7"
+    },
+    "Boots don't fit your talons!": {
+      "context": "item-use.cc",
+      "translation_sha256": "c9b0d0def1d4d63fd639bb67046cec1d753d18004efb0ba3a056ce052d866f5c"
+    },
+    "You have no legs!": {
+      "context": "item-use.cc",
+      "translation_sha256": "66ba37621a02a0c2f9cab4c144a138353e5d00519ed90fa54410b71ce181b7c4"
+    },
+    "Boots don't fit your feet!": {
+      "context": "item-use.cc",
+      "translation_sha256": "84adcf391ec99cc03323e22580d054695fa8a9770438860de5ae2e4663944915"
+    },
+    "You don't currently have feet!": {
+      "context": "item-use.cc",
+      "translation_sha256": "16a83ee369aab582a6e65f0d41c5ea6e9a2ae05a809e7e6c03d5084163c573aa"
+    },
+    "You have no feet!": {
+      "context": "item-use.cc",
+      "translation_sha256": "b8818cc662b4194622ad047c5ee008071726001a4afe34c1aa5445dcb84c0bda"
+    },
+    "You can't wear any headgear with your large horns!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9f215441b04403fa2513c7920ed52202ec559d069254d14386456818a02b92c7"
+    },
+    "You can't wear any headgear with your large antennae!": {
+      "context": "item-use.cc",
+      "translation_sha256": "0c10d6ae673cb6479a4493d102c751238d5842e445d7199d0be5bde481f800f6"
+    },
+    "You can't wear that with your horns!": {
+      "context": "item-use.cc",
+      "translation_sha256": "4d93ed88bfaac40f8a7a58452fdff11439e9eb96f0a9eb9d8522e3a49bf0c393"
+    },
+    "You can't wear that with your beak!": {
+      "context": "item-use.cc",
+      "translation_sha256": "0d8fa51194ab83066f90b9ae20adb7d9c1260e4dcdac9f3bd0e8d985030d9119"
+    },
+    "You can't wear that with your antennae!": {
+      "context": "item-use.cc",
+      "translation_sha256": "a68507ce6cbacdd6622c3f6606f62a3837ab8a4f442505b318bdae880442854e"
+    },
+    "You can't wear that with your reptilian head.": {
+      "context": "item-use.cc",
+      "translation_sha256": "debaafdd49f5722d8a1ea47be4153a307900fd9d95672f0caaa1af54a9a3a6bc"
+    },
+    "You can't wear that in your present form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "bc89ba59c35cab612300df8bb9c70b85a63d9347e50f53d700a5ec3c0dc93d1a"
+    },
+    "You can't wear that.": {
+      "context": "item-use.cc",
+      "translation_sha256": "37c022245847ef62183dfb9f343a298c9c1c57713bfcca9b8bf91232d3ef372c"
+    },
+    "You can't wear anything.": {
+      "context": "item-use.cc",
+      "translation_sha256": "6b10dbebd7f6954e0c472eeee19aee5725e9134dc22a98cdb5c3a0743cd0cd79"
+    },
+    "You can't wear anything in your present form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "c28d005149740aab81f27f7b15a9e51890fdede96ae21572d1a433a7d6ca3dab"
+    },
+    "Wear which item (* to show all)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "27289d48e69608c09be453150202362a233695e9a15d2d4580e9f6ceab46ab97"
+    },
+    "You are wielding that object!": {
+      "context": "item-use.cc",
+      "translation_sha256": "370494d2f04f87a1f4ae8e659aa84883644e400edaadd5b9bb415cde6b39c2da"
+    },
+    "You're already wearing that object!": {
+      "context": "item-use.cc",
+      "translation_sha256": "f8a102bfd5ed0fd4600a8c3695119b1e76956bb4ac1e30f099d7c52cf8536f53"
+    },
+    "You aren't wearing that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "23fdc68442cf6ba58f904a0ccf63229c2660b2ba680a8f9864ad59735fb42690"
+    },
+    "@Arg@ is melded into your body!": {
+      "context": "item-use.cc",
+      "translation_sha256": "462e2c65821f11801851528522f8d699d63d5a336e54d8506ba5483b04e552be"
+    },
+    "You aren't wearing that object!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9844149fa538628c15f6908603c62fe41c6466c85d86cfec47fa926d65894af9"
+    },
+    "@Arg@ is stuck to your body!": {
+      "context": "item-use.cc",
+      "translation_sha256": "5fcfef7608a436ded7ba1513767a385fc8f8191107125bacb3c1323220aa56cb"
+    },
+    "You're wearing all the rings you can. Remove which one?": {
+      "context": "item-use.cc",
+      "translation_sha256": "09dad18dc960ae7c42595d04c23f4044aaa8d048fcf43a1021eb5767e5fb9a2a"
+    },
+    "(<w>?</w> for menu, <w>Esc</w> to cancel)": {
+      "context": "item-use.cc",
+      "translation_sha256": "7c429ac7d2ce392de380d986ddbe209917be9a693a56519ca5518be54770a728"
+    },
+    "<w>@arg1@</w> or @arg2@": {
+      "context": "item-use.cc",
+      "translation_sha256": "3c4710bf3988d131c96f88eb2cd9f004681bdff8598d3aa0552a8bf99d1b4b9e"
+    },
+    "Unwielding this item will reduce @arg@ to zero or below.": {
+      "context": "item-use.cc",
+      "translation_sha256": "0c7f232ced7c93b56147669c35215d0db6fae32d825d442026980f9cf8456fc4"
+    },
+    "Removing this item will reduce @arg@ to zero or below.": {
+      "context": "item-use.cc",
+      "translation_sha256": "b8e418f812fa7e94edde4f1f0ce07bda0b3ecd8f9404590024782b20536826f6"
+    },
+    "Wielding this item will reduce @arg@ to zero or below.": {
+      "context": "item-use.cc",
+      "translation_sha256": "7612b753e7a9fe2949f080e31255f0e2730fd974e21f83a5a826eb2fe929b38a"
+    },
+    "Wearing this item will reduce @arg@ to zero or below.": {
+      "context": "item-use.cc",
+      "translation_sha256": "1d44641907ecef3b2c4e64accf429dcc5f7cf4660c6a647b8fbe2b3c1aef983d"
+    },
+    " Continue?": {
+      "context": "item-use.cc",
+      "translation_sha256": "e8d597772d5cb4aa1c65f4a8008cc055b98153983c9a16f4a5bd1e413486e135"
+    },
+    "Losing flight right now would be extremely painful!": {
+      "context": "item-use.cc",
+      "translation_sha256": "5d87158f9e45459f25a27411556c3e2a4f8ed7014d7d227bc556c4aab3550a35"
+    },
+    "You're already wearing one cursed ring!": {
+      "context": "item-use.cc",
+      "translation_sha256": "93f6f18a94761701b796754ba33d469964997a706bcba06108c38e447a5b1f7a"
+    },
+    "You're already wearing two cursed rings!": {
+      "context": "item-use.cc",
+      "translation_sha256": "251964508525a1144fea2fa7617515d54bf8b41c99a405f2bae17009b0af4e43"
+    },
+    "You're already wearing @num@ cursed rings! Isn't that enough for you?": {
+      "context": "item-use.cc",
+      "translation_sha256": "662b7ce298941089f00009880619805a5b32ba0858d23d807b209a0e3d93878c"
+    },
+    "Put ring where? (<w>Esc</w> to cancel)": {
+      "context": "item-use.cc",
+      "translation_sha256": "2043e0164c376c528d91dfdf12708ea5479ab397946edb73a8f788028850b490"
+    },
+    "<w>@arg@</w> - no ring": {
+      "context": "item-use.cc",
+      "translation_sha256": "e98d40a3cf0d6d1b6907ea9cb7aef5232da6245c90b2a7dbf507a715d4916bcd"
+    },
+    " (left)": {
+      "context": "item-use.cc",
+      "translation_sha256": "98b5fbd94eabf6b423462f037bf761ba1000c0f75afe48c971b3599880dfb5e2"
+    },
+    " (right)": {
+      "context": "item-use.cc",
+      "translation_sha256": "9be5877b2e8b5aa5a2adba98c393b8b0ad44eb07ee5670e1469bd86bb7a45df2"
+    },
+    " (amulet)": {
+      "context": "item-use.cc",
+      "translation_sha256": "ec74f84c65dcd44e285b4e7bb129f8586d4dd132f31d398f83258b057ad32391"
+    },
+    "You are wielding that object.": {
+      "context": "item-use.cc",
+      "translation_sha256": "f06c7d2890fb596f31ce0e775dd9ad06a7da46fab4cbabc3f57b032319f388a4"
+    },
+    "You can only put on jewellery.": {
+      "context": "item-use.cc",
+      "translation_sha256": "d6fe3e4843c517d3e3860687852f0804dfb3adb67629527629683c7d8fc6b21f"
+    },
+    "@Arg@ is stuck to you!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9a54c02ccd6057cc5b82e7120a46bda9dd4d03ab6c97e2d2f0af99a7c95e0a9f"
+    },
+    "You're already wearing that amulet!": {
+      "context": "item-use.cc",
+      "translation_sha256": "5dd93e6f0b7ecb486cb2467046e619a58dd07598d691f6f0657b6c61e0320fcf"
+    },
+    "You're already wearing that ring!": {
+      "context": "item-use.cc",
+      "translation_sha256": "0728876b4ed37fc411fc7993521db78adc203e96eb7f7d1c8c7f7b9e4645528e"
+    },
+    "Put on which piece of jewellery (* to show all)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "77a363ce5ba023d3a1b5894ae1772e677e0e61f361750bbf5f92ee2279c79d22"
+    },
+    "You aren't wearing any unmelded rings or amulets.": {
+      "context": "item-use.cc",
+      "translation_sha256": "863cf4f2a4f84a2ced9f70439a29e8307a60171438ccc0b788f96f943f49d83c"
+    },
+    "You aren't wearing any rings or amulets.": {
+      "context": "item-use.cc",
+      "translation_sha256": "4c7af599126b4362eb5f4b845005bef200baa702d83f02cf93c33390204268bf"
+    },
+    "Remove which piece of jewellery?": {
+      "context": "item-use.cc",
+      "translation_sha256": "ae13dbe1d2aef723c35997cedf0061b5f82c5636ab7cbd0b3a86a60b974fc846"
+    },
+    "You aren't wearing that.": {
+      "context": "item-use.cc",
+      "translation_sha256": "5a4e839a74b697aae40b82c500994fa5eb4a8d9c8f29f1989ffd18f0130ee56d"
+    },
+    "That isn't a piece of jewellery.": {
+      "context": "item-use.cc",
+      "translation_sha256": "40a17346d09e1836103ce4718e45659356155cf6e9bf3f183b41c8e2777872b4"
+    },
+    "I don't think you really meant that.": {
+      "context": "item-use.cc",
+      "translation_sha256": "59a16c8eb8d3409c25b7d5f246de845cd9296914f7e315bd148af6ec8bc0a14c"
+    },
+    "You can't take that off while it's melded.": {
+      "context": "item-use.cc",
+      "translation_sha256": "f890207d71047582c9c7a3b4e7c5b8f99ce9de0a162d45fdc7154804252d6e52"
+    },
+    "The amulet cannot be taken off without first removing the ring!": {
+      "context": "item-use.cc",
+      "translation_sha256": "6e184c2d56c4b4229ae7886a85dda4faf203a839d69535a57615fe81599e6359"
+    },
+    "It's stuck to you!": {
+      "context": "item-use.cc",
+      "translation_sha256": "e88aba7385d421d0a0401a0604a9fe5138a6ad5b14aa55db4115eef195cc61a5"
+    },
+    "You don't have anything to inscribe.": {
+      "context": "item-use.cc",
+      "translation_sha256": "44309f519e30444dd180aa278a149a2a177c5890ae90e231bae7986c6b8a180d"
+    },
+    "Inscribe which item?": {
+      "context": "item-use.cc",
+      "translation_sha256": "762a083c0ef14b0106d91c319523b2534032530aae2bb77fa37e064e5abef967"
+    },
+    "You can't drink.": {
+      "context": "item-use.cc",
+      "translation_sha256": "61f6291ae561fab8a1876ea0e2f6818b86b112280583584c46923ba71d392271"
+    },
+    "You cannot drink potions in your current state!": {
+      "context": "item-use.cc",
+      "translation_sha256": "671c80799fa19ecbc9c1d0b936787ed333ffdc6f57d366caf69884759e9c99b3"
+    },
+    "Drink which item (* to show all)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "dee73ecc4839ec2f9f70f1eb43f1c0ea437e4ea2bc435b377260e4d98ce3d67c"
+    },
+    "You can't drink that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "a951cd42688e2409a4f729fa37ebbfb5775f5f3f6c98503a523d72b9c3d3ffc0"
+    },
+    " This action would place you under penance!": {
+      "context": "item-use.cc",
+      "translation_sha256": "065e33111c0ae1f6f295bfce015cb400a88b9b3315a7392b75bc3830944f2351"
+    },
+    "@Arg@ petitions for your drink to fail.": {
+      "context": "item-use.cc",
+      "translation_sha256": "837e772043a2a9d60aab1746d775603f75a614e6baa3524dac93363baffdab82"
+    },
+    "@Arg@ emits a brilliant flash of light!": {
+      "context": "item-use.cc",
+      "translation_sha256": "03c19ba499e9f187d0d881d6a9114734d9c4a3e445583bacf194e456f04e9db0"
+    },
+    "@Arg@ projects an invisible shield of force!": {
+      "context": "item-use.cc",
+      "translation_sha256": "3dd4f16468a5b2ae48284b684f0daa9aa503bdc7af27d36811fa4a0f9316e38e"
+    },
+    "@Arg@ is engulfed in flames!": {
+      "context": "item-use.cc",
+      "translation_sha256": "d0ac0a7f9ece9b577df9f10c4f798b400b107f47e3500033cf4e2941ef5a19a7"
+    },
+    "@Arg@ is covered with a thin layer of ice!": {
+      "context": "item-use.cc",
+      "translation_sha256": "3b2b8ea5ab6e811db7757a5b80076669d733fd3179a4f8109db947e15aa1a949"
+    },
+    "@Arg@ craves living souls!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9e2c21d0b7767839bacc23dfca24504087387c2c4cc22e8692560e5f8565ea75"
+    },
+    "@Arg@ thirsts for the lives of mortals!": {
+      "context": "item-use.cc",
+      "translation_sha256": "88d43112cef3edab3a9f360162fc9733c53389e34b85cc21a970aaf174f9175c"
+    },
+    "@Arg@ drips with poison.": {
+      "context": "item-use.cc",
+      "translation_sha256": "f49a8979a47360d4f2196985e3d6c89a4271fe2e5cca01215d4803dd66a4211f"
+    },
+    "@Arg@ crackles with electricity.": {
+      "context": "item-use.cc",
+      "translation_sha256": "fa7796c66eb91e371834a4b50e46073971967e64eaac59339f84b51707fc4c1e"
+    },
+    "@Arg@ erupts in a glittering mayhem of colour.": {
+      "context": "item-use.cc",
+      "translation_sha256": "8cd1b9612b5211ef644ef79cf0a1ee4cb1dce10968f6447b6c0859890107455d"
+    },
+    "@Arg@ oozes corrosive slime.": {
+      "context": "item-use.cc",
+      "translation_sha256": "6696fb2daf576d404c402108e85bb02d8795849d856d183f35bdecf0d34428b2"
+    },
+    "@Arg@ acquires a faint afterimage.": {
+      "context": "item-use.cc",
+      "translation_sha256": "1afc937b96021be0af97f37876c4e95cbbe8a456e22f4839b6451d5eaa84167a"
+    },
+    "Really abort (and waste the scroll)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "d0970a8c1ddfb477e6205ceab339ae287fea94183f8254695c78261affcaed31"
+    },
+    "Enchant which weapon?": {
+      "context": "item-use.cc",
+      "translation_sha256": "e1385c4fd005827f8f59d7f0e86bd8e75744393e2b4019db607399886c8bc30f"
+    },
+    "@Arg@ glows red for a moment.": {
+      "context": "item-use.cc",
+      "translation_sha256": "dbd84dfab3872042867de90918ff5b20b075eab5e5f644765a64c1831555c903"
+    },
+    "Identify which item? (\\ to view known items)": {
+      "context": "item-use.cc",
+      "translation_sha256": "e4a23ffd22323ab20898e4e2735cb20c0a61792ef68fa2e93cf90760e8936119"
+    },
+    "@Arg@ glow green for a moment.": {
+      "context": "item-use.cc",
+      "translation_sha256": "c91362af4d85d59b5323749f54c05caa0edf38ce82934e9f07f398790d4ac566"
+    },
+    "@Arg@ glows green for a moment.": {
+      "context": "item-use.cc",
+      "translation_sha256": "206cd17618b765b21bc04924b8713d533babaa67790618e4aeb7013feb45da10"
+    },
+    "Enchant which item?": {
+      "context": "item-use.cc",
+      "translation_sha256": "89369f57b10ba39eefef9a4bdd2d01f5b5abf2dab2af2b1b3c64a1e2c687b35c"
+    },
+    "Magic quickly surges around you.": {
+      "context": "item-use.cc",
+      "translation_sha256": "1f2ab100cd1803a25ca2c3bb47109dd421be268b49e1b098fc941298ec2e8337"
+    },
+    "You are too berserk!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9efc5a80bfd1e86b82462f80ebfdf1fc9a4a069f1c44e4ae08cc2d33eafc0271"
+    },
+    "You are too confused!": {
+      "context": "item-use.cc",
+      "translation_sha256": "7d12da44a24d5d1943b54dfe3a6cbedf2a1cdd3977d13b84a90d942b4167cd00"
+    },
+    "You cannot read scrolls in your current state!": {
+      "context": "item-use.cc",
+      "translation_sha256": "5fd067e0a4566f1957dd80499941f0c045fbb504961378888da801c8b9c78c0f"
+    },
+    "Magic scrolls do not work when you're silenced!": {
+      "context": "item-use.cc",
+      "translation_sha256": "8ae32f843905a258fdf209ac5359e7b68716a29395ba14b0196f30c2c59f32ed"
+    },
+    "You cannot read scrolls while unable to breathe!": {
+      "context": "item-use.cc",
+      "translation_sha256": "6cf7a19034aeac52f665fbfe79d2d15d2677503b4cc17eb463ac76d3f2c2bcec"
+    },
+    "You can't read that!": {
+      "context": "item-use.cc",
+      "translation_sha256": "20eeef89b62af96cb7ef0d476077bdf45de30778e07df1515618dbcc52e545b4"
+    },
+    "You have no spells to forget!": {
+      "context": "item-use.cc",
+      "translation_sha256": "134e88f2fee718b33d71d1fa040b176b64203143628886f96ae5966db65fb203"
+    },
+    "infinite will": {
+      "context": "item-use.cc",
+      "translation_sha256": "31d69ba3f7a187de7cb606aaf650b9a005daea731299838b85b8b42009c707c6"
+    },
+    "susceptible": {
+      "context": "item-use.cc",
+      "translation_sha256": "1e71101c59fe035404906475b6fc1af07084079813f015db1133391cb76234a0"
+    },
+    "not susceptible": {
+      "context": "item-use.cc",
+      "translation_sha256": "7d4672ee93dd9ed2d244056a343667aee47f2e0a662680aab29398dd8c57eab9"
+    },
+    "Read which item (* to show all)?": {
+      "context": "item-use.cc",
+      "translation_sha256": "45e9f79c095c289cd7ac17f5ba649159bd8c0228ddb2af7304133a2651520e82"
+    },
+    "read @arg@": {
+      "context": "item-use.cc",
+      "translation_sha256": "b11deb86d2d131faa09c32630cfdd957d2e1e02f5aaf9e16052b5bf78fb4f1f4"
+    },
+    " And you can't even see any enemies this would affect!": {
+      "context": "item-use.cc",
+      "translation_sha256": "f401f3f9a7b6b92c8f4311fd2b14624087fefe4a5ee8bcdeeb0f5d4253369cba"
+    },
+    " You can't even see any enemies this would affect.": {
+      "context": "item-use.cc",
+      "translation_sha256": "2a132f5ef5471cb23a95ea7299c8f34060ad700dcddaf7e4e65db93b34b656d9"
+    },
+    "You can't see any enemies this would affect, really read @arg@?": {
+      "context": "item-use.cc",
+      "translation_sha256": "be8b5d01e32fe81fd2bfeb273309dd3c3e96df3b4b4b6979eb66ff016cd5e134"
+    },
+    "You almost manage to decipher the scroll, but fail in this attempt.": {
+      "context": "item-use.cc",
+      "translation_sha256": "a2700af031d0bddf67cc54032cebd824fb148390402bae1e4633a30eacea5117"
+    },
+    "This is a scroll of acquirement!": {
+      "context": "item-use.cc",
+      "translation_sha256": "e08e6eb27ec5cd27cfbd3c1a1302e0eeb33ed406fd040403f127879a9c40c55d"
+    },
+    "Anything you acquired here would fall and be lost!": {
+      "context": "item-use.cc",
+      "translation_sha256": "9d9b231da29662f57b87014a0cf71e58cfd0abe0be280ce19c45b82918775767"
+    },
+    "You assume a fearsome visage.": {
+      "context": "item-use.cc",
+      "translation_sha256": "4cf4a22d1e7cd1eab79a6e4d3df777de37b4f08c2f92159863ef9c4c73d4dd5e"
+    },
+    "You hear a loud clanging noise!": {
+      "context": "item-use.cc",
+      "translation_sha256": "d89a9aa418f2a6088b8c5b135f932ac5c5635a483135760bd79191523bbcb263"
+    },
+    "The air is too still for clouds to form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "43123a38dc3c7e7ab888197683c8c9b21a11ecd4edb78c6a405b1db51b18dbd6"
+    },
+    "The scroll dissolves into smoke.": {
+      "context": "item-use.cc",
+      "translation_sha256": "0823836b8971e79f20c15ce14a65b4d049a526d6861c37bf6bea2fa2ad8165ec"
+    },
+    "It would have no effect in this place.": {
+      "context": "item-use.cc",
+      "translation_sha256": "99530d6531e322f85ce85defc7d684d8a8fbd4146112cbc2b38ae019cd5ec8d5"
+    },
+    "The creatures around you are filled with an inner flame!": {
+      "context": "item-use.cc",
+      "translation_sha256": "ef839146b9d1921f6521a557e39b27de60c528b94bc86171c42fe4883ba5a5c6"
+    },
+    "The air around you briefly surges with heat, but it dissipates.": {
+      "context": "item-use.cc",
+      "translation_sha256": "1d9c17ab1335bb1bb519f1eb82401f0d66856e226592738afd707f1ef35a95d1"
+    },
+    "It is a scroll of enchant weapon.": {
+      "context": "item-use.cc",
+      "translation_sha256": "c18e2e17d937864160ef40ca60736d8b1df59c21638a61033b824bbcab26dfdb"
+    },
+    "It is a scroll of brand weapon.": {
+      "context": "item-use.cc",
+      "translation_sha256": "ae7176dbdc134c9e03e556d810c2a01bd3945a922f9ab62475f05c92e83cec6d"
+    },
+    "It is a scroll of identify.": {
+      "context": "item-use.cc",
+      "translation_sha256": "9f00851ba012a1c20cf738b9243a28dd4167b2db300f65b6131342fc35bf3f28"
+    },
+    "It is a scroll of enchant armour.": {
+      "context": "item-use.cc",
+      "translation_sha256": "189045a4318050365fa9dc6badcc1c799fcea3f14b32ed10cd2685eb8bfba0ea"
+    },
+    "It is a scroll of amnesia.": {
+      "context": "item-use.cc",
+      "translation_sha256": "d1d08e859f4cfadf9f4c0f99e0fba4121d0c5adb4085f5bbf70050cc4edd9978"
+    },
+    "You feel forgetful for a moment.": {
+      "context": "item-use.cc",
+      "translation_sha256": "8b99688c33456c93898dbe9b3ff68f07ddad50db68b1d414e43b63cd126100e8"
+    },
+    "You can't pick that up.": {
+      "context": "item-use.cc",
+      "translation_sha256": "c3a18190ca6b49c02151fb20a9ab4de5483521d9e7e8bcf0f137b5d8a211650d"
+    },
+    "Drop how many?": {
+      "context": "item-use.cc",
+      "translation_sha256": "a07884e8882f850829802ddffbfa15361b0c5006eca6dfc99ec1bdba52bd104f"
+    },
+    "You can't wear or remove anything in your present form.": {
+      "context": "item-use.cc",
+      "translation_sha256": "976ee3a03b28a2209c86d630fa9c4cac60785b0bf184a990eccfe7bcfdb73b35"
+    },
+    "type": {
+      "context": "shopping.cc",
+      "translation_sha256": "08ec555c4be6f56be37c1556898417b0426448ebee43a69ec5c6c98958012c7d"
+    },
+    "price": {
+      "context": "shopping.cc",
+      "translation_sha256": "ba272c37779f3e32e46ea1b2ad8d79518362b784db66cbefa83c134678e52773"
+    },
+    "name": {
+      "context": "shopping.cc",
+      "translation_sha256": "85d650dc9cb0738f14b7994efbe75bc6c66f6a13ad250cb501dabb8f70078946"
+    },
+    "%4d gold": {
+      "context": "shopping.cc",
+      "translation_sha256": "0c4ee7341c81c19776ee235858867bf0e6028767ca481817b90df53874a6e49b"
+    },
+    "Welcome to @arg@! What would you like to do?": {
+      "context": "shopping.cc",
+      "translation_sha256": "9924a89a44a15d50f9ead547e9a353991dcbc43e6693408ba8730015f2e34223"
+    },
+    "You are short 1 gold piece for the purchase.": {
+      "context": "shopping.cc",
+      "translation_sha256": "ebb590592303b846e941ba6e397b3aff168410827557cf91391a20127b4cf0b9"
+    },
+    "You are short @num@ gold pieces for the purchase.": {
+      "context": "shopping.cc",
+      "translation_sha256": "60aa1209166a5aa15b56ad79024587bfa9eb3fd391788c0275ab98acbbad9f1b"
+    },
+    "After the purchase, you will have 1 gold piece.": {
+      "context": "shopping.cc",
+      "translation_sha256": "219683c19cb899193369f21b89af82aea51772aef8b6bab74ea8986a980d1e2e"
+    },
+    "After the purchase, you will have @num@ gold pieces.": {
+      "context": "shopping.cc",
+      "translation_sha256": "dd0fc3f97d172d0db5240c61d549cdf1bc95249627dd6cd669685b9c6e595773"
+    },
+    "[<w>Esc</w>/<w>R-Click</w>] exit": {
+      "context": "shopping.cc",
+      "translation_sha256": "635b7f68caefc0900b1f601cf9c043134e955b7b44a57993c12f5e7b584b8a8a"
+    },
+    "[<w>Esc</w>] exit": {
+      "context": "shopping.cc",
+      "translation_sha256": "0d3eaf379f47e6648413f1b24ffa285da5bccab6526d1f30b3467b45e9e4828b"
+    },
+    "[<w>!</w>] <w>buy</w>|examine items": {
+      "context": "shopping.cc",
+      "translation_sha256": "b9f559d5b8e3e2db0ab6fb20fcf340556ee511836d1dc697affa61f4b8f4300f"
+    },
+    "select item for purchase": {
+      "context": "shopping.cc",
+      "translation_sha256": "d583163690f5d7fb015af1b0476b35760350ee391dfdaf5bc62fa3d64635ec06"
+    },
+    "[<w>/</w>] sort": {
+      "context": "shopping.cc",
+      "translation_sha256": "96ad08c3df943a14c3bf771189273d1178ce40f8ba4d4412431d759482e122da"
+    },
+    "[<w>Enter</w>] make purchase": {
+      "context": "shopping.cc",
+      "translation_sha256": "998b2d036c0f4250c0f665b954bf039dc1306a86eb2966eda8a7c6273aa7a0ed"
+    },
+    "put item on shopping list": {
+      "context": "shopping.cc",
+      "translation_sha256": "4047488d19ae287a2cb77ab0d0090a8cfc5a92fba75d1eb801068c5d4e4c6679"
+    },
+    "You don't have enough money.": {
+      "context": "shopping.cc",
+      "translation_sha256": "a616b04df4925ae72fd6245d984d9fabca65a96ce7b43933c55a6939d7b7fb49"
+    },
+    "Purchase items in shopping list for @num@ gold? (@arg@/N)": {
+      "context": "shopping.cc",
+      "translation_sha256": "763adb5fccc55d888cf4a4b9c1d40a5456d8709069ed76ed868e7df7c519fc21"
+    },
+    "Purchase items for @num@ gold? (@arg@/N)": {
+      "context": "shopping.cc",
+      "translation_sha256": "4df14a9d2c530740d5ac16a7d940bc62fb54ae66cd9afcd0b3f1f0c9010e3d46"
+    },
+    "I'll put it outside for you.": {
+      "context": "shopping.cc",
+      "translation_sha256": "8483cbd87181ad4f843c57947ef7f38e28dc261915288905fe216157417f3cd4"
+    },
+    "I'll put them outside for you.": {
+      "context": "shopping.cc",
+      "translation_sha256": "e8599f6c4f01670fbacb33a79e8e5b081fb345f139e81044e0c37853f01a89c0"
+    },
+    "I'll put some of them outside for you.": {
+      "context": "shopping.cc",
+      "translation_sha256": "0d5e31f21616e824f9a30bf7462ba826c1bc6729f37609c44a08e037c7273eb3"
+    },
+    "@Arg@ appears to be closed.": {
+      "context": "shopping.cc",
+      "translation_sha256": "6a6cdfed08f168aa0f386545932306ab157df71cc939f6b5cbd7e3740dc60b07"
+    },
+    "Thank you for shopping at @arg@!": {
+      "context": "shopping.cc",
+      "translation_sha256": "e3cf4968962ee6bdfb4cefd2e9c402e6facca2f44cd94cf5dee118f25741f6c4"
+    },
+    "You can access your shopping list by pressing '$'.": {
+      "context": "shopping.cc",
+      "translation_sha256": "38c7de32d686095900b45de5e1de8c27ec3e1268cf46ddbf7e90905257e9fd66"
+    },
+    "antique weapon": {
+      "context": "shopping.cc",
+      "translation_sha256": "6d77f15b8d66192886280dfa74d61f05cc521441abf7994ae6b5a5fe4f1b8157"
+    },
+    "antique armour": {
+      "context": "shopping.cc",
+      "translation_sha256": "0806547698fffdd697e509d221bf2c22857bdf877dc7cc95c8d3b0296346379a"
+    },
+    "antiques": {
+      "context": "shopping.cc",
+      "translation_sha256": "57f3c50d72283d872ad41f338e3c6ee514f67fa2685906eeddc3395f5d5fea5f"
+    },
+    "distillery": {
+      "context": "shopping.cc",
+      "translation_sha256": "e9f04ae24622e6c76ed8a2f56e81d4d2d71151dfc494943b681371c66fb7ebff"
+    },
+    "general": {
+      "context": "shopping.cc",
+      "translation_sha256": "c97ee55c0167cfab8380897292878e63252aca9ff160af6da37c9378c70c9d01"
+    },
+    "Available shop types: ": {
+      "context": "shopping.cc",
+      "translation_sha256": "8ab83db8bb34e2150c83002ce6a0dda04ca86630240af958f80dd325c4845c6c"
+    },
+    "Shopping list: replace @num@gp @arg@ with cheaper one? (Y/n)": {
+      "context": "shopping.cc",
+      "translation_sha256": "417eaa26d68202d5a5a5ff99e8a155b5906a292bb9b69e11b3d2cbe70d411371"
+    },
+    "Shopping list: remove @arg@? (Y/n)": {
+      "context": "shopping.cc",
+      "translation_sha256": "52f585f26b3caac86d2025f4f2b999ee783584a3ca74e55ebf475e7392a6d030"
+    },
+    "Shopping list: removing @arg@": {
+      "context": "shopping.cc",
+      "translation_sha256": "2503d78774d8f2f20eb8f6fa68f01c15f72c993754f0655eb4b01185b4b24366"
+    },
+    "buy @arg@": {
+      "context": "shopping.cc",
+      "translation_sha256": "52a95d4d9c9fb63d4818dd593e51c63affa6c08aa336f64a55c1531b8153678d"
+    },
+    "You now have enough gold to ": {
+      "context": "shopping.cc",
+      "translation_sha256": "236b106154c6d44bed2a23513d1dd51239b2f85006ef1b6c788bb910fcd0dd6e"
+    },
+    "1 item, total cost @num@ gp": {
+      "context": "shopping.cc",
+      "translation_sha256": "aa3119837d0e6bd1b1e78bf277be5f5bf4553aab6b123f78c01a00a07142cc69"
+    },
+    "@num1@ items, total cost @num2@ gp": {
+      "context": "shopping.cc",
+      "translation_sha256": "bac833dadb2cf9e29542b34ac463aff39d128734a0ad07c344d0813d8643cb42"
+    },
+    "<w>examine</w>": {
+      "context": "shopping.cc",
+      "translation_sha256": "ce5e9d513911f06e5b478db7503854e62b0a81c51842223fd29ed9013d0ae0f9"
+    },
+    "<w>travel</w>|examine|delete": {
+      "context": "shopping.cc",
+      "translation_sha256": "7b3b96c97aaeda25df78862da0b9721ee1258d8a5e7513b2735080cdd05c8e68"
+    },
+    "travel|<w>examine</w>|delete": {
+      "context": "shopping.cc",
+      "translation_sha256": "444500ad5e79b1a0846ed3bb7090654bbb5d822b8f61a1a005e3d8d2bc56dcb9"
+    },
+    "travel|examine|<w>delete</w>": {
+      "context": "shopping.cc",
+      "translation_sha256": "1eb0dedb4525843040293b925e7348fd8bcfcfb5f99ea9b10dfb5864fa64bc41"
+    },
+    "[<w>?</w>/<w>!</w>] change action": {
+      "context": "shopping.cc",
+      "translation_sha256": "ebcb0f6aeebc38ce460bac1ba53db00903b0c49f51cfcaa5ded99e77795ff3fd"
+    },
+    "You have @num@ gp": {
+      "context": "shopping.cc",
+      "translation_sha256": "64c193a96b7c25b8c5526efc1fa6cf85de82ae4411ecbe2a81ed8e26101cd2ed"
+    },
+    "You cannot afford @arg@; travel there anyway? (y/N)": {
+      "context": "shopping.cc",
+      "translation_sha256": "f2baf6702d872540a89d488cd3d9fea3536d840530ff637811691b31b51f0c59"
+    },
+    "@Arg@ with an entry fee of @num@ gold pieces.": {
+      "context": "shopping.cc",
+      "translation_sha256": "ecdd06aa265fdd8789a648a78d650479a600aaa92d41e13af61bfd73bb1e9f27"
+    },
+    "Your shopping list is now empty.": {
+      "context": "shopping.cc",
+      "translation_sha256": "2e1558ea95a803947f12d11d92b04e94921afddd36039595bd137228594b7f53"
+    },
+    " on this level": {
+      "context": "shopping.cc",
+      "translation_sha256": "80170029de47b882978e386cd7e822fb8025d92af00f138f5fffb35304fb8891"
+    },
+    " on @arg@": {
+      "context": "shopping.cc",
+      "translation_sha256": "a33c365c38bc1aa05f22dd54cdabf5395947ccafc3bfa80dbf3664a2ed4419f1"
+    },
+    "In automatic mode, skills are trained as you use them.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "8bd555462afaa6a76657b3ee05445fe631db5c57b8038306f0d5a6e1d78c3a3c"
+    },
+    "In manual mode, experience is spread evenly across all activated skills.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "2d9434d229e0840186dc6124da5470b958e2519388564eb2cea9e8eb3d5060a9"
+    },
+    "Press the letter of a skill to choose whether you want to practise it. Skills marked with '<darkgrey>-</darkgrey>' will not be trained.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "23fdb26111dbf265656a775d81626951b56240633a4976807ee3a705628a9258"
+    },
+    "Press the letter of a skill to cycle between <darkgrey>disabled</darkgrey> (<darkgrey>-</darkgrey>), enabled (+) and <white>focused</white> (<white>*</white>). Focused skills train twice as fast relative to others.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "a8a467f39f5cc1078f17f46ab3ea4c6cf7a3ed4ebe31c1cd01691cffe97b0dbf"
+    },
+    "Ashenzari's power": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "803bd50cb31bf016db25fb1c718ea4f0119da21e8b4ecfd72a4ccdc404348b0a"
+    },
+    "cross-training": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "2421d137168ce8fe6bbefc317d1754d4d55300321bdae2ac37646d2b20bf6cfa"
+    },
+    "Skills enhanced by @arg@ are in <green>green</green>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "1a9b41bace9e1b7019af525278c24b829fb34816c020f118298d0ca866c4f228"
+    },
+    "Ashenzari's anger": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "45b0f051310a7672e926927676db2e8281173f7bd9f770baaf7b6c76e180ed9b"
+    },
+    "Skills reduced by @arg@ are in <magenta>magenta</magenta>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "6a9bd1634382c18b00492150e12c64dfdd9a7eb95af1913f70221eb1a8d696f4"
+    },
+    "The percentage of incoming experience used to train each skill is in <brown>brown</brown>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "4fb36130f55bf9b4c946f431387fbac9283ebd18fb643dba7659c7d6a28e93b8"
+    },
+    "The current training targets, if any.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "3451839af671d68f6fcd36b6f56c72b2010b1842460a5a467da6ee56e9938e50"
+    },
+    "The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "a8dd72a8ea830080bcc2031b80888c5a4fa86b7a7478b4fab2b9466acc14a54c"
+    },
+    "The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "516d37ba5a9d16d1ed46b1ad9b2bd730c46cf3b0ca0b0ebb82c2467c1934087b"
+    },
+    "Enter a skill target for @arg@: ": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "222a8bfb7a662b3f1321872d541bd0148471d8f8d4d87b6d564f4c977ffb4a68"
+    },
+    "You need to enable at least one skill.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "2e9da218bec6f796469b2254461e371c8e7059cda491f65c0ce9217cef107638"
+    },
+    "Press the letter of a skill to read its description.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "9773e16f2068d63694745d983b143516de7a25595c10f2f6288bd730f87efac8"
+    },
+    "Press <w>?</w> for a general explanation of skilling and the various toggles.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "1638be34ecae596a9538330c36275fc32d17d9d43df554c463085323ea10e2cf"
+    },
+    "Skill descriptions": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "10e7c5551b5e629524e8398bddb427edff6280093d1f78abc060fb607a54f452"
+    },
+    "Help": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "3e202cd422f5fdfa478045d5d97c8236330d16ff1770c8390f24cc2d73d39ba9"
+    },
+    "Return to skill selection": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "cee57ceaa933de7068c8c7ff47c224852b46bd78a0230f9bdd5bf2646ffcf94f"
+    },
+    "<w>Help</w>": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "c853ec7918bb8d982310aac7c0ed9b71f5d96ea621abc2de18d0bbff171643d9"
+    },
+    "skill descriptions": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "a722c48cfb82c628d90cfd35abf40f4fa9eac928803427d2a59f7ef34946059a"
+    },
+    "set skill target": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "fc81968f15bf18fbd2cfe4f7ecb19b3e9bcafbb282ef554529ed040ffcaec8ac"
+    },
+    "clear selected target": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "f3a6bc085832381342f82de31eb526481aa72863c2214de8a39196884b613799"
+    },
+    "set a skill target": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "fc81968f15bf18fbd2cfe4f7ecb19b3e9bcafbb282ef554529ed040ffcaec8ac"
+    },
+    "clear all targets": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "8fc1135c3a1043a12eb59ff3e166b14d503ea1e873f4882f7895c30d08df7533"
+    },
+    "Select the skills you want to be trained. The chosen skills will be raised to the level shown in <cyan>cyan</cyan>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "96f2b664e5eeee02fba521da8fda6c57c6edea062f3f54d14ea874d525ae0653"
+    },
+    "The species aptitude is in <white>white</white>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "9dcbe562557dcdf75f3a27c37cd267a1562f6bab1306cab0fd786f9bd68e37a6"
+    },
+    "Bonus from skill manuals is in <lightred>red</lightred>.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "af6dd4b53d38bdd0512742a3d1a9409b0ebd75156837c1c2b4adc73f63cca9da"
+    },
+    "You have quaffed a potion of experience. Select the skills to train.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "5b66516cff8f0fa2f9305eb70ddbb2f26c42f76cad762a76d09b37595d5bc852"
+    },
+    "You feel omnipotent.": {
+      "context": "skill-menu.cc",
+      "translation_sha256": "115cc08bb594933e867c3c8adbfd463cc92e215e7f4354f1946376bccf69dc5b"
+    },
+    "You have mastered @arg@!": {
+      "context": "skills.cc",
+      "translation_sha256": "6b5a52ea9cd72ffb506420a83363e70802469d5265486812a88ce12aa2931538"
+    },
+    "Your base @arg@ skill increases to level @num@!": {
+      "context": "skills.cc",
+      "translation_sha256": "b60913a41ca86204fee30690953bb789f5f4e4c77c15d64cedbc6230a934dab7"
+    },
+    "Your base @arg@ skill decreases to level @num@!": {
+      "context": "skills.cc",
+      "translation_sha256": "bfb472f0b47e181875c613bf4b11eca7bd2d4262668bdbec4c70c0da3140c482"
+    },
+    "Your @arg@ skill increases to level @num@!": {
+      "context": "skills.cc",
+      "translation_sha256": "15a7a46663fd71f3e57525ba08e930383da5b439c5571b9dc1639995f7cfffc2"
+    },
+    "Your @arg@ skill decreases to level @num@!": {
+      "context": "skills.cc",
+      "translation_sha256": "65bd98fe428591bddfc6b232e5358fcb02df90dbf31f3d9479869ad2ac029c3a"
+    },
+    "Your base @arg@ skill gained @num1@ levels and is now at level @num2@!": {
+      "context": "skills.cc",
+      "translation_sha256": "9b9051656ea3b54f5c60526bde4ab1dbee14325fb967fba77f1c5d6070f6064f"
+    },
+    "Your base @arg@ skill lost @num1@ levels and is now at level @num2@!": {
+      "context": "skills.cc",
+      "translation_sha256": "95f43bba95e92e3670ec489836a177c91bf50ed5ea9aa833bd1ae1193df0f7e6"
+    },
+    "Your @arg@ skill gained @num1@ levels and is now at level @num2@!": {
+      "context": "skills.cc",
+      "translation_sha256": "33f2469a9a24478b48a9790ede6b4a9182569b76770830c6d3915a26f02c41ce"
+    },
+    "Your @arg@ skill lost @num1@ levels and is now at level @num2@!": {
+      "context": "skills.cc",
+      "translation_sha256": "73696900bdca0f2fb45d4a2e505a771c58798363fdacb32d0d46dbc502597500"
+    },
+    "You cannot train any new skills!": {
+      "context": "skills.cc",
+      "translation_sha256": "dd6226b790e6817bc3fe04a893fd50479fb59a4f5003972fede3541cb5345001"
+    },
+    "You need to enable at least one skill for training.": {
+      "context": "skills.cc",
+      "translation_sha256": "f8bb17fe02782030d63aaff3d463ff727badfe98def95fe032be7c6c54e4bd65"
+    },
+    "Base training target %.1f for @arg@ reached!": {
+      "context": "skills.cc",
+      "translation_sha256": "89b444df51e9be582d4e1b7879d5e9bbdbbed84d1828f61ce2d484c4c679a5ea"
+    },
+    "Training target %.1f for @arg@ reached!": {
+      "context": "skills.cc",
+      "translation_sha256": "a15bad13612aec679f84b88364983ed8413e426ad26560be4ee84d3ce4c84377"
+    },
+    "You have finished your manual of @arg@ and toss it away.": {
+      "context": "skills.cc",
+      "translation_sha256": "632777a14069bb89296850a9cee7e6cb58bc8474fe8f5b127a87bd493db1d2fd"
+    },
+    "You can't set training targets!": {
+      "context": "skills.cc",
+      "translation_sha256": "adcee0a79ba8769b0b317ff2cd7e6d2275c09428aabf42815c9487342cc6ed04"
+    },
+    "Clearing the skill training target for @arg@.": {
+      "context": "skills.cc",
+      "translation_sha256": "d61b057eefd3e5dbc551e30599ec0fefd9f5df76bd122129d25ebe960925efcb"
+    },
+    "Setting a skill training target for @arg@ at @num1@.@num2@.": {
+      "context": "skills.cc",
+      "translation_sha256": "98337b20e53eac721203af2b3f5e91a39e0888153356f727cbdd526040f98c55"
+    },
+    "Adjust (i)tems, (s)pells, or (a)bilities?": {
+      "context": "adjust.cc",
+      "translation_sha256": "bda9d30c6108ddeb6b370aeff52b8a9e7bd49355013f2aee111c772c90b0ac9f"
+    },
+    "Adjust which item?": {
+      "context": "adjust.cc",
+      "translation_sha256": "48c3083f59ce9f30309866c7baf7fe33ba41af2441d7bf00ace2db54e1cab314"
+    },
+    "Adjust to which letter?": {
+      "context": "adjust.cc",
+      "translation_sha256": "813db89c04d7e7d3d4aa6880cfc1992bf0eebefaeac2a7a3d14ca1cd7311709f"
+    },
+    "Adjust which spell?": {
+      "context": "adjust.cc",
+      "translation_sha256": "973ef4b689dd31b63d800bd8a6647d4b18f12d4b8cb1198e029eb755770dff69"
+    },
+    "You don't know that spell.": {
+      "context": "adjust.cc",
+      "translation_sha256": "53f88d8ad90b79da044d2cba17b0f2e123d0cd765a4cfb35ca49404555a2defc"
+    },
+    "You don't currently have any abilities.": {
+      "context": "adjust.cc",
+      "translation_sha256": "ccc9db666df9de5648c0c771ea39eb0513d3019290a2dcb60e412efe18180b3a"
+    },
+    "Adjust which ability?": {
+      "context": "adjust.cc",
+      "translation_sha256": "1b8a8032732e1c99264ca9bfdfa7dfa6da7b343fc66755b143d39e65c52e8cd0"
+    },
+    "No such ability.": {
+      "context": "adjust.cc",
+      "translation_sha256": "10631761968fafd274901a007a9405067b730c0d556e41a55e034ac5d2d095bb"
+    },
+    "Select to reset item to default: ": {
+      "context": "known-items.cc",
+      "translation_sha256": "55da3aa2e30d2e367c879420c65ea8845b2206c6b8707337a1aaa05ab8784196"
+    },
+    "Items not yet recognised: (toggle with -)": {
+      "context": "known-items.cc",
+      "translation_sha256": "9ae8576f6371c82dd2f5cff94d11f05b65453257591074ada5ef3206f3b6da47"
+    },
+    "Recognised items. (- for unrecognised, select to toggle autopickup)": {
+      "context": "known-items.cc",
+      "translation_sha256": "6b1afb8127da0ee47c8dd6ce2858106e3e90a9d5446e21e0c822da6fbb019a74"
+    },
+    "You recognise all items. (Select to toggle autopickup)": {
+      "context": "known-items.cc",
+      "translation_sha256": "44264afcd77f4e1a9d436e4425d4eedcb1acb8bc32544676cf57e7a33d919724"
+    },
+    "--more-- Press Space or click to continue.": {
+      "context": "message.cc",
+      "translation_sha256": "ce0d8d1bf8c62dad117935cd99adf2bc4addbe3051cc0c510ec3a50c79a48275"
+    },
+    "--more-- Press Space to continue.": {
+      "context": "message.cc",
+      "translation_sha256": "9b9da1ea19ceb956bd41ed6e14c327cbe47d66ae101c8d3e20db1b19149aa7ea"
+    },
+    "You can later reread messages with Ctrl-P.": {
+      "context": "message.cc",
+      "translation_sha256": "2f4aaf1b487117f690964cb98079eb63d2ba3b3bf57e63a5b40606b0dfe890cd"
+    },
+    "--more--": {
+      "context": "message.cc",
+      "translation_sha256": "30c15078765518f7d48f683bce0f9c6db8033cfe62c5c346cae4ab4eb9d5a766"
+    },
+    "Something appears at your feet!": {
+      "context": "message.cc",
+      "translation_sha256": "5b52ac8d7b8d77a9ff179f27dad317b96ecfc020d4385dff702547d31670511a"
+    },
+    "Something appears before you!": {
+      "context": "message.cc",
+      "translation_sha256": "e3a505baaec471623b52b49f947255f3f78decf744e6808f27c60eeacf93c7d3"
+    },
+    "Nothing appears to happen.": {
+      "context": "message.cc",
+      "translation_sha256": "eef134002f8a502c0f21a4c9ededf27a823d019261ef32906cc5c8cc3d723858"
+    },
+    "You partially resist.": {
+      "context": "message.cc",
+      "translation_sha256": "1ba0eb4db8d102409bacbb60df5f8fc3105ca2eb54f35e5eaaebe696ff3e56df"
+    },
+    "You can't do that in your present form.": {
+      "context": "message.cc",
+      "translation_sha256": "eec381bd86aac9f4f6159eb8c536b01cfb9720a3b8d450232640dfcdf20b3762"
+    },
+    "You can't do that yet.": {
+      "context": "message.cc",
+      "translation_sha256": "c01a427847f206d862a215c98b98af46eba905254ba412961dbed22736573327"
+    },
+    "Why would you want to do that?": {
+      "context": "message.cc",
+      "translation_sha256": "e9f4dd45e6ff39dd0306d2883608a22a5bcc794e6b9ebd978d62e20bff106b2d"
+    },
+    "There's nothing there!": {
+      "context": "message.cc",
+      "translation_sha256": "288f2a12180e087492d36fdaa9de20dc68e87bea771531e3775990f87b7e7577"
+    },
+    "There's nothing close enough!": {
+      "context": "message.cc",
+      "translation_sha256": "2ffcaa0b15551e300bd54eb1906d9bb22fcf842250e2e8985d73e6e12bbe44d5"
+    },
+    "The spell fizzles.": {
+      "context": "message.cc",
+      "translation_sha256": "bec5e8e92b1008987fc193d66712aaff97161469b4accc654f0e4a5a33c62888"
+    },
+    "Huh?": {
+      "context": "message.cc",
+      "translation_sha256": "7940fed8254d64e346164a1dce8658d46e9b443039fd534e8de73adcb640143d"
+    },
+    "Your mouth is already empty.": {
+      "context": "message.cc",
+      "translation_sha256": "ef72c413405eb9017abfe66edbde93a9077bb36b7ca64a8f012ba8b56914405c"
+    },
+    "You are already empty-clawed.": {
+      "context": "message.cc",
+      "translation_sha256": "797f8aac0089cd106a37e2f8c84a5c1ac2b37faec60ed297e6fbc8928b1a7b12"
+    },
+    "You are already empty-tentacled.": {
+      "context": "message.cc",
+      "translation_sha256": "91abefd57024eab59fcbfec934c912da379e68bede0b29886b8b5d144d63d480"
+    },
+    "You are already empty-handed.": {
+      "context": "message.cc",
+      "translation_sha256": "470123dc90cd1028d42533b3d18d9299b1ab02611f9fdb9db52eeeefd61e00ea"
+    },
+    "Your mouth is now empty.": {
+      "context": "message.cc",
+      "translation_sha256": "02133a9107ca9e03afcc6cb4096a108f08a65e9a3a966ae483938739ad3aa6bd"
+    },
+    "You are now empty-clawed.": {
+      "context": "message.cc",
+      "translation_sha256": "e6e0b65ad6259ec01e96d2b431a2df09796380a016fcc58f71071491a0d30560"
+    },
+    "You are now empty-tentacled.": {
+      "context": "message.cc",
+      "translation_sha256": "cdb0dbe4a49e5d840d6c3333966415336d0bff5cd4331e3e868529988fbd2e32"
+    },
+    "You are now empty-handed.": {
+      "context": "message.cc",
+      "translation_sha256": "8f85a8155edf51de86460ec4684a96b092eb9bf58cf4af2f77aa2f7206636bcb"
+    },
+    "You blink.": {
+      "context": "message.cc",
+      "translation_sha256": "2601bc724dd4f1310db370e05d5f306245467c7b72f63bc9a8da71b2c7a52b41"
+    },
+    "You feel a strange sense of stasis.": {
+      "context": "message.cc",
+      "translation_sha256": "98df4e38048bb1b0846e9e576170a541ec0546d4f0c63d156d87196aa840c00e"
+    },
+    "You don't know any spells.": {
+      "context": "message.cc",
+      "translation_sha256": "c8e3156121fc96001d861d847fe830aab29b915ec2e857caf13e02ee78627306"
+    },
+    "You feel your magic capacity increase.": {
+      "context": "message.cc",
+      "translation_sha256": "94f1f5d20d00ed75efe2da9f5ae7f7d1d32b0dd32dee9b745b1aeca0bd702b5f"
+    },
+    "You feel your magic capacity decrease.": {
+      "context": "message.cc",
+      "translation_sha256": "c5aba21dd8cf11a9b56f0fffc1fa97ee5b0aa0b262a88dcda4bb76f64cf39bea"
+    },
+    "You feel momentarily disoriented.": {
+      "context": "message.cc",
+      "translation_sha256": "636bb419c2bf2de21f71b96055aa1835c2eb58cb5b3acccd2ba6dc7d34ab2c85"
+    },
+    "You detect nothing.": {
+      "context": "message.cc",
+      "translation_sha256": "0e10941ded1dbcc6c7d0f432e2ee99de60c1bbac0631248bcf02e29233680cc0"
+    },
+    "You call on the dead to rise...": {
+      "context": "message.cc",
+      "translation_sha256": "bf8f9eb01eed063f04862f2fcfaf8fa34b31a4d40d45dee0dd27c773e3e1ee09"
+    },
+    "You attempt to give life to the dead...": {
+      "context": "message.cc",
+      "translation_sha256": "d10907aea676c6a80bd0543e0a9a783dfc2c258a8d4516c669ced7ddb0585d29"
+    },
+    "You cannot move.": {
+      "context": "message.cc",
+      "translation_sha256": "2881de113e94aed7dbf5dbbec1d45623dbf777fc2c155d927a838ca91c511722"
+    },
+    "You see a ghostly outline there, and the spell fizzles.": {
+      "context": "message.cc",
+      "translation_sha256": "2de2c4fa1d3c9af82e9df7b7bb3124f7d8bf356e76793c52cf4220b6df20886b"
+    },
+    "Your health is already full.": {
+      "context": "message.cc",
+      "translation_sha256": "9e1364b352677c7d6e5fa6b5bd8cd92f77cff3e8461cbec09afc6784bc9691b3"
+    },
+    "Your reserves of magic are already full.": {
+      "context": "message.cc",
+      "translation_sha256": "1d6c92722cd8d70e428a6707a9c3ad8bec7a29de15197528e0250f574dce8ad9"
+    },
+    "You feel your power returning.": {
+      "context": "message.cc",
+      "translation_sha256": "343959459e4f604e21f979e54bb2db7769486c9aa8c05abc5b6965f5c817594d"
+    },
+    "You feel momentarily drained.": {
+      "context": "message.cc",
+      "translation_sha256": "8316c0ce675744c56f5b126d6aa492f2ce6cd754833deee8e4fc737d6aa6dd28"
+    },
+    "You suddenly feel drained of magical energy!": {
+      "context": "message.cc",
+      "translation_sha256": "cd76fadc490b84fbd5992f36325833f78d2bf2bf6724052c636cb00e29412d54"
+    },
+    "Your god isn't willing to do this for you now.": {
+      "context": "message.cc",
+      "translation_sha256": "49c29c7a6dc7bd0e9035e49efa20ae2e29d28c4a097675eb671c051ca33f5278"
+    },
+    "You need no library to learn spells.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "f16844ecff08c114696ced6707b22760242a3135361249125e73a94a3292d9df"
+    },
+    "Your library has no spells.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "d25b66d57d71a9ecfc4a6a574b0ea099d70284cf81795e7d61012aceb7067ee0"
+    },
+    "You already know all available spells.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "d237c01eeeaad09985ed4ea6faccc2ad074ee929ddce857b671afdf89bc72033"
+    },
+    "You cannot currently memorise any of the available spells because you cannot use those schools of magic.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "980c5a1ccb4af1c0e006302e83b3d344c4d7fb87e84915d900b52189884321c4"
+    },
+    "You cannot memorise any of the available spells.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "dcb5fa4b1c6d0c6c4f3c45670a0f1e0c090395afce6651d32e9bed5705ea3aab"
+    },
+    "You can't memorise any new spells for an unknown reason; please file a bug report.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "e40152ec50ab4245eb1cccbae3c4f6f1122b968dbbd484fdc772c07fff836e53"
+    },
+    "You add the spells @arg@ to your library.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "9566893901c144a7af77cfde9570deec3d7895608c4482f756f0e5383e2c1735"
+    },
+    "You add the spell @arg@ to your library.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "a5abbd426a5d4282670f4625ce252ca481962e8b5b61c40429bfb012df6aa090"
+    },
+    "Matches:": {
+      "context": "spl-book.cc",
+      "translation_sha256": "9f4346f769a6b7166c2ead3cff2debd3f4b7b9d67872a4c3b1fabf6c6863157e"
+    },
+    "1 spell hidden": {
+      "context": "spl-book.cc",
+      "translation_sha256": "c4850086e77308f28a0049ce96b607450e0d3673db4b0966f095c2e41759ae97"
+    },
+    "@num@ spells hidden": {
+      "context": "spl-book.cc",
+      "translation_sha256": "e4d258af71aade1a140fe2e13775ddee93cb253f895aaab3d7dedec7fc195f6f"
+    },
+    "Search for what? (regex) ": {
+      "context": "spl-book.cc",
+      "translation_sha256": "c0a9484dfa0fad7e880c9baf76a413112e26b58724bf0763a135253fd8b8549a"
+    },
+    "Select a spell to cast with Divine Exegesis: @num@ MP available": {
+      "context": "spl-book.cc",
+      "translation_sha256": "099358edf84a38a60b4c8b4fea708b9b7ea707b9d825e25447bca871fe00e8f6"
+    },
+    "1 spell level left": {
+      "context": "spl-book.cc",
+      "translation_sha256": "6977124722023c38d895a5dde170302e9933340a6f73a561198b4adf9ac4fa4f"
+    },
+    "@num@ spell levels left": {
+      "context": "spl-book.cc",
+      "translation_sha256": "bf6709892b4cd27f4ff878900a5bb0aba7dcd857e974700fa1643c64bd86505e"
+    },
+    "Your brain is not functional enough to learn spells.": {
+      "context": "spl-book.cc",
+      "translation_sha256": "57e6fa7d1e406e530ad0e7d7580e0020fd52d4ea5d184c62a736a0c779fc290e"
+    },
+    "Sorry, this spell is gone!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "5d9074a271dfea6fb1c415555fd3ffbe7dbbc12d9b0f0cb5d019dcef5239f758"
+    },
+    "You already know that spell!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "62438a90bf1bfdd921a58cbae8aee246a5fbb971475cdb99e586dd28ded2bd1e"
+    },
+    "Your head is already too full of spells!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "bc87634176f7033ff20b61fa135f4999dac7ee51771c5ea7ba02d4638e5f65d9"
+    },
+    "You're too inexperienced to learn that spell!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "104d277580abf1e7fe96d981a69001206fb1778997d14ba3870b6e97ef7d643f"
+    },
+    "You can't memorise that many levels of magic yet!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "c7d8f1c33c53065602ce07446c4a3e7a78183df10b00e3dd2ae07fa1c80f1c63"
+    },
+    "This spell is impossible to cast!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "e16e9b0f37fbe1cdb55c29c93c458bacf045d6cac7bb94a006be2b76fc6c103b"
+    },
+    "This spell is @arg1@ to cast@arg2@": {
+      "context": "spl-book.cc",
+      "translation_sha256": "a9c76ebef959b0c4e3b0535f0279a26c1b730dfd0c15680aaa93d88136bc0033"
+    },
+    "Memorise @arg@, consuming @num1@ spell level and leaving @num2@?": {
+      "context": "spl-book.cc",
+      "translation_sha256": "dde9d3751db5d642e507170116de01b2394a6dde1feeb21238f4b4c509fcb4d0"
+    },
+    "Memorise @arg@, consuming @num1@ spell levels and leaving @num2@?": {
+      "context": "spl-book.cc",
+      "translation_sha256": "17afac80f8789f464da0d0c875f36f74196207add77a6b48a45de771c74081df"
+    },
+    "You don't know of any spells!": {
+      "context": "spl-book.cc",
+      "translation_sha256": "1e06c7a1832610ad89db74b878c447c855a49b98abd2d5361699d7c42f7eca69"
+    },
+    "You are too injured to fight recklessly!": {
+      "context": "quiver.cc",
+      "translation_sha256": "b36b8c42dc50990f74df28a91a47a37f218b75845795e7bae87ddd0083c8c3d7"
+    },
+    "You are too depleted to draw on your health recklessly!": {
+      "context": "quiver.cc",
+      "translation_sha256": "83a89c5f14ec06861a3c6ebc385868794c77e61d128fb0dad2b9b950336b16f7"
+    },
+    "You are too depleted to draw on your mana recklessly!": {
+      "context": "quiver.cc",
+      "translation_sha256": "a036a315879eea1051963f2d075fce4cd88863eccf0741247ec5a753e0255195"
+    },
+    "Empty": {
+      "context": "quiver.cc",
+      "translation_sha256": "ac0a2199d9b8b153a2245521e128978fa774c319f4c44ecab5aad86c680317c5"
+    },
+    ", <w>%</w> - select action": {
+      "context": "quiver.cc",
+      "translation_sha256": "c492519ef34fe49d57d3a001e6f45deae15f9a044abe7b24e4417ae46a53b057"
+    },
+    ", <w>%</w> - select action, <w>%</w>/<w>%</w> - cycle": {
+      "context": "quiver.cc",
+      "translation_sha256": "82b89c61bf049959c03d5b1c150d2cc6f4aa3e4893564b2c6152a57baaf69f30"
+    },
+    "Bite: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "54e6dff1ec9ed1bf777b1fc7cb405d5ff0478f033a593c919dc59eb49a9b3168"
+    },
+    "Slash: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "e9a435c1db802a3e3d4b322d6a8caae23889ee00a93f26b4087c49076368924f"
+    },
+    "Claw: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "7d7481c9e48eee4667d39feef9215c0bf55ff8c8295e56f42aedf51466a10888"
+    },
+    "Smack: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "6e199af47a9f3a51cce0ee08259e8a4a7e64c14d05d968dab3e44fe67904ef0f"
+    },
+    "Touch: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "a03125f686475aae5dca55702b6a80074d2bdcd45c426ce338cc3a78980ddf3e"
+    },
+    "Release spores at: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "cfe63a527fe3edf3dd8c17ea8e223efb52b5987ff16b56cb39ffa5151553e733"
+    },
+    "Buffet: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "2f5583947c64d3d5b10c183e5c3bea802385a54b6096045ccaf1d1ab2480b782"
+    },
+    "Confused bite: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "4176c93b6c01a7002f970f81022a7ced915080180f8bb7f77848e36302db9b0a"
+    },
+    "Confused slash: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "ae4bfd67372c73b312bf822491cdf6fbdeab9c7383a797f321c98cd768ad198c"
+    },
+    "Confused claw: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "d10c718677b8a275d0bef4376e01b3d56998025ad2b7f901383150d297a28f2f"
+    },
+    "Confused smack: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "bf5e31e9a1962a2f1b88979b4a0f20dffca07471dedfc79d2ac64078e6eedaa8"
+    },
+    "Confused touch: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "581ab4e7afc2e25966f025293b455945c81454d855347ae382d918638b1f7f67"
+    },
+    "Confused release spores at: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "5a40357c46570b8edd2b5376e09a9e8270a9ac8bb95322f10b04610c79a45deb"
+    },
+    "Confused buffet: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "0296dbca6de4f6e377688cf6c17485780144ce94fd1c866fcb3105246a30b279"
+    },
+    "Attack: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "4b913f8990ff5faaca732298cdbf4369d02fabdfea7ec0aa726fa3f65c798ebf"
+    },
+    "Confused attack: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "bac3e28b451be022d06fa744519f6bc678473d0cde76406aa52839ccc9e5314a"
+    },
+    "Punch: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "fa96aa9d6eae40266da0bcff9075631172ec3f2eb1b2e4ad5d16189d7c32abd3"
+    },
+    "Confused punch: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "7961459efa673c2f9bba0652264bce58e713d68dbb6c2817c15bd264058d3c3d"
+    },
+    "Fire: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "c9af45da67f4b43d66f6450818551d46d7047c141de937b7ecb79c8ddb22f634"
+    },
+    "Confused fire: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "6c03291b7f4dfe6d173346853fbd544a1d8a41c8b583a3ea9c6677515339b141"
+    },
+    "Shoot: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "8d546fcba4749ff2a427b299b4588a8abd33f98d9bf85766dc00dc88c5f74982"
+    },
+    "Confused shoot: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "2b8a1e5c5a934a69ac342864d14a3695a9e4336215a4cca773325382146b1b2e"
+    },
+    "Reach: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "70e338aa528d55a6e1aac4c0ec13e0ebd907e4454642d99066d1743ea7771fb9"
+    },
+    "Confused reach: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "4a73d85ddc706ed6d2f3443a7d052940dc5b31a9a8ea2220d384ed0860ae8163"
+    },
+    "Cleave: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "249cae1c11a8ad0560117f56c66a113feedf4a543d208fa08b83682570a9ae64"
+    },
+    "Confused cleave: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "b4c74209568953dd1d395d7597f33a3935cdaac33e0a99cd0993c96d9be64d16"
+    },
+    "Hit: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "6e199af47a9f3a51cce0ee08259e8a4a7e64c14d05d968dab3e44fe67904ef0f"
+    },
+    "Confused hit: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "bf5e31e9a1962a2f1b88979b4a0f20dffca07471dedfc79d2ac64078e6eedaa8"
+    },
+    "You nearly hit yourself!": {
+      "context": "quiver.cc",
+      "translation_sha256": "6613056868c9d43500236b40a990f974b9957c19caa994178a0f3f2ee77fb068"
+    },
+    "You're too confused to aim your attacks!": {
+      "context": "quiver.cc",
+      "translation_sha256": "e668ba8d4313757be19e3f826d399ded5897813b5e013de76ad67eb46be4851b"
+    },
+    "You're too confused to attack without stumbling around!": {
+      "context": "quiver.cc",
+      "translation_sha256": "26360d0e7bd91561ad1f8f51a4ae8c7057cfdc476a49137c1ed5d85e77dc8d12"
+    },
+    "You cannot attack while held in a net.": {
+      "context": "quiver.cc",
+      "translation_sha256": "1b36765b5d1df22c5ac0f8ae32c590f2449422b024b488faea1ad3fa8b13d290"
+    },
+    "You cannot attack while caught in a web.": {
+      "context": "quiver.cc",
+      "translation_sha256": "60dad372534997fb24f99d71eebc02b4e6dca6e2dcf75c5b432faa94e88aa656"
+    },
+    "Your weapon can't reach that far!": {
+      "context": "quiver.cc",
+      "translation_sha256": "8ee5fc7fccb18c4cc465baebfbe64f1207a979bc6db4b64c88b823bcd9bbdc94"
+    },
+    "You attack @arg@.": {
+      "context": "quiver.cc",
+      "translation_sha256": "e329c8c7fbd3c67583bc9774d32d62759d49d8638d5c997b8cbfadf48cb17414"
+    },
+    "You could not reach far enough!": {
+      "context": "quiver.cc",
+      "translation_sha256": "230f0d62a46040ac93b99c8c3e36fb06f81c8c7548721134925f85d468c1355b"
+    },
+    "You reach to attack!": {
+      "context": "quiver.cc",
+      "translation_sha256": "f40f1502332d614d6185c90afb1726236e7471e2008dec4e2285fa2c59ef5ad6"
+    },
+    "@Arg@ is in the way.": {
+      "context": "quiver.cc",
+      "translation_sha256": "e0584cd15f099b6a391fa1a491bff9786a53cb97ec1f6c487416bb9aee46237e"
+    },
+    "Something you can't see is in the way.": {
+      "context": "quiver.cc",
+      "translation_sha256": "31ead52d298aee2afd83ce2ce009e574f517c20b242ea84f6617ad795e3b53a1"
+    },
+    "You swing at nothing.": {
+      "context": "quiver.cc",
+      "translation_sha256": "189015f9ff198bbd43b1f0fec0520986f54c011ed6f48438c61bd0d904bcdabc"
+    },
+    "You attack empty space.": {
+      "context": "quiver.cc",
+      "translation_sha256": "0380c5971654b84706406a3410fee3aca4f1404164a952bd80b1f9fe40d81e95"
+    },
+    "Activate: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "1388a64d28db3da95494b182d6243787e2a9f8b055ee664d9bd99bb4296da0e0"
+    },
+    "Toss (no damage): ": {
+      "context": "quiver.cc",
+      "translation_sha256": "aa243f831557d8411547da7a89cef0edfd23390bd4b78b4fce79798fc9db62f7"
+    },
+    "Throw: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "538d29410c4c5e4fdcbc72cb4e05151c6d841df1008699acb935c440460a8dc9"
+    },
+    "Confused toss (no damage): ": {
+      "context": "quiver.cc",
+      "translation_sha256": "02ecb75bc68989fd7700744d8823a307dff275a951d8c1c2be853c3b9eaf5fb2"
+    },
+    "Confused throw: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "346cf924f78589b6cab1d9f8dbcc4d12f890e7a189fea6984e2ecdbc63fe0158"
+    },
+    "1 bullet": {
+      "context": "quiver.cc",
+      "translation_sha256": "a42c88a7f94cba3df2a45390cb103de6d701fc20a8dbddcd676e746b16f9dab6"
+    },
+    "@num@ bullets": {
+      "context": "quiver.cc",
+      "translation_sha256": "6baf1bb81124ef9232498d132db340ebe649c21846632d53f72fe606e86f454f"
+    },
+    "Continue: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "827729c704e14b04b9fefc32e68faaecef161696842b6051907ddfbba7e9829a"
+    },
+    "Cast: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "8f0d69cbc325c76a48a8f5a96c60e76ed01fe2c578aa66fc8f6b708ccdaee41c"
+    },
+    "Capacitive Coupling": {
+      "context": "quiver.cc",
+      "translation_sha256": "43db1d12049b87a093b94c863e6ac5ecfc6f63839507bef9945ed8e2b874ec21"
+    },
+    " (stones: @num@)": {
+      "context": "quiver.cc",
+      "translation_sha256": "ab2342a850c7e2a4e40f06a7f3df5ec23e682ee0c696dbd281b68d592e884107"
+    },
+    "You can't see any hostile targets that would be affected.": {
+      "context": "quiver.cc",
+      "translation_sha256": "914b6f3f4e08285f0f0c6307273eef5f18943725438b8b7af107db1353fd71b7"
+    },
+    "No targets found!": {
+      "context": "quiver.cc",
+      "translation_sha256": "c099fff2a09416e7fb3b6a4756c2a13dfc5994771f9d6f4ba5dc9cf5766ce314"
+    },
+    "Abil: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "964c3e4c8e1e36b94062d06b23f77ed32c07d76e2b01527255402671bb08492b"
+    },
+    "Drink: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "80bb8a3c1a994f8f23248020b40c2c5b46a9d6ec3253f4e2a89e8a782af8cfa8"
+    },
+    "Read: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "26bb435d18f9751b616ece0e538fdb136de1365ec4dd4ac20736e61e092b2aa0"
+    },
+    "Zap: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "c4d14bd36684a0a754447712ceb9a715ef03002c78c994da88cbd78c6f274e93"
+    },
+    "Evoke: ": {
+      "context": "quiver.cc",
+      "translation_sha256": "1388a64d28db3da95494b182d6243787e2a9f8b055ee664d9bd99bb4296da0e0"
+    },
+    "Quiver which item? (- for none, * to toggle full inventory)": {
+      "context": "quiver.cc",
+      "translation_sha256": "d77768ef33a86960ac80f33ccb8d02eb60fc3a275e4b88ce7e95dacbb6580290"
+    },
+    "Quiver which item? (* to toggle full inventory)": {
+      "context": "quiver.cc",
+      "translation_sha256": "07aca67b7e0c173314d5d70b2a958bfd9c47af72fe02415ff90edd8440bb4113"
+    },
+    "Clearing quiver.": {
+      "context": "quiver.cc",
+      "translation_sha256": "ddc5ec608fa524df70460707dcbfe4e87878a1ab6f0e343488fde34ba3f0e6b1"
+    },
+    "Select a spell to quiver": {
+      "context": "quiver.cc",
+      "translation_sha256": "d265d24f6af1327a478b5c0e441e004c8821c36695b22b4a92976b05716f9b1f"
+    },
+    "Quiver which action?": {
+      "context": "quiver.cc",
+      "translation_sha256": "72738764f62f074b86372e3baf0dbc16a038af92f2e43c6785d7964802393d40"
+    },
+    "<w>-</w>: none": {
+      "context": "quiver.cc",
+      "translation_sha256": "88590ce54e67bf64a79dd72c7164d2330843ae4c232254abd820eec3c4a9accd"
+    },
+    "<w>*/%</w>: inventory": {
+      "context": "quiver.cc",
+      "translation_sha256": "6e829b3696604eea4c102e131964bbaa7600938797731549f697f1478a4a97a3"
+    },
+    "<w>&</w>: spells": {
+      "context": "quiver.cc",
+      "translation_sha256": "75a51485bea705d6fa7ca1be62c9c0a580ecc4a1ff424817679450b69abb8827"
+    },
+    "<w>^</w>: abilities": {
+      "context": "quiver.cc",
+      "translation_sha256": "1c346c5f42a46976b65cf391a223d9abacf640714edcdd75eacfd9c213bab60f"
+    },
+    "You have nothing to quiver.": {
+      "context": "quiver.cc",
+      "translation_sha256": "8e5d7f6f54adfb084a0e2481d80f41bc4010947e9d8dcf9cae85a517898c3080"
+    },
+    "No regular actions available to quiver.": {
+      "context": "quiver.cc",
+      "translation_sha256": "ee2495da8b6ac0f238c70b857c86a6642f40aa06d384853ac85d6e5390d8dff9"
+    },
+    "You feel a huge surge of power!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "c42230b1d1579c931381a3b44bf1b7dd1a707ba1294350b1f0c6275810278b6c"
+    },
+    "You feel a strong surge of power!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "ec69d521af1758520b62a9165870dc543bf6d42084cbf26ffe3edeec10e5a376"
+    },
+    "You feel a surge of power!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "799d0f7855e5477a2a75c594bf7e29a3ee17ca19ffb510c3632201e8792ad45a"
+    },
+    "You feel an extraordinarily numb sensation.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "43f575785e3f168d486d68d9cae731c928916f752205e72ada0030e92ddbf762"
+    },
+    "You feel an extremely numb sensation.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "3df5d58a4eea2277bab146525b24a491054cc7ab4af59dd80d6e9c30f8d98be5"
+    },
+    "You feel a numb sensation.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "2470aeb4d1746c67fb9147e583828d0e64d1c9fa218b81db23c6aa4058ae7936"
+    },
+    "You feel a slight surge of power.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "ac2d2c6723e811c6a396c40f0afb5e3058ba8136dde0f4134d13a6aa04090fbe"
+    },
+    "You feel a surge of power.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "d3a742b1b9540dd2b97c9768e0e73896652a117f49faac917d409e7fab70d515"
+    },
+    "Press '<w>!</w>' or '<w>I</w>' to toggle spell view.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "9960a9281d38d76a466ef7e870cce6ad16d0497172180d9f112898e511a7dcb4"
+    },
+    "Press '<w>!</w>' to toggle spell view.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "7ba7da94b6906176e9ff6256ad2a6c2b5e8de090120abbe00b4921c840aee1d5"
+    },
+    "You cannot cast spells while unable to breathe!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "171f7be686b0983e85fc011a96265e55a501262d5fa0624b4dbfe018740af164"
+    },
+    "You lack the mental capacity to cast spells.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "43f0ae01aea3adc2f92cd814a6c5d5ff3f8d9ffb5eed5fe77635ba18e4c50eb5"
+    },
+    "Something interferes with your magic!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "9aa5a0e046058701e97a04525ff35c0dc722d1a3f20b41f9134dd952a232f0be"
+    },
+    "You're too confused to cast spells.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "d5e79f6142ee755b1943a2ecb30502b57ea3912f7fdf834b37f965e03d0fedeb"
+    },
+    "You cannot cast spells when silenced!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "362cf17c6e84d6c69ccb8209c78a37d39efccca5c5ad50c64a225945677409b3"
+    },
+    "Weird images run through your mind.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "6848b04bc6dc0cbf35d794c672914e07f4efe28d894aa5832d191ef2c426c373"
+    },
+    "Your head hurts.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "ec08f4f8fa2cb6e35289336cc5abb45368a35787a03ab78892e250157a6cd18f"
+    },
+    "You feel a strange surge of energy.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "54f99797a6ef06bd49641205c2359a9794d45cfa32164e7b02d88b682d2443cc"
+    },
+    "You feel uncomfortable.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "de47a20439b079f9c83e7e7e7cc5a3410519a5551bad42478a0d3616dd300582"
+    },
+    "Magical energy flows into your mind!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "a0fffa3126d6656890af6af752ee36eb5e065b374b8dd56fd8660fae527155f7"
+    },
+    "Cast which spell? (? or * to list) ": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "546294e8b9871ba85fe173afe906a1f6605c1c506a6cfda5ea9d8fec6fe0e550"
+    },
+    "Casting: <w>@arg1@</w> <lightgrey>(@arg2@)</lightgrey>": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "536e701ede7adef0597fc2467145a610824504598c06fa25e5a3ee8c42e0093a"
+    },
+    "Confirm with . or Enter, or press ? or * to list all spells.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "773b313a8a2bcd24261496621a3d083383215a57f0ce4211b3b9716cfa1b7a40"
+    },
+    "You can't see any susceptible monsters within range! (Use <w>Z</w> to cast anyway.)": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "ecec2e82de01034bb834d92795c7c550e594b5e9331b90820daae4ef48feb150"
+    },
+    "Casting this spell will cause instant excommunication! Really cast?": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "8b68af3df6d78b880405f3444c046197e642b8908414c0ccd4ede36168ea75b8"
+    },
+    "Casting this spell will place you under penance. Really cast?": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "2a76700f9a35386de848714f983608db47f00d869200f1803a67933c4919e3fe"
+    },
+    "Your control over your magic is sapped.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "12b5da28207d5490688b13759852f14103bd9a5f1b20560c56ce6116f0c0c46c"
+    },
+    "Couldn't try casting monster spell because you're on top of a monster.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "0958f6ab06cdaf1847411cd8bc116b8ec404a72f91cb210e941fd4d089c32ce7"
+    },
+    "Couldn't try casting monster spell because there is no empty monster slot.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "0a45ee8f1075cb76a2ccda13723c367e5b01b96fa15f235e19d7c3c71eceaec0"
+    },
+    "Invalid player spell, attempting to cast it as monster spell.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "a1b6dd690669877e55859bc9f7bb969beea31d97dc530028a1be2876469f3cd9"
+    },
+    "Really cast @arg@?": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "29fa7199ac5d4e55bc6e5ef8edb29633caee0bff857956f65662d42a1f9ba746"
+    },
+    "It is impossible to cast this spell (100%% risk of failure)!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "0f2b4ac5aeeb00907b41b66692eda3b9ee2bb0ba6c0938a0c6b18e13e9c2e00d"
+    },
+    "The spell is @arg1@ to cast (@arg2@ risk of failure)@arg3@ Continue anyway?": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "df60d1f73974f82f4e61e2f1be3d7fc417b8018a40729f179bccc35e3c51cec2"
+    },
+    "@num@%% to hit": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "c8b4a0770a6fd53caeb4684c4eefd199a3662ee164001755c0ae186065303e05"
+    },
+    "chance to confuse: @num@%%": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "3ae224f8e6e792d421ff75880b8f21b789cfff08bc25cd9e563563f4586e86cd"
+    },
+    "chance to slow: @num@%%": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "22acdf3e4b245605820eb57a0e226a3ea4ed9658db0535af6cb74843f3186375"
+    },
+    "chance to dazzle: @num@%%": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "8939115e088cab2d511602bc8e3f258f85519d1f84a07cb3d674a10f3861c768"
+    },
+    "chance to affect: @num@%%": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "874067e7e80dec7690319fc4e98a17c9aeb70d96cb0db50d5b392b1d26a0417c"
+    },
+    "will blink": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "81f32533c9f72402d1b47d0544d9006bbd1018f24ff6a8c8439ac916fd3f024b"
+    },
+    "chance to teleport: @num@%%": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "80d957e988de7206793608dad6021df6f9bf3ff451a876bff5e4ef29526f94ab"
+    },
+    "will change colour": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "e9d49779e4d200f8d605a949d94e0d7cda08bbe619e8e2de10573a6a01520f8b"
+    },
+    "will change shape": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "bf9fa159b129f5897e641dbccca5bddb263738b78815eb075eeffa6ee5b935de"
+    },
+    "will probably split": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "26543619dd86e0f4ffeebe42cfef5b706e0330a40cc9bd80252178b4cf09ed31"
+    },
+    "will become @arg@": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "3dad56864d0c3e60f369850d2d08c6d35b0d720eb98f1567470b1a02fb1c54ec"
+    },
+    "Restarting spell": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "b72e17c243a2c4ddc0cf79bc9f12ef4efd010ebd4a50419a1d290cb9306e0fbd"
+    },
+    "Aiming": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "56eddf3e237754862653924651f350f011af3a0bda592d22a6e67450aef055b4"
+    },
+    "Casting": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "8681f732767742ee5321118a2a7513d9a674f9a3d771fca6640739884479996c"
+    },
+    "Sorry, this spell works on others only.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "114f366e1d69ab7c1a61b83e7778e374ddeae05a4f0d966e4f91c2dd3270ac0e"
+    },
+    "You feel a surge of divine spite.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "ca3dff4de878215f14feb350d9f78c2a0261ffc55ae287b9dc7512662350c85e"
+    },
+    "@Arg@ does not allow the disloyal to dabble in death!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "d3b73c96fb5265fd6ce7463626deac2a1ad40488f8f780ef52c8454226a353f7"
+    },
+    "@Arg@ does not allow the disloyal to dabble in destruction!": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "c216178a0be5b83ad76f1bcef9986e0c53d3b5a62b8411cf251b07aa26749549"
+    },
+    "You miscast @arg@.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "8a184b1f4afb3981b047ddf46a5ebb568c84262fdc887c81a765273b6c23c26f"
+    },
+    "safe": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "e8e01e25ab090445e6816258b89b8e31c78ccb924b5e94756a3bcdef6fe7833e"
+    },
+    "mildly dangerous": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "648352aea6698d308a801f4ead2a86fae763ce1c1b21a1cda1d40cbf97d78414"
+    },
+    "dangerous": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "2a9228fd4f71c77c02ff183e3025a86ece0166870671ffc09958cef18d1a8382"
+    },
+    "quite dangerous": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "dd9471e8d5e68e9c2afd234825293cbf3be299152af3db86243861d2ff12c929"
+    },
+    "extremely dangerous": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "a4053e7cbe1ae30dbdb1e05370d07e73616e446bb80858ebc970a70f260b580a"
+    },
+    "potentially lethal": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "138eec863494a0ff9d42f955554e2340e4c8eea655cddfb5e293a15a13a154b2"
+    },
+    "risk of failure": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "3853cf376ff06558fd30f88f19fb4968c9c25ccdf4d198727f223b1936bee18a"
+    },
+    "Malevolent energies surge around you.": {
+      "context": "spl-cast.cc",
+      "translation_sha256": "21cdf32f55df36d6d34234318d2bf7f93d1e84213229ae6d226e466bd5add4a4"
+    },
+    "You can't see anything there to charge at.": {
+      "context": "target.cc",
+      "translation_sha256": "ad68ce6f623311db28d2cc3ae97974e7fa9fd6843c443a317dd4e5eeff5f19ab"
+    },
+    "You can't charge at yourself.": {
+      "context": "target.cc",
+      "translation_sha256": "c629d90c311b32e345733cda405728f3886936d774fa202d413746346dc21284"
+    },
+    "You're already next to there.": {
+      "context": "target.cc",
+      "translation_sha256": "ed8a1c2e3444660d0d33462482820fc48a48453b7d2556d10832843b8c9cff1c"
+    },
+    "There's @arg@ in the way.": {
+      "context": "target.cc",
+      "translation_sha256": "a50cbc7d999572653b2fcc98540634ea42305f8cca734fc8618c6e1cffac0089"
+    },
+    "You cannot see that place.": {
+      "context": "target.cc",
+      "translation_sha256": "160cbb7a95c57ac3acc4ab7c722366cbe47d1085813c3f411c602909fb7d29fc"
+    },
+    "Please select a direction to dig.": {
+      "context": "target.cc",
+      "translation_sha256": "ba4c50ff3570977b686dfc90cd4e36e2850f46e569711e8d737114d7f861ea7a"
+    },
+    "Digging in that direction won't affect any walls.": {
+      "context": "target.cc",
+      "translation_sha256": "b4566b4fb4181d0bbf12a5049d86d5cd56abc718c5e13fb2efbe4535000093c3"
+    },
+    "You can't swap your ancestor with themself.": {
+      "context": "target.cc",
+      "translation_sha256": "36401de0d1c945293015630e2c972dcbd27fd797cb98d0d6743fc4c7c2ec02cd"
+    },
+    "You cannot affect that.": {
+      "context": "target.cc",
+      "translation_sha256": "aac9372931fa1e75f6f609f961085c5ddd6821ff9bd78afd42dd5654219b1809"
+    },
+    "You can't get through.": {
+      "context": "target.cc",
+      "translation_sha256": "08fdf39981dcef21c196eb8d1db6d6630a4ff927a9b67eb0ae36f69b8e4a0265"
+    },
+    "There's already a cloud there.": {
+      "context": "target.cc",
+      "translation_sha256": "61465de2f25994d34c39869930eb11deaecc332ba03f4f62eebc53e2764c1c82"
+    },
+    "You can't place clouds in a sanctuary.": {
+      "context": "target.cc",
+      "translation_sha256": "e5217caf1acd8e9d72a408152f348250c49072255b166cfdba5f6e8f03ebe031"
+    },
+    "The effect is blocked.": {
+      "context": "target.cc",
+      "translation_sha256": "7ae9f4c65e685aae27287d264c4414d26297ebd5d33df97542c43a001fa5ca39"
+    },
+    "You cannot target yourself.": {
+      "context": "target.cc",
+      "translation_sha256": "e102f46aee094e12789ecab418e3db3cab7d1bf2968d8b4cf1a269f7365fa12a"
+    },
+    "There is no safe place near that location.": {
+      "context": "target.cc",
+      "translation_sha256": "1f0153e5b0f1d14541c6cf095821f57c345ced8ef627aa80c04d06613597585a"
+    },
+    "There isn't a shadow there.": {
+      "context": "target.cc",
+      "translation_sha256": "c73c1cb1d99b87022a372f40d9ad4da51a6b72ab80136b65b4bec33f3973f3df"
+    },
+    "You cannot grow anything here.": {
+      "context": "target.cc",
+      "translation_sha256": "166f1c1b0c6cac745a8654b94a09e58ae9177bfb35b171b8cf3e0417e271fa7e"
+    },
+    "It affects your AC (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "020273d4dd1d1675021c0d67bda6769131156e797adc216a62d2ed85c6084eb1"
+    },
+    "It affects your evasion (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "d2c02249c6c96c59a05ef1a46f888a1edf8b41fe28ba50ff4539c84165ac96f3"
+    },
+    "It affects your strength (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "daf8e9c2aa55762efd8478752803fcffe042234dd7b47fdbd1b48dab93782ab4"
+    },
+    "It affects your intelligence (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "27cc4cebc5ff8a25c65f14198406b9eda89b240ea81c2495b21a607c30c35019"
+    },
+    "It affects your dexterity (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "948852400f813e9b36461a43efe88e218b778e9d5c172847c02ea91107f31cc5"
+    },
+    "It affects your accuracy & damage with ranged weapons and melee (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "8b6a9c29574b774c31d73b3834bdf69b4c3202a074c58ac37423a5a2f92a5c61"
+    },
+    "It insulates you from electricity.": {
+      "context": "describe.cc",
+      "translation_sha256": "8f60cf6385de7b29489b3801627a9bcb43afe78417516ea1317ec63b7734fc60"
+    },
+    "It protects you from poison.": {
+      "context": "describe.cc",
+      "translation_sha256": "f83123b3009f5d2d2f9783424d5b3a955e401ccb5c5f8c97ccb8a39b61ff80a6"
+    },
+    "It affects your health (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "eefe097ff813a00c211741e1738b01ce2038e1aa46f3b43db20001e2c1598eba"
+    },
+    "It affects your magic capacity (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "384b9328ca9562aee00537e66fb5af0da8a5f6e7386d7898b237ff254b5ab20d"
+    },
+    "It lets you see invisible.": {
+      "context": "describe.cc",
+      "translation_sha256": "3a024721c5d4d76db213366c125876e97a77fe47694cc3bb115fb1f6712b3577"
+    },
+    "It lets you turn invisible.": {
+      "context": "describe.cc",
+      "translation_sha256": "dcb1405732c00d20508d9a2a234d876e9301ee505b97037cd64f3d2d1ed43d19"
+    },
+    "It grants you flight.": {
+      "context": "describe.cc",
+      "translation_sha256": "8e547b9fa69caea6ad42adf96818d29cd7457d1af0b60e2ff91e220d2d8b5e48"
+    },
+    "It lets you blink.": {
+      "context": "describe.cc",
+      "translation_sha256": "9cbfa5f567749aabc15d06bbc1fffdb90ece398807972dda186ce108fbbf8bf0"
+    },
+    "It may make a loud noise when swung.": {
+      "context": "describe.cc",
+      "translation_sha256": "d3a63c00fe4588594364255c1ed51cf11cdb4d247cdbb53f198b821d36eb4872"
+    },
+    "It prevents spellcasting.": {
+      "context": "describe.cc",
+      "translation_sha256": "48bdfb68354ade82250d9dce1489234dd8b89ee4df093920adc6e298631b94bd"
+    },
+    "It prevents most forms of teleportation.": {
+      "context": "describe.cc",
+      "translation_sha256": "ba8874b9d14b286d5fe4be9e5d8f0cd1e63761e48166bee954485d8b0502ca23"
+    },
+    "It berserks you when you make melee attacks (@num@% chance).": {
+      "context": "describe.cc",
+      "translation_sha256": "d975d17c2841376729e35a9ab227ad869a3636b48a84792595903f2b1e784a7b"
+    },
+    "It protects you from confusion, rage, mesmerisation and fear.": {
+      "context": "describe.cc",
+      "translation_sha256": "7e639ec8229aecca5344dd097bdf1fea2a67e5f90f062444cb738a92fdf294fc"
+    },
+    "It causes magical contamination when unequipped.": {
+      "context": "describe.cc",
+      "translation_sha256": "fa2ab63f933927e15e6e1049bff6abbabacfd654c3d066bf4a738f04e9c2298b"
+    },
+    "It protects you from missiles.": {
+      "context": "describe.cc",
+      "translation_sha256": "f67f15d889a71c19be5e235f9a1b2f6e0dc0ed0fd5d6bb64372a46ea8f392889"
+    },
+    "It increases your rate of health regeneration.": {
+      "context": "describe.cc",
+      "translation_sha256": "1e480bbfddf9d10d37b8d914d51c00c4c9da842666c4945055b3d28706a694ac"
+    },
+    "It protects you from acid and corrosion.": {
+      "context": "describe.cc",
+      "translation_sha256": "ee36310970ddeb13e17bb09c500159d714d8d987577e1c16450ab7f0b19c6adb"
+    },
+    "It protects you from mutation.": {
+      "context": "describe.cc",
+      "translation_sha256": "e968513d04913b38a727b17e7b8bb9746f87bd238ff53ac77fccb7d8e5b386c6"
+    },
+    "It may corrode you when you take damage.": {
+      "context": "describe.cc",
+      "translation_sha256": "af06cd7c2a4b5c95d94f6b21caaf2ead47fe7fb35d8ccef33d408e895302c1fa"
+    },
+    "It drains your maximum health when unequipped.": {
+      "context": "describe.cc",
+      "translation_sha256": "eed4a1a996988e5b73e96eaf12705c9117d1b265de7c222e847b1ab3e0c3db60"
+    },
+    "It may slow you when you take damage.": {
+      "context": "describe.cc",
+      "translation_sha256": "922044dcdd5a122d5a8f0d14b5c22e84972e7ea70ebf887c13a1a2fab453a250"
+    },
+    "It will be destroyed if unequipped.": {
+      "context": "describe.cc",
+      "translation_sha256": "8bbff75a1b7728fa8cb6aee7a4fa030db708c52635f0a191676afe559f8c544d"
+    },
+    "It affects your SH (@arg@).": {
+      "context": "describe.cc",
+      "translation_sha256": "8a29ced133d171a8baf8889b9b1b8d8f49fe988596c4adcfd457fe45ecc4f196"
+    },
+    "It increases damage dealt and taken.": {
+      "context": "describe.cc",
+      "translation_sha256": "67ca3a78ac02dc4bcac3a11f7e9de2f7c3d5b580d52e4a2c60b4d5844d3f4469"
+    },
+    "It causes one to take an extra step when moving towards enemies, briefly stunning them if this results in an attack.": {
+      "context": "describe.cc",
+      "translation_sha256": "a1f96b1c4234be7536105af87d61e76c389381ec587823d7262fcbab845e6a28"
+    },
+    "It increases the power of your magical spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "0dae6c34be39c6d436d0699441257e9bb2e23dac4f5e333c43cee8f93e0fcb2b"
+    },
+    "It increases the power of your Conjurations spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "0ddfad48fe5c13e6cb41f0609fb3805e0930ceff67fe253bf5a3104c2b84b8d6"
+    },
+    "It increases the power of your Hexes spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "ab7ab589b3af354d39315c3ce799376a05b1046aae6101d68ab527a62f7e5da7"
+    },
+    "It increases the power of your Summonings spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "4081541101df41899cc7eb68417b48a408e44f72d00919195f6ee12b6e7e4bf8"
+    },
+    "It increases the power of your Necromancy spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "fef0e53d8c1e7c56b136701f9971e3b6b29b10430472e4f26181310b37a6c31c"
+    },
+    "It increases the power of your Translocations spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "bd51151dc2703ddb7049c86dc452eaee973ff2ba6abfe6b07604eb89e9ab4014"
+    },
+    "It increases the power of your Fire spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "e95c1a8a28d7a1d4790004439be3003d70db4b5daa53e333e7213f9fdd43c567"
+    },
+    "It increases the power of your Ice spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "30fc4c7a763c47997a60228cc548e84130188075091848c552bd02726788c805"
+    },
+    "It increases the power of your Air spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "52c511fc9b3b93e832b857c231f1930cdc2121ad9ff251a5c13340c17e98a0da"
+    },
+    "It increases the power of your Earth spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "d9f93f7602bb56a7a80628a1db3aab3df66dd4cfab11ddb335180dccf6dd1e64"
+    },
+    "It increases the power of your Alchemy spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "f312007b48fe62cc1357df9281708d06281c1505379cb33bc80400d911399f70"
+    },
+    "It increases the power of your Forgecraft spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "d201257845b7e3358ebe8bf5619c30e59fa8be6e26d461acea2dc7bce12b167d"
+    },
+    "It increases your evasion after moving or waiting.": {
+      "context": "describe.cc",
+      "translation_sha256": "cda3e038224f41f695ee522b05b54e7cb987675e84a10ceb0d1b932173878f3d"
+    },
+    "It increases your rate of magic regeneration.": {
+      "context": "describe.cc",
+      "translation_sha256": "5ab40e28aff165896a5b774e29b29e6d22d56701cd3c8cc7e370f40ef989c744"
+    },
+    "It increases the success rate of your magical spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "215900b620d85ea564fa4ef0905734af95d95df821ef56d6b57fa3468c4edae7"
+    },
+    "It may silence you when you take damage.": {
+      "context": "describe.cc",
+      "translation_sha256": "708b61b0067567075e6bb4270649381ba6775a7cc74f4e92a76bec426b44e434"
+    },
+    "It inflicts you with a random bane when you equip it.": {
+      "context": "describe.cc",
+      "translation_sha256": "98f30744282087d53be43be30ee258fb0677a4c065497452d25cc7ab70b467a5"
+    },
+    "It increases your willpower.": {
+      "context": "describe.cc",
+      "translation_sha256": "2c59c17ee677565fa90094deec53f3253b9b3ebe6bbf69cfefc91afbe6443a27"
+    },
+    "It greatly increases your willpower.": {
+      "context": "describe.cc",
+      "translation_sha256": "7623f49bad140740425186bd57ee20bd01af745d7a40cf5f444dde26b61ea785"
+    },
+    "It decreases your willpower.": {
+      "context": "describe.cc",
+      "translation_sha256": "6a0f48b377b6e30a36cfc8b4652adb2c9932198172e73b9f6158b7ca2b68a1f6"
+    },
+    "It greatly decreases your willpower.": {
+      "context": "describe.cc",
+      "translation_sha256": "7d40ac0f0b5f201ed284a9b9b39dbd4136c03534fbe39d47a93053a6f09eaee1"
+    },
+    "It makes you more stealthy.": {
+      "context": "describe.cc",
+      "translation_sha256": "acf5c3df3b2380e9139b522b1e2926ff29b8b96efe7179dec396d2bb2097312a"
+    },
+    "It makes you much more stealthy.": {
+      "context": "describe.cc",
+      "translation_sha256": "7d0068c67ba87c0c69073f39ab5c136be9312dfe7d0fc36e90aee29706a261fa"
+    },
+    "It makes you less stealthy.": {
+      "context": "describe.cc",
+      "translation_sha256": "d3d9cd1ad9aeaafed219602e739f71754fd5d665e722160c9a12de70cd18e60a"
+    },
+    "It makes you much less stealthy.": {
+      "context": "describe.cc",
+      "translation_sha256": "f6d50706f5afbccd6e4362f6673824fa38dd3721afdca2229ed1671927e980c9"
+    },
+    "It makes you extremely vulnerable to @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "7ec1d56443df726bd019974be7188b0b558129728c62451bd4e30f7aaf95384c"
+    },
+    "It makes you very vulnerable to @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "dc490389627c5cb9d3d257ec23f0f2a4e32d4c861affb0805dfb010a30226fe6"
+    },
+    "It makes you vulnerable to @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "eae018a20083d9e9695ae0c10010ea3764d2bed53b8bbef706641127190a9ebe"
+    },
+    "It protects you from @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "e84310432030acff2c0dbe7895167841b05ea8c0d61ed6d6be64b43834d991cf"
+    },
+    "It greatly protects you from @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "c4366ee74ebd4e4acbc2f8d7f0db60c84a889cbff455fb8dbfdf3b8bb68fd801"
+    },
+    "It renders you almost immune to @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "0a10e37ec327d84447b3bf5280e3052676fd23df33458a904088904a650e1e7a"
+    },
+    "It causes incoming damage to be divided between your reserves of health and magic.": {
+      "context": "describe.cc",
+      "translation_sha256": "0a62f7afa0ab9c40cf71c38459f487f149cb2aae9027c1857eda0364d9292fb5"
+    },
+    "It allows you to gain divine favour quickly.": {
+      "context": "describe.cc",
+      "translation_sha256": "b83eeb80e8228a197231f845d56ee0e8d02dad23435cb622576d8247f1a89bc6"
+    },
+    "It reflects blocked missile attacks.": {
+      "context": "describe.cc",
+      "translation_sha256": "6b4e13d14fc3b6eb62c15241dbb86dd27c5a292503890102d8361e990fcee185"
+    },
+    "It improves your skill with shapeshifting (+5).": {
+      "context": "describe.cc",
+      "translation_sha256": "8a974347cfdd33966ae82af196714d26028a856b6d74b3cc8bc9809c19b5f35b"
+    },
+    "It restores some MP whenever you drink a potion and also enhances your alchemy spells.": {
+      "context": "describe.cc",
+      "translation_sha256": "3b26b4fd8e52f3b54644ef2c697636868524e9ee1789b4db44104b39b1f0385f"
+    },
+    "It reduces the duration of hostile enchantments and decays magical contamination more quickly.": {
+      "context": "describe.cc",
+      "translation_sha256": "f0dd7df488bcf69c6abb3f1e3e17893903ef3435777701f1cb31aa27d6cbb22b"
+    },
+    "Your spells cost less MP as you Rev up. Whenever you cast a spell, you make a melee attack against a random enemy in range.": {
+      "context": "describe.cc",
+      "translation_sha256": "a810693c79731213e2004c8b1585c862cd88ea4d0e382d325c38716ff734a977"
+    },
+    "Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.": {
+      "context": "describe.cc",
+      "translation_sha256": "d5254acb093c81531ca697deece5bfada282ec89f31ec0cea58ec731faf75123"
+    },
+    "Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.": {
+      "context": "describe.cc",
+      "translation_sha256": "851c9de30c7b703f04232688fd8de6746266a5400d6fa9ec96eb557842c7fc5e"
+    },
+    "It sometimes fires a blinding ray at enemies whose attacks you dodge.": {
+      "context": "describe.cc",
+      "translation_sha256": "066cb615e7e26e2e153281626f39e3fa2a8d8aa558de2c5043a1ff963d1386e2"
+    },
+    "[<w>!</w>]: <w>Description</w>|Quote": {
+      "context": "describe.cc",
+      "translation_sha256": "8d655d11a9f67908f0f6ce11fb34dd0e2b7d3e67b7436225e268f7846a0aa376"
+    },
+    "[<w>!</w>]: Description|<w>Quote</w>": {
+      "context": "describe.cc",
+      "translation_sha256": "73ff54766c09c8de900b9458acff4b2eaa8ca0a4e02263ed68a92bac914494c3"
+    }
+  }
+}

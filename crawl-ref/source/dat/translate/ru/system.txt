@@ -118,7 +118,7 @@ Drink which item (* to show all)?
 %%%%
 Read which item (* to show all)?
 
-Какой свиток прочесть? (* — показать все)
+Какой свиток прочитать? (* — показать все)
 %%%%
 Use which ability? (? or * to list)
 
@@ -158,7 +158,7 @@ You cannot cast spells while confused.
 %%%%
 You can't see any susceptible monsters within range! (Use <w>Z</w> to cast anyway.)
 
-В пределах дальности нет подходящих видимых врагов! (<w>Z</w> — всё равно сотворить.)
+В пределах дальности нет видимых целей, подверженных эффекту! (<w>Z</w> — всё равно сотворить.)
 %%%%
 You can't see any susceptible monsters within range!
 
@@ -190,7 +190,7 @@ Your memory of @arg@ unravels.
 %%%%
 You feel forgetful for a moment.
 
-На миг вы становитесь забывчивее.
+На миг вы чувствуете провал в памяти.
 %%%%
 You begin with the following spells memorised: @arg@
 
@@ -202,23 +202,23 @@ You begin with the following equipment: @arg@
 %%%%
 You feel a surge of power.
 
-Вы ощущаете прилив силы.
+Вы чувствуете прилив силы.
 %%%%
 You feel a slight surge of power.
 
-Вы ощущаете небольшой прилив силы.
+Вы чувствуете слабый прилив силы.
 %%%%
 You feel a strong surge of power!
 
-Вы ощущаете сильный прилив силы!
+Вы чувствуете мощный прилив силы!
 %%%%
 You feel a huge surge of power!
 
-Вы ощущаете огромный прилив силы!
+Вы чувствуете колоссальный прилив силы!
 %%%%
 You miscast @arg@.
 
-Вы допускаете осечку: @arg@.
+Заклинание не удалось: @arg@.
 %%%%
 You miscast @arg@!
 
@@ -254,7 +254,7 @@ You feel your magic capacity decrease.
 %%%%
 You feel your power returning.
 
-Ваша магическая энергия возвращается.
+Вы чувствуете, как возвращаются силы.
 %%%%
 You feel a bit better.
 
@@ -587,3 +587,2407 @@ You stop putting on your armour.
 You stop removing your armour.
 
 Вы прекращаете снимать доспехи.
+%%%%
+You aren't carrying anything.
+
+У вас ничего нет с собой.
+%%%%
+You aren't carrying any weapons.
+
+У вас нет оружия.
+%%%%
+You aren't carrying any weapons that can be blessed.
+
+У вас нет оружия, которое можно благословить.
+%%%%
+Your armour is currently melded into you.
+
+Сейчас ваши доспехи слиты с телом.
+%%%%
+You aren't carrying any currently wearable armour.
+
+У вас нет доспехов, которые сейчас можно надеть.
+%%%%
+You aren't carrying any wearable armour.
+
+У вас нет подходящих вам доспехов.
+%%%%
+You don't have any unidentified items.
+
+У вас нет неопознанных предметов.
+%%%%
+You aren't carrying any armour which can be enchanted further.
+
+У вас нет доспехов, которые можно зачаровать сильнее.
+%%%%
+You don't have any corpses.
+
+У вас нет трупов.
+%%%%
+You aren't carrying any potions.
+
+У вас нет зелий.
+%%%%
+You aren't carrying any scrolls.
+
+У вас нет свитков.
+%%%%
+You don't have any books.
+
+У вас нет книг.
+%%%%
+You aren't carrying any wands.
+
+У вас нет волшебных палочек.
+%%%%
+You aren't carrying any pieces of jewellery.
+
+У вас нет украшений.
+%%%%
+You aren't carrying any items that might be thrown or fired.
+
+У вас нет предметов для метания или стрельбы.
+%%%%
+You aren't carrying any items that you can evoke without wielding.
+
+У вас нет устройств, которые можно использовать, не беря в руку.
+%%%%
+You aren't carrying any items that you can evoke.
+
+У вас нет предметов, которые можно активировать.
+%%%%
+None of your equipped items are cursed.
+
+Среди надетых вами предметов нет проклятых.
+%%%%
+You aren't carrying any weapons that can be branded.
+
+У вас нет оружия, которому можно придать особое свойство.
+%%%%
+You aren't carrying any weapons that can be enchanted.
+
+У вас нет оружия, которое можно зачаровать.
+%%%%
+You aren't carrying anything you can give to a follower.
+
+У вас нет предметов, которые можно передать последователю.
+%%%%
+You aren't wearing any cursable items.
+
+На вас нет предметов, которые можно проклясть.
+%%%%
+You aren't wearing any uncursed rings.
+
+На вас нет непроклятых колец.
+%%%%
+You don't have any quiverable items.
+
+У вас нет предметов для подготовки к быстрому применению.
+%%%%
+You aren't carrying any such object.
+
+У вас нет такого предмета.
+%%%%
+" (1 turn)"
+
+" (1 ход)"
+%%%%
+" (1+ turns)"
+
+" (от 1 хода)"
+%%%%
+" (@num@ turns)"
+
+" (ходов: @num@)"
+%%%%
+" (@num@+ turns)"
+
+" (не менее @num@ ходов)"
+%%%%
+Drop (and turn off autopickup for) what?
+
+Что бросить и больше не подбирать автоматически?
+%%%%
+Drop what?
+
+Что бросить?
+%%%%
+(<Enter> or tap header to drop)
+
+(<Enter> или нажатие на заголовок — бросить)
+%%%%
+(_ for help)
+
+(_ — справка)
+%%%%
+@Arg@ (<w>?</w> for menu, <w>Esc</w> to quit)
+
+@Arg@ (<w>?</w> — меню, <w>Esc</w> — выход)
+%%%%
+You don't have any such object.
+
+У вас нет такого предмета.
+%%%%
+Really unwield @arg@?
+
+Убрать оружие из руки: @arg@?
+%%%%
+Really take off @arg@?
+
+Снять доспех: @arg@?
+%%%%
+Really remove @arg@?
+
+Снять украшение: @arg@?
+%%%%
+" Item will be destroyed."
+
+" Предмет будет уничтожен."
+%%%%
+" This could place you under penance!"
+
+" Это может навлечь гнев вашего бога!"
+%%%%
+Really wield @arg@?
+
+Взять в руку: @arg@?
+%%%%
+Really quaff @arg@?
+
+Выпить: @arg@?
+%%%%
+Really drop @arg@?
+
+Бросить: @arg@?
+%%%%
+Really wear @arg@?
+
+Надеть доспех: @arg@?
+%%%%
+Really put on @arg@?
+
+Надеть украшение: @arg@?
+%%%%
+Really read @arg@?
+
+Прочитать: @arg@?
+%%%%
+Really memorise from @arg@?
+
+Выучить заклинание из книги: @arg@?
+%%%%
+Really zap @arg@?
+
+Использовать палочку: @arg@?
+%%%%
+Really fire @arg@?
+
+Выстрелить: @arg@?
+%%%%
+Really evoke @arg@?
+
+Активировать: @arg@?
+%%%%
+Really destroy @arg@?
+
+Уничтожить: @arg@?
+%%%%
+Really quiver @arg@?
+
+Подготовить: @arg@?
+%%%%
+Really choose @arg@?
+
+Выбрать: @arg@?
+%%%%
+" This could place you under penance AND you're about to teleport!"
+
+" Это может навлечь гнев бога, и вы вот-вот телепортируетесь!"
+%%%%
+" You're about to teleport!"
+
+" Вы вот-вот телепортируетесь!"
+%%%%
+That's the wrong kind of item! (Use * to select it.)
+
+Неподходящий тип предмета! (Нажмите *, чтобы всё же выбрать его.)
+%%%%
+That item is melded into your body.
+
+Этот предмет слит с вашим телом.
+%%%%
+That item can only be evoked when wielded.
+
+Для активации этот предмет нужно взять в руку.
+%%%%
+That item cannot be used by those hated by all!
+
+Тот, кого все ненавидят, не может использовать этот предмет!
+%%%%
+That item cannot be evoked!
+
+Этот предмет нельзя активировать!
+%%%%
+Inventory Items
+
+Предметы в инвентаре
+%%%%
+" (',' to select)"
+
+" (',' — выбрать)"
+%%%%
+Floor Items
+
+Предметы на полу
+%%%%
+Your weapon is melded into your body!
+
+Ваше оружие слито с телом!
+%%%%
+You can't wield anything in your present form.
+
+В нынешней форме вы не можете держать оружие.
+%%%%
+You cannot break your focus on the pain!
+
+Вы не можете отвлечься от боли!
+%%%%
+Your thirst for blood prevents you from unwielding your weapon!
+
+Жажда крови не даёт вам убрать оружие!
+%%%%
+You can't unwield your weapon!
+
+Вы не можете убрать оружие!
+%%%%
+You can't unwield your weapon to draw a new one!
+
+Вы не можете убрать нынешнее оружие, чтобы взять другое!
+%%%%
+You can't wield that without your missing tentacle.
+
+Без утраченного щупальца вы не можете держать это оружие.
+%%%%
+You can't wield that without your missing arm.
+
+Без утраченной руки вы не можете держать это оружие.
+%%%%
+You are wearing that object!
+
+Этот предмет уже надет на вас!
+%%%%
+You can't wield that with a shield.
+
+Вы не можете держать это оружие вместе со щитом.
+%%%%
+This weapon is holy and will not allow you to wield it.
+
+Это священное оружие не позволит вам взять его в руки.
+%%%%
+You can't carry that many items.
+
+Вы не можете нести столько предметов.
+%%%%
+Wield which item (- for none, * to show all)?
+
+Что взять в руку? (- — ничего, * — показать всё)
+%%%%
+You are already wielding that!
+
+Этот предмет уже у вас в руке!
+%%%%
+You can't shoot while berserk! Really wield @arg@?
+
+В ярости нельзя стрелять! Всё равно взять в руку: @arg@?
+%%%%
+You can't wear that!
+
+Вы не можете это надеть!
+%%%%
+You can wear that only in your normal form.
+
+Это можно надеть только в обычной форме.
+%%%%
+Your wings won't fit in that.
+
+Вашим крыльям здесь нет места.
+%%%%
+Your wings, even vestigial as they are, won't fit in that.
+
+Даже вашим недоразвитым крыльям здесь нет места.
+%%%%
+You need the rest of your tentacles for walking.
+
+Остальные щупальца нужны вам для передвижения.
+%%%%
+You'd need another arm to do that!
+
+Для этого нужна ещё одна рука!
+%%%%
+You'd need three arms to do that!
+
+Для этого нужны три руки!
+%%%%
+The hauberk won't fit over your tail.
+
+Ваш хвост не помещается в кольчужный доспех.
+%%%%
+You have no feet.
+
+У вас нет ступней.
+%%%%
+The hauberk won't fit your claws.
+
+Ваши когти не помещаются в кольчужный доспех.
+%%%%
+The hauberk won't fit your head.
+
+Ваша голова не помещается в кольчужный доспех.
+%%%%
+You'd need to take off your headwear first.
+
+Сначала нужно снять головной убор.
+%%%%
+You'd need to take off your gloves first.
+
+Сначала нужно снять перчатки.
+%%%%
+You'd need to take off your boots first.
+
+Сначала нужно снять сапоги.
+%%%%
+You can't wear the hauberk in your current form.
+
+В нынешней форме вы не можете надеть кольчужный доспех.
+%%%%
+You can't wear this over your hauberk.
+
+Это нельзя надеть поверх кольчужного доспеха.
+%%%%
+This armour is too big for you!
+
+Эти доспехи вам велики!
+%%%%
+This armour is too small for you!
+
+Эти доспехи вам малы!
+%%%%
+You can't wear a glove with your huge claw!
+
+На ваш огромный коготь не надеть перчатку!
+%%%%
+You can't wear gloves with your huge claws!
+
+На ваши огромные когти не надеть перчатки!
+%%%%
+You can't wear boots with hooves!
+
+На копыта не надеть сапоги!
+%%%%
+Boots don't fit your talons!
+
+Сапоги не налезают на ваши когтистые лапы!
+%%%%
+You have no legs!
+
+У вас нет ног!
+%%%%
+Boots don't fit your feet!
+
+Сапоги не подходят вашим ступням!
+%%%%
+You don't currently have feet!
+
+Сейчас у вас нет ступней!
+%%%%
+You have no feet!
+
+У вас нет ступней!
+%%%%
+You can't wear any headgear with your large horns!
+
+Ваши большие рога мешают надеть головной убор!
+%%%%
+You can't wear any headgear with your large antennae!
+
+Ваши большие усики мешают надеть головной убор!
+%%%%
+You can't wear that with your horns!
+
+Ваши рога мешают это надеть!
+%%%%
+You can't wear that with your beak!
+
+Ваш клюв мешает это надеть!
+%%%%
+You can't wear that with your antennae!
+
+Ваши усики мешают это надеть!
+%%%%
+You can't wear that with your reptilian head.
+
+Это не подходит для вашей рептильей головы.
+%%%%
+You can't wear that in your present form.
+
+В нынешней форме вы не можете это надеть.
+%%%%
+You can't wear that.
+
+Вы не можете это надеть.
+%%%%
+You can't wear anything.
+
+Вы не можете носить доспехи.
+%%%%
+You can't wear anything in your present form.
+
+В нынешней форме вы не можете носить доспехи.
+%%%%
+Wear which item (* to show all)?
+
+Какие доспехи надеть? (* — показать все)
+%%%%
+You are wielding that object!
+
+Этот предмет у вас в руке!
+%%%%
+You're already wearing that object!
+
+Этот предмет уже надет на вас!
+%%%%
+You aren't wearing that!
+
+На вас это не надето!
+%%%%
+@Arg@ is melded into your body!
+
+Предмет слит с вашим телом: @Arg@!
+%%%%
+You aren't wearing that object!
+
+Этот предмет на вас не надет!
+%%%%
+@Arg@ is stuck to your body!
+
+Предмет прилип к вашему телу: @Arg@!
+%%%%
+You're wearing all the rings you can. Remove which one?
+
+Больше колец не надеть. Какое снять?
+%%%%
+(<w>?</w> for menu, <w>Esc</w> to cancel)
+
+(<w>?</w> — меню, <w>Esc</w> — отмена)
+%%%%
+<w>@arg1@</w> or @arg2@
+
+<w>@arg1@</w> или @arg2@
+%%%%
+Unwielding this item will reduce @arg@ to zero or below.
+
+Если убрать этот предмет из руки, характеристика «@arg@» упадёт до нуля или ниже.
+%%%%
+Removing this item will reduce @arg@ to zero or below.
+
+Если снять этот предмет, характеристика «@arg@» упадёт до нуля или ниже.
+%%%%
+Wielding this item will reduce @arg@ to zero or below.
+
+Если взять этот предмет в руку, характеристика «@arg@» упадёт до нуля или ниже.
+%%%%
+Wearing this item will reduce @arg@ to zero or below.
+
+Если надеть этот предмет, характеристика «@arg@» упадёт до нуля или ниже.
+%%%%
+" Continue?"
+
+" Продолжить?"
+%%%%
+Losing flight right now would be extremely painful!
+
+Потеря способности летать сейчас будет очень болезненной!
+%%%%
+You're already wearing one cursed ring!
+
+На вас уже одно проклятое кольцо!
+%%%%
+You're already wearing two cursed rings!
+
+На вас уже два проклятых кольца!
+%%%%
+You're already wearing @num@ cursed rings! Isn't that enough for you?
+
+На вас уже проклятые кольца: @num@! Вам мало?
+%%%%
+Put ring where? (<w>Esc</w> to cancel)
+
+Куда надеть кольцо? (<w>Esc</w> — отмена)
+%%%%
+<w>@arg@</w> - no ring
+
+<w>@arg@</w> — без кольца
+%%%%
+" (left)"
+
+" (слева)"
+%%%%
+" (right)"
+
+" (справа)"
+%%%%
+" (amulet)"
+
+" (амулет)"
+%%%%
+You are wielding that object.
+
+Этот предмет у вас в руке.
+%%%%
+You can only put on jewellery.
+
+Так можно надевать только украшения.
+%%%%
+@Arg@ is stuck to you!
+
+Предмет прилип к вам: @Arg@!
+%%%%
+You're already wearing that amulet!
+
+Этот амулет уже надет на вас!
+%%%%
+You're already wearing that ring!
+
+Это кольцо уже надето на вас!
+%%%%
+Put on which piece of jewellery (* to show all)?
+
+Какое украшение надеть? (* — показать все)
+%%%%
+You aren't wearing any unmelded rings or amulets.
+
+Все ваши надетые украшения слиты с телом.
+%%%%
+You aren't wearing any rings or amulets.
+
+На вас нет ни колец, ни амулетов.
+%%%%
+Remove which piece of jewellery?
+
+Какое украшение снять?
+%%%%
+You aren't wearing that.
+
+На вас это не надето.
+%%%%
+That isn't a piece of jewellery.
+
+Это не украшение.
+%%%%
+I don't think you really meant that.
+
+Вряд ли вы хотели именно этого.
+%%%%
+You can't take that off while it's melded.
+
+Этот предмет нельзя снять, пока он слит с телом.
+%%%%
+The amulet cannot be taken off without first removing the ring!
+
+Чтобы снять амулет, сначала нужно снять кольцо!
+%%%%
+It's stuck to you!
+
+Этот предмет прилип к вам!
+%%%%
+You don't have anything to inscribe.
+
+У вас нет предметов для пометки.
+%%%%
+Inscribe which item?
+
+Какой предмет пометить?
+%%%%
+You can't drink.
+
+Вы не можете пить.
+%%%%
+You cannot drink potions in your current state!
+
+В нынешнем состоянии вы не можете пить зелья!
+%%%%
+You can't drink that!
+
+Это нельзя выпить!
+%%%%
+" This action would place you under penance!"
+
+" Это действие навлечёт на вас гнев бога!"
+%%%%
+@Arg@ petitions for your drink to fail.
+
+@Arg@ просит лишить ваше питьё силы.
+%%%%
+@Arg@ emits a brilliant flash of light!
+
+Ослепительно вспыхивает: @Arg@!
+%%%%
+@Arg@ projects an invisible shield of force!
+
+Создаёт невидимый силовой щит: @Arg@!
+%%%%
+@Arg@ is engulfed in flames!
+
+Покрывается пламенем: @Arg@!
+%%%%
+@Arg@ is covered with a thin layer of ice!
+
+Покрывается тонким слоем льда: @Arg@!
+%%%%
+@Arg@ craves living souls!
+
+Жаждет живых душ: @Arg@!
+%%%%
+@Arg@ thirsts for the lives of mortals!
+
+Жаждет жизней смертных: @Arg@!
+%%%%
+@Arg@ drips with poison.
+
+Источает яд: @Arg@.
+%%%%
+@Arg@ crackles with electricity.
+
+Потрескивает от электричества: @Arg@.
+%%%%
+@Arg@ erupts in a glittering mayhem of colour.
+
+Переливается буйством сверкающих красок: @Arg@.
+%%%%
+@Arg@ oozes corrosive slime.
+
+Источает едкую слизь: @Arg@.
+%%%%
+@Arg@ acquires a faint afterimage.
+
+Оставляет за собой едва заметный призрачный след: @Arg@.
+%%%%
+Really abort (and waste the scroll)?
+
+Прервать чтение и потратить свиток впустую?
+%%%%
+Enchant which weapon?
+
+Какое оружие зачаровать?
+%%%%
+@Arg@ glows red for a moment.
+
+На миг вспыхивает красным: @Arg@.
+%%%%
+Identify which item? (\ to view known items)
+
+Какой предмет опознать? (\ — известные предметы)
+%%%%
+@Arg@ glow green for a moment.
+
+На миг вспыхивают зелёным: @Arg@.
+%%%%
+@Arg@ glows green for a moment.
+
+На миг вспыхивает зелёным: @Arg@.
+%%%%
+Enchant which item?
+
+Какой предмет зачаровать?
+%%%%
+Magic quickly surges around you.
+
+Вокруг вас проносится волна магии.
+%%%%
+You are too berserk!
+
+Вы слишком охвачены яростью!
+%%%%
+You are too confused!
+
+Вы слишком растеряны!
+%%%%
+You cannot read scrolls in your current state!
+
+В нынешнем состоянии вы не можете читать свитки!
+%%%%
+Magic scrolls do not work when you're silenced!
+
+В зоне безмолвия волшебные свитки не действуют!
+%%%%
+You cannot read scrolls while unable to breathe!
+
+Нельзя читать свитки, пока вы не можете дышать!
+%%%%
+You can't read that!
+
+Это нельзя прочитать!
+%%%%
+You have no spells to forget!
+
+У вас нет заклинаний, которые можно забыть!
+%%%%
+infinite will
+
+бесконечная воля
+%%%%
+susceptible
+
+подвержен эффекту
+%%%%
+not susceptible
+
+не подвержен эффекту
+%%%%
+read @arg@
+
+прочитать: @arg@
+%%%%
+" And you can't even see any enemies this would affect!"
+
+" К тому же вы не видите врагов, на которых это подействует!"
+%%%%
+" You can't even see any enemies this would affect."
+
+" Вы даже не видите врагов, на которых это подействует."
+%%%%
+You can't see any enemies this would affect, really read @arg@?
+
+Вы не видите врагов, на которых это подействует. Всё равно прочитать: @arg@?
+%%%%
+You almost manage to decipher the scroll, but fail in this attempt.
+
+Вы почти разобрали надпись на свитке, но эта попытка не удалась.
+%%%%
+This is a scroll of acquirement!
+
+Это свиток приобретения!
+%%%%
+Anything you acquired here would fall and be lost!
+
+Любой полученный здесь предмет упадёт и пропадёт!
+%%%%
+You assume a fearsome visage.
+
+Ваш облик становится устрашающим.
+%%%%
+You hear a loud clanging noise!
+
+Вы слышите громкий лязг!
+%%%%
+The air is too still for clouds to form.
+
+Воздух слишком неподвижен для образования облаков.
+%%%%
+The scroll dissolves into smoke.
+
+Свиток растворяется в дыму.
+%%%%
+It would have no effect in this place.
+
+В этом месте эффект не сработает.
+%%%%
+The creatures around you are filled with an inner flame!
+
+В существ вокруг вас вселяется внутреннее пламя!
+%%%%
+The air around you briefly surges with heat, but it dissipates.
+
+Воздух вокруг вас на миг накаляется, но жар тут же рассеивается.
+%%%%
+It is a scroll of enchant weapon.
+
+Это свиток зачарования оружия.
+%%%%
+It is a scroll of brand weapon.
+
+Это свиток придания оружию особого свойства.
+%%%%
+It is a scroll of identify.
+
+Это свиток опознания.
+%%%%
+It is a scroll of enchant armour.
+
+Это свиток зачарования доспехов.
+%%%%
+It is a scroll of amnesia.
+
+Это свиток амнезии.
+%%%%
+You can't pick that up.
+
+Вы не можете это подобрать.
+%%%%
+Drop how many?
+
+Сколько бросить?
+%%%%
+You can't wear or remove anything in your present form.
+
+В нынешней форме вы не можете надевать или снимать снаряжение.
+%%%%
+type
+
+тип
+%%%%
+price
+
+цена
+%%%%
+name
+
+название
+%%%%
+%4d gold
+
+%4d золота
+%%%%
+Welcome to @arg@! What would you like to do?
+
+Добро пожаловать в @arg@! Что желаете?
+%%%%
+You are short 1 gold piece for the purchase.
+
+Для покупки не хватает 1 золотой монеты.
+%%%%
+You are short @num@ gold pieces for the purchase.
+
+Для покупки не хватает золота: @num@.
+%%%%
+After the purchase, you will have 1 gold piece.
+
+После покупки останется 1 золотая монета.
+%%%%
+After the purchase, you will have @num@ gold pieces.
+
+Золота после покупки: @num@.
+%%%%
+[<w>Esc</w>/<w>R-Click</w>] exit
+
+[<w>Esc</w>/<w>R-Click</w>] выход
+%%%%
+[<w>Esc</w>] exit
+
+[<w>Esc</w>] выход
+%%%%
+[<w>!</w>] <w>buy</w>|examine items
+
+[<w>!</w>] <w>купить</w>|осмотреть предметы
+%%%%
+select item for purchase
+
+выбрать предмет для покупки
+%%%%
+[<w>/</w>] sort
+
+[<w>/</w>] сортировка
+%%%%
+[<w>Enter</w>] make purchase
+
+[<w>Enter</w>] купить
+%%%%
+put item on shopping list
+
+добавить предмет в список покупок
+%%%%
+You don't have enough money.
+
+У вас недостаточно золота.
+%%%%
+Purchase items in shopping list for @num@ gold? (@arg@/N)
+
+Купить предметы из списка за @num@ золота? (@arg@/N)
+%%%%
+Purchase items for @num@ gold? (@arg@/N)
+
+Купить предметы за @num@ золота? (@arg@/N)
+%%%%
+I'll put it outside for you.
+
+Я оставлю покупку снаружи.
+%%%%
+I'll put them outside for you.
+
+Я оставлю покупки снаружи.
+%%%%
+I'll put some of them outside for you.
+
+Часть покупок я оставлю снаружи.
+%%%%
+@Arg@ appears to be closed.
+
+Похоже, магазин закрыт: @Arg@.
+%%%%
+Thank you for shopping at @arg@!
+
+Спасибо за покупку в @arg@!
+%%%%
+You can access your shopping list by pressing '$'.
+
+Нажмите '$', чтобы открыть список покупок.
+%%%%
+antique weapon
+
+старинное оружие
+%%%%
+antique armour
+
+старинные доспехи
+%%%%
+antiques
+
+антиквариат
+%%%%
+distillery
+
+зелья
+%%%%
+general
+
+разные товары
+%%%%
+"Available shop types: "
+
+"Доступные типы магазинов: "
+%%%%
+Shopping list: replace @num@gp @arg@ with cheaper one? (Y/n)
+
+Список покупок: заменить «@arg@» за @num@ золота более дешёвым вариантом? (Y/n)
+%%%%
+Shopping list: remove @arg@? (Y/n)
+
+Удалить из списка покупок: @arg@? (Y/n)
+%%%%
+Shopping list: removing @arg@
+
+Удалено из списка покупок: @arg@
+%%%%
+buy @arg@
+
+купить: @arg@
+%%%%
+"You now have enough gold to "
+
+"Теперь вам хватает золота, чтобы "
+%%%%
+1 item, total cost @num@ gp
+
+1 предмет, общая стоимость: @num@ золота
+%%%%
+@num1@ items, total cost @num2@ gp
+
+Предметов: @num1@, общая стоимость: @num2@ золота
+%%%%
+<w>examine</w>
+
+<w>осмотреть</w>
+%%%%
+<w>travel</w>|examine|delete
+
+<w>идти</w>|осмотреть|удалить
+%%%%
+travel|<w>examine</w>|delete
+
+идти|<w>осмотреть</w>|удалить
+%%%%
+travel|examine|<w>delete</w>
+
+идти|осмотреть|<w>удалить</w>
+%%%%
+[<w>?</w>/<w>!</w>] change action
+
+[<w>?</w>/<w>!</w>] сменить действие
+%%%%
+You have @num@ gp
+
+У вас золота: @num@
+%%%%
+You cannot afford @arg@; travel there anyway? (y/N)
+
+Вам не хватает золота на «@arg@». Всё равно идти туда? (y/N)
+%%%%
+@Arg@ with an entry fee of @num@ gold pieces.
+
+@Arg@; плата за вход: @num@ золота.
+%%%%
+Your shopping list is now empty.
+
+Ваш список покупок теперь пуст.
+%%%%
+" on this level"
+
+" на этом этаже"
+%%%%
+" on @arg@"
+
+" на этаже @arg@"
+%%%%
+In automatic mode, skills are trained as you use them.
+
+В автоматическом режиме навыки тренируются по мере использования.
+%%%%
+In manual mode, experience is spread evenly across all activated skills.
+
+В ручном режиме опыт поровну распределяется между всеми включёнными навыками.
+%%%%
+Press the letter of a skill to choose whether you want to practise it. Skills marked with '<darkgrey>-</darkgrey>' will not be trained.
+
+Нажмите букву навыка, чтобы включить или выключить его тренировку. Навыки с отметкой '<darkgrey>-</darkgrey>' не тренируются.
+%%%%
+Press the letter of a skill to cycle between <darkgrey>disabled</darkgrey> (<darkgrey>-</darkgrey>), enabled (+) and <white>focused</white> (<white>*</white>). Focused skills train twice as fast relative to others.
+
+Буква навыка переключает режим: <darkgrey>выключен</darkgrey> (<darkgrey>-</darkgrey>), включён (+) или <white>приоритетный</white> (<white>*</white>). Приоритетные навыки получают вдвое больше опыта относительно остальных.
+%%%%
+Ashenzari's power
+
+сила Ашензари
+%%%%
+cross-training
+
+взаимное обучение
+%%%%
+Skills enhanced by @arg@ are in <green>green</green>.
+
+Навыки, усиленные за счёт «@arg@», выделены <green>зелёным</green>.
+%%%%
+Ashenzari's anger
+
+гнев Ашензари
+%%%%
+Skills reduced by @arg@ are in <magenta>magenta</magenta>.
+
+Навыки, ослабленные за счёт «@arg@», выделены <magenta>пурпурным</magenta>.
+%%%%
+The percentage of incoming experience used to train each skill is in <brown>brown</brown>.
+
+Доля поступающего опыта, направляемая в каждый навык, указана <brown>коричневым</brown>.
+%%%%
+The current training targets, if any.
+
+Установленные цели тренировки, если они есть.
+%%%%
+The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.
+
+Прогресс до следующего уровня навыка указан <cyan>голубым</cyan>.
+%%%%
+The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).
+
+Относительная стоимость повышения навыка указана <cyan>голубым</cyan>, а при наличии учебника — <lightred>красным</lightred>.
+%%%%
+"Enter a skill target for @arg@: "
+
+"Целевой уровень навыка «@arg@»: "
+%%%%
+You need to enable at least one skill.
+
+Нужно включить хотя бы один навык.
+%%%%
+Press the letter of a skill to read its description.
+
+Нажмите букву навыка, чтобы прочитать его описание.
+%%%%
+Press <w>?</w> for a general explanation of skilling and the various toggles.
+
+Нажмите <w>?</w>, чтобы узнать о тренировке навыков и переключателях этого меню.
+%%%%
+Skill descriptions
+
+Описания навыков
+%%%%
+Help
+
+Справка
+%%%%
+Return to skill selection
+
+Вернуться к выбору навыков
+%%%%
+<w>Help</w>
+
+<w>Справка</w>
+%%%%
+skill descriptions
+
+описания навыков
+%%%%
+set skill target
+
+задать цель тренировки
+%%%%
+clear selected target
+
+убрать выбранную цель
+%%%%
+set a skill target
+
+задать цель тренировки
+%%%%
+clear all targets
+
+убрать все цели
+%%%%
+Select the skills you want to be trained. The chosen skills will be raised to the level shown in <cyan>cyan</cyan>.
+
+Выберите навыки для тренировки. Их уровни повысятся до значений, показанных <cyan>голубым</cyan>.
+%%%%
+The species aptitude is in <white>white</white>.
+
+Способности вашего вида к обучению указаны <white>белым</white>.
+%%%%
+Bonus from skill manuals is in <lightred>red</lightred>.
+
+Бонус учебников указан <lightred>красным</lightred>.
+%%%%
+You have quaffed a potion of experience. Select the skills to train.
+
+Вы выпили зелье опыта. Выберите навыки для тренировки.
+%%%%
+You feel omnipotent.
+
+Вы чувствуете себя всемогущим.
+%%%%
+You have mastered @arg@!
+
+Вы в совершенстве освоили навык «@arg@»!
+%%%%
+Your base @arg@ skill increases to level @num@!
+
+Базовый уровень навыка «@arg@» повышается до @num@!
+%%%%
+Your base @arg@ skill decreases to level @num@!
+
+Базовый уровень навыка «@arg@» снижается до @num@!
+%%%%
+Your @arg@ skill increases to level @num@!
+
+Уровень навыка «@arg@» повышается до @num@!
+%%%%
+Your @arg@ skill decreases to level @num@!
+
+Уровень навыка «@arg@» снижается до @num@!
+%%%%
+Your base @arg@ skill gained @num1@ levels and is now at level @num2@!
+
+Базовый уровень навыка «@arg@» вырос на @num1@ и теперь равен @num2@!
+%%%%
+Your base @arg@ skill lost @num1@ levels and is now at level @num2@!
+
+Базовый уровень навыка «@arg@» снизился на @num1@ и теперь равен @num2@!
+%%%%
+Your @arg@ skill gained @num1@ levels and is now at level @num2@!
+
+Уровень навыка «@arg@» вырос на @num1@ и теперь равен @num2@!
+%%%%
+Your @arg@ skill lost @num1@ levels and is now at level @num2@!
+
+Уровень навыка «@arg@» снизился на @num1@ и теперь равен @num2@!
+%%%%
+You cannot train any new skills!
+
+Вы не можете начать тренировку новых навыков!
+%%%%
+You need to enable at least one skill for training.
+
+Нужно включить тренировку хотя бы одного навыка.
+%%%%
+Base training target %.1f for @arg@ reached!
+
+Достигнут целевой базовый уровень %.1f навыка «@arg@»!
+%%%%
+Training target %.1f for @arg@ reached!
+
+Достигнут целевой уровень %.1f навыка «@arg@»!
+%%%%
+You have finished your manual of @arg@ and toss it away.
+
+Учебник навыка «@arg@» полностью изучен; вы выбрасываете его.
+%%%%
+You can't set training targets!
+
+Вы не можете задавать цели тренировки!
+%%%%
+Clearing the skill training target for @arg@.
+
+Цель тренировки навыка «@arg@» убрана.
+%%%%
+Setting a skill training target for @arg@ at @num1@.@num2@.
+
+Цель тренировки навыка «@arg@»: @num1@.@num2@.
+%%%%
+Adjust (i)tems, (s)pells, or (a)bilities?
+
+Сменить буквы: (i) — предметы, (s) — заклинания, (a) — способности?
+%%%%
+Adjust which item?
+
+Какому предмету сменить букву?
+%%%%
+Adjust to which letter?
+
+Какую букву назначить?
+%%%%
+Adjust which spell?
+
+Какому заклинанию сменить букву?
+%%%%
+You don't know that spell.
+
+Вы не знаете этого заклинания.
+%%%%
+You don't currently have any abilities.
+
+Сейчас у вас нет способностей.
+%%%%
+Adjust which ability?
+
+Какой способности сменить букву?
+%%%%
+No such ability.
+
+Такой способности нет.
+%%%%
+"Select to reset item to default: "
+
+"Выберите предмет, чтобы вернуть настройку по умолчанию: "
+%%%%
+Items not yet recognised: (toggle with -)
+
+Ещё не опознанные предметы: (- — переключить список)
+%%%%
+Recognised items. (- for unrecognised, select to toggle autopickup)
+
+Опознанные предметы. (- — неопознанные; выбор предмета переключает автоподбор)
+%%%%
+You recognise all items. (Select to toggle autopickup)
+
+Все предметы опознаны. (Выбор предмета переключает автоподбор)
+%%%%
+--more-- Press Space or click to continue.
+
+--далее-- Пробел или щелчок — продолжить.
+%%%%
+--more-- Press Space to continue.
+
+--далее-- Пробел — продолжить.
+%%%%
+You can later reread messages with Ctrl-P.
+
+Нажмите Ctrl-P, чтобы перечитать сообщения.
+%%%%
+--more--
+
+--далее--
+%%%%
+Something appears at your feet!
+
+Что-то появляется у ваших ног!
+%%%%
+Something appears before you!
+
+Что-то появляется перед вами!
+%%%%
+Nothing appears to happen.
+
+Кажется, ничего не произошло.
+%%%%
+You partially resist.
+
+Вы частично сопротивляетесь эффекту.
+%%%%
+You can't do that in your present form.
+
+В нынешней форме это невозможно.
+%%%%
+You can't do that yet.
+
+Пока вы не можете этого сделать.
+%%%%
+Why would you want to do that?
+
+Зачем вам это делать?
+%%%%
+There's nothing there!
+
+Там ничего нет!
+%%%%
+There's nothing close enough!
+
+В пределах досягаемости ничего нет!
+%%%%
+The spell fizzles.
+
+Заклинание рассеивается без эффекта.
+%%%%
+Huh?
+
+Что?
+%%%%
+Your mouth is already empty.
+
+Во рту у вас уже ничего нет.
+%%%%
+You are already empty-clawed.
+
+В когтях у вас уже ничего нет.
+%%%%
+You are already empty-tentacled.
+
+В щупальцах у вас уже ничего нет.
+%%%%
+You are already empty-handed.
+
+Ваши руки уже пусты.
+%%%%
+Your mouth is now empty.
+
+Теперь во рту у вас ничего нет.
+%%%%
+You are now empty-clawed.
+
+Теперь в когтях у вас ничего нет.
+%%%%
+You are now empty-tentacled.
+
+Теперь в щупальцах у вас ничего нет.
+%%%%
+You are now empty-handed.
+
+Теперь ваши руки пусты.
+%%%%
+You blink.
+
+Вы совершаете скачок.
+%%%%
+You feel a strange sense of stasis.
+
+Вы ощущаете странную неподвижность пространства.
+%%%%
+You detect nothing.
+
+Вы ничего не обнаружили.
+%%%%
+You call on the dead to rise...
+
+Вы призываете мёртвых восстать...
+%%%%
+You attempt to give life to the dead...
+
+Вы пытаетесь оживить мёртвых...
+%%%%
+You cannot move.
+
+Вы не можете двигаться.
+%%%%
+You see a ghostly outline there, and the spell fizzles.
+
+Вы замечаете там призрачный силуэт, и заклинание рассеивается без эффекта.
+%%%%
+Your health is already full.
+
+Ваше здоровье уже полностью восстановлено.
+%%%%
+Your reserves of magic are already full.
+
+Ваш запас магии уже полон.
+%%%%
+You feel momentarily drained.
+
+На миг вы чувствуете упадок сил.
+%%%%
+You suddenly feel drained of magical energy!
+
+Вы внезапно лишаетесь магической энергии!
+%%%%
+Your god isn't willing to do this for you now.
+
+Сейчас ваш бог не желает вам в этом помогать.
+%%%%
+You need no library to learn spells.
+
+Для изучения заклинаний вам не нужна библиотека.
+%%%%
+Your library has no spells.
+
+В вашей библиотеке нет заклинаний.
+%%%%
+You already know all available spells.
+
+Вы уже знаете все доступные заклинания.
+%%%%
+You cannot currently memorise any of the available spells because you cannot use those schools of magic.
+
+Вы не можете выучить доступные заклинания: их школы магии вам недоступны.
+%%%%
+You can't memorise any new spells for an unknown reason; please file a bug report.
+
+По неизвестной причине вы не можете учить новые заклинания. Пожалуйста, сообщите об ошибке.
+%%%%
+You add the spells @arg@ to your library.
+
+Вы добавляете в библиотеку заклинания: @arg@.
+%%%%
+You add the spell @arg@ to your library.
+
+Вы добавляете в библиотеку заклинание: @arg@.
+%%%%
+Matches:
+
+Найдено:
+%%%%
+1 spell hidden
+
+Скрыто 1 заклинание
+%%%%
+@num@ spells hidden
+
+Скрыто заклинаний: @num@
+%%%%
+"Search for what? (regex) "
+
+"Что искать? (регулярное выражение) "
+%%%%
+Select a spell to cast with Divine Exegesis: @num@ MP available
+
+Выберите заклинание для Божественного толкования. Доступно ОМ: @num@
+%%%%
+1 spell level left
+
+Остался 1 уровень заклинаний
+%%%%
+@num@ spell levels left
+
+Осталось уровней заклинаний: @num@
+%%%%
+Your brain is not functional enough to learn spells.
+
+В нынешнем состоянии ваш разум не способен учить заклинания.
+%%%%
+Sorry, this spell is gone!
+
+Это заклинание больше не существует!
+%%%%
+You already know that spell!
+
+Вы уже знаете это заклинание!
+%%%%
+Your head is already too full of spells!
+
+Вы уже знаете слишком много заклинаний!
+%%%%
+You're too inexperienced to learn that spell!
+
+Вам не хватает опыта, чтобы выучить это заклинание!
+%%%%
+You can't memorise that many levels of magic yet!
+
+Вам пока не хватает свободных уровней заклинаний!
+%%%%
+This spell is impossible to cast!
+
+Это заклинание невозможно сотворить!
+%%%%
+This spell is @arg1@ to cast@arg2@
+
+Сложность сотворения: @arg1@@arg2@
+%%%%
+Memorise @arg@, consuming @num1@ spell level and leaving @num2@?
+
+Выучить «@arg@»? Затраты: @num1@ уровень заклинаний, останется: @num2@.
+%%%%
+Memorise @arg@, consuming @num1@ spell levels and leaving @num2@?
+
+Выучить «@arg@»? Затраты уровней заклинаний: @num1@, останется: @num2@.
+%%%%
+You don't know of any spells!
+
+Вам не известны никакие заклинания!
+%%%%
+You are too injured to fight recklessly!
+
+Вы слишком изранены, чтобы сражаться безрассудно!
+%%%%
+You are too depleted to draw on your health recklessly!
+
+Вы слишком истощены, чтобы безрассудно тратить здоровье!
+%%%%
+You are too depleted to draw on your mana recklessly!
+
+Вы слишком истощены, чтобы безрассудно тратить магию!
+%%%%
+Empty
+
+Пусто
+%%%%
+, <w>%</w> - select action
+
+, <w>%</w> — выбрать действие
+%%%%
+, <w>%</w> - select action, <w>%</w>/<w>%</w> - cycle
+
+, <w>%</w> — выбрать действие, <w>%</w>/<w>%</w> — переключить
+%%%%
+"Bite: "
+
+"Укус: "
+%%%%
+"Slash: "
+
+"Рассечение: "
+%%%%
+"Claw: "
+
+"Когти: "
+%%%%
+"Smack: "
+
+"Удар: "
+%%%%
+"Touch: "
+
+"Прикосновение: "
+%%%%
+"Release spores at: "
+
+"Выпустить споры: "
+%%%%
+"Buffet: "
+
+"Удар крыльями: "
+%%%%
+"Confused bite: "
+
+"Укус в замешательстве: "
+%%%%
+"Confused slash: "
+
+"Рассечение в замешательстве: "
+%%%%
+"Confused claw: "
+
+"Когти в замешательстве: "
+%%%%
+"Confused smack: "
+
+"Удар в замешательстве: "
+%%%%
+"Confused touch: "
+
+"Прикосновение в замешательстве: "
+%%%%
+"Confused release spores at: "
+
+"Выпустить споры в замешательстве: "
+%%%%
+"Confused buffet: "
+
+"Удар крыльями в замешательстве: "
+%%%%
+"Attack: "
+
+"Атака: "
+%%%%
+"Confused attack: "
+
+"Атака в замешательстве: "
+%%%%
+"Punch: "
+
+"Удар кулаком: "
+%%%%
+"Confused punch: "
+
+"Удар кулаком в замешательстве: "
+%%%%
+"Fire: "
+
+"Выстрел: "
+%%%%
+"Confused fire: "
+
+"Выстрел в замешательстве: "
+%%%%
+"Shoot: "
+
+"Стрелять: "
+%%%%
+"Confused shoot: "
+
+"Стрелять в замешательстве: "
+%%%%
+"Reach: "
+
+"Атака издали: "
+%%%%
+"Confused reach: "
+
+"Атака издали в замешательстве: "
+%%%%
+"Cleave: "
+
+"Размашистый удар: "
+%%%%
+"Confused cleave: "
+
+"Размашистый удар в замешательстве: "
+%%%%
+"Hit: "
+
+"Удар: "
+%%%%
+"Confused hit: "
+
+"Удар в замешательстве: "
+%%%%
+You nearly hit yourself!
+
+Вы едва не попали по себе!
+%%%%
+You're too confused to aim your attacks!
+
+В замешательстве вы не можете целиться!
+%%%%
+You're too confused to attack without stumbling around!
+
+В замешательстве вы не можете атаковать, не спотыкаясь!
+%%%%
+You cannot attack while held in a net.
+
+Вы не можете атаковать, пока запутаны в сети.
+%%%%
+You cannot attack while caught in a web.
+
+Вы не можете атаковать, пока запутаны в паутине.
+%%%%
+Your weapon can't reach that far!
+
+Ваше оружие не достаёт так далеко!
+%%%%
+You attack @arg@.
+
+Вы атакуете: @arg@.
+%%%%
+You could not reach far enough!
+
+Вы не смогли дотянуться!
+%%%%
+You reach to attack!
+
+Вы наносите удар издали!
+%%%%
+@Arg@ is in the way.
+
+На пути: @Arg@.
+%%%%
+Something you can't see is in the way.
+
+Что-то невидимое преграждает путь.
+%%%%
+You swing at nothing.
+
+Вы наносите удар в пустоту.
+%%%%
+You attack empty space.
+
+Вы атакуете пустое место.
+%%%%
+"Activate: "
+
+"Активировать: "
+%%%%
+"Toss (no damage): "
+
+"Бросить без урона: "
+%%%%
+"Throw: "
+
+"Метнуть: "
+%%%%
+"Confused toss (no damage): "
+
+"Бросить в замешательстве (без урона): "
+%%%%
+"Confused throw: "
+
+"Метнуть в замешательстве: "
+%%%%
+1 bullet
+
+1 пуля
+%%%%
+@num@ bullets
+
+Пуль: @num@
+%%%%
+"Continue: "
+
+"Продолжить: "
+%%%%
+"Cast: "
+
+"Заклинание: "
+%%%%
+Capacitive Coupling
+
+Ёмкостная связь
+%%%%
+" (stones: @num@)"
+
+" (камней: @num@)"
+%%%%
+You can't see any hostile targets that would be affected.
+
+Вы не видите врагов, на которых это подействует.
+%%%%
+No targets found!
+
+Цели не найдены!
+%%%%
+"Abil: "
+
+"Способность: "
+%%%%
+"Drink: "
+
+"Выпить: "
+%%%%
+"Read: "
+
+"Прочитать: "
+%%%%
+"Zap: "
+
+"Палочка: "
+%%%%
+"Evoke: "
+
+"Активировать: "
+%%%%
+Quiver which item? (- for none, * to toggle full inventory)
+
+Какой предмет подготовить? (- — ничего, * — полный инвентарь)
+%%%%
+Quiver which item? (* to toggle full inventory)
+
+Какой предмет подготовить? (* — полный инвентарь)
+%%%%
+Clearing quiver.
+
+Подготовленное действие убрано.
+%%%%
+Select a spell to quiver
+
+Выберите заклинание для быстрого применения
+%%%%
+Quiver which action?
+
+Какое действие подготовить?
+%%%%
+<w>-</w>: none
+
+<w>-</w>: ничего
+%%%%
+<w>*/%</w>: inventory
+
+<w>*/%</w>: инвентарь
+%%%%
+<w>&</w>: spells
+
+<w>&</w>: заклинания
+%%%%
+<w>^</w>: abilities
+
+<w>^</w>: способности
+%%%%
+You have nothing to quiver.
+
+Нечего подготовить к быстрому применению.
+%%%%
+No regular actions available to quiver.
+
+Нет обычных действий для быстрого применения.
+%%%%
+You feel a surge of power!
+
+Вы чувствуете прилив силы!
+%%%%
+You feel an extraordinarily numb sensation.
+
+Вы ощущаете почти полное онемение.
+%%%%
+You feel an extremely numb sensation.
+
+Вы ощущаете сильнейшее онемение.
+%%%%
+You feel a numb sensation.
+
+Вы ощущаете онемение.
+%%%%
+Press '<w>!</w>' or '<w>I</w>' to toggle spell view.
+
+Нажмите '<w>!</w>' или '<w>I</w>', чтобы сменить вид списка заклинаний.
+%%%%
+Press '<w>!</w>' to toggle spell view.
+
+Нажмите '<w>!</w>', чтобы сменить вид списка заклинаний.
+%%%%
+You cannot cast spells while unable to breathe!
+
+Вы не можете творить заклинания, пока не можете дышать!
+%%%%
+You lack the mental capacity to cast spells.
+
+Ваш разум сейчас не способен творить заклинания.
+%%%%
+Something interferes with your magic!
+
+Что-то мешает вашей магии!
+%%%%
+You're too confused to cast spells.
+
+Вы слишком растеряны, чтобы творить заклинания.
+%%%%
+You cannot cast spells when silenced!
+
+В зоне безмолвия нельзя творить заклинания!
+%%%%
+Weird images run through your mind.
+
+В вашем сознании проносятся странные образы.
+%%%%
+Your head hurts.
+
+У вас болит голова.
+%%%%
+You feel a strange surge of energy.
+
+Вы чувствуете странный прилив энергии.
+%%%%
+You feel uncomfortable.
+
+Вам не по себе.
+%%%%
+Magical energy flows into your mind!
+
+Магическая энергия наполняет ваш разум!
+%%%%
+"Cast which spell? (? or * to list) "
+
+"Какое заклинание сотворить? (? или * — список) "
+%%%%
+Casting: <w>@arg1@</w> <lightgrey>(@arg2@)</lightgrey>
+
+Заклинание: <w>@arg1@</w> <lightgrey>(@arg2@)</lightgrey>
+%%%%
+Confirm with . or Enter, or press ? or * to list all spells.
+
+. или Enter — подтвердить; ? или * — список всех заклинаний.
+%%%%
+Casting this spell will cause instant excommunication! Really cast?
+
+Это заклинание немедленно приведёт к отлучению! Всё равно сотворить?
+%%%%
+Casting this spell will place you under penance. Really cast?
+
+Это заклинание навлечёт гнев вашего бога. Всё равно сотворить?
+%%%%
+Your control over your magic is sapped.
+
+Ваш контроль над магией ослабевает.
+%%%%
+Couldn't try casting monster spell because you're on top of a monster.
+
+Нельзя проверить заклинание монстра: вы стоите на монстре.
+%%%%
+Couldn't try casting monster spell because there is no empty monster slot.
+
+Нельзя проверить заклинание монстра: нет свободного места в списке монстров.
+%%%%
+Invalid player spell, attempting to cast it as monster spell.
+
+Недопустимое заклинание игрока; попытка сотворить его как заклинание монстра.
+%%%%
+Really cast @arg@?
+
+Сотворить «@arg@»?
+%%%%
+It is impossible to cast this spell (100%% risk of failure)!
+
+Это заклинание невозможно сотворить (100%% неудачи)!
+%%%%
+The spell is @arg1@ to cast (@arg2@ risk of failure)@arg3@ Continue anyway?
+
+Сложность заклинания: @arg1@ (риск неудачи: @arg2@)@arg3@ Всё равно продолжить?
+%%%%
+@num@%% to hit
+
+Шанс попадания: @num@%%
+%%%%
+chance to confuse: @num@%%
+
+шанс замешательства: @num@%%
+%%%%
+chance to slow: @num@%%
+
+шанс замедления: @num@%%
+%%%%
+chance to dazzle: @num@%%
+
+шанс ослепления: @num@%%
+%%%%
+chance to affect: @num@%%
+
+шанс срабатывания: @num@%%
+%%%%
+will blink
+
+совершит скачок
+%%%%
+chance to teleport: @num@%%
+
+шанс телепортации: @num@%%
+%%%%
+will change colour
+
+сменит цвет
+%%%%
+will change shape
+
+сменит форму
+%%%%
+will probably split
+
+вероятно, разделится
+%%%%
+will become @arg@
+
+превратится: @arg@
+%%%%
+Restarting spell
+
+Повторный выбор заклинания
+%%%%
+Aiming
+
+Прицеливание
+%%%%
+Casting
+
+Сотворение
+%%%%
+Sorry, this spell works on others only.
+
+Это заклинание действует только на других.
+%%%%
+You feel a surge of divine spite.
+
+Вы ощущаете вспышку божественной злобы.
+%%%%
+@Arg@ does not allow the disloyal to dabble in death!
+
+@Arg@ не позволяет отступникам играть со смертью!
+%%%%
+@Arg@ does not allow the disloyal to dabble in destruction!
+
+@Arg@ не позволяет отступникам играть с разрушением!
+%%%%
+safe
+
+безопасно
+%%%%
+mildly dangerous
+
+немного опасно
+%%%%
+dangerous
+
+опасно
+%%%%
+quite dangerous
+
+довольно опасно
+%%%%
+extremely dangerous
+
+крайне опасно
+%%%%
+potentially lethal
+
+возможна смерть
+%%%%
+risk of failure
+
+риск неудачи
+%%%%
+Malevolent energies surge around you.
+
+Вокруг вас бушуют зловещие энергии.
+%%%%
+You can't see anything there to charge at.
+
+Вы не видите там цели для натиска.
+%%%%
+You can't charge at yourself.
+
+Нельзя броситься на самого себя.
+%%%%
+You're already next to there.
+
+Вы уже рядом.
+%%%%
+There's @arg@ in the way.
+
+Путь преграждает: @arg@.
+%%%%
+You cannot see that place.
+
+Вы не видите это место.
+%%%%
+Please select a direction to dig.
+
+Выберите направление для рытья.
+%%%%
+Digging in that direction won't affect any walls.
+
+В этом направлении нет стен, которые можно прорыть.
+%%%%
+You can't swap your ancestor with themself.
+
+Нельзя поменять предка местами с самим собой.
+%%%%
+You cannot affect that.
+
+На это нельзя воздействовать.
+%%%%
+You can't get through.
+
+Вы не можете пройти.
+%%%%
+There's already a cloud there.
+
+Там уже есть облако.
+%%%%
+You can't place clouds in a sanctuary.
+
+В святилище нельзя создавать облака.
+%%%%
+The effect is blocked.
+
+Действию что-то препятствует.
+%%%%
+You cannot target yourself.
+
+Нельзя выбрать себя целью.
+%%%%
+There is no safe place near that location.
+
+Поблизости от этой точки нет безопасного места.
+%%%%
+There isn't a shadow there.
+
+Там нет тени.
+%%%%
+You cannot grow anything here.
+
+Здесь ничего нельзя вырастить.
+%%%%
+It affects your AC (@arg@).
+
+Изменяет вашу броню (@arg@).
+%%%%
+It affects your evasion (@arg@).
+
+Изменяет ваше уклонение (@arg@).
+%%%%
+It affects your strength (@arg@).
+
+Изменяет вашу силу (@arg@).
+%%%%
+It affects your intelligence (@arg@).
+
+Изменяет ваш интеллект (@arg@).
+%%%%
+It affects your dexterity (@arg@).
+
+Изменяет вашу ловкость (@arg@).
+%%%%
+It affects your accuracy & damage with ranged weapons and melee (@arg@).
+
+Изменяет точность и урон ваших дальних и ближних атак (@arg@).
+%%%%
+It insulates you from electricity.
+
+Защищает вас от электричества.
+%%%%
+It protects you from poison.
+
+Защищает вас от яда.
+%%%%
+It affects your health (@arg@).
+
+Изменяет ваше здоровье (@arg@).
+%%%%
+It affects your magic capacity (@arg@).
+
+Изменяет ваш запас магии (@arg@).
+%%%%
+It lets you see invisible.
+
+Позволяет видеть невидимое.
+%%%%
+It lets you turn invisible.
+
+Позволяет становиться невидимым.
+%%%%
+It grants you flight.
+
+Позволяет вам летать.
+%%%%
+It lets you blink.
+
+Позволяет совершать скачки.
+%%%%
+It may make a loud noise when swung.
+
+При взмахе может издать громкий шум.
+%%%%
+It prevents spellcasting.
+
+Запрещает творить заклинания.
+%%%%
+It prevents most forms of teleportation.
+
+Препятствует большинству видов телепортации.
+%%%%
+It berserks you when you make melee attacks (@num@% chance).
+
+При ближних атаках может ввести вас в ярость (вероятность: @num@%).
+%%%%
+It protects you from confusion, rage, mesmerisation and fear.
+
+Защищает вас от замешательства, ярости, гипноза и страха.
+%%%%
+It causes magical contamination when unequipped.
+
+При снятии вызывает магическое загрязнение.
+%%%%
+It protects you from missiles.
+
+Защищает вас от снарядов.
+%%%%
+It increases your rate of health regeneration.
+
+Ускоряет восстановление вашего здоровья.
+%%%%
+It protects you from acid and corrosion.
+
+Защищает вас от кислоты и коррозии.
+%%%%
+It protects you from mutation.
+
+Защищает вас от мутаций.
+%%%%
+It may corrode you when you take damage.
+
+При получении урона может вызвать у вас коррозию.
+%%%%
+It drains your maximum health when unequipped.
+
+При снятии истощает ваше максимальное здоровье.
+%%%%
+It may slow you when you take damage.
+
+При получении урона может замедлить вас.
+%%%%
+It will be destroyed if unequipped.
+
+Уничтожится, если вы снимете этот предмет.
+%%%%
+It affects your SH (@arg@).
+
+Изменяет вашу защиту щитом (@arg@).
+%%%%
+It increases damage dealt and taken.
+
+Повышает как наносимый, так и получаемый вами урон.
+%%%%
+It causes one to take an extra step when moving towards enemies, briefly stunning them if this results in an attack.
+
+При движении к врагу позволяет сделать дополнительный шаг. Если это приводит к атаке, враг ненадолго оглушается.
+%%%%
+It increases the power of your magical spells.
+
+Повышает силу ваших заклинаний.
+%%%%
+It increases the power of your Conjurations spells.
+
+Усиливает ваши заклинания школы Разрушения.
+%%%%
+It increases the power of your Hexes spells.
+
+Усиливает ваши заклинания школы Проклятий.
+%%%%
+It increases the power of your Summonings spells.
+
+Усиливает ваши заклинания Призывания.
+%%%%
+It increases the power of your Necromancy spells.
+
+Усиливает ваши заклинания Некромантии.
+%%%%
+It increases the power of your Translocations spells.
+
+Усиливает ваши заклинания школы Перемещений.
+%%%%
+It increases the power of your Fire spells.
+
+Усиливает ваши заклинания Магии огня.
+%%%%
+It increases the power of your Ice spells.
+
+Усиливает ваши заклинания Магии льда.
+%%%%
+It increases the power of your Air spells.
+
+Усиливает ваши заклинания Магии воздуха.
+%%%%
+It increases the power of your Earth spells.
+
+Усиливает ваши заклинания Магии земли.
+%%%%
+It increases the power of your Alchemy spells.
+
+Усиливает ваши заклинания Алхимии.
+%%%%
+It increases the power of your Forgecraft spells.
+
+Усиливает ваши заклинания Кузнечной магии.
+%%%%
+It increases your evasion after moving or waiting.
+
+Повышает ваше уклонение после движения или ожидания.
+%%%%
+It increases your rate of magic regeneration.
+
+Ускоряет восстановление вашей магии.
+%%%%
+It increases the success rate of your magical spells.
+
+Повышает вероятность успешного сотворения ваших заклинаний.
+%%%%
+It may silence you when you take damage.
+
+При получении урона может окружить вас безмолвием.
+%%%%
+It inflicts you with a random bane when you equip it.
+
+При надевании накладывает на вас случайное пагубное свойство.
+%%%%
+It increases your willpower.
+
+Повышает вашу Волю.
+%%%%
+It greatly increases your willpower.
+
+Значительно повышает вашу Волю.
+%%%%
+It decreases your willpower.
+
+Снижает вашу Волю.
+%%%%
+It greatly decreases your willpower.
+
+Значительно снижает вашу Волю.
+%%%%
+It makes you more stealthy.
+
+Повышает вашу скрытность.
+%%%%
+It makes you much more stealthy.
+
+Значительно повышает вашу скрытность.
+%%%%
+It makes you less stealthy.
+
+Снижает вашу скрытность.
+%%%%
+It makes you much less stealthy.
+
+Значительно снижает вашу скрытность.
+%%%%
+It makes you extremely vulnerable to @arg@.
+
+Делает вас крайне уязвимым к воздействию «@arg@».
+%%%%
+It makes you very vulnerable to @arg@.
+
+Делает вас очень уязвимым к воздействию «@arg@».
+%%%%
+It makes you vulnerable to @arg@.
+
+Делает вас уязвимым к воздействию «@arg@».
+%%%%
+It protects you from @arg@.
+
+Защищает вас от воздействия «@arg@».
+%%%%
+It greatly protects you from @arg@.
+
+Даёт вам сильную защиту от воздействия «@arg@».
+%%%%
+It renders you almost immune to @arg@.
+
+Даёт вам почти полную невосприимчивость к воздействию «@arg@».
+%%%%
+It causes incoming damage to be divided between your reserves of health and magic.
+
+Распределяет получаемый урон между запасами здоровья и магии.
+%%%%
+It allows you to gain divine favour quickly.
+
+Позволяет быстрее заслуживать благоволение бога.
+%%%%
+It reflects blocked missile attacks.
+
+Отражает заблокированные дальние атаки.
+%%%%
+It improves your skill with shapeshifting (+5).
+
+Повышает ваш навык Оборотничества (+5).
+%%%%
+It restores some MP whenever you drink a potion and also enhances your alchemy spells.
+
+Каждое выпитое зелье восстанавливает немного ОМ; также усиливает заклинания Алхимии.
+%%%%
+It reduces the duration of hostile enchantments and decays magical contamination more quickly.
+
+Сокращает действие враждебных чар и ускоряет рассеивание магического загрязнения.
+%%%%
+Your spells cost less MP as you Rev up. Whenever you cast a spell, you make a melee attack against a random enemy in range.
+
+По мере разгона ваши заклинания расходуют меньше ОМ. Каждое сотворение заклинания сопровождается ближней атакой по случайному врагу в пределах досягаемости.
+%%%%
+Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.
+
+Магические устройства перезаряжаются на 30% быстрее. Палочки с вероятностью 30% не расходуют заряд.
+%%%%
+Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.
+
+Разгон повышает вашу броню до +5. При полном разгоне ваши атаки могут обезоруживать врагов.
+%%%%
+It sometimes fires a blinding ray at enemies whose attacks you dodge.
+
+Иногда выпускает ослепляющий луч во врагов, от чьих атак вы уклонились.
+%%%%
+[<w>!</w>]: <w>Description</w>|Quote
+
+[<w>!</w>]: <w>Описание</w>|Цитата
+%%%%
+[<w>!</w>]: Description|<w>Quote</w>
+
+[<w>!</w>]: Описание|<w>Цитата</w>

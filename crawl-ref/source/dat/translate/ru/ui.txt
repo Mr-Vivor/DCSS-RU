@@ -1,420 +1,221 @@
-%%%%
-Loading databases...
-Загрузка баз данных...
-%%%%
-Loading spells and features...
-Загрузка заклинаний и объектов...
-%%%%
-Loading maps...
-Загрузка карт...
-%%%%
-Loading complete, press any key to start.
-Загрузка завершена. Нажмите любую клавишу.
-%%%%
-Hello, welcome to @arg1@ @arg2@!
-Добро пожаловать в @arg1@ @arg2@!
-%%%%
-Dungeon Crawl
-Dungeon Crawl
-%%%%
-Dungeon Crawl: The main game: full of monsters, items, gods and danger!
-Основная игра: монстры, предметы, боги и опасности!
-%%%%
-Choose Game Seed
-Выбрать зерно мира
-%%%%
-Play with a chosen custom dungeon seed.
-Играть с заданным зерном генерации подземелья.
-%%%%
-Tutorial for Dungeon Crawl
-Обучение Dungeon Crawl
-%%%%
-Tutorial that covers the basics of Dungeon Crawl survival.
-Обучение основам выживания в Dungeon Crawl.
-%%%%
-Hints Mode for Dungeon Crawl
-Игра с подсказками
-%%%%
-A mostly normal game that provides more advanced hints than the tutorial.
-Обычная игра с дополнительными подсказками.
-%%%%
-Dungeon Sprint
-Спринт
-%%%%
-Hard, fixed single level game mode.
-Сложный режим на одном заранее созданном уровне.
-%%%%
-Instructions
-Инструкции
-%%%%
-Help menu.
-Меню справки.
-%%%%
-The Arena
-Арена
-%%%%
-Pit computer controlled teams versus each other!
-Сражения команд под управлением компьютера!
-%%%%
-High Scores
-Рекорды
-%%%%
-View the high score list.
-Посмотреть таблицу рекордов.
-%%%%
-New Game
-Новая игра
-%%%%
-Enter your name:
-Введите имя:
-%%%%
-Choices:
-Варианты:
-%%%%
-Saved games:
-Сохранённые игры:
+# Additional Russian UI templates; common labels are generated from static.json.
 %%%%
 Welcome.
+
 Добро пожаловать.
 %%%%
-"Welcome. "
-"Добро пожаловать. "
-%%%%
-What is your name today?
-Как вас зовут?
-%%%%
 Species
+
 Вид
 %%%%
 Background
+
 Предыстория
 %%%%
 Weapon
+
 Оружие
 %%%%
 Viable
+
 Подходящие
 %%%%
-Health:
-Здор.:
-%%%%
-HP:
-ОЗ:
-%%%%
-Magic:
-Магия:
-%%%%
-MP:
-ОМ:
-%%%%
-AC:
-Бр:
-%%%%
-EV:
-Укл:
-%%%%
-SH:
-Щит:
-%%%%
-Str:
-Сил:
-%%%%
-Int:
-Инт:
-%%%%
-Dex:
-Лов:
-%%%%
-XL:
-Ур:
-%%%%
-Next:
-Дал.:
-%%%%
-Noise:
-Шум:
-%%%%
-Time:
-Время:
-%%%%
-Place:
-Место:
-%%%%
 God:
+
 Бог:
 %%%%
-Silenced
-Тишина
-%%%%
-Equip:
-Снар.:
-%%%%
-Health: @arg@
-Здор.: @arg@
-%%%%
-Magic:  @arg@
-Магия:  @arg@
-%%%%
-Inventory
-Инвентарь
-%%%%
 Weapons
+
 Оружие
 %%%%
-Missiles
-Боеприпасы
-%%%%
-Potions
-Зелья
-%%%%
-Scrolls
-Свитки
-%%%%
-Jewellery
-Украшения
-%%%%
-Wands
-Палочки
-%%%%
-Talismans
-Талисманы
-%%%%
-Books
-Книги
-%%%%
 Gold
+
 Золото
 %%%%
-Skills
-Навыки
-%%%%
-Spells
-Заклинания
-%%%%
-Abilities
-Способности
-%%%%
 Mutations
+
 Мутации
 %%%%
-Religion
-Религия
-%%%%
 Dungeon Overview
+
 Обзор подземелья
 %%%%
 Level Map
+
 Карта уровня
 %%%%
 Messages
+
 Сообщения
 %%%%
 Help
+
 Справка
 %%%%
 Cancel
+
 Отмена
 %%%%
 Continue
+
 Продолжить
 %%%%
 Yes
+
 Да
 %%%%
 No
+
 Нет
 %%%%
 you
+
 вы
 %%%%
 yourself
+
 себя
 %%%%
 and
+
 и
 %%%%
 or
+
 или
 %%%%
 Here:
+
 Здесь:
 %%%%
 asleep
+
 спит
 %%%%
 friendly
+
 союзник
 %%%%
 hostile
+
 враг
 %%%%
 neutral
+
 нейтральный
 %%%%
 unaware
+
 не замечает вас
 %%%%
 almost dead
+
 при смерти
 %%%%
 severely wounded
+
 очень тяжёлые раны
 %%%%
 heavily wounded
+
 тяжёлые раны
 %%%%
 moderately wounded
+
 заметные раны
 %%%%
 lightly wounded
+
 лёгкие раны
 %%%%
 not wounded
+
 без ран
 %%%%
 poisoned
+
 отравление
 %%%%
 confused
+
 замешательство
 %%%%
 slowed
+
 замедление
 %%%%
 hasted
+
 ускорение
 %%%%
 invisible
+
 невидимость
 %%%%
 berserk
+
 ярость
 %%%%
 the @num@ @arg@
+
 @num@ @arg@
 %%%%
 a @num@ @arg@
+
 @num@ @arg@
 %%%%
 your @num@ @arg@
+
 @num@ @arg@
 %%%%
-Please select your species.
-Выберите вид персонажа.
-%%%%
-Please select your background.
-Выберите предысторию.
-%%%%
-Simple
-Простые
-%%%%
-Intermediate
-Средние
-%%%%
-Advanced
-Сложные
-%%%%
-Warrior
-Боец
-%%%%
-Mage
-Маг
-%%%%
-Warrior-mage
-Воин-маг
-%%%%
-Zealot
-Фанатик
-%%%%
-Adventurer
-Искатель приключений
-%%%%
-+ - Recommended species
-+ - Подходящий вид
-%%%%
-+ - Recommended background
-+ - Подходящая предыстория
-%%%%
-% - List aptitudes
-% - Склонности к навыкам
-%%%%
-? - Help
-? - Справка
-%%%%
-Space - Change species
-Пробел - Изменить вид
-%%%%
-Space - Change background
-Пробел - Изменить предысторию
-%%%%
-Space - Pick background first
-Пробел - Сначала предыстория
-%%%%
-Space - Pick species first
-Пробел - Сначала вид
-%%%%
-Do you want to play this combination? [Y/n/q]
-Играть этим персонажем? [Y/n/q]
-%%%%
-You are @a_species@.
-Ваш вид: @a_species@.
-%%%%
-You are @a_background@.
-Ваша предыстория: @a_background@.
-%%%%
 Hello, welcome to Dungeon Crawl Stone Soup @any@!
+
 Добро пожаловать в Dungeon Crawl Stone Soup @any@!
 %%%%
 Dungeon Descent
+
 Спуск в подземелье
 %%%%
 Mode with a branching, one-way path through the Dungeon.
+
 Режим с ветвящимся путём через подземелье, в котором можно двигаться только вперёд.
 %%%%
 Nothing wielded
+
 Руки свободны
 %%%%
-Nothing quivered
-Ничего не выбрано
-%%%%
 Welcome, @player_name@.
+
 Добро пожаловать, @player_name@.
 %%%%
 Yak
+
 Як
 %%%%
 a staircase leading out of the dungeon
+
 лестница из подземелья
 %%%%
 a staircase leading down
+
 лестница вниз
 %%%%
 a staircase leading up
+
 лестница вверх
 %%%%
 an exit from the tutorial
+
 выход из обучения
 %%%%
-Tutorial
-Обучение
-%%%%
 , level @num@
+
 , ур. @num@
 %%%%
 quick-load last game: @any@
+
 загрузить последнюю игру: @any@
 %%%%
 quick-start last combo: @any@
+
 повторить последнего персонажа: @any@
-%%%%
-Random
-Случайный
-%%%%
-Recommended
-Рекомендуемый
-%%%%
-Random character
-Случайный персонаж
-%%%%
-Recommended character
-Рекомендуемый персонаж

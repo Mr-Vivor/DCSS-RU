@@ -2,11 +2,16 @@
 
 #include "AppHdr.h"
 #include "database.h"
+#include "artefact.h"
+#include "describe.h"
 #include "initfile.h"
 #include "localise.h"
 #include "options.h"
 #include "player-save-info.h"
 #include "ui.h"
+#include "item-prop.h"
+#include "player.h"
+#include "stringutil.h"
 
 namespace
 {
@@ -65,6 +70,20 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "+0 buckler of the Valley {Воля+++}");
     CHECK(localise("Will/2") == "Воля/2");
     CHECK(localise("Covered") == "Латник");
+    CHECK(localise("AC") == "Бр");
+    CHECK(localise("Wiz") == "Чародейство");
+    CHECK(localise(" (worn)") == " (надето)");
+    CHECK(localise(" (quivered)") == " (подготовлено)");
+    CHECK(localise("Next:") == "Опыт:");
+    CHECK(localise("Wear") == "Надеть доспех");
+    CHECK(localise("Take off") == "Снять доспех");
+    CHECK(localise("Missiles") == "Метательные снаряды");
+    CHECK(localise("Train") == "Трен");
+    CHECK(localise("Do you want to play this combination? [Y/n/q]")
+          == "Играть этой комбинацией? [Y/n/q]");
+    CHECK(localise("Cast: ") == "Заклинание: ");
+    CHECK(localise("It affects your AC (+4).") == "Изменяет вашу броню (+4).");
+    CHECK(localise("It greatly increases your willpower.") == "Значительно повышает вашу Волю.");
     CHECK(localise("the Covered") == "Латник");
     CHECK(localise("the ice dragon") == "ледяной дракон");
     CHECK(localise_in_context("acc", "the ice dragon") == "ледяного дракона");
@@ -121,4 +140,50 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     saved.saved_game_type = GAME_TYPE_TUTORIAL;
     CHECK(saved.short_desc() == "[Обучение] Vivor, ур. 2 · Человек · Воин");
     CHECK(saved.really_short_desc() == "Vivor · Человек · Воин");
+}
+
+TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-file]")
+{
+    russian_localisation language;
+    CHECK(getLongDescription("ring of willpower").find("Волю") != string::npos);
+    CHECK(getLongDescription("potion of invisibility").find("[[player invis desc]]") == string::npos);
+    CHECK(getLongDescription("potion of invisibility").find("Стоя в воде") != string::npos);
+    CHECK(getEgoString("harm (Harm) armour ego").find("получаемый") != string::npos);
+    CHECK(getEgoString("sniping (Snipe) armour ego").find("50%") != string::npos);
+
+    const species_type old_species = you.species;
+    you.species = SP_DJINNI;
+    const string djinni = getLongDescription("Spellcasting");
+    CHECK(djinni == "Навык Колдовства повышает вероятность успешного сотворения и силу всех заклинаний.");
+    CHECK(getLongDescription("Invocations").find("запас магии") == string::npos);
+    you.species = SP_HUMAN;
+    const string human = getLongDescription("Spellcasting");
+    CHECK(human.find("уровней для изучения") != string::npos);
+    CHECK(getLongDescription("Invocations").find("запас магии") != string::npos);
+    you.species = old_species;
+
+    // Exercise the real artifact formatter, including long wrapped text and
+    // labels. The generated description must already be Russian at this stage.
+    item_def item;
+    item.base_type = OBJ_JEWELLERY;
+    item.sub_type = RING_PROTECTION;
+    item.quantity = 1;
+    item.flags |= ISFLAG_RANDART | ISFLAG_IDENT_MASK;
+    CrawlVector &props = item.props[ARTEFACT_PROPS_KEY].new_vector(SV_SHORT);
+    props.resize(ART_PROPERTIES);
+    props.set_max_size(ART_PROPERTIES);
+    for (int p = 0; p < ART_PROPERTIES; ++p)
+        artefact_set_property(item, static_cast<artefact_prop_type>(p), 0);
+    artefact_set_property(item, ARTP_AC, 4);
+    artefact_set_property(item, ARTP_WILLPOWER, 3);
+    artefact_set_property(item, ARTP_SLAYING, 4);
+    vector<string> lines;
+    desc_randart_props(item, lines);
+    REQUIRE(lines.size() >= 3);
+    const string properties = join_strings(lines.begin(), lines.end(), "\n");
+    CHECK(properties.find("Бр+4:") != string::npos);
+    CHECK(properties.find("Изменяет вашу броню (+4).") != string::npos);
+    CHECK(properties.find("Значительно повышает вашу Волю.") != string::npos);
+    CHECK(properties.find("It affects") == string::npos);
+    CHECK(properties.find("willpower") == string::npos);
 }

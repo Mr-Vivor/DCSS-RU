@@ -1,5 +1,7 @@
 """Read Crawl text databases without changing their machine keys."""
 from pathlib import Path
+import hashlib
+import json
 import re
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -58,11 +60,44 @@ def write_db(entries, comment):
 # These are engine syntax, never translatable prose. Lua may contain strings
 # used as identifiers; preserve the whole expression rather than guessing.
 TOKEN = re.compile(r"\{\{.*?\}\}|\$\w+\[[^\]]*\]|@[^@\n]+@|"
-                   r"</?[A-Za-z][^<>\n]*>|\{[a-z_]+\}|"
-                   r"\$\d+|%(?:\d+\$)?[-+#0 ]*\d*(?:\.\d+)?[sdifuc]|"
+                   r"</?[A-Za-z][^<>\n]*>|\{[a-z_-]+\}|"
+                   r"\$\d+|(?<![\w@])%(?:\d+\$)?[-+#0 ]*\d*(?:\.\d+)?[sdifuc]|"
                    r"https?://[^\s<>]+|\b[\w/-]+\.(?:txt|lua|rc)\b", re.S)
 
 
 def tokens(text):
     return sorted(token.rstrip(",.;!?)") if token.startswith(("http://", "https://")) else token
                   for token in TOKEN.findall(text))
+
+
+def translated_lua(source, replacements):
+    """Translate explicitly reviewed string literals without changing Lua code.
+
+    Selectors such as you.race() == "Djinni" remain byte-for-byte identical.
+    The full rewritten Lua block is still a protected token during validation.
+    """
+    def translate_block(match):
+        block = match.group()
+        for english, russian in replacements.items():
+            block = block.replace(json.dumps(english, ensure_ascii=False),
+                                  json.dumps(russian, ensure_ascii=False))
+        return block
+    return re.sub(r"\{\{.*?\}\}", translate_block, source, flags=re.S)
+
+
+def reviewed_descriptions():
+    """Reject stale mechanics and damaged markup before writing game/wiki text."""
+    data = json.loads((ROOT / "localization/ru/descriptions.json").read_text(encoding="utf8"))
+    for filename, group in data.items():
+        source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
+        for key, entry in group.items():
+            original = source[key]
+            digest = hashlib.sha256(original.encode()).hexdigest()
+            if digest != entry["source_sha256"]:
+                raise ValueError(f"Recheck changed upstream mechanics: {filename}/{key}")
+            expected = translated_lua(original, entry.get("lua_strings", {}))
+            if tokens(expected) != tokens(entry["text"]):
+                raise ValueError(f"Changed description syntax: {filename}/{key}")
+            if re.findall(r"\[\[.*?\]\]", original) != re.findall(r"\[\[.*?\]\]", entry["text"]):
+                raise ValueError(f"Changed description references: {filename}/{key}")
+    return data

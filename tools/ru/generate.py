@@ -6,7 +6,7 @@ from pathlib import Path
 from collections import Counter
 import argparse
 import json
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions
 
 ROOT = Path(__file__).resolve().parents[2]
 CASES = ("nom", "gen", "dat", "acc", "ins", "prep")
@@ -80,6 +80,9 @@ def serialize_db(entries):
 
 
 def outputs(entities):
+    def quoted(value):
+        return '"' + value + '"' if value != value.strip() else value
+
     result = {ROOT / "crawl-ref/source/dat/translate/ru/entities.txt": serialize_db(game_entries(entities))}
     terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
     term_entries = {}
@@ -90,7 +93,8 @@ def outputs(entities):
             term_entries["a " + english] = russian if category == "gods" else russian.lower()
     result[ROOT / "crawl-ref/source/dat/translate/ru/terms.txt"] = serialize_db(term_entries)
     system_messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
-    result[ROOT / "crawl-ref/source/dat/translate/ru/system.txt"] = write_db(system_messages,
+    result[ROOT / "crawl-ref/source/dat/translate/ru/system.txt"] = write_db(
+        {quoted(k): quoted(v) for k, v in system_messages.items()},
         "Generated from localization/ru/system-messages.json.")
     static = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
     static_entries = {}
@@ -106,8 +110,6 @@ def outputs(entities):
         if path.name not in ("entities.txt", "terms.txt", "static.txt", "system.txt"):
             reserved.update(read_db(path, True))
     static_entries = {key: value for key, value in static_entries.items() if key not in reserved}
-    def quoted(value):
-        return '"' + value + '"' if value != value.strip() else value
     result[ROOT / "crawl-ref/source/dat/translate/ru/static.txt"] = write_db(
         {quoted(k): quoted(v) for k, v in static_entries.items()},
         "Generated from localization/ru/static.json; draft prose, protected engine tokens.")
@@ -134,6 +136,30 @@ def outputs(entities):
             page.extend(("Текст и название взяты из тех же словарей, что использует игра. Черновик для вычитки.", ""))
             result[ROOT / "wiki/ru/characters" / category / (slug + ".md")] = "\n".join(page)
     result[ROOT / "wiki/ru/terms.json"] = json.dumps(terms, ensure_ascii=False, indent=2) + "\n"
+    reviewed = reviewed_descriptions()
+    item_names = {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "item"}
+    item_names.update(terms.get("items", {}))
+    reference = {}
+    for filename, group in reviewed.items():
+        source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
+        target_path = ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"
+        previous = read_db(target_path) if target_path.exists() else {}
+        merged = {k: v for k, v in previous.items() if k in source}
+        merged.update({k: entry["text"] for k, entry in group.items()})
+        result[target_path] = write_db(merged,
+            "Reviewed entries generated from localization/ru/descriptions.json; remaining entries await review.")
+        reference[filename] = {}
+        for key, entry in group.items():
+            title = (item_names if filename == "items" else terms["skill"] if filename == "skills" else {}).get(key)
+            reference[filename][key] = dict(title=title, text=entry["text"], source_sha256=entry["source_sha256"])
+            if not title:
+                continue  # Shared description fragments and ego lookup keys are not item names.
+            slug = key.lower().replace(" ", "-")
+            body = entry.get("wiki_text", entry["text"])
+            result[ROOT / "wiki/ru/reference" / filename / (slug + ".md")] = (
+                f"# {title[:1].upper() + title[1:]}\n\n**English:** {key}\n\n{body}\n\n"
+                "Название и описание берутся из общих словарей игры и вики.\n")
+    result[ROOT / "wiki/ru/reference/descriptions.json"] = json.dumps(reference, ensure_ascii=False, indent=2) + "\n"
     wiki = {entity["id"]: dict(title=entity["forms"]["singular"]["nom"].capitalize(),
                                 en=entity["en"], en_plural=entity["en_plural"],
                                 kind=entity["kind"], forms=entity["forms"], review=entity["review"])
@@ -175,6 +201,7 @@ def outputs(entities):
                  static_catalogs={name: len(static[name]) for name in STATIC_FILES},
                  static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
                  additional_system_messages=len(system_messages),
+                 reviewed_descriptions={name: len(group) for name, group in reviewed.items()},
                  descriptions={name: len(descriptions.get(name) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{name}.txt")) for name in DESCRIPTION_FILES},
                  help_databases={name: len(read_db(ROOT / f"crawl-ref/source/dat/database/ru/{name}.txt")) for name in DATABASE_FILES})
     result[ROOT / "localization/ru/coverage.json"] = json.dumps(stats, ensure_ascii=False, indent=2) + "\n"

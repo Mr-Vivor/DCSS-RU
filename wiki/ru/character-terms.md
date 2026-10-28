@@ -148,3 +148,41 @@
 | Blink | Скачок |
 | Mephitic Cloud | Зловонное облако |
 | Call Imp | Призыв беса |
+
+## items
+
+| English | Русское название |
+|---|---|
+| amulet of chemistry | амулет химии |
+| amulet of dissipation | амулет рассеивания |
+| amulet of faith | амулет веры |
+| amulet of guardian spirit | амулет духа-хранителя |
+| amulet of magic regeneration | амулет регенерации магии |
+| amulet of nothing | амулет без свойств |
+| amulet of the acrobat | амулет акробата |
+| amulet of wildshape | амулет оборотничества |
+| potion of blood | зелье крови |
+| potion of brilliance | зелье гениальности |
+| potion of experience | зелье опыта |
+| potion of mist | зелье тумана |
+| potion of moonshine | зелье самогона |
+| ring of flight | кольцо полёта |
+| ring of resist corrosion | кольцо сопротивления коррозии |
+| ring of magical power | кольцо магической силы |
+| ring of poison resistance | кольцо сопротивления яду |
+| ring of positive energy | кольцо положительной энергии |
+| ring of protection from cold | кольцо защиты от холода |
+| ring of protection from fire | кольцо защиты от огня |
+| ring of willpower | кольцо воли |
+| ring of see invisible | кольцо обнаружения невидимого |
+| ring of slaying | кольцо боевого мастерства |
+| ring of wizardry | кольцо чародейства |
+| scroll of amnesia | свиток амнезии |
+| scroll of butterflies | свиток бабочек |
+| scroll of noise | свиток шума |
+| scroll of summoning | свиток призыва |
+| wand of charming | палочка очарования |
+| wand of mindburst | палочка взрыва разума |
+| wand of quicksilver | палочка ртути |
+| wand of roots | палочка корней |
+| wand of warping | палочка искривления |

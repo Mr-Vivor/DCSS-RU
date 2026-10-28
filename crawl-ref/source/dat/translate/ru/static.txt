@@ -10,7 +10,7 @@
 %%%%
 N/A
 
-N/A
+—
 %%%%
 <w>@arg@</w>
 
@@ -19,14 +19,114 @@ N/A
 [<w>!</w>/<w>^</w>]: @arg@
 
 [<w>!</w>/<w>^</w>]: @arg@
+%%%%
+Loading databases...
+
+Загрузка баз данных...
+%%%%
+Loading spells and features...
+
+Загрузка заклинаний и объектов местности...
+%%%%
+Loading maps...
+
+Загрузка карт...
+%%%%
+Loading complete, press any key to start.
+
+Загрузка завершена, нажмите любую клавишу, чтобы начать.
+%%%%
+Hello, welcome to @arg1@ @arg2@!
+
+Здравствуйте, добро пожаловать в @arg1@ @arg2@!
 %%%%
 Dismissing @arg@
 
-Увольнение @arg@
+Закрытие: @arg@
+%%%%
+Dungeon Crawl
+
+Dungeon Crawl
+%%%%
+Dungeon Crawl: The main game: full of monsters, items, gods and danger!
+
+Dungeon Crawl: основная игра, полная монстров, предметов, богов и опасностей!
+%%%%
+Choose Game Seed
+
+Выбрать зерно генерации
+%%%%
+Play with a chosen custom dungeon seed.
+
+Игра с заданным зерном генерации подземелья.
+%%%%
+Tutorial for Dungeon Crawl
+
+Обучение Dungeon Crawl
+%%%%
+Tutorial that covers the basics of Dungeon Crawl survival.
+
+Обучение основам выживания в Dungeon Crawl.
+%%%%
+Hints Mode for Dungeon Crawl
+
+Режим подсказок для Dungeon Crawl
+%%%%
+A mostly normal game that provides more advanced hints than the tutorial.
+
+Обычная игра с подсказками более подробными, чем в обучении.
+%%%%
+Dungeon Sprint
+
+Спринт
+%%%%
+Hard, fixed single level game mode.
+
+Сложный режим с заранее заданной картой одного этажа.
+%%%%
+Instructions
+
+Инструкции
+%%%%
+Help menu.
+
+Меню справки.
+%%%%
+The Arena
+
+Арена
+%%%%
+Pit computer controlled teams versus each other!
+
+Устройте бой между командами под управлением компьютера!
+%%%%
+High Scores
+
+Рекорды
+%%%%
+View the high score list.
+
+Посмотреть список рекордов.
+%%%%
+New Game
+
+Новая игра
 %%%%
 " (WIZ)"
 
-" (ВИЗ)"
+" (ОТЛАДКА)"
+%%%%
+Enter your name:
+
+Введите имя:
+%%%%
+Choices:
+
+Варианты:
+%%%%
+Saved games:
+
+Сохраненные игры:
 %%%%
 "quick-load last game: "
 
@@ -34,11 +134,11 @@ Dismissing @arg@
 %%%%
 "quick-start last combo: "
 
-"Быстрый старт последней комбинации: "
+"быстро начать прежней комбинацией: "
 %%%%
 view rc file information and log
 
-просмотр информации и журнала файла rc.
+сведения о файле настроек rc и журнал
 %%%%
 Errors during initialization!
 
@@ -55,7 +155,6 @@ Crawl обнаружил ошибки во время инициализации
 Initialization log:
 
 Журнал инициализации:
-Вкладка
 %%%%
 tab
 
@@ -71,7 +170,11 @@ Ctrl-P
 %%%%
 Seeded
 
-Сеяный
+С заданным зерном
+%%%%
+Tutorial
+
+Обучение
 %%%%
 Arena
 
@@ -81,33 +184,101 @@ Unknown
 
 Неизвестно
 %%%%
+"Welcome. "
+
+"Добро пожаловать. "
+%%%%
 "Welcome, @arg@. "
 
 "Добро пожаловать, @arg@. "
+%%%%
+You are @a_species@.
+
+Вы @a_species@.
+%%%%
+You are @a_background@.
+
+Вы @a_background@.
 %%%%
 You are @a_combo@.
 
 Вы @a_combo@.
 %%%%
+Please select your species.
+
+Пожалуйста, выберите свой вид.
+%%%%
+Please select your background.
+
+Выберите предысторию.
+%%%%
+Simple
+
+Простые
+%%%%
+Intermediate
+
+Средние
+%%%%
+Advanced
+
+Сложные
+%%%%
+Warrior
+
+Воин
+%%%%
+Mage
+
+Маг
+%%%%
+Warrior-mage
+
+Воин-маг
+%%%%
+Zealot
+
+Фанатик
+%%%%
+Adventurer
+
+Искатель приключений
+%%%%
++ - Recommended species
+
++ - Рекомендуемые виды
+%%%%
++ - Recommended background
+
++ — Рекомендуемая предыстория
+%%%%
 # - Recommended character
 
-# — Рекомендуемый символ
+# — Рекомендуемый персонаж
+%%%%
+% - List aptitudes
+
+% — Способности к обучению
+%%%%
+? - Help
+
+? - Помощь
 %%%%
 Picks a random recommended species based on your current background choice.
 
-Выбирает случайный рекомендованный вид на основе вашего текущего выбора фона.
+Случайный рекомендуемый вид для выбранной предыстории.
 %%%%
 Picks a random recommended background based on your current species choice.
 
-Выбирает случайный рекомендуемый фон на основе вашего текущего выбора вида.
+Случайная рекомендуемая предыстория для выбранного вида.
 %%%%
 Shuffles through random recommended character combinations until you accept one.
 
-Перебирает случайные рекомендуемые комбинации символов, пока вы не примете одну.
+Предлагает случайные рекомендуемые комбинации персонажа, пока вы не выберете подходящую.
 %%%%
 Lists the numerical skill train aptitudes for all races.
 
-Перечисляет числовые способности тренировки навыков для всех рас.
+Показывает численные способности всех видов к обучению навыкам.
 %%%%
 Opens the help screen.
 
@@ -119,11 +290,27 @@ Opens the help screen.
 %%%%
 "    * - Random background"
 
-"    * - Случайный фон"
+"    * — Случайная предыстория"
 %%%%
 "    ! - Random character"
 
 "    ! - Случайный персонаж"
+%%%%
+Space - Change species
+
+Пробел — Сменить вид
+%%%%
+Space - Change background
+
+Пробел — Сменить предысторию
+%%%%
+Space - Pick background first
+
+Пробел — Сначала выбрать предысторию
+%%%%
+Space - Pick species first
+
+Пробел — Сначала выбрать вид
 %%%%
 "  Tab - "
 
@@ -135,11 +322,11 @@ Picks a random species.
 %%%%
 Picks a random background.
 
-Выбирает случайный фон.
+Выбирает случайную предысторию.
 %%%%
 Shuffles through random character combinations until you accept one.
 
-Перебирает случайные комбинации символов, пока вы не примете одну.
+Предлагает случайные комбинации персонажа, пока вы не выберете подходящую.
 %%%%
 Lets you change your species choice.
 
@@ -147,11 +334,11 @@ Lets you change your species choice.
 %%%%
 Lets you change your background choice.
 
-Позволяет изменить выбор фона.
+Позволяет изменить выбранную предысторию.
 %%%%
 Lets you pick your background first.
 
-Позволяет сначала выбрать фон.
+Позволяет сначала выбрать предысторию.
 %%%%
 Lets you pick your species first.
 
@@ -163,7 +350,19 @@ Play a new game with your previous choice.
 %%%%
 Incompatible species and background (@arg@) selected.
 
-Выбраны несовместимые виды и происхождение (@arg@).
+Выбраны несовместимые вид и предыстория (@arg@).
+%%%%
+Do you want to play this combination? [Y/n/q]
+
+Играть этой комбинацией? [Y/n/q]
+%%%%
+Recommended character
+
+Рекомендуемый персонаж
+%%%%
+Random character
+
+Случайный персонаж
 %%%%
 "Random "
 
@@ -171,23 +370,31 @@ Incompatible species and background (@arg@) selected.
 %%%%
 "Recommended "
 
-"Рекомендуется "
+"Рекомендуемый "
+%%%%
+Random
+
+Случайный
+%%%%
+Recommended
+
+Рекомендуемый
 %%%%
 Random Mummy
 
-Случайный Мумия
+Случайная мумия
 %%%%
 Random Merfolk
 
-Случайный Русалка
+Случайная русалка
 %%%%
 Recommended Mummy
 
-Рекомендуется Мумия
+Рекомендуемая мумия
 %%%%
 Recommended Merfolk
 
-Рекомендуется Русалка
+Рекомендуемая русалка
 %%%%
 You have a choice of weapons.
 
@@ -195,7 +402,7 @@ You have a choice of weapons.
 %%%%
 (%+d apt)
 
-(%+d кв.)
+(%+d обуч.)
 %%%%
 large rocks and throwing nets
 
@@ -211,7 +418,7 @@ javelins and throwing nets
 %%%%
 hunting sling and sling bullets
 
-охотничий ремень и патроны для ремня
+охотничья праща и пули для пращи
 %%%%
 shortbow and arrows
 
@@ -219,7 +426,7 @@ shortbow and arrows
 %%%%
 hand crossbow and bolts
 
-ручной арбалет и болты
+ручной арбалет и арбалетные стрелы
 %%%%
 + - Recommended random choice
 
@@ -235,7 +442,7 @@ hand crossbow and bolts
 %%%%
 Bksp - Return to character menu
 
-Bksp — Возврат в меню персонажей.
+Bksp — Назад к выбору персонажа
 %%%%
 Picks a random recommended weapon
 
@@ -251,7 +458,11 @@ Lets you return back to Character choice menu
 %%%%
 Select your old weapon
 
-Выберите свое старое оружие
+Выбрать прежнее оружие
+%%%%
+What is your name today?
+
+Как вас сегодня зовут?
 %%%%
 Esc - Quit
 
@@ -263,7 +474,7 @@ Esc – Выйти
 %%%%
 Enter - Begin!
 
-Ввод — начнём!
+Enter — Начать!
 %%%%
 That's a silly name!
 
@@ -271,19 +482,19 @@ That's a silly name!
 %%%%
 You have an existing game under this name; really overwrite? [Y/n]
 
-У вас уже есть игра под этим именем; действительно перезаписать? [Да/нет]
+Игра с таким именем уже существует. Перезаписать? [Y/n]
 %%%%
 Play a game with a custom seed for version @arg@.
 
-Сыграйте в игру с пользовательским сидом для версии @arg@.
+Игра с заданным зерном генерации для версии @arg@.
 %%%%
 Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
 
-Выберите 0 для случайного начального значения. [Tab]/[Shift-Tab] для переключения фокуса ввода.
+0 — случайное зерно. [Tab]/[Shift-Tab] — переключить поле ввода.
 %%%%
 "Seed: "
 
-"Семя: "
+"Зерно: "
 %%%%
 [-] Clear
 
@@ -291,11 +502,11 @@ Choose 0 for a random seed. [Tab]/[Shift-Tab] to cycle input focus.
 %%%%
 [Enter] Begin!
 
-[Входит] Начинайте!
+[Enter] Начать!
 %%%%
 [d] Today's daily seed
 
-[d] Ежедневное семя на сегодня
+[d] Сегодняшнее ежедневное зерно
 %%%%
 Fully pregenerate the dungeon
 
@@ -307,7 +518,7 @@ Sprint I: "Red Sonja"
 %%%%
 Sprint II: "The Violet Keep of Menkaure"
 
-Спринт II: «Алмазная крепость Менкаура»
+Спринт II: «Фиолетовая крепость Менкаура»
 %%%%
 Sprint III: "The Ten Rune Challenge"
 
@@ -315,11 +526,11 @@ Sprint III: "The Ten Rune Challenge"
 %%%%
 Sprint IV: "Fedhas' Mad Dash"
 
-Спринт IV: «Безумный рывок Федхас»
+Спринт IV: «Безумный рывок Федхаса»
 %%%%
 Sprint V: "Ziggurat Sprint"
 
-Спринт V: «Спринт Зиккурат»
+Спринт V: «Зиккурат-спринт»
 %%%%
 Sprint VI: "Thunderdome"
 
@@ -335,7 +546,7 @@ Sprint VIII: "Arena of Blood"
 %%%%
 Sprint IX: "|||||||||||||||||||||||||||||"
 
-Спринт IX: "||||||||||||||||||||||||||||"
+Спринт IX: "|||||||||||||||||||||||||||||"
 %%%%
 * - Random map
 
@@ -351,7 +562,7 @@ Select your previous sprint map and character
 %%%%
 Custom seed:
 
-Пользовательское семя:
+Заданное зерно:
 %%%%
 You have a choice of lessons:
 
@@ -383,15 +594,83 @@ Lesson 5: Gods and Divine Abilities
 %%%%
 Trunk games don't count for the tournament, you want @arg@. Play trunk anyway? (Y/N)
 
-Транковые игры не учитываются в турнире, вам нужен @arg@. Все равно играть в багажник? (Да/Нет)
+Игры в разрабатываемой версии не идут в зачёт турнира; нужна версия @arg@. Всё равно играть в разрабатываемую? (Y/N)
+%%%%
+Health:
+
+Здор.:
+%%%%
+HP:
+
+ОЗ:
+%%%%
+Magic:
+
+Магия:
+%%%%
+MP:
+
+ОМ:
+%%%%
+AC:
+
+Бр:
+%%%%
+EV:
+
+Укл:
+%%%%
+SH:
+
+Щит:
+%%%%
+XL:
+
+Ур:
+%%%%
+Next:
+
+Опыт:
+%%%%
+Noise:
+
+Шум:
+%%%%
+Silenced
+
+Безмолвие
+%%%%
+Equip:
+
+Снар.:
 %%%%
 Eq:
 
-Уравнение:
+Сн:
+%%%%
+Str:
+
+Сил:
+%%%%
+Int:
+
+Инт:
+%%%%
+Dex:
+
+Лов:
+%%%%
+Place:
+
+Место:
+%%%%
+Time:
+
+Время:
 %%%%
 Turn:
 
-Поворот:
+Ход:
 %%%%
 Gold:
 
@@ -403,19 +682,27 @@ Gd
 %%%%
 Turns: @num@, Time: @time@
 
-Обороты: @num@, Время: @time@
+Ходов: @num@, время: @time@
+%%%%
+Health: @arg@
+
+Здор.: @arg@
 %%%%
 HP:   @arg@
 
-HP: @arg@
+ОЗ:   @arg@
+%%%%
+Magic:  @arg@
+
+Магия:  @arg@
 %%%%
 MP:   @arg@
 
-МП: @arg@
+ОМ:   @arg@
 %%%%
 Gold:   @arg@
 
-Золото: @arg@
+Золото:   @arg@
 %%%%
 Gold: @arg@
 
@@ -423,75 +710,75 @@ Gold: @arg@
 %%%%
 AC: @arg@
 
-AC: @arg@
+Бр: @arg@
 %%%%
 EV: @arg@
 
-EV: @arg@
+Укл: @arg@
 %%%%
 SH: @arg@
 
-Ш: @arg@
+Щит: @arg@
 %%%%
 Str: @arg@
 
-ул.: @arg@
+Сил: @arg@
 %%%%
 Int: @arg@
 
-Внутреннее: @arg@
+Инт: @arg@
 %%%%
 Dex: @arg@
 
-Декс: @arg@
+Лов: @arg@
 %%%%
 XL:     @arg@   Next: @arg@
 
-XL: @arg@ Далее: @arg@
+Ур:     @arg@   Опыт: @arg@
 %%%%
 XL:     @arg@
 
-XL: @arg@
+Ур:     @arg@
 %%%%
 God:    @arg@
 
-Бог: @arg@
+Бог:    @arg@
 %%%%
 Spells: @arg1@/@arg2@ levels left
 
-Заклинания: остались уровни @arg1@/@arg2@.
+Заклинания: свободно уровней @arg1@/@arg2@
 %%%%
 Lives:  @arg@   Deaths: @arg@
 
-Жизни: @arg@ Смерти: @arg@
+Жизней:  @arg@   Смертей: @arg@
 %%%%
 rFire   @pips@
 
-Огонь   @pips@
+сОг     @pips@
 %%%%
 rCold   @pips@
 
-rХолодный @pips@
+сХол    @pips@
 %%%%
 rNeg    @pips@
 
-rНег @pips@
+сНег    @pips@
 %%%%
 rPois   @pips@
 
-Яд      @pips@
+сЯд     @pips@
 %%%%
 rElec   @pips@
 
-Релек @pips@
+сЭл     @pips@
 %%%%
 rCorr   @pips@
 
-rКорр @pips@
+сКорр   @pips@
 %%%%
 SInv    @pips@
 
-SИнв @pips@
+ВидНев  @pips@
 %%%%
 Will    @pips@
 
@@ -503,19 +790,19 @@ Stlth   @pips@
 %%%%
 HPRegen @num1@.@num2@/turn
 
-HPRegen @num1@.@num2@/оборот
+РегенОЗ @num1@.@num2@/ход
 %%%%
 HPRegen <lightblue>@num1@.@num2@</lightblue>/turn
 
-HPRegen <lightblue>@num1@.@num2@</lightblue>/оборот
+РегенОЗ <lightblue>@num1@.@num2@</lightblue>/ход
 %%%%
 MPRegen @num1@.@num2@/turn
 
-MPRegen @num1@.@num2@/оборот
+РегенОМ @num1@.@num2@/ход
 %%%%
 Rnd*Rage
 
-Rnd*Ярость
+СлучЯрость
 %%%%
 Clarity
 
@@ -523,11 +810,11 @@ Clarity
 %%%%
 NoTele
 
-НоТеле
+НетТелеп
 %%%%
 Rnd*Tele
 
-Случ.Тел
+СлучТелеп
 %%%%
 NoCast
 
@@ -547,19 +834,19 @@ no status effects
 %%%%
 "@num1@/@num2@ runes: "
 
-"@num1@/@num2@ руны: "
+"Рун @num1@/@num2@: "
 %%%%
 WIZARD
 
-МАСТЕР
+ОТЛАДКА
 %%%%
 EX-WIZARD
 
-БЫВШИЙ МАСТЕР
+БЫЛА ОТЛАДКА
 %%%%
 EXPLORE
 
-УЗНАТЬ
+ИССЛЕДОВАНИЕ
 %%%%
 Your terminal window is too small; please resize to at least @num1@,@num2@
 
@@ -567,7 +854,7 @@ Your terminal window is too small; please resize to at least @num1@,@num2@
 %%%%
 melded
 
-объединен
+слито с телом
 %%%%
 unarmed
 
@@ -579,23 +866,27 @@ Unarmed
 %%%%
 Blade Hand
 
-Рука с лезвием
+Рука-клинок
 %%%%
 Quiver unavailable
 
-Колчан недоступен.
+Быстрое применение недоступно
+%%%%
+Nothing quivered
+
+Ничего не подготовлено
 %%%%
 @arg@ unavailable
 
-@arg@ недоступен
+@arg@: недоступно
 %%%%
 @arg@ occupied
 
-@arg@ занят
+@arg@: занято
 %%%%
 @arg@ restricted
 
-@arg@ ограничено
+@arg@: запрещено
 %%%%
 gloves
 
@@ -603,7 +894,7 @@ gloves
 %%%%
 boots
 
-ботинки
+сапоги
 %%%%
 barding
 
@@ -631,15 +922,15 @@ no gloves
 %%%%
 no boots
 
-без ботинок
+без сапог
 %%%%
 no barding
 
-без защиты
+без бардинга
 %%%%
 no shield
 
-без экрана
+без щита
 %%%%
 no armour
 
@@ -683,11 +974,11 @@ unknown
 %%%%
 Left ring
 
-Левое кольцо
+Кольцо слева
 %%%%
 Right ring
 
-Правое кольцо
+Кольцо справа
 %%%%
 Amulet
 
@@ -695,7 +986,7 @@ Amulet
 %%%%
 Amulet ring
 
-Кольцо-амулет
+Кольцо на амулете
 %%%%
 1st ring
 
@@ -735,19 +1026,35 @@ Amulet ring
 %%%%
 (currently unavailable)
 
-(в настоящее время недоступен)
+(сейчас недоступно)
 %%%%
 (restricted)
 
 (ограничено)
 %%%%
+Abilities
+
+Способности
+%%%%
+Inventory
+
+Инвентарь
+%%%%
 Memorisation
 
-Запоминание
+Изучение заклинаний
 %%%%
 Monsters
 
 Монстры
+%%%%
+Skills
+
+Навыки
+%%%%
+Spells
+
+Заклинания
 %%%%
 Commands
 
@@ -775,35 +1082,35 @@ Navigate around map
 %%%%
 [L-Click]
 
-[L-клик]
+[ЛКМ]
 %%%%
 [R-Click]
 
-[R-клик]
+[ПКМ]
 %%%%
 [Shift + L-Click]
 
-[Shift + L-клик]
+[Shift + ЛКМ]
 %%%%
 [Shift + R-Click]
 
-[Shift + R-щелчок]
+[Shift + ПКМ]
 %%%%
 [Ctrl + L-Click]
 
-[Ctrl + L-клик]
+[Ctrl + ЛКМ]
 %%%%
 [Alt + L-Click]
 
-[Alt + L-клик]
+[Alt + ЛКМ]
 %%%%
 [Ctrl-Shift + L-Click]
 
-[Ctrl-Shift + L-клик]
+[Ctrl-Shift + ЛКМ]
 %%%%
 [L-Click / Shift + L-Click]
 
-[L-клик/Shift + L-клик]
+[ЛКМ / Shift + ЛКМ]
 %%%%
 Display abilities
 
@@ -819,15 +1126,15 @@ You cannot use this ability right now.
 %%%%
 Use
 
-Использование
+Использовать
 %%%%
 Describe
 
-Описать
+Описание
 %%%%
 Wand to zap?
 
-Хотите грохнуть?
+Какую палочку использовать?
 %%%%
 Your Spells
 
@@ -839,19 +1146,19 @@ Cast spell
 %%%%
 Zap wand
 
-Зап-палочка
+Использовать палочку
 %%%%
 Move
 
-Переместить
+Идти
 %%%%
 Move towards
 
-Двигайтесь навстречу
+Идти к цели
 %%%%
 Travel
 
-Путешествие
+Идти к месту
 %%%%
 Attack
 
@@ -859,11 +1166,11 @@ Attack
 %%%%
 {cmd}Fire
 
-{cmd}Пожар
+{cmd}Стрелять
 %%%%
 Open door
 
-Открытая дверь
+Открыть дверь
 %%%%
 Pick up items
 
@@ -875,24 +1182,27 @@ Enter shop
 %%%%
 Pray at altar
 
-Молитесь у алтаря
+Помолиться у алтаря
 %%%%
 Enter gate
 
-Ворота входа
+Войти в проход
 %%%%
 Use stairs
 
-Используйте лестницу
+Перейти по лестнице
 %%%%
 Wait one turn
 
-Подожди один ход.
-Обзор
+Ждать один ход
 %%%%
 Overview
 
 Обзор
+%%%%
+Religion
+
+Религия
 %%%%
 out of sight
 
@@ -904,7 +1214,7 @@ wall
 %%%%
 feat
 
-подвиг
+объект местности
 %%%%
 special
 
@@ -912,11 +1222,11 @@ special
 %%%%
 Wield
 
-Владение
+Взять в руку
 %%%%
 Unwield
 
-Не использовать
+Убрать из руки
 %%%%
 Display inventory
 
@@ -932,7 +1242,7 @@ Next page
 %%%%
 Show next page of items
 
-Показать следующую страницу товаров
+Показать следующую страницу предметов
 %%%%
 Previous page
 
@@ -940,7 +1250,7 @@ Previous page
 %%%%
 Show previous page of items
 
-Показать предыдущую страницу товаров
+Показать предыдущую страницу предметов
 %%%%
 " (holding @arg@)"
 
@@ -956,19 +1266,19 @@ Pick up
 %%%%
 Partial pick up
 
-Частичный подъем
+Подобрать часть
 %%%%
 Evoke
 
-Вызвать
+Активировать
 %%%%
 Wear
 
-Износ
+Надеть доспех
 %%%%
 Take off
 
-Взлет
+Снять доспех
 %%%%
 Put on
 
@@ -976,11 +1286,11 @@ Put on
 %%%%
 Remove
 
-Удалить
+Снять
 %%%%
 Memorise
 
-Запомнить
+Выучить
 %%%%
 Read
 
@@ -988,15 +1298,15 @@ Read
 %%%%
 Quaff
 
-Квафф
+Выпить
 %%%%
 Drop
 
-Падение
+Бросить
 %%%%
 Drop quantity
 
-Количество капель
+Бросить часть
 %%%%
 Enable map mode
 
@@ -1012,24 +1322,23 @@ Autoexplore
 %%%%
 1 spell slot
 
-1 слот для заклинаний
-Слоты заклинаний
+1 уровень заклинаний
 %%%%
 @num@ spell slots
 
-@num@
+Уровней заклинаний: @num@
 %%%%
 Display spells in carried books
 
-Отображать заклинания в переносных книгах.
+Показать заклинания в книгах при вас
 %%%%
 Memorise spells
 
-Запоминание заклинаний
+Учить заклинания
 %%%%
 You cannot memorise this spell now.
 
-Сейчас ты не можешь запомнить это заклинание.
+Сейчас вы не можете выучить это заклинание.
 %%%%
 Browse message history
 
@@ -1037,7 +1346,7 @@ Browse message history
 %%%%
 %-14s Skill %4.1f Aptitude %c@num@
 
-%-14s Навыки %4.1f Способности %c@num@
+%-14s Навык %4.1f Обучаемость %c@num@
 %%%%
 Manage skills
 
@@ -1049,23 +1358,23 @@ You cannot train this skill now.
 %%%%
 Disable training
 
-Отключить обучение
+Выключить тренировку
 %%%%
 Enable training
 
-Включить обучение
+Включить тренировку
 %%%%
 Change skill level (wizmode)
 
-Изменение уровня навыка (режим мастера)
+Изменить уровень навыка (отладка)
 %%%%
 Display memorised spells
 
-Отображение запомненных заклинаний
+Показать выученные заклинания
 %%%%
 Cast spells
 
-Произносить заклинания
+Творить заклинания
 %%%%
 You cannot cast this spell right now.
 
@@ -1073,7 +1382,7 @@ You cannot cast this spell right now.
 %%%%
 Cast
 
-Литой
+Сотворить
 %%%%
 Show player information
 
@@ -1081,7 +1390,7 @@ Show player information
 %%%%
 Doll Editor
 
-Редактор кукол
+Редактор облика
 %%%%
 Custom
 
@@ -1101,31 +1410,31 @@ none
 %%%%
 show equip
 
-показать оборудование
+показать снаряжение
 %%%%
 Doll index
 
-Индекс куклы
+Номер облика
 %%%%
 Doll Mode
 
-Режим куклы
+Режим облика
 %%%%
 Current Equipment
 
-Текущее оборудование
+Текущее снаряжение
 %%%%
 Custom Doll
 
-Кукла на заказ
+Собственный облик
 %%%%
 Job Defaults
 
-Параметры задания по умолчанию
+По предыстории
 %%%%
 Base
 
-База
+Основа
 %%%%
 Halo
 
@@ -1133,15 +1442,15 @@ Halo
 %%%%
 Ench
 
-Энч
+Чары
 %%%%
 Legs
 
-Ножки
+Ноги
 %%%%
 Body
 
-Кузов
+Тело
 %%%%
 LHand
 
@@ -1165,11 +1474,11 @@ Helm
 %%%%
 DrcWing
 
-ДокторВинг
+Крылья
 %%%%
 DrcHead
 
-ДокторХед
+Голова
 %%%%
 Change parts
 
@@ -1193,11 +1502,11 @@ up/down
 %%%%
 Copy doll
 
-Копия куклы
+Копировать облик
 %%%%
 Change doll
 
-Сменная кукла
+Сменить облик
 %%%%
 Shift + arrows
 
@@ -1205,15 +1514,15 @@ Shift + стрелки
 %%%%
 Paste copied doll
 
-Вставить скопированную куклу
+Вставить скопированный облик
 %%%%
 Change doll mode
 
-Изменить режим куклы
+Сменить режим облика
 %%%%
 Randomise doll
 
-Случайная кукла
+Случайный облик
 %%%%
 Save menu
 
@@ -1221,7 +1530,7 @@ Save menu
 %%%%
 Toggle equipment
 
-Перекидное оборудование
+Переключить отображение снаряжения
 %%%%
 Quit menu
 
@@ -1229,11 +1538,11 @@ Quit menu
 %%%%
 Inventory: @num1@/@num2@ gear slots
 
-: слоты для шестерен @num1@/@num2@.
+Инвентарь: @num1@/@num2@ ячеек снаряжения
 %%%%
 Gear: @num1@/@num2@ gear slots
 
-Шестерня: слоты для шестерен @num1@/@num2@
+Снаряжение: @num1@/@num2@ ячеек
 %%%%
 Potions:
 
@@ -1245,7 +1554,7 @@ Scrolls:
 %%%%
 Evocable Items:
 
-Вызываемые предметы:
+Магические устройства:
 %%%%
 (Left/Right/Tab to switch category)
 
@@ -1253,11 +1562,35 @@ Evocable Items:
 %%%%
 Hand Weapons
 
-Ручное оружие
+Оружие
+%%%%
+Missiles
+
+Метательные снаряды
+%%%%
+Wands
+
+Волшебные палочки
+%%%%
+Scrolls
+
+Свитки
+%%%%
+Jewellery
+
+Украшения
+%%%%
+Potions
+
+Зелья
+%%%%
+Books
+
+Книги
 %%%%
 Magical Staves
 
-Магический Посохи
+Волшебные посохи
 %%%%
 Orbs of Power
 
@@ -1265,23 +1598,27 @@ Orbs of Power
 %%%%
 Carrion
 
-Падаль
+Останки
 %%%%
 Runes of Zot
 
-Руны Зот
+Руны Зота
 %%%%
 Ancient Gems
 
 Древние драгоценные камни
 %%%%
+Talismans
+
+Талисманы
+%%%%
 Gizmos
 
-Вещицы
+Механизмы
 %%%%
 Baubles
 
-Фенечки
+Безделушки
 %%%%
 Miscellaneous
 
@@ -1293,15 +1630,15 @@ Other Items
 %%%%
 (go to first with <w>@glyphs@</w><blue>)
 
-(перейдите к первому пункту с помощью <w>@glyphs@</w><blue>)
+(к первому: <w>@glyphs@</w><blue>)
 %%%%
 (select first with <w>@glyphs@</w><blue>)
 
-(сначала выберите с помощью <w>@glyphs@</w><blue>)
+(выбрать первый: <w>@glyphs@</w><blue>)
 %%%%
 (select all with <w>@glyphs@</w><blue>)
 
-(выберите все с помощью <w>@glyphs@</w><blue>)
+(выбрать все: <w>@glyphs@</w><blue>)
 %%%%
 Skill
 
@@ -1313,11 +1650,11 @@ Level
 %%%%
 Apt
 
-Квартира
+Обуч
 %%%%
 Train
 
-Поезд
+Трен
 %%%%
 Target
 
@@ -1325,7 +1662,7 @@ Target
 %%%%
 Progr
 
-Программа
+Прогр
 %%%%
 Points
 
@@ -1333,7 +1670,7 @@ Points
 %%%%
 > New
 
-> Новый
+> Новый ур.
 %%%%
 auto
 
@@ -1341,8 +1678,7 @@ auto
 %%%%
 {menu-state}manual
 
-{состояние меню}руководство
-Режим
+{menu-state}вручную
 %%%%
 mode
 
@@ -1350,7 +1686,7 @@ mode
 %%%%
 useful
 
-полезен
+полезные
 %%%%
 all
 
@@ -1362,20 +1698,19 @@ skills
 %%%%
 modified
 
-модифицированный
+с изменениями
 %%%%
 enhanced
 
-улучшенный
+усилено
 %%%%
 reduced
 
-уменьшено
-База
+снижено
 %%%%
 base
 
-Уровень
+базовый
 %%%%
 level
 
@@ -1383,12 +1718,11 @@ level
 %%%%
 training
 
-обучение
-Стоимость
+тренировка
 %%%%
 cost
 
-Цели
+стоимость
 %%%%
 targets
 
@@ -1400,12 +1734,11 @@ progress
 %%%%
 points
 
-баллов
+очки
 %%%%
 new level
 
 новый уровень
-Поезд
 %%%%
 train
 
@@ -1413,28 +1746,27 @@ train
 %%%%
 focus
 
-фокус
+приоритет
 %%%%
 Your spells (cast)
 
-Ваши заклинания (применение)
+Ваши заклинания (сотворение)
 %%%%
 Your spells (describe)
 
-Ваши заклинания (опишите)
+Ваши заклинания (описания)
 %%%%
 Your spells (forget)
 
-Ваши заклинания (забудьте)
+Ваши заклинания (забыть)
 %%%%
 Your spells (adjust)
 
-Ваши заклинания (откорректировать)
+Ваши заклинания (смена букв)
 %%%%
 Your spells (adjust it to)
 
-Ваши заклинания (скорректируйте их)
-Тип
+Ваши заклинания (смена буквы)
 %%%%
 Type
 
@@ -1442,16 +1774,15 @@ Type
 %%%%
 Failure
 
-Сбой
+Неудача
 %%%%
 Power
 
-Мощность
+Сила
 %%%%
 Damage
 
-Повреждения
-Диапазон
+Урон
 %%%%
 Range
 
@@ -1463,15 +1794,15 @@ Noise
 %%%%
 Known
 
-Известный
+Известно
 %%%%
 Silent
 
-Бесшумный
+Беззвучно
 %%%%
 Almost silent
 
-Почти бесшумно
+Почти беззвучно
 %%%%
 Quiet
 
@@ -1487,15 +1818,15 @@ Loud
 %%%%
 Very loud
 
-Очень громкий
+Очень громко
 %%%%
 Extremely loud
 
-Очень громкий
+Чрезвычайно громко
 %%%%
 Deafening
 
-Оглушительный
+Оглушительно
 %%%%
 Hide
 
@@ -1507,7 +1838,7 @@ Show
 %%%%
 Imbue
 
-Наполнение
+Напитать
 %%%%
 search
 
@@ -1515,7 +1846,7 @@ search
 %%%%
 help
 
-помощь
+справка
 %%%%
 [@cmd1@] @action1@|@action2@|@action3@|@action4@   [@cmd2@] search   [<w>?</w>] help
 
@@ -1527,7 +1858,7 @@ help
 %%%%
 <white>Runes of Zot (@arg@ collected) & Orbs of Power</white>
 
-<white>Руны Зот (@arg@ собраны) и Сферы силы </white>
+<white>Руны Зота (собрано: @arg@) и Сферы силы</white>
 %%%%
 <magenta>The Orb of Zot</magenta>
 
@@ -1535,11 +1866,11 @@ help
 %%%%
 <darkgrey>The Orb of Zot (the Realm of Zot)</darkgrey>
 
-<darkgrey>Сфера Зот (Царство Зот)</darkgrey>
+<darkgrey>Сфера Зота (Царство Зота)</darkgrey>
 %%%%
 [<w>!</w>/<w>^</w>|<w>Right-click</w>]: @arg@
 
-[<w>!</w>/<w>^</w>|<w>Щелкните правой кнопкой мыши</w>]: @arg@
+[<w>!</w>/<w>^</w>|<w>ПКМ</w>]: @arg@
 %%%%
 Show Gems
 
@@ -1547,11 +1878,11 @@ Show Gems
 %%%%
 <white>Gems (@num@ collected)</white>
 
-<white>Драгоценные камни (@num@ собраны)</white>
+<white>Самоцветы (собрано: @num@)</white>
 %%%%
 <white>Gems (@num1@ collected, @num2@ intact)</white>
 
-<white>Драгоценные камни (@num1@ собран, @num2@ нетронут) </white>
+<white>Самоцветы (собрано: @num1@, целых: @num2@)</white>
 %%%%
 Show Runes
 
@@ -2071,8 +2402,7 @@ Slay (%u)
 %%%%
 {status}Beogh
 
-{status}Беогх
-Отзыв
+{status}Беог
 %%%%
 Recall
 
@@ -2156,8 +2486,7 @@ very magic sapped
 %%%%
 Your control over your magic has been significantly sapped.
 
-Ваш контроль над магией значительно подорван.
-Магия
+Ваш контроль над магией сильно ослаблен.
 %%%%
 magic sapped
 
@@ -2765,7 +3094,6 @@ You are turning to stone.
 %%%%
 Resist
 
-Сопротивляться
 Сопротивление
 %%%%
 resistance
@@ -3294,8 +3622,7 @@ PProj
 %%%%
 portalling projectiles
 
-Портальные снаряды
-Портальный снаряд
+перенос снарядов через портал
 %%%%
 portal projectile
 
@@ -3563,8 +3890,7 @@ ambrosia
 %%%%
 You are regenerating under the effects of ambrosia.
 
-Вы регенерируете под воздействием амброзии.
-Канал
+Амброзия восстанавливает ваши здоровье и магию.
 %%%%
 Channel
 
@@ -3572,8 +3898,7 @@ Channel
 %%%%
 channeling
 
-ченнелинг
-Канал
+восстановление магии
 %%%%
 channel
 
@@ -3777,8 +4102,7 @@ You break out of your daze.
 %%%%
 mesmerisation immunity
 
-иммунитет к гипнозу
-Рейс
+невосприимчивость к гипнозу
 %%%%
 flight
 
@@ -3790,8 +4114,7 @@ poisoning
 %%%%
 piety pool
 
-бассейн благочестия
-Трансформация
+запас благочестия
 %%%%
 transformation
 
@@ -3823,8 +4146,7 @@ cloud trail
 %%%%
 time step
 
-временной шаг
-Ледяная почта
+шаг сквозь время
 %%%%
 icemail depleted
 
@@ -4244,8 +4566,7 @@ Corrupt
 %%%%
 Enter the Abyss
 
-Войдите в Бездну
-Фирменное оружие
+Войти в Бездну
 %%%%
 Brand Weapon With Distortion
 
@@ -4690,7 +5011,6 @@ moderate
 free
 
 бесплатно
-Переменная
 %%%%
 variable
 
@@ -4698,11 +5018,11 @@ variable
 %%%%
 M&F
 
-M&F
+Б&Ц
 %%%%
 Slings
 
-Стропы
+Пращи
 %%%%
 Bows
 
@@ -4714,7 +5034,7 @@ Crossbows
 %%%%
 Charms
 
-Подвески
+Чары
 %%%%
 Transmutations
 
@@ -4726,7 +5046,7 @@ Poison Magic
 %%%%
 Conjuration
 
-Заклинание
+Разрушение
 %%%%
 Transmutation
 
@@ -4734,11 +5054,11 @@ Transmutation
 %%%%
 Summoning
 
-Призыв
+Призывание
 %%%%
 Translocation
 
-Транслокация
+Перемещения
 %%%%
 Poison
 
@@ -4758,79 +5078,79 @@ Fire
 %%%%
 Ice
 
-Лед
+Лёд
 %%%%
 Fgt
 
-Фгт
+Бой
 %%%%
 SBl
 
-СБл
+ККл
 %%%%
 LBl
 
-ЛБл
+ДКл
 %%%%
 Axs
 
-Топоры
+Топ
 %%%%
 Pla
 
-Пла
+ДрО
 %%%%
 Stv
 
-Ств
+Пос
 %%%%
 Slg
 
-Слг
+Прщ
 %%%%
 Bws
 
-Бвс
+Лук
 %%%%
 Crb
 
-Крб
+Арб
 %%%%
 Thr
 
-Брос
+Мет
 %%%%
 Arm
 
-Рука
+Дсп
 %%%%
 Ddg
 
-Ддг
+Укл
 %%%%
 Sth
 
-Ст.
+Скр
 %%%%
 Shd
 
-Шд
+Щит
 %%%%
 UC
 
-UC
+ББ
 %%%%
 Spc
 
-Спец
+Колд
 %%%%
 Conj
 
-Кондж
+Разр
 %%%%
 Tmut
 
-Тмут
+Трсм
 %%%%
 Necr
 
@@ -4838,27 +5158,27 @@ Necr
 %%%%
 Summ
 
-Сумма
+Приз
 %%%%
 Tloc
 
-Тлок
+Перем
 %%%%
 Pois
 
-Поис
+Яд
 %%%%
 Erth
 
-Эрт
+Зем
 %%%%
 Invo
 
-Инво
+Мол
 %%%%
 Evo
 
-Эво
+Устр
 %%%%
 the Abyssal Knight
 
@@ -5734,59 +6054,59 @@ Orcish
 %%%%
 {adj-e}Djinn
 
-{прилаг-е}джинн
+{adj-e}джиннский
 %%%%
 {adj-e}Draconian
 
-{прилаг-е}Дракониан
+{adj-e}драконианский
 %%%%
 {adj-e}Formicid
 
-{прилаг-е}Формицид
+{adj-e}формицидский
 %%%%
 {adj-e}Gargoyle
 
-{прилаг-е}Горгулья
+{adj-e}гаргулий
 %%%%
 {adj-e}Gnoll
 
-{прилаг-е}Гнолл
+{adj-e}гнолльский
 %%%%
 {adj-e}Human
 
-{прилаг-е}Человек
+{adj-e}человеческий
 %%%%
 {adj-e}Kobold
 
-{прилаг-е}Кобольд
+{adj-e}кобольдский
 %%%%
 {adj-e}Minotaur
 
-{прилаг-е}Минотавр
+{adj-e}минотаврский
 %%%%
 {adj-e}Mummy
 
-{прилаг-е}Мумия
+{adj-e}мумифицированный
 %%%%
 {adj-e}Naga
 
-{прилаг-е}Нага
+{adj-e}наговый
 %%%%
 {adj-e}Palentonga
 
-{прилаг-е}Палентонга
+{adj-e}палентонгский
 %%%%
 {adj-e}Spriggan
 
-{прилаг-е}Спригган
+{adj-e}спригганский
 %%%%
 {adj-e}Tengu
 
-{прилаг-е}Тэнгу
+{adj-e}тэнгуский
 %%%%
 {adj-e}Vine Stalker
 
-{прилаг-е}Лозовый преследователь
+{adj-e}лозовый
 %%%%
 Walker
 
@@ -6030,7 +6350,7 @@ Vine Stalkers
 %%%%
 strength
 
-прочность
+сила
 %%%%
 dexterity
 
@@ -6042,11 +6362,11 @@ intelligence
 %%%%
 your strength
 
-твоя сила
+ваша сила
 %%%%
 your dexterity
 
-твоя ловкость
+ваша ловкость
 %%%%
 your intelligence
 
@@ -6399,7 +6719,6 @@ uncursed armament
 superior armament
 
 превосходное вооружение
-Боеприпасы
 %%%%
 ammunition
 
@@ -6407,8 +6726,7 @@ ammunition
 %%%%
 ranged armament
 
-дальнобойное вооружение
-Вооружение
+стрелковое оружие
 %%%%
 armament
 
@@ -7912,8 +8230,7 @@ spattered with blood
 %%%%
 @num@ runed translucent doors
 
-@num@ полупрозрачные двери с рунами
-Транспортеры
+@num@ полупрозрачных дверей с рунами
 %%%%
 @num@ transporters
 
@@ -9133,19 +9450,19 @@ in the Desolation of Salt
 %%%%
 " (gone by now)"
 
-" (уже нет)"
+" (уже исчезло)"
 %%%%
 " (skeletalised by now)"
 
-" (сейчас скелетонизирован)"
+" (остался скелет)"
 %%%%
 " (bound)"
 
-" (связанный)"
+" (связано)"
 %%%%
 " (curse)"
 
-" (проклятие)"
+" (проклято)"
 %%%%
 " (unknown)"
 
@@ -9153,15 +9470,15 @@ in the Desolation of Salt
 %%%%
 " (inert)"
 
-" (инертный)"
+" (неактивно)"
 %%%%
 " (damnation)"
 
-" (проклятие)"
+" (адское пламя)"
 %%%%
 " (the Realm of Zot)"
 
-" (Царство Зот)"
+" (Царство Зота)"
 %%%%
 god gift
 
@@ -9169,16 +9486,15 @@ god gift
 %%%%
 Fragile
 
-Хрупкий
-Маркировка
+Хрупкость
 %%%%
 branded
 
-свойство
+особое свойство
 %%%%
 ego
 
-эго
+особое свойство
 %%%%
 two-handed
 
@@ -9186,19 +9502,19 @@ two-handed
 %%%%
 one-handed
 
-одной рукой
+одноручное
 %%%%
 willpower
 
-сила воли
+воля
 %%%%
 identified
 
-идентифицирован
+опознано
 %%%%
 unidentified
 
-неопознанный
+не опознано
 %%%%
 forbidden
 
@@ -9210,16 +9526,15 @@ melee
 %%%%
 ranged
 
-дальнего боя
+дальний бой
 %%%%
 unrand
 
-развернуть
+уникальный артефакт
 %%%%
 equipped
 
-оборудован
-Книга заклинаний
+экипировано
 %%%%
 spellbook
 
@@ -9227,91 +9542,91 @@ spellbook
 %%%%
 evoker
 
-вызыватель
+магическое устройство
 %%%%
 Str
 
-ул.
+Сил
 %%%%
 Dex
 
-Декс
+Лов
 %%%%
 Int
 
-Целый
+Инт
 %%%%
 HP
 
-HP
+ОЗ
 %%%%
 MP
 
-МП
+ОМ
 %%%%
 AC
 
-переменного тока
+Бр
 %%%%
 EV
 
-ЕВ
+Укл
 %%%%
 SH
 
-Ш.
+Щит
 %%%%
 Stlth
 
-Стлт
+Скрыт
 %%%%
 Slay
 
-Убить
+Бой
 %%%%
 rF
 
-РФ
+сОг
 %%%%
 rC
 
-RC
+сХол
 %%%%
 rN
 
-рН
+сНег
 %%%%
 rPois
 
-Яд
+сЯд
 %%%%
 rElec
 
-Релек
+сЭл
 %%%%
 rCorr
 
-рКорр
+сКорр
 %%%%
 Clar
 
-Клар.
+Ясность
 %%%%
 rTorment
 
-rМучение
+сМуч
 %%%%
 rMut
 
-рМут
+сМут
 %%%%
 rMiasma
 
-рМиазмы
+сМиазм
 %%%%
 rSteam
 
-Пар
+сПар
 %%%%
 Will
 
@@ -9319,11 +9634,11 @@ Will
 %%%%
 dropped
 
-упал
+брошено
 %%%%
 corrosion resistance
 
-коррозионная стойкость
+сопротивление коррозии
 %%%%
 magic resistance
 
@@ -9331,71 +9646,71 @@ magic resistance
 %%%%
 MR
 
-МР
+сМаг
 %%%%
 resist magic
 
-сопротивляться магии
+сопротивление магии
 %%%%
 resist cold
 
-сопротивляться холоду
+сопротивление холоду
 %%%%
 resist corrosion
 
-сопротивляется коррозии
+сопротивление коррозии
 %%%%
 resist electricity
 
-сопротивляться электричеству
+сопротивление электричеству
 %%%%
 resist fire
 
-сопротивляться огню
+сопротивление огню
 %%%%
 resist mutation
 
-сопротивляться мутации
+сопротивление мутациям
 %%%%
 resist negative energy
 
-сопротивляться отрицательной энергии
+сопротивление отрицательной энергии
 %%%%
 resist poison
 
-сопротивляться яду
+сопротивление яду
 %%%%
 Wiz
 
-Мастер
+Чародейство
 %%%%
 +Blink
 
-+Мигание
++Скачок
 %%%%
 +Inv
 
-+Инв
++Невид
 %%%%
 SInv
 
-Синв
+ВидНевид
 %%%%
 sInv
 
-сИнв
+ВидНевид
 %%%%
 Regen
 
-Регенерация
+Реген
 %%%%
 RegenMP
 
-РегенМП
+РегенОМ
 %%%%
 Rampage
 
-Буйство
+Натиск
 %%%%
 Acrobat
 
@@ -9415,7 +9730,7 @@ Acrobat
 %%%%
 -Cast
 
--Литой
+-Магия
 %%%%
 *Noise
 
@@ -9427,15 +9742,15 @@ Acrobat
 %%%%
 *Slow
 
-*Медленно
+*Замедл
 %%%%
 *Tele
 
-*Теле
+*Телепорт
 %%%%
 backblast
 
-обратная обработка
+отдача
 %%%%
 flame
 
@@ -9443,19 +9758,19 @@ flame
 %%%%
 freeze
 
-заморозить
+холод
 %%%%
 holy
 
-святой
+святость
 %%%%
 elec
 
-электрический
+электр
 %%%%
 venom
 
-яд
+отрава
 %%%%
 protect
 
@@ -9463,8 +9778,7 @@ protect
 %%%%
 drain
 
-слив
-Скорость
+истощение
 %%%%
 speed
 
@@ -9472,11 +9786,11 @@ speed
 %%%%
 vorpal
 
-ворпал
+рассечение
 %%%%
 vamp
 
-вамп
+вампиризм
 %%%%
 pain
 
@@ -9488,7 +9802,7 @@ antimagic
 %%%%
 distort
 
-искажает
+искажение
 %%%%
 chaos
 
@@ -9496,15 +9810,15 @@ chaos
 %%%%
 penet
 
-пенет
+пробитие
 %%%%
 reap
 
-жатка
+жатва
 %%%%
 spect
 
-вид
+призрак
 %%%%
 valour
 
@@ -9512,28 +9826,27 @@ valour
 %%%%
 entangle
 
-запутывает
+опутывание
 %%%%
 sunder
 
-разделитель
+сокрушение
 %%%%
 concuss
 
-сотрясение мозга
+отбрасывание
 %%%%
 devious
 
-коварный
-Уязвимость
+коварство
 %%%%
 vuln
 
-уязв.
+уязв
 %%%%
 foul flame
 
-неприятный запах пламени
+скверное пламя
 %%%%
 acid
 
@@ -9541,11 +9854,11 @@ acid
 %%%%
 Acc
 
-Акк.
+Точн
 %%%%
 slay drac
 
-убить дракона
+против драконов
 %%%%
 poison
 
@@ -9569,23 +9882,23 @@ silver
 %%%%
 disjunct
 
-дизъюнкт
+разрыв
 %%%%
 disperse
 
-разогнать
+рассеивание
 %%%%
 Ponderous
 
-Тяжелый
+Неповоротл
 %%%%
 Fly
 
-Летать
+Полёт
 %%%%
 Archmagi
 
-Архимаги
+Архимаг
 %%%%
 Reflect
 
@@ -9593,7 +9906,7 @@ Reflect
 %%%%
 Spirit
 
-Дух
+ЩитДуха
 %%%%
 Faith
 
@@ -9601,15 +9914,15 @@ Faith
 %%%%
 Archery
 
-Стрельба из лука
+Стрельба
 %%%%
 Repulsion
 
-Отталкивание
+ОтводСнарядов
 %%%%
 Harm
 
-Вред
+УсилУрона
 %%%%
 Shadows
 
@@ -9617,23 +9930,23 @@ Shadows
 %%%%
 Hurl
 
-Бросок
+Метание
 %%%%
 Infuse
 
-Инфузия
+НапитМагией
 %%%%
 Light
 
-Свет
+Сияние
 %%%%
 Mayhem
 
-Беспредел
+Неистовство
 %%%%
 Guile
 
-Коварство
+Лукавство
 %%%%
 Energy
 
@@ -9641,11 +9954,11 @@ Energy
 %%%%
 Snipe
 
-Бекас
+Снайпер
 %%%%
 Command
 
-Команда
+Командование
 %%%%
 Death
 
@@ -9661,7 +9974,7 @@ Parrying
 %%%%
 Glass
 
-Стекло
+Остекление
 %%%%
 Pyromania
 
@@ -9669,19 +9982,19 @@ Pyromania
 %%%%
 Stardust
 
-Звездная пыль
+ЗвёздПыль
 %%%%
 Mesmerism
 
-Месмеризм
+Гипноз
 %%%%
 Attunement
 
-Настройка
+Созвучие
 %%%%
 Wildshape
 
-Вайлдшейп
+Оборотничество
 %%%%
 Chemistry
 
@@ -9689,27 +10002,27 @@ Chemistry
 %%%%
 Dissipate
 
-Рассеять
+Рассеивание
 %%%%
 SpellMotor
 
-СпеллМотор
+Магомотор
 %%%%
 Gadgeteer
 
-Гаджетер
+Умелец
 %%%%
 RevGuard
 
-РевГард
+РазгонБрони
 %%%%
 AutoDazzle
 
-АвтоДаззл
+АвтоОслепл
 %%%%
 " (melded)"
 
-" (объединенный)"
+" (слито с телом)"
 %%%%
 " (weapon)"
 
@@ -9717,35 +10030,35 @@ AutoDazzle
 %%%%
 " (offhand)"
 
-" (навскидку)"
+" (вторая рука)"
 %%%%
 " (worn)"
 
-" (изношен)"
+" (надето)"
 %%%%
 " (haunted)"
 
-" (с привидениями)"
+" (одержимо духом)"
 %%%%
 " (installed)"
 
-" (установлен)"
+" (установлено)"
 %%%%
 " (carried) "
 
-" (переносится) "
+" (при себе) "
 %%%%
 " (quivered)"
 
-" (вздрогнул)"
+" (подготовлено)"
 %%%%
 " (quivered ammo)"
 
-" (дрожали патроны)"
+" (подготовленные снаряды)"
 %%%%
 Item in an invalid slot
 
-Предмет в недопустимом слоте
+Предмет в недопустимой ячейке
 %%%%
 " (in hand)"
 
@@ -9753,7 +10066,7 @@ Item in an invalid slot
 %%%%
 " (in claw)"
 
-" (в клешне)"
+" (в когтях)"
 %%%%
 " (in tentacle)"
 
@@ -9769,7 +10082,7 @@ Item in an invalid slot
 %%%%
 " (around mantle)"
 
-" (вокруг мантии)"
+" (на мантии)"
 %%%%
 " (left hand)"
 
@@ -9789,11 +10102,11 @@ Item in an invalid slot
 %%%%
 " (left claw)"
 
-" (левая клешня)"
+" (левые когти)"
 %%%%
 " (right claw)"
 
-" (правая клешня)"
+" (правые когти)"
 %%%%
 " (left tentacle)"
 
@@ -9821,31 +10134,31 @@ Item in an invalid slot
 %%%%
 " (left front leg)"
 
-" (левая передняя нога)"
+" (левая передняя лапа)"
 %%%%
 " (right front leg)"
 
-" (правая передняя нога)"
+" (правая передняя лапа)"
 %%%%
 " (left blade hand)"
 
-" (левая рука с лезвием)"
+" (левая рука-клинок)"
 %%%%
 " (right blade hand)"
 
-" (правая рука)"
+" (правая рука-клинок)"
 %%%%
 " (under bush)"
 
-" (под втулкой)"
+" (под кустом)"
 %%%%
 " (under plant)"
 
-" (под заводом)"
+" (под растением)"
 %%%%
 in_shop
 
-в_магазине
+в магазине
 %%%%
 inventory
 
@@ -9885,7 +10198,7 @@ bark
 %%%%
 {verb-you}howl
 
-{глагол-ты}выть
+{verb-you}воете
 %%%%
 screech
 
@@ -10021,8 +10334,7 @@ main tentacles
 %%%%
 your tentacles
 
-твои щупальца
-Весы
+ваши щупальца
 %%%%
 scales
 
@@ -10039,7 +10351,6 @@ fur
 bandages
 
 бинты
-Скин
 %%%%
 skin
 
@@ -10096,7 +10407,6 @@ your front legs
 flesh
 
 плоть
-Лезвие
 %%%%
 Blade
 
@@ -10124,8 +10434,7 @@ blade tentacles
 %%%%
 blade tentacle
 
-щупальце с лезвием
-Лезвие
+щупальце-клинок
 %%%%
 blade
 
@@ -10494,7 +10803,6 @@ a sentient fungus
 Spores
 
 Споры
-спорулаты
 %%%%
 sporulate
 
@@ -10738,8 +11046,7 @@ an Initiate
 %%%%
 Escaped with the Orb
 
-сбежал с сферой
-Руны
+Покинул подземелье со Сферой
 %%%%
 ... and @num@ runes
 
@@ -11103,8 +11410,7 @@ Shot themself with a beam
 %%%%
 Shot themself with @arg@
 
-Застрелился из @arg@ 
-Спора
+Застрелился: @arg@
 %%%%
 spore
 
@@ -11240,8 +11546,7 @@ Collided with @arg@
 %%%%
 Tarried too long and was consumed by Zot
 
-Задержался слишком долго и был поглощен Зот. 
-Сужение
+Задержался слишком надолго и был поглощён Зотом
 %%%%
 constriction
 
@@ -11549,8 +11854,7 @@ gaining the @arg@ transformation
 %%%%
 losing the @arg@ form
 
-теряет форму @arg@
-Ошибка тестирования
+потеря формы: @arg@
 %%%%
 testing miscast
 
@@ -11558,8 +11862,7 @@ testing miscast
 %%%%
 Xom's lightning strike
 
-Удар молнии Ксом
-Уничтожение
+удар молнии Ксома
 %%%%
 Xom's destruction
 
@@ -11615,8 +11918,7 @@ Death's Door abortion
 %%%%
 @owner@'s Magic Scroll Shop
 
-Магазин волшебных свитков @owner@
-Книжный магазин
+Волшебные свитки — @owner@
 %%%%
 @owner@'s Book Shop
 
@@ -11724,8 +12026,7 @@ Death's Door abortion
 %%%%
 Zin's Purification Station
 
-Очистная станция Зин
-Платиновый резерв
+Очищение Зина
 %%%%
 Gozag's Platinum Reserve
 
@@ -11737,8 +12038,7 @@ The Legendary @owner@'s Legendary Smithy
 %%%%
 @owner@'s Merfolk Weapons
 
-@owner@ Оружие Русалка
-Броня
+Оружие русалок — @owner@
 %%%%
 @owner@'s Merfolk Armours
 
@@ -11802,8 +12102,7 @@ The Legendary @owner@'s Legendary Smithy
 %%%%
 @owner@'s Elemental Accessories
 
-Элементальные аксессуары @owner@
-Уникальные книги
+Стихийные аксессуары — @owner@
 %%%%
 @owner@'s One-of-a-Kind Books
 
@@ -11827,8 +12126,7 @@ The Legendary @owner@'s Legendary Smithy
 %%%%
 @owner@'s Lightly-Used Armoury
 
-Малоиспользуемый арсенал @owner@
-Зона комфорта
+Почти новое оружие — @owner@
 %%%%
 Cheibriados's Comfort Zone
 
@@ -11840,13 +12138,11 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Mass Market
 
-@owner@ Массовый рынок
-Последний шанс
+Товары для всех — @owner@
 %%%%
 @owner@'s Last-Chance Deals
 
-@owner@
-РАСПРОДАЖА
+Последний шанс — @owner@
 %%%%
 @owner@'s CLEARANCE SALE! EVERYTHING MUST GO!
 
@@ -11854,8 +12150,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Firing Range
 
-@owner@ Дальность стрельбы
-Галерея гаджетов
+Стрелковый тир — @owner@
 %%%%
 @owner@'s Gadget Gallery
 
@@ -11879,8 +12174,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Miraculous Elixirs
 
-Чудесные эликсиры @owner@
-Аллитеративные аксессуары
+Чудесные эликсиры — @owner@
 %%%%
 @owner@'s Alliterative Accessories
 
@@ -11904,8 +12198,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Fabulous Fripperies
 
-Невероятные безделушки @owner@
-Галерея товаров
+Дивные безделушки — @owner@
 %%%%
 @owner@'s Goods Gallery
 
@@ -11913,8 +12206,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Humungous Hoard
 
-Огромный клад @owner@
-Невероятный инвентарь
+Несметные сокровища — @owner@
 %%%%
 @owner@'s Incredible Inventory
 
@@ -11938,8 +12230,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Needful Niceties
 
-Необходимые тонкости @owner@
-Необычные предложения
+Полезные мелочи — @owner@
 %%%%
 @owner@'s Offbeat Offerings
 
@@ -11955,8 +12246,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Retail Resort
 
-Розничный курорт @owner@
-Превосходные расходные материалы
+Торговый рай — @owner@
 %%%%
 @owner@'s Superlative Supplies
 
@@ -11964,8 +12254,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Tempting Trifles
 
-Заманчивые мелочи @owner@
-Непревзойденные утилиты
+Заманчивые пустячки — @owner@
 %%%%
 @owner@'s Unparalleled Utilities
 
@@ -11985,8 +12274,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Yearning Yield
 
-@owner@ Тоскующая доходность
-Зона Дзайбацу
+Желанные находки — @owner@
 %%%%
 @owner@'s Zaibatsu Zone
 
@@ -12026,8 +12314,7 @@ Cheibriados's Comfort Zone
 %%%%
 @owner@'s Bottled Wisdom
 
-Мудрость @owner@ в бутылке
-Премиальные товары
+Мудрость в бутылках — @owner@
 %%%%
 @owner@'s Premium Goods
 
@@ -13084,7 +13371,6 @@ You feel healthier.
 You feel a little healthier.
 
 Вы чувствуете себя немного здоровее.
-Устойчивость к мутациям
 %%%%
 mutation resistance
 
@@ -16189,7 +16475,6 @@ Disintegrate
 Blade Hands
 
 Руки-клинки
-Форма статуи
 %%%%
 Statue Form
 
@@ -16862,7 +17147,6 @@ Summon Scarabs
 Throw Ally
 
 Бросок союзника
-Гравитация
 %%%%
 Gell's Gravitas
 
@@ -17035,7 +17319,6 @@ Creeping Frost
 Weakening Gaze
 
 Ослабляющий взгляд
-Емкостная связь
 %%%%
 Maxwell's Capacitive Coupling
 
@@ -17088,7 +17371,6 @@ Acid Ball
 Agonising Touch
 
 Мучительное прикосновение
-Ходячий перегонный куб
 %%%%
 Alistair's Walking Alembic
 
@@ -17417,7 +17699,6 @@ Martyr's Knell
 Mass Regeneration
 
 Массовая регенерация
-Портативный сваебойник
 %%%%
 Maxwell's Portable Piledriver
 
@@ -17701,13 +17982,11 @@ Vanquished Vanguard
 %%%%
 Vex
 
-Векс
-Электрический заряд
+Досаждение
 %%%%
 Vhi's Electric Charge
 
-Ви
-Электровыпад
+Электрический натиск Ви
 %%%%
 Vhi's Electrolunge
 
@@ -20943,8 +21222,7 @@ summoned
 %%%%
 durably summoned
 
-надолго вызван
-Срок действия
+длительный призыв
 %%%%
 expiring
 
@@ -20981,7 +21259,6 @@ souls bound
 strong
 
 сильный
-Заклинания
 %%%%
 spells empowered
 

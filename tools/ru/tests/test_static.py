@@ -1,6 +1,7 @@
 """Coverage and syntax gates for static Russian UI/teaching text."""
 from pathlib import Path
 import json
+import hashlib
 import re
 import sys
 import unittest
@@ -8,10 +9,63 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, tokens
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, tokens, reviewed_descriptions
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_context_review_marks_only_the_current_translations(self):
+        review = json.loads((ROOT / "localization/ru/context-review.json").read_text(encoding="utf8"))
+        data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        for group, entry in review["catalogs"].items():
+            self.assertEqual(len(data[group]), entry["entries"], group)
+            actual = hashlib.sha256(json.dumps(data[group], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+            self.assertEqual(actual, entry["translations_sha256"], group)
+        for key, entry in review["messages"].items():
+            self.assertEqual(hashlib.sha256(messages[key].encode()).hexdigest(), entry["translation_sha256"], key)
+
+    def test_short_labels_do_not_contain_text_from_adjacent_records(self):
+        data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
+        for group, entries in data.items():
+            for source, target in entries.items():
+                if "\n" not in source:
+                    self.assertNotIn("\n", target, (group, source))
+
+    def test_ui_confirmation_keys_remain_real_engine_keys(self):
+        data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
+        for source, target in data["ui"].items():
+            self.assertEqual(re.findall(r"\[[YyNnQq/]+\]", source),
+                             re.findall(r"\[[YyNnQq/]+\]", target), source)
+
+    def test_system_message_fragments_round_trip_with_spaces(self):
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        generated = read_db(ROOT / "crawl-ref/source/dat/translate/ru/system.txt", True)
+        self.assertEqual(generated, messages)
+        self.assertEqual(generated[" Continue?"], " Продолжить?")
+        self.assertEqual(generated["Cast: "], "Заклинание: ")
+
+    def test_reviewed_mechanics_match_current_source_and_generated_text(self):
+        data = reviewed_descriptions()  # Validates source hashes, references and Lua.
+        self.assertEqual(set(data["skills"]), set(read_db(ROOT / "crawl-ref/source/dat/descript/skills.txt")))
+        self.assertEqual(set(data["egos"]), set(read_db(ROOT / "crawl-ref/source/dat/descript/egos.txt")))
+        for filename, group in data.items():
+            generated = read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt")
+            for key, entry in group.items():
+                self.assertEqual(generated[key], entry["text"], (filename, key))
+        for filename in ("items", "skills"):
+            wiki = json.loads((ROOT / "wiki/ru/reference/descriptions.json").read_text(encoding="utf8"))[filename]
+            for key, entry in data[filename].items():
+                self.assertEqual(wiki[key]["text"], entry["text"], key)
+                if wiki[key]["title"]:
+                    page = (ROOT / "wiki/ru/reference" / filename / (key.lower().replace(" ", "-") + ".md")).read_text(encoding="utf8")
+                    self.assertIn(entry.get("wiki_text", entry["text"]), page, key)
+
+    def test_token_protection_distinguishes_contexts_and_natural_percentages(self):
+        self.assertEqual(tokens("{menu-state}manual"), ["{menu-state}"])
+        self.assertEqual(tokens("{adj-e}Human"), ["{adj-e}"])
+        self.assertEqual(tokens("20% chance, 30% faster"), [])
+        self.assertEqual(tokens("chance: %4.1f; %+d; %c"), ["%+d", "%4.1f", "%c"])
+
     def test_fragment_whitespace_survives_the_generated_database(self):
         data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))
         generated = read_db(ROOT / "crawl-ref/source/dat/translate/ru/static.txt", True)
