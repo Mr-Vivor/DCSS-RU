@@ -86,6 +86,13 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("Cast: ") == "Заклинание: ");
     CHECK(localise("It affects your AC (+4).") == "Изменяет вашу броню (+4).");
     CHECK(localise("It greatly increases your willpower.") == "Значительно повышает вашу Волю.");
+    CHECK(localise("Flame") == "Пламя");
+    CHECK(localise("Base accuracy: +2  Base damage: 7  Base attack delay: 1.2")
+          == "Базовая точность: +2  Базовый урон: 7  Задержка атаки: 1.2");
+    CHECK(localise("Base shield rating: 5     Encumbrance rating: 10     Max blocks/turn: 4")
+          == "Базовый щит: 5     Тяжесть: 10     Блоков за ход: 4");
+    CHECK(localise("This weapon's minimum attack delay (0.7) is reached at skill level 14.")
+          == "Минимальная задержка атаки этим оружием (0.7) достигается на уровне навыка 14.");
     CHECK(localise("the Covered") == "Латник");
     CHECK(localise("the ice dragon") == "ледяной дракон");
     CHECK(localise_in_context("acc", "the ice dragon") == "ледяного дракона");

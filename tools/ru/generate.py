@@ -140,6 +140,8 @@ def outputs(entities):
     item_names = {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "item"}
     item_names.update(terms.get("items", {}))
     reference = {}
+    reference_index = ["# Справочник предметов и навыков", "",
+                       "Названия и описания синхронизированы с русской версией игры.", ""]
     for filename, group in reviewed.items():
         source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
         target_path = ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"
@@ -149,6 +151,8 @@ def outputs(entities):
         result[target_path] = write_db(merged,
             "Reviewed entries generated from localization/ru/descriptions.json; remaining entries await review.")
         reference[filename] = {}
+        if filename in ("items", "skills"):
+            reference_index.extend(("## " + ("Предметы" if filename == "items" else "Навыки"), ""))
         for key, entry in group.items():
             title = (item_names if filename == "items" else terms["skill"] if filename == "skills" else {}).get(key)
             reference[filename][key] = dict(title=title, text=entry["text"], source_sha256=entry["source_sha256"])
@@ -159,7 +163,10 @@ def outputs(entities):
             result[ROOT / "wiki/ru/reference" / filename / (slug + ".md")] = (
                 f"# {title[:1].upper() + title[1:]}\n\n**English:** {key}\n\n{body}\n\n"
                 "Название и описание берутся из общих словарей игры и вики.\n")
+            reference_index.append(f"- [{title[:1].upper() + title[1:]}]({filename}/{slug}.md)")
+        reference_index.append("")
     result[ROOT / "wiki/ru/reference/descriptions.json"] = json.dumps(reference, ensure_ascii=False, indent=2) + "\n"
+    result[ROOT / "wiki/ru/reference/README.md"] = "\n".join(reference_index)
     wiki = {entity["id"]: dict(title=entity["forms"]["singular"]["nom"].capitalize(),
                                 en=entity["en"], en_plural=entity["en_plural"],
                                 kind=entity["kind"], forms=entity["forms"], review=entity["review"])
@@ -167,6 +174,7 @@ def outputs(entities):
     result[ROOT / "wiki/ru/entities.json"] = json.dumps(wiki, ensure_ascii=False, indent=2) + "\n"
     index = ["# Словарь русской вики DCSS", "", "Автоматически создан из общего словаря игры и вики.",
              "", "[Виды, предыстории, боги и навыки](character-terms.md): названия и описания из игры.",
+             "[Справочник предметов и навыков](reference/README.md): проверенные описания текущей версии.",
              "Формы со статусом draft допускают точечные исправления.", "", "| ID | Название | English | Статус |",
              "|---|---|---|---|"]
     for entity in entities:
@@ -174,8 +182,15 @@ def outputs(entities):
         index.append(f"| `{entity['id']}` | [{title}](pages/{entity['id']}.md) | {entity['en']} | {entity['review']} |")
         page = [f"# {title}", "", f"**English:** {entity['en']}", f"**ID:** `{entity['id']}`", ""]
         content_path = ROOT / "wiki/ru/content" / (entity["id"] + ".md")
+        reviewed_item = reviewed.get("items", {}).get(entity["en"]) if entity["kind"] == "item" else None
+        if reviewed_item:
+            page.extend(("## Описание в игре", "", reviewed_item["text"], ""))
         if content_path.exists():
+            if reviewed_item:
+                page.extend(("## Дополнительно", ""))
             page.extend((content_path.read_text(encoding="utf8").strip(), "", "## Формы названия", ""))
+        elif reviewed_item:
+            page.extend(("## Формы названия", ""))
         else:
             page.extend(("Черновая карточка термина. Описание механик и советы ещё не добавлены.", ""))
         page.extend(("| Падеж | Единственное число | Множественное число |", "|---|---|---|"))

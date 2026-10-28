@@ -2509,6 +2509,462 @@
     "[<w>!</w>]: Description|<w>Quote</w>": {
       "context": "describe.cc",
       "translation_sha256": "73ff54766c09c8de900b9458acff4b2eaa8ca0a4e02263ed68a92bac914494c3"
+    },
+    "Base accuracy: @arg1@  Base damage: @arg2@  Base attack delay: @num1@.@num2@": {
+      "context": "describe.cc",
+      "translation_sha256": "a82b0bcbfbacf4bea3a4ef4198c30c99b43a37900ee4e07bc9b958a7862ada20"
+    },
+    "Base damage: @num1@  Base attack delay: @num2@.@num3@": {
+      "context": "describe.cc",
+      "translation_sha256": "52107bb97d04668e5b24e2cec5ec05c80b672f1219895bc438555281be46db90"
+    },
+    "This weapon's minimum attack delay (@num1@.@num2@) is reached at skill level @num3@.": {
+      "context": "describe.cc",
+      "translation_sha256": "05c799edfe5cf74086045f528a77541936042bfe5e8425cc6621370076f2e225"
+    },
+    "This projectile's minimum attack delay (@num1@.@num2@) is reached at skill level @num3@.": {
+      "context": "describe.cc",
+      "translation_sha256": "f091987301089c0c449c88dd787381492fe2f11f148e2980d092b192161f63d9"
+    },
+    "Current attack delay: @num1@.@num2@.": {
+      "context": "describe.cc",
+      "translation_sha256": "90a6dec5dba226daa1073ed2a1d3c2e8757cadd628ff2a09f5ffa94ff4159bd5"
+    },
+    "Damage rating: @any@": {
+      "context": "describe.cc",
+      "translation_sha256": "43f5a59592e3b9dab38e5f30562950600f90824959caae08a9c53eccbe8218d7"
+    },
+    "Your skill: @num1@.@num2@": {
+      "context": "describe.cc",
+      "translation_sha256": "0bbfee712f2fcb0067c8da275b66140d01023cbb56d90643a2f314a15934a6cd"
+    },
+    "Your (base) skill: @num1@.@num2@": {
+      "context": "describe.cc",
+      "translation_sha256": "ba6426adf5b75e7e2aec5b45ff1dcd2105af9ae6e9dd24ea22d9506b064d75bf"
+    },
+    "Your skill: @num1@.@num2@; use <white>(s)</white> to set @num3@.@num4@ as a target for @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "a9d5e5d370a5fa6fb0e4496c9c6b865578f2173b6d41d40b203e62df1b4a8bf8"
+    },
+    "Your (base) skill: @num1@.@num2@; use <white>(s)</white> to set @num3@.@num4@ as a target for @arg@.": {
+      "context": "describe.cc",
+      "translation_sha256": "394822bcf3201d82103a690b83b36e4a5158d328004429152ad2dfbba940fb85"
+    },
+    "You cannot currently reach @num1@.@num2@.": {
+      "context": "describe.cc",
+      "translation_sha256": "72c92ada74b6bc73099930c86ba385604c08a625d21526b90f7d79d333e40c14"
+    },
+    "about @num1@.@num2@ XLs": {
+      "context": "describe.cc",
+      "translation_sha256": "8f3551949ee9551b05a91dd39125aa94a52a5a0cd0a6ec9c763ad8fb0bc84acd"
+    },
+    "the equivalent of @num1@.@num2@ XLs": {
+      "context": "describe.cc",
+      "translation_sha256": "05ce0adb68f7f774f4465854825e7764a59e90ede8949e0e8fc4f35378e499a0"
+    },
+    "At 100% training you would reach @num1@.@num2@ in @any@.": {
+      "context": "describe.cc",
+      "translation_sha256": "b46a61882a0a3c7ca5ddfd17207ff47e4b81806e82405203ec93180dd13ae503"
+    },
+    "At current training (@num1@%) you reach @num2@.@num3@ in @any@.": {
+      "context": "describe.cc",
+      "translation_sha256": "63037815a6cc9270522650c64b728103f93032c50dd2b1f8991372065f1eef56"
+    },
+    "At a training level of @num1@% you would reach @num2@.@num3@ in @any@.": {
+      "context": "describe.cc",
+      "translation_sha256": "dbd9695f4898a68cdac0ef88e41d93b4cb50c25b9ca81b8bc8e005d112634962"
+    },
+    "@Arg@ slows your attacks with this weapon by @num1@.@num2@.": {
+      "context": "describe.cc",
+      "translation_sha256": "4acec8879e8c3dab118fc687b6506bd45e88586bab439ffd779d0a4eccf071f0"
+    },
+    "@Arg@ slightly slows your attacks with this weapon.": {
+      "context": "describe.cc",
+      "translation_sha256": "b1b77e76574bcfc7174faf9a004564b57e017ff8ffadbc7c0d3ad19d2f37bbc9"
+    },
+    "Wearing @arg@ would reduce your attack speed with this weapon.": {
+      "context": "describe.cc",
+      "translation_sha256": "b33d25ec6df5744c5b0d4c00a28a761aff86dbcdfca0cdeb0e19ff0d4a0d7539"
+    },
+    "heavy armour": {
+      "context": "describe.cc",
+      "translation_sha256": "9f2a78c7db75f9652150f7b9542e70549b3207c1e7f816ec5a79d3d486b35231"
+    },
+    "a shield": {
+      "context": "describe.cc",
+      "translation_sha256": "2c97720d10aa09f33be2aeae5590f50d03fcabeb6b865f09f8f17e6cadec6c48"
+    },
+    "Base armour rating: @num1@       Encumbrance rating: @num2@": {
+      "context": "describe.cc",
+      "translation_sha256": "093047c3c01db686fcd640c2f8c23d1a7520b9e989e21b7972dca7e13dc410ff"
+    },
+    "Base armour rating: @num1@       Evasion: @num2@": {
+      "context": "describe.cc",
+      "translation_sha256": "86113545e0cbabf75bcd7e8c6a622bf8b22b0b3466b9d00ebac88359d7623734"
+    },
+    "Base armour rating: @num@": {
+      "context": "describe.cc",
+      "translation_sha256": "ed18340b1e914c562cefbf8f9b7bf8b2e4b3b15429c89440dd56c1942ba08748"
+    },
+    "Base shield rating: @num1@     Encumbrance rating: @num2@     Max blocks/turn: @num3@": {
+      "context": "describe.cc",
+      "translation_sha256": "19a348335d82e818c99f7f23a028e252f34914ddeeb49c5ea286fb9b125945b8"
+    },
+    "It is cumbersome to wear, and slightly impedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.": {
+      "context": "describe.cc",
+      "translation_sha256": "c1e1b74458678c2fe38b232f80378e1fe9a53cadc5fcf5732b9673099c4649f2"
+    },
+    "It is cumbersome to wear, and impedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.": {
+      "context": "describe.cc",
+      "translation_sha256": "b612b77d1a6d1e0a694a0b03a28e549cd8dff9b86f967c848fddeb41cbe0e44b"
+    },
+    "It is cumbersome to wear, and greatly impedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.": {
+      "context": "describe.cc",
+      "translation_sha256": "cc9fa5723916427a769848301d179eb899605fa6bb88a6116367ea7b69595b6e"
+    },
+    "It is always destroyed on impact.": {
+      "context": "describe.cc",
+      "translation_sha256": "7789869e63cbfcd9a7c4cb00463af501984f46fe0cb7b061d066d7846cdb746c"
+    },
+    "It has a 1/@num@ chance to be destroyed on impact.": {
+      "context": "describe.cc",
+      "translation_sha256": "2db382e6b8eeb6c5dc94b8daa636d52bc5312742774d6ca8ec702763bc5ee1c3"
+    },
+    "With your current SH, it has a @num@% chance to reflect attacks against your willpower and other normally unblockable effects.": {
+      "context": "describe.cc",
+      "translation_sha256": "a575b1e71e28102b945538b46ff517f87604fc6dbf4e04b2c0c5e3cdf42b480a"
+    },
+    "Spell refund chance: @num1@% (max @num2@%)": {
+      "context": "describe.cc",
+      "translation_sha256": "662b2769c634a0837cedeee83e94c64b932b3164a5d1041fd7f2334a2b01a918"
+    },
+    "Enemy Willpower: -@num1@ (max -@num2@)": {
+      "context": "describe.cc",
+      "translation_sha256": "9dd4f75c3c72f53e761651eb4d554add42fe084b73457b80b06dc5f1cb7c5291"
+    },
+    "Vitrify chance: @num1@% (max @num2@%)": {
+      "context": "describe.cc",
+      "translation_sha256": "5c2c5b1add924f908d618b6af053efc84a23b8649fbde00d651c5961a0014edc"
+    },
+    "Explosion chance: @num1@% (max @num2@%)": {
+      "context": "describe.cc",
+      "translation_sha256": "dbaf04bcaaa1e3ef1f5d257d2bce5a5b320e54ca75f6a7ed7a4c8fdcadeb10ea"
+    },
+    "Explosion damage: @num1@d@num2@ (max @num3@d@num4@)": {
+      "context": "describe.cc",
+      "translation_sha256": "8cead155bb3864c2cd426ca2a80222e5df7690f5ba5d22c9af3cd16edfbb628f"
+    },
+    "Base shooting star damage: @num1@d@num2@ (max @num3@d@num4@) + 25% per MP spent": {
+      "context": "describe.cc",
+      "translation_sha256": "95137d2c244afab8096dc7f14bd60667083205e9fad7ed8f0b00a164abd13e2c"
+    },
+    "Shooting stars conjured: 1 + 1 per visible enemy, up to @num1@ (@num2@ at max skill)": {
+      "context": "describe.cc",
+      "translation_sha256": "1d7b3e65b0cf6b6f60f7182b6bd9e2aeebb0347de84b8a2944f709f27ac2ded1"
+    },
+    "Mesmerism radius: @num1@ (max @num2@)": {
+      "context": "describe.cc",
+      "translation_sha256": "e8e65a46ad5e80d73af706c00910fac7ea3fd2de116c45cc0f8a00706e84ee62"
+    },
+    "'Of @arg@'": {
+      "context": "describe.cc",
+      "translation_sha256": "82f20593788c8fe59adb56dcd4f0565ee316a6c6ecdfda264d88c42373956634"
+    },
+    "Flame": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "83f6cce08550e1d76aa3b878e2dd03bce7d665aedbb1667d02b753ebb5518504"
+    },
+    "Freeze": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "8295a5b3a5adaf0213df3cdf64d53a7b4067dab9d1db3ceef31deb3fe40016fa"
+    },
+    "Holy": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "4b4837f58c53ae5b03144d6a115bac5f02a7a0f0144e93933f48c318bf83230a"
+    },
+    "Elec": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "583b79cd9187ba7d8ca3ae67fdca5355703c6c90d25e14099b4e574199c7c91d"
+    },
+    "Venom": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "12b538e43164c7b7e1d296b4d0b93059a7e89ac58096cdfecb04849649cbf0e5"
+    },
+    "Protect": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "792acb40e452f4c7c0d0aab8a8ce4545f9072bc8a4d7cc2796f0e961787bc7d0"
+    },
+    "Drain": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "85d7d2821bfb8351bd6a275324dd93a304dbfe77b770231b21fe477e98fadc0c"
+    },
+    "Speed": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "70e98e32147cf4ecfc7b6fe58a5cddedfa033773f2b3dfdd698c805900729969"
+    },
+    "Vamp": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "c3c8078b884b8ee7f947e9fdf5ca388cd02c3a1d6f390df2b5126c2526b84259"
+    },
+    "Pain": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "40067dbf1ae46e312f548041c3309691a9f38620a72d82e0d40708e305468531"
+    },
+    "Antimagic": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "ade6b52efe8495e32ee04270226a2dc092356db9c47ad5175403f5023d4311a2"
+    },
+    "Distort": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "be0bea406e27e7639ac1bfd9aff3f47984a8ac0eea1065a7d5f3583add70d0bc"
+    },
+    "Chaos": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "62d8c4932b55327d8fc76dd3dc46edd0d3a8ead67e6e9e4bf17a9a264b4d5f14"
+    },
+    "Penet": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "b38bec8cc5381751eb433a65cb43f86ffd6385cc01d40dbdd8808858c4e54e7b"
+    },
+    "Reap": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "1d15389a447ed5f132528fc6072a0a1ba918a44457c7db42769ee7ffa71ba27c"
+    },
+    "Spect": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "0bbb96f70b10d7306525799410ffcd6280f0b5de35af2ef31b03fbe80d1996be"
+    },
+    "Valour": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "932bf9723f9a28318ffeaad563434126b69f06ddb61135fa3d079e9be1c2083f"
+    },
+    "Entangle": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "66340e11b558cf61f7bdf027284a5c1d02a20617efa186d84908abf6ff3f5f79"
+    },
+    "Sunder": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "e64d610cc36badf31624b23b4a93f1bf21ef991232108a01feb603720950ac96"
+    },
+    "Concuss": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "196f69d1afa4e2a58b2d862a32b1d0c2f7187b39b2791a45bd4d004037f6cd74"
+    },
+    "Devious": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "248a72f391e4476230b16c369e5fbeda731d320ba8f4f07c456eab07707bd374"
+    },
+    "Foul flame": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "e28955e91f83763288deac371982848e4cdc41a2d5b3a86661dc3d6050aec1f0"
+    },
+    "Acid": {
+      "context": "describe.cc:_describe_weapon; dat/descript/egos.txt; item-name.cc",
+      "translation_sha256": "cdeac1c9aadf12d5b9e5436a815631128b287db2fa6095191dc577e73dd58aec"
+    },
+    "(w)ield": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "08a3bfb9e0623205e4a3f4b2d3ff3c471d1751857c8dd25caa542acd784219d5"
+    },
+    "(u)nwield": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "11dc042ad7978865e697503011c9553a4b645192c1cb9347dc2ea1748f90a551"
+    },
+    "(q)uiver": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "cc44d73cbe1adda5e71a30a52102f7ed285eb4a7c3e72a4659be70d85e3eed24"
+    },
+    "(w)ear": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "857ced20c84e58719e920f43bbcc9b7bf525640355b9d69accb751f398885c81"
+    },
+    "(t)ake off": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "cbc1cd8c672cb8e8840262ed0b920343624e7d3584ca96c6a9b62e53829df097"
+    },
+    "e(v)oke": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "6a02f62319909fd44391bdfb9df5d58ca3bf1b9e7cc0b64cafea9f93b40c7248"
+    },
+    "(r)ead": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "528641c1ab60f1864178727a1436a7c58f6b7826849a5235a9a4a10248614263"
+    },
+    "(p)ut on": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "442fe2fabb85b7fc9e931e802b0d2cdbc8461072039eece44753a6c8ecefa116"
+    },
+    "(r)emove": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "867b082aed1a904fcea4ddd5ac2cd2e15cac2365127d213a7c217b66d5ff7101"
+    },
+    "(q)uaff": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "cf92245296471cc7a6fe85472e7997455189a0a83745a5ca62b86a84e2433b80"
+    },
+    "(d)rop": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "0b68979ba24524b081915260d3f389c652a35b5705438ea7b780ec47c2fc3f20"
+    },
+    "(i)nscribe": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "df796a99c5e7e558754e87f430f91cef8ec40f32c63eb0a6c46617f0f6b9365a"
+    },
+    "(=)adjust": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "011872a9726e11c7b63e24df2228f999f1754c6c1e7a06ba3efadb7848dd0af4"
+    },
+    "(s)kill": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "280035fbde3ced8352fe3741f8fb7806689c848f929d14cf7a4cc20603224bb9"
+    },
+    "Select a spell, or ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "48111de79b33456da754d003174f4b2daf14537f3ebdcab149e3604ef332a7f5"
+    },
+    "Replace inscription with what?": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "b107791b2d12bc45e7a54ea16ca443850859e8979b637770a56c9537df4e3ae6"
+    },
+    "Inscribe with what?": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "60dfcfeb5e506cc07bed01f062f6cb82da2f336b7a5826479dc3c951ca5d5545"
+    },
+    "Level: @num@": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "8a5105580a255be2659283ca81283db87cc8684d77b5141e9a7395c63be61dd7"
+    },
+    "School: ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "ba3e910c73531af927deb69e1ae1342079662110efde973d4eea840f85c34f3b"
+    },
+    "Schools: ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "16f0ee2e9571f901895b5780ddfbe9a90696a29f47df0a0271988531584b5ae5"
+    },
+    "Fail: @num@%%": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "aac5522386d13449af025bebdf40a1cdc14ea2b4700f8d431285e5c7cd41ef77"
+    },
+    "Power: ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "969a81b8826400c0a5b41c61bd7d294a9266ca5058cf64a22943dddd169ee3cb"
+    },
+    "Accuracy: ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "d8297aa7ae26082a9610020493c7356bcb0b96a96086d762a91c47fde70d47e3"
+    },
+    "Range: ": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "7b2364ddc0af4d9c30111f2f93aba4d46ae913453f00fd8d3cfe70cc1d7c08ee"
+    },
+    "How on earth did you manage to pick this up?": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "62fa4324892471a06c45634f44ab45177de177878a6c0b9cff210e4f01115472"
+    },
+    "Note that Trog doesn't use Invocations, due to its close connection to magic.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "d7165565f56b4663c8b7241b15ede5e5a17d10cdd6bca4a25058dde9641f6403"
+    },
+    "Keep in mind, though, that Trog would greatly disapprove of this.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "dab5f089b322668e567bea2a5e2a246538437270217cae35eec5b8a12b8eab59"
+    },
+    "Chance to defeat your Will: @num@%%@arg@": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "9b26e6f6ef1a3b9aeb2b6ddc795bebee99765345b90a635157623f8beb41c2d9"
+    },
+    "Miscasting this spell causes magic contamination.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "20ab04152c3ba18ff4fa1112d5207a0bdb38f398c3689c394a3d4d21e13c33a1"
+    },
+    "Miscasting this spell causes magic contamination and also @arg@.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "ac17d997f09733b3c8c50a63bdc8c0aad031ee43f93e98b0215393d51114672e"
+    },
+    "You can sustain at most 1 creature summoned by this spell.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "62168a9c6a7eb95a4c5220a7a9a423c16c79daa51ac52fa5cb255a73ec47da80"
+    },
+    "You can sustain at most @num@ creatures summoned by this spell.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "a89e80d5345170c740dd2dd22318220f1bb7838a80679258de1228fb1838b35f"
+    },
+    "@Arg@ frowns upon the use of this spell.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "3d2bc0bf6864f68331db03f79724b9f20856b914a5eced937b54483e55143692"
+    },
+    "You'd be excommunicated if you dared to cast it!": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "60ca326116aa1362e8e29a7a60f463bab59270b6402e6a2c22c4b08da608c904"
+    },
+    "@Arg@ supports the use of this spell.": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "db1b886c025de3aa4646615a8f93c414fd5abc1a68372c6717049dd1c415215c"
+    },
+    "You cannot cast this spell because @arg@": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "91515296328433c5214d4c57673b7d6618cb7ef4d96191e7eb046fa0b88e38ec"
+    },
+    "You cannot memorise this spell because @arg@": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "6b8fbac9b84603664812f2e7e376402f7b321dcd4450c2e04e29a28ad4b41b07"
+    },
+    "This spell would have no effect right now because @arg@": {
+      "context": "describe.cc; dat/translate/messages.txt",
+      "translation_sha256": "8b41ca063f9636ec639bdf45203b4acc654a8f3bb29a2b487b25ccc6d9e5ab7d"
+    },
+    "@arg@ (Confirm with \\\"yes\\\".) ": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "a85f910670f6d6d059583cf7f3cc2164be441edf47ec02c9b01a8bc9767d904f"
+    },
+    "Uppercase [Y]es or [N]o only, please.": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "83cbad75c4caa35ee4bcef06a0f902af905dca837afa36d5c61b62d1d3764bd4"
+    },
+    "[Y]es or [N]o only, please.": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "a4d6345958f54b90066d85e7ab07c3265365774ab640c4b6bd810068a7d50d41"
+    },
+    "(y)es": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "dd7cdfed28e3bccd7fe83208d70121a6619326d5c973d3f4d98515e725cee220"
+    },
+    "(Y)es": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "72ec953578fe93700b8ee4d84629dd1f3a0a05eb56191199d1de33c82223ebb2"
+    },
+    "/(a)ll": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "0d5695a5e3214767e6f5c5243eebba1c03632d675d5cec579b91492027b0b560"
+    },
+    "/(A)ll": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "3553e2a680230850e115f47f9566bad86009105952e6c32e248bbb97abcb343f"
+    },
+    "/(n)o/(q)uit": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "5347703d324c50e361535456055882dc478d14c090f89f846a87f179f8878108"
+    },
+    "/(N)o/(Q)uit": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "9207248924ca5aa1a58efe7c33806cd463acb2a9d6b5a62a8e3958e4465d9fb7"
+    },
+    "Choose uppercase [Y]es@arg@, [N]o, [Q]uit, or [A]ll!": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "edcfd27e1526450461b2a58035c29322e6c3b0abdf3c1927104b69169dac6837"
+    },
+    "Choose [Y]es@arg@, [N]o, [Q]uit, or [A]ll!": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "23585ab3f9a061d8917c5ac293ee5a462bea7b2e9424071953663e3274fd0e22"
+    },
+    "Uppercase [Y]es@arg@, [N]o or [Q]uit only, please.": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "06cb8f57e0f6c783ed1acf3b4c2e0e9ddd65929999f28c8f18b6474fa67b064c"
+    },
+    "[Y]es@arg@, [N]o or [Q]uit only, please.": {
+      "context": "prompt.cc; dat/translate/messages.txt",
+      "translation_sha256": "7df3f1b427285d205e83128cea4abfb8cd427fc0d471ed77727c08e4b43ecac9"
     }
   }
 }
