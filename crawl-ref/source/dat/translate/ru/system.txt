@@ -6738,7 +6738,7 @@ Acquire @arg1@? (@arg2@/@arg3@)
 %%%%
 Press: ? - help
 
-? — справка
+Клавиши: ? — справка
 %%%%
 v - describe
 
@@ -28167,3 +28167,47 @@ Engulfed by @arg1@'s @arg2@
 Level:
 
 Уровень:
+%%%%
+Trooper
+
+Боец
+%%%%
+the Trooper
+
+Боец
+%%%%
+Fire: @any@
+
+Выстрел: @any@
+%%%%
+Press: @any@
+
+Клавиши: @any@
+%%%%
+@num@% to hit
+
+шанс попадания: @num@%
+%%%%
+almost dead
+
+при смерти
+%%%%
+arrow
+
+стрела
+%%%%
+an arrow
+
+стрела
+%%%%
+the arrow
+
+стрела
+%%%%
+You shoot an arrow.
+
+Вы выпускаете стрелу.
+%%%%
+You feel agile.
+
+Вы чувствуете себя ловчее.

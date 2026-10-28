@@ -120,6 +120,14 @@ def main():
                     assert "Welcome" not in body, body
                     assert "+0 рапира" in body, body
                     assert "+0 rapier" not in body, body
+                    # Spectators may receive an old menu scroll after a popup
+                    # closes. Exercise the real protocol handler with no menu.
+                    page.evaluate("""() => new Promise(resolve => {
+                        require(['comm'], comm => {
+                            comm.handle_message({msg:'menu_scroll', first:0, force:true});
+                            resolve();
+                        });
+                    })""")
                     page.screenshot(path=str(ARTIFACTS / "first-level.png"), full_page=True)
                     (ARTIFACTS / "first-level.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                 except Exception:

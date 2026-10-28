@@ -201,3 +201,5 @@
 | `item.gold_piece` | [Золотая монета](pages/item.gold_piece.md) | gold piece | draft |
 | `monster.iguana` | [Игуана](pages/monster.iguana.md) | iguana | reviewed |
 | `monster.rock_fish` | [Каменная рыба](pages/monster.rock_fish.md) | rock fish | reviewed |
+| `monster.worm` | [Червь](pages/monster.worm.md) | worm | reviewed |
+| `monster.training_dummy` | [Учебный манекен](pages/monster.training_dummy.md) | training dummy | reviewed |

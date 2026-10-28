@@ -846,6 +846,9 @@ function ($, comm, client, ui, enums, cr, util, options, scroller) {
 
     function server_menu_scroll(data)
     {
+        // Spectator replay can deliver a scroll after the matching menu closed.
+        if (!menu)
+            return;
         if (!data.force && !client.is_watching())
             return;
 

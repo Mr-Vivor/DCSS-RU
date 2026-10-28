@@ -4825,5 +4825,56 @@
       "counted_few": "каменные рыбы"
     },
     "review": "reviewed"
+  },
+  "monster.worm": {
+    "title": "Червь",
+    "en": "worm",
+    "en_plural": "worms",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "червь",
+        "gen": "червя",
+        "dat": "червю",
+        "acc": "червя",
+        "ins": "червём",
+        "prep": "черве"
+      },
+      "plural": {
+        "nom": "черви",
+        "gen": "червей",
+        "dat": "червям",
+        "acc": "червей",
+        "ins": "червями",
+        "prep": "червях"
+      }
+    },
+    "review": "reviewed"
+  },
+  "monster.training_dummy": {
+    "title": "Учебный манекен",
+    "en": "training dummy",
+    "en_plural": "training dummies",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "учебный манекен",
+        "gen": "учебного манекена",
+        "dat": "учебному манекену",
+        "acc": "учебный манекен",
+        "ins": "учебным манекеном",
+        "prep": "учебном манекене"
+      },
+      "plural": {
+        "nom": "учебные манекены",
+        "gen": "учебных манекенов",
+        "dat": "учебным манекенам",
+        "acc": "учебные манекены",
+        "ins": "учебными манекенами",
+        "prep": "учебных манекенах"
+      },
+      "counted_few": "учебных манекена"
+    },
+    "review": "reviewed"
   }
 }

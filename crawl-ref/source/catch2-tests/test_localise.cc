@@ -262,6 +262,10 @@ TEST_CASE("Russian runtime comparisons describe the direction of stat changes", 
     CHECK(localise("21 rock fish") == "21 каменная рыба");
     CHECK(localise("The iguana bites you!") == "Игуана кусает вас!");
     CHECK(localise("The air fills with toxic fumes!") == "Воздух наполняется ядовитыми испарениями!");
+    CHECK(localise("Fire: e) +0 shortbow") == "Выстрел: e) +0 короткий лук");
+    CHECK(localise("97% to hit") == "шанс попадания: 97%");
+    CHECK(localise("You shoot an arrow.") == "Вы выпускаете стрелу.");
+    CHECK(localise_in_context("acc", "a training dummy") == "учебный манекен");
 
     for (const string key : {"welcome_spam", "welcome_spam dungeon descent", "welcome_spam Halloween"})
     {

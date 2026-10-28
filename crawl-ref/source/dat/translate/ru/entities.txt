@@ -514,6 +514,9 @@
 @num@ tower shields
 @num@ башенных щитов
 %%%%
+@num@ training dummies
+@num@ учебных манекенов
+%%%%
 @num@ tridents
 @num@ трезубцев
 %%%%
@@ -570,6 +573,9 @@
 %%%%
 @num@ wolves
 @num@ волков
+%%%%
+@num@ worms
+@num@ червей
 %%%%
 @num@ wraiths
 @num@ призраков
@@ -1606,6 +1612,12 @@ a tower shield
 a tower shield's
 {m}башенного щита
 %%%%
+a training dummy
+{m}учебный манекен
+%%%%
+a training dummy's
+{m}учебного манекена
+%%%%
 a trident
 {m}трезубец
 %%%%
@@ -1719,6 +1731,12 @@ a wolf
 %%%%
 a wolf's
 {m}волка
+%%%%
+a worm
+{m}червь
+%%%%
+a worm's
+{m}червя
 %%%%
 a wraith
 {m}призрак
@@ -2809,6 +2827,12 @@ an tower shield
 an tower shield's
 {m}башенного щита
 %%%%
+an training dummy
+{m}учебный манекен
+%%%%
+an training dummy's
+{m}учебного манекена
+%%%%
 an trident
 {m}трезубец
 %%%%
@@ -2922,6 +2946,12 @@ an wolf
 %%%%
 an wolf's
 {m}волка
+%%%%
+an worm
+{m}червь
+%%%%
+an worm's
+{m}червя
 %%%%
 an wraith
 {m}призрак
@@ -5950,6 +5980,15 @@ the tower shield's
 the tower shields
 {pl}башенные щиты
 %%%%
+the training dummies
+{pl}учебные манекены
+%%%%
+the training dummy
+{m}учебный манекен
+%%%%
+the training dummy's
+{m}учебного манекена
+%%%%
 the trident
 {m}трезубец
 %%%%
@@ -6121,6 +6160,15 @@ the wolf's
 the wolves
 {pl}волки
 %%%%
+the worm
+{m}червь
+%%%%
+the worm's
+{m}червя
+%%%%
+the worms
+{pl}черви
+%%%%
 the wraith
 {m}призрак
 %%%%
@@ -6165,6 +6213,15 @@ tower shield's
 %%%%
 tower shields
 {pl}башенные щиты
+%%%%
+training dummies
+{pl}учебные манекены
+%%%%
+training dummy
+{m}учебный манекен
+%%%%
+training dummy's
+{m}учебного манекена
 %%%%
 trident
 {m}трезубец
@@ -6336,6 +6393,15 @@ wolf's
 %%%%
 wolves
 {pl}волки
+%%%%
+worm
+{m}червь
+%%%%
+worm's
+{m}червя
+%%%%
+worms
+{pl}черви
 %%%%
 wraith
 {m}призрак
@@ -7900,6 +7966,15 @@ your tower shield's
 your tower shields
 {pl}башенные щиты
 %%%%
+your training dummies
+{pl}учебные манекены
+%%%%
+your training dummy
+{m}учебный манекен
+%%%%
+your training dummy's
+{m}учебного манекена
+%%%%
 your trident
 {m}трезубец
 %%%%
@@ -8070,6 +8145,15 @@ your wolf's
 %%%%
 your wolves
 {pl}волки
+%%%%
+your worm
+{m}червь
+%%%%
+your worm's
+{m}червя
+%%%%
+your worms
+{pl}черви
 %%%%
 your wraith
 {m}призрак
@@ -8611,6 +8695,9 @@ your yaks
 {acc_few}@num@ tower shields
 @num@ башенного щита
 %%%%
+{acc_few}@num@ training dummies
+@num@ учебного манекена
+%%%%
 {acc_few}@num@ tridents
 @num@ трезубца
 %%%%
@@ -8667,6 +8754,9 @@ your yaks
 %%%%
 {acc_few}@num@ wolves
 @num@ волков
+%%%%
+{acc_few}@num@ worms
+@num@ червей
 %%%%
 {acc_few}@num@ wraiths
 @num@ призраков
@@ -9190,6 +9280,9 @@ your yaks
 {acc_many}@num@ tower shields
 @num@ башенных щитов
 %%%%
+{acc_many}@num@ training dummies
+@num@ учебных манекенов
+%%%%
 {acc_many}@num@ tridents
 @num@ трезубцев
 %%%%
@@ -9246,6 +9339,9 @@ your yaks
 %%%%
 {acc_many}@num@ wolves
 @num@ волков
+%%%%
+{acc_many}@num@ worms
+@num@ червей
 %%%%
 {acc_many}@num@ wraiths
 @num@ призраков
@@ -9769,6 +9865,9 @@ your yaks
 {acc_one}@num@ tower shields
 @num@ башенный щит
 %%%%
+{acc_one}@num@ training dummies
+@num@ учебный манекен
+%%%%
 {acc_one}@num@ tridents
 @num@ трезубец
 %%%%
@@ -9825,6 +9924,9 @@ your yaks
 %%%%
 {acc_one}@num@ wolves
 @num@ волка
+%%%%
+{acc_one}@num@ worms
+@num@ червя
 %%%%
 {acc_one}@num@ wraiths
 @num@ призрака
@@ -10348,6 +10450,9 @@ your yaks
 {acc}a tower shield
 {m}башенный щит
 %%%%
+{acc}a training dummy
+{m}учебный манекен
+%%%%
 {acc}a trident
 {m}трезубец
 %%%%
@@ -10404,6 +10509,9 @@ your yaks
 %%%%
 {acc}a wolf
 {m}волка
+%%%%
+{acc}a worm
+{m}червя
 %%%%
 {acc}a wraith
 {m}призрака
@@ -10957,6 +11065,9 @@ your yaks
 {acc}an tower shield
 {m}башенный щит
 %%%%
+{acc}an training dummy
+{m}учебный манекен
+%%%%
 {acc}an trident
 {m}трезубец
 %%%%
@@ -11013,6 +11124,9 @@ your yaks
 %%%%
 {acc}an wolf
 {m}волка
+%%%%
+{acc}an worm
+{m}червя
 %%%%
 {acc}an wraith
 {m}призрака
@@ -13027,6 +13141,12 @@ your yaks
 {acc}the tower shields
 {pl}башенные щиты
 %%%%
+{acc}the training dummies
+{pl}учебные манекены
+%%%%
+{acc}the training dummy
+{m}учебный манекен
+%%%%
 {acc}the trident
 {m}трезубец
 %%%%
@@ -13141,6 +13261,12 @@ your yaks
 {acc}the wolves
 {pl}волков
 %%%%
+{acc}the worm
+{m}червя
+%%%%
+{acc}the worms
+{pl}червей
+%%%%
 {acc}the wraith
 {m}призрака
 %%%%
@@ -13170,6 +13296,12 @@ your yaks
 %%%%
 {acc}tower shields
 {pl}башенные щиты
+%%%%
+{acc}training dummies
+{pl}учебные манекены
+%%%%
+{acc}training dummy
+{m}учебный манекен
 %%%%
 {acc}trident
 {m}трезубец
@@ -13284,6 +13416,12 @@ your yaks
 %%%%
 {acc}wolves
 {pl}волков
+%%%%
+{acc}worm
+{m}червя
+%%%%
+{acc}worms
+{pl}червей
 %%%%
 {acc}wraith
 {m}призрака
@@ -14326,6 +14464,12 @@ your yaks
 {acc}your tower shields
 {pl}башенные щиты
 %%%%
+{acc}your training dummies
+{pl}учебные манекены
+%%%%
+{acc}your training dummy
+{m}учебный манекен
+%%%%
 {acc}your trident
 {m}трезубец
 %%%%
@@ -14439,6 +14583,12 @@ your yaks
 %%%%
 {acc}your wolves
 {pl}волков
+%%%%
+{acc}your worm
+{m}червя
+%%%%
+{acc}your worms
+{pl}червей
 %%%%
 {acc}your wraith
 {m}призрака
@@ -14971,6 +15121,9 @@ your yaks
 {dat_few}@num@ tower shields
 @num@ башенным щитам
 %%%%
+{dat_few}@num@ training dummies
+@num@ учебным манекенам
+%%%%
 {dat_few}@num@ tridents
 @num@ трезубцам
 %%%%
@@ -15027,6 +15180,9 @@ your yaks
 %%%%
 {dat_few}@num@ wolves
 @num@ волкам
+%%%%
+{dat_few}@num@ worms
+@num@ червям
 %%%%
 {dat_few}@num@ wraiths
 @num@ призракам
@@ -15550,6 +15706,9 @@ your yaks
 {dat_many}@num@ tower shields
 @num@ башенным щитам
 %%%%
+{dat_many}@num@ training dummies
+@num@ учебным манекенам
+%%%%
 {dat_many}@num@ tridents
 @num@ трезубцам
 %%%%
@@ -15606,6 +15765,9 @@ your yaks
 %%%%
 {dat_many}@num@ wolves
 @num@ волкам
+%%%%
+{dat_many}@num@ worms
+@num@ червям
 %%%%
 {dat_many}@num@ wraiths
 @num@ призракам
@@ -16129,6 +16291,9 @@ your yaks
 {dat_one}@num@ tower shields
 @num@ башенному щиту
 %%%%
+{dat_one}@num@ training dummies
+@num@ учебному манекену
+%%%%
 {dat_one}@num@ tridents
 @num@ трезубцу
 %%%%
@@ -16185,6 +16350,9 @@ your yaks
 %%%%
 {dat_one}@num@ wolves
 @num@ волку
+%%%%
+{dat_one}@num@ worms
+@num@ червю
 %%%%
 {dat_one}@num@ wraiths
 @num@ призраку
@@ -16708,6 +16876,9 @@ your yaks
 {dat}a tower shield
 {m}башенному щиту
 %%%%
+{dat}a training dummy
+{m}учебному манекену
+%%%%
 {dat}a trident
 {m}трезубцу
 %%%%
@@ -16764,6 +16935,9 @@ your yaks
 %%%%
 {dat}a wolf
 {m}волку
+%%%%
+{dat}a worm
+{m}червю
 %%%%
 {dat}a wraith
 {m}призраку
@@ -17317,6 +17491,9 @@ your yaks
 {dat}an tower shield
 {m}башенному щиту
 %%%%
+{dat}an training dummy
+{m}учебному манекену
+%%%%
 {dat}an trident
 {m}трезубцу
 %%%%
@@ -17373,6 +17550,9 @@ your yaks
 %%%%
 {dat}an wolf
 {m}волку
+%%%%
+{dat}an worm
+{m}червю
 %%%%
 {dat}an wraith
 {m}призраку
@@ -19387,6 +19567,12 @@ your yaks
 {dat}the tower shields
 {pl}башенным щитам
 %%%%
+{dat}the training dummies
+{pl}учебным манекенам
+%%%%
+{dat}the training dummy
+{m}учебному манекену
+%%%%
 {dat}the trident
 {m}трезубцу
 %%%%
@@ -19501,6 +19687,12 @@ your yaks
 {dat}the wolves
 {pl}волкам
 %%%%
+{dat}the worm
+{m}червю
+%%%%
+{dat}the worms
+{pl}червям
+%%%%
 {dat}the wraith
 {m}призраку
 %%%%
@@ -19530,6 +19722,12 @@ your yaks
 %%%%
 {dat}tower shields
 {pl}башенным щитам
+%%%%
+{dat}training dummies
+{pl}учебным манекенам
+%%%%
+{dat}training dummy
+{m}учебному манекену
 %%%%
 {dat}trident
 {m}трезубцу
@@ -19644,6 +19842,12 @@ your yaks
 %%%%
 {dat}wolves
 {pl}волкам
+%%%%
+{dat}worm
+{m}червю
+%%%%
+{dat}worms
+{pl}червям
 %%%%
 {dat}wraith
 {m}призраку
@@ -20686,6 +20890,12 @@ your yaks
 {dat}your tower shields
 {pl}башенным щитам
 %%%%
+{dat}your training dummies
+{pl}учебным манекенам
+%%%%
+{dat}your training dummy
+{m}учебному манекену
+%%%%
 {dat}your trident
 {m}трезубцу
 %%%%
@@ -20799,6 +21009,12 @@ your yaks
 %%%%
 {dat}your wolves
 {pl}волкам
+%%%%
+{dat}your worm
+{m}червю
+%%%%
+{dat}your worms
+{pl}червям
 %%%%
 {dat}your wraith
 {m}призраку
@@ -21331,6 +21547,9 @@ your yaks
 {few}@num@ tower shields
 @num@ башенного щита
 %%%%
+{few}@num@ training dummies
+@num@ учебных манекена
+%%%%
 {few}@num@ tridents
 @num@ трезубца
 %%%%
@@ -21387,6 +21606,9 @@ your yaks
 %%%%
 {few}@num@ wolves
 @num@ волка
+%%%%
+{few}@num@ worms
+@num@ червя
 %%%%
 {few}@num@ wraiths
 @num@ призрака
@@ -21910,6 +22132,9 @@ your yaks
 {gen_few}@num@ tower shields
 @num@ башенных щитов
 %%%%
+{gen_few}@num@ training dummies
+@num@ учебных манекенов
+%%%%
 {gen_few}@num@ tridents
 @num@ трезубцев
 %%%%
@@ -21966,6 +22191,9 @@ your yaks
 %%%%
 {gen_few}@num@ wolves
 @num@ волков
+%%%%
+{gen_few}@num@ worms
+@num@ червей
 %%%%
 {gen_few}@num@ wraiths
 @num@ призраков
@@ -22489,6 +22717,9 @@ your yaks
 {gen_many}@num@ tower shields
 @num@ башенных щитов
 %%%%
+{gen_many}@num@ training dummies
+@num@ учебных манекенов
+%%%%
 {gen_many}@num@ tridents
 @num@ трезубцев
 %%%%
@@ -22545,6 +22776,9 @@ your yaks
 %%%%
 {gen_many}@num@ wolves
 @num@ волков
+%%%%
+{gen_many}@num@ worms
+@num@ червей
 %%%%
 {gen_many}@num@ wraiths
 @num@ призраков
@@ -23068,6 +23302,9 @@ your yaks
 {gen_one}@num@ tower shields
 @num@ башенного щита
 %%%%
+{gen_one}@num@ training dummies
+@num@ учебного манекена
+%%%%
 {gen_one}@num@ tridents
 @num@ трезубца
 %%%%
@@ -23124,6 +23361,9 @@ your yaks
 %%%%
 {gen_one}@num@ wolves
 @num@ волка
+%%%%
+{gen_one}@num@ worms
+@num@ червя
 %%%%
 {gen_one}@num@ wraiths
 @num@ призрака
@@ -23647,6 +23887,9 @@ your yaks
 {gen}a tower shield
 {m}башенного щита
 %%%%
+{gen}a training dummy
+{m}учебного манекена
+%%%%
 {gen}a trident
 {m}трезубца
 %%%%
@@ -23703,6 +23946,9 @@ your yaks
 %%%%
 {gen}a wolf
 {m}волка
+%%%%
+{gen}a worm
+{m}червя
 %%%%
 {gen}a wraith
 {m}призрака
@@ -24256,6 +24502,9 @@ your yaks
 {gen}an tower shield
 {m}башенного щита
 %%%%
+{gen}an training dummy
+{m}учебного манекена
+%%%%
 {gen}an trident
 {m}трезубца
 %%%%
@@ -24312,6 +24561,9 @@ your yaks
 %%%%
 {gen}an wolf
 {m}волка
+%%%%
+{gen}an worm
+{m}червя
 %%%%
 {gen}an wraith
 {m}призрака
@@ -26326,6 +26578,12 @@ your yaks
 {gen}the tower shields
 {pl}башенных щитов
 %%%%
+{gen}the training dummies
+{pl}учебных манекенов
+%%%%
+{gen}the training dummy
+{m}учебного манекена
+%%%%
 {gen}the trident
 {m}трезубца
 %%%%
@@ -26440,6 +26698,12 @@ your yaks
 {gen}the wolves
 {pl}волков
 %%%%
+{gen}the worm
+{m}червя
+%%%%
+{gen}the worms
+{pl}червей
+%%%%
 {gen}the wraith
 {m}призрака
 %%%%
@@ -26469,6 +26733,12 @@ your yaks
 %%%%
 {gen}tower shields
 {pl}башенных щитов
+%%%%
+{gen}training dummies
+{pl}учебных манекенов
+%%%%
+{gen}training dummy
+{m}учебного манекена
 %%%%
 {gen}trident
 {m}трезубца
@@ -26583,6 +26853,12 @@ your yaks
 %%%%
 {gen}wolves
 {pl}волков
+%%%%
+{gen}worm
+{m}червя
+%%%%
+{gen}worms
+{pl}червей
 %%%%
 {gen}wraith
 {m}призрака
@@ -27625,6 +27901,12 @@ your yaks
 {gen}your tower shields
 {pl}башенных щитов
 %%%%
+{gen}your training dummies
+{pl}учебных манекенов
+%%%%
+{gen}your training dummy
+{m}учебного манекена
+%%%%
 {gen}your trident
 {m}трезубца
 %%%%
@@ -27738,6 +28020,12 @@ your yaks
 %%%%
 {gen}your wolves
 {pl}волков
+%%%%
+{gen}your worm
+{m}червя
+%%%%
+{gen}your worms
+{pl}червей
 %%%%
 {gen}your wraith
 {m}призрака
@@ -28270,6 +28558,9 @@ your yaks
 {ins_few}@num@ tower shields
 @num@ башенными щитами
 %%%%
+{ins_few}@num@ training dummies
+@num@ учебными манекенами
+%%%%
 {ins_few}@num@ tridents
 @num@ трезубцами
 %%%%
@@ -28326,6 +28617,9 @@ your yaks
 %%%%
 {ins_few}@num@ wolves
 @num@ волками
+%%%%
+{ins_few}@num@ worms
+@num@ червями
 %%%%
 {ins_few}@num@ wraiths
 @num@ призраками
@@ -28849,6 +29143,9 @@ your yaks
 {ins_many}@num@ tower shields
 @num@ башенными щитами
 %%%%
+{ins_many}@num@ training dummies
+@num@ учебными манекенами
+%%%%
 {ins_many}@num@ tridents
 @num@ трезубцами
 %%%%
@@ -28905,6 +29202,9 @@ your yaks
 %%%%
 {ins_many}@num@ wolves
 @num@ волками
+%%%%
+{ins_many}@num@ worms
+@num@ червями
 %%%%
 {ins_many}@num@ wraiths
 @num@ призраками
@@ -29428,6 +29728,9 @@ your yaks
 {ins_one}@num@ tower shields
 @num@ башенным щитом
 %%%%
+{ins_one}@num@ training dummies
+@num@ учебным манекеном
+%%%%
 {ins_one}@num@ tridents
 @num@ трезубцем
 %%%%
@@ -29484,6 +29787,9 @@ your yaks
 %%%%
 {ins_one}@num@ wolves
 @num@ волком
+%%%%
+{ins_one}@num@ worms
+@num@ червём
 %%%%
 {ins_one}@num@ wraiths
 @num@ призраком
@@ -30007,6 +30313,9 @@ your yaks
 {ins}a tower shield
 {m}башенным щитом
 %%%%
+{ins}a training dummy
+{m}учебным манекеном
+%%%%
 {ins}a trident
 {m}трезубцем
 %%%%
@@ -30063,6 +30372,9 @@ your yaks
 %%%%
 {ins}a wolf
 {m}волком
+%%%%
+{ins}a worm
+{m}червём
 %%%%
 {ins}a wraith
 {m}призраком
@@ -30616,6 +30928,9 @@ your yaks
 {ins}an tower shield
 {m}башенным щитом
 %%%%
+{ins}an training dummy
+{m}учебным манекеном
+%%%%
 {ins}an trident
 {m}трезубцем
 %%%%
@@ -30672,6 +30987,9 @@ your yaks
 %%%%
 {ins}an wolf
 {m}волком
+%%%%
+{ins}an worm
+{m}червём
 %%%%
 {ins}an wraith
 {m}призраком
@@ -32686,6 +33004,12 @@ your yaks
 {ins}the tower shields
 {pl}башенными щитами
 %%%%
+{ins}the training dummies
+{pl}учебными манекенами
+%%%%
+{ins}the training dummy
+{m}учебным манекеном
+%%%%
 {ins}the trident
 {m}трезубцем
 %%%%
@@ -32800,6 +33124,12 @@ your yaks
 {ins}the wolves
 {pl}волками
 %%%%
+{ins}the worm
+{m}червём
+%%%%
+{ins}the worms
+{pl}червями
+%%%%
 {ins}the wraith
 {m}призраком
 %%%%
@@ -32829,6 +33159,12 @@ your yaks
 %%%%
 {ins}tower shields
 {pl}башенными щитами
+%%%%
+{ins}training dummies
+{pl}учебными манекенами
+%%%%
+{ins}training dummy
+{m}учебным манекеном
 %%%%
 {ins}trident
 {m}трезубцем
@@ -32943,6 +33279,12 @@ your yaks
 %%%%
 {ins}wolves
 {pl}волками
+%%%%
+{ins}worm
+{m}червём
+%%%%
+{ins}worms
+{pl}червями
 %%%%
 {ins}wraith
 {m}призраком
@@ -33985,6 +34327,12 @@ your yaks
 {ins}your tower shields
 {pl}башенными щитами
 %%%%
+{ins}your training dummies
+{pl}учебными манекенами
+%%%%
+{ins}your training dummy
+{m}учебным манекеном
+%%%%
 {ins}your trident
 {m}трезубцем
 %%%%
@@ -34098,6 +34446,12 @@ your yaks
 %%%%
 {ins}your wolves
 {pl}волками
+%%%%
+{ins}your worm
+{m}червём
+%%%%
+{ins}your worms
+{pl}червями
 %%%%
 {ins}your wraith
 {m}призраком
@@ -34630,6 +34984,9 @@ your yaks
 {many}@num@ tower shields
 @num@ башенных щитов
 %%%%
+{many}@num@ training dummies
+@num@ учебных манекенов
+%%%%
 {many}@num@ tridents
 @num@ трезубцев
 %%%%
@@ -34686,6 +35043,9 @@ your yaks
 %%%%
 {many}@num@ wolves
 @num@ волков
+%%%%
+{many}@num@ worms
+@num@ червей
 %%%%
 {many}@num@ wraiths
 @num@ призраков
@@ -35209,6 +35569,9 @@ your yaks
 {nom}a tower shield
 {m}башенный щит
 %%%%
+{nom}a training dummy
+{m}учебный манекен
+%%%%
 {nom}a trident
 {m}трезубец
 %%%%
@@ -35265,6 +35628,9 @@ your yaks
 %%%%
 {nom}a wolf
 {m}волк
+%%%%
+{nom}a worm
+{m}червь
 %%%%
 {nom}a wraith
 {m}призрак
@@ -35818,6 +36184,9 @@ your yaks
 {nom}an tower shield
 {m}башенный щит
 %%%%
+{nom}an training dummy
+{m}учебный манекен
+%%%%
 {nom}an trident
 {m}трезубец
 %%%%
@@ -35874,6 +36243,9 @@ your yaks
 %%%%
 {nom}an wolf
 {m}волк
+%%%%
+{nom}an worm
+{m}червь
 %%%%
 {nom}an wraith
 {m}призрак
@@ -37888,6 +38260,12 @@ your yaks
 {nom}the tower shields
 {pl}башенные щиты
 %%%%
+{nom}the training dummies
+{pl}учебные манекены
+%%%%
+{nom}the training dummy
+{m}учебный манекен
+%%%%
 {nom}the trident
 {m}трезубец
 %%%%
@@ -38002,6 +38380,12 @@ your yaks
 {nom}the wolves
 {pl}волки
 %%%%
+{nom}the worm
+{m}червь
+%%%%
+{nom}the worms
+{pl}черви
+%%%%
 {nom}the wraith
 {m}призрак
 %%%%
@@ -38031,6 +38415,12 @@ your yaks
 %%%%
 {nom}tower shields
 {pl}башенные щиты
+%%%%
+{nom}training dummies
+{pl}учебные манекены
+%%%%
+{nom}training dummy
+{m}учебный манекен
 %%%%
 {nom}trident
 {m}трезубец
@@ -38145,6 +38535,12 @@ your yaks
 %%%%
 {nom}wolves
 {pl}волки
+%%%%
+{nom}worm
+{m}червь
+%%%%
+{nom}worms
+{pl}черви
 %%%%
 {nom}wraith
 {m}призрак
@@ -39187,6 +39583,12 @@ your yaks
 {nom}your tower shields
 {pl}башенные щиты
 %%%%
+{nom}your training dummies
+{pl}учебные манекены
+%%%%
+{nom}your training dummy
+{m}учебный манекен
+%%%%
 {nom}your trident
 {m}трезубец
 %%%%
@@ -39300,6 +39702,12 @@ your yaks
 %%%%
 {nom}your wolves
 {pl}волки
+%%%%
+{nom}your worm
+{m}червь
+%%%%
+{nom}your worms
+{pl}черви
 %%%%
 {nom}your wraith
 {m}призрак
@@ -39832,6 +40240,9 @@ your yaks
 {one}@num@ tower shields
 @num@ башенный щит
 %%%%
+{one}@num@ training dummies
+@num@ учебный манекен
+%%%%
 {one}@num@ tridents
 @num@ трезубец
 %%%%
@@ -39888,6 +40299,9 @@ your yaks
 %%%%
 {one}@num@ wolves
 @num@ волк
+%%%%
+{one}@num@ worms
+@num@ червь
 %%%%
 {one}@num@ wraiths
 @num@ призрак
@@ -40411,6 +40825,9 @@ your yaks
 {prep_few}@num@ tower shields
 @num@ башенных щитах
 %%%%
+{prep_few}@num@ training dummies
+@num@ учебных манекенах
+%%%%
 {prep_few}@num@ tridents
 @num@ трезубцах
 %%%%
@@ -40467,6 +40884,9 @@ your yaks
 %%%%
 {prep_few}@num@ wolves
 @num@ волках
+%%%%
+{prep_few}@num@ worms
+@num@ червях
 %%%%
 {prep_few}@num@ wraiths
 @num@ призраках
@@ -40990,6 +41410,9 @@ your yaks
 {prep_many}@num@ tower shields
 @num@ башенных щитах
 %%%%
+{prep_many}@num@ training dummies
+@num@ учебных манекенах
+%%%%
 {prep_many}@num@ tridents
 @num@ трезубцах
 %%%%
@@ -41046,6 +41469,9 @@ your yaks
 %%%%
 {prep_many}@num@ wolves
 @num@ волках
+%%%%
+{prep_many}@num@ worms
+@num@ червях
 %%%%
 {prep_many}@num@ wraiths
 @num@ призраках
@@ -41569,6 +41995,9 @@ your yaks
 {prep_one}@num@ tower shields
 @num@ башенном щите
 %%%%
+{prep_one}@num@ training dummies
+@num@ учебном манекене
+%%%%
 {prep_one}@num@ tridents
 @num@ трезубце
 %%%%
@@ -41625,6 +42054,9 @@ your yaks
 %%%%
 {prep_one}@num@ wolves
 @num@ волке
+%%%%
+{prep_one}@num@ worms
+@num@ черве
 %%%%
 {prep_one}@num@ wraiths
 @num@ призраке
@@ -42148,6 +42580,9 @@ your yaks
 {prep}a tower shield
 {m}башенном щите
 %%%%
+{prep}a training dummy
+{m}учебном манекене
+%%%%
 {prep}a trident
 {m}трезубце
 %%%%
@@ -42204,6 +42639,9 @@ your yaks
 %%%%
 {prep}a wolf
 {m}волке
+%%%%
+{prep}a worm
+{m}черве
 %%%%
 {prep}a wraith
 {m}призраке
@@ -42757,6 +43195,9 @@ your yaks
 {prep}an tower shield
 {m}башенном щите
 %%%%
+{prep}an training dummy
+{m}учебном манекене
+%%%%
 {prep}an trident
 {m}трезубце
 %%%%
@@ -42813,6 +43254,9 @@ your yaks
 %%%%
 {prep}an wolf
 {m}волке
+%%%%
+{prep}an worm
+{m}черве
 %%%%
 {prep}an wraith
 {m}призраке
@@ -44827,6 +45271,12 @@ your yaks
 {prep}the tower shields
 {pl}башенных щитах
 %%%%
+{prep}the training dummies
+{pl}учебных манекенах
+%%%%
+{prep}the training dummy
+{m}учебном манекене
+%%%%
 {prep}the trident
 {m}трезубце
 %%%%
@@ -44941,6 +45391,12 @@ your yaks
 {prep}the wolves
 {pl}волках
 %%%%
+{prep}the worm
+{m}черве
+%%%%
+{prep}the worms
+{pl}червях
+%%%%
 {prep}the wraith
 {m}призраке
 %%%%
@@ -44970,6 +45426,12 @@ your yaks
 %%%%
 {prep}tower shields
 {pl}башенных щитах
+%%%%
+{prep}training dummies
+{pl}учебных манекенах
+%%%%
+{prep}training dummy
+{m}учебном манекене
 %%%%
 {prep}trident
 {m}трезубце
@@ -45084,6 +45546,12 @@ your yaks
 %%%%
 {prep}wolves
 {pl}волках
+%%%%
+{prep}worm
+{m}черве
+%%%%
+{prep}worms
+{pl}червях
 %%%%
 {prep}wraith
 {m}призраке
@@ -46126,6 +46594,12 @@ your yaks
 {prep}your tower shields
 {pl}башенных щитах
 %%%%
+{prep}your training dummies
+{pl}учебных манекенах
+%%%%
+{prep}your training dummy
+{m}учебном манекене
+%%%%
 {prep}your trident
 {m}трезубце
 %%%%
@@ -46239,6 +46713,12 @@ your yaks
 %%%%
 {prep}your wolves
 {pl}волках
+%%%%
+{prep}your worm
+{m}черве
+%%%%
+{prep}your worms
+{pl}червях
 %%%%
 {prep}your wraith
 {m}призраке

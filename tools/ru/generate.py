@@ -204,14 +204,14 @@ def outputs(entities):
         index.append(f"| `{entity['id']}` | [{title}](pages/{entity['id']}.md) | {entity['en']} | {entity['review']} |")
         page = [f"# {title}", "", f"**English:** {entity['en']}", f"**ID:** `{entity['id']}`", ""]
         content_path = ROOT / "wiki/ru/content" / (entity["id"] + ".md")
-        reviewed_item = reviewed.get("items", {}).get(entity["en"]) if entity["kind"] == "item" else None
-        if reviewed_item:
-            page.extend(("## Описание в игре", "", reviewed_item["text"], ""))
+        reviewed_entry = reviewed.get("items" if entity["kind"] == "item" else "monsters", {}).get(entity["en"])
+        if reviewed_entry:
+            page.extend(("## Описание в игре", "", reviewed_entry["text"], ""))
         if content_path.exists():
-            if reviewed_item:
+            if reviewed_entry:
                 page.extend(("## Дополнительно", ""))
             page.extend((content_path.read_text(encoding="utf8").strip(), "", "## Формы названия", ""))
-        elif reviewed_item:
+        elif reviewed_entry:
             page.extend(("## Формы названия", ""))
         else:
             page.extend(("Черновая карточка термина. Описание механик и советы ещё не добавлены.", ""))
