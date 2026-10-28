@@ -7,6 +7,7 @@ from collections import Counter
 import argparse
 import json
 from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions
+from message_catalog import coverage as message_coverage
 
 ROOT = Path(__file__).resolve().parents[2]
 CASES = ("nom", "gen", "dat", "acc", "ins", "prep")
@@ -110,6 +111,8 @@ def outputs(entities):
         if path.name not in ("entities.txt", "terms.txt", "static.txt", "system.txt"):
             reserved.update(read_db(path, True))
     static_entries = {key: value for key, value in static_entries.items() if key not in reserved}
+    messages_coverage = message_coverage(reserved | set(static_entries))
+    result[ROOT / "localization/ru/message-coverage.json"] = json.dumps(messages_coverage, ensure_ascii=False, indent=2) + "\n"
     result[ROOT / "crawl-ref/source/dat/translate/ru/static.txt"] = write_db(
         {quoted(k): quoted(v) for k, v in static_entries.items()},
         "Generated from localization/ru/static.json; draft prose, protected engine tokens.")
@@ -216,6 +219,7 @@ def outputs(entities):
                  static_catalogs={name: len(static[name]) for name in STATIC_FILES},
                  static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
                  additional_system_messages=len(system_messages),
+                 imported_message_templates={k: messages_coverage[k] for k in ("total", "translated", "missing")},
                  reviewed_descriptions={name: len(group) for name, group in reviewed.items()},
                  descriptions={name: len(descriptions.get(name) or read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{name}.txt")) for name in DESCRIPTION_FILES},
                  help_databases={name: len(read_db(ROOT / f"crawl-ref/source/dat/database/ru/{name}.txt")) for name in DATABASE_FILES})

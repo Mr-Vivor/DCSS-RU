@@ -1,0 +1,675 @@
+{
+  "source": "crawl-ref/source/dat/translate/messages.txt",
+  "source_sha256": "7689e20d541686fa0d13f5dd170b57996ec8415be94191fed9f8e39e86ae7053",
+  "note": "Coverage of imported message templates, not a percentage of all current game text.",
+  "total": 6305,
+  "translated": 6305,
+  "sections": {
+    "item-prop.cc": {
+      "total": 5,
+      "translated": 5,
+      "missing": []
+    },
+    "ability.cc": {
+      "total": 119,
+      "translated": 119,
+      "missing": []
+    },
+    "abyss.cc": {
+      "total": 9,
+      "translated": 9,
+      "missing": []
+    },
+    "acquire.cc": {
+      "total": 10,
+      "translated": 10,
+      "missing": []
+    },
+    "actor.cc": {
+      "total": 43,
+      "translated": 43,
+      "missing": []
+    },
+    "adjust.cc": {
+      "total": 8,
+      "translated": 8,
+      "missing": []
+    },
+    "areas.cc": {
+      "total": 8,
+      "translated": 8,
+      "missing": []
+    },
+    "arena.cc": {
+      "total": 149,
+      "translated": 149,
+      "missing": []
+    },
+    "attack.cc": {
+      "total": 31,
+      "translated": 31,
+      "missing": []
+    },
+    "attitude-change.cc": {
+      "total": 9,
+      "translated": 9,
+      "missing": []
+    },
+    "beam.cc": {
+      "total": 171,
+      "translated": 171,
+      "missing": []
+    },
+    "behold.cc": {
+      "total": 31,
+      "translated": 31,
+      "missing": []
+    },
+    "branch.cc": {
+      "total": 3,
+      "translated": 3,
+      "missing": []
+    },
+    "cloud.cc": {
+      "total": 20,
+      "translated": 20,
+      "missing": []
+    },
+    "command.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "dactions.cc": {
+      "total": 5,
+      "translated": 5,
+      "missing": []
+    },
+    "death-curse.cc": {
+      "total": 27,
+      "translated": 27,
+      "missing": []
+    },
+    "decks.cc": {
+      "total": 72,
+      "translated": 72,
+      "missing": []
+    },
+    "delay.cc": {
+      "total": 77,
+      "translated": 77,
+      "missing": []
+    },
+    "describe-god.cc": {
+      "total": 112,
+      "translated": 112,
+      "missing": []
+    },
+    "describe-spells.cc": {
+      "total": 11,
+      "translated": 11,
+      "missing": []
+    },
+    "describe.cc": {
+      "total": 331,
+      "translated": 331,
+      "missing": []
+    },
+    "dgn-overview.cc": {
+      "total": 22,
+      "translated": 22,
+      "missing": []
+    },
+    "dgn-shoals.cc": {
+      "total": 3,
+      "translated": 3,
+      "missing": []
+    },
+    "directn.cc": {
+      "total": 111,
+      "translated": 111,
+      "missing": []
+    },
+    "end.cc": {
+      "total": 12,
+      "translated": 12,
+      "missing": []
+    },
+    "evoke.cc": {
+      "total": 48,
+      "translated": 48,
+      "missing": []
+    },
+    "exclude.cc": {
+      "total": 11,
+      "translated": 11,
+      "missing": []
+    },
+    "fearmonger.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "fight.cc": {
+      "total": 16,
+      "translated": 16,
+      "missing": []
+    },
+    "files.cc": {
+      "total": 62,
+      "translated": 62,
+      "missing": []
+    },
+    "fineff.cc": {
+      "total": 21,
+      "translated": 21,
+      "missing": []
+    },
+    "god-abil.cc": {
+      "total": 253,
+      "translated": 253,
+      "missing": []
+    },
+    "god-companions.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "god-conduct.cc": {
+      "total": 21,
+      "translated": 21,
+      "missing": []
+    },
+    "god-passive.cc": {
+      "total": 33,
+      "translated": 33,
+      "missing": []
+    },
+    "god-prayer.cc": {
+      "total": 9,
+      "translated": 9,
+      "missing": []
+    },
+    "god-wrath.cc": {
+      "total": 73,
+      "translated": 73,
+      "missing": []
+    },
+    "hints.cc": {
+      "total": 25,
+      "translated": 25,
+      "missing": []
+    },
+    "hiscores.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "invent.cc": {
+      "total": 60,
+      "translated": 60,
+      "missing": []
+    },
+    "item-use.cc": {
+      "total": 157,
+      "translated": 157,
+      "missing": []
+    },
+    "items.cc": {
+      "total": 58,
+      "translated": 58,
+      "missing": []
+    },
+    "known-items.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "lookup-help.cc": {
+      "total": 38,
+      "translated": 38,
+      "missing": []
+    },
+    "luaterp.cc": {
+      "total": 1,
+      "translated": 1,
+      "missing": []
+    },
+    "macro.cc": {
+      "total": 45,
+      "translated": 45,
+      "missing": []
+    },
+    "main.cc": {
+      "total": 109,
+      "translated": 109,
+      "missing": []
+    },
+    "map-knowledge.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "melee-attack.cc": {
+      "total": 226,
+      "translated": 226,
+      "missing": []
+    },
+    "menu.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "message.cc": {
+      "total": 43,
+      "translated": 43,
+      "missing": []
+    },
+    "misc.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "mon-abil.cc": {
+      "total": 22,
+      "translated": 22,
+      "missing": []
+    },
+    "mon-act.cc": {
+      "total": 42,
+      "translated": 42,
+      "missing": []
+    },
+    "mon-behv.cc": {
+      "total": 11,
+      "translated": 11,
+      "missing": []
+    },
+    "mon-cast.cc": {
+      "total": 108,
+      "translated": 108,
+      "missing": []
+    },
+    "mon-clone.cc": {
+      "total": 5,
+      "translated": 5,
+      "missing": []
+    },
+    "mon-death.cc": {
+      "total": 84,
+      "translated": 84,
+      "missing": []
+    },
+    "mon-ench.cc": {
+      "total": 83,
+      "translated": 83,
+      "missing": []
+    },
+    "mon-explode.cc": {
+      "total": 7,
+      "translated": 7,
+      "missing": []
+    },
+    "mon-grow.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "mon-info.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "mon-place.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "mon-poly.cc": {
+      "total": 9,
+      "translated": 9,
+      "missing": []
+    },
+    "mon-project.cc": {
+      "total": 8,
+      "translated": 8,
+      "missing": []
+    },
+    "mon-tentacle.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "mon-util.cc": {
+      "total": 82,
+      "translated": 82,
+      "missing": []
+    },
+    "monster.cc": {
+      "total": 64,
+      "translated": 64,
+      "missing": []
+    },
+    "movement.cc": {
+      "total": 52,
+      "translated": 52,
+      "missing": []
+    },
+    "mutation.cc": {
+      "total": 32,
+      "translated": 32,
+      "missing": []
+    },
+    "nearby-danger.cc": {
+      "total": 10,
+      "translated": 10,
+      "missing": []
+    },
+    "newgame.cc": {
+      "total": 12,
+      "translated": 12,
+      "missing": []
+    },
+    "orb.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "ouch.cc": {
+      "total": 30,
+      "translated": 30,
+      "missing": []
+    },
+    "output.cc": {
+      "total": 1,
+      "translated": 1,
+      "missing": []
+    },
+    "player-act.cc": {
+      "total": 24,
+      "translated": 24,
+      "missing": []
+    },
+    "player-equip.cc": {
+      "total": 100,
+      "translated": 100,
+      "missing": []
+    },
+    "player-reacts.cc": {
+      "total": 31,
+      "translated": 31,
+      "missing": []
+    },
+    "player-stats.cc": {
+      "total": 19,
+      "translated": 19,
+      "missing": []
+    },
+    "player.cc": {
+      "total": 211,
+      "translated": 211,
+      "missing": []
+    },
+    "potion.cc": {
+      "total": 46,
+      "translated": 46,
+      "missing": []
+    },
+    "prompt.cc": {
+      "total": 13,
+      "translated": 13,
+      "missing": []
+    },
+    "quiver.cc": {
+      "total": 76,
+      "translated": 76,
+      "missing": []
+    },
+    "ranged-attack.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "religion.cc": {
+      "total": 319,
+      "translated": 319,
+      "missing": []
+    },
+    "shopping.cc": {
+      "total": 49,
+      "translated": 49,
+      "missing": []
+    },
+    "shout.cc": {
+      "total": 26,
+      "translated": 26,
+      "missing": []
+    },
+    "skill-menu.cc": {
+      "total": 31,
+      "translated": 31,
+      "missing": []
+    },
+    "skills.cc": {
+      "total": 17,
+      "translated": 17,
+      "missing": []
+    },
+    "species.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "spl-book.cc": {
+      "total": 26,
+      "translated": 26,
+      "missing": []
+    },
+    "spl-cast.cc": {
+      "total": 60,
+      "translated": 60,
+      "missing": []
+    },
+    "spl-clouds.cc": {
+      "total": 8,
+      "translated": 8,
+      "missing": []
+    },
+    "spl-damage.cc": {
+      "total": 124,
+      "translated": 124,
+      "missing": []
+    },
+    "spl-goditem.cc": {
+      "total": 41,
+      "translated": 41,
+      "missing": []
+    },
+    "spl-miscast.cc": {
+      "total": 190,
+      "translated": 190,
+      "missing": []
+    },
+    "spl-monench.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "spl-other.cc": {
+      "total": 19,
+      "translated": 19,
+      "missing": []
+    },
+    "spl-selfench.cc": {
+      "total": 18,
+      "translated": 18,
+      "missing": []
+    },
+    "spl-summoning.cc": {
+      "total": 87,
+      "translated": 87,
+      "missing": []
+    },
+    "spl-transloc.cc": {
+      "total": 67,
+      "translated": 67,
+      "missing": []
+    },
+    "spl-util.cc": {
+      "total": 56,
+      "translated": 56,
+      "missing": []
+    },
+    "spl-vortex.cc": {
+      "total": 5,
+      "translated": 5,
+      "missing": []
+    },
+    "spl-wpnench.cc": {
+      "total": 11,
+      "translated": 11,
+      "missing": []
+    },
+    "stairs.cc": {
+      "total": 55,
+      "translated": 55,
+      "missing": []
+    },
+    "stash.cc": {
+      "total": 23,
+      "translated": 23,
+      "missing": []
+    },
+    "state.cc": {
+      "total": 4,
+      "translated": 4,
+      "missing": []
+    },
+    "tags.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "target-compass.cc": {
+      "total": 1,
+      "translated": 1,
+      "missing": []
+    },
+    "target.cc": {
+      "total": 17,
+      "translated": 17,
+      "missing": []
+    },
+    "teleport.cc": {
+      "total": 11,
+      "translated": 11,
+      "missing": []
+    },
+    "terrain.cc": {
+      "total": 28,
+      "translated": 28,
+      "missing": []
+    },
+    "throw.cc": {
+      "total": 31,
+      "translated": 31,
+      "missing": []
+    },
+    "tilereg-doll.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "tilereg-skl.cc": {
+      "total": 3,
+      "translated": 3,
+      "missing": []
+    },
+    "tilesdl.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "tileweb.cc": {
+      "total": 1,
+      "translated": 1,
+      "missing": []
+    },
+    "timed-effects.cc": {
+      "total": 21,
+      "translated": 21,
+      "missing": []
+    },
+    "transform.cc": {
+      "total": 78,
+      "translated": 78,
+      "missing": []
+    },
+    "traps.cc": {
+      "total": 69,
+      "translated": 69,
+      "missing": []
+    },
+    "travel.cc": {
+      "total": 45,
+      "translated": 45,
+      "missing": []
+    },
+    "view.cc": {
+      "total": 13,
+      "translated": 13,
+      "missing": []
+    },
+    "viewgeom.cc": {
+      "total": 2,
+      "translated": 2,
+      "missing": []
+    },
+    "viewmap.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "wiz-dgn.cc": {
+      "total": 40,
+      "translated": 40,
+      "missing": []
+    },
+    "wiz-dump.cc": {
+      "total": 6,
+      "translated": 6,
+      "missing": []
+    },
+    "wiz-fsim.cc": {
+      "total": 20,
+      "translated": 20,
+      "missing": []
+    },
+    "wiz-item.cc": {
+      "total": 55,
+      "translated": 55,
+      "missing": []
+    },
+    "wiz-mon.cc": {
+      "total": 73,
+      "translated": 73,
+      "missing": []
+    },
+    "wiz-you.cc": {
+      "total": 65,
+      "translated": 65,
+      "missing": []
+    },
+    "wizard.cc": {
+      "total": 106,
+      "translated": 106,
+      "missing": []
+    },
+    "xom.cc": {
+      "total": 420,
+      "translated": 420,
+      "missing": []
+    }
+  },
+  "missing": 0
+}

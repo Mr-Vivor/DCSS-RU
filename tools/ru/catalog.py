@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[2]
 STATIC_FILES = (
@@ -11,6 +12,7 @@ STATIC_FILES = (
     "gods", "features", "features-counted", "dungeon", "annotations",
     "transforms", "hiscores", "shops", "mutations", "spells",
     "player-title-def", "player-title-plain", "monster-props",
+    "verbs", "body-parts",
 )
 DESCRIPTION_FILES = ("species", "backgrounds", "gods", "tutorial", "hints", "commands")
 DATABASE_FILES = ("help", "FAQ")
@@ -68,6 +70,14 @@ TOKEN = re.compile(r"\{\{.*?\}\}|\$\w+\[[^\]]*\]|@[^@\n]+@|"
 def tokens(text):
     return sorted(token.rstrip(",.;!?)") if token.startswith(("http://", "https://")) else token
                   for token in TOKEN.findall(text))
+
+
+def message_syntax_matches(source, target):
+    """Allow Russian case instructions; never lose arguments or engine markup."""
+    original, translated = Counter(tokens(source)), Counter(tokens(target))
+    grammatical = {"{nom}", "{gen}", "{dat}", "{acc}", "{ins}", "{prep}",
+                   "{verb-inf}", "{verb-you}"}
+    return not (original - translated) and all(t in grammatical for t in translated - original)
 
 
 def translated_lua(source, replacements):

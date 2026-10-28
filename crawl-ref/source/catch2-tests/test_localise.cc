@@ -127,6 +127,21 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("An untranslated message about MrVivor.")
           == "An untranslated message about MrVivor.");
     CHECK(localise("<red>You die...</red>") == "<red>Вы погибаете...</red>");
+    CHECK(localise("You headbutt the hydra!") == "Вы бодаете гидру!");
+    CHECK(localise("The orc misses the bat.") == "Орк промахивается по летучей мыши.");
+    CHECK(localise("Roots grab the bat.") == "Корни хватают летучую мышь.");
+    CHECK(localise("You can now recite Zin's Axioms of Law.")
+          == "Теперь вы можете читать Аксиомы Закона Зина.");
+    CHECK(localise("Your hands briefly pass through it before you manage to get a firm grip on it.")
+          == "У вас руки на миг проходят сквозь предмет, прежде чем вы крепко его схватываете.");
+    CHECK(localise("His hands briefly pass through it before he manages to get a firm grip on it.")
+          == "Его руки на миг проходят сквозь предмет, прежде чем он умудряется крепко его схватить.");
+    CHECK(localise("Sparks fly from your hands") == "У вас из рук сыплются искры");
+    CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
+    CHECK(localise("Your soul already belongs to Yredelemnul.")
+          == "Ваша душа уже принадлежит Йредэлемнулу.");
+    CHECK(localise("Stack Five") == "Сложить пять");
+    CHECK(localise("Drain Life") == "Вытянуть жизненную силу");
 
     CHECK(localise("Spriggan") == "Спригган");
     CHECK(localise("Gnoll") == "Гнолл");

@@ -9,7 +9,8 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, tokens, reviewed_descriptions
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, message_syntax_matches
+from message_catalog import SOURCE, catalog as message_catalog, coverage as message_coverage, translations
 
 
 class StaticTranslationTests(unittest.TestCase):
@@ -26,6 +27,38 @@ class StaticTranslationTests(unittest.TestCase):
         duration_source = (ROOT / "crawl-ref/source/duration-data.h").read_text(encoding="utf8")
         self.assertEqual(hashlib.sha256(duration_source.encode()).hexdigest(), review["duration_source_sha256"],
                          "Recheck current status mechanics after upstream changes")
+        self.assertEqual(hashlib.sha256(SOURCE.read_text(encoding="utf8").encode()).hexdigest(),
+                         review["message_source_sha256"], "Recheck source sections and authoring IDs")
+
+    def test_imported_message_catalog_has_no_remaining_gaps(self):
+        entries = message_catalog()
+        known = translations()
+        self.assertGreater(len(entries), 6000)
+        self.assertEqual(len({entry["source"] for entry in entries}), len(entries))
+        for entry in entries:
+            self.assertTrue(entry["context"].endswith(".cc"), entry)
+            self.assertTrue(entry["source"] in known, entry)
+        report = message_coverage(set(known))
+        self.assertEqual(report["missing"], 0)
+        self.assertEqual(report, json.loads((ROOT / "localization/ru/message-coverage.json").read_text(encoding="utf8")))
+
+    def test_current_ability_labels_are_covered(self):
+        # The imported catalog predates the chosen gameplay version.
+        source = (ROOT / "crawl-ref/source/ability.cc").read_text(encoding="utf8")
+        labels = re.findall(r'\{\s*ABIL_\w+,\s*"([^"\n]+)"', source)
+        self.assertGreater(len(labels), 100)
+        known = translations()
+        for label in labels:
+            self.assertTrue(label in known, label)
+            self.assertRegex(known[label], r"[А-Яа-яЁё]", label)
+
+    def test_case_instructions_do_not_relax_argument_or_markup_protection(self):
+        self.assertTrue(message_syntax_matches("Roots grab @arg@.", "Корни хватают {acc}@arg@."))
+        self.assertTrue(message_syntax_matches("You can @arg@.", "Вы можете {verb-inf}@arg@."))
+        self.assertFalse(message_syntax_matches("You hit @arg@.", "Вы ударяете {acc}."))
+        self.assertFalse(message_syntax_matches("<red>@arg@</red>", "{acc}@arg@"))
+        self.assertFalse(message_syntax_matches("Hit @arg@.", "Удар {shop}@arg@."))
+        self.assertFalse(message_syntax_matches("Hit @Arg@.", "Удар {acc}@arg@."))
 
     def test_current_duration_hud_labels_are_covered(self):
         # Check the current engine, not just the older imported English catalog.
@@ -100,8 +133,12 @@ class StaticTranslationTests(unittest.TestCase):
     def test_system_messages_preserve_substitutions(self):
         messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
         for source, target in messages.items():
-            self.assertEqual(tokens(source), tokens(target), source)
-            self.assertRegex(target, r"[А-Яа-яЁё]", source)
+            self.assertTrue(message_syntax_matches(source, target), source)
+            # Some translations consist solely of substituted names and
+            # punctuation ("@Arg1@: @arg2@") or coordinate/key hints.
+            prose = re.sub(r"\b(?:Enter|Esc|Space|Shift|Ctrl|Alt|Tab|Backspace|R-Click|L-Click)\b", "", TOKEN.sub("", target), flags=re.I)
+            if re.search(r"[A-Za-z]{2}", prose):
+                self.assertRegex(target, r"[А-Яа-яЁё]", source)
 
     def test_web_controls_keep_protocol_values_and_hotkeys(self):
         class Controls(HTMLParser):
