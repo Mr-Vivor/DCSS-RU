@@ -373,7 +373,7 @@ static string _describe_ancestor_upgrades()
                                  you.experience_level < entry.first
                                      ? "<darkgrey>" : "",
                                  entry.first,
-                                 entry.second.c_str(),
+                                 localise(entry.second).c_str(),
                                  you.experience_level < entry.first
                                      ? "</darkgrey>" : "");
         }

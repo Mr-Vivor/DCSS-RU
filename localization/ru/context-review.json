@@ -5821,8 +5821,8 @@
       "translation_sha256": "2b655e2091c6cc3d15a16a132640e2e1494a69e6725dd3f1c008f55f714db4fe"
     },
     "If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.": {
-      "context": "ability.cc",
-      "translation_sha256": "4eeb6a89607450852c39f564ee91afcd0b98015ace3161c24c5cafce364a3f4b"
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "bc7bd3026ef8893e560b18fc5461bb743a3fa40336807631b87781279526c98e"
     },
     "After this sacrifice, you will find that @arg@.": {
       "context": "ability.cc",
@@ -19557,19 +19557,19 @@
       "translation_sha256": "9c115385b299a0bd96abcf613da9c1c7bbab0bc51d568d5e3ffedef16e2c64b6"
     },
     "Chain mail (+AC)": {
-      "context": "describe-god.cc",
-      "translation_sha256": "b732c17f1df7e7f711806bd8daf660ac20380cae9eb9be5110382bc2fc9a9930"
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "e426e33ed1eba2622b0fe1802a227ee3949bc34cf04c000fbafb10659794107c"
     },
     "Broad axe (flame)": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "9fa80c8bead0d0d1762347fe91154fb1a561f47afc509a564ce82cabe21cc614"
     },
     "Tower shield (reflect)": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "8fb16f025b161c5cf361f2528e6d29499fe64180e0b46dd98a57962e4fcbcf82"
     },
     "Broad axe (speed)": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "a39199cb8e2080857036dde2784e1d61696ec4a2484a3f455175424bf53e2329"
     },
     "Quarterstaff": {
@@ -19585,15 +19585,15 @@
       "translation_sha256": "8554ae7e42db89eeee12f94fabb59821d03b0897f824aa572687c2231e44f0c2"
     },
     "Dagger (drain)": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "83929c7e7d6124eb5de49a36c7716115d8a8b2be5094e9a5a95131aa64a835f4"
     },
     "Quick blade (antimagic)": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "3157b04caa4c158443f4e441dfef54ec1460ea7161d5bd631eb351eada872d80"
     },
     "Ancestor Upgrades:": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "a5d917d7333dcda9067e6d6ab2a4f3562e965aaac23d3cc3375a8a3f6fa944bf"
     },
     "XL": {
@@ -19605,7 +19605,7 @@
       "translation_sha256": "a3276d2d7864e32bfc07ae8be7b4d33397675786fe654d2479f2e0bffa220f4c"
     },
     "You can bribe the following branches of the dungeon:": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "90c98cb05e7058e1777fdf809503355b1baf7116fbac0f13283070a865738757"
     },
     "not bribed": {
@@ -19649,7 +19649,7 @@
       "translation_sha256": "9dac222673ff4bfe2dd7a53c110eff3c0830f96425ac82fe1bf3d7f3a18ebe14"
     },
     "Decks of power:": {
-      "context": "describe-god.cc",
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "09c305c563301c227892adb69ed7376902b18f545fdf3bf799dfbac6307b2f38"
     },
     "stacked deck:": {
@@ -19813,8 +19813,8 @@
       "translation_sha256": "680ff8d51713d8ec86ddd6601c119369f95a1d2719668e8bb0b7cbd9069445fe"
     },
     "You can memorise some of Vehumet's spells.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "f36641b2126bd9f4df072a583a40328b7b2b0a54bc1e5b7bb05ffe156d488b26"
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "e7a315c32ed6bb41bb103bd9c75a64cc83df68cda3130af4263f20fd91596484"
     },
     "You radiate a large aura of darkness, enhancing your stealth and reducing the accuracy of your foes.": {
       "context": "describe-god.cc",
@@ -19861,12 +19861,12 @@
       "translation_sha256": "ab3be5c500dddf8142266bbb28eb1b3fac6735768d98f7a892d55f20d6645374"
     },
     "Title  - ": {
-      "context": "describe-god.cc",
-      "translation_sha256": "3a2bc6207228069bb77026687fd33d907045e3af85e3022aa0d5efcee5d1c89d"
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "da7a381f71d4910ddf6f2a169ce2731d7aeff74305803e5734ede147bd014d04"
     },
     "Favour - ": {
-      "context": "describe-god.cc",
-      "translation_sha256": "0d86dfaf9a7f6a2bbc2c301e4f09f06be466160d378322ea61254e1009fa9775"
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "6c5f8e951ac0511d2a986bb73487134d4f56d35ed64a813a97dc5a44deb12e5b"
     },
     "[<w>!</w>/<w>^</w>|<w>Right-click</w>]: ": {
       "context": "describe-god.cc",
@@ -27099,6 +27099,394 @@
     "-@num@ @arg@": {
       "context": "newgame.cc repeated UI localisation / tileweb.cc terse inventory names; preserve user names and enchantment signs",
       "translation_sha256": "a1da6a52f842f199dda6cd4d9162b14278ddda37babaf79b44ff3a0561da4f03"
+    },
+    "Binding melee attacks": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "c97debf9b503ce6b2208fcd9923aaee6f523aaf773d1feac1204ab08ed0b5d9f"
+    },
+    "Increased hit points": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "02aadea4435931bb1b93f327f36e13cc56016065df952aabc02351031d30e3eb"
+    },
+    "Increased spell damage": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "40a380d2e6edb04c1a691e4139e72cb35c15b0fed29c0313750657b45287acbd"
+    },
+    "XL              Upgrade": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "501e1d087c21bca26c46446d0755ef0057daa3e5cbe7e017dcc423e65bc8512f"
+    },
+    "@god@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any@ are evil gods.)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "81e136516498ac648830678072501682922649f5d3f84bc7ab3be05d64f20bbd"
+    },
+    "@god@ forgives followers for abandonment; however, those who later take up the worship of an evil or chaotic god will be scourged. (@any1@ are evil, and @any2@ are chaotic.)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "55a5142df41cbc1cd4cf991bcecab874f78c7967f50b43a6b4d33cd898d000a5"
+    },
+    "@god@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "752790d56a15b9278d4bf659337f819ebc11e8d0fdcf24a5c0d2bce7a2d9c686"
+    },
+    "@god@'s wrath lasts for a relatively long duration.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "1d433ea5f893021c70f0e82386aac76334995c2fd88fa337b8126705e64a89fa"
+    },
+    "@god@'s wrath lasts for a relatively short duration.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "cef0070aa70691a4dc7e24e5c224f89ab877edf3a06446168d26135cc3e3eeeb"
+    },
+    " stacked deck: ": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "08f5843cc5c626b282c743c9c7618290c4a35b1e735fe8a08890e73db7120536"
+    },
+    "@god@'s powers are not affected by the Invocations skill.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "0fe350223ecc471668d2ccd33e1e9d2dbdfd1cf81bd5e674a512ff1f976f3035"
+    },
+    "@god@'s powers are based on @skill@ instead of Invocations skill.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "e8d3206dc850399331c3a20e6fe963b3c71e9e5619e9dd08e72f57cba05ea8c5"
+    },
+    "Orcs frequently recognise you as Beogh's chosen one.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "d9d24b02e2c76d79c9bf16d4d7f0e09fe45badfdcaca770bab8d88ad2d115a1f"
+    },
+    "Orcs sometimes recognise you as one of their own.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "2977eb39915ce380645e06a0f88426d62149d4125d5ebba48444780efed5a6e5"
+    },
+    "@god@ prevents you from stabbing unaware foes.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "507f6eaff49906406904942f36fb48c061c85d70cfb9e21853786a437cbb3506"
+    },
+    "You radiate a righteous aura, and foes within it are easier to hit.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "dfe7918a332cb0789e17a58eced88b61edbf9482aa9725a9a2fd51543335b8c3"
+    },
+    "You radiate a large righteous aura, and foes within it are easier to hit.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "71ffb48337d31ac1511eff50b17d5cee5d15244ed654a6d3ea3f74d9ef3fca19"
+    },
+    "You radiate a small righteous aura, and foes within it are easier to hit.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "5adfff6c908e9d1691594aaea06910fed3850354db5f7fb421b02881e808fa34"
+    },
+    "Jellies are peaceful and will consume items off the floor.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "de781c4765edb22e75283564959c09468d544dbbfeff46b24bb00a22bfef9732"
+    },
+    "Jiyva prevents you from harming jellies.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "bb7fd06e4040112b8f25578644d212eab78963b4d97a082d0f9bb4438d262691"
+    },
+    "Your health and magic regeneration is accelerated.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "b125e7cd955edeecd252e9dd1f18b73653f034692eef509775835b5957b667b5"
+    },
+    "Your health and magic regeneration is greatly accelerated.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "8c474de3fad10ac18292dfcd0f2e561a0f40e77b455b8ac26e84501bc9ff0eaa"
+    },
+    "Your health and magic regeneration is very greatly accelerated.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "83b2d17339ddb5c2f1540cb56a4857bf117416148e0ab68757404351b68ec30d"
+    },
+    "@god@ slows your movement.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "3be8d9fc5e3fd63ea457630cf7a46aa8e03cacc80374f3c57f279632d1dd9c55"
+    },
+    "@god@ greatly slows your movement.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "e63d910a160e2a05f8cb56e1d36aa0da518600bd1f98f437aae31b3699b1f119"
+    },
+    "@god@ slightly slows your movement.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "f22fd4294dba7461439db1e76c096badabf2743e4ec14f65c367859218e7f2f6"
+    },
+    "@god@ supports your attributes. (+@num@)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "c16e3ec3ec6d7d3969469b308e745b2aae1634c4cae5274bb5b544c35ce8fc48"
+    },
+    "some of Vehumet's most lethal spells": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "b2a94c10e32b233bb14ac2bfc7a206783c19453d840a1a7edf9ea40b62d7b5b7"
+    },
+    "You are surrounded by an umbra.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "f745c82ca815e2ac7a0469811aa5f144db02544513c6a0fa253c37e90defe3c2"
+    },
+    "Foes that die within your umbra may be raised as undead servants.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "64dccdbbd5f0e9ecb8db2a4f98227f965d93e34ff326b9f8f9ea1816c8dc9283"
+    },
+    "Your life essence is reduced. (-10% HP)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "897784474ae85680f0343da9ea628698855949e4a899aa3ee80ffbd46cbf58ef"
+    },
+    "Your Destruction is augmented by the power of Gehenna.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "31a5b22fe080386db12e9a08299ee7c88ab692494ae0bf06ea8db19964b9a22b"
+    },
+    "Your Destruction is augmented by the power of Cocytus.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "e4f1e68d62ae1ea8cbf7bc5f1a3825c36c70f2fda6488f07300ed74417244a49"
+    },
+    "Your Destruction is augmented by the power of Tartarus.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "718c92a6890cbe3a3bdc0598f8d5ad95d1f54a437b45a488118d9be4fe834117"
+    },
+    "Your Destruction is augmented by the power of Dis.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "fc6b5a5368728317c2ee471f20f34f86d886d3b047b85905994bc7fca25cc17b"
+    },
+    "Your Destruction will be augmented by one of the Four Hells.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "87c651dfdaa4b01a56d9a93683f28e6918c169e4b30b4d423ebfff29042b85f3"
+    },
+    "You have been branded with the @arg@.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "630b105068c04189526d7c8c964fae120f35900b5a0c72b986792c622c78e129"
+    },
+    "Jiyva will unlock the Slime Pits vaults.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "ef34ea20b9f5b2906ee21f28096b9aa1620652908233c2d41fd7ae14772e01a8"
+    },
+    " (no fee if you act now)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "33a3db428cb02aee9ae1c11c906d01d50d0d7c593111bfb3183ca217a2bcf609"
+    },
+    " (no fee if you join today)": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "9dd032a87d8e3fd4f01f88dae8f246fbd9e4a4b6b708e4adec5f4387a08edd1c"
+    },
+    "  [<w>J</w>/<w>Enter</w>]: join": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "10f9e1846a663a0893672d0c2fcdc2dd88b4d55f3863bcc21d5b11038c7d156f"
+    },
+    "@god@ carefully guards your life.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "1586af01ba607c604262ad6c7fc8e35afbc7187fb8f5ab205b41e04d417b729c"
+    },
+    "@god@ often guards your life.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "0156c7526be089fc96c450e76b67d1221170994aadb89d58f0a617a5b4101f41"
+    },
+    "@god@ sometimes guards your life.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "232b0736780a67fc5ea09382fae9c128d00ab9eb548a44849b0e0ca67c5aceb2"
+    },
+    "@god@ occasionally guards your life.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "004b01d3b04008c146e97a8cf86e260ba323ff5766a198724811a8433d57cdad"
+    },
+    "@god@ always shields you from chaos.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "9cfdc9ee86f8bbdb321efcebb7d747c878c98e312f9c5d687ac49e3c6b9eab01"
+    },
+    "@god@ always shields you from Hell.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "963f0223d34f39d479dc5f164f6a0ae0167b6f1322351b0b6181233b63c97d8f"
+    },
+    "@god@ often shields you from chaos.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "7351c90ef66d4f5011462bd4cc3a925705efde7238f6c39ac8a6149488fdd4cf"
+    },
+    "@god@ often shields you from Hell.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "1d0f405b774ee4c625b81bc0d86dcde51ab240b9995e21fff494cfb41eb5ffef"
+    },
+    "@god@ sometimes shields you from chaos.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "0725653011fe31d367573aa3c9e5b6790914e30cecd01ce76ac9d22486100b74"
+    },
+    "@god@ sometimes shields you from Hell.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "34b61a428760a10d7f80d6eac41c42853afe6dcba0adf2266b560fdde7dfed9f"
+    },
+    "@god@ occasionally shields you from chaos.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "77e43b94ee690c1fc6203db0a8bb410be6342e8d1ff4a6de7d680758f030da0e"
+    },
+    "@god@ occasionally shields you from Hell.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "4e4d34a5fb99307f26a6e2e34b58eaa33a8f6996f11758c5e0670d515757a414"
+    },
+    "@god@ rarely shields you from chaos.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "5eebebfde7dec6e4ace881f8fe99d62a6cd88dd3e0e1a2d042fac0f38f851bd1"
+    },
+    "@god@ rarely shields you from Hell.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "00d554846b58c4448f11b9c77113522ea50a307d540bc53744a143d8e7f856db"
+    },
+    "@god@ completely shields you from negative energy.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "8d8ff5a39f253e7d195bd1aac52fd7bcc8196cfe8cf545bbc5dfb63ea49fefd0"
+    },
+    "@god@ mostly shields you from negative energy.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "5ea4fd6d9c2f697dc34b48703185e13e520e14d26a24c90d9517ed263f1d42cb"
+    },
+    "@god@ partially shields you from negative energy.": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "dcdeee5d0afc74cd1cfa23f8e024491a47a74dbc2816433b79b6cf9ab3990383"
+    },
+    "[<w>!</w>]: Overview|Powers|Wrath": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "55fed05df3a812c203ba1c2f0206839fd41a75357562f4db0bb762a24693d6df"
+    },
+    "[<w>!</w>]: <w>Overview</w>|Powers|Wrath": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "fa963882c570fd298340f11b016a21253867e3e79c274b32155eb6fc2ff11826"
+    },
+    "[<w>!</w>]: Overview|<w>Powers</w>|Wrath": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "cd584e7cc7eeda5a36ec6c95ba03ab7c71dadfeaa94ba34e035042bfa856da27"
+    },
+    "[<w>!</w>]: Overview|Powers|<w>Wrath</w>": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "c2c00bb23397687d97b926365163a700eb5d411b19e791e9298189ee952ee420"
+    },
+    "[<w>!</w>]: Overview|Powers|Wrath|Extra": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "ea6806bb62a125021ac5e926a78d94aefeafcf7f5c0e2c1f28443aa86772d301"
+    },
+    "[<w>!</w>]: <w>Overview</w>|Powers|Wrath|Extra": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "84cf20d59f4f5451e7532d9a98eb8a28fa538426317f344f37f290b8dc6d03d8"
+    },
+    "[<w>!</w>]: Overview|<w>Powers</w>|Wrath|Extra": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "a5aea7a08bc77270c9b3641351506b058f37946d4354ff009555ab57ecc8b68a"
+    },
+    "[<w>!</w>]: Overview|Powers|<w>Wrath</w>|Extra": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "21246fcd609f08830b81b5b570af89ad2baa0196d4d9f54c645d89a3a989387c"
+    },
+    "[<w>!</w>]: Overview|Powers|Wrath|<w>Extra</w>": {
+      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "translation_sha256": "fc1ba19938384d3e8176dde13cfb79d01e86d34352842b89b66a33496cba1bb2"
+    },
+    "This altar belongs to @any@, but you can't tell which.": {
+      "context": "god-prayer.cc / ecumenical altar and form incompatibilities",
+      "translation_sha256": "3fc202d7589ef4a6de712c258f83d367c6356050e77bfe39f95803d3becc71db"
+    },
+    "Press the corresponding letter to learn more about a god, or press enter to convert or escape to cancel.": {
+      "context": "god-prayer.cc / ecumenical altar and form incompatibilities",
+      "translation_sha256": "74713936f54261477a5eabf6aadc663c9d097ef03f9f9c101c591af5871cdd37"
+    },
+    "Praying here may force you to leave your current form.": {
+      "context": "god-prayer.cc / ecumenical altar and form incompatibilities",
+      "translation_sha256": "ce52ce3a6299a277a73980ba96d407368767c942ee9c627a9ad230a2b19cdb0d"
+    },
+    "Praying here may force you to remove some of your equipment.": {
+      "context": "god-prayer.cc / ecumenical altar and form incompatibilities",
+      "translation_sha256": "7ab922100d4ef68643b6cc1d7400cbc2d99e860b0cda9a19009e4657c7ed8b58"
+    },
+    "Praying here may force you to leave your current form and remove some of your equipment.": {
+      "context": "god-prayer.cc / ecumenical altar and form incompatibilities",
+      "translation_sha256": "74cbfe2909ef493b73f8be2e504b918cf040ac62c7314a154bc0e33532af6c10"
+    },
+    " (less than 1% of your maximum possible piety)": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "fc85fe3a2422e0fc1a3749c3df6d7455f04a4be4af30bb6b01952109f5f41539"
+    },
+    " (about @num@% of your maximum possible piety)": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "a336ac86d5f746e53c21f5c51e3f804b8a30542ba4a9d76e2c8ee9494aac324f"
+    },
+    "Permanent MP (@num@ left)": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "54595e5a3e02e70f1aaf92ed37473b1ce9019864ba37a4956609fc75a29913f1"
+    },
+    "One bound item": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "f3f644a238e5848294ca6adba70f1112e8afcb0fcf84044c8720435c042c57f3"
+    },
+    "You must catch your breath between uses of this ability.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "0e0124d23e37821aadae71e65d8f7186b57445bf86353010405dbfb40a9b6fad"
+    },
+    "This ability takes some time before being effective.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "8adf563fc2f70e20c9108c203323eb58089bade0a10402f14968a817a6d705ee"
+    },
+    "Using this ability will hurt you for a large fraction of your current HP.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "b0cc60e777bc059f8ddb7b65b87883b8191684ea513d7ed14465b605f11f96a2"
+    },
+    "Using this ability invokes torment.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "1cd1e705e5db0a422e26e866bc04aa1ffaa17ec87a85cb17dd4e52d62e46682d"
+    },
+    "This ability causes exhaustion, and cannot be used when exhausted.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "4fc0255e25438164c18da92236610ee3d3cd6f7a0c7dd2ffebb7535059583712"
+    },
+    "This ability is instantaneous.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "f1c83c67b040b8e47ef24862c17823d6202332a1200d758ecfea5c1004ff9008"
+    },
+    "You can use this ability even if confused.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "c7e9c9731d8660ae541778ddac1768ab6daa35d788968276b945986ce0650769"
+    },
+    "This ability will temporarily drain your maximum health when used.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "28da4676ecbdf34d80bc4e94319b63017b5dcf54d1688831944ccd925a1fa85f"
+    },
+    "This ability will temporarily drain your maximum health when used, even unsuccessfully.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "5d5a88a91384a2e4f62a26b32683fe974ac2ecf630b08cd70eb43024dd3d339b"
+    },
+    "Gaining experience will replenish charges of this ability.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "7af7c07f3bddc310a0cfb1798209c72ea60839694461b8f5757913f6ed04cf0c"
+    },
+    "If you bind an item with this ritual Ashenzari will enhance the following skills:": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "a677d2010dc88b33ea257b51a5e56e81ef979ed8a41433a614d47949416388db"
+    },
+    "Sacrifices cannot be taken back.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "238b87b64f1f8e1f12616bbbd2910111bf5d7d0b3e24299ce6805544953d9590"
+    },
+    "After this sacrifice, you will find that @any@.": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "900e7368c1143d5660f01ad2b56338bd71667cf2026f2e6c957c490b4930796a"
+    },
+    "Accept @arg@": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "b00289241dd28dd942584d47afec2dab274ab250af48e9f8ec6ec475eb4809e5"
+    },
+    "Recast @arg@": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "f044ec05a43dbcc2d06b310db51706dc684240440a8f789cc174e7ecb759b3a9"
+    },
+    "Confirm evoke": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "7355837a9caff2a174f771b487a7ada3062802f990d12f3b899ca20fa097a9af"
+    },
+    "hp as a bound soul: ~@num@": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "a555b8c8a0a5ed7f601341538de59dabf0fb8c5bd8b5b4af7326f4024fd9f1e0"
+    },
+    "@num1@/@num2@ spells usable": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "5b3af9a38298588d2d5e890b92a8310407ac198ff5cf79900b8bcdb5fb11128f"
+    },
+    " <lightgrey>(@arg@ risk of failure)</lightgrey>": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "8d45dd60723d841cbc1edf608ad2008224bfa940754bf40a6e526b2e51e283c5"
+    },
+    "Piety  : @any@": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "4bb118ac5d92b464ae0637ebea3ab2d217d1719ada383b5b6a0f617a4e15212d"
+    },
+    "Gold   : @any@": {
+      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "translation_sha256": "df918a731f78d13af05a9962e64c26f88207737bb802ecae4ebf98dd61a3c352"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

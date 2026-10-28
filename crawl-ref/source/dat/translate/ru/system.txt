@@ -370,11 +370,11 @@ You feel less protected.
 %%%%
 You must catch your breath between uses of this ability.
 
-Между применениями этой способности нужно перевести дух.
+Между применениями этой способности нужно перевести дыхание.
 %%%%
 This ability takes some time before being effective.
 
-Этой способности требуется время, чтобы подействовать.
+Эффект этой способности наступает с задержкой.
 %%%%
 Using this ability will hurt you.
 
@@ -382,11 +382,11 @@ Using this ability will hurt you.
 %%%%
 This ability causes exhaustion, and cannot be used when exhausted.
 
-Эта способность вызывает истощение и недоступна, пока вы истощены.
+Эта способность вызывает изнеможение; в состоянии изнеможения применить её нельзя.
 %%%%
 This ability is instantaneous.
 
-Эта способность действует мгновенно.
+Эта способность применяется мгновенно.
 %%%%
 You can use this ability even if confused.
 
@@ -402,7 +402,7 @@ No description found.
 %%%%
 Sacrifices cannot be taken back.
 
-От жертв нельзя отказаться впоследствии.
+Принесённую жертву нельзя вернуть.
 %%%%
 You are not religious.
 
@@ -6266,7 +6266,7 @@ If you bind an item with this curse Ashenzari will enhance the following skills:
 %%%%
 If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.
 
-После этой жертвы силы, дарованные Ру, возрастут пропорционально её ценности. Вы также можете получить новые силы.
+Эта жертва усилит способности, дарованные Ру, соразмерно своей ценности; вы также можете получить новые способности.
 %%%%
 After this sacrifice, you will find that @arg@.
 
@@ -20002,7 +20002,7 @@ Flail
 %%%%
 Chain mail (+AC)
 
-Кольчуга (+БК)
+Кольчуга (+броня)
 %%%%
 Broad axe (flame)
 
@@ -20258,7 +20258,7 @@ You can memorise some of Vehumet's most lethal spells.
 %%%%
 You can memorise some of Vehumet's spells.
 
-Вы можете запомнить некоторые заклинания Вехумета.
+Вы можете изучить некоторые заклинания Вехумета.
 %%%%
 You radiate a large aura of darkness, enhancing your stealth and reducing the accuracy of your foes.
 
@@ -20306,11 +20306,11 @@ None.
 %%%%
 "Title  - "
 
-"Титул — "
+"Титул  — "
 %%%%
 "Favour - "
 
-"Благосклонность — "
+"Милость — "
 %%%%
 "[<w>!</w>/<w>^</w>|<w>Right-click</w>]: "
 
@@ -27543,3 +27543,367 @@ Your character:
 -@num@ @arg@
 
 -@num@ @arg@
+%%%%
+Binding melee attacks
+
+Опутывающие атаки в ближнем бою
+%%%%
+Increased hit points
+
+Увеличенный запас здоровья
+%%%%
+Increased spell damage
+
+Увеличенный урон заклинаний
+%%%%
+XL              Upgrade
+
+Ур.             Улучшение
+%%%%
+@god@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any@ are evil gods.)
+
+@god@ прощает уход из веры, но наказывает тех, кто затем начинает поклоняться злому богу. (Злые боги: @any@.)
+%%%%
+@god@ forgives followers for abandonment; however, those who later take up the worship of an evil or chaotic god will be scourged. (@any1@ are evil, and @any2@ are chaotic.)
+
+@god@ прощает уход из веры, но наказывает тех, кто затем начинает поклоняться злому или хаотичному богу. (Злые боги: @any1@; хаотичные: @any2@.)
+%%%%
+@god@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!
+
+@god@ не прощает ухода из веры и обрушит страшные кары на отступников!
+%%%%
+@god@'s wrath lasts for a relatively long duration.
+
+Гнев бога @god@ длится сравнительно долго.
+%%%%
+@god@'s wrath lasts for a relatively short duration.
+
+Гнев бога @god@ длится сравнительно недолго.
+%%%%
+" stacked deck: "
+
+" подготовленная колода: "
+%%%%
+@god@'s powers are not affected by the Invocations skill.
+
+Навык Молитв не влияет на силы, даруемые богом @god@.
+%%%%
+@god@'s powers are based on @skill@ instead of Invocations skill.
+
+Силы, даруемые богом @god@, зависят от навыка «@skill@», а не от Молитв.
+%%%%
+Orcs frequently recognise you as Beogh's chosen one.
+
+Орки часто признают в вас избранника Беога.
+%%%%
+Orcs sometimes recognise you as one of their own.
+
+Орки иногда принимают вас за своего.
+%%%%
+@god@ prevents you from stabbing unaware foes.
+
+@god@ запрещает вам наносить скрытные удары по врагам, не заметившим вас.
+%%%%
+You radiate a righteous aura, and foes within it are easier to hit.
+
+Вы излучаете праведную ауру; по врагам внутри неё легче попасть.
+%%%%
+You radiate a large righteous aura, and foes within it are easier to hit.
+
+Вы излучаете большую праведную ауру; по врагам внутри неё легче попасть.
+%%%%
+You radiate a small righteous aura, and foes within it are easier to hit.
+
+Вы излучаете небольшую праведную ауру; по врагам внутри неё легче попасть.
+%%%%
+Jellies are peaceful and will consume items off the floor.
+
+Слизни миролюбивы и поедают предметы с пола.
+%%%%
+Jiyva prevents you from harming jellies.
+
+Джийва не позволяет вам причинять вред слизням.
+%%%%
+Your health and magic regeneration is accelerated.
+
+Восстановление вашего здоровья и магии ускорено.
+%%%%
+Your health and magic regeneration is greatly accelerated.
+
+Восстановление вашего здоровья и магии значительно ускорено.
+%%%%
+Your health and magic regeneration is very greatly accelerated.
+
+Восстановление вашего здоровья и магии чрезвычайно ускорено.
+%%%%
+@god@ slows your movement.
+
+@god@ замедляет ваше передвижение.
+%%%%
+@god@ greatly slows your movement.
+
+@god@ значительно замедляет ваше передвижение.
+%%%%
+@god@ slightly slows your movement.
+
+@god@ немного замедляет ваше передвижение.
+%%%%
+@god@ supports your attributes. (+@num@)
+
+@god@ повышает ваши характеристики. (+@num@)
+%%%%
+some of Vehumet's most lethal spells
+
+некоторые из самых смертоносных заклинаний Вехумета
+%%%%
+You are surrounded by an umbra.
+
+Вас окружает мрачный ореол.
+%%%%
+Foes that die within your umbra may be raised as undead servants.
+
+Враги, погибшие внутри вашего мрачного ореола, могут восстать слугами-нежитью.
+%%%%
+Your life essence is reduced. (-10% HP)
+
+Ваша жизненная сила ослаблена. (−10% здоровья)
+%%%%
+Your Destruction is augmented by the power of Gehenna.
+
+Ваше Разрушение усилено мощью Геенны.
+%%%%
+Your Destruction is augmented by the power of Cocytus.
+
+Ваше Разрушение усилено мощью Коцита.
+%%%%
+Your Destruction is augmented by the power of Tartarus.
+
+Ваше Разрушение усилено мощью Тартара.
+%%%%
+Your Destruction is augmented by the power of Dis.
+
+Ваше Разрушение усилено мощью Диса.
+%%%%
+Your Destruction will be augmented by one of the Four Hells.
+
+Ваше Разрушение будет усилено мощью одного из четырёх Адов.
+%%%%
+You have been branded with the @arg@.
+
+На вас наложено клеймо: @arg@.
+%%%%
+Jiyva will unlock the Slime Pits vaults.
+
+Джийва откроет хранилища Слизневых ям.
+%%%%
+" (no fee if you act now)"
+
+" (без платы, если решитесь сейчас)"
+%%%%
+" (no fee if you join today)"
+
+" (без платы, если присоединитесь сегодня)"
+%%%%
+"  [<w>J</w>/<w>Enter</w>]: join"
+
+"  [<w>J</w>/<w>Enter</w>]: принять веру"
+%%%%
+@god@ carefully guards your life.
+
+@god@ особенно тщательно оберегает вашу жизнь.
+%%%%
+@god@ often guards your life.
+
+@god@ часто оберегает вашу жизнь.
+%%%%
+@god@ sometimes guards your life.
+
+@god@ иногда оберегает вашу жизнь.
+%%%%
+@god@ occasionally guards your life.
+
+@god@ время от времени оберегает вашу жизнь.
+%%%%
+@god@ always shields you from chaos.
+
+@god@ всегда защищает вас от хаоса.
+%%%%
+@god@ always shields you from Hell.
+
+@god@ всегда защищает вас от воздействий Ада.
+%%%%
+@god@ often shields you from chaos.
+
+@god@ часто защищает вас от хаоса.
+%%%%
+@god@ often shields you from Hell.
+
+@god@ часто защищает вас от воздействий Ада.
+%%%%
+@god@ sometimes shields you from chaos.
+
+@god@ иногда защищает вас от хаоса.
+%%%%
+@god@ sometimes shields you from Hell.
+
+@god@ иногда защищает вас от воздействий Ада.
+%%%%
+@god@ occasionally shields you from chaos.
+
+@god@ время от времени защищает вас от хаоса.
+%%%%
+@god@ occasionally shields you from Hell.
+
+@god@ время от времени защищает вас от воздействий Ада.
+%%%%
+@god@ rarely shields you from chaos.
+
+@god@ редко защищает вас от хаоса.
+%%%%
+@god@ rarely shields you from Hell.
+
+@god@ редко защищает вас от воздействий Ада.
+%%%%
+@god@ completely shields you from negative energy.
+
+@god@ полностью защищает вас от отрицательной энергии.
+%%%%
+@god@ mostly shields you from negative energy.
+
+@god@ в значительной степени защищает вас от отрицательной энергии.
+%%%%
+@god@ partially shields you from negative energy.
+
+@god@ частично защищает вас от отрицательной энергии.
+%%%%
+[<w>!</w>]: Overview|Powers|Wrath
+
+[<w>!</w>]: Обзор|Силы|Гнев
+%%%%
+[<w>!</w>]: <w>Overview</w>|Powers|Wrath
+
+[<w>!</w>]: <w>Обзор</w>|Силы|Гнев
+%%%%
+[<w>!</w>]: Overview|<w>Powers</w>|Wrath
+
+[<w>!</w>]: Обзор|<w>Силы</w>|Гнев
+%%%%
+[<w>!</w>]: Overview|Powers|<w>Wrath</w>
+
+[<w>!</w>]: Обзор|Силы|<w>Гнев</w>
+%%%%
+[<w>!</w>]: Overview|Powers|Wrath|Extra
+
+[<w>!</w>]: Обзор|Силы|Гнев|Дополнительно
+%%%%
+[<w>!</w>]: <w>Overview</w>|Powers|Wrath|Extra
+
+[<w>!</w>]: <w>Обзор</w>|Силы|Гнев|Дополнительно
+%%%%
+[<w>!</w>]: Overview|<w>Powers</w>|Wrath|Extra
+
+[<w>!</w>]: Обзор|<w>Силы</w>|Гнев|Дополнительно
+%%%%
+[<w>!</w>]: Overview|Powers|<w>Wrath</w>|Extra
+
+[<w>!</w>]: Обзор|Силы|<w>Гнев</w>|Дополнительно
+%%%%
+[<w>!</w>]: Overview|Powers|Wrath|<w>Extra</w>
+
+[<w>!</w>]: Обзор|Силы|Гнев|<w>Дополнительно</w>
+%%%%
+This altar belongs to @any@, but you can't tell which.
+
+Этот алтарь посвящён одному из богов — @any@, но вы не знаете, кому именно.
+%%%%
+Press the corresponding letter to learn more about a god, or press enter to convert or escape to cancel.
+
+Нажмите соответствующую букву, чтобы узнать о боге подробнее; Enter — принять веру, Escape — отменить.
+%%%%
+Praying here may force you to leave your current form.
+
+Молитва здесь может вынудить вас выйти из текущего облика.
+%%%%
+Praying here may force you to remove some of your equipment.
+
+Молитва здесь может вынудить вас снять часть снаряжения.
+%%%%
+Praying here may force you to leave your current form and remove some of your equipment.
+
+Молитва здесь может вынудить вас выйти из текущего облика и снять часть снаряжения.
+%%%%
+" (less than 1% of your maximum possible piety)"
+
+" (менее 1% от максимально возможного благочестия)"
+%%%%
+" (about @num@% of your maximum possible piety)"
+
+" (около @num@% от максимально возможного благочестия)"
+%%%%
+Permanent MP (@num@ left)
+
+Постоянная потеря магии (осталось: @num@)
+%%%%
+One bound item
+
+Один предмет, связанный проклятием
+%%%%
+Using this ability will hurt you for a large fraction of your current HP.
+
+Применение этой способности отнимет значительную долю вашего текущего здоровья.
+%%%%
+Using this ability invokes torment.
+
+Применение этой способности вызывает мучение.
+%%%%
+This ability will temporarily drain your maximum health when used.
+
+Применение этой способности временно уменьшает ваш максимальный запас здоровья.
+%%%%
+This ability will temporarily drain your maximum health when used, even unsuccessfully.
+
+Даже неудачная попытка применить эту способность временно уменьшает ваш максимальный запас здоровья.
+%%%%
+Gaining experience will replenish charges of this ability.
+
+Получение опыта восстанавливает заряды этой способности.
+%%%%
+If you bind an item with this ritual Ashenzari will enhance the following skills:
+
+Если связать предмет этим ритуалом, Ашензари усилит следующие навыки:
+%%%%
+After this sacrifice, you will find that @any@.
+
+После этой жертвы произойдут следующие изменения: @any@.
+%%%%
+Accept @arg@
+
+Принять: @arg@
+%%%%
+Recast @arg@
+
+Повторно сотворить: @arg@
+%%%%
+Confirm evoke
+
+Подтвердить применение устройства
+%%%%
+hp as a bound soul: ~@num@
+
+здоровье связанной души: около @num@
+%%%%
+@num1@/@num2@ spells usable
+
+Доступно заклинаний: @num1@/@num2@
+%%%%
+" <lightgrey>(@arg@ risk of failure)</lightgrey>"
+
+" <lightgrey>(риск неудачи: @arg@)</lightgrey>"
+%%%%
+Piety  : @any@
+
+Благочестие: @any@
+%%%%
+Gold   : @any@
+
+Золото: @any@

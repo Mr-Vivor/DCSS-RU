@@ -556,6 +556,10 @@ static void _parse_text_db(LineInput &inf, DBM *db, bool value_translates_key)
     while (!inf.eof())
     {
         string line = inf.get_line();
+        // get_line() can discover EOF while returning an empty string. This
+        // is not a real blank line and must not enter the last translation.
+        if (inf.eof() && line.empty())
+            break;
 
         if (!line.empty() && line[0] == '#')
             continue;
