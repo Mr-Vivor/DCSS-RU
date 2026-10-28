@@ -678,7 +678,8 @@ function (exports, $, key_conversion, chat, comm) {
     function hide_dialog()
     {
         showing_close_message = false;
-        $(".floating_dialog").blur().hide();
+        // A pending fadeIn must not make the dialog visible again after close.
+        $(".floating_dialog").stop(true, true).blur().hide();
         $("#overlay").hide();
     }
     exports.show_dialog = show_dialog;
@@ -1386,6 +1387,8 @@ function (exports, $, key_conversion, chat, comm) {
 
     function crawl_started()
     {
+        // A lobby error/old-process dialog can outlive its hidden lobby layer.
+        hide_dialog();
         playing = true;
         watching = false;
     }

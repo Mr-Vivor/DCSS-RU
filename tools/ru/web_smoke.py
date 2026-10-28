@@ -81,12 +81,24 @@ def main():
                     page.keyboard.press("Enter")
                     page.get_by_text("j - Человек", exact=True).click()
                     page.get_by_text("a - Воин", exact=True).click()
-                    page.get_by_text("a - рапира", exact=True).click()
+                    page.get_by_text("a - рапира", exact=True).wait_for(state="visible")
+                    # Reproduce the stale-process/error dialog left above a
+                    # hidden lobby. The game can advance by keyboard while its
+                    # full-screen overlay still intercepts pointer input.
+                    page.evaluate("""() => new Promise(resolve => {
+                        require(['client'], client => {
+                            client.show_dialog('#stale_processes_message');
+                            resolve();
+                        });
+                    })""")
+                    assert page.locator("#overlay").is_visible()
+                    page.keyboard.press("a")
                     page.wait_for_function("""() => {
                         const hp = document.querySelector('#stats_hp');
                         const normal = document.querySelector('#normal');
                         return hp && Number(hp.textContent) > 0
                             && normal && getComputedStyle(normal).display !== 'none'
+                            && getComputedStyle(document.querySelector('#overlay')).display === 'none'
                             && document.querySelectorAll('#ui-stack > .ui-popup').length === 0;
                     }""", timeout=60000)
                     pixels = page.locator("#dungeon").evaluate("""canvas => {

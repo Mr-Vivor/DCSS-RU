@@ -244,6 +244,9 @@ function ($, exports, comm, client, key_conversion, dungeon_renderer, display,
         switch (ui_state)
         {
         case enums.ui.NORMAL:
+            // A hidden frontend dialog must not leave its blackout over a
+            // newly created character. Reloading used to be the only recovery.
+            client.hide_dialog();
             client.set_layer("normal");
             if (old_state == enums.ui.VIEW_MAP)
                 toggle_full_window_dungeon_view(false);
