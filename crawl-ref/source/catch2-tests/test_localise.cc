@@ -251,6 +251,14 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     CHECK(getLongDescription("potion of invisibility").find("Стоя в воде") != string::npos);
     CHECK(getEgoString("harm (Harm) armour ego").find("получаемый") != string::npos);
     CHECK(getEgoString("sniping (Snipe) armour ego").find("50%") != string::npos);
+    CHECK(getLongDescription("Shock spell").find("половину брони") != string::npos);
+    CHECK(getLongDescription("Bind Soul ability").find("сравнительно невредимой") != string::npos);
+    CHECK(getLongDescription("Bind Soul ability").find("треть текущего здоровья") != string::npos);
+    CHECK(getLongDescription("Finesse ability").find("загрязнение") == string::npos);
+    CHECK(getLongDescription("Finesse ability").find("Молитв") != string::npos);
+    CHECK(localise("Hurl Torchlight") == "Метнуть свет Чёрного факела");
+    CHECK(localise("Bolster") == "Укрепление");
+    CHECK(localise("Deflect Missiles") == "Отклонение снарядов");
 
     const species_type old_species = you.species;
     you.species = SP_DJINNI;

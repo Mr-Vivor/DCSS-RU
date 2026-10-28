@@ -1,4 +1,4 @@
-# Справочник предметов и навыков
+# Справочник предметов, навыков и способностей
 
 Названия и описания синхронизированы с русской версией игры.
 
@@ -217,3 +217,29 @@
 - [Управление устройствами](skills/evocations.md)
 - [Оборотничество](skills/shapeshifting.md)
 
+
+## Заклинания
+
+- [Укрепление](spells/bolster-spell.md)
+- [Отклонение снарядов](spells/deflect-missiles-spell.md)
+- [Метнуть свет Чёрного факела](spells/hurl-torchlight-spell.md)
+- [Остекление](spells/vitrify-spell.md)
+- [Остекляющий взгляд](spells/vitrifying-gaze-spell.md)
+- [Электрический разряд](spells/shock-spell.md)
+- [Магический дротик](spells/magic-dart-spell.md)
+- [Скачок](spells/blink-spell.md)
+- [Заморозка](spells/freeze-spell.md)
+- [Каменная стрела](spells/stone-arrow-spell.md)
+
+## Способности
+
+- [Призвать собранную нежить](ability/recall-undead-harvest-ability.md)
+- [Зажечь Чёрный факел](ability/light-the-black-torch-ability.md)
+- [Метнуть свет Чёрного факела](ability/hurl-torchlight-ability.md)
+- [Связать душу](ability/bind-soul-ability.md)
+- [Бездонные оковы](ability/fathomless-shackles-ability.md)
+- [Ярость берсерка](ability/berserk-ability.md)
+- [Рука Трога](ability/trog's-hand-ability.md)
+- [Братья по оружию](ability/brothers-in-arms-ability.md)
+- [Героизм](ability/heroism-ability.md)
+- [Искусность](ability/finesse-ability.md)

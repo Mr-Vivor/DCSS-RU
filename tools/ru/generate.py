@@ -147,8 +147,16 @@ def outputs(entities):
     reviewed = reviewed_descriptions()
     item_names = {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "item"}
     item_names.update(terms.get("items", {}))
+    reference_names = {
+        "items": item_names,
+        "skills": terms["skill"],
+        "spells": {name + " spell": title for name, title in terms["spell"].items()},
+        "ability": {name + " ability": title for name, title in terms["ability"].items()},
+    }
+    reference_headings = {"items": "Предметы", "skills": "Навыки",
+                          "spells": "Заклинания", "ability": "Способности"}
     reference = {}
-    reference_index = ["# Справочник предметов и навыков", "",
+    reference_index = ["# Справочник предметов, навыков и способностей", "",
                        "Названия и описания синхронизированы с русской версией игры.", ""]
     for filename, group in reviewed.items():
         source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
@@ -159,10 +167,10 @@ def outputs(entities):
         result[target_path] = write_db(merged,
             "Reviewed entries generated from localization/ru/descriptions.json; remaining entries await review.")
         reference[filename] = {}
-        if filename in ("items", "skills"):
-            reference_index.extend(("## " + ("Предметы" if filename == "items" else "Навыки"), ""))
+        if filename in reference_headings:
+            reference_index.extend(("## " + reference_headings[filename], ""))
         for key, entry in group.items():
-            title = (item_names if filename == "items" else terms["skill"] if filename == "skills" else {}).get(key)
+            title = reference_names.get(filename, {}).get(key)
             reference[filename][key] = dict(title=title, text=entry["text"], source_sha256=entry["source_sha256"])
             if not title:
                 continue  # Shared description fragments and ego lookup keys are not item names.

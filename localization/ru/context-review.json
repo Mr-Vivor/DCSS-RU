@@ -76,7 +76,7 @@
         "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs"
       ],
       "entries": 235,
-      "translations_sha256": "445c006f42006e654cb3d9ba4baf10dbdb7464fa41474c75da6540e0bc245997"
+      "translations_sha256": "38e3e864a1c93fbfd078d41384b02efe6d05e1cec095ad8309f396649b82b1bf"
     }
   },
   "messages": {
@@ -27487,6 +27487,34 @@
     "Gold   : @any@": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
       "translation_sha256": "df918a731f78d13af05a9962e64c26f88207737bb802ecae4ebf98dd61a3c352"
+    },
+    "Bolster": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "095d12861f3962fb2b1488ec12bd69632bda839f29b681f10e368a2aa3ab2766"
+    },
+    "Deflect Missiles": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "1fde709c7eb79bebbf3caf783354a45e8c41688220681582e3d9a0ad454a913a"
+    },
+    "Hurl Torchlight": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "a1c1a617d43f50ebdabf7e351df34f22c2994b9ac06932a6dbd53d7896ea2c24"
+    },
+    "Vitrify": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "d65deac15729e5ceda50046aed2090507016eb4085bbcf8ad26f276ded8383cd"
+    },
+    "Vitrifying Gaze": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "92ea20a525a6f4a99faa18f866cb5ae05c45c88342ab76fa877070703c6646b6"
+    },
+    "Recall Undead Harvest": {
+      "context": "dat/descript/spells.txt, dat/descript/ability.txt, ability.cc and describe-god.cc; current mechanics and shared titles",
+      "translation_sha256": "0659399a99da8a5d9bb7f657445b4c4e5393e1b14f1549102afe4b50c0c418c4"
+    },
+    "Torchlight": {
+      "context": "ability.cc: abflag::torchlight consumes charges of the lit Black Torch",
+      "translation_sha256": "e270e5543553f535bd7a1a50da44f81d0dac480c9c2cdca8318782d4bab9d853"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -14,9 +14,9 @@
     "background": 28,
     "skill": 29,
     "gods": 26,
-    "spell": 16,
+    "spell": 22,
     "items": 90,
-    "ability": 5
+    "ability": 13
   },
   "static_catalogs": {
     "ui": 477,
@@ -46,7 +46,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 6977,
+  "additional_system_messages": 6984,
   "reviewed_random_messages": {
     "miscname": {
       "entries": 10,
@@ -61,7 +61,9 @@
   "reviewed_descriptions": {
     "items": 181,
     "skills": 29,
-    "egos": 80
+    "egos": 80,
+    "spells": 10,
+    "ability": 10
   },
   "descriptions": {
     "species": 27,

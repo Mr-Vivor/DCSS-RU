@@ -152,6 +152,12 @@
 | Disjunction | Разъединение |
 | Blinkbolt | Скачок молнии |
 | Dragon's Call | Зов драконов |
+| Bolster | Укрепление |
+| Deflect Missiles | Отклонение снарядов |
+| Hurl Torchlight | Метнуть свет Чёрного факела |
+| Vitrify | Остекление |
+| Vitrifying Gaze | Остекляющий взгляд |
+| Stone Arrow | Каменная стрела |
 
 ## items
 
@@ -257,3 +263,11 @@
 | Recite | Чтение законов |
 | Finesse | Искусность |
 | Trog's Hand | Рука Трога |
+| Recall Undead Harvest | Призвать собранную нежить |
+| Light the Black Torch | Зажечь Чёрный факел |
+| Hurl Torchlight | Метнуть свет Чёрного факела |
+| Bind Soul | Связать душу |
+| Fathomless Shackles | Бездонные оковы |
+| Berserk | Ярость берсерка |
+| Brothers in Arms | Братья по оружию |
+| Heroism | Героизм |
