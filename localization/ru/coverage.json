@@ -1,12 +1,13 @@
 {
-  "entities": 191,
+  "entities": 193,
   "kinds": {
-    "monster": 92,
+    "monster": 94,
     "item": 99
   },
-  "generated_game_keys": 15280,
+  "generated_game_keys": 15419,
   "review": {
-    "draft": 191
+    "draft": 191,
+    "reviewed": 2
   },
   "wiki_articles": 3,
   "additional_terms": {
@@ -46,7 +47,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 6984,
+  "additional_system_messages": 6985,
   "reviewed_random_messages": {
     "miscname": {
       "entries": 10,
@@ -63,7 +64,8 @@
     "skills": 29,
     "egos": 80,
     "spells": 10,
-    "ability": 10
+    "ability": 10,
+    "monsters": 2
   },
   "descriptions": {
     "species": 27,

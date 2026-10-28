@@ -112,7 +112,7 @@ class StaticTranslationTests(unittest.TestCase):
             generated = read_db(ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt")
             for key, entry in group.items():
                 self.assertEqual(generated[key], entry["text"], (filename, key))
-        for filename in ("items", "skills", "spells", "ability"):
+        for filename in ("items", "skills", "spells", "ability", "monsters"):
             wiki = json.loads((ROOT / "wiki/ru/reference/descriptions.json").read_text(encoding="utf8"))[filename]
             for key, entry in data[filename].items():
                 self.assertEqual(wiki[key]["text"], entry["text"], key)

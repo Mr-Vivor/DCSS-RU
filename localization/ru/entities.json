@@ -1534,7 +1534,8 @@
         "acc": "водяных щитомордников",
         "ins": "водяными щитомордниками",
         "prep": "водяных щитомордниках"
-      }
+      },
+      "counted_few": "водяных щитомордника"
     },
     "review": "draft"
   },
@@ -5155,5 +5156,60 @@
       }
     },
     "review": "draft"
+  },
+  {
+    "id": "monster.iguana",
+    "kind": "monster",
+    "en": "iguana",
+    "en_plural": "iguanas",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "игуана",
+        "gen": "игуаны",
+        "dat": "игуане",
+        "acc": "игуану",
+        "ins": "игуаной",
+        "prep": "игуане"
+      },
+      "plural": {
+        "nom": "игуаны",
+        "gen": "игуан",
+        "dat": "игуанам",
+        "acc": "игуан",
+        "ins": "игуанами",
+        "prep": "игуанах"
+      }
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.rock_fish",
+    "kind": "monster",
+    "en": "rock fish",
+    "en_plural": "rock fish",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "каменная рыба",
+        "gen": "каменной рыбы",
+        "dat": "каменной рыбе",
+        "acc": "каменную рыбу",
+        "ins": "каменной рыбой",
+        "prep": "каменной рыбе"
+      },
+      "plural": {
+        "nom": "каменные рыбы",
+        "gen": "каменных рыб",
+        "dat": "каменным рыбам",
+        "acc": "каменных рыб",
+        "ins": "каменными рыбами",
+        "prep": "каменных рыбах"
+      },
+      "counted_few": "каменные рыбы"
+    },
+    "review": "reviewed"
   }
 ]

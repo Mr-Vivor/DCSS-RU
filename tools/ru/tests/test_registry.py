@@ -28,6 +28,12 @@ class SharedRegistryTests(unittest.TestCase):
         self.assertEqual(self.by_name["potion of curing"]["forms"]["singular"]["ins"],
                          "зельем исцеления")
 
+    def test_invariant_english_plural_preserves_the_singular_translation(self):
+        self.assertEqual(self.by_name["rock fish"]["en_plural"], "rock fish")
+        self.assertEqual(self.entries["rock fish"], "{f}каменная рыба")
+        self.assertEqual(self.entries["{few}@num@ rock fish"], "@num@ каменные рыбы")
+        self.assertEqual(self.entries["{many}@num@ rock fish"], "@num@ каменных рыб")
+
     def test_feminine_adjective_uses_accusative(self):
         self.assertEqual(self.by_name["bat"]["forms"]["singular"]["acc"], "летучую мышь")
 

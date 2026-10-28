@@ -2109,10 +2109,26 @@ void TilesFramework::_send_monster(const coord_def &gc, const monster_info* m,
         force_full = true;
 
     if (force_full || (last->full_name() != m->full_name()))
+    {
         json_write_string("name", m->full_name());
+        json_write_string("display_name", localise(m->full_name()));
+    }
 
     if (force_full || (last->pluralised_name() != m->pluralised_name()))
+    {
         json_write_string("plural", m->pluralised_name());
+        json_write_string("display_plural", localise(m->pluralised_name()));
+        if (localisation_active() && Options.language == lang_t::RU)
+        {
+            json_open_object("counted_names");
+            for (const int count : {1, 2, 5})
+            {
+                const string phrase = localise(to_string(count) + " " + m->pluralised_name());
+                json_write_string(to_string(count), phrase.substr(2));
+            }
+            json_close_object();
+        }
+    }
 
     if (force_full || last->type != m->type)
     {

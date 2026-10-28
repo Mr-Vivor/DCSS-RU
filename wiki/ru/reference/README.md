@@ -243,3 +243,8 @@
 - [Братья по оружию](ability/brothers-in-arms-ability.md)
 - [Героизм](ability/heroism-ability.md)
 - [Искусность](ability/finesse-ability.md)
+
+## Монстры
+
+- [Игуана](monsters/iguana.md)
+- [Каменная рыба](monsters/rock-fish.md)

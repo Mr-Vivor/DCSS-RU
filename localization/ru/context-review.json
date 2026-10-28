@@ -27515,6 +27515,10 @@
     "Torchlight": {
       "context": "ability.cc: abflag::torchlight consumes charges of the lit Black Torch",
       "translation_sha256": "e270e5543553f535bd7a1a50da44f81d0dac480c9c2cdca8318782d4bab9d853"
+    },
+    "The air fills with toxic fumes!": {
+      "context": "spl-clouds.cc: poison cloud created by the scroll of poison; observed in public WebTiles",
+      "translation_sha256": "990e125f3ceeaaaa133eaac01c32824b9399d3a53f6177d57a83bce61fb6cb69"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

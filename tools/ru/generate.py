@@ -26,6 +26,9 @@ def load_entities():
                 value = entity["forms"][number][case]
                 if not value or any(c in value for c in ("@", "{", "}", "\n")):
                     raise ValueError("Invalid grammatical form: " + entity["id"])
+        counted_few = entity["forms"].get("counted_few")
+        if counted_few is not None and (not counted_few or any(c in counted_few for c in ("@", "{", "}", "\n"))):
+            raise ValueError("Invalid counted form: " + entity["id"])
     return entities
 
 
@@ -47,14 +50,16 @@ def game_entries(entities):
             for case in CASES:
                 add("{" + case + "}" + key, gender + singular_forms[case])
             add(key + "'s", gender + singular_forms["gen"])
-        for prefix in ("", "the ", "your "):
+        # English fish/deer-style invariant plurals must not overwrite the
+        # singular key. Counted phrases still receive all Russian forms below.
+        for prefix in (("", "the ", "your ") if plural != en else ()):
             add(prefix + plural, "{pl}" + plural_forms["nom"])
             for case in CASES:
                 add("{" + case + "}" + prefix + plural, "{pl}" + plural_forms[case])
         counted = "@num@ " + plural
         add(counted, "@num@ " + plural_forms["gen"])
         for category, value in (("one", singular_forms["nom"]),
-                                ("few", singular_forms["gen"]),
+                                ("few", entity["forms"].get("counted_few", singular_forms["gen"])),
                                 ("many", plural_forms["gen"])):
             add("{" + category + "}" + counted, "@num@ " + value)
         # Oblique cases use the singular only for counts ending in one.
@@ -152,9 +157,10 @@ def outputs(entities):
         "skills": terms["skill"],
         "spells": {name + " spell": title for name, title in terms["spell"].items()},
         "ability": {name + " ability": title for name, title in terms["ability"].items()},
+        "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
     }
     reference_headings = {"items": "Предметы", "skills": "Навыки",
-                          "spells": "Заклинания", "ability": "Способности"}
+                          "spells": "Заклинания", "ability": "Способности", "monsters": "Монстры"}
     reference = {}
     reference_index = ["# Справочник предметов, навыков и способностей", "",
                        "Названия и описания синхронизированы с русской версией игры.", ""]

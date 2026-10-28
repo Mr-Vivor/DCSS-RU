@@ -222,7 +222,7 @@ function ($, map_knowledge, cr, dungeon_renderer, options, util, player, main) {
 
             if (monsters.length == 1)
             {
-                group.name_span.text(monsters[0].mon.name);
+                group.name_span.text(monsters[0].mon.display_name || monsters[0].mon.name);
                 if (options.get("tile_display_mode") == "glyphs")
                 {
                     var map_cell = map_knowledge.get(monsters[0].loc.x, monsters[0].loc.y);
@@ -245,7 +245,14 @@ function ($, map_knowledge, cr, dungeon_renderer, options, util, player, main) {
             }
             else
             {
-                group.name_span.text(monsters.length + " " + monsters[0].mon.plural);
+                var mon = monsters[0].mon;
+                var lastTwo = monsters.length % 100;
+                var lastDigit = monsters.length % 10;
+                var form = lastTwo >= 11 && lastTwo <= 14 ? 5
+                    : lastDigit == 1 ? 1 : lastDigit >= 2 && lastDigit <= 4 ? 2 : 5;
+                var name = mon.counted_names ? mon.counted_names[form]
+                    : mon.display_plural || mon.plural;
+                group.name_span.text(monsters.length + " " + name);
                 group.health_span.hide();
             }
 

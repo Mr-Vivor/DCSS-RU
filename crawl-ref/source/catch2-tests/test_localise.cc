@@ -228,6 +228,11 @@ TEST_CASE("Russian runtime comparisons describe the direction of stat changes", 
     CHECK(localise("+0 rapier") == "+0 рапира");
     CHECK(localise("-2 leather armour") == "-2 кожаный доспех");
     CHECK(localise("+0 flurble") == "+0 flurble");
+    CHECK(localise("2 rock fish") == "2 каменные рыбы");
+    CHECK(localise("11 rock fish") == "11 каменных рыб");
+    CHECK(localise("21 rock fish") == "21 каменная рыба");
+    CHECK(localise("The iguana bites you!") == "Игуана кусает вас!");
+    CHECK(localise("The air fills with toxic fumes!") == "Воздух наполняется ядовитыми испарениями!");
 
     for (const string key : {"welcome_spam", "welcome_spam dungeon descent", "welcome_spam Halloween"})
     {

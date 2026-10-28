@@ -202,6 +202,9 @@
 @num@ ice dragons
 @num@ ледяных драконов
 %%%%
+@num@ iguanas
+@num@ игуан
+%%%%
 @num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -399,6 +402,9 @@
 %%%%
 @num@ robes
 @num@ мантий
+%%%%
+@num@ rock fish
+@num@ каменных рыб
 %%%%
 @num@ scale mails
 @num@ чешуйчатых доспехов
@@ -976,6 +982,12 @@ a ice dragon
 a ice dragon's
 {m}ледяного дракона
 %%%%
+a iguana
+{f}игуана
+%%%%
+a iguana's
+{f}игуаны
+%%%%
 a iron dragon
 {m}железный дракон
 %%%%
@@ -1371,6 +1383,12 @@ a robe
 %%%%
 a robe's
 {f}мантии
+%%%%
+a rock fish
+{f}каменная рыба
+%%%%
+a rock fish's
+{f}каменной рыбы
 %%%%
 a scale mail
 {m}чешуйчатый доспех
@@ -2167,6 +2185,12 @@ an ice dragon
 an ice dragon's
 {m}ледяного дракона
 %%%%
+an iguana
+{f}игуана
+%%%%
+an iguana's
+{f}игуаны
+%%%%
 an iron dragon
 {m}железный дракон
 %%%%
@@ -2562,6 +2586,12 @@ an robe
 %%%%
 an robe's
 {f}мантии
+%%%%
+an rock fish
+{f}каменная рыба
+%%%%
+an rock fish's
+{f}каменной рыбы
 %%%%
 an scale mail
 {m}чешуйчатый доспех
@@ -3469,6 +3499,15 @@ ice dragon's
 ice dragons
 {pl}ледяные драконы
 %%%%
+iguana
+{f}игуана
+%%%%
+iguana's
+{f}игуаны
+%%%%
+iguanas
+{pl}игуаны
+%%%%
 iron dragon
 {m}железный дракон
 %%%%
@@ -4062,6 +4101,12 @@ robe's
 %%%%
 robes
 {pl}мантии
+%%%%
+rock fish
+{f}каменная рыба
+%%%%
+rock fish's
+{f}каменной рыбы
 %%%%
 scale mail
 {m}чешуйчатый доспех
@@ -4972,6 +5017,15 @@ the ice dragon's
 the ice dragons
 {pl}ледяные драконы
 %%%%
+the iguana
+{f}игуана
+%%%%
+the iguana's
+{f}игуаны
+%%%%
+the iguanas
+{pl}игуаны
+%%%%
 the iron dragon
 {m}железный дракон
 %%%%
@@ -5565,6 +5619,12 @@ the robe's
 %%%%
 the robes
 {pl}мантии
+%%%%
+the rock fish
+{f}каменная рыба
+%%%%
+the rock fish's
+{f}каменной рыбы
 %%%%
 the scale mail
 {m}чешуйчатый доспех
@@ -6907,6 +6967,15 @@ your ice dragon's
 your ice dragons
 {pl}ледяные драконы
 %%%%
+your iguana
+{f}игуана
+%%%%
+your iguana's
+{f}игуаны
+%%%%
+your iguanas
+{pl}игуаны
+%%%%
 your iron dragon
 {m}железный дракон
 %%%%
@@ -7500,6 +7569,12 @@ your robe's
 %%%%
 your robes
 {pl}мантии
+%%%%
+your rock fish
+{f}каменная рыба
+%%%%
+your rock fish's
+{f}каменной рыбы
 %%%%
 your scale mail
 {m}чешуйчатый доспех
@@ -8224,6 +8299,9 @@ your yaks
 {acc_few}@num@ ice dragons
 @num@ ледяных драконов
 %%%%
+{acc_few}@num@ iguanas
+@num@ игуан
+%%%%
 {acc_few}@num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -8421,6 +8499,9 @@ your yaks
 %%%%
 {acc_few}@num@ robes
 @num@ мантии
+%%%%
+{acc_few}@num@ rock fish
+@num@ каменных рыб
 %%%%
 {acc_few}@num@ scale mails
 @num@ чешуйчатого доспеха
@@ -8797,6 +8878,9 @@ your yaks
 {acc_many}@num@ ice dragons
 @num@ ледяных драконов
 %%%%
+{acc_many}@num@ iguanas
+@num@ игуан
+%%%%
 {acc_many}@num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -8994,6 +9078,9 @@ your yaks
 %%%%
 {acc_many}@num@ robes
 @num@ мантий
+%%%%
+{acc_many}@num@ rock fish
+@num@ каменных рыб
 %%%%
 {acc_many}@num@ scale mails
 @num@ чешуйчатых доспехов
@@ -9370,6 +9457,9 @@ your yaks
 {acc_one}@num@ ice dragons
 @num@ ледяного дракона
 %%%%
+{acc_one}@num@ iguanas
+@num@ игуану
+%%%%
 {acc_one}@num@ iron dragons
 @num@ железного дракона
 %%%%
@@ -9567,6 +9657,9 @@ your yaks
 %%%%
 {acc_one}@num@ robes
 @num@ мантию
+%%%%
+{acc_one}@num@ rock fish
+@num@ каменную рыбу
 %%%%
 {acc_one}@num@ scale mails
 @num@ чешуйчатый доспех
@@ -9943,6 +10036,9 @@ your yaks
 {acc}a ice dragon
 {m}ледяного дракона
 %%%%
+{acc}a iguana
+{f}игуану
+%%%%
 {acc}a iron dragon
 {m}железного дракона
 %%%%
@@ -10140,6 +10236,9 @@ your yaks
 %%%%
 {acc}a robe
 {f}мантию
+%%%%
+{acc}a rock fish
+{f}каменную рыбу
 %%%%
 {acc}a scale mail
 {m}чешуйчатый доспех
@@ -10546,6 +10645,9 @@ your yaks
 {acc}an ice dragon
 {m}ледяного дракона
 %%%%
+{acc}an iguana
+{f}игуану
+%%%%
 {acc}an iron dragon
 {m}железного дракона
 %%%%
@@ -10743,6 +10845,9 @@ your yaks
 %%%%
 {acc}an robe
 {f}мантию
+%%%%
+{acc}an rock fish
+{f}каменную рыбу
 %%%%
 {acc}an scale mail
 {m}чешуйчатый доспех
@@ -11290,6 +11395,12 @@ your yaks
 {acc}ice dragons
 {pl}ледяных драконов
 %%%%
+{acc}iguana
+{f}игуану
+%%%%
+{acc}iguanas
+{pl}игуан
+%%%%
 {acc}iron dragon
 {m}железного дракона
 %%%%
@@ -11685,6 +11796,9 @@ your yaks
 %%%%
 {acc}robes
 {pl}мантии
+%%%%
+{acc}rock fish
+{f}каменную рыбу
 %%%%
 {acc}scale mail
 {m}чешуйчатый доспех
@@ -12292,6 +12406,12 @@ your yaks
 {acc}the ice dragons
 {pl}ледяных драконов
 %%%%
+{acc}the iguana
+{f}игуану
+%%%%
+{acc}the iguanas
+{pl}игуан
+%%%%
 {acc}the iron dragon
 {m}железного дракона
 %%%%
@@ -12687,6 +12807,9 @@ your yaks
 %%%%
 {acc}the robes
 {pl}мантии
+%%%%
+{acc}the rock fish
+{f}каменную рыбу
 %%%%
 {acc}the scale mail
 {m}чешуйчатый доспех
@@ -13582,6 +13705,12 @@ your yaks
 {acc}your ice dragons
 {pl}ледяных драконов
 %%%%
+{acc}your iguana
+{f}игуану
+%%%%
+{acc}your iguanas
+{pl}игуан
+%%%%
 {acc}your iron dragon
 {m}железного дракона
 %%%%
@@ -13977,6 +14106,9 @@ your yaks
 %%%%
 {acc}your robes
 {pl}мантии
+%%%%
+{acc}your rock fish
+{f}каменную рыбу
 %%%%
 {acc}your scale mail
 {m}чешуйчатый доспех
@@ -14527,6 +14659,9 @@ your yaks
 {dat_few}@num@ ice dragons
 @num@ ледяным драконам
 %%%%
+{dat_few}@num@ iguanas
+@num@ игуанам
+%%%%
 {dat_few}@num@ iron dragons
 @num@ железным драконам
 %%%%
@@ -14724,6 +14859,9 @@ your yaks
 %%%%
 {dat_few}@num@ robes
 @num@ мантиям
+%%%%
+{dat_few}@num@ rock fish
+@num@ каменным рыбам
 %%%%
 {dat_few}@num@ scale mails
 @num@ чешуйчатым доспехам
@@ -15100,6 +15238,9 @@ your yaks
 {dat_many}@num@ ice dragons
 @num@ ледяным драконам
 %%%%
+{dat_many}@num@ iguanas
+@num@ игуанам
+%%%%
 {dat_many}@num@ iron dragons
 @num@ железным драконам
 %%%%
@@ -15297,6 +15438,9 @@ your yaks
 %%%%
 {dat_many}@num@ robes
 @num@ мантиям
+%%%%
+{dat_many}@num@ rock fish
+@num@ каменным рыбам
 %%%%
 {dat_many}@num@ scale mails
 @num@ чешуйчатым доспехам
@@ -15673,6 +15817,9 @@ your yaks
 {dat_one}@num@ ice dragons
 @num@ ледяному дракону
 %%%%
+{dat_one}@num@ iguanas
+@num@ игуане
+%%%%
 {dat_one}@num@ iron dragons
 @num@ железному дракону
 %%%%
@@ -15870,6 +16017,9 @@ your yaks
 %%%%
 {dat_one}@num@ robes
 @num@ мантии
+%%%%
+{dat_one}@num@ rock fish
+@num@ каменной рыбе
 %%%%
 {dat_one}@num@ scale mails
 @num@ чешуйчатому доспеху
@@ -16246,6 +16396,9 @@ your yaks
 {dat}a ice dragon
 {m}ледяному дракону
 %%%%
+{dat}a iguana
+{f}игуане
+%%%%
 {dat}a iron dragon
 {m}железному дракону
 %%%%
@@ -16443,6 +16596,9 @@ your yaks
 %%%%
 {dat}a robe
 {f}мантии
+%%%%
+{dat}a rock fish
+{f}каменной рыбе
 %%%%
 {dat}a scale mail
 {m}чешуйчатому доспеху
@@ -16849,6 +17005,9 @@ your yaks
 {dat}an ice dragon
 {m}ледяному дракону
 %%%%
+{dat}an iguana
+{f}игуане
+%%%%
 {dat}an iron dragon
 {m}железному дракону
 %%%%
@@ -17046,6 +17205,9 @@ your yaks
 %%%%
 {dat}an robe
 {f}мантии
+%%%%
+{dat}an rock fish
+{f}каменной рыбе
 %%%%
 {dat}an scale mail
 {m}чешуйчатому доспеху
@@ -17593,6 +17755,12 @@ your yaks
 {dat}ice dragons
 {pl}ледяным драконам
 %%%%
+{dat}iguana
+{f}игуане
+%%%%
+{dat}iguanas
+{pl}игуанам
+%%%%
 {dat}iron dragon
 {m}железному дракону
 %%%%
@@ -17988,6 +18156,9 @@ your yaks
 %%%%
 {dat}robes
 {pl}мантиям
+%%%%
+{dat}rock fish
+{f}каменной рыбе
 %%%%
 {dat}scale mail
 {m}чешуйчатому доспеху
@@ -18595,6 +18766,12 @@ your yaks
 {dat}the ice dragons
 {pl}ледяным драконам
 %%%%
+{dat}the iguana
+{f}игуане
+%%%%
+{dat}the iguanas
+{pl}игуанам
+%%%%
 {dat}the iron dragon
 {m}железному дракону
 %%%%
@@ -18990,6 +19167,9 @@ your yaks
 %%%%
 {dat}the robes
 {pl}мантиям
+%%%%
+{dat}the rock fish
+{f}каменной рыбе
 %%%%
 {dat}the scale mail
 {m}чешуйчатому доспеху
@@ -19885,6 +20065,12 @@ your yaks
 {dat}your ice dragons
 {pl}ледяным драконам
 %%%%
+{dat}your iguana
+{f}игуане
+%%%%
+{dat}your iguanas
+{pl}игуанам
+%%%%
 {dat}your iron dragon
 {m}железному дракону
 %%%%
@@ -20280,6 +20466,9 @@ your yaks
 %%%%
 {dat}your robes
 {pl}мантиям
+%%%%
+{dat}your rock fish
+{f}каменной рыбе
 %%%%
 {dat}your scale mail
 {m}чешуйчатому доспеху
@@ -20830,6 +21019,9 @@ your yaks
 {few}@num@ ice dragons
 @num@ ледяного дракона
 %%%%
+{few}@num@ iguanas
+@num@ игуаны
+%%%%
 {few}@num@ iron dragons
 @num@ железного дракона
 %%%%
@@ -21028,6 +21220,9 @@ your yaks
 {few}@num@ robes
 @num@ мантии
 %%%%
+{few}@num@ rock fish
+@num@ каменные рыбы
+%%%%
 {few}@num@ scale mails
 @num@ чешуйчатого доспеха
 %%%%
@@ -21179,7 +21374,7 @@ your yaks
 @num@ боевого топора
 %%%%
 {few}@num@ water moccasins
-@num@ водяного щитомордника
+@num@ водяных щитомордника
 %%%%
 {few}@num@ whips
 @num@ кнута
@@ -21403,6 +21598,9 @@ your yaks
 {gen_few}@num@ ice dragons
 @num@ ледяных драконов
 %%%%
+{gen_few}@num@ iguanas
+@num@ игуан
+%%%%
 {gen_few}@num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -21600,6 +21798,9 @@ your yaks
 %%%%
 {gen_few}@num@ robes
 @num@ мантий
+%%%%
+{gen_few}@num@ rock fish
+@num@ каменных рыб
 %%%%
 {gen_few}@num@ scale mails
 @num@ чешуйчатых доспехов
@@ -21976,6 +22177,9 @@ your yaks
 {gen_many}@num@ ice dragons
 @num@ ледяных драконов
 %%%%
+{gen_many}@num@ iguanas
+@num@ игуан
+%%%%
 {gen_many}@num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -22173,6 +22377,9 @@ your yaks
 %%%%
 {gen_many}@num@ robes
 @num@ мантий
+%%%%
+{gen_many}@num@ rock fish
+@num@ каменных рыб
 %%%%
 {gen_many}@num@ scale mails
 @num@ чешуйчатых доспехов
@@ -22549,6 +22756,9 @@ your yaks
 {gen_one}@num@ ice dragons
 @num@ ледяного дракона
 %%%%
+{gen_one}@num@ iguanas
+@num@ игуаны
+%%%%
 {gen_one}@num@ iron dragons
 @num@ железного дракона
 %%%%
@@ -22746,6 +22956,9 @@ your yaks
 %%%%
 {gen_one}@num@ robes
 @num@ мантии
+%%%%
+{gen_one}@num@ rock fish
+@num@ каменной рыбы
 %%%%
 {gen_one}@num@ scale mails
 @num@ чешуйчатого доспеха
@@ -23122,6 +23335,9 @@ your yaks
 {gen}a ice dragon
 {m}ледяного дракона
 %%%%
+{gen}a iguana
+{f}игуаны
+%%%%
 {gen}a iron dragon
 {m}железного дракона
 %%%%
@@ -23319,6 +23535,9 @@ your yaks
 %%%%
 {gen}a robe
 {f}мантии
+%%%%
+{gen}a rock fish
+{f}каменной рыбы
 %%%%
 {gen}a scale mail
 {m}чешуйчатого доспеха
@@ -23725,6 +23944,9 @@ your yaks
 {gen}an ice dragon
 {m}ледяного дракона
 %%%%
+{gen}an iguana
+{f}игуаны
+%%%%
 {gen}an iron dragon
 {m}железного дракона
 %%%%
@@ -23922,6 +24144,9 @@ your yaks
 %%%%
 {gen}an robe
 {f}мантии
+%%%%
+{gen}an rock fish
+{f}каменной рыбы
 %%%%
 {gen}an scale mail
 {m}чешуйчатого доспеха
@@ -24469,6 +24694,12 @@ your yaks
 {gen}ice dragons
 {pl}ледяных драконов
 %%%%
+{gen}iguana
+{f}игуаны
+%%%%
+{gen}iguanas
+{pl}игуан
+%%%%
 {gen}iron dragon
 {m}железного дракона
 %%%%
@@ -24864,6 +25095,9 @@ your yaks
 %%%%
 {gen}robes
 {pl}мантий
+%%%%
+{gen}rock fish
+{f}каменной рыбы
 %%%%
 {gen}scale mail
 {m}чешуйчатого доспеха
@@ -25471,6 +25705,12 @@ your yaks
 {gen}the ice dragons
 {pl}ледяных драконов
 %%%%
+{gen}the iguana
+{f}игуаны
+%%%%
+{gen}the iguanas
+{pl}игуан
+%%%%
 {gen}the iron dragon
 {m}железного дракона
 %%%%
@@ -25866,6 +26106,9 @@ your yaks
 %%%%
 {gen}the robes
 {pl}мантий
+%%%%
+{gen}the rock fish
+{f}каменной рыбы
 %%%%
 {gen}the scale mail
 {m}чешуйчатого доспеха
@@ -26761,6 +27004,12 @@ your yaks
 {gen}your ice dragons
 {pl}ледяных драконов
 %%%%
+{gen}your iguana
+{f}игуаны
+%%%%
+{gen}your iguanas
+{pl}игуан
+%%%%
 {gen}your iron dragon
 {m}железного дракона
 %%%%
@@ -27156,6 +27405,9 @@ your yaks
 %%%%
 {gen}your robes
 {pl}мантий
+%%%%
+{gen}your rock fish
+{f}каменной рыбы
 %%%%
 {gen}your scale mail
 {m}чешуйчатого доспеха
@@ -27706,6 +27958,9 @@ your yaks
 {ins_few}@num@ ice dragons
 @num@ ледяными драконами
 %%%%
+{ins_few}@num@ iguanas
+@num@ игуанами
+%%%%
 {ins_few}@num@ iron dragons
 @num@ железными драконами
 %%%%
@@ -27903,6 +28158,9 @@ your yaks
 %%%%
 {ins_few}@num@ robes
 @num@ мантиями
+%%%%
+{ins_few}@num@ rock fish
+@num@ каменными рыбами
 %%%%
 {ins_few}@num@ scale mails
 @num@ чешуйчатыми доспехами
@@ -28279,6 +28537,9 @@ your yaks
 {ins_many}@num@ ice dragons
 @num@ ледяными драконами
 %%%%
+{ins_many}@num@ iguanas
+@num@ игуанами
+%%%%
 {ins_many}@num@ iron dragons
 @num@ железными драконами
 %%%%
@@ -28476,6 +28737,9 @@ your yaks
 %%%%
 {ins_many}@num@ robes
 @num@ мантиями
+%%%%
+{ins_many}@num@ rock fish
+@num@ каменными рыбами
 %%%%
 {ins_many}@num@ scale mails
 @num@ чешуйчатыми доспехами
@@ -28852,6 +29116,9 @@ your yaks
 {ins_one}@num@ ice dragons
 @num@ ледяным драконом
 %%%%
+{ins_one}@num@ iguanas
+@num@ игуаной
+%%%%
 {ins_one}@num@ iron dragons
 @num@ железным драконом
 %%%%
@@ -29049,6 +29316,9 @@ your yaks
 %%%%
 {ins_one}@num@ robes
 @num@ мантией
+%%%%
+{ins_one}@num@ rock fish
+@num@ каменной рыбой
 %%%%
 {ins_one}@num@ scale mails
 @num@ чешуйчатым доспехом
@@ -29425,6 +29695,9 @@ your yaks
 {ins}a ice dragon
 {m}ледяным драконом
 %%%%
+{ins}a iguana
+{f}игуаной
+%%%%
 {ins}a iron dragon
 {m}железным драконом
 %%%%
@@ -29622,6 +29895,9 @@ your yaks
 %%%%
 {ins}a robe
 {f}мантией
+%%%%
+{ins}a rock fish
+{f}каменной рыбой
 %%%%
 {ins}a scale mail
 {m}чешуйчатым доспехом
@@ -30028,6 +30304,9 @@ your yaks
 {ins}an ice dragon
 {m}ледяным драконом
 %%%%
+{ins}an iguana
+{f}игуаной
+%%%%
 {ins}an iron dragon
 {m}железным драконом
 %%%%
@@ -30225,6 +30504,9 @@ your yaks
 %%%%
 {ins}an robe
 {f}мантией
+%%%%
+{ins}an rock fish
+{f}каменной рыбой
 %%%%
 {ins}an scale mail
 {m}чешуйчатым доспехом
@@ -30772,6 +31054,12 @@ your yaks
 {ins}ice dragons
 {pl}ледяными драконами
 %%%%
+{ins}iguana
+{f}игуаной
+%%%%
+{ins}iguanas
+{pl}игуанами
+%%%%
 {ins}iron dragon
 {m}железным драконом
 %%%%
@@ -31167,6 +31455,9 @@ your yaks
 %%%%
 {ins}robes
 {pl}мантиями
+%%%%
+{ins}rock fish
+{f}каменной рыбой
 %%%%
 {ins}scale mail
 {m}чешуйчатым доспехом
@@ -31774,6 +32065,12 @@ your yaks
 {ins}the ice dragons
 {pl}ледяными драконами
 %%%%
+{ins}the iguana
+{f}игуаной
+%%%%
+{ins}the iguanas
+{pl}игуанами
+%%%%
 {ins}the iron dragon
 {m}железным драконом
 %%%%
@@ -32169,6 +32466,9 @@ your yaks
 %%%%
 {ins}the robes
 {pl}мантиями
+%%%%
+{ins}the rock fish
+{f}каменной рыбой
 %%%%
 {ins}the scale mail
 {m}чешуйчатым доспехом
@@ -33064,6 +33364,12 @@ your yaks
 {ins}your ice dragons
 {pl}ледяными драконами
 %%%%
+{ins}your iguana
+{f}игуаной
+%%%%
+{ins}your iguanas
+{pl}игуанами
+%%%%
 {ins}your iron dragon
 {m}железным драконом
 %%%%
@@ -33459,6 +33765,9 @@ your yaks
 %%%%
 {ins}your robes
 {pl}мантиями
+%%%%
+{ins}your rock fish
+{f}каменной рыбой
 %%%%
 {ins}your scale mail
 {m}чешуйчатым доспехом
@@ -34009,6 +34318,9 @@ your yaks
 {many}@num@ ice dragons
 @num@ ледяных драконов
 %%%%
+{many}@num@ iguanas
+@num@ игуан
+%%%%
 {many}@num@ iron dragons
 @num@ железных драконов
 %%%%
@@ -34206,6 +34518,9 @@ your yaks
 %%%%
 {many}@num@ robes
 @num@ мантий
+%%%%
+{many}@num@ rock fish
+@num@ каменных рыб
 %%%%
 {many}@num@ scale mails
 @num@ чешуйчатых доспехов
@@ -34582,6 +34897,9 @@ your yaks
 {nom}a ice dragon
 {m}ледяной дракон
 %%%%
+{nom}a iguana
+{f}игуана
+%%%%
 {nom}a iron dragon
 {m}железный дракон
 %%%%
@@ -34779,6 +35097,9 @@ your yaks
 %%%%
 {nom}a robe
 {f}мантия
+%%%%
+{nom}a rock fish
+{f}каменная рыба
 %%%%
 {nom}a scale mail
 {m}чешуйчатый доспех
@@ -35185,6 +35506,9 @@ your yaks
 {nom}an ice dragon
 {m}ледяной дракон
 %%%%
+{nom}an iguana
+{f}игуана
+%%%%
 {nom}an iron dragon
 {m}железный дракон
 %%%%
@@ -35382,6 +35706,9 @@ your yaks
 %%%%
 {nom}an robe
 {f}мантия
+%%%%
+{nom}an rock fish
+{f}каменная рыба
 %%%%
 {nom}an scale mail
 {m}чешуйчатый доспех
@@ -35929,6 +36256,12 @@ your yaks
 {nom}ice dragons
 {pl}ледяные драконы
 %%%%
+{nom}iguana
+{f}игуана
+%%%%
+{nom}iguanas
+{pl}игуаны
+%%%%
 {nom}iron dragon
 {m}железный дракон
 %%%%
@@ -36324,6 +36657,9 @@ your yaks
 %%%%
 {nom}robes
 {pl}мантии
+%%%%
+{nom}rock fish
+{f}каменная рыба
 %%%%
 {nom}scale mail
 {m}чешуйчатый доспех
@@ -36931,6 +37267,12 @@ your yaks
 {nom}the ice dragons
 {pl}ледяные драконы
 %%%%
+{nom}the iguana
+{f}игуана
+%%%%
+{nom}the iguanas
+{pl}игуаны
+%%%%
 {nom}the iron dragon
 {m}железный дракон
 %%%%
@@ -37326,6 +37668,9 @@ your yaks
 %%%%
 {nom}the robes
 {pl}мантии
+%%%%
+{nom}the rock fish
+{f}каменная рыба
 %%%%
 {nom}the scale mail
 {m}чешуйчатый доспех
@@ -38221,6 +38566,12 @@ your yaks
 {nom}your ice dragons
 {pl}ледяные драконы
 %%%%
+{nom}your iguana
+{f}игуана
+%%%%
+{nom}your iguanas
+{pl}игуаны
+%%%%
 {nom}your iron dragon
 {m}железный дракон
 %%%%
@@ -38616,6 +38967,9 @@ your yaks
 %%%%
 {nom}your robes
 {pl}мантии
+%%%%
+{nom}your rock fish
+{f}каменная рыба
 %%%%
 {nom}your scale mail
 {m}чешуйчатый доспех
@@ -39166,6 +39520,9 @@ your yaks
 {one}@num@ ice dragons
 @num@ ледяной дракон
 %%%%
+{one}@num@ iguanas
+@num@ игуана
+%%%%
 {one}@num@ iron dragons
 @num@ железный дракон
 %%%%
@@ -39363,6 +39720,9 @@ your yaks
 %%%%
 {one}@num@ robes
 @num@ мантия
+%%%%
+{one}@num@ rock fish
+@num@ каменная рыба
 %%%%
 {one}@num@ scale mails
 @num@ чешуйчатый доспех
@@ -39739,6 +40099,9 @@ your yaks
 {prep_few}@num@ ice dragons
 @num@ ледяных драконах
 %%%%
+{prep_few}@num@ iguanas
+@num@ игуанах
+%%%%
 {prep_few}@num@ iron dragons
 @num@ железных драконах
 %%%%
@@ -39936,6 +40299,9 @@ your yaks
 %%%%
 {prep_few}@num@ robes
 @num@ мантиях
+%%%%
+{prep_few}@num@ rock fish
+@num@ каменных рыбах
 %%%%
 {prep_few}@num@ scale mails
 @num@ чешуйчатых доспехах
@@ -40312,6 +40678,9 @@ your yaks
 {prep_many}@num@ ice dragons
 @num@ ледяных драконах
 %%%%
+{prep_many}@num@ iguanas
+@num@ игуанах
+%%%%
 {prep_many}@num@ iron dragons
 @num@ железных драконах
 %%%%
@@ -40509,6 +40878,9 @@ your yaks
 %%%%
 {prep_many}@num@ robes
 @num@ мантиях
+%%%%
+{prep_many}@num@ rock fish
+@num@ каменных рыбах
 %%%%
 {prep_many}@num@ scale mails
 @num@ чешуйчатых доспехах
@@ -40885,6 +41257,9 @@ your yaks
 {prep_one}@num@ ice dragons
 @num@ ледяном драконе
 %%%%
+{prep_one}@num@ iguanas
+@num@ игуане
+%%%%
 {prep_one}@num@ iron dragons
 @num@ железном драконе
 %%%%
@@ -41082,6 +41457,9 @@ your yaks
 %%%%
 {prep_one}@num@ robes
 @num@ мантии
+%%%%
+{prep_one}@num@ rock fish
+@num@ каменной рыбе
 %%%%
 {prep_one}@num@ scale mails
 @num@ чешуйчатом доспехе
@@ -41458,6 +41836,9 @@ your yaks
 {prep}a ice dragon
 {m}ледяном драконе
 %%%%
+{prep}a iguana
+{f}игуане
+%%%%
 {prep}a iron dragon
 {m}железном драконе
 %%%%
@@ -41655,6 +42036,9 @@ your yaks
 %%%%
 {prep}a robe
 {f}мантии
+%%%%
+{prep}a rock fish
+{f}каменной рыбе
 %%%%
 {prep}a scale mail
 {m}чешуйчатом доспехе
@@ -42061,6 +42445,9 @@ your yaks
 {prep}an ice dragon
 {m}ледяном драконе
 %%%%
+{prep}an iguana
+{f}игуане
+%%%%
 {prep}an iron dragon
 {m}железном драконе
 %%%%
@@ -42258,6 +42645,9 @@ your yaks
 %%%%
 {prep}an robe
 {f}мантии
+%%%%
+{prep}an rock fish
+{f}каменной рыбе
 %%%%
 {prep}an scale mail
 {m}чешуйчатом доспехе
@@ -42805,6 +43195,12 @@ your yaks
 {prep}ice dragons
 {pl}ледяных драконах
 %%%%
+{prep}iguana
+{f}игуане
+%%%%
+{prep}iguanas
+{pl}игуанах
+%%%%
 {prep}iron dragon
 {m}железном драконе
 %%%%
@@ -43200,6 +43596,9 @@ your yaks
 %%%%
 {prep}robes
 {pl}мантиях
+%%%%
+{prep}rock fish
+{f}каменной рыбе
 %%%%
 {prep}scale mail
 {m}чешуйчатом доспехе
@@ -43807,6 +44206,12 @@ your yaks
 {prep}the ice dragons
 {pl}ледяных драконах
 %%%%
+{prep}the iguana
+{f}игуане
+%%%%
+{prep}the iguanas
+{pl}игуанах
+%%%%
 {prep}the iron dragon
 {m}железном драконе
 %%%%
@@ -44202,6 +44607,9 @@ your yaks
 %%%%
 {prep}the robes
 {pl}мантиях
+%%%%
+{prep}the rock fish
+{f}каменной рыбе
 %%%%
 {prep}the scale mail
 {m}чешуйчатом доспехе
@@ -45097,6 +45505,12 @@ your yaks
 {prep}your ice dragons
 {pl}ледяных драконах
 %%%%
+{prep}your iguana
+{f}игуане
+%%%%
+{prep}your iguanas
+{pl}игуанах
+%%%%
 {prep}your iron dragon
 {m}железном драконе
 %%%%
@@ -45492,6 +45906,9 @@ your yaks
 %%%%
 {prep}your robes
 {pl}мантиях
+%%%%
+{prep}your rock fish
+{f}каменной рыбе
 %%%%
 {prep}your scale mail
 {m}чешуйчатом доспехе
