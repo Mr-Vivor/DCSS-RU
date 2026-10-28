@@ -168,7 +168,7 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     item.base_type = OBJ_JEWELLERY;
     item.sub_type = RING_PROTECTION;
     item.quantity = 1;
-    item.flags |= ISFLAG_RANDART | ISFLAG_IDENT_MASK;
+    item.flags |= ISFLAG_RANDART | ISFLAG_IDENTIFIED;
     CrawlVector &props = item.props[ARTEFACT_PROPS_KEY].new_vector(SV_SHORT);
     props.resize(ART_PROPERTIES);
     props.set_max_size(ART_PROPERTIES);
