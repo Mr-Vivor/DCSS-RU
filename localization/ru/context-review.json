@@ -43,6 +43,16 @@
       ],
       "translations_sha256": "1619456a02fb5aac5cf29b79bc188e42c1ba474ce06a1314dd9274f53fcdb9cb",
       "entries": 6
+    },
+    "statuses": {
+      "context": [
+        "dat/translate/statuses.txt",
+        "status.cc",
+        "duration-data.h",
+        "dat/descript/status.txt"
+      ],
+      "entries": 527,
+      "translations_sha256": "d53467d512b81d2d2f469935fa04c79b34ba40b47959af0799ce35099d55b7d6"
     }
   },
   "messages": {
@@ -2965,6 +2975,1103 @@
     "[Y]es@arg@, [N]o or [Q]uit only, please.": {
       "context": "prompt.cc; dat/translate/messages.txt",
       "translation_sha256": "7df3f1b427285d205e83128cea4abfb8cd427fc0d471ed77727c08e4b43ecac9"
+    },
+    "The sprites lose interest in your situation.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b2a8fc74c6a60f0847741c5ee4af8929eb12324b0476561310b17c72924b0216"
+    },
+    "You lose your grip on the chains of life and death.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "32f393b1d8b41449e9ca7b4d818edd82888fbbd9ee82cc5ae3f92b739c77cdd5"
+    },
+    "Your divinely inspired understanding of %s fades.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "36d9c492d4f6211e060ce2b60f3ce8fbe8fe1a57a88f8bfc371f5a7d1819690a"
+    },
+    "Your divinely inspired understanding of @arg@ fades.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cf6fb4d67533c190602992227f904d0ff5f488b1914fbfa0501c0ea5539f2756"
+    },
+    "Your vapourised %s dissipates without effect.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "47073484eecdeebf3fa948f8a436351479a90452f28c06a8ace81ccfc780e613"
+    },
+    "Your vapourised @arg@ dissipates without effect.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c294e3f198f18c35d44c34ebd511960467891cb00a887a4243d222f1dcb9c08f"
+    },
+    "agility": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e280ce9d190b1fbc121fbbf2b2ee585160971370396aecd8a7adf7db1712a3f3"
+    },
+    "-Breath": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6f5bd48697738bb9dda0bb1199331e50d25dec51e98cd5f733c26481a8c7e2dc"
+    },
+    "Dim": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "07fe38aa8f15fdb4b1bd3c7b1e2c80c9ad684b97450884fc9498e2fa8104a25c"
+    },
+    "diminished spells": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5f66774962d31a4ba51c6f59184f7982352af1629ab85ecce61e3a4a49c95176"
+    },
+    "Your spell have diminished power.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "890156493c412c2c178720af27930f104b1a9e8babb62d140d7cfb2de9b59f2f"
+    },
+    "Your spells return to their normal power.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9f5e16718402e7f8260589469636ee0800dbc898bf2235d849f7709a90850d75"
+    },
+    "death channelling": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b6f3229922436c74d9639c399b86047085ee9eb39821021f2bead402f8ee470f"
+    },
+    "You are channelling the dead.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e9f2eb42ad462e32a57fe22ac88d8893c4b55ffb2032a20d0516e163f387919c"
+    },
+    "fiery-armoured": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "940e37ec846a28859354908d30b80b4b5ae433dc8b9aa5d9f3081381bab7ca55"
+    },
+    "fiery armour": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a963a48b438391b8ac4ab27f5dde4a710bb317324e2f7ed9792fd494929fdbdf"
+    },
+    "You are armoured with a cloak of flame.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8292e3fffc361559d8e9672b24f1341a87511e3c4c23bae8df69d55366f2667a"
+    },
+    "Your fiery armour burns out.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "bae6ac84d5359be13254f4c884a49b5577eb161c801935a21738ce372a0e8f4f"
+    },
+    "liquid fire": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "188175999c8e515cdd7b771d9fe10aecc8306513a40d2ff992277fdaf0729c82"
+    },
+    "You are covered in liquid fire.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3044eccbd8545f85716ab86c16d25dcbf20117cee6d8d709692916915c8e9841"
+    },
+    "might": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "feffaa3f3bae6425b574cbbe71f5e8754ad606d44650db6becc1394ec6d01327"
+    },
+    "paralysis": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a5ed146cc7133f8b1443cc3f197fe760818441ba9c4d647d3411a33dad32e51a"
+    },
+    "Vexed": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0839756d59c999d9b063f673fe84f0d9e1dc5c615b93d15bb14c1c09e361bc12"
+    },
+    "vexed": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5b9afd0f65cf056fc9774f0924e71f7b02440c9cd4b96a57c14920f09c9d7a9a"
+    },
+    "vex": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5d9db35425d40a19cfae6713317cff861c60a5337d5fa35f59ba46a2d5f33080"
+    },
+    "You are vexed.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "920179a9933037a156cf045347fdea9da7c82bc933801359b5227a77b03e3c3f"
+    },
+    "You feel more in control of yourself again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "40579eefd6439cbc4ffeb97557c0c165b0eed4e0382d707e9d749ff3442b1665"
+    },
+    "fragile (+50% incoming damage)": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f52662baf7fb72300354ee3912fe77112459fe58b328f37165779ecd8b67026c"
+    },
+    "vitrified": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9a23d5d5b12f950e68f6e5a9696aa86a704b7ae4d4acc469d02bcef32c3a9922"
+    },
+    "You are fragile as glass.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f780296f1376d5fa48a7aeee59448b1e8fe0503bc7a931c8b2dc9e96c4ce2561"
+    },
+    "You feel less fragile.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "553353f689d9f672d7783baea6af07966f46b16ce9ae00338985483ca4e2f32d"
+    },
+    "calling ooze": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a705cd5020efdb1c624610561b12a122bd7b8ad4f8bf5ee763d8a666b9ded644"
+    },
+    "oozemancy": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b00064bb1f1f23bc76191b1be3870c0dc799f0a31f10d2967fcb8c829548c19a"
+    },
+    "You are calling forth ooze from nearby walls.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0591f88899d587f3002eb44bd46747bcad3ca1dde271a21599cff6908bc2fc3a"
+    },
+    "You stop calling forth ooze.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9f279b80f977e0d795ef16d5f260cff5d0800d697dd7c383db4777caeda5784d"
+    },
+    "sleep": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "14b181780d273c8261e3e99b8066011661f988a4e6ba571e25360a58f8c216aa"
+    },
+    "unswift": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "892d0a98f5b215667c0e39f941a0e6ff0b21692325faa56247e466958e302db6"
+    },
+    "antiswiftness": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dd749840fb96bf1dcd409e42212359c125cbfac95e949e66bf0cf98fdd0447b5"
+    },
+    "You are covering ground slowly.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "eb7d23efd71454e890bbbc7871eb7f2b5e50b1c8c4e46494da202dd07fbf7ed1"
+    },
+    "Your life is in your own %s again!": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5fc9443b1415b815e31c12b92d3bf27fcc366373d9100b96dd71998caa35a591"
+    },
+    "Your life is in your own @arg@ again!": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0d4203fa96c3d772cad56933ac2e361093fc654ab81444a31346ca1715a8b867"
+    },
+    "quad damage": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2b7208f5e9a36c8e50a367f856c060082f902962c979b7d690ad9be5e4ca409b"
+    },
+    "Fusillade": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fcae66a0194dbb27b9319e293e36f9914d615df17e834e072f8e9dfb5ab44a54"
+    },
+    "raining reagents": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "171852a8ba012acbb5229180ed6bd3abbc84e404f2882cf1dea8dcade5628fce"
+    },
+    "fusillade": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2d1609b9dc58bf569727ffce220804b17cd3f279388e2608f055140251b26ad5"
+    },
+    "You are unleashing a barrage of alchemical reagents.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2fc9509bb1d98bba0b3650410de62fec02b7c955b6ce0637c0e8911b4bc24a2d"
+    },
+    "Pray": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1aa9d6afc05d241882b83b88d29d3a1c959a8227efc67ed0686cb4d6526d6b99"
+    },
+    "chanting a vengeful prayer": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fd938a6ec8954acddd3e2f84fa4131d4b5cd190c68f15e57f243348c547df0cc"
+    },
+    "blood for blood": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "626a392d9b562902a139ad22669f758e8221dfbdbb26e771d7fa79d8241c4233"
+    },
+    "You are chanting a vengeful prayer.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "095da928e4eb20fe95d2961bb1a6dae3411a8c5441640805be3598130c329ae6"
+    },
+    "Your prayer is nearing its end.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d590b8164b808f7bba2bb9c9eea1b6d5bdbb4e4fce8cc29278b7908ac2060e23"
+    },
+    "Shackles": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "698a9a2c283cfc9493373111a86dcc706a0b1100fa63bd9a7086cd8a389ae5eb"
+    },
+    "enshackling": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "bfdf0781ef248dc4c029492a7f4113f5e080a4a11695c255170e1438bea55d68"
+    },
+    "fathomless shackles": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "33849465016dd02877c97d232a0147755d51a6a21e855d8a60ce0375196c168c"
+    },
+    "You are channelling the inexorable grasp of Yredelemnul.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dbab29674c41fbbe4e29f6395243db2b9f41e7e2cfff3cbc8a21ff7b1877e12e"
+    },
+    "sentinel's mark": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a9ab379f868af2b2a15913b73a051d32a44d5450f83f66b2f1c8cc9b5f1b6cd2"
+    },
+    "Fugue": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "91ab35749ec7e9e1313d3ca82819b1429fb137a78c92b90a8164f362a5f205e1"
+    },
+    "fugue": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1622bdc85dd5e79edb4f4fb0af3bfe87f44a6834e1d54fe6893748a149eb0df4"
+    },
+    "fugue of the fallen": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "da7f90ab571789ad28da2f4926fa9018b0007be684db51d15978c54c47970d1c"
+    },
+    "Your melee and ranged attacks are strengthened by the souls of the fallen.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "7f8d1043ea9fc625ce4216f7a4019e8040e5f31b43a94ef604d2e1924c7bf85a"
+    },
+    "Your fugue has ended.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6277870fd0b184008627c78ecab936fa361e52d6d206ec495d34b8761b727a21"
+    },
+    "You are losing your grip on the fallen.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "4060a7e97e6043cf85a913756d410c6bb17763fe3c058d887badc1f9d3baf516"
+    },
+    "dimension anchor": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e4e41c866bd543029bb50c116fddeaaa914df7ed6d4c246080dda371c0b0d078"
+    },
+    "immotile": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2c9949cf7c59f165e102fcc9062cc2e3ed60429f6f8f73a628ed1e005032b198"
+    },
+    "You are unable to move around.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3cdfc5bd9e31c68089bb37cdb82d9188ec6c0016ac3e8b78770a707245e6d40d"
+    },
+    "You are able to move again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "747c8738f3e54aba3ab789b4f795061271e3646b1b584f7118e3b18bf2f56c27"
+    },
+    "Vainglory": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d29e2fba88c047c68695cfd3d4cc7a78e2b0fa78f5021e57e2668cda8d1f4784"
+    },
+    "no stairs": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b27a05829c3c150912321b7a5c04e40551f24ecdd397df30e6911942f6886543"
+    },
+    "You refuse to leave the level so soon after announcing yourself.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d9477dc1d8011cef2ea90ae63373cdb3b6caaf14e41bdde5d797eb9afabe72ac"
+    },
+    "You feel willing to depart the floor again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b0888c9ceb6349f68d00018b4e7eb080257842f48dc173f1b7b38642b7c89c63"
+    },
+    "Will+": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "135fb2e9e849ba1497ea4ac23007ce634c180445f5eb071412f97e3190379021"
+    },
+    "enlightened": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f8ffb2aedc3f878384a64c6631417a086c2c07cfa5e086a742c1b8d43fadb394"
+    },
+    "You are enlightened. (Will+)": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1379bfe7663620c7bcf09fd2f3074576fe8eb42ea59e4503e4ae500681432216"
+    },
+    "Your enlightenment fades.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "10cfa34abb5feb1c6b1fa9691b684ace15514d9717a5b23a9fa0843880302637"
+    },
+    "rF-": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f3568cfa6b81fffc94a94e08a04b87557c4fc8ecc2a949f186ee70d041db28d0"
+    },
+    "Bullseye": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dc35d151b293c371d8662b4ce1add9dac44f6e541ea81e060bae640e59c8bb6f"
+    },
+    "bullseye": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "92f79d38a8b0115a03a2db5ab8aa8744613ea372518172f6044bbcffe8cab2d7"
+    },
+    "You are teleporting projectiles at a target.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "289d839b88dc523d21fe638179abae9ceb96e1b36004216cc8fe36a4e34c5cd2"
+    },
+    "Your dimensional bullseye dissipates.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "864ca87516d635bc38f63227ac6674af28de48eeedaf75b8cabdd7397cfb6bfa"
+    },
+    "rF+": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d131e56c302a96e4ab5eb8ad9bdc64482f797e9dab71c704a026dd8af7b06b2c"
+    },
+    "rC+": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0457ab17e6bc8122ae9227d4a9eaf10a46c6aeb2075392d210586671b4b21990"
+    },
+    "ephemerally shielded": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "14098450d8856238e4a37ffcc9adfffc1699694393cfa19a657b9a42caf3d2fb"
+    },
+    "ephemeral shield": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "51fcfa1c97572656262230cbb5da24741fcf24de4dcf7c4e02034a9023d09e03"
+    },
+    "You are briefly shielded after casting or invoking.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "70b589ec0b1b8010a1e9247d9194179c88073e3200963b979912ed22139a4044"
+    },
+    "channelling": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f52356e3f2685e2573e86994b6db9c983a14545a73ca8a3c83c831e7bf6eb7ec"
+    },
+    "oblivion-hounded": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "593c4a29a54d839e276acb991e480d81ff1d67717fdea6cfda3428e4c022f0c7"
+    },
+    "sap magic": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "4d855f1f2d829b867f24d643662bc1266cf67f931f5a77d6cb5e1f3ee0436af5"
+    },
+    "Casting spells may cause you to lose access to your magic.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cf912090a93810a78a9b5b46d092d584a47490c7ebcfa462449751b42fcb4a0e"
+    },
+    "unable to cast spells": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "660950a3b565e3f11dbb23ffdf7e497675efd5a719022321ced9fb2ed54950af"
+    },
+    "no cast": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c315ddd18078999a2f7601748c4b8c042bfcc391b8ab5fa1237de077b0e091cc"
+    },
+    "You are unable to cast spells.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "46327744494ab1df95c9281fcc9ce6d576c52a935b1221464eceaef9301daca8"
+    },
+    "You regain access to your magic.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e07d22da35b3575a69698019a3e9b8efb1974b52c290a466c289395a8ef246b2"
+    },
+    "Rise": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0a76d610959b3a16f25463144b52a2db62dc601db7960012f2a5c7d4f3497c20"
+    },
+    "rising": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b94ce43478bf86cc0a37bfee8a75f00d808dd7e78fc6e4bb2a770a1182228d90"
+    },
+    "rise": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "23e2f5d3d87539b42eefaecc9d0551d29fd10cedd37d42a3184bd979798e51ee"
+    },
+    "You are rising toward the ceiling.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "06e2220864ed3cabb5ce1ef78de2588f0bfb187f011f82e801feb45d10a9c362"
+    },
+    "Your sickness prevents you from regenerating health.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0e5583dc80e4738f8fb6811e3bc284c5de1892c6513dae777a1981cc7dcd0dce"
+    },
+    "-Blink": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d209ab5f23c131ec6e57799c46000f3f27ed6a803e6f591ef427950d166805bb"
+    },
+    "on blink cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3350b00d4d4a6ce3cb6ace9819388ab991ce3846a1fe57e05a0782ac3d735f30"
+    },
+    "blink cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3350b00d4d4a6ce3cb6ace9819388ab991ce3846a1fe57e05a0782ac3d735f30"
+    },
+    "You are unable to blink.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a045b990bb1a91cf784eae5e4f54ec6a3fc7f0e582ae1090caf2f4be6f6afb19"
+    },
+    "You feel ready to blink again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2b1a4f327ccf484267327b5cc891206d86b222ae4d39e66a704e6953a5174a0b"
+    },
+    "-Gavotte": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "720e138965069d2195cb520c60d0d5885ed99079cd49990e966aa31c873ac80c"
+    },
+    "on gavotte cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "774abdb4b113fdce8c50b2dbd51a73544ef18c2fd540d817434e89bf854157d4"
+    },
+    "gavotte cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "774abdb4b113fdce8c50b2dbd51a73544ef18c2fd540d817434e89bf854157d4"
+    },
+    "You are unable to cast Gavotte.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "ea08e24f60610e8e0fd12167d275347ca9a5863b5598479622738d1c9a81178b"
+    },
+    "Gravity stabilises in your vicinity.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6c99f02e155ff6a64e4d3d694ea4b9004ea94f6a7e3683c190cab746897049e7"
+    },
+    "-Hellfire": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8166d6ed4b4f86b218c6df26fe9e04ddf0f353d3b456d8f68d517e84105754ff"
+    },
+    "on hellfire mortar cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6941e077726a012cef1b2a333f2153cdc2805859dc39db8e85f2ae66bfb258b2"
+    },
+    "hellfire mortar cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6941e077726a012cef1b2a333f2153cdc2805859dc39db8e85f2ae66bfb258b2"
+    },
+    "You are unable to cast Hellfire Mortar.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6ee8eabf3c152c1afb35633cf4135f7a4479b6b7a16e780a883994149e2a2fe7"
+    },
+    "You feel ready to split the earth once more.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8e99c854d599abdcc9aa59bd71247f168e2dd4238aac1e15a856b15fcb5cbee4"
+    },
+    "animating dead": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "59adb961d5958e94a1dadf1453a5e41443b36566acf5c5b11dafef583741c54b"
+    },
+    "You are reanimating the dead.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f9572fde8b3fd4c6a2e5de96e4f7214951eb712b2f46f9ffb485e8bf8c385885"
+    },
+    "Your reaping aura expires.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2d7cbaf1d72227aacb8130b6f8fb685fa23486fd9b6cfe1ad0cdaf773e880dc3"
+    },
+    "Your reaping aura is weakening.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6282291a22ac292deec6523661631206ac83adfef3bee6229fcc90c7b5051fcb"
+    },
+    "-Siphon": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cf4bbe89a1ced064534d9d7198c774fb736e46cbe7d025e2188bb158399bc4fb"
+    },
+    "on siphon cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d37976773754b17eebc1c7866a22db4884ce0775164e4defa46f01b26f797406"
+    },
+    "siphon cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d37976773754b17eebc1c7866a22db4884ce0775164e4defa46f01b26f797406"
+    },
+    "You are unable to siphon essence.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5956e5314a131563b13f046fd651b1cd83ce6710b1d3e7f02a5797b9bcf8bb5b"
+    },
+    "You are ready to siphon essence again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c822840cbe16e1bac44d9eb7c57a156db5b226b23696de234306debcc36615a5"
+    },
+    "-Bloodrite": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "061adbd49818f3c873f469a46c5d0956c8e8077cea1587be8db9495f8703ac0d"
+    },
+    "on bloodrite cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "94846bbfaa85e87392cc41b825b44953a8b9cfbe2124604f2a31b1b129e80f39"
+    },
+    "bloodrite cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "94846bbfaa85e87392cc41b825b44953a8b9cfbe2124604f2a31b1b129e80f39"
+    },
+    "You are unable to performed a blood rite.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a72fbd8bdeda40cd99dc032c754ddbc386961aa3eb4babf57a9eef7a24d28ad2"
+    },
+    "-Swarm": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "530dd330d4c4108eb15a3af4f29253e0f111fd3acb7d456fbf22d165ffd5e5f3"
+    },
+    "on swarm cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "adfa49cb14c81daf153096dca7daeb1021b6aafea498a5c129499d32cfbe443d"
+    },
+    "swarm cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "adfa49cb14c81daf153096dca7daeb1021b6aafea498a5c129499d32cfbe443d"
+    },
+    "Your swarm has recently come to your defense.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8badfdecd184e4ede10129afc6fe177b41191e918bfe70c0e64b1ee5860156fb"
+    },
+    "-Star": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "31da24a59114c4c62cae098cfc7393bcc9c100fd5f1c34b0468b3b40cd072024"
+    },
+    "on stardust cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c7d688a6f95462071691e903adf672f6fcd65010a9fd8e971951309f2939e6f8"
+    },
+    "stardust cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c7d688a6f95462071691e903adf672f6fcd65010a9fd8e971951309f2939e6f8"
+    },
+    "Your orb of stardust has temporarily expended its magic.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cfc3d527f50acc081cc0cdcb00812f0ea09dd0cfd83ae6dfcc8677cc34c2c397"
+    },
+    "-Mesm": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "99cce68f1389261ee6c58e367e163b60b3d0356ba72a5fd16d6afa0aca188ac2"
+    },
+    "on mesmerism cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "70d91169baf9f4ac993ebbbf6e84a3e879cfc9ac4bd5bdb68197be6ecb627646"
+    },
+    "mesmerism cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "70d91169baf9f4ac993ebbbf6e84a3e879cfc9ac4bd5bdb68197be6ecb627646"
+    },
+    "Your orb of mesmerism has temporarily expended its magic.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cae8c10628ef855b323334cb38656edf88a06ff63edd63dff968e5715a00067d"
+    },
+    "Your orb has recharged its mesmeric power.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fb58d702a1691ed46769749bb4547fbcfdc291d3a3d88ca7f51673824af923ee"
+    },
+    "-Lithotox": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cbb4d5b7da9b0454909c482c71a706ff79973872b08f44ee435d419d549ab963"
+    },
+    "on lithotoxin cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dcf1ed6c5f630e3958547727e3a3a88b37bd992c16a72f0be4fcebe050904658"
+    },
+    "lithotoxin cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dcf1ed6c5f630e3958547727e3a3a88b37bd992c16a72f0be4fcebe050904658"
+    },
+    "Your lithotoxin has recently activated.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3a47df37dfb016aeb4d185003a8ec415dae22b9bfee6626e23a6c2b5d7980825"
+    },
+    "-Jolt": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1fb3be45a8cf26028f8e864cf44bce4ac0969fd8576f0b3ce2bfe644267daea6"
+    },
+    "on eeljolt cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "efc3ce29bf5069322157f69f6154c4c4081317c5510a51a6b65569dd98ed870c"
+    },
+    "eeljolt cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "efc3ce29bf5069322157f69f6154c4c4081317c5510a51a6b65569dd98ed870c"
+    },
+    "Your hands have recently discharged their full voltage.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5696de7360610c8aa094ccfdb1d9ecc747fbf0e6a058531ed74e739d746ca08c"
+    },
+    "jinxed": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2492a6084d68813ef2ba9d5316515c6d5a36b49feb94d52011788e00bb6f0373"
+    },
+    "jinxbite": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "90b016ee8cfcd29f887e9b49e057ff18fc9b843fabd6e50089105a76bb8205d3"
+    },
+    "You are surrounded by jinxing sprites.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "00f62b096a355a9137de40cbd22a1bc3180cf9b5f7b0761a83343dce1b7ab8d1"
+    },
+    "The jinxing sprites lose interest in you.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "47b9382852131af251f3a05b97049c7e9cd2a755efbaba3305c1513696875081"
+    },
+    "-Dog": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "91a3d9661302de0c707bc89cd3b1c8f6d835a3c3df82f2860bb352df355b381d"
+    },
+    "unable to call your familiar": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8b1fa7ca384b731ed795c7a7a6f61ac054a29bc99543f77293d5f74f1f0d9efa"
+    },
+    "canine familiar cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6cd3e53b95bf256453b8a40cd1e107e00a1b475035b3fb4aeb93b78c479a81f2"
+    },
+    "You are unable to call your canine familiar.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "390c949aca34d598041b5a7595286dd4c0d024225bd23fb31e9c42256618fccc"
+    },
+    "Your familiar recovers from its injuries.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "ebc6da86bdc625a4053178c9e6eba5154d24087cf91fd4123ae70f5c25dfa670"
+    },
+    "Recruit": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3049bebfeabcb146321988c2025d6fdea6b61f6f7967c03544c73ea07d3874d5"
+    },
+    "can recruit": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b00b24a87a874cd489bc528aa5afa0b25dfb0b29c9e88eef50658609cd9bb13f"
+    },
+    "You may recruit a defeated apostle into your service": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f3f24c30136f0afb8d602b67e498b93c9750f0906ef691a60783f175c9953a0a"
+    },
+    "Nightfall": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d082fbec0fd0a6aa5866b555c5f3ef928f70cc426417cd226fe73d2070896dc5"
+    },
+    "nightfall": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "365b307bfda428e43882a4a509fbcb38b40d3b1760a6b3187081043570d2443d"
+    },
+    "You are enveloped in primordial darkness.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "211246b9ca2609d4cabd1accac21cbd164c0173139360c53f9740a9f03efd1ed"
+    },
+    "Night gives way to day once more.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2dd318a184b3d41faef054c1fb17b58788530e864158cad21108e22456ff0304"
+    },
+    "Blind": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3490d018ed587f89348ab65405ab6547ee7f56e8a8d18006d190a18032c9177c"
+    },
+    "blinded": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "eb651e805dbc23067f3ff15651eac74b68b1d08b2b002a338455c51389e19864"
+    },
+    "blindness": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2930c5aebfe83302c2017cbbb578b393ec8da25cc576920e9e38e8427198fb3e"
+    },
+    "The further away your target is the more your accuracy is reduced.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e3f1f952f4f50b3ac627e93785b134cf389c35b2507a240ae13bf8054c9bdb79"
+    },
+    "Your vision returns to normal.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "894f7a976f270f252699648be62b11d8f006f36a0cd0aed3c193b67420b23345"
+    },
+    "Ruin": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cf1a1356f8e0b2ffe43279c7110f26c32ce2934013bb7e13b21022bd3ff35352"
+    },
+    "sign of ruin": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9596d1064acd8c2a8482b6d06a73be5dcc732d72ce00b60330809715c6a79f0a"
+    },
+    "ruin": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3d0426c2b352ef53c69357705244fa23abd97d0e2f7d36aa7deefdc923b9c1df"
+    },
+    "The sign of ruin enfeebles you when you suffer attacks.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5fab3d7397703f0ff9a124cc8e8361bc70a64ee38661f30ba261d8f9a9bf6bcc"
+    },
+    "The sign of ruin upon you fades.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "ff8a52899dd614a5b9e33cba0c7f9f8c5bca751a03b8d122f9ee5c5f8d82902e"
+    },
+    "Legion": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "742847cc57347dd88a13372832e253388581251550ffab6dfb2b0d5a2223ea6a"
+    },
+    "unleashing the legion": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "74941086dac1d7e1f46a98c31386d8c44d10da7550bb0225742d6af858529132"
+    },
+    "infernal legion": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "50f8dd12986305e7291791e7ade5bb947e29f7213fbfe256dea7314ff732e18c"
+    },
+    "You are beckoning forth the legions of chaos.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "952bc92eac5c4df385c5f9ca8fbd377ed50e28063fe3cf5c9f803bda709e9ff6"
+    },
+    "Your infernal gateway subsides.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c8c2b160dd3d68931753580ce41f100572ab56dcf35fc88e5ff8d60c5fc8c939"
+    },
+    "Execution": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "164c4114abd268c354ad4e1ada23729031bca7a568fae2c8696cc52495fda852"
+    },
+    "surrounded by blades": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cfaba002c0b3eb0b6ccfbd9bc8ffc58f1d09edbbf7f7796a150e665a71645f78"
+    },
+    "execution": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9464a8048628c5bc563eddea9ae96dafa65b037962b8e6682566237c342d2ac9"
+    },
+    "You are surrounded by a whirlwind of blades.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "83da94526d7193626ded41474d44f1dfed03ed1ee01e1212a743fbd98a76bfe8"
+    },
+    "You feel a little less murderous for the moment.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "2440095849cb7e1300d515103c96e8079fc71e9ecf40c43dbb4dbf7b54bdf66a"
+    },
+    "Destr": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "30fdc6bd116e86e3fbadda3e7b15bb1ef0d3dfad547c6e7b022685bfbd490af7"
+    },
+    "growing destruction": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5a01a0fd03ec87faa93bd5b4f288ab1011dfb392b5b41a871419abe8df5fd4c5"
+    },
+    "Your Destruction is growing increasingly wild.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "71b95cb536f3475d91143ae55778cbd7f4381cbf1d6c458b2010451459361350"
+    },
+    "Unstable": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e63d62fc5dd8750b66bf73262d2f3a152664e970de29ed53c8531fe1fd4a0775"
+    },
+    "blinking rapidly": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5c4b95672142b0c15595adee5664ab5a25061470196446283e1fe183d1755063"
+    },
+    "blinkitis": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "69c93c2573d1636245e710fd058baca5f2f369065ed63e129ac01fcd42e67619"
+    },
+    "You are untethered in space.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "00cd57e85579088bb073c069b70bf7109cb4ee3016d975e2a980a0497336b720"
+    },
+    "You feel more stable.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f1cc28ef863660411b816aefca461b6941ab9758bfd5034a67fa59c09e895853"
+    },
+    "Cacophony": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fe73ccc11f56478f0c813377389c04a9b32f551b14bb9e327619c1abdacb8af0"
+    },
+    "making a cacophony": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d22fc84a0f17efe924df76dbc7c7acfd527ecd8ad33f8cc3cadf5e8ba433d097"
+    },
+    "cacophony": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1b15e32e61cea0be8a9a8f739591b0c1ac2e13b3b55b40a9bd5b194b2dd3b1e9"
+    },
+    "You are making an unholy racket with your haunted armour.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c70210fe648b5dacce469cb1aa04febc326b0f555d0baf1724f12ce511c92342"
+    },
+    "Enkindled": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "55b603c7bf4d78db01e32a60794ac816082ff818efc9bb6c3fc2b720e647744e"
+    },
+    "enkindled": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e454db16691b75a92c83b247fb9256a7941872812071a2c37928337ba7274fb0"
+    },
+    "Your flames burn bright with remembrance.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "355890ff3eaac5b4dbf033496c63cccad937b3261ab766cc523903da9917d03f"
+    },
+    "Your flames start to waver.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fb7f5a7b4f0157e919b2589672291f884cc75f852139cdcdd2eaa2e1764d374a"
+    },
+    "Catalyst": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c6d994b57c1cdfc45ed0c5cbb02eabd9e45a7586e98990cb3b7b9e33807c1750"
+    },
+    "catalyst": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a1c2d037a7716902528259cb3e003aada481e4738f39dd27bcea3b11666e3c60"
+    },
+    "Your strikes ignite an explosive catalyst.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b6d26a6b42c8ff28cc7b41d116b3f01921d39d998b091731f3eb42ad7d65ab96"
+    },
+    "Shroud": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9ea78cbe73eb542de10e374ad17ca1b01b32b46a2b98cb171267462e0c43f9c4"
+    },
+    "shroud timeout": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b3be469bed7278fa4d02e27c654bf54f59294464f721872fa448c79ef6c78cac"
+    },
+    "Your shroud of slime is broken and needs time to repair.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0bcfcea653e958ae656045c10419f983aa49aa115c18d23601654ceaeb4b1fa1"
+    },
+    "Your slime shroud regrows.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "150696d587a0cef53d915e8453cfea4d4e7a8340e1deb183cc580d1bacf885f0"
+    },
+    "full of bloodlust": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "7fb29afd1f3ebf18654887993a3c9fd291f6ecb841efb50298330d6b59616748"
+    },
+    "bloodlust": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0cec6239b6463951832db0e0e4ce04c9f5b10de480374f31f27bb83a342c7135"
+    },
+    "Your melee attacks are strengthened by primal bloodlust.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b482142bfc1891c507398af78956391bdccc9d4ba72722b3b057ea3adad0889a"
+    },
+    "Your bloodlust subsides.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "82551b8f90b8fbddef4b36cff2387485f033ac8fce6c0e9cc69e35e2254921f2"
+    },
+    "You feel your bloodlust ebbing.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5cb361919cdd077a02c171a3aa5fc4fcd97f827c931ff5fe799adea8a3b62b8a"
+    },
+    "parry": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1c90ae4126a8adab170d59849569dcf46651c5090b8e7031ef7cb07bbac67744"
+    },
+    "parrying": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1c90ae4126a8adab170d59849569dcf46651c5090b8e7031ef7cb07bbac67744"
+    },
+    "You are parrying attacks and have increased SH.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b59aefdf41929e5ba829ccec51832d4e599d5cfb1368f9a01d795ba43c11e56c"
+    },
+    "You feel very devious.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "058232c2e4882944c5126f43f2d2169829ed8a5054b78147b2e7d15fc1e3d56f"
+    },
+    "You feel less devious.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f1089106ce7dc3f6244172b7104357c59ab38180685fa1e9f52c453db3ddd4ec"
+    },
+    "Engorged": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "658fc327456c13854c681c2e57ada21a485017aba1623c06dc810e9ff603125d"
+    },
+    "engorged": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a731c56d9e208c13f812c15a9f1e340ee193c892003d3789cc2321704be77106"
+    },
+    "Your maw is digesting a delicious meal.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "610e14352786123b0f1c4068a41144227879d9119214d5ef3206726977de8145"
+    },
+    "You finish digesting your meal.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0eb54a1a114729de8ee8b6c79fa35c3f3733156df0342076361f358551d6be03"
+    },
+    "You stop stampeding.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "bc4edee8c5af756f1dcf9d1f1ed2ca2c6902d4aa618c53b49e31e7aaa40c3e33"
+    },
+    "Salvo": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fcae66a0194dbb27b9319e293e36f9914d615df17e834e072f8e9dfb5ab44a54"
+    },
+    "Tailwind": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "071d492b599a35a1efc3bca25b5915584703466f3f3f6d7c36f8f00150b33221"
+    },
+    "ready to rush forward": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "85a3beb1d8b0884d41e4d203467e806875ac9022e64c7726cadd74c0ceb5dc27"
+    },
+    "tailwind": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "295fb1c4f719b4d742a4c86fc8895c7982fa41c251daf1716ebff4f520118e45"
+    },
+    "Your tailwind grows less brisk.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c5027b190220ad68c9d1e52b24d30706ab8a9018c4abb2b5afe63beb7cb1f6ae"
+    },
+    "-Sirocco": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "04861175a74196c46e9a326090d970d3fd1bff960f0254a5f85c87628d3f5a5a"
+    },
+    "on sirocco cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cd7994c7175ebe2ac75272d7607032dab0b6d4d7283fc54514b3ef60c8aff658"
+    },
+    "sirocco cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cd7994c7175ebe2ac75272d7607032dab0b6d4d7283fc54514b3ef60c8aff658"
+    },
+    "You are unable to cast Sirocco.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "41d043db5b8fbe68d80bd9d3ed10bb24f826cad3226a60fa69deb29bc6f746aa"
+    },
+    "You feel hot winds gather around you again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f93b99503ff83f1badf12a18306daff4dad1586322db3337fc694f239a11181c"
+    },
+    "Insubst": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "c5731c963d31d6a1e778733f98b0aa5c379a80df5a2af1cc174e28214ddcf384"
+    },
+    "insubstantial": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "59c73d809f5fec554212e780c135b22db6749bccb0b5f1fac02c10f251b3a953"
+    },
+    "You are insubstantial.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "31e959717f8778f699708e53e86aea64f50e338e09fc5765770a7b9181e2f114"
+    },
+    "You feel more solid again.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b996eb97685f10e320b895171e6b4b82de9938d3cc53a0594d4ff1c40e9f353c"
+    },
+    "haste": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "553d371e58f52a89c9faaec8ddd61d152b25c275fa910cc8df0ce6f2f2bdd046"
+    },
+    "immune to disabling effects": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9ad8bdeb9610eddb109250626833a6186e5524cf4459581df25e261b5e1bd35d"
+    },
+    "Flooded": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e00f47de89dca43a8149cd54f9ffe6d7f015cfdd493f4d165bd3d1a386193053"
+    },
+    "flooded": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "778e52f172a0c0767197c17b127a514aea27c341587409c8224b0e8df924fc49"
+    },
+    "flood immunity": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6465054b568535f1672efae6de345ee5fc7a2a80a1a46653ee5d643382f30ae2"
+    },
+    "revelation": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "d77301334312bca48a9d2f09b8e51a8c7d344d49ee0be59a0d35636316b38f8a"
+    },
+    "temp cloud immunity": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "91390f0efd1e2ef346bcb8cee748a4c0e92b2de54737e73a3d02bcc2d26077b1"
+    },
+    "ally reset timer": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "818346f46c6ecfdbe98e9b122141036d356eb23e47042fd7661b1f6bafa19949"
+    },
+    "Challenge": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9df473c43d46d1adbb7b592f5516e9e78f40b5c364e11c1c6ceee60d38648fd3"
+    },
+    "apostle challenge": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "376b5be77137f93f76b51c5c57bd286e58afdcb0a555ee043d5da02e27eb1c1b"
+    },
+    "A servant of Beogh has come to challenge you.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "400018c2530dd8b42a877c01920e254286c331ea9ce7f98bbbfc2cf4df4c82ca"
+    },
+    "Vengeance": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1928de2d71544b76f615b3b56f16fb9a5b07d3bb270663bba4c0438a73303273"
+    },
+    "vengeance": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "0bf5824d09cdca00adc1469f74a37608b6a5991889f61ed92acab4fc3eeeedb3"
+    },
+    "You are seeking vengeance for the death of your brethren.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "dadc93ca122b42b40524015a3a9409164cfda88c675e79b90ce5670173e5de5f"
+    },
+    "constrict immune": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8d910ecf22927468e1959f14aaa2772ac684d005febf683ca385ff54831d7723"
+    },
+    "grave claw recharging": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "cd986d32dbed004321348637c41543216911ce07ecf206cd965a355713f93297"
+    },
+    "time-warped blood cooldown": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "e216cfc5dbd9485ab086446ae20aad7b18a14d28fb8d43546e776ac33d6ba4fb"
+    },
+    "paragon active": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "5d0ca50979b2da40538a24372af5e8788c749aaeaca3089f7341bb879f1795a3"
+    },
+    "fortress blast charging": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "9a15e80163f9e40b76fd9e4a879ea9bc52064dd115a7bca1e99d70d48d6362c3"
+    },
+    "phalanx barrier": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "1e533485965ffa0b3471b3064d5c6c748688f77a767418de43ef9d6ab82b07f3"
+    },
+    "trickster": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "b22fd2c635c21adefcba5b51adaaf4aa2a996f96e50eb647798aecce1905fa68"
+    },
+    "Drowsy": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "65f28f28e31accbf5715c9712386649b40abff860597626feaa40964a2412a78"
+    },
+    "drowsy": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "3ced57fe6f0396e25e97bda0b3856677f172a1b7634d88c753d16c79617e63a8"
+    },
+    "You feel less drowsy.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "fd482dec6bb71a94cf9ad6a238d631399276ca4f9c0b9e477dcdc55aea6a8dfb"
+    },
+    "cold aura": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "bada6cd66b9da068460877e2974178f446de08901d2cdeffdc022d719500c6ea"
+    },
+    "autododge": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "630698e9784526d085f99d400625d9d508c09e94dd7b5204318d611598ac9c6e"
+    },
+    "spiteful_blood": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f652904f6fc44608b369add66a81a669daae313f85d7f6479627c7db7d799353"
+    },
+    "Slimifying": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "27302d3d1af689247c5619c3d50ba628bc14fe0abb8e70f738d4e1628315ffce"
+    },
+    "slimifying": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "8677e26175bee164da3ed1cd4e6fc708ada691a549866ff3cf1b1a4a2d1d51cd"
+    },
+    "Your slimification abates.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "bad007d7f3a196a7bb6113af475249ee5161b28886653a13803f2e41e624d83c"
+    },
+    "OozeRegen": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6f819814da91018a31a7bde7236a3f6f5ca597664738870601d1ea287b95c6e1"
+    },
+    "ooze regen": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "02a25b3d0c9170e29b6e0f6e0323ad1a607a7647752b38f912f73f07bdb3d28c"
+    },
+    "coated in regenerative ooze": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6b218c293a6022ec6b6388f1f63d82adc4dc49ee0bce13a5c9a458a4af37134e"
+    },
+    "The regenerative ooze finishes dripping off of you.": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "360563140532ab8e86b6aa1ba612a736e58bde40cc15a9f9a4e6ad25003188ce"
+    },
+    "Indom": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "6d1dd90cf0805e2ecc8a1cc9fe8768ee0e840d22d778a5619d0bbb0ead97beb9"
+    },
+    "Exegesis": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "96b4560ebfff0a35d39e63b119843d56e396db9b705e6e6251c7171cedcda360"
+    },
+    "Vapour": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "82dc25c4f8b6d5aaa69f6928fd9462ce89451ec1dbe86fb9c55e01b4ee9e37fb"
+    },
+    "vapourise_ready": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "a019903e5ccbde26125772d27d0323f988e51dae0c32a8af1b7d6a05c7d33452"
+    },
+    "Lash (@num@)": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "f9450a6c5fe231cb2806eeabc217de676cc0b65f90fd7ae9fa95fa6dbdc2ee3b"
+    },
+    "Slay (@num@)": {
+      "context": "duration-data.h (current 0.35 effects); status.cc",
+      "translation_sha256": "582eb46e152827a73cb12840a8dabbceb986382cf8dd735b42e5992df2161bfc"
     }
-  }
+  },
+  "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb"
 }

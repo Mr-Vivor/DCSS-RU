@@ -14,8 +14,9 @@
     "background": 28,
     "skill": 29,
     "gods": 26,
-    "spell": 12,
-    "items": 33
+    "spell": 16,
+    "items": 33,
+    "ability": 5
   },
   "static_catalogs": {
     "ui": 477,
@@ -43,7 +44,7 @@
     "monster-props": 195
   },
   "static_unique_keys": 5625,
-  "additional_system_messages": 861,
+  "additional_system_messages": 1135,
   "reviewed_descriptions": {
     "items": 77,
     "skills": 29,

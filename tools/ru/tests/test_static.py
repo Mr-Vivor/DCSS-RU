@@ -23,6 +23,22 @@ class StaticTranslationTests(unittest.TestCase):
             self.assertEqual(actual, entry["translations_sha256"], group)
         for key, entry in review["messages"].items():
             self.assertEqual(hashlib.sha256(messages[key].encode()).hexdigest(), entry["translation_sha256"], key)
+        duration_source = (ROOT / "crawl-ref/source/duration-data.h").read_text(encoding="utf8")
+        self.assertEqual(hashlib.sha256(duration_source.encode()).hexdigest(), review["duration_source_sha256"],
+                         "Recheck current status mechanics after upstream changes")
+
+    def test_current_duration_hud_labels_are_covered(self):
+        # Check the current engine, not just the older imported English catalog.
+        source = (ROOT / "crawl-ref/source/duration-data.h").read_text(encoding="utf8")
+        labels = re.findall(r'\{\s*DUR_\w+,\s*[A-Z_]+,\s*"([^"\n]+)"', source)
+        known = {}
+        for path in (ROOT / "crawl-ref/source/dat/translate/ru").glob("*.txt"):
+            known.update(read_db(path, True))
+        self.assertGreater(len(labels), 70)
+        for label in labels:
+            translated = known.get("{status}" + label, known.get(label))
+            self.assertIsNotNone(translated, label)
+            self.assertRegex(translated, r"[А-Яа-яЁё]", label)
 
     def test_short_labels_do_not_contain_text_from_adjacent_records(self):
         data = json.loads((ROOT / "localization/ru/static.json").read_text(encoding="utf8"))

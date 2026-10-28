@@ -148,6 +148,10 @@
 | Blink | Скачок |
 | Mephitic Cloud | Зловонное облако |
 | Call Imp | Призыв беса |
+| Death's Door | Порог смерти |
+| Disjunction | Разъединение |
+| Blinkbolt | Скачок молнии |
+| Dragon's Call | Зов драконов |
 
 ## items
 
@@ -186,3 +190,13 @@
 | wand of quicksilver | палочка ртути |
 | wand of roots | палочка корней |
 | wand of warping | палочка искривления |
+
+## ability
+
+| English | Русское название |
+|---|---|
+| Serpent's Lash | Змеиная плеть |
+| Slimify | Обращение в слизь |
+| Recite | Чтение законов |
+| Finesse | Искусность |
+| Trog's Hand | Рука Трога |

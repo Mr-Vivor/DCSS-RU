@@ -87,6 +87,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("It affects your AC (+4).") == "Изменяет вашу броню (+4).");
     CHECK(localise("It greatly increases your willpower.") == "Значительно повышает вашу Волю.");
     CHECK(localise("Flame") == "Пламя");
+    CHECK(localise_in_context("status", "Fire") == "Горение");
+    CHECK(localise_in_context("status", "Slow") == "Замедл");
+    CHECK(localise("You are petrified.") == "Вы окаменели.");
+    CHECK(localise("Your spells return to their normal power.")
+          == "Сила ваших заклинаний возвращается к обычной.");
+    CHECK(localise("Lash (2)") == "Плеть (2)");
     CHECK(localise("Base accuracy: +2  Base damage: 7  Base attack delay: 1.2")
           == "Базовая точность: +2  Базовый урон: 7  Задержка атаки: 1.2");
     CHECK(localise("Base shield rating: 5     Encumbrance rating: 10     Max blocks/turn: 4")

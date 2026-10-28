@@ -1319,12 +1319,12 @@ void TilesFramework::_send_player(bool force_full)
             {
                 if (!status.light_text_formatted.empty())
                 {
-                    json_write_string("light", localise(status.light_text_formatted));
+                    json_write_string("light", localise_in_context("status", status.light_text_formatted));
                     json_write_bool("use_html", true);
                 }
                 else
-                    json_write_string("light", localise(status.light_text));
-                json_write_string("desc", localise(status_light_description(status)));
+                    json_write_string("light", localise_in_context("status", status.light_text));
+                json_write_string("desc", localise_in_context("status", status_light_description(status)));
             }
             if (!status.short_text.empty())
                 // A machine-readable status name, used to colour boosted stats.
