@@ -13,6 +13,7 @@ dgl_mode: false
 bind_address: 127.0.0.1
 bind_port: 8080
 no_cache: true
+game_data_no_cache: true
 '@ | Set-Content -LiteralPath $configPath -Encoding utf8
 }
 $env:DCSS_RU_SOURCE = $sourceRoot

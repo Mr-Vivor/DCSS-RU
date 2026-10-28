@@ -137,3 +137,30 @@ jobs:
           name: dcss-ru-web-ubuntu24
           path: dist/dcss-ru-web-ubuntu24.tar.gz
           if-no-files-found: error
+
+  deploy-webtiles:
+    name: Deploy tested WebTiles to VPS
+    if: github.event_name == 'push' && github.ref == 'refs/heads/ru-bootstrap' && vars.DCSS_DEPLOY_ENABLED == 'true'
+    needs: webtiles
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dcss-ru-web-ubuntu24
+          path: package
+      - name: Upload release through restricted SSH command
+        env:
+          DCSS_DEPLOY_HOST: ${{ secrets.DCSS_DEPLOY_HOST }}
+          DCSS_DEPLOY_USER: ${{ secrets.DCSS_DEPLOY_USER }}
+          DCSS_DEPLOY_KEY: ${{ secrets.DCSS_DEPLOY_KEY }}
+          DCSS_DEPLOY_KNOWN_HOSTS: ${{ secrets.DCSS_DEPLOY_KNOWN_HOSTS }}
+        run: |
+          umask 077
+          printf '%s\n' "$DCSS_DEPLOY_KEY" > "$RUNNER_TEMP/dcss-deploy-key"
+          printf '%s\n' "$DCSS_DEPLOY_KNOWN_HOSTS" > "$RUNNER_TEMP/dcss-known-hosts"
+          ssh -T -i "$RUNNER_TEMP/dcss-deploy-key" \
+            -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes \
+            -o "UserKnownHostsFile=$RUNNER_TEMP/dcss-known-hosts" \
+            "$DCSS_DEPLOY_USER@$DCSS_DEPLOY_HOST" "deploy $GITHUB_SHA" \
+            < package/dcss-ru-web-ubuntu24.tar.gz

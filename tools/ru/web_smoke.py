@@ -43,6 +43,7 @@ def main():
                 page = browser.new_page(viewport={"width": 1280, "height": 900})
                 errors = []
                 page.on("pageerror", lambda error: errors.append(str(error)))
+                page.on("console", lambda message: errors.append(message.text) if message.type == "error" else None)
                 page.goto("http://127.0.0.1:8080/")
                 try:
                     page.wait_for_function("document.body.innerText.includes('Введите имя')", timeout=60000)
@@ -73,9 +74,43 @@ def main():
                     box.remove(); return result;
                 }""")
                 assert result == {"fits": True, "complete": True, "wraps": True}, result
+                # Going directly to a named character skips the main menu and
+                # missed the reported black screen after character creation.
+                try:
+                    page.keyboard.type("RuWebSmoke", delay=30)
+                    page.keyboard.press("Enter")
+                    page.get_by_text("j - Человек", exact=True).click()
+                    page.get_by_text("a - Воин", exact=True).click()
+                    page.get_by_text("a - рапира", exact=True).click()
+                    page.wait_for_function("""() => {
+                        const hp = document.querySelector('#stats_hp');
+                        const normal = document.querySelector('#normal');
+                        return hp && Number(hp.textContent) > 0
+                            && normal && getComputedStyle(normal).display !== 'none'
+                            && document.querySelectorAll('#ui-stack > .ui-popup').length === 0;
+                    }""", timeout=60000)
+                    pixels = page.locator("#dungeon").evaluate("""canvas => {
+                        const bounds = canvas.getBoundingClientRect();
+                        const pixels = canvas.getContext('2d').getImageData(
+                            0, 0, canvas.width, canvas.height).data;
+                        let coloured = 0;
+                        for (let i = 0; i < pixels.length; i += 4)
+                            if (pixels[i] + pixels[i + 1] + pixels[i + 2] > 60)
+                                ++coloured;
+                        return {width: bounds.width, height: bounds.height, coloured};
+                    }""")
+                    assert pixels["width"] > 100 and pixels["height"] > 100, pixels
+                    assert pixels["coloured"] > 200, pixels
+                    page.screenshot(path=str(ARTIFACTS / "first-level.png"), full_page=True)
+                    (ARTIFACTS / "first-level.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
+                except Exception:
+                    page.screenshot(path=str(ARTIFACTS / "newgame-failure.png"), full_page=True)
+                    (ARTIFACTS / "newgame-failure.txt").write_text(
+                        page.locator("body").inner_text() + "\n" + "\n".join(errors), encoding="utf8")
+                    raise
                 assert not errors, errors
                 browser.close()
-                print("Russian startup renders; long Cyrillic messages wrap without horizontal clipping.")
+                print("Russian startup and first level render; character creation reaches a visible dungeon without reloading; Cyrillic messages wrap.")
     finally:
         if server is not None:
             server.terminate()
