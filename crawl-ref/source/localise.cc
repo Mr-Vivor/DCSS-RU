@@ -631,9 +631,10 @@ static string _localise_parameterised_string(const string& s, bool full_sentence
     debuglog("Parameterised string: %s", match.second.c_str());
 
     bool reject = false;
-    if (s[0] == '[' && match.second[0] != '[')
+    const bool literal_key_prefix = starts_with(match.second, "@key@");
+    if (s[0] == '[' && match.second[0] != '[' && !literal_key_prefix)
         reject = true;
-    if (s[0] == '(' && match.second[0] != '(')
+    if (s[0] == '(' && match.second[0] != '(' && !literal_key_prefix)
         reject = true;
     if (reject)
     {
