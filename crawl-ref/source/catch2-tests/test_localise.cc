@@ -130,8 +130,8 @@ TEST_CASE("Russian item and spell prompts preserve keys and current mechanics", 
         const string prompt = localise("Purchase items in shopping list for 123 gold? "
             "This will use your shop voucher. (" + key + "/N)");
         INFO(prompt);
-        CHECK(prompt.find("Купить предметы из списка покупок за 123 золота?") != string::npos);
-        CHECK(prompt.find("будет использован ваш купон магазина.") != string::npos);
+        CHECK(prompt.find("Купить предметы из списка покупок за 123 зол.?") != string::npos);
+        CHECK(prompt.find("Будет использован купон магазина.") != string::npos);
         CHECK(prompt.find("(" + key + "/N)") != string::npos);
         CHECK(prompt.find("Purchase") == string::npos);
     }
@@ -172,12 +172,12 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
     CHECK(row.find("None") == string::npos);
     CHECK(strwidth(row) <= 76);
     const string prepared_spell = quiver::spell_to_action(SPELL_MAGIC_DART)
-                                ->quiver_description().tostring();
+                                ->valid_quiver_description().tostring();
     INFO(prepared_spell);
     CHECK(prepared_spell.find("Сотворить: Магический дротик") != string::npos);
     CHECK(prepared_spell.find("Cast:") == string::npos);
-    CHECK(localise("Purchase items for 20 gold?  (y/N)")
-          == "Купить предметы за 20 зол.? (y/N)");
+    CHECK(localise("Purchase items for 20 gold?")
+          == "Купить предметы за 20 зол.?");
     CHECK(localise("Purchase items in shopping list for 240 gold? This will use your shop voucher. (Y/N)")
           == "Купить предметы из списка покупок за 240 зол.? Будет использован купон магазина. (Y/N)");
     CHECK(localise(" gold   ") == " зол.   ");

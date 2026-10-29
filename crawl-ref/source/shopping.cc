@@ -1316,12 +1316,14 @@ void ShopMenu::purchase_selected()
             return;
         }
     }
-    const string purchase_prompt = localise(make_stringf(
-               "Purchase items%s for %d gold? %s (%s/N)",
+    string purchase_prompt = localise(make_stringf(
+               "Purchase items%s for %d gold?",
                buying_from_list ? " in shopping list" : "",
-               cost,
-               too_expensive ? "This will use your shop voucher." : "",
-               Options.easy_confirm == easy_confirm_type::none ? "Y" : "y"));
+               cost));
+    if (too_expensive)
+        purchase_prompt += " " + localise("This will use your shop voucher.");
+    purchase_prompt += make_stringf(" (%s/N)",
+               Options.easy_confirm == easy_confirm_type::none ? "Y" : "y");
     more = formatted_string::parse_string(make_stringf("<%s>%s</%s>\n",
                col.c_str(), purchase_prompt.c_str(), col.c_str()));
     more += old_more;

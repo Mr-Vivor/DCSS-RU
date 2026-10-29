@@ -30239,6 +30239,14 @@
     "{quiver-action}Confused toss (no damage)": {
       "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "5427733104f723de5e030c8cb8569cba9294838cf77bb50b4bc27c5c8904bb45"
+    },
+    "Purchase items for @num_cost@ gold?": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "98c8ffa75333c09471e777fd297350ba9f6cf6615c7e52db8320d9f7ba5dcd51"
+    },
+    "Purchase items in shopping list for @num_cost@ gold?": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "9fa9aef9309a4e833a82e7a66c0a6dcff0c27f2cf21828118cdf7eb7edd06639"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
