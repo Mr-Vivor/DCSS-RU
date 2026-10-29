@@ -789,7 +789,9 @@ private:
         {
             if (!search_text.empty()
                 && !pat.matches(spell.name)
-                && !pat.matches(spell.school))
+                && !pat.matches(spell.school)
+                && !pat.matches(localise(spell.name))
+                && !pat.matches(spell_schools_for_display(spell.spell)))
             {
                 continue;
             }
@@ -819,8 +821,10 @@ private:
             desc << "<" << colour_to_str(colour) << ">";
 
             desc << left;
-            desc << chop_string(spell.name, 32);
-            desc << spell.school;
+            // Keep English names for sorting/searching, translate presentation
+            // fields before padding them into the fixed-width columns.
+            desc << chop_string(localise(spell.name), 32);
+            desc << chop_string(spell_schools_for_display(spell.spell), 26);
 
             int so_far = strwidth(desc.str()) - (colour_to_str(colour).length()+2);
             if (so_far < 58)

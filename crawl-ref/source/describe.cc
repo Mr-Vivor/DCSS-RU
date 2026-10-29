@@ -4603,13 +4603,11 @@ void inscribe_item(item_def &item)
 static string _player_spell_stats(const spell_type spell)
 {
     string description;
-    description += make_stringf("\nLevel: %d", spell_difficulty(spell));
+    description += make_stringf("\n%s %d", localise("Level:").c_str(), spell_difficulty(spell));
 
-    const string schools = spell_schools_string(spell);
-    description +=
-        make_stringf("        School%s: %s",
-                     schools.find("/") != string::npos ? "s" : "",
-                     schools.c_str());
+    const string schools = spell_schools_for_display(spell);
+    description += "        " + localise(schools.find("/") != string::npos
+                                         ? "Schools:" : "School:") + " " + schools;
 
     if (!crawl_state.need_save
         || (get_spell_flags(spell) & spflag::monster))
@@ -4631,7 +4629,7 @@ static string _player_spell_stats(const spell_type spell)
     }
     else
         failure = failure_rate_to_string(raw_spell_fail(spell));
-    description += make_stringf("        Fail: %s", failure.c_str());
+    description += "        " + localise("Fail:") + " " + failure;
 
     const string damage_string = spell_damage_string(spell);
     const string max_dam_string = spell_max_damage_string(spell);
@@ -4639,41 +4637,44 @@ static string _player_spell_stats(const spell_type spell)
     const string defence_string = spell_defence_string(spell);
     const string resist_string = spell_resist_string(spell);
     // TODO: generalize this pattern? It's very common in descriptions
-    const int padding = (acc != -1 || !defence_string.empty()) ? 8
+    int padding = (acc != -1 || !defence_string.empty()) ? 8
                         : damage_string.size() ? 6 : 5;
-    description += make_stringf("\n\n%*s: ", padding, "Power");
-    description += spell_power_string(spell);
+    if (localisation_active())
+        for (const char *label : { "Power", "Damage", "Accuracy", "Range", "Noise", "Defences", "Resists" })
+            padding = max(padding, strwidth(localise(label)));
+    const auto field = [&description, padding](const string &label, const string &value)
+    {
+        const string name = localise(label);
+        description += "\n" + string(max(0, padding - strwidth(name)), ' ')
+                        + name + ": " + localise(value);
+    };
+    description += "\n";
+    field("Power", spell_power_string(spell));
 
     if (damage_string != "")
     {
-        description += make_stringf("\n%*s: ", padding, "Damage");
-        description += damage_string;
+        string damage = damage_string;
 
-        const string max_dam = spell_max_damage_string(spell);
-        if (!max_dam.empty())
-            description += " (max " + max_dam + ")";
+        if (!max_dam_string.empty())
+            damage += localise(" (max ") + max_dam_string + ")";
+        field("Damage", damage);
     }
     if (acc != -1)
     {
         ostringstream acc_str;
         _print_bar(acc, 3, "", acc_str);
-        description += make_stringf("\n%*s: %s", padding, "Accuracy",
-                                                    acc_str.str().c_str());
+        field("Accuracy", acc_str.str());
     }
 
-    description += make_stringf("\n%*s: ", padding, "Range");
-    description += spell_range_string(spell);
-    description += make_stringf("\n%*s: ", padding, "Noise");
-    description += spell_noise_string(spell);
+    field("Range", spell_range_string(spell));
+    field("Noise", spell_noise_string(spell));
     if (!defence_string.empty())
     {
-        description += make_stringf("\n%*s: %s", padding, "Defences",
-                                    defence_string.c_str());
+        field("Defences", defence_string);
     }
     if (!resist_string.empty())
     {
-        description += make_stringf("\n%*s: %s", padding, "Resists",
-                                    resist_string.c_str());
+        field("Resists", resist_string);
     }
     description += "\n";
     return description;

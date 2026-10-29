@@ -374,7 +374,7 @@ You must catch your breath between uses of this ability.
 %%%%
 This ability takes some time before being effective.
 
-Эффект этой способности наступает с задержкой.
+Действие этой способности начинается не сразу.
 %%%%
 Using this ability will hurt you.
 
@@ -382,11 +382,11 @@ Using this ability will hurt you.
 %%%%
 This ability causes exhaustion, and cannot be used when exhausted.
 
-Эта способность вызывает изнеможение; в состоянии изнеможения применить её нельзя.
+Способность вызывает истощение; в состоянии истощения её применять нельзя.
 %%%%
 This ability is instantaneous.
 
-Эта способность применяется мгновенно.
+Способность срабатывает мгновенно и не тратит ход.
 %%%%
 You can use this ability even if confused.
 
@@ -402,7 +402,7 @@ No description found.
 %%%%
 Sacrifices cannot be taken back.
 
-Принесённую жертву нельзя вернуть.
+Жертвы необратимы.
 %%%%
 You are not religious.
 
@@ -1694,7 +1694,7 @@ Press the letter of a skill to read its description.
 %%%%
 Press <w>?</w> for a general explanation of skilling and the various toggles.
 
-Нажмите <w>?</w>, чтобы узнать о тренировке навыков и настройках этого меню.
+Нажмите <w>?</w>, чтобы узнать о развитии навыков и режимах этого меню.
 %%%%
 Skill descriptions
 
@@ -6266,7 +6266,7 @@ If you bind an item with this curse Ashenzari will enhance the following skills:
 %%%%
 If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.
 
-Эта жертва усилит способности, дарованные Ру, соразмерно своей ценности; вы также можете получить новые способности.
+Эта жертва усилит дарованные Ру способности соразмерно её ценности. Кроме того, вы можете получить новые способности.
 %%%%
 After this sacrifice, you will find that @arg@.
 
@@ -6298,7 +6298,7 @@ Sorry, you're not good enough to have a special ability.
 %%%%
 "Use which ability? (? or * to list) "
 
-"Какую способность использовать? (? или * — список) "
+"Какую способность применить? (? или * — список) "
 %%%%
 You cannot do that while held in a net.
 
@@ -20254,11 +20254,11 @@ You can memorise @arg@.
 %%%%
 You can memorise some of Vehumet's most lethal spells.
 
-Вы можете запомнить некоторые из самых смертоносных заклинаний Вехумета.
+Вы можете выучить некоторые из самых смертоносных заклинаний Вехумета.
 %%%%
 You can memorise some of Vehumet's spells.
 
-Вы можете изучить некоторые заклинания Вехумета.
+Вы можете выучить некоторые заклинания Вехумета.
 %%%%
 You radiate a large aura of darkness, enhancing your stealth and reducing the accuracy of your foes.
 
@@ -27026,7 +27026,7 @@ To do this, you must remove one of the following items:
 %%%%
 "Bonus from skill manuals is in <lightred>red</lightred>. "
 
-"Бонус от учебников навыков показан <lightred>красным</lightred>. "
+"Бонус учебников указан <lightred>красным</lightred>. "
 %%%%
 scribal knowledge
 
@@ -27582,7 +27582,7 @@ XL              Upgrade
 %%%%
 " stacked deck: "
 
-" подготовленная колода: "
+" сложенная колода: "
 %%%%
 @god@'s powers are not affected by the Invocations skill.
 
@@ -27598,7 +27598,7 @@ Orcs frequently recognise you as Beogh's chosen one.
 %%%%
 Orcs sometimes recognise you as one of their own.
 
-Орки иногда принимают вас за своего.
+Орки иногда признают в вас своего.
 %%%%
 @god@ prevents you from stabbing unaware foes.
 
@@ -27606,19 +27606,19 @@ Orcs sometimes recognise you as one of their own.
 %%%%
 You radiate a righteous aura, and foes within it are easier to hit.
 
-Вы излучаете праведную ауру; по врагам внутри неё легче попасть.
+Вы излучаете священную ауру; по врагам внутри неё легче попасть.
 %%%%
 You radiate a large righteous aura, and foes within it are easier to hit.
 
-Вы излучаете большую праведную ауру; по врагам внутри неё легче попасть.
+Вы излучаете большую священную ауру; по врагам внутри неё легче попасть.
 %%%%
 You radiate a small righteous aura, and foes within it are easier to hit.
 
-Вы излучаете небольшую праведную ауру; по врагам внутри неё легче попасть.
+Вы излучаете небольшую священную ауру; по врагам внутри неё легче попасть.
 %%%%
 Jellies are peaceful and will consume items off the floor.
 
-Слизни миролюбивы и поедают предметы с пола.
+Слизни миролюбивы и поедают предметы на полу.
 %%%%
 Jiyva prevents you from harming jellies.
 
@@ -27626,15 +27626,15 @@ Jiyva prevents you from harming jellies.
 %%%%
 Your health and magic regeneration is accelerated.
 
-Восстановление вашего здоровья и магии ускорено.
+Ваши здоровье и магия восстанавливаются быстрее.
 %%%%
 Your health and magic regeneration is greatly accelerated.
 
-Восстановление вашего здоровья и магии значительно ускорено.
+Ваши здоровье и магия восстанавливаются значительно быстрее.
 %%%%
 Your health and magic regeneration is very greatly accelerated.
 
-Восстановление вашего здоровья и магии чрезвычайно ускорено.
+Ваши здоровье и магия восстанавливаются намного быстрее.
 %%%%
 @god@ slows your movement.
 
@@ -27658,15 +27658,15 @@ some of Vehumet's most lethal spells
 %%%%
 You are surrounded by an umbra.
 
-Вас окружает мрачный ореол.
+Вас окружает сверхъестественная тьма.
 %%%%
 Foes that die within your umbra may be raised as undead servants.
 
-Враги, погибшие внутри вашего мрачного ореола, могут восстать слугами-нежитью.
+Враги, погибшие внутри этой тьмы, могут восстать в виде слуг-нежити.
 %%%%
 Your life essence is reduced. (-10% HP)
 
-Ваша жизненная сила ослаблена. (−10% здоровья)
+Ваша жизненная сила уменьшена. (-10% здоровья)
 %%%%
 Your Destruction is augmented by the power of Gehenna.
 
@@ -27698,11 +27698,11 @@ Jiyva will unlock the Slime Pits vaults.
 %%%%
 " (no fee if you act now)"
 
-" (без платы, если решитесь сейчас)"
+" (без взноса, если вступите сейчас)"
 %%%%
 " (no fee if you join today)"
 
-" (без платы, если присоединитесь сегодня)"
+" (без взноса при вступлении сегодня)"
 %%%%
 "  [<w>J</w>/<w>Enter</w>]: join"
 
@@ -27842,15 +27842,15 @@ Praying here may force you to leave your current form and remove some of your eq
 %%%%
 Permanent MP (@num@ left)
 
-Постоянная потеря магии (осталось: @num@)
+Постоянная потеря максимума магии (осталось: @num@)
 %%%%
 One bound item
 
-Один предмет, связанный проклятием
+Один связанный предмет
 %%%%
 Using this ability will hurt you for a large fraction of your current HP.
 
-Применение этой способности отнимет значительную долю вашего текущего здоровья.
+Применение способности отнимет значительную долю вашего текущего здоровья.
 %%%%
 Using this ability invokes torment.
 
@@ -27858,15 +27858,15 @@ Using this ability invokes torment.
 %%%%
 This ability will temporarily drain your maximum health when used.
 
-Применение этой способности временно уменьшает ваш максимальный запас здоровья.
+Применение этой способности временно уменьшает максимум вашего здоровья.
 %%%%
 This ability will temporarily drain your maximum health when used, even unsuccessfully.
 
-Даже неудачная попытка применить эту способность временно уменьшает ваш максимальный запас здоровья.
+Применение этой способности временно уменьшает максимум вашего здоровья, даже если она не сработает.
 %%%%
 Gaining experience will replenish charges of this ability.
 
-Получение опыта восстанавливает заряды этой способности.
+Получение опыта восстанавливает число применений этой способности.
 %%%%
 If you bind an item with this ritual Ashenzari will enhance the following skills:
 
@@ -29767,3 +29767,479 @@ As you thunderously recite the @scroll@, it dissolves into smoke.
 This square @any_areas@.
 
 Эта клетка @any_areas@.
+%%%%
+Pupil of Sorrows
+
+Ученик скорби
+%%%%
+Scholar of Souls
+
+Знаток душ
+%%%%
+Demagogue of Despair
+
+Демагог отчаяния
+%%%%
+Harbinger of Doom
+
+Предвестник гибели
+%%%%
+Prince of Secrets
+
+Князь тайн
+%%%%
+Bump in the Night
+
+Шорох в ночи
+%%%%
+Who Hides the Stars
+
+Затмевающий звёзды
+%%%%
+Last Ember
+
+Последний уголёк
+%%%%
+Raging Flame
+
+Бушующее пламя
+%%%%
+<white>XL              Upgrade
+
+<white>Ур.             Улучшение
+%%%%
+@God@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!
+
+@God@ не терпит отказа от веры и обрушит страшные кары на неверных последователей!
+%%%%
+@God@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any_evil@ are evil gods.)
+
+@God@ прощает отказ от веры, но наказывает бывших последователей за переход к злому богу. (Злые боги: @any_evil@.)
+%%%%
+@God@ forgives followers for abandonment; however, those who later take up the worship of an evil or chaotic god will be scourged. (@any_evil@ are evil, and @any_chaotic@ are chaotic.)
+
+@God@ прощает отказ от веры, но наказывает бывших последователей за переход к злому или хаотичному богу. (Злые боги: @any_evil@; хаотичные: @any_chaotic@.)
+%%%%
+@God@'s wrath lasts for a relatively long duration.
+
+@God@: гнев продолжается сравнительно долго.
+%%%%
+@God@'s wrath lasts for a relatively short duration.
+
+@God@: гнев продолжается сравнительно недолго.
+%%%%
+@God@'s powers are not affected by the Invocations skill.
+
+@God@: навык Молитв не влияет на божественные способности.
+%%%%
+@God@'s powers are based on @skill@ instead of Invocations skill.
+
+@God@: способности зависят от навыка «@skill@», а не от Молитв.
+%%%%
+@God@'s power
+
+божественное усиление (@God@)
+%%%%
+@God@ prevents you from stabbing unaware foes.
+
+@God@ не позволяет вам наносить внезапные удары ничего не подозревающим врагам.
+%%%%
+@God@ slows your movement.
+
+@God@ замедляет ваше передвижение.
+%%%%
+@God@ greatly slows your movement.
+
+@God@ сильно замедляет ваше передвижение.
+%%%%
+@God@ slightly slows your movement.
+
+@God@ немного замедляет ваше передвижение.
+%%%%
+@God@ supports your attributes. (+@num@)
+
+@God@ повышает ваши характеристики. (+@num@)
+%%%%
+You can memorise @spell@.
+
+Вы можете выучить заклинание «@spell@».
+%%%%
+" (@num_fee@ gold; you have @num_gold@)"
+
+" (взнос: @num_fee@ золота; у вас: @num_gold@)"
+%%%%
+@God@ guards your life.
+
+@God@ оберегает вашу жизнь.
+%%%%
+@God@ carefully guards your life.
+
+@God@ особенно тщательно оберегает вашу жизнь.
+%%%%
+@God@ often guards your life.
+
+@God@ часто оберегает вашу жизнь.
+%%%%
+@God@ sometimes guards your life.
+
+@God@ иногда оберегает вашу жизнь.
+%%%%
+@God@ occasionally guards your life.
+
+@God@ время от времени оберегает вашу жизнь.
+%%%%
+@God@ always shields you from chaos.
+
+@God@ всегда защищает вас от хаоса.
+%%%%
+@God@ often shields you from chaos.
+
+@God@ часто защищает вас от хаоса.
+%%%%
+@God@ sometimes shields you from chaos.
+
+@God@ иногда защищает вас от хаоса.
+%%%%
+@God@ occasionally shields you from chaos.
+
+@God@ время от времени защищает вас от хаоса.
+%%%%
+@God@ often shields you from Hell.
+
+@God@ часто защищает вас от воздействий Ада.
+%%%%
+@God@ sometimes shields you from Hell.
+
+@God@ иногда защищает вас от воздействий Ада.
+%%%%
+@God@ occasionally shields you from Hell.
+
+@God@ время от времени защищает вас от воздействий Ада.
+%%%%
+@God@ rarely shields you from Hell.
+
+@God@ изредка защищает вас от воздействий Ада.
+%%%%
+@God@ completely shields you from negative energy.
+
+@God@ полностью защищает вас от отрицательной энергии.
+%%%%
+@God@ mostly shields you from negative energy.
+
+@God@ в значительной мере защищает вас от отрицательной энергии.
+%%%%
+@God@ partially shields you from negative energy.
+
+@God@ частично защищает вас от отрицательной энергии.
+%%%%
+(Boost: @any_skills@)
+
+(Усиление: @any_skills@)
+%%%%
+@num_left@/@num_max@ uses available
+
+доступно применений: @num_left@/@num_max@
+%%%%
+After this sacrifice, you will find that @any_effects@.
+
+После этой жертвы: @any_effects@.
+%%%%
+Dismiss Apostle
+
+Отпустить апостола
+%%%%
+Dismiss @any_name@
+
+Отпустить: @any_name@
+%%%%
+Recruit @any_name@
+
+Принять в отряд: @any_name@
+%%%%
+Brand Self
+
+Наложить на себя клеймо
+%%%%
+Accept @any_mark@
+
+Принять: @any_mark@
+%%%%
+Recast @spell@
+
+Повторить «@spell@»
+%%%%
+Really use @ability@?
+
+Действительно применить способность «@ability@»?
+%%%%
+Range: @any_range@
+
+Дальность: @any_range@
+%%%%
+select all
+
+выбрать всё
+%%%%
+select first
+
+выбрать первый
+%%%%
+go to first
+
+перейти к первому
+%%%%
+magical staff
+
+магический посох
+%%%%
+Body Armour
+
+Доспехи для тела
+%%%%
+Really wield @any_item@?
+
+Действительно взять в руки {acc}@any_item@?
+%%%%
+Really wield @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно взять в руки {acc}@any_item@?
+%%%%
+Really unwield @any_item@?
+
+Действительно убрать из рук {acc}@any_item@?
+%%%%
+Really unwield @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно убрать из рук {acc}@any_item@?
+%%%%
+Really quaff @any_item@?
+
+Действительно выпить {acc}@any_item@?
+%%%%
+Really quaff @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно выпить {acc}@any_item@?
+%%%%
+Really drop @any_item@?
+
+Действительно бросить {acc}@any_item@?
+%%%%
+Really drop @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно бросить {acc}@any_item@?
+%%%%
+Really take off @any_item@?
+
+Действительно снять {acc}@any_item@?
+%%%%
+Really take off @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно снять {acc}@any_item@?
+%%%%
+Really wear @any_item@?
+
+Действительно надеть {acc}@any_item@?
+%%%%
+Really wear @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно надеть {acc}@any_item@?
+%%%%
+Really put on @any_item@?
+
+Действительно надеть {acc}@any_item@?
+%%%%
+Really put on @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно надеть {acc}@any_item@?
+%%%%
+Really remove @any_item@?
+
+Действительно снять {acc}@any_item@?
+%%%%
+Really remove @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно снять {acc}@any_item@?
+%%%%
+Really read @any_item@?
+
+Действительно прочитать {acc}@any_item@?
+%%%%
+Really read @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно прочитать {acc}@any_item@?
+%%%%
+Really memorise from @any_item@?
+
+Действительно изучить заклинания из {gen}@any_item@?
+%%%%
+Really memorise from @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно изучить заклинания из {gen}@any_item@?
+%%%%
+Really zap @any_item@?
+
+Действительно применить {acc}@any_item@?
+%%%%
+Really zap @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно применить {acc}@any_item@?
+%%%%
+Really fire @any_item@?
+
+Действительно выстрелить с помощью {gen}@any_item@?
+%%%%
+Really fire @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно выстрелить с помощью {gen}@any_item@?
+%%%%
+Really evoke @any_item@?
+
+Действительно применить {acc}@any_item@?
+%%%%
+Really evoke @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно применить {acc}@any_item@?
+%%%%
+Really quiver @any_item@?
+
+Действительно подготовить {acc}@any_item@?
+%%%%
+Really quiver @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно подготовить {acc}@any_item@?
+%%%%
+Really equip @any_item@?
+
+Действительно экипировать {acc}@any_item@?
+%%%%
+Really equip @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно экипировать {acc}@any_item@?
+%%%%
+Really unequip @any_item@?
+
+Действительно снять {acc}@any_item@?
+%%%%
+Really unequip @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно снять {acc}@any_item@?
+%%%%
+Really choose @any_item@?
+
+Действительно выбрать {acc}@any_item@?
+%%%%
+Really choose @any_item@ while about to teleport?
+
+Вы ожидаете телепортации. Всё равно выбрать {acc}@any_item@?
+%%%%
+Really unwield and destroy @any_item@?
+
+Действительно убрать из рук и уничтожить {acc}@any_item@?
+%%%%
+Really take off and destroy @any_item@?
+
+Действительно снять и уничтожить {acc}@any_item@?
+%%%%
+Really remove and destroy @any_item@?
+
+Действительно снять и уничтожить {acc}@any_item@?
+%%%%
+"Enter a skill target for @skill@: "
+
+"Целевой уровень навыка «@skill@»: "
+%%%%
+"Enter a base skill target for @skill@: "
+
+"Целевой базовый уровень навыка «@skill@»: "
+%%%%
+"Category: "
+
+"Категории: "
+%%%%
+Anatomy
+
+Анатомия
+%%%%
+Substance
+
+Материал тела
+%%%%
+golden breath
+
+золотое дыхание
+%%%%
+Your maximum health is decreased, since you lack skill for your form.
+
+Максимум вашего здоровья снижен: для этого облика вам не хватает навыка.
+%%%%
+Your body armour is much less effective at protecting you.
+
+Надетый доспех защищает вас значительно хуже.
+%%%%
+Your body armour is less effective at protecting you.
+
+Надетый доспех защищает вас хуже.
+%%%%
+Your body armour is slightly less effective at protecting you.
+
+Надетый доспех защищает вас немного хуже.
+%%%%
+Your serpentine skin is tough. (AC +@num@)
+
+Ваша змеиная кожа прочна. (Бр +@num@)
+%%%%
+Your @scales@ scales are hard. (AC +@num@)
+
+У вас прочная чешуя: @scales@. (Бр +@num@)
+%%%%
+fleshless physiology
+
+Тело без плоти
+%%%%
+plant physiology
+
+Растительная физиология
+%%%%
+Your fleshless body is immune to poison, disease, and asphyxiation.
+
+Ваше тело без плоти невосприимчиво к яду, болезням и удушью.
+%%%%
+Your plant body is immune to sleep, blinding, and asphyxiation.
+
+Ваше растительное тело невосприимчиво ко сну, ослеплению и удушью.
+%%%%
+"Recruit "
+
+"Найм "
+%%%%
+" ability"
+
+" способность"
+%%%%
+"The species aptitude is in <white>white</white>. "
+
+"Способности вашего вида к обучению указаны <white>белым</white>. "
+%%%%
+Piety@any_pips@
+
+Благочестие@any_pips@
+%%%%
+@key@ toggle between ability selection and description.
+
+@key@ — переключить применение и описание способностей.
+%%%%
+School:
+
+Школа:
+%%%%
+Schools:
+
+Школы:
+%%%%
+Fail:
+
+Неудача:
+%%%%
+" (max "
+
+" (макс. "

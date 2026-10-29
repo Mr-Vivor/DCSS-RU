@@ -154,6 +154,7 @@ string spell_resist_string(spell_type spell, bool is_monster = false,
 string spell_range_string(spell_type spell);
 string range_string(int range, int maxrange = -1, int minrange = 0);
 string spell_schools_string(spell_type spell);
+string spell_schools_for_display(spell_type spell);
 string spell_failure_rate_string(spell_type spell, bool terse);
 string spell_noise_string(spell_type spell, int chop_wiz_display_width = 0);
 

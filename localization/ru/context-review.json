@@ -1193,12 +1193,12 @@
       "translation_sha256": "2e9da218bec6f796469b2254461e371c8e7059cda491f65c0ce9217cef107638"
     },
     "Press the letter of a skill to read its description.": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
+      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
       "translation_sha256": "9773e16f2068d63694745d983b143516de7a25595c10f2f6288bd730f87efac8"
     },
     "Press <w>?</w> for a general explanation of skilling and the various toggles.": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "17e5fae01d31541cbd29aed7a2807566c60cf62faf1a26eaaba55eb2e3b54c2a"
+      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
+      "translation_sha256": "427b8e179792472a0a839cb5d055215bb5c788a9dace9851b926b07bb760600a"
     },
     "Skill descriptions": {
       "context": "skill-menu.cc",
@@ -5821,8 +5821,8 @@
       "translation_sha256": "2b655e2091c6cc3d15a16a132640e2e1494a69e6725dd3f1c008f55f714db4fe"
     },
     "If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "bc7bd3026ef8893e560b18fc5461bb743a3fa40336807631b87781279526c98e"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "ba3a83c8727742ac66e7d444ee6984032c37f1a10971276b7fa96f8c3f4d5914"
     },
     "After this sacrifice, you will find that @arg@.": {
       "context": "ability.cc",
@@ -5853,8 +5853,8 @@
       "translation_sha256": "9022eb2ad006a9c91785987d0efc4bda8be2cef49c3a238fca14b6f3c7c3f093"
     },
     "Use which ability? (? or * to list) ": {
-      "context": "ability.cc",
-      "translation_sha256": "42998f26119d02720e06f3a1e4e126384a838757c228b2726ad0cc2102dac3c8"
+      "context": "ability.cc:literal padding",
+      "translation_sha256": "af97363878af9da42fe3bf0f972a3acdaa710ae3781cd0d01f953d5478f16896"
     },
     "You cannot do that while held in a net.": {
       "context": "ability.cc",
@@ -19593,7 +19593,7 @@
       "translation_sha256": "3157b04caa4c158443f4e441dfef54ec1460ea7161d5bd631eb351eada872d80"
     },
     "Ancestor Upgrades:": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
       "translation_sha256": "a5d917d7333dcda9067e6d6ab2a4f3562e965aaac23d3cc3375a8a3f6fa944bf"
     },
     "XL": {
@@ -19809,12 +19809,12 @@
       "translation_sha256": "53a0a22103b532325d4ea1910633d918a6f00c2ed924e4fd2ea7463909b4e221"
     },
     "You can memorise some of Vehumet's most lethal spells.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "680ff8d51713d8ec86ddd6601c119369f95a1d2719668e8bb0b7cbd9069445fe"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "be2e1ed894c70a03fec978633d355cb341896d3bbcde6f62bffe281dfc7ae218"
     },
     "You can memorise some of Vehumet's spells.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "e7a315c32ed6bb41bb103bd9c75a64cc83df68cda3130af4263f20fd91596484"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "40dc6cad109e046e842658657c4032e81a38aca4b67226a8a02c362709f27aba"
     },
     "You radiate a large aura of darkness, enhancing your stealth and reducing the accuracy of your foes.": {
       "context": "describe-god.cc",
@@ -26521,7 +26521,7 @@
       "translation_sha256": "e4edfd75425b52592442ee0d0709e4094204dcd62da4ba8e44c580a1d2d63b44"
     },
     " (_ for help)": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "invent.cc:literal padding",
       "translation_sha256": "e66ed21dcbb010537945aa20c7592cc0aaf5080f48ad7e8fe904599e21cc920e"
     },
     "Pick up how many? ": {
@@ -26581,8 +26581,8 @@
       "translation_sha256": "fb63ca2d535bd55cbbf0f5b788388e261a97dcaadf87650646e37c1eef50aff2"
     },
     "Bonus from skill manuals is in <lightred>red</lightred>. ": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "29cf5e3c6be7dfed758c002610483d4f105ccfabbc26e22d616144704774f734"
+      "context": "skill-menu.cc:literal padding",
+      "translation_sha256": "3096d2a7882e59b40b43efe4ff4323ca3b0d5bd7a3f3f2d98713fd5f5a210c67"
     },
     "scribal knowledge": {
       "context": "skill-menu.cc / skill training and actual menu controls",
@@ -27137,8 +27137,8 @@
       "translation_sha256": "cef0070aa70691a4dc7e24e5c224f89ab877edf3a06446168d26135cc3e3eeeb"
     },
     " stacked deck: ": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "08f5843cc5c626b282c743c9c7618290c4a35b1e735fe8a08890e73db7120536"
+      "context": "describe-god.cc:literal padding",
+      "translation_sha256": "8c12c1727405be93e9e01b38a04c07a07689fad4cc747c3420eb7aa0689e8519"
     },
     "@god@'s powers are not affected by the Invocations skill.": {
       "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
@@ -27149,48 +27149,48 @@
       "translation_sha256": "e8d3206dc850399331c3a20e6fe963b3c71e9e5619e9dd08e72f57cba05ea8c5"
     },
     "Orcs frequently recognise you as Beogh's chosen one.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
       "translation_sha256": "d9d24b02e2c76d79c9bf16d4d7f0e09fe45badfdcaca770bab8d88ad2d115a1f"
     },
     "Orcs sometimes recognise you as one of their own.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "2977eb39915ce380645e06a0f88426d62149d4125d5ebba48444780efed5a6e5"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "60c597bf2e3581f432b14367aaa3e062174a6346b022b98e05f1d494b4f27224"
     },
     "@god@ prevents you from stabbing unaware foes.": {
       "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
       "translation_sha256": "507f6eaff49906406904942f36fb48c061c85d70cfb9e21853786a437cbb3506"
     },
     "You radiate a righteous aura, and foes within it are easier to hit.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "dfe7918a332cb0789e17a58eced88b61edbf9482aa9725a9a2fd51543335b8c3"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "804ee9b77b47a58b5d682d6a7ebdacd6aeff998df260c0c85bd4c35e933b566f"
     },
     "You radiate a large righteous aura, and foes within it are easier to hit.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "71ffb48337d31ac1511eff50b17d5cee5d15244ed654a6d3ea3f74d9ef3fca19"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "6f4628d7e3c53a6640b2f52a0326cabe59f745b165e7805bf92afcc5b7c4024f"
     },
     "You radiate a small righteous aura, and foes within it are easier to hit.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "5adfff6c908e9d1691594aaea06910fed3850354db5f7fb421b02881e808fa34"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "d1af54050693eb71a6bf44ecbd9c86f492843bcd751789221211ab9f2f1838da"
     },
     "Jellies are peaceful and will consume items off the floor.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "de781c4765edb22e75283564959c09468d544dbbfeff46b24bb00a22bfef9732"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "cf25c8a7b506377af56d6e2dcdbca5be45ea67f061642cb67dead0866d5fc35e"
     },
     "Jiyva prevents you from harming jellies.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
       "translation_sha256": "bb7fd06e4040112b8f25578644d212eab78963b4d97a082d0f9bb4438d262691"
     },
     "Your health and magic regeneration is accelerated.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "b125e7cd955edeecd252e9dd1f18b73653f034692eef509775835b5957b667b5"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "e5db49db41603a86d7af371f7307ffa2f993b4f9b8526978f1779096bf5cfefe"
     },
     "Your health and magic regeneration is greatly accelerated.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "8c474de3fad10ac18292dfcd0f2e561a0f40e77b455b8ac26e84501bc9ff0eaa"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "853d229e6fac5445fb7ef7f4735d0fc0942ca29d7825dbc8d3c07295cea9507e"
     },
     "Your health and magic regeneration is very greatly accelerated.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "83b2d17339ddb5c2f1540cb56a4857bf117416148e0ab68757404351b68ec30d"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "15a39c36602c3a8cb0146c9637998aa2c3fc8083ed2f73031a1bcc7a1a63e21f"
     },
     "@god@ slows your movement.": {
       "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
@@ -27213,16 +27213,16 @@
       "translation_sha256": "b2a94c10e32b233bb14ac2bfc7a206783c19453d840a1a7edf9ea40b62d7b5b7"
     },
     "You are surrounded by an umbra.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "f745c82ca815e2ac7a0469811aa5f144db02544513c6a0fa253c37e90defe3c2"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "a250d87deae03a66abd4179117fe61c79ccf2aefad66099f88d8b4e14068026a"
     },
     "Foes that die within your umbra may be raised as undead servants.": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "64dccdbbd5f0e9ecb8db2a4f98227f965d93e34ff326b9f8f9ea1816c8dc9283"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "b0348bdeab3ce3fe8b7afda1594390e2b1c17dd2f547a79e71f9fa0fa950fcca"
     },
     "Your life essence is reduced. (-10% HP)": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "897784474ae85680f0343da9ea628698855949e4a899aa3ee80ffbd46cbf58ef"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "ac04100363b9f5912c654a670ffc45a30511d04a793479836385607e0cacae07"
     },
     "Your Destruction is augmented by the power of Gehenna.": {
       "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
@@ -27253,12 +27253,12 @@
       "translation_sha256": "ef34ea20b9f5b2906ee21f28096b9aa1620652908233c2d41fd7ae14772e01a8"
     },
     " (no fee if you act now)": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "33a3db428cb02aee9ae1c11c906d01d50d0d7c593111bfb3183ca217a2bcf609"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "cf6b73ecae9c5073adf47633fda7a15c92ffbb98624c1035c52b199ab79a6a71"
     },
     " (no fee if you join today)": {
-      "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
-      "translation_sha256": "9dd032a87d8e3fd4f01f88dae8f246fbd9e4a4b6b708e4adec5f4387a08edd1c"
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "763ed16545a7faa8ba1ce3e1a423b09e4894c6b2635780d63220831f26674344"
     },
     "  [<w>J</w>/<w>Enter</w>]: join": {
       "context": "describe-god.cc / current worship overview, ancestor progression and wrath",
@@ -27397,60 +27397,60 @@
       "translation_sha256": "a336ac86d5f746e53c21f5c51e3f804b8a30542ba4a9d76e2c8ee9494aac324f"
     },
     "Permanent MP (@num@ left)": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "54595e5a3e02e70f1aaf92ed37473b1ce9019864ba37a4956609fc75a29913f1"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "9b87157feda926d1f5affb2c530cf6a1aa1cc96bb33ac21dab8f0e975e86de46"
     },
     "One bound item": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "f3f644a238e5848294ca6adba70f1112e8afcb0fcf84044c8720435c042c57f3"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "633006da3991a1ad894ad360278ceafc10750f9f72557873d20b692491a9457b"
     },
     "You must catch your breath between uses of this ability.": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
       "translation_sha256": "0e0124d23e37821aadae71e65d8f7186b57445bf86353010405dbfb40a9b6fad"
     },
     "This ability takes some time before being effective.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "8adf563fc2f70e20c9108c203323eb58089bade0a10402f14968a817a6d705ee"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "bc641e001cfc14c54006eca13b577189a2d8b0e81fde5e9ecb67aa5a5bcd2b02"
     },
     "Using this ability will hurt you for a large fraction of your current HP.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "b0cc60e777bc059f8ddb7b65b87883b8191684ea513d7ed14465b605f11f96a2"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "54f4b6856488fbb0f007c3acd9c491b36de0ee62bf5cae5f7edcd7fb16d4254e"
     },
     "Using this ability invokes torment.": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
       "translation_sha256": "1cd1e705e5db0a422e26e866bc04aa1ffaa17ec87a85cb17dd4e52d62e46682d"
     },
     "This ability causes exhaustion, and cannot be used when exhausted.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "4fc0255e25438164c18da92236610ee3d3cd6f7a0c7dd2ffebb7535059583712"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "14ae9645e0f67b557346bf9208fbb5a75cdebf3a16eebcbe85f5c66ac4a4f678"
     },
     "This ability is instantaneous.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "f1c83c67b040b8e47ef24862c17823d6202332a1200d758ecfea5c1004ff9008"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "07af84e66f36c57510b228451d0f67ee4963a2cb0c1417bb0c451a56b9520f68"
     },
     "You can use this ability even if confused.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
       "translation_sha256": "c7e9c9731d8660ae541778ddac1768ab6daa35d788968276b945986ce0650769"
     },
     "This ability will temporarily drain your maximum health when used.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "28da4676ecbdf34d80bc4e94319b63017b5dcf54d1688831944ccd925a1fa85f"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "45f972c95e1a1e615acee2db49f7d83409e0fa2386cfede8172d0d50f1aad48a"
     },
     "This ability will temporarily drain your maximum health when used, even unsuccessfully.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "5d5a88a91384a2e4f62a26b32683fe974ac2ecf630b08cd70eb43024dd3d339b"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "bfd4857f8278be1245ee0c790c55d7793447e04b24c0afd46bdf74e2250eefac"
     },
     "Gaining experience will replenish charges of this ability.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "7af7c07f3bddc310a0cfb1798209c72ea60839694461b8f5757913f6ed04cf0c"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "7e9428c1a9df54ee38bbf87ad3a56f566c55abadd88b6ff4442a7e4c1102ad94"
     },
     "If you bind an item with this ritual Ashenzari will enhance the following skills:": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
       "translation_sha256": "a677d2010dc88b33ea257b51a5e56e81ef979ed8a41433a614d47949416388db"
     },
     "Sacrifices cannot be taken back.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "238b87b64f1f8e1f12616bbbd2910111bf5d7d0b3e24299ce6805544953d9590"
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "7d1bd34169963e8f60149a6946aacd1cde64cb110ac359af3d81498e2b01174f"
     },
     "After this sacrifice, you will find that @any@.": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
@@ -29347,6 +29347,486 @@
     "This square @any_areas@.": {
       "context": "directn.cc:inspection and targeting; square is feminine in Russian",
       "translation_sha256": "7a093a1c674fa014a911d22c86f06211cda81cf51cb87e4107d1a7ec5ebeab97"
+    },
+    "Pupil of Sorrows": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "2646162312716af3fcc27f7e014416c6d8468612379d91e63fd8de15b336c21c"
+    },
+    "Scholar of Souls": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "0463dbfe9a894fc19776b67549a67ff73153435c88d5c29bf87b9c5e79be76e4"
+    },
+    "Demagogue of Despair": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "ba81a500a844abd6dde5e0be067d573a4db67b1c829b762d6033a50bd5c61c39"
+    },
+    "Harbinger of Doom": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "bf61224fc2c6340b2382ed52ddcccfa7adde8bddc8d8d177c9acb540c6466f93"
+    },
+    "Prince of Secrets": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "a0efe2cba593198b703dccb6e47251dcb269d410a09d62ac26f8bc2467f632b0"
+    },
+    "Bump in the Night": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "cd543bb2cc719c7474307003022be5390e2eec629a8b3a98cdb15a4736fde22e"
+    },
+    "Who Hides the Stars": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "c7472d8bfb35538524012c60140e5d2253abbf4daba06254a035742e992adfc6"
+    },
+    "Last Ember": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "d71e2767acfb0ec6ab258bcd0550ec12160917f5414eb1aa0ae2eb930b53bb04"
+    },
+    "Raging Flame": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "a29b8d2d6eb14e2de283ccbfab4d6560afb2922e346eaf6c007b00b3f56f4155"
+    },
+    "<white>XL              Upgrade": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "1e07d14d4bc300d461232cf957623d162b6641147a1fedf806b7c20441f519b8"
+    },
+    "@God@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "f8d3f4a03d238be3ec8179dc1858c29c56a1e258138ba6124d90c4b586a252d4"
+    },
+    "@God@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any_evil@ are evil gods.)": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "e402ad863c746a7f9065321f3f9db9249fcae60fe369d43c1c0ebfb8f16e3895"
+    },
+    "@God@ forgives followers for abandonment; however, those who later take up the worship of an evil or chaotic god will be scourged. (@any_evil@ are evil, and @any_chaotic@ are chaotic.)": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "8dc7e988bbf3889b1aacbb98749feb4e9bb3e25441efe183b9a9d577b252f828"
+    },
+    "@God@'s wrath lasts for a relatively long duration.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "4f437c6537d9196acbfb09b40d25a37a8270848a9ea7bde7f98c1527cdd107fe"
+    },
+    "@God@'s wrath lasts for a relatively short duration.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "9129f43028e9f4ab6e31eefea01d59d3b70dc6cf81f36e4bb9e7db3265697561"
+    },
+    "@God@'s powers are not affected by the Invocations skill.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "9d4491c0c5c4c2f4b93dd1e29ca3b2b0640033c6ca993633f9f683cb1db33633"
+    },
+    "@God@'s powers are based on @skill@ instead of Invocations skill.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "8a5a61fe9bd4245cbf9c415e2f98abdcf75d91867dec25104a5da17185c8aee6"
+    },
+    "@God@'s power": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "95c7ca0459a8e4fe481c253ddc1141f772cdbb55357a6186775b4039ea3d2a7b"
+    },
+    "@God@ prevents you from stabbing unaware foes.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "280d15a0a56ea289e973a5c0813b739975f7fae8afd74642173402ac094508ef"
+    },
+    "@God@ slows your movement.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "14ee3de6b0bbd5ac09b43723012f79da7fca9c4cbd9f25f9a63fe5995080baf0"
+    },
+    "@God@ greatly slows your movement.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "bf69b1158cee26990596871329041f8cc3c09445c08f4573039022740addecad"
+    },
+    "@God@ slightly slows your movement.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "a73bc50588af6e74186dff95a2783fe3d089c8589294b4a68bee24e2a2804106"
+    },
+    "@God@ supports your attributes. (+@num@)": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "a07a78fdfa08a853f4f66beac9ca5a83d4694fb2262cbaa3b029b0f7af3ac27d"
+    },
+    "You can memorise @spell@.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "1aa13eccc384787e11f86ba7bd3a59992e28ad566bdd5a3b12d7eebef6591d9f"
+    },
+    " (@num_fee@ gold; you have @num_gold@)": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "cba4b87fb3c27bf8f239620ab07b44d7adfa3214b36f2245cc97eb4317da881d"
+    },
+    "@God@ guards your life.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "52b07d36814e52d35fafef3706e6c1418102c9520d79860f39689de90093e3ff"
+    },
+    "@God@ carefully guards your life.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "c45a4231278eb88571b8826b663257ccdc6c810481130197c6ab30bacb8b62d3"
+    },
+    "@God@ often guards your life.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "12ce9edc40e07b18c7b4ffe9ecd92ff6fd42e91157105835279364b3524c95e4"
+    },
+    "@God@ sometimes guards your life.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "189d6dbec848f496e2d2f1f9bba56be4d4ceb34dec47839e013849799a4c0644"
+    },
+    "@God@ occasionally guards your life.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "8ac306edfcf58bcd1501c350e1f2008e2b5d4e5d981aaa093b9b1b1afe2f3c91"
+    },
+    "@God@ always shields you from chaos.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "099d7bb5b2b1bde3687ed7bc5ee5b93d4f58373aaf9313787f26ab912c1fb685"
+    },
+    "@God@ often shields you from chaos.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "37cee87a5f6a9f5228bffa380a3a2a1a47733fded55e99d325d1be976f856c67"
+    },
+    "@God@ sometimes shields you from chaos.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "c3019879e822609df7f414d591dd907d8be644b58ce1f680db99a02424bd07b6"
+    },
+    "@God@ occasionally shields you from chaos.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "bd144bc76ccbe6cd2ea0b7e1cdd67bef6f1e7581837fe5fbaa9e18ddea8bc11c"
+    },
+    "@God@ often shields you from Hell.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "2b32644f80a1b92936b4bbe6e70286f3a32b537e9722b2d5c386bee8ce65d744"
+    },
+    "@God@ sometimes shields you from Hell.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "684db45ad27463dd5e69ea82f4d7e3bdf3b8b681aa509d9d231b62501f415dec"
+    },
+    "@God@ occasionally shields you from Hell.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "05f24d0a438942fa1b14c6c53be65494b40c86ca68d7ec1189b81771b4e44ff0"
+    },
+    "@God@ rarely shields you from Hell.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "7321b62b259d367428e1561df8bb1f1c080cdbd9dae93d5b3f88a743fd84626b"
+    },
+    "@God@ completely shields you from negative energy.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "51327dbb5750a89add7a76b167425422ce234a5a66f93d6ae5f92b6b4aa1ec3d"
+    },
+    "@God@ mostly shields you from negative energy.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "eb2b1fb852da3523fa10db54d1088a6a4569e5090d9cfbf9b40ff48dc86dca37"
+    },
+    "@God@ partially shields you from negative energy.": {
+      "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
+      "translation_sha256": "f35922dc35258d974e81e70d828d91dfba977a2f46cacfd144e69a3bc8298a2c"
+    },
+    "(Boost: @any_skills@)": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "fe530c38bd6f0f6874471eea447283dfd3f6ce6ef76e9202b57f32884cd92c19"
+    },
+    "@num_left@/@num_max@ uses available": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "3987660a57cede1597e85da70a3a31678087f905d3093aa2b1e21f0f28d6de8a"
+    },
+    "After this sacrifice, you will find that @any_effects@.": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "a9adb17ffa98be3247bed10ac250205d7db2ffd6b721beab12d076bb91002614"
+    },
+    "Dismiss Apostle": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "93a5604a6619c3e60282adf048e13b696121580d557e74db423a9abb2c73fa6e"
+    },
+    "Dismiss @any_name@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "34f4d12aece4c1ae44e9c7ef0e5e232570f1b78073017a81f89d1c752f325730"
+    },
+    "Recruit @any_name@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "c97d47dd20e3824d3c44d7a69b3ef332f520319716dd0827a3114546c4965f6d"
+    },
+    "Brand Self": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "4d70c4fa04ef406a8b8b0d5adeeacd9744ec393d0fd30c83169e5236b7abf918"
+    },
+    "Accept @any_mark@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "a6459fbcbc53b7aa63a0bcec619e3c479dbda8d5e6b62ffe936493c5f89c722c"
+    },
+    "Recast @spell@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "3b46df588ded615edbabdac17fe7ee34c64f095a2e73742aa8d18ccd5fbe2624"
+    },
+    "Really use @ability@?": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "368b2e6c93c0052ccd41c2295eabf33c38bb6d5c67cf9d734c3fd792e1e91edd"
+    },
+    "Range: @any_range@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "3ebe5e38b3ed3b2ab40b512271e50853f1b73a8fe589ed587db6e9e938c9cea0"
+    },
+    "No description found.": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "76e5c46676b5544bddbc7e330393072dbfc514a8897c428c5416cdbf41116918"
+    },
+    "select all": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "09f92b55e62a8f2cfc10f2f70d2433390e0f3b903b793a81316d2273ba3c508c"
+    },
+    "select first": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "baf7e8247d07a09b368637f4ba0ef7f3093fb25d4ac1076b1e1be273e47517c5"
+    },
+    "go to first": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "4103ef5795fda4a1684285c2e749dbbdda50a98458afa556320f4e1413013d24"
+    },
+    "magical staff": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "f9f423a42afe919d6e5129c0920e85cea133874f0db08ef870c7f790a90ed489"
+    },
+    "Body Armour": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "6442dfd90f52628bf2a0c45747d87ffc60755c89d68e06cf88cdda64899be9c4"
+    },
+    "Really wield @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "c82b16d508f0ac3ffca50aef23838a03c25ab3b3f550498159282cfec96e9408"
+    },
+    "Really wield @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "6292b7ec0a68caf0e7ad77a1d610cf22aa9a9f4054b7091b7bc35c5b683182a7"
+    },
+    "Really unwield @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "15759e6b1bcda2b90f9156c960f2ec03651e366c45d5a109cfe55d18cc9a25a9"
+    },
+    "Really unwield @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "50b0d9a72ab42fed8c2d5e11409e36ffde5275bd099577dbb3911e098c2f3b56"
+    },
+    "Really quaff @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "c715d06d128e19eeb4649735208e8246f77d764cf17f5f831cc2813e52fc2260"
+    },
+    "Really quaff @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "730fb7325e9d1296bca933e93782b4bfe5b58eb5429db17a388c6fb1d15b1a41"
+    },
+    "Really drop @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "746148266c29bfba42957701042e49a3ab3b04ef8271c35f0994eebf9bb920a7"
+    },
+    "Really drop @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "e171482a6e6a7cd5265f502cdb7dfd3ac1bf7d109bf84470b8d67c25d87e1400"
+    },
+    "Really take off @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "cbe370390a073c9d96dc7e59e4d1f884afb531c308a3448b4c5020d85c517636"
+    },
+    "Really take off @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "185ce25e1cf23d0d669b7338d4514acdcc667757215b68b0dad5dafc3aa01c39"
+    },
+    "Really wear @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "abb82193ffdde3bc1140f6adad9a2638889a41a98bd0a7d42a26c2f51c4d1351"
+    },
+    "Really wear @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "6d47a6c846d37af252f41a0e1d4913313045cf5619a3eca63b3ce741b72e16b2"
+    },
+    "Really put on @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "abb82193ffdde3bc1140f6adad9a2638889a41a98bd0a7d42a26c2f51c4d1351"
+    },
+    "Really put on @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "6d47a6c846d37af252f41a0e1d4913313045cf5619a3eca63b3ce741b72e16b2"
+    },
+    "Really remove @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "cbe370390a073c9d96dc7e59e4d1f884afb531c308a3448b4c5020d85c517636"
+    },
+    "Really remove @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "185ce25e1cf23d0d669b7338d4514acdcc667757215b68b0dad5dafc3aa01c39"
+    },
+    "Really read @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "6b5711b538af67674310aedc2892da57b15c35724fae226bf93be1bb974e67a0"
+    },
+    "Really read @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "67bd87b5894c0dbdc2f44fc6203b2999c12836c05fbcebdb3408d54613231546"
+    },
+    "Really memorise from @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "40b87fa6a4b929fd1c6ca6fe61151eca41f6619c772fa80a7cd524e3cdd26766"
+    },
+    "Really memorise from @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "3b2306a05f1dee6808a23040697cb089867771a06170bb7960971c62268b1def"
+    },
+    "Really zap @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "74dd1c534ca6a0951bc2261e9fa62c1f769b42c78cddd2b1effbcc956a907902"
+    },
+    "Really zap @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "00c5630d68af1c011920d1b658d4481da0052c698dd2b76e55050574529fb05c"
+    },
+    "Really fire @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "e9f8e750c9e57a3b93bf2090f2d88fd1459b867c5a276df9b0ea972989428b86"
+    },
+    "Really fire @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "dc9e5c44f5c32ce975e68d5032f547529960b3a7a29c285f4413e505c74a528c"
+    },
+    "Really evoke @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "74dd1c534ca6a0951bc2261e9fa62c1f769b42c78cddd2b1effbcc956a907902"
+    },
+    "Really evoke @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "00c5630d68af1c011920d1b658d4481da0052c698dd2b76e55050574529fb05c"
+    },
+    "Really quiver @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "916fb2017948ee9e3a872546b6329ebd0bc5eaee918e43aa418665b4d912fa27"
+    },
+    "Really quiver @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "592fa2b231bd51bcbfbbec516e4ab7586fa74108772bdbed09466793b6b7f3da"
+    },
+    "Really equip @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "34265ec60fc7eb52e8ddc29f6ae9e539d5ad13e2123c21d101f3f414a63ba8e3"
+    },
+    "Really equip @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "b717c1408b73394557fd3fb26ef55c9248adb3cd64be568f64385dfac32251b8"
+    },
+    "Really unequip @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "cbe370390a073c9d96dc7e59e4d1f884afb531c308a3448b4c5020d85c517636"
+    },
+    "Really unequip @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "185ce25e1cf23d0d669b7338d4514acdcc667757215b68b0dad5dafc3aa01c39"
+    },
+    "Really choose @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "d5cfd89d4d186016c50273f0eee992d4b76cc8199200da466761afaa9ed86cc7"
+    },
+    "Really choose @any_item@ while about to teleport?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "25dcc920b4d9ffe2455d12d1a9fa45d27026000773baa3d2d99e5bc9481bd4c2"
+    },
+    "Really unwield and destroy @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "0a1d65368f525e6a8dbb0dcc16cdebc5aa9affc9be207834ee4947a5b064cafa"
+    },
+    "Really take off and destroy @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "34693bf2962c9b325f1091a59f65a82b7664918c4bd77680fd84538a42a7e486"
+    },
+    "Really remove and destroy @any_item@?": {
+      "context": "invent.cc:confirmation inscriptions and removal warnings; preserve inventory labels",
+      "translation_sha256": "34693bf2962c9b325f1091a59f65a82b7664918c4bd77680fd84538a42a7e486"
+    },
+    "Enter a skill target for @skill@: ": {
+      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
+      "translation_sha256": "8261ba248d4230ebdcdc9601763d14be3930803a35111a5d692e2d4a19019eae"
+    },
+    "Enter a base skill target for @skill@: ": {
+      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
+      "translation_sha256": "9ed8c49eecd20813b04d2259a2c9afea75d79740f99b57b10e17749082fdc1be"
+    },
+    "Category: ": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "f86f0058c225ab781e21d76e885caf215e5ea9a4b1e42842ca11549d391f5ff1"
+    },
+    "Anatomy": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "d292b9010384177a2f6a36397627339caf992ecb87af22605f0fb0b05ec80eb7"
+    },
+    "Substance": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "f166d01446604530ac5cf82c02460a9f09be0408ea9553a06b3531c85ee884fc"
+    },
+    "golden breath": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "e7d8e0b4bc7cda3fe0d993d62a1e90b8598885de8dda4779ccf81c0923523b00"
+    },
+    "Your maximum health is decreased, since you lack skill for your form.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "1e7a3920a9602636aee9e6112ab9df1ee6815adde961af8657689c78a8d94ab8"
+    },
+    "Your body armour is much less effective at protecting you.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "2ddbd65b698d78be374eaef9f7552f02fae8f349db2c224b65e015d8bffde937"
+    },
+    "Your body armour is less effective at protecting you.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "31d60e10f4a1bb5cc366daa5ecea9d661a4deb1c37e4aa101dcc2c941ed38aab"
+    },
+    "Your body armour is slightly less effective at protecting you.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "a81ba20ded6dd6b186f56da28c5996bf9ba9fd93c52b8acbf9705e414e2552d2"
+    },
+    "Your serpentine skin is tough. (AC +@num@)": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "ef62cae1a8c36c21ceacf314910430df215c3e62ae02c04c317c75c582dc908e"
+    },
+    "Your @scales@ scales are hard. (AC +@num@)": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "1e92467457d389015a1ba511e65da2c0b4023073c0c13ec864664e68218f6425"
+    },
+    "fleshless physiology": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "ea4ab868b90bacb8a38bba09c43269f398d7c7ea401741ce631c9ff625711987"
+    },
+    "plant physiology": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "117c692a00ce64fc8dec85aa09ea84af6e0bff6738747b7d543c28c69b6e1960"
+    },
+    "Your fleshless body is immune to poison, disease, and asphyxiation.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "91bdfb6925cf936f26bf6515a8f53ad737afd20a522c60cd9b765da371f518c5"
+    },
+    "Your plant body is immune to sleep, blinding, and asphyxiation.": {
+      "context": "mutation.cc:form effects and mutation category labels",
+      "translation_sha256": "e2993cd3b97ed15bce3e4b1ccd78e1b25e02aad9e27ef9a972f66154b881338f"
+    },
+    "Recruit ": {
+      "context": "ability.cc:literal padding",
+      "translation_sha256": "96c85f19d18d970d63a05189800288d42b03e56ec1e66cf1af5ab58d02446666"
+    },
+    " ability": {
+      "context": "ability.cc:literal padding",
+      "translation_sha256": "c81c9c985c24550f6f31f0e6b6399cd265c15102c96e9a858b6c05ba0c56c4ce"
+    },
+    "The species aptitude is in <white>white</white>. ": {
+      "context": "skill-menu.cc:literal padding",
+      "translation_sha256": "d1aaa35a025f75756b3306415f40defd32e8a2f446c2adefe908fd9603108675"
+    },
+    "Piety@any_pips@": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "897f846cf3868e3ad6d9ab31dedc4678ea5ced924f82cc2221fdb83f4c6f4ba5"
+    },
+    "@key@ toggle between ability selection and description.": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "b85b609f50c86a9804c5131be3980cbd5e127713102ef36bf98fc2190010499f"
+    },
+    "School:": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "69664b3a3660933021998f35cc6a5c2d87aa0bc5f815d41b5afb99db350cfa67"
+    },
+    "Schools:": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "bc93893c7bdae6418b70d178ac4de741bf6033ce6296cfb20193b60b27e53d42"
+    },
+    "Fail:": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "46e2f8090535ec43dce633cf1c689f326f5ec1d20eacbafdf0bf2e6ef8751d66"
+    },
+    " (max ": {
+      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "translation_sha256": "b280c1fc10db419d694b7e0bba96a78a8e4ac4ade547496a0eca8cb4b6cc0717"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -47,6 +47,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "maps.h"
 #include "menu.h"
@@ -4248,24 +4249,21 @@ int choose_ability_menu(const vector<talent>& talents)
             | MF_INIT_HOVER);
 
     abil_menu.set_highlighter(nullptr);
+    const string title_tail = chop_string(localise("Cost"), 32) + localise("Failure");
+    const string use_title = chop_string(localise("Ability - do what?"), 36) + title_tail;
+    const string describe_title = chop_string(localise("Ability - describe what?"), 36) + title_tail;
 #ifdef USE_TILE_LOCAL
     {
         // Hack like the one in spl-cast.cc:list_spells() to align the title.
         ToggleableMenuEntry* me =
-            new ToggleableMenuEntry("Ability - do what?                  "
-                                    "Cost                            Failure",
-                                    "Ability - describe what?            "
-                                    "Cost                            Failure",
+            new ToggleableMenuEntry(use_title, describe_title,
                                     MEL_ITEM);
         me->colour = BLUE;
         abil_menu.set_title(me, true, true);
     }
 #else
     abil_menu.set_title(
-        new ToggleableMenuEntry("Ability - do what?                  "
-                                "Cost                            Failure",
-                                "Ability - describe what?            "
-                                "Cost                            Failure",
+        new ToggleableMenuEntry(use_title, describe_title,
                                 MEL_TITLE), true, true);
 #endif
     abil_menu.set_tag("ability");
@@ -4283,9 +4281,9 @@ int choose_ability_menu(const vector<talent>& talents)
     }
     else
     {
-        abil_menu.set_more(formatted_string::parse_string(
+        abil_menu.set_more(formatted_string::parse_string(localise(
             menu_keyhelp_cmd(CMD_MENU_HELP) + " toggle "
-                       "between ability selection and description."));
+                       "between ability selection and description.")));
     }
 
     int numbers[52];
@@ -4378,8 +4376,8 @@ string describe_talent(const talent& tal)
 
     ostringstream desc;
     desc << left
-         << chop_string(ability_name(tal.which), 32)
-         << chop_string(make_cost_description(tal.which), 32)
+         << chop_string(localise(ability_name(tal.which)), 32)
+         << chop_string(localise(make_cost_description(tal.which)), 32)
          << chop_string(failure, 12);
     return trimmed_string(desc.str());
 }

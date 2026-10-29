@@ -3,6 +3,7 @@
 #include "AppHdr.h"
 #include "database.h"
 #include "artefact.h"
+#include "ability.h"
 #include "clua.h"
 #include "command.h"
 #include "describe.h"
@@ -18,6 +19,8 @@
 #include "item-prop.h"
 #include "player.h"
 #include "stringutil.h"
+#include "spl-cast.h"
+#include "spl-util.h"
 #include "unicode.h"
 
 namespace
@@ -150,6 +153,31 @@ TEST_CASE("Russian item and spell prompts preserve keys and current mechanics", 
     CHECK(getLongDescription("Sticky Flame spell").find("двигаться") != string::npos);
     CHECK(getLongDescription("Call Canine Familiar spell").find("яд будет снят") != string::npos);
     CHECK(getLongDescription("Forge Lightning Spire spell").find("самого далёкого") != string::npos);
+}
+
+TEST_CASE("Russian spell and ability rows are translated before column padding", "[localise][single-file]")
+{
+    russian_localisation language;
+    init_spell_descs();
+    CHECK(spell_schools_for_display(SPELL_SEARING_RAY) == "Разрушение");
+    CHECK(spell_schools_for_display(SPELL_FULMINANT_PRISM) == "Разрушение/Алхимия");
+    // Raw English school strings remain usable by identifiers and old searches.
+    CHECK(spell_schools_string(SPELL_FULMINANT_PRISM) == "Conjuration/Alchemy");
+    const talent renounce = { ABIL_RENOUNCE_RELIGION, 'a', 0, false };
+    const string row = describe_talent(renounce);
+    INFO(row);
+    CHECK(row.find("Отречься от веры") == 0);
+    CHECK(row.find("Renounce") == string::npos);
+    CHECK(row.find("None") == string::npos);
+    CHECK(strwidth(row) <= 76);
+    CHECK(localise("Piety***") == "Благочестие***");
+    CHECK(localise("Zin always shields you from chaos.") == "Зин всегда защищает вас от хаоса.");
+    CHECK(localise("Really take off and destroy +0 leather armour?")
+          == "Действительно снять и уничтожить +0 кожаный доспех?");
+    Options.language = lang_t::EN;
+    CHECK(spell_schools_for_display(SPELL_FULMINANT_PRISM) == "Conjuration/Alchemy");
+    CHECK(describe_talent(renounce).find("Renounce Religion") == 0);
+    Options.language = lang_t::RU;
 }
 
 TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")

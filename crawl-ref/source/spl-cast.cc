@@ -134,10 +134,10 @@ static string _spell_base_description(spell_type spell, bool transient)
     desc << "<" << colour_to_str(highlight) << ">" << left;
 
     // spell name
-    desc << chop_string(spell_title(spell), 32);
+    desc << chop_string(localise(spell_title(spell)), 32);
 
     // spell schools
-    desc << spell_schools_string(spell);
+    desc << chop_string(spell_schools_for_display(spell), 26);
 
     const int so_far = strwidth(desc.str()) - (strwidth(colour_to_str(highlight))+2);
     if (so_far < 58)
@@ -172,7 +172,7 @@ static string _spell_extra_description(spell_type spell, bool transient)
     desc << "<" << colour_to_str(highlight) << ">" << left;
 
     // spell name
-    desc << chop_string(spell_title(spell), 32);
+    desc << chop_string(localise(spell_title(spell)), 32);
 
     // spell power, spell range, noise
     const string rangestring = spell_range_string(spell);
@@ -3683,6 +3683,24 @@ string spell_schools_string(spell_type spell)
     }
 
     return desc;
+}
+
+string spell_schools_for_display(spell_type spell)
+{
+    if (!localisation_active())
+        return spell_schools_string(spell);
+
+    string result;
+    for (const auto bit : spschools_type::range())
+    {
+        if (!spell_typematch(spell, bit))
+            continue;
+        if (!result.empty())
+            result += "/";
+        result += localise(bit == spschool::random ? spelltype_long_name(bit)
+                            : skill_name(spell_type2skill(bit)));
+    }
+    return result;
 }
 
 void spell_skills(spell_type spell, set<skill_type> &skills)

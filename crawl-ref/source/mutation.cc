@@ -32,6 +32,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "mapdef.h"
 #include "map-knowledge.h"
 #include "melee-attack.h" // mut_aux_attack_desc
@@ -2553,8 +2554,8 @@ string get_mutation_desc(mutation_type mut)
     string mut_tags = get_mutation_tags(mut);
     if (!mut_tags.empty())
     {
-        mut_tags = "Category: " + mut_tags;
-        const int spacing = 80 - formatted_string::parse_string(mut_tags).width();
+        mut_tags = localise("Category: ") + mut_tags;
+        const int spacing = max(0, 80 - formatted_string::parse_string(mut_tags).width());
         desc << "\n" << string(spacing, ' ') << mut_tags;
     }
 
@@ -2574,7 +2575,7 @@ string get_mutation_desc(mutation_type mut)
 static void _add_mut_tag(vector<string>& tags, string str, bool disabled)
 {
     const string colour = disabled ? "red" : "darkgrey";
-    tags.push_back(make_stringf("<%s>%s</%s>", colour.c_str(), str.c_str(), colour.c_str()));
+    tags.push_back(make_stringf("<%s>%s</%s>", colour.c_str(), localise(str).c_str(), colour.c_str()));
 }
 
 string get_mutation_tags(mutation_type mut)
