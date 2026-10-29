@@ -130,7 +130,7 @@ class StaticTranslationTests(unittest.TestCase):
             for key, entry in data[filename].items():
                 self.assertEqual(wiki[key]["text"], entry["text"], key)
                 if wiki[key]["title"]:
-                page = (ROOT / "wiki/ru/reference" / filename / (page_slug(key) + ".md")).read_text(encoding="utf8")
+                    page = (ROOT / "wiki/ru/reference" / filename / (page_slug(key) + ".md")).read_text(encoding="utf8")
                     self.assertIn(entry.get("wiki_text", entry["text"]), page, key)
 
     def test_token_protection_distinguishes_contexts_and_natural_percentages(self):
