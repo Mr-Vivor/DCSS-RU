@@ -7535,8 +7535,8 @@
   "Really unwield and destroy @any_item@?": "Действительно убрать из рук и уничтожить {acc}@any_item@?",
   "Really take off and destroy @any_item@?": "Действительно снять и уничтожить {acc}@any_item@?",
   "Really remove and destroy @any_item@?": "Действительно снять и уничтожить {acc}@any_item@?",
-  "Enter a skill target for @skill@: ": "Целевой уровень навыка «@skill@»: ",
-  "Enter a base skill target for @skill@: ": "Целевой базовый уровень навыка «@skill@»: ",
+  "Enter a skill target for @skill@: ": "Укажите целевой уровень навыка «@skill@»: ",
+  "Enter a base skill target for @skill@: ": "Укажите целевой базовый уровень навыка «@skill@»: ",
   "Category: ": "Категории: ",
   "Anatomy": "Анатомия",
   "Substance": "Материал тела",
@@ -7559,5 +7559,11 @@
   "School:": "Школа:",
   "Schools:": "Школы:",
   "Fail:": "Неудача:",
-  " (max ": " (макс. "
+  " (max ": " (макс. ",
+  "Combustion Breath": "Взрывное дыхание",
+  "Nullifying Breath": "Антимагическое дыхание",
+  "Galvanic Breath": "Электрическое дыхание",
+  "Hurl Damnation": "Метнуть адскую кару",
+  "Damnation": "Адская кара",
+  "Begin Untransformation": "Начать обратное превращение"
 }

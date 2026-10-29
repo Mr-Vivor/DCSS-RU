@@ -1764,6 +1764,159 @@
     "Finesse ability": {
       "source_sha256": "f3525ccd8de69752a41f3c49d17b9eaad0985879b71d419883973d2bbe705a0c",
       "text": "Значительно повышает скорость ваших атак. Навык Молитв увеличивает длительность эффекта."
+    },
+    "No ability ability": {
+      "source_sha256": "e6785b9261d0d1891acf59208d3900c7a2055c249a6ff592c17859c45287ec55",
+      "text": "Если вы видите это описание, в игре произошла ошибка.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Spit Poison ability": {
+      "source_sha256": "12f662ccfe619a79c7f4b34f390166197e19f2f10c9e6cf6d1499b4e972c625a",
+      "text": "Плюёт ядом в выбранное существо.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Combustion Breath ability": {
+      "source_sha256": "66dc79cec6b298d0e53f759a1e02ded97b4df32bc1d1cc0f4eb15ccaa18defe2",
+      "text": "Выдыхает поток неустойчивых тлеющих угольков, которые мощно взрываются вокруг каждого задетого существа. Самому пользователю это дыхание не вредит.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Glacial Breath ability": {
+      "source_sha256": "c86fab1a9153454fe703c33c5ab0e10b5245ef73ca5d469e2d7e2edb308f62ce",
+      "text": "Выдыхает мощную волну холода. Всё, что она убьёт, оказывается заключено в прочную глыбу льда.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Nullifying Breath ability": {
+      "source_sha256": "61847195fb802552d3acd8dd33c82e83f83a97bd902fce666486138b204d4b58",
+      "text": "Выдыхает широкий поток чистой антимагии. Он рассеивает магические эффекты на всех задетых существах и на некоторое время сильно затрудняет им сотворение заклинаний. Самому пользователю это дыхание не вредит.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Steam Breath ability": {
+      "source_sha256": "482a6121b2f0cd1d13e673178e2e3582bc66953ff1e420abeed6b7ee72b1ecc6",
+      "text": "Выдыхает мощную струю пара, обваривающую цель и оставляющую за собой облака, которые закрывают обзор.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Galvanic Breath ability": {
+      "source_sha256": "b7a7a688031a3acc5c0e8d3d23fc6ba4c5a5d8a60a99c1c0b449dc20da83f4eb",
+      "text": "Выдыхает мощный электрический разряд. Он проходит через цель и перескакивает на других существ, образующих с ней непрерывную цепочку.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Mud Breath ability": {
+      "source_sha256": "0b7238b4a0d6811d3f7e3375ade1a9a56cd5e605e0bb9255f604995ad5c70934",
+      "text": "Выплёвывает огромный ком грязи, который отбрасывает задетую цель и покрывает окружающее пространство скользкой грязью. Она мешает врагам передвигаться и иногда заставляет их срывать атаки.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Caustic Breath ability": {
+      "source_sha256": "f15735cc7e35cdbae43b70eaac48e4a4365b012cf1d9b90ab32159f5874e7dbe",
+      "text": "Выдыхает струю концентрированной кислоты. На пройденных свободных клетках остаются разъедающие облака, а задетые существа подвергаются коррозии.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Noxious Breath ability": {
+      "source_sha256": "5b24e6b1b99e1a54fe89214b700f09f9bfc35e232f27f9d55442e40a4bb1781d",
+      "text": "Выдыхает полосу вредоносных испарений, способных вызвать замешательство у существ без сопротивления яду. С ростом уровня облака занимают большую площадь и дольше сохраняются.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Breathe Fire ability": {
+      "source_sha256": "ab684021dc556d89399bf9d2c852b7ba9874b1a05d09ab6b5b078f1b29e81afc",
+      "text": "Выдыхает поток огня в выбранное существо.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Breathe Poison Gas ability": {
+      "source_sha256": "9d542b78defdabe7dc437416aefb9a410fcdaaf7a763d0b84bb3e327a8c1b79a",
+      "text": "Выдыхает поток ядовитого газа в выбранное существо.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Invent Gizmo ability": {
+      "source_sha256": "d844ea863a03f6ebd495e6bfb65f78d9b45b280cc55d0e48d14aa396aa00244c",
+      "text": "Позволяет использовать непревзойдённую изобретательность коглина, чтобы придумать и собрать уникальное устройство и навсегда установить его в собственное тело. Такое вдохновение приходит лишь однажды: выбирайте с умом.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Hurl Damnation ability": {
+      "source_sha256": "d03b8da35618d895c43c45eadc8366b31f52d38902e3cedf81f44a4419f866f6",
+      "text": "Поражает выбранного врага адской карой. Эта нечистая сила наносит урон самой цели и всем соседним существам, игнорируя любые способы защиты, включая броню и сопротивления. Однако некоторые существа — обычно те, что сами способны применять адскую кару, — полностью невосприимчивы к ней.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Word of Chaos ability": {
+      "source_sha256": "1c35e8e8c24a71ae20e184f24fa2268a6f1066e493ca9e4227032e0362701133",
+      "text": "Произносит слово хаоса, заставляя ближайших врагов перенестись подальше от пользователя. Затронутые существа также могут замедлиться, запутаться или впасть в ужас. Произнесение слова хаоса немного уменьшает максимум здоровья, после чего способность некоторое время недоступна.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Heal Wounds ability": {
+      "source_sha256": "8735461abd2bbf6f3db9bd88015e4ee8bc5725d55babef7d2a3b8376d5564ffe",
+      "text": "Восстанавливает значительное количество здоровья, но может навсегда уменьшить максимальный запас магии на единицу.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Dig ability": {
+      "source_sha256": "560d988810d487e08eb4f4cf20bea10271f6a1782f4123cf3f716bbac53c27f0",
+      "text": "Позволяет прокладывать туннели сквозь мягкий камень и ржавые решётки. Включение способности бесплатно и лишь подготавливает вас к копанию. После этого движение в стену начинает прокладку туннеля, которая шумит и уменьшает максимум здоровья.\n\nПовторное применение способности или любое перемещение, не связанное с копанием, отменяет режим копания.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Shaft Self ability": {
+      "source_sha256": "80a153513d1fa6004c6982148b80ea43696d87270f3a6f49d538ed191780e4ac",
+      "text": "Перемещает вас в случайную точку на один–три этажа ниже, словно вы прыгнули в провал. Рытьё требует времени; под вами должна быть твёрдая сухая земля. Нельзя прорыть провал, стоя на лестнице, портале или в воде.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Evoke Blink ability": {
+      "source_sha256": "ecdcec95f7a665d7f1ac5b5de0deaccec67e8125e1164d21c8e99b2dab2b661b",
+      "text": "Переносит вас на небольшое случайное расстояние. Затем способность некоторое время недоступна; длительность восстановления зависит от навыка «Управление устройствами».",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Evoke Berserk Rage ability": {
+      "source_sha256": "c0df7228dbbbae6340ef9817c0b275311ab4687668e356f3045a9d72c9ddeedd",
+      "text": "<Berserk ability>",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked.",
+      "wiki_text": "Приводит вас в берсерковую ярость, временно повышая здоровье, скорость и урон в ближнем бою. Вне боя ярость быстро проходит, но серия убийств может её продлить. В состоянии ярости недоступны почти все действия, кроме передвижения и атак в ближнем бою. После её окончания вы ненадолго замедляетесь и не можете снова впасть в ярость."
+    },
+    "Evoke Invisibility ability": {
+      "source_sha256": "69f02c2ad122e2dca59ba09e8993130fc5fc1de21cec417ca54d41f68e300744",
+      "text": "На короткое время делает вас невидимым.\n\n[[player invis desc]]",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked.",
+      "wiki_text": "На короткое время делает вас невидимым.\n\nПока вы невидимы, большинство монстров гораздо хуже попадает по вам, не может проводить атаки при вашем отступлении, а иногда направляет заклинания не в ту точку. Они также могут блуждать и со временем терять ваш след, особенно если не отличаются умом.\n\nКроме того, ваши атаки в ближнем бою по таким существам могут застать их врасплох и нанести повышенный урон. Вероятность зависит от Скрытности и навыка владения оружием; короткие клинки особенно эффективны.\n\nНекоторые существа видят сквозь невидимость. Стоя в воде, скрыться с её помощью вовсе невозможно."
+    },
+    "End Transformation ability": {
+      "source_sha256": "4dd208218718d9d706889f0f41500d306f88f8f806c8ad1583c023c07e021db2",
+      "text": "Возвращает вас в обычный облик.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Begin Untransformation ability": {
+      "source_sha256": "4264e48b1b77934cddb85ef962d93a26a942ebde7ca07eaeef7fab9c63effb86",
+      "text": "Начинает возвращение в ваш исходный облик. Для этого нужно ненадолго сосредоточиться.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Imbue Servitor ability": {
+      "source_sha256": "efd248851c591630c856b101e2444cc4b9d1fd3862db037980739b3c22a9f9b6",
+      "text": "Позволяет выбрать одно из ваших разрушительных заклинаний для прислужников искры заклинаний, которых вы создадите в дальнейшем. Оно заменяет ранее переданное им заклинание. Вы должны уметь самостоятельно применять выбранное заклинание с вероятностью неудачи не выше 20%.\n\nПередача занимает несколько ходов. Если у вас уже есть действующий прислужник, он будет отозван.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Imprint Weapon ability": {
+      "source_sha256": "a50cebcac41778ab33eb49eb9fa1b84a8ec7f36d04e528779667d22cd8d60826",
+      "text": "Анализирует строение артефактного оружия ближнего боя в вашем инвентаре и запечатлевает его в заклинании «Платиновый идеал». Каждый созданный после этого идеал сможет пользоваться действующей копией этого оружия.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Cacophony ability": {
+      "source_sha256": "f7996c86568aba58279702b973beed97d509f75f1d4c7da281cd774b3a91cfe4",
+      "text": "Полностью раскрывает вашу природу полтергейста. Все доспехи, в которых вы обитаете, ненадолго разлетаются и атакуют независимо от ваших действий: сапоги, шарфы и шлемы нападают со всех сторон под радостный грохот.\n\nПредметы остаются связаны с вами и не могут удаляться далеко. Получаемый ими урон не передаётся вам, а ваши выстрелы свободно проходят сквозь них. Их атаки могут вызывать небольшие неприятности: ошеломлять, истощать и даже приводить врагов в замешательство.\n\nПосле применения нужно получить опыт, чтобы восстановить силы для следующей какофонии.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Bat Swarm ability": {
+      "source_sha256": "5c3fb00b26c6e569d2fdb0089ab4e2188e9f3b430e111f037a4b8b529edd0139",
+      "text": "Рассеивает ваше тело в стаю вампирских летучих мышей. Снаряжение сливается с новым обликом, а вы можете быстро двигаться и легко уклоняться. Мышей так много, что они заполняют соседние клетки, словно удушающее облако, атакуют врагов и постепенно усыпляют их.\n\nПосле применения нужно получить опыт, чтобы восстановить силы для нового превращения. Навык Оборотничества ускоряет восстановление этой способности.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Enkindle ability": {
+      "source_sha256": "47d4a9b359c701cad349b52db878d76d0bb3432fdd8c2ae7c4f0c047e5fe2351",
+      "text": "Разжигает ваше призрачное пламя до предела, значительно усиливая заклинания за счёт накопленных воспоминаний.\n\nВ этом состоянии наносящие урон заклинания не расходуют магию и не страдают от стеснения доспехами. Вы получаете бонус к успешности сотворения и к силе заклинаний; бонус к силе растёт с уровнем персонажа. Удары магическими когтями наносят дополнительный урон, зависящий от уровня сотворённого заклинания, и восстанавливают вам долю нанесённого урона в виде здоровья.\n\nКаждое сотворённое в этом состоянии заклинание расходует воспоминание. Состояние закончится, когда воспоминания иссякнут, либо через некоторое время — даже если они ещё остались.\n\nНа вашем текущем уровне запас воспоминаний позволяет сотворить таким способом не более {{return 3 + math.floor(you.xl() * 3 / 20);}} заклинаний подряд.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked.",
+      "wiki_text": "Разжигает ваше призрачное пламя до предела, значительно усиливая заклинания за счёт накопленных воспоминаний.\n\nВ этом состоянии наносящие урон заклинания не расходуют магию и не страдают от стеснения доспехами. Вы получаете бонус к успешности сотворения и к силе заклинаний; бонус к силе растёт с уровнем персонажа. Удары магическими когтями наносят дополнительный урон, зависящий от уровня сотворённого заклинания, и восстанавливают вам долю нанесённого урона в виде здоровья.\n\nКаждое сотворённое в этом состоянии заклинание расходует воспоминание. Состояние закончится, когда воспоминания иссякнут, либо через некоторое время — даже если они ещё остались.\n\nЗапас воспоминаний позволяет сотворить подряд **3 + ⌊3 × уровень персонажа / 20⌋** заклинаний."
+    },
+    "Breathe Rust ability": {
+      "source_sha256": "7c90fa7ee4b0d7521d055a949e11d2e77742931b8b3dc2f87085841c02b32c09",
+      "text": "Выдыхает поток окисляющих испарений. Существа в нём непрерывно подвергаются коррозии, а их атаки ослабевают. Облака сохраняются долго, но сами по себе наносят совсем небольшой урон.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Golden Breath ability": {
+      "source_sha256": "b608b13093f3a606c831ab4122befc18783848aa333e1f651aad63c9bf48c0e6",
+      "text": "Выдыхает мощный поток стихийной разрушительной силы. Он наносит урон и огнём, и холодом, оставляя за собой ядовитые испарения.",
+      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
     }
   },
   "monsters": {

@@ -76,7 +76,7 @@
         "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs"
       ],
       "entries": 235,
-      "translations_sha256": "b7dd0b186fffe9df3a9f5664a0dc2504d264bb20abc59491dac09a800da35fba"
+      "translations_sha256": "acacd4fe0b0cf50b15dad89fcfa34d3513f9a31c37907d215973ac9e31368396"
     }
   },
   "messages": {
@@ -29730,11 +29730,11 @@
     },
     "Enter a skill target for @skill@: ": {
       "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
-      "translation_sha256": "8261ba248d4230ebdcdc9601763d14be3930803a35111a5d692e2d4a19019eae"
+      "translation_sha256": "1ea917d4df9374fea668f0f5d462af67cc619d995c2afabb540e17a9bdf53439"
     },
     "Enter a base skill target for @skill@: ": {
       "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
-      "translation_sha256": "9ed8c49eecd20813b04d2259a2c9afea75d79740f99b57b10e17749082fdc1be"
+      "translation_sha256": "870c2f990d25a6d645f090a8a1fd7d9ab549037c5543e3d99db2ee4426b2a368"
     },
     "Category: ": {
       "context": "mutation.cc:form effects and mutation category labels",
@@ -29827,6 +29827,30 @@
     " (max ": {
       "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
       "translation_sha256": "b280c1fc10db419d694b7e0bba96a78a8e4ac4ade547496a0eca8cb4b6cc0717"
+    },
+    "Combustion Breath": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "34a1c8e940d6eb07d0c44cadf7d04b14f805eeb46cea885e0cca912fef66eeee"
+    },
+    "Nullifying Breath": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "10bd4c741287cccf95708e437626dbf825efb5ff1ff7cecb57e4deac17b6e84d"
+    },
+    "Galvanic Breath": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "1b02aeea4a652ee4c1c0ee62606ae00e4af891256969d06eafd097ee34d26b85"
+    },
+    "Hurl Damnation": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "01baed6b7e6b3eb8c6238a51d474035d86da9755cac636023290c15255d3914f"
+    },
+    "Damnation": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "75dd02907df412b8bb3f54fdbb74d5e64d26416da4d269a53f715f6b7934aeac"
+    },
+    "Begin Untransformation": {
+      "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
+      "translation_sha256": "f60ba2684acff317e8abc81967240bdb02c4dd86e8a6a3892bc46bad03c892fd"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
