@@ -76,7 +76,7 @@
         "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs"
       ],
       "entries": 235,
-      "translations_sha256": "38e3e864a1c93fbfd078d41384b02efe6d05e1cec095ad8309f396649b82b1bf"
+      "translations_sha256": "b7dd0b186fffe9df3a9f5664a0dc2504d264bb20abc59491dac09a800da35fba"
     }
   },
   "messages": {
@@ -321,7 +321,7 @@
       "translation_sha256": "652c493534ca1edc6e3b50ca721c2c4248ed419741bc2a15f1adbb6ffc3707a8"
     },
     "Inventory Items": {
-      "context": "item-use.cc",
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
       "translation_sha256": "a8d8edfef40808f286d7ba909dace0ed0ee5e30bc9008d088684a77cbd9d3ac7"
     },
     " (',' to select)": {
@@ -329,8 +329,8 @@
       "translation_sha256": "dfacf077a661a7eced86bd09bfccf218239906e2ef59519ce0d55421839625b8"
     },
     "Floor Items": {
-      "context": "item-use.cc",
-      "translation_sha256": "8a0b40f5615d5ada6cb0bc0967b5dedbf979807e13d49c600b12cf3e94e54da3"
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "d0bb3cee29178e4b6d4a5f5eb24267598a04845a7023b523a4652108faed7492"
     },
     "Your weapon is melded into your body!": {
       "context": "item-use.cc",
@@ -837,8 +837,8 @@
       "translation_sha256": "1e71101c59fe035404906475b6fc1af07084079813f015db1133391cb76234a0"
     },
     "not susceptible": {
-      "context": "item-use.cc",
-      "translation_sha256": "7d4672ee93dd9ed2d244056a343667aee47f2e0a662680aab29398dd8c57eab9"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "85031e45ccd4ead10f864fbc19f101f016d903fa6dbbddc7ce34985162827c1b"
     },
     "Read which item (* to show all)?": {
       "context": "item-use.cc",
@@ -853,7 +853,7 @@
       "translation_sha256": "f401f3f9a7b6b92c8f4311fd2b14624087fefe4a5ee8bcdeeb0f5d4253369cba"
     },
     " You can't even see any enemies this would affect.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
       "translation_sha256": "2a132f5ef5471cb23a95ea7299c8f34060ad700dcddaf7e4e65db93b34b656d9"
     },
     "You can't see any enemies this would affect, really read @arg@?": {
@@ -1001,7 +1001,7 @@
       "translation_sha256": "37553a8344227218c3a778e9651864df8c864fef7b827d61fc3bd0d7d7f95856"
     },
     "You don't have enough money.": {
-      "context": "shopping.cc",
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
       "translation_sha256": "a616b04df4925ae72fd6245d984d9fabca65a96ce7b43933c55a6939d7b7fb49"
     },
     "Purchase items in shopping list for @num@ gold? (@arg@/N)": {
@@ -1013,16 +1013,16 @@
       "translation_sha256": "4df14a9d2c530740d5ac16a7d940bc62fb54ae66cd9afcd0b3f1f0c9010e3d46"
     },
     "I'll put it outside for you.": {
-      "context": "shopping.cc",
-      "translation_sha256": "8483cbd87181ad4f843c57947ef7f38e28dc261915288905fe216157417f3cd4"
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "c11d1868c06c90b34dfe329c896516dd61639a940748e4c96628da6086e85246"
     },
     "I'll put them outside for you.": {
-      "context": "shopping.cc",
-      "translation_sha256": "e8599f6c4f01670fbacb33a79e8e5b081fb345f139e81044e0c37853f01a89c0"
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "02057d01e3490c0278c6be258b81cad3b2a101b659ae2f5bf508c164a1387a37"
     },
     "I'll put some of them outside for you.": {
-      "context": "shopping.cc",
-      "translation_sha256": "0d5e31f21616e824f9a30bf7462ba826c1bc6729f37609c44a08e037c7273eb3"
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "db9222a8f2425777a6985083e1b88e370710c5f805917c510c9c538c23b9739d"
     },
     "@Arg@ appears to be closed.": {
       "context": "shopping.cc",
@@ -1573,8 +1573,8 @@
       "translation_sha256": "c4850086e77308f28a0049ce96b607450e0d3673db4b0966f095c2e41759ae97"
     },
     "@num@ spells hidden": {
-      "context": "spl-book.cc",
-      "translation_sha256": "e4d258af71aade1a140fe2e13775ddee93cb253f895aaab3d7dedec7fc195f6f"
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "16d465a84beb286ef8408f896b76b5cdb63f5e9868d5969545492eb658d4056f"
     },
     "Search for what? (regex) ": {
       "context": "spl-book.cc",
@@ -1913,7 +1913,7 @@
       "translation_sha256": "d265d24f6af1327a478b5c0e441e004c8821c36695b22b4a92976b05716f9b1f"
     },
     "Quiver which action?": {
-      "context": "quiver.cc",
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
       "translation_sha256": "72738764f62f074b86372e3baf0dbc16a038af92f2e43c6785d7964802393d40"
     },
     "<w>-</w>: none": {
@@ -1941,32 +1941,32 @@
       "translation_sha256": "ee2495da8b6ac0f238c70b857c86a6642f40aa06d384853ac85d6e5390d8dff9"
     },
     "You feel a huge surge of power!": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "c42230b1d1579c931381a3b44bf1b7dd1a707ba1294350b1f0c6275810278b6c"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "c387bad8fbd35ccf61910294dcc9cd31b7b1e439907bf2302bce7620dbddcc48"
     },
     "You feel a strong surge of power!": {
-      "context": "spl-cast.cc",
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
       "translation_sha256": "ec69d521af1758520b62a9165870dc543bf6d42084cbf26ffe3edeec10e5a376"
     },
     "You feel a surge of power!": {
-      "context": "spl-cast.cc",
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
       "translation_sha256": "799d0f7855e5477a2a75c594bf7e29a3ee17ca19ffb510c3632201e8792ad45a"
     },
     "You feel an extraordinarily numb sensation.": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "43f575785e3f168d486d68d9cae731c928916f752205e72ada0030e92ddbf762"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "9e2dd73c6d07031f11e798f5993d65250466ddb45f58eda5eca93b112cddf5f6"
     },
     "You feel an extremely numb sensation.": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "3df5d58a4eea2277bab146525b24a491054cc7ab4af59dd80d6e9c30f8d98be5"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "c7ebad5a62b729b204396abc9d600e79288da8f1bbdc85bec9391a805d55d4a9"
     },
     "You feel a numb sensation.": {
-      "context": "spl-cast.cc",
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
       "translation_sha256": "2470aeb4d1746c67fb9147e583828d0e64d1c9fa218b81db23c6aa4058ae7936"
     },
     "You feel a slight surge of power.": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "ac2d2c6723e811c6a396c40f0afb5e3058ba8136dde0f4134d13a6aa04090fbe"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "ca08f3a44ffb663ab7e0b5ca0bc007542258886e11707a331bce08a4e31d1595"
     },
     "You feel a surge of power.": {
       "context": "spl-cast.cc",
@@ -2021,7 +2021,7 @@
       "translation_sha256": "a0fffa3126d6656890af6af752ee36eb5e065b374b8dd56fd8660fae527155f7"
     },
     "Cast which spell? (? or * to list) ": {
-      "context": "spl-cast.cc",
+      "context": "spl-cast.cc:literal padding",
       "translation_sha256": "546294e8b9871ba85fe173afe906a1f6605c1c506a6cfda5ea9d8fec6fe0e550"
     },
     "Casting: <w>@arg1@</w> <lightgrey>(@arg2@)</lightgrey>": {
@@ -16809,8 +16809,8 @@
       "translation_sha256": "606d438e5ec0abb76ac48ebe17ffed1e1fa08510ab593cc344c4298123ce99d3"
     },
     "(Press <w>%</w> to maintain the ray.)": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "18a031298b7a2a4ee656942047e1bc7249ca8f06837f6a2cb72cd0fc9d7500ed"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "14b43857321fd28c443577094db8394eb823e01cdc4bfa5bb0ca7357ac0ffb8c"
     },
     "Without enough magic to sustain it, your searing ray dissipates.": {
       "context": "spl-damage.cc",
@@ -16869,8 +16869,8 @@
       "translation_sha256": "9ff39d3d6dd0fba972fd395139e9edcbf96858f1604d5afbdb1fffd6ec49d0fe"
     },
     "(Press <w>%</w> to continue charging.)": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "98efbb77f094bcff7d310372db9e69e4d071fcb20bb1d4a2c4271259d99c0774"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "1a383e5099c2da1dbcdafb4a46b5da0b51b5c7304b549be4726c7a67326f64c2"
     },
     "Your charge dissipates without a target.": {
       "context": "spl-damage.cc",
@@ -26529,8 +26529,8 @@
       "translation_sha256": "345ad23185e4d7cb2db14a9f54c1e5999f68ea1d9ed30ed39ee51a04f28b0ce7"
     },
     "Drop how many? ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
-      "translation_sha256": "944bf8f5285691c1355491af6cba9913aa453ccd0fcf8ea62ad30e2e0ed392b4"
+      "context": "item-use.cc:literal padding",
+      "translation_sha256": "fa386ebdfa9da8d0c2e335b90a7fbd366bc5230e678929cd39939bfa4b9b5b29"
     },
     "To do this, you must remove one of the following items:": {
       "context": "invent.cc / equipment categories, selection and gear capacity",
@@ -26985,12 +26985,12 @@
       "translation_sha256": "5689ad00c2ff5c1e99126ead8601823c690409cf2b57c23d8c3737966ed3ece3"
     },
     "[<w>?</w>] help": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
       "translation_sha256": "1a04d0eb3ec8a71b434d924daf736e181d0cb0254851898af1437e244a4b8acb"
     },
     " toggle spell headers": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "cf0d3e42efa9f5c4be75e4d2775ef671235f9956243464b7e2d8f5fc8096de92"
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "ce8ea7248cc69760317a052288b24ffb93d9e490170f0d0cd241eb2e8894b3c1"
     },
     "chance to blind: @num@%": {
       "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
@@ -27009,7 +27009,7 @@
       "translation_sha256": "689227c95962b2735759960b6cc642db8ae427aa76cccc27f80dcecbe0763607"
     },
     "chance to daze and blind: @num@%": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
       "translation_sha256": "81fb0e63eced26b6a7e0f28efa103ce3139032dd5e2e47f093fe21180f78952f"
     },
     "immune to roots": {
@@ -28747,6 +28747,606 @@
     "         if still alive and in sight": {
       "context": "command.cc:help column indentation",
       "translation_sha256": "5a9dff7879bfebb0adaedd0014b55f13bcc6f90b3fcc4ff6b1ff772973b42a4c"
+    },
+    "<lightgrey>Select a spell to cast</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "e956a88c184e3d9aa847897c947adf3505f9eb683cd2c8222d972a7cd1a45331"
+    },
+    "<lightgrey>Select a spell to describe</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "1dc8cc8fb04360a64f255bd1039c092b2e800b762376aed48c959a9581bf5f36"
+    },
+    "<lightgrey>Select a spell to forget</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "1660a3d3a49409d2178fdd69e36c77b4d20ac86eab598403664606b36435292c"
+    },
+    "<lightgrey>Select a spell to quiver</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "7e2af15deae232f8f781b0060f024e1597fdefd0506e7a878a6c29c224b59ed4"
+    },
+    "<lightgrey>Select a spell to adjust</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "1af1c9a1e87cee0bf4be0c6893dff08352de690315a9f9ce899e5f0eb3140c0b"
+    },
+    "<lightgrey>Select a spell to adjust it to</lightgrey>": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "bb1eaa3e4a00a478a4c74f4212d329d33f5a9152090401839d633f90789dc38f"
+    },
+    "Your spells (cast)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "8564a63ec0171cbb551d8529d7a3c37031a5bf071f0fa7371a2ee457b57b87c9"
+    },
+    "Your spells (describe)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "46c5eb4672da686a0879ff7bc6785d6c849d433d43f7cbc1fd2b326336b9b26a"
+    },
+    "Your spells (forget)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "c7aae5112be29a85f00d36833cba17aaad317a5af2c4cb509ee6d12da5b7e15a"
+    },
+    "Your spells (quiver)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "50fcd1125fd80cca4faf3e096614dce8de5a0b07e502f5e1b5ff507c2c93d4c4"
+    },
+    "Your spells (adjust)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "d9969f2fc5968ce51ea231a86f505b01dd1012cf2029ad129c684ac56d1102e8"
+    },
+    "Your spells (adjust it to)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "757d712bb3e4c002381630a07bc4891711291095e148ba8ac159b5a58bf743ce"
+    },
+    "You can't see any susceptible monsters within range!@any_hint@": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "6afaa8f455e4782d2d07d287049d78bfd2240b91eed8b2313396d8f52ab34189"
+    },
+    " (Use <w>Z</w> to cast anyway.)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "c87ef5a14891b9a0e3aca248b53ac9b290cfdfa95a6824ee16d8e884264635b9"
+    },
+    "Really cast @spell@?": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "54f74875fea9de954be9e580a4a44b7f9cc8c91124902154f7bd23e4bcda7618"
+    },
+    "(Press <w>%</w> to intensify the flame waves.)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "4b0d907612a5b1897a4d7c995e505629095df0a5df8ffa0ab3cb3507c259e544"
+    },
+    "(Press <w>%</w> to continue winding your bee.)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "ca6aa0fec278a11f008a108110588558032214a14ad5e4e864002e8539a2cbc2"
+    },
+    "None (50% rC for icy explosions)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "8a60643291a121d5a41db48cb86c4cd86659a614a807919d8e496a8ed6625636"
+    },
+    "AC (x3) (x1 for icy explosions)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "a55ef2ffb826f77a2ecec1b92d29a2f0a5f8554d8a0929e787aefaca6387dda0"
+    },
+    "rC (explosion only)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "392b1827544e98149146b73f51029c2d34e9f22dc072ac66cb966c63bebd4de4"
+    },
+    "AC (main blast only)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "f48800f2eeec1a90fe6b96fc0592beff49ff121b5107699353532ac71b95b55a"
+    },
+    "rF, rElec (one beam each)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "5c69fcea5e6ed30812d08fef42b4e4cc905d05ffc8f464f2d647c9b2ecf83b78"
+    },
+    "AC (50%)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "e84dd51f63b8832da3f820a69a957faf2aa1dcb94644b80e46d69e2850f672d4"
+    },
+    "AC (x3)": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "c7c2258d0728ebab6717b788717d6fbd393a7bc7893092872d9c9a1385acbcf8"
+    },
+    "will inflict weakness": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "2ac8c51beff8ebb76b0512f2018a680ea898c15e77a82e07750d09c641738561"
+    },
+    "will diminish spells": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "41022ef20119f981d631c36270061f6413ee8c468565f7a6510e36015d45c90c"
+    },
+    "will inflict weakness and diminish spells": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "f5a6ca83a4e348aa973c6ca8014f375501bf4f52c45af116a51b982394fac82e"
+    },
+    "by vampiric draining": {
+      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "translation_sha256": "f5e062779265ca9257612109d2360e6906a5d7aca7f68b3bdab4ab07f6523405"
+    },
+    "<lightgray> (@key@ to select)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "07a85b0911623db368a311d34ca4b7c703faffea81a5b7f34bef5921abae263e"
+    },
+    "<lightgray> (@key@ to equip)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "c37c12c68408b352aab70e374333f8c375d06770a8117a2b0bf0c7a431cfcc71"
+    },
+    "<lightgray> (@key@ to wield)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "cf2ff246ac19dc3c3a852c1dcb3fe449a2556ec567ec0d32063c7f0710e8e25c"
+    },
+    "<lightgray> (@key@ to wear)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "262bd4821fda754519957ad5da5a8e602bbccbe277e2acaef95651a708a8b1bb"
+    },
+    "<lightgray> (@key@ to put on)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "268d92909e462c0ad9df537978d2c916cd78cd8f70c256ec1f3226f1c57c7cd4"
+    },
+    "<lightgray> (@key@ to quaff)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "9d411abec32673d84baadb47ff174b616a6a1de0aeb45048d92db8153bf496e4"
+    },
+    "<lightgray> (@key@ to read)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "fd1a19dac372dcb3e9db8ef1a8c590710fbca60a11532a6b3df6b9b85a783ab0"
+    },
+    "<lightgray> (@key@ to evoke)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "859c6e03b3f7370aa7c1759763598350d6eab328bce835e7eded0f9f8074cd7a"
+    },
+    "<lightgray> (@key@ to take off)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "9d2417ea90c842c0c40d961eb5d2bdef3f5fc20d44f38e134482ec83f8531946"
+    },
+    "<lightgray> (@key@ to remove)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "42328c6a54eb29196856c97d944b04ffa66206e434ec25a2c3e9100b42ea09cd"
+    },
+    "<lightgray> (@key@ to unequip)</lightgray>": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "5a09b1a7975953ff1a164b6a7c8aa36b036dd1813bace14d79a8e1f1fe1348d9"
+    },
+    "You can't shoot while berserk! Really wield @item@?": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "33564029e638264ae49dc40c60f584d59b64032883050437cbd24f2478bbd060"
+    },
+    "twirl @item@": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "7ba6f8605b7ece1505a7d7e02c5e1ce43768ace7b3861053f84054502639ce4e"
+    },
+    "flex your muscles": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "139a1ce8d7c11e1be0da7e109a73ac5045a9e289e4bb7dc6215976c5db213175"
+    },
+    "thunderously recite": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "c161b447b77ad0763580094278dfed9370f3d8d0365626edb5eb1a213f10374d"
+    },
+    "dissolves into smoke": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "ffd997adf7329a8bd0742d9ca1d3f1ddd7834cf2c5467cfcef809bcaa3bc3f65"
+    },
+    "crumbles to dust": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "55feb1851524a0258625b7f86b378cb4f3d8e42fb98d860cc50b5ac7d1951909"
+    },
+    "can see invisible": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "8a1a68143f04980fa6aeb62be18eaab312af27860212bd0cf0082ff3dec23b89"
+    },
+    "cannot see invisible": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "fd1d4b6dc6ee7af5fee9938da59e2892cdc32457f9383a988544b0cf7344bf96"
+    },
+    "Really read the @item@?@any_warning@": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "7063013c33eade7fd036a93b3c3a47315bf1cfc5d3d34f72f6d2f073bc0163a4"
+    },
+    "You can't see any enemies this would affect, really read the @item@?": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "8467a8d3a04637ce0790db9b513485daef6d438f1bd1949d6c82e622acb5ad96"
+    },
+    "<darkgrey>Nothing quivered</darkgrey>": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "ee40017f75567e0aea3ab10c0ac5eeeb7e0bbcca9c4ef9abe4457b133e5e8b06"
+    },
+    "([<w>-</w>] to clear)": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "acf6ab372de1dcb776ccbe059367367544b400392e653ec1d0f6702114be0894"
+    },
+    "[<w>*/%</w>] inventory": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "5a41df4d68e6153dcd86eabf573b813482d077b7a0fd74b481aff459fd0a9cb2"
+    },
+    "[<w>&</w>] all spells": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "68cef333df185652a39d4bd58b4771a3fd0ca00956dfeaf32edb2456c545abbf"
+    },
+    "[<w>^</w>] all abilities": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "10673f36289c6970c8c142e282baf22077ba81c48ad16f5f911f00f17cf229cd"
+    },
+    "@key@ focus mode: <w>off</w>|on": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "e5c48c7de0da746f03f073f5213007add52278b9fc5a08bcca864851fd537e7a"
+    },
+    "@key@ focus mode: off|<w>on</w>": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "45cb6f7aa3a7cedc9545a6f2b23e40026277c6f2989f7b215e39ca3ea3849de5"
+    },
+    " <lightgrey>(@key@ to cycle)</lightgrey>": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "007c71c346e9df4060bd0405bcccfa082ec17306a52e3050d8c6eefb2b38ed13"
+    },
+    "<lightred>No regular actions available to quiver.</lightred>": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "bc426399f6c7a548127d135e32a8114d1319087be9f95845f33407867bd62147"
+    },
+    "toss (no damage)": {
+      "context": "quiver.cc:ActionSelectMenu; focus mode restricts selection to a single category",
+      "translation_sha256": "67de28030fca5cf1dbd1e2db07b431cfee03764260bd7c704badd537a6971714"
+    },
+    " (owned: @num@)": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "3ffa2e3f34037905b66c46ba1d8aadb062cb58f1a90e0aa17af8d7b97ab279ce"
+    },
+    " and a voucher": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "97f3a1000c729eae675e9b9825e7ed51e844d5ba898641ab712fe455aa868c08"
+    },
+    " and a voucher.": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "9ca09ee4ea5c43442ab3e25c396c683b754e6efa17c4c773d7170e6a86a56116"
+    },
+    " in shopping list": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "55a6e329a872d8ed451efdba7e24ac046a60f8b309e793b573e4fa35c693351d"
+    },
+    "This will use your shop voucher.": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "91c1512279811b1ebfd7f323234c6d4b95eed86affc0e2f6c0e71554106a9ca7"
+    },
+    "Purchase items@any_list@ for @num_cost@ gold? @any_voucher@ (@key_confirm@/N)": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "e3890a44f74b2adb3743aa43ef66db080d65e187f19f20dc311f41782946530a"
+    },
+    "You have @num@ gold pieces and a voucher.": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "4652510e5e055d92e6d359c9b8c3c2368b2f864bb9e9321961fde417bb67130d"
+    },
+    "You have @num@ gold pieces": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "b40da21f76dce3804bc2e1b54456aa84b8e4fe914778b1f22d4999db6173f2e9"
+    },
+    "You have @num@ gold piece and a voucher.": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "4652510e5e055d92e6d359c9b8c3c2368b2f864bb9e9321961fde417bb67130d"
+    },
+    "Choose to examine item": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "cdd9d7c70545fa4c59739db4e19b72ca1979d0c5508726d4be74731243cc4cd1"
+    },
+    " <w>travel</w>|examine|delete items": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "061b70ba93ee5d79f1f78c2d74e0d4a57ccc070aae69b210820d71cb1f48a5bd"
+    },
+    " travel|<w>examine</w>|delete items": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "13151972652039904ae2e1e552d88d8b99486ea3dc66350ca3ac01c1331bc382"
+    },
+    " travel|examine|<w>delete</w> items": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "7091ced25310e73768e4cc23bd01d670252eb9c4513da775bdffa45b6a6cbf03"
+    },
+    " choose item</lightgray>": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "8499470f612b8ffa37ced7eb0cd608044a9249e174cfbb15cbdacc39623cd852"
+    },
+    "Shopping list: @num_count@ item, total cost @num_cost@ gold pieces": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "46a4aa4ca3f20595f97ca579ffe87cc6f3647c057ec324ecde3d28697362af71"
+    },
+    "Shopping list: @num_count@ items, total cost @num_cost@ gold pieces": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "46a4aa4ca3f20595f97ca579ffe87cc6f3647c057ec324ecde3d28697362af71"
+    },
+    "Travel to: @item@": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "dd7c8ccaf98442da463ffa25e3f81b2c4ebdbc8dc13c4b104dc45adf77f4718f"
+    },
+    "You cannot afford this item; travel there anyway? (y/N)": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "0b406ce546fadbaa2dcdce36df855f2695c73ae4c9db8a499b76d8f12f306c06"
+    },
+    "You now have enough gold to buy @item@": {
+      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "translation_sha256": "b29884dad7be513f65203a2bcfc531fce12558c1151036aca6d33962268896f6"
+    },
+    "Location (@num_x@, @num_y@)": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "e786dc351b65a86a783352b266acd2b345b5c85bd4c87cd9fe009a7bf173c7f8"
+    },
+    " (here)": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "7225ea21a8f1d8d6ebfea5330ce02dc3d0fcaa8284bfae9d7876444e69cfff5c"
+    },
+    "Visible": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "a659230dca3c62465af74fdf44a3c81d1cc666c7b3b7da852332c67ebccb99c6"
+    },
+    "Visible ": {
+      "context": "directn.cc:literal padding",
+      "translation_sha256": "470ff45184e2c7f2886a483d532421b5aeb9b8ff64082fdb94c202404ca7837c"
+    },
+    "<lightgray> (select to examine)</lightgray>": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "9604e81ce47a553693a9417f8abbe7e033d7b8e306a9d47509b199ac3a90fb50"
+    },
+    "<lightgray> (select to examine, @key@ to target/travel)</lightgray>": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "066768a752108c27ec7180c688fa1058b90838f991b370ef199f44b1c9e19450"
+    },
+    "<lightgray> (select to examine, @key@ to target)</lightgray>": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "6de1ada2e18bb707a01d942ded54075eecefdb3e67d4d22852c635f87fe50123"
+    },
+    "<lightgray> (select to target/travel, @key@ to examine)</lightgray>": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "7ad0259a0e7da838cb754ad503025cb3579ff83ae44bec461e30a546f43a853f"
+    },
+    "<lightgray> (select to target, @key@ to examine)</lightgray>": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "03b99f6b3170bad589d2fe6e70f5f98a16135710a9857742b5fd2590da4fe63a"
+    },
+    "lies inside a sanctuary": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "d6b005b6c9f4f99aeff80115b5f675223a07596d2ef009628be0597e5d205f23"
+    },
+    "is shrouded in silence": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "ab09f380840e890076e4d18c21c404c6cc2114a1e76f64a0fbecb743bce811f0"
+    },
+    "is lit by a halo": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "ecc7f5da588a510fc2dbd377c728760963971df363bcc028dc702547d554126f"
+    },
+    "is wreathed by an umbra": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "20e1c2cd0565537f6337a5d62a9e34e4faed81ec0d5ceaf6ee7ad5c2fada8801"
+    },
+    "is liquefied": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "10f316d6d18af32ee96d2c1305e62e49cc60f24b3baf81617cd218d3d9c6b42a"
+    },
+    "is covered in magical glow": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "0af7758a7aab2da1cf195a3e94f1e86fcc43f62ab67ccf25b2024c0eaf3b3f0a"
+    },
+    "is bathed in translocational energy": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "33aff357938ebd2d33c0b46fee6b79fd3718eae83d5bdba0adad8e900afa0071"
+    },
+    "within Yredelemnul's grip": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "d4491b77ecddcd81b383d591ce64d7af6c9804ebca6437eeaa1a0f7372d9dd13"
+    },
+    "is covered in acidic slime": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "ddd20dd34b624b606694dded171b2a6f89983f226532c76a3df12e49ebc4e36d"
+    },
+    "chance to call a sprite on attack: @num@%": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "397e3ebfa3534d01f3ac6101d03d1ec79eebbb4adfa16ef86a0a0962fcad7159"
+    },
+    "fellow slime": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "9b293a75faf1e087cbabed3b12a346156507b7bed5a9dadd11e2dc0e27560df1"
+    },
+    "wall of the weird stuff which makes up Pandemonium": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "74a35f6ec659dd83c64cf51982a52c03142115633d241baf1124d6adc26ee4b5"
+    },
+    "slimy stone staircase leading up": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "57f63b09d42b4bb3aec31298334a17875ba348b3999ff2b91f3d0178fc57cd9b"
+    },
+    "   [<w>?</w>] help    ": {
+      "context": "spl-cast.cc:literal padding",
+      "translation_sha256": "e7eefa729550257240e087381e593b9c93b97dee5c14a533ea935f087369f79b"
+    },
+    "[<w>*/%</w>] inventory  ": {
+      "context": "quiver.cc:literal padding",
+      "translation_sha256": "e206e3d2c3b95a096fb50fc55a422a93ab6cd33a039ddcae75c1f437aeb64c0e"
+    },
+    "[<w>&</w>] all spells  ": {
+      "context": "quiver.cc:literal padding",
+      "translation_sha256": "7a85319cd6412e428ceb432dae06f257a2406ed256b084b1ef8ee38ed99363c6"
+    },
+    "[<w>^</w>] all abilities  ": {
+      "context": "quiver.cc:literal padding",
+      "translation_sha256": "1d7a0a32b524f237c621a0b5a4681fa44b9b233b4e515235180f678ef5959fa6"
+    },
+    "Quiver which action? ": {
+      "context": "quiver.cc:literal padding",
+      "translation_sha256": "241e5b36027050fa8d86522b45045a5dfb7c2cdd2bed2065de00cd998d15796c"
+    },
+    " describe         ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "965794d98350cdcfc0d447d48a90ca66b9f0508900069211a43bad4f64bc1a29"
+    },
+    " buy shopping list": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "c1e9abbccf497136b702fa07fb48c03f8fceaeae3eb2bb8e50ef4e5f5f672fdc"
+    },
+    " buy marked items ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "f4bb77386a78c614932fa05b9d6fb170190d8facb90724e98b2d8e16928a0ebf"
+    },
+    " <w>buy</w>|examine items": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "c889ca5926326df6a98acc0c0119665a3bee9eee8c4a828480739bf563757b6b"
+    },
+    " buy|<w>examine</w> items": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "2176806ceb74e2caac6e26041bd7bc216528b54e6cacb3cc4439cd809e78ca51"
+    },
+    " exit          ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "2ffecede03330446e11255811fa0026a278c62338df86783bdf32f8e9180424d"
+    },
+    "mark item for purchase   ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "9471069bc8aed8a5f4290445a8b725c175d76eee423b7ae41c13e4a045a7c3a0"
+    },
+    "examine item             ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "db56f8938f7d5c2ac541e314b0e4f23eb2f32034265df583e1e74153fb60d9b2"
+    },
+    " put item on shopping list": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "1752c4767fd87d6623370486882e5b332029b3ee90527cce2473a791febf9dbe"
+    },
+    "Choose to examine item  ": {
+      "context": "shopping.cc:literal padding",
+      "translation_sha256": "390254e615189b3f4e5a8b77714bc0ae66281d5ccff09429c11a15c2a1336b51"
+    },
+    "default ": {
+      "context": "directn.cc:literal padding",
+      "translation_sha256": "9caf592c31f4284cdc208c6f53f79be7b7d267314e00196b1e7065f5796399c4"
+    },
+    "Matches: ": {
+      "context": "spl-book.cc:literal padding",
+      "translation_sha256": "1bee7400e81b03e68f6905f5acfeab371125f0ed7b2c2a131dfcd2233e84ca15"
+    },
+    "@num@ spell hidden ": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "68431029bef9107ba3012eb6a720453db7c0c2a3cd4d34c6dbbc1d6d7bef3278"
+    },
+    "<lightgreen>@num@ spell levels left</lightgreen>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "6856529bffb19a0a21e29e450acd1c055c586a244ab8cf44d1af3095bada6fed"
+    },
+    "<lightgreen>@num@ spell level left </lightgreen>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "685b302d729e4539f72cf2ea9e7126048be7d455c98f091e192d0c4ed4f23d6b"
+    },
+    "<lightgreen>Casting with Divine Exegesis: @num@ MP available</lightgreen>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "483dc116429cd0f8639b7efe54c604aee84ff109e3244f33605759934ded0f1a"
+    },
+    "<lightgreen>Select a spell to cast with Divine Exegesis: @num@ MP available</lightgreen>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "3cfa1c34605394bb72266becfa91655781c05376882538d2a377a6de5c5a47d2"
+    },
+    "<lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "e30bae16febd4c7b0b1cc369dafc6741580a470b3057dd3acf5d7668972bda17"
+    },
+    " search   [<w>?</w>] help": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "d65217be454a24284220d3563c84d1888d6dc9a9b586dc00e96587ad65ef733b"
+    },
+    "[<w>Esc</w>] clear": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "eea6e78a737a2329fec2d2e79f89336f8863e79c518cc10061f52168814ab324"
+    },
+    "Memorise @spell@, consuming @num_cost@ spell levels and leaving @num_left@?@any_warning@": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "e230aadc3e812028b7f84095ed0d04efd7a9618990db69c9b30044fdd87f7ab6"
+    },
+    "Memorise @spell@, consuming @num_cost@ spell level and leaving @num_left@?@any_warning@": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "e230aadc3e812028b7f84095ed0d04efd7a9618990db69c9b30044fdd87f7ab6"
+    },
+    "Spells (Cast)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "caddd4340f6ef81a0ed1f26a2b00155224172aa973e6e4eb1c97d95c28bc5a83"
+    },
+    "Spells (Memorise)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "83c2f5f840dd5df6829bd27f59ede48284bbda71cc19a75be0312bb71f41c1f1"
+    },
+    "Spells (Imbue)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "8aee50f9d7c7068d13c8cdf82071d71be3eee0a4127576e26eed7a6631cd4ecf"
+    },
+    "Spells (Describe)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "c6bfa7301603054c5a3dc7fc2f0a1af5e3e6bd97a1637fe1e48ea563c49d4159"
+    },
+    "Spells (Hide)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "bae05e6b27bea396d0b08c6cce796d9ae529a343a44de2766599639bf9137880"
+    },
+    "Spells (Show)": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "7e165947857f08c9f06a6623bd996fa5137b1e8af18124f143463171104b6b50"
+    },
+    "<w>Cast</w>|Describe|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "67b41521a73ec6a058cee86edbab1b955e24317830398a57a314e5ce751f47e0"
+    },
+    "Cast|<w>Describe</w>|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "1d6945e82ed4207029469f8d5bd47b718c4e53f459088f0ea159c62addbf4fd7"
+    },
+    "Cast|Describe|<w>Hide</w>|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "fb2eea2f8332f606dfff8c58388baa6d8753e0e5edc0a45638db471e007822a4"
+    },
+    "Cast|Describe|Hide|<w>Show</w>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "8e788ee8e87d066beb983a9fbea07f81cd563964087c1c004ebdd9dcf1432623"
+    },
+    "<w>Memorise</w>|Describe|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "867bcc6987281105aac99ac5b529a820afc29fb8e3d099d9fca98e4ac4bfbe4a"
+    },
+    "Memorise|<w>Describe</w>|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "fef82867a19b2552b4f3b662ae1cf5aae0b2191181c3b86b293ec4109ada3691"
+    },
+    "Memorise|Describe|<w>Hide</w>|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "6587fa4658bad8df52444e51f7b2b997c7c1f4df28206ddd8826aa6b54fff263"
+    },
+    "Memorise|Describe|Hide|<w>Show</w>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "ff1fe6bcca19d6ca0263cc96bb9fb162f673cd22793e781557ace5b335707bcb"
+    },
+    "<w>Imbue</w>|Describe|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "06155d44fb0634a9ec89621827f2ad7537304c4fd47119a91e797d5c8311bd6e"
+    },
+    "Imbue|<w>Describe</w>|Hide|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "468cd197d8973158eecb6ef3f1d173c56fd332355da6f8adf1ea0acb8099ff92"
+    },
+    "Imbue|Describe|<w>Hide</w>|Show": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "7b538c7fa5c0aed7cace8a92e5f50cc28ccbe1fb639253a0bd441546395d5cb0"
+    },
+    "Imbue|Describe|Hide|<w>Show</w>": {
+      "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
+      "translation_sha256": "b83461be41ac43812222de8d4b92cf372e485e2d880fb4b724e1fc5a22f0b43e"
+    },
+    "As you read the @scroll@, it crumbles to dust.": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "ee77b8e157bc982680f355b80d63b94403487250190fcf63bbd7a6e705a000e4"
+    },
+    "As you read the @scroll@, it dissolves into smoke.": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "3437b41883affe0bac8bf98606ec2661da4c4fd175086c2d303ae18f04488cb3"
+    },
+    "As you thunderously recite the @scroll@, it crumbles to dust.": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "e2e124a16059cfc48a84235b50987acad6878c26060860884f8fe399f0ca3a2a"
+    },
+    "As you thunderously recite the @scroll@, it dissolves into smoke.": {
+      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
+      "translation_sha256": "8b505408bf09aeca2a34ffd35001ece265533dc45dc57a53291d5becc4bf527f"
+    },
+    "This square @any_areas@.": {
+      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
+      "translation_sha256": "7a093a1c674fa014a911d22c86f06211cda81cf51cb87e4107d1a7ec5ebeab97"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

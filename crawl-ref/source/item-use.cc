@@ -37,6 +37,7 @@
 #include "known-items.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "makeitem.h"
 #include "map-knowledge.h"
@@ -620,28 +621,28 @@ void UseItemMenu::update_sections()
     for (; i < static_cast<int>(items.size()); i++)
         if (items[i]->level == MEL_ITEM)
             items[i]->set_enabled(!is_inventory);
-    const string cycle_hint = make_stringf("<lightgray> (%s to select)</lightgray>",
-            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str());
+    const string cycle_hint = localise(make_stringf("<lightgray> (%s to select)</lightgray>",
+            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str()));
 
     // a `,` will trigger quick activation, rather than cycle headers
     const bool easy_floor = Options.easy_floor_use && item_floor.size() == 1
         && (is_inventory || !inv_header);
     if (inv_header)
     {
-        inv_header->text = "Inventory Items";
+        inv_header->text = localise("Inventory Items");
         if (!is_inventory)
             inv_header->text += cycle_hint;
     }
 
     if (floor_header)
     {
-        floor_header->text = "Floor Items";
+        floor_header->text = localise("Floor Items");
         if (easy_floor)
         {
-            floor_header->text += make_stringf(
+            floor_header->text += localise(make_stringf(
                 "<lightgray> (%s to %s)</lightgray>",
                 menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str(),
-                _oper_name(oper).c_str());
+                _oper_name(oper).c_str()));
         }
         else if (is_inventory)
             floor_header->text += cycle_hint;

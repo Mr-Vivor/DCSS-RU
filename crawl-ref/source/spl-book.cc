@@ -589,9 +589,8 @@ private:
         // divine exegesis doesn't have space
         if (hidden_count && (!you.divine_exegesis || !search_text.size()))
         {
-            desc << std::right << std::setw(5)
-                 << hidden_count
-                 << (hidden_count > 1 ? " spells hidden" : " spell hidden ")
+            desc << localise(make_stringf("%5d%s", hidden_count,
+                 hidden_count > 1 ? " spells hidden" : " spell hidden "))
                  << "   ";
         }
         else
@@ -604,7 +603,7 @@ private:
                 max_size -= 19;
             const bool search_overflow =
                             static_cast<int>(search_text.size()) > max_size;
-            desc << make_stringf("Matches: <w>%.*s%s</w>",
+            desc << localise("Matches: ") << make_stringf("<w>%.*s%s</w>",
                             search_overflow ? max_size - 2 : max_size,
                             replace_all(search_text, "<", "<<").c_str(),
                             search_overflow ? ".." : "");
@@ -616,7 +615,7 @@ private:
                            : default_action == action::imbue ? "Imbue" : "Cast";
         // line 2
         desc << menu_keyhelp_cmd(CMD_MENU_RIGHT) << " ";
-        desc << ( current_action == action::cast
+        desc << localise( current_action == action::cast
                             ? "<w>Cast</w>|Describe|Hide|Show"
                  : current_action == action::memorise
                             ? "<w>Memorise</w>|Describe|Hide|Show"
@@ -627,8 +626,8 @@ private:
                  : current_action == action::hide
                             ? act + "|Describe|<w>Hide</w>|Show"
                  : act + "|Describe|Hide|<w>Show</w>");
-        desc << "   " << menu_keyhelp_cmd(CMD_MENU_SEARCH) << " search"
-                "   [<w>?</w>] help"; // XX hardcoded for this menu
+        desc << "   " << menu_keyhelp_cmd(CMD_MENU_SEARCH) << localise(" search"
+                "   [<w>?</w>] help"); // XX hardcoded for this menu
 
         string desc_str = localise(desc.str());
 

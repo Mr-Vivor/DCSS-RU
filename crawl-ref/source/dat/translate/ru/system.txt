@@ -206,7 +206,7 @@ You feel a surge of power.
 %%%%
 You feel a slight surge of power.
 
-Вы чувствуете слабый прилив силы.
+Вы чувствуете лёгкий прилив силы.
 %%%%
 You feel a strong surge of power!
 
@@ -214,7 +214,7 @@ You feel a strong surge of power!
 %%%%
 You feel a huge surge of power!
 
-Вы чувствуете колоссальный прилив силы!
+Вы чувствуете огромный прилив силы!
 %%%%
 You miscast @arg@.
 
@@ -838,7 +838,7 @@ Inventory Items
 %%%%
 Floor Items
 
-Предметы на полу
+Предметы на земле
 %%%%
 Your weapon is melded into your body!
 
@@ -1342,7 +1342,7 @@ susceptible
 %%%%
 not susceptible
 
-не подвержен эффекту
+не подвержен этому воздействию
 %%%%
 read @arg@
 
@@ -1510,15 +1510,15 @@ Purchase items for @num@ gold? (@arg@/N)
 %%%%
 I'll put it outside for you.
 
-Я оставлю покупку снаружи.
+Я оставлю купленный предмет снаружи.
 %%%%
 I'll put them outside for you.
 
-Я оставлю покупки снаружи.
+Я оставлю купленные предметы снаружи.
 %%%%
 I'll put some of them outside for you.
 
-Часть покупок я оставлю снаружи.
+Я оставлю часть купленных предметов снаружи.
 %%%%
 @Arg@ appears to be closed.
 
@@ -2046,7 +2046,7 @@ Matches:
 %%%%
 @num@ spells hidden
 
-Скрыто заклинаний: @num@
+скрыто заклинаний: @num@
 %%%%
 "Search for what? (regex) "
 
@@ -2418,11 +2418,11 @@ You feel a surge of power!
 %%%%
 You feel an extraordinarily numb sensation.
 
-Вы ощущаете почти полное онемение.
+Вы ощущаете необычайно сильное онемение.
 %%%%
 You feel an extremely numb sensation.
 
-Вы ощущаете сильнейшее онемение.
+Вы ощущаете сильное онемение.
 %%%%
 You feel a numb sensation.
 
@@ -17254,7 +17254,7 @@ Poisonous vapours surround @arg@!
 %%%%
 (Press <w>%</w> to maintain the ray.)
 
-(Нажмите <w>%</w>, чтобы поддерживать луч.)
+(Нажимайте <w>%</w>, чтобы поддерживать луч.)
 %%%%
 Without enough magic to sustain it, your searing ray dissipates.
 
@@ -17314,7 +17314,7 @@ You begin accumulating electric charge.
 %%%%
 (Press <w>%</w> to continue charging.)
 
-(Нажмите <w>%</w>, чтобы продолжить накапливать заряд.)
+(Нажимайте <w>%</w>, чтобы продолжать накопление заряда.)
 %%%%
 Your charge dissipates without a target.
 
@@ -26974,7 +26974,7 @@ Lets you pick your background first.
 %%%%
 "Drop how many? "
 
-"Сколько выбросить? "
+"Сколько бросить? "
 %%%%
 To do this, you must remove one of the following items:
 
@@ -27434,7 +27434,7 @@ You are here.
 %%%%
 " toggle spell headers"
 
-" сменить столбцы списка заклинаний"
+" сменить столбцы"
 %%%%
 chance to blind: @num@%
 
@@ -29167,3 +29167,603 @@ sort (name)
 "         if still alive and in sight"
 
 "         если она жива и видна"
+%%%%
+<lightgrey>Select a spell to cast</lightgrey>
+
+<lightgrey>Выберите заклинание для применения</lightgrey>
+%%%%
+<lightgrey>Select a spell to describe</lightgrey>
+
+<lightgrey>Выберите заклинание для просмотра описания</lightgrey>
+%%%%
+<lightgrey>Select a spell to forget</lightgrey>
+
+<lightgrey>Выберите заклинание, которое хотите забыть</lightgrey>
+%%%%
+<lightgrey>Select a spell to quiver</lightgrey>
+
+<lightgrey>Выберите заклинание для подготовки</lightgrey>
+%%%%
+<lightgrey>Select a spell to adjust</lightgrey>
+
+<lightgrey>Выберите заклинание для смены буквы</lightgrey>
+%%%%
+<lightgrey>Select a spell to adjust it to</lightgrey>
+
+<lightgrey>Выберите заклинание для обмена буквами</lightgrey>
+%%%%
+Your spells (cast)
+
+Ваши заклинания (применить)
+%%%%
+Your spells (describe)
+
+Ваши заклинания (описания)
+%%%%
+Your spells (forget)
+
+Ваши заклинания (забыть)
+%%%%
+Your spells (quiver)
+
+Ваши заклинания (подготовить)
+%%%%
+Your spells (adjust)
+
+Ваши заклинания (сменить букву)
+%%%%
+Your spells (adjust it to)
+
+Ваши заклинания (обмен буквами)
+%%%%
+You can't see any susceptible monsters within range!@any_hint@
+
+В пределах досягаемости нет видимых монстров, на которых подействует заклинание!@any_hint@
+%%%%
+" (Use <w>Z</w> to cast anyway.)"
+
+" (<w>Z</w> — колдовать всё равно.)"
+%%%%
+Really cast @spell@?
+
+Действительно применить заклинание «@spell@»?
+%%%%
+(Press <w>%</w> to intensify the flame waves.)
+
+(Нажимайте <w>%</w>, чтобы усиливать волны пламени.)
+%%%%
+(Press <w>%</w> to continue winding your bee.)
+
+(Нажимайте <w>%</w>, чтобы продолжать заводить пчелу.)
+%%%%
+None (50% rC for icy explosions)
+
+Нет (50% урона ледяных взрывов зависит от сопротивления холоду)
+%%%%
+AC (x3) (x1 for icy explosions)
+
+Броня (×3; ×1 для ледяных взрывов)
+%%%%
+rC (explosion only)
+
+Сопротивление холоду (только для взрыва)
+%%%%
+AC (main blast only)
+
+Броня (только для основного удара)
+%%%%
+rF, rElec (one beam each)
+
+Сопротивления огню и электричеству (по одному лучу)
+%%%%
+AC (50%)
+
+Броня (50%)
+%%%%
+AC (x3)
+
+Броня (×3)
+%%%%
+will inflict weakness
+
+наложит слабость
+%%%%
+will diminish spells
+
+ослабит заклинания
+%%%%
+will inflict weakness and diminish spells
+
+наложит слабость и ослабит заклинания
+%%%%
+by vampiric draining
+
+от вампирского высасывания жизни
+%%%%
+<lightgray> (@key@ to select)</lightgray>
+
+<lightgray> (@key@ — выбрать)</lightgray>
+%%%%
+<lightgray> (@key@ to equip)</lightgray>
+
+<lightgray> (@key@ — экипировать)</lightgray>
+%%%%
+<lightgray> (@key@ to wield)</lightgray>
+
+<lightgray> (@key@ — взять в руки)</lightgray>
+%%%%
+<lightgray> (@key@ to wear)</lightgray>
+
+<lightgray> (@key@ — надеть доспех)</lightgray>
+%%%%
+<lightgray> (@key@ to put on)</lightgray>
+
+<lightgray> (@key@ — надеть украшение)</lightgray>
+%%%%
+<lightgray> (@key@ to quaff)</lightgray>
+
+<lightgray> (@key@ — выпить)</lightgray>
+%%%%
+<lightgray> (@key@ to read)</lightgray>
+
+<lightgray> (@key@ — прочитать)</lightgray>
+%%%%
+<lightgray> (@key@ to evoke)</lightgray>
+
+<lightgray> (@key@ — применить)</lightgray>
+%%%%
+<lightgray> (@key@ to take off)</lightgray>
+
+<lightgray> (@key@ — снять доспех)</lightgray>
+%%%%
+<lightgray> (@key@ to remove)</lightgray>
+
+<lightgray> (@key@ — снять украшение)</lightgray>
+%%%%
+<lightgray> (@key@ to unequip)</lightgray>
+
+<lightgray> (@key@ — снять предмет)</lightgray>
+%%%%
+You can't shoot while berserk! Really wield @item@?
+
+В ярости вы не можете стрелять! Всё равно взять в руки {acc}@item@?
+%%%%
+twirl @item@
+
+взмахиваете {ins}@item@
+%%%%
+flex your muscles
+
+разминаете мышцы
+%%%%
+thunderously recite
+
+оглушительно декламируете
+%%%%
+dissolves into smoke
+
+растворяется в дыму
+%%%%
+crumbles to dust
+
+рассыпается в пыль
+%%%%
+can see invisible
+
+видит невидимое
+%%%%
+cannot see invisible
+
+не видит невидимое
+%%%%
+Really read the @item@?@any_warning@
+
+Действительно прочитать {acc}@item@?@any_warning@
+%%%%
+You can't see any enemies this would affect, really read the @item@?
+
+Вы не видите врагов, на которых это подействует. Всё равно прочитать {acc}@item@?
+%%%%
+<darkgrey>Nothing quivered</darkgrey>
+
+<darkgrey>Ничего не подготовлено</darkgrey>
+%%%%
+([<w>-</w>] to clear)
+
+([<w>-</w>] — очистить)
+%%%%
+[<w>*/%</w>] inventory
+
+[<w>*/%</w>] инвентарь
+%%%%
+[<w>&</w>] all spells
+
+[<w>&</w>] все заклинания
+%%%%
+[<w>^</w>] all abilities
+
+[<w>^</w>] все способности
+%%%%
+@key@ focus mode: <w>off</w>|on
+
+@key@ один раздел: <w>выкл.</w>|вкл.
+%%%%
+@key@ focus mode: off|<w>on</w>
+
+@key@ один раздел: выкл.|<w>вкл.</w>
+%%%%
+" <lightgrey>(@key@ to cycle)</lightgrey>"
+
+" <lightgrey>(@key@ — сменить раздел)</lightgrey>"
+%%%%
+<lightred>No regular actions available to quiver.</lightred>
+
+<lightred>Нет доступных действий для подготовки.</lightred>
+%%%%
+toss (no damage)
+
+бросок (без урона)
+%%%%
+" (owned: @num@)"
+
+" (уже есть: @num@)"
+%%%%
+" and a voucher"
+
+" и купон"
+%%%%
+" and a voucher."
+
+" и купон."
+%%%%
+" in shopping list"
+
+" из списка покупок"
+%%%%
+This will use your shop voucher.
+
+При этом будет использован ваш купон магазина.
+%%%%
+Purchase items@any_list@ for @num_cost@ gold? @any_voucher@ (@key_confirm@/N)
+
+Купить предметы@any_list@ за @num_cost@ золота? @any_voucher@ (@key_confirm@/N)
+%%%%
+You have @num@ gold pieces and a voucher.
+
+У вас @num@ золота и купон.
+%%%%
+You have @num@ gold pieces
+
+У вас @num@ золота
+%%%%
+You have @num@ gold piece and a voucher.
+
+У вас @num@ золота и купон.
+%%%%
+Choose to examine item
+
+Выберите предмет для осмотра
+%%%%
+" <w>travel</w>|examine|delete items"
+
+" <w>идти</w>|осмотреть|удалить"
+%%%%
+" travel|<w>examine</w>|delete items"
+
+" идти|<w>осмотреть</w>|удалить"
+%%%%
+" travel|examine|<w>delete</w> items"
+
+" идти|осмотреть|<w>удалить</w>"
+%%%%
+" choose item</lightgray>"
+
+" выбрать предмет</lightgray>"
+%%%%
+Shopping list: @num_count@ item, total cost @num_cost@ gold pieces
+
+Список покупок: позиций — @num_count@, общая стоимость — @num_cost@ золота
+%%%%
+Shopping list: @num_count@ items, total cost @num_cost@ gold pieces
+
+Список покупок: позиций — @num_count@, общая стоимость — @num_cost@ золота
+%%%%
+Travel to: @item@
+
+Идти за предметом: {acc}@item@
+%%%%
+You cannot afford this item; travel there anyway? (y/N)
+
+Вам не хватает золота на этот предмет. Всё равно идти туда? (y/N)
+%%%%
+You now have enough gold to buy @item@
+
+Теперь у вас достаточно золота, чтобы купить {acc}@item@
+%%%%
+Location (@num_x@, @num_y@)
+
+Координаты (@num_x@, @num_y@)
+%%%%
+" (here)"
+
+" (здесь)"
+%%%%
+Visible
+
+В поле зрения:
+%%%%
+"Visible "
+
+"В поле зрения: "
+%%%%
+<lightgray> (select to examine)</lightgray>
+
+<lightgray> (выберите для осмотра)</lightgray>
+%%%%
+<lightgray> (select to examine, @key@ to target/travel)</lightgray>
+
+<lightgray> (выбор — осмотр, @key@ — цель/переход)</lightgray>
+%%%%
+<lightgray> (select to examine, @key@ to target)</lightgray>
+
+<lightgray> (выбор — осмотр, @key@ — цель)</lightgray>
+%%%%
+<lightgray> (select to target/travel, @key@ to examine)</lightgray>
+
+<lightgray> (выбор — цель/переход, @key@ — осмотр)</lightgray>
+%%%%
+<lightgray> (select to target, @key@ to examine)</lightgray>
+
+<lightgray> (выбор — цель, @key@ — осмотр)</lightgray>
+%%%%
+lies inside a sanctuary
+
+находится в области святилища
+%%%%
+is shrouded in silence
+
+окутана тишиной
+%%%%
+is lit by a halo
+
+освещена ореолом
+%%%%
+is wreathed by an umbra
+
+окутана сверхъестественной тьмой
+%%%%
+is liquefied
+
+разжижена
+%%%%
+is covered in magical glow
+
+покрыта магическим сиянием
+%%%%
+is bathed in translocational energy
+
+наполнена энергией Перемещения
+%%%%
+within Yredelemnul's grip
+
+находится под властью Йредэлемнула
+%%%%
+is covered in acidic slime
+
+покрыта кислотной слизью
+%%%%
+chance to call a sprite on attack: @num@%
+
+шанс призвать спрайта при атаке: @num@%
+%%%%
+fellow slime
+
+родственная слизь
+%%%%
+wall of the weird stuff which makes up Pandemonium
+
+стена из странной материи Пандемониума
+%%%%
+slimy stone staircase leading up
+
+покрытая слизью каменная лестница вверх
+%%%%
+"   [<w>?</w>] help    "
+
+"   [<w>?</w>] справка    "
+%%%%
+"[<w>*/%</w>] inventory  "
+
+"[<w>*/%</w>] инвентарь  "
+%%%%
+"[<w>&</w>] all spells  "
+
+"[<w>&</w>] все заклинания  "
+%%%%
+"[<w>^</w>] all abilities  "
+
+"[<w>^</w>] все способности  "
+%%%%
+"Quiver which action? "
+
+"Какое действие подготовить? "
+%%%%
+" describe         "
+
+" описание         "
+%%%%
+" buy shopping list"
+
+" купить по списку"
+%%%%
+" buy marked items "
+
+" купить отмеченное "
+%%%%
+" <w>buy</w>|examine items"
+
+" <w>купить</w>|осмотреть"
+%%%%
+" buy|<w>examine</w> items"
+
+" купить|<w>осмотреть</w>"
+%%%%
+" exit          "
+
+" выход          "
+%%%%
+"mark item for purchase   "
+
+"отметить для покупки   "
+%%%%
+"examine item             "
+
+"осмотреть предмет             "
+%%%%
+" put item on shopping list"
+
+" в список покупок"
+%%%%
+"Choose to examine item  "
+
+"Выберите предмет для осмотра  "
+%%%%
+"default "
+
+"обычный режим "
+%%%%
+"Matches: "
+
+"Найдено: "
+%%%%
+"@num@ spell hidden "
+
+"скрыто заклинаний: @num@ "
+%%%%
+<lightgreen>@num@ spell levels left</lightgreen>
+
+<lightgreen>Свободных уровней заклинаний: @num@</lightgreen>
+%%%%
+<lightgreen>@num@ spell level left </lightgreen>
+
+<lightgreen>Свободных уровней заклинаний: @num@ </lightgreen>
+%%%%
+<lightgreen>Casting with Divine Exegesis: @num@ MP available</lightgreen>
+
+<lightgreen>Божественная экзегеза: доступно магии — @num@</lightgreen>
+%%%%
+<lightgreen>Select a spell to cast with Divine Exegesis: @num@ MP available</lightgreen>
+
+<lightgreen>Выберите заклинание для Божественной экзегезы. Доступно магии: @num@</lightgreen>
+%%%%
+<lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>
+
+<lightgreen>Выберите заклинание для вашего прислужника искры заклинаний:</lightgreen>
+%%%%
+" search   [<w>?</w>] help"
+
+" поиск   [<w>?</w>] справка"
+%%%%
+[<w>Esc</w>] clear
+
+[<w>Esc</w>] очистить поиск
+%%%%
+Memorise @spell@, consuming @num_cost@ spell levels and leaving @num_left@?@any_warning@
+
+Выучить «@spell@»? Уровней заклинаний нужно: @num_cost@, останется: @num_left@.@any_warning@
+%%%%
+Memorise @spell@, consuming @num_cost@ spell level and leaving @num_left@?@any_warning@
+
+Выучить «@spell@»? Уровней заклинаний нужно: @num_cost@, останется: @num_left@.@any_warning@
+%%%%
+Spells (Cast)
+
+Заклинания (применить)
+%%%%
+Spells (Memorise)
+
+Заклинания (выучить)
+%%%%
+Spells (Imbue)
+
+Заклинания (передать)
+%%%%
+Spells (Describe)
+
+Заклинания (описание)
+%%%%
+Spells (Hide)
+
+Заклинания (скрыть)
+%%%%
+Spells (Show)
+
+Заклинания (показать)
+%%%%
+<w>Cast</w>|Describe|Hide|Show
+
+<w>Применить</w>|Описание|Скрыть|Показать
+%%%%
+Cast|<w>Describe</w>|Hide|Show
+
+Применить|<w>Описание</w>|Скрыть|Показать
+%%%%
+Cast|Describe|<w>Hide</w>|Show
+
+Применить|Описание|<w>Скрыть</w>|Показать
+%%%%
+Cast|Describe|Hide|<w>Show</w>
+
+Применить|Описание|Скрыть|<w>Показать</w>
+%%%%
+<w>Memorise</w>|Describe|Hide|Show
+
+<w>Выучить</w>|Описание|Скрыть|Показать
+%%%%
+Memorise|<w>Describe</w>|Hide|Show
+
+Выучить|<w>Описание</w>|Скрыть|Показать
+%%%%
+Memorise|Describe|<w>Hide</w>|Show
+
+Выучить|Описание|<w>Скрыть</w>|Показать
+%%%%
+Memorise|Describe|Hide|<w>Show</w>
+
+Выучить|Описание|Скрыть|<w>Показать</w>
+%%%%
+<w>Imbue</w>|Describe|Hide|Show
+
+<w>Передать</w>|Описание|Скрыть|Показать
+%%%%
+Imbue|<w>Describe</w>|Hide|Show
+
+Передать|<w>Описание</w>|Скрыть|Показать
+%%%%
+Imbue|Describe|<w>Hide</w>|Show
+
+Передать|Описание|<w>Скрыть</w>|Показать
+%%%%
+Imbue|Describe|Hide|<w>Show</w>
+
+Передать|Описание|Скрыть|<w>Показать</w>
+%%%%
+As you read the @scroll@, it crumbles to dust.
+
+Вы читаете {acc}@scroll@, и он рассыпается в пыль.
+%%%%
+As you read the @scroll@, it dissolves into smoke.
+
+Вы читаете {acc}@scroll@, и он растворяется в дыму.
+%%%%
+As you thunderously recite the @scroll@, it crumbles to dust.
+
+Вы громогласно читаете {acc}@scroll@, и он рассыпается в пыль.
+%%%%
+As you thunderously recite the @scroll@, it dissolves into smoke.
+
+Вы громогласно читаете {acc}@scroll@, и он растворяется в дыму.
+%%%%
+This square @any_areas@.
+
+Эта клетка @any_areas@.

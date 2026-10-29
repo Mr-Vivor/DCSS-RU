@@ -1700,26 +1700,6 @@ focus
 
 приоритет
 %%%%
-Your spells (cast)
-
-Ваши заклинания (сотворение)
-%%%%
-Your spells (describe)
-
-Ваши заклинания (описания)
-%%%%
-Your spells (forget)
-
-Ваши заклинания (забыть)
-%%%%
-Your spells (adjust)
-
-Ваши заклинания (смена букв)
-%%%%
-Your spells (adjust it to)
-
-Ваши заклинания (смена буквы)
-%%%%
 Type
 
 Тип
@@ -1803,10 +1783,6 @@ help
 [@cmd1@] @action1@|@action2@|@action3@|@action4@   [@cmd2@] search   [<w>?</w>] help
 
 [@cmd1@] @action1@|@action2@|@action3@|@action4@ [@cmd2@] поиск [<w>?</w>] справка
-%%%%
-[<w>Esc</w>] clear
-
-[<w>Esc</w>] очистить
 %%%%
 <white>Runes of Zot (@arg@ collected) & Orbs of Power</white>
 
@@ -4403,10 +4379,6 @@ Animate Remains
 Recall Undead Slaves
 
 Призвать слуг-нежить
-%%%%
-Animate Dead
-
-Оживить мёртвых
 %%%%
 Drain Life
 
@@ -16188,10 +16160,6 @@ Cause Fear
 
 Вызывает страх
 %%%%
-Fireball
-
-Огненный шар
-%%%%
 Apportation
 
 Назначение
@@ -16228,10 +16196,6 @@ Haste
 
 Ускорение
 %%%%
-Petrify
-
-Окаменение
-%%%%
 Confuse
 
 Запутать
@@ -16255,10 +16219,6 @@ Freezing Cloud
 Venom Bolt
 
 Веномный болт
-%%%%
-Olgreb's Toxic Radiance
-
-Токсическое сияние Олгреб
 %%%%
 Teleport Other
 
@@ -16312,10 +16272,6 @@ Blink Close
 
 Мигает Закрыть
 %%%%
-Iskenderun's Mystic Blast
-
-Искендеруна Мистик Взрыв
-%%%%
 Summon Horrible Things
 
 Призыв ужасных вещей
@@ -16332,10 +16288,6 @@ Animate Skeleton
 
 Оживленный скелет
 %%%%
-Vampiric Draining
-
-Вампирическое истощение
-%%%%
 Haunt
 
 Привидение
@@ -16348,18 +16300,6 @@ Ozocubu's Refrigeration
 
 Холодильное оборудование Озокубу
 %%%%
-Sticky Flame
-
-Липкое пламя
-%%%%
-Summon Ice Beast
-
-Призыв ледяного зверя
-%%%%
-Ozocubu's Armour
-
-Озокубу Доспехи
-%%%%
 Repel Missiles
 
 Отражение ракет
@@ -16367,10 +16307,6 @@ Repel Missiles
 Berserker Rage
 
 Берсерк Ярость
-%%%%
-Dispel Undead
-
-Рассеивание нежити
 %%%%
 Poison Arrow
 
@@ -16392,10 +16328,6 @@ Sublimation of Blood
 
 Сублимация крови
 %%%%
-Tukima's Dance
-
-Танец Тукима
-%%%%
 Summon Demon
 
 Вызов Демона
@@ -16411,10 +16343,6 @@ Corpse Rot
 Iron Shot
 
 Железный выстрел
-%%%%
-Swiftness
-
-Быстрота
 %%%%
 Debugging Ray
 
@@ -16468,41 +16396,21 @@ Throw Icicle
 
 Бросить сосульку
 %%%%
-Airstrike
-
-Авиаудар
-%%%%
 Shadow Creatures
 
 Теневые существа
-%%%%
-Confusing Touch
-
-Сбивающее с толку прикосновение
 %%%%
 Flame Tongue
 
 Язык пламени
 %%%%
-Passwall
-
-Проходной экран
-%%%%
 Ignite Poison
 
 Поджигающий яд
 %%%%
-Call Canine Familiar
-
-Позвонить собачьему знакомому
-%%%%
 Summon Dragon
 
 Призыв Дракона
-%%%%
-Ensorcelled Hibernation
-
-Зачарованная гибернация
 %%%%
 Metabolic Englaciation
 
@@ -16520,10 +16428,6 @@ Dispersal
 
 Рассеивание
 %%%%
-Static Discharge
-
-Статический разряд
-%%%%
 Corona
 
 Корона
@@ -16531,10 +16435,6 @@ Corona
 Alistair's Intoxication
 
 Опьянение Алистер
-%%%%
-Lee's Rapid Deconstruction
-
-Быстрое разрушение Ли
 %%%%
 Simulacrum
 
@@ -16563,10 +16463,6 @@ Monstrous Menagerie
 Passage of Golubria
 
 Проход Голубрии
-%%%%
-Fulminant Prism
-
-Молниеносный Призма
 %%%%
 Paralyse
 
@@ -16796,10 +16692,6 @@ Petrifying Cloud
 
 Окаменеющее облако
 %%%%
-Inner Flame
-
-Внутреннее пламя
-%%%%
 Beastly Appendage
 
 Зверский придаток
@@ -16899,10 +16791,6 @@ Summon Vermin
 Malign Offering
 
 Вредоносное предложение
-%%%%
-Searing Ray
-
-Обжигающий луч
 %%%%
 Discord
 
@@ -17184,10 +17072,6 @@ Vortex
 
 Вихрь
 %%%%
-Borgnjor's Vile Clutch
-
-Подлая хватка Боргньор
-%%%%
 Harpoon Shot
 
 Гарпунный выстрел
@@ -17212,10 +17096,6 @@ Marshlight
 
 Маршлайт
 %%%%
-Hailstorm
-
-Град
-%%%%
 Eringya's Noxious Bog
 
 Ядовитое болото Эрингья
@@ -17227,10 +17107,6 @@ Agony Range
 Dispel Undead Range
 
 Дистанция рассеивания нежити
-%%%%
-Frozen Ramparts
-
-Ледяные валы
 %%%%
 Absolute Zero
 
@@ -17492,10 +17368,6 @@ Fastroot
 
 Фаструт
 %%%%
-Flame Wave
-
-Волна пламени
-%%%%
 Flashing Balestra
 
 Мигающий Balestra
@@ -17503,14 +17375,6 @@ Flashing Balestra
 Fleetfoot
 
 Быстроногий
-%%%%
-Forge Blazeheart Golem
-
-Голем Пламенного Сердца в кузнице
-%%%%
-Forge Lightning Spire
-
-Шпиль молний кузницы
 %%%%
 Forge Monarch Bomb
 
@@ -17559,10 +17423,6 @@ Gloom
 Golden Breath
 
 Золотое дыхание
-%%%%
-Grave Claw
-
-Могильный коготь
 %%%%
 Greater Ensnare
 
@@ -17647,10 +17507,6 @@ Mass Regeneration
 Maxwell's Portable Piledriver
 
 Максвелл
-%%%%
-Mercury Arrow
-
-Стрела Меркурия
 %%%%
 Momentum Strike
 
@@ -17759,10 +17615,6 @@ Rimeblight
 Rust Breath
 
 Дыхание ржавчины
-%%%%
-Scorch
-
-Ожог
 %%%%
 Sculpt Simulacrum
 
@@ -17935,10 +17787,6 @@ Vhi's Electric Charge
 Vhi's Electrolunge
 
 Ви
-%%%%
-Volatile Blastmotes
-
-Неустойчивые бластмоты
 %%%%
 Warp Body
 

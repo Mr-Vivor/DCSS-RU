@@ -96,6 +96,62 @@ TEST_CASE("Russian command help translates before binding and column layout", "[
     CHECK(localise("sort (price)") == "сортировка (цена)");
 }
 
+TEST_CASE("Russian item and spell prompts preserve keys and current mechanics", "[localise][single-file]")
+{
+    russian_localisation language;
+    if (command_to_name(CMD_WIELD_WEAPON) == "CMD_NO_CMD")
+        init_keybindings();
+
+    CHECK(localise("<lightgray> ([<w>Tab</w>] to select)</lightgray>")
+          == "<lightgray> ([<w>Tab</w>] — выбрать)</lightgray>");
+    // A binding must stay literal even when its spelling has a translation.
+    CHECK(localise("<lightgray> (Human to select)</lightgray>")
+          == "<lightgray> (Human — выбрать)</lightgray>");
+    CHECK(localise("<lightgray> ([<w>,</w>] to take off)</lightgray>")
+          == "<lightgray> ([<w>,</w>] — снять доспех)</lightgray>");
+    CHECK(localise("[<w>!</w>] focus mode: <w>off</w>|on")
+          == "[<w>!</w>] один раздел: <w>выкл.</w>|вкл.");
+    CHECK(localise("Your spells (quiver)") == "Ваши заклинания (подготовить)");
+    CHECK(localise("<lightgrey>Select a spell to forget</lightgrey>")
+          == "<lightgrey>Выберите заклинание, которое хотите забыть</lightgrey>");
+    CHECK(localise("Memorise|<w>Describe</w>|Hide|Show")
+          == "Выучить|<w>Описание</w>|Скрыть|Показать");
+    CHECK(localise("<lightgreen>3 spell levels left</lightgreen>")
+          == "<lightgreen>Свободных уровней заклинаний: 3</lightgreen>");
+    CHECK(localise("Memorise Passwall, consuming 3 spell levels and leaving 1?")
+          == "Выучить «Проход сквозь стену»? Уровней заклинаний нужно: 3, останется: 1.");
+
+    for (const string &key : { string("Y"), string("y") })
+    {
+        const string prompt = localise("Purchase items in shopping list for 123 gold? "
+            "This will use your shop voucher. (" + key + "/N)");
+        INFO(prompt);
+        CHECK(prompt.find("Купить предметы из списка покупок за 123 золота?") != string::npos);
+        CHECK(prompt.find("будет использован ваш купон магазина.") != string::npos);
+        CHECK(prompt.find("(" + key + "/N)") != string::npos);
+        CHECK(prompt.find("Purchase") == string::npos);
+    }
+    CHECK(localise("Shopping list: 21 items, total cost 132 gold pieces")
+          == "Список покупок: позиций — 21, общая стоимость — 132 золота");
+    CHECK(localise("As you read the scroll of fear, it crumbles to dust.")
+          == "Вы читаете свиток страха, и он рассыпается в пыль.");
+    CHECK(localise("This square is shrouded in silence and is covered in acidic slime.")
+          == "Эта клетка окутана тишиной и покрыта кислотной слизью.");
+    string reminder = localise("(Press <w>%</w> to maintain the ray.)");
+    insert_commands(reminder, { CMD_WAIT });
+    CHECK(reminder == "(Нажимайте <w>.</w>, чтобы поддерживать луч.)");
+
+    CHECK(localise("Passwall") == "Проход сквозь стену");
+    CHECK(localise("Call Canine Familiar") == "Призыв пса-фамильяра");
+    CHECK(localise("Fulminant Prism") == "Взрывная призма");
+    CHECK(getLongDescription("Passwall spell").find("не может действовать") != string::npos);
+    CHECK(getLongDescription("Sandblast spell").find("в полтора раза") != string::npos);
+    CHECK(getLongDescription("Petrify spell").find("ещё до двух врагов") != string::npos);
+    CHECK(getLongDescription("Sticky Flame spell").find("двигаться") != string::npos);
+    CHECK(getLongDescription("Call Canine Familiar spell").find("яд будет снят") != string::npos);
+    CHECK(getLongDescription("Forge Lightning Spire spell").find("самого далёкого") != string::npos);
+}
+
 TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
 {
     russian_localisation language;

@@ -467,7 +467,7 @@ public:
     {
         const string t = MenuEntry::get_text();
         if (item && item->pos == you.pos())
-            return t + " (here)";
+            return t + localise(" (here)");
         return t;
     }
 };
@@ -508,31 +508,31 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
     if (title.empty())
     {
         if (!list_mons.empty())
-            title  = "Monsters";
+            title  = localise("Monsters");
         if (!list_items.empty())
         {
             if (!title.empty())
                 title += "/";
-            title += "Items";
+            title += localise("Items");
         }
         if (!list_features.empty())
         {
             if (!title.empty())
                 title += "/";
-            title += "Features";
+            title += localise("Features");
         }
-        title = "Visible " + title;
+        title = localise("Visible ") + title;
         if (examine_only)
-            title += "<lightgray> (select to examine)</lightgray>";
+            title += localise("<lightgray> (select to examine)</lightgray>");
         else
         {
             title_secondary = title
-                + "<lightgray> (select to examine, "
+                + localise("<lightgray> (select to examine, "
                 + menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE)
-                + " to " + selectverb + ")</lightgray>";
-            title += "<lightgray> (select to " + selectverb + ", "
+                + " to " + selectverb + ")</lightgray>");
+            title += localise("<lightgray> (select to " + selectverb + ", "
                 + menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE)
-                + " to examine)</lightgray>";
+                + " to examine)</lightgray>");
         }
     }
 

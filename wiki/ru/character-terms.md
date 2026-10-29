@@ -158,6 +158,38 @@
 | Vitrify | Остекление |
 | Vitrifying Gaze | Остекляющий взгляд |
 | Stone Arrow | Каменная стрела |
+| Scorch | Ожог |
+| Volatile Blastmotes | Взрывоопасные частицы |
+| Flame Wave | Волна пламени |
+| Searing Ray | Обжигающий луч |
+| Fulminant Prism | Взрывная призма |
+| Iskenderun's Mystic Blast | Мистический взрыв Искендеруна |
+| Passwall | Проход сквозь стену |
+| Petrify | Окаменение |
+| Lee's Rapid Deconstruction | Быстрое разрушение Ли |
+| Airstrike | Воздушный удар |
+| Swiftness | Быстрота |
+| Static Discharge | Статический разряд |
+| Call Canine Familiar | Призыв пса-фамильяра |
+| Forge Blazeheart Golem | Ковка пламенного голема |
+| Forge Lightning Spire | Ковка грозового шпиля |
+| Mercury Arrow | Ртутная стрела |
+| Olgreb's Toxic Radiance | Ядовитое сияние Олгреба |
+| Sticky Flame | Липкое пламя |
+| Inner Flame | Внутреннее пламя |
+| Fireball | Огненный шар |
+| Ensorcelled Hibernation | Колдовской сон |
+| Confusing Touch | Касание замешательства |
+| Tukima's Dance | Танец Тукимы |
+| Frozen Ramparts | Ледяные стены |
+| Ozocubu's Armour | Доспех Озокубу |
+| Hailstorm | Град |
+| Summon Ice Beast | Призыв ледяного зверя |
+| Grave Claw | Могильный коготь |
+| Vampiric Draining | Вампирское высасывание |
+| Animate Dead | Оживление мёртвых |
+| Dispel Undead | Рассеивание нежити |
+| Borgnjor's Vile Clutch | Мерзкая хватка Боргньор |
 
 ## items
 

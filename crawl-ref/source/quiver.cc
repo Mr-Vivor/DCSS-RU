@@ -2482,20 +2482,20 @@ namespace quiver
 
         string get_keyhelp(bool) const override
         {
-            string s = more_message + "\n";
+            string s = localise(more_message) + "\n";
 
             if (any_items)
-                s += "[<w>*/%</w>] inventory  ";
+                s += localise("[<w>*/%</w>] inventory  ");
             if (any_spells)
-                s += "[<w>&</w>] all spells  ";
+                s += localise("[<w>&</w>] all spells  ");
             if (any_abilities)
-                s += "[<w>^</w>] all abilities  ";
+                s += localise("[<w>^</w>] all abilities  ");
 
 
-            string mode = make_stringf("%s focus mode: %s",
+            string mode = localise(make_stringf("%s focus mode: %s",
                 menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str(),
                 focus_mode == Focus::NONE ? "<w>off</w>|on"
-                                          : "off|<w>on</w>");;
+                                          : "off|<w>on</w>"));
 
             return pad_more_with(s, mode);
         }
@@ -2610,8 +2610,8 @@ namespace quiver
             // this key shortcut does still work without arrow selection, but
             // it typically doesn't do much in this menu.
             const string keyhelp =
-                make_stringf(" <lightgrey>(%s to cycle)</lightgrey>",
-                            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str());
+                localise(make_stringf(" <lightgrey>(%s to cycle)</lightgrey>",
+                            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str()));
 
             first_item = 0;
             first_spell = it_count;

@@ -1,6 +1,7 @@
 """Run a real WebTiles server and check the Russian browser interface."""
 from pathlib import Path
 import os
+import re
 import subprocess
 import shutil
 import time
@@ -144,11 +145,59 @@ def main():
                     (ARTIFACTS / "keyhelp.txt").write_text(help_text, encoding="utf8")
                     page.keyboard.press("Escape")
                     page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    page.keyboard.press("Control+x")
+                    page.wait_for_function("document.body.innerText.includes('В поле зрения:')")
+                    page.screenshot(path=str(ARTIFACTS / "visible-objects.png"), full_page=True)
+                    page.keyboard.press("Escape")
                 except Exception:
                     page.screenshot(path=str(ARTIFACTS / "newgame-failure.png"), full_page=True)
                     (ARTIFACTS / "newgame-failure.txt").write_text(
                         page.locator("body").inner_text() + "\n" + "\n".join(errors), encoding="utf8")
                     raise
+                # A separate connection owns its own character. The Conjurer
+                # starts with Magic Dart learned and Searing Ray in the library.
+                spell_context = browser.new_context(viewport={"width": 1280, "height": 900})
+                spell_page = spell_context.new_page()
+                spell_page.on("pageerror", lambda error: errors.append(str(error)))
+                try:
+                    spell_page.goto("http://127.0.0.1:8080/")
+                    spell_page.wait_for_function("document.body.innerText.includes('Введите имя')", timeout=60000)
+                    spell_page.keyboard.type("RuSpellSmoke", delay=30)
+                    spell_page.keyboard.press("Enter")
+                    spell_page.get_by_text("j - Человек", exact=True).click()
+                    spell_page.get_by_text(re.compile(r"^[a-zA-Z] - Разрушитель$")).click()
+                    spell_page.wait_for_function("""() => Number(document.querySelector('#stats_hp')?.textContent) > 0
+                        && document.querySelectorAll('#ui-stack > .ui-popup').length === 0""", timeout=60000)
+                    spell_page.keyboard.type("I")
+                    spell_page.wait_for_function("document.body.innerText.includes('Выберите заклинание для просмотра описания')")
+                    spell_page.screenshot(path=str(ARTIFACTS / "spell-menu.png"), full_page=True)
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.keyboard.type("M")
+                    spell_page.wait_for_function("document.body.innerText.includes('Заклинания (выучить)')")
+                    spell_page.keyboard.press("Tab")
+                    spell_page.wait_for_function("document.body.innerText.includes('Заклинания (описание)')")
+                    spell_page.locator("#ui-stack li.selectable").filter(has_text="Обжигающий луч").click()
+                    spell_page.wait_for_function("document.body.innerText.includes('непрерывный') && document.body.innerText.includes('сосредоточение')")
+                    spell_page.screenshot(path=str(ARTIFACTS / "spell-description.png"), full_page=True)
+                    assert "piercing ray" not in spell_page.locator("body").inner_text()
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.body.innerText.includes('Заклинания (описание)')")
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.keyboard.type("Q")
+                    spell_page.wait_for_function("document.body.innerText.includes('Какое действие подготовить?')")
+                    spell_page.wait_for_function("document.body.innerText.includes('один раздел:')")
+                    body = spell_page.locator("body").inner_text()
+                    assert "все заклинания" in body, body
+                    assert "focus mode" not in body, body
+                    spell_page.screenshot(path=str(ARTIFACTS / "quiver-menu.png"), full_page=True)
+                except Exception:
+                    spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
+                    (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")
+                    raise
+                finally:
+                    spell_context.close()
                 assert not errors, errors
                 browser.close()
                 print("Russian startup, first level and key help render; character creation reaches a visible dungeon without reloading; Cyrillic messages wrap.")

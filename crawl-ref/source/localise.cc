@@ -189,6 +189,7 @@ void init_localisation()
     static const text_pattern float_arg_patt("@float[^@]*@", true);
     static const text_pattern punct_arg_patt("@punct[^@]*@", true);
     static const text_pattern glyph_arg_patt("@glyph[^@]*@", true);
+    static const text_pattern key_arg_patt("@key[^@]*@", true);
     static const text_pattern adj_arg_patt("@adj[^@]*@");
     static const text_pattern word_arg_patt("@word[^@]*@", true);
     static const text_pattern any_arg_patt("@any[^@]*@");
@@ -213,6 +214,7 @@ void init_localisation()
         //pattern = float_arg_patt.replace(pattern, "([\\+|\\-]?[0-9]*[\\.,][0-9]+)");
         pattern = punct_arg_patt.replace(pattern, "([.!?]+)");
         pattern = glyph_arg_patt.replace(pattern, "(.+)");
+        pattern = key_arg_patt.replace(pattern, "(.+)");
         pattern = adj_arg_patt.replace(pattern, "([a-zA-Z0-9 +-]*)");
         pattern = word_arg_patt.replace(pattern, "([a-zA-Z0-9+-]+)");
         // @any@ allows any chars
@@ -501,9 +503,10 @@ static string _localise_param(map<string, string>& params, const string& key)
 
     string new_val;
 
-    if (new_key == "player_name")
+    if (new_key == "player_name" || new_key == "key" || starts_with(new_key, "key_"))
     {
-        // don't mess with it
+        // Player names and already formatted keybindings are literal data.
+        // A binding such as "I" must not become a translated word or numeral.
         new_val = old_val;
     }
     else

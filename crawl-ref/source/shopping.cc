@@ -1048,7 +1048,7 @@ class ShopEntry : public InvEntry
             colour_to_str(menu_colour(text, item_prefix(*item, false), tag, false));
         const int owned = shop_owned_consumable_count(*item);
         const string ownedstr =
-            owned > 0 ? make_stringf(" (owned: %d)", owned) : "";
+            owned > 0 ? localise(make_stringf(" (owned: %d)", owned)) : "";
         return make_stringf(" <%s>%c %c </%s><%s>%4d gold   %s%s%s</%s>",
                             keystr.c_str(),
                             hotkeys[0],
@@ -2390,31 +2390,30 @@ public:
                                 "<lightgrey>", you.gold,
                                 voucher ? " and a voucher." : "");
 
+        s = localise(s);
         if (view_only)
-            s += "Choose to examine item  ";
+            s += localise("Choose to examine item  ");
         else
         {
             s += menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE);
             switch (menu_action)
             {
             case ACT_EXECUTE:
-                s += " <w>travel</w>|examine|delete";
+                s += localise(" <w>travel</w>|examine|delete items    ");
                 break;
             case ACT_EXAMINE:
-                s += " travel|<w>examine</w>|delete";
+                s += localise(" travel|<w>examine</w>|delete items    ");
                 break;
             default:
-                s += " travel|examine|<w>delete</w>";
+                s += localise(" travel|examine|<w>delete</w> items    ");
                 break;
             }
-
-            s += " items    ";
         }
         if (items.size() > 0)
         {
             // could be dropped if there's ever more interesting hotkeys
             s += hyphenated_hotkey_letters(items.size(), 'a')
-                    + " choose item</lightgray>";
+                    + localise(" choose item</lightgray>");
         }
         return pad_more_with_esc(s);
     }
@@ -2432,10 +2431,11 @@ formatted_string ShoppingListMenu::calc_title()
     const int total_cost = you.props[SHOPPING_LIST_COST_KEY];
 
     fs.textcolour(title->colour);
-    fs.cprintf("Shopping list: %d %s%s, total cost %d gold pieces",
+    const string summary = make_stringf("Shopping list: %d %s%s, total cost %d gold pieces",
                 title->quantity, title->text.c_str(),
                 title->quantity > 1 ? "s" : "",
                 total_cost);
+    fs += localise(summary);
 
     return fs;
 }
@@ -2468,7 +2468,7 @@ void ShoppingList::fill_out_menu(Menu& shopmenu)
                           ? shop_owned_consumable_count(get_thing_item(thing))
                           : 0;
         const string ownedstr =
-            owned > 0 ? make_stringf(" (owned: %d)", owned) : "";
+            owned > 0 ? localise(make_stringf(" (owned: %d)", owned)) : "";
 
         const string etitle =
             make_stringf(

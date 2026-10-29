@@ -301,9 +301,9 @@ int list_spells(bool toggle_with_I, bool transient, bool viewing,
     spell_menu.add_toggle_from_command(CMD_MENU_CYCLE_MODE);
     spell_menu.add_toggle_from_command(CMD_MENU_CYCLE_MODE_REVERSE);
 
-    string more_str = make_stringf("<lightgrey>Select a spell to %s</lightgrey>",
-        real_action.c_str());
-    string help_desc = make_stringf("   [<w>?</w>] help    ");
+    string more_str = localise(make_stringf("<lightgrey>Select a spell to %s</lightgrey>",
+        real_action.c_str()));
+    string help_desc = localise("   [<w>?</w>] help    ");
     string toggle_desc = menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE);
     if (toggle_with_I)
     {
@@ -311,7 +311,9 @@ int list_spells(bool toggle_with_I, bool transient, bool viewing,
         spell_menu.add_toggle_key('I');
         toggle_desc += "/[<w>I</w>]";
     }
-    toggle_desc += " toggle spell headers";
+    toggle_desc += localise(" toggle spell headers");
+    if (Options.language == lang_t::RU)
+        more_str += "\n";
     more_str = pad_more_with_esc(more_str + help_desc + toggle_desc);
     spell_menu.set_more(formatted_string::parse_string(more_str));
     // TODO: should allow toggling between execute and examine
@@ -3764,6 +3766,7 @@ void start_channelling_spell(spell_type spell, string reminder_msg, bool do_effe
     if (!reminder_msg.empty())
     {
         string msg = "(Press <w>%</w> to " + reminder_msg + ".)";
+        msg = localise(msg);
         insert_commands(msg, { CMD_WAIT });
         mpr(msg);
     }
