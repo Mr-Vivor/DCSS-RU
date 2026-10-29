@@ -4925,7 +4925,7 @@
   "@num@ @arg@ cards": "@num@ карт «@arg@»",
   "It is found in @arg@, or in Nemelex Xobeh's deck of punishment.": "Встречается в колоде «@arg@» или в колоде Наказания Немелекса Зобеха.",
   "It is found in @arg@.": "Встречается в колоде «@arg@».",
-  "It is only found in Nemelex Xobeh's deck of punishment.": "Встречается только в колоде Наказания Немелекса Зобеха.",
+  "It is only found in Nemelex Xobeh's deck of punishment.": "Встречается только в колоде наказания Немелекса Зобеха.",
   "It is normally not part of any deck.": "Обычно не входит ни в одну колоду.",
   "It currently has @num@ cards ": "Сейчас содержит @num@ карт ",
   "It currently has 1 card ": "Сейчас содержит 1 карту ",
@@ -7718,5 +7718,8 @@
   "{card}the Swine": "{card}Свинья",
   "{card}Torment": "{card}Мучение",
   "{card}a buggy": "{card}Ошибочная карта",
-  "{card}a very buggy": "{card}Совсем ошибочная карта"
+  "{card}a very buggy": "{card}Совсем ошибочная карта",
+  "It is found in decks of escape.": "Встречается в колодах спасения.",
+  "It is found in decks of destruction.": "Встречается в колодах разрушения.",
+  "It is found in decks of summoning.": "Встречается в колодах призывания."
 }

@@ -412,7 +412,7 @@ static void _describe_cards(CrawlVector& cards)
         string desc = getLongDescription(name + " card");
         if (desc.empty())
             desc = "No description found.\n";
-        string decks = which_decks(card);
+        string decks = localise(which_decks(card));
 
         name = uppercase_first(localise_in_context("card", name));
         desc = desc + decks;

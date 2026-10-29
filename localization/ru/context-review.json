@@ -19261,11 +19261,11 @@
       "translation_sha256": "dddfa3e429560c53de0ad61cdb896e9fbb2756434b21c1b343537c6abb117b44"
     },
     "It is only found in Nemelex Xobeh's deck of punishment.": {
-      "context": "decks.cc",
-      "translation_sha256": "5d936efb5155db679d13fedad52ee2bf2c3e78c555ede64e4e6640fd921f4b7d"
+      "context": "decks.cc: card description deck membership",
+      "translation_sha256": "4b71fff523078db2f98c402d101a4fa20f24c76f8a65569ab5a1cb1aa890b92f"
     },
     "It is normally not part of any deck.": {
-      "context": "decks.cc",
+      "context": "decks.cc: card description deck membership",
       "translation_sha256": "0d4a31450b5bb9e043fb0dacf6ca843244cdaee6e28dbb6b582420f9eb79677e"
     },
     "It currently has @num@ cards ": {
@@ -30463,6 +30463,18 @@
     "{card}a very buggy": {
       "context": "decks.cc: card display title; card_name identifiers preserved",
       "translation_sha256": "3a24394498076cd3ff5fa8c94a4a2ce7c019a517cf798db2932c3c7a821ff224"
+    },
+    "It is found in decks of escape.": {
+      "context": "decks.cc: card description deck membership",
+      "translation_sha256": "a31ce41b8a8e8b50faf5d83b2a9230ee537b8f5eefbf9d249577094931e0e5a4"
+    },
+    "It is found in decks of destruction.": {
+      "context": "decks.cc: card description deck membership",
+      "translation_sha256": "e54f93e39879e20cd7c3a0e2c04adf76fe628de2b8ea81ce22ccc8e79317f626"
+    },
+    "It is found in decks of summoning.": {
+      "context": "decks.cc: card description deck membership",
+      "translation_sha256": "9ed62ccb296df90a75c0b926f735155856ca5f5e5955ce5131b24c60bae2dec7"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
