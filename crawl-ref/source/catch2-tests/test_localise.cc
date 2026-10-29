@@ -183,6 +183,8 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
     CHECK(localise(" gold   ") == " зол.   ");
     CHECK(localise_in_context("quiver-action", "Fire") == "Выстрелить");
     CHECK(localise("Fire Magic") == "Магия огня");
+    CHECK(localise_in_context("card", "the Storm") == "Буря");
+    CHECK(getLongDescription("the Tomb card").find("если уйти из центра") != string::npos);
     CHECK(localise("a book of Air") == "книга воздуха");
     CHECK(localise("Codex of Conductivity") == "кодекс проводимости");
     CHECK(localise("Piety***") == "Благочестие***");

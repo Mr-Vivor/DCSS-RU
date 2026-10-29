@@ -4,6 +4,7 @@
 **/
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "decks.h"
 
@@ -413,7 +414,7 @@ static void _describe_cards(CrawlVector& cards)
             desc = "No description found.\n";
         string decks = which_decks(card);
 
-        name = uppercase_first(name);
+        name = uppercase_first(localise_in_context("card", name));
         desc = desc + decks;
 
     auto title_hbox = make_shared<Box>(Widget::HORZ);
@@ -853,7 +854,7 @@ bool stack_five()
     for (unsigned int i = 0; i < stack.size(); i++)
     {
         MenuEntry * const entry =
-            new MenuEntry(card_name((card_type)stack[i].get_int()),
+            new MenuEntry(localise_in_context("card", card_name((card_type)stack[i].get_int())),
                           MEL_ITEM, 1, '1'+i);
         entry->add_tile(tile_def(TILEG_NEMELEX_CARD));
         menu.add_entry(entry);
@@ -975,7 +976,7 @@ bool draw_three()
             {
                 msg::streams(MSGCH_PROMPT)
                     << msg::nocap << (static_cast<char>(i + 'a')) << " - "
-                    << card_name((card_type)draws[i].get_int()) << endl;
+                    << localise_in_context("card", card_name((card_type)draws[i].get_int())) << endl;
             }
             need_prompt_redraw = false;
         }

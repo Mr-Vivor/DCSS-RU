@@ -15,9 +15,10 @@
     "background": 28,
     "skill": 29,
     "gods": 26,
-    "spell": 60,
+    "spell": 68,
     "items": 307,
-    "ability": 155
+    "ability": 155,
+    "cards": 24
   },
   "static_catalogs": {
     "ui": 477,
@@ -47,7 +48,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 7688,
+  "additional_system_messages": 7720,
   "reviewed_random_messages": {
     "miscname": {
       "entries": 10,
@@ -63,10 +64,11 @@
     "items": 317,
     "skills": 29,
     "egos": 80,
-    "spells": 56,
+    "spells": 64,
     "ability": 155,
     "monsters": 2,
-    "status": 9
+    "status": 9,
+    "cards": 24
   },
   "descriptions": {
     "species": 27,

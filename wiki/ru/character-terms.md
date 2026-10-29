@@ -196,6 +196,14 @@
 | Haunt | Призрачное преследование |
 | Borgnjor's Revivification | Возрождение Боргньор |
 | Infestation | Заражение |
+| Dispersal | Рассеивание |
+| Teleport Other | Телепортация цели |
+| Orb of Destruction | Сфера разрушения |
+| Bombard | Бомбарда |
+| Ignition | Зажигание |
+| Fire Storm | Огненный шторм |
+| Shatter | Раскол |
+| Iskenderun's Battlesphere | Боевая сфера Искендеруна |
 
 ## items
 
@@ -668,3 +676,32 @@
 | Jump | Прыжок |
 | Watery Grave | Водяная могила |
 | Bestial Takedown | Звериный бросок |
+
+## cards
+
+| English | Русское название |
+|---|---|
+| Velocity card | карта «Скорость» |
+| the Tomb card | карта «Могила» |
+| Exile card | карта «Изгнание» |
+| the Shaft card | карта «Провал» |
+| the Elixir card | карта «Эликсир» |
+| the Cloud card | карта «Облако» |
+| Vitriol card | карта «Купорос» |
+| the Storm card | карта «Буря» |
+| Pain card | карта «Боль» |
+| the Orb card | карта «Сфера» |
+| Degeneration card | карта «Вырождение» |
+| Wild Magic card | карта «Дикая магия» |
+| the Elements card | карта «Стихии» |
+| the Pentagram card | карта «Пентаграмма» |
+| the Dance card | карта «Танец» |
+| the Swarm card | карта «Рой» |
+| the Rangers card | карта «Стрелки» |
+| the Illusion card | карта «Иллюзия» |
+| Wrath card | карта «Гнев» |
+| the Wraith card | карта «Призрак» |
+| the Swine card | карта «Свинья» |
+| Torment card | карта «Мучение» |
+| a buggy card | карта «Ошибочная карта» |
+| a very buggy card | карта «Совсем ошибочная карта» |

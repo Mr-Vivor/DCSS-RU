@@ -412,6 +412,14 @@
 - [Возрождение Боргньор](spells/borgnjor's-revivification-spell.md)
 - [Заражение](spells/infestation-spell.md)
 - [Порог смерти](spells/death's-door-spell.md)
+- [Рассеивание](spells/dispersal-spell.md)
+- [Телепортация цели](spells/teleport-other-spell.md)
+- [Сфера разрушения](spells/orb-of-destruction-spell.md)
+- [Бомбарда](spells/bombard-spell.md)
+- [Зажигание](spells/ignition-spell.md)
+- [Огненный шторм](spells/fire-storm-spell.md)
+- [Раскол](spells/shatter-spell.md)
+- [Боевая сфера Искендеруна](spells/iskenderun's-battlesphere-spell.md)
 
 ## Способности
 
@@ -575,3 +583,31 @@
 
 - [Игуана](monsters/iguana.md)
 - [Каменная рыба](monsters/rock-fish.md)
+
+
+## Карты
+
+- [Карта «Скорость»](cards/velocity-card.md)
+- [Карта «Могила»](cards/the-tomb-card.md)
+- [Карта «Изгнание»](cards/exile-card.md)
+- [Карта «Провал»](cards/the-shaft-card.md)
+- [Карта «Эликсир»](cards/the-elixir-card.md)
+- [Карта «Облако»](cards/the-cloud-card.md)
+- [Карта «Купорос»](cards/vitriol-card.md)
+- [Карта «Буря»](cards/the-storm-card.md)
+- [Карта «Боль»](cards/pain-card.md)
+- [Карта «Сфера»](cards/the-orb-card.md)
+- [Карта «Вырождение»](cards/degeneration-card.md)
+- [Карта «Дикая магия»](cards/wild-magic-card.md)
+- [Карта «Стихии»](cards/the-elements-card.md)
+- [Карта «Пентаграмма»](cards/the-pentagram-card.md)
+- [Карта «Танец»](cards/the-dance-card.md)
+- [Карта «Рой»](cards/the-swarm-card.md)
+- [Карта «Стрелки»](cards/the-rangers-card.md)
+- [Карта «Иллюзия»](cards/the-illusion-card.md)
+- [Карта «Гнев»](cards/wrath-card.md)
+- [Карта «Призрак»](cards/the-wraith-card.md)
+- [Карта «Свинья»](cards/the-swine-card.md)
+- [Карта «Мучение»](cards/torment-card.md)
+- [Карта «Ошибочная карта»](cards/a-buggy-card.md)
+- [Карта «Совсем ошибочная карта»](cards/a-very-buggy-card.md)

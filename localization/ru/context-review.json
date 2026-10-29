@@ -30335,6 +30335,134 @@
     "Your earthen, fiery, airy and icy crystals are infused with energy.": {
       "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
       "translation_sha256": "ec39ac982a0004cedcffcf0ee6c0e0372ede34cce53d4d7ce5eeb53dedcde585"
+    },
+    "Dispersal": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "5a8d569281d2dea612bc0d74a9f90a1195e2a2948bb6ad72938bc4cc23f50d9c"
+    },
+    "Teleport Other": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "8afd219aaa74a22d4cddc7cfe357db9027fd070780269e172ffc5b8a655d136e"
+    },
+    "Orb of Destruction": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "5ed60709f4a7eeac3fd3483503d3697ad0dee45963069f75b1fd4fc5c98d0157"
+    },
+    "Bombard": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "d1cacb78975f89586480fd33b675e0434b2e3131e19455aea147820bad348e68"
+    },
+    "Ignition": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "b5244ea44f43d9739b7bf40010ce236d1b352676e29cc7c8242be6b4d0333bc2"
+    },
+    "Fire Storm": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "179961e318c6e35093ccb1c621dbee10a2c15f2b8bc3e2a2a43766917de16cfb"
+    },
+    "Shatter": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "66d34c266e065b83d9a6c555ef0cc4378af266f60b4290ff6f5b00f93a105e3f"
+    },
+    "Iskenderun's Battlesphere": {
+      "context": "Current spell title; consistent word order and spell action",
+      "translation_sha256": "9394eb2288553eea7dd657ed1cd9f8f052c803759b45fb66c2b3cb205636cde0"
+    },
+    "{card}Velocity": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "7eff5ed976a27d482671e13e3e16a84aa63127ef21805a435280c8decde07c2b"
+    },
+    "{card}the Tomb": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "cd164a2e1bcbfafc1cd70621254f8bc83886cd9dcc21cd3c64d669d3d507e1c6"
+    },
+    "{card}Exile": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "83e9e1e634095c2f9cde16d4d6c816bb7713967e71cee87c48c24e10e5ec741c"
+    },
+    "{card}the Shaft": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "3cc59b20ba9d2f46db561e51868a39762e9dc6dea0b173f89a48b721b9171269"
+    },
+    "{card}the Elixir": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "1c69f224949afbf53c5366c84ab3ad4b7e093c3a6895124a322143d6f81b748e"
+    },
+    "{card}the Cloud": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "c91073a0d82f067b61f4d85bce9d707c8bf205332adaba900439aaf84a2976d4"
+    },
+    "{card}Vitriol": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "9fdb573b311f81e3db7abdf493a2d9116dd98bd1ec89e058e26f280b920811b0"
+    },
+    "{card}the Storm": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "d08d616960b3c33ed20486a1e1283ce460474bfbad490de61584d4ace95ef47e"
+    },
+    "{card}Pain": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "ff17dfcfadadb782fe77fa051ed15d8afd3d56b866905b78937f6ac987ca7cb3"
+    },
+    "{card}the Orb": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "67a58f86fd7f55e2525262c9a02bb5316c79073decb8706438a8f9f0668d69c9"
+    },
+    "{card}Degeneration": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "8ee038e5b83ae6e60155a96770ef54385a41a2d1617a9f58bc388f9e097f2c51"
+    },
+    "{card}Wild Magic": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "db8ef3a136b8c60a965366b4370a88ad5694f8d67c77622ba6966fc69add6cc0"
+    },
+    "{card}the Elements": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "82142962bffd46100fba96db69066a373bdb0abb8180053797f659e991a6670f"
+    },
+    "{card}the Pentagram": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "bb109bf315f98a8c3a93c87049c540bcc717ccdefa764eb7a4613b1e00ac83c1"
+    },
+    "{card}the Dance": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "3089759871b63f2ba8e1bcbe9b545664eb2d09ba4fc5fb591349843def18dfa6"
+    },
+    "{card}the Swarm": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "aa85b935531263cc7f7ddb3dab0cac2a5ce16745f8702e58855de2cdd43204c1"
+    },
+    "{card}the Rangers": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "dcf6b41bf269a57b631636149c5878f640eea6f94c38d34acc3764a308893b7e"
+    },
+    "{card}the Illusion": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "3c575f189b199854aa54a1134fc6c8daa330608df98b7444707c1ea203076526"
+    },
+    "{card}Wrath": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "96605a270538a92eb84a17faed31d9251e6d667b81e775cb6c49a2a95139b940"
+    },
+    "{card}the Wraith": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "d307490eb2da5624e94278f685c0a8fdaaae3abdc937526d42724c6e72bb18fc"
+    },
+    "{card}the Swine": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "526f8d36e0497e50c6d3670bc77761ed0a1ea73b127ad01daa33758bd5771be3"
+    },
+    "{card}Torment": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "beb5b7b4a70cf643179ff2fd3b82c7588d354ebd9ea29ac1338cf1db10b8c323"
+    },
+    "{card}a buggy": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "6cc0bbe9f9de0e9f30b9a97da68f3064420b245b069ee433ca0892f9e9f412fa"
+    },
+    "{card}a very buggy": {
+      "context": "decks.cc: card display title; card_name identifiers preserved",
+      "translation_sha256": "3a24394498076cd3ff5fa8c94a4a2ce7c019a517cf798db2932c3c7a821ff224"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
