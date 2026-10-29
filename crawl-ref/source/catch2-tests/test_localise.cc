@@ -119,7 +119,7 @@ TEST_CASE("Russian item and spell prompts preserve keys and current mechanics", 
     CHECK(localise("<lightgreen>3 spell levels left</lightgreen>")
           == "<lightgreen>Свободных уровней заклинаний: 3</lightgreen>");
     CHECK(localise("Memorise Passwall, consuming 3 spell levels and leaving 1?")
-          == "Выучить «Проход сквозь стену»? Уровней заклинаний нужно: 3, останется: 1.");
+          == "Выучить «Проход сквозь стену»? Затраты уровней заклинаний: 3, останется: 1.");
 
     for (const string &key : { string("Y"), string("y") })
     {

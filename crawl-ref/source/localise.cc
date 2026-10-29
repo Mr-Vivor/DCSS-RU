@@ -797,6 +797,15 @@ static string _localise_string(const string& s, bool fallback_en)
         return result;
     }
 
+    // A complete formatted template may capture a literal keybinding. Match it
+    // before stripping its colour or menu-key prefix and losing that context.
+    if (s.find('<') != string::npos || starts_with(trimmed, "["))
+    {
+        result = _localise_parameterised_string(s);
+        if (!result.empty())
+            return _shift_context(result);
+    }
+
     if (trimmed.length() != s.length())
     {
         // A failed lookup of the trimmed text must not return the English

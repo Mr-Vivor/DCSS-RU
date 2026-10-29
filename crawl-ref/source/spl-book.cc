@@ -579,12 +579,12 @@ private:
         // line 1
         if (you.divine_exegesis)
         {
-            desc << make_stringf(
+            desc << localise(make_stringf(
                 "<lightgreen>Casting with Divine Exegesis: %d MP available</lightgreen>",
-                you.magic_points);
+                you.magic_points));
         }
         else
-            desc << spell_levels_str;
+            desc << localise(spell_levels_str);
 
         // divine exegesis doesn't have space
         if (hidden_count && (!you.divine_exegesis || !search_text.size()))
