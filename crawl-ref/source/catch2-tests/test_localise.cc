@@ -453,7 +453,17 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     const string formicid_hand = getLongDescription("Sacrifice a Hand ability");
     CHECK(formicid_hand.find("двуручным") == string::npos);
     CHECK(formicid_hand.find("одно кольцо меньше") != string::npos);
+    you.species = SP_FELID;
+    const string feline_eels = getLongDescription("eel talisman");
+    CHECK(feline_eels.find("Лапы владельца") != string::npos);
+    CHECK(feline_eels.find("Causes") == string::npos);
+    CHECK(feline_eels.find("электрических угрей") != string::npos);
     you.species = SP_HUMAN;
+    CHECK(getLongDescription("eel talisman").find("Руки владельца") != string::npos);
+    CHECK(localise("Your earthen and fiery crystals are infused with energy.")
+          == "Заряжены кристаллы: земли, огня.");
+    CHECK(localise("Your earthen, fiery, airy and icy crystals are infused with energy.")
+          == "Заряжены кристаллы: земли, огня, воздуха, льда.");
     const string human = getLongDescription("Spellcasting");
     CHECK(human.find("уровней для изучения") != string::npos);
     CHECK(getLongDescription("Invocations").find("запас магии") != string::npos);

@@ -16,7 +16,7 @@
     "skill": 29,
     "gods": 26,
     "spell": 60,
-    "items": 306,
+    "items": 307,
     "ability": 155
   },
   "static_catalogs": {
@@ -47,7 +47,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 7666,
+  "additional_system_messages": 7688,
   "reviewed_random_messages": {
     "miscname": {
       "entries": 10,
@@ -60,12 +60,13 @@
     "missing": 0
   },
   "reviewed_descriptions": {
-    "items": 316,
+    "items": 317,
     "skills": 29,
     "egos": 80,
     "spells": 56,
     "ability": 155,
-    "monsters": 2
+    "monsters": 2,
+    "status": 9
   },
   "descriptions": {
     "species": 27,

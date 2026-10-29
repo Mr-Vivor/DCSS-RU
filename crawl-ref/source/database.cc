@@ -19,6 +19,7 @@
 #include "end.h"
 #include "files.h"
 #include "libutil.h"
+#include "localise.h"
 #include "options.h"
 #include "random.h"
 #include "stringutil.h"
@@ -469,7 +470,7 @@ static vector<string> _database_find_bodies(DBM *database,
 
 ///////////////////////////////////////////////////////////////////////////
 // Internal DB utility functions
-static void _execute_embedded_lua(string &str)
+static void _execute_embedded_lua(string &str, bool translate_display = false)
 {
     // Execute any lua code found between "{{" and "}}". The lua code
     // is expected to return a string, with which the lua code and
@@ -496,6 +497,11 @@ static void _execute_embedded_lua(string &str)
 
         string result;
         clua.fnreturns(">s", &result);
+
+        // Translate the rendered prose, after Lua has finished using raw names
+        // and species identifiers for its decisions.
+        if (translate_display)
+            result = localise(result);
 
         str.replace(pos, lua_full.length(), result);
 
@@ -828,7 +834,7 @@ static string _query_database(TextDB &db, string key, bool canonicalise_key,
     _substitute_descriptions(db, str, canonicalise_key, run_lua, untranslated);
 
     if (run_lua)
-        _execute_embedded_lua(str);
+        _execute_embedded_lua(str, &db == &DescriptionDB && !untranslated);
 
     return str;
 }

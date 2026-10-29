@@ -319,6 +319,7 @@
 - [Талисман источника](items/wellspring-talisman.md)
 - [Пособие юного отравителя](items/young-poisoner's-handbook.md)
 - [Обнаруженный предмет](items/detected-item.md)
+- [Талисман угря](items/eel-talisman.md)
 
 ## Навыки
 

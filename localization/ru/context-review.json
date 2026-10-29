@@ -30247,6 +30247,94 @@
     "Purchase items in shopping list for @num_cost@ gold?": {
       "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "9fa9aef9309a4e833a82e7a66c0a6dcff0c27f2cf21828118cdf7eb7edd06639"
+    },
+    "Causes the wearer's hands": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "22c0d52f444745e14444746702c56fc9d54046ebc5e4653ab853b1ff76caf3a1"
+    },
+    "Causes the wearer's paws": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "e21b0d5af63fa9cbfdbeffba948405c8c6fbf23d677382f4db3012c1279bfaff"
+    },
+    "Causes the wearer's claws": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "3b1598f81362953ebed994368d8508d2ad32419acec6c662e26c7d927e8be374"
+    },
+    "Causes the wearer's tentacles": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "dd1e67a49626060430ae3238d2b4376716b797918ca15e13a662b87f0fa71ce5"
+    },
+    "Causes the wearer's graspers": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "bbed3fcb90f6df78468a92d9d2d1425bcad5bcc0af8755cf7de0bc4d3cdb9b0c"
+    },
+    "Causes the wearer's tendrils": {
+      "context": "items.txt eel talisman: Lua-rendered species::hand_name plural, after selectors have run",
+      "translation_sha256": "4fd1869241690890fc681dfa50a7c8f5721d86dcfcf3eb691500c7b2a091bae9"
+    },
+    "None of your crystals are currently charged.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "ccd6c7f525dd89812de0b811e645b421af20ec309d073de93b33b0151bed7d8e"
+    },
+    "Your earthen crystal are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "bbb3ebba2eb6cd1587e923d3239fb338a34add252bdcb9f7191477c1209a7901"
+    },
+    "Your fiery crystal are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "3da9c40c8bd0d5b9ea9e5f98b0593d26e379a42b708fd1fcd9a02d53d8611a66"
+    },
+    "Your airy crystal are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "8355d2ab24fb58d11b7bd6017c584d0efce09928f744d47cddbf0a73f3711f41"
+    },
+    "Your icy crystal are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "a25dd61c02309b149087502e2e9c3fe9520e40d705e90e79fdfa3eeacf4eaad2"
+    },
+    "Your earthen and fiery crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "92f4fbd5decf3146e1fdfdc42e54cf3da9e8a6e37763bbce96bb352d2ba995f9"
+    },
+    "Your earthen and airy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "ad3cc28e16a52b0e81011df20dbcb69067ba8dbf3145824b0b3396434188f30f"
+    },
+    "Your earthen and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "83604c629d88060c7eb20918529e6b66190070205cf9764ff6475c941938a632"
+    },
+    "Your fiery and airy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "0019c157a6c462cb6e448a07d67957ee76e5397a24bae63c412cac79fd7ce67b"
+    },
+    "Your fiery and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "954cc5434afaa63e29e8e3feb96637ec67ff055e5da56c560a49b6cb33c12f7b"
+    },
+    "Your airy and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "c01b079e8537051bd0490bd23b0105bb7697a1c75089e87724561e7ba0b0ac5b"
+    },
+    "Your earthen, fiery and airy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "14fd76c7e5c96faad512cd15db6cb8324053cb98104e018ad93b7d1d7d7eeb6b"
+    },
+    "Your earthen, fiery and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "2b0472bed16addede41296c191b16db177cc6cc3ff63ff3650eefc6a62a79dac"
+    },
+    "Your earthen, airy and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "2182cb8ff795a2cbcd7cf5ea84c01a8735f7d16aad9f9a9bdd99ab09653b95c0"
+    },
+    "Your fiery, airy and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "370abbb30acbd2d1bec45fba1e715a05440dd0c15e57b0424c11e7bed24b6e0a"
+    },
+    "Your earthen, fiery, airy and icy crystals are infused with energy.": {
+      "context": "l-you.cc: rendered jademantle_crystals_desc, English API names preserved",
+      "translation_sha256": "ec39ac982a0004cedcffcf0ee6c0e0372ede34cce53d4d7ce5eeb53dedcde585"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

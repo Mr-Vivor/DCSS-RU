@@ -507,6 +507,7 @@
 | Treatise on Traps | трактат о ловушках |
 | My Sojourns in Swampland | мои странствия по болотам |
 | rune of Zot | руна Зота |
+| eel talisman | талисман угря |
 
 ## ability
 

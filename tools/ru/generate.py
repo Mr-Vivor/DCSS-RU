@@ -194,7 +194,7 @@ def outputs(entities):
             reference_index.append(f"- [{title[:1].upper() + title[1:]}]({filename}/{slug}.md)")
         reference_index.append("")
     result[ROOT / "wiki/ru/reference/descriptions.json"] = json.dumps(reference, ensure_ascii=False, indent=2) + "\n"
-    result[ROOT / "wiki/ru/reference/README.md"] = "\n".join(reference_index)
+    result[ROOT / "wiki/ru/reference/README.md"] = "\n".join(reference_index).rstrip() + "\n"
     wiki = {entity["id"]: dict(title=entity["forms"]["singular"]["nom"].capitalize(),
                                 en=entity["en"], en_plural=entity["en_plural"],
                                 kind=entity["kind"], forms=entity["forms"], review=entity["review"])
