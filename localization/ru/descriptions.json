@@ -1722,6 +1722,36 @@
       "source_sha256": "466c896a46cd9e8e11b1dd76c98058c01ac28e649537485cda7c3ae04c0cb01a",
       "text": "Отделяет частицу сущности заклинателя и превращает её в сгусток смерти, который болезненно истощает жертву. Здоровье самого заклинателя тоже уменьшается и восстанавливается лишь после получения достаточного количества опыта.",
       "context": "Current upstream spells.txt: target, range, channeling, side effects, immunities and upkeep checked; name shared with game/wiki."
+    },
+    "Sign of Ruin spell": {
+      "source_sha256": "32fdfa3ba9f6855c27ed973d5a6ab8440608945b022520663bcd3421c5447444",
+      "text": "Накладывает на группу врагов знак разрушения, обрекая их тела на неумолимый распад. Когда отмеченное существо получает урон от атаки в ближнем бою, оно подвергается сильному истощению и может дополнительно замедлиться, ослабнуть или ослепнуть.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
+    },
+    "Smiting spell": {
+      "source_sha256": "1e3d13ba829f114da3585c088759c8af7e7b5f5baf0bdf6ecc243d2c2cf9fd25",
+      "text": "Поражает божественной карой выбранного врага в поле зрения. Свободная линия огня не требуется: достаточно видеть цель.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
+    },
+    "Haunt spell": {
+      "source_sha256": "48fa137025ea251e205a54f451c5fde2ae1fe91ce2315c313256f68387ce9776",
+      "text": "Призывает духов и призраков для преследования выбранной цели. Они атакуют только её и быстро рассеиваются после её гибели. Сила заклинания увеличивает число призванных духов.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
+    },
+    "Borgnjor's Revivification spell": {
+      "source_sha256": "c4ac0046d13f90b1e705cdb8afc8389c5d8476d8a8bc265b7a58e488e154df4c",
+      "text": "Мгновенно исцеляет все раны заклинателя, но навсегда уменьшает его максимальное здоровье. Чем выше сила заклинания, тем меньше эта потеря.\n\nСпособно даже отменить действие «Порога смерти», но в таком случае заклинатель ненадолго оказывается парализован. Не действует на нежить.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
+    },
+    "Infestation spell": {
+      "source_sha256": "72fe809e42e5897c4a81d66da6fca9aa399e8ffb20ed3a9b1552c86ec9ad51a9",
+      "text": "Заражает поражённых существ скарабеями на срок, зависящий от силы заклинания. При гибели жертвы из её тела вырываются выросшие внутри скарабеи смерти.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
+    },
+    "Death's Door spell": {
+      "source_sha256": "6e93e0f37cc21daeb3dcb19fb1cb6f94d405dfa8dffc48870671638b73983f61",
+      "text": "Ненадолго делает заклинателя почти неуязвимым, но при этом опасно приближает к смерти. Настолько близко, что тело считает себя мёртвым и исцеляющие эффекты не действуют.\n\nНезадолго до окончания действия заклинатель получает одно предупреждение. Сразу после окончания сотворить заклинание заново нельзя. Чем выше его сила, тем больше здоровья останется после завершения эффекта. Не действует на тех, кто уже является нежитью.",
+      "context": "Current spell description, referenced by divine gifts; effects and restrictions checked."
     }
   },
   "ability": {
@@ -1917,6 +1947,608 @@
       "source_sha256": "b608b13093f3a606c831ab4122befc18783848aa333e1f651aad63c9bf48c0e6",
       "text": "Выдыхает мощный поток стихийной разрушительной силы. Он наносит урон и огнём, и холодом, оставляя за собой ядовитые испарения.",
       "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+    },
+    "Recite ability": {
+      "source_sha256": "6886e63d685f437adc571cc5cb024edc610bbb806129e1733059b66f2fd1e13b",
+      "text": "Некоторое время проповедует находящимся поблизости монстрам законы Зина. После завершения чтения нужно немного подождать, прежде чем повторять его.\n\nЭффект зависит от цели. Хаотичные и нечистые существа подвергаются сильным карам, наносящим урон; нежить и демоны получают более слабые взыскания. У прочих разумных существ чтение вызывает замешательство, причём еретиков и жрецов других богов оно наказывает значительно сильнее. Эффективность повышается с навыком Молитв и благочестием.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Vitalisation ability": {
+      "source_sha256": "1813a0c716d5681ff79ee1699309c5ca0f69b8ae32fd15b7a00c19874409f47e",
+      "text": "Временно защищает от яда, замешательства, окаменения и болезни, а также от действия облаков зловонной заразы. Одновременно повышает силу, интеллект и ловкость; размер прибавки зависит от навыка Молитв.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Imprison ability": {
+      "source_sha256": "366a47e43d0b9fe18cd9753f3c6f1ac384803ae04433080060aad210f9caf4f8",
+      "text": "Временно заточает монстра в серебряных стенах. Навык Молитв увеличивает время заключения.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Sanctuary ability": {
+      "source_sha256": "cad53da39bfef74a83f478406a5bdbf6a812e087ebe10f8070aa99a213d2433d",
+      "text": "Ненадолго превращает пространство вокруг пользователя в область нерушимого закона. Пока существо находится в святилище, другие не могут причинить ему вред, а оно само не может вредить другим.\n\nСущества с враждебными намерениями не могут войти в святилище. Те, что уже оказались поблизости при его создании, будут вынуждены бежать.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Cure All Mutations ability": {
+      "source_sha256": "2e0a27d80182ec7e22c66304a981fcb88986425ebe455d44ec5290a9b3deb008",
+      "text": "Убирает все ваши мутации, но только один раз.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Divine Shield ability": {
+      "source_sha256": "aa1571d007e587656a869187deaa887694fa6868340c8899c7d98372358f686b",
+      "text": "Создаёт перед вами ослепительно яркий щит, поддерживаемый силой Сияющего. Он безошибочно блокирует несколько следующих атак, которые мог бы остановить обычный щит. Дальние атаки отражаются обратно, а атакующие в ближнем бою могут ненадолго ослепнуть от вспышки света.\n\nЩит выдерживает ограниченное число атак и затем исчезает. Навык Молитв увеличивает это число.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Cleansing Flame ability": {
+      "source_sha256": "630d3d09bb779e1fbd5638505d17c4538b3a40c36b73ddc0cee1188f0ecdfbb0",
+      "text": "Вызывает вокруг пользователя огромный взрыв божественного гнева. Он особенно сильно повреждает нежить и демонов, а также наносит урон всем прочим враждебным существам. Навык Молитв повышает мощность взрыва.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Summon Divine Warrior ability": {
+      "source_sha256": "8ad053d8dc08ddbf545849597b1254687275b52f9f94cb5bf4abeb3aa37f6631",
+      "text": "Призывает могущественного воина против зла — ангела или даэву. Навык Молитв увеличивает время его помощи, а славные подвиги в бою могут побудить Сияющего продлить его пребывание ещё больше.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Brand Weapon With Holy Wrath ability": {
+      "source_sha256": "ff3001b2645455fe6393bed12a6bed642d7adeb584e4e560c6d3b5e37afe49ab",
+      "text": "Навсегда благословляет выбранное оружие святым гневом Сияющего. Демоническое оружие превращается в более мощный священный аналог. Благословение доступно лишь один раз и не действует на артефактное оружие.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Unearth Wretches ability": {
+      "source_sha256": "61036a1ff2ba97c97b1f4e1cf6de474098048c112398bbcfddc349ef022c1110",
+      "text": "Вызывает из некрополя Кикубаакудги существ на грани смерти, предоставляя обильный материал для любой некромантии. Их количество и качество зависят от навыка Некромантии.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Sign of Ruin ability": {
+      "source_sha256": "20397c92f58aeaca52a21b2f0e6ea1d942e5cb79bc7e8bb948a622d9b75e6439",
+      "text": "[[Sign of Ruin spell]]",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked.",
+      "wiki_text": "Накладывает на группу врагов знак разрушения, обрекая их тела на неумолимый распад. Когда отмеченное существо получает урон от атаки в ближнем бою, оно подвергается сильному истощению и может дополнительно замедлиться, ослабнуть или ослепнуть."
+    },
+    "Brand Weapon With Pain ability": {
+      "source_sha256": "65d6bebe2279193eb95f41cc0b5489ead85395e6220fe6f038f123cf8cb67964",
+      "text": "Навсегда пропитывает выбранное оружие самой сущностью боли. Благословение не действует на артефактное оружие. Нужно выбрать между этим даром и знанием самых могущественных некромантических заклинаний. Получить можно только один из этих даров, и лишь один раз.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Receive Forbidden Knowledge ability": {
+      "source_sha256": "ba0bf8127c8d0771d128ccd3da4bf1770ec4353d5ff38c13063f4ace3355fa58",
+      "text": "Открывает доступ к самым могущественным и зловещим заклинаниям Некромантии: «Призрачное преследование», «Возрождение Боргньор», «Заражение» и «Порог смерти». Нужно выбрать между этим даром и наделением оружия болью. Получить можно только один из этих даров, и лишь один раз.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Duel ability": {
+      "source_sha256": "894a09111bc7462f38324798623d92348095070c638a805ba2a7415f7145db00",
+      "text": "Позволяет вызвать достойного противника на бой один на один. Если вызов удастся, вы оба окажетесь на Арене Окавару и будете сражаться насмерть. Сбежать нельзя: нужно победить либо погибнуть.\n\nВ начале дуэли восстанавливается половина недостающего здоровья. После победы Окавару возвращает ваши здоровье и магию к значениям, которые были до вызова, мгновенно устраняя последствия ран, полученных на арене.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Receive Weapon ability": {
+      "source_sha256": "e5f160769cda6bc1e2f7c4d054b74d56306267e48f9ba5664c9dcb5d6b378c00",
+      "text": "Дарует оружие на выбор из четырёх вариантов. Этот дар можно получить только один раз.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Receive Armour ability": {
+      "source_sha256": "bde3a4b92b0c72b0af4b5a517bea920dc2f7672edae5196025dbcb002aa31e06",
+      "text": "Дарует доспех на выбор из четырёх вариантов. Этот дар можно получить только один раз.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Unleash Destruction ability": {
+      "source_sha256": "17569b96d66401f3e8ed16f495ced07539659a8336cf84e5399e4a518c64bc15",
+      "text": "Направляет в выбранное существо поток адской силы: {{\n    if you.get_base_mutation_level(\"Gehenna destruction\") == 1 then\n        return \"проникающего огня, лавы (влияние Геенны), молний или отрицательной энергии\"\n    elseif you.get_base_mutation_level(\"Cocytus destruction\") == 1 then\n        return \"проникающего льда (влияние Коцита), холода, молний или отрицательной энергии\"\n    elseif you.get_base_mutation_level(\"Tartarus destruction\") == 1 then\n        return \"проникающего огня, холода, опустошающей энергии (влияние Тартара) или отрицательной энергии\"\n    elseif you.get_base_mutation_level(\"Dis destruction\") == 1 then\n        return \"проникающего огня, холода, молний, кислоты или металлических осколков (последние два варианта — влияние Диса)\"\n    else\n        return \"огня, холода, молний или отрицательной энергии\"\n    end\n}}. Навык Молитв повышает урон и точность.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked.",
+      "lua_strings": {
+        "piercing fire, lava (from Gehenna's influence), lightning, or negative energy": "проникающего огня, лавы (влияние Геенны), молний или отрицательной энергии",
+        "piercing ice (from Cocytus' influence), cold, lightning, or negative energy": "проникающего льда (влияние Коцита), холода, молний или отрицательной энергии",
+        "piercing fire, cold, devastation (from Tartarus' influence), or negative energy": "проникающего огня, холода, опустошающей энергии (влияние Тартара) или отрицательной энергии",
+        "piercing fire, cold, lightning, acid, or metal splinters (the last two from Dis' influence)": "проникающего огня, холода, молний, кислоты или металлических осколков (последние два варианта — влияние Диса)",
+        "fire, cold, lightning, or negative energy": "огня, холода, молний или отрицательной энергии"
+      },
+      "wiki_text": "Направляет в выбранное существо поток адской разрушительной силы. Навык Молитв повышает урон и точность.\n\nВарианты воздействия:\n\n- Без особого влияния: огонь, холод, молнии или отрицательная энергия.\n- Геенна: проникающий огонь, лава, молнии или отрицательная энергия.\n- Коцит: проникающий лёд, холод, молнии или отрицательная энергия.\n- Тартар: проникающий огонь, холод, опустошающая или отрицательная энергия.\n- Дис: проникающий огонь, холод, молнии, кислота или металлические осколки."
+    },
+    "Infernal Servant ability": {
+      "source_sha256": "a928e87e2d1dd8667c1602d2c913e1ac0cb45036c7f3ba36ee47e61eb69572c1",
+      "text": "Вызывает демона из дальних пределов Ада и связывает его службой с помощью вашей крови. При низком навыке Молитв приходят лишь младшие дьяволы; на зов искусного последователя могут ответить высшие демоны и даже палачи.\n\nПомните, что армии хаоса склонны к междоусобицам: иногда вместе с вашим слугой на ритуал откликается враждебный демон.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Brand Self ability": {
+      "source_sha256": "05010e2c0eaae21cba7c2129630dd8d4890f239dbdcdb40c5c8355ef155d992e",
+      "text": "Навсегда вырезает на вашем теле Адское клеймо, оскверняя тело и душу ради служения Разрушителю.\n\nПока вы продолжаете поклоняться Махлебу, клеймо даёт следующую силу:",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Infernal Legion ability": {
+      "source_sha256": "55e050df6e917f5f8074a9d5a9484b287fee7f7bf766f5a6f656a118e90b17f1",
+      "text": "Использует ваше тело как проводник, выпуская в мир армию хаоса. Некоторое время рядом с вами непрерывно появляются мелкие демоны — если поблизости есть с кем сражаться. Отдельные демоны существуют недолго, но весь легион хаоса практически неисчерпаем.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Globe of Annihilation ability": {
+      "source_sha256": "553b3b35355724a8d796e4bb15343e7fc85a5f49968cc5e9fecdb646b9b2c575",
+      "text": "Создаёт бурлящую сферу разрушительной силы, черпающей мощь из {{\n    if you.get_base_mutation_level(\"Gehenna destruction\") == 1 then\n        return \"бесконечных огней Геенны.\"\n    elseif you.get_base_mutation_level(\"Cocytus destruction\") == 1 then\n        return \"ледяных пустошей Коцита.\"\n    elseif you.get_base_mutation_level(\"Tartarus destruction\") == 1 then\n        return \"скорбных стенаний Тартара.\"\n    elseif you.get_base_mutation_level(\"Dis destruction\") == 1 then\n        return \"неумолимой злобы Диса.\"\n    else\n        return \"самих глубин Ада.\"\n    end\n}}\n\nПо мере движения сфера набирает силу и пытается навестись на выбранную цель, однако движется и поворачивает с большой инерцией. При столкновении с существом или препятствием она мощно взрывается, высвобождая {{\n    if you.get_base_mutation_level(\"Gehenna destruction\") == 1 then\n        return \"огонь или лаву\"\n    elseif you.get_base_mutation_level(\"Cocytus destruction\") == 1 then\n        return \"холод или лёд\"\n    elseif you.get_base_mutation_level(\"Tartarus destruction\") == 1 then\n        return \"отрицательную или опустошающую энергию\"\n    elseif you.get_base_mutation_level(\"Dis destruction\") == 1 then\n        return \"кислоту или металлические осколки\"\n    else\n        return \"адскую энергию\"\n    end\n}}. Радиус взрыва зависит от пройденного расстояния.\n\nЭтот взрыв не причиняет вам вреда.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked.",
+      "lua_strings": {
+        "endless fires of Gehenna.": "бесконечных огней Геенны.",
+        "frigid wastes of Cocytus.": "ледяных пустошей Коцита.",
+        "wailing grief of Tartarus.": "скорбных стенаний Тартара.",
+        "ruthless spite of Dis.": "неумолимой злобы Диса.",
+        "very Hells themselves.": "самих глубин Ада.",
+        "fire or lava": "огонь или лаву",
+        "cold or ice": "холод или лёд",
+        "negative energy or devastation": "отрицательную или опустошающую энергию",
+        "acid or metal splinters": "кислоту или металлические осколки",
+        "hellish energy": "адскую энергию"
+      },
+      "wiki_text": "Создаёт сферу разрушительной силы Ада. Она набирает силу при движении и пытается навестись на выбранную цель, однако движется и поворачивает с большой инерцией. При столкновении с существом или препятствием она взрывается; радиус зависит от пройденного расстояния. Сам пользователь от взрыва защищён.\n\nВоздействие зависит от адского влияния: Геенна даёт огонь или лаву, Коцит — холод или лёд, Тартар — отрицательную или опустошающую энергию, Дис — кислоту или металлические осколки. Без особого влияния сфера высвобождает адскую энергию."
+    },
+    "Vessel of Slaughter ability": {
+      "source_sha256": "0fffedd8a850f17c47b2fe4bc46bac639f1a2aacb623139bbbe29a907df0fdd0",
+      "text": "Заключает кровавый договор с Разрушителем и временно дарует огромную силу за опасную цену.\n\nВ момент заключения договора вокруг вас происходит мощный взрыв адской кары, а вы превращаетесь в демоническое воплощение. Вы получаете демонические сопротивления, непреодолимую Волю, двойное восстановление здоровья от убийств и снижение всего входящего урона на одну треть. Кроме того, весь наносимый вами урон усиливается пропорционально тому, насколько сильно вы были ранены в момент применения способности.\n\nКогда превращение закончится, вас утащат в Горнило плоти. Там придётся отбиваться от волн демонов, пока Махлеб не сочтёт ваш долг погашенным.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Channel Magic ability": {
+      "source_sha256": "15a07656d417d72dfa9f5231773f995a3a8624caf015bf1ed8b301a2a5f2d400",
+      "text": "Резко ускоряет восстановление магии. Длительность эффекта растёт с навыком Колдовства.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Forget Spell ability": {
+      "source_sha256": "5ba0660f7949f1b234ebf9e38c01adf6b2d3ca45a13e06246080fbf00dbe80bc",
+      "text": "Удаляет выученное заклинание из памяти, освобождая место для изучения других.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Divine Exegesis ability": {
+      "source_sha256": "da03291662cbe8b7c878b9582e3dd4fe39baf604fcbdf0952b8b09ba397a5b37",
+      "text": "Позволяет гарантированно успешно сотворить любое заклинание из вашей библиотеки. Навык Колдовства даёт прибавку к силе, равную той, которую дали бы такие же уровни владения школами самого заклинания.\n\nНекоторое время после этого то же заклинание можно повторить способностью повторного сотворения, потратив значительно меньше благочестия.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Purification ability": {
+      "source_sha256": "35b579117362d1dd10b7ecd5969cc6202729129b648f7b5560063fb27dce87a8",
+      "text": "Очищает тело от яда, замешательства, замедления, окаменения, слабости и болезни. Любое истощение максимального здоровья также полностью устраняется.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Pacify ability": {
+      "source_sha256": "8e5cd0eea42217bc44f78580e610b61c158d2aab85d1b60af24e4656b2ba72b1",
+      "text": "Пытается успокоить враждебное существо и убедить его отказаться от насилия. При успехе оно становится нейтральным и старается как можно быстрее покинуть этаж. Вы получаете за него полное количество опыта.\n\nЛучше всего действует на святых и живых существ. Нежить и демонов умиротворить труднее, особенно разумных.\n\nНе действует на существ без разума и на неживые существа, которые не относятся к нежити. Спящих монстров умиротворить тоже нельзя.\n\nНавык Молитв повышает вероятность успеха и позволяет умиротворять более сильных существ.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Divine Alms ability": {
+      "source_sha256": "5462e78e9deff88d4f576513a2f1d094aa7db4584a0d5995f0cd0ac8ac8bb2ab",
+      "text": "Облегчает страдания дружественного существа: восстанавливает часть здоровья в зависимости от навыка Молитв и снимает яд, замешательство, замедление, болезнь, слабость, истощение и окаменение.\n\nЕсли исцелено призванное существо, оно может получить немного дополнительного времени в этом мире.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Heal Self ability": {
+      "source_sha256": "f07f0f78cc47915be511162443373eb6a6e4040c00f0ee6127a5486cd7a7ffe1",
+      "text": "Восстанавливает умеренное количество здоровья в зависимости от навыка Молитв.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Aura of Vigour ability": {
+      "source_sha256": "575a06904ff7250870a81448d04fc988c8ab349373ad4aaa3737cd6fcb18dfe7",
+      "text": "Значительно повышает максимальные запасы здоровья и магии в зависимости от навыка Молитв. Текущие запасы тоже увеличиваются пропорционально.\n\nУ дружественных существ поблизости запас здоровья удваивается на всё время действия эффекта.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Depart the Abyss ability": {
+      "source_sha256": "55180ff4168d3021815ccd768ab02dd3bea1f1b4af74b0484b1a2cc9d78f052a",
+      "text": "Выводит вас из Бездны, возвращая в то место, откуда вы в неё попали.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Banish ability": {
+      "source_sha256": "edd295f1c8f8eba4772d29d4327b8fc79ba9efeffe51c82ba03c283fb856171b",
+      "text": "Пытается изгнать существо в Бездну. При успехе вы получаете немного благочестия и полное количество опыта за цель. Даже устоявшие существа получают вредные мутации и ослабевают от соприкосновения с Бездной. Навык Молитв затрудняет сопротивление изгнанию.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Corrupt ability": {
+      "source_sha256": "e42e362d1e9ebf1b54cb8187f716d5f361a11a504dd5388b371d8434e6419621",
+      "text": "Выпускает энергии Бездны и оскверняет текущий уровень. Пространство поблизости меняет облик, а из Бездны приходят существа, стремящиеся сеять разрушение. Не действует в самой Бездне и на уже осквернённых уровнях. Навык Молитв увеличивает область действия.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Enter the Abyss ability": {
+      "source_sha256": "cc52fb977f4c649d0a0fc0040e7a1af69828d90879e7caa7e1be5131b3d1e35a",
+      "text": "Мгновенно переносит вас во владения Лугоны. Само усилие, необходимое для применения способности, отнимает у вас здоровье.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Brand Weapon With Distortion ability": {
+      "source_sha256": "c5dcebc27f909c71da419b22bbf4ddc61d3e1026165674edaa602b30398e7725",
+      "text": "Навсегда наделяет выбранное оружие ближнего боя локальным полем искажения пространства. Благословение доступно лишь один раз и не действует на артефактное оружие.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Draw ability": {
+      "source_sha256": "d1a05455c6f0e3026f1b0f667f4db4312bb7920697f43129752ba6f9ad9594f4",
+      "text": "Вытягивает карту из колоды силы.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Triple Draw ability": {
+      "source_sha256": "d24c11ebd1ae87bc758ed0374062d389754a657eaf35829e8f91711da6b10279",
+      "text": "Вытягивает три карты из любой колоды и позволяет выбрать одну для розыгрыша, сбросив две остальные.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Deal Four ability": {
+      "source_sha256": "cd8d27745ded256e3defa2fe6a209b5be7c08054dad063325933ce62d532f838",
+      "text": "Разыгрывает четыре карты из колоды за то время, которое обычно требуется для вытягивания одной.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Stack Five ability": {
+      "source_sha256": "a202010f9579108fbfe1ec91ccf818e63ced9439f09655de9503c61fb0c03fa6",
+      "text": "Вытягивает пять карт из выбранных вами колод и позволяет расположить их в любом порядке. Затем их можно разыгрывать в установленной последовательности. Повторное применение сбрасывает текущую стопку.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Smiting ability": {
+      "source_sha256": "5cd80a44d7e95929b549eccfc46220cf8275abc002b30130283589591b0e6412",
+      "text": "[[Smiting spell]] Навык Молитв повышает силу божественной кары.\n\nВо время божественного испытания Беог не позволит направить эту способность прямо против другого апостола.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked.",
+      "wiki_text": "Поражает божественной карой выбранного врага в поле зрения. Свободная линия огня не требуется: достаточно видеть цель. Навык Молитв повышает силу божественной кары.\n\nВо время божественного испытания Беог не позволит направить эту способность прямо против другого апостола."
+    },
+    "Recall Apostles ability": {
+      "source_sha256": "de2d77ab7c5f416eec37bb2e8620e78ac616bb6061d539ee6f103e1b149f8964",
+      "text": "Призывает ваших апостолов из любой точки подземелья в клетки рядом с вами.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Dismiss Apostle ability": {
+      "source_sha256": "fc2eb07276bd8cd302e6f3aeb528436e12af200765f088589c9af74d995c1d34",
+      "text": "Освобождает апостола от службы вам и отправляет творить добро в мире во имя Беога.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Recruit Apostle ability": {
+      "source_sha256": "d8c63c7b5ecfe806f00e3593b775a880f24fb7ad19af59851f8a6ef38ddf7d45",
+      "text": "Посвящает побеждённого апостола и принимает его в число постоянных последователей. Он будет следовать за вами между этажами и в любую опасность, готовый отдать жизнь за общее дело и свой народ.\n\nЕсли апостол погибнет, Беог со временем воскресит его после накопления достаточного благочестия. Убийство всех врагов, которые могли быть причастны к его гибели, значительно ускоряет этот процесс.\n\nОдновременно с вами могут идти не более трёх последователей. Старых можно свободно отпускать, чтобы принять новых.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Blood for Blood ability": {
+      "source_sha256": "ed2f2d57a4a42060338bdb5aafcd0de34987c9883382edee70b3a863f6aa98aa",
+      "text": "Просит Беога даровать армию для кровавого возмездия. Сразу окружает пользователя союзными орками; затем новые союзники продолжают прибывать со всех сторон. Молитва действует довольно долго, но быстро заканчивается, когда в поле зрения больше не остаётся врагов.\n\nПрименяется только над телом одного из ваших погибших апостолов и не более одного раза на каждую его смерть.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Wall of Briars ability": {
+      "source_sha256": "2e2da2b007541fd1334502f300e3107ce309407829b43e399e335007bfd97eef",
+      "text": "Выращивает вокруг вас недолговечные заросли колючек. Монстры, атакующие их, получают урон от острых шипов. Навык Молитв повышает здоровье зарослей.",
+      "context": "Current ability.txt; target, costs, exceptions, duration, healing and irreversible divine choices checked."
+    },
+    "Grow Ballistomycete ability": {
+      "source_sha256": "d1e94155443709568dd9b97d6b4f7ff7ce78b0f9b298593a70f631ddb4b70632",
+      "text": "Выращивает в выбранном месте недолговечный баллистомицет. Тот выпускает самонаводящиеся споры, которые бурно взрываются, нанося урон всем живым существам поблизости и вызывая у них замешательство. Навык Молитв увеличивает здоровье и время жизни растения, а также урон спор.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Overgrow ability": {
+      "source_sha256": "f6649799489f12b147c4f6d6974088f68b0d4cfd8ea1a6f12328f3e85d10f806",
+      "text": "Навсегда разрушает стену или подобное препятствие, выращивая на его месте недолговечного растительного союзника. Можно пожертвовать и деревом. Лишь по-настоящему неразрушимые стены неподвластны этой силе.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Grow Oklob ability": {
+      "source_sha256": "a4dd4080a4ddc6fe09de3ea5d20f432379bb1a4ddffd8d3468c786cf1e1665de",
+      "text": "Выращивает в выбранном месте недолговечный оклоб, обрызгивающий врагов кислотой. Навык Молитв увеличивает здоровье и время жизни растения, а также частоту его атак.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Bend Time ability": {
+      "source_sha256": "76b55b987b26a4d260a9e7ba863c60b2aaec04a9f82bbc7fe284ea4395ec9b11",
+      "text": "Пытается замедлить всех существ на соседних клетках. Чем выше навык Молитв, тем труднее противостоять эффекту.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Temporal Distortion ability": {
+      "source_sha256": "f5fda4df5cfed1979defbf83a553b2c1e63468bd7d137925d689973550ac3009",
+      "text": "Искажает течение времени вокруг вас: для окружающих существ проходит несколько ходов, пока вы на мгновение исчезаете из потока времени. Это позволяет монстрам приблизиться без возможности атаковать вас в этот промежуток.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Slouch ability": {
+      "source_sha256": "c70380c48681e06bb37e041ff3d2fe7e7b82fed02eb8c27053cc2968283c3d43",
+      "text": "Наносит урон всем существам в поле зрения, которые передвигаются быстрее вас. Чем больше разница в скорости передвижения, тем сильнее урон.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Step From Time ability": {
+      "source_sha256": "ef78c39333cf960acc3c6eaf5c9b2e102c7ca166c1287c68c6aca7f5931c8055",
+      "text": "Выводит вас из потока времени. Окружающий мир продолжает жить: враги могут разбрестись и даже снова уснуть. Вы возвращаетесь в том же состоянии, в каком исчезли.\n\nЧем выше навык Молитв, тем вероятнее, что ваше отсутствие будет достаточно долгим, чтобы встревоженные враги снова уснули.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Slimify ability": {
+      "source_sha256": "49aaeddedd3c29356295b2ca02b461487a82ab7d67ee258a08d566b3af4cb35e",
+      "text": "Покрывает слизью оружие в руках или голые кулаки. Следующее поражённое ими живое существо или телесная нежить превратится в нейтральную слизь.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Oozemancy ability": {
+      "source_sha256": "7fd85e02f36df23390051a366dc8f3c6143a9dd764754868c135567e65d4eab2",
+      "text": "Заставляет стены сочиться кислотой, обжигающей врагов. Чем больше покрытых слизью стен примыкает к врагу, тем сильнее урон.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Ritual of Binding ability": {
+      "source_sha256": "35b39a5ca01ebdb8d86b59bd6a717daf72c562062e82dff69350cdda7020da8b",
+      "text": "Связывает выбранный надетый предмет с Ашензари в обмен на знание. Связанный предмет нельзя зачаровывать и изменять большинством других способов; при снятии он уничтожается.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Shatter The Chains ability": {
+      "source_sha256": "bc748e2cdcb36e8cd0675dd00fc0d51057b3a30ea9a7c1e887eff15e66fc0ddc",
+      "text": "Разрушает один связанный предмет, освобождая вас от его оков, но уменьшая расположение Ашензари.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Shadowslip ability": {
+      "source_sha256": "110cf10facb1dfe8b49139243f2a161ce09c7396eba3f78a91cf8f10994952f6",
+      "text": "Мгновенно меняет вас местами с вашей активной тенью. Несколько ходов враги, прежде сосредоточенные на вас, замечают только тень. Если её уничтожить, обман закончится раньше. Навык Молитв продлевает действие обмана и повышает стойкость тени сразу после обмена.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Aphotic Marionette ability": {
+      "source_sha256": "99d6abbae973c78c8a8c79bad003e0c69cb374a80008fa4c33ed8f9125b73b2c",
+      "text": "Захватывает тень существа и заставляет её быстро применять доступные заклинания и способности против случайных врагов от вашего имени. Призванные существа становятся вашими союзниками; многие эффекты, полезные самому заклинателю, достаются вам. Вы защищены от урона этих заклинаний и способностей.\n\nПодходит лишь цель, у которой есть хотя бы одно допустимое заклинание или способность, способные сейчас принести пользу. После успешного применения повторно использовать ту же цель нельзя. Неподходящие заклинания отмечены знаком ! при осмотре существа.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Primordial Nightfall ability": {
+      "source_sha256": "c0d6dc8c05d41af5b529e2508bcda717b70e336fed87438e99e5b84588bcce5b",
+      "text": "Погружает всё вокруг в первозданную ночь, сокращая ваше поле зрения до нуля и мешая врагам отслеживать вас и выбирать целью. Затем видимость постепенно восстанавливается. Пока длится ночь, ваша скрытность значительно повышена. Повторное применение доступно только после полного окончания эффекта. Навык Молитв увеличивает его длительность.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Potion Petition ability": {
+      "source_sha256": "b0acbe37bfcfc22760aaba454e244b38143633d3c59fb89e117a56d9e2d3fee3",
+      "text": "Позволяет купить у Гозага действие зелий: предлагаются три набора эффектов с разными ценами. Выбранные эффекты применяются сразу; сами зелья не выдаются, и пить их не требуется.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Call Merchant ability": {
+      "source_sha256": "5f719b5104564880bbaa8b56b86c3e35cd20a2c059b485ffb5034184cf2128b2",
+      "text": "Оплачивает открытие лавки на вашем текущем месте. Чем больше лавок вы уже профинансировали, тем дороже обходится следующая.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Bribe Branch ability": {
+      "source_sha256": "83353c627540e42f80a51a632fb026ef7b4e8cd16bc24278223e385873a3ca9a",
+      "text": "Вносит 3000 золотых на подкуп обитателей ветви. Действует только в ветвях с разумными обитателями; более сильные существа охотнее принимают взятки. Подкупленные могут прекратить бой, а иногда и перейти на вашу сторону. Такие союзники остаются в своей ветви.\n\nПринятые взятки расходуют внесённое золото. Когда оно заканчивается, подкупленные существа, не ставшие союзниками, остаются безразличными к вам.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Upheaval ability": {
+      "source_sha256": "a66038ae6b4dbe522f584d2c5998265b2b6353555f0600412f8ac1883a22f2b9",
+      "text": "Обрушивает на небольшую область магму, лёд, ветер или каменные обломки. Не вредит ни вам, ни вашим элементалям. Навык Молитв увеличивает урон и область воздействия.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Elemental Force ability": {
+      "source_sha256": "9574b7b94035a3ff301346cf0dd3a2c13b501e8cb5f68c66f584800ff693cd79",
+      "text": "Превращает ваши стихийные облака в дружественных элементалей. Навык Молитв увеличивает максимальное число созданных элементалей.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Disaster Area ability": {
+      "source_sha256": "501308c7c895039fb30573504187b8fd417d74942f65a9a34c9dcab5b92e5939",
+      "text": "Обрушивает разрушительные силы природы на всё пространство поблизости. Навык Молитв увеличивает урон и область воздействия.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Draw Out Power ability": {
+      "source_sha256": "397134f1b0e7c29adbea9ec73d1f3865b5d28905e4cc02c5b49efffa458113d3",
+      "text": "Восстанавливает здоровье и магию, освобождает от сетей, паутины и сдавливания, а также снимает окаменение, замедление и замешательство. Количество восстановленного здоровья зависит от благочестия.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Power Leap ability": {
+      "source_sha256": "7787a5f948281c1d44647a4dca322d1426dfb702ea9de0eba4f642b5c290b27d",
+      "text": "Совершает быстрый прыжок в выбранное место. Удар при приземлении наносит урон соседним врагам; его сила зависит от благочестия и уровня персонажа.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Apocalypse ability": {
+      "source_sha256": "e742536e9b79f6836cb3bdfb493c331f7f43c7ea294af71025a29b748e75d2df",
+      "text": "Наносит огромный урон всем врагам в поле зрения; также может парализовать, замедлить или лишить их магии. Урон зависит от благочестия и уровня персонажа.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Purity ability": {
+      "source_sha256": "005d3ee14cf207ebf191a84fb21c9cea13fca2dc8c4ed6080f96cb577862ed67",
+      "text": "Жертвует чистотой тела или разума, наделяя вас одной мутацией.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Words ability": {
+      "source_sha256": "a6cdbfc7bd3a0034a4a2c9807afbbd4178ec1964174fcbeafb4fee4f6094f5c9",
+      "text": "Лишает возможности читать свитки в бою, кроме случаев, когда вы тяжело ранены.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Drink ability": {
+      "source_sha256": "b29cd5a9c626224b8d46494ad774f470963d6a0a62cca01d65375208c998e8ca",
+      "text": "Лишает возможности пить зелья в бою, кроме случаев, когда вы тяжело ранены.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Essence ability": {
+      "source_sha256": "547471159fb2b137f98e14a73163a3ea2bd8e18b4f1a9d37c3c34344f865f04e",
+      "text": "Жертвует частью магической сущности, наделяя вас одной мутацией.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Health ability": {
+      "source_sha256": "96dbf9c52e74a1d52c3ef57d1121792e2f2e2399f0cef0d30e8dd7421b7e9cde",
+      "text": "Жертвует физическим здоровьем, наделяя вас одной мутацией.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Stealth ability": {
+      "source_sha256": "ddd2d3c72568b4105777b59ec8dbc16a314bbc3137b0ec912758626b953def8d",
+      "text": "Жертвует скрытностью: враги всегда замечают вас, а навык Скрытности больше не может иметь ни одного уровня.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Forms ability": {
+      "source_sha256": "1377eb911660a32a8f82396ba2789909402679d0120ae2495280eb75af0db46e",
+      "text": "Лишает возможности добровольно менять облик. Навык Оборотничества больше не может иметь ни одного уровня.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Artifice ability": {
+      "source_sha256": "2ea6fd3c1d2583e4741ac5ecb14eddc93d32da993db7ff87cd1007cfd2b694d7",
+      "text": "Лишает возможности применять магические устройства. Навык Управления устройствами больше не может иметь ни одного уровня. Это касается жезлов и прочих предметов, использующих этот навык, но не мешает ударам оружием с увеличенной досягаемостью, применению талисманов и фигурок зиккурата. Магические посохи становятся слабее в ближнем бою.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Love ability": {
+      "source_sha256": "ad3b084d413c5db7ee91bcad10a40bcb134da2d39931edd15189d6d40786a8e1",
+      "text": "Лишает любви всех существ: даже созданные или призванные вами существа будут враждебны. Дружественными могут остаться лишь несамостоятельные проявления заклинаний, такие как сферы разрушения и призрачное оружие.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Courage ability": {
+      "source_sha256": "f222cb7bb71e59a966516b9494cd3d7acf30e5bf6c4b150a0420b7a5a7d479bf",
+      "text": "Жертвует храбростью: опасные монстры вызывают у вас ужас, снижающий силу заклинаний, точность атак и урон в ближнем бою.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Arcana ability": {
+      "source_sha256": "8a33fc7abaf8d66c85abde35c71f63f21f1b55c268808be84e450b7b4b4a278e",
+      "text": "Лишает возможности применять заклинания определённых школ магии и развивать навыки этих школ.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Nimbleness ability": {
+      "source_sha256": "1e3de17f67a4317402ce0d2fdb62669d5e5d0093f3f7008557ab3eac2501acc2",
+      "text": "Жертвует проворством: навык Уклонения больше не может иметь ни одного уровня. Эта жертва ценнее, если вы не можете развивать навык Доспехов.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Durability ability": {
+      "source_sha256": "fa84513517ee4fb2d1bf78ecf9a2354af38e668aad2dc6cf766375365bcc40d5",
+      "text": "Жертвует стойкостью: навык Доспехов больше не может иметь ни одного уровня. Эта жертва ценнее, если вы не можете развивать навык Уклонения.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice a Hand ability": {
+      "source_sha256": "9d13cf241d80dca3bc51d21afa4b5c1cbb7f7fcf9a728d0cca21fc3e9aa74d42",
+      "text": "Жертвует рукой: вы больше не можете пользоваться щитами{{\n    if you.race() ~= \"Formicid\" then\n        return \" и двуручным оружием\"\n    end\n}}, а также можете носить на одно кольцо меньше.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked.",
+      "lua_strings": {
+        " and two-handed weapons": " и двуручным оружием"
+      },
+      "wiki_text": "Жертвует рукой: вы больше не можете пользоваться щитами и можете носить на одно кольцо меньше. Все виды, кроме формицидов, также теряют возможность использовать двуручное оружие."
+    },
+    "Sacrifice Experience ability": {
+      "source_sha256": "4f29ce201fa3368fff5aed7cf86a23c96312771d15c0bdaf98bf7e445a0d7a90",
+      "text": "Жертвует частью вашего прошлого опыта: вы сразу теряете один уровень, а предельный достижимый уровень также уменьшается на один.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Skill ability": {
+      "source_sha256": "46d6890726b847a0e1298ffac49ab14ce93b535e8ffc6f8e32d6f6ea802b60a4",
+      "text": "Жертвует способностями к обучению: все ваши склонности к навыкам снижаются на один пункт. Это, скорее всего, уменьшит уровни уже развитых навыков.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice an Eye ability": {
+      "source_sha256": "d112930e49892a335be30454cba2e3e5ce10dbeedd57f4fe8416582756e2ecd6",
+      "text": "Жертвует глазом, из-за чего попадать по целям становится значительно труднее.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Sacrifice Resistance ability": {
+      "source_sha256": "9025758561f08a97b69a7d93db2ee3a9a5393f30606f7b6e1c28067329b0dc47",
+      "text": "Жертвует устойчивостью к крайним температурам, делая вас уязвимыми к огню и холоду.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Reject Sacrifices ability": {
+      "source_sha256": "9beb79acbab0ee1170ee98f431a738ace90886eb9ca36af8c2ea6ddf066c9e42",
+      "text": "Отклоняет все предложенные жертвы. После этого Ру потребуется больше времени, чтобы оценить вашу готовность к новым жертвам. Пока остаётся действующее предложение, Ру не предлагает других.\n\nКаждый отказ подряд значительно увеличивает время ожидания. Принятие жертвы возвращает его к обычной продолжительности.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Stomp ability": {
+      "source_sha256": "aa9537408e1936bfd23852968dec492b5fabe9a7d58ef6735d196c7db33ac9da",
+      "text": "Топает в ритме танца, посылая ударную волну через всех существ на соседних клетках. Каждое из них теряет некоторую долю текущего здоровья и дополнительно получает урон, растущий с навыком Молитв.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Line Pass ability": {
+      "source_sha256": "9d0bd569a796b38a6d56d35d071af27b4371d1bc8c8dfa64b0a3fd23d89cbbb7",
+      "text": "С нечеловеческой скоростью проходит сквозь непрерывный ряд существ и оказывается на новом месте. У всех, сквозь кого вы прошли, ненадолго возникает замешательство; навык Молитв увеличивает его длительность.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Grand Finale ability": {
+      "source_sha256": "3c5c357d9a6ecf69b96f34b838f22e1c7728ba6a8f7936eeac137dd046e19fce",
+      "text": "Сливается с выбранной целью душой и телом, а затем вырывается из неё, разрывая её и мгновенно убивая. Чем выше благочестие и навык Молитв, тем легче применить способность.\n\nСамые жестокие секты Ускайава не считают своих членов истинными последователями, пока те не совершат этот обряд.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Renounce Religion ability": {
+      "source_sha256": "472c82aa5367dbab35fb29575cb8d3f6629dd742130b8f4d6ecc36ebf9b01cd8",
+      "text": "Отрекается от вашей веры. Вы перестаёте поклоняться своему богу и обычно навлекаете его гнев.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Convert to Beogh ability": {
+      "source_sha256": "53fc9639379afd79df0a6be6daeecd922852f2c805ab9c838b9b643af48142d3",
+      "text": "Приносит клятву верности Беогу, богу пещерных орков. Он требует смерти неверных, но повелевает щадить обращённых и принимать их в общину. Осторожно: орки, не видевшие вашего обращения, могут оставаться враждебными, пока вы не заслужите репутацию!\n\nВсе прочие боги ненавидят Беога и не прощают такого отступничества.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Donate Gold ability": {
+      "source_sha256": "0731fd5e63d943328698889dda7c528185d6792bbc035a4e4a03b759c0bd96cc",
+      "text": "Жертвует Зину половину вашего золота, постепенно повышая благочестие. Общая прибавка зависит от размера пожертвования.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Recall Ancestor ability": {
+      "source_sha256": "e34dff1718701784fe7aacdadb91094eb2690995f4cbcc4ea2c83fb718bd109c",
+      "text": "Возвращает вашего предка из любой точки подземелья в клетку рядом с вами.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Idealise ability": {
+      "source_sha256": "57aae6e6c9129f8734d728b5458c09d5e69d4c37648e9e5b96a606d987817fc9",
+      "text": "Воплощает в предке идеальный образ его лучших качеств. Его раны забываются, а сияние совершенства ненадолго, но значительно усиливает его атаки, колдовство и броню. Навык Молитв улучшает исцеление и продлевает действие идеализации.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Transference ability": {
+      "source_sha256": "2bfa9f1ed7b1d278612daa7ec328aa5e1d7d0159b2fd2072a12e58da016560ec",
+      "text": "Проводит выбранное существо через мир воспоминаний, меняя его местами с вашим предком.\n\nПри высоком благочестии существа рядом с целью подвергаются истощению, сила которого зависит от навыка Молитв.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Ancestor Life: Knight ability": {
+      "source_sha256": "5b1db899aa7e9bf5cc65843bb3a40652459b43e55c041ae771681fde1a2a2760",
+      "text": "Вспоминает вашего предка рыцарем — сильным бойцом ближнего боя с превосходной защитой. Выбор окончателен: отменить его нельзя.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Ancestor Life: Elementalist ability": {
+      "source_sha256": "98144a17f87e3705a3e8e2583ca09b58fad26525a6c86b9556e0190ecac0e3a2",
+      "text": "Вспоминает вашего предка элементалистом — могущественным, но уязвимым магом, способным обрушивать разрушительные заклинания с безопасного расстояния. Выбор окончателен: отменить его нельзя.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Ancestor Life: Hexer ability": {
+      "source_sha256": "775b913c84d18c049fb83c37329c13fa0746c5418ef9ff61aaedf6cba996e528",
+      "text": "Вспоминает вашего предка мастером чар — хитрым плутом, искусным в быстрых ударах ножом и ослабляющих заклинаниях. Выбор окончателен: отменить его нельзя.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Ancestor Identity ability": {
+      "source_sha256": "106eaf51ec29bd79be1104d2e6f50fa34e3fcc7120f1d3b9841e3274eb4c5afa",
+      "text": "Уточняет, как предпочитал именоваться ваш предок: позволяет исправить его имя и пол.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Wall Jump ability": {
+      "source_sha256": "b96d7d0047866b4fdd5d70b567d7e713c9c2e9d05204007cd7e40383bc585421",
+      "text": "Позволяет оттолкнуться от соседней стены и прыгнуть к врагам, нанося удары всем врагам рядом с местом приземления. Всё движение занимает два хода.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Serpent's Lash ability": {
+      "source_sha256": "7252239a7c3bf30ad465450ad56a34ee3c71fa2e60e6db803a29435f008916be",
+      "text": "Позволяет двигаться со сверхъестественной скоростью: обычные перемещения на расстояние до двух клеток становятся мгновенными. Боевые приёмы под действием Змеиной плети наносят больше урона и никогда не промахиваются.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Heavenly Storm ability": {
+      "source_sha256": "eed35e32f734fb552fa4676fb793e58db94869d122e3b2ba1e931cf100bf713d",
+      "text": "Вызывает бурю небесных облаков. Пока она бушует, значительно повышаются ваше уклонение, точность атак и урон. Попадания боевыми приёмами усиливают эту прибавку. Со временем буря ослабевает и исчезает, когда прибавка падает до нуля. Небесные облака не позволяют скрываться невидимостью и мешают существам снаружи видеть сквозь бурю.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Fiery Armour ability": {
+      "source_sha256": "c462dd224996844911f84f71c7208126bb0c94db6626618be224e6acb4e2b154",
+      "text": "Окутывает вас огненным доспехом, дающим +7 к броне и обжигающим врагов, которые осмелятся ударить вас в ближнем бою. Огонь угасает довольно долго.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Foxfire Swarm ability": {
+      "source_sha256": "539aea6b7e1436e22dbb6e0b37bb6d44a79699ceec3484d5b3b96f0b72850ce2",
+      "text": "Создаёт вокруг вас рой живых огней. Они быстро устремляются к ближайшим монстрам и обжигают их. Если огонь не может добраться до цели или вы меняетесь с ним местами, он безвредно рассеивается.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Rising Flame ability": {
+      "source_sha256": "11c2f9be2f7584a9a6ec21844477415b9a70bec4e5334b174e4e22402699e720",
+      "text": "Поднимает вас в воздух, а после небольшой задержки, нужной Игнису для сбора сил, пробивает вами потолок и переносит на этаж выше. Эту способность можно применить только один раз.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Hop ability": {
+      "source_sha256": "022f7f4dafacb775556ab1e6869ba77747794509334ad986542710285af64993",
+      "text": "Позволяет прыгнуть к выбранному месту, приземлившись где-то поблизости. После прыжка нужно некоторое время не передвигаться, прежде чем прыгать снова. При этом можно совершать другие действия — например, атаковать или творить заклинания.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Blinkbolt ability": {
+      "source_sha256": "f15d5ad6c4016a6ecff5d25789492677b7871165dec0fb1c10584a0f5e1711d1",
+      "text": "Превращает пользователя в живую молнию и направляет к выбранному монстру. Всё на пути получает электрический урон, а пользователь оказывается в конце разряда. После применения требуется немного времени, прежде чем способность снова станет доступна.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Siphon Essence ability": {
+      "source_sha256": "3490e98f88a9c2a019b32d8b25f51dc0813d7ba145c1f56b3993a815a98e0073",
+      "text": "Терзает живых врагов поблизости, отнимая половину их здоровья. Причинённая боль исцеляет пользователя; размер исцеления зависит от навыка Оборотничества. После применения требуется немного времени, прежде чем способность снова станет доступна.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Evoke the Sceptre of Asmodeus ability": {
+      "source_sha256": "ccf08de2d97de51cafb3226797c26d3d35cfe47dd2101892440f32b7c50ef712",
+      "text": "Обращается к силе Асмодея и призывает огненных демонов Ада. Демоны остаются дружественными лишь некоторое время, а затем становятся враждебными, прежде чем исчезнуть. Вероятность успешного применения зависит от навыка Управления устройствами. Способность доступна только со Скипетром Асмодея в руках.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Evoke Damnation ability": {
+      "source_sha256": "3767a9a5d0d59ef6e3ad997a6d5156380b7d0777387dbdaad12576801cef3d07",
+      "text": "Поражает выбранного врага адской карой. Эти нечестивые силы вредят жертве и всем рядом с ней, обходя любую защиту, включая броню и сопротивления. Однако некоторые существа — обычно те, что сами способны призывать адскую кару, — совершенно к ней невосприимчивы. Мощность способности растёт с навыком Управления устройствами.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Evoke the Staff of Olgreb ability": {
+      "source_sha256": "c16dedc9440f5cc0dc7de12909fac9f0670f177367eab97042cf6df70cd1e3a7",
+      "text": "Заставляет пользователя излучать ядовитую энергию, непрерывно отравляющую всех в поле зрения, пока действует аура. Мощность способности растёт с навыком Управления устройствами. Способность доступна только с Посохом Олгреба в руках.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Jump ability": {
+      "source_sha256": "808c6bcbd8cb4108dde9576b90dc66986bf277980478f73290e74b9150d9b897",
+      "text": "Позволяет совершить молниеносный прыжок по воздуху. Выбрать место приземления нельзя, но движение столь резкое и ловкое, что до вашего следующего действия ни один монстр не сможет попасть по вам. Многие и вовсе потеряют вас из виду.\n\nМежду применениями нужно немного времени на восстановление.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Watery Grave ability": {
+      "source_sha256": "e0abb1e8246be4ac0bbf0b048aa43ff37819abfaaf866b4dfbff61b2c698bf6b",
+      "text": "Поднимает бурный прилив во всей воде поблизости, пытаясь утопить каждого врага, находящегося в ней или над ней. Существа, которым нужен воздух, также захлёбываются: несколько ходов они не могут применять заклинания, на которые действует «Тишина», и получают небольшой урон от удушья.\n\nДля восстановления силы после применения нужно набрать опыт.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+    },
+    "Bestial Takedown ability": {
+      "source_sha256": "fc401580454e5f6064c99646e4b2399aa29b143ee5abb0639af8ccdf9f2a3a6d",
+      "text": "Пробуждает всю силу хищных инстинктов, позволяя прыгнуть к испуганному врагу и провести свирепую атаку в ближнем бою. Урон умножается в зависимости от навыка Оборотничества. Если удар убивает цель, сразу после него вы обязательно издаёте вой.\n\nЦелью может быть только испуганный враг, рядом с которым есть хотя бы одна клетка, куда вы можете встать.",
+      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
     }
   },
   "monsters": {

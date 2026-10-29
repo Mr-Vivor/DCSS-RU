@@ -191,6 +191,11 @@
 | Dispel Undead | Рассеивание нежити |
 | Borgnjor's Vile Clutch | Мерзкая хватка Боргньор |
 | Damnation | Адская кара |
+| Sign of Ruin | Знак разрушения |
+| Smiting | Божественная кара |
+| Haunt | Призрачное преследование |
+| Borgnjor's Revivification | Возрождение Боргньор |
+| Infestation | Заражение |
 
 ## items
 
@@ -334,3 +339,115 @@
 | Enkindle | Возжечь пламя |
 | Breathe Rust | Дыхание ржавчиной |
 | Golden Breath | Золотое дыхание |
+| Vitalisation | Божественная выносливость |
+| Imprison | Заточить |
+| Sanctuary | Святилище |
+| Cure All Mutations | Избавиться от всех мутаций |
+| Divine Shield | Божественный щит |
+| Cleansing Flame | Очищающее пламя |
+| Summon Divine Warrior | Призвать божественного воина |
+| Brand Weapon With Holy Wrath | Наделить оружие святым гневом |
+| Unearth Wretches | Вырвать страдальцев из земли |
+| Sign of Ruin | Знак разрушения |
+| Brand Weapon With Pain | Наделить оружие болью |
+| Receive Forbidden Knowledge | Получить запретное знание |
+| Duel | Дуэль |
+| Receive Weapon | Получить оружие |
+| Receive Armour | Получить доспех |
+| Unleash Destruction | Высвободить разрушительную силу |
+| Infernal Servant | Адский слуга |
+| Brand Self | Наложить на себя клеймо |
+| Infernal Legion | Адский легион |
+| Globe of Annihilation | Сфера уничтожения |
+| Vessel of Slaughter | Сосуд резни |
+| Channel Magic | Восстановление магии |
+| Forget Spell | Забыть заклинание |
+| Divine Exegesis | Божественная экзегеза |
+| Purification | Очищение |
+| Pacify | Умиротворить |
+| Divine Alms | Божественная милостыня |
+| Heal Self | Исцелить себя |
+| Aura of Vigour | Аура жизненной силы |
+| Depart the Abyss | Покинуть Бездну |
+| Banish | Изгнать |
+| Corrupt | Осквернить |
+| Enter the Abyss | Войти в Бездну |
+| Brand Weapon With Distortion | Наделить оружие искажением |
+| Draw | Вытянуть карту |
+| Triple Draw | Тройной выбор |
+| Deal Four | Раздать четыре |
+| Stack Five | Сложить пять |
+| Smiting | Божественная кара |
+| Recall Apostles | Призвать апостолов |
+| Dismiss Apostle | Отпустить апостола |
+| Recruit Apostle | Принять апостола |
+| Blood for Blood | Кровь за кровь |
+| Wall of Briars | Стена колючек |
+| Grow Ballistomycete | Вырастить баллистомицет |
+| Overgrow | Зарастить |
+| Grow Oklob | Вырастить оклоб |
+| Bend Time | Искривить время |
+| Temporal Distortion | Искажение времени |
+| Slouch | Леность |
+| Step From Time | Выйти из времени |
+| Oozemancy | Магия слизи |
+| Ritual of Binding | Ритуал связывания |
+| Shatter The Chains | Разбить оковы |
+| Shadowslip | Ускользнуть в тень |
+| Aphotic Marionette | Марионетка тьмы |
+| Primordial Nightfall | Первозданная ночь |
+| Potion Petition | Заказать зелья |
+| Call Merchant | Призвать торговца |
+| Bribe Branch | Подкупить ветвь |
+| Upheaval | Катаклизм |
+| Elemental Force | Стихийная сила |
+| Disaster Area | Зона бедствия |
+| Draw Out Power | Пробудить внутреннюю силу |
+| Power Leap | Мощный прыжок |
+| Apocalypse | Апокалипсис |
+| Sacrifice Purity | Пожертвовать чистотой |
+| Sacrifice Words | Пожертвовать словами |
+| Sacrifice Drink | Пожертвовать питьём |
+| Sacrifice Essence | Пожертвовать сущностью |
+| Sacrifice Health | Пожертвовать здоровьем |
+| Sacrifice Stealth | Пожертвовать скрытностью |
+| Sacrifice Forms | Пожертвовать формами |
+| Sacrifice Artifice | Пожертвовать искусностью |
+| Sacrifice Love | Пожертвовать любовью |
+| Sacrifice Courage | Пожертвовать мужеством |
+| Sacrifice Arcana | Пожертвовать школами магии |
+| Sacrifice Nimbleness | Пожертвовать проворством |
+| Sacrifice Durability | Пожертвовать стойкостью |
+| Sacrifice a Hand | Пожертвовать рукой |
+| Sacrifice Experience | Пожертвовать опытом |
+| Sacrifice Skill | Пожертвовать навыком |
+| Sacrifice an Eye | Пожертвовать глазом |
+| Sacrifice Resistance | Пожертвовать устойчивостью |
+| Reject Sacrifices | Отказаться от жертв |
+| Stomp | Топот |
+| Line Pass | Проход сквозь строй |
+| Grand Finale | Великий финал |
+| Renounce Religion | Отречься от веры |
+| Convert to Beogh | Принять веру Беога |
+| Donate Gold | Пожертвовать золото |
+| Recall Ancestor | Призвать предка |
+| Idealise | Идеализация |
+| Transference | Перемещение |
+| Ancestor Life: Knight | Жизнь предка: рыцарь |
+| Ancestor Life: Elementalist | Жизнь предка: элементалист |
+| Ancestor Life: Hexer | Жизнь предка: заклинатель чар |
+| Ancestor Identity | Личность предка |
+| Wall Jump | Прыжок от стены |
+| Heavenly Storm | Небесная буря |
+| Fiery Armour | Огненный доспех |
+| Foxfire Swarm | Рой лисьих огней |
+| Rising Flame | Восходящее пламя |
+| Hop | Прыжок |
+| Blinkbolt | Скачок молнии |
+| Siphon Essence | Поглощение сущности |
+| Evoke the Sceptre of Asmodeus | Пробудить Скипетр Асмодея |
+| Evoke Damnation | Вызвать адскую кару |
+| Evoke the Staff of Olgreb | Пробудить посох Олгреба |
+| Jump | Прыжок |
+| Watery Grave | Водяная могила |
+| Bestial Takedown | Звериный бросок |

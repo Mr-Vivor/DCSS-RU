@@ -76,7 +76,7 @@
         "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs"
       ],
       "entries": 235,
-      "translations_sha256": "acacd4fe0b0cf50b15dad89fcfa34d3513f9a31c37907d215973ac9e31368396"
+      "translations_sha256": "32d9d1d212d87e7fa5804438435f484eac2d79cd85de720fd91dcc8b9b533956"
     }
   },
   "messages": {
@@ -29851,6 +29851,38 @@
     "Begin Untransformation": {
       "context": "ability.txt; spell damage uses armour/resistance-ignoring damnation, not ordinary fire",
       "translation_sha256": "f60ba2684acff317e8abc81967240bdb02c4dd86e8a6a3892bc46bad03c892fd"
+    },
+    "Cure All Mutations": {
+      "context": "Current ability.txt/spells.txt; selected literal action and spell title",
+      "translation_sha256": "981e7dea880bc1d0fa5ec574a2a2deb1374336ba899bac273fd054efdd27492d"
+    },
+    "Unleash Destruction": {
+      "context": "Current ability.txt/spells.txt; selected literal action and spell title",
+      "translation_sha256": "7308640bc1b18ff14b316f0c2e11aa51c22bc8c9ce64906922f72750b7f63c3b"
+    },
+    "Draw": {
+      "context": "Current ability.txt/spells.txt; selected literal action and spell title",
+      "translation_sha256": "d5d126f48accde004f38a531c1e64b45557846648a2a7125fe533446204dc7dd"
+    },
+    "Haunt": {
+      "context": "Current ability.txt/spells.txt; selected literal action and spell title",
+      "translation_sha256": "8b1ce037ae2ee14354e207d63b8b7fa8c8c63da60658931ed11038b86c3572fd"
+    },
+    "Shatter The Chains": {
+      "context": "Current ability.txt; action and canonical name checked",
+      "translation_sha256": "767806a30dac9d4489284581bf736195627b093e6c77951837cc87772bcea820"
+    },
+    "Siphon Essence": {
+      "context": "Current ability.txt; action and canonical name checked",
+      "translation_sha256": "1db748e66392db1c89e90a3aea6155a4814047bace2968dc6dbc976d9b7c8d8f"
+    },
+    "Evoke Damnation": {
+      "context": "Current ability.txt; action and canonical name checked",
+      "translation_sha256": "093c342eeec8dde71ec507d6c1b7c95d25277f39b9e590325f58c12d8fded2c1"
+    },
+    "Evoke the Sceptre of Asmodeus": {
+      "context": "Current ability.txt; action and canonical name checked",
+      "translation_sha256": "f602aeb8b16c8c3b2fe1b3b51b48938a8d3bd045a0bfe0eeda457d80378676a7"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
