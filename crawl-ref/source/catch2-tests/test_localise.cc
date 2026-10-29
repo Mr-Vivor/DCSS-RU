@@ -212,7 +212,7 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("Train") == "Трен");
     CHECK(localise("Do you want to play this combination? [Y/n/q]")
           == "Играть этой комбинацией? [Y/n/q]");
-    CHECK(localise("Cast: ") == "Заклинание: ");
+    CHECK(localise("Cast: ") == "Сотворить: ");
     CHECK(localise("It affects your AC (+4).") == "Изменяет вашу броню (+4).");
     CHECK(localise("It greatly increases your willpower.") == "Значительно повышает вашу Волю.");
     CHECK(localise("Flame") == "Пламя");
@@ -430,6 +430,14 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     const string djinni = trimmed_string(getLongDescription("Spellcasting"));
     CHECK(djinni == "Навык Колдовства повышает вероятность успешного сотворения и силу всех заклинаний.");
     CHECK(getLongDescription("Invocations").find("запас магии") == string::npos);
+    you.species = SP_HUMAN;
+    const string human_hand = getLongDescription("Sacrifice a Hand ability");
+    CHECK(human_hand.find("щитами и двуручным оружием") != string::npos);
+    CHECK(human_hand.find("one fewer ring") == string::npos);
+    you.species = SP_FORMICID;
+    const string formicid_hand = getLongDescription("Sacrifice a Hand ability");
+    CHECK(formicid_hand.find("двуручным") == string::npos);
+    CHECK(formicid_hand.find("одно кольцо меньше") != string::npos);
     you.species = SP_HUMAN;
     const string human = getLongDescription("Spellcasting");
     CHECK(human.find("уровней для изучения") != string::npos);

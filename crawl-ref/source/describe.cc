@@ -5130,7 +5130,7 @@ static string _player_spell_desc(spell_type spell)
         // this preempts the more general uselessness call below, for the sake
         // of applying slightly different formatting.
         description << "\n<red>"
-                    << uppercase_first(casting_uselessness_reason(spell, true))
+                    << uppercase_first(localise(casting_uselessness_reason(spell, true)))
                     << "</red>\n";
     }
     else if (spell_is_useless(spell, true, false))

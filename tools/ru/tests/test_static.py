@@ -11,9 +11,22 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
 from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, reviewed_random_messages, message_syntax_matches
 from message_catalog import SOURCE, catalog as message_catalog, coverage as message_coverage, translations
+from generate import page_slug
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_ancestor_reference_pages_have_portable_distinct_paths(self):
+        from generate import page_slug
+        paths = []
+        for ancestor in ("Knight", "Elementalist", "Hexer"):
+            key = "Ancestor Life: " + ancestor + " ability"
+            slug = page_slug(key)
+            self.assertNotRegex(slug, r'[<>:"/\\|?*]')
+            page = ROOT / "wiki/ru/reference/ability" / (slug + ".md")
+            self.assertIn("**English:** " + key, page.read_text(encoding="utf8"))
+            paths.append(page)
+        self.assertEqual(len(set(paths)), 3)
+
     def test_random_messages_preserve_choices_weights_and_recursive_references(self):
         data = reviewed_random_messages()
         original = read_db(ROOT / "crawl-ref/source/dat/database/miscname.txt")
@@ -102,7 +115,7 @@ class StaticTranslationTests(unittest.TestCase):
         generated = read_db(ROOT / "crawl-ref/source/dat/translate/ru/system.txt", True)
         self.assertEqual(generated, messages)
         self.assertEqual(generated[" Continue?"], " Продолжить?")
-        self.assertEqual(generated["Cast: "], "Заклинание: ")
+        self.assertEqual(generated["Cast: "], "Сотворить: ")
 
     def test_reviewed_mechanics_match_current_source_and_generated_text(self):
         data = reviewed_descriptions()  # Validates source hashes, references and Lua.
@@ -117,7 +130,7 @@ class StaticTranslationTests(unittest.TestCase):
             for key, entry in data[filename].items():
                 self.assertEqual(wiki[key]["text"], entry["text"], key)
                 if wiki[key]["title"]:
-                    page = (ROOT / "wiki/ru/reference" / filename / (key.lower().replace(" ", "-") + ".md")).read_text(encoding="utf8")
+                page = (ROOT / "wiki/ru/reference" / filename / (page_slug(key) + ".md")).read_text(encoding="utf8")
                     self.assertIn(entry.get("wiki_text", entry["text"]), page, key)
 
     def test_token_protection_distinguishes_contexts_and_natural_percentages(self):

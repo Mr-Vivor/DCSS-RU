@@ -2330,7 +2330,7 @@ You attack empty space.
 %%%%
 "Cast: "
 
-"Заклинание: "
+"Сотворить: "
 %%%%
 Capacitive Coupling
 
@@ -16598,23 +16598,23 @@ you're too confused to cast spells.
 %%%%
 you aren't experienced enough to cast this spell.
 
-вам не хватает опыта для этого заклинания.
+у вас недостаточно опыта для сотворения этого заклинания.
 %%%%
 you cannot pay life while functionally dead.
 
-нельзя платить жизнью, пока вы фактически мертвы.
+нельзя тратить жизненную силу, пока вы фактически мертвы.
 %%%%
 you don't have enough health to cast this spell.
 
-у вас недостаточно здоровья для этого заклинания.
+у вас недостаточно здоровья для сотворения этого заклинания.
 %%%%
 you don't have enough magic to cast this spell.
 
-у вас недостаточно магии для этого заклинания.
+у вас недостаточно магии для сотворения этого заклинания.
 %%%%
 your magic and health are inextricable.
 
-ваши магия и здоровье неразрывно связаны.
+ваши магия и здоровье неразделимы.
 %%%%
 your reserves of magic are already full.
 
@@ -16622,15 +16622,15 @@ your reserves of magic are already full.
 %%%%
 you cannot use spells of this school.
 
-вы не можете использовать заклинания этой школы.
+вы не можете применять заклинания этой школы.
 %%%%
 you cannot coerce anything to answer your summons.
 
-вы не можете заставить кого-либо ответить на ваш призыв.
+никто не откликнется на ваш призыв.
 %%%%
 you cannot coerce anything to obey you.
 
-вы не можете заставить кого-либо вам подчиняться.
+вы никого не можете заставить подчиниться вам.
 %%%%
 you can't cast spells right now.
 
@@ -16638,15 +16638,15 @@ you can't cast spells right now.
 %%%%
 you can't see any hostile targets that would be affected.
 
-вы не видите враждебных целей, на которых это подействует.
+вы не видите враждебных целей, на которые подействовало бы это заклинание.
 %%%%
 your stasis prevents you from teleporting.
 
-стазис не даёт вам телепортироваться.
+стазис не позволяет вам телепортироваться.
 %%%%
 your stasis precludes magical swiftness.
 
-стазис исключает магическую быстроту.
+стазис не позволяет магически ускорить ваше передвижение.
 %%%%
 this spell is already in effect.
 
@@ -16690,19 +16690,19 @@ this spell is useless without hands.
 %%%%
 you need to wait for the ground to become solid again.
 
-нужно дождаться, пока земля снова станет твёрдой.
+нужно дождаться, когда земля снова затвердеет.
 %%%%
 you cannot be healed further.
 
-дальше исцелить вас невозможно.
+ваше здоровье уже полностью восстановлено.
 %%%%
 you lack the resilience to cast this spell.
 
-вам не хватает жизненной стойкости для этого заклинания.
+вашего максимального запаса здоровья недостаточно для этого заклинания.
 %%%%
 you're too dead.
 
-вы слишком мертвы для этого.
+вы уже мертвы.
 %%%%
 you are already standing in death's doorway.
 
@@ -16710,7 +16710,7 @@ you are already standing in death's doorway.
 %%%%
 you are still too close to death's doorway.
 
-вы всё ещё слишком близки к порогу смерти.
+вы ещё слишком близки к порогу смерти.
 %%%%
 the film of ice won't work on stone.
 
@@ -16722,15 +16722,15 @@ your ring of flames would instantly melt the ice.
 %%%%
 you have no blood to sublime.
 
-у вас нет крови для сублимации.
+у вас нет крови, которую можно превратить в магию.
 %%%%
 you need to wait for the winds to calm down.
 
-нужно дождаться, пока ветер стихнет.
+нужно дождаться, когда утихнут ветры.
 %%%%
 the dungeon can only cope with one malign gateway at a time.
 
-подземелье выдерживает лишь одни зловещие врата одновременно.
+в подземелье одновременно может существовать лишь один зловещий портал.
 %%%%
 you can only summon one forest at a time.
 
@@ -16738,11 +16738,11 @@ you can only summon one forest at a time.
 %%%%
 you need more open space to fit a forest.
 
-для леса нужно больше открытого пространства.
+для леса нужно больше свободного пространства.
 %%%%
 you aren't next to any passable walls.
 
-рядом нет стен, сквозь которые можно пройти.
+рядом с вами нет стен, сквозь которые можно пройти.
 %%%%
 there is nothing nearby to animate!
 
@@ -16762,15 +16762,15 @@ the air is too still for clouds to form.
 %%%%
 a magic seal in the Gauntlet prevents this spell from working.
 
-волшебная печать в Испытании не даёт этому заклинанию действовать.
+магическая печать в Испытании препятствует действию этого заклинания.
 %%%%
 you cannot issue another dragon's call so soon.
 
-нельзя так скоро вновь воззвать к драконам.
+ещё слишком рано снова призывать драконов.
 %%%%
 you cannot sustain more frozen ramparts right now.
 
-сейчас вы не можете поддерживать дополнительные Ледяные валы.
+сейчас вы не можете поддерживать новые ледяные стены.
 %%%%
 you lack blood to transform.
 
@@ -16782,15 +16782,15 @@ you don't have any stones to cast with.
 %%%%
 you cannot sustain more bogs right now.
 
-сейчас вы не можете поддерживать дополнительные трясины.
+сейчас вы не можете поддерживать ещё одно болото.
 %%%%
 you cannot wear body armour.
 
-вы не можете носить нательные доспехи.
+вы не можете носить доспехи на теле.
 %%%%
 you have no body armour to summon the spirit of.
 
-на вас нет доспехов, дух которых можно призвать.
+на вас нет доспеха, чей дух можно призвать.
 %%%%
 A great freezing vortex appears around you.
 
@@ -30299,3 +30299,147 @@ Evoke Damnation
 Evoke the Sceptre of Asmodeus
 
 Пробудить Скипетр Асмодея
+%%%%
+Accuracy
+
+Точность
+%%%%
+Defences
+
+Защита
+%%%%
+Resists
+
+Сопротивления
+%%%%
+" (quivered)"
+
+" (подготовлено)"
+%%%%
+you cannot cast such powerful magic in your current form.
+
+в нынешнем облике вы не можете творить столь могущественные заклинания.
+%%%%
+@God@ won't allow you to cast this spell.
+
+@God@ не позволит вам сотворить это заклинание.
+%%%%
+you are still too unstable to blink.
+
+ваше положение в пространстве ещё слишком нестабильно для скачка.
+%%%%
+you're already travelling as fast as you can.
+
+вы уже передвигаетесь с предельной скоростью.
+%%%%
+you need more open space to create a gateway.
+
+для создания портала нужно больше свободного пространства.
+%%%%
+you're being held away from the wall.
+
+вас удерживают, не давая приблизиться к стене.
+%%%%
+necromancy does not work on golden corpses.
+
+некромантия не действует на превращённые в золото тела.
+%%%%
+you are already reaping souls!
+
+вы уже собираете души!
+%%%%
+you are already channelling the dead.
+
+вы уже направляете энергию мёртвых.
+%%%%
+you cannot redirect your momentum while unable to move.
+
+нельзя перенаправить инерцию движения, пока вы не можете двигаться.
+%%%%
+your stasis prevents you from launching yourself.
+
+стазис не позволяет вам резко метнуться вперёд.
+%%%%
+you cannot launch yourself while unable to move.
+
+нельзя метнуться вперёд, пока вы не можете двигаться.
+%%%%
+you cannot see anything nearby that you can launch.
+
+поблизости не видно ничего, что можно было бы швырнуть.
+%%%%
+there is no room nearby to place a sigil.
+
+поблизости нет места для печати.
+%%%%
+your canine familiar is too injured to answer your call.
+
+ваш пёс-фамильяр слишком ранен, чтобы откликнуться на призыв.
+%%%%
+local gravity is still too unstable to reorient.
+
+местная гравитация ещё слишком нестабильна для нового изменения направления.
+%%%%
+you are already unleashing a barrage of alchemical concoctions!
+
+вы уже ведёте обстрел алхимическими смесями!
+%%%%
+you must wait for your last cast of this to end!
+
+нужно дождаться окончания предыдущего применения!
+%%%%
+you cannot see far enough to hit anything with this spell.
+
+ваше поле зрения слишком мало, чтобы поразить что-либо этим заклинанием.
+%%%%
+you must harvest more living souls to recharge this spell.
+
+для восстановления зарядов этого заклинания нужно собрать ещё живые души.
+%%%%
+there are no nearby walls to construct a spike launcher in.
+
+поблизости нет стены, в которой можно соорудить шипомёт.
+%%%%
+there is no room to construct a sawblade.
+
+нет места для создания дисковой пилы.
+%%%%
+you cannot be moved right now.
+
+сейчас вас невозможно переместить.
+%%%%
+a crocodile could not survive beneath you.
+
+крокодил не смог бы выжить под вами.
+%%%%
+your pet crocodile is still here.
+
+ваш ручной крокодил ещё здесь.
+%%%%
+you must imprint a weapon on your paragon first! (Use the Imprint Weapon ability)
+
+сначала нужно запечатлеть оружие в вашем платиновом идеале! (Используйте способность «Запечатлеть оружие».)
+%%%%
+your paragon is already deployed, but not yet charged.
+
+ваш платиновый идеал уже развёрнут, но ещё не заряжен.
+%%%%
+you are already charging a Fortress Blast.
+
+вы уже накапливаете силу для «Взрыва крепости».
+%%%%
+you need to wait for the hot winds to gather around you again.
+
+нужно дождаться, когда жаркие ветры снова соберутся вокруг вас.
+%%%%
+This spell would have no effect right now because @reason@
+
+Сейчас это заклинание не подействует: @reason@
+%%%%
+You cannot cast this spell: @reason@
+
+Вы не можете сотворить это заклинание: @reason@
+%%%%
+You cannot memorise this spell: @reason@
+
+Вы не можете выучить это заклинание: @reason@

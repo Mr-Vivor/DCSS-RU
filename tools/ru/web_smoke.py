@@ -189,6 +189,11 @@ def main():
                     spell_page.wait_for_function("document.body.innerText.includes('непрерывный') && document.body.innerText.includes('сосредоточение')")
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-description.png"), full_page=True)
                     assert "piercing ray" not in spell_page.locator("body").inner_text()
+                    body = spell_page.locator("body").inner_text()
+                    for expected in ("Точность:", "Защита:", "Сопротивления:", "недостаточно опыта"):
+                        assert expected in body, body
+                    for untranslated in ("Accuracy:", "Defences:", "Resists:", "experienced enough"):
+                        assert untranslated not in body, body
                     spell_page.keyboard.press("Escape")
                     spell_page.wait_for_function("document.body.innerText.includes('Заклинания (описание)')")
                     spell_page.keyboard.press("Escape")
@@ -199,6 +204,8 @@ def main():
                     body = spell_page.locator("body").inner_text()
                     assert "все заклинания" in body, body
                     assert "focus mode" not in body, body
+                    assert "Сотворить: Магический дротик" in body, body
+                    assert "Cast:" not in body and "Magic Dart" not in body, body
                     spell_page.screenshot(path=str(ARTIFACTS / "quiver-menu.png"), full_page=True)
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)

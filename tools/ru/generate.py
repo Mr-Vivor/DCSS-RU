@@ -6,11 +6,17 @@ from pathlib import Path
 from collections import Counter
 import argparse
 import json
+import re
 from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions, reviewed_random_messages
 from message_catalog import coverage as message_coverage
 
 ROOT = Path(__file__).resolve().parents[2]
 CASES = ("nom", "gen", "dat", "acc", "ins", "prep")
+
+
+def page_slug(key):
+    # Colons create alternate data streams on Windows, rather than wiki pages.
+    return re.sub(r'-+', '-', re.sub(r'[<>:"/\\|?*\x00-\x20]+', '-', key.lower())).strip('-. ')
 
 
 def load_entities():
@@ -180,7 +186,7 @@ def outputs(entities):
             reference[filename][key] = dict(title=title, text=entry["text"], source_sha256=entry["source_sha256"])
             if not title:
                 continue  # Shared description fragments and ego lookup keys are not item names.
-            slug = key.lower().replace(" ", "-")
+            slug = page_slug(key)
             body = entry.get("wiki_text", entry["text"])
             result[ROOT / "wiki/ru/reference" / filename / (slug + ".md")] = (
                 f"# {title[:1].upper() + title[1:]}\n\n**English:** {key}\n\n{body}\n\n"

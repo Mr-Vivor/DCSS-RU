@@ -1853,12 +1853,12 @@
       "translation_sha256": "6baf1bb81124ef9232498d132db340ebe649c21846632d53f72fe606e86f454f"
     },
     "Continue: ": {
-      "context": "quiver.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "827729c704e14b04b9fefc32e68faaecef161696842b6051907ddfbba7e9829a"
     },
     "Cast: ": {
-      "context": "quiver.cc",
-      "translation_sha256": "8f0d69cbc325c76a48a8f5a96c60e76ed01fe2c578aa66fc8f6b708ccdaee41c"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "e32bcf9f2040aa1a5f992a8d4a1e32e1577c428cbe8781121801c81e4cc3d505"
     },
     "Capacitive Coupling": {
       "context": "quiver.cc",
@@ -1877,7 +1877,7 @@
       "translation_sha256": "c099fff2a09416e7fb3b6a4756c2a13dfc5994771f9d6f4ba5dc9cf5766ce314"
     },
     "Abil: ": {
-      "context": "quiver.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "964c3e4c8e1e36b94062d06b23f77ed32c07d76e2b01527255402671bb08492b"
     },
     "Drink: ": {
@@ -16149,63 +16149,63 @@
       "translation_sha256": "ec34b3c6acaa307e75e11be44bfc4b206ddac65b26c07f61ebfaf8b5fc8bd24d"
     },
     "you're too confused to cast spells.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "f849b9105e7d625f5a2ae4ecd6faef70e4525b0b81329929dd8e7681ba1554a5"
     },
     "you aren't experienced enough to cast this spell.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "9e43efe205813e83589490c6ba1d71fd2c3934aa684368164e6584cd94ddb328"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "0906f978036e05392f675e306616c787d698f9b7d1b771c737b6cdc8d26ab665"
     },
     "you cannot pay life while functionally dead.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "b3704f6510d74a1aa045863a72efac0b8d0c1231ac69562f67327718e101d8e3"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "92ab36b2b0baeb278511c8259e3e6d02987467efc80f8b3f12cb74bcd61fb7aa"
     },
     "you don't have enough health to cast this spell.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "aba31b4ceb03cb61316dd0f77ea328e2b512791e4d613dae32ed2aa87d1cd8af"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "c45d1e3710c549427fb96598342dcf523c6970d9df96be0227602e878c2d699a"
     },
     "you don't have enough magic to cast this spell.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "e4fa3e2779e1975859544a6e5425b0f859ee8844defafb45b36d58acd964533d"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "968db0f185b36ad8645405df9e1a221037ed43a6b54a64ddb8254dccacff18d6"
     },
     "your magic and health are inextricable.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "e8404f060f449b533f3aa7a2dd31b3cf2ab769ae25c922f8d64820aef596ac74"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "4ceb37b1b7d2a0c70083fee42133a8ea69405d4b99f9ba79073b0bc9b426a49a"
     },
     "your reserves of magic are already full.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "db67083b1bd0b8474b9fc6bf5e5ff1c2a878da7a3754b3194743198055283470"
     },
     "you cannot use spells of this school.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "21a5fa650411f4414f75513dfe7e9269690a1732361e8a64eb61b5ac2fe146bf"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "3649fef07d0cced3589bd089a58f349e9994abe9e7417d81e54d2e10556976ff"
     },
     "you cannot coerce anything to answer your summons.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "4231ba85e4ae6f01300fed817dd3b9ca7f4debb7c993061c0f43b633a472eaf6"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "cfc6bece6d480149a3186733122808ebf94d7e81aff412936a933f5081748693"
     },
     "you cannot coerce anything to obey you.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "31ce92fe6731b0155914ae38552d06f8a7e065a93445663d74f76fd6ed946e30"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "52428fe94bbb911eb1ce9ec48c33f6a9a5b01e755ba4dadf2f60c419bbec93a7"
     },
     "you can't cast spells right now.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "b94491d26c6d03f1367e4d2a2bf376d97ab1603d4b289bf1218990600f7ebc1a"
     },
     "you can't see any hostile targets that would be affected.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "58d391288f89fc4d7a0e36976be00d7b6e46f185fa58ad7400091b79e56f76aa"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "3c30c99154cbf1cde75e28bc7dd0ed5702b0d2d2b391466216d28101ba9030c1"
     },
     "your stasis prevents you from teleporting.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "880997a19335580048389c7fe7d36f046e805eabb97bf3fc0e85a75fb57844b0"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "7faf606a9e2ccb5ec59d11c4ce86702df33726e89c01bf2a86da6a41a7a1e6a3"
     },
     "your stasis precludes magical swiftness.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "8cd5f5d429277c8c7afd1646694987b65973b7f9337a65ad2daf22981a4e43fa"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "f0df8bd416d3d10491976349ff204ef01515947e7a980284801906cffe5fa73e"
     },
     "this spell is already in effect.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "e15a60f0c9f0cf73c31e27e0404d9a67381a8b77432b5d4970003ea5c23f8247"
     },
     "you're already traveling as fast as you can.": {
@@ -16213,7 +16213,7 @@
       "translation_sha256": "be42e46db77fcb5084453f62963e88079154aa4fb2aac50a0a0052f39a1bedda"
     },
     "you can't move.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "8fdd105e943f62e8cd4a14a6eb52c71ea163ef4a2d70b0d01752a5eff2790f36"
     },
     "invisibility won't help you when you glow in the dark.": {
@@ -16241,64 +16241,64 @@
       "translation_sha256": "5dd4341f06fa67560f8628be569a369ddf3637123091a8d85f2349ee64f4ac5e"
     },
     "this spell is useless without hands.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "38c0b9456e02b10a690e6287f4fc782192af786d35723d86a0be06b0dd1e5509"
     },
     "you need to wait for the ground to become solid again.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "b4d6362b1673304761b0e6863dfe72ef42d0210411344c910fafa7dd92cdc5b7"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "1a669414111512e0bd8a2bde870566b5165f12900e110a6587da4f6d2891befe"
     },
     "you cannot be healed further.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "ca93fabe52ca9e9c6d8634fa41c5db9be9c097b22653a9d1ef3852bf9c0b156c"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "b4722bff23d7e9e4fd0ede0548c554706d24b3a0bf1d5ec08c82368c490598de"
     },
     "you lack the resilience to cast this spell.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "b6773cdc32fd63b31f280540e4f6288f064caa8a2173e509ce55e1cbccbbac61"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "f7954e2704908f000ff3e2b8d47e43d7f4f9c329909d6761572eb171f2b3d3b4"
     },
     "you're too dead.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "48848b8e0de5b945bce0649065ec9f5976044ba8611badc72afa38113c0c21d2"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "1da069c3a2933cd4a986dfda91f8c84df84ff17cac8495cb05e4427d10457a59"
     },
     "you are already standing in death's doorway.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "bf4204d3942b6d67e7abf663edc519b86b42788bdedbb4947c3b1882588de402"
     },
     "you are still too close to death's doorway.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "95e35d79241cfe5cd0e9390efcde7ca17f36b2b00b75349fe22f9d48b9624bdb"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "f7f09b46f2c5d7fe88f7297e4b8a280a72b5401b784c3fd7a590ebaa57ce4289"
     },
     "the film of ice won't work on stone.": {
       "context": "spl-util.cc",
       "translation_sha256": "95b526c8bb3d7222ab0864701305a6442bb1f9925f1405680f9f6096c10163f9"
     },
     "your ring of flames would instantly melt the ice.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "db0c36d9d5269ceeebc6b13b6de7ec3f230b0d45f0330b12c41b15a8a9ea50e3"
     },
     "you have no blood to sublime.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "0eff484ac0c67b68dbc9209f6ce4db9e5910f67f89fd8dda16a37dee10fbea27"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "abee8c784897fc9ea278cf101f664ceff6b3d00987128f95bce1b2dcf5f795ea"
     },
     "you need to wait for the winds to calm down.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "07b89706aa3a124aae76a353f75e500296059358ce461cef3192bb8de375a525"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "ba5aafbf2009afe685b58d626e0d0efca0a36f10e44c7b0561fc15a4345e0758"
     },
     "the dungeon can only cope with one malign gateway at a time.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "2bd52d4a39f7d9a039db5af4ace8c8c593e1f2f6575548587d8f314659d01ea1"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "0b5f4ac65d68f2b5f69496fd8ce21a9604c17d833ce0cd6b17348dc2a2f82cc3"
     },
     "you can only summon one forest at a time.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "83b6ab781ff794f6037ee736005969cd5aaec4f9f3359565cdfc3f8e079609c9"
     },
     "you need more open space to fit a forest.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "043375014190d3d1229b79555e0b30281d2a48c5661c2ff02396a4b6fa3edc4b"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "5cbb1f562cd9b6ba9e749d2ce334371074a987cbb422ea4019cde50de50d4f8c"
     },
     "you aren't next to any passable walls.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "d8a4285411df906ed0bce50bcf9491796b8c9824c48e29ba9ffc999fab83a249"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "7ad0b78466147cd4c0d5b325cf3ce8f4ea85edae35b0558378e6d5158210e7c2"
     },
     "there is nothing nearby to animate!": {
       "context": "spl-util.cc",
@@ -16313,20 +16313,20 @@
       "translation_sha256": "9d843a7ff6e9eb06ff8833f9e75d40e4c1e2eab0cdcbfe04375d7bf57c5ad223"
     },
     "the air is too still for clouds to form.": {
-      "context": "spl-util.cc",
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "920c21aa51135d25b1b025ed80f4ca322402e4f67141449bcf3131ed710ac054"
     },
     "a magic seal in the Gauntlet prevents this spell from working.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "b0aa589f5539054f38e249c29b819a039fa7603a068bd1afb55d2b282d78842e"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "df8459c0a975c72078722d23c955c867d4b9d4da130f309f27c3b9b34293fb3d"
     },
     "you cannot issue another dragon's call so soon.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "2d55086c3fb586e1bbfe779097e297464224920c0d21ca98342d93fe91178c6a"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "8ba2d1300cf65b0e9bf11095df972af37c8e210f7e8ff80e0ab00a9d9227fa9e"
     },
     "you cannot sustain more frozen ramparts right now.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "40165c541ac557dab5b7d3c1e3c44f0576bab586c4b6b9c662b51d17c619a9b6"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "5773f88d63f12cc3a4e4c4882ead7789fec84f3f81eb6df15e30d58d134b1894"
     },
     "you lack blood to transform.": {
       "context": "spl-util.cc",
@@ -16337,16 +16337,16 @@
       "translation_sha256": "ec62471777bf0e7a2c6cc9b0e148b97f91895263562b241ed27146feec8f8ed6"
     },
     "you cannot sustain more bogs right now.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "671ba65cdd9fc95e02bec9da6c4af9fb4488388abb478f378d96bf3f4af35e07"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "67a11bc5b2298b7323ea32ef02073dfa4fc2b82245d51ced947b5b96d101fb12"
     },
     "you cannot wear body armour.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "bc94b80005baa8357c8174afc1ac5455638fb0b5d826677f59816379ebf6812f"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "9f3a396f43b5f345c296f4c33a1d2313edbd48b6ff9a71fd5ee089cd0dffae93"
     },
     "you have no body armour to summon the spirit of.": {
-      "context": "spl-util.cc",
-      "translation_sha256": "ef07c84d8588c17c4b55d3fc8d2fcc0d3215d24c5983bbb5d7022d3bfe3b01cb"
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "9ac77dcc6fcec8e344ec34e30033f4f53a9bcc27fb5c8c90732c6962d28ebbc5"
     },
     "A great freezing vortex appears around you.": {
       "context": "spl-vortex.cc",
@@ -29883,6 +29883,150 @@
     "Evoke the Sceptre of Asmodeus": {
       "context": "Current ability.txt; action and canonical name checked",
       "translation_sha256": "f602aeb8b16c8c3b2fe1b3b51b48938a8d3bd045a0bfe0eeda457d80378676a7"
+    },
+    "Accuracy": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "2f73b5866186dabb82b90a6b3ba38d1af9e06be67a5afaf774df85a2fb9d2a9a"
+    },
+    "Defences": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "792acb40e452f4c7c0d0aab8a8ce4545f9072bc8a4d7cc2796f0e961787bc7d0"
+    },
+    "Resists": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "62bb423bd3d927e29b93763dae121d78a27ce2ce45a1254bfc16fa939cba4e75"
+    },
+    " (quivered)": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "3498f25c12f488c3980749dfb9d155ef820a9055ea1da6b96abee2fac7e542d8"
+    },
+    "you cannot cast such powerful magic in your current form.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "19b33a70862b478bbf49046c11fb08a62e5a6a4662bb49c538b4aec88a2ea127"
+    },
+    "@God@ won't allow you to cast this spell.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "11eb8c2e29d5ad4cf7641dddeaa973ff612ec6568986d361037f0cc0f2777108"
+    },
+    "you are still too unstable to blink.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "b895c89430baf3d72c339bd3b4715c3a13a3ff2dc1829059494dd010f1fc7f00"
+    },
+    "you're already travelling as fast as you can.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "d4252d009a74d4fd335e56f39dbf972987b4f971a485051edab7d8d5a26d14b5"
+    },
+    "you need more open space to create a gateway.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "601940b002dbeb22742854c60da7bd4b31d14be6a5a506466ebbce777ec96314"
+    },
+    "you're being held away from the wall.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "57cbe8d45b073473775fd91bcfcb509a8d25faf1e5b39a3862fbb921f978419b"
+    },
+    "necromancy does not work on golden corpses.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "500a6a0472d42e78bc3b5861d2d2aed794fb1a6bd2f56eaa6e971a5fb609e5f6"
+    },
+    "you are already reaping souls!": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "47318daf5f5beed519636f151a891141e76d43cc7a0488fafe2b9de00c0661a1"
+    },
+    "you are already channelling the dead.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "31f8c8aba5ff8d9a0bc1c19219a307de4f599fa369866554f81cee8b2cf7d961"
+    },
+    "you cannot redirect your momentum while unable to move.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "4b45cc09dcd61c0d7a0883cb53136c6b51df7b76eb0876783ffac520eee0929a"
+    },
+    "your stasis prevents you from launching yourself.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "11db7e5bc6974496b1b26efc441b68c64d35fca25e5f9d8c79506992317126c1"
+    },
+    "you cannot launch yourself while unable to move.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "e19c8f7e853b6c470146bf3803e173f3817501b5dd8de57721d9c6899b38ece1"
+    },
+    "you cannot see anything nearby that you can launch.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "819b8c4cfe526683f736c6ebc725a2d7f6957aac975ffa26f299f9c5a95f8f9a"
+    },
+    "there is no room nearby to place a sigil.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "e65291ec06c3cf1aa4b8ed16f649f87b84793e752866279670742c42dd9e7449"
+    },
+    "your canine familiar is too injured to answer your call.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "4a2be37be25584ae27c5e2b312adcfcefdb7db95c0e471f1c55968e10933a08e"
+    },
+    "local gravity is still too unstable to reorient.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "1a57a72ff04e00097b17e6cf972a5dd4ec0be20cab8e7412e4549fc898d337f7"
+    },
+    "you are already unleashing a barrage of alchemical concoctions!": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "4eb3ab27e91594ea3167d68044f117a30c7a9a4e641328610bdd9d29967e672e"
+    },
+    "you must wait for your last cast of this to end!": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "96fd95f6e0effb80f1cb33aa6eac1dc9a0e78e85e427e2d9e18fa5f27bce2699"
+    },
+    "you cannot see far enough to hit anything with this spell.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "acfc2507dc8073688e345b28018051adfcb3387cbc7f53eca9ec7f5c96e2a637"
+    },
+    "you must harvest more living souls to recharge this spell.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "af65320ee2ab73360687b1bbe7c62451fad5bc8b97517c886f45861b6f471fa2"
+    },
+    "there are no nearby walls to construct a spike launcher in.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "4c3b58db4cb73441fe9a1cc4d4ea100123d6e0710f1125a605e15f0a2823e063"
+    },
+    "there is no room to construct a sawblade.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "999848b11ecca5bd3e92666411f2692dd4c198d1157326e50cf28b5987d8cfba"
+    },
+    "you cannot be moved right now.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "400506502e7db8783eeb56ff9db8ca36b70edb3bf3beeb7394e1675773c05028"
+    },
+    "a crocodile could not survive beneath you.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "5e111077d005556e4beb9577411cf51cb7ba86424bbc8ecc8dbf8140a596982d"
+    },
+    "your pet crocodile is still here.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "f279f7c3b86fc9e97d05b2ced906092a73ffc1c6da4b1e0e82600b86d5d5d64d"
+    },
+    "you must imprint a weapon on your paragon first! (Use the Imprint Weapon ability)": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "ea72814799e9c8493f92a4b564b8e3ac98a6b728971f7c3a16f980ee0a9e5cc5"
+    },
+    "your paragon is already deployed, but not yet charged.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "e34ba79eee6857e2b0dc933f4038d126af07001cc3b225f08168b4bce9d74ece"
+    },
+    "you are already charging a Fortress Blast.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "e2c3380c1a88aa0f88ae5a588cca76fa249a6f1726c0cf55681046c3b28f92d1"
+    },
+    "you need to wait for the hot winds to gather around you again.": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "7fc6b566fb8f4633eb2386a951447764ed6a38c664d700f55ddc0612ffad2a81"
+    },
+    "This spell would have no effect right now because @reason@": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "40123c306b1166c8e408143dd04fb37bf10a659806d2cdb33daec3f57d6924c8"
+    },
+    "You cannot cast this spell: @reason@": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "5b53199ef61815d12f8af35e8daa2a34e5e1ab1504340c677510dee8fe9e5847"
+    },
+    "You cannot memorise this spell: @reason@": {
+      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
+      "translation_sha256": "69fc3778bb8c3f4ad2a7c4f1f020e901c8ef9690ccd51f3cb3525a50a093e658"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

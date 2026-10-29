@@ -409,7 +409,7 @@ namespace quiver
             {
                 string verb = you.confused() ? "confused " : "";
                 verb += quiver_verb();
-                qdesc.cprintf("%s: %c) ", uppercase_first(verb).c_str(),
+                qdesc.cprintf("%s: %c) ", localise(uppercase_first(verb)).c_str(),
                                 weapon.slot);
             }
 
@@ -423,7 +423,7 @@ namespace quiver
             else
                 qdesc.textcolour(LIGHTGREY);
 
-            qdesc += weapon.name(DESC_PLAIN, true);
+            qdesc += localise(weapon.name(DESC_PLAIN, true));
             return qdesc;
         }
 
@@ -516,7 +516,7 @@ namespace quiver
                 string verb = you.confused() ? "confused " : "";
 
                 verb += quiver_verb();
-                qdesc.cprintf("%s: %c) ", uppercase_first(verb).c_str(),
+                qdesc.cprintf("%s: %c) ", localise(uppercase_first(verb)).c_str(),
                                 weapon ? weapon->slot : '-');
             }
 
@@ -531,8 +531,8 @@ namespace quiver
             else
                 qdesc.textcolour(LIGHTGREY);
 
-            qdesc += weapon ? weapon->name(DESC_PLAIN, true)
-                            : you.unarmed_attack_name();
+            qdesc += localise(weapon ? weapon->name(DESC_PLAIN, true)
+                            : you.unarmed_attack_name());
 
             return qdesc;
         }
@@ -830,10 +830,10 @@ namespace quiver
             const item_def& quiver = you.inv[item_slot];
             ASSERT(quiver.link != NON_ITEM);
             qdesc.textcolour(Options.status_caption_colour);
-            qdesc.cprintf("%s: ", quiver_verb().c_str());
+            qdesc.cprintf("%s: ", localise(quiver_verb()).c_str());
 
             qdesc.textcolour(quiver_color());
-            qdesc += quiver.name(DESC_PLAIN, true);
+            qdesc += localise(quiver.name(DESC_PLAIN, true));
 
             return qdesc;
         }
@@ -959,7 +959,7 @@ namespace quiver
                     make_stringf("%s%s",
                                  you.confused() ? "confused " : "",
                                  is_throwable(&you, quiver) ? "throw" : "toss (no damage)");
-                qdesc.cprintf("%s: ", uppercase_first(verb).c_str());
+                qdesc.cprintf("%s: ", localise(uppercase_first(verb)).c_str());
             }
 
             // TODO: I don't actually know what this prefix stuff is
@@ -1184,15 +1184,15 @@ namespace quiver
 
             qdesc.textcolour(Options.status_caption_colour);
             if (channelled_spell_active(spell))
-                qdesc.cprintf("Continue: ");
+                qdesc.cprintf("%s", localise("Continue: ").c_str());
             else
-                qdesc.cprintf("Cast: ");
+                qdesc.cprintf("%s", localise("Cast: ").c_str());
 
             qdesc.textcolour(quiver_color());
 
             // TODO: is showing the spell letter useful?
-            qdesc.cprintf("%s", spell == SPELL_MAXWELLS_COUPLING ?
-                                "Capacitive Coupling" : spell_title(spell));
+            qdesc.cprintf("%s", localise(spell == SPELL_MAXWELLS_COUPLING ?
+                                "Capacitive Coupling" : spell_title(spell)).c_str());
 
             if (spell == SPELL_GRAVE_CLAW)
             {
@@ -1481,7 +1481,7 @@ namespace quiver
             formatted_string qdesc;
 
             qdesc.textcolour(Options.status_caption_colour);
-            qdesc.cprintf("Abil: ");
+            qdesc.cprintf("%s", localise("Abil: ").c_str());
 
             qdesc.textcolour(quiver_color());
             string abil_name = ability_name(ability);
@@ -1495,7 +1495,7 @@ namespace quiver
             }
             else
 #endif
-                qdesc.cprintf("%s", ability_name(ability).c_str());
+                qdesc.cprintf("%s", localise(ability_name(ability)).c_str());
 
             if (is_card_ability(ability))
                 qdesc.cprintf(" %s", nemelex_card_text(ability).c_str());
@@ -2507,7 +2507,7 @@ namespace quiver
                 return;
             string action_desc = a->quiver_description();
             if (you.quiver_action.item_is_quivered(a->get_item()))
-                action_desc += " (quivered)";
+                action_desc += localise(" (quivered)");
             MenuEntry *me = new MenuEntry(action_desc,
                                                 MEL_ITEM, 1,
                                                 (int) hotkey);
