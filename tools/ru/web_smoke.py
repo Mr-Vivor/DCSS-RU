@@ -154,8 +154,16 @@ def main():
                     (ARTIFACTS / "newgame-failure.txt").write_text(
                         page.locator("body").inner_text() + "\n" + "\n".join(errors), encoding="utf8")
                     raise
-                # A separate connection owns its own character. The Conjurer
-                # starts with Magic Dart learned and Searing Ray in the library.
+                # DGL-less mode has one shared process lock. Disconnect and wait
+                # for its normal save/exit before starting the second character.
+                page.context.close()
+                deadline = time.monotonic() + 20
+                while list(SOURCE.glob("game:*.ttyrec")):
+                    if time.monotonic() >= deadline:
+                        raise RuntimeError("First smoke character did not release its process lock")
+                    time.sleep(0.1)
+                # The Conjurer starts with Magic Dart learned and Searing Ray
+                # in the library; its spell descriptions can be read at level 1.
                 spell_context = browser.new_context(viewport={"width": 1280, "height": 900})
                 spell_page = spell_context.new_page()
                 spell_page.on("pageerror", lambda error: errors.append(str(error)))
