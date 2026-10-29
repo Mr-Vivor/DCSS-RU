@@ -291,6 +291,141 @@
 | phial of floods | флакон потопа |
 | sack of spiders | мешок пауков |
 | tin of tremorstones | коробка сотрясающих камней |
+| lance "Wyrmbane" | копьё «Вирмбейн» |
+| staff of Olgreb | посох Олгреба |
+| sceptre of Asmodeus | скипетр Асмодея |
+| book of air | книга воздуха |
+| book of annihilations | книга уничтожения |
+| book of armaments | книга вооружения |
+| book of battle | книга битвы |
+| book of beasts | книга зверей |
+| book of blasting | книга взрывов |
+| book of blood | книга крови |
+| book of burglary | книга взлома |
+| book of callings | книга призывов |
+| book of cantrips | книга простых чар |
+| book of chaos | книга хаоса |
+| book of conjurations | книга разрушения |
+| book of contraptions | книга механизмов |
+| book of cryoformation | книга ледяного зодчества |
+| book of dangerous friends | книга опасных друзей |
+| book of death | книга смерти |
+| book of debilitation | книга ослабления |
+| book of decay | книга тления |
+| book of displacement | книга смещения |
+| book of dreams | книга сновидений |
+| book of duality | книга двойственности |
+| book of fire | книга огня |
+| book of fixed level | книга заклинаний заданного уровня |
+| book of fixed theme | тематическая книга заклинаний |
+| book of flames | книга пламени |
+| book of frost | книга мороза |
+| book of the fortress | книга крепости |
+| book of geomancy | книга геомантии |
+| book of the grave | книга могилы |
+| book of hexes | книга проклятий |
+| book of ice | книга льда |
+| book of iron | книга железа |
+| book of lightning | книга молний |
+| book of maladies | книга недугов |
+| book of metalworking | книга обработки металлов |
+| book of minor magic | книга малой магии |
+| book of misfortune | книга несчастий |
+| book of movement | книга движения |
+| book of necromancy | книга некромантии |
+| book of party tricks | книга праздничных фокусов |
+| book of power | книга могущества |
+| book of scorching | книга зноя |
+| book of sloth | книга лености |
+| book of spatial translocations | книга пространственных перемещений |
+| book of spectacle | книга зрелищ |
+| book of spontaneous combustion | книга самовозгорания |
+| book of the spheres | книга сфер |
+| book of storms | книга бурь |
+| book of the dragon | книга дракона |
+| book of the wilderness | книга дикой природы |
+| book of the earth | книга земли |
+| book of the hunter | книга охотника |
+| book of the moon | книга луны |
+| book of the senses | книга чувств |
+| book of transmutation | книга превращения веществ |
+| book of the tundra | книга тундры |
+| book of the warp | книга искривления |
+| book of touch | книга прикосновений |
+| book of unlife | книга нежизни |
+| book of vapours | книга испарений |
+| book of weapons | книга оружия |
+| book of wicked creation | книга нечестивого созидания |
+| book of winter | книга зимы |
+| codex of conductivity | кодекс проводимости |
+| compendium of siegecraft | свод осадного искусства |
+| everburning encyclopedia | вечно пылающая энциклопедия |
+| fen folio | болотный фолиант |
+| book of Minor Magic | книга малой магии |
+| book of Conjurations | книга разрушения |
+| book of Flames | книга пламени |
+| book of Frost | книга мороза |
+| book of the Wilderness | книга дикой природы |
+| book of Fire | книга огня |
+| book of Ice | книга льда |
+| book of Spatial Translocations | книга пространственных перемещений |
+| book of Hexes | книга проклятий |
+| book of Lightning | книга молний |
+| book of Death | книга смерти |
+| book of Misfortune | книга несчастий |
+| book of Spontaneous Combustion | книга самовозгорания |
+| book of Battle | книга битвы |
+| book of Necromancy | книга некромантии |
+| book of Callings | книга призывов |
+| book of Air | книга воздуха |
+| book of the Warp | книга искривления |
+| book of Annihilations | книга уничтожения |
+| book of Unlife | книга нежизни |
+| book of Geomancy | книга геомантии |
+| book of the Earth | книга земли |
+| book of Power | книга могущества |
+| book of Cantrips | книга простых чар |
+| book of Party Tricks | книга праздничных фокусов |
+| book of Debilitation | книга ослабления |
+| book of the Dragon | книга дракона |
+| book of Burglary | книга взлома |
+| book of Dreams | книга сновидений |
+| book of Transmutation | книга превращения веществ |
+| book of Beasts | книга зверей |
+| book of Spectacle | книга зрелищ |
+| book of Winter | книга зимы |
+| book of the Spheres | книга сфер |
+| book of Armaments | книга вооружения |
+| book of Decay | книга тления |
+| book of Displacement | книга смещения |
+| book of the Senses | книга чувств |
+| book of Blasting | книга взрывов |
+| book of Iron | книга железа |
+| book of the Tundra | книга тундры |
+| book of the Moon | книга луны |
+| book of Storms | книга бурь |
+| book of Weapons | книга оружия |
+| book of Sloth | книга лености |
+| book of Blood | книга крови |
+| book of Dangerous Friends | книга опасных друзей |
+| book of Touch | книга прикосновений |
+| book of Chaos | книга хаоса |
+| book of the Hunter | книга охотника |
+| book of Scorching | книга зноя |
+| book of Movement | книга движения |
+| book of Wicked Creation | книга нечестивого созидания |
+| book of Maladies | книга недугов |
+| book of the Fortress | книга крепости |
+| book of Cryoformation | книга ледяного зодчества |
+| book of the Grave | книга могилы |
+| book of Metalworking | книга обработки металлов |
+| book of Duality | книга двойственности |
+| book of Contraptions | книга механизмов |
+| book of Fixed Theme | тематическая книга заклинаний |
+| Everburning Encyclopedia | вечно пылающая энциклопедия |
+| Fen Folio | болотный фолиант |
+| Compendium of Siegecraft | свод осадного искусства |
+| Codex of Conductivity | кодекс проводимости |
 
 ## ability
 

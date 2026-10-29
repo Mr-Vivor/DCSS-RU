@@ -409,7 +409,7 @@ namespace quiver
             {
                 string verb = you.confused() ? "confused " : "";
                 verb += quiver_verb();
-                qdesc.cprintf("%s: %c) ", localise(uppercase_first(verb)).c_str(),
+                qdesc.cprintf("%s: %c) ", localise_in_context("quiver-action", uppercase_first(verb)).c_str(),
                                 weapon.slot);
             }
 
@@ -516,7 +516,7 @@ namespace quiver
                 string verb = you.confused() ? "confused " : "";
 
                 verb += quiver_verb();
-                qdesc.cprintf("%s: %c) ", localise(uppercase_first(verb)).c_str(),
+                qdesc.cprintf("%s: %c) ", localise_in_context("quiver-action", uppercase_first(verb)).c_str(),
                                 weapon ? weapon->slot : '-');
             }
 
@@ -830,7 +830,7 @@ namespace quiver
             const item_def& quiver = you.inv[item_slot];
             ASSERT(quiver.link != NON_ITEM);
             qdesc.textcolour(Options.status_caption_colour);
-            qdesc.cprintf("%s: ", localise(quiver_verb()).c_str());
+            qdesc.cprintf("%s: ", localise_in_context("quiver-action", quiver_verb()).c_str());
 
             qdesc.textcolour(quiver_color());
             qdesc += localise(quiver.name(DESC_PLAIN, true));
@@ -959,7 +959,7 @@ namespace quiver
                     make_stringf("%s%s",
                                  you.confused() ? "confused " : "",
                                  is_throwable(&you, quiver) ? "throw" : "toss (no damage)");
-                qdesc.cprintf("%s: ", localise(uppercase_first(verb)).c_str());
+                qdesc.cprintf("%s: ", localise_in_context("quiver-action", uppercase_first(verb)).c_str());
             }
 
             // TODO: I don't actually know what this prefix stuff is
@@ -973,7 +973,7 @@ namespace quiver
                 qdesc.textcolour(prefcol);
             else
                 qdesc.textcolour(LIGHTGREY);
-            qdesc += quiver.name(DESC_PLAIN, true);
+            qdesc += localise(quiver.name(DESC_PLAIN, true));
 
             return qdesc;
         }

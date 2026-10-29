@@ -1049,15 +1049,16 @@ class ShopEntry : public InvEntry
         const int owned = shop_owned_consumable_count(*item);
         const string ownedstr =
             owned > 0 ? localise(make_stringf(" (owned: %d)", owned)) : "";
-        return make_stringf(" <%s>%c %c </%s><%s>%4d gold   %s%s%s</%s>",
+        return make_stringf(" <%s>%c %c </%s><%s>%4d%s%s%s%s</%s>",
                             keystr.c_str(),
                             hotkeys[0],
                             selected() ? '+' : on_list ? '$' : '-',
                             keystr.c_str(),
                             itemstr.c_str(),
                             cost,
-                            text.c_str(),
-                            shop_item_unknown(*item) ? " (unknown)" : "",
+                            localise(" gold   ").c_str(),
+                            localise(text).c_str(),
+                            shop_item_unknown(*item) ? localise(" (unknown)").c_str() : "",
                             ownedstr.c_str(),
                             itemstr.c_str());
     }
@@ -1158,10 +1159,10 @@ void ShopMenu::update_help()
     //[Esc] exit          [Tab] buy|examine items     [a-j] mark item for purchase
     //[/] sort (type)     [Enter] buy marked items    [A-J] put item on shopping list
     const bool voucher = have_voucher();
-    string top_line = make_stringf("<yellow>You have %d gold piece%s%s.",
+    string top_line = "<yellow>" + localise(make_stringf("You have %d gold piece%s%s.",
                                    you.gold,
                                    you.gold != 1 ? "s" : "",
-                                   voucher ? " and a voucher" : "");
+                                   voucher ? " and a voucher" : ""));
     const int total_cost = !can_purchase ? 0 : selected_cost(true);
     if (total_cost > you.gold)
     {
@@ -1170,27 +1171,27 @@ void ShopMenu::update_help()
         {
             top_line += "<lightred>";
             top_line +=
-                make_stringf(" Purchasing will use your shop voucher and %d gold piece%s.",
+                localise(make_stringf(" Purchasing will use your shop voucher and %d gold piece%s.",
                              total_cost - max,
-                             (total_cost - max != 1) ? "s" : "");
+                             (total_cost - max != 1) ? "s" : ""));
             top_line += "</lightred>";
         }
         else
         {
             top_line += "<lightred>";
             top_line +=
-                make_stringf(" You are short %d gold piece%s for the purchase.",
+                localise(make_stringf(" You are short %d gold piece%s for the purchase.",
                              total_cost - you.gold,
-                             (total_cost - you.gold != 1) ? "s" : "");
+                             (total_cost - you.gold != 1) ? "s" : ""));
             top_line += "</lightred>";
         }
     }
     else if (total_cost)
     {
         top_line +=
-            make_stringf(" After the purchase, you will have %d gold piece%s.",
+            localise(make_stringf(" After the purchase, you will have %d gold piece%s.",
                          you.gold - total_cost,
-                         (you.gold - total_cost != 1) ? "s" : "");
+                         (you.gold - total_cost != 1) ? "s" : ""));
     }
     top_line += "</yellow>";
     top_line = localise(top_line);
@@ -1239,12 +1240,15 @@ void ShopMenu::update_help()
     const string col = colour_to_str(channel_to_colour(MSGCH_PROMPT));
     if (outside_items)
     {
-        const formatted_string outside = formatted_string::parse_string(make_stringf(
-            "<%s>I'll put %s outside for you.</%s>\n",
-            col.c_str(),
+        const string outside_message = localise(make_stringf(
+            "I'll put %s outside for you.",
             bought_indices.size() == 1             ? "it" :
       (int) bought_indices.size() == outside_items ? "them"
-                                                   : "some of them",
+                                                   : "some of them"));
+        const formatted_string outside = formatted_string::parse_string(make_stringf(
+            "<%s>%s</%s>\n",
+            col.c_str(),
+            outside_message.c_str(),
             col.c_str()));
         set_more(outside + formatted_string::parse_string(top_line + m));
     }
@@ -1303,22 +1307,23 @@ void ShopMenu::purchase_selected()
         if (!have_voucher() || cost - max_cost(buying_from_list) > you.gold)
         {
             more = formatted_string::parse_string(make_stringf(
-                    "<%s>You don't have enough money.</%s>\n",
+                    "<%s>%s</%s>\n",
                     col.c_str(),
+                    localise("You don't have enough money.").c_str(),
                     col.c_str()));
             more += old_more;
             update_more();
             return;
         }
     }
-    more = formatted_string::parse_string(make_stringf(
-               "<%s>Purchase items%s for %d gold? %s (%s/N)</%s>\n",
-               col.c_str(),
+    const string purchase_prompt = localise(make_stringf(
+               "Purchase items%s for %d gold? %s (%s/N)",
                buying_from_list ? " in shopping list" : "",
                cost,
                too_expensive ? "This will use your shop voucher." : "",
-               Options.easy_confirm == easy_confirm_type::none ? "Y" : "y",
-               col.c_str()));
+               Options.easy_confirm == easy_confirm_type::none ? "Y" : "y"));
+    more = formatted_string::parse_string(make_stringf("<%s>%s</%s>\n",
+               col.c_str(), purchase_prompt.c_str(), col.c_str()));
     more += old_more;
     update_more();
     if (!yesno(nullptr, true, 'n', false, false, true))
@@ -2472,12 +2477,13 @@ void ShoppingList::fill_out_menu(Menu& shopmenu)
 
         const string etitle =
             make_stringf(
-                "%*s%5d gold  %s%s%s",
+                "%*s%5d%s%s%s%s",
                 longest,
                 describe_thing_pos(thing).c_str(),
                 cost,
-                name_thing(thing, DESC_A).c_str(),
-                unknown ? " (unknown)" : "",
+                localise(" gold  ").c_str(),
+                localise(name_thing(thing, DESC_A)).c_str(),
+                unknown ? localise(" (unknown)").c_str() : "",
                 ownedstr.c_str());
 
         MenuEntry *me = new MenuEntry(etitle, MEL_ITEM, 1, hotkey);

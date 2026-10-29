@@ -160,11 +160,17 @@ Cinder Acolyte
 Cleansing Flame
 Очищающее пламя
 %%%%
+Codex of Conductivity
+кодекс проводимости
+%%%%
 Coglin
 Коглин
 %%%%
 Combustion Breath
 Взрывное дыхание
+%%%%
+Compendium of Siegecraft
+свод осадного искусства
 %%%%
 Confusing Touch
 Касание замешательства
@@ -289,6 +295,9 @@ Ensorcelled Hibernation
 Enter the Abyss
 Войти в Бездну
 %%%%
+Everburning Encyclopedia
+вечно пылающая энциклопедия
+%%%%
 Evocations
 Управление устройствами
 %%%%
@@ -318,6 +327,9 @@ Fedhas
 %%%%
 Felid
 Фелид
+%%%%
+Fen Folio
+болотный фолиант
 %%%%
 Fiery Armour
 Огненный доспех
@@ -1120,11 +1132,17 @@ a Cinder Acolyte
 a Cleansing Flame
 очищающее пламя
 %%%%
+a Codex of Conductivity
+кодекс проводимости
+%%%%
 a Coglin
 коглин
 %%%%
 a Combustion Breath
 взрывное дыхание
+%%%%
+a Compendium of Siegecraft
+свод осадного искусства
 %%%%
 a Confusing Touch
 касание замешательства
@@ -1249,6 +1267,9 @@ a Ensorcelled Hibernation
 a Enter the Abyss
 войти в бездну
 %%%%
+a Everburning Encyclopedia
+вечно пылающая энциклопедия
+%%%%
 a Evocations
 управление устройствами
 %%%%
@@ -1278,6 +1299,9 @@ a Fedhas
 %%%%
 a Felid
 фелид
+%%%%
+a Fen Folio
+болотный фолиант
 %%%%
 a Fiery Armour
 огненный доспех
@@ -1960,8 +1984,386 @@ a athame
 a barding
 бардинг
 %%%%
+a book of Air
+книга воздуха
+%%%%
+a book of Annihilations
+книга уничтожения
+%%%%
+a book of Armaments
+книга вооружения
+%%%%
+a book of Battle
+книга битвы
+%%%%
+a book of Beasts
+книга зверей
+%%%%
+a book of Blasting
+книга взрывов
+%%%%
+a book of Blood
+книга крови
+%%%%
+a book of Burglary
+книга взлома
+%%%%
+a book of Callings
+книга призывов
+%%%%
+a book of Cantrips
+книга простых чар
+%%%%
+a book of Chaos
+книга хаоса
+%%%%
+a book of Conjurations
+книга разрушения
+%%%%
+a book of Contraptions
+книга механизмов
+%%%%
+a book of Cryoformation
+книга ледяного зодчества
+%%%%
+a book of Dangerous Friends
+книга опасных друзей
+%%%%
+a book of Death
+книга смерти
+%%%%
+a book of Debilitation
+книга ослабления
+%%%%
+a book of Decay
+книга тления
+%%%%
+a book of Displacement
+книга смещения
+%%%%
+a book of Dreams
+книга сновидений
+%%%%
+a book of Duality
+книга двойственности
+%%%%
+a book of Fire
+книга огня
+%%%%
+a book of Fixed Theme
+тематическая книга заклинаний
+%%%%
+a book of Flames
+книга пламени
+%%%%
+a book of Frost
+книга мороза
+%%%%
+a book of Geomancy
+книга геомантии
+%%%%
+a book of Hexes
+книга проклятий
+%%%%
+a book of Ice
+книга льда
+%%%%
+a book of Iron
+книга железа
+%%%%
+a book of Lightning
+книга молний
+%%%%
+a book of Maladies
+книга недугов
+%%%%
+a book of Metalworking
+книга обработки металлов
+%%%%
+a book of Minor Magic
+книга малой магии
+%%%%
+a book of Misfortune
+книга несчастий
+%%%%
+a book of Movement
+книга движения
+%%%%
+a book of Necromancy
+книга некромантии
+%%%%
+a book of Party Tricks
+книга праздничных фокусов
+%%%%
+a book of Power
+книга могущества
+%%%%
+a book of Scorching
+книга зноя
+%%%%
+a book of Sloth
+книга лености
+%%%%
+a book of Spatial Translocations
+книга пространственных перемещений
+%%%%
+a book of Spectacle
+книга зрелищ
+%%%%
+a book of Spontaneous Combustion
+книга самовозгорания
+%%%%
+a book of Storms
+книга бурь
+%%%%
+a book of Touch
+книга прикосновений
+%%%%
+a book of Transmutation
+книга превращения веществ
+%%%%
+a book of Unlife
+книга нежизни
+%%%%
+a book of Weapons
+книга оружия
+%%%%
+a book of Wicked Creation
+книга нечестивого созидания
+%%%%
+a book of Winter
+книга зимы
+%%%%
+a book of air
+книга воздуха
+%%%%
+a book of annihilations
+книга уничтожения
+%%%%
+a book of armaments
+книга вооружения
+%%%%
+a book of battle
+книга битвы
+%%%%
+a book of beasts
+книга зверей
+%%%%
+a book of blasting
+книга взрывов
+%%%%
+a book of blood
+книга крови
+%%%%
+a book of burglary
+книга взлома
+%%%%
+a book of callings
+книга призывов
+%%%%
+a book of cantrips
+книга простых чар
+%%%%
+a book of chaos
+книга хаоса
+%%%%
+a book of conjurations
+книга разрушения
+%%%%
+a book of contraptions
+книга механизмов
+%%%%
+a book of cryoformation
+книга ледяного зодчества
+%%%%
+a book of dangerous friends
+книга опасных друзей
+%%%%
+a book of death
+книга смерти
+%%%%
+a book of debilitation
+книга ослабления
+%%%%
+a book of decay
+книга тления
+%%%%
+a book of displacement
+книга смещения
+%%%%
+a book of dreams
+книга сновидений
+%%%%
+a book of duality
+книга двойственности
+%%%%
+a book of fire
+книга огня
+%%%%
+a book of fixed level
+книга заклинаний заданного уровня
+%%%%
+a book of fixed theme
+тематическая книга заклинаний
+%%%%
+a book of flames
+книга пламени
+%%%%
+a book of frost
+книга мороза
+%%%%
+a book of geomancy
+книга геомантии
+%%%%
+a book of hexes
+книга проклятий
+%%%%
+a book of ice
+книга льда
+%%%%
+a book of iron
+книга железа
+%%%%
+a book of lightning
+книга молний
+%%%%
+a book of maladies
+книга недугов
+%%%%
+a book of metalworking
+книга обработки металлов
+%%%%
+a book of minor magic
+книга малой магии
+%%%%
+a book of misfortune
+книга несчастий
+%%%%
+a book of movement
+книга движения
+%%%%
+a book of necromancy
+книга некромантии
+%%%%
+a book of party tricks
+книга праздничных фокусов
+%%%%
+a book of power
+книга могущества
+%%%%
+a book of scorching
+книга зноя
+%%%%
+a book of sloth
+книга лености
+%%%%
+a book of spatial translocations
+книга пространственных перемещений
+%%%%
+a book of spectacle
+книга зрелищ
+%%%%
+a book of spontaneous combustion
+книга самовозгорания
+%%%%
+a book of storms
+книга бурь
+%%%%
+a book of the Dragon
+книга дракона
+%%%%
+a book of the Earth
+книга земли
+%%%%
+a book of the Fortress
+книга крепости
+%%%%
+a book of the Grave
+книга могилы
+%%%%
+a book of the Hunter
+книга охотника
+%%%%
+a book of the Moon
+книга луны
+%%%%
+a book of the Senses
+книга чувств
+%%%%
+a book of the Spheres
+книга сфер
+%%%%
+a book of the Tundra
+книга тундры
+%%%%
+a book of the Warp
+книга искривления
+%%%%
+a book of the Wilderness
+книга дикой природы
+%%%%
+a book of the dragon
+книга дракона
+%%%%
+a book of the earth
+книга земли
+%%%%
+a book of the fortress
+книга крепости
+%%%%
+a book of the grave
+книга могилы
+%%%%
+a book of the hunter
+книга охотника
+%%%%
+a book of the moon
+книга луны
+%%%%
+a book of the senses
+книга чувств
+%%%%
+a book of the spheres
+книга сфер
+%%%%
+a book of the tundra
+книга тундры
+%%%%
+a book of the warp
+книга искривления
+%%%%
+a book of the wilderness
+книга дикой природы
+%%%%
+a book of touch
+книга прикосновений
+%%%%
+a book of transmutation
+книга превращения веществ
+%%%%
+a book of unlife
+книга нежизни
+%%%%
+a book of vapours
+книга испарений
+%%%%
+a book of weapons
+книга оружия
+%%%%
+a book of wicked creation
+книга нечестивого созидания
+%%%%
+a book of winter
+книга зимы
+%%%%
 a box of beasts
 ящик зверей
+%%%%
+a codex of conductivity
+кодекс проводимости
+%%%%
+a compendium of siegecraft
+свод осадного искусства
 %%%%
 a condenser vane
 конденсатор облаков
@@ -1989,6 +2391,12 @@ a eudemon blade
 %%%%
 a eveningstar
 вечерняя звезда
+%%%%
+a everburning encyclopedia
+вечно пылающая энциклопедия
+%%%%
+a fen folio
+болотный фолиант
 %%%%
 a figurine of a ziggurat
 фигурка зиккурата
@@ -2019,6 +2427,9 @@ a horn of Geryon
 %%%%
 a ice dragon scales
 чешуя ледяного дракона
+%%%%
+a lance "Wyrmbane"
+копьё «вирмбейн»
 %%%%
 a large rock
 большой камень
@@ -2113,6 +2524,9 @@ a sacred scourge
 a scarf
 шарф
 %%%%
+a sceptre of Asmodeus
+скипетр асмодея
+%%%%
 a scroll of amnesia
 свиток амнезии
 %%%%
@@ -2130,6 +2544,9 @@ a scythe
 %%%%
 a shadow dragon scales
 чешуя теневого дракона
+%%%%
+a staff of Olgreb
+посох олгреба
 %%%%
 a staff of air
 посох воздуха
@@ -2233,8 +2650,386 @@ athame
 barding
 бардинг
 %%%%
+book of Air
+книга воздуха
+%%%%
+book of Annihilations
+книга уничтожения
+%%%%
+book of Armaments
+книга вооружения
+%%%%
+book of Battle
+книга битвы
+%%%%
+book of Beasts
+книга зверей
+%%%%
+book of Blasting
+книга взрывов
+%%%%
+book of Blood
+книга крови
+%%%%
+book of Burglary
+книга взлома
+%%%%
+book of Callings
+книга призывов
+%%%%
+book of Cantrips
+книга простых чар
+%%%%
+book of Chaos
+книга хаоса
+%%%%
+book of Conjurations
+книга разрушения
+%%%%
+book of Contraptions
+книга механизмов
+%%%%
+book of Cryoformation
+книга ледяного зодчества
+%%%%
+book of Dangerous Friends
+книга опасных друзей
+%%%%
+book of Death
+книга смерти
+%%%%
+book of Debilitation
+книга ослабления
+%%%%
+book of Decay
+книга тления
+%%%%
+book of Displacement
+книга смещения
+%%%%
+book of Dreams
+книга сновидений
+%%%%
+book of Duality
+книга двойственности
+%%%%
+book of Fire
+книга огня
+%%%%
+book of Fixed Theme
+тематическая книга заклинаний
+%%%%
+book of Flames
+книга пламени
+%%%%
+book of Frost
+книга мороза
+%%%%
+book of Geomancy
+книга геомантии
+%%%%
+book of Hexes
+книга проклятий
+%%%%
+book of Ice
+книга льда
+%%%%
+book of Iron
+книга железа
+%%%%
+book of Lightning
+книга молний
+%%%%
+book of Maladies
+книга недугов
+%%%%
+book of Metalworking
+книга обработки металлов
+%%%%
+book of Minor Magic
+книга малой магии
+%%%%
+book of Misfortune
+книга несчастий
+%%%%
+book of Movement
+книга движения
+%%%%
+book of Necromancy
+книга некромантии
+%%%%
+book of Party Tricks
+книга праздничных фокусов
+%%%%
+book of Power
+книга могущества
+%%%%
+book of Scorching
+книга зноя
+%%%%
+book of Sloth
+книга лености
+%%%%
+book of Spatial Translocations
+книга пространственных перемещений
+%%%%
+book of Spectacle
+книга зрелищ
+%%%%
+book of Spontaneous Combustion
+книга самовозгорания
+%%%%
+book of Storms
+книга бурь
+%%%%
+book of Touch
+книга прикосновений
+%%%%
+book of Transmutation
+книга превращения веществ
+%%%%
+book of Unlife
+книга нежизни
+%%%%
+book of Weapons
+книга оружия
+%%%%
+book of Wicked Creation
+книга нечестивого созидания
+%%%%
+book of Winter
+книга зимы
+%%%%
+book of air
+книга воздуха
+%%%%
+book of annihilations
+книга уничтожения
+%%%%
+book of armaments
+книга вооружения
+%%%%
+book of battle
+книга битвы
+%%%%
+book of beasts
+книга зверей
+%%%%
+book of blasting
+книга взрывов
+%%%%
+book of blood
+книга крови
+%%%%
+book of burglary
+книга взлома
+%%%%
+book of callings
+книга призывов
+%%%%
+book of cantrips
+книга простых чар
+%%%%
+book of chaos
+книга хаоса
+%%%%
+book of conjurations
+книга разрушения
+%%%%
+book of contraptions
+книга механизмов
+%%%%
+book of cryoformation
+книга ледяного зодчества
+%%%%
+book of dangerous friends
+книга опасных друзей
+%%%%
+book of death
+книга смерти
+%%%%
+book of debilitation
+книга ослабления
+%%%%
+book of decay
+книга тления
+%%%%
+book of displacement
+книга смещения
+%%%%
+book of dreams
+книга сновидений
+%%%%
+book of duality
+книга двойственности
+%%%%
+book of fire
+книга огня
+%%%%
+book of fixed level
+книга заклинаний заданного уровня
+%%%%
+book of fixed theme
+тематическая книга заклинаний
+%%%%
+book of flames
+книга пламени
+%%%%
+book of frost
+книга мороза
+%%%%
+book of geomancy
+книга геомантии
+%%%%
+book of hexes
+книга проклятий
+%%%%
+book of ice
+книга льда
+%%%%
+book of iron
+книга железа
+%%%%
+book of lightning
+книга молний
+%%%%
+book of maladies
+книга недугов
+%%%%
+book of metalworking
+книга обработки металлов
+%%%%
+book of minor magic
+книга малой магии
+%%%%
+book of misfortune
+книга несчастий
+%%%%
+book of movement
+книга движения
+%%%%
+book of necromancy
+книга некромантии
+%%%%
+book of party tricks
+книга праздничных фокусов
+%%%%
+book of power
+книга могущества
+%%%%
+book of scorching
+книга зноя
+%%%%
+book of sloth
+книга лености
+%%%%
+book of spatial translocations
+книга пространственных перемещений
+%%%%
+book of spectacle
+книга зрелищ
+%%%%
+book of spontaneous combustion
+книга самовозгорания
+%%%%
+book of storms
+книга бурь
+%%%%
+book of the Dragon
+книга дракона
+%%%%
+book of the Earth
+книга земли
+%%%%
+book of the Fortress
+книга крепости
+%%%%
+book of the Grave
+книга могилы
+%%%%
+book of the Hunter
+книга охотника
+%%%%
+book of the Moon
+книга луны
+%%%%
+book of the Senses
+книга чувств
+%%%%
+book of the Spheres
+книга сфер
+%%%%
+book of the Tundra
+книга тундры
+%%%%
+book of the Warp
+книга искривления
+%%%%
+book of the Wilderness
+книга дикой природы
+%%%%
+book of the dragon
+книга дракона
+%%%%
+book of the earth
+книга земли
+%%%%
+book of the fortress
+книга крепости
+%%%%
+book of the grave
+книга могилы
+%%%%
+book of the hunter
+книга охотника
+%%%%
+book of the moon
+книга луны
+%%%%
+book of the senses
+книга чувств
+%%%%
+book of the spheres
+книга сфер
+%%%%
+book of the tundra
+книга тундры
+%%%%
+book of the warp
+книга искривления
+%%%%
+book of the wilderness
+книга дикой природы
+%%%%
+book of touch
+книга прикосновений
+%%%%
+book of transmutation
+книга превращения веществ
+%%%%
+book of unlife
+книга нежизни
+%%%%
+book of vapours
+книга испарений
+%%%%
+book of weapons
+книга оружия
+%%%%
+book of wicked creation
+книга нечестивого созидания
+%%%%
+book of winter
+книга зимы
+%%%%
 box of beasts
 ящик зверей
+%%%%
+codex of conductivity
+кодекс проводимости
+%%%%
+compendium of siegecraft
+свод осадного искусства
 %%%%
 condenser vane
 конденсатор облаков
@@ -2262,6 +3057,12 @@ eudemon blade
 %%%%
 eveningstar
 вечерняя звезда
+%%%%
+everburning encyclopedia
+вечно пылающая энциклопедия
+%%%%
+fen folio
+болотный фолиант
 %%%%
 figurine of a ziggurat
 фигурка зиккурата
@@ -2292,6 +3093,9 @@ horn of Geryon
 %%%%
 ice dragon scales
 чешуя ледяного дракона
+%%%%
+lance "Wyrmbane"
+копьё «Вирмбейн»
 %%%%
 large rock
 большой камень
@@ -2386,6 +3190,9 @@ sacred scourge
 scarf
 шарф
 %%%%
+sceptre of Asmodeus
+скипетр Асмодея
+%%%%
 scroll of amnesia
 свиток амнезии
 %%%%
@@ -2403,6 +3210,9 @@ scythe
 %%%%
 shadow dragon scales
 чешуя теневого дракона
+%%%%
+staff of Olgreb
+посох Олгреба
 %%%%
 staff of air
 посох воздуха
@@ -2593,11 +3403,17 @@ the Cinder Acolyte
 the Cleansing Flame
 очищающее пламя
 %%%%
+the Codex of Conductivity
+кодекс проводимости
+%%%%
 the Coglin
 коглин
 %%%%
 the Combustion Breath
 взрывное дыхание
+%%%%
+the Compendium of Siegecraft
+свод осадного искусства
 %%%%
 the Confusing Touch
 касание замешательства
@@ -2722,6 +3538,9 @@ the Ensorcelled Hibernation
 the Enter the Abyss
 войти в бездну
 %%%%
+the Everburning Encyclopedia
+вечно пылающая энциклопедия
+%%%%
 the Evocations
 управление устройствами
 %%%%
@@ -2751,6 +3570,9 @@ the Fedhas
 %%%%
 the Felid
 фелид
+%%%%
+the Fen Folio
+болотный фолиант
 %%%%
 the Fiery Armour
 огненный доспех
@@ -3436,8 +4258,386 @@ the athame
 the barding
 бардинг
 %%%%
+the book of Air
+книга воздуха
+%%%%
+the book of Annihilations
+книга уничтожения
+%%%%
+the book of Armaments
+книга вооружения
+%%%%
+the book of Battle
+книга битвы
+%%%%
+the book of Beasts
+книга зверей
+%%%%
+the book of Blasting
+книга взрывов
+%%%%
+the book of Blood
+книга крови
+%%%%
+the book of Burglary
+книга взлома
+%%%%
+the book of Callings
+книга призывов
+%%%%
+the book of Cantrips
+книга простых чар
+%%%%
+the book of Chaos
+книга хаоса
+%%%%
+the book of Conjurations
+книга разрушения
+%%%%
+the book of Contraptions
+книга механизмов
+%%%%
+the book of Cryoformation
+книга ледяного зодчества
+%%%%
+the book of Dangerous Friends
+книга опасных друзей
+%%%%
+the book of Death
+книга смерти
+%%%%
+the book of Debilitation
+книга ослабления
+%%%%
+the book of Decay
+книга тления
+%%%%
+the book of Displacement
+книга смещения
+%%%%
+the book of Dreams
+книга сновидений
+%%%%
+the book of Duality
+книга двойственности
+%%%%
+the book of Fire
+книга огня
+%%%%
+the book of Fixed Theme
+тематическая книга заклинаний
+%%%%
+the book of Flames
+книга пламени
+%%%%
+the book of Frost
+книга мороза
+%%%%
+the book of Geomancy
+книга геомантии
+%%%%
+the book of Hexes
+книга проклятий
+%%%%
+the book of Ice
+книга льда
+%%%%
+the book of Iron
+книга железа
+%%%%
+the book of Lightning
+книга молний
+%%%%
+the book of Maladies
+книга недугов
+%%%%
+the book of Metalworking
+книга обработки металлов
+%%%%
+the book of Minor Magic
+книга малой магии
+%%%%
+the book of Misfortune
+книга несчастий
+%%%%
+the book of Movement
+книга движения
+%%%%
+the book of Necromancy
+книга некромантии
+%%%%
+the book of Party Tricks
+книга праздничных фокусов
+%%%%
+the book of Power
+книга могущества
+%%%%
+the book of Scorching
+книга зноя
+%%%%
+the book of Sloth
+книга лености
+%%%%
+the book of Spatial Translocations
+книга пространственных перемещений
+%%%%
+the book of Spectacle
+книга зрелищ
+%%%%
+the book of Spontaneous Combustion
+книга самовозгорания
+%%%%
+the book of Storms
+книга бурь
+%%%%
+the book of Touch
+книга прикосновений
+%%%%
+the book of Transmutation
+книга превращения веществ
+%%%%
+the book of Unlife
+книга нежизни
+%%%%
+the book of Weapons
+книга оружия
+%%%%
+the book of Wicked Creation
+книга нечестивого созидания
+%%%%
+the book of Winter
+книга зимы
+%%%%
+the book of air
+книга воздуха
+%%%%
+the book of annihilations
+книга уничтожения
+%%%%
+the book of armaments
+книга вооружения
+%%%%
+the book of battle
+книга битвы
+%%%%
+the book of beasts
+книга зверей
+%%%%
+the book of blasting
+книга взрывов
+%%%%
+the book of blood
+книга крови
+%%%%
+the book of burglary
+книга взлома
+%%%%
+the book of callings
+книга призывов
+%%%%
+the book of cantrips
+книга простых чар
+%%%%
+the book of chaos
+книга хаоса
+%%%%
+the book of conjurations
+книга разрушения
+%%%%
+the book of contraptions
+книга механизмов
+%%%%
+the book of cryoformation
+книга ледяного зодчества
+%%%%
+the book of dangerous friends
+книга опасных друзей
+%%%%
+the book of death
+книга смерти
+%%%%
+the book of debilitation
+книга ослабления
+%%%%
+the book of decay
+книга тления
+%%%%
+the book of displacement
+книга смещения
+%%%%
+the book of dreams
+книга сновидений
+%%%%
+the book of duality
+книга двойственности
+%%%%
+the book of fire
+книга огня
+%%%%
+the book of fixed level
+книга заклинаний заданного уровня
+%%%%
+the book of fixed theme
+тематическая книга заклинаний
+%%%%
+the book of flames
+книга пламени
+%%%%
+the book of frost
+книга мороза
+%%%%
+the book of geomancy
+книга геомантии
+%%%%
+the book of hexes
+книга проклятий
+%%%%
+the book of ice
+книга льда
+%%%%
+the book of iron
+книга железа
+%%%%
+the book of lightning
+книга молний
+%%%%
+the book of maladies
+книга недугов
+%%%%
+the book of metalworking
+книга обработки металлов
+%%%%
+the book of minor magic
+книга малой магии
+%%%%
+the book of misfortune
+книга несчастий
+%%%%
+the book of movement
+книга движения
+%%%%
+the book of necromancy
+книга некромантии
+%%%%
+the book of party tricks
+книга праздничных фокусов
+%%%%
+the book of power
+книга могущества
+%%%%
+the book of scorching
+книга зноя
+%%%%
+the book of sloth
+книга лености
+%%%%
+the book of spatial translocations
+книга пространственных перемещений
+%%%%
+the book of spectacle
+книга зрелищ
+%%%%
+the book of spontaneous combustion
+книга самовозгорания
+%%%%
+the book of storms
+книга бурь
+%%%%
+the book of the Dragon
+книга дракона
+%%%%
+the book of the Earth
+книга земли
+%%%%
+the book of the Fortress
+книга крепости
+%%%%
+the book of the Grave
+книга могилы
+%%%%
+the book of the Hunter
+книга охотника
+%%%%
+the book of the Moon
+книга луны
+%%%%
+the book of the Senses
+книга чувств
+%%%%
+the book of the Spheres
+книга сфер
+%%%%
+the book of the Tundra
+книга тундры
+%%%%
+the book of the Warp
+книга искривления
+%%%%
+the book of the Wilderness
+книга дикой природы
+%%%%
+the book of the dragon
+книга дракона
+%%%%
+the book of the earth
+книга земли
+%%%%
+the book of the fortress
+книга крепости
+%%%%
+the book of the grave
+книга могилы
+%%%%
+the book of the hunter
+книга охотника
+%%%%
+the book of the moon
+книга луны
+%%%%
+the book of the senses
+книга чувств
+%%%%
+the book of the spheres
+книга сфер
+%%%%
+the book of the tundra
+книга тундры
+%%%%
+the book of the warp
+книга искривления
+%%%%
+the book of the wilderness
+книга дикой природы
+%%%%
+the book of touch
+книга прикосновений
+%%%%
+the book of transmutation
+книга превращения веществ
+%%%%
+the book of unlife
+книга нежизни
+%%%%
+the book of vapours
+книга испарений
+%%%%
+the book of weapons
+книга оружия
+%%%%
+the book of wicked creation
+книга нечестивого созидания
+%%%%
+the book of winter
+книга зимы
+%%%%
 the box of beasts
 ящик зверей
+%%%%
+the codex of conductivity
+кодекс проводимости
+%%%%
+the compendium of siegecraft
+свод осадного искусства
 %%%%
 the condenser vane
 конденсатор облаков
@@ -3465,6 +4665,12 @@ the eudemon blade
 %%%%
 the eveningstar
 вечерняя звезда
+%%%%
+the everburning encyclopedia
+вечно пылающая энциклопедия
+%%%%
+the fen folio
+болотный фолиант
 %%%%
 the figurine of a ziggurat
 фигурка зиккурата
@@ -3495,6 +4701,9 @@ the horn of Geryon
 %%%%
 the ice dragon scales
 чешуя ледяного дракона
+%%%%
+the lance "Wyrmbane"
+копьё «вирмбейн»
 %%%%
 the large rock
 большой камень
@@ -3589,6 +4798,9 @@ the sacred scourge
 the scarf
 шарф
 %%%%
+the sceptre of Asmodeus
+скипетр асмодея
+%%%%
 the scroll of amnesia
 свиток амнезии
 %%%%
@@ -3606,6 +4818,9 @@ the scythe
 %%%%
 the shadow dragon scales
 чешуя теневого дракона
+%%%%
+the staff of Olgreb
+посох олгреба
 %%%%
 the staff of air
 посох воздуха

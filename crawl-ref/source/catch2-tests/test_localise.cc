@@ -18,6 +18,7 @@
 #include "ui.h"
 #include "item-prop.h"
 #include "player.h"
+#include "quiver.h"
 #include "stringutil.h"
 #include "spl-cast.h"
 #include "spl-util.h"
@@ -170,6 +171,20 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
     CHECK(row.find("Renounce") == string::npos);
     CHECK(row.find("None") == string::npos);
     CHECK(strwidth(row) <= 76);
+    const string prepared_spell = quiver::spell_to_action(SPELL_MAGIC_DART)
+                                ->quiver_description().tostring();
+    INFO(prepared_spell);
+    CHECK(prepared_spell.find("Сотворить: Магический дротик") != string::npos);
+    CHECK(prepared_spell.find("Cast:") == string::npos);
+    CHECK(localise("Purchase items for 20 gold?  (y/N)")
+          == "Купить предметы за 20 зол.? (y/N)");
+    CHECK(localise("Purchase items in shopping list for 240 gold? This will use your shop voucher. (Y/N)")
+          == "Купить предметы из списка покупок за 240 зол.? Будет использован купон магазина. (Y/N)");
+    CHECK(localise(" gold   ") == " зол.   ");
+    CHECK(localise_in_context("quiver-action", "Fire") == "Выстрелить");
+    CHECK(localise("Fire Magic") == "Магия огня");
+    CHECK(localise("a book of Air") == "книга воздуха");
+    CHECK(localise("Codex of Conductivity") == "кодекс проводимости");
     CHECK(localise("Piety***") == "Благочестие***");
     CHECK(localise("Zin always shields you from chaos.") == "Зин всегда защищает вас от хаоса.");
     CHECK(localise("Really take off and destroy +0 leather armour?")

@@ -1001,7 +1001,7 @@
       "translation_sha256": "37553a8344227218c3a778e9651864df8c864fef7b827d61fc3bd0d7d7f95856"
     },
     "You don't have enough money.": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "a616b04df4925ae72fd6245d984d9fabca65a96ce7b43933c55a6939d7b7fb49"
     },
     "Purchase items in shopping list for @num@ gold? (@arg@/N)": {
@@ -1013,16 +1013,16 @@
       "translation_sha256": "4df14a9d2c530740d5ac16a7d940bc62fb54ae66cd9afcd0b3f1f0c9010e3d46"
     },
     "I'll put it outside for you.": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
-      "translation_sha256": "c11d1868c06c90b34dfe329c896516dd61639a940748e4c96628da6086e85246"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "8483cbd87181ad4f843c57947ef7f38e28dc261915288905fe216157417f3cd4"
     },
     "I'll put them outside for you.": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
-      "translation_sha256": "02057d01e3490c0278c6be258b81cad3b2a101b659ae2f5bf508c164a1387a37"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "e8599f6c4f01670fbacb33a79e8e5b081fb345f139e81044e0c37853f01a89c0"
     },
     "I'll put some of them outside for you.": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
-      "translation_sha256": "db9222a8f2425777a6985083e1b88e370710c5f805917c510c9c538c23b9739d"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "78534368addfb9a8b8c52403a4e047be172e91dbe45df66c772f401c8fa05937"
     },
     "@Arg@ appears to be closed.": {
       "context": "shopping.cc",
@@ -7461,8 +7461,8 @@
       "translation_sha256": "31ed2d7a483b7dd35ba75276fb6bcf6039a511ae5d5339daa9b89615e4814ab0"
     },
     "You cannot evoke magical items.": {
-      "context": "evoke.cc",
-      "translation_sha256": "40f635ae9335860462642ab631f20f9a773d1826c922e6b98c6564b473b72ffd"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "b42ec58e8956e3ca4a1314b2848ab32375d30b59e8ea964e237af3ade6b6bd54"
     },
     "This wand has no charges.": {
       "context": "evoke.cc",
@@ -19157,8 +19157,8 @@
       "translation_sha256": "e078fe5a053236af5a694073001e8eaa17b12a37869aafbe10104e0a782fc0b2"
     },
     "Wyrmbane glows as a worthy foe approaches.": {
-      "context": "mon-poly.cc",
-      "translation_sha256": "20e25becc664f51dd775e847469851a6c7f8bee8c197dda77ca94fdd5c616b09"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "c19417cdbfb620bd7dad981f0c832f6796548b32ae93e36e3254e22585678231"
     },
     "@Arg@ dissipates.": {
       "context": "mon-project.cc",
@@ -28657,16 +28657,16 @@
       "translation_sha256": "8f6180b1703568054f4bdb7e47c9cd5a732c8d3ffa1b223b05999614dd6d7ec8"
     },
     "sort (type)": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "7aa9c5e914f52707bfcc64c2e4660943ada2a3107ff277adfb04248adcff3ac8"
     },
     "sort (price)": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "3b2b89d622c9eeb0cf725c10d539ab02c8fa99e1d298377aa36a442149f1f9bf"
     },
     "sort (name)": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
-      "translation_sha256": "7d8e3897f3d28ba8af2d550e55a72862e2edab488bf961341d94b72362b10037"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "c8ca73c5e75b2d662ea4071a9bcb7eb82b8cca04db1502946c9d695cc46a626d"
     },
     "To move in a direction or to attack, ": {
       "context": "command.cc:help column indentation",
@@ -29001,7 +29001,7 @@
       "translation_sha256": "55a6e329a872d8ed451efdba7e24ac046a60f8b309e793b573e4fa35c693351d"
     },
     "This will use your shop voucher.": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
       "translation_sha256": "91c1512279811b1ebfd7f323234c6d4b95eed86affc0e2f6c0e71554106a9ca7"
     },
     "Purchase items@any_list@ for @num_cost@ gold? @any_voucher@ (@key_confirm@/N)": {
@@ -29053,8 +29053,8 @@
       "translation_sha256": "dd7c8ccaf98442da463ffa25e3f81b2c4ebdbc8dc13c4b104dc45adf77f4718f"
     },
     "You cannot afford this item; travel there anyway? (y/N)": {
-      "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
-      "translation_sha256": "0b406ce546fadbaa2dcdce36df855f2695c73ae4c9db8a499b76d8f12f306c06"
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "2ea40afd4280b64a12aa1fd9b764f8431dfd98e8f2146d7f1275d3e52ccf5f6e"
     },
     "You now have enough gold to buy @item@": {
       "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
@@ -30027,6 +30027,218 @@
     "You cannot memorise this spell: @reason@": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
       "translation_sha256": "69fc3778bb8c3f4ad2a7c4f1f020e901c8ef9690ccd51f3cb3525a50a093e658"
+    },
+    " gold   ": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "7ab00015a1b71fd8b35ec24c90ea0cd1c79932afa8db9f2ea8f52b2411d43f04"
+    },
+    " gold  ": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "f93511ef5cce4f9aa7ddac85ff47bc59c16ccd6f2adea320130fc1a14eeb26d0"
+    },
+    " (unknown)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "3ed5bff1dacab40777288c0292745b7368bc5395349a1a5054a1e497d4317262"
+    },
+    " <w>travel</w>|examine|delete items    ": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "83c2c15d9589019cb6ebb35d55056fd886ae59f1aaaf4dd53275759725deb713"
+    },
+    " travel|<w>examine</w>|delete items    ": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "6d467a6f6e67f80076d1efe1c409ebf34f07c91eed7012ec808eaee9cf3f6764"
+    },
+    " travel|examine|<w>delete</w> items    ": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "a494047684a09310ca472d0894c8830b65548686e939202958c74d3016629ef2"
+    },
+    "Travel to: @place@": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "b65b67e7164652dcc18535833abeb4e6c530a69fb2a18d9acd9d986fa0e4b9ac"
+    },
+    "this level": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "10be99a9fa2dd4b7d3b8a831e496d20ed787bd783b8db80bdc59173deb21435a"
+    },
+    "Antique Weapon": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "583bd4f06f248f152f4b7fbd5164e6bcf359805ad6d144cfc2670bd6be95ac72"
+    },
+    "Antique Armour": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "018c95ed2f05a3198be99ce685505b5adfb011d46ff9b00925e0a3e1f7658300"
+    },
+    "Magic Scroll": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "d92c7b5895e8e2777d00647038809e2d91e0efb8e81d57dbbc02d6ad501d2bbd"
+    },
+    "Assorted Antiques": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "bc1925db34fe74d307ca2e1b256f18003870a0a66c6e426f5ab8f9203bda52ef"
+    },
+    "<lightgray> (@key@ to @action@)</lightgray>": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "5cd0b4666aa5e34d443939e4d06565998abbce72733fc93ab3cd5918d66ae1e9"
+    },
+    "put on": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "77a7c4aa6a19ac9417df4fbe978f7ff5c8c1cd148f6f4be39e4478a53231dccd"
+    },
+    "take off": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "07b2539a7ea39d280c654faaa0714455de7a194fa70488988687ab9b87768aad"
+    },
+    "memorise from": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "2a1c2eaa8c5186e380f5a2fba70c1a813a705a6b2790fe34b02b207a3d0cbcf9"
+    },
+    " in your present form": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "7b8116ae95882b278e5b3ee5c51302a5d648226b1a0e409b261b849f55d4c7cd"
+    },
+    "You can't wear jewellery in your present form.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "ff144f442d2d0d3a9fb855f46f87b9e69a855293b9382ba90a51f296419cd87e"
+    },
+    "You can't remove jewellery in your present form.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "969b131d0e76d6d36012e748873c3a7df89bdba02464137b6b6c85ba6da51e61"
+    },
+    "You can't shoot while berserk! Really wield @any_item@?": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "0b5ca9223cca4d749de4f6cda92f47aef501f51a67dc8d2d77f92ee562bb2457"
+    },
+    "you need at least @num@ shapeshifting skill to use this effectively.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "5faeb8ce346efb7bd56cf2907df18aef232935366c047ec3aa385e67c4a68dee"
+    },
+    "you are already filled with unstable energy.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "d33ce23827365346a7863bcdff9691f113affb06de5a046af7dd955bd3fa676c"
+    },
+    "allies are forbidden to you.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "65cc51641d19e8375082f4a34d8b473ceec224c2fa24084976ff5a1b41384f8a"
+    },
+    "@God@ forbids the use of this item.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "acf90c6d89977042e26e9241a3c2bcc2ce43bc30d65db9f8c36d862ba1d49fdb"
+    },
+    "That item cannot be used by those who cannot gain allies!": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "919d2b706d54baeffb58d41d3dbf533eaa85a729f9402eba1c23aa9018ab6e47"
+    },
+    "The @any_item@ is presently inert.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "82b4dd0bb16238d86d7c71fdfa38399d9acc93f4b5d7bea7953b50f0e7e67004"
+    },
+    "Turn is over": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "274c9a44f7ed568dd2121b4b8b52e9c35637d35fa24b45b24c066a2aa7a06951"
+    },
+    "Bad item": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "26e2c27c90f0c70ccdc3559735add1ae4b2ae967b143d427654541c8047a4091"
+    },
+    "Item is not equipped": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "71e8b5f628c706a30baf0dab4079e577d92dda61b83ecae00d9d01a19d5dd4d1"
+    },
+    "Purchase items for @num_cost@ gold?  (@key_confirm@/N)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "a8bcb4dd69ad8a77d417cdf3450c4bfdf3fbc839f689a42455e67001f801f505"
+    },
+    "Purchase items for @num_cost@ gold? This will use your shop voucher. (@key_confirm@/N)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "b3d5c2ea866ea9786b64ff1bc85001ad86f5a0e516c30cf13615922ae2143948"
+    },
+    "Purchase items in shopping list for @num_cost@ gold?  (@key_confirm@/N)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "1dca13f62cf29d440816dda0eddc4d4a7f78610bc646e80e0ecafb6cd522edc3"
+    },
+    "Purchase items in shopping list for @num_cost@ gold? This will use your shop voucher. (@key_confirm@/N)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "110bc5105de8d19a344e2991353d6fb030e13c2ccc63d2737aacd6de1225cf0d"
+    },
+    "Wyrmbane": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "acb336e98ce8b6d7a47c7d1e0e31bc62afa1a730a5bbb3ae68a6d1f906c8c252"
+    },
+    " Purchasing will use your shop voucher and @num@ gold piece.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "e1d29fc2dd72fb2a8874729520763d13338cdc9f724e3843c81f7277ef3f2eee"
+    },
+    " You are short @num@ gold piece for the purchase.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "fb7b6c9f054956cb989178d4cb3320305fdadbb91b7b6367f878028ae25f220c"
+    },
+    " After the purchase, you will have @num@ gold piece.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "c7d3d57877d0465b3ed6c957c9e86f6fa3bfa2c4257e6f48e91591151fdcf4f4"
+    },
+    " Purchasing will use your shop voucher and @num@ gold pieces.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "e1d29fc2dd72fb2a8874729520763d13338cdc9f724e3843c81f7277ef3f2eee"
+    },
+    " You are short @num@ gold pieces for the purchase.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "fb7b6c9f054956cb989178d4cb3320305fdadbb91b7b6367f878028ae25f220c"
+    },
+    " After the purchase, you will have @num@ gold pieces.": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "c7d3d57877d0465b3ed6c957c9e86f6fa3bfa2c4257e6f48e91591151fdcf4f4"
+    },
+    "{quiver-action}Reach": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "61149488c4a83c713f272029bf9b7d5c4a51cbd564e70995c83f60c191b5e58a"
+    },
+    "{quiver-action}Hit": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "7660d331a8749a0fa7537fa61863fe9fdf08714c6a4e5bf8327483afa3727b75"
+    },
+    "{quiver-action}Cleave": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "610fa137ff7aaf3a749b5e674eb22c3d6c040dcf875ea22941c66c299e8f3675"
+    },
+    "{quiver-action}Throw": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "32802a210b291747107ac825b1ca1dfea61f4351b985b6a5980d8d67fe17e5b8"
+    },
+    "{quiver-action}Fire": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "208b4a56ed0ac6a0116bdfcc19d339b5f70dc2a85188816af08b51d26ce38a77"
+    },
+    "{quiver-action}Toss (no damage)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "5005bb9dd5ca3788e9402657cd73f0af6fad8702481698ec7c7c212761a1ecc9"
+    },
+    "{quiver-action}Activate": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "55b308012ba554148bfb4fb59151d076c9ef68f68ec003f26f63d554a095c7f4"
+    },
+    "{quiver-action}Confused reach": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "b0c96c7e2b25d39150cc63428590c0ea7924b87d2ec4ca7b42cf77154de84ffb"
+    },
+    "{quiver-action}Confused hit": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "eec457e2f9e43b22f56e04370fe505b00021a63020ec4104c4a94299f1799fb2"
+    },
+    "{quiver-action}Confused cleave": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "e6f4b86943f1708d56ba553081a4afe61e16eeedeab0708bb18fe73b9f23bca1"
+    },
+    "{quiver-action}Confused throw": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "9c6afcb8026fc5a7b883bd8322f3153c14380eacac1aafa94feab428d1097520"
+    },
+    "{quiver-action}Confused fire": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "efee481868cf15015ca837a4f3d2c2840943489fdb45349c4ff2c536006b754e"
+    },
+    "{quiver-action}Confused toss (no damage)": {
+      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "translation_sha256": "5427733104f723de5e030c8cb8569cba9294838cf77bb50b4bc27c5c8904bb45"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
