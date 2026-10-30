@@ -173,7 +173,8 @@ def outputs(entities):
     reference_index = ["# Справочник предметов, навыков и способностей", "",
                        "Названия и описания синхронизированы с русской версией игры.", ""]
     artifact_powers = {}
-    for field in artifact_power_fields():
+    power_fields = artifact_power_fields()
+    for field in power_fields:
         powers = artifact_powers.setdefault(field["name"].lower(), [])
         for line in field["text"].splitlines():
             label, separator, text = line.partition(":")
@@ -267,6 +268,8 @@ def outputs(entities):
                  static_catalogs={name: len(static[name]) for name in STATIC_FILES},
                  static_unique_keys=len(set().union(*(set(static[n]) for n in STATIC_FILES))),
                  additional_system_messages=len(system_messages),
+                 reviewed_artifact_powers=dict(fields=len(power_fields),
+                     description_lines=sum(len(field["text"].splitlines()) for field in power_fields)),
                  reviewed_random_messages={name: dict(entries=len(entries),
                      variants=sum(len(e["text"].split("\n\n")) for e in entries.values()))
                      for name, entries in random_messages.items()},
