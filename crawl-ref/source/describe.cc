@@ -1518,7 +1518,25 @@ string damage_rating(const item_def *item, int *rating_value)
 string damage_rating_for_display(const item_def *item)
 {
     // Lua and other data consumers retain damage_rating's original breakdown.
-    return localise_in_context("damage-rating", damage_rating(item));
+    string result = damage_rating(item);
+    if (!localisation_active())
+        return result;
+    if (!contains(result, "(Base "))
+        return localise(result);
+
+    // A formula is intentionally protected from ordinary sentence matching.
+    // Replace its fixed labels directly, leaving every number and operator intact.
+    const auto label = [](const string &name)
+    {
+        return localise_in_context("damage-rating", name);
+    };
+    result = replace_all(result, "(Base ", "(" + label("Base") + " ");
+    result = replace_all(result, "(Ench + Slay)",
+                         "(" + label("Ench") + " + " + label("Slay") + ")");
+    for (const char *name : { "Str", "Dex", "Skill", "Fight", "Ench", "Slay",
+                             "Thrw", "UC", "Hvy", "Archery" })
+        result = replace_all(result, "(" + string(name) + ")", "(" + label(name) + ")");
+    return result;
 }
 
 static string _weapon_ego_key(brand_type ego)
