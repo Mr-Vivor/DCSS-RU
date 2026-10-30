@@ -226,6 +226,18 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("Wiz") == "Чародейство");
     CHECK(localise(" (worn)") == " (надето)");
     CHECK(localise(" (quivered)") == " (подготовлено)");
+    // Inventory names separate the suffix from its leading space before
+    // translating it. Checking a bare suffix alone misses that path.
+    CHECK(localise("+0 robe (worn)") == "+0 мантия (надето)");
+    CHECK(localise("+0 dagger (weapon)") == "+0 кинжал (оружие)");
+    CHECK(localise("+0 dagger (offhand)") == "+0 кинжал (вторая рука)");
+    CHECK(localise("+0 robe (melded)") == "+0 мантия (слито с телом)");
+    CHECK(localise("+0 robe (haunted)") == "+0 мантия (одержимо духом)");
+    CHECK(localise("+0 dagger (bound)") == "+0 кинжал (связано)");
+    CHECK(localise("+0 dagger (quivered)") == "+0 кинжал (подготовлено)");
+    CHECK(localise("flurble (installed)") == "flurble (установлено)");
+    CHECK(localise("flurble (my note)") == "flurble (my note)");
+    CHECK(localise("(w)") == "(w)");
     CHECK(localise("Next:") == "Опыт:");
     CHECK(localise("Wear") == "Надеть доспех");
     CHECK(localise("Take off") == "Снять доспех");

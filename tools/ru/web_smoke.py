@@ -233,6 +233,7 @@ def main():
                     body = spell_page.locator("body").inner_text()
                     assert "RageSunder" not in body and "consecutive attacks" not in body, body
                     assert "when equipped" not in body, body
+                    assert "+0 мантия (надето)" in body and "(worn)" not in body, body
                     for expected in ("Основа", "(Сил)", "(Навыки)", "(Чары)", "Тип оружия:", "Двуручное оружие", "(w) взять в руки", "(d) бросить", "(i) пометить"):
                         assert expected in body, body
                     for untranslated in ("falls into the", "handed weapon", "(Base ", "(Str)", "(Skill)", "(Ench)", ")ield", ")rop", ")nscribe"):

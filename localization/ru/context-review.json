@@ -32091,6 +32091,38 @@
     "{item-actions}, or ": {
       "context": "describe.cc/ui-layouts.js: retain comma-separated clickable action segments in Russian",
       "translation_sha256": "612c7af90f4ae0817163ceedb11a703eaf1637c38e32c863038d6357c51f028d"
+    },
+    "(worn)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "bfe35361018d81e796c52c7a46e93ef7e7e6597993bbe1d5ded51587adb79294"
+    },
+    "(weapon)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "4713f112fe23eae949f9f49b0c9785aa174ab0a09b2f1a0b4ac1f4c840500cd4"
+    },
+    "(offhand)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "f5a9272857e08c13eb19298166afda72c659c67d0873545599b834974756e50f"
+    },
+    "(melded)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "10acc8c8ef307b33241f4e31f2a0a77184b77c48eedd285b162b5d5946358c78"
+    },
+    "(installed)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "4cff9c442d6de03b35b7bec5e107f5cb7f75e0099dd08aba4f31d462353f0811"
+    },
+    "(haunted)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "6485d63ac0a958d884b544ca1badc5f903988a79a30bc48ea910ea5957a33f24"
+    },
+    "(bound)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "044bf1dc1b17d6dcdb88a4ad6a96965767a26c27c9e6b2f7a0899fed66e3d9ae"
+    },
+    "(quivered)": {
+      "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
+      "translation_sha256": "5afdf16a0113222ee66614f1cc18deab4b4923073eaf260808e487cdf731f094"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
