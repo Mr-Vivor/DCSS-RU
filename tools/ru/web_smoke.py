@@ -215,6 +215,10 @@ def main():
                     spell_page.keyboard.type("&")
                     spell_page.wait_for_function("document.body.innerText.includes('отладочный режим') || document.body.innerText.includes('Команда отладчика')")
                     if "Команда отладчика" not in spell_page.locator("body").inner_text():
+                        spell_page.wait_for_function("document.body.innerText.includes('Для подтверждения введите')")
+                        confirmation = spell_page.locator("body").inner_text()
+                        assert 'Для подтверждения введите "wiz".' in confirmation, confirmation
+                        assert "Confirm with" not in confirmation, confirmation
                         spell_page.keyboard.type("wiz")
                         spell_page.keyboard.press("Enter")
                         spell_page.wait_for_function("document.body.innerText.includes('Команда отладчика')")

@@ -12,6 +12,7 @@
 #include "clua.h"
 #include "delay.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "menu.h"
 #include "message.h"
@@ -115,7 +116,11 @@ bool confirm_prompt(const char* require, const char* fmt, ...)
     va_end(args);
     buf[sizeof(buf)-1] = 0;
 
-    mprf(MSGCH_PROMPT, "%s (Confirm with \"%s\".) ", buf, require);
+    // Translate the instruction before inserting the literal answer: commands
+    // such as "yes" and "wiz" must remain exactly what the input code accepts.
+    const string instruction = make_stringf(
+        localise("(Confirm with \"%s\".)").c_str(), require);
+    mprf(MSGCH_PROMPT, "%s %s ", localise(buf).c_str(), instruction.c_str());
 
     if (cancellable_get_line(buf, sizeof buf))
         return false;

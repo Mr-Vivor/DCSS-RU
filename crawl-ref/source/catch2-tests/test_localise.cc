@@ -238,6 +238,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("flurble (installed)") == "flurble (установлено)");
     CHECK(localise("flurble (my note)") == "flurble (my note)");
     CHECK(localise("(w)") == "(w)");
+    CHECK(make_stringf(localise("(Confirm with \"%s\".)").c_str(), "yes")
+          == "(Для подтверждения введите \"yes\".)");
+    CHECK(make_stringf(localise("(Confirm with \"%s\".)").c_str(), "wiz")
+          == "(Для подтверждения введите \"wiz\".)");
     CHECK(localise("Next:") == "Опыт:");
     CHECK(localise("Wear") == "Надеть доспех");
     CHECK(localise("Take off") == "Снять доспех");

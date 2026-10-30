@@ -32123,6 +32123,10 @@
     "(quivered)": {
       "context": "item-name.cc DESC_INVENTORY_EQUIP: exact bracketed equipment annotation separated from the full item name; worn means equipped, melded means merged into transformed body; bound is Ashenzari curse, haunted is Formless armour, installed is Coglin gizmo. No standalone adjective replacement.",
       "translation_sha256": "5afdf16a0113222ee66614f1cc18deab4b4923073eaf260808e487cdf731f094"
+    },
+    "(Confirm with \"%s\".)": {
+      "context": "prompt.cc confirm_prompt: localise the printf format before substituting the unchanged literal answer required by strcasecmp; applies to yes, wiz and other typed confirmations.",
+      "translation_sha256": "c84cc66d245525bd6542ab04c4f7b8d78a3be778f945cc8d8413fec04eb529a6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
