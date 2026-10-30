@@ -30,6 +30,19 @@ class StaticTranslationTests(unittest.TestCase):
                     self.assertTrue(message_syntax_matches(key, messages[key]), key)
                     self.assertRegex(messages[key], r"[А-Яа-яЁё]", key)
 
+    def test_wiki_unique_artefacts_share_the_actual_power_descriptions(self):
+        reference = json.loads((ROOT / "wiki/ru/reference/descriptions.json").read_text(encoding="utf8"))["unrand"]
+        names = {name.lower(): name for name in reference}
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        for field in artifact_power_fields():
+            key = names[field["name"].lower()]
+            page = (ROOT / "wiki/ru/reference/unrand" / (page_slug(key) + ".md")).read_text(encoding="utf8")
+            for line in field["text"].splitlines():
+                label, separator, body = line.partition(":")
+                text = messages[(body if separator else line).strip()]
+                self.assertIn(text, page, key)
+                self.assertIn(text, [power["text"] for power in reference[key]["powers"]], key)
+
     def test_ancestor_reference_pages_have_portable_distinct_paths(self):
         from generate import page_slug
         paths = []

@@ -7,7 +7,7 @@ from collections import Counter
 import argparse
 import json
 import re
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions, reviewed_random_messages
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions, reviewed_random_messages, artifact_power_fields
 from message_catalog import coverage as message_coverage
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -172,6 +172,17 @@ def outputs(entities):
     reference = {}
     reference_index = ["# Справочник предметов, навыков и способностей", "",
                        "Названия и описания синхронизированы с русской версией игры.", ""]
+    artifact_powers = {}
+    for field in artifact_power_fields():
+        powers = artifact_powers.setdefault(field["name"].lower(), [])
+        for line in field["text"].splitlines():
+            label, separator, text = line.partition(":")
+            if separator:
+                title = system_messages["{unrand-prop}" + label.strip()].removeprefix("{unrand-prop}")
+                description = system_messages[text.strip()]
+            else:
+                title, description = "", system_messages[line.strip()]
+            powers.append(dict(label=title, text=description, source_field=field["field"]))
     for filename, group in reviewed.items():
         source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
         target_path = ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"
@@ -190,6 +201,16 @@ def outputs(entities):
                 continue  # Shared description fragments and ego lookup keys are not item names.
             slug = page_slug(key)
             body = entry.get("wiki_text", entry["text"])
+            if filename == "unrand":
+                power_key = key.lower()
+                if entry["text"].startswith("<") and entry["text"].endswith(">"):
+                    power_key = entry["text"][1:-1].lower()
+                powers = artifact_powers.get(power_key, [])
+                reference[filename][key]["powers"] = powers
+                if powers:
+                    body += "\n\n## Особые свойства\n\n" + "\n".join(
+                        "- " + ("**" + power["label"] + ":** " if power["label"] else "") + power["text"]
+                        for power in powers)
             result[ROOT / "wiki/ru/reference" / filename / (slug + ".md")] = (
                 f"# {title[:1].upper() + title[1:]}\n\n**English:** {key}\n\n{body}\n\n"
                 "Название и описание берутся из общих словарей игры и вики.\n")

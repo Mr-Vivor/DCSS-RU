@@ -31105,8 +31105,8 @@
       "translation_sha256": "49a121b21107026e7fbc610426cef3793e0700683681539193dafb80fbf5c260"
     },
     "{unrand-prop}VampMP": {
-      "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "d82e7f4c862ae0835285a139a2eef029dbf14b7620acf31d90e249953aa2d25e"
+      "context": "Current artefact powers; resource name, skill condition, slaying bonus and piety rate clarified",
+      "translation_sha256": "1ea24fac20012bfce009d05fd20435bbaf87519dd402fd7bf94f6e722f1599c5"
     },
     "Blows struck in melee replenish the wearer's magic.": {
       "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -31229,8 +31229,8 @@
       "translation_sha256": "6cf895cbe124622722cbb247f5fb87d1b7b70c552b35b4bd77c3ee7c330be908"
     },
     "When the wearer kills a threatening monster, it has a chance to gain +1 AC, +1 Slay, and +1 Int, capping at +7. When the wearer uses a scroll or a potion with a hostile monster in sight, its bonuses reset to +0. Unequipping it also resets its bonuses to +0.": {
-      "context": "art-data.txt:toga \"Victory\":DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "3f4a21bb65765761ef38196dceef82d3ccf78bb6f5cb64869242a6a8f447ffb1"
+      "context": "Current artefact powers; resource name, skill condition, slaying bonus and piety rate clarified",
+      "translation_sha256": "420be3c5568da6c559cdcc4c9066a543886495b226432f32096d5214eaf60aaf"
     },
     "{unrand-prop}Shock": {
       "context": "art-data.txt:Storm Queen's Shield:DBRAND; current ability, condition, cost and exceptions checked",
@@ -31417,8 +31417,8 @@
       "translation_sha256": "07b77ee100a2b4499ecd0aac952be2c24ce8535555fe3d0b0e4feb38e0da55e1"
     },
     "It provides +5 SH for each of five conditions: You have at least 20 intelligence; at least 25 base EV; at least 15 base Invocations skill; at least +++++ stealth; your Staves skill is your highest skill, or is at the maximum skill level.": {
-      "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "7ee8c869080b9ae1b1e98fd526f422b84bcbc7b0085a7ab651deb760802a00c5"
+      "context": "Current artefact powers; resource name, skill condition, slaying bonus and piety rate clarified",
+      "translation_sha256": "4c99d385eb3e2a3d23da17ad69f366ed8b7d17fc01c3c4c8138474a561e34648"
     },
     "{unrand-prop}VirtueRefl": {
       "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -31465,8 +31465,8 @@
       "translation_sha256": "ade3ddf0100f10f7aba7540ccf2b588f6f1985b8dcee32ffe32a009edbaec36d"
     },
     "Equipping it will reduce your piety. While worn, you gain piety at three quarters of the normal rate.": {
-      "context": "art-data.txt:Forgewarden's cuirass:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "2b2c50fd0f747c780467249bc237a1bebefdced6a32617bbbb542c0d4865a916"
+      "context": "Current artefact powers; resource name, skill condition, slaying bonus and piety rate clarified",
+      "translation_sha256": "75eb2de479743a25cd68c1882fc734b29763bdc13962e41d76cadf653fddc6c0"
     },
     "{unrand-prop}Mist": {
       "context": "art-data.txt:ghost crab claws:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -31782,7 +31782,7 @@
     },
     "{item-inscription}VampMP": {
       "context": "art-data.txt: terse item property; display only, raw inscription preserved",
-      "translation_sha256": "bc900249b799d8f4daf08cc69ffb1c761bb306320cd69aff977b61f9b453beff"
+      "translation_sha256": "7b923f9660b38721ab19c0f9a42f0a6c429bb2f8e3ab588fd939796fc847c5a5"
     },
     "{item-inscription}*Dream": {
       "context": "art-data.txt: terse item property; display only, raw inscription preserved",

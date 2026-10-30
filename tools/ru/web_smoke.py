@@ -207,6 +207,33 @@ def main():
                     assert "Сотворить: Магический дротик" in body, body
                     assert "Cast:" not in body and "Magic Dart" not in body, body
                     spell_page.screenshot(path=str(ARTIFACTS / "quiver-menu.png"), full_page=True)
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    # This isolated CI character can create a fixed artefact.
+                    # Check the same formatted description and inventory label
+                    # that a player sees, without touching any public saves.
+                    spell_page.keyboard.type("&")
+                    spell_page.wait_for_function("document.body.innerText.includes('отладочный режим') || document.body.innerText.includes('Команда отладчика')")
+                    if "Команда отладчика" not in spell_page.locator("body").inner_text():
+                        spell_page.keyboard.type("wiz")
+                        spell_page.keyboard.press("Enter")
+                        spell_page.wait_for_function("document.body.innerText.includes('Команда отладчика')")
+                    spell_page.keyboard.type("%")
+                    spell_page.wait_for_function("document.body.innerText.includes('Введите имя предмета')")
+                    spell_page.keyboard.type("Wrath of Trog", delay=20)
+                    spell_page.keyboard.press("Enter")
+                    spell_page.wait_for_timeout(200)
+                    spell_page.keyboard.type("g")
+                    spell_page.wait_for_timeout(200)
+                    spell_page.keyboard.type("i")
+                    artefact_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Гнев Трога")
+                    artefact_row.wait_for()
+                    artefact_row.click()
+                    spell_page.wait_for_function("document.body.innerText.includes('Яростный раскол') && document.body.innerText.includes('истощение сил')")
+                    body = spell_page.locator("body").inner_text()
+                    assert "RageSunder" not in body and "consecutive attacks" not in body, body
+                    assert "when equipped" not in body, body
+                    spell_page.screenshot(path=str(ARTIFACTS / "artefact-description.png"), full_page=True)
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

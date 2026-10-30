@@ -31522,7 +31522,7 @@ It empowers its wearer's blows with all of their magic.
 %%%%
 {unrand-prop}VampMP
 
-{unrand-prop}Вытягивание МП
+{unrand-prop}Вытягивание магии
 %%%%
 Blows struck in melee replenish the wearer's magic.
 
@@ -31646,7 +31646,7 @@ It becomes more powerful as more dangerous foes come into view.
 %%%%
 When the wearer kills a threatening monster, it has a chance to gain +1 AC, +1 Slay, and +1 Int, capping at +7. When the wearer uses a scroll or a potion with a hostile monster in sight, its bonuses reset to +0. Unequipping it also resets its bonuses to +0.
 
-При убийстве опасного монстра может получить +1 к броне, +1 к бою и +1 к интеллекту, до предела +7. Если владелец использует свиток или зелье при видимом враждебном монстре, прибавки сбрасываются до +0. Снятие тоже сбрасывает их до +0.
+При убийстве опасного монстра может получить +1 к броне, +1 к точности и урону атак (Бой) и +1 к интеллекту, до предела +7 для каждой прибавки. Если владелец использует свиток или зелье при видимом враждебном монстре, прибавки сбрасываются до +0. Снятие тоже сбрасывает их до +0.
 %%%%
 {unrand-prop}Shock
 
@@ -31834,7 +31834,7 @@ When attacking a constricted enemy, it has a one in three chance to tempoarily t
 %%%%
 It provides +5 SH for each of five conditions: You have at least 20 intelligence; at least 25 base EV; at least 15 base Invocations skill; at least +++++ stealth; your Staves skill is your highest skill, or is at the maximum skill level.
 
-Даёт +5 к защите щитом за каждое из пяти условий: интеллект не ниже 20; базовое значение Укл не ниже 25; базовый навык Молитв не ниже 15; скрытность не ниже +++++; навык Посохов выше остальных либо достиг максимального уровня.
+Даёт +5 к защите щитом за каждое из пяти условий: интеллект не ниже 20; базовое значение Укл не ниже 25; базовый навык Молитв не ниже 15; скрытность не ниже +++++; навык Посохов является вашим самым высоким навыком либо достиг максимального уровня.
 %%%%
 {unrand-prop}VirtueRefl
 
@@ -31882,7 +31882,7 @@ Enemies hit by the wearer's projectiles are outlined in light.
 %%%%
 Equipping it will reduce your piety. While worn, you gain piety at three quarters of the normal rate.
 
-При надевании уменьшает ваше благочестие. Пока предмет надет, благочестие накапливается с тремя четвертями обычной скорости.
+При надевании уменьшает ваше благочестие. Пока предмет надет, благочестие накапливается со скоростью 75% от обычной.
 %%%%
 {unrand-prop}Mist
 
@@ -32198,7 +32198,7 @@ It may create clouds of spectral mist when the wearer attacks or casts spells, a
 %%%%
 {item-inscription}VampMP
 
-{item-inscription}Вытягивание МП
+{item-inscription}Вытягивание магии
 %%%%
 {item-inscription}*Dream
 
