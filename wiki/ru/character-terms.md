@@ -516,6 +516,18 @@
 | My Sojourns in Swampland | мои странствия по болотам |
 | rune of Zot | руна Зота |
 | eel talisman | талисман угря |
+| greatsling | большая праща |
+| heavy crossbow | тяжёлый арбалет |
+| lance | копьё |
+| knife | нож |
+| cutlass | абордажный клинок |
+| katana | катана |
+| shillelagh | дубинка |
+| maul | молот |
+| bo | бо |
+| pair of quick blades | пара быстрых клинков |
+| labrys | лабрис |
+| flamberge | фламберг |
 
 ## ability
 

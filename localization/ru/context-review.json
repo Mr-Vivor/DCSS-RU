@@ -2797,40 +2797,40 @@
       "translation_sha256": "cdeac1c9aadf12d5b9e5436a815631128b287db2fa6095191dc577e73dd58aec"
     },
     "(w)ield": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "08a3bfb9e0623205e4a3f4b2d3ff3c471d1751857c8dd25caa542acd784219d5"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "bc1ac3b274c9f3d0d673005bcb0ec76b34009595f73fb2c5bd9291a80e79f287"
     },
     "(u)nwield": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "11dc042ad7978865e697503011c9553a4b645192c1cb9347dc2ea1748f90a551"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "70494e6fc6ebe7b7da4881c89d02c86ba815f8134f718cd8f3010082ff971a3c"
     },
     "(q)uiver": {
       "context": "describe.cc; dat/translate/messages.txt",
       "translation_sha256": "cc44d73cbe1adda5e71a30a52102f7ed285eb4a7c3e72a4659be70d85e3eed24"
     },
     "(w)ear": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "857ced20c84e58719e920f43bbcc9b7bf525640355b9d69accb751f398885c81"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "e2d1cbf999f6be47e29743ae63cac4a1135ca60a921d18a86cc29c10165fa6e4"
     },
     "(t)ake off": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "cbc1cd8c672cb8e8840262ed0b920343624e7d3584ca96c6a9b62e53829df097"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "c957374237d1c266425566b1c515c3b2cf0867a09fcafcc58f5ca604ff5f3e8a"
     },
     "e(v)oke": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "6a02f62319909fd44391bdfb9df5d58ca3bf1b9e7cc0b64cafea9f93b40c7248"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "daafd60a21b695240e5beb251acdd6f2a6104ac97ee630cb58725321b4b683e2"
     },
     "(r)ead": {
       "context": "describe.cc; dat/translate/messages.txt",
       "translation_sha256": "528641c1ab60f1864178727a1436a7c58f6b7826849a5235a9a4a10248614263"
     },
     "(p)ut on": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "442fe2fabb85b7fc9e931e802b0d2cdbc8461072039eece44753a6c8ecefa116"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "7bf0fec56153716de3fa7b69ebffa076710f348462a2e48831fb41a1f9bac5d6"
     },
     "(r)emove": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "867b082aed1a904fcea4ddd5ac2cd2e15cac2365127d213a7c217b66d5ff7101"
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "aa4fb636f0b86b96b34f1d435f7e4ee04da3414ef8f8ed81da6fa0b32848bb19"
     },
     "(q)uaff": {
       "context": "describe.cc; dat/translate/messages.txt",
@@ -31967,6 +31967,130 @@
     "{item-inscription}Mist": {
       "context": "art-data.txt: terse item property; display only, raw inscription preserved",
       "translation_sha256": "b0bdd7c1e0c91c566075a89f4766833044944a4c265ae7747d08453add6eefc0"
+    },
+    "This @type@ falls into the '@skill@' category.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "db126d960045ff93685f83e559bedd560af65df42011c43d6fda7bd829bb385b"
+    },
+    "It is a one-handed weapon.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "fad87337e43b848a6d7924a9679a6685bc0db9994589d156ea70bde3107a6f83"
+    },
+    "It is a two-handed weapon.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "2e6f01aba2bd1c6ee20e51e8080a27854f3f60460552d0414882062d9632535c"
+    },
+    "It is a weapon for one hand-pair.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "77ab43d84da7d12a1dc4c88cd92f7ce8b08962eaeef6e5eb3ab3dcee26034d3f"
+    },
+    "It is a weapon for two hand-pairs.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "469e84d2dd66e9e74b02e335c312992d5e8a313b0a6f56839989f5d995497748"
+    },
+    "(@num_xp@ xp, @num_skp@ skp)": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "faf162f21c651bf4c45a6e6a54a66823ad293500938216e57bb56551c45b5176"
+    },
+    "qui(v)er": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "5ccf74739c060f58a44bbd76aca1a76a7ccb60bb0e62a5e511b6cc6f5cac249f"
+    },
+    "(g)et": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "f0c5d886565f9dc82faa454f10c9875033ccd375d0bbff5e75aa3db4313fb788"
+    },
+    "your enemies will bleed and die for Makhleb.": {
+      "context": "describe.cc: item category, real fixed action keys and handedness, before layout",
+      "translation_sha256": "76858e7eadbf16533e6af69609a2f9c715efb2b9cbf6853f806a4a4d5de2bf22"
+    },
+    "{damage-rating}Base": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "3bd0518125228c19d51573f47c6aee9fc2237b6db7720d04bbd8b17ad77ffb52"
+    },
+    "{damage-rating}Str": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "3d2283a1ca12d3b11f36f9b4f5dffc808fb7e401718e890d281c36e5b8cd5663"
+    },
+    "{damage-rating}Dex": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "4048e62d496aaa69ed79b6a926909e2aa993f04a9010b19cc9dd85b9bf382f4c"
+    },
+    "{damage-rating}Skill": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "fb42aa1bfc33f343039728480cca0a0a81958595dc7821e90a902057bfd87219"
+    },
+    "{damage-rating}Fight": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "557d7d7fbc5013c6f244dc4e7c1fd7491a141e2e967b68253de430f9237b9207"
+    },
+    "{damage-rating}Ench": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "d6ef81c33a9e616978b9191ddcf389173fca189c492fa82376fd313272ad8024"
+    },
+    "{damage-rating}Slay": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "7239537fc8ea1d60471b2bb1e3d86990fae463dc43aac0a21d8d35096d817680"
+    },
+    "{damage-rating}Thrw": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "cfacb510719c78b017ac12263898c701d7630a394dd5bb19da00f06cc2e3bfc6"
+    },
+    "{damage-rating}UC": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "89b42ce3ca9c5e456e54bbc2258bffaa5cbd1ad72d5db03eed72120ab29f9db6"
+    },
+    "{damage-rating}Hvy": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "3c45a7c8e5819f535f6ff066b33334a4a5fdd448c43914c65a782b8753a05448"
+    },
+    "{damage-rating}Archery": {
+      "context": "describe.cc: rendered damage formula only; raw Lua string and numeric rating unchanged",
+      "translation_sha256": "6f45e5478d6d57ad026d08eb14bdcb89d822a514fcc82d3ff1cf709bdc3a9c1e"
+    },
+    "It is a one-pawed weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "e84b75a6290b572b3a420a3a6301e81a75f23bb6d49714070dc8e2c882990d03"
+    },
+    "It is a two-pawed weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "43a2b48349b0e917d3b3cf7fdce2d6021f18aa7d689e422c96fc3bfed4354e4e"
+    },
+    "It is a one-tentacled weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "46d4682afcfd962d93105ba0e9bf5f98fbfe6fecccedb3814924350a0057cd31"
+    },
+    "It is a two-tentacled weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "69fd1f883b9f2c7dc3946109d2fcb47be9ba894aea7e7cdfd345675a30b3d2c9"
+    },
+    "It is a one-clawed weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "6beae5d6dff45d88bec0e3a1a6b8e9b515028f4f85aa59d5cdccbb74c260d0cb"
+    },
+    "It is a two-clawed weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "90f218513c8cfa70c1809ecd940bc472fe44d5d68aac45f187829601f8e58ceb"
+    },
+    "It is a one-graspered weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "f35369b1b0adbe1c9ba097f9b17585692719547e380dfc2b6cfb153e3c60b5fc"
+    },
+    "It is a two-graspered weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "86101489d1fc544772c1f85fd7c63975fded114b9d847fa218413dbfe73d4a42"
+    },
+    "It is a one-tendriled weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "a3398b6b2a7cd54af0ece83eb1d032f139e9e0a3bca986b2bea0f9378ee56f3a"
+    },
+    "It is a two-tendriled weapon.": {
+      "context": "describe.cc: species::hand_name rendered requirements; number of limbs preserved",
+      "translation_sha256": "37d66c3f5c3fe9f975dd105279d52dec7bb303dca9da5c15d1a441f7150182ac"
+    },
+    "{item-actions}, or ": {
+      "context": "describe.cc/ui-layouts.js: retain comma-separated clickable action segments in Russian",
+      "translation_sha256": "612c7af90f4ae0817163ceedb11a703eaf1637c38e32c863038d6357c51f028d"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

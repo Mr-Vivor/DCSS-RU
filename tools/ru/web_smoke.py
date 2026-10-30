@@ -233,7 +233,17 @@ def main():
                     body = spell_page.locator("body").inner_text()
                     assert "RageSunder" not in body and "consecutive attacks" not in body, body
                     assert "when equipped" not in body, body
+                    for expected in ("Основа", "(Сил)", "(Навыки)", "(Чары)", "Тип оружия:", "Двуручное оружие", "(w) взять в руки", "(d) бросить", "(i) пометить"):
+                        assert expected in body, body
+                    for untranslated in ("falls into the", "handed weapon", "(Base ", "(Str)", "(Skill)", "(Ench)", ")ield", ")rop", ")nscribe"):
+                        assert untranslated not in body, body
                     spell_page.screenshot(path=str(ARTIFACTS / "artefact-description.png"), full_page=True)
+                    (ARTIFACTS / "artefact-description.txt").write_text(body, encoding="utf8")
+                    # The final command must remain its own clickable hotkey,
+                    # rather than being joined to the preceding translated verb.
+                    spell_page.locator(".describe-item .actions [data-hotkey='i']").click()
+                    spell_page.wait_for_function("document.body.innerText.includes('Какую пометку')")
+                    spell_page.keyboard.press("Escape")
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

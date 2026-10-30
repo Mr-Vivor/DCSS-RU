@@ -529,12 +529,29 @@ TEST_CASE("Russian unique artefact powers and inscriptions preserve their contex
         INFO(description);
         if (type == UNRAND_TROG)
         {
+            int raw_rating = 0;
+            const string raw_formula = damage_rating(&item, &raw_rating);
+            const string displayed_formula = damage_rating_for_display(&item);
+            INFO(displayed_formula);
+            CHECK(raw_formula.find("(Base ") != string::npos);
+            CHECK(raw_formula.find("(Str)") != string::npos);
+            CHECK(displayed_formula.find(to_string(raw_rating) + " (Основа ") == 0);
+            CHECK(displayed_formula.find("(Сил)") != string::npos);
+            CHECK(displayed_formula.find("(Навыки)") != string::npos);
+            CHECK(displayed_formula.find("(Чары)") != string::npos);
+            CHECK(localise("It is a two-handed weapon.") == "Двуручное оружие.");
+            const string category = localise("This battleaxe falls into the 'Axes' category.");
+            CHECK(category.find("Тип оружия:") == 0);
+            CHECK(category.find("battleaxe") == string::npos);
+            CHECK(category.find("Axes") == string::npos);
+            CHECK(localise_in_context("item-actions", ", or ") == ", ");
             CHECK(description.find("Яростный раскол:") != string::npos);
             CHECK(description.find("При экипировке вызывает замедление и истощение сил.") != string::npos);
             CHECK(description.find("RageSunder") == string::npos);
             CHECK(description.find("consecutive") == string::npos);
             CHECK(description.find("when equipped") == string::npos);
             Options.language = lang_t::EN;
+            CHECK(damage_rating_for_display(&item) == raw_formula);
             CHECK(get_item_description(item, IDM_PLAIN).find("RageSunder:") != string::npos);
             Options.language = lang_t::RU;
         }

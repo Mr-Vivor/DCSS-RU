@@ -1346,8 +1346,8 @@ static string _skill_target_desc(skill_type skill, int scaled_target,
             _xl_cost_desc(diffs.experience).c_str());
     if (you.wizard)
     {
-        description += make_stringf("\n    (%d xp, %d skp)",
-                                    diffs.experience, diffs.skill_points);
+        description += localise(make_stringf("\n    (%d xp, %d skp)",
+                                    diffs.experience, diffs.skill_points));
     }
     return description;
 }
@@ -1513,6 +1513,12 @@ string damage_rating(const item_def *item, int *rating_value)
         plusses_desc.c_str(),
         dmg_brand_desc.c_str(),
         archery_bonus_string.c_str());
+}
+
+string damage_rating_for_display(const item_def *item)
+{
+    // Lua and other data consumers retain damage_rating's original breakdown.
+    return localise_in_context("damage-rating", damage_rating(item));
 }
 
 static string _weapon_ego_key(brand_type ego)
@@ -1773,7 +1779,7 @@ static void _append_weapon_stats(string &description, const item_def &item)
     if (want_player_stats)
     {
         description += _desc_attack_delay(item);
-        description += "\nDamage rating: " + damage_rating(&item);
+        description += "\nDamage rating: " + damage_rating_for_display(&item);
         if (item.base_type == OBJ_STAVES
             && item.is_identified()
             && staff_skill(static_cast<stave_type>(item.sub_type)) != SK_NONE)
@@ -1820,13 +1826,13 @@ static void _append_weapon_stats(string &description, const item_def &item)
 static string _handedness_string(const item_def &item)
 {
     if (you.has_mutation(MUT_NO_GRASPING))
-        return "\nYou are unable to wield it.";
+        return localise("\nYou are unable to wield it.");
 
     if (crawl_state.need_save
         && is_weapon_too_large(item, you.body_size(PSIZE_TORSO))
         && !you.has_mutation(MUT_QUADRUMANOUS))
     {
-        return "\nIt is too large for you to wield.";
+        return localise("\nIt is too large for you to wield.");
     }
 
     const bool quad = you.has_mutation(MUT_QUADRUMANOUS);
@@ -1848,12 +1854,12 @@ static string _handedness_string(const item_def &item)
     }
 
     if (quad)
-        return make_stringf("It is a weapon for %s %s.", n.c_str(), handname.c_str());
+        return localise(make_stringf("It is a weapon for %s %s.", n.c_str(), handname.c_str()));
     else
     {
-        return make_stringf("It is a %s-%s%s weapon.", n.c_str(),
+        return localise(make_stringf("It is a %s-%s%s weapon.", n.c_str(),
             handname.c_str(),
-            ends_with(handname, "e") ? "d" : "ed");
+            ends_with(handname, "e") ? "d" : "ed"));
     }
 
 }
@@ -1904,7 +1910,7 @@ static string _category_string(const item_def &item, bool monster)
         break;
     }
 
-    return description;
+    return localise(description);
 }
 
 static string _describe_weapon_brand(const item_def &item)
@@ -2427,7 +2433,7 @@ static string _describe_ammo(const item_def &item)
             description += _desc_attack_delay(item);
 
             if (property(item, PWPN_DAMAGE))
-                description += "\nDamage rating: " + damage_rating(&item);
+                description += "\nDamage rating: " + damage_rating_for_display(&item);
         }
     }
 
@@ -4174,10 +4180,10 @@ static string _actions_desc(const vector<command_type>& actions)
                                     if (cmd == CMD_QUAFF) // assumes quaff appears first
                                         push_quiver = true;
                                     else if (push_quiver && cmd == CMD_QUIVER_ITEM)
-                                        return string("qui(v)er");
-                                    return act_str.at(cmd);
+                                        return localise("qui(v)er");
+                                    return localise(act_str.at(cmd));
                                 },
-                                ", or ") + ".";
+                                localise_in_context("item-actions", ", or ")) + ".";
 }
 
 // Take a key and a list of commands and return the command from the list
@@ -4451,10 +4457,11 @@ command_type describe_item_popup(const item_def &item,
     if (!actions.empty())
     {
         if (!spells.empty())
-            footer_text.cprintf("Select a spell, or ");
+            footer_text.cprintf("%s", localise("Select a spell, or ").c_str());
         footer_text += formatted_string(_actions_desc(actions));
         auto footer = make_shared<Text>();
         footer->set_text(footer_text);
+        footer->set_wrap_text(true);
         footer->set_margin_for_crt(1, 0, 0, 0);
         footer->set_margin_for_sdl(20, 0, 0, 0);
         vbox->add_child(std::move(footer));

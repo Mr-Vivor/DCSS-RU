@@ -78,6 +78,7 @@ void inscribe_item(item_def &item);
 void target_item(item_def &item);
 void desc_randart_props(const item_def &item, vector<string> &lines);
 string damage_rating(const item_def *item, int *rating_value = nullptr);
+string damage_rating_for_display(const item_def *item);
 
 int describe_monster(const monster_info &mi, const string& footer = "");
 
