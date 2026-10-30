@@ -2525,8 +2525,8 @@
       "translation_sha256": "a810693c79731213e2004c8b1585c862cd88ea4d0e382d325c38716ff734a977"
     },
     "Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.": {
-      "context": "describe.cc",
-      "translation_sha256": "d5254acb093c81531ca697deece5bfada282ec89f31ec0cea58ec731faf75123"
+      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6e93dfb3700a9f2fb926d1491d515cbbc702fd3ebd98915f9fd000c992c33742"
     },
     "Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.": {
       "context": "describe.cc",
@@ -30475,8 +30475,1501 @@
     "It is found in decks of summoning.": {
       "context": "decks.cc: card description deck membership",
       "translation_sha256": "9ed62ccb296df90a75c0b926f735155856ca5f5e5955ce5131b24c60bae2dec7"
+    },
+    "{unrand-prop}Sonic Wave": {
+      "context": "art-data.txt:Singing Sword:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0c1ed0a4dba1eac722c292992a61d7e470b1400632eaecb223e2f1963e4d4b39"
+    },
+    "It radiates damaging sonic waves as it strikes, especially in combat involving dangerous or numerous foes.": {
+      "context": "art-data.txt:Singing Sword:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a5394be0fb55b23d4e640e8d20a18db2b55332c994daf47ddb9ba07296aa5c79"
+    },
+    "{unrand-prop}RageSunder": {
+      "context": "art-data.txt:Wrath of Trog:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8cb606df23e69db766d42e99f53990faef92d3b752f2723dda8ac9f2b67ba2bc"
+    },
+    "After you perform multiple consecutive attacks, its next attack will deal greatly increased damage and also cleave into targets an extra space away. This effect charges faster and partially retains its charge between attacks while you are berserk.": {
+      "context": "art-data.txt:Wrath of Trog:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f02c7c1e742064f3eedff90b398a0ee5635f19e80809cb569d303c0a46612682"
+    },
+    "It causes slowness and exhaustion when equipped.": {
+      "context": "art-data.txt:Wrath of Trog:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8a8709da3b9907da7024c6c1070f8b6e6b06cd19da8b3850dae5c09311ee8dfb"
+    },
+    "It extends the wielder's berserk rage when killing foes.": {
+      "context": "art-data.txt:Wrath of Trog:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "08d2cee8e687e295884009c793515f7b4fd57a2430088a0e5e923c44745e86a0"
+    },
+    "{unrand-prop}Chaos Arc": {
+      "context": "art-data.txt:mace of Variability:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "eecf3377660e9d3e623980e920ee2b8da088647206c85939237a01ce81739c03"
+    },
+    "It occasionally unleashes arcs of chaos on nearby creatures upon striking a foe.": {
+      "context": "art-data.txt:mace of Variability:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "45e4026c63fbc4c0419d3ea1476abc0b1f3361c416d5d92807cd397afb1444cc"
+    },
+    "{unrand-prop}Prune": {
+      "context": "art-data.txt:partisan of Prune:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "58177ef74a6c489e5d5421ef13e47bc68047ac6562bff625f63f9b992b4d029a"
+    },
+    "It halves damage taken while paralysed, petrified or unconscious.": {
+      "context": "art-data.txt:partisan of Prune:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d924885fc19f02ebcfe769562701aba0f4337e2e1b4cc1ef25872b4ff613f332"
+    },
+    "{unrand-prop}Radiate": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "73292e1628d558e1a0680d31b11a534c0f15ccaee1850fdaf6146249c8e6e354"
+    },
+    "It can be activated via the 'a'bility menu to radiate toxic energy, with effectiveness depending on Evocations skill.": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9976483a9faa7f3874b2b437560de32946c493959cf8fe4b3a668e8dda7dc0cc"
+    },
+    "{unrand-prop}Alch": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c3c7235fb3f647edc7143680ba71a384eede6b480fee88331bfc44807f36846d"
+    },
+    "It enhances your alchemy magic.": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3e317bf52ed782aa66a0319fee5b2493b21838442e8ac82302d85570119544b5"
+    },
+    "{unrand-prop}rPois∞": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f713cd3d06a591ed6d302550b2ebd163f9f0a645c9392a294d8bf39b6b4fac10"
+    },
+    "It grants immunity to poison.": {
+      "context": "art-data.txt:staff of Olgreb:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6de66c52974ec8e855552ff1a9d6066887dfd5d05b96bad687981a56184ade33"
+    },
+    "{unrand-prop}Envenom": {
+      "context": "art-data.txt:staff of Olgreb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fc6950573edebbec8736b98583c900a97a7535d025016c53532cc08b93f2e423"
+    },
+    "If the wielder is skilled in Evocations, they can envenom those struck by it, dealing poison damage which bypasses armour.": {
+      "context": "art-data.txt:staff of Olgreb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e005c02c28488898b886ee094858fca284ae79991f50a5ce7259cdf3ea53100c"
+    },
+    "{unrand-prop}Mindtap": {
+      "context": "art-data.txt:crystal ball of Wucad Mu:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0b3189392c7dfb19648efa980b344164bf74107a14c36bbff3a9140a637728be"
+    },
+    "Whenever a successful spell causes magic to be channelled from it, it may also drain additional magic from other enemies in sight, with a chance increasing with spell level.": {
+      "context": "art-data.txt:crystal ball of Wucad Mu:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "def0d3c03e2029c6c8c215293d7f913435aeece705ed33b7f59ddc2f24ff172e"
+    },
+    "{unrand-prop}Megavamp": {
+      "context": "art-data.txt:Vampire's Tooth:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8bc5315f46220971c2bd9465067429de0810a0f4c184594aea35ef19a95dfdaf"
+    },
+    "It occasionally heals its wielder for the full amount of damage dealt when it wounds a living foe.": {
+      "context": "art-data.txt:Vampire's Tooth:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "811574bccf86c5f4c0269095dcac53fbb38dfcbf9a146335c8cf7cc72e485baa"
+    },
+    "{unrand-prop}Curses": {
+      "context": "art-data.txt:scythe of Curses:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c2532dcd3f1b97a65c22ef2cc9f65067a4f3baca8b5418a0bc20d1895674702b"
+    },
+    "It inflicts powerful necromantic curses on any foe it strikes.": {
+      "context": "art-data.txt:scythe of Curses:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3b67b2834963f3c5b21f68027bb75c7b921626fed8ecbf38aa1541ab99afa0b2"
+    },
+    "{unrand-prop}Torment": {
+      "context": "art-data.txt:sceptre of Torment:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "bf3f72da4ebe4d3bf68040488661029e9af3dbc296ec099aef78d922b6eaf7fb"
+    },
+    "It occasionally torments all nearby living foes when it strikes in combat.": {
+      "context": "art-data.txt:sceptre of Torment:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2c37d97de8bbef8062aa1761f4fac4ccdc31f53fb2349d603c86b06fb822464c"
+    },
+    "{unrand-prop}Hellfire": {
+      "context": "art-data.txt:sword of Cerebov:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fe3d08d01ba85b8e4a4b5bffc224dc3f592ee165ddc3f47ee3eaf0efc0cc72f8"
+    },
+    "It temporarily reduces the fire resistance of those it strikes.": {
+      "context": "art-data.txt:sword of Cerebov:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "27a856368c16fc566f354b2c2100e569e69e00e93c429e29bed0ca507e9abd76"
+    },
+    "{unrand-prop}+Damnation": {
+      "context": "art-data.txt:orb of Dispater:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fec94369c3fc6c0e98b60e7572a0ea59ac0c2edc953cab4ed2d247c5b70ce73b"
+    },
+    "It grants the ability to hurl damnation at the cost of health and magic, with strength depending on Evocations skill.": {
+      "context": "art-data.txt:orb of Dispater:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c9184a5220fb2378f2b1b139b7d444cfb6238d69fd1918e41920ec2a56279613"
+    },
+    "{unrand-prop}Hellfire Court": {
+      "context": "art-data.txt:sceptre of Asmodeus:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1d47a2283d1ea094cb8d66470580cb4a3a2bb4209145e1dac32b353c734f878f"
+    },
+    "It may summon demons of flame and damnation when striking foes.": {
+      "context": "art-data.txt:sceptre of Asmodeus:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b59e56e9f7a954936d8cc25e274a7f114dc19419db760a4fa84451de1f54852d"
+    },
+    "{unrand-prop}Umbra": {
+      "context": "art-data.txt:ring of Shadows:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f89335ce7aa0e71dd771ebcbd350eb840ac016af09af0be1a6a41fae1c6fae51"
+    },
+    "It surrounds you with an aura of shadow, increasing your stealth and reducing the accuracy of all others within it.": {
+      "context": "art-data.txt:ring of Shadows:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e082992e85cd8d3f97de01d52be141351e30eac0100e99e4bbdf340076a0c12d"
+    },
+    "{unrand-prop}Evervamp": {
+      "context": "art-data.txt:demon blade \"Leech\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "596af8da060612009b8bcd34ed2e7833f5c7e7344f5e85ca46848cf6ca7ca86e"
+    },
+    "It heals its wielder for a portion of the damage dealt every time it strikes a living foe.": {
+      "context": "art-data.txt:demon blade \"Leech\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e74e69b75079fc05242a0b6002a531d8cdb10a15b48c5ee44aea07c7dbc1ae58"
+    },
+    "{unrand-prop}Execute": {
+      "context": "art-data.txt:scythe \"Finisher\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "34300c5aacadbe2618abaa8350ce928902823cca846fa065aaeab7556b8c35a6"
+    },
+    "It may instantly slay those it strikes, especially weaker foes.": {
+      "context": "art-data.txt:scythe \"Finisher\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "31ac7f6f491409b7528feb0ab37bd25c9ec7afba6d98cf3a96aa6f2aea910c38"
+    },
+    "{unrand-prop}Salvo": {
+      "context": "art-data.txt:longbow \"Zephyr\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "75ce4447eaa85c6d73f8acc8dac43e6fa44f90392ca1e87571d819c9d0a59d18"
+    },
+    "Any attack performed with it also shoots at up to 4 other unobstructed targets in range.": {
+      "context": "art-data.txt:longbow \"Zephyr\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f3d7025b9b5b7b4e28017d8d0f095e0329707b5868c39d5bd8e090c89719890c"
+    },
+    "{unrand-prop}Spectral": {
+      "context": "art-data.txt:glaive of the Guard:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "82f6c3f86f38dfb8c35c53e6ee01aae818fbf5688a0e8c24d29b3805ea16b13e"
+    },
+    "When it strikes, its spirit leaps out and fights alongside the wielder.": {
+      "context": "art-data.txt:glaive of the Guard:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c80f6bade5330838284ba23f3155493377638a687c8c54246781a39b3949f4c2"
+    },
+    "{unrand-prop}Zealotry": {
+      "context": "art-data.txt:zealot's sword:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "debb15d8a7370af54efbc30ee7e00e3f381c750c68c3c759b87f62b62c96184b"
+    },
+    "Whenever the wielder enters a berserk rage, their allies are berserked alongside them.": {
+      "context": "art-data.txt:zealot's sword:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b23038aca1a40ff823ee0f3bdd4667c85ce89d43762accabf93ac49710de1693"
+    },
+    "{unrand-prop}Damnation": {
+      "context": "art-data.txt:arbalest \"Damnation\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "cdb232cfffcb9bba1d5c3d35bd27a3e54ab3941cacd10c0578d0ca49f691b358"
+    },
+    "Any ammunition fired from it explodes in a burst of damnation on striking a foe, dealing damage which bypasses armour.": {
+      "context": "art-data.txt:arbalest \"Damnation\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3b51236df8bb2783de62f3b8cc7739527aa447994439126ed7ae3698d4d1c47b"
+    },
+    "{unrand-prop}Decimate": {
+      "context": "art-data.txt:sword of the Dread Knight:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f4a5275023f0ff8a185fad4e7d4dfaf028d5a54f99d56bbe8104f37b2e7a54ef"
+    },
+    "It inflicts additional damage proportional to its victim's maximum health.": {
+      "context": "art-data.txt:sword of the Dread Knight:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "58c29d8934505429ada60921b77c0401ebd70ad84156e0ca0cdbcf5d2ea28534"
+    },
+    "{unrand-prop}Halo": {
+      "context": "art-data.txt:morningstar \"Eos\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "459ab8b1f527cda69c87a6e2a240da8477653059f5d806323538a3dcdeb42af9"
+    },
+    "It grants its wielder a halo, revealing invisible creatures and increasing accuracy against all within it other than the wielder.": {
+      "context": "art-data.txt:morningstar \"Eos\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "091a76e397279cfaaf37faa7f06d281f716591838e280b42a13849741f6e6a93"
+    },
+    "{unrand-prop}Ele": {
+      "context": "art-data.txt:Elemental Staff:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "99bf40567055490367bece4b9f34c5d5f0bf1befac7f6265740b5b7eeadf0169"
+    },
+    "It enhances your fire, ice, earth and air magic. If skilled in Evocations, you can discharge powerful blasts of elemental energy when striking with it.": {
+      "context": "art-data.txt:Elemental Staff:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fae41f6d9ab93fe5a5f510ca5abf29b79b853f7afa23af5a6417c87eea48fba6"
+    },
+    "{unrand-prop}Acc+∞": {
+      "context": "art-data.txt:heavy crossbow \"Sniper\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "29e0871455e9b1729e9bf3745776ebd9321afe1c031837e987a45130494a3aee"
+    },
+    "It never misses its target.": {
+      "context": "art-data.txt:heavy crossbow \"Sniper\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "711f0a9bf4aea7cc3e0c7a14f189f2456f175fdbe58b6006a6969cc992e39174"
+    },
+    "{unrand-prop}Slay Drac": {
+      "context": "art-data.txt:lance \"Wyrmbane\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1a8bdacb5b5c604b1d4354a4e2ae77ab2349b82b82f5cabd25bf6e9e140cd753"
+    },
+    "It inflicts extra damage against dragons and draconians.": {
+      "context": "art-data.txt:lance \"Wyrmbane\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8d522de1c6dfe159f0ae9c61158f5e43a1443018becb1409f5613f6d560b0675"
+    },
+    "{unrand-prop}Stab": {
+      "context": "art-data.txt:Spriggan's Knife:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4e7a81c6983ca20cb135970c5496e46c6087cc37df24d6c43e38cbdada3e59cf"
+    },
+    "It is more effective when stabbing unaware enemies, sometimes treating them as though they were completely helpless.": {
+      "context": "art-data.txt:Spriggan's Knife:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e1bf73a958b2bb651c9dc381f2426d166802952b6fe275394445d0156b8b1c1f"
+    },
+    "{unrand-prop}Mutate": {
+      "context": "art-data.txt:plutonium sword:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6b4047d08b518349684b093f52fd93954525868e304f70de5fe96396dd29c53a"
+    },
+    "It occasionally inflicts wild transmutation effects on those it strikes, inflicting malmutation or extra damage, or polymorphing them into a new form.": {
+      "context": "art-data.txt:plutonium sword:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4cd1ce2d1dcdca0a3a7125757a3c4b8e6fd49a3556d2e532cdb92a6e6ce89cec"
+    },
+    "{unrand-prop}Deathbane": {
+      "context": "art-data.txt:great mace \"Undeadhunter\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0af02000e92653c514d69d4d5ea7219e802aa8b15b9f84db09e51c34d080ddd0"
+    },
+    "It inflicts significantly more damage against the undead.": {
+      "context": "art-data.txt:great mace \"Undeadhunter\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "53060014c9cf882f2e85efa2ccdf9b20dbcf62b7ab8691946f2a1c3c4e34cb6e"
+    },
+    "{unrand-prop}Curare": {
+      "context": "art-data.txt:whip \"Snakebite\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "329b8ef45bfdacd28e52907a07fbb3045c400f4843949b7ecfd10d0cca731bfb"
+    },
+    "It occasionally inflicts asphyxiating poison on those it strikes, dealing poison damage and causing slowness.": {
+      "context": "art-data.txt:whip \"Snakebite\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "117febfc9bb3cabea1a8a1b29f67158d8f6b672f72865ac26cbc0feab6782f08"
+    },
+    "{unrand-prop}Disarm": {
+      "context": "art-data.txt:captain's cutlass:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0acddb91859c6b8a2bb107d504dbc14749822f179c32edec5900eb754d83d3fc"
+    },
+    "It may disarm weapon-wielding foes when striking them, dealing extra damage in the process.": {
+      "context": "art-data.txt:captain's cutlass:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "198574be7be69d24d95a06a05363e4613a48f0a266249b792e165c988899dea1"
+    },
+    "{unrand-prop}Penet": {
+      "context": "art-data.txt:storm bow:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6f6d5534ff30054b913e5f0e037aa3992f71f2aa98e8f0a812265c273864548c"
+    },
+    "Any ammunition fired by it passes through the targets it hits, potentially hitting all targets in its path until it reaches maximum range.": {
+      "context": "art-data.txt:storm bow:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5b675c17394d4426e23a0d53b2c9c09f34289a6c74eebd63391aa6d72cbc42e6"
+    },
+    "{unrand-prop}Quiet": {
+      "context": "art-data.txt:cloak of the Thief:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0b0d89fce9e9ff462339182f7f10cc7f71707f11810594f442631fc7e1cff639"
+    },
+    "All noise in your surroundings is dampened.": {
+      "context": "art-data.txt:cloak of the Thief:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e303a5c8ba64039696f16c4d4f62b64c448748f83f72c56d14c3db3a6523f2a6"
+    },
+    "{unrand-prop}Bear": {
+      "context": "art-data.txt:hat of the Bear Spirit:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "440a17764200170505f76aa4b61218c4bbd531e1a855ace17b3bb1567e8f26eb"
+    },
+    "Going berserk makes the wearer exceptionally tough, and they are slowed for a shorter time afterward.": {
+      "context": "art-data.txt:hat of the Bear Spirit:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f04f5e60cb49b5fb6d3a66030015d833786caf024e8225848e9ae481209f584e"
+    },
+    "{unrand-prop}Detect": {
+      "context": "art-data.txt:hood of the Assassin:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7b7c7d8706fe51d8bf83cb3ddf2d70de94da52c9aca2b3061815c53283823e50"
+    },
+    "It allows the wearer to sense nearby creatures.": {
+      "context": "art-data.txt:hood of the Assassin:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "250379d366b1e2e36b0153231b8f0797dcdc751bf811abf45ffb691303208094"
+    },
+    "{unrand-prop}Stab+": {
+      "context": "art-data.txt:hood of the Assassin:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a9dbe22a012f81efcedaa3d71cb82fd2b26803c93fa8bbca1817ee4f09cfd791"
+    },
+    "It allows the wearer to make particularly effective stabbing attacks against helpless or unaware enemies with any melee weapon.": {
+      "context": "art-data.txt:hood of the Assassin:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "763a8b364b17d68a97267eb14fd3cfc62f1ed0b0fc0e9c4ed07698545e2eae70"
+    },
+    "{unrand-prop}*Englaciate": {
+      "context": "art-data.txt:skin of Zhor:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "01ee0017879c29927034edeb972b2b8220f90575284ebd77aa351802b5296fd5"
+    },
+    "It radiates cold, occasionally slowing all nearby creatures who are not resistant to cold.": {
+      "context": "art-data.txt:skin of Zhor:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "349a3949be8a760f0d010afbde638486d073b79ac79c5538e590367459e96f76"
+    },
+    "{unrand-prop}Flames": {
+      "context": "art-data.txt:salamander hide armour:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1003b535bd221f7182f4974743d1600ec3d59055a9a8fabbffd4f771142d00fb"
+    },
+    "It surrounds you with flame clouds.": {
+      "context": "art-data.txt:salamander hide armour:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8c1839487c76e1f5d55c42aefda82f33118db0ece67469abfe6edc3d150128fa"
+    },
+    "{unrand-prop}rFlCloud": {
+      "context": "art-data.txt:great mace \"Firestarter\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "da2c40d0a9987bcb639c1d2dcbe30c86839e8ecd15d55144fda3acbd02531138"
+    },
+    "It grants immunity to flame clouds.": {
+      "context": "art-data.txt:salamander hide armour:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3af53a13af913325d2f5e34f2749e5292ec04ec6b0d232268cfd82ccfcc36656"
+    },
+    "{unrand-prop}Brill": {
+      "context": "art-data.txt:robe of Folly:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0c878b1aac2c835adaafce917e35005e12a998e34b97bb070c7cd7201b91508e"
+    },
+    "It increases the power of your magical spells and halves their MP cost (rounding up).": {
+      "context": "art-data.txt:robe of Folly:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a101dcbffed2cca4b2b0893ce119b5cba28e7175413b8165dfc9f98ab44a665a"
+    },
+    "{unrand-prop}Will-∞": {
+      "context": "art-data.txt:robe of Folly:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "73a8cd9bad18e82b98116e6fb664eda5b652540dc60f676586d0dee28c56c581"
+    },
+    "It reduces your willpower to zero.": {
+      "context": "art-data.txt:robe of Folly:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "15e8d4ea55a3fa7b17d397f72c0a7e64f53a5009c364775361df3bc603705f75"
+    },
+    "{unrand-prop}Dragonpray": {
+      "context": "art-data.txt:mask of the Dragon:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d570c2b124fe750f086521a0a44ce4227e3e8a0b1d68c0beb455ad1b3c061d0c"
+    },
+    "It occasionally summons a dragon when using divine abilities with hostile monsters in sight. Chance is 10% + twice the piety cost of the ability used.": {
+      "context": "art-data.txt:mask of the Dragon:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "da28bdd028787416962c3ef3dab4301b6d0ac5ccf0b9c7d694b6ec161bfc1c2f"
+    },
+    "{unrand-prop}Dark": {
+      "context": "art-data.txt:robe of Night:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "211d6061a61e13a092f04219105726fe4afb2908e079efb81d6ea8bd4d091b72"
+    },
+    "It shrouds the wearer in darkness, reducing the range at which they can see and be seen by others.": {
+      "context": "art-data.txt:robe of Night:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5d969c90ed85087fa1b139c4c2751d44194412daae3e443170ee596aabe7ea96"
+    },
+    "{unrand-prop}Riposte": {
+      "context": "art-data.txt:fencer's gloves:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "20855dd2e8e89074d9355680c026b32aac20f2a48d09baa7285ed294be514146"
+    },
+    "It allows the wearer to riposte with melee weapons, swiftly retaliating against missed or blocked melee attacks.": {
+      "context": "art-data.txt:fencer's gloves:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4e098822413f913eb9b7e5d93a7dc0766e7bfd3d6a4b46182aedfe1364d6cbe9"
+    },
+    "{unrand-prop}*Dazzle": {
+      "context": "art-data.txt:cloak of Starlight:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "ef98265e933132de2e72d9a1bb02f21d50ce5ccaf96759e9572e5f1a59463d04"
+    },
+    "It may blind adjacent enemies who miss an attack against the wearer in melee combat.": {
+      "context": "art-data.txt:cloak of Starlight:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e10c2370e0d1dc2bde19697eea6d691f8ca258eff2add1162dc2cc6b7857db17"
+    },
+    "{unrand-prop}*Rats": {
+      "context": "art-data.txt:ratskin cloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4579658954b067c31da16af2f8e6b1975ee8dca750a75fe935ed6ef5a5c0232c"
+    },
+    "When the wearer is hurt, rats may emerge from it to assist them.": {
+      "context": "art-data.txt:ratskin cloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9571cb9e398f847eeb0bf5eafba236c892b7dd674752c348c4c2d56d8fe3e54a"
+    },
+    "{unrand-prop}Loud": {
+      "context": "art-data.txt:shield of the Gong:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "bdbf7b5f7c418572c3f0f15e4ff0799ef3b1081f009b00937bfef74bbca58f04"
+    },
+    "It is deafeningly noisy when blocking attacks.": {
+      "context": "art-data.txt:shield of the Gong:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9dce7a8e2d27be689f9c4b47914bec57d4c4c6c82511ae3d335871cb818ef137"
+    },
+    "{unrand-prop}Inacc": {
+      "context": "art-data.txt:amulet of the Air:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fe19c14a39abe5147a6665557b71b33c62489179b4d864a9b776a05dae83a4a4"
+    },
+    "It reduces the accuracy of your attacks and spells.": {
+      "context": "art-data.txt:amulet of the Air:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b503f6fa448c2fef00311f218abd74f0a743bb6a5cf619738445f8ba90374f17"
+    },
+    "{unrand-prop}Fury": {
+      "context": "art-data.txt:necklace of Bloodlust:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4dfeb0186c23090fa657a77f35a56e44104d7976fbf75c966bc5a01418ccb9bb"
+    },
+    "It extends the wearer's berserk rage when killing foes.": {
+      "context": "art-data.txt:necklace of Bloodlust:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9dbda4f25473ea06e25b6761e39b3d8b57510a85d77249f28f989547f26d4eb8"
+    },
+    "{unrand-prop}*Thunder": {
+      "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6ec9ac9abf4f9547b3425cd0836f029cd1afe9d47d22a96e5fe7e38fad9bb648"
+    },
+    "It occasionally creates storm clouds above nearby enemies.": {
+      "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fc75d9ef9ebfd9e909c775aa6d1cfcb1e29d660ae434bc7328d093dcd58eccb0"
+    },
+    "{unrand-prop}rCloud": {
+      "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d4cbd433a62fd327d1302bbe3f090d91a42bbda2b28cdcf5c0456627f21f4744"
+    },
+    "It grants its wearer immunity to clouds.": {
+      "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8eac2b298d15ea478aa33c28cfef5bc9f35c10d1aff515f215810ffe087a7c1d"
+    },
+    "{unrand-prop}Mesm": {
+      "context": "art-data.txt:obsidian axe:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "551172a66fbbe1a13078a050d3f193bb9718220b631c47251ef797902885fb52"
+    },
+    "Its wielder is mesmerised by any visible foes, and it cannot be unequipped while any foes are visible.": {
+      "context": "art-data.txt:obsidian axe:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6d7e2cfe74ccb6fd5f6c074296da876e8cb1e8ed7329b0af9bc8f60769c6d5e3"
+    },
+    "{unrand-prop}Demonic": {
+      "context": "art-data.txt:obsidian axe:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9cfe077b7f6f7e5b7b3469736caa7d78c550a2c5624c7349c3364ab367f3fa31"
+    },
+    "It occasionally summons demons to assist the wielder when it strikes in combat.": {
+      "context": "art-data.txt:obsidian axe:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c47a8e51997e8788553016ddfda4b8ac5611837d127f5a0d87bfc325b60b949e"
+    },
+    "{unrand-prop}Swift": {
+      "context": "art-data.txt:lightning scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "61b8521c2fe20da1ae0d01767091765d495fe41a56fb9e7ff71fb84a1f2cf2e0"
+    },
+    "It allows the wearer to cover ground more swiftly.": {
+      "context": "art-data.txt:lightning scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5808f19f5e25e2448bf210d9e88bd79a30dcce2d73bd10bdeda81e6e3151dd8b"
+    },
+    "{unrand-prop}Manifold Assault": {
+      "context": "art-data.txt:autumn katana:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "693ec5c56a10800321f84ba2539e33f4c03768ea6491e40f107088cf3634874a"
+    },
+    "It sometimes launches melee attacks against multiple visible enemies.": {
+      "context": "art-data.txt:autumn katana:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a2acb4f2d3a669c52de1725cf6b604d1fffda1cb8f378976b5a9070329245592"
+    },
+    "{unrand-prop}Shatter": {
+      "context": "art-data.txt:shillelagh \"Devastator\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "816429558f384674a66167e6962cdb60a34e8d364d08fc47e76e520d33868332"
+    },
+    "It releases a powerful concussive burst when it strikes, dealing extra damage to the target and all other creatures adjacent to them.": {
+      "context": "art-data.txt:shillelagh \"Devastator\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6b764cdfccebc5197d24082abbac3552fa0ab7b923fdb2b7fef0c88e4ff78650"
+    },
+    "{unrand-prop}Avatar's Aegis": {
+      "context": "art-data.txt:dragonskin cloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "14c59e16678b94093d25bae826fed22dc7fd7483cfa1fe2061204776fa357cf1"
+    },
+    "It grants the wearer a chance to resist fire, cold, poison, electricity, acid, and negative energy.": {
+      "context": "art-data.txt:dragonskin cloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "422bd9a4eab7b7b5a3e326279da1909210503ba3f330388d8f366fc64d56c9d9"
+    },
+    "{unrand-prop}Ring+": {
+      "context": "art-data.txt:macabre finger necklace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e8bc3406020a6e2cbb7e3e12a0b64263526e375f8db023bff4e0caab3e202183"
+    },
+    "It enables you to equip an extra ring.": {
+      "context": "art-data.txt:macabre finger necklace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "408f8c776e67edca5c2a9dae030431534ce101706fd442e478f8d99821063c91"
+    },
+    "{unrand-prop}Discharge": {
+      "context": "art-data.txt:arc blade:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a3d33de95bbdc45263148777d9faf6b487a020de12bba9d5bd080daf7262ef4e"
+    },
+    "It occasionally unleashes powerful arcs of lightning upon striking a foe. These may arc to other adjacent creatures (including the wielder, but dealing reduced damage to them) before grounding out.": {
+      "context": "art-data.txt:arc blade:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8fa50fd1c5ae9451d22f0397b51494fc7fd638c8da1cbad5436b7fecf98e0e7a"
+    },
+    "{unrand-prop}Disrupt": {
+      "context": "art-data.txt:demon whip \"Spellbinder\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "891b5b70516115a75e3d8521c486041cd59d0c5847f68313015da3470b34c13d"
+    },
+    "It unleashes wild and unpredictable magical effects upon striking a wizard or a creature with magical abilities.": {
+      "context": "art-data.txt:demon whip \"Spellbinder\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "def8edcfd6408e5758c5beb7fc03e08cb53b75cc6e827f5085cff21a665a0b95"
+    },
+    "{unrand-prop}Silver": {
+      "context": "art-data.txt:lajatang of Order:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "06a0412cc7edc7d0205d94316d80fa1940137d15d85a25d58eda782120c505ac"
+    },
+    "It inflicts extra damage upon those it strikes, and deals substantially increased damage to chaotic, mutated and magically transformed beings.": {
+      "context": "art-data.txt:lajatang of Order:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7b937f4033d11cb1c4767ef1ab1178b3bcaa0fbddb4aad14ad528e2967a044d3"
+    },
+    "It grants immunity to clouds of flame.": {
+      "context": "art-data.txt:great mace \"Firestarter\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3af53a13af913325d2f5e34f2749e5292ec04ec6b0d232268cfd82ccfcc36656"
+    },
+    "{unrand-prop}Immolate": {
+      "context": "art-data.txt:great mace \"Firestarter\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3e8c9197d5b6e2d28b4a31318db2899f6cc431f38677d19a9ca485c24f1461c7"
+    },
+    "It fills those it strikes with an explosive inner flame.": {
+      "context": "art-data.txt:great mace \"Firestarter\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5c9437679bf77c55b095cb7c66c54538958159da0d7b831f124e08dc545aab6c"
+    },
+    "{unrand-prop}Spellvamp": {
+      "context": "art-data.txt:Majin-Bo:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f2b624bf455e9a1d28b7c61e43d1152ecdbbcb15686adbf9433a277f77a61658"
+    },
+    "It heals its wielder for a portion of the damage dealt when they wound a living foe with it or with a spell, but its wielder's spells cost health as well as magical power.": {
+      "context": "art-data.txt:Majin-Bo:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8f95f547f05dd83c70dd7ef95ef831ba053fd4ba0aa68f8ab83996f2543a3b89"
+    },
+    "{unrand-prop}NoPotionHeal": {
+      "context": "art-data.txt:robe of Vines:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "91032718e335a6fb2e989e8d605a405082bb1bfeed34c86e51da94e08a2226d2"
+    },
+    "Its wearer cannot be healed by potions.": {
+      "context": "art-data.txt:robe of Vines:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d450184a710896cb5a8b3c4272a6fa489c22cdaf5e03fd0eba0ced37bf5bc8e9"
+    },
+    "{unrand-prop}PotionHeal*2": {
+      "context": "art-data.txt:Kryia's mail coat:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e49c4a9f7ada84ad4e7422b9a4042ef3259ce6cd9d90d2c1639e669fcaa641de"
+    },
+    "Potions heal its wearer twice as much.": {
+      "context": "art-data.txt:Kryia's mail coat:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "68f6d1675074ba71286e1ef87c4909541b487531ec1c3a02cc0f5a716d91394b"
+    },
+    "{unrand-prop}Freezing Cloud": {
+      "context": "art-data.txt:frozen axe \"Frostbite\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "781037b41c26248199642d41573bce9b63c84881d0e22b6596e700cdc0305d2b"
+    },
+    "It occasionally leaves clouds of freezing vapour upon striking a foe, and grants immunity to clouds of freezing vapour.": {
+      "context": "art-data.txt:frozen axe \"Frostbite\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "298a2781a4db4088f54b6f9417c91e4d402ccd66760d65c405bd439836593d88"
+    },
+    "{unrand-prop}Omnireflect": {
+      "context": "art-data.txt:warlock's mirror:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c05060ceffa81f3cedb32335970610ca3e6254b29b3e119cbfead67784f39930"
+    },
+    "It can block and reflect piercing ranged attacks and magical attacks against the wielder's willpower.": {
+      "context": "art-data.txt:warlock's mirror:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "064d454114bef87f236699f45aa3e12ed681c58713c9376932dca6349e8481d5"
+    },
+    "{unrand-prop}Freeze": {
+      "context": "art-data.txt:Maxwell's thermic engine:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1b0f1776c144e3e44df5fc826f4416fc71042e0cf0bbc2695765c5fcf99bc8f6"
+    },
+    "It freezes victims, dealing an additional one-quarter of any damage that pierces defenders' armour. It may also slow down cold-blooded creatures.": {
+      "context": "art-data.txt:Maxwell's thermic engine:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4561f195806e17fe6e2ae6a2b1a1ac9cc79c94be908821a3a0d2a74defa14615"
+    },
+    "{unrand-prop}Rev": {
+      "context": "art-data.txt:Maxwell's thermic engine:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "aa1831c7c1c40c7421782253b6626188b800c85927d050352c3a6443af8f8b61"
+    },
+    "It becomes more effective when it hits something. This effect fades over time.": {
+      "context": "art-data.txt:Maxwell's thermic engine:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c967b31e06a62ec55a3fec9a622dfb1b204b94d2e0b76802c4c491506510e5d4"
+    },
+    "{unrand-prop}Reach+": {
+      "context": "art-data.txt:demon trident \"Rift\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b3c24c614d968124a263ca2e2faee800e085acf0621d093d4c0e714a2e5393f2"
+    },
+    "It can reach especially far, and its reaching attacks ignore other creatures in the way.": {
+      "context": "art-data.txt:demon trident \"Rift\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "14573c30559e5bd1370dc74149b3a6fa9399a70dd71d150b6bf2155d03e32f66"
+    },
+    "{unrand-prop}Battle": {
+      "context": "art-data.txt:sphere of Battle:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "68d5a79d18867f6af44ae53fe286321e82318c653e97eb08aefa78aea39b0968"
+    },
+    "It summons a battlesphere in combat, with strength depending on Conjurations skill.": {
+      "context": "art-data.txt:sphere of Battle:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8447a97ab51a46aff54f70e8dc83d44827d4fb250354dc94923abef19822f900"
+    },
+    "{unrand-prop}Destructive": {
+      "context": "art-data.txt:sphere of Battle:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e37581b4bc349c677e1edb829c9bf76838b750fbd63b099397dba4c31e7bfae0"
+    },
+    "It enhances your destructive magic, and weakens non-destructive magic.": {
+      "context": "art-data.txt:sphere of Battle:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "84803d04a8ef9a57b20a39cd8d139d183575f868a359372b82d49aa9797a4026"
+    },
+    "{unrand-prop}Corpsefed": {
+      "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "56499f4f01985d2b0c60325340ec393bd68dd6213061f8405ad8cbadb0933745"
+    },
+    "It gathers nearby corpses to temporarily increase the armour it provides.": {
+      "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f5c5bbd66ddda1097e717d44bf45363bfbf6e44c48bb20d55de6ef06bb5847ac"
+    },
+    "{unrand-prop}rMiasma": {
+      "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b037ae800d3a95c0be35062320aba32670362b82b8424c4fcde82e6e662666b5"
+    },
+    "It protects you from foul pestilence.": {
+      "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "ae45e747258e4e9f26ef19f2b38bddc9d0b84041d1fdaf55fba0a7b609ec527c"
+    },
+    "{unrand-prop}Rampage+∞": {
+      "context": "art-data.txt:seven-league boots:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7f0b0001f2eb405d24d708168e7eca892a55a06a91d5ae574b29f90bd680ee5f"
+    },
+    "When moving toward enemies, its wearer moves as far as possible, alerting their target en route.": {
+      "context": "art-data.txt:seven-league boots:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "023f1708a91a2ce3994e6436192eb0fff23e92add9c1d1630477aae33c945e08"
+    },
+    "{unrand-prop}Infuse+∞": {
+      "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "22bcb46f4eaab61f0ecbcf9f437488296d6d719d203a58b6b17de3626b31f7ef"
+    },
+    "It empowers its wearer's blows with all of their magic.": {
+      "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "49a121b21107026e7fbc610426cef3793e0700683681539193dafb80fbf5c260"
+    },
+    "{unrand-prop}VampMP": {
+      "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d82e7f4c862ae0835285a139a2eef029dbf14b7620acf31d90e249953aa2d25e"
+    },
+    "Blows struck in melee replenish the wearer's magic.": {
+      "context": "art-data.txt:Mad Mage's Maulers:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7094aa497fab268a3ae4f1a03df92068af5ce36bf6d5433c37dbebb91bf8911b"
+    },
+    "{unrand-prop}*Dream": {
+      "context": "art-data.txt:dreamshard necklace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c399923854f44a8857cd1e50f25c93718d11ed5fdca53c90f9fa750c404d6b3a"
+    },
+    "It absorbs a single lethal wound into itself, holding its wearer just short of death and releasing dream-creatures to guard them.": {
+      "context": "art-data.txt:dreamshard necklace:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c3da8a372c966fa2eac00254180e529b2c3ecc3c709f728ab60684d898f35e16"
+    },
+    "{unrand-prop}ID++": {
+      "context": "art-data.txt:Delatra's gloves:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "dfe16f12f5c091c0fb6ad2374a51d7f51e4439a52df542079e1e4bfb7ec46073"
+    },
+    "It heals its wearer when they drink unknown potions, and restores their MP when they read unknown scrolls.": {
+      "context": "art-data.txt:Delatra's gloves:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "10fec1c16f0581f198f17f12d5c63d448385239963f39eacb86622dc208ff9c2"
+    },
+    "{unrand-prop}Coup de Grace": {
+      "context": "art-data.txt:Throatcutter:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "796662fdfa6ebaac23642b18b70b794c06b512600510db8cc191af47a9cc4693"
+    },
+    "It may instantly kill foes which have little health.": {
+      "context": "art-data.txt:Throatcutter:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "bb22d73640c3fedd116cfb641409fc6ccecddfbebc3c372946241ca710cb1518"
+    },
+    "{unrand-prop}Meekguard": {
+      "context": "art-data.txt:staff of the Meek:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "81dc12bfaffbfaa6c4aa0cd2e7e3012d59f38ed4a644a61cb16c23383e8e81f0"
+    },
+    "It provides extra protection to wielders with little health.": {
+      "context": "art-data.txt:staff of the Meek:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "39702104466f707a3fa78493f0599365f14d5d15e8536368093f01c18100b28e"
+    },
+    "{unrand-prop}Anguish": {
+      "context": "art-data.txt:trishula \"Condemnation\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7d9e48541d09ac04cdf99568d16cc350955a368ebc5e576fd0cd55c8ba0fb3eb"
+    },
+    "It makes its victims' attacks reflect back on them.": {
+      "context": "art-data.txt:trishula \"Condemnation\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "03657cac9a81803d7228f83baffb794ffc636807d77a95ddd10452fee22f0bee"
+    },
+    "{unrand-prop}Steadfast": {
+      "context": "art-data.txt:mountain boots:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "993cbbed89a30cbfb74fd93aa08587d734d83f1a9313637309e5b07ed7f67aa4"
+    },
+    "It prevents involuntary movement, except for blinking, teleportation, or banishment.": {
+      "context": "art-data.txt:mountain boots:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "96190e9ec42178ed4da4fe0104eef37437d84e4184c525202ca16f21b63b65cd"
+    },
+    "{unrand-prop}Poleaxe": {
+      "context": "art-data.txt:Lochaber axe:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9a68e48ffc0014a0d5afb4ecd7cb4e76b35b456408d130c0b66c66bfb0ef0f13"
+    },
+    "It uses either Axes or Polearms skill, whichever is higher.": {
+      "context": "art-data.txt:Lochaber axe:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "4388d9364ad69321ae2a4ac9c9ee45bdba563453d7db09cb17be9f71ac47a2f9"
+    },
+    "{unrand-prop}Reach-Cleave": {
+      "context": "art-data.txt:Lochaber axe:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "574d2fa6e3ac3e509afe2610c101b29c80b771ae80389e601eb40b32f95adec9"
+    },
+    "It can be evoked to extend its reach, and strikes at all foes within reach, dealing less damage to those not targeted.": {
+      "context": "art-data.txt:Lochaber axe:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "76531e1560fc0385f975681c2de0e564459de8723c0c6305a520f4960c36d240"
+    },
+    "{unrand-prop}Invo=14": {
+      "context": "art-data.txt:Hermit's Pendant:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "02577081d19dc7c29d72b76e1b66892e167240a02939788246a0de07a9e26202"
+    },
+    "It sets your Invocations skill to 14.": {
+      "context": "art-data.txt:Hermit's Pendant:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fa0bfec64f27203071fcd76baf507b6746e8e8920a8ebfddfd3618e4afc8c5a7"
+    },
+    "{unrand-prop}Evo=0": {
+      "context": "art-data.txt:Hermit's Pendant:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "06bdeeff4c3b1e5c906b09fac8884401ad8d48a9095bdffc2f098a25e8b91fdb"
+    },
+    "It sets your Evocations skill to 0.": {
+      "context": "art-data.txt:Hermit's Pendant:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "abce4042ba55b1301a4f7297b09b8167d31dda8b182ab394dbb6742d935fcd52"
+    },
+    "{unrand-prop}Slick": {
+      "context": "art-data.txt:slick slippers:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a6656155db925737ff416a621b793af50f53a724d5912684e6bc4e8a5d83bd63"
+    },
+    "Its wearer cannot be constricted, netted, webbed, or stopped by binding sigils.": {
+      "context": "art-data.txt:slick slippers:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "61e4d173317113b62ebab1939a8738044ebed4d0259ac64de8c8b5f01501a4e1"
+    },
+    "{unrand-prop}Slippery": {
+      "context": "art-data.txt:slick slippers:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "ff8840b9dfa76957024809cd37571b593da3aebe552488b882b9c42cf7ca8e8f"
+    },
+    "Its wearer slips away from damaging melee attacks, pulling the attacker onward.": {
+      "context": "art-data.txt:slick slippers:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "30fe1ca023c8857f9b781192de36d19f8e98ee6eaa0da5c9ce17421bf3b8eef4"
+    },
+    "{unrand-prop}Knockback": {
+      "context": "art-data.txt:Force Lance:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6526845e775ac049c88f03ff850138ea5a0e480055202d87cdb72ebd8aa99626"
+    },
+    "It sometimes drives back enemies it hits.": {
+      "context": "art-data.txt:Force Lance:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "251e050428a64a7cd974bbc94708b5c26dc4152b8a8a45d4ef191bf68319c087"
+    },
+    "{unrand-prop}Valiant": {
+      "context": "art-data.txt:consecrated labrys:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d47883ab5b94ace3af8adf95aa4bd3f5f156860568f02b28a0472244d28b83a9"
+    },
+    "It becomes more powerful as more dangerous foes come into view.": {
+      "context": "art-data.txt:consecrated labrys:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "26a5c09435b7a40356de4de750bf93af4ccf06070b80f07c21cae2cef7ce5ea9"
+    },
+    "{unrand-prop}*Victory": {
+      "context": "art-data.txt:toga \"Victory\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6cf895cbe124622722cbb247f5fb87d1b7b70c552b35b4bd77c3ee7c330be908"
+    },
+    "When the wearer kills a threatening monster, it has a chance to gain +1 AC, +1 Slay, and +1 Int, capping at +7. When the wearer uses a scroll or a potion with a hostile monster in sight, its bonuses reset to +0. Unequipping it also resets its bonuses to +0.": {
+      "context": "art-data.txt:toga \"Victory\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "3f4a21bb65765761ef38196dceef82d3ccf78bb6f5cb64869242a6a8f447ffb1"
+    },
+    "{unrand-prop}Shock": {
+      "context": "art-data.txt:Storm Queen's Shield:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "a2282cb3d058d5be8536e656d79f24f29a348677a664cbd4c633f6ef467d9976"
+    },
+    "When it blocks an attack, it may electrocute the attacker. This works even against foes who are a short distance away.": {
+      "context": "art-data.txt:Storm Queen's Shield:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "15b12defcc14267479ce4bd582868303d2ec3a9f22d0aafd78a80f7f60700448"
+    },
+    "{unrand-prop}Backblast": {
+      "context": "art-data.txt:hand cannon \"Mule\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "88f9059348771c2e3aa79b9197b7df214ebbaf9fe8da7b37840d3c79ecc90e62"
+    },
+    "When fired, it often launches its wielder backwards.": {
+      "context": "art-data.txt:hand cannon \"Mule\":DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7e539e05ed7459118f72d7619a162f6ce03d251420dc76ac58166e02631b9cae"
+    },
+    "{unrand-prop}Gadgeteer": {
+      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "043af19317f417c4f39ae00f2b22735259e4e05f54fd8c7c26a84c1b3a008231"
+    },
+    "{unrand-prop}Wandboost": {
+      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "de4c566e50de20f094ab8a39f0e92b1f4865665e4724c24d48326af4d3f7b5db"
+    },
+    "Your wands are more powerful.": {
+      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2b3b63a7d5d31bbf14e4bf1567926e6340a8813c750741cf00d61f81054ea45b"
+    },
+    "It massively reduces your stealth.": {
+      "context": "art-data.txt:Charlatan's Orb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9436557af53680be28a99f23e90feeb5eec28b75112fefcfbfdfa66c2a243134"
+    },
+    "It interferes with translocations, delaying teleports.": {
+      "context": "art-data.txt:Charlatan's Orb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "90a5e356d6eff00b66d254877179a055b8c93347d8991cc817f370db38987f81"
+    },
+    "{unrand-prop}Charlatan": {
+      "context": "art-data.txt:Charlatan's Orb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b3b20c1fa6ae0f246c807b160f1e60ba44d386ace0fcbf08eb3082d4f2c227f8"
+    },
+    "It boosts your other skills by 20% of your base Evocations skill.": {
+      "context": "art-data.txt:Charlatan's Orb:DBRAND; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b12c5c2f479d9f684195f729267a54133a1b172ddb644b527c7d05cb943d3ba4"
+    },
+    "{unrand-prop}Inspire": {
+      "context": "art-data.txt:justicar's regalia:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "cba07b4222ccfe482564a7becbfc1dc47370dcecc80652fe9fe2c15edfb92a1f"
+    },
+    "When you summon or create an ally, it gains Regeneration.": {
+      "context": "art-data.txt:justicar's regalia:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1bf325d9dc7a8c1a343b34072a5075c9719b364fbaf7e5798f4ee5a5ca90faaf"
+    },
+    "{unrand-prop}Amulet+": {
+      "context": "art-data.txt:justicar's regalia:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c863f4acbe21fb04ccb1eba14e06ee5a40c49cff5898d544766bc488ee0b9435"
+    },
+    "You can equip an additional amulet.": {
+      "context": "art-data.txt:justicar's regalia:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "10ec15572069591d7eb3deec4909d5456f30003f5a25b421ae5f8a7b84676f2d"
+    },
+    "{unrand-prop}Reaping": {
+      "context": "art-data.txt:skull of Zonguldrok:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "111d274a2a1f8fae146e45386dcc99b13dc8b3a20365e2e61ad771cf7bc142ce"
+    },
+    "When you kill an enemy with your weapon, its spirit may be forced to fight for you.": {
+      "context": "art-data.txt:skull of Zonguldrok:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "f5e0c4ed3d11565991f5548693f93f85ebb1ca4bb94b8829f1a0d2e8179aab32"
+    },
+    "{unrand-prop}Hat+": {
+      "context": "art-data.txt:skull of Zonguldrok:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "0a8493b8d08da81b4298ffe63685a51ee701cbb178b223c63ec745fa5dd67371"
+    },
+    "You can equip an additional hat (on the skull).": {
+      "context": "art-data.txt:skull of Zonguldrok:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "82c09e39177f2601930b473ca14013ef606ae2f5e07182d3e1976d151d59f6cb"
+    },
+    "{unrand-prop}Shroompunch": {
+      "context": "art-data.txt:fungal fisticloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "36285fb07da15fef71f79ffd12eec5634142acb8af9bccbb27ed898a3b77d56a"
+    },
+    "The cloak sometimes lashes out at its wearer's enemies, inflicting confusion with its spores.": {
+      "context": "art-data.txt:fungal fisticloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6e7217a6982ab861e912e1561ff60df9f2767a459cef039571e10505562d0518"
+    },
+    "{unrand-prop}Gloves+": {
+      "context": "art-data.txt:fungal fisticloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "485cb5621be5cccd76e3651b0cd81ec78c9bd2b79e1fa832e5f5e23f044b7a61"
+    },
+    "Your cloak can equip an additional pair of gloves.": {
+      "context": "art-data.txt:fungal fisticloak:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2175cd1bdca2148d5997cdbd67ac3b993aae1fe73a1eba674b3c61861292d68e"
+    },
+    "{unrand-prop}Majesty": {
+      "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "e7be4174a9e0b7928a79e2dc11b564b16cc88a90dd78f573a449dd1692d1ba59"
+    },
+    "You are bathed in light that prevents you from turning invisible. Whenever you enter a new floor, you announce yourself to nearby enemies and refuse to leave the floor again for some time.": {
+      "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2bdf6541d318f4806745a09a851dac5655d23b7c5604096451a689cc46251a6e"
+    },
+    "{unrand-prop}Ring++": {
+      "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5fa5c4ef63ea356f95ebe1c5cda874741c8bab3ef33344a18e3e0c21c0deb4ce"
+    },
+    "You can equip two additional rings.": {
+      "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "17d0bdda1360df5e4deba3a8e9a4ad17e1f130dd7626a6597e55217b44b6d296"
+    },
+    "{unrand-prop}TrickPois": {
+      "context": "art-data.txt:swamp witch's dragon scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "cd5289e40a216668ce206a9745aff21d99a6d67ea1ec4b8da3ab6c1508aea2a3"
+    },
+    "Whenever you inflict a negative status on an enemy, you also fully poison it. Those with rPois+ will only be lightly poisoned, and those with rPois∞ won't be poisoned at all.": {
+      "context": "art-data.txt:swamp witch's dragon scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5140f7d759c99d945b8be4253931987bb984c386a5aa97ac763e4751f1d11a47"
+    },
+    "{unrand-prop}IceDoom": {
+      "context": "art-data.txt:athame \"Fimbulwinter\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8a09f383500189725831c7a7bca725b9cf850124f5d2b07d11c98e3bac90f9cc"
+    },
+    "Whenever you deal cold damage to an enemy without rCold∞, you inflict some doom upon it. Sufficient doom upon those who do not defy fate as you do will eventually result in long amounts of slowing, weakness, vitrification, blinding, or heavy draining.": {
+      "context": "art-data.txt:athame \"Fimbulwinter\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "cc7523c8bc69203aa26f4dbffcc70b7a47ebdd3c89cae9a944ab5e147a359a41"
+    },
+    "{unrand-prop}FireExpos": {
+      "context": "art-data.txt:fire dragon occultist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "79f8b7c91606292d005715ba1bc2ab06d4c93f2357b538303c3d83c0bfbef70c"
+    },
+    "Whenever you deal fire damage to an enemy without rFire∞, you may briefly leave it exposed, making it take increased damage for non-attack sources, less capable of dodging non-attack projectiles, and mildly reducing its Willpower.": {
+      "context": "art-data.txt:fire dragon occultist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "cffbb10d923e1027aab076833c3834bd3816b4270577bef692c13418941659c0"
+    },
+    "{unrand-prop}FireWiz": {
+      "context": "art-data.txt:fire dragon occultist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6458d2f5dee54f7a9157a1491d9bb6695101b321f3035da8a9142c2c159df68e"
+    },
+    "It increases the success rate of your Fire Magic spells.": {
+      "context": "art-data.txt:fire dragon occultist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "c2493ed342ab6d76dce3e34520f98b2f255e1816044eb8541dc3232e1167a8c4"
+    },
+    "{unrand-prop}IceExpos": {
+      "context": "art-data.txt:ice dragon arcanist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "397154783206dfc5ebd3bb7c7cb7f5e0018eb6f34883e03c216758df9a6dfa9e"
+    },
+    "Whenever you deal cold damage to an enemy without rCold∞, you may briefly leave it exposed, making it take increased damage for non-attack sources, less capable of dodging non-attack projectiles, and mildly reducing its Willpower.": {
+      "context": "art-data.txt:ice dragon arcanist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "61af045424e4a9b607fc8a2bf9b26acd4b4c01287ad5367f320eb90fa8fe20aa"
+    },
+    "{unrand-prop}IceWiz": {
+      "context": "art-data.txt:ice dragon arcanist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9145eef56156185df600541adfa2b9a68b88f34b69b4ba15a8347df7adb1d62c"
+    },
+    "It increases the success rate of your Ice Magic spells.": {
+      "context": "art-data.txt:ice dragon arcanist's scales:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "738c4d707f343a18252795cbf74249a0bfdfd07e214f38df959a00302c6c4ae2"
+    },
+    "{unrand-prop}ShootingStar": {
+      "context": "art-data.txt:giant spiked club \"Carina at Dusk\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "61356fc2c48bf9a92b66feaf293a504e3124edf7785c50aaf66c2986d977c36e"
+    },
+    "When knocking back an enemy, and on one in four other hits, it spawns a shooting star with power proportional to the damage dealt.": {
+      "context": "art-data.txt:giant spiked club \"Carina at Dusk\":DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "294dc7225afea67adc2ed7ef26292efccb5f6cee01fab4c471561b44a62c9fcb"
+    },
+    "{unrand-prop}ConstrDrown": {
+      "context": "art-data.txt:coolibah bardiche:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "9cab4c2f59faa983126bec4fbb2430962b1d1aba0814f0fc45fe498fc083e8d1"
+    },
+    "When attacking a constricted enemy, it has a one in three chance to flood their lungs with water.": {
+      "context": "art-data.txt:coolibah bardiche:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "824b0f15fc804efac90918c8dbc36179fb6d6de950704b5829e3b0c5be23093f"
+    },
+    "{unrand-prop}ConstrBog": {
+      "context": "art-data.txt:coolibah bardiche:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "8bf7104451e043197d5efe9502c3d4600a6e4db59d88a5a2cee824317e9668f1"
+    },
+    "When attacking a constricted enemy, it has a one in three chance to tempoarily transform the ground beneath them into a noxious bog.": {
+      "context": "art-data.txt:coolibah bardiche:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "6eb87fe1284d985c1043fc8b11245a3047bcad414e4fe950efcbb4154e7393e0"
+    },
+    "{unrand-prop}VirtueSH": {
+      "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "07b77ee100a2b4499ecd0aac952be2c24ce8535555fe3d0b0e4feb38e0da55e1"
+    },
+    "It provides +5 SH for each of five conditions: You have at least 20 intelligence; at least 25 base EV; at least 15 base Invocations skill; at least +++++ stealth; your Staves skill is your highest skill, or is at the maximum skill level.": {
+      "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7ee8c869080b9ae1b1e98fd526f422b84bcbc7b0085a7ab651deb760802a00c5"
+    },
+    "{unrand-prop}VirtueRefl": {
+      "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "dd41d9fbe312d0d8fb88f3d3bd1d06282a9d43e15658c88e01def9677f0a6f30"
+    },
+    "If you meet at least three of the five conditions, it provides reflection and an extra maximum block per turn.": {
+      "context": "art-data.txt:staff of Five Virtues:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "7ecfcd581692429b4a4ce8c98ae8a5d31fb84fabbcf758664925f7afa7ce26b7"
+    },
+    "{unrand-prop}DevInvis": {
+      "context": "art-data.txt:Stagehand's Sword:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "d7b2cac8afdfb172ce9919b35ae2d504ad3bce9b871167d42c119af93e76004b"
+    },
+    "When you attack an enemy while devious, you have a chance to turn invisible. The chance increases the more devious you are.": {
+      "context": "art-data.txt:Stagehand's Sword:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "b7cdce72c7214f72b2b33f3fe3200ecbe8b84b5778f9a18ba35cefdc465cf132"
+    },
+    "{unrand-prop}ValArchmagi": {
+      "context": "art-data.txt:Hana's Scimitar:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "294af024a74108ffa722600970117f70e025b2767daf834388a84ed9977d5f98"
+    },
+    "Enhances your magic if you have at least 80% of your maximum magical power remaining (before spending MP to cast the spell).": {
+      "context": "art-data.txt:Hana's Scimitar:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "fb14d2d7e76fd6a9e73346608d8802b33e950148fe52e97193bf0fa6cfb7efa6"
+    },
+    "{unrand-prop}^Dim": {
+      "context": "art-data.txt:Hana's Scimitar:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "1ea8e08d2b196a5ac706f4b7fc5793478892834752a82a4d392db26df1eeacdf"
+    },
+    "Unequipping it temporarily diminishes your spells.": {
+      "context": "art-data.txt:Hana's Scimitar:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "61b2eb774aa9a8b4967409760da8095a1d54af15480358da4a1b1ecce12e6bc8"
+    },
+    "{unrand-prop}Corona": {
+      "context": "art-data.txt:arcane splint mail:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "762dacdff3251a1c0a088f9092d451e69f65dd9ac39315e84af33f7d7b27eb04"
+    },
+    "Enemies hit by the wearer's projectiles are outlined in light.": {
+      "context": "art-data.txt:arcane splint mail:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5461cc210a36b31d980c84bfa78c12cbbdea9abbd04c224857e72804db8a1f3d"
+    },
+    "{unrand-prop}Apostate": {
+      "context": "art-data.txt:Forgewarden's cuirass:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "ade3ddf0100f10f7aba7540ccf2b588f6f1985b8dcee32ffe32a009edbaec36d"
+    },
+    "Equipping it will reduce your piety. While worn, you gain piety at three quarters of the normal rate.": {
+      "context": "art-data.txt:Forgewarden's cuirass:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2b2c50fd0f747c780467249bc237a1bebefdced6a32617bbbb542c0d4865a916"
+    },
+    "{unrand-prop}Mist": {
+      "context": "art-data.txt:ghost crab claws:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "2604f9fdf249daa188d4c2d453c472f2539273b03efca28ccac3caff26836091"
+    },
+    "It may create clouds of spectral mist when the wearer attacks or casts spells, and grants immunity from such clouds. Necromancy spells have a greater chance to produce spectral mist.": {
+      "context": "art-data.txt:ghost crab claws:DESCRIP; current ability, condition, cost and exceptions checked",
+      "translation_sha256": "5e25b952b5844e95ab10828b6332fc012253df1ad593604ec50f809c3d210c2c"
+    },
+    "{item-inscription}sonic wave": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "0830beaa04065b90cff314d1d6af0db50a6cab70edf84fff4d400b1ab1ee78e1"
+    },
+    "{item-inscription}RageSunder": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "874c9e14247331042f6fa70bcbd3e90d1f5a256d59bb9cfbd545aa59250ee0d1"
+    },
+    "{item-inscription}chaos arc": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "2efe178a21037856f5f074498763a487cdf60ecbeaeadd612aec9af128463007"
+    },
+    "{item-inscription}Prune": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "58d9651d7ab8d6cf5c7e0a725bfcf78274d975a2f6cacb53f31cc16ba675a330"
+    },
+    "{item-inscription}rPois∞": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "585034538c35d0bbc4d3daec8079f61e0b2306b99334d124034a638b9d6d6fdb"
+    },
+    "{item-inscription}Mindtap": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "36d9d26bc7d01b27925f47e5e9c94df63ace15e0edd9788fb6e4e72e1d71f8b6"
+    },
+    "{item-inscription}megavamp": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f84dd9c485e6866da8379a8f845f21ee9e64d4a22b01ad44101ba1b6ed06042c"
+    },
+    "{item-inscription}curses": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "78ca5792c0e05e33d205ddf48f47dc4e467dfa7f96c585c0e04542f671205caf"
+    },
+    "{item-inscription}torment": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "85eb7be6f34739af7da237bc28abf83f9097738ff1c68bc62296b5f66dd81f31"
+    },
+    "{item-inscription}+Damnation": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "c599ef4bd088867dece71d2668f9d758f339909dcd13db05a1f8d53768374073"
+    },
+    "{item-inscription}sticky flame": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "146b0ca6f438ceabdd471600e4f20e5ea75ed218b5317053bf865e42d727a046"
+    },
+    "{item-inscription}Umbra": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "aefdeeee072247c174502fc7e77f756fccc9f704b71d497675ddc5d7c29ebf77"
+    },
+    "{item-inscription}evervamp": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "7022c7191eab26e940c4d69ce824188b7c6c99366419c274c9a1bfe88285f6d5"
+    },
+    "{item-inscription}flash freeze": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d01292cf3f16dbb562ae207f319dc3f95cfca2d80d4775002ff97a5712ae9237"
+    },
+    "{item-inscription}execute": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "866578ff679279b5910b2812639e0af48970717035800ffc44320459759b4e4d"
+    },
+    "{item-inscription}Salvo": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "a22fe89133924eec54b6f5ba689684565a7a3a4dbe174e66a011d8fab80b8b34"
+    },
+    "{item-inscription}spectral": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "10e17aee3399f0c4bd9cf4ebe802ba6490868392764ac8df6f326dab80e03e4a"
+    },
+    "{item-inscription}Zealotry": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "fabe8593ca450350a6e6ab00c56661a95cf9a42815b3ad4e84b23d518d157ce1"
+    },
+    "{item-inscription}damnation": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "9a12c8ae27a75e545c8162924c50bfb2bdba49e2d39c6798c22b46dc67b50e4c"
+    },
+    "{item-inscription}decimate": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "671ff7312c90937022bf4dffea112ad4052fd67636d505604a085ca9256f6e0e"
+    },
+    "{item-inscription}Halo": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "5237f93bc3575e64553c973d1f170d5a412eb26f82ee52f029515a55eab2570b"
+    },
+    "{item-inscription}Hex": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "78ca5792c0e05e33d205ddf48f47dc4e467dfa7f96c585c0e04542f671205caf"
+    },
+    "{item-inscription}ele": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "790ac60b4733e78b3caca9f66ff95c73b34178e298711eca3983ccc8de4a123c"
+    },
+    "{item-inscription}Acc+∞": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "7046a8286879c6a2a94adc553524b2362405ce033d932966330bf9e25f19a873"
+    },
+    "{item-inscription}stab": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "361e1c89fbfd97c913fbd284b4ce43557110e8b5387efa74831bd9b3fb3aa353"
+    },
+    "{item-inscription}slay drac": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "e7c7b2b1952fd0c6994f3db15f69ef2aa57d5d91c5a97b5c825eec9c91bf5b13"
+    },
+    "{item-inscription}mutate": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f6dbf158dc51ac095cd6c5544758c79f74507da90f6d84a6f08591f58bdfe3f9"
+    },
+    "{item-inscription}deathbane": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "3f7481f6635fa8652a4aedab5435b5795f05ca468ff2014e2ea734f1254ad673"
+    },
+    "{item-inscription}curare": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "b2eb15c287d8d88506b5a34847cb3c9f901e16ec4d020a7707e2d955ba34d4cb"
+    },
+    "{item-inscription}disarm": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "6c2d1e48da774299a11d79548dfdcd87937915a3aa08cc4a9744da8b5a95ac26"
+    },
+    "{item-inscription}penet": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "ea6061a30c3f6f7676d703e5ddae29c1a3ed38acb9c7be4fc83d72d4d658228a"
+    },
+    "{item-inscription}Quiet": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "54b2a13188c685444c8d26a61fab79540dc0d3aedca02f26ca0431c09ed20208"
+    },
+    "{item-inscription}Bear": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f0d5da45ff33f1706027d49260b6e6114eed16e40cc09019bd824b8804da8851"
+    },
+    "{item-inscription}Detect": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "bca7707d155558a54610198ad1e85f2ba6afe44fac0fbf276beaf1d71f257b11"
+    },
+    "{item-inscription}Stab+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "62e3ab54f8c1d5b6c6149018629ee924f049764d1d9fb5194493f01fbc547889"
+    },
+    "{item-inscription}*Englaciate": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "5cf69210778a6e7cce4fa5b11671cf0a1be0db5b53391f18c8c19f71f832571a"
+    },
+    "{item-inscription}Flames": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "daf6cdcc2fcb2e2e5f985cf433154e618fc8724275adb62b2f6ac6c4711aefc2"
+    },
+    "{item-inscription}rFlCloud": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "64e6a3204cf1a1dffb73a9293e46b4eafba2aa22bd4e2e779c8f34f781e46c2e"
+    },
+    "{item-inscription}Brill": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "4636f0f0ce95116ca946bd3816943f9a350860b142a46938c1259d185041bd83"
+    },
+    "{item-inscription}Will-∞": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "58ffd08d17557575941ae7d9fbf779ec1f3c2302ec9a6ea4f497a3a35801fa29"
+    },
+    "{item-inscription}Dragonpray": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "e4d53e58caed1244611abb65d9e47ea00a68553c272c037c0848dcb7ae85476a"
+    },
+    "{item-inscription}Dark": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "3e99f07f1a3bff1bcd7e55654875da298c6d4ad3f34729220988e9d7ec9e2bea"
+    },
+    "{item-inscription}Riposte": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "2ebf5ac996f570529b6827d247f6820bf881fde3c7c85ae1b9e074f2888af785"
+    },
+    "{item-inscription}*Dazzle": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d48dbd8bd1f10a114fd6c9f3b1a4091ab7bc6fcd803d322ce66ed5395e7e842d"
+    },
+    "{item-inscription}*Rats": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "ef07b160501f965fb194bffd7a847a175eab0e9820d9307c796fb93d1a375704"
+    },
+    "{item-inscription}Loud": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d2a12fb793a477c5caa42c17d3cac5da7a95392686b03dda8f784af368de96ca"
+    },
+    "{item-inscription}Inacc": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "87009e10ca3bf089a2b9416012119f0387954cb05d3b2a3ae1d3d9f329380142"
+    },
+    "{item-inscription}Fury": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "656497c6da83ddafea531cc00a58e090d3cd1150bb8fd7dae7a28031b8961ecd"
+    },
+    "{item-inscription}*Thunder": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "1d0746badc6078a48cda776ec7238e52b2e2a00b2781511efb56cc2d61009b38"
+    },
+    "{item-inscription}rCloud": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "6b8665190530a2dee6c704ef4dde6b85894ce6f04044418c7b35eaaba1f76653"
+    },
+    "{item-inscription}demonic": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "5605ea19c2e82707b9672f60b80d1215bd5c414d84df740b4abb027ad94d7d1b"
+    },
+    "{item-inscription}Mesm": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "908bb223df6dc9735da94ff046370ea34833c012ef4fbfe4829561c0860c9dba"
+    },
+    "{item-inscription}swift": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "352bfa71ad434bc61406faf32ef426c9951ca5cb175f49b5181c4d9d6e26f060"
+    },
+    "{item-inscription}manifold assault": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "78b62919c0ef3ee082e1f9b7e0068171901a8564f352d5cee3cbe37737a95bd8"
+    },
+    "{item-inscription}shatter": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d5379bac8ac506065cccb70333ef1c4b1f8d544da0924a4469b8f323de1d61e0"
+    },
+    "{item-inscription}Aegis": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "e76f03d227d063a0b349d49b742d6dbde366164da5f99505fed81e9fe09fc672"
+    },
+    "{item-inscription}Ring+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "21834b81aada98afcf417863b4868b06544fd1ecb8776b7ff6a82bbcb3685af0"
+    },
+    "{item-inscription}Wiz-": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "140e8277351472abac1b3edadfe9d7c8287f2e4298a0ea39e0b6760a4d9113d8"
+    },
+    "{item-inscription}discharge": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "fbfb3cad07dd8cc71ad4a49a4546fdcb4d406ed78d2b85172fe552e454c6eef1"
+    },
+    "{item-inscription}disrupt": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "ebee18c4dd289390feb9c922b131c69ab08f2f22c30e5b0808dce4b86a16c60f"
+    },
+    "{item-inscription}silver": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "caac11c28fa5ac1dc5ebdf9d7ab7816741b8d5f68b4e389c431999dd128bbba9"
+    },
+    "{item-inscription}immolate": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "7bc88c7869c85b8c2dfe957f9d4e5aedfb0cb8a1cc690ad9bb0dd7528d30521a"
+    },
+    "{item-inscription}spellvamp": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f37dc7f95f66b8ddd8627ad8f4a46b112f193237a6969c0144dd6a977a1b0be5"
+    },
+    "{item-inscription}RegenMP+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "b18dfcffc9685caa55ceb28cd9825b4b3069b421f282ebbf9b9cae0919a0977e"
+    },
+    "{item-inscription}HP--": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "fbe5f3d13f5dcf5fd884a54ae9a80a0cc1827c48bd5d4c3dcb2c4659879b5d61"
+    },
+    "{item-inscription}NoPotionHeal": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "ce21a0033285da0ab85941a46459778250a41cc42de334c4e0e10a7cee244496"
+    },
+    "{item-inscription}PotionHeal*2": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "cfd84ef149fbec1cdebc108bba6dbd77b226638182c4990daca19f2cc429692d"
+    },
+    "{item-inscription}freezing cloud": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "6ea49626acf58cb5578a78385e55c9c0f012e95b725d74d6111631c9d44863e2"
+    },
+    "{item-inscription}omnireflect": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "7402d18f976b8f081354707cfa2dbf70080510fe363934fc008e557e71384966"
+    },
+    "{item-inscription}freeze": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f1f703d9c8653f57bffadc463d73348a06eabc80ed2a2433642e9d4837179178"
+    },
+    "{item-inscription}rev": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "03ddc9f6e155ca0a9ba3c57261d6ed4a1f4502926c79030b6d8e3420115d2910"
+    },
+    "{item-inscription}reach+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d56e65a0a7f8b0885431dfd0a742fce91ee2c0543d1aef2f82478938e8b1ead7"
+    },
+    "{item-inscription}Corpsefed": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "1d9a4a3dbddb27533e104d0b6db32369dd5cf6e1d83999c6c074dce3224d4994"
+    },
+    "{item-inscription}rMiasma": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "bd723bfde6c5475001826735a8e0cad712be87ad8cb726a459faa7137cf08b5a"
+    },
+    "{item-inscription}Rampage+∞": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "22b6519ccaab6fa8e45ebb636b2fe86102bc1f07c63456df9b8f3396530ccd4f"
+    },
+    "{item-inscription}Infuse+∞": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "1dd2733aa35b69e2d80ee18db91813a0aee540d945a147b5257e5b3ccdd9b1a9"
+    },
+    "{item-inscription}VampMP": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "bc900249b799d8f4daf08cc69ffb1c761bb306320cd69aff977b61f9b453beff"
+    },
+    "{item-inscription}*Dream": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "626b036f30bae238d70a29cb647e406b482e8f36709bff4b91651946441b3f2b"
+    },
+    "{item-inscription}ID++": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "b650f260723f808858cd462948cebc3a6d3436e6b9f6782c1130aed6053ce607"
+    },
+    "{item-inscription}coup de grace": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "43c719a640f8c0f6cda70f553fa696937a505fcfaade4a1a85a86a7f3a68432c"
+    },
+    "{item-inscription}meekguard": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "42005b5b3fdd25659bd6b69354954c9b347f46eb044bde643820df7cbee78863"
+    },
+    "{item-inscription}anguish": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "fc7efd9df3021a78f777e7a1a1ea5114f92de727b99bc997c5c48e5c1efb4bca"
+    },
+    "{item-inscription}steadfast": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "fe878c61b77bc514269ef37ffb4b982adfdede07efed98908e4f99c910302987"
+    },
+    "{item-inscription}reach-cleave": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "f53faafc9150dc0e1e5a117f554a4f8e5609d4bea097eed95d27b61c554f40ea"
+    },
+    "{item-inscription}Poleaxe": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "9e0ab47ba470f35031cd078e0ba16c8fe9ea4b441171a8fa8a953522fee6de50"
+    },
+    "{item-inscription}Invo=14": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "eaed5c49af52b90f9c289478d2e68172ff157cc2ade5fda23d8fa9afba8e3524"
+    },
+    "{item-inscription}Evo=0": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "c46f33b4e8ffcb44b18736aa31855e951c085f7caee77985ae042dee13005025"
+    },
+    "{item-inscription}slick": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "a70c200ef71befb6315b1748d74d53a55cee4c673b7db82561ef2895166817ca"
+    },
+    "{item-inscription}slippery": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "a03066844d2eecb0c610c9916c4775599ecfa70a07d1f5a3fd05ff34052f229e"
+    },
+    "{item-inscription}knockback": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "2bf2c6e792177a6677d99822b684013d7cc1d5bec27e291873f0822287f19833"
+    },
+    "{item-inscription}Valiant": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d1294c2ffef25d1aa1a4ba11f6eff77e010275882bee51bbc88c71475e94ffb9"
+    },
+    "{item-inscription}*Victory": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "c37b9f847a5088fcf4e39d4bffacf5e8e69b61b07e6cac6757a04fe6f68fc9b8"
+    },
+    "{item-inscription}shock": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "130d1852f393cb64eff8f017c0816dcc53e61ae28f7870df297d880f3603e636"
+    },
+    "{item-inscription}backblast": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "82bde5b391157aa9fb18d75b7f06304873c9bd14cf68e626f130463feae0aeb2"
+    },
+    "{item-inscription}Gadgeteer": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "316b38291c9c79505fa802e8755b5624f1e6e67d8defd04e00ea3bdb02c556b1"
+    },
+    "{item-inscription}Wandboost": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "9796bab24a1b18207e8ef41ad9d2aa8126132edc80252d524d86519910878e17"
+    },
+    "{item-inscription}orb": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "8778b336d8a54703c3489376550d71013f13d878d175a3ef63378e18cad86d90"
+    },
+    "{item-inscription}Charlatan": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "9b9a2dc4bf104847869afc946941c6404ee6718fd24f1c69092032d963b2180a"
+    },
+    "{item-inscription}Inspire": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "72cd893a8e7ca87cd763bd6572bf17f1bd998d3a4ec95f38953c9c84f0505cd5"
+    },
+    "{item-inscription}Amulet+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "1bb4215409bb1544724329316a7a9daab7d9c677d56f3f8d06a58a17c789fc17"
+    },
+    "{item-inscription}Reaping": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "c6147250a68871a6c6b30e1922dedc9431a4ed30910fd786a9077801912d7556"
+    },
+    "{item-inscription}Hat+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "70702e0bc6fb612545cb068201a54b581ab7d4b0c021001041585bf4e307c3bf"
+    },
+    "{item-inscription}Shroompunch": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "baa241b57b4d2946c4b5e503f96a90758b35fd554683389b27c54114a9fd4c35"
+    },
+    "{item-inscription}Gloves+": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "335a40f522e17253358e59b9420eb1aa5802d53b4c8ef3452996d51b41ab2e08"
+    },
+    "{item-inscription}Majesty": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "65702a2ec9328b505f59ddcf3d40b87a41c3013b22514736c317d4d86431d4ca"
+    },
+    "{item-inscription}Ring++": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "39872b8c6b2fcd805b0ca02f5265c9c16b1d41b1e90cc2c13ff9003a681cc7fd"
+    },
+    "{item-inscription}TrickPois": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "9c189a40d8d8f621ef6c9771be633617366f7a5778f5ec4e731ef8b9e8514314"
+    },
+    "{item-inscription}IceDoom": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "6c63cc305daf7ef8b9b4bea7aafd4af75bc348786fbeb5308a71031efbfd65b6"
+    },
+    "{item-inscription}FireExpos": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "c3d2efbb886b8bc9a1b09be5a06fb3ae5b9003487a6ed9e442bac473d446192c"
+    },
+    "{item-inscription}FireWiz": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "907a91c95e970f0b426b7f7a7ae0f7ca031e8f86042794cd1a637558967d7b17"
+    },
+    "{item-inscription}IceExpos": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "be5164f8fd01cb7c3697b1df1f29483c0efe1fb54154d9940139ad254fd7b101"
+    },
+    "{item-inscription}IceWiz": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "36775f2f8ff11765eeb6a1d9e1296f2522abe1d9ff3e9d9b60468dc1d11580d1"
+    },
+    "{item-inscription}ShootingStar": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "47b0d4cb8538ecaec20c164338df77556301650e1d4e72bbc11b556ee0699d0e"
+    },
+    "{item-inscription}ConstrDrown": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "4cb85b2c25309aa53e78d0c5df11cf1e34294008ddf2fc01b95a7e868ed2c6e8"
+    },
+    "{item-inscription}ConstrBog": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "a51e8e2808d67658325af300364277cbb43950d03d225d1ca872ab0cfcf3e39b"
+    },
+    "{item-inscription}VirtueSH": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "4684a986dd9e20f994f876aaf19d25d511b4fdbd58466e5f738022a4b3c6e3a6"
+    },
+    "{item-inscription}VirtueRefl": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "3da71d6b8415fd2eab47d5960689a73506b19346218ed70d0a59c71f6a7073c3"
+    },
+    "{item-inscription}DevInvis": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "43a7a474764c9f17ee7760452f6b1ddc25e05b97f057af93fc5ea6c6967e9ee2"
+    },
+    "{item-inscription}ValArchmagi": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d88af48348ea05c9f4985c36eda0d4057650090aa45c525a6e26e26ca7a9ea9c"
+    },
+    "{item-inscription}^Dim": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "3437079f19839d6df755e2926f5b29553f1b22990ddec5974f7fa2829cb1affc"
+    },
+    "{item-inscription}Corona": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "d517b1554b41f999fc9c005176e859705ba09446c22e7dd4471ea39510bb9870"
+    },
+    "{item-inscription}Apostate": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "85c6c4217ff22587a19578801477856110261473fe822089e5844e262783abab"
+    },
+    "{item-inscription}Mist": {
+      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
+      "translation_sha256": "b0bdd7c1e0c91c566075a89f4766833044944a4c265ae7747d08453add6eefc0"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
-  "message_source_sha256": "7689e20d541686fa0d13f5dd170b57996ec8415be94191fed9f8e39e86ae7053"
+  "message_source_sha256": "7689e20d541686fa0d13f5dd170b57996ec8415be94191fed9f8e39e86ae7053",
+  "artifact_power_fields_sha256": "4576e142a19be9b8114118007e6f203098f09a070412255bb97bc181622e6881"
 }

@@ -2974,7 +2974,7 @@ Your spells cost less MP as you Rev up. Whenever you cast a spell, you make a me
 %%%%
 Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.
 
-Магические устройства перезаряжаются на 30% быстрее. Палочки с вероятностью 30% не расходуют заряд.
+Активируемые предметы перезаряжаются на 30% быстрее, а жезлы с вероятностью 30% не расходуют заряд.
 %%%%
 Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.
 
@@ -30891,3 +30891,1495 @@ It is found in decks of destruction.
 It is found in decks of summoning.
 
 Встречается в колодах призывания.
+%%%%
+{unrand-prop}Sonic Wave
+
+{unrand-prop}Звуковая волна
+%%%%
+It radiates damaging sonic waves as it strikes, especially in combat involving dangerous or numerous foes.
+
+При ударах излучает разящие звуковые волны, особенно в бою с опасными или многочисленными врагами.
+%%%%
+{unrand-prop}RageSunder
+
+{unrand-prop}Яростный раскол
+%%%%
+After you perform multiple consecutive attacks, its next attack will deal greatly increased damage and also cleave into targets an extra space away. This effect charges faster and partially retains its charge between attacks while you are berserk.
+
+После нескольких атак подряд следующий удар наносит значительно больше урона и дополнительно задевает цели ещё на одну клетку дальше. Во время ярости эффект заряжается быстрее и частично сохраняет заряд между атаками.
+%%%%
+It causes slowness and exhaustion when equipped.
+
+При экипировке вызывает замедление и истощение сил.
+%%%%
+It extends the wielder's berserk rage when killing foes.
+
+Убийства врагов продлевают ярость берсерка.
+%%%%
+{unrand-prop}Chaos Arc
+
+{unrand-prop}Дуга хаоса
+%%%%
+It occasionally unleashes arcs of chaos on nearby creatures upon striking a foe.
+
+При попадании по врагу иногда выпускает дуги хаоса в ближайших существ.
+%%%%
+{unrand-prop}Prune
+
+{unrand-prop}Чернослив
+%%%%
+It halves damage taken while paralysed, petrified or unconscious.
+
+Вдвое уменьшает получаемый урон во время паралича, полного окаменения или потери сознания.
+%%%%
+{unrand-prop}Radiate
+
+{unrand-prop}Ядовитая аура
+%%%%
+It can be activated via the 'a'bility menu to radiate toxic energy, with effectiveness depending on Evocations skill.
+
+Можно активировать через меню способностей «a», чтобы излучать ядовитую энергию. Эффективность зависит от навыка Управления устройствами.
+%%%%
+{unrand-prop}Alch
+
+{unrand-prop}Алхимия
+%%%%
+It enhances your alchemy magic.
+
+Усиливает вашу Алхимию.
+%%%%
+{unrand-prop}rPois∞
+
+{unrand-prop}Яд∞
+%%%%
+It grants immunity to poison.
+
+Даёт невосприимчивость к яду.
+%%%%
+{unrand-prop}Envenom
+
+{unrand-prop}Отравление
+%%%%
+If the wielder is skilled in Evocations, they can envenom those struck by it, dealing poison damage which bypasses armour.
+
+При достаточном навыке Управления устройствами может отравлять поражённых врагов, нанося ядовитый урон в обход брони.
+%%%%
+{unrand-prop}Mindtap
+
+{unrand-prop}Подпитка
+%%%%
+Whenever a successful spell causes magic to be channelled from it, it may also drain additional magic from other enemies in sight, with a chance increasing with spell level.
+
+Когда успешное заклинание вызывает приток магии из шара, он может дополнительно вытянуть магию из других врагов в поле зрения. Вероятность растёт с уровнем заклинания.
+%%%%
+{unrand-prop}Megavamp
+
+{unrand-prop}Сверхвампиризм
+%%%%
+It occasionally heals its wielder for the full amount of damage dealt when it wounds a living foe.
+
+При ранении живого врага иногда исцеляет владельца на полную величину нанесённого урона.
+%%%%
+{unrand-prop}Curses
+
+{unrand-prop}Проклятия
+%%%%
+It inflicts powerful necromantic curses on any foe it strikes.
+
+Накладывает могущественные некромантические проклятия на любого поражённого врага.
+%%%%
+{unrand-prop}Torment
+
+{unrand-prop}Мучение
+%%%%
+It occasionally torments all nearby living foes when it strikes in combat.
+
+При ударах в бою иногда подвергает Мучению всех живых врагов поблизости.
+%%%%
+{unrand-prop}Hellfire
+
+{unrand-prop}Адское пламя
+%%%%
+It temporarily reduces the fire resistance of those it strikes.
+
+Временно снижает сопротивление огню у поражённых целей.
+%%%%
+{unrand-prop}+Damnation
+
+{unrand-prop}+Адская кара
+%%%%
+It grants the ability to hurl damnation at the cost of health and magic, with strength depending on Evocations skill.
+
+Позволяет метать адскую кару ценой здоровья и магии. Сила зависит от навыка Управления устройствами.
+%%%%
+{unrand-prop}Hellfire Court
+
+{unrand-prop}Адский двор
+%%%%
+It may summon demons of flame and damnation when striking foes.
+
+При ударах по врагам может призывать демонов пламени и адской кары.
+%%%%
+{unrand-prop}Umbra
+
+{unrand-prop}Тень
+%%%%
+It surrounds you with an aura of shadow, increasing your stealth and reducing the accuracy of all others within it.
+
+Окружает вас аурой тени, повышающей скрытность и снижающей точность всех остальных внутри неё.
+%%%%
+{unrand-prop}Evervamp
+
+{unrand-prop}Вечный вампиризм
+%%%%
+It heals its wielder for a portion of the damage dealt every time it strikes a living foe.
+
+При каждом попадании по живому врагу исцеляет владельца на часть нанесённого урона.
+%%%%
+{unrand-prop}Execute
+
+{unrand-prop}Казнь
+%%%%
+It may instantly slay those it strikes, especially weaker foes.
+
+Может мгновенно убить поражённую цель, особенно слабую.
+%%%%
+{unrand-prop}Salvo
+
+{unrand-prop}Залп
+%%%%
+Any attack performed with it also shoots at up to 4 other unobstructed targets in range.
+
+При каждой атаке также стреляет не более чем в 4 другие цели в пределах дальности, если путь к ним свободен.
+%%%%
+{unrand-prop}Spectral
+
+{unrand-prop}Призрачное оружие
+%%%%
+When it strikes, its spirit leaps out and fights alongside the wielder.
+
+При попадании её дух вырывается наружу и сражается рядом с владельцем.
+%%%%
+{unrand-prop}Zealotry
+
+{unrand-prop}Фанатизм
+%%%%
+Whenever the wielder enters a berserk rage, their allies are berserked alongside them.
+
+Когда владелец впадает в ярость берсерка, его союзники тоже впадают в ярость.
+%%%%
+{unrand-prop}Damnation
+
+{unrand-prop}Адская кара
+%%%%
+Any ammunition fired from it explodes in a burst of damnation on striking a foe, dealing damage which bypasses armour.
+
+Попавшие во врага боеприпасы взрываются адской карой, нанося урон в обход брони.
+%%%%
+{unrand-prop}Decimate
+
+{unrand-prop}Истребление
+%%%%
+It inflicts additional damage proportional to its victim's maximum health.
+
+Наносит дополнительный урон пропорционально максимальному здоровью жертвы.
+%%%%
+{unrand-prop}Halo
+
+{unrand-prop}Ореол
+%%%%
+It grants its wielder a halo, revealing invisible creatures and increasing accuracy against all within it other than the wielder.
+
+Даёт владельцу ореол, раскрывающий невидимых существ и повышающий точность атак по всем внутри него, кроме самого владельца.
+%%%%
+{unrand-prop}Ele
+
+{unrand-prop}Стихии
+%%%%
+It enhances your fire, ice, earth and air magic. If skilled in Evocations, you can discharge powerful blasts of elemental energy when striking with it.
+
+Усиливает вашу Магию огня, льда, земли и воздуха. При достаточном навыке Управления устройствами удары могут выпускать мощные всплески стихийной энергии.
+%%%%
+{unrand-prop}Acc+∞
+
+{unrand-prop}Точность+∞
+%%%%
+It never misses its target.
+
+Никогда не промахивается по цели.
+%%%%
+{unrand-prop}Slay Drac
+
+{unrand-prop}Против драконов
+%%%%
+It inflicts extra damage against dragons and draconians.
+
+Наносит дополнительный урон драконам и драконидам.
+%%%%
+{unrand-prop}Stab
+
+{unrand-prop}Скрытый удар
+%%%%
+It is more effective when stabbing unaware enemies, sometimes treating them as though they were completely helpless.
+
+Эффективнее при скрытых ударах по не замечающим вас врагам; иногда считает их полностью беспомощными.
+%%%%
+{unrand-prop}Mutate
+
+{unrand-prop}Мутация
+%%%%
+It occasionally inflicts wild transmutation effects on those it strikes, inflicting malmutation or extra damage, or polymorphing them into a new form.
+
+Иногда подвергает поражённую цель необузданным превращениям: наделяет вредными мутациями, наносит дополнительный урон или меняет её облик.
+%%%%
+{unrand-prop}Deathbane
+
+{unrand-prop}Против нежити
+%%%%
+It inflicts significantly more damage against the undead.
+
+Наносит значительно больше урона нежити.
+%%%%
+{unrand-prop}Curare
+
+{unrand-prop}Кураре
+%%%%
+It occasionally inflicts asphyxiating poison on those it strikes, dealing poison damage and causing slowness.
+
+Иногда поражает цель удушающим ядом, нанося ядовитый урон и вызывая замедление.
+%%%%
+{unrand-prop}Disarm
+
+{unrand-prop}Разоружение
+%%%%
+It may disarm weapon-wielding foes when striking them, dealing extra damage in the process.
+
+При попадании может обезоружить вооружённого врага, нанося при этом дополнительный урон.
+%%%%
+{unrand-prop}Penet
+
+{unrand-prop}Проникновение
+%%%%
+Any ammunition fired by it passes through the targets it hits, potentially hitting all targets in its path until it reaches maximum range.
+
+Выпущенные боеприпасы проходят сквозь поражённые цели и могут задеть всех на своём пути, пока не достигнут предела дальности.
+%%%%
+{unrand-prop}Quiet
+
+{unrand-prop}Тишина
+%%%%
+All noise in your surroundings is dampened.
+
+Приглушает все звуки вокруг вас.
+%%%%
+{unrand-prop}Bear
+
+{unrand-prop}Медведь
+%%%%
+Going berserk makes the wearer exceptionally tough, and they are slowed for a shorter time afterward.
+
+Во время ярости берсерка владелец становится исключительно крепким, а последующее замедление длится меньше.
+%%%%
+{unrand-prop}Detect
+
+{unrand-prop}Обнаружение
+%%%%
+It allows the wearer to sense nearby creatures.
+
+Позволяет владельцу чувствовать существ поблизости.
+%%%%
+{unrand-prop}Stab+
+
+{unrand-prop}Скрытый удар+
+%%%%
+It allows the wearer to make particularly effective stabbing attacks against helpless or unaware enemies with any melee weapon.
+
+Позволяет особенно эффективно наносить скрытые удары беспомощным или не замечающим вас врагам любым оружием ближнего боя.
+%%%%
+{unrand-prop}*Englaciate
+
+{unrand-prop}*Замораживание
+%%%%
+It radiates cold, occasionally slowing all nearby creatures who are not resistant to cold.
+
+Излучает холод, иногда замедляя всех ближайших существ без сопротивления холоду.
+%%%%
+{unrand-prop}Flames
+
+{unrand-prop}Пламя
+%%%%
+It surrounds you with flame clouds.
+
+Окружает вас огненными облаками.
+%%%%
+{unrand-prop}rFlCloud
+
+{unrand-prop}Облака огня∞
+%%%%
+It grants immunity to flame clouds.
+
+Даёт невосприимчивость к огненным облакам.
+%%%%
+{unrand-prop}Brill
+
+{unrand-prop}Блеск ума
+%%%%
+It increases the power of your magical spells and halves their MP cost (rounding up).
+
+Усиливает ваши заклинания и вдвое снижает затраты магии на них с округлением вверх.
+%%%%
+{unrand-prop}Will-∞
+
+{unrand-prop}Воля−∞
+%%%%
+It reduces your willpower to zero.
+
+Снижает вашу Волю до нуля.
+%%%%
+{unrand-prop}Dragonpray
+
+{unrand-prop}Драконий зов
+%%%%
+It occasionally summons a dragon when using divine abilities with hostile monsters in sight. Chance is 10% + twice the piety cost of the ability used.
+
+Иногда призывает дракона при применении божественных способностей, если видны враждебные монстры. Вероятность равна 10% плюс удвоенная стоимость способности в благочестии.
+%%%%
+{unrand-prop}Dark
+
+{unrand-prop}Тьма
+%%%%
+It shrouds the wearer in darkness, reducing the range at which they can see and be seen by others.
+
+Окутывает владельца тьмой, уменьшая дальность, на которой он видит других и другие видят его.
+%%%%
+{unrand-prop}Riposte
+
+{unrand-prop}Рипост
+%%%%
+It allows the wearer to riposte with melee weapons, swiftly retaliating against missed or blocked melee attacks.
+
+Позволяет быстро контратаковать оружием ближнего боя после промахнувшихся или заблокированных атак ближнего боя.
+%%%%
+{unrand-prop}*Dazzle
+
+{unrand-prop}*Ослепление
+%%%%
+It may blind adjacent enemies who miss an attack against the wearer in melee combat.
+
+Может ослепить соседних врагов, промахнувшихся по владельцу в ближнем бою.
+%%%%
+{unrand-prop}*Rats
+
+{unrand-prop}*Крысы
+%%%%
+When the wearer is hurt, rats may emerge from it to assist them.
+
+Когда владелец ранен, из плаща могут выбежать крысы ему на помощь.
+%%%%
+{unrand-prop}Loud
+
+{unrand-prop}Грохот
+%%%%
+It is deafeningly noisy when blocking attacks.
+
+При блокировании атак издаёт оглушительный шум.
+%%%%
+{unrand-prop}Inacc
+
+{unrand-prop}Неточность
+%%%%
+It reduces the accuracy of your attacks and spells.
+
+Снижает точность ваших атак и заклинаний.
+%%%%
+{unrand-prop}Fury
+
+{unrand-prop}Неистовство
+%%%%
+It extends the wearer's berserk rage when killing foes.
+
+Убийства врагов продлевают ярость берсерка у владельца.
+%%%%
+{unrand-prop}*Thunder
+
+{unrand-prop}*Гроза
+%%%%
+It occasionally creates storm clouds above nearby enemies.
+
+Иногда создаёт грозовые облака над ближайшими врагами.
+%%%%
+{unrand-prop}rCloud
+
+{unrand-prop}Облака∞
+%%%%
+It grants its wearer immunity to clouds.
+
+Даёт владельцу невосприимчивость к облакам.
+%%%%
+{unrand-prop}Mesm
+
+{unrand-prop}Заворожение
+%%%%
+Its wielder is mesmerised by any visible foes, and it cannot be unequipped while any foes are visible.
+
+Любой видимый враг завораживает владельца. Пока виден хотя бы один враг, снять оружие нельзя.
+%%%%
+{unrand-prop}Demonic
+
+{unrand-prop}Демоны
+%%%%
+It occasionally summons demons to assist the wielder when it strikes in combat.
+
+При ударах в бою иногда призывает демонов на помощь владельцу.
+%%%%
+{unrand-prop}Swift
+
+{unrand-prop}Быстроходность
+%%%%
+It allows the wearer to cover ground more swiftly.
+
+Позволяет владельцу быстрее передвигаться.
+%%%%
+{unrand-prop}Manifold Assault
+
+{unrand-prop}Множественная атака
+%%%%
+It sometimes launches melee attacks against multiple visible enemies.
+
+Иногда проводит атаки ближнего боя против нескольких видимых врагов.
+%%%%
+{unrand-prop}Shatter
+
+{unrand-prop}Сотрясение
+%%%%
+It releases a powerful concussive burst when it strikes, dealing extra damage to the target and all other creatures adjacent to them.
+
+При попадании выпускает мощный сотрясающий взрыв, нанося дополнительный урон цели и всем прочим существам рядом с ней.
+%%%%
+{unrand-prop}Avatar's Aegis
+
+{unrand-prop}Эгида аватара
+%%%%
+It grants the wearer a chance to resist fire, cold, poison, electricity, acid, and negative energy.
+
+Даёт владельцу вероятность сопротивления огню, холоду, яду, электричеству, кислоте и отрицательной энергии.
+%%%%
+{unrand-prop}Ring+
+
+{unrand-prop}Кольцо+
+%%%%
+It enables you to equip an extra ring.
+
+Позволяет надеть дополнительное кольцо.
+%%%%
+{unrand-prop}Discharge
+
+{unrand-prop}Разряд
+%%%%
+It occasionally unleashes powerful arcs of lightning upon striking a foe. These may arc to other adjacent creatures (including the wielder, but dealing reduced damage to them) before grounding out.
+
+При попадании иногда выпускает мощные дуги молний. Прежде чем уйти в землю, они могут перескочить на других соседних существ, включая владельца, но ему наносят уменьшенный урон.
+%%%%
+{unrand-prop}Disrupt
+
+{unrand-prop}Нарушение магии
+%%%%
+It unleashes wild and unpredictable magical effects upon striking a wizard or a creature with magical abilities.
+
+При попадании по чародею или существу с магическими способностями выпускает необузданные и непредсказуемые магические эффекты.
+%%%%
+{unrand-prop}Silver
+
+{unrand-prop}Серебро
+%%%%
+It inflicts extra damage upon those it strikes, and deals substantially increased damage to chaotic, mutated and magically transformed beings.
+
+Наносит поражённым целям дополнительный урон; против хаотичных, мутировавших и магически превращённых существ прибавка значительно выше.
+%%%%
+It grants immunity to clouds of flame.
+
+Даёт невосприимчивость к огненным облакам.
+%%%%
+{unrand-prop}Immolate
+
+{unrand-prop}Внутреннее пламя
+%%%%
+It fills those it strikes with an explosive inner flame.
+
+Наполняет поражённые цели взрывоопасным внутренним пламенем.
+%%%%
+{unrand-prop}Spellvamp
+
+{unrand-prop}Магический вампиризм
+%%%%
+It heals its wielder for a portion of the damage dealt when they wound a living foe with it or with a spell, but its wielder's spells cost health as well as magical power.
+
+Исцеляет владельца на часть урона при ранении живого врага этим оружием или заклинанием, но заклинания владельца расходуют не только магию, но и здоровье.
+%%%%
+{unrand-prop}NoPotionHeal
+
+{unrand-prop}Без лечения зельями
+%%%%
+Its wearer cannot be healed by potions.
+
+Владельца нельзя исцелить зельями.
+%%%%
+{unrand-prop}PotionHeal*2
+
+{unrand-prop}Лечение зельями×2
+%%%%
+Potions heal its wearer twice as much.
+
+Зелья исцеляют владельца вдвое сильнее.
+%%%%
+{unrand-prop}Freezing Cloud
+
+{unrand-prop}Ледяное облако
+%%%%
+It occasionally leaves clouds of freezing vapour upon striking a foe, and grants immunity to clouds of freezing vapour.
+
+При попадании иногда оставляет облака ледяного пара и даёт невосприимчивость к таким облакам.
+%%%%
+{unrand-prop}Omnireflect
+
+{unrand-prop}Полное отражение
+%%%%
+It can block and reflect piercing ranged attacks and magical attacks against the wielder's willpower.
+
+Может блокировать и отражать проникающие дальние атаки и магические атаки, проверяющие Волю владельца.
+%%%%
+{unrand-prop}Freeze
+
+{unrand-prop}Заморозка
+%%%%
+It freezes victims, dealing an additional one-quarter of any damage that pierces defenders' armour. It may also slow down cold-blooded creatures.
+
+Замораживает жертв, добавляя четверть урона, прошедшего сквозь их броню. Также может замедлять хладнокровных существ.
+%%%%
+{unrand-prop}Rev
+
+{unrand-prop}Разгон
+%%%%
+It becomes more effective when it hits something. This effect fades over time.
+
+Становится эффективнее при попаданиях. Со временем усиление угасает.
+%%%%
+{unrand-prop}Reach+
+
+{unrand-prop}Досягаемость+
+%%%%
+It can reach especially far, and its reaching attacks ignore other creatures in the way.
+
+Бьёт особенно далеко; атаки издали игнорируют других существ на пути.
+%%%%
+{unrand-prop}Battle
+
+{unrand-prop}Боевая сфера
+%%%%
+It summons a battlesphere in combat, with strength depending on Conjurations skill.
+
+В бою призывает боевую сферу, сила которой зависит от навыка Разрушения.
+%%%%
+{unrand-prop}Destructive
+
+{unrand-prop}Разрушительность
+%%%%
+It enhances your destructive magic, and weakens non-destructive magic.
+
+Усиливает вашу разрушительную магию и ослабляет неразрушительную.
+%%%%
+{unrand-prop}Corpsefed
+
+{unrand-prop}Питание трупами
+%%%%
+It gathers nearby corpses to temporarily increase the armour it provides.
+
+Собирает ближайшие тела, временно усиливая свою броню.
+%%%%
+{unrand-prop}rMiasma
+
+{unrand-prop}Миазмы∞
+%%%%
+It protects you from foul pestilence.
+
+Защищает от зловонной заразы.
+%%%%
+{unrand-prop}Rampage+∞
+
+{unrand-prop}Натиск+∞
+%%%%
+When moving toward enemies, its wearer moves as far as possible, alerting their target en route.
+
+При движении к врагу владелец проходит как можно дальше, по пути предупреждая цель о своём присутствии.
+%%%%
+{unrand-prop}Infuse+∞
+
+{unrand-prop}Магическое усиление+∞
+%%%%
+It empowers its wearer's blows with all of their magic.
+
+Вкладывает всю магию владельца в силу его ударов.
+%%%%
+{unrand-prop}VampMP
+
+{unrand-prop}Вытягивание МП
+%%%%
+Blows struck in melee replenish the wearer's magic.
+
+Попадания в ближнем бою восполняют магию владельца.
+%%%%
+{unrand-prop}*Dream
+
+{unrand-prop}*Сон
+%%%%
+It absorbs a single lethal wound into itself, holding its wearer just short of death and releasing dream-creatures to guard them.
+
+Принимает на себя одну смертельную рану, удерживая владельца на грани смерти и выпуская существ из снов ему на защиту.
+%%%%
+{unrand-prop}ID++
+
+{unrand-prop}Опознание++
+%%%%
+It heals its wearer when they drink unknown potions, and restores their MP when they read unknown scrolls.
+
+Исцеляет владельца при питье неизвестных зелий и восстанавливает его магию при чтении неизвестных свитков.
+%%%%
+{unrand-prop}Coup de Grace
+
+{unrand-prop}Удар милосердия
+%%%%
+It may instantly kill foes which have little health.
+
+Может мгновенно убить врагов с малым остатком здоровья.
+%%%%
+{unrand-prop}Meekguard
+
+{unrand-prop}Защита кротких
+%%%%
+It provides extra protection to wielders with little health.
+
+Даёт дополнительную защиту владельцу с малым остатком здоровья.
+%%%%
+{unrand-prop}Anguish
+
+{unrand-prop}Страдание
+%%%%
+It makes its victims' attacks reflect back on them.
+
+Заставляет атаки жертв отражаться обратно на них.
+%%%%
+{unrand-prop}Steadfast
+
+{unrand-prop}Непоколебимость
+%%%%
+It prevents involuntary movement, except for blinking, teleportation, or banishment.
+
+Предотвращает принудительное перемещение, кроме скачков, телепортации и изгнания.
+%%%%
+{unrand-prop}Poleaxe
+
+{unrand-prop}Секира
+%%%%
+It uses either Axes or Polearms skill, whichever is higher.
+
+Использует навык Топоров или Древкового оружия — тот, что выше.
+%%%%
+{unrand-prop}Reach-Cleave
+
+{unrand-prop}Размашистый удар издали
+%%%%
+It can be evoked to extend its reach, and strikes at all foes within reach, dealing less damage to those not targeted.
+
+Можно активировать для увеличения досягаемости. Поражает всех врагов в её пределах, но наносит меньше урона тем, кто не был выбран целью.
+%%%%
+{unrand-prop}Invo=14
+
+{unrand-prop}Молитвы=14
+%%%%
+It sets your Invocations skill to 14.
+
+Устанавливает уровень навыка Молитв равным 14.
+%%%%
+{unrand-prop}Evo=0
+
+{unrand-prop}Устройства=0
+%%%%
+It sets your Evocations skill to 0.
+
+Устанавливает уровень навыка Управления устройствами равным 0.
+%%%%
+{unrand-prop}Slick
+
+{unrand-prop}Неуловимость
+%%%%
+Its wearer cannot be constricted, netted, webbed, or stopped by binding sigils.
+
+Владельца нельзя сдавить, поймать сетью или паутиной либо остановить связывающими печатями.
+%%%%
+{unrand-prop}Slippery
+
+{unrand-prop}Ускользание
+%%%%
+Its wearer slips away from damaging melee attacks, pulling the attacker onward.
+
+Получив урон от атаки ближнего боя, владелец ускользает, увлекая атакующего вперёд.
+%%%%
+{unrand-prop}Knockback
+
+{unrand-prop}Отбрасывание
+%%%%
+It sometimes drives back enemies it hits.
+
+Иногда отбрасывает поражённых врагов.
+%%%%
+{unrand-prop}Valiant
+
+{unrand-prop}Доблесть
+%%%%
+It becomes more powerful as more dangerous foes come into view.
+
+Становится сильнее, когда в поле зрения появляется больше опасных врагов.
+%%%%
+{unrand-prop}*Victory
+
+{unrand-prop}*Победа
+%%%%
+When the wearer kills a threatening monster, it has a chance to gain +1 AC, +1 Slay, and +1 Int, capping at +7. When the wearer uses a scroll or a potion with a hostile monster in sight, its bonuses reset to +0. Unequipping it also resets its bonuses to +0.
+
+При убийстве опасного монстра может получить +1 к броне, +1 к бою и +1 к интеллекту, до предела +7. Если владелец использует свиток или зелье при видимом враждебном монстре, прибавки сбрасываются до +0. Снятие тоже сбрасывает их до +0.
+%%%%
+{unrand-prop}Shock
+
+{unrand-prop}Электроудар
+%%%%
+When it blocks an attack, it may electrocute the attacker. This works even against foes who are a short distance away.
+
+При блокировании атаки может ударить нападающего электричеством. Работает даже против врагов на небольшом расстоянии.
+%%%%
+{unrand-prop}Backblast
+
+{unrand-prop}Отдача
+%%%%
+When fired, it often launches its wielder backwards.
+
+При выстреле часто отбрасывает владельца назад.
+%%%%
+{unrand-prop}Gadgeteer
+
+{unrand-prop}Изобретатель
+%%%%
+{unrand-prop}Wandboost
+
+{unrand-prop}Усиление жезлов
+%%%%
+Your wands are more powerful.
+
+Усиливает ваши жезлы.
+%%%%
+It massively reduces your stealth.
+
+Резко снижает вашу скрытность.
+%%%%
+It interferes with translocations, delaying teleports.
+
+Мешает магии Перемещений, задерживая телепортацию.
+%%%%
+{unrand-prop}Charlatan
+
+{unrand-prop}Шарлатан
+%%%%
+It boosts your other skills by 20% of your base Evocations skill.
+
+Прибавляет к другим вашим навыкам 20% от базового уровня Управления устройствами.
+%%%%
+{unrand-prop}Inspire
+
+{unrand-prop}Вдохновение
+%%%%
+When you summon or create an ally, it gains Regeneration.
+
+Когда вы призываете или создаёте союзника, он получает ускоренное восстановление здоровья.
+%%%%
+{unrand-prop}Amulet+
+
+{unrand-prop}Амулет+
+%%%%
+You can equip an additional amulet.
+
+Позволяет надеть дополнительный амулет.
+%%%%
+{unrand-prop}Reaping
+
+{unrand-prop}Жатва душ
+%%%%
+When you kill an enemy with your weapon, its spirit may be forced to fight for you.
+
+При убийстве врага вашим оружием его дух может быть принуждён сражаться за вас.
+%%%%
+{unrand-prop}Hat+
+
+{unrand-prop}Шляпа+
+%%%%
+You can equip an additional hat (on the skull).
+
+Позволяет надеть дополнительную шляпу на череп.
+%%%%
+{unrand-prop}Shroompunch
+
+{unrand-prop}Грибной удар
+%%%%
+The cloak sometimes lashes out at its wearer's enemies, inflicting confusion with its spores.
+
+Плащ иногда бьёт врагов владельца, вызывая спорами замешательство.
+%%%%
+{unrand-prop}Gloves+
+
+{unrand-prop}Перчатки+
+%%%%
+Your cloak can equip an additional pair of gloves.
+
+На плащ можно надеть дополнительную пару перчаток.
+%%%%
+{unrand-prop}Majesty
+
+{unrand-prop}Величие
+%%%%
+You are bathed in light that prevents you from turning invisible. Whenever you enter a new floor, you announce yourself to nearby enemies and refuse to leave the floor again for some time.
+
+Вы залиты светом, не позволяющим стать невидимыми. При входе на новый этаж объявляете о себе ближайшим врагам и некоторое время отказываетесь уходить с этажа.
+%%%%
+{unrand-prop}Ring++
+
+{unrand-prop}Кольца++
+%%%%
+You can equip two additional rings.
+
+Позволяет надеть два дополнительных кольца.
+%%%%
+{unrand-prop}TrickPois
+
+{unrand-prop}Коварный яд
+%%%%
+Whenever you inflict a negative status on an enemy, you also fully poison it. Those with rPois+ will only be lightly poisoned, and those with rPois∞ won't be poisoned at all.
+
+Когда вы накладываете на врага вредное состояние, он также получает полную дозу яда. При сопротивлении яду отравление будет лишь слабым, а при невосприимчивости его не будет вовсе.
+%%%%
+{unrand-prop}IceDoom
+
+{unrand-prop}Ледяной рок
+%%%%
+Whenever you deal cold damage to an enemy without rCold∞, you inflict some doom upon it. Sufficient doom upon those who do not defy fate as you do will eventually result in long amounts of slowing, weakness, vitrification, blinding, or heavy draining.
+
+Когда вы наносите урон холодом врагу без невосприимчивости к холоду, он накапливает обречённость. Достаточное её количество у существ, которые, в отличие от вас, не могут бросить вызов судьбе, в итоге вызывает длительное замедление, слабость, остекленение, ослепление или сильное истощение.
+%%%%
+{unrand-prop}FireExpos
+
+{unrand-prop}Огненная уязвимость
+%%%%
+Whenever you deal fire damage to an enemy without rFire∞, you may briefly leave it exposed, making it take increased damage for non-attack sources, less capable of dodging non-attack projectiles, and mildly reducing its Willpower.
+
+Нанося урон огнём врагу без невосприимчивости к огню, вы можете ненадолго сделать его уязвимым. Он получает больше урона от источников помимо обычных атак, хуже уклоняется от их снарядов и теряет немного Воли. Урон от самого отравления не усиливается.
+%%%%
+{unrand-prop}FireWiz
+
+{unrand-prop}Огненное чародейство
+%%%%
+It increases the success rate of your Fire Magic spells.
+
+Повышает вероятность успешного сотворения заклинаний Магии огня.
+%%%%
+{unrand-prop}IceExpos
+
+{unrand-prop}Ледяная уязвимость
+%%%%
+Whenever you deal cold damage to an enemy without rCold∞, you may briefly leave it exposed, making it take increased damage for non-attack sources, less capable of dodging non-attack projectiles, and mildly reducing its Willpower.
+
+Нанося урон холодом врагу без невосприимчивости к холоду, вы можете ненадолго сделать его уязвимым. Он получает больше урона от источников помимо обычных атак, хуже уклоняется от их снарядов и теряет немного Воли. Урон от самого отравления не усиливается.
+%%%%
+{unrand-prop}IceWiz
+
+{unrand-prop}Ледяное чародейство
+%%%%
+It increases the success rate of your Ice Magic spells.
+
+Повышает вероятность успешного сотворения заклинаний Магии льда.
+%%%%
+{unrand-prop}ShootingStar
+
+{unrand-prop}Падающая звезда
+%%%%
+When knocking back an enemy, and on one in four other hits, it spawns a shooting star with power proportional to the damage dealt.
+
+При отбрасывании врага, а также в одном из четырёх остальных попаданий создаёт падающую звезду, сила которой пропорциональна нанесённому урону.
+%%%%
+{unrand-prop}ConstrDrown
+
+{unrand-prop}Сдавливание и вода
+%%%%
+When attacking a constricted enemy, it has a one in three chance to flood their lungs with water.
+
+При атаке сдавленного врага с вероятностью один к трём наполняет его лёгкие водой.
+%%%%
+{unrand-prop}ConstrBog
+
+{unrand-prop}Сдавливание и топь
+%%%%
+When attacking a constricted enemy, it has a one in three chance to tempoarily transform the ground beneath them into a noxious bog.
+
+При атаке сдавленного врага с вероятностью один к трём временно превращает землю под ним в ядовитую топь.
+%%%%
+{unrand-prop}VirtueSH
+
+{unrand-prop}Щит добродетели
+%%%%
+It provides +5 SH for each of five conditions: You have at least 20 intelligence; at least 25 base EV; at least 15 base Invocations skill; at least +++++ stealth; your Staves skill is your highest skill, or is at the maximum skill level.
+
+Даёт +5 к защите щитом за каждое из пяти условий: интеллект не ниже 20; базовое значение Укл не ниже 25; базовый навык Молитв не ниже 15; скрытность не ниже +++++; навык Посохов выше остальных либо достиг максимального уровня.
+%%%%
+{unrand-prop}VirtueRefl
+
+{unrand-prop}Отражение добродетели
+%%%%
+If you meet at least three of the five conditions, it provides reflection and an extra maximum block per turn.
+
+При выполнении хотя бы трёх из пяти условий даёт отражение и увеличивает максимальное число блоков за ход на один.
+%%%%
+{unrand-prop}DevInvis
+
+{unrand-prop}Коварная невидимость
+%%%%
+When you attack an enemy while devious, you have a chance to turn invisible. The chance increases the more devious you are.
+
+При атаке врага в состоянии коварства есть вероятность стать невидимыми. Чем выше коварство, тем больше вероятность.
+%%%%
+{unrand-prop}ValArchmagi
+
+{unrand-prop}Полная магия
+%%%%
+Enhances your magic if you have at least 80% of your maximum magical power remaining (before spending MP to cast the spell).
+
+Усиливает заклинания, если перед оплатой их стоимости у вас остаётся не менее 80% максимального запаса магии. Максимальный запас должен быть ненулевым.
+%%%%
+{unrand-prop}^Dim
+
+{unrand-prop}^Ослабление
+%%%%
+Unequipping it temporarily diminishes your spells.
+
+При снятии временно ослабляет ваши заклинания.
+%%%%
+{unrand-prop}Corona
+
+{unrand-prop}Подсветка
+%%%%
+Enemies hit by the wearer's projectiles are outlined in light.
+
+Враги, поражённые снарядами владельца, обводятся светом.
+%%%%
+{unrand-prop}Apostate
+
+{unrand-prop}Отступничество
+%%%%
+Equipping it will reduce your piety. While worn, you gain piety at three quarters of the normal rate.
+
+При надевании уменьшает ваше благочестие. Пока предмет надет, благочестие накапливается с тремя четвертями обычной скорости.
+%%%%
+{unrand-prop}Mist
+
+{unrand-prop}Призрачный туман
+%%%%
+It may create clouds of spectral mist when the wearer attacks or casts spells, and grants immunity from such clouds. Necromancy spells have a greater chance to produce spectral mist.
+
+При атаках или сотворении заклинаний может создавать облака призрачного тумана и даёт невосприимчивость к ним. У заклинаний Некромантии вероятность создания тумана выше.
+%%%%
+{item-inscription}sonic wave
+
+{item-inscription}Звуковая волна
+%%%%
+{item-inscription}RageSunder
+
+{item-inscription}Яростный раскол
+%%%%
+{item-inscription}chaos arc
+
+{item-inscription}Дуга хаоса
+%%%%
+{item-inscription}Prune
+
+{item-inscription}Чернослив
+%%%%
+{item-inscription}rPois∞
+
+{item-inscription}Яд∞
+%%%%
+{item-inscription}Mindtap
+
+{item-inscription}Подпитка
+%%%%
+{item-inscription}megavamp
+
+{item-inscription}Сверхвампиризм
+%%%%
+{item-inscription}curses
+
+{item-inscription}Проклятия
+%%%%
+{item-inscription}torment
+
+{item-inscription}Мучение
+%%%%
+{item-inscription}+Damnation
+
+{item-inscription}+Адская кара
+%%%%
+{item-inscription}sticky flame
+
+{item-inscription}Липкое пламя
+%%%%
+{item-inscription}Umbra
+
+{item-inscription}Тень
+%%%%
+{item-inscription}evervamp
+
+{item-inscription}Вечный вампиризм
+%%%%
+{item-inscription}flash freeze
+
+{item-inscription}Быстрая заморозка
+%%%%
+{item-inscription}execute
+
+{item-inscription}Казнь
+%%%%
+{item-inscription}Salvo
+
+{item-inscription}Залп
+%%%%
+{item-inscription}spectral
+
+{item-inscription}Призрачное оружие
+%%%%
+{item-inscription}Zealotry
+
+{item-inscription}Фанатизм
+%%%%
+{item-inscription}damnation
+
+{item-inscription}Адская кара
+%%%%
+{item-inscription}decimate
+
+{item-inscription}Истребление
+%%%%
+{item-inscription}Halo
+
+{item-inscription}Ореол
+%%%%
+{item-inscription}Hex
+
+{item-inscription}Проклятия
+%%%%
+{item-inscription}ele
+
+{item-inscription}Стихии
+%%%%
+{item-inscription}Acc+∞
+
+{item-inscription}Точность+∞
+%%%%
+{item-inscription}stab
+
+{item-inscription}Скрытый удар
+%%%%
+{item-inscription}slay drac
+
+{item-inscription}Против драконов
+%%%%
+{item-inscription}mutate
+
+{item-inscription}Мутация
+%%%%
+{item-inscription}deathbane
+
+{item-inscription}Против нежити
+%%%%
+{item-inscription}curare
+
+{item-inscription}Кураре
+%%%%
+{item-inscription}disarm
+
+{item-inscription}Разоружение
+%%%%
+{item-inscription}penet
+
+{item-inscription}Проникновение
+%%%%
+{item-inscription}Quiet
+
+{item-inscription}Тишина
+%%%%
+{item-inscription}Bear
+
+{item-inscription}Медведь
+%%%%
+{item-inscription}Detect
+
+{item-inscription}Обнаружение
+%%%%
+{item-inscription}Stab+
+
+{item-inscription}Скрытый удар+
+%%%%
+{item-inscription}*Englaciate
+
+{item-inscription}*Замораживание
+%%%%
+{item-inscription}Flames
+
+{item-inscription}Пламя
+%%%%
+{item-inscription}rFlCloud
+
+{item-inscription}Облака огня∞
+%%%%
+{item-inscription}Brill
+
+{item-inscription}Блеск ума
+%%%%
+{item-inscription}Will-∞
+
+{item-inscription}Воля−∞
+%%%%
+{item-inscription}Dragonpray
+
+{item-inscription}Драконий зов
+%%%%
+{item-inscription}Dark
+
+{item-inscription}Тьма
+%%%%
+{item-inscription}Riposte
+
+{item-inscription}Рипост
+%%%%
+{item-inscription}*Dazzle
+
+{item-inscription}*Ослепление
+%%%%
+{item-inscription}*Rats
+
+{item-inscription}*Крысы
+%%%%
+{item-inscription}Loud
+
+{item-inscription}Грохот
+%%%%
+{item-inscription}Inacc
+
+{item-inscription}Неточность
+%%%%
+{item-inscription}Fury
+
+{item-inscription}Неистовство
+%%%%
+{item-inscription}*Thunder
+
+{item-inscription}*Гроза
+%%%%
+{item-inscription}rCloud
+
+{item-inscription}Облака∞
+%%%%
+{item-inscription}demonic
+
+{item-inscription}Демоны
+%%%%
+{item-inscription}Mesm
+
+{item-inscription}Заворожение
+%%%%
+{item-inscription}swift
+
+{item-inscription}Быстроходность
+%%%%
+{item-inscription}manifold assault
+
+{item-inscription}Множественная атака
+%%%%
+{item-inscription}shatter
+
+{item-inscription}Сотрясение
+%%%%
+{item-inscription}Aegis
+
+{item-inscription}Эгида
+%%%%
+{item-inscription}Ring+
+
+{item-inscription}Кольцо+
+%%%%
+{item-inscription}Wiz-
+
+{item-inscription}Чародейство-
+%%%%
+{item-inscription}discharge
+
+{item-inscription}Разряд
+%%%%
+{item-inscription}disrupt
+
+{item-inscription}Нарушение магии
+%%%%
+{item-inscription}silver
+
+{item-inscription}Серебро
+%%%%
+{item-inscription}immolate
+
+{item-inscription}Внутреннее пламя
+%%%%
+{item-inscription}spellvamp
+
+{item-inscription}Магический вампиризм
+%%%%
+{item-inscription}RegenMP+
+
+{item-inscription}РегенОМ+
+%%%%
+{item-inscription}HP--
+
+{item-inscription}ОЗ--
+%%%%
+{item-inscription}NoPotionHeal
+
+{item-inscription}Без лечения зельями
+%%%%
+{item-inscription}PotionHeal*2
+
+{item-inscription}Лечение зельями×2
+%%%%
+{item-inscription}freezing cloud
+
+{item-inscription}Ледяное облако
+%%%%
+{item-inscription}omnireflect
+
+{item-inscription}Полное отражение
+%%%%
+{item-inscription}freeze
+
+{item-inscription}Заморозка
+%%%%
+{item-inscription}rev
+
+{item-inscription}Разгон
+%%%%
+{item-inscription}reach+
+
+{item-inscription}Досягаемость+
+%%%%
+{item-inscription}Corpsefed
+
+{item-inscription}Питание трупами
+%%%%
+{item-inscription}rMiasma
+
+{item-inscription}Миазмы∞
+%%%%
+{item-inscription}Rampage+∞
+
+{item-inscription}Натиск+∞
+%%%%
+{item-inscription}Infuse+∞
+
+{item-inscription}Магическое усиление+∞
+%%%%
+{item-inscription}VampMP
+
+{item-inscription}Вытягивание МП
+%%%%
+{item-inscription}*Dream
+
+{item-inscription}*Сон
+%%%%
+{item-inscription}ID++
+
+{item-inscription}Опознание++
+%%%%
+{item-inscription}coup de grace
+
+{item-inscription}Удар милосердия
+%%%%
+{item-inscription}meekguard
+
+{item-inscription}Защита кротких
+%%%%
+{item-inscription}anguish
+
+{item-inscription}Страдание
+%%%%
+{item-inscription}steadfast
+
+{item-inscription}Непоколебимость
+%%%%
+{item-inscription}reach-cleave
+
+{item-inscription}Размашистый удар издали
+%%%%
+{item-inscription}Poleaxe
+
+{item-inscription}Секира
+%%%%
+{item-inscription}Invo=14
+
+{item-inscription}Молитвы=14
+%%%%
+{item-inscription}Evo=0
+
+{item-inscription}Устройства=0
+%%%%
+{item-inscription}slick
+
+{item-inscription}Неуловимость
+%%%%
+{item-inscription}slippery
+
+{item-inscription}Ускользание
+%%%%
+{item-inscription}knockback
+
+{item-inscription}Отбрасывание
+%%%%
+{item-inscription}Valiant
+
+{item-inscription}Доблесть
+%%%%
+{item-inscription}*Victory
+
+{item-inscription}*Победа
+%%%%
+{item-inscription}shock
+
+{item-inscription}Электроудар
+%%%%
+{item-inscription}backblast
+
+{item-inscription}Отдача
+%%%%
+{item-inscription}Gadgeteer
+
+{item-inscription}Изобретатель
+%%%%
+{item-inscription}Wandboost
+
+{item-inscription}Усиление жезлов
+%%%%
+{item-inscription}orb
+
+{item-inscription}сфера
+%%%%
+{item-inscription}Charlatan
+
+{item-inscription}Шарлатан
+%%%%
+{item-inscription}Inspire
+
+{item-inscription}Вдохновение
+%%%%
+{item-inscription}Amulet+
+
+{item-inscription}Амулет+
+%%%%
+{item-inscription}Reaping
+
+{item-inscription}Жатва душ
+%%%%
+{item-inscription}Hat+
+
+{item-inscription}Шляпа+
+%%%%
+{item-inscription}Shroompunch
+
+{item-inscription}Грибной удар
+%%%%
+{item-inscription}Gloves+
+
+{item-inscription}Перчатки+
+%%%%
+{item-inscription}Majesty
+
+{item-inscription}Величие
+%%%%
+{item-inscription}Ring++
+
+{item-inscription}Кольца++
+%%%%
+{item-inscription}TrickPois
+
+{item-inscription}Коварный яд
+%%%%
+{item-inscription}IceDoom
+
+{item-inscription}Ледяной рок
+%%%%
+{item-inscription}FireExpos
+
+{item-inscription}Огненная уязвимость
+%%%%
+{item-inscription}FireWiz
+
+{item-inscription}Огненное чародейство
+%%%%
+{item-inscription}IceExpos
+
+{item-inscription}Ледяная уязвимость
+%%%%
+{item-inscription}IceWiz
+
+{item-inscription}Ледяное чародейство
+%%%%
+{item-inscription}ShootingStar
+
+{item-inscription}Падающая звезда
+%%%%
+{item-inscription}ConstrDrown
+
+{item-inscription}Сдавливание и вода
+%%%%
+{item-inscription}ConstrBog
+
+{item-inscription}Сдавливание и топь
+%%%%
+{item-inscription}VirtueSH
+
+{item-inscription}Щит добродетели
+%%%%
+{item-inscription}VirtueRefl
+
+{item-inscription}Отражение добродетели
+%%%%
+{item-inscription}DevInvis
+
+{item-inscription}Коварная невидимость
+%%%%
+{item-inscription}ValArchmagi
+
+{item-inscription}Полная магия
+%%%%
+{item-inscription}^Dim
+
+{item-inscription}^Ослабление
+%%%%
+{item-inscription}Corona
+
+{item-inscription}Подсветка
+%%%%
+{item-inscription}Apostate
+
+{item-inscription}Отступничество
+%%%%
+{item-inscription}Mist
+
+{item-inscription}Призрачный туман

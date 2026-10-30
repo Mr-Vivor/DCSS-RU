@@ -448,10 +448,12 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
 
     const species_type old_species = you.species;
     you.species = SP_DJINNI;
+    CHECK(getLongDescription("crystal ball of Wucad Mu").find("Для джиннов") != string::npos);
     const string djinni = trimmed_string(getLongDescription("Spellcasting"));
     CHECK(djinni == "Навык Колдовства повышает вероятность успешного сотворения и силу всех заклинаний.");
     CHECK(getLongDescription("Invocations").find("запас магии") == string::npos);
     you.species = SP_HUMAN;
+    CHECK(getLongDescription("crystal ball of Wucad Mu").find("Для джиннов") == string::npos);
     const string human_hand = getLongDescription("Sacrifice a Hand ability");
     CHECK(human_hand.find("щитами и двуручным оружием") != string::npos);
     CHECK(human_hand.find("one fewer ring") == string::npos);
@@ -508,4 +510,47 @@ TEST_CASE("Russian item and conditional skill descriptions", "[localise][single-
     CHECK(properties.find("Значительно повышает вашу Волю.") != string::npos);
     CHECK(properties.find("It affects") == string::npos);
     CHECK(properties.find("willpower") == string::npos);
+}
+
+TEST_CASE("Russian unique artefact powers and inscriptions preserve their context", "[localise][single-file]")
+{
+    russian_localisation language;
+    const species_type old_species = you.species;
+    you.species = SP_HUMAN;
+
+    for (const int type : { UNRAND_TROG, UNRAND_CHARLATANS_ORB })
+    {
+        const auto old_status = get_unique_item_status(type);
+        item_def item;
+        item.quantity = 1;
+        REQUIRE(make_item_unrandart(item, type));
+        set_unique_item_status(item, old_status);
+        const string description = get_item_description(item, IDM_PLAIN);
+        INFO(description);
+        if (type == UNRAND_TROG)
+        {
+            CHECK(description.find("Яростный раскол:") != string::npos);
+            CHECK(description.find("При экипировке вызывает замедление и истощение сил.") != string::npos);
+            CHECK(description.find("RageSunder") == string::npos);
+            CHECK(description.find("consecutive") == string::npos);
+            CHECK(description.find("when equipped") == string::npos);
+            Options.language = lang_t::EN;
+            CHECK(get_item_description(item, IDM_PLAIN).find("RageSunder:") != string::npos);
+            Options.language = lang_t::RU;
+        }
+        else
+        {
+            CHECK(description.find("Резко снижает вашу скрытность.") != string::npos);
+            CHECK(description.find("Мешает магии Перемещений, задерживая телепортацию.") != string::npos);
+            CHECK(description.find("Шарлатан:") != string::npos);
+            CHECK(description.find("massively reduces") == string::npos);
+        }
+    }
+    CHECK(localise("{sonic wave, Invo=14 Evo=0}")
+          == "{Звуковая волна, Молитвы=14 Устройства=0}");
+    CHECK(localise("{coup de grace rPois∞}")
+          == "{Удар милосердия Яд∞}");
+    CHECK(localise("{orb Charlatan}") == "{сфера Шарлатан}");
+    CHECK(localise("{Will+++ HP--}") == "{Воля+++ ОЗ--}");
+    you.species = old_species;
 }

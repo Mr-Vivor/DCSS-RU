@@ -80,6 +80,30 @@ def message_syntax_matches(source, target):
     return not (original - translated) and all(t in grammatical for t in translated - original)
 
 
+def artifact_power_fields():
+    """Read DESCRIP/DBRAND with util/art-data.pl's continuation semantics."""
+    records, fields, previous = [], {}, None
+    source = ROOT / 'crawl-ref/source/art-data.txt'
+    for raw in source.read_text(encoding='utf8').splitlines() + ['']:
+        if raw.startswith('#'):
+            continue
+        line = raw.split('#', 1)[0].rstrip()
+        if not line.strip():
+            if fields:
+                records.extend(dict(name=fields.get('NAME', ''), field=field, text=fields[field])
+                               for field in ('DESCRIP', 'DBRAND') if field in fields)
+            fields, previous = {}, None
+        elif line.startswith((' ', '\t', '+')):
+            if previous in ('DESCRIP', 'DBRAND'):
+                fields[previous] += ('\n' if line.startswith('+') else ' ') + line[1:].lstrip()
+        else:
+            match = re.match(r'([^:]+):\s*(.*)', line)
+            if match:
+                previous = match[1]
+                fields[previous] = match[2]
+    return records
+
+
 def translated_lua(source, replacements):
     """Translate explicitly reviewed string literals without changing Lua code.
 

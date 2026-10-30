@@ -765,3 +765,102 @@
 | robe of Misfortune | мантия Несчастий |
 | cloak of Flash | плащ Вспышки |
 | hood of the Assassin | капюшон Убийцы |
+| Lear's hauberk | кольчуга Лира |
+| skin of Zhor | шкура Жора |
+| salamander hide armour | доспех из шкуры саламандры |
+| gauntlets of War | латные рукавицы Войны |
+| shield of Resistance | щит Сопротивления |
+| robe of Folly | мантия Безрассудства |
+| Maxwell's patent armour | патентованный доспех Максвелла |
+| mask of the Dragon | маска Дракона |
+| robe of Night | мантия Ночи |
+| scales of the Dragon King | чешуя Короля драконов |
+| hat of the Alchemist | шляпа Алхимика |
+| fencer's gloves | перчатки фехтовальщика |
+| cloak of Starlight | плащ Звёздного света |
+| ratskin cloak | плащ из крысиных шкур |
+| shield of the Gong | щит Гонга |
+| amulet of the Air | амулет Воздуха |
+| ring of Shadows | кольцо Теней |
+| amulet of Cekugob | амулет Секугоба |
+| amulet of Tranquillity | амулет Спокойствия |
+| necklace of Bloodlust | ожерелье Кровожадности |
+| ring of the Hare | кольцо Зайца |
+| ring of the Tortoise | кольцо Черепахи |
+| ring of the Mage | кольцо Мага |
+| brooch of Shielding | брошь Защиты |
+| robe of Clouds | мантия Облаков |
+| hat of Pondering | шляпа Размышлений |
+| obsidian axe | обсидиановый топор |
+| consecrated labrys | освящённый лабрис |
+| lightning scales | молниевая чешуя |
+| Black Knight's barding | бардинг Чёрного рыцаря |
+| amulet of Vitality | амулет Живучести |
+| autumn katana | осенняя катана |
+| shillelagh "Devastator" | дубинка «Опустошитель» |
+| dragonskin cloak | плащ из драконьей кожи |
+| ring of the Octopus King | кольцо Короля осьминогов |
+| Axe of Woe | Топор Скорби |
+| moon troll leather armour | кожаный доспех лунного тролля |
+| macabre finger necklace | жуткое ожерелье с пальцем |
+| boots of the spider | сапоги паука |
+| dark maul | тёмный молот |
+| hat of the High Council | шляпа Высшего совета |
+| arc blade | дуговой клинок |
+| demon whip "Spellbinder" | демонический кнут «Спеллбиндер» |
+| lajatang of Order | ладжатанг Порядка |
+| great mace "Firestarter" | огромная булава «Поджигатель» |
+| orange crystal plate armour | оранжевые хрустальные латы |
+| Majin-Bo | Мадзин-Бо |
+| pair of quick blades "Gyre" and "Gimble" | пара быстрых клинков «Джайр» и «Гимбл» |
+| Maxwell's etheric cage | эфирная клетка Максвелла |
+| crown of Eternal Torment | корона Вечных мучений |
+| robe of Vines | мантия Лоз |
+| Kryia's mail coat | кольчуга Крии |
+| frozen axe "Frostbite" | ледяной топор «Обморожение» |
+| armour of Talos | доспех Талоса |
+| warlock's mirror | зеркало колдуна |
+| amulet of invisibility | амулет невидимости |
+| scarf of invisibility | шарф невидимости |
+| Maxwell's thermic engine | тепловой двигатель Максвелла |
+| demon trident "Rift" | демонический трезубец «Разлом» |
+| sphere of Battle | сфера Битвы |
+| Cigotuvi's embrace | объятие Циготуви |
+| seven-league boots | семимильные сапоги |
+| Mad Mage's Maulers | Крушители безумного мага |
+| dreamdust necklace | ожерелье пыли снов |
+| dreamshard necklace | ожерелье осколка снов |
+| Delatra's gloves | перчатки Делатры |
+| woodcutter's axe | топор дровосека |
+| Throatcutter | Горлорез |
+| staff of the Meek | посох Кротких |
+| trishula "Condemnation" | тришула «Осуждение» |
+| amulet of Elemental Vulnerability | амулет Стихийной уязвимости |
+| mountain boots | горные сапоги |
+| Lochaber axe | лохаберская секира |
+| Hermit's pendant | подвеска Отшельника |
+| slick slippers | скользкие туфли |
+| Force Lance | Силовое копьё |
+| toga "Victory" | тога «Победа» |
+| Storm Queen's Shield | щит Королевы бурь |
+| hand cannon "Mule" | ручная пушка «Мул» |
+| gloves of the gadgeteer | перчатки изобретателя |
+| Charlatan's Orb | Сфера шарлатана |
+| justicar's regalia | регалии юстициара |
+| skull of Zonguldrok | череп Зонгулдрока |
+| fungal fisticloak | грибной боевой плащ |
+| crown of vainglory | корона Тщеславия |
+| ghost crab claws | клешни призрачного краба |
+| swamp witch's dragon scales | драконья чешуя болотной ведьмы |
+| athame "Fimbulwinter" | атам «Фимбульвинтер» |
+| fire dragon occultist's scales | чешуя огненной драконицы-оккультистки |
+| ice dragon arcanist's scales | чешуя ледяной драконицы-чародейки |
+| giant spiked club "Carina at Dusk" | гигантская шипастая дубина «Карина в сумерках» |
+| coolibah bardiche | бердыш из кулибы |
+| staff of Five Virtues | посох Пяти добродетелей |
+| Stagehand's Sword | Меч рабочего сцены |
+| Hana's Scimitar | скимитар Ханы |
+| arcane splint mail | магический пластинчатый доспех |
+| bone scales | костяная чешуя |
+| Forgewarden's cuirass | кираса Хранителя кузни |
+| Hermit's Pendant | подвеска Отшельника |

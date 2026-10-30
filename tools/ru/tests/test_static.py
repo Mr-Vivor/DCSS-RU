@@ -9,12 +9,27 @@ from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
-from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, reviewed_random_messages, message_syntax_matches
+from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, reviewed_random_messages, message_syntax_matches, artifact_power_fields
 from message_catalog import SOURCE, catalog as message_catalog, coverage as message_coverage, translations
 from generate import page_slug
 
 
 class StaticTranslationTests(unittest.TestCase):
+    def test_unique_artefact_power_fields_are_current_and_fully_translated(self):
+        fields = artifact_power_fields()
+        review = json.loads((ROOT / "localization/ru/context-review.json").read_text(encoding="utf8"))
+        digest = hashlib.sha256(json.dumps(fields, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+        self.assertEqual(digest, review["artifact_power_fields_sha256"])
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        for field in fields:
+            for line in field["text"].splitlines():
+                name, separator, body = line.partition(":")
+                keys = [body.strip(), "{unrand-prop}" + name.strip()] if separator else [line.strip()]
+                for key in keys:
+                    self.assertIn(key, messages, (field["name"], key))
+                    self.assertTrue(message_syntax_matches(key, messages[key]), key)
+                    self.assertRegex(messages[key], r"[А-Яа-яЁё]", key)
+
     def test_ancestor_reference_pages_have_portable_distinct_paths(self):
         from generate import page_slug
         paths = []

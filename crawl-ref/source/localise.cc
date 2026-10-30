@@ -748,6 +748,14 @@ static string _localise_annotation(const string& s)
         return strip_context(result);
 
     size_t last = s.length() - 1;
+    if (s[0] == '{' && s[last] == '}')
+    {
+        const string saved_context = _context;
+        _context = "item-inscription";
+        const string inner = _localise_annotation(s.substr(1, s.length() - 2));
+        _context = saved_context;
+        return "{" + inner + "}";
+    }
     if (contains("([{", s[0]) && contains(")]}", s[last]))
         return s[0] + _localise_annotation(s.substr(1, s.length() - 2)) + s[last];
 
@@ -769,6 +777,26 @@ static string _localise_annotation(const string& s)
     {
         if (i > 0)
             result += " ";
+        // Item properties can contain multiword labels such as "sonic wave"
+        // or "coup de grace". Match reviewed phrases before individual words.
+        bool phrase_found = false;
+        if (_context == "item-inscription")
+        {
+            for (size_t count = min<size_t>(3, tokens.size() - i); count > 1; --count)
+            {
+                const string phrase = join_strings(tokens.begin() + i, tokens.begin() + i + count, " ");
+                const string translated = _translate(add_context(_context, phrase));
+                if (!translated.empty())
+                {
+                    result += strip_context(translated);
+                    i += count - 1;
+                    phrase_found = true;
+                    break;
+                }
+            }
+        }
+        if (phrase_found)
+            continue;
         result += _localise_string(tokens[i]);
     }
 

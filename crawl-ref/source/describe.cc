@@ -898,13 +898,13 @@ static string _format_dbrand(string dbrand)
         if (brand.size() == 0)
             continue;
         if (brand.size() == 1)
-            out.push_back(brand[0]);
+            out.push_back(localise(brand[0]));
         else
         {
             ASSERT(brand.size() == 2);
             const string &desc = brand[1];
             const int prefix_min_len = MAX_ARTP_NAME_LEN + 1;
-            const string pre = padded_str(brand[0] + ": ", prefix_min_len);
+            const string pre = padded_str(localise_in_context("unrand-prop", brand[0]) + ": ", prefix_min_len);
             out.push_back(_format_prop_desc(pre, desc));
         }
     }
