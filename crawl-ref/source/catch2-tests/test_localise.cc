@@ -187,6 +187,10 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
     CHECK(getLongDescription("the Tomb card").find("если уйти из центра") != string::npos);
     CHECK(localise("a book of Air") == "книга воздуха");
     CHECK(localise("Codex of Conductivity") == "кодекс проводимости");
+    CHECK(localise("Singing Sword") == "Поющий меч");
+    CHECK(localise("the +8 lance \"Wyrmbane\" (slay drac)").find("Вирмбейн") != string::npos);
+    CHECK(localise("+6 arbalest \"Damnation\" (damnation)").find("Адская кара") != string::npos);
+    CHECK(getLongDescription("Sulking Sword") == getLongDescription("Singing Sword"));
     CHECK(localise("Piety***") == "Благочестие***");
     CHECK(localise("Zin always shields you from chaos.") == "Зин всегда защищает вас от хаоса.");
     CHECK(localise("Really take off and destroy +0 leather armour?")

@@ -3497,5 +3497,288 @@
       "text": "На карте несколько игроков Crawl сердито отправляют несколько отчётов об ошибках в Mantis.\n\nПри вытягивании: Если такая карта когда-либо выпадет, это ошибка игры.",
       "context": "Current cards.txt: effects, scaling, hostile summons, walls and punishment checked."
     }
+  },
+  "unrand": {
+    "Singing Sword": {
+      "source_sha256": "c6cbdf3765966938c5b0865498d52e5a6dc8491e357c6183428019cee6e79ad9",
+      "text": "Зачарованный клинок, который больше всего любит петь своему владельцу — хочет тот этого или нет.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "Sulking Sword": {
+      "source_sha256": "6927ef9ed3809e6a3eb8da548d57c20d28a43a578c6800782b314f2a022edd15",
+      "text": "<Singing Sword>",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked.",
+      "wiki_text": "Зачарованный клинок, который больше всего любит петь своему владельцу — хочет тот этого или нет."
+    },
+    "Screaming Sword": {
+      "source_sha256": "6927ef9ed3809e6a3eb8da548d57c20d28a43a578c6800782b314f2a022edd15",
+      "text": "<Singing Sword>",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked.",
+      "wiki_text": "Зачарованный клинок, который больше всего любит петь своему владельцу — хочет тот этого или нет."
+    },
+    "Wrath of Trog": {
+      "source_sha256": "2a189aa8bbff3ea4e927a23bf008eeb905b15e7f5e714299d90b2485f36c7e18",
+      "text": "Обагрённый кровью топор, бывший любимым оружием древнего бога Трога, пока не затерялся. В бою он ввергает владельца в кровожадную ярость берсерка, но простой смертный на время оказывается подавлен силой Трога.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "mace of Variability": {
+      "source_sha256": "b3e4e8b3a4939d475e39fc06311c95aa2943463f80c362432653e83e3a759b50",
+      "text": "Говорят, эта большая булава появилась, когда Ксому наскучила предсказуемость более обычных орудий хаоса.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "partisan of Prune": {
+      "source_sha256": "bdfbcb856d5dcfeac0f6998a95871984b03bdfe2b2429ac7c05bae5e7c7b9966",
+      "text": "Протазан Прюна несёт страшное и коварное проклятие. Если владелец не сохраняет самообладание, его ждёт ужасное, хотя и временное превращение. Обычно устоять легко, но недееспособный владелец непременно поддаётся, становясь кошмарно фиолетовым, мягким и аппетитным. Утешением служит лишь то, что гигантский чернослив на удивление трудно ранить.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "staff of Olgreb": {
+      "source_sha256": "d372c2eb806ed75917465c5ea30a01dd10458dcdd4c5681636edd8c512e78da9",
+      "text": "Посох, которым некогда владел великий алхимик Олгреб.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "crystal ball of Wucad Mu": {
+      "source_sha256": "47f4055de12e07d920e6005cec5d02604f3d6b5ab3d44e7b39fbfeb4f09f2cb1",
+      "text": "Сфера безупречного хрусталя, сформированная бесчисленными мантрами. При сосредоточенном взгляде на неё граница между «я» и «другим» порой будто размывается. {{\n    if you.race() == \"Djinni\" then\n        return \"Для джиннов он совершенно бесполезен.\"\n    end\n}}",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked.",
+      "lua_strings": {
+        "It is utterly useless to Djinn.": "Для джиннов он совершенно бесполезен."
+      },
+      "wiki_text": "Сфера безупречного хрусталя, сформированная бесчисленными мантрами. При сосредоточенном взгляде на неё граница между «я» и «другим» порой будто размывается. Для джиннов он совершенно бесполезен."
+    },
+    "Vampire's Tooth": {
+      "source_sha256": "7aaab31761c18dfdaca64acdb7ec91d7db9179c4ae7f0bc6b84db793192428d5",
+      "text": "Быстрый клинок цвета слоновой кости, словно сделанный из зуба громадного хищного существа. Смертоносное вампирское оружие.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "scythe of Curses": {
+      "source_sha256": "4b4e6eb848bfddb2ed35594866449cdcfb97666a87eeda2d0d587eb2970837e9",
+      "text": "Коса, окружённая зловещей аурой ужаса. Несёт страшное древнее проклятие и старательно насылает его как на владельца, так и на его врагов.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "sceptre of Torment": {
+      "source_sha256": "9ebe9639945ce43b00080b1823eb749c12e9b0060ce6f61c346906ebbd028b4e",
+      "text": "Проклятый костяной скипетр, созданный неизвестной адской силой. В бою причиняет мучительную боль всем несчастным, кто его видит, кроме самого владельца.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "sword of Cerebov": {
+      "source_sha256": "c978d7ff69e00197455dcc9147a2296e98adc54db5a174f31a43a40c1df2e76c",
+      "text": "Искривлённый клинок, охваченный жутким пламенем. Его демоническая сила выжигает самую сущность тех, против кого он обращён.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "orb of Dispater": {
+      "source_sha256": "ebf0a372fa5597038ad79c759118d1357f1f4dfbeff32778ac3eb545a2676345",
+      "text": "Сфера, пульсирующая нечестивой энергией. В руках владельца позволяет обрушивать адскую кару, но при этом отнимает его жизненную силу. Вместе с ней приходит часть разъедающей злобы Железного города Диса.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "sceptre of Asmodeus": {
+      "source_sha256": "68ad1855d06b4c283a41d01610685d05ebd2b25384ee33f37cdc0c747a9231dc",
+      "text": "Яркий рубиновый скипетр, несущий часть сил архидемона Асмодея. Может вызывать огненных демонов из их адского дома на службу владельцу.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "faerie dragon scales": {
+      "source_sha256": "72cf85d382a50fc38a3b97bccbec6311d51ccbd70501227bed24204437e11d1a",
+      "text": "Зачарованный доспех из чешуи редкой породы драконов, ныне считающейся вымершей. Эта бесценная реликвия — одно из последних доказательств того, что ярко окрашенные волшебные драконы вообще существовали.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "demon blade \"Bloodbane\"": {
+      "source_sha256": "ac05235fcbf3efebcca6cc0ec59ee1f2886f2b5462ae07382f29847ceebbc2e3",
+      "text": "Клинок, выкованный в Аду ценой бесчисленных замученных душ. Он передаёт владельцу их ярость и страдания.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "scimitar of Flaming Death": {
+      "source_sha256": "ff159086d63e3d06d2606d06af8cb810bb0af74fd0fdcb8981ce849d4dbdc7c5",
+      "text": "Скимитар с загадочно дымящимся клинком. Порой его жар вырывается наружу, окутывая врагов магическим пламенем.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "eveningstar \"Brilliance\"": {
+      "source_sha256": "a6b2f88ed9a4a5d62d4cc62e766215e9c944bb65ea3616e805218a5d225fdbd5",
+      "text": "Вскоре после падения Йредэлемнул попытался извратить святую энергию, превратив её в тёмную насмешку над собой, направленную против своих создателей и ослабленную против нежити и демонов. Слишком поздно выяснилось, что столь полное извращение неуправляемо: нечестивое пламя дестабилизировало или уничтожало всё, куда его вселяли, кроме нескольких демонов-подопытных и одного похищенного святого оружия. Более слабый и устойчивый вариант оказался пригоднее и стал тенью Йредэлемнула.\n\nВот то самое оружие: вопреки названию свет давно покинул эту вечернюю звезду, а её тень отталкивает тех, кого прежде утешало её сияние…",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "demon blade \"Leech\"": {
+      "source_sha256": "288c1a2c9fc62fad537feff490ec1f2669601701bb359d5028bbdfcedf85f997",
+      "text": "Клинок, выкованный в Аду ценой бесчисленных замученных душ. Он наполняет владельца их яростью и страданиями, а с каждым попаданием жадно поглощает похищенную жизненную силу, оставляя кровавое месиво.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "dagger of Chilly Death": {
+      "source_sha256": "4f62abc55b89d8bf193439684e8681923ea0543a92ac5f1344dd75e0c56e6c40",
+      "text": "Кинжал из единого огромного осколка сапфира. Покрывает врагов льдом, немного замедляя их передвижение.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "dagger \"Morg\"": {
+      "source_sha256": "e56fcd6aa53dc224339225cf3f4b7fef1794ec1c0636b0b49f2ede8e326353e3",
+      "text": "Уродливый ржавый кинжал. Много лет назад принадлежал могущественному магу Борису, который заблудился в Подземелье, разыскивая Сферу.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "scythe \"Finisher\"": {
+      "source_sha256": "04fa4a7f707e8c66cfaf1382fb617ea7655775be5858e37e751dad03c16172a8",
+      "text": "Длинная и чрезвычайно острая коса, способная одним ударом выпустить врагу внутренности. Необыкновенной быстротой она обязана безумному чародею, который годами её совершенствовал, а затем отбросил в приступе ярости.\n\nРассекая воздух, клинок издаёт тихий протяжный стон.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "greatsling \"Punk\"": {
+      "source_sha256": "d881332be9fd719b8fbee1fcc69b6b71d798d0941e932e08045a880874e9690a",
+      "text": "Праща из странной зелёной кожи, сочащейся едкой слизью. Прежде принадлежала известному озорнику и проказнику, но с тех пор попала в менее приятные руки.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "longbow \"Zephyr\"": {
+      "source_sha256": "80a0ce7fd982a1385f210a86ab7fd44c3e54c1b8dfde2f7aefbacbf19eab8310",
+      "text": "Золотой лук с тетивой из пряди волос самого Западного ветра. По преданию, его создали в дар безответной любви. Даже через столетия после её безвременной гибели в лёгком ветерке вокруг владельца всё ещё чувствуется тоска.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "giant club \"Skullcrusher\"": {
+      "source_sha256": "fb5c971db97fccc1dfa1b4a147fb5252c4bc3fdc55fa584eafd5991000877392",
+      "text": "Огромная зачарованная дубина, усиливающая и без того немалую силу любого, кто способен ею орудовать.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "glaive of the Guard": {
+      "source_sha256": "dbffddf20ed1962b96b19d921a2e51d4e2b090f33605759cf5854785bcdab68f",
+      "text": "Несколько лет назад богатая королева, тревожившаяся за свою огромную казну, заказала эту глефу. Кузнец обещал: никто не одолеет стражника с таким оружием!\n\nНесколько месяцев спустя её украли вместе со всей казной: оказалось, стражника застали спящим. В руках бодрствующего владельца она всё же должна послужить более чем достойно.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "zealot's sword": {
+      "source_sha256": "06849eb6511f2f46e39d4a2defeaa99f7a69a7c9f7bd9c9871f22b6a67562db6",
+      "text": "Меч из единого огромного кристалла. По легенде, Сияющий подарил его своему последователю. Клинок печально известен тем, что ввергает в кровожадную ярость и владельца, и всех его спутников.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "arbalest \"Damnation\"": {
+      "source_sha256": "cd1da516b84f6d3b54bc3d77c5e5abf74143cc3d5b9c63be089ebbe7522bb839",
+      "text": "Нечестивый арбалет, выкованный в огнях Геенны. Наполняет выпущенные болты необузданной силой адской кары. К счастью, возникающие взрывы никогда не вредят самому стрелку.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "sword of the Dread Knight": {
+      "source_sha256": "178f628785c6308fc969f2ccec19727ef1705a1a072f9bba0c0c3d4125c3a0d0",
+      "text": "Адамантовый двуручный меч. Его первая владелица поклонялась Йредэлемнулу и отвергала магию в бою, предпочитая сокрушать врагов грубой силой. К её несчастью, не все противники разделяли эти ограничения.\n\nВ её руках меч поверг бесчисленных великих воинов. Души погибших зовут его отнимать новые жизни уже с новым хозяином.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "morningstar \"Eos\"": {
+      "source_sha256": "746b2a78b7ea5d2137140377e9472b46633bd2e7532241458318bc04405f9feb",
+      "text": "Украшенный самоцветами моргенштерн, ярко сияющий светом зари. Освещает закоулки подземелья, раскрывая козни тех, кто предпочёл бы оставаться невидимым.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "spear of the Botono": {
+      "source_sha256": "283337d353cd5110c957f581028c200ce375ac37d3baa06d4b9218ecc5d6a8f3",
+      "text": "Тёмный и зловещий артефакт. Усиливает Проклятия любого, кому хватит неосторожности взять его в руки.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "trident of the Octopus King": {
+      "source_sha256": "7d727261318dbd8d148a59826b16be76f0f54ff432d7d1d2a56a96b831767a1f",
+      "text": "Трезубец, много лет назад похищенный из сада Короля осьминогов. К счастью, тот, похоже, не спешит его возвращать.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "mithril axe \"Arga\"": {
+      "source_sha256": "56602ddebb9f3e8b3adf74ba32770c26bcaf60c2e94998df5d9766cb71cccb73",
+      "text": "Прекрасный мифриловый топор, вероятно, потерянный каким-то героем-дворфом.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "Elemental Staff": {
+      "source_sha256": "1a8437b1a7dc1fdd9cd4367f643a29ed97e8316debdc1cb5db9c79897f9a923f",
+      "text": "Могущественный посох, некогда принадлежавший главе Гильдии пяти стихий. Наделён защитными и боевыми чарами всех стихийных школ магии.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "heavy crossbow \"Sniper\"": {
+      "source_sha256": "37e62070d281d081513ef1a0376c56eac40287771b09fd97d48243f11d2f905f",
+      "text": "Священное оружие Тот-Моса, первого апостола Ашензари. Даёт владельцу частицу зрения самого Ашензари, благодаря чему каждый выстрел безошибочно находит цель.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "longbow \"Piercer\"": {
+      "source_sha256": "2348358962b6979d2ddcd86069b98a3cb6f1d00e93ad81002c54542148ee585a",
+      "text": "Исключительно большой металлический длинный лук.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "blowgun of the Assassin": {
+      "source_sha256": "e163e16d6ca9d2bf6bd7f07adc41188f1e94c1f025d4bd96571a6c1b382879bf",
+      "text": "Эта духовая трубка словно направляет иглу в самое смертоносное место цели, придавая выстрелу разительную силу.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "lance \"Wyrmbane\"": {
+      "source_sha256": "8dcba40b6b5ee0a36e29bc64a5aacf98a578d524efc44a862655bd2813db8c9b",
+      "text": "Зачарованное копьё, смертоносное для всех драконов. Становится сильнее каждый раз, когда наносит смертельный удар могучему дракону. Чем могущественнее копьё, тем труднее найти достойного противника.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "Spriggan's Knife": {
+      "source_sha256": "81668c3695e12e5c5efd1f175c540d98bd8d2eb89abf1b40efe200a723ded520",
+      "text": "Изящный маленький нож, сделанный спригганами, для спригганов или, возможно, из спригганов. Во всяком случае, с этим волшебным народцем он как-то связан.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "plutonium sword": {
+      "source_sha256": "fe23d20268db2a4432b0c6691d81f02e5ba186159396d4831273bebb44b90c1f",
+      "text": "Тройной меч из странного светящегося металла. Облучает тех, кого поражает, вызывая разнообразные непредсказуемые эффекты — если они переживут сам удар клинком.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "great mace \"Undeadhunter\"": {
+      "source_sha256": "4cc9f0fc9988605108c46c156350c57ca4db67b77614720f8c2f75366ff7938f",
+      "text": "Оружие с магией, разрушающей силы, которые удерживают нежить в едином целом. По легендам, давным-давно владыка-лич создал много таких орудий, чтобы обеспечить верность своих мёртвых слуг. Увы, эта булава, возможно, последняя уцелевшая.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "whip \"Snakebite\"": {
+      "source_sha256": "853571436e1b50d75e593b76cf38febeb5ea94804632bfe2569d8b8cff9575ef",
+      "text": "Двухконечный кнут из выделанных шкур чёрных мамб. Зачарован самыми разными токсинами — от обычных ядов до вызывающего удушье кураре.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "knife of Accuracy": {
+      "source_sha256": "c0412baaa6c7114962abecc77eb16ebea1f2fa1216d69c4ffba964a47b21c8fa",
+      "text": "Почти никогда не промахивается.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "Lehudib's crystal spear": {
+      "source_sha256": "17a3b8db1c7e7db18b4cda68a839fa9fe296bcec189a505e294252ca485712ff",
+      "text": "Вероятно, эта реликвия вдохновила создание знаменитого заклинания. А может быть, всё было наоборот.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "captain's cutlass": {
+      "source_sha256": "52d230e688052a3714995c46f98c3bacf1bb9fdd04e94c5829e96da3ca77d493",
+      "text": "Печально известное оружие, которым злодей-пиратский капитан убил бесчисленных невинных. Наконец его судьба решилась, когда кракен проглотил корабль; считалось, что клинок погиб вместе с хозяином.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "storm bow": {
+      "source_sha256": "b1f61c602251a548500e9a13b2892b82d6a0a30331cefba44af28c99304daf0e",
+      "text": "Длинный лук цвета тёмных дождевых туч, выпускающий стрелы подобно молниям.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "tower shield of Ignorance": {
+      "source_sha256": "2539edbafa1d45debf1858d89b24c5ad0008663651a20acb13b80e050615b8e4",
+      "text": "Щит, найденный среди остатков разрушенного города. На нём есть надпись на древнем языке. Учёные и мудрецы потратили несчётные часы на расшифровку и наконец сошлись на переводе:\n\n«С таким щитом кому вообще нужно думать?»",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "robe of Augmentation": {
+      "source_sha256": "1f9f6ad9dd08b3de6c4b7b8b8bda8f09ac9ab3438a80d986347670d366d72fe0",
+      "text": "Пёстрая мантия с чарами, улучшающими физические и умственные способности владельца. Создатели вплели в неё шерсть сотни разных животных, каждое из которых выбрали за особую силу, способную перейти к владельцу.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "cloak of the Thief": {
+      "source_sha256": "d95bc2e1b3570021dc986a67dc7099ca9dff8720cfcd328a9b4b4183c404acff",
+      "text": "Чёрный как смоль плащ, помогающий преуспеть в воровском ремесле. Даже у неуклюжего владельца шаги становятся тише, а крики противников привлекают меньше внимания.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "tower shield \"Bullseye\"": {
+      "source_sha256": "bd593bb3d9322dd6f1e5e939b2a0d9d60851933754009d0e57c5feee255323e7",
+      "text": "На случай, если по вам было слишком трудно попасть.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "crown of Dyrovepreva": {
+      "source_sha256": "e54910023d594452651da553c62127b346f144200c18ab579c0bc82e27fe2624",
+      "text": "Большой обруч из тусклой бронзы, украшенный ослепительным множеством самоцветов. Его первым носил князь титанов, искавший защиты от непрестанных войн с другими князьями. На деле главным результатом артефакта стало объединение всех соперников против владельца.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "hat of the Bear Spirit": {
+      "source_sha256": "7f28136c374e4e8fc0a043f88683c87dc123bf2f771bcb0b74530929076b1071",
+      "text": "Меховая шапка, некогда принадлежавшая могущественному шаману огров Укте. В ней живёт дух особенно могучего медведя, чья ярость опустошала земли огров, пока зверя не убили.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "robe of Misfortune": {
+      "source_sha256": "8b506ccff88213ba55d0517d888ed3e433c29ffdde51a62d198f244e4ee8f083",
+      "text": "Роскошная струящаяся мантия из меха и шёлка, чей счастливый цвет поблёк.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "cloak of Flash": {
+      "source_sha256": "de0e43bb57fa90a3e26b715368917c9aeee2fe2a92ba4c0512bae10d5544cb75",
+      "text": "Плащ, который сам по себе дёргается и подрагивает.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    },
+    "hood of the Assassin": {
+      "source_sha256": "102260fa30d4caa3d4e303635a18484a4bffbadf3fa4d5ff81481ed39392fd27",
+      "text": "Мягкий капюшон, зачарованный Гильдией убийц. Позволяет чувствовать возможных жертв поблизости и легко замечать их уязвимости после сближения.",
+      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+    }
   }
 }

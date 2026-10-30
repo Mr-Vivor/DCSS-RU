@@ -164,10 +164,11 @@ def outputs(entities):
         "spells": {name + " spell": title for name, title in terms["spell"].items()},
         "ability": {name + " ability": title for name, title in terms["ability"].items()},
         "cards": terms.get("cards", {}),
+        "unrand": terms.get("unrand", {}),
         "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
     }
     reference_headings = {"items": "Предметы", "skills": "Навыки",
-                          "spells": "Заклинания", "ability": "Способности", "monsters": "Монстры", "cards": "Карты"}
+                          "spells": "Заклинания", "ability": "Способности", "monsters": "Монстры", "cards": "Карты", "unrand": "Уникальные артефакты"}
     reference = {}
     reference_index = ["# Справочник предметов, навыков и способностей", "",
                        "Названия и описания синхронизированы с русской версией игры.", ""]

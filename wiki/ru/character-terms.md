@@ -705,3 +705,63 @@
 | Torment card | карта «Мучение» |
 | a buggy card | карта «Ошибочная карта» |
 | a very buggy card | карта «Совсем ошибочная карта» |
+
+## unrand
+
+| English | Русское название |
+|---|---|
+| Singing Sword | Поющий меч |
+| Sulking Sword | Обиженный меч |
+| Screaming Sword | Кричащий меч |
+| Wrath of Trog | Гнев Трога |
+| mace of Variability | булава Переменчивости |
+| partisan of Prune | протазан Прюна |
+| staff of Olgreb | посох Олгреба |
+| crystal ball of Wucad Mu | хрустальный шар Вукад Му |
+| Vampire's Tooth | Зуб вампира |
+| scythe of Curses | коса Проклятий |
+| sceptre of Torment | скипетр Мучения |
+| sword of Cerebov | меч Церебова |
+| orb of Dispater | сфера Диспатера |
+| sceptre of Asmodeus | скипетр Асмодея |
+| faerie dragon scales | чешуя волшебного дракона |
+| demon blade "Bloodbane" | демонический клинок «Бладбейн» |
+| scimitar of Flaming Death | скимитар Пылающей смерти |
+| eveningstar "Brilliance" | вечерняя звезда «Сияние» |
+| demon blade "Leech" | демонический клинок «Пиявка» |
+| dagger of Chilly Death | кинжал Ледяной смерти |
+| dagger "Morg" | кинжал «Морг» |
+| scythe "Finisher" | коса «Финишер» |
+| greatsling "Punk" | большая праща «Панк» |
+| longbow "Zephyr" | длинный лук «Зефир» |
+| giant club "Skullcrusher" | гигантская дубина «Черепокрушитель» |
+| glaive of the Guard | глефа Стража |
+| zealot's sword | меч фанатика |
+| arbalest "Damnation" | арбалет «Адская кара» |
+| sword of the Dread Knight | меч Ужасного рыцаря |
+| morningstar "Eos" | моргенштерн «Эос» |
+| spear of the Botono | копьё Ботоно |
+| trident of the Octopus King | трезубец Короля осьминогов |
+| mithril axe "Arga" | мифриловый топор «Арга» |
+| Elemental Staff | Посох стихий |
+| heavy crossbow "Sniper" | тяжёлый арбалет «Снайпер» |
+| longbow "Piercer" | длинный лук «Пронзатель» |
+| blowgun of the Assassin | духовая трубка Убийцы |
+| lance "Wyrmbane" | копьё «Вирмбейн» |
+| Spriggan's Knife | Нож сприггана |
+| plutonium sword | плутониевый меч |
+| great mace "Undeadhunter" | огромная булава «Охотник на нежить» |
+| whip "Snakebite" | кнут «Змеиный укус» |
+| knife of Accuracy | нож Точности |
+| Lehudib's crystal spear | хрустальное копьё Лехудиба |
+| captain's cutlass | капитанский абордажный клинок |
+| storm bow | грозовой лук |
+| tower shield of Ignorance | башенный щит Невежества |
+| robe of Augmentation | мантия Усиления |
+| cloak of the Thief | плащ Вора |
+| tower shield "Bullseye" | башенный щит «Мишень» |
+| crown of Dyrovepreva | корона Дировепревы |
+| hat of the Bear Spirit | шапка Медвежьего духа |
+| robe of Misfortune | мантия Несчастий |
+| cloak of Flash | плащ Вспышки |
+| hood of the Assassin | капюшон Убийцы |
