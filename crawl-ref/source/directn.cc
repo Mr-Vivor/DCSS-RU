@@ -1955,7 +1955,7 @@ void direction_chooser::print_floor_description(bool boring_too) const
     else
 #endif
 
-    mprf(MSGCH_EXAMINE_FILTER, "%s.", desc.c_str());
+    mprf(MSGCH_EXAMINE_FILTER, "%s.", localise(desc).c_str());
 }
 
 // Get a brief of monster, items, and features in a given cell.

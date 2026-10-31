@@ -359,7 +359,7 @@ def main():
                     for feature, expected, absent in (
                         ("closed_door", ("Закрытая дверь", "чтобы открыть", "пользоваться снаряжением"), ("While adjacent", "wooden door")),
                         ("trap_dispersal_inactive", ("перезаряжается", "в поле зрения", "нескольких ходов"), ("[[A dispersal trap]]", "Anyone stepping")),
-                        ("stone_stairs_down_i", ("Каменная лестница вниз", "клавишей", "Вы находитесь здесь"), ("While standing", "You are here")),
+                        ("stone_stairs_down_i", ("Каменная лестница вниз", "каменная лестница", "клавишей", "Вы находитесь здесь", "спуститься"), ("While standing", "You are here", "the stone staircase", "go down")),
                     ):
                         spell_page.keyboard.type("&(")
                         feature_input = spell_page.locator("#messages .game_message input")
@@ -375,6 +375,9 @@ def main():
                             assert text in feature_text, feature_text
                         for text in absent:
                             assert text not in feature_text, feature_text
+                        look_text = spell_page.locator("#messages .game_message").last.inner_text()
+                        assert re.search(r"[А-Яа-яЁё]", look_text), look_text
+                        assert not re.search(r"A (closed door|dispersal trap|stone staircase)", look_text), look_text
                         spell_page.screenshot(path=str(ARTIFACTS / (feature + "-description.png")), full_page=True)
                         (ARTIFACTS / (feature + "-description.txt")).write_text(feature_text, encoding="utf8")
                         spell_page.keyboard.press("Escape")

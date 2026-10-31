@@ -3530,7 +3530,7 @@ static string _feat_action_desc(const vector<command_type>& actions,
         [feat] (command_type cmd)
         {
             if (cmd == CMD_GO_DOWNSTAIRS && feat_is_altar(feat))
-                return string("(>)pray");
+                return localise("(>)pray");
             else if (cmd == CMD_GO_DOWNSTAIRS &&
                 (feat == DNGN_ENTER_SHOP
                     || feat_is_portal(feat)
@@ -3538,16 +3538,16 @@ static string _feat_action_desc(const vector<command_type>& actions,
                     || feat == DNGN_TRANSPORTER))
             {
                 // XX disable for portals without item? The command still works.
-                return string("(>)enter");
+                return localise("(>)enter");
             }
             else if (cmd == CMD_GO_DOWNSTAIRS && feat == DNGN_PURIFIED_MUTATION_CATALYST)
-                return string("(>)imbibe");
+                return localise("(>)imbibe");
             else if (cmd == CMD_GO_UPSTAIRS && feat_is_gate(feat))
-                return string("(<)exit");
+                return localise("(<)exit");
             else
-                return act_str.at(cmd);
+                return localise(act_str.at(cmd));
         },
-        ", or ") + ".";
+        localise(", or ")) + ".";
 }
 
 static vector<command_type> _allowed_feat_actions(const coord_def &pos)

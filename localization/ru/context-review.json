@@ -26849,12 +26849,12 @@
       "translation_sha256": "2bbd3d95aaa2cb17d6dd784c3ada5767f7eeae8061ebbb468ae57bce159bd7f5"
     },
     "(])view destination": {
-      "context": "describe.cc / terrain actions and targeting explanations",
-      "translation_sha256": "da6f0055b91359c4aa1d9e882df4b7c3ad1ab25c63b3408f1c152bdc84fcd454"
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "9c783ec0b78a247856f41c2f356d3ccbce005fdcf32a63cda393b0ca2e96baa9"
     },
     "([)view destination": {
-      "context": "describe.cc / terrain actions and targeting explanations",
-      "translation_sha256": "72c293ae2d6fb570faa4f008c968e41734bd43c5991507cbeb166e7296339d64"
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "07cc7fe012e8f352f4dbfa5729d6c9f64da858fbd05caffc4b4ab40ca7d857b1"
     },
     "Replace inscription with what? ": {
       "context": "describe.cc / terrain actions and targeting explanations",
@@ -35099,6 +35099,66 @@
     "You struggle against the net.": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
       "translation_sha256": "f0089fd5266edd4641b9bc354b6bca61751292b5366d6fb3afccb8922a39be8a"
+    },
+    "(<)go up": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "ad32042b23f78038e936b611ee0a2df55732252b71a8d5e3c9f21e6054fcedbd"
+    },
+    "(>)go down": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "93e6863d944f426d050071d33023da38aa85717a0d831d995b34a4859ea36243"
+    },
+    "(O)pen": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "d4956da31d2639dc20014bf5eb643696d5e7816dab4868ba830f450be721bf41"
+    },
+    "(C)lose": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "5b7919481bafeaba52f4b46236ca8eb455ccfab058e3343f7675393d31e8771e"
+    },
+    "(>)pray": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "bfe3c545bb2408942507c2b7602b4f89bc8886ec3afec13a1f7f139096823803"
+    },
+    "(>)enter": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "594ef9eb7a757764e6bbf07cecc5b907ca53898d4fd0ca301c637e95e2797ce1"
+    },
+    "(>)imbibe": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "deab2bfc102bbbffd066c71dd98acce7749df7b9a730733351523c5d4a67fc2a"
+    },
+    "(<)exit": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "29d365f09172b7c465c92b2410bcada576512f764ae3bef0661d362716d99b81"
+    },
+    ", or ": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "71cd079b2b098010dac2d2af0af99ecec7d5ef4d63a0696053285fc4ee2d68b5"
+    },
+    "the stone staircase": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "d22a365db3226423bfa9d5fd57ae1d9090ac1a629a1fb7da99d07b0b916b590c"
+    },
+    "the metal staircase": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "023a7a230546b95d4ec0e2c3f4f720b54503ce66cc0cb2ba8b993927aa088416"
+    },
+    "the slimy stone staircase": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "e47058e72fcb344f5d4d46bd4aa896cd92109dfefaa178d91003bbb20d887057"
+    },
+    "the one-way staircase": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "75e71b74c6d3f21690bcadf5fabd2d0e100c3301f601a82b96d7bd4889adc9c6"
+    },
+    "the escape hatch": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "fb1252b0007f35bc313bb0c634658ec8ec2ce4c6007e9a0ae32aabaad6072176"
+    },
+    "the sealed passage": {
+      "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
+      "translation_sha256": "39d934519ae457f0ed6d1dec9865aca35b2dbff4e72e64ab671054145381da7e"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
