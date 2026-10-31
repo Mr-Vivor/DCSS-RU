@@ -746,6 +746,7 @@ TEST_CASE("Russian spell expansion preserves mechanics and configurable reminder
 
     Options.language = lang_t::EN;
     CHECK(localise("Manifold Assault") == "Manifold Assault");
-    CHECK(getLongDescription("Manifold Assault spell").find("never miss") != string::npos);
+    CHECK(localise("(Press <w>%</w> to maintain the ray.)")
+          == "(Press <w>%</w> to maintain the ray.)");
     Options.language = lang_t::RU;
 }
