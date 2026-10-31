@@ -1301,9 +1301,8 @@ static string _your_skill_desc(skill_type skill, bool show_target_button,
 static string _xl_cost_desc(int experience)
 {
     const int level_diff = xp_to_level_diff(experience / 10, 10);
-    return make_stringf("%s %d.%d XLs",
-                        (you.experience_level + (level_diff + 9) / 10) > 27
-                            ? "the equivalent of" : "about",
+    return make_stringf(localise((you.experience_level + (level_diff + 9) / 10) > 27
+                            ? "the equivalent of %d.%d XLs" : "about %d.%d XLs").c_str(),
                         level_diff / 10, level_diff % 10);
 }
 
@@ -1330,18 +1329,18 @@ static string _skill_target_desc(skill_type skill, int scaled_target,
                                 (double) scaled_target / 10, training, base);
 
     if (max_training)
-        description += "At 100% training ";
+        description += localise("At 100% training ");
     else if (!hypothetical)
     {
-        description += make_stringf("At current training (%d%%) ",
+        description += make_stringf(localise("At current training (%d%%) ").c_str(),
                                         you.training[skill]);
     }
     else
-        description += make_stringf("At a training level of %d%% ", training);
+        description += make_stringf(localise("At a training level of %d%% ").c_str(), training);
 
     description += make_stringf(
-        "you %sreach %d.%d in %s.",
-            hypothetical ? "would " : "",
+        localise(hypothetical ? "you would reach %d.%d in %s."
+                              : "you reach %d.%d in %s.").c_str(),
             scaled_target / 10, scaled_target % 10,
             _xl_cost_desc(diffs.experience).c_str());
     if (you.wizard)
@@ -1364,7 +1363,7 @@ static void _append_skill_target_desc(string &description, skill_type skill,
     scaled_target = min(scaled_target, 270);
     if (!base && skill_points_for_level(skill, scaled_target) < 0)
     {
-        description += prefix + make_stringf("You cannot currently reach %d.%d.",
+        description += prefix + make_stringf(localise("You cannot currently reach %d.%d.").c_str(),
                                              scaled_target / 10,
                                              scaled_target % 10);
         return;
@@ -1976,13 +1975,12 @@ static string _describe_weapon_brand(const item_def &item)
 
 static string _describe_point_change(float points)
 {
-    string point_diff_description;
-
-    point_diff_description += make_stringf("%s by %.1f",
-                                           points > 0 ? "increase" : "decrease",
-                                           abs(points));
-
-    return point_diff_description;
+    // These are stat changes, not judgements about whether the item is better.
+    // A displayed increase in attack delay is still an increase.
+    return make_stringf(localise_in_context("equipment-preview",
+                        points > 0 ? "increase by %.1f" :
+                        points < 0 ? "decrease by %.1f" : "change by %.1f").c_str(),
+                        abs(points));
 }
 
 static string _describe_point_diff(int original,
@@ -1993,7 +1991,7 @@ static string _describe_point_diff(int original,
     string description;
 
     if (original == changed)
-        return "remain unchanged";
+        return localise_in_context("equipment-preview", "remain unchanged");
 
     if (round_nearest)
     {
@@ -2103,19 +2101,21 @@ static string _equipment_property_change_description(const item_def &item,
 
     if (remove)
     {
-        description += "If you " + item_unequip_verb(item) + " this "
-                        + _equip_type_name(item) + ":";
+        description += make_stringf(localise("If you %s this %s:").c_str(),
+            localise_in_context("equipment-preview-action", item_unequip_verb(item)).c_str(),
+            localise_in_context("equipment-preview-type", _equip_type_name(item)).c_str());
     }
     else if (item.base_type == OBJ_TALISMANS)
-        description += "If you transformed using this talisman:";
+        description += localise("If you transformed using this talisman:");
     else if (item.base_type == OBJ_JEWELLERY && !jewellery_is_amulet(item))
-        description += "If you were wearing this ring:";
+        description += localise("If you were wearing this ring:");
     else if (item.base_type == OBJ_WEAPONS && you.has_mutation(MUT_WIELD_OFFHAND))
-        description += "If you switch to wielding this weapon in your main hand:";
+        description += localise("If you switch to wielding this weapon in your main hand:");
     else
     {
-        description += "If you switch to " + _equipment_switchto_string(item)
-                         + " this " + _equip_type_name(item) + ":";
+        description += make_stringf(localise("If you switch to %s this %s:").c_str(),
+            localise_in_context("equipment-preview-action", _equipment_switchto_string(item)).c_str(),
+            localise_in_context("equipment-preview-type", _equip_type_name(item)).c_str());
     }
 
     // Always display AC line on proper armour, even if there is no change.
@@ -2126,8 +2126,8 @@ static string _equipment_property_change_description(const item_def &item,
     if (item.base_type == OBJ_ARMOUR && get_armour_slot(item) != SLOT_OFFHAND
         || cur.ac != next.ac)
     {
-        description += "\nYour AC would "
-                       + _describe_point_diff(cur.ac, next.ac) + ".";
+        description += make_stringf(localise("\nYour AC would %s.").c_str(),
+                                     _describe_point_diff(cur.ac, next.ac).c_str());
     }
 
     // Always display EV line on non-orb armour, even if there is no change
@@ -2135,28 +2135,29 @@ static string _equipment_property_change_description(const item_def &item,
     if (item.base_type == OBJ_ARMOUR && item.sub_type != ARM_ORB
         || cur.ev != next.ev)
     {
-        description += "\nYour EV would "
-                       + _describe_point_diff(cur.ev, next.ev) + ".";
+        description += make_stringf(localise("\nYour EV would %s.").c_str(),
+                                     _describe_point_diff(cur.ev, next.ev).c_str());
     }
 
     // Always display SH line on shields, even if there is no change
     if (is_shield(item) || cur.sh != next.sh)
     {
-        description += "\nYour SH would "
-                       + _describe_point_diff(cur.sh, next.sh) + ".";
+        description += make_stringf(localise("\nYour SH would %s.").c_str(),
+                                     _describe_point_diff(cur.sh, next.sh).c_str());
     }
 
     if (fail_change != 0)
     {
-        description += "\nYour spell failure would ";
-        description += (fail_change > 0) ? "worsen" : "improve";
+        string failure = "\nYour spell failure would ";
+        failure += (fail_change > 0) ? "worsen" : "improve";
         if (visible_fail_change == 0)
-            description += " trivially.";
+            failure += " trivially.";
         else
         {
-            description += make_stringf(" by up to %d%% (press '!' for details).",
+            failure += make_stringf(" by up to %d%% (press '!' for details).",
                                     abs(visible_fail_change)).c_str();
         }
+        description += localise(failure);
     }
 
     // Describe even an unchanged attack delay for shields, and for body armour
@@ -2172,8 +2173,8 @@ static string _equipment_property_change_description(const item_def &item,
     {
         // We round attack delay to the nearest aut to match what is displayed
         // elsewhere.
-        description += "\nYour attack delay would "
-            + _describe_point_diff(cur.delay / 10, next.delay / 10, true) + ".";
+        description += make_stringf(localise("\nYour attack delay would %s.").c_str(),
+            _describe_point_diff(cur.delay / 10, next.delay / 10, true).c_str());
     }
 
     return description;
@@ -2478,9 +2479,9 @@ static string _warlock_mirror_reflect_desc()
     const int reflect_chance_numer = (100 - (scaled_SH % 100)) * SH * omnireflect_chance_denom(SH+1) + (scaled_SH % 100) * (SH+1) * omnireflect_chance_denom(SH);
     const int reflect_chance_denom = omnireflect_chance_denom(SH) * omnireflect_chance_denom(SH+1);
     const int reflect_chance = reflect_chance_numer / reflect_chance_denom;
-    return "\n\nWith your current SH, it has a " + to_string(reflect_chance) +
-           "% chance to reflect attacks against your willpower and other "
-           "normally unblockable effects.";
+    return make_stringf(localise("\n\nWith your current SH, its chance to reflect attacks against "
+           "your willpower and other normally unblockable effects is %d%%.").c_str(),
+           reflect_chance);
 }
 
 static string _armour_ego_key(special_armour_type ego)
@@ -2546,20 +2547,20 @@ static string _orb_ego_details(special_armour_type ego)
     switch (ego)
     {
         case SPARM_ENERGY:
-            return make_stringf("\n\nSpell refund chance: %d%% (max %d%%)",
+            return make_stringf(localise("\n\nSpell refund chance: %d%% (max %d%%)").c_str(),
                                 player_channelling_chance(), player_channelling_chance(true));
 
         case SPARM_GUILE:
-            return make_stringf("\n\nEnemy Willpower: -%d (max -%d)",
+            return make_stringf(localise("\n\nEnemy Willpower: -%d (max -%d)").c_str(),
                                 guile_will_reduction(), guile_will_reduction(true));
 
         case SPARM_GLASS:
-            return make_stringf("\n\nVitrify chance: %d%% (max %d%%)",
+            return make_stringf(localise("\n\nVitrify chance: %d%% (max %d%%)").c_str(),
                         (20 + you.skill(SK_EVOCATIONS, 5)) * 100 / 500,
                         (20 + 135) * 100 / 500);
 
         case SPARM_PYROMANIA:
-            return make_stringf("\n\nExplosion chance: %d%% (max %d%%)\nExplosion damage: %dd%d (max %dd%d)\n",
+            return make_stringf(localise("\n\nExplosion chance: %d%% (max %d%%)\nExplosion damage: %dd%d (max %dd%d)\n").c_str(),
                                 pyromania_trigger_chance(), pyromania_trigger_chance(true),
                                 pyromania_damage(false, false).num, pyromania_damage(false, false).size,
                                 pyromania_damage(false, true).num, pyromania_damage(false, true).size);
@@ -2568,15 +2569,15 @@ static string _orb_ego_details(special_armour_type ego)
         {
             dice_def base_dam = zap_damage(ZAP_SHOOTING_STAR, stardust_orb_power(0), false, false);
             dice_def max_dam = zap_damage(ZAP_SHOOTING_STAR, stardust_orb_power(0, true), false, false);
-            return make_stringf("\n\nBase shooting star damage: %dd%d (max %dd%d) + 25%% per MP spent"
-                                "\nShooting stars conjured: 1 + 1 per visible enemy, up to %d (%d at max skill)",
+            return make_stringf(localise("\n\nBase shooting star damage: %dd%d (max %dd%d) + 25%% per MP spent"
+                                "\nShooting stars conjured: 1 + 1 per visible enemy, up to %d (%d at max skill)").c_str(),
                                     base_dam.num, base_dam.size,
                                     max_dam.num, max_dam.size,
                                     stardust_orb_max(), stardust_orb_max(true));
         }
 
         case SPARM_MESMERISM:
-            return make_stringf("\n\nMesmerism radius: %d (max %d)", mesmerism_orb_radius(), mesmerism_orb_radius(true));
+            return make_stringf(localise("\n\nMesmerism radius: %d (max %d)").c_str(), mesmerism_orb_radius(), mesmerism_orb_radius(true));
 
         default:
             return "";
@@ -2595,22 +2596,22 @@ static string _describe_armour(const item_def &item, bool verbose, bool monster)
             const int evp = -property(item, PARM_EVASION);
             const char* cumber_desc = evp < 100 ? "slightly " :
                                       evp > 100 ? "greatly " : "";
-            description += make_stringf(
+            description += make_stringf(localise(
                 "It is cumbersome to wear, and %simpedes the evasion, "
                 "spellcasting ability, and attack speed of the wearer. "
                 "These penalties are reduced by the wearer's Shields skill "
-                "and Strength; mastering Shields eliminates penalties.",
-                cumber_desc);
+                "and Strength; mastering Shields eliminates penalties.").c_str(),
+                localise_in_context("shield-encumbrance", cumber_desc).c_str());
         }
         if (!monster)
             description += "\n\n";
         if (is_shield(item))
         {
-            description += "Base shield rating: "
+            description += localise("Base shield rating: ")
                         + to_string(property(item, PARM_AC));
-            description += "     Encumbrance rating: "
+            description += localise("     Encumbrance rating: ")
                         + to_string(-property(item, PARM_EVASION) / 10);
-            description += "     Max blocks/turn: "
+            description += localise("     Max blocks/turn: ")
                         + to_string(shield_block_limit(item));
             if (is_unrandom_artefact(item, UNRAND_WARLOCK_MIRROR))
                 description += _warlock_mirror_reflect_desc();
@@ -2618,18 +2619,18 @@ static string _describe_armour(const item_def &item, bool verbose, bool monster)
         else
         {
             const int evp = property(item, PARM_EVASION);
-            description += "Base armour rating: "
+            description += localise("Base armour rating: ")
                         + to_string(property(item, PARM_AC));
             if (get_armour_slot(item) == SLOT_BODY_ARMOUR)
             {
-                description += "       Encumbrance rating: "
+                description += localise("       Encumbrance rating: ")
                             + to_string(-evp / 10);
             }
             // Bardings reduce evasion by a fixed amount, and don't have any of
             // the other effects of encumbrance.
             else if (evp)
             {
-                description += "       Evasion: "
+                description += localise("       Evasion: ")
                             + to_string(evp / 30);
             }
         }
@@ -2843,17 +2844,17 @@ static string _describe_jewellery(const item_def &item, bool verbose)
 static string _describe_item_curse(const item_def &item)
 {
     if (!item.props.exists(CURSE_KNOWLEDGE_KEY))
-        return "\nIt has a curse placed upon it.";
+        return localise("\nIt has a curse placed upon it.");
 
     const CrawlVector& curses = item.props[CURSE_KNOWLEDGE_KEY].get_vector();
 
     if (curses.empty())
-        return "\nIt has a curse placed upon it.";
+        return localise("\nIt has a curse placed upon it.");
 
     ostringstream desc;
 
-    desc << "\nIt bears a divine curse which improves your skill at ";
-    desc << desc_curse_skills(curses) << ".";
+    desc << make_stringf(localise("\nIt bears a divine curse which improves your skill at %s.").c_str(),
+                         localise(desc_curse_skills(curses)).c_str());
 
     return desc.str();
 }
@@ -2907,13 +2908,6 @@ bool is_dumpable_artefact(const item_def &item)
     return is_artefact(item) && item.is_identified();
 }
 
-static string &_godsafe_lowercase(string &s)
-{
-    if (!starts_with(s, god_name(you.religion)))
-        s = lowercase_first(s);
-    return s;
-}
-
 static string _cannot_use_reason(const item_def &item, bool temp=true)
 {
     switch (item.base_type)
@@ -2956,8 +2950,8 @@ static void _uselessness_desc(ostringstream &description, const item_def &item)
         string r;
         if (is_useless_item(item, false))
         {
-            description << "This " << base_type_string(item.base_type)
-                        << " is completely useless to you";
+            description << make_stringf(localise("This %s is completely useless to you").c_str(),
+                localise_in_context("equipment-preview-type", base_type_string(item.base_type)).c_str());
             r = _cannot_use_reason(item, false);
         }
         else
@@ -2965,34 +2959,32 @@ static void _uselessness_desc(ostringstream &description, const item_def &item)
             switch (item.base_type)
             {
             case OBJ_SCROLLS:
-                description << "Reading this right now";
                 // this is somewhat heuristic:
                 if (cannot_read_item_reason().size())
-                    description << " isn't possible";
+                    description << localise("Reading this right now isn't possible");
                 else
-                    description << " will have no effect";
+                    description << localise("Reading this right now will have no effect");
                 break;
             case OBJ_POTIONS:
                 // XX code dup
-                description << "Drinking this right now";
                 if (cannot_drink_item_reason().size())
-                    description << " isn't possible";
+                    description << localise("Drinking this right now isn't possible");
                 else
-                    description << " will have no effect";
+                    description << localise("Drinking this right now will have no effect");
                 break;
             case OBJ_MISCELLANY:
             case OBJ_WANDS:
-                description << "You can't evoke this right now";
+                description << localise("You can't evoke this right now");
                 break;
             default:
-                description << "This " << base_type_string(item.base_type)
-                            << " is useless to you right now";
+                description << make_stringf(localise("This %s is useless to you right now").c_str(),
+                    localise_in_context("equipment-preview-type", base_type_string(item.base_type)).c_str());
                 break;
             }
             r = _cannot_use_reason(item, true);
         }
         if (!r.empty())
-            description << ": " << _godsafe_lowercase(r);
+            description << ": " << localise(r);
         else
             description << "."; // reasons always come with punctuation
     }

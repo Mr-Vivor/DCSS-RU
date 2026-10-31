@@ -924,3 +924,18 @@
 | Bane of Warding | Проклятие «Оберег» |
 | Bane of the Hunted | Проклятие «Преследование» |
 | Bane of Mortality | Проклятие «Смертность» |
+
+## gizmo_effects
+
+| English | Русское название |
+|---|---|
+| SpellMotor | Спеллмотор |
+| Gadgeteer | Изобретатель |
+| RevGuard | Ревгард |
+| AutoDazzle | Автодаззл |
+
+## item_classes
+
+| English | Русское название |
+|---|---|
+| Wands | Палочки |

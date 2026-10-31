@@ -2970,19 +2970,19 @@ It reduces the duration of hostile enchantments and decays magical contamination
 %%%%
 Your spells cost less MP as you Rev up. Whenever you cast a spell, you make a melee attack against a random enemy in range.
 
-По мере разгона ваши заклинания расходуют меньше ОМ. Каждое сотворение заклинания сопровождается ближней атакой по случайному врагу в пределах досягаемости.
+По мере разгона ваши заклинания требуют меньше магии. Каждое сотворение заклинания сопровождается атакой в ближнем бою по случайному врагу в пределах досягаемости.
 %%%%
 Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.
 
-Активируемые предметы перезаряжаются на 30% быстрее, а жезлы с вероятностью 30% не расходуют заряд.
+Ваши магические устройства перезаряжаются на 30% быстрее. При применении палочки с вероятностью 30% заряд не расходуется.
 %%%%
 Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.
 
-Разгон повышает вашу броню до +5. При полном разгоне ваши атаки могут обезоруживать врагов.
+По мере разгона ваша броня растёт (до +5). При полном разгоне ваши атаки могут обезоруживать врагов.
 %%%%
 It sometimes fires a blinding ray at enemies whose attacks you dodge.
 
-Иногда выпускает ослепляющий луч во врагов, от чьих атак вы уклонились.
+Иногда выпускает ослепляющий луч во врага, от чьей атаки вы уклонились.
 %%%%
 [<w>!</w>]: <w>Description</w>|Quote
 
@@ -6666,7 +6666,7 @@ The demon of the infinite void smiles upon you.
 %%%%
 Choose an item to acquire.
 
-Выберите предмет для приобретения.
+Выберите предмет, который хотите получить.
 %%%%
 [Esc/R-Click] exit
 
@@ -6682,11 +6682,11 @@ Choose an item to acquire.
 %%%%
 select item for acquirement
 
-выбрать предмет для приобретения
+выбрать предмет для получения
 %%%%
 examine item
 
-осмотреть предмет
+описание предмета
 %%%%
 Acquire @arg1@? (@arg2@/@arg3@)
 
@@ -25562,7 +25562,7 @@ Aborting sim on @arg@
 %%%%
 ) - weapons     ( - missiles  [ - armour  / - wands    ?  - scrolls
 
-) — оружие   ( — снаряды   [ — доспехи   / — жезлы   ? — свитки
+) — оружие   ( — снаряды  [ — доспехи  / — палочки  ? — свитки
 %%%%
 = - jewellery   ! - potions   : - books   | - staves   }  - miscellany
 
@@ -26970,7 +26970,7 @@ If you transformed using this talisman:
 %%%%
 If you were wearing this ring:
 
-Если надеть это кольцо:
+Если носить это кольцо:
 %%%%
 If you switch to wielding this weapon in your main hand:
 
@@ -28390,7 +28390,7 @@ nearest monster
 %%%%
 <lightgrey>/</lightgrey> : wands (e<w>%</w>oke)
 
-<lightgrey>/</lightgrey> : жезлы (применить — <w>%</w>)
+<lightgrey>/</lightgrey> : палочки (применить — <w>%</w>)
 %%%%
 </lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,
 
@@ -28722,7 +28722,7 @@ attack with wielded item
 %%%%
 eVoke wand and miscellaneous item
 
-применить жезл или иной предмет
+применить палочку или другой предмет
 %%%%
 <w>%</w>/<w>%</w> : Equip or Unequip an item
 
@@ -28830,7 +28830,7 @@ library (get books to add to it)
 %%%%
 <console><lightgrey>/</lightgrey> : </console>wands (e<w>%</w>oke)
 
-<console><lightgrey>/</lightgrey> : </console>жезлы (применить — <w>%</w>)
+<console><lightgrey>/</lightgrey> : </console>палочки (применить — <w>%</w>)
 %%%%
 </lightcyan> : </console>books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,
 
@@ -29354,7 +29354,7 @@ Travel to: @item@
 %%%%
 You cannot afford this item; travel there anyway? (y/N)
 
-У вас недостаточно золота для этого предмета. Всё равно отправиться туда? (y/N)
+У вас не хватает золота на этот предмет. Всё равно отправиться туда? (y/N)
 %%%%
 You now have enough gold to buy @item@
 
@@ -31550,11 +31550,11 @@ When fired, it often launches its wielder backwards.
 %%%%
 {unrand-prop}Wandboost
 
-{unrand-prop}Усиление жезлов
+{unrand-prop}Усиление палочек
 %%%%
 Your wands are more powerful.
 
-Усиливает ваши жезлы.
+Ваши волшебные палочки действуют сильнее.
 %%%%
 It massively reduces your stealth.
 
@@ -32154,7 +32154,7 @@ It may create clouds of spectral mist when the wearer attacks or casts spells, a
 %%%%
 {item-inscription}Wandboost
 
-{item-inscription}Усиление жезлов
+{item-inscription}Усиление палочек
 %%%%
 {item-inscription}orb
 
@@ -38807,3 +38807,351 @@ Missing status description.
 {spell-fail-condition}If you trained 1 level of this skill
 
 {spell-fail-condition}Если повысить этот навык на один уровень
+%%%%
+the equivalent of %d.%d XLs
+
+объём опыта, соответствующий %d.%d уровня персонажа
+%%%%
+about %d.%d XLs
+
+опыт, соответствующий примерно %d.%d уровня персонажа
+%%%%
+"At 100% training "
+
+"При направлении всего опыта на этот навык "
+%%%%
+"At current training (%d%%) "
+
+"При текущей доле тренировки (%d%%) "
+%%%%
+"At a training level of %d%% "
+
+"При доле тренировки %d%% "
+%%%%
+you would reach %d.%d in %s.
+
+для достижения уровня %d.%d потребуется %s.
+%%%%
+you reach %d.%d in %s.
+
+для достижения уровня %d.%d потребуется %s.
+%%%%
+You cannot currently reach %d.%d.
+
+Сейчас вы не можете достичь уровня %d.%d.
+%%%%
+If you %s this %s:
+
+Если %s этот предмет (%s):
+%%%%
+If you switch to %s this %s:
+
+Если %s этот предмет (%s):
+%%%%
+Your AC would %s.
+
+Броня %s.
+%%%%
+Your EV would %s.
+
+Уклонение %s.
+%%%%
+Your SH would %s.
+
+Защита щитом %s.
+%%%%
+Your attack delay would %s.
+
+Задержка атаки %s.
+%%%%
+This %s is completely useless to you
+
+Этот предмет (%s) для вас полностью бесполезен
+%%%%
+This %s is useless to you right now
+
+Этот предмет (%s) сейчас бесполезен
+%%%%
+Reading this right now isn't possible
+
+Сейчас этот свиток нельзя прочитать
+%%%%
+Reading this right now will have no effect
+
+Чтение этого свитка сейчас не даст эффекта
+%%%%
+Drinking this right now isn't possible
+
+Сейчас это зелье нельзя выпить
+%%%%
+Drinking this right now will have no effect
+
+Это зелье сейчас не даст эффекта
+%%%%
+You can't evoke this right now
+
+Сейчас это устройство нельзя применить
+%%%%
+Spell refund chance: %d%% (max %d%%)
+
+Шанс вернуть затраченную магию: %d%% (максимум %d%%)
+%%%%
+Enemy Willpower: -%d (max -%d)
+
+Сила воли врагов: -%d (максимум -%d)
+%%%%
+Vitrify chance: %d%% (max %d%%)
+
+Шанс остекленения: %d%% (максимум %d%%)
+%%%%
+Explosion chance: %d%% (max %d%%)
+
+Шанс взрыва: %d%% (максимум %d%%)
+%%%%
+Explosion damage: %dd%d (max %dd%d)
+
+Урон взрыва: %dd%d (максимум %dd%d)
+%%%%
+Base shooting star damage: %dd%d (max %dd%d) + 25%% per MP spent
+
+Базовый урон падающей звезды: %dd%d (максимум %dd%d), +25%% за каждую потраченную единицу магии
+%%%%
+Shooting stars conjured: 1 + 1 per visible enemy, up to %d (%d at max skill)
+
+Падающих звёзд: 1 + 1 за каждого видимого врага, до %d (%d при максимальном навыке)
+%%%%
+Mesmerism radius: %d (max %d)
+
+Радиус завораживания: %d (максимум %d)
+%%%%
+With your current SH, its chance to reflect attacks against your willpower and other normally unblockable effects is %d%%.
+
+При вашей текущей защите щитом шанс отразить атаки против силы воли и другие обычно неблокируемые эффекты составляет %d%%.
+%%%%
+It is cumbersome to wear, and %simpedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.
+
+Этот щит %sснижает уклонение, замедляет атаки и затрудняет колдовство. Штрафы уменьшаются с ростом силы и навыка Щитов; полное освоение Щитов устраняет их.
+%%%%
+"Base shield rating: "
+
+"Базовая защита щитом: "
+%%%%
+"     Encumbrance rating: "
+
+"     Тяжесть: "
+%%%%
+"     Max blocks/turn: "
+
+"     Блоков за ход: "
+%%%%
+"Base armour rating: "
+
+"Базовая броня: "
+%%%%
+"       Encumbrance rating: "
+
+"       Тяжесть: "
+%%%%
+"       Evasion: "
+
+"       Уклонение: "
+%%%%
+It bears a divine curse which improves your skill at %s.
+
+На предмет наложено божественное проклятие, усиливающее навыки: %s.
+%%%%
+" (you have %d gold)"
+
+" (у вас золота: %d)"
+%%%%
+Choose a gizmo to assemble.
+
+Выберите устройство для сборки.
+%%%%
+<%s>%s %s? (%s/N)</%s>
+
+<%s>%s: %s? (%s/N)</%s>
+%%%%
+" <w>assemble</w>|examine gizmo"
+
+" <w>собрать</w>|описание устройства"
+%%%%
+" assemble|<w>examine</w> gizmo"
+
+" собрать|<w>описание</w> устройства"
+%%%%
+select gizmo to assemble
+
+выбрать устройство для сборки
+%%%%
+examine gizmo
+
+описание устройства
+%%%%
+" <w>acquire</w>|examine items"
+
+" <w>получить</w>|описание предметов"
+%%%%
+" acquire|<w>examine</w> items"
+
+" получить|<w>описание</w> предметов"
+%%%%
+<yellow>You have %d gold pieces and a voucher.</yellow>
+
+<yellow>Золото: %d. Есть ваучер.</yellow>
+%%%%
+<yellow>You have %d gold pieces</yellow>
+
+<yellow>Золото: %d</yellow>
+%%%%
+Travel to: %s
+
+Отправиться за предметом: %s
+%%%%
+{equipment-preview}increase by %.1f
+
+{equipment-preview}увеличится на %.1f
+%%%%
+{equipment-preview}decrease by %.1f
+
+{equipment-preview}уменьшится на %.1f
+%%%%
+{equipment-preview}change by %.1f
+
+{equipment-preview}изменится на %.1f
+%%%%
+{equipment-preview}remain unchanged
+
+{equipment-preview}не изменится
+%%%%
+{equipment-preview-action}take off
+
+{equipment-preview-action}снять
+%%%%
+{equipment-preview-action}remove
+
+{equipment-preview-action}снять
+%%%%
+{equipment-preview-action}unwield
+
+{equipment-preview-action}убрать из рук
+%%%%
+{equipment-preview-action}unequip
+
+{equipment-preview-action}снять
+%%%%
+{equipment-preview-action}wielding
+
+{equipment-preview-action}взять в руки
+%%%%
+{equipment-preview-action}wearing
+
+{equipment-preview-action}надеть
+%%%%
+{equipment-preview-type}weapon
+
+{equipment-preview-type}оружие
+%%%%
+{equipment-preview-type}missile
+
+{equipment-preview-type}снаряд
+%%%%
+{equipment-preview-type}armour
+
+{equipment-preview-type}доспехи
+%%%%
+{equipment-preview-type}wand
+
+{equipment-preview-type}палочка
+%%%%
+{equipment-preview-type}scroll
+
+{equipment-preview-type}свиток
+%%%%
+{equipment-preview-type}jewellery
+
+{equipment-preview-type}украшение
+%%%%
+{equipment-preview-type}potion
+
+{equipment-preview-type}зелье
+%%%%
+{equipment-preview-type}book
+
+{equipment-preview-type}книга
+%%%%
+{equipment-preview-type}staff
+
+{equipment-preview-type}посох
+%%%%
+{equipment-preview-type}orb
+
+{equipment-preview-type}сфера
+%%%%
+{equipment-preview-type}miscellaneous
+
+{equipment-preview-type}устройство
+%%%%
+{equipment-preview-type}corpse
+
+{equipment-preview-type}труп
+%%%%
+{equipment-preview-type}gold
+
+{equipment-preview-type}золото
+%%%%
+{equipment-preview-type}rune
+
+{equipment-preview-type}руна
+%%%%
+{equipment-preview-type}gem
+
+{equipment-preview-type}самоцвет
+%%%%
+{equipment-preview-type}talisman
+
+{equipment-preview-type}талисман
+%%%%
+{equipment-preview-type}gizmo
+
+{equipment-preview-type}изобретённое устройство
+%%%%
+{equipment-preview-type}bauble
+
+{equipment-preview-type}безделушка
+%%%%
+{equipment-preview-type}ring
+
+{equipment-preview-type}кольцо
+%%%%
+{equipment-preview-type}amulet
+
+{equipment-preview-type}амулет
+%%%%
+"{shield-encumbrance}slightly "
+
+"{shield-encumbrance}немного "
+%%%%
+"{shield-encumbrance}greatly "
+
+"{shield-encumbrance}сильно "
+%%%%
+{acquire-action}Assemble
+
+{acquire-action}Собрать
+%%%%
+{acquire-action}Acquire
+
+{acquire-action}Получить
+%%%%
+Wands
+
+Палочки
+%%%%
+wands
+
+палочки
+%%%%
+wand
+
+палочка

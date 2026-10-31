@@ -2521,20 +2521,20 @@
       "translation_sha256": "f0dd7df488bcf69c6abb3f1e3e17893903ef3435777701f1cb31aa27d6cbb22b"
     },
     "Your spells cost less MP as you Rev up. Whenever you cast a spell, you make a melee attack against a random enemy in range.": {
-      "context": "describe.cc",
-      "translation_sha256": "a810693c79731213e2004c8b1585c862cd88ea4d0e382d325c38716ff734a977"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "50970ca022a9baa4f037942e38bbd1eda7374fe197c0315f0c533c541ac32f4f"
     },
     "Your evocable items recharge 30% faster and wands have a 30% chance to not spend a charge.": {
-      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "6e93dfb3700a9f2fb926d1491d515cbbc702fd3ebd98915f9fd000c992c33742"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "7fe11c773ec5a312a3b6fd5841379e7cd0ab9594f54e87686a26f43647599856"
     },
     "Your AC increases as you Rev (up to +5) and while fully Revved, your attacks may disarm enemies.": {
-      "context": "describe.cc",
-      "translation_sha256": "851c9de30c7b703f04232688fd8de6746266a5400d6fa9ec96eb557842c7fc5e"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "8f2b622d85cd221d5bedb09a42c1dad17836086c31e691d7665a91a664b27686"
     },
     "It sometimes fires a blinding ray at enemies whose attacks you dodge.": {
-      "context": "describe.cc",
-      "translation_sha256": "066cb615e7e26e2e153281626f39e3fa2a8d8aa558de2c5043a1ff963d1386e2"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "83c31cdddc913dc258713044e266704e7f430e52c4a53d8c1d7b70488ad29271"
     },
     "[<w>!</w>]: <w>Description</w>|Quote": {
       "context": "describe.cc",
@@ -6221,8 +6221,8 @@
       "translation_sha256": "3606ee485a0ed3fef935b2627811e7d85bfb92ec8869e88b879e78b498fe8388"
     },
     "Choose an item to acquire.": {
-      "context": "acquire.cc",
-      "translation_sha256": "c41d922f33b27ad98cad9d11097257d6c53b2f998746f8c2256e33837e2e874e"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "4e14c947728c583cc597a8821ebdc1649af28594f4c6915946ece0045bd375bc"
     },
     "[Esc/R-Click] exit": {
       "context": "acquire.cc",
@@ -6237,12 +6237,12 @@
       "translation_sha256": "89356a4d70b11e5c2b5451d5d61b9c08258ece65b35e7a1f9aa65a4fc2dc012e"
     },
     "select item for acquirement": {
-      "context": "acquire.cc",
-      "translation_sha256": "377509e0e91364eb9cc168a29923ad80f35506556df86391cff2bb19fb165823"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "fc03af788a9311b9ae5b8d3930309f26cb62e000591d8edd56cafdae7ad21155"
     },
     "examine item": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
-      "translation_sha256": "c5771b7522eb17932914a6b9640186aca2fb9cd6954d86d707a03215e29994b4"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "3bc6f1295fdd831e1af681bb142aad77ef496174bea9e838b94c8a305851843b"
     },
     "Acquire @arg1@? (@arg2@/@arg3@)": {
       "context": "acquire.cc",
@@ -25117,8 +25117,8 @@
       "translation_sha256": "c833791df63acae7dfd0ab6ed0c5edefe62b5cae8de45b2b40de322421685513"
     },
     ") - weapons     ( - missiles  [ - armour  / - wands    ?  - scrolls": {
-      "context": "wiz-item.cc",
-      "translation_sha256": "ea02bab73fca15a69b4530a6aa222c24ea0ef670f1beae4e0f57e7c8655ff4be"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "39355baac9cf73bd1d8ffc12f0024e138762491d17b264147896fddb549de057"
     },
     "= - jewellery   ! - potions   : - books   | - staves   }  - miscellany": {
       "context": "wiz-item.cc",
@@ -26521,15 +26521,15 @@
       "translation_sha256": "401aa52cff727f587293f029d7c3c2d73145d31a3a27d8b936a486282d58be8d"
     },
     "If you transformed using this talisman:": {
-      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
       "translation_sha256": "0fc169546a60bc255d7d6240db1026e403bee20b9a6252020f9d6b347d0fae67"
     },
     "If you were wearing this ring:": {
-      "context": "describe.cc / skill targets, projected defences and spell failure",
-      "translation_sha256": "aad612d461e5fc7e2c65f3a8f9513916aa1445e33eba502ae46729e8689d7473"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "261e5edb4ff6b7ce75ecb7d6d988ba8e1f021b34001bc7e5beb50fc2c551a6eb"
     },
     "If you switch to wielding this weapon in your main hand:": {
-      "context": "describe.cc / skill targets, projected defences and spell failure",
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
       "translation_sha256": "1217cfa9a8e9e17cd8879eedf2fb7394cd2d9bfccbcc4f94bee589726fab4a34"
     },
     "If you mastered this skill, your spell failure would improve:": {
@@ -26741,7 +26741,7 @@
       "translation_sha256": "1da818dc62b54f6a5f5e66203dc3b307ceec7f9a3821b40f4e8eac12d9e10440"
     },
     "It has a curse placed upon it.": {
-      "context": "describe.cc / weapon, shield and device mechanics",
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
       "translation_sha256": "b32b4aecdb8e9676f7108f6caec27266c7bee9c901545d7f20631f41c290012e"
     },
     "Once activated, this device is rendered temporarily inert.": {
@@ -27969,8 +27969,8 @@
       "translation_sha256": "2bc125366315703767615f4bbd7350054d987bcb4db20631be706ea59fcea516"
     },
     "<lightgrey>/</lightgrey> : wands (e<w>%</w>oke)": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
-      "translation_sha256": "381bb485a667d89432f67fcf3555de1dcf2325bcf4900c883192b1e2cda56355"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "e3aae89b440d8afce2d3d9a0ebb147333fdf55eedc512d5ac06c88f580a87479"
     },
     "</lightcyan> : books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,": {
       "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
@@ -28301,8 +28301,8 @@
       "translation_sha256": "4437435419faa53a4e5871b19e7577a4efb7c7789208170a22462f7fbb024a49"
     },
     "eVoke wand and miscellaneous item": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
-      "translation_sha256": "6d20171a4c200c196951c0379e3794763a46c5bd4dc8987748bc2da867b1c433"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "5035df227de85920f8a3066e74972c09ecf74be0fb15f8beacb8d36c3aa9117d"
     },
     "<w>%</w>/<w>%</w> : Equip or Unequip an item": {
       "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
@@ -28409,8 +28409,8 @@
       "translation_sha256": "fa289d1c617469e9bfcc180d662f6850927d14477b6d275c8319942918819367"
     },
     "<console><lightgrey>/</lightgrey> : </console>wands (e<w>%</w>oke)": {
-      "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
-      "translation_sha256": "3ae370c3a606e9c96148ada6f187228daa9ed69effc74aac07883040e3e2f322"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "0b6118d4ba4e844f12f2565113792c385fe129f81c0a75cb4695fde333ccafcd"
     },
     "</lightcyan> : </console>books (<w>%</w>emorise, <w>%</w>ap, <w>%</w>ap,": {
       "context": "command.cc:_add_formatted_keyhelp/_add_formatted_hints_help; directn.cc:print_key_hints; shopping.cc:ShopMenu::update_more",
@@ -28933,8 +28933,8 @@
       "translation_sha256": "dd7c8ccaf98442da463ffa25e3f81b2c4ebdbc8dc13c4b104dc45adf77f4718f"
     },
     "You cannot afford this item; travel there anyway? (y/N)": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "2ea40afd4280b64a12aa1fd9b764f8431dfd98e8f2146d7f1275d3e52ccf5f6e"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "7a8504fe21ef476690659dc2e84cf749608d8149a976f121a687fdbbc5567bff"
     },
     "You now have enough gold to buy @item@": {
       "context": "shopping.cc:ShopEntry; ShopMenu; ShoppingListMenu",
@@ -31133,12 +31133,12 @@
       "translation_sha256": "043af19317f417c4f39ae00f2b22735259e4e05f54fd8c7c26a84c1b3a008231"
     },
     "{unrand-prop}Wandboost": {
-      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "de4c566e50de20f094ab8a39f0e92b1f4865665e4724c24d48326af4d3f7b5db"
+      "context": "gloves of the gadgeteer DESCRIP: Wandboost increases wand power, not lightning rods. Canonical wand names in terms.json use палочка.",
+      "translation_sha256": "150e31c4605c05430b2656459ffbc151bef9e9c3d6a4bf2e1f13a675b511d35b"
     },
     "Your wands are more powerful.": {
-      "context": "art-data.txt:gloves of the gadgeteer:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "2b3b63a7d5d31bbf14e4bf1567926e6340a8813c750741cf00d61f81054ea45b"
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "d6a93818459acac0ef86e7103174cd5de4fa1c4b60a0db658d3b5a87e4dfc0e5"
     },
     "It massively reduces your stealth.": {
       "context": "art-data.txt:Charlatan's Orb:DBRAND; current ability, condition, cost and exceptions checked",
@@ -31737,8 +31737,8 @@
       "translation_sha256": "316b38291c9c79505fa802e8755b5624f1e6e67d8defd04e00ea3bdb02c556b1"
     },
     "{item-inscription}Wandboost": {
-      "context": "art-data.txt: terse item property; display only, raw inscription preserved",
-      "translation_sha256": "9796bab24a1b18207e8ef41ad9d2aa8126132edc80252d524d86519910878e17"
+      "context": "The same Wandboost property label in item annotations; raw artefact property IDs and generated item names remain English.",
+      "translation_sha256": "bb971d1529fdf953aaa0e342d21047cd65c911f69b7dcb911227b2b1afed751e"
     },
     "{item-inscription}orb": {
       "context": "art-data.txt: terse item property; display only, raw inscription preserved",
@@ -38451,6 +38451,354 @@
     "{spell-fail-condition}If you trained 1 level of this skill": {
       "context": "describe.cc _spell_fail_change_list: item equip/removal and one-level/mastery skill projections. Whole heading translated before condition substitution; spell names translated before the existing 32-character column limit. Spell IDs, sorting, colour thresholds and before/after percentages unchanged.",
       "translation_sha256": "acd5c2b45e0f9471c4c6332731da0e6a90a87824b6bea789a0cd127edbf1f3dc"
+    },
+    "the equivalent of %d.%d XLs": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "ff633ccd245a47ad28007b6a5a727b0fc9b34951d9eb2e2ec5ecd4c2424a9cba"
+    },
+    "about %d.%d XLs": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "cc06a18bb009e932f9fc0c8ef7a8f3bf67d1ffdce532039945b34d1b225b4c68"
+    },
+    "At 100% training ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "3f66cfc7c4a122113df2884f1e9e8cf47dd8da5bad047f1427a0ea218a9cbfb6"
+    },
+    "At current training (%d%%) ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "841bca99a33707e4617539323479c263cfca630bfbbdb0d4ad669baf28638d85"
+    },
+    "At a training level of %d%% ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "d3a478a9e00cd1e27d72c86542d7a8a7626dc61e8279000fc63715d68d6ea978"
+    },
+    "you would reach %d.%d in %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "1365cc9a78a64724b0cc7ef826d89009ac24f0a7f80d55af02ceb56d27897dde"
+    },
+    "you reach %d.%d in %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "1365cc9a78a64724b0cc7ef826d89009ac24f0a7f80d55af02ceb56d27897dde"
+    },
+    "You cannot currently reach %d.%d.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "128a473ddb62e5abb24d3d26c362a3b137eeb46f8d3fe551ffa53ea30b12c74d"
+    },
+    "If you %s this %s:": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "6ff895fb56ef2f802e5a14bc6c658222283d2c77bda4028b3073ab8bd6b51ef6"
+    },
+    "If you switch to %s this %s:": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "6ff895fb56ef2f802e5a14bc6c658222283d2c77bda4028b3073ab8bd6b51ef6"
+    },
+    "Your AC would %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "e1358e5bd6a320fa967daf88cca137f4e3213655e7b0d2920e7033ffbc575708"
+    },
+    "Your EV would %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "746a13581faf6c3c2c96540fc7067721d0ec29f7db9eb50070bf20cd2cb12781"
+    },
+    "Your SH would %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "91e9403a19351b8960d600a629cc5cb271d38d53b54af058cd8e4bc917e4c915"
+    },
+    "Your attack delay would %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "7c6cca035ce1c85adf6d3bd214fa9d7e96dad3307e43d31663a15cb2e38c55db"
+    },
+    "This %s is completely useless to you": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "cce41d8d36e738a8c3679b51f98d62312c74d30580e5ac1e9b1ff69771802c35"
+    },
+    "This %s is useless to you right now": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "394894a9ea2043220b1af3cc5796b4f4d08558694003cadb3103ae861db9724f"
+    },
+    "Reading this right now isn't possible": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "aaa79fd4eec9f9f7f1a54ba0a1747b77c24631a67be7a0d825b6dfb25170b106"
+    },
+    "Reading this right now will have no effect": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "3314c305cc81c9e23b6aee3717ea4020446e9141097769ef661e8bc1eeb5f0d5"
+    },
+    "Drinking this right now isn't possible": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "da87bc7bc9f480d11377725690374c19667046ff35aefab2150b469fe72adec1"
+    },
+    "Drinking this right now will have no effect": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "ff1ae03ccba7db21ad2f8194cc9433fb8f536ee8bb3fc438671338047104d4db"
+    },
+    "You can't evoke this right now": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "035bdfdabf4675f33408bb3430a39d331fc88de222aaf387d4ecd6d0abae0b10"
+    },
+    "Spell refund chance: %d%% (max %d%%)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "5b82c4809e2b053258a3083c2efb27efe96d35bb47a4a34c767bb258710f56d9"
+    },
+    "Enemy Willpower: -%d (max -%d)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "af08253e9bb1f241d34fe4eeb70df73c07b1c3d77c5f29ede135b27c31727b09"
+    },
+    "Vitrify chance: %d%% (max %d%%)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "f9e9320d9f8cbcf0a84ac9b5fcc8af57e878c059ed13f4ee138e6eca0b9833c6"
+    },
+    "Explosion chance: %d%% (max %d%%)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "efd30f2b98770db59e171113f37f52108ff7362eff8fa714195f468c8f8e17a9"
+    },
+    "Explosion damage: %dd%d (max %dd%d)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "12470416595487005773c85cac3e06c028297dab70c2fb4de7652d51a01ee713"
+    },
+    "Base shooting star damage: %dd%d (max %dd%d) + 25%% per MP spent": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "4db503a8ffac845128bf30f04ce0f9fec0316ff95ad7005f4ec39be530620bfa"
+    },
+    "Shooting stars conjured: 1 + 1 per visible enemy, up to %d (%d at max skill)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "81be2b2ff50591dd0ae6a9f2ad76e0b6e99b73121f0e4286044e9687afe53156"
+    },
+    "Mesmerism radius: %d (max %d)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "d054cd140857f4d1350126f014e260251aa866cfdea25cf181e3c29e8c6d7a05"
+    },
+    "With your current SH, its chance to reflect attacks against your willpower and other normally unblockable effects is %d%%.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "8348ae7c78020ac49335ad523e3f24ed535f824a9dd2e5581b3e57c3e01727d0"
+    },
+    "It is cumbersome to wear, and %simpedes the evasion, spellcasting ability, and attack speed of the wearer. These penalties are reduced by the wearer's Shields skill and Strength; mastering Shields eliminates penalties.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "26c66aa7971c536bdd7c238060fe5c78d688b7eaf712a6a45fe40765f07c6764"
+    },
+    "Base shield rating: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "f6109a1e2365a231259b46426e4c42f60411f7be3c9cd51dd72d3923e7ec0d88"
+    },
+    "     Encumbrance rating: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "83076d8b5d9dde04362e0c7208fb4fc86bb9bed25ba2f0f5b4a16cf2434a6a3c"
+    },
+    "     Max blocks/turn: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "21012c98b44bfd1711132cac62a9e83118890f07e07e44dcc1728a322964d1e9"
+    },
+    "Base armour rating: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "5cdade4f4d02fb3b335cf916c044a7971ad3180aeee460c3bb11b146f4d9c589"
+    },
+    "       Encumbrance rating: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "1684f3713c320b1c300fa44909a1466ac823c9ade52e556981c3635809c8c41a"
+    },
+    "       Evasion: ": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "39f5c8e08664235bec6b611809751328689fa551f841840397dc9386b3ca6aea"
+    },
+    "It bears a divine curse which improves your skill at %s.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "a30b73acebcb7a9326e41c2bb3f0ac81e96a63e60d22a6600002056640315ffa"
+    },
+    " (you have %d gold)": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "92dc4a57684fab8aeebb164173223a113e16ef1d38dd8af05c9250621aa1c19a"
+    },
+    "Choose a gizmo to assemble.": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "902f702ac21cccfe406ec3fbad3d9e908e2cb32c508f146383925255630e834f"
+    },
+    "<%s>%s %s? (%s/N)</%s>": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "5c744e57bc0e72ef14d42fa0b4282a2224f9ffe5f27fce795e9abccfe262bb0e"
+    },
+    " <w>assemble</w>|examine gizmo": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "686b1330b6f6d78361904a6cfb55b460312d97be9586d0ea4c93fb94c4fb1560"
+    },
+    " assemble|<w>examine</w> gizmo": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "5339c9acb5d720a7f6d16c50ada3a4b130b6b73bc79408dd6f0e4b52840dacb6"
+    },
+    "select gizmo to assemble": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "51e44fe0c5b076d6cc3b41b6e2b514a132604588785fb6d65e3802450fdecd20"
+    },
+    "examine gizmo": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "9cd4177fc78310f81f1549b526abccdda7a054ae2aecbe77bcc52a7b8d45fa6c"
+    },
+    " <w>acquire</w>|examine items": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "b6a85e1c2565608c63640db2992e4a435c381feb2b36e86e963d54892c1dbce4"
+    },
+    " acquire|<w>examine</w> items": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "c66c5931e17b00e5f5173cd87cefed2f51d1166714df3d2240feb45d4773d20c"
+    },
+    "<yellow>You have %d gold pieces and a voucher.</yellow>": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "c2b92a576406727d914ce738850b190b5df537ab7526131ae9e5d9f31719732f"
+    },
+    "<yellow>You have %d gold pieces</yellow>": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "4ee8801d75abdc3656932368c4bef3cd045c57f6f534091016b48bdd9aed9930"
+    },
+    "Travel to: %s": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "cce7c14d3960032db83f1ed1b4498bb0a00415417bbaf8eade7f0c3ac856ef74"
+    },
+    "{equipment-preview}increase by %.1f": {
+      "context": "describe.cc _describe_point_change/_describe_point_diff, display-only comparison phrases. Verbs describe numerical direction, not whether a change benefits the player. A delta rounded to zero uses neutral change rather than a decrease. Precision, scaling and all compared values stay unchanged.",
+      "translation_sha256": "6f3bd98fa0c3669b84b85e8ee8dab02f38de190f3ae8854d78371628ee59368f"
+    },
+    "{equipment-preview}decrease by %.1f": {
+      "context": "describe.cc _describe_point_change/_describe_point_diff, display-only comparison phrases. Verbs describe numerical direction, not whether a change benefits the player. A delta rounded to zero uses neutral change rather than a decrease. Precision, scaling and all compared values stay unchanged.",
+      "translation_sha256": "6d983497764f1cd2af572e073f6932a58be02864705d6db89120a9fe15497686"
+    },
+    "{equipment-preview}change by %.1f": {
+      "context": "describe.cc _describe_point_change/_describe_point_diff, display-only comparison phrases. Verbs describe numerical direction, not whether a change benefits the player. A delta rounded to zero uses neutral change rather than a decrease. Precision, scaling and all compared values stay unchanged.",
+      "translation_sha256": "1983e35784286f27c4aaef01ab0399ff67c9552dca40b1abd59671d08d0bd4f3"
+    },
+    "{equipment-preview}remain unchanged": {
+      "context": "describe.cc _describe_point_change/_describe_point_diff, display-only comparison phrases. Verbs describe numerical direction, not whether a change benefits the player. A delta rounded to zero uses neutral change rather than a decrease. Precision, scaling and all compared values stay unchanged.",
+      "translation_sha256": "38ecfe769b13d3d5beef4479038ec9b811794b6192c73022c4f49e632dace601"
+    },
+    "{equipment-preview-action}take off": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "c59f72fe3252f3b089838aaa04f72e5c4c23b9346b24f5ec9e3ac755ba777949"
+    },
+    "{equipment-preview-action}remove": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "c59f72fe3252f3b089838aaa04f72e5c4c23b9346b24f5ec9e3ac755ba777949"
+    },
+    "{equipment-preview-action}unwield": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "1777731aa768b8ddca3f531241842b3273d407f2ef0ec421b0dca3894140d850"
+    },
+    "{equipment-preview-action}unequip": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "c59f72fe3252f3b089838aaa04f72e5c4c23b9346b24f5ec9e3ac755ba777949"
+    },
+    "{equipment-preview-action}wielding": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "948134100f94c26a794432f02d461bf3c7606dfe77485e33ef64151d41eb4d1c"
+    },
+    "{equipment-preview-action}wearing": {
+      "context": "Display-only infinitives in equipment comparison headers. Raw item_unequip_verb and switch-operation names remain English for gameplay and other callers.",
+      "translation_sha256": "5ce7255d3e0ebe02f0d8cab15c4edca27c57d3d2417bedd07085fade6556e83c"
+    },
+    "{equipment-preview-type}weapon": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "0e98769dd8e197ab4bceb026f78d4ae9792aaf71b465aaa20abbfb198a183d23"
+    },
+    "{equipment-preview-type}missile": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "ad48644dbd048dc284034575feaa7b17be2d9c06be9d9360524d8fdbf90b1d5f"
+    },
+    "{equipment-preview-type}armour": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "3f6eee76934915ae9281d52194d121dccbe643cd28754e6de88217f7741e3696"
+    },
+    "{equipment-preview-type}wand": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "dfbe869a992dd9a0da02735b1324627e3f12980af7a23924d208da6639ad4d25"
+    },
+    "{equipment-preview-type}scroll": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "b83d818cf717d8b4f9bda8be9c96315f3887f0deb5066166d5bf193dc9ff9742"
+    },
+    "{equipment-preview-type}jewellery": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "2f690d89ea0972832bb88d118883a6be3c513347b6b5647efeb4ca50a64aaf08"
+    },
+    "{equipment-preview-type}potion": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "88602af252f838a791b6aba3bee1f858e4979757480670872727f3342c9a3bf5"
+    },
+    "{equipment-preview-type}book": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "4acd1698b88c4b1cdcc2314660898ffcad38fb68d32498d23daa58e55b606ba7"
+    },
+    "{equipment-preview-type}staff": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "8e4e19bf40ab32df6093e3481cc5bd8fc73de62018af4dfff298b72226e5d155"
+    },
+    "{equipment-preview-type}orb": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "d5d701e4bc0e650d7296a5ba227321db73a8de415c5701e1e24e96734f0fb6fe"
+    },
+    "{equipment-preview-type}miscellaneous": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "85d000fac1e04317d470ee0d1cf358f6c761af6c6ce20e50e3921859d2f22f2c"
+    },
+    "{equipment-preview-type}corpse": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "b3d1019b10b6d7aa4ab9c730c1d7e9ae8f16c11d4882ec1092874693f338b1f7"
+    },
+    "{equipment-preview-type}gold": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "09220df0620c9fccfff065977cba7ecded5673f0275a0ab61ceb68684b5d1cbb"
+    },
+    "{equipment-preview-type}rune": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "fd89e5ee181dbb1182172ff8e990ecb37620c9820c1c9fc189e0bf1e24585356"
+    },
+    "{equipment-preview-type}gem": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "74bf35e1e561d712bc662075e7bb7720526d2c8be7e609c4ee84e1a7ab733302"
+    },
+    "{equipment-preview-type}talisman": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "2aa7b6d65de073ce175e99cf3293f2145fba61e57107bb95e9ec31e1b86997aa"
+    },
+    "{equipment-preview-type}gizmo": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "8bd53c5709b6b362f0f84748c872e0e3de4ed620d617ecd4e0ea71c1205403e7"
+    },
+    "{equipment-preview-type}bauble": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "31c65861979dae13e848afdd74daee9c89f6a08a83d8a0b6405e566f7c411b7f"
+    },
+    "{equipment-preview-type}ring": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "c1ada2ea472d5ce2768bf361065967af9137e20228b79a129143da850f677385"
+    },
+    "{equipment-preview-type}amulet": {
+      "context": "Item class labels in parenthesized equip/removal/usefulness headers; no change to raw base_type_string, lookup names or item class IDs.",
+      "translation_sha256": "6945323e3b7f6ccf4f559f062dfaa576e49329f2dcf3f5d0dbb7661aa07d14db"
+    },
+    "{shield-encumbrance}slightly ": {
+      "context": "Degree prefix immediately before impedes in the complete shield warning; empty degree stays empty, nonempty degrees keep their trailing space.",
+      "translation_sha256": "66c9b2fb9bf7fc1974aef9aa556fe4819ea1660cac4417a41ad57f118d28802f"
+    },
+    "{shield-encumbrance}greatly ": {
+      "context": "Degree prefix immediately before impedes in the complete shield warning; empty degree stays empty, nonempty degrees keep their trailing space.",
+      "translation_sha256": "9fe6408b22a9a2bdf42c5d9d3fafb5b3fa5da00675af8a00964c0251d49d5150"
+    },
+    "{acquire-action}Assemble": {
+      "context": "AcquireMenu confirmation only, infinitives before a colon and literal item name. Command letters and yes/no options remain unchanged.",
+      "translation_sha256": "90ced77b726ffdd0dfc082a20aaf49f7e439313eccb133dd7a2b5bbedf009793"
+    },
+    "{acquire-action}Acquire": {
+      "context": "AcquireMenu confirmation only, infinitives before a colon and literal item name. Command letters and yes/no options remain unchanged.",
+      "translation_sha256": "156d1a427f7ab6821506a45c97497373d89f569b1fad1f4773d19c58138b711d"
+    },
+    "Wands": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "1d142619a57656ecdb6b9148f43f90a9c31dd9f3da15e4c237b66281275ce0c8"
+    },
+    "wands": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "efd6da958696dc978b0c61b8b90c429dff5afc098cc61d03f1bb2256c0c74edd"
+    },
+    "wand": {
+      "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
+      "translation_sha256": "0e26d6dfe8c0672c1015318693495b0a1953ddeb2d1de4a486f7a74cb26913f5"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -35,6 +35,7 @@
 #include "invent.h"
 #include "known-items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "notes.h"
@@ -1450,7 +1451,7 @@ class AcquireEntry : public InvEntry
         const string itemstr =
             colour_to_str(menu_colour(text, item_prefix(*item), tag, false));
         const string gold_text = item->base_type == OBJ_GOLD
-            ? make_stringf(" (you have %d gold)", you.gold) : "";
+            ? make_stringf(localise(" (you have %d gold)").c_str(), you.gold) : "";
         return make_stringf(" <%s>%c %c </%s><%s>%s%s</%s>",
                             keystr.c_str(),
                             hotkeys[0],
@@ -1486,9 +1487,9 @@ AcquireMenu::AcquireMenu(CrawlVector &aitems, string ikey,
     init_entries();
 
     if (is_gizmo)
-        set_title("Choose a gizmo to assemble.");
+        set_title(localise("Choose a gizmo to assemble."));
     else
-        set_title("Choose an item to acquire.");
+        set_title(localise("Choose an item to acquire."));
 }
 
 static void _create_acquirement_item(item_def &item, string items_key,
@@ -1584,10 +1585,10 @@ string AcquireMenu::get_keyhelp(bool) const
         auto& entry = *selected[0];
         const string col = colour_to_str(channel_to_colour(MSGCH_PROMPT));
         help = make_stringf(
-               "<%s>%s %s? (%s/N)</%s>\n",
+               localise("<%s>%s %s? (%s/N)</%s>\n").c_str(),
                col.c_str(),
-               is_gizmo ? "Assemble" : "Acquire",
-               entry.text.c_str(),
+               localise_in_context("acquire-action", is_gizmo ? "Assemble" : "Acquire").c_str(),
+               localise(entry.text).c_str(),
                Options.easy_confirm == easy_confirm_type::none ? "Y" : "y",
                col.c_str());
     }
@@ -1603,11 +1604,11 @@ string AcquireMenu::get_keyhelp(bool) const
         //[Esc/R-Click] exit
         "<lightgrey>%s%s  %s %s</lightgrey>",
         menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str(),
-        menu_action == ACT_EXECUTE ? " <w>assemble</w>|examine gizmo" :
-                                     " assemble|<w>examine</w> gizmo",
+        localise(menu_action == ACT_EXECUTE ? " <w>assemble</w>|examine gizmo" :
+                                     " assemble|<w>examine</w> gizmo").c_str(),
         hyphenated_hotkey_letters(item_count(), 'a').c_str(),
-        menu_action == ACT_EXECUTE ? "select gizmo to assemble"
-                                   : "examine gizmo");
+        localise(menu_action == ACT_EXECUTE ? "select gizmo to assemble"
+                                   : "examine gizmo").c_str());
     }
     else
     {
@@ -1616,11 +1617,11 @@ string AcquireMenu::get_keyhelp(bool) const
             //[Esc/R-Click] exit
             "<lightgrey>%s%s  %s %s</lightgrey>",
             menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str(),
-            menu_action == ACT_EXECUTE ? " <w>acquire</w>|examine items" :
-                                        " acquire|<w>examine</w> items",
+            localise(menu_action == ACT_EXECUTE ? " <w>acquire</w>|examine items" :
+                                        " acquire|<w>examine</w> items").c_str(),
             hyphenated_hotkey_letters(item_count(), 'a').c_str(),
-            menu_action == ACT_EXECUTE ? "select item for acquirement"
-                                    : "examine item");
+            localise(menu_action == ACT_EXECUTE ? "select item for acquirement"
+                                    : "examine item").c_str());
     }
     return pad_more_with_esc(help);
 }

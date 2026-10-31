@@ -2393,11 +2393,9 @@ public:
     string get_keyhelp(bool) const override
     {
         const bool voucher = have_voucher();
-        string s = make_stringf("<yellow>You have %d gold pieces%s</yellow>\n"
-                                "<lightgrey>", you.gold,
-                                voucher ? " and a voucher." : "");
-
-        s = localise(s);
+        string s = make_stringf(localise(voucher
+            ? "<yellow>You have %d gold pieces and a voucher.</yellow>\n<lightgrey>"
+            : "<yellow>You have %d gold pieces</yellow>\n<lightgrey>").c_str(), you.gold);
         if (view_only)
             s += localise("Choose to examine item  ");
         else
@@ -2571,9 +2569,9 @@ void ShoppingList::display(bool view_only)
             if (cost > you.gold)
             {
                 string prompt =
-                   make_stringf("Travel to: %s\nYou cannot afford this item; travel there "
-                                "anyway? (y/N)",
-                                describe_thing(*thing, DESC_A).c_str());
+                   make_stringf(localise("Travel to: %s\nYou cannot afford this item; travel there "
+                                "anyway? (y/N)").c_str(),
+                                localise(describe_thing(*thing, DESC_A)).c_str());
                 clrscr();
                 if (!yesno(prompt.c_str(), true, 'n'))
                     return true;
