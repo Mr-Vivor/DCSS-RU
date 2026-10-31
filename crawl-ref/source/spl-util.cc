@@ -26,6 +26,7 @@
 #include "item-prop.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "mon-cast.h"
@@ -371,14 +372,14 @@ bool add_spell_to_memory(spell_type spell)
         }
 
     if (you.num_turns)
-        mprf("Spell assigned to '%c'.", index_to_letter(letter_j));
+        mprf(localise("Spell assigned to '%c'.").c_str(), index_to_letter(letter_j));
 
     // A hint, for those who may not be aware.
     if (spell == SPELL_SPELLSPARK_SERVITOR)
     {
         mprf(MSGCH_TUTORIAL,
-             "(You may use Imbue Servitor from the <w>%s</w>bility menu to change "
-             "which spell your servitor casts.)",
+             localise("(You may use Imbue Servitor from the <w>%s</w>bility menu to change "
+             "which spell your servitor casts.)").c_str(),
                 command_to_string(CMD_USE_ABILITY).c_str());
     }
     else if (spell == SPELL_PLATINUM_PARAGON)

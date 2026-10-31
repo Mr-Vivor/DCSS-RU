@@ -336,6 +336,7 @@ def main():
                     }""")
                     spell_page.keyboard.type("Y")
                     spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.wait_for_function("document.body.innerText.includes('Заклинанию назначена клавиша')")
                     spell_page.keyboard.type("I")
                     spell_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Множественная атака")
                     spell_row.wait_for()

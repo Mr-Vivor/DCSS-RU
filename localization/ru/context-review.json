@@ -16129,7 +16129,7 @@
       "translation_sha256": "8ed6fe58ae93da8d95b1dda54304c0002f9de08cfa835a8395dbf367b3ca67fa"
     },
     "Spell assigned to '%c'.": {
-      "context": "spl-util.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "f6a02ce6da1a9b43965fdf43bbd2a36e7e5a34cdcb3a4759a0bd08b7a5d51298"
     },
     "Apport": {
@@ -32859,6 +32859,10 @@
     "Training only this spell's schools cannot reduce its failure rate to %d%%.": {
       "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "cf2946cd80374271f7985207033713d2ce36fcb6171dd2bd6b8d654cf781bad4"
+    },
+    "(You may use Imbue Servitor from the <w>%s</w>bility menu to change which spell your servitor casts.)": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "fa5b8e541aa426a5de27cf3ffb69fbea0c9377584f5c3670a36c5ea3e5cf1977"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

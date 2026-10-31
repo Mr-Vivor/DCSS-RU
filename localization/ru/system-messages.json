@@ -8306,5 +8306,6 @@
   "{target-menu}target/travel": "{target-menu}наведение/переход",
   "With your current stats and equipment, training %s to %d.%d would reduce your failure rate to %d%%.": "С текущими характеристиками и снаряжением развитие «%s» до уровня %d.%d снизило бы вероятность неудачи до %d%%.",
   " This would take %s.": " Для этого потребуется %s.",
-  "Training only this spell's schools cannot reduce its failure rate to %d%%.": "Одного развития школ этого заклинания при текущих характеристиках и снаряжении недостаточно, чтобы снизить вероятность неудачи до %d%%."
+  "Training only this spell's schools cannot reduce its failure rate to %d%%.": "Одного развития школ этого заклинания при текущих характеристиках и снаряжении недостаточно, чтобы снизить вероятность неудачи до %d%%.",
+  "(You may use Imbue Servitor from the <w>%s</w>bility menu to change which spell your servitor casts.)": "(Заклинание будущих слуг можно сменить способностью «Наделить слугу заклинанием» в меню способностей — <w>%s</w>.)"
 }

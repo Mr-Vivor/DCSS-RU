@@ -729,6 +729,8 @@ TEST_CASE("Russian spell expansion preserves mechanics and configurable reminder
           == "Нельзя поменять предка местами с самим собой.");
     CHECK(localise_in_context("target-menu", "target/travel") == "наведение/переход");
     CHECK(localise("target") == "цель");
+    CHECK(make_stringf(localise("Spell assigned to '%c'.").c_str(), 'b')
+          == "Заклинанию назначена клавиша 'b'.");
     CHECK(make_stringf(localise("With your current stats and equipment, training %s to %d.%d would reduce your failure rate to %d%%.").c_str(),
                        localise("Translocations").c_str(), 17, 9, 10)
           == "С текущими характеристиками и снаряжением развитие «Перемещения» до уровня 17.9 снизило бы вероятность неудачи до 10%.");
