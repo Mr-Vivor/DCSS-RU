@@ -4393,5 +4393,971 @@
       },
       "wiki_text": "Бронзовая кираса мастерской работы. Вся покрыта религиозными изображениями, но середину сцены скрывает большое тёмное пятно пепла и соли. От него сильно пахнет пеплом и солью. Носить её кажется каким-то кощунством."
     }
+  },
+  "features": {
+    "The endless lava": {
+      "source_sha256": "8855b3068990631eb82fb88f2fab2c7487e5dea24666d16b87ffa4280bcc2fec",
+      "text": "Море огня и серных испарений до самого горизонта. Любой, кто попытается его пересечь, мгновенно изжарится.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "The floor": {
+      "source_sha256": "5213c847a48c8fb7d87ee8f83cd4fb25fa12221fe2915ec2e6e7e687ef608d7b",
+      "text": "Пол.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "Some deep water": {
+      "source_sha256": "91ff6fa510782c4b10a5b9b09d05b90fd5df0d372c499ae4b249b887edf3f460",
+      "text": "Глубокий водоём. Только гигантские существа могут идти по его дну, а плавать здесь способны лишь те, кто хорошо приспособлен к воде. Остальным остаётся только перелететь.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "Some lava": {
+      "source_sha256": "6b0f99019e3d5d5d8e9b0b92d80260a25cf0da251f77c7754fe516d76062c179",
+      "text": "Невыносимо горячий расплавленный камень, испускающий клубы сернистого дыма. Без полёта пересечь его способны лишь легендарные саламандры.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "Some shallow water": {
+      "source_sha256": "4686b2cfa72ec9033dc041d0352db8c683e1bd57d2a24a351ff7d2c8f709c117",
+      "text": "Мутная вода глубиной по пояс. Приспособленные к воде существа могут плавать здесь и атаковать без помех. Остальным приходится медленно брести вброд, а их ближние атаки иногда срываются из-за потери равновесия. Крупные существа сохраняют равновесие, движутся с обычной скоростью и атакуют без таких помех.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A toxic bog": {
+      "source_sha256": "ea3b961a8cb423b3a5b751fbbf46126d37b825a91d3468499181eeb9f233291e",
+      "text": "Грязная ядовитая жижа глубиной по пояс. Существо, которое бредёт или плывёт по ней, получает урон и отравляется, даже если обладает сопротивлением яду. Приспособленные к воде существа могут плавать здесь и атаковать без помех. Остальным приходится медленно брести, а их ближние атаки иногда срываются из-за потери равновесия. Крупные существа движутся с обычной скоростью и не испытывают таких помех при атаке.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "Some mud": {
+      "source_sha256": "7fb73815e8d82aab9a00eb711dd31f483be1a24c8e03feb3bdc682802b18d717",
+      "text": "Толстый слой вязкой грязи с песком. [[liquefied]]",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "The open sea": {
+      "source_sha256": "6c33d5d968144fa7ebbcea2751f8daab87681aea5f7074097e7d565e0d9bee90",
+      "text": "Бескрайние волны и ветер; ни одного маяка поблизости. Любой, кто решит отправиться в это море, вскоре потеряется без надежды на спасение.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An unnaturally hard rock wall": {
+      "source_sha256": "730684a8183a27cfac3f11c038d83ec5a1da3153eee9e40f0814465429f2cd1e",
+      "text": "Стена, укреплённая магией, которая делает её неразрушимой.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A wall of the weird stuff which makes up Pandemonium": {
+      "source_sha256": "c518e1ecaaaa298e469b0df3866af6773887abf5b1da369babf8d080f5385575",
+      "text": "Стена из странной материи, из которой состоит Пандемониум. Во всём остальном она похожа на обычную скалу.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A crystal wall": {
+      "source_sha256": "4a0e3187e20e3238ba22c6f7df7704e65e1e295d0bd3fa47cb9d8bb3e636731f",
+      "text": "Стена из полированного кристалла, насыщенного тайной магией. Чары мешают её разрушить и заставляют отражать жар и холод.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A translucent rock wall": {
+      "source_sha256": "5f4dc588d5477115b58a96119ee2ff315817a0843e0433c2a217a2ead4e7b6ec",
+      "text": "Скальная стена из минерала, прозрачного, словно хорошее стекло. Нельзя сказать, возникла ли она естественным путём или благодаря магии.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A translucent stone wall": {
+      "source_sha256": "d1e00b2d6bd25a437a900be11a223a9ecf449573b3a7da13383562efcf2522c3",
+      "text": "Более прочная преграда, чем скальная стена: разбить её способна лишь самая мощная магия. Тайные чары сделали её прозрачной.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A translucent unnaturally hard rock wall": {
+      "source_sha256": "3cc2c4125bee129b9ceda988513bc978ff149ecbc7449545ceb8ca56eb24607d",
+      "text": "Магия сделала эту стену не только неразрушимой, но и прозрачной, словно стекло.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A stone wall": {
+      "source_sha256": "fc89742d42d70be2ffea0c2e6b951122407577d00260294cc5b16153a425c3bd",
+      "text": "Более прочная преграда, чем скальная стена. Разбить её способна лишь самая мощная магия.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A slime covered rock wall": {
+      "source_sha256": "19fb8ecca75ebc1fb2c4d297bd4d2a09181e09b30e0c3ebdce85006e3ff61efd",
+      "text": "Скальная стена, покрытая едкой зелёной слизью. Даже простое пребывание рядом с ней вызывает временную коррозию.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A metal wall": {
+      "source_sha256": "1a7af4f7a61ae9344a5285badde513ebc3a5e0e5fe2e5cf2e3828a11a69de894",
+      "text": "Стена из блестящего серого металла. Как знает любой подземельный электрик, она заземляет даже магические молнии.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A rock wall": {
+      "source_sha256": "8c17d766325b9f1ca694d3122ec73e245d41455b9a635b2850fc9501ad341f82",
+      "text": "Стена из обычной горной породы.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A frigid wall": {
+      "source_sha256": "bf2695aab8dafc2f08e24bb24e20d6b3f8951599c31daed3fa23f2321b69c7e3",
+      "text": "Стена, излучающая столь сильный холод, что он может ранить стоящих рядом врагов.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A shop": {
+      "source_sha256": "d978d661a79fec3481991ee31bfc5b232e30c478481e968bd8725da8fe846782",
+      "text": "Лавка в глубинах подземелья, вдали от глаз обитателей поверхности. Ею заправляет скрытный нелюдимый торговец, который не торгуется, не принимает возвраты и не покупает ничего из ваших вещей. Некоторые лавки продают древности сомнительного происхождения, почти ничего не сообщая о качестве и свойствах товара.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A stone staircase leading down": {
+      "source_sha256": "ec0238e85e2afa2ca464635fe07023f4c4a45d175758a0a671b6e95757768e74",
+      "text": "Лестница, ведущая глубже в подземелье.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A stone staircase leading up": {
+      "source_sha256": "aadbbcc5e2e446f5f0c7a2ba1e008ff27a16213414f49f77fca3f436137d72b1",
+      "text": "Лестница, ведущая обратно наверх.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A metal staircase leading down": {
+      "source_sha256": "37ec3f02e1cecf5e6175a35d3f512687411d997053db8a151f8aa8c36168d596",
+      "text": "Лестница вниз, к великим Хранилищам, где лежит серебряная руна Зота. Их богатства привлекают на защиту самых могучих воителей со всего Подземелья.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A metal staircase leading up": {
+      "source_sha256": "8c71b3e23a98c53976dcb31e991cf127bf369e42639dc5da4d1c211a9d24287f",
+      "text": "Лестница наверх из великих Хранилищ, где лежит серебряная руна Зота. Их богатства привлекают на защиту самых могучих воителей со всего Подземелья.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A tree": {
+      "source_sha256": "2052ca5a401535c4d32d825b07bcb864c518be0aa10a885e9677255032ddff99",
+      "text": "Большое дерево. Обычно тусклого света подземелья недостаточно для крупных растений, но есть места, где милостью Федхаса под землёй вырастают деревья не меньше тех, что растут на поверхности.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A mangrove": {
+      "source_sha256": "81c8d9b3e2c6def9c34770bfaaed8adbaa8a325cd5a7b8287686aea64fd6eb5b",
+      "text": "Дерево, приспособленное к жизни в болотах. Его заросли настолько густы, что сквозь них ничего не видно.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A demonic tree": {
+      "source_sha256": "a62c196425082abc70d0f8404eda1b8b4f612e5946ce9308de6aff073bc5ac79",
+      "text": "Дерево, чудовищно искажённое демоническими силами хаоса. Несмотря на причудливый вид и редкие тревожные движения, оно кажется безобидным.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A petrified tree": {
+      "source_sha256": "f581f49d99d41e167962412bc036665a1156955740858aca30059cd9eacb7a1c",
+      "text": "Древнее дерево, давно перешедшее из мира биологии в мир геологии. Хотя оно больше не состоит из древесины, его духовная сущность осталась древесной.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An abandoned shop": {
+      "source_sha256": "23a5028ce4a52ee9c6e48c764bc850b8c2ddabd5fc5ccc7748d53a0ceb6262eb",
+      "text": "Лавка, которую покинул хозяин.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An orcish idol": {
+      "source_sha256": "c67eccea43a9bf0b033c89a6ae47366d4b15208fbdeacaff092bfaf643e0f6e9",
+      "text": "Идол Беога, бога орков.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An iron grate": {
+      "source_sha256": "668222572f4e35317bbab653ef310674e9a5c135040543a82ffe3ed0676d9493",
+      "text": "Ржавая железная решётка. Она достаточно хрупка, чтобы легко разрушиться от заклинания или волшебной палочки, но голыми руками её не сломать.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An escape hatch in the floor": {
+      "source_sha256": "a24c3490842404c70fe4d467085f9f08aeac9069bd0cd630a0ae5914a1947b6a",
+      "text": "Односторонний люк с пружинным механизмом, встроенный в пол подземелья. Он позволяет искателю приключений, окружённому врагами, сменить опасности этого этажа на опасности следующего.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An escape hatch in the ceiling": {
+      "source_sha256": "c448d241a01a64af532681b9dd102df6c873f2e577c3c374719c1955459ce223",
+      "text": "Односторонний люк с пружинным механизмом, встроенный в потолок.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A shaft": {
+      "source_sha256": "eaa95c960981536b20fb3dcb777d3c9da66b4f7f40d1bbd4fa50814e1176d48f",
+      "text": "Дыра в полу, ведущая на один или несколько этажей глубже.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A sealed passage leading down": {
+      "source_sha256": "74cc83c74d1c79a2d05f78b6df38d13af4d28b86f2342f842a42b467a0c09d38",
+      "text": "Проход вниз, наглухо перекрытый магической преградой. Пока чары действуют, пройти здесь невозможно.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A sealed passage leading up": {
+      "source_sha256": "dc1bdaa54df27c57c4df566b2ef6ee7a088c5ede963f9a39a12f92dcd45e6f50",
+      "text": "Проход вверх, наглухо перекрытый магической преградой. Пока чары действуют, пройти здесь невозможно.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An empty arch of ancient stone": {
+      "source_sha256": "f2112ab132b2df3ea978b23f0282373ab9362bfe74c3440ab8aaf742b6e97861",
+      "text": "Каменная арка, которая, похоже, никуда не ведёт.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A detected shop or portal": {
+      "source_sha256": "ff330467c576b60ba2f36ca94af9d4ac346b544e246047366984d79bb6332e39",
+      "text": "Некий проход. Пока вы не подойдёте ближе, нельзя определить, куда он ведёт.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A passage of Golubria": {
+      "source_sha256": "9fe00336cfe1086af4027db251c701a1d965587543322e0be4ace97579755a5b",
+      "text": "Нестабильный проход, мгновенно переносящий к другому проходу Голубрии поблизости. После прохода любого существа он закрывается.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A portal to somewhere": {
+      "source_sha256": "7aae8a5d80a64510e25be1b90b3f79d88f45f2f580a7913543a3b32ff5df9a50",
+      "text": "Разрыв реальности, похожий на глубокую рану. За ним виден пугающий звёздный иной мир. К счастью, магия, открывшая разрыв, также не даёт его вакууму поглотить всё вокруг.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A granite statue": {
+      "source_sha256": "6792c8cd06b324c715dc9b05e2164ea6a998586784ecd0f570644d3a17db9736",
+      "text": "Каменная статуя, чьи черты давно стёрлись от времени.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gleaming silver wall": {
+      "source_sha256": "0916341aee3f74ed9141a09383d6ad2120b328147f1fd6bd1c1ba47f5c5b2e83",
+      "text": "Стена из чистого серебра, созданная силой Зина, чтобы временно заточить монстра.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A dry fountain": {
+      "source_sha256": "8e7975dafc49be36df8db8069ee426919f428abf2b2bf8053ef883fe16ca72dd",
+      "text": "Высохший декоративный фонтан, знававший лучшие времена.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A fountain of clear blue water": {
+      "source_sha256": "e1bffa69733fe0ffe841b31259d2f799afad03e9b0e99d34aee9a753eb72f337",
+      "text": "Декоративный фонтан с чистой проточной водой.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A fountain of blood": {
+      "source_sha256": "d19ce5b8bde98225282ca72eb4ba0710a57114bf528ae7b2eb80e3f27f88efa6",
+      "text": "Декоративный фонтан, извергающий зловещую на вид кровь.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A fountain of eyes": {
+      "source_sha256": "dd11731146eb23a0e17bac418164a88fe424ba1adae2be2bd83f13b983721c4c",
+      "text": "Декоративный фонтан, переполненный безжизненными неподвижными глазами.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A fountain of sparkling water": {
+      "source_sha256": "7793614ef5a258d4b575db292ca0bc372224f672e7145db33529284019b87fc6",
+      "text": "Декоративный фонтан с ярко искрящейся водой, от которой слабо веет магией.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A cache of baked goods": {
+      "source_sha256": "29470a13d26c8eff5cd1d73b55d5eb19ba6dbf1d02b5e8cf297d41c6c558f497",
+      "text": "Гора хлеба и другой выпечки, приготовленной из малых божественных даров муки и закваски. Священное покровительство продлевает срок её хранения. У вас уже достаточно еды на всё путешествие, но лёгкий перекус не повредит.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A cache of fruit": {
+      "source_sha256": "3c26a705ca92329da633d7a52f32db4d87f4d44524593fada75a6d766921b0f8",
+      "text": "Куча самых разных плодов: от привычных подземельных чайотов и сноззкамберов до таких редких лакомств, как яблоки и апельсины. У вас уже достаточно еды на всё путешествие, но иногда можно и перекусить.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A cache of meat": {
+      "source_sha256": "8a8ad196dc6366f82839bdb58e1e8917e7942d1db07afbaa11641c5e7aad6d65",
+      "text": "Запас мясных заготовок самого разного происхождения: полоски вяленого мяса, бугристые копчёные колбасы и неопределённые белковые пайки. У вас уже достаточно еды на всё путешествие, но здесь может представиться редкий случай попробовать яка…",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A runelight": {
+      "source_sha256": "532abb58857c4aba617cfe1033df3e62fa20d5fa7f7c2e9670dfedd79488e9b5",
+      "text": "Неземной мерцающий свет, парящий и извивающийся в воздухе. Наверняка рядом находится руна Зота: этот удивительный свет — проявление её избыточной силы.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A broken pillar": {
+      "source_sha256": "491879feff37dea7420fed8f2eda38c478e70a4ed091ca62a208641c5c8605f5",
+      "text": "Разрушенная, осыпающаяся каменная колонна.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A one-way staircase leading down": {
+      "source_sha256": "6b13c4ca61e23b69d454a637dc67a1d8b640742b088a65b6068d05652a813dd3",
+      "text": "Проклятая лестница вниз, зачарованная так, чтобы вернуться по ней наверх было невозможно. Спустившись, придётся искать другую лестницу на этаже назначения.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A one-way staircase leading up": {
+      "source_sha256": "b576e2ee5d9d291916a13b5fb84664cff1a58152a541f88b9800dd4707b6b7a4",
+      "text": "Проклятая лестница вверх, зачарованная так, чтобы вернуться по ней вниз было невозможно. Поднявшись, придётся искать другую лестницу на этаже назначения.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "The orb dais": {
+      "source_sha256": "9997f6d865dca8a6a6f78a11b4b1e63f237771cca283851531d3f5d9a88f0420",
+      "text": "Возвышение, на котором покоится легендарная Сфера Зота. Оно древнее самого подземелья, и его невозможно ни разрушить, ни преобразить.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A statue of an orb of fire": {
+      "source_sha256": "3a6955053d7a7d7c870c1b322a2a7146bd8fbd5823de1b387dd8733c07420fef",
+      "text": "Статуя ужасающего шара первозданного пламени. Говорят, такие существа обитают в Царстве Зота.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A statue of an orb of winter": {
+      "source_sha256": "5348499c6b7e64e2ddecfaab91e4fa1ba5e31231d605817dce2d0a5c0f2787bc",
+      "text": "Статуя ужасающего шара предельного холода. Говорят, такие существа обитают в Царстве Зота.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A statue of an orb of entropy": {
+      "source_sha256": "2040cc2efa94949b45b686074cf155d8f29701c829b15d8a308cabfc60895a26",
+      "text": "Статуя ужасающего шара глубочайшего небытия. Говорят, такие существа обитают в Царстве Зота.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A patch of mould": {
+      "source_sha256": "078778bfb509aa75b06c1ecd9a5ea39ed988a6c3a8449574f176f194920a12e2",
+      "text": "Плотный ковёр разноцветной плесени, шуршащий от избытка жизни. Вырастающие из него огромные грибы восстанавливаются в мгновение ока, сколько бы раз их ни срубали.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "a purified mutation catalyst": {
+      "source_sha256": "fc70de670b327d700b8ba522911754f60322d97b7d98f4a72adeb6198799e0da",
+      "text": "Экспериментальный магический перегонный аппарат, в котором зреет очищенная, но ещё не вполне готовая мутагенная сыворотка. Если разбить его, вас окутает волшебный туман и наделит одной полезной мутацией. Мутации, способные ограничить доступные ячейки снаряжения, исключены.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "an empty mutation catalyst": {
+      "source_sha256": "3ab8eb307f489ae0037a57c048ef2c3868eeb71513d5273e6db18ab73ce024f7",
+      "text": "Сложный магический перегонный аппарат, вскрытый и полностью опустошённый.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "an earthen dragon vein": {
+      "source_sha256": "db7b2e46696438c4f8c34138b6fd947d11e440aebc2a7c73cf8b74b66aca2410",
+      "text": "Обнажённая силовая линия земной магии. Наступив на неё, можно вызвать ударные волны, которые ранят двух ближайших врагов. Дальние и летающие враги получают значительно меньше урона.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "a fiery dragon vein": {
+      "source_sha256": "db7fe48142786fa4cb20a8f2014264e920d2f26365583f7e036f49e185a8763b",
+      "text": "Обнажённая силовая линия огненной магии. Наступив на неё, можно поразить огнём трёх врагов с наименьшим запасом здоровья. На месте каждого погибшего от этой атаки врага ненадолго остаётся облако огня.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "an icy dragon vein": {
+      "source_sha256": "be0dddcaeda51fa7173211209adaaab243c9edbba4d36388fe3760fd66348293",
+      "text": "Обнажённая силовая линия ледяной магии. Наступив на неё, можно нанести урон холодом трём врагам с наибольшим запасом здоровья и ненадолго замедлить их передвижение.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "an airy dragon vein": {
+      "source_sha256": "31219bf42054e46ff026739323d86ee493b24195f135434b1ada0fa2b7157455",
+      "text": "Обнажённая силовая линия воздушной магии. Наступив на неё, можно ударить режущим ветром по четырём самым далёким врагам.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gate leading back out of this place": {
+      "source_sha256": "027f47a0b4b62542a39a63d8294b7f1ab566deb26a942b5b67b151c20041e3e8",
+      "text": "Врата, позволяющие вернуться туда, откуда вы пришли.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gate leading out of Pandemonium": {
+      "source_sha256": "6b5725ae53c9577c0f69a5179f8118672350b4ce185be6e471a2375c924a2f89",
+      "text": "Врата, ведущие обратно в подземелье.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gate leading to another region of Pandemonium": {
+      "source_sha256": "107d927fc2d3c07aae5c06acc199cc9c735998a36473e98a99b9b824144a2ac2",
+      "text": "Врата в очередную область Пандемониума. За ней всегда найдётся следующая.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A one-way gate leading to the halls of Pandemonium": {
+      "source_sha256": "9f9dcefd583edd2cac426f63f50e21ccae5dd96865eaee4697262f77a29547f4",
+      "text": "Врата в бесконечные залы Пандемониума.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Depths": {
+      "source_sha256": "6b087ab1d852a8109c4f6db88f91233cfd172e30d6ba1749d68a2e0bbae4055b",
+      "text": "Лестница, ведущая в Глубины.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gate to the Realm of Zot": {
+      "source_sha256": "7fd72c07ddc6859c55348ecd1c6f6521de4b2affac635ee48612ebddb92928b4",
+      "text": "Врата, ведущие в Царство Зота.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway back into the Dungeon": {
+      "source_sha256": "5a3f27074d4ccd822ce81d481abee331cf142b1e1c03334b3ca48556edd5dd81",
+      "text": "Врата, позволяющие совершить то, что многие считают невозможным: выбраться из Ада живым.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway leading out of the Abyss": {
+      "source_sha256": "bdfaa47dc9ae4f015a30f4557e13e2d98fc35498f9eca3fae507a4f0989de5f4",
+      "text": "Врата из Бездны, мерцающие и меняющиеся вместе с непостоянным пейзажем.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway leading deeper into the Abyss": {
+      "source_sha256": "a5e21088b8ce3a6bf9bc6578bf874772ed865ac5c467ac5c35c4d7e79193fdd0",
+      "text": "Необычно спокойные врата посреди бурлящего ландшафта Бездны. Они ведут ещё глубже.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to a ziggurat": {
+      "source_sha256": "faa5278d6231f4885d5ce0180fe0f140e2355b0c34d4f508182202a87293255d",
+      "text": "Портал, ведущий в зиккурат.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to the ashen valley of Gehenna": {
+      "source_sha256": "2ae65c261ed4a8c24737cc6804a531ea44d454989a049ba916160215bd6dda1e",
+      "text": "Врата, ведущие в Геенну.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway leading out of Gehenna": {
+      "source_sha256": "e054ac7822eec3017a2f51a7933bcec93d7e9c1cff41dde8d2728aaef3f20db7",
+      "text": "Врата, ведущие обратно в Преддверие Ада.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to Hell": {
+      "source_sha256": "e6116e4c52081797fdf2b60890baf8c02f11ea15af4bd39c4188c19c6ae50fa1",
+      "text": "Врата в Преддверие Ада. Мало кто отправился бы туда добровольно.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to the Iron City of Dis": {
+      "source_sha256": "4625095ef0e3c510f01b936d0b290392b5b47b97d3decb6ae2ab79e4df5886cf",
+      "text": "Врата, ведущие в Железный город Дис.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to the decaying netherworld of Tartarus": {
+      "source_sha256": "e00a1b7f4e235088fd2aea5079b8f0a0230937d244b43f48ea627fec6cb39e08",
+      "text": "Врата, ведущие в Тартар.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to the freezing wastes of Cocytus": {
+      "source_sha256": "2b0a98245ea917d013a4b734c748a8fd9c4958b65abc9e14de4707609fa609c0",
+      "text": "Врата, ведущие в Коцит.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A hole to the Spider Nest": {
+      "source_sha256": "5fcdb1e87bba86c9df95ffd9d6eccb1d9d6d73e97868c025c2f38f1e933107a1",
+      "text": "Проход, ведущий в Паучье гнездо.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A one-way gate to the infinite horrors of the Abyss": {
+      "source_sha256": "c2d92b03582f2c15613363d73926580f7752ba66d8c667011c50615349285e44",
+      "text": "Врата, ведущие в Бездну.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A crawl-hole back to the Lair": {
+      "source_sha256": "f717648ec298df4e93293d08c512d683eb29abdb7403379751a6a7c57175b839",
+      "text": "Проход, ведущий обратно в Логово зверей.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An exit through the horrors of the Abyss": {
+      "source_sha256": "cb5c8274ba2f35dca41acd448c6bb833bbf9991828a760ccea6236a7ead6a5f9",
+      "text": "Врата, ведущие обратно в подземелье через безумие Бездны.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase back to the Dungeon": {
+      "source_sha256": "00d578a546fb310a7129447fe9e5874974914f1a4b033532b9f72d28901d06f0",
+      "text": "Лестница наверх, обратно в привычное подземелье.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase back to the Lair": {
+      "source_sha256": "1f506c8fcf3bbfc67aefe9bfa832dff21d22e458c358c6ac8a5f20e6a0a24605",
+      "text": "Лестница наверх, обратно в Логово зверей.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase back to the Mines": {
+      "source_sha256": "9efada24e7070c651f0ac3af9c9bb857350b93927933772d506a5bb67e90c103",
+      "text": "Лестница, ведущая обратно в Орочьи копи.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase back to the Vaults": {
+      "source_sha256": "6e8a349c1850b4e7926125e07bc93e2f1abcda25f7e03b58e8042ac6e09c9afe",
+      "text": "Лестница, ведущая обратно в Хранилища.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase leading out of the dungeon": {
+      "source_sha256": "f2302393f50878be5271e83f505b87b9bccdc2c10e84aa7e9eedfd7d8368ac43",
+      "text": "Эта лестница ведёт наружу из подземелья.\n\nПоднявшись по ней, вы завершите своё приключение — независимо от того, несёте ли с собой Сферу Зота.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase back to the Crypt": {
+      "source_sha256": "7bdb627402d2bbea9ea47f6f3136831d73b928548b843ea882b7c19ab02bb8f2",
+      "text": "Лестница, ведущая обратно в Склеп.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Crypt": {
+      "source_sha256": "af65a67117ae6edee8c661b5ea5421e8037b1c81c10e416e69d551151e8a0cff",
+      "text": "Лестница, ведущая в Склеп.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Ecumenical Temple": {
+      "source_sha256": "24a8a171025bc5c7a3fedd0b488eab9010d6ada552ea3cbf9e889680cdd012af",
+      "text": "Лестница, ведущая во Вселенский храм.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Elven Halls": {
+      "source_sha256": "1b754ea82dcbc88b6272006b605ef3d1848610542a03269f38926a3082298781",
+      "text": "Лестница, ведущая в Эльфийские залы.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Lair": {
+      "source_sha256": "4d6ee77430a5f7684f0465c43a9883007a41735101b0b8bc8baccdea5c5b3e13",
+      "text": "Лестница, ведущая в Логово зверей.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Orcish Mines": {
+      "source_sha256": "eb35c0b4e871cac9d13e4345fc0520c1cf8457041fd9c81ab98fe0e182a820eb",
+      "text": "Лестница, ведущая в Орочьи копи.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Shoals": {
+      "source_sha256": "1c42707f24a3565c7e41084b29408bc2bc0647e3b6f19652d2ac26aa2fa24c6c",
+      "text": "Лестница, ведущая на Отмели.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Slime Pits": {
+      "source_sha256": "de654278ff2b71e785f46c007839d3a79c8a7abdbea73b5ebd4fa49146e822e9",
+      "text": "Лестница, ведущая в Слизистые ямы.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Snake Pit": {
+      "source_sha256": "9edda388a750c94d3f5e62c38924a5a8df10015338d5e393c6317a684babdb81",
+      "text": "Лестница, ведущая в Змеиную яму.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Swamp": {
+      "source_sha256": "a3d9add878e2fd8f944bdc7d085ad763905bc41fb0720bc68126510f2c5b7957",
+      "text": "Лестница, ведущая в Болото.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A staircase to the Tomb": {
+      "source_sha256": "48ca8ce3a1a27637c8d8974e6ffab15f0859a73dd4b371d5c5eebc937c1487fa",
+      "text": "Лестница, ведущая в Гробницу древних.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gate to the Vaults": {
+      "source_sha256": "8697176cabff711ff080f3df9776634aaa8727ca16a5f3bcb70e437c5fd3133e",
+      "text": "Врата, ведущие в Хранилища.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A transporter": {
+      "source_sha256": "2ae4aadb6f7428a3b76ba057c128ecc592f75e5bc8e5664079a29ee14b261829",
+      "text": "Односторонний портал в другое место на этом же этаже. При использовании транспортёра соседние союзники и монстры переместятся вместе с вами.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A transporter landing site": {
+      "source_sha256": "005ebf6069041c18065334547fdd990df0687e64a50d0101a252d0df25e67f28",
+      "text": "Место назначения транспортёра. Портал односторонний, поэтому вернуться отсюда через него нельзя.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An open door": {
+      "source_sha256": "039d04b40475cd831c87bb322d5d7ae0c260ec6a757e847063afc03e19193afe",
+      "text": "Открытая деревянная дверь. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A closed door": {
+      "source_sha256": "97161ff7683dbc2c57161ace2d499d833389ef0183ddee807f502459f8f66894",
+      "text": "Закрытая деревянная дверь. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A broken door": {
+      "source_sha256": "35286ebeb7bd2380ab2e62e596beaf22fc8ce23741019c90a9bb780171610237",
+      "text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An open translucent door": {
+      "source_sha256": "fc2e89d2c6db909418bc2817c22c9e869713b5e9ae51c69adb4c8da0e7c11585",
+      "text": "Открытая дверь из дерева, сделанного прозрачным с помощью магии. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A closed translucent door": {
+      "source_sha256": "ff2142b2f4cac8976a3db672ec58d8dd370a4db21e2cf21fd1e439e2bd54b9cb",
+      "text": "Закрытая дверь из дерева, сделанного прозрачным с помощью магии. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A sealed door": {
+      "source_sha256": "ba2ac1186c89a680ef319fc937b5e25cb753e959404af8acbc91f4d10b6d1fbe",
+      "text": "Дверь, наглухо запечатанная тайными рунами. Она не откроется перед существом, которое не признано её магией.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A runed door": {
+      "source_sha256": "903940182bc6c9200d6b049a575530d36b69a97af31a2e5f582693a4d6548e22",
+      "text": "Дверь, покрытая руническими письменами. За ней наверняка есть что-то особенное — возможно, опасность, а возможно, сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A runed translucent door": {
+      "source_sha256": "f1b47abadb701da2860aa7f1c2279f1431e254f088ed3a12eedcc2d74d1b3bbb",
+      "text": "Дверь с руническими письменами, сделанная из магически прозрачного дерева. Ею запечатали великую опасность или славные сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An alarm trap": {
+      "source_sha256": "725373faea0a1a77a9505678a972886438a860db3e79f35824b8c4e240102ca6",
+      "text": "Ловушка, которая громким шумом привлекает монстров поблизости. Помимо шума, её чары сообщают монстрам на всём этаже, где вы находитесь. Враждебные монстры тоже могут запускать её против вас, а союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "An archmage's trap": {
+      "source_sha256": "ee2527e7987d16f7c065c1e4c75d44d25e32ef46664e0405d13c166cf15de051",
+      "text": "Магическая ловушка, созданная алчным великим чародеем. Когда вы или враждебный монстр наступаете на неё, вы теряете часть текущего запаса магии, а заклинания не более чем трёх сильнейших враждебных заклинателей в поле зрения усиливаются. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A devourer's trap": {
+      "source_sha256": "e7776395bb6e283f31bb5071ea81efc7f0af96e1d49584429ec17bc07b3f768f",
+      "text": "Магическая ловушка, божественной жестокостью связанная с желудками непостижимых межпространственных хищников. Когда вы или враждебный монстр наступаете на неё, ловушка с высокой вероятностью выплёскивает на вас пищеварительную кислоту, вызывающую коррозию. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A dispersal trap": {
+      "source_sha256": "1b8c2301dff71413486b44010b26ba0e4c83bb266ee45b637190eeb1f0713451",
+      "text": "Наступившее на ловушку существо мгновенно перемещается в другое место поблизости вместе со всеми остальными существами в поле зрения. Враждебные монстры могут запускать эту ловушку, а союзники избегают наступать на неё.\n\nПосле срабатывания ловушка не может сработать снова в течение нескольких ходов.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A dispersal trap (recharging)": {
+      "source_sha256": "5d4cd891dc987802e148ea9a7d8754c47328ca8bd626489546e7dcc5e2bb3a5b",
+      "text": "[[A dispersal trap]]\n\nСейчас ловушка перезаряжается и вскоре снова станет активной.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A harlequin's trap": {
+      "source_sha256": "4dd9244059150c4c726d2491f80b80623c0792a35da9a5e3d29e231c5780a649",
+      "text": "Магическая ловушка, оставшаяся после непостижимых феерий хаоса. Когда вы или враждебный монстр наступаете на неё, атаки не более чем трёх сильнейших монстров в поле зрения временно обретают свойства хаоса. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A net trap": {
+      "source_sha256": "0a25fd9834ba748fedc2879ae5ce7a1f1544980afbe786d15bc7b979c2219fb7",
+      "text": "Большое скрытое устройство под потолком, выстреливающее сетью. Чары Зота заставляют сеть падать только на вас, когда сюда наступает любое разумное существо — друг или враг.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A patch of ice thorns": {
+      "source_sha256": "f5dbd6bb6510aaff4ad62d5be0e3002959e53299ef69fd5ab073497385c7c6df",
+      "text": "Земля, покрытая острыми ледяными шипами. Они наносят небольшой урон любому нелетающему существу, которое наступит сюда, кроме своего создателя, а затем рассыпаются. Сопротивление холоду частично уменьшает урон.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A permanent teleport trap": {
+      "source_sha256": "9d1cb77d8dde896b1182993627d5de53b55f59a136a6bb42b41f1afab6f0af0e",
+      "text": "Магическая ловушка, переносящая любое существо, которое проходит над ней, в случайное место на том же этаже подземелья.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A pressure plate": {
+      "source_sha256": "3ab38705555959c3a74d8ee53c9873d6a17b548eb2be5b287079b9363706d0e9",
+      "text": "Некий пусковой механизм. Нельзя определить, к какой ловушке он подключён. Сложная система обнаружения срабатывает, даже когда над плитой пролетают.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A spike launcher": {
+      "source_sha256": "bfec227887422316b7fedb937e781876248d73ed763be21c285a753a85ed7b22",
+      "text": "Магическое устройство, пронзающее острыми шипами монстров поблизости. Оно рассыплется через некоторое время или если заклинатель отойдёт слишком далеко.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A teleport trap": {
+      "source_sha256": "585bc683749c7fcad23f4e3ba95d467210a1bc8f764f98cde5fb0a15b5d9d707",
+      "text": "Магическая ловушка, переносящая любое существо, которое проходит над ней, в случайное место на том же этаже подземелья. Она обветшала от времени и исчезнет после срабатывания.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A tyrant's trap": {
+      "source_sha256": "eed355a5808a9da664bc6d48d1fae27437a8b3c5fd334f4d364843195a6812ff",
+      "text": "Магическая ловушка, созданная для усиления армий деспота-завоевателя. Когда вы или враждебный монстр наступаете на неё, ваши ближние атаки ослабевают, а не более чем три самых опасных монстра в поле зрения становятся сильнее. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A Zot trap": {
+      "source_sha256": "380c5a2b8b42ce9226cfd68b5f50fe39545113d358b4efee6e468f966379680e",
+      "text": "Ловушка с опасными и непредсказуемыми магическими эффектами. Наступив на неё, можно окаменеть, накопить огромное количество магического загрязнения, вызвать против себя могучих демонов и подвергнуться другим напастям. Враждебные монстры тоже могут запускать её против вас, а союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A flagged portal": {
+      "source_sha256": "72184c6de9373551a58cf65d95bd4b733fd70495b9a8c1adcf778fae9a56e0a8",
+      "text": "Портал, ведущий в крепостной двор. Он постепенно угасает, пока знамя опускается к земле.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gauntlet entrance": {
+      "source_sha256": "6414aa952fbfe83a494eb641d28a84255336a51983c0992db33ea707d8a59cc8",
+      "text": "Портал, ведущий в Испытание.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A flickering gateway to a bazaar": {
+      "source_sha256": "4a85de64d22d9fda014a1d8a22324529ae78fbda80485d1a6185491e7bf95405",
+      "text": "Портал на базар, где странствующие торговцы собрались продать свои товары. Они никогда не задерживаются надолго на одном месте.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway to a bazaar": {
+      "source_sha256": "3bf846056c4340087ceaf59da4bf62a29cf554b838ef872d5ced3a620a36f2b8",
+      "text": "Портал на базар, где странствующие торговцы собрались продать свои товары. Они дождутся вас, но после вашего посещения отправятся искать других покупателей.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A phantasmal passage": {
+      "source_sha256": "bc58178d3f4679d465bf4edf32e99577d5d518a8e948297654bc1f4d220f3fdb",
+      "text": "Портал в одно из многих хранилищ Некрополя, где заточены недавно убитые и глубоко озлобленные мертвецы. Со временем этот странствующий разлом переместится в другое место, чтобы принять новых покойников.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A frozen archway": {
+      "source_sha256": "5d3328ef1a4c72a771a978a02343aa14c8fe770367fea62ddd56e7b7ff40cb4f",
+      "text": "Портал в ледяную пещеру. Арка постепенно тает.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A glacial archway": {
+      "source_sha256": "9f8a2fd5a5b56d00bf031f618f581afbd387f873cb4ad1e73f9e87e8bbc49db0",
+      "text": "Портал в ледниковую пропасть, гораздо более опасную, чем ледяные пещеры верхних этажей Подземелья. Арка постепенно тает.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A sand-covered staircase": {
+      "source_sha256": "5bfce0466b46875ef8a9388e42fe60e992a2770ce98a7f7fdb3173d5c3fe9b65",
+      "text": "Лестница в костницу. На неё непрерывно сыплется песок, постепенно перекрывая вход.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A glowing drain": {
+      "source_sha256": "0e9455fa9eb1ac184ee21d14fb002d94dcda7f65ad682145c86c68d8e213a5c5",
+      "text": "Проход в канализацию. Он постепенно разрушается от ржавчины.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A portal to a secret trove of treasure": {
+      "source_sha256": "6c5cdffdead2248e3e08c8402fb7041d16f63e88452338e732c376ba1888bc21",
+      "text": "Портал в сокровищницу. Он нестабилен и разрушится после одного использования.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A dark tunnel": {
+      "source_sha256": "80c8b70219e6fb898f68784e10a49ce93e8dae1863cb659ebbb8490aa7b2898c",
+      "text": "Портал в сердце вулкана. Камни осыпаются с потолка и стен туннеля, заваливая вход.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A crumbling gateway": {
+      "source_sha256": "ce930eaa59bf8ab9e7b89f877c4121564ec1a453adbf8a2aa646b9eee0bd5612",
+      "text": "Покрытая солью арка с высеченными мольбами к добрым богам удержать заточённое за ней зло. Время наконец разрушило её былую защиту, и из далёких земель по ту сторону веет горьким ветром.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A mutagenic drain": {
+      "source_sha256": "8378267792b5e607f3074a048874235e94fb8056101f6f534e1aa29868601fda",
+      "text": "Проход в сточное ущелье, постепенно разрушающийся от ржавчины. При входе вы получите три временные мутации, а если вы нежить — подвергнетесь разложению.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A magical portal": {
+      "source_sha256": "3f0881f37d7c1503398a9441c9d948530ed478961e1df6af990c08df2e0350a1",
+      "text": "Портал в лабораторию волшебника. Он постепенно угасает.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A collapsed entrance": {
+      "source_sha256": "97d9aac4733d96c3a7253c5bc350b9f1c55474f9cd56fbc6ec305cc8109e4fc5",
+      "text": "Обрушившийся проход, которым больше нельзя воспользоваться.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+    },
+    "A gateway leading out of Dis": {
+      "source_sha256": "b84d3915778caf87b0bc2bc5b27ddfb5430225a01d7b1edac67a8ac30ef36ba4",
+      "text": "<A gateway leading out of Gehenna>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Врата, ведущие обратно в Преддверие Ада."
+    },
+    "A gateway leading out of Tartarus": {
+      "source_sha256": "b84d3915778caf87b0bc2bc5b27ddfb5430225a01d7b1edac67a8ac30ef36ba4",
+      "text": "<A gateway leading out of Gehenna>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Врата, ведущие обратно в Преддверие Ада."
+    },
+    "A gateway leading out of Cocytus": {
+      "source_sha256": "b84d3915778caf87b0bc2bc5b27ddfb5430225a01d7b1edac67a8ac30ef36ba4",
+      "text": "<A gateway leading out of Gehenna>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Врата, ведущие обратно в Преддверие Ада."
+    },
+    "A broken translucent door": {
+      "source_sha256": "ba7c2426f872488cd346ef62df6c07992fb6da70b0e0fff7f4b6a604dcfa6e0e",
+      "text": "<A broken door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A large runed translucent door": {
+      "source_sha256": "0125dfc3d9be332110b02c8a221559a0502f9ecafdad74dd8ecf8f500691a438",
+      "text": "<A runed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь с руническими письменами, сделанная из магически прозрачного дерева. Ею запечатали великую опасность или славные сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A runed translucent gate": {
+      "source_sha256": "0125dfc3d9be332110b02c8a221559a0502f9ecafdad74dd8ecf8f500691a438",
+      "text": "<A runed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь с руническими письменами, сделанная из магически прозрачного дерева. Ею запечатали великую опасность или славные сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A huge runed translucent gate": {
+      "source_sha256": "0125dfc3d9be332110b02c8a221559a0502f9ecafdad74dd8ecf8f500691a438",
+      "text": "<A runed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь с руническими письменами, сделанная из магически прозрачного дерева. Ею запечатали великую опасность или славные сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A large open door": {
+      "source_sha256": "7f328b08e9dce77f310e3d6784fb94ad714293785fa80a978767b201a7f8c650",
+      "text": "<An open door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая деревянная дверь. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "An open gate": {
+      "source_sha256": "7f328b08e9dce77f310e3d6784fb94ad714293785fa80a978767b201a7f8c650",
+      "text": "<An open door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая деревянная дверь. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "A huge open gate": {
+      "source_sha256": "7f328b08e9dce77f310e3d6784fb94ad714293785fa80a978767b201a7f8c650",
+      "text": "<An open door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая деревянная дверь. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "A large closed door": {
+      "source_sha256": "32a057f442c809c7224018e27a8a06c886f3c806f624884d5f67e9e6fc5b74c7",
+      "text": "<A closed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая деревянная дверь. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A closed gate": {
+      "source_sha256": "32a057f442c809c7224018e27a8a06c886f3c806f624884d5f67e9e6fc5b74c7",
+      "text": "<A closed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая деревянная дверь. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A huge closed gate": {
+      "source_sha256": "32a057f442c809c7224018e27a8a06c886f3c806f624884d5f67e9e6fc5b74c7",
+      "text": "<A closed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая деревянная дверь. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A large runed door": {
+      "source_sha256": "df7a6268d56973584c9427d75e2297e97e800c525aa28ab8003619b0d42d8938",
+      "text": "<A runed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, покрытая руническими письменами. За ней наверняка есть что-то особенное — возможно, опасность, а возможно, сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A runed gate": {
+      "source_sha256": "df7a6268d56973584c9427d75e2297e97e800c525aa28ab8003619b0d42d8938",
+      "text": "<A runed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, покрытая руническими письменами. За ней наверняка есть что-то особенное — возможно, опасность, а возможно, сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A huge runed gate": {
+      "source_sha256": "df7a6268d56973584c9427d75e2297e97e800c525aa28ab8003619b0d42d8938",
+      "text": "<A runed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, покрытая руническими письменами. За ней наверняка есть что-то особенное — возможно, опасность, а возможно, сокровища. Вы можете разрушить руны, открыв дверь как обычно, но обитатели подземелья на такое не отважатся."
+    },
+    "A large sealed door": {
+      "source_sha256": "c1cdd8e970fc2fc3b0b6490b5b99587bc6e5c100d0b681b3549a6ff6d874a154",
+      "text": "<A sealed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, наглухо запечатанная тайными рунами. Она не откроется перед существом, которое не признано её магией."
+    },
+    "A sealed gate": {
+      "source_sha256": "c1cdd8e970fc2fc3b0b6490b5b99587bc6e5c100d0b681b3549a6ff6d874a154",
+      "text": "<A sealed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, наглухо запечатанная тайными рунами. Она не откроется перед существом, которое не признано её магией."
+    },
+    "A huge sealed gate": {
+      "source_sha256": "c1cdd8e970fc2fc3b0b6490b5b99587bc6e5c100d0b681b3549a6ff6d874a154",
+      "text": "<A sealed door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Дверь, наглухо запечатанная тайными рунами. Она не откроется перед существом, которое не признано её магией."
+    },
+    "A large broken door": {
+      "source_sha256": "ba7c2426f872488cd346ef62df6c07992fb6da70b0e0fff7f4b6a604dcfa6e0e",
+      "text": "<A broken door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A broken gate": {
+      "source_sha256": "ba7c2426f872488cd346ef62df6c07992fb6da70b0e0fff7f4b6a604dcfa6e0e",
+      "text": "<A broken door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A huge broken gate": {
+      "source_sha256": "ba7c2426f872488cd346ef62df6c07992fb6da70b0e0fff7f4b6a604dcfa6e0e",
+      "text": "<A broken door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A large translucent open door": {
+      "source_sha256": "33af1e7452da87b071641f5fdf2e8173cfa5fb5db0a9cd36f4c54b3fe49ff291",
+      "text": "<An open translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая дверь из дерева, сделанного прозрачным с помощью магии. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "An open translucent gate": {
+      "source_sha256": "33af1e7452da87b071641f5fdf2e8173cfa5fb5db0a9cd36f4c54b3fe49ff291",
+      "text": "<An open translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая дверь из дерева, сделанного прозрачным с помощью магии. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "A huge open translucent gate": {
+      "source_sha256": "33af1e7452da87b071641f5fdf2e8173cfa5fb5db0a9cd36f4c54b3fe49ff291",
+      "text": "<An open translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Открытая дверь из дерева, сделанного прозрачным с помощью магии. Если её закрыть, снова открыть её смогут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если знающий о вас монстр откроет её после закрытия, дверь может сломаться."
+    },
+    "A large translucent closed door": {
+      "source_sha256": "7defe10fe0d9c4c3305d485dee34ff75ad53e16c1e3d88a2680d4e5c45ac9df0",
+      "text": "<A closed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая дверь из дерева, сделанного прозрачным с помощью магии. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A closed translucent gate": {
+      "source_sha256": "7defe10fe0d9c4c3305d485dee34ff75ad53e16c1e3d88a2680d4e5c45ac9df0",
+      "text": "<A closed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая дверь из дерева, сделанного прозрачным с помощью магии. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A huge closed translucent gate": {
+      "source_sha256": "7defe10fe0d9c4c3305d485dee34ff75ad53e16c1e3d88a2680d4e5c45ac9df0",
+      "text": "<A closed translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Закрытая дверь из дерева, сделанного прозрачным с помощью магии. Открыть её могут все монстры, способные пользоваться снаряжением, а также некоторые другие. Если её откроет монстр, знающий о вас, дверь может сломаться."
+    },
+    "A large translucent broken door": {
+      "source_sha256": "583475b01be312f02934a6ee6d1913cfa92e0f609413647dde8499c35f0a0bc5",
+      "text": "<A broken translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A broken translucent gate": {
+      "source_sha256": "583475b01be312f02934a6ee6d1913cfa92e0f609413647dde8499c35f0a0bc5",
+      "text": "<A broken translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "A huge broken translucent gate": {
+      "source_sha256": "583475b01be312f02934a6ee6d1913cfa92e0f609413647dde8499c35f0a0bc5",
+      "text": "<A broken translucent door>",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained.",
+      "wiki_text": "Деревянная дверь в удручающем состоянии. Снова нормально закрыть её можно разве что с помощью магии."
+    },
+    "haloed": {
+      "source_sha256": "3f9681a2b452f05eb855b84978f3c74699b11ca6161fe4185e2fe9cd5af11338",
+      "text": "Эта область освещена божественным сиянием. Оно снижает вашу скрытность, мешает невидимости и повышает точность атак по любому освещённому существу.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "umbraed": {
+      "source_sha256": "b031bcff17ef95bd0186db322e2ff902dc0a84e39e934b7df22221e597a443dd",
+      "text": "Эта область окутана сверхъестественной тенью. Она повышает скрытность тех, кто сроднился с тенями, и снижает точность атак всех остальных.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "liquefied": {
+      "source_sha256": "dfd9a7b6b7250a38d54b5f6199c6329d217d814ddf0737a4687da56243127b01",
+      "text": "Земля здесь разжижена: передвижение замедляется, а ближние атаки иногда срываются.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "disjunction haloed": {
+      "source_sha256": "15e5a5efbb4960388449ff8473043aa4461f2bd1ca4ba17583149ce4ad7f0fcd",
+      "text": "Эта область насыщена энергией перемещений, заставляющей существ скачками переноситься прочь от её источника. Чем ближе существо к заклинателю, тем выше вероятность такого перемещения.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "ice covered": {
+      "source_sha256": "a7269a0557042f8710da6a38d4b80aaccc320acfb1e19cdfa2f1aa318eb82798",
+      "text": "Эта стена покрыта волшебным льдом, который морозит оказавшихся рядом жертв. Урон полностью игнорирует броню и замедляет хладнокровных существ. Каждая жертва одновременно получает урон лишь от одной ледяной стены.\n\nСоздатель ледяного покрова и его союзники могут безопасно проходить мимо.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "awoken": {
+      "source_sha256": "38d8485d27f2be25c5c494d47473704f6a0e1235ddb98b0da46b00a9826a35f4",
+      "text": "Этому дереву временно дарована ограниченная подвижность: оно может хлестать соседних врагов существа, которое его пробудило.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "tree burning": {
+      "source_sha256": "7e7b74394ae6f3feef5902302703156e4bb3142793a2eec27c877a847c2c1b75",
+      "text": "Дерево уязвимо к молниям и достаточно сильному огню. Возникшее пламя может разгореться, перекинуться на соседние участки и поджечь другие деревья.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "mangrove burning": {
+      "source_sha256": "b5eb392c1523d4db5c4eee52866fb0d4f79545bfddcd9ae738f182dd5f161b9f",
+      "text": "Мангровое дерево уязвимо к молниям и достаточно сильному огню. Из-за болотистой почвы оно горит слабее обычных деревьев, а после выгорания оставляет мелководье.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "demonic tree burning": {
+      "source_sha256": "587e840c1b8e4a0882b5651eeceaedf0c5804d22c0c91fe5a7fdafd2ab243abb",
+      "text": "Демоническое дерево уязвимо к молниям и достаточно сильному огню. При сгорании оно выпускает облако чистого хаоса вместо пламени.",
+      "context": "Feature area/combustion supplement: armour bypass, ally immunity, shared terrain references and environmental effects preserved."
+    },
+    "A slimy stone staircase leading down": {
+      "source_sha256": "8f926dafae02a6d91973fcebbf4c31ffcfc80285e36915a6d0e8520259d90aa6",
+      "text": "Каменная лестница, ведущая глубже в подземелье.\n\n{{\n    if you.god() == \"Jiyva\" then\n        return \"Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.\" ..\n               \"\"\n    else\n        return \"Скользкая слизь не позволит вернуться наверх, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Зато после спуска покрывающая вас слизь ненадолго значительно ускорит восстановление здоровья и магии.\" ..\n               \"\" ..\n               \"\" ..\n               \"\" ..\n               \"\"\n    end\n}}",
+      "lua_strings": {
+        "It is slick with slippery slime, but that is no obstacle for one ": "Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
+        "such as yourself who has embraced the way of all slime.": "",
+        "It is slick with slippery slime which will make it impossible ": "Скользкая слизь не позволит вернуться наверх, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Зато после спуска покрывающая вас слизь ненадолго значительно ускорит восстановление здоровья и магии.",
+        "for you to climb back up again until the power ruling this place ": "",
+        "is destroyed (or you choose to join it). However, being coated in ": "",
+        "this slime will greatly increase your HP and MP regenaration for ": "",
+        "short while afterward.": ""
+      },
+      "wiki_text": "Каменная лестница вниз. Скользкая слизь не позволит вернуться наверх, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Зато после спуска покрывающая вас слизь ненадолго значительно ускорит восстановление здоровья и магии. Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
+      "context": "Current conditional slime stair description: you.god()==Jiyva unchanged; regeneration bonus applies after descent only; no changes to Lua logic."
+    },
+    "A slimy stone staircase leading up": {
+      "source_sha256": "ad04dc50c7557815cab8b83248a221e46cc16d6ccc40767f4e04fbbce18fda9f",
+      "text": "Каменная лестница, ведущая обратно наверх.\n\n{{\n    if you.god() == \"Jiyva\" then\n        return \"Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.\" ..\n               \"\"\n    else\n        return \"Скользкая слизь не позволит подняться, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней.\" ..\n               \"\" ..\n               \"\"\n    end\n}}",
+      "lua_strings": {
+        "It is slick with slippery slime, but that is no obstacle for one ": "Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
+        "such as yourself who has embraced the way of all slime.": "",
+        "It is slick with slippery slime, making it impossible for you to ": "Скользкая слизь не позволит подняться, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней.",
+        "climb until the power ruling this place is destroyed (or you choose ": "",
+        "to join it).": ""
+      },
+      "wiki_text": "Каменная лестница вверх. Скользкая слизь не позволит подняться, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
+      "context": "Current conditional slime stair description: you.god()==Jiyva unchanged; regeneration bonus applies after descent only; no changes to Lua logic."
+    }
   }
 }

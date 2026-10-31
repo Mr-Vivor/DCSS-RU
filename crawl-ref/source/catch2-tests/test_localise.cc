@@ -12,6 +12,7 @@
 #include "hiscores.h"
 #include "localise.h"
 #include "macro.h"
+#include "map-knowledge.h"
 #include "newgame.h"
 #include "options.h"
 #include "player-save-info.h"
@@ -756,4 +757,58 @@ TEST_CASE("Russian spell expansion preserves mechanics and configurable reminder
     CHECK(localise("(Press <w>%</w> to maintain the ray.)")
           == "(Press <w>%</w> to maintain the ray.)");
     Options.language = lang_t::RU;
+}
+
+
+TEST_CASE("Russian terrain descriptions resolve aliases, conditions and actual door keys", "[localise][single-file]")
+{
+    russian_localisation language;
+    cluaopen_you(clua.state());
+    CHECK(localise("some deep water") == "глубокая вода");
+    CHECK(localise("a passage of Golubria") == "проход Голубрии");
+    CHECK(getLongDescription("A large closed door") == getLongDescription("A closed door"));
+    CHECK(getLongDescription("A gateway leading out of Dis").find("Преддверие Ада") != string::npos);
+    const string dispersal = getLongDescription("A dispersal trap (recharging)");
+    CHECK(dispersal.find("в поле зрения") != string::npos);
+    CHECK(dispersal.find("перезаряжается") != string::npos);
+    CHECK(dispersal.find("[[") == string::npos);
+    const string mud = getLongDescription("Some mud");
+    CHECK(mud.find("разжижена") != string::npos);
+    CHECK(mud.find("liquefied") == string::npos);
+
+    const god_type old_god = you.religion;
+    you.religion = GOD_NO_GOD;
+    const string down = getLongDescription("A slimy stone staircase leading down");
+    CHECK(down.find("ускорит восстановление здоровья и магии") != string::npos);
+    CHECK(down.find("не позволит вернуться наверх") != string::npos);
+    CHECK(getLongDescription("A slimy stone staircase leading up").find("восстановление") == string::npos);
+    you.religion = GOD_JIYVA;
+    const string friendly = getLongDescription("A slimy stone staircase leading down");
+    CHECK(friendly.find("последователю Джийвы она не помешает") != string::npos);
+    CHECK(friendly.find("не позволит") == string::npos);
+    CHECK(friendly.find("It is slick") == string::npos);
+    you.religion = old_god;
+
+    if (command_to_name(CMD_OPEN_DOOR) == "CMD_NO_CMD")
+        init_keybindings();
+    const int previous_key = command_to_key(CMD_OPEN_DOOR);
+    const command_type displaced = key_to_command('P', context_for_command(CMD_OPEN_DOOR));
+    bind_command_to_key(CMD_OPEN_DOOR, 'P');
+    const coord_def pos(40, 35);
+    const auto old_feature = env.grid(pos);
+    const map_cell old_cell = env.map_knowledge(pos);
+    env.grid(pos) = DNGN_CLOSED_DOOR;
+    env.map_knowledge(pos).set_feature(DNGN_CLOSED_DOOR);
+    describe_info inf;
+    get_feature_desc(pos, inf, false);
+    INFO(inf.title);
+    INFO(inf.body.str());
+    CHECK(inf.title.find("Закрытая дверь") != string::npos);
+    CHECK(inf.body.str().find("<w>P</w>, чтобы открыть") != string::npos);
+    CHECK(inf.body.str().find("While adjacent") == string::npos);
+    env.grid(pos) = old_feature;
+    env.map_knowledge(pos) = old_cell;
+    bind_command_to_key(CMD_OPEN_DOOR, previous_key);
+    if (displaced != CMD_NO_CMD)
+        bind_command_to_key(displaced, 'P');
 }

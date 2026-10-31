@@ -5276,22 +5276,6 @@ There's nothing to open nearby.
 
 Поблизости нечего открыть.
 %%%%
-The door is shut tight!
-
-Дверь плотно закрыта!
-%%%%
-It's already open!
-
-Уже открыто!
-%%%%
-That door is sealed shut!
-
-Эта дверь запечатана!
-%%%%
-There isn't anything that you can open there!
-
-Там нечего открыть!
-%%%%
 You can't close doors while held in a net.
 
 Нельзя закрывать двери, пока вы запутаны в сети.
@@ -5299,22 +5283,6 @@ You can't close doors while held in a net.
 You can't close doors while caught in a web.
 
 Нельзя закрывать двери, пока вы запутаны в паутине.
-%%%%
-There's nothing to close nearby.
-
-Поблизости нечего закрыть.
-%%%%
-It's already closed!
-
-Уже закрыто!
-%%%%
-There isn't anything that you can close there!
-
-Там нечего закрыть!
-%%%%
-If you enter this portal you might not be able to return immediately. Continue?
-
-После входа в этот портал вы, возможно, не сможете сразу вернуться. Продолжить?
 %%%%
 Are you sure you wish to approach this portal? There's no telling what its forces would wreak upon your fragile self.
 
@@ -10292,10 +10260,6 @@ The net passes right through @arg@!
 
 Сеть проходит насквозь через: @arg@!
 %%%%
-Something gets caught in the net!
-
-В сеть попадается что-то невидимое!
-%%%%
 @Arg@ is caught in the net!
 
 В сеть попадается: @Arg@!
@@ -10304,29 +10268,9 @@ Something gets caught in the net!
 
 Сквозь сеть проплывает: @Arg@!
 %%%%
-A huge vortex of air appears!
-
-Появляется огромный воздушный вихрь!
-%%%%
-The power of Zot is invoked against you!
-
-Против вас обращают силу Зота!
-%%%%
-You enter the passage of Golubria.
-
-Вы входите в проход Голубрии.
-%%%%
 @Arg@ enters the passage of Golubria.
 
 @Arg@ входит в проход Голубрии.
-%%%%
-This passage seems to be blocked by something!
-
-Похоже, что-то блокирует этот проход!
-%%%%
-This passage doesn't lead anywhere!
-
-Этот проход никуда не ведёт!
 %%%%
 @Arg1@ enters @arg2@!
 
@@ -10335,10 +10279,6 @@ This passage doesn't lead anywhere!
 @Arg@ disappears.
 
 @Arg@ исчезает.
-%%%%
-You set off the alarm!
-
-Вы запускаете сигнализацию!
 %%%%
 @Arg@ pulls the alarm!
 
@@ -10392,14 +10332,6 @@ A huge blade swings out and slices into @arg@!
 
 @Arg@ сбрасывает на вас сеть.
 %%%%
-Something launches a net on you.
-
-Что-то запускает в вас сеть.
-%%%%
-You avoid being caught in a net.
-
-Вы избегаете попадания в сеть.
-%%%%
 The net is torn apart by your bulk.
 
 Ваше огромное тело разрывает сеть.
@@ -10412,10 +10344,6 @@ The net is torn apart by your bulk.
 
 @Arg@ просачивается через паутину.
 %%%%
-You pick your way through the web.
-
-Вы осторожно пробираетесь через паутину.
-%%%%
 You are caught in the web!
 
 Вы запутываетесь в паутине!
@@ -10424,18 +10352,6 @@ You are caught in the web!
 
 @Arg@ избегает паутины.
 %%%%
-A web moves frantically as something is caught in it!
-
-В паутину попадается что-то невидимое, и она бешено дёргается!
-%%%%
-You enter the Zot trap.
-
-Вы входите в ловушку Зота.
-%%%%
-You hear a loud "Zot"!
-
-Вы слышите громкое «Зот»!
-%%%%
 A shaft crumbles and collapses.
 
 Провал осыпается и обрушивается.
@@ -10443,30 +10359,6 @@ A shaft crumbles and collapses.
 The web tears apart.
 
 Паутина рвётся.
-%%%%
-You disentangle yourself.
-
-Вы освобождаетесь от пут.
-%%%%
-You struggle to detach yourself from the web.
-
-Вы пытаетесь оторваться от паутины.
-%%%%
-You shred the net and break free!
-
-Вы кромсаете сеть и вырываетесь на свободу!
-%%%%
-You rip the net and break free!
-
-Вы разрываете сеть и вырываетесь на свободу!
-%%%%
-You tear a large gash into the net.
-
-Вы продираете в сети большую дыру.
-%%%%
-You struggle against the net.
-
-Вы боретесь с сетью.
 %%%%
 @Arg@ tears the web.
 
@@ -10531,10 +10423,6 @@ You are even more entangled.
 A web harmlessly splats on @arg@.
 
 Паутина безвредно шлёпается на: @arg@.
-%%%%
-You are caught in a web!
-
-Вы запутываетесь в паутине!
 %%%%
 The zombie hands
 
@@ -14988,10 +14876,6 @@ The net rips apart!
 
 Сеть разрывается!
 %%%%
-You become entangled in the net!
-
-Вы запутываетесь в сети!
-%%%%
 You get stuck in the web!
 
 Вы застреваете в паутине!
@@ -16155,10 +16039,6 @@ You sense hostile presences.
 An insubstantial figure forms in the air.
 
 В воздухе возникает неосязаемая фигура.
-%%%%
-You sense a hostile presence.
-
-Вы ощущаете враждебное присутствие.
 %%%%
 You summon a servant imbued with your destructive magic!
 
@@ -22898,7 +22778,7 @@ You can view the location it leads to by examining it with <w>@arg1@</w> and pre
 %%%%
 It can be dug through.
 
-Здесь можно прорыть проход.
+Здесь можно прокопать проход.
 %%%%
 irresistible damage
 
@@ -27370,15 +27250,15 @@ While standing here, you can enter @place@ with with the <w>@key@</w> key.
 %%%%
 Your adherence to the laws of Zin forbids you from using such a device.
 
-Законы Зина запрещают вам пользоваться этим устройством.
+Верность законам Зина запрещает вам пользоваться таким устройством.
 %%%%
 You must first come back to life before you may mutate.
 
-Чтобы мутировать, сначала нужно вернуться к жизни.
+Чтобы получать мутации, сначала нужно вернуться к жизни.
 %%%%
 This is completely useless to you, as you cannot mutate.
 
-Для вас это бесполезно: вы не можете мутировать.
+Вам это совершенно бесполезно: вы не можете получать мутации.
 %%%%
 It does @num1@d@num2@ damage.
 
@@ -27394,15 +27274,15 @@ Stepping on it inflicts @num1@d@num2@ damage.
 %%%%
 A suitable weapon or spell can reach past it.
 
-Подходящим оружием или заклинанием можно атаковать сквозь это препятствие.
+Подходящее оружие или заклинание может поражать цели по другую сторону этой преграды.
 %%%%
 Some spells can be cast through it.
 
-Некоторые заклинания можно направлять сквозь это препятствие.
+Некоторые заклинания проходят сквозь эту преграду.
 %%%%
 You are here.
 
-Вы здесь.
+Вы находитесь здесь.
 %%%%
 (s)kill target
 
@@ -33235,3 +33115,2359 @@ Training only this spell's schools cannot reduce its failure rate to %d%%.
 (You may use Imbue Servitor from the <w>%s</w>bility menu to change which spell your servitor casts.)
 
 (Заклинание будущих слуг можно сменить способностью «Наделить слугу заклинанием» в меню способностей — <w>%s</w>.)
+%%%%
+The endless lava
+
+Бескрайняя лава
+%%%%
+the endless lava
+
+бескрайняя лава
+%%%%
+The floor
+
+Пол
+%%%%
+the floor
+
+пол
+%%%%
+Some deep water
+
+Глубокая вода
+%%%%
+some deep water
+
+глубокая вода
+%%%%
+the deep water
+
+глубокая вода
+%%%%
+Some lava
+
+Лава
+%%%%
+some lava
+
+лава
+%%%%
+the lava
+
+лава
+%%%%
+Some shallow water
+
+Мелководье
+%%%%
+some shallow water
+
+мелководье
+%%%%
+the shallow water
+
+мелководье
+%%%%
+A toxic bog
+
+Ядовитая трясина
+%%%%
+a toxic bog
+
+ядовитая трясина
+%%%%
+the toxic bog
+
+ядовитая трясина
+%%%%
+Some mud
+
+Грязь
+%%%%
+some mud
+
+грязь
+%%%%
+the mud
+
+грязь
+%%%%
+The open sea
+
+Открытое море
+%%%%
+the open sea
+
+открытое море
+%%%%
+An unnaturally hard rock wall
+
+Неестественно прочная скальная стена
+%%%%
+an unnaturally hard rock wall
+
+неестественно прочная скальная стена
+%%%%
+the unnaturally hard rock wall
+
+неестественно прочная скальная стена
+%%%%
+A wall of the weird stuff which makes up Pandemonium
+
+Стена из странной материи Пандемониума
+%%%%
+a wall of the weird stuff which makes up Pandemonium
+
+стена из странной материи Пандемониума
+%%%%
+the wall of the weird stuff which makes up Pandemonium
+
+стена из странной материи Пандемониума
+%%%%
+A crystal wall
+
+Кристальная стена
+%%%%
+a crystal wall
+
+кристальная стена
+%%%%
+the crystal wall
+
+кристальная стена
+%%%%
+A translucent rock wall
+
+Прозрачная скальная стена
+%%%%
+a translucent rock wall
+
+прозрачная скальная стена
+%%%%
+the translucent rock wall
+
+прозрачная скальная стена
+%%%%
+A translucent stone wall
+
+Прозрачная каменная стена
+%%%%
+a translucent stone wall
+
+прозрачная каменная стена
+%%%%
+the translucent stone wall
+
+прозрачная каменная стена
+%%%%
+A translucent unnaturally hard rock wall
+
+Прозрачная неестественно прочная скальная стена
+%%%%
+a translucent unnaturally hard rock wall
+
+прозрачная неестественно прочная скальная стена
+%%%%
+the translucent unnaturally hard rock wall
+
+прозрачная неестественно прочная скальная стена
+%%%%
+A stone wall
+
+Каменная стена
+%%%%
+a stone wall
+
+каменная стена
+%%%%
+the stone wall
+
+каменная стена
+%%%%
+A slime covered rock wall
+
+Покрытая слизью скальная стена
+%%%%
+a slime covered rock wall
+
+покрытая слизью скальная стена
+%%%%
+the slime covered rock wall
+
+покрытая слизью скальная стена
+%%%%
+A metal wall
+
+Металлическая стена
+%%%%
+a metal wall
+
+металлическая стена
+%%%%
+the metal wall
+
+металлическая стена
+%%%%
+A rock wall
+
+Скальная стена
+%%%%
+a rock wall
+
+скальная стена
+%%%%
+the rock wall
+
+скальная стена
+%%%%
+A frigid wall
+
+Леденящая стена
+%%%%
+a frigid wall
+
+леденящая стена
+%%%%
+the frigid wall
+
+леденящая стена
+%%%%
+A shop
+
+Лавка
+%%%%
+a shop
+
+лавка
+%%%%
+the shop
+
+лавка
+%%%%
+A stone staircase leading down
+
+Каменная лестница вниз
+%%%%
+a stone staircase leading down
+
+каменная лестница вниз
+%%%%
+the stone staircase leading down
+
+каменная лестница вниз
+%%%%
+A stone staircase leading up
+
+Каменная лестница вверх
+%%%%
+a stone staircase leading up
+
+каменная лестница вверх
+%%%%
+the stone staircase leading up
+
+каменная лестница вверх
+%%%%
+A metal staircase leading down
+
+Металлическая лестница вниз
+%%%%
+a metal staircase leading down
+
+металлическая лестница вниз
+%%%%
+the metal staircase leading down
+
+металлическая лестница вниз
+%%%%
+A metal staircase leading up
+
+Металлическая лестница вверх
+%%%%
+a metal staircase leading up
+
+металлическая лестница вверх
+%%%%
+the metal staircase leading up
+
+металлическая лестница вверх
+%%%%
+A tree
+
+Дерево
+%%%%
+a tree
+
+дерево
+%%%%
+the tree
+
+дерево
+%%%%
+A mangrove
+
+Мангровое дерево
+%%%%
+a mangrove
+
+мангровое дерево
+%%%%
+the mangrove
+
+мангровое дерево
+%%%%
+A demonic tree
+
+Демоническое дерево
+%%%%
+a demonic tree
+
+демоническое дерево
+%%%%
+the demonic tree
+
+демоническое дерево
+%%%%
+A petrified tree
+
+Окаменевшее дерево
+%%%%
+a petrified tree
+
+окаменевшее дерево
+%%%%
+the petrified tree
+
+окаменевшее дерево
+%%%%
+An abandoned shop
+
+Заброшенная лавка
+%%%%
+an abandoned shop
+
+заброшенная лавка
+%%%%
+the abandoned shop
+
+заброшенная лавка
+%%%%
+An orcish idol
+
+Орочий идол
+%%%%
+an orcish idol
+
+орочий идол
+%%%%
+the orcish idol
+
+орочий идол
+%%%%
+An iron grate
+
+Железная решётка
+%%%%
+an iron grate
+
+железная решётка
+%%%%
+the iron grate
+
+железная решётка
+%%%%
+An escape hatch in the floor
+
+Аварийный люк в полу
+%%%%
+the escape hatch in the floor
+
+аварийный люк в полу
+%%%%
+An escape hatch in the ceiling
+
+Аварийный люк в потолке
+%%%%
+the escape hatch in the ceiling
+
+аварийный люк в потолке
+%%%%
+A shaft
+
+Провал
+%%%%
+a shaft
+
+провал
+%%%%
+the shaft
+
+провал
+%%%%
+A sealed passage leading down
+
+Запечатанный проход вниз
+%%%%
+a sealed passage leading down
+
+запечатанный проход вниз
+%%%%
+the sealed passage leading down
+
+запечатанный проход вниз
+%%%%
+A sealed passage leading up
+
+Запечатанный проход вверх
+%%%%
+a sealed passage leading up
+
+запечатанный проход вверх
+%%%%
+the sealed passage leading up
+
+запечатанный проход вверх
+%%%%
+An empty arch of ancient stone
+
+Пустая арка из древнего камня
+%%%%
+an empty arch of ancient stone
+
+пустая арка из древнего камня
+%%%%
+the empty arch of ancient stone
+
+пустая арка из древнего камня
+%%%%
+A detected shop or portal
+
+Обнаруженная лавка или портал
+%%%%
+a detected shop or portal
+
+обнаруженная лавка или портал
+%%%%
+the detected shop or portal
+
+обнаруженная лавка или портал
+%%%%
+A passage of Golubria
+
+Проход Голубрии
+%%%%
+a passage of Golubria
+
+проход Голубрии
+%%%%
+the passage of Golubria
+
+проход Голубрии
+%%%%
+A portal to somewhere
+
+Портал неизвестно куда
+%%%%
+a portal to somewhere
+
+портал неизвестно куда
+%%%%
+the portal to somewhere
+
+портал неизвестно куда
+%%%%
+A granite statue
+
+Гранитная статуя
+%%%%
+a granite statue
+
+гранитная статуя
+%%%%
+the granite statue
+
+гранитная статуя
+%%%%
+A gleaming silver wall
+
+Сияющая серебряная стена
+%%%%
+a gleaming silver wall
+
+сияющая серебряная стена
+%%%%
+the gleaming silver wall
+
+сияющая серебряная стена
+%%%%
+A dry fountain
+
+Высохший фонтан
+%%%%
+a dry fountain
+
+высохший фонтан
+%%%%
+the dry fountain
+
+высохший фонтан
+%%%%
+A fountain of clear blue water
+
+Фонтан чистой голубой воды
+%%%%
+a fountain of clear blue water
+
+фонтан чистой голубой воды
+%%%%
+the fountain of clear blue water
+
+фонтан чистой голубой воды
+%%%%
+A fountain of blood
+
+Фонтан крови
+%%%%
+a fountain of blood
+
+фонтан крови
+%%%%
+the fountain of blood
+
+фонтан крови
+%%%%
+A fountain of eyes
+
+Фонтан глаз
+%%%%
+a fountain of eyes
+
+фонтан глаз
+%%%%
+the fountain of eyes
+
+фонтан глаз
+%%%%
+A fountain of sparkling water
+
+Фонтан искрящейся воды
+%%%%
+a fountain of sparkling water
+
+фонтан искрящейся воды
+%%%%
+the fountain of sparkling water
+
+фонтан искрящейся воды
+%%%%
+A cache of baked goods
+
+Запас выпечки
+%%%%
+a cache of baked goods
+
+запас выпечки
+%%%%
+the cache of baked goods
+
+запас выпечки
+%%%%
+A cache of fruit
+
+Запас фруктов
+%%%%
+a cache of fruit
+
+запас фруктов
+%%%%
+the cache of fruit
+
+запас фруктов
+%%%%
+A cache of meat
+
+Запас мяса
+%%%%
+a cache of meat
+
+запас мяса
+%%%%
+the cache of meat
+
+запас мяса
+%%%%
+A runelight
+
+Сияние руны
+%%%%
+a runelight
+
+сияние руны
+%%%%
+the runelight
+
+сияние руны
+%%%%
+A broken pillar
+
+Разрушенная колонна
+%%%%
+a broken pillar
+
+разрушенная колонна
+%%%%
+the broken pillar
+
+разрушенная колонна
+%%%%
+A one-way staircase leading down
+
+Односторонняя лестница вниз
+%%%%
+a one-way staircase leading down
+
+односторонняя лестница вниз
+%%%%
+the one-way staircase leading down
+
+односторонняя лестница вниз
+%%%%
+A one-way staircase leading up
+
+Односторонняя лестница вверх
+%%%%
+a one-way staircase leading up
+
+односторонняя лестница вверх
+%%%%
+the one-way staircase leading up
+
+односторонняя лестница вверх
+%%%%
+The orb dais
+
+Постамент Сферы
+%%%%
+the orb dais
+
+постамент Сферы
+%%%%
+A statue of an orb of fire
+
+Статуя сферы огня
+%%%%
+a statue of an orb of fire
+
+статуя сферы огня
+%%%%
+the statue of an orb of fire
+
+статуя сферы огня
+%%%%
+A statue of an orb of winter
+
+Статуя сферы зимы
+%%%%
+a statue of an orb of winter
+
+статуя сферы зимы
+%%%%
+the statue of an orb of winter
+
+статуя сферы зимы
+%%%%
+A statue of an orb of entropy
+
+Статуя сферы энтропии
+%%%%
+a statue of an orb of entropy
+
+статуя сферы энтропии
+%%%%
+the statue of an orb of entropy
+
+статуя сферы энтропии
+%%%%
+A patch of mould
+
+Участок плесени
+%%%%
+a patch of mould
+
+участок плесени
+%%%%
+the patch of mould
+
+участок плесени
+%%%%
+a purified mutation catalyst
+
+очищенный мутационный катализатор
+%%%%
+the purified mutation catalyst
+
+очищенный мутационный катализатор
+%%%%
+an empty mutation catalyst
+
+пустой мутационный катализатор
+%%%%
+the empty mutation catalyst
+
+пустой мутационный катализатор
+%%%%
+an earthen dragon vein
+
+драконья жила земли
+%%%%
+the earthen dragon vein
+
+драконья жила земли
+%%%%
+a fiery dragon vein
+
+драконья жила огня
+%%%%
+the fiery dragon vein
+
+драконья жила огня
+%%%%
+an icy dragon vein
+
+драконья жила льда
+%%%%
+the icy dragon vein
+
+драконья жила льда
+%%%%
+an airy dragon vein
+
+драконья жила воздуха
+%%%%
+the airy dragon vein
+
+драконья жила воздуха
+%%%%
+A gate leading back out of this place
+
+Врата обратно
+%%%%
+a gate leading back out of this place
+
+врата обратно
+%%%%
+the gate leading back out of this place
+
+врата обратно
+%%%%
+A gate leading out of Pandemonium
+
+Врата из Пандемониума
+%%%%
+a gate leading out of Pandemonium
+
+врата из Пандемониума
+%%%%
+the gate leading out of Pandemonium
+
+врата из Пандемониума
+%%%%
+A gate leading to another region of Pandemonium
+
+Врата в другую область Пандемониума
+%%%%
+a gate leading to another region of Pandemonium
+
+врата в другую область Пандемониума
+%%%%
+the gate leading to another region of Pandemonium
+
+врата в другую область Пандемониума
+%%%%
+A one-way gate leading to the halls of Pandemonium
+
+Односторонние врата в залы Пандемониума
+%%%%
+a one-way gate leading to the halls of Pandemonium
+
+односторонние врата в залы Пандемониума
+%%%%
+the one-way gate leading to the halls of Pandemonium
+
+односторонние врата в залы Пандемониума
+%%%%
+A staircase to the Depths
+
+Лестница в Глубины
+%%%%
+a staircase to the Depths
+
+лестница в Глубины
+%%%%
+the staircase to the Depths
+
+лестница в Глубины
+%%%%
+A gate to the Realm of Zot
+
+Врата в Царство Зота
+%%%%
+a gate to the Realm of Zot
+
+врата в Царство Зота
+%%%%
+the gate to the Realm of Zot
+
+врата в Царство Зота
+%%%%
+A gateway back into the Dungeon
+
+Врата обратно в Подземелье
+%%%%
+a gateway back into the Dungeon
+
+врата обратно в Подземелье
+%%%%
+the gateway back into the Dungeon
+
+врата обратно в Подземелье
+%%%%
+A gateway leading out of the Abyss
+
+Врата из Бездны
+%%%%
+a gateway leading out of the Abyss
+
+врата из Бездны
+%%%%
+the gateway leading out of the Abyss
+
+врата из Бездны
+%%%%
+A gateway leading deeper into the Abyss
+
+Врата в глубины Бездны
+%%%%
+a gateway leading deeper into the Abyss
+
+врата в глубины Бездны
+%%%%
+the gateway leading deeper into the Abyss
+
+врата в глубины Бездны
+%%%%
+A gateway to a ziggurat
+
+Врата в зиккурат
+%%%%
+a gateway to a ziggurat
+
+врата в зиккурат
+%%%%
+the gateway to a ziggurat
+
+врата в зиккурат
+%%%%
+A gateway to the ashen valley of Gehenna
+
+Врата в пепельную долину Геенны
+%%%%
+a gateway to the ashen valley of Gehenna
+
+врата в пепельную долину Геенны
+%%%%
+the gateway to the ashen valley of Gehenna
+
+врата в пепельную долину Геенны
+%%%%
+A gateway leading out of Gehenna
+
+Врата из Геенны
+%%%%
+a gateway leading out of Gehenna
+
+врата из Геенны
+%%%%
+the gateway leading out of Gehenna
+
+врата из Геенны
+%%%%
+A gateway to Hell
+
+Врата в Ад
+%%%%
+a gateway to Hell
+
+врата в Ад
+%%%%
+the gateway to Hell
+
+врата в Ад
+%%%%
+A gateway to the Iron City of Dis
+
+Врата в Железный город Дис
+%%%%
+a gateway to the Iron City of Dis
+
+врата в Железный город Дис
+%%%%
+the gateway to the Iron City of Dis
+
+врата в Железный город Дис
+%%%%
+A gateway to the decaying netherworld of Tartarus
+
+Врата в гниющий подземный мир Тартара
+%%%%
+a gateway to the decaying netherworld of Tartarus
+
+врата в гниющий подземный мир Тартара
+%%%%
+the gateway to the decaying netherworld of Tartarus
+
+врата в гниющий подземный мир Тартара
+%%%%
+A gateway to the freezing wastes of Cocytus
+
+Врата в ледяные пустоши Коцита
+%%%%
+a gateway to the freezing wastes of Cocytus
+
+врата в ледяные пустоши Коцита
+%%%%
+the gateway to the freezing wastes of Cocytus
+
+врата в ледяные пустоши Коцита
+%%%%
+A hole to the Spider Nest
+
+Лаз в Паучье гнездо
+%%%%
+a hole to the Spider Nest
+
+лаз в Паучье гнездо
+%%%%
+the hole to the Spider Nest
+
+лаз в Паучье гнездо
+%%%%
+A one-way gate to the infinite horrors of the Abyss
+
+Односторонние врата к бесконечным ужасам Бездны
+%%%%
+a one-way gate to the infinite horrors of the Abyss
+
+односторонние врата к бесконечным ужасам Бездны
+%%%%
+the one-way gate to the infinite horrors of the Abyss
+
+односторонние врата к бесконечным ужасам Бездны
+%%%%
+A crawl-hole back to the Lair
+
+Лаз обратно в Логово
+%%%%
+a crawl-hole back to the Lair
+
+лаз обратно в Логово
+%%%%
+the crawl-hole back to the Lair
+
+лаз обратно в Логово
+%%%%
+An exit through the horrors of the Abyss
+
+Выход через ужасы Бездны
+%%%%
+an exit through the horrors of the Abyss
+
+выход через ужасы Бездны
+%%%%
+the exit through the horrors of the Abyss
+
+выход через ужасы Бездны
+%%%%
+A staircase back to the Dungeon
+
+Лестница обратно в Подземелье
+%%%%
+a staircase back to the Dungeon
+
+лестница обратно в Подземелье
+%%%%
+the staircase back to the Dungeon
+
+лестница обратно в Подземелье
+%%%%
+A staircase back to the Lair
+
+Лестница обратно в Логово
+%%%%
+a staircase back to the Lair
+
+лестница обратно в Логово
+%%%%
+the staircase back to the Lair
+
+лестница обратно в Логово
+%%%%
+A staircase back to the Mines
+
+Лестница обратно в Копи
+%%%%
+a staircase back to the Mines
+
+лестница обратно в Копи
+%%%%
+the staircase back to the Mines
+
+лестница обратно в Копи
+%%%%
+A staircase back to the Vaults
+
+Лестница обратно в Хранилища
+%%%%
+a staircase back to the Vaults
+
+лестница обратно в Хранилища
+%%%%
+the staircase back to the Vaults
+
+лестница обратно в Хранилища
+%%%%
+A staircase leading out of the dungeon
+
+Лестница из подземелья
+%%%%
+a staircase leading out of the dungeon
+
+лестница из подземелья
+%%%%
+the staircase leading out of the dungeon
+
+лестница из подземелья
+%%%%
+A staircase back to the Crypt
+
+Лестница обратно в Склеп
+%%%%
+a staircase back to the Crypt
+
+лестница обратно в Склеп
+%%%%
+the staircase back to the Crypt
+
+лестница обратно в Склеп
+%%%%
+A staircase to the Crypt
+
+Лестница в Склеп
+%%%%
+a staircase to the Crypt
+
+лестница в Склеп
+%%%%
+the staircase to the Crypt
+
+лестница в Склеп
+%%%%
+A staircase to the Ecumenical Temple
+
+Лестница во Вселенский храм
+%%%%
+a staircase to the Ecumenical Temple
+
+лестница во Вселенский храм
+%%%%
+the staircase to the Ecumenical Temple
+
+лестница во Вселенский храм
+%%%%
+A staircase to the Elven Halls
+
+Лестница в Эльфийские залы
+%%%%
+a staircase to the Elven Halls
+
+лестница в Эльфийские залы
+%%%%
+the staircase to the Elven Halls
+
+лестница в Эльфийские залы
+%%%%
+A staircase to the Lair
+
+Лестница в Логово
+%%%%
+a staircase to the Lair
+
+лестница в Логово
+%%%%
+the staircase to the Lair
+
+лестница в Логово
+%%%%
+A staircase to the Orcish Mines
+
+Лестница в Орочьи копи
+%%%%
+a staircase to the Orcish Mines
+
+лестница в Орочьи копи
+%%%%
+the staircase to the Orcish Mines
+
+лестница в Орочьи копи
+%%%%
+A staircase to the Shoals
+
+Лестница на Отмели
+%%%%
+a staircase to the Shoals
+
+лестница на Отмели
+%%%%
+the staircase to the Shoals
+
+лестница на Отмели
+%%%%
+A staircase to the Slime Pits
+
+Лестница в Слизистые ямы
+%%%%
+a staircase to the Slime Pits
+
+лестница в Слизистые ямы
+%%%%
+the staircase to the Slime Pits
+
+лестница в Слизистые ямы
+%%%%
+A staircase to the Snake Pit
+
+Лестница в Змеиную яму
+%%%%
+a staircase to the Snake Pit
+
+лестница в Змеиную яму
+%%%%
+the staircase to the Snake Pit
+
+лестница в Змеиную яму
+%%%%
+A staircase to the Swamp
+
+Лестница в Болото
+%%%%
+a staircase to the Swamp
+
+лестница в Болото
+%%%%
+the staircase to the Swamp
+
+лестница в Болото
+%%%%
+A staircase to the Tomb
+
+Лестница в Гробницу
+%%%%
+a staircase to the Tomb
+
+лестница в Гробницу
+%%%%
+the staircase to the Tomb
+
+лестница в Гробницу
+%%%%
+A gate to the Vaults
+
+Врата в Хранилища
+%%%%
+a gate to the Vaults
+
+врата в Хранилища
+%%%%
+the gate to the Vaults
+
+врата в Хранилища
+%%%%
+A transporter
+
+Транспортёр
+%%%%
+a transporter
+
+транспортёр
+%%%%
+the transporter
+
+транспортёр
+%%%%
+A transporter landing site
+
+Место прибытия транспортёра
+%%%%
+a transporter landing site
+
+место прибытия транспортёра
+%%%%
+the transporter landing site
+
+место прибытия транспортёра
+%%%%
+An open door
+
+Открытая дверь
+%%%%
+an open door
+
+открытая дверь
+%%%%
+the open door
+
+открытая дверь
+%%%%
+A closed door
+
+Закрытая дверь
+%%%%
+a closed door
+
+закрытая дверь
+%%%%
+the closed door
+
+закрытая дверь
+%%%%
+A broken door
+
+Сломанная дверь
+%%%%
+a broken door
+
+сломанная дверь
+%%%%
+the broken door
+
+сломанная дверь
+%%%%
+An open translucent door
+
+Открытая прозрачная дверь
+%%%%
+an open translucent door
+
+открытая прозрачная дверь
+%%%%
+the open translucent door
+
+открытая прозрачная дверь
+%%%%
+A closed translucent door
+
+Закрытая прозрачная дверь
+%%%%
+a closed translucent door
+
+закрытая прозрачная дверь
+%%%%
+the closed translucent door
+
+закрытая прозрачная дверь
+%%%%
+A sealed door
+
+Запечатанная дверь
+%%%%
+a sealed door
+
+запечатанная дверь
+%%%%
+the sealed door
+
+запечатанная дверь
+%%%%
+A runed door
+
+Дверь с рунами
+%%%%
+a runed door
+
+дверь с рунами
+%%%%
+the runed door
+
+дверь с рунами
+%%%%
+A runed translucent door
+
+Прозрачная дверь с рунами
+%%%%
+a runed translucent door
+
+прозрачная дверь с рунами
+%%%%
+the runed translucent door
+
+прозрачная дверь с рунами
+%%%%
+An alarm trap
+
+Сигнальная ловушка
+%%%%
+an alarm trap
+
+сигнальная ловушка
+%%%%
+the alarm trap
+
+сигнальная ловушка
+%%%%
+An archmage's trap
+
+Ловушка архимага
+%%%%
+an archmage's trap
+
+ловушка архимага
+%%%%
+the archmage's trap
+
+ловушка архимага
+%%%%
+A devourer's trap
+
+Ловушка пожирателя
+%%%%
+a devourer's trap
+
+ловушка пожирателя
+%%%%
+the devourer's trap
+
+ловушка пожирателя
+%%%%
+A dispersal trap
+
+Ловушка рассеивания
+%%%%
+a dispersal trap
+
+ловушка рассеивания
+%%%%
+the dispersal trap
+
+ловушка рассеивания
+%%%%
+A dispersal trap (recharging)
+
+Ловушка рассеивания (перезарядка)
+%%%%
+a dispersal trap (recharging)
+
+ловушка рассеивания (перезарядка)
+%%%%
+the dispersal trap (recharging)
+
+ловушка рассеивания (перезарядка)
+%%%%
+A harlequin's trap
+
+Ловушка арлекина
+%%%%
+a harlequin's trap
+
+ловушка арлекина
+%%%%
+the harlequin's trap
+
+ловушка арлекина
+%%%%
+A net trap
+
+Ловушка с сетью
+%%%%
+a net trap
+
+ловушка с сетью
+%%%%
+the net trap
+
+ловушка с сетью
+%%%%
+A patch of ice thorns
+
+Участок ледяных шипов
+%%%%
+a patch of ice thorns
+
+участок ледяных шипов
+%%%%
+the patch of ice thorns
+
+участок ледяных шипов
+%%%%
+A permanent teleport trap
+
+Постоянная ловушка телепортации
+%%%%
+a permanent teleport trap
+
+постоянная ловушка телепортации
+%%%%
+the permanent teleport trap
+
+постоянная ловушка телепортации
+%%%%
+A pressure plate
+
+Нажимная плита
+%%%%
+a pressure plate
+
+нажимная плита
+%%%%
+the pressure plate
+
+нажимная плита
+%%%%
+A spike launcher
+
+Шипомёт
+%%%%
+a spike launcher
+
+шипомёт
+%%%%
+the spike launcher
+
+шипомёт
+%%%%
+A teleport trap
+
+Ловушка телепортации
+%%%%
+a teleport trap
+
+ловушка телепортации
+%%%%
+the teleport trap
+
+ловушка телепортации
+%%%%
+A tyrant's trap
+
+Ловушка тирана
+%%%%
+a tyrant's trap
+
+ловушка тирана
+%%%%
+the tyrant's trap
+
+ловушка тирана
+%%%%
+A Zot trap
+
+Ловушка Зота
+%%%%
+a Zot trap
+
+ловушка Зота
+%%%%
+the Zot trap
+
+ловушка Зота
+%%%%
+A flagged portal
+
+Портал со знаменем
+%%%%
+a flagged portal
+
+портал со знаменем
+%%%%
+the flagged portal
+
+портал со знаменем
+%%%%
+A gauntlet entrance
+
+Вход в Испытание
+%%%%
+a gauntlet entrance
+
+вход в Испытание
+%%%%
+the gauntlet entrance
+
+вход в Испытание
+%%%%
+A flickering gateway to a bazaar
+
+Мерцающие врата на базар
+%%%%
+a flickering gateway to a bazaar
+
+мерцающие врата на базар
+%%%%
+the flickering gateway to a bazaar
+
+мерцающие врата на базар
+%%%%
+A gateway to a bazaar
+
+Врата на базар
+%%%%
+a gateway to a bazaar
+
+врата на базар
+%%%%
+the gateway to a bazaar
+
+врата на базар
+%%%%
+A phantasmal passage
+
+Призрачный проход
+%%%%
+a phantasmal passage
+
+призрачный проход
+%%%%
+the phantasmal passage
+
+призрачный проход
+%%%%
+A frozen archway
+
+Замёрзшая арка
+%%%%
+a frozen archway
+
+замёрзшая арка
+%%%%
+the frozen archway
+
+замёрзшая арка
+%%%%
+A glacial archway
+
+Ледниковая арка
+%%%%
+a glacial archway
+
+ледниковая арка
+%%%%
+the glacial archway
+
+ледниковая арка
+%%%%
+A sand-covered staircase
+
+Засыпаемая песком лестница
+%%%%
+a sand-covered staircase
+
+засыпаемая песком лестница
+%%%%
+the sand-covered staircase
+
+засыпаемая песком лестница
+%%%%
+A glowing drain
+
+Светящийся сток
+%%%%
+a glowing drain
+
+светящийся сток
+%%%%
+the glowing drain
+
+светящийся сток
+%%%%
+A portal to a secret trove of treasure
+
+Портал в тайную сокровищницу
+%%%%
+a portal to a secret trove of treasure
+
+портал в тайную сокровищницу
+%%%%
+the portal to a secret trove of treasure
+
+портал в тайную сокровищницу
+%%%%
+A dark tunnel
+
+Тёмный туннель
+%%%%
+a dark tunnel
+
+тёмный туннель
+%%%%
+the dark tunnel
+
+тёмный туннель
+%%%%
+A crumbling gateway
+
+Разрушающиеся врата
+%%%%
+a crumbling gateway
+
+разрушающиеся врата
+%%%%
+the crumbling gateway
+
+разрушающиеся врата
+%%%%
+A mutagenic drain
+
+Мутагенный сток
+%%%%
+a mutagenic drain
+
+мутагенный сток
+%%%%
+the mutagenic drain
+
+мутагенный сток
+%%%%
+A magical portal
+
+Магический портал
+%%%%
+a magical portal
+
+магический портал
+%%%%
+the magical portal
+
+магический портал
+%%%%
+A collapsed entrance
+
+Обрушившийся вход
+%%%%
+a collapsed entrance
+
+обрушившийся вход
+%%%%
+the collapsed entrance
+
+обрушившийся вход
+%%%%
+A gateway leading out of Dis
+
+Врата из Диса
+%%%%
+a gateway leading out of Dis
+
+врата из Диса
+%%%%
+the gateway leading out of Dis
+
+врата из Диса
+%%%%
+A gateway leading out of Tartarus
+
+Врата из Тартара
+%%%%
+a gateway leading out of Tartarus
+
+врата из Тартара
+%%%%
+the gateway leading out of Tartarus
+
+врата из Тартара
+%%%%
+A gateway leading out of Cocytus
+
+Врата из Коцита
+%%%%
+a gateway leading out of Cocytus
+
+врата из Коцита
+%%%%
+the gateway leading out of Cocytus
+
+врата из Коцита
+%%%%
+A broken translucent door
+
+Сломанная прозрачная дверь
+%%%%
+a broken translucent door
+
+сломанная прозрачная дверь
+%%%%
+the broken translucent door
+
+сломанная прозрачная дверь
+%%%%
+A large runed translucent door
+
+Большая прозрачная дверь с рунами
+%%%%
+a large runed translucent door
+
+большая прозрачная дверь с рунами
+%%%%
+the large runed translucent door
+
+большая прозрачная дверь с рунами
+%%%%
+A runed translucent gate
+
+Прозрачные ворота с рунами
+%%%%
+a runed translucent gate
+
+прозрачные ворота с рунами
+%%%%
+the runed translucent gate
+
+прозрачные ворота с рунами
+%%%%
+A huge runed translucent gate
+
+Огромные прозрачные ворота с рунами
+%%%%
+a huge runed translucent gate
+
+огромные прозрачные ворота с рунами
+%%%%
+the huge runed translucent gate
+
+огромные прозрачные ворота с рунами
+%%%%
+A large open door
+
+Большая открытая дверь
+%%%%
+a large open door
+
+большая открытая дверь
+%%%%
+the large open door
+
+большая открытая дверь
+%%%%
+An open gate
+
+Открытые ворота
+%%%%
+an open gate
+
+открытые ворота
+%%%%
+the open gate
+
+открытые ворота
+%%%%
+A huge open gate
+
+Огромные открытые ворота
+%%%%
+a huge open gate
+
+огромные открытые ворота
+%%%%
+the huge open gate
+
+огромные открытые ворота
+%%%%
+A large closed door
+
+Большая закрытая дверь
+%%%%
+a large closed door
+
+большая закрытая дверь
+%%%%
+the large closed door
+
+большая закрытая дверь
+%%%%
+A closed gate
+
+Закрытые ворота
+%%%%
+a closed gate
+
+закрытые ворота
+%%%%
+the closed gate
+
+закрытые ворота
+%%%%
+A huge closed gate
+
+Огромные закрытые ворота
+%%%%
+a huge closed gate
+
+огромные закрытые ворота
+%%%%
+the huge closed gate
+
+огромные закрытые ворота
+%%%%
+A large runed door
+
+Большая дверь с рунами
+%%%%
+a large runed door
+
+большая дверь с рунами
+%%%%
+the large runed door
+
+большая дверь с рунами
+%%%%
+A runed gate
+
+Ворота с рунами
+%%%%
+a runed gate
+
+ворота с рунами
+%%%%
+the runed gate
+
+ворота с рунами
+%%%%
+A huge runed gate
+
+Огромные ворота с рунами
+%%%%
+a huge runed gate
+
+огромные ворота с рунами
+%%%%
+the huge runed gate
+
+огромные ворота с рунами
+%%%%
+A large sealed door
+
+Большая запечатанная дверь
+%%%%
+a large sealed door
+
+большая запечатанная дверь
+%%%%
+the large sealed door
+
+большая запечатанная дверь
+%%%%
+A sealed gate
+
+Запечатанные ворота
+%%%%
+a sealed gate
+
+запечатанные ворота
+%%%%
+the sealed gate
+
+запечатанные ворота
+%%%%
+A huge sealed gate
+
+Огромные запечатанные ворота
+%%%%
+a huge sealed gate
+
+огромные запечатанные ворота
+%%%%
+the huge sealed gate
+
+огромные запечатанные ворота
+%%%%
+A large broken door
+
+Большая сломанная дверь
+%%%%
+a large broken door
+
+большая сломанная дверь
+%%%%
+the large broken door
+
+большая сломанная дверь
+%%%%
+A broken gate
+
+Сломанные ворота
+%%%%
+a broken gate
+
+сломанные ворота
+%%%%
+the broken gate
+
+сломанные ворота
+%%%%
+A huge broken gate
+
+Огромные сломанные ворота
+%%%%
+a huge broken gate
+
+огромные сломанные ворота
+%%%%
+the huge broken gate
+
+огромные сломанные ворота
+%%%%
+A large translucent open door
+
+Большая открытая прозрачная дверь
+%%%%
+a large translucent open door
+
+большая открытая прозрачная дверь
+%%%%
+the large translucent open door
+
+большая открытая прозрачная дверь
+%%%%
+An open translucent gate
+
+Открытые прозрачные ворота
+%%%%
+an open translucent gate
+
+открытые прозрачные ворота
+%%%%
+the open translucent gate
+
+открытые прозрачные ворота
+%%%%
+A huge open translucent gate
+
+Огромные открытые прозрачные ворота
+%%%%
+a huge open translucent gate
+
+огромные открытые прозрачные ворота
+%%%%
+the huge open translucent gate
+
+огромные открытые прозрачные ворота
+%%%%
+A large translucent closed door
+
+Большая закрытая прозрачная дверь
+%%%%
+a large translucent closed door
+
+большая закрытая прозрачная дверь
+%%%%
+the large translucent closed door
+
+большая закрытая прозрачная дверь
+%%%%
+A closed translucent gate
+
+Закрытые прозрачные ворота
+%%%%
+a closed translucent gate
+
+закрытые прозрачные ворота
+%%%%
+the closed translucent gate
+
+закрытые прозрачные ворота
+%%%%
+A huge closed translucent gate
+
+Огромные закрытые прозрачные ворота
+%%%%
+a huge closed translucent gate
+
+огромные закрытые прозрачные ворота
+%%%%
+the huge closed translucent gate
+
+огромные закрытые прозрачные ворота
+%%%%
+A large translucent broken door
+
+Большая сломанная прозрачная дверь
+%%%%
+a large translucent broken door
+
+большая сломанная прозрачная дверь
+%%%%
+the large translucent broken door
+
+большая сломанная прозрачная дверь
+%%%%
+A broken translucent gate
+
+Сломанные прозрачные ворота
+%%%%
+a broken translucent gate
+
+сломанные прозрачные ворота
+%%%%
+the broken translucent gate
+
+сломанные прозрачные ворота
+%%%%
+A huge broken translucent gate
+
+Огромные сломанные прозрачные ворота
+%%%%
+a huge broken translucent gate
+
+огромные сломанные прозрачные ворота
+%%%%
+the huge broken translucent gate
+
+огромные сломанные прозрачные ворота
+%%%%
+A slimy stone staircase leading down
+
+Покрытая слизью каменная лестница вниз
+%%%%
+a slimy stone staircase leading down
+
+покрытая слизью каменная лестница вниз
+%%%%
+the slimy stone staircase leading down
+
+покрытая слизью каменная лестница вниз
+%%%%
+A slimy stone staircase leading up
+
+Покрытая слизью каменная лестница вверх
+%%%%
+a slimy stone staircase leading up
+
+покрытая слизью каменная лестница вверх
+%%%%
+the slimy stone staircase leading up
+
+покрытая слизью каменная лестница вверх
+%%%%
+While standing here, you can exit the dungeon with the <w>%s</w> key.
+
+Стоя здесь, нажмите <w>%s</w>, чтобы покинуть подземелье.
+%%%%
+While standing here, you can traverse %s with the <w>%s</w> key.
+
+Стоя здесь, используйте переход «%s» клавишей <w>%s</w>.
+%%%%
+" You have not yet explored it and cannot tell where it leads."
+
+" Вы ещё не исследовали этот переход и не знаете, куда он ведёт."
+%%%%
+" You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>."
+
+" Чтобы увидеть место назначения, осмотрите переход на карте клавишей <w>%s</w>, затем нажмите <w>%s</w>."
+%%%%
+(If you entered the Abyss now, you could be pulled as deep as Abyss:%d.)
+
+(Если войти в Бездну сейчас, вас может затянуть вплоть до этажа Бездна:%d.)
+%%%%
+While standing here, you can try to enter %s with the <w>%s</w> key; it will vanish after you do so.
+
+Стоя здесь, попробуйте воспользоваться переходом «%s» клавишей <w>%s</w>. После входа он исчезнет.
+%%%%
+While standing here, you can enter %s with the <w>%s</w> key; it will vanish after you do so.
+
+Стоя здесь, используйте переход «%s» клавишей <w>%s</w>. После входа он исчезнет.
+%%%%
+While standing here, you can enter through this gateway with the <w>%s</w> key.
+
+Стоя здесь, нажмите <w>%s</w>, чтобы войти через эти врата.
+%%%%
+While standing here, you can exit through this gateway with the <w>%s</w> key.
+
+Стоя здесь, нажмите <w>%s</w>, чтобы выйти через эти врата.
+%%%%
+" You must have enough runes to use this gateway."
+
+" Для этого нужно собрать достаточно рун."
+%%%%
+Pray here with <w>%s</w> to learn more.
+
+Чтобы узнать больше, помолитесь здесь клавишей <w>%s</w>.
+%%%%
+While standing here, you can enter <w>%s</w> with the <w>%s</w> key.
+
+Стоя здесь, войдите в лавку «<w>%s</w>» клавишей <w>%s</w>.
+%%%%
+While standing here, you can enter %s with the <w>%s</w> key.
+
+Стоя здесь, используйте переход «%s» клавишей <w>%s</w>.
+%%%%
+<w>While standing here, you can crack open %s with the</w> <cyan>%s</cyan> <w>key</w>.
+
+<w>Стоя здесь, разбейте устройство «%s» клавишей</w> <cyan>%s</cyan> <w>для активации</w>.
+%%%%
+It does %dd%d damage.
+
+Наносит %dd%d урона.
+%%%%
+It inflicts %s damage when channelled.
+
+При использовании наносит %s урона.
+%%%%
+Stepping on it inflicts %dd%d damage.
+
+Наступившее сюда существо получает %dd%d урона.
+%%%%
+While adjacent to it, you can open it by pressing the <w>%s</w> key.
+
+Встаньте рядом и нажмите <w>%s</w>, чтобы открыть.
+%%%%
+While adjacent to it, you can close it by pressing the <w>%s</w> key.
+
+Встаньте рядом и нажмите <w>%s</w>, чтобы закрыть.
+%%%%
+" However, this will not work until the sealing runes wear off."
+
+" Однако это не сработает, пока запечатывающие руны не утратят силу."
+%%%%
+The door is shut tight!
+
+Дверь наглухо закрыта!
+%%%%
+It's already open!
+
+Уже открыто!
+%%%%
+That door is sealed shut!
+
+Эта дверь магически запечатана!
+%%%%
+There isn't anything that you can open there!
+
+Здесь нечего открыть!
+%%%%
+It's broken and can't be closed.
+
+Сломано: закрыть невозможно.
+%%%%
+It's broken and can't be closed!
+
+Сломано: закрыть невозможно!
+%%%%
+There's nothing to close nearby.
+
+Рядом нечего закрыть.
+%%%%
+It's already closed!
+
+Уже закрыто!
+%%%%
+There isn't anything that you can close there!
+
+Здесь нечего закрыть!
+%%%%
+If you enter this portal you might not be able to return immediately. Continue?
+
+Войдя в этот портал, вы, возможно, не сможете сразу вернуться. Продолжить?
+%%%%
+You sense a hostile presence.
+
+Вы ощущаете враждебное присутствие.
+%%%%
+A huge vortex of air appears!
+
+Возникает огромный воздушный вихрь!
+%%%%
+The power of Zot is invoked against you!
+
+Сила Зота обращается против вас!
+%%%%
+You enter the passage of Golubria.
+
+Вы входите в проход Голубрии.
+%%%%
+This passage seems to be blocked by something!
+
+Похоже, этот проход чем-то заблокирован!
+%%%%
+This passage doesn't lead anywhere!
+
+Этот проход никуда не ведёт!
+%%%%
+You enter a dispersal trap!
+
+Вы наступаете на ловушку рассеивания!
+%%%%
+@monster@ enters a dispersal trap!
+
+@monster@ наступает на ловушку рассеивания!
+%%%%
+You enter a teleport trap!
+
+Вы наступаете на ловушку телепортации!
+%%%%
+The teleport trap disappears.
+
+Ловушка телепортации исчезает.
+%%%%
+You enter a tyrant's trap.
+
+Вы наступаете на ловушку тирана.
+%%%%
+You enter an archmage's trap.
+
+Вы наступаете на ловушку архимага.
+%%%%
+You enter a harlequin's trap.
+
+Вы наступаете на ловушку арлекина.
+%%%%
+You enter a devourer's trap.
+
+Вы наступаете на ловушку пожирателя.
+%%%%
+Your strength is siphoned away, and you feel your attacks grow feeble!
+
+Из вас вытягивают силу — ваши атаки ослабевают!
+%%%%
+Your strength is siphoned away as %s grow stronger!
+
+Из вас вытягивают силу! Усиление получают: %s.
+%%%%
+Your strength is siphoned away as %s grows stronger!
+
+Из вас вытягивают силу! Усиление получает: %s.
+%%%%
+Your power is siphoned away!
+
+Из вас вытягивают магическую энергию!
+%%%%
+The spells of %s are empowered!
+
+Усиление заклинаний получают: %s!
+%%%%
+Your power is siphoned away as the spells of %s are empowered!
+
+Из вас вытягивают магическую энергию! Усиление заклинаний получают: %s.
+%%%%
+@monster@ invokes a tyrant's trap upon you!
+
+@monster@ обращает против вас ловушку тирана!
+%%%%
+@monster@ sets off a tyrant's trap!
+
+@monster@ запускает ловушку тирана!
+%%%%
+@monster@ invokes an archmage's trap upon you!
+
+@monster@ обращает против вас ловушку архимага!
+%%%%
+@monster@ sets off an archmage's trap!
+
+@monster@ запускает ловушку архимага!
+%%%%
+@monster@ invokes a harlequin's trap!
+
+@monster@ активирует ловушку арлекина!
+%%%%
+@monster@ sets off a harlequin's trap!
+
+@monster@ запускает ловушку арлекина!
+%%%%
+@monster@ enters a harlequin's trap.
+
+@monster@ наступает на ловушку арлекина.
+%%%%
+@monster@ invokes an devourer's trap upon you!
+
+@monster@ обращает против вас ловушку пожирателя!
+%%%%
+@monster@ sets off an devourer's trap!
+
+@monster@ запускает ловушку пожирателя!
+%%%%
+@monster@ enters a devourer's trap.
+
+@monster@ наступает на ловушку пожирателя.
+%%%%
+You set off the alarm!
+
+Вы запускаете сигнализацию!
+%%%%
+The alarm trap vibrates slightly, failing to make a sound.
+
+Сигнальная ловушка слегка вибрирует, но не издаёт ни звука.
+%%%%
+Something launches a net on you.
+
+Что-то выстреливает в вас сетью.
+%%%%
+You trigger a net trap.
+
+Вы запускаете ловушку с сетью.
+%%%%
+You avoid being caught in a net.
+
+Вам удаётся избежать сети.
+%%%%
+You pick your way through the web.
+
+Вы осторожно пробираетесь через паутину.
+%%%%
+A web moves frantically as something is caught in it!
+
+Паутина яростно дёргается: в ней что-то запуталось!
+%%%%
+You enter the Zot trap.
+
+Вы наступаете на ловушку Зота.
+%%%%
+You hear a loud "Zot"!
+
+Вы слышите громкое «Зот»!
+%%%%
+With a horrendous wail, an alarm goes off!
+
+Сигнализация срабатывает с жутким воем!
+%%%%
+You are caught in a web!
+
+Вы запутались в паутине!
+%%%%
+You become entangled in the net!
+
+Вы запутались в сети!
+%%%%
+Something gets caught in the net!
+
+В сети что-то запуталось!
+%%%%
+You struggle to detach yourself from the web.
+
+Вы пытаетесь освободиться от паутины.
+%%%%
+You disentangle yourself.
+
+Вы выпутываетесь.
+%%%%
+You shred the net and break free!
+
+Вы разрываете сеть в клочья и освобождаетесь!
+%%%%
+You rip the net and break free!
+
+Вы разрываете сеть и освобождаетесь!
+%%%%
+You tear a large gash into the net.
+
+Вы проделываете большую дыру в сети.
+%%%%
+You struggle against the net.
+
+Вы пытаетесь вырваться из сети.

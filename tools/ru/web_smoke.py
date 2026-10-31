@@ -349,6 +349,35 @@ def main():
                     assert "With your current stats" not in expansion_text and "XLs" not in expansion_text, expansion_text
                     spell_page.screenshot(path=str(ARTIFACTS / "manifold-description.png"), full_page=True)
                     (ARTIFACTS / "manifold-description.txt").write_text(expansion_text, encoding="utf8")
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    # Replace only this isolated wizard's current tile. Inspect
+                    # actual feature popups, including a resolved DB reference
+                    # and an instruction with the configured stair key.
+                    for feature, expected, absent in (
+                        ("closed_door", ("Закрытая дверь", "чтобы открыть", "пользоваться снаряжением"), ("While adjacent", "wooden door")),
+                        ("trap_dispersal_inactive", ("перезаряжается", "в поле зрения", "нескольких ходов"), ("[[A dispersal trap]]", "Anyone stepping")),
+                        ("stone_stairs_down_i", ("Каменная лестница вниз", "клавишей", "Вы находитесь здесь"), ("While standing", "You are here")),
+                    ):
+                        spell_page.keyboard.type("&(")
+                        feature_input = spell_page.locator("#messages .game_message input")
+                        feature_input.wait_for(state="visible")
+                        feature_input.fill(feature)
+                        spell_page.keyboard.press("Enter")
+                        feature_input.wait_for(state="detached")
+                        spell_page.keyboard.type("xrv", delay=80)
+                        popup = spell_page.locator("#ui-stack > .ui-popup").last
+                        popup.wait_for(state="visible")
+                        feature_text = popup.inner_text()
+                        for text in expected:
+                            assert text in feature_text, feature_text
+                        for text in absent:
+                            assert text not in feature_text, feature_text
+                        spell_page.screenshot(path=str(ARTIFACTS / (feature + "-description.png")), full_page=True)
+                        (ARTIFACTS / (feature + "-description.txt")).write_text(feature_text, encoding="utf8")
+                        spell_page.keyboard.press("Escape")
+                        spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                        spell_page.keyboard.press("Escape")
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

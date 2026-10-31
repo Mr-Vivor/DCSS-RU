@@ -3653,16 +3653,16 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
         {
             // XX custom messages for other branch entrances/exits?
             long_desc += make_stringf(
-                    "\nWhile standing here, you can exit the dungeon "
-                    "with the <w>%s</w> key.",
+                    localise("\nWhile standing here, you can exit the dungeon "
+                    "with the <w>%s</w> key.").c_str(),
                     _esc_cmd_to_str(stair_dir).c_str());
         }
         else if (feat_is_staircase(feat) || feat_is_escape_hatch(feat))
         {
             long_desc += make_stringf(
-                    "\nWhile standing here, you can traverse %s "
-                    "with the <w>%s</w> key.",
-                    desc_the.c_str(),
+                    localise("\nWhile standing here, you can traverse %s "
+                    "with the <w>%s</w> key.").c_str(),
+                    localise(desc_the).c_str(),
                     _esc_cmd_to_str(stair_dir).c_str());
 
             if (is_unknown_stair(pos))
@@ -3677,65 +3677,62 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
                                          ? CMD_MAP_PREV_LEVEL
                                          : CMD_MAP_NEXT_LEVEL;
                 long_desc +=
-                    make_stringf(" You can view the location it leads to by "
+                    make_stringf(localise(" You can view the location it leads to by "
                                  "examining it with <w>%s</w> and pressing "
-                                 "<w>%s</w>.",
+                                 "<w>%s</w>.").c_str(),
                                  command_to_string(CMD_DISPLAY_MAP).c_str(),
                                  command_to_string(look_dir).c_str());
             }
         }
         else if (feat == DNGN_ENTER_ABYSS || feat == DNGN_EXIT_THROUGH_ABYSS)
         {
-            long_desc += make_stringf("\n(If you entered the Abyss now, you could be "
-                                          "pulled as deep as Abyss:%d.)",
+            long_desc += make_stringf(localise("\n(If you entered the Abyss now, you could be "
+                                          "pulled as deep as Abyss:%d.)").c_str(),
                                       abyss_default_depth(true));
         }
         else if (feat_is_portal(feat)
             || feat == DNGN_ENTER_ZIGGURAT) // augh this is technically a gate
         {
-            long_desc += make_stringf(
-                    "\nWhile standing here, you can %senter %s "
-                    "with the <w>%s</w> key; it will vanish after you do so.",
-                    feat == DNGN_ENTER_TROVE ? "try to " : "",
-                    desc_the.c_str(),
+            const char* prompt = feat == DNGN_ENTER_TROVE
+                ? "\nWhile standing here, you can try to enter %s with the <w>%s</w> key; it will vanish after you do so."
+                : "\nWhile standing here, you can enter %s with the <w>%s</w> key; it will vanish after you do so.";
+            long_desc += make_stringf(localise(prompt).c_str(),
+                    localise(desc_the).c_str(),
                     _esc_cmd_to_str(stair_dir).c_str());
         }
         else if (feat_is_gate(feat))
         {
-            // it's just special case after special case with these descs
-            const string how = feat == DNGN_ENTER_HELL
-                ? (stair_dir == CMD_GO_UPSTAIRS ? "to Hell" : "Hell")
-                : make_stringf("through %s", desc_the.c_str());
-            long_desc += make_stringf(
-                    "\nWhile standing here, you can %s %s "
-                    "with the <w>%s</w> key%s.",
-                    stair_dir == CMD_GO_DOWNSTAIRS ? "enter" : "exit",
-                    how.c_str(),
-                    _esc_cmd_to_str(stair_dir).c_str(),
-                    (feat == DNGN_ENTER_ZOT || feat == DNGN_EXIT_VAULTS)
-                        ? " if you have enough runes" : "");
+            // Use complete sentences: direction words and optional rune clauses
+            // cannot be assembled with English grammar in translated prose.
+            const char* prompt = stair_dir == CMD_GO_DOWNSTAIRS
+                ? "\nWhile standing here, you can enter through this gateway with the <w>%s</w> key."
+                : "\nWhile standing here, you can exit through this gateway with the <w>%s</w> key.";
+            long_desc += make_stringf(localise(prompt).c_str(),
+                                     _esc_cmd_to_str(stair_dir).c_str());
+            if (feat == DNGN_ENTER_ZOT || feat == DNGN_EXIT_VAULTS)
+                long_desc += localise(" You must have enough runes to use this gateway.");
         }
     }
     else if (feat_is_altar(feat))
     {
         long_desc +=
-            make_stringf("\nPray here with <w>%s</w> to learn more.\n",
+            make_stringf(localise("\nPray here with <w>%s</w> to learn more.\n").c_str(),
                          command_to_string(CMD_GO_DOWNSTAIRS).c_str());
     }
     else if (feat == DNGN_ENTER_SHOP)
     {
         long_desc += make_stringf(
-                "\nWhile standing here, you can enter <w>%s</w> with "
-                "the <w>%s</w> key.",
-                desc.c_str(),
+                localise("\nWhile standing here, you can enter <w>%s</w> with "
+                "the <w>%s</w> key.").c_str(),
+                localise(desc).c_str(),
                 command_to_string(CMD_GO_DOWNSTAIRS).c_str());
     }
     else if (feat == DNGN_TRANSPORTER)
     {
         long_desc += make_stringf(
-                "\nWhile standing here, you can enter %s with "
-                "with the <w>%s</w> key.",
-                desc_the.c_str(),
+                localise("\nWhile standing here, you can enter %s with "
+                "the <w>%s</w> key.").c_str(),
+                localise(desc_the).c_str(),
                 command_to_string(CMD_GO_DOWNSTAIRS).c_str());
     }
     else if (feat == DNGN_PURIFIED_MUTATION_CATALYST)
@@ -3760,8 +3757,8 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
         else
         {
             long_desc += make_stringf(
-                      "<w>\nWhile standing here, you can crack open %s with "
-                      "the</w> <cyan>%s</cyan> <w>key</w>.", desc_the.c_str(),
+                      localise("\n<w>While standing here, you can crack open %s with "
+                      "the</w> <cyan>%s</cyan> <w>key</w>.").c_str(), localise(desc_the).c_str(),
                        command_to_string(CMD_GO_DOWNSTAIRS).c_str());
         }
     }
@@ -3771,12 +3768,12 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
         if (mark)
         {
             dice_def dmg = zap_damage(ZAP_SPIKE_LAUNCHER, mark->power, mark->owner != MID_PLAYER, false);
-            long_desc += make_stringf("\nIt does %dd%d damage.", dmg.num, dmg.size);
+            long_desc += make_stringf(localise("\nIt does %dd%d damage.").c_str(), dmg.num, dmg.size);
         }
     }
     else if (feat_is_dragon_vein(feat))
     {
-        long_desc += make_stringf("\nIt inflicts %s damage when channelled.",
+        long_desc += make_stringf(localise("\nIt inflicts %s damage when channelled.").c_str(),
                         spell_damage_string(dragon_vein_to_spell(feat),
                                             false, calc_spell_power(SPELL_DRAGON_VEINS)).c_str());
     }
@@ -3786,7 +3783,7 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
         if (mark)
         {
             dice_def dmg = zap_damage(ZAP_ICE_THORNS, mark->power, mark->source_mid != MID_PLAYER, false);
-            long_desc += make_stringf("\nStepping on it inflicts %dd%d damage.", dmg.num, dmg.size);
+            long_desc += make_stringf(localise("\nStepping on it inflicts %dd%d damage.").c_str(), dmg.num, dmg.size);
         }
     }
 
@@ -3808,11 +3805,10 @@ void get_feature_desc(const coord_def &pos, describe_info &inf, bool include_ext
         const bool openable = feat_is_closed_door(feat);
         const bool sealed = feat_is_sealed(feat);
 
-        long_desc += make_stringf(
-            "\nWhile adjacent to it, you can %s%s it by pressing the "
-            "<w>%s</w> key.",
-            sealed ? "normally " : "",
-            openable ? "open" : "close",
+        const char* prompt = openable
+            ? "\nWhile adjacent to it, you can open it by pressing the <w>%s</w> key."
+            : "\nWhile adjacent to it, you can close it by pressing the <w>%s</w> key.";
+        long_desc += make_stringf(localise(prompt).c_str(),
             command_to_string(openable ? CMD_OPEN_DOOR : CMD_CLOSE_DOOR).c_str());
         if (sealed)
             long_desc += " However, this will not work until the sealing runes wear off.";

@@ -28,6 +28,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "map-knowledge.h"
 #include "mapmark.h"
 #include "mon-cast.h" // recall for zot traps
@@ -385,9 +386,11 @@ void trigger_trap(actor& triggerer)
            mpr("Your strength is siphoned away, and you feel your attacks grow feeble!");
         else
         {
-            mprf("Your strength is siphoned away as %s grow%s stronger!",
-                describe_monsters_condensed(buffed_mons).c_str(),
-                visible_mons > 1 ? "" : "s");
+            const char* message = visible_mons > 1
+                ? "Your strength is siphoned away as %s grow stronger!"
+                : "Your strength is siphoned away as %s grows stronger!";
+            mprf(localise(message).c_str(),
+                 localise(describe_monsters_condensed(buffed_mons)).c_str());
         }
 
         break;
@@ -419,11 +422,12 @@ void trigger_trap(actor& triggerer)
             string m_list = describe_monsters_condensed(buffed_mons);
 
             if (drain == 0)
-                mprf("The spells of %s are empowered!", m_list.c_str());
+                mprf(localise("The spells of %s are empowered!").c_str(),
+                     localise(m_list).c_str());
             else
             {
-                mprf(MSGCH_WARN, "Your power is siphoned away as the spells of %s are empowered!",
-                     m_list.c_str());
+                mprf(MSGCH_WARN, localise("Your power is siphoned away as the spells of %s are empowered!").c_str(),
+                     localise(m_list).c_str());
             }
         }
         break;
