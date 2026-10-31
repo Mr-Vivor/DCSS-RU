@@ -2859,9 +2859,9 @@ static level_pos _prompt_travel_depth(const level_id &id, bool remember_targ)
     while (true)
     {
         msgwin_clear_temporary();
-        mprf(MSGCH_PROMPT, "What level of %s? "
-             "(default %s, ? - help) ",
-             branches[target.id.branch].longname,
+        mprf(MSGCH_PROMPT, localise("What level of %s? "
+             "(default %s, ? - help) ").c_str(),
+             localise(branches[target.id.branch].longname).c_str(),
              _get_trans_travel_dest(target, true).c_str());
 
         char buf[100];

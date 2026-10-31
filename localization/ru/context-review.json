@@ -32567,6 +32567,10 @@
     "Assign waypoint to what number? (0-9%s) ": {
       "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "690361409312417356d5d876067f91b9bba8f2e2db5ecd45da1c4b935295f7f0"
+    },
+    "What level of %s? (default %s, ? - help) ": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "80853dab00e35f2afb5a953609e4c09d0958b773e89e98c568912188d3eb2890"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

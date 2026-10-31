@@ -614,6 +614,9 @@ TEST_CASE("Russian navigation and multi-turn actions keep their meaning", "[loca
                        "Tab/Enter", "D:3") == "Tab/Enter — D:3");
     CHECK(make_stringf(localise("Where to? %s").c_str(), "(? — справка) ")
           == "Куда идти? (? — справка) ");
+    CHECK(make_stringf(localise("What level of %s? (default %s, ? - help) ").c_str(),
+                       localise("the Dungeon").c_str(), "1")
+          == "На какой этаж ветви «Подземелье» идти? (по умолчанию 1, ? — справка) ");
     CHECK(make_stringf(localise("Assign waypoint to what number? (0-9%s) ").c_str(), "")
           == "Какой номер назначить путевой точке? (0–9) ");
     CHECK(make_stringf(localise("Assign waypoint to what number? (0-9%s) ").c_str(),
