@@ -4422,8 +4422,8 @@
     },
     "A toxic bog": {
       "source_sha256": "ea3b961a8cb423b3a5b751fbbf46126d37b825a91d3468499181eeb9f233291e",
-      "text": "Грязная ядовитая жижа глубиной по пояс. Существо, которое бредёт или плывёт по ней, получает урон и отравляется, даже если обладает сопротивлением яду. Приспособленные к воде существа могут плавать здесь и атаковать без помех. Остальным приходится медленно брести, а их ближние атаки иногда срываются из-за потери равновесия. Крупные существа движутся с обычной скоростью и не испытывают таких помех при атаке.",
-      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+      "text": "Грязная ядовитая жижа глубиной по пояс. Большинство существ, которые бредут или плывут по ней, получают урон и отравляются, даже если обладают сопротивлением яду. Некоторые обитатели приспособлены к такой среде и не страдают от неё. Вас защищают полёт, ходьба по воде и действующие чары «Ядовитая трясина Эрингьи». Приспособленные к воде существа могут плавать здесь и атаковать без помех. Остальным приходится медленно брести, а их ближние атаки иногда срываются из-за потери равновесия. Крупные существа движутся с обычной скоростью и не испытывают таких помех при атаке.",
+      "context": "Checked against actor_apply_toxic_bog/_bog_can_affect in spl-damage.cc and movement checks in player.cc: flight, water walking, active DUR_NOXIOUS_BOG and adapted monsters avoid the hazard. Poison resistance alone does not prevent damage. Source reference and movement distinctions retained."
     },
     "Some mud": {
       "source_sha256": "7fb73815e8d82aab9a00eb711dd31f483be1a24c8e03feb3bdc682802b18d717",
@@ -4982,8 +4982,8 @@
     },
     "A harlequin's trap": {
       "source_sha256": "4dd9244059150c4c726d2491f80b80623c0792a35da9a5e3d29e231c5780a649",
-      "text": "Магическая ловушка, оставшаяся после непостижимых феерий хаоса. Когда вы или враждебный монстр наступаете на неё, атаки не более чем трёх сильнейших монстров в поле зрения временно обретают свойства хаоса. Союзники избегают наступать на неё.",
-      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+      "text": "Магическая ловушка, оставшаяся после непостижимых феерий хаоса. Когда вы или враждебный монстр наступаете на неё, атаки не более чем трёх сильнейших враждебных монстров в поле зрения временно обретают свойства хаоса. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained. _find_and_buff_trap_targets excludes wont_attack and peripheral monsters; only hostile targets receive these buffs."
     },
     "A net trap": {
       "source_sha256": "0a25fd9834ba748fedc2879ae5ce7a1f1544980afbe786d15bc7b979c2219fb7",
@@ -5017,8 +5017,8 @@
     },
     "A tyrant's trap": {
       "source_sha256": "eed355a5808a9da664bc6d48d1fae27437a8b3c5fd334f4d364843195a6812ff",
-      "text": "Магическая ловушка, созданная для усиления армий деспота-завоевателя. Когда вы или враждебный монстр наступаете на неё, ваши ближние атаки ослабевают, а не более чем три самых опасных монстра в поле зрения становятся сильнее. Союзники избегают наступать на неё.",
-      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained."
+      "text": "Магическая ловушка, созданная для усиления армий деспота-завоевателя. Когда вы или враждебный монстр наступаете на неё, ваши ближние атаки ослабевают, а не более чем три самых опасных враждебных монстра в поле зрения становятся сильнее. Союзники избегают наступать на неё.",
+      "context": "Current features.txt: terrain hazards, trap trigger vs affected creature, one-way exits, door permissions and portal expiry reviewed; English database aliases and references retained. _find_and_buff_trap_targets excludes wont_attack and peripheral monsters; only hostile targets receive these buffs."
     },
     "A Zot trap": {
       "source_sha256": "380c5a2b8b42ce9226cfd68b5f50fe39545113d358b4efee6e468f966379680e",

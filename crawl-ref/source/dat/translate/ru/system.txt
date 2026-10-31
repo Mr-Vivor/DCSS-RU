@@ -35164,14 +35164,6 @@ While standing here, you can traverse %s with the <w>%s</w> key.
 
 Стоя здесь, используйте переход «%s» клавишей <w>%s</w>.
 %%%%
-" You have not yet explored it and cannot tell where it leads."
-
-" Вы ещё не исследовали этот переход и не знаете, куда он ведёт."
-%%%%
-" You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>."
-
-" Чтобы увидеть место назначения, осмотрите переход на карте клавишей <w>%s</w>, затем нажмите <w>%s</w>."
-%%%%
 (If you entered the Abyss now, you could be pulled as deep as Abyss:%d.)
 
 (Если войти в Бездну сейчас, вас может затянуть вплоть до этажа Бездна:%d.)
@@ -35191,10 +35183,6 @@ While standing here, you can enter through this gateway with the <w>%s</w> key.
 While standing here, you can exit through this gateway with the <w>%s</w> key.
 
 Стоя здесь, нажмите <w>%s</w>, чтобы выйти через эти врата.
-%%%%
-" You must have enough runes to use this gateway."
-
-" Для этого нужно собрать достаточно рун."
 %%%%
 Pray here with <w>%s</w> to learn more.
 
@@ -35231,6 +35219,18 @@ While adjacent to it, you can open it by pressing the <w>%s</w> key.
 While adjacent to it, you can close it by pressing the <w>%s</w> key.
 
 Встаньте рядом и нажмите <w>%s</w>, чтобы закрыть.
+%%%%
+" You have not yet explored it and cannot tell where it leads."
+
+" Вы ещё не исследовали этот переход и не знаете, куда он ведёт."
+%%%%
+" You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>."
+
+" Чтобы увидеть место назначения, осмотрите переход на карте клавишей <w>%s</w>, затем нажмите <w>%s</w>."
+%%%%
+" You must have enough runes to use this gateway."
+
+" Для этого нужно собрать достаточно рун."
 %%%%
 " However, this will not work until the sealing runes wear off."
 

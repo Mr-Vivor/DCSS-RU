@@ -34792,14 +34792,6 @@
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
       "translation_sha256": "a4141bdf9486f5f00d18cb0600bc2f64873b09af6224fe84cb87bf594f0e162f"
     },
-    " You have not yet explored it and cannot tell where it leads.": {
-      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
-      "translation_sha256": "7bc79b5471f1d8fe7e08573c3a48b1309fe2216d6541c865584daa36e2077f41"
-    },
-    " You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>.": {
-      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
-      "translation_sha256": "b3c0be2407642b0d156ce760473e1dc6d0e6235f550c01b1daa854ae749caec4"
-    },
     "(If you entered the Abyss now, you could be pulled as deep as Abyss:%d.)": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
       "translation_sha256": "5ce6d4b6bec23b1ceea85c5ab193c2cea4b1e7e175cd9206a223af42912f0c1b"
@@ -34819,10 +34811,6 @@
     "While standing here, you can exit through this gateway with the <w>%s</w> key.": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
       "translation_sha256": "77f8c222ba4d9af4062541e276e2ddec7d92f1c50ee341c9d250b2836a891038"
-    },
-    " You must have enough runes to use this gateway.": {
-      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
-      "translation_sha256": "1b8508468f2dfa43776ad17f8192c231345310a2f0c1585d2603af8dd06ef73d"
     },
     "Pray here with <w>%s</w> to learn more.": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
@@ -34859,6 +34847,18 @@
     "While adjacent to it, you can close it by pressing the <w>%s</w> key.": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
       "translation_sha256": "b373bbd84082cfce58ea71e07ab2d20764e24b934f5da3451d9c9cca97a60926"
+    },
+    " You have not yet explored it and cannot tell where it leads.": {
+      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
+      "translation_sha256": "7bc79b5471f1d8fe7e08573c3a48b1309fe2216d6541c865584daa36e2077f41"
+    },
+    " You can view the location it leads to by examining it with <w>%s</w> and pressing <w>%s</w>.": {
+      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
+      "translation_sha256": "b3c0be2407642b0d156ce760473e1dc6d0e6235f550c01b1daa854ae749caec4"
+    },
+    " You must have enough runes to use this gateway.": {
+      "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
+      "translation_sha256": "1b8508468f2dfa43776ad17f8192c231345310a2f0c1585d2603af8dd06ef73d"
     },
     " However, this will not work until the sealing runes wear off.": {
       "context": "describe.cc, movement.cc and traps.cc: terrain interaction, actual key bindings, rune requirements, trap triggers and escape messages. Conditional empty fragments replaced by complete display templates where needed; MP drain is not physical strength loss.",
