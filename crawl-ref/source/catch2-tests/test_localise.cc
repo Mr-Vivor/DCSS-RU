@@ -706,3 +706,46 @@ TEST_CASE("Russian stash queries match display names without changing English pa
     CHECK(localise_in_context("stash-action", "travel") == "travel");
     Options.language = lang_t::RU;
 }
+
+TEST_CASE("Russian spell expansion preserves mechanics and configurable reminders", "[localise][single-file]")
+{
+    russian_localisation language;
+    CHECK(localise("Manifold Assault") == "Множественная атака");
+    CHECK(localise("Brom's Barrelling Boulder") == "Катящийся валун Брома");
+    CHECK(localise("Yara's Violent Unravelling") == "Разрушительное рассеивание Яры");
+    const string assault = getLongDescription("Manifold Assault spell");
+    CHECK(assault.find("вдвое меньше целей") != string::npos);
+    CHECK(assault.find("никогда не промахиваются") != string::npos);
+    CHECK(assault.find("дополнительного урона") != string::npos);
+    const string invisibility = getLongDescription("Invisibility spell");
+    CHECK(invisibility.find("перемещает") != string::npos);
+    CHECK(invisibility.find("случайное место") != string::npos);
+    CHECK(getLongDescription("Sublimation of Blood spell").find("никогда не приводит к смерти") != string::npos);
+    CHECK(getLongDescription("Fugue of the Fallen spell").find("сбрасывает накопленное усиление") != string::npos);
+    CHECK(getLongDescription("Rimeblight spell").find("игнорирующий броню") != string::npos);
+    CHECK(getLongDescription("Passage of Golubria spell").find("случайному другому открытому проходу") != string::npos);
+    CHECK(localise("You feel a numb sensation.") == "Вы ощущаете ослабление магии.");
+    CHECK(localise("You can't swap your ancestor with themself.")
+          == "Нельзя поменять предка местами с самим собой.");
+    CHECK(localise_in_context("target-menu", "target/travel") == "наведение/переход");
+    CHECK(localise("target") == "цель");
+
+    if (command_to_name(CMD_WAIT) == "CMD_NO_CMD")
+        init_keybindings();
+    const int previous = command_to_key(CMD_WAIT);
+    const command_type displaced = key_to_command('W', context_for_command(CMD_WAIT));
+    bind_command_to_key(CMD_WAIT, 'W');
+    string reminder = localise("(Press <w>%</w> to continue winding your bee.)");
+    insert_commands(reminder, { CMD_WAIT });
+    CHECK(reminder.find("<w>W</w>") != string::npos);
+    CHECK(reminder.find("заводить пчелу") != string::npos);
+    CHECK(reminder.find('%') == string::npos);
+    bind_command_to_key(CMD_WAIT, previous);
+    if (displaced != CMD_NO_CMD)
+        bind_command_to_key(displaced, 'W');
+
+    Options.language = lang_t::EN;
+    CHECK(localise("Manifold Assault") == "Manifold Assault");
+    CHECK(getLongDescription("Manifold Assault spell").find("never miss") != string::npos);
+    Options.language = lang_t::RU;
+}

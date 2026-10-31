@@ -1941,36 +1941,36 @@
       "translation_sha256": "ee2495da8b6ac0f238c70b857c86a6642f40aa06d384853ac85d6e5390d8dff9"
     },
     "You feel a huge surge of power!": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "c387bad8fbd35ccf61910294dcc9cd31b7b1e439907bf2302bce7620dbddcc48"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "83df348b5f425f0f7b069a601f1f3355e023155685599ad262d5ea8f30fca777"
     },
     "You feel a strong surge of power!": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "ec69d521af1758520b62a9165870dc543bf6d42084cbf26ffe3edeec10e5a376"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "91c63d02b50d333f3417cf24fc1566308bb9687e8b978698f8bed870db1ecf3e"
     },
     "You feel a surge of power!": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "799d0f7855e5477a2a75c594bf7e29a3ee17ca19ffb510c3632201e8792ad45a"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "e16ac3f145fc89272bf54638695380623e96454b5aabef2fa3f33ab489c63684"
     },
     "You feel an extraordinarily numb sensation.": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "9e2dd73c6d07031f11e798f5993d65250466ddb45f58eda5eca93b112cddf5f6"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "23157c4390adbb4247e487bba054a9256ebfc67dd94e8c2277db3815549c8d3d"
     },
     "You feel an extremely numb sensation.": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "c7ebad5a62b729b204396abc9d600e79288da8f1bbdc85bec9391a805d55d4a9"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "925d36ea0edc95f41636a5db52bd4c48d552eb297e17c755ad57270200adfac9"
     },
     "You feel a numb sensation.": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "2470aeb4d1746c67fb9147e583828d0e64d1c9fa218b81db23c6aa4058ae7936"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "67f8f3ca6c0acfb6ad981e34bec64fe14c30aa549ca8706053a1d44be88a836c"
     },
     "You feel a slight surge of power.": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "ca08f3a44ffb663ab7e0b5ca0bc007542258886e11707a331bce08a4e31d1595"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "a7c9bd7c18acdfd562d96604a65d5b9bba7f1711656baf0c67ad3f4bdf14ce7c"
     },
     "You feel a surge of power.": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "d3a742b1b9540dd2b97c9768e0e73896652a117f49faac917d409e7fab70d515"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "42d55c772036aecc560bf187fad7d7443cdcdb0b4b4e1d7574d1073a9c153d9b"
     },
     "Press '<w>!</w>' or '<w>I</w>' to toggle spell view.": {
       "context": "spl-cast.cc",
@@ -2181,23 +2181,23 @@
       "translation_sha256": "21cdf32f55df36d6d34234318d2bf7f93d1e84213229ae6d226e466bd5add4a4"
     },
     "You can't see anything there to charge at.": {
-      "context": "target.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "ad68ce6f623311db28d2cc3ae97974e7fa9fd6843c443a317dd4e5eeff5f19ab"
     },
     "You can't charge at yourself.": {
-      "context": "target.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "c629d90c311b32e345733cda405728f3886936d774fa202d413746346dc21284"
     },
     "You're already next to there.": {
-      "context": "target.cc",
-      "translation_sha256": "ed8a1c2e3444660d0d33462482820fc48a48453b7d2556d10832843b8c9cff1c"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "b950e70b7c813d67caac123679b2468fd6918bbdb7d94b2cfb55156ade813828"
     },
     "There's @arg@ in the way.": {
       "context": "target.cc",
       "translation_sha256": "a50cbc7d999572653b2fcc98540634ea42305f8cca734fc8618c6e1cffac0089"
     },
     "You cannot see that place.": {
-      "context": "target.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "160cbb7a95c57ac3acc4ab7c722366cbe47d1085813c3f411c602909fb7d29fc"
     },
     "Please select a direction to dig.": {
@@ -2209,7 +2209,7 @@
       "translation_sha256": "b4566b4fb4181d0bbf12a5049d86d5cd56abc718c5e13fb2efbe4535000093c3"
     },
     "You can't swap your ancestor with themself.": {
-      "context": "target.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "36401de0d1c945293015630e2c972dcbd27fd797cb98d0d6743fc4c7c2ec02cd"
     },
     "You cannot affect that.": {
@@ -6365,8 +6365,8 @@
       "translation_sha256": "acda2efc3b24f8435a7cd204b3841dd6ed4a0addd9acd4baae23e30ce7e53fbc"
     },
     "No monsters, items or features are visible.": {
-      "context": "directn.cc",
-      "translation_sha256": "20bff6bff50b9cced7c2185a686c457b37ab0d50a43677b3024f5ab786ef9eb9"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "e7dca9f313fd080cf35e7c48cb40638267ef8c03ebeecb5016a6503a1a9bdcd6"
     },
     "target/travel": {
       "context": "directn.cc",
@@ -6377,28 +6377,28 @@
       "translation_sha256": "69609e52249e599292255b3b7a0008b92ce6aa5d3d8e2b08d449200a71a02e65"
     },
     "There's something in the way.": {
-      "context": "directn.cc",
-      "translation_sha256": "74f8b9c221cfdfcab0f63cab2783d5f64ca5176de9f9388dac81f3f074cb6885"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "7ae9f4c65e685aae27287d264c4414d26297ebd5d33df97542c43a001fa5ca39"
     },
     "You can't see that place.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "160cbb7a95c57ac3acc4ab7c722366cbe47d1085813c3f411c602909fb7d29fc"
     },
     "That would be overly suicidal.": {
-      "context": "directn.cc",
-      "translation_sha256": "ba2eb36f13d8e5b31d9924a869bbb3b473e0eb481ff44c468d1349d25ed9b0e5"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "e5fc769f58bf7c51e9c29e310dda3d90453f13b1ad80ee8d9d10da22bfc0aa7a"
     },
     "Really target yourself?": {
-      "context": "directn.cc",
-      "translation_sha256": "a0a54e6860143e483775cd745da399f249c742ce85b824f92eaaeb17d9a6e0f9"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "4980c71cd83f8ce0e7aeae349825a5a06cd9a983eccb7e1e03d85cea446cda83"
     },
     "Sorry, you can't target yourself.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "e102f46aee094e12789ecab418e3db3cab7d1bf2968d8b4cf1a269f7365fa12a"
     },
     "Are you sure you want to fizzle?": {
-      "context": "directn.cc",
-      "translation_sha256": "67da1a7cfe28beac9f8617bbe0215eb227999cd8b8ebf1ce72ce8c891dc1e9dc"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "02e918b9ec4679a287a6a8a26ac777e092c61261021ee061d4bfaeca7a2b0868"
     },
     "All monsters which could be auto-targeted are covered by a wall or statue which interrupts your line of fire, even though it doesn't interrupt your line of sight.": {
       "context": "directn.cc",
@@ -6409,12 +6409,12 @@
       "translation_sha256": "15b0fd430bfb074cda404442a357e3d0a4cd3fb83e0ab62bf08e14363b52b413"
     },
     "You can't see any item there.": {
-      "context": "directn.cc",
-      "translation_sha256": "eea99f4038b5c64234ec3133b6e7d778a2928f621147fed2118320b760cbe16a"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "90e0847caf89fada57fae9622af4d5a49b2ace71526974e6439ad3c5ee165cde"
     },
     "Marked for pickup.": {
-      "context": "directn.cc",
-      "translation_sha256": "dd5b58b2f1b00d00f545639e2a08b35a9760817e8d7b219d9218dafeaf88441c"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "898256d7a4bad6c2b21740e156396bd5447538eb4f5b43c7515fcfa5b1e5dfd5"
     },
     "sanctuary": {
       "context": "directn.cc",
@@ -6449,39 +6449,39 @@
       "translation_sha256": "1792ffbbce89e1b5043b8f529d6895283bc435fef2358a7608b563a22ebb6d50"
     },
     "This spell doesn't need a beam path.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "346d9f98162da95a6faccac402e01dfc977a83bfac2061843170e43e5b1fc6fd"
     },
     "Your target is gone.": {
-      "context": "directn.cc",
-      "translation_sha256": "0995572c5215f1b8db4daee5bf72eade6e22b91f2ed3d2738f168c84c656ffd5"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "501371ea270d289afb7f3202e6d996947ff06e60900b5dd35801f646274033ab"
     },
     "Brought monster down to 1 HP.": {
       "context": "directn.cc",
       "translation_sha256": "f10414e370d27448a68d24d2f580f16c0706f93436b0998de801cb7e30cfe887"
     },
     "There are no valid targets to list.": {
-      "context": "directn.cc",
-      "translation_sha256": "4538625cb0e25f9a1180e471a118095fab14b7dc6fc5d50891094936ce50dc2d"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "5281ac73e30390c2af45b5bc69fa2823191710134f63195e0b992a1b0c0277e5"
     },
     "target": {
       "context": "directn.cc",
       "translation_sha256": "9f3f0146d91203feb3323e2dd8b0145d6486145df3a23f52116bb3ef30e89e6a"
     },
     "You cannot set exclusions on this level.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "ddb99968f76cb008b5084c51f601a09f13d92f83ac15a5779b3a31d05e311b46"
     },
     "Placed new exclusion.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "3a78cfb87793dea71fd86a10153c8b1d10f96a524f73c080a20bca3d9d0e6eef"
     },
     "Removed exclusion.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "f372693767d61a7a56445f30f94458579f6b830c9e8aa0dc41dde4290ac1bcb4"
     },
     "Reduced exclusion size to a single square.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "d5c0513c3f781c635e13eb0af084c609db4d342ab1c65ea6f73742679b906867"
     },
     "[unseen terrain]": {
@@ -6693,7 +6693,7 @@
       "translation_sha256": "cd10424c53a3eecc576500a425bba8ce609cfd6027938c6b761ebd9b9b612841"
     },
     "This monster is out of range.": {
-      "context": "directn.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "52835754e0952a7024f1c2e17f7a9116fbdaa776e5aefb8a5f89102513d4e9b9"
     },
     "(<w>Right-click</w> for more information.)": {
@@ -16809,7 +16809,7 @@
       "translation_sha256": "606d438e5ec0abb76ac48ebe17ffed1e1fa08510ab593cc344c4298123ce99d3"
     },
     "(Press <w>%</w> to maintain the ray.)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "14b43857321fd28c443577094db8394eb823e01cdc4bfa5bb0ca7357ac0ffb8c"
     },
     "Without enough magic to sustain it, your searing ray dissipates.": {
@@ -16869,8 +16869,8 @@
       "translation_sha256": "9ff39d3d6dd0fba972fd395139e9edcbf96858f1604d5afbdb1fffd6ec49d0fe"
     },
     "(Press <w>%</w> to continue charging.)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "1a383e5099c2da1dbcdafb4a46b5da0b51b5c7304b549be4726c7a67326f64c2"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "bfba06d53ef934e8c972d7acf8c3abc808ce142bdb01639867bb4d8dafbde23e"
     },
     "Your charge dissipates without a target.": {
       "context": "spl-damage.cc",
@@ -20837,12 +20837,12 @@
       "translation_sha256": "1bd8fc065552d8d9352eb6f30d943522bdefe9b5faaf8a132177be65611a4a6f"
     },
     "You can't transfer that.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "a7d46992470b39e41c4321c8d9cdb800f284f03664e62d8d7b4d781d31439a1d"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "c485d527f07c435ef44a4533613ebb34a439cfce13c1fd32b33fa2c9114d59f7"
     },
     "@Arg@ can't be transferred there.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "fd7cf81530aff640fc599c2e667806d0228b5788f7e058393092d1bca77a0946"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "9d96ad86e01f814ae9bf9932a93dfd736a87e5e8ddcbd763a6a38fdedb60b655"
     },
     "You swap with @arg@!": {
       "context": "god-abil.cc",
@@ -23717,8 +23717,8 @@
       "translation_sha256": "ff357a4ddd4dc8109c6d996c9ce8ac324a5f409c186a713f27d52d6fa4132ca6"
     },
     "No reachable target in view!": {
-      "context": "xom.cc",
-      "translation_sha256": "7d2854b78a548ad7beff92e60dd082cf376a7d902eb7de3125f24c6a4d1b471b"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "b25915c2e815a82b6a8a89a2ffd27f2148f0bab5ce8fa2b5007120f743c7e41e"
     },
     "No target in range!": {
       "context": "xom.cc",
@@ -28749,11 +28749,11 @@
       "translation_sha256": "5a9dff7879bfebb0adaedd0014b55f13bcc6f90b3fcc4ff6b1ff772973b42a4c"
     },
     "<lightgrey>Select a spell to cast</lightgrey>": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "e956a88c184e3d9aa847897c947adf3505f9eb683cd2c8222d972a7cd1a45331"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "d9ab4247ce06f0fd9aaa86a8ee26ad6bc57e9869bcf9b026e4edd7510a328ffb"
     },
     "<lightgrey>Select a spell to describe</lightgrey>": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "1dc8cc8fb04360a64f255bd1039c092b2e800b762376aed48c959a9581bf5f36"
     },
     "<lightgrey>Select a spell to forget</lightgrey>": {
@@ -28773,12 +28773,12 @@
       "translation_sha256": "bb1eaa3e4a00a478a4c74f4212d329d33f5a9152090401839d633f90789dc38f"
     },
     "Your spells (cast)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "8564a63ec0171cbb551d8529d7a3c37031a5bf071f0fa7371a2ee457b57b87c9"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "522f3208f9282a0ffedbbf2ce79c580513e444e6b9722496371c1fd0e5eda2c2"
     },
     "Your spells (describe)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "46c5eb4672da686a0879ff7bc6785d6c849d433d43f7cbc1fd2b326336b9b26a"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "710c3163bc83e6a81916a949fa18566a7fb8a81147514248bcf2ac8436471d03"
     },
     "Your spells (forget)": {
       "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
@@ -28809,11 +28809,11 @@
       "translation_sha256": "54f74875fea9de954be9e580a4a44b7f9cc8c91124902154f7bd23e4bcda7618"
     },
     "(Press <w>%</w> to intensify the flame waves.)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "4b0d907612a5b1897a4d7c995e505629095df0a5df8ffa0ab3cb3507c259e544"
     },
     "(Press <w>%</w> to continue winding your bee.)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
       "translation_sha256": "ca6aa0fec278a11f008a108110588558032214a14ad5e4e864002e8539a2cbc2"
     },
     "None (50% rC for icy explosions)": {
@@ -29077,8 +29077,8 @@
       "translation_sha256": "470ff45184e2c7f2886a483d532421b5aeb9b8ff64082fdb94c202404ca7837c"
     },
     "<lightgray> (select to examine)</lightgray>": {
-      "context": "directn.cc:inspection and targeting; square is feminine in Russian",
-      "translation_sha256": "9604e81ce47a553693a9417f8abbe7e033d7b8e306a9d47509b199ac3a90fb50"
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "24afcae79a14ebfc37c2e7bc9c0e65842ca4368929dd4f00ec642165738d3aa2"
     },
     "<lightgray> (select to examine, @key@ to target/travel)</lightgray>": {
       "context": "directn.cc:inspection and targeting; square is feminine in Russian",
@@ -32703,6 +32703,150 @@
     " Zot: ": {
       "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "d672a3f68c60d41b93f2f486da67c8ef7d5410de7420121df2bf3de190d92e31"
+    },
+    "Freezing Cloud": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "ce295f11cc39a083e924fe1a6e157776c70a26cef0697ee4626439af3cfbe078"
+    },
+    "Ignite Poison": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "45eddfba4a2412cddc3626e5d4f42d8bb7124f98a1333a8d6929e3467c02a637"
+    },
+    "Sublimation of Blood": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "cebca8c5fffc5565b21df43b9e407e774863dceb81f04165ccbcf34deb94ec20"
+    },
+    "Manifold Assault": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "814c3004984b0fdb2ba3124fdaf16409a6c0918aa5fb36218e339cd75df97fbb"
+    },
+    "Leda's Liquefaction": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "7711dd7b87b21cd4cc12ab9676ff18c87c70de80ccc21ae82722fcf1f0a4d000"
+    },
+    "Fugue of the Fallen": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "c89735ddbfb4e8e1517ed2ab9a7022ffac9caebc552c5df81fcd010f015688ba"
+    },
+    "Lesser Beckoning": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "1e643d3a3e6b147c962d0debdbd0657d145f71028021ac21351fe04580d10360"
+    },
+    "Brom's Barrelling Boulder": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "49050f6fa6ce32c8693bcacbd264167dc17c089086d5e993ef43405fbb176c1d"
+    },
+    "Passage of Golubria": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "6b8acb281025fe388d73b429c0ab7fa82c34c05777785388d465e23c0d496f04"
+    },
+    "Silence": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "82706373a543597d192e07cefe92fd283061959f8772e503a2fbba117ab02abd"
+    },
+    "Invisibility": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "7adabbc2cb0e88c5d5327ac63c8b8f49c59a3fc7ed1a3d0cb9ebc357d4117575"
+    },
+    "Alistair's Intoxication": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "c163a108e35dcb92e483ef7c8230a9ebe0b6a7497d150ec4a3846ffa522f5a6b"
+    },
+    "Irradiate": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "ced15c20fa4940ccdb9f84fec47fcae4c9739bf38a6fca3f95bc928b5851d7e1"
+    },
+    "Yara's Violent Unravelling": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "b0f452e20dc15c0c8bb231cd67a41fba8e381d75c4980a22db64680d90a5cc63"
+    },
+    "Summon Forest": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "5b0ca3d5274f6a49722a7038d336efa775370b2b781088bb225d158054f1309e"
+    },
+    "Summon Mana Viper": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "df895295027047806b5c2a79077ffab718b61308a9f3c5408a8de9063091e4eb"
+    },
+    "Death Channel": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "a1b20505fb10c7c5de783a2bdc0e192e1fc257f091aa9b296bfcfe34ef21b7dd"
+    },
+    "Martyr's Knell": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "06a65edbf3a13b677cce97e242161a80aa64e8776b3deb77d4c3b2dc73f3cd78"
+    },
+    "Eringya's Noxious Bog": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "3b8b0a47094182598955ea9abbe052fc0a17bbd1529c0b9e069dc0e6749d903e"
+    },
+    "Hoarfrost Cannonade": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "261725647db87f4f084df61086d7dfdb81a848581188b9b7b742f46abf722212"
+    },
+    "Magnavolt": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "efb607a12a271de753d8eb9db4939d46e733b903cbeae9b38215735733579eb7"
+    },
+    "Rimeblight": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "9d5f18927324c0e1c86ce0ad64639c32f6ccbf8305b5e3e75cdfed8db542415e"
+    },
+    "Permafrost Eruption": {
+      "context": "Reviewed spell title: avoid literal mistranslations of manifold, barrelling, beckoning and unravelling; proper names preserved in Cyrillic.",
+      "translation_sha256": "ebdbb473f03fe9b79a4e347ae56ee26ead6e8b1ca3c1d8e0d5ccb141952f8fdc"
+    },
+    "<lightgray> (select to examine, %s to %s)</lightgray>": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "10a2261d8a570596f08315dba7af3606ef3fdfa672860ffa90e7594a6f96017e"
+    },
+    "<lightgray> (select to %s, %s to examine)</lightgray>": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "60d96a98762d1e1224972fa8315b9ca0cd0ca0854d293476e4c25e1772c8e887"
+    },
+    "That would be pointless.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "b4feb31eaa7beda1973aa260628b8f160cc8c899c1c73b9c90552845ce26cbfd"
+    },
+    "Out of range.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "1072753c2abf4dbd02c076e5d23a517ec8d2d3dde0c751ea7734ce10533d4613"
+    },
+    "You can't see that clearly enough to target.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "7d93d96ad6c4ce3ab3ee3f9675f90904efbf5948b1605dd10359d08d1bbe29a0"
+    },
+    "@Arg@ can't be transferred to your ancestor's location.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "48ac82c7596caf316326e942efb9af7cf9234695d3e5dc20eb3edff9a6c34417"
+    },
+    "You cannot do harm to @arg@.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "4a1a31d5a62bc0c96a55b0f659e3609582fd89820258d1a3e0a11cdd6ab7d059"
+    },
+    "@Arg@ has no magical effects to unravel.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "379703da0b9a1fbca9f0af6ebe4b4eda509be2bb9b6b8f04485faa249e4c79d2"
+    },
+    "The unravelling is likely to hit you. Continue anyway?": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "d845a0dfac484f9c366e680ea721e209b2d96db4a4c9d6303f794067b6af4b4b"
+    },
+    "You can't see anything there. Cast anyway?": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "5d904556fc69926e75587c23f8a784046837447f2c6392c383d77550ed0d4ae7"
+    },
+    ", temporary": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "2dc31008bf44bf1958a64dde67e023aaa4817c6b31c61551701033762bc02ba2"
+    },
+    "{target-menu}target": {
+      "context": "directn.cc _full_describe_menu: menu action label, separate from generic noun target and ordinary travel.",
+      "translation_sha256": "553c3cdd7467b4717e1a53344bedecefc6e2904c50118be19c9ecfdf889ba08d"
+    },
+    "{target-menu}target/travel": {
+      "context": "directn.cc _full_describe_menu: menu action label, separate from generic noun target and ordinary travel.",
+      "translation_sha256": "d6a1182b2ca39eb4002d64add68a1d7a5473fa7661726cef5b560d11a88ee2f1"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

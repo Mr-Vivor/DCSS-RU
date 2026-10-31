@@ -147,7 +147,13 @@ def main():
                     page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     page.keyboard.press("Control+x")
                     page.wait_for_function("document.body.innerText.includes('В поле зрения:')")
+                    visible_menu = page.locator("#ui-stack > .ui-popup").last
+                    assert "наведение/переход" in visible_menu.inner_text(), visible_menu.inner_text()
+                    assert "select to" not in visible_menu.inner_text(), visible_menu.inner_text()
                     page.screenshot(path=str(ARTIFACTS / "visible-objects.png"), full_page=True)
+                    page.keyboard.type("!")
+                    page.wait_for_function("document.body.innerText.includes('выбор — описание')")
+                    page.screenshot(path=str(ARTIFACTS / "visible-objects-examine.png"), full_page=True)
                     page.keyboard.press("Escape")
                     page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     # Navigation menus and waypoint edits cost no turns. Keep
@@ -314,6 +320,31 @@ def main():
                     spell_page.locator(".describe-item .actions [data-hotkey='i']").click()
                     spell_page.wait_for_function("document.body.innerText.includes('Какую пометку')")
                     spell_page.keyboard.press("Escape")
+                    spell_page.locator("#messages .game_message input").wait_for(state="detached")
+                    # Add a fixed new spell to this isolated wizard character.
+                    # No turn is spent and no production save is involved.
+                    spell_page.keyboard.type("&!")
+                    spell_page.locator("#messages .game_message input").wait_for(state="visible")
+                    spell_page.locator("#messages .game_message input").fill("Manifold Assault")
+                    spell_page.keyboard.press("Enter")
+                    spell_page.locator("#messages .game_message input").wait_for(state="detached")
+                    spell_page.wait_for_function("""() => {
+                        const messages = document.querySelectorAll('#messages .game_message');
+                        return messages.length && /Memorise|Выучить|Запомнить/.test(messages[messages.length - 1].innerText)
+                            && messages[messages.length - 1].innerText.includes('?');
+                    }""")
+                    spell_page.keyboard.type("Y")
+                    spell_page.wait_for_timeout(150)
+                    spell_page.keyboard.type("I")
+                    spell_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Множественная атака")
+                    spell_row.wait_for()
+                    spell_row.click()
+                    spell_page.wait_for_function("document.body.innerText.includes('вдвое меньше целей')")
+                    expansion_text = spell_page.locator("#ui-stack > .ui-popup").last.inner_text()
+                    assert "никогда не промахиваются" in expansion_text, expansion_text
+                    assert "коллектор" not in expansion_text and "Warps space" not in expansion_text, expansion_text
+                    spell_page.screenshot(path=str(ARTIFACTS / "manifold-description.png"), full_page=True)
+                    (ARTIFACTS / "manifold-description.txt").write_text(expansion_text, encoding="utf8")
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

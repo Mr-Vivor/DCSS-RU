@@ -527,12 +527,12 @@ static coord_def _full_describe_menu(vector<monster_info> const &list_mons,
         else
         {
             title_secondary = title
-                + localise("<lightgray> (select to examine, "
-                + menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE)
-                + " to " + selectverb + ")</lightgray>");
-            title += localise("<lightgray> (select to " + selectverb + ", "
-                + menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE)
-                + " to examine)</lightgray>");
+                + make_stringf(localise("<lightgray> (select to examine, %s to %s)</lightgray>").c_str(),
+                    menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str(),
+                    localise_in_context("target-menu", selectverb).c_str());
+            title += make_stringf(localise("<lightgray> (select to %s, %s to examine)</lightgray>").c_str(),
+                localise_in_context("target-menu", selectverb).c_str(),
+                menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str());
         }
     }
 

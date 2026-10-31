@@ -204,6 +204,29 @@
 | Fire Storm | Огненный шторм |
 | Shatter | Раскол |
 | Iskenderun's Battlesphere | Боевая сфера Искендеруна |
+| Freezing Cloud | Ледяное облако |
+| Ignite Poison | Воспламенение яда |
+| Sublimation of Blood | Сублимация крови |
+| Manifold Assault | Множественная атака |
+| Leda's Liquefaction | Разжижение Леды |
+| Fugue of the Fallen | Фуга павших |
+| Lesser Beckoning | Малое притяжение |
+| Brom's Barrelling Boulder | Катящийся валун Брома |
+| Passage of Golubria | Проход Голубрии |
+| Silence | Безмолвие |
+| Invisibility | Невидимость |
+| Alistair's Intoxication | Опьянение Алистера |
+| Irradiate | Облучение |
+| Yara's Violent Unravelling | Разрушительное рассеивание Яры |
+| Summon Forest | Призыв леса |
+| Summon Mana Viper | Призыв мановой гадюки |
+| Death Channel | Канал смерти |
+| Martyr's Knell | Погребальный звон мученика |
+| Eringya's Noxious Bog | Ядовитая трясина Эрингьи |
+| Hoarfrost Cannonade | Инейная канонада |
+| Magnavolt | Магнавольт |
+| Rimeblight | Инеевый мор |
+| Permafrost Eruption | Извержение вечной мерзлоты |
 
 ## items
 

@@ -2520,6 +2520,121 @@
       "source_sha256": "f216edff6d6c99bca31c03c1775b09cb4d4bf72120b15c9e5505cbfe623de017",
       "text": "Создаёт небольшую сферу разрушительной энергии. Каждый раз, когда её создатель применяет наступательное заклинание, сфера выпускает безошибочно попадающий залп энергии в самого раненого из ближайших врагов, до которых может достать.\n\nСоздатель сферы может свободно стрелять сквозь её клетку, не причиняя ей вреда.",
       "context": "Current spells.txt: Will checks, delayed teleportation, target selection, resistance bypass and friendly fire checked."
+    },
+    "Freezing Cloud spell": {
+      "source_sha256": "3168cdbf8c4bacc46a6e64ba00a9af76053127aed02def71611b1b305c0968f0",
+      "text": "Создаёт большое облако смертельно холодного пара.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Ignite Poison spell": {
+      "source_sha256": "004517098cbd35a65d646ae030f2bc81882dcaa1b3858a6017aac3d28c045bb6",
+      "text": "Превращает весь яд поблизости в жидкое пламя, сжигая отравленных существ изнутри. Также превращает облака яда и зловонных газов в огонь. Самого заклинателя это превращение напрямую не поражает.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Sublimation of Blood spell": {
+      "source_sha256": "6d472173d2ea257c9528fed9ed83dd574d5d49c2da59b7ef1a5a1eadecf2a9f4",
+      "text": "Превращает часть крови заклинателя в магическую энергию. Это болезненно, но само по себе никогда не приводит к смерти. Эффективность превращения растёт с силой заклинания.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Manifold Assault spell": {
+      "source_sha256": "14fb0aab3d1fa78da58054b095114f195e6d7d9e0224b61a9375e9bd63d129d2",
+      "text": "Искажает пространство в парадоксальные конфигурации, позволяя одной ближней атакой поразить нескольких видимых врагов. Число целей растёт с силой заклинания. Безоружная атака поражает вдвое меньше целей: искривлять собственные конечности приходится осторожнее.\n\nАтака занимает ровно столько же времени, сколько обычный удар в ближнем бою. Такие удары никогда не промахиваются, но точное место попадания нельзя выбрать, поэтому застигнутые врасплох враги не получают дополнительного урона.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Leda's Liquefaction spell": {
+      "source_sha256": "0ac2d0ead9ab419cce4cb8154717ed7840830ed3e429f1b95c0308b362331611",
+      "text": "Разжижает землю вокруг заклинателя, затрудняя движение. Любое перемещение по разжиженной земле замедляется, а увязшие в ней существа не могут летать. Ближние атаки по заклинателю могут срываться.\n\nНачальный радиус зависит от силы заклинания. Затем область постепенно сжимается, под конец охватывая только заклинателя, и исчезает. Поддержание связи с землёй замедляет движение самого заклинателя, даже если он летает.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Fugue of the Fallen spell": {
+      "source_sha256": "02998073c1356bda39ae148595bed024fbbabf2c07754ca4759a356429d3bed7",
+      "text": "Взывает к отголоскам давно умерших. Пока заклинание действует, каждый непризванный враг, убитый заклинателем или его союзниками, привлекает новых мстительных душ в оружие заклинателя, временно усиливая его ближние и дальние атаки. Когда усиление достигает предела, каждое попадание высвобождает отблеск страданий мёртвых и поражает болью остальных врагов рядом с целью.\n\nПовторное сотворение отпускает собранные души и сбрасывает накопленное усиление. Их нестройные вопли могут привлекать нежелательное внимание всё время, пока заклинание действует.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Lesser Beckoning spell": {
+      "source_sha256": "2005d6bb7bb64d31fe80e246a3c42d168c779b6c1fa97caa42c4162506ea26e9",
+      "text": "Подтягивает выбранное существо к заклинателю, пытаясь переместить его на соседнюю клетку.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Brom's Barrelling Boulder spell": {
+      "source_sha256": "53a67c22a3664943616e25a34cdeefa4a7af808330746293e455f019bcf7a3f8",
+      "text": "Выпускает огромный катящийся валун в выбранном направлении. Он наносит урон каждому существу на пути: перекатывается через погибших, а выживших беспомощно толкает назад вместе со всеми, кому не повезло оказаться у них за спиной.\n\nИз-за размеров и неудержимого движения валун неудобен в тесных местах: в узких проходах он быстро обтирается о стены и разваливается. Также он рассыпается, если выходит из поля зрения заклинателя, ударяется о стену или существо, которое невозможно сдвинуть.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Passage of Golubria spell": {
+      "source_sha256": "a409d612dbcf822ad17640e7e5d0107e222c482def9dbbc3e42e16d2ec10d00d",
+      "text": "Открывает два прохода, один из которых всегда находится рядом с заклинателем. Любое существо, вошедшее в проход, мгновенно переносится к случайному другому открытому проходу. Число одновременно открытых проходов не ограничено. Однако каждый из них закрывается спустя короткое время или сразу после входа в него.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Silence spell": {
+      "source_sha256": "9e2b6ac5f35263a773135afe5609a58f844adbc5021204fea531a4836cac1464",
+      "text": "Устраняет все звуки рядом с заклинателем. В этой области нельзя читать свитки, творить заклинания, взывать к богам или кричать.\n\nВрождённые магические и особые способности некоторых монстров продолжают работать и в безмолвии.\n\nНачальный радиус зависит от силы заклинания. Затем область постепенно сжимается, под конец охватывая только заклинателя, и исчезает.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Invisibility spell": {
+      "source_sha256": "a0edd84789f956abc8aa8d566b19d3a2c59b7793a79784ebcae3aedc932c085a",
+      "text": "Делает заклинателя невидимым и перемещает его в случайное место на небольшом расстоянии.\n\nЕсли противник невидим для вас, ваши атаки по нему менее точны, а уклонение и способность блокировать его удары получают значительный штраф.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Alistair's Intoxication spell": {
+      "source_sha256": "1525066564cc47ddd618ac6f48898768b366ef1d9db270fee492a08d1e2fa38a",
+      "text": "Превращает небольшую часть мозгового вещества окружающих существ в алкоголь, пытаясь вызвать замешательство у всех разумных существ в поле зрения. Существа с сопротивлением яду могут устоять перед воздействием. Если заклинателю удаётся коснуться чужого разума, он ненадолго испытывает головокружение. На вечеринках волшебников это заклинание часто помогает гостям раскрепоститься.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Irradiate spell": {
+      "source_sha256": "0942ec9b9e2c76eb6e0ec530d5ae4591c35eca54a4bf3732f4da485b11e3528e",
+      "text": "Превращает тончайший поверхностный слой тела заклинателя в чистую магическую энергию, поражающую соседних существ. У жертв могут возникнуть сильные искажения тела, которые ослабляют их и снижают броню. Сам заклинатель тоже не остаётся невредим: часть магии задерживается в нём, и после нескольких применений загрязнение может стать опасным.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Yara's Violent Unravelling spell": {
+      "source_sha256": "4cb60026cb0470d4d8fa554fb094154ca9cfc5f7632caa328e409ec55bb43840",
+      "text": "Если выбранное существо находится под действием магических чар — благотворных или вредоносных, — заклинание срывает их и превращает в выброс разрушительного мутагенного излучения. Сама цель и все соседние существа получают урон и сильные искажения тела, ослабляющие их и снижающие броню. Призванные существа особенно уязвимы: связывающие их с этим миром чары распадаются, немедленно изгоняя их.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Summon Forest spell": {
+      "source_sha256": "2e6cbad165134e63573aa6449418811ec4be66ea8281fccd55676adc911bb8a5",
+      "text": "Насильно совмещает лесной план бытия с этим миром. Для сотворения нужно открытое пространство. Пока заклинание действует, появляется лесной дух, а пробуждённые деревья наносят урон врагам поблизости. Сила заклинания повышает длительность, размер и густоту возникшего леса, а также силу духа.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Summon Mana Viper spell": {
+      "source_sha256": "80990d9d4156ed07d33d570eca7768675d6cdc930689dea2899098472a6565f8",
+      "text": "Призывает змею с фиолетовой чешуёй, чей укус способен быстро истощать магические резервы почти любого врага. С ростом силы заклинания антимагическое действие укусов усиливается.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Death Channel spell": {
+      "source_sha256": "6ea1861059c36b3136d8e66b37af74409c148db14bb488a0b2c34b81f378e5e4",
+      "text": "Пока действует канал, связывает души погибающих живых, демонических и святых существ и заставляет их призраков остаться и сражаться за заклинателя.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Martyr's Knell spell": {
+      "source_sha256": "0c6b51731ec353877d0c6e46aef961f3577fc2a8c6f4009974785098a2bd6706",
+      "text": "Призывает душу давно умершего мученика, которая некоторое время защищает ваших союзников и принимает на себя часть предназначенного им урона.\n\nЕсли душу убьют ещё раз, она превратится в ободранного призрака, насылающего на врагов иллюзорные раны. Эти раны недолговечны и исчезают вместе с призраком — если поражённое существо к тому времени ещё живо.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Eringya's Noxious Bog spell": {
+      "source_sha256": "f07771693d9517930ac7bb676c5ca1945ac97fcba8d1c22ce6c431e4d2b796c6",
+      "text": "Заклинатель извергает поток жижи, превращающей соседние участки земли в ядовитую трясину. Она наносит урон и отравляет всех монстров, даже устойчивых к яду. Трясина не образуется рядом сразу с несколькими твёрдыми препятствиями или там, где нет твёрдого пола, например в глубокой воде или лаве.\n\nПреобразование временно и не может сохраняться вне поля зрения заклинателя. Сила заклинания увеличивает время существования трясины.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Hoarfrost Cannonade spell": {
+      "source_sha256": "890131e4b80c4a95d2dda9872aec579d6160b2729e17de49b138b664d14f126b",
+      "text": "Создаёт две ледяные пушки, обстреливающие врагов заклинателя издалека. Их морозные осколки быстро покрывают цели хрупким инеем, замедляющим движение.\n\nПушки недолговечны и расходуют часть собственного тела при каждом выстреле. Если они без помех доживут до последнего залпа, он будет особенно мощным.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Magnavolt spell": {
+      "source_sha256": "517f9e40644060f44788adc2f7227ac2cf20f180c78c2afdfa1e21a355fee1ef",
+      "text": "Покрывает цель тонким слоем намагниченных металлических осколков, а затем выпускает мощный электрический разряд. Он безошибочно направляется ко всем видимым целям, покрытым такими осколками: каждая отмеченная цель получает отдельный луч.\n\nНамагниченные существа не могут уклоняться от атак и выдают своё местоположение, если невидимы. Если такое существо погибнет, на его месте ненадолго останется облако наэлектризованного металла, которое продолжит служить молниеотводом для этого заклинания.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Rimeblight spell": {
+      "source_sha256": "7a566ab935acd75a75bfaa26f7e781526843a29bf398b29e77022f625209f8f8",
+      "text": "Поражает выбранное существо и ещё до двух целей поблизости волшебной чумой, медленно замораживающей их изнутри. Каждый ход жертвы получают урон холодом, игнорирующий броню. По мере развития болезни из их тел начинают вырываться кристаллические осколки льда, ранящие врагов поблизости. После гибели жертвы болезнь может перекинуться на окружающих.\n\nУ живых, святых и демонических существ болезнь протекает особенно бурно, подпитываясь некромантической энергией их страданий. Когда жертва близка к смерти, болезнь резко ускоряется и пожирает остатки тела, оставляя лишь искорёженный столб стигийского льда.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
+    },
+    "Permafrost Eruption spell": {
+      "source_sha256": "d4aab5282d2d04911a1adfe9c42e0c47808c3e486d21ee846aa50fd2a8487288",
+      "text": "Пробуждает древний холод, таящийся в земле, заставляя его вырваться наружу с разрушительной силой. С потолка обрушиваются камни, нанося цели урон, от которого нельзя уклониться. Сам холод недолговечен, но невыносимо жесток: он замораживает цель и соседние клетки, полностью игнорируя броню.\n\nЗаклинание старается поразить самое большое скопление видимых врагов и никогда не создаёт взрыв рядом с заклинателем.",
+      "context": "Current spells.txt and spell definitions: actual targets, friendly fire, resistance vs armour, upkeep, forced movement, conditional bonuses and recasting resets checked; canonical title shared with game/wiki."
     }
   },
   "ability": {

@@ -202,19 +202,19 @@ You begin with the following equipment: @arg@
 %%%%
 You feel a surge of power.
 
-Вы чувствуете прилив силы.
+Вы ощущаете прилив магической силы.
 %%%%
 You feel a slight surge of power.
 
-Вы чувствуете лёгкий прилив силы.
+Вы ощущаете лёгкий прилив магической силы.
 %%%%
 You feel a strong surge of power!
 
-Вы чувствуете мощный прилив силы!
+Вы ощущаете мощный прилив магической силы!
 %%%%
 You feel a huge surge of power!
 
-Вы чувствуете огромный прилив силы!
+Вы ощущаете огромный прилив магической силы!
 %%%%
 You miscast @arg@.
 
@@ -558,7 +558,7 @@ You cannot shoot at yourself!
 %%%%
 Out of range.
 
-Слишком далеко.
+Вне досягаемости.
 %%%%
 That is beyond the maximum range.
 
@@ -2414,19 +2414,19 @@ No regular actions available to quiver.
 %%%%
 You feel a surge of power!
 
-Вы чувствуете прилив силы!
+Вы ощущаете прилив магической силы!
 %%%%
 You feel an extraordinarily numb sensation.
 
-Вы ощущаете необычайно сильное онемение.
+Вы ощущаете необычайно сильное ослабление магии.
 %%%%
 You feel an extremely numb sensation.
 
-Вы ощущаете сильное онемение.
+Вы ощущаете сильное ослабление магии.
 %%%%
 You feel a numb sensation.
 
-Вы ощущаете онемение.
+Вы ощущаете ослабление магии.
 %%%%
 Press '<w>!</w>' or '<w>I</w>' to toggle spell view.
 
@@ -2638,7 +2638,7 @@ You can't charge at yourself.
 %%%%
 You're already next to there.
 
-Вы уже рядом.
+Вы уже рядом с выбранной клеткой.
 %%%%
 There's @arg@ in the way.
 
@@ -6810,7 +6810,7 @@ Features
 %%%%
 No monsters, items or features are visible.
 
-Монстров, предметов и объектов местности не видно.
+В поле зрения нет монстров, предметов или объектов местности.
 %%%%
 target/travel
 
@@ -6822,7 +6822,7 @@ Here
 %%%%
 There's something in the way.
 
-Что-то преграждает путь.
+Действию что-то препятствует.
 %%%%
 You can't see that place.
 
@@ -6830,11 +6830,11 @@ You can't see that place.
 %%%%
 That would be overly suicidal.
 
-Это было бы слишком самоубийственно.
+Так вы подвергнете себя смертельной опасности.
 %%%%
 Really target yourself?
 
-Выбрать себя целью?
+Вы действительно хотите выбрать себя целью?
 %%%%
 Sorry, you can't target yourself.
 
@@ -6842,7 +6842,7 @@ Sorry, you can't target yourself.
 %%%%
 Are you sure you want to fizzle?
 
-Потратить заклинание без эффекта?
+Продолжить без допустимой цели?
 %%%%
 All monsters which could be auto-targeted are covered by a wall or statue which interrupts your line of fire, even though it doesn't interrupt your line of sight.
 
@@ -6854,11 +6854,11 @@ To return to the main mode, press <w>Escape</w>.
 %%%%
 You can't see any item there.
 
-Там не видно предметов.
+Вы не видите там предметов.
 %%%%
 Marked for pickup.
 
-Отмечено для подбора.
+Предмет отмечен для подбора.
 %%%%
 sanctuary
 
@@ -6898,7 +6898,7 @@ This spell doesn't need a beam path.
 %%%%
 Your target is gone.
 
-Вашей цели больше нет.
+Цели больше нет.
 %%%%
 Brought monster down to 1 HP.
 
@@ -6906,7 +6906,7 @@ Brought monster down to 1 HP.
 %%%%
 There are no valid targets to list.
 
-Нет допустимых целей для списка.
+Нет допустимых целей для выбора.
 %%%%
 target
 
@@ -17314,7 +17314,7 @@ You begin accumulating electric charge.
 %%%%
 (Press <w>%</w> to continue charging.)
 
-(Нажимайте <w>%</w>, чтобы продолжать накопление заряда.)
+(Нажимайте <w>%</w>, чтобы продолжать накапливать заряд.)
 %%%%
 Your charge dissipates without a target.
 
@@ -21282,11 +21282,11 @@ You can't transfer your ancestor with @arg@.
 %%%%
 You can't transfer that.
 
-Это нельзя переместить.
+Эту цель нельзя переместить таким способом.
 %%%%
 @Arg@ can't be transferred there.
 
-Нельзя переместить {acc}@Arg@ туда.
+Цель нельзя переместить туда: @Arg@.
 %%%%
 You swap with @arg@!
 
@@ -24162,7 +24162,7 @@ No target in view!
 %%%%
 No reachable target in view!
 
-Не видно доступной цели!
+В поле зрения нет доступной цели!
 %%%%
 No target in range!
 
@@ -29170,7 +29170,7 @@ sort (name)
 %%%%
 <lightgrey>Select a spell to cast</lightgrey>
 
-<lightgrey>Выберите заклинание для применения</lightgrey>
+<lightgrey>Выберите заклинание для сотворения</lightgrey>
 %%%%
 <lightgrey>Select a spell to describe</lightgrey>
 
@@ -29194,11 +29194,11 @@ sort (name)
 %%%%
 Your spells (cast)
 
-Ваши заклинания (применить)
+Ваши заклинания (сотворение)
 %%%%
 Your spells (describe)
 
-Ваши заклинания (описания)
+Ваши заклинания (описание)
 %%%%
 Your spells (forget)
 
@@ -29498,7 +29498,7 @@ Visible
 %%%%
 <lightgray> (select to examine)</lightgray>
 
-<lightgray> (выберите для осмотра)</lightgray>
+<lightgray> (выберите объект для просмотра описания)</lightgray>
 %%%%
 <lightgray> (select to examine, @key@ to target/travel)</lightgray>
 
@@ -33079,3 +33079,143 @@ an escape hatch in the ceiling
 " Zot: "
 
 " Зот: "
+%%%%
+Freezing Cloud
+
+Ледяное облако
+%%%%
+Ignite Poison
+
+Воспламенение яда
+%%%%
+Sublimation of Blood
+
+Сублимация крови
+%%%%
+Manifold Assault
+
+Множественная атака
+%%%%
+Leda's Liquefaction
+
+Разжижение Леды
+%%%%
+Fugue of the Fallen
+
+Фуга павших
+%%%%
+Lesser Beckoning
+
+Малое притяжение
+%%%%
+Brom's Barrelling Boulder
+
+Катящийся валун Брома
+%%%%
+Passage of Golubria
+
+Проход Голубрии
+%%%%
+Silence
+
+Безмолвие
+%%%%
+Invisibility
+
+Невидимость
+%%%%
+Alistair's Intoxication
+
+Опьянение Алистера
+%%%%
+Irradiate
+
+Облучение
+%%%%
+Yara's Violent Unravelling
+
+Разрушительное рассеивание Яры
+%%%%
+Summon Forest
+
+Призыв леса
+%%%%
+Summon Mana Viper
+
+Призыв мановой гадюки
+%%%%
+Death Channel
+
+Канал смерти
+%%%%
+Martyr's Knell
+
+Погребальный звон мученика
+%%%%
+Eringya's Noxious Bog
+
+Ядовитая трясина Эрингьи
+%%%%
+Hoarfrost Cannonade
+
+Инейная канонада
+%%%%
+Magnavolt
+
+Магнавольт
+%%%%
+Rimeblight
+
+Инеевый мор
+%%%%
+Permafrost Eruption
+
+Извержение вечной мерзлоты
+%%%%
+<lightgray> (select to examine, %s to %s)</lightgray>
+
+<lightgray> (выбор — описание; %s — %s)</lightgray>
+%%%%
+<lightgray> (select to %s, %s to examine)</lightgray>
+
+<lightgray> (действие: %s; %s — описание)</lightgray>
+%%%%
+That would be pointless.
+
+Это действие не имеет смысла.
+%%%%
+You can't see that clearly enough to target.
+
+Вы недостаточно отчётливо видите цель.
+%%%%
+@Arg@ can't be transferred to your ancestor's location.
+
+Цель нельзя переместить на место вашего предка: @Arg@.
+%%%%
+You cannot do harm to @arg@.
+
+Вы не можете причинить вред этой цели: @arg@.
+%%%%
+@Arg@ has no magical effects to unravel.
+
+На цели нет магических чар, которые можно рассеять: @Arg@.
+%%%%
+The unravelling is likely to hit you. Continue anyway?
+
+Рассеивание, вероятно, заденет и вас. Всё равно продолжить?
+%%%%
+You can't see anything there. Cast anyway?
+
+Вы никого там не видите. Всё равно сотворить заклинание?
+%%%%
+, temporary
+
+, временно
+%%%%
+{target-menu}target
+
+{target-menu}наведение
+%%%%
+{target-menu}target/travel
+
+{target-menu}наведение/переход
