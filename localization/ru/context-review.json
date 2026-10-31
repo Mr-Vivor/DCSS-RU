@@ -11,9 +11,10 @@
         "tileweb.cc",
         "player.cc:get_exp_progress",
         "skill-menu.cc",
-        "tilereg-doll.cc"
+        "tilereg-doll.cc",
+        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged."
       ],
-      "translations_sha256": "1a3bd5c36f527ab58c9d526cdb06c9551665f39eb0605646556be7005e343e1d",
+      "translations_sha256": "ebb2d7d06dc4e523469871f23c725cda3112a812f68c75d2e56d5f9f72fa44d2",
       "entries": 477
     },
     "annotations": {
@@ -22,9 +23,10 @@
         "item-name.cc",
         "artefact.cc",
         "dat/descript/egos.txt",
-        "describe.cc"
+        "describe.cc",
+        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged."
       ],
-      "translations_sha256": "5656b61c7b8e3579efc951a1f74dd03b29d6f99a9e0c288d0deb1a0e3a8e67b5",
+      "translations_sha256": "121e6c102db823a2a2a8e9a141a8c403c032c9e0b6f462b377f54eea68fcd266",
       "entries": 187
     },
     "skills": {
