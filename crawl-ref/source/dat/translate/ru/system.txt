@@ -370,11 +370,11 @@ You feel less protected.
 %%%%
 You must catch your breath between uses of this ability.
 
-Между применениями этой способности нужно перевести дыхание.
+Между применениями этой способности нужно восстановить дыхание.
 %%%%
 This ability takes some time before being effective.
 
-Действие этой способности начинается не сразу.
+Эта способность срабатывает после некоторой подготовки.
 %%%%
 Using this ability will hurt you.
 
@@ -382,11 +382,11 @@ Using this ability will hurt you.
 %%%%
 This ability causes exhaustion, and cannot be used when exhausted.
 
-Способность вызывает истощение; в состоянии истощения её применять нельзя.
+Эта способность вызывает истощение сил и недоступна, пока оно действует.
 %%%%
 This ability is instantaneous.
 
-Способность срабатывает мгновенно и не тратит ход.
+Эта способность применяется мгновенно, не тратя ход.
 %%%%
 You can use this ability even if confused.
 
@@ -1694,7 +1694,7 @@ Press the letter of a skill to read its description.
 %%%%
 Press <w>?</w> for a general explanation of skilling and the various toggles.
 
-Нажмите <w>?</w>, чтобы узнать о развитии навыков и режимах этого меню.
+Нажмите <w>?</w>, чтобы узнать о развитии навыков и переключателях этого меню.
 %%%%
 Skill descriptions
 
@@ -6226,7 +6226,7 @@ This ability will temporarily drain your maximum hit points when used.
 %%%%
 This ability has a chance of reducing your maximum magic capacity when used.
 
-При использовании есть вероятность уменьшения максимального запаса магии.
+Применение этой способности может навсегда снизить максимальный запас магии.
 %%%%
 If you bind an item with this curse Ashenzari will enhance the following skills:
 
@@ -6234,7 +6234,7 @@ If you bind an item with this curse Ashenzari will enhance the following skills:
 %%%%
 If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.
 
-Эта жертва усилит дарованные Ру способности соразмерно её ценности. Кроме того, вы можете получить новые способности.
+Эта жертва усилит дарованные Ру способности соразмерно своей ценности и может открыть новые способности.
 %%%%
 After this sacrifice, you will find that @arg@.
 
@@ -6278,7 +6278,7 @@ You cannot do that while caught in a web.
 %%%%
 Your legs are too worn out to hop.
 
-Ваши ноги слишком устали для прыжка.
+Ноги ещё не восстановились после прыжка.
 %%%%
 You aren't ready to blinkbolt again yet.
 
@@ -6326,7 +6326,7 @@ You cannot speak a word of chaos while silenced.
 %%%%
 That deck is empty!
 
-В этой колоде нет карт!
+Эта колода пуста!
 %%%%
 Really use @arg@?
 
@@ -6334,11 +6334,11 @@ Really use @arg@?
 %%%%
 There's no appreciative audience!
 
-Здесь нет слушателей, способных оценить проповедь!
+Поблизости нет слушателей, на которых подействует проповедь!
 %%%%
 You are not zealous enough to affect this audience!
 
-Вашей ревности недостаточно, чтобы воздействовать на этих слушателей!
+Вашего рвения недостаточно, чтобы проповедь подействовала на этих слушателей!
 %%%%
 There's already a sanctuary in place on this level.
 
@@ -6346,11 +6346,11 @@ There's already a sanctuary in place on this level.
 %%%%
 You have nothing to donate!
 
-Вам нечего пожертвовать!
+У вас нет золота для пожертвования!
 %%%%
 Nothing ails you!
 
-Вы ничем не больны!
+У вас нет недугов, которые можно очистить!
 %%%%
 You aren't in the Abyss!
 
@@ -6362,7 +6362,7 @@ You're already here!
 %%%%
 You don't have enough innate magic capacity.
 
-Ваш врождённый запас магии недостаточен.
+Ваш врождённый максимальный запас магии слишком мал.
 %%%%
 You are already invisible!
 
@@ -6370,11 +6370,11 @@ You are already invisible!
 %%%%
 You don't have enough experience to sacrifice.
 
-У вас недостаточно опыта для этой жертвы.
+У вас недостаточно уровней опыта для этой жертвы.
 %%%%
 @Ancestor@ is still trapped in memory!
 
-@Ancestor@ всё ещё заточён в памяти!
+Предок ещё не вернулся из воспоминаний: @Ancestor@!
 %%%%
 You are too terrified to wall jump!
 
@@ -6382,19 +6382,19 @@ You are too terrified to wall jump!
 %%%%
 You cannot wall jump while caught in a web.
 
-Нельзя оттолкнуться от стены, пока вы запутаны в паутине.
+Нельзя оттолкнуться от стены, пока вы запутались в паутине.
 %%%%
 You cannot wall jump while caught in a net.
 
-Нельзя оттолкнуться от стены, пока вы запутаны в сети.
+Нельзя оттолкнуться от стены, пока вы запутались в сети.
 %%%%
 There is nothing to wall jump against here.
 
-Здесь не от чего оттолкнуться.
+Здесь не от чего оттолкнуться для прыжка от стены.
 %%%%
 You fail to use your ability.
 
-Использовать способность не удалось.
+Не удалось применить способность.
 %%%%
 "This will reduce your strength and intelligence to zero. "
 
@@ -6594,27 +6594,27 @@ A thick mucus forms on @arg@.
 %%%%
 You're too exhausted to draw out your power.
 
-Вы слишком устали, чтобы высвободить свою силу.
+Вы слишком истощены, чтобы применить «Пробудить внутреннюю силу».
 %%%%
 You have no need to draw out power.
 
-Вам незачем высвобождать силу.
+Сейчас нет нужды в способности «Пробудить внутреннюю силу».
 %%%%
 You're too exhausted to power leap.
 
-Вы слишком устали для мощного прыжка.
+Вы слишком истощены, чтобы совершить «Мощный прыжок».
 %%%%
 You're too exhausted to unleash your apocalyptic power.
 
-Вы слишком устали, чтобы высвободить силу апокалипсиса.
+Вы слишком истощены, чтобы вызвать «Апокалипсис».
 %%%%
 You are already lashing out.
 
-Змеиная плеть уже действует.
+Вы уже действуете с предельной быстротой.
 %%%%
 You are too exhausted to lash out.
 
-Вы слишком устали для Змеиной плети.
+Вы слишком истощены, чтобы вновь действовать с предельной быстротой.
 %%%%
 Your muscles tense, ready for explosive movement...
 
@@ -6622,7 +6622,7 @@ Your muscles tense, ready for explosive movement...
 %%%%
 You are already engulfed in a heavenly storm!
 
-Вас уже окружает Небесная буря!
+Вас уже окутывает небесная буря!
 %%%%
 Really renounce your faith, foregoing its fabulous benefits?
 
@@ -21134,7 +21134,7 @@ You have no ancestor to preserve!
 %%%%
 @Arg@ is not nearby!
 
-@Arg@ не находится поблизости!
+Предка нет поблизости: @Arg@!
 %%%%
 @Arg1@ grants @arg2@ healing and protection!
 
@@ -26894,7 +26894,7 @@ To do this, you must remove one of the following items:
 %%%%
 <lightred>Your training target must be 27 or below!</lightred>
 
-<lightred>Целевой уровень не может превышать 27!</lightred>
+<lightred>Целевой уровень навыка не может превышать 27!</lightred>
 %%%%
 <lightred>You need to enable at least one skill.</lightred>
 
@@ -27730,23 +27730,23 @@ One bound item
 %%%%
 Using this ability will hurt you for a large fraction of your current HP.
 
-Применение способности отнимет значительную долю вашего текущего здоровья.
+Применение отнимет значительную долю вашего текущего здоровья.
 %%%%
 Using this ability invokes torment.
 
-Применение этой способности вызывает мучение.
+Применение вызывает мучение.
 %%%%
 This ability will temporarily drain your maximum health when used.
 
-Применение этой способности временно уменьшает максимум вашего здоровья.
+Применение временно снижает максимальное здоровье.
 %%%%
 This ability will temporarily drain your maximum health when used, even unsuccessfully.
 
-Применение этой способности временно уменьшает максимум вашего здоровья, даже если она не сработает.
+Попытка применения временно снижает максимальное здоровье, даже если она неудачна.
 %%%%
 Gaining experience will replenish charges of this ability.
 
-Получение опыта восстанавливает число применений этой способности.
+Заряды этой способности восстанавливаются при получении опыта.
 %%%%
 If you bind an item with this ritual Ashenzari will enhance the following skills:
 
@@ -35531,3 +35531,463 @@ the escape hatch
 the sealed passage
 
 запечатанный проход
+%%%%
+(next: %s)
+
+(следующая: %s)
+%%%%
+(%d in deck)
+
+(в колоде: %d)
+%%%%
+"(Boost: "
+
+"(Усиление: "
+%%%%
+, %d MP
+
+, %d ОМ
+%%%%
+, MP
+
+, ОМ
+%%%%
+, Permanent MP (%d left)
+
+, макс. ОМ (осталось: %d)
+%%%%
+, Noise
+
+, шум
+%%%%
+, %d HP
+
+, %d ОЗ
+%%%%
+, Piety%s
+
+, благочестие%s
+%%%%
+, Breath
+
+, перерыв между выдохами
+%%%%
+, %d/%d uses available
+
+, применений: %d/%d
+%%%%
+, Delay
+
+, подготовка
+%%%%
+, Torment
+
+, мучение
+%%%%
+, Injury
+
+, потеря здоровья
+%%%%
+, Exhaustion
+
+, истощение сил
+%%%%
+, Instant
+
+, мгновенно
+%%%%
+, Drain
+
+, снижение макс. ОЗ
+%%%%
+, Bound item
+
+, связанный предмет
+%%%%
+, %d Gold
+
+, %d зол.
+%%%%
+, Free
+
+, бесплатно
+%%%%
+, Gold
+
+, золото
+%%%%
+, Torchlight
+
+, свет Чёрного факела
+%%%%
+"A Card "
+
+"Карта "
+%%%%
+None
+
+Нет
+%%%%
+"This ability costs: "
+
+"Затраты способности: "
+%%%%
+"MP     : "
+
+"Магия: "
+%%%%
+"HP     : "
+
+"Здоровье: "
+%%%%
+"Piety  : "
+
+"Благочестие: "
+%%%%
+"Gold   : "
+
+"Золото: "
+%%%%
+free
+
+бесплатно
+%%%%
+variable
+
+зависит от условий
+%%%%
+nothing.
+
+нет.
+%%%%
+" (about %d%% of your maximum possible piety)"
+
+" (около %d%% от максимально возможного благочестия)"
+%%%%
+Really use %s?
+
+Применить способность «%s»?
+%%%%
+Damage: %s
+
+Урон: %s
+%%%%
+Range: %s
+
+Дальность: %s
+%%%%
+%dd3 / 2 (against normal-speed enemies)
+
+%dd3 / 2 (против врагов с обычной скоростью)
+%%%%
+1d8/foxfire
+
+1d8 на каждый огонёк
+%%%%
+%dd%d/upheaval
+
+%dd%d на каждый катаклизм
+%%%%
+%dd%d + 1/6 of current HP
+
+%dd%d + 1/6 текущего здоровья цели
+%%%%
+"Enter a base skill target for %s: "
+
+"Целевой базовый уровень навыка «%s»: "
+%%%%
+"Enter a skill target for %s: "
+
+"Целевой уровень навыка «%s»: "
+%%%%
+You can't do that.
+
+Вы не можете это сделать.
+%%%%
+You're already rising!
+
+Вы уже поднимаетесь!
+%%%%
+You can't rise from this level without the Orb!
+
+С этого этажа нельзя вознестись без Сферы Зота!
+%%%%
+You can't rise from this level!
+
+С этого этажа нельзя вознестись!
+%%%%
+You cannot call out to %s while %s.
+
+Нельзя обратиться к божеству «%s»: %s.
+%%%%
+You cannot speak a word of chaos while %s.
+
+Нельзя произнести слово хаоса: %s.
+%%%%
+You are already engaged in single combat!
+
+Вы уже участвуете в поединке!
+%%%%
+Any gift you received here would fall and be lost!
+
+Полученный здесь дар упадёт и будет потерян!
+%%%%
+You can't heal while in death's door.
+
+Нельзя лечиться под действием «Порога смерти».
+%%%%
+You have already been granted divine vigour!
+
+Вы уже наделены божественной силой!
+%%%%
+You are already calling forth ooze!
+
+Вы уже призываете слизь!
+%%%%
+There isn't enough space to grow briars here.
+
+Здесь недостаточно места для зарослей терновника.
+%%%%
+You have exhausted your breath weapon. Slay more foes!
+
+Все заряды дыхания израсходованы. Побеждайте врагов, чтобы восстановить их!
+%%%%
+In %d experience levels, you will have learned enough to assemble a masterpiece.
+
+Чтобы собрать шедевр, нужно получить ещё %d уровней опыта.
+%%%%
+You are already making a cacophony!
+
+Вы уже издаёте какофонию!
+%%%%
+You must recover your energy before unleashing another cacophony.
+
+Наберите опыт, чтобы восстановиться перед следующей какофонией.
+%%%%
+You aren't haunting any armour at the moment!
+
+Сейчас вы не вселены в доспехи!
+%%%%
+You must recover your energy before scattering into bats again.
+
+Наберите опыт, чтобы снова рассыпаться стаей летучих мышей.
+%%%%
+You are already burning your memories away!
+
+Вы уже сжигаете свои воспоминания!
+%%%%
+You don't have any memories left to burn.
+
+У вас не осталось воспоминаний, которые можно сжечь.
+%%%%
+You must recover your energy before doing this again.
+
+Наберите опыт, чтобы восстановить эту способность.
+%%%%
+There is no water in range!
+
+В пределах действия нет воды!
+%%%%
+The black torch is already ablaze!
+
+Чёрный факел уже зажжён!
+%%%%
+The black torch is unlit!
+
+Чёрный факел не зажжён!
+%%%%
+You must stoke the torch's fire more first.
+
+Сначала нужно сильнее разжечь Чёрный факел.
+%%%%
+You are already invoking Yredulemnul's grip!
+
+Вы уже взываете к хватке Йредэлемнула!
+%%%%
+You already have the maximum number of followers. Dismiss one first.
+
+Достигнут предел числа последователей. Сначала отпустите одного из них.
+%%%%
+You have already called for blood!
+
+Вы уже воззвали к крови!
+%%%%
+Your apostles are all alive!
+
+Все ваши апостолы живы!
+%%%%
+You must be standing atop the corpse of a fallen apostle!
+
+Нужно стоять на трупе павшего апостола!
+%%%%
+Night has already fallen.
+
+Ночь уже наступила.
+%%%%
+Makhleb denies you. Endure the Crucible first!
+
+Махлеб отказывает вам. Сначала пройдите Горнило!
+%%%%
+You are already a vessel of slaughter!
+
+Вы уже стали сосудом резни!
+%%%%
+A dragon answers your prayer!
+
+На вашу молитву отвечает дракон!
+%%%%
+Bind which item? (Esc to abort)
+
+Какой предмет связать? (Esc — отмена)
+%%%%
+"After this sacrifice, you will find that "
+
+"Последствия этой жертвы: "
+%%%%
+This is %s sacrifice. Piety after sacrifice: %s
+
+Это %s жертва. Благочестие после жертвы: %s
+%%%%
+Praying here may force you to leave your current form. Pray anyway?
+
+Молитва здесь может вынудить вас вернуться к исходному облику. Всё равно помолиться?
+%%%%
+Praying here may force you to remove some of your equipment. Pray anyway?
+
+Молитва здесь может вынудить вас снять часть снаряжения. Всё равно помолиться?
+%%%%
+Praying here may force you to leave your current form or remove some of your equipment. Pray anyway?
+
+Молитва здесь может вынудить вас вернуться к исходному облику или снять часть снаряжения. Всё равно помолиться?
+%%%%
+You can't shoot while berserk! Really wield %s?
+
+В ярости нельзя стрелять! Всё равно взять в руки: %s?
+%%%%
+Really read %s?
+
+Прочитать: %s?
+%%%%
+You can't see any enemies this would affect. Really read %s?
+
+Вы не видите врагов, на которых подействует этот свиток. Всё равно прочитать: %s?
+%%%%
+Do you wish to have %s bloodied with pain?
+
+Наложить свойство боли на оружие «%s»?
+%%%%
+Do you wish to have %s corrupted with distortion?
+
+Наложить свойство искажения на оружие «%s»?
+%%%%
+Do you wish to have %s blessed with holy wrath?
+
+Благословить оружие «%s» святой яростью?
+%%%%
+{ability-silence}silenced
+
+{ability-silence}здесь действует безмолвие
+%%%%
+{ability-silence}unable to breathe
+
+{ability-silence}вы не можете дышать
+%%%%
+{sacrifice-value}an incredible
+
+{sacrifice-value}невероятно ценная
+%%%%
+{sacrifice-value}a major
+
+{sacrifice-value}очень ценная
+%%%%
+{sacrifice-value}a medium
+
+{sacrifice-value}средняя по ценности
+%%%%
+{sacrifice-value}a modest
+
+{sacrifice-value}скромная
+%%%%
+{sacrifice-value}a trivial
+
+{sacrifice-value}незначительная
+%%%%
+{curse-boost}Fire
+
+{curse-boost}Огонь
+%%%%
+{curse-boost}Ice
+
+{curse-boost}Лёд
+%%%%
+{curse-boost}Air
+
+{curse-boost}Воздух
+%%%%
+{curse-boost}Earth
+
+{curse-boost}Земля
+%%%%
+{curse-boost}Conj
+
+{curse-boost}Разруш
+%%%%
+{curse-boost}Alch
+
+{curse-boost}Алх
+%%%%
+{curse-boost}Summ
+
+{curse-boost}Призыв
+%%%%
+{curse-boost}Necro
+
+{curse-boost}Некро
+%%%%
+{curse-boost}Forge
+
+{curse-boost}Кузн
+%%%%
+{curse-boost}Hex
+
+{curse-boost}Чары
+%%%%
+{curse-boost}Tloc
+
+{curse-boost}Перем
+%%%%
+{curse-boost}Splcast
+
+{curse-boost}Колд
+%%%%
+{curse-boost}Arm
+
+{curse-boost}Броня
+%%%%
+{curse-boost}Shld
+
+{curse-boost}Щиты
+%%%%
+{curse-boost}Dodg
+
+{curse-boost}Уклон
+%%%%
+{curse-boost}Stlth
+
+{curse-boost}Скрыт
+%%%%
+{curse-boost}Fight
+
+{curse-boost}Бой
+%%%%
+{curse-boost}Evo
+
+{curse-boost}Устрой
+%%%%
+{curse-boost}Shape
+
+{curse-boost}Формы
+%%%%
+special effects listed below.
+
+особые последствия перечислены ниже.

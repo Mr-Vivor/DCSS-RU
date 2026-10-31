@@ -973,14 +973,16 @@ static formatted_string _describe_god_powers(god_type which_god)
 
         if (!isupper(buf[0])) // Complete sentence given?
             buf = "You can " + buf + ".";
-        const int desc_len = buf.size();
+        buf = localise(buf);
+        string abil_cost = make_cost_description(power.abil);
+        if (abil_cost == localise("None"))
+            abil_cost.clear();
+        else
+            abil_cost = "(" + abil_cost + ")";
 
-        string abil_cost = "(" + make_cost_description(power.abil) + ")";
-        if (abil_cost == "(None)")
-            abil_cost = "";
-
-        desc.cprintf("%s%*s%s\n", buf.c_str(), 80 - desc_len - (int)abil_cost.size(),
-                "", abil_cost.c_str());
+        const int padding = max(1, 80 - strwidth(buf) - strwidth(abil_cost));
+        desc.cprintf("%s%*s%s\n", buf.c_str(), padding,
+                     "", abil_cost.c_str());
     }
 
     if (!have_any)

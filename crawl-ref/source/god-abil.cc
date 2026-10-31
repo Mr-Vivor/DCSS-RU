@@ -46,6 +46,7 @@
 #include "invent.h"
 #include "item-prop.h"
 #include "item-status-flag-type.h"
+#include "localise.h"
 #include "items.h"
 #include "item-use.h"
 #include "killer-type.h"
@@ -182,15 +183,13 @@ bool bless_weapon(god_type god, brand_type brand, colour_t colour)
         return false;
     }
 
-    string prompt = "Do you wish to have " + wpn.name(DESC_YOUR)
-                       + " ";
-    if (brand == SPWPN_PAIN)
-        prompt += "bloodied with pain";
-    else if (brand == SPWPN_DISTORTION)
-        prompt += "corrupted with distortion";
-    else
-        prompt += "blessed with holy wrath";
-    prompt += "?";
+    const char* brand_prompt = brand == SPWPN_PAIN
+        ? "Do you wish to have %s bloodied with pain?"
+        : brand == SPWPN_DISTORTION
+            ? "Do you wish to have %s corrupted with distortion?"
+            : "Do you wish to have %s blessed with holy wrath?";
+    const string prompt = make_stringf(localise(brand_prompt).c_str(),
+                                      localise(wpn.name(DESC_YOUR)).c_str());
     if (!yesno(prompt.c_str(), true, 'n'))
     {
         canned_msg(MSG_OK);
@@ -5258,8 +5257,8 @@ string ru_sacrifice_description(ability_type sac)
         return "";
 
     const int piety_gain = _ru_get_sac_piety_gain(sac);
-    return make_stringf("This is %s sacrifice. Piety after sacrifice: %s",
-                        _describe_sacrifice_piety_gain(piety_gain),
+    return make_stringf(localise("This is %s sacrifice. Piety after sacrifice: %s").c_str(),
+                        localise_in_context("sacrifice-value", _describe_sacrifice_piety_gain(piety_gain)).c_str(),
                         _piety_asterisks(you.raw_piety + piety_gain).c_str());
 }
 

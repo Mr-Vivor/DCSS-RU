@@ -383,6 +383,57 @@ def main():
                         spell_page.keyboard.press("Escape")
                         spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                         spell_page.keyboard.press("Escape")
+                    # Training targets: the generic WebTiles input must receive
+                    # a translated prompt, preserve decimals and reject >27.
+                    spell_page.keyboard.type("m")
+                    spell_page.locator("#ui-stack > .ui-popup").last.wait_for(state="visible")
+                    spell_page.keyboard.type("=a", delay=100)
+                    skill_input = spell_page.locator("#input_dialog input")
+                    skill_input.wait_for(state="visible")
+                    prompt = spell_page.locator("#input_dialog").inner_text()
+                    assert "Целевой" in prompt and "навыка" in prompt, prompt
+                    assert "Enter a" not in prompt, prompt
+                    spell_page.screenshot(path=str(ARTIFACTS / "skill-target-prompt.png"), full_page=True)
+                    skill_input.fill("28")
+                    spell_page.keyboard.press("Enter")
+                    skill_input.wait_for(state="hidden")
+                    spell_page.wait_for_function("document.body.innerText.includes('Целевой уровень навыка не может превышать 27')")
+                    spell_page.screenshot(path=str(ARTIFACTS / "skill-target-limit.png"), full_page=True)
+                    spell_page.keyboard.type("=a", delay=100)
+                    skill_input.wait_for(state="visible")
+                    skill_input.fill("6.5")
+                    spell_page.keyboard.press("Enter")
+                    skill_input.wait_for(state="hidden")
+                    spell_page.keyboard.type("=a", delay=100)
+                    skill_input.wait_for(state="visible")
+                    assert skill_input.input_value() == "6.5", skill_input.input_value()
+                    spell_page.keyboard.press("Escape")
+                    skill_input.wait_for(state="hidden")
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    # Only the isolated wizard joins a god and receives piety;
+                    # inspect an ability even when current MP cannot pay for it.
+                    for command, value in (("&_", "Okawaru"), ("&^", "160")):
+                        spell_page.keyboard.type(command)
+                        god_input = spell_page.locator("#messages .game_message input")
+                        god_input.wait_for(state="visible")
+                        god_input.fill(value)
+                        spell_page.keyboard.press("Enter")
+                        god_input.wait_for(state="detached")
+                    spell_page.keyboard.type("a")
+                    finesse_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Искусность")
+                    finesse_row.wait_for()
+                    spell_page.keyboard.type("!")
+                    spell_page.wait_for_function("document.body.innerText.includes('Какую способность описать?')")
+                    finesse_row.click()
+                    spell_page.wait_for_function("document.body.innerText.includes('Затраты способности:')")
+                    ability_text = spell_page.locator("#ui-stack > .ui-popup").last.inner_text()
+                    for text in ("Искусность", "Магия: 5", "Благочестие:", "от максимально возможного благочестия"):
+                        assert text in ability_text, ability_text
+                    for text in ("This ability costs", "MP     :", "Piety  :", "Range:"):
+                        assert text not in ability_text, ability_text
+                    spell_page.screenshot(path=str(ARTIFACTS / "finesse-costs.png"), full_page=True)
+                    (ARTIFACTS / "finesse-costs.txt").write_text(ability_text, encoding="utf8")
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

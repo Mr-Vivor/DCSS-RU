@@ -1193,12 +1193,12 @@
       "translation_sha256": "2e9da218bec6f796469b2254461e371c8e7059cda491f65c0ce9217cef107638"
     },
     "Press the letter of a skill to read its description.": {
-      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "9773e16f2068d63694745d983b143516de7a25595c10f2f6288bd730f87efac8"
     },
     "Press <w>?</w> for a general explanation of skilling and the various toggles.": {
-      "context": "skill-menu.cc:target is the automatic training stop level; base excludes boosts",
-      "translation_sha256": "427b8e179792472a0a839cb5d055215bb5c788a9dace9851b926b07bb760600a"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4bf382fe39f0dc81bbc5138a7b69973ca2e7c2407544eb6cab5c85bb9131fd67"
     },
     "Skill descriptions": {
       "context": "skill-menu.cc",
@@ -5781,16 +5781,16 @@
       "translation_sha256": "69f758b0634c775bb9132f88e2d19f1b99c4330788fd55fbe3f7265fbff9838f"
     },
     "This ability has a chance of reducing your maximum magic capacity when used.": {
-      "context": "ability.cc",
-      "translation_sha256": "97a318614b4cb03c978555b3c8b5855b02889f337b5902d5654e7f00656bb4c3"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "645df4acc018e9622b375a1d7d11e6f8eb32f40e21aa0d5bd9dc5aa019d4ab36"
     },
     "If you bind an item with this curse Ashenzari will enhance the following skills:": {
       "context": "ability.cc",
       "translation_sha256": "2b655e2091c6cc3d15a16a132640e2e1494a69e6725dd3f1c008f55f714db4fe"
     },
     "If you make this sacrifice, your powers granted by Ru will become stronger in proportion to the value of the sacrifice, and you may gain new powers as well.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "ba3a83c8727742ac66e7d444ee6984032c37f1a10971276b7fa96f8c3f4d5914"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ccbc92157cdad1cb33b034ec3417da21c2e9656149a0823d928f1362a6fc287a"
     },
     "After this sacrifice, you will find that @arg@.": {
       "context": "ability.cc",
@@ -5833,8 +5833,8 @@
       "translation_sha256": "36be33cc54e9a3c602cd2c70f74ac2655279b7bf54076d06b5f3ff0be6426279"
     },
     "Your legs are too worn out to hop.": {
-      "context": "ability.cc",
-      "translation_sha256": "1668aebd1abc5bc622063c58fd156583adc91b395ef583be9b8bac41ebfd7f3d"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "d477f596b1d914c344312fe3e57410ef321c0d491b22eb9c4c5723e21f5b2b86"
     },
     "You aren't ready to blinkbolt again yet.": {
       "context": "ability.cc",
@@ -5881,76 +5881,76 @@
       "translation_sha256": "4e6f938efff01f7a25e8d58658da9adf8c6c76e5f419823a7919325a409a8200"
     },
     "That deck is empty!": {
-      "context": "ability.cc",
-      "translation_sha256": "985d3530f3dac8d8a3267fdd7794f41f75f5b345fe1b576ec28e4e4b83a20b41"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "6b747fe93735385f7765e67b683578094c28d780baabd07c2ce76f0dcbd92b7b"
     },
     "Really use @arg@?": {
       "context": "ability.cc",
       "translation_sha256": "0ae10d55d024d86e19bf6e101ee992f8c313331da3f236dd8979a4a545b4c222"
     },
     "There's no appreciative audience!": {
-      "context": "ability.cc",
-      "translation_sha256": "2dda6529af6b654a19233c581ff98f7a7153e6d1fbd46886e579ad0a3d1da46b"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "09988c4f85649a5d88f37f8ebfbafc1a77fcbdc8ee32690643f7d6870d127fe5"
     },
     "You are not zealous enough to affect this audience!": {
-      "context": "ability.cc",
-      "translation_sha256": "50ef0d205ac1406b323ecb2f37ca7070630ab038ca41467475ca875b2135108e"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "65dcdf90656a5385ba6a6a0079e657b37be51b5ce5505b213fcadc445bb0bb02"
     },
     "There's already a sanctuary in place on this level.": {
-      "context": "ability.cc",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "c4a28255fb078f4405db10b191627c3f40336970967fc6557d4fcf323fb33e28"
     },
     "You have nothing to donate!": {
-      "context": "ability.cc",
-      "translation_sha256": "846edd5b2cb8baa45afd008bad7dc0bf0bf611816ad3a0d3ca57bdd92d2685e0"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4232a75f47280e83a0807b8a571a8e0912b58a9890e959123e6bb58d33f5d26f"
     },
     "Nothing ails you!": {
-      "context": "ability.cc",
-      "translation_sha256": "49dd6285875e4e98026c9206a8621bf14ff97a4ca7df3b2942c187de809d4b56"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ed39e18f81ae9e734f618ac7fe377b622cc0f5e856ccf3d8271868d3474fdccc"
     },
     "You aren't in the Abyss!": {
-      "context": "ability.cc",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "6b7d01f7fd53d359a6482f4751fcfbd3c1e740cdf96dd06206cbf0f7c33ff0b7"
     },
     "You're already here!": {
-      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "88f410966fb51170dfe8e97c82dd323a30e9c338ca1d4d5e8df3bc643f857f58"
     },
     "You don't have enough innate magic capacity.": {
-      "context": "ability.cc",
-      "translation_sha256": "15401b317bcc92694d53fcc303825a92f6e225f15702ca99cf508ba08a349c09"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "64b182a363d740dd7a7a1e76b6fb603842f43364a564e99521101fcc1acee387"
     },
     "You are already invisible!": {
-      "context": "ability.cc",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "c37d8781dfee4e0b4dd5994c91c3cd94217b704024c775db9c43bef6ab35be6e"
     },
     "You don't have enough experience to sacrifice.": {
-      "context": "ability.cc",
-      "translation_sha256": "bb7d92c7a6a3c8120c6f44f876600b7e4deed84193e31c52d1db7db04e55c6d5"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a5a7214bcf132e00c6ed4ee196c2d6bdb151abc778244b8bd31cee8f70943f46"
     },
     "@Ancestor@ is still trapped in memory!": {
-      "context": "ability.cc",
-      "translation_sha256": "752fb55151bcb8adee4bfcdcfaf1d312cf98b0105c75601bb0188697d09e1b1a"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "355089c027239a6873d43a2608b941d1f8fe26ca9719816124a5bf9208d5af87"
     },
     "You are too terrified to wall jump!": {
-      "context": "ability.cc",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "88ab3a329b7a0150507c6a34ef4c17bb74d601cbbe3f4dc8aaa7f205505026d9"
     },
     "You cannot wall jump while caught in a web.": {
-      "context": "ability.cc",
-      "translation_sha256": "de094d59f5ac15b2a12b85b43c5613e3990916c55e0dc6722ad3c8d6c4d9e9fb"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "1a96b8dfbfce02db972e7810eccff7deebdaa00d20db15325da76fd4410fd677"
     },
     "You cannot wall jump while caught in a net.": {
-      "context": "ability.cc",
-      "translation_sha256": "ec7bc0cf86fafd65e76914689362041f2831ba4aba7036938b41dd88563d9de9"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f1125a3d06878099a3767e5c2e57972d8f73678eb3f494eb9faffd3f81c5cd8b"
     },
     "There is nothing to wall jump against here.": {
-      "context": "ability.cc",
-      "translation_sha256": "ea68b67b4025299fadcf9fda3f1f387d774b038f756fc7d3e6940cb0a455c274"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "6336e8454bd734d410eee700a343dcbf36e9a95fa49f2808021da1ae3dcaf7a5"
     },
     "You fail to use your ability.": {
-      "context": "ability.cc",
-      "translation_sha256": "b2a03a463c1b950ecc98f4dc1b16a3798f4115fc1371acde8a1df253a1755c6e"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a42f47bcebcb8ea73d5f29f977661387d4303972a465540c578fd63ffbdfe5b6"
     },
     "This will reduce your strength and intelligence to zero. ": {
       "context": "ability.cc",
@@ -6149,36 +6149,36 @@
       "translation_sha256": "abe7e2e1aa5315768434d7fc9e6e71332a822a8f4caf73a3430748f400f57786"
     },
     "You're too exhausted to draw out your power.": {
-      "context": "ability.cc",
-      "translation_sha256": "4cb90c18b9ed2199735fdb8edeb9b4f86a9cc511bd22e56f28a45d065299e880"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ae1248e6ff0a3ea5e084f3af7ad590a24619ecec76012ed7dca7b9b953eeeccc"
     },
     "You have no need to draw out power.": {
-      "context": "ability.cc",
-      "translation_sha256": "eed87ead7a427102b62b4e7972eb178e95d50be24f514f2a41962b00d0ca90e0"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "1af6356b291688fddbfbc23f9d92dbc0de1b0e4ff424527b32ea858f56089c09"
     },
     "You're too exhausted to power leap.": {
-      "context": "ability.cc",
-      "translation_sha256": "891cc6b2f943ede390af7556d6fc543571a2bfe3560e49565dfeaa9000304538"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "abcbe830482b05b1124e35edf49a87acb2ee2d4f8f348fd69152c619f4213e23"
     },
     "You're too exhausted to unleash your apocalyptic power.": {
-      "context": "ability.cc",
-      "translation_sha256": "a8947ab8d0daae58c6535227dbf465c556cfc21f49dd190424e7c408248e2939"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "7c04929363a4651c3a3f6b19aad50ebc775950178ed69078802f75f7e2ea926d"
     },
     "You are already lashing out.": {
-      "context": "ability.cc",
-      "translation_sha256": "34372f011960b505d21b351396012f00bb531f9a54e0bf434aa79dea7df13490"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "16b84bdd50a95860107839d8f94caffcfa20045e1fba490611862d5d6f705367"
     },
     "You are too exhausted to lash out.": {
-      "context": "ability.cc",
-      "translation_sha256": "fbe9ff2b9677833c888f64ec3a3dcd0d3a7ad4ddaa7e4d47ff7189343d4a8c84"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "8fff4b2faded3c09a124edc3734f2f05e9d36eddf77b9222268d808adaa8d37a"
     },
     "Your muscles tense, ready for explosive movement...": {
       "context": "ability.cc",
       "translation_sha256": "558d2570538114f24f66523c5c809c6cdebd246c9394e89c383a49454a46d621"
     },
     "You are already engulfed in a heavenly storm!": {
-      "context": "ability.cc",
-      "translation_sha256": "f06a66ec827c2142fee533cef666b2cd688626188bf014a31da748e33bf48da1"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "aed280016a07031cfb342163e3997c07e28b41b3b9c80b321e16f8640edf2014"
     },
     "Really renounce your faith, foregoing its fabulous benefits?": {
       "context": "ability.cc",
@@ -20413,7 +20413,7 @@
       "translation_sha256": "86572dd100d197667ad54d99322d16c7ef0add477faae53cc4a1e8de8cfa9cf8"
     },
     "You can't see any clouds you can empower.": {
-      "context": "god-abil.cc",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "0988f8bab44dc1d796a615b6de39a831b4aad02c76306a7a00a5a8e093431b21"
     },
     "Clouds arounds you coalesce and take form!": {
@@ -20689,8 +20689,8 @@
       "translation_sha256": "924425c338b646350ca371a6d50be07bb0d364f936ad339ecfd23a93e9f14934"
     },
     "@Arg@ is not nearby!": {
-      "context": "god-abil.cc",
-      "translation_sha256": "1e22686350bcaa5a762dfca72f1268eeeef353757f837676a81319cc30080e1d"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "59056c4c34f9453275699c364e6babe01f3c2668886ec1fb19917fc24734d0ef"
     },
     "@Arg1@ grants @arg2@ healing and protection!": {
       "context": "god-abil.cc",
@@ -26449,11 +26449,11 @@
       "translation_sha256": "d91ac11653a6c0fc3fe2c57e61d0515a85440c29137acb7d3ea6653208911dc3"
     },
     "<lightred>Your training target must be 27 or below!</lightred>": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "f7935c49bc1dca58ffa3d64b28459f9128b2c504f5f444084ce5d2d571c6f9f0"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "0f3e21f0d93a749d32020f8ab4838744a86306e2eb706ac0e9d40c9efa942f6d"
     },
     "<lightred>You need to enable at least one skill.</lightred>": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "10a0f2d2af71ace137cc4da75f8f4e735fb54b3483367d76262075830ee2a2b7"
     },
     "[<yellow>=</yellow>] set a skill target": {
@@ -27269,7 +27269,7 @@
       "translation_sha256": "74cbfe2909ef493b73f8be2e504b918cf040ac62c7314a154bc0e33532af6c10"
     },
     " (less than 1% of your maximum possible piety)": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "fc85fe3a2422e0fc1a3749c3df6d7455f04a4be4af30bb6b01952109f5f41539"
     },
     " (about @num@% of your maximum possible piety)": {
@@ -27281,55 +27281,55 @@
       "translation_sha256": "9b87157feda926d1f5affb2c530cf6a1aa1cc96bb33ac21dab8f0e975e86de46"
     },
     "One bound item": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "633006da3991a1ad894ad360278ceafc10750f9f72557873d20b692491a9457b"
     },
     "You must catch your breath between uses of this ability.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "0e0124d23e37821aadae71e65d8f7186b57445bf86353010405dbfb40a9b6fad"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "aecb7320e12c68ab2596647e2c7ff330e6ac7a0716e867ed6f5620f033f75dd9"
     },
     "This ability takes some time before being effective.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "bc641e001cfc14c54006eca13b577189a2d8b0e81fde5e9ecb67aa5a5bcd2b02"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ac88fd9ff1a2697b0ed2817392fc8b2e612042e3bf4cfeb886a3b5f3b44b043f"
     },
     "Using this ability will hurt you for a large fraction of your current HP.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "54f4b6856488fbb0f007c3acd9c491b36de0ee62bf5cae5f7edcd7fb16d4254e"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "bad92a88ee4f2577f87277ee952dc2047fb833e3c34c958013475f08996ed4e2"
     },
     "Using this ability invokes torment.": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
-      "translation_sha256": "1cd1e705e5db0a422e26e866bc04aa1ffaa17ec87a85cb17dd4e52d62e46682d"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "41e1128d37a2a9f80b7037dbb7c3b5645df62feafc85e553832888e0a315d831"
     },
     "This ability causes exhaustion, and cannot be used when exhausted.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "14ae9645e0f67b557346bf9208fbb5a75cdebf3a16eebcbe85f5c66ac4a4f678"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4500c630a2a8c18d4e64562b63b4e979c846510f0174855d7725284b51ecd78d"
     },
     "This ability is instantaneous.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "07af84e66f36c57510b228451d0f67ee4963a2cb0c1417bb0c451a56b9520f68"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "1d4f4ec47b89a4460b744c2b9a5cb66118c0c9a89d49464779340d70a4947d5c"
     },
     "You can use this ability even if confused.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "c7e9c9731d8660ae541778ddac1768ab6daa35d788968276b945986ce0650769"
     },
     "This ability will temporarily drain your maximum health when used.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "45f972c95e1a1e615acee2db49f7d83409e0fa2386cfede8172d0d50f1aad48a"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "2ea94f3e5c45d6c04e63a9557e543edd5f6ebc04c0be8e6311b0e27ed3e29548"
     },
     "This ability will temporarily drain your maximum health when used, even unsuccessfully.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "bfd4857f8278be1245ee0c790c55d7793447e04b24c0afd46bdf74e2250eefac"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "67d7d10e11a0f6c98c5443086d4c40c7066c2aeb4b9851959570552dc644cd5b"
     },
     "Gaining experience will replenish charges of this ability.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
-      "translation_sha256": "7e9428c1a9df54ee38bbf87ad3a56f566c55abadd88b6ff4442a7e4c1102ad94"
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "c89715a7cfc4b526179cc9ea7099feebd37fa251aef25af5737b5a2bf0a096e7"
     },
     "If you bind an item with this ritual Ashenzari will enhance the following skills:": {
-      "context": "ability.cc / real ability costs, sacrifice and activation conditions",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "a677d2010dc88b33ea257b51a5e56e81ef979ed8a41433a614d47949416388db"
     },
     "Sacrifices cannot be taken back.": {
-      "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "7d1bd34169963e8f60149a6946aacd1cde64cb110ac359af3d81498e2b01174f"
     },
     "After this sacrifice, you will find that @any@.": {
@@ -27393,7 +27393,7 @@
       "translation_sha256": "0659399a99da8a5d9bb7f657445b4c4e5393e1b14f1549102afe4b50c0c418c4"
     },
     "Torchlight": {
-      "context": "ability.cc: abflag::torchlight consumes charges of the lit Black Torch",
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "e270e5543553f535bd7a1a50da44f81d0dac480c9c2cdca8318782d4bab9d853"
     },
     "The air fills with toxic fumes!": {
@@ -35159,6 +35159,466 @@
     "the sealed passage": {
       "context": "Feature popup actions and trimmed desc_the labels in describe.cc; existing action hotkeys retained. Short stair labels translated before printf substitution, conjunction spaces preserved.",
       "translation_sha256": "39d934519ae457f0ed6d1dec9865aca35b2dbff4e72e64ab671054145381da7e"
+    },
+    "(next: %s)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "313b352b1f65abeb2728716909a22ea9fa54c03cac70f30cc30c9e4af0b4e71a"
+    },
+    "(%d in deck)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "dc506e78371a3a2ebc710487262d4f9e86fa1ad993c7e03f95601a9a17f99d5e"
+    },
+    "(Boost: ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "453bea7ab18677231bd59c17ddaa9045b2fb1aa765537e466f30ae348360f53d"
+    },
+    ", %d MP": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "6a4a626e997df902d50c2aae7aaad669aa007120e36d0eab8213fedb65d884a1"
+    },
+    ", MP": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "0251a90d10da3ef9568731e553768be03679e9a0b7188d0ec15389a3b0578003"
+    },
+    ", Permanent MP (%d left)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "3e09e1c34b010228684d7940caecafa4942439e66e55e6dd8648ac2685620c3e"
+    },
+    ", Noise": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4f15beda3a6af56bef6e1b66bbda882a14cf99a85c3a23613f4e6e8363d8e631"
+    },
+    ", %d HP": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "513a6e74ad74c3eec7c44577c2b57f415c2f21daf3b5a3c674d4d233a15c0fc2"
+    },
+    ", Piety%s": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "877020fe142927647642ea7a808070752045c195d0e201186927e1f4051d90ba"
+    },
+    ", Breath": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "49a5901e56131119d4f0ea4f5dde49b6435311189cadf5c629d22cce5d563b2a"
+    },
+    ", %d/%d uses available": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "69054efbf2fe79f2515a3183d0464ad2891c7fb88df313b0bfbce6ae684967b3"
+    },
+    ", Delay": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "228d0929fbb61a9841001ff8e73abdc8434b23e6f6bc334106bc3a5b1a140867"
+    },
+    ", Torment": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f4ec81645d90b501acd528a71cdbb360b389b3a7fbb28e918dd5f8882054eb09"
+    },
+    ", Injury": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "455035235ea6516338ef0c79cfbbdbc081f6d463fd9c38f49e9d568c78021f64"
+    },
+    ", Exhaustion": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a877ebc6dfd96444f4088596f322bf5ee199db66ee85c6b3cff47fc4a77b50cb"
+    },
+    ", Instant": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f5397efcbabd70ada8d5984324f5b0f5895751e7aedfb62f1cdd217f7afd9740"
+    },
+    ", Drain": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a6b2545f2b8034f2b26267f16024ff90593d5b757b3da9c1474f6c253bf38aba"
+    },
+    ", Bound item": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4d9ee0f27b88457439b4fada13a2e5fec3a6e7a19cdbbb05ce5be47f52af09cf"
+    },
+    ", %d Gold": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a336e42342bde82889de3d5175e578e608d213a15682bf1ce3dba9da3b9dbc95"
+    },
+    ", Free": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ec452ef4069ee968f5d894a5b0ab2971fd4d8ae5caa6362dfdb8b7945bdbc7ce"
+    },
+    ", Gold": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f607641610ae174b7a3be2c77643887f279c75261fe9526a514dea7b11eee423"
+    },
+    ", Torchlight": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "26bd96d9f1c589c72973150e1122c29c08eef5e0485a54fd52edb14ca9cfb3f7"
+    },
+    "A Card ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4c729f2a69aba920743392e7cdc02a9dbc9113ba0012ea1d3100294cd5b9dc80"
+    },
+    "None": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "43e5ab70f691a6a6391be1da21bc18c31c04892ceb19fde88e44ad50c5ec9052"
+    },
+    "This ability costs: ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "7296101faf480a0a2ca1d868b8b8ac183890fa8134748e39a1cd692584135d82"
+    },
+    "MP     : ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "04675f9fbed66d9d5001550cc24fd2ae74e5293a477f4283db68652eda59c0d9"
+    },
+    "HP     : ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "70ef7e8724bc5372830b48f5ce9f1d0f4e5c831d9e97a330d714e0d2bc289408"
+    },
+    "Piety  : ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "54459f514f2a3fa4bf0dda53550aac3d32fc89025158f98222d47753793591e2"
+    },
+    "Gold   : ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "7608467c608bcce50e8d6c4983fad8c7817563ced01ce163459240155f0251bf"
+    },
+    "free": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a569b74ff821a0d2bca8b517d171f22f2575f3244efc0a584333d9569fbdf51c"
+    },
+    "variable": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "7280d59819747f71eb17c7d65beae5c25b1ea1c9560c9f299ddfa5d178b0b459"
+    },
+    "nothing.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "23706ba5cbaec655b4a37ea01ad3998824d47fca151879ad3f95034e4c228757"
+    },
+    " (about %d%% of your maximum possible piety)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "61d73285477186c2ff710d83331f2d3a48e2c6df9bfa0bbb51ebe95a2cc80c37"
+    },
+    "Really use %s?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "982818153f53fe5b936167c23bc90cfb92baa8878358777ff24f0a193eaf058d"
+    },
+    "Damage: %s": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "d8134da126eda5373bf57ea30cfdc70a0a6b15607b9063be15122c07ca55fb03"
+    },
+    "Range: %s": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "948bdedbeccc91f0fb009f043e9720490c7ed4b628d15844e4f3deb63803ffdf"
+    },
+    "%dd3 / 2 (against normal-speed enemies)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "b41e3a7cbde822edd022ba4ab7b64691b119232ef182a84a81405f7e532a4574"
+    },
+    "1d8/foxfire": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "c9e3d3dcb83b46eef61025342b58ba9559ef3e43fc1510f131949752904a02bc"
+    },
+    "%dd%d/upheaval": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "d86312a4feb0db63afbd7769ebd9768e18c87e1b89c5bc68fd98b000be3eaa5c"
+    },
+    "%dd%d + 1/6 of current HP": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "36a55e79380f65e0ac66da09aa310f1aad0119a818edbb68bf3ac8d7d9d27022"
+    },
+    "Enter a base skill target for %s: ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "18132f411a5438b31c411abc185db175613dd6324f94a43d447cb26bd71adcc9"
+    },
+    "Enter a skill target for %s: ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "0b499896ac1449b58f37c472f1657198e0ecb877f0ac9aada6bd2e26bb9a3a24"
+    },
+    "You can't do that.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "64f3873949a79c913197fb95bca016ff7e2c1c5a11d61b16dd76e3e4c17f4b59"
+    },
+    "You're already rising!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f3c343f1c31e7378812894a1084d556d8bd83ccf2b5932ad926b676f91c8c677"
+    },
+    "You can't rise from this level without the Orb!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "375d35174443c39fca92816d972ef657ec33a5370ef26b25d557ed4c264d5e82"
+    },
+    "You can't rise from this level!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "614eff9fdd185c719e411b020235319fba50d763453a7574dca6d728fbee3f44"
+    },
+    "You cannot call out to %s while %s.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "c888b29dfab1ba257782b6bd1d6077d3ec5aa5bcf371bd0e93fc6e31eec82133"
+    },
+    "You cannot speak a word of chaos while %s.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "133a56a44274856ee861a7730041f5f618d26fc0d49f68770e4c3785aefff8c7"
+    },
+    "You are already engaged in single combat!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "e43e34ea84fcece8a3eb6ade98fb08f1b44c5b4775951f0d09cf51b72c839491"
+    },
+    "Any gift you received here would fall and be lost!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "12dc213212ecdb8fc365a4a1215db18e4bebdd5a1b7433157a407a95eeb13819"
+    },
+    "You can't heal while in death's door.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "e925ecbc8f7c6e66e78d8dabfd50d2dd300616d36dd19377f956421e80568f7e"
+    },
+    "You have already been granted divine vigour!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "9a13f95a96f89dbc4d8306fd72549c93ec9b5af20de8f52bdd96adc669f6d431"
+    },
+    "You are already calling forth ooze!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "8feb7cb1d78ed8db1d7a89268c841cefceecebca9ceabfe845ba3bb64113ecdb"
+    },
+    "There isn't enough space to grow briars here.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "50d912c62d2f3909437310160216fb8092fd8ed615f3627ab96cc1721b62d3a4"
+    },
+    "You have exhausted your breath weapon. Slay more foes!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "26bd2eaa57136459cdbc87c8112b762ab1bd2e344bae76c284c5dcc39a8ee53f"
+    },
+    "In %d experience levels, you will have learned enough to assemble a masterpiece.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "edb55bb0aa18f32f1193b1e6f635e8e6962a9235d3a06166a89ad2280a6c7380"
+    },
+    "You are already making a cacophony!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "0b65b015eb10bb03812426b4894f652d80fcfd6453ca7fb469f768dc1b86c110"
+    },
+    "You must recover your energy before unleashing another cacophony.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "6d7abcf4769bfc6f0761209688563af15679c87298cb85565b25122195c3bdbe"
+    },
+    "You aren't haunting any armour at the moment!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "ca6deaab3d39013d9bb8699ccdd5b8cc78e7ce99b594f01708fe4f511afccdae"
+    },
+    "You must recover your energy before scattering into bats again.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "5cd4e739e0a7d3cd2ac888cdddeb06b467ec9748b8fb1a22a895b051fe99eef0"
+    },
+    "You are already burning your memories away!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f91e141c4166fdeecd70f001099d8c6322efa585f20da1e25f25f1ecfc7dca0b"
+    },
+    "You don't have any memories left to burn.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "7df7252947f50ea969461f3906ce9b9a67f98db377015d50791dc1fbdd8838df"
+    },
+    "You must recover your energy before doing this again.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "94d76658b07b60ba14ebdffe989c4f8328d92402c16353b1f7488f51eb95287c"
+    },
+    "There is no water in range!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "0888d469b223f86851a26a86cc8dad033d1d35c08212701e672651c8ae7f77eb"
+    },
+    "The black torch is already ablaze!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f5173162b7035685a961ebd3286ad2f9b949c6c24d59cd7a70fe1efb6f979bd8"
+    },
+    "The black torch is unlit!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "77e9fa8bacab16b970b6598aef03365f9a4c38f40ad83b626a85497d6d1e42a9"
+    },
+    "You must stoke the torch's fire more first.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a8511d39332b2e6317d7d42d2073752f9a107737b70ae1ed68a2170bdb1b0bb4"
+    },
+    "You are already invoking Yredulemnul's grip!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "4fad0125de8ac28e02557a8abe7e86a92a2dc5db24d232c0ec267ef997256f0e"
+    },
+    "You already have the maximum number of followers. Dismiss one first.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "a54e448394e192420600a4b2dd3a4161afcd178f1b8c3d5bdfff59eaa813ca2f"
+    },
+    "You have already called for blood!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "fb1c99d31fa55d1a77e245287f462a865473187d0eb6df4b3dad02d7b7a7d64e"
+    },
+    "Your apostles are all alive!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "8d2c86299523fe8ace53050a1421f3c29abc4c4bf16808fe6600c81591cb7117"
+    },
+    "You must be standing atop the corpse of a fallen apostle!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "697c61f59c5a896de0f8597536820d8296664a70b3ebfc2b3f6fce07328ed723"
+    },
+    "Night has already fallen.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "bcbe6978fb017a11cf4184fff4dcf1ffbe56387e70ca1e1fd3f1716ae2b5f114"
+    },
+    "Makhleb denies you. Endure the Crucible first!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f5ea37b520092a5b596f50087b5952a9637315b0d907ab733a85de1a47572fa3"
+    },
+    "You are already a vessel of slaughter!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "542fa4f89c03361c809bef8b2ec65b1456937e82ff7af1840c3b3d482aaa089f"
+    },
+    "A dragon answers your prayer!": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "2e5902af8cd4876ce1c07306d523397cf7d59fb7cf1ead0c3d6af588b448a0ec"
+    },
+    "Bind which item? (Esc to abort)": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "d4b745c25ee6cfc047a3129ee061085fd0543656aa487ba8401383828627aed6"
+    },
+    "After this sacrifice, you will find that ": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "c230ceeaa9b4dd7a317c997ba0952ef881b3bf3c62f3c8ab1d6356e7b188df7f"
+    },
+    "This is %s sacrifice. Piety after sacrifice: %s": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "c06aa340e4ab1366c68632600cae4ca6ca755b91bf21124dbf9cdb14b5778b22"
+    },
+    "Praying here may force you to leave your current form. Pray anyway?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "bd57ecd06a05f46197a0c50ed4c076499fc11cc540c805b55468919a567bd9e5"
+    },
+    "Praying here may force you to remove some of your equipment. Pray anyway?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "dcf21ef80aecef17d3e08faa285f883f28bf80ebc5441c3bd7d632804fe59d88"
+    },
+    "Praying here may force you to leave your current form or remove some of your equipment. Pray anyway?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "8f8bb9f919a020dec911be0ba4f774c3bbe42fe830d0461895c7545abb411a01"
+    },
+    "You can't shoot while berserk! Really wield %s?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "5d1f264f1181e1a528422e2ac0652bf75696a76a20520061e84adc26311344a8"
+    },
+    "Really read %s?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "1e1c9b4522af463a98605dcac803d81cf819803b9a0a3ecd782d9dd61d73210d"
+    },
+    "You can't see any enemies this would affect. Really read %s?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "9985519673c737a05595e7fa55a8bd0766aa5e930075a244ab81218a6d19262c"
+    },
+    "Do you wish to have %s bloodied with pain?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "f8e2fcf100add55154b2cf91f6305ac4ec17c49289a7d0a149ca52465210d3a5"
+    },
+    "Do you wish to have %s corrupted with distortion?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "8aa71228b0908f23da8457a327581d3ebc2f83cf01d24fa760dfecc08e52b0cc"
+    },
+    "Do you wish to have %s blessed with holy wrath?": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "07e4eedf3dd0ba170593f67a1b56ac8caa3c10491871bffec683792e788a9f3f"
+    },
+    "{ability-silence}silenced": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "bfcb3fabc333977b490efbbe58585541ff5b22811476d7ada467e72ffde22f7d"
+    },
+    "{ability-silence}unable to breathe": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "f4cef2d9508c0eff2c3b5884a3f58410393549ee99d1b6b23280d77dc3288f76"
+    },
+    "{sacrifice-value}an incredible": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "8c6e0b4db35426fe5eb58684227a605eb8df59018d1c276e6e666ab0585766f9"
+    },
+    "{sacrifice-value}a major": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "f7b7e65908a18ab751922e5f5c8aa85b71ed1453ab5eed025f1eb21b7f96b5c5"
+    },
+    "{sacrifice-value}a medium": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "35b414ab1247789ad95ae2ab77e08d048ca68f7a742f8743e64057083b893e42"
+    },
+    "{sacrifice-value}a modest": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "9e25ee2ec9945995e1ba0614639f0821a0c06df9b935a83dbd087d789fd07684"
+    },
+    "{sacrifice-value}a trivial": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "8fbca10da96c35df5ec06d65169e375371d40c9af9d26b9491d1085c8f8da435"
+    },
+    "{curse-boost}Fire": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "dabe55247432f56ce6381ae5b64266d47ebe6b4da82a61aa0eb4cfe30f6e0180"
+    },
+    "{curse-boost}Ice": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "2734c457984af67486c685f6be46d92708982bbafcec576cc20372e605d1e9db"
+    },
+    "{curse-boost}Air": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "5b65ab6cbba6606707c8aa775923382416a8cadcd1424bc66369f7f4e39382f2"
+    },
+    "{curse-boost}Earth": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "371dae277a63163105190118ae4b7433fcf1a7f4ed3ee92fbb7aba318e5f3a79"
+    },
+    "{curse-boost}Conj": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "5f68b6734b10f64da540a773bc86e5b24af21d2bf247518cde2d5f7b491d67ba"
+    },
+    "{curse-boost}Alch": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "3592df8fa58265942e43c4944343d27e71252a21442d586959a24bafd3d7670e"
+    },
+    "{curse-boost}Summ": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "ce47ab390ae2cecd8c5ec81cab3675e0dff65c43312e47f5fe71dc5ae3896512"
+    },
+    "{curse-boost}Necro": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "d4ba57009beec41b4396c44c907aa2416786fdde3a9963580bb1b9a2769416d5"
+    },
+    "{curse-boost}Forge": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "8e5128055787bc41fd688884d6dc02c35da6a1b77a66014ec6afcfa8fd01d46f"
+    },
+    "{curse-boost}Hex": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "0700dd27839b9033a58c29337ba748df49f70bdbcee18e60deb7b22e0e6940d0"
+    },
+    "{curse-boost}Tloc": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "3d99de1ceb976a549697c160ac84af463ddd92366e7b278caeddfc3a2c5e0bfa"
+    },
+    "{curse-boost}Splcast": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "596256c55cebeca3ae893f920e9f78b0c8a39f1bd77e84803e1e9ffdca362b90"
+    },
+    "{curse-boost}Arm": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "dffa17427547c3db43ca928cf7b7d0e00c7da020226d1d9a78a00c6c444d55e2"
+    },
+    "{curse-boost}Shld": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "710b582581d2de3ea8638fa645b41da3af6425923db798d53f5d5d6e61a3a073"
+    },
+    "{curse-boost}Dodg": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "633f0a100cc5efaf48913938a8d37d5ba05e68c1e62e4c0876978aa62bf93e69"
+    },
+    "{curse-boost}Stlth": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "069523709cb74e6ec0a7b0755e16ceca2651cf0d546b453a1970c2ef1dd366a5"
+    },
+    "{curse-boost}Fight": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "ea84d0ae601619e594d6b0e070fdb154a51e62f0c855bdaebb1b1f5c79e9d6d7"
+    },
+    "{curse-boost}Evo": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "1d954d4aaf428dfae3aa0402a70b95e3836d6f287e70d03252c5889ffe1d6815"
+    },
+    "{curse-boost}Shape": {
+      "context": "Display-only context: Ru sacrifice value or Ashenzari skill-boost abbreviation; original identifiers, commands and plain Fire verb unchanged.",
+      "translation_sha256": "63e4f4cc2c8b9b69184c25cd8d81e67851516f5bbc0b27823087b8916da1ac03"
+    },
+    "special effects listed below.": {
+      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "translation_sha256": "2a4df1d96e947a0bad918d499ab701aed68b5a7d89df30c5f9f09054effc7a87"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

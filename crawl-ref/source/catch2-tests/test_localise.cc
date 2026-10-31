@@ -814,3 +814,46 @@ TEST_CASE("Russian terrain descriptions resolve aliases, conditions and actual d
     if (displaced != CMD_NO_CMD)
         bind_command_to_key(displaced, 'P');
 }
+
+
+TEST_CASE("Russian ability costs preserve resources, failure costs and raw ability IDs", "[localise][single-file]")
+{
+    russian_localisation language;
+    const string cost = make_cost_description(ABIL_OKAWARU_FINESSE);
+    INFO(cost);
+    CHECK(cost.find("5 ОМ") != string::npos);
+    CHECK(cost.find("благочестие") != string::npos);
+    CHECK(cost.find("MP") == string::npos);
+    CHECK(cost.find("Piety") == string::npos);
+    const string finesse = get_ability_desc(ABIL_OKAWARU_FINESSE);
+    INFO(finesse);
+    CHECK(finesse.find("Искусность") == 0);
+    CHECK(finesse.find("Магия: 5") != string::npos);
+    CHECK(finesse.find("Благочестие: ") != string::npos);
+    CHECK(finesse.find("от максимально возможного благочестия") != string::npos);
+    CHECK(finesse.find("This ability costs") == string::npos);
+    CHECK(finesse.find("Range:") == string::npos);
+    CHECK(get_ability_desc(ABIL_RENOUNCE_RELIGION).find("Затраты способности: нет.") != string::npos);
+    CHECK(get_ability_desc(ABIL_EVOKE_TURN_INVISIBLE).find("даже если она неудачна") != string::npos);
+    CHECK(get_ability_desc(ABIL_EVOKE_TURN_INVISIBLE).find("Затраты способности: нет.") == string::npos);
+    CHECK(get_ability_desc(ABIL_IMBUE_SERVITOR).find("после некоторой подготовки") != string::npos);
+    CHECK(get_ability_desc(ABIL_RU_SACRIFICE_HAND).find("Жертвы необратимы.") != string::npos);
+    CHECK(get_ability_desc(ABIL_GOZAG_POTION_PETITION).find("Золото: ") != string::npos);
+    CHECK(get_ability_desc(ABIL_USKAYAW_STOMP).find("текущего здоровья цели") != string::npos);
+    const talent tal = { ABIL_OKAWARU_FINESSE, 'b', 0, true };
+    CHECK(strwidth(describe_talent(tal)) <= 76);
+    CHECK(ability_name(ABIL_OKAWARU_FINESSE) == "Finesse");
+    CHECK(ability_by_name("Finesse") == ABIL_OKAWARU_FINESSE);
+    CHECK(make_stringf(localise("Enter a skill target for %s: ").c_str(), localise("Invocations").c_str())
+          == "Целевой уровень навыка «Молитвы»: ");
+    CHECK(make_stringf(localise("Enter a base skill target for %s: ").c_str(), localise("Fighting").c_str())
+          == "Целевой базовый уровень навыка «Бой»: ");
+    CHECK(localise_in_context("curse-boost", "Fire") == "Огонь");
+    CHECK(localise_in_context("ability-silence", "unable to breathe") == "вы не можете дышать");
+    CHECK(localise_in_context("sacrifice-value", "an incredible") == "невероятно ценная");
+    Options.language = lang_t::EN;
+    CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("5 MP") != string::npos);
+    CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("Piety") != string::npos);
+    CHECK(get_ability_desc(ABIL_OKAWARU_FINESSE).find("This ability costs: ") != string::npos);
+    Options.language = lang_t::RU;
+}

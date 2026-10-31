@@ -1293,8 +1293,9 @@ bool warn_about_changing_gear(const vector<item_def*>& to_remove, item_def* to_e
     // Switching to a launcher while berserk is likely a mistake.
     if (to_equip && you.berserk() && is_range_weapon(*to_equip))
     {
-        string prompt = "You can't shoot while berserk! Really wield " +
-                        to_equip->name(DESC_INVENTORY) + "?";
+        const string prompt = make_stringf(
+            localise("You can't shoot while berserk! Really wield %s?").c_str(),
+            localise(to_equip->name(DESC_INVENTORY)).c_str());
         if (!yesno(prompt.c_str(), false, 'n'))
         {
             canned_msg(MSG_OK);
@@ -2967,19 +2968,18 @@ bool read(item_def* scroll, dist *target)
             return false;
         }
         else if (bad_item
-                 && !yesno(make_stringf("Really %s?%s",
-                                        verb_object.c_str(),
-                                        hostile_check ? ""
-                        : " You can't even see any enemies this would affect."
-                                        ).c_str(),
+                 && !yesno(make_stringf(localise(hostile_check
+                        ? "Really read %s?"
+                        : "You can't see any enemies this would affect. Really read %s?").c_str(),
+                        localise(scroll->name(DESC_DBNAME)).c_str()).c_str(),
                            false, 'n'))
         {
             canned_msg(MSG_OK);
             return false;
         }
         else if (!bad_item && !hostile_check && !yesno(make_stringf(
-            "You can't see any enemies this would affect, really %s?",
-                                        verb_object.c_str()).c_str(),
+            localise("You can't see any enemies this would affect. Really read %s?").c_str(),
+                                        localise(scroll->name(DESC_DBNAME)).c_str()).c_str(),
                                                 false, 'n'))
         {
             // is this too nanny dev?

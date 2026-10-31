@@ -22,6 +22,7 @@
 #include "evoke.h"
 #include "god-passive.h" // passive_t::bondage_skill_boost
 #include "hints.h"
+#include "localise.h"
 #include "options.h"
 #include "output.h"
 #include "religion.h"
@@ -953,9 +954,11 @@ int SkillMenu::read_skill_target(skill_type sk)
     progress->set_highlight_colour(RED);
 
     // for webtiles dialog input
-    progress->set_prompt(make_stringf("Enter a %sskill target for %s: ",
-                                            base ? "base " : "",
-                                            skill_name(sk)));
+    const char* prompt = base
+        ? "Enter a base skill target for %s: "
+        : "Enter a skill target for %s: ";
+    progress->set_prompt(make_stringf(localise(prompt).c_str(),
+                                    localise(skill_name(sk)).c_str()));
     progress->set_tag("skill_target");
 
     edit_result r = progress->edit(&prefill, _keyfun_target_input);
@@ -1555,7 +1558,7 @@ void SkillMenu::set_help(string msg)
     if (msg.empty())
         set_default_help();
     else
-        m_help->set_text(msg);
+        m_help->set_text(localise(msg));
 }
 
 void SkillMenu::set_skills()
