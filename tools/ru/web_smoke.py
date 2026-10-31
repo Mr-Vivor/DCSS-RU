@@ -344,6 +344,8 @@ def main():
                     expansion_text = spell_page.locator("#ui-stack > .ui-popup").last.inner_text()
                     assert "никогда не промахиваются" in expansion_text, expansion_text
                     assert "коллектор" not in expansion_text and "Warps space" not in expansion_text, expansion_text
+                    assert "развитие «Перемещения»" in expansion_text and "Для этого потребуется" in expansion_text, expansion_text
+                    assert "With your current stats" not in expansion_text and "XLs" not in expansion_text, expansion_text
                     spell_page.screenshot(path=str(ARTIFACTS / "manifold-description.png"), full_page=True)
                     (ARTIFACTS / "manifold-description.txt").write_text(expansion_text, encoding="utf8")
                 except Exception:

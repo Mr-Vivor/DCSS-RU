@@ -5010,9 +5010,9 @@ static string _spell_fail_training_desc(spell_type spell)
     const int max_level = MAX_SKILL_LEVEL * 10;
     if (_spell_fail_at_level(spell, skills, max_level) > target_fail)
     {
-        return make_stringf("You cannot reach a failure rate of %d%% for "
-                            "this spell by training only its schools.\n",
-                            target_fail);
+        return make_stringf(localise("Training only this spell's schools "
+                            "cannot reduce its failure rate to %d%%.").c_str(),
+                            target_fail) + "\n";
     }
 
     // Search for the lowest level that reaches the target.
@@ -5036,12 +5036,13 @@ static string _spell_fail_training_desc(spell_type spell)
         if (you.skill(sk, 10, false, false) < min(level, max_modified_skill_level(sk)))
             to_train.insert(sk);
 
-    string desc = make_stringf("With your current stats and equipment, "
+    string desc = make_stringf(localise("With your current stats and equipment, "
                                "training %s to %d.%d would reduce your "
-                               "failure rate to %d%%.",
-                               skill_names(to_train).c_str(),
+                               "failure rate to %d%%.").c_str(),
+                               localise(skill_names(to_train)).c_str(),
                                level / 10, level % 10, target_fail);
-    desc += make_stringf(" This would take %s.", _xl_cost_desc(experience).c_str());
+    desc += make_stringf(localise(" This would take %s.").c_str(),
+                        localise(_xl_cost_desc(experience)).c_str());
     return desc + "\n";
 }
 

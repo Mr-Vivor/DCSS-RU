@@ -32847,6 +32847,18 @@
     "{target-menu}target/travel": {
       "context": "directn.cc _full_describe_menu: menu action label, separate from generic noun target and ordinary travel.",
       "translation_sha256": "d6a1182b2ca39eb4002d64add68a1d7a5473fa7661726cef5b560d11a88ee2f1"
+    },
+    "With your current stats and equipment, training %s to %d.%d would reduce your failure rate to %d%%.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "74b14a679e98df21d6d26f833d1ba7f0ec240004bd3cf576c074a03ebc8be030"
+    },
+    " This would take %s.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "270866aacb2a1b4b0495efb62d649f8dfe6b88310e136d6c4834c0e8e25861fe"
+    },
+    "Training only this spell's schools cannot reduce its failure rate to %d%%.": {
+      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "translation_sha256": "cf2946cd80374271f7985207033713d2ce36fcb6171dd2bd6b8d654cf781bad4"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

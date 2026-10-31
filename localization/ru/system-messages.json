@@ -8303,5 +8303,8 @@
   "You can't see anything there. Cast anyway?": "Вы никого там не видите. Всё равно сотворить заклинание?",
   ", temporary": ", временно",
   "{target-menu}target": "{target-menu}наведение",
-  "{target-menu}target/travel": "{target-menu}наведение/переход"
+  "{target-menu}target/travel": "{target-menu}наведение/переход",
+  "With your current stats and equipment, training %s to %d.%d would reduce your failure rate to %d%%.": "С текущими характеристиками и снаряжением развитие «%s» до уровня %d.%d снизило бы вероятность неудачи до %d%%.",
+  " This would take %s.": " Для этого потребуется %s.",
+  "Training only this spell's schools cannot reduce its failure rate to %d%%.": "Одного развития школ этого заклинания при текущих характеристиках и снаряжении недостаточно, чтобы снизить вероятность неудачи до %d%%."
 }
