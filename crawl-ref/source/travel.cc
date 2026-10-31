@@ -4432,8 +4432,11 @@ void TravelCache::add_waypoint(int x, int y)
         mprf(MSGCH_PROMPT, "Waypoints on this level may disappear at any time.");
     else if (!is_connected_branch(you.where_are_you))
         mprf(MSGCH_PROMPT, "Waypoints will disappear once you leave this level.");
-    mprf(MSGCH_PROMPT, "Assign waypoint to what number? (0-9%s) ",
-         waypoints_exist? ", D - delete waypoint" : "");
+    // The optional suffix is empty for the first waypoint. Translate the
+    // format before substitution instead of requiring a nonempty wildcard.
+    mprf(MSGCH_PROMPT,
+         localise("Assign waypoint to what number? (0-9%s) ").c_str(),
+         waypoints_exist ? localise(", D - delete waypoint").c_str() : "");
 
     int keyin = toalower(get_ch());
 

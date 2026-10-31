@@ -32563,6 +32563,10 @@
     "you are being drained by your emergency flight": {
       "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
       "translation_sha256": "d21e34f93d6e73f77da7f58074d978d36e2e86be991cda2d035bbb221408a856"
+    },
+    "Assign waypoint to what number? (0-9%s) ": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "690361409312417356d5d876067f91b9bba8f2e2db5ecd45da1c4b935295f7f0"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
