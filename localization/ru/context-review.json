@@ -701,11 +701,11 @@
       "translation_sha256": "d7224171cd1549a80d310452931c4255c298b3e8f31ab16f739bd0aa3aecbabc"
     },
     "You can't drink.": {
-      "context": "item-use.cc",
-      "translation_sha256": "61f6291ae561fab8a1876ea0e2f6818b86b112280583584c46923ba71d392271"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "c7c7058246a0b0ca24e3af3ec3593fc21cc901251875bad2ee2a46de206845a3"
     },
     "You cannot drink potions in your current state!": {
-      "context": "item-use.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "671c80799fa19ecbc9c1d0b936787ed333ffdc6f57d366caf69884759e9c99b3"
     },
     "Drink which item (* to show all)?": {
@@ -713,7 +713,7 @@
       "translation_sha256": "dee73ecc4839ec2f9f70f1eb43f1c0ea437e4ea2bc435b377260e4d98ce3d67c"
     },
     "You can't drink that!": {
-      "context": "item-use.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "a951cd42688e2409a4f729fa37ebbfb5775f5f3f6c98503a523d72b9c3d3ffc0"
     },
     " This action would place you under penance!": {
@@ -801,15 +801,15 @@
       "translation_sha256": "1f2ab100cd1803a25ca2c3bb47109dd421be268b49e1b098fc941298ec2e8337"
     },
     "You are too berserk!": {
-      "context": "item-use.cc",
-      "translation_sha256": "9efc5a80bfd1e86b82462f80ebfdf1fc9a4a069f1c44e4ae08cc2d33eafc0271"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "a4f7ba2a82ae5abfc1c921e533d1e0ce72e5776c3a3c3ca9859ed875b8bc15c4"
     },
     "You are too confused!": {
-      "context": "item-use.cc",
-      "translation_sha256": "7d12da44a24d5d1943b54dfe3a6cbedf2a1cdd3977d13b84a90d942b4167cd00"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "1da0b5f14973e3f4d1e8cccf35252f4ef60bf936b00df7521cff81c909b11b25"
     },
     "You cannot read scrolls in your current state!": {
-      "context": "item-use.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "5fd067e0a4566f1957dd80499941f0c045fbb504961378888da801c8b9c78c0f"
     },
     "Magic scrolls do not work when you're silenced!": {
@@ -817,11 +817,11 @@
       "translation_sha256": "8ae32f843905a258fdf209ac5359e7b68716a29395ba14b0196f30c2c59f32ed"
     },
     "You cannot read scrolls while unable to breathe!": {
-      "context": "item-use.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "6cf7a19034aeac52f665fbfe79d2d15d2677503b4cc17eb463ac76d3f2c2bcec"
     },
     "You can't read that!": {
-      "context": "item-use.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "20eeef89b62af96cb7ef0d476077bdf45de30778e07df1515618dbcc52e545b4"
     },
     "You have no spells to forget!": {
@@ -881,8 +881,8 @@
       "translation_sha256": "d89a9aa418f2a6088b8c5b135f932ac5c5635a483135760bd79191523bbcb263"
     },
     "The air is too still for clouds to form.": {
-      "context": "item-use.cc",
-      "translation_sha256": "43123a38dc3c7e7ab888197683c8c9b21a11ecd4edb78c6a405b1db51b18dbd6"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "a9d5c40299a0cacf83227344e7481d967394d9fc7143c188c05ba3ff7c50eb6d"
     },
     "The scroll dissolves into smoke.": {
       "context": "item-use.cc",
@@ -1509,7 +1509,7 @@
       "translation_sha256": "2de2c4fa1d3c9af82e9df7b7bb3124f7d8bf356e76793c52cf4220b6df20886b"
     },
     "Your health is already full.": {
-      "context": "message.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "9e1364b352677c7d6e5fa6b5bd8cd92f77cff3e8461cbec09afc6784bc9691b3"
     },
     "Your reserves of magic are already full.": {
@@ -7281,8 +7281,8 @@
       "translation_sha256": "b559b52c8353b6e059d06e20039900dce49f747bc2b3d42df37d76516715792e"
     },
     "You can't produce a sound!": {
-      "context": "evoke.cc",
-      "translation_sha256": "c2d96805e7a639d362ae2d4d983dad2dff6aaff55df19ca68e2245b05a2a1ed5"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "550a39f9f4c04032952aada9e59dadf43f1f7518b5ffb622e53a0d7a0446b476"
     },
     "You produce a hideous howling noise!": {
       "context": "evoke.cc",
@@ -7429,16 +7429,16 @@
       "translation_sha256": "31ed2d7a483b7dd35ba75276fb6bcf6039a511ae5d5339daa9b89615e4814ab0"
     },
     "You cannot evoke magical items.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "b42ec58e8956e3ca4a1314b2848ab32375d30b59e8ea964e237af3ade6b6bd54"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "7936d2f90bc408162577087fcce52679de1a74e835445709c47ab6c80cc30a26"
     },
     "This wand has no charges.": {
-      "context": "evoke.cc",
-      "translation_sha256": "9c4aab94a938981202cca0b0e89d181f5db72fc6856cb04059337ef41316ba1a"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "05de82d964aba89cd39f864632ded0af1bffdaba762fdcffdf47f441fab6e3b6"
     },
     "@Arg@ is presently inert.": {
-      "context": "evoke.cc",
-      "translation_sha256": "e326fbb4b0793b0d4d7dcbc686e578e38008908e8928002556200265e70b54ad"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "89e74d4f76ab73c9ff0d1bd432d19c8f88951bec2848b922fd420fecb567e606"
     },
     "Evoke which item? (* to show all)": {
       "context": "evoke.cc",
@@ -7693,8 +7693,8 @@
       "translation_sha256": "6758fe4cc4470c3dc42a31e7305abb48fa328af34508594932423bfb6012d822"
     },
     "You feel protected.": {
-      "context": "player-equip.cc",
-      "translation_sha256": "401afa474f816e8953887e9b479fe130ff7f29a1b7c7853c19f1405bfce6343c"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "68d87801f444e6875bc0cf25ee2dd4ddcf2c190c91fc4576d4a718953b1b646f"
     },
     "You feel stealthy.": {
       "context": "player-equip.cc",
@@ -8357,8 +8357,8 @@
       "translation_sha256": "3dce0e3cf8d1a03b25319e848f14a0f881b4679c0f5782b4a415f8e6f7b28b2a"
     },
     "Your stasis prevents you from being hasted.": {
-      "context": "player.cc",
-      "translation_sha256": "cf7ce0e7fb021f336e81c20fa50276f4e5e60a8610422b4f7ec6380b9bd01ee4"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "d23774532a3290d726025e34b568d74fbb3b0d0a97fdd38f1a231ad5b539387c"
     },
     "You already have as much speed as you can handle.": {
       "context": "player.cc",
@@ -8765,28 +8765,28 @@
       "translation_sha256": "21886768640cd74d957b962ff1b15aea11bbc4145aabbf4b0e5c45e5e77cdbef"
     },
     "You cannot heal while in death's door.": {
-      "context": "potion.cc",
-      "translation_sha256": "cb66b44e5f79a21ebde62b34cb267da6f192fac9350fdaf1b49c8e13e8eddc2e"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "b662871bc103986b5d6979bbce3796887ff78d358942bcd231fca4e92d8c29d2"
     },
     "You have no ailments to cure.": {
-      "context": "potion.cc",
-      "translation_sha256": "434d259e84031a2f1da75a6a69e60dce31a22d84e43ff95b2fe7cb461924d583"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "b957010574cddef33af5223e1429b1e0c07fb82186b3221ba47e9e8bd20ba417"
     },
     "You feel queasy.": {
-      "context": "potion.cc",
-      "translation_sha256": "51a508084a1e8718b9758eb941336cc198d7eae66f3e02a95fb1b8e06aa90f6f"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "97fbde683269e812fc6687de05b795d43644dbc0e90a03198ed60b97f0ad2651"
     },
     "That felt strangely inert.": {
-      "context": "potion.cc",
-      "translation_sha256": "e7068e7eab4e2a4b19975bfb545523a7b8694a0d0376c961f5caf1c00d000754"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "895af17e9983abb6607516ec5de5b5d03c46cc901b9ca90c0823b42c0658477f"
     },
     "You cannot be healed by potions.": {
-      "context": "potion.cc",
-      "translation_sha256": "3b1e13e1acab8bb370b9c84019f92b501ff1db84b5140b9d389f7277ce0c0519"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "6d2fbff3dc734b1a20ec39600364a58481f04a7b4f9588211d0ad1b50b0ac2bd"
     },
     "That seemed strangely inert.": {
-      "context": "potion.cc",
-      "translation_sha256": "e7068e7eab4e2a4b19975bfb545523a7b8694a0d0376c961f5caf1c00d000754"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "895af17e9983abb6607516ec5de5b5d03c46cc901b9ca90c0823b42c0658477f"
     },
     "You feel mightier all of a sudden.": {
       "context": "potion.cc",
@@ -8809,16 +8809,16 @@
       "translation_sha256": "10f35ccd83346419c2d566b77f4f08aac5a46a0075b740dfba8d19945c705837"
     },
     "You feel magically purged.": {
-      "context": "potion.cc",
-      "translation_sha256": "999878192cbbb5ad5c98bba2f927c5313b6453900c04b0761420caf61344ad6a"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "cd7e94a0e95dc7a49bf4e070bf51e85a696eb004730344e658f0d150b7fc937e"
     },
     "You feel more invigorated.": {
       "context": "potion.cc",
       "translation_sha256": "722a5d605bf9bbeb029548998ca8b05505ad172a06ec686a80682739c3149ec1"
     },
     "You feel briefly invigorated.": {
-      "context": "potion.cc",
-      "translation_sha256": "0af5c3a6057efb39fcfbe83c9a9616bdba1db8e71a737f3aff3bb4e61dd4c0d7"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "c781aab32d4456328202faaa5548bc00f08f04cd82f5887a5e5d48c767601e40"
     },
     "You become transparent, but the glow from @arg@ prevents you from becoming completely invisible.": {
       "context": "potion.cc",
@@ -8853,8 +8853,8 @@
       "translation_sha256": "e77b6b3f3e8d006280d0c9612f6a8219093d8e13f851c91fe4af381967cb7c4c"
     },
     "You fade into invisibility!": {
-      "context": "potion.cc",
-      "translation_sha256": "12e0b62a5e67214090431bbb080a2e22923ab3baa513b5baee712e979cb266dc"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "5d46c194a817b4956bf2864b00c20750b6daceb2d5420b316dfff7c218b59425"
     },
     "You fade further into invisibility.": {
       "context": "potion.cc",
@@ -8865,51 +8865,51 @@
       "translation_sha256": "7bd3ec2357ee34ac751651848d76f6c4bc4d3a859d7db1bd44e7d5cb46e4aa7d"
     },
     "A flood of memories washes over you.": {
-      "context": "potion.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "2ef2c2727b25d3535c2ab8ffbcf4ecdc4315a7f29f8fe6efa2385deb8693e52e"
     },
     "You have no magic to restore.": {
-      "context": "potion.cc",
-      "translation_sha256": "e90a72f0887433b7162998d15bebdf27caaa46247459014164cba9d9a6c20689"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "a6bf1dea51fba08a1ec7d638bcd94246c4f4325c56a4c74fa70150467b8a49b8"
     },
     "Magic washes over you without effect.": {
-      "context": "potion.cc",
-      "translation_sha256": "64cea671bab85ca4b8f67971f2b70ace210320a2c981631e33de22955941d559"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "70d23a48c8203c14cf548c9041f7cca8402d8aef88c58acc1d4bf4cf3b0baaeb"
     },
     "Magic courses through your body.": {
-      "context": "potion.cc",
-      "translation_sha256": "6e6102e71d4d0ed34a5be42274ff63854691737796032cee75f667bf0578ce37"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "593c705895676917365d4cb9d9d9ac4b767830b317c1c8ee380c9e1736af8f45"
     },
     "You feel slightly irritated.": {
-      "context": "potion.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "d8aa1e757961970c7b01ac47d655e6baaf1e81878cfe51b5dfcd6c05eb4ece40"
     },
     "You cannot mutate.": {
-      "context": "potion.cc",
-      "translation_sha256": "58a0fc28c19443901a32a8f858301a5c5973f9b372aa98153b68f7f54b173a2d"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "45c50f4aee9095a6225ab9cbbc3e814647fa7858836aaafddbe7d55f96baddb5"
     },
     "You cannot mutate at present.": {
-      "context": "potion.cc",
-      "translation_sha256": "44d995bdf19fc6557114fc0dab75f3a479716f13f8105c6f26642bea59e4badd"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "010521bc03ec41e08620001f25dae95cb5e4c0442a5da7087a7d222460072f39"
     },
     "Really become a tree while standing in a cloud of @arg@?": {
-      "context": "potion.cc",
-      "translation_sha256": "8412297d759199773d893fac8e22343c87325715099fdc3079a63d9c3608a296"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "b8d0027a1b1dc37e3f0864e95aeb982110d81bb4adb421fb44ea010a2476130a"
     },
     "You feel woody for a moment.": {
-      "context": "potion.cc",
-      "translation_sha256": "99eb1658a4640041099844e816efab0f192620d2240d814b2faaba7a907f1098"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "8ea0edb7cc16a4abb1a5564589fe6316aec35559c0ff30032f35a90997d427c6"
     },
     "@Arg@ cleanses your potion of mutation!": {
       "context": "potion.cc",
       "translation_sha256": "7375eea4e6697e9abd026378f1ce80668b4f424548acb9dc8e3dbdd514d0cf83"
     },
     "You feel extremely strange.": {
-      "context": "potion.cc",
-      "translation_sha256": "c7e9c5ff2cf119adaec2c04800ecf7dea68dbfed3b1d31c4958d1c60b18569b1"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "5fca84e76149f1d200c07445bac0126c150f82748b9c592beff20671ea8fce8d"
     },
     "Really drink that potion of mutation while resistant to mutation?": {
-      "context": "potion.cc",
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
       "translation_sha256": "f1485b7969b46f78cbb52eb0126f013c270ff7326c579fefe52c55c559bbaeda"
     },
     "Really drink that potion of mutation?": {
@@ -29989,28 +29989,28 @@
       "translation_sha256": "0b5ca9223cca4d749de4f6cda92f47aef501f51a67dc8d2d77f92ee562bb2457"
     },
     "you need at least @num@ shapeshifting skill to use this effectively.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "5faeb8ce346efb7bd56cf2907df18aef232935366c047ec3aa385e67c4a68dee"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "2c8eb5e61d3bbe32f9d9957ca52857867e5b2dec81fed4ab3ccfbaf1d89fbe26"
     },
     "you are already filled with unstable energy.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "d33ce23827365346a7863bcdff9691f113affb06de5a046af7dd955bd3fa676c"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "f9e3958d49aea2ce415e61f3d76694ec391faf81e72351784a464a80ff3f9041"
     },
     "allies are forbidden to you.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "65cc51641d19e8375082f4a34d8b473ceec224c2fa24084976ff5a1b41384f8a"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "27a2840d1e83ec7ebb4c44aa15e70b13d73fed3ef4d6ecced99a2712c3991407"
     },
     "@God@ forbids the use of this item.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "acf90c6d89977042e26e9241a3c2bcc2ce43bc30d65db9f8c36d862ba1d49fdb"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "58d91ec016fd9320db00ed4ebb180bb4864b700e3109e8a91948412f26d442f5"
     },
     "That item cannot be used by those who cannot gain allies!": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "919d2b706d54baeffb58d41d3dbf533eaa85a729f9402eba1c23aa9018ab6e47"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "ab647279bd4c509066c12eb6a0cf3e0da8254c37b036e17594c2d1567bbc1907"
     },
     "The @any_item@ is presently inert.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "82b4dd0bb16238d86d7c71fdfa38399d9acc93f4b5d7bea7953b50f0e7e67004"
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "1bf240b08774d9ca1aee544fb390ef0481cdacb1c6c7f300f5b7e62e41f67afd"
     },
     "Turn is over": {
       "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
@@ -36495,6 +36495,138 @@
     "{armour-enchant}%s glows green for a while.": {
       "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "88f200df423932071acf98ffdcf8176c26eec4a5c9b7670e7c2d85c6a7b58ff6"
+    },
+    "You don't have control over your spell memory.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "aa4650e55bfa5120e9a72717f39d744899b32a91a05cc49027b794ec651a5c09"
+    },
+    "There's no point in enhancing weapons you can't use!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "f11cb28cb60b17e940a64f5bd9ac3228f2245fbf8068e09668966b6494be0799"
+    },
+    "There's no point in enchanting armour you can't use!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "751425d550618ee3c4838d52c669ea2c78c279570645ed6acb2a08805095c884"
+    },
+    "There is nothing left to identify.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "acb6d62329850a27c78f831bbfe7321403d0138ef81eaf7e4b1d7f3470480867"
+    },
+    "You have no need of identification.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "a02da99228e5c79622a5629d9626ec5c4c987207cd9a811ff3a6ebc5ec33fab1"
+    },
+    "You cannot coerce anything to answer your summons.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "4e1febe7b587c316006b68730677300076dba97da48b4b32bca52dc343168b8a"
+    },
+    "You have no spells to forget.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "0184a319376c6156c32ad07daa4f6d5459a79eabc023c281547222abfcf692b5"
+    },
+    "This place cannot be mapped!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "8c96646ebd0302e1634c61fb8f604c26b62937c6d2abc18cef52860e6fd1b50f"
+    },
+    "You cannot see clearly; the smoke and ash is too thick!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "207386267dfc91bc4b884d55f24c68b3bf033a54a5ed420069144c3278eca442"
+    },
+    "You cannot read scrolls while silenced!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "59f7a2c78dc0f56e43379541f5d90b43ac3b256ebaf0ae72801adf6458910900"
+    },
+    "You refuse to depend on such disposable conveniences.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "851049235d1588b3d4056cb9549232ff0d78f06e1f29e2ea2a74daa40a51b76f"
+    },
+    "You refuse to indulge in frivolous drinking.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "cf5bf82f884ab5a820028c1a0ba3a89c0f6f8425c34496f57c258c7dc36e7a91"
+    },
+    "It's too cold; everything's frozen solid!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "11a47e3063c0ec6643f28fd5d9b1cbec3a827ecdd780470af3bd44f0cd5b836e"
+    },
+    "You can't evoke that!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "652c493534ca1edc6e3b50ca721c2c4248ed419741bc2a15f1adbb6ffc3707a8"
+    },
+    "You cannot currently be healed by potions.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "6097580e5ba6435f1a9e2ff80a5726ef84eabee007dd64550ec16f04bd1d08e7"
+    },
+    "You are protected from being hasted by Cheibriados.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "67667a389d3b1fbc92f401eeb5ef22963dd1dda94a193fad82ec66dd63a48396"
+    },
+    "Trog doesn't allow you to cast spells!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "fadcc0eb5c341f98b0abaa6acb037147febd1b0cd1fa67a309b9e5d38e3a2fd2"
+    },
+    "Your robe already provides the effects of brilliance.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "7f90dffeed26b04b125cd09ae11fe0ded4a487b79c40354c5b5000b25afc8628"
+    },
+    "There is nothing to cancel.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "4e36787070a91a061cd4a103f6f7f694579fcd010ff15f8c15e41508f1d2ec3c"
+    },
+    "Your magic is already full.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "1d6c92722cd8d70e428a6707a9c3ad8bec7a29de15197528e0250f574dce8ad9"
+    },
+    "There's no one nearby to share it with.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "2a3e290e2633180916396a74813448e69be2012f4c19fa931fa1f87927d7f43b"
+    },
+    "You feel much better.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "75331976f98c6893080d86a891bee8a103a88f58f4ecd5ff34c023af456d871e"
+    },
+    "You feel slightly less contaminated with magical energies.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "412b16696d22468f8e52cab4c5823022bfcf1bc0a84acc4c3343dc53aca6c004"
+    },
+    "You feel more experienced!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "c34f249fa06e07f5cebcc9b44a22662a094432affbc20ae7ed0539e236289476"
+    },
+    "You savour every drop.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "7e4426c23f59b9a5c90a60de3ff7d8be3babe38fc929f244b8c49ed5f01c473c"
+    },
+    "You're too dead to put down roots!": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "19133b377a568ac7304ad89295621d4e5a0d263b7f6d9b8d913bf972b19b038b"
+    },
+    "You feel tipsy.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "bf338db10408ccee485712d8a29d146bbf995b56f7ea2efd751cfec8240a5e67"
+    },
+    "You become very slightly more insubstantial.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "a22b1f82a7009d7c2c00505f121d1ccdad52a532255b904deaa5d8b3ed7b23bf"
+    },
+    "Your body becomes insubstantial.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "33b459af2f7c6338f70dae9591554e37bd2fc32da60ea7e11ab62a65f587a6dd"
+    },
+    "The liquid fire falls away from your body.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "7d80c956e4d47f0ed64d3bc10a5191ab4c514509561944bed5fc4ba66dae6720"
+    },
+    "You body stops petrifying.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "4712a50c66477e113fc7eabfc9029ab80b8251d796c1757bf1eb917a12e6850d"
+    },
+    "The spiked barbs fall from your body.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "81d63af4ecc28f346e1e03a54c8f06b3a205d712d9a69d1011178d433e2f6166"
+    },
+    "You extract magical energy from the potion.": {
+      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "translation_sha256": "0377bfcd9f7a5474372f38b9b418a95075b91ff29250504ba0d3fb9c444334ce"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

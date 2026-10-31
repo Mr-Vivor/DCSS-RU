@@ -238,7 +238,7 @@ You have reached level 27, the final one!
 %%%%
 You feel more experienced!
 
-Вы становитесь опытнее!
+Вы чувствуете, что стали опытнее!
 %%%%
 You feel a bit more experienced.
 
@@ -262,7 +262,7 @@ You feel a bit better.
 %%%%
 You feel much better.
 
-Вы чувствуете себя намного лучше.
+Вы чувствуете себя значительно лучше.
 %%%%
 You feel extremely sick.
 
@@ -498,7 +498,7 @@ You feel less contaminated with magical energies.
 %%%%
 You feel slightly less contaminated with magical energies.
 
-Магическое загрязнение немного ослабевает.
+Магическое загрязнение вашего тела немного уменьшается.
 %%%%
 You are fully healed.
 
@@ -1210,7 +1210,7 @@ Inscribe which item?
 %%%%
 You can't drink.
 
-Вы не можете пить.
+Вы не можете пить зелья.
 %%%%
 You cannot drink potions in your current state!
 
@@ -1306,11 +1306,11 @@ Magic quickly surges around you.
 %%%%
 You are too berserk!
 
-Вы слишком охвачены яростью!
+В состоянии ярости это действие недоступно!
 %%%%
 You are too confused!
 
-Вы слишком растеряны!
+В замешательстве вы не можете это сделать!
 %%%%
 You cannot read scrolls in your current state!
 
@@ -1382,7 +1382,7 @@ You hear a loud clanging noise!
 %%%%
 The air is too still for clouds to form.
 
-Воздух слишком неподвижен для образования облаков.
+Воздух неподвижен: облака здесь не образуются.
 %%%%
 The scroll dissolves into smoke.
 
@@ -7726,7 +7726,7 @@ You rejoin the land of the living...
 %%%%
 You can't produce a sound!
 
-Вы не можете издать ни звука!
+Вы не можете издать звук!
 %%%%
 You produce a hideous howling noise!
 
@@ -7874,15 +7874,15 @@ You do not have any ammo quivered for @arg@.
 %%%%
 You cannot evoke magical items.
 
-Вы не можете применять магические устройства.
+Вы не можете пользоваться магическими устройствами.
 %%%%
 This wand has no charges.
 
-В этой палочке нет зарядов.
+В этой палочке не осталось зарядов.
 %%%%
 @Arg@ is presently inert.
 
-Предмет пока неактивен: @Arg@.
+Устройство «@Arg@» разряжено. Заряды восстанавливаются при получении опыта.
 %%%%
 Evoke which item? (* to show all)
 
@@ -8138,7 +8138,7 @@ You feel rather ponderous.
 %%%%
 You feel protected.
 
-Вы чувствуете себя защищённым.
+Вы чувствуете себя защищённее.
 %%%%
 You feel stealthy.
 
@@ -8802,7 +8802,7 @@ You recover from your berserk rage.
 %%%%
 Your stasis prevents you from being hasted.
 
-Стазис не позволяет ускорить вас.
+Стазис не позволяет вас ускорить.
 %%%%
 You already have as much speed as you can handle.
 
@@ -9210,27 +9210,27 @@ You feel more agile all of a sudden.
 %%%%
 You cannot heal while in death's door.
 
-На пороге смерти исцеление невозможно.
+Под действием «Порога смерти» нельзя восстанавливать здоровье.
 %%%%
 You have no ailments to cure.
 
-У вас нет недугов, требующих лечения.
+Нет отравления или замешательства, а лечение здоровья сейчас не требуется или недоступно.
 %%%%
 You feel queasy.
 
-Вас слегка тошнит.
+Вас мутит.
 %%%%
 That felt strangely inert.
 
-Зелье показалось странно бездейственным.
+Зелье неожиданно не подействовало.
 %%%%
 You cannot be healed by potions.
 
-Зелья не могут вас исцелить.
+Зелья не восстанавливают ваше здоровье.
 %%%%
 That seemed strangely inert.
 
-Зелье показалось странно бездейственным.
+Зелье неожиданно не подействовало.
 %%%%
 You feel mightier all of a sudden.
 
@@ -9254,7 +9254,7 @@ You cannot fly right now.
 %%%%
 You feel magically purged.
 
-Вы чувствуете очищение от магии.
+Вы ощущаете магическое очищение.
 %%%%
 You feel more invigorated.
 
@@ -9262,7 +9262,7 @@ You feel more invigorated.
 %%%%
 You feel briefly invigorated.
 
-На миг вы чувствуете бодрость.
+Вы ненадолго ощущаете прилив сил.
 %%%%
 You become transparent, but the glow from @arg@ prevents you from becoming completely invisible.
 
@@ -9298,7 +9298,7 @@ your !!!QUAD DAMAGE!!!
 %%%%
 You fade into invisibility!
 
-Вы исчезаете из виду!
+Вы становитесь невидимы!
 %%%%
 You fade further into invisibility.
 
@@ -9314,15 +9314,15 @@ A flood of memories washes over you.
 %%%%
 You have no magic to restore.
 
-У вас нет магии, которую можно восстановить.
+У вас нет запаса магии, который можно восстановить.
 %%%%
 Magic washes over you without effect.
 
-Магия омывает вас без всякого эффекта.
+Волна магии проходит через вас без всякого эффекта.
 %%%%
 Magic courses through your body.
 
-Магия пронизывает ваше тело.
+Магия наполняет ваше тело.
 %%%%
 You feel slightly irritated.
 
@@ -9330,19 +9330,19 @@ You feel slightly irritated.
 %%%%
 You cannot mutate.
 
-Вы не можете мутировать.
+Вы не можете получать мутации.
 %%%%
 You cannot mutate at present.
 
-Сейчас вы не можете мутировать.
+Сейчас вы не можете получать мутации.
 %%%%
 Really become a tree while standing in a cloud of @arg@?
 
-Превратиться в дерево, стоя в облаке «@arg@»?
+Превратиться в дерево, стоя в опасном облаке «@arg@»?
 %%%%
 You feel woody for a moment.
 
-На миг вы чувствуете себя деревянным.
+На мгновение вам кажется, что ваше тело стало древесным.
 %%%%
 @Arg@ cleanses your potion of mutation!
 
@@ -9350,7 +9350,7 @@ You feel woody for a moment.
 %%%%
 You feel extremely strange.
 
-Вы ощущаете нечто крайне странное.
+Вы чувствуете нечто крайне странное.
 %%%%
 Really drink that potion of mutation while resistant to mutation?
 
@@ -30406,27 +30406,27 @@ You can't shoot while berserk! Really wield @any_item@?
 %%%%
 you need at least @num@ shapeshifting skill to use this effectively.
 
-для эффективного применения нужен навык Оборотничества не ниже @num@.
+Для эффективного применения нужен навык Оборотничества не ниже @num@.
 %%%%
 you are already filled with unstable energy.
 
-вы уже наполнены нестабильной энергией.
+Вас уже наполняет нестабильная энергия.
 %%%%
 allies are forbidden to you.
 
-вам запрещено иметь союзников.
+Вам запрещено иметь союзников.
 %%%%
 @God@ forbids the use of this item.
 
-@God@ запрещает применять этот предмет.
+Божество «@God@» запрещает применять этот предмет.
 %%%%
 That item cannot be used by those who cannot gain allies!
 
-Этот предмет недоступен тем, кто не может иметь союзников!
+Этот предмет требует возможности призывать союзников, а она вам недоступна!
 %%%%
 The @any_item@ is presently inert.
 
-Этот предмет сейчас неактивен: @any_item@.
+Устройство «@any_item@» разряжено. Заряды восстанавливаются при получении опыта.
 %%%%
 Turn is over
 
@@ -36867,3 +36867,119 @@ You have nothing you can fire or use right now.
 {armour-enchant}%s glows green for a while.
 
 {armour-enchant}Доспехи «%s» некоторое время светятся зелёным.
+%%%%
+You don't have control over your spell memory.
+
+Вы не можете по своему выбору забывать заклинания.
+%%%%
+There's no point in enhancing weapons you can't use!
+
+Вы не можете пользоваться оружием, поэтому усиливать его бессмысленно!
+%%%%
+There's no point in enchanting armour you can't use!
+
+Вы не можете носить доспехи, поэтому зачаровывать их бессмысленно!
+%%%%
+There is nothing left to identify.
+
+Больше нечего опознавать.
+%%%%
+You have no need of identification.
+
+Отдельное опознание предметов вам не требуется.
+%%%%
+You cannot coerce anything to answer your summons.
+
+Вы не можете призывать союзников.
+%%%%
+You have no spells to forget.
+
+У вас нет изученных заклинаний, которые можно забыть.
+%%%%
+This place cannot be mapped!
+
+Карту этого места раскрыть невозможно!
+%%%%
+You cannot see clearly; the smoke and ash is too thick!
+
+Из-за густого дыма и пепла вы не можете разобрать текст!
+%%%%
+You cannot read scrolls while silenced!
+
+Нельзя читать свитки в области безмолвия!
+%%%%
+You refuse to depend on such disposable conveniences.
+
+Вы временно отказались от чтения свитков.
+%%%%
+You refuse to indulge in frivolous drinking.
+
+Вы временно отказались от питья зелий.
+%%%%
+It's too cold; everything's frozen solid!
+
+Слишком холодно: всё промёрзло насквозь!
+%%%%
+You can't evoke that!
+
+Этот предмет нельзя активировать!
+%%%%
+You cannot currently be healed by potions.
+
+Сейчас зелья не могут восстановить ваше здоровье.
+%%%%
+You are protected from being hasted by Cheibriados.
+
+Чейбриадос не позволяет вас ускорить.
+%%%%
+Trog doesn't allow you to cast spells!
+
+Трог запрещает вам творить заклинания!
+%%%%
+Your robe already provides the effects of brilliance.
+
+Ваша мантия уже даёт эффект зелья гениальности.
+%%%%
+There is nothing to cancel.
+
+На вас нет эффектов, которые можно рассеять этим зельем.
+%%%%
+There's no one nearby to share it with.
+
+Сейчас недоступна пьяная атака этим зельем.
+%%%%
+You savour every drop.
+
+Вы наслаждаетесь каждой каплей.
+%%%%
+You're too dead to put down roots!
+
+Нежить не может пустить корни!
+%%%%
+You feel tipsy.
+
+Вы чувствуете лёгкое опьянение.
+%%%%
+You become very slightly more insubstantial.
+
+Ваше тело становится чуть менее осязаемым.
+%%%%
+Your body becomes insubstantial.
+
+Ваше тело становится неосязаемым.
+%%%%
+The liquid fire falls away from your body.
+
+Жидкое пламя стекает с вашего тела.
+%%%%
+You body stops petrifying.
+
+Ваше тело перестаёт каменеть.
+%%%%
+The spiked barbs fall from your body.
+
+Зазубренные шипы выпадают из вашего тела.
+%%%%
+You extract magical energy from the potion.
+
+Вы извлекаете из зелья магическую энергию.

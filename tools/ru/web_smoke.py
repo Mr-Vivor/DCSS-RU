@@ -484,11 +484,11 @@ def main():
                     scroll_row = inventory_row(spell_page, "свиток страха")
                     scroll_row.click()
                     spell_page.locator(".describe-item .actions [data-hotkey='i']").click()
-                    inscription_input = spell_page.locator("#messages .game_message input")
+                    inscription_input = spell_page.locator("#input_dialog input")
                     inscription_input.wait_for(state="visible")
                     inscription_input.fill("!r")
                     spell_page.keyboard.press("Enter")
-                    inscription_input.wait_for(state="detached")
+                    inscription_input.wait_for(state="hidden")
                     for _ in range(3):
                         if not spell_page.locator("#ui-stack > .ui-popup").count():
                             break
