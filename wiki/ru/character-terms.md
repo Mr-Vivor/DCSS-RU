@@ -101,6 +101,12 @@
 | Evocations | Управление устройствами |
 | Shapeshifting | Оборотничество |
 
+## branches
+
+| English | Русское название |
+|---|---|
+| Slime Pits | Слизистые ямы |
+
 ## gods
 
 | English | Русское название |
