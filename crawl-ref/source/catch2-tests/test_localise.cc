@@ -20,6 +20,7 @@
 #include "player.h"
 #include "quiver.h"
 #include "stringutil.h"
+#include "travel.h"
 #include "spl-cast.h"
 #include "spl-util.h"
 #include "unicode.h"
@@ -586,4 +587,74 @@ TEST_CASE("Russian unique artefact powers and inscriptions preserve their contex
     CHECK(localise("{orb Charlatan}") == "{сфера Шарлатан}");
     CHECK(localise("{Will+++ HP--}") == "{Воля+++ ОЗ--}");
     you.species = old_species;
+}
+
+TEST_CASE("Russian navigation and multi-turn actions keep their meaning", "[localise][single-file]")
+{
+    russian_localisation language;
+    runrest mode;
+    for (const int value : { RMODE_EXPLORE, RMODE_EXPLORE_GREEDY,
+                            RMODE_TRAVEL, RMODE_INTERLEVEL })
+    {
+        mode.runmode = value;
+        const bool explore = value == RMODE_EXPLORE || value == RMODE_EXPLORE_GREEDY;
+        CHECK(mode.runmode_name() == (explore ? "explore" : "travel"));
+        CHECK(localise_in_context("travel-mode", mode.runmode_name())
+              == (explore ? "автоисследование" : "автопереход"));
+    }
+    mode.runmode = RMODE_WAIT_DURATION;
+    mode.pos.reset();
+    CHECK(mode.runmode_name() == "rest");
+    CHECK(localise_in_context("travel-mode", mode.runmode_name()) == "отдых");
+    mode.pos = coord_def(1, 0);
+    CHECK(mode.runmode_name() == "run");
+    CHECK(localise_in_context("travel-mode", mode.runmode_name()) == "бег");
+
+    CHECK(make_stringf(localise_in_context("travel-shortcut", "%s - %s").c_str(),
+                       "Tab/Enter", "D:3") == "Tab/Enter — D:3");
+    CHECK(make_stringf(localise("Where to? %s").c_str(), "(? — справка) ")
+          == "Куда идти? (? — справка) ");
+    CHECK(localise("Key pressed, stopping автоисследование.")
+          == "Нажата клавиша. Остановлено: автоисследование.");
+    CHECK(localise("You're confused, stopping отдых.")
+          == "Вы в замешательстве. Остановлено: отдых.");
+    CHECK(localise("Partly explored, can't reach some items and places.")
+          == "Этаж исследован частично: некоторые предметы и места недоступны.");
+    CHECK(localise("Could not pick up a dagger here; Ignore it?")
+          == "Здесь не удалось подобрать: кинжал. Игнорировать этот предмет?");
+    CHECK(localise("Calm down first, please.")
+          == "Сначала дождитесь окончания ярости берсерка.");
+    CHECK(localise("You start attuning to your weapon.")
+          == "Вы начинаете настраиваться на оружие.");
+    CHECK(localise("You stop parting from your weapon.")
+          == "Вы прекращаете разрывать связь с оружием.");
+    CHECK(localise("You start haunting your armour.")
+          == "Вы начинаете вселяться в доспехи.");
+    CHECK(localise("You start fusing with your armour.")
+          == "Вы начинаете сращиваться с доспехами.");
+    CHECK(localise("You continue putting on your +0 robe.")
+          == "Вы продолжаете надевать: +0 мантия.");
+    CHECK(localise("You finish removing your +0 robe.")
+          == "Вы сняли: +0 мантия.");
+    CHECK(localise("You finish attuning to your +0 dagger.")
+          == "Настройка на оружие завершена: +0 кинжал.");
+    CHECK(localise("You continue untransforming.")
+          == "Вы продолжаете возвращаться в обычный облик.");
+    CHECK(localise("There are probably monsters nearby")
+          == "Вероятно, поблизости есть монстры");
+    CHECK(localise("There are monsters nearby") == "Поблизости есть монстры");
+    CHECK(localise("you are contaminated with a potentially lethal amount of magic")
+          == "Уровень магического загрязнения может оказаться смертельным");
+    CHECK(localise("you are being drained by your emergency flight")
+          == "Аварийный полёт истощает вас и уменьшает максимальное здоровье");
+    CHECK(localise(" (Press *t to temporarily disregard this.)")
+          == " (Нажмите *t, чтобы временно игнорировать эту угрозу.)");
+    CHECK(localise(" (Press Ctrl+T to temporarily disregard this.)")
+          == " (Нажмите Ctrl+T, чтобы временно игнорировать эту угрозу.)");
+
+    Options.language = lang_t::EN;
+    CHECK(localise_in_context("travel-mode", mode.runmode_name()) == "run");
+    CHECK(localise("You start haunting your armour.") == "You start haunting your armour.");
+    CHECK(localise_in_context("travel-shortcut", "%s - %s") == "%s - %s");
+    Options.language = lang_t::RU;
 }

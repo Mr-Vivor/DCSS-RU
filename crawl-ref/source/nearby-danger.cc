@@ -22,6 +22,7 @@
 #include "fprop.h"
 #include "god-abil.h"
 #include "god-passive.h"
+#include "localise.h"
 #include "monster.h"
 #include "mon-movetarget.h"
 #include "mon-pathfind.h"
@@ -146,14 +147,17 @@ bool mons_is_safe(const monster* mon, const bool want_move,
 static void _announce_monsters(string announcement, vector<coord_def> &visible,
                                bool none_visible)
 {
-    mprf(MSGCH_WARN, "%s!%s", announcement.c_str(),
-         none_visible && !you.gave_invis_clear_prompt
+    // Translate the warning and its platform-specific hint independently;
+    // the original announcement is also used as an internal safety reason.
+    const string warning = localise(announcement);
+    const string hint = none_visible && !you.gave_invis_clear_prompt
 #ifdef USE_TILE_WEB
-            ? " (Press *t to temporarily disregard this.)"
+            ? localise(" (Press *t to temporarily disregard this.)")
 #else
-            ? " (Press Ctrl+T to temporarily disregard this.)"
+            ? localise(" (Press Ctrl+T to temporarily disregard this.)")
 #endif
-            : "");
+            : "";
+    mprf(MSGCH_WARN, "%s!%s", warning.c_str(), hint.c_str());
     if (none_visible)
         you.gave_invis_clear_prompt = true;
 
@@ -222,7 +226,7 @@ vector<monster* > get_nearby_monsters(bool want_move,
 
 #define UNSAFE_MSG(msg) {                           \
     if (announce)                                   \
-        mprf(MSGCH_WARN, "%s!", msg);               \
+        mprf(MSGCH_WARN, "%s!", localise(msg).c_str()); \
     if (reason)                                     \
         *reason = msg;                              \
     return false;                                   \

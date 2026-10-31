@@ -4113,35 +4113,35 @@
       "translation_sha256": "a50e209552da7613b2839e91c19f0e935867d24e8d43bb0610efbfcdc9172595"
     },
     "Your memorisation is interrupted.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "fb1d4dcde9ac972fba6cafc91072d342bfa3132722780c5e1fb39bb735297228"
     },
     "You stop dropping stuff.": {
-      "context": "delay.cc",
-      "translation_sha256": "d83a7796e47a0f7d998504cf9743241db390d0f65fef4bf95ef08a9872723768"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "307bcc52f8c2f96b515e8f5ed56fd93fee260ddcd2274e2f11aeb8191799ea8a"
     },
     "Keep equipping yourself?": {
-      "context": "delay.cc",
-      "translation_sha256": "b66444ab155bc6adf6a3231b06bb09f4a2753952e257763f246df40efa516dd8"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "fa2f0f996c7bef5952253da6995fbb81e9c0e040421465bbd24b4e7e0657bbfd"
     },
     "You stop putting on your amulet.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
       "translation_sha256": "f7f97ad19ff519988b374361faa7a792815223f2f79f5fa8afa0f24770b84efa"
     },
     "Keep disrobing?": {
-      "context": "delay.cc",
-      "translation_sha256": "727ef157ad6f16ac05e20f4d5321136ad56bc261933c5f1baef21e0ec4e834d6"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "92c3d8e1c3842a9cadf702ec354fdfa5c8b3b988d6abea71272a531c4c2d3a8a"
     },
     "You stop removing your amulet.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
       "translation_sha256": "9da5909d46cdd47204cef912b7233d19212ac2b009957814240aa7c9cca4167a"
     },
     "Your meditation is interrupted.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "c89316586478647c1b4451c394c0188ce0d37d784495df6a2cdd09bc29da05d1"
     },
     "You stop digging.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "13ed5d756d42c9d4a074c8a6b58450423d84237acbe89288f139d00272d19610"
     },
     "Keep bloodletting?": {
@@ -4165,12 +4165,12 @@
       "translation_sha256": "753c2762a5b25657d378d24d33d76bbc0a7969fcbb20ecd84c41761f1b07ba71"
     },
     "You begin to meditate on the wall.": {
-      "context": "delay.cc",
-      "translation_sha256": "dd68db2fc3846da3ef7a6ca571fcdc95ac435b1854013326eadb3ae98383c903"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "25dcb773a2199ac007efcb108ee8f29f8ef8e00b06c21f72438f8fc7186aae09"
     },
     "You begin to dig a shaft.": {
-      "context": "delay.cc",
-      "translation_sha256": "8acf0e575494c32622d1f765d30654c0ab2db0036ff251c98608cb18915aafd1"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "3977971d5989f5685a39386057990aae1a059ba519b4debcbaf01cb3df0754ea"
     },
     "You begin bloodletting.": {
       "context": "delay.cc",
@@ -4185,19 +4185,19 @@
       "translation_sha256": "13b4d199019253ebc10c752dc5514b94c17a0b421d630ee2333865ba565d6957"
     },
     "You finish memorising.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "9d08e82e6b054be8b9d9f7df208f2bb53bed218e0319cad6713a556ba7967581"
     },
     "You finish merging with the rock.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "6fc1024988b92e7091a14f172a1f92a128c08b7e82a9d167d68f4e0917d36362"
     },
     "...yet there is something new on the other side. You quickly turn back.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "15195ea18fbf07b75305803aad3cbcfdddbeed6f7b684d826527cd9c3888b74a"
     },
     "...and sense your way blocked. You quickly turn back.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "5eccbfcf507ea744bdd672c12884a4cbaef9b52a77787c53d7f8efd43c3f7428"
     },
     "You become bloodless.": {
@@ -4357,15 +4357,15 @@
       "translation_sha256": "e5eb16c53436c8a4b315d240c3c19f2faa1f8fb82c8b1d5f98f4e219593e4638"
     },
     "HP restored.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "9caa0f2a8c39638f67443580eeb891ff6fddde80aee216c4b3d66c9b29a5c2f1"
     },
     "Magic restored.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "12ae52a9c27ad1627631a184275dabc6494250635392fe91bdddfed1e1811b93"
     },
     "Ancestor HP restored.": {
-      "context": "delay.cc",
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
       "translation_sha256": "3b43613f8c8adb6af906743635a276e776fa7aded95966cccb30af7a5cbfdf75"
     },
     "Error: truncation inside the save file.": {
@@ -5565,31 +5565,31 @@
       "translation_sha256": "4bdf1df13e4f63890833309d481cd2754be45caadf47d45dda38580489d2e168"
     },
     "Have to go through @arg@. Continue?": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "332ec00c208331ff3ee80c8d5580c09d2439f225563607521727336c4fac7ddc"
     },
     "unopened runed door": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "98659752fc7a577041b0b31d41a1989854c54d3302b6b5f2d70e3e084b878118"
     },
     "unopened door": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "585b64873b01fcc9b2d474a62a1fab0cdad9fff26bfb7c557bbef5567ffc50e2"
     },
     "unvisited transporter": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "8f39289563ff1ebe4b8414f79ffecd20e5ede8b8059fd748312e545cfb1f6ac8"
     },
     "can't reach some items": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "cda78b6e6ca071721f7d43bf2f7d0cc637d08296053ed0f941fb76da9920b6eb"
     },
     "can't reach some places": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "f39c35543b89d6d84a651f8810cc4422d3cb651078aa81cc9e08bc1355c3f281"
     },
     "Partly explored, @arg@.": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "02694e7e5ba904537cf378bc1dfbbfa425c7bfdc1544ab86c3b4301db01dfc5c"
     },
     "Could not pick up an item here; shall I ignore it?": {
@@ -5605,27 +5605,27 @@
       "translation_sha256": "11321ef6df4159dfbee46f431ce39f83e67d1b9ba16993d7d7480c43dc7b9b2e"
     },
     "Key pressed, stopping @arg@.": {
-      "context": "travel.cc",
-      "translation_sha256": "f3148b023513ecfbfbdf67345356a9cc7d7461b86ba496764623849896d3a7fd"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "7bfce6d09c575239fae8152f11ac07f14cc0386556845e66d5e59d4bb54253d7"
     },
     "You're confused, stopping @arg@.": {
-      "context": "travel.cc",
-      "translation_sha256": "7b705f42e2670ed20097f30ca9e605ed5b05f145a3db2957292a188420b24241"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "c412833d33d2a5b1e573c5fcb544addaa966adbe5d9aa8363817ab2323d464af"
     },
     "You're in a travel-excluded area, stopping @arg@.": {
-      "context": "travel.cc",
-      "translation_sha256": "4e5aee7c7ac93bf6ba24ab8b788c76de4555ebb0ba9b5a450cd59f293f52eb8e"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "dbe1f103f6d21f97e1d6dc61862e84b9ab8e3d4ed75e1f552f5329efbac7324f"
     },
     " @ (x,y)": {
       "context": "travel.cc",
       "translation_sha256": "e69ebef669fe4eab1f296f9ef681998a693e985a482645642897d2a4c6f2b2a1"
     },
     "* - list branches": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "8f516e4b8e07b0973ace4c632db10d452289a39c0a8d7d1cfa91ed3352459845"
     },
     "* - list waypoints": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "c833a0fb862c397abce9d7368083a8669dd14327be8f3a38b370739dfc0a5166"
     },
     "Enter - @arg@": {
@@ -5633,7 +5633,7 @@
       "translation_sha256": "0238a65fea43da5a8790edead31b5a71fdc86c688b78f250f8d920da0fe1bcee"
     },
     "? - help": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "992c2e2016bd7e9f8a448b5dfa6fffcd057cc426f50e248acff6fd5562d63d91"
     },
     "Where to? (@arg@)": {
@@ -5657,47 +5657,47 @@
       "translation_sha256": "a9505511314a422755d681e1725e7dbab5c5257ee62fe015a11d3eaa8f8245ea"
     },
     "What level of @arg1@? (default @arg2@, ? - help) ": {
-      "context": "travel.cc",
-      "translation_sha256": "2665f15ffb945d60b3aaef4bdc8096c6eeb95a3b14298d24d27362423a5f2af4"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "ab2f6181b0742ee60a20e306fc52cb179ee3333f9b6129558330be48d7ca8f34"
     },
     "You're already at the bottom of this branch!": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "a349302c4f567a91cee7ab209ece819d101186bf497e92e61567cf71d17bc4e1"
     },
     "Sorry, you can't auto-travel out of here.": {
-      "context": "travel.cc",
-      "translation_sha256": "884be827a1e16dc2258efab245aaeb3f8cb2280b8f6ed955b530bef3c244f11f"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "0854a2b338a1a10899c18260fa066cabd0a67fb4360813a5595684770e74f979"
     },
     "Sorry, I don't know how to get there.": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "8dcd5eeac5df8663afc2802a57d7120c4bb53bfc8c39f8a77b96537c9fdc2dde"
     },
     "Level memory is imperfect, aborting.": {
-      "context": "travel.cc",
-      "translation_sha256": "1cb490d67e14828c128065c005d58985c2e1132bf9c5822479024b117c239599"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "1aed97f0cced3998c193a2124e4701df2893cf19615f124886ce03a17bc87133"
     },
     "Sorry, I don't know how to traverse that place.": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "cfcab86d403b45f4dd886063ff9182386dcc6f168e0052211ccf4b76e8ffc6ed"
     },
     "Calm down first, please.": {
-      "context": "travel.cc",
-      "translation_sha256": "58b7be82ef58a51be6a70a579aba0bf98d9d7b2479fa66a27e3e09499b21f839"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "8d86d6d5eafb91cd8ae4dae34ae0c9f62fdac6b8384c79dc160933fa3d06da6c"
     },
     "Level @num@ of @arg@": {
       "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
       "translation_sha256": "4e8a8907f893440be0838ac9b4c0d661c94aee566765a6a813caeceaa32f469e"
     },
     "Existing waypoints:": {
-      "context": "travel.cc",
-      "translation_sha256": "c582ead0de5458dd049a8476114e208374408d52178e1e1eaa2cc0bfd426692c"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "af44d9e96fa4a67d7ee3432dd9e5d0d1538f981a3dd7226ea0bd5819dc016c66"
     },
     "Delete which waypoint? (* - delete all, Esc - exit) ": {
-      "context": "travel.cc",
-      "translation_sha256": "2f9875d1d7a0d1809ea41dd1277c4b4b9bc94ae56f92e2701dab8ae9ff4ac840"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "6c884658ed613a93112ed9d228db4b59ee441df789eb3671885d17e727fa84b6"
     },
     "All waypoints deleted. Have a nice day!": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "7c77059dab998a55318298b38b4c222fafa0d7cf4b5b125e623e877561d26f7f"
     },
     "Sorry, you can't set a waypoint here.": {
@@ -5705,28 +5705,28 @@
       "translation_sha256": "7cd49870f0cde40168c3c15c08b2060618897faa53b9034bb8aa7a92d6e4cf4e"
     },
     "Assign waypoint to what number? (0-9@arg@) ": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "e5efe604b6a2b2b87c08755e583062876f59e62ae02976fa2eb9df69925d9f48"
     },
     ", D - delete waypoint": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "2a3692e5f2df8ac205097e29adc38e6eb149e22a45db4a915cc8e70e34c93494"
     },
     "Waypoint @num@ re-assigned to @arg@.": {
-      "context": "travel.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "1d17d551753fbc67c1e1ac50dd88d1f06e1a9222512b8c9d3560df2a5cc2c0f6"
     },
     "Waypoint @num@ re-assigned from @arg1@ to @arg2@.": {
-      "context": "travel.cc",
-      "translation_sha256": "aabbac41887f8b0140e4462712c7ce59f2402d38910d238d00d4b7e5beff4b5d"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "e445de1f99268b70dad219f8fa33beeaad5f5c6cae488cb3384b6daab9f2a086"
     },
     "Waypoint @num@ assigned to @arg@.": {
-      "context": "travel.cc",
-      "translation_sha256": "36b68fccbad2aa008c25c3492beb12bd7b42cae3278bba8d63a0914ee9f8784e"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "d8a68a0a7247e88c660411f63f5f6226d75d3ff13485421a302c669cf9cbd08a"
     },
     "Stopped running for exclusion.": {
-      "context": "travel.cc",
-      "translation_sha256": "c7eaf2ef99d9211335ffba68b1c1f606872176f20c3087b37b239b3c6d4a4f72"
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "f41413fdd2d4cffdfe2aecf595a6a4ec7332678aafd2e30a71021179ee304804"
     },
     "stair": {
       "context": "travel.cc",
@@ -5945,7 +5945,7 @@
       "translation_sha256": "6b7d01f7fd53d359a6482f4751fcfbd3c1e740cdf96dd06206cbf0f7c33ff0b7"
     },
     "You're already here!": {
-      "context": "ability.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "88f410966fb51170dfe8e97c82dd323a30e9c338ca1d4d5e8df3bc643f857f58"
     },
     "You don't have enough innate magic capacity.": {
@@ -7245,7 +7245,7 @@
       "translation_sha256": "547b5475c6c4914c9c120e197d17996bb03cb8dc514ba61cf0fb030a9cbe283a"
     },
     "Autopickup disabled for @arg@.": {
-      "context": "items.cc",
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "2f58f655d762acacbab0c4cd77afbf3b8b2e7c17b4e96f5bd3b74d9fe577294e"
     },
     "Autopickup disabled for @num@ items.": {
@@ -7289,8 +7289,8 @@
       "translation_sha256": "a53b06d04d76eeae4f41f0f5daf7dcdd5da6b9fc96ed6dd15bb9366b696d5098"
     },
     "You are being drained by your emergency flight!": {
-      "context": "nearby-danger.cc",
-      "translation_sha256": "1f96ddf52383f0a3648e6c53a9ed3dc688839116a1864c7153ecc8bed036a30f"
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "533fd6079fd40628d59583f73138baf31bb389bbe14f25d7e3dc6ca133eeac74"
     },
     "@Arg@ is nearby!": {
       "context": "nearby-danger.cc",
@@ -19473,16 +19473,16 @@
       "translation_sha256": "a891ac12263646d0f1c71d037fc52bb3722fa0a13c274e541fd70214b30b4139"
     },
     "You continue putting on @arg@.": {
-      "context": "decks.cc",
-      "translation_sha256": "ebd40fb4b19e983cec625a73f13fe020c21c8dd7d410006fea163f83dda8e01c"
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "5b588da303dd2c7ed4c48dde1997eb89e5a02f330b90edb30a5c4a83885ff2ab"
     },
     "You continue taking off @arg@.": {
       "context": "decks.cc",
       "translation_sha256": "bbdb12f61b6247059193da343d41bdb1649841a1aaab1a361593b6ffb374c682"
     },
     "You continue memorising.": {
-      "context": "decks.cc",
-      "translation_sha256": "56f96e03c59852c305581a0a38fac4da722d73cfd977089ae931ad6476033961"
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "3e4024fa6184da0af42e965f75770a01558cb7bd09f84f5f68e923a619aeb91a"
     },
     "You continue meditating on the rock.": {
       "context": "decks.cc",
@@ -32127,6 +32127,442 @@
     "(Confirm with \"%s\".)": {
       "context": "prompt.cc confirm_prompt: localise the printf format before substituting the unchanged literal answer required by strcasecmp; applies to yes, wiz and other typed confirmations.",
       "translation_sha256": "c84cc66d245525bd6542ab04c4f7b8d78a3be778f945cc8d8413fec04eb529a6"
+    },
+    "Done exploring.": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "56925b9503c7bc6f831edb6312bf74a992fd330b7ad4e23a941c0c707e80b67d"
+    },
+    "can't reach some items and places": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "25d58efc0e6a68dcb9fbef2781a8cfb8771da2fa52f5095684278f7e440c11bd"
+    },
+    "Could not pick up @arg@ here; Ignore it?": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "8a5db5def9525eaf3cc907a8a66cec4ff2201e42cf6ec7c146fa958fc3c2f8ef"
+    },
+    "Could not pick up @arg@ here; Ignore them?": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "fc5e91b820fcf40e2a3a704be5336c64ccb05ae1f6d365e427e3fc8fc133a12d"
+    },
+    "You appear to be waiting for the end of something which may never occur. Examine your explore_auto_rest_status option.": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "4b669e85381d7b5c18d20baab25bab8c0b76976f6682f66fdde8b80bb6da7879"
+    },
+    "Really explore while Zot is near?": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "56e075667760767a618ed01613052564750b3c68dc569ca9e61fea42faab4c12"
+    },
+    "Waypoints on this level may disappear at any time.": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "3c6b3284c0667c5a61a2072ef6289e4efa2f9149955dd7a48f5433e996a3e8a2"
+    },
+    "Waypoints will disappear once you leave this level.": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "58f1217341ce26b5719431974e481faf7688fd4166933e3a21063489724ad54f"
+    },
+    "_ - list branches": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "918a67996619ebf19119e9ab0406e15e0397e9161ed6935549a7d7c23aa4a816"
+    },
+    "Where to? %s": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "2efe80cfedc8d1957d4271ec3ff8d9dbb94c0f7ece2046b93c987fb8aff217ad"
+    },
+    "Where to? ": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "5a6757caf0cdf5047b5723fc737e850529350c5694b56fe05564bdabde301795"
+    },
+    "{travel-mode}explore": {
+      "context": "travel.cc/delay.cc: display-only run mode noun; runrest::runmode_name and Lua/rc names remain English",
+      "translation_sha256": "70b5c503a08cc84a65ba1982b650a5a27a2997f50c3fee4f181e966360437238"
+    },
+    "{travel-mode}travel": {
+      "context": "travel.cc/delay.cc: display-only run mode noun; runrest::runmode_name and Lua/rc names remain English",
+      "translation_sha256": "e6bdacb5de8f419c58ab9c524ea937638e6def03ea4981d1d575b6a841c51afa"
+    },
+    "{travel-mode}rest": {
+      "context": "travel.cc/delay.cc: display-only run mode noun; runrest::runmode_name and Lua/rc names remain English",
+      "translation_sha256": "94fc5f5e3d5bb2a2e4d16b1321800c82d8eeb8d7a7e9a4056ef1fb52644cb25c"
+    },
+    "{travel-mode}run": {
+      "context": "travel.cc/delay.cc: display-only run mode noun; runrest::runmode_name and Lua/rc names remain English",
+      "translation_sha256": "0ba04daf71577b735425b17a89d72799ce896f80b23c6853d409508e62c596bc"
+    },
+    "{travel-shortcut}%s - %s": {
+      "context": "TravelPromptMenu: printf formatting before inserting literal Tab/Enter key names and unchanged branch destination code",
+      "translation_sha256": "c9215b90cb71f758f64c18776439c2955ad3132bc654e92465d5f2778fbc3cd4"
+    },
+    "You start attuning to your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "ed1f104a6d872f9a1c7a8df2bf28cbd544737354c502fb3fdef650c3efdcb698"
+    },
+    "You stop attuning to your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "cc8faef3c95d0141210dea8e63f3f286578266acaff6bf6e732ee2d6d5372e7a"
+    },
+    "You continue attuning to @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a640b64d261292e4759e882fe9d73839f6a0a30daa4bfb3a7c334dcc631e31ee"
+    },
+    "You finish attuning to @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "73e54f9146d329800b23b4c6d1634e05f860d30a6958a2c9ea2586a7adec3fc0"
+    },
+    "You start wielding your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "e91ffbfb2b37152f1f8d0c09f66156f966f5cf9a2c829b9d79b687575ddac10d"
+    },
+    "You stop wielding your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "5df1e1153e4ad379e0ee09cab9ff9d4e4db632bd7caae99ad941252cc2794713"
+    },
+    "You continue wielding @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "f0863cd3922fd115bca766620de9bd1f9780f27bd410b0f8665d549adb132e7a"
+    },
+    "You finish wielding @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "47e814c690e00f4a40c8db84c5b63dd44607cc539d577bc1e8922a6145596e33"
+    },
+    "You start haunting your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a25fb18938a138b2fbe664681ef520322569dd507f591f3fa3b8d219acef2fdc"
+    },
+    "You stop haunting your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "130e96b34b4635cd2a2f5b56168df4eeb5364456d0992b5afd5582e9f5d20114"
+    },
+    "You continue haunting @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "39641adb0bbbbf97d166dbcb02955ab0f9d3e1f2653e80c108107122f1431fa0"
+    },
+    "You finish haunting @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "3db609889225a49fe538c3b56f1942910987be05917a7ffd939159b33cc7420a"
+    },
+    "You start fusing with your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "ec6501e84606904345692fd46a1ea979a3d8fe9881bff02d716ab0a55af6a6b1"
+    },
+    "You stop fusing with your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "025286a022f86771ac4d8e6296bfeb8da60a14bb14c4c581cb37663434d61fff"
+    },
+    "You continue fusing with @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "df2afec4a98db9a3963e9a0b7a97427acdbe4beb1608aafa56ee105a994335f6"
+    },
+    "You finish fusing with @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "5274d2ca34ca368abe0fa5cdd3217da606562459bfc143d2e5a17b081f2cdda5"
+    },
+    "You start putting on your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "0382a2e03a291060603c0cb4034f0c47605602f98c6bc07b5bfd4af0d3354f27"
+    },
+    "You stop putting on your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "c71e0b3e431d2b5a2b976c67ee6e7d4b139f5a3a46722d220a0383d967702dbe"
+    },
+    "You finish putting on @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "4b20edd7129f3aa4ddb4a009a0640e7385d980f8e74d493d035c3b4e68936b11"
+    },
+    "You start putting on your amulet.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a73bbed041aaae7a8ac82a36fa269adc811f8245228310f264318bfac46eafea"
+    },
+    "You start parting from your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "0a59d24f084564b1a25f4cc1f090272b647a56e8bc9032a9c6c22413f4885e49"
+    },
+    "You stop parting from your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "ac5d8389e9fcd3ede59931fa0c666b15befa3424464a54cc4a2df217a9c50d44"
+    },
+    "You continue parting from @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "ef21f87af461b47fa763196d38804de41fbecd097ccdba453c11b911566059a0"
+    },
+    "You finish parting from @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "22ba4e53754d2c4c9504c5e475fd7b2a568465b0260e0df82b3012e3ed0d97ef"
+    },
+    "You start unwielding your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "976a775d9ad4345c28e7e319cc0c8daac04db5eb266476c6be202219c073d8f4"
+    },
+    "You stop unwielding your weapon.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "65f9d62c763f1969f05f11058c9362af6cd335a6f5195179e5b2bb46dd69fc3b"
+    },
+    "You continue unwielding @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "24b06e3b837084611760f02434214723486c38ec686439621b790ee9b1870c8c"
+    },
+    "You finish unwielding @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "99cded716b3bfba5c9ac1e39ce5d2d1d7cc25cca572cc7873c8977d67b87e010"
+    },
+    "You start removing yourself from your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "2255abcffc49fa03e88100861f6777c74f091d605f068fc5ed1b1c5bc8b8287a"
+    },
+    "You stop removing yourself from your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "7a21513f26ead8010d91f7dbcaffddf17a273fb6f738ac7270049236321c5fdf"
+    },
+    "You continue removing yourself from @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a91416d6eb4a0563dff68d9e5a69ad7fbd4f1e1335dcd45453e8aca6cbca627e"
+    },
+    "You finish removing yourself from @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "d6f0e8e4124b955c4015025a95dea523d454ba68150ecb009f08cc03c11f9a19"
+    },
+    "You start unfusing your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "62632695304bf3a715be51e72aa25acc7ca1b2f4a7b6e967110ee206be6bb8bc"
+    },
+    "You stop unfusing your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "23eda3da515ce180127dd08bbb5bdbb3989e4fdf620820bd10e796f37e770158"
+    },
+    "You continue unfusing @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "04d8dbc40cacec0774e7d193183bd81bdcf59185a17da88610bed27ae848ce67"
+    },
+    "You finish unfusing @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "d904d35ea37256fb4b916e07d951fa092b9bc32d1b595641f32b5077111ec9bd"
+    },
+    "You start removing your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "879b688ea9e5c6234e9e77bf549b29505c23cd8f0181e53c90329e194fd49c1e"
+    },
+    "You stop removing your armour.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "c87fb4f89b1b959bb92d62a2b01f186ba513d6645284abe0b54bab86ca0c3021"
+    },
+    "You continue removing @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "8504fb04cc2ed6a293ce0005e3f3b65da8e512096d15143c6aaaeb7c016adf06"
+    },
+    "You finish removing @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "cab39f5afecfe423d07ab4b69c686d9f02215d399d321655dbd4d19562444684"
+    },
+    "You start removing your amulet.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "e1be3c99c3abff5ad88a09e448ff15556248bacc53cc238cc36f7f415ab386e4"
+    },
+    "Keep removing your equipment?": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "727ef157ad6f16ac05e20f4d5321136ad56bc261933c5f1baef21e0ec4e834d6"
+    },
+    "Keep transforming yourself?": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "ac3b1b52c46aecd038b1c133eca47fa0689af00caf1b3aeaec9e9ecf06717d80"
+    },
+    "Keep imbuing your servitor?": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "34bc20f4e8eac52af1a42ce26ae4f702baad6bbcfa9984da3976adc34e0d9a3a"
+    },
+    "You start memorising the spell.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "865416b45d53c487dcf5de6b2775751308ead062ad471876c1c37faf0beb08f7"
+    },
+    "You stop ascending the stairs.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "b9774273a58b0bf9eb7cc26d68ba0e145ba4cfb336daac58949f2629db947902"
+    },
+    "You stop descending the stairs.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "500fb396938408e88772e49042448ab24e81e126a69e653664fa8d7939d26e6d"
+    },
+    "Done waiting.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "acf4eddbf334bc66d3605b80e881bdf676ba7c357c091a887aa9bd708dc1b588"
+    },
+    "You begin transforming.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "d7b53b29d43dbdf4a797670845a62e4a642aa2a563e0338792d5da1d9769f08d"
+    },
+    "You continue transforming.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "aa6072408654bb7c2d58929935f1fa3fbc230b5b6f6eb36d0067ec9c64d5b97a"
+    },
+    "You stop transforming.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "f132e3d0970cf2e2911ef32bcd05ad6ab5626a197292263444b8c99968566f1e"
+    },
+    "You begin untransforming.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "d166c10d763e33d85021fe0651ca256bc7e5fb6e5f06c7662e94d9b22e9a611f"
+    },
+    "You continue untransforming.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "0a7458dce3b6067d46861d0a66e7f586c8514e453bf1eaebf72f35fea4419591"
+    },
+    "You begin to imbue your servitor with knowledge of @arg@.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "85bcd746d6ce6a783529bd5760477db08bc950c25980a21998264ee280e17560"
+    },
+    "You stop imbuing your servitor.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "ed764e667ca22d05054b15d62d33fe80e6fe5c31aaf9630f80403aa43b7c8d72"
+    },
+    "You finish imbuing your servitor.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "d1754b77218f634f8f86cd6642a809f7e31d6334ef8fcde3efa5ac6a5fc31cb6"
+    },
+    "You begin to imprint @arg@ upon your paragon.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "bb0c8d73b0ebe4e1a26c535b11403da6deadcbc5de4b724d5eaa5a607ccaf659"
+    },
+    "You finish imprinting the physical structure of @arg@ upon your paragon.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "24563ff1ea5cdc311ed1f42b6f634aa4b700d4d40e3ae63afcbf1db931f1404c"
+    },
+    "Your concentration is interrupted.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "c15f0a519ccbb8de25841f5a8eef51e4e9144ba33a5d0550bbc3f4728e3acf08"
+    },
+    "@Arg@ is now too close for your liking.": {
+      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
+      "translation_sha256": "493d0fc26d6daf0f6b23118afcaeb536ae0cd9af3f91733e1f849024694b8e0c"
+    },
+    "There are probably monsters nearby": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "a1f49fca9084ff819fb0ed5cc984d76d2021039248cfc1d996cf399192236302"
+    },
+    "@Arg@ is probably nearby": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "2514613ea547ef7fd6f542d41e348085d1318d6c9e57b618e95d9256049e602d"
+    },
+    "There are monsters nearby": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "a394d26e9f07f7374f33ee46e46b24ebe36fb6ed12e8bfdc7d9ff049cfc7e156"
+    },
+    "@Arg@ is nearby": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "6d6685df3332b13a7b44449ebae991ac3375674bdea916d05417a8cdf9510a4b"
+    },
+    "You cannot rest while @arg@ is nearby.": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "29003bd618d0430a0b1f5f07e7466f2fb074be6105fe01c2c8e75292533d5237"
+    },
+    "You cannot rest while monsters are nearby.": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "0580df6e1b63416adda06c3006ea68ec08a2bc4780d316870b0372972aaf4b15"
+    },
+    " (Press *t to temporarily disregard this.)": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "c72db9c813238e535ba21526bd11df77b76f7d27a9e082eef8fc99b9a10a14ee"
+    },
+    " (Press Ctrl+T to temporarily disregard this.)": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "e1dea23ec7ca4b5b6eb538d5c16961f72d36c1252affa541803364d5c9f4c8d5"
+    },
+    "You continue attuning to your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a640b64d261292e4759e882fe9d73839f6a0a30daa4bfb3a7c334dcc631e31ee"
+    },
+    "You finish attuning to your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "73e54f9146d329800b23b4c6d1634e05f860d30a6958a2c9ea2586a7adec3fc0"
+    },
+    "You continue wielding your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "f0863cd3922fd115bca766620de9bd1f9780f27bd410b0f8665d549adb132e7a"
+    },
+    "You finish wielding your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "47e814c690e00f4a40c8db84c5b63dd44607cc539d577bc1e8922a6145596e33"
+    },
+    "You continue haunting your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "39641adb0bbbbf97d166dbcb02955ab0f9d3e1f2653e80c108107122f1431fa0"
+    },
+    "You finish haunting your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "3db609889225a49fe538c3b56f1942910987be05917a7ffd939159b33cc7420a"
+    },
+    "You continue fusing with your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "df2afec4a98db9a3963e9a0b7a97427acdbe4beb1608aafa56ee105a994335f6"
+    },
+    "You finish fusing with your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "5274d2ca34ca368abe0fa5cdd3217da606562459bfc143d2e5a17b081f2cdda5"
+    },
+    "You continue putting on your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "5b588da303dd2c7ed4c48dde1997eb89e5a02f330b90edb30a5c4a83885ff2ab"
+    },
+    "You finish putting on your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "4b20edd7129f3aa4ddb4a009a0640e7385d980f8e74d493d035c3b4e68936b11"
+    },
+    "You continue parting from your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "ef21f87af461b47fa763196d38804de41fbecd097ccdba453c11b911566059a0"
+    },
+    "You finish parting from your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "22ba4e53754d2c4c9504c5e475fd7b2a568465b0260e0df82b3012e3ed0d97ef"
+    },
+    "You continue unwielding your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "24b06e3b837084611760f02434214723486c38ec686439621b790ee9b1870c8c"
+    },
+    "You finish unwielding your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "99cded716b3bfba5c9ac1e39ce5d2d1d7cc25cca572cc7873c8977d67b87e010"
+    },
+    "You continue removing yourself from your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "a91416d6eb4a0563dff68d9e5a69ad7fbd4f1e1335dcd45453e8aca6cbca627e"
+    },
+    "You finish removing yourself from your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "d6f0e8e4124b955c4015025a95dea523d454ba68150ecb009f08cc03c11f9a19"
+    },
+    "You continue unfusing your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "04d8dbc40cacec0774e7d193183bd81bdcf59185a17da88610bed27ae848ce67"
+    },
+    "You finish unfusing your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "d904d35ea37256fb4b916e07d951fa092b9bc32d1b595641f32b5077111ec9bd"
+    },
+    "You continue removing your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "8504fb04cc2ed6a293ce0005e3f3b65da8e512096d15143c6aaaeb7c016adf06"
+    },
+    "You finish removing your @arg@.": {
+      "context": "delay.cc/delay.h EquipOnDelay/EquipOffDelay: full start/stop/continue/finish sentences; Coglin attunement, Formless possession and fortress crab fusion are distinct; item names follow a colon to avoid assuming noun gender or case",
+      "translation_sha256": "cab39f5afecfe423d07ab4b69c686d9f02215d399d321655dbd4d19562444684"
+    },
+    "you are in a cloud of @arg@": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "4592348f89eeacc4a3cb38880b382d94c77921b0271a55429a8c09dc9594a807"
+    },
+    "there is a lethal amount of poison in your body": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "fa7e656d1dbd2fc4709579d6c88a2160ba4d295c66b60cc283c6cdfc0cfcdb61"
+    },
+    "you are contaminated with a potentially lethal amount of magic": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "19a589155843851ec322ed76bc69b8cfa5fdf713475eef97450b033d27bcddae"
+    },
+    "you are on fire": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "7cf305186c5a4aff2d10d1f7b009300754eeb8c7e153518ea3241e2882cef1c5"
+    },
+    "you are being drained by your emergency flight": {
+      "context": "nearby-danger.cc: distinguish inferred invisible threats from known nearby monsters; WebTiles uses literal *t, native uses Ctrl+T; disregard temporarily clears remembered invisible threats, not monster hostility",
+      "translation_sha256": "d21e34f93d6e73f77da7f58074d978d36e2e86be991cda2d035bbb221408a856"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

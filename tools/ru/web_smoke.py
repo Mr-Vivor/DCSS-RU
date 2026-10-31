@@ -149,6 +149,33 @@ def main():
                     page.wait_for_function("document.body.innerText.includes('В поле зрения:')")
                     page.screenshot(path=str(ARTIFACTS / "visible-objects.png"), full_page=True)
                     page.keyboard.press("Escape")
+                    page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    # Navigation menus and waypoint edits cost no turns. Keep
+                    # their real letter/number bindings while checking Russian
+                    # labels through the same path as normal player input.
+                    page.keyboard.press("Control+w")
+                    page.wait_for_function("document.body.innerText.includes('Какой номер назначить путевой точке?')")
+                    page.keyboard.type("0")
+                    page.wait_for_function("document.body.innerText.includes('Путевой точке 0 назначено место:')")
+                    page.keyboard.type("G")
+                    page.wait_for_function("document.body.innerText.includes('Куда идти?') && document.body.innerText.includes('* — список путевых точек')")
+                    page.screenshot(path=str(ARTIFACTS / "travel-menu.png"), full_page=True)
+                    page.keyboard.type("*")
+                    page.wait_for_function("document.body.innerText.includes('* — список ветвей')")
+                    page.screenshot(path=str(ARTIFACTS / "waypoint-menu.png"), full_page=True)
+                    page.keyboard.type("*")
+                    page.wait_for_function("document.body.innerText.includes('* — список путевых точек')")
+                    page.keyboard.type("D")
+                    page.wait_for_function("document.body.innerText.includes('На какой этаж ветви')")
+                    page.screenshot(path=str(ARTIFACTS / "travel-depth-prompt.png"), full_page=True)
+                    page.keyboard.press("Escape")
+                    page.keyboard.press("Control+w")
+                    page.wait_for_function("document.body.innerText.includes('Какой номер назначить путевой точке?')")
+                    page.keyboard.type("D")
+                    page.wait_for_function("document.body.innerText.includes('Какую путевую точку удалить?')")
+                    page.keyboard.type("0")
+                    page.wait_for_function("document.body.innerText.includes('Все путевые точки удалены.')")
+                    (ARTIFACTS / "waypoint-result.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                 except Exception:
                     page.screenshot(path=str(ARTIFACTS / "newgame-failure.png"), full_page=True)
                     (ARTIFACTS / "newgame-failure.txt").write_text(

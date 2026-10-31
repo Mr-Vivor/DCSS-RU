@@ -38,6 +38,7 @@
 #include "item-use.h"
 #include "item-status-flag-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "mon-act.h"
@@ -552,7 +553,7 @@ void BaseRunDelay::handle()
     if (want_move() && you.confused())
     {
         mprf("You're confused, stopping %s.",
-             you.running.runmode_name().c_str());
+             localise_in_context("travel-mode", you.running.runmode_name()).c_str());
         stop_running();
     }
     else if (!(unsafe_once && first_move) && !i_feel_safe(true, want_move())

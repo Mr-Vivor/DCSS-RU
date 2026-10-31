@@ -43,6 +43,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "longwalk-range-mode.h"
 #include "macro.h"
 #include "mapmark.h"
@@ -951,7 +952,7 @@ static void _find_travel_pos(const coord_def& youpos, int *move_x, int *move_y,
     {
         if (!barrier.second.empty())
         {
-            mpr("Could not " + you.running.runmode_name() + ", "
+            mpr("Could not " + localise_in_context("travel-mode", you.running.runmode_name()) + ", "
                 + barrier.second + ".");
         }
         *reason = nonmove_reason::blocked;
@@ -1095,7 +1096,8 @@ command_type travel()
 
     if (Options.travel_key_stop && kbhit())
     {
-        mprf("Key pressed, stopping %s.", you.running.runmode_name().c_str());
+        mprf("Key pressed, stopping %s.",
+             localise_in_context("travel-mode", you.running.runmode_name()).c_str());
         stop_running();
         return CMD_NO_CMD;
     }
@@ -1104,7 +1106,7 @@ command_type travel()
     if (is_excluded(you.pos()) && !is_stair_exclusion(you.pos()))
     {
         mprf("You're in a travel-excluded area, stopping %s.",
-             you.running.runmode_name().c_str());
+             localise_in_context("travel-mode", you.running.runmode_name()).c_str());
         stop_running();
         return CMD_NO_CMD;
     }
@@ -2341,22 +2343,23 @@ public:
         // in the prompt itself
         // XX convert this to keyhints in a more?
         if (travel_mode == Mode::altars)
-            segs.emplace_back("_ - list branches");
+            segs.emplace_back(localise("_ - list branches"));
         else if (travel_mode == Mode::waypoints)
-            segs.emplace_back("* - list branches");
+            segs.emplace_back(localise("* - list branches"));
         else if (mode_allowed(Mode::waypoints))
-            segs.emplace_back("* - list waypoints");
+            segs.emplace_back(localise("* - list waypoints"));
 
         if (has_default_target())
         {
-            segs.push_back(make_stringf("%s - %s",
+            segs.push_back(make_stringf(
+                    localise_in_context("travel-shortcut", "%s - %s").c_str(),
                     (in_prompt_mode || !is_set(MF_ARROWS_SELECT))
                         ? "Tab/Enter" : "Tab",
                     _get_trans_travel_dest(def_target).c_str()));
         }
 
         if (!(prompt_flags & TPF_SHOW_ALL_BRANCHES))
-            segs.emplace_back("? - help");
+            segs.emplace_back(localise("? - help"));
 
         string shortcuts;
         if (!segs.empty())
@@ -2366,7 +2369,7 @@ public:
                                               ", ", ", ");
             shortcuts += ") ";
         }
-        set_title(make_stringf("Where to? %s", shortcuts.c_str()));
+        set_title(make_stringf(localise("Where to? %s").c_str(), shortcuts.c_str()));
     }
 
     bool seen_altars() const
