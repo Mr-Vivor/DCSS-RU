@@ -457,7 +457,7 @@ def main():
                     spell_page.keyboard.type("&%")
                     item_input = spell_page.locator("#messages .game_message input")
                     item_input.wait_for(state="visible")
-                    item_input.fill("scroll of fear")
+                    item_input.fill("scroll of fear q:1")
                     spell_page.keyboard.press("Enter")
                     item_input.wait_for(state="detached")
                     spell_page.keyboard.type("g")
