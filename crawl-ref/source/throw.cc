@@ -6,6 +6,7 @@
 #include "AppHdr.h"
 
 #include "throw.h"
+#include "localise.h"
 
 #include <cmath>
 #include <sstream>
