@@ -181,16 +181,20 @@ def main():
                     page.keyboard.type("0")
                     page.wait_for_function("document.body.innerText.includes('Все путевые точки удалены.')")
                     (ARTIFACTS / "waypoint-result.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
-                    page.keyboard.type("O")
+                    page.keyboard.press("Control+o")
                     page.wait_for_function("document.body.innerText.includes('Обзор подземелья и пометки этажей')")
+                    overview_text = page.locator("#ui-stack > .ui-popup").last.inner_text()
+                    assert "сведения о ветвях" in overview_text and "сведения о богах" in overview_text, overview_text
+                    assert "press" not in overview_text, overview_text
                     page.screenshot(path=str(ARTIFACTS / "dungeon-overview.png"), full_page=True)
                     (ARTIFACTS / "dungeon-overview.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                     page.keyboard.press("Escape")
                     page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     for query in ("рапира", "rapier"):
                         page.keyboard.press("Control+f")
-                        page.locator("#messages .game_message input").wait_for(state="visible")
-                        page.keyboard.type(query)
+                        search_input = page.locator("#messages .game_message input")
+                        search_input.wait_for(state="visible")
+                        search_input.fill(query)
                         page.keyboard.press("Enter")
                         page.wait_for_function("document.body.innerText.includes('режим:') && document.body.innerText.includes('сортировка:')")
                         search_menu = page.locator("#ui-stack > .ui-popup").last

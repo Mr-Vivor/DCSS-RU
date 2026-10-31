@@ -8254,8 +8254,8 @@
   "Current level annotation: <lightgrey>%s</lightgrey>": "Текущая пометка этажа: <lightgrey>%s</lightgrey>",
   "New annotation for %s (include '!' for warning): ": "Новая пометка для %s (! — предупреждение): ",
   "Press: ? - help, v - describe, . - travel": "? — справка, v — описание, . — идти к выбранной клетке",
-  "an escape hatch in the floor": "люк в полу",
-  "an escape hatch in the ceiling": "люк в потолке",
+  "an escape hatch in the floor": "аварийный люк в полу",
+  "an escape hatch in the ceiling": "аварийный люк в потолке",
   "{stash-action}travel": "{stash-action}автопереход",
   "{stash-action}view": "{stash-action}осмотр",
   "{stash-sort}type": "{stash-sort}тип",
@@ -8263,5 +8263,9 @@
   "{stash-sort}dist": "{stash-sort}расстояние",
   "{stash-filter}hide": "{stash-filter}скрывать",
   "{stash-filter}show": "{stash-filter}показывать",
-  "{stash-prompt}, or ": "{stash-prompt}, "
+  "{stash-prompt}, or ": "{stash-prompt}, ",
+  "<green>Branches:</green> (press <white>G</white> to reach them and <white>?/b</white> for more information)": "<green>Ветви:</green> (<white>G</white> — перейти; <white>?/b</white> — сведения о ветвях)",
+  "<green>Altars:</green> (press <white>_</white> to reach them and <white>?/g</white> for information about gods)": "<green>Алтари:</green> (<white>_</white> — перейти; <white>?/g</white> — сведения о богах)",
+  "<green>Shops:</green> (press <white>$</white> to reach them - yellow denotes antique shop)": "<green>Магазины:</green> (<white>$</white> — перейти; жёлтым отмечены антикварные магазины)",
+  "<green>Annotations:</green> (press <white>!</white> to add a new annotation)": "<green>Пометки:</green> (<white>!</white> — добавить новую пометку)"
 }

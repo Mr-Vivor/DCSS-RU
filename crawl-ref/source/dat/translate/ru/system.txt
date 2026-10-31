@@ -33022,11 +33022,11 @@ Press: ? - help, v - describe, . - travel
 %%%%
 an escape hatch in the floor
 
-люк в полу
+аварийный люк в полу
 %%%%
 an escape hatch in the ceiling
 
-люк в потолке
+аварийный люк в потолке
 %%%%
 {stash-action}travel
 
@@ -33059,3 +33059,19 @@ an escape hatch in the ceiling
 "{stash-prompt}, or "
 
 "{stash-prompt}, "
+%%%%
+<green>Branches:</green> (press <white>G</white> to reach them and <white>?/b</white> for more information)
+
+<green>Ветви:</green> (<white>G</white> — перейти; <white>?/b</white> — сведения о ветвях)
+%%%%
+<green>Altars:</green> (press <white>_</white> to reach them and <white>?/g</white> for information about gods)
+
+<green>Алтари:</green> (<white>_</white> — перейти; <white>?/g</white> — сведения о богах)
+%%%%
+<green>Shops:</green> (press <white>$</white> to reach them - yellow denotes antique shop)
+
+<green>Магазины:</green> (<white>$</white> — перейти; жёлтым отмечены антикварные магазины)
+%%%%
+<green>Annotations:</green> (press <white>!</white> to add a new annotation)
+
+<green>Пометки:</green> (<white>!</white> — добавить новую пометку)
