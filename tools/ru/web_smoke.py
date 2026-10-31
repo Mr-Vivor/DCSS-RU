@@ -186,6 +186,8 @@ def main():
                     overview_text = page.locator("#ui-stack > .ui-popup").last.inner_text()
                     assert "сведения о ветвях" in overview_text and "сведения о богах" in overview_text, overview_text
                     assert "press" not in overview_text, overview_text
+                    assert re.search(r"Подземелье\s+\(1/\d+\)", overview_text), overview_text
+                    assert "Dungeon" not in overview_text, overview_text
                     page.screenshot(path=str(ARTIFACTS / "dungeon-overview.png"), full_page=True)
                     (ARTIFACTS / "dungeon-overview.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
                     page.keyboard.press("Escape")

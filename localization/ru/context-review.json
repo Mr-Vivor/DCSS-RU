@@ -32366,7 +32366,7 @@
     },
     "Keep imbuing your servitor?": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "34bc20f4e8eac52af1a42ce26ae4f702baad6bbcfa9984da3976adc34e0d9a3a"
+      "translation_sha256": "1eb3f2e28e554bfe6c9ebdeb734ad9a07dea190ef35b2d345efd53f1985bb296"
     },
     "You start memorising the spell.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
@@ -32406,23 +32406,23 @@
     },
     "You begin to imbue your servitor with knowledge of @arg@.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "85bcd746d6ce6a783529bd5760477db08bc950c25980a21998264ee280e17560"
+      "translation_sha256": "8b3fcbf222dc335f146a2f6b23c4098be2714cec7eac3d53523b62dd3279e3df"
     },
     "You stop imbuing your servitor.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "ed764e667ca22d05054b15d62d33fe80e6fe5c31aaf9630f80403aa43b7c8d72"
+      "translation_sha256": "7c8d88ba30a233a605bdb9602181721b45aad3e442d1dc53c20b144095b97858"
     },
     "You finish imbuing your servitor.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "d1754b77218f634f8f86cd6642a809f7e31d6334ef8fcde3efa5ac6a5fc31cb6"
+      "translation_sha256": "192dd0ea996a5849185e53425c1d06d53c89579bcf2bfa1e643406e05645bfb8"
     },
     "You begin to imprint @arg@ upon your paragon.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "bb0c8d73b0ebe4e1a26c535b11403da6deadcbc5de4b724d5eaa5a607ccaf659"
+      "translation_sha256": "67e2e65086272dda8c71911450ba2175eecba327749c7f4a75c83c8d9d469a72"
     },
     "You finish imprinting the physical structure of @arg@ upon your paragon.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "24563ff1ea5cdc311ed1f42b6f634aa4b700d4d40e3ae63afcbf1db931f1404c"
+      "translation_sha256": "a3a123bdbae493637c85a2323feec76123ac465a16ccff83e051294f9b35e9e3"
     },
     "Your concentration is interrupted.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
@@ -32699,6 +32699,10 @@
     "<green>Annotations:</green> (press <white>!</white> to add a new annotation)": {
       "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "23a26b81f6d1cf6489338ba825f9bd8a16b82933e6ae8ba987ccc8948ef19816"
+    },
+    " Zot: ": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "d672a3f68c60d41b93f2f486da67c8ef7d5410de7420121df2bf3de190d92e31"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

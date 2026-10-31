@@ -32754,7 +32754,7 @@ Keep transforming yourself?
 %%%%
 Keep imbuing your servitor?
 
-Продолжить наделять слугу заклинанием?
+Продолжить подготовку заклинания для будущих слуг?
 %%%%
 Done waiting.
 
@@ -32782,23 +32782,23 @@ You continue untransforming.
 %%%%
 You begin to imbue your servitor with knowledge of @arg@.
 
-Вы начинаете наделять слугу знанием заклинания «@arg@».
+Вы начинаете готовить заклинание для будущих слуг: «@arg@».
 %%%%
 You stop imbuing your servitor.
 
-Вы прерываете передачу заклинания слуге.
+Вы прерываете подготовку заклинания для будущих слуг.
 %%%%
 You finish imbuing your servitor.
 
-Вы наделяете слугу выбранным заклинанием.
+Будущие слуги будут знать выбранное заклинание.
 %%%%
 You begin to imprint @arg@ upon your paragon.
 
-Вы начинаете запечатлевать оружие в платиновом идеале: @arg@.
+Вы начинаете запечатлевать оружие в заклинании «Платиновый идеал»: @arg@.
 %%%%
 You finish imprinting the physical structure of @arg@ upon your paragon.
 
-Физическое строение оружия запечатлено в платиновом идеале: @arg@.
+Строение оружия запечатлено в заклинании «Платиновый идеал»: @arg@.
 %%%%
 Your concentration is interrupted.
 
@@ -33075,3 +33075,7 @@ an escape hatch in the ceiling
 <green>Annotations:</green> (press <white>!</white> to add a new annotation)
 
 <green>Пометки:</green> (<white>!</white> — добавить новую пометку)
+%%%%
+" Zot: "
+
+" Зот: "

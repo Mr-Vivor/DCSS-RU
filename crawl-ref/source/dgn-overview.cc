@@ -317,6 +317,10 @@ static string _get_seen_branches(bool display, bool &any_shafted)
             // XX "Gauntlet" is too long
             const char *brname = branch == BRANCH_DUNGEON
                 ? it->shortname : it->abbrevname;
+            // Other branches deliberately use their input abbreviations.
+            // The main dungeon has a human-readable name in this table.
+            const string shown_name = display && branch == BRANCH_DUNGEON
+                ? localise(it->longname) : brname;
 
             if (entry_desc.size() == 0 && branch != BRANCH_DUNGEON
                 && you.where_are_you != branch)
@@ -324,7 +328,7 @@ static string _get_seen_branches(bool display, bool &any_shafted)
                 // previously visited portal branches
                 cells.push_back(make_stringf(
                     "<yellow>%7s</yellow> <darkgrey>(visited)</darkgrey>",
-                    brname));
+                    shown_name.c_str()));
             }
             else
             {
@@ -342,8 +346,8 @@ static string _get_seen_branches(bool display, bool &any_shafted)
                           : bzot <= 1 ? "yellow"
                           : bzot == 2 ? "red"
                           : "lightmagenta";
-                    zclock_desc = make_stringf(" Zot: <%s>%d</%s>",
-                                    zcol, zturns, zcol);
+                    zclock_desc = localise(" Zot: ")
+                        + make_stringf("<%s>%d</%s>", zcol, zturns, zcol);
                 }
 
                 const bool shafted = shafted_in(branch);
@@ -351,7 +355,7 @@ static string _get_seen_branches(bool display, bool &any_shafted)
                 const string main_desc = make_stringf(
                     "<yellow>%*s</yellow> <darkgrey>(%d/%d)%s</darkgrey>%s",
                     7,
-                    brname, lid.depth, brdepth[branch],
+                    shown_name.c_str(), lid.depth, brdepth[branch],
                     shafted ? "*" : "",
                     entry_desc.c_str());
                 cells.push_back(_pad_cs(main_desc, 22) + zclock_desc);
