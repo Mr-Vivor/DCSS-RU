@@ -8,6 +8,7 @@
 #include "god-abil.h" // ru sac key
 #include "god-item.h" // is_*_spell
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "monster.h"
 #include "mon-util.h"
@@ -482,6 +483,23 @@ static peeve_map divine_peeves[] =
     peeve_map(),
 };
 
+// These are display-only lists. Translate each act before joining it, so the
+// sentence never relies on translating an arbitrary English compound phrase.
+static string _describe_god_conduct(god_type god, const char* format,
+                                    const vector<string>& acts,
+                                    const char* conjunction = " and ")
+{
+    vector<string> descriptions;
+    for (const string& act : acts)
+        descriptions.push_back(localise_in_context("god-conduct", act));
+
+    const string joined = comma_separated_line(descriptions.begin(),
+        descriptions.end(), localise_in_context("god-conduct", conjunction));
+    return make_stringf(localise_in_context("god-conduct", format).c_str(),
+                        localise(uppercase_first(god_name(god))).c_str(),
+                        joined.c_str());
+}
+
 string get_god_dislikes(god_type which_god)
 {
     // Return early for the special cases.
@@ -508,11 +526,8 @@ string get_god_dislikes(god_type which_god)
 
     if (!dislikes.empty())
     {
-        text += uppercase_first(god_name(which_god));
-        text += " dislikes it when ";
-        text += comma_separated_line(dislikes.begin(), dislikes.end(),
-                                     " or ", ", ");
-        text += ".";
+        text += _describe_god_conduct(which_god, "%s dislikes it when %s.",
+                                     dislikes, " or ");
 
         if (!really_dislikes.empty())
             text += " ";
@@ -520,12 +535,9 @@ string get_god_dislikes(god_type which_god)
 
     if (!really_dislikes.empty())
     {
-        text += uppercase_first(god_name(which_god));
-        text += " strongly dislikes it when ";
-        text += comma_separated_line(really_dislikes.begin(),
-                                     really_dislikes.end(),
-                                     " or ", ", ");
-        text += ".";
+        text += _describe_god_conduct(which_god,
+                                     "%s strongly dislikes it when %s.",
+                                     really_dislikes, " or ");
     }
 
     return text;
@@ -556,9 +568,8 @@ string get_god_forbids(god_type which_god)
     if (forbids.empty())
         return "";
 
-    return uppercase_first(god_name(which_god)) + " forbids you from "
-           + comma_separated_line(forbids.begin(), forbids.end(), " or ", ", ")
-           + ".";
+    return _describe_god_conduct(which_god, "%s forbids you from %s.",
+                                 forbids, " or ");
 }
 
 /// A definition of the way in which a god likes a conduct being taken.
@@ -1109,7 +1120,7 @@ string get_god_likes(god_type which_god)
         break;
     }
 
-    string text = uppercase_first(god_name(which_god));
+    string text;
     vector<string> likes;
     vector<string> really_likes;
 
@@ -1152,27 +1163,24 @@ string get_god_likes(god_type which_god)
     }
 
     if (likes.empty() && really_likes.empty())
-        text += " doesn't like anything? This is a bug; please report it.";
+        text = make_stringf(localise_in_context("god-conduct",
+            "%s doesn't like anything? This is a bug; please report it.").c_str(),
+            localise(uppercase_first(god_name(which_god))).c_str());
     else
     {
         if (!likes.empty())
         {
-            text += " likes it when ";
-            text += comma_separated_line(likes.begin(), likes.end());
-            text += ".";
+            text += _describe_god_conduct(which_god, "%s likes it when %s.",
+                                         likes);
             if (!really_likes.empty())
-            {
                 text += " ";
-                text += uppercase_first(god_name(which_god));
-            }
         }
 
         if (!really_likes.empty())
         {
-            text += " especially likes it when ";
-            text += comma_separated_line(really_likes.begin(),
-                                         really_likes.end());
-            text += ".";
+            text += _describe_god_conduct(which_god,
+                                         "%s especially likes it when %s.",
+                                         really_likes);
         }
     }
 

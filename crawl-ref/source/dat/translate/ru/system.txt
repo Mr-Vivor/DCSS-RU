@@ -13118,7 +13118,7 @@ You are shrouded in an aura of darkness!
 %%%%
 @Arg@ will now unseal the treasures of the Slime Pits.
 
-Теперь @Arg@ откроет вам сокровища Слизевых ям.
+Теперь @Arg@ откроет вам сокровища Слизистых ям.
 %%%%
 You may now remember your ancestor's life.
 
@@ -27574,7 +27574,7 @@ You have been branded with the @arg@.
 %%%%
 Jiyva will unlock the Slime Pits vaults.
 
-Джийва откроет хранилища Слизневых ям.
+Джийва откроет хранилища Слизистых ям.
 %%%%
 " (no fee if you act now)"
 
@@ -36983,3 +36983,1523 @@ The spiked barbs fall from your body.
 You extract magical energy from the potion.
 
 Вы извлекаете из зелья магическую энергию.
+%%%%
+{god-conduct}%s likes it when %s.
+
+{god-conduct}Божество «%s» одобряет, когда %s.
+%%%%
+{god-conduct}%s especially likes it when %s.
+
+{god-conduct}Божество «%s» особенно одобряет, когда %s.
+%%%%
+{god-conduct}%s dislikes it when %s.
+
+{god-conduct}Божество «%s» недовольно, когда %s.
+%%%%
+{god-conduct}%s strongly dislikes it when %s.
+
+{god-conduct}Божество «%s» сурово осуждает вас, когда %s.
+%%%%
+{god-conduct}%s forbids you from %s.
+
+{god-conduct}Божество «%s» запрещает %s.
+%%%%
+{god-conduct}%s doesn't like anything? This is a bug; please report it.
+
+{god-conduct}Для божества «%s» не указаны одобряемые действия. Это ошибка; пожалуйста, сообщите о ней.
+%%%%
+"{god-conduct} and "
+
+"{god-conduct} и "
+%%%%
+"{god-conduct} or "
+
+"{god-conduct} или "
+%%%%
+{god-conduct}using evil magic or items
+
+{god-conduct}применять нечестивую магию или предметы
+%%%%
+{god-conduct}using chaotic magic or items
+
+{god-conduct}применять хаотическую магию или предметы
+%%%%
+{god-conduct}mutating or transforming yourself or others
+
+{god-conduct}вызывать мутации или превращения у себя или других
+%%%%
+{god-conduct}using holy magic or items
+
+{god-conduct}применять святую магию или предметы
+%%%%
+{god-conduct}casting or memorising spells
+
+{god-conduct}творить или изучать заклинания
+%%%%
+{god-conduct}training magic skills
+
+{god-conduct}тренировать магические навыки
+%%%%
+{god-conduct}using magical staves or other wizardly items
+
+{god-conduct}пользоваться магическими посохами и другими колдовскими предметами
+%%%%
+{god-conduct}hastening yourself or using unnaturally quick items
+
+{god-conduct}ускорять себя или пользоваться предметами, дающими неестественную скорость
+%%%%
+{god-conduct}you attack non-hostile holy beings
+
+{god-conduct}вы нападаете на невраждебных святых существ
+%%%%
+{god-conduct}you kill non-hostile holy beings
+
+{god-conduct}вы убиваете невраждебных святых существ
+%%%%
+{god-conduct}you attack neutral beings
+
+{god-conduct}вы нападаете на нейтральных существ
+%%%%
+{god-conduct}you attack allies
+
+{god-conduct}вы нападаете на союзников
+%%%%
+{god-conduct}you attack non-hostile orcs
+
+{god-conduct}вы нападаете на невраждебных орков
+%%%%
+{god-conduct}you attack your followers
+
+{god-conduct}вы нападаете на своих последователей
+%%%%
+{god-conduct}you kill living beings
+
+{god-conduct}вы убиваете живых существ
+%%%%
+{god-conduct}you destroy the undead
+
+{god-conduct}вы уничтожаете нежить
+%%%%
+{god-conduct}you kill demons
+
+{god-conduct}вы убиваете демонов
+%%%%
+{god-conduct}you kill holy beings
+
+{god-conduct}вы убиваете святых существ
+%%%%
+{god-conduct}you destroy nonliving beings
+
+{god-conduct}вы уничтожаете неживых существ
+%%%%
+{god-conduct}you explore the world
+
+{god-conduct}вы исследуете мир
+%%%%
+{god-conduct}you kill unclean or chaotic beings
+
+{god-conduct}вы убиваете нечистых или хаотических существ
+%%%%
+{god-conduct}you kill the undead
+
+{god-conduct}вы уничтожаете нежить
+%%%%
+{god-conduct}you kill evil beings
+
+{god-conduct}вы убиваете нечестивых существ
+%%%%
+{god-conduct}you encounter other hostile creatures
+
+{god-conduct}вы встречаете других враждебных существ
+%%%%
+{god-conduct}you kill wizards and other users of magic
+
+{god-conduct}вы убиваете волшебников и других существ, владеющих магией
+%%%%
+{god-conduct}you banish creatures to the Abyss
+
+{god-conduct}вы изгоняете существ в Бездну
+%%%%
+{god-conduct}you kill the priests of other religions
+
+{god-conduct}вы убиваете жрецов других богов
+%%%%
+{god-conduct}you explore the world outside of the Slime Pits
+
+{god-conduct}вы исследуете мир за пределами Слизистых ям
+%%%%
+{god-conduct}you kill non-sluggish things
+
+{god-conduct}вы убиваете существ, которые не относятся к медлительным
+%%%%
+{god-conduct}you hurt your foes; however, effects that cause damage over time do not interest Uskayaw
+
+{god-conduct}вы наносите урон врагам; однако постепенный урон не интересует Ускайав
+%%%%
+{god-conduct}you bind yourself with curses
+
+{god-conduct}вы связываете себя проклятиями
+%%%%
+{god-conduct}you collect gold
+
+{god-conduct}вы собираете золото
+%%%%
+{god-conduct}you make personal sacrifices
+
+{god-conduct}вы приносите личные жертвы
+%%%%
+{god-conduct}you kill living or demonic beings while their torch is lit
+
+{god-conduct}вы убиваете живых существ или демонов при зажжённом Чёрном факеле
+%%%%
+{god-conduct}you kill holy or unique beings while their torch is lit
+
+{god-conduct}вы убиваете святых или уникальных существ при зажжённом Чёрном факеле
+%%%%
+{god-conduct}you donate money
+
+{god-conduct}вы жертвуете золото
+%%%%
+{god-conduct}you kill challenging foes
+
+{god-conduct}вы побеждаете опасных противников
+%%%%
+{talisman-table}Min
+
+{talisman-table}Мин.
+%%%%
+{talisman-table}Max
+
+{talisman-table}Макс.
+%%%%
+{talisman-table}Cur
+
+{talisman-table}Сейчас
+%%%%
+{talisman-table}Skill
+
+{talisman-table}Оборотнич.
+%%%%
+{talisman-table}HP
+
+{talisman-table}Здоровье
+%%%%
+{talisman-table}MP
+
+{talisman-table}Магия
+%%%%
+{talisman-table}AC
+
+{talisman-table}Броня
+%%%%
+{talisman-table}EV
+
+{talisman-table}Уклонение
+%%%%
+{talisman-table}UC Base Dmg
+
+{talisman-table}Бонус урона без оружия
+%%%%
+{talisman-table}Slay
+
+{talisman-table}Бонус боя
+%%%%
+{talisman-table}Regen
+
+{talisman-table}Реген. здоровья
+%%%%
+{talisman-table}MP Regen
+
+{talisman-table}Реген. магии
+%%%%
+{talisman-table}Ensnare Chance
+
+{talisman-table}Шанс опутать
+%%%%
+{talisman-table}Body Armour AC
+
+{talisman-table}Броня доспеха
+%%%%
+{talisman-table}Airstrike Dmg
+
+{talisman-table}Урон ветра
+%%%%
+{talisman-table}Bite Dmg
+
+{talisman-table}Урон укуса
+%%%%
+{talisman-table}Devour Regen
+
+{talisman-table}Реген. от пожирания
+%%%%
+{talisman-table}Blade Dmg
+
+{talisman-table}Урон клинков
+%%%%
+{talisman-table}Parry SH
+
+{talisman-table}Щит парирования
+%%%%
+{talisman-table}# of Bees
+
+{talisman-table}Число пчёл
+%%%%
+{talisman-table}+Slay/Kill
+
+{talisman-table}Бонус боя/убийство
+%%%%
+{talisman-table}Takedown Dmg
+
+{talisman-table}Урон броска
+%%%%
+{talisman-table}Howl Power
+
+{talisman-table}Сила воя
+%%%%
+{talisman-table}Spell Skill Boost
+
+{talisman-table}Бонус маг. навыков
+%%%%
+{talisman-table}Rust Breath Size
+
+{talisman-table}Область дыхания
+%%%%
+{talisman-table}Tendril targets
+
+{talisman-table}Цели щупалец
+%%%%
+{talisman-table}Petrify chance
+
+{talisman-table}Шанс окаменения
+%%%%
+{talisman-table}Bat Swarm Recharge
+
+{talisman-table}Возврат заряда стаи
+%%%%
+{talisman-table}Daze Power
+
+{talisman-table}Сила ошеломления
+%%%%
+{talisman-table}Crystal HP
+
+{talisman-table}Здоровье кристалла
+%%%%
+{talisman-table}Charge heal
+
+{talisman-table}Лечение от заряда
+%%%%
+{talisman-table}Elem skill
+
+{talisman-table}Навыки стихий
+%%%%
+{talisman-table}Shed Tail HP
+
+{talisman-table}Здоровье хвоста
+%%%%
+{talisman-table}Distraction Stab Chance
+
+{talisman-table}Доп. шанс скрытой атаки
+%%%%
+{talisman-table}Cloud range
+
+{talisman-table}Дальность облаков
+%%%%
+{talisman-table}Cloud duration
+
+{talisman-table}Время облаков
+%%%%
+{talisman-table}Distill rate
+
+{talisman-table}Скорость перегонки
+%%%%
+{talisman-table}Breath Dmg
+
+{talisman-table}Урон дыхания
+%%%%
+{talisman-table}Blinkbolt Dmg
+
+{talisman-table}Урон скачка молнии
+%%%%
+{talisman-table}Quill Dmg
+
+{talisman-table}Урон игл
+%%%%
+{talisman-table}Contam Dmg
+
+{talisman-table}Урон загрязнения
+%%%%
+{talisman-table}Frigid Wall Dmg
+
+{talisman-table}Урон ледяных стен
+%%%%
+{talisman-table}Watery Grave Dmg
+
+{talisman-table}Урон водной могилы
+%%%%
+{talisman-table}Flare Dmg
+
+{talisman-table}Урон вспышки
+%%%%
+{talisman-table}Jolt damage
+
+{talisman-table}Урон разряда
+%%%%
+{talisman-table}Burstshroom damage
+
+{talisman-table}Урон взрывогрибов
+%%%%
+{talisman-table}Glimmer Dmg
+
+{talisman-table}Урон мерцания
+%%%%
+{talisman-table}Surge Dmg
+
+{talisman-table}Урон выброса
+%%%%
+"{talisman-table}Class: "
+
+"{talisman-table}Природа: "
+%%%%
+"{talisman-table}Melds: "
+
+"{talisman-table}Сливается с телом: "
+%%%%
+"{talisman-table}Mutations Suppressed: "
+
+"{talisman-table}Подавляемые мутации: "
+%%%%
+{talisman-table}Size
+
+{talisman-table}Размер
+%%%%
+{talisman-table}Str
+
+{talisman-table}Сила
+%%%%
+{talisman-table}Int
+
+{talisman-table}Интеллект
+%%%%
+{talisman-table}Dex
+
+{talisman-table}Ловкость
+%%%%
+{talisman-table}Melee dmg
+
+{talisman-table}Урон вблизи
+%%%%
+{talisman-table}Melee damage
+
+{talisman-table}Урон вблизи
+%%%%
+{talisman-table}Bite speed
+
+{talisman-table}Время укуса
+%%%%
+{talisman-table}15 aut
+
+{talisman-table}15 ед. времени
+%%%%
+{talisman-table}Elec chance
+
+{talisman-table}Шанс разряда
+%%%%
+{talisman-table}Aux chance
+
+{talisman-table}Шанс доп. атак
+%%%%
+{talisman-table}Will
+
+{talisman-table}Сила воли
+%%%%
+{talisman-table}Stealth
+
+{talisman-table}Скрытность
+%%%%
+{talisman-table}Reach
+
+{talisman-table}Досягаемость
+%%%%
+{talisman-table}Barding
+
+{talisman-table}Бардинг
+%%%%
+{talisman-table}Yes
+
+{talisman-table}Да
+%%%%
+{talisman-table}Claws
+
+{talisman-table}Когти
+%%%%
+{talisman-table}Armour egos
+
+{talisman-table}Свойства доспеха
+%%%%
+{talisman-table}LoS
+
+{talisman-table}Радиус обзора
+%%%%
+{talisman-table}Non-elemental magic skill
+
+{talisman-table}Магия вне стихий
+%%%%
+{talisman-suppression}Anatomy
+
+{talisman-suppression}анатомия
+%%%%
+{talisman-suppression}Substance
+
+{talisman-suppression}материал тела
+%%%%
+{talisman-suppression}Blood
+
+{talisman-suppression}кровь
+%%%%
+{talisman-suppression}Bones
+
+{talisman-suppression}кости
+%%%%
+{talisman-suppression}Hands
+
+{talisman-suppression}руки
+%%%%
+{form-trait}ensnaring attack
+
+{form-trait}опутывающие удары
+%%%%
+{form-trait}rampage
+
+{form-trait}натиск
+%%%%
+{form-trait}jumping
+
+{form-trait}прыжки
+%%%%
+{form-trait}stealth
+
+{form-trait}скрытность
+%%%%
+{form-trait}poison vulnerability
+
+{form-trait}уязвимость к яду
+%%%%
+{form-trait}blade aux
+
+{form-trait}дополнительные удары клинками
+%%%%
+{form-trait}blade parry
+
+{form-trait}парирование клинками
+%%%%
+{form-trait}powerful
+
+{form-trait}мощные удары
+%%%%
+{form-trait}torment resistance 1
+
+{form-trait}сопротивление мучениям 1
+%%%%
+{form-trait}slow
+
+{form-trait}медлительность
+%%%%
+{form-trait}reduced EV
+
+{form-trait}сниженное уклонение
+%%%%
+{form-trait}constrict
+
+{form-trait}сдавливание
+%%%%
+{form-trait}two hats
+
+{form-trait}головной убор на каждой голове
+%%%%
+{form-trait}dragon claw
+
+{form-trait}драконьи когти
+%%%%
+{form-trait}dragon scales
+
+{form-trait}драконья чешуя
+%%%%
+{form-trait}vile attack
+
+{form-trait}нечестивые удары
+%%%%
+{form-trait}siphon essence
+
+{form-trait}вытягивание сущности
+%%%%
+{form-trait}torment immunity
+
+{form-trait}иммунитет к мучениям
+%%%%
+{form-trait}no potions
+
+{form-trait}невозможность пить зелья
+%%%%
+{form-trait}accursed
+
+{form-trait}затяжные обречённость и проклятия
+%%%%
+{form-trait}extremely fast
+
+{form-trait}чрезвычайно быстрое движение
+%%%%
+{form-trait}weak attacks
+
+{form-trait}слабые атаки
+%%%%
+{form-trait}very fast
+
+{form-trait}очень быстрое движение
+%%%%
+{form-trait}resilient
+
+{form-trait}прочная кора
+%%%%
+{form-trait}branches
+
+{form-trait}удары ветвями
+%%%%
+{form-trait}stationary
+
+{form-trait}неподвижность
+%%%%
+{form-trait}-Tele
+
+{form-trait}запрет телепортации
+%%%%
+{form-trait}insubstantial
+
+{form-trait}неосязаемость
+%%%%
+{form-trait}highly resistant
+
+{form-trait}высокая сопротивляемость
+%%%%
+{form-trait}acid body
+
+{form-trait}кислотное тело
+%%%%
+{form-trait}amorphous state
+
+{form-trait}аморфное тело
+%%%%
+{form-trait}acidic touch
+
+{form-trait}кислотные удары
+%%%%
+{form-trait}heavily diminished spells
+
+{form-trait}сильно ослабленные заклинания
+%%%%
+{form-trait}spores
+
+{form-trait}дурманящие споры
+%%%%
+{form-trait}terrified
+
+{form-trait}ужас
+%%%%
+{form-trait}half damage
+
+{form-trait}половина входящего урона
+%%%%
+{form-trait}bleed smoke
+
+{form-trait}дым из ран
+%%%%
+{form-trait}invisible
+
+{form-trait}невидимость
+%%%%
+{form-trait}unshakeable will
+
+{form-trait}непоколебимая воля
+%%%%
+{form-trait}weak spells
+
+{form-trait}слабые заклинания
+%%%%
+{form-trait}fast swimmer
+
+{form-trait}быстрое плавание
+%%%%
+{form-trait}devour
+
+{form-trait}пожирание для лечения
+%%%%
+{form-trait}electrical cleaving
+
+{form-trait}круговые разряды
+%%%%
+{form-trait}evasive
+
+{form-trait}высокое уклонение
+%%%%
+{form-trait}blinkbolt
+
+{form-trait}скачок молнии
+%%%%
+{form-trait}quills
+
+{form-trait}защитные иглы
+%%%%
+{form-trait}maw attack
+
+{form-trait}удары пастью
+%%%%
+{form-trait}devouring maw
+
+{form-trait}регенерация от пожирания
+%%%%
+{form-trait}growling stomach
+
+{form-trait}голодная пасть
+%%%%
+{form-trait}low body AC
+
+{form-trait}штраф к броне доспеха
+%%%%
+{form-trait}contaminating
+
+{form-trait}магическое загрязнение врагов
+%%%%
+{form-trait}glow
+
+{form-trait}свечение
+%%%%
+{form-trait}damage resistance
+
+{form-trait}снижение входящего урона
+%%%%
+{form-trait}doubled heal-on-kills
+
+{form-trait}двойное лечение за убийства
+%%%%
+{form-trait}demonic bargain
+
+{form-trait}сделка с демонами
+%%%%
+{form-trait}vampire fangs
+
+{form-trait}вампирские клыки
+%%%%
+{form-trait}bloodcurse
+
+{form-trait}кровавое проклятие
+%%%%
+{form-trait}bat form
+
+{form-trait}превращение в стаю мышей
+%%%%
+{form-trait}hypnotic gaze
+
+{form-trait}гипнотический взгляд
+%%%%
+{form-trait}very stealthy
+
+{form-trait}высокая скрытность
+%%%%
+{form-trait}inhibited regeneration
+
+{form-trait}регенерация подавлена врагами
+%%%%
+{form-trait}frigid aura
+
+{form-trait}ледяная аура
+%%%%
+{form-trait}ice wizardry
+
+{form-trait}облегчённая магия льда
+%%%%
+{form-trait}hive swarm
+
+{form-trait}защитный рой
+%%%%
+{form-trait}hive regen
+
+{form-trait}регенерация здоровья и магии
+%%%%
+{form-trait}water reaching
+
+{form-trait}дальние водяные удары
+%%%%
+{form-trait}water splatter
+
+{form-trait}лужи из ран
+%%%%
+{form-trait}watery grave
+
+{form-trait}водяная могила
+%%%%
+{form-trait}steam response
+
+{form-trait}пар от огня
+%%%%
+{form-trait}freeze response
+
+{form-trait}обледенение от холода
+%%%%
+{form-trait}airstrike attack
+
+{form-trait}удары режущим ветром
+%%%%
+{form-trait}hex mastery
+
+{form-trait}мастерство проклятий
+%%%%
+{form-trait}riddle compulsion
+
+{form-trait}загадки для врагов
+%%%%
+{form-trait}werefury
+
+{form-trait}ярость оборотня
+%%%%
+{form-trait}werehowl
+
+{form-trait}вой оборотня
+%%%%
+{form-trait}bestial takedown
+
+{form-trait}звериный бросок
+%%%%
+{form-trait}scribal knowledge
+
+{form-trait}знание школ магии
+%%%%
+{form-trait}magic absorption
+
+{form-trait}поглощение магии
+%%%%
+{form-trait}novice magic
+
+{form-trait}заклинания до 4-го уровня
+%%%%
+{form-trait}armoured shell
+
+{form-trait}панцирь из доспеха
+%%%%
+{form-trait}rust breath
+
+{form-trait}дыхание ржавчиной
+%%%%
+{form-trait}slow movement
+
+{form-trait}медленное движение
+%%%%
+{form-trait}sun companion
+
+{form-trait}солнечный спутник
+%%%%
+{form-trait}searing attack
+
+{form-trait}обжигающие удары
+%%%%
+{form-trait}fire wizardry
+
+{form-trait}облегчённая магия огня
+%%%%
+{form-trait}stinger hair
+
+{form-trait}ядовитые щупальца
+%%%%
+{form-trait}lithotoxin
+
+{form-trait}окаменяющий токсин
+%%%%
+{form-trait}eel punch
+
+{form-trait}разряды при ударах
+%%%%
+{form-trait}eeljolt
+
+{form-trait}разряд из ран
+%%%%
+{form-trait}weakening spores
+
+{form-trait}ослабляющие споры
+%%%%
+{form-trait}sporulate
+
+{form-trait}выращивание взрывогрибов
+%%%%
+{form-trait}glimmercast
+
+{form-trait}магическое мерцание
+%%%%
+{form-trait}see invisible
+
+{form-trait}обнаружение невидимого
+%%%%
+{form-trait}elemental crystals
+
+{form-trait}кристаллы стихий
+%%%%
+{form-trait}autotomy
+
+{form-trait}отбрасывание хвоста
+%%%%
+{form-trait}stealthy
+
+{form-trait}скрытность
+%%%%
+{form-trait}potion clouds
+
+{form-trait}облака от зелий
+%%%%
+{form-trait}gather mist
+
+{form-trait}сбор тумана
+%%%%
+{form-trait}slow casting
+
+{form-trait}медленное колдовство
+%%%%
+{form-trait}You sometimes web enemies you hit.
+
+{form-trait}При попадании вы иногда опутываете врагов паутиной.
+%%%%
+{form-trait}You can move swiftly towards enemies.
+
+{form-trait}Вы можете стремительно приближаться к врагам.
+%%%%
+{form-trait}You can leap distances in the blink of an eye.
+
+{form-trait}Вы можете в мгновение ока преодолевать расстояния прыжком.
+%%%%
+{form-trait}You are stealthy and inflict bonus damage to unaware enemies.
+
+{form-trait}Вы скрытны и наносите дополнительный урон врагам, которые вас не заметили.
+%%%%
+{form-trait}You are tiny and dextrous.
+
+{form-trait}Вы крошечного размера и очень ловки.
+%%%%
+{form-trait}You are susceptible to poisons. (rPois-)
+
+{form-trait}Вы уязвимы к яду. (rPois-)
+%%%%
+{form-trait}You can perform multiple auxiliary attacks with your blades.
+
+{form-trait}Вы можете наносить несколько дополнительных ударов своими клинками.
+%%%%
+{form-trait}You gain SH while attacking, based on your slaying.
+
+{form-trait}Во время атак вы получаете защиту щитом (SH), зависящую от бонуса боя.
+%%%%
+{form-trait}Your melee attacks are powerful.
+
+{form-trait}Ваши атаки в ближнем бою особенно мощны.
+%%%%
+{form-trait}You are resistant to unholy torment.
+
+{form-trait}Вы сопротивляетесь нечестивым мучениям.
+%%%%
+{form-trait}All of your actions are slow.
+
+{form-trait}Все ваши действия замедлены.
+%%%%
+{form-trait}Your evasion is reduced.
+
+{form-trait}Ваше уклонение снижено.
+%%%%
+{form-trait}You have a powerful constriction melee attack.
+
+{form-trait}В ближнем бою вы можете наносить мощный урон сдавливанием.
+%%%%
+{form-trait}You can wear a hat or helmet on each head.
+
+{form-trait}На каждой голове вы можете носить шапку или шлем.
+%%%%
+{form-trait}You have a powerful clawing attack.
+
+{form-trait}Ваши когти наносят мощные удары.
+%%%%
+{form-trait}Your giant scaled body is strong and resilient, but less evasive.
+
+{form-trait}Ваше огромное чешуйчатое тело сильно и прочно, но хуже уклоняется от атак.
+%%%%
+{form-trait}Your melee attacks drain, slow and weaken victims.
+
+{form-trait}Ваши атаки в ближнем бою истощают, замедляют и ослабляют жертв.
+%%%%
+{form-trait}You can torment nearby foes to heal from their wounds.
+
+{form-trait}Вы можете мучить врагов поблизости, исцеляясь за счёт нанесённых им ран.
+%%%%
+{form-trait}You are immune to unholy pain and torment.
+
+{form-trait}Вы невосприимчивы к нечестивой боли и мучениям.
+%%%%
+{form-trait}You cannot drink.
+
+{form-trait}Вы не можете пить зелья.
+%%%%
+{form-trait}You recover more slowly from Doom and Banes.
+
+{form-trait}Обречённость и проклятия снимаются с вас медленнее.
+%%%%
+{form-trait}You cover ground extremely quickly.
+
+{form-trait}Вы передвигаетесь чрезвычайно быстро.
+%%%%
+{form-trait}You are tiny, dextrous, and very evasive.
+
+{form-trait}Вы крошечного размера, ловки и отлично уклоняетесь от атак.
+%%%%
+{form-trait}Your unarmed attacks are very weak.
+
+{form-trait}Ваши атаки без оружия очень слабы.
+%%%%
+{form-trait}You cover ground very quickly.
+
+{form-trait}Вы передвигаетесь очень быстро.
+%%%%
+{form-trait}Your bark is very hard, but your evasion is minimal.
+
+{form-trait}Ваша кора очень прочна, но уклонение крайне низко.
+%%%%
+{form-trait}Your unarmed attacks smack enemies forcefully with your branches.
+
+{form-trait}В бою без оружия вы мощно хлещете врагов ветвями.
+%%%%
+{form-trait}You are immune to unholy torment and negative energy.
+
+{form-trait}Вы невосприимчивы к нечестивым мучениям и отрицательной энергии.
+%%%%
+{form-trait}Your roots penetrate the ground, keeping you stationary.
+
+{form-trait}Ваши корни проникают в землю и не позволяют вам двигаться.
+%%%%
+{form-trait}You cannot be teleported.
+
+{form-trait}Вас невозможно телепортировать.
+%%%%
+{form-trait}You are tiny and evasive.
+
+{form-trait}Вы крошечного размера и хорошо уклоняетесь от атак.
+%%%%
+{form-trait}You are insubstantial and cannot be petrified, ensnared, or set on fire.
+
+{form-trait}Ваше тело неосязаемо: вас нельзя обратить в камень, опутать или поджечь.
+%%%%
+{form-trait}You are highly resistant to most damage types. (rF++, rC++, rN+++, rElec, rCorr)
+
+{form-trait}Вы хорошо сопротивляетесь большинству видов урона. (rF++, rC++, rN+++, rElec, rCorr)
+%%%%
+{form-trait}You are resistant to acid and immune to corrosive walls.
+
+{form-trait}Вы сопротивляетесь кислоте и невосприимчивы к едким стенам.
+%%%%
+{form-trait}Your amorphous body is immune to blinding, drowning, and ensnarement.
+
+{form-trait}Ваше аморфное тело невозможно ослепить, утопить или опутать.
+%%%%
+{form-trait}Your melee attacks splash acid on your foes.
+
+{form-trait}Ваши атаки в ближнем бою обрызгивают врагов кислотой.
+%%%%
+{form-trait}You cast all spells with heavily decreased power.
+
+{form-trait}Сила всех ваших заклинаний значительно снижена.
+%%%%
+{form-trait}Your melee attacks release spores that confuse breathing creatures.
+
+{form-trait}Ваши атаки в ближнем бою выпускают споры, вызывающие замешательство у дышащих существ.
+%%%%
+{form-trait}You become terrified and freeze when enemies are visible.
+
+{form-trait}При виде врагов вы замираете от ужаса.
+%%%%
+{form-trait}Damage taken is halved, but you are drained when taking damage.
+
+{form-trait}Получаемый урон уменьшается вдвое, но каждое ранение истощает вас.
+%%%%
+{form-trait}You bleed smoke when taking damage.
+
+{form-trait}При получении урона из ваших ран идёт дым.
+%%%%
+{form-trait}You are invisible.
+
+{form-trait}Вы невидимы.
+%%%%
+{form-trait}Your willpower is unshakeable.
+
+{form-trait}Ваша сила воли непоколебима.
+%%%%
+{form-trait}Your attacks do half damage.
+
+{form-trait}Ваши атаки наносят половину обычного урона.
+%%%%
+{form-trait}Your spells are much less powerful.
+
+{form-trait}Ваши заклинания значительно слабее обычного.
+%%%%
+{form-trait}You swim very quickly.
+
+{form-trait}Вы плаваете очень быстро.
+%%%%
+{form-trait}You can devour living enemies to heal.
+
+{form-trait}Вы можете пожирать живых врагов, чтобы восстанавливать здоровье.
+%%%%
+{form-trait}Your electrical attacks strike out in all directions at once.
+
+{form-trait}Ваши электрические атаки поражают врагов сразу во всех направлениях.
+%%%%
+{form-trait}You are incredibly evasive.
+
+{form-trait}Вы невероятно хорошо уклоняетесь от атак.
+%%%%
+{form-trait}You can turn into living lightning.
+
+{form-trait}Вы можете превращаться в живую молнию.
+%%%%
+{form-trait}Your quills sometimes injure those who attack you in melee.
+
+{form-trait}Ваши иглы иногда ранят тех, кто атакует вас в ближнем бою.
+%%%%
+{form-trait}Your maw can bite with vicious strength.
+
+{form-trait}Ваша пасть наносит сокрушительные укусы.
+%%%%
+{form-trait}You can devour enemies to increase your regeneration.
+
+{form-trait}Вы можете пожирать врагов, чтобы ускорять регенерацию здоровья.
+%%%%
+{form-trait}Your maw sometimes becomes mesmerised by tasty morsels.
+
+{form-trait}Ваша пасть иногда зачарованно тянется к аппетитной добыче.
+%%%%
+{form-trait}Your maw has eaten a hole through body armour, reducing its AC.
+
+{form-trait}Ваша пасть прогрызла дыру в нательном доспехе, снизив его защиту.
+%%%%
+{form-trait}Foes you strike become dangerously contaminated with transmutational energy.
+
+{form-trait}Ваши удары вызывают у врагов опасное магическое загрязнение энергией превращений.
+%%%%
+{form-trait}You glow with energy, making you easy to see.
+
+{form-trait}Вы светитесь энергией, поэтому вас легко заметить.
+%%%%
+{form-trait}Your attacks are very weak.
+
+{form-trait}Ваши атаки очень слабы.
+%%%%
+{form-trait}Damage taken is decreased by 1/3.
+
+{form-trait}Получаемый урон снижен на 1/3.
+%%%%
+{form-trait}Healing from kills is doubled.
+
+{form-trait}Убийства восстанавливают вдвое больше здоровья.
+%%%%
+{form-trait}You will endure the Crucible once your slaughter is complete.
+
+{form-trait}После завершения резни вам предстоит испытание в Горниле.
+%%%%
+{form-trait}Your fangs allow you to drain the lifeblood from your enemies.
+
+{form-trait}Ваши клыки позволяют высасывать жизненную силу из крови врагов.
+%%%%
+{form-trait}When you kill a living creature with a stab, you may create a vampiric thrall.
+
+{form-trait}Убийство живого существа скрытой атакой может создать вампирского прислужника.
+%%%%
+{form-trait}You can occasionally transform into a swarm of bats.
+
+{form-trait}Время от времени вы можете превращаться в стаю летучих мышей.
+%%%%
+{form-trait}You often daze monsters when they first notice you.
+
+{form-trait}Монстры часто получают ошеломление, впервые заметив вас.
+%%%%
+{form-trait}You are very stealthy.
+
+{form-trait}Вы очень скрытны.
+%%%%
+{form-trait}You do not regenerate when monsters are visible.
+
+{form-trait}Вы не восстанавливаете здоровье естественным путём, пока видите монстров.
+%%%%
+{form-trait}You freeze nearby walls in an area that expands as you fight.
+
+{form-trait}Вы замораживаете стены поблизости; область заморозки расширяется по мере сражения.
+%%%%
+{form-trait}You can cast Ice magic more easily.
+
+{form-trait}Вам легче творить заклинания школы Льда.
+%%%%
+{form-trait}When at low health, angry bees swarm out to defend you.
+
+{form-trait}При низком здоровье из вас вылетает рой разъярённых пчёл, защищающих вас.
+%%%%
+{form-trait}You regenerate HP and MP more quickly.
+
+{form-trait}Ваше здоровье и запас магии восстанавливаются быстрее.
+%%%%
+{form-trait}Your aqueous body allows to you attack from a distance.
+
+{form-trait}Ваше водяное тело позволяет атаковать с расстояния.
+%%%%
+{form-trait}When injured, pools of shallow water form around you.
+
+{form-trait}Когда вас ранят, вокруг образуются лужи мелкой воды.
+%%%%
+{form-trait}You can command nearby water to drown your enemies.
+
+{form-trait}Вы можете управлять водой поблизости, чтобы топить врагов.
+%%%%
+{form-trait}When hit by fire damage, your body sometimes produces steam.
+
+{form-trait}Получая урон огнём, ваше тело иногда выпускает пар.
+%%%%
+{form-trait}When hit by cold damage, your body sometimes freezes.
+
+{form-trait}Получая урон холодом, ваше тело иногда покрывается льдом.
+%%%%
+{form-trait}You unleash cutting winds upon enemies you strike.
+
+{form-trait}Ваши удары обрушивают на врагов режущие ветры.
+%%%%
+{form-trait}Hexes are much easier for you to cast and harder to resist.
+
+{form-trait}Вам гораздо легче творить заклинания школы Проклятий, а врагам труднее им сопротивляться.
+%%%%
+{form-trait}You often pose riddles to enemies when you first see then.
+
+{form-trait}Впервые увидев врагов, вы часто загадываете им загадки.
+%%%%
+{form-trait}You gain temporary slaying when you kill enemies in melee.
+
+{form-trait}Убийства в ближнем бою временно увеличивают ваш бонус боя.
+%%%%
+{form-trait}You sometimes unleash a terrifying howl when you kill enemies in melee.
+
+{form-trait}Убивая врагов в ближнем бою, вы иногда издаёте устрашающий вой.
+%%%%
+{form-trait}You can leap to fearful enemies and eviscerate them.
+
+{form-trait}Вы можете прыгать к испуганным врагам и потрошить их.
+%%%%
+{form-trait}You have increased skill with all magical schools.
+
+{form-trait}Ваши навыки всех школ магии повышены.
+%%%%
+{form-trait}Your melee attacks sometimes restore your MP.
+
+{form-trait}Ваши атаки в ближнем бою иногда восстанавливают запас магии.
+%%%%
+{form-trait}You cannot cast spells above level 4.
+
+{form-trait}Вы не можете творить заклинания выше 4-го уровня.
+%%%%
+{form-trait}Your melee attacks are very weak.
+
+{form-trait}Ваши атаки в ближнем бою очень слабы.
+%%%%
+{form-trait}Your body armour is fused into your shell, improving its AC and properties.
+
+{form-trait}Нательный доспех сливается с вашим панцирем; его защита и свойства усиливаются.
+%%%%
+{form-trait}You can exhale clouds of rust.
+
+{form-trait}Вы можете выдыхать облака ржавчины.
+%%%%
+{form-trait}You cover ground slowly.
+
+{form-trait}Вы передвигаетесь медленно.
+%%%%
+{form-trait}You manifest a globe of solar heat that you carry with you.
+
+{form-trait}Вы создаёте шар солнечного жара, который перемещается вместе с вами.
+%%%%
+{form-trait}Your solar ember damages enemies next to it every second time you attack.
+
+{form-trait}Ваш солнечный уголёк наносит урон соседним врагам при каждой второй вашей атаке.
+%%%%
+{form-trait}You heal your solar ember whenever you swap places with it.
+
+{form-trait}Меняясь местами со своим солнечным угольком, вы исцеляете его.
+%%%%
+{form-trait}Your melee attacks sometimes make enemies vulnerable to fire.
+
+{form-trait}Ваши атаки в ближнем бою иногда делают врагов уязвимыми к огню.
+%%%%
+{form-trait}You can cast Fire magic much more easily.
+
+{form-trait}Вам гораздо легче творить заклинания школы Огня.
+%%%%
+{form-trait}Your tendrils poison nearby enemies when you attack.
+
+{form-trait}Когда вы атакуете, ваши щупальца отравляют врагов поблизости.
+%%%%
+{form-trait}When significantly injured, you may petrify poisoned enemies.
+
+{form-trait}При серьёзных ранениях вы можете обратить отравленных врагов в камень.
+%%%%
+{form-trait}Electricity sometimes discharges through enemies you attack.
+
+{form-trait}Иногда через атакованных вами врагов проходит электрический разряд.
+%%%%
+{form-trait}When badly injured, your eels discharge electricity violently.
+
+{form-trait}При тяжёлых ранениях ваши угри выпускают мощный электрический разряд.
+%%%%
+{form-trait}Your melee attacks may weaken breathing enemies.
+
+{form-trait}Ваши атаки в ближнем бою могут ослаблять дышащих врагов.
+%%%%
+{form-trait}Your melee attacks cause explosive burstshrooms to grow.
+
+{form-trait}Ваши атаки в ближнем бою вызывают рост взрывогрибов.
+%%%%
+{form-trait}You can weaponise the residue left behind from casting spells.
+
+{form-trait}Вы можете использовать оставшийся после колдовства магический след как оружие.
+%%%%
+{form-trait}You have supernaturally acute vision. (SInv)
+
+{form-trait}Ваше сверхъестественно острое зрение позволяет видеть невидимое. (SInv)
+%%%%
+{form-trait}You are flanked by elemental crystals which are charged by your spells.
+
+{form-trait}По сторонам от вас находятся кристаллы стихий, заряжаемые вашими заклинаниями.
+%%%%
+{form-trait}Charging all four crystals gives a temporary defensive bonus.
+
+{form-trait}Зарядив все четыре кристалла, вы временно усиливаете свою защиту.
+%%%%
+{form-trait}Your skill with elemental magic is increased (+2).
+
+{form-trait}Ваши навыки магии стихий повышены (+2).
+%%%%
+{form-trait}Your skill with all non-elemental magic is decreased (-33%).
+
+{form-trait}Все ваши магические навыки, не относящиеся к стихиям, снижены (-33%).
+%%%%
+{form-trait}The crystaline parts of your body are vulnerable to deconstruction.
+
+{form-trait}Кристаллические части вашего тела уязвимы к заклинанию «Быстрое разрушение Ли».
+%%%%
+{form-trait}When badly injured, your tail breaks off to distract enemies.
+
+{form-trait}При тяжёлых ранениях ваш хвост отбрасывается и отвлекает врагов.
+%%%%
+{form-trait}You have a higher chance of stabbing distracted enemies.
+
+{form-trait}Вам легче наносить скрытые атаки отвлечённым врагам.
+%%%%
+{form-trait}You are stealthy.
+
+{form-trait}Вы скрытны.
+%%%%
+{form-trait}Drinking potions allow you to spray harmful clouds.
+
+{form-trait}Выпитые зелья позволяют вам распылять вредоносные облака.
+%%%%
+{form-trait}You create potions of mist as you explore.
+
+{form-trait}Во время исследования вы создаёте зелья тумана.
+%%%%
+{form-trait}You are immune to blinding.
+
+{form-trait}Вы невосприимчивы к ослеплению.
+%%%%
+{form-trait}Your spells take twice as long to cast.
+
+{form-trait}Сотворение ваших заклинаний занимает вдвое больше времени.
+%%%%
+Slime Pits
+
+Слизистые ямы
+%%%%
+{talisman-table}Tiny
+
+{talisman-table}Крошечный
+%%%%
+{talisman-table}Very small
+
+{talisman-table}Очень маленький
+%%%%
+{talisman-table}Small
+
+{talisman-table}Маленький
+%%%%
+{talisman-table}Medium
+
+{talisman-table}Средний
+%%%%
+{talisman-table}Large
+
+{talisman-table}Большой
+%%%%
+{talisman-table}Giant
+
+{talisman-table}Гигантский
+%%%%
+{talisman-nature}Holy
+
+{talisman-nature}святое существо
+%%%%
+{talisman-nature}Natural
+
+{talisman-nature}живое существо
+%%%%
+{talisman-nature}Undead
+
+{talisman-nature}нежить
+%%%%
+{talisman-nature}Demonic
+
+{talisman-nature}демон
+%%%%
+{talisman-nature}Nonliving
+
+{talisman-nature}неживое тело
+%%%%
+{talisman-nature}Plant
+
+{talisman-nature}растение
+%%%%
+{talisman-nature}holy
+
+{talisman-nature}святое существо
+%%%%
+{talisman-nature}natural
+
+{talisman-nature}живое существо
+%%%%
+{talisman-nature}undead
+
+{talisman-nature}нежить
+%%%%
+{talisman-nature}demonic
+
+{talisman-nature}демон
+%%%%
+{talisman-nature}nonliving
+
+{talisman-nature}неживое тело
+%%%%
+{talisman-nature}plant
+
+{talisman-nature}растение
+%%%%
+{talisman-meld}All Equipment
+
+{talisman-meld}всё снаряжение
+%%%%
+{talisman-meld}All Weapons and Armour
+
+{talisman-meld}всё оружие и доспехи
+%%%%
+{talisman-meld}Weapon
+
+{talisman-meld}оружие
+%%%%
+{talisman-meld}Cloak
+
+{talisman-meld}плащ
+%%%%
+{talisman-meld}Helmet
+
+{talisman-meld}головной убор
+%%%%
+{talisman-meld}Gloves
+
+{talisman-meld}перчатки
+%%%%
+{talisman-meld}Boots
+
+{talisman-meld}обувь
+%%%%
+{talisman-meld}Offhand
+
+{talisman-meld}вторая рука
+%%%%
+{talisman-meld}Body Armour
+
+{talisman-meld}нательный доспех
+%%%%
+{talisman-meld}Barding
+
+{talisman-meld}бардинг
+%%%%
+{talisman-meld}Ring
+
+{talisman-meld}кольца
+%%%%
+{talisman-meld}Amulet
+
+{talisman-meld}амулет
+%%%%
+{talisman-meld}Gizmo
+
+{talisman-meld}изобретённое устройство
+%%%%
+{talisman-meld}Armour
+
+{talisman-meld}доспехи
+%%%%
+{talisman-meld}all Equipment
+
+{talisman-meld}всё снаряжение
+%%%%
+{talisman-meld}all Weapons and Armour
+
+{talisman-meld}всё оружие и доспехи
+%%%%
+{talisman-meld}weapon
+
+{talisman-meld}оружие
+%%%%
+{talisman-meld}cloak
+
+{talisman-meld}плащ
+%%%%
+{talisman-meld}helmet
+
+{talisman-meld}головной убор
+%%%%
+{talisman-meld}gloves
+
+{talisman-meld}перчатки
+%%%%
+{talisman-meld}boots
+
+{talisman-meld}обувь
+%%%%
+{talisman-meld}offhand
+
+{talisman-meld}вторая рука
+%%%%
+{talisman-meld}body Armour
+
+{talisman-meld}нательный доспех
+%%%%
+{talisman-meld}barding
+
+{talisman-meld}бардинг
+%%%%
+{talisman-meld}ring
+
+{talisman-meld}кольца
+%%%%
+{talisman-meld}amulet
+
+{talisman-meld}амулет
+%%%%
+{talisman-meld}gizmo
+
+{talisman-meld}изобретённое устройство
+%%%%
+{talisman-meld}armour
+
+{talisman-meld}доспехи

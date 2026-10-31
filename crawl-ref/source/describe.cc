@@ -6770,14 +6770,16 @@ private:
     vector<vector<TableCell>> rows;
     int fixed_column_num;
     int fixed_column_width;
+    string label_context;
 
 public:
     TablePrinter()
         : fixed_column_num(0), fixed_column_width(0)
     {}
 
-    TablePrinter(int column_num, int total_width)
-        : fixed_column_num(column_num), fixed_column_width(total_width / column_num)
+    TablePrinter(int column_num, int total_width, const string& context = "")
+        : fixed_column_num(column_num), fixed_column_width(total_width / column_num),
+          label_context(context)
     {}
 
     void AddRow()
@@ -6789,6 +6791,11 @@ public:
     {
         if (fixed_column_num > 0 && (int)rows[rows.size() - 1].size() >= fixed_column_num)
             AddRow();
+        if (!label_context.empty())
+        {
+            label = localise_in_context(label_context, label);
+            value = localise_in_context(label_context, value);
+        }
         rows[rows.size() - 1].push_back({label, value, colour});
     }
 
@@ -8266,6 +8273,12 @@ static string _describe_talisman_form(transformation form_type)
         _maybe_populate_form_table(items, bind(&Form::get_effect_chance, form, placeholders::_1), "Distill rate", skill, 0, true, false);
     }
 
+    // Translate before measuring: Russian labels have different widths, and
+    // padded fragments are not dictionary keys. Numeric values stay intact.
+    for (vector<string>& property : items)
+        for (string& cell : property)
+            cell = localise_in_context("talisman-table", cell);
+
     vector<int> column_width;
 
     // Determine size of each column (by being slightly wider than the largest entry in it).
@@ -8305,10 +8318,14 @@ static string _describe_talisman_form(transformation form_type)
     description << "<white>" << lines[3].to_colour_string() << "<lightgrey>\n";
 
     if (form->holiness)
-        description << "\nClass: " << uppercase_first(holiness_description(form->holiness));
+        description << localise_in_context("talisman-table", "\nClass: ")
+                    << localise_in_context("talisman-nature",
+                         uppercase_first(holiness_description(form->holiness)));
 
     // Now add various one-off bits of (generally non-scaling) data after that
-    TablePrinter pr(form_type == transformation::jademantle ? 2 : 4, 80);
+    TablePrinter pr(form_type == transformation::jademantle
+                    || Options.language == lang_t::RU ? 2 : 4,
+                    80, "talisman-table");
     pr.AddRow();
 
     if (form->size != SIZE_CHARACTER)
@@ -8397,7 +8414,8 @@ static string _describe_talisman_form(transformation form_type)
     // Melding info
     string meld_desc = form->melding_description(true);
     if (!meld_desc.empty())
-        description << "\nMelds: " << meld_desc << "\n";
+        description << localise_in_context("talisman-table", "\nMelds: ")
+                    << localise_in_context("talisman-meld", meld_desc) << "\n";
 
     // Mutation suppression info
     vector<string> changes;
@@ -8414,7 +8432,9 @@ static string _describe_talisman_form(transformation form_type)
 
     if (!changes.empty())
     {
-        description << "\nMutations Suppressed: "
+        for (string& change : changes)
+            change = localise_in_context("talisman-suppression", change);
+        description << localise_in_context("talisman-table", "\nMutations Suppressed: ")
                     << comma_separated_line(changes.begin(), changes.end(), ", ")
                     << "\n";
     }
