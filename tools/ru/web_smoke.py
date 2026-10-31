@@ -321,6 +321,7 @@ def main():
                     spell_page.wait_for_function("document.body.innerText.includes('Какую пометку')")
                     spell_page.keyboard.press("Escape")
                     spell_page.locator("#messages .game_message input").wait_for(state="detached")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     # Add a fixed new spell to this isolated wizard character.
                     # No turn is spent and no production save is involved.
                     spell_page.keyboard.type("&!")
@@ -329,12 +330,12 @@ def main():
                     spell_page.keyboard.press("Enter")
                     spell_page.locator("#messages .game_message input").wait_for(state="detached")
                     spell_page.wait_for_function("""() => {
-                        const messages = document.querySelectorAll('#messages .game_message');
-                        return messages.length && /Memorise|Выучить|Запомнить/.test(messages[messages.length - 1].innerText)
-                            && messages[messages.length - 1].innerText.includes('?');
+                        const text = document.body.innerText;
+                        return /Memorise|Выучить|Запомнить/.test(text)
+                            && /consuming|Затраты/.test(text);
                     }""")
                     spell_page.keyboard.type("Y")
-                    spell_page.wait_for_timeout(150)
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     spell_page.keyboard.type("I")
                     spell_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Множественная атака")
                     spell_row.wait_for()
