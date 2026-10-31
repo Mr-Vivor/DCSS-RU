@@ -34,6 +34,7 @@
  #include "tilereg-crt.h"
 #endif
 #include "ui.h"
+#include "unicode.h"
 #include "unwind.h"
 
 using namespace ui;
