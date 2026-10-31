@@ -233,6 +233,7 @@
 | Magnavolt | Магнавольт |
 | Rimeblight | Инеевый мор |
 | Permafrost Eruption | Извержение вечной мерзлоты |
+| Hellfire Mortar | Адская мортира |
 
 ## items
 
@@ -905,3 +906,21 @@
 | bone scales | костяная чешуя |
 | Forgewarden's cuirass | кираса Хранителя кузни |
 | Hermit's Pendant | подвеска Отшельника |
+
+## banes
+
+| English | Русское название |
+|---|---|
+| Bane of Lethargy | Проклятие «Вялость» |
+| Bane of Heatstroke | Проклятие «Тепловой удар» |
+| Bane of Snow-blindness | Проклятие «Снежная слепота» |
+| Bane of Electrospasm | Проклятие «Электросудороги» |
+| Bane of Claustrophobia | Проклятие «Клаустрофобия» |
+| Bane of Stumbling | Проклятие «Спотыкание» |
+| Bane of Succour | Проклятие «Помощь врагам» |
+| Bane of Multiplicity | Проклятие «Размножение» |
+| Bane of the Dilettante | Проклятие «Дилетантство» |
+| Bane of Paradox | Проклятие «Парадокс» |
+| Bane of Warding | Проклятие «Оберег» |
+| Bane of the Hunted | Проклятие «Преследование» |
+| Bane of Mortality | Проклятие «Смертность» |

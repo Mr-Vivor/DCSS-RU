@@ -3489,6 +3489,101 @@
       "source_sha256": "61262cb4b2ad5a928913fc35933ceeef1e0f0195fcee94fc894e98ac10477c58",
       "text": "{{ return you.jademantle_crystals_desc()}}",
       "context": "Current status.txt and talisman mechanics; recovery actions and immunities checked. Crystals uses translated rendered Lua output."
+    },
+    "Torch status": {
+      "source_sha256": "a5ee893e6f88ea371eee47c650af8dbdcced595e26c915e8bd366deeed890359",
+      "text": "Вы несёте Чёрный факел. Тёмный индикатор означает, что факел погашен; яркий — что Йредэлемнул зажёг его по вашей просьбе. Пока факел горит, убийства приносят благочестие. При достаточном благочестии вы можете использовать его теневое пламя, чтобы усиливать слуг-нежить и ранить врагов.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Shield status": {
+      "source_sha256": "f61a9d0b27f20d7905e2616ed3fc1750ac9c3216a0b57e41b3f0f2787bb7638c",
+      "text": "Вас защищает божественный щит. Он полностью блокирует удары врагов в ближнем бою и может ослеплять их своим светом.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Corr status": {
+      "source_sha256": "cf5260fa7ad449a9af2cda60affaf0895fe7a06c4325a71bb156aa3dda6462a4",
+      "text": "Коррозия снижает вашу броню и урон физических атак. Размер штрафа зависит от силы коррозии.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Flay status": {
+      "source_sha256": "6571c95f224df419bd9b0ad7957acb32f677ed1c7af0a6506c574d20fa2c754b",
+      "text": "Ваше тело покрыто иллюзорными ранами, отнимающими много здоровья, пока действует эффект. Уничтожение источника иллюзии вернёт всё здоровье, потерянное из-за этих ран.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Fugue status": {
+      "source_sha256": "f18c0a57ec395b94ae9d79bb78cadf47bc07b75568902f6495047ed107648c6e",
+      "text": "Души проклятых временно усиливают ваше оружие. Каждое убийство увеличивает бонус к точности и урону атак. При максимальном бонусе враги рядом с целями ваших атак получают дополнительный урон болью.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Heavenly status": {
+      "source_sha256": "397a8f272e93337189c1d13776eddbac4c3d44655352f31ca560e8eb3e4850db",
+      "text": "Вас окружает небесная буря, значительно повышающая уклонение, точность и урон атак. Удары с боевыми приёмами усиливают этот бонус. Со временем он уменьшается; когда бонус станет нулевым, буря исчезнет. Небесные облака не дают скрываться невидимостью и мешают видеть сквозь них тем, кто снаружи.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Horr status": {
+      "source_sha256": "8d8998177c009c2ed72efea0105966be1f7123a9c32ce3eae992a9decb55ef28",
+      "text": "Монстры поблизости внушают вам ужас. Из-за него снижаются точность и урон ваших атак, а также сила заклинаний.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Memories status": {
+      "source_sha256": "7de2833a228f05404b2a05b672f4b64faba4c8b5ef32c107a735e0a592148abf",
+      "text": "Число показывает, на сколько заклинаний хватило бы накопленных воспоминаний, если сейчас применить способность «Возжечь пламя».",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Enkindled status": {
+      "source_sha256": "a037d280779ccb08f35e6112d1e500ce3adc3944e2b0f7ab660ebe87ee8891fe",
+      "text": "Вы сжигаете накопленные воспоминания ради силы. Каждое наносящее урон заклинание расходует одно воспоминание. Такие заклинания становятся сильнее и надёжнее, а штрафы от тяжести снаряжения игнорируются. Ваши удары заклинательными когтями наносят дополнительный урон соразмерно уровню заклинания и исцеляют вас в зависимости от нанесённого урона.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Indom status": {
+      "source_sha256": "02bc24e147c2cf6949bc8e09e7aad7a9fadc560b5dfd1d7a9089003b4b08edeb",
+      "text": "Вы ускоренно восстанавливаете здоровье, пока не исцелитесь на указанное количество. Число в индикаторе показывает оставшийся объём лечения, а не число ходов. Скорость восстановления зависит от вашего максимального здоровья.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Salvo status": {
+      "source_sha256": "28d11cf84b7b838533e1be3fdda64e51fb96baf35d1503daec370723d5a4dadb",
+      "text": "Атаки дальнего боя могут выпускать дополнительные снаряды по другим целям в поле зрения. Число в индикаторе — запас зарядов; он также уменьшается со временем.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Tailwind status": {
+      "source_sha256": "bf12fe0f6e7673423e9b9b2114756a6a36a829b9c0d1f51b88504bf9f7343f14",
+      "text": "Ваше следующее передвижение натиском не займёт времени.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Exegesis status": {
+      "source_sha256": "a32cbf6f2c756f03f23d7eadf6497604a3ee8fb2fcd2818fed467e3027475eb1",
+      "text": "Вы недавно использовали «Божественную экзегезу» и можете повторно сотворить то же заклинание этим способом с гораздо меньшей затратой благочестия.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "-Jolt status": {
+      "source_sha256": "86002bebf454171e46e35c7ce3b302a0429becbd1a1c881d7d6a9e6515f0c2a8",
+      "text": "Вы недавно выпустили мощный электрический разряд. Для повторного применения нужно полностью восстановить здоровье.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Engorged status": {
+      "source_sha256": "c4d4bd9006bce7b663541959fb78727bcc4b2888dbf51619b57aed2c71188417",
+      "text": "Ваша пасть недавно проглотила добычу. Пока пища переваривается, регенерация здоровья значительно ускорена.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "OozeRegen status": {
+      "source_sha256": "f431bdcbf86c9c2398ccfe630d75eefaca6844b8e50834d84267ff5dddab7a09",
+      "text": "После недавнего перехода по лестнице вас покрывает целебная слизь. Некоторое время здоровье и запас магии восстанавливаются быстрее.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "-Hellfire status": {
+      "source_sha256": "de7c1f245b21106871c61210bdc69c882e3292add5f0ad37ba8eeeea40d81c59",
+      "text": "Вы не можете снова сотворить «Адскую мортиру», пока не закончится действие предыдущего применения.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Dog status": {
+      "source_sha256": "3dc76599f03d79c3f4f9a9c3602951820440d293329c552bf62332d104a7d28d",
+      "text": "Ваш инугами, пёс-фамильяр, призван.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "rF0 status": {
+      "source_sha256": "b7941d36c622839541c9570b4a5bca33e324ac70f6f9e8fbfd73790ced12e42b",
+      "text": "Гнев Игниса не позволяет вам получать сопротивление огню.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
     }
   },
   "cards": {
@@ -5358,6 +5453,73 @@
       },
       "wiki_text": "Каменная лестница вверх. Скользкая слизь не позволит подняться, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
       "context": "Current conditional slime stair description: you.god()==Jiyva unchanged; regeneration bonus applies after descent only; no changes to Lua logic."
+    }
+  },
+  "mutations": {
+    "lethargy bane": {
+      "source_sha256": "64c9a92566b05e13a7023f5dee3551d76dd625cee8b711fc919c185295d7bf44",
+      "text": "Передвижение на другую клетку занимает на 30% больше времени. Это не замедляет атаки, сотворение заклинаний и прочие действия.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "heatstroke bane": {
+      "source_sha256": "5cc1aeec1579a87bff1361aff5070c3e9f5469a37c44e1bbb79684fcb8df5c3a",
+      "text": "Получая урон огнём, вы с высокой вероятностью замедляетесь на некоторое время. Чем выше ваше сопротивление огню, тем ниже эта вероятность.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "snow-blindness bane": {
+      "source_sha256": "688d8b0fd89f0282ca8d3c0c0f491b1cb375b2542a3febc0723fa7fbecaf8d54",
+      "text": "Получая урон холодом, вы с высокой вероятностью на некоторое время ослабеваете и слепнете. Чем выше ваше сопротивление холоду, тем ниже эта вероятность.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "electrospasm bane": {
+      "source_sha256": "b5ad0ac98d9072fa085f664e426b7af1d79ffa630a5d65a84054ce5f3b52dd07",
+      "text": "Получая урон электричеством, вы можете ненадолго оказаться прикованы к месту. Передвигаться нельзя, но это не полный паралич. Чем выше ваше сопротивление электричеству, тем ниже вероятность срабатывания.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "claustrophobia bane": {
+      "source_sha256": "33c0086d4226f42000b1a5c4abe639757908e8d451366e63ea3ace0ce8058c36",
+      "text": "В тесных местах снижаются точность и урон ваших атак, а также сила заклинаний. Каждая сплошная преграда в соседней клетке даёт -2 к бонусу боя и -10% к силе заклинаний.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "stumbling bane": {
+      "source_sha256": "d8ec5eb0391d8d148f22ad473568116f315a297085c30a270eb3311fbb898c66",
+      "text": "На ходах, когда вы передвигаетесь или просто ждёте на месте, ваше уклонение снижается на 25.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "succour bane": {
+      "source_sha256": "e6fa275a28faf561b56273b3c67441ad20a87fab661ebfa4fb5c8831280c4ec9",
+      "text": "Гибель врага исцеляет других его союзников поблизости. Они восстанавливают значительную долю максимального здоровья погибшего.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "multiplicity bane": {
+      "source_sha256": "307d9697807bcae80f479681f0c079d356ec1b8ccfd04e1941ad80d1a5579703",
+      "text": "Каждый ход враги в вашем поле зрения с небольшой вероятностью создают нескольких своих двойников. Двойники очень хрупки и наносят меньше урона атаками и заклинаниями, но сами по себе не исчезают.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "dilettante bane": {
+      "source_sha256": "d2da966bbe51ddc32b6d3f61cb5bd5dc4b736b8795100de37d1630059d1cdce8",
+      "text": "Ваш самый развитый оружейный навык, включая Безоружный бой, снижается на 50%. Два самых развитых навыка среди школ магии, Молитв и Управления устройствами снижаются на 25%. Навыки для ослабления выбираются в момент наложения проклятия.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "paradox bane": {
+      "source_sha256": "810768324eae60b5527990344cf6d19cf0e061909fdc61fb08ef5330a031c7e1",
+      "text": "Впервые замеченные вами монстры могут получить прикосновение парадокса. Это позволяет им применять «Множественную атаку» как природную способность и иногда совершать случайный скачок после её применения.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "warding bane": {
+      "source_sha256": "180319d1e704bf8fbefde0dad7e975945f70c8a5f947a81dfcbb9be04917fc72",
+      "text": "Встреченные группы врагов могут получить Оберег: они не получают урон от источников, которые не находятся в соседней с ними клетке. Это относится и к облакам, если их создатель не стоит рядом с врагом.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "hunted bane": {
+      "source_sha256": "e40ab76987953fbb11533d6f44a2bec615d2d811650e3550a213532185cf5d7f",
+      "text": "Вражеские призывы обычно появляются рядом с вами, а не с призывателем. Они существуют дольше и всегда знают, где вы находитесь, даже если вы убежите.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "mortality bane": {
+      "source_sha256": "763355609109b237d107c03d17f05c95b9839566a50eae6b51b0c81366af9f9f",
+      "text": "Когда вы тяжело ранены и одни, за вами может прийти жнец. Эти жнецы не получают урон от источников, которые не находятся в соседней клетке. Если ваш уровень опыта ниже 14, жнецы дополнительно замедлены. На высоких уровнях могут появиться сразу несколько жнецов.\n\nКогда проклятие снимается, все призванные им жнецы немедленно исчезают.",
+      "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
     }
   }
 }

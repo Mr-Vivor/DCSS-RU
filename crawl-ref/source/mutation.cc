@@ -961,7 +961,8 @@ static vector<string> _get_mutation_and_bane_descs(bool terse)
     }
 
     for (bane_type bane : _get_active_banes())
-        result.push_back(terse ? bane_name(bane) : bane_desc(bane));
+        result.push_back(terse ? localise(bane_name(bane))
+                               : bane_desc_for_display(bane));
 
     return result;
 }
@@ -1160,7 +1161,7 @@ private:
         for (bane_type &bane : banes)
         {
             const string desc = make_stringf("<lightmagenta>%s [%.1f]</lightmagenta>",
-                bane_desc(bane).c_str(), (float)xl_to_remove_bane(bane) / 10.0f);
+                bane_desc_for_display(bane).c_str(), (float)xl_to_remove_bane(bane) / 10.0f);
 
             MenuEntry* me = new MenuEntry(desc, MEL_ITEM, MUT_ENTRY_BANE, hotkey);
             ++hotkey;
@@ -3462,6 +3463,22 @@ const string bane_desc(bane_type bane)
     return bane_data[bane_index[bane]].description;
 }
 
+// Keep bane_desc/bane_name and their lookup keys unchanged for Lua and search.
+// UI callers translate complete templates before inserting the actual skills.
+string bane_desc_for_display(bane_type bane)
+{
+    if (bane == BANE_DILETTANTE && you.banes[bane])
+    {
+        const CrawlVector& vec = you.props[DILETTANTE_SKILL_KEY].get_vector();
+        return make_stringf(localise("Your skill with %s, %s, and %s is reduced.").c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[0].get_int()))).c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[1].get_int()))).c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[2].get_int()))).c_str());
+    }
+
+    return localise(bane_desc(bane));
+}
+
 /*
  * Given some name, return a bane type. Tries to match the short description as found in `bane-data.h`.
  * If `partial_matches` is set, it will fill the vector with any partial matches it finds. If there is exactly one,
@@ -3596,9 +3613,11 @@ bool add_bane(bane_type bane, string reason, int duration, int mult)
     duration = duration * mult / 100;
 
     if (you.banes[bane] == 0)
-        mprf(MSGCH_WARN, "You are stricken with the %s.", bane_name(bane).c_str());
+        mprf(MSGCH_WARN, localise("You are stricken with the %s.").c_str(),
+             localise(bane_name(bane)).c_str());
     else
-        mprf(MSGCH_WARN, "Your %s grows stronger.", bane_name(bane).c_str());
+        mprf(MSGCH_WARN, localise("Your %s grows stronger.").c_str(),
+             localise(bane_name(bane)).c_str());
 
     you.banes[bane] += duration;
 
@@ -3613,7 +3632,8 @@ bool add_bane(bane_type bane, string reason, int duration, int mult)
 
 void remove_bane(bane_type bane)
 {
-    mprf(MSGCH_RECOVERY, "The %s upon you is lifted.", bane_name(bane).c_str());
+    mprf(MSGCH_RECOVERY, localise("The %s upon you is lifted.").c_str(),
+         localise(bane_name(bane)).c_str());
     you.banes[bane] = 0;
 
     if (bane == BANE_MORTALITY)

@@ -2227,9 +2227,10 @@ static string _spell_fail_change_list(FixedVector<int, MAX_KNOWN_SPELLS> cur_fai
 
     // Otherwise, generate a complete list of all non-trivial changes
     string desc;
-    desc = make_stringf("%s, your spell failure would %s:\n",
-                        condition.c_str(),
-                        fail_change < 0 ? "worsen" : "improve");
+    desc = make_stringf(localise(fail_change < 0
+                        ? "%s, your spell failure would worsen:\n"
+                        : "%s, your spell failure would improve:\n").c_str(),
+                        localise_in_context("spell-fail-condition", condition).c_str());
 
     // Sort spells by degree of change in their fail rates (and then by
     // absolute fail rate after that)
@@ -2270,7 +2271,7 @@ static string _spell_fail_change_list(FixedVector<int, MAX_KNOWN_SPELLS> cur_fai
 
         string entry = make_stringf("<%s>%s%3d%%-> %3d%%</%s>\n",
                 colour.c_str(),
-                chop_string(spell_title(you.spells[index]), 32).c_str(),
+                chop_string(localise(spell_title(you.spells[index])), 32).c_str(),
                 cur_fail[index], new_fail[index], colour.c_str());
 
         desc += entry;
@@ -5491,15 +5492,15 @@ string bane_long_description(bane_type bane, bool ignore_player)
         output << lookup;
     }
     else
-        output << bane_desc(bane) << "\n";
+        output << bane_desc_for_display(bane) << "\n";
 
     if (bane == BANE_DILETTANTE && player_has)
     {
         CrawlVector& vec = you.props[DILETTANTE_SKILL_KEY].get_vector();
-        output   << "\nYour " << skill_name(static_cast<skill_type>(vec[0].get_int()))
-                 << ", " << skill_name(static_cast<skill_type>(vec[1].get_int()))
-                 << ", and " << skill_name(static_cast<skill_type>(vec[2].get_int()))
-                 << " are currently affected.\n";
+        output << make_stringf(localise("\nYour %s, %s, and %s are currently affected.\n").c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[0].get_int()))).c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[1].get_int()))).c_str(),
+            localise(skill_name(static_cast<skill_type>(vec[2].get_int()))).c_str());
     }
 
     const int dur = bane_base_duration(bane);
@@ -5513,15 +5514,16 @@ string bane_long_description(bane_type bane, bool ignore_player)
     else
         dur_str = "short length of";
 
-    output << make_stringf("\nThis bane usually lasts a %s time.\n", dur_str.c_str());
+    output << make_stringf(localise("\nThis bane usually lasts a %s time.\n").c_str(),
+        localise_in_context("bane-duration", dur_str).c_str());
 
     if (player_has)
     {
         int needed_xl = xl_to_remove_bane(bane);
-        string desc = make_stringf("\n<lightmagenta>"
+        string desc = make_stringf(localise("\n<lightmagenta>"
                                    "This bane will be lifted from you when you "
                                    "gain another %.1f XLs worth of experience."
-                                   "</lightmagenta>",
+                                   "</lightmagenta>").c_str(),
                                     (float)needed_xl / 10.0f);
         output << desc;
     }

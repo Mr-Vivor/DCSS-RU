@@ -967,3 +967,19 @@
 - [Огромные сломанные прозрачные ворота](features/a-huge-broken-translucent-gate.md)
 - [Покрытая слизью каменная лестница вниз](features/a-slimy-stone-staircase-leading-down.md)
 - [Покрытая слизью каменная лестница вверх](features/a-slimy-stone-staircase-leading-up.md)
+
+## Мутации и проклятия
+
+- [Проклятие «Вялость»](mutations/lethargy-bane.md)
+- [Проклятие «Тепловой удар»](mutations/heatstroke-bane.md)
+- [Проклятие «Снежная слепота»](mutations/snow-blindness-bane.md)
+- [Проклятие «Электросудороги»](mutations/electrospasm-bane.md)
+- [Проклятие «Клаустрофобия»](mutations/claustrophobia-bane.md)
+- [Проклятие «Спотыкание»](mutations/stumbling-bane.md)
+- [Проклятие «Помощь врагам»](mutations/succour-bane.md)
+- [Проклятие «Размножение»](mutations/multiplicity-bane.md)
+- [Проклятие «Дилетантство»](mutations/dilettante-bane.md)
+- [Проклятие «Парадокс»](mutations/paradox-bane.md)
+- [Проклятие «Оберег»](mutations/warding-bane.md)
+- [Проклятие «Преследование»](mutations/hunted-bane.md)
+- [Проклятие «Смертность»](mutations/mortality-bane.md)

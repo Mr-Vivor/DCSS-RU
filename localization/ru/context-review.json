@@ -38147,6 +38147,310 @@
     "{talisman-meld}armour": {
       "context": "Display-only itemized Form::melding_description(true), from equip_slot_name. These slots are unavailable because equipment melds with the form. Both initial capitalization and lowercased list tokens supported; raw slot names for Lua unchanged.",
       "translation_sha256": "bd716b6a2c71070add10dec0ab237d3fccf58290212e0371d6bbd6663099e7f5"
+    },
+    "Your skill with %s, %s, and %s is reduced.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "381573462bb10c3b5e23a404a5eecceea8803e279dda8b2a076e9e8314f40b38"
+    },
+    "Your %s, %s, and %s are currently affected.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "da572cd9f7de3a26d81ed530730001b79a937a25eec231aec53fcb5cd8e89932"
+    },
+    "This bane usually lasts a %s time.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "49956b4aa5d2de43618370d264e66974cfef1db2392e07cd08766c2d535a1e6f"
+    },
+    "<lightmagenta>This bane will be lifted from you when you gain another %.1f XLs worth of experience.</lightmagenta>": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "229308b187f84a342f7fe79b0fc110138e43cd81ed55ddbbb269b099763ee82c"
+    },
+    "You are stricken with the %s.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "2e8086d35dba9d2871a58a1e645fc3ee8c2c9f74270cbc9dee9ec4acf867771a"
+    },
+    "Your %s grows stronger.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "19a67179277ac71d71bbba8f3b13faf2e2cb568b007f49fefd18d54a15fc6265"
+    },
+    "The %s upon you is lifted.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "cbf398bf127dea222fbfb551145e6f6f6d487c08c034cb5b3e354f7d5784bb8f"
+    },
+    "Your @any_bane@ grows more durable.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "8435a19401d6bd02476e33d51d28b6c8b97b3309c9b0af4238ba9f73a62031a4"
+    },
+    "You are already as afflicted as possible.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "7a39148c466ed90bf5580d78c5fd071901c0ba3da254b9a43172fb34cb666395"
+    },
+    "You cover ground slowly.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "fe19b97314c940f389a02f9d5ff9cbbe441e779da83a01f2349172debb86ab59"
+    },
+    "You often become slowed when damaged by fire.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "6febc2f0a524705713e7f879b491d7743fec035750e1cb55f3eb01b25c7dd90e"
+    },
+    "You often become weak and blind when damaged by cold.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "7e1cbe309e6a6fb0e20b4ab5fdcc02e2adb324df7f80771b4bd00c5a284010dd"
+    },
+    "You often become unable to move when damaged by electricity.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "2a88f970dbe11652ae8ef7a310a73f1163be955df62f04b5aac502625b943aba"
+    },
+    "Your slaying and spellpower are decreased in confined spaces.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "31bd67c368c777cea79763ea96d0f5949ba8d4733c68b4a36fc6c4aef8aede02"
+    },
+    "Your evasion is greatly reduced on turns you move or wait in place.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "5de0800255e28ca12dff80251ccadc29d707f7a039cb5023a8a952c7252ba38f"
+    },
+    "You heal other nearby enemies whenever you kill a monster.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "79a495fc8ea6b434bdc102a986b685a769fa6723aea6aa2f211be84c933b1458"
+    },
+    "Enemies in your sight sometimes split into clones of themselves.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "989603dc81f2932871802206851f743edcd1ba5ded87e8fd1dfec6f94b9eaa8a"
+    },
+    "You are less proficient with several skills.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "94aca3e70d7b2c7540b60a3cf9de9860ce932d351e7f11f2838ae7bd34b84101"
+    },
+    "Enemies you spot sometimes become touched by paradox.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "a3a6d3658aaf3e49709f3689e1cae858abdbb08d43b46d08667454b174cf8989"
+    },
+    "Enemies you encounter may be immune to damage from range.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "6742dcec076d15d2dd1c3e2e0db9573cc0c67fc7f18701f9188be3d30b53933b"
+    },
+    "When enemies are summoned, they will appear beside you instead.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "5e1c21dffa98276617ec1c2cc34ee35afb1f347d2601e02b0f2a92cf72a8fc07"
+    },
+    "When alone and injured, reapers sometimes come to claim you.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "79010e29a8cda48b3826c927343df502a21dd718fe9212df8f005f4d448276cb"
+    },
+    "Torch (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "b8bba5aa4f56b147ef79ca196128a3ea9f3dc0ae04ef1016f8689d0f7bf92be5"
+    },
+    "Shield (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "f6a6f28775f3eb3b7ab22b571b3c5c7077d38dce6f0fa17d87fc40b1e2aaa525"
+    },
+    "Corr (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "753426032a4429ace95aa5b329af9d1e279f24c1fa6fb6ac0f639ef662fe17a5"
+    },
+    "corroded (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "5153f47baab3750d6bc8e33fabe9c51f0bf59f2057a555e5c9e00834737cf239"
+    },
+    "Flay (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "52061bde8533a45d721b7c3687c83b96985c9df370c7b8c3ece0cb08df8ada13"
+    },
+    "Heavenly (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "30410765131f7d6bc1f6589dd98f4ddb4a3ab091659251c0c83ab8f13f4b97cd"
+    },
+    "Fugue (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "3ff570813d152fd2035ce172df7d7e1232d045660cce2d129fa7624ca82bc9f5"
+    },
+    "Fugue (*@num@*)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "af57e42351c283b8adda638cf3212efde3dac7448bca0df44fbfd158a05b8bd9"
+    },
+    "Horr (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "3f249f1ba9b66fbdc7462743109bdb0250b030ac8c5b1cffbc318aab120ae3ae"
+    },
+    "Memories (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "c9e4448529e768e7cd6b462328e24919a6013c7bb9b0d2427f46568246b7d561"
+    },
+    "Enkindled (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "2852a618f3b91c14d006d8cc54b6979a0ef74ead55bbd6ba1f2482b57d6a6605"
+    },
+    "Indom (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "0e6b57423e31afb8e2d5b069f021880136d10bab7493ee54536cf6a4a7355531"
+    },
+    "indomitable (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "9c42592b76a0cef9836354ece292549872b853af3aff9795cda4fe9ab1a848eb"
+    },
+    "Salvo (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "11e30bb82172e18a34d0a5d98fb5eb51083c2b9da70f20968f15ac51480e2c55"
+    },
+    "salvo (@num@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "06fac83eccb71c1ef8139787a72f6f765fa1eb5045eb98f059b4b6a197e94b58"
+    },
+    "lit torch": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "34011a03e70d215d257ad22cda8b7113cf124e1d80e7b1ca4f37db39ca11caa3"
+    },
+    "constricted (roots)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "662cd79ad1d1730d393553511173f7621053e3c9af1c44b1cbf02692042e07c5"
+    },
+    "constricted (zombie hands)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "0fdb0609d423237bb2862476ae0b7d2057949040964469c4d91278f7825447b7"
+    },
+    "flooded lungs": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "bb16da7d14a04390d9fecd51d94ca09a41c2e772053ae9623e2a4df6d7d8393b"
+    },
+    "inugami summoned": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "845f2217a283979cdf36ebb415cef121dbe4b19eba8c919c4f1b0dd71a3aa415"
+    },
+    "fire susceptible": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "7678410a4372d7824713d0cc18fb367e760ffb70c6d9c230a829561b212baabc"
+    },
+    "teleporting to hostiles": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "e5cad2bb45b2585c400044c91294c3e221323cd98a04c91c9185f77afed62b4b"
+    },
+    "slimy shroud": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "68247107510f85aa386e8c8d9422ef1e5a476221e0b4b28ef16066797ede2e7f"
+    },
+    "vapourise (@any_cloud@)": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "a9671aece05df20104ee0b7b2f76b20b1cc0a021f62b9781ad07f5e2e99ed72c"
+    },
+    "producing @any_cloud@": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "54b86d30642c16d9c1440bce6c81dbfe8310a54aac063e5dc46d7ebb35ca483b"
+    },
+    "studying @any_skill@": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "437b0c392acb8f01be887c7d8ebc5cabd100bf0f7e4debad4bc6a54eb1544e3f"
+    },
+    "You are studying @any_skill@.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "99d7e97ff616a3b47b52faf6205b802bdfc44413c84f00aa248448a16e49cc9b"
+    },
+    "No description found": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "61855dbe22ea743903e1f48241e45290f3110a025632c650eb2e3114eef7c93d"
+    },
+    "missing status": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "8aa135b112c39a97fb0dea27b20bf7ade0d62a65cf819f744aaafd1a9eeb7eb9"
+    },
+    "Missing status description.": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "416ce532e8b51941800ec9045cb04f0ac79a938f2215d3763a145b8c791426b4"
+    },
+    "{bane-duration}very long": {
+      "context": "Relative default bane duration in describe.cc; all banes expire through XP, not resting. The additional numeric estimate is an equivalent amount of character-level experience, not a hard level requirement.",
+      "translation_sha256": "a387b875125cf68edb99ca77bb762e5b82c5f3df8c5e911f40012d27e4b70935"
+    },
+    "{bane-duration}long": {
+      "context": "Relative default bane duration in describe.cc; all banes expire through XP, not resting. The additional numeric estimate is an equivalent amount of character-level experience, not a hard level requirement.",
+      "translation_sha256": "d242f364f609882e2eed6378f6444d34caa5c0c0498a8832b62855ae8925c3fe"
+    },
+    "{bane-duration}moderate length of": {
+      "context": "Relative default bane duration in describe.cc; all banes expire through XP, not resting. The additional numeric estimate is an equivalent amount of character-level experience, not a hard level requirement.",
+      "translation_sha256": "1696facffa9017204900722793e82d6e2a42ec61b07cd1030080326d284504fd"
+    },
+    "{bane-duration}short length of": {
+      "context": "Relative default bane duration in describe.cc; all banes expire through XP, not resting. The additional numeric estimate is an equivalent amount of character-level experience, not a hard level requirement.",
+      "translation_sha256": "1273133f14d5ededa0abb62fe838ad3aab6a6b3ebfa180cafa9b76a37c72e043"
+    },
+    "{status}<%s>Cr<%s>ys<%s>ta<%s>ls": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "90b1da70d0d0ae4853a3e56734e171cc496e342ccc9d8aacdf9e7c8b91e95d86"
+    },
+    "{status}Torch": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "17c6d85f230f488a0973655c13896b239fbbfe8294d0ccb117cccd0be041bcdb"
+    },
+    "{status}Heavenly": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "866995882f3040af21e114a08f01d4e56d7e7e2c4a2286407d0630d76997587c"
+    },
+    "{status}Memories": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "6f0ceac42f11defaa7477d4a203e0c4d2b36b0ce042fa12b0955f8e3cb37c68e"
+    },
+    "{status}Enkindled": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "2f2f37273522cd5ae626d31b11f8cbf0fa83ff1e108219ba565011d6a3a9adc4"
+    },
+    "{status}Indom": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "9c8ec645ddd54fd916b7351072ab782448236e1cfccd59c185fa7b10988bb38d"
+    },
+    "{status}Crystals": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "a4583efa68acade7f2484baa121f8d3e527f2fd3cdf99a3a08662b2ac752fab9"
+    },
+    "{status}Vapour": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "de57dc97e6c9ef387204d450027304adeda939f35a8e1a539f687930e1c42f65"
+    },
+    "{status}Salvo": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "1937e9ca8beb41ab5ab24402c017e30eb833d25b84832198b6d9252f5ec92f8e"
+    },
+    "{status}Dog": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "95ab6ee599af914bb9a9e651fddb524c635ec23e7328a4686a2bdd9996127d81"
+    },
+    "{status}very quick": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "dfd06648eb444bb0c84271da22348010c544f35d20dc6fa1a5e2a502c067d441"
+    },
+    "{status}quick": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "1276c09619eb54735f601376b4249cf9fc21b4f98304d4640ec9ff72bb589d6a"
+    },
+    "{status}slow": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "36377ce24d9562eaf01e0a4a60af02db8b34d53804f738de755055421a560b5e"
+    },
+    "{status}very slow": {
+      "context": "Display-only HUD labels; status_light_description still uses the original English status light for lookup. Four separately coloured syllables of Crystals keep their original element colours and placeholders.",
+      "translation_sha256": "7cef2fe2ca5f63cf75905e9c4131c648521356ba27530b03942bd93533770885"
+    },
+    "%s, your spell failure would worsen:": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "02fab802f4811eacd8a0d2cd20feac84204dafe5235ae46ced4a366f753710b7"
+    },
+    "%s, your spell failure would improve:": {
+      "context": "Current mutation.cc bane acquisition/removal and display helper; describe.cc bane details; status.cc dynamic HUD counters/short descriptions. Raw status_info fields remain English for database lookup and WebTiles machine state. Global @num patterns match the final display text; no scoped @patterns that the pattern matcher cannot reach. Indom counter is remaining healing, not turns; Salvo charges decay over time as well as being spent on eligible shots (Zephyr has an exception); Torch is power. Poison, disabled fire resistance and temporary movement binding kept distinct from other debuffs.",
+      "translation_sha256": "1539e861f78196972b310bb9ecba6cfc0556ee643cbb54ce74cbde61ce77d5af"
+    },
+    "{spell-fail-condition}If you equipped this item": {
+      "context": "describe.cc _spell_fail_change_list: item equip/removal and one-level/mastery skill projections. Whole heading translated before condition substitution; spell names translated before the existing 32-character column limit. Spell IDs, sorting, colour thresholds and before/after percentages unchanged.",
+      "translation_sha256": "7abbd3dd77d4a4ed3fe69aba0cd2658b13bcec80d05de0173baa1f90b56d68ad"
+    },
+    "{spell-fail-condition}If you removed this item": {
+      "context": "describe.cc _spell_fail_change_list: item equip/removal and one-level/mastery skill projections. Whole heading translated before condition substitution; spell names translated before the existing 32-character column limit. Spell IDs, sorting, colour thresholds and before/after percentages unchanged.",
+      "translation_sha256": "3cc1a565060f1cee203f19ab6816d9503ba0a7402b1a1746ef17155356e9c9aa"
+    },
+    "{spell-fail-condition}If you mastered this skill": {
+      "context": "describe.cc _spell_fail_change_list: item equip/removal and one-level/mastery skill projections. Whole heading translated before condition substitution; spell names translated before the existing 32-character column limit. Spell IDs, sorting, colour thresholds and before/after percentages unchanged.",
+      "translation_sha256": "c703b4fd98026c4e0cd4fe2d420cb399016907d5a419d07919fdaf80364c9bfa"
+    },
+    "{spell-fail-condition}If you trained 1 level of this skill": {
+      "context": "describe.cc _spell_fail_change_list: item equip/removal and one-level/mastery skill projections. Whole heading translated before condition substitution; spell names translated before the existing 32-character column limit. Spell IDs, sorting, colour thresholds and before/after percentages unchanged.",
+      "translation_sha256": "acd5c2b45e0f9471c4c6332731da0e6a90a87824b6bea789a0cd127edbf1f3dc"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

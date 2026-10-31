@@ -2945,7 +2945,7 @@ static string _status_mut_rune_list(int sw)
     for (unsigned i = 0; i <= STATUS_LAST_STATUS; ++i)
     {
         if (fill_status_info(i, inf) && !inf.short_text.empty())
-            status.emplace_back(inf.short_text);
+            status.emplace_back(localise_in_context("status", inf.short_text));
     }
 
     int move_cost = player_overall_move_delay(1, true, true, false);
@@ -2955,7 +2955,7 @@ static string _status_mut_rune_list(int sw)
                            (move_cost <  10) ? "quick" :
                            (move_cost <  13) ? "slow"
                                              : "very slow";
-        status.emplace_back(help);
+        status.emplace_back(localise_in_context("status", help));
     }
 
     if (status.empty())

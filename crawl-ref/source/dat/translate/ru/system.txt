@@ -38503,3 +38503,307 @@ Slime Pits
 {talisman-meld}armour
 
 {talisman-meld}доспехи
+%%%%
+Your skill with %s, %s, and %s is reduced.
+
+Снижены навыки: «%s», «%s» и «%s».
+%%%%
+Your %s, %s, and %s are currently affected.
+
+Сейчас проклятие ослабляет навыки: «%s», «%s» и «%s».
+%%%%
+This bane usually lasts a %s time.
+
+Обычная длительность этого проклятия: %s. Оно ослабевает при получении опыта.
+%%%%
+<lightmagenta>This bane will be lifted from you when you gain another %.1f XLs worth of experience.</lightmagenta>
+
+<lightmagenta>Для снятия этого проклятия нужно получить ещё столько опыта, сколько соответствует %.1f уровня персонажа.</lightmagenta>
+%%%%
+You are stricken with the %s.
+
+На вас наложено: %s.
+%%%%
+Your %s grows stronger.
+
+Усиливается: %s.
+%%%%
+The %s upon you is lifted.
+
+Снято: %s.
+%%%%
+Your @any_bane@ grows more durable.
+
+Для снятия эффекта «@any_bane@» теперь требуется больше опыта.
+%%%%
+You are already as afflicted as possible.
+
+На вас уже наложены все доступные проклятия этого типа.
+%%%%
+You cover ground slowly.
+
+Вы передвигаетесь медленно.
+%%%%
+You often become slowed when damaged by fire.
+
+При получении урона огнём вы часто замедляетесь.
+%%%%
+You often become weak and blind when damaged by cold.
+
+При получении урона холодом вы часто ослабеваете и слепнете.
+%%%%
+You often become unable to move when damaged by electricity.
+
+При получении урона электричеством вы часто ненадолго теряете возможность двигаться.
+%%%%
+Your slaying and spellpower are decreased in confined spaces.
+
+В тесных местах ваши точность и урон атак, а также сила заклинаний снижены.
+%%%%
+Your evasion is greatly reduced on turns you move or wait in place.
+
+Ваше уклонение сильно снижено на ходах, когда вы передвигаетесь или ждёте на месте.
+%%%%
+You heal other nearby enemies whenever you kill a monster.
+
+Гибель врага исцеляет других его союзников поблизости.
+%%%%
+Enemies in your sight sometimes split into clones of themselves.
+
+Враги в вашем поле зрения иногда создают своих двойников.
+%%%%
+You are less proficient with several skills.
+
+Некоторые ваши навыки снижены.
+%%%%
+Enemies you spot sometimes become touched by paradox.
+
+Встреченные вами враги иногда получают прикосновение парадокса.
+%%%%
+Enemies you encounter may be immune to damage from range.
+
+Встреченные враги могут быть невосприимчивы к урону от источников, которые не находятся рядом с ними.
+%%%%
+When enemies are summoned, they will appear beside you instead.
+
+Призванные враги появляются рядом с вами, а не с призывателем.
+%%%%
+When alone and injured, reapers sometimes come to claim you.
+
+Когда вы ранены и одни, за вами иногда приходят жнецы.
+%%%%
+Torch (@num@)
+
+Факел (@num@)
+%%%%
+Shield (@num@)
+
+Щит (@num@)
+%%%%
+Corr (@num@)
+
+Коррозия (@num@)
+%%%%
+corroded (@num@)
+
+коррозия (@num@)
+%%%%
+Flay (@num@)
+
+Раны (@num@)
+%%%%
+Heavenly (@num@)
+
+Буря (@num@)
+%%%%
+Fugue (@num@)
+
+Фуга (@num@)
+%%%%
+Fugue (*@num@*)
+
+Фуга (*@num@*)
+%%%%
+Horr (@num@)
+
+Ужас (@num@)
+%%%%
+Memories (@num@)
+
+Память (@num@)
+%%%%
+Enkindled (@num@)
+
+Возжжение (@num@)
+%%%%
+Indom (@num@)
+
+Лечение (@num@)
+%%%%
+indomitable (@num@)
+
+ускоренное лечение (осталось здоровья: @num@)
+%%%%
+Salvo (@num@)
+
+Залп (@num@)
+%%%%
+salvo (@num@)
+
+залп (зарядов: @num@)
+%%%%
+lit torch
+
+зажжённый Чёрный факел
+%%%%
+constricted (roots)
+
+удержание корнями
+%%%%
+constricted (zombie hands)
+
+сдавливание руками мертвецов
+%%%%
+flooded lungs
+
+затопленные лёгкие
+%%%%
+inugami summoned
+
+инугами призван
+%%%%
+fire susceptible
+
+сопротивление огню недоступно
+%%%%
+teleporting to hostiles
+
+телепортация к врагам
+%%%%
+slimy shroud
+
+слизистый покров
+%%%%
+vapourise (@any_cloud@)
+
+готовые облака (@any_cloud@)
+%%%%
+producing @any_cloud@
+
+Внутри вас подготовлены облака типа «@any_cloud@».
+%%%%
+studying @any_skill@
+
+обучение по учебнику: @any_skill@
+%%%%
+You are studying @any_skill@.
+
+Вы изучаете по учебникам: @any_skill@.
+%%%%
+No description found
+
+Описание отсутствует
+%%%%
+missing status
+
+неизвестное состояние
+%%%%
+Missing status description.
+
+Описание этого состояния отсутствует.
+%%%%
+{bane-duration}very long
+
+{bane-duration}очень большая
+%%%%
+{bane-duration}long
+
+{bane-duration}большая
+%%%%
+{bane-duration}moderate length of
+
+{bane-duration}средняя
+%%%%
+{bane-duration}short length of
+
+{bane-duration}небольшая
+%%%%
+{status}<%s>Cr<%s>ys<%s>ta<%s>ls
+
+{status}<%s>Кр<%s>ис<%s>тал<%s>лы
+%%%%
+{status}Torch
+
+{status}Факел
+%%%%
+{status}Heavenly
+
+{status}Буря
+%%%%
+{status}Memories
+
+{status}Память
+%%%%
+{status}Enkindled
+
+{status}Возжжение
+%%%%
+{status}Indom
+
+{status}Лечение
+%%%%
+{status}Crystals
+
+{status}Кристаллы
+%%%%
+{status}Vapour
+
+{status}Облака
+%%%%
+{status}Salvo
+
+{status}Залп
+%%%%
+{status}Dog
+
+{status}Инугами
+%%%%
+{status}very quick
+
+{status}очень быстрое передвижение
+%%%%
+{status}quick
+
+{status}быстрое передвижение
+%%%%
+{status}slow
+
+{status}медленное передвижение
+%%%%
+{status}very slow
+
+{status}очень медленное передвижение
+%%%%
+%s, your spell failure would worsen:
+
+%s, вероятность неудачи при колдовстве увеличится:
+%%%%
+%s, your spell failure would improve:
+
+%s, вероятность неудачи при колдовстве уменьшится:
+%%%%
+{spell-fail-condition}If you equipped this item
+
+{spell-fail-condition}Если экипировать этот предмет
+%%%%
+{spell-fail-condition}If you removed this item
+
+{spell-fail-condition}Если снять этот предмет
+%%%%
+{spell-fail-condition}If you mastered this skill
+
+{spell-fail-condition}Если полностью освоить этот навык
+%%%%
+{spell-fail-condition}If you trained 1 level of this skill
+
+{spell-fail-condition}Если повысить этот навык на один уровень

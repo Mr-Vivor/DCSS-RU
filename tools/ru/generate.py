@@ -166,9 +166,11 @@ def outputs(entities):
         "cards": terms.get("cards", {}),
         "unrand": terms.get("unrand", {}),
         "features": {key: system_messages.get(key) for key in reviewed.get("features", {})},
+        "mutations": {name.removeprefix("Bane of ").removeprefix("the ").lower() + " bane": title
+                      for name, title in terms.get("banes", {}).items()},
         "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
     }
-    reference_headings = {"items": "Предметы", "skills": "Навыки",
+    reference_headings = {"items": "Предметы", "skills": "Навыки", "mutations": "Мутации и проклятия",
                           "spells": "Заклинания", "ability": "Способности", "monsters": "Монстры", "cards": "Карты", "unrand": "Уникальные артефакты", "features": "Местность, переходы и ловушки"}
     reference = {}
     reference_index = ["# Справочник предметов, навыков и способностей", "",

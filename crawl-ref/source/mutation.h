@@ -103,6 +103,7 @@ tileidx_t get_mutation_tile(mutation_type mut);
 void set_evolution_mut_xp(bool malignant);
 
 const string bane_desc(bane_type bane);
+string bane_desc_for_display(bane_type bane);
 const string bane_name(bane_type mut, bool dbkey = false);
 int bane_base_duration(bane_type bane);
 bane_type bane_from_name(string name, vector<bane_type> *partial_matches = nullptr);

@@ -15,6 +15,7 @@
 #include "fight.h" // weapon_cleaves
 #include "item-prop.h"
 #include "level-state-type.h"
+#include "localise.h"
 #include "mon-abil.h"
 #include "mutation.h"
 #include "options.h"
@@ -1041,7 +1042,7 @@ bool fill_status_info(int status, status_info& inf)
 
             const int crystals = you.props[JADEMANTLE_CRYSTAL_KEY].get_int();
             inf.light_text_formatted =
-                make_stringf("<%s>Cr<%s>ys<%s>ta<%s>ls",
+                make_stringf(localise_in_context("status", "<%s>Cr<%s>ys<%s>ta<%s>ls").c_str(),
                             (crystals & (int)spschool::earth) ? "yellow"    : "darkgrey",
                             (crystals & (int)spschool::fire)  ? "lightred"  : "darkgrey",
                             (crystals & (int)spschool::air)   ? "lightcyan" : "darkgrey",
