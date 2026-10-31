@@ -6,6 +6,7 @@
 #include "AppHdr.h"
 
 #include "religion.h"
+#include "localise.h"
 
 #include <algorithm>
 #include <cmath>
@@ -514,7 +515,8 @@ void god_power::display(bool gaining, const char* fmt) const
     if (isupper(str[0]))
         god_speaks(you.religion, str);
     else
-        god_speaks(you.religion, make_stringf(fmt, str).c_str());
+        god_speaks(you.religion, make_stringf(localise(fmt).c_str(),
+                                           localise(str).c_str()).c_str());
 }
 
 static void _place_delayed_monsters();

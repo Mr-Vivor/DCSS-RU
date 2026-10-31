@@ -74,6 +74,13 @@ bool SkillTextTileItem::handle_mouse(const wm_mouse_event& me)
 #define LEVEL_SIZE 5
 #define PROGRESS_SIZE 6
 #define APTITUDE_SIZE 5
+string skill_name_for_menu(skill_type skill)
+{
+    if (skill == SK_POLEARMS || skill == SK_RANGED_WEAPONS || skill == SK_EVOCATIONS)
+        return localise_in_context("skill-menu-name", skill_name(skill));
+    return localise(skill_name(skill));
+}
+
 SkillMenuEntry::SkillMenuEntry(coord_def coord)
 {
 #ifdef USE_TILE_LOCAL
@@ -232,8 +239,8 @@ void SkillMenuEntry::set_name(bool keep_hotkey)
         m_name->allow_highlight(false);
     }
 
-    m_name->set_text(make_stringf("%s %-15s", get_prefix().c_str(),
-                                skill_name(m_sk)));
+    m_name->set_text(get_prefix() + " "
+                    + chop_string(skill_name_for_menu(m_sk), NAME_SIZE - 5));
     m_name->set_fg_colour(get_colour());
 #ifdef USE_TILE_LOCAL
     if (is_set(SKMF_SKILL_ICONS))
@@ -447,24 +454,24 @@ void SkillMenuEntry::set_targets()
 void SkillMenuEntry::set_title()
 {
     m_name->allow_highlight(false);
-    m_name->set_text("     Skill");
-    m_level->set_text("Level");
+    m_name->set_text(localise("     Skill"));
+    m_level->set_text(localise_in_context("skill-column", "Level"));
 
     m_name->set_fg_colour(BLUE);
     m_level->set_fg_colour(BLUE);
     m_progress->set_fg_colour(BLUE);
 
     if (is_set(SKMF_APTITUDE))
-        m_aptitude->set_text("<blue>Apt </blue>");
+        m_aptitude->set_text(localise("<blue>Apt </blue>"));
 
     switch (skm.get_state(SKM_VIEW))
     {
-    case SKM_VIEW_TRAINING:  m_progress->set_text("Train"); break;
-    case SKM_VIEW_TARGETS:   m_progress->set_text("Target"); break;
-    case SKM_VIEW_PROGRESS:  m_progress->set_text("Progr"); break;
-    case SKM_VIEW_POINTS:    m_progress->set_text("Points");break;
-    case SKM_VIEW_COST:      m_progress->set_text("Cost");  break;
-    case SKM_VIEW_NEW_LEVEL: m_progress->set_text("> New"); break;
+    case SKM_VIEW_TRAINING:  m_progress->set_text(localise_in_context("skill-column", "Train")); break;
+    case SKM_VIEW_TARGETS:   m_progress->set_text(localise_in_context("skill-column", "Target")); break;
+    case SKM_VIEW_PROGRESS:  m_progress->set_text(localise_in_context("skill-column", "Progr")); break;
+    case SKM_VIEW_POINTS:    m_progress->set_text(localise_in_context("skill-column", "Points"));break;
+    case SKM_VIEW_COST:      m_progress->set_text(localise_in_context("skill-column", "Cost"));  break;
+    case SKM_VIEW_NEW_LEVEL: m_progress->set_text(localise_in_context("skill-column", "> New")); break;
     default: die("Invalid view state.");
     }
 }
@@ -761,13 +768,13 @@ void SkillMenuSwitch::update()
             text += '|';
 
         const string col = (*it == m_state) ? "white" : "darkgrey";
-        text += make_stringf("<%s>%s</%s>", col.c_str(), get_name(*it).c_str(),
+        text += make_stringf("<%s>%s</%s>", col.c_str(), localise_in_context("skill-switch", get_name(*it)).c_str(),
                              col.c_str());
     }
     if (m_name.empty())
         text += "  ";
     else
-        text += make_stringf(" %s  ", m_name.c_str());
+        text += make_stringf(" %s  ", localise_in_context("skill-switch", m_name).c_str());
     set_text(text);
 }
 
@@ -1496,9 +1503,9 @@ void SkillMenu::refresh_button_row()
     else if (!you.has_mutation(MUT_DISTRIBUTED_TRAINING)) // SKM_VIEW_TARGETS unavailable for Gn
         midlegend = "[<yellow>=</yellow>] set a skill target";
 
-    m_help_button->set_text(helpstring + legend);
-    m_middle_button->set_text(midlegend);
-    m_clear_targets_button->set_text(clearlegend + "\n");
+    m_help_button->set_text(helpstring + localise(legend));
+    m_middle_button->set_text(localise(midlegend));
+    m_clear_targets_button->set_text(localise(clearlegend) + "\n");
 }
 
 void SkillMenu::refresh_names()
@@ -1539,18 +1546,18 @@ void SkillMenu::set_default_help()
     else
     {
         if (!is_set(SKMF_MANUAL))
-            text = m_switches[SKM_VIEW]->get_help();
+            text = localise(m_switches[SKM_VIEW]->get_help());
 
         if (get_state(SKM_LEVEL) == SKM_LEVEL_ENHANCED)
-            text += m_switches[SKM_LEVEL]->get_help() + " ";
+            text += localise(m_switches[SKM_LEVEL]->get_help()) + " ";
         else
-            text += "The species aptitude is in <white>white</white>. ";
+            text += localise("The species aptitude is in <white>white</white>. ");
 
         if (is_set(SKMF_MANUAL))
-            text += "Bonus from skill manuals is in <lightred>red</lightred>. ";
+            text += localise("Bonus from skill manuals is in <lightred>red</lightred>. ");
     }
 
-    m_help->set_text(text);
+    m_help->set_text(localise(text));
 }
 
 void SkillMenu::set_help(string msg)
@@ -1666,7 +1673,7 @@ void SkillMenu::set_title()
             "Select the skills to train.";
     }
 
-    m_title->set_text(t);
+    m_title->set_text(localise(t));
 }
 
 void SkillMenu::shift_bottom_down()

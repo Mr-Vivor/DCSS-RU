@@ -387,6 +387,14 @@ def main():
                     # a translated prompt, preserve decimals and reject >27.
                     spell_page.keyboard.type("m")
                     spell_page.locator("#ui-stack > .ui-popup").last.wait_for(state="visible")
+                    spell_page.wait_for_function("document.querySelector('.menu_skills').innerText.includes('Бой')")
+                    skill_screen = spell_page.locator(".menu_skills").inner_text()
+                    for text in ("Навык", "Бой", "Колдовство", "Справка", "режим", "навыки"):
+                        assert text in skill_screen, skill_screen
+                    for text in ("Fighting", "Spellcasting", "Skill", "Help", "The species aptitude"):
+                        assert text not in skill_screen, skill_screen
+                    spell_page.screenshot(path=str(ARTIFACTS / "skills-screen.png"), full_page=True)
+                    (ARTIFACTS / "skills-screen.txt").write_text(skill_screen, encoding="utf8")
                     spell_page.keyboard.type("=a", delay=100)
                     skill_input = spell_page.locator("#input_dialog input")
                     skill_input.wait_for(state="visible")
@@ -413,13 +421,19 @@ def main():
                     spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     # Only the isolated wizard joins a god and receives piety;
                     # inspect an ability even when current MP cannot pay for it.
-                    for command, value in (("&_", "Okawaru"), ("&^", "160")):
+                    for command, value in (("&_", "Okawaru"), ("&^", "100")):
                         spell_page.keyboard.type(command)
                         god_input = spell_page.locator("#messages .game_message input")
                         god_input.wait_for(state="visible")
                         god_input.fill(value)
                         spell_page.keyboard.press("Enter")
                         god_input.wait_for(state="detached")
+                    spell_page.wait_for_function("document.body.innerText.includes('Теперь вы можете ускорять свои атаки.')")
+                    for _ in range(6):
+                        if not spell_page.locator("#more").is_visible():
+                            break
+                        spell_page.keyboard.press("Space")
+                        spell_page.wait_for_timeout(100)
                     spell_page.keyboard.type("a")
                     finesse_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="Искусность")
                     finesse_row.wait_for()

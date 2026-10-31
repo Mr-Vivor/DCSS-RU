@@ -24,6 +24,8 @@
 #include "pattern.h"
 #include "stash.h"
 #include "quiver.h"
+#include "religion.h"
+#include "skill-menu.h"
 #include "stringutil.h"
 #include "travel.h"
 #include "spl-cast.h"
@@ -851,6 +853,19 @@ TEST_CASE("Russian ability costs preserve resources, failure costs and raw abili
     CHECK(localise_in_context("curse-boost", "Fire") == "Огонь");
     CHECK(localise_in_context("ability-silence", "unable to breathe") == "вы не можете дышать");
     CHECK(localise_in_context("sacrifice-value", "an incredible") == "невероятно ценная");
+    CHECK(skill_name_for_menu(SK_EVOCATIONS) == "Упр. устройст.");
+    CHECK(localise("Evocations") == "Управление устройствами");
+    for (const auto sk : { SK_FIGHTING, SK_POLEARMS, SK_RANGED_WEAPONS,
+                          SK_EVOCATIONS, SK_SPELLCASTING, SK_INVOCATIONS })
+        CHECK(strwidth(skill_name_for_menu(sk)) <= 15);
+    for (const auto& god : get_all_god_powers())
+        for (const auto& power : god)
+            for (const char* field : { power.gain, power.loss, power.general })
+                if (*field)
+                {
+                    INFO(field);
+                    CHECK(localise(field) != field);
+                }
     Options.language = lang_t::EN;
     CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("5 MP") != string::npos);
     CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("Piety") != string::npos);

@@ -1630,19 +1630,19 @@ Your shopping list is now empty.
 %%%%
 In automatic mode, skills are trained as you use them.
 
-В автоматическом режиме навыки тренируются по мере использования.
+В автоматическом режиме навыки тренируются по мере их использования.
 %%%%
 In manual mode, experience is spread evenly across all activated skills.
 
-В ручном режиме опыт поровну распределяется между всеми включёнными навыками.
+В ручном режиме опыт распределяется поровну между всеми включёнными навыками.
 %%%%
 Press the letter of a skill to choose whether you want to practise it. Skills marked with '<darkgrey>-</darkgrey>' will not be trained.
 
-Нажмите букву навыка, чтобы включить или выключить его тренировку. Навыки с отметкой '<darkgrey>-</darkgrey>' не тренируются.
+Нажмите букву навыка, чтобы включить или выключить его тренировку. Навыки со знаком «<darkgrey>-</darkgrey>» не тренируются.
 %%%%
 Press the letter of a skill to cycle between <darkgrey>disabled</darkgrey> (<darkgrey>-</darkgrey>), enabled (+) and <white>focused</white> (<white>*</white>). Focused skills train twice as fast relative to others.
 
-Буква навыка переключает режим: <darkgrey>выключен</darkgrey> (<darkgrey>-</darkgrey>), включён (+) или <white>приоритетный</white> (<white>*</white>). Приоритетные навыки получают вдвое больше опыта относительно остальных.
+Нажмите букву навыка, чтобы сменить режим: <darkgrey>выключен</darkgrey> (<darkgrey>-</darkgrey>), включён (+), <white>приоритетный</white> (<white>*</white>). Приоритетный навык получает вдвое больше опыта относительно остальных.
 %%%%
 Ashenzari's power
 
@@ -1670,7 +1670,7 @@ The percentage of incoming experience used to train each skill is in <brown>brow
 %%%%
 The current training targets, if any.
 
-Заданные целевые уровни навыков, если они есть.
+Текущие цели тренировки навыков, если они заданы.
 %%%%
 The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.
 
@@ -1678,7 +1678,7 @@ The percentage of the progress done before reaching next level is in <cyan>cyan<
 %%%%
 The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).
 
-Относительная стоимость повышения навыка указана <cyan>голубым</cyan>, а при наличии учебника — <lightred>красным</lightred>.
+Относительная стоимость развития навыка показана <cyan>голубым</cyan>, а с бонусом учебника — <lightred>красным</lightred>.
 %%%%
 "Enter a skill target for @arg@: "
 
@@ -1706,7 +1706,7 @@ Help
 %%%%
 Return to skill selection
 
-Вернуться к выбору навыков
+Выбор навыков
 %%%%
 <w>Help</w>
 
@@ -1734,7 +1734,7 @@ clear all targets
 %%%%
 Select the skills you want to be trained. The chosen skills will be raised to the level shown in <cyan>cyan</cyan>.
 
-Выберите навыки для тренировки. Их уровни повысятся до значений, показанных <cyan>голубым</cyan>.
+Выберите навыки для тренировки. Они повысятся до уровня, показанного <cyan>голубым</cyan>.
 %%%%
 The species aptitude is in <white>white</white>.
 
@@ -12682,7 +12682,7 @@ step out of the flow of time
 %%%%
 Ashenzari warns you of distant threats and treasures.
 
-Ашензари предупреждает вас о далёких опасностях и сокровищах.
+Ашензари предупреждает вас о далёких угрозах и сокровищах.
 %%%%
 Ashenzari reveals the structure of the dungeon to you.
 
@@ -12690,7 +12690,7 @@ Ashenzari reveals the structure of the dungeon to you.
 %%%%
 Ashenzari shows you where magical portals lie.
 
-Ашензари показывает расположение волшебных порталов.
+Ашензари указывает, где находятся магические порталы.
 %%%%
 Ashenzari prevents you from stumbling into unseen traps.
 
@@ -26886,7 +26886,7 @@ To do this, you must remove one of the following items:
 %%%%
 <blue>Apt </blue>
 
-<blue>Скл </blue>
+<blue>Скл.</blue>
 %%%%
 "Enter a base skill target for @arg@: "
 
@@ -26902,11 +26902,11 @@ To do this, you must remove one of the following items:
 %%%%
 [<yellow>=</yellow>] set a skill target
 
-[<yellow>=</yellow>] задать целевой уровень
+[<yellow>=</yellow>] задать цель
 %%%%
 "Bonus from skill manuals is in <lightred>red</lightred>. "
 
-"Бонус учебников указан <lightred>красным</lightred>. "
+"Бонус учебника показан <lightred>красным</lightred>. "
 %%%%
 scribal knowledge
 
@@ -30098,7 +30098,7 @@ Your plant body is immune to sleep, blinding, and asphyxiation.
 %%%%
 "The species aptitude is in <white>white</white>. "
 
-"Способности вашего вида к обучению указаны <white>белым</white>. "
+"Видовая склонность к навыку показана <white>белым</white>. "
 %%%%
 Piety@any_pips@
 
@@ -35991,3 +35991,447 @@ Do you wish to have %s blessed with holy wrath?
 special effects listed below.
 
 особые последствия перечислены ниже.
+%%%%
+[<yellow>a</yellow>-<yellow>z</yellow>] skill descriptions
+
+[<yellow>a</yellow>-<yellow>z</yellow>] описания
+%%%%
+[<yellow>a</yellow>-<yellow>z</yellow>] set skill target
+
+[<yellow>a</yellow>-<yellow>z</yellow>] задать цель
+%%%%
+[<yellow>-</yellow>] clear selected target
+
+[<yellow>-</yellow>] сбросить цель
+%%%%
+[<yellow>-</yellow>] clear all targets
+
+[<yellow>-</yellow>] сбросить все цели
+%%%%
+The relative cost of raising each skill is in <cyan>cyan</cyan>.
+
+Относительная стоимость развития навыка показана <cyan>голубым</cyan>.
+%%%%
+You have gained great experience. Select the skills to train.
+
+Вы получили много опыта. Выберите навыки для тренировки.
+%%%%
+You can %s.
+
+Вы можете %s.
+%%%%
+You can now %s.
+
+Теперь вы можете %s.
+%%%%
+You can no longer %s.
+
+Вы больше не можете %s.
+%%%%
+You have enough gold to %s.
+
+У вас достаточно золота, чтобы %s.
+%%%%
+Your summoned allies will not expire while fighting evil.
+
+Ваши призванные союзники не исчезают, пока сражаются со злыми существами.
+%%%%
+You can now gain power from killing the unholy and evil.
+
+Теперь вы можете получать силу за убийство нечисти и злых существ.
+%%%%
+You can no longer gain power from killing the unholy and evil.
+
+Вы больше не получаете силу за убийство нечисти и злых существ.
+%%%%
+You can gain power from killing the unholy and evil.
+
+Вы можете получать силу за убийство нечисти и злых существ.
+%%%%
+The Shining One may bless your followers whenever you slay foes.
+
+Сияющий может благословлять ваших союзников, когда вы убиваете врагов.
+%%%%
+The Shining One will no longer blesses your followers when you slay foes.
+
+Сияющий больше не благословляет ваших союзников за убийство врагов.
+%%%%
+The Shining One sometimes blesses your followers when you slay foes.
+
+Сияющий иногда благословляет ваших союзников, когда вы убиваете врагов.
+%%%%
+bring forth the wretched and dying
+
+призывать несчастных умирающих существ
+%%%%
+invoke the sign of ruin
+
+насылать знак разрушения
+%%%%
+light the black torch and reap souls in Yredelemnul's name
+
+зажигать Чёрный факел и собирать души во имя Йредэлемнула
+%%%%
+recall your undead harvest
+
+призывать к себе собранную нежить
+%%%%
+Yredelemnul will now gift you temporary undead servants when you light the torch.
+
+Теперь Йредэлемнул дарует вам временных слуг-нежить, когда вы зажигаете факел.
+%%%%
+Yredelemnul will no longer gift you temporary undead servants when you light the torch.
+
+Йредэлемнул больше не дарует вам временных слуг-нежить при зажигании факела.
+%%%%
+Yredelemnul will gift you temporary undead servants when you light the torch.
+
+Йредэлемнул дарует вам временных слуг-нежить, когда вы зажигаете факел.
+%%%%
+hurl gouts of umbral torchlight
+
+метать тёмный свет Чёрного факела
+%%%%
+bind living souls
+
+порабощать души живых существ
+%%%%
+engulf your surroundings in Yredelemnul's grip
+
+окутывать всё вокруг хваткой Йредэлемнула
+%%%%
+Okawaru requires that you fight alone, and prevents you from gaining allies.
+
+Окавару требует сражаться в одиночку и не позволяет обзаводиться союзниками.
+%%%%
+enter into single combat with a foe
+
+вызывать врага на поединок
+%%%%
+Okawaru will now gift you throwing weapons as you gain piety.
+
+Теперь Окавару будет даровать вам метательное оружие по мере роста благочестия.
+%%%%
+Okawaru will no longer gift you throwing weapons.
+
+Окавару больше не будет даровать вам метательное оружие.
+%%%%
+Okawaru will gift you throwing weapons as you gain piety.
+
+Окавару дарует вам метательное оружие по мере роста благочестия.
+%%%%
+Okawaru grants you throwing weapons!
+
+Окавару дарует вам метательное оружие!
+%%%%
+Okawaru will grant you a choice of weapons... once.
+
+Окавару позволит выбрать оружие в дар… один раз.
+%%%%
+Okawaru is no longer ready to gift you weaponry.
+
+Окавару больше не готов даровать вам оружие.
+%%%%
+Okawaru will grant you a choice of armour... once.
+
+Окавару позволит выбрать доспехи в дар… один раз.
+%%%%
+Okawaru is no longer ready to gift you armour.
+
+Окавару больше не готов даровать вам доспехи.
+%%%%
+unleash Makhleb's destructive might
+
+высвобождать разрушительную мощь Махлеба
+%%%%
+summon an infernal servant of Makhleb
+
+призывать адского слугу Махлеба
+%%%%
+Makhleb will allow you to brand your body with an infernal mark... once.
+
+Махлеб позволит выжечь на вашем теле адскую метку… один раз.
+%%%%
+Makhleb will no longer allow you to brand your body with an infernal mark.
+
+Махлеб больше не позволяет выжечь на вашем теле адскую метку.
+%%%%
+Elyvilon prevents you from doing harm to neutral creatures.
+
+Эливилон не позволяет вам причинять вред нейтральным существам.
+%%%%
+attempt to pacify hostile creatures
+
+пытаться умиротворять враждебных существ
+%%%%
+provide healing for yourself
+
+исцелять себя
+%%%%
+comfort your suffering allies
+
+облегчать страдания союзников
+%%%%
+Lugonu protects you from the effects of unwielding distortion weapons.
+
+Лугону защищает вас от последствий смены оружия со свойством искажения.
+%%%%
+Lugonu may banish nearby foes when other gods try to punish you.
+
+Лугону может изгнать ближайших врагов, когда другие боги пытаются наказать вас.
+%%%%
+recall your apostles
+
+призывать к себе апостолов
+%%%%
+Beogh will now send orc apostles to challenge you in battle as you gain piety.
+
+Теперь по мере роста благочестия Беог будет посылать орочьих апостолов, чтобы испытать вас в бою.
+%%%%
+Beogh will no longer send orc apostles to challenge you in battle.
+
+Беог больше не будет посылать орочьих апостолов, чтобы испытать вас в бою.
+%%%%
+Beogh will send orc apostles to challenge you in battle as you gain piety.
+
+По мере роста благочестия Беог посылает орочьих апостолов, чтобы испытать вас в бою.
+%%%%
+You can recruit apostles that you defeat into your service.
+
+Вы можете брать на службу побеждённых апостолов.
+%%%%
+Your apostles are sometimes healed when you deal damage.
+
+Когда вы наносите урон, ваши апостолы иногда исцеляются.
+%%%%
+rally a vengeful horde
+
+собирать мстительную орду
+%%%%
+Jiyva will now mutate your body as you gain piety.
+
+Теперь Джийва будет изменять ваше тело мутациями по мере роста благочестия.
+%%%%
+Jiyva will no longer mutate your body.
+
+Джийва больше не будет изменять ваше тело мутациями.
+%%%%
+Jiyva will mutate your body as you gain piety.
+
+Джийва изменяет ваше тело мутациями по мере роста благочестия.
+%%%%
+call acidic ooze from nearby walls
+
+призывать едкую слизь из ближайших стен
+%%%%
+Ashenzari will now identify your possessions.
+
+Теперь Ашензари будет определять свойства ваших вещей.
+%%%%
+Ashenzari will no longer identify your possessions.
+
+Ашензари больше не будет определять свойства ваших вещей.
+%%%%
+Ashenzari will now protect you from the dungeon's malevolent forces.
+
+Теперь Ашензари защищает вас от зловещих сил Подземелья.
+%%%%
+Ashenzari no longer protects you from the dungeon's malevolent forces.
+
+Ашензари больше не защищает вас от зловещих сил Подземелья.
+%%%%
+Ashenzari protects you from the dungeon's malevolent forces.
+
+Ашензари защищает вас от зловещих сил Подземелья.
+%%%%
+Ashenzari reveals the structure of the nearby dungeon.
+
+Ашензари раскрывает устройство ближайшей части подземелья.
+%%%%
+Ashenzari no longer reveals the structure of the nearby dungeon.
+
+Ашензари больше не раскрывает устройство ближайшей части подземелья.
+%%%%
+Dithmenos quiets all noise in your surroundings.
+
+Дитменос приглушает весь шум вокруг вас.
+%%%%
+Dithmenos no longer quiets all noise in your surroundings.
+
+Дитменос больше не приглушает шум вокруг вас.
+%%%%
+mislead enemies by swapping places with your shadow
+
+обманывать врагов, меняясь местами со своей тенью
+%%%%
+unleash an enemy's spells as if they were a marionette
+
+использовать заклинания врага, словно он ваша марионетка
+%%%%
+surround yourself with impenetrable night
+
+окружать себя непроглядной ночью
+%%%%
+Gozag turns your defeated foes' bodies to gold.
+
+Гозаг превращает тела побеждённых врагов в золото.
+%%%%
+petition Gozag for potion effects
+
+просить у Гозага эффекты зелий
+%%%%
+fund merchants seeking to open stores in the dungeon
+
+финансировать открытие лавок в подземелье
+%%%%
+bribe branches to halt enemies' attacks and recruit allies
+
+подкупать обитателей ветвей, прекращая их атаки и вербуя союзников
+%%%%
+You now drain nearby creatures when transferring your ancestor.
+
+Теперь при перемещении предка вы истощаете жизненные силы существ поблизости.
+%%%%
+You no longer drain nearby creatures when transferring your ancestor.
+
+При перемещении предка вы больше не истощаете жизненные силы существ поблизости.
+%%%%
+You drain nearby creatures when transferring your ancestor.
+
+При перемещении предка вы истощаете жизненные силы существ поблизости.
+%%%%
+You are resistant to fire.
+
+У вас есть сопротивление огню.
+%%%%
+armour yourself in flame
+
+защищать себя огненным доспехом
+%%%%
+call a swarm of foxfires against your foes
+
+насылать на врагов рой огоньков
+%%%%
+rocket upward and away, once
+
+один раз стремительно вознестись
+%%%%
+{skill-menu-name}Polearms
+
+{skill-menu-name}Древк. оружие
+%%%%
+{skill-menu-name}Ranged Weapons
+
+{skill-menu-name}Стрелк. оружие
+%%%%
+{skill-menu-name}Evocations
+
+{skill-menu-name}Упр. устройст.
+%%%%
+{skill-column}Level
+
+{skill-column}Ур.
+%%%%
+{skill-column}Train
+
+{skill-column}Трен.
+%%%%
+{skill-column}Target
+
+{skill-column}Цель
+%%%%
+{skill-column}Progr
+
+{skill-column}Прогр.
+%%%%
+{skill-column}Points
+
+{skill-column}Очки
+%%%%
+{skill-column}Cost
+
+{skill-column}Цена
+%%%%
+{skill-column}> New
+
+{skill-column}> Нов.
+%%%%
+{skill-switch}auto
+
+{skill-switch}авто
+%%%%
+{skill-switch}manual
+
+{skill-switch}ручн.
+%%%%
+{skill-switch}train
+
+{skill-switch}трен.
+%%%%
+{skill-switch}focus
+
+{skill-switch}приор.
+%%%%
+{skill-switch}useful
+
+{skill-switch}нужные
+%%%%
+{skill-switch}all
+
+{skill-switch}все
+%%%%
+{skill-switch}modified
+
+{skill-switch}измен.
+%%%%
+{skill-switch}enhanced
+
+{skill-switch}усил.
+%%%%
+{skill-switch}reduced
+
+{skill-switch}сниж.
+%%%%
+{skill-switch}base
+
+{skill-switch}база
+%%%%
+{skill-switch}training
+
+{skill-switch}тренировка
+%%%%
+{skill-switch}targets
+
+{skill-switch}цели
+%%%%
+{skill-switch}progress
+
+{skill-switch}прогресс
+%%%%
+{skill-switch}points
+
+{skill-switch}очки
+%%%%
+{skill-switch}new level
+
+{skill-switch}нов. ур.
+%%%%
+{skill-switch}cost
+
+{skill-switch}цена
+%%%%
+{skill-switch}mode
+
+{skill-switch}режим
+%%%%
+{skill-switch}skill
+
+{skill-switch}навык
+%%%%
+{skill-switch}skills
+
+{skill-switch}навыки
+%%%%
+{skill-switch}level
+
+{skill-switch}уровень

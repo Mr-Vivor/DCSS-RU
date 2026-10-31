@@ -54,6 +54,7 @@ enum skill_menu_switch
 };
 
 class SkillMenu;
+string skill_name_for_menu(skill_type skill);
 
 #ifdef USE_TILE_LOCAL
 class SkillTextTileItem : public TextTileItem

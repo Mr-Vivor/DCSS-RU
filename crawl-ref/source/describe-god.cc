@@ -972,7 +972,7 @@ static formatted_string _describe_god_powers(god_type which_god)
         }
 
         if (!isupper(buf[0])) // Complete sentence given?
-            buf = "You can " + buf + ".";
+            buf = make_stringf(localise("You can %s.").c_str(), localise(buf).c_str());
         buf = localise(buf);
         string abil_cost = make_cost_description(power.abil);
         if (abil_cost == localise("None"))

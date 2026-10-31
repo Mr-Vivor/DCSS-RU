@@ -1133,20 +1133,20 @@
       "translation_sha256": "a33c365c38bc1aa05f22dd54cdabf5395947ccafc3bfa80dbf3664a2ed4419f1"
     },
     "In automatic mode, skills are trained as you use them.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "8bd555462afaa6a76657b3ee05445fe631db5c57b8038306f0d5a6e1d78c3a3c"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "ee2f6ae22adc7f7876e0cbbbe202f5527f6d8e3ac3f833f7b7b0f229bfbb22dd"
     },
     "In manual mode, experience is spread evenly across all activated skills.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "2d9434d229e0840186dc6124da5470b958e2519388564eb2cea9e8eb3d5060a9"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "ee23705c6ca0f13a56f09a928bc85239833134814c5df795b8632b37e1911321"
     },
     "Press the letter of a skill to choose whether you want to practise it. Skills marked with '<darkgrey>-</darkgrey>' will not be trained.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "23fdb26111dbf265656a775d81626951b56240633a4976807ee3a705628a9258"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "d53daa2a759934e52e5484d513cd10d221d2d44a7c3909230480da518cde9a4e"
     },
     "Press the letter of a skill to cycle between <darkgrey>disabled</darkgrey> (<darkgrey>-</darkgrey>), enabled (+) and <white>focused</white> (<white>*</white>). Focused skills train twice as fast relative to others.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "a8a467f39f5cc1078f17f46ab3ea4c6cf7a3ed4ebe31c1cd01691cffe97b0dbf"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1688368bee8811105c17d92559f5ad8cfc7bd24f100c0f7193d4803c4b1c08be"
     },
     "Ashenzari's power": {
       "context": "skill-menu.cc",
@@ -1169,20 +1169,20 @@
       "translation_sha256": "6a9bd1634382c18b00492150e12c64dfdd9a7eb95af1913f70221eb1a8d696f4"
     },
     "The percentage of incoming experience used to train each skill is in <brown>brown</brown>.": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
       "translation_sha256": "f7df1683a52123f778867bff6ff9c8263f7513056ce7840046bda79c6a79dc09"
     },
     "The current training targets, if any.": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "0c37001bfffdf99c3f8e02a3b87ceef5f32c296e04220adf0396e72a21ac462b"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "7b65d752175ad13cd3cd01bf63d9b6857ffbb8288ee6055b08641fb7a7257642"
     },
     "The percentage of the progress done before reaching next level is in <cyan>cyan</cyan>.": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
       "translation_sha256": "12c087aa9191418e9f7f4fce65fbc584c6e3a29c443fdec8c681ffa92e91b5f1"
     },
     "The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "516d37ba5a9d16d1ed46b1ad9b2bd730c46cf3b0ca0b0ebb82c2467c1934087b"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1576e6ae2346578abee4c9c0ab4bd46f32c1e2c74b9349f8bb26394e6f8c7001"
     },
     "Enter a skill target for @arg@: ": {
       "context": "skill-menu.cc / skill training and actual menu controls",
@@ -1201,7 +1201,7 @@
       "translation_sha256": "4bf382fe39f0dc81bbc5138a7b69973ca2e7c2407544eb6cab5c85bb9131fd67"
     },
     "Skill descriptions": {
-      "context": "skill-menu.cc",
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
       "translation_sha256": "10e7c5551b5e629524e8398bddb427edff6280093d1f78abc060fb607a54f452"
     },
     "Help": {
@@ -1209,11 +1209,11 @@
       "translation_sha256": "3e202cd422f5fdfa478045d5d97c8236330d16ff1770c8390f24cc2d73d39ba9"
     },
     "Return to skill selection": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "cee57ceaa933de7068c8c7ff47c224852b46bd78a0230f9bdd5bf2646ffcf94f"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "05e3150b925378cedb6811bda52c02138172a8e9c9bcdd1685b86024b056f50f"
     },
     "<w>Help</w>": {
-      "context": "skill-menu.cc",
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
       "translation_sha256": "c853ec7918bb8d982310aac7c0ed9b71f5d96ea621abc2de18d0bbff171643d9"
     },
     "skill descriptions": {
@@ -1237,8 +1237,8 @@
       "translation_sha256": "8fc1135c3a1043a12eb59ff3e166b14d503ea1e873f4882f7895c30d08df7533"
     },
     "Select the skills you want to be trained. The chosen skills will be raised to the level shown in <cyan>cyan</cyan>.": {
-      "context": "skill-menu.cc",
-      "translation_sha256": "96f2b664e5eeee02fba521da8fda6c57c6edea062f3f54d14ea874d525ae0653"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "cf6776249a8b4ba26091e513f3082fef70b3241650c2f4a3edff08861de2d35d"
     },
     "The species aptitude is in <white>white</white>.": {
       "context": "skill-menu.cc",
@@ -12237,16 +12237,16 @@
       "translation_sha256": "00520e143b9f9d4a80af42618efe883c130cc50c8f0616d9afa1238a0d2cfbf6"
     },
     "Ashenzari warns you of distant threats and treasures.": {
-      "context": "religion.cc",
-      "translation_sha256": "48ba3a920fa9863f541c7bee40cefa80599d1269e9f0e07373b8f8840dffeea5"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "ef2aaf4aab0357bd41371efa7e7453190017057e9a9ec458834a5b30fbe69ec0"
     },
     "Ashenzari reveals the structure of the dungeon to you.": {
       "context": "religion.cc",
       "translation_sha256": "6840a4b140e2b05ab90ef96aa49448b429aa22b85f02a720459af277d5f63f63"
     },
     "Ashenzari shows you where magical portals lie.": {
-      "context": "religion.cc",
-      "translation_sha256": "b2d67eb6dabaed1dcb8ff89ceb683d108af8e973ee4e09077d061977509247ac"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "53811ca2b6fbc5a1418bb1cd9653565287ada9e78140c88ff9cba3eccff5cff1"
     },
     "Ashenzari prevents you from stumbling into unseen traps.": {
       "context": "religion.cc",
@@ -26437,12 +26437,12 @@
       "translation_sha256": "a7152606fddcae8e7757664df9acf03a4445bfaeaea7af803a1425281c561c61"
     },
     "     Skill": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
       "translation_sha256": "f40469cbf7139435280f781c80409bdef5dc66c1f4fd73a679c766d1927803f0"
     },
     "<blue>Apt </blue>": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "3461f0213c616b005bc047b4be0950a768e535e14ce3a8c189e972e043314dcd"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "8bdd39a245259c38777566e61422b6f038931db7cc90b36125956d8f87fca4c3"
     },
     "Enter a base skill target for @arg@: ": {
       "context": "skill-menu.cc / skill training and actual menu controls",
@@ -26457,12 +26457,12 @@
       "translation_sha256": "10a0f2d2af71ace137cc4da75f8f4e735fb54b3483367d76262075830ee2a2b7"
     },
     "[<yellow>=</yellow>] set a skill target": {
-      "context": "skill-menu.cc / skill training and actual menu controls",
-      "translation_sha256": "fb63ca2d535bd55cbbf0f5b788388e261a97dcaadf87650646e37c1eef50aff2"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "03ecd681ef83fc23be8c91fc52ffff18aa413023222e5747ad683fb96c362b74"
     },
     "Bonus from skill manuals is in <lightred>red</lightred>. ": {
-      "context": "skill-menu.cc:literal padding",
-      "translation_sha256": "3096d2a7882e59b40b43efe4ff4323ca3b0d5bd7a3f3f2d98713fd5f5a210c67"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "442465dfa41847d352586f41296b30364975a7f27754b17872c57348650289b0"
     },
     "scribal knowledge": {
       "context": "skill-menu.cc / skill training and actual menu controls",
@@ -29681,8 +29681,8 @@
       "translation_sha256": "c81c9c985c24550f6f31f0e6b6399cd265c15102c96e9a858b6c05ba0c56c4ce"
     },
     "The species aptitude is in <white>white</white>. ": {
-      "context": "skill-menu.cc:literal padding",
-      "translation_sha256": "d1aaa35a025f75756b3306415f40defd32e8a2f446c2adefe908fd9603108675"
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "c91df09fde026c4239cafcd58615084d3d96ca92bc6b6db9d8c07b54ae26425d"
     },
     "Piety@any_pips@": {
       "context": "ability.cc:detailed and short ability costs; Ru sacrifice and dynamic names",
@@ -35619,6 +35619,450 @@
     "special effects listed below.": {
       "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
       "translation_sha256": "2a4df1d96e947a0bad918d499ab701aed68b5a7d89df30c5f9f09054effc7a87"
+    },
+    "[<yellow>a</yellow>-<yellow>z</yellow>] skill descriptions": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "963702d6f6acd5a12082645aeaa556003db7daf06d71ad2a3cf623b66b0cb7c6"
+    },
+    "[<yellow>a</yellow>-<yellow>z</yellow>] set skill target": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "2415b0a59d366bf94d523f78f8e1d214401a7863452b7178390c3cdb40b696a7"
+    },
+    "[<yellow>-</yellow>] clear selected target": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "16e6cf2316394a1dafe7a7b21bb66f29dd5787bb1379dd74165a23068472845f"
+    },
+    "[<yellow>-</yellow>] clear all targets": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "6ec3ba829ab7731431afa449231336e129e57a0a863e82a23b8747a511e4ac38"
+    },
+    "The relative cost of raising each skill is in <cyan>cyan</cyan>.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "4f4dcff874b4dbe46c8473f2653f367e78a5e0a8c60d3969637e108596e1ad83"
+    },
+    "You have gained great experience. Select the skills to train.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "9c2a68aae256cb16b3685e7d0d985982b598c08bc062cd583b15f990dd22f415"
+    },
+    "You can %s.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "e21b7a14ebcbee46bf014f18af8ed5f4bab60f6cd526cb84d223662d3b8f20de"
+    },
+    "You can now %s.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "779c8e13c9992fcbdfb27ff5a706f2511ef3f0b3c7527a5c7ebaf8b02c774240"
+    },
+    "You can no longer %s.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "bb359d39841b546547f8c42358a26eaee88822e0b73280478792453d0c1a4f20"
+    },
+    "You have enough gold to %s.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1a4e5534ff20f7188de94ed595bf37490ab0561ef15a0355ac72736fe10c48b6"
+    },
+    "Your summoned allies will not expire while fighting evil.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "49eb7b360f90ced54d0df73ce981c6c0fed98304c441b28eafb7a2bb2b5b01be"
+    },
+    "You can now gain power from killing the unholy and evil.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "bfdbe7239b9a91f1eb1f78679fbc955401d7b16c9564d9029ddd1fa3b4022263"
+    },
+    "You can no longer gain power from killing the unholy and evil.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "b5f18ceb38dbe3ebfc1bfcc406bb674275cafc5b0094588b56ef8371e491b0a0"
+    },
+    "You can gain power from killing the unholy and evil.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "88e515a711363bf1da2735f4c18258d38598e752441806b256f17b3df985419a"
+    },
+    "The Shining One may bless your followers whenever you slay foes.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "0743595f9dd75732e0b57162d5fc736eae944598a2c04edaf9c20607d9d7c703"
+    },
+    "The Shining One will no longer blesses your followers when you slay foes.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "3a64444764cf3044123d165cfb53b550493681db81d8fbe53dd6875509c779fc"
+    },
+    "The Shining One sometimes blesses your followers when you slay foes.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "95ed8b40efd35692cdb5f1c63877d12709d0fe48b1e24f43f6f9ad039e1128bf"
+    },
+    "bring forth the wretched and dying": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "b170b4a9028c6f8a4d8245e57a07b743741b90d455c556fbddc87d3da142357b"
+    },
+    "invoke the sign of ruin": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "85e75e1ae17d22464f4b6d860f2245abf0327fed394ef1cc5366dbdd5b70a2dc"
+    },
+    "light the black torch and reap souls in Yredelemnul's name": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "47e0d8d18f8d2e9ea6b4f9a1411a94793dcc226ea4fdf1aacb16cf6b2d25054f"
+    },
+    "recall your undead harvest": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "b6717bb234f97a456d46e1134c741179d2813a48487092c6b9241fe072765388"
+    },
+    "Yredelemnul will now gift you temporary undead servants when you light the torch.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1a432cb731feb6e6ca40b95bb050fdfd5b30ef2fc33771087e89fba85297d7cf"
+    },
+    "Yredelemnul will no longer gift you temporary undead servants when you light the torch.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "4331881a22178fd9126c60711ecd3be6ab0a3c491afaa7227744fe76162a5ddd"
+    },
+    "Yredelemnul will gift you temporary undead servants when you light the torch.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "3535600ff87e172677f99460095476fbbe8296c11d22909675464b649754347e"
+    },
+    "hurl gouts of umbral torchlight": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "518fbb0c78b448c69d6781bcb4345ccfbbc8d41deff724a05a357d10d223d630"
+    },
+    "bind living souls": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "7d5e34160e96bc9243a69fb3ba7e94b843dea775bdbffae4d303a916a12ee878"
+    },
+    "engulf your surroundings in Yredelemnul's grip": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1f759001580f4c6b8d2f7e62a1ef415c6e40b1f0e815b4c6746d2058c8a73a85"
+    },
+    "Okawaru requires that you fight alone, and prevents you from gaining allies.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "0e572598ef7ce22577732dc6e1c1bb9b6ca0cc5a979497fa8a304c42e5e99d4a"
+    },
+    "enter into single combat with a foe": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "e1388eff8ceb63c9514afeb39256ad75de16ea6c71f782f0baaf283c2be83b51"
+    },
+    "Okawaru will now gift you throwing weapons as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "92553cb92059b5f3e1ec6713ab3e17446e91dc49d16d68e91d03e29a338cde01"
+    },
+    "Okawaru will no longer gift you throwing weapons.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "2a721a34e9104d0b1f84d7839f97da3b73bd6b7c07f0dfd91d85e19acfe0e740"
+    },
+    "Okawaru will gift you throwing weapons as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "e7c93b90b8ad010ed24713c304d00b73a16694c210f82274ef6626ca4566c204"
+    },
+    "Okawaru grants you throwing weapons!": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "e84258290503177c511c5c3d6c0d5e124255bc983288919894c57c1f0c6bd67b"
+    },
+    "Okawaru will grant you a choice of weapons... once.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "20ab7506e1cfd2124bf0fb693dfbe209c089706f52ac15177771934922157429"
+    },
+    "Okawaru is no longer ready to gift you weaponry.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "2db447e6ed52015d0d42357466995dff5a23e3beed2636b2aface60e1e761ba2"
+    },
+    "Okawaru will grant you a choice of armour... once.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "977ed067dbad30bc111822f393ddc78d2a6e78a290d2a64591c5e4e8971bfaa4"
+    },
+    "Okawaru is no longer ready to gift you armour.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "973b5fa8d05d54f6e7c752a8c00affcb3391031d3c0f22c9f557a83777015395"
+    },
+    "unleash Makhleb's destructive might": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "02d6f71f5fcfdf416a3d34b423b8f1967e85e6e0a459ab2a87db976e9eac892d"
+    },
+    "summon an infernal servant of Makhleb": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "777bbb55f84f137679401d178841c6be4ad0dfd936dcf389d0567743e5530c20"
+    },
+    "Makhleb will allow you to brand your body with an infernal mark... once.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "3234463bca3371944f2162cf4bcd49fce6154f0ce201527de13f2b3cb4c6d429"
+    },
+    "Makhleb will no longer allow you to brand your body with an infernal mark.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "bdfd1bff99a3081a23819b64cacc4928139d776a318aff67f51e66d60c513bd7"
+    },
+    "Elyvilon prevents you from doing harm to neutral creatures.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "20fdadb69d71d91535f70c8209df10fb89ca03bee12535bc9348e102e5e4ade0"
+    },
+    "attempt to pacify hostile creatures": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "c03e8ff894200bdb23d9d048e79bf935f7323ded51d0791be9b4be85148a89a3"
+    },
+    "provide healing for yourself": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "27d9aa7d7b4f9e946bc35d21b811e72802c44783ed7189bb0408806eb7f18431"
+    },
+    "comfort your suffering allies": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "d7261846de0e2aff62f1b7aa57f4461319c265658fa211fdac2b313cf982f8f9"
+    },
+    "Lugonu protects you from the effects of unwielding distortion weapons.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "8ff4d930d7b9052c33d77ebec33a59013e3e1ce48a08591ed6542615f9588acc"
+    },
+    "Lugonu may banish nearby foes when other gods try to punish you.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "92703cd9493d00148388e8ee0c664ad0f2e5e83658b2b0e27bef0eb493698bea"
+    },
+    "recall your apostles": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1d035244fa01f770e75cb458f50bbbc75a74846aa4c0cdd9cf5c406daf73be9a"
+    },
+    "Beogh will now send orc apostles to challenge you in battle as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "95dd153870ab56d2e9329db155fab09ad6a1784e30984c90f76e58497da63717"
+    },
+    "Beogh will no longer send orc apostles to challenge you in battle.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "909e9efe65eca989fa1878845119f73d600ea2d14d2ee34ea48fdbf0dc3064db"
+    },
+    "Beogh will send orc apostles to challenge you in battle as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "039c61a659685171204f3e7621bcf4581c799149c8ff646036bb09765085a9ca"
+    },
+    "You can recruit apostles that you defeat into your service.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "4202de7c4132f994823fc50294632a993c91c1d1bbed113da9349a73651d7f54"
+    },
+    "Your apostles are sometimes healed when you deal damage.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "73aa7cfe022bf4dd00e3e47724ffe56fc97e467f05b8cfee3c2a9b6daada6f72"
+    },
+    "rally a vengeful horde": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "58c52eaa187efea4b8ca1a5624b02edc33be9a9a84b7984a86f729fc9018743b"
+    },
+    "Jiyva will now mutate your body as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "84d1d36ad9a8e7f433d6be874b8cf1e3bc79deef75ef45e6fdf658fd0c642b10"
+    },
+    "Jiyva will no longer mutate your body.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "95176901d772b0cd92fc664657b687bd703e290950090c44f3b0b2ab249a2829"
+    },
+    "Jiyva will mutate your body as you gain piety.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "49ddb43d68f95c2be07a192d076e68213c9f595c9bc392d100dc34d540320729"
+    },
+    "call acidic ooze from nearby walls": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "14498cdaa0ae7db967ed1f18ec3888ab3e7dd623109828340d7bf1a14261643a"
+    },
+    "Ashenzari will now identify your possessions.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "58cb204b4e9c52553964bb6cc318c686472e34dfcda382c9dd740c01b7edf956"
+    },
+    "Ashenzari will no longer identify your possessions.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "24f571724ab00fff361f03754838d24bf62865bc34d9754fb22a13d482555a77"
+    },
+    "Ashenzari will now protect you from the dungeon's malevolent forces.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "be9cfaf09e8637346a241ccb67124e48e2d17d42beee1954f82fd5adc45e1c40"
+    },
+    "Ashenzari no longer protects you from the dungeon's malevolent forces.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "1e6e56a494044314ca34492af7c0462c604645f1b64039580475136e1a5f63d0"
+    },
+    "Ashenzari protects you from the dungeon's malevolent forces.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "5a3ee4465207b8037b5ed126a0343d90ba9fe6d4a7d997d6ac33ec7c48df101d"
+    },
+    "Ashenzari reveals the structure of the nearby dungeon.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "4f708844fc9135a229467c5bbd00ffa788397859edf65e52a1a6a4eb3401d3d2"
+    },
+    "Ashenzari no longer reveals the structure of the nearby dungeon.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "bff9354d0da3a328def6413ab12c1abd5521e8b3b8585b3c9628a0a53da618ef"
+    },
+    "Dithmenos quiets all noise in your surroundings.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "7140327e80caa0be195aedf5b5ab3b316cd4fafc67641ab05c1a9562bcecfa23"
+    },
+    "Dithmenos no longer quiets all noise in your surroundings.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "cc86276ca82f512f58418c8fbdec2f3fa56f86331c3b77760e97f3f45ca72323"
+    },
+    "mislead enemies by swapping places with your shadow": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "2335b82f1f8660bab6079bf1ee31a512a851bd1bfb1065ff590a175acd644144"
+    },
+    "unleash an enemy's spells as if they were a marionette": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "ffc3ef95b87d30e7749357b6816e9e6aa6183aa259f3d548a4397ad18160a821"
+    },
+    "surround yourself with impenetrable night": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "01971111e2553fc3fab16a0a0d6d5b9a4594996f0f0226812d3674cbd5ed1e51"
+    },
+    "Gozag turns your defeated foes' bodies to gold.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "8adf42f1c76e47bc234ef96b02b4c1ea75cdaf81b1ddc04364cca4d54460c66d"
+    },
+    "petition Gozag for potion effects": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "10ea3adefd7f4d2307f97099c008e42588e16cefa04d1ead18db4fa379c14aee"
+    },
+    "fund merchants seeking to open stores in the dungeon": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "6978284c5bc1028235a6adb88215cadcd856036f84898dcd74f6413007eb95c1"
+    },
+    "bribe branches to halt enemies' attacks and recruit allies": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "25660846e380ce7ef56cc15afaf682cec82a29696451b1773d80a7009171a6db"
+    },
+    "You now drain nearby creatures when transferring your ancestor.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "4cd6990350f222bc6f2d5155258c9b1821dbf13078739f0c9daabd5ff11c50d1"
+    },
+    "You no longer drain nearby creatures when transferring your ancestor.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "d40cfaf54f9e406ed40102c1cf8bb3196ad1f054d34d9caf5a5a54dbe4f00c24"
+    },
+    "You drain nearby creatures when transferring your ancestor.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "5cb9564b039073366655f4e7bdfcbf829dab1a289b49d73c535a60004e58d09b"
+    },
+    "You are resistant to fire.": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "76148d7ddde9820de1ecbbf9e212399f088473a08af4cdc68d44948c66581aef"
+    },
+    "armour yourself in flame": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "bedf51f7b3d1789e783f62d119f156101e6504ac34d4e1760bb90cf5c626396b"
+    },
+    "call a swarm of foxfires against your foes": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "0cf0b53ae9b6a0e89080e8675ba62634b87e879521519a3a46466c0471567247"
+    },
+    "rocket upward and away, once": {
+      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
+      "translation_sha256": "d2bf81c1fbd84fb8901bcf26e0c49f00a17211774c09fb07687057c49d815818"
+    },
+    "{skill-menu-name}Polearms": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "eb934412977b9a02dd2cfe53766e62e458057ccd111f98afd740935e136765d3"
+    },
+    "{skill-menu-name}Ranged Weapons": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "4459fdc56a6c3eace55d1c86dc9f377512323d81df394323d353248b06789699"
+    },
+    "{skill-menu-name}Evocations": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "9fb92a65670b79b86c0acdd4a77e203b1cec7d76b6ea1668e2b4d3b824762af7"
+    },
+    "{skill-column}Level": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "32e8398e113e1601213f4d66fcf704a0e71f89c452a9b119f2ca427edfdfb832"
+    },
+    "{skill-column}Train": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "a7d63e132fa0075561f0f455ef9687e4324b545b4a1fa29b643762120107b6e5"
+    },
+    "{skill-column}Target": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "008fc7dba52da4d7bafff597aa8cc671712d9e789cf770323bed228da49a1244"
+    },
+    "{skill-column}Progr": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "73dd96be9ae8f2abb2d0773d00f553cc66573aec01473f4165aa07f3ebb3323a"
+    },
+    "{skill-column}Points": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "024682c57279ad96264a376b46e971d5d762772ecd3794c3958ec6bc1d716cbd"
+    },
+    "{skill-column}Cost": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "68c149a624afa266a1f2b68d12a287a6462e502fe787623e69f37b81d4b99b9e"
+    },
+    "{skill-column}> New": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "edddf2824db3f88bb7a7a3069b235b6ef5fe03897feff4c1dc05c53e4e9d5662"
+    },
+    "{skill-switch}auto": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "247ea10ecb67923cb9aa51a986d8b69aacb8b1729890d9b8c95a7e298ef41826"
+    },
+    "{skill-switch}manual": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "5f0f215e06cb4d8342e4397836de33e8d710fef01043ed15a3d95cc61431151b"
+    },
+    "{skill-switch}train": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "5c7ef8ad264bfb4a514c5663d3ab9042545be6d1bc4f086eae9a608c23b552be"
+    },
+    "{skill-switch}focus": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "3900aa56ede8f03976b35dc730b8a60f830e9155d3ed08134dd84476fddf3c60"
+    },
+    "{skill-switch}useful": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "e099e1ba65c2c62f0e4f856b13cbc868955508aec39a4b651cfc070728492d8b"
+    },
+    "{skill-switch}all": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "0a40064dff7681e97b99f89899c91237db9e893ebbe6c6f7652ec42560815f92"
+    },
+    "{skill-switch}modified": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "1343bdb13dbd887594094bb2111c469bc51d4630e5288dcc6316c09b6eef26e5"
+    },
+    "{skill-switch}enhanced": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "4c418751f612a13220ef489860aa63b95db096b68484ccd09f7c3658032f9a8e"
+    },
+    "{skill-switch}reduced": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "bbd1a487c3b7df060bcb54510bfc3a63831372440bdfd696b26ca675188ad542"
+    },
+    "{skill-switch}base": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "f45cc5d83b5b3bc4a28181e65231200d5c195877d2c4e0dccc3b72cd4bbad47d"
+    },
+    "{skill-switch}training": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "25973fb682316011e9784d970062f56b8b83cf9982716a93d798b6906a9e1e1d"
+    },
+    "{skill-switch}targets": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "31847716aa37bbd873f563f056231b3a4653088864dbd105957f565e6762d4e3"
+    },
+    "{skill-switch}progress": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "6287ebccc33ba07f3b8dcf4ba4ec2c5d3005f47a787bfaf9889ec943b897d857"
+    },
+    "{skill-switch}points": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "d0aa3ae2a88bd7828cf7dad40ed38a0583228e1dd766626ce51c229cfd7b2167"
+    },
+    "{skill-switch}new level": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "2b49bf2744b7b9a82e0902d43bb250f8a42ed81df1759c5660449113dce9936c"
+    },
+    "{skill-switch}cost": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "5a69e9a2e2463c9c07cec5ea141bbfaeee8e9758688d9a752caaf9d72f5e329a"
+    },
+    "{skill-switch}mode": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "9c916ea8dca322216aba475d1cb3cf1c04b68f846d992ab431fd70f360f1732b"
+    },
+    "{skill-switch}skill": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "f1443363ee8050eac869b2139f040d2198ac995db0ef08c6fe4f5be0d3f4ad4c"
+    },
+    "{skill-switch}skills": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "1ef558d4a72aeda7c7068bac51a0241cfe52801700092fb1fcae7d48cf283971"
+    },
+    "{skill-switch}level": {
+      "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
+      "translation_sha256": "4a42243045658232fba55e4706db79178818824651ac717a57060000bb120228"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
