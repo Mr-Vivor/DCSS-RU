@@ -6792,10 +6792,7 @@ public:
         if (fixed_column_num > 0 && (int)rows[rows.size() - 1].size() >= fixed_column_num)
             AddRow();
         if (!label_context.empty())
-        {
             label = localise_in_context(label_context, label);
-            value = localise_in_context(label_context, value);
-        }
         rows[rows.size() - 1].push_back({label, value, colour});
     }
 
@@ -8276,8 +8273,9 @@ static string _describe_talisman_form(transformation form_type)
     // Translate before measuring: Russian labels have different widths, and
     // padded fragments are not dictionary keys. Numeric values stay intact.
     for (vector<string>& property : items)
-        for (string& cell : property)
-            cell = localise_in_context("talisman-table", cell);
+        property[0] = localise_in_context("talisman-table", property[0]);
+    for (size_t row = 1; row < items[0].size(); ++row)
+        items[0][row] = localise_in_context("talisman-table", items[0][row]);
 
     vector<int> column_width;
 
@@ -8329,7 +8327,8 @@ static string _describe_talisman_form(transformation form_type)
     pr.AddRow();
 
     if (form->size != SIZE_CHARACTER)
-        pr.AddCell("Size", uppercase_first(get_size_adj(form->size)));
+        pr.AddCell("Size", localise_in_context("talisman-table",
+                          uppercase_first(get_size_adj(form->size))));
 
     _desc_form_val(pr, "Str", form->str_mod);
     _desc_form_val(pr, "Int", form->int_mod);
@@ -8356,7 +8355,7 @@ static string _describe_talisman_form(transformation form_type)
         pr.AddCell("EV", "-20%", RED);
     }
     else if (form_type == transformation::maw)
-        pr.AddCell("Bite speed", "15 aut");
+        pr.AddCell("Bite speed", localise_in_context("talisman-table", "15 aut"));
     else if (form_type == transformation::eel_hands)
         pr.AddCell("Elec chance", "50%");
     else if (form_type == transformation::blade)
@@ -8375,7 +8374,7 @@ static string _describe_talisman_form(transformation form_type)
     else if (form_type == transformation::sphinx)
     {
         if (!you.has_mutation(MUT_NO_ARMOUR))
-            pr.AddCell("Barding", "Yes");
+            pr.AddCell("Barding", localise_in_context("talisman-table", "Yes"));
         pr.AddCell("Will", "+");
     }
     else if (form_type == transformation::werewolf)
