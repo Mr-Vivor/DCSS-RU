@@ -21,6 +21,7 @@
 #include "feature.h"
 #include "files.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h"
 #include "menu.h"
 #include "message.h"
@@ -266,7 +267,7 @@ string overview_description_string(bool display)
 static string _pad_cs(string colour_string, size_t width)
 {
     const size_t buf_size
-            = formatted_string::parse_string(colour_string).tostring().size();
+            = strwidth(formatted_string::parse_string(colour_string).tostring());
     const int spaces = buf_size > width ? 0 : width - buf_size;
 
     return colour_string + string(spaces, ' ');
@@ -558,7 +559,7 @@ static string _print_altars_for_gods(const vector<god_type>& gods,
         if (is_unavailable_god(god))
             colour = "darkgrey";
 
-        string disp_name = uppercase_first(god_name(god, false));
+        string disp_name = uppercase_first(localise(god_name(god, false)));
         if (god == GOD_GOZAG && !you_worship(GOD_GOZAG))
             disp_name += make_stringf(" ($%d)", gozag_service_fee());
 
@@ -573,11 +574,11 @@ static string _print_altars_for_gods(const vector<god_type>& gods,
             // manually aligning the god columns: ten spaces between columns
             switch (num_printed % columns)
             {
-            case 1: disp += string(19 - strwidth(disp_name), ' ');
+            case 1: disp += string(max(0, 19 - strwidth(disp_name)), ' ');
                     break;
-            case 2: disp += string(23 - strwidth(disp_name), ' ');
+            case 2: disp += string(max(0, 23 - strwidth(disp_name)), ' ');
                     break;
-            case 3: disp += string(20 - strwidth(disp_name), ' ');
+            case 3: disp += string(max(0, 20 - strwidth(disp_name)), ' ');
                     break;
             }
     }
@@ -743,7 +744,7 @@ protected:
 
 void display_overview()
 {
-    string disp = overview_description_string(true);
+    string disp = localise(overview_description_string(true));
     linebreak_string(disp, 80);
     dgn_overview overview(disp);
     _process_command(overview.show());
@@ -1283,12 +1284,13 @@ void annotate_level(level_id li)
     const string old = get_level_annotation(li, true, true);
     if (!old.empty())
     {
-        mprf(MSGCH_PROMPT, "Current level annotation: <lightgrey>%s</lightgrey>",
+        mprf(MSGCH_PROMPT, localise("Current level annotation: <lightgrey>%s</lightgrey>").c_str(),
              old.c_str());
     }
 
-    const string prompt = "New annotation for " + li.describe()
-                          + " (include '!' for warning): ";
+    const string prompt = make_stringf(
+        localise("New annotation for %s (include '!' for warning): ").c_str(),
+        li.describe().c_str());
 
     char buf[77];
     if (msgwin_get_line_autohist(prompt, buf, sizeof(buf), old))

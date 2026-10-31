@@ -5785,24 +5785,24 @@
       "translation_sha256": "ebffa30211d399e14db5802a23829cd1797177e5291bb058cc5f25b77707a2b3"
     },
     "Level map wiped.": {
-      "context": "viewmap.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "9c223f9a665b94ab3f0b4c347ca337b4e38332ee07b58e15ed4ed6076039f788"
     },
     "Level map cleared.": {
-      "context": "viewmap.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "dc115d1cdcefe270042f0342ee5b6f66cc629771e8dbd1ed8229656bca838b23"
     },
     "Remembered map restored.": {
-      "context": "viewmap.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "4de41e5c8df5d700a96d345104142eb51c087a39c72f5211f08969915f18066e"
     },
     "No remembered map.": {
-      "context": "viewmap.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "41e0719bc0c6f294359f0159a2b56cf9e75c18ba975b464d22e28581b2547660"
     },
     "You can't annotate this level.": {
-      "context": "viewmap.cc",
-      "translation_sha256": "eb1ef55ab67cf834cc2b73e2dc25d7bf895f26a1d76520132d1a252d8d93125a"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "e97a0d87b93eed526b0bd7b82c2cfaf94a9179c4d8a0b7770f583ba8e87be9c9"
     },
     "This ability will temporarily drain your maximum hit points when used, even unsuccessfully.": {
       "context": "ability.cc",
@@ -6769,8 +6769,8 @@
       "translation_sha256": "225becd441256316deaf7dd54dcee459583e94c8eb66da8733d15aaaa7910a1e"
     },
     "Marking area around @arg@ as unsafe for travelling.": {
-      "context": "exclude.cc",
-      "translation_sha256": "6ae40a50a04929f90c3061dd1d0c6ec00163bb6bc25dd5aa21855721119f0f21"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "4a209803eae67e00afc591064589f059940e3a651ecdf5ce8bedab2a7fa854ac"
     },
     "@Arg@ cloud": {
       "context": "exclude.cc",
@@ -6789,27 +6789,27 @@
       "translation_sha256": "46ecb17f86913b57a9ba12b351ab93573f917b44a24c1064fe959a3b0786b2ca"
     },
     "1 exclusion": {
-      "context": "exclude.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "c7164d233bb3947de86456619851dd675917148b95c646ce54259acf4fe7ad8e"
     },
     "1 more exclusion": {
-      "context": "exclude.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "ba6095e6eacf38d4ede46bab724830d206a6e0bdcd233d03d17c92f59dc31d19"
     },
     "@num@ exclusions": {
-      "context": "exclude.cc",
-      "translation_sha256": "c9faf46984eafc5729e8d817168b39f4039f8dbed84bb2792a6a9c156e2a4c34"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "c73a21943682110f8957ceb530a1853d8c89755813401b64c46c7919771f9ca4"
     },
     "@num@ more exclusions": {
-      "context": "exclude.cc",
-      "translation_sha256": "9990aaad02682f23608fc3492e55408ed677c9dec717c779b6972b230dfe88f6"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "710d6da016c8f343992ccef46cc7359e237c1425bede24b3ba140d709f8eda8a"
     },
     "exclusions: ": {
-      "context": "exclude.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "d6fdaaed8386614d09546f02dd3b8516e295f8161adbdff74cd138659818e33b"
     },
     "exclusion: ": {
-      "context": "exclude.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "438497c6aa55e431247d60d4e221e1c77621306d64e71c9d1d8290fe250563bf"
     },
     "Empty file name.": {
@@ -9081,11 +9081,11 @@
       "translation_sha256": "386876ce8cdb9d80ce44eb32217483dc6738d2798fb06657d641d5149e7fb8c8"
     },
     "Dungeon Overview and Level Annotations": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "cf1a9fd15d1441de938eab0b13137766e2e81bd8cdb7ccfecc3b69695b7e4dda"
     },
     "Branches:": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "f0a8cad0a2f8a385bb90e223d6aae79e5c937a9013e954e1d703fccb2a8279ab"
     },
     " (press <white>G</white> to reach them and <white>?/B</white> for more information)": {
@@ -9109,7 +9109,7 @@
       "translation_sha256": "530f61b6ae808d86bfbd5d40b7c30cb70ae77a01aec120ca36220d3492c206c5"
     },
     " (press <white>$</white> to reach them - yellow denotes antique shop)": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "af4b5bdb28b9d6460ae9be2b4a2608a36cbd7bcbffef6b4a0dc2418f6e701189"
     },
     "Portals:": {
@@ -9121,15 +9121,15 @@
       "translation_sha256": "e2c3e5f9c9c113e37f30236b37439519d78ad79616dd9ab57afbcd4a34733695"
     },
     " (press <white>!</white> to add a new annotation)": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "1e399e25a5d671d12a63cab91708ba3dda914faa4009d0ec96399657f8d686c6"
     },
     "Sorry, you haven't seen any altar yet.": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "9258d7fe673f89840ea0fa0497c916ef169b0441942a5e6e22f02d7f19342999"
     },
     "Sorry, you haven't seen any shop yet.": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "48fa6b15a277abbc03ff6c1a4d1a1038dd9f1af67a26e44c750049882e9c2375"
     },
     "corrupted": {
@@ -9137,15 +9137,15 @@
       "translation_sha256": "f20056e004fb5f4a85008806b34f3194a53c72b944022c1a9a4e113d6a202fdf"
     },
     "Annotate which branch? (. - @arg@, ? - help, ! - show branch list)": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "195b9f0c2caf00aa5936fefe8023a18c2d19233a68b2b34bd30e797a7854fd7b"
     },
     "There is no level above you.": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "1eba0dbbc457b3e4611e1efda5a1a4d9f32c8c45433a5a1dbee6a92b74865044"
     },
     "There is no level below you in this branch.": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "5d4c54406081b9c4d33d68c7ce69996face99237907acdbca80d92a01fffab85"
     },
     "What level of @arg@?": {
@@ -9153,8 +9153,8 @@
       "translation_sha256": "93c941469312f9a2e3947f6128dc98ab1b0d7fc2a96387922fe8c7c2b6de5c5e"
     },
     "That's not a valid depth.": {
-      "context": "dgn-overview.cc",
-      "translation_sha256": "5a95e57fd3749c48b14777e860c71101c6d9529b88fefde75e997a555de1b0e3"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "d333a6cd0cb6dd54122210f459962dbd4720122e65f83aa6bf83704cc380ec55"
     },
     "Current level annotation: ": {
       "context": "dgn-overview.cc",
@@ -9165,7 +9165,7 @@
       "translation_sha256": "7ef7b64b4ec9845545e5b6e2e54df288649a5a0ca464be2ff83c18b4fd3b6629"
     },
     "Cleared annotation.": {
-      "context": "dgn-overview.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "4befb2d516dc8ec0b6ef1b239b8955dfcc238dd21a7bee48b1cd390efd306f72"
     },
     "(Melee oriented character with divine support)": {
@@ -9749,7 +9749,7 @@
       "translation_sha256": "da2f79b4883a3d6e58e2589acc0d21ab5ea6dc443e260140deedbff176d55e0d"
     },
     "? for help": {
-      "context": "stash.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "992c2e2016bd7e9f8a448b5dfa6fffcd057cc426f50e248acff6fd5562d63d91"
     },
     "Search for what@arg@?": {
@@ -9757,24 +9757,24 @@
       "translation_sha256": "f4ff295890664beb486316d4b0ce594721e8d7f8997bd226d438179bebc05272"
     },
     "Your search expression is invalid.": {
-      "context": "stash.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "4dc428deb9f9a90f70099f392750a38c33039933e92d99f9c43000d0fe3f9ae8"
     },
     "Can't find anything matching that.": {
-      "context": "stash.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "df181c1b69f01bea8d6c618324f91ff73f69a4ce21b7533e9ef371e0c311fd51"
     },
     "Too many matches; use a more specific search.": {
-      "context": "stash.cc",
-      "translation_sha256": "6b0157b66d16f485f5b0348a97f3a5284e6ef3f8b998056726fddd1de7af3161"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "b59b5d6eab906262eb1112b4d2087e58e6d392c52d02a63a6c6b2f6d70730bf1"
     },
     "1 match": {
-      "context": "stash.cc",
-      "translation_sha256": "58bdd4ba1f400234a1876dfbd726cb7c7460596d61df69b48ed83b6c96defa30"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "bd00efd4758d4a31a203a1b32b502380f9effc79f4a65b86a521d972aad9297a"
     },
     "@num@ matches": {
-      "context": "stash.cc",
-      "translation_sha256": "162f9cfde1100bf9801bb795972141842e76cc9710a2c8ec473ef04dbd7f1417"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "cadfd5ea0b3e4027784590246584725ae17637e227edfeab1d25de0c7d166c33"
     },
     "only useless items found; press <w>=</w> to show.": {
       "context": "stash.cc",
@@ -9805,20 +9805,20 @@
       "translation_sha256": "a40cfc98b15478678215d254d6e3fab76936327bc0e75ff83cab5d4d0a1893c8"
     },
     "1 further duplicate": {
-      "context": "stash.cc",
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
       "translation_sha256": "43392d6fe724a2ae9395a36bf96b072f0bb329d261051888aaff6f227a11774d"
     },
     "@num@ further duplicates": {
-      "context": "stash.cc",
-      "translation_sha256": "193d56acaaf1b529b277c8e97a36dfed1876e6f49d1a864798a44b74950e3c33"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "6ea6377da493f8537f36b17c0a6a051250ef977254d37359cc58dd707a6db971"
     },
     " in 1 pile": {
-      "context": "stash.cc",
-      "translation_sha256": "7bf766ef006b5ec6793b218978be4d32afea0299bfe87e6ca9ba2b13751f9fb0"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "53ce43c6763ea8800ba31701ded6f374d886fefcfa49ad397e3cb2f5ef71bf44"
     },
     " in @num@ piles": {
-      "context": "stash.cc",
-      "translation_sha256": "2e48df7fcb33508d278a11ad1542c519ea4673690d4cae7d12b90dece974428b"
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "8085512c00102178154d4b3d67fa08ecf0581efe13a09efea37881593ed7f7db"
     },
     "held in a net": {
       "context": "traps.cc",
@@ -32571,6 +32571,118 @@
     "What level of %s? (default %s, ? - help) ": {
       "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "80853dab00e35f2afb5a953609e4c09d0958b773e89e98c568912188d3eb2890"
+    },
+    "Enter for \"%s\"": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "0c5b13b8c401cf1397d0bb2605c2c4bcba7ec2f2f9c60dea29df4f4e57167bed"
+    },
+    "Search for what%s? ": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "5b23d176f21eb5293b27d273894ec7bbb2d1845cbd7bac9f94e8908bbb133541"
+    },
+    "<lightgrey>: only useless items found; press <w>=</w> to show.                    </lightgrey>": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "d34a02b46aa1ecf122e15083af7bb0197708ab80488d6d88fee4544817851d97"
+    },
+    "<lightgrey>: <w>%s</w> [toggle: <w>!</w>], by <w>%s</w> [<w>/</w>], <w>%s</w> useless & duplicates [<w>=</w>]</lightgrey>": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "987d522092dd257fb6451276b357bcea2a79a6582f39eeaa7ca956798463ad61"
+    },
+    "Results at your position": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "4954ad7fa46fa20be0c4da7b0fc903a5c75dcacf19ad8919eb1cf03d83517123"
+    },
+    "Results elsewhere": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "9c893427f6d78cb7ebaa324348135dcea729867844b8adbd44af534711a886b4"
+    },
+    " <lightgrey>([<w>,</w>] to cycle)</lightgrey>": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "06d5eada3f3afe5b9fb85406cfd3ec7dca638e7ddfe2bae9b7943dd75134b1ee"
+    },
+    "[carried]": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "e3dd286746228630c3ff9fae83f04c896205ae36c0106a8868482685b2da9150"
+    },
+    "[right here]": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "ea2108a16500e6fd83ed8a3fe5d8f4b001f3684399a9abef2d8d5c55d51fdcf7"
+    },
+    "(detected)": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "8c739bd1061eb812ba35d8a47857c907b45b99a981685e7f398bcc0d299af0bb"
+    },
+    "(under bush)": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "651047fe95d78ca38612b5d9f936c1b2c0bde3c400c6a1d74d3531343206c820"
+    },
+    "(under plant)": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "9c3f6f0f4c8412197fc6bdaf84339689d8c69cc9d79c7f7ec05bf1f5e398f4a0"
+    },
+    " (press <white>G</white> to reach them and <white>?/b</white> for more information)": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "c75fcea507d2668fcc2c9c33e9fac7fca12f2a3545831d2266a784a38f5a2c8a"
+    },
+    " (press <white>_</white> to reach them and <white>?/g</white> for information about gods)": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "202776b23ae552c8f7da83bc7750fc9e6bbc8262a72468d3294b269258ce2c13"
+    },
+    "*You can no longer be shafted in this branch": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "8ce9c3ccecaeaae0130efb84f2f6742022a5a913824fdb0a33e2fdde649a44e0"
+    },
+    "Current level annotation: <lightgrey>%s</lightgrey>": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "90baa1238b3c3ff79d8a580c7b83014521e7fc1400fd23e61043c00c36627095"
+    },
+    "New annotation for %s (include '!' for warning): ": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "e175e40d5bb7bbbce7825125e5d10629a1f2ecc585b1247aae259e8e658bdecf"
+    },
+    "Press: ? - help, v - describe, . - travel": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "b4724a912c7bba47416bc45dea78cc08d26050ce7eea3733362df31f02fc9735"
+    },
+    "an escape hatch in the floor": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "dd7a64b323f12315189b6b94c28cb7c7be0260e80aab65187f5d6af70b2e2701"
+    },
+    "an escape hatch in the ceiling": {
+      "context": "stash.cc: item search counts, travel vs examine, sort/filter state and raw query history; dgn-overview.cc/viewmap.cc/exclude.cc: actual keys, annotations and unsafe route areas. Label translations are separate from saved search text and item IDs.",
+      "translation_sha256": "ce2de2cc9a4672df2b8e3b4c59333e6bbf25da794882df34dbd2a0a004d66754"
+    },
+    "{stash-action}travel": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "fd26ce08a7509dd78d928f8ac050f81e9516886d4dfca590b0c2b03e3a582401"
+    },
+    "{stash-action}view": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "15bdd7d2b0d7dbf1051c156fae1e7d6e84dc69caef5049fcad53dfe457147cbf"
+    },
+    "{stash-sort}type": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "d0eaea2f190912c26d6947614d6ed1a68ccbf9c17debd4a39b5dd0cc5397218a"
+    },
+    "{stash-sort}name": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "7badc18126dc2d06466160e83151c78628c5fe16bc3d1338b9a120de79be9d62"
+    },
+    "{stash-sort}dist": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "e673a25ba787bb36f4b9f72c9c51149898196db30e935520acc845ef35f57ca6"
+    },
+    "{stash-filter}hide": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "d233aeb1aca25873e8b77008ba271ec76481832e7820b822d430c1e207b1de86"
+    },
+    "{stash-filter}show": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "3859adb9cd89af75375506b9fa59f3656aefb5f51104a49c5faaa4df1a66fc4f"
+    },
+    "{stash-prompt}, or ": {
+      "context": "stash.cc: exact UI state label; internal enum/string and original English/Lua search semantics preserved.",
+      "translation_sha256": "58e099f4b8ab331192a37ca5165611f5cfd8b07b44dbd9791bb299a76d7416ed"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

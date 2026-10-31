@@ -181,6 +181,33 @@ def main():
                     page.keyboard.type("0")
                     page.wait_for_function("document.body.innerText.includes('Все путевые точки удалены.')")
                     (ARTIFACTS / "waypoint-result.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
+                    page.keyboard.type("O")
+                    page.wait_for_function("document.body.innerText.includes('Обзор подземелья и пометки этажей')")
+                    page.screenshot(path=str(ARTIFACTS / "dungeon-overview.png"), full_page=True)
+                    (ARTIFACTS / "dungeon-overview.txt").write_text(page.locator("body").inner_text(), encoding="utf8")
+                    page.keyboard.press("Escape")
+                    page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    for query in ("рапира", "rapier"):
+                        page.keyboard.press("Control+f")
+                        page.locator("#messages .game_message input").wait_for(state="visible")
+                        page.keyboard.type(query)
+                        page.keyboard.press("Enter")
+                        page.wait_for_function("document.body.innerText.includes('режим:') && document.body.innerText.includes('сортировка:')")
+                        search_menu = page.locator("#ui-stack > .ui-popup").last
+                        search_text = search_menu.inner_text()
+                        assert "Найдено:" in search_text and "+0 рапира" in search_text, search_text
+                        assert "useless" not in search_text and "duplicates" not in search_text, search_text
+                        if query == "рапира":
+                            page.keyboard.type("!")
+                            page.wait_for_function("document.body.innerText.includes('режим: осмотр')")
+                            page.keyboard.type("/")
+                            page.wait_for_function("document.body.innerText.includes('сортировка: расстояние') || document.body.innerText.includes('сортировка: название')")
+                            page.keyboard.type("=")
+                            page.wait_for_function("document.body.innerText.includes('показывать непригодное и повторы')")
+                            page.screenshot(path=str(ARTIFACTS / "stash-search-ru.png"), full_page=True)
+                            (ARTIFACTS / "stash-search-ru.txt").write_text(search_menu.inner_text(), encoding="utf8")
+                        page.keyboard.press("Escape")
+                        page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                 except Exception:
                     page.screenshot(path=str(ARTIFACTS / "newgame-failure.png"), full_page=True)
                     (ARTIFACTS / "newgame-failure.txt").write_text(

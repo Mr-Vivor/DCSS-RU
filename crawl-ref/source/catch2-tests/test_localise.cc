@@ -18,6 +18,8 @@
 #include "ui.h"
 #include "item-prop.h"
 #include "player.h"
+#include "pattern.h"
+#include "stash.h"
 #include "quiver.h"
 #include "stringutil.h"
 #include "travel.h"
@@ -664,5 +666,43 @@ TEST_CASE("Russian navigation and multi-turn actions keep their meaning", "[loca
     CHECK(localise_in_context("travel-mode", mode.runmode_name()) == "run");
     CHECK(localise("You start haunting your armour.") == "You start haunting your armour.");
     CHECK(localise_in_context("travel-shortcut", "%s - %s") == "%s - %s");
+    Options.language = lang_t::RU;
+}
+
+TEST_CASE("Russian stash queries match display names without changing English patterns", "[localise][single-file]")
+{
+    russian_localisation language;
+    plaintext_pattern russian("рапира", true);
+    plaintext_pattern english("rapier", true);
+    plaintext_pattern other("мантия", true);
+    text_pattern anchored_english("^rapier$", true);
+    text_pattern anchored_russian("^рапира$", true);
+    const string raw = "[carried] {inventory} +0 rapier";
+    const string label = "+0 rapier {inventory}";
+    CHECK(stash_search_matches(russian, raw, label));
+    CHECK(stash_search_matches(english, raw, label));
+    CHECK_FALSE(stash_search_matches(other, raw, label));
+    CHECK(stash_search_matches(anchored_russian, "rapier", "rapier"));
+    CHECK(stash_search_matches(anchored_english, "rapier", "rapier"));
+    // English anchors are checked against precisely the original haystack,
+    // even when a display label would match that expression.
+    CHECK_FALSE(stash_search_matches(anchored_english, "+0 rapier", "rapier"));
+    CHECK(localise("[carried] +0 rapier") == "[при себе] +0 рапира");
+    for (const int count : { 0, 2, 5, 21 })
+        CHECK(localise(make_stringf("%d matches", count)) == "Найдено: " + to_string(count));
+    CHECK(localise("1 match") == "Найдено: 1");
+    CHECK(localise_in_context("stash-action", "travel") == "автопереход");
+    CHECK(localise_in_context("stash-action", "view") == "осмотр");
+    CHECK(localise_in_context("stash-sort", "type") == "тип");
+    CHECK(localise_in_context("stash-sort", "dist") == "расстояние");
+    CHECK(localise_in_context("stash-filter", "hide") == "скрывать");
+    CHECK(localise_in_context("stash-filter", "show") == "показывать");
+    CHECK(make_stringf(localise("Search for what%s? ").c_str(), "") == "Что искать? ");
+    CHECK(make_stringf(localise("Enter for \"%s\"").c_str(), "Will+++")
+          == "Enter — повторить «Will+++»");
+    Options.language = lang_t::EN;
+    CHECK_FALSE(stash_search_matches(russian, raw, label));
+    CHECK(stash_search_matches(english, raw, label));
+    CHECK(localise_in_context("stash-action", "travel") == "travel");
     Options.language = lang_t::RU;
 }

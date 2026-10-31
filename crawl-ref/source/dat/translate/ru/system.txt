@@ -6246,7 +6246,7 @@ No remembered map.
 %%%%
 You can't annotate this level.
 
-Этот этаж нельзя пометить.
+На этом этаже нельзя оставить пометку.
 %%%%
 This ability will temporarily drain your maximum hit points when used, even unsuccessfully.
 
@@ -7214,7 +7214,7 @@ You can find your morgue file in the '@arg@' directory.
 %%%%
 Marking area around @arg@ as unsafe for travelling.
 
-Область вокруг цели «@arg@» отмечена как опасная для путешествия.
+Область вокруг цели «@arg@» исключена из автомаршрутов.
 %%%%
 @Arg@ cloud
 
@@ -7242,11 +7242,11 @@ downstairs
 %%%%
 @num@ exclusions
 
-Исключённых областей: @num@
+исключённых областей: @num@
 %%%%
 @num@ more exclusions
 
-Ещё исключённых областей: @num@
+ещё исключённых областей: @num@
 %%%%
 "exclusions: "
 
@@ -9598,7 +9598,7 @@ What level of @arg@?
 %%%%
 That's not a valid depth.
 
-Недопустимая глубина.
+Недопустимый номер этажа.
 %%%%
 "Current level annotation: "
 
@@ -10210,15 +10210,15 @@ Can't find anything matching that.
 %%%%
 Too many matches; use a more specific search.
 
-Слишком много совпадений; уточните запрос.
+Слишком много совпадений. Уточните запрос.
 %%%%
 1 match
 
-1 совпадение
+Найдено: 1
 %%%%
 @num@ matches
 
-Совпадений: @num@
+Найдено: @num@
 %%%%
 only useless items found; press <w>=</w> to show.
 
@@ -10254,15 +10254,15 @@ by <w>dist</w>
 %%%%
 @num@ further duplicates
 
-Ещё повторов: @num@
+ещё повторов: @num@
 %%%%
 " in 1 pile"
 
-" в 1 стопке"
+" в 1 куче"
 %%%%
 " in @num@ piles"
 
-" в стопках: @num@"
+" в кучах: @num@"
 %%%%
 held in a net
 
@@ -32947,3 +32947,115 @@ you are being drained by your emergency flight
 "What level of %s? (default %s, ? - help) "
 
 "На какой этаж ветви «%s» идти? (по умолчанию %s, ? — справка) "
+%%%%
+Enter for "%s"
+
+Enter — повторить «%s»
+%%%%
+"Search for what%s? "
+
+"Что искать%s? "
+%%%%
+<lightgrey>: only useless items found; press <w>=</w> to show.                    </lightgrey>
+
+<lightgrey>; найдены только непригодные предметы. <w>=</w> — показать.                    </lightgrey>
+%%%%
+<lightgrey>: <w>%s</w> [toggle: <w>!</w>], by <w>%s</w> [<w>/</w>], <w>%s</w> useless & duplicates [<w>=</w>]</lightgrey>
+
+<lightgrey>; режим: <w>%s</w> [<w>!</w>]; сортировка: <w>%s</w> [<w>/</w>]; <w>%s</w> непригодное и повторы [<w>=</w>]</lightgrey>
+%%%%
+Results at your position
+
+Результаты у вас и рядом
+%%%%
+Results elsewhere
+
+Результаты в других местах
+%%%%
+" <lightgrey>([<w>,</w>] to cycle)</lightgrey>"
+
+" <lightgrey>(<w>,</w> — переключить группу)</lightgrey>"
+%%%%
+[carried]
+
+[при себе]
+%%%%
+[right here]
+
+[здесь]
+%%%%
+(detected)
+
+(обнаружено)
+%%%%
+(under bush)
+
+(под кустом)
+%%%%
+(under plant)
+
+(под растением)
+%%%%
+" (press <white>G</white> to reach them and <white>?/b</white> for more information)"
+
+" (<white>G</white> — перейти; <white>?/b</white> — сведения о ветвях)"
+%%%%
+" (press <white>_</white> to reach them and <white>?/g</white> for information about gods)"
+
+" (<white>_</white> — перейти; <white>?/g</white> — сведения о богах)"
+%%%%
+*You can no longer be shafted in this branch
+
+*В этой ветви вы защищены от случайного провала в шахту
+%%%%
+Current level annotation: <lightgrey>%s</lightgrey>
+
+Текущая пометка этажа: <lightgrey>%s</lightgrey>
+%%%%
+"New annotation for %s (include '!' for warning): "
+
+"Новая пометка для %s (! — предупреждение): "
+%%%%
+Press: ? - help, v - describe, . - travel
+
+? — справка, v — описание, . — идти к выбранной клетке
+%%%%
+an escape hatch in the floor
+
+люк в полу
+%%%%
+an escape hatch in the ceiling
+
+люк в потолке
+%%%%
+{stash-action}travel
+
+{stash-action}автопереход
+%%%%
+{stash-action}view
+
+{stash-action}осмотр
+%%%%
+{stash-sort}type
+
+{stash-sort}тип
+%%%%
+{stash-sort}name
+
+{stash-sort}название
+%%%%
+{stash-sort}dist
+
+{stash-sort}расстояние
+%%%%
+{stash-filter}hide
+
+{stash-filter}скрывать
+%%%%
+{stash-filter}show
+
+{stash-filter}показывать
+%%%%
+"{stash-prompt}, or "
+
+"{stash-prompt}, "

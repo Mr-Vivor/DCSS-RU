@@ -31,6 +31,7 @@
 #include "item-status-flag-type.h"
 #include "items.h"
 #include "libutil.h" // map_find
+#include "localise.h"
 #include "makeitem.h"
 #include "menu.h"
 #include "message.h"
@@ -52,6 +53,32 @@
 
 // Global
 StashTracker StashTrack;
+
+bool stash_search_matches(const base_pattern &search, const string &raw_text,
+                          const string &display_name)
+{
+    if (search.matches(raw_text))
+        return true;
+    // Keep existing English regular expressions and user Lua callbacks on
+    // their original data. The alias is only for queries containing Russian.
+    if (!localisation_active() || dynamic_cast<const lua_text_pattern*>(&search))
+        return false;
+    bool russian = false;
+    for (const char *p = search.tostring().c_str(); *p;)
+    {
+        char32_t c;
+        const int length = utf8towc(&c, p);
+        if (length <= 0)
+            break;
+        if (c >= 0x0400 && c <= 0x052f)
+        {
+            russian = true;
+            break;
+        }
+        p += length;
+    }
+    return russian && search.matches(localise(display_name));
+}
 
 string userdef_annotate_item(const char *s, const item_def *item)
 {
@@ -489,7 +516,7 @@ vector<stash_search_result> Stash::matches_search(
         string haystack = prefix + " " + ann + " " + s;
         if (is_dumpable_artefact(item))
             haystack += " " + chardump_desc(item);
-        if (search.matches(haystack))
+        if (stash_search_matches(search, haystack, s + " " + ann))
         {
             stash_search_result res;
             res.match_type = MATCH_ITEM;
@@ -503,7 +530,8 @@ vector<stash_search_result> Stash::matches_search(
     if (feat != DNGN_FLOOR)
     {
         const string fdesc = feature_description();
-        if (!fdesc.empty() && search.matches(prefix + " " + fdesc + " feature"))
+        if (!fdesc.empty() && stash_search_matches(search,
+                prefix + " " + fdesc + " feature", fdesc))
         {
             stash_search_result res;
             res.match_type = MATCH_FEATURE;
@@ -738,7 +766,7 @@ vector<stash_search_result> ShopInfo::matches_search(
     no_notes nx;
 
     const string shoptitle = shop_name(shop) + (shop.stock.empty() ? "*" : "");
-    if (search.matches(shoptitle + " " + prefix + " {shop}"))
+    if (stash_search_matches(search, shoptitle + " " + prefix + " {shop}", shoptitle))
     {
         stash_search_result res;
         res.match = shoptitle;
@@ -748,7 +776,7 @@ vector<stash_search_result> ShopInfo::matches_search(
         res.pos.pos = shop.pos;
         results.push_back(res);
         // if the player is just searching for shops, don't show contents
-        if (search.matches(prefix + " {shop}")
+        if (stash_search_matches(search, prefix + " {shop}", "{shop}")
             && search.tostring() != "." && search.tostring() != "..")
         {
             return results;
@@ -763,7 +791,7 @@ vector<stash_search_result> ShopInfo::matches_search(
 
         string text = prefix + " " + ann + " " + sname + " {" + shoptitle + "}"
                       + shop_item_desc(item);
-        if (search.matches(text))
+        if (stash_search_matches(search, text, sname + " " + ann))
         {
             stash_search_result res;
             res.match_type = MATCH_ITEM;
@@ -1211,18 +1239,19 @@ string StashTracker::stash_search_prompt()
     {
         const string disp = replace_all(lastsearch, "<", "<<");
         opts.push_back(
-            make_stringf("Enter for \"%s\"", disp.c_str()));
+            make_stringf(localise("Enter for \"%s\"").c_str(), disp.c_str()));
     }
     if (lastsearch != ".")
-        opts.emplace_back("? for help");
+        opts.emplace_back(localise("? for help"));
 
+    const string separator = localise_in_context("stash-prompt", ", or ");
     string prompt_qual =
-        comma_separated_line(opts.begin(), opts.end(), ", or ", ", or ");
+        comma_separated_line(opts.begin(), opts.end(), separator, separator);
 
     if (!prompt_qual.empty())
         prompt_qual = " [" + prompt_qual + "]";
 
-    return make_stringf("Search for what%s? ", prompt_qual.c_str());
+    return make_stringf(localise("Search for what%s? ").c_str(), prompt_qual.c_str());
 }
 
 void StashTracker::remove_shop(const level_pos &pos)
@@ -1390,7 +1419,7 @@ static vector<stash_search_result> _inventory_search(const base_pattern &search)
         string haystack = ann + " " + s;
         if (is_dumpable_artefact(item))
             haystack += " " + chardump_desc(item);
-        if (search.matches(haystack))
+        if (stash_search_matches(search, haystack, s + " " + ann))
         {
             stash_search_result res;
             res.match = s;
@@ -1702,10 +1731,10 @@ formatted_string StashSearchMenu::calc_title()
     formatted_string fs;
     fs.textcolour(title->colour);
     string prefixes[] = {
-        make_stringf("%d match%s",
-            num_alt_matches, num_alt_matches == 1 ? "" : "es"),
-        make_stringf("%d match%s",
-            num_matches, num_matches == 1 ? "" : "es"),
+        localise(make_stringf("%d match%s",
+            num_alt_matches, num_alt_matches == 1 ? "" : "es")),
+        localise(make_stringf("%d match%s",
+            num_matches, num_matches == 1 ? "" : "es")),
     };
     const bool f = num_matches != num_alt_matches;
     fs.cprintf(prefixes[f]);
@@ -1713,22 +1742,23 @@ formatted_string StashSearchMenu::calc_title()
     {
         // TODO: it might be better to just force filtered=false in the
         // display loop if only useless items are found.
-        fs += formatted_string::parse_string(
+        fs += formatted_string::parse_string(localise(
             "<lightgrey>"
             ": only useless items found; press <w>=</w> to show."
             "                    "
-            "</lightgrey>");
+            "</lightgrey>"));
     }
     else
     {
         fs += formatted_string::parse_string(make_stringf(
-            "<lightgrey>"
+            localise("<lightgrey>"
             ": <w>%s</w> [toggle: <w>!</w>],"
             " by <w>%s</w> [<w>/</w>],"
             " <w>%s</w> useless & duplicates [<w>=</w>]"
-            "</lightgrey>",
-            menu_action == ACT_EXECUTE ? "travel" : "view  ",
-            sort_style, filtered));
+            "</lightgrey>").c_str(),
+            localise_in_context("stash-action", menu_action == ACT_EXECUTE ? "travel" : "view").c_str(),
+            localise_in_context("stash-sort", sort_style).c_str(),
+            localise_in_context("stash-filter", filtered).c_str()));
     }
     fs.cprintf(string(max(0, strwidth(prefixes[!f])-strwidth(prefixes[f])),
                       ' '));

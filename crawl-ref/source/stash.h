@@ -14,7 +14,13 @@
 class input_history;
 class reader;
 class writer;
+class base_pattern;
 struct map_cell;
+
+// English expressions and Lua patterns keep their original search text.
+// Russian expressions can also match the translated display name.
+bool stash_search_matches(const base_pattern &search, const string &raw_text,
+                          const string &display_name);
 
 enum stash_sort_mode
 {
