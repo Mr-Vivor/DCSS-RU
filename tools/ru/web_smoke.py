@@ -448,6 +448,74 @@ def main():
                         assert text not in ability_text, ability_text
                     spell_page.screenshot(path=str(ARTIFACTS / "finesse-costs.png"), full_page=True)
                     (ARTIFACTS / "finesse-costs.txt").write_text(ability_text, encoding="utf8")
+                    spell_page.keyboard.press("Escape")
+                    finesse_row.wait_for(state="visible")
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    # A real !r inscription must retain its command semantics.
+                    # Reject reading and verify that no scroll was consumed.
+                    spell_page.keyboard.type("&%")
+                    item_input = spell_page.locator("#messages .game_message input")
+                    item_input.wait_for(state="visible")
+                    item_input.fill("scroll of fear")
+                    spell_page.keyboard.press("Enter")
+                    item_input.wait_for(state="detached")
+                    spell_page.keyboard.type("g")
+                    spell_page.wait_for_timeout(150)
+                    spell_page.keyboard.type("&i")
+                    spell_page.keyboard.type("i", delay=100)
+                    scroll_row = spell_page.locator("#ui-stack li.selectable").filter(has_text="свиток страха")
+                    scroll_row.wait_for()
+                    scroll_row.click()
+                    spell_page.locator(".describe-item .actions [data-hotkey='i']").click()
+                    inscription_input = spell_page.locator("#messages .game_message input")
+                    inscription_input.wait_for(state="visible")
+                    inscription_input.fill("!r")
+                    spell_page.keyboard.press("Enter")
+                    inscription_input.wait_for(state="detached")
+                    for _ in range(3):
+                        if not spell_page.locator("#ui-stack > .ui-popup").count():
+                            break
+                        spell_page.keyboard.press("Escape")
+                        spell_page.wait_for_timeout(100)
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.keyboard.type("i")
+                    scroll_row.wait_for()
+                    scroll_before = scroll_row.inner_text()
+                    assert "!r" in scroll_before, scroll_before
+                    quantity = lambda text: int(re.search(r"(\d+)\s+свит", text).group(1)) if re.search(r"(\d+)\s+свит", text) else 1
+                    quantity_before = quantity(scroll_before)
+                    spell_page.keyboard.press("Escape")
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.keyboard.type("r")
+                    spell_page.wait_for_function("document.querySelector('.menu_use_item') || document.body.innerText.includes('Прочитать:')")
+                    read_row = spell_page.locator(".menu_use_item li.selectable").filter(has_text="свиток страха")
+                    if read_row.is_visible():
+                        read_menu_text = spell_page.locator(".menu_use_item").inner_text()
+                        assert "Какой свиток прочитать?" in read_menu_text, read_menu_text
+                        assert "Read which item" not in read_menu_text and "describe selected" not in read_menu_text, read_menu_text
+                        spell_page.screenshot(path=str(ARTIFACTS / "read-item-menu.png"), full_page=True)
+                        read_row.click()
+                    spell_page.wait_for_function("document.body.innerText.includes('Прочитать:')")
+                    popups = spell_page.locator("#ui-stack > .ui-popup")
+                    warning_text = popups.last.inner_text() if popups.count() else spell_page.locator("#messages .game_message").last.inner_text()
+                    for text in ("Прочитать:", "свиток страха", "!r"):
+                        assert text in warning_text, warning_text
+                    assert "Really" not in warning_text and "scroll of fear" not in warning_text, warning_text
+                    spell_page.screenshot(path=str(ARTIFACTS / "read-inscription-warning.png"), full_page=True)
+                    (ARTIFACTS / "read-inscription-warning.txt").write_text(warning_text, encoding="utf8")
+                    spell_page.keyboard.type("n")
+                    for _ in range(3):
+                        if not spell_page.locator("#ui-stack > .ui-popup").count():
+                            break
+                        spell_page.keyboard.press("Escape")
+                        spell_page.wait_for_timeout(100)
+                    spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
+                    spell_page.keyboard.type("i")
+                    scroll_row.wait_for()
+                    scroll_after = scroll_row.inner_text()
+                    assert "!r" in scroll_after and quantity(scroll_after) == quantity_before, (scroll_before, scroll_after)
+                    spell_page.screenshot(path=str(ARTIFACTS / "read-cancelled-inventory.png"), full_page=True)
                 except Exception:
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-failure.png"), full_page=True)
                     (ARTIFACTS / "spell-failure.txt").write_text(spell_page.locator("body").inner_text(), encoding="utf8")

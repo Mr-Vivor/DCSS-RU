@@ -316,7 +316,7 @@ bool UseItemMenu::cycle_mode(bool forward)
     populate_list();
     populate_menu();
     update_sections();
-    set_title(_default_use_title(oper));
+    set_title(localise(_default_use_title(oper)));
     restore_hover(true);
     return true;
 }
@@ -341,9 +341,9 @@ void UseItemMenu::reset(operation_types _oper, const char* prompt_override)
     // init_modes may change oper
     init_modes();
     if (prompt_override)
-        set_title(prompt_override);
+        set_title(localise(prompt_override));
     else
-        set_title(_default_use_title(oper));
+        set_title(localise(_default_use_title(oper)));
     // see `item_is_selected` for more on what can be used for item_type.
     if (item_type_filter == OSEL_ANY)
         item_type_filter = default_osel(oper);
@@ -621,8 +621,8 @@ void UseItemMenu::update_sections()
     for (; i < static_cast<int>(items.size()); i++)
         if (items[i]->level == MEL_ITEM)
             items[i]->set_enabled(!is_inventory);
-    const string cycle_hint = localise(make_stringf("<lightgray> (%s to select)</lightgray>",
-            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str()));
+    const string cycle_hint = make_stringf(localise("<lightgray> (%s to select)</lightgray>").c_str(),
+            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str());
 
     // a `,` will trigger quick activation, rather than cycle headers
     const bool easy_floor = Options.easy_floor_use && item_floor.size() == 1
@@ -639,10 +639,10 @@ void UseItemMenu::update_sections()
         floor_header->text = localise("Floor Items");
         if (easy_floor)
         {
-            floor_header->text += localise(make_stringf(
-                "<lightgray> (%s to %s)</lightgray>",
+            floor_header->text += make_stringf(
+                localise("<lightgray> (%s to %s)</lightgray>").c_str(),
                 menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str(),
-                _oper_name(oper).c_str()));
+                localise_in_context("item-operation", _oper_name(oper)).c_str());
         }
         else if (is_inventory)
             floor_header->text += cycle_hint;
@@ -729,7 +729,7 @@ string UseItemMenu::get_keyhelp(bool) const
 
     // XX the logic here is getting convoluted, if only these were widgets...
     const string desc_key = is_set(MF_ARROWS_SELECT)
-                                    ? "[<w>?</w>] describe selected" : "";
+                                    ? localise("[<w>?</w>] describe selected") : "";
     string full;
     string eu_modes;
     string modes;
@@ -741,7 +741,7 @@ string UseItemMenu::get_keyhelp(bool) const
         {
             eu_modes = "[<w>tab</w>] ";
             eu_modes += (generalize_oper(oper) == OPER_EQUIP)
-                ? "<w>equip</w>|unequip  " : "equip|<w>unequip</w>  ";
+                ? localise("<w>equip</w>|unequip  ") : localise("equip|<w>unequip</w>  ");
         }
 
         if (available_modes.size() > 1)
@@ -749,7 +749,7 @@ string UseItemMenu::get_keyhelp(bool) const
             vector<string> mode_names;
             for (const auto &o : available_modes)
             {
-                string n = _oper_name(o);
+                string n = localise_in_context("item-menu-operation", _oper_name(o));
                 if (o == oper)
                     n = "<w>" + n + "</w>";
                 mode_names.push_back(n);
@@ -920,8 +920,9 @@ static bool _can_generically_use_armour(bool wear=true)
 
     if (!form_can_wear())
     {
-        mprf(MSGCH_PROMPT, "You can't %s anything in your present form.",
-            wear ? "wear" : "remove");
+        mprf(MSGCH_PROMPT, "%s", localise(wear
+            ? "You can't wear anything in your present form."
+            : "You can't remove anything in your present form.").c_str());
         return false;
     }
 
@@ -980,9 +981,11 @@ static bool _can_generically_use(operation_types oper)
             && you_can_wear(SLOT_AMULET, true) == false
             && you.transform_uncancellable)
         {
-            mprf(MSGCH_PROMPT, "You can't %s jewellery%s.",
-                oper == OPER_PUTON ? "wear" : "remove",
-                you.has_mutation(MUT_NO_JEWELLERY) ? "" :  " in your present form");
+            const bool permanent = you.has_mutation(MUT_NO_JEWELLERY);
+            const char* message = oper == OPER_PUTON
+                ? (permanent ? "You can't wear jewellery." : "You can't wear jewellery in your present form.")
+                : (permanent ? "You can't remove jewellery." : "You can't remove jewellery in your present form.");
+            mprf(MSGCH_PROMPT, "%s", localise(message).c_str());
             return false;
         }
         break;
@@ -1325,7 +1328,8 @@ bool warn_about_changing_gear(const vector<item_def*>& to_remove, item_def* to_e
     string reason;
     if (!always_fast && needs_delay && !i_feel_safe(false, false, false, true, -1, &reason))
     {
-        string warning = make_stringf("Spend multiple turns changing equipment while %s?", reason.c_str());
+        string warning = make_stringf(localise("Spend multiple turns changing equipment while %s?").c_str(),
+                                      localise(reason).c_str());
         if (!yesno(warning.c_str(), true, 'n'))
         {
             canned_msg(MSG_OK);
@@ -1346,9 +1350,11 @@ bool warn_about_changing_gear(const vector<item_def*>& to_remove, item_def* to_e
             {
                 if (++removed_flight >= equipped_flight)
                 {
-                    mprf(MSGCH_PROMPT, "Removing %s right now would cause you to %s!",
-                            item->name(DESC_YOUR).c_str(),
-                            env.grid(you.pos()) == DNGN_DEEP_WATER ? "drown" : "burn");
+                    const char* warning = env.grid(you.pos()) == DNGN_DEEP_WATER
+                        ? "Removing %s right now would cause you to drown!"
+                        : "Removing %s right now would cause you to burn!";
+                    mprf(MSGCH_PROMPT, localise(warning).c_str(),
+                         localise(item->name(DESC_YOUR)).c_str());
                     return false;
                 }
             }
@@ -1539,8 +1545,8 @@ bool handle_chain_removal(vector<item_def*>& to_remove, bool interactive)
 
             if ((int)chain_remove.size() < chain_remove_num)
             {
-                mprf(MSGCH_PROMPT, "A cursed item is preventing you from removing %s.",
-                        to_remove[n]->name(DESC_INVENTORY).c_str());
+                mprf(MSGCH_PROMPT, localise("A cursed item is preventing you from removing %s.").c_str(),
+                        localise(to_remove[n]->name(DESC_INVENTORY)).c_str());
                 return false;
             }
             // We must remove all of the items found.
@@ -1643,8 +1649,9 @@ void do_equipment_change(item_def* to_equip, equipment_slot equip_slot,
                 }
                 else
                 {
-                    mprf("You %s %s.", item_unequip_verb(*item).c_str(),
-                                    item->name(DESC_YOUR).c_str());
+                    mprf(localise("You %s %s.").c_str(),
+                         localise_in_context("item-unequip", item_unequip_verb(*item)).c_str(),
+                         localise(item->name(DESC_YOUR)).c_str());
                 }
                 unequip_item(*item);
             }
@@ -1691,8 +1698,8 @@ bool can_unequip_item(item_def& item, bool silent)
     {
         if (!silent)
         {
-            mprf(MSGCH_PROMPT, "%s is melded into your body!",
-                               item.name(DESC_YOUR).c_str());
+            mprf(MSGCH_PROMPT, localise("%s is melded into your body!").c_str(),
+                               localise(item.name(DESC_YOUR)).c_str());
         }
         return false;
     }
@@ -1701,8 +1708,8 @@ bool can_unequip_item(item_def& item, bool silent)
     {
         if (!silent)
         {
-            mprf(MSGCH_PROMPT, "%s is chained to your body!",
-                                item.name(DESC_YOUR).c_str());
+            mprf(MSGCH_PROMPT, localise("%s is chained to your body!").c_str(),
+                                localise(item.name(DESC_YOUR)).c_str());
         }
         return false;
     }
@@ -1999,8 +2006,8 @@ bool drink(item_def* potion)
         return false;
     }
 
-    string prompt = make_stringf("Really quaff the %s?",
-                                 potion->name(DESC_DBNAME).c_str());
+    string prompt = make_stringf(localise("Really quaff the %s?").c_str(),
+                                 localise(potion->name(DESC_DBNAME)).c_str());
     if (alreadyknown && is_dangerous_item(*potion, true)
         && Options.bad_item_prompt
         && !yesno(prompt.c_str(), false, 'n'))
@@ -2014,10 +2021,10 @@ bool drink(item_def* potion)
         && !you.props.exists(VICTORY_CONDUCT_KEY))
     {
         item_def *item = you.equipment.get_first_slot_item(SLOT_BODY_ARMOUR, true);
-        string unrand_prompt = make_stringf("Really quaff with monsters nearby "
-                                            "while wearing %s?",
-                                            item->name(DESC_THE, false, true,
-                                                       false).c_str());
+        string unrand_prompt = make_stringf(localise("Really quaff with monsters nearby "
+                                            "while wearing %s?").c_str(),
+                                            localise(item->name(DESC_THE, false, true,
+                                                       false)).c_str());
 
         if (item->props[VICTORY_STAT_KEY].get_int() > 0
             && nearby_mons
@@ -2184,7 +2191,7 @@ static void _brand_weapon(item_def &wpn)
 {
     you.wield_change = true;
 
-    const string itname = _item_name(wpn);
+    const string itname = localise(_item_name(wpn));
 
     _rebrand_weapon(wpn);
 
@@ -2195,87 +2202,87 @@ static void _brand_weapon(item_def &wpn)
     {
     case SPWPN_HEAVY:
         flash_colour = BROWN;
-        mprf("%s becomes incredibly heavy!",itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s becomes incredibly heavy!").c_str(),itname.c_str());
         break;
 
     case SPWPN_PROTECTION:
         flash_colour = YELLOW;
-        mprf("%s projects an invisible shield of force!",itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s projects an invisible shield of force!").c_str(),itname.c_str());
         break;
 
     case SPWPN_FLAMING:
         flash_colour = RED;
-        mprf("%s is engulfed in flames!", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s is engulfed in flames!").c_str(), itname.c_str());
         break;
 
     case SPWPN_FREEZING:
         flash_colour = LIGHTCYAN;
-        mprf("%s is covered with a thin layer of ice!", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s is covered with a thin layer of ice!").c_str(), itname.c_str());
         break;
 
     case SPWPN_DRAINING:
         flash_colour = DARKGREY;
-        mprf("%s craves living souls!", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s craves living souls!").c_str(), itname.c_str());
         break;
 
     case SPWPN_VAMPIRISM:
         flash_colour = DARKGREY;
-        mprf("%s thirsts for the lives of mortals!", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s thirsts for the lives of mortals!").c_str(), itname.c_str());
         break;
 
     case SPWPN_VENOM:
         flash_colour = GREEN;
-        mprf("%s drips with poison.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s drips with poison.").c_str(), itname.c_str());
         break;
 
     case SPWPN_ELECTROCUTION:
         flash_colour = LIGHTCYAN;
-        mprf("%s crackles with electricity.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s crackles with electricity.").c_str(), itname.c_str());
         break;
 
     case SPWPN_CHAOS:
         flash_colour = random_colour();
-        mprf("%s erupts in a glittering mayhem of colour.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s erupts in a glittering mayhem of colour.").c_str(), itname.c_str());
         break;
 
     case SPWPN_ACID:
         flash_colour = ETC_SLIME;
-        mprf("%s oozes corrosive slime.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s oozes corrosive slime.").c_str(), itname.c_str());
         break;
 
     case SPWPN_SPECTRAL:
         flash_colour = BLUE;
-        mprf("%s acquires a faint afterimage.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s acquires a faint afterimage.").c_str(), itname.c_str());
         break;
 
     case SPWPN_REBUKE:
         flash_colour = WHITE;
-        mprf("%s quivers with indignation.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s quivers with indignation.").c_str(), itname.c_str());
         break;
 
     case SPWPN_VALOUR:
         flash_colour = WHITE;
-        mprf("%s thrums with vital power.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s thrums with vital power.").c_str(), itname.c_str());
         break;
 
     case SPWPN_ENTANGLING:
         flash_colour = LIGHTGREEN;
-        mprf("%s erupts in a tangle of vines.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s erupts in a tangle of vines.").c_str(), itname.c_str());
         break;
 
     case SPWPN_SUNDERING:
         flash_colour = LIGHTRED;
-        mprf("%s becomes viciously sharp.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s becomes viciously sharp.").c_str(), itname.c_str());
         break;
 
     case SPWPN_CONCUSSION:
         flash_colour = YELLOW;
-        mprf("%s begins to exert an overwhelming pressure.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s begins to exert an overwhelming pressure.").c_str(), itname.c_str());
         break;
 
     case SPWPN_DEVIOUS:
         flash_colour = BLUE;
-        mprf("%s glints wickedly in the shadows.", itname.c_str());
+        mprf(localise_in_context("weapon-brand", "%s glints wickedly in the shadows.").c_str(), itname.c_str());
         break;
 
     default:
@@ -2393,8 +2400,9 @@ bool enchant_weapon(item_def &wpn, bool quiet)
 
     if (!quiet)
     {
-        const char* dur = wpn.plus < MAX_WPN_ENCHANT ? "moment" : "while";
-        mprf("%s glows red for a %s.", iname.c_str(), dur);
+        const char* message = wpn.plus < MAX_WPN_ENCHANT
+            ? "%s glows red for a moment." : "%s glows red for a while.";
+        mprf(localise_in_context("weapon-enchant", message).c_str(), localise(iname).c_str());
     }
 
     you.wield_change = true;
@@ -2551,9 +2559,10 @@ bool enchant_armour(item_def &arm, bool quiet)
     {
         const bool plural = armour_is_hide(arm)
                             && arm.sub_type != ARM_TROLL_LEATHER_ARMOUR;
-        string glow = conjugate_verb("glow", plural);
-        const char* dur = is_enchantable_armour(arm) ? "moment" : "while";
-        mprf("%s %s green for a %s.", iname.c_str(), glow.c_str(), dur);
+        const char* message = is_enchantable_armour(arm)
+            ? (plural ? "%s glow green for a moment." : "%s glows green for a moment.")
+            : (plural ? "%s glow green for a while." : "%s glows green for a while.");
+        mprf(localise_in_context("armour-enchant", message).c_str(), localise(iname).c_str());
     }
 
     return true;
@@ -2993,10 +3002,10 @@ bool read(item_def* scroll, dist *target)
         && !you.props.exists(VICTORY_CONDUCT_KEY))
     {
         item_def *item = you.equipment.get_first_slot_item(SLOT_BODY_ARMOUR, true);
-        string unrand_prompt = make_stringf("Really read with monsters nearby "
-                                            "while wearing %s?",
-                                            item->name(DESC_THE, false, true,
-                                                       false).c_str());
+        string unrand_prompt = make_stringf(localise("Really read with monsters nearby "
+                                            "while wearing %s?").c_str(),
+                                            localise(item->name(DESC_THE, false, true,
+                                                       false)).c_str());
 
         if (item->props[VICTORY_STAT_KEY].get_int() > 0
             && nearby_mons

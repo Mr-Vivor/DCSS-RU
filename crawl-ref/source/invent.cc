@@ -519,8 +519,8 @@ string InvMenu::get_select_count_string(int) const
         if (all_sel.empty())
             return "";
 
-        return make_stringf(" %d item%s", (int)all_sel.size(),
-                                          all_sel.size() > 1 ? "s" : "");
+        const char* format = all_sel.size() == 1 ? " %d selected item" : " %d selected items";
+        return make_stringf(localise(format).c_str(), (int)all_sel.size());
     }
 
     return Menu::get_select_count_string(0);
@@ -1631,27 +1631,23 @@ static bool _has_warning_inscription(const item_def& item,
 // be prompted.
 bool maybe_warn_about_removing(const item_def& item)
 {
-    string prompt;
-
     if (!needs_handle_warning(item, OPER_UNEQUIP))
         return true;
+    return yesno(item_removal_warning(item).c_str(), false, 'n');
+}
 
+string item_removal_warning(const item_def& item)
+{
+    const bool destroys = item.cursed() || item.summoned()
+        || (is_artefact(item) && artefact_property(item, ARTP_FRAGILE));
+    const char* prompt;
     if (item.base_type == OBJ_WEAPONS || item.base_type == OBJ_STAVES)
-        prompt += "Really unwield ";
+        prompt = destroys ? "Really unwield and destroy %s?" : "Really unwield %s?";
     else if (item.base_type == OBJ_ARMOUR)
-        prompt += "Really take off ";
+        prompt = destroys ? "Really take off and destroy %s?" : "Really take off %s?";
     else
-        prompt += "Really remove ";
-
-    // now ask
-    if (item.cursed() || (item.summoned())
-        || (is_artefact(item) && artefact_property(item, ARTP_FRAGILE)))
-    {
-        prompt += "and destroy ";
-    }
-    prompt += item.name(DESC_INVENTORY);
-    prompt += "?";
-    return yesno(prompt.c_str(), false, 'n');
+        prompt = destroys ? "Really remove and destroy %s?" : "Really remove %s?";
+    return make_stringf(localise(prompt).c_str(), localise(item.name(DESC_INVENTORY)).c_str());
 }
 
 static string _operation_verb(operation_types oper)
@@ -1685,6 +1681,15 @@ static bool _is_known_no_tele_item(const item_def &item)
         return false;
 
     return artefact_property(item, ARTP_PREVENT_TELEPORTATION);
+}
+
+string item_operation_warning(const item_def& item, operation_types oper)
+{
+    const char* format = needs_notele_warning(item, oper)
+        ? "Really %s %s while about to teleport?" : "Really %s %s?";
+    return uppercase_first(make_stringf(localise(format).c_str(),
+        localise_in_context("item-operation", _operation_verb(oper)).c_str(),
+        localise(in_inventory(item) ? item.name(DESC_INVENTORY) : item.name(DESC_A)).c_str()));
 }
 
 bool needs_notele_warning(const item_def &item, operation_types oper)
@@ -1763,14 +1768,7 @@ bool check_warning_inscriptions(const item_def& item,
                 return true;
         }
 
-        // XXX: duplicates a check in delay.cc:_finish_delay()
-        string prompt = "Really " + _operation_verb(oper) + " ";
-        prompt += (in_inventory(item) ? item.name(DESC_INVENTORY)
-                                      : item.name(DESC_A));
-        if (needs_notele_warning(item, oper))
-            prompt += " while about to teleport";
-        prompt += "?";
-        return yesno(prompt.c_str(), false, 'n');
+        return yesno(item_operation_warning(item, oper).c_str(), false, 'n');
     }
 
     return true;

@@ -226,6 +226,8 @@ const char* equip_slot_name(equipment_slot type, bool terse = false);
 bool get_tiles_for_item(const item_def &item, vector<tile_def>& tileset, bool show_background);
 
 bool maybe_warn_about_removing(const item_def& item);
+string item_removal_warning(const item_def& item);
+string item_operation_warning(const item_def& item, operation_types oper);
 bool check_warning_inscriptions(const item_def& item, operation_types oper);
 
 void init_item_sort_comparators(item_sort_comparators &list,

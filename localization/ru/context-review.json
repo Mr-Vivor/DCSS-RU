@@ -321,16 +321,16 @@
       "translation_sha256": "652c493534ca1edc6e3b50ca721c2c4248ed419741bc2a15f1adbb6ffc3707a8"
     },
     "Inventory Items": {
-      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
-      "translation_sha256": "a8d8edfef40808f286d7ba909dace0ed0ee5e30bc9008d088684a77cbd9d3ac7"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "14cc8f7f7387c12691c41959f4c61204990da9bbfde5d0d2ad2698c8cd4ae208"
     },
     " (',' to select)": {
       "context": "item-use.cc",
       "translation_sha256": "dfacf077a661a7eced86bd09bfccf218239906e2ef59519ce0d55421839625b8"
     },
     "Floor Items": {
-      "context": "item-use.cc:UseItemMenu; reading and berserk potions",
-      "translation_sha256": "d0bb3cee29178e4b6d4a5f5eb24267598a04845a7023b523a4652108faed7492"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d9ad2c3e8e611f2d3b66a558e40ed58946309124dcc99308bbeadcfd0f15d27d"
     },
     "Your weapon is melded into your body!": {
       "context": "item-use.cc",
@@ -345,8 +345,8 @@
       "translation_sha256": "b99a90feb7bed291a7a754052e3d4abbf9e367f3d8a2228bdf71358a2df5c387"
     },
     "Your thirst for blood prevents you from unwielding your weapon!": {
-      "context": "item-use.cc",
-      "translation_sha256": "21b7efba9dc820c8ed968fec856913198afafa0458f6e0ab2823369a945a3e68"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a097776eb6abab196429c8929acf5118287bbde27719cbd4ddbe1c6dae7f0451"
     },
     "You can't unwield your weapon!": {
       "context": "item-use.cc",
@@ -377,8 +377,8 @@
       "translation_sha256": "76701bc21365e660d60ffe390aa6dcf9b97dbd0eb03b5b48e6a6e67bdbb8f4e1"
     },
     "You can't carry that many items.": {
-      "context": "item-use.cc",
-      "translation_sha256": "5d66d29ccfb4b80baa583be18b5ee17478b4675b77e75e2107d462493e2ed3d5"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "9e01d7ff7907690766676d957493c46ed7ae2e3a90538d6e3ffafbc6494a1e27"
     },
     "Wield which item (- for none, * to show all)?": {
       "context": "item-use.cc",
@@ -529,12 +529,12 @@
       "translation_sha256": "37c022245847ef62183dfb9f343a298c9c1c57713bfcca9b8bf91232d3ef372c"
     },
     "You can't wear anything.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "6b10dbebd7f6954e0c472eeee19aee5725e9134dc22a98cdb5c3a0743cd0cd79"
     },
     "You can't wear anything in your present form.": {
-      "context": "item-use.cc",
-      "translation_sha256": "c28d005149740aab81f27f7b15a9e51890fdede96ae21572d1a433a7d6ca3dab"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "e8076c503537352227205cb9dc7c6a0564e19e4fe5c6a24f2918bc1641f44f4b"
     },
     "Wear which item (* to show all)?": {
       "context": "item-use.cc",
@@ -569,7 +569,7 @@
       "translation_sha256": "09dad18dc960ae7c42595d04c23f4044aaa8d048fcf43a1021eb5767e5fb9a2a"
     },
     "(<w>?</w> for menu, <w>Esc</w> to cancel)": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "7c429ac7d2ce392de380d986ddbe209917be9a693a56519ca5518be54770a728"
     },
     "<w>@arg1@</w> or @arg2@": {
@@ -665,7 +665,7 @@
       "translation_sha256": "4c7af599126b4362eb5f4b845005bef200baa702d83f02cf93c33390204268bf"
     },
     "Remove which piece of jewellery?": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "ae13dbe1d2aef723c35997cedf0061b5f82c5636ab7cbd0b3a86a60b974fc846"
     },
     "You aren't wearing that.": {
@@ -693,12 +693,12 @@
       "translation_sha256": "e88aba7385d421d0a0401a0604a9fe5138a6ad5b14aa55db4115eef195cc61a5"
     },
     "You don't have anything to inscribe.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "44309f519e30444dd180aa278a149a2a177c5890ae90e231bae7986c6b8a180d"
     },
     "Inscribe which item?": {
-      "context": "item-use.cc",
-      "translation_sha256": "762a083c0ef14b0106d91c319523b2534032530aae2bb77fa37e064e5abef967"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d7224171cd1549a80d310452931c4255c298b3e8f31ab16f739bd0aa3aecbabc"
     },
     "You can't drink.": {
       "context": "item-use.cc",
@@ -769,8 +769,8 @@
       "translation_sha256": "1afc937b96021be0af97f37876c4e95cbbe8a456e22f4839b6451d5eaa84167a"
     },
     "Really abort (and waste the scroll)?": {
-      "context": "item-use.cc",
-      "translation_sha256": "d0970a8c1ddfb477e6205ceab339ae287fea94183f8254695c78261affcaed31"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "0465b7c459b609aafd475e5423135462a6d1b0107716d7d6dab85ab51731d469"
     },
     "Enchant which weapon?": {
       "context": "item-use.cc",
@@ -865,15 +865,15 @@
       "translation_sha256": "a2700af031d0bddf67cc54032cebd824fb148390402bae1e4633a30eacea5117"
     },
     "This is a scroll of acquirement!": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "e08e6eb27ec5cd27cfbd3c1a1302e0eeb33ed406fd040403f127879a9c40c55d"
     },
     "Anything you acquired here would fall and be lost!": {
-      "context": "item-use.cc",
-      "translation_sha256": "9d9b231da29662f57b87014a0cf71e58cfd0abe0be280ce19c45b82918775767"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "eace8cd9bf4c9b7e23681de73d2870f45b21967ce3c00857b173f9b625059dfe"
     },
     "You assume a fearsome visage.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "4cf4a22d1e7cd1eab79a6e4d3df777de37b4f08c2f92159863ef9c4c73d4dd5e"
     },
     "You hear a loud clanging noise!": {
@@ -893,39 +893,39 @@
       "translation_sha256": "99530d6531e322f85ce85defc7d684d8a8fbd4146112cbc2b38ae019cd5ec8d5"
     },
     "The creatures around you are filled with an inner flame!": {
-      "context": "item-use.cc",
-      "translation_sha256": "ef839146b9d1921f6521a557e39b27de60c528b94bc86171c42fe4883ba5a5c6"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "bf49b017bb096d5f71f15c36d7194db40d7a370c6d22a7c61179a2b5f1066635"
     },
     "The air around you briefly surges with heat, but it dissipates.": {
-      "context": "item-use.cc",
-      "translation_sha256": "1d9c17ab1335bb1bb519f1eb82401f0d66856e226592738afd707f1ef35a95d1"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a7853dfa95d94394e17176120c9b161191c14a6443c425e34601b211c476a260"
     },
     "It is a scroll of enchant weapon.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "c18e2e17d937864160ef40ca60736d8b1df59c21638a61033b824bbcab26dfdb"
     },
     "It is a scroll of brand weapon.": {
-      "context": "item-use.cc",
-      "translation_sha256": "ae7176dbdc134c9e03e556d810c2a01bd3945a922f9ab62475f05c92e83cec6d"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "0a4b161a4ef9dcce176d0aaa82cc12a5bf5d8124deb5cb453b2c85124d70a6c2"
     },
     "It is a scroll of identify.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "9f00851ba012a1c20cf738b9243a28dd4167b2db300f65b6131342fc35bf3f28"
     },
     "It is a scroll of enchant armour.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "189045a4318050365fa9dc6badcc1c799fcea3f14b32ed10cd2685eb8bfba0ea"
     },
     "It is a scroll of amnesia.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "d1d08e859f4cfadf9f4c0f99e0fba4121d0c5adb4085f5bbf70050cc4edd9978"
     },
     "You feel forgetful for a moment.": {
-      "context": "item-use.cc",
-      "translation_sha256": "8b99688c33456c93898dbe9b3ff68f07ddad50db68b1d414e43b63cd126100e8"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "228cafa52443f179a1e5ba1f84348fa2f75eabd30326cd851d61e04e2cf3d5c3"
     },
     "You can't pick that up.": {
-      "context": "item-use.cc",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "c3a18190ca6b49c02151fb20a9ab4de5483521d9e7e8bcf0f137b5d8a211650d"
     },
     "Drop how many?": {
@@ -26413,27 +26413,27 @@
       "translation_sha256": "fa386ebdfa9da8d0c2e335b90a7fbd366bc5230e678929cd39939bfa4b9b5b29"
     },
     "To do this, you must remove one of the following items:": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
-      "translation_sha256": "88268bdcdccf4279401607a8a0c9246b26cf06168341206ab119a9be3c06b5f3"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "53135f618aaf9ab6c83b6a9842b721b1ed4553b626fc7d7b699a5b807576c155"
     },
     " (cancels current teleport)": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
-      "translation_sha256": "9165ff655e3dd62d489e552d510fb24e2fe509d17a081e7135070cb76a757dfd"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a72a1f01bb74a544f3f5a5d9b3a536a57ceeb97dda34e0c957c64733d448bae4"
     },
     " (current attack)": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "03a8c2cc2e3f0c6a65a873032810fece31ec78b150acb2b15fabe040b579461c"
     },
     "[<w>?</w>] describe selected": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "db2f7f1c5b30b254a0590b3c5008729eeabbddccc8596c4eee045be2f43cd557"
     },
     "<w>equip</w>|unequip  ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "3d456e502f2760bbdb69c74677652738dbabc164b467da2e027354570eb1dbdb"
     },
     "equip|<w>unequip</w>  ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "a7152606fddcae8e7757664df9acf03a4445bfaeaea7af803a1425281c561c61"
     },
     "     Skill": {
@@ -29977,11 +29977,11 @@
       "translation_sha256": "7b8116ae95882b278e5b3ee5c51302a5d648226b1a0e409b261b849f55d4c7cd"
     },
     "You can't wear jewellery in your present form.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
-      "translation_sha256": "ff144f442d2d0d3a9fb855f46f87b9e69a855293b9382ba90a51f296419cd87e"
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "e577c526a1c5d400d1c4d29219d7b97c096082ebf032dda6179a0d968dac7c67"
     },
     "You can't remove jewellery in your present form.": {
-      "context": "shopping.cc/item-use.cc/quiver.cc/evoke.cc: purchase confirmation, currency, operations and device restrictions",
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
       "translation_sha256": "969b131d0e76d6d36012e748873c3a7df89bdba02464137b6b6c85ba6da51e61"
     },
     "You can't shoot while berserk! Really wield @any_item@?": {
@@ -36063,6 +36063,438 @@
     "{skill-switch}level": {
       "context": "Compact skill-menu display only: full canonical names remain in descriptions/wiki/targets, raw skill IDs and switch states remain English; labels fit the existing columns and retain Latin hotkeys.",
       "translation_sha256": "4a42243045658232fba55e4706db79178818824651ac717a57060000bb120228"
+    },
+    "Equip or unequip which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a9f507f2bacd54348b5f9f0834826d3144b496eddb6a3a45e100f2f0932fb803"
+    },
+    "Equip which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d9ff88825ac01d711c219726c41ff66e786d961c4165af38ce52d9b32fa6c5af"
+    },
+    "Wield or unwield which item (- for none)?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a579544ff403de86f8359f68b96c454d0a401ac3193b039ae9426d1b94286f0a"
+    },
+    "Wield which item (- for none)?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "7f1cef9ffec61f69671bfddc164252fecc6339e2eaccb289b8ad643174693fc1"
+    },
+    "Wear or take off which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "c939d93318d6a9acbfd343d512d4f869ba51cc76c9c3f08a0174ea64029ebd4c"
+    },
+    "Wear which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "dc8661f457b5fdd406c02a1c41315363c985018ba4de6a44e8be142634a4e88f"
+    },
+    "Put on or remove which piece of jewellery?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "1e60fc02cdf0c192dfaef2749c7417b5ad23535c19d1c2cc6fce8d2f478f32b8"
+    },
+    "Put on which piece of jewellery?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "2c0a625b51397d01b33ea31c64c3233718e2d1231085672ec03a3ec7691cd4d5"
+    },
+    "Drink which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "27dcd4ab661d731d3be6eca96796d4ce0107490755c76c9b1a64d1c9499c2bbf"
+    },
+    "Read which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "6ad0fe02b94a8a4198c6940122f32a983bb3156b79ffaa884dabc711086ec028"
+    },
+    "Evoke which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "8d17a1d18d133ef59657219a9610911540fb9b2a926d2c6dedec66612c43e523"
+    },
+    "Take off which piece of armour?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "97e59253ce078b13498192b8728448412cb1bcc035655f1f81b00dab7202bec2"
+    },
+    "Unequip which item?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "215a7c135abf23e549ba92aed51e48d4679f3ff7efebdcd9a5c79ba734d4d98d"
+    },
+    "<lightgray> (%s to select)</lightgray>": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "0e3617284d18b731f8bdc0ab6808271981fb4a7c5bab1ba033555ff64a82c8ca"
+    },
+    "<lightgray> (%s to %s)</lightgray>": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "cb054eac2c76a60d06de8eb392af5e6ed7cf872f5985c8f0c515fd73fc3572b3"
+    },
+    "(current attack)": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "4260b60970e1650760bb8e1a4552ab1f070414bd465a04a6a11ee732a498e184"
+    },
+    "(cancels current teleport)": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "4e4feb3a5a9199df252b08ba2e3107bf14fb041f4a45d3b333c7e9f55164a58c"
+    },
+    " %d selected item": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "fa0fdf3718bb3914d54a1e9d62a66c0fd1210cf3df293fffe89c69a880e5c631"
+    },
+    " %d selected items": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "fa0fdf3718bb3914d54a1e9d62a66c0fd1210cf3df293fffe89c69a880e5c631"
+    },
+    "Really unwield %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "144d4d08986c4d2929a266c2a4cfc3f95edf9e2a41c9a780e937872eb8ea73b4"
+    },
+    "Really take off %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a14e3c712f4271a215a12531e303178cb4fe5d4989299a48bae054b53b958025"
+    },
+    "Really remove %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "c7df5ca0b32077c742aa20d095308265561b2910a2900f6c0fb50dd06fb7524c"
+    },
+    "Really unwield and destroy %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "399e8bbeb29c321f51c837f4cd313b1b8d5ee8a4ffb8ae5e16bb015fe4c6ea44"
+    },
+    "Really take off and destroy %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "2c76373532f5db74336e08b9b4ce607983da76d41da8056041e3225c0e2ede2a"
+    },
+    "Really remove and destroy %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "2ea40a98a766497edd3a0f01009f6488732b9dc480d63f0640f0deecfb7ee1a1"
+    },
+    "Really %s %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "26633dfd786a8f2b3740dcaf4a5a455cf6d6b9bcded11c277078b3c0e8fe4504"
+    },
+    "Really %s %s while about to teleport?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "a0c6af1eb9d01f0046ca82d0830b376e2a9d411f2fa11d6a04bc67673e0e698c"
+    },
+    "Spend multiple turns changing equipment while %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "7542ab180237fdf6a4721e80ee249ff7825a900a1440d30eb1f1ad2b142fb3fb"
+    },
+    "Removing %s right now would cause you to drown!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "c8d1dcca716a518e742e40a8320079ec389741fb877b08e2ef366d8c87a89e4c"
+    },
+    "Removing %s right now would cause you to burn!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d729f589b10f5d133dfcbfd4ba91fb589d45f02928a42a08e815a21979ad5341"
+    },
+    "Really quaff the %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d53c984a38e5942c5602fce486c8a539751ed9c1a76db6edba782a6d266cc5d1"
+    },
+    "Really quaff with monsters nearby while wearing %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "9205e7939c67a3932d5dbe039d41bd94e89c73b8223d4b7dda8c06a785b5f092"
+    },
+    "Really read with monsters nearby while wearing %s?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "1fbc1ebfff407418041b9a43065e9ad21280cca5f4fd007df7de243668277b91"
+    },
+    "You %s %s.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "4fc0b6757cc2bcb1695ae71d1b143d3b1a823ccfa940cce6d9ac76a200b5b559"
+    },
+    "You can't remove anything in your present form.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "e7aa4aaaf0696ba6ee5c20635d15fca233f42f5ad70309a2f3f010d70df584d1"
+    },
+    "You can't wear jewellery.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "7f571d85032d73d7f831eba4164250a36b50e503cccf9f0ac84960bba468d7f1"
+    },
+    "You can't remove jewellery.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "eda5038e3e08c349bd140f0d33b241b99e6eaa37bab651e1f828509c27e83d1e"
+    },
+    "A cursed item is preventing you from removing %s.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "2bff886a78c1b16c22365c2ae946cc0c961ffc305c4d28860eab1cd3c96d30f4"
+    },
+    "%s is melded into your body!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "b843e1f174e5ee43dceee7278b24b363f30a70492840da8f3c632c1101cc17c1"
+    },
+    "%s is chained to your body!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "020f49515e6e5d679dc841908e4ceb1882020082e217f85569c7da4f8ff3c977"
+    },
+    "It would be unfitting for someone so glorious to remove their crown in front of an audience.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "ea16a4734e3c0229141d0c93d91f948aba0d0cc9e93698a3969eddb210e027b7"
+    },
+    "A wave of despondency washes over your surroundings.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "0512d42bef7992ff163dc26c0983c625121510af976bb4a259ad15daf5d22e62"
+    },
+    "You can't see any enemy this would conceal you from. Use anyway?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "c59668cb83c21980024d9f246348f36a10037d42e442882c8e278d34dae8d22e"
+    },
+    "you lack the shapeshifting skill to coax this talisman into a stable form.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "7cc8b4bd8e38eb62b19f4caca86af326bc76e7678c769ae7f8dc77caa48cb897"
+    },
+    "you can never gain the skill to use this talisman.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "17f42c1dc2600a7b94f0dfebdf1458bc8592a76bd00c27878e70578582ea80ff"
+    },
+    "you have forsworn all allies in Okawaru's name.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "535b7c84edacd2e3f413d3c4259745adfcc26d157b3421d3d437d141789383e2"
+    },
+    "you need to leave your temporary form first.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d60399d5c4b8a13017235167c3d6fa44c502d0ddafcb05254f905ac0e14328d2"
+    },
+    "you are loveless.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "1cb1755d015073fc8dc01b537de7923975f9ff8a07d4228ed4c88c4805a93df8"
+    },
+    "Still begin transforming?": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "9aaeb1bfbdf40fd616195d62071a83ebf799b470a81c734b6adf5f6f91354955"
+    },
+    "You have nothing you can fire or use right now.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "631dfce1d8575bb70df0487c03918bf00c3ed8c8e613aff54181a10145de8870"
+    },
+    "<lightgray>Fire/throw/use which item?</lightgray>": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "7625c872a8dc208de45260fcedb659bbdc76b52463597f5e2fe2530441349650"
+    },
+    "<lightgray>Fire/use which item?</lightgray>": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "40a44aaced203fcae334cb56f8a8def9284d30535cd6d4a8f30e1a4bf56b528e"
+    },
+    "{item-operation}equip": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "f643803464d5171b3ef8cd4552c17df0a65fe2f10e6679fd8e76c5b193544404"
+    },
+    "{item-operation}wield": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "d8ee60bf9be472d7b1dd9306c7406f921573724ef53492172d76bd0f75b40883"
+    },
+    "{item-operation}wear": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "c0ce9cdf8e736f15aee3ce201aaa3b0be817ee6e5236997fe733737d4cf768dc"
+    },
+    "{item-operation}put on": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "8fe9a7ca98e375cf56c2421c9eac26b092036c023d27e22123d3ed348b293a3c"
+    },
+    "{item-operation}quaff": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "dd81f7d7f44c4357394959d7fac8f3b91f12cffcafc1375f4645788da04c23df"
+    },
+    "{item-operation}read": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "1b7fda6b00728da4ba631fd74120082e07fddc4903112b117d8110c15de2894e"
+    },
+    "{item-operation}evoke": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "166797c52fbf36e568e5d0884b13c053cff11c895fa5b3ec5183e58e4eb70df1"
+    },
+    "{item-operation}take off": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "d96e6d7029f5c7ebbc3a92a49f7c50f54f460ffda164d079ddd33fa023e3a22f"
+    },
+    "{item-operation}remove": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "355e01701e1726604f6cad32327ceceb4a7b895d5a3396f79bfd2954275b9fad"
+    },
+    "{item-operation}unequip": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "e0195b3c6fedae2f0b5e06f8241b007268849865892c2af96874dda98990fbe1"
+    },
+    "{item-operation}unwield": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "73de9aa420ec32af2759e2068f1a579fedb23c7ee6219ca8767481ff90fdb32e"
+    },
+    "{item-operation}select": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "41c54e84d55a95b9626aa3396d826f68d178e838f9233bf64aff855b003785fe"
+    },
+    "{item-operation}choose": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "41c54e84d55a95b9626aa3396d826f68d178e838f9233bf64aff855b003785fe"
+    },
+    "{item-operation}drop": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "f2487ea24409676244113a637c5a78b68f4ce21186ff6138dacf0cbf0a3e7a9e"
+    },
+    "{item-operation}memorise from": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "f5abf4a4cfb956a23dab50718ca2284b54d8f211c1969c20939617188f145a06"
+    },
+    "{item-operation}zap": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "ae608456d4cb91777655b59b54264af4335e2f0e59559bb227b56033c22d09fb"
+    },
+    "{item-operation}fire": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "8beb9f68ccbbd647a9372483cb5c505b0304ce15cdff4e5a8684c3c72c5d953b"
+    },
+    "{item-operation}quiver": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "125ccffd2d5b408dd2a315536ce38cf7bd584f1843ed7bed0ac3da0662f175cf"
+    },
+    "{item-menu-operation}equip": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "4cb53f96be4f76cddc847d68402a97b813709963de7ee246fc2d631a15114cac"
+    },
+    "{item-menu-operation}wield": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "2600cda11e6cabb14518c6ae06ed2cd7eda8414feb95a157efc94c6c44985ac9"
+    },
+    "{item-menu-operation}wear": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "b2b7d2a0e85e4b90d18144151f20328b648e81f2252760c72d17356d985a46db"
+    },
+    "{item-menu-operation}put on": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "53de37398c8106ed8541f9d875dc0193913d91206022f4f0111d3ae5bdd22e3c"
+    },
+    "{item-menu-operation}quaff": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "e06e6ec8db8d58f0d79c6ccd589502b13308c0832defc9145d01b7002db50770"
+    },
+    "{item-menu-operation}read": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "eb02ecab177f811e2abef9d66035943051a19d473898f8bf6aebe040cdfd9c06"
+    },
+    "{item-menu-operation}evoke": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "f5597ebc7df94a5f819554bc1b9627662213ef0ededde4a881a5a5af13afbe82"
+    },
+    "{item-menu-operation}take off": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "b2b7d2a0e85e4b90d18144151f20328b648e81f2252760c72d17356d985a46db"
+    },
+    "{item-menu-operation}remove": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "53de37398c8106ed8541f9d875dc0193913d91206022f4f0111d3ae5bdd22e3c"
+    },
+    "{item-menu-operation}unequip": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "4cb53f96be4f76cddc847d68402a97b813709963de7ee246fc2d631a15114cac"
+    },
+    "{item-menu-operation}select": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "4cf5673bf1e33505f15a78b31d57f2d85234dc8f4aa7b554510e34ba3e021fff"
+    },
+    "{item-unequip}unwield": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "809dd3458069b739b7deae538fc0c9fa3943eb11f878082d6ef8caa7add3db58"
+    },
+    "{item-unequip}take off": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "22a1214b67a766a2ab599e90b91b9ea76496dbc935879e8ae26aa1b9ac516a64"
+    },
+    "{item-unequip}remove": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "8c82074a1671ee244c6057673259a1e00fbd0a5e6e51675f180eb5d7f2de091f"
+    },
+    "{item-unequip}unequip": {
+      "context": "Display-only item-operation vocabulary; warning infinitives, compact menu modes and completed-removal verbs are separate. Operation enums, !r/!w/!P inscriptions, Lua and English item-name generation remain unchanged.",
+      "translation_sha256": "fadea691d84c117ba27aa62e2fbe969d28cd6d9787a37de0a1b55df9a363dfb0"
+    },
+    "{weapon-brand}%s becomes incredibly heavy!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "5136723599c8f9c0ac7ce926380536cb90afb1d0dbad552ed75cc2643a4c0ca8"
+    },
+    "{weapon-brand}%s projects an invisible shield of force!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "c346163168e273400c40fa2e290dcc3264a581314bcd9081707eec75bfbf7e4c"
+    },
+    "{weapon-brand}%s is engulfed in flames!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "3670419c0743bccdf37f382933dcddef940529cf77f70270e116f7f29a12d062"
+    },
+    "{weapon-brand}%s is covered with a thin layer of ice!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "75dacef0c4b8bd1ba7979e969279d3288e94df1ab65d4af6b28b9db72f7a2c22"
+    },
+    "{weapon-brand}%s craves living souls!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "50ed7c88992eb8e9f21ddf0ac1125e921ffa4442d54072d0cc5bc532144a3f39"
+    },
+    "{weapon-brand}%s thirsts for the lives of mortals!": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "ae2ef1a1ce322e6f54752110ce744f78247d9ec72a83e0bfc69512b4af4fba0d"
+    },
+    "{weapon-brand}%s drips with poison.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "474f56a5263ba3b146071d3d6d27a5fd1870b933541dddbb2c094b81e1a04dc7"
+    },
+    "{weapon-brand}%s crackles with electricity.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "b63d3f2e1271bb82b4980cf10ffb4c1d02f92417a57609192ff9c55f43599231"
+    },
+    "{weapon-brand}%s erupts in a glittering mayhem of colour.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "40cc39fbc3697a9813ef2e40776a299e44c96c6d6bcf7d899c49a8ce2f3fe76f"
+    },
+    "{weapon-brand}%s oozes corrosive slime.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "0aab3e580fc56d1e3baa89577aba090986192be9375885b2baa82f435ee49994"
+    },
+    "{weapon-brand}%s acquires a faint afterimage.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "e390a87ba9d8ac7baa099b55eebd4b1aaeff05ef6a41bc90b3186f8927113721"
+    },
+    "{weapon-brand}%s quivers with indignation.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "ce6f82b9bea7b1acb0fce5de51af6fc8d78db6ffe98475bf7b3557df2c5e76f1"
+    },
+    "{weapon-brand}%s thrums with vital power.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "26058874435bcb7e7e6768bef6c743921176cb60d0e62e533c4e85f00b27debe"
+    },
+    "{weapon-brand}%s erupts in a tangle of vines.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "30b8980643bc7644c859a67ab2e944540f3762f2cb0c222fe8566315b2964730"
+    },
+    "{weapon-brand}%s becomes viciously sharp.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "d3d4de8d509a9959ef07ee976fc50050be7e2dad77c3c17ba083ad6259a9a684"
+    },
+    "{weapon-brand}%s begins to exert an overwhelming pressure.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "16b76e060ec859383b308867d905bbc67048e6a3fd1be4f3df38ed3cc79c1304"
+    },
+    "{weapon-brand}%s glints wickedly in the shadows.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "bc73a4ef6816139139bbe521e00c6e14503e6316581e1197161d07a52c2a091d"
+    },
+    "{weapon-enchant}%s glows red for a moment.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "33a5b322c77de34c07fa16ae00c6678084bcee1ef8939a18aea6177641e74434"
+    },
+    "{weapon-enchant}%s glows red for a while.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "69de7a13bc3ba01423e2786140e681eebb995a6350a9331841af42bea8392eb1"
+    },
+    "{armour-enchant}%s glow green for a moment.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "efa915eefa0b8af73dcf8e7d74524c56cde84de76b4020bbb4438ca1a98fb412"
+    },
+    "{armour-enchant}%s glows green for a moment.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "efa915eefa0b8af73dcf8e7d74524c56cde84de76b4020bbb4438ca1a98fb412"
+    },
+    "{armour-enchant}%s glow green for a while.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "88f200df423932071acf98ffdcf8176c26eec4a5c9b7670e7c2d85c6a7b58ff6"
+    },
+    "{armour-enchant}%s glows green for a while.": {
+      "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
+      "translation_sha256": "88f200df423932071acf98ffdcf8176c26eec4a5c9b7670e7c2d85c6a7b58ff6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

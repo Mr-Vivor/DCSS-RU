@@ -10,6 +10,7 @@
 #include "env.h"
 #include "l-libs.h"
 #include "initfile.h"
+#include "invent.h"
 #include "hiscores.h"
 #include "localise.h"
 #include "macro.h"
@@ -20,6 +21,7 @@
 #include "player-save-info.h"
 #include "ui.h"
 #include "item-prop.h"
+#include "item-use.h"
 #include "player.h"
 #include "pattern.h"
 #include "stash.h"
@@ -870,5 +872,75 @@ TEST_CASE("Russian ability costs preserve resources, failure costs and raw abili
     CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("5 MP") != string::npos);
     CHECK(make_cost_description(ABIL_OKAWARU_FINESSE).find("Piety") != string::npos);
     CHECK(get_ability_desc(ABIL_OKAWARU_FINESSE).find("This ability costs: ") != string::npos);
+    Options.language = lang_t::RU;
+}
+
+
+TEST_CASE("Russian item warnings preserve inscriptions, destruction and teleport conditions", "[localise][single-file]")
+{
+    russian_localisation language;
+    item_def scroll;
+    scroll.base_type = OBJ_SCROLLS;
+    scroll.sub_type = SCR_FEAR;
+    scroll.quantity = 1;
+    scroll.flags |= ISFLAG_IDENTIFIED;
+    scroll.inscription = "!r";
+    CHECK(needs_handle_warning(scroll, OPER_READ));
+    CHECK_FALSE(needs_handle_warning(scroll, OPER_QUAFF));
+    const string prompt = item_operation_warning(scroll, OPER_READ);
+    INFO(prompt);
+    CHECK(prompt.find("Прочитать:") == 0);
+    CHECK(prompt.find("свиток страха") != string::npos);
+    CHECK(prompt.find("!r") != string::npos);
+    CHECK(prompt.find("Really") == string::npos);
+    CHECK(scroll.inscription == "!r");
+    CHECK(scroll.name(DESC_DBNAME) == "scroll of fear");
+    CHECK(scroll.quantity == 1);
+
+    item_def weapon;
+    weapon.base_type = OBJ_WEAPONS;
+    weapon.sub_type = WPN_DAGGER;
+    weapon.quantity = 1;
+    weapon.flags |= ISFLAG_IDENTIFIED;
+    CHECK(item_removal_warning(weapon).find("Убрать из рук:") == 0);
+    CHECK(item_removal_warning(weapon).find("уничтожить") == string::npos);
+    weapon.flags |= ISFLAG_SUMMONED;
+    CHECK(item_removal_warning(weapon).find("и уничтожить:") != string::npos);
+    CHECK(item_unequip_verb(weapon) == "unwield");
+
+    item_def armour;
+    armour.base_type = OBJ_ARMOUR;
+    armour.sub_type = ARM_ROBE;
+    armour.quantity = 1;
+    armour.flags |= ISFLAG_IDENTIFIED;
+    CHECK(item_removal_warning(armour).find("Снять доспехи:") == 0);
+    armour.flags |= ISFLAG_SUMMONED;
+    CHECK(item_removal_warning(armour).find("Снять и уничтожить доспехи:") == 0);
+
+    const auto old_unique = get_unique_item_status(UNRAND_TROG);
+    item_def artifact;
+    artifact.quantity = 1;
+    REQUIRE(make_item_unrandart(artifact, UNRAND_TROG));
+    set_unique_item_status(artifact, old_unique);
+    artifact.flags |= ISFLAG_IDENTIFIED;
+    artefact_set_property(artifact, ARTP_PREVENT_TELEPORTATION, 1);
+    const int previous_teleport = you.duration[DUR_TELEPORT];
+    you.duration[DUR_TELEPORT] = 20;
+    CHECK(needs_notele_warning(artifact, OPER_EQUIP));
+    CHECK(item_operation_warning(artifact, OPER_EQUIP).find("заблокирует ожидаемую телепортацию") != string::npos);
+    you.duration[DUR_TELEPORT] = 0;
+    CHECK_FALSE(needs_notele_warning(artifact, OPER_EQUIP));
+    CHECK(item_operation_warning(artifact, OPER_EQUIP).find("телепортацию") == string::npos);
+    you.duration[DUR_TELEPORT] = previous_teleport;
+
+    for (int count : { 1, 2, 5, 21 })
+    {
+        const char* format = count == 1 ? " %d selected item" : " %d selected items";
+        CHECK(make_stringf(localise(format).c_str(), count) == " Выбрано: " + to_string(count));
+    }
+    Options.language = lang_t::EN;
+    CHECK(item_operation_warning(scroll, OPER_READ).find("Really read ") == 0);
+    CHECK(item_removal_warning(armour).find("Really take off and destroy ") == 0);
+    CHECK(scroll.inscription == "!r");
     Options.language = lang_t::RU;
 }
