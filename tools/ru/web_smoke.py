@@ -169,8 +169,13 @@ def main():
                     page.wait_for_function("document.body.innerText.includes('На какой этаж ветви')")
                     page.screenshot(path=str(ARTIFACTS / "travel-depth-prompt.png"), full_page=True)
                     page.keyboard.press("Escape")
+                    page.locator("#messages .game_message input").wait_for(state="detached")
                     page.keyboard.press("Control+w")
-                    page.wait_for_function("document.body.innerText.includes('Какой номер назначить путевой точке?')")
+                    page.wait_for_function("""() => {
+                        const messages = document.querySelectorAll('#messages .game_message');
+                        return messages.length && messages[messages.length - 1].innerText
+                            .includes('Какой номер назначить путевой точке?');
+                    }""")
                     page.keyboard.type("D")
                     page.wait_for_function("document.body.innerText.includes('Какую путевую точку удалить?')")
                     page.keyboard.type("0")
