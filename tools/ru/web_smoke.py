@@ -350,7 +350,7 @@ def main():
                     spell_page.screenshot(path=str(ARTIFACTS / "manifold-description.png"), full_page=True)
                     (ARTIFACTS / "manifold-description.txt").write_text(expansion_text, encoding="utf8")
                     spell_page.keyboard.press("Escape")
-                    spell_page.wait_for_function("document.body.innerText.includes('Заклинания (описание)')")
+                    spell_row.wait_for(state="visible")
                     spell_page.keyboard.press("Escape")
                     spell_page.wait_for_function("document.querySelectorAll('#ui-stack > .ui-popup').length === 0")
                     # Replace only this isolated wizard's current tile. Inspect
