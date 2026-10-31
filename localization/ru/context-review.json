@@ -24,9 +24,10 @@
         "artefact.cc",
         "dat/descript/egos.txt",
         "describe.cc",
-        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged."
+        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged.",
+        "Reviewed current wand category and gizmo effect labels against terms.json and item-name.cc; invented module names transliterated, raw identifiers unchanged."
       ],
-      "translations_sha256": "121e6c102db823a2a2a8e9a141a8c403c032c9e0b6f462b377f54eea68fcd266",
+      "translations_sha256": "b6b0b66a0b36f7992954ecca9a9135908de6bcc6c4a78002f804ea1949fdf605",
       "entries": 187
     },
     "skills": {
