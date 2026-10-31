@@ -484,9 +484,9 @@ def main():
                     scroll_row = inventory_row(spell_page, "свиток страха")
                     scroll_row.click()
                     spell_page.locator(".describe-item .actions [data-hotkey='i']").click()
-                    # msgwin_get_line uses the active inventory menu's title
-                    # prompt here (menu.js), not the generic input dialog.
-                    inscription_input = spell_page.locator("#title_prompt")
+                    # msgwin_get_line opens its own synced UI layout when
+                    # called from an existing inventory popup (message.cc).
+                    inscription_input = spell_page.locator("#ui-stack .msgwin-get-line input")
                     inscription_input.wait_for(state="visible")
                     inscription_input.fill("!r")
                     spell_page.keyboard.press("Enter")
