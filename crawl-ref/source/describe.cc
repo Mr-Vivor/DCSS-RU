@@ -6684,10 +6684,18 @@ string _monster_habitat_description(const monster_info& mi)
     switch (mons_habitat_type(type, mi.base_type))
     {
     case HT_AMPHIBIOUS:
-        return localise(mi.type == MONS_ORC_APOSTLE
-                        ? "Can walk on water.\n" : "Can travel through water.\n");
+        if (Options.language == lang_t::RU)
+            return localise(mi.type == MONS_ORC_APOSTLE
+                            ? "Can walk on water.\n" : "Can travel through water.\n");
+        return uppercase_first(make_stringf("%s can %s water.\n",
+                               mi.pronoun(PRONOUN_SUBJECTIVE),
+                               mi.type == MONS_ORC_APOSTLE
+                                ? "walk on" : "travel through"));
     case HT_AMPHIBIOUS_LAVA:
-        return localise("Can travel through lava.\n");
+        if (Options.language == lang_t::RU)
+            return localise("Can travel through lava.\n");
+        return uppercase_first(make_stringf("%s can travel through lava.\n",
+                               mi.pronoun(PRONOUN_SUBJECTIVE)));
     default:
         return "";
     }
