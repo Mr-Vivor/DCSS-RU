@@ -15,6 +15,7 @@
 #include "english.h" // apostrophise
 #include "env.h"
 #include "fight.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "melee-attack.h"
 #include "message.h"
