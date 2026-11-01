@@ -327,7 +327,7 @@ void InvMenu::set_preselect(const vector<SelItem> *pre)
 
 string slot_description()
 {
-    return make_stringf("%d/%d gear slots", inv_count(INVENT_GEAR), MAX_GEAR);
+    return make_stringf(localise("%d/%d gear slots").c_str(), inv_count(INVENT_GEAR), MAX_GEAR);
 }
 
 void InvMenu::set_title(const string &s)
@@ -337,17 +337,17 @@ void InvMenu::set_title(const string &s)
         string str;
         switch (cur_osel)
         {
-            case 0: str = "Gear: " + slot_description(); break;
-            case 1: str = "Potions: "; break;
-            case 2: str = "Scrolls: "; break;
-            case 3: str = "Evocable Items: "; break;
+            case 0: str = localise("Gear: ") + slot_description(); break;
+            case 1: str = localise("Potions: "); break;
+            case 2: str = localise("Scrolls: "); break;
+            case 3: str = localise("Evocable Items: "); break;
         }
-        str += "    (Left/Right/Tab to switch category)";
+        str += localise("    (Left/Right/Tab to switch category)");
         set_title(new InvTitle(this, str, title_annotate));
         return;
     }
 
-    set_title(new InvTitle(this, s.empty() ? "Inventory: " + slot_description()
+    set_title(new InvTitle(this, s.empty() ? localise("Inventory: ") + slot_description()
                                            : s,
                            title_annotate));
 }
@@ -1510,7 +1510,8 @@ void display_inventory()
 
 static string _drop_menu_titlefn(const Menu*, const string &)
 {
-    return "Drop what? (Left/Right/Tab to switch category) " + slot_description() + " (_ for help)";
+    return localise("Drop what? (Left/Right/Tab to switch category) ")
+           + slot_description() + localise(" (_ for help)");
 }
 
 /**
@@ -1841,7 +1842,8 @@ int prompt_invent_item(const char *prompt,
         }
 
         if (need_prompt)
-            mprf(MSGCH_PROMPT, "%s (<w>?</w> for menu, <w>Esc</w> to quit)", prompt);
+            mprf(MSGCH_PROMPT, localise("%s (<w>?</w> for menu, <w>Esc</w> to quit)").c_str(),
+                 localise(prompt).c_str());
         else
             flush_prev_message();
 

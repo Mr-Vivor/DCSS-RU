@@ -3089,7 +3089,8 @@ static string _general_cannot_read_reason()
         return "You cannot read scrolls in your current state!";
 
     if (you.is_silenced())
-        return make_stringf("You cannot read scrolls while %s!", player_silenced_reason());
+        return make_stringf(localise("You cannot read scrolls while %s!").c_str(),
+            localise_in_context("casting-blocked", player_silenced_reason()).c_str());
 
     if (you.has_mutation(MUT_RENOUNCE_SCROLLS) && you.props.exists(RENOUNCE_SCROLLS_TIMER_KEY))
         return "You refuse to depend on such disposable conveniences.";

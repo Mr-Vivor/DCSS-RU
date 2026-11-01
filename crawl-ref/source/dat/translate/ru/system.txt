@@ -26834,7 +26834,7 @@ Lets you pick your background first.
 %%%%
 "    (Left/Right/Tab to switch category)"
 
-"    (Left/Right/Tab — сменить категорию)"
+"    (←/→/Tab — сменить категорию)"
 %%%%
 "Inventory: "
 
@@ -26842,7 +26842,7 @@ Lets you pick your background first.
 %%%%
 "Drop what? (Left/Right/Tab to switch category) "
 
-"Что выбросить? (Left/Right/Tab — сменить категорию) "
+"Что выбросить? (←/→/Tab — сменить категорию) "
 %%%%
 " (_ for help)"
 
@@ -41931,3 +41931,243 @@ They are an unusual item.
 Two beams: %s
 
 Два луча: %s
+%%%%
+Your equipment melds into your body: %s.
+
+Снаряжение сливается с вашим телом: %s.
+%%%%
+Your equipment unmelds from your body: %s.
+
+Снаряжение снова доступно: %s.
+%%%%
+You can't wield any weapon.
+
+Вы не можете использовать оружие.
+%%%%
+You'd need another %s to do that!
+
+Для этого нужна ещё одна конечность (тип: %s)!
+%%%%
+You can't hold anything in your paws.
+
+Вашими лапами нельзя удерживать предметы.
+%%%%
+You can't haunt something so large.
+
+Вы не можете вселиться в такой большой предмет.
+%%%%
+Your wings%s won't fit in that.
+
+Ваши крылья%s не помещаются в этот доспех.
+%%%%
+, even vestigial as they are,
+
+, даже зачаточные,
+%%%%
+That is much too large for your head.
+
+Этот предмет слишком велик для вашей головы.
+%%%%
+Those are too big for your %s.
+
+Предмет слишком велик для вас (анатомия: %s).
+%%%%
+Those are too small for your %s.
+
+Предмет слишком мал для вас (анатомия: %s).
+%%%%
+Those can't fit on your %s.
+
+Ваша анатомия не позволяет надеть этот предмет (%s).
+%%%%
+Those can't fit over your huge %s.
+
+Слишком большие конечности (%s) не позволяют надеть этот предмет.
+%%%%
+Your demonic touch would destroy those.
+
+Ваше демоническое касание уничтожило бы эти перчатки.
+%%%%
+Your hooves can't fit into boots.
+
+Копыта не помещаются в обувь.
+%%%%
+Your talons can't fit into boots.
+
+Когти на ногах не помещаются в обувь.
+%%%%
+You don't have any shoulders.
+
+У вас нет плеч для плаща.
+%%%%
+You can't wear that with your sharp stinger!
+
+Ваше острое жало мешает надеть этот предмет!
+%%%%
+You lack an exoframe to install that in.
+
+У вас нет экзокаркаса, куда можно установить это устройство.
+%%%%
+That isn't an equippable item.
+
+Этот предмет нельзя использовать как снаряжение.
+%%%%
+You can't equip that in your current form.
+
+В нынешнем облике вы не можете использовать этот предмет.
+%%%%
+That is too %s for you to equip!
+
+Этот предмет слишком %s для вас!
+%%%%
+This helmet is too small for your head.
+
+Этот шлем слишком мал для вашей головы.
+%%%%
+This helmet is too large for your head.
+
+Этот шлем слишком велик для вашей головы.
+%%%%
+You can't fit that over your horns.
+
+Ваши рога не позволяют надеть этот предмет.
+%%%%
+You can't fit that over your antennae.
+
+Ваши усики не позволяют надеть этот предмет.
+%%%%
+You can't fit that over your beak.
+
+Ваш клюв не позволяет надеть этот предмет.
+%%%%
+%d/%d gear slots
+
+%d/%d мест
+%%%%
+%s (<w>?</w> for menu, <w>Esc</w> to quit)
+
+%s (<w>?</w> — меню, <w>Esc</w> — выход)
+%%%%
+You don't currently have any unidentified items.
+
+В инвентаре нет неопознанных предметов.
+%%%%
+You aren't carrying any amulets.
+
+В инвентаре нет амулетов.
+%%%%
+You aren't carrying any jewellery or talismans.
+
+В инвентаре нет украшений или талисманов.
+%%%%
+None of your equipped items are bound to you.
+
+Среди используемого снаряжения нет прикованных к вам предметов.
+%%%%
+You aren't wearing any pieces of armour.
+
+Вы не используете доспехи.
+%%%%
+You aren't wearing any rings, amulets, or talismans.
+
+Вы не используете кольца, амулеты или талисманы.
+%%%%
+You aren't wearing anything.
+
+На вас нет снаряжения.
+%%%%
+You aren't carrying anything that can be equipped.
+
+В инвентаре нет предметов, которые можно использовать как снаряжение.
+%%%%
+You aren't carrying any artefact melee weapons.
+
+В инвентаре нет артефактного оружия ближнего боя.
+%%%%
+You aren't wearing any items which can be bound.
+
+Нет используемых предметов, которые можно приковать к вам.
+%%%%
+That's the wrong kind of item!
+
+Это неподходящий тип предмета!
+%%%%
+You cannot read scrolls while %s!
+
+Вы не можете читать свитки: %s!
+%%%%
+You learned that %s %s actually %s.
+
+Вы выяснили: «%s» %s «%s».
+%%%%
+%s has recharged.
+
+Предмет «%s» снова готов к использованию.
+%%%%
+You hear a faint sloshing from %s as it returns to readiness.
+
+В предмете «%s» слышен тихий плеск: он снова готов к использованию.
+%%%%
+Water glimmers in %s, now refilled and ready to use.
+
+В предмете «%s» мерцает вода: он наполнен и снова готов к использованию.
+%%%%
+You hear chittering from %s. It's ready.
+
+В предмете «%s» слышится стрекот. Он снова готов к использованию.
+%%%%
+%s twitches, refilled and ready to use.
+
+Предмет «%s» подёргивается: он восстановился и снова готов к использованию.
+%%%%
+%s jingles faintly as it regains its power.
+
+Предмет «%s» тихо звенит, восстанавливая свою силу.
+%%%%
+%s shakes itself petulantly as it silently regains its power.
+
+Предмет «%s» нетерпеливо встряхивается, беззвучно восстанавливая свою силу.
+%%%%
+An ally is currently targeting this creature: %s.
+
+На это существо нацелен союзник: %s.
+%%%%
+Your allies are currently targeting this creature:
+
+На это существо нацелены ваши союзники:
+%%%%
+This ally is currently targeting %s.
+
+Текущая цель этого союзника: «%s».
+%%%%
+{equipment-fit-size}large
+
+{equipment-fit-size}велик
+%%%%
+{equipment-fit-size}small
+
+{equipment-fit-size}мал
+%%%%
+{identification-link}are
+
+{identification-link}— это
+%%%%
+{identification-link}is
+
+{identification-link}— это
+%%%%
+%s has regained one charge.
+
+У предмета «%s» восстановился 1 заряд.
+%%%%
+%s has regained two charges.
+
+У предмета «%s» восстановились 2 заряда.
+%%%%
+%s has regained three charges.
+
+У предмета «%s» восстановились 3 заряда.
+%%%%
+%s has regained four charges.
+
+У предмета «%s» восстановились 4 заряда.

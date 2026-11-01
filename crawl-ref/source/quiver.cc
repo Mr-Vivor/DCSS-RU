@@ -924,8 +924,8 @@ namespace quiver
             {
                 if (god_forbids_item(you.inv[item_slot]))
                 {
-                    mprf(MSGCH_GOD, "%s forbids the use of this item.",
-                         uppercase_first(god_name(you.religion)).c_str());
+                    mprf(MSGCH_GOD, localise("%s forbids the use of this item.").c_str(),
+                         localise(uppercase_first(god_name(you.religion))).c_str());
                 }
                 else
                     fire_warn_if_impossible(false, nullptr); // for messaging (TODO refactor; message about inscriptions?)

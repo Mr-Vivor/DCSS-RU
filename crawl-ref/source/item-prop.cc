@@ -26,6 +26,7 @@
 #include "item-status-flag-type.h"
 #include "item-use.h"
 #include "libutil.h" // map_find
+#include "localise.h"
 #include "message.h"
 #include "notes.h"
 #include "orb-type.h"
@@ -3407,10 +3408,10 @@ void seen_item(item_def &item)
                 && you.inv[i].sub_type == item.sub_type)
             {
                 held = &you.inv[i];
-                mprf("You learned that %s %s actually %s.",
-                        held->name(DESC_YOUR).c_str(),
-                        held->quantity > 1 ? "are" : "is",
-                        held->name(DESC_A, false, true).c_str());
+                mprf(localise("You learned that %s %s actually %s.").c_str(),
+                        localise(held->name(DESC_YOUR)).c_str(),
+                        localise_in_context("identification-link", held->quantity > 1 ? "are" : "is").c_str(),
+                        localise(held->name(DESC_A, false, true)).c_str());
                 break;
             }
         }
@@ -3540,8 +3541,8 @@ static string _xp_evoker_recharge_msg(const item_def &evoker, int gained, bool s
 
 void print_xp_evoker_recharge(const item_def &evoker, int gained, bool silenced)
 {
-    mprf(_xp_evoker_recharge_msg(evoker, gained, silenced).c_str(),
-         evoker.name(DESC_YOUR).c_str());
+    mprf(localise(_xp_evoker_recharge_msg(evoker, gained, silenced)).c_str(),
+         localise(evoker.name(DESC_YOUR)).c_str());
 }
 
 /// witchcraft. copied from mon-util.h's get_resist

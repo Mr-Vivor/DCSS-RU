@@ -18,6 +18,7 @@
 #include "god-item.h"
 #include "god-passive.h"
 #include "hints.h"
+#include "initfile.h"
 #include "invent.h"
 #include "item-name.h"
 #include "item-prop.h"
@@ -25,6 +26,7 @@
 #include "items.h"
 #include "item-use.h"
 #include "libutil.h"
+#include "localise.h"
 #include "macro.h" // command_to_string
 #include "monster.h"
 #include "message.h"
@@ -96,8 +98,8 @@ int count = 0;
                 NO_SLOT("You need the rest of your tentacles for walking.")
             else
             {
-                NO_SLOT(make_stringf("You'd need another %s to do that!",
-                                        you.hand_name(false).c_str()))
+                NO_SLOT(make_stringf(localise("You'd need another %s to do that!").c_str(),
+                                        localise(you.hand_name(false)).c_str()))
             }
         }
         else if (you.has_mutation(MUT_NO_GRASPING))
@@ -119,9 +121,9 @@ int count = 0;
             NO_SLOT("You can't haunt something so large.")
         if (species::is_draconian(you.species))
         {
-            NO_SLOT(make_stringf("Your wings%s won't fit in that.",
-                                    you.has_mutation(MUT_BIG_WINGS)
-                                    ? "" : ", even vestigial as they are,"))
+            NO_SLOT(make_stringf(localise("Your wings%s won't fit in that.").c_str(),
+                                    (you.has_mutation(MUT_BIG_WINGS)
+                                    ? "" : localise(", even vestigial as they are,")).c_str()))
         }
         else if (you.species == SP_OCTOPODE || you.has_mutation(MUT_NO_ARMOUR))
             NO_SLOT("You can't wear armour!");
@@ -159,13 +161,13 @@ int count = 0;
         if (you.has_mutation(MUT_FORMLESS))
             NO_SLOT("You don't have hands.")
         else if (player_size <= SIZE_LITTLE)
-            NO_SLOT(make_stringf("Those are too big for your %s.", you.hand_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those are too big for your %s.").c_str(), localise(you.hand_name(true)).c_str()))
         else if (player_size >= SIZE_LARGE)
-            NO_SLOT(make_stringf("Those are too small for your %s.", you.hand_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those are too small for your %s.").c_str(), localise(you.hand_name(true)).c_str()))
         else if (you.species == SP_OCTOPODE || you.has_mutation(MUT_NO_ARMOUR))
-            NO_SLOT(make_stringf("Those can't fit on your %s.", you.hand_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those can't fit on your %s.").c_str(), localise(you.hand_name(true)).c_str()))
         else if (you.get_mutation_level(MUT_CLAWS, false) >= 3)
-            NO_SLOT(make_stringf("Those can't fit over your huge %s.", you.hand_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those can't fit over your huge %s.").c_str(), localise(you.hand_name(true)).c_str()))
         else if (you.get_mutation_level(MUT_DEMONIC_TOUCH, false) >= 3)
             NO_SLOT("Your demonic touch would destroy those.")
         else
@@ -177,9 +179,9 @@ int count = 0;
         if (species::wears_barding(you.species) || you.has_mutation(MUT_FORMLESS))
             NO_SLOT("You don't have any feet!")
         else if (player_size <= SIZE_LITTLE)
-            NO_SLOT(make_stringf("Those are too big for your %s.", you.foot_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those are too big for your %s.").c_str(), localise(you.foot_name(true)).c_str()))
         else if (player_size >= SIZE_LARGE)
-            NO_SLOT(make_stringf("Those are too small for your %s.", you.foot_name(true).c_str()))
+            NO_SLOT(make_stringf(localise("Those are too small for your %s.").c_str(), localise(you.foot_name(true)).c_str()))
         else if (you.species == SP_OCTOPODE || you.has_mutation(MUT_NO_ARMOUR))
             NO_SLOT("You can't wear boots.")
         else if (you.get_mutation_level(MUT_HOOVES, false) >= 3)
@@ -482,8 +484,8 @@ bool can_equip_item(const item_def& item, bool temp, string* veto_reason,
     {
         if (god_forbids)
             *god_forbids = true;
-        NO_EQUIP(make_stringf("%s forbids the use of this item.",
-                              uppercase_first(god_name(you.religion)).c_str()))
+        NO_EQUIP(make_stringf(localise("%s forbids the use of this item.").c_str(),
+                              localise(uppercase_first(god_name(you.religion))).c_str()))
     }
 
     vector<equipment_slot> slots = get_all_item_slots(item);
@@ -533,8 +535,8 @@ bool can_equip_item(const item_def& item, bool temp, string* veto_reason,
             int bad_size = fit_armour_size(item, player_size);
             if (bad_size != 0)
             {
-                NO_EQUIP(make_stringf("That is too %s for you to equip!",
-                                            (bad_size > 0) ? "large" : "small"))
+                NO_EQUIP(make_stringf(localise("That is too %s for you to equip!").c_str(),
+                            localise_in_context("equipment-fit-size", bad_size > 0 ? "large" : "small").c_str()))
             }
         }
 
@@ -814,7 +816,8 @@ void player_equip_set::find_removable_items_for_slot(equipment_slot base_slot,
     }
 
     if (!quiet && !found_item && cursed_item)
-        mprf(MSGCH_PROMPT, "%s is chained to your body!", cursed_item->name(DESC_YOUR).c_str());
+        mprf(MSGCH_PROMPT, localise("%s is chained to your body!").c_str(),
+             localise(cursed_item->name(DESC_YOUR)).c_str());
 }
 
 /**
@@ -1208,13 +1211,19 @@ void player_equip_set::handle_melding(vector<item_def*>& to_meld, bool skip_effe
         return;
 
     // Print a message.
+    const bool russian = Options.language == lang_t::RU && localisation_active();
     vector<string> meld_msg;
     for (item_def* meld_item : to_meld)
-        meld_msg.emplace_back(meld_item->name(DESC_PLAIN));
+        meld_msg.emplace_back(russian ? localise(meld_item->name(DESC_PLAIN))
+                                     : meld_item->name(DESC_PLAIN));
 
-    mprf("Your %s meld%s into your body.",
-            comma_separated_line(meld_msg.begin(), meld_msg.end()).c_str(),
-            meld_msg.size() > 1 ? "" : "s");
+    if (russian)
+        mprf(localise("Your equipment melds into your body: %s.").c_str(),
+             comma_separated_line(meld_msg.begin(), meld_msg.end(), localise(" and ")).c_str());
+    else
+        mprf("Your %s meld%s into your body.",
+                comma_separated_line(meld_msg.begin(), meld_msg.end()).c_str(),
+                meld_msg.size() > 1 ? "" : "s");
 
     update();
 
@@ -1326,13 +1335,19 @@ void player_equip_set::handle_unmelding(vector<item_def*>& to_unmeld, bool skip_
     // Print a message.
     if (!skip_effects)
     {
+        const bool russian = Options.language == lang_t::RU && localisation_active();
         vector<string> unmeld_msg;
         for (item_def* unmeld_item : to_unmeld)
-            unmeld_msg.emplace_back(unmeld_item->name(DESC_PLAIN));
+            unmeld_msg.emplace_back(russian ? localise(unmeld_item->name(DESC_PLAIN))
+                                           : unmeld_item->name(DESC_PLAIN));
 
-        mprf("Your %s unmeld%s from your body.",
-                comma_separated_line(unmeld_msg.begin(), unmeld_msg.end()).c_str(),
-                unmeld_msg.size() > 1 ? "" : "s");
+        if (russian)
+            mprf(localise("Your equipment unmelds from your body: %s.").c_str(),
+                 comma_separated_line(unmeld_msg.begin(), unmeld_msg.end(), localise(" and ")).c_str());
+        else
+            mprf("Your %s unmeld%s from your body.",
+                    comma_separated_line(unmeld_msg.begin(), unmeld_msg.end()).c_str(),
+                    unmeld_msg.size() > 1 ? "" : "s");
     }
 
     update();

@@ -26376,35 +26376,35 @@
       "translation_sha256": "559a6369fa4bc481e4475cecd321948cc845d9380281cb65fde5fea3926b7570"
     },
     "Gear: ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "d11c47cf147f6a7f29c38b7728be22ba93571d8bfaf65e329b1ea60792d69480"
     },
     "Potions: ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "085f7c89fd2d204a73eefe11d7e8f083a9017a03729bff041038b09b265f7aa2"
     },
     "Scrolls: ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "33cf175f593db90c82bf0808d2be580f15d1b0601a3055386b233d57c22e2f0b"
     },
     "Evocable Items: ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "55a757f467eabe873fb2d6cc35de89bb0484e5e9d29996621183d5d3dee1e0e7"
     },
     "    (Left/Right/Tab to switch category)": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
-      "translation_sha256": "1ce9be94b61933e6d4b065fd54c7d077165108cfa89d904d64bf101023ec6bd3"
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "95fb1a28b47f40e00c3359f675a4c2714453e50713a434a2b45efd52f3a53efd"
     },
     "Inventory: ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "4c6c3082fdb55c443662928ee364d2e975c303f9a5ce2adf770fd776b7439690"
     },
     "Drop what? (Left/Right/Tab to switch category) ": {
-      "context": "invent.cc / equipment categories, selection and gear capacity",
-      "translation_sha256": "e4edfd75425b52592442ee0d0709e4094204dcd62da4ba8e44c580a1d2d63b44"
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "0b6da12c0191bb700fd39f7cd32e5793e98b5d2ba6f3cb583f6b18320ca37a1c"
     },
     " (_ for help)": {
-      "context": "invent.cc:literal padding",
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
       "translation_sha256": "e66ed21dcbb010537945aa20c7592cc0aaf5080f48ad7e8fe904599e21cc920e"
     },
     "Pick up how many? ": {
@@ -41578,6 +41578,246 @@
     "Two beams: %s": {
       "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
       "translation_sha256": "3a5dd5047d3ec52f87c1255e945c2e08a9ae3f80860a4fdf103099237f78d19d"
+    },
+    "Your equipment melds into your body: %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "b4403e8cb62488cd8003463773a4eaed1c86b890e2dedb6a9845211c8f72710a"
+    },
+    "Your equipment unmelds from your body: %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "04d18e3c49431aee9159b7169cf41d1ed04cb08d83855ef144a0136a2de675c7"
+    },
+    "You can't wield any weapon.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "29bc81d816a27264f911d06d2a7a6e37ee7268110194029e6194ee4feaa7b02f"
+    },
+    "You'd need another %s to do that!": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "49bd621013ebec2676c2cb1c36020e3730fb69801dcc994974dc2d89c941b8c7"
+    },
+    "You can't hold anything in your paws.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "c892ae3f9893dfe3128ccd8984b9ce070f2dea880fef818286e58c596abb5c2c"
+    },
+    "You can't haunt something so large.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "dc665d3d635f7a1103c1ffd2c24c9818f39c91273fc4e037725ad4935385a89f"
+    },
+    "Your wings%s won't fit in that.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "b57bbd0df97ee9de4f88f2f9d5acbf4097ef2415ac983416f86273fc393ba6de"
+    },
+    ", even vestigial as they are,": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "6c67d020120eb15205d988089413ecc5453d20602755f80feb1cfefdad4e4b3a"
+    },
+    "That is much too large for your head.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "473643710ab2c714e53cd27750d98579d1c52d64f7325ff9bfbd7ebdc73e8282"
+    },
+    "Those are too big for your %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "021e550d0e6e1ce52f22dcbe560ec9c378be44dd64734ac5b3875d008fadef57"
+    },
+    "Those are too small for your %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "cf533ba9f3df6f42040a68f97d9360e8c938d300eae8016fcaaa8a1983a630f7"
+    },
+    "Those can't fit on your %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "c284ffe70c7a2ca07b208811407d5b4753c29b2efa669fac20839a2b5fedc35c"
+    },
+    "Those can't fit over your huge %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "b0d2dad06638d8f27bc67bf47bf565a056fe50e7c961b022bffaf184d0c23c55"
+    },
+    "Your demonic touch would destroy those.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "3e52cb8507a166f1a6789134aa2d93aad17b7c1df0a6a8b8cdd3df5b1b104fad"
+    },
+    "Your hooves can't fit into boots.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "9035deb3880bdbd71831045a7ce7d8f0f9c45d23271c5d466076a6870ec739a3"
+    },
+    "Your talons can't fit into boots.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "2977ac70479a6a378720a1bdcd1e1856f9a494f089941948dc187de4130cdfb1"
+    },
+    "You don't have any shoulders.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "a85743b1644b2ce6ae3ce3e5f5407d2623c67a936ef12ba0e63cd299358ceb7d"
+    },
+    "You can't wear that with your sharp stinger!": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "19912adee6632bcca4f37a39618818f5633fd38d0713b9192fa176623085145d"
+    },
+    "You lack an exoframe to install that in.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "1925b3b3a09b6359960fd3ec5a52a90c591431926aae3826a8b995f3df08e4ec"
+    },
+    "That isn't an equippable item.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "a2b33eacae7f6388b5e022f3ca02592a47956758c51fb66152251cd68c014409"
+    },
+    "You can't equip that in your current form.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "c7d4812f312d23222075c59a35ffff23a96268e3314360914ccd4cdefccc2cc9"
+    },
+    "That is too %s for you to equip!": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "ea3583aff893b6d4a241241d8753a8d0fd309a3acc9e6b4d039fe134a2a2fb4b"
+    },
+    "This helmet is too small for your head.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "3fab3cd20cb06375f33142fd108e01b8113c15cfd4358a8cc58a1256ebdc1108"
+    },
+    "This helmet is too large for your head.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "86374561cf57a226af49d51e45a2ae7f0e19dccce0f32ec81545fd46ef766cf6"
+    },
+    "You can't fit that over your horns.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "8553da5c6a4588dd4bedc1a46b5bafe098295fbf9765d59ea0d55b28558abe22"
+    },
+    "You can't fit that over your antennae.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "17c6829b6a944da94fd325536007e96f83c66da041d223d3e01ee387b37edb36"
+    },
+    "You can't fit that over your beak.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "41030f2423f1ab9b0b6709440a036a53c3a0f0294e4cc3fc1527f855751c902c"
+    },
+    "%d/%d gear slots": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "330573ed5e0b9de769342e64ca5045c1491862f8f1298bfd6897c93c4d12fab1"
+    },
+    "%s (<w>?</w> for menu, <w>Esc</w> to quit)": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "02335589e51e17f7dcd807ba4e73041bcd526bcd8c2e7586eaecce545e55695e"
+    },
+    "You don't currently have any unidentified items.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "69ee201dcdbbadcf198b4050a749983d70ea6bff18265159a891afe3d5c2e6af"
+    },
+    "You aren't carrying any amulets.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "f55dd10167a15e01ca3467b767442848d716633a1324bd6fbf8dbdd0d2a63cea"
+    },
+    "You aren't carrying any jewellery or talismans.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "f1f2e08d689a7744771e85150087d626d14961cecb93c19767da8e111ee97a0e"
+    },
+    "None of your equipped items are bound to you.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "25d82e73957419ade9cff1cb4932e7e4e4b3883d0a445988057efefdde59d019"
+    },
+    "You aren't wearing any pieces of armour.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "652337cd14c4cf76f9522709595969c4d7826113337d35079f2f9b6e53482b7d"
+    },
+    "You aren't wearing any rings, amulets, or talismans.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "67f39a2003f9158ed0d906af2935d33c50804b5ae930eb1e329f821874e5360d"
+    },
+    "You aren't wearing anything.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "29f0b7dd1599201d920fc9c2a87ee45758eaaa36d691ccd09c551da17a701796"
+    },
+    "You aren't carrying anything that can be equipped.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "6de35504f39b1cee610a5f3f84d9ad13b770f86fccbe70b8b25a906a078f26ee"
+    },
+    "You aren't carrying any artefact melee weapons.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "905a4b72f21ab5790ef5a10c9d3349966f07811e05c2069002db0f06d4171058"
+    },
+    "You aren't wearing any items which can be bound.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "dc3c34f6d1e335c145eefda8c79b41898b019e9a7234121848a2e28e358676b7"
+    },
+    "That's the wrong kind of item!": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "dc42bfeb52aa58996d1094ee816005a66df1bb9f2fc74d87413d7fe05afdb684"
+    },
+    "You cannot read scrolls while %s!": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "b0d082cb7d32e0e235a289c47ae5622884b8b5111cc8dd46bb2b9d243964f0bc"
+    },
+    "You learned that %s %s actually %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "0bb93c0eb1d8939e637d3154631c3610e22ce492c969ff3aa262e73b54e18792"
+    },
+    "%s has recharged.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "97ac89ffa41bd148fe84e6d5b929ab569d251b413e3d564be08490207f0ab947"
+    },
+    "You hear a faint sloshing from %s as it returns to readiness.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "79f6db00dc88ea1e092d97e54ba01d9c43c2d52a3170799c63fb48b35c14ca08"
+    },
+    "Water glimmers in %s, now refilled and ready to use.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "104a9380f8001b6d4e0d555a30cc8f859f639881cd2449f4ccc397523b7bcf1e"
+    },
+    "You hear chittering from %s. It's ready.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "a06a92bb77f3af1a976dfac7ede5ee208f1a815a33c50e45f92fd30662f4844d"
+    },
+    "%s twitches, refilled and ready to use.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "a47f3ead210313434f31d32ae67bf31c5075f201807869b5ec876874eb0d929e"
+    },
+    "%s jingles faintly as it regains its power.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "c66fc4a1f4cb396ffe26f2ada4cc557cf1e291e0723e7a5c16678935f935c2d8"
+    },
+    "%s shakes itself petulantly as it silently regains its power.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "d12417e088b7ab9464afbb0c4c125c99170ff3f974df5c8980cebb185baec232"
+    },
+    "An ally is currently targeting this creature: %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "80b228eba80cb8d50844eacf8e90e5c67f1a0d03754fb8600688e9f8374f33a8"
+    },
+    "Your allies are currently targeting this creature:": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "8ed79ee54081b777769a10e523a2d62ca3d3f731e3e8ae01eaa829eee04a17c1"
+    },
+    "This ally is currently targeting %s.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "02aedfae73198d640fe1a804b625db5e8abe98e0f6b4d90587b71540f08bf355"
+    },
+    "{equipment-fit-size}large": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "c5e6961aab0ad448258bed2c0914c227a180ef7e4090130ba153a814c6969108"
+    },
+    "{equipment-fit-size}small": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "4c1d053a65c7aa254717065de4ff6bcc96c25b694cfa2c1f38df532e31759ef6"
+    },
+    "{identification-link}are": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "74751a594fd731bd6b1e58f7e747d6c8488d3b361cd0c488837a22b498bc884e"
+    },
+    "{identification-link}is": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "74751a594fd731bd6b1e58f7e747d6c8488d3b361cd0c488837a22b498bc884e"
+    },
+    "%s has regained one charge.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "3d6a1d7326196d8024b755f4790ddbaa535af8b2daf24135087cefdaf2b20ab9"
+    },
+    "%s has regained two charges.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "04fd494703e51710f7b187fb0d2679ff38fdb802946b6cde7382d18a469bca61"
+    },
+    "%s has regained three charges.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "afac5ef6ec15bcb5f6eab867b84933d332f1d4a2bb18d10455b47c767a8072d4"
+    },
+    "%s has regained four charges.": {
+      "context": "player-equip.cc anatomy checks and melding, invent.cc item filters and paged inventory, item-name.cc scroll restrictions, item-prop.cc identification and XP-evoker recharge, quiver.cc god prohibition, describe.cc ally targets. Names and reason clauses localized before printf. Existing fluent equipment-delay translations retained. Anatomy does not imply actual glove destruction. Melding makes gear unavailable, unmelding restores access. Recharge counts 1-4 verified against xp-evoker-data.h LIGHTNING_MAX_CHARGE=4 and current evoker definitions, with silence-specific messages kept. Item IDs, limits, costs, flags, targeting and equipment effects unchanged.",
+      "translation_sha256": "4d21917b712ee43e7eac640846940bcd9f44dcbc159713939a04449e391cf979"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

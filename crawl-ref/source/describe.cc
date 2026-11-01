@@ -6764,6 +6764,7 @@ static string _monster_current_target_description(const monster_info &mi)
 
     const char* pronoun = mi.pronoun(PRONOUN_SUBJECTIVE);
     const bool plural = mi.pronoun_plurality();
+    const bool russian = Options.language == lang_t::RU && localisation_active();
 
     ostringstream result;
     if (mi.is(MB_ALLY_TARGET))
@@ -6771,28 +6772,39 @@ static string _monster_current_target_description(const monster_info &mi)
         auto allies = find_allies_targeting(*m);
         if (allies.size() == 1)
         {
-            result << uppercase_first(pronoun) << " "
-                   << conjugate_verb("are", plural)
-                   << " currently targeted by "
-                   << allies[0]->name(DESC_YOUR) << ".\n";
+            if (russian)
+                result << make_stringf(localise("An ally is currently targeting this creature: %s.\n").c_str(),
+                                       localise(allies[0]->name(DESC_YOUR)).c_str());
+            else
+                result << uppercase_first(pronoun) << " "
+                       << conjugate_verb("are", plural)
+                       << " currently targeted by "
+                       << allies[0]->name(DESC_YOUR) << ".\n";
         }
         else
         {
-            result << uppercase_first(pronoun) << " "
-                   << conjugate_verb("are", plural)
-                   << " currently targeted by:\n";
+            if (russian)
+                result << localise("Your allies are currently targeting this creature:\n");
+            else
+                result << uppercase_first(pronoun) << " "
+                       << conjugate_verb("are", plural)
+                       << " currently targeted by:\n";
             for (auto *a : allies)
-                result << "  " << a->name(DESC_YOUR) << "\n";
+                result << "  " << (russian ? localise(a->name(DESC_YOUR)) : a->name(DESC_YOUR)) << "\n";
         }
     }
 
     // TODO: this might be ambiguous, give a relative position?
     if (mi.attitude == ATT_FRIENDLY && m->get_foe())
     {
-        result << uppercase_first(pronoun) << " "
-               << conjugate_verb("are", plural)
-               << " currently targeting "
-               << m->get_foe()->name(DESC_THE) << ".\n";
+        if (russian)
+            result << make_stringf(localise("This ally is currently targeting %s.\n").c_str(),
+                                   localise(m->get_foe()->name(DESC_THE)).c_str());
+        else
+            result << uppercase_first(pronoun) << " "
+                   << conjugate_verb("are", plural)
+                   << " currently targeting "
+                   << m->get_foe()->name(DESC_THE) << ".\n";
     }
 
     return result.str();
