@@ -5451,8 +5451,9 @@ void bolt::pull_actor(actor *act, int dam)
 
     if (you.can_see(*act))
     {
-        mprf("%s %s yanked forward by the %s.", act->name(DESC_THE).c_str(),
-             act->conj_verb("are").c_str(), name.c_str());
+        mprf(localise("The %s pulls %s forward.").c_str(),
+             localise_in_context("beam-name", name).c_str(),
+             localise(act->name(DESC_THE)).c_str());
     }
 
     if (act->pos() != newpos)
@@ -5481,30 +5482,31 @@ bool bolt::attempt_block(monster* mon)
         {
             if (shield && shield_reflects(*shield))
             {
-                mprf("%s blocks the %s with %s %s... and reflects it back!",
-                     mon->name(DESC_THE).c_str(),
-                     name.c_str(),
-                     mon->pronoun(PRONOUN_POSSESSIVE).c_str(),
-                     shield->name(DESC_PLAIN).c_str());
+                mprf(localise("%s blocks the %s with a shield (%s)... and reflects it back!").c_str(),
+                     localise(mon->name(DESC_THE)).c_str(),
+                     localise_in_context("beam-name", name).c_str(),
+                     localise(shield->name(DESC_PLAIN)).c_str());
             }
             else
             {
-                mprf("The %s reflects off %s %s!",
-                     name.c_str(),
-                     mon->divinely_shielded() ? "the divine shield protecting"
-                                              : "an invisible shield around",
-                     mon->name(DESC_THE).c_str());
+                mprf(localise(mon->divinely_shielded()
+                        ? "The %s reflects off the divine shield protecting %s!"
+                        : "The %s reflects off an invisible shield around %s!").c_str(),
+                     localise_in_context("beam-name", name).c_str(),
+                     localise(mon->name(DESC_THE)).c_str());
             }
         }
         else if (you.see_cell(pos()))
-            mprf("The %s bounces off of thin air!", name.c_str());
+            mprf(localise("The %s bounces off of thin air!").c_str(),
+                 localise_in_context("beam-name", name).c_str());
 
         reflect();
     }
     else if (you.see_cell(pos()))
     {
-        mprf("%s blocks the %s.",
-             mon->name(DESC_THE).c_str(), name.c_str());
+        mprf(localise("%s blocks the %s.").c_str(),
+             localise(mon->name(DESC_THE)).c_str(),
+             localise_in_context("beam-name", name).c_str());
         finish_beam();
     }
 
@@ -5546,9 +5548,10 @@ void bolt::affect_monster(monster* mon)
         if (!is_tracer() && you.see_cell(mon->pos()))
         {
             mprf(MSGCH_GOD, GOD_JIYVA,
-                 "%s absorbs the %s as it strikes your slime.",
-                 god_speaker(GOD_JIYVA).c_str(), !name.empty() ? name.c_str()
-                 : _beam_type_name(flavour).c_str());
+                 localise("%s absorbs the %s as it strikes your slime.").c_str(),
+                 localise(god_speaker(GOD_JIYVA)).c_str(),
+                 localise_in_context("beam-name", !name.empty() ? name
+                                     : _beam_type_name(flavour)).c_str());
         }
 
         finish_beam();
@@ -5563,7 +5566,9 @@ void bolt::affect_monster(monster* mon)
     if (flavour == BEAM_WATER && mon->type == MONS_WATER_ELEMENTAL && !is_tracer())
     {
         if (you.see_cell(mon->pos()))
-            mprf("The %s passes through %s.", name.c_str(), mon->name(DESC_THE).c_str());
+            mprf(localise("The %s passes through %s.").c_str(),
+                 localise_in_context("beam-name", name).c_str(),
+                 localise(mon->name(DESC_THE)).c_str());
     }
 
     if (ignores_monster(mon) || should_skip)
@@ -6888,7 +6893,8 @@ void bolt::refine_for_explosion(const string& explode_msg)
         if (explosion)
         {
             seeMsg = explosion->seeMsg;
-            hearMsg = make_stringf("You hear %s!", explosion->sound);
+            hearMsg = make_stringf(localise_in_context("explosion-sound", "You hear %s!").c_str(),
+                localise_in_context("explosion-sound", explosion->sound).c_str());
         }
         else
         {
@@ -6996,8 +7002,8 @@ bool bolt::explode(bool show_more, bool hole_in_the_middle)
     {
         if (!is_tracer() && you.see_cell(pos()) && !name.empty())
         {
-            mprf(MSGCH_GOD, "By Zin's power, the %s is contained.",
-                 name.c_str());
+            mprf(MSGCH_GOD, localise("By Zin's power, the %s is contained.").c_str(),
+                 localise_in_context("beam-name", name).c_str());
             return true;
         }
         return false;
@@ -7944,8 +7950,8 @@ bool cancel_beam_prompt(const bolt& beam, const player_beam_tracer& tracer)
         const monster* mon = tracer.bad_charm_target;
         monclass_flags_t flags = monster_info(mon).airborne() ? M_FLIES
                                                               : M_NO_FLAGS;
-        const string verb = make_stringf("charm %s",
-                                         mon->name(DESC_THE).c_str());
+        const string verb = make_stringf(localise_in_context("summon-warning-action", "charm %s").c_str(),
+                                         localise(mon->name(DESC_THE)).c_str());
         if (stop_summoning_prompt(monster_info(mon).resists(), flags, verb))
             return true;
     }
@@ -7955,16 +7961,16 @@ bool cancel_beam_prompt(const bolt& beam, const player_beam_tracer& tracer)
         string prompt;
         if (tracer.hit_self_count > 1)
         {
-            prompt = make_stringf("That %s could hit you up to %d times."
-                " Continue anyway?",
-                beam.ranged_atk ? beam.ranged_atk->projectile_name().c_str() : "beam",
+            prompt = make_stringf(localise("That %s could hit you up to %d times."
+                " Continue anyway?").c_str(),
+                localise_in_context("beam-name", beam.ranged_atk ? beam.ranged_atk->projectile_name() : "beam").c_str(),
                 tracer.hit_self_count);
         }
         else
         {
-            prompt = make_stringf("That %s is likely to hit you."
-                " Continue anyway?",
-                beam.ranged_atk ? beam.ranged_atk->projectile_name().c_str() : "beam");
+            prompt = make_stringf(localise("That %s is likely to hit you."
+                " Continue anyway?").c_str(),
+                localise_in_context("beam-name", beam.ranged_atk ? beam.ranged_atk->projectile_name() : "beam").c_str());
         }
         if (!yesno(prompt.c_str(), false, 'n'))
         {

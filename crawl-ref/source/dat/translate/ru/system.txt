@@ -14126,7 +14126,7 @@ Your demonic guardian avoids your attack.
 %%%%
 The sphere of damnation explodes!
 
-Сфера адского пламени взрывается!
+Сфера адской кары взрывается!
 %%%%
 You hear the wailing of the damned!
 
@@ -30306,7 +30306,7 @@ your paragon is already deployed, but not yet charged.
 %%%%
 you are already charging a Fortress Blast.
 
-вы уже накапливаете силу для «Взрыва крепости».
+вы уже накапливаете силу для «Крепостного взрыва».
 %%%%
 you need to wait for the hot winds to gather around you again.
 
@@ -44059,3 +44059,223 @@ A blast of power from the earth%s strikes %s!
 {resonance-source-plural} and %s
 
 {resonance-source-plural} и существ «%s»
+%%%%
+" (and %zu other bad targets)"
+
+" (и ещё нежелательных целей: %zu)"
+%%%%
+%s might hit %s%s.%s %s
+
+«%s» может задеть цель: %s%s.%s %s
+%%%%
+" This would place you under penance!"
+
+" Это навлечёт на вас гнев бога!"
+%%%%
+Really %s while %s?
+
+Всё равно %s? Новый союзник может пострадать, пока %s.
+%%%%
+That %s could hit you up to %d times. Continue anyway?
+
+Атака «%s» может задеть вас до %d раз. Всё равно продолжить?
+%%%%
+That %s is likely to hit you. Continue anyway?
+
+Атака «%s», скорее всего, заденет вас. Всё равно продолжить?
+%%%%
+{summon-warning-action}do that
+
+{summon-warning-action}сделать это
+%%%%
+{summon-warning-action}charm %s
+
+{summon-warning-action}очаровать существо «%s»
+%%%%
+{summon-warning-reason}emitting a toxic aura
+
+{summon-warning-reason}вы излучаете ядовитую ауру
+%%%%
+{summon-warning-reason}spewing a noxious bog
+
+{summon-warning-reason}вы создаёте ядовитую трясину
+%%%%
+{summon-warning-reason}in the middle of a polar vortex
+
+{summon-warning-reason}вокруг вас бушует полярный вихрь
+%%%%
+{summon-warning-reason}raining down reagents
+
+{summon-warning-reason}вы обрушиваете реагенты на окрестности
+%%%%
+{beam-name}beam
+
+{beam-name}луч
+%%%%
+The %s pulls %s forward.
+
+Атака «%s» подтягивает цель «%s».
+%%%%
+%s blocks the %s with a shield (%s)... and reflects it back!
+
+Существо «%s» блокирует атаку «%s» щитом «%s»… и отражает её обратно!
+%%%%
+The %s reflects off the divine shield protecting %s!
+
+Атака «%s» отражается от божественного щита вокруг существа «%s»!
+%%%%
+The %s reflects off an invisible shield around %s!
+
+Атака «%s» отражается от невидимого щита вокруг существа «%s»!
+%%%%
+The %s bounces off of thin air!
+
+Атака «%s» отскакивает от пустого места!
+%%%%
+%s blocks the %s.
+
+Существо «%s» блокирует атаку «%s».
+%%%%
+%s absorbs the %s as it strikes your slime.
+
+%s поглощает атаку «%s», попавшую в ваше слизистое существо.
+%%%%
+The %s passes through %s.
+
+Атака «%s» проходит сквозь существо «%s».
+%%%%
+By Zin's power, the %s is contained.
+
+Сила Зина сдерживает атаку «%s».
+%%%%
+The flask of dizzying concoctions shatters into a vile cloud!
+
+Склянка с одурманивающей смесью разбивается, выпуская зловонное облако!
+%%%%
+Piercing cold boils outward!
+
+Пронизывающий холод разливается вокруг!
+%%%%
+A wave of flame ripples out!
+
+Волна пламени расходится вокруг!
+%%%%
+The roots erupt in riotous growth!
+
+Корни бурно разрастаются!
+%%%%
+The cloud of blastmotes explodes!
+
+Облако взрывоопасных частиц взрывается!
+%%%%
+The gout of umbral fire explodes!
+
+Выброс тёмного пламени взрывается!
+%%%%
+Space twists violently!
+
+Пространство яростно искажается!
+%%%%
+The embers explode!
+
+Угли взрываются!
+%%%%
+The antimagic surges outward!
+
+Антимагия выплёскивается наружу!
+%%%%
+The shards fragment into shrapnel!
+
+Осколки разлетаются шрапнелью!
+%%%%
+The flickering shadows explode!
+
+Мерцающие тени взрываются!
+%%%%
+The ball of acid explodes!
+
+Кислотный шар взрывается!
+%%%%
+{explosion-sound}You hear %s!
+
+{explosion-sound}Вы слышите %s!
+%%%%
+{explosion-sound}the wailing of the damned
+
+{explosion-sound}вой проклятых
+%%%%
+{explosion-sound}an explosion
+
+{explosion-sound}взрыв
+%%%%
+{explosion-sound}a clap of thunder
+
+{explosion-sound}раскат грома
+%%%%
+{explosion-sound}a raging storm
+
+{explosion-sound}неистовую бурю
+%%%%
+{explosion-sound}a loud shattering of glass
+
+{explosion-sound}громкий звон разбивающегося стекла
+%%%%
+{explosion-sound}the shriek of haunting fire
+
+{explosion-sound}визг призрачного пламени
+%%%%
+{explosion-sound}a sharp crackling
+
+{explosion-sound}резкий треск
+%%%%
+{explosion-sound}the roar of flame
+
+{explosion-sound}рёв пламени
+%%%%
+{explosion-sound}creaking and crackling
+
+{explosion-sound}скрип и треск
+%%%%
+{explosion-sound}a concussive explosion
+
+{explosion-sound}оглушительный взрыв
+%%%%
+{explosion-sound}the shriek of umbral fire
+
+{explosion-sound}визг тёмного пламени
+%%%%
+{explosion-sound}shrill echo
+
+{explosion-sound}пронзительное эхо
+%%%%
+{explosion-sound}a fiery explosion
+
+{explosion-sound}огненный взрыв
+%%%%
+{explosion-sound}a quiet echo
+
+{explosion-sound}тихое эхо
+%%%%
+{explosion-sound}a quiet whistle
+
+{explosion-sound}тихий свист
+%%%%
+{explosion-sound}a violent squelch
+
+{explosion-sound}громкий хлюпающий звук
+%%%%
+The shockwave
+
+Ударная волна
+%%%%
+The arc blade's discharge
+
+Разряд дугового клинка
+%%%%
+Detonate Monarch Bomb
+
+Подрыв бомбы «Монарх»
+%%%%
+Stomp anyway?
+
+Всё равно топнуть?

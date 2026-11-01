@@ -4,6 +4,7 @@
  */
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "fight.h"
 
@@ -1650,16 +1651,16 @@ bool warn_about_bad_targets(const char* source_name, vector<coord_def> targets,
     bool penance;
     bad_attack(ex_mon, adj, suffix, penance, you.pos());
     const string and_more = bad_targets.size() > 1 ?
-            make_stringf(" (and %zu other bad targets)",
+            make_stringf(localise(" (and %zu other bad targets)").c_str(),
                          bad_targets.size() - 1) : "";
-    const string prompt = make_stringf("%s might hit %s%s.%s %s",
-                                       source_name,
-                                       ex_mon->name(DESC_THE).c_str(),
+    const string prompt = make_stringf(localise("%s might hit %s%s.%s %s").c_str(),
+                                       localise(source_name).c_str(),
+                                       localise(ex_mon->name(DESC_THE)).c_str(),
                                        and_more.c_str(),
-                                       any_penance
-                                       ? " This would place you under penance!"
-                                       : "",
-                                       msg);
+                                       (any_penance
+                                       ? localise(" This would place you under penance!")
+                                       : "").c_str(),
+                                       localise(msg).c_str());
     if (!yesno(prompt.c_str(), false, 'n'))
     {
         canned_msg(MSG_OK);
@@ -1693,8 +1694,9 @@ bool stop_summoning_prompt(resists_t resists, monclass_flags_t flags,
     if (noun.empty())
         return false;
 
-    string prompt = make_stringf("Really %s while %s?",
-                                 verb.c_str(), noun.c_str());
+    string prompt = make_stringf(localise("Really %s while %s?").c_str(),
+                                 localise_in_context("summon-warning-action", verb).c_str(),
+                                 localise_in_context("summon-warning-reason", noun).c_str());
 
     if (yesno(prompt.c_str(), false, 'n'))
         return false;
