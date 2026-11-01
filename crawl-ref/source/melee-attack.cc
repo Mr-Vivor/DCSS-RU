@@ -5324,8 +5324,8 @@ string mut_aux_attack_desc(mutation_type mut)
     case MUT_DEMONIC_TOUCH:
         return AUX_TOUCH.describe();
     case MUT_REFLEXIVE_HEADBUTT:
-        return make_stringf("\nTrigger chance:  %d%%\n"
-                              "Base damage:     %d\n\n",
+        return make_stringf(localise("\nTrigger chance:  %d%%\n"
+                              "Base damage:     %d\n\n").c_str(),
                             _minotaur_headbutt_chance(),
                             AUX_HEADBUTT.get_damage(false));
     case MUT_MAKHLEB_MARK_EXECUTION:
@@ -5337,8 +5337,8 @@ string mut_aux_attack_desc(mutation_type mut)
 
 static string _desc_aux(int chance, int dam)
 {
-    return make_stringf("\nTrigger chance:  %d%%\n"
-                          "Base damage:     %d",
+    return make_stringf(localise("\nTrigger chance:  %d%%\n"
+                          "Base damage:     %d").c_str(),
                         chance,
                         dam);
 }

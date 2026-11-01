@@ -4,6 +4,7 @@
 **/
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "beam.h"
 
@@ -3569,20 +3570,20 @@ bool bolt::misses_player()
             {
                 if (shield && shield_reflects(*shield))
                 {
-                    mprf("Your %s blocks the %s... and reflects it back!",
-                            shield->name(DESC_PLAIN).c_str(),
-                            refl_name.c_str());
+                    mprf(localise("Your %s blocks the %s... and reflects it back!").c_str(),
+                            localise(shield->name(DESC_PLAIN)).c_str(),
+                            localise_in_context("beam-name", refl_name).c_str());
                 }
                 else
                 {
-                    mprf("You block the %s... and reflect it back!",
-                            refl_name.c_str());
+                    mprf(localise("You block the %s... and reflect it back!").c_str(),
+                            localise_in_context("beam-name", refl_name).c_str());
                 }
                 reflect();
             }
             else
             {
-                mprf("You block the %s.", name.c_str());
+                mprf(localise("You block the %s.").c_str(), localise_in_context("beam-name", name).c_str());
                 finish_beam();
             }
             you.shield_block_succeeded(agent());
@@ -3611,12 +3612,12 @@ bool bolt::misses_player()
     {
         if (hit_margin > -repel)
         {
-            mprf("The %s is repelled.", name.c_str());
+            mprf(localise("The %s is repelled.").c_str(), localise_in_context("beam-name", name).c_str());
             count_action(CACT_DODGE, DODGE_REPEL);
         }
         else
         {
-            mprf("The %s misses you.", name.c_str());
+            mprf(localise("The %s misses you.").c_str(), localise_in_context("beam-name", name).c_str());
             count_action(CACT_DODGE, DODGE_EVASION);
         }
     }
@@ -4289,8 +4290,10 @@ void bolt::affect_player()
         {
             if (hit_verb.empty())
                 hit_verb = engulfs ? "engulfs" : "hits";
-            mprf("The %s %s %s!", name.c_str(), hit_verb.c_str(),
-                you.hp > 0 ? "you" : "your lifeless body");
+            mprf(localise("The %s %s %s!").c_str(),
+                localise_in_context("beam-name", name).c_str(),
+                localise_in_context(plural ? "beam-hit-plural" : "beam-hit", hit_verb).c_str(),
+                localise_in_context("acc", you.hp > 0 ? "you" : "your lifeless body").c_str());
         }
 
         affect_player_enchantment();
@@ -4338,13 +4341,16 @@ void bolt::affect_player()
     if (!is_enchantment()
         && !(damage.num == 0 && is_big_cloud()))
     {
-        mprf("The %s %s %s%s%s%s", name.c_str(), hit_verb.c_str(),
-             you.hp > 0 ? "you" : "your lifeless body",
+        mprf(localise("The %s %s %s%s%s%s").c_str(),
+             localise_in_context("beam-name", name).c_str(),
+             localise_in_context(plural ? "beam-hit-plural" : "beam-hit", hit_verb).c_str(),
+             localise_in_context("acc", you.hp > 0 ? "you" : "your lifeless body").c_str(),
              real_flavour != BEAM_CHAOS ? ""
-                    : make_stringf(" with %s", _beam_type_name(flavour).c_str()).c_str(),
-             damage.num > 0 && final_dam == 0 ? plural ? " but do no damage"
-                                                       : " but does no damage"
-                                              : "",
+                    : make_stringf(localise_in_context("beam-hit", " with %s").c_str(),
+                                   localise_in_context("beam-name", _beam_type_name(flavour)).c_str()).c_str(),
+             (damage.num > 0 && final_dam == 0
+                ? localise_in_context("beam-hit", plural ? " but do no damage" : " but does no damage")
+                : "").c_str(),
              attack_strength_punctuation(final_dam).c_str());
     }
 
@@ -5582,8 +5588,10 @@ void bolt::affect_monster(monster* mon)
                 hit_verb = engulfs ? "engulfs" : "hits";
             if (you.see_cell(mon->pos()))
             {
-                mprf("The %s %s %s.", name.c_str(), hit_verb.c_str(),
-                     mon->name(DESC_THE).c_str());
+                mprf(localise("The %s %s %s.").c_str(),
+                     localise_in_context("beam-name", name).c_str(),
+                     localise_in_context(plural ? "beam-hit-plural" : "beam-hit", hit_verb).c_str(),
+                     localise_in_context("acc", mon->name(DESC_THE)).c_str());
             }
             else if (heard && !hit_noise_msg.empty())
                 mprf(MSGCH_SOUND, "%s", hit_noise_msg.c_str());
@@ -5677,14 +5685,15 @@ void bolt::affect_monster(monster* mon)
             // if it would have hit otherwise...
             if (hit_margin > -repel)
             {
-                msg::stream << mon->name(DESC_THE) << " "
-                            << "repels the " << name
-                            << '!' << endl;
+                mprf(localise("%s repels the %s!").c_str(),
+                     localise(mon->name(DESC_THE)).c_str(),
+                     localise_in_context("beam-name", name).c_str());
             }
             else
             {
-                msg::stream << "The " << name << " misses "
-                            << mon->name(DESC_THE) << '.' << endl;
+                mprf(localise("The %s misses %s.").c_str(),
+                     localise_in_context("beam-name", name).c_str(),
+                     localise(mon->name(DESC_THE)).c_str());
             }
         }
         return;
@@ -5721,15 +5730,16 @@ void bolt::affect_monster(monster* mon)
         // no need to also say "does no damage" here.
         if (damage.num > 0 || !is_big_cloud())
         {
-            mprf("The %s %s %s%s%s%s",
-                name.c_str(),
-                hit_verb.c_str(),
-                mon->name(DESC_THE).c_str(),
+            mprf(localise("The %s %s %s%s%s%s").c_str(),
+                localise_in_context("beam-name", name).c_str(),
+                localise_in_context(plural ? "beam-hit-plural" : "beam-hit", hit_verb).c_str(),
+                localise_in_context("acc", mon->name(DESC_THE)).c_str(),
                 real_flavour != BEAM_CHAOS ? ""
-                    : make_stringf(" with %s", _beam_type_name(flavour).c_str()).c_str(),
-                damage.num > 0 && postac == 0 ? plural ? " but do no damage"
-                                                        : " but does no damage"
-                                               : "",
+                    : make_stringf(localise_in_context("beam-hit", " with %s").c_str(),
+                                   localise_in_context("beam-name", _beam_type_name(flavour)).c_str()).c_str(),
+                (damage.num > 0 && postac == 0
+                    ? localise_in_context("beam-hit", plural ? " but do no damage" : " but does no damage")
+                    : "").c_str(),
                 attack_strength_punctuation(final).c_str());
         }
 

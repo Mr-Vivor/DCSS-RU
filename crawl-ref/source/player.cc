@@ -8917,9 +8917,10 @@ static string _constriction_description()
     const int num_free_tentacles = you.usable_tentacles();
     if (num_free_tentacles)
     {
-        cinfo += make_stringf("You have %d tentacle%s available for constriction.",
-                              num_free_tentacles,
-                              num_free_tentacles > 1 ? "s" : "");
+        cinfo += make_stringf(localise(num_free_tentacles > 1
+                              ? "You have %d tentacles available for constriction."
+                              : "You have %d tentacle available for constriction.").c_str(),
+                              num_free_tentacles);
     }
 
     if (you.constricted_type == CONSTRICT_MELEE)
@@ -8930,8 +8931,8 @@ static string _constriction_description()
         if (!cinfo.empty())
             cinfo += "\n";
 
-        cinfo += make_stringf("You are being constricted by %s.",
-                              constrictor->name(DESC_A).c_str());
+        cinfo += make_stringf(localise("You are being constricted by %s.").c_str(),
+                              localise(constrictor->name(DESC_A)).c_str());
     }
 
     if (you.is_constricting())
@@ -8944,7 +8945,7 @@ static string _constriction_description()
             if (whom->constricted_type != CONSTRICT_MELEE)
                 continue;
 
-            c_name.push_back(whom->name(DESC_A));
+            c_name.push_back(localise(whom->name(DESC_A)));
         }
 
         if (!c_name.empty())
@@ -8952,9 +8953,8 @@ static string _constriction_description()
             if (!cinfo.empty())
                 cinfo += "\n";
 
-            cinfo += "You are constricting ";
-            cinfo += comma_separated_line(c_name.begin(), c_name.end());
-            cinfo += ".";
+            cinfo += make_stringf(localise("You are constricting %s.").c_str(),
+                comma_separated_line(c_name.begin(), c_name.end(), localise(" and ")).c_str());
         }
     }
 
