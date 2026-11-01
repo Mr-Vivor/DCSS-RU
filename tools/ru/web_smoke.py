@@ -389,7 +389,9 @@ def main():
                         popup.wait_for(state="visible")
                         feature_text = popup.inner_text()
                         for text in expected:
-                            assert text in feature_text, feature_text
+                            # Adjacent doors can add a "large" prefix, moving
+                            # the expected noun phrase out of sentence start.
+                            assert text.casefold() in feature_text.casefold(), feature_text
                         for text in absent:
                             assert text not in feature_text, feature_text
                         look_text = spell_page.locator("#messages .game_message").last.inner_text()
