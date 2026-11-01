@@ -884,10 +884,6 @@ no shield
 
 без щита
 %%%%
-no armour
-
-без брони
-%%%%
 no amulet
 
 нет амулета
@@ -3607,10 +3603,6 @@ You can once more reach out to the dragon horde.
 unable to drink
 
 питьё запрещено
-%%%%
-no potions
-
-зелья запрещены
 %%%%
 You cannot drink potions.
 
@@ -9148,10 +9140,6 @@ claw
 
 коготь
 %%%%
-claws
-
-когти
-%%%%
 your claw
 
 ваш коготь
@@ -9175,10 +9163,6 @@ your paw
 your paws
 
 ваши лапы
-%%%%
-tentacles
-
-щупальца
 %%%%
 main tentacles
 
@@ -11416,10 +11400,6 @@ You cannot cast spells.
 
 Вы не можете произносить заклинания.
 %%%%
-You cannot drink.
-
-Ты не можешь пить.
-%%%%
 alive
 
 жив
@@ -11508,17 +11488,9 @@ Your attributes grow dramatically as you level up.
 
 Ваши характеристики резко возрастают по мере повышения уровня.
 %%%%
-You expend health (3 HP) to strengthen your wands.
-
-Вы тратите здоровье (3 HP), чтобы укрепить свои палочки.
-%%%%
 You have tentacles for arms and can constrict up to @num@ enemies at once.
 
 У вас есть щупальца вместо рук, и вы можете одновременно сжимать до @num@ врагов.
-%%%%
-You have sharp claws.
-
-У тебя острые когти.
 %%%%
 Your bite disrupts the magic of your enemies.
 
@@ -11584,25 +11556,9 @@ You are very agile. (Dex +4)
 
 Ты очень ловкий. (Ловк +4)
 %%%%
-poison resistance
-
-устойчивость к яду
-%%%%
 Your system is resistant to poisons. (rPois)
 
 Ваша система устойчива к ядам. (rPois)
-%%%%
-You feel resistant to poisons.
-
-Вы чувствуете устойчивость к ядам.
-%%%%
-You feel less resistant to poisons.
-
-Вы чувствуете себя менее устойчивым к ядам.
-%%%%
-fire resistance
-
-огнестойкость
 %%%%
 Your flesh is heat resistant. (rF+)
 
@@ -11616,26 +11572,6 @@ Your flesh is almost immune to the effects of heat. (rF+++)
 
 Ваша плоть почти невосприимчива к воздействию тепла. (рФ+++)
 %%%%
-You feel resistant to heat.
-
-Вы чувствуете устойчивость к жаре.
-%%%%
-You feel more resistant to heat.
-
-Вы чувствуете себя более устойчивым к теплу.
-%%%%
-You no longer feel heat resistant.
-
-Вы больше не чувствуете термостойкости.
-%%%%
-You feel less heat resistant.
-
-Вы ощущаете меньшую термостойкость.
-%%%%
-cold resistance
-
-холодостойкость
-%%%%
 Your flesh is cold resistant. (rC+)
 
 Ваша плоть устойчива к холоду. (гС+)
@@ -11647,22 +11583,6 @@ Your flesh is very cold resistant. (rC++)
 Your flesh is almost immune to the effects of cold. (rC+++)
 
 Ваша плоть почти невосприимчива к воздействию холода. (рС+++)
-%%%%
-You feel resistant to cold.
-
-Вы чувствуете устойчивость к холоду.
-%%%%
-You feel more resistant to cold.
-
-Вы чувствуете себя более устойчивым к холоду.
-%%%%
-You no longer feel cold resistant.
-
-Вы больше не чувствуете морозоустойчивости.
-%%%%
-You feel less cold resistant.
-
-Вы чувствуете себя менее устойчивым к холоду.
 %%%%
 heat vulnerability
 
@@ -11747,22 +11667,6 @@ Your demonic guardian is gone.
 Your demonic guardian is weakened.
 
 Ваш демонический страж ослаблен.
-%%%%
-electricity resistance
-
-сопротивление электричеству
-%%%%
-You are resistant to electric shocks. (rElec)
-
-Вы устойчивы к поражению электрическим током. (рЭлек)
-%%%%
-You feel insulated.
-
-Вы чувствуете себя изолированным.
-%%%%
-You feel conductive.
-
-Вы чувствуете проводимость.
 %%%%
 electricity vulnerability
 
@@ -12068,30 +11972,6 @@ You feel a very strange anaesthesia.
 
 Вы чувствуете очень странную анестезию.
 %%%%
-negative energy resistance
-
-сопротивление отрицательной энергии
-%%%%
-You resist negative energy. (rN+)
-
-Вы сопротивляетесь негативной энергии. (рН+)
-%%%%
-You are quite resistant to negative energy. (rN++)
-
-Вы весьма устойчивы к негативной энергии. (рН++)
-%%%%
-You are immune to negative energy. (rN+++)
-
-Вы невосприимчивы к негативной энергии. (рН+++)
-%%%%
-You feel resistant to negative energy.
-
-Вы чувствуете устойчивость к негативной энергии.
-%%%%
-You feel more resistant to negative energy.
-
-Вы чувствуете себя более устойчивым к негативной энергии.
-%%%%
 in touch with death
 
 в контакте со смертью
@@ -12132,38 +12012,6 @@ You smell a hint of brimstone.
 
 Чувствуешь запах серы.
 %%%%
-horns
-
-рожки
-%%%%
-You have a pair of small horns on your head.
-
-У тебя на голове пара маленьких рожек.
-%%%%
-You have a pair of horns on your head.
-
-У тебя на голове пара рогов.
-%%%%
-You have a pair of large horns on your head.
-
-У тебя на голове пара больших рогов.
-%%%%
-A pair of horns grows on your head!
-
-У тебя на голове растет пара рогов!
-%%%%
-The horns on your head grow some more.
-
-Рога на твоей голове еще немного отрастают.
-%%%%
-The horns on your head shrink away.
-
-Рога на твоей голове исчезли.
-%%%%
-The horns on your head shrink a bit.
-
-Рога на твоей голове немного уменьшились.
-%%%%
 beak
 
 клюв
@@ -12179,162 +12027,6 @@ Your mouth lengthens and hardens into a beak!
 Your beak shortens and softens into a mouth.
 
 Ваш клюв укорачивается и превращается в рот.
-%%%%
-You have sharp fingernails.
-
-У вас острые ногти.
-%%%%
-You have very sharp fingernails.
-
-У вас очень острые ногти.
-%%%%
-You have claws for hands.
-
-У тебя вместо рук когти.
-%%%%
-Your fingernails lengthen.
-
-Ваши ногти удлиняются.
-%%%%
-Your fingernails sharpen.
-
-Ваши ногти точатся.
-%%%%
-Your hands twist into claws.
-
-Твои руки превращаются в когти.
-%%%%
-Your fingernails shrink to normal size.
-
-Ваши ногти уменьшаются до нормального размера.
-%%%%
-Your fingernails look duller.
-
-Ваши ногти выглядят тусклее.
-%%%%
-Your hands feel fleshier.
-
-Ваши руки кажутся более мясистыми.
-%%%%
-fangs
-
-клыки
-%%%%
-You have very sharp teeth.
-
-У тебя очень острые зубы.
-%%%%
-You have extremely sharp teeth.
-
-У вас чрезвычайно острые зубы.
-%%%%
-You have razor-sharp teeth.
-
-У тебя острые как бритва зубы.
-%%%%
-Your teeth lengthen and sharpen.
-
-Ваши зубы удлиняются и обостряются.
-%%%%
-Your teeth lengthen and sharpen some more.
-
-Ваши зубы удлиняются и становятся еще более острыми.
-%%%%
-Your teeth grow very long and razor-sharp.
-
-Ваши зубы растут очень длинными и острыми.
-%%%%
-Your teeth shrink to normal size.
-
-Ваши зубы уменьшаются до нормального размера.
-%%%%
-Your teeth shrink and become duller.
-
-Ваши зубы сжимаются и становятся тусклее.
-%%%%
-You have large cloven feet.
-
-У вас большие раздвоенные ступни.
-%%%%
-You have hoof-like feet.
-
-У тебя ноги, похожие на копыта.
-%%%%
-You have hooves in place of feet.
-
-У вас вместо ног копыта.
-%%%%
-Your feet thicken and deform.
-
-Ваши ступни утолщаются и деформируются.
-%%%%
-Your feet have mutated into hooves.
-
-Твои ноги превратились в копыта.
-%%%%
-Your hooves expand and flesh out into feet!
-
-Ваши копыта расширяются и превращаются в ступни!
-%%%%
-Your hooves look more like feet.
-
-Твои копыта больше похожи на ступни.
-%%%%
-You have a pair of small antennae on your head.
-
-У вас на голове пара маленьких усиков.
-%%%%
-You have a pair of antennae on your head.
-
-У тебя на голове пара усиков.
-%%%%
-You have a pair of large antennae on your head. (SInv)
-
-У тебя на голове пара больших усиков. (СИнв)
-%%%%
-A pair of antennae grows on your head!
-
-У тебя на голове растет пара усиков!
-%%%%
-The antennae on your head grow some more.
-
-Усики на твоей голове еще немного вырастут.
-%%%%
-The antennae on your head shrink away.
-
-Усики на твоей голове сжимаются.
-%%%%
-The antennae on your head shrink a bit.
-
-Усики на твоей голове немного сжимаются.
-%%%%
-You have sharp toenails.
-
-У тебя острые ногти.
-%%%%
-You have razor-sharp toenails.
-
-У тебя острые как бритва ногти.
-%%%%
-You have claws for feet.
-
-У тебя вместо ног когти.
-%%%%
-Your toenails lengthen and sharpen.
-
-Ваши ногти на ногах удлиняются и заостряются.
-%%%%
-Your feet stretch into talons.
-
-Твои ноги вытягиваются в когти.
-%%%%
-Your talons dull and shrink into feet.
-
-Твои когти тупятся и превращаются в ступни.
-%%%%
-Your talons look more like feet.
-
-Твои когти больше похожи на ноги.
 %%%%
 tentacle spike
 
@@ -12372,10 +12064,6 @@ Your tentacle spike recedes somewhat.
 
 Ваше щупальце несколько отступает.
 %%%%
-naga tail
-
-хвост наги
-%%%%
 You have a snake-like lower body.
 
 У тебя змееподобная нижняя часть тела.
@@ -12383,22 +12071,6 @@ You have a snake-like lower body.
 You can use your snake-like lower body to constrict enemies.
 
 Вы можете использовать змееподобную нижнюю часть тела, чтобы сжимать врагов.
-%%%%
-Your lower body turns into a snake tail.
-
-Нижняя часть вашего тела превращается в змеиный хвост.
-%%%%
-Your tail grows strong enough to constrict your enemies.
-
-Твой хвост становится достаточно сильным, чтобы сжимать врагов.
-%%%%
-Your lower body returns to normal.
-
-Нижняя часть тела возвращается в нормальное состояние.
-%%%%
-Your snake tail weakens and can no longer constrict your enemies.
-
-Ваш змеиный хвост ослабевает и больше не может сковывать врагов.
 %%%%
 stinger
 
@@ -13720,22 +13392,6 @@ You can once more read scrolls while threatened.
 
 Вы снова можете читать свитки, находясь под угрозой.
 %%%%
-missing a hand
-
-не хватает руки
-%%%%
-You are missing a hand.
-
-У вас не хватает руки.
-%%%%
-One of your hands has vanished, leaving only a stump!
-
-Одна из твоих рук исчезла, остался лишь пень!
-%%%%
-Your stump has regrown into a hand!
-
-Твоя культя превратилась в руку!
-%%%%
 no stealth
 
 никакой скрытности
@@ -13751,22 +13407,6 @@ You can no longer be stealthy.
 You can once more be stealthy.
 
 Вы снова можете действовать скрытно.
-%%%%
-inability to use devices
-
-невозможность использования устройств
-%%%%
-You cannot study or use magical devices.
-
-Вы не можете изучать или использовать магические устройства.
-%%%%
-You can no longer study or use magical devices.
-
-Вы больше не можете изучать или использовать магические устройства.
-%%%%
-You can once more study and use magical devices.
-
-Вы снова можете изучать и использовать магические устройства.
 %%%%
 cowardly
 
@@ -13784,22 +13424,6 @@ You have regained your courage.
 
 К вам вернулось мужество.
 %%%%
-inability to train dodging
-
-невозможность тренировать уклонение
-%%%%
-You cannot train Dodging skill.
-
-Вы не можете тренировать навык Уклонение.
-%%%%
-You can no longer train Dodging skill.
-
-Вы больше не можете тренировать навык Уклонение.
-%%%%
-You can once more train Dodging skill.
-
-Вы можете еще раз тренировать навык Уклонение.
-%%%%
 inability to train armour
 
 невозможность тренировки брони
@@ -13816,118 +13440,6 @@ You can once more train Armour skill.
 
 Вы можете еще раз тренировать навык Доспехи.
 %%%%
-no air magic
-
-нет магии воздуха
-%%%%
-You cannot study or cast Air magic.
-
-Вы не можете изучать или использовать магию Воздуха.
-%%%%
-You can no longer study or cast Air magic.
-
-Вы больше не можете изучать или использовать магию Воздуха.
-%%%%
-You can once more study and cast Air magic.
-
-Вы снова можете изучать и использовать магию Воздуха.
-%%%%
-no conjurations magic
-
-никакой магии заклинаний
-%%%%
-You cannot study or cast Conjurations magic.
-
-Вы не можете изучать или использовать магию Разрушение.
-%%%%
-You can no longer study or cast Conjurations magic.
-
-Вы больше не можете изучать или использовать магию Разрушение.
-%%%%
-You can once more study and cast Conjurations magic.
-
-Вы можете еще раз изучить и использовать магию Разрушение.
-%%%%
-no earth magic
-
-нет магии земли
-%%%%
-You cannot study or cast Earth magic.
-
-Вы не можете изучать или использовать магию Земли.
-%%%%
-You can no longer study or cast Earth magic.
-
-Вы больше не можете изучать или использовать магию Земли.
-%%%%
-You can once more study and cast Earth magic.
-
-Вы снова можете изучать и применять магию Земли.
-%%%%
-no fire magic
-
-нет магии огня
-%%%%
-You cannot study or cast Fire magic.
-
-Вы не можете изучать или использовать магию Огня.
-%%%%
-You can no longer study or cast Fire magic.
-
-Вы больше не можете изучать или использовать магию Огня.
-%%%%
-You can once more study and cast Fire magic.
-
-Вы снова можете изучать и использовать магию Огня.
-%%%%
-no hexes magic
-
-магия без гексов
-%%%%
-You cannot study or cast Hexes magic.
-
-Вы не можете изучать или использовать магию Проклятия.
-%%%%
-You can no longer study or cast Hexes magic.
-
-Вы больше не можете изучать или использовать магию Проклятия.
-%%%%
-You can once more study and cast Hexes magic.
-
-Вы можете еще раз изучить и использовать магию Проклятия.
-%%%%
-no ice magic
-
-никакой ледяной магии
-%%%%
-You cannot study or cast Ice magic.
-
-Вы не можете изучать или использовать магию льда.
-%%%%
-You can no longer study or cast Ice magic.
-
-Вы больше не можете изучать или использовать магию льда.
-%%%%
-You can once more study and cast Ice magic.
-
-Вы снова можете изучать и использовать магию льда.
-%%%%
-no necromancy magic
-
-никакой некромантской магии
-%%%%
-You cannot study or cast Necromancy magic.
-
-Вы не можете изучать или использовать магию Некромантия.
-%%%%
-You can no longer study or cast Necromancy magic.
-
-Вы больше не можете изучать или использовать магию Некромантия.
-%%%%
-You can once more study and cast Necromancy magic.
-
-Вы можете еще раз изучить и использовать магию Некромантия.
-%%%%
 no poison magic
 
 никакой ядовитой магии
@@ -13943,38 +13455,6 @@ You can no longer study or cast Poison magic.
 You can once more study and cast Poison magic.
 
 Вы снова можете изучать и использовать магию Яда.
-%%%%
-no summoning magic
-
-нет магии призыва
-%%%%
-You cannot study or cast Summoning magic.
-
-Вы не можете изучать или использовать магию Призыва.
-%%%%
-You can no longer study or cast Summoning magic.
-
-Вы больше не можете изучать или использовать магию Призыва.
-%%%%
-You can once more study and cast Summoning magic.
-
-Вы можете еще раз изучить и использовать магию Призыва.
-%%%%
-no translocations magic
-
-нет магии транслокаций
-%%%%
-You cannot study or cast Translocations magic.
-
-Вы не можете изучать или использовать магию Перемещения.
-%%%%
-You can no longer study or cast Translocations magic.
-
-Вы больше не можете изучать или использовать магию Перемещения.
-%%%%
-You can once more study and cast Translocations magic.
-
-Вы можете еще раз изучить и использовать магию Перемещения.
 %%%%
 no transmutations magic
 
@@ -14260,14 +13740,6 @@ You do not drink.
 
 Ты не пьешь.
 %%%%
-Your mouth dries to ashes.
-
-Во рту пересыхает пепел.
-%%%%
-You gain the ability to drink.
-
-Вы получаете возможность пить.
-%%%%
 retaliatory headbutt
 
 ответный удар головой
@@ -14316,18 +13788,6 @@ You can now grasp objects.
 
 Теперь вы можете брать предметы.
 %%%%
-You cannot wear armour.
-
-Вы не можете носить доспехи.
-%%%%
-You can no longer wear armour.
-
-Вы больше не можете носить доспехи.
-%%%%
-You can now wear armour.
-
-Теперь вы можете носить доспехи.
-%%%%
 multi-lived
 
 многожильный
@@ -14367,18 +13827,6 @@ You feel very comfortable near water.
 You feel less comfortable near water.
 
 Рядом с водой вы чувствуете себя менее комфортно.
-%%%%
-You have tentacles for arms and can constrict enemies.
-
-У вас вместо рук щупальца, и вы можете сжимать врагов.
-%%%%
-Your arms feel tentacular.
-
-Ваши руки кажутся щупальцами.
-%%%%
-Your arms no longer feel tentacular.
-
-Ваши руки больше не кажутся щупальцами.
 %%%%
 vampiric
 
@@ -14459,18 +13907,6 @@ You feel a greater respect for book-learning.
 hp casting
 
 литье л.с.
-%%%%
-Your magical power is your life essence.
-
-Ваша магическая сила – это суть вашей жизни.
-%%%%
-Your magical power and health merge together.
-
-Ваша магическая сила и здоровье сливаются воедино.
-%%%%
-Your life and magic unlink.
-
-Ваша жизнь и магия разъединяются.
 %%%%
 extra vitality
 
@@ -19836,10 +19272,6 @@ wings
 
 крылья
 %%%%
-antennae
-
-усики
-%%%%
 eye-stalks
 
 глазные стебельки
@@ -19859,14 +19291,6 @@ pupils
 legs
 
 ноги
-%%%%
-hooves
-
-копыта
-%%%%
-talons
-
-когти
 %%%%
 pseudopods
 
