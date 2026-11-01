@@ -23438,7 +23438,7 @@ The tide is released from @arg@ call.
 %%%%
 Not in Shoals or no heightmap; tide not available.
 
-Вы не на Отмелях или нет карты высот; прилив недоступен.
+Вы не на Мелководьях или нет карты высот; прилив недоступен.
 %%%%
 "Tide inertia: @num@. New value (smaller = faster tide) or use +/- to change tide: "
 
@@ -24202,11 +24202,11 @@ You have a sudden vision of the Swamp and the Spider Nest!
 %%%%
 You have a sudden vision of the Shoals and the Snake Pit!
 
-Внезапно вам является видение Отмелей и Змеиной ямы!
+Внезапно вам является видение Мелководий и Змеиной ямы!
 %%%%
 You have a sudden vision of the Shoals and the Spider Nest!
 
-Внезапно вам является видение Отмелей и Паучьего гнезда!
+Внезапно вам является видение Мелководий и Паучьего гнезда!
 %%%%
 Miasma emanates from the human's flesh.
 
@@ -26550,7 +26550,7 @@ Can't repeat entering explore mode
 %%%%
 <w>Ctrl-W</w> change Shoals' tide speed
 
-<w>Ctrl-W</w> изменить скорость прилива на Отмелях
+<w>Ctrl-W</w> изменить скорость прилива на Мелководьях
 %%%%
 <yellow>Other player related effects</yellow>
 
@@ -34222,15 +34222,15 @@ the staircase to the Orcish Mines
 %%%%
 A staircase to the Shoals
 
-Лестница на Отмели
+Лестница на Мелководья
 %%%%
 a staircase to the Shoals
 
-лестница на Отмели
+лестница на Мелководья
 %%%%
 the staircase to the Shoals
 
-лестница на Отмели
+лестница на Мелководья
 %%%%
 A staircase to the Slime Pits
 
@@ -47379,3 +47379,59 @@ You have tentacles for arms and can constrict up to seven enemies at once.
 You have tentacles for arms and can constrict up to eight enemies at once.
 
 Вместо рук у вас щупальца; вы можете одновременно сдавливать до восьми противников.
+%%%%
+Shoals
+
+Мелководья
+%%%%
+the Shoals
+
+Мелководья
+%%%%
+{poss}the Shoals
+
+{poss}Мелководий
+%%%%
+{to}the Shoals
+
+{to}на Мелководья
+%%%%
+{branch_abbrev}Shoals
+
+{branch_abbrev}Мелк.
+%%%%
+Shoals:@num@
+
+Мелководья:@num@
+%%%%
+on level @num@ of the Shoals
+
+на уровне @num@ Мелководий
+%%%%
+between levels @num1@ and @num2@ of the Shoals
+
+между уровнями @num1@ и @num2@ Мелководий
+%%%%
+the Realm of Zot
+
+Царство Зота
+%%%%
+Realm of Zot
+
+Царство Зота
+%%%%
+{poss}the Realm of Zot
+
+{poss}Царства Зота
+%%%%
+{to}the Realm of Zot
+
+{to}в Царство Зота
+%%%%
+on level @num@ of the Realm of Zot
+
+на уровне @num@ Царства Зота
+%%%%
+between levels @num1@ and @num2@ of the Realm of Zot
+
+между уровнями @num1@ и @num2@ Царства Зота

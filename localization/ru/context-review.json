@@ -22996,8 +22996,8 @@
       "translation_sha256": "eadb95a96351974300548b7b5cca93c5edc952ca802781262feabef702b0d444"
     },
     "Not in Shoals or no heightmap; tide not available.": {
-      "context": "dgn-shoals.cc",
-      "translation_sha256": "d40d53e9ed8e3e2d492b0d74e996bb61d595b2bd0919c05622588fdf26653fc6"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "6ec94537e9c707151643a7f9e4ccfe2f6ad233fe2817fb01ee527a9a79f42555"
     },
     "Tide inertia: @num@. New value (smaller = faster tide) or use +/- to change tide: ": {
       "context": "dgn-shoals.cc",
@@ -23760,12 +23760,12 @@
       "translation_sha256": "e4e36c8ed7bb3a8ab66412c0f2bf376faf261e42c9caee78fd7ea6a8f003f4af"
     },
     "You have a sudden vision of the Shoals and the Snake Pit!": {
-      "context": "xom.cc",
-      "translation_sha256": "ca9c32e2d732e7dede36e4283a68bdcb6e6e2476898eb90bbe02ef703477403f"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "c94f607a08f85567dca319d2e73d1d787d98cd3ebaf4a0e5d419633eded612ee"
     },
     "You have a sudden vision of the Shoals and the Spider Nest!": {
-      "context": "xom.cc",
-      "translation_sha256": "6b5ad2809cbe6d29165bf516bdf137bd82ef920805b4a34062842b40b9596e4e"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "5744733c74b96c898bf3a387c0356d310067106cdbc0e9a7193e5ea60e9dbc1f"
     },
     "Miasma emanates from the human's flesh.": {
       "context": "xom.cc",
@@ -26108,8 +26108,8 @@
       "translation_sha256": "50b7b3d3b37105bfd2544c58ee786b6b15691211459e755651235c2ef6fd70e1"
     },
     "<w>Ctrl-W</w> change Shoals' tide speed": {
-      "context": "wizard.cc",
-      "translation_sha256": "dd84ff4571519eacd8280c2456a647aae7bef00911eec0a14e721122bd29995a"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "e14ca3714c28fec2bfaa69f0ae13d397b9b894da46639f38335ca570e7a5fcaa"
     },
     "<yellow>Other player related effects</yellow>": {
       "context": "wizard.cc",
@@ -33852,16 +33852,16 @@
       "translation_sha256": "4b92389c1aaa5e972fcc71eca317acc9f923fca76640ae1965c24b55210c00bb"
     },
     "A staircase to the Shoals": {
-      "context": "Terrain display name shared with reviewed feature description and wiki; articles removed; fantasy and branch names retained in Cyrillic.",
-      "translation_sha256": "b48148e372d57ecc9c0a937a31f92a6b4de1a9b6298562527aee8d67df249de7"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "1e684b660f9fd879ced7cc36d2b505d22db299d60d1207fa2a53d60717a940c2"
     },
     "a staircase to the Shoals": {
-      "context": "Terrain display name shared with reviewed feature description and wiki; articles removed; fantasy and branch names retained in Cyrillic.",
-      "translation_sha256": "1826fa61cf173ec556314751ec766edca89510deb294dde407ad19eaefcfdc86"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "d0355d90b47d143c2e67d1b0a0778398fd6e2bb821a5a04e19374afbb5d2e3f0"
     },
     "the staircase to the Shoals": {
-      "context": "Terrain display name shared with reviewed feature description and wiki; articles removed; fantasy and branch names retained in Cyrillic.",
-      "translation_sha256": "1826fa61cf173ec556314751ec766edca89510deb294dde407ad19eaefcfdc86"
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "d0355d90b47d143c2e67d1b0a0778398fd6e2bb821a5a04e19374afbb5d2e3f0"
     },
     "A staircase to the Slime Pits": {
       "context": "Terrain display name shared with reviewed feature description and wiki; articles removed; fantasy and branch names retained in Cyrillic.",
@@ -47026,6 +47026,62 @@
     "You have tentacles for arms and can constrict up to eight enemies at once.": {
       "context": "mutation-data.h anatomy, equipment restrictions and eleven unavailable magic schools; mutation.cc mutation_desc HP-powered wands and counted tentacle overrides, melee-attack.cc auxiliary attack verbs, evoke.cc wand_mp_cost. Cannot train Dodging is not inability to dodge; no artifice blocks devices and their skill, not ordinary weapons. Missing hand is not a whole lost arm. Three stages of claws, hooves, talons, horns, antennae and fangs remain distinct; see invisible is only in the third antennae tier. Naga movement and constriction are distinct from attack speed. Demonic touch says may and distinguishes irresistible damage from willpower reduction; no guaranteed proc is invented. rF/rC/rN/rElec/rPois symbols preserved, resistance is not immunity except the source maximum negative-energy tier. HP casting spends health, and the separate HP wand description does not claim MP cost for Djinn. Ru school restrictions use shared skill names in quotes. No levels, damage, charges, body parts, equipment eligibility, resistance values or mutation IDs changed.",
       "translation_sha256": "e631b39fce1411818380ed96264ab2173c18aea586d1ee61fecb19c3eaf38e35"
+    },
+    "Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "ae414e00389706bc29c3780fbba10b2bc70f7b9990c2616337a812b9b4b0ec3d"
+    },
+    "the Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "ae414e00389706bc29c3780fbba10b2bc70f7b9990c2616337a812b9b4b0ec3d"
+    },
+    "{poss}the Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "2aaa1a6f64e705e6d5caed78926ae014c56892a325bfa757f885524bbf25dee3"
+    },
+    "{to}the Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "2f962ad279c2e42fa5f58bfc2182b1a4bb2608e861bde5a58b69f248e5b0e73b"
+    },
+    "{branch_abbrev}Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "c12ad00ea8d19f3fe0424603f6e8854fdab10f10ffd90d30139c687ff3570a59"
+    },
+    "Shoals:@num@": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "9a64c0ee05fd57a65a8744f8ca400517e7c2ea6fdb353a61e4beb9e80a852510"
+    },
+    "on level @num@ of the Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "a61ade3e0d44c37af0829f3d787813ab6862097db1f234142c9d5ac20d262bf7"
+    },
+    "between levels @num1@ and @num2@ of the Shoals": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "f29fa31ca5cbf43d900f6f18888455f7a69ea89f03c84f87f8698aca47bae892"
+    },
+    "the Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "ded40fdf6b6f8feb6f564c62444a0569a9510f90003c5bf5a438816c04aba6c9"
+    },
+    "Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "ded40fdf6b6f8feb6f564c62444a0569a9510f90003c5bf5a438816c04aba6c9"
+    },
+    "{poss}the Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "9eedfb5e6dc79151003cad58714475a9c54b1231bc835b8684864e41b9501694"
+    },
+    "{to}the Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "79dae337e7a9eb83f91cb4a103c2c2c23022b0677b077a33863dca41a957b58b"
+    },
+    "on level @num@ of the Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "c109af325c2d75a896974129035d8858cac24f2711def4e07406bc52959bac87"
+    },
+    "between levels @num1@ and @num2@ of the Realm of Zot": {
+      "context": "branch-data.h and dat/translate/dungeon.txt/features.txt, describe.cc staircase labels and current spell branch lists. Shoals means shallow waters, not shoals of fish: same canonical Melkovodya for map, depth, staircases, visions, travel and wiki. Explicit genitive, destination and abbreviation contexts retain engine tags. Zot is transliterated with Russian genitive Zota; machine branch IDs, coordinates and English source lookup keys unchanged.",
+      "translation_sha256": "3ab11449ac00cde2f0551505682a8fcbe46e7424906dbc6480c3a6fdd1859c4a"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

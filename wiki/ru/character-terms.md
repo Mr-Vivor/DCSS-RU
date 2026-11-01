@@ -106,6 +106,10 @@
 | English | Русское название |
 |---|---|
 | Slime Pits | Слизистые ямы |
+| Shoals | Мелководья |
+| the Shoals | Мелководья |
+| the Realm of Zot | Царство Зота |
+| Realm of Zot | Царство Зота |
 
 ## gods
 
@@ -340,6 +344,38 @@
 | Sleep | Сон |
 | Stunning Burst | Оглушающий разряд |
 | Doomsaying | Обречение |
+| Vex | Раздражение |
+| Antimagic Gaze | Антимагический взгляд |
+| Ostracise | Отвержение |
+| Brain Bite | Укус разума |
+| Corrupting Pulse | Импульс порчи |
+| Forceful Invitation | Принудительное приглашение |
+| Planar Overlay | Наложение измерений |
+| Plane Rend | Разрыв измерений |
+| Shadow Bind | Сковывание тенями |
+| Bind Souls | Связывание душ |
+| Dominate Undead | Подчинение нежити |
+| Haste Other | Ускорение союзника |
+| Might Other | Мощь союзника |
+| Battlecry | Боевой клич |
+| Invisibility Other | Невидимость союзника |
+| Heal Other | Исцеление союзника |
+| Mass Regeneration | Массовая регенерация |
+| Regenerate Other | Регенерация союзника |
+| Drain Life | Поглощение жизни |
+| Flay | Сдирание кожи |
+| Entropic Weave | Энтропийное переплетение |
+| Crystallising Shot | Кристаллизирующий выстрел |
+| Cage of Brambles | Клетка из ежевики |
+| Grasping Roots | Цепкие корни |
+| Still Winds | Безветрие |
+| Primal Wave | Первозданная волна |
+| Warning Cry | Предупреждающий крик |
+| Word of Recall | Слово отзыва |
+| Beckoning Gale | Притягивающий шквал |
+| Flash Freeze | Быстрое замораживание |
+| Freezing Gust | Ледяной порыв |
+| Hunting Call | Охотничий призыв |
 
 ## items
 

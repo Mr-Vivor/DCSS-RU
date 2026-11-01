@@ -4256,10 +4256,6 @@ Recall Undead Slaves
 
 Призвать слуг-нежить
 %%%%
-Drain Life
-
-Вытянуть жизненную силу
-%%%%
 Enslave Soul
 
 Поработить душу
@@ -4291,10 +4287,6 @@ Divine Protection
 Lesser Healing
 
 Малое исцеление
-%%%%
-Heal Other
-
-Исцелить другого
 %%%%
 Greater Healing
 
@@ -7320,10 +7312,6 @@ Swamp
 
 Болото
 %%%%
-Shoals
-
-Косяки
-%%%%
 Snake Pit
 
 Змеиная яма
@@ -7508,10 +7496,6 @@ the Swamp
 
 Болото
 %%%%
-the Shoals
-
-Мелководья
-%%%%
 the Snake Pit
 
 Змеиная яма
@@ -7551,10 +7535,6 @@ the Vestibule of Hell
 the Iron City of Dis
 
 Железный город Дис
-%%%%
-the Realm of Zot
-
-Царство Зот
 %%%%
 the Abyss
 
@@ -7628,10 +7608,6 @@ the Desolation of Salt
 
 {poss} Болото
 %%%%
-{poss}the Shoals
-
-{poss} Мелководья
-%%%%
 {poss}the Snake Pit
 
 {poss} Змеиная яма
@@ -7683,10 +7659,6 @@ the Desolation of Salt
 {poss}Tartarus
 
 {poss} Тартар
-%%%%
-{poss}the Realm of Zot
-
-{poss} Царство Зот
 %%%%
 {poss}the Abyss
 
@@ -7764,10 +7736,6 @@ the Desolation of Salt
 
 {to} Болото
 %%%%
-{to}the Shoals
-
-{to} Мелководья
-%%%%
 {to}the Snake Pit
 
 {to} Змеиная яма
@@ -7819,10 +7787,6 @@ the Desolation of Salt
 {to}Tartarus
 
 {to} Тартар
-%%%%
-{to}the Realm of Zot
-
-{to} Царство Зот
 %%%%
 {to}the Abyss
 
@@ -7899,10 +7863,6 @@ the Desolation of Salt
 {branch_abbrev}Swamp
 
 {branch_abbrev} Болото
-%%%%
-{branch_abbrev}Shoals
-
-{branch_abbrev} Косяки
 %%%%
 Snake
 
@@ -8024,10 +7984,6 @@ Swamp:@num@
 
 Болото: @num@
 %%%%
-Shoals:@num@
-
-Косяки: @num@
-%%%%
 Snake:@num@
 
 Змея: @num@
@@ -8100,10 +8056,6 @@ on level @num@ of the Swamp
 
 на уровне @num@ Болота
 %%%%
-on level @num@ of the Shoals
-
-на уровне @num@ отмелей.
-%%%%
 on level @num@ of the Snake Pit
 
 на уровне @num@ Змеиной ямы
@@ -8156,10 +8108,6 @@ on level @num@ of Pandemonium
 
 на уровне @num@ Пандемониума
 %%%%
-on level @num@ of the Realm of Zot
-
-на уровне @num@ Царства Зот
-%%%%
 on level @num@ of the Abyss
 
 на уровне @num@ Бездны
@@ -8191,10 +8139,6 @@ between levels @num1@ and @num2@ of the Lair of Beasts
 between levels @num1@ and @num2@ of the Swamp
 
 между уровнями @num1@ и @num2@ Болота.
-%%%%
-between levels @num1@ and @num2@ of the Shoals
-
-между уровнями @num1@ и @num2@ отмелей.
 %%%%
 between levels @num1@ and @num2@ of the Snake Pit
 
@@ -8231,10 +8175,6 @@ between levels @num1@ and @num2@ of the Vestibule of Hell
 between levels @num1@ and @num2@ of the Iron City of Dis
 
 между уровнями @num1@ и @num2@ Железного города Дис
-%%%%
-between levels @num1@ and @num2@ of the Realm of Zot
-
-между уровнями @num1@ и @num2@ Царства Зот
 %%%%
 between levels @num1@ and @num2@ of the Abyss
 
@@ -14272,10 +14212,6 @@ Summon Eyeballs
 
 Призвать глазные яблоки
 %%%%
-Haste Other
-
-Спешка Другое
-%%%%
 Summon Earth Elementals
 
 Призыв элементалей земли
@@ -14296,10 +14232,6 @@ Summon Illusion
 
 Вызов иллюзии
 %%%%
-Primal Wave
-
-Первичная волна
-%%%%
 Call Tide
 
 Прилив вызова
@@ -14311,10 +14243,6 @@ Ink Cloud
 Might
 
 Могущество
-%%%%
-Might Other
-
-Может другое
 %%%%
 Druid's Call
 
@@ -14359,10 +14287,6 @@ Summon Minor Demon
 Dazzling Flash
 
 Ослепительная вспышка
-%%%%
-Word of Recall
-
-Отзывное слово
 %%%%
 Spectral Cloud
 
@@ -14412,29 +14336,13 @@ Malign Offering
 
 Вредоносное предложение
 %%%%
-Invisibility Other
-
-Невидимость Другое
-%%%%
 Orb of Electricity
 
 Сфера электричества
 %%%%
-Flash Freeze
-
-Быстрое замораживание
-%%%%
 Legendary Destruction
 
 Легендарное разрушение
-%%%%
-Forceful Invitation
-
-Насильственное приглашение
-%%%%
-Plane Rend
-
-Разрыв самолета
 %%%%
 Chain of Chaos
 
@@ -14516,25 +14424,9 @@ Throw Barbs
 
 Зазубрины для метания
 %%%%
-Battlecry
-
-Боевой клич
-%%%%
-Warning Cry
-
-Предупреждающий крик
-%%%%
 Seal Doors
 
 Уплотнение дверей
-%%%%
-Flay
-
-Флэй
-%%%%
-Corrupting Pulse
-
-Разлагающий импульс
 %%%%
 Siren Song
 
@@ -14560,10 +14452,6 @@ Gell's Gravitas
 
 Гелл
 %%%%
-Entropic Weave
-
-Энтропийное переплетение
-%%%%
 Summon Executioners
 
 Призвать палачей
@@ -14588,14 +14476,6 @@ Sprint
 
 Спринт
 %%%%
-Bind Souls
-
-Связывание душ
-%%%%
-Still Winds
-
-Все еще ветры
-%%%%
 Resonance Strike
 
 Резонансный удар
@@ -14615,10 +14495,6 @@ Vortex
 Harpoon Shot
 
 Гарпунный выстрел
-%%%%
-Grasping Roots
-
-Цепляющиеся корни
 %%%%
 Throw Klown Pie
 
@@ -14704,17 +14580,9 @@ Agonising Touch
 
 Мучительное прикосновение
 %%%%
-Antimagic Gaze
-
-Антимагический взгляд
-%%%%
 Awaken Flesh
 
 Пробуждение плоти
-%%%%
-Beckoning Gale
-
-Манящая буря
 %%%%
 Bestow Arms
 
@@ -14732,14 +14600,6 @@ Bolt of Flesh
 
 Кусок плоти
 %%%%
-Brain Bite
-
-Мозговой укус
-%%%%
-Cage of Brambles
-
-Клетка из ежевики
-%%%%
 Call Lost Souls
 
 Вызов потерянных душ
@@ -14748,17 +14608,9 @@ Creeping Shadow
 
 Ползущая тень
 %%%%
-Crystallising Shot
-
-Кристаллизирующий выстрел
-%%%%
 Divine Armament
 
 Божественное вооружение
-%%%%
-Dominate Undead
-
-Доминируйте над нежитью
 %%%%
 Doom Bolt
 
@@ -14788,10 +14640,6 @@ Fleetfoot
 
 Быстроногий
 %%%%
-Freezing Gust
-
-Ледяной порыв
-%%%%
 Funeral Dirge
 
 Похоронная панихида
@@ -14803,10 +14651,6 @@ Hellfire Court
 Hoarfrost Bullet
 
 Инейная пуля
-%%%%
-Hunting Call
-
-Охотничий призыв
 %%%%
 Landbreaker
 
@@ -14828,10 +14672,6 @@ March of Sorrows
 
 Марш скорби
 %%%%
-Mass Regeneration
-
-Массовая регенерация
-%%%%
 Mourning Wail
 
 Траурный вопль
@@ -14840,10 +14680,6 @@ Murky Legion
 
 Мрачный Легион
 %%%%
-Ostracise
-
-Острациз
-%%%%
 Phantom Blitz
 
 Фантомный блиц
@@ -14851,10 +14687,6 @@ Phantom Blitz
 Phase Shift
 
 Фазовый сдвиг
-%%%%
-Planar Overlay
-
-Плоское наложение
 %%%%
 Prayer of Brilliance
 
@@ -14872,10 +14704,6 @@ Ravenous Swarm
 
 Хищный рой
 %%%%
-Regenerate Other
-
-Восстановить другое
-%%%%
 Rust Breath
 
 Дыхание ржавчины
@@ -14891,10 +14719,6 @@ Seracfall
 Shadow Beam
 
 Теневой луч
-%%%%
-Shadow Bind
-
-Теневая связь
 %%%%
 Shadow Draining
 
@@ -14987,10 +14811,6 @@ Ufetubi Swarm
 Vanquished Vanguard
 
 Побеждённый авангард
-%%%%
-Vex
-
-Досаждение
 %%%%
 Warp Body
 

@@ -14,9 +14,9 @@
     "species": 27,
     "background": 28,
     "skill": 29,
-    "branches": 1,
+    "branches": 5,
     "gods": 26,
-    "spell": 198,
+    "spell": 230,
     "items": 319,
     "ability": 155,
     "cards": 24,
@@ -54,7 +54,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 11845,
+  "additional_system_messages": 11859,
   "reviewed_artifact_powers": {
     "fields": 103,
     "description_lines": 129
@@ -74,7 +74,7 @@
     "items": 317,
     "skills": 29,
     "egos": 80,
-    "spells": 197,
+    "spells": 229,
     "ability": 155,
     "monsters": 5,
     "status": 28,
