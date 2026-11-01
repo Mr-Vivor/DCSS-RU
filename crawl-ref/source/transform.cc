@@ -30,6 +30,7 @@
 #include "item-name.h"
 #include "item-prop.h"
 #include "items.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "message.h"
 #include "mon-death.h"
@@ -38,6 +39,7 @@
 #include "mutation.h"
 #include "nearby-danger.h"
 #include "output.h"
+#include "options.h"
 #include "player-equip.h"
 #include "player-stats.h"
 #include "prompt.h"
@@ -110,7 +112,7 @@ string Form::melding_description(bool itemized) const
                 if (testbits(blocked_slots, SLOTF(slot))
                     && you.equipment.num_slots[slot] > 0)
                 {
-                    tags.emplace_back(lowercase_string(equip_slot_name(slot)));
+                    tags.emplace_back(localise(lowercase_string(equip_slot_name(slot))));
                 }
             }
             if (!tags.empty())
@@ -121,6 +123,9 @@ string Form::melding_description(bool itemized) const
                     return "Your equipment is almost entirely melded";
                 else
                 {
+                    if (Options.language == lang_t::RU && localisation_active())
+                        return make_stringf(localise("Melded equipment slots: %s.").c_str(),
+                            comma_separated_line(tags.begin(), tags.end(), localise(" and ")).c_str());
                     return make_stringf("Your %s %s melded.",
                                         comma_separated_line(tags.begin(), tags.end()).c_str(),
                                         tags.size() > 1 ? "are" : "is");
@@ -132,16 +137,16 @@ string Form::melding_description(bool itemized) const
     }
 
     if (blocked_slots == EQF_ALL)
-        tags.emplace_back("All Equipment");
+        tags.emplace_back(localise("All Equipment"));
     else if (blocked_slots == EQF_PHYSICAL)
-        tags.emplace_back("All Weapons and Armour");
+        tags.emplace_back(localise("All Weapons and Armour"));
     else
     {
         for (int i = SLOT_WEAPON; i < SLOT_GIZMO; ++i)
         {
             equipment_slot slot = static_cast<equipment_slot>(i);
             if (testbits(blocked_slots, SLOTF(slot)))
-                tags.emplace_back(equip_slot_name(slot));
+                tags.emplace_back(localise(equip_slot_name(slot)));
         }
     }
 
@@ -231,6 +236,9 @@ int Form::get_level(int scale) const
  */
 string Form::get_description(bool past_tense) const
 {
+    if (Options.language == lang_t::RU && localisation_active())
+        return make_stringf(localise(past_tense ? "Former form: %s" : "Current form: %s").c_str(),
+            localise_in_context("form-description", get_transform_description()).c_str());
     return make_stringf("You %s %s",
                         past_tense ? "were" : "are",
                         get_transform_description().c_str());
@@ -244,6 +252,9 @@ string Form::get_description(bool past_tense) const
  */
 string Form::transform_message() const
 {
+    if (Options.language == lang_t::RU && localisation_active())
+        return make_stringf(localise("You take a new form: %s").c_str(),
+            localise_in_context("form-description", get_transform_description()).c_str());
     return make_stringf("You turn into %s", get_transform_description().c_str());
 }
 
@@ -612,8 +623,8 @@ public:
 
     string get_description(bool past_tense) const override
     {
-        return make_stringf("You %s overflowing with transmutational energy.",
-                            past_tense ? "were" : "are");
+        return localise(past_tense ? "You were overflowing with transmutational energy."
+                                  : "You are overflowing with transmutational energy.");
     }
 
     string transform_message() const override
@@ -640,8 +651,8 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return make_stringf("You %s blades growing out of your body.",
-                            past_tense ? "had" : "have");
+        return localise(past_tense ? "You had blades growing out of your body."
+                                  : "You have blades growing out of your body.");
     }
 
     /**
@@ -716,7 +727,7 @@ public:
     {
         // there's special casing in base_hand_name to get "fists"
         string hand = you.base_hand_name(true, true);
-        return make_stringf("Stone %s", hand.c_str());
+        return localise_in_context("form-attack", "Stone " + hand);
     }
 };
 
@@ -989,7 +1000,7 @@ public:
     {
         // there's special casing in base_hand_name to get "fists"
         string hand = you.base_hand_name(true, true);
-        return make_stringf("Storm %s", hand.c_str());
+        return localise_in_context("form-attack", "Storm " + hand);
     }
 };
 
@@ -1146,8 +1157,8 @@ public:
 
     string get_description(bool past_tense) const override
     {
-        return make_stringf("Your body %s made of elemental water.",
-                            past_tense ? "was" : "is");
+        return localise(past_tense ? "Your body was made of elemental water."
+                                  : "Your body is made of elemental water.");
     }
 
     string transform_message() const override
@@ -1273,8 +1284,8 @@ public:
 
     string get_description(bool past_tense) const override
     {
-        return make_stringf("You %s a mane of long, stinging tendrils on your head.",
-                            past_tense ? "had" : "have");
+        return localise(past_tense ? "You had a mane of long, stinging tendrils on your head."
+                                  : "You have a mane of long, stinging tendrils on your head.");
     }
 
     // Number of monsters affected by tendrils per attack (multiplied by 10,
@@ -1312,6 +1323,16 @@ public:
      */
     string get_description(bool past_tense) const override
     {
+        if (Options.language == lang_t::RU && localisation_active())
+        {
+            const char* format = you.arm_count() == 1
+                ? (past_tense ? "You had an electric eel instead of %s."
+                              : "You have an electric eel instead of %s.")
+                : (past_tense ? "You had electric eels instead of %s."
+                              : "You have electric eels instead of %s.");
+            return make_stringf(localise(format).c_str(),
+                localise_in_context("form-body-part", hand_transform_parts()).c_str());
+        }
         return make_stringf("You %s %s for %s.",
                             past_tense ? "had" : "have",
                             you.arm_count() == 1 ? "an electric eel" : "electric eels",
@@ -1324,6 +1345,12 @@ public:
     string transform_message() const override
     {
         const bool singular = you.arm_count() == 1;
+
+        if (Options.language == lang_t::RU && localisation_active())
+            return make_stringf(localise(singular
+                ? "Your %s becomes a wriggling electric eel!"
+                : "Your %s become wriggling electric eels!").c_str(),
+                localise_in_context("form-body-part", hand_transform_parts()).c_str());
 
         // XXX: a little ugly
         return make_stringf("Your %s turn%s into%s wriggling electric eel%s!",
@@ -1338,6 +1365,12 @@ public:
     {
         const bool singular = you.arm_count() == 1;
 
+        if (Options.language == lang_t::RU && localisation_active())
+            return make_stringf(localise(singular
+                ? "Your %s returns to its normal form."
+                : "Your %s return to their normal form.").c_str(),
+                localise_in_context("form-body-part", hand_transform_parts()).c_str());
+
         // XXX: a little ugly
         return make_stringf("Your %s revert%s to %s normal form.",
                             hand_transform_parts().c_str(), singular ? "s" : "",
@@ -1349,7 +1382,7 @@ public:
      */
     string get_uc_attack_name(string /*default_name*/) const override
     {
-        return "Eel " + hand_transform_parts(true);
+        return localise_in_context("form-attack", "Eel " + hand_transform_parts(true));
     }
 };
 
@@ -1366,9 +1399,9 @@ public:
      */
     string transform_message() const override
     {
-        return make_stringf("Dense mycelia sprout from your %s and %s.",
-                            you.arm_name(false).c_str(),
-                            you.foot_name(true).c_str());
+        return make_stringf(localise("Dense mycelia sprout from your %s and %s.").c_str(),
+                            localise_in_context("form-body-part", you.arm_name(false)).c_str(),
+                            localise_in_context("form-body-part", you.foot_name(true)).c_str());
     }
 
     /**
@@ -1381,9 +1414,10 @@ public:
 
     string get_description(bool past_tense) const override
     {
-        return make_stringf("Your %s %s a mass of colorful fungus.",
-                            you.arm_name(false).c_str(),
-                            past_tense ? "was" : "is");
+        return make_stringf(localise(past_tense
+                            ? "Your %s was a mass of colorful fungus."
+                            : "Your %s is a mass of colorful fungus.").c_str(),
+                            localise_in_context("form-body-part", you.arm_name(false)).c_str());
     }
 };
 
@@ -1400,7 +1434,7 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return make_stringf("Your third eye %s open.", past_tense ? "was" : "is");
+        return localise(past_tense ? "Your third eye was open." : "Your third eye is open.");
     }
 
     /**
@@ -1433,8 +1467,8 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return make_stringf("Jade crystal %s your upper body.",
-                            past_tense ? "shrouded" : "shrouds");
+        return localise(past_tense ? "Jade crystal shrouded your upper body."
+                                  : "Jade crystal shrouds your upper body.");
     }
 
     /**
@@ -1509,8 +1543,8 @@ public:
      */
     string get_description(bool past_tense) const override
     {
-        return make_stringf("Your head %s a mane of billowing mist.",
-                            past_tense ? "was" : "is");
+        return localise(past_tense ? "Your head was a mane of billowing mist."
+                                  : "Your head is a mane of billowing mist.");
     }
 
     /**
