@@ -56,6 +56,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "maps.h"
 #include "message.h"
 #include "mon-abil.h"
@@ -68,6 +69,7 @@
 #include "mutation.h"
 #include "nearby-danger.h"
 #include "ouch.h"
+#include "options.h"
 #include "output.h"
 #include "player.h"
 #include "player-stats.h"
@@ -1198,6 +1200,22 @@ static void _maybe_attune_regen_items()
     }
     if (gained_chemistry)
         msgs.emplace_back("extract magic from the potions you drink");
+
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        for (string &name : eq_list)
+            name = localise_in_context("nom", name);
+        for (string &effect : msgs)
+            effect = localise_in_context("attunement-effect", effect);
+        const string eq_str = comma_separated_line(eq_list.begin(), eq_list.end(),
+            localise_in_context("gameplay-list", " and "));
+        const string msg_str = comma_separated_line(msgs.begin(), msgs.end(),
+            localise_in_context("gameplay-list", " and "));
+        mprf(localise_in_context("attunement-message",
+                 "Your equipment (%s) attunes to your body, allowing you to %s.").c_str(),
+             eq_str.c_str(), msg_str.c_str());
+        return;
+    }
 
     plural = plural || eq_list.size() > 1;
     string eq_str = comma_separated_line(eq_list.begin(), eq_list.end());

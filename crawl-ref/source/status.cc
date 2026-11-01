@@ -240,15 +240,16 @@ bool fill_status_info(int status, status_info& inf)
         {
             stat_type stat = static_cast<stat_type>(i);
             if (you.stat(stat, false) <= 0)
-                stat_str.emplace_back(stat_desc(stat, SD_NAME));
+                stat_str.emplace_back(localise_in_context("lost-stat", stat_desc(stat, SD_NAME)));
         }
 
-        string msg = comma_separated_line(stat_str.begin(), stat_str.end());
+        string msg = comma_separated_line(stat_str.begin(), stat_str.end(),
+            localise_in_context("gameplay-list", " and "));
 
         inf.light_text   = "Crippled";
         inf.light_colour = LIGHTRED;
-        inf.short_text   = make_stringf("lost %s", msg.c_str());
-        inf.long_text    = make_stringf("You have no %s!", msg.c_str());
+        inf.short_text   = make_stringf(localise_in_context("lost-stat", "lost %s").c_str(), msg.c_str());
+        inf.long_text    = make_stringf(localise_in_context("lost-stat", "You have no %s!").c_str(), msg.c_str());
     }
     break;
 

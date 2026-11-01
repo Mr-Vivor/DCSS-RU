@@ -2492,10 +2492,10 @@ namespace quiver
                 s += localise("[<w>^</w>] all abilities  ");
 
 
-            string mode = localise(make_stringf("%s focus mode: %s",
+            string mode = make_stringf(localise_in_context("quiver-menu", "%s focus mode: %s").c_str(),
                 menu_keyhelp_cmd(CMD_MENU_CYCLE_MODE).c_str(),
-                focus_mode == Focus::NONE ? "<w>off</w>|on"
-                                          : "off|<w>on</w>"));
+                localise_in_context("quiver-menu", focus_mode == Focus::NONE
+                    ? "<w>off</w>|on" : "off|<w>on</w>").c_str());
 
             return pad_more_with(s, mode);
         }
@@ -2610,8 +2610,9 @@ namespace quiver
             // this key shortcut does still work without arrow selection, but
             // it typically doesn't do much in this menu.
             const string keyhelp =
-                localise(make_stringf(" <lightgrey>(%s to cycle)</lightgrey>",
-                            menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str()));
+                make_stringf(localise_in_context("quiver-menu",
+                    " <lightgrey>(%s to cycle)</lightgrey>").c_str(),
+                    menu_keyhelp_cmd(CMD_MENU_CYCLE_HEADERS).c_str());
 
             first_item = 0;
             first_spell = it_count;
@@ -2620,7 +2621,7 @@ namespace quiver
             if (it_count && show_headers)
             {
                 add_entry(
-                    new MenuEntry("<lightcyan>Items</lightcyan>" + keyhelp,
+                    new MenuEntry(localise_in_context("quiver-menu", "<lightcyan>Items</lightcyan>") + keyhelp,
                     MEL_SUBTITLE));
                 first_spell += 1;
                 first_abil += 1;
@@ -2633,7 +2634,7 @@ namespace quiver
                 if (i == it_count && spell_count && show_headers)
                 {
                     add_entry(
-                        new MenuEntry("<lightcyan>Spells</lightcyan>" + keyhelp,
+                        new MenuEntry(localise_in_context("quiver-menu", "<lightcyan>Spells</lightcyan>") + keyhelp,
                         MEL_SUBTITLE));
                     first_spell += 1;
                     first_abil += 1;
@@ -2641,7 +2642,7 @@ namespace quiver
                 else if (i == it_count + spell_count && show_headers)
                 {
                     add_entry(
-                        new MenuEntry("<lightcyan>Abilities</lightcyan>" + keyhelp,
+                        new MenuEntry(localise_in_context("quiver-menu", "<lightcyan>Abilities</lightcyan>") + keyhelp,
                         MEL_SUBTITLE));
                     first_abil += 1;
                 }

@@ -75,6 +75,7 @@
 #include "nearby-danger.h"
 #include "notes.h"
 #include "ouch.h"
+#include "options.h"
 #include "output.h"
 #include "place.h"
 #include "player.h"
@@ -5159,7 +5160,26 @@ static void _apply_ru_sacrifice(mutation_type sacrifice)
 
 static bool _execute_sacrifice(ability_type sac, const char* message)
 {
-    mprf("Ru asks you to %s.", message);
+    if (sac == ABIL_RU_SACRIFICE_ARCANA
+        && Options.language == lang_t::RU && localisation_active())
+    {
+        // Translate the offer only; milestone text keeps its original schools.
+        vector<string> schools;
+        const char *key = _get_sacrifice_def(sac).sacrifice_vector;
+        CrawlVector &mutations = you.props[key].get_vector();
+        for (int i = 0; i < mutations.size(); ++i)
+        {
+            schools.push_back(localise(skill_name(
+                arcane_mutation_to_skill(AS_MUT(mutations[i])))));
+        }
+        const string list = comma_separated_line(schools.begin(), schools.end(),
+            localise_in_context("gameplay-list", " and "));
+        mprf(localise_in_context("ru-sacrifice",
+                 "Ru asks you to give up all use of these schools: %s.").c_str(),
+             list.c_str());
+    }
+    else
+        mprf("Ru asks you to %s.", message);
     mpr(ru_sacrifice_description(sac));
     if (!yesno("Do you really want to make this sacrifice?",
                false, 'n'))

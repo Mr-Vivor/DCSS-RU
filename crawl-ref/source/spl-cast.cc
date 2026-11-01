@@ -3338,7 +3338,7 @@ string spell_damage_string(spell_type spell, bool evoked, int pow, bool terse)
             const dice_def fire_dmg = zap_damage(ZAP_DRAGON_VEIN_FIRE, pow, false, false);
             const dice_def earth_dmg = zap_damage(ZAP_DRAGON_VEIN_EARTH, pow, false, false);
             const dice_def air_dmg = zap_damage(ZAP_DRAGON_VEIN_AIR, pow, false, false);
-            return make_stringf("%dd(%d/%d/%d/%d) [Fire/Ice/Earth/Air]",
+            return make_stringf(localise("%dd(%d/%d/%d/%d) [Fire/Ice/Earth/Air]").c_str(),
                                 fire_dmg.num, fire_dmg.size, fire_dmg.size, earth_dmg.size, air_dmg.size);
         }
     }
