@@ -2384,7 +2384,7 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("%s is still trapped in memory!",
+                mprf(localise("%s is still trapped in memory!").c_str(),
                      hepliaklqana_ally_name().c_str());
             }
             return false;
@@ -2441,8 +2441,9 @@ static bool _check_ability_possible(const ability_def& abil, bool quiet = false)
         {
             if (!quiet)
             {
-                mprf("You cannot wall jump while caught in a %s.",
-                     you.caught_by() == CAUGHT_WEB ? "web" : "net");
+                mpr(localise(you.caught_by() == CAUGHT_WEB
+                     ? "You cannot wall jump while caught in a web."
+                     : "You cannot wall jump while caught in a net."));
             }
             return false;
         }
@@ -3004,9 +3005,10 @@ bool activate_talent(const talent& tal, dist *target)
                                                               : TARG_HOSTILE;
         args.range = range;
         args.needs_path = !testbits(abil.flags, abflag::target);
-        args.top_prompt = make_stringf("%s: <w>%s</w>",
-                                       is_targeted ? "Aiming" : "Activating",
-                                       ability_name(abil.ability).c_str());
+        args.top_prompt = make_stringf(localise(is_targeted
+                                       ? "Aiming: <w>%s</w>"
+                                       : "Activating: <w>%s</w>").c_str(),
+                                       localise(ability_name(abil.ability)).c_str());
         targeter_beam* beamfunc = dynamic_cast<targeter_beam*>(hitfunc.get());
         if (beamfunc && beamfunc->beam.hit > 0 && !beamfunc->beam.is_explosion)
             args.get_desc_func = bind(desc_beam_hit_chance, placeholders::_1, hitfunc.get());
@@ -3028,7 +3030,7 @@ bool activate_talent(const talent& tal, dist *target)
         if (abil.failure.base_chance)
         {
             args.top_prompt +=
-                make_stringf(" <lightgrey>(%s risk of failure)</lightgrey>",
+                make_stringf(localise(" <lightgrey>(%s risk of failure)</lightgrey>").c_str(),
                              failure_rate_to_string(tal.fail).c_str());
         }
         args.behaviour = &beh;
@@ -3418,8 +3420,8 @@ static spret _do_ability(const ability_def& abil, bool fail, dist *target,
 
             if (god_forbids_item(*wpn))
             {
-                mprf(MSGCH_WARN, "%s forbids using such a weapon!",
-                     god_name(you.religion).c_str());
+                mprf(MSGCH_WARN, localise("%s forbids using such a weapon!").c_str(),
+                     localise(god_name(you.religion)).c_str());
                 return spret::abort;
             }
 
@@ -3659,9 +3661,8 @@ static spret _do_ability(const ability_def& abil, bool fail, dist *target,
         if (mons->is_illusion())
         {
             fail_check();
-            mprf("You attempt to bind %s soul, but %s is merely a clone!",
-                 mons->name(DESC_ITS).c_str(),
-                 mons->pronoun(PRONOUN_SUBJECTIVE).c_str());
+            mprf(localise("You attempt to bind the soul of %s, but the target is merely a clone!").c_str(),
+                 localise(mons->name(DESC_THE)).c_str());
             // Still costs a turn to gain the information.
             return spret::success;
         }
@@ -3671,8 +3672,8 @@ static spret _do_ability(const ability_def& abil, bool fail, dist *target,
         int pain = you.hp / 3;
         dec_hp(pain, false);
         mons->add_ench(mon_enchant(ENCH_SOUL_RIPE, &you, INFINITE_DURATION, pain));
-        mprf("You wrap your dark will around %s soul!",
-              mons->name(DESC_ITS).c_str());
+        mprf(localise("You wrap your dark will around the soul of %s!").c_str(),
+              localise(mons->name(DESC_THE)).c_str());
         break;
     }
 

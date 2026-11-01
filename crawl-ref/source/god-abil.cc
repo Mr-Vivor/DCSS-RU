@@ -1384,7 +1384,7 @@ void elyvilon_divine_alms(monster& target)
             target.del_ench(ench, true, ench != ENCH_PETRIFYING);
 
     // Give healed summons a little more time in this world
-    string msg;
+    bool prolonged_summon = false;
     if (target.has_ench(ENCH_SUMMON_TIMER))
     {
         mon_enchant timer = target.get_ench(ENCH_SUMMON_TIMER);
@@ -1392,13 +1392,14 @@ void elyvilon_divine_alms(monster& target)
         {
             timer.duration += random_range(150, 250);
             target.update_ench(timer);
-            msg = make_stringf(" and grants %s more time in this world.",
-                               target.pronoun(PRONOUN_OBJECTIVE).c_str());
+            prolonged_summon = true;
         }
     }
 
-    mprf("The light of Elyvilon comforts %s%s.",
-         target.name(DESC_THE).c_str(), msg.c_str());
+    mprf(localise(prolonged_summon
+         ? "The light of Elyvilon comforts %s and prolongs its stay in this world."
+         : "The light of Elyvilon comforts %s.").c_str(),
+         localise(target.name(DESC_THE)).c_str());
 }
 
 void elyvilon_divine_vigour()
@@ -1406,8 +1407,8 @@ void elyvilon_divine_vigour()
     if (you.duration[DUR_DIVINE_VIGOUR])
         return;
 
-    mprf("%s grants you and your allies divine vigour.",
-         god_name(GOD_ELYVILON).c_str());
+    mprf(localise("%s grants you and your allies divine vigour.").c_str(),
+         localise(god_name(GOD_ELYVILON)).c_str());
 
     const int vigour_amt = 1 + you.skill_rdiv(SK_INVOCATIONS, 1, 3);
     const int old_hp_max = you.hp_max;
@@ -1542,9 +1543,9 @@ string yred_cannot_light_torch_reason()
 
 bool yred_light_the_torch()
 {
-    mprf("You lift the black torch aloft and begin your conquest of %s in "
-         "Yredelemnul's name!",
-            level_id::current().describe(true, true).c_str());
+    mprf(localise("You lift the black torch aloft and begin your conquest of %s in "
+         "Yredelemnul's name!").c_str(),
+            localise(level_id::current().describe(true, true)).c_str());
 
     // Determine number of torch charges based on piety stars.
     // Note: You are given 'hidden' internal torchlight charges even below the
@@ -1905,9 +1906,11 @@ bool kiku_gift_capstone_spells()
         return false;
     }
 
-    string msg = "Do you wish to receive knowledge of "
-                 + comma_separated_fn(spells.begin(), spells.end(), spell_title)
-                 + "?";
+    const string spell_names = comma_separated_fn(spells.begin(), spells.end(),
+        [](spell_type spell) { return localise(spell_title(spell)); },
+        localise(" and "));
+    const string msg = make_stringf(localise("Do you wish to receive knowledge of %s?").c_str(),
+                                    spell_names.c_str());
 
     if (!yesno(msg.c_str(), true, 'n'))
     {
@@ -2934,11 +2937,17 @@ void beogh_ally_healing()
         mon->heal(value);
     }
 
-    mprf("%s %s%sinvigorated by your prowess.",
-          heal_list.size() == 1 ? heal_list[0]->name(DESC_THE).c_str()
-                                : "Your followers are",
-          heal_list.size() == 1 ? "is " : "",
-          healing_done > 25 ? " greatly " : "");
+    if (heal_list.size() == 1)
+    {
+        mprf(localise(healing_done > 25
+             ? "%s is greatly invigorated by your prowess."
+             : "%s is invigorated by your prowess.").c_str(),
+             localise(heal_list[0]->name(DESC_THE)).c_str());
+    }
+    else
+        mpr(localise(healing_done > 25
+             ? "Your followers are greatly invigorated by your prowess."
+             : "Your followers are invigorated by your prowess."));
 }
 
 // Prompts the player for reasons they may not wish to leave a floor.
@@ -3013,9 +3022,9 @@ string dithmenos_cannot_shadowslip_reason()
         return "Your shadow isn't in sight!";
     else if (is_feat_dangerous(env.grid(shadow->pos())))
     {
-        return make_stringf("It would be unwise to slip onto %s.",
-                             env.grid(shadow->pos()) == DNGN_DEEP_WATER
-                                ? "deep water" : "lava");
+        return env.grid(shadow->pos()) == DNGN_DEEP_WATER
+            ? "It would be unwise to slip onto deep water."
+            : "It would be unwise to slip onto lava.";
     }
 
     return "";
@@ -3076,9 +3085,8 @@ spret dithmenos_shadowslip(bool fail)
                 mi->foe = shadow->mindex();
                 mi->behaviour = BEH_SEEK;
 
-                mprf("%s turns %s attention towards your shadow.",
-                        mi->name(DESC_THE).c_str(),
-                        mi->pronoun(PRONOUN_POSSESSIVE).c_str());
+                mprf(localise("%s turns its attention towards your shadow.").c_str(),
+                        localise(mi->name(DESC_THE)).c_str());
             }
         }
     }
@@ -3302,8 +3310,8 @@ spret dithmenos_marionette(monster& target, bool fail)
 
     fail_check();
 
-    mprf("You grasp %s shadow with your own and put on a performance!",
-          target.name(DESC_ITS).c_str());
+    mprf(localise("You grasp the shadow of %s with your own and put on a performance!").c_str(),
+          localise(target.name(DESC_THE)).c_str());
 
     behaviour_event(&target, ME_WHACK, &you);
 
@@ -3362,8 +3370,8 @@ spret dithmenos_marionette(monster& target, bool fail)
     }
 
     target.add_ench(ENCH_SHADOWLESS);
-    mprf("%s shadow slips away and your performance ends.",
-            target.name(DESC_ITS).c_str());
+    mprf(localise("The shadow of %s slips away and your performance ends.").c_str(),
+            localise(target.name(DESC_THE)).c_str());
 
     // Let the monster complain about what you did to them, in their own way.
     string msg = getSpeakString(target.name(DESC_PLAIN) + " marionette");
@@ -3437,7 +3445,7 @@ bool gozag_setup_potion_petition(bool quiet)
     {
         if (!quiet)
         {
-            mprf("You need at least %d gold to purchase potions right now!",
+            mprf(localise("You need at least %d gold to purchase potions right now!").c_str(),
                  GOZAG_POTION_PETITION_AMOUNT);
         }
         return false;
@@ -3587,8 +3595,8 @@ bool gozag_setup_call_merchant(bool quiet)
     {
         if (!quiet)
         {
-            mprf("You currently need %d gold to open negotiations with a "
-                 "merchant.", gold_min);
+            mprf(localise("You currently need %d gold to open negotiations with a "
+                 "merchant.").c_str(), gold_min);
         }
         return false;
     }
@@ -3943,7 +3951,7 @@ bool gozag_check_bribe_branch(bool quiet)
     if (you.gold < bribe_amount)
     {
         if (!quiet)
-            mprf("You need at least %d gold to offer a bribe.", bribe_amount);
+            mprf(localise("You need at least %d gold to offer a bribe.").c_str(), bribe_amount);
         return false;
     }
     branch_type branch = you.where_are_you;

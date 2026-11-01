@@ -3342,7 +3342,7 @@ Fail: @num@%%
 %%%%
 How on earth did you manage to pick this up?
 
-Как вам вообще удалось это подобрать?
+Как вам вообще удалось освоить этот навык?
 %%%%
 Note that Trog doesn't use Invocations, due to its close connection to magic.
 
@@ -6382,11 +6382,11 @@ You are too terrified to wall jump!
 %%%%
 You cannot wall jump while caught in a web.
 
-Нельзя оттолкнуться от стены, пока вы запутались в паутине.
+Вы не можете оттолкнуться от стены, пока запутаны в паутине.
 %%%%
 You cannot wall jump while caught in a net.
 
-Нельзя оттолкнуться от стены, пока вы запутались в сети.
+Вы не можете оттолкнуться от стены, пока запутаны в сети.
 %%%%
 There is nothing to wall jump against here.
 
@@ -20782,7 +20782,7 @@ You currently need @num@ gold to open negotiations with a merchant.
 %%%%
 No merchants are willing to come to this location.
 
-Ни один торговец не желает прибыть сюда.
+Ни один торговец не согласен прийти в это место.
 %%%%
 You need to be standing on open floor to call a merchant.
 
@@ -27714,7 +27714,7 @@ Praying here may force you to leave your current form and remove some of your eq
 %%%%
 " (less than 1% of your maximum possible piety)"
 
-" (менее 1% от максимально возможного благочестия)"
+" (меньше 1% от максимально возможного благочестия)"
 %%%%
 " (about @num@% of your maximum possible piety)"
 
@@ -39355,3 +39355,367 @@ Mmmm... tastes like @any_potion@.
 "{spell-miscast}either "
 
 "{spell-miscast}один из вариантов — "
+%%%%
+You have mastered %s!
+
+Вы в совершенстве освоили навык «%s»!
+%%%%
+Your base %s skill increases to level %d!
+
+Базовый уровень навыка «%s» повышается до %d!
+%%%%
+Your base %s skill decreases to level %d!
+
+Базовый уровень навыка «%s» снижается до %d!
+%%%%
+Your %s skill increases to level %d!
+
+Уровень навыка «%s» повышается до %d!
+%%%%
+Your %s skill decreases to level %d!
+
+Уровень навыка «%s» снижается до %d!
+%%%%
+Your base %s skill gained %d levels and is now at level %d!
+
+Базовый уровень навыка «%s» вырос на %d; теперь он равен %d!
+%%%%
+Your base %s skill lost %d levels and is now at level %d!
+
+Базовый уровень навыка «%s» снизился на %d; теперь он равен %d!
+%%%%
+Your %s skill gained %d levels and is now at level %d!
+
+Уровень навыка «%s» вырос на %d; теперь он равен %d!
+%%%%
+Your %s skill lost %d levels and is now at level %d!
+
+Уровень навыка «%s» снизился на %d; теперь он равен %d!
+%%%%
+Base training target %d.%d for %s reached!
+
+Достигнут целевой базовый уровень %d.%d навыка «%s»!
+%%%%
+Training target %d.%d for %s reached!
+
+Достигнут целевой уровень %d.%d навыка «%s»!
+%%%%
+You have finished your manual of %s and skilfully toss it away.
+
+Учебник навыка «%s» полностью изучен; вы ловко отбрасываете его.
+%%%%
+You have finished your manual of %s and toss it away.
+
+Учебник навыка «%s» полностью изучен; вы выбрасываете его.
+%%%%
+Clearing the base skill training target for %s.
+
+Цель тренировки базового навыка «%s» убрана.
+%%%%
+Clearing the skill training target for %s.
+
+Цель тренировки навыка «%s» убрана.
+%%%%
+Setting a base skill training target for %s at %d.%d.
+
+Целевой базовый уровень навыка «%s»: %d.%d.
+%%%%
+Setting a skill training target for %s at %d.%d.
+
+Целевой уровень навыка «%s»: %d.%d.
+%%%%
+Your training target must be 27 or below!
+
+Целевой уровень навыка не может превышать 27!
+%%%%
+; use <white>(s)</white> to set %d.%d as a target for %s.
+
+; <white>(s)</white> — задать цель %d.%d для навыка «%s».
+%%%%
+Your (base) skill: %s%d.%d%s
+
+Ваш базовый навык: %s%d.%d%s
+%%%%
+Your skill: %s%d.%d%s
+
+Ваш навык: %s%d.%d%s
+%%%%
+Your current training target is %.1f.
+
+Текущий целевой уровень навыка: %.1f.
+%%%%
+Your current base training target is %.1f.
+
+Текущий целевой базовый уровень навыка: %.1f.
+%%%%
+With your current stats and equipment, %s this skill would increase your AC by %.1f and your EV by %.1f.
+
+При текущих характеристиках и снаряжении %s изменит Бр на %.1f, а Укл — на %.1f.
+%%%%
+With your current stats and equipment, %s this skill would increase your EV by %.1f.
+
+При текущих характеристиках и снаряжении %s изменит Укл на %.1f.
+%%%%
+With your current stats and equipment, %s this skill would increase your SH by %.1f.
+
+При текущих характеристиках и снаряжении %s изменит показатель «Щит» на %.1f.
+%%%%
+With your current stats and equipment, %s this skill would worsen your spell failure trivially.
+
+При текущих характеристиках и снаряжении %s немного повысит вероятность неудачи заклинаний.
+%%%%
+With your current stats and equipment, %s this skill would improve your spell failure trivially.
+
+При текущих характеристиках и снаряжении %s немного снизит вероятность неудачи заклинаний.
+%%%%
+With your current stats and equipment, %s this skill would worsen your spell failure by up to %d percentage points.%s
+
+При текущих характеристиках и снаряжении %s повысит вероятность неудачи заклинаний не более чем на %d п. п.%s
+%%%%
+With your current stats and equipment, %s this skill would improve your spell failure by up to %d percentage points.%s
+
+При текущих характеристиках и снаряжении %s снизит вероятность неудачи заклинаний не более чем на %d п. п.%s
+%%%%
+" (press '!' for details)"
+
+" (подробности — клавиша '!')"
+%%%%
+The powers granted by %s are not affected by the Invocations skill.
+
+Навык Молитв не влияет на способности божества «%s».
+%%%%
+The powers granted by %s use %s instead of Invocations.
+
+Способности божества «%s» зависят от навыка «%s», а не от Молитв.
+%%%%
+%s forbids the training of this skill.
+
+Божество «%s» запрещает тренировать этот навык.
+%%%%
+Aiming: <w>%s</w>
+
+Прицеливание: <w>%s</w>
+%%%%
+Activating: <w>%s</w>
+
+Применение: <w>%s</w>
+%%%%
+" <lightgrey>(%s risk of failure)</lightgrey>"
+
+" <lightgrey>(вероятность неудачи: %s)</lightgrey>"
+%%%%
+%s is still trapped in memory!
+
+Предок «%s» пока существует лишь в воспоминаниях!
+%%%%
+There are no victims visible. Siphon anyway?
+
+Подходящих жертв не видно. Всё равно вытянуть сущность?
+%%%%
+You feel stolen life flooding into you!
+
+Вы чувствуете прилив похищенной жизненной силы!
+%%%%
+You feel stolen life flooding into you from an unseen source!
+
+Вы чувствуете прилив похищенной жизненной силы из невидимого источника!
+%%%%
+You feel the orb feeding on your energy!
+
+Вы чувствуете, как сфера питается вашей энергией!
+%%%%
+You send your armour flying and begin to make an unholy cacophony!
+
+Вы отправляете свои доспехи в полёт и поднимаете нечестивую какофонию!
+%%%%
+Select an artefact weapon to imprint upon your Paragon.
+
+Выберите артефактное оружие для будущего платинового идеала.
+%%%%
+%s forbids using such a weapon!
+
+Божество «%s» запрещает использовать такое оружие!
+%%%%
+You scatter into a swarm of vampire bats!
+
+Вы распадаетесь на рой летучих мышей-вампиров!
+%%%%
+Your flames flare with remembrance!
+
+Воспоминания заставляют ваше пламя вспыхнуть ярче!
+%%%%
+You channel a blast of cleansing flame!
+
+Вы вызываете вспышку очищающего пламени!
+%%%%
+You invoke the name of Kikubaaqudgha!
+
+Вы взываете к Кикубаакудге!
+%%%%
+You call down Yredelemnul's inexorable grip.
+
+Вы призываете неотвратимую хватку Йредэлемнула.
+%%%%
+You attempt to bind the soul of %s, but the target is merely a clone!
+
+Вы пытаетесь связать душу цели «%s», но это лишь клон!
+%%%%
+You wrap your dark will around the soul of %s!
+
+Вы охватываете душу цели «%s» своей тёмной волей!
+%%%%
+You channel some magical energy.
+
+Вы восполняете запас магической энергии.
+%%%%
+You begin to rise into the air.
+
+Вы начинаете подниматься в воздух.
+%%%%
+You can see no monster there to imprison!
+
+Вы не видите там чудовища, которое можно заточить!
+%%%%
+A divine shield manifests in front of you!
+
+Перед вами возникает божественный щит!
+%%%%
+%s grants you and your allies divine vigour.
+
+Божество «%s» наполняет вас и ваших союзников божественной силой.
+%%%%
+Do you wish to receive knowledge of %s?
+
+Получить знание следующих заклинаний: %s?
+%%%%
+There are no souls to scour here; only the pathetic idols of powerless gods.
+
+Здесь нет душ для покорения — лишь жалкие идолы бессильных богов.
+%%%%
+There are no souls worth scouring here.
+
+Здесь нет душ, достойных покорения.
+%%%%
+Not even a god could conquer a realm without end; waste no time trying.
+
+Даже бог не сможет покорить бесконечное царство; не тратьте время на попытки.
+%%%%
+You have raised the torch once already on this floor. Yredelemnul offers no second chances.
+
+Вы уже поднимали факел на этом этаже. Йредэлемнул не даёт второй попытки.
+%%%%
+Yredelemnul sends servants to aid you!
+
+Йредэлемнул посылает прислужников вам на помощь!
+%%%%
+The black torch howls with new intensity!
+
+Чёрный факел воет всё сильнее!
+%%%%
+%s is greatly invigorated by your prowess.
+
+Ваше боевое мастерство восстанавливает много здоровья союзнику «%s».
+%%%%
+%s is invigorated by your prowess.
+
+Ваше боевое мастерство восстанавливает здоровье союзнику «%s».
+%%%%
+Your followers are greatly invigorated by your prowess.
+
+Ваше боевое мастерство восстанавливает много здоровья вашим последователям.
+%%%%
+Your followers are invigorated by your prowess.
+
+Ваше боевое мастерство восстанавливает здоровье вашим последователям.
+%%%%
+Are you sure you wish to flee a divine trial? This will place you under penance!
+
+Бежать с божественного испытания? Это навлечёт на вас гнев бога!
+%%%%
+Beogh appreciates your bravery.
+
+Беог ценит вашу храбрость.
+%%%%
+Your vengeful prayer will end if you leave here. Continue?
+
+Если уйти отсюда, действие мстительной молитвы закончится. Продолжить?
+%%%%
+Your orcish features manifest fully.
+
+Ваши орочьи черты проявляются в полной мере.
+%%%%
+Your shadow is still firmly attached to your body.
+
+Ваша тень ещё не отделилась от тела.
+%%%%
+Your shadow isn't in sight!
+
+Ваша тень вне поля зрения!
+%%%%
+It would be unwise to slip onto deep water.
+
+Перемещаться в глубокую воду опасно.
+%%%%
+It would be unwise to slip onto lava.
+
+Перемещаться в лаву опасно.
+%%%%
+You swap places with your shadow and weave the vestiges of your form into it.
+
+Вы меняетесь местами со своей тенью и придаёте ей остаточное подобие своего облика.
+%%%%
+%s turns its attention towards your shadow.
+
+Цель «%s» переключает внимание на вашу тень.
+%%%%
+The world around you is engulfed in lightless night!
+
+Мир вокруг вас погружается в беспросветную ночь!
+%%%%
+There isn't a suitable marionette in sight.
+
+В поле зрения нет подходящей марионетки.
+%%%%
+You grasp the shadow of %s with your own and put on a performance!
+
+Своей тенью вы захватываете тень цели «%s» и начинаете представление!
+%%%%
+Your performance comes to an abrupt end.
+
+Ваше представление внезапно обрывается.
+%%%%
+The shadow of %s slips away and your performance ends.
+
+Тень цели «%s» ускользает, и ваше представление заканчивается.
+%%%%
+You need at least %d gold to purchase potions right now!
+
+Сейчас для покупки зелий нужно не менее %d золота!
+%%%%
+You currently need %d gold to open negotiations with a merchant.
+
+Сейчас для переговоров с торговцем нужно %d золота.
+%%%%
+You need at least %d gold to offer a bribe.
+
+Для подкупа нужно не менее %d золота.
+%%%%
+{skill-training-action}mastering
+
+{skill-training-action}освоение навыка до 27-го уровня
+%%%%
+{skill-training-action}training 1 level of
+
+{skill-training-action}повышение навыка на 1 уровень
+%%%%
+The light of Elyvilon comforts %s and prolongs its stay in this world.
+
+Свет Эливилон исцеляет цель «%s» и продлевает срок её призыва.
+%%%%
+The light of Elyvilon comforts %s.
+
+Свет Эливилон исцеляет цель «%s».
+%%%%
+You lift the black torch aloft and begin your conquest of %s in Yredelemnul's name!
+
+Вы поднимаете Чёрный факел и начинаете покорение этажа «%s» во имя Йредэлемнула!

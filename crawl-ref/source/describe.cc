@@ -1285,15 +1285,16 @@ static string _your_skill_desc(skill_type skill, bool show_target_button,
             you.get_training_target(skill) < min_scaled_target)
     {
         target_button_desc = make_stringf(
-            "; use <white>(s)</white> to set %d.%d as a target for %s.",
+            localise("; use <white>(s)</white> to set %d.%d as a target for %s.").c_str(),
                                 min_scaled_target / 10, min_scaled_target % 10,
-                                skill_name(skill));
+                                localise(skill_name(skill)).c_str());
     }
     int you_skill_temp = you.skill(skill, 10);
     int you_skill = you.skill(skill, 10, false, false);
 
-    return make_stringf("Your %sskill: %s%d.%d%s",
-                            (you_skill_temp != you_skill ? "(base) " : ""),
+    return make_stringf(localise(you_skill_temp != you_skill
+                            ? "Your (base) skill: %s%d.%d%s"
+                            : "Your skill: %s%d.%d%s").c_str(),
                             padding.c_str(), you_skill / 10, you_skill % 10,
                             target_button_desc.c_str());
 }
@@ -4709,7 +4710,8 @@ static string _get_skill_training_change(skill_type skill,
 
     const double cur_skill = you.skill(skill, 10, true) * 0.1;
     const bool mastering = cur_skill >= 26;
-    const char* msg = mastering ? "mastering" : "training 1 level of";
+    const string msg = localise_in_context("skill-training-action",
+                            mastering ? "mastering" : "training 1 level of");
 
     set_skill_level(skill, cur_skill + 1, true);
     const int new_ac = you.armour_class_scaled(100);
@@ -4735,44 +4737,42 @@ static string _get_skill_training_change(skill_type skill,
     string description;
     if (skill == SK_ARMOUR)
     {
-        description = make_stringf("\nWith your current stats and equipment, %s "
+        description = make_stringf(localise("\nWith your current stats and equipment, %s "
                                    "this skill would increase your AC by %.1f and "
-                                   "your EV by %.1f.",
-                                   msg, ac_diff, ev_diff);
+                                   "your EV by %.1f.").c_str(),
+                                   msg.c_str(), ac_diff, ev_diff);
     }
     else if (skill == SK_DODGING)
     {
-        description = make_stringf("\nWith your current stats and equipment, %s "
-                                   "this skill would increase your EV by %.1f.",
-                                   msg, ev_diff);
+        description = make_stringf(localise("\nWith your current stats and equipment, %s "
+                                   "this skill would increase your EV by %.1f.").c_str(),
+                                   msg.c_str(), ev_diff);
     }
     else if (skill == SK_SHIELDS)
     {
-        description = make_stringf("\nWith your current stats and equipment, %s "
-                                   "this skill would increase your SH by %.1f.",
-                                   msg, sh_diff);
+        description = make_stringf(localise("\nWith your current stats and equipment, %s "
+                                   "this skill would increase your SH by %.1f.").c_str(),
+                                   msg.c_str(), sh_diff);
     }
 
     if (fail_change != 0)
     {
-        if (description.empty())
+        if (visible_fail_change == 0)
         {
-            description = make_stringf("\nWith your current stats and "
-                                       "equipment, %s this skill would", msg);
+            description += make_stringf(localise(fail_change > 0
+                ? "\nWith your current stats and equipment, %s this skill would worsen your spell failure trivially."
+                : "\nWith your current stats and equipment, %s this skill would improve your spell failure trivially.").c_str(),
+                msg.c_str());
         }
         else
-            description += "\nIt would also";
-        description += (fail_change > 0) ? " worsen" : " improve";
-        description += " your spell failure";
-        if (visible_fail_change == 0)
-            description += " trivially.";
-        else
         {
-            description += make_stringf(" by up to %d%%%s.",
-                                        abs(visible_fail_change),
-                                        spell_fail_details
+            description += make_stringf(localise(fail_change > 0
+                ? "\nWith your current stats and equipment, %s this skill would worsen your spell failure by up to %d percentage points.%s"
+                : "\nWith your current stats and equipment, %s this skill would improve your spell failure by up to %d percentage points.%s").c_str(),
+                                        msg.c_str(), abs(visible_fail_change),
+                                        (spell_fail_details
                                         && !spell_fail_details->empty()
-                                        ? " (press '!' for details)" : "");
+                                        ? localise(" (press '!' for details)") : "").c_str());
         }
     }
 
@@ -4787,7 +4787,7 @@ string get_skill_description(skill_type skill, bool need_title,
 
     if (need_title)
     {
-        result = lookup;
+        result = localise(lookup);
         result += "\n\n";
     }
 
@@ -4796,7 +4796,7 @@ string get_skill_description(skill_type skill, bool need_title,
     const int target = you.get_training_target(skill);
     if (target > 0 && target <= 270 && target > you.skill(skill, 10, false, false))
     {
-        result +=  make_stringf("\nYour current training target is %.1f.",
+        result +=  make_stringf(localise("\nYour current training target is %.1f.").c_str(),
                                 target / 10.0);
 
         _append_skill_target_desc(result, skill, target, 0);
@@ -4808,7 +4808,7 @@ string get_skill_description(skill_type skill, bool need_title,
     if (base_target > 0 && base_target <= 270
         && base_target > you.skill(skill, 10, true))
     {
-        result += make_stringf("\nYour current base training target is %.1f.",
+        result += make_stringf(localise("\nYour current base training target is %.1f.").c_str(),
                                base_target / 10.0);
 
         _append_skill_target_desc(result, skill, base_target, 0, true);
@@ -4823,28 +4823,28 @@ string get_skill_description(skill_type skill, bool need_title,
         if (you.has_mutation(MUT_FORLORN))
         {
             result += "\n";
-            result += "How on earth did you manage to pick this up?";
+            result += localise("How on earth did you manage to pick this up?");
         }
         else if (invo_skill(you.religion) != SK_INVOCATIONS)
         {
             result += "\n";
-            result += uppercase_first(apostrophise(god_name(you.religion)))
-                      + " powers are not affected by the Invocations skill.";
+            result += make_stringf(localise("The powers granted by %s are not affected by the Invocations skill.").c_str(),
+                                   localise(god_name(you.religion)).c_str());
         }
     }
     else if (skill == invo_skill(you.religion))
     {
         result += "\n";
-        result += uppercase_first(apostrophise(god_name(you.religion)))
-                  + " powers are based on " + skill_name(skill) + " instead"
-                    " of Invocations skill.";
+        result += make_stringf(localise("The powers granted by %s use %s instead of Invocations.").c_str(),
+                               localise(god_name(you.religion)).c_str(),
+                               localise(skill_name(skill)).c_str());
     }
 
     if (is_forbidden_skill(skill))
     {
         result += "\n";
-        result += uppercase_first(god_name(you.religion))
-                  + " forbids the training of this skill.";
+        result += make_stringf(localise("%s forbids the training of this skill.").c_str(),
+                               localise(god_name(you.religion)).c_str());
     }
 
     return result;

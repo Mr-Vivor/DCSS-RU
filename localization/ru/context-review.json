@@ -2896,8 +2896,8 @@
       "translation_sha256": "7b2364ddc0af4d9c30111f2f93aba4d46ae913453f00fd8d3cfe70cc1d7c08ee"
     },
     "How on earth did you manage to pick this up?": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "62fa4324892471a06c45634f44ab45177de177878a6c0b9cff210e4f01115472"
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e6ab10000c4990974d1bc865d80d02988ac4534b3209a9951ac871a39c599982"
     },
     "Note that Trog doesn't use Invocations, due to its close connection to magic.": {
       "context": "describe.cc; dat/translate/messages.txt",
@@ -5940,12 +5940,12 @@
       "translation_sha256": "88ab3a329b7a0150507c6a34ef4c17bb74d601cbbe3f4dc8aaa7f205505026d9"
     },
     "You cannot wall jump while caught in a web.": {
-      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
-      "translation_sha256": "1a96b8dfbfce02db972e7810eccff7deebdaa00d20db15325da76fd4410fd677"
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "9114c1b45685609fb65fa9d10fe9976b508329ca83e593a103483c5ae8994bff"
     },
     "You cannot wall jump while caught in a net.": {
-      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
-      "translation_sha256": "f1125a3d06878099a3767e5c2e57972d8f73678eb3f494eb9faffd3f81c5cd8b"
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "3ae39716d993f3b5ec0d12204e154beab7458c4d4cddba0aeef2f66bbfea26fd"
     },
     "There is nothing to wall jump against here.": {
       "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
@@ -20340,8 +20340,8 @@
       "translation_sha256": "2dfc84e0ef8c2b4664e783859945747ea3d26302dc7654bf372e26069c526d85"
     },
     "No merchants are willing to come to this location.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "bd38dac6e8991f9ccc4ab37eb17f9d272a9aa87dce1a5128a032193dd3f11f92"
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "7d68bb33ce3c1856441d9e33ad8eeca81bcf8ec25d95497353b611176585883b"
     },
     "You need to be standing on open floor to call a merchant.": {
       "context": "god-abil.cc",
@@ -27272,8 +27272,8 @@
       "translation_sha256": "74cbfe2909ef493b73f8be2e504b918cf040ac62c7314a154bc0e33532af6c10"
     },
     " (less than 1% of your maximum possible piety)": {
-      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
-      "translation_sha256": "fc85fe3a2422e0fc1a3749c3df6d7455f04a4be4af30bb6b01952109f5f41539"
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "9af714cd5db25d3eabe98a7bbde3d7bcd96bb278a1c61318b5d6b603be948150"
     },
     " (about @num@% of your maximum possible piety)": {
       "context": "ability.cc / real ability costs, sacrifice and activation conditions",
@@ -35292,7 +35292,7 @@
       "translation_sha256": "23706ba5cbaec655b4a37ea01ad3998824d47fca151879ad3f95034e4c228757"
     },
     " (about %d%% of your maximum possible piety)": {
-      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
       "translation_sha256": "61d73285477186c2ff710d83331f2d3a48e2c6df9bfa0bbb51ebe95a2cc80c37"
     },
     "Really use %s?": {
@@ -39002,6 +39002,370 @@
     "{spell-miscast}either ": {
       "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
       "translation_sha256": "516c19976f8d0b9f4b7723a227b680d735c92b995a3cc742b58349ff9f38d2bd"
+    },
+    "You have mastered %s!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "c8deca9aafe50af9e916bffe307bf2602466bff900b035485d15e2c7dce0807a"
+    },
+    "Your base %s skill increases to level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "b027e510638056837669c4581fa58635fb32590390777ea1296463577725748a"
+    },
+    "Your base %s skill decreases to level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "8fb3aba271aa7b8436a8402d98d47e93ad80ce67ee649d35154b83070ccf0d65"
+    },
+    "Your %s skill increases to level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "681268af362fd4850d45a24f555c46b95376f1345680e9d70691f14a05e6d0b1"
+    },
+    "Your %s skill decreases to level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "b7ab3d1b0dc458d72ef17aad86c21851e746849d9d96e87f7825d2dab173e9eb"
+    },
+    "Your base %s skill gained %d levels and is now at level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "7f77e415c2af23f4249845641d3a9ad1ebaf06b53020cb2de6033a15e9d5e870"
+    },
+    "Your base %s skill lost %d levels and is now at level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "5cf42cbd21a500c8a967133721d2a5fdf4ef1694ecf3a32d81f5e1b540d55dd4"
+    },
+    "Your %s skill gained %d levels and is now at level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "40187e6295cdef4f5c27c0e8c0538747badfd508c42393b1805c84686e556fc4"
+    },
+    "Your %s skill lost %d levels and is now at level %d!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "1e85d4b2d76c54ff36f7993f23e52a6ef4c91971735ea2bca6c0ea53cb86deff"
+    },
+    "Base training target %d.%d for %s reached!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "5cc03618d71f73b30a95f161c565d92de63d6ea7e47164f14b4bb13c348fc87d"
+    },
+    "Training target %d.%d for %s reached!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "7690f93da9e4b2380fadd095149077e713645b0956693317a248f08ee294205a"
+    },
+    "You have finished your manual of %s and skilfully toss it away.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "4bc56c119446979b000628647c82e959e506c68bc814ed534a4954f69b956a6a"
+    },
+    "You have finished your manual of %s and toss it away.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "0b20ddeb358da333df9c600808b90954624d879ccf070b2347dac2887c8af3b4"
+    },
+    "Clearing the base skill training target for %s.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "d5a98e0d7615242f28b6c8dcf1963d11496e6524c606247aa3d7c440d15ebc73"
+    },
+    "Clearing the skill training target for %s.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f6347d33aa7bb69757a95be9c156d4588b742d5437d466a3f3540da9ee16c6ac"
+    },
+    "Setting a base skill training target for %s at %d.%d.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "81941ed57a3a5639b6b551323cb444623c991491328b8b3c0ac8ed01b961ff2a"
+    },
+    "Setting a skill training target for %s at %d.%d.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e4e1dd3942eab16dd0d2bb9e4ce70a9f92ac33639db66291ff9beb30ac0a2e81"
+    },
+    "Your training target must be 27 or below!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "1f263bb3e79819557cb12f7bfd1ceb14a72a484aa11456a1a8371a9c0435cf7a"
+    },
+    "; use <white>(s)</white> to set %d.%d as a target for %s.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "9ae4470e14a7d06bd71994f93174815f6d86efdc86e90fcd6fed6ba353d2ca25"
+    },
+    "Your (base) skill: %s%d.%d%s": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f159f06bc094b06a26e3cccfe01b19a21f12df4f588bed032e219ccaaa7718a7"
+    },
+    "Your skill: %s%d.%d%s": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "67d455227252b03b904ecb6f593483d042b5ddd78c30fad00c534ae8c3e15fdf"
+    },
+    "Your current training target is %.1f.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "ba4f2db5a572cec637d9af6644e28b86f48ca1a644576c08d104d97111e9eded"
+    },
+    "Your current base training target is %.1f.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "b351b38272e7eea68ee2467167b0695336f384985fc6080022d2321feda013e1"
+    },
+    "With your current stats and equipment, %s this skill would increase your AC by %.1f and your EV by %.1f.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "8441cd1051dcdcb1561c7212847724a2af0f1b910c446a258df55906329b0491"
+    },
+    "With your current stats and equipment, %s this skill would increase your EV by %.1f.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "86fe03e87e39cb53a86e5c10be81f9834801cf0f10d8e1ee0768529e135a41d3"
+    },
+    "With your current stats and equipment, %s this skill would increase your SH by %.1f.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "2ca4f832396c8acbb43cff3663523994f3b417d2632a945d4a6381f3c0b01c87"
+    },
+    "With your current stats and equipment, %s this skill would worsen your spell failure trivially.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "90c9ffc5537700ed8b00071ef7c99e06eabb514f24e2849263a44991dc1c1264"
+    },
+    "With your current stats and equipment, %s this skill would improve your spell failure trivially.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "4ad16e47c45bcab92dc0cdae42830e48c0a906965fb0720db1d3e48e19b330a3"
+    },
+    "With your current stats and equipment, %s this skill would worsen your spell failure by up to %d percentage points.%s": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "9e6f609b211f2843b543000f6c570fb1eaa9cd1fb1b582b262bb3bcf2d30f5b7"
+    },
+    "With your current stats and equipment, %s this skill would improve your spell failure by up to %d percentage points.%s": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "54bd0243cad80a04bcea2cf568f3720ef61fa51de84bad424e0bf89d20a9a429"
+    },
+    " (press '!' for details)": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "55445d6af4f9925897d1aa5f38b11f8ceb6dc9d4af7d720d73bac5d88d287e64"
+    },
+    "The powers granted by %s are not affected by the Invocations skill.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "8f78707f9417d386b8f0a5c156c2689829cf39f5120465a1937d7627397a3dc7"
+    },
+    "The powers granted by %s use %s instead of Invocations.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "60b861dad5b3782e3766515614558b232b6bd63359d6a2456600025b3d2749ba"
+    },
+    "%s forbids the training of this skill.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "2930d26c99c4b27e76037e520ab19e73eb9e0284dd739f049235fd8143c761b7"
+    },
+    "Aiming: <w>%s</w>": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "342d84a9af2c7bee43c1a7bc648e8cfcb423b704d8db36b6158453f9212026cc"
+    },
+    "Activating: <w>%s</w>": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "2bd3a2db648890cb31c4712f928863f3ea877b36ec87ef3b4b725c34ee93406b"
+    },
+    " <lightgrey>(%s risk of failure)</lightgrey>": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f91f05eac916671fe85b46fd9f86a753d4e380d8ca019d631ecbe25d0b5c19fe"
+    },
+    "%s is still trapped in memory!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "518959e7a535ab36147f3524dcac31c179f237c00a01086bbe37a0ab8e3d60b5"
+    },
+    "There are no victims visible. Siphon anyway?": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "4ffa865e7dc80147d91e796e3bdcfed1bdd1ed4fa62c93d84f0a55ace30d5d18"
+    },
+    "You feel stolen life flooding into you!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "2e6f9f2bce62133ec7affd646c592bf5575a8d4e6629dce616997f254f4dd968"
+    },
+    "You feel stolen life flooding into you from an unseen source!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "215ab41a8d8659369747700ff94b7069bdc4427e0509ec716a927ae2cc4c94d1"
+    },
+    "You feel the orb feeding on your energy!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "6d91b027a2ff26e98928761074490c818697023b77646ff0b42f517dfe5df936"
+    },
+    "You send your armour flying and begin to make an unholy cacophony!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "63eabdea129e4c3e8d270675867af86a9d5469cf4d4533e21cf1ed2d0fa74156"
+    },
+    "Select an artefact weapon to imprint upon your Paragon.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "ec33863e77ccae8d78e25719a0838334d84f952c481ad3c9f632c9a81e935300"
+    },
+    "%s forbids using such a weapon!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "0bceb1dc1738da0591e568341c5bdd8b341d21aa112cdc6831f555ad6498f2e5"
+    },
+    "You scatter into a swarm of vampire bats!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "640a615e92e36a0a2c2faf8b52d8003f292164e37e231b1cb691f11aacf41829"
+    },
+    "Your flames flare with remembrance!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "6cb43f9a856d4f3764339e079a79fc2d6798a90edcbc90cfde85f2aa7dbbed7f"
+    },
+    "You channel a blast of cleansing flame!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "b54bcf41629d94c99788fd5c01f40278dab1111c6a096e51eda60729fdad117c"
+    },
+    "You invoke the name of Kikubaaqudgha!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "d10ed503cb27d6c0d103a0e9381e9113ea1c8b13baf44fd99c0386bebcf606d1"
+    },
+    "You call down Yredelemnul's inexorable grip.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "30ef6e4d64707ae4f472d9e3d01431f1a72254d1bd59950beadc5fe39916bc20"
+    },
+    "You attempt to bind the soul of %s, but the target is merely a clone!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "c56259778daec38cd705daccc3e522d7c20ab11a3ad4a1dfc3e857fbf87e8bcd"
+    },
+    "You wrap your dark will around the soul of %s!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "2246661231e4314d249940e4080b76168376d6e935134d295dbec0b81134092f"
+    },
+    "You channel some magical energy.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "a730aa8a15c2154b6a60e891df3b01e048bed912490d12bf9d87e6e6dc6e2f04"
+    },
+    "You begin to rise into the air.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "bf8ac2535f355207d8d0f69a87a6d1dd35cf29ab04cee02d0cda3f8792ea5a5c"
+    },
+    "You can see no monster there to imprison!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "88e2baf61aca846488e611c74248db5fcbda1252f68a9b32dd74876906e012fc"
+    },
+    "A divine shield manifests in front of you!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "c14031a66b7955dfdca389eeb987b5c26a674647f6954c4e1cddeb977301cbbc"
+    },
+    "%s grants you and your allies divine vigour.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e8e29b0e6f3500a7bfb718b0ea39314b0fca087320c39b5c6f57c725c7d0bf95"
+    },
+    "Do you wish to receive knowledge of %s?": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "33f019297cc6a02596bfcdea7acd87f4bf91e1097be4bad11e7686561c728de4"
+    },
+    "There are no souls to scour here; only the pathetic idols of powerless gods.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "8b06b0aba39eca6ebf7a71fd6a6c06fb13b380f61c976f241ec38fa45d228704"
+    },
+    "There are no souls worth scouring here.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "0d084673d6890baaedf582d72b0bb2d7982ccdbb8677b7c5d567c4c137062674"
+    },
+    "Not even a god could conquer a realm without end; waste no time trying.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "47cc942f528bfc0e813dd1f3afd5d93aa142d93d9c4c99e5bc72e50d7aa9822c"
+    },
+    "You have raised the torch once already on this floor. Yredelemnul offers no second chances.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f8a3912b2a062c94400ce3d5047a1aaac227d0604ec6efd1459045cda43b422c"
+    },
+    "Yredelemnul sends servants to aid you!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "45068077d23775911c9529418bcf70580115260e5034b8dc16f9f62fd73d9b4e"
+    },
+    "The black torch howls with new intensity!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "1f92c3f17efb8175fe84b1e37086337911870207b227cc251cfea2f522f2547e"
+    },
+    "%s is greatly invigorated by your prowess.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e2b3bdb5ab4b4d96381ff80c9ad6a4ea38704cd4e36fa03e4911856219e1b203"
+    },
+    "%s is invigorated by your prowess.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "3f7aa13028f1bf63751ec46c5973375a28e40cf3fecf3bd223da4752a26664ec"
+    },
+    "Your followers are greatly invigorated by your prowess.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "d850e7f2fb135b2ab363eb0e4370604642e5d491a98429c1a8e686dad73451bb"
+    },
+    "Your followers are invigorated by your prowess.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "dbe7d4b32571d7903e132f96cf367ac470d5bfb3b9a3c07b2d6700d16cc454f5"
+    },
+    "Are you sure you wish to flee a divine trial? This will place you under penance!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "a0c4226f75f7663f0879366e6564c0b8b6ea2ec870ffec14fca196091c67d61f"
+    },
+    "Beogh appreciates your bravery.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f2d88ae2e302ab943e5e77bb30f38776c78fac2c576ded7a32aa991c9c8c334f"
+    },
+    "Your vengeful prayer will end if you leave here. Continue?": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "725d6fe21504f97e24b6f786b060f3db3d048bd76eb8ec1b609c91149116f499"
+    },
+    "Your orcish features manifest fully.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "0b038307046b484dfaa46a1093f323b7a27e7da997b53bf60bf1849fb1cb184c"
+    },
+    "Your shadow is still firmly attached to your body.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e98bb22a85a907598d34a407ec5c3e3aad0fae5e113eb08f0ce73e9e9f8c0a9f"
+    },
+    "Your shadow isn't in sight!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "03ea95afc69fab666f4d295ad42531cc9dad2a3bd99b31ca74c472c38200ff57"
+    },
+    "It would be unwise to slip onto deep water.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "c3a2b4784c23d28a776c2cef7a5f79e6c3747440706e316d1cbf40f753563a99"
+    },
+    "It would be unwise to slip onto lava.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f06180dac980039b8dbff7fd3d75fc36140877225a931f3058180fcd6aadb6c5"
+    },
+    "You swap places with your shadow and weave the vestiges of your form into it.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "bae0d1f1c3161e7a367c86a76482488fa6fedeefc0ea66e124b5de3957862968"
+    },
+    "%s turns its attention towards your shadow.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "baacfd037173d2a5aa9048b7b8a7862ea63bb990ca3c906b42b79ef04fc0ae79"
+    },
+    "The world around you is engulfed in lightless night!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "3782ed1df3130a631340c3c2583893d546d7fde250be2d15145d047fe57a97fd"
+    },
+    "There isn't a suitable marionette in sight.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "5c07561984858c77a7715e3d5abc0dab9cd9d9aa35b53802138e66dff0a21a74"
+    },
+    "You grasp the shadow of %s with your own and put on a performance!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "f8f8c64d8e30860c8273bf49dc005029e62f7bc1ca8e5e8b9e9aaf6acf425c41"
+    },
+    "Your performance comes to an abrupt end.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "e499f46435af6a3ec1a2a755461d54d30fe0a941b7e88dc3a672e27c68b81c90"
+    },
+    "The shadow of %s slips away and your performance ends.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "379bfe1e94abfaa1cbc233e93b9e599f258d9666c78a86b0db2cbc4068ab53cd"
+    },
+    "You need at least %d gold to purchase potions right now!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "9f1e6c66ebae18712660b6f35eef75b32430885a69cadb9f003ada4283668653"
+    },
+    "You currently need %d gold to open negotiations with a merchant.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "d5cf5e1abafe91dd59ab71cf4ec8fe3a6bda8dea68a47700ccb91845eb07c063"
+    },
+    "You need at least %d gold to offer a bribe.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "55585004ed29bb371396059743d65ab579aabe876a350fee73fd9b0fb7f3b1b9"
+    },
+    "{skill-training-action}mastering": {
+      "context": "describe.cc _get_skill_training_change: subject inside a complete forecast. Mastering is training from a base level >=26 to the cap 27; one-level forecast and numeric differences unchanged.",
+      "translation_sha256": "7796914c033b416a149ad74a72c8bf352993ee00b0d3dbaded7ba79fd82878b4"
+    },
+    "{skill-training-action}training 1 level of": {
+      "context": "describe.cc _get_skill_training_change: subject inside a complete forecast. Mastering is training from a base level >=26 to the cap 27; one-level forecast and numeric differences unchanged.",
+      "translation_sha256": "a0a06485c9e1b5bdf168a1a86fe03b6857cd888a9167fb670162aaac91dfeba7"
+    },
+    "The light of Elyvilon comforts %s and prolongs its stay in this world.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "fe969dfa89ac60db35548d1a382e3371b24497be50c560c670bebfb076e162f2"
+    },
+    "The light of Elyvilon comforts %s.": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "25996e3314f304292a3693c7db6d0c827a7f8bb7a47f3d4a530bd01b35871204"
+    },
+    "You lift the black torch aloft and begin your conquest of %s in Yredelemnul's name!": {
+      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
+      "translation_sha256": "39f1ba732102ebe6959926b42a4de977f831c614ff9828096015212db338582c"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

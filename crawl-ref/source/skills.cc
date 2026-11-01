@@ -27,6 +27,7 @@
 #include "item-prop.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "mutation.h"
 #include "notes.h"
@@ -342,21 +343,28 @@ static void _change_skill_level(skill_type exsk, int n)
     // are you drained/crosstrained/ash'd in the relevant skill?
     const bool specify_base = you.skill(exsk, 1) != you.skill(exsk, 1, true);
     if (you.skills[exsk] == MAX_SKILL_LEVEL)
-        mprf(MSGCH_INTRINSIC_GAIN, "You have mastered %s!", skill_name(exsk));
+        mprf(MSGCH_INTRINSIC_GAIN, localise("You have mastered %s!").c_str(),
+             localise(skill_name(exsk)).c_str());
     else if (abs(n) == 1 && you.num_turns)
     {
-        mprf(MSGCH_INTRINSIC_GAIN, "Your %s%s skill %s to level %d!",
-             specify_base ? "base " : "",
-             skill_name(exsk), (n > 0) ? "increases" : "decreases",
+        const char* format = specify_base
+            ? (n > 0 ? "Your base %s skill increases to level %d!"
+                     : "Your base %s skill decreases to level %d!")
+            : (n > 0 ? "Your %s skill increases to level %d!"
+                     : "Your %s skill decreases to level %d!");
+        mprf(MSGCH_INTRINSIC_GAIN, localise(format).c_str(),
+             localise(skill_name(exsk)).c_str(),
              you.skills[exsk]);
     }
     else if (you.num_turns)
     {
-        mprf(MSGCH_INTRINSIC_GAIN, "Your %s%s skill %s %d levels and is now "
-             "at level %d!",
-             specify_base ? "base " : "",
-             skill_name(exsk),
-             (n > 0) ? "gained" : "lost",
+        const char* format = specify_base
+            ? (n > 0 ? "Your base %s skill gained %d levels and is now at level %d!"
+                     : "Your base %s skill lost %d levels and is now at level %d!")
+            : (n > 0 ? "Your %s skill gained %d levels and is now at level %d!"
+                     : "Your %s skill lost %d levels and is now at level %d!");
+        mprf(MSGCH_INTRINSIC_GAIN, localise(format).c_str(),
+             localise(skill_name(exsk)).c_str(),
              abs(n), you.skills[exsk]);
     }
 
@@ -1298,8 +1306,10 @@ static bool _check_training_target(skill_type sk, bool base)
             set_magic_training(TRAINING_DISABLED);
         else
             you.train_alt[sk] = you.train[sk] = TRAINING_DISABLED;
-        mprf("%sraining target %d.%d for %s reached!",
-            base ? "Base t" : "T", targ / 10, targ % 10, skill_name(sk));
+        mprf(localise(base
+             ? "Base training target %d.%d for %s reached!"
+             : "Training target %d.%d for %s reached!").c_str(),
+             targ / 10, targ % 10, localise(skill_name(sk)).c_str());
         return true;
     }
     return false;
@@ -1664,9 +1674,10 @@ static int _train(skill_type exsk, int &max_exp, bool simu, bool check_targets)
         you.skill_manual_points[exsk] -= bonus;
         if (!you.skill_manual_points[exsk] && !simu && !crawl_state.simulating_xp_gain)
         {
-            mprf("You have finished your manual of %s and %stoss it away.",
-                 skill_name(exsk),
-                 exsk == SK_THROWING ? "skilfully " : "");
+            mprf(localise(exsk == SK_THROWING
+                 ? "You have finished your manual of %s and skilfully toss it away."
+                 : "You have finished your manual of %s and toss it away.").c_str(),
+                 localise(skill_name(exsk)).c_str());
         }
     }
 
@@ -1984,13 +1995,17 @@ bool player::set_training_target(const skill_type sk, const int target,
             mpr("You can't set training targets!");
         else if (ranged_target == 0)
         {
-            mprf("Clearing the %sskill training target for %s.",
-                 base ? "base " : "", skill_name(sk));
+            mprf(localise(base
+                 ? "Clearing the base skill training target for %s."
+                 : "Clearing the skill training target for %s.").c_str(),
+                 localise(skill_name(sk)).c_str());
         }
         else
         {
-            mprf("Setting a %sskill training target for %s at %d.%d.",
-                 base ? "base " : "", skill_name(sk),
+            mprf(localise(base
+                 ? "Setting a base skill training target for %s at %d.%d."
+                 : "Setting a skill training target for %s at %d.%d.").c_str(),
+                 localise(skill_name(sk)).c_str(),
                  ranged_target / 10, ranged_target % 10);
         }
     }
