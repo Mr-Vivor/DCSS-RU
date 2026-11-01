@@ -333,7 +333,8 @@ bool fire_warn_if_impossible(bool silent, item_def *weapon)
         if (!weapon || !is_range_weapon(*weapon))
         {
             if (!silent)
-                mprf("You cannot throw/fire anything while %s.", held_status());
+                mprf(localise("You cannot throw/fire anything while %s.").c_str(),
+                     localise_in_context("movement-held", held_status()).c_str());
             return true;
         }
         else
@@ -343,8 +344,9 @@ bool fire_warn_if_impossible(bool silent, item_def *weapon)
         {
             if (!silent)
             {
-                mprf("You cannot shoot with your %s while %s.",
-                     weapon->name(DESC_BASENAME).c_str(), held_status());
+                mprf(localise("You cannot shoot with your %s while %s.").c_str(),
+                     localise(weapon->name(DESC_BASENAME)).c_str(),
+                     localise_in_context("movement-held", held_status()).c_str());
             }
             return true;
         }

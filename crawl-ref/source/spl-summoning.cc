@@ -35,6 +35,7 @@
 #include "item-use.h"
 #include "items.h"
 #include "libutil.h"
+#include "localise.h"
 #include "los.h"
 #include "losglobal.h"
 #include "losparam.h"
@@ -1661,10 +1662,11 @@ void init_servitor(monster* servitor, actor* caster, int pow)
 
     if (you.can_see(*caster))
     {
-        mprf("%s %s a servant imbued with %s destructive magic!",
-             caster->name(DESC_THE).c_str(),
-             caster->conj_verb("forge").c_str(),
-             caster->pronoun(PRONOUN_POSSESSIVE).c_str());
+        if (caster->is_player())
+            mpr(localise("You forge a servant imbued with your destructive magic!"));
+        else
+            mprf(localise("%s forges a servant imbued with its destructive magic!").c_str(),
+                 localise(caster->name(DESC_THE)).c_str());
     }
     else
         simple_monster_message(*servitor, " appears!");
@@ -2636,7 +2638,7 @@ static void _overgrow_wall(const coord_def &pos)
 
     if (monster_at(pos))
     {
-        mprf("Something unseen blocks growth in %s.", what.c_str());
+        mprf(localise("Something unseen blocks growth in %s.").c_str(), localise(what).c_str());
         return;
     }
 
@@ -2653,12 +2655,12 @@ static void _overgrow_wall(const coord_def &pos)
                         summ_dur(min(3 + you.skill_rdiv(SK_INVOCATIONS, 1, 5), 6)));
     if (const monster* const plant = create_monster(mgen))
     {
-        mprf("%s is torn apart as %s grows in its place.", what.c_str(),
-                plant->name(DESC_A).c_str());
+        mprf(localise("%s is torn apart as %s grows in its place.").c_str(), localise(what).c_str(),
+                localise(plant->name(DESC_A)).c_str());
     }
     // XXX: Maybe try to make this revert the terrain if a monster isn't placed.
     else
-        mprf("%s falls apart, but nothing grows.", what.c_str());
+        mprf(localise("%s falls apart, but nothing grows.").c_str(), localise(what).c_str());
 }
 
 spret fedhas_overgrow(bool fail)
@@ -3552,9 +3554,12 @@ void launch_clockwork_bee(const actor& agent)
 
         if (you.can_see(*bee))
         {
-            mprf("With a metallic buzz, %s clockwork bee launches itself at %s.",
-                 agent.name(DESC_ITS).c_str(),
-                 targ->name(DESC_THE).c_str());
+            if (agent.is_player())
+                mprf(localise("With a metallic buzz, your clockwork bee launches itself at %s.").c_str(),
+                     localise(targ->name(DESC_THE)).c_str());
+            else
+                mprf(localise("With a metallic buzz, the clockwork bee of %s launches itself at %s.").c_str(),
+                     localise(agent.name(DESC_THE)).c_str(), localise(targ->name(DESC_THE)).c_str());
         }
 
         bee->speed_increment = 80;
@@ -3573,7 +3578,8 @@ spret cast_clockwork_bee(coord_def target, bool fail)
 
     you.props[CLOCKWORK_BEE_TARGET].get_int() = targ->mid;
 
-    mprf("You lock target on %s and prepare to deploy your bee.", targ->name(DESC_THE).c_str());
+    mprf(localise("You lock target on %s and prepare to deploy your bee.").c_str(),
+         localise(targ->name(DESC_THE)).c_str());
     start_channelling_spell(SPELL_CLOCKWORK_BEE, "continue winding your bee", false);
 
     // Remove any existing bee
@@ -3594,8 +3600,9 @@ void clockwork_bee_go_dormant(monster& bee)
 {
     if (you.can_see(bee))
     {
-        mprf("%s clockwork bee winds down and falls to the ground.",
-             bee.summoner == MID_PLAYER ? "Your" : "The");
+        mpr(localise(bee.summoner == MID_PLAYER
+             ? "Your clockwork bee winds down and falls to the ground."
+             : "The clockwork bee winds down and falls to the ground."));
     }
 
     int old_hd = bee.get_experience_level();
@@ -3652,11 +3659,12 @@ bool clockwork_bee_recharge(actor& agent, monster& bee)
         finalize_mp_cost();
     }
 
-    mprf("%s wind%s %s clockwork bee back up and it locks its sights upon %s!",
-         agent.name(DESC_THE).c_str(),
-         agent.is_player() ? "" : "s",
-         agent.pronoun(PRONOUN_POSSESSIVE).c_str(),
-         targ->name(DESC_THE).c_str());
+    if (agent.is_player())
+        mprf(localise("You wind your clockwork bee back up and it locks its sights upon %s!").c_str(),
+             localise(targ->name(DESC_THE)).c_str());
+    else
+        mprf(localise("%s winds its clockwork bee back up and it locks its sights upon %s!").c_str(),
+             localise(agent.name(DESC_THE)).c_str(), localise(targ->name(DESC_THE)).c_str());
     int old_max_hp = bee.max_hit_points;
     int old_hp = bee.hit_points;
     int old_hd = bee.get_experience_level();
@@ -3685,9 +3693,15 @@ void clockwork_bee_pick_new_target(monster& bee)
        clockwork_bee_go_dormant(bee);
     else
     {
-        mprf("%s clockwork bee locks its sights upon %s.",
-                agent ? agent->pronoun(PRONOUN_POSSESSIVE).c_str() : "Someone's",
-                targ->name(DESC_THE).c_str());
+        if (!agent)
+            mprf(localise("A clockwork bee locks its sights upon %s.").c_str(),
+                 localise(targ->name(DESC_THE)).c_str());
+        else if (agent->is_player())
+            mprf(localise("Your clockwork bee locks its sights upon %s.").c_str(),
+                 localise(targ->name(DESC_THE)).c_str());
+        else
+            mprf(localise("The clockwork bee of %s locks its sights upon %s.").c_str(),
+                 localise(agent->name(DESC_THE)).c_str(), localise(targ->name(DESC_THE)).c_str());
         bee.add_ench(mon_enchant(ENCH_HAUNTING, targ, INFINITE_DURATION));
         bee.props[CLOCKWORK_BEE_TARGET].get_int() = targ->mid;
     }
@@ -4252,8 +4266,9 @@ static void _do_player_potion()
         const int amu = you.wearing(OBJ_JEWELLERY, AMU_CHEMISTRY, false, true);
         if (amu)
         {
-            mprf("You extract %smagical energy from the potion.",
-                 amu > 1 ? "even more " : "");
+            mpr(localise(amu > 1
+                 ? "You extract even more magical energy from the potion."
+                 : "You extract magical energy from the potion."));
             inc_mp(random_range(5, 9) * amu);
         }
     }
@@ -4338,8 +4353,11 @@ spret cast_monarch_bomb(const actor& agent, int pow, bool fail)
     {
         if (you.can_see(*mon))
         {
-            mprf("%s construct%s an explosive harbinger and set it loose.",
-                 agent.name(DESC_THE).c_str(), agent.is_player() ? "" : "s");
+            if (agent.is_player())
+                mpr(localise("You construct an explosive harbinger and set it loose."));
+            else
+                mprf(localise("%s constructs an explosive harbinger and sets it loose.").c_str(),
+                     localise(agent.name(DESC_THE)).c_str());
         }
     }
     else
@@ -4404,10 +4422,11 @@ spret monarch_detonation(const actor& agent, int pow, bool fail)
 
     if (you.can_see(agent))
     {
-        mprf("%s command%s %s explosives to detonate!",
-                agent.name(DESC_THE).c_str(),
-                agent.is_player() ? "" : "s",
-                agent.pronoun(PRONOUN_POSSESSIVE).c_str());
+        if (agent.is_player())
+            mpr(localise("You command your explosives to detonate!"));
+        else
+            mprf(localise("%s commands its explosives to detonate!").c_str(),
+                 localise(agent.name(DESC_THE)).c_str());
     }
 
     for (coord_def spot : spots)
@@ -4517,9 +4536,8 @@ spret cast_splinterfrost_shell(const actor& agent, const coord_def& aim,
             mprf("You construct a shell of ice in front of yourself.");
         else if (you.can_see(agent))
         {
-            mprf("%s constructs a shell of ice in front of %s.",
-                    agent.name(DESC_THE).c_str(),
-                    agent.pronoun(PRONOUN_REFLEXIVE).c_str());
+            mprf(localise("%s constructs a shell of ice in front of itself.").c_str(),
+                    localise(agent.name(DESC_THE)).c_str());
         }
     }
     else
@@ -4597,8 +4615,8 @@ spret cast_phalanx_beetle(const actor& agent, int pow, bool fail)
         }
         else if (you.can_see(agent))
         {
-            mprf("%s forges a skittering defender to stand by %s side.",
-                 agent.name(DESC_THE).c_str(), agent.pronoun(PRONOUN_POSSESSIVE).c_str());
+            mprf(localise("%s forges a skittering defender to stand by its side.").c_str(),
+                 localise(agent.name(DESC_THE)).c_str());
         }
         mons_update_aura(*mons);
     }

@@ -475,9 +475,9 @@ void MemoriseDelay::start()
 {
     if (vehumet_is_offering(spell, true))
     {
-        string message = make_stringf(" grants you knowledge of %s.",
-            spell_title(spell));
-        simple_god_message(message.c_str());
+        const string message = make_stringf(localise("%s grants you knowledge of %s.").c_str(),
+            localise(god_name(you.religion)).c_str(), localise(spell_title(spell)).c_str());
+        god_speaks(you.religion, message.c_str());
     }
     mprf(MSGCH_MULTITURN_ACTION, "You start memorising the spell.");
 }
@@ -494,15 +494,15 @@ void ShaftSelfDelay::start()
 
 void ImbueDelay::start()
 {
-    mprf(MSGCH_MULTITURN_ACTION, "You begin to imbue your servitor with "
-         "knowledge of %s.",
-         spell_title(spell));
+    mprf(MSGCH_MULTITURN_ACTION, localise("You begin to imbue your servitor with "
+         "knowledge of %s.").c_str(),
+         localise(spell_title(spell)).c_str());
 }
 
 void ImprintDelay::start()
 {
-    mprf(MSGCH_MULTITURN_ACTION, "You begin to imprint %s upon your paragon.",
-         wpn.name(DESC_THE).c_str());
+    mprf(MSGCH_MULTITURN_ACTION, localise("You begin to imprint %s upon your paragon.").c_str(),
+         localise(wpn.name(DESC_THE)).c_str());
 }
 
 void TransformDelay::start()
@@ -552,7 +552,7 @@ void BaseRunDelay::handle()
 
     if (want_move() && you.confused())
     {
-        mprf("You're confused, stopping %s.",
+        mprf(localise("You're confused, stopping %s.").c_str(),
              localise_in_context("travel-mode", you.running.runmode_name()).c_str());
         stop_running();
     }
@@ -876,8 +876,8 @@ void ImbueDelay::finish()
 
 void ImprintDelay::finish()
 {
-    mprf("You finish imprinting the physical structure of %s upon your paragon.",
-            wpn.name(DESC_THE).c_str());
+    mprf(localise("You finish imprinting the physical structure of %s upon your paragon.").c_str(),
+            localise(wpn.name(DESC_THE)).c_str());
     you.props[PARAGON_WEAPON_KEY].get_item() = wpn;
 }
 

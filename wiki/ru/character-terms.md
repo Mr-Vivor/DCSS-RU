@@ -276,6 +276,12 @@
 | Lehudib's Crystal Spear | Хрустальное копьё Лехудиба |
 | Iron Shot | Железный выстрел |
 | Plasma Beam | Плазменный луч |
+| Diamond Sawblades | Алмазные пилы |
+| Malign Gateway | Зловещие врата |
+| Monstrous Menagerie | Чудовищный зверинец |
+| Summon Seismosaurus Egg | Призыв яйца сейсмозавра |
+| Summon Sin Beast | Призыв зверя греха |
+| Summon Dragon | Призыв дракона |
 
 ## items
 
@@ -996,3 +1002,11 @@
 | monarch bomb | бомба «Монарх» |
 | phalanx beetle | фаланговый жук |
 | living spell | живое заклинание |
+| seismosaurus | сейсмозавр |
+| seismosaurus egg | яйцо сейсмозавра |
+| sin beast | зверь греха |
+| diamond sawblade | алмазная пила |
+| manticore | мантикора |
+| lindwurm | линдвурм |
+| sphinx marauder | сфинкс-мародёр |
+| inugami | инугами |

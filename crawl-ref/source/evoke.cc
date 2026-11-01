@@ -38,6 +38,7 @@
 #include "item-use.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "message.h"
 #include "mgen-data.h"
@@ -675,8 +676,8 @@ static spret _phantom_mirror(dist *target)
     // mirrored copy will not properly count as summoned for some purposes.
     mon->flags &= ~(MF_HARD_RESET | MF_NO_REWARD);
 
-    mprf("You reflect %s with the mirror!",
-         victim->name(DESC_THE).c_str());
+    mprf(localise("You reflect %s with the mirror!").c_str(),
+         localise(victim->name(DESC_THE)).c_str());
 
     return spret::success;
 }
@@ -1027,8 +1028,8 @@ string cannot_evoke_item_reason(const item_def *item, bool temp, bool ident,
     {
         if (god_forbids)
             *god_forbids = true;
-        return make_stringf("%s forbids the use of this item.",
-                            uppercase_first(god_name(you.religion)).c_str());
+        return make_stringf(localise("%s forbids the use of this item.").c_str(),
+                            localise(god_name(you.religion)).c_str());
     }
 
     if (item->base_type == OBJ_BAUBLES)
@@ -1040,7 +1041,7 @@ string cannot_evoke_item_reason(const item_def *item, bool temp, bool ident,
         {
             if (temp && you.skill(SK_SHAPESHIFTING) < CENTIPEDE_BAUBLE_MINSKILL)
             {
-                return make_stringf("you need at least %s shapeshifting skill to use this effectively.",
+                return make_stringf(localise("you need at least %s shapeshifting skill to use this effectively.").c_str(),
                                     to_string(CENTIPEDE_BAUBLE_MINSKILL).c_str());
             }
 
@@ -1098,8 +1099,8 @@ string cannot_evoke_item_reason(const item_def *item, bool temp, bool ident,
     if (temp && is_xp_evoker(*item) && evoker_charges(item->sub_type) <= 0)
     {
         // DESC_THE prints "The tin of tremorstones (inert) is presently inert."
-        return make_stringf("The %s is presently inert.",
-                                            item->name(DESC_DBNAME).c_str());
+        return make_stringf(localise("The %s is presently inert.").c_str(),
+                            localise(item->name(DESC_DBNAME)).c_str());
     }
 
     return "";
@@ -1141,8 +1142,7 @@ bool evoke_item(item_def& item, dist *preselect)
                 if (!check_transform_into(transformation::flux, false))
                     return false;
 
-                mprf("You crush the flux bauble in your %s and feel its energy "
-                    "flooding your body.", you.hand_name(false).c_str());
+                mpr(localise("You crush the flux bauble and feel its energy flooding your body."));
                 ASSERT(in_inventory(item));
                 dec_inv_item_quantity(item.link, 1);
                 transform(0, transformation::flux, true);

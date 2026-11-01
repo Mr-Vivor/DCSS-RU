@@ -29996,7 +29996,7 @@
       "translation_sha256": "2c8eb5e61d3bbe32f9d9957ca52857867e5b2dec81fed4ab3ccfbaf1d89fbe26"
     },
     "you are already filled with unstable energy.": {
-      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
       "translation_sha256": "f9e3958d49aea2ce415e61f3d76694ec391faf81e72351784a464a80ff3f9041"
     },
     "allies are forbidden to you.": {
@@ -32296,8 +32296,8 @@
       "translation_sha256": "7c8d88ba30a233a605bdb9602181721b45aad3e442d1dc53c20b144095b97858"
     },
     "You finish imbuing your servitor.": {
-      "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
-      "translation_sha256": "192dd0ea996a5849185e53425c1d06d53c89579bcf2bfa1e643406e05645bfb8"
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "453b27876005001330b23967aac703f154a45aaaeabff52e9b9dde1606fdc98a"
     },
     "You begin to imprint @arg@ upon your paragon.": {
       "context": "delay.cc/delay.h: current multi-turn action phases, spell memorisation, Passwall, self-shaft, talisman transformations, Imbue Servitor and Platinum Paragon imprint; finish does not imply a summoned creature already exists",
@@ -36628,7 +36628,7 @@
       "translation_sha256": "81d63af4ecc28f346e1e03a54c8f06b3a205d712d9a69d1011178d433e2f6166"
     },
     "You extract magical energy from the potion.": {
-      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
       "translation_sha256": "0377bfcd9f7a5474372f38b9b418a95075b91ff29250504ba0d3fb9c444334ce"
     },
     "{god-conduct}%s likes it when %s.": {
@@ -40162,6 +40162,294 @@
     "{fortress-blast-strength}a strong": {
       "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
       "translation_sha256": "ad28c281954fa77a2dc44e6024c903deeaf3ef5828bf2ce0a79a7fc950b23d99"
+    },
+    "You cannot throw/fire anything while %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "c7c47b0f2db36fbe7fdcc8b5d5153423a9494139109fd62c015380d1c655cbea"
+    },
+    "You cannot shoot with your %s while %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "cf17ee9439298bb975330d99058f21fa2a88bf365c7a7d00cb378d230217d449"
+    },
+    "You reflect %s with the mirror!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "a82094a2180a0584e94f46e1acc512fc1b4c333b553a3bea1d4077139c2b6e87"
+    },
+    "%s forbids the use of this item.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "2665be266f93b8ab64c2c5890d3edba6813e131fc975de5736a070c070570e05"
+    },
+    "you need at least %s shapeshifting skill to use this effectively.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "9c322b493b6f190ea85480add943432d98db30ed24be1cedaa4655a80a01fbbf"
+    },
+    "The %s is presently inert.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "04952e57269a22cd5265d19253be611610544a44e6dac051d106e5cb7bb09cc3"
+    },
+    "You crush the flux bauble and feel its energy flooding your body.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "11fc19e69ddeb0c4e64b98fe2a02edefe841fc3b61bc5f8cab62d87e7acae6c2"
+    },
+    "You conserve a charge of your wand.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "a165227e0c1ce10ad7ec34cbfd268da740bb44a55bff3987f00a8f8f341c2170"
+    },
+    "You reach into the sack...": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "41eaf7bc28cc09331b31915c191fba77a9807e19db36f711918e2b99a14846f0"
+    },
+    "...but only cobwebs fall out.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "e68aa6ec4395d54921021bf7e6286b6b24eaf75a606aa64d6a27a3abee6d6f38"
+    },
+    "Clouds condense from the air!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "2191df0973c0ee53af661a603d4a783e94719b5dd0e687b24610a19dc2e82edb"
+    },
+    "You don't have enough room in your inventory!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "ee82cc5c7865f4f4bfa9eb8475a8e1fd9bfa57d8d8f9610ba21a8ef1d251e4ad"
+    },
+    "%s grants you knowledge of %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "73a99ae6c8d72ea756caa29da32486568e2ccfec2be70754108393a334682a46"
+    },
+    "You begin to imbue your servitor with knowledge of %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "6fdde3d4547bdd7d720edc1cc65049dcd08433d5840fcf8b694460a8dcf84a3b"
+    },
+    "You begin to imprint %s upon your paragon.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "7d6701609c395eb823f9ba15a77255200f989968ba88569591055a7fa453cce5"
+    },
+    "You finish imprinting the physical structure of %s upon your paragon.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "0fd1308c10294816dd1633a9e551427b390ac4589b3399ca3e230c6c8a1c58dc"
+    },
+    "You're confused, stopping %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "6eeccd0347fa622018e0c26327e1f158049b4cb0bc61f1f461653b6aeec81e72"
+    },
+    "%s forbids the use of this talisman.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "4642803e02041adc436053f9f01517f4a980515b9f15187d71efb8f969e24170"
+    },
+    "%s responds to your shapeshifting skill and transforms into a %s!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "1bbd1b7ddd278f3c5a05135f0623673da974efd31badc54b0d2852eef638159a"
+    },
+    "Your familiar is too far away to imbue with magic.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "ece9be8d2e47f122cd80edc3dfbdcb0e3d9d56d9431a654d10a0e87496084e26"
+    },
+    "You call for your canine familiar and it appears with a howl!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "c24b3fe946bf3dad983fa79567bbff5040b7c18060ac28d41bd99a4c2b805516"
+    },
+    "You imbue your familiar with magical energy and its fangs glint viciously.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "001668022bd2756dc5f4026b090f98e9bffc619576eef2d6562b0e41da7d1057"
+    },
+    "A prickly colossus appears in a rush of desert wind.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "0a126e992ad891dae01e5b50369e7dbbeee2e23d3776545091ab7df2f56afbce"
+    },
+    "You bind the heart of a blast furnace in slag iron.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "bf916d85b0f3696ef6d1c4461835725ebdb1082787d8ae5abbae02d158e74608"
+    },
+    "You forge a servant imbued with your destructive magic!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "45e1bb36257f99e5b191363a3db5cf78b86980d9e83fe32746604ef8e98ddc88"
+    },
+    "%s forges a servant imbued with its destructive magic!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "880f7ddff8a374083046cef1394f406fcae9a1459e24a01220f6c10f59fd053d"
+    },
+    "With a metallic buzz, your clockwork bee launches itself at %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "6a3678fb4fee991bac746e48e1160db2ff545089b0f5cc547d7b3fd20f158bc4"
+    },
+    "With a metallic buzz, the clockwork bee of %s launches itself at %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "08c385fd81d61d03312e255003f2193d53c1632b61975987b94e8790c8e7ee3f"
+    },
+    "You lock target on %s and prepare to deploy your bee.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "b0a4ac0c8186db7065b1325819636ef4766e38b51ac46036d79cf8f43710e37d"
+    },
+    "Your bee fails to deploy!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "430286981f31c05f51f21a3aada6c3318e316a642c43c0d62f45687c008e967a"
+    },
+    "Your existing bee falls apart.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "9d3530a5afefe0f0c1feb6e897b6e1bf6d04dfc775b42ca5df25723cc233233c"
+    },
+    "Without a target and with nowhere to land, your clockwork bee falls apart in a shower of cogs and coils.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "68c7448ac2f04a984392ffcaea17a359929faff088bbd0658513665a61798759"
+    },
+    "Your clockwork bee winds down and falls to the ground.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "c62799ace49e180f426e346b66dfa264998889558e92a65473e780b3740b66d0"
+    },
+    "The clockwork bee winds down and falls to the ground.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "e44b9abf3957803431328922bc66b851eae4215e63e116c887d60b956ef87a29"
+    },
+    "You wind your clockwork bee back up and it locks its sights upon %s!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "84a260a214172697ee8e2d9884756d3a6960ea79b575331bf9f60ca92c2da6d5"
+    },
+    "%s winds its clockwork bee back up and it locks its sights upon %s!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "254615ef0e4e75e2f7b9df7337d0765fb082356173415421efb7831316520e3e"
+    },
+    "A clockwork bee locks its sights upon %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "8dec160249780272acf8da5f4959aa1083f8fb0a71730dbecf2234931491e62a"
+    },
+    "Your clockwork bee locks its sights upon %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "19c2dfccc6d03a92f9d71b6fb26ee2ee3da444a299538a86b019b5de21d4db6b"
+    },
+    "The clockwork bee of %s locks its sights upon %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "34e837a20b6f378971ae9e574259ffd3572d886b2bf5f201001235c92ef66e23"
+    },
+    "Something you can't see blocks your briars from growing!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "333b2136f25611475492d3995716e90ca4f9efd1a5daa88594abcd06feeed6a9"
+    },
+    "Something unseen blocks growth in %s.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "29672d2393e81deffb6727d106dea693e5f51232e15f2b742ebda78dadf487e9"
+    },
+    "%s is torn apart as %s grows in its place.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "fa0b49d90103cc7fb4317887aa1f46b10e5de105ab2264ee03ce07c80e445c98"
+    },
+    "%s falls apart, but nothing grows.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "3e092a9425794c717434aac2feca667135f162124cdab6f559b88dd81334f17d"
+    },
+    "Flames leap up around you!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "3c9a3dd22aa0f134749f3eeaa3ef04f73b805da44414b3c6f567dda32bc4494b"
+    },
+    "There's no space to create foxfire here.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "978bb5ca19f2445612e62386ccf4f196f0115713b448fe8924cd767ba84144c0"
+    },
+    "Something unseen is already there!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "8ced10ded6612dec04afa06cb7b14885322b97f273751e7994480b5834b81bed"
+    },
+    "Something prevents your mortar from forming!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "2a289fe3d0ae57692a68ffd9d7a06f82fa6f0d417d8ada8b749888c19baef474"
+    },
+    "There's no room for the soul wisp to form!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "e41980c3a0bd7d2d6db580f86c961b744a8d28748f8decfaae914627665992e7"
+    },
+    "You try to forge sawblades, but something it already there!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "de0adf5296853936ccb293f1e90ea25ec8ec76a6c6901d1e806d73f9b2521397"
+    },
+    "You forge a whirling saw of razor-sharp crystal.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "e85cd48f687caa53c957fc71af6afdf22585063045fa9162d418cddcfdfa6521"
+    },
+    "You forge whirling saws of razor-sharp crystal.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "6661098ae3517d13f3757e37884b5c6295fba48c0933c7793592a15ea34ae46d"
+    },
+    "A crocodile could not survive beneath you.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "edf18d9c5e61485841c7989cee579d638dbb0e4a0320ddef64a8738a993be1d4"
+    },
+    "You can't see a valid target there.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "675a276d2fbe50b1f89288923748827f38965f5f7136babc6a9d7f0e2cbbb15c"
+    },
+    "Your crocodile wouldn't be able to see that.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "c859be7d1f11ef64f22ad533f0de5a3cd4c6f0a8e07726dc5c90ae9425c2fce2"
+    },
+    "There's not enough room behind you.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "715c988df9f172f89aa41970e0f21f489820163d458a63d61e9eb0fcb297f9e2"
+    },
+    "It isn't safe to move backwards.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "d654e2f9dbffc7813aca5c207baf9f7f7b94ed98980303674b25314da5c1265b"
+    },
+    "Something unseen prevents your spell from working!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "8556d072d4b1264cc30212e7e077bc9fb21890f317e4724160e98d6a1cfe38ce"
+    },
+    "Your paragon expends all of its energy in an overwhelming flurry of blows!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "470a239abd68fe13848745698cde3bb4afb122603c3edb15b602fc71743592ba"
+    },
+    "Your paragon has reached its maximum power!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "fba47f3c980d2a48a7d5df32ddfb82e5987011e35816661ca411c4429c483cc4"
+    },
+    "A lumbering aparatus takes shape within a cloud of fumes.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "6adc3d80eff055ef51af60594784705adfd1e4194149eb0a8ddcc01421f483ca"
+    },
+    "The potion freezes solid before it can reach you!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "510ce20abba0247198d23ce2a02cefb4ae8b8a07def976573e6b7acd195669a6"
+    },
+    "You extract even more magical energy from the potion.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "4def6b0bb850f40f8268ad65eae1365b4882fb379e998b030df84049edb1016f"
+    },
+    "You construct an explosive harbinger and set it loose.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "4a0b148111d01e771ca4379a7d99f66dc1fb172a64a1f4682cef212ebcf81464"
+    },
+    "%s constructs an explosive harbinger and sets it loose.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "353e425b511aae72559a593581d146056ade7cd2767133bc27f9424bca85aa3e"
+    },
+    "You command your explosives to detonate!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "f1a5abf66180d91dbb617512c307374acc9edb7ef54b76b2f95ec83932944e24"
+    },
+    "%s commands its explosives to detonate!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "46a3f34adc4a20e8dea5afc67ff9108773b888cf7b077d7bc49e3fbe2db9b091"
+    },
+    "You construct a shell of ice in front of yourself.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "9c881791795730ea84a12bd6c74d117f86ab79549a866e2cc80a1ebd5f5f1941"
+    },
+    "%s constructs a shell of ice in front of itself.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "d05922201fb56bad815ed756105ee9cfe0746cacea6abe4ef1ffb1df730e7003"
+    },
+    "A rock-encrusted egg appears nearby and begins to stir.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "3260fe3c7048280011110af4da038ad61e3f6caaa14e308fcf3c2b4746d71518"
+    },
+    "You forge a skittering defender to stand by your side.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "eea2ffb9c0c5b528b2ba14b16b06c6591c39171399fea999bf40ab309cb95594"
+    },
+    "%s forges a skittering defender to stand by its side.": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "cb42fd475823b17deef0761651c3f0f60214d83af7c4df147dacb4725dcafa8a"
+    },
+    "You condense your magic into a crackling blade!": {
+      "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
+      "translation_sha256": "2a401a7bea5956b5aad5108ebf660ef237b74f008327bf06d6ed3db7fd9c06b5"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -3486,8 +3486,8 @@ string cannot_put_on_talisman_reason(const item_def& talisman, bool temp,
         if (you_worship(GOD_OKAWARU))
             return "you have forsworn all allies in Okawaru's name.";
 
-        return make_stringf("%s forbids the use of this talisman.",
-                            uppercase_first(god_name(you.religion)).c_str());
+        return make_stringf(localise("%s forbids the use of this talisman.").c_str(),
+                            localise(god_name(you.religion)).c_str());
     }
     const string form_unreason = cant_transform_reason(trans, false, temp);
     if (!form_unreason.empty())
@@ -3531,8 +3531,8 @@ bool use_talisman(item_def& talisman)
                                                      TALISMAN_MEDUSA,
                                                      TALISMAN_SPORE);
 
-        mprf("%s responds to your shapeshifting skill and transforms into a %s!",
-             real_item.name(DESC_YOUR).c_str(), talisman_type_name(new_type).c_str());
+        mprf(localise("%s responds to your shapeshifting skill and transforms into a %s!").c_str(),
+             localise(real_item.name(DESC_YOUR)).c_str(), localise(talisman_type_name(new_type)).c_str());
 
         real_item.sub_type = new_type;
         seen_item(real_item);

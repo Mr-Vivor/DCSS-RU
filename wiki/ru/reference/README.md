@@ -489,6 +489,12 @@
 - [Хрустальное копьё Лехудиба](spells/lehudib's-crystal-spear-spell.md)
 - [Железный выстрел](spells/iron-shot-spell.md)
 - [Плазменный луч](spells/plasma-beam-spell.md)
+- [Алмазные пилы](spells/diamond-sawblades-spell.md)
+- [Зловещие врата](spells/malign-gateway-spell.md)
+- [Чудовищный зверинец](spells/monstrous-menagerie-spell.md)
+- [Призыв яйца сейсмозавра](spells/summon-seismosaurus-egg-spell.md)
+- [Призыв зверя греха](spells/summon-sin-beast-spell.md)
+- [Призыв дракона](spells/summon-dragon-spell.md)
 
 ## Способности
 
