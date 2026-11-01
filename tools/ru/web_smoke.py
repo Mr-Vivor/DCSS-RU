@@ -97,7 +97,11 @@ def main():
                 try:
                     page.keyboard.type("RuWebSmoke", delay=30)
                     page.keyboard.press("Enter")
+                    page.get_by_text("Выберите вид.", exact=False).wait_for(state="visible")
+                    page.screenshot(path=str(ARTIFACTS / "russian-species-choice.png"), full_page=True)
                     page.get_by_text("j - Человек", exact=True).click()
+                    page.get_by_text("Выберите предысторию.", exact=False).wait_for(state="visible")
+                    page.screenshot(path=str(ARTIFACTS / "russian-background-choice.png"), full_page=True)
                     page.get_by_text("a - Воин", exact=True).click()
                     page.get_by_text("a - рапира", exact=True).wait_for(state="visible")
                     # Reproduce the stale-process/error dialog left above a

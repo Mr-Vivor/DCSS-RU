@@ -1191,8 +1191,8 @@ public:
         welcome.textcolour(BROWN);
         welcome.cprintf("%s", _welcome(m_ng).c_str());
         welcome.textcolour(YELLOW);
-        welcome.cprintf(" Please select your ");
-        welcome.cprintf(m_choice_type == C_JOB ? "background." : "species.");
+        welcome.cprintf("%s", localise(m_choice_type == C_JOB
+            ? " Please select your background." : " Please select your species.").c_str());
         m_vbox->add_child(make_shared<Text>(welcome));
 
         descriptions = make_shared<Switcher>();
