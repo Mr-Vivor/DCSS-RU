@@ -2835,6 +2835,36 @@
       "source_sha256": "c7d2b16d8eef0575fe97a2977a3bc901350d24a3f78930c32cd9229c34f698ff",
       "text": "Устремляет заклинателя к выбранному врагу поблизости. По прибытии он совершает атаку ближнего боя с повышенной точностью и дополнительным электрическим уроном, зависящим от силы заклинания.\n\nОболочка искривлённого пространства позволяет безопасно проходить сквозь существ, ловушки и опасную местность, а также сдвигать существ, занимающих клетку прибытия.",
       "context": "Current spells.txt and spl-other.cc terrain placement; Dragon Veins uses four cardinal cells, 1 MP per triggered vein and at most two uses. Earth targets one fewer and slows airborne damage, ice slows movement only. Spike launcher protected by wall but tied to caster proximity; own ice thorns harmless but consumed. Mechanic names shared with terrain catalog."
+    },
+    "Fortress Blast spell": {
+      "source_sha256": "276c2f485b4d8d24b44175c2b1785512d494bdd9249267ffa8a50bdaba79cc6f",
+      "text": "Создаёт кинетическую ударную волну, опираясь на защиту тела заклинателя. Она наносит урон врагам на большой площади. Во время подготовки заклинатель несколько ходов удерживается на месте. Если его переместят, заклинание прервётся; прочие действия при этом доступны без ограничений.\n\nСила заклинания сокращает время подготовки, но урон полностью зависит от брони заклинателя.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
+    },
+    "Chain Lightning spell": {
+      "source_sha256": "7361b50be518395563b467b63ccee9d71b00cab22ff946e0f57b5fe00bf059d1",
+      "text": "Выпускает мощный электрический разряд. Он перескакивает на ближайшее к заклинателю существо, а затем распространяется от него дальше. Чем длиннее путь разряда, тем меньше наносимый урон.\n\nВторичные дуги имеют ограниченную дальность и наносят самому заклинателю лишь небольшой урон. Заклинание игнорирует половину брони целей и половину их защиты от электричества.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
+    },
+    "Glaciate spell": {
+      "source_sha256": "c8ca408408c2a434c10f0f5b68e269fd0e0132fa2806b82297b6925f694ce47c",
+      "text": "Создаёт мощный ледяной поток в конусообразной области. Чем ближе существо к заклинателю, тем больше урона оно получает. Поток покрывает поражённые цели льдом, замедляя их передвижение, а погибшие от него существа могут превратиться в цельные ледяные глыбы.\n\nПоловина урона игнорирует сопротивление холоду.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
+    },
+    "Lehudib's Crystal Spear spell": {
+      "source_sha256": "162f7e501d6f1726ff74d76f9e1aa836c3c98bb2a03b77eae16f91f54515edde",
+      "text": "Метает смертельно острый осколок кристалла.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
+    },
+    "Iron Shot spell": {
+      "source_sha256": "37ad9c93e1cbb1f1a68f69657e4e2cb4309ce5c3cf623d41151e37fd98883728",
+      "text": "Метает крупный тяжёлый металлический снаряд.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
+    },
+    "Plasma Beam spell": {
+      "source_sha256": "9200f0d5e245cb48af66e3cde93f8e61210ef822d6ad0c82110da5b0d7f9b748",
+      "text": "Выпускает пронизывающий плазменный луч в одного из самых далёких видимых врагов. Ионизированный луч игнорирует половину брони целей, а следом за ним проходит второй, огненный луч.",
+      "context": "Current spells.txt and spl-data.h; Fortress Blast in spl-damage.cc locks walking but allows other actions, cancels on displacement and derives damage only from AC. Chain Lightning loses damage with distance and bypasses half armour/electric resistance; Glaciate slows movement, half damage bypasses cold resistance. Plasma selects a far enemy and only the ionised beam gets the stated armour bypass. Two monster spells are retained for enemy descriptions. No flavour quotes or mechanics changed."
     }
   },
   "ability": {

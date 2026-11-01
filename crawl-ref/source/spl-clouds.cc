@@ -21,6 +21,7 @@
 #include "fineff.h" // explosion_fineff, etc
 #include "items.h"
 #include "level-state-type.h"
+#include "localise.h"
 #include "message.h"
 #include "mon-behv.h" // ME_WHACK
 #include "ouch.h"
@@ -47,7 +48,8 @@ spret cast_putrefaction(monster* target, int pow, bool fail)
     marker->speed_increment -= you.time_taken - 7;
     env.markers.add(marker);
 
-    mprf("Rot billows forth from %s wounds!", target->name(DESC_ITS).c_str());
+    mprf(localise("Rot billows forth from the wounds of %s!").c_str(),
+         localise(target->name(DESC_THE)).c_str());
 
     drain_player(75 - div_rand_round(pow * 4, 10), true, true);
 

@@ -31,6 +31,7 @@
 #include "invent.h"
 #include "items.h"
 #include "level-state-type.h"
+#include "localise.h"
 #include "los.h"
 #include "losglobal.h"
 #include "macro.h"
@@ -128,7 +129,8 @@ spret cast_fire_storm(int pow, bolt &beam, bool fail)
     if (cell_is_solid(beam.target))
     {
         const char *feat = feat_type_name(env.grid(beam.target));
-        mprf("You can't place the storm on %s.", article_a(feat).c_str());
+        mprf(localise("You can't place the storm on %s.").c_str(),
+             localise(article_a(feat)).c_str());
         return spret::abort;
     }
 
@@ -460,9 +462,11 @@ spret cast_chain_spell(spell_type spell_cast, int pow,
         first = false;
 
         if (see_source && !see_targ)
-            mprf("The %s arcs out of your line of sight!", beam.name.c_str());
+            mprf(localise("The %s arcs out of your line of sight!").c_str(),
+                 localise(beam.name).c_str());
         else if (!see_source && see_targ)
-            mprf("The %s suddenly appears!", beam.name.c_str());
+            mprf(localise("The %s suddenly appears!").c_str(),
+                 localise(beam.name).c_str());
 
         beam.source = source;
         beam.target = target;
@@ -960,17 +964,17 @@ string airstrike_intensity_display(int empty_space, tileidx_t& tile)
     if (empty_space < 3)
     {
         tile = TILE_BOLT_WEAK_AIR;
-        return "The confined air twists around weakly";
+        return localise("The confined air twists around weakly");
     }
     else if (empty_space < 6)
     {
         tile = TILE_BOLT_MEDIUM_AIR;
-        return "The air twists around";
+        return localise("The air twists around");
     }
     else
     {
         tile = TILE_BOLT_STRONG_AIR;
-        return "The open air twists around violently";
+        return localise("The open air twists around violently");
     }
 }
 
@@ -1011,10 +1015,10 @@ spret cast_airstrike(int pow, coord_def target, bool fail)
 #endif
     hurted = mons->apply_ac(mons->beam_resists(pbeam, hurted, false));
     dprf("preac: %d, postac: %d", preac, hurted);
-    mprf("%s and strikes %s%s%s",
+    mprf(localise(hurted ? "%s and strikes %s%s"
+                        : "%s and strikes %s but does no damage%s").c_str(),
          airstrike_intensity_display(empty_space, tile).c_str(),
-         mons->name(DESC_THE).c_str(),
-         hurted ? "" : " but does no damage",
+         localise(mons->name(DESC_THE)).c_str(),
          attack_strength_punctuation(hurted).c_str());
 
     flash_tile(mons->pos(), WHITE, 60, tile);
@@ -1797,8 +1801,8 @@ static int _shatter_player(int pow, actor *wielder, bool devastator = false)
 
     if (damage > 0)
     {
-        mprf(damage > 15 ? "You shudder from the earth-shattering force%s"
-                        : "You shudder%s",
+        mprf(localise(damage > 15 ? "You shudder from the earth-shattering force%s"
+                        : "You shudder%s").c_str(),
              attack_strength_punctuation(damage).c_str());
         if (devastator)
             ouch(damage, KILLED_BY_MONSTER, wielder->mid);
@@ -2021,8 +2025,8 @@ spret cast_scorch(const actor& agent, int pow, bool fail)
             monster* mon = targ->as_monster();
             if (you.can_see(*mon) && !mon->has_ench(ENCH_FIRE_VULN))
             {
-                mprf("%s fire resistance burns away.",
-                    mon->name(DESC_ITS).c_str());
+                mprf(localise("The fire resistance of %s burns away.").c_str(),
+                    localise(mon->name(DESC_THE)).c_str());
             }
             mon->add_ench(mon_enchant(ENCH_FIRE_VULN, &agent, dur * BASELINE_DELAY));
         }
@@ -2084,10 +2088,13 @@ static int _irradiate_cell(coord_def where, int pow, const actor &agent)
 
     if (you.see_cell(act->pos()))
     {
-        mprf("%s %s blasted with magical radiation%s",
-             act->name(DESC_THE).c_str(),
-             conjugate_verb("are", hitting_player).c_str(),
-             attack_strength_punctuation(dam).c_str());
+        const string punctuation = attack_strength_punctuation(dam);
+        if (hitting_player)
+            mprf(localise("You are blasted with magical radiation%s").c_str(),
+                 punctuation.c_str());
+        else
+            mprf(localise("%s is blasted with magical radiation%s").c_str(),
+                 localise(act->name(DESC_THE)).c_str(), punctuation.c_str());
     }
 
     if (agent.is_player())
@@ -2312,8 +2319,8 @@ static int _ignite_poison_monsters(coord_def where, int pow, actor *agent)
     flash_tile(where, RED, 0, TILE_BOLT_IGNITE_POISON_TARGET);
     if (you.see_cell(mon->pos()))
     {
-        mprf("%s seems to burn from within%s",
-             mon->name(DESC_THE).c_str(),
+        mprf(localise("%s seems to burn from within%s").c_str(),
+             localise(mon->name(DESC_THE)).c_str(),
              attack_strength_punctuation(damage).c_str());
     }
 
@@ -2433,17 +2440,14 @@ static int _ignite_enemy_harm(const coord_def &where, actor* agent)
  */
 static bool maybe_abort_ignite()
 {
-    string prompt = "You are standing ";
-
     // XXX XXX XXX major code duplication (ChrisOelmueller)
     if (const cloud_struct* cloud = cloud_at(you.pos()))
     {
         if ((cloud->type == CLOUD_MEPHITIC || cloud->type == CLOUD_POISON)
             && !actor_cloud_immune(you, CLOUD_FIRE))
         {
-            prompt += "in a cloud of ";
-            prompt += cloud->cloud_name(true);
-            prompt += "! Ignite poison anyway?";
+            const string prompt = make_stringf(localise("You are standing in a cloud of %s! Ignite poison anyway?").c_str(),
+                                              localise(cloud->cloud_name(true)).c_str());
             if (!yesno(prompt.c_str(), false, 'n'))
                 return true;
         }
@@ -2713,7 +2717,7 @@ static int _discharge_monsters(const coord_def &where, int pow,
             dprf("You: static discharge damage: %d", damage);
             damage = check_your_resists(damage, BEAM_ELECTRICITY,
                                         "static discharge");
-            mprf("You are struck by an arc of lightning%s",
+            mprf(localise("You are struck by an arc of lightning%s").c_str(),
                 attack_strength_punctuation(damage).c_str());
             ouch(damage, KILLED_BY_BEAM, agent.mid, "by static electricity",
                 agent.is_player() ? "you" : agent.name(DESC_A).c_str());
@@ -2731,8 +2735,8 @@ static int _discharge_monsters(const coord_def &where, int pow,
 
             dprf("%s: static discharge damage: %d",
                 mons->name(DESC_PLAIN, true).c_str(), damage);
-            mprf("%s is struck by an arc of lightning%s",
-                    mons->name(DESC_THE).c_str(),
+            mprf(localise("%s is struck by an arc of lightning%s").c_str(),
+                    localise(mons->name(DESC_THE)).c_str(),
                     attack_strength_punctuation(damage).c_str());
             damage = mons_adjust_flavoured(mons, beam, damage);
 
@@ -2957,13 +2961,13 @@ static void _do_chain_jolt(const actor& agent, vector<coord_def>& targets, dice_
 
         if (act->is_player())
         {
-            mprf("You are struck by an electric surge%s",
+            mprf(localise("You are struck by an electric surge%s").c_str(),
                 attack_strength_punctuation(post_resist_dam).c_str());
         }
         else
         {
-            mprf("%s is struck by an electric surge%s",
-                    mon->name(DESC_THE).c_str(),
+            mprf(localise("%s is struck by an electric surge%s").c_str(),
+                    localise(mon->name(DESC_THE)).c_str(),
                     attack_strength_punctuation(post_resist_dam).c_str());
         }
 
@@ -3693,9 +3697,11 @@ spret cast_unravelling(coord_def target, int pow, bool fail)
                    || victim->is_monster() && you.can_see(*victim)
                       && !monster_can_be_unravelled(*victim->as_monster())))
     {
-        mprf("%s %s no magical effects to unravel.",
-             victim->name(DESC_THE).c_str(),
-             victim->conj_verb("have").c_str());
+        if (victim->is_player())
+            mpr(localise("You have no magical effects to unravel."));
+        else
+            mprf(localise("%s has no magical effects to unravel.").c_str(),
+                 localise(victim->name(DESC_THE)).c_str());
         return spret::abort;
     }
 
@@ -3737,18 +3743,19 @@ string mons_inner_flame_immune_reason(const monster *mons)
 
     if (mons->has_ench(ENCH_INNER_FLAME))
     {
-        return make_stringf("%s is already burning with an inner flame!",
-                            mons->name(DESC_THE).c_str());
+        return make_stringf(localise("%s is already burning with an inner flame!").c_str(),
+                            localise(mons->name(DESC_THE)).c_str());
     }
 
     if (mons->willpower() == WILL_INVULN)
     {
-        return make_stringf("%s has infinite will and cannot be affected.",
-                            mons->name(DESC_THE).c_str());
+        return make_stringf(localise("%s has infinite will and cannot be affected.").c_str(),
+                            localise(mons->name(DESC_THE)).c_str());
     }
 
     if (!could_harm(&you, mons))
-        return make_stringf("You cannot harm %s.", mons->name(DESC_THE).c_str());
+        return make_stringf(localise("You cannot harm %s.").c_str(),
+                            localise(mons->name(DESC_THE)).c_str());
 
     return "";
 }
@@ -3802,7 +3809,13 @@ spret cast_poisonous_vapours(const actor& agent, int pow, const coord_def target
     fail_check();
 
     if (act && you.can_see(*act))
-        mprf("Poisonous fumes billow around %s!", act->name(DESC_THE).c_str());
+    {
+        if (act->is_player())
+            mpr(localise("Poisonous fumes billow around you!"));
+        else
+            mprf(localise("Poisonous fumes billow around %s!").c_str(),
+                 localise(act->name(DESC_THE)).c_str());
+    }
     else
         mpr("Poisonous fumes billow in the air!");
 
@@ -3916,7 +3929,8 @@ spret cast_searing_ray(actor& agent, int pow, bolt &beam, bool fail)
 
     // Announce lock-on, if this causes one.
     if (targ && !beam.aimed_at_spot && agent.is_player())
-        mprf("You focus your ray upon %s.", targ->name(DESC_THE).c_str());
+        mprf(localise("You focus your ray upon %s.").c_str(),
+             localise(targ->name(DESC_THE)).c_str());
 
     if (agent.is_player())
         start_channelling_spell(SPELL_SEARING_RAY, "maintain the ray");
@@ -4436,7 +4450,7 @@ void actor_apply_toxic_bog(actor * act)
     monster *mons = !player ? act->as_monster() : nullptr;
     if (player && final_damage > 0)
     {
-        mprf("You fester in the toxic bog%s",
+        mprf(localise("You fester in the toxic bog%s").c_str(),
                 attack_strength_punctuation(final_damage).c_str());
     }
     else if (final_damage > 0)
@@ -4444,8 +4458,8 @@ void actor_apply_toxic_bog(actor * act)
         behaviour_event(mons, ME_DISTURB, 0, act->pos());
         if (you.see_cell(mons->pos()))
         {
-            mprf("%s festers in the toxic bog%s",
-                    mons->name(DESC_THE).c_str(),
+            mprf(localise("%s festers in the toxic bog%s").c_str(),
+                    localise(mons->name(DESC_THE)).c_str(),
                     attack_strength_punctuation(final_damage).c_str());
         }
     }
@@ -4641,7 +4655,8 @@ static void _discharge_maxwells_coupling()
 
     string attack_punctuation = attack_strength_punctuation(mon->hit_points);
 
-    mprf("The electricity discharges through %s%s", mon->name(DESC_THE).c_str(), attack_punctuation.c_str());
+    mprf(localise("The electricity discharges through %s%s").c_str(),
+         localise(mon->name(DESC_THE)).c_str(), attack_punctuation.c_str());
 
     // XX the messaging and corpse logic here would be better handled in
     // monster_die, so that various special cases (e.g. dancing weapons in
@@ -4879,7 +4894,8 @@ spret cast_magnavolt(coord_def target, int pow, bool fail)
     }
 
     if (!mon->has_ench(ENCH_MAGNETISED))
-        mprf("Magnetic shrapnel attaches itself to %s.", mon->name(DESC_THE).c_str());
+        mprf(localise("Magnetic shrapnel attaches itself to %s.").c_str(),
+             localise(mon->name(DESC_THE)).c_str());
 
     mon->add_ench(mon_enchant(ENCH_MAGNETISED, &you, random_range(5, 8) * BASELINE_DELAY));
 
@@ -5247,7 +5263,8 @@ void unleash_fortress_blast(actor& caster)
             desc = "a very strong";
         else if (power > 80)
             desc = "a strong";
-        mprf(MSGCH_DURATION, "You unleash %s concussive blast!", desc.c_str());
+        mprf(MSGCH_DURATION, localise("You unleash %s concussive blast!").c_str(),
+             localise_in_context("fortress-blast-strength", desc).c_str());
     }
 
     bolt blast;
@@ -5451,8 +5468,8 @@ void trigger_dragon_vein()
         break;
     }
 
-    mprf("You draw %s magic from the ground and channel it!",
-         lowercase_string(spell_schools_string(spell)).c_str());
+    mprf(localise("You draw %s magic from the ground and channel it!").c_str(),
+         localise(spell_schools_string(spell)).c_str());
 
     const dice_def base_dmg = blast.damage;
     for (int i = 0; i < num_targs && i < (int)targets.size(); ++i)

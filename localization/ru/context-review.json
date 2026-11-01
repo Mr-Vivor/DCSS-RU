@@ -15052,7 +15052,7 @@
       "translation_sha256": "19c33e22969e6b8e40a181311b3725343d3aad2c19dd4bf1a59969decd84ab0a"
     },
     "There's already a cloud here!": {
-      "context": "spl-clouds.cc",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "b0b89583e9b39c534e2d3ce5448c2003168277fae3aa129691ecaeeff17355b2"
     },
     "The fire blazes with new energy!": {
@@ -15072,7 +15072,7 @@
       "translation_sha256": "20f7807bcad1b33f569801306b51e99c996107e78dc398bc45258148951b5da8"
     },
     "Blessed fire suddenly surrounds you!": {
-      "context": "spl-clouds.cc",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "84a573b95c694a676007369063c28686511f3fef375eaf74537cb0a7f2dffb5b"
     },
     "@Arg@ is surrounded by blessed fire!": {
@@ -16680,7 +16680,7 @@
       "translation_sha256": "b1efb9d79265c05c87721a4cafac625ce4e72d523a7371048827bcdc96289110"
     },
     "@Arg@ begins to radiate toxic energy.": {
-      "context": "spl-damage.cc",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "a477b7f59b1de93538e0c71b9beabf84696041ea8d0d45afb3bf20a9986aed4d"
     },
     "@Arg@ cannot be affected by poisonous vapours!": {
@@ -16768,11 +16768,11 @@
       "translation_sha256": "e8245874a29812e498d3211e5bcb7e5a7d30a567f193acac70779b4da7d25ca7"
     },
     "@Arg@ vaporises and condenses as gold!": {
-      "context": "spl-damage.cc",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "5cb6d8329a27a9292f33a64c80450ec7425686384ca915be4b897973bba5890d"
     },
     "@Arg@ vaporises in an electric haze!": {
-      "context": "spl-damage.cc",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "ce9caafb634d8c3d8d687e81e2eea050d3d7743e74a49b1b2f3adc51ee052376"
     },
     "You feel charge building up...": {
@@ -27400,7 +27400,7 @@
       "translation_sha256": "e270e5543553f535bd7a1a50da44f81d0dac480c9c2cdca8318782d4bab9d853"
     },
     "The air fills with toxic fumes!": {
-      "context": "spl-clouds.cc: poison cloud created by the scroll of poison; observed in public WebTiles",
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
       "translation_sha256": "990e125f3ceeaaaa133eaac01c32824b9399d3a53f6177d57a83bce61fb6cb69"
     },
     "Score:": {
@@ -39878,6 +39878,290 @@
     "{gravity-direction}southeast": {
       "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
       "translation_sha256": "c014cfe616e43f3af651e9e91d386f88aa4d3e7fc51d1ee5be1dccaf4fe8cc87"
+    },
+    "You can't place the storm on %s.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "6d058ad6d59def9cc9fb38be88d3a74faee06b888e94d8e21d580e3940e42d2b"
+    },
+    "The %s arcs out of your line of sight!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "f9cbc924af2cd14733dee3c88daa3d0df79d4dfe4daf31dbadb170f7a84caa13"
+    },
+    "The %s suddenly appears!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "3023126738e2a6977364d7ca39716b6d43b9a6e6c0d7f58f052d6dcf6974a0fd"
+    },
+    "You shudder from the earth-shattering force%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "2f754a200dcff47e7258b92521ae2a5a562f0ce5c832963c98f111b6b1c20cbc"
+    },
+    "You shudder%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "7787357b1c8c57aff6190f70ad12dbe2ab1ab282d9742a3aa3a87408c22a3db9"
+    },
+    "%s seems to burn from within%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "854aed74d20794a398be0aaff07a711886398498b0384fea8206741c76ef5cdc"
+    },
+    "You are standing in a cloud of %s! Ignite poison anyway?": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0212c02b28bb78fce57f931539ef77fd361095b398c2ca54187a9b974f5d9932"
+    },
+    "You have no magical effects to unravel.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "abe8b0df7169cde1934f8aa540b2d9aaf8940cff09b37f7682f0b203e93de654"
+    },
+    "%s has no magical effects to unravel.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "c8e43a4b1ac7800a91315f0db8c8eef42d1f8f4ed390f4cba3bee60a506c6e4c"
+    },
+    "%s is already burning with an inner flame!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "356d5825c32d7d7c167ab87acb61e2328955fe30bb9254d078ec5681dafbfbd1"
+    },
+    "%s has infinite will and cannot be affected.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "731e8ecea13c6db74d9d4d75cf7aa2384ef48059f8a6c1076a76205cd00a17d4"
+    },
+    "You cannot harm %s.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "942351104a3f33abec30733dea530812a5d8632296dbc8f031b33126744d60f2"
+    },
+    "Poisonous fumes billow around you!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "5232421a286c4fa8e0bc074671984af51924739ed305a5d6154d077a785aa327"
+    },
+    "Poisonous fumes billow around %s!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "fa2e148c25ab33f0586a69e0230df202af12fccc338591199da82f26d9c095fe"
+    },
+    "Poisonous fumes billow in the air!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "490fcfb10ed83d9fa08d07fe6ab9218543345a51be29f43eadf58b190dacc64c"
+    },
+    "You focus your ray upon %s.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "945363605da4178b8f867eb84bcc84512df0e7f17edbbfc090dfe2adcc147520"
+    },
+    "You fester in the toxic bog%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "4ab2aaeac3ad1627ad90dc597b056f40fb2aa9a5a780dad688a26578303152b6"
+    },
+    "%s festers in the toxic bog%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "a75f4e21a8279c8d117c36b24a071ad48e789c4a077bfe2d6ad74edb90ccb9dd"
+    },
+    "The electricity discharges through %s%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "64b0ce9389000b644fdc54de01d56da5ee49bad2ae3ce9310594aa6c0cb6dec6"
+    },
+    "Magnetic shrapnel attaches itself to %s.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "baadecf20fa218e7fe5fc3d2c04b183ce0ea08d14e5bd985e5a14c1a69b759ea"
+    },
+    "You unleash %s concussive blast!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "bbcae676c4200b01f36a3eefdad1e277e80c5c0e6bca6cb13044efa70ed10079"
+    },
+    "You draw %s magic from the ground and channel it!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "ec691b3200a2636f91d0a4896e6a183563f3b90000676f67293c5c12094a6fbb"
+    },
+    "Rot billows forth from the wounds of %s!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "be2221bf57c7ca34dd5ea64793fc10d022fc43be9c1f720bda81cc09cf8065b9"
+    },
+    "A cloud of volatile blastmotes flares up around you! Run!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "5be040150e5975fa18982052089116ffd0e893642106882ae7945d2bbcd626c1"
+    },
+    "There's no open space to fill with poison.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "f38c8469312be3478a4a55da6cc6d17eaff0e2e2a698908fc2bce724a47eb27c"
+    },
+    "The momentum dissipates harmlessly.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "bdd2ad8f163429eb8b4bf3bbe934756eb41a553dd52016fa91e6ca4bb4f28f6e"
+    },
+    "You are unable to move.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "3cdfc5bd9e31c68089bb37cdb82d9188ec6c0016ac3e8b78770a707245e6d40d"
+    },
+    "You can't see anything to fire at!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0a424fef10f44a6ece10c2f9821422f9a4ba9580eb3ee4847d4fa955f5b06af0"
+    },
+    "Bitter cold erupts, blasting rock from the ceiling!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "9cf19bfd79273a739fea5bf535556a35aa8bdb64461d24eb4ad62bf8fab73dc3"
+    },
+    "You can't see anything to scorch!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "ea03425df5d0f99e5a005ba853c40e8b70fdcb98489360f8df79313bbf5367ba"
+    },
+    "The fire resistance of %s burns away.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0298c0e375ed60a266bf44afd40938624d38b56262426aaf918a7b390553480c"
+    },
+    "You are blasted with magical radiation%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "d00dd22c910bd06f4b8122d50dfecb610cc9d08ff2dc9f0b14cc5cf345d7dabe"
+    },
+    "%s is blasted with magical radiation%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "1704c3875afb883342b03f7fc4d3cd16c69e876598d4f492a86b1c537fea9751"
+    },
+    "You are struck by an arc of lightning%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "71371b447df5d7772a45c583323cf1343bdbae04d10a69000fedcef8b41b448a"
+    },
+    "%s is struck by an arc of lightning%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "7bbdb917c9c0da91ad82081c75d86a02323e612df8c801522517b89f0447866c"
+    },
+    "You are struck by an electric surge%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "e067e28c1fd4cc9dbff1cd7ad4963a5d1f34f7c3d14c8c2316cc9d2e772f5afb"
+    },
+    "%s is struck by an electric surge%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "846fa960cb870cebd284df0bf15b6f4447494452e37fb3b0e4e1c6f9ea2fcbc4"
+    },
+    "You reach out to the water around you and turn it against your foes!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "a56f7f64f62f97432b994b7cb6c7c17a9e8ebe44849b837099646d5f07ff4695"
+    },
+    "You exhale a blast of multi-hued devastation!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0dc95f49e1ba38871e2b2aafd8939a512d3a98c668a8bb008be5608b2a0e37a2"
+    },
+    "Your wave of flame reaches its maximum intensity and dissipates.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "615391542147d2b0ac07966b86e1de0e357e3139f3e578137cd605ee89a27efb"
+    },
+    "You finish channelling your searing ray.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "5d89d19b9e867ae8808c032ff4483a341e9244eb0f23851779859bff8f9987ce"
+    },
+    "You can't see anything to vaporise!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "fece7b7df05dcfbc304ec975355702cf0f0007cfd5e638939d5b3e6381869f17"
+    },
+    "You can't see a target there. Cast anyway?": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "9598946f493bb1672412137f45c9e83d3907890bf1a1c36985bbca7091ef8d3f"
+    },
+    "Your magnetic shrapnel fails to attach to any target and your spell fizzles.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0eeeac8c767f056933dd879d08366bb0c6ce29f58e966ad8934e6c23eab0fb76"
+    },
+    "Electricity arcs towards the magnetite!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "352255d0a83bc762fad9b03ce9b49f54ca00ae8a5915e0399d56c49002887fd8"
+    },
+    "You conjure up an array of volatile reagents!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "23ff989553d71185674b2960383b533e6c70c0d46b0a69493e3fabe90e9a702f"
+    },
+    "Your magical reserves are too exhausted to conjure more reagents.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "3699324094838160b409a087dda181bf6f3dad5c5f8d799667bfd6884ac9b11a"
+    },
+    "Flasks of reagents rain from above!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0631503d28cbdecc8c50581203cc797b0bf73d1a9548e8fa9f9f070e21d74764"
+    },
+    "Your rain of reagents ends.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "8817c57fa69382c5fb808680d8678f2218836b717b3a77e23338871c73ecd875"
+    },
+    "You unleash the spiteful dead!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "8e7d8a9e9ceca24946531d29f0894c362395bc85a980193bfbee323b99470e68"
+    },
+    "The last of your harvested death is exhausted.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "76d1e5618750a1d6dd2481d4ef03e05b487de2e508b097cfa849209b3627eabb"
+    },
+    "You have harvested as much death for Grave Claw as you can hold at once.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "75ecba5b34a4ad72a84352ba0284cc40e5915e5e31a82771ac8d033d109d2226"
+    },
+    "You have harvested enough death to cast Grave Claw an additional time.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0fcff0c35f91e090a162c6dd8acb27275f0b8fcca125f648e13928730c62b44c"
+    },
+    "You steady yourself in place and focus your resilience into a mighty blast.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "029836fd2b6f15da4b6322566a922a35820ad15a7d42f2a44f1ab9e019f0321e"
+    },
+    "You can't tap into the dragon vein in your current state.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "9f7c0fbf8cc64941b8db556c0279a88d5602c9075f7bb5f0e4987ce159e800f2"
+    },
+    "You don't have enough magical energy left to tap into this dragon vein.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "d1039cd2567e0005e1f98262c1c52e6047da016e5d27849219304571536b9c84"
+    },
+    "You attempt to draw power from the ground, but there is nothing in range to harm.": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "5db41beaab4f09998daa7884e8c90585349a1b84aa8fa3eb39d753003e8699e8"
+    },
+    "The confined air twists around weakly": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "a345b91ff1a922f22d1e09f887f87f5824e49c8b4d12fe2d43cebeb08435f030"
+    },
+    "The air twists around": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "0ef33531c595b49bd0045a17ff32cc0aff1ddd3fd53a3ffd144a052bccf62e88"
+    },
+    "The open air twists around violently": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "8dcd1f31f825fee1922f0164bbea1cf605f2d27bde9c8578ff0f27d729a93bd6"
+    },
+    "%s and strikes %s%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "733c8d26e5aa1469d329fc7c724811623959d85919058ca7967b88357fe731c3"
+    },
+    "%s and strikes %s but does no damage%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "6f6fd6cb1751ed0f76531ea2f2f4772a93800e94a9453783059feb46c50b4796"
+    },
+    "%s and strikes you%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "652e06425d775e26f7454a6378e9f22f6b14218858d5b89edb6e5a056a61bb4b"
+    },
+    "%s and strikes you with frigid sleet%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "011d077bbfd28de7e7829b6614021fec01fc55aba90d574e3c184cd5bf15d40c"
+    },
+    "%s and strikes %s with frigid sleet%s": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "6b90c39c30a5040e9404bdca298bdbd9b1d581284d075e37c5e9ff10f4ffbd0b"
+    },
+    "@Arg@ emits a burst of electricity!": {
+      "context": "spl-damage.cc, spl-clouds.cc, melee-attack.cc and mon-cast.cc damage messages. Full templates localized before names and damage punctuation. Airstrike prefix and all four consumers translated together, including zero-damage and sleet cases; player pronouns use separate full sentences. Ignite Poison warns about the actual cloud under the player. Fortress Blast intensity depends on AC, while spellpower changes its timer. Raw beam names, damage sources, armour/resistance calculations, targeting, MP and spell IDs unchanged.",
+      "translation_sha256": "96cb9094c8e28282675eba71b1cd277b554c21ab6ce3e8ea21ca7672822f7d2e"
+    },
+    "{fortress-blast-strength}a": {
+      "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
+      "translation_sha256": "0e3640851f49a3933220be8b7a2be15135f92a140cac7ba1299dd90c3d30e81d"
+    },
+    "{fortress-blast-strength}a weak": {
+      "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
+      "translation_sha256": "f5223c5cb511997eaea0ec8e57e021b28927454479912916ccb04b835ea61f26"
+    },
+    "{fortress-blast-strength}an overpowering": {
+      "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
+      "translation_sha256": "80a9df9919e008cc8e7ce17b3a457113876de3bd91332be78d5caa1460d1dde1"
+    },
+    "{fortress-blast-strength}a very strong": {
+      "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
+      "translation_sha256": "5031311f10a7f3fe9e32021b528ad2f1ce6d5fe75a481f2672b95e11931e9366"
+    },
+    "{fortress-blast-strength}a strong": {
+      "context": "spl-damage.cc unleash_fortress_blast power adjective, Russian accusative agreeing with shockwave. Tiers and AC-derived power unchanged. Default a is the unqualified middle tier.",
+      "translation_sha256": "ad28c281954fa77a2dc44e6024c903deeaf3ef5828bf2ce0a79a7fc950b23d99"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

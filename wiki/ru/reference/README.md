@@ -483,6 +483,12 @@
 - [Ледяные шипы](spells/ice-thorns-spell.md)
 - [Электрический натиск Ви](spells/vhi's-electric-charge-spell.md)
 - [Электрический выпад Ви](spells/vhi's-electrolunge-spell.md)
+- [Крепостной взрыв](spells/fortress-blast-spell.md)
+- [Цепная молния](spells/chain-lightning-spell.md)
+- [Оледенение](spells/glaciate-spell.md)
+- [Хрустальное копьё Лехудиба](spells/lehudib's-crystal-spear-spell.md)
+- [Железный выстрел](spells/iron-shot-spell.md)
+- [Плазменный луч](spells/plasma-beam-spell.md)
 
 ## Способности
 

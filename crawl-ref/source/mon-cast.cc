@@ -41,6 +41,7 @@
 #include "item-def.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "los.h"
 #include "makeitem.h"
@@ -7892,11 +7893,19 @@ void mons_cast(monster* mons, bolt pbolt, spell_type spell_cast,
         {
             tileidx_t tile = TILE_BOLT_DEFAULT_WHITE;
 
-            mprf("%s and strikes %s%s%s",
-                 airstrike_intensity_display(empty_space, tile).c_str(),
-                 foe->name(DESC_THE).c_str(),
-                 spell_cast == SPELL_SLEETSTRIKE ? " with frigid sleet" : "",
-                 attack_strength_punctuation(damage_taken).c_str());
+            const string intensity = airstrike_intensity_display(empty_space, tile);
+            const string punctuation = attack_strength_punctuation(damage_taken);
+            if (foe->is_player())
+                mprf(localise(spell_cast == SPELL_SLEETSTRIKE
+                     ? "%s and strikes you with frigid sleet%s"
+                     : "%s and strikes you%s").c_str(),
+                     intensity.c_str(), punctuation.c_str());
+            else
+                mprf(localise(spell_cast == SPELL_SLEETSTRIKE
+                     ? "%s and strikes %s with frigid sleet%s"
+                     : "%s and strikes %s%s").c_str(),
+                     intensity.c_str(), localise(foe->name(DESC_THE)).c_str(),
+                     punctuation.c_str());
 
             flash_tile(foe->pos(), WHITE, 60, tile);
         }

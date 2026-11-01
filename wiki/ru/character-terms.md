@@ -270,6 +270,12 @@
 | Ice Thorns | Ледяные шипы |
 | Vhi's Electric Charge | Электрический натиск Ви |
 | Vhi's Electrolunge | Электрический выпад Ви |
+| Fortress Blast | Крепостной взрыв |
+| Chain Lightning | Цепная молния |
+| Glaciate | Оледенение |
+| Lehudib's Crystal Spear | Хрустальное копьё Лехудиба |
+| Iron Shot | Железный выстрел |
+| Plasma Beam | Плазменный луч |
 
 ## items
 

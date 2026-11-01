@@ -33,6 +33,7 @@
 #include "invent.h"
 #include "item-prop.h"
 #include "los.h"
+#include "localise.h"
 #include "losparam.h"
 #include "mapdef.h"
 #include "message.h"
@@ -995,10 +996,15 @@ bool melee_attack::handle_phase_hit()
         if (needs_message && special_damage)
         {
             tileidx_t dummy;
-            mprf("%s and strikes %s%s",
-                 airstrike_intensity_display(spaces, dummy).c_str(),
-                 defender->name(DESC_THE).c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            const string intensity = airstrike_intensity_display(spaces, dummy);
+            const string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+                mprf(localise("%s and strikes you%s").c_str(),
+                     intensity.c_str(), punctuation.c_str());
+            else
+                mprf(localise("%s and strikes %s%s").c_str(),
+                     intensity.c_str(), localise(defender->name(DESC_THE)).c_str(),
+                     punctuation.c_str());
         }
 
         inflict_damage(special_damage);
@@ -4541,10 +4547,15 @@ void melee_attack::mons_apply_attack_flavour(attack_flavour flavour)
             // respecting the mechanic will get quite bodied. Hrm.
             tileidx_t generic = TILE_BOLT_DEFAULT_WHITE;
 
-            mprf("%s and strikes %s%s",
-                 airstrike_intensity_display(spaces, generic).c_str(),
-                 defender->name(DESC_THE).c_str(),
-                 attack_strength_punctuation(special_damage).c_str());
+            const string intensity = airstrike_intensity_display(spaces, generic);
+            const string punctuation = attack_strength_punctuation(special_damage);
+            if (defender->is_player())
+                mprf(localise("%s and strikes you%s").c_str(),
+                     intensity.c_str(), punctuation.c_str());
+            else
+                mprf(localise("%s and strikes %s%s").c_str(),
+                     intensity.c_str(), localise(defender->name(DESC_THE)).c_str(),
+                     punctuation.c_str());
         }
         break;
     }
