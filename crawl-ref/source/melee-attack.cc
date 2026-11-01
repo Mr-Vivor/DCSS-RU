@@ -44,6 +44,7 @@
 #include "mon-poly.h"
 #include "mon-tentacle.h"
 #include "nearby-danger.h"
+#include "options.h"
 #include "religion.h"
 #include "shout.h"
 #include "spl-clouds.h" // ghost crab claws
@@ -70,6 +71,19 @@
 #ifdef NOTE_DEBUG_CHAOS_EFFECTS
     #include "notes.h"
 #endif
+
+// Case required by the Russian display verb; combat verbs themselves remain raw.
+static const char *_melee_target_case(const string &verb)
+{
+    if (verb == "touch")
+        return "gen";
+    if (verb == "wrestle")
+        return "ins";
+    if (verb == "trip-wire" || verb == "eye-gouge" || verb == "kneecap"
+        || verb == "read the riot act to")
+        return "dat";
+    return "acc";
+}
 
 /*
  **************************************************
@@ -934,16 +948,27 @@ bool melee_attack::handle_phase_hit()
     {
         if (needs_message)
         {
+            const string raw_verb = attacker->is_player()
+                                  ? attack_verb : mons_attack_verb();
             attack_verb = attacker->is_player()
-                                    ? attack_verb
-                                    : attacker->conj_verb(mons_attack_verb());
-
-            // TODO: Clean this up if possible, checking atype for do / does is ugly
-            mprf("%s %s %s but %s no damage.",
-                attacker->name(DESC_THE).c_str(),
-                attack_verb.c_str(),
-                defender_name(true).c_str(),
-                attacker->is_player() ? "do" : "does");
+                        ? raw_verb : attacker->conj_verb(raw_verb);
+            if (Options.language == lang_t::RU && localisation_active())
+            {
+                mprf(localise_in_context("melee-message",
+                         "%s %s %s, dealing no damage.").c_str(),
+                     localise_in_context("nom", attacker->name(DESC_THE)).c_str(),
+                     localise_in_context(attacker->is_player()
+                         ? "player-melee-verb" : "monster-melee-verb", raw_verb).c_str(),
+                     localise_in_context(_melee_target_case(raw_verb),
+                         defender_name(true)).c_str());
+            }
+            else
+            {
+                mprf("%s %s %s but %s no damage.",
+                     attacker->name(DESC_THE).c_str(), attack_verb.c_str(),
+                     defender_name(true).c_str(),
+                     attacker->is_player() ? "do" : "does");
+            }
         }
     }
 
@@ -2712,10 +2737,13 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
             player_announce_aux_hit(atk);
         else
         {
-            mprf("You %s %s%s.",
-                    aux_verb.c_str(),
-                    defender->name(DESC_THE).c_str(),
-                    you.can_see(*defender) ? " but do no damage" : "");
+            mprf(localise_in_context("melee-message", "You %s %s%s.").c_str(),
+                 localise_in_context("player-melee-verb", aux_verb).c_str(),
+                 localise_in_context(_melee_target_case(aux_verb),
+                     defender->name(DESC_THE)).c_str(),
+                 you.can_see(*defender)
+                     ? localise_in_context("melee-message", " but do no damage").c_str()
+                     : "");
         }
 
         if (atk == UNAT_MEDUSA_STINGER)
@@ -2791,9 +2819,12 @@ bool melee_attack::player_aux_apply(unarmed_attack_type atk)
 void melee_attack::player_announce_aux_hit(unarmed_attack_type atk)
 {
     mprf("%s %s %s%s%s",
-         atk == UNAT_MEDUSA_STINGER ? "Your tendrils" : "You",
-         aux_verb.c_str(),
-         defender->name(DESC_THE).c_str(),
+         localise_in_context("nom",
+             atk == UNAT_MEDUSA_STINGER ? "Your tendrils" : "You").c_str(),
+         localise_in_context(atk == UNAT_MEDUSA_STINGER
+             ? "melee-tendrils-verb" : "player-melee-verb", aux_verb).c_str(),
+         localise_in_context(_melee_target_case(aux_verb),
+             defender->name(DESC_THE)).c_str(),
          debug_damage_number().c_str(),
          attack_strength_punctuation(damage_done).c_str());
 }
@@ -2802,10 +2833,12 @@ void melee_attack::player_warn_miss()
 {
     did_hit = false;
 
-    mprf("You%s miss %s%s.",
-         evasion_margin_adverb().c_str(),
-         defender->name(DESC_THE).c_str(),
-         weapon_desc().c_str());
+    const string format = "You" + evasion_margin_adverb() + " miss %s";
+    const string message = make_stringf(
+        localise_in_context("melee-message", format).c_str(),
+        localise_in_context("nom", defender->name(DESC_THE)).c_str())
+        + weapon_desc() + ".";
+    mpr(message);
 }
 
 // A couple additive modifiers that should be applied to both unarmed and
@@ -3669,10 +3702,11 @@ string melee_attack::mons_attack_desc()
     string ret;
     int dist = (attack_position - defender->pos()).rdist();
     if (dist > 1)
-        ret = " from afar";
+        ret = localise_in_context("melee-message", " from afar");
 
     if (weapon && !mons_class_is_animated_weapon(attacker->type))
-        ret += " with " + weapon->name(DESC_A, false, false, false);
+        ret += make_stringf(localise_in_context("melee-message", " with %s").c_str(),
+            localise_in_context("nom", weapon->name(DESC_A, false, false, false)).c_str());
 
     return ret;
 }
@@ -3681,13 +3715,16 @@ string melee_attack::weapon_desc()
 {
     if (!weapon || !you.offhand_weapon())
         return "";
-    return " with " + weapon->name(DESC_YOUR, false, false, false);
+    return make_stringf(localise_in_context("melee-message", " with %s").c_str(),
+        localise_in_context("nom", weapon->name(DESC_YOUR, false, false, false)).c_str());
 }
 
 string melee_attack::charge_desc()
 {
     if (!charge_pow || defender->res_elec() > 0)
         return "";
+    if (Options.language == lang_t::RU && localisation_active())
+        return localise_in_context("melee-message", " with an electric discharge");
     const string pronoun = defender->pronoun(PRONOUN_OBJECTIVE);
     return make_stringf(" and electrocute%s %s",
                         attacker->is_player() ? "" : "s",
@@ -3702,13 +3739,18 @@ void melee_attack::announce_hit()
 
     if (attacker->is_monster())
     {
+        // Select a random monster verb exactly once, as in the English message.
+        const string raw_verb = mons_attack_verb();
+        const string verb = Options.language == lang_t::RU && localisation_active()
+                          ? localise_in_context("monster-melee-verb", raw_verb)
+                          : attacker->conj_verb(raw_verb);
         mprf("%s %s%s %s%s%s%s%s",
-             atk_name(DESC_THE).c_str(),
+             localise_in_context("nom", atk_name(DESC_THE)).c_str(),
              is_special_mon_stab
                 && attacker->as_monster()->has_ench(ENCH_VAMPIRE_THRALL)
-                    ? "stealthily " : "",
-             attacker->conj_verb(mons_attack_verb()).c_str(),
-             defender_name(true).c_str(),
+                    ? localise_in_context("melee-message", "stealthily ").c_str() : "",
+             verb.c_str(),
+             localise_in_context(_melee_target_case(raw_verb), defender_name(true)).c_str(),
              charge_desc().c_str(),
              debug_damage_number().c_str(),
              mons_attack_desc().c_str(),
@@ -3722,9 +3764,11 @@ void melee_attack::announce_hit()
             verb_degree = " " + verb_degree;
         }
 
-        mprf("You %s %s%s%s%s%s%s",
-             attack_verb.c_str(),
-             defender->name(DESC_THE).c_str(), verb_degree.c_str(),
+        mprf(localise_in_context("melee-message", "You %s %s%s%s%s%s%s").c_str(),
+             localise_in_context("player-melee-verb", attack_verb).c_str(),
+             localise_in_context(_melee_target_case(attack_verb),
+                 defender->name(DESC_THE)).c_str(),
+             localise_in_context("melee-degree", verb_degree).c_str(),
              weapon_desc().c_str(),
              charge_desc().c_str(), debug_damage_number().c_str(),
              attack_strength_punctuation(damage_done).c_str());
