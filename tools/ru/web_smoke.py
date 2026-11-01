@@ -278,7 +278,7 @@ def main():
                     spell_page.screenshot(path=str(ARTIFACTS / "spell-description.png"), full_page=True)
                     assert "piercing ray" not in spell_page.locator("body").inner_text()
                     body = spell_page.locator("body").inner_text()
-                    for expected in ("Точность:", "Защита:", "Сопротивления:", "недостаточно опыта"):
+                    for expected in ("Точность:", "Защита:", "Сопротивления:", "нужен более высокий уровень персонажа"):
                         assert expected in body, body
                     for untranslated in ("Accuracy:", "Defences:", "Resists:", "experienced enough"):
                         assert untranslated not in body, body
