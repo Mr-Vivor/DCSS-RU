@@ -6407,6 +6407,15 @@ static string _monster_notice_chance(const monster_info& mi)
 
 static void _describe_aux_hit_chance(ostringstream &result, vector<string>& auxes, int chance)
 {
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        const string names = comma_separated_fn(auxes.begin(), auxes.end(),
+            [](const string& name) { return localise_in_context("player-aux-attack", name); },
+            localise(" and "));
+        result << make_stringf(localise("; additional attacks (%s): %d%% to hit").c_str(),
+                               names.c_str(), chance);
+        return;
+    }
     result << " and " << chance << "% to hit with your ";
     for (size_t i = 0; i < auxes.size(); ++i)
     {
@@ -6489,6 +6498,25 @@ void describe_to_hit(const monster_info &mi, ostringstream &result,
 void describe_hit_chance(int hit_chance, ostringstream &result, const item_def *weapon,
                          bool verbose, int distance_from)
 {
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        if (!verbose)
+            result << make_stringf(localise("%d%% to hit").c_str(), hit_chance);
+        else if (!weapon)
+            result << make_stringf(localise("about %d%% to hit unarmed").c_str(), hit_chance);
+        else
+            result << make_stringf(localise("about %d%% to hit with %s").c_str(), hit_chance,
+                                   localise(weapon->name(DESC_YOUR, false, false, false)).c_str());
+        if (you.duration[DUR_BLIND])
+        {
+            if (verbose)
+                result << make_stringf(localise(" (while you are blinded and from distance %d)").c_str(),
+                                       distance_from);
+            else
+                result << localise(" at this distance");
+        }
+        return;
+    }
     if (verbose)
         result << "about ";
 
@@ -6571,6 +6599,11 @@ static void _describe_mons_to_hit(const monster_info& mi, ostringstream &result)
     const int beat_sh_chance = mon_beat_sh_pct(shield_bypass, scaled_sh);
 
     const int hit_chance = beat_ev_chance * beat_sh_chance / 100;
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        result << make_stringf(localise("Chance to hit you: about %d%%.\n").c_str(), hit_chance);
+        return;
+    }
     result << uppercase_first(mi.pronoun(PRONOUN_SUBJECTIVE)) << " "
            << conjugate_verb("have", mi.pronoun_plurality())
            << " about " << hit_chance << "% to hit you.\n";
@@ -6940,7 +6973,7 @@ static void _desc_mon_death_explosion(ostringstream &result,
     if (mi.type == MONS_LURKING_HORROR)
         return; // no damage number
     const dice_def dam = mon_explode_dam(mi.type, mi.hd);
-    result << "Explosion damage: " << dam.num << "d" << dam.size << "\n";
+    result << localise("Explosion damage: ") << dam.num << "d" << dam.size << "\n";
 }
 
 // Describe a monster's (intrinsic) resistances, speed and a few other
@@ -6952,7 +6985,8 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
 
     ostringstream result;
 
-    TablePrinter pr;
+    const bool russian = Options.language == lang_t::RU && localisation_active();
+    TablePrinter pr = russian ? TablePrinter(2, 80, "monster-stats") : TablePrinter();
 
     pr.AddRow();
     pr.AddCell("Max HP", mi.get_max_hp_desc());
@@ -6975,16 +7009,16 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
                                                  : single_holiness_description(holiness);
     pr.AddRow();
     if (mi.threat != MTHRT_UNDEF && !mons_class_is_peripheral(mi.type))
-        pr.AddCell("Threat", _get_threat_desc(mi.threat));
+        pr.AddCell("Threat", localise_in_context("monster-stat-value", _get_threat_desc(mi.threat)));
     else // ?/m
         pr.AddCell(); // ensure alignment
-    pr.AddCell("Class", uppercase_first(holi).c_str());
-    pr.AddCell("Size", size_desc.c_str());
-    pr.AddCell("Int", intelligence_description(mi.intel()));
+    pr.AddCell("Class", localise_in_context("monster-stat-value", uppercase_first(holi)));
+    pr.AddCell("Size", localise_in_context("monster-stat-value", size_desc));
+    pr.AddCell("Int", localise_in_context("monster-stat-value", intelligence_description(mi.intel())));
     if (mi.is(MB_SICK) || mi.is(MB_NO_REGEN))
-        pr.AddCell("Regen", "None");
+        pr.AddCell("Regen", localise_in_context("monster-stat-value", "None"));
     else if (mons_class_fast_regen(mi.type) || mi.is(MB_REGENERATION))
-        pr.AddCell("Regen", make_stringf("%d/turn", mi.regen_rate(1)));
+        pr.AddCell("Regen", make_stringf(localise("%d/turn").c_str(), mi.regen_rate(1)));
                                         // (Wait, what's a 'turn'?)
 
     pr.Print(result);
@@ -6993,12 +7027,12 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
 
     if (crawl_state.game_started)
     {
-        result << "You have ";
+        result << (russian ? localise("Your hit chance: ") : "You have ");
         describe_to_hit(mi, result, you.weapon(), true);
         if (mi.incapacitated()) // Affects ev and sh
-            result << " (while incapacitated)";
+            result << localise(" (while incapacitated)");
         else if (mi.base_ev != mi.ev)
-            result << " (at present)";
+            result << localise(" (at present)");
         result << ".\n";
     }
     result << _monster_attacks_description(mi);
@@ -7086,7 +7120,10 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
 
     if (mi.has_unusual_items())
     {
-        const vector<string> unusual_items = mi.get_unusual_items();
+        vector<string> unusual_items = mi.get_unusual_items();
+        if (russian)
+            for (string& item : unusual_items)
+                item = localise(item);
 
         result << uppercase_first(pronoun) << " ";
         (!mons_class_is_animated_weapon(mi.type) ?
@@ -7099,7 +7136,21 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
                << ".\n";
     }
 
-    if (!resist_descriptions.empty())
+    if (russian)
+    {
+        const auto field = [&result](const char* format, const vector<string>& names) {
+            if (names.empty())
+                return;
+            const string translated = comma_separated_fn(names.begin(), names.end(),
+                [](const string& name) { return localise_in_context("monster-resistance", name); }, ", ");
+            result << make_stringf(localise(format).c_str(), translated.c_str());
+        };
+        field("Immune to: %s.\n", extreme_resists);
+        field("Very resistant to: %s.\n", high_resists);
+        field("Resistant to: %s.\n", base_resists);
+        field("Susceptible to: %s.\n", suscept);
+    }
+    if (!russian && !resist_descriptions.empty())
     {
         result << uppercase_first(pronoun) << " "
                << conjugate_verb("are", plural) << " "
@@ -7110,7 +7161,7 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
     }
 
     // Is monster susceptible to anything? (On a new line.)
-    if (!suscept.empty())
+    if (!russian && !suscept.empty())
     {
         result << uppercase_first(pronoun) << " "
                << conjugate_verb("are", plural) << " susceptible to "
@@ -7194,7 +7245,7 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
     if (mi.type == MONS_STAR_JELLY)
     {
         dice_def dmg = zap_damage(ZAP_SHOOTING_STAR, 150, true, false);
-        result << "Shooting star damage: " << dmg.num << "d" << dmg.size << " (x3)\n";
+        result << localise("Shooting star damage: ") << dmg.num << "d" << dmg.size << " (x3)\n";
     }
 
     if (mi.airborne())
@@ -7236,14 +7287,14 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
     if (mi.type == MONS_BATTLESPHERE)
     {
         const dice_def dam = battlesphere_damage_from_hd(mi.hd);
-        result << "Projectile damage: " << dam.num << "d" << dam.size << "\n";
+        result << localise("Projectile damage: ") << dam.num << "d" << dam.size << "\n";
     }
     else if (mi.type == MONS_BURSTSHROOM)
     {
         const dice_def dam = mi.summoner_id == MID_PLAYER
             ? get_form(transformation::spore)->get_special_damage(false)
             : zap_damage(ZAP_BURSTSPORE, mi.hd * 10, true, false);
-        result << "Spore damage: " << dam.num << "d" << dam.size << "\n";
+        result << localise("Spore damage: ") << dam.num << "d" << dam.size << "\n";
     }
 
     // Flying monsters can't be forced to fall into liquids these days.
@@ -7269,7 +7320,7 @@ static string _monster_stat_description(const monster_info& mi, bool mark_spells
 
     result << _monster_spells_description(mi, mark_spells);
 
-    return result.str();
+    return localise(result.str());
 }
 
 branch_type serpent_of_hell_branch(monster_type m)

@@ -1795,7 +1795,9 @@ static vector<string> _desc_plasma_hit_chance(const monster_info& mi, int powc)
     ostringstream result;
     describe_hit_chance(hit_pct, result, nullptr, false,
                         you.pos().distance_from(mi.pos));
-    return vector<string>{make_stringf("2x%s", result.str().c_str())};
+    const string format = Options.language == lang_t::RU && localisation_active()
+                        ? localise("Two beams: %s") : "2x%s";
+    return vector<string>{make_stringf(format.c_str(), result.str().c_str())};
 }
 
 static vector<string> _desc_intoxicate_chance(const monster_info& mi,

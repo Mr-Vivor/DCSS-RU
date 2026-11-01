@@ -22692,11 +22692,11 @@
       "translation_sha256": "365e04d97dc524f3752463d40cdcb5c98c2eb5103438630b7ca83a60a1d0178a"
     },
     "It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.": {
-      "context": "describe.cc",
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
       "translation_sha256": "b041de1c24cd76663adba39092aadf4c39b917c5da25bc45303e931d17892df4"
     },
     "It will release all of its jellies when polymorphed.": {
-      "context": "describe.cc",
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
       "translation_sha256": "e5fbd2276f7ca4dddac0e33375585372618645fe846ae8746906846948224fa3"
     },
     "It is quivering @arg@.": {
@@ -22796,20 +22796,20 @@
       "translation_sha256": "3c15c8ad38685e1e84634180a329d99b735c493c43a0f98dbba7fc30d54a9ed1"
     },
     "It is vulnerable to silver and hated by Zin.": {
-      "context": "describe.cc",
-      "translation_sha256": "e6dd686e90b253200b5db5df8e0b58cd44b4f0bab26c39ecc2a7a7e6c857a7f2"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8cf5466e492f49c892d465ca67c3890a5f5764fc39e972ece8ac629a2e149e0f"
     },
     "It cannot move.": {
-      "context": "describe.cc",
-      "translation_sha256": "879bcb3e289f79c15c68789d165b86385c990930d362da9b5a07e271c7842088"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e4bb029a99f366d056cdf71824dc6e89244f159fe37644d6760afa0bc0d8d269"
     },
     "It is cold-blooded and may be slowed by cold attacks.": {
-      "context": "describe.cc",
-      "translation_sha256": "316914d7a9fec286c314e6a57161b2fc06849b3e5b4d2c6c6e6d79cbc6f343b5"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "00580fb2e9a5a4c2c358e8d52be0981d1688ce3f123b98ea8fd4954a3742445b"
     },
     "It can see invisible.": {
-      "context": "describe.cc",
-      "translation_sha256": "a36d6439627086a857b711f569b9301677fbd187431d11c672a7f2024cb45cc4"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3b583d4c3b2afef7e25a1e66121ca69b24836576303c204b5967403082b6b28c"
     },
     "It is immune to blinding.": {
       "context": "describe.cc",
@@ -22864,12 +22864,12 @@
       "translation_sha256": "93b926af43b1e133e0b0907ac8ae52a3c35ebb0e22808b64a611cd8933bc1fc7"
     },
     "It covers ground more quickly when invisible.": {
-      "context": "describe.cc",
-      "translation_sha256": "29917792aca72289337ada6b82f97558a7c688e8a48f533a446b211b89881467"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "37b7c493994fe99bd810762505ed855b209a061ce5dcccfb01283d8e9a08d3e0"
     },
     "It can fly.": {
-      "context": "describe.cc",
-      "translation_sha256": "0c19a6d510e1cdf4a0f1219f3a4c63510989131886c53c9bb3f12d6cb9f1d019"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2c9da766070f273e421fc2900090cc22cd72592062d137ba26aa1347473c3ac1"
     },
     "It cannot regenerate.": {
       "context": "describe.cc",
@@ -22880,12 +22880,12 @@
       "translation_sha256": "969e152215b4c86543840d73ccd31facd0dab74478c3156f9902d83fb5a96495"
     },
     "It cannot be affected by reciting Zin's laws.": {
-      "context": "describe.cc",
-      "translation_sha256": "4fe841881327d8a70dbf04557690f43aa5d4ecf98bd69fb24cb67a57ec40fdee"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f1c64532e49da6b7fb4b60e8c66e0478c76e2adcca0c9a513cae7135a8615b3c"
     },
     "It is too strong to be affected by reciting Zin's laws.": {
-      "context": "describe.cc",
-      "translation_sha256": "a3731fb7383f7b6714b267a47eaa7cc110470beace7c291f07dd54384049cf35"
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7c70f0876128f382c905760d606f9f99d93cbd660ec9d2ca3744ae4c0510571f"
     },
     "It can can be affected by reciting Zin's laws.": {
       "context": "describe.cc",
@@ -40878,6 +40878,706 @@
     "{monster-attacks-table}Throw: ": {
       "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
       "translation_sha256": "efdd4fc24e5c46d0f78b7f9dc702b64c0d8a2be803a5d398da4efcc5985e72a6"
+    },
+    "%d%% to hit": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "9dd17aa6bd22acc24e25bfe8c99414da30b9ae741b26453c832b72f59e35aacb"
+    },
+    "about %d%% to hit unarmed": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3aa806f36370fb02b87cab3397e26b47acd298b220add53f82e7d0248968152c"
+    },
+    "about %d%% to hit with %s": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "be800776060afdbe81a9406da94eb8eb4fcea204ce498821e9437fe6067602a9"
+    },
+    " (while you are blinded and from distance %d)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "a32c4c519dca6990adbcdbc1f88a359b3bba2e244699a53a8f10e4282efc7b59"
+    },
+    " at this distance": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "768222cd996c5439167bd64339dc640c4dfd6901bb1cdab704104367cb7e913e"
+    },
+    "; additional attacks (%s): %d%% to hit": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "13ab2dd5d36f1db7ed1b8b2f1f20a2849f0936da0c70fec8adbece352846cca1"
+    },
+    "Your hit chance: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "da4eac92b2c26d1c4e48065309ebfd1689b5be5a982e6bca4792ac4b83d2c6bb"
+    },
+    "Chance to hit you: about %d%%.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "07289400e26bee1d6a1b7c12e5907ad447e98005406a0a7efb62ff94b969d2a3"
+    },
+    " (while incapacitated)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "baa5098dd0fc4c99694a38fbd84d03c12766748da5fa54a8814ac839adb5a7cc"
+    },
+    " (at present)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "90eae39cc2d5495398320c4308dfee21450e92f33f5e6a524bb6a0ed791addfb"
+    },
+    "Speed: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "6e94c78f781bf697bb544b92b5d4f80246984c9c409403ff30411b77f79214ea"
+    },
+    " (but often pauses)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "fd5887261c713527ca08539f9c5ea8228d26b0719468afbf36b67db54f422c92"
+    },
+    " (normally travels slower than you)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "18addd14944a3f3ed8ff044728d25daf61a8dbf54ad59f23b607b653fc53fa59"
+    },
+    " (normally travels faster than you)": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7e0d0f355677058f2d0a89de2334178a31a63086ee3efc469c1afa7ba8d548df"
+    },
+    "%d/turn": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "6c42e88f78f3f0d549b1905bc53991475b1021364f7f6570b6487bda706231a3"
+    },
+    "Immune to: %s.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "9989a45a3c42c638a78bf393c46b410fd8435ea5409a3ca1479426d8f62592ca"
+    },
+    "Very resistant to: %s.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "42f2bfb4a52ac0f53e274827ed5fd8303a23dbf7b662e035f729e83eba62dedd"
+    },
+    "Resistant to: %s.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "32b314eea42e55bee78bb1f888edd62256b3defff85668c2c0803a7b043887b9"
+    },
+    "Susceptible to: %s.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "cb892e0b59d62c22852c27ac2838518dd58b460a94947b43eab6917ff2d83315"
+    },
+    "Explosion damage: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "45b2298bad83ed5cc6d1d02608207cd4e15e08fb75b03ee29f361647dfbae6e1"
+    },
+    "Shooting star damage: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "fad38c836b5574f699fd46caf161af7a43b34cd567b985cf612264a4de9ff705"
+    },
+    "Projectile damage: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "0bbc9b05eff56a45d89a2974b46fbbffb45df8f991b30a2f56795a545b9a86a5"
+    },
+    "Spore damage: ": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "060f2d717405974070d25c102bf20032fb2ebaef03faf63d9ef1db9d89feb8b6"
+    },
+    "{monster-stats}Max HP": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e3d32ef68e2725603bbeb60d59a1c414db655fcf95a9d9d1a1aa89253063d4b9"
+    },
+    "{monster-stats}Will": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "302c760bb571626a5658b2aa41131be2f58d928f91900b1e7821e2fb685b2b1b"
+    },
+    "{monster-stats}AC": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "9bd065a581f3665da4dac176f09137108c8bfee2de7c0c3a2613247222033949"
+    },
+    "{monster-stats}EV": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "a3c8aaa573a10bd8ffc1457c7e0ee2fb004d7635bea3673bd7159c2208353cfa"
+    },
+    "{monster-stats}SH": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "beec0a4a91d96255faca368e888a744494f2cf59fda0edfc37c06b25f9542dae"
+    },
+    "{monster-stats}Threat": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f24d35f04167c10356e341eea2e670be8f7669d6188d3d4f3bf5965e6ab0bfed"
+    },
+    "{monster-stats}Class": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "4e3ae20b3212ec448e0fd768238d9a17aefca9a8cbc3e0feb3527aa940edced8"
+    },
+    "{monster-stats}Size": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3f64bfce111f2f1688be9602f3c4a8c940869e55b185998032b12071258d9836"
+    },
+    "{monster-stats}Int": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2c7325e5b342200824098a5b3c102e875e4b666dc74fbd28b27044a613368c0e"
+    },
+    "{monster-stats}Regen": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "c273064909a5ddc29831ea015eeed9622df0c3f87982c3ae7e2d88d394bbe613"
+    },
+    "{monster-stats}rF": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "75078fc997b28ee346d52a0289887cd6627130e18f07b2b2e18ae76d837e9a07"
+    },
+    "{monster-stats}rC": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3abae877a15a6cdbdb954b81509ded54fd130d1f074e89747f6bf3db2d91b7d5"
+    },
+    "{monster-stats}rPois": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "85af338668c8bb616e099f7f332e71f21fd93b8a7761ac11b2aabcb0fcca8ace"
+    },
+    "{monster-stats}rNeg": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "b339a4c54406c4b2e8925b910c7ffdbbcad5516f536aef027115b0523021f3a1"
+    },
+    "{monster-stats}rElec": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ee604417bbcf8b96ee66d3fa4bce219f6efd332145132da02d547518576fb5cb"
+    },
+    "{monster-stat-value}Minor": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "d99cb70d8c2995c78b25bf21ee4b432755af03994b4bd46cf20e551a374c2f00"
+    },
+    "{monster-stat-value}Low": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "fda3a47f36c2581d406e7afafa586df3c8f31d3368e63cbf9272da53eba91283"
+    },
+    "{monster-stat-value}High": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8538357261f8a5e96dbfcfa9ecb4300ac9d57e049f763a1842f45627b3982fba"
+    },
+    "{monster-stat-value}Lethal": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "bed991d5c9f130fd34f3f8258d39380132a519c328b2476a0d929fccd0031964"
+    },
+    "{monster-stat-value}Holy": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2e9bcdc131e7b88d4b8364e08b4daafe2398535905c40a217de4b6b2c4154a93"
+    },
+    "{monster-stat-value}Natural": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7d2cc62a8291d93d08748117193986e3517013e5f4c547ebf3696a6255278229"
+    },
+    "{monster-stat-value}Undead": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "65d2be4e6702536fc765309c8c8c5f7efad3ec6782c281dce7cd5a6e90894c30"
+    },
+    "{monster-stat-value}Demonic": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "912621b675afeeeb0a88c8e869556ec01b9b5f5be2cb29c4ab32611d80fb80c7"
+    },
+    "{monster-stat-value}Nonliv.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "cbdba486483cb7b4a94e76f4d0c040b7d532724a49087ad8cae5fbf73fcf116c"
+    },
+    "{monster-stat-value}Nonliving": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "cbdba486483cb7b4a94e76f4d0c040b7d532724a49087ad8cae5fbf73fcf116c"
+    },
+    "{monster-stat-value}Plant": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "45af684e285076ed4b2cb98772e26fab0d0826705e4f3315c0ca4d672da911be"
+    },
+    "{monster-stat-value}Tiny": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ea69b8e7c4504f57de8aec7ae527befa7ad136924bd160989fdc7ab96072de75"
+    },
+    "{monster-stat-value}V. Small": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5075937b5fcf9647f4deb0a60b21bb21eb030d7670d4d4fcbe3e42f4a523f36c"
+    },
+    "{monster-stat-value}Very small": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5075937b5fcf9647f4deb0a60b21bb21eb030d7670d4d4fcbe3e42f4a523f36c"
+    },
+    "{monster-stat-value}Small": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3576b98517bf012ab4530401c1f8567790ed6a15d5664c452c3b8ec3369c3ebc"
+    },
+    "{monster-stat-value}Medium": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "cbe993ba2ce13d2f38471f092d6a9ab92fcbb77c160cb3e16af236d146ab3067"
+    },
+    "{monster-stat-value}Large": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e15ba81019e3dfe97eb91fef04483758fc169ef22fc11f8a4384bc6dba876677"
+    },
+    "{monster-stat-value}Giant": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "4c4cd230d6133966f1965695dca60f739a8cad5880eee25ee3eedf0d66939656"
+    },
+    "{monster-stat-value}Mindless": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "368102aa6a6921b384f2d5cd66e6dd4901ca6bf0492d28f3009a0b2d586df9f4"
+    },
+    "{monster-stat-value}Animal": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f438457994a1a97d773afca73ef827eac61a1f09d5544a3444eed3ca4f752f8d"
+    },
+    "{monster-stat-value}Human": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "9b5931eccd5f4eaa480a9e1e6a1c5c8e328db7911d10e20c817d94f5c92221b5"
+    },
+    "{monster-stat-value}None": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "103e91888c5b716a42dace524a927cf47e06fe501756f0b513c6bae8a8dcde0c"
+    },
+    "{monster-resistance}electricity": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "bee0543b2f6ee74342552d6a7473095961f9220bec582b9860771602ab27f349"
+    },
+    "{monster-resistance}poison": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e7477dc400f6fd5f61c461ee7e6715b1e00296638013d038d8994b043d50460f"
+    },
+    "{monster-resistance}fire": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e93cfdf48f0ec9c914408370398db20bf9d8f780ea5c14c0dcd8f78b00e3e4e7"
+    },
+    "{monster-resistance}steam": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5886f9ad3073a65c961db83f54670e5ea8b886cc1c5bfb2d8ace05843e90cc96"
+    },
+    "{monster-resistance}cold": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "811e8f573cda48821307c2f46b15caa9cda5ceb9242e447e90c491fce020e0f2"
+    },
+    "{monster-resistance}acid and corrosion": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "43e0bd01a56372a60d9d42d4af680db389a93661ff3a562eec97a47f57877e7f"
+    },
+    "{monster-resistance}miasma": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "60e926cd69db775c89d42ab7011dd51cb10b6a8f6d4ace9932504ff342d3eee7"
+    },
+    "{monster-resistance}negative energy": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "4e8ce393b3a86870535acb3c6046890e6348ca642f5f0f3bd1a923645743d4bd"
+    },
+    "{monster-resistance}damnation": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3bbe105d677875b5953306e21cb66d6fa0ee2aeb90a07551a86203dfa56f8eba"
+    },
+    "{monster-resistance}torment": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "51e359f7f85f79eb5f0423377f4752beebc86755b034950c4ff1a5d6293a1c25"
+    },
+    "{monster-resistance}blinding": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "97837b21806effcef5a2169af10ee465568bfc169c1fc91b11ee6557535fd22e"
+    },
+    "{monster-resistance}drowning": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "86cd6cd97c0395b476fa39d8193350be8d3548d75cb6bc9ed752900bb9fafa95"
+    },
+    "{monster-resistance}clouds of all kinds": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "1843461771a36c0482b8a1797dbd6d07740768380b5e477a9824597a9ded1aaf"
+    },
+    "{monster-speed-action}attack": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e672ff2025d2eefd6afdba58791fcb2af0b897ff278bc9c82b8d29d24f0c9e8a"
+    },
+    "{monster-speed-action}shoot": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e2287275eafdfce3cfc6c37b2b2a03f38844eb4ececb57d43268e5e66bda86fd"
+    },
+    "{monster-speed-action}travel": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3553e28d1dc4c914ee08941014138b2c5c8b244704439a4ee6a8222691f5ebfd"
+    },
+    "{monster-speed-action}swim": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "0e5686e2cfd5c99081bb8359169d00298851f0ecb0fd027bbfa07b100cd719b2"
+    },
+    "{monster-speed-action}pray": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "bb1c92c706414a7d0a3050b7e3e492aa361d8ef86a50186bfa1ae18fbac24f43"
+    },
+    "{monster-speed-action}magic": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "0da117dd88dad7de5d71d00bb1a0ffb6ad0b572ca7bd3a69901e2a64ea64ccaf"
+    },
+    "{player-aux-attack}grab": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ddeaf386902e807ae375a56abac0ece8e344eaa492243bafbd421c9133d3f50a"
+    },
+    "{player-aux-attack}kick": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "cfa2323d0c855c914569a4d4946b447caa92ce2adc274c2a68e2f21726fae6ae"
+    },
+    "{player-aux-attack}headbutt": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "adbae6a593cb16a8a0baa687ad34ac4258f4c4049bf58e5a843bd9ab14e96125"
+    },
+    "{player-aux-attack}peck": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "fa633ad2a35b0fa241a5ef3cf875461982b46a06db638ee77c0cc731ad6eff17"
+    },
+    "{player-aux-attack}tail-slap": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "bf46f2becc1bf1bc8e56773b2946d1a645e8106068e622188a3c4e0a49d5934b"
+    },
+    "{player-aux-attack}sting": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "229dd1c543cf7d98ec458297de47a23bbe1884dd41ab429242a85e835d12c072"
+    },
+    "{player-aux-attack}touch": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "bf140ff27a6838a5045ce1ee2163c3ba23c49ec4868bb7f85d01227b9e52b88b"
+    },
+    "{player-aux-attack}punch": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2dc9df42c111436af755af81e5f07b44ddb641e64cd6591ccf084eb13192656b"
+    },
+    "{player-aux-attack}bite": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7ed27d0bbbefc28ea4b3bdb44feebbf3b5495b38c47f3c7290fd2fe4da988490"
+    },
+    "{player-aux-attack}pseudopods": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ba11e0d4545183d64be5943f855839375d14e6ffa7a2f4e68dc9ba9bb6877593"
+    },
+    "{player-aux-attack}squeeze": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "065ff017d46b4af9a2b1eb767f9591f7a891d7f0945d82b9ad2c2793cccbec81"
+    },
+    "{player-aux-attack}chomp": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "22a419ac8ac0cfd27244e93e0b9f5eb445be4b24b806f5d8418f96e0cb0ac7dd"
+    },
+    "{player-aux-attack}whirl of blades": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "6a63f625a7cea4dec9f19e359a4bdb5db528627bc243a98af69a11dd42cfe690"
+    },
+    "{player-aux-attack}shroompunch": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e06a3ac674382242e1874eda51316d5eaa819231902c43d4039e421a13932132"
+    },
+    "{player-aux-attack}slice": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "18d891e3c8807cec6376df667087bddc92c498ea4f80a5158e0566496d03ab19"
+    },
+    "{player-aux-attack}tentacle spike": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "130e47dcf906bee581c5712d3431a1f64ff927b9e2e06ee635b101e7389dedc0"
+    },
+    "{player-aux-attack}eel-slap": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "533d277d99086db95f3a09a65f8705b6d0a8d025195880b228fa2c93012b7839"
+    },
+    "{player-aux-attack}claw": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "14634007fb64b2b982678d593d866bbc06c0e5069cbd0c09f2ed0d2758405a39"
+    },
+    "{player-aux-attack}tentacle-slap": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "d373120d8cec94539c6ec37ff7a63205cec5702c000d06179bae110e5cb207aa"
+    },
+    "{player-aux-attack}off-hand punch": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "6c9b036fdad4e7f8db5eed8dbbf95e237078736690f01049b0f89544007589ef"
+    },
+    "{player-aux-attack}off-hand claw": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "6357cf95cf4554d433f39d17c469bad56f4e00b33f0a8f813d3f1f6c8d428c48"
+    },
+    "{player-aux-attack}off-hand eel-slap": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dfb1b79b2a5f76ae04b4d4c23a33c078fa7d44f71b32be73f814e4d94ba79875"
+    },
+    "{player-aux-attack}off-hand tentacle-slap": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "c5bf80a3fc8164e124174d7771f0e2f5e8f1741abf9dddd2b2d7c6004357cfb8"
+    },
+    "It can burrow through diggable terrain.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5453d6165041d14ad6758df2e7d6e7f8c816589ecff56bd02ea8e9b3a7aaa9f8"
+    },
+    "It can use ranged and thrown weapons in melee range.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "272b8905ec2d81d62a187bcbd279883181656f386aba3a0c33fff41dbaeeba8c"
+    },
+    "It inflicts 1d5 acid damage when struck in melee.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "295f6fabbab7ec3d9ad3ff04ea8fdbbc0378505ec0d9819ed69c84d9934af85d"
+    },
+    "It is insubstantial and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "094142e93143110f0938eb266e86d392148a1091f038e8ce7714d3fa753161d6"
+    },
+    "It is amorphous and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8d24c058e88088b06a94ae269f7dd9c7deb28d43547bfdb25c935709a27d323b"
+    },
+    "It can be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "076d5c43d7d76143e52d25e48a5d612a95cef13608a2fd0bd9be38850fe94323"
+    },
+    "It can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "33313c9d957cc46d891161058ddf25d9f1a21e710e7cdb05b3535536ce3fb597"
+    },
+    "Despite its appearance, it can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dce83e7b8c87635b312e4fb33fd2d32b86a9cd81ad228cf757d7faf0f200934b"
+    },
+    "It can crash through doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ef2704fdb959e4663ec30179bc9212e3ec9065bb3206e5e99019721778714b09"
+    },
+    "It can eat doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8fdae83ce094eda5bbb1ee512df1af586990a2166af2dd9bb86285677367a0eb"
+    },
+    "It has an unusual item: @any@.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "79ae3b6a99ea3d7034f80e4de8c3dfca107bdc6c7b7e9f2245e9aef12779c34d"
+    },
+    "It is an unusual item.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dfbdad7cb8f8af3c4945baa6b5bad7d2454dae3fe044bab05b44a0920ea83174"
+    },
+    "He is vulnerable to silver and hated by Zin.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8cf5466e492f49c892d465ca67c3890a5f5764fc39e972ece8ac629a2e149e0f"
+    },
+    "He cannot move.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e4bb029a99f366d056cdf71824dc6e89244f159fe37644d6760afa0bc0d8d269"
+    },
+    "He is cold-blooded and may be slowed by cold attacks.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "00580fb2e9a5a4c2c358e8d52be0981d1688ce3f123b98ea8fd4954a3742445b"
+    },
+    "He can see invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3b583d4c3b2afef7e25a1e66121ca69b24836576303c204b5967403082b6b28c"
+    },
+    "He can burrow through diggable terrain.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5453d6165041d14ad6758df2e7d6e7f8c816589ecff56bd02ea8e9b3a7aaa9f8"
+    },
+    "He can use ranged and thrown weapons in melee range.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "272b8905ec2d81d62a187bcbd279883181656f386aba3a0c33fff41dbaeeba8c"
+    },
+    "He inflicts 1d5 acid damage when struck in melee.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "295f6fabbab7ec3d9ad3ff04ea8fdbbc0378505ec0d9819ed69c84d9934af85d"
+    },
+    "He is insubstantial and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "094142e93143110f0938eb266e86d392148a1091f038e8ce7714d3fa753161d6"
+    },
+    "He is amorphous and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8d24c058e88088b06a94ae269f7dd9c7deb28d43547bfdb25c935709a27d323b"
+    },
+    "He covers ground more quickly when invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "37b7c493994fe99bd810762505ed855b209a061ce5dcccfb01283d8e9a08d3e0"
+    },
+    "He can fly.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2c9da766070f273e421fc2900090cc22cd72592062d137ba26aa1347473c3ac1"
+    },
+    "He cannot be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f1c64532e49da6b7fb4b60e8c66e0478c76e2adcca0c9a513cae7135a8615b3c"
+    },
+    "He is too strong to be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7c70f0876128f382c905760d606f9f99d93cbd660ec9d2ca3744ae4c0510571f"
+    },
+    "He can be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "076d5c43d7d76143e52d25e48a5d612a95cef13608a2fd0bd9be38850fe94323"
+    },
+    "He can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "33313c9d957cc46d891161058ddf25d9f1a21e710e7cdb05b3535536ce3fb597"
+    },
+    "Despite his appearance, he can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dce83e7b8c87635b312e4fb33fd2d32b86a9cd81ad228cf757d7faf0f200934b"
+    },
+    "He can crash through doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ef2704fdb959e4663ec30179bc9212e3ec9065bb3206e5e99019721778714b09"
+    },
+    "He can eat doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8fdae83ce094eda5bbb1ee512df1af586990a2166af2dd9bb86285677367a0eb"
+    },
+    "He has an unusual item: @any@.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "79ae3b6a99ea3d7034f80e4de8c3dfca107bdc6c7b7e9f2245e9aef12779c34d"
+    },
+    "He is an unusual item.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dfbdad7cb8f8af3c4945baa6b5bad7d2454dae3fe044bab05b44a0920ea83174"
+    },
+    "She is vulnerable to silver and hated by Zin.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8cf5466e492f49c892d465ca67c3890a5f5764fc39e972ece8ac629a2e149e0f"
+    },
+    "She cannot move.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e4bb029a99f366d056cdf71824dc6e89244f159fe37644d6760afa0bc0d8d269"
+    },
+    "She is cold-blooded and may be slowed by cold attacks.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "00580fb2e9a5a4c2c358e8d52be0981d1688ce3f123b98ea8fd4954a3742445b"
+    },
+    "She can see invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3b583d4c3b2afef7e25a1e66121ca69b24836576303c204b5967403082b6b28c"
+    },
+    "She can burrow through diggable terrain.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5453d6165041d14ad6758df2e7d6e7f8c816589ecff56bd02ea8e9b3a7aaa9f8"
+    },
+    "She can use ranged and thrown weapons in melee range.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "272b8905ec2d81d62a187bcbd279883181656f386aba3a0c33fff41dbaeeba8c"
+    },
+    "She inflicts 1d5 acid damage when struck in melee.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "295f6fabbab7ec3d9ad3ff04ea8fdbbc0378505ec0d9819ed69c84d9934af85d"
+    },
+    "She is insubstantial and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "094142e93143110f0938eb266e86d392148a1091f038e8ce7714d3fa753161d6"
+    },
+    "She is amorphous and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8d24c058e88088b06a94ae269f7dd9c7deb28d43547bfdb25c935709a27d323b"
+    },
+    "She covers ground more quickly when invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "37b7c493994fe99bd810762505ed855b209a061ce5dcccfb01283d8e9a08d3e0"
+    },
+    "She can fly.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2c9da766070f273e421fc2900090cc22cd72592062d137ba26aa1347473c3ac1"
+    },
+    "She cannot be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f1c64532e49da6b7fb4b60e8c66e0478c76e2adcca0c9a513cae7135a8615b3c"
+    },
+    "She is too strong to be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7c70f0876128f382c905760d606f9f99d93cbd660ec9d2ca3744ae4c0510571f"
+    },
+    "She can be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "076d5c43d7d76143e52d25e48a5d612a95cef13608a2fd0bd9be38850fe94323"
+    },
+    "She can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "33313c9d957cc46d891161058ddf25d9f1a21e710e7cdb05b3535536ce3fb597"
+    },
+    "Despite her appearance, she can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dce83e7b8c87635b312e4fb33fd2d32b86a9cd81ad228cf757d7faf0f200934b"
+    },
+    "She can crash through doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ef2704fdb959e4663ec30179bc9212e3ec9065bb3206e5e99019721778714b09"
+    },
+    "She can eat doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8fdae83ce094eda5bbb1ee512df1af586990a2166af2dd9bb86285677367a0eb"
+    },
+    "She has an unusual item: @any@.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "79ae3b6a99ea3d7034f80e4de8c3dfca107bdc6c7b7e9f2245e9aef12779c34d"
+    },
+    "She is an unusual item.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dfbdad7cb8f8af3c4945baa6b5bad7d2454dae3fe044bab05b44a0920ea83174"
+    },
+    "They are vulnerable to silver and hated by Zin.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8cf5466e492f49c892d465ca67c3890a5f5764fc39e972ece8ac629a2e149e0f"
+    },
+    "They cannot move.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "e4bb029a99f366d056cdf71824dc6e89244f159fe37644d6760afa0bc0d8d269"
+    },
+    "They are cold-blooded and may be slowed by cold attacks.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "00580fb2e9a5a4c2c358e8d52be0981d1688ce3f123b98ea8fd4954a3742445b"
+    },
+    "They can see invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3b583d4c3b2afef7e25a1e66121ca69b24836576303c204b5967403082b6b28c"
+    },
+    "They can burrow through diggable terrain.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "5453d6165041d14ad6758df2e7d6e7f8c816589ecff56bd02ea8e9b3a7aaa9f8"
+    },
+    "They can use ranged and thrown weapons in melee range.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "272b8905ec2d81d62a187bcbd279883181656f386aba3a0c33fff41dbaeeba8c"
+    },
+    "They inflict 1d5 acid damage when struck in melee.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "295f6fabbab7ec3d9ad3ff04ea8fdbbc0378505ec0d9819ed69c84d9934af85d"
+    },
+    "They are insubstantial and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "094142e93143110f0938eb266e86d392148a1091f038e8ce7714d3fa753161d6"
+    },
+    "They are amorphous and immune to ensnarement.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8d24c058e88088b06a94ae269f7dd9c7deb28d43547bfdb25c935709a27d323b"
+    },
+    "They cover ground more quickly when invisible.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "37b7c493994fe99bd810762505ed855b209a061ce5dcccfb01283d8e9a08d3e0"
+    },
+    "They can fly.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "2c9da766070f273e421fc2900090cc22cd72592062d137ba26aa1347473c3ac1"
+    },
+    "They cannot be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "f1c64532e49da6b7fb4b60e8c66e0478c76e2adcca0c9a513cae7135a8615b3c"
+    },
+    "They are too strong to be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "7c70f0876128f382c905760d606f9f99d93cbd660ec9d2ca3744ae4c0510571f"
+    },
+    "They can be affected by reciting Zin's laws.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "076d5c43d7d76143e52d25e48a5d612a95cef13608a2fd0bd9be38850fe94323"
+    },
+    "They can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "33313c9d957cc46d891161058ddf25d9f1a21e710e7cdb05b3535536ce3fb597"
+    },
+    "Despite their appearance, they can open doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dce83e7b8c87635b312e4fb33fd2d32b86a9cd81ad228cf757d7faf0f200934b"
+    },
+    "They can crash through doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "ef2704fdb959e4663ec30179bc9212e3ec9065bb3206e5e99019721778714b09"
+    },
+    "They can eat doors.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "8fdae83ce094eda5bbb1ee512df1af586990a2166af2dd9bb86285677367a0eb"
+    },
+    "They have an unusual item: @any@.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "79ae3b6a99ea3d7034f80e4de8c3dfca107bdc6c7b7e9f2245e9aef12779c34d"
+    },
+    "They are an unusual item.": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "dfbdad7cb8f8af3c4945baa6b5bad7d2454dae3fe044bab05b44a0920ea83174"
+    },
+    "Two beams: %s": {
+      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
+      "translation_sha256": "3a5dd5047d3ec52f87c1255e945c2e08a9ae3f80860a4fdf103099237f78d19d"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -27,6 +27,7 @@
 #include "item-status-flag-type.h"
 #include "items.h" // item_is_unusual
 #include "libutil.h"
+#include "localise.h"
 #include "los.h"
 #include "message.h"
 #include "mon-abil.h"
@@ -1712,7 +1713,7 @@ static bool _add_energy_desc(int energy, string name, int speed, vector<string> 
 
     ASSERT(energy);
     const int perc = speed * 100 / energy;
-    out.push_back(make_stringf("%s: %d%%", name.c_str(), perc));
+    out.push_back(make_stringf("%s: %d%%", localise_in_context("monster-speed-action", name).c_str(), perc));
     return true;
 }
 
@@ -1735,7 +1736,7 @@ string monster_info::speed_description() const
         return "";
 
     ostringstream result;
-    result << "Speed: " << speed * 10 << "%";
+    result << localise("Speed: ") << speed * 10 << "%";
 
     vector<string> unusuals;
 
@@ -1753,12 +1754,12 @@ string monster_info::speed_description() const
         result << " (" << join_strings(unusuals.begin(), unusuals.end(), ", ") << ")";
 
     if (type == MONS_SIXFIRHY || type == MONS_JIANGSHI)
-        result << " (but often pauses)";
+        result << localise(" (but often pauses)");
     else if (travel_delay_diff)
     {
         const bool slow = travel_delay_diff > 0;
-        const string diff_desc = slow ? "slower" : "faster";
-        result << " (normally travels " << diff_desc << " than you)";
+        result << localise(slow ? " (normally travels slower than you)"
+                               : " (normally travels faster than you)");
         // It would be interesting to qualify this with 'on land',
         // if appropriate, but sort of annoying to get player swim speed.
     }

@@ -23238,19 +23238,19 @@ It is susceptible to @arg@.
 %%%%
 It is vulnerable to silver and hated by Zin.
 
-Оно уязвимо к серебру и ненавистно Зину.
+Хаотическое существо: уязвимо к серебру и ненавистно Зину.
 %%%%
 It cannot move.
 
-Оно не может двигаться.
+Не может передвигаться.
 %%%%
 It is cold-blooded and may be slowed by cold attacks.
 
-Оно холоднокровно, и атаки холодом могут его замедлить.
+Холоднокровное существо: атаки холодом могут его замедлить.
 %%%%
 It can see invisible.
 
-Оно видит невидимое.
+Видит невидимых существ.
 %%%%
 It is immune to blinding.
 
@@ -23306,11 +23306,11 @@ It uses items @arg@.
 %%%%
 It covers ground more quickly when invisible.
 
-В невидимости оно передвигается по суше быстрее.
+В состоянии невидимости передвигается быстрее.
 %%%%
 It can fly.
 
-Оно умеет летать.
+Может летать.
 %%%%
 It cannot regenerate.
 
@@ -23322,11 +23322,11 @@ It regenerates quickly.
 %%%%
 It cannot be affected by reciting Zin's laws.
 
-Проповедь законов Зина не может на него повлиять.
+Чтение законов Зина не действует на это существо.
 %%%%
 It is too strong to be affected by reciting Zin's laws.
 
-Оно слишком сильно, чтобы поддаться проповеди законов Зина.
+Существо слишком сильно, чтобы чтение законов Зина подействовало на него.
 %%%%
 It can can be affected by reciting Zin's laws.
 
@@ -41231,3 +41231,703 @@ Can travel through lava.
 "{monster-attacks-table}Throw: "
 
 "{monster-attacks-table}Метание: "
+%%%%
+%d%% to hit
+
+шанс попадания: %d%%
+%%%%
+about %d%% to hit unarmed
+
+около %d%% (без оружия)
+%%%%
+about %d%% to hit with %s
+
+около %d%% (оружие «%s»)
+%%%%
+" (while you are blinded and from distance %d)"
+
+" (при ослеплении и на расстоянии %d)"
+%%%%
+" at this distance"
+
+" на этой дистанции"
+%%%%
+; additional attacks (%s): %d%% to hit
+
+; дополнительные атаки (%s): шанс попадания %d%%
+%%%%
+"Your hit chance: "
+
+"Ваш шанс попадания: "
+%%%%
+Chance to hit you: about %d%%.
+
+Вероятность попасть по вам: около %d%%.
+%%%%
+" (while incapacitated)"
+
+" (с учётом ограничений защиты цели)"
+%%%%
+" (at present)"
+
+" (сейчас)"
+%%%%
+"Speed: "
+
+"Скорость: "
+%%%%
+" (but often pauses)"
+
+" (но часто делает паузы)"
+%%%%
+" (normally travels slower than you)"
+
+" (обычно передвигается медленнее вас)"
+%%%%
+" (normally travels faster than you)"
+
+" (обычно передвигается быстрее вас)"
+%%%%
+%d/turn
+
+%d/ход
+%%%%
+Immune to: %s.
+
+Невосприимчивость: %s.
+%%%%
+Very resistant to: %s.
+
+Сильные сопротивления: %s.
+%%%%
+Resistant to: %s.
+
+Сопротивления: %s.
+%%%%
+Susceptible to: %s.
+
+Уязвимости: %s.
+%%%%
+"Explosion damage: "
+
+"Урон взрыва: "
+%%%%
+"Shooting star damage: "
+
+"Урон падающей звезды: "
+%%%%
+"Projectile damage: "
+
+"Урон снаряда: "
+%%%%
+"Spore damage: "
+
+"Урон спор: "
+%%%%
+{monster-stats}Max HP
+
+{monster-stats}Макс. здоровье
+%%%%
+{monster-stats}Will
+
+{monster-stats}Сила воли
+%%%%
+{monster-stats}AC
+
+{monster-stats}Бр
+%%%%
+{monster-stats}EV
+
+{monster-stats}Укл
+%%%%
+{monster-stats}SH
+
+{monster-stats}Щит
+%%%%
+{monster-stats}Threat
+
+{monster-stats}Угроза
+%%%%
+{monster-stats}Class
+
+{monster-stats}Тип
+%%%%
+{monster-stats}Size
+
+{monster-stats}Размер
+%%%%
+{monster-stats}Int
+
+{monster-stats}Интеллект
+%%%%
+{monster-stats}Regen
+
+{monster-stats}Регенерация
+%%%%
+{monster-stats}rF
+
+{monster-stats}Огонь (rF)
+%%%%
+{monster-stats}rC
+
+{monster-stats}Холод (rC)
+%%%%
+{monster-stats}rPois
+
+{monster-stats}Яд (rPois)
+%%%%
+{monster-stats}rNeg
+
+{monster-stats}Отр. энергия (rN)
+%%%%
+{monster-stats}rElec
+
+{monster-stats}Электрич. (rElec)
+%%%%
+{monster-stat-value}Minor
+
+{monster-stat-value}незначительная
+%%%%
+{monster-stat-value}Low
+
+{monster-stat-value}низкая
+%%%%
+{monster-stat-value}High
+
+{monster-stat-value}высокая
+%%%%
+{monster-stat-value}Lethal
+
+{monster-stat-value}смертельная
+%%%%
+{monster-stat-value}Holy
+
+{monster-stat-value}святое
+%%%%
+{monster-stat-value}Natural
+
+{monster-stat-value}живое
+%%%%
+{monster-stat-value}Undead
+
+{monster-stat-value}нежить
+%%%%
+{monster-stat-value}Demonic
+
+{monster-stat-value}демон
+%%%%
+{monster-stat-value}Nonliv.
+
+{monster-stat-value}неживое
+%%%%
+{monster-stat-value}Nonliving
+
+{monster-stat-value}неживое
+%%%%
+{monster-stat-value}Plant
+
+{monster-stat-value}растение
+%%%%
+{monster-stat-value}Tiny
+
+{monster-stat-value}крошечный
+%%%%
+{monster-stat-value}V. Small
+
+{monster-stat-value}очень маленький
+%%%%
+{monster-stat-value}Very small
+
+{monster-stat-value}очень маленький
+%%%%
+{monster-stat-value}Small
+
+{monster-stat-value}маленький
+%%%%
+{monster-stat-value}Medium
+
+{monster-stat-value}средний
+%%%%
+{monster-stat-value}Large
+
+{monster-stat-value}большой
+%%%%
+{monster-stat-value}Giant
+
+{monster-stat-value}гигантский
+%%%%
+{monster-stat-value}Mindless
+
+{monster-stat-value}без разума
+%%%%
+{monster-stat-value}Animal
+
+{monster-stat-value}животный
+%%%%
+{monster-stat-value}Human
+
+{monster-stat-value}человеческий
+%%%%
+{monster-stat-value}None
+
+{monster-stat-value}нет
+%%%%
+{monster-resistance}electricity
+
+{monster-resistance}электричество
+%%%%
+{monster-resistance}poison
+
+{monster-resistance}яд
+%%%%
+{monster-resistance}fire
+
+{monster-resistance}огонь
+%%%%
+{monster-resistance}steam
+
+{monster-resistance}пар
+%%%%
+{monster-resistance}cold
+
+{monster-resistance}холод
+%%%%
+{monster-resistance}acid and corrosion
+
+{monster-resistance}кислота и коррозия
+%%%%
+{monster-resistance}miasma
+
+{monster-resistance}миазмы
+%%%%
+{monster-resistance}negative energy
+
+{monster-resistance}отрицательная энергия
+%%%%
+{monster-resistance}damnation
+
+{monster-resistance}адская кара
+%%%%
+{monster-resistance}torment
+
+{monster-resistance}муки
+%%%%
+{monster-resistance}blinding
+
+{monster-resistance}ослепление
+%%%%
+{monster-resistance}drowning
+
+{monster-resistance}утопление
+%%%%
+{monster-resistance}clouds of all kinds
+
+{monster-resistance}любые облака
+%%%%
+{monster-speed-action}attack
+
+{monster-speed-action}атаки
+%%%%
+{monster-speed-action}shoot
+
+{monster-speed-action}стрельба
+%%%%
+{monster-speed-action}travel
+
+{monster-speed-action}передвижение
+%%%%
+{monster-speed-action}swim
+
+{monster-speed-action}плавание
+%%%%
+{monster-speed-action}pray
+
+{monster-speed-action}молитвы
+%%%%
+{monster-speed-action}magic
+
+{monster-speed-action}колдовство
+%%%%
+{player-aux-attack}grab
+
+{player-aux-attack}захват
+%%%%
+{player-aux-attack}kick
+
+{player-aux-attack}удар ногой
+%%%%
+{player-aux-attack}headbutt
+
+{player-aux-attack}удар головой
+%%%%
+{player-aux-attack}peck
+
+{player-aux-attack}удар клювом
+%%%%
+{player-aux-attack}tail-slap
+
+{player-aux-attack}удар хвостом
+%%%%
+{player-aux-attack}sting
+
+{player-aux-attack}удар жалом
+%%%%
+{player-aux-attack}touch
+
+{player-aux-attack}касание
+%%%%
+{player-aux-attack}punch
+
+{player-aux-attack}удар кулаком
+%%%%
+{player-aux-attack}bite
+
+{player-aux-attack}укус
+%%%%
+{player-aux-attack}pseudopods
+
+{player-aux-attack}удар ложноножками
+%%%%
+{player-aux-attack}squeeze
+
+{player-aux-attack}сжатие щупальцами
+%%%%
+{player-aux-attack}chomp
+
+{player-aux-attack}укус пастью
+%%%%
+{player-aux-attack}whirl of blades
+
+{player-aux-attack}вихрь клинков
+%%%%
+{player-aux-attack}shroompunch
+
+{player-aux-attack}удар грибами
+%%%%
+{player-aux-attack}slice
+
+{player-aux-attack}рассечение
+%%%%
+{player-aux-attack}tentacle spike
+
+{player-aux-attack}шип щупальца
+%%%%
+{player-aux-attack}eel-slap
+
+{player-aux-attack}удар угрём
+%%%%
+{player-aux-attack}claw
+
+{player-aux-attack}удар когтями
+%%%%
+{player-aux-attack}tentacle-slap
+
+{player-aux-attack}удар щупальцем
+%%%%
+{player-aux-attack}off-hand punch
+
+{player-aux-attack}удар свободным кулаком
+%%%%
+{player-aux-attack}off-hand claw
+
+{player-aux-attack}удар когтями свободной руки
+%%%%
+{player-aux-attack}off-hand eel-slap
+
+{player-aux-attack}удар угрём свободной руки
+%%%%
+{player-aux-attack}off-hand tentacle-slap
+
+{player-aux-attack}удар свободным щупальцем
+%%%%
+It can burrow through diggable terrain.
+
+Может прокладывать ход через местность, поддающуюся копанию.
+%%%%
+It can use ranged and thrown weapons in melee range.
+
+Может стрелять и метать оружие даже в ближнем бою.
+%%%%
+It inflicts 1d5 acid damage when struck in melee.
+
+При получении удара в ближнем бою наносит в ответ 1d5 кислотного урона.
+%%%%
+It is insubstantial and immune to ensnarement.
+
+Бестелесность защищает от запутывания.
+%%%%
+It is amorphous and immune to ensnarement.
+
+Аморфное тело защищает от запутывания.
+%%%%
+It can be affected by reciting Zin's laws.
+
+Чтение законов Зина может подействовать на это существо.
+%%%%
+It can open doors.
+
+Может открывать двери.
+%%%%
+Despite its appearance, it can open doors.
+
+Несмотря на внешний вид, может открывать двери.
+%%%%
+It can crash through doors.
+
+Может проламывать двери.
+%%%%
+It can eat doors.
+
+Может поедать двери.
+%%%%
+It has an unusual item: @any@.
+
+Необычное снаряжение: @any@.
+%%%%
+It is an unusual item.
+
+Необычный предмет.
+%%%%
+He is vulnerable to silver and hated by Zin.
+
+Хаотическое существо: уязвимо к серебру и ненавистно Зину.
+%%%%
+He cannot move.
+
+Не может передвигаться.
+%%%%
+He is cold-blooded and may be slowed by cold attacks.
+
+Холоднокровное существо: атаки холодом могут его замедлить.
+%%%%
+He can see invisible.
+
+Видит невидимых существ.
+%%%%
+He can burrow through diggable terrain.
+
+Может прокладывать ход через местность, поддающуюся копанию.
+%%%%
+He can use ranged and thrown weapons in melee range.
+
+Может стрелять и метать оружие даже в ближнем бою.
+%%%%
+He inflicts 1d5 acid damage when struck in melee.
+
+При получении удара в ближнем бою наносит в ответ 1d5 кислотного урона.
+%%%%
+He is insubstantial and immune to ensnarement.
+
+Бестелесность защищает от запутывания.
+%%%%
+He is amorphous and immune to ensnarement.
+
+Аморфное тело защищает от запутывания.
+%%%%
+He covers ground more quickly when invisible.
+
+В состоянии невидимости передвигается быстрее.
+%%%%
+He can fly.
+
+Может летать.
+%%%%
+He cannot be affected by reciting Zin's laws.
+
+Чтение законов Зина не действует на это существо.
+%%%%
+He is too strong to be affected by reciting Zin's laws.
+
+Существо слишком сильно, чтобы чтение законов Зина подействовало на него.
+%%%%
+He can be affected by reciting Zin's laws.
+
+Чтение законов Зина может подействовать на это существо.
+%%%%
+He can open doors.
+
+Может открывать двери.
+%%%%
+Despite his appearance, he can open doors.
+
+Несмотря на внешний вид, может открывать двери.
+%%%%
+He can crash through doors.
+
+Может проламывать двери.
+%%%%
+He can eat doors.
+
+Может поедать двери.
+%%%%
+He has an unusual item: @any@.
+
+Необычное снаряжение: @any@.
+%%%%
+He is an unusual item.
+
+Необычный предмет.
+%%%%
+She is vulnerable to silver and hated by Zin.
+
+Хаотическое существо: уязвимо к серебру и ненавистно Зину.
+%%%%
+She cannot move.
+
+Не может передвигаться.
+%%%%
+She is cold-blooded and may be slowed by cold attacks.
+
+Холоднокровное существо: атаки холодом могут его замедлить.
+%%%%
+She can see invisible.
+
+Видит невидимых существ.
+%%%%
+She can burrow through diggable terrain.
+
+Может прокладывать ход через местность, поддающуюся копанию.
+%%%%
+She can use ranged and thrown weapons in melee range.
+
+Может стрелять и метать оружие даже в ближнем бою.
+%%%%
+She inflicts 1d5 acid damage when struck in melee.
+
+При получении удара в ближнем бою наносит в ответ 1d5 кислотного урона.
+%%%%
+She is insubstantial and immune to ensnarement.
+
+Бестелесность защищает от запутывания.
+%%%%
+She is amorphous and immune to ensnarement.
+
+Аморфное тело защищает от запутывания.
+%%%%
+She covers ground more quickly when invisible.
+
+В состоянии невидимости передвигается быстрее.
+%%%%
+She can fly.
+
+Может летать.
+%%%%
+She cannot be affected by reciting Zin's laws.
+
+Чтение законов Зина не действует на это существо.
+%%%%
+She is too strong to be affected by reciting Zin's laws.
+
+Существо слишком сильно, чтобы чтение законов Зина подействовало на него.
+%%%%
+She can be affected by reciting Zin's laws.
+
+Чтение законов Зина может подействовать на это существо.
+%%%%
+She can open doors.
+
+Может открывать двери.
+%%%%
+Despite her appearance, she can open doors.
+
+Несмотря на внешний вид, может открывать двери.
+%%%%
+She can crash through doors.
+
+Может проламывать двери.
+%%%%
+She can eat doors.
+
+Может поедать двери.
+%%%%
+She has an unusual item: @any@.
+
+Необычное снаряжение: @any@.
+%%%%
+She is an unusual item.
+
+Необычный предмет.
+%%%%
+They are vulnerable to silver and hated by Zin.
+
+Хаотическое существо: уязвимо к серебру и ненавистно Зину.
+%%%%
+They cannot move.
+
+Не может передвигаться.
+%%%%
+They are cold-blooded and may be slowed by cold attacks.
+
+Холоднокровное существо: атаки холодом могут его замедлить.
+%%%%
+They can see invisible.
+
+Видит невидимых существ.
+%%%%
+They can burrow through diggable terrain.
+
+Может прокладывать ход через местность, поддающуюся копанию.
+%%%%
+They can use ranged and thrown weapons in melee range.
+
+Может стрелять и метать оружие даже в ближнем бою.
+%%%%
+They inflict 1d5 acid damage when struck in melee.
+
+При получении удара в ближнем бою наносит в ответ 1d5 кислотного урона.
+%%%%
+They are insubstantial and immune to ensnarement.
+
+Бестелесность защищает от запутывания.
+%%%%
+They are amorphous and immune to ensnarement.
+
+Аморфное тело защищает от запутывания.
+%%%%
+They cover ground more quickly when invisible.
+
+В состоянии невидимости передвигается быстрее.
+%%%%
+They can fly.
+
+Может летать.
+%%%%
+They cannot be affected by reciting Zin's laws.
+
+Чтение законов Зина не действует на это существо.
+%%%%
+They are too strong to be affected by reciting Zin's laws.
+
+Существо слишком сильно, чтобы чтение законов Зина подействовало на него.
+%%%%
+They can be affected by reciting Zin's laws.
+
+Чтение законов Зина может подействовать на это существо.
+%%%%
+They can open doors.
+
+Может открывать двери.
+%%%%
+Despite their appearance, they can open doors.
+
+Несмотря на внешний вид, может открывать двери.
+%%%%
+They can crash through doors.
+
+Может проламывать двери.
+%%%%
+They can eat doors.
+
+Может поедать двери.
+%%%%
+They have an unusual item: @any@.
+
+Необычное снаряжение: @any@.
+%%%%
+They are an unusual item.
+
+Необычный предмет.
+%%%%
+Two beams: %s
+
+Два луча: %s
