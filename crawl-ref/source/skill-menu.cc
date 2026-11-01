@@ -629,9 +629,10 @@ string SkillMenuSwitch::get_help()
                 causes.push_back("scribal knowledge");
             if (you.form == transformation::jademantle)
                 causes.push_back("jademantle form");
-            result = "Skills enhanced by "
-                     + comma_separated_line(causes.begin(), causes.end())
-                     + " are in <green>green</green>.";
+            result = make_stringf(localise("Skills enhanced by %s are in <green>green</green>.").c_str(),
+                comma_separated_fn(causes.begin(), causes.end(),
+                    [](const string& cause) { return localise_in_context("skill-modifier", cause); },
+                    localise(" and ")).c_str());
         }
 
         if (skm.is_set(SKMF_REDUCED))
@@ -647,9 +648,10 @@ string SkillMenuSwitch::get_help()
                 causes.push_back("jademantle form");
             if (!result.empty())
                 result += " ";
-            result += "Skills reduced by "
-                      + comma_separated_line(causes.begin(), causes.end())
-                      + " are in <magenta>magenta</magenta>.";
+            result += make_stringf(localise("Skills reduced by %s are in <magenta>magenta</magenta>.").c_str(),
+                comma_separated_fn(causes.begin(), causes.end(),
+                    [](const char* cause) { return localise_in_context("skill-modifier", cause); },
+                    localise(" and ")).c_str());
         }
 
         if (!result.empty())
@@ -1195,9 +1197,9 @@ void SkillMenu::help()
         if (is_set(SKMF_SIMPLE))
             text = hints_skills_description_info();
         else
-            text = "Press the letter of a skill to read its description.\n"
+            text = localise("Press the letter of a skill to read its description.\n"
                    "Press <w>?</w> for a general explanation"
-                   " of skilling and the various toggles.";
+                   " of skilling and the various toggles.");
         set_help(text);
     }
     else

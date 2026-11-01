@@ -4292,8 +4292,8 @@ int choose_ability_menu(const vector<talent>& talents)
     }
     else
     {
-        abil_menu.set_more(formatted_string::parse_string(localise(
-            menu_keyhelp_cmd(CMD_MENU_HELP) + " toggle "
+        abil_menu.set_more(formatted_string::parse_string(
+            menu_keyhelp_cmd(CMD_MENU_HELP) + localise(" toggle "
                        "between ability selection and description.")));
     }
 

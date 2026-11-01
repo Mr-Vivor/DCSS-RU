@@ -486,8 +486,9 @@ bool fill_status_info(int status, status_info& inf)
         string skills = manual_skill_names();
         if (!skills.empty())
         {
-            inf.short_text = "studying " + manual_skill_names(true);
-            inf.long_text = "You are studying " + skills + ".";
+            inf.short_text = make_stringf(localise("studying %s").c_str(),
+                                         manual_skill_names(true).c_str());
+            inf.long_text = make_stringf(localise("You are studying %s.").c_str(), skills.c_str());
         }
         break;
     }
@@ -692,7 +693,7 @@ bool fill_status_info(int status, status_info& inf)
     case STATUS_BRIBE:
     {
         int bribe = 0;
-        vector<const char *> places;
+        vector<string> places;
         for (int i = 0; i < NUM_BRANCHES; i++)
         {
             branch_type br = gozag_fixup_branch(static_cast<branch_type>(i));
@@ -702,8 +703,8 @@ bool fill_status_info(int status, status_info& inf)
                 if (player_in_branch(static_cast<branch_type>(i)))
                     bribe = branch_bribe[br];
 
-                places.push_back(branches[static_cast<branch_type>(i)]
-                                 .longname);
+                places.push_back(localise(branches[static_cast<branch_type>(i)]
+                                 .longname));
             }
         }
 
@@ -714,15 +715,13 @@ bool fill_status_info(int status, status_info& inf)
                                                 : BLUE;
 
             inf.light_text = "Bribe";
-            inf.short_text = make_stringf("bribing [%s]",
+            inf.short_text = make_stringf(localise("bribing [%s]").c_str(),
                                            comma_separated_line(places.begin(),
                                                                 places.end(),
                                                                 ", ", ", ")
                                                                 .c_str());
-            inf.long_text = "You are bribing "
-                             + comma_separated_line(places.begin(),
-                                                    places.end())
-                             + ".";
+            inf.long_text = make_stringf(localise("You are bribing %s.").c_str(),
+                comma_separated_line(places.begin(), places.end(), localise(" and ")).c_str());
         }
         break;
     }

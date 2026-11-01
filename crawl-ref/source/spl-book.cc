@@ -27,6 +27,7 @@
 #include "item-prop.h"
 #include "item-status-flag-type.h"
 #include "invent.h"
+#include "initfile.h"
 #include "libutil.h"
 #include "localise.h"
 #include "message.h"
@@ -894,14 +895,18 @@ public:
         if (you.divine_exegesis)
         {
             spell_levels_str = make_stringf(
-                "<lightgreen>Select a spell to cast with Divine Exegesis: %d MP available</lightgreen>",
+                localise("<lightgreen>Select a spell to cast with Divine Exegesis: %d MP available</lightgreen>").c_str(),
                 you.magic_points);
         }
         else if (default_action == action::imbue)
-            spell_levels_str = "<lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>";
+            spell_levels_str = localise("<lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>");
         else
         {
-            spell_levels_str = make_stringf("<lightgreen>%d spell level%s"
+            if (Options.language == lang_t::RU && localisation_active())
+                spell_levels_str = make_stringf(localise("<lightgreen>Spell levels available: %d</lightgreen>").c_str(),
+                                               player_spell_levels());
+            else
+                spell_levels_str = make_stringf("<lightgreen>%d spell level%s"
                         "</lightgreen>", player_spell_levels(),
                         (player_spell_levels() > 1 || player_spell_levels() == 0)
                                                     ? "s left" : " left ");
@@ -1112,8 +1117,8 @@ bool learn_spell(spell_type specspell, bool wizard, bool interactive)
             mprf(MSGCH_WARN, "This spell is impossible to cast!");
         else if (severity > 0)
         {
-            mprf(MSGCH_WARN, "This spell is %s to cast%s",
-                             fail_severity_adjs[severity],
+            mprf(MSGCH_WARN, localise("This spell is %s to cast%s").c_str(),
+                             localise_in_context("miscast-danger", fail_severity_adjs[severity]).c_str(),
                              severity > 1 ? "!" : ".");
         }
     }
@@ -1122,13 +1127,22 @@ bool learn_spell(spell_type specspell, bool wizard, bool interactive)
 
     if (interactive)
     {
-        const string prompt = make_stringf(
+        string prompt = make_stringf(
                  "Memorise %s, consuming %d spell level%s and leaving %d?%s%s",
                  spell_title(specspell), spell_levels_required(specspell),
                  spell_levels_required(specspell) != 1 ? "s" : "",
                  player_spell_levels() - spell_levels_required(specspell),
                  !mem_spell_warning_string.empty() ? " " : "",
                  mem_spell_warning_string.c_str());
+
+        if (Options.language == lang_t::RU && localisation_active())
+        {
+            prompt = make_stringf(localise("Memorise %s? Spell levels required: %d; remaining: %d.").c_str(),
+                localise(spell_title(specspell)).c_str(), spell_levels_required(specspell),
+                player_spell_levels() - spell_levels_required(specspell));
+            if (!mem_spell_warning_string.empty())
+                prompt += " " + localise(mem_spell_warning_string);
+        }
 
         if (!yesno(prompt.c_str(), true, 'n', false))
         {

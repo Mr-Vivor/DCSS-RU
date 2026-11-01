@@ -1959,14 +1959,15 @@ bool oni_drunken_swing(bool is_moonshine)
 
     if (!targets.empty())
     {
-        string msg = you.weapon() ? make_stringf("twirl %s", you.weapon()->name(DESC_YOUR).c_str())
-                                  : "flex your muscles";
+        string msg = you.weapon() ? make_stringf(localise("twirl %s").c_str(),
+                                               localise(you.weapon()->name(DESC_YOUR)).c_str())
+                                  : localise("flex your muscles");
 
         bool success = false;
         if (is_moonshine)
-            mprf("You take an eager swig of the potion and %s. Strong stuff!", msg.c_str());
+            mprf(localise("You take an eager swig of the potion and %s. Strong stuff!").c_str(), msg.c_str());
         else
-            mprf("You take a swig of the potion and %s.", msg.c_str());
+            mprf(localise("You take a swig of the potion and %s.").c_str(), msg.c_str());
 
         for (actor* victim : targets)
         {
@@ -2074,8 +2075,8 @@ bool drink(item_def* potion)
             || potion->sub_type == POT_MIGHT
             || potion->sub_type == POT_RESISTANCE))
         {
-            mprf("Your mutated metabolism churns, savouring the %s.",
-                potion->name(DESC_QUALNAME).c_str());
+            mprf(localise("Your mutated metabolism churns, savouring the %s.").c_str(),
+                localise(potion->name(DESC_QUALNAME)).c_str());
         }
 
     if (!alreadyknown)

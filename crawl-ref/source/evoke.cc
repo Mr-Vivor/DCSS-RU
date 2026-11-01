@@ -257,9 +257,10 @@ string manual_skill_names(bool short_text)
             skills.insert(sk);
 
     if (short_text && skills.size() > 1)
-        return make_stringf("%d skills", static_cast<int>(skills.size()));
+        return make_stringf(localise("%d skills").c_str(), static_cast<int>(skills.size()));
     else
-        return skill_names(skills);
+        return comma_separated_fn(skills.begin(), skills.end(),
+            [](skill_type sk) { return localise(skill_name(sk)); }, localise(" and "));
 }
 
 static bool _box_of_beasts()
