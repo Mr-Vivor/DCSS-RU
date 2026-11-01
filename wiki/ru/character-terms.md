@@ -234,6 +234,18 @@
 | Rimeblight | Инеевый мор |
 | Permafrost Eruption | Извержение вечной мерзлоты |
 | Hellfire Mortar | Адская мортира |
+| Spellspark Servitor | Прислужник искры заклинаний |
+| Platinum Paragon | Платиновый идеал |
+| Awaken Armour | Пробуждение доспеха |
+| Conjure Living Spells | Создание живых заклинаний |
+| Quicksilver Bolt | Ртутный разряд |
+| Summon Horrible Things | Призыв ужасных созданий |
+| Summon Hydra | Призыв гидры |
+| Summon Cactus Giant | Призыв кактусового великана |
+| Launch Clockwork Bee | Запуск заводной пчелы |
+| Alistair's Walking Alembic | Шагающий перегонный куб Алистера |
+| Forge Monarch Bomb | Ковка бомбы «Монарх» |
+| Forge Phalanx Beetle | Ковка фалангового жука |
 
 ## items
 
@@ -939,3 +951,18 @@
 | English | Русское название |
 |---|---|
 | Wands | Палочки |
+
+## monsters
+
+| English | Русское название |
+|---|---|
+| spellspark servitor | прислужник искры заклинаний |
+| platinum paragon | платиновый идеал |
+| martyred shade | тень мученика |
+| nameless horror | безымянный ужас |
+| cactus giant | кактусовый великан |
+| clockwork bee | заводная пчела |
+| walking alembic | шагающий перегонный куб |
+| monarch bomb | бомба «Монарх» |
+| phalanx beetle | фаланговый жук |
+| living spell | живое заклинание |

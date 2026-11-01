@@ -18,6 +18,7 @@
 #include "hints.h"
 #include "items.h" // stack_iterator
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "output.h"
 #include "player.h"
@@ -144,12 +145,14 @@ int cast_selective_amnesia(const string &pre_msg)
         const bool in_library = you.spell_library[spell];
         if (spell != SPELL_NO_SPELL)
         {
-            const string prompt = make_stringf(
-                    "Forget %s, freeing %d spell level%s for a total of %d?%s",
-                    spell_title(spell), spell_levels_required(spell),
-                    spell_levels_required(spell) != 1 ? "s" : "",
-                    player_spell_levels(false) + spell_levels_required(spell),
-                    in_library ? "" : " This spell is not in your library!");
+            const int levels = spell_levels_required(spell);
+            string prompt = make_stringf(localise(levels == 1
+                    ? "Forget %s, freeing %d spell level for a total of %d?"
+                    : "Forget %s, freeing %d spell levels for a total of %d?").c_str(),
+                    localise(spell_title(spell)).c_str(), levels,
+                    player_spell_levels(false) + levels);
+            if (!in_library)
+                prompt += localise(" This spell is not in your library!");
 
             if (yesno(prompt.c_str(), in_library, 'n', false))
             {

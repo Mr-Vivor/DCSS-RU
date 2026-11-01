@@ -16,14 +16,15 @@
     "skill": 29,
     "branches": 1,
     "gods": 26,
-    "spell": 92,
+    "spell": 104,
     "items": 319,
     "ability": 155,
     "cards": 24,
     "unrand": 154,
     "banes": 13,
     "gizmo_effects": 4,
-    "item_classes": 1
+    "item_classes": 1,
+    "monsters": 10
   },
   "static_catalogs": {
     "ui": 477,
@@ -53,7 +54,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 9789,
+  "additional_system_messages": 9839,
   "reviewed_artifact_powers": {
     "fields": 103,
     "description_lines": 129
@@ -73,7 +74,7 @@
     "items": 317,
     "skills": 29,
     "egos": 80,
-    "spells": 87,
+    "spells": 99,
     "ability": 155,
     "monsters": 2,
     "status": 28,

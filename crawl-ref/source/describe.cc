@@ -4908,24 +4908,24 @@ static string _miscast_damage_string(spell_type spell)
 
     for (const auto &flav : special_flavor)
         if (disciplines & flav.first)
-            descs.push_back(flav.second);
+            descs.push_back(localise_in_context("spell-miscast", flav.second));
 
     int dam = max_miscast_damage(spell);
     vector <string> dam_flavors;
     for (const auto &flav : damage_flavor)
         if (disciplines & flav.first)
-            dam_flavors.push_back(flav.second);
+            dam_flavors.push_back(localise_in_context("spell-miscast", flav.second));
 
     if (!dam_flavors.empty())
     {
-        descs.push_back(make_stringf("deals up to %d %s damage", dam,
+        descs.push_back(make_stringf(localise_in_context("spell-miscast", "deals up to %d %s damage").c_str(), dam,
                                      comma_separated_line(dam_flavors.begin(),
                                                          dam_flavors.end(),
-                                                         " or ").c_str()));
+                                                         localise(" or ")).c_str()));
     }
 
-    return (descs.size() > 1 ? "either " : "")
-         + comma_separated_line(descs.begin(), descs.end(), " or ", "; ");
+    return (descs.size() > 1 ? localise_in_context("spell-miscast", "either ") : "")
+         + comma_separated_line(descs.begin(), descs.end(), localise(" or "), "; ");
 }
 
 static int _spell_fail_at_level(spell_type spell, const skill_set &skills,
@@ -5054,91 +5054,89 @@ static string _player_spell_desc(spell_type spell)
 
     ostringstream description;
 
-    description << "Miscasting this spell causes magic contamination"
-                << (fail_severity(spell) ?
-                    " and also " + _miscast_damage_string(spell) : "")
-                << ".\n";
+    if (fail_severity(spell))
+        description << make_stringf(localise("Miscasting this spell causes magic contamination and also %s.\n").c_str(),
+                                     _miscast_damage_string(spell).c_str());
+    else
+        description << localise("Miscasting this spell causes magic contamination.\n");
 
     description << _spell_fail_training_desc(spell);
 
     if (spell == SPELL_BATTLESPHERE)
     {
         vector<spell_type> battlesphere_spells = player_battlesphere_spells();
-        description << "Your battlesphere";
         if (battlesphere_spells.empty())
-            description << " is not activated by any of your spells";
+            description << localise("Your battlesphere is not activated by any of your spells.\n");
         else
         {
-            description << " fires when you cast "
-                        << comma_separated_fn(battlesphere_spells.begin(),
+            const string spells = comma_separated_fn(battlesphere_spells.begin(),
                                               battlesphere_spells.end(),
-                                              spell_title,
-                                              " or ");
+                                              [](spell_type s) { return localise(spell_title(s)); },
+                                              localise(" or "));
+            description << make_stringf(localise("Your battlesphere fires when you cast %s.\n").c_str(),
+                                         spells.c_str());
         }
-        description << ".\n";
     }
 
     if (spell == SPELL_SPELLSPARK_SERVITOR)
     {
         spell_type servitor_spell = player_servitor_spell();
-        description << "Your servitor";
         if (servitor_spell == SPELL_NO_SPELL)
-            description << " is unable to mimic any of your spells";
+            description << localise("Your servitor is unable to mimic any of your spells.\n");
         else
-            description << " casts " << spell_title(player_servitor_spell());
-        description << ".\n";
+            description << make_stringf(localise("Your servitor casts %s.\n").c_str(),
+                                         localise(spell_title(servitor_spell)).c_str());
     }
     else if (spell == SPELL_PLATINUM_PARAGON)
     {
         if (you.props.exists(PARAGON_WEAPON_KEY))
         {
-            description << "Your paragon wields "
-                        << you.props[PARAGON_WEAPON_KEY].get_item()
-                           .name(DESC_A, true).c_str()
-                        << ".\n";
+            description << make_stringf(localise("Your paragon wields %s.\n").c_str(),
+                localise(you.props[PARAGON_WEAPON_KEY].get_item().name(DESC_A, true)).c_str());
         }
     }
     else if (you.has_spell(SPELL_SPELLSPARK_SERVITOR) && spell_servitorable(spell))
     {
         if (failure_rate_to_int(raw_spell_fail(spell)) <= 20)
-            description << "Your servitor can be imbued with this spell.\n";
+            description << localise("Your servitor can be imbued with this spell.\n");
         else
         {
-            description << "Your servitor could be imbued with this spell if "
-                           "your spell success rate were higher.\n";
+            description << localise("Your servitor could be imbued with this spell if "
+                           "your spell success rate were higher.\n");
         }
     }
 
     if (spell == SPELL_IRRADIATE)
-        description << "This inflicts up to 40% magical contamination when cast by you.\n";
+        description << localise("This inflicts up to 40% magical contamination when cast by you.\n");
 
     // Report summon cap
     const int limit = summons_limit(spell, true);
     if (limit)
     {
-        description << "You can sustain at most " + number_in_words(limit)
-                    // Attempt to clarify that flayed ghosts are NOT included in the cap
-                    << (spell == SPELL_MARTYRS_KNELL ? " martyred shade" : " creature")
-                    << (limit > 1 ? "s" : "")
-                    << " summoned by this spell.\n";
+        // Flayed ghosts produced by Martyr's Knell are not part of this cap.
+        const char* format = spell == SPELL_MARTYRS_KNELL
+            ? (limit == 1 ? "You can sustain at most %d martyred shade summoned by this spell.\n"
+                          : "You can sustain at most %d martyred shades summoned by this spell.\n")
+            : (limit == 1 ? "You can sustain at most %d creature summoned by this spell.\n"
+                          : "You can sustain at most %d creatures summoned by this spell.\n");
+        description << make_stringf(localise(format).c_str(), limit);
     }
 
     if (god_likes_spell(spell, you.religion))
     {
-        description << uppercase_first(god_name(you.religion))
-                    << " supports the use of this spell.\n";
+        description << make_stringf(localise("%s supports the use of this spell.\n").c_str(),
+                                    localise(uppercase_first(god_name(you.religion))).c_str());
     }
 
     if (you.has_mutation(MUT_MNEMOPHAGE) && spell_can_be_enkindled(spell))
-        description << "This spell is empowered while you are enkindled.\n";
+        description << localise("This spell is empowered while you are enkindled.\n");
 
     if (!you_can_memorise(spell))
     {
-        description << "\nYou cannot "
-                    << (you.has_spell(spell) ? "cast" : "memorise")
-                    << " this spell: "
-                    << desc_cannot_memorise_reason(spell)
-                    << "\n";
+        description << make_stringf(localise(you.has_spell(spell)
+                    ? "\nYou cannot cast this spell: %s\n"
+                    : "\nYou cannot memorise this spell: %s\n").c_str(),
+                    localise(desc_cannot_memorise_reason(spell)).c_str());
     }
     else if (casting_is_useless(spell, true))
     {
@@ -5150,17 +5148,17 @@ static string _player_spell_desc(spell_type spell)
     }
     else if (spell_is_useless(spell, true, false))
     {
-        description << "\nThis spell would have no effect right now because "
-                    << spell_uselessness_reason(spell, true, false)
-                    << "\n";
+        description << make_stringf(localise("\nThis spell would have no effect right now because %s\n").c_str(),
+                    localise(spell_uselessness_reason(spell, true, false)).c_str());
     }
 
     if (spell == SPELL_GRAVE_CLAW && you.has_spell(SPELL_GRAVE_CLAW))
     {
-        description << "\nYou have harvested enough death to cast this spell "
-                    << you.props[GRAVE_CLAW_CHARGES_KEY].get_int() << " time"
-                    << (you.props[GRAVE_CLAW_CHARGES_KEY].get_int() == 1 ? "" : "s")
-                    << ". (Maximum of " << GRAVE_CLAW_MAX_CHARGES << ".)";
+        const int charges = you.props[GRAVE_CLAW_CHARGES_KEY].get_int();
+        description << make_stringf(localise(charges == 1
+                    ? "\nYou have harvested enough death to cast this spell %d time. (Maximum of %d.)"
+                    : "\nYou have harvested enough death to cast this spell %d times. (Maximum of %d.)").c_str(),
+                    charges, GRAVE_CLAW_MAX_CHARGES);
     }
 
     return description.str();
@@ -5216,21 +5214,21 @@ static void _get_spell_description(const spell_type spell,
         if (spell == SPELL_CONJURE_LIVING_SPELLS)
         {
             const spell_type living_spell = living_spell_type_for(mon_owner->type);
-            description += make_stringf("\n%s creates living %s spells.\n",
-                                        uppercase_first(mon_owner->full_name(DESC_A)).c_str(),
-                                        spell_title(living_spell));
+            description += make_stringf(localise("\n%s creates living %s spells.\n").c_str(),
+                                        localise(uppercase_first(mon_owner->full_name(DESC_A))).c_str(),
+                                        localise(spell_title(living_spell)).c_str());
         }
         else if (spell == SPELL_QUICKSILVER_BOLT)
         {
             if (player_is_debuffable())
             {
-                description += make_stringf("\nIf you are struck by this,"
-                                            " you will no longer be %s.\n",
-                                            describe_player_cancellation(true).c_str());
+                description += make_stringf(localise("\nIf you are struck by this,"
+                                            " you will no longer be %s.\n").c_str(),
+                                            localise(describe_player_cancellation(true)).c_str());
             }
             else
-                description += "\nYou currently have no enchantments that could be"
-                               " removed by this.\n";
+                description += localise("\nYou currently have no enchantments that could be"
+                               " removed by this.\n");
 
         }
 
@@ -5240,27 +5238,27 @@ static void _get_spell_description(const spell_type spell,
                                 || spell == SPELL_FLASHING_BALESTRA
                                 || spell == SPELL_BECKONING_GALE ? 3 : 0);
 
-        description += "\nRange : ";
-        description += range_string(range, -1, minrange);
+        description += localise("\nRange : ");
+        description += localise(range_string(range, -1, minrange));
 
         const string defence_string = spell_defence_string(spell, true, mon_pow);
         const string resist_string = spell_resist_string(spell, true, mon_pow);
         if (!defence_string.empty())
-            description += "\nDefences : " + defence_string;
+            description += localise("\nDefences : ") + localise(defence_string);
         if (!resist_string.empty())
-            description += "\nResists : " + resist_string;
+            description += localise("\nResists : ") + localise(resist_string);
 
         if (crawl_state.need_save && you_worship(GOD_DITHMENOS))
         {
             if (!valid_marionette_spell(spell))
             {
-                description += "\n\n<magenta>This spell cannot be performed via "
-                               "Aphotic Marionette.</magenta>\n";
+                description += localise("\n\n<magenta>This spell cannot be performed via "
+                               "Aphotic Marionette.</magenta>\n");
             }
             else if (spell_has_marionette_override(spell))
             {
-                description += "\n\n<magenta>When cast via Aphotic Marionette, "
-                               "this spell will affect the player instead.";
+                description += localise("\n\n<magenta>When cast via Aphotic Marionette, "
+                               "this spell will affect the player instead.");
             }
         }
 
@@ -5270,11 +5268,11 @@ static void _get_spell_description(const spell_type spell,
         const int limit = summons_limit(spell, false);
         if (limit)
         {
-            description += make_stringf("%s can sustain at most %s creature%s "
-                               "summoned by this spell.\n",
-                               uppercase_first(mon_owner->full_name(DESC_THE)).c_str(),
-                               number_in_words(limit).c_str(),
-                               limit > 1 ? "s" : "");
+            description += make_stringf(localise(limit == 1
+                               ? "%s can sustain at most %d creature summoned by this spell.\n"
+                               : "%s can sustain at most %d creatures summoned by this spell.\n").c_str(),
+                               localise(uppercase_first(mon_owner->full_name(DESC_THE))).c_str(),
+                               limit);
         }
 
         // only display this if the player exists (not in the main menu)
@@ -5295,10 +5293,10 @@ static void _get_spell_description(const spell_type spell,
                 wiz_info += make_stringf(" (pow %d)", _mon_hex_pow(spell, mon_owner, is_wand));
 #endif
             description += you.immune_to_hex(spell)
-                ? make_stringf("You cannot be affected by this "
-                               "spell right now. %s\n",
+                ? make_stringf(localise("You cannot be affected by this "
+                               "spell right now. %s\n").c_str(),
                                wiz_info.c_str())
-                : make_stringf("Chance to defeat your Will: %d%%%s\n",
+                : make_stringf(localise("Chance to defeat your Will: %d%%%s\n").c_str(),
                                hex_chance(spell, mon_owner, is_wand),
                                wiz_info.c_str());
         }

@@ -2054,7 +2054,7 @@ Matches:
 %%%%
 Select a spell to cast with Divine Exegesis: @num@ MP available
 
-Выберите заклинание для Божественного толкования. Доступно ОМ: @num@
+Выберите заклинание для Божественной экзегезы. Доступно магии: @num@
 %%%%
 1 spell level left
 
@@ -2450,7 +2450,7 @@ Something interferes with your magic!
 %%%%
 You're too confused to cast spells.
 
-Вы слишком растеряны, чтобы творить заклинания.
+В замешательстве нельзя творить заклинания.
 %%%%
 You cannot cast spells when silenced!
 
@@ -3358,7 +3358,7 @@ Chance to defeat your Will: @num@%%@arg@
 %%%%
 Miscasting this spell causes magic contamination.
 
-Неудачное сотворение этого заклинания вызывает магическое загрязнение.
+Ошибка колдовства вызывает магическое загрязнение.
 %%%%
 Miscasting this spell causes magic contamination and also @arg@.
 
@@ -16474,15 +16474,15 @@ Rndm
 %%%%
 you're too confused to cast spells.
 
-вы слишком растеряны, чтобы творить заклинания.
+в замешательстве нельзя творить заклинания.
 %%%%
 you aren't experienced enough to cast this spell.
 
-у вас недостаточно опыта для сотворения этого заклинания.
+для сотворения нужен более высокий уровень персонажа.
 %%%%
 you cannot pay life while functionally dead.
 
-нельзя тратить жизненную силу, пока вы фактически мертвы.
+под действием «Порога смерти» нельзя тратить здоровье на заклинания.
 %%%%
 you don't have enough health to cast this spell.
 
@@ -16506,11 +16506,11 @@ you cannot use spells of this school.
 %%%%
 you cannot coerce anything to answer your summons.
 
-никто не откликнется на ваш призыв.
+вам недоступен призыв союзников.
 %%%%
 you cannot coerce anything to obey you.
 
-вы никого не можете заставить подчиниться вам.
+вам недоступно создание или призыв союзников.
 %%%%
 you can't cast spells right now.
 
@@ -16578,19 +16578,19 @@ you cannot be healed further.
 %%%%
 you lack the resilience to cast this spell.
 
-вашего максимального запаса здоровья недостаточно для этого заклинания.
+для этого заклинания нужно не менее 21 максимального здоровья.
 %%%%
 you're too dead.
 
-вы уже мертвы.
+в состоянии нежити это заклинание недоступно.
 %%%%
 you are already standing in death's doorway.
 
-вы уже стоите на пороге смерти.
+на вас уже действует «Порог смерти».
 %%%%
 you are still too close to death's doorway.
 
-вы ещё слишком близки к порогу смерти.
+после «Порога смерти» ещё не закончился перерыв перед повторным применением.
 %%%%
 the film of ice won't work on stone.
 
@@ -27374,23 +27374,23 @@ You cannot reach a failure rate of @num@% for this spell by training only its sc
 %%%%
 Your servitor can be imbued with this spell.
 
-Вашего слугу можно наделить этим заклинанием.
+Будущего прислужника можно наделить этим заклинанием.
 %%%%
 Your servitor could be imbued with this spell if your spell success rate were higher.
 
-Вашего слугу можно было бы наделить этим заклинанием при большей вероятности успешного колдовства.
+Чтобы наделить будущего прислужника этим заклинанием, нужно снизить вероятность неудачи до 20% или ниже.
 %%%%
 This inflicts up to 40% magical contamination when cast by you.
 
-При вашем сотворении вызывает до 40% магического загрязнения.
+При вашем применении добавляет до 40% магического загрязнения.
 %%%%
 This spell is empowered while you are enkindled.
 
-Это заклинание усиливается, пока на вас действует воспламенение.
+Это заклинание усиливается под действием способности «Возжечь пламя».
 %%%%
 You currently have no enchantments that could be removed by this.
 
-Сейчас на вас нет чар, которые можно снять этим эффектом.
+Сейчас на вас нет эффектов, которые можно снять этим заклинанием.
 %%%%
 <magenta>This spell cannot be performed via Aphotic Marionette.</magenta>
 
@@ -30198,7 +30198,7 @@ Resists
 %%%%
 you cannot cast such powerful magic in your current form.
 
-в нынешнем облике вы не можете творить столь могущественные заклинания.
+в облике живого свитка нельзя творить заклинания выше 4-го уровня.
 %%%%
 @God@ won't allow you to cast this spell.
 
@@ -30298,11 +30298,11 @@ your pet crocodile is still here.
 %%%%
 you must imprint a weapon on your paragon first! (Use the Imprint Weapon ability)
 
-сначала нужно запечатлеть оружие в вашем платиновом идеале! (Используйте способность «Запечатлеть оружие».)
+сначала нужно выбрать оружие для будущего платинового идеала! (Способность «Запечатлеть оружие».)
 %%%%
 your paragon is already deployed, but not yet charged.
 
-ваш платиновый идеал уже развёрнут, но ещё не заряжен.
+ваш платиновый идеал уже создан, но ещё не накопил заряд для повторного применения.
 %%%%
 you are already charging a Fortress Blast.
 
@@ -39155,3 +39155,203 @@ wands
 wand
 
 палочка
+%%%%
+Miscasting this spell causes magic contamination and also %s.
+
+Ошибка колдовства вызывает магическое загрязнение. Дополнительный эффект: %s.
+%%%%
+Your battlesphere is not activated by any of your spells.
+
+Ни одно из ваших заклинаний сейчас не вызывает выстрел боевой сферы.
+%%%%
+Your battlesphere fires when you cast %s.
+
+Ваша боевая сфера стреляет при применении заклинаний: %s.
+%%%%
+Your servitor is unable to mimic any of your spells.
+
+Ваш прислужник не может повторить ни одно из ваших заклинаний.
+%%%%
+Your servitor casts %s.
+
+Ваш прислужник творит заклинание «%s».
+%%%%
+Your paragon wields %s.
+
+Оружие вашего платинового идеала: %s.
+%%%%
+You can sustain at most %d creature summoned by this spell.
+
+Предел одновременно поддерживаемых существ от этого заклинания: %d.
+%%%%
+You can sustain at most %d creatures summoned by this spell.
+
+Предел одновременно поддерживаемых существ от этого заклинания: %d.
+%%%%
+You can sustain at most %d martyred shade summoned by this spell.
+
+Предел призывов заклинания «Погребальный звон мученика»: %d; появившиеся из них призраки в предел не входят.
+%%%%
+You can sustain at most %d martyred shades summoned by this spell.
+
+Предел призывов заклинания «Погребальный звон мученика»: %d; появившиеся из них призраки в предел не входят.
+%%%%
+%s supports the use of this spell.
+
+Божество «%s» одобряет применение этого заклинания.
+%%%%
+You cannot cast this spell: %s
+
+Вы не можете сотворить это заклинание: %s
+%%%%
+You cannot memorise this spell: %s
+
+Вы не можете изучить это заклинание: %s
+%%%%
+This spell would have no effect right now because %s
+
+Сейчас это заклинание не даст эффекта. Причина: %s
+%%%%
+You have harvested enough death to cast this spell %d time. (Maximum of %d.)
+
+Накоплено применений за счёт смертей: %d (максимум: %d).
+%%%%
+You have harvested enough death to cast this spell %d times. (Maximum of %d.)
+
+Накоплено применений за счёт смертей: %d (максимум: %d).
+%%%%
+%s creates living %s spells.
+
+Заклинатель «%s» создаёт живые воплощения заклинания «%s».
+%%%%
+If you are struck by this, you will no longer be %s.
+
+При попадании снимет следующие эффекты: %s.
+%%%%
+"Defences : "
+
+"Защита: "
+%%%%
+"Resists : "
+
+"Сопротивления: "
+%%%%
+%s can sustain at most %d creature summoned by this spell.
+
+Для заклинателя «%s» предел существ от этого заклинания: %d.
+%%%%
+%s can sustain at most %d creatures summoned by this spell.
+
+Для заклинателя «%s» предел существ от этого заклинания: %d.
+%%%%
+You cannot be affected by this spell right now. %s
+
+Сейчас это заклинание не может на вас подействовать. %s
+%%%%
+Chance to defeat your Will: %d%%%s
+
+Шанс преодолеть вашу силу воли: %d%%%s
+%%%%
+Forget %s, freeing %d spell level for a total of %d?
+
+Забыть заклинание «%s»? Освободится уровней заклинаний: %d; всего станет доступно: %d.
+%%%%
+Forget %s, freeing %d spell levels for a total of %d?
+
+Забыть заклинание «%s»? Освободится уровней заклинаний: %d; всего станет доступно: %d.
+%%%%
+" This spell is not in your library!"
+
+" Этого заклинания нет в вашей библиотеке!"
+%%%%
+You continue winding your clockwork bee...
+
+Вы продолжаете заводить механизм пчелы...
+%%%%
+Without a target, your clockwork bee falls to the ground.
+
+Не найдя цели, ваша заводная пчела падает на землю.
+%%%%
+If you tried to rewind gears in your present state, you'd only break them.
+
+В состоянии ярости вы не можете завести механизм пчелы.
+%%%%
+You need a visible target to rewind your bee! (Use ctrl+direction or * direction to deconstruct it instead.)
+
+Чтобы снова завести пчелу, нужна видимая цель! (Для разборки используйте Ctrl+направление или *, затем направление.)
+%%%%
+You lack sufficient magical power to recharge your bee.
+
+Чтобы снова завести пчелу, нужна 1 единица магии.
+%%%%
+Your paragon attacks with you!
+
+Ваш платиновый идеал атакует вместе с вами!
+%%%%
+Your paragon is now ready to unleash a masterful attack.
+
+Ваш платиновый идеал готов к мощной атаке.
+%%%%
+You craft a gleaming metal champion and it leaps into the fray!
+
+Вы создаёте сияющего металлического воителя, и он устремляется в бой!
+%%%%
+But you're too far away!
+
+Но вы слишком далеко!
+%%%%
+Mmmm... tastes like @any_potion@.
+
+М-м-м... вкус зелья «@any_potion@».
+%%%%
+{spell-miscast}irresistible
+
+{spell-miscast}без сопротивлений
+%%%%
+{spell-miscast}draining
+
+{spell-miscast}отрицательная энергия
+%%%%
+{spell-miscast}fire
+
+{spell-miscast}огонь
+%%%%
+{spell-miscast}cold
+
+{spell-miscast}холод
+%%%%
+{spell-miscast}electric
+
+{spell-miscast}электричество
+%%%%
+{spell-miscast}fragmentation
+
+{spell-miscast}осколки
+%%%%
+{spell-miscast}summons a nameless horror
+
+{spell-miscast}призыв безымянного ужаса
+%%%%
+{spell-miscast}anchors you in place
+
+{spell-miscast}временная невозможность передвигаться и телепортироваться
+%%%%
+{spell-miscast}slows you
+
+{spell-miscast}замедление
+%%%%
+{spell-miscast}poisons you
+
+{spell-miscast}отравление
+%%%%
+{spell-miscast}corrodes you
+
+{spell-miscast}коррозия
+%%%%
+{spell-miscast}deals up to %d %s damage
+
+{spell-miscast}урон до %d (%s)
+%%%%
+"{spell-miscast}either "
+
+"{spell-miscast}один из вариантов — "

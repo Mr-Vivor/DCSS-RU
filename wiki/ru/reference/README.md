@@ -443,6 +443,18 @@
 - [Магнавольт](spells/magnavolt-spell.md)
 - [Инеевый мор](spells/rimeblight-spell.md)
 - [Извержение вечной мерзлоты](spells/permafrost-eruption-spell.md)
+- [Прислужник искры заклинаний](spells/spellspark-servitor-spell.md)
+- [Платиновый идеал](spells/platinum-paragon-spell.md)
+- [Пробуждение доспеха](spells/awaken-armour-spell.md)
+- [Создание живых заклинаний](spells/conjure-living-spells-spell.md)
+- [Ртутный разряд](spells/quicksilver-bolt-spell.md)
+- [Призыв ужасных созданий](spells/summon-horrible-things-spell.md)
+- [Призыв гидры](spells/summon-hydra-spell.md)
+- [Призыв кактусового великана](spells/summon-cactus-giant-spell.md)
+- [Запуск заводной пчелы](spells/launch-clockwork-bee-spell.md)
+- [Шагающий перегонный куб Алистера](spells/alistair's-walking-alembic-spell.md)
+- [Ковка бомбы «Монарх»](spells/forge-monarch-bomb-spell.md)
+- [Ковка фалангового жука](spells/forge-phalanx-beetle-spell.md)
 
 ## Способности
 

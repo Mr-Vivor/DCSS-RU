@@ -1584,8 +1584,8 @@
       "translation_sha256": "c0a9484dfa0fad7e880c9baf76a413112e26b58724bf0763a135253fd8b8549a"
     },
     "Select a spell to cast with Divine Exegesis: @num@ MP available": {
-      "context": "spl-book.cc",
-      "translation_sha256": "099358edf84a38a60b4c8b4fea708b9b7ea707b9d825e25447bca871fe00e8f6"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "3002b817a274cae99b6a9f5dcb07ec33134440d5f932d85181716d47a9955e88"
     },
     "1 spell level left": {
       "context": "spl-book.cc",
@@ -1996,8 +1996,8 @@
       "translation_sha256": "9aa5a0e046058701e97a04525ff35c0dc722d1a3f20b41f9134dd952a232f0be"
     },
     "You're too confused to cast spells.": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "d5e79f6142ee755b1943a2ecb30502b57ea3912f7fdf834b37f965e03d0fedeb"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "23de31ed1baf2dc867aaa56b668afca266e890c3a80753cca89549588bc95cef"
     },
     "You cannot cast spells when silenced!": {
       "context": "spl-cast.cc",
@@ -2912,8 +2912,8 @@
       "translation_sha256": "9b26e6f6ef1a3b9aeb2b6ddc795bebee99765345b90a635157623f8beb41c2d9"
     },
     "Miscasting this spell causes magic contamination.": {
-      "context": "describe.cc; dat/translate/messages.txt",
-      "translation_sha256": "20ab04152c3ba18ff4fa1112d5207a0bdb38f398c3689c394a3d4d21e13c33a1"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "10868e7bb9e2a59ebee19687bad570299dd93ac764ce549892e57dda047cd6bf"
     },
     "Miscasting this spell causes magic contamination and also @arg@.": {
       "context": "describe.cc; dat/translate/messages.txt",
@@ -16032,16 +16032,16 @@
       "translation_sha256": "ec34b3c6acaa307e75e11be44bfc4b206ddac65b26c07f61ebfaf8b5fc8bd24d"
     },
     "you're too confused to cast spells.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "f849b9105e7d625f5a2ae4ecd6faef70e4525b0b81329929dd8e7681ba1554a5"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "9c706f5ab37a2d150fd4caa6b54575207c9bc9474e2b916795793bc5d8933335"
     },
     "you aren't experienced enough to cast this spell.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "0906f978036e05392f675e306616c787d698f9b7d1b771c737b6cdc8d26ab665"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "5bc30e62a585a589bb93c16322331cdae31fa763207969854d920a9a626de5a2"
     },
     "you cannot pay life while functionally dead.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "92ab36b2b0baeb278511c8259e3e6d02987467efc80f8b3f12cb74bcd61fb7aa"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "ea286e6588901b6ae11691bb56f865ce7bec36019bba29a78fd9e6548b95765e"
     },
     "you don't have enough health to cast this spell.": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
@@ -16064,12 +16064,12 @@
       "translation_sha256": "3649fef07d0cced3589bd089a58f349e9994abe9e7417d81e54d2e10556976ff"
     },
     "you cannot coerce anything to answer your summons.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "cfc6bece6d480149a3186733122808ebf94d7e81aff412936a933f5081748693"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "c6b2eda50b214eaa8f76606fdb1518bd6b837a44969fe67ea5aae6db2a2e2fe8"
     },
     "you cannot coerce anything to obey you.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "52428fe94bbb911eb1ce9ec48c33f6a9a5b01e755ba4dadf2f60c419bbec93a7"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "8d463f386c3f6c0f45058101ab6cb7a967872a7c8edfb6dca767ca3ad7393a2e"
     },
     "you can't cast spells right now.": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
@@ -16136,20 +16136,20 @@
       "translation_sha256": "b4722bff23d7e9e4fd0ede0548c554706d24b3a0bf1d5ec08c82368c490598de"
     },
     "you lack the resilience to cast this spell.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "f7954e2704908f000ff3e2b8d47e43d7f4f9c329909d6761572eb171f2b3d3b4"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "190ff4de021d77b36fc79ab7069e911d337715679c3c14e3bb4f4a5f9e421a14"
     },
     "you're too dead.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "1da069c3a2933cd4a986dfda91f8c84df84ff17cac8495cb05e4427d10457a59"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "ca89d9089eff28e8ed0f621539ebf4dd48a6712937cc3e5a0c0c251eee881c02"
     },
     "you are already standing in death's doorway.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "bf4204d3942b6d67e7abf663edc519b86b42788bdedbb4947c3b1882588de402"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "08bf1eedfcdc924230c2a0aa6b72e17d4bdb92a361148e18c5b0a0ad1947621d"
     },
     "you are still too close to death's doorway.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "f7f09b46f2c5d7fe88f7297e4b8a280a72b5401b784c3fd7a590ebaa57ce4289"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "38046191a0647c213e53026451a77c4eac6d2a3223f30c66339848a64958f540"
     },
     "the film of ice won't work on stone.": {
       "context": "spl-util.cc",
@@ -22400,7 +22400,7 @@
       "translation_sha256": "487a191ee3c2d29494c49370615ed3114259e50481608f3c7c2d907305d510ea"
     },
     "Range : ": {
-      "context": "describe.cc",
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
       "translation_sha256": "7b2364ddc0af4d9c30111f2f93aba4d46ae913453f00fd8d3cfe70cc1d7c08ee"
     },
     " (pow @num@)": {
@@ -26932,24 +26932,24 @@
       "translation_sha256": "28c07624fbb8e178c75819a4267aaf8a02ac6c1544a2dd63bc616b26d6c815c0"
     },
     "Your servitor can be imbued with this spell.": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "4fd249124019b38af35831f9c00ce3b52b48dca19b09b316a758069b235ec7c3"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "2a24c8ef750ebe29204ce58c6a4712f01ccbfd18ed9a0ad72d1f4e70873bcd25"
     },
     "Your servitor could be imbued with this spell if your spell success rate were higher.": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "f19a71bc703fdd6689f781734739e1170d319fedc5a4bc170938c87bdffcd873"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "51c49d6127210ef5088b97212713a628c6f2dcf29e9823db7d5380cd33950dfe"
     },
     "This inflicts up to 40% magical contamination when cast by you.": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "c119257b47ddba4633f555ba9cd0892c34c99e0d963585f49b1a3143f625424a"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "4ef4a29939391571b51e73a2f8798c169461e39ea953fbfff2c7844fadc929be"
     },
     "This spell is empowered while you are enkindled.": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "72a08a24363cb3a668f9acc3f9fc4616135cc83deaf672bb46bb87704c0f272d"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "fd2d250a4ebc6d4649b7ea57785c6dd7c370ece88455d9408d3874ec7d216b81"
     },
     "You currently have no enchantments that could be removed by this.": {
-      "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
-      "translation_sha256": "2d8e7761a313168df7a4b5beebbe20204291ca6e8991ebabd55c7797d3caafa7"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "c9ec72c95b03c97b54d55901379d4005f3b342c1bfe89321ca3f96a4fe0143fc"
     },
     "<magenta>This spell cannot be performed via Aphotic Marionette.</magenta>": {
       "context": "spl-cast.cc and describe.cc / spell mechanics, failure and targeting",
@@ -28640,7 +28640,7 @@
       "translation_sha256": "1dc8cc8fb04360a64f255bd1039c092b2e800b762376aed48c959a9581bf5f36"
     },
     "<lightgrey>Select a spell to forget</lightgrey>": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
       "translation_sha256": "1660a3d3a49409d2178fdd69e36c77b4d20ac86eab598403664606b36435292c"
     },
     "<lightgrey>Select a spell to quiver</lightgrey>": {
@@ -29784,8 +29784,8 @@
       "translation_sha256": "3498f25c12f488c3980749dfb9d155ef820a9055ea1da6b96abee2fac7e542d8"
     },
     "you cannot cast such powerful magic in your current form.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "19b33a70862b478bbf49046c11fb08a62e5a6a4662bb49c538b4aec88a2ea127"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "ed276b6a9b164efda868350fb92486041df5cfb1fcf5ff2c3e8abc235128f30e"
     },
     "@God@ won't allow you to cast this spell.": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
@@ -29884,12 +29884,12 @@
       "translation_sha256": "f279f7c3b86fc9e97d05b2ced906092a73ffc1c6da4b1e0e82600b86d5d5d64d"
     },
     "you must imprint a weapon on your paragon first! (Use the Imprint Weapon ability)": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "ea72814799e9c8493f92a4b564b8e3ac98a6b728971f7c3a16f980ee0a9e5cc5"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "f735090e2da07f7cbfc769d619cabd80ba7f43cdf0359d4b3047e260a6199bf9"
     },
     "your paragon is already deployed, but not yet charged.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "e34ba79eee6857e2b0dc933f4038d126af07001cc3b225f08168b4bce9d74ece"
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "aab5ecf720cf74cf2667183213e5f6e2cb8dcb89dee78a156564206278d9307f"
     },
     "you are already charging a Fortress Blast.": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
@@ -38802,6 +38802,206 @@
     "wand": {
       "context": "describe.cc training forecasts, equip/removal previews and usefulness headers; acquire.cc selection/confirmation UI; shopping.cc shopping-list travel prompt and funds. Complete formats translated before substitution. XP costs are equivalent character-level experience, not turns; 100 percent is training allocation. AC/EV/SH and delay signs, rounding, comparison arrows, command keys, actual item values and eligibility checks unchanged.",
       "translation_sha256": "0e26d6dfe8c0672c1015318693495b0a1953ddeb2d1de4a486f7a74cb26913f5"
+    },
+    "Miscasting this spell causes magic contamination and also %s.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "c9c2ae2d9adc8110e566886de7dc2069e0b94422a0581b16c6c00b89a9aafb48"
+    },
+    "Your battlesphere is not activated by any of your spells.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "2cdda3723e5bf8429275eb19550c2ba61e91e9611d25eab8d92e77cc4582e917"
+    },
+    "Your battlesphere fires when you cast %s.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "2b4009516865d28935784ca18cc25e6daf2746969f431af01005296cfbff0314"
+    },
+    "Your servitor is unable to mimic any of your spells.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "0b1a0fb319ca91b27c4233c084a497cff8f7c6178c2e16b38062b7ebcb0c33f4"
+    },
+    "Your servitor casts %s.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "42f4da3532795bee7645cb42cf5fef474a672ad082553297e6c03ac133216dd7"
+    },
+    "Your paragon wields %s.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "fff98df44ca05bc42396d010a5553ccd86776a51ab54b9cc03e59bc879391a21"
+    },
+    "You can sustain at most %d creature summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "4fc744b9883d6236cd61a18bb774b7d9de0919975695b037c9e25d65c8e3ed76"
+    },
+    "You can sustain at most %d creatures summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "4fc744b9883d6236cd61a18bb774b7d9de0919975695b037c9e25d65c8e3ed76"
+    },
+    "You can sustain at most %d martyred shade summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "9ee3d25549ac637a9aa303c474539bb5b2ae3d06b18056fbd4a34263e0e30989"
+    },
+    "You can sustain at most %d martyred shades summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "9ee3d25549ac637a9aa303c474539bb5b2ae3d06b18056fbd4a34263e0e30989"
+    },
+    "%s supports the use of this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "ea33455664cfb7bd3ca46c3eefacd30aeefef6a8a01a2657725668f41ad05fdd"
+    },
+    "You cannot cast this spell: %s": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "8844c4429dfee214df3d7eb20e346bee8fe3b8cd05ec0eddcd9fcdc2312943ff"
+    },
+    "You cannot memorise this spell: %s": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "f2e5b0af1a827e8075cc2201be78d7f23eb150c0265973c768d8a06f0681717a"
+    },
+    "This spell would have no effect right now because %s": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "b19344c06155e0745eb81a1695a6d82fb9e223d631c56b9556c32a8fab4fe724"
+    },
+    "You have harvested enough death to cast this spell %d time. (Maximum of %d.)": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "22afbb87574cf029f7995fd6e4a0fc7a2c76f7dd66e5dcd346c883a39555c129"
+    },
+    "You have harvested enough death to cast this spell %d times. (Maximum of %d.)": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "22afbb87574cf029f7995fd6e4a0fc7a2c76f7dd66e5dcd346c883a39555c129"
+    },
+    "%s creates living %s spells.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "2d886b790783952a42103ed3e5ca5bd92685da612b7628e886a12f619ba90d49"
+    },
+    "If you are struck by this, you will no longer be %s.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "8bb713af65e693ba90315842e81e579a3a2cd8959651b7eae5569fb63e6b7b4d"
+    },
+    "Defences : ": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "3feb1be90c36f979c3faf4bf14b43fb0b00110c1d6d07c4ab45d3f6e825ddcce"
+    },
+    "Resists : ": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "70280d9301c001b87f9e6e2a90d4aecae5506c7665a31415024273403f46b6b2"
+    },
+    "%s can sustain at most %d creature summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "6592c60682777f84e432ba521a8b1d73e381fa293fc57e1ecd847466c5142a39"
+    },
+    "%s can sustain at most %d creatures summoned by this spell.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "6592c60682777f84e432ba521a8b1d73e381fa293fc57e1ecd847466c5142a39"
+    },
+    "You cannot be affected by this spell right now. %s": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "5677d395586b95de09cda0f2c1580103b88ce7100fba2de9fa0f5f1ba3fe9ff4"
+    },
+    "Chance to defeat your Will: %d%%%s": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "9b2183e0bf37fb55b34a4a95759d65e81c93199fe9b81857b34fe52e14a6409d"
+    },
+    "Forget %s, freeing %d spell level for a total of %d?": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "e2020c8e1bbec1f6b1eeb2ce06f1241f655499ba6fc8d49842c410feb88e5985"
+    },
+    "Forget %s, freeing %d spell levels for a total of %d?": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "e2020c8e1bbec1f6b1eeb2ce06f1241f655499ba6fc8d49842c410feb88e5985"
+    },
+    " This spell is not in your library!": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "1184f1c59cfafeb4686ef60d6a21c93d8ec58f73634ad1fd01272445507ceebe"
+    },
+    "You continue winding your clockwork bee...": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "3dab00db6e1c5ae82051ea98d33ba8c1a4f2448dd38694a8518997c3d586d368"
+    },
+    "Without a target, your clockwork bee falls to the ground.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "3257a624d927cfb0020478b115f19bbadd350668a00f9b6e849667431e50bd77"
+    },
+    "If you tried to rewind gears in your present state, you'd only break them.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "3177d1280e4580f4103baecff395a895b99c778918c20cff5ac1887acf51c145"
+    },
+    "You need a visible target to rewind your bee! (Use ctrl+direction or * direction to deconstruct it instead.)": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "e3feb8d2a60321d8f60172fa8a9078330e375a07a6bd43da70880befe39dd49a"
+    },
+    "You lack sufficient magical power to recharge your bee.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "31af783b38b1052e55e3549b595c870adda1fabfe7b27bf2e227a83efbc788b6"
+    },
+    "Your paragon attacks with you!": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "e848cf84fd05612c2e14883aa7b04b59acb8a8cc58b1568593eabc06f204a45d"
+    },
+    "Your paragon is now ready to unleash a masterful attack.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "a8b9c29a1dcbd9c4700a8b952488d5c3a8be60674bfdea62c4c413760a205090"
+    },
+    "You craft a gleaming metal champion and it leaps into the fray!": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "e817f7f032e7aee08a43aa8c7f7dc771115a250d9c01fd69bc679c89673f5a27"
+    },
+    "But you're too far away!": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "c3ca949afa57702696ce18b0a3c04fc0845bab8f2b9325c3a186f71211430850"
+    },
+    "Mmmm... tastes like @any_potion@.": {
+      "context": "describe.cc player and monster spell descriptions; spl-selfench.cc amnesia confirmation; spl-summoning.cc construct feedback. Complete templates translated before spell/item/monster names, counts and reason clauses. Summon caps retain their actual numeric limits; flayed ghosts do not count toward Martyrs Knell cap. Miscast damage is a maximum and types are alternatives. Spell IDs, library membership, yes/no keys and can-cast checks unchanged.",
+      "translation_sha256": "75a01b568806d7c3c482ed55afb84613c7e62b824e07c85eaace374760634dc3"
+    },
+    "{spell-miscast}irresistible": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "9541f106a5e56763015de93d5a2cc3586877a8b51406f804208e80724911ff36"
+    },
+    "{spell-miscast}draining": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "b2f0e940a51ca40aae08a5eb701f3f7535f377a345b01dc201d97cf32cde0d92"
+    },
+    "{spell-miscast}fire": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "45303959636c49294040a0c35f9bbc30b755ffff81c24db608153f2dd5b5e0a0"
+    },
+    "{spell-miscast}cold": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "a716469fe031b303f538f3d7d987c7db5f1db2ed563133ce1369797a1b1f2ef8"
+    },
+    "{spell-miscast}electric": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "588d29e70636d6337a3f29d4e01ff09dee6066c3a5b75197439f07a1f982ed72"
+    },
+    "{spell-miscast}fragmentation": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "d2cfbaba6cf277589ef9102632abc2d42b920aa3d081f1114eb40c7e633096c6"
+    },
+    "{spell-miscast}summons a nameless horror": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "e166cb2635d97ca9e1323994366c721a34e06ee47a0b4ef202a03292313a5b48"
+    },
+    "{spell-miscast}anchors you in place": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "83f9157a6e8669fd7b47ead6bf9767eebb4be31862a24b8be3c6b84676d7f05d"
+    },
+    "{spell-miscast}slows you": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "2167ab36840ec336dd17130daa2ea94bdb9bd2695f7c65195f1f8b03aa75bce6"
+    },
+    "{spell-miscast}poisons you": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "16219748959e3b729ed050d5b0c8ced3e0d7ad081d72f0e0aeb7dbede9ca9439"
+    },
+    "{spell-miscast}corrodes you": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "f20baeb151e92aa18b810ff0a5d02d0c23c2fade3ae4c9f01db61dce0eed1e6e"
+    },
+    "{spell-miscast}deals up to %d %s damage": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "4edde09c5e39b747ad29903c1cca1b20a49f204ee459bc2b5b68ce9609ea01ef"
+    },
+    "{spell-miscast}either ": {
+      "context": "describe.cc _miscast_damage_string and spl-miscast.cc miscast_effects. Noun phrases used in a list of alternative effects. Conjurations damage is irresistible, necromancy uses BEAM_NEG; translocation both anchors against teleport and prevents movement, without full paralysis. Raw schools and damage flavour IDs unchanged.",
+      "translation_sha256": "516c19976f8d0b9f4b7723a227b680d735c92b995a3cc742b58349ff9f38d2bd"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
