@@ -8660,10 +8660,6 @@ drain
 
 истощение
 %%%%
-speed
-
-скорость
-%%%%
 vorpal
 
 рассечение
@@ -11788,50 +11784,6 @@ You feel less vulnerable to electricity.
 
 Вы чувствуете себя менее уязвимым к электричеству.
 %%%%
-regeneration
-
-регенерация
-%%%%
-Your natural rate of healing is unusually fast.
-
-Ваша естественная скорость исцеления необычайно быстрая.
-%%%%
-You heal very quickly.
-
-Вы очень быстро выздоравливаете.
-%%%%
-You regenerate.
-
-Вы регенерируете.
-%%%%
-You begin to heal more quickly.
-
-Вы начинаете лечиться быстрее.
-%%%%
-You begin to regenerate.
-
-Вы начинаете регенерировать.
-%%%%
-Your rate of healing slows.
-
-Скорость вашего исцеления замедляется.
-%%%%
-inhibited regeneration
-
-подавляет регенерацию
-%%%%
-You do not regenerate when monsters are visible.
-
-Вы не регенерируете, когда монстры видны.
-%%%%
-Your regeneration stops near monsters.
-
-Ваша регенерация останавливается рядом с монстрами.
-%%%%
-You begin to regenerate regardless of the presence of monsters.
-
-Вы начинаете регенерировать независимо от присутствия монстров.
-%%%%
 You are weak. (Str -2)
 
 Ты слабый. (Сила -2)
@@ -11860,33 +11812,9 @@ You are very clumsy. (Dex -4)
 
 Ты очень неуклюжий. (Ловк -4)
 %%%%
-teleportitis
-
-телепортит
-%%%%
-You are occasionally teleported next to monsters.
-
-Время от времени вас телепортирует рядом с монстрами.
-%%%%
 You are sometimes teleported next to monsters.
 
 Иногда вас телепортируют рядом с монстрами.
-%%%%
-You are often teleported next to monsters.
-
-Вас часто телепортируют рядом с монстрами.
-%%%%
-You feel weirdly uncertain.
-
-Вы чувствуете странную неуверенность.
-%%%%
-You feel even more weirdly uncertain.
-
-Ты чувствуешь себя еще более странно неуверенно.
-%%%%
-You feel stable.
-
-Вы чувствуете себя стабильно.
 %%%%
 You are strong-willed. (Will+)
 
@@ -11923,26 +11851,6 @@ You cover ground very quickly. (Speed++)
 You cover ground extremely quickly. (Speed+++)
 
 Вы очень быстро преодолеваете территорию. (Скорость+++)
-%%%%
-You feel quick.
-
-Вы чувствуете себя быстро.
-%%%%
-You feel sluggish.
-
-Вы чувствуете себя вялым.
-%%%%
-slowness
-
-медлительность
-%%%%
-You cover ground very slowly.
-
-Вы преодолеваете землю очень медленно.
-%%%%
-You cover ground extremely slowly.
-
-Вы преодолеваете землю очень медленно.
 %%%%
 see invisible
 
@@ -11996,10 +11904,6 @@ You feel an ache in your throat.
 
 Вы чувствуете боль в горле.
 %%%%
-screaming
-
-кричит
-%%%%
 You occasionally shout uncontrollably at your foes.
 
 Время от времени вы бесконтрольно кричите на своих врагов.
@@ -12007,22 +11911,6 @@ You occasionally shout uncontrollably at your foes.
 You frequently scream uncontrollably at your foes.
 
 Вы часто бесконтрольно кричите на своих врагов.
-%%%%
-You feel the urge to shout.
-
-Вы чувствуете желание закричать.
-%%%%
-You feel a strong urge to scream.
-
-Вы чувствуете сильное желание закричать.
-%%%%
-Your urge to shout disappears.
-
-Ваше желание кричать пропадает.
-%%%%
-Your urge to scream lessens.
-
-Ваше желание кричать уменьшается.
 %%%%
 noise suppression
 
@@ -12171,46 +12059,6 @@ Nature stops experimenting on you.
 Your wild genetic ride slows down.
 
 Ваша дикая генетическая поездка замедляется.
-%%%%
-frail
-
-хрупкий
-%%%%
-You are frail. (-10% HP)
-
-Ты слаб. (-10% здоровья)
-%%%%
-You are very frail. (-20% HP)
-
-Ты очень слаб. (-20% здоровья)
-%%%%
-You are extremely frail. (-30% HP)
-
-Ты чрезвычайно слаб. (-30% здоровья)
-%%%%
-You feel frail.
-
-Вы чувствуете себя слабым.
-%%%%
-You feel robust.
-
-Вы чувствуете себя сильным.
-%%%%
-robust
-
-прочный
-%%%%
-You are robust. (+10% HP)
-
-Вы крепкие. (+10% здоровья)
-%%%%
-You are very robust. (+20% HP)
-
-Вы очень крепкие. (+20% здоровья)
-%%%%
-You are extremely robust. (+30% HP)
-
-Вы чрезвычайно крепки. (+30% здоровья)
 %%%%
 torment resistance
 
@@ -12716,105 +12564,9 @@ high mp
 
 высокий расход топлива
 %%%%
-You have an increased reservoir of magic. (+10% MP)
-
-У вас увеличен запас магии. (+10% МП)
-%%%%
-You have a considerably increased reservoir of magic. (+20% MP)
-
-У вас значительно увеличен запас магии. (+20% МП)
-%%%%
-You have a greatly increased reservoir of magic. (+30% MP)
-
-У вас значительно увеличен запас магии. (+30% МП)
-%%%%
-You feel more energetic.
-
-Вы чувствуете себя более энергичным.
-%%%%
-You feel less energetic.
-
-Вы чувствуете себя менее энергичным.
-%%%%
 low mp
 
 низкий расход топлива
-%%%%
-Your magical capacity is low. (-10% MP)
-
-У тебя низкие магические способности. (-10% МП)
-%%%%
-Your magical capacity is very low. (-20% MP)
-
-Твои магические способности очень низки. (-20% МП)
-%%%%
-Your magical capacity is extremely low. (-30% MP)
-
-Твои магические способности чрезвычайно низки. (-30% МП)
-%%%%
-Your spells are a little harder to cast, but a little more powerful.
-
-Ваши заклинания использовать немного сложнее, но они немного мощнее.
-%%%%
-Your spells are harder to cast, but more powerful.
-
-Ваши заклинания сложнее произносить, но они более мощные.
-%%%%
-Your spells are much harder to cast, but much more powerful.
-
-Ваши заклинания гораздо сложнее произносить, но они намного мощнее.
-%%%%
-You feel less in control of your magic.
-
-Вы чувствуете, что теряете контроль над своей магией.
-%%%%
-You feel your magical power running wild!
-
-Вы чувствуете, как ваша магическая сила зашкаливает!
-%%%%
-You regain control of your magic.
-
-Вы восстанавливаете контроль над своей магией.
-%%%%
-You feel more in control of your magic.
-
-Вы чувствуете, что лучше контролируете свою магию.
-%%%%
-subdued magic
-
-подавленная магия
-%%%%
-Your spells are a little easier to cast, but a little less powerful.
-
-Ваши заклинания произносить немного легче, но они менее эффективны.
-%%%%
-Your spells are easier to cast, but less powerful.
-
-Ваши заклинания легче произносить, но они менее эффективны.
-%%%%
-Your spells are much easier to cast, but much less powerful.
-
-Ваши заклинания произносить гораздо проще, но они гораздо менее эффективны.
-%%%%
-Your connection to magic feels subdued.
-
-Ваша связь с магией кажется приглушенной.
-%%%%
-Your connection to magic feels more subdued.
-
-Ваша связь с магией кажется более приглушенной.
-%%%%
-Your connection to magic feels nearly dormant.
-
-Ваша связь с магией почти дремлет.
-%%%%
-Your magic regains its normal vibrancy.
-
-Ваша магия обретает свою нормальную яркость.
-%%%%
-Your connection to magic feels less subdued.
-
-Ваша связь с магией кажется менее сдержанной.
 %%%%
 demonic magic
 
@@ -12919,22 +12671,6 @@ A meltable shield of frost defends you. (SH +@num@)
 Frost condenses into a shield before you.
 
 Мороз сгущается щитом перед вами.
-%%%%
-passive freeze
-
-пассивное замораживание
-%%%%
-A frigid envelope surrounds you and freezes all who hurt you.
-
-Холодная оболочка окружает вас и замораживает всех, кто причинил вам боль.
-%%%%
-Your skin feels very cold.
-
-Ваша кожа очень холодная.
-%%%%
-Your skin warms up.
-
-Ваша кожа нагревается.
 %%%%
 nightstalker
 
@@ -13096,42 +12832,6 @@ You feel saturated with power.
 
 Вы чувствуете насыщение силой.
 %%%%
-magic shield
-
-магический щит
-%%%%
-When hurt, damage is shared between your health and your magic reserves.
-
-При получении урона урон распределяется между вашим здоровьем и магическими резервами.
-%%%%
-You feel your magical essence form a protective shroud around your flesh.
-
-Вы чувствуете, как ваша магическая сущность образует защитную оболочку вокруг вашей плоти.
-%%%%
-magic regeneration
-
-магическая регенерация
-%%%%
-You regenerate magic rapidly.
-
-Вы быстро восстанавливаете магию.
-%%%%
-Your magic begins to regenerate rapidly.
-
-Ваша магия начинает быстро восстанавливаться.
-%%%%
-magic link
-
-волшебная ссылка
-%%%%
-When low on magic, you restore magic in place of health.
-
-Когда магии мало, вы восстанавливаете магию вместо здоровья.
-%%%%
-You feel your life force and your magical essence meld.
-
-Вы чувствуете, как ваша жизненная сила и ваша магическая сущность сливаются.
-%%%%
 gelatinous body
 
 желеобразное тело
@@ -13291,50 +12991,6 @@ Acid begins to drip from your mouth.
 Your mouth feels dry.
 
 У вас сухость во рту.
-%%%%
-antimagic bite
-
-антимагический укус
-%%%%
-Your bite disrupts and absorbs the magic of your enemies.
-
-Ваш укус разрушает и поглощает магию ваших врагов.
-%%%%
-You feel a sudden thirst for magic.
-
-Вы чувствуете внезапную жажду магии.
-%%%%
-Your magical appetite wanes.
-
-Твой магический аппетит угасает.
-%%%%
-no potion heal
-
-зелье не лечит
-%%%%
-Potions are less effective at restoring your health.
-
-Зелья менее эффективны для восстановления здоровья.
-%%%%
-Potions cannot restore your health.
-
-Зелья не могут восстановить ваше здоровье.
-%%%%
-Your system partially rejects the healing effects of potions.
-
-Ваша система частично отвергает лечебный эффект зелий.
-%%%%
-Your system completely rejects the healing effects of potions.
-
-Ваша система полностью отвергает лечебный эффект зелий.
-%%%%
-Your system completely accepts the healing effects of potions.
-
-Ваша система полностью принимает лечебные эффекты зелий.
-%%%%
-Your system partly accepts the healing effects of potions.
-
-Ваша система частично принимает лечебные эффекты зелий.
 %%%%
 repulsion field
 
@@ -14016,14 +13672,6 @@ Your tongue twists.
 
 У тебя язык крутится.
 %%%%
-demonic willpower
-
-демоническая сила воли
-%%%%
-You punish those that try to bend your will. (Will+)
-
-Вы наказываете пытающихся сломить вашу волю. (Воля+)
-%%%%
 You feel willful.
 
 Вы чувствуете своенравие.
@@ -14123,22 +13771,6 @@ You can no longer study or use magical devices.
 You can once more study and use magical devices.
 
 Вы снова можете изучать и использовать магические устройства.
-%%%%
-hated by all
-
-ненавидят все
-%%%%
-You are hated by all.
-
-Вас все ненавидят.
-%%%%
-You are now hated by all.
-
-Теперь тебя все ненавидят.
-%%%%
-You are no longer hated by all.
-
-Вас больше не все ненавидят.
 %%%%
 cowardly
 
@@ -14484,22 +14116,6 @@ Your ability to control magic is less disrupted.
 
 Ваша способность контролировать магию меньше нарушена.
 %%%%
-MP-powered wands
-
-Жезлы с MP-питанием
-%%%%
-You expend magic power (3 MP) to strengthen your wands.
-
-Вы тратите магическую силу (3 MP), чтобы усилить свои жезлы.
-%%%%
-You feel your magical essence link to the dungeon's wands.
-
-Вы чувствуете связь своей магической сущности с жезлами подземелья.
-%%%%
-Your magical essence no longer links to wands of the dungeon.
-
-Ваша магическая сущность больше не связана с жезлами подземелья.
-%%%%
 unskilled
 
 неквалифицированный
@@ -14595,22 +14211,6 @@ You feel sensitive to extremes of temperature.
 You no longer feel sensitive to extremes of temperature
 
 Вы больше не чувствуете чувствительности к экстремальным температурам.
-%%%%
-no regeneration
-
-без регенерации
-%%%%
-You do not regenerate.
-
-Вы не регенерируете.
-%%%%
-You stop regenerating.
-
-Вы прекращаете регенерацию.
-%%%%
-You start regenerating.
-
-Вы начинаете регенерацию.
 %%%%
 strong nose
 
@@ -14747,22 +14347,6 @@ You are no longer multi-lived.
 You can now gain extra lives.
 
 Теперь вы можете получить дополнительные жизни.
-%%%%
-distributed training
-
-распределенное обучение
-%%%%
-Your experience applies equally to all skills.
-
-Ваш опыт одинаково применим ко всем навыкам.
-%%%%
-Your experience now applies equally to all skills.
-
-Ваш опыт теперь одинаково распространяется на все навыки.
-%%%%
-Your experience no longer applies equally to all skills.
-
-Ваш опыт больше не применяется одинаково ко всем навыкам.
 %%%%
 nimble swimmer
 
