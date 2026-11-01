@@ -4,6 +4,7 @@
  */
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "ranged-attack.h"
 
@@ -20,6 +21,7 @@
 #include "mon-behv.h"
 #include "mon-util.h"
 #include "monster.h"
+#include "options.h"
 #include "player.h"
 #include "spl-monench.h" //corona_monster
 #include "stringutil.h"
@@ -189,28 +191,33 @@ void ranged_attack::handle_phase_blocked()
         {
             if (defender_shield && shield_reflects(*defender_shield))
             {
-                punctuation = " with " + defender->pronoun(PRONOUN_POSSESSIVE)
-                              + " " + defender_shield->name(DESC_PLAIN).c_str();
+                if (Options.language == lang_t::RU && localisation_active())
+                    punctuation = make_stringf(localise_in_context("projectile-impact", " with a shield (%s)").c_str(),
+                        localise(defender_shield->name(DESC_PLAIN)).c_str());
+                else
+                    punctuation = " with " + defender->pronoun(PRONOUN_POSSESSIVE)
+                                  + " " + defender_shield->name(DESC_PLAIN).c_str();
             }
             else if (defender->divinely_shielded())
-                punctuation = " with a divine shield";
+                punctuation = localise_in_context("projectile-impact", " with a divine shield");
             else
-                punctuation = " with an invisible shield";
+                punctuation = localise_in_context("projectile-impact", " with an invisible shield");
         }
 
-        punctuation += make_stringf("... and %s it back!",
-                                    defender->conj_verb("reflect").c_str());
+        punctuation += make_stringf(localise_in_context("projectile-impact", "... and %s it back!").c_str(),
+            localise_in_context("projectile-defence-verb", defender->conj_verb("reflect")).c_str());
     }
     else
         range_used = BEAM_STOP;
 
     if (needs_message)
     {
-        mprf("%s %s the %s%s",
-             defender_name(false).c_str(),
-             defender->conj_verb("block").c_str(),
-             proj_name.c_str(),
-             punctuation.c_str());
+        string message = make_stringf(localise_in_context("projectile-impact", "%s %s the %s").c_str(),
+             localise(defender_name(false)).c_str(),
+             localise_in_context("projectile-defence-verb", defender->conj_verb("block")).c_str(),
+             localise_in_context("beam-name", proj_name).c_str());
+        message += punctuation;
+        mprf("%s", message.c_str());
     }
 
     if (!weapon->is_type(OBJ_MISSILES, MI_DART)
@@ -229,7 +236,7 @@ void ranged_attack::handle_phase_dodged()
     if (ev_margin > -defender->missile_repulsion())
     {
         if (needs_message && defender_visible)
-            mprf("The %s is repelled.", proj_name.c_str());
+            mprf(localise("The %s is repelled.").c_str(), localise_in_context("beam-name", proj_name).c_str());
 
         if (defender->is_player())
             count_action(CACT_DODGE, DODGE_REPEL);
@@ -242,10 +249,10 @@ void ranged_attack::handle_phase_dodged()
 
     if (needs_message)
     {
-        mprf("The %s%s misses %s.",
-             proj_name.c_str(),
-             evasion_margin_adverb().c_str(),
-             defender_name(false).c_str());
+        const string format = "The %s" + evasion_margin_adverb() + " misses %s.";
+        mprf(localise_in_context("projectile-miss", format).c_str(),
+             localise_in_context("beam-name", proj_name).c_str(),
+             localise(defender_name(false)).c_str());
     }
 
     if (!weapon->is_type(OBJ_MISSILES, MI_DART)
@@ -264,7 +271,8 @@ static bool _jelly_eat_missile(const string& proj_name, int damage_done)
         && !you.duration[DUR_DEATHS_DOOR]
         && !one_chance_in(3))
     {
-        mprf("Your attached jelly eats the %s!", proj_name.c_str());
+        mprf(localise("Your attached jelly eats the %s!").c_str(),
+             localise_in_context("beam-name", proj_name).c_str());
         inc_hp(1 + random2(damage_done));
         canned_msg(MSG_GAIN_HEALTH);
         return true;
@@ -320,11 +328,11 @@ bool ranged_attack::handle_phase_hit()
         {
             if (needs_message)
             {
-                mprf("The %s %s %s%s but does no damage.",
-                    proj_name.c_str(),
-                    attack_verb.c_str(),
-                    defender->name(DESC_THE).c_str(),
-                    mulch_bonus() ? " and shatters," : "");
+                mprf(localise("The %s %s %s%s but does no damage.").c_str(),
+                    localise_in_context("beam-name", proj_name).c_str(),
+                    localise_in_context("beam-hit", attack_verb).c_str(),
+                    localise_in_context("acc", defender->name(DESC_THE)).c_str(),
+                    (mulch_bonus() ? localise_in_context("projectile-impact", " and shatters,") : "").c_str());
             }
         }
 
@@ -832,11 +840,11 @@ void ranged_attack::announce_hit()
     if (!needs_message)
         return;
 
-    mprf("The %s %s %s%s%s%s",
-         proj_name.c_str(),
-         attack_verb.c_str(),
-         defender_name(false).c_str(),
-         mulch_bonus() ? " and shatters for extra damage" : "",
+    mprf(localise("The %s %s %s%s%s%s").c_str(),
+         localise_in_context("beam-name", proj_name).c_str(),
+         localise_in_context("beam-hit", attack_verb).c_str(),
+         localise_in_context("acc", defender_name(false)).c_str(),
+         (mulch_bonus() ? localise_in_context("projectile-impact", " and shatters for extra damage") : "").c_str(),
          debug_damage_number().c_str(),
          attack_strength_punctuation(damage_done).c_str());
 }

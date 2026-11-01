@@ -4,6 +4,7 @@
 **/
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "viewmap.h"
 
@@ -454,7 +455,8 @@ static void _describe_cell(const map_control_state &m_state)
 
     const string mon = cell_monster_description(cpos);
     if (!mon.empty())
-        mprf(MSGCH_EXAMINE, "<cyan>Here:</cyan> %s", uppercase_first(mon).c_str());
+        mprf(MSGCH_EXAMINE, localise("<cyan>Here:</cyan> %s").c_str(),
+             uppercase_first(localise(mon)).c_str());
 
     const string items = cell_items_description(cpos);
     if (!items.empty())

@@ -4782,9 +4782,9 @@ void do_boulder_impact(monster& boulder, actor& victim, bool quiet)
     {
         if (!quiet)
         {
-            mprf("%s barrels into %s%s",
-                    boulder.name(DESC_THE).c_str(),
-                    victim.name(DESC_THE).c_str(),
+            mprf(localise("%s barrels into %s%s").c_str(),
+                    localise(boulder.name(DESC_THE)).c_str(),
+                    localise_in_context("acc", victim.name(DESC_THE)).c_str(),
                     attack_strength_punctuation(dam).c_str());
         }
     }

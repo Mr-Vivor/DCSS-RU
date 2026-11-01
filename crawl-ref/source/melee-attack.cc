@@ -667,12 +667,12 @@ void melee_attack::handle_concussion_brand(bool unrand)
             special_damage = random2(damage_done) * 3 / 4 + 1;
             if (needs_message)
             {
-                mprf("%s crush%s %s against the %s%s",
-                        attacker->name(DESC_THE).c_str(),
-                        attacker->is_monster() ? "es" : "",
-                        defender->name(DESC_THE).c_str(),
-                        feat_is_wall(env.grid(back)) ? "wall"
-                                                    : raw_feature_description(back).c_str(),
+                mprf(localise("%s %s %s against the %s%s").c_str(),
+                        localise(attacker->name(DESC_THE)).c_str(),
+                        localise_in_context("collision-verb", attacker->conj_verb("crush")).c_str(),
+                        localise_in_context("acc", defender->name(DESC_THE)).c_str(),
+                        localise(feat_is_wall(env.grid(back)) ? "wall"
+                                                    : raw_feature_description(back)).c_str(),
                         attack_strength_punctuation(special_damage).c_str());
             }
             inflict_damage(special_damage);
@@ -3936,9 +3936,8 @@ void melee_attack::mons_apply_attack_flavour(attack_flavour flavour)
 
         if (needs_message && base_damage)
         {
-            mprf("%s %s engulfed in flames%s",
-                 defender_name(false).c_str(),
-                 defender->conj_verb("are").c_str(),
+            mprf(localise("Flames engulf %s%s").c_str(),
+                 localise_in_context("acc", defender_name(false)).c_str(),
                  attack_strength_punctuation(special_damage).c_str());
 
             _print_resist_messages(defender, base_damage, BEAM_FIRE);

@@ -658,6 +658,7 @@
 
 - [Игуана](monsters/iguana.md)
 - [Каменная рыба](monsters/rock-fish.md)
+- [Электрический змей](monsters/shock-serpent.md)
 
 
 ## Карты

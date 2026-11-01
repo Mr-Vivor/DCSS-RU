@@ -3702,6 +3702,11 @@
     "rock fish": {
       "source_sha256": "aa2dd2ab594a0402926533bb1cd874166633840b12dc43d630ab601f6fc0244b",
       "text": "Странная рыба с каменной чешуёй, которая плавает в твёрдом камне так же легко, как обычные рыбы — в воде."
+    },
+    "shock serpent": {
+      "source_sha256": "3ce92f7cf95ece13ad20099cb2fa7770d53cd686cb146e1843fdd09e9b795666",
+      "text": "Извивающийся змей, чьё тело потрескивает от нестабильного электричества. В ответ на удар его электрический покров может разрядиться, болезненно поразив находящегося неподалёку обидчика.",
+      "context": "actor.cc active/passive constriction and collisions, melee-attack.cc concussive wall impact and fire attack, mon-cast.cc Shred, spl-damage.cc boulder impact, god-abil.cc Ru explosion, fineff.cc shock serpent discharge, main.cc quiver cycling, player.cc ally displacement/new spell/gizmo and viewmap.cc examination. Player second-person and monster/roots third-person verbs separated, accusative victims and instrumental collision partners explicit. Obstacle label uses nominative descriptions, unknown terrain stays unknown. No-damage clause kept, fire damage does not invent sticky-flame duration. Shock serpent implementation checked: monster.cc schedules discharge after damage >4, fineff uses max range 3 and LOS; weak/violent threshold and actual source IDs preserved. Shared shock-serpent noun has all cases, plural and counted-few form, description distinguishes nearby oppressor from all nearby creatures. Action cycling distinguishes valid current action/no alternatives from none available; Q hint only in original branch. Actual command keys, species names, formulas, game checks, injuries, visibility, noise, gifts, targeting and save identifiers unchanged."
     }
   },
   "status": {

@@ -1,13 +1,13 @@
 {
-  "entities": 195,
+  "entities": 196,
   "kinds": {
-    "monster": 96,
+    "monster": 97,
     "item": 99
   },
-  "generated_game_keys": 15579,
+  "generated_game_keys": 15659,
   "review": {
     "draft": 191,
-    "reviewed": 4
+    "reviewed": 5
   },
   "wiki_articles": 3,
   "additional_terms": {
@@ -54,7 +54,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 11207,
+  "additional_system_messages": 11283,
   "reviewed_artifact_powers": {
     "fields": 103,
     "description_lines": 129
@@ -76,7 +76,7 @@
     "egos": 80,
     "spells": 139,
     "ability": 155,
-    "monsters": 2,
+    "monsters": 3,
     "status": 28,
     "cards": 24,
     "unrand": 153,

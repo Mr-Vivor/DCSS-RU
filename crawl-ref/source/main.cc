@@ -4,6 +4,7 @@
 **/
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include <algorithm>
 #include <cerrno>
@@ -1901,10 +1902,11 @@ static void _do_cycle_quiver(int dir)
         // the menu. This messaging still excludes stuff that requires
         // force-quivering, e.g. zigfigs
         const bool others = !valid && quiver::anything_to_quiver();
-        mprf("No %squiver actions available for cycling.%s",
-            valid ? "other " : "",
-            others ? " Use [<white>Q</white>] to select from all actions."
-                   : "");
+        mprf(localise(valid
+             ? "No other quiver actions available for cycling.%s"
+             : "No quiver actions available for cycling.%s").c_str(),
+            (others ? localise(" Use [<white>Q</white>] to select from all actions.")
+                    : "").c_str());
     }
 }
 

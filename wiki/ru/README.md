@@ -203,3 +203,4 @@
 | `monster.rock_fish` | [Каменная рыба](pages/monster.rock_fish.md) | rock fish | reviewed |
 | `monster.worm` | [Червь](pages/monster.worm.md) | worm | reviewed |
 | `monster.training_dummy` | [Учебный манекен](pages/monster.training_dummy.md) | training dummy | reviewed |
+| `monster.shock_serpent` | [Электрический змей](pages/monster.shock_serpent.md) | shock serpent | reviewed |

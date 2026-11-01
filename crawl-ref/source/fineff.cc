@@ -5,6 +5,7 @@
 **/
 
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "fineff.h"
 
@@ -1385,17 +1386,17 @@ void shock_discharge_fineff::fire()
     const actor *serpent = defender();
     if (serpent && you.can_see(*serpent))
     {
-        mprf("%s %s discharges%s, shocking %s%s",
-             serpent->name(DESC_ITS).c_str(),
-             shock_source.c_str(),
-             power < 4 ? "" : " violently",
-             oppressor.name(DESC_THE).c_str(),
+        mprf(localise("%s of %s discharges%s, shocking %s%s").c_str(),
+             localise_in_context("shock-source", shock_source).c_str(),
+             localise_in_context("gen", serpent->name(DESC_THE)).c_str(),
+             (power < 4 ? string() : localise_in_context("shock-source", " violently")).c_str(),
+             localise_in_context("acc", oppressor.name(DESC_THE)).c_str(),
              attack_strength_punctuation(final_dmg).c_str());
     }
     else if (you.can_see(oppressor))
     {
-        mprf("The air sparks with electricity, shocking %s%s",
-             oppressor.name(DESC_THE).c_str(),
+        mprf(localise("The air sparks with electricity, shocking %s%s").c_str(),
+             localise_in_context("acc", oppressor.name(DESC_THE)).c_str(),
              attack_strength_punctuation(final_dmg).c_str());
     }
 

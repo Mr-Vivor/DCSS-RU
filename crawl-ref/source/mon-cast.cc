@@ -962,10 +962,10 @@ static const map<spell_type, mons_spell_logic> spell_to_logic = {
 
                 if (you.can_see(caster))
                 {
-                    mprf("%s shreds %s%s", caster.name(DESC_THE).c_str(),
-                        victim->name(DESC_THE).c_str(),
+                    mprf(localise("%s shreds %s%s").c_str(), localise(caster.name(DESC_THE)).c_str(),
+                        localise_in_context("acc", victim->name(DESC_THE)).c_str(),
                         final ? attack_strength_punctuation(final).c_str()
-                                : " but does no damage.");
+                                : localise(" but does no damage.").c_str());
                 }
 
                 if (final)

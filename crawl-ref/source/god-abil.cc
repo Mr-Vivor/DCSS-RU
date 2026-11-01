@@ -6105,7 +6105,8 @@ spret uskayaw_grand_finale(bool fail)
     string attack_punctuation = attack_strength_punctuation(mons->hit_points);
 
     // kill the target
-    mprf("%s explodes violently%s", mons->name(DESC_THE, false).c_str(), attack_punctuation.c_str());
+    mprf(localise("%s explodes violently%s").c_str(),
+         localise(mons->name(DESC_THE, false)).c_str(), attack_punctuation.c_str());
     mons->flags |= MF_EXPLODE_KILL;
     if (!mons->is_insubstantial())
     {

@@ -663,9 +663,9 @@ bool swap_check(monster* mons, coord_def &loc, bool quiet)
     if (!swap && !quiet)
     {
         // Might not be ideal, but it's better than insta-killing the monster.
-        mprf("There is no room for %s to move out of your way! "
-             "(Try telling them to retreat with <w>%sr</w> instead.)",
-              mons->name(DESC_THE).c_str(),
+        mprf(localise("There is no room for %s to move out of your way! "
+             "(Try telling them to retreat with <w>%sr</w> instead.)").c_str(),
+              localise(mons->name(DESC_THE)).c_str(),
               command_to_string(CMD_SHOUT).c_str());
         // FIXME: activity_interrupt::hit_monster isn't ideal.
         interrupt_activity(activity_interrupt::hit_monster, mons);
@@ -3220,7 +3220,7 @@ static void _revenant_spell_gift()
     }
 
     mprf("You remember %s.", msg.c_str());
-    mprf("(You can now cast %s.)", spell_title(spell));
+    mprf(localise("(You can now cast %s.)").c_str(), localise(spell_title(spell)).c_str());
     library_add_spells({spell}, true);
     add_spell_to_memory(spell);
 }
@@ -3466,7 +3466,7 @@ void level_change(bool skip_attribute_increase)
                     {
                         mpr("You feel a burst of inspiration! You are finally "
                             "ready to make a one-of-a-kind gizmo!");
-                        mprf("(press <w>%c</w> on the <w>%s</w>bility menu to create your gizmo)",
+                        mprf(localise("(press <w>%c</w> on the <w>%s</w>bility menu to create your gizmo)").c_str(),
                                 get_talent(ABIL_INVENT_GIZMO).hotkey,
                                 command_to_string(CMD_USE_ABILITY).c_str());
                     }

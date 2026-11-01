@@ -478,6 +478,9 @@
 @num@ shadowghasts
 @num@ теневых духов
 %%%%
+@num@ shock serpents
+@num@ электрических змеев
+%%%%
 @num@ short swords
 @num@ коротких мечей
 %%%%
@@ -1539,6 +1542,12 @@ a shadowghast
 %%%%
 a shadowghast's
 {m}теневого духа
+%%%%
+a shock serpent
+{m}электрический змей
+%%%%
+a shock serpent's
+{m}электрического змея
 %%%%
 a short sword
 {m}короткий меч
@@ -2754,6 +2763,12 @@ an shadowghast
 %%%%
 an shadowghast's
 {m}теневого духа
+%%%%
+an shock serpent
+{m}электрический змей
+%%%%
+an shock serpent's
+{m}электрического змея
 %%%%
 an short sword
 {m}короткий меч
@@ -4354,6 +4369,15 @@ shadowghast's
 shadowghasts
 {pl}теневые духи
 %%%%
+shock serpent
+{m}электрический змей
+%%%%
+shock serpent's
+{m}электрического змея
+%%%%
+shock serpents
+{pl}электрические змеи
+%%%%
 short sword
 {m}короткий меч
 %%%%
@@ -5871,6 +5895,15 @@ the shadowghast's
 %%%%
 the shadowghasts
 {pl}теневые духи
+%%%%
+the shock serpent
+{m}электрический змей
+%%%%
+the shock serpent's
+{m}электрического змея
+%%%%
+the shock serpents
+{pl}электрические змеи
 %%%%
 the short sword
 {m}короткий меч
@@ -7858,6 +7891,15 @@ your shadowghast's
 your shadowghasts
 {pl}теневые духи
 %%%%
+your shock serpent
+{m}электрический змей
+%%%%
+your shock serpent's
+{m}электрического змея
+%%%%
+your shock serpents
+{pl}электрические змеи
+%%%%
 your short sword
 {m}короткий меч
 %%%%
@@ -8659,6 +8701,9 @@ your yaks
 {acc_few}@num@ shadowghasts
 @num@ теневых духов
 %%%%
+{acc_few}@num@ shock serpents
+@num@ электрических змеев
+%%%%
 {acc_few}@num@ short swords
 @num@ короткого меча
 %%%%
@@ -9243,6 +9288,9 @@ your yaks
 %%%%
 {acc_many}@num@ shadowghasts
 @num@ теневых духов
+%%%%
+{acc_many}@num@ shock serpents
+@num@ электрических змеев
 %%%%
 {acc_many}@num@ short swords
 @num@ коротких мечей
@@ -9829,6 +9877,9 @@ your yaks
 {acc_one}@num@ shadowghasts
 @num@ теневого духа
 %%%%
+{acc_one}@num@ shock serpents
+@num@ электрического змея
+%%%%
 {acc_one}@num@ short swords
 @num@ короткий меч
 %%%%
@@ -10413,6 +10464,9 @@ your yaks
 %%%%
 {acc}a shadowghast
 {m}теневого духа
+%%%%
+{acc}a shock serpent
+{m}электрического змея
 %%%%
 {acc}a short sword
 {m}короткий меч
@@ -11028,6 +11082,9 @@ your yaks
 %%%%
 {acc}an shadowghast
 {m}теневого духа
+%%%%
+{acc}an shock serpent
+{m}электрического змея
 %%%%
 {acc}an short sword
 {m}короткий меч
@@ -12058,6 +12115,12 @@ your yaks
 {acc}shadowghasts
 {pl}теневых духов
 %%%%
+{acc}shock serpent
+{m}электрического змея
+%%%%
+{acc}shock serpents
+{pl}электрических змеев
+%%%%
 {acc}short sword
 {m}короткий меч
 %%%%
@@ -13068,6 +13131,12 @@ your yaks
 %%%%
 {acc}the shadowghasts
 {pl}теневых духов
+%%%%
+{acc}the shock serpent
+{m}электрического змея
+%%%%
+{acc}the shock serpents
+{pl}электрических змеев
 %%%%
 {acc}the short sword
 {m}короткий меч
@@ -14392,6 +14461,12 @@ your yaks
 {acc}your shadowghasts
 {pl}теневых духов
 %%%%
+{acc}your shock serpent
+{m}электрического змея
+%%%%
+{acc}your shock serpents
+{pl}электрических змеев
+%%%%
 {acc}your short sword
 {m}короткий меч
 %%%%
@@ -15085,6 +15160,9 @@ your yaks
 {dat_few}@num@ shadowghasts
 @num@ теневым духам
 %%%%
+{dat_few}@num@ shock serpents
+@num@ электрическим змеям
+%%%%
 {dat_few}@num@ short swords
 @num@ коротким мечам
 %%%%
@@ -15669,6 +15747,9 @@ your yaks
 %%%%
 {dat_many}@num@ shadowghasts
 @num@ теневым духам
+%%%%
+{dat_many}@num@ shock serpents
+@num@ электрическим змеям
 %%%%
 {dat_many}@num@ short swords
 @num@ коротким мечам
@@ -16255,6 +16336,9 @@ your yaks
 {dat_one}@num@ shadowghasts
 @num@ теневому духу
 %%%%
+{dat_one}@num@ shock serpents
+@num@ электрическому змею
+%%%%
 {dat_one}@num@ short swords
 @num@ короткому мечу
 %%%%
@@ -16839,6 +16923,9 @@ your yaks
 %%%%
 {dat}a shadowghast
 {m}теневому духу
+%%%%
+{dat}a shock serpent
+{m}электрическому змею
 %%%%
 {dat}a short sword
 {m}короткому мечу
@@ -17454,6 +17541,9 @@ your yaks
 %%%%
 {dat}an shadowghast
 {m}теневому духу
+%%%%
+{dat}an shock serpent
+{m}электрическому змею
 %%%%
 {dat}an short sword
 {m}короткому мечу
@@ -18484,6 +18574,12 @@ your yaks
 {dat}shadowghasts
 {pl}теневым духам
 %%%%
+{dat}shock serpent
+{m}электрическому змею
+%%%%
+{dat}shock serpents
+{pl}электрическим змеям
+%%%%
 {dat}short sword
 {m}короткому мечу
 %%%%
@@ -19494,6 +19590,12 @@ your yaks
 %%%%
 {dat}the shadowghasts
 {pl}теневым духам
+%%%%
+{dat}the shock serpent
+{m}электрическому змею
+%%%%
+{dat}the shock serpents
+{pl}электрическим змеям
 %%%%
 {dat}the short sword
 {m}короткому мечу
@@ -20818,6 +20920,12 @@ your yaks
 {dat}your shadowghasts
 {pl}теневым духам
 %%%%
+{dat}your shock serpent
+{m}электрическому змею
+%%%%
+{dat}your shock serpents
+{pl}электрическим змеям
+%%%%
 {dat}your short sword
 {m}короткому мечу
 %%%%
@@ -21511,6 +21619,9 @@ your yaks
 {few}@num@ shadowghasts
 @num@ теневого духа
 %%%%
+{few}@num@ shock serpents
+@num@ электрических змея
+%%%%
 {few}@num@ short swords
 @num@ короткого меча
 %%%%
@@ -22095,6 +22206,9 @@ your yaks
 %%%%
 {gen_few}@num@ shadowghasts
 @num@ теневых духов
+%%%%
+{gen_few}@num@ shock serpents
+@num@ электрических змеев
 %%%%
 {gen_few}@num@ short swords
 @num@ коротких мечей
@@ -22681,6 +22795,9 @@ your yaks
 {gen_many}@num@ shadowghasts
 @num@ теневых духов
 %%%%
+{gen_many}@num@ shock serpents
+@num@ электрических змеев
+%%%%
 {gen_many}@num@ short swords
 @num@ коротких мечей
 %%%%
@@ -23266,6 +23383,9 @@ your yaks
 {gen_one}@num@ shadowghasts
 @num@ теневого духа
 %%%%
+{gen_one}@num@ shock serpents
+@num@ электрического змея
+%%%%
 {gen_one}@num@ short swords
 @num@ короткого меча
 %%%%
@@ -23850,6 +23970,9 @@ your yaks
 %%%%
 {gen}a shadowghast
 {m}теневого духа
+%%%%
+{gen}a shock serpent
+{m}электрического змея
 %%%%
 {gen}a short sword
 {m}короткого меча
@@ -24465,6 +24588,9 @@ your yaks
 %%%%
 {gen}an shadowghast
 {m}теневого духа
+%%%%
+{gen}an shock serpent
+{m}электрического змея
 %%%%
 {gen}an short sword
 {m}короткого меча
@@ -25495,6 +25621,12 @@ your yaks
 {gen}shadowghasts
 {pl}теневых духов
 %%%%
+{gen}shock serpent
+{m}электрического змея
+%%%%
+{gen}shock serpents
+{pl}электрических змеев
+%%%%
 {gen}short sword
 {m}короткого меча
 %%%%
@@ -26505,6 +26637,12 @@ your yaks
 %%%%
 {gen}the shadowghasts
 {pl}теневых духов
+%%%%
+{gen}the shock serpent
+{m}электрического змея
+%%%%
+{gen}the shock serpents
+{pl}электрических змеев
 %%%%
 {gen}the short sword
 {m}короткого меча
@@ -27829,6 +27967,12 @@ your yaks
 {gen}your shadowghasts
 {pl}теневых духов
 %%%%
+{gen}your shock serpent
+{m}электрического змея
+%%%%
+{gen}your shock serpents
+{pl}электрических змеев
+%%%%
 {gen}your short sword
 {m}короткого меча
 %%%%
@@ -28522,6 +28666,9 @@ your yaks
 {ins_few}@num@ shadowghasts
 @num@ теневыми духами
 %%%%
+{ins_few}@num@ shock serpents
+@num@ электрическими змеями
+%%%%
 {ins_few}@num@ short swords
 @num@ короткими мечами
 %%%%
@@ -29106,6 +29253,9 @@ your yaks
 %%%%
 {ins_many}@num@ shadowghasts
 @num@ теневыми духами
+%%%%
+{ins_many}@num@ shock serpents
+@num@ электрическими змеями
 %%%%
 {ins_many}@num@ short swords
 @num@ короткими мечами
@@ -29692,6 +29842,9 @@ your yaks
 {ins_one}@num@ shadowghasts
 @num@ теневым духом
 %%%%
+{ins_one}@num@ shock serpents
+@num@ электрическим змеем
+%%%%
 {ins_one}@num@ short swords
 @num@ коротким мечом
 %%%%
@@ -30276,6 +30429,9 @@ your yaks
 %%%%
 {ins}a shadowghast
 {m}теневым духом
+%%%%
+{ins}a shock serpent
+{m}электрическим змеем
 %%%%
 {ins}a short sword
 {m}коротким мечом
@@ -30891,6 +31047,9 @@ your yaks
 %%%%
 {ins}an shadowghast
 {m}теневым духом
+%%%%
+{ins}an shock serpent
+{m}электрическим змеем
 %%%%
 {ins}an short sword
 {m}коротким мечом
@@ -31921,6 +32080,12 @@ your yaks
 {ins}shadowghasts
 {pl}теневыми духами
 %%%%
+{ins}shock serpent
+{m}электрическим змеем
+%%%%
+{ins}shock serpents
+{pl}электрическими змеями
+%%%%
 {ins}short sword
 {m}коротким мечом
 %%%%
@@ -32931,6 +33096,12 @@ your yaks
 %%%%
 {ins}the shadowghasts
 {pl}теневыми духами
+%%%%
+{ins}the shock serpent
+{m}электрическим змеем
+%%%%
+{ins}the shock serpents
+{pl}электрическими змеями
 %%%%
 {ins}the short sword
 {m}коротким мечом
@@ -34255,6 +34426,12 @@ your yaks
 {ins}your shadowghasts
 {pl}теневыми духами
 %%%%
+{ins}your shock serpent
+{m}электрическим змеем
+%%%%
+{ins}your shock serpents
+{pl}электрическими змеями
+%%%%
 {ins}your short sword
 {m}коротким мечом
 %%%%
@@ -34948,6 +35125,9 @@ your yaks
 {many}@num@ shadowghasts
 @num@ теневых духов
 %%%%
+{many}@num@ shock serpents
+@num@ электрических змеев
+%%%%
 {many}@num@ short swords
 @num@ коротких мечей
 %%%%
@@ -35532,6 +35712,9 @@ your yaks
 %%%%
 {nom}a shadowghast
 {m}теневой дух
+%%%%
+{nom}a shock serpent
+{m}электрический змей
 %%%%
 {nom}a short sword
 {m}короткий меч
@@ -36147,6 +36330,9 @@ your yaks
 %%%%
 {nom}an shadowghast
 {m}теневой дух
+%%%%
+{nom}an shock serpent
+{m}электрический змей
 %%%%
 {nom}an short sword
 {m}короткий меч
@@ -37177,6 +37363,12 @@ your yaks
 {nom}shadowghasts
 {pl}теневые духи
 %%%%
+{nom}shock serpent
+{m}электрический змей
+%%%%
+{nom}shock serpents
+{pl}электрические змеи
+%%%%
 {nom}short sword
 {m}короткий меч
 %%%%
@@ -38187,6 +38379,12 @@ your yaks
 %%%%
 {nom}the shadowghasts
 {pl}теневые духи
+%%%%
+{nom}the shock serpent
+{m}электрический змей
+%%%%
+{nom}the shock serpents
+{pl}электрические змеи
 %%%%
 {nom}the short sword
 {m}короткий меч
@@ -39511,6 +39709,12 @@ your yaks
 {nom}your shadowghasts
 {pl}теневые духи
 %%%%
+{nom}your shock serpent
+{m}электрический змей
+%%%%
+{nom}your shock serpents
+{pl}электрические змеи
+%%%%
 {nom}your short sword
 {m}короткий меч
 %%%%
@@ -40204,6 +40408,9 @@ your yaks
 {one}@num@ shadowghasts
 @num@ теневой дух
 %%%%
+{one}@num@ shock serpents
+@num@ электрический змей
+%%%%
 {one}@num@ short swords
 @num@ короткий меч
 %%%%
@@ -40788,6 +40995,9 @@ your yaks
 %%%%
 {prep_few}@num@ shadowghasts
 @num@ теневых духах
+%%%%
+{prep_few}@num@ shock serpents
+@num@ электрических змеях
 %%%%
 {prep_few}@num@ short swords
 @num@ коротких мечах
@@ -41374,6 +41584,9 @@ your yaks
 {prep_many}@num@ shadowghasts
 @num@ теневых духах
 %%%%
+{prep_many}@num@ shock serpents
+@num@ электрических змеях
+%%%%
 {prep_many}@num@ short swords
 @num@ коротких мечах
 %%%%
@@ -41959,6 +42172,9 @@ your yaks
 {prep_one}@num@ shadowghasts
 @num@ теневом духе
 %%%%
+{prep_one}@num@ shock serpents
+@num@ электрическом змее
+%%%%
 {prep_one}@num@ short swords
 @num@ коротком мече
 %%%%
@@ -42543,6 +42759,9 @@ your yaks
 %%%%
 {prep}a shadowghast
 {m}теневом духе
+%%%%
+{prep}a shock serpent
+{m}электрическом змее
 %%%%
 {prep}a short sword
 {m}коротком мече
@@ -43158,6 +43377,9 @@ your yaks
 %%%%
 {prep}an shadowghast
 {m}теневом духе
+%%%%
+{prep}an shock serpent
+{m}электрическом змее
 %%%%
 {prep}an short sword
 {m}коротком мече
@@ -44188,6 +44410,12 @@ your yaks
 {prep}shadowghasts
 {pl}теневых духах
 %%%%
+{prep}shock serpent
+{m}электрическом змее
+%%%%
+{prep}shock serpents
+{pl}электрических змеях
+%%%%
 {prep}short sword
 {m}коротком мече
 %%%%
@@ -45198,6 +45426,12 @@ your yaks
 %%%%
 {prep}the shadowghasts
 {pl}теневых духах
+%%%%
+{prep}the shock serpent
+{m}электрическом змее
+%%%%
+{prep}the shock serpents
+{pl}электрических змеях
 %%%%
 {prep}the short sword
 {m}коротком мече
@@ -46521,6 +46755,12 @@ your yaks
 %%%%
 {prep}your shadowghasts
 {pl}теневых духах
+%%%%
+{prep}your shock serpent
+{m}электрическом змее
+%%%%
+{prep}your shock serpents
+{pl}электрических змеях
 %%%%
 {prep}your short sword
 {m}коротком мече

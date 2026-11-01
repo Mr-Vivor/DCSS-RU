@@ -1,4 +1,5 @@
 #include "AppHdr.h"
+#include "localise.h"
 
 #include "actor.h"
 
@@ -802,28 +803,29 @@ void actor::constriction_damage_defender(actor &defender)
             break;
         }
 
-        mprf("%s %s %s%s%s", attacker_desc.c_str(),
-             force_plural ? "constrict"
-                          : conj_verb("constrict").c_str(),
-             defender.name(DESC_THE).c_str(),
+        mprf("%s %s %s%s%s", localise_in_context("constriction-agent", attacker_desc).c_str(),
+             localise_in_context(force_plural ? "constrict-plural"
+                                  : is_player() ? "constrict-player" : "constrict-monster",
+                                  force_plural ? "constrict" : conj_verb("constrict")).c_str(),
+             localise_in_context("acc", defender.name(DESC_THE)).c_str(),
 #ifdef DEBUG_DIAGNOSTICS
              make_stringf(" for %d", damage).c_str(),
 #else
              "",
 #endif
-             exclamations.c_str());
+             localise_in_context("constriction-result", exclamations).c_str());
     }
     else if (typ == CONSTRICT_MELEE && you.can_see(defender))
     {
-        mprf("%s %s constricted%s%s",
-             defender.name(DESC_THE).c_str(),
-             defender.conj_verb("are").c_str(),
+        mprf(localise("%s %s constricted%s%s").c_str(),
+             localise(defender.name(DESC_THE)).c_str(),
+             localise_in_context("constriction-passive", defender.conj_verb("are")).c_str(),
 #ifdef DEBUG_DIAGNOSTICS
              make_stringf(" for %d", damage).c_str(),
 #else
              "",
 #endif
-             exclamations.c_str());
+             localise_in_context("constriction-result", exclamations).c_str());
     }
 
     damage = defender.hurt(this, damage, BEAM_MISSILE, KILLED_BY_CONSTRICTION, "",
@@ -978,10 +980,10 @@ void actor::collide(coord_def newpos, const actor *agent, int damage)
         const int damother = other->apply_ac(damage);
         if (you.can_see(*this) || you.can_see(*other))
         {
-            mprf("%s %s with %s%s",
-                 name(DESC_THE).c_str(),
-                 conj_verb("collide").c_str(),
-                 other->name(DESC_THE).c_str(),
+            mprf(localise("%s %s with %s%s").c_str(),
+                 localise(name(DESC_THE)).c_str(),
+                 localise_in_context("collision-verb", conj_verb("collide")).c_str(),
+                 localise_in_context("ins", other->name(DESC_THE)).c_str(),
                  attack_strength_punctuation((dam + damother) / 2).c_str());
             // OK, now do the messaging for protected monsters.
             if (immune)
@@ -1016,18 +1018,19 @@ void actor::collide(coord_def newpos, const actor *agent, int damage)
     {
         if (!can_pass_through_feat(env.grid(newpos)))
         {
-            mprf("%s %s into %s%s",
-                 name(DESC_THE).c_str(), conj_verb("slam").c_str(),
-                 env.map_knowledge(newpos).known()
+            mprf(localise("%s %s into %s%s").c_str(),
+                 localise(name(DESC_THE)).c_str(),
+                 localise_in_context("collision-verb", conj_verb("slam")).c_str(),
+                 localise(env.map_knowledge(newpos).known()
                  ? feature_description_at(newpos, false, DESC_THE)
-                       .c_str()
-                 : "something",
+                 : "something").c_str(),
                  attack_strength_punctuation(dam).c_str());
         }
         else
         {
-            mprf("%s violently %s moving%s",
-                 name(DESC_THE).c_str(), conj_verb("stop").c_str(),
+            mprf(localise("%s violently %s moving%s").c_str(),
+                 localise(name(DESC_THE)).c_str(),
+                 localise_in_context("collision-verb", conj_verb("stop")).c_str(),
                  attack_strength_punctuation(dam).c_str());
         }
 
