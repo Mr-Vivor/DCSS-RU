@@ -19618,7 +19618,7 @@ Draw which deck?
 %%%%
 Cards available
 
-Доступные карты
+Карт доступно
 %%%%
 Describe which deck?
 
@@ -19670,7 +19670,7 @@ Are you done? (press y or Y to confirm)
 %%%%
 "Drawn so far: "
 
-"Уже вытянуто: "
+"Уже вытянуты: "
 %%%%
 Select two cards to swap them:
 
@@ -27698,7 +27698,7 @@ This altar belongs to @any@, but you can't tell which.
 %%%%
 Press the corresponding letter to learn more about a god, or press enter to convert or escape to cancel.
 
-Нажмите соответствующую букву, чтобы узнать о боге подробнее; Enter — принять веру, Escape — отменить.
+Нажмите букву для сведений о божестве, Enter — чтобы принять неизвестного покровителя, Esc — для отмены.
 %%%%
 Praying here may force you to leave your current form.
 
@@ -42171,3 +42171,239 @@ This ally is currently targeting %s.
 %s has regained four charges.
 
 У предмета «%s» восстановились 4 заряда.
+%%%%
+Ashenzari invites you to chain yourself with knowledge.
+
+Ашензари предлагает приковать себя цепями знания.
+%%%%
+Ashenzari invites you to chain yourself with knowledge of %s.
+
+Ашензари предлагает приковать себя цепями знания. Области знания: %s.
+%%%%
+You bind %s in chains and feel the brush of Ashenzari's sight against your mind.
+
+Вы оковываете предмет «%s» цепями и ощущаете прикосновение взора Ашензари к своему разуму.
+%%%%
+You cannot bind that!
+
+Этот предмет нельзя приковать к себе!
+%%%%
+Unbind and destroy which item?
+
+Какой предмет освободить от цепей и уничтожить?
+%%%%
+You cannot unchain and destroy that!
+
+Этот предмет нельзя освободить от цепей и уничтожить!
+%%%%
+You cannot shatter the chains on %s while it is melded with your body!
+
+Нельзя разрушить цепи на предмете «%s», пока он слит с вашим телом!
+%%%%
+Really remove and destroy %s?%s
+
+Снять и уничтожить предмет «%s»?%s
+%%%%
+" Ashenzari will withdraw the current offer of knowledge!"
+
+" Ашензари отзовёт текущее предложение знания!"
+%%%%
+You shatter the chains binding %s!
+
+Вы разрушаете цепи на предмете «%s»!
+%%%%
+%s falls away from you.
+
+Предмет «%s» больше не удерживается на вас.
+%%%%
+Ashenzari withdraws the invitation to bind yourself further.
+
+Ашензари отзывает предложение приковать к себе ещё один предмет.
+%%%%
+(press <w>%c</w> on the <w>%s</w>bility menu to convert to Beogh)
+
+(нажмите <w>%c</w> в меню способностей, открываемом клавишей <w>%s</w>, чтобы обратиться к Беогу)
+%%%%
+%s goes to deal, but finds you have enough %s cards.
+
+%s собирается раздать карты, но видит, что у вас их уже достаточно в колодах: %s.
+%%%%
+Found in decks: %s.
+
+Встречается в колодах: %s.
+%%%%
+This card may also be in Nemelex Xobeh's deck of punishment.
+
+Эта карта также может встретиться в колоде наказания Немелекса Зобеха.
+%%%%
+"A deck of magical cards, "
+
+"Магическая колода: "
+%%%%
+which may bring the user to safety or impede their foes.
+
+карты могут спасти владельца или помешать его врагам.
+%%%%
+which hurl death and destruction with wild abandon.
+
+карты безудержно сеют смерть и разрушение.
+%%%%
+depicting a range of weird and wonderful creatures.
+
+карты изображают разнообразных диковинных существ.
+%%%%
+which wreak havoc on the user.
+
+карты обрушивают бедствия на того, кто их использует.
+%%%%
+set aside for later.
+
+карты отложены на будущее.
+%%%%
+Cards: %d; capacity: %d.
+
+Карт: %d; вместимость: %d.
+%%%%
+Describe deck
+
+Описание колоды
+%%%%
+" toggle between deck selection and description."
+
+" — переключение между выбором колоды и её описанием."
+%%%%
+"<lightred>That deck is empty!</lightred> "
+
+"<lightred>Эта колода пуста!</lightred> "
+%%%%
+<lightgrey>Press <w>?</w> for the card descriptions or <w>Enter</w> to accept.
+
+<lightgrey>Нажмите <w>?</w> для описания карт или <w>Enter</w>, чтобы принять порядок.
+%%%%
+Clouds appear around your foes!
+
+Вокруг ваших врагов появляются облака!
+%%%%
+Attitude of %s: %s.
+
+Отношение божества «%s»: %s.
+%%%%
+Attitude of %s at your death: %s.
+
+Отношение божества «%s» в момент гибели: %s.
+%%%%
+This altar belongs to %s, but you can't tell which.
+
+Боги, которым может принадлежать этот алтарь: %s. Кто именно — неизвестно.
+%%%%
+Really abandon %s for an unknown god?
+
+Отречься от божества «%s» ради неизвестного покровителя?
+%%%%
+leave your current form
+
+выйти из текущего облика
+%%%%
+remove some of your equipment
+
+снять часть снаряжения
+%%%%
+Praying here may force you to %s. Pray anyway?
+
+Молитва здесь может вынудить вас %s. Всё равно помолиться?
+%%%%
+%s dispels your loathsome form.
+
+Божество «%s» рассеивает ваш нынешний облик.
+%%%%
+%s accepts your prayer!
+
+%s принимает вашу молитву!
+%%%%
+You offer a %sprayer to %s.
+
+Вы возносите %sмолитву божеству «%s».
+%%%%
+You pay a tithe of %d gold.
+
+Вы платите десятину: %d золота.
+%%%%
+{nemelex-deck}escape
+
+{nemelex-deck}Спасение
+%%%%
+{nemelex-deck}destruction
+
+{nemelex-deck}Разрушение
+%%%%
+{nemelex-deck}summoning
+
+{nemelex-deck}Призыв
+%%%%
+{nemelex-deck}punishment
+
+{nemelex-deck}Наказание
+%%%%
+{nemelex-deck}deck of escape
+
+{nemelex-deck}Спасение
+%%%%
+{nemelex-deck}deck of destruction
+
+{nemelex-deck}Разрушение
+%%%%
+{nemelex-deck}deck of summoning
+
+{nemelex-deck}Призыв
+%%%%
+{nemelex-deck}deck of punishment
+
+{nemelex-deck}Наказание
+%%%%
+{nemelex-deck}stacked deck
+
+{nemelex-deck}Отложенные карты
+%%%%
+{nemelex-action}Draw
+
+{nemelex-action}Тянуть из колоды
+%%%%
+{nemelex-action}Deal
+
+{nemelex-action}Сыграть из колоды
+%%%%
+{god-favour}exalted by your worship
+
+{god-favour}возвеличено вашим поклонением
+%%%%
+{god-favour}extremely pleased with you
+
+{god-favour}чрезвычайно довольно вами
+%%%%
+{god-favour}greatly pleased with you
+
+{god-favour}очень довольно вами
+%%%%
+{god-favour}most pleased with you
+
+{god-favour}весьма довольно вами
+%%%%
+{god-favour}pleased with you
+
+{god-favour}довольно вами
+%%%%
+{god-favour}aware of your devotion
+
+{god-favour}замечает вашу преданность
+%%%%
+{god-favour}noncommittal
+
+{god-favour}не проявляет особого отношения
+%%%%
+{ecumenical-prayer}%s removes %s.
+
+{ecumenical-prayer}%s снимает с вас предмет «%s».
+%%%%
+"{prayer}silent "
+
+"{prayer}безмолвную "

@@ -15,7 +15,9 @@
 #include "god-passive.h"
 #include "hiscores.h"
 #include "invent.h"
+#include "initfile.h"
 #include "item-use.h"
+#include "localise.h"
 #include "makeitem.h"
 #include "message.h"
 #include "notes.h"
@@ -39,7 +41,7 @@ string god_prayer_reaction()
         result += " was ";
     else
         result += " is ";
-    result +=
+    const char* reaction =
         (rank == 7) ? "exalted by your worship" :
         (rank == 6) ? "extremely pleased with you" :
         (rank == 5) ? "greatly pleased with you" :
@@ -47,6 +49,13 @@ string god_prayer_reaction()
         (rank == 3) ? "pleased with you" :
         (rank == 2) ? "aware of your devotion"
                     : "noncommittal";
+    if (Options.language == lang_t::RU && localisation_active())
+        return make_stringf(localise(crawl_state.player_is_dead()
+                ? "Attitude of %s at your death: %s."
+                : "Attitude of %s: %s.").c_str(),
+            localise(god_name(you.religion)).c_str(),
+            localise_in_context("god-favour", reaction).c_str());
+    result += reaction;
     result += ".";
 
     return result;
@@ -58,15 +67,15 @@ static bool _prompt_ecu_worship(const vector<god_type> &gods)
     for (size_t i = 0; i < gods.size(); ++i)
     {
         god_name_list.push_back(make_stringf("(%c) %s", char('a' + i),
-                                             god_name(gods[i]).c_str()));
+                                             localise(god_name(gods[i])).c_str()));
     }
     const string god_names = comma_separated_line(god_name_list.begin(),
-                                                  god_name_list.end(), " or ");
+                                                  god_name_list.end(), localise(" or "));
     // This should be a proper menu, but I absolutely cannot be bothered with
     // webtiles menu code.
-    mprf(MSGCH_PROMPT, "This altar belongs to %s, but you can't tell which.\n"
+    mprf(MSGCH_PROMPT, localise("This altar belongs to %s, but you can't tell which.\n"
          "Press the corresponding letter to learn more about a god, "
-         "or press enter to convert or escape to cancel.", god_names.c_str());
+         "or press enter to convert or escape to cancel.").c_str(), god_names.c_str());
     while (true) {
         flush_prev_message();
         int ch = getch_ck();
@@ -99,8 +108,8 @@ static bool _pray_ecumenical_altar()
         return false;
     }
     if (!you_worship(GOD_NO_GOD)
-        && !yesno(make_stringf("Really abandon %s for an unknown god?",
-                               god_name(you.religion).c_str()).c_str(),
+        && !yesno(make_stringf(localise("Really abandon %s for an unknown god?").c_str(),
+                               localise(god_name(you.religion)).c_str()).c_str(),
                                false, 'n'))
     {
         canned_msg(MSG_OK);
@@ -124,13 +133,13 @@ static bool _pray_ecumenical_altar()
     {
         vector<string> consequences;
         if (form_at_risk)
-            consequences.emplace_back("leave your current form");
+            consequences.emplace_back(localise("leave your current form"));
         if (gear_at_risk)
-            consequences.emplace_back("remove some of your equipment");
-        const string prompt = "Praying here may force you to "
-            + comma_separated_line(consequences.begin(), consequences.end(),
-                                   " or ")
-            + ". Pray anyway?";
+            consequences.emplace_back(localise("remove some of your equipment"));
+        const string prompt = make_stringf(
+            localise("Praying here may force you to %s. Pray anyway?").c_str(),
+            comma_separated_line(consequences.begin(), consequences.end(),
+                                 localise(" or ")).c_str());
         if (!yesno(prompt.c_str(), false, 'n'))
         {
             canned_msg(MSG_OK);
@@ -162,8 +171,8 @@ static bool _pray_ecumenical_altar()
         // unset_default_form without untransform in that case.
         if (!transformed_player_can_join_god(altar_god))
         {
-            mprf(MSGCH_GOD, "%s dispels your loathsome form.",
-                  uppercase_first(god_name(altar_god)).c_str());
+            mprf(MSGCH_GOD, localise("%s dispels your loathsome form.").c_str(),
+                  uppercase_first(localise(god_name(altar_god))).c_str());
             unset_default_form();
             untransform();
         }
@@ -174,15 +183,15 @@ static bool _pray_ecumenical_altar()
             if (god_forbids_item(*item, altar_god))
             {
                 // included in default force_more_message
-                mprf(MSGCH_GOD, "%s removes %s.",
-                    uppercase_first(god_name(altar_god)).c_str(),
-                    item->name(DESC_YOUR, false, false, false).c_str());
+                mprf(MSGCH_GOD, localise_in_context("ecumenical-prayer", "%s removes %s.").c_str(),
+                    uppercase_first(localise(god_name(altar_god))).c_str(),
+                    localise(item->name(DESC_YOUR, false, false, false)).c_str());
                 unequip_item(*item, false);
             }
         }
 
-        mprf(MSGCH_GOD, "%s accepts your prayer!",
-                        god_name(altar_god).c_str());
+        mprf(MSGCH_GOD, localise("%s accepts your prayer!").c_str(),
+                        localise(god_name(altar_god)).c_str());
         if (you_worship(altar_god))
             return true;
         join_religion(altar_god);
@@ -233,9 +242,9 @@ void try_god_conversion(god_type god)
     else
     {
         // Already worshipping this god - just print a message.
-        mprf(MSGCH_GOD, "You offer a %sprayer to %s.",
-             you.cannot_speak() ? "silent " : "",
-             god_name(god).c_str());
+        mprf(MSGCH_GOD, localise("You offer a %sprayer to %s.").c_str(),
+             you.cannot_speak() ? localise_in_context("prayer", "silent ").c_str() : "",
+             localise(god_name(god)).c_str());
     }
 }
 
@@ -263,7 +272,7 @@ int zin_tithe(const item_def& item, int quant, bool converting)
         }
         taken = tithe;
         you.attribute[ATTR_DONATIONS] += tithe;
-        mprf("You pay a tithe of %d gold.", tithe);
+        mprf(localise("You pay a tithe of %d gold.").c_str(), tithe);
 
         if (item.tithe_state == TS_NO_PIETY) // seen before worshipping Zin
         {

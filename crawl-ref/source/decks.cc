@@ -30,6 +30,7 @@
 #include "god-passive.h" // passive_t::no_haste
 #include "god-wrath.h"
 #include "invent.h"
+#include "initfile.h"
 #include "item-prop.h"
 #include "item-status-flag-type.h"
 #include "items.h"
@@ -228,7 +229,9 @@ const string stack_contents()
     output += comma_separated_fn(
                 reverse_iterator<CrawlVector::const_iterator>(stack.end()),
                 reverse_iterator<CrawlVector::const_iterator>(stack.begin()),
-              [](const CrawlStoreValue& card) { return card_name((card_type)card.get_int()); });
+              [](const CrawlStoreValue& card) {
+                  return localise_in_context("card", card_name((card_type)card.get_int()));
+              }, localise(" and "));
     if (!stack.empty())
         output += ".";
 
@@ -247,9 +250,9 @@ const string stack_top()
 const string deck_contents(deck_type deck)
 {
     if (deck == DECK_STACK)
-        return "Remaining cards: " + stack_contents();
+        return localise("Remaining cards: ") + stack_contents();
 
-    string output = "It may contain the following cards: ";
+    string output = localise("It may contain the following cards: ");
 
     // This way of doing things is intended to prevent a card
     // that appears in multiple subdecks from showing up twice in the
@@ -259,7 +262,9 @@ const string deck_contents(deck_type deck)
     for (const auto& cww : pdeck)
         cards.insert(cww.first);
 
-    output += comma_separated_fn(cards.begin(), cards.end(), card_name);
+    output += comma_separated_fn(cards.begin(), cards.end(),
+        [](card_type card) { return localise_in_context("card", card_name(card)); },
+        localise(" and "));
     output += ".";
 
     return output;
@@ -316,12 +321,13 @@ bool gift_cards()
         for (deck_type deck : sufficiency)
         {
             const deck_type_data *deck_data = map_find(all_decks, deck);
-            deck_names.push_back(deck_data ? deck_data->name : "bugginess");
+            deck_names.push_back(localise_in_context("nemelex-deck",
+                                deck_data ? deck_data->name : "bugginess"));
         }
         mprf(MSGCH_GOD, you.religion,
-             "%s goes to deal, but finds you have enough %s cards.",
-             god_name(you.religion).c_str(),
-             join_strings(deck_names.begin(), deck_names.end(), " and ").c_str());
+             localise("%s goes to deal, but finds you have enough %s cards.").c_str(),
+             localise(god_name(you.religion)).c_str(),
+             join_strings(deck_names.begin(), deck_names.end(), localise(" and ")).c_str());
     }
 
     return dealt_cards;
@@ -365,6 +371,24 @@ string which_decks(card_type card)
             punishment = true;
         else
             decks.push_back(deck_data.second.name);
+    }
+
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        for (string& deck : decks)
+            deck = localise_in_context("nemelex-deck", deck);
+        if (!decks.empty())
+        {
+            output += make_stringf(localise("Found in decks: %s.").c_str(),
+                comma_separated_line(decks.begin(), decks.end(), localise(" and ")).c_str());
+            if (punishment)
+                output += " " + localise("This card may also be in Nemelex Xobeh's deck of punishment.");
+        }
+        else if (punishment)
+            output += localise("It is only found in Nemelex Xobeh's deck of punishment.");
+        else
+            output += localise("It is normally not part of any deck.");
+        return output;
     }
 
     if (!decks.empty())
@@ -468,12 +492,12 @@ static void _describe_cards(CrawlVector& cards)
 
 string deck_status(deck_type deck)
 {
-    const string name = deck_name(deck);
+    const string name = localise_in_context("nemelex-deck", deck_name(deck));
     const int cards   = deck_cards(deck);
 
     ostringstream desc;
 
-    desc << chop_string(deck_name(deck), 24)
+    desc << chop_string(name, 24)
          << to_string(cards);
 
     return trimmed_string(desc.str());
@@ -483,8 +507,8 @@ string deck_description(deck_type deck)
 {
     ostringstream desc;
 
-    desc << "A deck of magical cards, ";
-    desc << deck_flavour(deck) << "\n\n";
+    desc << localise("A deck of magical cards, ");
+    desc << localise(deck_flavour(deck)) << "\n\n";
     desc << deck_contents(deck) << "\n";
 
     if (deck != DECK_STACK)
@@ -492,6 +516,12 @@ string deck_description(deck_type deck)
         const int cards = deck_cards(deck);
         desc << "\n";
 
+        if (Options.language == lang_t::RU && localisation_active())
+        {
+            desc << make_stringf(localise("Cards: %d; capacity: %d.").c_str(),
+                                 cards, all_decks[deck].deck_max) << "\n";
+            return desc.str();
+        }
         if (cards > 1)
             desc << make_stringf("It currently has %d cards ", cards);
         else if (cards == 1)
@@ -530,6 +560,18 @@ static char _deck_hotkey(deck_type deck)
     return get_talent(deck_ability[deck]).hotkey;
 }
 
+static string _deck_menu_title(const string& action, bool describe)
+{
+    if (Options.language == lang_t::RU && localisation_active())
+    {
+        const string label = describe ? localise("Describe deck")
+            : localise_in_context("nemelex-action", action);
+        return chop_string(label + ":", 24) + localise("Cards available");
+    }
+    return describe ? "Describe which deck?    Cards available"
+        : make_stringf("%s which deck?        Cards available", action.c_str());
+}
+
 static deck_type _choose_deck(const string title = "Draw")
 {
     // TODO: refactor this into a subclass?
@@ -538,10 +580,8 @@ static deck_type _choose_deck(const string title = "Draw")
             | MF_ARROWS_SELECT | MF_INIT_HOVER);
     {
         ToggleableMenuEntry* me =
-            new ToggleableMenuEntry(make_stringf("%s which deck?        "
-                                    "Cards available", title.c_str()),
-                                    "Describe which deck?    "
-                                    "Cards available",
+            new ToggleableMenuEntry(_deck_menu_title(title, false),
+                                    _deck_menu_title(title, true),
                                     MEL_TITLE);
         deck_menu.set_title(me, true, true);
     }
@@ -554,8 +594,8 @@ static deck_type _choose_deck(const string title = "Draw")
 
     // XX proper keyhelp
     deck_menu.set_more(formatted_string::parse_string(
-        menu_keyhelp_cmd(CMD_MENU_HELP) + " toggle "
-                       "between deck selection and description."));
+        menu_keyhelp_cmd(CMD_MENU_HELP) + localise(" toggle "
+                       "between deck selection and description.")));
 
     int numbers[NUM_DECKS];
 
@@ -704,7 +744,7 @@ bool StackFiveMenu::process_key(int keyin)
     {
         formatted_string old_more = more;
         set_more(formatted_string::parse_string(
-                "Are you done? (press y or Y to confirm)"));
+                localise("Are you done? (press y or Y to confirm)")));
         if (yesno(nullptr, true, 'n', false, false, true))
             return false;
         set_more(old_more);
@@ -740,10 +780,8 @@ static void _draw_stack(int to_stack)
             | MF_ARROWS_SELECT | MF_INIT_HOVER);
     {
         ToggleableMenuEntry* me =
-            new ToggleableMenuEntry("Draw which deck?        "
-                                    "Cards available",
-                                    "Describe which deck?    "
-                                    "Cards available",
+            new ToggleableMenuEntry(_deck_menu_title("Draw", false),
+                                    _deck_menu_title("Draw", true),
                                     MEL_TITLE);
         deck_menu.set_title(me, true, true);
     }
@@ -756,17 +794,17 @@ static void _draw_stack(int to_stack)
 
     if (!stack.empty())
     {
-            string status = "Drawn so far: " + stack_contents();
+            string status = localise("Drawn so far: ") + stack_contents();
             deck_menu.set_more(formatted_string::parse_string(
                        status + "\n" +
-                       menu_keyhelp_cmd(CMD_MENU_HELP) + " toggle "
-                       "between deck selection and description."));
+                       menu_keyhelp_cmd(CMD_MENU_HELP) + localise(" toggle "
+                       "between deck selection and description.")));
     }
     else
     {
         deck_menu.set_more(formatted_string::parse_string(
-            menu_keyhelp_cmd(CMD_MENU_HELP) + " toggle "
-                       "between deck selection and description."));
+            menu_keyhelp_cmd(CMD_MENU_HELP) + localise(" toggle "
+                       "between deck selection and description.")));
     }
 
     int numbers[NUM_DECKS];
@@ -814,14 +852,14 @@ static void _draw_stack(int to_stack)
             stack.push_back(draw);
         }
         else
-            status = "<lightred>That deck is empty!</lightred> ";
+            status = localise("<lightred>That deck is empty!</lightred> ");
 
         if (stack.size() > 0)
-            status += "Drawn so far: " + stack_contents();
+            status += localise("Drawn so far: ") + stack_contents();
         deck_menu.set_more(formatted_string::parse_string(
                    status + "\n" +
-                   "Press '<w>!</w>' or '<w>?</w>' to toggle "
-                   "between deck selection and description."));
+                   localise("Press '<w>!</w>' or '<w>?</w>' to toggle "
+                   "between deck selection and description.")));
 
         return stack.size() < to_stack;
     };
@@ -849,7 +887,7 @@ bool stack_five()
     }
 
     StackFiveMenu menu(stack);
-    MenuEntry *const title = new MenuEntry("Select two cards to swap them:", MEL_TITLE);
+    MenuEntry *const title = new MenuEntry(localise("Select two cards to swap them:"), MEL_TITLE);
     menu.set_title(title);
     for (unsigned int i = 0; i < stack.size(); i++)
     {
@@ -860,8 +898,8 @@ bool stack_five()
         menu.add_entry(entry);
     }
     menu.set_more(formatted_string::parse_string(
-                "<lightgrey>Press <w>?</w> for the card descriptions"
-                " or <w>Enter</w> to accept."));
+                localise("<lightgrey>Press <w>?</w> for the card descriptions"
+                " or <w>Enter</w> to accept.")));
     menu.show();
 
     if (crawl_state.seen_hups)

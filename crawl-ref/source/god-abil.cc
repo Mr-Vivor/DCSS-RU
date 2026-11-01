@@ -2414,6 +2414,10 @@ static string ashenzari_curse_knowledge_list()
 
     const CrawlVector& curses = you.props[CURSE_KNOWLEDGE_KEY].get_vector();
 
+    if (Options.language == lang_t::RU && localisation_active())
+        return comma_separated_fn(curses.begin(), curses.end(),
+            [](const CrawlStoreValue& curse) { return localise(curse_name(curse)); },
+            localise(" and "));
     return lowercase_string(comma_separated_fn(curses.begin(), curses.end(),
                               curse_name));
 }
@@ -2481,17 +2485,17 @@ void ashenzari_offer_new_curse()
     you.props[AVAILABLE_CURSE_KEY] = true;
     you.props[ASHENZARI_CURSE_PROGRESS_KEY] = 0;
     const string curse_names = ashenzari_curse_knowledge_list();
-    const string offer_string = curse_names.empty() ? "" :
-                                (" of " + curse_names);
-
-    mprf(MSGCH_GOD, "Ashenzari invites you to chain yourself with knowledge%s.",
-                    offer_string.c_str());
+    if (curse_names.empty())
+        mprf(MSGCH_GOD, "%s", localise("Ashenzari invites you to chain yourself with knowledge.").c_str());
+    else
+        mprf(MSGCH_GOD, localise("Ashenzari invites you to chain yourself with knowledge of %s.").c_str(),
+                        curse_names.c_str());
 }
 
 static void _do_curse_item(item_def &item)
 {
-    mprf("You bind %s in chains and feel the brush of Ashenzari's sight against your mind.",
-         item.name(DESC_YOUR).c_str());
+    mprf(localise("You bind %s in chains and feel the brush of Ashenzari's sight against your mind.").c_str(),
+         localise(item.name(DESC_YOUR)).c_str());
     item.flags |= ISFLAG_CURSED;
 
     if (item.base_type == OBJ_WEAPONS)
@@ -2569,17 +2573,17 @@ bool ashenzari_shatter_item()
 
     if (item_is_melded(item))
     {
-        mprf(MSGCH_PROMPT, "You cannot shatter the chains on %s while it is "
-                           "melded with your body!",
-             item.name(DESC_THE).c_str());
+        mprf(MSGCH_PROMPT, localise("You cannot shatter the chains on %s while it is "
+                           "melded with your body!").c_str(),
+             localise(item.name(DESC_THE)).c_str());
         return false;
     }
 
-    if (!yesno(make_stringf("Really remove and destroy %s?%s",
-                            item.name(DESC_THE).c_str(),
-                            you.props.exists(AVAILABLE_CURSE_KEY) ?
-                                " Ashenzari will withdraw the current offer of knowledge!"
-                                : "").c_str(),
+    if (!yesno(make_stringf(localise("Really remove and destroy %s?%s").c_str(),
+                            localise(item.name(DESC_THE)).c_str(),
+                            (you.props.exists(AVAILABLE_CURSE_KEY) ?
+                                localise(" Ashenzari will withdraw the current offer of knowledge!")
+                                : "").c_str()).c_str(),
                             false, 'n'))
     {
         canned_msg(MSG_OK);
@@ -2590,12 +2594,14 @@ bool ashenzari_shatter_item()
     if (!handle_chain_removal(to_remove, true))
         return false;
 
-    mprf("You shatter the chains binding %s!", item.name(DESC_THE).c_str());
+    mprf(localise("You shatter the chains binding %s!").c_str(),
+         localise(item.name(DESC_THE)).c_str());
 
     for (item_def* _item : to_remove)
     {
         if (_item-> link != item_slot)
-            mprf("%s falls away from you.", _item->name(DESC_YOUR).c_str());
+            mprf(localise("%s falls away from you.").c_str(),
+                 localise(_item->name(DESC_YOUR)).c_str());
         unequip_item(*_item);
     }
 
@@ -2646,7 +2652,7 @@ void announce_beogh_conversion_offer()
 
             ASSERT_RANGE(get_talent(ABIL_CONVERT_TO_BEOGH).hotkey,
                             'A', 'z' + 1);
-            mprf("(press <w>%c</w> on the <w>%s</w>bility menu to convert to Beogh)",
+            mprf(localise("(press <w>%c</w> on the <w>%s</w>bility menu to convert to Beogh)").c_str(),
                     get_talent(ABIL_CONVERT_TO_BEOGH).hotkey,
                     command_to_string(CMD_USE_ABILITY).c_str());
             you.attribute[ATTR_SEEN_BEOGH] = 1;
