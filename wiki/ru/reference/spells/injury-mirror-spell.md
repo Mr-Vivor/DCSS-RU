@@ -1,4 +1,4 @@
-# Отражение ранений
+# Зеркало ран
 
 **English:** Injury Mirror spell
 
