@@ -2308,7 +2308,13 @@ static void _malign_offering_effect(actor* victim, const actor* agent, int damag
     coord_def c = victim->pos();
 
     if (you.see_cell(c) || you.see_cell(agent->pos()))
-        mprf("%s life force is offered up.", victim->name(DESC_ITS).c_str());
+    {
+        if (victim->is_player())
+            mpr("Your life force is offered up.");
+        else
+            mprf(localise("The life force of %s is offered up.").c_str(),
+                 localise_in_context("gen", victim->name(DESC_THE)).c_str());
+    }
     damage = victim->hurt(agent, damage, BEAM_MALIGN_OFFERING, KILLED_BY_BEAM,
                           "", "by a malign offering");
 
@@ -2322,8 +2328,11 @@ static void _malign_offering_effect(actor* victim, const actor* agent, int damag
         {
             if (ai->heal(max(1, damage * 2 / 3)) && you.can_see(**ai))
             {
-                mprf("%s %s healed.", ai->name(DESC_THE).c_str(),
-                                      ai->conj_verb("are").c_str());
+                if (ai->is_player())
+                    mpr("You are healed.");
+                else
+                    mprf(localise("Health is restored to %s.").c_str(),
+                         localise(ai->name(DESC_THE)).c_str());
             }
         }
     }
@@ -2335,11 +2344,15 @@ static void _vampiric_draining_effect(actor& victim, actor& agent, int damage)
 
     if (you.can_see(victim) || you.can_see(agent))
     {
-        mprf("%s %s life force from %s%s",
-             agent.name(DESC_THE).c_str(),
-             agent.conj_verb("draw").c_str(),
-             victim.name(DESC_THE).c_str(),
-             attack_strength_punctuation(damage).c_str());
+        if (agent.is_player())
+            mprf(localise("You draw life force from %s%s").c_str(),
+                 localise_in_context("gen", victim.name(DESC_THE)).c_str(),
+                 attack_strength_punctuation(damage).c_str());
+        else
+            mprf(localise("%s draws life force from %s%s").c_str(),
+                 localise(agent.name(DESC_THE)).c_str(),
+                 localise_in_context("gen", victim.name(DESC_THE)).c_str(),
+                 attack_strength_punctuation(damage).c_str());
 
         if (agent.is_player() && !can_drain)
             mpr("...but it dissipates before reaching you.");
@@ -6282,13 +6295,14 @@ mon_resist_type bolt::apply_enchantment_to_monster(monster* mon)
         {
             if (mon->type == MONS_GLOWING_ORANGE_BRAIN)
             {
-                mprf("%s is blasted smooth%s",
-                     mon->name(DESC_THE).c_str(),
+                mprf(localise("%s is blasted smooth%s").c_str(),
+                     localise(mon->name(DESC_THE)).c_str(),
                      attack_strength_punctuation(dam).c_str());
             } else {
-                mprf("%s mind%s blasted%s",
-                     mon->name(DESC_ITS).c_str(),
-                     mon->heads() > 1 ? "s are" : " is",
+                mprf(localise(mon->heads() > 1
+                             ? "The minds of %s are blasted%s"
+                             : "The mind of %s is blasted%s").c_str(),
+                     localise_in_context("gen", mon->name(DESC_THE)).c_str(),
                      attack_strength_punctuation(dam).c_str());
             }
             obvious_effect = true;

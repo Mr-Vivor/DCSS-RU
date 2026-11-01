@@ -5966,8 +5966,8 @@ static bool _mons_cast_freeze(monster* mons)
 
     if (you.can_see(*target))
     {
-        mprf("%s %s frozen%s", target->name(DESC_THE).c_str(),
-                              target->conj_verb("are").c_str(),
+        mprf(localise("Cold hits %s%s").c_str(),
+                              localise_in_context("acc", target->name(DESC_THE)).c_str(),
                               attack_strength_punctuation(damage).c_str());
     }
 
@@ -6907,12 +6907,14 @@ static string _describe_nearby_constructs(const monster &caster, coord_def pos)
 
     const string name = nearby_constructs.back()->name(DESC_THE);
     if (nearby_constructs.size() == 1)
-        return make_stringf(" and %s", name.c_str());
+        return make_stringf(localise_in_context("resonance-source", " and %s").c_str(),
+                            localise(name).c_str());
 
     for (auto act : nearby_constructs)
         if (act->name(DESC_THE) != name)
-            return " and the adjacent constructs";
-    return make_stringf(" and %s", pluralise_monster(name).c_str());
+            return localise(" and the adjacent constructs");
+    return make_stringf(localise_in_context("resonance-source-plural", " and %s").c_str(),
+                        localise(pluralise_monster(name)).c_str());
 }
 
 /// Cast Resonance Strike, blasting the caster's target with smitey damage.
@@ -6935,9 +6937,9 @@ static void _cast_resonance_strike(monster &caster, mon_spell_slot, bolt&)
 
     if (you.see_cell(target->pos()))
     {
-        mprf("A blast of power from the earth%s strikes %s!",
+        mprf(localise("A blast of power from the earth%s strikes %s!").c_str(),
              constructs_desc.c_str(),
-             target->name(DESC_THE).c_str());
+             localise(target->name(DESC_THE)).c_str());
     }
     target->hurt(&caster, dam, BEAM_MISSILE, KILLED_BY_BEAM,
                  "", "by a resonance strike");
