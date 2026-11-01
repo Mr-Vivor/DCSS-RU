@@ -978,8 +978,8 @@ spret cast_a_spell(bool check_range, spell_type spell, dist *_target,
                 }
                 else
                 {
-                    mprf(MSGCH_PROMPT, "Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>",
-                                       spell_title(you.last_cast_spell),
+                    mprf(MSGCH_PROMPT, localise("Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>").c_str(),
+                                       localise(spell_title(you.last_cast_spell)).c_str(),
                                        _spell_failure_rate_description(you.last_cast_spell).c_str());
                     mprf(MSGCH_PROMPT, "Confirm with . or Enter, or press "
                                        "? or * to list all spells.");

@@ -45534,6 +45534,18 @@
     "{player-melee-verb}read the riot act to": {
       "context": "melee-attack.cc set_attack_verb, mons_attack_verb, AuxAttackType subclasses, announce_hit, zero-damage branch, player_warn_miss and form-data.h uc_attack_verbs. Player second-person and monster third-person present-tense verbs are distinct; medusa tendrils sting in the plural. Touch takes genitive, wrestling instrumental, clown trips/eye and knee strikes dative, other targets accusative. Spit is a piercing weapon verb meaning to skewer, not saliva. Storm-form blast is a melee strike, not a new explosion. Comparison suffixes do not imply that the target died. Weapon labels use a quoted nominative to support named artefacts. Electric charge keeps original resistance/charge conditions. English combat verbs, save/death identifiers, random choices, damage and visibility rules are unchanged.",
       "translation_sha256": "32a7801a9fd6388e4cd267d1c570bbe4c6c512dee43ac8990c81e2397b410653"
+    },
+    "Casting: <w>%s</w> <lightgrey>(%s)</lightgrey>": {
+      "context": "spl-cast.cc recast prompt localises spell title and preserves coloured failure description before formatting. spl-monench.cc magical hammer target accusative; spl-summoning.cc simulacrum essence owner genitive only for loaded Russian, original English apostrophised owner preserved. No MP, spell, targeting or summon mechanics changed.",
+      "translation_sha256": "66702de65ac287685b0b9bc98034da7c9fc6453965452aeb90ed852c529a5388"
+    },
+    "A magical hammer augments %s in a flurry of sparks and slag.": {
+      "context": "spl-cast.cc recast prompt localises spell title and preserves coloured failure description before formatting. spl-monench.cc magical hammer target accusative; spl-summoning.cc simulacrum essence owner genitive only for loaded Russian, original English apostrophised owner preserved. No MP, spell, targeting or summon mechanics changed.",
+      "translation_sha256": "f064313097b4af13654afca6c5029a0ebe3327a676e977f8fab6775cd6510f4f"
+    },
+    "You sublimate a sliver of %s essence and reconstitute it in ice.": {
+      "context": "spl-cast.cc recast prompt localises spell title and preserves coloured failure description before formatting. spl-monench.cc magical hammer target accusative; spl-summoning.cc simulacrum essence owner genitive only for loaded Russian, original English apostrophised owner preserved. No MP, spell, targeting or summon mechanics changed.",
+      "translation_sha256": "3bf6c9a0c466b90729ed61b00895261b0a024f5d68887a8edbbd7edae6d23f33"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

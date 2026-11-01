@@ -403,8 +403,8 @@ spret cast_percussive_tempering(const actor& caster, monster& target, int power,
 
     if (you.can_see(target))
     {
-        mprf("A magical hammer augments %s in a flurry of sparks and slag.",
-             target.name(DESC_THE).c_str());
+        mprf(localise("A magical hammer augments %s in a flurry of sparks and slag.").c_str(),
+             localise_in_context("acc", target.name(DESC_THE)).c_str());
     }
 
     flash_tile(target.pos(), WHITE, 0, TILE_BOLT_PERCUSSIVE_TEMPERING);

@@ -282,6 +282,38 @@
 | Summon Seismosaurus Egg | Призыв яйца сейсмозавра |
 | Summon Sin Beast | Призыв зверя греха |
 | Summon Dragon | Призыв дракона |
+| Ozocubu's Refrigeration | Стужа Озокубу |
+| Nazja's All-Purpose Tempering | Универсальная закалка Назджи |
+| Nazja's Percussive Tempering | Ударная закалка Назджи |
+| Starburst | Звёздная вспышка |
+| Sculpt Simulacrum | Лепка симулякров |
+| Thunderbolt | Громовой разряд |
+| Diminish Spells | Ослабление заклинаний |
+| Rebounding Blaze | Рикошетящее пламя |
+| Rebounding Chill | Рикошетящий холод |
+| Sphinx Sisters | Сёстры-сфинксы |
+| Detonation Catalyst | Катализатор детонации |
+| Metabolic Englaciation | Метаболическое оледенение |
+| Polar Vortex | Полярный вихрь |
+| Rending Blade | Раздирающий клинок |
+| Sigil of Binding | Символ связывания |
+| Momentum Strike | Импульсный удар |
+| Splinterfrost Shell | Морозный панцирь |
+| Sirocco | Сирокко |
+| Slow | Замедление |
+| Charm | Очарование |
+| Polymorph | Превращение |
+| Mindburst | Взрыв разума |
+| Paralyse | Паралич |
+| Curse of Agony | Проклятие агонии |
+| Dig | Копать |
+| Corrosive Bolt | Кислотный луч |
+| Bolt of Light | Луч света |
+| Iceblast | Ледяной взрыв |
+| Fastroot | Быстрорастущие корни |
+| Warp Space | Искажение пространства |
+| Gloom | Мрак |
+| Phantom Mirror | Фантомное зеркало |
 
 ## items
 

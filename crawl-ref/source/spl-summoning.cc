@@ -57,6 +57,7 @@
 #include "mon-speak.h"
 #include "movement.h"
 #include "mutation.h"
+#include "options.h"
 #include "place.h" // absdungeon_depth
 #include "player-equip.h"
 #include "player-stats.h"
@@ -3128,8 +3129,11 @@ spret cast_simulacrum(coord_def target, int pow, bool fail)
 
     monster* mons = monster_at(target);
 
-    mprf("You sublimate a sliver of %s essence and reconstitute it in ice.",
-         apostrophise(mons->name(DESC_THE)).c_str());
+    const string essence_owner = Options.language == lang_t::RU && localisation_active()
+                               ? localise_in_context("gen", mons->name(DESC_THE))
+                               : apostrophise(mons->name(DESC_THE));
+    mprf(localise("You sublimate a sliver of %s essence and reconstitute it in ice.").c_str(),
+         essence_owner.c_str());
 
     int num_simulacra = 2;
     if (x_chance_in_y(pow, 200))
