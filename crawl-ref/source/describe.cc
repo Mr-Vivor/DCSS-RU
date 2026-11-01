@@ -6227,7 +6227,7 @@ static void _attacks_table_row_throwing(const monster_info &mi,
 static void _build_table_of_attacks(mon_attack_desc_info &di,
                                     ostringstream &result)
 {
-    if (Options.language == lang_t::RU)
+    if (Options.language == lang_t::RU && localisation_active())
     {
         const auto label = [](const char* text) {
             return localise_in_context("monster-attacks-table", text);
@@ -6684,7 +6684,7 @@ string _monster_habitat_description(const monster_info& mi)
     switch (mons_habitat_type(type, mi.base_type))
     {
     case HT_AMPHIBIOUS:
-        if (Options.language == lang_t::RU)
+        if (Options.language == lang_t::RU && localisation_active())
             return localise(mi.type == MONS_ORC_APOSTLE
                             ? "Can walk on water.\n" : "Can travel through water.\n");
         return uppercase_first(make_stringf("%s can %s water.\n",
@@ -6692,7 +6692,7 @@ string _monster_habitat_description(const monster_info& mi)
                                mi.type == MONS_ORC_APOSTLE
                                 ? "walk on" : "travel through"));
     case HT_AMPHIBIOUS_LAVA:
-        if (Options.language == lang_t::RU)
+        if (Options.language == lang_t::RU && localisation_active())
             return localise("Can travel through lava.\n");
         return uppercase_first(make_stringf("%s can travel through lava.\n",
                                mi.pronoun(PRONOUN_SUBJECTIVE)));
