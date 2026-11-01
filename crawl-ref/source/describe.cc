@@ -5828,16 +5828,16 @@ static string _brand_damage_string(const monster_info &mi, brand_type brand,
             brand_dam = 4;
             break;
         case SPWPN_SUNDERING:
-            return make_stringf(" + %d per 4 attacks", dam * 3 / 2);
+            return make_stringf(localise(" + %d per 4 attacks").c_str(), dam * 3 / 2);
         case SPWPN_VENOM:
         case SPWPN_ANTIMAGIC:
         case SPWPN_CHAOS:
-            return make_stringf(" + %s", name);
+            return make_stringf(" + %s", localise(name).c_str());
         default:
             return "";
     }
 
-    return make_stringf(" + %d (%s)", brand_dam, name);
+    return make_stringf(" + %d (%s)", brand_dam, localise(name).c_str());
 }
 
 // Describe the damage from a monster's magical staff
@@ -5856,7 +5856,7 @@ static string _monster_staff_damage_string(const monster_info &mi,
 
     return make_stringf(" + %d (%s)",
                         _staff_max_damage(staff, staff_skill, evo_skill),
-                        dam_type_string.c_str());
+                        localise(dam_type_string).c_str());
 }
 
 struct mon_attack_desc_info
@@ -5947,25 +5947,29 @@ static void _add_attack_flavour_desc(string& desc, attack_flavour flavour,
     if (!desc.empty())
         desc += " + ";
 
-    desc += uppercase_first(_flavour_base_desc(flavour));
-    if (flav_dam && attack.flavour != AF_PURE_FIRE)
+    const bool poison_and_paralysis = flavour == AF_MINIPARA
+                                     || flavour == AF_POISON_PARALYSE;
+    if (flav_dam && attack.flavour != AF_PURE_FIRE && poison_and_paralysis)
     {
-        const string dmg_desc = make_stringf(" (max %d%s)",
-                                             flav_dam,
-                                             attk_mult > 1 ? " each" : "");
-
-        // XXX: If we need to do much more of this, use a more general solution.
-        if (attack.flavour == AF_MINIPARA || attack.flavour == AF_POISON_PARALYSE)
-            desc.insert(desc.find("poison") + 7, dmg_desc);
-        else
-            desc += dmg_desc;
+        // Keep the damage beside poison without searching translated prose.
+        const char* format = flavour == AF_MINIPARA
+            ? (attk_mult > 1 ? "Poison (max %d each) and momentary paralysis"
+                             : "Poison (max %d) and momentary paralysis")
+            : (attk_mult > 1 ? "Poison (max %d each) and paralysis/slowing"
+                             : "Poison (max %d) and paralysis/slowing");
+        desc += make_stringf(localise(format).c_str(), flav_dam);
     }
-    else if (flavour == AF_DRAIN)
-        desc += make_stringf(" (max %d damage)", real_dam / 2);
-    else if (flavour == AF_CONSTRICT)
+    else
     {
-        desc += make_stringf(" (%d-%d dam)", attack.damage,
-                                attack.damage*2);
+        desc += uppercase_first(localise_in_context("monster-attack-effect", _flavour_base_desc(flavour)));
+        if (flav_dam && attack.flavour != AF_PURE_FIRE)
+            desc += make_stringf(localise(attk_mult > 1
+                                 ? " (max %d each)" : " (max %d)").c_str(), flav_dam);
+        else if (flavour == AF_DRAIN)
+            desc += make_stringf(localise(" (max %d damage)").c_str(), real_dam / 2);
+        else if (flavour == AF_CONSTRICT)
+            desc += make_stringf(localise(" (%d-%d dam)").c_str(), attack.damage,
+                                    attack.damage*2);
     }
 
     if (di.flavour_without_dam
@@ -5973,7 +5977,7 @@ static void _add_attack_flavour_desc(string& desc, attack_flavour flavour,
         && !flavour_triggers_damageless(attack.flavour)
         && !flavour_has_mobility(attack.flavour))
     {
-        desc += " (if damage dealt)";
+        desc += localise(" (if damage dealt)");
     }
 }
 
@@ -5992,14 +5996,14 @@ static void _attacks_table_row(const monster_info &mi, mon_attack_desc_info &di,
 
     if (weapon_multihits(wpn))
         attk_mult *= weapon_hits_per_swing(*wpn);
-    string attk_name = uppercase_first(mon_attack_name_short(attack.type));
+    string attk_name = uppercase_first(localise_in_context("monster-attack-name", mon_attack_name_short(attack.type)));
     if (ranged)
-        attk_name = "Shoot";
+        attk_name = localise_in_context("monster-attack-name", "Shoot");
     string weapon_descriptor = "";
     if (wpn)
-        weapon_descriptor = ": " + wpn->name(DESC_PLAIN, true, true, false);
+        weapon_descriptor = ": " + localise(wpn->name(DESC_PLAIN, true, true, false));
     else if (di.special_flavour != SPWPN_NORMAL)
-        weapon_descriptor = ": " + ghost_brand_name(di.special_flavour, mi.type);
+        weapon_descriptor = ": " + localise(ghost_brand_name(di.special_flavour, mi.type));
     string attk_desc = make_stringf("%s%s", attk_name.c_str(),
                                     weapon_descriptor.c_str());
     if (attk_mult > 1)
@@ -6060,12 +6064,12 @@ static void _attacks_table_row(const monster_info &mi, mon_attack_desc_info &di,
 
     string dam_str;
     if (dam != real_dam)
-        dam_str = make_stringf("%d (base %d)", real_dam, dam);
+        dam_str = make_stringf(localise("%d (base %d)").c_str(), real_dam, dam);
     else
         dam_str = make_stringf("%d", dam);
 
     if (attack.flavour == AF_PURE_FIRE)
-        dam_str += " fire";
+        dam_str += localise_in_context("monster-attack-damage", " fire");
 
     string brand_str;
     if (wpn)
@@ -6086,7 +6090,7 @@ static void _attacks_table_row(const monster_info &mi, mon_attack_desc_info &di,
 
     string final_dam_str = make_stringf("%s%s%s", dam_str.c_str(),
                                         brand_str.c_str(),
-                                        attk_mult > 1 ? " each" : "");
+                                        (attk_mult > 1 ? localise_in_context("monster-attack-damage", " each") : "").c_str());
     di.damage_descriptions.emplace_back(final_dam_str);
     di.damage_width = max(di.damage_width, final_dam_str.size());
 
@@ -6134,7 +6138,7 @@ static void _attacks_table_row(const monster_info &mi, mon_attack_desc_info &di,
     }
     // ...except Nessos' ranged attacks apply venom as a special effect
     else if (mi.type == MONS_NESSOS)
-        bonus_desc += make_stringf("Poison");
+        bonus_desc += localise_in_context("monster-attack-effect", "poison");
 
     di.bonus_descriptions.emplace_back(bonus_desc);
     di.bonus_width = max(di.bonus_width, bonus_desc.size());
@@ -6149,12 +6153,12 @@ static void _attacks_table_row_throwing(const monster_info &mi,
     if (!quiv || quiv->base_type != OBJ_MISSILES)
         return;
 
-    string throw_str = "Throw: ";
+    string throw_str = localise_in_context("monster-attacks-table", "Throw: ");
     if (quiv->is_type(OBJ_MISSILES, MI_THROWING_NET))
-        throw_str += quiv->name(DESC_A, false, false, true, false);
+        throw_str += localise(quiv->name(DESC_A, false, false, true, false));
     else
-        throw_str += pluralise(quiv->name(DESC_PLAIN, false, false,
-                                          true, false));
+        throw_str += localise(pluralise(quiv->name(DESC_PLAIN, false, false,
+                                          true, false)));
     di.attack_descriptions.emplace_back(throw_str);
     di.attk_desc_width = max(di.attk_desc_width, throw_str.size());
 
@@ -6204,13 +6208,13 @@ static void _attacks_table_row_throwing(const monster_info &mi,
             string dmg_msg;
             int silver_dam = max(dam / 3,
                                  silver_damages_victim(&you, dam, dmg_msg));
-            silver_str = make_stringf(" + %d (silver)", silver_dam);
+            silver_str = make_stringf(localise(" + %d (silver)").c_str(), silver_dam);
         }
         dam_desc = make_stringf("%d%s", dam, silver_str.c_str());
     }
 
-    di.damage_descriptions.emplace_back(dam_desc);
-    di.bonus_descriptions.emplace_back(bonus_desc);
+    di.damage_descriptions.emplace_back(localise(dam_desc));
+    di.bonus_descriptions.emplace_back(localise_in_context("monster-missile-effect", bonus_desc));
     di.damage_width = max(di.damage_width, dam_desc.size());
     di.bonus_width = max(di.bonus_width, bonus_desc.size());
 
@@ -6223,6 +6227,27 @@ static void _attacks_table_row_throwing(const monster_info &mi,
 static void _build_table_of_attacks(mon_attack_desc_info &di,
                                     ostringstream &result)
 {
+    if (Options.language == lang_t::RU)
+    {
+        const auto label = [](const char* text) {
+            return localise_in_context("monster-attacks-table", text);
+        };
+        result << label(di.plural ? "Attacks" : "Attack") << ":\n";
+        for (size_t i = 0; i < di.attack_descriptions.size(); ++i)
+        {
+            result << "  " << di.attack_descriptions[i] << "\n"
+                   << "    " << label("Max Damage") << ": " << di.damage_descriptions[i];
+            if (di.needs_range_desc)
+                result << "; " << label("Range") << ": "
+                       << (di.range_descriptions[i].empty() ? "1" : di.range_descriptions[i]);
+            result << "\n";
+            if (!di.bonus_descriptions[i].empty())
+                result << "    " << label(di.flavour_without_dam ? "Bonus" : "After Damaging Hits")
+                       << ": " << di.bonus_descriptions[i] << "\n";
+        }
+        return;
+    }
+
     // Hopefully enough width for every possibility
     di.damage_width    = min(di.damage_width, (size_t) 31);
     di.bonus_width     = min(di.bonus_width, 69 - di.damage_width - di.range_width);
@@ -6361,12 +6386,12 @@ static string _monster_spells_description(const monster_info& mi, bool mark_spel
     if (mark_spells)
         description += SPELL_LIST_END;
 
-    description.cprintf("\nTo read a description, press the key listed above. "
+    description.cprintf(localise("\nTo read a description, press the key listed above. "
         "(AdB) indicates damage (the sum of A B-sided dice), "
         "(x%%) indicates the chance to defeat your Will, "
-        "and (y) indicates the spell range");
+        "and (y) indicates the spell range").c_str());
     description.cprintf(crawl_state.need_save
-        ? "; shown in red if you are in range.\n"
+        ? localise("; shown in red if you are in range.\n").c_str()
         : ".\n");
 
     return description.to_colour_string();
@@ -6374,23 +6399,10 @@ static string _monster_spells_description(const monster_info& mi, bool mark_spel
 
 static string _monster_notice_chance(const monster_info& mi)
 {
-    ostringstream result;
-
-    result << uppercase_first(mi.pronoun(PRONOUN_SUBJECTIVE)) << " "
-           << conjugate_verb("have", mi.pronoun_plurality())
-           << " a ";
-
     int perception = mi.perception() * 100;
     int stealth = player_stealth() * 100;
-
-    if (stealth < perception)
-        result << 100;
-    else
-        result << perception * 100 / stealth;
-
-    result << "% chance to notice you each turn.\n";
-
-    return result.str();
+    const int chance = stealth < perception ? 100 : perception * 100 / stealth;
+    return make_stringf(localise("Chance to notice you each turn: %d%%.\n").c_str(), chance);
 }
 
 static void _describe_aux_hit_chance(ostringstream &result, vector<string>& auxes, int chance)
@@ -6672,13 +6684,10 @@ string _monster_habitat_description(const monster_info& mi)
     switch (mons_habitat_type(type, mi.base_type))
     {
     case HT_AMPHIBIOUS:
-        return uppercase_first(make_stringf("%s can %s water.\n",
-                               mi.pronoun(PRONOUN_SUBJECTIVE),
-                               mi.type == MONS_ORC_APOSTLE
-                                ? "walk on" : "travel through"));
+        return localise(mi.type == MONS_ORC_APOSTLE
+                        ? "Can walk on water.\n" : "Can travel through water.\n");
     case HT_AMPHIBIOUS_LAVA:
-        return uppercase_first(make_stringf("%s can travel through lava.\n",
-                               mi.pronoun(PRONOUN_SUBJECTIVE)));
+        return localise("Can travel through lava.\n");
     default:
         return "";
     }

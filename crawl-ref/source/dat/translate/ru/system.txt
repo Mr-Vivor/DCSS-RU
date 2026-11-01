@@ -23146,7 +23146,7 @@ It is quivering @arg@.
 %%%%
 To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range
 
-Для описания нажмите указанную выше клавишу. AdB обозначает урон — сумму A бросков B-гранного кубика; x%% — шанс преодолеть вашу Волю; y — дальность заклинания
+Для чтения описания нажмите клавишу из списка выше. (AdB) — урон: сумма A бросков B-гранного кубика; (x%%) — вероятность преодолеть вашу силу воли; (y) — дальность заклинания
 %%%%
 ; shown in red if you are in range
 
@@ -40803,3 +40803,431 @@ You forge a skittering defender to stand by your side.
 You condense your magic into a crackling blade!
 
 Вы сгущаете свою магию в потрескивающий клинок!
+%%%%
+" + %d per 4 attacks"
+
+" + %d за 4 атаки"
+%%%%
+Poison (max %d each) and momentary paralysis
+
+Отравление (макс. %d за удар) и краткий паралич
+%%%%
+Poison (max %d) and momentary paralysis
+
+Отравление (макс. %d) и краткий паралич
+%%%%
+Poison (max %d each) and paralysis/slowing
+
+Отравление (макс. %d за удар), а также паралич или замедление
+%%%%
+Poison (max %d) and paralysis/slowing
+
+Отравление (макс. %d), а также паралич или замедление
+%%%%
+" (max %d each)"
+
+" (макс. %d за удар)"
+%%%%
+" (max %d)"
+
+" (макс. %d)"
+%%%%
+" (max %d damage)"
+
+" (макс. урон: %d)"
+%%%%
+" (%d-%d dam)"
+
+" (урон: %d–%d)"
+%%%%
+" (if damage dealt)"
+
+" (только при нанесении урона)"
+%%%%
+%d (base %d)
+
+%d (базовый: %d)
+%%%%
+12 (curare)
+
+12 (кураре)
+%%%%
+" + %d (silver)"
+
+" + %d (серебро)"
+%%%%
+Chance to notice you each turn: %d%%.
+
+Вероятность заметить вас за ход: %d%%.
+%%%%
+; shown in red if you are in range.
+
+; красный цвет означает, что вы в пределах дальности.
+%%%%
+Can walk on water.
+
+Может ходить по воде.
+%%%%
+Can travel through water.
+
+Может передвигаться по воде.
+%%%%
+Can travel through lava.
+
+Может передвигаться по лаве.
+%%%%
+{monster-attacks-table}Attack
+
+{monster-attacks-table}Атака
+%%%%
+{monster-attacks-table}Attacks
+
+{monster-attacks-table}Атаки
+%%%%
+{monster-attacks-table}Max Damage
+
+{monster-attacks-table}Максимальный урон
+%%%%
+{monster-attacks-table}Range
+
+{monster-attacks-table}Дальность
+%%%%
+{monster-attacks-table}Bonus
+
+{monster-attacks-table}Дополнительный эффект
+%%%%
+{monster-attacks-table}After Damaging Hits
+
+{monster-attacks-table}После попадания с уроном
+%%%%
+{monster-attack-damage} fire
+
+{monster-attack-damage} огнём
+%%%%
+{monster-attack-damage} each
+
+{monster-attack-damage} за каждый удар
+%%%%
+{monster-attack-name}hit
+
+{monster-attack-name}удар
+%%%%
+{monster-attack-name}bite
+
+{monster-attack-name}укус
+%%%%
+{monster-attack-name}sting
+
+{monster-attack-name}удар жалом
+%%%%
+{monster-attack-name}spore
+
+{monster-attack-name}споры
+%%%%
+{monster-attack-name}touch
+
+{monster-attack-name}касание
+%%%%
+{monster-attack-name}engulf
+
+{monster-attack-name}обволакивание
+%%%%
+{monster-attack-name}claw
+
+{monster-attack-name}удар когтями
+%%%%
+{monster-attack-name}peck
+
+{monster-attack-name}удар клювом
+%%%%
+{monster-attack-name}headbutt
+
+{monster-attack-name}удар головой
+%%%%
+{monster-attack-name}punch
+
+{monster-attack-name}удар кулаком
+%%%%
+{monster-attack-name}kick
+
+{monster-attack-name}удар ногой
+%%%%
+{monster-attack-name}tentacle
+
+{monster-attack-name}удар щупальцем
+%%%%
+{monster-attack-name}tail
+
+{monster-attack-name}удар хвостом
+%%%%
+{monster-attack-name}gore
+
+{monster-attack-name}удар рогами
+%%%%
+{monster-attack-name}constrict
+
+{monster-attack-name}сдавливание
+%%%%
+{monster-attack-name}trample
+
+{monster-attack-name}топтание
+%%%%
+{monster-attack-name}trunk
+
+{monster-attack-name}удар хоботом
+%%%%
+{monster-attack-name}snap closed
+
+{monster-attack-name}смыкание челюстей
+%%%%
+{monster-attack-name}splash
+
+{monster-attack-name}всплеск
+%%%%
+{monster-attack-name}pounce
+
+{monster-attack-name}прыжок на цель
+%%%%
+{monster-attack-name}Shoot
+
+{monster-attack-name}Выстрел
+%%%%
+{monster-missile-effect}Ensnare in a net
+
+{monster-missile-effect}запутывание в сети
+%%%%
+{monster-missile-effect}Poison and slowing
+
+{monster-missile-effect}отравление и замедление
+%%%%
+{monster-missile-effect}Poison
+
+{monster-missile-effect}отравление
+%%%%
+{monster-missile-effect}Blinding and confusion
+
+{monster-missile-effect}ослепление и замешательство
+%%%%
+{monster-missile-effect}Drive defenders into a frenzy
+
+{monster-missile-effect}неистовство цели
+%%%%
+{monster-missile-effect}Blink the defender away
+
+{monster-missile-effect}короткая телепортация цели прочь
+%%%%
+{monster-missile-effect}Blink the defender repeatedly
+
+{monster-missile-effect}повторные короткие телепортации цели
+%%%%
+{monster-attack-effect}acid damage
+
+{monster-attack-effect}кислотный урон
+%%%%
+{monster-attack-effect}blink self
+
+{monster-attack-effect}короткая телепортация атакующего
+%%%%
+{monster-attack-effect}blink together with the defender
+
+{monster-attack-effect}короткая телепортация вместе с целью
+%%%%
+{monster-attack-effect}cold damage
+
+{monster-attack-effect}урон холодом
+%%%%
+{monster-attack-effect}cause confusion
+
+{monster-attack-effect}замешательство
+%%%%
+{monster-attack-effect}drain life
+
+{monster-attack-effect}истощение жизненной силы
+%%%%
+{monster-attack-effect}drain health from the living
+
+{monster-attack-effect}похищение здоровья у живых
+%%%%
+{monster-attack-effect}drain speed
+
+{monster-attack-effect}замедление
+%%%%
+{monster-attack-effect}drain magic
+
+{monster-attack-effect}истощение магии
+%%%%
+{monster-attack-effect}drain speed and health
+
+{monster-attack-effect}замедление и похищение здоровья
+%%%%
+{monster-attack-effect}electric damage
+
+{monster-attack-effect}электрический урон
+%%%%
+{monster-attack-effect}fire damage
+
+{monster-attack-effect}огненный урон
+%%%%
+{monster-attack-effect}remove fire resistance
+
+{monster-attack-effect}снижение сопротивления огню
+%%%%
+{monster-attack-effect}poison and momentary paralysis
+
+{monster-attack-effect}отравление и краткий паралич
+%%%%
+{monster-attack-effect}poison and paralysis/slowing
+
+{monster-attack-effect}отравление, а также паралич или замедление
+%%%%
+{monster-attack-effect}poison
+
+{monster-attack-effect}отравление
+%%%%
+{monster-attack-effect}strong poison
+
+{monster-attack-effect}сильное отравление
+%%%%
+{monster-attack-effect}distortion
+
+{monster-attack-effect}искажение пространства
+%%%%
+{monster-attack-effect}drive defenders berserk
+
+{monster-attack-effect}ярость цели
+%%%%
+{monster-attack-effect}chaos
+
+{monster-attack-effect}хаос
+%%%%
+{monster-attack-effect}steal items
+
+{monster-attack-effect}кража предметов
+%%%%
+{monster-attack-effect}begin ongoing constriction
+
+{monster-attack-effect}начало длительного сдавливания
+%%%%
+{monster-attack-effect}extra damage to undead/demons
+
+{monster-attack-effect}дополнительный урон нежити и демонам
+%%%%
+{monster-attack-effect}extra pain damage to the living
+
+{monster-attack-effect}дополнительный урон болью живым
+%%%%
+{monster-attack-effect}ensnare with webbing
+
+{monster-attack-effect}запутывание в паутине
+%%%%
+{monster-attack-effect}flood the defender's lungs
+
+{monster-attack-effect}заполнение лёгких цели водой
+%%%%
+{monster-attack-effect}reduce willpower
+
+{monster-attack-effect}снижение силы воли
+%%%%
+{monster-attack-effect}increased damage when unseen
+
+{monster-attack-effect}повышенный урон, если цель не видит атакующего
+%%%%
+{monster-attack-effect}drowning damage
+
+{monster-attack-effect}урон утоплением
+%%%%
+{monster-attack-effect}spread contamination & shallow water
+
+{monster-attack-effect}магическое загрязнение и создание мелководья
+%%%%
+{monster-attack-effect}cause corrosion
+
+{monster-attack-effect}коррозия
+%%%%
+{monster-attack-effect}knock back the defender
+
+{monster-attack-effect}отбрасывание цели
+%%%%
+{monster-attack-effect}cause weakness
+
+{monster-attack-effect}ослабление
+%%%%
+{monster-attack-effect}embed barbs
+
+{monster-attack-effect}застревающие в теле колючки
+%%%%
+{monster-attack-effect}summon a spider
+
+{monster-attack-effect}призыв паука
+%%%%
+{monster-attack-effect}become enraged on drawing blood
+
+{monster-attack-effect}ярость атакующего при пролитии крови
+%%%%
+{monster-attack-effect}induce sleep
+
+{monster-attack-effect}сон
+%%%%
+{monster-attack-effect}swoops behind the defender beforehand
+
+{monster-attack-effect}перелёт за спину цели перед ударом
+%%%%
+{monster-attack-effect}slips behind the defender beforehand
+
+{monster-attack-effect}заход за спину цели перед ударом
+%%%%
+{monster-attack-effect}drag the defender backwards
+
+{monster-attack-effect}оттаскивание цели назад
+%%%%
+{monster-attack-effect}extra damage, especially to the good
+
+{monster-attack-effect}дополнительный урон, особенно святым существам и последователям благих богов
+%%%%
+{monster-attack-effect}summon demonic beasts
+
+{monster-attack-effect}призыв демонических зверей
+%%%%
+{monster-attack-effect}summon more of itself
+
+{monster-attack-effect}призыв себе подобных
+%%%%
+{monster-attack-effect}vent poison clouds
+
+{monster-attack-effect}выброс ядовитых облаков
+%%%%
+{monster-attack-effect}deploy bomblets
+
+{monster-attack-effect}выпуск малых бомб
+%%%%
+{monster-attack-effect}open air damage
+
+{monster-attack-effect}дополнительный урон за свободные клетки вокруг цели
+%%%%
+{monster-attack-effect}drain, daze, or confuse
+
+{monster-attack-effect}истощение, ошеломление или замешательство
+%%%%
+{monster-attack-effect}random ugly thing damage
+
+{monster-attack-effect}случайный урон уродливого создания
+%%%%
+{monster-attack-effect}inflict doom
+
+{monster-attack-effect}обречённость
+%%%%
+{monster-attack-effect}slowly slimify the target
+
+{monster-attack-effect}постепенное превращение цели в слизь
+%%%%
+{monster-attack-effect}diminish the target's spells
+
+{monster-attack-effect}снижение силы заклинаний цели
+%%%%
+{monster-attack-effect}grow burstshrooms behind the defender
+
+{monster-attack-effect}рост взрывных грибов за спиной цели
+%%%%
+"{monster-attacks-table}Throw: "
+
+"{monster-attacks-table}Метание: "

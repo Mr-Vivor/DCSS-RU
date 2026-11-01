@@ -1836,7 +1836,7 @@
       "translation_sha256": "aa243f831557d8411547da7a89cef0edfd23390bd4b78b4fce79798fc9db62f7"
     },
     "Throw: ": {
-      "context": "quiver.cc",
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
       "translation_sha256": "538d29410c4c5e4fdcbc72cb4e05151c6d841df1008699acb935c440460a8dc9"
     },
     "Confused toss (no damage): ": {
@@ -22704,8 +22704,8 @@
       "translation_sha256": "2e284793a8b7a7584e9f5fc235809cb73d36e94cdd75652e1557233171472daf"
     },
     "To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range": {
-      "context": "describe.cc",
-      "translation_sha256": "c2a0a7f4a392592efe1f2ae2c987146ed874e96c8cc8b38412176acbe5b09320"
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "1baa3f8231d6f46950fd3563066b5e89b7a7abc1d08b4fc68e2c4af25f1fd61c"
     },
     "; shown in red if you are in range": {
       "context": "describe.cc",
@@ -40450,6 +40450,434 @@
     "You condense your magic into a crackling blade!": {
       "context": "throw.cc, evoke.cc, delay.cc, item-use.cc and spl-summoning.cc. Templates translated before weapon/spell/actor names and reason clauses. Held clauses reuse scoped movement-held values. Mirror creates a copy, it does not merely turn a mirror toward something. Imbue and Imprint configure future summons only; raw saved spell and item fields unchanged. Bee owner, target, launch, rewind and dormancy kept distinct. Monarch creation and detonation explicit; no target selection, ally behavior, costs, delay or charge thresholds changed.",
       "translation_sha256": "2a401a7bea5956b5aad5108ebf660ef237b74f008327bf06d6ed3db7fd9c06b5"
+    },
+    " + %d per 4 attacks": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "170a9a5e52f58afa86b32604ab08ab318e092c9e5868b6bcacdfb04e3f433811"
+    },
+    "Poison (max %d each) and momentary paralysis": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "05a4cf49db2ccfe4010cb1e9140b925736b9220670ecc9bc6575cf3a66cd85e7"
+    },
+    "Poison (max %d) and momentary paralysis": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "2422502b0d3eb68c0ad4906fc497ff1bf18af4d87f383ca7e84495aa513d337a"
+    },
+    "Poison (max %d each) and paralysis/slowing": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "1a44f1a553d71693f4b0ef4d1cf0a86a00ad324c2be192680bbd9ea3ec4cb262"
+    },
+    "Poison (max %d) and paralysis/slowing": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "6ba533819cfa292a92ea6e491faef94ebc657c16695b2647c32cb6c3ab400cd8"
+    },
+    " (max %d each)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "c1f16440c7ec00a584c8475b35e7d2bf092de748b14806d35ac04db6c1918ed9"
+    },
+    " (max %d)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "3792f82c709bb32adcd692c4fffbc7ee28478322af0223ae3818c8d6c6dffeac"
+    },
+    " (max %d damage)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "51ddba87878f97bc857e0f7ae67ce9c7b121d4dcc1651e9a15cb08c1a5a953ea"
+    },
+    " (%d-%d dam)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "bfc98d3fdef0679c790a3cd439050668b0c3f3ec6b26c0642d41e7cf97b8ef7e"
+    },
+    " (if damage dealt)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "b30f1cb0ae1452c3e197860081d138a09e005182fd1fdf65dd0da7af7b928e0b"
+    },
+    "%d (base %d)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "2261dd2d2d9244a8b6a2dbfa7c5755acd85f5a44b9316ec67620a9a2b2b6d759"
+    },
+    "12 (curare)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "84c888d61c3c5494aea267ef1973a6e045c88750b59fccd2c7290109dcfb7b21"
+    },
+    " + %d (silver)": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "64c4f733876aecdaa8b92c9d41e4a53a4dd6727e5395d0874d1861859e508bde"
+    },
+    "Chance to notice you each turn: %d%%.": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "a357eb7f7a53d0a301c4b4b3b700bce484898aad5168374045823c60770c2c8e"
+    },
+    "; shown in red if you are in range.": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "f588d821109e63a88c6066d08f3310e2c7e429168ae6f058317776c32918314f"
+    },
+    "Can walk on water.": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "857711835509f277f683d6bbd8504ef9f8c1121edbba9c383d09be5a05752558"
+    },
+    "Can travel through water.": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "a755ec282739f06a3b2a83ed771d2f8c6e98798a3c2fe6cc322c89fd64d38d09"
+    },
+    "Can travel through lava.": {
+      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
+      "translation_sha256": "a64c467f82a5557e66c85219cac127e8a095c16514784cdc375778475f93616a"
+    },
+    "{monster-attacks-table}Attack": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "9a2b2059ec928d8361fcff27d9064b56d05c12dc19e98db40454e085e0063ed2"
+    },
+    "{monster-attacks-table}Attacks": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "c6c563bc1864e9b23df6f12a001ab833cea45b8b8cca24ca900d5d8829025211"
+    },
+    "{monster-attacks-table}Max Damage": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "cb94b08357dae2a888c6c438ccfa93fe169eae5fbe2e985d115b8d4ca8f96912"
+    },
+    "{monster-attacks-table}Range": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "e8db4852b8b2d940241830f5ae40402200f813709fd94f6249e9b9973f97f070"
+    },
+    "{monster-attacks-table}Bonus": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "de428fc33e334634936421d485d4fd790a2113b4be83dff449d553054fb612d6"
+    },
+    "{monster-attacks-table}After Damaging Hits": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "769d998a284b66d44e06bb7e3a75176bb86b0bf838086529f6c30c88674f76f6"
+    },
+    "{monster-attack-damage} fire": {
+      "context": "describe.cc numeric attack damage suffix; each means each hit in the shown multiple attack, fire is a damage type.",
+      "translation_sha256": "a9be4eea5ab4bd3d6232439286ba9985119b4ed801309ba502c0528f7b9d3d8f"
+    },
+    "{monster-attack-damage} each": {
+      "context": "describe.cc numeric attack damage suffix; each means each hit in the shown multiple attack, fire is a damage type.",
+      "translation_sha256": "f863b67012f96847cb287cb390f3158f12bd87eb411c8e0823a042daaa41bac6"
+    },
+    "{monster-attack-name}hit": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "be3e90725a8b14adc06e3cd695722b9b8ed010fde6118494a384e557e4fa94aa"
+    },
+    "{monster-attack-name}bite": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "cddc0e160804cbe1c838b2a50a2d27701f10d0e9241a83e55517f277d3645335"
+    },
+    "{monster-attack-name}sting": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "9c0dc83b333a70696503649ab780176c432518c7b01df2037871c89a9f90c4f9"
+    },
+    "{monster-attack-name}spore": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "fe61feabcdb6f264de852d4c141caf5cfcc475e39a5c050c2881e9fb179b1cc7"
+    },
+    "{monster-attack-name}touch": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "68d6c0807ea0ee7eca992726251b17eb46ba9dc89cc219ebea4d9429d7d76b46"
+    },
+    "{monster-attack-name}engulf": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "56fc26b4ebfdba94cd67b7797a95c13189d9dd7be2509330b62d5d54706887a8"
+    },
+    "{monster-attack-name}claw": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "9cfb621a9974145eb544d240153e325de70bb09218d4c6587adecd0e6065f950"
+    },
+    "{monster-attack-name}peck": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "542797710af0a5a7df147c2db0a06845fbfb83311a8a4067f5a197ae3b53b938"
+    },
+    "{monster-attack-name}headbutt": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "d4a3a145a027d72d26b8326fc341df23fcd935d37e493cb6c704f7d94e5f3d5f"
+    },
+    "{monster-attack-name}punch": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "aa5a380b6bef01e2f4b7b9263a96afc22dc42ce607bd46f2b5f5d0cd4bbf1475"
+    },
+    "{monster-attack-name}kick": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "337bbc6026ba72d25e841aad3d79db2dd174858bfa108c887ff97ba1c057b1c0"
+    },
+    "{monster-attack-name}tentacle": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "f7d6fa6e49f90795bed8504e530b8afb94b6a676a1b108d80aa2d5b9be72cd0f"
+    },
+    "{monster-attack-name}tail": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "5bf796b147618fa74581c6cf354246b5a3c7c76fb04caddc95a89cd2837c29e8"
+    },
+    "{monster-attack-name}gore": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "97c826efc134a5a36654bae366c010626f3a83a3082c2607e863599d6d8ea90d"
+    },
+    "{monster-attack-name}constrict": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "31a52a3bb97f5597962993ca882c28cbe58cc32d33bdd9b23c1c59ce235f506f"
+    },
+    "{monster-attack-name}trample": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "0bdf3f02461e056d8c1db7e9b305e3f64bb238952efbc0d3604be9c7be5f0733"
+    },
+    "{monster-attack-name}trunk": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "dba971fc57f58643a9b5cc4be64006d7d74041670d0c1eb8a43582a5af501fab"
+    },
+    "{monster-attack-name}snap closed": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "4b5b2b6ba58499f4d350a7b0d622fa5452710ac415df5ed236c945aa84db7ff1"
+    },
+    "{monster-attack-name}splash": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "33c28d06933752135eccb0564a9cf88b42230c6c1cc29c3f19ff07abf4fbe906"
+    },
+    "{monster-attack-name}pounce": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "c06c7abdea88212a02bd6aa4f41a26ced7d148f532f33c66c0a44c5cad3bd1f2"
+    },
+    "{monster-attack-name}Shoot": {
+      "context": "describe.cc display-only mon_attack_name_short values from mon-util.cc, plus ranged Shoot. Noun labels in the attack panel; raw attack types and combat verbs unchanged.",
+      "translation_sha256": "4eb2cbf96064e505bee79d9bd37f3984140273ee216fbe2748c0007f133a6d2b"
+    },
+    "{monster-missile-effect}Ensnare in a net": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "eed4ee44b4a0a038dc4998e4fcccadab85761a01aae642d7d6ff135972c24cc8"
+    },
+    "{monster-missile-effect}Poison and slowing": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "6a410d8665d39db6ae470733382008332da1ea8fb0727dc27caae2aba3abb888"
+    },
+    "{monster-missile-effect}Poison": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "849e94078ad4234362e02a900d0525a3e12913dbc83ae219a763033cde1e02b0"
+    },
+    "{monster-missile-effect}Blinding and confusion": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "a09703e4d962067b3007b6c8450b6f431d7f2332b28cfd8ed577fbd28cad1b65"
+    },
+    "{monster-missile-effect}Drive defenders into a frenzy": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "588900d5e9e1e22406088fe46f43c9cc318e3eb0d3124148e49e42de59b0487d"
+    },
+    "{monster-missile-effect}Blink the defender away": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "655a29b9f38930aa53faeca39c214d50f314eb3bd4d08b7984fbf4438433aee7"
+    },
+    "{monster-missile-effect}Blink the defender repeatedly": {
+      "context": "describe.cc thrown weapons: net, curare, poisoned/blinding/frenzy/dispersal/disjunction darts. Poison has direct damage in a separate column; no conflation with paralysis.",
+      "translation_sha256": "6092ece1bc5818fe67187fbcf7e73fbeeb1cf213c4ba80380395f30359c18df7"
+    },
+    "{monster-attack-effect}acid damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "4b4b127d9cb5e7ef735c30cdfdf3a4c77121fd65d22a7ed2e44f21c4db1422d1"
+    },
+    "{monster-attack-effect}blink self": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "baa779829fb334f8e1edd7dcfee6525106cc52a6fcb1b3074fcf5358598c607f"
+    },
+    "{monster-attack-effect}blink together with the defender": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "6d157d5d02af2abca0acb82db4bf0262a65f040815405d247b01f59bb6a73b82"
+    },
+    "{monster-attack-effect}cold damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "f029b2dd349bd3862248a2fb738126a15301dabb6216c095bd6fec8f97a87d15"
+    },
+    "{monster-attack-effect}cause confusion": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "8a21894ddfafc26debb4203a0a46fafb684a91c644a9f3ed58c114e264138423"
+    },
+    "{monster-attack-effect}drain life": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "a9a3f719f271bea2389b33125eb4ac28a14aa9e8cba0ad783a4dbb8f06fb1f4d"
+    },
+    "{monster-attack-effect}drain health from the living": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "ea8e5f113a4d4ba81008a99fd6e5e725b7bcfe025f5efaf1d42628eaf4793681"
+    },
+    "{monster-attack-effect}drain speed": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "6ada1e2444051547ed56873205ec159b7ea88a26359eb6208a3a8da2b7622f72"
+    },
+    "{monster-attack-effect}drain magic": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "ebd499e4e932f6ac449c19d9dff4fcd528cc66038f4da84c9405f90f24f620ab"
+    },
+    "{monster-attack-effect}drain speed and health": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "74eb559d0c142b687001f97afcda586de7cf6819eda7c56fefef928ecf765843"
+    },
+    "{monster-attack-effect}electric damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "5ed8e5d4363829cef2bf2ed03fe866e784a6a378c7bc76ef49ce5d44c5c4ca6c"
+    },
+    "{monster-attack-effect}fire damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "c409f066f36d50d9c2c733b3800a9f4a6b8f0ee51f559b27b5429e0d796a9944"
+    },
+    "{monster-attack-effect}remove fire resistance": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "e0ec3db2927accb6d5191b0ed569f55378a5acadd2f7c1c054c17df882835f8b"
+    },
+    "{monster-attack-effect}poison and momentary paralysis": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "dcefdf1e0b5a37681528031266066d815f975a3dfa7744aef1aedaecbd0bb7ee"
+    },
+    "{monster-attack-effect}poison and paralysis/slowing": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "1f101eff7fa2ddef9c366890b37af86a9e859d5d1af6066f8900b8d1e5254a9d"
+    },
+    "{monster-attack-effect}poison": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "c9b02b194f8defb82e6236ad630983abc8efa6fe19bf309f9ef6a81cfcb054c9"
+    },
+    "{monster-attack-effect}strong poison": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "639764fa5403420f3b58fe6679ca67aae60db2bc447bb586ae16799f2d82e0be"
+    },
+    "{monster-attack-effect}distortion": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "00e61e9ea33d4830732dd61f3bafae8ca8c3942a5089d09f9b7a509c59e7b100"
+    },
+    "{monster-attack-effect}drive defenders berserk": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "f97bcd266783787955a671bca8d5df16f87b21900c241b653162f6494225ac20"
+    },
+    "{monster-attack-effect}chaos": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "fbdb81ca071be83ad758920f6b4c7413ef5d23ba271bc3efa2b0d0bd6d79751a"
+    },
+    "{monster-attack-effect}steal items": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "d8333b827317b17cf1d3ac539d3d6320f989d0f458530fc968f513aa01c0d80d"
+    },
+    "{monster-attack-effect}begin ongoing constriction": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "3ade565c1858f5ba614d0eca6b326bc69e47323e56316319429941ce0fdca669"
+    },
+    "{monster-attack-effect}extra damage to undead/demons": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "fbcf7d0f5131b19bb6809a4dd595a645323dd30d807abff21e4d05816ff00774"
+    },
+    "{monster-attack-effect}extra pain damage to the living": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "9898e1d7c935e1c6e493c805716d03f73a0d0ca90f329e6567c7f9e9047a1cab"
+    },
+    "{monster-attack-effect}ensnare with webbing": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "7dd0b9d201480b2ea7a9862b1e74d5fbf132e2a61a65421afa2026cd143babb0"
+    },
+    "{monster-attack-effect}flood the defender's lungs": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "6945decae1e2eb64e776e2d943ca9fefe1348e39ea8ad1f448ac4ec8bb9294e3"
+    },
+    "{monster-attack-effect}reduce willpower": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "43515d83851deccb20423b9de1960584053fc36b7240b8383b401efe8a41444f"
+    },
+    "{monster-attack-effect}increased damage when unseen": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "6f7dd4b7fe4a4d1ba3c0e8f47ff775b30a76a62dcc732904d8980472a45aef76"
+    },
+    "{monster-attack-effect}drowning damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "4511b0d81034f1c39ba21e2f2fbcd540d16db228ac9dde4c43f1d60f872db706"
+    },
+    "{monster-attack-effect}spread contamination & shallow water": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "937cdbddc0cb020580c38ac0c48307ab0e760961962b56e8af2c5fd205e627ba"
+    },
+    "{monster-attack-effect}cause corrosion": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "d07e34ff2170f1e705c94c2cf5e9b1a5cf258731bbfb465c24bdc9b846ed3532"
+    },
+    "{monster-attack-effect}knock back the defender": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "30ff4a35ef59200a07cb3b614b3858fa8df7de4cc498849c9bb125c775c8d5bf"
+    },
+    "{monster-attack-effect}cause weakness": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "8fd48e6a1a0b845566dbc0452b55ba7965d2581a1206eaf27352defe9a3e0478"
+    },
+    "{monster-attack-effect}embed barbs": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "da484276d992d387e97d8f12f90e6ffc590f4cd23f47eb90d9e7db1509370d6e"
+    },
+    "{monster-attack-effect}summon a spider": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "a55e773bc9196ac307f422f33ec015dcf02a227d81d22504caf81e2faf6c87d3"
+    },
+    "{monster-attack-effect}become enraged on drawing blood": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "c57e80642ff5dcf4b6b024ca5d7d9a7cfa1d1f825e8ba7f46c6053725e442bd7"
+    },
+    "{monster-attack-effect}induce sleep": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "21f91a29ce186b7614ca4384945345f34229c5264d338c62b8f488ec47cea81b"
+    },
+    "{monster-attack-effect}swoops behind the defender beforehand": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "afd30ba6d19ee4975aa1c646b52b46cb64a9e3a5fa74f13706609bd7df831efa"
+    },
+    "{monster-attack-effect}slips behind the defender beforehand": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "ab4cc4a9d3816d6c697dda2f4f4a94efcbde359a4b06e8e81c131470bcf40daf"
+    },
+    "{monster-attack-effect}drag the defender backwards": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "52f0532ee084c1ef077083c1e17e35405f60c3a56dfb1d7512f02d58100c348a"
+    },
+    "{monster-attack-effect}extra damage, especially to the good": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "8a220823367ae2861c4c4aee3a51a676d70a008a378290b65ef4851cd180d383"
+    },
+    "{monster-attack-effect}summon demonic beasts": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "80b7a5a58f1e131f04fcf812112ef114e72cbfacd5210ac5f1f7553f6f6096d9"
+    },
+    "{monster-attack-effect}summon more of itself": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "0d94cede30194bbace57a0f6644e26ad8c89e6fc9b8e4c09d29ba74357d06247"
+    },
+    "{monster-attack-effect}vent poison clouds": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "f812d68d53a61fded178d28188fa4950dfca1d7b5ac75b76babefbfe80455bc4"
+    },
+    "{monster-attack-effect}deploy bomblets": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "744c0927ae5da4c7f06b6ee334e400dedb951ff19fc9b5e801b607ad005b10c4"
+    },
+    "{monster-attack-effect}open air damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "912003d98de32afd7142fd64b3a1d7de9df9aa2b27a7a3b8075331001ddcc986"
+    },
+    "{monster-attack-effect}drain, daze, or confuse": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "e624178bebe228512e1e7bb184f700fbbdb9dbc975263bf7ad73ffa5a37d916c"
+    },
+    "{monster-attack-effect}random ugly thing damage": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "b5ec32fcea4361e8cf30d4e480ea9c527b87cf344200b1e826af0b58948214de"
+    },
+    "{monster-attack-effect}inflict doom": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "41954a7f3897f021c0979e0ede93f6c15814df3e29e26ba7ebe5ad3bd5c30c77"
+    },
+    "{monster-attack-effect}slowly slimify the target": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "254cb75db4899b66e8036a6a44ddccc45a4954f1d1acbd49746202448a7e72df"
+    },
+    "{monster-attack-effect}diminish the target's spells": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "fab0e036b1a01f3d89f6bf3b8bbe102100b871eceb99dbbeae8ad2600b50e359"
+    },
+    "{monster-attack-effect}grow burstshrooms behind the defender": {
+      "context": "describe.cc attack_flavour base descriptions, with mechanics checked in attack.cc, melee-attack.cc, monster.cc and player.cc. Foul flame extra damage applies especially to holy beings and good-god followers; sear reduces fire resistance rather than removing it entirely. Attacker rage distinguished from defender rage. Diminish spells reduces power, Doom is the resource/condition, contamination is magical. Display strings only; flavour codes unchanged.",
+      "translation_sha256": "dab00d857cdd7b0817401783102fac117e46416080c962f625a7215c8ffdd188"
+    },
+    "{monster-attacks-table}Throw: ": {
+      "context": "describe.cc Russian attack summary labels: damage is a maximum, not guaranteed damage; damage-triggered effects remain distinguished from unconditional bonus effects. Multi-line rows avoid cutting off long translated effects.",
+      "translation_sha256": "efdd4fc24e5c46d0f78b7f9dc702b64c0d8a2be803a5d398da4efcc5985e72a6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
