@@ -7018,22 +7018,22 @@ static void _sheep_message(int num_sheep, int sleep_pow, bool seen, actor& foe)
 
     if (foe.is_player())
     {
-        const char* drowsy = sleep_pow ? " You feel drowsy..." : "";
+        const string drowsy = sleep_pow ? localise(" You feel drowsy...") : "";
         if (!seen)
         {
             mprf(MSGCH_MONSTER_SPELL,
-                 "Motes of dream dust float from an unseen source.%s",
-                 drowsy);
+                 localise("Motes of dream dust float from an unseen source.%s").c_str(),
+                 drowsy.c_str());
             return;
         }
-        mprf(MSGCH_MONSTER_SPELL, "%s%s", message.c_str(), drowsy);
+        mprf(MSGCH_MONSTER_SPELL, "%s%s", localise(message).c_str(), drowsy.c_str());
         return;
     }
 
     if (!you.see_cell(foe.pos()))
         return;
 
-    const string foe_name = foe.name(DESC_THE);
+    const string foe_name = localise_in_context("nom", foe.name(DESC_THE));
     const auto chan = foe.friendly() ? MSGCH_MONSTER_SPELL
                                      : MSGCH_FRIEND_SPELL;
     if (!seen)
@@ -7041,32 +7041,36 @@ static void _sheep_message(int num_sheep, int sleep_pow, bool seen, actor& foe)
         if (!sleep_pow)
         {
             mprf(chan, "Motes of dream dust float from an unseen source.");
-            mprf("%s is unaffected.", foe_name.c_str());
+            mprf(localise_in_context("dream-dust", "%s is unaffected.").c_str(),
+                 foe_name.c_str());
             return;
         }
 
         mprf(chan,
-             "As motes of dream dust float from an unseen source, %s falls asleep.",
+             localise_in_context("dream-dust",
+                 "As motes of dream dust float from an unseen source, %s falls asleep.").c_str(),
              foe_name.c_str());
         return;
     }
 
-    const char* pluralize = num_sheep == 1 ? "s": "";
     if (sleep_pow)
     {
+        const string format = num_sheep == 1
+            ? "As the sheep sparkles and sways, %s falls asleep."
+            : "As the sheep sparkle and sway, %s falls asleep.";
         mprf(chan,
-             "As the sheep sparkle%s and sway%s, %s falls asleep.",
-             pluralize,
-             pluralize,
+             localise_in_context("dream-dust", format).c_str(),
              foe_name.c_str());
         return;
     }
 
-    mprf(chan,
-         "The dream sheep attempt%s to lull %s to sleep.",
-         pluralize,
+    const string format = num_sheep == 1
+        ? "The dream sheep attempts to lull %s to sleep."
+        : "The dream sheep attempt to lull %s to sleep.";
+    mprf(chan, localise_in_context("dream-dust", format).c_str(),
          foe_name.c_str());
-    mprf("%s is unaffected.", foe_name.c_str());
+    mprf(localise_in_context("dream-dust", "%s is unaffected.").c_str(),
+         foe_name.c_str());
 }
 
 static void _dream_sheep_sleep(monster& mons, actor& foe)
@@ -9580,12 +9584,12 @@ static void _oblivion_howl(monster &mon)
     const int pow = mons_spellpower(mon, SPELL_OBLIVION_HOWL);
     const int willpower = you.check_willpower(&mon, pow);
     const string effect = willpower > 0 ?
-                            make_stringf("but you%s",
-                                         you.resist_margin_phrase(willpower).c_str()) :
-                            "and it begins to echo in your mind!";
-    mprf("%s unleashes a %s howl, %s",
-         mon.name(DESC_THE).c_str(),
-         silenced(mon.pos()) ? "silent" : "terrible",
+        localise_in_context("oblivion-howl",
+            "but you" + you.resist_margin_phrase(willpower)) :
+        localise_in_context("oblivion-howl", "and it begins to echo in your mind!");
+    mprf(localise_in_context("oblivion-howl", "%s unleashes a %s howl, %s").c_str(),
+         localise_in_context("nom", mon.name(DESC_THE)).c_str(),
+         localise_in_context("oblivion-howl", silenced(mon.pos()) ? "silent" : "terrible").c_str(),
          effect.c_str());
     noisy(spell_effect_noise(SPELL_OBLIVION_HOWL), mon.pos(), mon.mid);
     if (willpower <= 0)

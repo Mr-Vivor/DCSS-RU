@@ -527,6 +527,8 @@
 - [Ослабление заклинаний](spells/diminish-spells-spell.md)
 - [Рикошетящее пламя](spells/rebounding-blaze-spell.md)
 - [Рикошетящий холод](spells/rebounding-chill-spell.md)
+- [Пыль сновидений](spells/dream-dust-spell.md)
+- [Вой забвения](spells/oblivion-howl-spell.md)
 
 ## Способности
 
@@ -691,6 +693,8 @@
 - [Игуана](monsters/iguana.md)
 - [Каменная рыба](monsters/rock-fish.md)
 - [Электрический змей](monsters/shock-serpent.md)
+- [Овца сновидений](monsters/dream-sheep.md)
+- [Гончая забвения](monsters/oblivion-hound.md)
 
 
 ## Карты

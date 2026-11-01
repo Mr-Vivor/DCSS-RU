@@ -1,13 +1,13 @@
 {
-  "entities": 196,
+  "entities": 198,
   "kinds": {
-    "monster": 97,
+    "monster": 99,
     "item": 99
   },
-  "generated_game_keys": 15659,
+  "generated_game_keys": 15798,
   "review": {
     "draft": 191,
-    "reviewed": 5
+    "reviewed": 7
   },
   "wiki_articles": 3,
   "additional_terms": {
@@ -16,7 +16,7 @@
     "skill": 29,
     "branches": 1,
     "gods": 26,
-    "spell": 172,
+    "spell": 174,
     "items": 319,
     "ability": 155,
     "cards": 24,
@@ -54,7 +54,7 @@
     "body-parts": 106
   },
   "static_unique_keys": 5847,
-  "additional_system_messages": 11475,
+  "additional_system_messages": 11502,
   "reviewed_artifact_powers": {
     "fields": 103,
     "description_lines": 129
@@ -74,9 +74,9 @@
     "items": 317,
     "skills": 29,
     "egos": 80,
-    "spells": 171,
+    "spells": 173,
     "ability": 155,
-    "monsters": 3,
+    "monsters": 5,
     "status": 28,
     "cards": 24,
     "unrand": 153,

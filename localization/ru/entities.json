@@ -5294,5 +5294,61 @@
       "counted_few": "электрических змея"
     },
     "review": "reviewed"
+  },
+  {
+    "id": "monster.dream_sheep",
+    "kind": "monster",
+    "en": "dream sheep",
+    "en_plural": "dream sheep",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "овца сновидений",
+        "gen": "овцы сновидений",
+        "dat": "овце сновидений",
+        "acc": "овцу сновидений",
+        "ins": "овцой сновидений",
+        "prep": "овце сновидений"
+      },
+      "plural": {
+        "nom": "овцы сновидений",
+        "gen": "овец сновидений",
+        "dat": "овцам сновидений",
+        "acc": "овец сновидений",
+        "ins": "овцами сновидений",
+        "prep": "овцах сновидений"
+      },
+      "counted_few": "овцы сновидений"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.oblivion_hound",
+    "kind": "monster",
+    "en": "oblivion hound",
+    "en_plural": "oblivion hounds",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "гончая забвения",
+        "gen": "гончей забвения",
+        "dat": "гончей забвения",
+        "acc": "гончую забвения",
+        "ins": "гончей забвения",
+        "prep": "гончей забвения"
+      },
+      "plural": {
+        "nom": "гончие забвения",
+        "gen": "гончих забвения",
+        "dat": "гончим забвения",
+        "acc": "гончих забвения",
+        "ins": "гончими забвения",
+        "prep": "гончих забвения"
+      },
+      "counted_few": "гончие забвения"
+    },
+    "review": "reviewed"
   }
 ]

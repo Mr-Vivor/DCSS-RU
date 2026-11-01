@@ -106,6 +106,9 @@
 @num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+@num@ dream sheep
+@num@ овец сновидений
+%%%%
 @num@ elephants
 @num@ слонов
 %%%%
@@ -258,6 +261,9 @@
 %%%%
 @num@ nagas
 @num@ наг
+%%%%
+@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 @num@ ogres
 @num@ огров
@@ -799,6 +805,12 @@ a deep elf pyromancer
 a deep elf pyromancer's
 {m}глубинного эльфа-пироманта
 %%%%
+a dream sheep
+{f}овца сновидений
+%%%%
+a dream sheep's
+{f}овцы сновидений
+%%%%
 a elephant
 {m}слон
 %%%%
@@ -1104,6 +1116,12 @@ a naga
 %%%%
 a naga's
 {f}наги
+%%%%
+a oblivion hound
+{f}гончая забвения
+%%%%
+a oblivion hound's
+{f}гончей забвения
 %%%%
 a ogre
 {m}огр
@@ -2020,6 +2038,12 @@ an deep elf pyromancer
 an deep elf pyromancer's
 {m}глубинного эльфа-пироманта
 %%%%
+an dream sheep
+{f}овца сновидений
+%%%%
+an dream sheep's
+{f}овцы сновидений
+%%%%
 an elephant
 {m}слон
 %%%%
@@ -2325,6 +2349,12 @@ an naga
 %%%%
 an naga's
 {f}наги
+%%%%
+an oblivion hound
+{f}гончая забвения
+%%%%
+an oblivion hound's
+{f}гончей забвения
 %%%%
 an ogre
 {m}огр
@@ -3256,6 +3286,12 @@ deep elf pyromancer's
 deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+dream sheep
+{f}овца сновидений
+%%%%
+dream sheep's
+{f}овцы сновидений
+%%%%
 elephant
 {m}слон
 %%%%
@@ -3714,6 +3750,15 @@ naga's
 %%%%
 nagas
 {pl}наги
+%%%%
+oblivion hound
+{f}гончая забвения
+%%%%
+oblivion hound's
+{f}гончей забвения
+%%%%
+oblivion hounds
+{pl}гончие забвения
 %%%%
 ogre
 {m}огр
@@ -4783,6 +4828,12 @@ the deep elf pyromancer's
 the deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+the dream sheep
+{f}овца сновидений
+%%%%
+the dream sheep's
+{f}овцы сновидений
+%%%%
 the elephant
 {m}слон
 %%%%
@@ -5241,6 +5292,15 @@ the naga's
 %%%%
 the nagas
 {pl}наги
+%%%%
+the oblivion hound
+{f}гончая забвения
+%%%%
+the oblivion hound's
+{f}гончей забвения
+%%%%
+the oblivion hounds
+{pl}гончие забвения
 %%%%
 the ogre
 {m}огр
@@ -6778,6 +6838,12 @@ your deep elf pyromancer's
 your deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+your dream sheep
+{f}овца сновидений
+%%%%
+your dream sheep's
+{f}овцы сновидений
+%%%%
 your elephant
 {m}слон
 %%%%
@@ -7236,6 +7302,15 @@ your naga's
 %%%%
 your nagas
 {pl}наги
+%%%%
+your oblivion hound
+{f}гончая забвения
+%%%%
+your oblivion hound's
+{f}гончей забвения
+%%%%
+your oblivion hounds
+{pl}гончие забвения
 %%%%
 your ogre
 {m}огр
@@ -8329,6 +8404,9 @@ your yaks
 {acc_few}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+{acc_few}@num@ dream sheep
+@num@ овец сновидений
+%%%%
 {acc_few}@num@ elephants
 @num@ слонов
 %%%%
@@ -8481,6 +8559,9 @@ your yaks
 %%%%
 {acc_few}@num@ nagas
 @num@ наг
+%%%%
+{acc_few}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {acc_few}@num@ ogres
 @num@ огров
@@ -8917,6 +8998,9 @@ your yaks
 {acc_many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+{acc_many}@num@ dream sheep
+@num@ овец сновидений
+%%%%
 {acc_many}@num@ elephants
 @num@ слонов
 %%%%
@@ -9069,6 +9153,9 @@ your yaks
 %%%%
 {acc_many}@num@ nagas
 @num@ наг
+%%%%
+{acc_many}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {acc_many}@num@ ogres
 @num@ огров
@@ -9505,6 +9592,9 @@ your yaks
 {acc_one}@num@ deep elf pyromancers
 @num@ глубинного эльфа-пироманта
 %%%%
+{acc_one}@num@ dream sheep
+@num@ овцу сновидений
+%%%%
 {acc_one}@num@ elephants
 @num@ слона
 %%%%
@@ -9657,6 +9747,9 @@ your yaks
 %%%%
 {acc_one}@num@ nagas
 @num@ нагу
+%%%%
+{acc_one}@num@ oblivion hounds
+@num@ гончую забвения
 %%%%
 {acc_one}@num@ ogres
 @num@ огра
@@ -10093,6 +10186,9 @@ your yaks
 {acc}a deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
+{acc}a dream sheep
+{f}овцу сновидений
+%%%%
 {acc}a elephant
 {m}слона
 %%%%
@@ -10245,6 +10341,9 @@ your yaks
 %%%%
 {acc}a naga
 {f}нагу
+%%%%
+{acc}a oblivion hound
+{f}гончую забвения
 %%%%
 {acc}a ogre
 {m}огра
@@ -10711,6 +10810,9 @@ your yaks
 {acc}an deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
+{acc}an dream sheep
+{f}овцу сновидений
+%%%%
 {acc}an elephant
 {m}слона
 %%%%
@@ -10863,6 +10965,9 @@ your yaks
 %%%%
 {acc}an naga
 {f}нагу
+%%%%
+{acc}an oblivion hound
+{f}гончую забвения
 %%%%
 {acc}an ogre
 {m}огра
@@ -11374,6 +11479,9 @@ your yaks
 {acc}deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{acc}dream sheep
+{f}овцу сновидений
+%%%%
 {acc}elephant
 {m}слона
 %%%%
@@ -11679,6 +11787,12 @@ your yaks
 %%%%
 {acc}nagas
 {pl}наг
+%%%%
+{acc}oblivion hound
+{f}гончую забвения
+%%%%
+{acc}oblivion hounds
+{pl}гончих забвения
 %%%%
 {acc}ogre
 {m}огра
@@ -12391,6 +12505,9 @@ your yaks
 {acc}the deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{acc}the dream sheep
+{f}овцу сновидений
+%%%%
 {acc}the elephant
 {m}слона
 %%%%
@@ -12696,6 +12813,12 @@ your yaks
 %%%%
 {acc}the nagas
 {pl}наг
+%%%%
+{acc}the oblivion hound
+{f}гончую забвения
+%%%%
+{acc}the oblivion hounds
+{pl}гончих забвения
 %%%%
 {acc}the ogre
 {m}огра
@@ -13720,6 +13843,9 @@ your yaks
 {acc}your deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{acc}your dream sheep
+{f}овцу сновидений
+%%%%
 {acc}your elephant
 {m}слона
 %%%%
@@ -14025,6 +14151,12 @@ your yaks
 %%%%
 {acc}your nagas
 {pl}наг
+%%%%
+{acc}your oblivion hound
+{f}гончую забвения
+%%%%
+{acc}your oblivion hounds
+{pl}гончих забвения
 %%%%
 {acc}your ogre
 {m}огра
@@ -14788,6 +14920,9 @@ your yaks
 {dat_few}@num@ deep elf pyromancers
 @num@ глубинным эльфам-пиромантам
 %%%%
+{dat_few}@num@ dream sheep
+@num@ овцам сновидений
+%%%%
 {dat_few}@num@ elephants
 @num@ слонам
 %%%%
@@ -14940,6 +15075,9 @@ your yaks
 %%%%
 {dat_few}@num@ nagas
 @num@ нагам
+%%%%
+{dat_few}@num@ oblivion hounds
+@num@ гончим забвения
 %%%%
 {dat_few}@num@ ogres
 @num@ ограм
@@ -15376,6 +15514,9 @@ your yaks
 {dat_many}@num@ deep elf pyromancers
 @num@ глубинным эльфам-пиромантам
 %%%%
+{dat_many}@num@ dream sheep
+@num@ овцам сновидений
+%%%%
 {dat_many}@num@ elephants
 @num@ слонам
 %%%%
@@ -15528,6 +15669,9 @@ your yaks
 %%%%
 {dat_many}@num@ nagas
 @num@ нагам
+%%%%
+{dat_many}@num@ oblivion hounds
+@num@ гончим забвения
 %%%%
 {dat_many}@num@ ogres
 @num@ ограм
@@ -15964,6 +16108,9 @@ your yaks
 {dat_one}@num@ deep elf pyromancers
 @num@ глубинному эльфу-пироманту
 %%%%
+{dat_one}@num@ dream sheep
+@num@ овце сновидений
+%%%%
 {dat_one}@num@ elephants
 @num@ слону
 %%%%
@@ -16116,6 +16263,9 @@ your yaks
 %%%%
 {dat_one}@num@ nagas
 @num@ наге
+%%%%
+{dat_one}@num@ oblivion hounds
+@num@ гончей забвения
 %%%%
 {dat_one}@num@ ogres
 @num@ огру
@@ -16552,6 +16702,9 @@ your yaks
 {dat}a deep elf pyromancer
 {m}глубинному эльфу-пироманту
 %%%%
+{dat}a dream sheep
+{f}овце сновидений
+%%%%
 {dat}a elephant
 {m}слону
 %%%%
@@ -16704,6 +16857,9 @@ your yaks
 %%%%
 {dat}a naga
 {f}наге
+%%%%
+{dat}a oblivion hound
+{f}гончей забвения
 %%%%
 {dat}a ogre
 {m}огру
@@ -17170,6 +17326,9 @@ your yaks
 {dat}an deep elf pyromancer
 {m}глубинному эльфу-пироманту
 %%%%
+{dat}an dream sheep
+{f}овце сновидений
+%%%%
 {dat}an elephant
 {m}слону
 %%%%
@@ -17322,6 +17481,9 @@ your yaks
 %%%%
 {dat}an naga
 {f}наге
+%%%%
+{dat}an oblivion hound
+{f}гончей забвения
 %%%%
 {dat}an ogre
 {m}огру
@@ -17833,6 +17995,9 @@ your yaks
 {dat}deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
 %%%%
+{dat}dream sheep
+{f}овце сновидений
+%%%%
 {dat}elephant
 {m}слону
 %%%%
@@ -18138,6 +18303,12 @@ your yaks
 %%%%
 {dat}nagas
 {pl}нагам
+%%%%
+{dat}oblivion hound
+{f}гончей забвения
+%%%%
+{dat}oblivion hounds
+{pl}гончим забвения
 %%%%
 {dat}ogre
 {m}огру
@@ -18850,6 +19021,9 @@ your yaks
 {dat}the deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
 %%%%
+{dat}the dream sheep
+{f}овце сновидений
+%%%%
 {dat}the elephant
 {m}слону
 %%%%
@@ -19155,6 +19329,12 @@ your yaks
 %%%%
 {dat}the nagas
 {pl}нагам
+%%%%
+{dat}the oblivion hound
+{f}гончей забвения
+%%%%
+{dat}the oblivion hounds
+{pl}гончим забвения
 %%%%
 {dat}the ogre
 {m}огру
@@ -20179,6 +20359,9 @@ your yaks
 {dat}your deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
 %%%%
+{dat}your dream sheep
+{f}овце сновидений
+%%%%
 {dat}your elephant
 {m}слону
 %%%%
@@ -20484,6 +20667,12 @@ your yaks
 %%%%
 {dat}your nagas
 {pl}нагам
+%%%%
+{dat}your oblivion hound
+{f}гончей забвения
+%%%%
+{dat}your oblivion hounds
+{pl}гончим забвения
 %%%%
 {dat}your ogre
 {m}огру
@@ -21247,6 +21436,9 @@ your yaks
 {few}@num@ deep elf pyromancers
 @num@ глубинного эльфа-пироманта
 %%%%
+{few}@num@ dream sheep
+@num@ овцы сновидений
+%%%%
 {few}@num@ elephants
 @num@ слона
 %%%%
@@ -21399,6 +21591,9 @@ your yaks
 %%%%
 {few}@num@ nagas
 @num@ наги
+%%%%
+{few}@num@ oblivion hounds
+@num@ гончие забвения
 %%%%
 {few}@num@ ogres
 @num@ огра
@@ -21835,6 +22030,9 @@ your yaks
 {gen_few}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+{gen_few}@num@ dream sheep
+@num@ овец сновидений
+%%%%
 {gen_few}@num@ elephants
 @num@ слонов
 %%%%
@@ -21987,6 +22185,9 @@ your yaks
 %%%%
 {gen_few}@num@ nagas
 @num@ наг
+%%%%
+{gen_few}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {gen_few}@num@ ogres
 @num@ огров
@@ -22423,6 +22624,9 @@ your yaks
 {gen_many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+{gen_many}@num@ dream sheep
+@num@ овец сновидений
+%%%%
 {gen_many}@num@ elephants
 @num@ слонов
 %%%%
@@ -22575,6 +22779,9 @@ your yaks
 %%%%
 {gen_many}@num@ nagas
 @num@ наг
+%%%%
+{gen_many}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {gen_many}@num@ ogres
 @num@ огров
@@ -23011,6 +23218,9 @@ your yaks
 {gen_one}@num@ deep elf pyromancers
 @num@ глубинного эльфа-пироманта
 %%%%
+{gen_one}@num@ dream sheep
+@num@ овцы сновидений
+%%%%
 {gen_one}@num@ elephants
 @num@ слона
 %%%%
@@ -23163,6 +23373,9 @@ your yaks
 %%%%
 {gen_one}@num@ nagas
 @num@ наги
+%%%%
+{gen_one}@num@ oblivion hounds
+@num@ гончей забвения
 %%%%
 {gen_one}@num@ ogres
 @num@ огра
@@ -23599,6 +23812,9 @@ your yaks
 {gen}a deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
+{gen}a dream sheep
+{f}овцы сновидений
+%%%%
 {gen}a elephant
 {m}слона
 %%%%
@@ -23751,6 +23967,9 @@ your yaks
 %%%%
 {gen}a naga
 {f}наги
+%%%%
+{gen}a oblivion hound
+{f}гончей забвения
 %%%%
 {gen}a ogre
 {m}огра
@@ -24217,6 +24436,9 @@ your yaks
 {gen}an deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
+{gen}an dream sheep
+{f}овцы сновидений
+%%%%
 {gen}an elephant
 {m}слона
 %%%%
@@ -24369,6 +24591,9 @@ your yaks
 %%%%
 {gen}an naga
 {f}наги
+%%%%
+{gen}an oblivion hound
+{f}гончей забвения
 %%%%
 {gen}an ogre
 {m}огра
@@ -24880,6 +25105,9 @@ your yaks
 {gen}deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{gen}dream sheep
+{f}овцы сновидений
+%%%%
 {gen}elephant
 {m}слона
 %%%%
@@ -25185,6 +25413,12 @@ your yaks
 %%%%
 {gen}nagas
 {pl}наг
+%%%%
+{gen}oblivion hound
+{f}гончей забвения
+%%%%
+{gen}oblivion hounds
+{pl}гончих забвения
 %%%%
 {gen}ogre
 {m}огра
@@ -25897,6 +26131,9 @@ your yaks
 {gen}the deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{gen}the dream sheep
+{f}овцы сновидений
+%%%%
 {gen}the elephant
 {m}слона
 %%%%
@@ -26202,6 +26439,12 @@ your yaks
 %%%%
 {gen}the nagas
 {pl}наг
+%%%%
+{gen}the oblivion hound
+{f}гончей забвения
+%%%%
+{gen}the oblivion hounds
+{pl}гончих забвения
 %%%%
 {gen}the ogre
 {m}огра
@@ -27226,6 +27469,9 @@ your yaks
 {gen}your deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
 %%%%
+{gen}your dream sheep
+{f}овцы сновидений
+%%%%
 {gen}your elephant
 {m}слона
 %%%%
@@ -27531,6 +27777,12 @@ your yaks
 %%%%
 {gen}your nagas
 {pl}наг
+%%%%
+{gen}your oblivion hound
+{f}гончей забвения
+%%%%
+{gen}your oblivion hounds
+{pl}гончих забвения
 %%%%
 {gen}your ogre
 {m}огра
@@ -28294,6 +28546,9 @@ your yaks
 {ins_few}@num@ deep elf pyromancers
 @num@ глубинными эльфами-пиромантами
 %%%%
+{ins_few}@num@ dream sheep
+@num@ овцами сновидений
+%%%%
 {ins_few}@num@ elephants
 @num@ слонами
 %%%%
@@ -28446,6 +28701,9 @@ your yaks
 %%%%
 {ins_few}@num@ nagas
 @num@ нагами
+%%%%
+{ins_few}@num@ oblivion hounds
+@num@ гончими забвения
 %%%%
 {ins_few}@num@ ogres
 @num@ ограми
@@ -28882,6 +29140,9 @@ your yaks
 {ins_many}@num@ deep elf pyromancers
 @num@ глубинными эльфами-пиромантами
 %%%%
+{ins_many}@num@ dream sheep
+@num@ овцами сновидений
+%%%%
 {ins_many}@num@ elephants
 @num@ слонами
 %%%%
@@ -29034,6 +29295,9 @@ your yaks
 %%%%
 {ins_many}@num@ nagas
 @num@ нагами
+%%%%
+{ins_many}@num@ oblivion hounds
+@num@ гончими забвения
 %%%%
 {ins_many}@num@ ogres
 @num@ ограми
@@ -29470,6 +29734,9 @@ your yaks
 {ins_one}@num@ deep elf pyromancers
 @num@ глубинным эльфом-пиромантом
 %%%%
+{ins_one}@num@ dream sheep
+@num@ овцой сновидений
+%%%%
 {ins_one}@num@ elephants
 @num@ слоном
 %%%%
@@ -29622,6 +29889,9 @@ your yaks
 %%%%
 {ins_one}@num@ nagas
 @num@ нагой
+%%%%
+{ins_one}@num@ oblivion hounds
+@num@ гончей забвения
 %%%%
 {ins_one}@num@ ogres
 @num@ огром
@@ -30058,6 +30328,9 @@ your yaks
 {ins}a deep elf pyromancer
 {m}глубинным эльфом-пиромантом
 %%%%
+{ins}a dream sheep
+{f}овцой сновидений
+%%%%
 {ins}a elephant
 {m}слоном
 %%%%
@@ -30210,6 +30483,9 @@ your yaks
 %%%%
 {ins}a naga
 {f}нагой
+%%%%
+{ins}a oblivion hound
+{f}гончей забвения
 %%%%
 {ins}a ogre
 {m}огром
@@ -30676,6 +30952,9 @@ your yaks
 {ins}an deep elf pyromancer
 {m}глубинным эльфом-пиромантом
 %%%%
+{ins}an dream sheep
+{f}овцой сновидений
+%%%%
 {ins}an elephant
 {m}слоном
 %%%%
@@ -30828,6 +31107,9 @@ your yaks
 %%%%
 {ins}an naga
 {f}нагой
+%%%%
+{ins}an oblivion hound
+{f}гончей забвения
 %%%%
 {ins}an ogre
 {m}огром
@@ -31339,6 +31621,9 @@ your yaks
 {ins}deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
 %%%%
+{ins}dream sheep
+{f}овцой сновидений
+%%%%
 {ins}elephant
 {m}слоном
 %%%%
@@ -31644,6 +31929,12 @@ your yaks
 %%%%
 {ins}nagas
 {pl}нагами
+%%%%
+{ins}oblivion hound
+{f}гончей забвения
+%%%%
+{ins}oblivion hounds
+{pl}гончими забвения
 %%%%
 {ins}ogre
 {m}огром
@@ -32356,6 +32647,9 @@ your yaks
 {ins}the deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
 %%%%
+{ins}the dream sheep
+{f}овцой сновидений
+%%%%
 {ins}the elephant
 {m}слоном
 %%%%
@@ -32661,6 +32955,12 @@ your yaks
 %%%%
 {ins}the nagas
 {pl}нагами
+%%%%
+{ins}the oblivion hound
+{f}гончей забвения
+%%%%
+{ins}the oblivion hounds
+{pl}гончими забвения
 %%%%
 {ins}the ogre
 {m}огром
@@ -33685,6 +33985,9 @@ your yaks
 {ins}your deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
 %%%%
+{ins}your dream sheep
+{f}овцой сновидений
+%%%%
 {ins}your elephant
 {m}слоном
 %%%%
@@ -33990,6 +34293,12 @@ your yaks
 %%%%
 {ins}your nagas
 {pl}нагами
+%%%%
+{ins}your oblivion hound
+{f}гончей забвения
+%%%%
+{ins}your oblivion hounds
+{pl}гончими забвения
 %%%%
 {ins}your ogre
 {m}огром
@@ -34753,6 +35062,9 @@ your yaks
 {many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
 %%%%
+{many}@num@ dream sheep
+@num@ овец сновидений
+%%%%
 {many}@num@ elephants
 @num@ слонов
 %%%%
@@ -34905,6 +35217,9 @@ your yaks
 %%%%
 {many}@num@ nagas
 @num@ наг
+%%%%
+{many}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {many}@num@ ogres
 @num@ огров
@@ -35341,6 +35656,9 @@ your yaks
 {nom}a deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
+{nom}a dream sheep
+{f}овца сновидений
+%%%%
 {nom}a elephant
 {m}слон
 %%%%
@@ -35493,6 +35811,9 @@ your yaks
 %%%%
 {nom}a naga
 {f}нага
+%%%%
+{nom}a oblivion hound
+{f}гончая забвения
 %%%%
 {nom}a ogre
 {m}огр
@@ -35959,6 +36280,9 @@ your yaks
 {nom}an deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
+{nom}an dream sheep
+{f}овца сновидений
+%%%%
 {nom}an elephant
 {m}слон
 %%%%
@@ -36111,6 +36435,9 @@ your yaks
 %%%%
 {nom}an naga
 {f}нага
+%%%%
+{nom}an oblivion hound
+{f}гончая забвения
 %%%%
 {nom}an ogre
 {m}огр
@@ -36622,6 +36949,9 @@ your yaks
 {nom}deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+{nom}dream sheep
+{f}овца сновидений
+%%%%
 {nom}elephant
 {m}слон
 %%%%
@@ -36927,6 +37257,12 @@ your yaks
 %%%%
 {nom}nagas
 {pl}наги
+%%%%
+{nom}oblivion hound
+{f}гончая забвения
+%%%%
+{nom}oblivion hounds
+{pl}гончие забвения
 %%%%
 {nom}ogre
 {m}огр
@@ -37639,6 +37975,9 @@ your yaks
 {nom}the deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+{nom}the dream sheep
+{f}овца сновидений
+%%%%
 {nom}the elephant
 {m}слон
 %%%%
@@ -37944,6 +38283,12 @@ your yaks
 %%%%
 {nom}the nagas
 {pl}наги
+%%%%
+{nom}the oblivion hound
+{f}гончая забвения
+%%%%
+{nom}the oblivion hounds
+{pl}гончие забвения
 %%%%
 {nom}the ogre
 {m}огр
@@ -38968,6 +39313,9 @@ your yaks
 {nom}your deep elf pyromancers
 {pl}глубинные эльфы-пироманты
 %%%%
+{nom}your dream sheep
+{f}овца сновидений
+%%%%
 {nom}your elephant
 {m}слон
 %%%%
@@ -39273,6 +39621,12 @@ your yaks
 %%%%
 {nom}your nagas
 {pl}наги
+%%%%
+{nom}your oblivion hound
+{f}гончая забвения
+%%%%
+{nom}your oblivion hounds
+{pl}гончие забвения
 %%%%
 {nom}your ogre
 {m}огр
@@ -40036,6 +40390,9 @@ your yaks
 {one}@num@ deep elf pyromancers
 @num@ глубинный эльф-пиромант
 %%%%
+{one}@num@ dream sheep
+@num@ овца сновидений
+%%%%
 {one}@num@ elephants
 @num@ слон
 %%%%
@@ -40188,6 +40545,9 @@ your yaks
 %%%%
 {one}@num@ nagas
 @num@ нага
+%%%%
+{one}@num@ oblivion hounds
+@num@ гончая забвения
 %%%%
 {one}@num@ ogres
 @num@ огр
@@ -40624,6 +40984,9 @@ your yaks
 {prep_few}@num@ deep elf pyromancers
 @num@ глубинных эльфах-пиромантах
 %%%%
+{prep_few}@num@ dream sheep
+@num@ овцах сновидений
+%%%%
 {prep_few}@num@ elephants
 @num@ слонах
 %%%%
@@ -40776,6 +41139,9 @@ your yaks
 %%%%
 {prep_few}@num@ nagas
 @num@ нагах
+%%%%
+{prep_few}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {prep_few}@num@ ogres
 @num@ ограх
@@ -41212,6 +41578,9 @@ your yaks
 {prep_many}@num@ deep elf pyromancers
 @num@ глубинных эльфах-пиромантах
 %%%%
+{prep_many}@num@ dream sheep
+@num@ овцах сновидений
+%%%%
 {prep_many}@num@ elephants
 @num@ слонах
 %%%%
@@ -41364,6 +41733,9 @@ your yaks
 %%%%
 {prep_many}@num@ nagas
 @num@ нагах
+%%%%
+{prep_many}@num@ oblivion hounds
+@num@ гончих забвения
 %%%%
 {prep_many}@num@ ogres
 @num@ ограх
@@ -41800,6 +42172,9 @@ your yaks
 {prep_one}@num@ deep elf pyromancers
 @num@ глубинном эльфе-пироманте
 %%%%
+{prep_one}@num@ dream sheep
+@num@ овце сновидений
+%%%%
 {prep_one}@num@ elephants
 @num@ слоне
 %%%%
@@ -41952,6 +42327,9 @@ your yaks
 %%%%
 {prep_one}@num@ nagas
 @num@ наге
+%%%%
+{prep_one}@num@ oblivion hounds
+@num@ гончей забвения
 %%%%
 {prep_one}@num@ ogres
 @num@ огре
@@ -42388,6 +42766,9 @@ your yaks
 {prep}a deep elf pyromancer
 {m}глубинном эльфе-пироманте
 %%%%
+{prep}a dream sheep
+{f}овце сновидений
+%%%%
 {prep}a elephant
 {m}слоне
 %%%%
@@ -42540,6 +42921,9 @@ your yaks
 %%%%
 {prep}a naga
 {f}наге
+%%%%
+{prep}a oblivion hound
+{f}гончей забвения
 %%%%
 {prep}a ogre
 {m}огре
@@ -43006,6 +43390,9 @@ your yaks
 {prep}an deep elf pyromancer
 {m}глубинном эльфе-пироманте
 %%%%
+{prep}an dream sheep
+{f}овце сновидений
+%%%%
 {prep}an elephant
 {m}слоне
 %%%%
@@ -43158,6 +43545,9 @@ your yaks
 %%%%
 {prep}an naga
 {f}наге
+%%%%
+{prep}an oblivion hound
+{f}гончей забвения
 %%%%
 {prep}an ogre
 {m}огре
@@ -43669,6 +44059,9 @@ your yaks
 {prep}deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
 %%%%
+{prep}dream sheep
+{f}овце сновидений
+%%%%
 {prep}elephant
 {m}слоне
 %%%%
@@ -43974,6 +44367,12 @@ your yaks
 %%%%
 {prep}nagas
 {pl}нагах
+%%%%
+{prep}oblivion hound
+{f}гончей забвения
+%%%%
+{prep}oblivion hounds
+{pl}гончих забвения
 %%%%
 {prep}ogre
 {m}огре
@@ -44686,6 +45085,9 @@ your yaks
 {prep}the deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
 %%%%
+{prep}the dream sheep
+{f}овце сновидений
+%%%%
 {prep}the elephant
 {m}слоне
 %%%%
@@ -44991,6 +45393,12 @@ your yaks
 %%%%
 {prep}the nagas
 {pl}нагах
+%%%%
+{prep}the oblivion hound
+{f}гончей забвения
+%%%%
+{prep}the oblivion hounds
+{pl}гончих забвения
 %%%%
 {prep}the ogre
 {m}огре
@@ -46015,6 +46423,9 @@ your yaks
 {prep}your deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
 %%%%
+{prep}your dream sheep
+{f}овце сновидений
+%%%%
 {prep}your elephant
 {m}слоне
 %%%%
@@ -46320,6 +46731,12 @@ your yaks
 %%%%
 {prep}your nagas
 {pl}нагах
+%%%%
+{prep}your oblivion hound
+{f}гончей забвения
+%%%%
+{prep}your oblivion hounds
+{pl}гончих забвения
 %%%%
 {prep}your ogre
 {m}огре

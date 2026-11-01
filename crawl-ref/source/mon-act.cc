@@ -34,6 +34,7 @@
 #include "items.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "losglobal.h"
 #include "los.h"
 #include "melee-attack.h"
@@ -3134,14 +3135,17 @@ static void _mons_open_door(monster& mons, const coord_def &pos)
         open_str += adj;
         open_str += noun;
         open_str += ".";
+        open_str = localise_in_context("monster-door-action", open_str);
 
         if (!you.can_see(mons))
         {
-            mprf("Something unseen %s", open_str.c_str());
+            mprf("%s %s", localise_in_context("nom", "Something unseen").c_str(),
+                 open_str.c_str());
             interrupt_activity(activity_interrupt::sense_monster);
         }
         else
-            mprf("%s %s", mons.name(DESC_A).c_str(), open_str.c_str());
+            mprf("%s %s", localise_in_context("nom", mons.name(DESC_A)).c_str(),
+                 open_str.c_str());
 
         update_monsters_in_view();
     }

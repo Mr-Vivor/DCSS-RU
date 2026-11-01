@@ -204,3 +204,5 @@
 | `monster.worm` | [Червь](pages/monster.worm.md) | worm | reviewed |
 | `monster.training_dummy` | [Учебный манекен](pages/monster.training_dummy.md) | training dummy | reviewed |
 | `monster.shock_serpent` | [Электрический змей](pages/monster.shock_serpent.md) | shock serpent | reviewed |
+| `monster.dream_sheep` | [Овца сновидений](pages/monster.dream_sheep.md) | dream sheep | reviewed |
+| `monster.oblivion_hound` | [Гончая забвения](pages/monster.oblivion_hound.md) | oblivion hound | reviewed |

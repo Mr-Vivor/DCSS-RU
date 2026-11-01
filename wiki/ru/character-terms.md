@@ -314,6 +314,8 @@
 | Warp Space | Искажение пространства |
 | Gloom | Мрак |
 | Phantom Mirror | Фантомное зеркало |
+| Dream Dust | Пыль сновидений |
+| Oblivion Howl | Вой забвения |
 
 ## items
 
