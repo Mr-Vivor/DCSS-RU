@@ -155,7 +155,7 @@
 | Mephitic Cloud | Зловонное облако |
 | Call Imp | Призыв беса |
 | Death's Door | Порог смерти |
-| Disjunction | Разъединение |
+| Disjunction | Разрыв пространства |
 | Blinkbolt | Скачок молнии |
 | Dragon's Call | Зов драконов |
 | Bolster | Укрепление |
@@ -246,6 +246,25 @@
 | Alistair's Walking Alembic | Шагающий перегонный куб Алистера |
 | Forge Monarch Bomb | Ковка бомбы «Монарх» |
 | Forge Phalanx Beetle | Ковка фалангового жука |
+| Apportation | Аппортация |
+| Anguish | Мука |
+| Arcjolt | Дуговой разряд |
+| Awaken Forest | Пробуждение леса |
+| Bolt of Draining | Разряд истощения |
+| Cause Fear | Внушение страха |
+| Concentrate Venom | Усиление яда |
+| Conjure Ball Lightning | Создание шаровых молний |
+| Cigotuvi's Putrefaction | Разложение Циготуви |
+| Dimensional Bullseye | Пространственная мишень |
+| Discord | Раздор |
+| Enfeeble | Ослабление |
+| Eringya's Surprising Crocodile | Неожиданный крокодил Эрингьи |
+| Fulsome Fusillade | Алхимический шквал |
+| Gell's Gavotte | Гавот Гелла |
+| Jinxbite | Укус невезения |
+| Kinetic Grapnel | Кинетический крюк |
+| Maxwell's Portable Piledriver | Переносной копёр Максвелла |
+| Maxwell's Capacitive Coupling | Ёмкостная связь Максвелла |
 
 ## items
 

@@ -790,7 +790,8 @@ bool can_cast_spells(bool quiet, bool ignore_silence)
     {
         if (!quiet)
         {
-            mprf("You cannot cast spells while %s!", player_silenced_reason());
+            mprf(localise("You cannot cast spells while %s!").c_str(),
+                 localise_in_context("casting-blocked", player_silenced_reason()).c_str());
             // included in default force_more_message
         }
         return false;
@@ -836,8 +837,8 @@ static void _handle_energy_orb(int cost, spret cast_result)
         if (targs.empty())
             mpr("Magical energy flows into your mind!");
         else
-            mprf("Magical energy flows from %s into your mind!",
-                 describe_monsters_condensed(targs).c_str());
+            mprf(localise("Magical energy flows from %s into your mind!").c_str(),
+                 localise(describe_monsters_condensed(targs)).c_str());
         inc_mp(cost + drain);
     }
     else
@@ -1054,8 +1055,8 @@ spret cast_a_spell(bool check_range, spell_type spell, dist *_target,
     {
         // Abort if there are no hostiles within range, but flash the range
         // markers for a short while.
-        mprf("You can't see any susceptible monsters within range!%s",
-             needs_target ? "" : " (Use <w>Z</w> to cast anyway.)");
+        mprf(localise("You can't see any susceptible monsters within range!%s").c_str(),
+             (needs_target ? "" : localise(" (Use <w>Z</w> to cast anyway.)")).c_str());
 
         if ((Options.use_animations & UA_RANGE) && Options.darken_beyond_range)
         {
@@ -1279,7 +1280,8 @@ static bool _spellcasting_aborted(spell_type spell, bool fake_spell)
             if (!action.matches(name))
                 continue;
 
-            string prompt = "Really cast " + string(name) + "?";
+            const string prompt = make_stringf(localise("Really cast %s?").c_str(),
+                                                localise(name).c_str());
             if (!yesno(prompt.c_str(), false, 'n'))
             {
                 canned_msg(MSG_OK);
@@ -1303,13 +1305,13 @@ static bool _spellcasting_aborted(spell_type spell, bool fake_spell)
             return true;
         }
 
-        string prompt = make_stringf("The spell is %s to miscast "
-                                     "(%s risk of failure)%s",
-                                     fail_severity_adjs[severity],
+        string prompt = make_stringf(localise("The spell is %s to miscast "
+                                     "(%s risk of failure)%s").c_str(),
+                                     localise_in_context("miscast-danger", fail_severity_adjs[severity]).c_str(),
                                      failure_rate.c_str(),
                                      severity > 1 ? "!" : ".");
 
-        prompt = make_stringf("%s Continue anyway?", prompt.c_str());
+        prompt = make_stringf(localise("%s Continue anyway?").c_str(), prompt.c_str());
         if (!yesno(prompt.c_str(), false, 'n'))
         {
             canned_msg(MSG_OK);
@@ -1807,7 +1809,7 @@ static vector<string> _desc_intoxicate_chance(const monster_info& mi,
     if (get_resist(mi.resists(), MR_RES_POISON) >= 1)
         conf_pct =  conf_pct / 3;
 
-    return vector<string>{make_stringf("chance to confuse: %d%%", conf_pct)};
+    return vector<string>{make_stringf(localise("chance to confuse: %d%%").c_str(), conf_pct)};
 }
 
 static vector<string> _desc_englaciate_chance(const monster_info& mi,
@@ -1837,7 +1839,7 @@ static vector<string> _desc_englaciate_chance(const monster_info& mi,
     else
         fail_pct = 100;
 
-    return vector<string>{make_stringf("chance to slow: %d%%", 100 - fail_pct)};
+    return vector<string>{make_stringf(localise("chance to slow: %d%%").c_str(), 100 - fail_pct)};
 }
 
 static vector<string> _desc_gloom_chance(const monster_info& mi, int pow)
@@ -1845,13 +1847,13 @@ static vector<string> _desc_gloom_chance(const monster_info& mi, int pow)
     if (mons_res_blind(mi.type))
         return vector<string>{"not susceptible"};
 
-    return vector<string>{make_stringf("chance to blind: %d%%", gloom_success_chance(pow, mi.hd))};
+    return vector<string>{make_stringf(localise("chance to blind: %d%%").c_str(), gloom_success_chance(pow, mi.hd))};
 }
 
 static vector<string> _desc_airstrike_bonus(const monster_info& mi)
 {
     const int empty_spaces = airstrike_space_around(mi.pos, false);
-    return vector<string>{make_stringf("empty space bonus: %d/8", empty_spaces)};
+    return vector<string>{make_stringf(localise("empty space bonus: %d/8").c_str(), empty_spaces)};
 }
 
 static vector<string> _desc_mercury_weak_chance(const monster_info& mi)
@@ -1859,13 +1861,13 @@ static vector<string> _desc_mercury_weak_chance(const monster_info& mi)
     if (mi.is(MB_NO_ATTACKS))
         return vector<string>{};
 
-    return vector<string>{make_stringf("chance to weaken: %d%%",
+    return vector<string>{make_stringf(localise("chance to weaken: %d%%").c_str(),
                             get_mercury_weaken_chance(mi.hd))};
 }
 
 static vector<string> _desc_warp_space_chance(int pow)
 {
-    return vector<string>{make_stringf("chance to blink: %d%%",
+    return vector<string>{make_stringf(localise("chance to blink: %d%%").c_str(),
                             get_warp_space_chance(pow))};
 }
 
@@ -1877,7 +1879,7 @@ static vector<string> _desc_meph_chance(const monster_info& mi)
     int pct_chance = 2;
     if (mi.hd < MEPH_HD_CAP)
         pct_chance = 100 - (100 * mi.hd / MEPH_HD_CAP);
-    return vector<string>{make_stringf("chance to affect: %d%%", pct_chance)};
+    return vector<string>{make_stringf(localise("chance to affect: %d%%").c_str(), pct_chance)};
 }
 
 static vector<string> _desc_hailstorm_hit_chance(const monster_info& mi, int pow)
@@ -1940,13 +1942,13 @@ static vector<string> _desc_dispersal_chance(const monster_info& mi, int pow)
 {
     const int wl = mi.willpower();
     if (mons_class_is_stationary(mi.type))
-        return vector<string>{"stationary"};
+        return vector<string>{localise_in_context("spell-target-hint", "stationary")};
 
     if (wl == WILL_INVULN)
-        return vector<string>{"will blink"};
+        return vector<string>{localise_in_context("spell-target-hint", "will blink")};
 
     const int success = hex_success_chance(wl, pow, 100);
-    return vector<string>{make_stringf("chance to teleport: %d%%", success)};
+    return vector<string>{make_stringf(localise("chance to teleport: %d%%").c_str(), success)};
 }
 
 static vector<string> _desc_enfeeble_chance(const monster_info& mi, int pow)
@@ -1956,18 +1958,18 @@ static vector<string> _desc_enfeeble_chance(const monster_info& mi, int pow)
     const int wl = mi.willpower();
 
     if (!mi.is(MB_NO_ATTACKS))
-        base_effects.push_back("inflict weakness");
+        base_effects.push_back(localise_in_context("enfeeble-effect", "inflict weakness"));
     if (mi.antimagic_susceptible())
-        base_effects.push_back("diminish spells");
+        base_effects.push_back(localise_in_context("enfeeble-effect", "diminish spells"));
     if (!base_effects.empty())
     {
-        all_effects.push_back("will " +
-            comma_separated_line(base_effects.begin(), base_effects.end()));
+        all_effects.push_back(make_stringf(localise("Guaranteed effects: %s").c_str(),
+            comma_separated_line(base_effects.begin(), base_effects.end(), localise(" and ")).c_str()));
     }
     if (wl != WILL_INVULN)
     {
         const int success = hex_success_chance(wl, pow, 100);
-        all_effects.push_back(make_stringf("chance to daze and blind: %d%%", success));
+        all_effects.push_back(make_stringf(localise("chance to daze and blind: %d%%").c_str(), success));
     }
 
     if (all_effects.empty())
@@ -2033,7 +2035,7 @@ vector<string> desc_wl_success_chance(const monster_info& mi, int pow,
     }
 
     const int success = hex_success_chance(wl, pow, 100);
-    descs.push_back(make_stringf("chance to affect: %d%%", success));
+    descs.push_back(make_stringf(localise("chance to affect: %d%%").c_str(), success));
 
     return descs;
 }
@@ -2278,11 +2280,11 @@ spret your_spells(spell_type spell, int powc, bool actual_spell,
         // already been carried out
         const bool useless = spell_is_useless(spell, true, false, true);
         const char *spell_title_color = useless ? "darkgrey" : "w";
-        const string verb = channelled_spell_active(spell)
+        const string verb = localise_in_context("spell-targeting", channelled_spell_active(spell)
             ? "<lightred>Restarting spell</lightred>"
-            : is_targeted ? "Aiming" : "Casting";
+            : is_targeted ? "Aiming" : "Casting");
         string title = make_stringf("%s: <%s>%s</%s>", verb.c_str(),
-                    spell_title_color, spell_title(spell), spell_title_color);
+                    spell_title_color, localise(spell_title(spell)).c_str(), spell_title_color);
         if (actual_spell)
         {
             title += make_stringf(" <lightgrey>(%s)</lightgrey>",
@@ -2291,7 +2293,7 @@ spret your_spells(spell_type spell, int powc, bool actual_spell,
 
         if (spell == SPELL_GRAVE_CLAW)
         {
-            title += make_stringf("<lightgrey> (%d/%d uses available)</lightgrey>",
+            title += make_stringf(localise("<lightgrey> (%d/%d uses available)</lightgrey>").c_str(),
                                   you.props[GRAVE_CLAW_CHARGES_KEY].get_int(),
                                   GRAVE_CLAW_MAX_CHARGES);
         }
@@ -3096,8 +3098,9 @@ static string _spell_failure_rate_description(spell_type spell)
     const string colour = colour_to_str(failure_rate_colour(spell));
     const char *col = colour.c_str();
 
-    return make_stringf("<%s>%s</%s>; <%s>%s</%s> risk of failure",
-            col, severity_adj, col, col, failure.c_str(), col);
+    return make_stringf(localise("<%s>%s</%s>; <%s>%s</%s> risk of failure").c_str(),
+            col, localise_in_context("miscast-danger", severity_adj).c_str(), col,
+            col, failure.c_str(), col);
 }
 
 string spell_noise_string(spell_type spell, int chop_wiz_display_width)
@@ -3743,8 +3746,8 @@ void death_ego_lifedrain(int splevel)
             continue;
         }
 
-        mprf("Your unholy armour drains life force from %s.",
-            act->name(DESC_THE).c_str());
+        mprf(localise("Your unholy armour drains life force from %s.").c_str(),
+            localise(act->name(DESC_THE)).c_str());
 
         int damage = 1 + random2avg(splevel * 5, 2);
         damage = resist_adjust_damage(act, BEAM_NEG, damage);
@@ -3759,7 +3762,7 @@ void death_ego_lifedrain(int splevel)
         const int hp_gain = div_rand_round(drain_amount, 2);
         if (hp_gain)
         {
-            mprf("You feel life coursing into your body%s",
+            mprf(localise("You feel life coursing into your body%s").c_str(),
                  attack_strength_punctuation(hp_gain).c_str());
             inc_hp(hp_gain);
         }
@@ -3818,8 +3821,8 @@ void handle_channelled_spell()
     if ((spell == SPELL_FLAME_WAVE || spell == SPELL_SEARING_RAY)
         && turn > 1 && !enough_mp(1, true))
     {
-        mprf("Without enough magic to sustain it, your %s dissipates.",
-             spell_title(spell));
+        mprf(localise("Without enough magic to sustain it, your %s dissipates.").c_str(),
+             localise(spell_title(spell)).c_str());
         stop_channelling_spells(true);
         return;
     }

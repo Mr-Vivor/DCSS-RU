@@ -6020,12 +6020,12 @@
       "translation_sha256": "003d2f45b877f9a11e66c9c460d22f79c71e700a4c2675882539981946a00dc4"
     },
     "You exhale a blast of scalding steam.": {
-      "context": "ability.cc",
-      "translation_sha256": "d9eb28e6efce8ec4c546dcafd1c95b832250e8311d0bf5e5f56f370f1aca4c60"
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "6ac3d6065a37a59bd5999e0d5e15117e6850dc504456085769c9e5d2dfc304ec"
     },
     "You exhale a blast of noxious fumes.": {
-      "context": "ability.cc",
-      "translation_sha256": "72d87dcb51bbb7c5ec705c305a310f89229805203011a4f3df0ccd302047ccc9"
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "b53a5ddc93cc3bdbd9ee63a2b7c199ea88054375f681d344226db828a1807163"
     },
     "The folds of your robe billow into a mighty storm.": {
       "context": "ability.cc",
@@ -16780,8 +16780,8 @@
       "translation_sha256": "865224d7b9e1672e8814720b1afe33fa2667af6e93e8b604a2b99a57db0eeb18"
     },
     "The insufficient charge dissipates harmlessly.": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "916321bcd2f4b74e3a7b73a27e06bb56354fac79e24d5fa211a72130f5c8e9f9"
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "352879c9997f66758419c97178506a1ee153ebff1287fb023f5633a9659801d8"
     },
     "There are no places for you to create a bog.": {
       "context": "spl-damage.cc",
@@ -28684,8 +28684,8 @@
       "translation_sha256": "6afaa8f455e4782d2d07d287049d78bfd2240b91eed8b2313396d8f52ab34189"
     },
     " (Use <w>Z</w> to cast anyway.)": {
-      "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
-      "translation_sha256": "c87ef5a14891b9a0e3aca248b53ac9b290cfdfa95a6824ee16d8e884264635b9"
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "a11478277c296f3083a9f570a0dacfda111474656ac15b05e53617e0c6fdfe76"
     },
     "Really cast @spell@?": {
       "context": "spl-cast.cc; spl-damage.cc; spl-summoning.cc",
@@ -39366,6 +39366,206 @@
     "You lift the black torch aloft and begin your conquest of %s in Yredelemnul's name!": {
       "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
       "translation_sha256": "39f1ba732102ebe6959926b42a4de977f831c614ff9828096015212db338582c"
+    },
+    "You cannot cast spells while %s!": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "a48138a04b9dda593450eb24f1d2b199ca44cb4dcda3aac5b826755bfdf80563"
+    },
+    "Magical energy flows from %s into your mind!": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "1201ad6861b77ad91be7fe036c57792afbbcb04b9462baf2145875245710238f"
+    },
+    "You can't see any susceptible monsters within range!%s": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "b8c0360947a28cea7a5e1883ec06aa70ed4b0b31219640a6a11485bec3a1b2e7"
+    },
+    "Really cast %s?": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "b2e18a8ddfc4eca0325b05933318b4654ca571335c8f3aa7cefb8b587fc38aa3"
+    },
+    "The spell is %s to miscast (%s risk of failure)%s": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "b43e6a39fcc3b441da613b530abea47dc107f8ff1a38a82c3844f93b32c71934"
+    },
+    "%s Continue anyway?": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "23c4ac4adcbf8fd81e28bee8eefce2ef784bfd45c17a85ca3e9c071ca8e518b6"
+    },
+    "<%s>%s</%s>; <%s>%s</%s> risk of failure": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "b5d20d8020f3e4f9072659f986c7ed3d354a0e5efcc18be09c1f8970b283cbf8"
+    },
+    "<lightgrey> (%d/%d uses available)</lightgrey>": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "c9bca7c59f77c49b37d6df284527812ec83072a63baf45d515efea836d8b39b2"
+    },
+    "chance to confuse: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "eab02f6500f25b9e4290057030568386d4c032a39847928ee62bd9f3efe01c18"
+    },
+    "chance to slow: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "3d31d6f6720254c83ed41aca9e218a59a45bc8293957fc2747cac5fd6a36f3f3"
+    },
+    "chance to blind: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "7035756bc5a74ccc4ebaff5f1d2462d5f8f33e1e47667d7bb9438edff3fe06c5"
+    },
+    "chance to weaken: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "32e35ff965e6e5409ed6cc5159616adc961476c3fa966fb710429ce919e5aab0"
+    },
+    "chance to blink: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "7540fccd5eb12641d94c353c9778f6fa19213599fd70b33fc73d6240d7d78f82"
+    },
+    "chance to affect: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "058883f0548df088d373e7afe775e76861fde80d9070cdd7b6b0f08afad412ad"
+    },
+    "chance to teleport: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "9d1af3acca46d3c346fa1315d21228834cf0e625f0356d6d624e24e8e9970354"
+    },
+    "chance to daze and blind: %d%%": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "2f47bb1e01566b2b46aa280e395ca38c950ebcb3da9660fcc42f81986ceaf884"
+    },
+    "empty space bonus: %d/8": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "82cda024d4091b4405cb7c5e2aad8f7933227780230e5485267a35411c7627f9"
+    },
+    "Guaranteed effects: %s": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "4af7cef2d98aae4ef4726542f3f0e49ad7a9d21de175a0d7e0011426b0a14781"
+    },
+    "Your unholy armour drains life force from %s.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "f1c5c2dc95747d3640ef45cc22d82d438cc2bbe6f4dada0aba0a7c75b160704c"
+    },
+    "You feel life coursing into your body%s": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "ed2c8f3164a1df6eecf23beef58b63d6516826219422f8a5a83c82a2880b46d6"
+    },
+    "Without enough magic to sustain it, your %s dissipates.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "11395b9af155fa75fab06008c2ee416363fefc472b2049ec3160e39d8a04e271"
+    },
+    "You are unable to access your magic!": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "0bc6cd7bfd8fd77f5b502d5365bc6bd00738ae5ee3b2cf0c8e9d735583d063de"
+    },
+    "You lose access to your magic!": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "1ed741dcde15e636d5058976ef6b610e581cea73cd1e1d0c505d64cc9d204a1d"
+    },
+    "The residue of your spell condenses into glimmer.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "685ef20ef06f50d8b4f0fe64a7be7f672ce7d619e07116baa104b79670cf7065"
+    },
+    "You breathe a blast of explosive embers.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "e3345ed97430219c9677489a21542e4e4e4e50f798bc8a8c007024b8b67d1637"
+    },
+    "You exhale a wave of glacial cold.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "0d2a1fd084a888d3feafe52a8e0215d1bf5faf0873c1a2aa0069dfacf4e2d5a9"
+    },
+    "You breathe a sphere of nullifying energy.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "998fd0a298f114c113924f0d7f7e39d28d018291b714f4dabadfc69d838b811a"
+    },
+    "You breathe a spray of caustic vapour.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "9d2ad99fae1682f107bfdf3b5ca625ed9834cd07c264729c0dfe186c0f62d50b"
+    },
+    "You spew a torrent of mud.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "3d145014ef94a9397280645e66dd865b835c404f0492d9e4bc2d4507198e5838"
+    },
+    "You breathe wild lightning.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "ff30d5d94fbee7e1714f40e0eb5449cf52f21dc8ef91004e969a12fc4682551c"
+    },
+    "You stop channelling waves of flame.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "7dae8facf45903ec279dafc4150e332e665adbb9d56471dccd3d22926190697c"
+    },
+    "You stop channelling your searing ray.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "3a0b570f07b9a7d2775cf66f64354b71e7f0b3b1bbd0b502c34ab0053bbbcdbd"
+    },
+    "You stop assembling your clockwork bee.": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "effb70080238699903fcfbbc643caf716a611259e72cb59457f42202fc471df3"
+    },
+    "Casting this now could dangerously contaminate you. Continue?": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "cade71430c83c8fde837eb81cabbbae9fd502e9c6e6ad1441368ac8734ea39e5"
+    },
+    "Electricity surges outward!": {
+      "context": "spl-cast.cc targeter and casting messages, current spl-data.h and spells.txt. Whole templates translated before spell/monster names, chances and punctuation. Target checks, sustain costs, confirmation defaults and displayed numbers unchanged. Enfeeble weakness and antimagic effects are distinct from the Will check for daze/blind. Empty-space bonus is the actual count out of eight. Glimmer is a cloud produced by the vision form, not money. Breath and channel interruption messages retain their actual effects.",
+      "translation_sha256": "2df3542cfc75b19b15f4bb508fd56c2b1dd0e6ed56cac69d94ed98ebdca45cf2"
+    },
+    "{miscast-danger}safe": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "92e7985852d5d2a39ab10a2a1881f505b7ad61d2e8aef57137f688eb99602652"
+    },
+    "{miscast-danger}mildly dangerous": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "63518ac127007d6bdaf8d067b8231c80d10444c165304c6c55de1d4ad2496323"
+    },
+    "{miscast-danger}dangerous": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "50ba537e05f128e682d91cc032a4905074fc60371b89843c6055a8e5648070ca"
+    },
+    "{miscast-danger}quite dangerous": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "f11290d7a2d1deda4ad3047322b16a0097c5d640c0676ece195794479f4b82f1"
+    },
+    "{miscast-danger}extremely dangerous": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "4b08ad6ff5b95fa8dd2d3e8230b9fbbd06db97d9ab47c747e481c0d046538066"
+    },
+    "{miscast-danger}astonishingly dangerous": {
+      "context": "spl-cast.cc fail_severity and _spell_failure_rate_description. Relative maximum miscast damage tiers; safe tier has no damaging miscast, while contamination is described separately. These are severity labels, not probability labels. Same values used in target header and confirmation.",
+      "translation_sha256": "ac9509f609194d3a0a649b9dc956539809d1d1e12e267488b2c5aeb8f13617c7"
+    },
+    "{casting-blocked}silenced": {
+      "context": "player.cc player_silenced_reason: actual silence or DUR_FLOODED inability to breathe, not general confusion or lack of magic.",
+      "translation_sha256": "352158e230043bdedb17126d9df440fd303df5259e3aef136a1e1f19495cf806"
+    },
+    "{casting-blocked}unable to breathe": {
+      "context": "player.cc player_silenced_reason: actual silence or DUR_FLOODED inability to breathe, not general confusion or lack of magic.",
+      "translation_sha256": "751d256e696de206c498c9c8b50452af66207de50e399ca38aaf1a54669bd92b"
+    },
+    "{enfeeble-effect}inflict weakness": {
+      "context": "spl-cast.cc Enfeeble targeter: automatic weakness of melee attacks and antimagic reduction of spell power, independently of Will-based daze/blind.",
+      "translation_sha256": "173ba0236e2c45a557928d8ffb42a35b50b4ddf9d68340fdd316b5d264ef4e3a"
+    },
+    "{enfeeble-effect}diminish spells": {
+      "context": "spl-cast.cc Enfeeble targeter: automatic weakness of melee attacks and antimagic reduction of spell power, independently of Will-based daze/blind.",
+      "translation_sha256": "b39e26d2fe1807fbd8a0d3ee1de9990fbf26a040eca3644580057de2e4a4e45b"
+    },
+    "{spell-targeting}<lightred>Restarting spell</lightred>": {
+      "context": "spl-cast.cc player targeting title; restart means re-casting an already channelled spell. Display names translated; machine spell titles remain English.",
+      "translation_sha256": "38bfb7fdd65bbfa4271c36b4b050ef4df95ae0e0dec77c35d73b818a9247ac9d"
+    },
+    "{spell-targeting}Aiming": {
+      "context": "spl-cast.cc player targeting title; restart means re-casting an already channelled spell. Display names translated; machine spell titles remain English.",
+      "translation_sha256": "96c0d570e8d53e721bf011485d7a554010c31c20646afcbf8bd96e334190a0be"
+    },
+    "{spell-targeting}Casting": {
+      "context": "spl-cast.cc player targeting title; restart means re-casting an already channelled spell. Display names translated; machine spell titles remain English.",
+      "translation_sha256": "6c7b883e54910c7d2c8b48ae7ce0e7f30982507f6e1345f1b0f2eecba0203392"
+    },
+    "{spell-target-hint}stationary": {
+      "context": "spl-cast.cc Dispersal targeter: a stationary creature cannot move; a creature with invulnerable Will blinks instead of the long teleport effect.",
+      "translation_sha256": "0ac6bf5bb8fc3472415c747157320426db6af5334ce12e78c374cb15832e47f6"
+    },
+    "{spell-target-hint}will blink": {
+      "context": "spl-cast.cc Dispersal targeter: a stationary creature cannot move; a creature with invulnerable Will blinks instead of the long teleport effect.",
+      "translation_sha256": "9ff18fe0e7c9cd0f7050c0be2877bc465bf979b1ca05c45ea5e3c3aaeae994c0"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -6462,11 +6462,11 @@ You breathe a bolt of dispelling energy.
 %%%%
 You exhale a blast of scalding steam.
 
-Вы выдыхаете струю обжигающего пара.
+Вы выдыхаете обжигающий пар.
 %%%%
 You exhale a blast of noxious fumes.
 
-Вы выдыхаете струю ядовитых испарений.
+Вы выдыхаете облако ядовитых испарений.
 %%%%
 The folds of your robe billow into a mighty storm.
 
@@ -17222,7 +17222,7 @@ You feel charge building up...
 %%%%
 The insufficient charge dissipates harmlessly.
 
-Слишком слабый заряд безвредно рассеивается.
+Не успев набрать силу, заряд безвредно рассеивается.
 %%%%
 There are no places for you to create a bog.
 
@@ -29102,7 +29102,7 @@ You can't see any susceptible monsters within range!@any_hint@
 %%%%
 " (Use <w>Z</w> to cast anyway.)"
 
-" (<w>Z</w> — колдовать всё равно.)"
+" (Чтобы всё равно сотворить заклинание, нажмите <w>Z</w>.)"
 %%%%
 Really cast @spell@?
 
@@ -39719,3 +39719,203 @@ The light of Elyvilon comforts %s.
 You lift the black torch aloft and begin your conquest of %s in Yredelemnul's name!
 
 Вы поднимаете Чёрный факел и начинаете покорение этажа «%s» во имя Йредэлемнула!
+%%%%
+You cannot cast spells while %s!
+
+Вы не можете творить заклинания: %s!
+%%%%
+Magical energy flows from %s into your mind!
+
+Магическая энергия течёт в ваш разум от следующих существ: %s!
+%%%%
+You can't see any susceptible monsters within range!%s
+
+В пределах дальности не видно чудовищ, на которых подействует заклинание!%s
+%%%%
+Really cast %s?
+
+Сотворить заклинание «%s»?
+%%%%
+The spell is %s to miscast (%s risk of failure)%s
+
+Ошибиться при колдовстве %s (вероятность неудачи: %s)%s
+%%%%
+%s Continue anyway?
+
+%s Всё равно продолжить?
+%%%%
+<%s>%s</%s>; <%s>%s</%s> risk of failure
+
+<%s>%s</%s>; вероятность неудачи: <%s>%s</%s>
+%%%%
+<lightgrey> (%d/%d uses available)</lightgrey>
+
+<lightgrey> (применений: %d/%d)</lightgrey>
+%%%%
+chance to confuse: %d%%
+
+шанс вызвать замешательство: %d%%
+%%%%
+chance to slow: %d%%
+
+шанс замедлить: %d%%
+%%%%
+chance to blind: %d%%
+
+шанс ослепить: %d%%
+%%%%
+chance to weaken: %d%%
+
+шанс ослабить: %d%%
+%%%%
+chance to blink: %d%%
+
+шанс короткой телепортации: %d%%
+%%%%
+chance to affect: %d%%
+
+шанс подействовать: %d%%
+%%%%
+chance to teleport: %d%%
+
+шанс телепортации: %d%%
+%%%%
+chance to daze and blind: %d%%
+
+шанс ошеломить и ослепить: %d%%
+%%%%
+empty space bonus: %d/8
+
+бонус за свободные клетки: %d/8
+%%%%
+Guaranteed effects: %s
+
+Без проверки силы воли: %s
+%%%%
+Your unholy armour drains life force from %s.
+
+Ваш нечестивый доспех вытягивает жизненную силу из цели «%s».
+%%%%
+You feel life coursing into your body%s
+
+Вы чувствуете, как тело наполняется жизненной силой%s
+%%%%
+Without enough magic to sustain it, your %s dissipates.
+
+Магии для поддержания заклинания «%s» не хватает, и оно рассеивается.
+%%%%
+You are unable to access your magic!
+
+Вы временно не можете пользоваться своей магией!
+%%%%
+You lose access to your magic!
+
+Вы временно утрачиваете доступ к своей магии!
+%%%%
+The residue of your spell condenses into glimmer.
+
+Остаточная энергия заклинания сгущается в облако мерцания.
+%%%%
+You breathe a blast of explosive embers.
+
+Вы выдыхаете поток взрывающихся углей.
+%%%%
+You exhale a wave of glacial cold.
+
+Вы выдыхаете волну ледяного холода.
+%%%%
+You breathe a sphere of nullifying energy.
+
+Вы выдыхаете сферу рассеивающей энергии.
+%%%%
+You breathe a spray of caustic vapour.
+
+Вы выдыхаете струю едких паров.
+%%%%
+You spew a torrent of mud.
+
+Вы извергаете поток грязи.
+%%%%
+You breathe wild lightning.
+
+Вы выдыхаете неистовые молнии.
+%%%%
+You stop channelling waves of flame.
+
+Вы прекращаете поддерживать волны пламени.
+%%%%
+You stop channelling your searing ray.
+
+Вы прекращаете поддерживать обжигающий луч.
+%%%%
+You stop assembling your clockwork bee.
+
+Вы прекращаете подготовку заводной пчелы.
+%%%%
+Casting this now could dangerously contaminate you. Continue?
+
+Сотворение заклинания сейчас может довести магическое загрязнение до опасного уровня. Продолжить?
+%%%%
+Electricity surges outward!
+
+Электричество устремляется во все стороны!
+%%%%
+{miscast-danger}safe
+
+{miscast-danger}безопасно
+%%%%
+{miscast-danger}mildly dangerous
+
+{miscast-danger}немного опасно
+%%%%
+{miscast-danger}dangerous
+
+{miscast-danger}опасно
+%%%%
+{miscast-danger}quite dangerous
+
+{miscast-danger}весьма опасно
+%%%%
+{miscast-danger}extremely dangerous
+
+{miscast-danger}крайне опасно
+%%%%
+{miscast-danger}astonishingly dangerous
+
+{miscast-danger}чрезвычайно опасно
+%%%%
+{casting-blocked}silenced
+
+{casting-blocked}на вас действует безмолвие
+%%%%
+{casting-blocked}unable to breathe
+
+{casting-blocked}вы не можете дышать
+%%%%
+{enfeeble-effect}inflict weakness
+
+{enfeeble-effect}ослабление атак
+%%%%
+{enfeeble-effect}diminish spells
+
+{enfeeble-effect}снижение силы заклинаний
+%%%%
+{spell-targeting}<lightred>Restarting spell</lightred>
+
+{spell-targeting}<lightred>Повторное сотворение</lightred>
+%%%%
+{spell-targeting}Aiming
+
+{spell-targeting}Прицеливание
+%%%%
+{spell-targeting}Casting
+
+{spell-targeting}Сотворение
+%%%%
+{spell-target-hint}stationary
+
+{spell-target-hint}неподвижная цель
+%%%%
+{spell-target-hint}will blink
+
+{spell-target-hint}короткая телепортация
