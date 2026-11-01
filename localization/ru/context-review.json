@@ -2184,15 +2184,15 @@
       "translation_sha256": "21cdf32f55df36d6d34234318d2bf7f93d1e84213229ae6d226e466bd5add4a4"
     },
     "You can't see anything there to charge at.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "ad68ce6f623311db28d2cc3ae97974e7fa9fd6843c443a317dd4e5eeff5f19ab"
     },
     "You can't charge at yourself.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "c629d90c311b32e345733cda405728f3886936d774fa202d413746346dc21284"
     },
     "You're already next to there.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "b950e70b7c813d67caac123679b2468fd6918bbdb7d94b2cfb55156ade813828"
     },
     "There's @arg@ in the way.": {
@@ -6348,7 +6348,7 @@
       "translation_sha256": "69609e52249e599292255b3b7a0008b92ce6aa5d3d8e2b08d449200a71a02e65"
     },
     "There's something in the way.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "7ae9f4c65e685aae27287d264c4414d26297ebd5d33df97542c43a001fa5ca39"
     },
     "You can't see that place.": {
@@ -15872,11 +15872,11 @@
       "translation_sha256": "800caa03027d48e4e4a8fd43971662f1da0ddcb45f8ee207ba293da10745693c"
     },
     "You feel the power of the Abyss delaying your translocation!": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "e85e12cef178e581c0ae3cc855a60dba5787286713961279370cfb1860353d0a"
     },
     "You feel the Orb delaying your translocation!": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "1b20dc3f8af4673f0369e7235fb8eeff5985fe36b40bcf7552f7fbded158e41d"
     },
     "Even you can't go there right now. Sorry!": {
@@ -15920,11 +15920,11 @@
       "translation_sha256": "539be5739d1580ded54c9efd5c2db5741f6f29fd929f604669625fa9540a3ee0"
     },
     "You don't see anything to apport there.": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "99c7e540569b47a18fcb679fb25eb235796535a78c0d8814016f692657cad781"
     },
     "You cannot apport that!": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "c669032353bd83151a2aba43e334b9f631a082437bf2b07601c89fd1813cf82d"
     },
     "The Orb shrieks and becomes a dead weight against your magic!": {
@@ -15948,19 +15948,19 @@
       "translation_sha256": "47a43f872f1354236b577fd1c57f5c808fb6c4aa91f22a37b60f701be8484d00"
     },
     "Not with that terrain in the way!": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "baf930cc45c2c56b6d3733728387ef822e94ac9f8c878d6e5f7a8196f2ffc729"
     },
     "Yoink! You pull the item towards yourself.": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "8fdaeae66cda2247665227fbc92e397e1dd03a7de525a268e4300fe9abc0783e"
     },
     "Yoink! You pull the items towards yourself.": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "38281a9b39f8108c90608bd7a896404ec72f709b0de1ba2e15b1824b6ef43bb1"
     },
     "A magic seal in the Gauntlet prevents you from opening a passage!": {
-      "context": "spl-transloc.cc",
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
       "translation_sha256": "2bc847e6ffae2478013107396db29caa71c38d03d6e4ab8b724f1f3b78285064"
     },
     "You cannot create a passage on the other side of the transparent wall.": {
@@ -39566,6 +39566,318 @@
     "{spell-target-hint}will blink": {
       "context": "spl-cast.cc Dispersal targeter: a stationary creature cannot move; a creature with invulnerable Will blinks instead of the long teleport effect.",
       "translation_sha256": "9ff18fe0e7c9cd0f7050c0be2877bc465bf979b1ca05c45ea5e3c3aaeae994c0"
+    },
+    "Where do you want to %s?": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "7a06f752fb8fc2cee4c15ccf62bd0d307b585950d032f2f6725bf5674c06c846"
+    },
+    "Are you sure you want to cancel this %s?": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "b8bcebac020e138764917010022a8bfee8713e2e8dfaee0e7815ec27f622a43e"
+    },
+    "You cannot %s away from %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "5638217dbee4493e93f6f827a4a7934a1488ac7316134d9b2db5e8a896337f3a"
+    },
+    "You cannot %s closer to %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "817192e02cde05ee3cc491c39488abe54520e66ecc1949dd0d7663fa75f823b4"
+    },
+    "You can't %s into that!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "15f7e916344102f52182c48804ec2188f2f1f105fcc8495409d6796b0294570c"
+    },
+    "You can't %s onto %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "be468cc5cd0a67ca9a9a6514d0b9d255ca3cc2aec01035b05d2c2a22c4696d2f"
+    },
+    "you can't charge at %s: %s": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "ab083af808fc50e0a10384839f688982bacbdc3a45cc91fec2518420fcae006c"
+    },
+    "there are no targets in range which are valid to charge at.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "e18f090f3662d53483ef5c6d6b2cf38cabc9a745fc932d054a8d1bde6242a9d6"
+    },
+    "You cannot do that while %s.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "0092105d7cac1ac048d1b1ddd1c80fbd5f7ee665910369d162b6b3b97e604f4c"
+    },
+    "The target is not visible enough to aim at it properly.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "55b9ae44755f67a5ba6610094ca16488fa4053a9161f896f63f5a4e74056eb58"
+    },
+    "There is %s in the way.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "cef0892a614c147c1173e998e1fcc7445e1e552f920fbba73c4171783a954496"
+    },
+    "The way is blocked by %s, which cannot be moved.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "36957f20cae36b7983a9c1bcf3cfe102495f7bf72ea9ef8b8d34188e2cfa9ba9"
+    },
+    "You cannot charge away from %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "26a3e019689df23cb83a4362a283a3ecaf1d6642ac87bf16395c5f6237e0fded"
+    },
+    "You cannot charge closer to %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "ca19687b75a7b97a6d47feeb9e9729224948f073515e5d810187be2b465d432b"
+    },
+    "%s is immovably fixed there.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "6c8aecdc6844a372d818a17bb60fe815ff130668a64e60079fb63f8a01c29edb"
+    },
+    "You jump through the air!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "523693dffd0c6b47f8cd1df18a159b86cff29c42b7a20c1a802340fb2a5354c8"
+    },
+    "You are hurled out of the way!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "ec949b63bdf6c53710194b6f50195d4fc3477afada7bbf25d33ac0129a6244e6"
+    },
+    "You charge forward in eerie silence!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "cda5ded79073ce6b1da422aca17550c58f4b7c99c19e2072df2db487d8687107"
+    },
+    "You charge forward with an electric crackle!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "2ad5efc847b34918d48f1b4f26203c356b6dd06e677c3b51f6d79156ebfd75f1"
+    },
+    "...but somehow remains in the same place.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "73e91af718e83411075ef273cb331524cbb231f3217403b413910ec63f3991e3"
+    },
+    "...but somehow remain in the same place.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "591fa944ad020ada8f9419f4c30a08f6b37b086763f88b82914649fb74d02129"
+    },
+    "You feel the Orb interfering with your translocation!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "5792e7c570ad6a4489e93c2ec1faf1d7894b92ed52357b22fb45c9d2587a9979"
+    },
+    "You feel space start to destabilise around you!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "d063ec36944f3f6abcf799b2e024df6b95d976ccf88fafd7acf212bd81e933e2"
+    },
+    "You feel a distressing malevolence running through your instability!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "29844898cbc101540cc824068994422d7dd1734633ad5a59e4265830e62e462c"
+    },
+    "You feel the power of the Abyss delaying your translocation and deflecting it away from its rune!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "0806486481b54e42ea0d3d19ba3f07638d04d773cf782b840bbf0befa1370caa"
+    },
+    "You are hurled through space towards some monsters!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "a815b479934ed50e79883eeebd0f088b1d93e6edcf2a34a4f25395310c0b54ef"
+    },
+    "You are hurled through space towards a monster!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "01a953b9fd1a166e569c94a94471bae62874ca802c7c26c725213479fea51902"
+    },
+    "%s tunnels through space-time and arrives with you!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "ab50f9c44d3fd9f2726d809beeebdd752c4048d02d7ba5d8ad96095c0d6fca34"
+    },
+    "You feel the abyssal rune grow more distant.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "11170c817578ba96f44c0c1f7ec0c50ad990d6901cb4121b936a0ff65b5f1ec8"
+    },
+    "You create a dimensional link between your ranged weaponry and %s.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "e6b3f087e76a259aadf2713ccd99be8e10141260b3ef12fff1f55ea3e9d7b553"
+    },
+    "You can't see anything you can safely attack.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "5e4c997f8175cf9b1ac70ab4cac24c214a0a1273b1fce0b29c12a164e8e78c53"
+    },
+    "Space folds impossibly around your blade!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "518ca69e642f482a23b2de512de8f1bf0acb975b006c0e59d3432654ab6a6987"
+    },
+    "Space folds impossibly around the blade of %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "6ee9214c4286f358e808c73103272f0181a3abf02151dc1fbd76252cbf73a9ff"
+    },
+    "Yoink! You pull the items partway towards yourself.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "9d20c1bdd7890ec542603ca6738c5cda692647d7855279b8d8b852280d0c8fc4"
+    },
+    "Yoink! You pull the item partway towards yourself.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "d87a4857e4d493b581a016c49a80dd6902169a4764b97abeb4fcd6ce7c3bc45f"
+    },
+    "You can't create a passage there!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "f263cee5e069b924d413f1f342f2f3e15f9a9861a3f348467f76901236333a81"
+    },
+    "You rattle the tambourine.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "7f454c609dc470aff85e5bda30e9ec76b75344f0d3c24a5c9c3313b2211f799d"
+    },
+    "Waves of gravity draw inward around %s.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "f4ff5de89cb68042fe707c90d7d402e620f90a873c5f03a810581bf9a9b6dc7c"
+    },
+    "Waves of gravity draw inward.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "715049c5bd3339afc449f28ff5a00a207dab7bbbc04fa75503d5c7887cdcab37"
+    },
+    "%s is pinned by gravity.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "45c1a57b2da4b45847edb02ce871b3a8a6f753fdd728f3febe0c29029998eb82"
+    },
+    "You are suddenly hurled forward!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "6f2a88ffbde6b957b5e33fbc83d10616eaf3deb95ed94c01aa5929b7cc8f625d"
+    },
+    "%s is suddenly hurled forward!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "384aa3fbfd8884279b6c7a4c19628e962f455c13cee46d121cf0e3bca33c5881"
+    },
+    "%s is attracted toward you.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "af3acc500a846986c4ed39dfbd69d2ab8d93485dd639667b1d1a60eefa6df522"
+    },
+    "You cannot blinkbolt away from %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "4ed9f857306e07951b43d5e7c90f572567494af33ee7d47b0bb72fedd8250adf"
+    },
+    "You cannot blinkbolt closer to %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "2280cc18dfb6c3f1b02c746d2df1ca434840cc8818c2ca17e8a49264b28a007a"
+    },
+    "Space begins to contract around you, but something blocks your path.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "2d14fce06d9496cc16b1f0b227449b854e6b3cd44e86996713948aca4b360c35"
+    },
+    "Space contracts around you and %s and then re-expands violently!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "9eeb8a221138d3f32742a28fd0da680241abc63395a271f27445af2e33d0e8b6"
+    },
+    "Space contracts around you and %d other creatures and then re-expands violently!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "0c0c83c680bd6181abd16d9c5884f9169ddfc5fe26ae3ffd2a44d0e6b5eafc9b"
+    },
+    "Gravity reorients to the %s!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "795a5da7f93120fe4dc0d2ee81a9cdad25a704ace3b9f069cb3dc89663928319"
+    },
+    "You pounce on %s with bestial fury!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "b1354817cba9e2134a44932e474d1af8d78ec2d21c84b02347509ad5466a2426"
+    },
+    "You dismiss your zombies and call upon the dead to rise afresh.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "493fe684e655385345360f014ed698d3d4f184b23cd3c1a7e6abe57853b376b1"
+    },
+    "You call upon the dead to rise.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "88fb69e325f9489820f7a61d75bedf2139d1d5755d08861cc9132d32ac7cbf08"
+    },
+    "There was nowhere nearby to inscribe sigils!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "66ac5e0c847be3f163606bf45f9fd2c71d02641b5c4eda2ae6f235d2a36b0a65"
+    },
+    "You inscribe a pair of binding sigils.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "0cbb4155cf552337fb7187028f757c532861b6c913c680ed705abde6a829b308"
+    },
+    "You inscribe a binding sigil.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "1dd1359d770cda9b015e1705c81dfbc84b057859fef3ad91e589c864e4cba4fb"
+    },
+    "You slip past the binding sigil.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "53fe8a7cc36bc89144524bbf231df23548c7253c75deec0279aad923f26a89fa"
+    },
+    "The sigil cannot bind %s due to the target's high momentum!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "0b93066bec2df517158f0e6b71d4d78443e9eb514c71bcc0efccacbcdf746f55"
+    },
+    "You move over the binding sigil and are bound in place!": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "2ce4b358407bc96d323f28105f9dfaee63f2042f3f977d5f67fd056bf05ad5fa"
+    },
+    "You shape a spike launcher from a nearby wall.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "e9d8c3b3273512c803a54a505cd7add511a6417921c4e6ce7c63ddf29d7d9162"
+    },
+    "%s shapes a spike launcher from a nearby wall.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "34076cb725605c484f3a1dcaa614d0e5c021f7c4f9c88e8fe2799d0373739f34"
+    },
+    "You cannot tap into any power from your present location.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "3e4d61cde4039feb9551af8e96eba53ac68bd9519720df5a4837473353ae6bd7"
+    },
+    "You tap into the flow of magic beneath you.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "875fbeb70a0a59800332368746ef0f2987e93e71f579b2152ec2fb212ea1af6a"
+    },
+    "Thorns of ice sprout around you.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "8cb153a976bd52d0e7b1020cb9c8bcb88b252912bb64a2f4eb1fb66d4d99376b"
+    },
+    "Thorns of ice sprout around %s.": {
+      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
+      "translation_sha256": "e2b02c5a74be45315e35e0df3e4dbc21777d21fb8eea21708cac8545f75deda7"
+    },
+    "{transloc-action}blink": {
+      "context": "spl-transloc.cc _find_cblink_target cancel prompt, accusative action noun. Raw blink/hop verb still passed to movement logic.",
+      "translation_sha256": "322ad5634eba552134a96086ca4a9e4a22469d3138c34d05bf6222557dcd1df8"
+    },
+    "{transloc-action}hop": {
+      "context": "spl-transloc.cc _find_cblink_target cancel prompt, accusative action noun. Raw blink/hop verb still passed to movement logic.",
+      "translation_sha256": "d8f4f94510d09dcc40082acfc3a9c160eca7a0f168ddba410a9962d340c89270"
+    },
+    "{transloc-verb}blink": {
+      "context": "spl-transloc.cc controlled blink / frog hop prompts; Russian infinitive, not noun or past tense.",
+      "translation_sha256": "21a770043f4c76b44bc6c7e3e05d456c9692525eb41a1aabe4c382c104522be3"
+    },
+    "{transloc-verb}hop": {
+      "context": "spl-transloc.cc controlled blink / frog hop prompts; Russian infinitive, not noun or past tense.",
+      "translation_sha256": "084b44548c82c32e1bac1f917372ab969dd725e873b1b2abd4a38a323d312e43"
+    },
+    "{movement-held}held in a net": {
+      "context": "traps.cc held_status used only as display clause in movement_impossible_reason. Not paralysis and not the death status.",
+      "translation_sha256": "70d2a7f23ba5782a26dda523c47e2656e5a288ef849f2b340fcb9e74a1dd5590"
+    },
+    "{movement-held}caught in a web": {
+      "context": "traps.cc held_status used only as display clause in movement_impossible_reason. Not paralysis and not the death status.",
+      "translation_sha256": "c410e26cd2d9dcf640ef47734f625d3aebee293d3d185a64dec734426d442d8c"
+    },
+    "{gravity-direction}north": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "807567c4c93540cf3d0edc24ce7fb92af1f0be699183c8822ae637dc10f31abf"
+    },
+    "{gravity-direction}south": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "7f2f90c7498ccd7af6713bd5adb5d5c56d36ee35d8e530cc43dba9bbdecb9e4a"
+    },
+    "{gravity-direction}west": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "01b5a1f5fa079f607b052977e6857d00a55d689705520af5e4a6f66497d86cbf"
+    },
+    "{gravity-direction}east": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "e8fe254c5279aa1b25e5c3852d0fa3f3fde2f16aa58afabb171dd70d732155b7"
+    },
+    "{gravity-direction}northwest": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "35d27a45cc8911bbf0c1e90950cb4c65806456e312556e581d21f9ef109d050f"
+    },
+    "{gravity-direction}northeast": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "78c87bae47e932914603c0b4e16ace80427cd0213322d5e34fde31f14105d89b"
+    },
+    "{gravity-direction}southwest": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "d160ee8e3092d00f3cac33ef39674046200a9721a1e7607a235e6db66db253cf"
+    },
+    "{gravity-direction}southeast": {
+      "context": "spl-transloc.cc Gells Gavotte: selected gravity direction, including diagonal branches in current code. Object after Russian na, not adjective or movement key.",
+      "translation_sha256": "c014cfe616e43f3af651e9e91d386f88aa4d3e7fc51d1ee5be1dccaf4fe8cc87"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

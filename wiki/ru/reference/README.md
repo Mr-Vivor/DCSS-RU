@@ -478,6 +478,11 @@
 - [Кинетический крюк](spells/kinetic-grapnel-spell.md)
 - [Переносной копёр Максвелла](spells/maxwell's-portable-piledriver-spell.md)
 - [Ёмкостная связь Максвелла](spells/maxwell's-capacitive-coupling-spell.md)
+- [Создание шипомёта](spells/construct-spike-launcher-spell.md)
+- [Драконьи жилы](spells/dragon-veins-spell.md)
+- [Ледяные шипы](spells/ice-thorns-spell.md)
+- [Электрический натиск Ви](spells/vhi's-electric-charge-spell.md)
+- [Электрический выпад Ви](spells/vhi's-electrolunge-spell.md)
 
 ## Способности
 

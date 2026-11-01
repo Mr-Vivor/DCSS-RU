@@ -265,6 +265,11 @@
 | Kinetic Grapnel | Кинетический крюк |
 | Maxwell's Portable Piledriver | Переносной копёр Максвелла |
 | Maxwell's Capacitive Coupling | Ёмкостная связь Максвелла |
+| Construct Spike Launcher | Создание шипомёта |
+| Dragon Veins | Драконьи жилы |
+| Ice Thorns | Ледяные шипы |
+| Vhi's Electric Charge | Электрический натиск Ви |
+| Vhi's Electrolunge | Электрический выпад Ви |
 
 ## items
 

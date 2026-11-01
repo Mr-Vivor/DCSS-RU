@@ -16,6 +16,7 @@
 #include "fight.h"
 #include "god-companions.h"
 #include "libutil.h"
+#include "localise.h"
 #include "message.h"
 #include "mon-death.h"
 #include "mon-place.h"
@@ -602,8 +603,8 @@ void trigger_binding_sigil(actor& actor)
             mpr("You slip past the binding sigil.");
         else
         {
-            mprf("%s cannot be bound by the sigil due to %s high momentum!",
-                actor.name(DESC_THE).c_str(), actor.pronoun(PRONOUN_POSSESSIVE).c_str());
+            mprf(localise("The sigil cannot bind %s due to the target's high momentum!").c_str(),
+                localise(actor.name(DESC_THE)).c_str());
         }
         return;
     }
@@ -667,8 +668,11 @@ spret cast_spike_launcher(const actor& agent, int pow, bool fail)
 
     if (you.see_cell(spot))
     {
-        mprf("%s shape%s a spike launcher from a nearby wall.",
-             agent.name(DESC_THE).c_str(), agent.is_player() ? "" : "s");
+        if (agent.is_player())
+            mpr(localise("You shape a spike launcher from a nearby wall."));
+        else
+            mprf(localise("%s shapes a spike launcher from a nearby wall.").c_str(),
+                 localise(agent.name(DESC_THE)).c_str());
     }
 
     return spret::success;
@@ -742,7 +746,7 @@ spret cast_dragon_veins(bool fail)
     _place_dragon_vein(you.pos() + coord_def(1, 0), DNGN_DRAGON_VEIN_ICE, dur);
     _place_dragon_vein(you.pos() + coord_def(-1, 0), DNGN_DRAGON_VEIN_FIRE, dur);
 
-    mprf("You tap into the flow of magic beneath your %s.", you.foot_name(true).c_str());
+    mpr(localise("You tap into the flow of magic beneath you."));
 
     you.props.erase(DRAGON_VEIN_USED_KEY);
 
@@ -766,7 +770,13 @@ spret cast_ice_thorns(const actor& agent, const coord_def& pos, int pow, bool fa
     }
 
     if (saw_work)
-        mprf("Thorns of ice sprout around %s.", actor_at(pos)->name(DESC_THE).c_str());
+    {
+        if (actor_at(pos)->is_player())
+            mpr(localise("Thorns of ice sprout around you."));
+        else
+            mprf(localise("Thorns of ice sprout around %s.").c_str(),
+                 localise(actor_at(pos)->name(DESC_THE)).c_str());
+    }
 
     return spret::success;
 }

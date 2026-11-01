@@ -39919,3 +39919,315 @@ Electricity surges outward!
 {spell-target-hint}will blink
 
 {spell-target-hint}короткая телепортация
+%%%%
+Where do you want to %s?
+
+Куда вы хотите %s?
+%%%%
+Are you sure you want to cancel this %s?
+
+Отменить %s?
+%%%%
+You cannot %s away from %s!
+
+Зачарование не позволяет %s прочь от цели «%s»!
+%%%%
+You cannot %s closer to %s!
+
+Страх не позволяет %s ближе к цели «%s»!
+%%%%
+You can't %s into that!
+
+Вы не можете %s в эту преграду!
+%%%%
+You can't %s onto %s!
+
+Вы не можете %s на клетку цели «%s»!
+%%%%
+you can't charge at %s: %s
+
+невозможно выполнить натиск к цели «%s»: %s
+%%%%
+there are no targets in range which are valid to charge at.
+
+в пределах дальности нет подходящих целей для натиска.
+%%%%
+You cannot do that while %s.
+
+Вы не можете сделать это: %s.
+%%%%
+The target is not visible enough to aim at it properly.
+
+Цель недостаточно хорошо видна для точного прицеливания.
+%%%%
+There is %s in the way.
+
+Путь преграждает объект «%s».
+%%%%
+The way is blocked by %s, which cannot be moved.
+
+Путь преграждает неподвижная цель «%s».
+%%%%
+You cannot charge away from %s!
+
+Зачарование не позволяет выполнить натиск прочь от цели «%s»!
+%%%%
+You cannot charge closer to %s!
+
+Страх не позволяет выполнить натиск ближе к цели «%s»!
+%%%%
+%s is immovably fixed there.
+
+Цель «%s» неподвижна и занимает эту клетку.
+%%%%
+You jump through the air!
+
+Вы совершаете прыжок!
+%%%%
+You are hurled out of the way!
+
+Вас отбрасывает в сторону!
+%%%%
+You charge forward in eerie silence!
+
+Вы устремляетесь вперёд в зловещей тишине!
+%%%%
+You charge forward with an electric crackle!
+
+Вы устремляетесь вперёд с электрическим треском!
+%%%%
+...but somehow remains in the same place.
+
+...но почему-то остаётся на прежнем месте.
+%%%%
+...but somehow remain in the same place.
+
+...но почему-то вы остаётесь на прежнем месте.
+%%%%
+You feel the Orb interfering with your translocation!
+
+Вы чувствуете, как Сфера мешает вашему перемещению!
+%%%%
+You feel space start to destabilise around you!
+
+Вы чувствуете, как пространство вокруг вас становится неустойчивым!
+%%%%
+You feel a distressing malevolence running through your instability!
+
+Вы ощущаете тревожную злую силу в окружающей вас неустойчивости!
+%%%%
+You feel the power of the Abyss delaying your translocation and deflecting it away from its rune!
+
+Сила Бездны задерживает вашу телепортацию и направляет её прочь от своей руны!
+%%%%
+You are hurled through space towards some monsters!
+
+Вас швыряет сквозь пространство к группе чудовищ!
+%%%%
+You are hurled through space towards a monster!
+
+Вас швыряет сквозь пространство к чудовищу!
+%%%%
+%s tunnels through space-time and arrives with you!
+
+Существо «%s» пробивает ход сквозь пространство-время и переносится вместе с вами!
+%%%%
+You feel the abyssal rune grow more distant.
+
+Вы чувствуете, что руна Бездны стала дальше.
+%%%%
+You create a dimensional link between your ranged weaponry and %s.
+
+Вы создаёте пространственную связь между своим дальнобойным оружием и целью «%s».
+%%%%
+You can't see anything you can safely attack.
+
+Вы не видите цели, которую можно безопасно атаковать.
+%%%%
+Space folds impossibly around your blade!
+
+Пространство немыслимым образом складывается вокруг вашего клинка!
+%%%%
+Space folds impossibly around the blade of %s!
+
+Пространство немыслимым образом складывается вокруг клинка существа «%s»!
+%%%%
+Yoink! You pull the items partway towards yourself.
+
+Есть! Вы притягиваете предметы ближе к себе, но не до конца пути.
+%%%%
+Yoink! You pull the item partway towards yourself.
+
+Есть! Вы притягиваете предмет ближе к себе, но не до конца пути.
+%%%%
+You can't create a passage there!
+
+Здесь нельзя создать проход!
+%%%%
+You rattle the tambourine.
+
+Вы встряхиваете бубен.
+%%%%
+Waves of gravity draw inward around %s.
+
+Волны тяготения сходятся к центру вокруг объекта «%s».
+%%%%
+Waves of gravity draw inward.
+
+Волны тяготения устремляются к центру.
+%%%%
+%s is pinned by gravity.
+
+Сила тяжести удерживает цель «%s» на месте.
+%%%%
+You are suddenly hurled forward!
+
+Вас внезапно швыряет вперёд!
+%%%%
+%s is suddenly hurled forward!
+
+Цель «%s» внезапно отбрасывает вперёд!
+%%%%
+%s is attracted toward you.
+
+Цель «%s» притягивается к вам.
+%%%%
+You cannot blinkbolt away from %s!
+
+Зачарование не позволяет использовать Скачок молнии, чтобы удалиться от цели «%s»!
+%%%%
+You cannot blinkbolt closer to %s!
+
+Страх не позволяет использовать Скачок молнии, чтобы приблизиться к цели «%s»!
+%%%%
+Space begins to contract around you, but something blocks your path.
+
+Пространство начинает сжиматься вокруг вас, но что-то преграждает путь.
+%%%%
+Space contracts around you and %s and then re-expands violently!
+
+Пространство сжимается вокруг вас и цели «%s», а затем резко расширяется!
+%%%%
+Space contracts around you and %d other creatures and then re-expands violently!
+
+Пространство сжимается вокруг вас и цепочки из %d существ, а затем резко расширяется!
+%%%%
+Gravity reorients to the %s!
+
+Сила тяжести теперь направлена на %s!
+%%%%
+You pounce on %s with bestial fury!
+
+Вы со звериной яростью набрасываетесь на цель «%s»!
+%%%%
+You dismiss your zombies and call upon the dead to rise afresh.
+
+Вы распускаете своих зомби и вновь призываете мёртвых восстать.
+%%%%
+You call upon the dead to rise.
+
+Вы призываете мёртвых восстать.
+%%%%
+There was nowhere nearby to inscribe sigils!
+
+Поблизости не нашлось места для связывающих символов!
+%%%%
+You inscribe a pair of binding sigils.
+
+Вы начертываете два связывающих символа.
+%%%%
+You inscribe a binding sigil.
+
+Вы начертываете связывающий символ.
+%%%%
+You slip past the binding sigil.
+
+Вы проходите мимо связывающего символа, не попав под его действие.
+%%%%
+The sigil cannot bind %s due to the target's high momentum!
+
+Связывающий символ не удерживает цель «%s» из-за её большого импульса!
+%%%%
+You move over the binding sigil and are bound in place!
+
+Вы наступаете на связывающий символ и теряете возможность ходить!
+%%%%
+You shape a spike launcher from a nearby wall.
+
+Вы создаёте шипомёт в соседней стене.
+%%%%
+%s shapes a spike launcher from a nearby wall.
+
+Существо «%s» создаёт шипомёт в соседней стене.
+%%%%
+You cannot tap into any power from your present location.
+
+В этом месте вы не можете добраться до источника силы.
+%%%%
+You tap into the flow of magic beneath you.
+
+Вы черпаете силу из потока магии под собой.
+%%%%
+Thorns of ice sprout around you.
+
+Вокруг вас вырастают ледяные шипы.
+%%%%
+Thorns of ice sprout around %s.
+
+Вокруг цели «%s» вырастают ледяные шипы.
+%%%%
+{transloc-action}blink
+
+{transloc-action}короткую телепортацию
+%%%%
+{transloc-action}hop
+
+{transloc-action}прыжок
+%%%%
+{transloc-verb}blink
+
+{transloc-verb}телепортироваться
+%%%%
+{transloc-verb}hop
+
+{transloc-verb}прыгнуть
+%%%%
+{movement-held}held in a net
+
+{movement-held}вы запутаны в сети
+%%%%
+{movement-held}caught in a web
+
+{movement-held}вы запутаны в паутине
+%%%%
+{gravity-direction}north
+
+{gravity-direction}север
+%%%%
+{gravity-direction}south
+
+{gravity-direction}юг
+%%%%
+{gravity-direction}west
+
+{gravity-direction}запад
+%%%%
+{gravity-direction}east
+
+{gravity-direction}восток
+%%%%
+{gravity-direction}northwest
+
+{gravity-direction}северо-запад
+%%%%
+{gravity-direction}northeast
+
+{gravity-direction}северо-восток
+%%%%
+{gravity-direction}southwest
+
+{gravity-direction}юго-запад
+%%%%
+{gravity-direction}southeast
+
+{gravity-direction}юго-восток

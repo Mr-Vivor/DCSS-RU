@@ -30,6 +30,7 @@
 #include "items.h"
 #include "level-state-type.h"
 #include "libutil.h"
+#include "localise.h"
 #include "los.h"
 #include "losglobal.h"
 #include "losparam.h"
@@ -235,7 +236,8 @@ static spret _find_cblink_target(dist &target, bool safe_cancel,
         direction_chooser_args args;
         args.restricts = DIR_TARGET;
         args.needs_path = false;
-        args.top_prompt = uppercase_first(verb) + " to where?";
+        args.top_prompt = make_stringf(localise("Where do you want to %s?").c_str(),
+                                      localise_in_context("transloc-verb", verb).c_str());
         args.hitfunc = hitfunc;
         args.mode = TARG_NON_ACTOR;
         direction(target, args);
@@ -248,8 +250,8 @@ static spret _find_cblink_target(dist &target, bool safe_cancel,
 
         if (!target.isValid || target.target == you.pos())
         {
-            const string prompt =
-                "Are you sure you want to cancel this " + verb + "?";
+            const string prompt = make_stringf(localise("Are you sure you want to cancel this %s?").c_str(),
+                localise_in_context("transloc-action", verb).c_str());
             if (!safe_cancel && !yesno(prompt.c_str(), false, 'n'))
             {
                 clear_messages();
@@ -263,33 +265,35 @@ static spret _find_cblink_target(dist &target, bool safe_cancel,
         const monster* beholder = you.get_beholder(target.target);
         if (beholder)
         {
-            mprf("You cannot %s away from %s!",
-                 verb.c_str(),
-                 beholder->name(DESC_THE, true).c_str());
+            mprf(localise("You cannot %s away from %s!").c_str(),
+                 localise_in_context("transloc-verb", verb).c_str(),
+                 localise(beholder->name(DESC_THE, true)).c_str());
             continue;
         }
 
         const monster* fearmonger = you.get_fearmonger(target.target);
         if (fearmonger)
         {
-            mprf("You cannot %s closer to %s!",
-                 verb.c_str(),
-                 fearmonger->name(DESC_THE, true).c_str());
+            mprf(localise("You cannot %s closer to %s!").c_str(),
+                 localise_in_context("transloc-verb", verb).c_str(),
+                 localise(fearmonger->name(DESC_THE, true)).c_str());
             continue;
         }
 
         if (cell_is_solid(target.target))
         {
             clear_messages();
-            mprf("You can't %s into that!", verb.c_str());
+            mprf(localise("You can't %s into that!").c_str(),
+                 localise_in_context("transloc-verb", verb).c_str());
             continue;
         }
 
         monster* target_mons = monster_at(target.target);
         if (target_mons && you.aware_of(*target_mons))
         {
-            mprf("You can't %s onto %s!", verb.c_str(),
-                 target_mons->name(DESC_THE).c_str());
+            mprf(localise("You can't %s onto %s!").c_str(),
+                 localise_in_context("transloc-verb", verb).c_str(),
+                 localise(target_mons->name(DESC_THE)).c_str());
             continue;
         }
 
@@ -514,9 +518,9 @@ string electric_charge_impossible_reason(bool allow_safe_monsters)
             const bool low_priorty = invalid_target && !ends_with(fail_reason, "properly.");
             if (!low_priorty || example_reason.empty())
             {
-                example_reason = make_stringf("you can't charge at %s because %s",
-                                            mi->name(DESC_THE).c_str(),
-                                            fail_reason.c_str());
+                example_reason = make_stringf(localise("you can't charge at %s: %s").c_str(),
+                                            localise(mi->name(DESC_THE)).c_str(),
+                                            localise(fail_reason).c_str());
                 if (!low_priorty)
                     num_reasons++;
             }
@@ -529,14 +533,15 @@ string electric_charge_impossible_reason(bool allow_safe_monsters)
         }
     }
     if (!example_reason.empty() && num_reasons <= 1)
-        return lowercase_string(example_reason);
+        return example_reason;
     return "there are no targets in range which are valid to charge at.";
 }
 
 string movement_impossible_reason()
 {
     if (you.attribute[ATTR_HELD])
-        return make_stringf("You cannot do that while %s.", held_status());
+        return make_stringf(localise("You cannot do that while %s.").c_str(),
+                            localise_in_context("movement-held", held_status()).c_str());
     if (you.cannot_move())
         return "You cannot move."; // MSG_CANNOT_MOVE
     return "";
@@ -555,9 +560,7 @@ bool valid_electric_charge_target(const actor& agent, coord_def target, string* 
     {
         if (act && agent.aware_of(*act) && fail_reason)
         {
-            *fail_reason = make_stringf("%s %s visible enough to target properly.",
-                                            act->pronoun(PRONOUN_SUBJECTIVE).c_str(),
-                                            act->conj_verb("aren't").c_str());
+            *fail_reason = "The target is not visible enough to aim at it properly.";
         }
         else if (fail_reason)
             *fail_reason = "You can't see anything there to charge at.";
@@ -636,9 +639,8 @@ coord_def get_electric_charge_landing_spot(const actor& agent, coord_def target,
             {
                 if (fail_reason)
                 {
-                    *fail_reason = "There's "
-                                   + feature_description_at(ray.pos())
-                                   + " in the way.";
+                    *fail_reason = make_stringf(localise("There is %s in the way.").c_str(),
+                                    localise(feature_description_at(ray.pos())).c_str());
                 }
 
                 return coord_def(0, 0);
@@ -649,8 +651,8 @@ coord_def get_electric_charge_landing_spot(const actor& agent, coord_def target,
             {
                 if (fail_reason)
                 {
-                    *fail_reason = mon->name(DESC_THE)
-                                   + " is immovably fixed in your path.";
+                    *fail_reason = make_stringf(localise("The way is blocked by %s, which cannot be moved.").c_str(),
+                                    localise(mon->name(DESC_THE)).c_str());
                 }
 
                 return coord_def(0, 0);
@@ -664,8 +666,8 @@ coord_def get_electric_charge_landing_spot(const actor& agent, coord_def target,
                 {
                     if (fail_reason)
                     {
-                        *fail_reason = make_stringf("You cannot charge away from %s!",
-                                                    beholder->name(DESC_THE, true).c_str());
+                        *fail_reason = make_stringf(localise("You cannot charge away from %s!").c_str(),
+                                                    localise(beholder->name(DESC_THE, true)).c_str());
                     }
 
                     return coord_def(0, 0);
@@ -676,8 +678,8 @@ coord_def get_electric_charge_landing_spot(const actor& agent, coord_def target,
                 {
                     if (fail_reason)
                     {
-                        *fail_reason = make_stringf("You cannot charge closer to %s!",
-                                                    fearmonger->name(DESC_THE, true).c_str());
+                        *fail_reason = make_stringf(localise("You cannot charge closer to %s!").c_str(),
+                                                    localise(fearmonger->name(DESC_THE, true)).c_str());
                     }
 
                     return coord_def(0, 0);
@@ -781,7 +783,8 @@ spret electric_charge(actor& agent, int powc, bool fail, const coord_def &target
     if (invalid_dest)
     {
         if (agent.is_player())
-            mprf("%s is immovably fixed there.", dest_mon->name(DESC_THE).c_str());
+            mprf(localise("%s is immovably fixed there.").c_str(),
+                 localise(dest_mon->name(DESC_THE)).c_str());
         return spret::success;
     }
 
@@ -809,8 +812,9 @@ spret electric_charge(actor& agent, int powc, bool fail, const coord_def &target
     {
         if (agent.is_player() || (agent.is_monster() && you.can_see(agent)))
         {
-            mprf("...but somehow remain%s in the same place.",
-                                                agent.is_monster() ? "s" : "");
+            mpr(localise(agent.is_monster()
+                        ? "...but somehow remains in the same place."
+                        : "...but somehow remain in the same place."));
         }
 
         return spret::success;
@@ -979,8 +983,9 @@ void you_teleport(bool is_hostile, mid_t teleportitis_source)
 
         if (player_in_branch(BRANCH_ABYSS))
         {
-            mprf("You feel the power of the Abyss delaying your translocation%s!",
-                 !you.runes[RUNE_ABYSSAL] ? " and deflecting it away from its rune" : "");
+            mpr(localise(!you.runes[RUNE_ABYSSAL]
+                 ? "You feel the power of the Abyss delaying your translocation and deflecting it away from its rune!"
+                 : "You feel the power of the Abyss delaying your translocation!"));
             teleport_delay += 5 + random2(10);
         }
         else if (orb_limits_translocation())
@@ -1257,9 +1262,9 @@ bool hostile_teleport_player(monster* source)
                 break;
         }
 
-        mprf("You are hurled through space towards %s monster%s!",
-                mons_near_target > 1 ? "some" : "a",
-                mons_near_target > 1 ? "s" : "");
+        mpr(localise(mons_near_target > 1
+            ? "You are hurled through space towards some monsters!"
+            : "You are hurled through space towards a monster!"));
 
         large_change = _real_teleport_cleanup(oldpos, newpos, true);
         crawl_state.potential_pursuers.clear();
@@ -1278,8 +1283,8 @@ bool hostile_teleport_player(monster* source)
             _place_tloc_cloud(source->pos());
             source->move_to(source_newpos, MV_DELIBERATE | MV_TRANSLOCATION, true);
             source->target = you.pos();
-            mprf(MSGCH_WARN, "%s tunnels through space-time and arrives with you!",
-                 source->name(DESC_THE).c_str());
+            mprf(MSGCH_WARN, localise("%s tunnels through space-time and arrives with you!").c_str(),
+                 localise(source->name(DESC_THE)).c_str());
             source->finalise_movement();
         }
     }
@@ -1409,8 +1414,8 @@ spret cast_dimensional_bullseye(int pow, monster *target, bool fail)
             old_targ->del_ench(ENCH_BULLSEYE_TARGET);
     }
 
-    mprf("You create a dimensional link between your ranged weaponry and %s.",
-         target->name(DESC_THE).c_str());
+    mprf(localise("You create a dimensional link between your ranged weaponry and %s.").c_str(),
+         localise(target->name(DESC_THE)).c_str());
 
     // So we can automatically end the status if the target dies or becomes
     // friendly
@@ -1502,7 +1507,13 @@ spret cast_manifold_assault(actor& agent, int pow, bool fail, bool real,
     if ((agent.is_player() || you.can_see(agent)) && !katana_defender)
     {
         if (weapon && is_unrandom_artefact(*weapon, UNRAND_AUTUMN_KATANA))
-            mprf("Space folds impossibly around %s blade!", agent.name(DESC_ITS).c_str());
+        {
+            if (agent.is_player())
+                mpr(localise("Space folds impossibly around your blade!"));
+            else
+                mprf(localise("Space folds impossibly around the blade of %s!").c_str(),
+                     localise(agent.name(DESC_THE)).c_str());
+        }
         else if (!(agent.is_monster() && agent.as_monster()->has_ench(ENCH_PARADOX_TOUCHED)))
             mpr("Space momentarily warps into an impossible shape!");
     }
@@ -1666,9 +1677,12 @@ spret cast_apportation(int pow, bolt& beam, bool fail)
             ++num_moved;
     }
 
-    mprf("Yoink! You pull the item%s %stowards yourself.",
-         num_moved > 1 ? "s" : "",
-         new_spot != you.pos() ? "partway " : "");
+    const char* message = new_spot != you.pos()
+        ? (num_moved > 1 ? "Yoink! You pull the items partway towards yourself."
+                         : "Yoink! You pull the item partway towards yourself.")
+        : (num_moved > 1 ? "Yoink! You pull the items towards yourself."
+                         : "Yoink! You pull the item towards yourself.");
+    mpr(localise(message));
 
     return spret::success;
 }
@@ -1842,13 +1856,15 @@ spret cast_gravitas(int pow, const coord_def& where, bool fail)
     // XXX: If this is ever usable from elsewhere than the item, change this.
     mpr("You rattle the tambourine.");
 
-    mprf("Waves of gravity draw inward%s%s.",
-         mons || feat_is_solid(env.grid(where)) ? " around " : "",
-         mons ? mons->name(DESC_THE).c_str() :
-                feat_is_solid(env.grid(where)) ? feature_description(env.grid(where),
-                                                                     "",
-                                                                     DESC_THE)
-                                                                    .c_str() : "");
+    if (mons || feat_is_solid(env.grid(where)))
+    {
+        const string center = mons ? mons->name(DESC_THE)
+            : feature_description(env.grid(where), "", DESC_THE);
+        mprf(localise("Waves of gravity draw inward around %s.").c_str(),
+             localise(center).c_str());
+    }
+    else
+        mpr(localise("Waves of gravity draw inward."));
 
     draw_ring_animation(where, radius, LIGHTMAGENTA);
     pull_monsters_inward(where, radius);
@@ -1870,7 +1886,8 @@ spret cast_gravitas(int pow, const coord_def& where, bool fail)
             dmg = mon->apply_ac(dmg);
 
             if (you.can_see(*mon))
-                mprf("%s is pinned by gravity.", mon->name(DESC_THE).c_str());
+                mprf(localise("%s is pinned by gravity.").c_str(),
+                     localise(mon->name(DESC_THE)).c_str());
             mon->hurt(&you, dmg);
             mon->add_ench(mon_enchant(ENCH_BOUND, &you, dur));
             behaviour_event(mon, ME_WHACK, &you, you.pos());
@@ -1935,9 +1952,11 @@ bool beckon(actor &beckoned, const bolt &path)
     if (!beckoned.move_to(dest, MV_TRANSLOCATION, true))
         return false;
 
-    mprf("%s %s suddenly forward!",
-         beckoned.name(DESC_THE).c_str(),
-         beckoned.conj_verb("hurl").c_str());
+    if (beckoned.is_player())
+        mpr(localise("You are suddenly hurled forward!"));
+    else
+        mprf(localise("%s is suddenly hurled forward!").c_str(),
+             localise(beckoned.name(DESC_THE)).c_str());
 
     beckoned.finalise_movement();
 
@@ -1975,7 +1994,8 @@ void attract_monster(monster &mon, int max_move)
     if (!mon.move_to(ray.pos(), MV_TRANSLOCATION, true))
         return;
 
-    mprf("%s is attracted toward you.", mon.name(DESC_THE).c_str());
+    mprf(localise("%s is attracted toward you.").c_str(),
+         localise(mon.name(DESC_THE)).c_str());
 
     _place_tloc_cloud(old_pos);
     place_cloud(CLOUD_MAGIC_TRAIL, ray.pos(), random_range(3, 5), &you);
@@ -2082,16 +2102,16 @@ spret blinkbolt(int power, bolt &beam, bool fail)
     const monster* beholder = you.get_beholder(beam.target);
     if (beholder)
     {
-        mprf("You cannot blinkbolt away from %s!",
-            beholder->name(DESC_THE, true).c_str());
+        mprf(localise("You cannot blinkbolt away from %s!").c_str(),
+            localise(beholder->name(DESC_THE, true)).c_str());
         return spret::abort;
     }
 
     const monster* fearmonger = you.get_fearmonger(beam.target);
     if (fearmonger)
     {
-        mprf("You cannot blinkbolt closer to %s!",
-            fearmonger->name(DESC_THE, true).c_str());
+        mprf(localise("You cannot blinkbolt closer to %s!").c_str(),
+            localise(fearmonger->name(DESC_THE, true)).c_str());
         return spret::abort;
     }
 
@@ -2269,10 +2289,12 @@ spret cast_piledriver(const coord_def& target, int pow, bool fail)
     }
 
     mons = _get_monster_line(target, true);
-    mprf("Space contracts around you and %s and then re-expands violently!",
-            mons.size() == 1 ? mons[0]->name(DESC_THE).c_str()
-                             : make_stringf("%s other creatures",
-                                    number_in_words(mons.size()).c_str()).c_str());
+    if (mons.size() == 1)
+        mprf(localise("Space contracts around you and %s and then re-expands violently!").c_str(),
+             localise(mons[0]->name(DESC_THE)).c_str());
+    else
+        mprf(localise("Space contracts around you and %d other creatures and then re-expands violently!").c_str(),
+             static_cast<int>(mons.size()));
 
     // Animate the player and their victim flying forward together
     bolt anim;
@@ -2393,7 +2415,8 @@ spret cast_gavotte(int pow, const coord_def dir, bool fail)
     else if (dir.x == 1 && dir.y == 1)
         dir_msg = "southeast";
 
-    mprf("Gravity reorients to the %s!", dir_msg.c_str());
+    mprf(localise("Gravity reorients to the %s!").c_str(),
+         localise_in_context("gravity-direction", dir_msg).c_str());
 
     if (you.stasis())
         canned_msg(MSG_STRANGE_STASIS);
@@ -2573,7 +2596,8 @@ spret do_bestial_takedown(coord_def target)
     if (monster_at(landing))
         _displace_charge_blocker(you, landing);
 
-    mprf("You pounce on %s with bestial fury!", targ->name(DESC_THE).c_str());
+    mprf(localise("You pounce on %s with bestial fury!").c_str(),
+         localise(targ->name(DESC_THE)).c_str());
 
     you.move_to(landing, MV_DELIBERATE, true);
 
