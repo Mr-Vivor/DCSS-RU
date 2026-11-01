@@ -206,3 +206,31 @@
 | `monster.shock_serpent` | [Электрический змей](pages/monster.shock_serpent.md) | shock serpent | reviewed |
 | `monster.dream_sheep` | [Овца сновидений](pages/monster.dream_sheep.md) | dream sheep | reviewed |
 | `monster.oblivion_hound` | [Гончая забвения](pages/monster.oblivion_hound.md) | oblivion hound | reviewed |
+| `item.demon_whip` | [Демонический кнут](pages/item.demon_whip.md) | demon whip | reviewed |
+| `item.demon_blade` | [Демонический клинок](pages/item.demon_blade.md) | demon blade | reviewed |
+| `item.demon_trident` | [Демонический трезубец](pages/item.demon_trident.md) | demon trident | reviewed |
+| `item.double_sword` | [Двойной меч](pages/item.double_sword.md) | double sword | reviewed |
+| `item.triple_sword` | [Тройной меч](pages/item.triple_sword.md) | triple sword | reviewed |
+| `item.eveningstar` | [Вечерняя звезда](pages/item.eveningstar.md) | eveningstar | reviewed |
+| `item.dire_flail` | [Тяжёлый цеп](pages/item.dire_flail.md) | dire flail | reviewed |
+| `item.giant_club` | [Гигантская дубина](pages/item.giant_club.md) | giant club | reviewed |
+| `item.giant_spiked_club` | [Гигантская шипастая дубина](pages/item.giant_spiked_club.md) | giant spiked club | reviewed |
+| `item.great_mace` | [Огромная булава](pages/item.great_mace.md) | great mace | reviewed |
+| `item.eudemon_blade` | [Эвдемонический клинок](pages/item.eudemon_blade.md) | eudemon blade | reviewed |
+| `item.sacred_scourge` | [Священный бич](pages/item.sacred_scourge.md) | sacred scourge | reviewed |
+| `item.trishula` | [Тришула](pages/item.trishula.md) | trishula | reviewed |
+| `item.athame` | [Атам](pages/item.athame.md) | athame | reviewed |
+| `item.triple_crossbow` | [Тройной арбалет](pages/item.triple_crossbow.md) | triple crossbow | reviewed |
+| `item.amulet_of_guardian_spirit` | [Амулет духа-хранителя](pages/item.amulet_of_guardian_spirit.md) | amulet of guardian spirit | reviewed |
+| `item.amulet_of_magic_regeneration` | [Амулет регенерации магии](pages/item.amulet_of_magic_regeneration.md) | amulet of magic regeneration | reviewed |
+| `item.amulet_of_faith` | [Амулет веры](pages/item.amulet_of_faith.md) | amulet of faith | reviewed |
+| `item.amulet_of_the_acrobat` | [Амулет акробата](pages/item.amulet_of_the_acrobat.md) | amulet of the acrobat | reviewed |
+| `item.amulet_of_chemistry` | [Амулет химии](pages/item.amulet_of_chemistry.md) | amulet of chemistry | reviewed |
+| `item.ring_of_willpower` | [Кольцо воли](pages/item.ring_of_willpower.md) | ring of willpower | reviewed |
+| `item.ring_of_magical_power` | [Кольцо запаса магии](pages/item.ring_of_magical_power.md) | ring of magical power | reviewed |
+| `item.ring_of_slaying` | [Кольцо боевого мастерства](pages/item.ring_of_slaying.md) | ring of slaying | reviewed |
+| `item.ring_of_poison_resistance` | [Кольцо сопротивления яду](pages/item.ring_of_poison_resistance.md) | ring of poison resistance | reviewed |
+| `item.ring_of_protection_from_cold` | [Кольцо защиты от холода](pages/item.ring_of_protection_from_cold.md) | ring of protection from cold | reviewed |
+| `item.ring_of_protection_from_fire` | [Кольцо защиты от огня](pages/item.ring_of_protection_from_fire.md) | ring of protection from fire | reviewed |
+| `item.ring_of_positive_energy` | [Кольцо положительной энергии](pages/item.ring_of_positive_energy.md) | ring of positive energy | reviewed |
+| `item.ring_of_wizardry` | [Кольцо чародейства](pages/item.ring_of_wizardry.md) | ring of wizardry | reviewed |

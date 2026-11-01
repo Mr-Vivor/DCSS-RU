@@ -38,7 +38,7 @@
 - [Кольцо полёта](items/ring-of-flight.md)
 - [Кольцо интеллекта](items/ring-of-intelligence.md)
 - [Кольцо сопротивления коррозии](items/ring-of-resist-corrosion.md)
-- [Кольцо магической силы](items/ring-of-magical-power.md)
+- [Кольцо запаса магии](items/ring-of-magical-power.md)
 - [Кольцо сопротивления яду](items/ring-of-poison-resistance.md)
 - [Кольцо положительной энергии](items/ring-of-positive-energy.md)
 - [Кольцо защиты](items/ring-of-protection.md)

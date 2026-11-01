@@ -360,7 +360,7 @@
 | potion of moonshine | зелье самогона |
 | ring of flight | кольцо полёта |
 | ring of resist corrosion | кольцо сопротивления коррозии |
-| ring of magical power | кольцо магической силы |
+| ring of magical power | кольцо запаса магии |
 | ring of poison resistance | кольцо сопротивления яду |
 | ring of positive energy | кольцо положительной энергии |
 | ring of protection from cold | кольцо защиты от холода |
