@@ -316,6 +316,30 @@
 | Phantom Mirror | Фантомное зеркало |
 | Dream Dust | Пыль сновидений |
 | Oblivion Howl | Вой забвения |
+| Agony | Агония |
+| Banishment | Изгнание |
+| Berserk Other | Ярость союзника |
+| Dimension Anchor | Пространственный якорь |
+| Malmutate | Мутагенное воздействие |
+| Sap Magic | Подавление колдовства |
+| Strip Willpower | Подавление Воли |
+| Virulence | Уязвимость к яду |
+| Ensnare | Опутывание паутиной |
+| Greater Ensnare | Усиленное опутывание паутиной |
+| Sentinel's Mark | Метка стража |
+| Injury Bond | Узы ранений |
+| Injury Mirror | Отражение ранений |
+| Drain Magic | Истощение магии |
+| Draining Gaze | Истощающий взгляд |
+| Confusion Gaze | Сбивающий с толку взгляд |
+| Paralysis Gaze | Парализующий взгляд |
+| Weakening Gaze | Ослабляющий взгляд |
+| Mutagenic Gaze | Мутагенный взгляд |
+| Siphon Essence | Поглощение сущности |
+| Ill Omen | Дурное предзнаменование |
+| Sleep | Сон |
+| Stunning Burst | Оглушающий разряд |
+| Doomsaying | Обречение |
 
 ## items
 
