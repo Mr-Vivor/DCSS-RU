@@ -3532,12 +3532,13 @@ bool gozag_potion_petition()
         clear_messages();
         for (int i = 0; i < GOZAG_MAX_POTIONS; i++)
         {
-            string line = make_stringf("  [%c] - %d gold - ", i + 'a',
+            string line = make_stringf(localise("  [%c] - %d gold - ").c_str(), i + 'a',
                                        prices[i]);
             vector<string> pot_names;
             for (const CrawlStoreValue& store : *pots[i])
-                pot_names.emplace_back(potion_type_name(store.get_int()));
-            line += comma_separated_line(pot_names.begin(), pot_names.end());
+                pot_names.emplace_back(localise_in_context("gozag-potion-effect",
+                                       potion_type_name(store.get_int())));
+            line += comma_separated_line(pot_names.begin(), pot_names.end(), localise(" and "));
             mpr_nojoin(MSGCH_PLAIN, line);
         }
         mprf(MSGCH_PROMPT, "Purchase which effect?");
@@ -3708,6 +3709,11 @@ static string _describe_gozag_shop(int index)
     const string suffix =
         you.props[make_stringf(GOZAG_SHOP_SUFFIX_KEY, index)].get_string();
 
+    if (Options.language == lang_t::RU && localisation_active())
+        return make_stringf(localise("  [%c] %5d gold - %s; merchant: %s").c_str(),
+            offer_letter, cost, localise_in_context("gozag-shop", type_name).c_str(),
+            localise(you.props[make_stringf(GOZAG_SHOPKEEPER_NAME_KEY, index)].get_string()).c_str());
+
     return make_stringf("  [%c] %5d gold - %s %s %s",
                         offer_letter,
                         cost,
@@ -3797,7 +3803,12 @@ static void _gozag_place_shop(int index)
     const gender_type gender = random_choose(GENDER_FEMALE, GENDER_MALE,
                                              GENDER_NEUTRAL);
 
-    mprf(MSGCH_GOD, "%s invites you to visit %s %s%s%s.",
+    if (Options.language == lang_t::RU && localisation_active())
+        mprf(MSGCH_GOD, localise("%s invites you to visit a shop: %s.").c_str(),
+             localise(shop->shop_name).c_str(),
+             localise_in_context("gozag-shop", shop_type_name(shop->type)).c_str());
+    else
+        mprf(MSGCH_GOD, "%s invites you to visit %s %s%s%s.",
                     shop->shop_name.c_str(),
                     decline_pronoun(gender, PRONOUN_POSSESSIVE),
                     shop_type_name(shop->type).c_str(),
@@ -3945,8 +3956,8 @@ void gozag_deduct_bribe(branch_type br, int amount)
     branch_bribe[br] = max(0, branch_bribe[br] - amount);
     if (branch_bribe[br] <= 0)
     {
-        mprf(MSGCH_DURATION, "Your bribe of %s has been exhausted.",
-             branches[br].longname);
+        mprf(MSGCH_DURATION, localise("Your bribe of %s has been exhausted.").c_str(),
+             localise(branches[br].longname).c_str());
         add_daction(DACT_BRIBE_TIMEOUT);
     }
 }
@@ -3972,11 +3983,11 @@ bool gozag_check_bribe_branch(bool quiet)
                 break;
             }
     }
-    const string who = make_stringf("the denizens of %s",
-                                   branches[branch].longname);
+    const string who = make_stringf(localise("the denizens of %s").c_str(),
+                                   localise(branches[branch].longname).c_str());
     const string who2 = branch2 != NUM_BRANCHES
-                        ? make_stringf("the denizens of %s",
-                                       branches[branch2].longname)
+                        ? make_stringf(localise("the denizens of %s").c_str(),
+                                       localise(branches[branch2].longname).c_str())
                         : "";
     if (!gozag_branch_bribable(branch)
         && (branch2 == NUM_BRANCHES
@@ -3985,9 +3996,9 @@ bool gozag_check_bribe_branch(bool quiet)
         if (!quiet)
         {
             if (branch2 != NUM_BRANCHES)
-                mprf("You can't bribe %s or %s.", who.c_str(), who2.c_str());
+                mprf(localise("You can't bribe %s or %s.").c_str(), who.c_str(), who2.c_str());
             else
-                mprf("You can't bribe %s.", who.c_str());
+                mprf(localise("You can't bribe %s.").c_str(), who.c_str());
         }
         return false;
     }
@@ -4008,9 +4019,9 @@ bool gozag_bribe_branch()
             {
                 branch_type stair_branch = gozag_fixup_branch(it->id);
                 string prompt =
-                    make_stringf("Do you want to bribe the denizens of %s?",
-                                 stair_branch == BRANCH_VESTIBULE ? "the Hells"
-                                 : branches[stair_branch].longname);
+                    make_stringf(localise("Do you want to bribe the denizens of %s?").c_str(),
+                                 localise(stair_branch == BRANCH_VESTIBULE ? "the Hells"
+                                 : branches[stair_branch].longname).c_str());
                 if (yesno(prompt.c_str(), true, 'n'))
                 {
                     branch = stair_branch;
@@ -4026,28 +4037,27 @@ bool gozag_bribe_branch()
                 break;
             }
     }
-    string who = make_stringf("the denizens of %s",
-                              branches[branch].longname);
+    string who = make_stringf(localise("the denizens of %s").c_str(),
+                              localise(branches[branch].longname).c_str());
     if (!gozag_branch_bribable(branch))
     {
-        mprf("You can't bribe %s.", who.c_str());
+        mprf(localise("You can't bribe %s.").c_str(), who.c_str());
         return false;
     }
 
     string prompt =
-        make_stringf("Do you want to bribe the denizens of %s?",
-                     branch == BRANCH_VESTIBULE ? "the Hells" :
-                     branches[branch].longname);
+        make_stringf(localise("Do you want to bribe the denizens of %s?").c_str(),
+                     localise(branch == BRANCH_VESTIBULE ? "the Hells" :
+                     branches[branch].longname).c_str());
 
     if (prompted || yesno(prompt.c_str(), true, 'n'))
     {
         you.del_gold(bribe_amount);
         you.attribute[ATTR_GOZAG_GOLD_USED] += bribe_amount;
         branch_bribe[branch] += bribe_amount;
-        string msg = make_stringf(" spreads your bribe to %s!",
-                                  branch == BRANCH_VESTIBULE ? "the Hells" :
-                                  branches[branch].longname);
-        simple_god_message(msg.c_str());
+        mprf(MSGCH_GOD, you.religion, localise("Gozag spreads your bribe to %s!").c_str(),
+             localise(branch == BRANCH_VESTIBULE ? "the Hells" :
+                      branches[branch].longname).c_str());
         add_daction(DACT_SET_BRIBES);
         return true;
     }

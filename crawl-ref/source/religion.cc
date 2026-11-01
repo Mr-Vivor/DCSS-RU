@@ -1593,28 +1593,20 @@ static bool _handle_veh_gift(bool forced)
         if (!offers.empty())
         {
             you.vehumet_gifts = offers;
-            string prompt = " offers you knowledge of ";
+            vector<string> spell_names;
             for (auto it = offers.begin(); it != offers.end(); ++it)
             {
-                if (it != offers.begin())
-                {
-                    if (offers.size() > 2)
-                        prompt += ",";
-                    prompt += " ";
-                    auto next = it;
-                    next++;
-                    if (next == offers.end())
-                        prompt += "and ";
-                }
-                prompt += spell_title(*it);
+                spell_names.push_back(localise(spell_title(*it)));
                 _add_to_old_gifts(*it);
                 take_note(Note(NOTE_OFFERED_SPELL, *it));
             }
-            prompt += ".";
+            string prompt = make_stringf(localise("Vehumet offers you knowledge of %s.").c_str(),
+                comma_separated_line(spell_names.begin(), spell_names.end(),
+                    localise(offers.size() > 2 ? ", and " : " and ")).c_str());
             if (gifts >= NUM_VEHUMET_GIFTS - 1)
             {
-                prompt += " These spells will remain available"
-                          " as long as you worship Vehumet.";
+                prompt += localise(" These spells will remain available"
+                          " as long as you worship Vehumet.");
             }
 
             you.duration[DUR_VEHUMET_GIFT] = (100 + random2avg(100, 2)) * BASELINE_DELAY;
@@ -1623,7 +1615,7 @@ static bool _handle_veh_gift(bool forced)
             you.num_current_gifts[you.religion]++;
             you.num_total_gifts[you.religion]++;
 
-            simple_god_message(prompt.c_str());
+            god_speaks(you.religion, prompt.c_str());
             // included in default force_more_message
 
             success = true;
@@ -2830,7 +2822,7 @@ static void _ash_uncurse()
     {
         // The appended items lost their slot rather than their curse.
         if (i >= num_cursed)
-            mprf("%s falls away from you.", cursed[i]->name(DESC_YOUR).c_str());
+            mprf(localise("%s falls away from you.").c_str(), localise(cursed[i]->name(DESC_YOUR)).c_str());
         unequip_item(*cursed[i]);
     }
 }
@@ -3024,8 +3016,8 @@ void excommunication(bool voluntary, god_type new_god)
 
     case GOD_NEMELEX_XOBEH:
         reset_cards();
-        mprf(MSGCH_GOD, old_god, "Your access to %s's decks is revoked.",
-             god_name(old_god).c_str());
+        mprf(MSGCH_GOD, old_god, localise("Your access to %s's decks is revoked.").c_str(),
+             localise(god_name(old_god)).c_str());
         break;
 
     case GOD_SHINING_ONE:
@@ -3337,7 +3329,7 @@ static bool _god_rejects_loveless(god_type god)
  */
 string cannot_join_god_reason(god_type which_god, bool include_temp, bool check_gear)
 {
-    const string god = god_speaker(which_god);
+    const string god = localise(god_speaker(which_god));
 
     // Only check permanent statuses here, as we will have more specific
     // messages for e.g. temporary forms further down.
@@ -3348,22 +3340,22 @@ string cannot_join_god_reason(god_type which_god, bool include_temp, bool check_
                 || which_god == GOD_VEHUMET
                 || which_god == GOD_KIKUBAAQUDGHA)))
     {
-        return god + " does not accept worship from those such as you!";
+        return make_stringf(localise("%s does not accept worship from those such as you!").c_str(), god.c_str());
     }
 
     if (which_god == GOD_GOZAG && include_temp && you.gold < gozag_service_fee())
     {
         const int fee = gozag_service_fee();
-        string reason = god + " does not accept service from beggars like you! ";
+        string reason = make_stringf(localise("%s does not accept service from beggars like you! ").c_str(), god.c_str());
         if (you.gold == 0)
         {
-            reason += make_stringf("The service fee for joining is currently %d"
-                                   " gold; you have none.", fee);
+            reason += make_stringf(localise("The service fee for joining is currently %d"
+                                   " gold; you have none.").c_str(), fee);
         }
         else
         {
-            reason += make_stringf("The service fee for joining is currently %d"
-                                   " gold; you only have %d.", fee, you.gold);
+            reason += make_stringf(localise("The service fee for joining is currently %d"
+                                   " gold; you only have %d.").c_str(), fee, you.gold);
         }
         return reason;
     }
@@ -3371,17 +3363,17 @@ string cannot_join_god_reason(god_type which_god, bool include_temp, bool check_
     if (you.get_base_mutation_level(MUT_NO_LOVE, true, include_temp, include_temp)
         && _god_rejects_loveless(which_god))
     {
-        return god + " does not accept worship from the loveless!";
+        return make_stringf(localise("%s does not accept worship from the loveless!").c_str(), god.c_str());
     }
 
     if (include_temp && !transformed_player_can_join_god(which_god) && check_gear)
     {
         if (which_god == GOD_OKAWARU)
         {
-            return god + " says: You must forswear the aid of any and all before"
-                         " you are fit to worship.";
+            return make_stringf(localise("%s says: You must forswear the aid of any and all before"
+                         " you are fit to worship.").c_str(), god.c_str());
         }
-        return god + " says: How dare you approach in such a loathsome form!";
+        return make_stringf(localise("%s says: How dare you approach in such a loathsome form!").c_str(), god.c_str());
     }
 
     // You can't join a god while wearing gear they hate.
@@ -3390,12 +3382,11 @@ string cannot_join_god_reason(god_type which_god, bool include_temp, bool check_
         vector<string> hated;
         for (item_def* item : you.equipment.get_slot_items(SLOT_ALL_EQUIPMENT, true))
             if (god_forbids_item(*item, which_god))
-                hated.push_back(item->name(DESC_YOUR, false, false, false));
+                hated.push_back(localise(item->name(DESC_YOUR, false, false, false)));
         if (!hated.empty())
         {
-            return god + " will not accept your worship while you use "
-                   + comma_separated_line(hated.begin(), hated.end(), " or ")
-                   + ".";
+            return make_stringf(localise("%s will not accept your worship while you use %s.").c_str(),
+                god.c_str(), comma_separated_line(hated.begin(), hated.end(), localise(" or ")).c_str());
         }
     }
 
@@ -3439,9 +3430,9 @@ static void _god_welcome_handle_gear()
         item_def wpn = you.props[PARAGON_WEAPON_KEY].get_item();
         if (god_forbids_item(wpn))
         {
-            mprf(MSGCH_GOD, "%s removes the imprint of %s from your paragon.",
-                 god_name(you.religion).c_str(),
-                 wpn.name(DESC_THE).c_str());
+            mprf(MSGCH_GOD, localise("%s removes the imprint of %s from your paragon.").c_str(),
+                 localise(god_name(you.religion)).c_str(),
+                 localise(wpn.name(DESC_THE)).c_str());
             you.props.erase(PARAGON_WEAPON_KEY);
         }
     }
@@ -3716,7 +3707,7 @@ static void _join_gozag()
     if (fee > 0)
     {
         ASSERT(you.gold >= fee);
-        mprf(MSGCH_GOD, "You pay a service fee of %d gold.", fee);
+        mprf(MSGCH_GOD, localise("You pay a service fee of %d gold.").c_str(), fee);
         you.gold -= fee;
         you.attribute[ATTR_GOZAG_GOLD_USED] += fee;
     }
@@ -3815,7 +3806,7 @@ static void _join_makhleb()
 {
     // Re-active our Mark, if we gained one, then abandoned and rejoined.
     if (!makhleb_mark_name().empty())
-        mprf("Your %s burns with power once more.", makhleb_mark_name().c_str());
+        mprf(localise("Your %s burns with power once more.").c_str(), localise(makhleb_mark_name()).c_str());
 
     makhleb_initialize_marks();
 }
