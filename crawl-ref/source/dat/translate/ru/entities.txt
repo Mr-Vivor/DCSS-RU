@@ -67,6 +67,9 @@
 @num@ boomerangs
 @num@ бумерангов
 %%%%
+@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 @num@ broad axes
 @num@ широких топоров
 %%%%
@@ -93,6 +96,9 @@
 %%%%
 @num@ cloaks
 @num@ плащей
+%%%%
+@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 @num@ clubs
 @num@ дубинок
@@ -300,6 +306,12 @@
 %%%%
 @num@ maces
 @num@ булав
+%%%%
+@num@ martyred shades
+@num@ теней мучеников
+%%%%
+@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 @num@ morningstars
 @num@ моргенштернов
@@ -622,6 +634,9 @@
 @num@ ugly things
 @num@ уродливых существ
 %%%%
+@num@ undying armouries
+@num@ неумирающих арсеналов
+%%%%
 @num@ vampires
 @num@ вампиров
 %%%%
@@ -811,6 +826,12 @@ a boomerang
 a boomerang's
 {m}бумеранга
 %%%%
+a boulder beetle
+{m}жук-валун
+%%%%
+a boulder beetle's
+{m}жука-валуна
+%%%%
 a broad axe
 {m}широкий топор
 %%%%
@@ -864,6 +885,12 @@ a cloak
 %%%%
 a cloak's
 {m}плаща
+%%%%
+a clockwork bee
+{f}заводная пчела
+%%%%
+a clockwork bee's
+{f}заводной пчелы
 %%%%
 a club
 {f}дубинка
@@ -1278,6 +1305,18 @@ a mace
 %%%%
 a mace's
 {f}булавы
+%%%%
+a martyred shade
+{f}тень мученика
+%%%%
+a martyred shade's
+{f}тени мученика
+%%%%
+a merfolk avatar
+{m}аватар русалок
+%%%%
+a merfolk avatar's
+{m}аватара русалок
 %%%%
 a morningstar
 {m}моргенштерн
@@ -1921,6 +1960,12 @@ a ugly thing
 a ugly thing's
 {n}уродливого существа
 %%%%
+a undying armoury
+{m}неумирающий арсенал
+%%%%
+a undying armoury's
+{m}неумирающего арсенала
+%%%%
 a vampire
 {m}вампир
 %%%%
@@ -2257,6 +2302,12 @@ an boomerang
 an boomerang's
 {m}бумеранга
 %%%%
+an boulder beetle
+{m}жук-валун
+%%%%
+an boulder beetle's
+{m}жука-валуна
+%%%%
 an broad axe
 {m}широкий топор
 %%%%
@@ -2310,6 +2361,12 @@ an cloak
 %%%%
 an cloak's
 {m}плаща
+%%%%
+an clockwork bee
+{f}заводная пчела
+%%%%
+an clockwork bee's
+{f}заводной пчелы
 %%%%
 an club
 {f}дубинка
@@ -2724,6 +2781,18 @@ an mace
 %%%%
 an mace's
 {f}булавы
+%%%%
+an martyred shade
+{f}тень мученика
+%%%%
+an martyred shade's
+{f}тени мученика
+%%%%
+an merfolk avatar
+{m}аватар русалок
+%%%%
+an merfolk avatar's
+{m}аватара русалок
 %%%%
 an morningstar
 {m}моргенштерн
@@ -3367,6 +3436,12 @@ an ugly thing
 an ugly thing's
 {n}уродливого существа
 %%%%
+an undying armoury
+{m}неумирающий арсенал
+%%%%
+an undying armoury's
+{m}неумирающего арсенала
+%%%%
 an vampire
 {m}вампир
 %%%%
@@ -3589,6 +3664,15 @@ boomerang's
 boomerangs
 {pl}бумеранги
 %%%%
+boulder beetle
+{m}жук-валун
+%%%%
+boulder beetle's
+{m}жука-валуна
+%%%%
+boulder beetles
+{pl}жуки-валуны
+%%%%
 broad axe
 {m}широкий топор
 %%%%
@@ -3669,6 +3753,15 @@ cloak's
 %%%%
 cloaks
 {pl}плащи
+%%%%
+clockwork bee
+{f}заводная пчела
+%%%%
+clockwork bee's
+{f}заводной пчелы
+%%%%
+clockwork bees
+{pl}заводные пчёлы
 %%%%
 club
 {f}дубинка
@@ -4287,6 +4380,24 @@ mace's
 %%%%
 maces
 {pl}булавы
+%%%%
+martyred shade
+{f}тень мученика
+%%%%
+martyred shade's
+{f}тени мученика
+%%%%
+martyred shades
+{pl}тени мучеников
+%%%%
+merfolk avatar
+{m}аватар русалок
+%%%%
+merfolk avatar's
+{m}аватара русалок
+%%%%
+merfolk avatars
+{pl}аватары русалок
 %%%%
 morningstar
 {m}моргенштерн
@@ -5356,6 +5467,15 @@ the boomerang's
 the boomerangs
 {pl}бумеранги
 %%%%
+the boulder beetle
+{m}жук-валун
+%%%%
+the boulder beetle's
+{m}жука-валуна
+%%%%
+the boulder beetles
+{pl}жуки-валуны
+%%%%
 the broad axe
 {m}широкий топор
 %%%%
@@ -5436,6 +5556,15 @@ the cloak's
 %%%%
 the cloaks
 {pl}плащи
+%%%%
+the clockwork bee
+{f}заводная пчела
+%%%%
+the clockwork bee's
+{f}заводной пчелы
+%%%%
+the clockwork bees
+{pl}заводные пчёлы
 %%%%
 the club
 {f}дубинка
@@ -6054,6 +6183,24 @@ the mace's
 %%%%
 the maces
 {pl}булавы
+%%%%
+the martyred shade
+{f}тень мученика
+%%%%
+the martyred shade's
+{f}тени мученика
+%%%%
+the martyred shades
+{pl}тени мучеников
+%%%%
+the merfolk avatar
+{m}аватар русалок
+%%%%
+the merfolk avatar's
+{m}аватара русалок
+%%%%
+the merfolk avatars
+{pl}аватары русалок
 %%%%
 the morningstar
 {m}моргенштерн
@@ -7015,6 +7162,15 @@ the ugly thing's
 the ugly things
 {pl}уродливые существа
 %%%%
+the undying armouries
+{pl}неумирающие арсеналы
+%%%%
+the undying armoury
+{m}неумирающий арсенал
+%%%%
+the undying armoury's
+{m}неумирающего арсенала
+%%%%
 the vampire
 {m}вампир
 %%%%
@@ -7275,6 +7431,15 @@ ugly thing's
 %%%%
 ugly things
 {pl}уродливые существа
+%%%%
+undying armouries
+{pl}неумирающие арсеналы
+%%%%
+undying armoury
+{m}неумирающий арсенал
+%%%%
+undying armoury's
+{m}неумирающего арсенала
 %%%%
 vampire
 {m}вампир
@@ -7645,6 +7810,15 @@ your boomerang's
 your boomerangs
 {pl}бумеранги
 %%%%
+your boulder beetle
+{m}жук-валун
+%%%%
+your boulder beetle's
+{m}жука-валуна
+%%%%
+your boulder beetles
+{pl}жуки-валуны
+%%%%
 your broad axe
 {m}широкий топор
 %%%%
@@ -7725,6 +7899,15 @@ your cloak's
 %%%%
 your cloaks
 {pl}плащи
+%%%%
+your clockwork bee
+{f}заводная пчела
+%%%%
+your clockwork bee's
+{f}заводной пчелы
+%%%%
+your clockwork bees
+{pl}заводные пчёлы
 %%%%
 your club
 {f}дубинка
@@ -8343,6 +8526,24 @@ your mace's
 %%%%
 your maces
 {pl}булавы
+%%%%
+your martyred shade
+{f}тень мученика
+%%%%
+your martyred shade's
+{f}тени мученика
+%%%%
+your martyred shades
+{pl}тени мучеников
+%%%%
+your merfolk avatar
+{m}аватар русалок
+%%%%
+your merfolk avatar's
+{m}аватара русалок
+%%%%
+your merfolk avatars
+{pl}аватары русалок
 %%%%
 your morningstar
 {m}моргенштерн
@@ -9304,6 +9505,15 @@ your ugly thing's
 your ugly things
 {pl}уродливые существа
 %%%%
+your undying armouries
+{pl}неумирающие арсеналы
+%%%%
+your undying armoury
+{m}неумирающий арсенал
+%%%%
+your undying armoury's
+{m}неумирающего арсенала
+%%%%
 your vampire
 {m}вампир
 %%%%
@@ -9541,6 +9751,9 @@ your yaks
 {acc_few}@num@ boomerangs
 @num@ бумеранга
 %%%%
+{acc_few}@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 {acc_few}@num@ broad axes
 @num@ широкого топора
 %%%%
@@ -9567,6 +9780,9 @@ your yaks
 %%%%
 {acc_few}@num@ cloaks
 @num@ плаща
+%%%%
+{acc_few}@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 {acc_few}@num@ clubs
 @num@ дубинки
@@ -9774,6 +9990,12 @@ your yaks
 %%%%
 {acc_few}@num@ maces
 @num@ булавы
+%%%%
+{acc_few}@num@ martyred shades
+@num@ теней мучеников
+%%%%
+{acc_few}@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 {acc_few}@num@ morningstars
 @num@ моргенштерна
@@ -10096,6 +10318,9 @@ your yaks
 {acc_few}@num@ ugly things
 @num@ уродливого существа
 %%%%
+{acc_few}@num@ undying armouries
+@num@ неумирающего арсенала
+%%%%
 {acc_few}@num@ vampires
 @num@ вампиров
 %%%%
@@ -10219,6 +10444,9 @@ your yaks
 {acc_many}@num@ boomerangs
 @num@ бумерангов
 %%%%
+{acc_many}@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 {acc_many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -10245,6 +10473,9 @@ your yaks
 %%%%
 {acc_many}@num@ cloaks
 @num@ плащей
+%%%%
+{acc_many}@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 {acc_many}@num@ clubs
 @num@ дубинок
@@ -10452,6 +10683,12 @@ your yaks
 %%%%
 {acc_many}@num@ maces
 @num@ булав
+%%%%
+{acc_many}@num@ martyred shades
+@num@ теней мучеников
+%%%%
+{acc_many}@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 {acc_many}@num@ morningstars
 @num@ моргенштернов
@@ -10774,6 +11011,9 @@ your yaks
 {acc_many}@num@ ugly things
 @num@ уродливых существ
 %%%%
+{acc_many}@num@ undying armouries
+@num@ неумирающих арсеналов
+%%%%
 {acc_many}@num@ vampires
 @num@ вампиров
 %%%%
@@ -10897,6 +11137,9 @@ your yaks
 {acc_one}@num@ boomerangs
 @num@ бумеранг
 %%%%
+{acc_one}@num@ boulder beetles
+@num@ жука-валуна
+%%%%
 {acc_one}@num@ broad axes
 @num@ широкий топор
 %%%%
@@ -10923,6 +11166,9 @@ your yaks
 %%%%
 {acc_one}@num@ cloaks
 @num@ плащ
+%%%%
+{acc_one}@num@ clockwork bees
+@num@ заводную пчелу
 %%%%
 {acc_one}@num@ clubs
 @num@ дубинку
@@ -11130,6 +11376,12 @@ your yaks
 %%%%
 {acc_one}@num@ maces
 @num@ булаву
+%%%%
+{acc_one}@num@ martyred shades
+@num@ тень мученика
+%%%%
+{acc_one}@num@ merfolk avatars
+@num@ аватара русалок
 %%%%
 {acc_one}@num@ morningstars
 @num@ моргенштерн
@@ -11452,6 +11704,9 @@ your yaks
 {acc_one}@num@ ugly things
 @num@ уродливое существо
 %%%%
+{acc_one}@num@ undying armouries
+@num@ неумирающий арсенал
+%%%%
 {acc_one}@num@ vampires
 @num@ вампира
 %%%%
@@ -11575,6 +11830,9 @@ your yaks
 {acc}a boomerang
 {m}бумеранг
 %%%%
+{acc}a boulder beetle
+{m}жука-валуна
+%%%%
 {acc}a broad axe
 {m}широкий топор
 %%%%
@@ -11601,6 +11859,9 @@ your yaks
 %%%%
 {acc}a cloak
 {m}плащ
+%%%%
+{acc}a clockwork bee
+{f}заводную пчелу
 %%%%
 {acc}a club
 {f}дубинку
@@ -11808,6 +12069,12 @@ your yaks
 %%%%
 {acc}a mace
 {f}булаву
+%%%%
+{acc}a martyred shade
+{f}тень мученика
+%%%%
+{acc}a merfolk avatar
+{m}аватара русалок
 %%%%
 {acc}a morningstar
 {m}моргенштерн
@@ -12130,6 +12397,9 @@ your yaks
 {acc}a ugly thing
 {n}уродливое существо
 %%%%
+{acc}a undying armoury
+{m}неумирающий арсенал
+%%%%
 {acc}a vampire
 {m}вампира
 %%%%
@@ -12313,6 +12583,9 @@ your yaks
 {acc}an boomerang
 {m}бумеранг
 %%%%
+{acc}an boulder beetle
+{m}жука-валуна
+%%%%
 {acc}an broad axe
 {m}широкий топор
 %%%%
@@ -12339,6 +12612,9 @@ your yaks
 %%%%
 {acc}an cloak
 {m}плащ
+%%%%
+{acc}an clockwork bee
+{f}заводную пчелу
 %%%%
 {acc}an club
 {f}дубинку
@@ -12546,6 +12822,12 @@ your yaks
 %%%%
 {acc}an mace
 {f}булаву
+%%%%
+{acc}an martyred shade
+{f}тень мученика
+%%%%
+{acc}an merfolk avatar
+{m}аватара русалок
 %%%%
 {acc}an morningstar
 {m}моргенштерн
@@ -12868,6 +13150,9 @@ your yaks
 {acc}an ugly thing
 {n}уродливое существо
 %%%%
+{acc}an undying armoury
+{m}неумирающий арсенал
+%%%%
 {acc}an vampire
 {m}вампира
 %%%%
@@ -12997,6 +13282,12 @@ your yaks
 {acc}boomerangs
 {pl}бумеранги
 %%%%
+{acc}boulder beetle
+{m}жука-валуна
+%%%%
+{acc}boulder beetles
+{pl}жуков-валунов
+%%%%
 {acc}broad axe
 {m}широкий топор
 %%%%
@@ -13050,6 +13341,12 @@ your yaks
 %%%%
 {acc}cloaks
 {pl}плащи
+%%%%
+{acc}clockwork bee
+{f}заводную пчелу
+%%%%
+{acc}clockwork bees
+{pl}заводных пчёл
 %%%%
 {acc}club
 {f}дубинку
@@ -13461,6 +13758,18 @@ your yaks
 %%%%
 {acc}maces
 {pl}булавы
+%%%%
+{acc}martyred shade
+{f}тень мученика
+%%%%
+{acc}martyred shades
+{pl}теней мучеников
+%%%%
+{acc}merfolk avatar
+{m}аватара русалок
+%%%%
+{acc}merfolk avatars
+{pl}аватаров русалок
 %%%%
 {acc}morningstar
 {m}моргенштерн
@@ -14173,6 +14482,12 @@ your yaks
 {acc}the boomerangs
 {pl}бумеранги
 %%%%
+{acc}the boulder beetle
+{m}жука-валуна
+%%%%
+{acc}the boulder beetles
+{pl}жуков-валунов
+%%%%
 {acc}the broad axe
 {m}широкий топор
 %%%%
@@ -14226,6 +14541,12 @@ your yaks
 %%%%
 {acc}the cloaks
 {pl}плащи
+%%%%
+{acc}the clockwork bee
+{f}заводную пчелу
+%%%%
+{acc}the clockwork bees
+{pl}заводных пчёл
 %%%%
 {acc}the club
 {f}дубинку
@@ -14637,6 +14958,18 @@ your yaks
 %%%%
 {acc}the maces
 {pl}булавы
+%%%%
+{acc}the martyred shade
+{f}тень мученика
+%%%%
+{acc}the martyred shades
+{pl}теней мучеников
+%%%%
+{acc}the merfolk avatar
+{m}аватара русалок
+%%%%
+{acc}the merfolk avatars
+{pl}аватаров русалок
 %%%%
 {acc}the morningstar
 {m}моргенштерн
@@ -15277,6 +15610,12 @@ your yaks
 {acc}the ugly things
 {pl}уродливые существа
 %%%%
+{acc}the undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{acc}the undying armoury
+{m}неумирающий арсенал
+%%%%
 {acc}the vampire
 {m}вампира
 %%%%
@@ -15450,6 +15789,12 @@ your yaks
 %%%%
 {acc}ugly things
 {pl}уродливые существа
+%%%%
+{acc}undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{acc}undying armoury
+{m}неумирающий арсенал
 %%%%
 {acc}vampire
 {m}вампира
@@ -15697,6 +16042,12 @@ your yaks
 {acc}your boomerangs
 {pl}бумеранги
 %%%%
+{acc}your boulder beetle
+{m}жука-валуна
+%%%%
+{acc}your boulder beetles
+{pl}жуков-валунов
+%%%%
 {acc}your broad axe
 {m}широкий топор
 %%%%
@@ -15750,6 +16101,12 @@ your yaks
 %%%%
 {acc}your cloaks
 {pl}плащи
+%%%%
+{acc}your clockwork bee
+{f}заводную пчелу
+%%%%
+{acc}your clockwork bees
+{pl}заводных пчёл
 %%%%
 {acc}your club
 {f}дубинку
@@ -16161,6 +16518,18 @@ your yaks
 %%%%
 {acc}your maces
 {pl}булавы
+%%%%
+{acc}your martyred shade
+{f}тень мученика
+%%%%
+{acc}your martyred shades
+{pl}теней мучеников
+%%%%
+{acc}your merfolk avatar
+{m}аватара русалок
+%%%%
+{acc}your merfolk avatars
+{pl}аватаров русалок
 %%%%
 {acc}your morningstar
 {m}моргенштерн
@@ -16801,6 +17170,12 @@ your yaks
 {acc}your ugly things
 {pl}уродливые существа
 %%%%
+{acc}your undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{acc}your undying armoury
+{m}неумирающий арсенал
+%%%%
 {acc}your vampire
 {m}вампира
 %%%%
@@ -16981,6 +17356,9 @@ your yaks
 {dat_few}@num@ boomerangs
 @num@ бумерангам
 %%%%
+{dat_few}@num@ boulder beetles
+@num@ жукам-валунам
+%%%%
 {dat_few}@num@ broad axes
 @num@ широким топорам
 %%%%
@@ -17007,6 +17385,9 @@ your yaks
 %%%%
 {dat_few}@num@ cloaks
 @num@ плащам
+%%%%
+{dat_few}@num@ clockwork bees
+@num@ заводным пчёлам
 %%%%
 {dat_few}@num@ clubs
 @num@ дубинкам
@@ -17214,6 +17595,12 @@ your yaks
 %%%%
 {dat_few}@num@ maces
 @num@ булавам
+%%%%
+{dat_few}@num@ martyred shades
+@num@ теням мучеников
+%%%%
+{dat_few}@num@ merfolk avatars
+@num@ аватарам русалок
 %%%%
 {dat_few}@num@ morningstars
 @num@ моргенштернам
@@ -17536,6 +17923,9 @@ your yaks
 {dat_few}@num@ ugly things
 @num@ уродливым существам
 %%%%
+{dat_few}@num@ undying armouries
+@num@ неумирающим арсеналам
+%%%%
 {dat_few}@num@ vampires
 @num@ вампирам
 %%%%
@@ -17659,6 +18049,9 @@ your yaks
 {dat_many}@num@ boomerangs
 @num@ бумерангам
 %%%%
+{dat_many}@num@ boulder beetles
+@num@ жукам-валунам
+%%%%
 {dat_many}@num@ broad axes
 @num@ широким топорам
 %%%%
@@ -17685,6 +18078,9 @@ your yaks
 %%%%
 {dat_many}@num@ cloaks
 @num@ плащам
+%%%%
+{dat_many}@num@ clockwork bees
+@num@ заводным пчёлам
 %%%%
 {dat_many}@num@ clubs
 @num@ дубинкам
@@ -17892,6 +18288,12 @@ your yaks
 %%%%
 {dat_many}@num@ maces
 @num@ булавам
+%%%%
+{dat_many}@num@ martyred shades
+@num@ теням мучеников
+%%%%
+{dat_many}@num@ merfolk avatars
+@num@ аватарам русалок
 %%%%
 {dat_many}@num@ morningstars
 @num@ моргенштернам
@@ -18214,6 +18616,9 @@ your yaks
 {dat_many}@num@ ugly things
 @num@ уродливым существам
 %%%%
+{dat_many}@num@ undying armouries
+@num@ неумирающим арсеналам
+%%%%
 {dat_many}@num@ vampires
 @num@ вампирам
 %%%%
@@ -18337,6 +18742,9 @@ your yaks
 {dat_one}@num@ boomerangs
 @num@ бумерангу
 %%%%
+{dat_one}@num@ boulder beetles
+@num@ жуку-валуну
+%%%%
 {dat_one}@num@ broad axes
 @num@ широкому топору
 %%%%
@@ -18363,6 +18771,9 @@ your yaks
 %%%%
 {dat_one}@num@ cloaks
 @num@ плащу
+%%%%
+{dat_one}@num@ clockwork bees
+@num@ заводной пчеле
 %%%%
 {dat_one}@num@ clubs
 @num@ дубинке
@@ -18570,6 +18981,12 @@ your yaks
 %%%%
 {dat_one}@num@ maces
 @num@ булаве
+%%%%
+{dat_one}@num@ martyred shades
+@num@ тени мученика
+%%%%
+{dat_one}@num@ merfolk avatars
+@num@ аватару русалок
 %%%%
 {dat_one}@num@ morningstars
 @num@ моргенштерну
@@ -18892,6 +19309,9 @@ your yaks
 {dat_one}@num@ ugly things
 @num@ уродливому существу
 %%%%
+{dat_one}@num@ undying armouries
+@num@ неумирающему арсеналу
+%%%%
 {dat_one}@num@ vampires
 @num@ вампиру
 %%%%
@@ -19015,6 +19435,9 @@ your yaks
 {dat}a boomerang
 {m}бумерангу
 %%%%
+{dat}a boulder beetle
+{m}жуку-валуну
+%%%%
 {dat}a broad axe
 {m}широкому топору
 %%%%
@@ -19041,6 +19464,9 @@ your yaks
 %%%%
 {dat}a cloak
 {m}плащу
+%%%%
+{dat}a clockwork bee
+{f}заводной пчеле
 %%%%
 {dat}a club
 {f}дубинке
@@ -19248,6 +19674,12 @@ your yaks
 %%%%
 {dat}a mace
 {f}булаве
+%%%%
+{dat}a martyred shade
+{f}тени мученика
+%%%%
+{dat}a merfolk avatar
+{m}аватару русалок
 %%%%
 {dat}a morningstar
 {m}моргенштерну
@@ -19570,6 +20002,9 @@ your yaks
 {dat}a ugly thing
 {n}уродливому существу
 %%%%
+{dat}a undying armoury
+{m}неумирающему арсеналу
+%%%%
 {dat}a vampire
 {m}вампиру
 %%%%
@@ -19753,6 +20188,9 @@ your yaks
 {dat}an boomerang
 {m}бумерангу
 %%%%
+{dat}an boulder beetle
+{m}жуку-валуну
+%%%%
 {dat}an broad axe
 {m}широкому топору
 %%%%
@@ -19779,6 +20217,9 @@ your yaks
 %%%%
 {dat}an cloak
 {m}плащу
+%%%%
+{dat}an clockwork bee
+{f}заводной пчеле
 %%%%
 {dat}an club
 {f}дубинке
@@ -19986,6 +20427,12 @@ your yaks
 %%%%
 {dat}an mace
 {f}булаве
+%%%%
+{dat}an martyred shade
+{f}тени мученика
+%%%%
+{dat}an merfolk avatar
+{m}аватару русалок
 %%%%
 {dat}an morningstar
 {m}моргенштерну
@@ -20308,6 +20755,9 @@ your yaks
 {dat}an ugly thing
 {n}уродливому существу
 %%%%
+{dat}an undying armoury
+{m}неумирающему арсеналу
+%%%%
 {dat}an vampire
 {m}вампиру
 %%%%
@@ -20437,6 +20887,12 @@ your yaks
 {dat}boomerangs
 {pl}бумерангам
 %%%%
+{dat}boulder beetle
+{m}жуку-валуну
+%%%%
+{dat}boulder beetles
+{pl}жукам-валунам
+%%%%
 {dat}broad axe
 {m}широкому топору
 %%%%
@@ -20490,6 +20946,12 @@ your yaks
 %%%%
 {dat}cloaks
 {pl}плащам
+%%%%
+{dat}clockwork bee
+{f}заводной пчеле
+%%%%
+{dat}clockwork bees
+{pl}заводным пчёлам
 %%%%
 {dat}club
 {f}дубинке
@@ -20901,6 +21363,18 @@ your yaks
 %%%%
 {dat}maces
 {pl}булавам
+%%%%
+{dat}martyred shade
+{f}тени мученика
+%%%%
+{dat}martyred shades
+{pl}теням мучеников
+%%%%
+{dat}merfolk avatar
+{m}аватару русалок
+%%%%
+{dat}merfolk avatars
+{pl}аватарам русалок
 %%%%
 {dat}morningstar
 {m}моргенштерну
@@ -21613,6 +22087,12 @@ your yaks
 {dat}the boomerangs
 {pl}бумерангам
 %%%%
+{dat}the boulder beetle
+{m}жуку-валуну
+%%%%
+{dat}the boulder beetles
+{pl}жукам-валунам
+%%%%
 {dat}the broad axe
 {m}широкому топору
 %%%%
@@ -21666,6 +22146,12 @@ your yaks
 %%%%
 {dat}the cloaks
 {pl}плащам
+%%%%
+{dat}the clockwork bee
+{f}заводной пчеле
+%%%%
+{dat}the clockwork bees
+{pl}заводным пчёлам
 %%%%
 {dat}the club
 {f}дубинке
@@ -22077,6 +22563,18 @@ your yaks
 %%%%
 {dat}the maces
 {pl}булавам
+%%%%
+{dat}the martyred shade
+{f}тени мученика
+%%%%
+{dat}the martyred shades
+{pl}теням мучеников
+%%%%
+{dat}the merfolk avatar
+{m}аватару русалок
+%%%%
+{dat}the merfolk avatars
+{pl}аватарам русалок
 %%%%
 {dat}the morningstar
 {m}моргенштерну
@@ -22717,6 +23215,12 @@ your yaks
 {dat}the ugly things
 {pl}уродливым существам
 %%%%
+{dat}the undying armouries
+{pl}неумирающим арсеналам
+%%%%
+{dat}the undying armoury
+{m}неумирающему арсеналу
+%%%%
 {dat}the vampire
 {m}вампиру
 %%%%
@@ -22890,6 +23394,12 @@ your yaks
 %%%%
 {dat}ugly things
 {pl}уродливым существам
+%%%%
+{dat}undying armouries
+{pl}неумирающим арсеналам
+%%%%
+{dat}undying armoury
+{m}неумирающему арсеналу
 %%%%
 {dat}vampire
 {m}вампиру
@@ -23137,6 +23647,12 @@ your yaks
 {dat}your boomerangs
 {pl}бумерангам
 %%%%
+{dat}your boulder beetle
+{m}жуку-валуну
+%%%%
+{dat}your boulder beetles
+{pl}жукам-валунам
+%%%%
 {dat}your broad axe
 {m}широкому топору
 %%%%
@@ -23190,6 +23706,12 @@ your yaks
 %%%%
 {dat}your cloaks
 {pl}плащам
+%%%%
+{dat}your clockwork bee
+{f}заводной пчеле
+%%%%
+{dat}your clockwork bees
+{pl}заводным пчёлам
 %%%%
 {dat}your club
 {f}дубинке
@@ -23601,6 +24123,18 @@ your yaks
 %%%%
 {dat}your maces
 {pl}булавам
+%%%%
+{dat}your martyred shade
+{f}тени мученика
+%%%%
+{dat}your martyred shades
+{pl}теням мучеников
+%%%%
+{dat}your merfolk avatar
+{m}аватару русалок
+%%%%
+{dat}your merfolk avatars
+{pl}аватарам русалок
 %%%%
 {dat}your morningstar
 {m}моргенштерну
@@ -24241,6 +24775,12 @@ your yaks
 {dat}your ugly things
 {pl}уродливым существам
 %%%%
+{dat}your undying armouries
+{pl}неумирающим арсеналам
+%%%%
+{dat}your undying armoury
+{m}неумирающему арсеналу
+%%%%
 {dat}your vampire
 {m}вампиру
 %%%%
@@ -24421,6 +24961,9 @@ your yaks
 {few}@num@ boomerangs
 @num@ бумеранга
 %%%%
+{few}@num@ boulder beetles
+@num@ жука-валуна
+%%%%
 {few}@num@ broad axes
 @num@ широкого топора
 %%%%
@@ -24447,6 +24990,9 @@ your yaks
 %%%%
 {few}@num@ cloaks
 @num@ плаща
+%%%%
+{few}@num@ clockwork bees
+@num@ заводные пчелы
 %%%%
 {few}@num@ clubs
 @num@ дубинки
@@ -24654,6 +25200,12 @@ your yaks
 %%%%
 {few}@num@ maces
 @num@ булавы
+%%%%
+{few}@num@ martyred shades
+@num@ тени мучеников
+%%%%
+{few}@num@ merfolk avatars
+@num@ аватара русалок
 %%%%
 {few}@num@ morningstars
 @num@ моргенштерна
@@ -24976,6 +25528,9 @@ your yaks
 {few}@num@ ugly things
 @num@ уродливого существа
 %%%%
+{few}@num@ undying armouries
+@num@ неумирающих арсенала
+%%%%
 {few}@num@ vampires
 @num@ вампира
 %%%%
@@ -25099,6 +25654,9 @@ your yaks
 {gen_few}@num@ boomerangs
 @num@ бумерангов
 %%%%
+{gen_few}@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 {gen_few}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -25125,6 +25683,9 @@ your yaks
 %%%%
 {gen_few}@num@ cloaks
 @num@ плащей
+%%%%
+{gen_few}@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 {gen_few}@num@ clubs
 @num@ дубинок
@@ -25332,6 +25893,12 @@ your yaks
 %%%%
 {gen_few}@num@ maces
 @num@ булав
+%%%%
+{gen_few}@num@ martyred shades
+@num@ теней мучеников
+%%%%
+{gen_few}@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 {gen_few}@num@ morningstars
 @num@ моргенштернов
@@ -25654,6 +26221,9 @@ your yaks
 {gen_few}@num@ ugly things
 @num@ уродливых существ
 %%%%
+{gen_few}@num@ undying armouries
+@num@ неумирающих арсеналов
+%%%%
 {gen_few}@num@ vampires
 @num@ вампиров
 %%%%
@@ -25777,6 +26347,9 @@ your yaks
 {gen_many}@num@ boomerangs
 @num@ бумерангов
 %%%%
+{gen_many}@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 {gen_many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -25803,6 +26376,9 @@ your yaks
 %%%%
 {gen_many}@num@ cloaks
 @num@ плащей
+%%%%
+{gen_many}@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 {gen_many}@num@ clubs
 @num@ дубинок
@@ -26010,6 +26586,12 @@ your yaks
 %%%%
 {gen_many}@num@ maces
 @num@ булав
+%%%%
+{gen_many}@num@ martyred shades
+@num@ теней мучеников
+%%%%
+{gen_many}@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 {gen_many}@num@ morningstars
 @num@ моргенштернов
@@ -26332,6 +26914,9 @@ your yaks
 {gen_many}@num@ ugly things
 @num@ уродливых существ
 %%%%
+{gen_many}@num@ undying armouries
+@num@ неумирающих арсеналов
+%%%%
 {gen_many}@num@ vampires
 @num@ вампиров
 %%%%
@@ -26455,6 +27040,9 @@ your yaks
 {gen_one}@num@ boomerangs
 @num@ бумеранга
 %%%%
+{gen_one}@num@ boulder beetles
+@num@ жука-валуна
+%%%%
 {gen_one}@num@ broad axes
 @num@ широкого топора
 %%%%
@@ -26481,6 +27069,9 @@ your yaks
 %%%%
 {gen_one}@num@ cloaks
 @num@ плаща
+%%%%
+{gen_one}@num@ clockwork bees
+@num@ заводной пчелы
 %%%%
 {gen_one}@num@ clubs
 @num@ дубинки
@@ -26688,6 +27279,12 @@ your yaks
 %%%%
 {gen_one}@num@ maces
 @num@ булавы
+%%%%
+{gen_one}@num@ martyred shades
+@num@ тени мученика
+%%%%
+{gen_one}@num@ merfolk avatars
+@num@ аватара русалок
 %%%%
 {gen_one}@num@ morningstars
 @num@ моргенштерна
@@ -27010,6 +27607,9 @@ your yaks
 {gen_one}@num@ ugly things
 @num@ уродливого существа
 %%%%
+{gen_one}@num@ undying armouries
+@num@ неумирающего арсенала
+%%%%
 {gen_one}@num@ vampires
 @num@ вампира
 %%%%
@@ -27133,6 +27733,9 @@ your yaks
 {gen}a boomerang
 {m}бумеранга
 %%%%
+{gen}a boulder beetle
+{m}жука-валуна
+%%%%
 {gen}a broad axe
 {m}широкого топора
 %%%%
@@ -27159,6 +27762,9 @@ your yaks
 %%%%
 {gen}a cloak
 {m}плаща
+%%%%
+{gen}a clockwork bee
+{f}заводной пчелы
 %%%%
 {gen}a club
 {f}дубинки
@@ -27366,6 +27972,12 @@ your yaks
 %%%%
 {gen}a mace
 {f}булавы
+%%%%
+{gen}a martyred shade
+{f}тени мученика
+%%%%
+{gen}a merfolk avatar
+{m}аватара русалок
 %%%%
 {gen}a morningstar
 {m}моргенштерна
@@ -27688,6 +28300,9 @@ your yaks
 {gen}a ugly thing
 {n}уродливого существа
 %%%%
+{gen}a undying armoury
+{m}неумирающего арсенала
+%%%%
 {gen}a vampire
 {m}вампира
 %%%%
@@ -27871,6 +28486,9 @@ your yaks
 {gen}an boomerang
 {m}бумеранга
 %%%%
+{gen}an boulder beetle
+{m}жука-валуна
+%%%%
 {gen}an broad axe
 {m}широкого топора
 %%%%
@@ -27897,6 +28515,9 @@ your yaks
 %%%%
 {gen}an cloak
 {m}плаща
+%%%%
+{gen}an clockwork bee
+{f}заводной пчелы
 %%%%
 {gen}an club
 {f}дубинки
@@ -28104,6 +28725,12 @@ your yaks
 %%%%
 {gen}an mace
 {f}булавы
+%%%%
+{gen}an martyred shade
+{f}тени мученика
+%%%%
+{gen}an merfolk avatar
+{m}аватара русалок
 %%%%
 {gen}an morningstar
 {m}моргенштерна
@@ -28426,6 +29053,9 @@ your yaks
 {gen}an ugly thing
 {n}уродливого существа
 %%%%
+{gen}an undying armoury
+{m}неумирающего арсенала
+%%%%
 {gen}an vampire
 {m}вампира
 %%%%
@@ -28555,6 +29185,12 @@ your yaks
 {gen}boomerangs
 {pl}бумерангов
 %%%%
+{gen}boulder beetle
+{m}жука-валуна
+%%%%
+{gen}boulder beetles
+{pl}жуков-валунов
+%%%%
 {gen}broad axe
 {m}широкого топора
 %%%%
@@ -28608,6 +29244,12 @@ your yaks
 %%%%
 {gen}cloaks
 {pl}плащей
+%%%%
+{gen}clockwork bee
+{f}заводной пчелы
+%%%%
+{gen}clockwork bees
+{pl}заводных пчёл
 %%%%
 {gen}club
 {f}дубинки
@@ -29019,6 +29661,18 @@ your yaks
 %%%%
 {gen}maces
 {pl}булав
+%%%%
+{gen}martyred shade
+{f}тени мученика
+%%%%
+{gen}martyred shades
+{pl}теней мучеников
+%%%%
+{gen}merfolk avatar
+{m}аватара русалок
+%%%%
+{gen}merfolk avatars
+{pl}аватаров русалок
 %%%%
 {gen}morningstar
 {m}моргенштерна
@@ -29731,6 +30385,12 @@ your yaks
 {gen}the boomerangs
 {pl}бумерангов
 %%%%
+{gen}the boulder beetle
+{m}жука-валуна
+%%%%
+{gen}the boulder beetles
+{pl}жуков-валунов
+%%%%
 {gen}the broad axe
 {m}широкого топора
 %%%%
@@ -29784,6 +30444,12 @@ your yaks
 %%%%
 {gen}the cloaks
 {pl}плащей
+%%%%
+{gen}the clockwork bee
+{f}заводной пчелы
+%%%%
+{gen}the clockwork bees
+{pl}заводных пчёл
 %%%%
 {gen}the club
 {f}дубинки
@@ -30195,6 +30861,18 @@ your yaks
 %%%%
 {gen}the maces
 {pl}булав
+%%%%
+{gen}the martyred shade
+{f}тени мученика
+%%%%
+{gen}the martyred shades
+{pl}теней мучеников
+%%%%
+{gen}the merfolk avatar
+{m}аватара русалок
+%%%%
+{gen}the merfolk avatars
+{pl}аватаров русалок
 %%%%
 {gen}the morningstar
 {m}моргенштерна
@@ -30835,6 +31513,12 @@ your yaks
 {gen}the ugly things
 {pl}уродливых существ
 %%%%
+{gen}the undying armouries
+{pl}неумирающих арсеналов
+%%%%
+{gen}the undying armoury
+{m}неумирающего арсенала
+%%%%
 {gen}the vampire
 {m}вампира
 %%%%
@@ -31008,6 +31692,12 @@ your yaks
 %%%%
 {gen}ugly things
 {pl}уродливых существ
+%%%%
+{gen}undying armouries
+{pl}неумирающих арсеналов
+%%%%
+{gen}undying armoury
+{m}неумирающего арсенала
 %%%%
 {gen}vampire
 {m}вампира
@@ -31255,6 +31945,12 @@ your yaks
 {gen}your boomerangs
 {pl}бумерангов
 %%%%
+{gen}your boulder beetle
+{m}жука-валуна
+%%%%
+{gen}your boulder beetles
+{pl}жуков-валунов
+%%%%
 {gen}your broad axe
 {m}широкого топора
 %%%%
@@ -31308,6 +32004,12 @@ your yaks
 %%%%
 {gen}your cloaks
 {pl}плащей
+%%%%
+{gen}your clockwork bee
+{f}заводной пчелы
+%%%%
+{gen}your clockwork bees
+{pl}заводных пчёл
 %%%%
 {gen}your club
 {f}дубинки
@@ -31719,6 +32421,18 @@ your yaks
 %%%%
 {gen}your maces
 {pl}булав
+%%%%
+{gen}your martyred shade
+{f}тени мученика
+%%%%
+{gen}your martyred shades
+{pl}теней мучеников
+%%%%
+{gen}your merfolk avatar
+{m}аватара русалок
+%%%%
+{gen}your merfolk avatars
+{pl}аватаров русалок
 %%%%
 {gen}your morningstar
 {m}моргенштерна
@@ -32359,6 +33073,12 @@ your yaks
 {gen}your ugly things
 {pl}уродливых существ
 %%%%
+{gen}your undying armouries
+{pl}неумирающих арсеналов
+%%%%
+{gen}your undying armoury
+{m}неумирающего арсенала
+%%%%
 {gen}your vampire
 {m}вампира
 %%%%
@@ -32539,6 +33259,9 @@ your yaks
 {ins_few}@num@ boomerangs
 @num@ бумерангами
 %%%%
+{ins_few}@num@ boulder beetles
+@num@ жуками-валунами
+%%%%
 {ins_few}@num@ broad axes
 @num@ широкими топорами
 %%%%
@@ -32565,6 +33288,9 @@ your yaks
 %%%%
 {ins_few}@num@ cloaks
 @num@ плащами
+%%%%
+{ins_few}@num@ clockwork bees
+@num@ заводными пчёлами
 %%%%
 {ins_few}@num@ clubs
 @num@ дубинками
@@ -32772,6 +33498,12 @@ your yaks
 %%%%
 {ins_few}@num@ maces
 @num@ булавами
+%%%%
+{ins_few}@num@ martyred shades
+@num@ тенями мучеников
+%%%%
+{ins_few}@num@ merfolk avatars
+@num@ аватарами русалок
 %%%%
 {ins_few}@num@ morningstars
 @num@ моргенштернами
@@ -33094,6 +33826,9 @@ your yaks
 {ins_few}@num@ ugly things
 @num@ уродливыми существами
 %%%%
+{ins_few}@num@ undying armouries
+@num@ неумирающими арсеналами
+%%%%
 {ins_few}@num@ vampires
 @num@ вампирами
 %%%%
@@ -33217,6 +33952,9 @@ your yaks
 {ins_many}@num@ boomerangs
 @num@ бумерангами
 %%%%
+{ins_many}@num@ boulder beetles
+@num@ жуками-валунами
+%%%%
 {ins_many}@num@ broad axes
 @num@ широкими топорами
 %%%%
@@ -33243,6 +33981,9 @@ your yaks
 %%%%
 {ins_many}@num@ cloaks
 @num@ плащами
+%%%%
+{ins_many}@num@ clockwork bees
+@num@ заводными пчёлами
 %%%%
 {ins_many}@num@ clubs
 @num@ дубинками
@@ -33450,6 +34191,12 @@ your yaks
 %%%%
 {ins_many}@num@ maces
 @num@ булавами
+%%%%
+{ins_many}@num@ martyred shades
+@num@ тенями мучеников
+%%%%
+{ins_many}@num@ merfolk avatars
+@num@ аватарами русалок
 %%%%
 {ins_many}@num@ morningstars
 @num@ моргенштернами
@@ -33772,6 +34519,9 @@ your yaks
 {ins_many}@num@ ugly things
 @num@ уродливыми существами
 %%%%
+{ins_many}@num@ undying armouries
+@num@ неумирающими арсеналами
+%%%%
 {ins_many}@num@ vampires
 @num@ вампирами
 %%%%
@@ -33895,6 +34645,9 @@ your yaks
 {ins_one}@num@ boomerangs
 @num@ бумерангом
 %%%%
+{ins_one}@num@ boulder beetles
+@num@ жуком-валуном
+%%%%
 {ins_one}@num@ broad axes
 @num@ широким топором
 %%%%
@@ -33921,6 +34674,9 @@ your yaks
 %%%%
 {ins_one}@num@ cloaks
 @num@ плащом
+%%%%
+{ins_one}@num@ clockwork bees
+@num@ заводной пчелой
 %%%%
 {ins_one}@num@ clubs
 @num@ дубинкой
@@ -34128,6 +34884,12 @@ your yaks
 %%%%
 {ins_one}@num@ maces
 @num@ булавой
+%%%%
+{ins_one}@num@ martyred shades
+@num@ тенью мученика
+%%%%
+{ins_one}@num@ merfolk avatars
+@num@ аватаром русалок
 %%%%
 {ins_one}@num@ morningstars
 @num@ моргенштерном
@@ -34450,6 +35212,9 @@ your yaks
 {ins_one}@num@ ugly things
 @num@ уродливым существом
 %%%%
+{ins_one}@num@ undying armouries
+@num@ неумирающим арсеналом
+%%%%
 {ins_one}@num@ vampires
 @num@ вампиром
 %%%%
@@ -34573,6 +35338,9 @@ your yaks
 {ins}a boomerang
 {m}бумерангом
 %%%%
+{ins}a boulder beetle
+{m}жуком-валуном
+%%%%
 {ins}a broad axe
 {m}широким топором
 %%%%
@@ -34599,6 +35367,9 @@ your yaks
 %%%%
 {ins}a cloak
 {m}плащом
+%%%%
+{ins}a clockwork bee
+{f}заводной пчелой
 %%%%
 {ins}a club
 {f}дубинкой
@@ -34806,6 +35577,12 @@ your yaks
 %%%%
 {ins}a mace
 {f}булавой
+%%%%
+{ins}a martyred shade
+{f}тенью мученика
+%%%%
+{ins}a merfolk avatar
+{m}аватаром русалок
 %%%%
 {ins}a morningstar
 {m}моргенштерном
@@ -35128,6 +35905,9 @@ your yaks
 {ins}a ugly thing
 {n}уродливым существом
 %%%%
+{ins}a undying armoury
+{m}неумирающим арсеналом
+%%%%
 {ins}a vampire
 {m}вампиром
 %%%%
@@ -35311,6 +36091,9 @@ your yaks
 {ins}an boomerang
 {m}бумерангом
 %%%%
+{ins}an boulder beetle
+{m}жуком-валуном
+%%%%
 {ins}an broad axe
 {m}широким топором
 %%%%
@@ -35337,6 +36120,9 @@ your yaks
 %%%%
 {ins}an cloak
 {m}плащом
+%%%%
+{ins}an clockwork bee
+{f}заводной пчелой
 %%%%
 {ins}an club
 {f}дубинкой
@@ -35544,6 +36330,12 @@ your yaks
 %%%%
 {ins}an mace
 {f}булавой
+%%%%
+{ins}an martyred shade
+{f}тенью мученика
+%%%%
+{ins}an merfolk avatar
+{m}аватаром русалок
 %%%%
 {ins}an morningstar
 {m}моргенштерном
@@ -35866,6 +36658,9 @@ your yaks
 {ins}an ugly thing
 {n}уродливым существом
 %%%%
+{ins}an undying armoury
+{m}неумирающим арсеналом
+%%%%
 {ins}an vampire
 {m}вампиром
 %%%%
@@ -35995,6 +36790,12 @@ your yaks
 {ins}boomerangs
 {pl}бумерангами
 %%%%
+{ins}boulder beetle
+{m}жуком-валуном
+%%%%
+{ins}boulder beetles
+{pl}жуками-валунами
+%%%%
 {ins}broad axe
 {m}широким топором
 %%%%
@@ -36048,6 +36849,12 @@ your yaks
 %%%%
 {ins}cloaks
 {pl}плащами
+%%%%
+{ins}clockwork bee
+{f}заводной пчелой
+%%%%
+{ins}clockwork bees
+{pl}заводными пчёлами
 %%%%
 {ins}club
 {f}дубинкой
@@ -36459,6 +37266,18 @@ your yaks
 %%%%
 {ins}maces
 {pl}булавами
+%%%%
+{ins}martyred shade
+{f}тенью мученика
+%%%%
+{ins}martyred shades
+{pl}тенями мучеников
+%%%%
+{ins}merfolk avatar
+{m}аватаром русалок
+%%%%
+{ins}merfolk avatars
+{pl}аватарами русалок
 %%%%
 {ins}morningstar
 {m}моргенштерном
@@ -37171,6 +37990,12 @@ your yaks
 {ins}the boomerangs
 {pl}бумерангами
 %%%%
+{ins}the boulder beetle
+{m}жуком-валуном
+%%%%
+{ins}the boulder beetles
+{pl}жуками-валунами
+%%%%
 {ins}the broad axe
 {m}широким топором
 %%%%
@@ -37224,6 +38049,12 @@ your yaks
 %%%%
 {ins}the cloaks
 {pl}плащами
+%%%%
+{ins}the clockwork bee
+{f}заводной пчелой
+%%%%
+{ins}the clockwork bees
+{pl}заводными пчёлами
 %%%%
 {ins}the club
 {f}дубинкой
@@ -37635,6 +38466,18 @@ your yaks
 %%%%
 {ins}the maces
 {pl}булавами
+%%%%
+{ins}the martyred shade
+{f}тенью мученика
+%%%%
+{ins}the martyred shades
+{pl}тенями мучеников
+%%%%
+{ins}the merfolk avatar
+{m}аватаром русалок
+%%%%
+{ins}the merfolk avatars
+{pl}аватарами русалок
 %%%%
 {ins}the morningstar
 {m}моргенштерном
@@ -38275,6 +39118,12 @@ your yaks
 {ins}the ugly things
 {pl}уродливыми существами
 %%%%
+{ins}the undying armouries
+{pl}неумирающими арсеналами
+%%%%
+{ins}the undying armoury
+{m}неумирающим арсеналом
+%%%%
 {ins}the vampire
 {m}вампиром
 %%%%
@@ -38448,6 +39297,12 @@ your yaks
 %%%%
 {ins}ugly things
 {pl}уродливыми существами
+%%%%
+{ins}undying armouries
+{pl}неумирающими арсеналами
+%%%%
+{ins}undying armoury
+{m}неумирающим арсеналом
 %%%%
 {ins}vampire
 {m}вампиром
@@ -38695,6 +39550,12 @@ your yaks
 {ins}your boomerangs
 {pl}бумерангами
 %%%%
+{ins}your boulder beetle
+{m}жуком-валуном
+%%%%
+{ins}your boulder beetles
+{pl}жуками-валунами
+%%%%
 {ins}your broad axe
 {m}широким топором
 %%%%
@@ -38748,6 +39609,12 @@ your yaks
 %%%%
 {ins}your cloaks
 {pl}плащами
+%%%%
+{ins}your clockwork bee
+{f}заводной пчелой
+%%%%
+{ins}your clockwork bees
+{pl}заводными пчёлами
 %%%%
 {ins}your club
 {f}дубинкой
@@ -39159,6 +40026,18 @@ your yaks
 %%%%
 {ins}your maces
 {pl}булавами
+%%%%
+{ins}your martyred shade
+{f}тенью мученика
+%%%%
+{ins}your martyred shades
+{pl}тенями мучеников
+%%%%
+{ins}your merfolk avatar
+{m}аватаром русалок
+%%%%
+{ins}your merfolk avatars
+{pl}аватарами русалок
 %%%%
 {ins}your morningstar
 {m}моргенштерном
@@ -39799,6 +40678,12 @@ your yaks
 {ins}your ugly things
 {pl}уродливыми существами
 %%%%
+{ins}your undying armouries
+{pl}неумирающими арсеналами
+%%%%
+{ins}your undying armoury
+{m}неумирающим арсеналом
+%%%%
 {ins}your vampire
 {m}вампиром
 %%%%
@@ -39979,6 +40864,9 @@ your yaks
 {many}@num@ boomerangs
 @num@ бумерангов
 %%%%
+{many}@num@ boulder beetles
+@num@ жуков-валунов
+%%%%
 {many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -40005,6 +40893,9 @@ your yaks
 %%%%
 {many}@num@ cloaks
 @num@ плащей
+%%%%
+{many}@num@ clockwork bees
+@num@ заводных пчёл
 %%%%
 {many}@num@ clubs
 @num@ дубинок
@@ -40212,6 +41103,12 @@ your yaks
 %%%%
 {many}@num@ maces
 @num@ булав
+%%%%
+{many}@num@ martyred shades
+@num@ теней мучеников
+%%%%
+{many}@num@ merfolk avatars
+@num@ аватаров русалок
 %%%%
 {many}@num@ morningstars
 @num@ моргенштернов
@@ -40534,6 +41431,9 @@ your yaks
 {many}@num@ ugly things
 @num@ уродливых существ
 %%%%
+{many}@num@ undying armouries
+@num@ неумирающих арсеналов
+%%%%
 {many}@num@ vampires
 @num@ вампиров
 %%%%
@@ -40657,6 +41557,9 @@ your yaks
 {nom}a boomerang
 {m}бумеранг
 %%%%
+{nom}a boulder beetle
+{m}жук-валун
+%%%%
 {nom}a broad axe
 {m}широкий топор
 %%%%
@@ -40683,6 +41586,9 @@ your yaks
 %%%%
 {nom}a cloak
 {m}плащ
+%%%%
+{nom}a clockwork bee
+{f}заводная пчела
 %%%%
 {nom}a club
 {f}дубинка
@@ -40890,6 +41796,12 @@ your yaks
 %%%%
 {nom}a mace
 {f}булава
+%%%%
+{nom}a martyred shade
+{f}тень мученика
+%%%%
+{nom}a merfolk avatar
+{m}аватар русалок
 %%%%
 {nom}a morningstar
 {m}моргенштерн
@@ -41212,6 +42124,9 @@ your yaks
 {nom}a ugly thing
 {n}уродливое существо
 %%%%
+{nom}a undying armoury
+{m}неумирающий арсенал
+%%%%
 {nom}a vampire
 {m}вампир
 %%%%
@@ -41395,6 +42310,9 @@ your yaks
 {nom}an boomerang
 {m}бумеранг
 %%%%
+{nom}an boulder beetle
+{m}жук-валун
+%%%%
 {nom}an broad axe
 {m}широкий топор
 %%%%
@@ -41421,6 +42339,9 @@ your yaks
 %%%%
 {nom}an cloak
 {m}плащ
+%%%%
+{nom}an clockwork bee
+{f}заводная пчела
 %%%%
 {nom}an club
 {f}дубинка
@@ -41628,6 +42549,12 @@ your yaks
 %%%%
 {nom}an mace
 {f}булава
+%%%%
+{nom}an martyred shade
+{f}тень мученика
+%%%%
+{nom}an merfolk avatar
+{m}аватар русалок
 %%%%
 {nom}an morningstar
 {m}моргенштерн
@@ -41950,6 +42877,9 @@ your yaks
 {nom}an ugly thing
 {n}уродливое существо
 %%%%
+{nom}an undying armoury
+{m}неумирающий арсенал
+%%%%
 {nom}an vampire
 {m}вампир
 %%%%
@@ -42079,6 +43009,12 @@ your yaks
 {nom}boomerangs
 {pl}бумеранги
 %%%%
+{nom}boulder beetle
+{m}жук-валун
+%%%%
+{nom}boulder beetles
+{pl}жуки-валуны
+%%%%
 {nom}broad axe
 {m}широкий топор
 %%%%
@@ -42132,6 +43068,12 @@ your yaks
 %%%%
 {nom}cloaks
 {pl}плащи
+%%%%
+{nom}clockwork bee
+{f}заводная пчела
+%%%%
+{nom}clockwork bees
+{pl}заводные пчёлы
 %%%%
 {nom}club
 {f}дубинка
@@ -42543,6 +43485,18 @@ your yaks
 %%%%
 {nom}maces
 {pl}булавы
+%%%%
+{nom}martyred shade
+{f}тень мученика
+%%%%
+{nom}martyred shades
+{pl}тени мучеников
+%%%%
+{nom}merfolk avatar
+{m}аватар русалок
+%%%%
+{nom}merfolk avatars
+{pl}аватары русалок
 %%%%
 {nom}morningstar
 {m}моргенштерн
@@ -43255,6 +44209,12 @@ your yaks
 {nom}the boomerangs
 {pl}бумеранги
 %%%%
+{nom}the boulder beetle
+{m}жук-валун
+%%%%
+{nom}the boulder beetles
+{pl}жуки-валуны
+%%%%
 {nom}the broad axe
 {m}широкий топор
 %%%%
@@ -43308,6 +44268,12 @@ your yaks
 %%%%
 {nom}the cloaks
 {pl}плащи
+%%%%
+{nom}the clockwork bee
+{f}заводная пчела
+%%%%
+{nom}the clockwork bees
+{pl}заводные пчёлы
 %%%%
 {nom}the club
 {f}дубинка
@@ -43719,6 +44685,18 @@ your yaks
 %%%%
 {nom}the maces
 {pl}булавы
+%%%%
+{nom}the martyred shade
+{f}тень мученика
+%%%%
+{nom}the martyred shades
+{pl}тени мучеников
+%%%%
+{nom}the merfolk avatar
+{m}аватар русалок
+%%%%
+{nom}the merfolk avatars
+{pl}аватары русалок
 %%%%
 {nom}the morningstar
 {m}моргенштерн
@@ -44359,6 +45337,12 @@ your yaks
 {nom}the ugly things
 {pl}уродливые существа
 %%%%
+{nom}the undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{nom}the undying armoury
+{m}неумирающий арсенал
+%%%%
 {nom}the vampire
 {m}вампир
 %%%%
@@ -44532,6 +45516,12 @@ your yaks
 %%%%
 {nom}ugly things
 {pl}уродливые существа
+%%%%
+{nom}undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{nom}undying armoury
+{m}неумирающий арсенал
 %%%%
 {nom}vampire
 {m}вампир
@@ -44779,6 +45769,12 @@ your yaks
 {nom}your boomerangs
 {pl}бумеранги
 %%%%
+{nom}your boulder beetle
+{m}жук-валун
+%%%%
+{nom}your boulder beetles
+{pl}жуки-валуны
+%%%%
 {nom}your broad axe
 {m}широкий топор
 %%%%
@@ -44832,6 +45828,12 @@ your yaks
 %%%%
 {nom}your cloaks
 {pl}плащи
+%%%%
+{nom}your clockwork bee
+{f}заводная пчела
+%%%%
+{nom}your clockwork bees
+{pl}заводные пчёлы
 %%%%
 {nom}your club
 {f}дубинка
@@ -45243,6 +46245,18 @@ your yaks
 %%%%
 {nom}your maces
 {pl}булавы
+%%%%
+{nom}your martyred shade
+{f}тень мученика
+%%%%
+{nom}your martyred shades
+{pl}тени мучеников
+%%%%
+{nom}your merfolk avatar
+{m}аватар русалок
+%%%%
+{nom}your merfolk avatars
+{pl}аватары русалок
 %%%%
 {nom}your morningstar
 {m}моргенштерн
@@ -45883,6 +46897,12 @@ your yaks
 {nom}your ugly things
 {pl}уродливые существа
 %%%%
+{nom}your undying armouries
+{pl}неумирающие арсеналы
+%%%%
+{nom}your undying armoury
+{m}неумирающий арсенал
+%%%%
 {nom}your vampire
 {m}вампир
 %%%%
@@ -46063,6 +47083,9 @@ your yaks
 {one}@num@ boomerangs
 @num@ бумеранг
 %%%%
+{one}@num@ boulder beetles
+@num@ жук-валун
+%%%%
 {one}@num@ broad axes
 @num@ широкий топор
 %%%%
@@ -46089,6 +47112,9 @@ your yaks
 %%%%
 {one}@num@ cloaks
 @num@ плащ
+%%%%
+{one}@num@ clockwork bees
+@num@ заводная пчела
 %%%%
 {one}@num@ clubs
 @num@ дубинка
@@ -46296,6 +47322,12 @@ your yaks
 %%%%
 {one}@num@ maces
 @num@ булава
+%%%%
+{one}@num@ martyred shades
+@num@ тень мученика
+%%%%
+{one}@num@ merfolk avatars
+@num@ аватар русалок
 %%%%
 {one}@num@ morningstars
 @num@ моргенштерн
@@ -46618,6 +47650,9 @@ your yaks
 {one}@num@ ugly things
 @num@ уродливое существо
 %%%%
+{one}@num@ undying armouries
+@num@ неумирающий арсенал
+%%%%
 {one}@num@ vampires
 @num@ вампир
 %%%%
@@ -46741,6 +47776,9 @@ your yaks
 {prep_few}@num@ boomerangs
 @num@ бумерангах
 %%%%
+{prep_few}@num@ boulder beetles
+@num@ жуках-валунах
+%%%%
 {prep_few}@num@ broad axes
 @num@ широких топорах
 %%%%
@@ -46767,6 +47805,9 @@ your yaks
 %%%%
 {prep_few}@num@ cloaks
 @num@ плащах
+%%%%
+{prep_few}@num@ clockwork bees
+@num@ заводных пчёлах
 %%%%
 {prep_few}@num@ clubs
 @num@ дубинках
@@ -46974,6 +48015,12 @@ your yaks
 %%%%
 {prep_few}@num@ maces
 @num@ булавах
+%%%%
+{prep_few}@num@ martyred shades
+@num@ тенях мучеников
+%%%%
+{prep_few}@num@ merfolk avatars
+@num@ аватарах русалок
 %%%%
 {prep_few}@num@ morningstars
 @num@ моргенштернах
@@ -47296,6 +48343,9 @@ your yaks
 {prep_few}@num@ ugly things
 @num@ уродливых существах
 %%%%
+{prep_few}@num@ undying armouries
+@num@ неумирающих арсеналах
+%%%%
 {prep_few}@num@ vampires
 @num@ вампирах
 %%%%
@@ -47419,6 +48469,9 @@ your yaks
 {prep_many}@num@ boomerangs
 @num@ бумерангах
 %%%%
+{prep_many}@num@ boulder beetles
+@num@ жуках-валунах
+%%%%
 {prep_many}@num@ broad axes
 @num@ широких топорах
 %%%%
@@ -47445,6 +48498,9 @@ your yaks
 %%%%
 {prep_many}@num@ cloaks
 @num@ плащах
+%%%%
+{prep_many}@num@ clockwork bees
+@num@ заводных пчёлах
 %%%%
 {prep_many}@num@ clubs
 @num@ дубинках
@@ -47652,6 +48708,12 @@ your yaks
 %%%%
 {prep_many}@num@ maces
 @num@ булавах
+%%%%
+{prep_many}@num@ martyred shades
+@num@ тенях мучеников
+%%%%
+{prep_many}@num@ merfolk avatars
+@num@ аватарах русалок
 %%%%
 {prep_many}@num@ morningstars
 @num@ моргенштернах
@@ -47974,6 +49036,9 @@ your yaks
 {prep_many}@num@ ugly things
 @num@ уродливых существах
 %%%%
+{prep_many}@num@ undying armouries
+@num@ неумирающих арсеналах
+%%%%
 {prep_many}@num@ vampires
 @num@ вампирах
 %%%%
@@ -48097,6 +49162,9 @@ your yaks
 {prep_one}@num@ boomerangs
 @num@ бумеранге
 %%%%
+{prep_one}@num@ boulder beetles
+@num@ жуке-валуне
+%%%%
 {prep_one}@num@ broad axes
 @num@ широком топоре
 %%%%
@@ -48123,6 +49191,9 @@ your yaks
 %%%%
 {prep_one}@num@ cloaks
 @num@ плаще
+%%%%
+{prep_one}@num@ clockwork bees
+@num@ заводной пчеле
 %%%%
 {prep_one}@num@ clubs
 @num@ дубинке
@@ -48330,6 +49401,12 @@ your yaks
 %%%%
 {prep_one}@num@ maces
 @num@ булаве
+%%%%
+{prep_one}@num@ martyred shades
+@num@ тени мученика
+%%%%
+{prep_one}@num@ merfolk avatars
+@num@ аватаре русалок
 %%%%
 {prep_one}@num@ morningstars
 @num@ моргенштерне
@@ -48652,6 +49729,9 @@ your yaks
 {prep_one}@num@ ugly things
 @num@ уродливом существе
 %%%%
+{prep_one}@num@ undying armouries
+@num@ неумирающем арсенале
+%%%%
 {prep_one}@num@ vampires
 @num@ вампире
 %%%%
@@ -48775,6 +49855,9 @@ your yaks
 {prep}a boomerang
 {m}бумеранге
 %%%%
+{prep}a boulder beetle
+{m}жуке-валуне
+%%%%
 {prep}a broad axe
 {m}широком топоре
 %%%%
@@ -48801,6 +49884,9 @@ your yaks
 %%%%
 {prep}a cloak
 {m}плаще
+%%%%
+{prep}a clockwork bee
+{f}заводной пчеле
 %%%%
 {prep}a club
 {f}дубинке
@@ -49008,6 +50094,12 @@ your yaks
 %%%%
 {prep}a mace
 {f}булаве
+%%%%
+{prep}a martyred shade
+{f}тени мученика
+%%%%
+{prep}a merfolk avatar
+{m}аватаре русалок
 %%%%
 {prep}a morningstar
 {m}моргенштерне
@@ -49330,6 +50422,9 @@ your yaks
 {prep}a ugly thing
 {n}уродливом существе
 %%%%
+{prep}a undying armoury
+{m}неумирающем арсенале
+%%%%
 {prep}a vampire
 {m}вампире
 %%%%
@@ -49513,6 +50608,9 @@ your yaks
 {prep}an boomerang
 {m}бумеранге
 %%%%
+{prep}an boulder beetle
+{m}жуке-валуне
+%%%%
 {prep}an broad axe
 {m}широком топоре
 %%%%
@@ -49539,6 +50637,9 @@ your yaks
 %%%%
 {prep}an cloak
 {m}плаще
+%%%%
+{prep}an clockwork bee
+{f}заводной пчеле
 %%%%
 {prep}an club
 {f}дубинке
@@ -49746,6 +50847,12 @@ your yaks
 %%%%
 {prep}an mace
 {f}булаве
+%%%%
+{prep}an martyred shade
+{f}тени мученика
+%%%%
+{prep}an merfolk avatar
+{m}аватаре русалок
 %%%%
 {prep}an morningstar
 {m}моргенштерне
@@ -50068,6 +51175,9 @@ your yaks
 {prep}an ugly thing
 {n}уродливом существе
 %%%%
+{prep}an undying armoury
+{m}неумирающем арсенале
+%%%%
 {prep}an vampire
 {m}вампире
 %%%%
@@ -50197,6 +51307,12 @@ your yaks
 {prep}boomerangs
 {pl}бумерангах
 %%%%
+{prep}boulder beetle
+{m}жуке-валуне
+%%%%
+{prep}boulder beetles
+{pl}жуках-валунах
+%%%%
 {prep}broad axe
 {m}широком топоре
 %%%%
@@ -50250,6 +51366,12 @@ your yaks
 %%%%
 {prep}cloaks
 {pl}плащах
+%%%%
+{prep}clockwork bee
+{f}заводной пчеле
+%%%%
+{prep}clockwork bees
+{pl}заводных пчёлах
 %%%%
 {prep}club
 {f}дубинке
@@ -50661,6 +51783,18 @@ your yaks
 %%%%
 {prep}maces
 {pl}булавах
+%%%%
+{prep}martyred shade
+{f}тени мученика
+%%%%
+{prep}martyred shades
+{pl}тенях мучеников
+%%%%
+{prep}merfolk avatar
+{m}аватаре русалок
+%%%%
+{prep}merfolk avatars
+{pl}аватарах русалок
 %%%%
 {prep}morningstar
 {m}моргенштерне
@@ -51373,6 +52507,12 @@ your yaks
 {prep}the boomerangs
 {pl}бумерангах
 %%%%
+{prep}the boulder beetle
+{m}жуке-валуне
+%%%%
+{prep}the boulder beetles
+{pl}жуках-валунах
+%%%%
 {prep}the broad axe
 {m}широком топоре
 %%%%
@@ -51426,6 +52566,12 @@ your yaks
 %%%%
 {prep}the cloaks
 {pl}плащах
+%%%%
+{prep}the clockwork bee
+{f}заводной пчеле
+%%%%
+{prep}the clockwork bees
+{pl}заводных пчёлах
 %%%%
 {prep}the club
 {f}дубинке
@@ -51837,6 +52983,18 @@ your yaks
 %%%%
 {prep}the maces
 {pl}булавах
+%%%%
+{prep}the martyred shade
+{f}тени мученика
+%%%%
+{prep}the martyred shades
+{pl}тенях мучеников
+%%%%
+{prep}the merfolk avatar
+{m}аватаре русалок
+%%%%
+{prep}the merfolk avatars
+{pl}аватарах русалок
 %%%%
 {prep}the morningstar
 {m}моргенштерне
@@ -52477,6 +53635,12 @@ your yaks
 {prep}the ugly things
 {pl}уродливых существах
 %%%%
+{prep}the undying armouries
+{pl}неумирающих арсеналах
+%%%%
+{prep}the undying armoury
+{m}неумирающем арсенале
+%%%%
 {prep}the vampire
 {m}вампире
 %%%%
@@ -52650,6 +53814,12 @@ your yaks
 %%%%
 {prep}ugly things
 {pl}уродливых существах
+%%%%
+{prep}undying armouries
+{pl}неумирающих арсеналах
+%%%%
+{prep}undying armoury
+{m}неумирающем арсенале
 %%%%
 {prep}vampire
 {m}вампире
@@ -52897,6 +54067,12 @@ your yaks
 {prep}your boomerangs
 {pl}бумерангах
 %%%%
+{prep}your boulder beetle
+{m}жуке-валуне
+%%%%
+{prep}your boulder beetles
+{pl}жуках-валунах
+%%%%
 {prep}your broad axe
 {m}широком топоре
 %%%%
@@ -52950,6 +54126,12 @@ your yaks
 %%%%
 {prep}your cloaks
 {pl}плащах
+%%%%
+{prep}your clockwork bee
+{f}заводной пчеле
+%%%%
+{prep}your clockwork bees
+{pl}заводных пчёлах
 %%%%
 {prep}your club
 {f}дубинке
@@ -53361,6 +54543,18 @@ your yaks
 %%%%
 {prep}your maces
 {pl}булавах
+%%%%
+{prep}your martyred shade
+{f}тени мученика
+%%%%
+{prep}your martyred shades
+{pl}тенях мучеников
+%%%%
+{prep}your merfolk avatar
+{m}аватаре русалок
+%%%%
+{prep}your merfolk avatars
+{pl}аватарах русалок
 %%%%
 {prep}your morningstar
 {m}моргенштерне
@@ -54000,6 +55194,12 @@ your yaks
 %%%%
 {prep}your ugly things
 {pl}уродливых существах
+%%%%
+{prep}your undying armouries
+{pl}неумирающих арсеналах
+%%%%
+{prep}your undying armoury
+{m}неумирающем арсенале
 %%%%
 {prep}your vampire
 {m}вампире

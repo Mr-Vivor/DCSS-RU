@@ -4322,7 +4322,7 @@ You finish digesting your meal.
 %%%%
 You stop stampeding.
 
-Вы прекращаете неудержимый бег.
+Ваш натиск прекращается.
 %%%%
 Salvo
 
@@ -6574,7 +6574,7 @@ You beseech @arg@ to protect your life.
 %%%%
 You are healed.
 
-Ваше здоровье восстановлено.
+Вы восстанавливаете здоровье.
 %%%%
 You cannot banish yourself!
 
@@ -16110,7 +16110,7 @@ You conjure a prism of explosive energy!
 %%%%
 A prism of explosive energy appears from nowhere!
 
-Призма взрывной энергии появляется из ниоткуда!
+Из ниоткуда возникает призма взрывной энергии!
 %%%%
 @Arg@ fades away.
 
@@ -18710,7 +18710,7 @@ You hear rumbling.
 %%%%
 @Arg@ chants a haunting song.
 
-@Arg@ поёт призрачную песню.
+@Arg@ поёт завораживающую песню.
 %%%%
 You hear a luring song.
 
@@ -18718,7 +18718,7 @@ You hear a luring song.
 %%%%
 You hear a haunting song.
 
-Вы слышите призрачную песню.
+Вы слышите завораживающую песню.
 %%%%
 You hear an eerie melody.
 
@@ -19082,7 +19082,7 @@ Roots grab @arg@.
 %%%%
 @Arg@ is no longer moving quickly.
 
-@Arg@ больше не движется быстро.
+@Arg@ больше не движется с повышенной скоростью.
 %%%%
 @Arg@ becomes audible again.
 
@@ -19182,7 +19182,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer dazed.
 
-@Arg@ выходит из оцепенения.
+Оцепенение {gen}@Arg@ проходит.
 %%%%
 @Arg@'s inner flame fades away.
 
@@ -19190,7 +19190,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer mute.
 
-@Arg@ больше не лишён голоса.
+@Arg@ снова может произносить звуки.
 %%%%
 @Arg@ is no longer blind.
 
@@ -19210,7 +19210,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer strong-willed.
 
-@Arg@ больше не обладает повышенной силой воли.
+Повышенная Воля {gen}@Arg@ возвращается к обычной.
 %%%%
 @Arg@ seems to return to a normal shape.
 
@@ -19226,11 +19226,11 @@ The forest calms down.
 %%%%
 @Arg@ is no longer more vulnerable to fire.
 
-@Arg@ больше не обладает повышенной уязвимостью к огню.
+Повышенная уязвимость {gen}@Arg@ к огню исчезает.
 %%%%
 @Arg@ is no longer more vulnerable to poison.
 
-@Arg@ больше не обладает повышенной уязвимостью к яду.
+Повышенная уязвимость {gen}@Arg@ к яду исчезает.
 %%%%
 @Arg@ icy envelope dissipates!
 
@@ -19242,7 +19242,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer encased in ice.
 
-@Arg@ освобождается из ледяного плена.
+Лёд больше не сковывает {acc}@Arg@.
 %%%%
 @Arg@ is no longer absorbing vital energies.
 
@@ -19250,7 +19250,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer being sapped.
 
-@Arg@ больше не подвергается истощению магии.
+Магическая помеха больше не затрудняет колдовство {gen}@Arg@.
 %%%%
 @Arg@ is no longer covered in acid.
 
@@ -19270,7 +19270,7 @@ The forest calms down.
 %%%%
 @Arg@ is no longer unusually resistant.
 
-@Arg@ больше не обладает необычной устойчивостью.
+Повышенные сопротивления {gen}@Arg@ возвращаются к обычным.
 %%%%
 @Arg@ is no longer giving off an aura.
 
@@ -19278,7 +19278,7 @@ The forest calms down.
 %%%%
 @Arg@ seems less brilliant.
 
-@Arg@ словно теряет магическое озарение.
+Магия {gen}@Arg@ теряет усиление.
 %%%%
 @Arg@ loses the glow of perfection.
 
@@ -19286,7 +19286,7 @@ The forest calms down.
 %%%%
 @Arg@ soul is no longer bound.
 
-Душа {gen}@Arg@ больше не связана.
+Душа {nom}@Arg@ больше не связана.
 %%%%
 @Arg@ is no longer infested.
 
@@ -19306,11 +19306,11 @@ The roots release their grip on @arg@.
 %%%%
 @Arg@ stops rolling and uncurls.
 
-@Arg@ перестаёт катиться и разворачивается.
+@Arg@ прекращает перекат и разворачивается.
 %%%%
 @Arg@ no longer looks unusually toxic.
 
-@Arg@ больше не выглядит необычно ядовитым.
+Яд {gen}@Arg@ больше не выглядит необычно сильным.
 %%%%
 The pull of its song draws you forwards.
 
@@ -19322,11 +19322,11 @@ Something prevents you from swapping places with @arg@.
 %%%%
 The shadowy forms in the deep grow still as others approach.
 
-Тенистые силуэты в глубине замирают при приближении других.
+Тёмные силуэты в глубине замирают по мере приближения других.
 %%%%
 Shadowy forms rise from the deep at @arg@ song!
 
-Под песню {gen}@arg@ из глубины поднимаются тенистые силуэты!
+Под песню {nom}@arg@ из глубин поднимаются тёмные силуэты!
 %%%%
 @Arg@ is no longer in an insane frenzy.
 
@@ -19378,7 +19378,7 @@ The winds around @arg@ start to calm down.
 %%%%
 @Arg@ chant is interrupted.
 
-Распевание {gen}@Arg@ прерывается.
+Песнопение {nom}@Arg@ прерывается.
 %%%%
 @Arg@ is asphyxiated!
 
@@ -19390,7 +19390,7 @@ The winds around @arg@ calm down.
 %%%%
 @Arg@ song is interrupted.
 
-Песня {gen}@Arg@ прерывается.
+Песня {nom}@Arg@ прерывается.
 %%%%
 @Arg@ is no longer sharing pain.
 
@@ -47435,3 +47435,531 @@ on level @num@ of the Realm of Zot
 between levels @num1@ and @num2@ of the Realm of Zot
 
 между уровнями @num1@ и @num2@ Царства Зота
+%%%%
+@Arg@'s vitality is bolstered.
+
+Урон в ближнем бою и сопротивления {gen}@Arg@ возрастают.
+%%%%
+@Arg@'s form blurs.
+
+Очертания {gen}@Arg@ размываются.
+%%%%
+@Arg@'s form wavers for a moment.
+
+Очертания {gen}@Arg@ на миг колеблются.
+%%%%
+Mutagenic energy flows into you.
+
+В вас вливается мутагенная энергия.
+%%%%
+@Arg@ begins winding a clockwork bee!
+
+@Arg@ начинает заводить заводную пчелу!
+%%%%
+You feel a dangerous fate closing in on you...
+
+Вы чувствуете приближение роковой опасности...
+%%%%
+Something gnaws heavily on your mind!
+
+Что-то с особой силой терзает ваш разум!
+%%%%
+Something gnaws on your mind!
+
+Что-то терзает ваш разум!
+%%%%
+@Arg@'s mind is heavily gnawed upon.
+
+Что-то с особой силой терзает разум {gen}@Arg@.
+%%%%
+@Arg@'s mind is gnawed upon.
+
+Что-то терзает разум {gen}@Arg@.
+%%%%
+A beckoning whirlwind drags @arg@ forward!
+
+Притягивающий вихрь тащит {acc}@arg@ вперёд!
+%%%%
+A beckoning whirlwind swirls around @arg@.
+
+Притягивающий вихрь кружит вокруг {gen}@arg@.
+%%%%
+@Arg@'s wounds begin to rapidly close.
+
+Раны {gen}@Arg@ начинают быстро затягиваться.
+%%%%
+@Arg@ is touched by paradox!
+
+Парадокс касается {gen}@Arg@!
+%%%%
+@Arg@'s allies begin to heal rapidly.
+
+Союзники {gen}@Arg@ начинают быстро восстанавливать здоровье.
+%%%%
+@Arg@ stumbles on the uneven ground.
+
+@Arg@ спотыкается на неровной земле.
+%%%%
+Stolen life floods into @arg@!
+
+Похищенная жизненная сила наполняет {acc}@arg@!
+%%%%
+Stolen life floods into an unseen void!
+
+Похищенная жизненная сила устремляется в невидимую пустоту!
+%%%%
+@Arg@ picks up the pace!
+
+@Arg@ начинает двигаться быстрее!
+%%%%
+Your @arg@ pick up the pace!
+
+Ваши @arg@ начинают двигаться быстрее!
+%%%%
+The @arg@ pick up the pace!
+
+@arg@ начинают двигаться быстрее!
+%%%%
+Chaos surges forth from the pile of flesh, awakening new unlife!
+
+Хаос вырывается из груды плоти, пробуждая новую нежизнь!
+%%%%
+Chaos surges forth from piles of flesh, awakening new unlife!
+
+Хаос вырывается из груд плоти, пробуждая новую нежизнь!
+%%%%
+@Arg@ is recalled away.
+
+Призыв переносит {acc}@Arg@ прочь.
+%%%%
+@Arg@ spells are empowered by the prayer of brilliance!
+
+Молитва гениальности усиливает заклинания {nom}@Arg@!
+%%%%
+@Arg@ collapses into a mass of ice!
+
+@Arg@ превращается в ледяную глыбу!
+%%%%
+The residue of @arg@ spell condenses into glimmer.
+
+Остаточная энергия заклинания {nom}@arg@ сгущается в облако мерцания.
+%%%%
+@Arg1@ starts stampeding towards @arg2@.
+
+@Arg1@ начинает натиск на {acc}@arg2@.
+%%%%
+@Arg@ trance deepens.
+
+Оцепенение {nom}@Arg@ усиливается.
+%%%%
+@Arg1@ is mesmerised by @arg2@!
+
+Чары {gen}@arg2@ завораживают {acc}@Arg1@!
+%%%%
+@Arg@ arms its allies with @arg2@.
+
+@Arg@ вооружает своих союзников: @arg2@.
+%%%%
+@Arg@ launches a sporangium.
+
+@Arg@ запускает спорангий.
+%%%%
+The long-dead rise up around you.
+
+Вокруг вас восстают давно умершие.
+%%%%
+The long-dead rise up around @arg@.
+
+Вокруг {gen}@arg@ восстают давно умершие.
+%%%%
+@Arg@'s movement is quickened by the wind!
+
+Ветер ускоряет передвижение {gen}@Arg@!
+%%%%
+@Arg@ begins deflecting missiles!
+
+@Arg@ начинает отклонять снаряды!
+%%%%
+You draw out an echo of @arg@.
+
+Вы пробуждаете эхо {gen}@arg@.
+%%%%
+A pair of sphinxes answers your call!
+
+На ваш зов откликается пара сфинксов!
+%%%%
+A pair of sphinxes answers @arg@ call!
+
+На зов {nom}@arg@ откликается пара сфинксов!
+%%%%
+@Arg@ answers your call!
+
+@Arg@ откликается на ваш зов!
+%%%%
+@Arg1@ answers @arg2@ call!
+
+@Arg1@ откликается на зов {nom}@arg2@!
+%%%%
+You open a gateway and unleash terrible monstrosities upon the world.
+
+Вы открываете врата и выпускаете в мир ужасных чудовищ.
+%%%%
+You call forth a shade to shield your allies.
+
+Вы призываете тень мученика для защиты союзников.
+%%%%
+@Arg@ calls forth a shade to shield themselves.
+
+@Arg@ призывает тень мученика для собственной защиты.
+%%%%
+Another @arg@ is drawn to the feast!
+
+К пиру присоединяется ещё одно существо: @arg@!
+%%%%
+With a deafening crack, the ground splits apart in the path of your chthonic artillery!
+
+С оглушительным треском земля раскалывается перед вашей адской артиллерией!
+%%%%
+With a deafening crack, the ground splits apart in the path of @arg@ chthonic artillery!
+
+С оглушительным треском земля раскалывается перед адской артиллерией {nom}@arg@!
+%%%%
+A fragment of @arg@ is already outside their body!
+
+Частица души {gen}@arg@ уже находится вне тела!
+%%%%
+@Arg@ finishes brewing potions and dispenses them!
+
+@Arg@ заканчивает варить зелья и раздаёт их!
+%%%%
+@Arg@ collapses with a clattering noise.
+
+@Arg@ с грохотом разваливается.
+%%%%
+@Arg@ deploys a bomblet.
+
+@Arg@ выпускает бомбочку.
+%%%%
+Flames lash @arg@.
+
+Пламя хлещет {acc}@arg@.
+%%%%
+Flames lash @arg@ but do no damage.
+
+Пламя хлещет {acc}@arg@, но не причиняет вреда.
+%%%%
+Your fire resistance burns away!
+
+Ваше сопротивление огню ослабевает!
+%%%%
+@Arg@ moves over the binding sigil and is bound in place!
+
+@Arg@ наступает на связывающий символ и больше не может сдвинуться с места!
+%%%%
+@Arg@ is pinned to his own shadow.
+
+Собственная тень удерживает {acc}@Arg@ на месте.
+%%%%
+@Arg@ draws you further into his thrall.
+
+@Arg@ всё сильнее подчиняет вас своей воле.
+%%%%
+@Arg@ attempts to bespell his enemies!
+
+@Arg@ пытается заворожить своих врагов!
+%%%%
+A fragment of @arg@ soul is dislodged from his body.
+
+Частица души {nom}@arg@ вырывается из тела.
+%%%%
+@Arg@ is pinned to her own shadow.
+
+Собственная тень удерживает {acc}@Arg@ на месте.
+%%%%
+@Arg@ draws you further into her thrall.
+
+@Arg@ всё сильнее подчиняет вас своей воле.
+%%%%
+@Arg@ attempts to bespell her enemies!
+
+@Arg@ пытается заворожить своих врагов!
+%%%%
+A fragment of @arg@ soul is dislodged from her body.
+
+Частица души {nom}@arg@ вырывается из тела.
+%%%%
+@Arg@ is pinned to its own shadow.
+
+Собственная тень удерживает {acc}@Arg@ на месте.
+%%%%
+@Arg@ draws you further into its thrall.
+
+@Arg@ всё сильнее подчиняет вас своей воле.
+%%%%
+@Arg@ attempts to bespell its enemies!
+
+@Arg@ пытается заворожить своих врагов!
+%%%%
+A fragment of @arg@ soul is dislodged from its body.
+
+Частица души {nom}@arg@ вырывается из тела.
+%%%%
+@Arg@ is pinned to their own shadow.
+
+Собственная тень удерживает {acc}@Arg@ на месте.
+%%%%
+@Arg@ draws you further into their thrall.
+
+@Arg@ всё сильнее подчиняет вас своей воле.
+%%%%
+@Arg@ attempts to bespell their enemies!
+
+@Arg@ пытается заворожить своих врагов!
+%%%%
+A fragment of @arg@ soul is dislodged from their body.
+
+Частица души {nom}@arg@ вырывается из тела.
+%%%%
+@Arg@ draws nearby shadows into himself.
+
+@Arg@ втягивает в себя ближайшие тени.
+%%%%
+@Arg@ draws nearby shadows into herself.
+
+@Arg@ втягивает в себя ближайшие тени.
+%%%%
+@Arg@ draws nearby shadows into itself.
+
+@Arg@ втягивает в себя ближайшие тени.
+%%%%
+@Arg@ draws nearby shadows into themselves.
+
+@Arg@ втягивает в себя ближайшие тени.
+%%%%
+@Arg@ corrupts the dungeon around him!
+
+@Arg@ оскверняет подземелье вокруг себя!
+%%%%
+@Arg@ corrupts the dungeon around her!
+
+@Arg@ оскверняет подземелье вокруг себя!
+%%%%
+@Arg@ corrupts the dungeon around it!
+
+@Arg@ оскверняет подземелье вокруг себя!
+%%%%
+@Arg@ corrupts the dungeon around them!
+
+@Arg@ оскверняет подземелье вокруг себя!
+%%%%
+The water rises up and strikes you@punct@
+
+Вода вздымается и бьёт вас@punct@
+%%%%
+The water rises up and strikes @arg@@punct@
+
+Вода вздымается и бьёт {acc}@arg@@punct@
+%%%%
+The water swirls and strikes you@punct@
+
+Вода закручивается и бьёт вас@punct@
+%%%%
+The water swirls and strikes @arg@@punct@
+
+Вода закручивается и бьёт {acc}@arg@@punct@
+%%%%
+You conjure a prism of shadowy energy!
+
+Вы создаёте призму теневой энергии!
+%%%%
+@Arg@ conjures a prism of shadowy energy!
+
+@Arg@ создаёт призму теневой энергии!
+%%%%
+A prism of shadowy energy appears from nowhere!
+
+Из ниоткуда возникает призма теневой энергии!
+%%%%
+You conjure some marshlight!
+
+Вы создаёте болотные огоньки!
+%%%%
+@Arg@ conjures some marshlight!
+
+@Arg@ создаёт болотные огоньки!
+%%%%
+You send a boulder barrelling forward!
+
+Вы посылаете катящийся валун вперёд!
+%%%%
+You sculpt a pair of cannons out of ice!
+
+Вы высекаете изо льда пару пушек!
+%%%%
+You sculpt a cannon out of ice!
+
+Вы высекаете изо льда пушку!
+%%%%
+@Arg@ sends a boulder barrelling forward!
+
+@Arg@ посылает катящийся валун вперёд!
+%%%%
+@Arg@ sculpts a pair of cannons out of ice!
+
+@Arg@ высекает изо льда пару пушек!
+%%%%
+@Arg@ sculpts a cannon out of ice!
+
+@Arg@ высекает изо льда пушку!
+%%%%
+@Arg@'s lost momentum returns!
+
+@Arg@ вновь начинает быстро двигаться!
+%%%%
+The grapnel comes loose from @arg@.
+
+Кинетический крюк отцепляется от {gen}@arg@.
+%%%%
+@Arg@ looks more stable.
+
+Пространство вокруг {gen}@Arg@ выглядит стабильнее.
+%%%%
+@Arg@ is no longer laced with chaos.
+
+Хаос больше не пронизывает {acc}@Arg@.
+%%%%
+@Arg@ wakes up again.
+
+@Arg@ снова просыпается.
+%%%%
+@Arg@'s memory burns away to nothing.
+
+@Arg@ теряет догорающее воспоминание.
+%%%%
+@Arg@ is no longer touched by paradox.
+
+Прикосновение парадокса больше не действует на {acc}@Arg@.
+%%%%
+The ward upon @arg@ fades away.
+
+Оберег, защищающий {acc}@arg@, угасает.
+%%%%
+@Arg@ spells are no longer diminished.
+
+Заклинания {gen}@Arg@ больше не ослаблены.
+%%%%
+@Arg@'s magic is no longer disrupted.
+
+Антимагия больше не мешает {dat}@Arg@ колдовать.
+%%%%
+@Arg@ is no longer exposed.
+
+Прежняя уязвимость {gen}@Arg@ исчезает.
+%%%%
+@Arg@ stops stampeding.
+
+@Arg@ прекращает натиск.
+%%%%
+@Arg@'s divine shield fades away.
+
+Божественный щит {gen}@Arg@ угасает.
+%%%%
+@Arg@ is no longer glowing with power.
+
+@Arg@ больше не сияет силой.
+%%%%
+@Arg@ is no longer insubstantial
+
+Тело {gen}@Arg@ вновь становится осязаемым
+%%%%
+@Arg@'s divine vigour fades away.
+
+Божественная жизненная сила {gen}@Arg@ угасает.
+%%%%
+@Arg@ is no longer deflecting missiles.
+
+@Arg@ больше не отклоняет снаряды.
+%%%%
+@Arg@ is no longer haunted by guilt.
+
+Чувство вины больше не преследует {acc}@Arg@.
+%%%%
+@Arg@ recovers from rimeblight.
+
+@Arg@ оправляется от инеевого мора.
+%%%%
+The pull of @arg@ song draws you forwards.
+
+Песня {nom}@arg@ против воли влечёт вас вперёд.
+%%%%
+Your grip on @arg@ soul is slipping...
+
+Ваша власть над душой {nom}@arg@ ослабевает...
+%%%%
+You lose your grip on @arg@ soul.
+
+Вы теряете власть над душой {nom}@arg@.
+%%%%
+@Arg@ is freed from his curse.
+
+@Arg@ освобождается от проклятия агонии.
+%%%%
+@Arg@ turns his attention back to you.
+
+@Arg@ снова обращает внимание на вас.
+%%%%
+@Arg@ continues winding his clockwork bee....
+
+@Arg@ продолжает заводить заводную пчелу...
+%%%%
+@Arg@'s stops winding his clockwork bee.
+
+@Arg@ прекращает заводить заводную пчелу.
+%%%%
+@Arg@ is freed from her curse.
+
+@Arg@ освобождается от проклятия агонии.
+%%%%
+@Arg@ turns her attention back to you.
+
+@Arg@ снова обращает внимание на вас.
+%%%%
+@Arg@ continues winding her clockwork bee....
+
+@Arg@ продолжает заводить заводную пчелу...
+%%%%
+@Arg@'s stops winding her clockwork bee.
+
+@Arg@ прекращает заводить заводную пчелу.
+%%%%
+@Arg@ is freed from its curse.
+
+@Arg@ освобождается от проклятия агонии.
+%%%%
+@Arg@ turns its attention back to you.
+
+@Arg@ снова обращает внимание на вас.
+%%%%
+@Arg@ continues winding its clockwork bee....
+
+@Arg@ продолжает заводить заводную пчелу...
+%%%%
+@Arg@'s stops winding its clockwork bee.
+
+@Arg@ прекращает заводить заводную пчелу.
+%%%%
+@Arg@ is freed from their curse.
+
+@Arg@ освобождается от проклятия агонии.
+%%%%
+@Arg@ turns their attention back to you.
+
+@Arg@ снова обращает внимание на вас.
+%%%%
+@Arg@ continues winding their clockwork bee....
+
+@Arg@ продолжает заводить заводную пчелу...
+%%%%
+@Arg@'s stops winding their clockwork bee.
+
+@Arg@ прекращает заводить заводную пчелу.

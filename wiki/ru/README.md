@@ -234,3 +234,8 @@
 | `item.ring_of_protection_from_fire` | [Кольцо защиты от огня](pages/item.ring_of_protection_from_fire.md) | ring of protection from fire | reviewed |
 | `item.ring_of_positive_energy` | [Кольцо положительной энергии](pages/item.ring_of_positive_energy.md) | ring of positive energy | reviewed |
 | `item.ring_of_wizardry` | [Кольцо чародейства](pages/item.ring_of_wizardry.md) | ring of wizardry | reviewed |
+| `monster.undying_armoury` | [Неумирающий арсенал](pages/monster.undying_armoury.md) | undying armoury | reviewed |
+| `monster.martyred_shade` | [Тень мученика](pages/monster.martyred_shade.md) | martyred shade | reviewed |
+| `monster.merfolk_avatar` | [Аватар русалок](pages/monster.merfolk_avatar.md) | merfolk avatar | reviewed |
+| `monster.boulder_beetle` | [Жук-валун](pages/monster.boulder_beetle.md) | boulder beetle | reviewed |
+| `monster.clockwork_bee` | [Заводная пчела](pages/monster.clockwork_bee.md) | clockwork bee | reviewed |

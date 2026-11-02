@@ -5012,6 +5012,31 @@
       "source_sha256": "3a69492f6130f59fa8fd9070173ba1762e2656b2f12c849818a59ddaff7dc051",
       "text": "Демоническая комнатная собачка царицы Тартара, обречённая охотиться на её врагов. Когда её вой впервые отпечатывается в разуме жертвы, он продолжает звучать там эхом и привлекает кошмарных существ, которые начинают охоту. Выжившим остаётся небольшое утешение: эта гончая больше не сможет наложить на них свой вой.",
       "context": "mon-act.cc _mons_open_door, terrain.cc get_door_description; mon-cast.cc _sheep_message/_dream_sheep_sleep/_oblivion_howl and SPELL_OBLIVION_HOWL AI check; actor.cc resist_margin_phrase. Open and break down differ, four normal door sizes are preserved. Invisible opener remains unidentified. Dream sheep singular and plural have complete frames, non-player victims use a quoted nominative without gender assumptions; drowsiness and ineffectiveness retain actual power conditions. Howl has seven resistance outcomes, silence changes only visible wording, not spell mechanics. Hound is marked as having howled only if willpower fails: one successful application per hound, not one attempted cast; summoned hounds cannot use it. Names and descriptions shared with the generated wiki. No visibility, sound, thresholds, RNG, durations, targets or AI changes."
+    },
+    "undying armoury": {
+      "source_sha256": "411f2bd1eda3e70731a509e3e9504061968463299a9d203dbbe68eefeb38341d",
+      "text": "Бушующий вихрь душ и стали: рыцарей, кузнецов и мастеров оружия, привязанных к оружию, которым они владели при жизни. Сражаться с ним — всё равно что противостоять целой армии.",
+      "context": "mon-data.h canonical display names, current monsters.txt, mon-cast.cc and spl-summoning.cc. Shared creature names and six cases in both numbers; ordinary descriptive words translated, proper names unchanged. Martyred shade matches the reviewed Martyr's Knell soul description. Clockwork winding is not MP; boulder rolling starts at a distance and is not invulnerability. Undying armoury is a destructible soul/weapon ensemble, not a promise of immortality. No monster flags, gender mechanics, IDs, spell lists, combat stats or saves changed."
+    },
+    "martyred shade": {
+      "source_sha256": "a58d35c81078f95d27868d35af2cb5aa80aa04fdb72aae06479ed6239e19bcf7",
+      "text": "Блуждающая душа того, кто давным-давно погиб за ныне забытое дело. Хотя воспоминания растворились в тумане, нечто в глубине души по-прежнему заставляет её служить и идти на жертвы — любой ценой.",
+      "context": "mon-data.h canonical display names, current monsters.txt, mon-cast.cc and spl-summoning.cc. Shared creature names and six cases in both numbers; ordinary descriptive words translated, proper names unchanged. Martyred shade matches the reviewed Martyr's Knell soul description. Clockwork winding is not MP; boulder rolling starts at a distance and is not invulnerability. Undying armoury is a destructible soul/weapon ensemble, not a promise of immortality. No monster flags, gender mechanics, IDs, spell lists, combat stats or saves changed."
+    },
+    "merfolk avatar": {
+      "source_sha256": "110fa76afff3403a161bd5264fae812e550cf76a80ca638fbd0816d0ffd446f6",
+      "text": "Аватар народа русалок, чей чарующий голос завораживает слушателей. Он не носит оружия, но его песня призывает души утопленников защищать море от незваных гостей.",
+      "context": "mon-data.h canonical display names, current monsters.txt, mon-cast.cc and spl-summoning.cc. Shared creature names and six cases in both numbers; ordinary descriptive words translated, proper names unchanged. Martyred shade matches the reviewed Martyr's Knell soul description. Clockwork winding is not MP; boulder rolling starts at a distance and is not invulnerability. Undying armoury is a destructible soul/weapon ensemble, not a promise of immortality. No monster flags, gender mechanics, IDs, spell lists, combat stats or saves changed."
+    },
+    "boulder beetle": {
+      "source_sha256": "0bdb2150e91c5e711c47ec0fcb68c4f37a9f76415ce852b450ad7a16488ce515",
+      "text": "Серый жук с почти непробиваемым каменным панцирем. На некотором расстоянии от врага жук-валун способен свернуться и покатиться с огромной скоростью, пытаясь врезаться в цель и нанести тяжёлые повреждения.",
+      "context": "mon-data.h canonical display names, current monsters.txt, mon-cast.cc and spl-summoning.cc. Shared creature names and six cases in both numbers; ordinary descriptive words translated, proper names unchanged. Martyred shade matches the reviewed Martyr's Knell soul description. Clockwork winding is not MP; boulder rolling starts at a distance and is not invulnerability. Undying armoury is a destructible soul/weapon ensemble, not a promise of immortality. No monster flags, gender mechanics, IDs, spell lists, combat stats or saves changed."
+    },
+    "clockwork bee": {
+      "source_sha256": "221a5f7ed18fe99d565d39ae54d52558fad20644c537fad311af67c89f09f11c",
+      "text": "Механическое насекомое, приводимое в движение сложной системой шестерёнок и пружин. Оно свирепо и стойко переносит урон, но при атаках завод механизма постепенно заканчивается. В конце концов пчела перестаёт двигаться, пока создатель не заведёт её снова.",
+      "context": "mon-data.h canonical display names, current monsters.txt, mon-cast.cc and spl-summoning.cc. Shared creature names and six cases in both numbers; ordinary descriptive words translated, proper names unchanged. Martyred shade matches the reviewed Martyr's Knell soul description. Clockwork winding is not MP; boulder rolling starts at a distance and is not invulnerability. Undying armoury is a destructible soul/weapon ensemble, not a promise of immortality. No monster flags, gender mechanics, IDs, spell lists, combat stats or saves changed."
     }
   },
   "status": {

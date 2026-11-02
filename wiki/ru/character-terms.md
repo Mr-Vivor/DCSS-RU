@@ -1292,3 +1292,5 @@
 | nascent plasmodium | зачаточный плазмодий |
 | Nobody | Никто |
 | creeping inferno | ползучее адское пламя |
+| undying armoury | неумирающий арсенал |
+| merfolk avatar | аватар русалок |

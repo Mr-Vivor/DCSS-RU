@@ -920,6 +920,11 @@
 - [Электрический змей](monsters/shock-serpent.md)
 - [Овца сновидений](monsters/dream-sheep.md)
 - [Гончая забвения](monsters/oblivion-hound.md)
+- [Неумирающий арсенал](monsters/undying-armoury.md)
+- [Тень мученика](monsters/martyred-shade.md)
+- [Аватар русалок](monsters/merfolk-avatar.md)
+- [Жук-валун](monsters/boulder-beetle.md)
+- [Заводная пчела](monsters/clockwork-bee.md)
 
 
 ## Карты

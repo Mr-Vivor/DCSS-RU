@@ -6134,5 +6134,145 @@
       "counted_few": "кольца чародейства"
     },
     "review": "reviewed"
+  },
+  {
+    "id": "monster.undying_armoury",
+    "kind": "monster",
+    "en": "undying armoury",
+    "en_plural": "undying armouries",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "неумирающий арсенал",
+        "gen": "неумирающего арсенала",
+        "dat": "неумирающему арсеналу",
+        "acc": "неумирающий арсенал",
+        "ins": "неумирающим арсеналом",
+        "prep": "неумирающем арсенале"
+      },
+      "plural": {
+        "nom": "неумирающие арсеналы",
+        "gen": "неумирающих арсеналов",
+        "dat": "неумирающим арсеналам",
+        "acc": "неумирающие арсеналы",
+        "ins": "неумирающими арсеналами",
+        "prep": "неумирающих арсеналах"
+      },
+      "counted_few": "неумирающих арсенала"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.martyred_shade",
+    "kind": "monster",
+    "en": "martyred shade",
+    "en_plural": "martyred shades",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "тень мученика",
+        "gen": "тени мученика",
+        "dat": "тени мученика",
+        "acc": "тень мученика",
+        "ins": "тенью мученика",
+        "prep": "тени мученика"
+      },
+      "plural": {
+        "nom": "тени мучеников",
+        "gen": "теней мучеников",
+        "dat": "теням мучеников",
+        "acc": "теней мучеников",
+        "ins": "тенями мучеников",
+        "prep": "тенях мучеников"
+      },
+      "counted_few": "тени мучеников"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk_avatar",
+    "kind": "monster",
+    "en": "merfolk avatar",
+    "en_plural": "merfolk avatars",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "аватар русалок",
+        "gen": "аватара русалок",
+        "dat": "аватару русалок",
+        "acc": "аватара русалок",
+        "ins": "аватаром русалок",
+        "prep": "аватаре русалок"
+      },
+      "plural": {
+        "nom": "аватары русалок",
+        "gen": "аватаров русалок",
+        "dat": "аватарам русалок",
+        "acc": "аватаров русалок",
+        "ins": "аватарами русалок",
+        "prep": "аватарах русалок"
+      },
+      "counted_few": "аватара русалок"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.boulder_beetle",
+    "kind": "monster",
+    "en": "boulder beetle",
+    "en_plural": "boulder beetles",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "жук-валун",
+        "gen": "жука-валуна",
+        "dat": "жуку-валуну",
+        "acc": "жука-валуна",
+        "ins": "жуком-валуном",
+        "prep": "жуке-валуне"
+      },
+      "plural": {
+        "nom": "жуки-валуны",
+        "gen": "жуков-валунов",
+        "dat": "жукам-валунам",
+        "acc": "жуков-валунов",
+        "ins": "жуками-валунами",
+        "prep": "жуках-валунах"
+      },
+      "counted_few": "жука-валуна"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.clockwork_bee",
+    "kind": "monster",
+    "en": "clockwork bee",
+    "en_plural": "clockwork bees",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "заводная пчела",
+        "gen": "заводной пчелы",
+        "dat": "заводной пчеле",
+        "acc": "заводную пчелу",
+        "ins": "заводной пчелой",
+        "prep": "заводной пчеле"
+      },
+      "plural": {
+        "nom": "заводные пчёлы",
+        "gen": "заводных пчёл",
+        "dat": "заводным пчёлам",
+        "acc": "заводных пчёл",
+        "ins": "заводными пчёлами",
+        "prep": "заводных пчёлах"
+      },
+      "counted_few": "заводные пчелы"
+    },
+    "review": "reviewed"
   }
 ]
