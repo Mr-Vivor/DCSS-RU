@@ -166,8 +166,12 @@ def outputs(entities):
         "cards": terms.get("cards", {}),
         "unrand": terms.get("unrand", {}),
         "features": {key: system_messages.get(key) for key in reviewed.get("features", {})},
-        "mutations": {name.removeprefix("Bane of ").removeprefix("the ").lower() + " bane": title
-                      for name, title in terms.get("banes", {}).items()},
+        "mutations": {
+            **{name.removeprefix("Bane of ").removeprefix("the ").lower() + " bane": title
+               for name, title in terms.get("banes", {}).items()},
+            **{key: system_messages.get(key.removesuffix(" mutation"))
+               for key in reviewed.get("mutations", {}) if key.endswith(" mutation")},
+        },
         "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
     }
     reference_headings = {"items": "Предметы", "skills": "Навыки", "mutations": "Мутации и проклятия",

@@ -161,6 +161,8 @@ jobs:
           printf '%s\n' "$DCSS_DEPLOY_KNOWN_HOSTS" > "$RUNNER_TEMP/dcss-known-hosts"
           ssh -T -i "$RUNNER_TEMP/dcss-deploy-key" \
             -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes \
+            -o ConnectTimeout=20 -o ConnectionAttempts=2 \
+            -o ServerAliveInterval=15 -o ServerAliveCountMax=3 \
             -o "UserKnownHostsFile=$RUNNER_TEMP/dcss-known-hosts" \
             "$DCSS_DEPLOY_USER@$DCSS_DEPLOY_HOST" "deploy $GITHUB_SHA" \
             < package/dcss-ru-web-ubuntu24.tar.gz
