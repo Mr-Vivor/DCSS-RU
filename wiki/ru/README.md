@@ -239,3 +239,4 @@
 | `monster.merfolk_avatar` | [Аватар русалок](pages/monster.merfolk_avatar.md) | merfolk avatar | reviewed |
 | `monster.boulder_beetle` | [Жук-валун](pages/monster.boulder_beetle.md) | boulder beetle | reviewed |
 | `monster.clockwork_bee` | [Заводная пчела](pages/monster.clockwork_bee.md) | clockwork bee | reviewed |
+| `monster.erythrospite` | [Эритроспайт](pages/monster.erythrospite.md) | erythrospite | reviewed |

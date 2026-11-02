@@ -154,6 +154,9 @@
 @num@ endoplasms
 @num@ эндоплазм
 %%%%
+@num@ erythrospites
+@num@ эритроспайтов
+%%%%
 @num@ ettins
 @num@ эттинов
 %%%%
@@ -999,6 +1002,12 @@ a endoplasm
 %%%%
 a endoplasm's
 {f}эндоплазмы
+%%%%
+a erythrospite
+{m}эритроспайт
+%%%%
+a erythrospite's
+{m}эритроспайта
 %%%%
 a ettin
 {m}эттин
@@ -2476,6 +2485,12 @@ an endoplasm
 an endoplasm's
 {f}эндоплазмы
 %%%%
+an erythrospite
+{m}эритроспайт
+%%%%
+an erythrospite's
+{m}эритроспайта
+%%%%
 an ettin
 {m}эттин
 %%%%
@@ -3921,6 +3936,15 @@ endoplasm's
 %%%%
 endoplasms
 {pl}эндоплазмы
+%%%%
+erythrospite
+{m}эритроспайт
+%%%%
+erythrospite's
+{m}эритроспайта
+%%%%
+erythrospites
+{pl}эритроспайты
 %%%%
 ettin
 {m}эттин
@@ -5724,6 +5748,15 @@ the endoplasm's
 %%%%
 the endoplasms
 {pl}эндоплазмы
+%%%%
+the erythrospite
+{m}эритроспайт
+%%%%
+the erythrospite's
+{m}эритроспайта
+%%%%
+the erythrospites
+{pl}эритроспайты
 %%%%
 the ettin
 {m}эттин
@@ -8068,6 +8101,15 @@ your endoplasm's
 your endoplasms
 {pl}эндоплазмы
 %%%%
+your erythrospite
+{m}эритроспайт
+%%%%
+your erythrospite's
+{m}эритроспайта
+%%%%
+your erythrospites
+{pl}эритроспайты
+%%%%
 your ettin
 {m}эттин
 %%%%
@@ -9838,6 +9880,9 @@ your yaks
 {acc_few}@num@ endoplasms
 @num@ эндоплазмы
 %%%%
+{acc_few}@num@ erythrospites
+@num@ эритроспайтов
+%%%%
 {acc_few}@num@ ettins
 @num@ эттинов
 %%%%
@@ -10530,6 +10575,9 @@ your yaks
 %%%%
 {acc_many}@num@ endoplasms
 @num@ эндоплазм
+%%%%
+{acc_many}@num@ erythrospites
+@num@ эритроспайтов
 %%%%
 {acc_many}@num@ ettins
 @num@ эттинов
@@ -11224,6 +11272,9 @@ your yaks
 {acc_one}@num@ endoplasms
 @num@ эндоплазму
 %%%%
+{acc_one}@num@ erythrospites
+@num@ эритроспайта
+%%%%
 {acc_one}@num@ ettins
 @num@ эттина
 %%%%
@@ -11916,6 +11967,9 @@ your yaks
 %%%%
 {acc}a endoplasm
 {f}эндоплазму
+%%%%
+{acc}a erythrospite
+{m}эритроспайта
 %%%%
 {acc}a ettin
 {m}эттина
@@ -12669,6 +12723,9 @@ your yaks
 %%%%
 {acc}an endoplasm
 {f}эндоплазму
+%%%%
+{acc}an erythrospite
+{m}эритроспайта
 %%%%
 {acc}an ettin
 {m}эттина
@@ -13452,6 +13509,12 @@ your yaks
 %%%%
 {acc}endoplasms
 {pl}эндоплазмы
+%%%%
+{acc}erythrospite
+{m}эритроспайта
+%%%%
+{acc}erythrospites
+{pl}эритроспайтов
 %%%%
 {acc}ettin
 {m}эттина
@@ -14652,6 +14715,12 @@ your yaks
 %%%%
 {acc}the endoplasms
 {pl}эндоплазмы
+%%%%
+{acc}the erythrospite
+{m}эритроспайта
+%%%%
+{acc}the erythrospites
+{pl}эритроспайтов
 %%%%
 {acc}the ettin
 {m}эттина
@@ -16213,6 +16282,12 @@ your yaks
 {acc}your endoplasms
 {pl}эндоплазмы
 %%%%
+{acc}your erythrospite
+{m}эритроспайта
+%%%%
+{acc}your erythrospites
+{pl}эритроспайтов
+%%%%
 {acc}your ettin
 {m}эттина
 %%%%
@@ -17443,6 +17518,9 @@ your yaks
 {dat_few}@num@ endoplasms
 @num@ эндоплазмам
 %%%%
+{dat_few}@num@ erythrospites
+@num@ эритроспайтам
+%%%%
 {dat_few}@num@ ettins
 @num@ эттинам
 %%%%
@@ -18135,6 +18213,9 @@ your yaks
 %%%%
 {dat_many}@num@ endoplasms
 @num@ эндоплазмам
+%%%%
+{dat_many}@num@ erythrospites
+@num@ эритроспайтам
 %%%%
 {dat_many}@num@ ettins
 @num@ эттинам
@@ -18829,6 +18910,9 @@ your yaks
 {dat_one}@num@ endoplasms
 @num@ эндоплазме
 %%%%
+{dat_one}@num@ erythrospites
+@num@ эритроспайту
+%%%%
 {dat_one}@num@ ettins
 @num@ эттину
 %%%%
@@ -19521,6 +19605,9 @@ your yaks
 %%%%
 {dat}a endoplasm
 {f}эндоплазме
+%%%%
+{dat}a erythrospite
+{m}эритроспайту
 %%%%
 {dat}a ettin
 {m}эттину
@@ -20274,6 +20361,9 @@ your yaks
 %%%%
 {dat}an endoplasm
 {f}эндоплазме
+%%%%
+{dat}an erythrospite
+{m}эритроспайту
 %%%%
 {dat}an ettin
 {m}эттину
@@ -21057,6 +21147,12 @@ your yaks
 %%%%
 {dat}endoplasms
 {pl}эндоплазмам
+%%%%
+{dat}erythrospite
+{m}эритроспайту
+%%%%
+{dat}erythrospites
+{pl}эритроспайтам
 %%%%
 {dat}ettin
 {m}эттину
@@ -22257,6 +22353,12 @@ your yaks
 %%%%
 {dat}the endoplasms
 {pl}эндоплазмам
+%%%%
+{dat}the erythrospite
+{m}эритроспайту
+%%%%
+{dat}the erythrospites
+{pl}эритроспайтам
 %%%%
 {dat}the ettin
 {m}эттину
@@ -23818,6 +23920,12 @@ your yaks
 {dat}your endoplasms
 {pl}эндоплазмам
 %%%%
+{dat}your erythrospite
+{m}эритроспайту
+%%%%
+{dat}your erythrospites
+{pl}эритроспайтам
+%%%%
 {dat}your ettin
 {m}эттину
 %%%%
@@ -25048,6 +25156,9 @@ your yaks
 {few}@num@ endoplasms
 @num@ эндоплазмы
 %%%%
+{few}@num@ erythrospites
+@num@ эритроспайта
+%%%%
 {few}@num@ ettins
 @num@ эттина
 %%%%
@@ -25740,6 +25851,9 @@ your yaks
 %%%%
 {gen_few}@num@ endoplasms
 @num@ эндоплазм
+%%%%
+{gen_few}@num@ erythrospites
+@num@ эритроспайтов
 %%%%
 {gen_few}@num@ ettins
 @num@ эттинов
@@ -26434,6 +26548,9 @@ your yaks
 {gen_many}@num@ endoplasms
 @num@ эндоплазм
 %%%%
+{gen_many}@num@ erythrospites
+@num@ эритроспайтов
+%%%%
 {gen_many}@num@ ettins
 @num@ эттинов
 %%%%
@@ -27127,6 +27244,9 @@ your yaks
 {gen_one}@num@ endoplasms
 @num@ эндоплазмы
 %%%%
+{gen_one}@num@ erythrospites
+@num@ эритроспайта
+%%%%
 {gen_one}@num@ ettins
 @num@ эттина
 %%%%
@@ -27819,6 +27939,9 @@ your yaks
 %%%%
 {gen}a endoplasm
 {f}эндоплазмы
+%%%%
+{gen}a erythrospite
+{m}эритроспайта
 %%%%
 {gen}a ettin
 {m}эттина
@@ -28572,6 +28695,9 @@ your yaks
 %%%%
 {gen}an endoplasm
 {f}эндоплазмы
+%%%%
+{gen}an erythrospite
+{m}эритроспайта
 %%%%
 {gen}an ettin
 {m}эттина
@@ -29355,6 +29481,12 @@ your yaks
 %%%%
 {gen}endoplasms
 {pl}эндоплазм
+%%%%
+{gen}erythrospite
+{m}эритроспайта
+%%%%
+{gen}erythrospites
+{pl}эритроспайтов
 %%%%
 {gen}ettin
 {m}эттина
@@ -30555,6 +30687,12 @@ your yaks
 %%%%
 {gen}the endoplasms
 {pl}эндоплазм
+%%%%
+{gen}the erythrospite
+{m}эритроспайта
+%%%%
+{gen}the erythrospites
+{pl}эритроспайтов
 %%%%
 {gen}the ettin
 {m}эттина
@@ -32116,6 +32254,12 @@ your yaks
 {gen}your endoplasms
 {pl}эндоплазм
 %%%%
+{gen}your erythrospite
+{m}эритроспайта
+%%%%
+{gen}your erythrospites
+{pl}эритроспайтов
+%%%%
 {gen}your ettin
 {m}эттина
 %%%%
@@ -33346,6 +33490,9 @@ your yaks
 {ins_few}@num@ endoplasms
 @num@ эндоплазмами
 %%%%
+{ins_few}@num@ erythrospites
+@num@ эритроспайтами
+%%%%
 {ins_few}@num@ ettins
 @num@ эттинами
 %%%%
@@ -34038,6 +34185,9 @@ your yaks
 %%%%
 {ins_many}@num@ endoplasms
 @num@ эндоплазмами
+%%%%
+{ins_many}@num@ erythrospites
+@num@ эритроспайтами
 %%%%
 {ins_many}@num@ ettins
 @num@ эттинами
@@ -34732,6 +34882,9 @@ your yaks
 {ins_one}@num@ endoplasms
 @num@ эндоплазмой
 %%%%
+{ins_one}@num@ erythrospites
+@num@ эритроспайтом
+%%%%
 {ins_one}@num@ ettins
 @num@ эттином
 %%%%
@@ -35424,6 +35577,9 @@ your yaks
 %%%%
 {ins}a endoplasm
 {f}эндоплазмой
+%%%%
+{ins}a erythrospite
+{m}эритроспайтом
 %%%%
 {ins}a ettin
 {m}эттином
@@ -36177,6 +36333,9 @@ your yaks
 %%%%
 {ins}an endoplasm
 {f}эндоплазмой
+%%%%
+{ins}an erythrospite
+{m}эритроспайтом
 %%%%
 {ins}an ettin
 {m}эттином
@@ -36960,6 +37119,12 @@ your yaks
 %%%%
 {ins}endoplasms
 {pl}эндоплазмами
+%%%%
+{ins}erythrospite
+{m}эритроспайтом
+%%%%
+{ins}erythrospites
+{pl}эритроспайтами
 %%%%
 {ins}ettin
 {m}эттином
@@ -38160,6 +38325,12 @@ your yaks
 %%%%
 {ins}the endoplasms
 {pl}эндоплазмами
+%%%%
+{ins}the erythrospite
+{m}эритроспайтом
+%%%%
+{ins}the erythrospites
+{pl}эритроспайтами
 %%%%
 {ins}the ettin
 {m}эттином
@@ -39721,6 +39892,12 @@ your yaks
 {ins}your endoplasms
 {pl}эндоплазмами
 %%%%
+{ins}your erythrospite
+{m}эритроспайтом
+%%%%
+{ins}your erythrospites
+{pl}эритроспайтами
+%%%%
 {ins}your ettin
 {m}эттином
 %%%%
@@ -40951,6 +41128,9 @@ your yaks
 {many}@num@ endoplasms
 @num@ эндоплазм
 %%%%
+{many}@num@ erythrospites
+@num@ эритроспайтов
+%%%%
 {many}@num@ ettins
 @num@ эттинов
 %%%%
@@ -41643,6 +41823,9 @@ your yaks
 %%%%
 {nom}a endoplasm
 {f}эндоплазма
+%%%%
+{nom}a erythrospite
+{m}эритроспайт
 %%%%
 {nom}a ettin
 {m}эттин
@@ -42396,6 +42579,9 @@ your yaks
 %%%%
 {nom}an endoplasm
 {f}эндоплазма
+%%%%
+{nom}an erythrospite
+{m}эритроспайт
 %%%%
 {nom}an ettin
 {m}эттин
@@ -43179,6 +43365,12 @@ your yaks
 %%%%
 {nom}endoplasms
 {pl}эндоплазмы
+%%%%
+{nom}erythrospite
+{m}эритроспайт
+%%%%
+{nom}erythrospites
+{pl}эритроспайты
 %%%%
 {nom}ettin
 {m}эттин
@@ -44379,6 +44571,12 @@ your yaks
 %%%%
 {nom}the endoplasms
 {pl}эндоплазмы
+%%%%
+{nom}the erythrospite
+{m}эритроспайт
+%%%%
+{nom}the erythrospites
+{pl}эритроспайты
 %%%%
 {nom}the ettin
 {m}эттин
@@ -45940,6 +46138,12 @@ your yaks
 {nom}your endoplasms
 {pl}эндоплазмы
 %%%%
+{nom}your erythrospite
+{m}эритроспайт
+%%%%
+{nom}your erythrospites
+{pl}эритроспайты
+%%%%
 {nom}your ettin
 {m}эттин
 %%%%
@@ -47170,6 +47374,9 @@ your yaks
 {one}@num@ endoplasms
 @num@ эндоплазма
 %%%%
+{one}@num@ erythrospites
+@num@ эритроспайт
+%%%%
 {one}@num@ ettins
 @num@ эттин
 %%%%
@@ -47862,6 +48069,9 @@ your yaks
 %%%%
 {prep_few}@num@ endoplasms
 @num@ эндоплазмах
+%%%%
+{prep_few}@num@ erythrospites
+@num@ эритроспайтах
 %%%%
 {prep_few}@num@ ettins
 @num@ эттинах
@@ -48556,6 +48766,9 @@ your yaks
 {prep_many}@num@ endoplasms
 @num@ эндоплазмах
 %%%%
+{prep_many}@num@ erythrospites
+@num@ эритроспайтах
+%%%%
 {prep_many}@num@ ettins
 @num@ эттинах
 %%%%
@@ -49249,6 +49462,9 @@ your yaks
 {prep_one}@num@ endoplasms
 @num@ эндоплазме
 %%%%
+{prep_one}@num@ erythrospites
+@num@ эритроспайте
+%%%%
 {prep_one}@num@ ettins
 @num@ эттине
 %%%%
@@ -49941,6 +50157,9 @@ your yaks
 %%%%
 {prep}a endoplasm
 {f}эндоплазме
+%%%%
+{prep}a erythrospite
+{m}эритроспайте
 %%%%
 {prep}a ettin
 {m}эттине
@@ -50694,6 +50913,9 @@ your yaks
 %%%%
 {prep}an endoplasm
 {f}эндоплазме
+%%%%
+{prep}an erythrospite
+{m}эритроспайте
 %%%%
 {prep}an ettin
 {m}эттине
@@ -51477,6 +51699,12 @@ your yaks
 %%%%
 {prep}endoplasms
 {pl}эндоплазмах
+%%%%
+{prep}erythrospite
+{m}эритроспайте
+%%%%
+{prep}erythrospites
+{pl}эритроспайтах
 %%%%
 {prep}ettin
 {m}эттине
@@ -52677,6 +52905,12 @@ your yaks
 %%%%
 {prep}the endoplasms
 {pl}эндоплазмах
+%%%%
+{prep}the erythrospite
+{m}эритроспайте
+%%%%
+{prep}the erythrospites
+{pl}эритроспайтах
 %%%%
 {prep}the ettin
 {m}эттине
@@ -54237,6 +54471,12 @@ your yaks
 %%%%
 {prep}your endoplasms
 {pl}эндоплазмах
+%%%%
+{prep}your erythrospite
+{m}эритроспайте
+%%%%
+{prep}your erythrospites
+{pl}эритроспайтах
 %%%%
 {prep}your ettin
 {m}эттине

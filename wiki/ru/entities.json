@@ -5812,5 +5812,31 @@
       "counted_few": "заводные пчелы"
     },
     "review": "reviewed"
+  },
+  "monster.erythrospite": {
+    "title": "Эритроспайт",
+    "en": "erythrospite",
+    "en_plural": "erythrospites",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "эритроспайт",
+        "gen": "эритроспайта",
+        "dat": "эритроспайту",
+        "acc": "эритроспайта",
+        "ins": "эритроспайтом",
+        "prep": "эритроспайте"
+      },
+      "plural": {
+        "nom": "эритроспайты",
+        "gen": "эритроспайтов",
+        "dat": "эритроспайтам",
+        "acc": "эритроспайтов",
+        "ins": "эритроспайтами",
+        "prep": "эритроспайтах"
+      },
+      "counted_few": "эритроспайта"
+    },
+    "review": "reviewed"
   }
 }
