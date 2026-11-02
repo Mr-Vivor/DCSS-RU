@@ -5184,6 +5184,457 @@
       "source_sha256": "b7941d36c622839541c9570b4a5bca33e324ac70f6f9e8fbfd73790ced12e42b",
       "text": "Гнев Игниса не позволяет вам получать сопротивление огню.",
       "context": "Current mutations.txt/status.txt and mechanics reviewed: XP-based bane recovery, movement binding versus paralysis, fixed Dilettante skill selection, adjacent-source Warding, remaining Indom healing and Salvo charges (including decay over time in player-reacts.cc). Canonical skill, spell and ability names shared with terms.json; raw lookup IDs and Lua unchanged."
+    },
+    "Fast status": {
+      "source_sha256": "dbde8a0df68c695417207d9f0fa12d8664479bcb4bd5d1f9a9fdcdc6d3ab53a2",
+      "text": "Скорость всех ваших действий увеличена на 50%.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Invis status": {
+      "source_sha256": "803b4a5db9a4be8de8d557971367eea2ed069ac58a9c4ff82990c6d10c8d9118",
+      "text": "Вы невидимы. Большинство врагов не сможет вас видеть и будет получать штраф к попаданию, хотя иногда сможет догадаться о вашем приблизительном местоположении.\n\nЕсли индикатор серый, эффект действует, но по какой-то причине не помогает. Например, вы можете светиться из-за магического загрязнения или стоять в мелкой воде.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Tele status": {
+      "source_sha256": "666a09e34b6211d6094bcdcd9ea8f62cb58bad1e715aaad8af39dcb70e8005e7",
+      "text": "Вы скоро телепортируетесь. Пока вы ждёте, повторная попытка вызвать телепортацию, например свитком телепортации, отменит её.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "!Tele! status": {
+      "source_sha256": "19c9dfcc8a9e0ad9aa35b3fbb608822309d432080893c066d08523e4db65d7c1",
+      "text": "Вы скоро телепортируетесь поближе к враждебным монстрам, если это возможно. Повторная попытка телепортации до переноса, например с помощью свитка телепортации, отменит этот перенос.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Fly status": {
+      "source_sha256": "486ed898a5741348d77e47f2ad178ac2d6c4c9954ca13eb43a341b1defe3afa2",
+      "text": "Вы летите над землёй и можете пересекать воду и лаву, а также сражаться над мелкой водой без штрафов. Большинство видов полёта ограничены по времени — следите, над чем вы окажетесь, когда эффект закончится!",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Agi status": {
+      "source_sha256": "4736d1da6334825ea340c0df120a723fd1337a087e9f56c84520d1e6416e0aab",
+      "text": "Неестественная проворность даёт вам прибавку к уклонению.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Brill status": {
+      "source_sha256": "0c119f77a1b2b9415b2c314edc049c30d9c076eb08b7dc579334bd8ecae137ea",
+      "text": "Мощность ваших заклинаний повышена, а расход магии уменьшен вдвое с округлением вверх.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Might status": {
+      "source_sha256": "26fa4edaf2747e841cb46c08074d659a004f52c1e600ce64c20ab2d34f0065ce",
+      "text": "Вы наделены необычайной мощью и наносите значительно больше урона в ближнем бою.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Regen status": {
+      "source_sha256": "7d4f1a3dadbfcf906d3dbfa15f54565201be9c08eac388b0e30f5f0a0ebde86f",
+      "text": "Вы восстанавливаете здоровье с необычайной скоростью. Этот индикатор показывается только при временном ускорении регенерации.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "-Regen status": {
+      "source_sha256": "8bdffbf29c3e4cbe93f435382750f19ccf6d0353ed7f2b4747a4b12837d44d45",
+      "text": "Восстановление здоровья остановлено из-за присутствия замеченных поблизости опасных врагов.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "MPRegen status": {
+      "source_sha256": "e7d3b58de4288127ac2fae9cdb0fac608f7e43bab586b2a285e52c988ac52acc",
+      "text": "Вы восстанавливаете здоровье и магию с необычайной скоростью. Этот индикатор показывается только при временном ускорении восстановления.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Touch status": {
+      "source_sha256": "fb45fbf0c530c53a0baca2f551b489c8f8ae63fc38260fa87b605534e50221d7",
+      "text": "Ваши удары в ближнем бою не наносят урона, но при попадании могут вызвать у монстра замешательство.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Will++ status": {
+      "source_sha256": "f8591a50a872171ad5b23d1e7ab8437fe0ad6265afb75cfb28f0b9580fd6fc20",
+      "text": "Ваша Воля значительно усилена и защищает от многих магических воздействий.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Regen Will++ status": {
+      "source_sha256": "ce19a399760fd3c513dae37f0e866544ef6d1b4ef68405a98367b3d6451a8845",
+      "text": "Рука Трога одновременно резко ускоряет восстановление здоровья и усиливает вашу Волю, защищая от многих магических воздействий.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Berserk status": {
+      "source_sha256": "33a6be40fce47f37dfa63254284cd894a82a555189b98ec6360c83f628f98176",
+      "text": "Ваши действия ускорены, урон в бою повышен, а запас здоровья увеличен. Однако большинство действий, кроме передвижения и атак в ближнем бою, недоступны.\n\nЭффект очень быстро закончится, если вы не атакуете монстров. После его окончания вы замедлитесь и некоторое время не сможете снова впасть в ярость.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "-Berserk status": {
+      "source_sha256": "0f5fa6197efac2134205245d69d2ac7b42128d36886977a9d8c057f1c3708bb3",
+      "text": "Вы приходите в себя после ярости берсерка и некоторое время не можете впасть в неё снова.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Bearserk status": {
+      "source_sha256": "b7d0b285f3a5d325f3783560f71425f9cddf90da10d5c05f71560ed86233c76d",
+      "text": "Вас охватила медвежья ярость! Ваши действия ускорены, удары чудовищно сильны, а запас здоровья значительно увеличен. Зато почти всё, кроме передвижения и терзания врагов в ближнем бою, недоступно.\n\nЭффект очень быстро закончится, если вы не атакуете врагов. После его окончания вы замедлитесь и некоторое время не сможете снова впасть в медвежью ярость.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Pois status": {
+      "source_sha256": "6b75aa369c9161494c99688d042e98ee5cdae7b506dda10879277faf58f0d7b8",
+      "text": "Вы отравлены и постепенно теряете здоровье. Подсветка текущего здоровья показывает, сколько урона ещё нанесёт яд. Зелье исцеления немедленно устраняет отравление.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Conf status": {
+      "source_sha256": "ddc5da9e7d7ef9680e7e678aafceffebf99e0002b065d7b57c095b8ad81ca404",
+      "text": "Вы в замешательстве. При попытке передвинуться или атаковать вы можете шагнуть в случайную сторону. Нельзя колдовать и пользоваться большинством предметов, кроме зелий. Зелье исцеления немедленно устраняет замешательство.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Contam status": {
+      "source_sha256": "84a22a42421ebda67062d3d5ad83011d9b30ab437c3f497fa207bcd33fc14313",
+      "text": "Вы светитесь от мутагенного излучения. Со временем оно может вызывать мутации, обычно вредные, и даже наносить урон, когда нестабильная магия бурно взрывается. Кроме того, свечение мешает невидимости и снижает скрытность.\n{{\n    local dmg = you.contam_max_damage();\n    if dmg > 0 then\n        return \"\\nПри вашем текущем уровне загрязнения взрыв может \" ..\n               \"нанести до \" .. dmg .. \" урона.\"\n    end\n}}",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged.",
+      "lua_strings": {
+        "\nAn explosion at your current level of contamination could ": "\nПри вашем текущем уровне загрязнения взрыв может ",
+        "inflict up to ": "нанести до ",
+        " damage.": " урона."
+      },
+      "wiki_text": "Вы светитесь от мутагенного излучения. Со временем оно может вызывать мутации, обычно вредные, и даже наносить урон, когда нестабильная магия бурно взрывается. Кроме того, свечение мешает невидимости и снижает скрытность.\nМаксимальный урон возможного взрыва зависит от текущего магического загрязнения."
+    },
+    "Drain status": {
+      "source_sha256": "e18d6a683843e8219dc32db4a696504a70364b1d89fbe6fb08f87c1346f1a1e1",
+      "text": "Отрицательная энергия временно уменьшила ваш максимальный запас здоровья. Ожидание не снимет этот эффект: он постепенно исчезает по мере получения опыта.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "-Breath status": {
+      "source_sha256": "92de206559ebad3209e5e9ed0822e65a6bc22580f6f57fba8ee51fb7815bf713",
+      "text": "Вы восстанавливаете дыхание и пока не можете пользоваться врождённым дыхательным оружием.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Breath status": {
+      "source_sha256": "97b75a77c8ef860dd1a32a9725b0c6cc3788d1a14f5603ebec06d6db9a3f625f",
+      "text": "Индикатор показывает число доступных применений дыхательного оружия драконида. Если он тусклый, применений не осталось. Иначе знаки плюса показывают дополнительные доступные применения.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Exh status": {
+      "source_sha256": "8a7c46d4138f9fe178611ee2056cf5ae388dfc9c284ead12a69ddf417e295c9d",
+      "text": "Вы истощены и пока не можете применять божественные силы, вызывающие истощение.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Slow status": {
+      "source_sha256": "c136589dad5359d9f6b8ba381bacb0e00fc435b5d841cb4428a3a7939ca3a555",
+      "text": "Все ваши действия занимают на 50% больше времени.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Para status": {
+      "source_sha256": "de0a2ea79e8d56b28f690cf5f7eb202f0a5429bf54f21f7aac8bcea2d0867a24",
+      "text": "Вы парализованы и совершенно не можете действовать.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Sleep status": {
+      "source_sha256": "9842e744ab13790dc3826e9e44343e6b799cca9db21d1ded4bff4fde1cff1011",
+      "text": "Вы спите и совершенно не можете действовать. Получение урона разбудит вас.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Held status": {
+      "source_sha256": "5dd6913575cfc5952d23b41342e76c4ee9e62bf19080f479c8bddfdfa8036a3f",
+      "text": "Вас держит сеть или паутина. Свободно передвигаться нельзя: вместо этого вы будете пытаться вырваться.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Constr status": {
+      "source_sha256": "f40884aac5ff345bba63e4c82f0514c9226881721c0c040672a848ba45263f30",
+      "text": "Враг сдавливает вас. Уклонение ухудшено, и вы периодически получаете урон. Отойти от врага нельзя, но попытка сделать это позволяет побороться за освобождение. При повторных попытках вероятность вырваться из хватки увеличивается.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Mesm status": {
+      "source_sha256": "609c86eb13ef9acdc3962cbc33ca10e31afc71211dc12c859dbacc4dc5c8a048",
+      "text": "Вы заворожены и не можете отходить от заворожившего вас монстра. Эффект можно прекратить, убив его, вызвав у него замешательство или выйдя из его поля зрения.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Fear status": {
+      "source_sha256": "57d1303552278a3355b8d7ec03475c2dced1391bacbd311b0dafe381912a4ff1",
+      "text": "Вас охватил страх: нельзя приближаться к монстру, который его вызывает. Эффект можно прекратить, убив этого монстра, вызвав у него замешательство или выйдя из его поля зрения.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "-Tele status": {
+      "source_sha256": "2c7eb30275da1404041aff3c470a08f3c00c0a0df42d40887c33d8f043ed78dc",
+      "text": "Вы не можете телепортироваться или совершать скачки.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "-Move status": {
+      "source_sha256": "e57424c3ae981aa390f1181f7bf0b74ff0d4c39705204f0bf0a8e420b6c01361",
+      "text": "Вы не можете самостоятельно ходить, летать, ползать и так далее. Остальные действия доступны. Вас всё ещё можно переместить магией перемещений, толкнуть, притянуть и тому подобным способом.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Mark status": {
+      "source_sha256": "d8a78b0510e10406357c5b4efc621f321874cb94a1bd06bc5e0317389806353b",
+      "text": "Ловушка или заклинание пометили ваше местоположение. Монстры будут точнее преследовать вас и смогут обнаруживать, даже не видя вас.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Fire status": {
+      "source_sha256": "add3ff15b8c36191bb057ee6cccc4110da786bd528a7eb7ef12a5561e0b5c4b8",
+      "text": "Вас покрывает липкое пламя, некоторое время наносящее урон. Движение помогает погасить его гораздо быстрее, а вход в воду тушит немедленно.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Corona status": {
+      "source_sha256": "1297f346b02fcd52fab3bdbea04514e8266699220588a62d8912f0ac4434d2db",
+      "text": "Вас окружает свечение. Скрытность значительно снижена, и по вам легче попасть.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Barbs status": {
+      "source_sha256": "90840d34147156a5b127772a69e27c39d374d28b4fca8e37d6a5c747a79699fc",
+      "text": "В вашей коже застряли колючки: передвижение причиняет урон. Если некоторое время оставаться на месте, колючки можно извлечь без повреждений.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Sick status": {
+      "source_sha256": "b88e929f1a3e6c7c29285bb1ced95b75f2449335a47042bdce8328c61e60c97f",
+      "text": "Вы больны, и здоровье не восстанавливается.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Vertigo status": {
+      "source_sha256": "a6552f74805fe453e4230acf3ff191fbd09416852775792bcce2d36a103cb467",
+      "text": "Вы дезориентированы и страдаете от головокружения. Точность, уклонение и вероятность успешного сотворения заклинаний снижены.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Weak status": {
+      "source_sha256": "89810724488c102acb71e0c5da2585d7bda79b748dff63281119fcfdeaccd2f3",
+      "text": "Ваши атаки в ближнем бою наносят на 25% меньше урона.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Frozen status": {
+      "source_sha256": "be553d3efab125aaa95f0926fac03591c562b673305b340cbdb93237f045e8b9",
+      "text": "Вас покрывает лёд, замедляющий передвижение.",
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged."
+    },
+    "Sap status": {
+      "source_sha256": "dbcb56a85b6d721ca064bd2faff096bd23fcaed087f9872bf7d98ad47a6a3f64",
+      "text": "Ваша магия подавлена. Сотворив заклинание, вы ненадолго потеряете доступ к магии и не сможете колдовать снова, пока этот запрет не закончится.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Cast status": {
+      "source_sha256": "3c833141385af26b00d8acd5c1084f528abeb12751c260d851334b5a1eca5e80",
+      "text": "Вы не можете колдовать.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Crippled status": {
+      "source_sha256": "9bcf3d6fcb3d8766e379fd73bd0fa3617a013f4c7fbc0d645442ea115cd4db0a",
+      "text": "Хотя бы одна из ваших характеристик — Сила, Интеллект или Ловкость — снизилась до 0 или ниже. Пока это не исправлено, вы действуете медленнее.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "DChan status": {
+      "source_sha256": "c3b46caf62886460d9d3f9c01f8e140fdc312f5e23297d96f78c6c3a6d135f02",
+      "text": "Вы направляете силу мёртвых: живые существа, погибшие поблизости, восстают вашими призрачными слугами.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Vit status": {
+      "source_sha256": "c3eb25560e70f40b1c330182257d9ded1add2f10ed8d77119f50d96c2621c387",
+      "text": "Божественная жизненная сила защищает вас от яда, замешательства, окаменения и болезни. Она также увеличивает ваши Силу, Интеллект и Ловкость и защищает эти характеристики от снижения.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Will/2 status": {
+      "source_sha256": "f29e542a97d8344cbb6f2624337deba9d171b333365bb4436fa5a7c9132fa735",
+      "text": "Ваша Воля ослаблена, и вы уязвимее к многим магическим воздействиям.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Stone status": {
+      "source_sha256": "4c4a37bf03e379fc9f07af1f09437ea00e9e3072913fe5aef1b4782af74d6681",
+      "text": "Вы окаменели и совершенно не можете действовать. По вам очень легко попасть, но весь получаемый урон значительно уменьшен.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Petr status": {
+      "source_sha256": "61127861068552c10fede6397236488b0eacd08d0df29bed42530afb9caa76b8",
+      "text": "Вы превращаетесь в камень. Действия замедлены, весь получаемый урон немного уменьшен, и вскоре вы полностью окаменеете, получив состояние окаменения.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Resist status": {
+      "source_sha256": "2a8041ef1cea440851f99f76a38d371b2ae6e222317caa6e62f2efaf18f8fe7c",
+      "text": "Ваше сопротивление огню, холоду, электричеству, яду и кислоте повышено.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Slime status": {
+      "source_sha256": "8a847598f11e216e26b4c115f95f10f95494ff1225047cb8f6e8145d3269231e",
+      "text": "Ваше оружие в руках или кулаки покрыты слизью. Следующее живое существо или телесная нежить, по которым вы попадёте, превратятся в нейтральную слизь.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Swift status": {
+      "source_sha256": "97a53e486741f62e9295fc4b758aa7569f6a4fb8065c25d8971dfd5ee76d0390",
+      "text": "Вы быстро передвигаетесь.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Swift status": {
+      "source_sha256": "7be02ecb697a5f5093a77da27c87046f1dfe84e068925a36542a3e1259e18c09",
+      "text": "Вы медленно передвигаетесь.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "DDoor status": {
+      "source_sha256": "5cb5934e3f26396fbfa5480b83ea980893bffc5c12d6db72516d0c66793814fe",
+      "text": "Вы временно неуязвимы, но при этом находитесь на грани смерти и не можете получать исцеление, пока действует эффект. После окончания заклинание нельзя немедленно повторить.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-DDoor status": {
+      "source_sha256": "54fc1cae72f298cbfd4922bb1de3110b406d77c083a9047bd2d3c9c7e5713712",
+      "text": "Вы всё ещё на грани смерти и некоторое время не можете повторить заклинание «Порог смерти».",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Quad status": {
+      "source_sha256": "e5de5f92406c75bdcb8746d4a569c012ae3236dc4fc0c9c3e8b1b6b57757d6c4",
+      "text": "ЧЕТЫРЁХКРАТНЫЙ УРОН!",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Sil status": {
+      "source_sha256": "2fec30bcfccbdd7f55c60dc4179307dd1c82ba374cdff80f86af33e7a895cb73",
+      "text": "Вас окружает безмолвие. Нельзя читать свитки, колдовать, взывать к божественным силам или кричать.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Flooded status": {
+      "source_sha256": "89fd9890b4163010487a6ee46edb9a521c53b8e344bb7c9f92030f89a0406855",
+      "text": "Жидкость заполнила ваши лёгкие и мешает нормально дышать. Нельзя читать свитки, колдовать и взывать к божественным силам. Кроме того, каждый ход вы получаете урон от удушья.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Stealth status": {
+      "source_sha256": "c8e9a0a35a543d1888356be8254caf5d2f76135f0c44db313042aa46a43bfe04",
+      "text": "Ваша скрытность значительно повышена.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Vortex status": {
+      "source_sha256": "226c0c33fd224457f3260223761b1867a0315762fcbb2572ae548d4758aa0000",
+      "text": "Вы находитесь в центре могучей ледяной бури. Когда вихрь рассеется, его некоторое время нельзя будет вызвать снова.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Vortex status": {
+      "source_sha256": "95c7f592d2c65bdc4d8c45c831d4dd566b9b7629913bcaee9daab70371feb2ac",
+      "text": "Вас окружают нестабильные ветры. Некоторое время вы не можете повторить заклинание «Полярный вихрь».",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Liquid status": {
+      "source_sha256": "474a685fc0f97d8ac33497bdf4581aa3e8e2506a4462355c0d435c07a928d862",
+      "text": "Вы разжижаете землю вокруг себя, замедляя передвижение всех существ в этой области.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Hero status": {
+      "source_sha256": "ec48c4cf0f54133fe6db6c49831d5b7c260ac9cedcded2baeba797bca388cd45",
+      "text": "Ваши боевые навыки временно повышены.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Finesse status": {
+      "source_sha256": "c311492a8a38b9a6090daa8e0742bdffc1c0fada5b028f6774c5cb72e919f0c5",
+      "text": "Скорость ваших атак значительно повышена.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Duel status": {
+      "source_sha256": "a79296a6a0f671d332361f90912534c0a336b4fb7a9d015ff299f0eef7c0ee9e",
+      "text": "Вы сражаетесь с врагом один на один на арене Окавару. При победе вас вернут туда, откуда вы пришли.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Disjoin status": {
+      "source_sha256": "350a8080110f6ba435f36e62d13a0c42f924ae75a519239ec19bae070c3a920a",
+      "text": "Вы дестабилизируете пространство вокруг себя. Ближайшие монстры случайными скачками переносятся прочь от вас.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Debt status": {
+      "source_sha256": "385d2290fb8c4c592d83b80768996a654aa0223bc862a17f0c464c1d0b4bad9b",
+      "text": "Вы потратили больше, чем могли себе позволить. Золото нельзя тратить, пока вы не заработаете достаточно для погашения долга.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Toxic status": {
+      "source_sha256": "64f617f494c95ab997152185de6c2e06e3b4ab5254bc04a8139a1a18a64f0b58",
+      "text": "Вы излучаете ядовитую энергию, непрерывно отравляя уязвимых к ней существ поблизости.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Recite status": {
+      "source_sha256": "41a56364e9868d6dd40952dda458e596aa5b2ddd1047761bcb7270caa06a3cac",
+      "text": "Вы читаете законы Зина ближайшим монстрам. Их воздействие зависит от цели. Закончив чтение, вы некоторое время не сможете повторить его.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Recite status": {
+      "source_sha256": "3d7a8d6d27b1c189d07b043c705a1657751173aa709532ab39e1513cdf7cd737",
+      "text": "Вы недавно закончили читать законы Зина и некоторое время не можете начать снова.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "rF- status": {
+      "source_sha256": "9b44fd3670389eb4309516c92f0c3d3a95bcd801bb55c5877b29072e26a46ebc",
+      "text": "Ваша уязвимость к огню повышена.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "rP- status": {
+      "source_sha256": "359a65ac61131ba048968a2ca35f62ef5d924b78b39a2774191e02217843029e",
+      "text": "Ваша уязвимость к яду повышена.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Bullseye status": {
+      "source_sha256": "941a605ee2b0172d373f8c8c5002bfd7471a7ea3fbe280a7b6b1dbeaadf42593",
+      "text": "Вы отметили врага пространственной мишенью. Снаряды, выпущенные или брошенные в другого врага, будут также телепортироваться к отмеченной цели.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Forest status": {
+      "source_sha256": "a7fa581c2e0906213584e21bec839924886aacf4d35f363eae43b925b445e084",
+      "text": "Вы временно вызываете лесное измерение и пробуждаете ближайшие деревья, чтобы они причиняли вред вашим врагам.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Dragoncall status": {
+      "source_sha256": "f0dab2e731f86e4d225f28ce65a410f0dbbe49e2a8fdc692a68141681b3bc0e7",
+      "text": "Вы призываете могучих драконов атаковать ваших врагов. Каждый откликнувшийся дракон расходует ваш запас магии. После окончания призыва его некоторое время нельзя будет повторить.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Dragoncall status": {
+      "source_sha256": "fbd15ffda1c3c261352103dbe6d2c6d58255f2d034b3853adc6864fd3643a505",
+      "text": "Вы недавно призывали драконов и некоторое время не можете повторить заклинание «Зов драконов».",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Potion status": {
+      "source_sha256": "df5f58be57b30f723b60815318e1a14f84fa40407b8d3ec4260e0d2f6374b2bd",
+      "text": "Вы не можете пить зелья.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "rF+ status": {
+      "source_sha256": "baf624cbea0f6234824d3887bb04a497db21db004fa86d38e80f38ac6ecc0b79",
+      "text": "Ваше сопротивление огню повышено.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "rC+ status": {
+      "source_sha256": "4944edce7e768a0065557d21325f81ea87aee5fadf41c8d1b45421a12b18f5da",
+      "text": "Ваше сопротивление холоду повышено.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "rElec+ status": {
+      "source_sha256": "63643cdcef0bdad770acdaff386704e1bde8f6308cd03799ac6db0a64930af17",
+      "text": "Ваше сопротивление электричеству повышено.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "-Scroll status": {
+      "source_sha256": "119818a4c8091f7c92593c9bac58f6ec301e99c833245689187871363f040c35",
+      "text": "Вы не можете читать свитки.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Cleave status": {
+      "source_sha256": "13776c7b400502b4947961c0e07f2e8fb9193e6e18f71a252a5ff93e35f9d683",
+      "text": "Ваши атаки в ближнем бою рассекают соседние цели, поражая их все.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Ambros status": {
+      "source_sha256": "0172514c80d8674351c833bb6d99cda43c6254fc3b65218228b70774d5e52c8b",
+      "text": "Вы восстанавливаете здоровье и магию, но при этом находитесь в замешательстве. Устранение замешательства также прекратит восстановление.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Surge status": {
+      "source_sha256": "a62141abb32f27c472b8cba2a70462a0d919ee852fc3a283c97a0e8e3d1f08ab",
+      "text": "Следующее применение активируемого устройства будет усилено ценой части вашего запаса магии.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Howl status": {
+      "source_sha256": "0a5648f330b6b1cd25bd08dd7edc14ad7de190f43fce1bb690b24371cff35bb8",
+      "text": "В вашем разуме звучит эхом ужасающий вой, призывающий могущественных существ атаковать вас.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Blood status": {
+      "source_sha256": "780d654c18f62708ea4ac9dc4390717e0eac7798fcb85fb47f1e909a74ce4ebb",
+      "text": "Ваше тело покрывает свернувшаяся кровь, служащая бронёй, пока ваши раны остаются тяжёлыми.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Channel status": {
+      "source_sha256": "64b2790011fe4f741e6d09d62cc757e21412e4c9e7b150173a08439d079f8033",
+      "text": "Вы поддерживаете поток магической энергии.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Beast status": {
+      "source_sha256": "4bef7e064083b68198403e0357b9c5e9fb39a411ab08000ac1a6c4d0cacc34ea",
+      "text": "Вы превратились в чудовищного мохнатого зверя-оборотня. Свирепая энергия пульсирует в ваших конечностях, поддерживая готовность убивать.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Flux status": {
+      "source_sha256": "d1a845d1ad84325115d2c3b9f3843cbd7fb5c690f75b199ddbc1b2712279cc10",
+      "text": "Вы нестабильны на самом глубоком уровне. Каждое касание накладывает на врагов опасное магическое загрязнение. Накопив достаточно загрязнения, цель подвергается крайне локальному магическому распаду, наносящему огромный урон.\n\nЭта нестабильность не позволяет вам пользоваться оружием, щитами и нательной бронёй. Кроме того, вы светитесь, что снижает скрытность и мешает невидимости. Ваши удары в ближнем бою слабее, потому что конечности иногда теряют устойчивость посреди замаха.",
+      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
     }
   },
   "cards": {

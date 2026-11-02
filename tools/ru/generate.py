@@ -158,6 +158,15 @@ def outputs(entities):
     reviewed = reviewed_descriptions()
     item_names = {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "item"}
     item_names.update(terms.get("items", {}))
+    status_labels = {key: value for group in static.values() for key, value in group.items()}
+    status_labels.update(term_entries)
+    status_labels.update(system_messages)
+    status_names = {}
+    for key in reviewed.get("status", {}):
+        label = key.removesuffix(" status")
+        title = status_labels.get("{status}" + label) or status_labels.get(label)
+        if title:
+            status_names[key] = re.sub(r"^(?:\{[^}]+\})+", "", title)
     reference_names = {
         "items": item_names,
         "skills": terms["skill"],
@@ -173,8 +182,9 @@ def outputs(entities):
                for key in reviewed.get("mutations", {}) if key.endswith(" mutation")},
         },
         "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
+        "status": status_names,
     }
-    reference_headings = {"items": "Предметы", "skills": "Навыки", "mutations": "Мутации и проклятия",
+    reference_headings = {"items": "Предметы", "skills": "Навыки", "mutations": "Мутации и проклятия", "status": "Состояния",
                           "spells": "Заклинания", "ability": "Способности", "monsters": "Монстры", "cards": "Карты", "unrand": "Уникальные артефакты", "features": "Местность, переходы и ловушки"}
     reference = {}
     reference_index = ["# Справочник предметов, навыков и способностей", "",
@@ -208,6 +218,10 @@ def outputs(entities):
             if not title:
                 continue  # Shared description fragments and ego lookup keys are not item names.
             slug = page_slug(key)
+            if filename == "status" and key.startswith("-"):
+                # A blocked/cooling-down state must not overwrite its active
+                # counterpart (Swift/-Swift, Regen/-Regen, Tele/-Tele, ...).
+                slug = "no-" + page_slug(key[1:])
             body = entry.get("wiki_text", entry["text"])
             if filename == "unrand":
                 power_key = key.lower()

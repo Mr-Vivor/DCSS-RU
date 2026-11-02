@@ -48970,6 +48970,66 @@
     "You rip the existence from @arg@ to re-knit yourself!": {
       "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
       "translation_sha256": "5b04e20fd176a10c325427a070c778e53cae95f8354c88f1908da0c85f85424b"
+    },
+    "{status}MPRegen": {
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged.",
+      "translation_sha256": "f4574fff729fa8b5bfc686b7cfe627e9bcd9417f1c239d7c32cfbf258c3ae7b9"
+    },
+    "{status}Will++": {
+      "context": "Current status.txt and status_light_description lookup IDs; melee-attack.cc might modifier, actor.cc constriction, player.cc inhibition of regeneration, contamination Lua calculation and current potion names. Haste means speed multiplied by 1.5; Slow means time multiplied by 1.5, not half speed. Brilliance does not grant Intelligence. Might is melee damage, not Strength or all ranged attacks. MPRegen is a legacy combined HP/MP regeneration description. Movement binding permits other actions and forced relocation. Initial petrification, sleep, paralysis, confusion, fear and mesmerism retain distinct restrictions. Drain recovers through XP, not waiting. Curing is zelye istseleniya, not heal-wounds. Lua identifiers and code preserved; only returned prose is translated. Raw status IDs, HUD labels, formulas, timers, resource costs and mechanics unchanged.",
+      "translation_sha256": "7425cce7a1071c4bb435b5694bfc33f9c22dd174742bd3f0ad46e024a6e9642a"
+    },
+    "{status}Vision": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "835eaddf9bc046363107baa3b1fe1f46196f848d329436036daa06a9fbff2558"
+    },
+    "{status}Jade": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "16959091ecdb279c30ba01dc303e20391fb4c11b2c90438d468f047129e4d4db"
+    },
+    "{status}Gecko": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "747bcd198e36ce7a47e4263430334c9a267e5140d1a561312598917f793f4705"
+    },
+    "{status}Mistmane": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "7e5e34fac606104dda5f760decab6f28fcf062c2c0d754240f25fd2e30982b71"
+    },
+    "{status}rF0": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "9eb14632828eaef1e70cbff08a5c1f16fe1dd78ae8e396aa4247ca1e3bf1da68"
+    },
+    "{status}Debt": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "9182db24f7a806b9f892566dccbbf818eae755b3322efa4bdb7486cfc406fdd2"
+    },
+    "{status}Surge": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "0bedc918606311a3f60871b0d3263c043629362bd450a8d699c0f0689773f7fc"
+    },
+    "{status}Beast": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "6005062fe26d29bcb0c4e3493522f8c53144912f19231d022e91c0cc8f10162d"
+    },
+    "{status}Flux": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "524e2917e780df3e60935e556979631c0844e5907341c04710945eb607c7afb0"
+    },
+    "petrifying": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "a16aef674e677ed50e3772da9a6542ce231f7c0bad241fe80b07d44d51c6038e"
+    },
+    "{status}petrifying": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "ac636733a8c4be25e3f2d0760d26382aefd117bf6e52e304737f01fa9617e0eb"
+    },
+    "You are petrifying.": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "edcea371f743daa6bf28c997e79d9f4dbff4988993467d0ed4e5317d42147841"
+    },
+    "@Arg@ is petrifying.": {
+      "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
+      "translation_sha256": "b99f226cb9f0d48208bcf4c2556b0812191088645bdd41980d8e82725c38a664"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
