@@ -42,7 +42,19 @@ class SharedRegistryTests(unittest.TestCase):
         for entity in self.entities:
             title = wiki[entity["id"]]["title"]
             value = re.sub(r"^\{[^}]*\}", "", self.entries[entity["en"]])
-            self.assertEqual(title, value.capitalize())
+            self.assertEqual(title[:1], value[:1].upper())
+            self.assertEqual(title[1:], value[1:])
+
+    def test_wiki_titles_preserve_proper_names_inside_the_title(self):
+        wiki = json.loads((ROOT / "wiki/ru/entities.json").read_text(encoding="utf8"))
+        expected = {
+            "monster.bai_suzhen": "Бай Сучжэнь",
+            "monster.prince_ribbit": "Принц Риббит",
+            "monster.blorkula_the_orcula": "Блоркула Оркула",
+            "item.trismegistus_codex": "Кодекс Трисмегиста",
+        }
+        for entity_id, title in expected.items():
+            self.assertEqual(wiki[entity_id]["title"], title)
 
     def test_count_classes_do_not_omit_twenty_one(self):
         key = "@num@ scrolls of teleportation"

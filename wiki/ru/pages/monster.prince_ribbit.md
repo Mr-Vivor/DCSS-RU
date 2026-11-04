@@ -1,4 +1,4 @@
-# Принц риббит
+# Принц Риббит
 
 **English:** Prince Ribbit
 **ID:** `monster.prince_ribbit`

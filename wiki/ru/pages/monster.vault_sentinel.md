@@ -1,4 +1,4 @@
-# Дозорный хранилищ
+# Дозорный Хранилищ
 
 **English:** vault sentinel
 **ID:** `monster.vault_sentinel`

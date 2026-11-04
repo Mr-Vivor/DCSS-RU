@@ -269,7 +269,7 @@
 | `monster.thorn_hunter` | [Терновый охотник](pages/monster.thorn_hunter.md) | thorn hunter | reviewed |
 | `monster.shambling_mangrove` | [Бродячий мангр](pages/monster.shambling_mangrove.md) | shambling mangrove | reviewed |
 | `monster.will-o-the-wisp` | [Блуждающий огонёк](pages/monster.will-o-the-wisp.md) | will-o-the-wisp | reviewed |
-| `monster.vault_warden` | [Смотритель хранилищ](pages/monster.vault_warden.md) | vault warden | reviewed |
+| `monster.vault_warden` | [Смотритель Хранилищ](pages/monster.vault_warden.md) | vault warden | reviewed |
 | `monster.ironbound_preserver` | [Закованный в железо заступник](pages/monster.ironbound_preserver.md) | ironbound preserver | reviewed |
 | `monster.ufetubus` | [Уфетубус](pages/monster.ufetubus.md) | ufetubus | reviewed |
 | `monster.ynoxinul` | [Иноксинул](pages/monster.ynoxinul.md) | ynoxinul | reviewed |
@@ -281,8 +281,8 @@
 | `monster.hell_sentinel` | [Адский страж](pages/monster.hell_sentinel.md) | Hell Sentinel | reviewed |
 | `monster.ice_fiend` | [Ледяное исчадие](pages/monster.ice_fiend.md) | Ice Fiend | reviewed |
 | `monster.brimstone_fiend` | [Серное исчадие](pages/monster.brimstone_fiend.md) | Brimstone Fiend | reviewed |
-| `monster.vault_guard` | [Страж хранилищ](pages/monster.vault_guard.md) | vault guard | reviewed |
-| `monster.vault_sentinel` | [Дозорный хранилищ](pages/monster.vault_sentinel.md) | vault sentinel | reviewed |
+| `monster.vault_guard` | [Страж Хранилищ](pages/monster.vault_guard.md) | vault guard | reviewed |
+| `monster.vault_sentinel` | [Дозорный Хранилищ](pages/monster.vault_sentinel.md) | vault sentinel | reviewed |
 | `monster.ironbound_convoker` | [Закованный в железо призыватель](pages/monster.ironbound_convoker.md) | ironbound convoker | reviewed |
 | `monster.ironbound_thunderhulk` | [Закованный в железо громовержец](pages/monster.ironbound_thunderhulk.md) | ironbound thunderhulk | reviewed |
 | `monster.ironbound_beastmaster` | [Закованный в железо повелитель зверей](pages/monster.ironbound_beastmaster.md) | ironbound beastmaster | reviewed |
@@ -355,7 +355,7 @@
 | `item.staff_of_necromancy` | [Посох некромантии](pages/item.staff_of_necromancy.md) | staff of necromancy | reviewed |
 | `item.staff_of_earth` | [Посох земли](pages/item.staff_of_earth.md) | staff of earth | reviewed |
 | `item.staff_of_fire` | [Посох огня](pages/item.staff_of_fire.md) | staff of fire | reviewed |
-| `item.staff_of_olgreb` | [Посох олгреба](pages/item.staff_of_olgreb.md) | staff of Olgreb | reviewed |
+| `item.staff_of_olgreb` | [Посох Олгреба](pages/item.staff_of_olgreb.md) | staff of Olgreb | reviewed |
 | `item.book_of_minor_magic` | [Книга малой магии](pages/item.book_of_minor_magic.md) | book of Minor Magic | reviewed |
 | `item.book_of_conjurations` | [Книга разрушения](pages/item.book_of_conjurations.md) | book of Conjurations | reviewed |
 | `item.book_of_flames` | [Книга пламени](pages/item.book_of_flames.md) | book of Flames | reviewed |
@@ -458,14 +458,14 @@
 | `item.starry_gem` | [Звёздный самоцвет](pages/item.starry_gem.md) | starry gem | reviewed |
 | `item.book_of_fixed_theme` | [Тематическая книга заклинаний](pages/item.book_of_fixed_theme.md) | book of Fixed Theme | reviewed |
 | `item.codex_of_conductivity` | [Кодекс проводимости](pages/item.codex_of_conductivity.md) | Codex of Conductivity | reviewed |
-| `item.trismegistus_codex` | [Кодекс трисмегиста](pages/item.trismegistus_codex.md) | Trismegistus Codex | reviewed |
+| `item.trismegistus_codex` | [Кодекс Трисмегиста](pages/item.trismegistus_codex.md) | Trismegistus Codex | reviewed |
 | `item.compendium_of_siegecraft` | [Свод осадного искусства](pages/item.compendium_of_siegecraft.md) | Compendium of Siegecraft | reviewed |
 | `item.fen_folio` | [Болотный фолиант](pages/item.fen_folio.md) | Fen Folio | reviewed |
 | `item.everburning_encyclopedia` | [Вечно пылающая энциклопедия](pages/item.everburning_encyclopedia.md) | Everburning Encyclopedia | reviewed |
 | `item.necronomicon` | [Некрономикон](pages/item.necronomicon.md) | Necronomicon | reviewed |
 | `item.grand_grimoire` | [Великий гримуар](pages/item.grand_grimoire.md) | Grand Grimoire | reviewed |
 | `item.young_poisoner_s_handbook` | [Пособие юного отравителя](pages/item.young_poisoner_s_handbook.md) | Young Poisoner's Handbook | reviewed |
-| `item.there_and_back_book` | [Книга «туда и обратно»](pages/item.there_and_back_book.md) | There-And-Back Book | reviewed |
+| `item.there_and_back_book` | [Книга «Туда и обратно»](pages/item.there_and_back_book.md) | There-And-Back Book | reviewed |
 | `item.treatise_on_traps` | [Трактат о ловушках](pages/item.treatise_on_traps.md) | Treatise on Traps | reviewed |
 | `item.handbook_of_applied_construction` | [Руководство по прикладному строительству](pages/item.handbook_of_applied_construction.md) | Handbook of Applied Construction | reviewed |
 | `monster.draconian` | [Дракониан](pages/monster.draconian.md) | draconian | reviewed |
@@ -508,7 +508,7 @@
 | `monster.maggie` | [Мэгги](pages/monster.maggie.md) | Maggie | reviewed |
 | `monster.nergalle` | [Нергалле](pages/monster.nergalle.md) | Nergalle | reviewed |
 | `monster.agnes` | [Агнес](pages/monster.agnes.md) | Agnes | reviewed |
-| `monster.bai_suzhen` | [Бай сучжэнь](pages/monster.bai_suzhen.md) | Bai Suzhen | reviewed |
+| `monster.bai_suzhen` | [Бай Сучжэнь](pages/monster.bai_suzhen.md) | Bai Suzhen | reviewed |
 | `monster.jory` | [Джори](pages/monster.jory.md) | Jory | reviewed |
 | `monster.josephine` | [Джозефин](pages/monster.josephine.md) | Josephine | reviewed |
 | `monster.kirke` | [Кирке](pages/monster.kirke.md) | Kirke | reviewed |
@@ -520,8 +520,8 @@
 | `monster.louise` | [Луиза](pages/monster.louise.md) | Louise | reviewed |
 | `monster.enchantress` | [Чародейка](pages/monster.enchantress.md) | Enchantress | reviewed |
 | `monster.jeremiah` | [Джеремайя](pages/monster.jeremiah.md) | Jeremiah | reviewed |
-| `monster.prince_ribbit` | [Принц риббит](pages/monster.prince_ribbit.md) | Prince Ribbit | reviewed |
-| `monster.blorkula_the_orcula` | [Блоркула оркула](pages/monster.blorkula_the_orcula.md) | Blorkula the Orcula | reviewed |
+| `monster.prince_ribbit` | [Принц Риббит](pages/monster.prince_ribbit.md) | Prince Ribbit | reviewed |
+| `monster.blorkula_the_orcula` | [Блоркула Оркула](pages/monster.blorkula_the_orcula.md) | Blorkula the Orcula | reviewed |
 | `monster.dwarf` | [Дворф](pages/monster.dwarf.md) | dwarf | reviewed |
 | `monster.elf` | [Эльф](pages/monster.elf.md) | elf | reviewed |
 | `monster.demigod` | [Полубог](pages/monster.demigod.md) | demigod | reviewed |

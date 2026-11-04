@@ -1,4 +1,4 @@
-# Посох олгреба
+# Посох Олгреба
 
 **English:** staff of Olgreb
 **ID:** `item.staff_of_olgreb`

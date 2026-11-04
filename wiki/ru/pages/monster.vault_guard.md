@@ -1,4 +1,4 @@
-# Страж хранилищ
+# Страж Хранилищ
 
 **English:** vault guard
 **ID:** `monster.vault_guard`

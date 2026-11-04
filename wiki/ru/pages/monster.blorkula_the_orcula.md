@@ -1,4 +1,4 @@
-# Блоркула оркула
+# Блоркула Оркула
 
 **English:** Blorkula the Orcula
 **ID:** `monster.blorkula_the_orcula`

@@ -1,4 +1,4 @@
-# Бай сучжэнь
+# Бай Сучжэнь
 
 **English:** Bai Suzhen
 **ID:** `monster.bai_suzhen`

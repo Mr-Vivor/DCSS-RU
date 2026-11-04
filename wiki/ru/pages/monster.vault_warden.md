@@ -1,4 +1,4 @@
-# Смотритель хранилищ
+# Смотритель Хранилищ
 
 **English:** vault warden
 **ID:** `monster.vault_warden`

@@ -1,4 +1,4 @@
-# Кодекс трисмегиста
+# Кодекс Трисмегиста
 
 **English:** Trismegistus Codex
 **ID:** `item.trismegistus_codex`
