@@ -13245,5 +13245,499 @@
       "counted_few": "Блоркулы Оркулы"
     },
     "review": "reviewed"
+  },
+  "monster.dwarf": {
+    "title": "Дворф",
+    "en": "dwarf",
+    "en_plural": "dwarves",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "дворф",
+        "gen": "дворфа",
+        "dat": "дворфу",
+        "acc": "дворфа",
+        "ins": "дворфом",
+        "prep": "дворфе"
+      },
+      "plural": {
+        "nom": "дворфы",
+        "gen": "дворфов",
+        "dat": "дворфам",
+        "acc": "дворфов",
+        "ins": "дворфами",
+        "prep": "дворфах"
+      },
+      "counted_few": "дворфа"
+    },
+    "review": "reviewed"
+  },
+  "monster.elf": {
+    "title": "Эльф",
+    "en": "elf",
+    "en_plural": "elves",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "эльф",
+        "gen": "эльфа",
+        "dat": "эльфу",
+        "acc": "эльфа",
+        "ins": "эльфом",
+        "prep": "эльфе"
+      },
+      "plural": {
+        "nom": "эльфы",
+        "gen": "эльфов",
+        "dat": "эльфам",
+        "acc": "эльфов",
+        "ins": "эльфами",
+        "prep": "эльфах"
+      },
+      "counted_few": "эльфа"
+    },
+    "review": "reviewed"
+  },
+  "monster.demigod": {
+    "title": "Полубог",
+    "en": "demigod",
+    "en_plural": "demigods",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "полубог",
+        "gen": "полубога",
+        "dat": "полубогу",
+        "acc": "полубога",
+        "ins": "полубогом",
+        "prep": "полубоге"
+      },
+      "plural": {
+        "nom": "полубоги",
+        "gen": "полубогов",
+        "dat": "полубогам",
+        "acc": "полубогов",
+        "ins": "полубогами",
+        "prep": "полубогах"
+      },
+      "counted_few": "полубога"
+    },
+    "review": "reviewed"
+  },
+  "monster.djinni": {
+    "title": "Джинн",
+    "en": "djinni",
+    "en_plural": "djinn",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "джинн",
+        "gen": "джинна",
+        "dat": "джинну",
+        "acc": "джинна",
+        "ins": "джинном",
+        "prep": "джинне"
+      },
+      "plural": {
+        "nom": "джинны",
+        "gen": "джиннов",
+        "dat": "джиннам",
+        "acc": "джиннов",
+        "ins": "джиннами",
+        "prep": "джиннах"
+      },
+      "counted_few": "джинна"
+    },
+    "review": "reviewed"
+  },
+  "monster.minotaur": {
+    "title": "Минотавр",
+    "en": "minotaur",
+    "en_plural": "minotaurs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "минотавр",
+        "gen": "минотавра",
+        "dat": "минотавру",
+        "acc": "минотавра",
+        "ins": "минотавром",
+        "prep": "минотавре"
+      },
+      "plural": {
+        "nom": "минотавры",
+        "gen": "минотавров",
+        "dat": "минотаврам",
+        "acc": "минотавров",
+        "ins": "минотаврами",
+        "prep": "минотаврах"
+      },
+      "counted_few": "минотавра"
+    },
+    "review": "reviewed"
+  },
+  "monster.revenant": {
+    "title": "Ревенант",
+    "en": "revenant",
+    "en_plural": "revenants",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ревенант",
+        "gen": "ревенанта",
+        "dat": "ревенанту",
+        "acc": "ревенанта",
+        "ins": "ревенантом",
+        "prep": "ревенанте"
+      },
+      "plural": {
+        "nom": "ревенанты",
+        "gen": "ревенантов",
+        "dat": "ревенантам",
+        "acc": "ревенантов",
+        "ins": "ревенантами",
+        "prep": "ревенантах"
+      },
+      "counted_few": "ревенанта"
+    },
+    "review": "reviewed"
+  },
+  "genus.god": {
+    "title": "Бог",
+    "en": "god",
+    "en_plural": "gods",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "бог",
+        "gen": "бога",
+        "dat": "богу",
+        "acc": "бога",
+        "ins": "богом",
+        "prep": "боге"
+      },
+      "plural": {
+        "nom": "боги",
+        "gen": "богов",
+        "dat": "богам",
+        "acc": "богов",
+        "ins": "богами",
+        "prep": "богах"
+      },
+      "counted_few": "бога"
+    },
+    "review": "reviewed"
+  },
+  "genus.geist": {
+    "title": "Призрак",
+    "en": "geist",
+    "en_plural": "geists",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "призрак",
+        "gen": "призрака",
+        "dat": "призраку",
+        "acc": "призрака",
+        "ins": "призраком",
+        "prep": "призраке"
+      },
+      "plural": {
+        "nom": "призраки",
+        "gen": "призраков",
+        "dat": "призракам",
+        "acc": "призраков",
+        "ins": "призраками",
+        "prep": "призраках"
+      },
+      "counted_few": "призрака"
+    },
+    "review": "reviewed"
+  },
+  "monster.demonspawn": {
+    "title": "Порождение демонов",
+    "en": "demonspawn",
+    "en_plural": "demonspawn",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "порождение демонов",
+        "gen": "порождения демонов",
+        "dat": "порождению демонов",
+        "acc": "порождение демонов",
+        "ins": "порождением демонов",
+        "prep": "порождении демонов"
+      },
+      "plural": {
+        "nom": "порождения демонов",
+        "gen": "порождений демонов",
+        "dat": "порождениям демонов",
+        "acc": "порождений демонов",
+        "ins": "порождениями демонов",
+        "prep": "порождениях демонов"
+      },
+      "counted_few": "порождения демонов"
+    },
+    "review": "reviewed"
+  },
+  "monster.gargoyle": {
+    "title": "Горгулья",
+    "en": "gargoyle",
+    "en_plural": "gargoyles",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "горгулья",
+        "gen": "горгульи",
+        "dat": "горгулье",
+        "acc": "горгулью",
+        "ins": "горгульей",
+        "prep": "горгулье"
+      },
+      "plural": {
+        "nom": "горгульи",
+        "gen": "горгулий",
+        "dat": "горгульям",
+        "acc": "горгулий",
+        "ins": "горгульями",
+        "prep": "горгульях"
+      },
+      "counted_few": "горгульи"
+    },
+    "review": "reviewed"
+  },
+  "monster.ghoul": {
+    "title": "Гуль",
+    "en": "ghoul",
+    "en_plural": "ghouls",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "гуль",
+        "gen": "гуля",
+        "dat": "гулю",
+        "acc": "гуля",
+        "ins": "гулем",
+        "prep": "гуле"
+      },
+      "plural": {
+        "nom": "гули",
+        "gen": "гулей",
+        "dat": "гулям",
+        "acc": "гулей",
+        "ins": "гулями",
+        "prep": "гулях"
+      },
+      "counted_few": "гуля"
+    },
+    "review": "reviewed"
+  },
+  "monster.human": {
+    "title": "Человек",
+    "en": "human",
+    "en_plural": "humans",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "человек",
+        "gen": "человека",
+        "dat": "человеку",
+        "acc": "человека",
+        "ins": "человеком",
+        "prep": "человеке"
+      },
+      "plural": {
+        "nom": "люди",
+        "gen": "людей",
+        "dat": "людям",
+        "acc": "людей",
+        "ins": "людьми",
+        "prep": "людях"
+      },
+      "counted_few": "человека"
+    },
+    "review": "reviewed"
+  },
+  "monster.oni": {
+    "title": "Они",
+    "en": "oni",
+    "en_plural": "oni",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "они",
+        "gen": "они",
+        "dat": "они",
+        "acc": "они",
+        "ins": "они",
+        "prep": "они"
+      },
+      "plural": {
+        "nom": "они",
+        "gen": "они",
+        "dat": "они",
+        "acc": "они",
+        "ins": "они",
+        "prep": "они"
+      },
+      "counted_few": "они"
+    },
+    "review": "reviewed"
+  },
+  "monster.vine_stalker": {
+    "title": "Лозовый преследователь",
+    "en": "vine stalker",
+    "en_plural": "vine stalkers",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "лозовый преследователь",
+        "gen": "лозового преследователя",
+        "dat": "лозовому преследователю",
+        "acc": "лозового преследователя",
+        "ins": "лозовым преследователем",
+        "prep": "лозовом преследователе"
+      },
+      "plural": {
+        "nom": "лозовые преследователи",
+        "gen": "лозовых преследователей",
+        "dat": "лозовым преследователям",
+        "acc": "лозовых преследователей",
+        "ins": "лозовыми преследователями",
+        "prep": "лозовых преследователях"
+      },
+      "counted_few": "лозовых преследователя"
+    },
+    "review": "reviewed"
+  },
+  "genus.frog": {
+    "title": "Лягушка",
+    "en": "frog",
+    "en_plural": "frogs",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "лягушка",
+        "gen": "лягушки",
+        "dat": "лягушке",
+        "acc": "лягушку",
+        "ins": "лягушкой",
+        "prep": "лягушке"
+      },
+      "plural": {
+        "nom": "лягушки",
+        "gen": "лягушек",
+        "dat": "лягушкам",
+        "acc": "лягушек",
+        "ins": "лягушками",
+        "prep": "лягушках"
+      },
+      "counted_few": "лягушки"
+    },
+    "review": "reviewed"
+  },
+  "genus.cat": {
+    "title": "Кошка",
+    "en": "cat",
+    "en_plural": "cats",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "кошка",
+        "gen": "кошки",
+        "dat": "кошке",
+        "acc": "кошку",
+        "ins": "кошкой",
+        "prep": "кошке"
+      },
+      "plural": {
+        "nom": "кошки",
+        "gen": "кошек",
+        "dat": "кошкам",
+        "acc": "кошек",
+        "ins": "кошками",
+        "prep": "кошках"
+      },
+      "counted_few": "кошки"
+    },
+    "review": "reviewed"
+  },
+  "genus.ant": {
+    "title": "Муравей",
+    "en": "ant",
+    "en_plural": "ants",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "муравей",
+        "gen": "муравья",
+        "dat": "муравью",
+        "acc": "муравья",
+        "ins": "муравьём",
+        "prep": "муравье"
+      },
+      "plural": {
+        "nom": "муравьи",
+        "gen": "муравьёв",
+        "dat": "муравьям",
+        "acc": "муравьёв",
+        "ins": "муравьями",
+        "prep": "муравьях"
+      },
+      "counted_few": "муравья"
+    },
+    "review": "reviewed"
+  },
+  "genus.octopus": {
+    "title": "Осьминог",
+    "en": "octopus",
+    "en_plural": "octopi",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "осьминог",
+        "gen": "осьминога",
+        "dat": "осьминогу",
+        "acc": "осьминога",
+        "ins": "осьминогом",
+        "prep": "осьминоге"
+      },
+      "plural": {
+        "nom": "осьминоги",
+        "gen": "осьминогов",
+        "dat": "осьминогам",
+        "acc": "осьминогов",
+        "ins": "осьминогами",
+        "prep": "осьминогах"
+      },
+      "counted_few": "осьминога"
+    },
+    "review": "reviewed"
+  },
+  "genus.palentonga": {
+    "title": "Палентонга",
+    "en": "palentonga",
+    "en_plural": "palentongas",
+    "kind": "genus",
+    "forms": {
+      "singular": {
+        "nom": "палентонга",
+        "gen": "палентонги",
+        "dat": "палентонге",
+        "acc": "палентонгу",
+        "ins": "палентонгой",
+        "prep": "палентонге"
+      },
+      "plural": {
+        "nom": "палентонги",
+        "gen": "палентонг",
+        "dat": "палентонгам",
+        "acc": "палентонг",
+        "ins": "палентонгами",
+        "prep": "палентонгах"
+      },
+      "counted_few": "палентонги"
+    },
+    "review": "reviewed"
   }
 }

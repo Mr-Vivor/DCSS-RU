@@ -522,3 +522,22 @@
 | `monster.jeremiah` | [Джеремайя](pages/monster.jeremiah.md) | Jeremiah | reviewed |
 | `monster.prince_ribbit` | [Принц риббит](pages/monster.prince_ribbit.md) | Prince Ribbit | reviewed |
 | `monster.blorkula_the_orcula` | [Блоркула оркула](pages/monster.blorkula_the_orcula.md) | Blorkula the Orcula | reviewed |
+| `monster.dwarf` | [Дворф](pages/monster.dwarf.md) | dwarf | reviewed |
+| `monster.elf` | [Эльф](pages/monster.elf.md) | elf | reviewed |
+| `monster.demigod` | [Полубог](pages/monster.demigod.md) | demigod | reviewed |
+| `monster.djinni` | [Джинн](pages/monster.djinni.md) | djinni | reviewed |
+| `monster.minotaur` | [Минотавр](pages/monster.minotaur.md) | minotaur | reviewed |
+| `monster.revenant` | [Ревенант](pages/monster.revenant.md) | revenant | reviewed |
+| `genus.god` | [Бог](pages/genus.god.md) | god | reviewed |
+| `genus.geist` | [Призрак](pages/genus.geist.md) | geist | reviewed |
+| `monster.demonspawn` | [Порождение демонов](pages/monster.demonspawn.md) | demonspawn | reviewed |
+| `monster.gargoyle` | [Горгулья](pages/monster.gargoyle.md) | gargoyle | reviewed |
+| `monster.ghoul` | [Гуль](pages/monster.ghoul.md) | ghoul | reviewed |
+| `monster.human` | [Человек](pages/monster.human.md) | human | reviewed |
+| `monster.oni` | [Они](pages/monster.oni.md) | oni | reviewed |
+| `monster.vine_stalker` | [Лозовый преследователь](pages/monster.vine_stalker.md) | vine stalker | reviewed |
+| `genus.frog` | [Лягушка](pages/genus.frog.md) | frog | reviewed |
+| `genus.cat` | [Кошка](pages/genus.cat.md) | cat | reviewed |
+| `genus.ant` | [Муравей](pages/genus.ant.md) | ant | reviewed |
+| `genus.octopus` | [Осьминог](pages/genus.octopus.md) | octopus | reviewed |
+| `genus.palentonga` | [Палентонга](pages/genus.palentonga.md) | palentonga | reviewed |

@@ -172,6 +172,9 @@
 @num@ ancient liches
 @num@ древних личей
 %%%%
+@num@ ants
+@num@ муравьёв
+%%%%
 @num@ apocalypse crabs
 @num@ крабов апокалипсиса
 %%%%
@@ -442,6 +445,9 @@
 @num@ cane toads
 @num@ жаб-аг
 %%%%
+@num@ cats
+@num@ кошек
+%%%%
 @num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -535,6 +541,9 @@
 @num@ deep trolls
 @num@ глубинных троллей
 %%%%
+@num@ demigods
+@num@ полубогов
+%%%%
 @num@ demon blades
 @num@ демонических клинков
 %%%%
@@ -544,8 +553,14 @@
 @num@ demon whips
 @num@ демонических кнутов
 %%%%
+@num@ demonspawn
+@num@ порождений демонов
+%%%%
 @num@ dire flails
 @num@ тяжёлых цепов
+%%%%
+@num@ djinn
+@num@ джиннов
 %%%%
 @num@ double swords
 @num@ двойных мечей
@@ -571,6 +586,9 @@
 @num@ dream sheep
 @num@ овец сновидений
 %%%%
+@num@ dwarves
+@num@ дворфов
+%%%%
 @num@ earthy gems
 @num@ землистых самоцветов
 %%%%
@@ -582,6 +600,9 @@
 %%%%
 @num@ elephants
 @num@ слонов
+%%%%
+@num@ elves
+@num@ эльфов
 %%%%
 @num@ endoplasms
 @num@ эндоплазм
@@ -625,14 +646,26 @@
 @num@ fortress talismans
 @num@ талисманов крепости
 %%%%
+@num@ frogs
+@num@ лягушек
+%%%%
 @num@ frost giants
 @num@ морозных великанов
+%%%%
+@num@ gargoyles
+@num@ горгулий
 %%%%
 @num@ gecko talismans
 @num@ талисманов геккона
 %%%%
+@num@ geists
+@num@ призраков
+%%%%
 @num@ gems
 @num@ самоцветов
+%%%%
+@num@ ghouls
+@num@ гулей
 %%%%
 @num@ giant clubs
 @num@ гигантских дубин
@@ -654,6 +687,9 @@
 %%%%
 @num@ goblins
 @num@ гоблинов
+%%%%
+@num@ gods
+@num@ богов
 %%%%
 @num@ gold pieces
 @num@ золотых монет
@@ -732,6 +768,9 @@
 %%%%
 @num@ hounds
 @num@ гончих
+%%%%
+@num@ humans
+@num@ людей
 %%%%
 @num@ hydras
 @num@ гидр
@@ -865,6 +904,9 @@
 @num@ milky-white gems
 @num@ молочно-белых самоцветов
 %%%%
+@num@ minotaurs
+@num@ минотавров
+%%%%
 @num@ mist talismans
 @num@ талисманов тумана
 %%%%
@@ -901,8 +943,14 @@
 @num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+@num@ octopi
+@num@ осьминогов
+%%%%
 @num@ ogres
 @num@ огров
+%%%%
+@num@ oni
+@num@ они
 %%%%
 @num@ orange demons
 @num@ оранжевых демонов
@@ -939,6 +987,9 @@
 %%%%
 @num@ pale draconians
 @num@ бледных драконианов
+%%%%
+@num@ palentongas
+@num@ палентонг
 %%%%
 @num@ pearl dragons
 @num@ жемчужных драконов
@@ -1059,6 +1110,9 @@
 %%%%
 @num@ red draconians
 @num@ красных драконианов
+%%%%
+@num@ revenants
+@num@ ревенантов
 %%%%
 @num@ ribbon worms
 @num@ ленточных червей
@@ -1449,6 +1503,9 @@
 %%%%
 @num@ very ugly things
 @num@ очень уродливых существ
+%%%%
+@num@ vine stalkers
+@num@ лозовых преследователей
 %%%%
 @num@ vision talismans
 @num@ талисманов зрения
@@ -2248,6 +2305,12 @@ a ancient lich
 a ancient lich's
 {m}древнего лича
 %%%%
+a ant
+{m}муравей
+%%%%
+a ant's
+{m}муравья
+%%%%
 a apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -2788,6 +2851,12 @@ a cane toad
 a cane toad's
 {f}жабы-аги
 %%%%
+a cat
+{f}кошка
+%%%%
+a cat's
+{f}кошки
+%%%%
 a centaur
 {m}кентавр
 %%%%
@@ -2974,6 +3043,12 @@ a deep troll shaman's
 a deep troll's
 {m}глубинного тролля
 %%%%
+a demigod
+{m}полубог
+%%%%
+a demigod's
+{m}полубога
+%%%%
 a demon blade
 {m}демонический клинок
 %%%%
@@ -2992,11 +3067,23 @@ a demon whip
 a demon whip's
 {m}демонического кнута
 %%%%
+a demonspawn
+{n}порождение демонов
+%%%%
+a demonspawn's
+{n}порождения демонов
+%%%%
 a dire flail
 {m}тяжёлый цеп
 %%%%
 a dire flail's
 {m}тяжёлого цепа
+%%%%
+a djinni
+{m}джинн
+%%%%
+a djinni's
+{m}джинна
 %%%%
 a double sword
 {m}двойной меч
@@ -3046,6 +3133,12 @@ a dream sheep
 a dream sheep's
 {f}овцы сновидений
 %%%%
+a dwarf
+{m}дворф
+%%%%
+a dwarf's
+{m}дворфа
+%%%%
 a earthy gem
 {m}землистый самоцвет
 %%%%
@@ -3069,6 +3162,12 @@ a elephant
 %%%%
 a elephant's
 {m}слона
+%%%%
+a elf
+{m}эльф
+%%%%
+a elf's
+{m}эльфа
 %%%%
 a endoplasm
 {f}эндоплазма
@@ -3154,11 +3253,23 @@ a fortress talisman
 a fortress talisman's
 {m}талисмана крепости
 %%%%
+a frog
+{f}лягушка
+%%%%
+a frog's
+{f}лягушки
+%%%%
 a frost giant
 {m}морозный великан
 %%%%
 a frost giant's
 {m}морозного великана
+%%%%
+a gargoyle
+{f}горгулья
+%%%%
+a gargoyle's
+{f}горгульи
 %%%%
 a gecko talisman
 {m}талисман геккона
@@ -3166,11 +3277,23 @@ a gecko talisman
 a gecko talisman's
 {m}талисмана геккона
 %%%%
+a geist
+{m}призрак
+%%%%
+a geist's
+{m}призрака
+%%%%
 a gem
 {m}самоцвет
 %%%%
 a gem's
 {m}самоцвета
+%%%%
+a ghoul
+{m}гуль
+%%%%
+a ghoul's
+{m}гуля
 %%%%
 a giant club
 {f}гигантская дубина
@@ -3213,6 +3336,12 @@ a goblin
 %%%%
 a goblin's
 {m}гоблина
+%%%%
+a god
+{m}бог
+%%%%
+a god's
+{m}бога
 %%%%
 a gold piece
 {f}золотая монета
@@ -3369,6 +3498,12 @@ a hound
 %%%%
 a hound's
 {f}гончей
+%%%%
+a human
+{m}человек
+%%%%
+a human's
+{m}человека
 %%%%
 a hydra
 {f}гидра
@@ -3634,6 +3769,12 @@ a milky-white gem
 a milky-white gem's
 {m}молочно-белого самоцвета
 %%%%
+a minotaur
+{m}минотавр
+%%%%
+a minotaur's
+{m}минотавра
+%%%%
 a mist talisman
 {m}талисман тумана
 %%%%
@@ -3706,11 +3847,23 @@ a oblivion hound
 a oblivion hound's
 {f}гончей забвения
 %%%%
+a octopus
+{m}осьминог
+%%%%
+a octopus's
+{m}осьминога
+%%%%
 a ogre
 {m}огр
 %%%%
 a ogre's
 {m}огра
+%%%%
+a oni
+{m}они
+%%%%
+a oni's
+{m}они
 %%%%
 a orange demon
 {m}оранжевый демон
@@ -3783,6 +3936,12 @@ a pale draconian
 %%%%
 a pale draconian's
 {m}бледного дракониана
+%%%%
+a palentonga
+{m}палентонга
+%%%%
+a palentonga's
+{m}палентонги
 %%%%
 a pearl dragon
 {m}жемчужный дракон
@@ -4023,6 +4182,12 @@ a red draconian
 %%%%
 a red draconian's
 {m}красного дракониана
+%%%%
+a revenant
+{m}ревенант
+%%%%
+a revenant's
+{m}ревенанта
 %%%%
 a ribbon worm
 {m}ленточный червь
@@ -4804,6 +4969,12 @@ a very ugly thing
 a very ugly thing's
 {n}очень уродливого существа
 %%%%
+a vine stalker
+{m}лозовый преследователь
+%%%%
+a vine stalker's
+{m}лозового преследователя
+%%%%
 a vision talisman
 {m}талисман зрения
 %%%%
@@ -5458,6 +5629,12 @@ an ancient lich
 an ancient lich's
 {m}древнего лича
 %%%%
+an ant
+{m}муравей
+%%%%
+an ant's
+{m}муравья
+%%%%
 an apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -5998,6 +6175,12 @@ an cane toad
 an cane toad's
 {f}жабы-аги
 %%%%
+an cat
+{f}кошка
+%%%%
+an cat's
+{f}кошки
+%%%%
 an centaur
 {m}кентавр
 %%%%
@@ -6184,6 +6367,12 @@ an deep troll shaman's
 an deep troll's
 {m}глубинного тролля
 %%%%
+an demigod
+{m}полубог
+%%%%
+an demigod's
+{m}полубога
+%%%%
 an demon blade
 {m}демонический клинок
 %%%%
@@ -6202,11 +6391,23 @@ an demon whip
 an demon whip's
 {m}демонического кнута
 %%%%
+an demonspawn
+{n}порождение демонов
+%%%%
+an demonspawn's
+{n}порождения демонов
+%%%%
 an dire flail
 {m}тяжёлый цеп
 %%%%
 an dire flail's
 {m}тяжёлого цепа
+%%%%
+an djinni
+{m}джинн
+%%%%
+an djinni's
+{m}джинна
 %%%%
 an double sword
 {m}двойной меч
@@ -6256,6 +6457,12 @@ an dream sheep
 an dream sheep's
 {f}овцы сновидений
 %%%%
+an dwarf
+{m}дворф
+%%%%
+an dwarf's
+{m}дворфа
+%%%%
 an earthy gem
 {m}землистый самоцвет
 %%%%
@@ -6279,6 +6486,12 @@ an elephant
 %%%%
 an elephant's
 {m}слона
+%%%%
+an elf
+{m}эльф
+%%%%
+an elf's
+{m}эльфа
 %%%%
 an endoplasm
 {f}эндоплазма
@@ -6364,11 +6577,23 @@ an fortress talisman
 an fortress talisman's
 {m}талисмана крепости
 %%%%
+an frog
+{f}лягушка
+%%%%
+an frog's
+{f}лягушки
+%%%%
 an frost giant
 {m}морозный великан
 %%%%
 an frost giant's
 {m}морозного великана
+%%%%
+an gargoyle
+{f}горгулья
+%%%%
+an gargoyle's
+{f}горгульи
 %%%%
 an gecko talisman
 {m}талисман геккона
@@ -6376,11 +6601,23 @@ an gecko talisman
 an gecko talisman's
 {m}талисмана геккона
 %%%%
+an geist
+{m}призрак
+%%%%
+an geist's
+{m}призрака
+%%%%
 an gem
 {m}самоцвет
 %%%%
 an gem's
 {m}самоцвета
+%%%%
+an ghoul
+{m}гуль
+%%%%
+an ghoul's
+{m}гуля
 %%%%
 an giant club
 {f}гигантская дубина
@@ -6423,6 +6660,12 @@ an goblin
 %%%%
 an goblin's
 {m}гоблина
+%%%%
+an god
+{m}бог
+%%%%
+an god's
+{m}бога
 %%%%
 an gold piece
 {f}золотая монета
@@ -6579,6 +6822,12 @@ an hound
 %%%%
 an hound's
 {f}гончей
+%%%%
+an human
+{m}человек
+%%%%
+an human's
+{m}человека
 %%%%
 an hydra
 {f}гидра
@@ -6844,6 +7093,12 @@ an milky-white gem
 an milky-white gem's
 {m}молочно-белого самоцвета
 %%%%
+an minotaur
+{m}минотавр
+%%%%
+an minotaur's
+{m}минотавра
+%%%%
 an mist talisman
 {m}талисман тумана
 %%%%
@@ -6916,11 +7171,23 @@ an oblivion hound
 an oblivion hound's
 {f}гончей забвения
 %%%%
+an octopus
+{m}осьминог
+%%%%
+an octopus's
+{m}осьминога
+%%%%
 an ogre
 {m}огр
 %%%%
 an ogre's
 {m}огра
+%%%%
+an oni
+{m}они
+%%%%
+an oni's
+{m}они
 %%%%
 an orange demon
 {m}оранжевый демон
@@ -6993,6 +7260,12 @@ an pale draconian
 %%%%
 an pale draconian's
 {m}бледного дракониана
+%%%%
+an palentonga
+{m}палентонга
+%%%%
+an palentonga's
+{m}палентонги
 %%%%
 an pearl dragon
 {m}жемчужный дракон
@@ -7233,6 +7506,12 @@ an red draconian
 %%%%
 an red draconian's
 {m}красного дракониана
+%%%%
+an revenant
+{m}ревенант
+%%%%
+an revenant's
+{m}ревенанта
 %%%%
 an ribbon worm
 {m}ленточный червь
@@ -8014,6 +8293,12 @@ an very ugly thing
 an very ugly thing's
 {n}очень уродливого существа
 %%%%
+an vine stalker
+{m}лозовый преследователь
+%%%%
+an vine stalker's
+{m}лозового преследователя
+%%%%
 an vision talisman
 {m}талисман зрения
 %%%%
@@ -8217,6 +8502,15 @@ ancient lich's
 %%%%
 ancient liches
 {pl}древние личи
+%%%%
+ant
+{m}муравей
+%%%%
+ant's
+{m}муравья
+%%%%
+ants
+{pl}муравьи
 %%%%
 apocalypse crab
 {m}краб апокалипсиса
@@ -9028,6 +9322,15 @@ cane toad's
 cane toads
 {pl}жабы-аги
 %%%%
+cat
+{f}кошка
+%%%%
+cat's
+{f}кошки
+%%%%
+cats
+{pl}кошки
+%%%%
 centaur
 {m}кентавр
 %%%%
@@ -9307,6 +9610,15 @@ deep troll's
 deep trolls
 {pl}глубинные тролли
 %%%%
+demigod
+{m}полубог
+%%%%
+demigod's
+{m}полубога
+%%%%
+demigods
+{pl}полубоги
+%%%%
 demon blade
 {m}демонический клинок
 %%%%
@@ -9334,6 +9646,12 @@ demon whip's
 demon whips
 {pl}демонические кнуты
 %%%%
+demonspawn
+{n}порождение демонов
+%%%%
+demonspawn's
+{n}порождения демонов
+%%%%
 dire flail
 {m}тяжёлый цеп
 %%%%
@@ -9342,6 +9660,15 @@ dire flail's
 %%%%
 dire flails
 {pl}тяжёлые цепы
+%%%%
+djinn
+{pl}джинны
+%%%%
+djinni
+{m}джинн
+%%%%
+djinni's
+{m}джинна
 %%%%
 double sword
 {m}двойной меч
@@ -9412,6 +9739,15 @@ dream sheep
 dream sheep's
 {f}овцы сновидений
 %%%%
+dwarf
+{m}дворф
+%%%%
+dwarf's
+{m}дворфа
+%%%%
+dwarves
+{pl}дворфы
+%%%%
 earthy gem
 {m}землистый самоцвет
 %%%%
@@ -9447,6 +9783,15 @@ elephant's
 %%%%
 elephants
 {pl}слоны
+%%%%
+elf
+{m}эльф
+%%%%
+elf's
+{m}эльфа
+%%%%
+elves
+{pl}эльфы
 %%%%
 endoplasm
 {f}эндоплазма
@@ -9574,6 +9919,15 @@ fortress talisman's
 fortress talismans
 {pl}талисманы крепости
 %%%%
+frog
+{f}лягушка
+%%%%
+frog's
+{f}лягушки
+%%%%
+frogs
+{pl}лягушки
+%%%%
 frost giant
 {m}морозный великан
 %%%%
@@ -9582,6 +9936,15 @@ frost giant's
 %%%%
 frost giants
 {pl}морозные великаны
+%%%%
+gargoyle
+{f}горгулья
+%%%%
+gargoyle's
+{f}горгульи
+%%%%
+gargoyles
+{pl}горгульи
 %%%%
 gecko talisman
 {m}талисман геккона
@@ -9592,6 +9955,15 @@ gecko talisman's
 gecko talismans
 {pl}талисманы геккона
 %%%%
+geist
+{m}призрак
+%%%%
+geist's
+{m}призрака
+%%%%
+geists
+{pl}призраки
+%%%%
 gem
 {m}самоцвет
 %%%%
@@ -9600,6 +9972,15 @@ gem's
 %%%%
 gems
 {pl}самоцветы
+%%%%
+ghoul
+{m}гуль
+%%%%
+ghoul's
+{m}гуля
+%%%%
+ghouls
+{pl}гули
 %%%%
 giant club
 {f}гигантская дубина
@@ -9663,6 +10044,15 @@ goblin's
 %%%%
 goblins
 {pl}гоблины
+%%%%
+god
+{m}бог
+%%%%
+god's
+{m}бога
+%%%%
+gods
+{pl}боги
 %%%%
 gold piece
 {f}золотая монета
@@ -9897,6 +10287,15 @@ hound's
 %%%%
 hounds
 {pl}гончие
+%%%%
+human
+{m}человек
+%%%%
+human's
+{m}человека
+%%%%
+humans
+{pl}люди
 %%%%
 hydra
 {f}гидра
@@ -10291,6 +10690,15 @@ milky-white gem's
 milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+minotaur
+{m}минотавр
+%%%%
+minotaur's
+{m}минотавра
+%%%%
+minotaurs
+{pl}минотавры
+%%%%
 mist talisman
 {m}талисман тумана
 %%%%
@@ -10399,6 +10807,15 @@ oblivion hound's
 oblivion hounds
 {pl}гончие забвения
 %%%%
+octopi
+{pl}осьминоги
+%%%%
+octopus
+{m}осьминог
+%%%%
+octopus's
+{m}осьминога
+%%%%
 ogre
 {m}огр
 %%%%
@@ -10407,6 +10824,12 @@ ogre's
 %%%%
 ogres
 {pl}огры
+%%%%
+oni
+{m}они
+%%%%
+oni's
+{m}они
 %%%%
 orange demon
 {m}оранжевый демон
@@ -10515,6 +10938,15 @@ pale draconian's
 %%%%
 pale draconians
 {pl}бледные драконианы
+%%%%
+palentonga
+{m}палентонга
+%%%%
+palentonga's
+{m}палентонги
+%%%%
+palentongas
+{pl}палентонги
 %%%%
 pearl dragon
 {m}жемчужный дракон
@@ -10875,6 +11307,15 @@ red draconian's
 %%%%
 red draconians
 {pl}красные драконианы
+%%%%
+revenant
+{m}ревенант
+%%%%
+revenant's
+{m}ревенанта
+%%%%
+revenants
+{pl}ревенанты
 %%%%
 ribbon worm
 {m}ленточный червь
@@ -12355,6 +12796,15 @@ the ancient lich's
 the ancient liches
 {pl}древние личи
 %%%%
+the ant
+{m}муравей
+%%%%
+the ant's
+{m}муравья
+%%%%
+the ants
+{pl}муравьи
+%%%%
 the apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -13165,6 +13615,15 @@ the cane toad's
 the cane toads
 {pl}жабы-аги
 %%%%
+the cat
+{f}кошка
+%%%%
+the cat's
+{f}кошки
+%%%%
+the cats
+{pl}кошки
+%%%%
 the centaur
 {m}кентавр
 %%%%
@@ -13444,6 +13903,15 @@ the deep troll's
 the deep trolls
 {pl}глубинные тролли
 %%%%
+the demigod
+{m}полубог
+%%%%
+the demigod's
+{m}полубога
+%%%%
+the demigods
+{pl}полубоги
+%%%%
 the demon blade
 {m}демонический клинок
 %%%%
@@ -13471,6 +13939,12 @@ the demon whip's
 the demon whips
 {pl}демонические кнуты
 %%%%
+the demonspawn
+{n}порождение демонов
+%%%%
+the demonspawn's
+{n}порождения демонов
+%%%%
 the dire flail
 {m}тяжёлый цеп
 %%%%
@@ -13479,6 +13953,15 @@ the dire flail's
 %%%%
 the dire flails
 {pl}тяжёлые цепы
+%%%%
+the djinn
+{pl}джинны
+%%%%
+the djinni
+{m}джинн
+%%%%
+the djinni's
+{m}джинна
 %%%%
 the double sword
 {m}двойной меч
@@ -13549,6 +14032,15 @@ the dream sheep
 the dream sheep's
 {f}овцы сновидений
 %%%%
+the dwarf
+{m}дворф
+%%%%
+the dwarf's
+{m}дворфа
+%%%%
+the dwarves
+{pl}дворфы
+%%%%
 the earthy gem
 {m}землистый самоцвет
 %%%%
@@ -13584,6 +14076,15 @@ the elephant's
 %%%%
 the elephants
 {pl}слоны
+%%%%
+the elf
+{m}эльф
+%%%%
+the elf's
+{m}эльфа
+%%%%
+the elves
+{pl}эльфы
 %%%%
 the endoplasm
 {f}эндоплазма
@@ -13711,6 +14212,15 @@ the fortress talisman's
 the fortress talismans
 {pl}талисманы крепости
 %%%%
+the frog
+{f}лягушка
+%%%%
+the frog's
+{f}лягушки
+%%%%
+the frogs
+{pl}лягушки
+%%%%
 the frost giant
 {m}морозный великан
 %%%%
@@ -13719,6 +14229,15 @@ the frost giant's
 %%%%
 the frost giants
 {pl}морозные великаны
+%%%%
+the gargoyle
+{f}горгулья
+%%%%
+the gargoyle's
+{f}горгульи
+%%%%
+the gargoyles
+{pl}горгульи
 %%%%
 the gecko talisman
 {m}талисман геккона
@@ -13729,6 +14248,15 @@ the gecko talisman's
 the gecko talismans
 {pl}талисманы геккона
 %%%%
+the geist
+{m}призрак
+%%%%
+the geist's
+{m}призрака
+%%%%
+the geists
+{pl}призраки
+%%%%
 the gem
 {m}самоцвет
 %%%%
@@ -13737,6 +14265,15 @@ the gem's
 %%%%
 the gems
 {pl}самоцветы
+%%%%
+the ghoul
+{m}гуль
+%%%%
+the ghoul's
+{m}гуля
+%%%%
+the ghouls
+{pl}гули
 %%%%
 the giant club
 {f}гигантская дубина
@@ -13800,6 +14337,15 @@ the goblin's
 %%%%
 the goblins
 {pl}гоблины
+%%%%
+the god
+{m}бог
+%%%%
+the god's
+{m}бога
+%%%%
+the gods
+{pl}боги
 %%%%
 the gold piece
 {f}золотая монета
@@ -14034,6 +14580,15 @@ the hound's
 %%%%
 the hounds
 {pl}гончие
+%%%%
+the human
+{m}человек
+%%%%
+the human's
+{m}человека
+%%%%
+the humans
+{pl}люди
 %%%%
 the hydra
 {f}гидра
@@ -14428,6 +14983,15 @@ the milky-white gem's
 the milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+the minotaur
+{m}минотавр
+%%%%
+the minotaur's
+{m}минотавра
+%%%%
+the minotaurs
+{pl}минотавры
+%%%%
 the mist talisman
 {m}талисман тумана
 %%%%
@@ -14536,6 +15100,15 @@ the oblivion hound's
 the oblivion hounds
 {pl}гончие забвения
 %%%%
+the octopi
+{pl}осьминоги
+%%%%
+the octopus
+{m}осьминог
+%%%%
+the octopus's
+{m}осьминога
+%%%%
 the ogre
 {m}огр
 %%%%
@@ -14544,6 +15117,12 @@ the ogre's
 %%%%
 the ogres
 {pl}огры
+%%%%
+the oni
+{m}они
+%%%%
+the oni's
+{m}они
 %%%%
 the orange demon
 {m}оранжевый демон
@@ -14652,6 +15231,15 @@ the pale draconian's
 %%%%
 the pale draconians
 {pl}бледные драконианы
+%%%%
+the palentonga
+{m}палентонга
+%%%%
+the palentonga's
+{m}палентонги
+%%%%
+the palentongas
+{pl}палентонги
 %%%%
 the pearl dragon
 {m}жемчужный дракон
@@ -15012,6 +15600,15 @@ the red draconian's
 %%%%
 the red draconians
 {pl}красные драконианы
+%%%%
+the revenant
+{m}ревенант
+%%%%
+the revenant's
+{m}ревенанта
+%%%%
+the revenants
+{pl}ревенанты
 %%%%
 the ribbon worm
 {m}ленточный червь
@@ -16174,6 +16771,15 @@ the very ugly thing's
 the very ugly things
 {pl}очень уродливые существа
 %%%%
+the vine stalker
+{m}лозовый преследователь
+%%%%
+the vine stalker's
+{m}лозового преследователя
+%%%%
+the vine stalkers
+{pl}лозовые преследователи
+%%%%
 the vision talisman
 {m}талисман зрения
 %%%%
@@ -16641,6 +17247,15 @@ very ugly thing's
 %%%%
 very ugly things
 {pl}очень уродливые существа
+%%%%
+vine stalker
+{m}лозовый преследователь
+%%%%
+vine stalker's
+{m}лозового преследователя
+%%%%
+vine stalkers
+{pl}лозовые преследователи
 %%%%
 vision talisman
 {m}талисман зрения
@@ -17427,6 +18042,15 @@ your ancient lich's
 %%%%
 your ancient liches
 {pl}древние личи
+%%%%
+your ant
+{m}муравей
+%%%%
+your ant's
+{m}муравья
+%%%%
+your ants
+{pl}муравьи
 %%%%
 your apocalypse crab
 {m}краб апокалипсиса
@@ -18238,6 +18862,15 @@ your cane toad's
 your cane toads
 {pl}жабы-аги
 %%%%
+your cat
+{f}кошка
+%%%%
+your cat's
+{f}кошки
+%%%%
+your cats
+{pl}кошки
+%%%%
 your centaur
 {m}кентавр
 %%%%
@@ -18517,6 +19150,15 @@ your deep troll's
 your deep trolls
 {pl}глубинные тролли
 %%%%
+your demigod
+{m}полубог
+%%%%
+your demigod's
+{m}полубога
+%%%%
+your demigods
+{pl}полубоги
+%%%%
 your demon blade
 {m}демонический клинок
 %%%%
@@ -18544,6 +19186,12 @@ your demon whip's
 your demon whips
 {pl}демонические кнуты
 %%%%
+your demonspawn
+{n}порождение демонов
+%%%%
+your demonspawn's
+{n}порождения демонов
+%%%%
 your dire flail
 {m}тяжёлый цеп
 %%%%
@@ -18552,6 +19200,15 @@ your dire flail's
 %%%%
 your dire flails
 {pl}тяжёлые цепы
+%%%%
+your djinn
+{pl}джинны
+%%%%
+your djinni
+{m}джинн
+%%%%
+your djinni's
+{m}джинна
 %%%%
 your double sword
 {m}двойной меч
@@ -18622,6 +19279,15 @@ your dream sheep
 your dream sheep's
 {f}овцы сновидений
 %%%%
+your dwarf
+{m}дворф
+%%%%
+your dwarf's
+{m}дворфа
+%%%%
+your dwarves
+{pl}дворфы
+%%%%
 your earthy gem
 {m}землистый самоцвет
 %%%%
@@ -18657,6 +19323,15 @@ your elephant's
 %%%%
 your elephants
 {pl}слоны
+%%%%
+your elf
+{m}эльф
+%%%%
+your elf's
+{m}эльфа
+%%%%
+your elves
+{pl}эльфы
 %%%%
 your endoplasm
 {f}эндоплазма
@@ -18784,6 +19459,15 @@ your fortress talisman's
 your fortress talismans
 {pl}талисманы крепости
 %%%%
+your frog
+{f}лягушка
+%%%%
+your frog's
+{f}лягушки
+%%%%
+your frogs
+{pl}лягушки
+%%%%
 your frost giant
 {m}морозный великан
 %%%%
@@ -18792,6 +19476,15 @@ your frost giant's
 %%%%
 your frost giants
 {pl}морозные великаны
+%%%%
+your gargoyle
+{f}горгулья
+%%%%
+your gargoyle's
+{f}горгульи
+%%%%
+your gargoyles
+{pl}горгульи
 %%%%
 your gecko talisman
 {m}талисман геккона
@@ -18802,6 +19495,15 @@ your gecko talisman's
 your gecko talismans
 {pl}талисманы геккона
 %%%%
+your geist
+{m}призрак
+%%%%
+your geist's
+{m}призрака
+%%%%
+your geists
+{pl}призраки
+%%%%
 your gem
 {m}самоцвет
 %%%%
@@ -18810,6 +19512,15 @@ your gem's
 %%%%
 your gems
 {pl}самоцветы
+%%%%
+your ghoul
+{m}гуль
+%%%%
+your ghoul's
+{m}гуля
+%%%%
+your ghouls
+{pl}гули
 %%%%
 your giant club
 {f}гигантская дубина
@@ -18873,6 +19584,15 @@ your goblin's
 %%%%
 your goblins
 {pl}гоблины
+%%%%
+your god
+{m}бог
+%%%%
+your god's
+{m}бога
+%%%%
+your gods
+{pl}боги
 %%%%
 your gold piece
 {f}золотая монета
@@ -19107,6 +19827,15 @@ your hound's
 %%%%
 your hounds
 {pl}гончие
+%%%%
+your human
+{m}человек
+%%%%
+your human's
+{m}человека
+%%%%
+your humans
+{pl}люди
 %%%%
 your hydra
 {f}гидра
@@ -19501,6 +20230,15 @@ your milky-white gem's
 your milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+your minotaur
+{m}минотавр
+%%%%
+your minotaur's
+{m}минотавра
+%%%%
+your minotaurs
+{pl}минотавры
+%%%%
 your mist talisman
 {m}талисман тумана
 %%%%
@@ -19609,6 +20347,15 @@ your oblivion hound's
 your oblivion hounds
 {pl}гончие забвения
 %%%%
+your octopi
+{pl}осьминоги
+%%%%
+your octopus
+{m}осьминог
+%%%%
+your octopus's
+{m}осьминога
+%%%%
 your ogre
 {m}огр
 %%%%
@@ -19617,6 +20364,12 @@ your ogre's
 %%%%
 your ogres
 {pl}огры
+%%%%
+your oni
+{m}они
+%%%%
+your oni's
+{m}они
 %%%%
 your orange demon
 {m}оранжевый демон
@@ -19725,6 +20478,15 @@ your pale draconian's
 %%%%
 your pale draconians
 {pl}бледные драконианы
+%%%%
+your palentonga
+{m}палентонга
+%%%%
+your palentonga's
+{m}палентонги
+%%%%
+your palentongas
+{pl}палентонги
 %%%%
 your pearl dragon
 {m}жемчужный дракон
@@ -20085,6 +20847,15 @@ your red draconian's
 %%%%
 your red draconians
 {pl}красные драконианы
+%%%%
+your revenant
+{m}ревенант
+%%%%
+your revenant's
+{m}ревенанта
+%%%%
+your revenants
+{pl}ревенанты
 %%%%
 your ribbon worm
 {m}ленточный червь
@@ -21247,6 +22018,15 @@ your very ugly thing's
 your very ugly things
 {pl}очень уродливые существа
 %%%%
+your vine stalker
+{m}лозовый преследователь
+%%%%
+your vine stalker's
+{m}лозового преследователя
+%%%%
+your vine stalkers
+{pl}лозовые преследователи
+%%%%
 your vision talisman
 {m}талисман зрения
 %%%%
@@ -21697,6 +22477,9 @@ your ynoxinuls
 {acc_few}@num@ ancient liches
 @num@ древних личей
 %%%%
+{acc_few}@num@ ants
+@num@ муравьёв
+%%%%
 {acc_few}@num@ apocalypse crabs
 @num@ крабов апокалипсиса
 %%%%
@@ -21967,6 +22750,9 @@ your ynoxinuls
 {acc_few}@num@ cane toads
 @num@ жаб-аг
 %%%%
+{acc_few}@num@ cats
+@num@ кошек
+%%%%
 {acc_few}@num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -22060,6 +22846,9 @@ your ynoxinuls
 {acc_few}@num@ deep trolls
 @num@ глубинных троллей
 %%%%
+{acc_few}@num@ demigods
+@num@ полубогов
+%%%%
 {acc_few}@num@ demon blades
 @num@ демонических клинка
 %%%%
@@ -22069,8 +22858,14 @@ your ynoxinuls
 {acc_few}@num@ demon whips
 @num@ демонических кнута
 %%%%
+{acc_few}@num@ demonspawn
+@num@ порождений демонов
+%%%%
 {acc_few}@num@ dire flails
 @num@ тяжёлых цепа
+%%%%
+{acc_few}@num@ djinn
+@num@ джиннов
 %%%%
 {acc_few}@num@ double swords
 @num@ двойных меча
@@ -22096,6 +22891,9 @@ your ynoxinuls
 {acc_few}@num@ dream sheep
 @num@ овец сновидений
 %%%%
+{acc_few}@num@ dwarves
+@num@ дворфов
+%%%%
 {acc_few}@num@ earthy gems
 @num@ землистых самоцвета
 %%%%
@@ -22107,6 +22905,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ elephants
 @num@ слонов
+%%%%
+{acc_few}@num@ elves
+@num@ эльфов
 %%%%
 {acc_few}@num@ endoplasms
 @num@ эндоплазмы
@@ -22150,14 +22951,26 @@ your ynoxinuls
 {acc_few}@num@ fortress talismans
 @num@ талисмана крепости
 %%%%
+{acc_few}@num@ frogs
+@num@ лягушек
+%%%%
 {acc_few}@num@ frost giants
 @num@ морозных великанов
+%%%%
+{acc_few}@num@ gargoyles
+@num@ горгулий
 %%%%
 {acc_few}@num@ gecko talismans
 @num@ талисмана геккона
 %%%%
+{acc_few}@num@ geists
+@num@ призраков
+%%%%
 {acc_few}@num@ gems
 @num@ самоцвета
+%%%%
+{acc_few}@num@ ghouls
+@num@ гулей
 %%%%
 {acc_few}@num@ giant clubs
 @num@ гигантские дубины
@@ -22179,6 +22992,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ goblins
 @num@ гоблинов
+%%%%
+{acc_few}@num@ gods
+@num@ богов
 %%%%
 {acc_few}@num@ gold pieces
 @num@ золотой монеты
@@ -22257,6 +23073,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ hounds
 @num@ гончих
+%%%%
+{acc_few}@num@ humans
+@num@ людей
 %%%%
 {acc_few}@num@ hydras
 @num@ гидр
@@ -22390,6 +23209,9 @@ your ynoxinuls
 {acc_few}@num@ milky-white gems
 @num@ молочно-белых самоцвета
 %%%%
+{acc_few}@num@ minotaurs
+@num@ минотавров
+%%%%
 {acc_few}@num@ mist talismans
 @num@ талисмана тумана
 %%%%
@@ -22426,8 +23248,14 @@ your ynoxinuls
 {acc_few}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{acc_few}@num@ octopi
+@num@ осьминогов
+%%%%
 {acc_few}@num@ ogres
 @num@ огров
+%%%%
+{acc_few}@num@ oni
+@num@ они
 %%%%
 {acc_few}@num@ orange demons
 @num@ оранжевых демонов
@@ -22464,6 +23292,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ pale draconians
 @num@ бледных драконианов
+%%%%
+{acc_few}@num@ palentongas
+@num@ палентонг
 %%%%
 {acc_few}@num@ pearl dragons
 @num@ жемчужных драконов
@@ -22584,6 +23415,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ red draconians
 @num@ красных драконианов
+%%%%
+{acc_few}@num@ revenants
+@num@ ревенантов
 %%%%
 {acc_few}@num@ ribbon worms
 @num@ ленточных червей
@@ -22975,6 +23809,9 @@ your ynoxinuls
 {acc_few}@num@ very ugly things
 @num@ очень уродливого существа
 %%%%
+{acc_few}@num@ vine stalkers
+@num@ лозовых преследователей
+%%%%
 {acc_few}@num@ vision talismans
 @num@ талисмана зрения
 %%%%
@@ -23238,6 +24075,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ ancient liches
 @num@ древних личей
+%%%%
+{acc_many}@num@ ants
+@num@ муравьёв
 %%%%
 {acc_many}@num@ apocalypse crabs
 @num@ крабов апокалипсиса
@@ -23509,6 +24349,9 @@ your ynoxinuls
 {acc_many}@num@ cane toads
 @num@ жаб-аг
 %%%%
+{acc_many}@num@ cats
+@num@ кошек
+%%%%
 {acc_many}@num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -23602,6 +24445,9 @@ your ynoxinuls
 {acc_many}@num@ deep trolls
 @num@ глубинных троллей
 %%%%
+{acc_many}@num@ demigods
+@num@ полубогов
+%%%%
 {acc_many}@num@ demon blades
 @num@ демонических клинков
 %%%%
@@ -23611,8 +24457,14 @@ your ynoxinuls
 {acc_many}@num@ demon whips
 @num@ демонических кнутов
 %%%%
+{acc_many}@num@ demonspawn
+@num@ порождений демонов
+%%%%
 {acc_many}@num@ dire flails
 @num@ тяжёлых цепов
+%%%%
+{acc_many}@num@ djinn
+@num@ джиннов
 %%%%
 {acc_many}@num@ double swords
 @num@ двойных мечей
@@ -23638,6 +24490,9 @@ your ynoxinuls
 {acc_many}@num@ dream sheep
 @num@ овец сновидений
 %%%%
+{acc_many}@num@ dwarves
+@num@ дворфов
+%%%%
 {acc_many}@num@ earthy gems
 @num@ землистых самоцветов
 %%%%
@@ -23649,6 +24504,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ elephants
 @num@ слонов
+%%%%
+{acc_many}@num@ elves
+@num@ эльфов
 %%%%
 {acc_many}@num@ endoplasms
 @num@ эндоплазм
@@ -23692,14 +24550,26 @@ your ynoxinuls
 {acc_many}@num@ fortress talismans
 @num@ талисманов крепости
 %%%%
+{acc_many}@num@ frogs
+@num@ лягушек
+%%%%
 {acc_many}@num@ frost giants
 @num@ морозных великанов
+%%%%
+{acc_many}@num@ gargoyles
+@num@ горгулий
 %%%%
 {acc_many}@num@ gecko talismans
 @num@ талисманов геккона
 %%%%
+{acc_many}@num@ geists
+@num@ призраков
+%%%%
 {acc_many}@num@ gems
 @num@ самоцветов
+%%%%
+{acc_many}@num@ ghouls
+@num@ гулей
 %%%%
 {acc_many}@num@ giant clubs
 @num@ гигантских дубин
@@ -23721,6 +24591,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ goblins
 @num@ гоблинов
+%%%%
+{acc_many}@num@ gods
+@num@ богов
 %%%%
 {acc_many}@num@ gold pieces
 @num@ золотых монет
@@ -23799,6 +24672,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ hounds
 @num@ гончих
+%%%%
+{acc_many}@num@ humans
+@num@ людей
 %%%%
 {acc_many}@num@ hydras
 @num@ гидр
@@ -23932,6 +24808,9 @@ your ynoxinuls
 {acc_many}@num@ milky-white gems
 @num@ молочно-белых самоцветов
 %%%%
+{acc_many}@num@ minotaurs
+@num@ минотавров
+%%%%
 {acc_many}@num@ mist talismans
 @num@ талисманов тумана
 %%%%
@@ -23968,8 +24847,14 @@ your ynoxinuls
 {acc_many}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{acc_many}@num@ octopi
+@num@ осьминогов
+%%%%
 {acc_many}@num@ ogres
 @num@ огров
+%%%%
+{acc_many}@num@ oni
+@num@ они
 %%%%
 {acc_many}@num@ orange demons
 @num@ оранжевых демонов
@@ -24006,6 +24891,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ pale draconians
 @num@ бледных драконианов
+%%%%
+{acc_many}@num@ palentongas
+@num@ палентонг
 %%%%
 {acc_many}@num@ pearl dragons
 @num@ жемчужных драконов
@@ -24126,6 +25014,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ red draconians
 @num@ красных драконианов
+%%%%
+{acc_many}@num@ revenants
+@num@ ревенантов
 %%%%
 {acc_many}@num@ ribbon worms
 @num@ ленточных червей
@@ -24517,6 +25408,9 @@ your ynoxinuls
 {acc_many}@num@ very ugly things
 @num@ очень уродливых существ
 %%%%
+{acc_many}@num@ vine stalkers
+@num@ лозовых преследователей
+%%%%
 {acc_many}@num@ vision talismans
 @num@ талисманов зрения
 %%%%
@@ -24780,6 +25674,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ ancient liches
 @num@ древнего лича
+%%%%
+{acc_one}@num@ ants
+@num@ муравья
 %%%%
 {acc_one}@num@ apocalypse crabs
 @num@ краба апокалипсиса
@@ -25051,6 +25948,9 @@ your ynoxinuls
 {acc_one}@num@ cane toads
 @num@ жабу-агу
 %%%%
+{acc_one}@num@ cats
+@num@ кошку
+%%%%
 {acc_one}@num@ centaur warriors
 @num@ кентавра-воина
 %%%%
@@ -25144,6 +26044,9 @@ your ynoxinuls
 {acc_one}@num@ deep trolls
 @num@ глубинного тролля
 %%%%
+{acc_one}@num@ demigods
+@num@ полубога
+%%%%
 {acc_one}@num@ demon blades
 @num@ демонический клинок
 %%%%
@@ -25153,8 +26056,14 @@ your ynoxinuls
 {acc_one}@num@ demon whips
 @num@ демонический кнут
 %%%%
+{acc_one}@num@ demonspawn
+@num@ порождение демонов
+%%%%
 {acc_one}@num@ dire flails
 @num@ тяжёлый цеп
+%%%%
+{acc_one}@num@ djinn
+@num@ джинна
 %%%%
 {acc_one}@num@ double swords
 @num@ двойной меч
@@ -25180,6 +26089,9 @@ your ynoxinuls
 {acc_one}@num@ dream sheep
 @num@ овцу сновидений
 %%%%
+{acc_one}@num@ dwarves
+@num@ дворфа
+%%%%
 {acc_one}@num@ earthy gems
 @num@ землистый самоцвет
 %%%%
@@ -25191,6 +26103,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ elephants
 @num@ слона
+%%%%
+{acc_one}@num@ elves
+@num@ эльфа
 %%%%
 {acc_one}@num@ endoplasms
 @num@ эндоплазму
@@ -25234,14 +26149,26 @@ your ynoxinuls
 {acc_one}@num@ fortress talismans
 @num@ талисман крепости
 %%%%
+{acc_one}@num@ frogs
+@num@ лягушку
+%%%%
 {acc_one}@num@ frost giants
 @num@ морозного великана
+%%%%
+{acc_one}@num@ gargoyles
+@num@ горгулью
 %%%%
 {acc_one}@num@ gecko talismans
 @num@ талисман геккона
 %%%%
+{acc_one}@num@ geists
+@num@ призрака
+%%%%
 {acc_one}@num@ gems
 @num@ самоцвет
+%%%%
+{acc_one}@num@ ghouls
+@num@ гуля
 %%%%
 {acc_one}@num@ giant clubs
 @num@ гигантскую дубину
@@ -25263,6 +26190,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ goblins
 @num@ гоблина
+%%%%
+{acc_one}@num@ gods
+@num@ бога
 %%%%
 {acc_one}@num@ gold pieces
 @num@ золотую монету
@@ -25341,6 +26271,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ hounds
 @num@ гончую
+%%%%
+{acc_one}@num@ humans
+@num@ человека
 %%%%
 {acc_one}@num@ hydras
 @num@ гидру
@@ -25474,6 +26407,9 @@ your ynoxinuls
 {acc_one}@num@ milky-white gems
 @num@ молочно-белый самоцвет
 %%%%
+{acc_one}@num@ minotaurs
+@num@ минотавра
+%%%%
 {acc_one}@num@ mist talismans
 @num@ талисман тумана
 %%%%
@@ -25510,8 +26446,14 @@ your ynoxinuls
 {acc_one}@num@ oblivion hounds
 @num@ гончую забвения
 %%%%
+{acc_one}@num@ octopi
+@num@ осьминога
+%%%%
 {acc_one}@num@ ogres
 @num@ огра
+%%%%
+{acc_one}@num@ oni
+@num@ они
 %%%%
 {acc_one}@num@ orange demons
 @num@ оранжевого демона
@@ -25548,6 +26490,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ pale draconians
 @num@ бледного дракониана
+%%%%
+{acc_one}@num@ palentongas
+@num@ палентонгу
 %%%%
 {acc_one}@num@ pearl dragons
 @num@ жемчужного дракона
@@ -25668,6 +26613,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ red draconians
 @num@ красного дракониана
+%%%%
+{acc_one}@num@ revenants
+@num@ ревенанта
 %%%%
 {acc_one}@num@ ribbon worms
 @num@ ленточного червя
@@ -26058,6 +27006,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ very ugly things
 @num@ очень уродливое существо
+%%%%
+{acc_one}@num@ vine stalkers
+@num@ лозового преследователя
 %%%%
 {acc_one}@num@ vision talismans
 @num@ талисман зрения
@@ -26563,6 +27514,9 @@ your ynoxinuls
 {acc}a ancient lich
 {m}древнего лича
 %%%%
+{acc}a ant
+{m}муравья
+%%%%
 {acc}a apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -26833,6 +27787,9 @@ your ynoxinuls
 {acc}a cane toad
 {f}жабу-агу
 %%%%
+{acc}a cat
+{f}кошку
+%%%%
 {acc}a centaur
 {m}кентавра
 %%%%
@@ -26926,6 +27883,9 @@ your ynoxinuls
 {acc}a deep troll shaman
 {m}глубинного тролля-шамана
 %%%%
+{acc}a demigod
+{m}полубога
+%%%%
 {acc}a demon blade
 {m}демонический клинок
 %%%%
@@ -26935,8 +27895,14 @@ your ynoxinuls
 {acc}a demon whip
 {m}демонический кнут
 %%%%
+{acc}a demonspawn
+{n}порождение демонов
+%%%%
 {acc}a dire flail
 {m}тяжёлый цеп
+%%%%
+{acc}a djinni
+{m}джинна
 %%%%
 {acc}a double sword
 {m}двойной меч
@@ -26962,6 +27928,9 @@ your ynoxinuls
 {acc}a dream sheep
 {f}овцу сновидений
 %%%%
+{acc}a dwarf
+{m}дворфа
+%%%%
 {acc}a earthy gem
 {m}землистый самоцвет
 %%%%
@@ -26973,6 +27942,9 @@ your ynoxinuls
 %%%%
 {acc}a elephant
 {m}слона
+%%%%
+{acc}a elf
+{m}эльфа
 %%%%
 {acc}a endoplasm
 {f}эндоплазму
@@ -27016,14 +27988,26 @@ your ynoxinuls
 {acc}a fortress talisman
 {m}талисман крепости
 %%%%
+{acc}a frog
+{f}лягушку
+%%%%
 {acc}a frost giant
 {m}морозного великана
+%%%%
+{acc}a gargoyle
+{f}горгулью
 %%%%
 {acc}a gecko talisman
 {m}талисман геккона
 %%%%
+{acc}a geist
+{m}призрака
+%%%%
 {acc}a gem
 {m}самоцвет
+%%%%
+{acc}a ghoul
+{m}гуля
 %%%%
 {acc}a giant club
 {f}гигантскую дубину
@@ -27045,6 +28029,9 @@ your ynoxinuls
 %%%%
 {acc}a goblin
 {m}гоблина
+%%%%
+{acc}a god
+{m}бога
 %%%%
 {acc}a gold piece
 {f}золотую монету
@@ -27123,6 +28110,9 @@ your ynoxinuls
 %%%%
 {acc}a hound
 {f}гончую
+%%%%
+{acc}a human
+{m}человека
 %%%%
 {acc}a hydra
 {f}гидру
@@ -27256,6 +28246,9 @@ your ynoxinuls
 {acc}a milky-white gem
 {m}молочно-белый самоцвет
 %%%%
+{acc}a minotaur
+{m}минотавра
+%%%%
 {acc}a mist talisman
 {m}талисман тумана
 %%%%
@@ -27292,8 +28285,14 @@ your ynoxinuls
 {acc}a oblivion hound
 {f}гончую забвения
 %%%%
+{acc}a octopus
+{m}осьминога
+%%%%
 {acc}a ogre
 {m}огра
+%%%%
+{acc}a oni
+{m}они
 %%%%
 {acc}a orange demon
 {m}оранжевого демона
@@ -27330,6 +28329,9 @@ your ynoxinuls
 %%%%
 {acc}a pale draconian
 {m}бледного дракониана
+%%%%
+{acc}a palentonga
+{m}палентонгу
 %%%%
 {acc}a pearl dragon
 {m}жемчужного дракона
@@ -27450,6 +28452,9 @@ your ynoxinuls
 %%%%
 {acc}a red draconian
 {m}красного дракониана
+%%%%
+{acc}a revenant
+{m}ревенанта
 %%%%
 {acc}a ribbon worm
 {m}ленточного червя
@@ -27841,6 +28846,9 @@ your ynoxinuls
 {acc}a very ugly thing
 {n}очень уродливое существо
 %%%%
+{acc}a vine stalker
+{m}лозового преследователя
+%%%%
 {acc}a vision talisman
 {m}талисман зрения
 %%%%
@@ -28189,6 +29197,9 @@ your ynoxinuls
 {acc}an ancient lich
 {m}древнего лича
 %%%%
+{acc}an ant
+{m}муравья
+%%%%
 {acc}an apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -28459,6 +29470,9 @@ your ynoxinuls
 {acc}an cane toad
 {f}жабу-агу
 %%%%
+{acc}an cat
+{f}кошку
+%%%%
 {acc}an centaur
 {m}кентавра
 %%%%
@@ -28552,6 +29566,9 @@ your ynoxinuls
 {acc}an deep troll shaman
 {m}глубинного тролля-шамана
 %%%%
+{acc}an demigod
+{m}полубога
+%%%%
 {acc}an demon blade
 {m}демонический клинок
 %%%%
@@ -28561,8 +29578,14 @@ your ynoxinuls
 {acc}an demon whip
 {m}демонический кнут
 %%%%
+{acc}an demonspawn
+{n}порождение демонов
+%%%%
 {acc}an dire flail
 {m}тяжёлый цеп
+%%%%
+{acc}an djinni
+{m}джинна
 %%%%
 {acc}an double sword
 {m}двойной меч
@@ -28588,6 +29611,9 @@ your ynoxinuls
 {acc}an dream sheep
 {f}овцу сновидений
 %%%%
+{acc}an dwarf
+{m}дворфа
+%%%%
 {acc}an earthy gem
 {m}землистый самоцвет
 %%%%
@@ -28599,6 +29625,9 @@ your ynoxinuls
 %%%%
 {acc}an elephant
 {m}слона
+%%%%
+{acc}an elf
+{m}эльфа
 %%%%
 {acc}an endoplasm
 {f}эндоплазму
@@ -28642,14 +29671,26 @@ your ynoxinuls
 {acc}an fortress talisman
 {m}талисман крепости
 %%%%
+{acc}an frog
+{f}лягушку
+%%%%
 {acc}an frost giant
 {m}морозного великана
+%%%%
+{acc}an gargoyle
+{f}горгулью
 %%%%
 {acc}an gecko talisman
 {m}талисман геккона
 %%%%
+{acc}an geist
+{m}призрака
+%%%%
 {acc}an gem
 {m}самоцвет
+%%%%
+{acc}an ghoul
+{m}гуля
 %%%%
 {acc}an giant club
 {f}гигантскую дубину
@@ -28671,6 +29712,9 @@ your ynoxinuls
 %%%%
 {acc}an goblin
 {m}гоблина
+%%%%
+{acc}an god
+{m}бога
 %%%%
 {acc}an gold piece
 {f}золотую монету
@@ -28749,6 +29793,9 @@ your ynoxinuls
 %%%%
 {acc}an hound
 {f}гончую
+%%%%
+{acc}an human
+{m}человека
 %%%%
 {acc}an hydra
 {f}гидру
@@ -28882,6 +29929,9 @@ your ynoxinuls
 {acc}an milky-white gem
 {m}молочно-белый самоцвет
 %%%%
+{acc}an minotaur
+{m}минотавра
+%%%%
 {acc}an mist talisman
 {m}талисман тумана
 %%%%
@@ -28918,8 +29968,14 @@ your ynoxinuls
 {acc}an oblivion hound
 {f}гончую забвения
 %%%%
+{acc}an octopus
+{m}осьминога
+%%%%
 {acc}an ogre
 {m}огра
+%%%%
+{acc}an oni
+{m}они
 %%%%
 {acc}an orange demon
 {m}оранжевого демона
@@ -28956,6 +30012,9 @@ your ynoxinuls
 %%%%
 {acc}an pale draconian
 {m}бледного дракониана
+%%%%
+{acc}an palentonga
+{m}палентонгу
 %%%%
 {acc}an pearl dragon
 {m}жемчужного дракона
@@ -29076,6 +30135,9 @@ your ynoxinuls
 %%%%
 {acc}an red draconian
 {m}красного дракониана
+%%%%
+{acc}an revenant
+{m}ревенанта
 %%%%
 {acc}an ribbon worm
 {m}ленточного червя
@@ -29467,6 +30529,9 @@ your ynoxinuls
 {acc}an very ugly thing
 {n}очень уродливое существо
 %%%%
+{acc}an vine stalker
+{m}лозового преследователя
+%%%%
 {acc}an vision talisman
 {m}талисман зрения
 %%%%
@@ -29571,6 +30636,12 @@ your ynoxinuls
 %%%%
 {acc}ancient liches
 {pl}древних личей
+%%%%
+{acc}ant
+{m}муравья
+%%%%
+{acc}ants
+{pl}муравьёв
 %%%%
 {acc}apocalypse crab
 {m}краба апокалипсиса
@@ -30112,6 +31183,12 @@ your ynoxinuls
 {acc}cane toads
 {pl}жаб-аг
 %%%%
+{acc}cat
+{f}кошку
+%%%%
+{acc}cats
+{pl}кошек
+%%%%
 {acc}centaur
 {m}кентавра
 %%%%
@@ -30298,6 +31375,12 @@ your ynoxinuls
 {acc}deep trolls
 {pl}глубинных троллей
 %%%%
+{acc}demigod
+{m}полубога
+%%%%
+{acc}demigods
+{pl}полубогов
+%%%%
 {acc}demon blade
 {m}демонический клинок
 %%%%
@@ -30316,11 +31399,20 @@ your ynoxinuls
 {acc}demon whips
 {pl}демонические кнуты
 %%%%
+{acc}demonspawn
+{n}порождение демонов
+%%%%
 {acc}dire flail
 {m}тяжёлый цеп
 %%%%
 {acc}dire flails
 {pl}тяжёлые цепы
+%%%%
+{acc}djinn
+{pl}джиннов
+%%%%
+{acc}djinni
+{m}джинна
 %%%%
 {acc}double sword
 {m}двойной меч
@@ -30367,6 +31459,12 @@ your ynoxinuls
 {acc}dream sheep
 {f}овцу сновидений
 %%%%
+{acc}dwarf
+{m}дворфа
+%%%%
+{acc}dwarves
+{pl}дворфов
+%%%%
 {acc}earthy gem
 {m}землистый самоцвет
 %%%%
@@ -30390,6 +31488,12 @@ your ynoxinuls
 %%%%
 {acc}elephants
 {pl}слонов
+%%%%
+{acc}elf
+{m}эльфа
+%%%%
+{acc}elves
+{pl}эльфов
 %%%%
 {acc}endoplasm
 {f}эндоплазму
@@ -30475,11 +31579,23 @@ your ynoxinuls
 {acc}fortress talismans
 {pl}талисманы крепости
 %%%%
+{acc}frog
+{f}лягушку
+%%%%
+{acc}frogs
+{pl}лягушек
+%%%%
 {acc}frost giant
 {m}морозного великана
 %%%%
 {acc}frost giants
 {pl}морозных великанов
+%%%%
+{acc}gargoyle
+{f}горгулью
+%%%%
+{acc}gargoyles
+{pl}горгулий
 %%%%
 {acc}gecko talisman
 {m}талисман геккона
@@ -30487,11 +31603,23 @@ your ynoxinuls
 {acc}gecko talismans
 {pl}талисманы геккона
 %%%%
+{acc}geist
+{m}призрака
+%%%%
+{acc}geists
+{pl}призраков
+%%%%
 {acc}gem
 {m}самоцвет
 %%%%
 {acc}gems
 {pl}самоцветы
+%%%%
+{acc}ghoul
+{m}гуля
+%%%%
+{acc}ghouls
+{pl}гулей
 %%%%
 {acc}giant club
 {f}гигантскую дубину
@@ -30534,6 +31662,12 @@ your ynoxinuls
 %%%%
 {acc}goblins
 {pl}гоблинов
+%%%%
+{acc}god
+{m}бога
+%%%%
+{acc}gods
+{pl}богов
 %%%%
 {acc}gold piece
 {f}золотую монету
@@ -30690,6 +31824,12 @@ your ynoxinuls
 %%%%
 {acc}hounds
 {pl}гончих
+%%%%
+{acc}human
+{m}человека
+%%%%
+{acc}humans
+{pl}людей
 %%%%
 {acc}hydra
 {f}гидру
@@ -30952,6 +32092,12 @@ your ynoxinuls
 {acc}milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{acc}minotaur
+{m}минотавра
+%%%%
+{acc}minotaurs
+{pl}минотавров
+%%%%
 {acc}mist talisman
 {m}талисман тумана
 %%%%
@@ -31024,11 +32170,20 @@ your ynoxinuls
 {acc}oblivion hounds
 {pl}гончих забвения
 %%%%
+{acc}octopi
+{pl}осьминогов
+%%%%
+{acc}octopus
+{m}осьминога
+%%%%
 {acc}ogre
 {m}огра
 %%%%
 {acc}ogres
 {pl}огров
+%%%%
+{acc}oni
+{m}они
 %%%%
 {acc}orange demon
 {m}оранжевого демона
@@ -31101,6 +32256,12 @@ your ynoxinuls
 %%%%
 {acc}pale draconians
 {pl}бледных драконианов
+%%%%
+{acc}palentonga
+{m}палентонгу
+%%%%
+{acc}palentongas
+{pl}палентонг
 %%%%
 {acc}pearl dragon
 {m}жемчужного дракона
@@ -31341,6 +32502,12 @@ your ynoxinuls
 %%%%
 {acc}red draconians
 {pl}красных драконианов
+%%%%
+{acc}revenant
+{m}ревенанта
+%%%%
+{acc}revenants
+{pl}ревенантов
 %%%%
 {acc}ribbon worm
 {m}ленточного червя
@@ -32323,6 +33490,12 @@ your ynoxinuls
 {acc}the ancient liches
 {pl}древних личей
 %%%%
+{acc}the ant
+{m}муравья
+%%%%
+{acc}the ants
+{pl}муравьёв
+%%%%
 {acc}the apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -32863,6 +34036,12 @@ your ynoxinuls
 {acc}the cane toads
 {pl}жаб-аг
 %%%%
+{acc}the cat
+{f}кошку
+%%%%
+{acc}the cats
+{pl}кошек
+%%%%
 {acc}the centaur
 {m}кентавра
 %%%%
@@ -33049,6 +34228,12 @@ your ynoxinuls
 {acc}the deep trolls
 {pl}глубинных троллей
 %%%%
+{acc}the demigod
+{m}полубога
+%%%%
+{acc}the demigods
+{pl}полубогов
+%%%%
 {acc}the demon blade
 {m}демонический клинок
 %%%%
@@ -33067,11 +34252,20 @@ your ynoxinuls
 {acc}the demon whips
 {pl}демонические кнуты
 %%%%
+{acc}the demonspawn
+{n}порождение демонов
+%%%%
 {acc}the dire flail
 {m}тяжёлый цеп
 %%%%
 {acc}the dire flails
 {pl}тяжёлые цепы
+%%%%
+{acc}the djinn
+{pl}джиннов
+%%%%
+{acc}the djinni
+{m}джинна
 %%%%
 {acc}the double sword
 {m}двойной меч
@@ -33118,6 +34312,12 @@ your ynoxinuls
 {acc}the dream sheep
 {f}овцу сновидений
 %%%%
+{acc}the dwarf
+{m}дворфа
+%%%%
+{acc}the dwarves
+{pl}дворфов
+%%%%
 {acc}the earthy gem
 {m}землистый самоцвет
 %%%%
@@ -33141,6 +34341,12 @@ your ynoxinuls
 %%%%
 {acc}the elephants
 {pl}слонов
+%%%%
+{acc}the elf
+{m}эльфа
+%%%%
+{acc}the elves
+{pl}эльфов
 %%%%
 {acc}the endoplasm
 {f}эндоплазму
@@ -33226,11 +34432,23 @@ your ynoxinuls
 {acc}the fortress talismans
 {pl}талисманы крепости
 %%%%
+{acc}the frog
+{f}лягушку
+%%%%
+{acc}the frogs
+{pl}лягушек
+%%%%
 {acc}the frost giant
 {m}морозного великана
 %%%%
 {acc}the frost giants
 {pl}морозных великанов
+%%%%
+{acc}the gargoyle
+{f}горгулью
+%%%%
+{acc}the gargoyles
+{pl}горгулий
 %%%%
 {acc}the gecko talisman
 {m}талисман геккона
@@ -33238,11 +34456,23 @@ your ynoxinuls
 {acc}the gecko talismans
 {pl}талисманы геккона
 %%%%
+{acc}the geist
+{m}призрака
+%%%%
+{acc}the geists
+{pl}призраков
+%%%%
 {acc}the gem
 {m}самоцвет
 %%%%
 {acc}the gems
 {pl}самоцветы
+%%%%
+{acc}the ghoul
+{m}гуля
+%%%%
+{acc}the ghouls
+{pl}гулей
 %%%%
 {acc}the giant club
 {f}гигантскую дубину
@@ -33285,6 +34515,12 @@ your ynoxinuls
 %%%%
 {acc}the goblins
 {pl}гоблинов
+%%%%
+{acc}the god
+{m}бога
+%%%%
+{acc}the gods
+{pl}богов
 %%%%
 {acc}the gold piece
 {f}золотую монету
@@ -33441,6 +34677,12 @@ your ynoxinuls
 %%%%
 {acc}the hounds
 {pl}гончих
+%%%%
+{acc}the human
+{m}человека
+%%%%
+{acc}the humans
+{pl}людей
 %%%%
 {acc}the hydra
 {f}гидру
@@ -33703,6 +34945,12 @@ your ynoxinuls
 {acc}the milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{acc}the minotaur
+{m}минотавра
+%%%%
+{acc}the minotaurs
+{pl}минотавров
+%%%%
 {acc}the mist talisman
 {m}талисман тумана
 %%%%
@@ -33775,11 +35023,20 @@ your ynoxinuls
 {acc}the oblivion hounds
 {pl}гончих забвения
 %%%%
+{acc}the octopi
+{pl}осьминогов
+%%%%
+{acc}the octopus
+{m}осьминога
+%%%%
 {acc}the ogre
 {m}огра
 %%%%
 {acc}the ogres
 {pl}огров
+%%%%
+{acc}the oni
+{m}они
 %%%%
 {acc}the orange demon
 {m}оранжевого демона
@@ -33852,6 +35109,12 @@ your ynoxinuls
 %%%%
 {acc}the pale draconians
 {pl}бледных драконианов
+%%%%
+{acc}the palentonga
+{m}палентонгу
+%%%%
+{acc}the palentongas
+{pl}палентонг
 %%%%
 {acc}the pearl dragon
 {m}жемчужного дракона
@@ -34092,6 +35355,12 @@ your ynoxinuls
 %%%%
 {acc}the red draconians
 {pl}красных драконианов
+%%%%
+{acc}the revenant
+{m}ревенанта
+%%%%
+{acc}the revenants
+{pl}ревенантов
 %%%%
 {acc}the ribbon worm
 {m}ленточного червя
@@ -34864,6 +36133,12 @@ your ynoxinuls
 {acc}the very ugly things
 {pl}очень уродливые существа
 %%%%
+{acc}the vine stalker
+{m}лозового преследователя
+%%%%
+{acc}the vine stalkers
+{pl}лозовых преследователей
+%%%%
 {acc}the vision talisman
 {m}талисман зрения
 %%%%
@@ -35175,6 +36450,12 @@ your ynoxinuls
 %%%%
 {acc}very ugly things
 {pl}очень уродливые существа
+%%%%
+{acc}vine stalker
+{m}лозового преследователя
+%%%%
+{acc}vine stalkers
+{pl}лозовых преследователей
 %%%%
 {acc}vision talisman
 {m}талисман зрения
@@ -35697,6 +36978,12 @@ your ynoxinuls
 %%%%
 {acc}your ancient liches
 {pl}древних личей
+%%%%
+{acc}your ant
+{m}муравья
+%%%%
+{acc}your ants
+{pl}муравьёв
 %%%%
 {acc}your apocalypse crab
 {m}краба апокалипсиса
@@ -36238,6 +37525,12 @@ your ynoxinuls
 {acc}your cane toads
 {pl}жаб-аг
 %%%%
+{acc}your cat
+{f}кошку
+%%%%
+{acc}your cats
+{pl}кошек
+%%%%
 {acc}your centaur
 {m}кентавра
 %%%%
@@ -36424,6 +37717,12 @@ your ynoxinuls
 {acc}your deep trolls
 {pl}глубинных троллей
 %%%%
+{acc}your demigod
+{m}полубога
+%%%%
+{acc}your demigods
+{pl}полубогов
+%%%%
 {acc}your demon blade
 {m}демонический клинок
 %%%%
@@ -36442,11 +37741,20 @@ your ynoxinuls
 {acc}your demon whips
 {pl}демонические кнуты
 %%%%
+{acc}your demonspawn
+{n}порождение демонов
+%%%%
 {acc}your dire flail
 {m}тяжёлый цеп
 %%%%
 {acc}your dire flails
 {pl}тяжёлые цепы
+%%%%
+{acc}your djinn
+{pl}джиннов
+%%%%
+{acc}your djinni
+{m}джинна
 %%%%
 {acc}your double sword
 {m}двойной меч
@@ -36493,6 +37801,12 @@ your ynoxinuls
 {acc}your dream sheep
 {f}овцу сновидений
 %%%%
+{acc}your dwarf
+{m}дворфа
+%%%%
+{acc}your dwarves
+{pl}дворфов
+%%%%
 {acc}your earthy gem
 {m}землистый самоцвет
 %%%%
@@ -36516,6 +37830,12 @@ your ynoxinuls
 %%%%
 {acc}your elephants
 {pl}слонов
+%%%%
+{acc}your elf
+{m}эльфа
+%%%%
+{acc}your elves
+{pl}эльфов
 %%%%
 {acc}your endoplasm
 {f}эндоплазму
@@ -36601,11 +37921,23 @@ your ynoxinuls
 {acc}your fortress talismans
 {pl}талисманы крепости
 %%%%
+{acc}your frog
+{f}лягушку
+%%%%
+{acc}your frogs
+{pl}лягушек
+%%%%
 {acc}your frost giant
 {m}морозного великана
 %%%%
 {acc}your frost giants
 {pl}морозных великанов
+%%%%
+{acc}your gargoyle
+{f}горгулью
+%%%%
+{acc}your gargoyles
+{pl}горгулий
 %%%%
 {acc}your gecko talisman
 {m}талисман геккона
@@ -36613,11 +37945,23 @@ your ynoxinuls
 {acc}your gecko talismans
 {pl}талисманы геккона
 %%%%
+{acc}your geist
+{m}призрака
+%%%%
+{acc}your geists
+{pl}призраков
+%%%%
 {acc}your gem
 {m}самоцвет
 %%%%
 {acc}your gems
 {pl}самоцветы
+%%%%
+{acc}your ghoul
+{m}гуля
+%%%%
+{acc}your ghouls
+{pl}гулей
 %%%%
 {acc}your giant club
 {f}гигантскую дубину
@@ -36660,6 +38004,12 @@ your ynoxinuls
 %%%%
 {acc}your goblins
 {pl}гоблинов
+%%%%
+{acc}your god
+{m}бога
+%%%%
+{acc}your gods
+{pl}богов
 %%%%
 {acc}your gold piece
 {f}золотую монету
@@ -36816,6 +38166,12 @@ your ynoxinuls
 %%%%
 {acc}your hounds
 {pl}гончих
+%%%%
+{acc}your human
+{m}человека
+%%%%
+{acc}your humans
+{pl}людей
 %%%%
 {acc}your hydra
 {f}гидру
@@ -37078,6 +38434,12 @@ your ynoxinuls
 {acc}your milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{acc}your minotaur
+{m}минотавра
+%%%%
+{acc}your minotaurs
+{pl}минотавров
+%%%%
 {acc}your mist talisman
 {m}талисман тумана
 %%%%
@@ -37150,11 +38512,20 @@ your ynoxinuls
 {acc}your oblivion hounds
 {pl}гончих забвения
 %%%%
+{acc}your octopi
+{pl}осьминогов
+%%%%
+{acc}your octopus
+{m}осьминога
+%%%%
 {acc}your ogre
 {m}огра
 %%%%
 {acc}your ogres
 {pl}огров
+%%%%
+{acc}your oni
+{m}они
 %%%%
 {acc}your orange demon
 {m}оранжевого демона
@@ -37227,6 +38598,12 @@ your ynoxinuls
 %%%%
 {acc}your pale draconians
 {pl}бледных драконианов
+%%%%
+{acc}your palentonga
+{m}палентонгу
+%%%%
+{acc}your palentongas
+{pl}палентонг
 %%%%
 {acc}your pearl dragon
 {m}жемчужного дракона
@@ -37467,6 +38844,12 @@ your ynoxinuls
 %%%%
 {acc}your red draconians
 {pl}красных драконианов
+%%%%
+{acc}your revenant
+{m}ревенанта
+%%%%
+{acc}your revenants
+{pl}ревенантов
 %%%%
 {acc}your ribbon worm
 {m}ленточного червя
@@ -38239,6 +39622,12 @@ your ynoxinuls
 {acc}your very ugly things
 {pl}очень уродливые существа
 %%%%
+{acc}your vine stalker
+{m}лозового преследователя
+%%%%
+{acc}your vine stalkers
+{pl}лозовых преследователей
+%%%%
 {acc}your vision talisman
 {m}талисман зрения
 %%%%
@@ -38596,6 +39985,9 @@ your ynoxinuls
 {dat_few}@num@ ancient liches
 @num@ древним личам
 %%%%
+{dat_few}@num@ ants
+@num@ муравьям
+%%%%
 {dat_few}@num@ apocalypse crabs
 @num@ крабам апокалипсиса
 %%%%
@@ -38866,6 +40258,9 @@ your ynoxinuls
 {dat_few}@num@ cane toads
 @num@ жабам-агам
 %%%%
+{dat_few}@num@ cats
+@num@ кошкам
+%%%%
 {dat_few}@num@ centaur warriors
 @num@ кентаврам-воинам
 %%%%
@@ -38959,6 +40354,9 @@ your ynoxinuls
 {dat_few}@num@ deep trolls
 @num@ глубинным троллям
 %%%%
+{dat_few}@num@ demigods
+@num@ полубогам
+%%%%
 {dat_few}@num@ demon blades
 @num@ демоническим клинкам
 %%%%
@@ -38968,8 +40366,14 @@ your ynoxinuls
 {dat_few}@num@ demon whips
 @num@ демоническим кнутам
 %%%%
+{dat_few}@num@ demonspawn
+@num@ порождениям демонов
+%%%%
 {dat_few}@num@ dire flails
 @num@ тяжёлым цепам
+%%%%
+{dat_few}@num@ djinn
+@num@ джиннам
 %%%%
 {dat_few}@num@ double swords
 @num@ двойным мечам
@@ -38995,6 +40399,9 @@ your ynoxinuls
 {dat_few}@num@ dream sheep
 @num@ овцам сновидений
 %%%%
+{dat_few}@num@ dwarves
+@num@ дворфам
+%%%%
 {dat_few}@num@ earthy gems
 @num@ землистым самоцветам
 %%%%
@@ -39006,6 +40413,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ elephants
 @num@ слонам
+%%%%
+{dat_few}@num@ elves
+@num@ эльфам
 %%%%
 {dat_few}@num@ endoplasms
 @num@ эндоплазмам
@@ -39049,14 +40459,26 @@ your ynoxinuls
 {dat_few}@num@ fortress talismans
 @num@ талисманам крепости
 %%%%
+{dat_few}@num@ frogs
+@num@ лягушкам
+%%%%
 {dat_few}@num@ frost giants
 @num@ морозным великанам
+%%%%
+{dat_few}@num@ gargoyles
+@num@ горгульям
 %%%%
 {dat_few}@num@ gecko talismans
 @num@ талисманам геккона
 %%%%
+{dat_few}@num@ geists
+@num@ призракам
+%%%%
 {dat_few}@num@ gems
 @num@ самоцветам
+%%%%
+{dat_few}@num@ ghouls
+@num@ гулям
 %%%%
 {dat_few}@num@ giant clubs
 @num@ гигантским дубинам
@@ -39078,6 +40500,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ goblins
 @num@ гоблинам
+%%%%
+{dat_few}@num@ gods
+@num@ богам
 %%%%
 {dat_few}@num@ gold pieces
 @num@ золотым монетам
@@ -39156,6 +40581,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ hounds
 @num@ гончим
+%%%%
+{dat_few}@num@ humans
+@num@ людям
 %%%%
 {dat_few}@num@ hydras
 @num@ гидрам
@@ -39289,6 +40717,9 @@ your ynoxinuls
 {dat_few}@num@ milky-white gems
 @num@ молочно-белым самоцветам
 %%%%
+{dat_few}@num@ minotaurs
+@num@ минотаврам
+%%%%
 {dat_few}@num@ mist talismans
 @num@ талисманам тумана
 %%%%
@@ -39325,8 +40756,14 @@ your ynoxinuls
 {dat_few}@num@ oblivion hounds
 @num@ гончим забвения
 %%%%
+{dat_few}@num@ octopi
+@num@ осьминогам
+%%%%
 {dat_few}@num@ ogres
 @num@ ограм
+%%%%
+{dat_few}@num@ oni
+@num@ они
 %%%%
 {dat_few}@num@ orange demons
 @num@ оранжевым демонам
@@ -39363,6 +40800,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ pale draconians
 @num@ бледным драконианам
+%%%%
+{dat_few}@num@ palentongas
+@num@ палентонгам
 %%%%
 {dat_few}@num@ pearl dragons
 @num@ жемчужным драконам
@@ -39483,6 +40923,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ red draconians
 @num@ красным драконианам
+%%%%
+{dat_few}@num@ revenants
+@num@ ревенантам
 %%%%
 {dat_few}@num@ ribbon worms
 @num@ ленточным червям
@@ -39874,6 +41317,9 @@ your ynoxinuls
 {dat_few}@num@ very ugly things
 @num@ очень уродливым существам
 %%%%
+{dat_few}@num@ vine stalkers
+@num@ лозовым преследователям
+%%%%
 {dat_few}@num@ vision talismans
 @num@ талисманам зрения
 %%%%
@@ -40137,6 +41583,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ ancient liches
 @num@ древним личам
+%%%%
+{dat_many}@num@ ants
+@num@ муравьям
 %%%%
 {dat_many}@num@ apocalypse crabs
 @num@ крабам апокалипсиса
@@ -40408,6 +41857,9 @@ your ynoxinuls
 {dat_many}@num@ cane toads
 @num@ жабам-агам
 %%%%
+{dat_many}@num@ cats
+@num@ кошкам
+%%%%
 {dat_many}@num@ centaur warriors
 @num@ кентаврам-воинам
 %%%%
@@ -40501,6 +41953,9 @@ your ynoxinuls
 {dat_many}@num@ deep trolls
 @num@ глубинным троллям
 %%%%
+{dat_many}@num@ demigods
+@num@ полубогам
+%%%%
 {dat_many}@num@ demon blades
 @num@ демоническим клинкам
 %%%%
@@ -40510,8 +41965,14 @@ your ynoxinuls
 {dat_many}@num@ demon whips
 @num@ демоническим кнутам
 %%%%
+{dat_many}@num@ demonspawn
+@num@ порождениям демонов
+%%%%
 {dat_many}@num@ dire flails
 @num@ тяжёлым цепам
+%%%%
+{dat_many}@num@ djinn
+@num@ джиннам
 %%%%
 {dat_many}@num@ double swords
 @num@ двойным мечам
@@ -40537,6 +41998,9 @@ your ynoxinuls
 {dat_many}@num@ dream sheep
 @num@ овцам сновидений
 %%%%
+{dat_many}@num@ dwarves
+@num@ дворфам
+%%%%
 {dat_many}@num@ earthy gems
 @num@ землистым самоцветам
 %%%%
@@ -40548,6 +42012,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ elephants
 @num@ слонам
+%%%%
+{dat_many}@num@ elves
+@num@ эльфам
 %%%%
 {dat_many}@num@ endoplasms
 @num@ эндоплазмам
@@ -40591,14 +42058,26 @@ your ynoxinuls
 {dat_many}@num@ fortress talismans
 @num@ талисманам крепости
 %%%%
+{dat_many}@num@ frogs
+@num@ лягушкам
+%%%%
 {dat_many}@num@ frost giants
 @num@ морозным великанам
+%%%%
+{dat_many}@num@ gargoyles
+@num@ горгульям
 %%%%
 {dat_many}@num@ gecko talismans
 @num@ талисманам геккона
 %%%%
+{dat_many}@num@ geists
+@num@ призракам
+%%%%
 {dat_many}@num@ gems
 @num@ самоцветам
+%%%%
+{dat_many}@num@ ghouls
+@num@ гулям
 %%%%
 {dat_many}@num@ giant clubs
 @num@ гигантским дубинам
@@ -40620,6 +42099,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ goblins
 @num@ гоблинам
+%%%%
+{dat_many}@num@ gods
+@num@ богам
 %%%%
 {dat_many}@num@ gold pieces
 @num@ золотым монетам
@@ -40698,6 +42180,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ hounds
 @num@ гончим
+%%%%
+{dat_many}@num@ humans
+@num@ людям
 %%%%
 {dat_many}@num@ hydras
 @num@ гидрам
@@ -40831,6 +42316,9 @@ your ynoxinuls
 {dat_many}@num@ milky-white gems
 @num@ молочно-белым самоцветам
 %%%%
+{dat_many}@num@ minotaurs
+@num@ минотаврам
+%%%%
 {dat_many}@num@ mist talismans
 @num@ талисманам тумана
 %%%%
@@ -40867,8 +42355,14 @@ your ynoxinuls
 {dat_many}@num@ oblivion hounds
 @num@ гончим забвения
 %%%%
+{dat_many}@num@ octopi
+@num@ осьминогам
+%%%%
 {dat_many}@num@ ogres
 @num@ ограм
+%%%%
+{dat_many}@num@ oni
+@num@ они
 %%%%
 {dat_many}@num@ orange demons
 @num@ оранжевым демонам
@@ -40905,6 +42399,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ pale draconians
 @num@ бледным драконианам
+%%%%
+{dat_many}@num@ palentongas
+@num@ палентонгам
 %%%%
 {dat_many}@num@ pearl dragons
 @num@ жемчужным драконам
@@ -41025,6 +42522,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ red draconians
 @num@ красным драконианам
+%%%%
+{dat_many}@num@ revenants
+@num@ ревенантам
 %%%%
 {dat_many}@num@ ribbon worms
 @num@ ленточным червям
@@ -41416,6 +42916,9 @@ your ynoxinuls
 {dat_many}@num@ very ugly things
 @num@ очень уродливым существам
 %%%%
+{dat_many}@num@ vine stalkers
+@num@ лозовым преследователям
+%%%%
 {dat_many}@num@ vision talismans
 @num@ талисманам зрения
 %%%%
@@ -41679,6 +43182,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ ancient liches
 @num@ древнему личу
+%%%%
+{dat_one}@num@ ants
+@num@ муравью
 %%%%
 {dat_one}@num@ apocalypse crabs
 @num@ крабу апокалипсиса
@@ -41950,6 +43456,9 @@ your ynoxinuls
 {dat_one}@num@ cane toads
 @num@ жабе-аге
 %%%%
+{dat_one}@num@ cats
+@num@ кошке
+%%%%
 {dat_one}@num@ centaur warriors
 @num@ кентавру-воину
 %%%%
@@ -42043,6 +43552,9 @@ your ynoxinuls
 {dat_one}@num@ deep trolls
 @num@ глубинному троллю
 %%%%
+{dat_one}@num@ demigods
+@num@ полубогу
+%%%%
 {dat_one}@num@ demon blades
 @num@ демоническому клинку
 %%%%
@@ -42052,8 +43564,14 @@ your ynoxinuls
 {dat_one}@num@ demon whips
 @num@ демоническому кнуту
 %%%%
+{dat_one}@num@ demonspawn
+@num@ порождению демонов
+%%%%
 {dat_one}@num@ dire flails
 @num@ тяжёлому цепу
+%%%%
+{dat_one}@num@ djinn
+@num@ джинну
 %%%%
 {dat_one}@num@ double swords
 @num@ двойному мечу
@@ -42079,6 +43597,9 @@ your ynoxinuls
 {dat_one}@num@ dream sheep
 @num@ овце сновидений
 %%%%
+{dat_one}@num@ dwarves
+@num@ дворфу
+%%%%
 {dat_one}@num@ earthy gems
 @num@ землистому самоцвету
 %%%%
@@ -42090,6 +43611,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ elephants
 @num@ слону
+%%%%
+{dat_one}@num@ elves
+@num@ эльфу
 %%%%
 {dat_one}@num@ endoplasms
 @num@ эндоплазме
@@ -42133,14 +43657,26 @@ your ynoxinuls
 {dat_one}@num@ fortress talismans
 @num@ талисману крепости
 %%%%
+{dat_one}@num@ frogs
+@num@ лягушке
+%%%%
 {dat_one}@num@ frost giants
 @num@ морозному великану
+%%%%
+{dat_one}@num@ gargoyles
+@num@ горгулье
 %%%%
 {dat_one}@num@ gecko talismans
 @num@ талисману геккона
 %%%%
+{dat_one}@num@ geists
+@num@ призраку
+%%%%
 {dat_one}@num@ gems
 @num@ самоцвету
+%%%%
+{dat_one}@num@ ghouls
+@num@ гулю
 %%%%
 {dat_one}@num@ giant clubs
 @num@ гигантской дубине
@@ -42162,6 +43698,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ goblins
 @num@ гоблину
+%%%%
+{dat_one}@num@ gods
+@num@ богу
 %%%%
 {dat_one}@num@ gold pieces
 @num@ золотой монете
@@ -42240,6 +43779,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ hounds
 @num@ гончей
+%%%%
+{dat_one}@num@ humans
+@num@ человеку
 %%%%
 {dat_one}@num@ hydras
 @num@ гидре
@@ -42373,6 +43915,9 @@ your ynoxinuls
 {dat_one}@num@ milky-white gems
 @num@ молочно-белому самоцвету
 %%%%
+{dat_one}@num@ minotaurs
+@num@ минотавру
+%%%%
 {dat_one}@num@ mist talismans
 @num@ талисману тумана
 %%%%
@@ -42409,8 +43954,14 @@ your ynoxinuls
 {dat_one}@num@ oblivion hounds
 @num@ гончей забвения
 %%%%
+{dat_one}@num@ octopi
+@num@ осьминогу
+%%%%
 {dat_one}@num@ ogres
 @num@ огру
+%%%%
+{dat_one}@num@ oni
+@num@ они
 %%%%
 {dat_one}@num@ orange demons
 @num@ оранжевому демону
@@ -42447,6 +43998,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ pale draconians
 @num@ бледному дракониану
+%%%%
+{dat_one}@num@ palentongas
+@num@ палентонге
 %%%%
 {dat_one}@num@ pearl dragons
 @num@ жемчужному дракону
@@ -42567,6 +44121,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ red draconians
 @num@ красному дракониану
+%%%%
+{dat_one}@num@ revenants
+@num@ ревенанту
 %%%%
 {dat_one}@num@ ribbon worms
 @num@ ленточному червю
@@ -42957,6 +44514,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ very ugly things
 @num@ очень уродливому существу
+%%%%
+{dat_one}@num@ vine stalkers
+@num@ лозовому преследователю
 %%%%
 {dat_one}@num@ vision talismans
 @num@ талисману зрения
@@ -43462,6 +45022,9 @@ your ynoxinuls
 {dat}a ancient lich
 {m}древнему личу
 %%%%
+{dat}a ant
+{m}муравью
+%%%%
 {dat}a apocalypse crab
 {m}крабу апокалипсиса
 %%%%
@@ -43732,6 +45295,9 @@ your ynoxinuls
 {dat}a cane toad
 {f}жабе-аге
 %%%%
+{dat}a cat
+{f}кошке
+%%%%
 {dat}a centaur
 {m}кентавру
 %%%%
@@ -43825,6 +45391,9 @@ your ynoxinuls
 {dat}a deep troll shaman
 {m}глубинному троллю-шаману
 %%%%
+{dat}a demigod
+{m}полубогу
+%%%%
 {dat}a demon blade
 {m}демоническому клинку
 %%%%
@@ -43834,8 +45403,14 @@ your ynoxinuls
 {dat}a demon whip
 {m}демоническому кнуту
 %%%%
+{dat}a demonspawn
+{n}порождению демонов
+%%%%
 {dat}a dire flail
 {m}тяжёлому цепу
+%%%%
+{dat}a djinni
+{m}джинну
 %%%%
 {dat}a double sword
 {m}двойному мечу
@@ -43861,6 +45436,9 @@ your ynoxinuls
 {dat}a dream sheep
 {f}овце сновидений
 %%%%
+{dat}a dwarf
+{m}дворфу
+%%%%
 {dat}a earthy gem
 {m}землистому самоцвету
 %%%%
@@ -43872,6 +45450,9 @@ your ynoxinuls
 %%%%
 {dat}a elephant
 {m}слону
+%%%%
+{dat}a elf
+{m}эльфу
 %%%%
 {dat}a endoplasm
 {f}эндоплазме
@@ -43915,14 +45496,26 @@ your ynoxinuls
 {dat}a fortress talisman
 {m}талисману крепости
 %%%%
+{dat}a frog
+{f}лягушке
+%%%%
 {dat}a frost giant
 {m}морозному великану
+%%%%
+{dat}a gargoyle
+{f}горгулье
 %%%%
 {dat}a gecko talisman
 {m}талисману геккона
 %%%%
+{dat}a geist
+{m}призраку
+%%%%
 {dat}a gem
 {m}самоцвету
+%%%%
+{dat}a ghoul
+{m}гулю
 %%%%
 {dat}a giant club
 {f}гигантской дубине
@@ -43944,6 +45537,9 @@ your ynoxinuls
 %%%%
 {dat}a goblin
 {m}гоблину
+%%%%
+{dat}a god
+{m}богу
 %%%%
 {dat}a gold piece
 {f}золотой монете
@@ -44022,6 +45618,9 @@ your ynoxinuls
 %%%%
 {dat}a hound
 {f}гончей
+%%%%
+{dat}a human
+{m}человеку
 %%%%
 {dat}a hydra
 {f}гидре
@@ -44155,6 +45754,9 @@ your ynoxinuls
 {dat}a milky-white gem
 {m}молочно-белому самоцвету
 %%%%
+{dat}a minotaur
+{m}минотавру
+%%%%
 {dat}a mist talisman
 {m}талисману тумана
 %%%%
@@ -44191,8 +45793,14 @@ your ynoxinuls
 {dat}a oblivion hound
 {f}гончей забвения
 %%%%
+{dat}a octopus
+{m}осьминогу
+%%%%
 {dat}a ogre
 {m}огру
+%%%%
+{dat}a oni
+{m}они
 %%%%
 {dat}a orange demon
 {m}оранжевому демону
@@ -44229,6 +45837,9 @@ your ynoxinuls
 %%%%
 {dat}a pale draconian
 {m}бледному дракониану
+%%%%
+{dat}a palentonga
+{m}палентонге
 %%%%
 {dat}a pearl dragon
 {m}жемчужному дракону
@@ -44349,6 +45960,9 @@ your ynoxinuls
 %%%%
 {dat}a red draconian
 {m}красному дракониану
+%%%%
+{dat}a revenant
+{m}ревенанту
 %%%%
 {dat}a ribbon worm
 {m}ленточному червю
@@ -44740,6 +46354,9 @@ your ynoxinuls
 {dat}a very ugly thing
 {n}очень уродливому существу
 %%%%
+{dat}a vine stalker
+{m}лозовому преследователю
+%%%%
 {dat}a vision talisman
 {m}талисману зрения
 %%%%
@@ -45088,6 +46705,9 @@ your ynoxinuls
 {dat}an ancient lich
 {m}древнему личу
 %%%%
+{dat}an ant
+{m}муравью
+%%%%
 {dat}an apocalypse crab
 {m}крабу апокалипсиса
 %%%%
@@ -45358,6 +46978,9 @@ your ynoxinuls
 {dat}an cane toad
 {f}жабе-аге
 %%%%
+{dat}an cat
+{f}кошке
+%%%%
 {dat}an centaur
 {m}кентавру
 %%%%
@@ -45451,6 +47074,9 @@ your ynoxinuls
 {dat}an deep troll shaman
 {m}глубинному троллю-шаману
 %%%%
+{dat}an demigod
+{m}полубогу
+%%%%
 {dat}an demon blade
 {m}демоническому клинку
 %%%%
@@ -45460,8 +47086,14 @@ your ynoxinuls
 {dat}an demon whip
 {m}демоническому кнуту
 %%%%
+{dat}an demonspawn
+{n}порождению демонов
+%%%%
 {dat}an dire flail
 {m}тяжёлому цепу
+%%%%
+{dat}an djinni
+{m}джинну
 %%%%
 {dat}an double sword
 {m}двойному мечу
@@ -45487,6 +47119,9 @@ your ynoxinuls
 {dat}an dream sheep
 {f}овце сновидений
 %%%%
+{dat}an dwarf
+{m}дворфу
+%%%%
 {dat}an earthy gem
 {m}землистому самоцвету
 %%%%
@@ -45498,6 +47133,9 @@ your ynoxinuls
 %%%%
 {dat}an elephant
 {m}слону
+%%%%
+{dat}an elf
+{m}эльфу
 %%%%
 {dat}an endoplasm
 {f}эндоплазме
@@ -45541,14 +47179,26 @@ your ynoxinuls
 {dat}an fortress talisman
 {m}талисману крепости
 %%%%
+{dat}an frog
+{f}лягушке
+%%%%
 {dat}an frost giant
 {m}морозному великану
+%%%%
+{dat}an gargoyle
+{f}горгулье
 %%%%
 {dat}an gecko talisman
 {m}талисману геккона
 %%%%
+{dat}an geist
+{m}призраку
+%%%%
 {dat}an gem
 {m}самоцвету
+%%%%
+{dat}an ghoul
+{m}гулю
 %%%%
 {dat}an giant club
 {f}гигантской дубине
@@ -45570,6 +47220,9 @@ your ynoxinuls
 %%%%
 {dat}an goblin
 {m}гоблину
+%%%%
+{dat}an god
+{m}богу
 %%%%
 {dat}an gold piece
 {f}золотой монете
@@ -45648,6 +47301,9 @@ your ynoxinuls
 %%%%
 {dat}an hound
 {f}гончей
+%%%%
+{dat}an human
+{m}человеку
 %%%%
 {dat}an hydra
 {f}гидре
@@ -45781,6 +47437,9 @@ your ynoxinuls
 {dat}an milky-white gem
 {m}молочно-белому самоцвету
 %%%%
+{dat}an minotaur
+{m}минотавру
+%%%%
 {dat}an mist talisman
 {m}талисману тумана
 %%%%
@@ -45817,8 +47476,14 @@ your ynoxinuls
 {dat}an oblivion hound
 {f}гончей забвения
 %%%%
+{dat}an octopus
+{m}осьминогу
+%%%%
 {dat}an ogre
 {m}огру
+%%%%
+{dat}an oni
+{m}они
 %%%%
 {dat}an orange demon
 {m}оранжевому демону
@@ -45855,6 +47520,9 @@ your ynoxinuls
 %%%%
 {dat}an pale draconian
 {m}бледному дракониану
+%%%%
+{dat}an palentonga
+{m}палентонге
 %%%%
 {dat}an pearl dragon
 {m}жемчужному дракону
@@ -45975,6 +47643,9 @@ your ynoxinuls
 %%%%
 {dat}an red draconian
 {m}красному дракониану
+%%%%
+{dat}an revenant
+{m}ревенанту
 %%%%
 {dat}an ribbon worm
 {m}ленточному червю
@@ -46366,6 +48037,9 @@ your ynoxinuls
 {dat}an very ugly thing
 {n}очень уродливому существу
 %%%%
+{dat}an vine stalker
+{m}лозовому преследователю
+%%%%
 {dat}an vision talisman
 {m}талисману зрения
 %%%%
@@ -46470,6 +48144,12 @@ your ynoxinuls
 %%%%
 {dat}ancient liches
 {pl}древним личам
+%%%%
+{dat}ant
+{m}муравью
+%%%%
+{dat}ants
+{pl}муравьям
 %%%%
 {dat}apocalypse crab
 {m}крабу апокалипсиса
@@ -47011,6 +48691,12 @@ your ynoxinuls
 {dat}cane toads
 {pl}жабам-агам
 %%%%
+{dat}cat
+{f}кошке
+%%%%
+{dat}cats
+{pl}кошкам
+%%%%
 {dat}centaur
 {m}кентавру
 %%%%
@@ -47197,6 +48883,12 @@ your ynoxinuls
 {dat}deep trolls
 {pl}глубинным троллям
 %%%%
+{dat}demigod
+{m}полубогу
+%%%%
+{dat}demigods
+{pl}полубогам
+%%%%
 {dat}demon blade
 {m}демоническому клинку
 %%%%
@@ -47215,11 +48907,20 @@ your ynoxinuls
 {dat}demon whips
 {pl}демоническим кнутам
 %%%%
+{dat}demonspawn
+{n}порождению демонов
+%%%%
 {dat}dire flail
 {m}тяжёлому цепу
 %%%%
 {dat}dire flails
 {pl}тяжёлым цепам
+%%%%
+{dat}djinn
+{pl}джиннам
+%%%%
+{dat}djinni
+{m}джинну
 %%%%
 {dat}double sword
 {m}двойному мечу
@@ -47266,6 +48967,12 @@ your ynoxinuls
 {dat}dream sheep
 {f}овце сновидений
 %%%%
+{dat}dwarf
+{m}дворфу
+%%%%
+{dat}dwarves
+{pl}дворфам
+%%%%
 {dat}earthy gem
 {m}землистому самоцвету
 %%%%
@@ -47289,6 +48996,12 @@ your ynoxinuls
 %%%%
 {dat}elephants
 {pl}слонам
+%%%%
+{dat}elf
+{m}эльфу
+%%%%
+{dat}elves
+{pl}эльфам
 %%%%
 {dat}endoplasm
 {f}эндоплазме
@@ -47374,11 +49087,23 @@ your ynoxinuls
 {dat}fortress talismans
 {pl}талисманам крепости
 %%%%
+{dat}frog
+{f}лягушке
+%%%%
+{dat}frogs
+{pl}лягушкам
+%%%%
 {dat}frost giant
 {m}морозному великану
 %%%%
 {dat}frost giants
 {pl}морозным великанам
+%%%%
+{dat}gargoyle
+{f}горгулье
+%%%%
+{dat}gargoyles
+{pl}горгульям
 %%%%
 {dat}gecko talisman
 {m}талисману геккона
@@ -47386,11 +49111,23 @@ your ynoxinuls
 {dat}gecko talismans
 {pl}талисманам геккона
 %%%%
+{dat}geist
+{m}призраку
+%%%%
+{dat}geists
+{pl}призракам
+%%%%
 {dat}gem
 {m}самоцвету
 %%%%
 {dat}gems
 {pl}самоцветам
+%%%%
+{dat}ghoul
+{m}гулю
+%%%%
+{dat}ghouls
+{pl}гулям
 %%%%
 {dat}giant club
 {f}гигантской дубине
@@ -47433,6 +49170,12 @@ your ynoxinuls
 %%%%
 {dat}goblins
 {pl}гоблинам
+%%%%
+{dat}god
+{m}богу
+%%%%
+{dat}gods
+{pl}богам
 %%%%
 {dat}gold piece
 {f}золотой монете
@@ -47589,6 +49332,12 @@ your ynoxinuls
 %%%%
 {dat}hounds
 {pl}гончим
+%%%%
+{dat}human
+{m}человеку
+%%%%
+{dat}humans
+{pl}людям
 %%%%
 {dat}hydra
 {f}гидре
@@ -47851,6 +49600,12 @@ your ynoxinuls
 {dat}milky-white gems
 {pl}молочно-белым самоцветам
 %%%%
+{dat}minotaur
+{m}минотавру
+%%%%
+{dat}minotaurs
+{pl}минотаврам
+%%%%
 {dat}mist talisman
 {m}талисману тумана
 %%%%
@@ -47923,11 +49678,20 @@ your ynoxinuls
 {dat}oblivion hounds
 {pl}гончим забвения
 %%%%
+{dat}octopi
+{pl}осьминогам
+%%%%
+{dat}octopus
+{m}осьминогу
+%%%%
 {dat}ogre
 {m}огру
 %%%%
 {dat}ogres
 {pl}ограм
+%%%%
+{dat}oni
+{m}они
 %%%%
 {dat}orange demon
 {m}оранжевому демону
@@ -48000,6 +49764,12 @@ your ynoxinuls
 %%%%
 {dat}pale draconians
 {pl}бледным драконианам
+%%%%
+{dat}palentonga
+{m}палентонге
+%%%%
+{dat}palentongas
+{pl}палентонгам
 %%%%
 {dat}pearl dragon
 {m}жемчужному дракону
@@ -48240,6 +50010,12 @@ your ynoxinuls
 %%%%
 {dat}red draconians
 {pl}красным драконианам
+%%%%
+{dat}revenant
+{m}ревенанту
+%%%%
+{dat}revenants
+{pl}ревенантам
 %%%%
 {dat}ribbon worm
 {m}ленточному червю
@@ -49222,6 +50998,12 @@ your ynoxinuls
 {dat}the ancient liches
 {pl}древним личам
 %%%%
+{dat}the ant
+{m}муравью
+%%%%
+{dat}the ants
+{pl}муравьям
+%%%%
 {dat}the apocalypse crab
 {m}крабу апокалипсиса
 %%%%
@@ -49762,6 +51544,12 @@ your ynoxinuls
 {dat}the cane toads
 {pl}жабам-агам
 %%%%
+{dat}the cat
+{f}кошке
+%%%%
+{dat}the cats
+{pl}кошкам
+%%%%
 {dat}the centaur
 {m}кентавру
 %%%%
@@ -49948,6 +51736,12 @@ your ynoxinuls
 {dat}the deep trolls
 {pl}глубинным троллям
 %%%%
+{dat}the demigod
+{m}полубогу
+%%%%
+{dat}the demigods
+{pl}полубогам
+%%%%
 {dat}the demon blade
 {m}демоническому клинку
 %%%%
@@ -49966,11 +51760,20 @@ your ynoxinuls
 {dat}the demon whips
 {pl}демоническим кнутам
 %%%%
+{dat}the demonspawn
+{n}порождению демонов
+%%%%
 {dat}the dire flail
 {m}тяжёлому цепу
 %%%%
 {dat}the dire flails
 {pl}тяжёлым цепам
+%%%%
+{dat}the djinn
+{pl}джиннам
+%%%%
+{dat}the djinni
+{m}джинну
 %%%%
 {dat}the double sword
 {m}двойному мечу
@@ -50017,6 +51820,12 @@ your ynoxinuls
 {dat}the dream sheep
 {f}овце сновидений
 %%%%
+{dat}the dwarf
+{m}дворфу
+%%%%
+{dat}the dwarves
+{pl}дворфам
+%%%%
 {dat}the earthy gem
 {m}землистому самоцвету
 %%%%
@@ -50040,6 +51849,12 @@ your ynoxinuls
 %%%%
 {dat}the elephants
 {pl}слонам
+%%%%
+{dat}the elf
+{m}эльфу
+%%%%
+{dat}the elves
+{pl}эльфам
 %%%%
 {dat}the endoplasm
 {f}эндоплазме
@@ -50125,11 +51940,23 @@ your ynoxinuls
 {dat}the fortress talismans
 {pl}талисманам крепости
 %%%%
+{dat}the frog
+{f}лягушке
+%%%%
+{dat}the frogs
+{pl}лягушкам
+%%%%
 {dat}the frost giant
 {m}морозному великану
 %%%%
 {dat}the frost giants
 {pl}морозным великанам
+%%%%
+{dat}the gargoyle
+{f}горгулье
+%%%%
+{dat}the gargoyles
+{pl}горгульям
 %%%%
 {dat}the gecko talisman
 {m}талисману геккона
@@ -50137,11 +51964,23 @@ your ynoxinuls
 {dat}the gecko talismans
 {pl}талисманам геккона
 %%%%
+{dat}the geist
+{m}призраку
+%%%%
+{dat}the geists
+{pl}призракам
+%%%%
 {dat}the gem
 {m}самоцвету
 %%%%
 {dat}the gems
 {pl}самоцветам
+%%%%
+{dat}the ghoul
+{m}гулю
+%%%%
+{dat}the ghouls
+{pl}гулям
 %%%%
 {dat}the giant club
 {f}гигантской дубине
@@ -50184,6 +52023,12 @@ your ynoxinuls
 %%%%
 {dat}the goblins
 {pl}гоблинам
+%%%%
+{dat}the god
+{m}богу
+%%%%
+{dat}the gods
+{pl}богам
 %%%%
 {dat}the gold piece
 {f}золотой монете
@@ -50340,6 +52185,12 @@ your ynoxinuls
 %%%%
 {dat}the hounds
 {pl}гончим
+%%%%
+{dat}the human
+{m}человеку
+%%%%
+{dat}the humans
+{pl}людям
 %%%%
 {dat}the hydra
 {f}гидре
@@ -50602,6 +52453,12 @@ your ynoxinuls
 {dat}the milky-white gems
 {pl}молочно-белым самоцветам
 %%%%
+{dat}the minotaur
+{m}минотавру
+%%%%
+{dat}the minotaurs
+{pl}минотаврам
+%%%%
 {dat}the mist talisman
 {m}талисману тумана
 %%%%
@@ -50674,11 +52531,20 @@ your ynoxinuls
 {dat}the oblivion hounds
 {pl}гончим забвения
 %%%%
+{dat}the octopi
+{pl}осьминогам
+%%%%
+{dat}the octopus
+{m}осьминогу
+%%%%
 {dat}the ogre
 {m}огру
 %%%%
 {dat}the ogres
 {pl}ограм
+%%%%
+{dat}the oni
+{m}они
 %%%%
 {dat}the orange demon
 {m}оранжевому демону
@@ -50751,6 +52617,12 @@ your ynoxinuls
 %%%%
 {dat}the pale draconians
 {pl}бледным драконианам
+%%%%
+{dat}the palentonga
+{m}палентонге
+%%%%
+{dat}the palentongas
+{pl}палентонгам
 %%%%
 {dat}the pearl dragon
 {m}жемчужному дракону
@@ -50991,6 +52863,12 @@ your ynoxinuls
 %%%%
 {dat}the red draconians
 {pl}красным драконианам
+%%%%
+{dat}the revenant
+{m}ревенанту
+%%%%
+{dat}the revenants
+{pl}ревенантам
 %%%%
 {dat}the ribbon worm
 {m}ленточному червю
@@ -51763,6 +53641,12 @@ your ynoxinuls
 {dat}the very ugly things
 {pl}очень уродливым существам
 %%%%
+{dat}the vine stalker
+{m}лозовому преследователю
+%%%%
+{dat}the vine stalkers
+{pl}лозовым преследователям
+%%%%
 {dat}the vision talisman
 {m}талисману зрения
 %%%%
@@ -52074,6 +53958,12 @@ your ynoxinuls
 %%%%
 {dat}very ugly things
 {pl}очень уродливым существам
+%%%%
+{dat}vine stalker
+{m}лозовому преследователю
+%%%%
+{dat}vine stalkers
+{pl}лозовым преследователям
 %%%%
 {dat}vision talisman
 {m}талисману зрения
@@ -52596,6 +54486,12 @@ your ynoxinuls
 %%%%
 {dat}your ancient liches
 {pl}древним личам
+%%%%
+{dat}your ant
+{m}муравью
+%%%%
+{dat}your ants
+{pl}муравьям
 %%%%
 {dat}your apocalypse crab
 {m}крабу апокалипсиса
@@ -53137,6 +55033,12 @@ your ynoxinuls
 {dat}your cane toads
 {pl}жабам-агам
 %%%%
+{dat}your cat
+{f}кошке
+%%%%
+{dat}your cats
+{pl}кошкам
+%%%%
 {dat}your centaur
 {m}кентавру
 %%%%
@@ -53323,6 +55225,12 @@ your ynoxinuls
 {dat}your deep trolls
 {pl}глубинным троллям
 %%%%
+{dat}your demigod
+{m}полубогу
+%%%%
+{dat}your demigods
+{pl}полубогам
+%%%%
 {dat}your demon blade
 {m}демоническому клинку
 %%%%
@@ -53341,11 +55249,20 @@ your ynoxinuls
 {dat}your demon whips
 {pl}демоническим кнутам
 %%%%
+{dat}your demonspawn
+{n}порождению демонов
+%%%%
 {dat}your dire flail
 {m}тяжёлому цепу
 %%%%
 {dat}your dire flails
 {pl}тяжёлым цепам
+%%%%
+{dat}your djinn
+{pl}джиннам
+%%%%
+{dat}your djinni
+{m}джинну
 %%%%
 {dat}your double sword
 {m}двойному мечу
@@ -53392,6 +55309,12 @@ your ynoxinuls
 {dat}your dream sheep
 {f}овце сновидений
 %%%%
+{dat}your dwarf
+{m}дворфу
+%%%%
+{dat}your dwarves
+{pl}дворфам
+%%%%
 {dat}your earthy gem
 {m}землистому самоцвету
 %%%%
@@ -53415,6 +55338,12 @@ your ynoxinuls
 %%%%
 {dat}your elephants
 {pl}слонам
+%%%%
+{dat}your elf
+{m}эльфу
+%%%%
+{dat}your elves
+{pl}эльфам
 %%%%
 {dat}your endoplasm
 {f}эндоплазме
@@ -53500,11 +55429,23 @@ your ynoxinuls
 {dat}your fortress talismans
 {pl}талисманам крепости
 %%%%
+{dat}your frog
+{f}лягушке
+%%%%
+{dat}your frogs
+{pl}лягушкам
+%%%%
 {dat}your frost giant
 {m}морозному великану
 %%%%
 {dat}your frost giants
 {pl}морозным великанам
+%%%%
+{dat}your gargoyle
+{f}горгулье
+%%%%
+{dat}your gargoyles
+{pl}горгульям
 %%%%
 {dat}your gecko talisman
 {m}талисману геккона
@@ -53512,11 +55453,23 @@ your ynoxinuls
 {dat}your gecko talismans
 {pl}талисманам геккона
 %%%%
+{dat}your geist
+{m}призраку
+%%%%
+{dat}your geists
+{pl}призракам
+%%%%
 {dat}your gem
 {m}самоцвету
 %%%%
 {dat}your gems
 {pl}самоцветам
+%%%%
+{dat}your ghoul
+{m}гулю
+%%%%
+{dat}your ghouls
+{pl}гулям
 %%%%
 {dat}your giant club
 {f}гигантской дубине
@@ -53559,6 +55512,12 @@ your ynoxinuls
 %%%%
 {dat}your goblins
 {pl}гоблинам
+%%%%
+{dat}your god
+{m}богу
+%%%%
+{dat}your gods
+{pl}богам
 %%%%
 {dat}your gold piece
 {f}золотой монете
@@ -53715,6 +55674,12 @@ your ynoxinuls
 %%%%
 {dat}your hounds
 {pl}гончим
+%%%%
+{dat}your human
+{m}человеку
+%%%%
+{dat}your humans
+{pl}людям
 %%%%
 {dat}your hydra
 {f}гидре
@@ -53977,6 +55942,12 @@ your ynoxinuls
 {dat}your milky-white gems
 {pl}молочно-белым самоцветам
 %%%%
+{dat}your minotaur
+{m}минотавру
+%%%%
+{dat}your minotaurs
+{pl}минотаврам
+%%%%
 {dat}your mist talisman
 {m}талисману тумана
 %%%%
@@ -54049,11 +56020,20 @@ your ynoxinuls
 {dat}your oblivion hounds
 {pl}гончим забвения
 %%%%
+{dat}your octopi
+{pl}осьминогам
+%%%%
+{dat}your octopus
+{m}осьминогу
+%%%%
 {dat}your ogre
 {m}огру
 %%%%
 {dat}your ogres
 {pl}ограм
+%%%%
+{dat}your oni
+{m}они
 %%%%
 {dat}your orange demon
 {m}оранжевому демону
@@ -54126,6 +56106,12 @@ your ynoxinuls
 %%%%
 {dat}your pale draconians
 {pl}бледным драконианам
+%%%%
+{dat}your palentonga
+{m}палентонге
+%%%%
+{dat}your palentongas
+{pl}палентонгам
 %%%%
 {dat}your pearl dragon
 {m}жемчужному дракону
@@ -54366,6 +56352,12 @@ your ynoxinuls
 %%%%
 {dat}your red draconians
 {pl}красным драконианам
+%%%%
+{dat}your revenant
+{m}ревенанту
+%%%%
+{dat}your revenants
+{pl}ревенантам
 %%%%
 {dat}your ribbon worm
 {m}ленточному червю
@@ -55138,6 +57130,12 @@ your ynoxinuls
 {dat}your very ugly things
 {pl}очень уродливым существам
 %%%%
+{dat}your vine stalker
+{m}лозовому преследователю
+%%%%
+{dat}your vine stalkers
+{pl}лозовым преследователям
+%%%%
 {dat}your vision talisman
 {m}талисману зрения
 %%%%
@@ -55495,6 +57493,9 @@ your ynoxinuls
 {few}@num@ ancient liches
 @num@ древних лича
 %%%%
+{few}@num@ ants
+@num@ муравья
+%%%%
 {few}@num@ apocalypse crabs
 @num@ краба апокалипсиса
 %%%%
@@ -55765,6 +57766,9 @@ your ynoxinuls
 {few}@num@ cane toads
 @num@ жабы-аги
 %%%%
+{few}@num@ cats
+@num@ кошки
+%%%%
 {few}@num@ centaur warriors
 @num@ кентавра-воина
 %%%%
@@ -55858,6 +57862,9 @@ your ynoxinuls
 {few}@num@ deep trolls
 @num@ глубинных тролля
 %%%%
+{few}@num@ demigods
+@num@ полубога
+%%%%
 {few}@num@ demon blades
 @num@ демонических клинка
 %%%%
@@ -55867,8 +57874,14 @@ your ynoxinuls
 {few}@num@ demon whips
 @num@ демонических кнута
 %%%%
+{few}@num@ demonspawn
+@num@ порождения демонов
+%%%%
 {few}@num@ dire flails
 @num@ тяжёлых цепа
+%%%%
+{few}@num@ djinn
+@num@ джинна
 %%%%
 {few}@num@ double swords
 @num@ двойных меча
@@ -55894,6 +57907,9 @@ your ynoxinuls
 {few}@num@ dream sheep
 @num@ овцы сновидений
 %%%%
+{few}@num@ dwarves
+@num@ дворфа
+%%%%
 {few}@num@ earthy gems
 @num@ землистых самоцвета
 %%%%
@@ -55905,6 +57921,9 @@ your ynoxinuls
 %%%%
 {few}@num@ elephants
 @num@ слона
+%%%%
+{few}@num@ elves
+@num@ эльфа
 %%%%
 {few}@num@ endoplasms
 @num@ эндоплазмы
@@ -55948,14 +57967,26 @@ your ynoxinuls
 {few}@num@ fortress talismans
 @num@ талисмана крепости
 %%%%
+{few}@num@ frogs
+@num@ лягушки
+%%%%
 {few}@num@ frost giants
 @num@ морозного великана
+%%%%
+{few}@num@ gargoyles
+@num@ горгульи
 %%%%
 {few}@num@ gecko talismans
 @num@ талисмана геккона
 %%%%
+{few}@num@ geists
+@num@ призрака
+%%%%
 {few}@num@ gems
 @num@ самоцвета
+%%%%
+{few}@num@ ghouls
+@num@ гуля
 %%%%
 {few}@num@ giant clubs
 @num@ гигантские дубины
@@ -55977,6 +58008,9 @@ your ynoxinuls
 %%%%
 {few}@num@ goblins
 @num@ гоблина
+%%%%
+{few}@num@ gods
+@num@ бога
 %%%%
 {few}@num@ gold pieces
 @num@ золотой монеты
@@ -56055,6 +58089,9 @@ your ynoxinuls
 %%%%
 {few}@num@ hounds
 @num@ гончей
+%%%%
+{few}@num@ humans
+@num@ человека
 %%%%
 {few}@num@ hydras
 @num@ гидры
@@ -56188,6 +58225,9 @@ your ynoxinuls
 {few}@num@ milky-white gems
 @num@ молочно-белых самоцвета
 %%%%
+{few}@num@ minotaurs
+@num@ минотавра
+%%%%
 {few}@num@ mist talismans
 @num@ талисмана тумана
 %%%%
@@ -56224,8 +58264,14 @@ your ynoxinuls
 {few}@num@ oblivion hounds
 @num@ гончие забвения
 %%%%
+{few}@num@ octopi
+@num@ осьминога
+%%%%
 {few}@num@ ogres
 @num@ огра
+%%%%
+{few}@num@ oni
+@num@ они
 %%%%
 {few}@num@ orange demons
 @num@ оранжевых демона
@@ -56262,6 +58308,9 @@ your ynoxinuls
 %%%%
 {few}@num@ pale draconians
 @num@ бледных дракониана
+%%%%
+{few}@num@ palentongas
+@num@ палентонги
 %%%%
 {few}@num@ pearl dragons
 @num@ жемчужных дракона
@@ -56382,6 +58431,9 @@ your ynoxinuls
 %%%%
 {few}@num@ red draconians
 @num@ красных дракониана
+%%%%
+{few}@num@ revenants
+@num@ ревенанта
 %%%%
 {few}@num@ ribbon worms
 @num@ ленточного червя
@@ -56773,6 +58825,9 @@ your ynoxinuls
 {few}@num@ very ugly things
 @num@ очень уродливого существа
 %%%%
+{few}@num@ vine stalkers
+@num@ лозовых преследователя
+%%%%
 {few}@num@ vision talismans
 @num@ талисмана зрения
 %%%%
@@ -57036,6 +59091,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ ancient liches
 @num@ древних личей
+%%%%
+{gen_few}@num@ ants
+@num@ муравьёв
 %%%%
 {gen_few}@num@ apocalypse crabs
 @num@ крабов апокалипсиса
@@ -57307,6 +59365,9 @@ your ynoxinuls
 {gen_few}@num@ cane toads
 @num@ жаб-аг
 %%%%
+{gen_few}@num@ cats
+@num@ кошек
+%%%%
 {gen_few}@num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -57400,6 +59461,9 @@ your ynoxinuls
 {gen_few}@num@ deep trolls
 @num@ глубинных троллей
 %%%%
+{gen_few}@num@ demigods
+@num@ полубогов
+%%%%
 {gen_few}@num@ demon blades
 @num@ демонических клинков
 %%%%
@@ -57409,8 +59473,14 @@ your ynoxinuls
 {gen_few}@num@ demon whips
 @num@ демонических кнутов
 %%%%
+{gen_few}@num@ demonspawn
+@num@ порождений демонов
+%%%%
 {gen_few}@num@ dire flails
 @num@ тяжёлых цепов
+%%%%
+{gen_few}@num@ djinn
+@num@ джиннов
 %%%%
 {gen_few}@num@ double swords
 @num@ двойных мечей
@@ -57436,6 +59506,9 @@ your ynoxinuls
 {gen_few}@num@ dream sheep
 @num@ овец сновидений
 %%%%
+{gen_few}@num@ dwarves
+@num@ дворфов
+%%%%
 {gen_few}@num@ earthy gems
 @num@ землистых самоцветов
 %%%%
@@ -57447,6 +59520,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ elephants
 @num@ слонов
+%%%%
+{gen_few}@num@ elves
+@num@ эльфов
 %%%%
 {gen_few}@num@ endoplasms
 @num@ эндоплазм
@@ -57490,14 +59566,26 @@ your ynoxinuls
 {gen_few}@num@ fortress talismans
 @num@ талисманов крепости
 %%%%
+{gen_few}@num@ frogs
+@num@ лягушек
+%%%%
 {gen_few}@num@ frost giants
 @num@ морозных великанов
+%%%%
+{gen_few}@num@ gargoyles
+@num@ горгулий
 %%%%
 {gen_few}@num@ gecko talismans
 @num@ талисманов геккона
 %%%%
+{gen_few}@num@ geists
+@num@ призраков
+%%%%
 {gen_few}@num@ gems
 @num@ самоцветов
+%%%%
+{gen_few}@num@ ghouls
+@num@ гулей
 %%%%
 {gen_few}@num@ giant clubs
 @num@ гигантских дубин
@@ -57519,6 +59607,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ goblins
 @num@ гоблинов
+%%%%
+{gen_few}@num@ gods
+@num@ богов
 %%%%
 {gen_few}@num@ gold pieces
 @num@ золотых монет
@@ -57597,6 +59688,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ hounds
 @num@ гончих
+%%%%
+{gen_few}@num@ humans
+@num@ людей
 %%%%
 {gen_few}@num@ hydras
 @num@ гидр
@@ -57730,6 +59824,9 @@ your ynoxinuls
 {gen_few}@num@ milky-white gems
 @num@ молочно-белых самоцветов
 %%%%
+{gen_few}@num@ minotaurs
+@num@ минотавров
+%%%%
 {gen_few}@num@ mist talismans
 @num@ талисманов тумана
 %%%%
@@ -57766,8 +59863,14 @@ your ynoxinuls
 {gen_few}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{gen_few}@num@ octopi
+@num@ осьминогов
+%%%%
 {gen_few}@num@ ogres
 @num@ огров
+%%%%
+{gen_few}@num@ oni
+@num@ они
 %%%%
 {gen_few}@num@ orange demons
 @num@ оранжевых демонов
@@ -57804,6 +59907,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ pale draconians
 @num@ бледных драконианов
+%%%%
+{gen_few}@num@ palentongas
+@num@ палентонг
 %%%%
 {gen_few}@num@ pearl dragons
 @num@ жемчужных драконов
@@ -57924,6 +60030,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ red draconians
 @num@ красных драконианов
+%%%%
+{gen_few}@num@ revenants
+@num@ ревенантов
 %%%%
 {gen_few}@num@ ribbon worms
 @num@ ленточных червей
@@ -58315,6 +60424,9 @@ your ynoxinuls
 {gen_few}@num@ very ugly things
 @num@ очень уродливых существ
 %%%%
+{gen_few}@num@ vine stalkers
+@num@ лозовых преследователей
+%%%%
 {gen_few}@num@ vision talismans
 @num@ талисманов зрения
 %%%%
@@ -58578,6 +60690,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ ancient liches
 @num@ древних личей
+%%%%
+{gen_many}@num@ ants
+@num@ муравьёв
 %%%%
 {gen_many}@num@ apocalypse crabs
 @num@ крабов апокалипсиса
@@ -58849,6 +60964,9 @@ your ynoxinuls
 {gen_many}@num@ cane toads
 @num@ жаб-аг
 %%%%
+{gen_many}@num@ cats
+@num@ кошек
+%%%%
 {gen_many}@num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -58942,6 +61060,9 @@ your ynoxinuls
 {gen_many}@num@ deep trolls
 @num@ глубинных троллей
 %%%%
+{gen_many}@num@ demigods
+@num@ полубогов
+%%%%
 {gen_many}@num@ demon blades
 @num@ демонических клинков
 %%%%
@@ -58951,8 +61072,14 @@ your ynoxinuls
 {gen_many}@num@ demon whips
 @num@ демонических кнутов
 %%%%
+{gen_many}@num@ demonspawn
+@num@ порождений демонов
+%%%%
 {gen_many}@num@ dire flails
 @num@ тяжёлых цепов
+%%%%
+{gen_many}@num@ djinn
+@num@ джиннов
 %%%%
 {gen_many}@num@ double swords
 @num@ двойных мечей
@@ -58978,6 +61105,9 @@ your ynoxinuls
 {gen_many}@num@ dream sheep
 @num@ овец сновидений
 %%%%
+{gen_many}@num@ dwarves
+@num@ дворфов
+%%%%
 {gen_many}@num@ earthy gems
 @num@ землистых самоцветов
 %%%%
@@ -58989,6 +61119,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ elephants
 @num@ слонов
+%%%%
+{gen_many}@num@ elves
+@num@ эльфов
 %%%%
 {gen_many}@num@ endoplasms
 @num@ эндоплазм
@@ -59032,14 +61165,26 @@ your ynoxinuls
 {gen_many}@num@ fortress talismans
 @num@ талисманов крепости
 %%%%
+{gen_many}@num@ frogs
+@num@ лягушек
+%%%%
 {gen_many}@num@ frost giants
 @num@ морозных великанов
+%%%%
+{gen_many}@num@ gargoyles
+@num@ горгулий
 %%%%
 {gen_many}@num@ gecko talismans
 @num@ талисманов геккона
 %%%%
+{gen_many}@num@ geists
+@num@ призраков
+%%%%
 {gen_many}@num@ gems
 @num@ самоцветов
+%%%%
+{gen_many}@num@ ghouls
+@num@ гулей
 %%%%
 {gen_many}@num@ giant clubs
 @num@ гигантских дубин
@@ -59061,6 +61206,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ goblins
 @num@ гоблинов
+%%%%
+{gen_many}@num@ gods
+@num@ богов
 %%%%
 {gen_many}@num@ gold pieces
 @num@ золотых монет
@@ -59139,6 +61287,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ hounds
 @num@ гончих
+%%%%
+{gen_many}@num@ humans
+@num@ людей
 %%%%
 {gen_many}@num@ hydras
 @num@ гидр
@@ -59272,6 +61423,9 @@ your ynoxinuls
 {gen_many}@num@ milky-white gems
 @num@ молочно-белых самоцветов
 %%%%
+{gen_many}@num@ minotaurs
+@num@ минотавров
+%%%%
 {gen_many}@num@ mist talismans
 @num@ талисманов тумана
 %%%%
@@ -59308,8 +61462,14 @@ your ynoxinuls
 {gen_many}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{gen_many}@num@ octopi
+@num@ осьминогов
+%%%%
 {gen_many}@num@ ogres
 @num@ огров
+%%%%
+{gen_many}@num@ oni
+@num@ они
 %%%%
 {gen_many}@num@ orange demons
 @num@ оранжевых демонов
@@ -59346,6 +61506,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ pale draconians
 @num@ бледных драконианов
+%%%%
+{gen_many}@num@ palentongas
+@num@ палентонг
 %%%%
 {gen_many}@num@ pearl dragons
 @num@ жемчужных драконов
@@ -59466,6 +61629,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ red draconians
 @num@ красных драконианов
+%%%%
+{gen_many}@num@ revenants
+@num@ ревенантов
 %%%%
 {gen_many}@num@ ribbon worms
 @num@ ленточных червей
@@ -59857,6 +62023,9 @@ your ynoxinuls
 {gen_many}@num@ very ugly things
 @num@ очень уродливых существ
 %%%%
+{gen_many}@num@ vine stalkers
+@num@ лозовых преследователей
+%%%%
 {gen_many}@num@ vision talismans
 @num@ талисманов зрения
 %%%%
@@ -60120,6 +62289,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ ancient liches
 @num@ древнего лича
+%%%%
+{gen_one}@num@ ants
+@num@ муравья
 %%%%
 {gen_one}@num@ apocalypse crabs
 @num@ краба апокалипсиса
@@ -60391,6 +62563,9 @@ your ynoxinuls
 {gen_one}@num@ cane toads
 @num@ жабы-аги
 %%%%
+{gen_one}@num@ cats
+@num@ кошки
+%%%%
 {gen_one}@num@ centaur warriors
 @num@ кентавра-воина
 %%%%
@@ -60484,6 +62659,9 @@ your ynoxinuls
 {gen_one}@num@ deep trolls
 @num@ глубинного тролля
 %%%%
+{gen_one}@num@ demigods
+@num@ полубога
+%%%%
 {gen_one}@num@ demon blades
 @num@ демонического клинка
 %%%%
@@ -60493,8 +62671,14 @@ your ynoxinuls
 {gen_one}@num@ demon whips
 @num@ демонического кнута
 %%%%
+{gen_one}@num@ demonspawn
+@num@ порождения демонов
+%%%%
 {gen_one}@num@ dire flails
 @num@ тяжёлого цепа
+%%%%
+{gen_one}@num@ djinn
+@num@ джинна
 %%%%
 {gen_one}@num@ double swords
 @num@ двойного меча
@@ -60520,6 +62704,9 @@ your ynoxinuls
 {gen_one}@num@ dream sheep
 @num@ овцы сновидений
 %%%%
+{gen_one}@num@ dwarves
+@num@ дворфа
+%%%%
 {gen_one}@num@ earthy gems
 @num@ землистого самоцвета
 %%%%
@@ -60531,6 +62718,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ elephants
 @num@ слона
+%%%%
+{gen_one}@num@ elves
+@num@ эльфа
 %%%%
 {gen_one}@num@ endoplasms
 @num@ эндоплазмы
@@ -60574,14 +62764,26 @@ your ynoxinuls
 {gen_one}@num@ fortress talismans
 @num@ талисмана крепости
 %%%%
+{gen_one}@num@ frogs
+@num@ лягушки
+%%%%
 {gen_one}@num@ frost giants
 @num@ морозного великана
+%%%%
+{gen_one}@num@ gargoyles
+@num@ горгульи
 %%%%
 {gen_one}@num@ gecko talismans
 @num@ талисмана геккона
 %%%%
+{gen_one}@num@ geists
+@num@ призрака
+%%%%
 {gen_one}@num@ gems
 @num@ самоцвета
+%%%%
+{gen_one}@num@ ghouls
+@num@ гуля
 %%%%
 {gen_one}@num@ giant clubs
 @num@ гигантской дубины
@@ -60603,6 +62805,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ goblins
 @num@ гоблина
+%%%%
+{gen_one}@num@ gods
+@num@ бога
 %%%%
 {gen_one}@num@ gold pieces
 @num@ золотой монеты
@@ -60681,6 +62886,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ hounds
 @num@ гончей
+%%%%
+{gen_one}@num@ humans
+@num@ человека
 %%%%
 {gen_one}@num@ hydras
 @num@ гидры
@@ -60814,6 +63022,9 @@ your ynoxinuls
 {gen_one}@num@ milky-white gems
 @num@ молочно-белого самоцвета
 %%%%
+{gen_one}@num@ minotaurs
+@num@ минотавра
+%%%%
 {gen_one}@num@ mist talismans
 @num@ талисмана тумана
 %%%%
@@ -60850,8 +63061,14 @@ your ynoxinuls
 {gen_one}@num@ oblivion hounds
 @num@ гончей забвения
 %%%%
+{gen_one}@num@ octopi
+@num@ осьминога
+%%%%
 {gen_one}@num@ ogres
 @num@ огра
+%%%%
+{gen_one}@num@ oni
+@num@ они
 %%%%
 {gen_one}@num@ orange demons
 @num@ оранжевого демона
@@ -60888,6 +63105,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ pale draconians
 @num@ бледного дракониана
+%%%%
+{gen_one}@num@ palentongas
+@num@ палентонги
 %%%%
 {gen_one}@num@ pearl dragons
 @num@ жемчужного дракона
@@ -61008,6 +63228,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ red draconians
 @num@ красного дракониана
+%%%%
+{gen_one}@num@ revenants
+@num@ ревенанта
 %%%%
 {gen_one}@num@ ribbon worms
 @num@ ленточного червя
@@ -61398,6 +63621,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ very ugly things
 @num@ очень уродливого существа
+%%%%
+{gen_one}@num@ vine stalkers
+@num@ лозового преследователя
 %%%%
 {gen_one}@num@ vision talismans
 @num@ талисмана зрения
@@ -61903,6 +64129,9 @@ your ynoxinuls
 {gen}a ancient lich
 {m}древнего лича
 %%%%
+{gen}a ant
+{m}муравья
+%%%%
 {gen}a apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -62173,6 +64402,9 @@ your ynoxinuls
 {gen}a cane toad
 {f}жабы-аги
 %%%%
+{gen}a cat
+{f}кошки
+%%%%
 {gen}a centaur
 {m}кентавра
 %%%%
@@ -62266,6 +64498,9 @@ your ynoxinuls
 {gen}a deep troll shaman
 {m}глубинного тролля-шамана
 %%%%
+{gen}a demigod
+{m}полубога
+%%%%
 {gen}a demon blade
 {m}демонического клинка
 %%%%
@@ -62275,8 +64510,14 @@ your ynoxinuls
 {gen}a demon whip
 {m}демонического кнута
 %%%%
+{gen}a demonspawn
+{n}порождения демонов
+%%%%
 {gen}a dire flail
 {m}тяжёлого цепа
+%%%%
+{gen}a djinni
+{m}джинна
 %%%%
 {gen}a double sword
 {m}двойного меча
@@ -62302,6 +64543,9 @@ your ynoxinuls
 {gen}a dream sheep
 {f}овцы сновидений
 %%%%
+{gen}a dwarf
+{m}дворфа
+%%%%
 {gen}a earthy gem
 {m}землистого самоцвета
 %%%%
@@ -62313,6 +64557,9 @@ your ynoxinuls
 %%%%
 {gen}a elephant
 {m}слона
+%%%%
+{gen}a elf
+{m}эльфа
 %%%%
 {gen}a endoplasm
 {f}эндоплазмы
@@ -62356,14 +64603,26 @@ your ynoxinuls
 {gen}a fortress talisman
 {m}талисмана крепости
 %%%%
+{gen}a frog
+{f}лягушки
+%%%%
 {gen}a frost giant
 {m}морозного великана
+%%%%
+{gen}a gargoyle
+{f}горгульи
 %%%%
 {gen}a gecko talisman
 {m}талисмана геккона
 %%%%
+{gen}a geist
+{m}призрака
+%%%%
 {gen}a gem
 {m}самоцвета
+%%%%
+{gen}a ghoul
+{m}гуля
 %%%%
 {gen}a giant club
 {f}гигантской дубины
@@ -62385,6 +64644,9 @@ your ynoxinuls
 %%%%
 {gen}a goblin
 {m}гоблина
+%%%%
+{gen}a god
+{m}бога
 %%%%
 {gen}a gold piece
 {f}золотой монеты
@@ -62463,6 +64725,9 @@ your ynoxinuls
 %%%%
 {gen}a hound
 {f}гончей
+%%%%
+{gen}a human
+{m}человека
 %%%%
 {gen}a hydra
 {f}гидры
@@ -62596,6 +64861,9 @@ your ynoxinuls
 {gen}a milky-white gem
 {m}молочно-белого самоцвета
 %%%%
+{gen}a minotaur
+{m}минотавра
+%%%%
 {gen}a mist talisman
 {m}талисмана тумана
 %%%%
@@ -62632,8 +64900,14 @@ your ynoxinuls
 {gen}a oblivion hound
 {f}гончей забвения
 %%%%
+{gen}a octopus
+{m}осьминога
+%%%%
 {gen}a ogre
 {m}огра
+%%%%
+{gen}a oni
+{m}они
 %%%%
 {gen}a orange demon
 {m}оранжевого демона
@@ -62670,6 +64944,9 @@ your ynoxinuls
 %%%%
 {gen}a pale draconian
 {m}бледного дракониана
+%%%%
+{gen}a palentonga
+{m}палентонги
 %%%%
 {gen}a pearl dragon
 {m}жемчужного дракона
@@ -62790,6 +65067,9 @@ your ynoxinuls
 %%%%
 {gen}a red draconian
 {m}красного дракониана
+%%%%
+{gen}a revenant
+{m}ревенанта
 %%%%
 {gen}a ribbon worm
 {m}ленточного червя
@@ -63181,6 +65461,9 @@ your ynoxinuls
 {gen}a very ugly thing
 {n}очень уродливого существа
 %%%%
+{gen}a vine stalker
+{m}лозового преследователя
+%%%%
 {gen}a vision talisman
 {m}талисмана зрения
 %%%%
@@ -63529,6 +65812,9 @@ your ynoxinuls
 {gen}an ancient lich
 {m}древнего лича
 %%%%
+{gen}an ant
+{m}муравья
+%%%%
 {gen}an apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -63799,6 +66085,9 @@ your ynoxinuls
 {gen}an cane toad
 {f}жабы-аги
 %%%%
+{gen}an cat
+{f}кошки
+%%%%
 {gen}an centaur
 {m}кентавра
 %%%%
@@ -63892,6 +66181,9 @@ your ynoxinuls
 {gen}an deep troll shaman
 {m}глубинного тролля-шамана
 %%%%
+{gen}an demigod
+{m}полубога
+%%%%
 {gen}an demon blade
 {m}демонического клинка
 %%%%
@@ -63901,8 +66193,14 @@ your ynoxinuls
 {gen}an demon whip
 {m}демонического кнута
 %%%%
+{gen}an demonspawn
+{n}порождения демонов
+%%%%
 {gen}an dire flail
 {m}тяжёлого цепа
+%%%%
+{gen}an djinni
+{m}джинна
 %%%%
 {gen}an double sword
 {m}двойного меча
@@ -63928,6 +66226,9 @@ your ynoxinuls
 {gen}an dream sheep
 {f}овцы сновидений
 %%%%
+{gen}an dwarf
+{m}дворфа
+%%%%
 {gen}an earthy gem
 {m}землистого самоцвета
 %%%%
@@ -63939,6 +66240,9 @@ your ynoxinuls
 %%%%
 {gen}an elephant
 {m}слона
+%%%%
+{gen}an elf
+{m}эльфа
 %%%%
 {gen}an endoplasm
 {f}эндоплазмы
@@ -63982,14 +66286,26 @@ your ynoxinuls
 {gen}an fortress talisman
 {m}талисмана крепости
 %%%%
+{gen}an frog
+{f}лягушки
+%%%%
 {gen}an frost giant
 {m}морозного великана
+%%%%
+{gen}an gargoyle
+{f}горгульи
 %%%%
 {gen}an gecko talisman
 {m}талисмана геккона
 %%%%
+{gen}an geist
+{m}призрака
+%%%%
 {gen}an gem
 {m}самоцвета
+%%%%
+{gen}an ghoul
+{m}гуля
 %%%%
 {gen}an giant club
 {f}гигантской дубины
@@ -64011,6 +66327,9 @@ your ynoxinuls
 %%%%
 {gen}an goblin
 {m}гоблина
+%%%%
+{gen}an god
+{m}бога
 %%%%
 {gen}an gold piece
 {f}золотой монеты
@@ -64089,6 +66408,9 @@ your ynoxinuls
 %%%%
 {gen}an hound
 {f}гончей
+%%%%
+{gen}an human
+{m}человека
 %%%%
 {gen}an hydra
 {f}гидры
@@ -64222,6 +66544,9 @@ your ynoxinuls
 {gen}an milky-white gem
 {m}молочно-белого самоцвета
 %%%%
+{gen}an minotaur
+{m}минотавра
+%%%%
 {gen}an mist talisman
 {m}талисмана тумана
 %%%%
@@ -64258,8 +66583,14 @@ your ynoxinuls
 {gen}an oblivion hound
 {f}гончей забвения
 %%%%
+{gen}an octopus
+{m}осьминога
+%%%%
 {gen}an ogre
 {m}огра
+%%%%
+{gen}an oni
+{m}они
 %%%%
 {gen}an orange demon
 {m}оранжевого демона
@@ -64296,6 +66627,9 @@ your ynoxinuls
 %%%%
 {gen}an pale draconian
 {m}бледного дракониана
+%%%%
+{gen}an palentonga
+{m}палентонги
 %%%%
 {gen}an pearl dragon
 {m}жемчужного дракона
@@ -64416,6 +66750,9 @@ your ynoxinuls
 %%%%
 {gen}an red draconian
 {m}красного дракониана
+%%%%
+{gen}an revenant
+{m}ревенанта
 %%%%
 {gen}an ribbon worm
 {m}ленточного червя
@@ -64807,6 +67144,9 @@ your ynoxinuls
 {gen}an very ugly thing
 {n}очень уродливого существа
 %%%%
+{gen}an vine stalker
+{m}лозового преследователя
+%%%%
 {gen}an vision talisman
 {m}талисмана зрения
 %%%%
@@ -64911,6 +67251,12 @@ your ynoxinuls
 %%%%
 {gen}ancient liches
 {pl}древних личей
+%%%%
+{gen}ant
+{m}муравья
+%%%%
+{gen}ants
+{pl}муравьёв
 %%%%
 {gen}apocalypse crab
 {m}краба апокалипсиса
@@ -65452,6 +67798,12 @@ your ynoxinuls
 {gen}cane toads
 {pl}жаб-аг
 %%%%
+{gen}cat
+{f}кошки
+%%%%
+{gen}cats
+{pl}кошек
+%%%%
 {gen}centaur
 {m}кентавра
 %%%%
@@ -65638,6 +67990,12 @@ your ynoxinuls
 {gen}deep trolls
 {pl}глубинных троллей
 %%%%
+{gen}demigod
+{m}полубога
+%%%%
+{gen}demigods
+{pl}полубогов
+%%%%
 {gen}demon blade
 {m}демонического клинка
 %%%%
@@ -65656,11 +68014,20 @@ your ynoxinuls
 {gen}demon whips
 {pl}демонических кнутов
 %%%%
+{gen}demonspawn
+{n}порождения демонов
+%%%%
 {gen}dire flail
 {m}тяжёлого цепа
 %%%%
 {gen}dire flails
 {pl}тяжёлых цепов
+%%%%
+{gen}djinn
+{pl}джиннов
+%%%%
+{gen}djinni
+{m}джинна
 %%%%
 {gen}double sword
 {m}двойного меча
@@ -65707,6 +68074,12 @@ your ynoxinuls
 {gen}dream sheep
 {f}овцы сновидений
 %%%%
+{gen}dwarf
+{m}дворфа
+%%%%
+{gen}dwarves
+{pl}дворфов
+%%%%
 {gen}earthy gem
 {m}землистого самоцвета
 %%%%
@@ -65730,6 +68103,12 @@ your ynoxinuls
 %%%%
 {gen}elephants
 {pl}слонов
+%%%%
+{gen}elf
+{m}эльфа
+%%%%
+{gen}elves
+{pl}эльфов
 %%%%
 {gen}endoplasm
 {f}эндоплазмы
@@ -65815,11 +68194,23 @@ your ynoxinuls
 {gen}fortress talismans
 {pl}талисманов крепости
 %%%%
+{gen}frog
+{f}лягушки
+%%%%
+{gen}frogs
+{pl}лягушек
+%%%%
 {gen}frost giant
 {m}морозного великана
 %%%%
 {gen}frost giants
 {pl}морозных великанов
+%%%%
+{gen}gargoyle
+{f}горгульи
+%%%%
+{gen}gargoyles
+{pl}горгулий
 %%%%
 {gen}gecko talisman
 {m}талисмана геккона
@@ -65827,11 +68218,23 @@ your ynoxinuls
 {gen}gecko talismans
 {pl}талисманов геккона
 %%%%
+{gen}geist
+{m}призрака
+%%%%
+{gen}geists
+{pl}призраков
+%%%%
 {gen}gem
 {m}самоцвета
 %%%%
 {gen}gems
 {pl}самоцветов
+%%%%
+{gen}ghoul
+{m}гуля
+%%%%
+{gen}ghouls
+{pl}гулей
 %%%%
 {gen}giant club
 {f}гигантской дубины
@@ -65874,6 +68277,12 @@ your ynoxinuls
 %%%%
 {gen}goblins
 {pl}гоблинов
+%%%%
+{gen}god
+{m}бога
+%%%%
+{gen}gods
+{pl}богов
 %%%%
 {gen}gold piece
 {f}золотой монеты
@@ -66030,6 +68439,12 @@ your ynoxinuls
 %%%%
 {gen}hounds
 {pl}гончих
+%%%%
+{gen}human
+{m}человека
+%%%%
+{gen}humans
+{pl}людей
 %%%%
 {gen}hydra
 {f}гидры
@@ -66292,6 +68707,12 @@ your ynoxinuls
 {gen}milky-white gems
 {pl}молочно-белых самоцветов
 %%%%
+{gen}minotaur
+{m}минотавра
+%%%%
+{gen}minotaurs
+{pl}минотавров
+%%%%
 {gen}mist talisman
 {m}талисмана тумана
 %%%%
@@ -66364,11 +68785,20 @@ your ynoxinuls
 {gen}oblivion hounds
 {pl}гончих забвения
 %%%%
+{gen}octopi
+{pl}осьминогов
+%%%%
+{gen}octopus
+{m}осьминога
+%%%%
 {gen}ogre
 {m}огра
 %%%%
 {gen}ogres
 {pl}огров
+%%%%
+{gen}oni
+{m}они
 %%%%
 {gen}orange demon
 {m}оранжевого демона
@@ -66441,6 +68871,12 @@ your ynoxinuls
 %%%%
 {gen}pale draconians
 {pl}бледных драконианов
+%%%%
+{gen}palentonga
+{m}палентонги
+%%%%
+{gen}palentongas
+{pl}палентонг
 %%%%
 {gen}pearl dragon
 {m}жемчужного дракона
@@ -66681,6 +69117,12 @@ your ynoxinuls
 %%%%
 {gen}red draconians
 {pl}красных драконианов
+%%%%
+{gen}revenant
+{m}ревенанта
+%%%%
+{gen}revenants
+{pl}ревенантов
 %%%%
 {gen}ribbon worm
 {m}ленточного червя
@@ -67663,6 +70105,12 @@ your ynoxinuls
 {gen}the ancient liches
 {pl}древних личей
 %%%%
+{gen}the ant
+{m}муравья
+%%%%
+{gen}the ants
+{pl}муравьёв
+%%%%
 {gen}the apocalypse crab
 {m}краба апокалипсиса
 %%%%
@@ -68203,6 +70651,12 @@ your ynoxinuls
 {gen}the cane toads
 {pl}жаб-аг
 %%%%
+{gen}the cat
+{f}кошки
+%%%%
+{gen}the cats
+{pl}кошек
+%%%%
 {gen}the centaur
 {m}кентавра
 %%%%
@@ -68389,6 +70843,12 @@ your ynoxinuls
 {gen}the deep trolls
 {pl}глубинных троллей
 %%%%
+{gen}the demigod
+{m}полубога
+%%%%
+{gen}the demigods
+{pl}полубогов
+%%%%
 {gen}the demon blade
 {m}демонического клинка
 %%%%
@@ -68407,11 +70867,20 @@ your ynoxinuls
 {gen}the demon whips
 {pl}демонических кнутов
 %%%%
+{gen}the demonspawn
+{n}порождения демонов
+%%%%
 {gen}the dire flail
 {m}тяжёлого цепа
 %%%%
 {gen}the dire flails
 {pl}тяжёлых цепов
+%%%%
+{gen}the djinn
+{pl}джиннов
+%%%%
+{gen}the djinni
+{m}джинна
 %%%%
 {gen}the double sword
 {m}двойного меча
@@ -68458,6 +70927,12 @@ your ynoxinuls
 {gen}the dream sheep
 {f}овцы сновидений
 %%%%
+{gen}the dwarf
+{m}дворфа
+%%%%
+{gen}the dwarves
+{pl}дворфов
+%%%%
 {gen}the earthy gem
 {m}землистого самоцвета
 %%%%
@@ -68481,6 +70956,12 @@ your ynoxinuls
 %%%%
 {gen}the elephants
 {pl}слонов
+%%%%
+{gen}the elf
+{m}эльфа
+%%%%
+{gen}the elves
+{pl}эльфов
 %%%%
 {gen}the endoplasm
 {f}эндоплазмы
@@ -68566,11 +71047,23 @@ your ynoxinuls
 {gen}the fortress talismans
 {pl}талисманов крепости
 %%%%
+{gen}the frog
+{f}лягушки
+%%%%
+{gen}the frogs
+{pl}лягушек
+%%%%
 {gen}the frost giant
 {m}морозного великана
 %%%%
 {gen}the frost giants
 {pl}морозных великанов
+%%%%
+{gen}the gargoyle
+{f}горгульи
+%%%%
+{gen}the gargoyles
+{pl}горгулий
 %%%%
 {gen}the gecko talisman
 {m}талисмана геккона
@@ -68578,11 +71071,23 @@ your ynoxinuls
 {gen}the gecko talismans
 {pl}талисманов геккона
 %%%%
+{gen}the geist
+{m}призрака
+%%%%
+{gen}the geists
+{pl}призраков
+%%%%
 {gen}the gem
 {m}самоцвета
 %%%%
 {gen}the gems
 {pl}самоцветов
+%%%%
+{gen}the ghoul
+{m}гуля
+%%%%
+{gen}the ghouls
+{pl}гулей
 %%%%
 {gen}the giant club
 {f}гигантской дубины
@@ -68625,6 +71130,12 @@ your ynoxinuls
 %%%%
 {gen}the goblins
 {pl}гоблинов
+%%%%
+{gen}the god
+{m}бога
+%%%%
+{gen}the gods
+{pl}богов
 %%%%
 {gen}the gold piece
 {f}золотой монеты
@@ -68781,6 +71292,12 @@ your ynoxinuls
 %%%%
 {gen}the hounds
 {pl}гончих
+%%%%
+{gen}the human
+{m}человека
+%%%%
+{gen}the humans
+{pl}людей
 %%%%
 {gen}the hydra
 {f}гидры
@@ -69043,6 +71560,12 @@ your ynoxinuls
 {gen}the milky-white gems
 {pl}молочно-белых самоцветов
 %%%%
+{gen}the minotaur
+{m}минотавра
+%%%%
+{gen}the minotaurs
+{pl}минотавров
+%%%%
 {gen}the mist talisman
 {m}талисмана тумана
 %%%%
@@ -69115,11 +71638,20 @@ your ynoxinuls
 {gen}the oblivion hounds
 {pl}гончих забвения
 %%%%
+{gen}the octopi
+{pl}осьминогов
+%%%%
+{gen}the octopus
+{m}осьминога
+%%%%
 {gen}the ogre
 {m}огра
 %%%%
 {gen}the ogres
 {pl}огров
+%%%%
+{gen}the oni
+{m}они
 %%%%
 {gen}the orange demon
 {m}оранжевого демона
@@ -69192,6 +71724,12 @@ your ynoxinuls
 %%%%
 {gen}the pale draconians
 {pl}бледных драконианов
+%%%%
+{gen}the palentonga
+{m}палентонги
+%%%%
+{gen}the palentongas
+{pl}палентонг
 %%%%
 {gen}the pearl dragon
 {m}жемчужного дракона
@@ -69432,6 +71970,12 @@ your ynoxinuls
 %%%%
 {gen}the red draconians
 {pl}красных драконианов
+%%%%
+{gen}the revenant
+{m}ревенанта
+%%%%
+{gen}the revenants
+{pl}ревенантов
 %%%%
 {gen}the ribbon worm
 {m}ленточного червя
@@ -70204,6 +72748,12 @@ your ynoxinuls
 {gen}the very ugly things
 {pl}очень уродливых существ
 %%%%
+{gen}the vine stalker
+{m}лозового преследователя
+%%%%
+{gen}the vine stalkers
+{pl}лозовых преследователей
+%%%%
 {gen}the vision talisman
 {m}талисмана зрения
 %%%%
@@ -70515,6 +73065,12 @@ your ynoxinuls
 %%%%
 {gen}very ugly things
 {pl}очень уродливых существ
+%%%%
+{gen}vine stalker
+{m}лозового преследователя
+%%%%
+{gen}vine stalkers
+{pl}лозовых преследователей
 %%%%
 {gen}vision talisman
 {m}талисмана зрения
@@ -71037,6 +73593,12 @@ your ynoxinuls
 %%%%
 {gen}your ancient liches
 {pl}древних личей
+%%%%
+{gen}your ant
+{m}муравья
+%%%%
+{gen}your ants
+{pl}муравьёв
 %%%%
 {gen}your apocalypse crab
 {m}краба апокалипсиса
@@ -71578,6 +74140,12 @@ your ynoxinuls
 {gen}your cane toads
 {pl}жаб-аг
 %%%%
+{gen}your cat
+{f}кошки
+%%%%
+{gen}your cats
+{pl}кошек
+%%%%
 {gen}your centaur
 {m}кентавра
 %%%%
@@ -71764,6 +74332,12 @@ your ynoxinuls
 {gen}your deep trolls
 {pl}глубинных троллей
 %%%%
+{gen}your demigod
+{m}полубога
+%%%%
+{gen}your demigods
+{pl}полубогов
+%%%%
 {gen}your demon blade
 {m}демонического клинка
 %%%%
@@ -71782,11 +74356,20 @@ your ynoxinuls
 {gen}your demon whips
 {pl}демонических кнутов
 %%%%
+{gen}your demonspawn
+{n}порождения демонов
+%%%%
 {gen}your dire flail
 {m}тяжёлого цепа
 %%%%
 {gen}your dire flails
 {pl}тяжёлых цепов
+%%%%
+{gen}your djinn
+{pl}джиннов
+%%%%
+{gen}your djinni
+{m}джинна
 %%%%
 {gen}your double sword
 {m}двойного меча
@@ -71833,6 +74416,12 @@ your ynoxinuls
 {gen}your dream sheep
 {f}овцы сновидений
 %%%%
+{gen}your dwarf
+{m}дворфа
+%%%%
+{gen}your dwarves
+{pl}дворфов
+%%%%
 {gen}your earthy gem
 {m}землистого самоцвета
 %%%%
@@ -71856,6 +74445,12 @@ your ynoxinuls
 %%%%
 {gen}your elephants
 {pl}слонов
+%%%%
+{gen}your elf
+{m}эльфа
+%%%%
+{gen}your elves
+{pl}эльфов
 %%%%
 {gen}your endoplasm
 {f}эндоплазмы
@@ -71941,11 +74536,23 @@ your ynoxinuls
 {gen}your fortress talismans
 {pl}талисманов крепости
 %%%%
+{gen}your frog
+{f}лягушки
+%%%%
+{gen}your frogs
+{pl}лягушек
+%%%%
 {gen}your frost giant
 {m}морозного великана
 %%%%
 {gen}your frost giants
 {pl}морозных великанов
+%%%%
+{gen}your gargoyle
+{f}горгульи
+%%%%
+{gen}your gargoyles
+{pl}горгулий
 %%%%
 {gen}your gecko talisman
 {m}талисмана геккона
@@ -71953,11 +74560,23 @@ your ynoxinuls
 {gen}your gecko talismans
 {pl}талисманов геккона
 %%%%
+{gen}your geist
+{m}призрака
+%%%%
+{gen}your geists
+{pl}призраков
+%%%%
 {gen}your gem
 {m}самоцвета
 %%%%
 {gen}your gems
 {pl}самоцветов
+%%%%
+{gen}your ghoul
+{m}гуля
+%%%%
+{gen}your ghouls
+{pl}гулей
 %%%%
 {gen}your giant club
 {f}гигантской дубины
@@ -72000,6 +74619,12 @@ your ynoxinuls
 %%%%
 {gen}your goblins
 {pl}гоблинов
+%%%%
+{gen}your god
+{m}бога
+%%%%
+{gen}your gods
+{pl}богов
 %%%%
 {gen}your gold piece
 {f}золотой монеты
@@ -72156,6 +74781,12 @@ your ynoxinuls
 %%%%
 {gen}your hounds
 {pl}гончих
+%%%%
+{gen}your human
+{m}человека
+%%%%
+{gen}your humans
+{pl}людей
 %%%%
 {gen}your hydra
 {f}гидры
@@ -72418,6 +75049,12 @@ your ynoxinuls
 {gen}your milky-white gems
 {pl}молочно-белых самоцветов
 %%%%
+{gen}your minotaur
+{m}минотавра
+%%%%
+{gen}your minotaurs
+{pl}минотавров
+%%%%
 {gen}your mist talisman
 {m}талисмана тумана
 %%%%
@@ -72490,11 +75127,20 @@ your ynoxinuls
 {gen}your oblivion hounds
 {pl}гончих забвения
 %%%%
+{gen}your octopi
+{pl}осьминогов
+%%%%
+{gen}your octopus
+{m}осьминога
+%%%%
 {gen}your ogre
 {m}огра
 %%%%
 {gen}your ogres
 {pl}огров
+%%%%
+{gen}your oni
+{m}они
 %%%%
 {gen}your orange demon
 {m}оранжевого демона
@@ -72567,6 +75213,12 @@ your ynoxinuls
 %%%%
 {gen}your pale draconians
 {pl}бледных драконианов
+%%%%
+{gen}your palentonga
+{m}палентонги
+%%%%
+{gen}your palentongas
+{pl}палентонг
 %%%%
 {gen}your pearl dragon
 {m}жемчужного дракона
@@ -72807,6 +75459,12 @@ your ynoxinuls
 %%%%
 {gen}your red draconians
 {pl}красных драконианов
+%%%%
+{gen}your revenant
+{m}ревенанта
+%%%%
+{gen}your revenants
+{pl}ревенантов
 %%%%
 {gen}your ribbon worm
 {m}ленточного червя
@@ -73579,6 +76237,12 @@ your ynoxinuls
 {gen}your very ugly things
 {pl}очень уродливых существ
 %%%%
+{gen}your vine stalker
+{m}лозового преследователя
+%%%%
+{gen}your vine stalkers
+{pl}лозовых преследователей
+%%%%
 {gen}your vision talisman
 {m}талисмана зрения
 %%%%
@@ -73936,6 +76600,9 @@ your ynoxinuls
 {ins_few}@num@ ancient liches
 @num@ древними личами
 %%%%
+{ins_few}@num@ ants
+@num@ муравьями
+%%%%
 {ins_few}@num@ apocalypse crabs
 @num@ крабами апокалипсиса
 %%%%
@@ -74206,6 +76873,9 @@ your ynoxinuls
 {ins_few}@num@ cane toads
 @num@ жабами-агами
 %%%%
+{ins_few}@num@ cats
+@num@ кошками
+%%%%
 {ins_few}@num@ centaur warriors
 @num@ кентаврами-воинами
 %%%%
@@ -74299,6 +76969,9 @@ your ynoxinuls
 {ins_few}@num@ deep trolls
 @num@ глубинными троллями
 %%%%
+{ins_few}@num@ demigods
+@num@ полубогами
+%%%%
 {ins_few}@num@ demon blades
 @num@ демоническими клинками
 %%%%
@@ -74308,8 +76981,14 @@ your ynoxinuls
 {ins_few}@num@ demon whips
 @num@ демоническими кнутами
 %%%%
+{ins_few}@num@ demonspawn
+@num@ порождениями демонов
+%%%%
 {ins_few}@num@ dire flails
 @num@ тяжёлыми цепами
+%%%%
+{ins_few}@num@ djinn
+@num@ джиннами
 %%%%
 {ins_few}@num@ double swords
 @num@ двойными мечами
@@ -74335,6 +77014,9 @@ your ynoxinuls
 {ins_few}@num@ dream sheep
 @num@ овцами сновидений
 %%%%
+{ins_few}@num@ dwarves
+@num@ дворфами
+%%%%
 {ins_few}@num@ earthy gems
 @num@ землистыми самоцветами
 %%%%
@@ -74346,6 +77028,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ elephants
 @num@ слонами
+%%%%
+{ins_few}@num@ elves
+@num@ эльфами
 %%%%
 {ins_few}@num@ endoplasms
 @num@ эндоплазмами
@@ -74389,14 +77074,26 @@ your ynoxinuls
 {ins_few}@num@ fortress talismans
 @num@ талисманами крепости
 %%%%
+{ins_few}@num@ frogs
+@num@ лягушками
+%%%%
 {ins_few}@num@ frost giants
 @num@ морозными великанами
+%%%%
+{ins_few}@num@ gargoyles
+@num@ горгульями
 %%%%
 {ins_few}@num@ gecko talismans
 @num@ талисманами геккона
 %%%%
+{ins_few}@num@ geists
+@num@ призраками
+%%%%
 {ins_few}@num@ gems
 @num@ самоцветами
+%%%%
+{ins_few}@num@ ghouls
+@num@ гулями
 %%%%
 {ins_few}@num@ giant clubs
 @num@ гигантскими дубинами
@@ -74418,6 +77115,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ goblins
 @num@ гоблинами
+%%%%
+{ins_few}@num@ gods
+@num@ богами
 %%%%
 {ins_few}@num@ gold pieces
 @num@ золотыми монетами
@@ -74496,6 +77196,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ hounds
 @num@ гончими
+%%%%
+{ins_few}@num@ humans
+@num@ людьми
 %%%%
 {ins_few}@num@ hydras
 @num@ гидрами
@@ -74629,6 +77332,9 @@ your ynoxinuls
 {ins_few}@num@ milky-white gems
 @num@ молочно-белыми самоцветами
 %%%%
+{ins_few}@num@ minotaurs
+@num@ минотаврами
+%%%%
 {ins_few}@num@ mist talismans
 @num@ талисманами тумана
 %%%%
@@ -74665,8 +77371,14 @@ your ynoxinuls
 {ins_few}@num@ oblivion hounds
 @num@ гончими забвения
 %%%%
+{ins_few}@num@ octopi
+@num@ осьминогами
+%%%%
 {ins_few}@num@ ogres
 @num@ ограми
+%%%%
+{ins_few}@num@ oni
+@num@ они
 %%%%
 {ins_few}@num@ orange demons
 @num@ оранжевыми демонами
@@ -74703,6 +77415,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ pale draconians
 @num@ бледными драконианами
+%%%%
+{ins_few}@num@ palentongas
+@num@ палентонгами
 %%%%
 {ins_few}@num@ pearl dragons
 @num@ жемчужными драконами
@@ -74823,6 +77538,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ red draconians
 @num@ красными драконианами
+%%%%
+{ins_few}@num@ revenants
+@num@ ревенантами
 %%%%
 {ins_few}@num@ ribbon worms
 @num@ ленточными червями
@@ -75214,6 +77932,9 @@ your ynoxinuls
 {ins_few}@num@ very ugly things
 @num@ очень уродливыми существами
 %%%%
+{ins_few}@num@ vine stalkers
+@num@ лозовыми преследователями
+%%%%
 {ins_few}@num@ vision talismans
 @num@ талисманами зрения
 %%%%
@@ -75477,6 +78198,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ ancient liches
 @num@ древними личами
+%%%%
+{ins_many}@num@ ants
+@num@ муравьями
 %%%%
 {ins_many}@num@ apocalypse crabs
 @num@ крабами апокалипсиса
@@ -75748,6 +78472,9 @@ your ynoxinuls
 {ins_many}@num@ cane toads
 @num@ жабами-агами
 %%%%
+{ins_many}@num@ cats
+@num@ кошками
+%%%%
 {ins_many}@num@ centaur warriors
 @num@ кентаврами-воинами
 %%%%
@@ -75841,6 +78568,9 @@ your ynoxinuls
 {ins_many}@num@ deep trolls
 @num@ глубинными троллями
 %%%%
+{ins_many}@num@ demigods
+@num@ полубогами
+%%%%
 {ins_many}@num@ demon blades
 @num@ демоническими клинками
 %%%%
@@ -75850,8 +78580,14 @@ your ynoxinuls
 {ins_many}@num@ demon whips
 @num@ демоническими кнутами
 %%%%
+{ins_many}@num@ demonspawn
+@num@ порождениями демонов
+%%%%
 {ins_many}@num@ dire flails
 @num@ тяжёлыми цепами
+%%%%
+{ins_many}@num@ djinn
+@num@ джиннами
 %%%%
 {ins_many}@num@ double swords
 @num@ двойными мечами
@@ -75877,6 +78613,9 @@ your ynoxinuls
 {ins_many}@num@ dream sheep
 @num@ овцами сновидений
 %%%%
+{ins_many}@num@ dwarves
+@num@ дворфами
+%%%%
 {ins_many}@num@ earthy gems
 @num@ землистыми самоцветами
 %%%%
@@ -75888,6 +78627,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ elephants
 @num@ слонами
+%%%%
+{ins_many}@num@ elves
+@num@ эльфами
 %%%%
 {ins_many}@num@ endoplasms
 @num@ эндоплазмами
@@ -75931,14 +78673,26 @@ your ynoxinuls
 {ins_many}@num@ fortress talismans
 @num@ талисманами крепости
 %%%%
+{ins_many}@num@ frogs
+@num@ лягушками
+%%%%
 {ins_many}@num@ frost giants
 @num@ морозными великанами
+%%%%
+{ins_many}@num@ gargoyles
+@num@ горгульями
 %%%%
 {ins_many}@num@ gecko talismans
 @num@ талисманами геккона
 %%%%
+{ins_many}@num@ geists
+@num@ призраками
+%%%%
 {ins_many}@num@ gems
 @num@ самоцветами
+%%%%
+{ins_many}@num@ ghouls
+@num@ гулями
 %%%%
 {ins_many}@num@ giant clubs
 @num@ гигантскими дубинами
@@ -75960,6 +78714,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ goblins
 @num@ гоблинами
+%%%%
+{ins_many}@num@ gods
+@num@ богами
 %%%%
 {ins_many}@num@ gold pieces
 @num@ золотыми монетами
@@ -76038,6 +78795,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ hounds
 @num@ гончими
+%%%%
+{ins_many}@num@ humans
+@num@ людьми
 %%%%
 {ins_many}@num@ hydras
 @num@ гидрами
@@ -76171,6 +78931,9 @@ your ynoxinuls
 {ins_many}@num@ milky-white gems
 @num@ молочно-белыми самоцветами
 %%%%
+{ins_many}@num@ minotaurs
+@num@ минотаврами
+%%%%
 {ins_many}@num@ mist talismans
 @num@ талисманами тумана
 %%%%
@@ -76207,8 +78970,14 @@ your ynoxinuls
 {ins_many}@num@ oblivion hounds
 @num@ гончими забвения
 %%%%
+{ins_many}@num@ octopi
+@num@ осьминогами
+%%%%
 {ins_many}@num@ ogres
 @num@ ограми
+%%%%
+{ins_many}@num@ oni
+@num@ они
 %%%%
 {ins_many}@num@ orange demons
 @num@ оранжевыми демонами
@@ -76245,6 +79014,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ pale draconians
 @num@ бледными драконианами
+%%%%
+{ins_many}@num@ palentongas
+@num@ палентонгами
 %%%%
 {ins_many}@num@ pearl dragons
 @num@ жемчужными драконами
@@ -76365,6 +79137,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ red draconians
 @num@ красными драконианами
+%%%%
+{ins_many}@num@ revenants
+@num@ ревенантами
 %%%%
 {ins_many}@num@ ribbon worms
 @num@ ленточными червями
@@ -76756,6 +79531,9 @@ your ynoxinuls
 {ins_many}@num@ very ugly things
 @num@ очень уродливыми существами
 %%%%
+{ins_many}@num@ vine stalkers
+@num@ лозовыми преследователями
+%%%%
 {ins_many}@num@ vision talismans
 @num@ талисманами зрения
 %%%%
@@ -77019,6 +79797,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ ancient liches
 @num@ древним личем
+%%%%
+{ins_one}@num@ ants
+@num@ муравьём
 %%%%
 {ins_one}@num@ apocalypse crabs
 @num@ крабом апокалипсиса
@@ -77290,6 +80071,9 @@ your ynoxinuls
 {ins_one}@num@ cane toads
 @num@ жабой-агой
 %%%%
+{ins_one}@num@ cats
+@num@ кошкой
+%%%%
 {ins_one}@num@ centaur warriors
 @num@ кентавром-воином
 %%%%
@@ -77383,6 +80167,9 @@ your ynoxinuls
 {ins_one}@num@ deep trolls
 @num@ глубинным троллем
 %%%%
+{ins_one}@num@ demigods
+@num@ полубогом
+%%%%
 {ins_one}@num@ demon blades
 @num@ демоническим клинком
 %%%%
@@ -77392,8 +80179,14 @@ your ynoxinuls
 {ins_one}@num@ demon whips
 @num@ демоническим кнутом
 %%%%
+{ins_one}@num@ demonspawn
+@num@ порождением демонов
+%%%%
 {ins_one}@num@ dire flails
 @num@ тяжёлым цепом
+%%%%
+{ins_one}@num@ djinn
+@num@ джинном
 %%%%
 {ins_one}@num@ double swords
 @num@ двойным мечом
@@ -77419,6 +80212,9 @@ your ynoxinuls
 {ins_one}@num@ dream sheep
 @num@ овцой сновидений
 %%%%
+{ins_one}@num@ dwarves
+@num@ дворфом
+%%%%
 {ins_one}@num@ earthy gems
 @num@ землистым самоцветом
 %%%%
@@ -77430,6 +80226,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ elephants
 @num@ слоном
+%%%%
+{ins_one}@num@ elves
+@num@ эльфом
 %%%%
 {ins_one}@num@ endoplasms
 @num@ эндоплазмой
@@ -77473,14 +80272,26 @@ your ynoxinuls
 {ins_one}@num@ fortress talismans
 @num@ талисманом крепости
 %%%%
+{ins_one}@num@ frogs
+@num@ лягушкой
+%%%%
 {ins_one}@num@ frost giants
 @num@ морозным великаном
+%%%%
+{ins_one}@num@ gargoyles
+@num@ горгульей
 %%%%
 {ins_one}@num@ gecko talismans
 @num@ талисманом геккона
 %%%%
+{ins_one}@num@ geists
+@num@ призраком
+%%%%
 {ins_one}@num@ gems
 @num@ самоцветом
+%%%%
+{ins_one}@num@ ghouls
+@num@ гулем
 %%%%
 {ins_one}@num@ giant clubs
 @num@ гигантской дубиной
@@ -77502,6 +80313,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ goblins
 @num@ гоблином
+%%%%
+{ins_one}@num@ gods
+@num@ богом
 %%%%
 {ins_one}@num@ gold pieces
 @num@ золотой монетой
@@ -77580,6 +80394,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ hounds
 @num@ гончей
+%%%%
+{ins_one}@num@ humans
+@num@ человеком
 %%%%
 {ins_one}@num@ hydras
 @num@ гидрой
@@ -77713,6 +80530,9 @@ your ynoxinuls
 {ins_one}@num@ milky-white gems
 @num@ молочно-белым самоцветом
 %%%%
+{ins_one}@num@ minotaurs
+@num@ минотавром
+%%%%
 {ins_one}@num@ mist talismans
 @num@ талисманом тумана
 %%%%
@@ -77749,8 +80569,14 @@ your ynoxinuls
 {ins_one}@num@ oblivion hounds
 @num@ гончей забвения
 %%%%
+{ins_one}@num@ octopi
+@num@ осьминогом
+%%%%
 {ins_one}@num@ ogres
 @num@ огром
+%%%%
+{ins_one}@num@ oni
+@num@ они
 %%%%
 {ins_one}@num@ orange demons
 @num@ оранжевым демоном
@@ -77787,6 +80613,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ pale draconians
 @num@ бледным драконианом
+%%%%
+{ins_one}@num@ palentongas
+@num@ палентонгой
 %%%%
 {ins_one}@num@ pearl dragons
 @num@ жемчужным драконом
@@ -77907,6 +80736,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ red draconians
 @num@ красным драконианом
+%%%%
+{ins_one}@num@ revenants
+@num@ ревенантом
 %%%%
 {ins_one}@num@ ribbon worms
 @num@ ленточным червём
@@ -78297,6 +81129,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ very ugly things
 @num@ очень уродливым существом
+%%%%
+{ins_one}@num@ vine stalkers
+@num@ лозовым преследователем
 %%%%
 {ins_one}@num@ vision talismans
 @num@ талисманом зрения
@@ -78802,6 +81637,9 @@ your ynoxinuls
 {ins}a ancient lich
 {m}древним личем
 %%%%
+{ins}a ant
+{m}муравьём
+%%%%
 {ins}a apocalypse crab
 {m}крабом апокалипсиса
 %%%%
@@ -79072,6 +81910,9 @@ your ynoxinuls
 {ins}a cane toad
 {f}жабой-агой
 %%%%
+{ins}a cat
+{f}кошкой
+%%%%
 {ins}a centaur
 {m}кентавром
 %%%%
@@ -79165,6 +82006,9 @@ your ynoxinuls
 {ins}a deep troll shaman
 {m}глубинным троллем-шаманом
 %%%%
+{ins}a demigod
+{m}полубогом
+%%%%
 {ins}a demon blade
 {m}демоническим клинком
 %%%%
@@ -79174,8 +82018,14 @@ your ynoxinuls
 {ins}a demon whip
 {m}демоническим кнутом
 %%%%
+{ins}a demonspawn
+{n}порождением демонов
+%%%%
 {ins}a dire flail
 {m}тяжёлым цепом
+%%%%
+{ins}a djinni
+{m}джинном
 %%%%
 {ins}a double sword
 {m}двойным мечом
@@ -79201,6 +82051,9 @@ your ynoxinuls
 {ins}a dream sheep
 {f}овцой сновидений
 %%%%
+{ins}a dwarf
+{m}дворфом
+%%%%
 {ins}a earthy gem
 {m}землистым самоцветом
 %%%%
@@ -79212,6 +82065,9 @@ your ynoxinuls
 %%%%
 {ins}a elephant
 {m}слоном
+%%%%
+{ins}a elf
+{m}эльфом
 %%%%
 {ins}a endoplasm
 {f}эндоплазмой
@@ -79255,14 +82111,26 @@ your ynoxinuls
 {ins}a fortress talisman
 {m}талисманом крепости
 %%%%
+{ins}a frog
+{f}лягушкой
+%%%%
 {ins}a frost giant
 {m}морозным великаном
+%%%%
+{ins}a gargoyle
+{f}горгульей
 %%%%
 {ins}a gecko talisman
 {m}талисманом геккона
 %%%%
+{ins}a geist
+{m}призраком
+%%%%
 {ins}a gem
 {m}самоцветом
+%%%%
+{ins}a ghoul
+{m}гулем
 %%%%
 {ins}a giant club
 {f}гигантской дубиной
@@ -79284,6 +82152,9 @@ your ynoxinuls
 %%%%
 {ins}a goblin
 {m}гоблином
+%%%%
+{ins}a god
+{m}богом
 %%%%
 {ins}a gold piece
 {f}золотой монетой
@@ -79362,6 +82233,9 @@ your ynoxinuls
 %%%%
 {ins}a hound
 {f}гончей
+%%%%
+{ins}a human
+{m}человеком
 %%%%
 {ins}a hydra
 {f}гидрой
@@ -79495,6 +82369,9 @@ your ynoxinuls
 {ins}a milky-white gem
 {m}молочно-белым самоцветом
 %%%%
+{ins}a minotaur
+{m}минотавром
+%%%%
 {ins}a mist talisman
 {m}талисманом тумана
 %%%%
@@ -79531,8 +82408,14 @@ your ynoxinuls
 {ins}a oblivion hound
 {f}гончей забвения
 %%%%
+{ins}a octopus
+{m}осьминогом
+%%%%
 {ins}a ogre
 {m}огром
+%%%%
+{ins}a oni
+{m}они
 %%%%
 {ins}a orange demon
 {m}оранжевым демоном
@@ -79569,6 +82452,9 @@ your ynoxinuls
 %%%%
 {ins}a pale draconian
 {m}бледным драконианом
+%%%%
+{ins}a palentonga
+{m}палентонгой
 %%%%
 {ins}a pearl dragon
 {m}жемчужным драконом
@@ -79689,6 +82575,9 @@ your ynoxinuls
 %%%%
 {ins}a red draconian
 {m}красным драконианом
+%%%%
+{ins}a revenant
+{m}ревенантом
 %%%%
 {ins}a ribbon worm
 {m}ленточным червём
@@ -80080,6 +82969,9 @@ your ynoxinuls
 {ins}a very ugly thing
 {n}очень уродливым существом
 %%%%
+{ins}a vine stalker
+{m}лозовым преследователем
+%%%%
 {ins}a vision talisman
 {m}талисманом зрения
 %%%%
@@ -80428,6 +83320,9 @@ your ynoxinuls
 {ins}an ancient lich
 {m}древним личем
 %%%%
+{ins}an ant
+{m}муравьём
+%%%%
 {ins}an apocalypse crab
 {m}крабом апокалипсиса
 %%%%
@@ -80698,6 +83593,9 @@ your ynoxinuls
 {ins}an cane toad
 {f}жабой-агой
 %%%%
+{ins}an cat
+{f}кошкой
+%%%%
 {ins}an centaur
 {m}кентавром
 %%%%
@@ -80791,6 +83689,9 @@ your ynoxinuls
 {ins}an deep troll shaman
 {m}глубинным троллем-шаманом
 %%%%
+{ins}an demigod
+{m}полубогом
+%%%%
 {ins}an demon blade
 {m}демоническим клинком
 %%%%
@@ -80800,8 +83701,14 @@ your ynoxinuls
 {ins}an demon whip
 {m}демоническим кнутом
 %%%%
+{ins}an demonspawn
+{n}порождением демонов
+%%%%
 {ins}an dire flail
 {m}тяжёлым цепом
+%%%%
+{ins}an djinni
+{m}джинном
 %%%%
 {ins}an double sword
 {m}двойным мечом
@@ -80827,6 +83734,9 @@ your ynoxinuls
 {ins}an dream sheep
 {f}овцой сновидений
 %%%%
+{ins}an dwarf
+{m}дворфом
+%%%%
 {ins}an earthy gem
 {m}землистым самоцветом
 %%%%
@@ -80838,6 +83748,9 @@ your ynoxinuls
 %%%%
 {ins}an elephant
 {m}слоном
+%%%%
+{ins}an elf
+{m}эльфом
 %%%%
 {ins}an endoplasm
 {f}эндоплазмой
@@ -80881,14 +83794,26 @@ your ynoxinuls
 {ins}an fortress talisman
 {m}талисманом крепости
 %%%%
+{ins}an frog
+{f}лягушкой
+%%%%
 {ins}an frost giant
 {m}морозным великаном
+%%%%
+{ins}an gargoyle
+{f}горгульей
 %%%%
 {ins}an gecko talisman
 {m}талисманом геккона
 %%%%
+{ins}an geist
+{m}призраком
+%%%%
 {ins}an gem
 {m}самоцветом
+%%%%
+{ins}an ghoul
+{m}гулем
 %%%%
 {ins}an giant club
 {f}гигантской дубиной
@@ -80910,6 +83835,9 @@ your ynoxinuls
 %%%%
 {ins}an goblin
 {m}гоблином
+%%%%
+{ins}an god
+{m}богом
 %%%%
 {ins}an gold piece
 {f}золотой монетой
@@ -80988,6 +83916,9 @@ your ynoxinuls
 %%%%
 {ins}an hound
 {f}гончей
+%%%%
+{ins}an human
+{m}человеком
 %%%%
 {ins}an hydra
 {f}гидрой
@@ -81121,6 +84052,9 @@ your ynoxinuls
 {ins}an milky-white gem
 {m}молочно-белым самоцветом
 %%%%
+{ins}an minotaur
+{m}минотавром
+%%%%
 {ins}an mist talisman
 {m}талисманом тумана
 %%%%
@@ -81157,8 +84091,14 @@ your ynoxinuls
 {ins}an oblivion hound
 {f}гончей забвения
 %%%%
+{ins}an octopus
+{m}осьминогом
+%%%%
 {ins}an ogre
 {m}огром
+%%%%
+{ins}an oni
+{m}они
 %%%%
 {ins}an orange demon
 {m}оранжевым демоном
@@ -81195,6 +84135,9 @@ your ynoxinuls
 %%%%
 {ins}an pale draconian
 {m}бледным драконианом
+%%%%
+{ins}an palentonga
+{m}палентонгой
 %%%%
 {ins}an pearl dragon
 {m}жемчужным драконом
@@ -81315,6 +84258,9 @@ your ynoxinuls
 %%%%
 {ins}an red draconian
 {m}красным драконианом
+%%%%
+{ins}an revenant
+{m}ревенантом
 %%%%
 {ins}an ribbon worm
 {m}ленточным червём
@@ -81706,6 +84652,9 @@ your ynoxinuls
 {ins}an very ugly thing
 {n}очень уродливым существом
 %%%%
+{ins}an vine stalker
+{m}лозовым преследователем
+%%%%
 {ins}an vision talisman
 {m}талисманом зрения
 %%%%
@@ -81810,6 +84759,12 @@ your ynoxinuls
 %%%%
 {ins}ancient liches
 {pl}древними личами
+%%%%
+{ins}ant
+{m}муравьём
+%%%%
+{ins}ants
+{pl}муравьями
 %%%%
 {ins}apocalypse crab
 {m}крабом апокалипсиса
@@ -82351,6 +85306,12 @@ your ynoxinuls
 {ins}cane toads
 {pl}жабами-агами
 %%%%
+{ins}cat
+{f}кошкой
+%%%%
+{ins}cats
+{pl}кошками
+%%%%
 {ins}centaur
 {m}кентавром
 %%%%
@@ -82537,6 +85498,12 @@ your ynoxinuls
 {ins}deep trolls
 {pl}глубинными троллями
 %%%%
+{ins}demigod
+{m}полубогом
+%%%%
+{ins}demigods
+{pl}полубогами
+%%%%
 {ins}demon blade
 {m}демоническим клинком
 %%%%
@@ -82555,11 +85522,20 @@ your ynoxinuls
 {ins}demon whips
 {pl}демоническими кнутами
 %%%%
+{ins}demonspawn
+{n}порождением демонов
+%%%%
 {ins}dire flail
 {m}тяжёлым цепом
 %%%%
 {ins}dire flails
 {pl}тяжёлыми цепами
+%%%%
+{ins}djinn
+{pl}джиннами
+%%%%
+{ins}djinni
+{m}джинном
 %%%%
 {ins}double sword
 {m}двойным мечом
@@ -82606,6 +85582,12 @@ your ynoxinuls
 {ins}dream sheep
 {f}овцой сновидений
 %%%%
+{ins}dwarf
+{m}дворфом
+%%%%
+{ins}dwarves
+{pl}дворфами
+%%%%
 {ins}earthy gem
 {m}землистым самоцветом
 %%%%
@@ -82629,6 +85611,12 @@ your ynoxinuls
 %%%%
 {ins}elephants
 {pl}слонами
+%%%%
+{ins}elf
+{m}эльфом
+%%%%
+{ins}elves
+{pl}эльфами
 %%%%
 {ins}endoplasm
 {f}эндоплазмой
@@ -82714,11 +85702,23 @@ your ynoxinuls
 {ins}fortress talismans
 {pl}талисманами крепости
 %%%%
+{ins}frog
+{f}лягушкой
+%%%%
+{ins}frogs
+{pl}лягушками
+%%%%
 {ins}frost giant
 {m}морозным великаном
 %%%%
 {ins}frost giants
 {pl}морозными великанами
+%%%%
+{ins}gargoyle
+{f}горгульей
+%%%%
+{ins}gargoyles
+{pl}горгульями
 %%%%
 {ins}gecko talisman
 {m}талисманом геккона
@@ -82726,11 +85726,23 @@ your ynoxinuls
 {ins}gecko talismans
 {pl}талисманами геккона
 %%%%
+{ins}geist
+{m}призраком
+%%%%
+{ins}geists
+{pl}призраками
+%%%%
 {ins}gem
 {m}самоцветом
 %%%%
 {ins}gems
 {pl}самоцветами
+%%%%
+{ins}ghoul
+{m}гулем
+%%%%
+{ins}ghouls
+{pl}гулями
 %%%%
 {ins}giant club
 {f}гигантской дубиной
@@ -82773,6 +85785,12 @@ your ynoxinuls
 %%%%
 {ins}goblins
 {pl}гоблинами
+%%%%
+{ins}god
+{m}богом
+%%%%
+{ins}gods
+{pl}богами
 %%%%
 {ins}gold piece
 {f}золотой монетой
@@ -82929,6 +85947,12 @@ your ynoxinuls
 %%%%
 {ins}hounds
 {pl}гончими
+%%%%
+{ins}human
+{m}человеком
+%%%%
+{ins}humans
+{pl}людьми
 %%%%
 {ins}hydra
 {f}гидрой
@@ -83191,6 +86215,12 @@ your ynoxinuls
 {ins}milky-white gems
 {pl}молочно-белыми самоцветами
 %%%%
+{ins}minotaur
+{m}минотавром
+%%%%
+{ins}minotaurs
+{pl}минотаврами
+%%%%
 {ins}mist talisman
 {m}талисманом тумана
 %%%%
@@ -83263,11 +86293,20 @@ your ynoxinuls
 {ins}oblivion hounds
 {pl}гончими забвения
 %%%%
+{ins}octopi
+{pl}осьминогами
+%%%%
+{ins}octopus
+{m}осьминогом
+%%%%
 {ins}ogre
 {m}огром
 %%%%
 {ins}ogres
 {pl}ограми
+%%%%
+{ins}oni
+{m}они
 %%%%
 {ins}orange demon
 {m}оранжевым демоном
@@ -83340,6 +86379,12 @@ your ynoxinuls
 %%%%
 {ins}pale draconians
 {pl}бледными драконианами
+%%%%
+{ins}palentonga
+{m}палентонгой
+%%%%
+{ins}palentongas
+{pl}палентонгами
 %%%%
 {ins}pearl dragon
 {m}жемчужным драконом
@@ -83580,6 +86625,12 @@ your ynoxinuls
 %%%%
 {ins}red draconians
 {pl}красными драконианами
+%%%%
+{ins}revenant
+{m}ревенантом
+%%%%
+{ins}revenants
+{pl}ревенантами
 %%%%
 {ins}ribbon worm
 {m}ленточным червём
@@ -84562,6 +87613,12 @@ your ynoxinuls
 {ins}the ancient liches
 {pl}древними личами
 %%%%
+{ins}the ant
+{m}муравьём
+%%%%
+{ins}the ants
+{pl}муравьями
+%%%%
 {ins}the apocalypse crab
 {m}крабом апокалипсиса
 %%%%
@@ -85102,6 +88159,12 @@ your ynoxinuls
 {ins}the cane toads
 {pl}жабами-агами
 %%%%
+{ins}the cat
+{f}кошкой
+%%%%
+{ins}the cats
+{pl}кошками
+%%%%
 {ins}the centaur
 {m}кентавром
 %%%%
@@ -85288,6 +88351,12 @@ your ynoxinuls
 {ins}the deep trolls
 {pl}глубинными троллями
 %%%%
+{ins}the demigod
+{m}полубогом
+%%%%
+{ins}the demigods
+{pl}полубогами
+%%%%
 {ins}the demon blade
 {m}демоническим клинком
 %%%%
@@ -85306,11 +88375,20 @@ your ynoxinuls
 {ins}the demon whips
 {pl}демоническими кнутами
 %%%%
+{ins}the demonspawn
+{n}порождением демонов
+%%%%
 {ins}the dire flail
 {m}тяжёлым цепом
 %%%%
 {ins}the dire flails
 {pl}тяжёлыми цепами
+%%%%
+{ins}the djinn
+{pl}джиннами
+%%%%
+{ins}the djinni
+{m}джинном
 %%%%
 {ins}the double sword
 {m}двойным мечом
@@ -85357,6 +88435,12 @@ your ynoxinuls
 {ins}the dream sheep
 {f}овцой сновидений
 %%%%
+{ins}the dwarf
+{m}дворфом
+%%%%
+{ins}the dwarves
+{pl}дворфами
+%%%%
 {ins}the earthy gem
 {m}землистым самоцветом
 %%%%
@@ -85380,6 +88464,12 @@ your ynoxinuls
 %%%%
 {ins}the elephants
 {pl}слонами
+%%%%
+{ins}the elf
+{m}эльфом
+%%%%
+{ins}the elves
+{pl}эльфами
 %%%%
 {ins}the endoplasm
 {f}эндоплазмой
@@ -85465,11 +88555,23 @@ your ynoxinuls
 {ins}the fortress talismans
 {pl}талисманами крепости
 %%%%
+{ins}the frog
+{f}лягушкой
+%%%%
+{ins}the frogs
+{pl}лягушками
+%%%%
 {ins}the frost giant
 {m}морозным великаном
 %%%%
 {ins}the frost giants
 {pl}морозными великанами
+%%%%
+{ins}the gargoyle
+{f}горгульей
+%%%%
+{ins}the gargoyles
+{pl}горгульями
 %%%%
 {ins}the gecko talisman
 {m}талисманом геккона
@@ -85477,11 +88579,23 @@ your ynoxinuls
 {ins}the gecko talismans
 {pl}талисманами геккона
 %%%%
+{ins}the geist
+{m}призраком
+%%%%
+{ins}the geists
+{pl}призраками
+%%%%
 {ins}the gem
 {m}самоцветом
 %%%%
 {ins}the gems
 {pl}самоцветами
+%%%%
+{ins}the ghoul
+{m}гулем
+%%%%
+{ins}the ghouls
+{pl}гулями
 %%%%
 {ins}the giant club
 {f}гигантской дубиной
@@ -85524,6 +88638,12 @@ your ynoxinuls
 %%%%
 {ins}the goblins
 {pl}гоблинами
+%%%%
+{ins}the god
+{m}богом
+%%%%
+{ins}the gods
+{pl}богами
 %%%%
 {ins}the gold piece
 {f}золотой монетой
@@ -85680,6 +88800,12 @@ your ynoxinuls
 %%%%
 {ins}the hounds
 {pl}гончими
+%%%%
+{ins}the human
+{m}человеком
+%%%%
+{ins}the humans
+{pl}людьми
 %%%%
 {ins}the hydra
 {f}гидрой
@@ -85942,6 +89068,12 @@ your ynoxinuls
 {ins}the milky-white gems
 {pl}молочно-белыми самоцветами
 %%%%
+{ins}the minotaur
+{m}минотавром
+%%%%
+{ins}the minotaurs
+{pl}минотаврами
+%%%%
 {ins}the mist talisman
 {m}талисманом тумана
 %%%%
@@ -86014,11 +89146,20 @@ your ynoxinuls
 {ins}the oblivion hounds
 {pl}гончими забвения
 %%%%
+{ins}the octopi
+{pl}осьминогами
+%%%%
+{ins}the octopus
+{m}осьминогом
+%%%%
 {ins}the ogre
 {m}огром
 %%%%
 {ins}the ogres
 {pl}ограми
+%%%%
+{ins}the oni
+{m}они
 %%%%
 {ins}the orange demon
 {m}оранжевым демоном
@@ -86091,6 +89232,12 @@ your ynoxinuls
 %%%%
 {ins}the pale draconians
 {pl}бледными драконианами
+%%%%
+{ins}the palentonga
+{m}палентонгой
+%%%%
+{ins}the palentongas
+{pl}палентонгами
 %%%%
 {ins}the pearl dragon
 {m}жемчужным драконом
@@ -86331,6 +89478,12 @@ your ynoxinuls
 %%%%
 {ins}the red draconians
 {pl}красными драконианами
+%%%%
+{ins}the revenant
+{m}ревенантом
+%%%%
+{ins}the revenants
+{pl}ревенантами
 %%%%
 {ins}the ribbon worm
 {m}ленточным червём
@@ -87103,6 +90256,12 @@ your ynoxinuls
 {ins}the very ugly things
 {pl}очень уродливыми существами
 %%%%
+{ins}the vine stalker
+{m}лозовым преследователем
+%%%%
+{ins}the vine stalkers
+{pl}лозовыми преследователями
+%%%%
 {ins}the vision talisman
 {m}талисманом зрения
 %%%%
@@ -87414,6 +90573,12 @@ your ynoxinuls
 %%%%
 {ins}very ugly things
 {pl}очень уродливыми существами
+%%%%
+{ins}vine stalker
+{m}лозовым преследователем
+%%%%
+{ins}vine stalkers
+{pl}лозовыми преследователями
 %%%%
 {ins}vision talisman
 {m}талисманом зрения
@@ -87936,6 +91101,12 @@ your ynoxinuls
 %%%%
 {ins}your ancient liches
 {pl}древними личами
+%%%%
+{ins}your ant
+{m}муравьём
+%%%%
+{ins}your ants
+{pl}муравьями
 %%%%
 {ins}your apocalypse crab
 {m}крабом апокалипсиса
@@ -88477,6 +91648,12 @@ your ynoxinuls
 {ins}your cane toads
 {pl}жабами-агами
 %%%%
+{ins}your cat
+{f}кошкой
+%%%%
+{ins}your cats
+{pl}кошками
+%%%%
 {ins}your centaur
 {m}кентавром
 %%%%
@@ -88663,6 +91840,12 @@ your ynoxinuls
 {ins}your deep trolls
 {pl}глубинными троллями
 %%%%
+{ins}your demigod
+{m}полубогом
+%%%%
+{ins}your demigods
+{pl}полубогами
+%%%%
 {ins}your demon blade
 {m}демоническим клинком
 %%%%
@@ -88681,11 +91864,20 @@ your ynoxinuls
 {ins}your demon whips
 {pl}демоническими кнутами
 %%%%
+{ins}your demonspawn
+{n}порождением демонов
+%%%%
 {ins}your dire flail
 {m}тяжёлым цепом
 %%%%
 {ins}your dire flails
 {pl}тяжёлыми цепами
+%%%%
+{ins}your djinn
+{pl}джиннами
+%%%%
+{ins}your djinni
+{m}джинном
 %%%%
 {ins}your double sword
 {m}двойным мечом
@@ -88732,6 +91924,12 @@ your ynoxinuls
 {ins}your dream sheep
 {f}овцой сновидений
 %%%%
+{ins}your dwarf
+{m}дворфом
+%%%%
+{ins}your dwarves
+{pl}дворфами
+%%%%
 {ins}your earthy gem
 {m}землистым самоцветом
 %%%%
@@ -88755,6 +91953,12 @@ your ynoxinuls
 %%%%
 {ins}your elephants
 {pl}слонами
+%%%%
+{ins}your elf
+{m}эльфом
+%%%%
+{ins}your elves
+{pl}эльфами
 %%%%
 {ins}your endoplasm
 {f}эндоплазмой
@@ -88840,11 +92044,23 @@ your ynoxinuls
 {ins}your fortress talismans
 {pl}талисманами крепости
 %%%%
+{ins}your frog
+{f}лягушкой
+%%%%
+{ins}your frogs
+{pl}лягушками
+%%%%
 {ins}your frost giant
 {m}морозным великаном
 %%%%
 {ins}your frost giants
 {pl}морозными великанами
+%%%%
+{ins}your gargoyle
+{f}горгульей
+%%%%
+{ins}your gargoyles
+{pl}горгульями
 %%%%
 {ins}your gecko talisman
 {m}талисманом геккона
@@ -88852,11 +92068,23 @@ your ynoxinuls
 {ins}your gecko talismans
 {pl}талисманами геккона
 %%%%
+{ins}your geist
+{m}призраком
+%%%%
+{ins}your geists
+{pl}призраками
+%%%%
 {ins}your gem
 {m}самоцветом
 %%%%
 {ins}your gems
 {pl}самоцветами
+%%%%
+{ins}your ghoul
+{m}гулем
+%%%%
+{ins}your ghouls
+{pl}гулями
 %%%%
 {ins}your giant club
 {f}гигантской дубиной
@@ -88899,6 +92127,12 @@ your ynoxinuls
 %%%%
 {ins}your goblins
 {pl}гоблинами
+%%%%
+{ins}your god
+{m}богом
+%%%%
+{ins}your gods
+{pl}богами
 %%%%
 {ins}your gold piece
 {f}золотой монетой
@@ -89055,6 +92289,12 @@ your ynoxinuls
 %%%%
 {ins}your hounds
 {pl}гончими
+%%%%
+{ins}your human
+{m}человеком
+%%%%
+{ins}your humans
+{pl}людьми
 %%%%
 {ins}your hydra
 {f}гидрой
@@ -89317,6 +92557,12 @@ your ynoxinuls
 {ins}your milky-white gems
 {pl}молочно-белыми самоцветами
 %%%%
+{ins}your minotaur
+{m}минотавром
+%%%%
+{ins}your minotaurs
+{pl}минотаврами
+%%%%
 {ins}your mist talisman
 {m}талисманом тумана
 %%%%
@@ -89389,11 +92635,20 @@ your ynoxinuls
 {ins}your oblivion hounds
 {pl}гончими забвения
 %%%%
+{ins}your octopi
+{pl}осьминогами
+%%%%
+{ins}your octopus
+{m}осьминогом
+%%%%
 {ins}your ogre
 {m}огром
 %%%%
 {ins}your ogres
 {pl}ограми
+%%%%
+{ins}your oni
+{m}они
 %%%%
 {ins}your orange demon
 {m}оранжевым демоном
@@ -89466,6 +92721,12 @@ your ynoxinuls
 %%%%
 {ins}your pale draconians
 {pl}бледными драконианами
+%%%%
+{ins}your palentonga
+{m}палентонгой
+%%%%
+{ins}your palentongas
+{pl}палентонгами
 %%%%
 {ins}your pearl dragon
 {m}жемчужным драконом
@@ -89706,6 +92967,12 @@ your ynoxinuls
 %%%%
 {ins}your red draconians
 {pl}красными драконианами
+%%%%
+{ins}your revenant
+{m}ревенантом
+%%%%
+{ins}your revenants
+{pl}ревенантами
 %%%%
 {ins}your ribbon worm
 {m}ленточным червём
@@ -90478,6 +93745,12 @@ your ynoxinuls
 {ins}your very ugly things
 {pl}очень уродливыми существами
 %%%%
+{ins}your vine stalker
+{m}лозовым преследователем
+%%%%
+{ins}your vine stalkers
+{pl}лозовыми преследователями
+%%%%
 {ins}your vision talisman
 {m}талисманом зрения
 %%%%
@@ -90835,6 +94108,9 @@ your ynoxinuls
 {many}@num@ ancient liches
 @num@ древних личей
 %%%%
+{many}@num@ ants
+@num@ муравьёв
+%%%%
 {many}@num@ apocalypse crabs
 @num@ крабов апокалипсиса
 %%%%
@@ -91105,6 +94381,9 @@ your ynoxinuls
 {many}@num@ cane toads
 @num@ жаб-аг
 %%%%
+{many}@num@ cats
+@num@ кошек
+%%%%
 {many}@num@ centaur warriors
 @num@ кентавров-воинов
 %%%%
@@ -91198,6 +94477,9 @@ your ynoxinuls
 {many}@num@ deep trolls
 @num@ глубинных троллей
 %%%%
+{many}@num@ demigods
+@num@ полубогов
+%%%%
 {many}@num@ demon blades
 @num@ демонических клинков
 %%%%
@@ -91207,8 +94489,14 @@ your ynoxinuls
 {many}@num@ demon whips
 @num@ демонических кнутов
 %%%%
+{many}@num@ demonspawn
+@num@ порождений демонов
+%%%%
 {many}@num@ dire flails
 @num@ тяжёлых цепов
+%%%%
+{many}@num@ djinn
+@num@ джиннов
 %%%%
 {many}@num@ double swords
 @num@ двойных мечей
@@ -91234,6 +94522,9 @@ your ynoxinuls
 {many}@num@ dream sheep
 @num@ овец сновидений
 %%%%
+{many}@num@ dwarves
+@num@ дворфов
+%%%%
 {many}@num@ earthy gems
 @num@ землистых самоцветов
 %%%%
@@ -91245,6 +94536,9 @@ your ynoxinuls
 %%%%
 {many}@num@ elephants
 @num@ слонов
+%%%%
+{many}@num@ elves
+@num@ эльфов
 %%%%
 {many}@num@ endoplasms
 @num@ эндоплазм
@@ -91288,14 +94582,26 @@ your ynoxinuls
 {many}@num@ fortress talismans
 @num@ талисманов крепости
 %%%%
+{many}@num@ frogs
+@num@ лягушек
+%%%%
 {many}@num@ frost giants
 @num@ морозных великанов
+%%%%
+{many}@num@ gargoyles
+@num@ горгулий
 %%%%
 {many}@num@ gecko talismans
 @num@ талисманов геккона
 %%%%
+{many}@num@ geists
+@num@ призраков
+%%%%
 {many}@num@ gems
 @num@ самоцветов
+%%%%
+{many}@num@ ghouls
+@num@ гулей
 %%%%
 {many}@num@ giant clubs
 @num@ гигантских дубин
@@ -91317,6 +94623,9 @@ your ynoxinuls
 %%%%
 {many}@num@ goblins
 @num@ гоблинов
+%%%%
+{many}@num@ gods
+@num@ богов
 %%%%
 {many}@num@ gold pieces
 @num@ золотых монет
@@ -91395,6 +94704,9 @@ your ynoxinuls
 %%%%
 {many}@num@ hounds
 @num@ гончих
+%%%%
+{many}@num@ humans
+@num@ людей
 %%%%
 {many}@num@ hydras
 @num@ гидр
@@ -91528,6 +94840,9 @@ your ynoxinuls
 {many}@num@ milky-white gems
 @num@ молочно-белых самоцветов
 %%%%
+{many}@num@ minotaurs
+@num@ минотавров
+%%%%
 {many}@num@ mist talismans
 @num@ талисманов тумана
 %%%%
@@ -91564,8 +94879,14 @@ your ynoxinuls
 {many}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{many}@num@ octopi
+@num@ осьминогов
+%%%%
 {many}@num@ ogres
 @num@ огров
+%%%%
+{many}@num@ oni
+@num@ они
 %%%%
 {many}@num@ orange demons
 @num@ оранжевых демонов
@@ -91602,6 +94923,9 @@ your ynoxinuls
 %%%%
 {many}@num@ pale draconians
 @num@ бледных драконианов
+%%%%
+{many}@num@ palentongas
+@num@ палентонг
 %%%%
 {many}@num@ pearl dragons
 @num@ жемчужных драконов
@@ -91722,6 +95046,9 @@ your ynoxinuls
 %%%%
 {many}@num@ red draconians
 @num@ красных драконианов
+%%%%
+{many}@num@ revenants
+@num@ ревенантов
 %%%%
 {many}@num@ ribbon worms
 @num@ ленточных червей
@@ -92112,6 +95439,9 @@ your ynoxinuls
 %%%%
 {many}@num@ very ugly things
 @num@ очень уродливых существ
+%%%%
+{many}@num@ vine stalkers
+@num@ лозовых преследователей
 %%%%
 {many}@num@ vision talismans
 @num@ талисманов зрения
@@ -92617,6 +95947,9 @@ your ynoxinuls
 {nom}a ancient lich
 {m}древний лич
 %%%%
+{nom}a ant
+{m}муравей
+%%%%
 {nom}a apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -92887,6 +96220,9 @@ your ynoxinuls
 {nom}a cane toad
 {f}жаба-ага
 %%%%
+{nom}a cat
+{f}кошка
+%%%%
 {nom}a centaur
 {m}кентавр
 %%%%
@@ -92980,6 +96316,9 @@ your ynoxinuls
 {nom}a deep troll shaman
 {m}глубинный тролль-шаман
 %%%%
+{nom}a demigod
+{m}полубог
+%%%%
 {nom}a demon blade
 {m}демонический клинок
 %%%%
@@ -92989,8 +96328,14 @@ your ynoxinuls
 {nom}a demon whip
 {m}демонический кнут
 %%%%
+{nom}a demonspawn
+{n}порождение демонов
+%%%%
 {nom}a dire flail
 {m}тяжёлый цеп
+%%%%
+{nom}a djinni
+{m}джинн
 %%%%
 {nom}a double sword
 {m}двойной меч
@@ -93016,6 +96361,9 @@ your ynoxinuls
 {nom}a dream sheep
 {f}овца сновидений
 %%%%
+{nom}a dwarf
+{m}дворф
+%%%%
 {nom}a earthy gem
 {m}землистый самоцвет
 %%%%
@@ -93027,6 +96375,9 @@ your ynoxinuls
 %%%%
 {nom}a elephant
 {m}слон
+%%%%
+{nom}a elf
+{m}эльф
 %%%%
 {nom}a endoplasm
 {f}эндоплазма
@@ -93070,14 +96421,26 @@ your ynoxinuls
 {nom}a fortress talisman
 {m}талисман крепости
 %%%%
+{nom}a frog
+{f}лягушка
+%%%%
 {nom}a frost giant
 {m}морозный великан
+%%%%
+{nom}a gargoyle
+{f}горгулья
 %%%%
 {nom}a gecko talisman
 {m}талисман геккона
 %%%%
+{nom}a geist
+{m}призрак
+%%%%
 {nom}a gem
 {m}самоцвет
+%%%%
+{nom}a ghoul
+{m}гуль
 %%%%
 {nom}a giant club
 {f}гигантская дубина
@@ -93099,6 +96462,9 @@ your ynoxinuls
 %%%%
 {nom}a goblin
 {m}гоблин
+%%%%
+{nom}a god
+{m}бог
 %%%%
 {nom}a gold piece
 {f}золотая монета
@@ -93177,6 +96543,9 @@ your ynoxinuls
 %%%%
 {nom}a hound
 {f}гончая
+%%%%
+{nom}a human
+{m}человек
 %%%%
 {nom}a hydra
 {f}гидра
@@ -93310,6 +96679,9 @@ your ynoxinuls
 {nom}a milky-white gem
 {m}молочно-белый самоцвет
 %%%%
+{nom}a minotaur
+{m}минотавр
+%%%%
 {nom}a mist talisman
 {m}талисман тумана
 %%%%
@@ -93346,8 +96718,14 @@ your ynoxinuls
 {nom}a oblivion hound
 {f}гончая забвения
 %%%%
+{nom}a octopus
+{m}осьминог
+%%%%
 {nom}a ogre
 {m}огр
+%%%%
+{nom}a oni
+{m}они
 %%%%
 {nom}a orange demon
 {m}оранжевый демон
@@ -93384,6 +96762,9 @@ your ynoxinuls
 %%%%
 {nom}a pale draconian
 {m}бледный дракониан
+%%%%
+{nom}a palentonga
+{m}палентонга
 %%%%
 {nom}a pearl dragon
 {m}жемчужный дракон
@@ -93504,6 +96885,9 @@ your ynoxinuls
 %%%%
 {nom}a red draconian
 {m}красный дракониан
+%%%%
+{nom}a revenant
+{m}ревенант
 %%%%
 {nom}a ribbon worm
 {m}ленточный червь
@@ -93895,6 +97279,9 @@ your ynoxinuls
 {nom}a very ugly thing
 {n}очень уродливое существо
 %%%%
+{nom}a vine stalker
+{m}лозовый преследователь
+%%%%
 {nom}a vision talisman
 {m}талисман зрения
 %%%%
@@ -94243,6 +97630,9 @@ your ynoxinuls
 {nom}an ancient lich
 {m}древний лич
 %%%%
+{nom}an ant
+{m}муравей
+%%%%
 {nom}an apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -94513,6 +97903,9 @@ your ynoxinuls
 {nom}an cane toad
 {f}жаба-ага
 %%%%
+{nom}an cat
+{f}кошка
+%%%%
 {nom}an centaur
 {m}кентавр
 %%%%
@@ -94606,6 +97999,9 @@ your ynoxinuls
 {nom}an deep troll shaman
 {m}глубинный тролль-шаман
 %%%%
+{nom}an demigod
+{m}полубог
+%%%%
 {nom}an demon blade
 {m}демонический клинок
 %%%%
@@ -94615,8 +98011,14 @@ your ynoxinuls
 {nom}an demon whip
 {m}демонический кнут
 %%%%
+{nom}an demonspawn
+{n}порождение демонов
+%%%%
 {nom}an dire flail
 {m}тяжёлый цеп
+%%%%
+{nom}an djinni
+{m}джинн
 %%%%
 {nom}an double sword
 {m}двойной меч
@@ -94642,6 +98044,9 @@ your ynoxinuls
 {nom}an dream sheep
 {f}овца сновидений
 %%%%
+{nom}an dwarf
+{m}дворф
+%%%%
 {nom}an earthy gem
 {m}землистый самоцвет
 %%%%
@@ -94653,6 +98058,9 @@ your ynoxinuls
 %%%%
 {nom}an elephant
 {m}слон
+%%%%
+{nom}an elf
+{m}эльф
 %%%%
 {nom}an endoplasm
 {f}эндоплазма
@@ -94696,14 +98104,26 @@ your ynoxinuls
 {nom}an fortress talisman
 {m}талисман крепости
 %%%%
+{nom}an frog
+{f}лягушка
+%%%%
 {nom}an frost giant
 {m}морозный великан
+%%%%
+{nom}an gargoyle
+{f}горгулья
 %%%%
 {nom}an gecko talisman
 {m}талисман геккона
 %%%%
+{nom}an geist
+{m}призрак
+%%%%
 {nom}an gem
 {m}самоцвет
+%%%%
+{nom}an ghoul
+{m}гуль
 %%%%
 {nom}an giant club
 {f}гигантская дубина
@@ -94725,6 +98145,9 @@ your ynoxinuls
 %%%%
 {nom}an goblin
 {m}гоблин
+%%%%
+{nom}an god
+{m}бог
 %%%%
 {nom}an gold piece
 {f}золотая монета
@@ -94803,6 +98226,9 @@ your ynoxinuls
 %%%%
 {nom}an hound
 {f}гончая
+%%%%
+{nom}an human
+{m}человек
 %%%%
 {nom}an hydra
 {f}гидра
@@ -94936,6 +98362,9 @@ your ynoxinuls
 {nom}an milky-white gem
 {m}молочно-белый самоцвет
 %%%%
+{nom}an minotaur
+{m}минотавр
+%%%%
 {nom}an mist talisman
 {m}талисман тумана
 %%%%
@@ -94972,8 +98401,14 @@ your ynoxinuls
 {nom}an oblivion hound
 {f}гончая забвения
 %%%%
+{nom}an octopus
+{m}осьминог
+%%%%
 {nom}an ogre
 {m}огр
+%%%%
+{nom}an oni
+{m}они
 %%%%
 {nom}an orange demon
 {m}оранжевый демон
@@ -95010,6 +98445,9 @@ your ynoxinuls
 %%%%
 {nom}an pale draconian
 {m}бледный дракониан
+%%%%
+{nom}an palentonga
+{m}палентонга
 %%%%
 {nom}an pearl dragon
 {m}жемчужный дракон
@@ -95130,6 +98568,9 @@ your ynoxinuls
 %%%%
 {nom}an red draconian
 {m}красный дракониан
+%%%%
+{nom}an revenant
+{m}ревенант
 %%%%
 {nom}an ribbon worm
 {m}ленточный червь
@@ -95521,6 +98962,9 @@ your ynoxinuls
 {nom}an very ugly thing
 {n}очень уродливое существо
 %%%%
+{nom}an vine stalker
+{m}лозовый преследователь
+%%%%
 {nom}an vision talisman
 {m}талисман зрения
 %%%%
@@ -95625,6 +99069,12 @@ your ynoxinuls
 %%%%
 {nom}ancient liches
 {pl}древние личи
+%%%%
+{nom}ant
+{m}муравей
+%%%%
+{nom}ants
+{pl}муравьи
 %%%%
 {nom}apocalypse crab
 {m}краб апокалипсиса
@@ -96166,6 +99616,12 @@ your ynoxinuls
 {nom}cane toads
 {pl}жабы-аги
 %%%%
+{nom}cat
+{f}кошка
+%%%%
+{nom}cats
+{pl}кошки
+%%%%
 {nom}centaur
 {m}кентавр
 %%%%
@@ -96352,6 +99808,12 @@ your ynoxinuls
 {nom}deep trolls
 {pl}глубинные тролли
 %%%%
+{nom}demigod
+{m}полубог
+%%%%
+{nom}demigods
+{pl}полубоги
+%%%%
 {nom}demon blade
 {m}демонический клинок
 %%%%
@@ -96370,11 +99832,20 @@ your ynoxinuls
 {nom}demon whips
 {pl}демонические кнуты
 %%%%
+{nom}demonspawn
+{n}порождение демонов
+%%%%
 {nom}dire flail
 {m}тяжёлый цеп
 %%%%
 {nom}dire flails
 {pl}тяжёлые цепы
+%%%%
+{nom}djinn
+{pl}джинны
+%%%%
+{nom}djinni
+{m}джинн
 %%%%
 {nom}double sword
 {m}двойной меч
@@ -96421,6 +99892,12 @@ your ynoxinuls
 {nom}dream sheep
 {f}овца сновидений
 %%%%
+{nom}dwarf
+{m}дворф
+%%%%
+{nom}dwarves
+{pl}дворфы
+%%%%
 {nom}earthy gem
 {m}землистый самоцвет
 %%%%
@@ -96444,6 +99921,12 @@ your ynoxinuls
 %%%%
 {nom}elephants
 {pl}слоны
+%%%%
+{nom}elf
+{m}эльф
+%%%%
+{nom}elves
+{pl}эльфы
 %%%%
 {nom}endoplasm
 {f}эндоплазма
@@ -96529,11 +100012,23 @@ your ynoxinuls
 {nom}fortress talismans
 {pl}талисманы крепости
 %%%%
+{nom}frog
+{f}лягушка
+%%%%
+{nom}frogs
+{pl}лягушки
+%%%%
 {nom}frost giant
 {m}морозный великан
 %%%%
 {nom}frost giants
 {pl}морозные великаны
+%%%%
+{nom}gargoyle
+{f}горгулья
+%%%%
+{nom}gargoyles
+{pl}горгульи
 %%%%
 {nom}gecko talisman
 {m}талисман геккона
@@ -96541,11 +100036,23 @@ your ynoxinuls
 {nom}gecko talismans
 {pl}талисманы геккона
 %%%%
+{nom}geist
+{m}призрак
+%%%%
+{nom}geists
+{pl}призраки
+%%%%
 {nom}gem
 {m}самоцвет
 %%%%
 {nom}gems
 {pl}самоцветы
+%%%%
+{nom}ghoul
+{m}гуль
+%%%%
+{nom}ghouls
+{pl}гули
 %%%%
 {nom}giant club
 {f}гигантская дубина
@@ -96588,6 +100095,12 @@ your ynoxinuls
 %%%%
 {nom}goblins
 {pl}гоблины
+%%%%
+{nom}god
+{m}бог
+%%%%
+{nom}gods
+{pl}боги
 %%%%
 {nom}gold piece
 {f}золотая монета
@@ -96744,6 +100257,12 @@ your ynoxinuls
 %%%%
 {nom}hounds
 {pl}гончие
+%%%%
+{nom}human
+{m}человек
+%%%%
+{nom}humans
+{pl}люди
 %%%%
 {nom}hydra
 {f}гидра
@@ -97006,6 +100525,12 @@ your ynoxinuls
 {nom}milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{nom}minotaur
+{m}минотавр
+%%%%
+{nom}minotaurs
+{pl}минотавры
+%%%%
 {nom}mist talisman
 {m}талисман тумана
 %%%%
@@ -97078,11 +100603,20 @@ your ynoxinuls
 {nom}oblivion hounds
 {pl}гончие забвения
 %%%%
+{nom}octopi
+{pl}осьминоги
+%%%%
+{nom}octopus
+{m}осьминог
+%%%%
 {nom}ogre
 {m}огр
 %%%%
 {nom}ogres
 {pl}огры
+%%%%
+{nom}oni
+{m}они
 %%%%
 {nom}orange demon
 {m}оранжевый демон
@@ -97155,6 +100689,12 @@ your ynoxinuls
 %%%%
 {nom}pale draconians
 {pl}бледные драконианы
+%%%%
+{nom}palentonga
+{m}палентонга
+%%%%
+{nom}palentongas
+{pl}палентонги
 %%%%
 {nom}pearl dragon
 {m}жемчужный дракон
@@ -97395,6 +100935,12 @@ your ynoxinuls
 %%%%
 {nom}red draconians
 {pl}красные драконианы
+%%%%
+{nom}revenant
+{m}ревенант
+%%%%
+{nom}revenants
+{pl}ревенанты
 %%%%
 {nom}ribbon worm
 {m}ленточный червь
@@ -98377,6 +101923,12 @@ your ynoxinuls
 {nom}the ancient liches
 {pl}древние личи
 %%%%
+{nom}the ant
+{m}муравей
+%%%%
+{nom}the ants
+{pl}муравьи
+%%%%
 {nom}the apocalypse crab
 {m}краб апокалипсиса
 %%%%
@@ -98917,6 +102469,12 @@ your ynoxinuls
 {nom}the cane toads
 {pl}жабы-аги
 %%%%
+{nom}the cat
+{f}кошка
+%%%%
+{nom}the cats
+{pl}кошки
+%%%%
 {nom}the centaur
 {m}кентавр
 %%%%
@@ -99103,6 +102661,12 @@ your ynoxinuls
 {nom}the deep trolls
 {pl}глубинные тролли
 %%%%
+{nom}the demigod
+{m}полубог
+%%%%
+{nom}the demigods
+{pl}полубоги
+%%%%
 {nom}the demon blade
 {m}демонический клинок
 %%%%
@@ -99121,11 +102685,20 @@ your ynoxinuls
 {nom}the demon whips
 {pl}демонические кнуты
 %%%%
+{nom}the demonspawn
+{n}порождение демонов
+%%%%
 {nom}the dire flail
 {m}тяжёлый цеп
 %%%%
 {nom}the dire flails
 {pl}тяжёлые цепы
+%%%%
+{nom}the djinn
+{pl}джинны
+%%%%
+{nom}the djinni
+{m}джинн
 %%%%
 {nom}the double sword
 {m}двойной меч
@@ -99172,6 +102745,12 @@ your ynoxinuls
 {nom}the dream sheep
 {f}овца сновидений
 %%%%
+{nom}the dwarf
+{m}дворф
+%%%%
+{nom}the dwarves
+{pl}дворфы
+%%%%
 {nom}the earthy gem
 {m}землистый самоцвет
 %%%%
@@ -99195,6 +102774,12 @@ your ynoxinuls
 %%%%
 {nom}the elephants
 {pl}слоны
+%%%%
+{nom}the elf
+{m}эльф
+%%%%
+{nom}the elves
+{pl}эльфы
 %%%%
 {nom}the endoplasm
 {f}эндоплазма
@@ -99280,11 +102865,23 @@ your ynoxinuls
 {nom}the fortress talismans
 {pl}талисманы крепости
 %%%%
+{nom}the frog
+{f}лягушка
+%%%%
+{nom}the frogs
+{pl}лягушки
+%%%%
 {nom}the frost giant
 {m}морозный великан
 %%%%
 {nom}the frost giants
 {pl}морозные великаны
+%%%%
+{nom}the gargoyle
+{f}горгулья
+%%%%
+{nom}the gargoyles
+{pl}горгульи
 %%%%
 {nom}the gecko talisman
 {m}талисман геккона
@@ -99292,11 +102889,23 @@ your ynoxinuls
 {nom}the gecko talismans
 {pl}талисманы геккона
 %%%%
+{nom}the geist
+{m}призрак
+%%%%
+{nom}the geists
+{pl}призраки
+%%%%
 {nom}the gem
 {m}самоцвет
 %%%%
 {nom}the gems
 {pl}самоцветы
+%%%%
+{nom}the ghoul
+{m}гуль
+%%%%
+{nom}the ghouls
+{pl}гули
 %%%%
 {nom}the giant club
 {f}гигантская дубина
@@ -99339,6 +102948,12 @@ your ynoxinuls
 %%%%
 {nom}the goblins
 {pl}гоблины
+%%%%
+{nom}the god
+{m}бог
+%%%%
+{nom}the gods
+{pl}боги
 %%%%
 {nom}the gold piece
 {f}золотая монета
@@ -99495,6 +103110,12 @@ your ynoxinuls
 %%%%
 {nom}the hounds
 {pl}гончие
+%%%%
+{nom}the human
+{m}человек
+%%%%
+{nom}the humans
+{pl}люди
 %%%%
 {nom}the hydra
 {f}гидра
@@ -99757,6 +103378,12 @@ your ynoxinuls
 {nom}the milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{nom}the minotaur
+{m}минотавр
+%%%%
+{nom}the minotaurs
+{pl}минотавры
+%%%%
 {nom}the mist talisman
 {m}талисман тумана
 %%%%
@@ -99829,11 +103456,20 @@ your ynoxinuls
 {nom}the oblivion hounds
 {pl}гончие забвения
 %%%%
+{nom}the octopi
+{pl}осьминоги
+%%%%
+{nom}the octopus
+{m}осьминог
+%%%%
 {nom}the ogre
 {m}огр
 %%%%
 {nom}the ogres
 {pl}огры
+%%%%
+{nom}the oni
+{m}они
 %%%%
 {nom}the orange demon
 {m}оранжевый демон
@@ -99906,6 +103542,12 @@ your ynoxinuls
 %%%%
 {nom}the pale draconians
 {pl}бледные драконианы
+%%%%
+{nom}the palentonga
+{m}палентонга
+%%%%
+{nom}the palentongas
+{pl}палентонги
 %%%%
 {nom}the pearl dragon
 {m}жемчужный дракон
@@ -100146,6 +103788,12 @@ your ynoxinuls
 %%%%
 {nom}the red draconians
 {pl}красные драконианы
+%%%%
+{nom}the revenant
+{m}ревенант
+%%%%
+{nom}the revenants
+{pl}ревенанты
 %%%%
 {nom}the ribbon worm
 {m}ленточный червь
@@ -100918,6 +104566,12 @@ your ynoxinuls
 {nom}the very ugly things
 {pl}очень уродливые существа
 %%%%
+{nom}the vine stalker
+{m}лозовый преследователь
+%%%%
+{nom}the vine stalkers
+{pl}лозовые преследователи
+%%%%
 {nom}the vision talisman
 {m}талисман зрения
 %%%%
@@ -101229,6 +104883,12 @@ your ynoxinuls
 %%%%
 {nom}very ugly things
 {pl}очень уродливые существа
+%%%%
+{nom}vine stalker
+{m}лозовый преследователь
+%%%%
+{nom}vine stalkers
+{pl}лозовые преследователи
 %%%%
 {nom}vision talisman
 {m}талисман зрения
@@ -101751,6 +105411,12 @@ your ynoxinuls
 %%%%
 {nom}your ancient liches
 {pl}древние личи
+%%%%
+{nom}your ant
+{m}муравей
+%%%%
+{nom}your ants
+{pl}муравьи
 %%%%
 {nom}your apocalypse crab
 {m}краб апокалипсиса
@@ -102292,6 +105958,12 @@ your ynoxinuls
 {nom}your cane toads
 {pl}жабы-аги
 %%%%
+{nom}your cat
+{f}кошка
+%%%%
+{nom}your cats
+{pl}кошки
+%%%%
 {nom}your centaur
 {m}кентавр
 %%%%
@@ -102478,6 +106150,12 @@ your ynoxinuls
 {nom}your deep trolls
 {pl}глубинные тролли
 %%%%
+{nom}your demigod
+{m}полубог
+%%%%
+{nom}your demigods
+{pl}полубоги
+%%%%
 {nom}your demon blade
 {m}демонический клинок
 %%%%
@@ -102496,11 +106174,20 @@ your ynoxinuls
 {nom}your demon whips
 {pl}демонические кнуты
 %%%%
+{nom}your demonspawn
+{n}порождение демонов
+%%%%
 {nom}your dire flail
 {m}тяжёлый цеп
 %%%%
 {nom}your dire flails
 {pl}тяжёлые цепы
+%%%%
+{nom}your djinn
+{pl}джинны
+%%%%
+{nom}your djinni
+{m}джинн
 %%%%
 {nom}your double sword
 {m}двойной меч
@@ -102547,6 +106234,12 @@ your ynoxinuls
 {nom}your dream sheep
 {f}овца сновидений
 %%%%
+{nom}your dwarf
+{m}дворф
+%%%%
+{nom}your dwarves
+{pl}дворфы
+%%%%
 {nom}your earthy gem
 {m}землистый самоцвет
 %%%%
@@ -102570,6 +106263,12 @@ your ynoxinuls
 %%%%
 {nom}your elephants
 {pl}слоны
+%%%%
+{nom}your elf
+{m}эльф
+%%%%
+{nom}your elves
+{pl}эльфы
 %%%%
 {nom}your endoplasm
 {f}эндоплазма
@@ -102655,11 +106354,23 @@ your ynoxinuls
 {nom}your fortress talismans
 {pl}талисманы крепости
 %%%%
+{nom}your frog
+{f}лягушка
+%%%%
+{nom}your frogs
+{pl}лягушки
+%%%%
 {nom}your frost giant
 {m}морозный великан
 %%%%
 {nom}your frost giants
 {pl}морозные великаны
+%%%%
+{nom}your gargoyle
+{f}горгулья
+%%%%
+{nom}your gargoyles
+{pl}горгульи
 %%%%
 {nom}your gecko talisman
 {m}талисман геккона
@@ -102667,11 +106378,23 @@ your ynoxinuls
 {nom}your gecko talismans
 {pl}талисманы геккона
 %%%%
+{nom}your geist
+{m}призрак
+%%%%
+{nom}your geists
+{pl}призраки
+%%%%
 {nom}your gem
 {m}самоцвет
 %%%%
 {nom}your gems
 {pl}самоцветы
+%%%%
+{nom}your ghoul
+{m}гуль
+%%%%
+{nom}your ghouls
+{pl}гули
 %%%%
 {nom}your giant club
 {f}гигантская дубина
@@ -102714,6 +106437,12 @@ your ynoxinuls
 %%%%
 {nom}your goblins
 {pl}гоблины
+%%%%
+{nom}your god
+{m}бог
+%%%%
+{nom}your gods
+{pl}боги
 %%%%
 {nom}your gold piece
 {f}золотая монета
@@ -102870,6 +106599,12 @@ your ynoxinuls
 %%%%
 {nom}your hounds
 {pl}гончие
+%%%%
+{nom}your human
+{m}человек
+%%%%
+{nom}your humans
+{pl}люди
 %%%%
 {nom}your hydra
 {f}гидра
@@ -103132,6 +106867,12 @@ your ynoxinuls
 {nom}your milky-white gems
 {pl}молочно-белые самоцветы
 %%%%
+{nom}your minotaur
+{m}минотавр
+%%%%
+{nom}your minotaurs
+{pl}минотавры
+%%%%
 {nom}your mist talisman
 {m}талисман тумана
 %%%%
@@ -103204,11 +106945,20 @@ your ynoxinuls
 {nom}your oblivion hounds
 {pl}гончие забвения
 %%%%
+{nom}your octopi
+{pl}осьминоги
+%%%%
+{nom}your octopus
+{m}осьминог
+%%%%
 {nom}your ogre
 {m}огр
 %%%%
 {nom}your ogres
 {pl}огры
+%%%%
+{nom}your oni
+{m}они
 %%%%
 {nom}your orange demon
 {m}оранжевый демон
@@ -103281,6 +107031,12 @@ your ynoxinuls
 %%%%
 {nom}your pale draconians
 {pl}бледные драконианы
+%%%%
+{nom}your palentonga
+{m}палентонга
+%%%%
+{nom}your palentongas
+{pl}палентонги
 %%%%
 {nom}your pearl dragon
 {m}жемчужный дракон
@@ -103521,6 +107277,12 @@ your ynoxinuls
 %%%%
 {nom}your red draconians
 {pl}красные драконианы
+%%%%
+{nom}your revenant
+{m}ревенант
+%%%%
+{nom}your revenants
+{pl}ревенанты
 %%%%
 {nom}your ribbon worm
 {m}ленточный червь
@@ -104293,6 +108055,12 @@ your ynoxinuls
 {nom}your very ugly things
 {pl}очень уродливые существа
 %%%%
+{nom}your vine stalker
+{m}лозовый преследователь
+%%%%
+{nom}your vine stalkers
+{pl}лозовые преследователи
+%%%%
 {nom}your vision talisman
 {m}талисман зрения
 %%%%
@@ -104650,6 +108418,9 @@ your ynoxinuls
 {one}@num@ ancient liches
 @num@ древний лич
 %%%%
+{one}@num@ ants
+@num@ муравей
+%%%%
 {one}@num@ apocalypse crabs
 @num@ краб апокалипсиса
 %%%%
@@ -104920,6 +108691,9 @@ your ynoxinuls
 {one}@num@ cane toads
 @num@ жаба-ага
 %%%%
+{one}@num@ cats
+@num@ кошка
+%%%%
 {one}@num@ centaur warriors
 @num@ кентавр-воин
 %%%%
@@ -105013,6 +108787,9 @@ your ynoxinuls
 {one}@num@ deep trolls
 @num@ глубинный тролль
 %%%%
+{one}@num@ demigods
+@num@ полубог
+%%%%
 {one}@num@ demon blades
 @num@ демонический клинок
 %%%%
@@ -105022,8 +108799,14 @@ your ynoxinuls
 {one}@num@ demon whips
 @num@ демонический кнут
 %%%%
+{one}@num@ demonspawn
+@num@ порождение демонов
+%%%%
 {one}@num@ dire flails
 @num@ тяжёлый цеп
+%%%%
+{one}@num@ djinn
+@num@ джинн
 %%%%
 {one}@num@ double swords
 @num@ двойной меч
@@ -105049,6 +108832,9 @@ your ynoxinuls
 {one}@num@ dream sheep
 @num@ овца сновидений
 %%%%
+{one}@num@ dwarves
+@num@ дворф
+%%%%
 {one}@num@ earthy gems
 @num@ землистый самоцвет
 %%%%
@@ -105060,6 +108846,9 @@ your ynoxinuls
 %%%%
 {one}@num@ elephants
 @num@ слон
+%%%%
+{one}@num@ elves
+@num@ эльф
 %%%%
 {one}@num@ endoplasms
 @num@ эндоплазма
@@ -105103,14 +108892,26 @@ your ynoxinuls
 {one}@num@ fortress talismans
 @num@ талисман крепости
 %%%%
+{one}@num@ frogs
+@num@ лягушка
+%%%%
 {one}@num@ frost giants
 @num@ морозный великан
+%%%%
+{one}@num@ gargoyles
+@num@ горгулья
 %%%%
 {one}@num@ gecko talismans
 @num@ талисман геккона
 %%%%
+{one}@num@ geists
+@num@ призрак
+%%%%
 {one}@num@ gems
 @num@ самоцвет
+%%%%
+{one}@num@ ghouls
+@num@ гуль
 %%%%
 {one}@num@ giant clubs
 @num@ гигантская дубина
@@ -105132,6 +108933,9 @@ your ynoxinuls
 %%%%
 {one}@num@ goblins
 @num@ гоблин
+%%%%
+{one}@num@ gods
+@num@ бог
 %%%%
 {one}@num@ gold pieces
 @num@ золотая монета
@@ -105210,6 +109014,9 @@ your ynoxinuls
 %%%%
 {one}@num@ hounds
 @num@ гончая
+%%%%
+{one}@num@ humans
+@num@ человек
 %%%%
 {one}@num@ hydras
 @num@ гидра
@@ -105343,6 +109150,9 @@ your ynoxinuls
 {one}@num@ milky-white gems
 @num@ молочно-белый самоцвет
 %%%%
+{one}@num@ minotaurs
+@num@ минотавр
+%%%%
 {one}@num@ mist talismans
 @num@ талисман тумана
 %%%%
@@ -105379,8 +109189,14 @@ your ynoxinuls
 {one}@num@ oblivion hounds
 @num@ гончая забвения
 %%%%
+{one}@num@ octopi
+@num@ осьминог
+%%%%
 {one}@num@ ogres
 @num@ огр
+%%%%
+{one}@num@ oni
+@num@ они
 %%%%
 {one}@num@ orange demons
 @num@ оранжевый демон
@@ -105417,6 +109233,9 @@ your ynoxinuls
 %%%%
 {one}@num@ pale draconians
 @num@ бледный дракониан
+%%%%
+{one}@num@ palentongas
+@num@ палентонга
 %%%%
 {one}@num@ pearl dragons
 @num@ жемчужный дракон
@@ -105537,6 +109356,9 @@ your ynoxinuls
 %%%%
 {one}@num@ red draconians
 @num@ красный дракониан
+%%%%
+{one}@num@ revenants
+@num@ ревенант
 %%%%
 {one}@num@ ribbon worms
 @num@ ленточный червь
@@ -105928,6 +109750,9 @@ your ynoxinuls
 {one}@num@ very ugly things
 @num@ очень уродливое существо
 %%%%
+{one}@num@ vine stalkers
+@num@ лозовый преследователь
+%%%%
 {one}@num@ vision talismans
 @num@ талисман зрения
 %%%%
@@ -106191,6 +110016,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ ancient liches
 @num@ древних личах
+%%%%
+{prep_few}@num@ ants
+@num@ муравьях
 %%%%
 {prep_few}@num@ apocalypse crabs
 @num@ крабах апокалипсиса
@@ -106462,6 +110290,9 @@ your ynoxinuls
 {prep_few}@num@ cane toads
 @num@ жабах-агах
 %%%%
+{prep_few}@num@ cats
+@num@ кошках
+%%%%
 {prep_few}@num@ centaur warriors
 @num@ кентаврах-воинах
 %%%%
@@ -106555,6 +110386,9 @@ your ynoxinuls
 {prep_few}@num@ deep trolls
 @num@ глубинных троллях
 %%%%
+{prep_few}@num@ demigods
+@num@ полубогах
+%%%%
 {prep_few}@num@ demon blades
 @num@ демонических клинках
 %%%%
@@ -106564,8 +110398,14 @@ your ynoxinuls
 {prep_few}@num@ demon whips
 @num@ демонических кнутах
 %%%%
+{prep_few}@num@ demonspawn
+@num@ порождениях демонов
+%%%%
 {prep_few}@num@ dire flails
 @num@ тяжёлых цепах
+%%%%
+{prep_few}@num@ djinn
+@num@ джиннах
 %%%%
 {prep_few}@num@ double swords
 @num@ двойных мечах
@@ -106591,6 +110431,9 @@ your ynoxinuls
 {prep_few}@num@ dream sheep
 @num@ овцах сновидений
 %%%%
+{prep_few}@num@ dwarves
+@num@ дворфах
+%%%%
 {prep_few}@num@ earthy gems
 @num@ землистых самоцветах
 %%%%
@@ -106602,6 +110445,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ elephants
 @num@ слонах
+%%%%
+{prep_few}@num@ elves
+@num@ эльфах
 %%%%
 {prep_few}@num@ endoplasms
 @num@ эндоплазмах
@@ -106645,14 +110491,26 @@ your ynoxinuls
 {prep_few}@num@ fortress talismans
 @num@ талисманах крепости
 %%%%
+{prep_few}@num@ frogs
+@num@ лягушках
+%%%%
 {prep_few}@num@ frost giants
 @num@ морозных великанах
+%%%%
+{prep_few}@num@ gargoyles
+@num@ горгульях
 %%%%
 {prep_few}@num@ gecko talismans
 @num@ талисманах геккона
 %%%%
+{prep_few}@num@ geists
+@num@ призраках
+%%%%
 {prep_few}@num@ gems
 @num@ самоцветах
+%%%%
+{prep_few}@num@ ghouls
+@num@ гулях
 %%%%
 {prep_few}@num@ giant clubs
 @num@ гигантских дубинах
@@ -106674,6 +110532,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ goblins
 @num@ гоблинах
+%%%%
+{prep_few}@num@ gods
+@num@ богах
 %%%%
 {prep_few}@num@ gold pieces
 @num@ золотых монетах
@@ -106752,6 +110613,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ hounds
 @num@ гончих
+%%%%
+{prep_few}@num@ humans
+@num@ людях
 %%%%
 {prep_few}@num@ hydras
 @num@ гидрах
@@ -106885,6 +110749,9 @@ your ynoxinuls
 {prep_few}@num@ milky-white gems
 @num@ молочно-белых самоцветах
 %%%%
+{prep_few}@num@ minotaurs
+@num@ минотаврах
+%%%%
 {prep_few}@num@ mist talismans
 @num@ талисманах тумана
 %%%%
@@ -106921,8 +110788,14 @@ your ynoxinuls
 {prep_few}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{prep_few}@num@ octopi
+@num@ осьминогах
+%%%%
 {prep_few}@num@ ogres
 @num@ ограх
+%%%%
+{prep_few}@num@ oni
+@num@ они
 %%%%
 {prep_few}@num@ orange demons
 @num@ оранжевых демонах
@@ -106959,6 +110832,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ pale draconians
 @num@ бледных драконианах
+%%%%
+{prep_few}@num@ palentongas
+@num@ палентонгах
 %%%%
 {prep_few}@num@ pearl dragons
 @num@ жемчужных драконах
@@ -107079,6 +110955,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ red draconians
 @num@ красных драконианах
+%%%%
+{prep_few}@num@ revenants
+@num@ ревенантах
 %%%%
 {prep_few}@num@ ribbon worms
 @num@ ленточных червях
@@ -107470,6 +111349,9 @@ your ynoxinuls
 {prep_few}@num@ very ugly things
 @num@ очень уродливых существах
 %%%%
+{prep_few}@num@ vine stalkers
+@num@ лозовых преследователях
+%%%%
 {prep_few}@num@ vision talismans
 @num@ талисманах зрения
 %%%%
@@ -107733,6 +111615,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ ancient liches
 @num@ древних личах
+%%%%
+{prep_many}@num@ ants
+@num@ муравьях
 %%%%
 {prep_many}@num@ apocalypse crabs
 @num@ крабах апокалипсиса
@@ -108004,6 +111889,9 @@ your ynoxinuls
 {prep_many}@num@ cane toads
 @num@ жабах-агах
 %%%%
+{prep_many}@num@ cats
+@num@ кошках
+%%%%
 {prep_many}@num@ centaur warriors
 @num@ кентаврах-воинах
 %%%%
@@ -108097,6 +111985,9 @@ your ynoxinuls
 {prep_many}@num@ deep trolls
 @num@ глубинных троллях
 %%%%
+{prep_many}@num@ demigods
+@num@ полубогах
+%%%%
 {prep_many}@num@ demon blades
 @num@ демонических клинках
 %%%%
@@ -108106,8 +111997,14 @@ your ynoxinuls
 {prep_many}@num@ demon whips
 @num@ демонических кнутах
 %%%%
+{prep_many}@num@ demonspawn
+@num@ порождениях демонов
+%%%%
 {prep_many}@num@ dire flails
 @num@ тяжёлых цепах
+%%%%
+{prep_many}@num@ djinn
+@num@ джиннах
 %%%%
 {prep_many}@num@ double swords
 @num@ двойных мечах
@@ -108133,6 +112030,9 @@ your ynoxinuls
 {prep_many}@num@ dream sheep
 @num@ овцах сновидений
 %%%%
+{prep_many}@num@ dwarves
+@num@ дворфах
+%%%%
 {prep_many}@num@ earthy gems
 @num@ землистых самоцветах
 %%%%
@@ -108144,6 +112044,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ elephants
 @num@ слонах
+%%%%
+{prep_many}@num@ elves
+@num@ эльфах
 %%%%
 {prep_many}@num@ endoplasms
 @num@ эндоплазмах
@@ -108187,14 +112090,26 @@ your ynoxinuls
 {prep_many}@num@ fortress talismans
 @num@ талисманах крепости
 %%%%
+{prep_many}@num@ frogs
+@num@ лягушках
+%%%%
 {prep_many}@num@ frost giants
 @num@ морозных великанах
+%%%%
+{prep_many}@num@ gargoyles
+@num@ горгульях
 %%%%
 {prep_many}@num@ gecko talismans
 @num@ талисманах геккона
 %%%%
+{prep_many}@num@ geists
+@num@ призраках
+%%%%
 {prep_many}@num@ gems
 @num@ самоцветах
+%%%%
+{prep_many}@num@ ghouls
+@num@ гулях
 %%%%
 {prep_many}@num@ giant clubs
 @num@ гигантских дубинах
@@ -108216,6 +112131,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ goblins
 @num@ гоблинах
+%%%%
+{prep_many}@num@ gods
+@num@ богах
 %%%%
 {prep_many}@num@ gold pieces
 @num@ золотых монетах
@@ -108294,6 +112212,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ hounds
 @num@ гончих
+%%%%
+{prep_many}@num@ humans
+@num@ людях
 %%%%
 {prep_many}@num@ hydras
 @num@ гидрах
@@ -108427,6 +112348,9 @@ your ynoxinuls
 {prep_many}@num@ milky-white gems
 @num@ молочно-белых самоцветах
 %%%%
+{prep_many}@num@ minotaurs
+@num@ минотаврах
+%%%%
 {prep_many}@num@ mist talismans
 @num@ талисманах тумана
 %%%%
@@ -108463,8 +112387,14 @@ your ynoxinuls
 {prep_many}@num@ oblivion hounds
 @num@ гончих забвения
 %%%%
+{prep_many}@num@ octopi
+@num@ осьминогах
+%%%%
 {prep_many}@num@ ogres
 @num@ ограх
+%%%%
+{prep_many}@num@ oni
+@num@ они
 %%%%
 {prep_many}@num@ orange demons
 @num@ оранжевых демонах
@@ -108501,6 +112431,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ pale draconians
 @num@ бледных драконианах
+%%%%
+{prep_many}@num@ palentongas
+@num@ палентонгах
 %%%%
 {prep_many}@num@ pearl dragons
 @num@ жемчужных драконах
@@ -108621,6 +112554,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ red draconians
 @num@ красных драконианах
+%%%%
+{prep_many}@num@ revenants
+@num@ ревенантах
 %%%%
 {prep_many}@num@ ribbon worms
 @num@ ленточных червях
@@ -109012,6 +112948,9 @@ your ynoxinuls
 {prep_many}@num@ very ugly things
 @num@ очень уродливых существах
 %%%%
+{prep_many}@num@ vine stalkers
+@num@ лозовых преследователях
+%%%%
 {prep_many}@num@ vision talismans
 @num@ талисманах зрения
 %%%%
@@ -109275,6 +113214,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ ancient liches
 @num@ древнем личе
+%%%%
+{prep_one}@num@ ants
+@num@ муравье
 %%%%
 {prep_one}@num@ apocalypse crabs
 @num@ крабе апокалипсиса
@@ -109546,6 +113488,9 @@ your ynoxinuls
 {prep_one}@num@ cane toads
 @num@ жабе-аге
 %%%%
+{prep_one}@num@ cats
+@num@ кошке
+%%%%
 {prep_one}@num@ centaur warriors
 @num@ кентавре-воине
 %%%%
@@ -109639,6 +113584,9 @@ your ynoxinuls
 {prep_one}@num@ deep trolls
 @num@ глубинном тролле
 %%%%
+{prep_one}@num@ demigods
+@num@ полубоге
+%%%%
 {prep_one}@num@ demon blades
 @num@ демоническом клинке
 %%%%
@@ -109648,8 +113596,14 @@ your ynoxinuls
 {prep_one}@num@ demon whips
 @num@ демоническом кнуте
 %%%%
+{prep_one}@num@ demonspawn
+@num@ порождении демонов
+%%%%
 {prep_one}@num@ dire flails
 @num@ тяжёлом цепе
+%%%%
+{prep_one}@num@ djinn
+@num@ джинне
 %%%%
 {prep_one}@num@ double swords
 @num@ двойном мече
@@ -109675,6 +113629,9 @@ your ynoxinuls
 {prep_one}@num@ dream sheep
 @num@ овце сновидений
 %%%%
+{prep_one}@num@ dwarves
+@num@ дворфе
+%%%%
 {prep_one}@num@ earthy gems
 @num@ землистом самоцвете
 %%%%
@@ -109686,6 +113643,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ elephants
 @num@ слоне
+%%%%
+{prep_one}@num@ elves
+@num@ эльфе
 %%%%
 {prep_one}@num@ endoplasms
 @num@ эндоплазме
@@ -109729,14 +113689,26 @@ your ynoxinuls
 {prep_one}@num@ fortress talismans
 @num@ талисмане крепости
 %%%%
+{prep_one}@num@ frogs
+@num@ лягушке
+%%%%
 {prep_one}@num@ frost giants
 @num@ морозном великане
+%%%%
+{prep_one}@num@ gargoyles
+@num@ горгулье
 %%%%
 {prep_one}@num@ gecko talismans
 @num@ талисмане геккона
 %%%%
+{prep_one}@num@ geists
+@num@ призраке
+%%%%
 {prep_one}@num@ gems
 @num@ самоцвете
+%%%%
+{prep_one}@num@ ghouls
+@num@ гуле
 %%%%
 {prep_one}@num@ giant clubs
 @num@ гигантской дубине
@@ -109758,6 +113730,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ goblins
 @num@ гоблине
+%%%%
+{prep_one}@num@ gods
+@num@ боге
 %%%%
 {prep_one}@num@ gold pieces
 @num@ золотой монете
@@ -109836,6 +113811,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ hounds
 @num@ гончей
+%%%%
+{prep_one}@num@ humans
+@num@ человеке
 %%%%
 {prep_one}@num@ hydras
 @num@ гидре
@@ -109969,6 +113947,9 @@ your ynoxinuls
 {prep_one}@num@ milky-white gems
 @num@ молочно-белом самоцвете
 %%%%
+{prep_one}@num@ minotaurs
+@num@ минотавре
+%%%%
 {prep_one}@num@ mist talismans
 @num@ талисмане тумана
 %%%%
@@ -110005,8 +113986,14 @@ your ynoxinuls
 {prep_one}@num@ oblivion hounds
 @num@ гончей забвения
 %%%%
+{prep_one}@num@ octopi
+@num@ осьминоге
+%%%%
 {prep_one}@num@ ogres
 @num@ огре
+%%%%
+{prep_one}@num@ oni
+@num@ они
 %%%%
 {prep_one}@num@ orange demons
 @num@ оранжевом демоне
@@ -110043,6 +114030,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ pale draconians
 @num@ бледном дракониане
+%%%%
+{prep_one}@num@ palentongas
+@num@ палентонге
 %%%%
 {prep_one}@num@ pearl dragons
 @num@ жемчужном драконе
@@ -110163,6 +114153,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ red draconians
 @num@ красном дракониане
+%%%%
+{prep_one}@num@ revenants
+@num@ ревенанте
 %%%%
 {prep_one}@num@ ribbon worms
 @num@ ленточном черве
@@ -110553,6 +114546,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ very ugly things
 @num@ очень уродливом существе
+%%%%
+{prep_one}@num@ vine stalkers
+@num@ лозовом преследователе
 %%%%
 {prep_one}@num@ vision talismans
 @num@ талисмане зрения
@@ -111058,6 +115054,9 @@ your ynoxinuls
 {prep}a ancient lich
 {m}древнем личе
 %%%%
+{prep}a ant
+{m}муравье
+%%%%
 {prep}a apocalypse crab
 {m}крабе апокалипсиса
 %%%%
@@ -111328,6 +115327,9 @@ your ynoxinuls
 {prep}a cane toad
 {f}жабе-аге
 %%%%
+{prep}a cat
+{f}кошке
+%%%%
 {prep}a centaur
 {m}кентавре
 %%%%
@@ -111421,6 +115423,9 @@ your ynoxinuls
 {prep}a deep troll shaman
 {m}глубинном тролле-шамане
 %%%%
+{prep}a demigod
+{m}полубоге
+%%%%
 {prep}a demon blade
 {m}демоническом клинке
 %%%%
@@ -111430,8 +115435,14 @@ your ynoxinuls
 {prep}a demon whip
 {m}демоническом кнуте
 %%%%
+{prep}a demonspawn
+{n}порождении демонов
+%%%%
 {prep}a dire flail
 {m}тяжёлом цепе
+%%%%
+{prep}a djinni
+{m}джинне
 %%%%
 {prep}a double sword
 {m}двойном мече
@@ -111457,6 +115468,9 @@ your ynoxinuls
 {prep}a dream sheep
 {f}овце сновидений
 %%%%
+{prep}a dwarf
+{m}дворфе
+%%%%
 {prep}a earthy gem
 {m}землистом самоцвете
 %%%%
@@ -111468,6 +115482,9 @@ your ynoxinuls
 %%%%
 {prep}a elephant
 {m}слоне
+%%%%
+{prep}a elf
+{m}эльфе
 %%%%
 {prep}a endoplasm
 {f}эндоплазме
@@ -111511,14 +115528,26 @@ your ynoxinuls
 {prep}a fortress talisman
 {m}талисмане крепости
 %%%%
+{prep}a frog
+{f}лягушке
+%%%%
 {prep}a frost giant
 {m}морозном великане
+%%%%
+{prep}a gargoyle
+{f}горгулье
 %%%%
 {prep}a gecko talisman
 {m}талисмане геккона
 %%%%
+{prep}a geist
+{m}призраке
+%%%%
 {prep}a gem
 {m}самоцвете
+%%%%
+{prep}a ghoul
+{m}гуле
 %%%%
 {prep}a giant club
 {f}гигантской дубине
@@ -111540,6 +115569,9 @@ your ynoxinuls
 %%%%
 {prep}a goblin
 {m}гоблине
+%%%%
+{prep}a god
+{m}боге
 %%%%
 {prep}a gold piece
 {f}золотой монете
@@ -111618,6 +115650,9 @@ your ynoxinuls
 %%%%
 {prep}a hound
 {f}гончей
+%%%%
+{prep}a human
+{m}человеке
 %%%%
 {prep}a hydra
 {f}гидре
@@ -111751,6 +115786,9 @@ your ynoxinuls
 {prep}a milky-white gem
 {m}молочно-белом самоцвете
 %%%%
+{prep}a minotaur
+{m}минотавре
+%%%%
 {prep}a mist talisman
 {m}талисмане тумана
 %%%%
@@ -111787,8 +115825,14 @@ your ynoxinuls
 {prep}a oblivion hound
 {f}гончей забвения
 %%%%
+{prep}a octopus
+{m}осьминоге
+%%%%
 {prep}a ogre
 {m}огре
+%%%%
+{prep}a oni
+{m}они
 %%%%
 {prep}a orange demon
 {m}оранжевом демоне
@@ -111825,6 +115869,9 @@ your ynoxinuls
 %%%%
 {prep}a pale draconian
 {m}бледном дракониане
+%%%%
+{prep}a palentonga
+{m}палентонге
 %%%%
 {prep}a pearl dragon
 {m}жемчужном драконе
@@ -111945,6 +115992,9 @@ your ynoxinuls
 %%%%
 {prep}a red draconian
 {m}красном дракониане
+%%%%
+{prep}a revenant
+{m}ревенанте
 %%%%
 {prep}a ribbon worm
 {m}ленточном черве
@@ -112336,6 +116386,9 @@ your ynoxinuls
 {prep}a very ugly thing
 {n}очень уродливом существе
 %%%%
+{prep}a vine stalker
+{m}лозовом преследователе
+%%%%
 {prep}a vision talisman
 {m}талисмане зрения
 %%%%
@@ -112684,6 +116737,9 @@ your ynoxinuls
 {prep}an ancient lich
 {m}древнем личе
 %%%%
+{prep}an ant
+{m}муравье
+%%%%
 {prep}an apocalypse crab
 {m}крабе апокалипсиса
 %%%%
@@ -112954,6 +117010,9 @@ your ynoxinuls
 {prep}an cane toad
 {f}жабе-аге
 %%%%
+{prep}an cat
+{f}кошке
+%%%%
 {prep}an centaur
 {m}кентавре
 %%%%
@@ -113047,6 +117106,9 @@ your ynoxinuls
 {prep}an deep troll shaman
 {m}глубинном тролле-шамане
 %%%%
+{prep}an demigod
+{m}полубоге
+%%%%
 {prep}an demon blade
 {m}демоническом клинке
 %%%%
@@ -113056,8 +117118,14 @@ your ynoxinuls
 {prep}an demon whip
 {m}демоническом кнуте
 %%%%
+{prep}an demonspawn
+{n}порождении демонов
+%%%%
 {prep}an dire flail
 {m}тяжёлом цепе
+%%%%
+{prep}an djinni
+{m}джинне
 %%%%
 {prep}an double sword
 {m}двойном мече
@@ -113083,6 +117151,9 @@ your ynoxinuls
 {prep}an dream sheep
 {f}овце сновидений
 %%%%
+{prep}an dwarf
+{m}дворфе
+%%%%
 {prep}an earthy gem
 {m}землистом самоцвете
 %%%%
@@ -113094,6 +117165,9 @@ your ynoxinuls
 %%%%
 {prep}an elephant
 {m}слоне
+%%%%
+{prep}an elf
+{m}эльфе
 %%%%
 {prep}an endoplasm
 {f}эндоплазме
@@ -113137,14 +117211,26 @@ your ynoxinuls
 {prep}an fortress talisman
 {m}талисмане крепости
 %%%%
+{prep}an frog
+{f}лягушке
+%%%%
 {prep}an frost giant
 {m}морозном великане
+%%%%
+{prep}an gargoyle
+{f}горгулье
 %%%%
 {prep}an gecko talisman
 {m}талисмане геккона
 %%%%
+{prep}an geist
+{m}призраке
+%%%%
 {prep}an gem
 {m}самоцвете
+%%%%
+{prep}an ghoul
+{m}гуле
 %%%%
 {prep}an giant club
 {f}гигантской дубине
@@ -113166,6 +117252,9 @@ your ynoxinuls
 %%%%
 {prep}an goblin
 {m}гоблине
+%%%%
+{prep}an god
+{m}боге
 %%%%
 {prep}an gold piece
 {f}золотой монете
@@ -113244,6 +117333,9 @@ your ynoxinuls
 %%%%
 {prep}an hound
 {f}гончей
+%%%%
+{prep}an human
+{m}человеке
 %%%%
 {prep}an hydra
 {f}гидре
@@ -113377,6 +117469,9 @@ your ynoxinuls
 {prep}an milky-white gem
 {m}молочно-белом самоцвете
 %%%%
+{prep}an minotaur
+{m}минотавре
+%%%%
 {prep}an mist talisman
 {m}талисмане тумана
 %%%%
@@ -113413,8 +117508,14 @@ your ynoxinuls
 {prep}an oblivion hound
 {f}гончей забвения
 %%%%
+{prep}an octopus
+{m}осьминоге
+%%%%
 {prep}an ogre
 {m}огре
+%%%%
+{prep}an oni
+{m}они
 %%%%
 {prep}an orange demon
 {m}оранжевом демоне
@@ -113451,6 +117552,9 @@ your ynoxinuls
 %%%%
 {prep}an pale draconian
 {m}бледном дракониане
+%%%%
+{prep}an palentonga
+{m}палентонге
 %%%%
 {prep}an pearl dragon
 {m}жемчужном драконе
@@ -113571,6 +117675,9 @@ your ynoxinuls
 %%%%
 {prep}an red draconian
 {m}красном дракониане
+%%%%
+{prep}an revenant
+{m}ревенанте
 %%%%
 {prep}an ribbon worm
 {m}ленточном черве
@@ -113962,6 +118069,9 @@ your ynoxinuls
 {prep}an very ugly thing
 {n}очень уродливом существе
 %%%%
+{prep}an vine stalker
+{m}лозовом преследователе
+%%%%
 {prep}an vision talisman
 {m}талисмане зрения
 %%%%
@@ -114066,6 +118176,12 @@ your ynoxinuls
 %%%%
 {prep}ancient liches
 {pl}древних личах
+%%%%
+{prep}ant
+{m}муравье
+%%%%
+{prep}ants
+{pl}муравьях
 %%%%
 {prep}apocalypse crab
 {m}крабе апокалипсиса
@@ -114607,6 +118723,12 @@ your ynoxinuls
 {prep}cane toads
 {pl}жабах-агах
 %%%%
+{prep}cat
+{f}кошке
+%%%%
+{prep}cats
+{pl}кошках
+%%%%
 {prep}centaur
 {m}кентавре
 %%%%
@@ -114793,6 +118915,12 @@ your ynoxinuls
 {prep}deep trolls
 {pl}глубинных троллях
 %%%%
+{prep}demigod
+{m}полубоге
+%%%%
+{prep}demigods
+{pl}полубогах
+%%%%
 {prep}demon blade
 {m}демоническом клинке
 %%%%
@@ -114811,11 +118939,20 @@ your ynoxinuls
 {prep}demon whips
 {pl}демонических кнутах
 %%%%
+{prep}demonspawn
+{n}порождении демонов
+%%%%
 {prep}dire flail
 {m}тяжёлом цепе
 %%%%
 {prep}dire flails
 {pl}тяжёлых цепах
+%%%%
+{prep}djinn
+{pl}джиннах
+%%%%
+{prep}djinni
+{m}джинне
 %%%%
 {prep}double sword
 {m}двойном мече
@@ -114862,6 +118999,12 @@ your ynoxinuls
 {prep}dream sheep
 {f}овце сновидений
 %%%%
+{prep}dwarf
+{m}дворфе
+%%%%
+{prep}dwarves
+{pl}дворфах
+%%%%
 {prep}earthy gem
 {m}землистом самоцвете
 %%%%
@@ -114885,6 +119028,12 @@ your ynoxinuls
 %%%%
 {prep}elephants
 {pl}слонах
+%%%%
+{prep}elf
+{m}эльфе
+%%%%
+{prep}elves
+{pl}эльфах
 %%%%
 {prep}endoplasm
 {f}эндоплазме
@@ -114970,11 +119119,23 @@ your ynoxinuls
 {prep}fortress talismans
 {pl}талисманах крепости
 %%%%
+{prep}frog
+{f}лягушке
+%%%%
+{prep}frogs
+{pl}лягушках
+%%%%
 {prep}frost giant
 {m}морозном великане
 %%%%
 {prep}frost giants
 {pl}морозных великанах
+%%%%
+{prep}gargoyle
+{f}горгулье
+%%%%
+{prep}gargoyles
+{pl}горгульях
 %%%%
 {prep}gecko talisman
 {m}талисмане геккона
@@ -114982,11 +119143,23 @@ your ynoxinuls
 {prep}gecko talismans
 {pl}талисманах геккона
 %%%%
+{prep}geist
+{m}призраке
+%%%%
+{prep}geists
+{pl}призраках
+%%%%
 {prep}gem
 {m}самоцвете
 %%%%
 {prep}gems
 {pl}самоцветах
+%%%%
+{prep}ghoul
+{m}гуле
+%%%%
+{prep}ghouls
+{pl}гулях
 %%%%
 {prep}giant club
 {f}гигантской дубине
@@ -115029,6 +119202,12 @@ your ynoxinuls
 %%%%
 {prep}goblins
 {pl}гоблинах
+%%%%
+{prep}god
+{m}боге
+%%%%
+{prep}gods
+{pl}богах
 %%%%
 {prep}gold piece
 {f}золотой монете
@@ -115185,6 +119364,12 @@ your ynoxinuls
 %%%%
 {prep}hounds
 {pl}гончих
+%%%%
+{prep}human
+{m}человеке
+%%%%
+{prep}humans
+{pl}людях
 %%%%
 {prep}hydra
 {f}гидре
@@ -115447,6 +119632,12 @@ your ynoxinuls
 {prep}milky-white gems
 {pl}молочно-белых самоцветах
 %%%%
+{prep}minotaur
+{m}минотавре
+%%%%
+{prep}minotaurs
+{pl}минотаврах
+%%%%
 {prep}mist talisman
 {m}талисмане тумана
 %%%%
@@ -115519,11 +119710,20 @@ your ynoxinuls
 {prep}oblivion hounds
 {pl}гончих забвения
 %%%%
+{prep}octopi
+{pl}осьминогах
+%%%%
+{prep}octopus
+{m}осьминоге
+%%%%
 {prep}ogre
 {m}огре
 %%%%
 {prep}ogres
 {pl}ограх
+%%%%
+{prep}oni
+{m}они
 %%%%
 {prep}orange demon
 {m}оранжевом демоне
@@ -115596,6 +119796,12 @@ your ynoxinuls
 %%%%
 {prep}pale draconians
 {pl}бледных драконианах
+%%%%
+{prep}palentonga
+{m}палентонге
+%%%%
+{prep}palentongas
+{pl}палентонгах
 %%%%
 {prep}pearl dragon
 {m}жемчужном драконе
@@ -115836,6 +120042,12 @@ your ynoxinuls
 %%%%
 {prep}red draconians
 {pl}красных драконианах
+%%%%
+{prep}revenant
+{m}ревенанте
+%%%%
+{prep}revenants
+{pl}ревенантах
 %%%%
 {prep}ribbon worm
 {m}ленточном черве
@@ -116818,6 +121030,12 @@ your ynoxinuls
 {prep}the ancient liches
 {pl}древних личах
 %%%%
+{prep}the ant
+{m}муравье
+%%%%
+{prep}the ants
+{pl}муравьях
+%%%%
 {prep}the apocalypse crab
 {m}крабе апокалипсиса
 %%%%
@@ -117358,6 +121576,12 @@ your ynoxinuls
 {prep}the cane toads
 {pl}жабах-агах
 %%%%
+{prep}the cat
+{f}кошке
+%%%%
+{prep}the cats
+{pl}кошках
+%%%%
 {prep}the centaur
 {m}кентавре
 %%%%
@@ -117544,6 +121768,12 @@ your ynoxinuls
 {prep}the deep trolls
 {pl}глубинных троллях
 %%%%
+{prep}the demigod
+{m}полубоге
+%%%%
+{prep}the demigods
+{pl}полубогах
+%%%%
 {prep}the demon blade
 {m}демоническом клинке
 %%%%
@@ -117562,11 +121792,20 @@ your ynoxinuls
 {prep}the demon whips
 {pl}демонических кнутах
 %%%%
+{prep}the demonspawn
+{n}порождении демонов
+%%%%
 {prep}the dire flail
 {m}тяжёлом цепе
 %%%%
 {prep}the dire flails
 {pl}тяжёлых цепах
+%%%%
+{prep}the djinn
+{pl}джиннах
+%%%%
+{prep}the djinni
+{m}джинне
 %%%%
 {prep}the double sword
 {m}двойном мече
@@ -117613,6 +121852,12 @@ your ynoxinuls
 {prep}the dream sheep
 {f}овце сновидений
 %%%%
+{prep}the dwarf
+{m}дворфе
+%%%%
+{prep}the dwarves
+{pl}дворфах
+%%%%
 {prep}the earthy gem
 {m}землистом самоцвете
 %%%%
@@ -117636,6 +121881,12 @@ your ynoxinuls
 %%%%
 {prep}the elephants
 {pl}слонах
+%%%%
+{prep}the elf
+{m}эльфе
+%%%%
+{prep}the elves
+{pl}эльфах
 %%%%
 {prep}the endoplasm
 {f}эндоплазме
@@ -117721,11 +121972,23 @@ your ynoxinuls
 {prep}the fortress talismans
 {pl}талисманах крепости
 %%%%
+{prep}the frog
+{f}лягушке
+%%%%
+{prep}the frogs
+{pl}лягушках
+%%%%
 {prep}the frost giant
 {m}морозном великане
 %%%%
 {prep}the frost giants
 {pl}морозных великанах
+%%%%
+{prep}the gargoyle
+{f}горгулье
+%%%%
+{prep}the gargoyles
+{pl}горгульях
 %%%%
 {prep}the gecko talisman
 {m}талисмане геккона
@@ -117733,11 +121996,23 @@ your ynoxinuls
 {prep}the gecko talismans
 {pl}талисманах геккона
 %%%%
+{prep}the geist
+{m}призраке
+%%%%
+{prep}the geists
+{pl}призраках
+%%%%
 {prep}the gem
 {m}самоцвете
 %%%%
 {prep}the gems
 {pl}самоцветах
+%%%%
+{prep}the ghoul
+{m}гуле
+%%%%
+{prep}the ghouls
+{pl}гулях
 %%%%
 {prep}the giant club
 {f}гигантской дубине
@@ -117780,6 +122055,12 @@ your ynoxinuls
 %%%%
 {prep}the goblins
 {pl}гоблинах
+%%%%
+{prep}the god
+{m}боге
+%%%%
+{prep}the gods
+{pl}богах
 %%%%
 {prep}the gold piece
 {f}золотой монете
@@ -117936,6 +122217,12 @@ your ynoxinuls
 %%%%
 {prep}the hounds
 {pl}гончих
+%%%%
+{prep}the human
+{m}человеке
+%%%%
+{prep}the humans
+{pl}людях
 %%%%
 {prep}the hydra
 {f}гидре
@@ -118198,6 +122485,12 @@ your ynoxinuls
 {prep}the milky-white gems
 {pl}молочно-белых самоцветах
 %%%%
+{prep}the minotaur
+{m}минотавре
+%%%%
+{prep}the minotaurs
+{pl}минотаврах
+%%%%
 {prep}the mist talisman
 {m}талисмане тумана
 %%%%
@@ -118270,11 +122563,20 @@ your ynoxinuls
 {prep}the oblivion hounds
 {pl}гончих забвения
 %%%%
+{prep}the octopi
+{pl}осьминогах
+%%%%
+{prep}the octopus
+{m}осьминоге
+%%%%
 {prep}the ogre
 {m}огре
 %%%%
 {prep}the ogres
 {pl}ограх
+%%%%
+{prep}the oni
+{m}они
 %%%%
 {prep}the orange demon
 {m}оранжевом демоне
@@ -118347,6 +122649,12 @@ your ynoxinuls
 %%%%
 {prep}the pale draconians
 {pl}бледных драконианах
+%%%%
+{prep}the palentonga
+{m}палентонге
+%%%%
+{prep}the palentongas
+{pl}палентонгах
 %%%%
 {prep}the pearl dragon
 {m}жемчужном драконе
@@ -118587,6 +122895,12 @@ your ynoxinuls
 %%%%
 {prep}the red draconians
 {pl}красных драконианах
+%%%%
+{prep}the revenant
+{m}ревенанте
+%%%%
+{prep}the revenants
+{pl}ревенантах
 %%%%
 {prep}the ribbon worm
 {m}ленточном черве
@@ -119359,6 +123673,12 @@ your ynoxinuls
 {prep}the very ugly things
 {pl}очень уродливых существах
 %%%%
+{prep}the vine stalker
+{m}лозовом преследователе
+%%%%
+{prep}the vine stalkers
+{pl}лозовых преследователях
+%%%%
 {prep}the vision talisman
 {m}талисмане зрения
 %%%%
@@ -119670,6 +123990,12 @@ your ynoxinuls
 %%%%
 {prep}very ugly things
 {pl}очень уродливых существах
+%%%%
+{prep}vine stalker
+{m}лозовом преследователе
+%%%%
+{prep}vine stalkers
+{pl}лозовых преследователях
 %%%%
 {prep}vision talisman
 {m}талисмане зрения
@@ -120192,6 +124518,12 @@ your ynoxinuls
 %%%%
 {prep}your ancient liches
 {pl}древних личах
+%%%%
+{prep}your ant
+{m}муравье
+%%%%
+{prep}your ants
+{pl}муравьях
 %%%%
 {prep}your apocalypse crab
 {m}крабе апокалипсиса
@@ -120733,6 +125065,12 @@ your ynoxinuls
 {prep}your cane toads
 {pl}жабах-агах
 %%%%
+{prep}your cat
+{f}кошке
+%%%%
+{prep}your cats
+{pl}кошках
+%%%%
 {prep}your centaur
 {m}кентавре
 %%%%
@@ -120919,6 +125257,12 @@ your ynoxinuls
 {prep}your deep trolls
 {pl}глубинных троллях
 %%%%
+{prep}your demigod
+{m}полубоге
+%%%%
+{prep}your demigods
+{pl}полубогах
+%%%%
 {prep}your demon blade
 {m}демоническом клинке
 %%%%
@@ -120937,11 +125281,20 @@ your ynoxinuls
 {prep}your demon whips
 {pl}демонических кнутах
 %%%%
+{prep}your demonspawn
+{n}порождении демонов
+%%%%
 {prep}your dire flail
 {m}тяжёлом цепе
 %%%%
 {prep}your dire flails
 {pl}тяжёлых цепах
+%%%%
+{prep}your djinn
+{pl}джиннах
+%%%%
+{prep}your djinni
+{m}джинне
 %%%%
 {prep}your double sword
 {m}двойном мече
@@ -120988,6 +125341,12 @@ your ynoxinuls
 {prep}your dream sheep
 {f}овце сновидений
 %%%%
+{prep}your dwarf
+{m}дворфе
+%%%%
+{prep}your dwarves
+{pl}дворфах
+%%%%
 {prep}your earthy gem
 {m}землистом самоцвете
 %%%%
@@ -121011,6 +125370,12 @@ your ynoxinuls
 %%%%
 {prep}your elephants
 {pl}слонах
+%%%%
+{prep}your elf
+{m}эльфе
+%%%%
+{prep}your elves
+{pl}эльфах
 %%%%
 {prep}your endoplasm
 {f}эндоплазме
@@ -121096,11 +125461,23 @@ your ynoxinuls
 {prep}your fortress talismans
 {pl}талисманах крепости
 %%%%
+{prep}your frog
+{f}лягушке
+%%%%
+{prep}your frogs
+{pl}лягушках
+%%%%
 {prep}your frost giant
 {m}морозном великане
 %%%%
 {prep}your frost giants
 {pl}морозных великанах
+%%%%
+{prep}your gargoyle
+{f}горгулье
+%%%%
+{prep}your gargoyles
+{pl}горгульях
 %%%%
 {prep}your gecko talisman
 {m}талисмане геккона
@@ -121108,11 +125485,23 @@ your ynoxinuls
 {prep}your gecko talismans
 {pl}талисманах геккона
 %%%%
+{prep}your geist
+{m}призраке
+%%%%
+{prep}your geists
+{pl}призраках
+%%%%
 {prep}your gem
 {m}самоцвете
 %%%%
 {prep}your gems
 {pl}самоцветах
+%%%%
+{prep}your ghoul
+{m}гуле
+%%%%
+{prep}your ghouls
+{pl}гулях
 %%%%
 {prep}your giant club
 {f}гигантской дубине
@@ -121155,6 +125544,12 @@ your ynoxinuls
 %%%%
 {prep}your goblins
 {pl}гоблинах
+%%%%
+{prep}your god
+{m}боге
+%%%%
+{prep}your gods
+{pl}богах
 %%%%
 {prep}your gold piece
 {f}золотой монете
@@ -121311,6 +125706,12 @@ your ynoxinuls
 %%%%
 {prep}your hounds
 {pl}гончих
+%%%%
+{prep}your human
+{m}человеке
+%%%%
+{prep}your humans
+{pl}людях
 %%%%
 {prep}your hydra
 {f}гидре
@@ -121573,6 +125974,12 @@ your ynoxinuls
 {prep}your milky-white gems
 {pl}молочно-белых самоцветах
 %%%%
+{prep}your minotaur
+{m}минотавре
+%%%%
+{prep}your minotaurs
+{pl}минотаврах
+%%%%
 {prep}your mist talisman
 {m}талисмане тумана
 %%%%
@@ -121645,11 +126052,20 @@ your ynoxinuls
 {prep}your oblivion hounds
 {pl}гончих забвения
 %%%%
+{prep}your octopi
+{pl}осьминогах
+%%%%
+{prep}your octopus
+{m}осьминоге
+%%%%
 {prep}your ogre
 {m}огре
 %%%%
 {prep}your ogres
 {pl}ограх
+%%%%
+{prep}your oni
+{m}они
 %%%%
 {prep}your orange demon
 {m}оранжевом демоне
@@ -121722,6 +126138,12 @@ your ynoxinuls
 %%%%
 {prep}your pale draconians
 {pl}бледных драконианах
+%%%%
+{prep}your palentonga
+{m}палентонге
+%%%%
+{prep}your palentongas
+{pl}палентонгах
 %%%%
 {prep}your pearl dragon
 {m}жемчужном драконе
@@ -121962,6 +126384,12 @@ your ynoxinuls
 %%%%
 {prep}your red draconians
 {pl}красных драконианах
+%%%%
+{prep}your revenant
+{m}ревенанте
+%%%%
+{prep}your revenants
+{pl}ревенантах
 %%%%
 {prep}your ribbon worm
 {m}ленточном черве
@@ -122733,6 +127161,12 @@ your ynoxinuls
 %%%%
 {prep}your very ugly things
 {pl}очень уродливых существах
+%%%%
+{prep}your vine stalker
+{m}лозовом преследователе
+%%%%
+{prep}your vine stalkers
+{pl}лозовых преследователях
 %%%%
 {prep}your vision talisman
 {m}талисмане зрения

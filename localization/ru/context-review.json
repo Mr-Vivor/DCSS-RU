@@ -80,6 +80,17 @@
       ],
       "entries": 235,
       "translations_sha256": "32d9d1d212d87e7fa5804438435f484eac2d79cd85de720fd91dcc8b9b533956"
+    },
+    "player-genus": {
+      "context": [
+        "dat/translate/player-genus.txt: nicknames and @player_genus_plural@",
+        "species.cc:name(SPNAME_GENUS), species-data.h and l-you.cc:l_you_genus",
+        "Genus is not always species: Felid -> Cat, Coglin -> Goblin, Barachi -> Frog.",
+        "Canonical Dwarf/Draconian/Merfolk/Tengu/Vine Stalker terminology; plural Octopi/Djinn.",
+        "Preserve {pl} selectors and obsolete Onis/Palentongas keys; no raw species IDs changed."
+      ],
+      "translations_sha256": "82cc26cafa7edad90450fe081d884a77c91c8ec1a9d1a2c2f185132ae12756cd",
+      "entries": 43
     }
   },
   "messages": {
@@ -55726,6 +55737,66 @@
     "You feel a strange sense of nostalgia.": {
       "context": "Current initfile.cc constructors, _bindkey and report_error; files.cc _convert_obsolete_species; newgame.cc tournament prompt; dgl-message.cc _read_each_message; god-companions.cc flee_apostle_challenge; player-notices.cc Wyrmbane. Translate complete rendered UI frames after sprintf, not raw format strings or rc/Lua identifiers. @any@ is bounded by specific diagnostic frames because file paths, regexes and key definitions may contain punctuation. Multiline legacy conversion prompts split exactly as localise_in_context does. Conversion is to a different species, not equipment or an optional stat bonus. Preserve source keybindings and colour tags. Unreachable removed bane retained only as a legacy compatibility label; no changes to raw selectors or save data.",
       "translation_sha256": "7cc81d7b2c8101e736129d17d53d842082a1c042eb99fe14c8edc9c20d83551f"
+    },
+    "A faded altar of an unknown god": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "13d4f528c16253ae35f373fd6553def0cf716930c598c433ca0d86fdc6d262f2"
+    },
+    "A web": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "0da8b87565a754bf5838a05730bf54f01e104267094a62efcc279ff6684ae220"
+    },
+    "An archival metal wall": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "ce1987492968b17d7e1a2e4ec1cbbd815d50a696ff6a596d9f746010a8b3216e"
+    },
+    "An ice choked empty arch of ancient stone": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "a6ca64687bf7b0e595d8e5d87dfc75b87ca3c3fafcb76c240c05d9c6b1988349"
+    },
+    "An ice covered gate leading back out of this place": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "0430914aa79e4b2b4b4c76163659a7477d8f9b7ee715e25611a76c09da9230d3"
+    },
+    "A rock-blocked tunnel": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "db8ea03d5c45eca5037ea5c62618dfbe2da621d3d86b1d988df0ff26f7ad68a2"
+    },
+    "A rocky tunnel leading out of this place": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "ed475ee9c228ce9e4966330356c6cdb86fd7d2409ab7aac04701d12d70347b6e"
+    },
+    "A portal leading out of this place": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "9cf94a0cfb1da81eae0dab60f401f068fd5ca7b89943516724ec427de81d3b7f"
+    },
+    "The dimension's edge": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "23281d596e85dd69bee70be6e242539b5465ed222316f3f2824d5e46d2c1f417"
+    },
+    "An unnaturally hard bloodstone wall": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "89ee241e1f45e686880cf5d3b54ba17222a3269672a9234e43f553d979b506d3"
+    },
+    "A bedevilled crystal wall": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "173559681f2a450d5dd5e003146263968646fb3e9cf3e4ff3a3121b9f7542489"
+    },
+    "Some ice crusted deep water": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "5ea7a692181a4b94cafc20579902b50529acdc405d918bd1919660a67efb1835"
+    },
+    "Some ice crusted shallow water": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "d1eb38b90316e663ff4ca7de307ca84a942ce488617e63636837851f45a564fb"
+    },
+    "A spawn point": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "1300b401c7e4007f24783acbe37f360a89fa2e84826fe7c1b960b57922d97495"
+    },
+    "An exit from the tutorial": {
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "translation_sha256": "7fb3bfb992eb8039371123eef11c3c8dcf894c42bfc823567c735928fb0792e6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

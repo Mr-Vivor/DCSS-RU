@@ -1094,6 +1094,18 @@
 - [Кирке](monsters/kirke.md)
 - [Луиза](monsters/louise.md)
 - [Лодул](monsters/lodul.md)
+- [Дворф](monsters/dwarf.md)
+- [Эльф](monsters/elf.md)
+- [Полубог](monsters/demigod.md)
+- [Порождение демонов](monsters/demonspawn.md)
+- [Джинн](monsters/djinni.md)
+- [Горгулья](monsters/gargoyle.md)
+- [Гуль](monsters/ghoul.md)
+- [Человек](monsters/human.md)
+- [Минотавр](monsters/minotaur.md)
+- [Они](monsters/oni.md)
+- [Ревенант](monsters/revenant.md)
+- [Лозовый преследователь](monsters/vine-stalker.md)
 
 ## Состояния
 
@@ -1690,6 +1702,21 @@
 - [Огромные сломанные прозрачные ворота](features/a-huge-broken-translucent-gate.md)
 - [Покрытая слизью каменная лестница вниз](features/a-slimy-stone-staircase-leading-down.md)
 - [Покрытая слизью каменная лестница вверх](features/a-slimy-stone-staircase-leading-up.md)
+- [Выцветший алтарь неизвестного бога](features/a-faded-altar-of-an-unknown-god.md)
+- [Паутина](features/a-web.md)
+- [Металлическая стена с записями](features/an-archival-metal-wall.md)
+- [Древняя каменная арка, забитая льдом](features/an-ice-choked-empty-arch-of-ancient-stone.md)
+- [Покрытые льдом врата наружу](features/an-ice-covered-gate-leading-back-out-of-this-place.md)
+- [Заваленный камнями тоннель](features/a-rock-blocked-tunnel.md)
+- [Тоннель наружу в вулканической скале](features/a-rocky-tunnel-leading-out-of-this-place.md)
+- [Портал наружу](features/a-portal-leading-out-of-this-place.md)
+- [Край измерения](features/the-dimension's-edge.md)
+- [Необычайно прочная стена из кровавого камня](features/an-unnaturally-hard-bloodstone-wall.md)
+- [Демоническая кристаллическая стена](features/a-bedevilled-crystal-wall.md)
+- [Глубокая вода с обломками льда](features/some-ice-crusted-deep-water.md)
+- [Мелкая вода с обломками льда](features/some-ice-crusted-shallow-water.md)
+- [Вход для врагов](features/a-spawn-point.md)
+- [Выход из урока](features/an-exit-from-the-tutorial.md)
 
 ## Мутации и проклятия
 

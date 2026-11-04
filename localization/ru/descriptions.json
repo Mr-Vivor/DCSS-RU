@@ -5882,6 +5882,66 @@
       "source_sha256": "ce520da36add096b84b28dd1ca3be6e9ec2eb51c81c65a53e1bc511f8c7c76d3",
       "text": "Огр — посланник ордена Закованных в железо, отправленный искать и останавливать чужаков до того, как они войдут в Хранилища. Обладая незаурядной харизмой, он собрал небольшую армию сородичей и впечатлил их дальнобойной установкой молний, которую носит за спиной. Большой кошель монет, прихваченный из Хранилищ, тоже оказался весьма убедителен.",
       "context": "Current monsters.txt named enemies, not historical wiki descriptions. Erica is an octopode, not an old human adventuress; Blorkula is now an orc splitting into colours, not the old vampire bat-splitting version; Arachne has jorogumo students. Natasha survives more than one death but does not have nine lives; no unsupported exact life count added. Bai Suzhen transformation, Kirke pig warning, Nessos poison and Lodul lightning gear retained. Josephina and Josephine deliberately keep distinct Cyrillic names to avoid wiki/game collisions. Established gods and Ironbound Order terminology kept. Proper names transliterated, Enchantress title translated; indeclinable female consonant names and foreign vowel endings checked. English plurals follow english.cc including invariant Nessos/Agnes and Jory -> Jories. Raw IDs unchanged."
+    },
+    "dwarf": {
+      "source_sha256": "42619d05268142fdf3b2e46c5346c3b33241194b440761a7775e0d304fb57176",
+      "text": "Представитель невысокого, крепкого народа, живущего в горах.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "elf": {
+      "source_sha256": "87a9f6436e9c26535161240cdb8c75c43d649c35785ae73542016495775f8eb0",
+      "text": "Эльф, представитель древнего волшебного народа.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "demigod": {
+      "source_sha256": "cc7f202772b2fa68cfff19190c7ba1a6f47a811e50f493bee2052c1af5875777",
+      "text": "Человекоподобная фигура, чья аура могущества выдаёт божественное происхождение.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "demonspawn": {
+      "source_sha256": "c8190101f84e1ce5d921a6bbdd083287d6561f1c22f65b5d84ffacd5a9123ff3",
+      "text": "Существо, наполовину смертное, наполовину демоническое. Адское наследие проступает в дьявольских чертах его облика.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "djinni": {
+      "source_sha256": "ba6a2dfe99a6bcea9bf8ae8e27a93b891ab17acfbdc4b32e1367cd6709db0e92",
+      "text": "Стихийный дух, созданный из бездымного огня.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "gargoyle": {
+      "source_sha256": "b55931ab6d4c13935587951f34c45146ee75e1ea1838aa935bb7db0f21aee46a",
+      "text": "Гранитная статуя отвратительного крылатого чудовища, каким-то образом ожившая.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "ghoul": {
+      "source_sha256": "778219f75ffd81ae25663449a731e9ca17795d894beb5afefb0e619d93ae2120",
+      "text": "Разлагающийся труп, возвращённый к жизни и проклятый ужасным голодом. Он жаждет лишь плоти живых и разит жертв свирепыми когтями.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "human": {
+      "source_sha256": "1728a0ce5777845b8caf496d7b96a53362cb33a967392186eb1c5c90be464645",
+      "text": "Заносчивая разновидность безволосых обезьян, обитающая на поверхности. Дворфы считают людей хрупкими, эльфы — неуклюжими, а чудовища — вкусными.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "minotaur": {
+      "source_sha256": "9cc8dbc2b757195cb01d65fe342bc28a7662af3cdf554483ce9680e60f7f3d34",
+      "text": "Крупный мускулистый человек с бычьей головой. Он обитает в Испытании, где ждёт достойных соперников.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "oni": {
+      "source_sha256": "b4e0f8447f2a53596be25fb7cb8693298fbdc83c79fece9c721623ba7b4a814f",
+      "text": "Крупное, шумное существо, любящее выпить. Когда они не заняты служением многочисленным богам, они больше всего любят хорошую драку.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "revenant": {
+      "source_sha256": "2f2bbadec5f2e851af9bc78fb9c2e9e86d82ad29046b77a46c0ac7100d24a663",
+      "text": "Скелетные останки того, кто умер забытым и неоплаканным. Его сжигает неутолимая жажда вновь обрести место в чужой памяти.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "vine stalker": {
+      "source_sha256": "7d881fd490e7a094f403e9bb6131930215e43428b1cb252bd4792e4a917311a2",
+      "text": "Причудливое симбиотическое существо: плотоядная лоза, магически соединённая с человекоподобным телом.",
+      "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
     }
   },
   "status": {
@@ -8962,6 +9022,82 @@
       },
       "wiki_text": "Каменная лестница вверх. Скользкая слизь не позволит подняться, пока властвующая здесь сила не будет уничтожена или вы не присоединитесь к ней. Лестница покрыта скользкой слизью, но последователю Джийвы она не помешает.",
       "context": "Current conditional slime stair description: you.god()==Jiyva unchanged; regeneration bonus applies after descent only; no changes to Lua logic."
+    },
+    "A faded altar of an unknown god": {
+      "source_sha256": "31ffcd58e6987cc19dd26b292e006cce1ae577e1dba568de352bbe0a6e34bae3",
+      "text": "Древний алтарь, с которого за неисчислимые века стёрлись все опознавательные знаки. Молитва у него обратит вас в веру неизвестного бога, и божество высоко оценит обращение в столь древнем месте поклонения.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A web": {
+      "source_sha256": "90d1c18eb1091f28af0f6ecad39dc4db72486c2dd6737d169f1adfa439e92c40",
+      "text": "Паутина. Оставивший её паук должен быть огромен: судя по размеру, его добыча — {{ return you.genus(true) }}, а не мухи.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
+      "wiki_text": "Паутина. Оставивший её паук должен быть огромен: судя по размеру, она предназначена для ловли крупных существ, а не мух."
+    },
+    "An archival metal wall": {
+      "source_sha256": "75533fe89f1360bfca279f5359f0110195ee2560e1f3f83de3496100da7d4014",
+      "text": "Зачарованная металлическая стена, покрытая непостижимыми нелинейными письменами: в них записаны сожаления погребённых здесь и их посетителей. Как и все металлические стены, её почти невозможно разрушить; рикошетящие молнии любых видов она заземляет.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "An ice choked empty arch of ancient stone": {
+      "source_sha256": "fa68662ace31c541af9e298d824e5aa96c688f66ffcfbc13ee4c8b4141360338",
+      "text": "Неработающий портал, почти целиком заключённый в толщу льда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "An ice covered gate leading back out of this place": {
+      "source_sha256": "b7ba1cfa5291bf9649992e5a7b6b7089e8d35fdbdba65786a2542420b337f7ac",
+      "text": "Портал, ведущий обратно туда, откуда вы пришли. Его магия сдерживает лёд и не даёт ему перекрыть врата. Пройдя через портал, вы уже не сможете вернуться сюда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A rock-blocked tunnel": {
+      "source_sha256": "965d3db7a45107c0141e132e58b0299fd02645bcce0eb31e8770fe8c52525f6f",
+      "text": "Тоннель, по которому больше нельзя пройти.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A rocky tunnel leading out of this place": {
+      "source_sha256": "e1ff37ee77a94dad89f1cb42e1988dc8c1cf8bbbcbdb1f9fcb9180a4db9dbe28",
+      "text": "Неустойчивый проход в вулканической породе, откуда тянет прохладным воздухом. Он ведёт обратно туда, откуда вы пришли. Пройдя по нему, вы уже не сможете вернуться сюда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A portal leading out of this place": {
+      "source_sha256": "214405f1a343f62121282b3a96bf47efe97985686e8da58aadf6f173b8298bc8",
+      "text": "Мерцающие волшебные врата, ведущие обратно туда, откуда вы пришли. Пройдя через них, вы уже не сможете вернуться сюда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "The dimension's edge": {
+      "source_sha256": "1dd0af680ba32e349cd163a12c76e932b953bb1d3bcf38b7d80d6317adb471f5",
+      "text": "Край этого крошечного обособленного плана, где само пространство растворяется в небытии. Войти в эту чёрную пустоту или как-либо воздействовать на неё невозможно.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "An unnaturally hard bloodstone wall": {
+      "source_sha256": "d3d4a41c7db2fa9964866e39beb58000363c8bd42aa13f572718c6c0ddb4d36f",
+      "text": "Неразрушимая преграда, сотворённая из крови и закалённая страданиями бесчисленных смертных.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A bedevilled crystal wall": {
+      "source_sha256": "860f57d4b55ca6daf18efe0e48a82c41d3efd2f7bc3410840be36750390b0dff",
+      "text": "Стена из мерцающего кристалла, сквозь который выглядывает какой-то демонический план. Благодаря своему составу она устойчива к разрушению и отражает и огонь, и холод. Потусторонние силы внутри неё кажутся совершенно безвредными... во всяком случае, по эту сторону.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "Some ice crusted deep water": {
+      "source_sha256": "c576556c230bc7fd6b23d45254f5d4347976bd2bc23be815afbc63f1852e8576",
+      "text": "Глубокий водоём, поверхность которого покрыта обломками льда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "Some ice crusted shallow water": {
+      "source_sha256": "92dd762970678eb896f7e6544b1fc261dcd292de2765a6125befaee0cdb2a6e1",
+      "text": "Мелкий водоём, поверхность которого покрыта обломками льда.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A spawn point": {
+      "source_sha256": "9f977a386e9b002c18592fd6f91565c323023a7e77858c76597ffca83fd1b508",
+      "text": "Вход, из которого могут появиться противники.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "An exit from the tutorial": {
+      "source_sha256": "184d2322fe300b142b10152761342e1ad282f20ec06b118efcfb8bd9e5e132fc",
+      "text": "Путь из Подземелья, позволяющий завершить этот урок.",
+      "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
     }
   },
   "mutations": {
