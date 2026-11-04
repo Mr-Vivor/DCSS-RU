@@ -5202,6 +5202,86 @@
       "source_sha256": "f3af8d83cca9ae42b62a6873ab3c2669ef84c8fbfa7d707e26570e65c789aabc",
       "text": "Высокая мускулистая фигура, способная защищать союзников, самоотверженно принимая на себя часть нанесённых им ран.",
       "context": "Current monsters.txt dangerous demons, Zot/Vaults and plant enemies. Mutagenic energy and flesh distortion are not Strength loss; spell help supplies exact mechanical details. Vault Warden blocks doors and stairs, Ironbound Preserver takes part of allied damage, Thorn Hunter can barricade itself and Shambling Mangrove roots interfere with footing. Preserve established Ancient Lich and Deathcap names, transliterate Neqoxec/Cacodemon; Killer Klown is an ordinary translated descriptive compound. Retain humorous undead corn description. English plurals follow english.cc, Russian compounds decline both components and have explicit counted-few forms. Animacy follows Russian creature/object noun usage."
+    },
+    "ufetubus": {
+      "source_sha256": "995a37132271586bc5d15dd4d5f6c67f51cd9e97b879489f6d3360d6f280b4be",
+      "text": "Мелкий демон, непрерывно тараторящий и визжащий. Такие демоны обожают проскальзывать мимо добычи и нападать ей в спину.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "ynoxinul": {
+      "source_sha256": "4665b2a232f618e0d0145502ccde349777229f58e0937c94d08ad979bd5cc972",
+      "text": "Крылатый демон, покрытый блестящей металлической чешуёй. Ему повинуется легион мелких демонов, которых он приводит в дикое бешенство.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "hellion": {
+      "source_sha256": "d4f1bd898ae5e97644d69a3e9d064983cdb7ab0dcae015e0c777ea42f3d45f73",
+      "text": "Ненавидящий всё живое демон, жаждущий уничтожить жизнь своей адской карой.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "tormentor": {
+      "source_sha256": "e4cf6a859d86959855eb40987478abc64854b25cd24dead3b0b6af65fe3f81fd",
+      "text": "Зловредный дьявол, покрытый всевозможными когтями, шипами и жестокими крючьями. Он способен причинять мучительную агонию тем, кому хватит глупости взглянуть на него.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "reaper": {
+      "source_sha256": "2a22a8e2f203e069ad840c4001dc005aeae443502c581efee4f8eb8d55d3866d",
+      "text": "Жуткая фигура с огромной косой, неустанно пожинающая души живых.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "soul eater": {
+      "source_sha256": "a70f74d804edc1b28a2d9c5414fa1e9ecba17c1c18a31aaed1cf74c85352c5a0",
+      "text": "Демон в облике зловеще меняющейся тени, скользящей по воздуху. Он излучает мощную ауру отрицательной энергии.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "balrug": {
+      "source_sha256": "f693ae8a5bccfb303683f4444b754de7cbedda3681b24ca9d803508247705d82",
+      "text": "Огромный и очень могущественный демон, окружённый огнём и тенями.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "blizzard demon": {
+      "source_sha256": "5d642040f0f0fed5e762037b6e66be0a7d332432a6c54d0a597efa231670a258",
+      "text": "Высший демон, сотканный из тоскливого снега и лютых молний.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "green death": {
+      "source_sha256": "608c3a2826ae99695322044c7be8603e71de669bbf02c75b0cdc62335e647f50",
+      "text": "Раздувшееся существо, покрытое сочащимися язвами и выдыхающее облака смертельного яда.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "orange demon": {
+      "source_sha256": "6221fa188fd21b5b85cb917c2987fca0328971cea5fde1125b99186584b76e10",
+      "text": "Демон янтарного цвета с зазубренным хвостом, напоминающим хвост скорпиона.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "red devil": {
+      "source_sha256": "f389979034dedaf82fc8abf68eb9e6450380fc68003eafa604ac5cb143d798c5",
+      "text": "Более крупный родственник обычного беса, с дьявольской ухмылкой и двумя короткими крыльями на плечах. Предпочитает трезубцы и обожает пронзать жертв болезненными колючками.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "hellwing": {
+      "source_sha256": "ce532dcda2713a6dae6a661005f844522c28eb4c82539bef726ef52f7750f588",
+      "text": "Отвратительный костлявый демон. Он носится по воздуху на мощных крыльях из древней высохшей кожи, с садистским наслаждением терзая тех, кто пытается вырваться из его хватки.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "sun demon": {
+      "source_sha256": "a4855b976b1d6bc79333831371093de388a9fbaa0c59d7e3d54d0125773176f3",
+      "text": "Демоническая фигура, сияющая жаром и яростью упавшей звезды.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "Hell Sentinel": {
+      "source_sha256": "14290fe16e078782a56c0e9486ba5d72b44c6670397b0aa0de8de87ff08d4d74",
+      "text": "Возвышающийся монолит, созданный демоническими силами и одержимый ими. Из прорезей в его изломанной шипастой броне злобно смотрит тысяча глаз.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "Ice Fiend": {
+      "source_sha256": "aa9017784c9a329af7830e94520c802481dbd0edfaca49c903f51267c6e0ac1e",
+      "text": "Огромный ледяной демон, покрытый инеем и окружённый морозным воздухом. Один из самых ужасных обитателей многочисленных адов.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "Brimstone Fiend": {
+      "source_sha256": "7b01bd75f3e57bd07346158a3abc800a373f3fc8c59a692aa989a57d42aae2ca",
+      "text": "Огромный могущественный демон с большими чешуйчатыми крыльями, окружённый адской карой. Один из самых страшных обитателей всех адов.",
+      "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
     }
   },
   "status": {

@@ -1997,9 +1997,10 @@
         "acc": "жнецов",
         "ins": "жнецами",
         "prep": "жнецах"
-      }
+      },
+      "counted_few": "жнеца"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.hellion": {
     "title": "Адский демон",
@@ -2022,9 +2023,10 @@
         "acc": "адских демонов",
         "ins": "адскими демонами",
         "prep": "адских демонах"
-      }
+      },
+      "counted_few": "адских демона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.sun_demon": {
     "title": "Солнечный демон",
@@ -2047,9 +2049,10 @@
         "acc": "солнечных демонов",
         "ins": "солнечными демонами",
         "prep": "солнечных демонах"
-      }
+      },
+      "counted_few": "солнечных демона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.ice_devil": {
     "title": "Ледяной дьявол",
@@ -2097,9 +2100,10 @@
         "acc": "оранжевых демонов",
         "ins": "оранжевыми демонами",
         "prep": "оранжевых демонах"
-      }
+      },
+      "counted_few": "оранжевых демона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.hellwing": {
     "title": "Адское крыло",
@@ -2119,12 +2123,13 @@
         "nom": "адские крылья",
         "gen": "адских крыльев",
         "dat": "адским крыльям",
-        "acc": "адских крыльев",
+        "acc": "адские крылья",
         "ins": "адскими крыльями",
         "prep": "адских крыльях"
-      }
+      },
+      "counted_few": "адских крыла"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.red_devil": {
     "title": "Красный дьявол",
@@ -2147,9 +2152,10 @@
         "acc": "красных дьяволов",
         "ins": "красными дьяволами",
         "prep": "красных дьяволах"
-      }
+      },
+      "counted_few": "красных дьявола"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   "monster.crimson_imp": {
     "title": "Багровый бес",
@@ -6643,6 +6649,266 @@
         "prep": "закованных в железо заступниках"
       },
       "counted_few": "закованных в железо заступника"
+    },
+    "review": "reviewed"
+  },
+  "monster.ufetubus": {
+    "title": "Уфетубус",
+    "en": "ufetubus",
+    "en_plural": "ufetubi",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "уфетубус",
+        "gen": "уфетубуса",
+        "dat": "уфетубусу",
+        "acc": "уфетубуса",
+        "ins": "уфетубусом",
+        "prep": "уфетубусе"
+      },
+      "plural": {
+        "nom": "уфетубусы",
+        "gen": "уфетубусов",
+        "dat": "уфетубусам",
+        "acc": "уфетубусов",
+        "ins": "уфетубусами",
+        "prep": "уфетубусах"
+      },
+      "counted_few": "уфетубуса"
+    },
+    "review": "reviewed"
+  },
+  "monster.ynoxinul": {
+    "title": "Иноксинул",
+    "en": "ynoxinul",
+    "en_plural": "ynoxinuls",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "иноксинул",
+        "gen": "иноксинула",
+        "dat": "иноксинулу",
+        "acc": "иноксинула",
+        "ins": "иноксинулом",
+        "prep": "иноксинуле"
+      },
+      "plural": {
+        "nom": "иноксинулы",
+        "gen": "иноксинулов",
+        "dat": "иноксинулам",
+        "acc": "иноксинулов",
+        "ins": "иноксинулами",
+        "prep": "иноксинулах"
+      },
+      "counted_few": "иноксинула"
+    },
+    "review": "reviewed"
+  },
+  "monster.balrug": {
+    "title": "Балруг",
+    "en": "balrug",
+    "en_plural": "balrugs",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "балруг",
+        "gen": "балруга",
+        "dat": "балругу",
+        "acc": "балруга",
+        "ins": "балругом",
+        "prep": "балруге"
+      },
+      "plural": {
+        "nom": "балруги",
+        "gen": "балругов",
+        "dat": "балругам",
+        "acc": "балругов",
+        "ins": "балругами",
+        "prep": "балругах"
+      },
+      "counted_few": "балруга"
+    },
+    "review": "reviewed"
+  },
+  "monster.tormentor": {
+    "title": "Мучитель",
+    "en": "tormentor",
+    "en_plural": "tormentors",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "мучитель",
+        "gen": "мучителя",
+        "dat": "мучителю",
+        "acc": "мучителя",
+        "ins": "мучителем",
+        "prep": "мучителе"
+      },
+      "plural": {
+        "nom": "мучители",
+        "gen": "мучителей",
+        "dat": "мучителям",
+        "acc": "мучителей",
+        "ins": "мучителями",
+        "prep": "мучителях"
+      },
+      "counted_few": "мучителя"
+    },
+    "review": "reviewed"
+  },
+  "monster.soul_eater": {
+    "title": "Пожиратель душ",
+    "en": "soul eater",
+    "en_plural": "soul eaters",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "пожиратель душ",
+        "gen": "пожирателя душ",
+        "dat": "пожирателю душ",
+        "acc": "пожирателя душ",
+        "ins": "пожирателем душ",
+        "prep": "пожирателе душ"
+      },
+      "plural": {
+        "nom": "пожиратели душ",
+        "gen": "пожирателей душ",
+        "dat": "пожирателям душ",
+        "acc": "пожирателей душ",
+        "ins": "пожирателями душ",
+        "prep": "пожирателях душ"
+      },
+      "counted_few": "пожирателя душ"
+    },
+    "review": "reviewed"
+  },
+  "monster.blizzard_demon": {
+    "title": "Демон метели",
+    "en": "blizzard demon",
+    "en_plural": "blizzard demons",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "демон метели",
+        "gen": "демона метели",
+        "dat": "демону метели",
+        "acc": "демона метели",
+        "ins": "демоном метели",
+        "prep": "демоне метели"
+      },
+      "plural": {
+        "nom": "демоны метели",
+        "gen": "демонов метели",
+        "dat": "демонам метели",
+        "acc": "демонов метели",
+        "ins": "демонами метели",
+        "prep": "демонах метели"
+      },
+      "counted_few": "демона метели"
+    },
+    "review": "reviewed"
+  },
+  "monster.green_death": {
+    "title": "Зелёная смерть",
+    "en": "green death",
+    "en_plural": "green deaths",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "зелёная смерть",
+        "gen": "зелёной смерти",
+        "dat": "зелёной смерти",
+        "acc": "зелёную смерть",
+        "ins": "зелёной смертью",
+        "prep": "зелёной смерти"
+      },
+      "plural": {
+        "nom": "зелёные смерти",
+        "gen": "зелёных смертей",
+        "dat": "зелёным смертям",
+        "acc": "зелёные смерти",
+        "ins": "зелёными смертями",
+        "prep": "зелёных смертях"
+      },
+      "counted_few": "зелёные смерти"
+    },
+    "review": "reviewed"
+  },
+  "monster.hell_sentinel": {
+    "title": "Адский страж",
+    "en": "Hell Sentinel",
+    "en_plural": "Hell Sentinels",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "адский страж",
+        "gen": "адского стража",
+        "dat": "адскому стражу",
+        "acc": "адского стража",
+        "ins": "адским стражем",
+        "prep": "адском страже"
+      },
+      "plural": {
+        "nom": "адские стражи",
+        "gen": "адских стражей",
+        "dat": "адским стражам",
+        "acc": "адских стражей",
+        "ins": "адскими стражами",
+        "prep": "адских стражах"
+      },
+      "counted_few": "адских стража"
+    },
+    "review": "reviewed"
+  },
+  "monster.ice_fiend": {
+    "title": "Ледяное исчадие",
+    "en": "Ice Fiend",
+    "en_plural": "Ice Fiends",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "ледяное исчадие",
+        "gen": "ледяного исчадия",
+        "dat": "ледяному исчадию",
+        "acc": "ледяное исчадие",
+        "ins": "ледяным исчадием",
+        "prep": "ледяном исчадии"
+      },
+      "plural": {
+        "nom": "ледяные исчадия",
+        "gen": "ледяных исчадий",
+        "dat": "ледяным исчадиям",
+        "acc": "ледяных исчадий",
+        "ins": "ледяными исчадиями",
+        "prep": "ледяных исчадиях"
+      },
+      "counted_few": "ледяных исчадия"
+    },
+    "review": "reviewed"
+  },
+  "monster.brimstone_fiend": {
+    "title": "Серное исчадие",
+    "en": "Brimstone Fiend",
+    "en_plural": "Brimstone Fiends",
+    "kind": "monster",
+    "forms": {
+      "singular": {
+        "nom": "серное исчадие",
+        "gen": "серного исчадия",
+        "dat": "серному исчадию",
+        "acc": "серное исчадие",
+        "ins": "серным исчадием",
+        "prep": "серном исчадии"
+      },
+      "plural": {
+        "nom": "серные исчадия",
+        "gen": "серных исчадий",
+        "dat": "серным исчадиям",
+        "acc": "серных исчадий",
+        "ins": "серными исчадиями",
+        "prep": "серных исчадиях"
+      },
+      "counted_few": "серных исчадия"
     },
     "review": "reviewed"
   }

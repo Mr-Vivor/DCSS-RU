@@ -87,13 +87,13 @@
 | `monster.cyclops` | [Циклоп](pages/monster.cyclops.md) | cyclops | draft |
 | `monster.ettin` | [Эттин](pages/monster.ettin.md) | ettin | draft |
 | `monster.orc_high_priest` | [Верховный жрец орков](pages/monster.orc_high_priest.md) | orc high priest | draft |
-| `monster.reaper` | [Жнец](pages/monster.reaper.md) | reaper | draft |
-| `monster.hellion` | [Адский демон](pages/monster.hellion.md) | hellion | draft |
-| `monster.sun_demon` | [Солнечный демон](pages/monster.sun_demon.md) | sun demon | draft |
+| `monster.reaper` | [Жнец](pages/monster.reaper.md) | reaper | reviewed |
+| `monster.hellion` | [Адский демон](pages/monster.hellion.md) | hellion | reviewed |
+| `monster.sun_demon` | [Солнечный демон](pages/monster.sun_demon.md) | sun demon | reviewed |
 | `monster.ice_devil` | [Ледяной дьявол](pages/monster.ice_devil.md) | ice devil | draft |
-| `monster.orange_demon` | [Оранжевый демон](pages/monster.orange_demon.md) | orange demon | draft |
-| `monster.hellwing` | [Адское крыло](pages/monster.hellwing.md) | hellwing | draft |
-| `monster.red_devil` | [Красный дьявол](pages/monster.red_devil.md) | red devil | draft |
+| `monster.orange_demon` | [Оранжевый демон](pages/monster.orange_demon.md) | orange demon | reviewed |
+| `monster.hellwing` | [Адское крыло](pages/monster.hellwing.md) | hellwing | reviewed |
+| `monster.red_devil` | [Красный дьявол](pages/monster.red_devil.md) | red devil | reviewed |
 | `monster.crimson_imp` | [Багровый бес](pages/monster.crimson_imp.md) | crimson imp | draft |
 | `monster.white_imp` | [Белый бес](pages/monster.white_imp.md) | white imp | draft |
 | `monster.iron_imp` | [Железный бес](pages/monster.iron_imp.md) | iron imp | draft |
@@ -271,3 +271,13 @@
 | `monster.will-o-the-wisp` | [Блуждающий огонёк](pages/monster.will-o-the-wisp.md) | will-o-the-wisp | reviewed |
 | `monster.vault_warden` | [Смотритель хранилищ](pages/monster.vault_warden.md) | vault warden | reviewed |
 | `monster.ironbound_preserver` | [Закованный в железо заступник](pages/monster.ironbound_preserver.md) | ironbound preserver | reviewed |
+| `monster.ufetubus` | [Уфетубус](pages/monster.ufetubus.md) | ufetubus | reviewed |
+| `monster.ynoxinul` | [Иноксинул](pages/monster.ynoxinul.md) | ynoxinul | reviewed |
+| `monster.balrug` | [Балруг](pages/monster.balrug.md) | balrug | reviewed |
+| `monster.tormentor` | [Мучитель](pages/monster.tormentor.md) | tormentor | reviewed |
+| `monster.soul_eater` | [Пожиратель душ](pages/monster.soul_eater.md) | soul eater | reviewed |
+| `monster.blizzard_demon` | [Демон метели](pages/monster.blizzard_demon.md) | blizzard demon | reviewed |
+| `monster.green_death` | [Зелёная смерть](pages/monster.green_death.md) | green death | reviewed |
+| `monster.hell_sentinel` | [Адский страж](pages/monster.hell_sentinel.md) | Hell Sentinel | reviewed |
+| `monster.ice_fiend` | [Ледяное исчадие](pages/monster.ice_fiend.md) | Ice Fiend | reviewed |
+| `monster.brimstone_fiend` | [Серное исчадие](pages/monster.brimstone_fiend.md) | Brimstone Fiend | reviewed |

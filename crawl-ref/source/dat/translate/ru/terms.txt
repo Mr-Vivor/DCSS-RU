@@ -292,6 +292,9 @@ Bribe Branch
 Brigand
 Разбойник
 %%%%
+Brimstone Fiend
+серное исчадие
+%%%%
 Brom's Barrelling Boulder
 Катящийся валун Брома
 %%%%
@@ -904,6 +907,9 @@ Heavenly Storm
 Hedge Wizard
 Самоучка
 %%%%
+Hell Sentinel
+адский страж
+%%%%
 Hellfire Court
 Адская свита
 %%%%
@@ -963,6 +969,9 @@ Hurl Torchlight
 %%%%
 Ice Elementalist
 Маг льда
+%%%%
+Ice Fiend
+ледяное исчадие
 %%%%
 Ice Magic
 Магия льда
@@ -2476,6 +2485,9 @@ a Bribe Branch
 a Brigand
 разбойник
 %%%%
+a Brimstone Fiend
+серное исчадие
+%%%%
 a Brom's Barrelling Boulder
 катящийся валун брома
 %%%%
@@ -3088,6 +3100,9 @@ a Heavenly Storm
 a Hedge Wizard
 самоучка
 %%%%
+a Hell Sentinel
+адский страж
+%%%%
 a Hellfire Court
 адская свита
 %%%%
@@ -3147,6 +3162,9 @@ a Hurl Torchlight
 %%%%
 a Ice Elementalist
 маг льда
+%%%%
+a Ice Fiend
+ледяное исчадие
 %%%%
 a Ice Magic
 магия льда
@@ -4465,11 +4483,17 @@ a azure jelly
 a baked corpse
 запечённый труп
 %%%%
+a balrug
+балруг
+%%%%
 a barding
 бардинг
 %%%%
 a blade talisman
 талисман клинков
+%%%%
+a blizzard demon
+демон метели
 %%%%
 a blowgun of the Assassin
 духовая трубка убийцы
@@ -5167,6 +5191,9 @@ a greatsling
 a greatsling "Punk"
 большая праща «панк»
 %%%%
+a green death
+зелёная смерть
+%%%%
 a hammer
 молот
 %%%%
@@ -5196,6 +5223,12 @@ a heavy crossbow "Sniper"
 %%%%
 a hell sentinel
 адский страж
+%%%%
+a hellion
+адский демон
+%%%%
+a hellwing
+адское крыло
 %%%%
 a hive talisman
 талисман улья
@@ -5368,6 +5401,9 @@ a obsidian axe
 a orange crystal plate armour
 оранжевые хрустальные латы
 %%%%
+a orange demon
+оранжевый демон
+%%%%
 a orb
 сфера
 %%%%
@@ -5454,6 +5490,12 @@ a quill talisman
 %%%%
 a ratskin cloak
 плащ из крысиных шкур
+%%%%
+a reaper
+жнец
+%%%%
+a red devil
+красный дьявол
 %%%%
 a riddle talisman
 талисман загадки
@@ -5656,6 +5698,9 @@ a slymdra
 a smoky gem
 дымчатый самоцвет
 %%%%
+a soul eater
+пожиратель душ
+%%%%
 a spatial maelstrom
 пространственный водоворот
 %%%%
@@ -5727,6 +5772,9 @@ a storm dragon scales
 %%%%
 a storm talisman
 талисман бури
+%%%%
+a sun demon
+солнечный демон
 %%%%
 a swamp dragon scales
 чешуя болотного дракона
@@ -5818,6 +5866,9 @@ a tin of tremorstones
 a toga "Victory"
 тога «победа»
 %%%%
+a tormentor
+мучитель
+%%%%
 a tower shield "Bullseye"
 башенный щит «мишень»
 %%%%
@@ -5907,6 +5958,9 @@ a woodcutter's axe
 %%%%
 a wretched star
 мерзостная звезда
+%%%%
+a ynoxinul
+иноксинул
 %%%%
 a young poisoner's handbook
 пособие юного отравителя
@@ -6004,11 +6058,17 @@ azure jelly
 baked corpse
 запечённый труп
 %%%%
+balrug
+балруг
+%%%%
 barding
 бардинг
 %%%%
 blade talisman
 талисман клинков
+%%%%
+blizzard demon
+демон метели
 %%%%
 blowgun of the Assassin
 духовая трубка Убийцы
@@ -6703,6 +6763,9 @@ greatsling
 greatsling "Punk"
 большая праща «Панк»
 %%%%
+green death
+зелёная смерть
+%%%%
 hammer
 молот
 %%%%
@@ -6732,6 +6795,12 @@ heavy crossbow "Sniper"
 %%%%
 hell sentinel
 адский страж
+%%%%
+hellion
+адский демон
+%%%%
+hellwing
+адское крыло
 %%%%
 hive talisman
 талисман улья
@@ -6904,6 +6973,9 @@ obsidian axe
 orange crystal plate armour
 оранжевые хрустальные латы
 %%%%
+orange demon
+оранжевый демон
+%%%%
 orb
 сфера
 %%%%
@@ -6990,6 +7062,12 @@ quill talisman
 %%%%
 ratskin cloak
 плащ из крысиных шкур
+%%%%
+reaper
+жнец
+%%%%
+red devil
+красный дьявол
 %%%%
 riddle talisman
 талисман загадки
@@ -7192,6 +7270,9 @@ slymdra
 smoky gem
 дымчатый самоцвет
 %%%%
+soul eater
+пожиратель душ
+%%%%
 spatial maelstrom
 пространственный водоворот
 %%%%
@@ -7263,6 +7344,9 @@ storm dragon scales
 %%%%
 storm talisman
 талисман бури
+%%%%
+sun demon
+солнечный демон
 %%%%
 swamp dragon scales
 чешуя болотного дракона
@@ -7572,6 +7656,9 @@ the Bribe Branch
 %%%%
 the Brigand
 разбойник
+%%%%
+the Brimstone Fiend
+серное исчадие
 %%%%
 the Brom's Barrelling Boulder
 катящийся валун брома
@@ -8197,6 +8284,9 @@ the Heavenly Storm
 the Hedge Wizard
 самоучка
 %%%%
+the Hell Sentinel
+адский страж
+%%%%
 the Hellfire Court
 адская свита
 %%%%
@@ -8256,6 +8346,9 @@ the Hurl Torchlight
 %%%%
 the Ice Elementalist
 маг льда
+%%%%
+the Ice Fiend
+ледяное исчадие
 %%%%
 the Ice Magic
 магия льда
@@ -9610,11 +9703,17 @@ the azure jelly
 the baked corpse
 запечённый труп
 %%%%
+the balrug
+балруг
+%%%%
 the barding
 бардинг
 %%%%
 the blade talisman
 талисман клинков
+%%%%
+the blizzard demon
+демон метели
 %%%%
 the blowgun of the Assassin
 духовая трубка убийцы
@@ -10309,6 +10408,9 @@ the greatsling
 the greatsling "Punk"
 большая праща «панк»
 %%%%
+the green death
+зелёная смерть
+%%%%
 the hammer
 молот
 %%%%
@@ -10338,6 +10440,12 @@ the heavy crossbow "Sniper"
 %%%%
 the hell sentinel
 адский страж
+%%%%
+the hellion
+адский демон
+%%%%
+the hellwing
+адское крыло
 %%%%
 the hive talisman
 талисман улья
@@ -10510,6 +10618,9 @@ the obsidian axe
 the orange crystal plate armour
 оранжевые хрустальные латы
 %%%%
+the orange demon
+оранжевый демон
+%%%%
 the orb
 сфера
 %%%%
@@ -10596,6 +10707,12 @@ the quill talisman
 %%%%
 the ratskin cloak
 плащ из крысиных шкур
+%%%%
+the reaper
+жнец
+%%%%
+the red devil
+красный дьявол
 %%%%
 the riddle talisman
 талисман загадки
@@ -10798,6 +10915,9 @@ the slymdra
 the smoky gem
 дымчатый самоцвет
 %%%%
+the soul eater
+пожиратель душ
+%%%%
 the spatial maelstrom
 пространственный водоворот
 %%%%
@@ -10869,6 +10989,9 @@ the storm dragon scales
 %%%%
 the storm talisman
 талисман бури
+%%%%
+the sun demon
+солнечный демон
 %%%%
 the swamp dragon scales
 чешуя болотного дракона
@@ -10960,6 +11083,9 @@ the tin of tremorstones
 the toga "Victory"
 тога «победа»
 %%%%
+the tormentor
+мучитель
+%%%%
 the tower shield "Bullseye"
 башенный щит «мишень»
 %%%%
@@ -11050,6 +11176,9 @@ the woodcutter's axe
 the wretched star
 мерзостная звезда
 %%%%
+the ynoxinul
+иноксинул
+%%%%
 the young poisoner's handbook
 пособие юного отравителя
 %%%%
@@ -11070,6 +11199,9 @@ tin of tremorstones
 %%%%
 toga "Victory"
 тога «Победа»
+%%%%
+tormentor
+мучитель
 %%%%
 tower shield "Bullseye"
 башенный щит «Мишень»
@@ -11157,6 +11289,9 @@ woodcutter's axe
 %%%%
 wretched star
 мерзостная звезда
+%%%%
+ynoxinul
+иноксинул
 %%%%
 young poisoner's handbook
 пособие юного отравителя

@@ -958,6 +958,22 @@
 - [Блуждающий огонёк](monsters/will-o-the-wisp.md)
 - [Смотритель Хранилищ](monsters/vault-warden.md)
 - [Закованный в железо заступник](monsters/ironbound-preserver.md)
+- [Уфетубус](monsters/ufetubus.md)
+- [Иноксинул](monsters/ynoxinul.md)
+- [Адский демон](monsters/hellion.md)
+- [Мучитель](monsters/tormentor.md)
+- [Жнец](monsters/reaper.md)
+- [Пожиратель душ](monsters/soul-eater.md)
+- [Балруг](monsters/balrug.md)
+- [Демон метели](monsters/blizzard-demon.md)
+- [Зелёная смерть](monsters/green-death.md)
+- [Оранжевый демон](monsters/orange-demon.md)
+- [Красный дьявол](monsters/red-devil.md)
+- [Адское крыло](monsters/hellwing.md)
+- [Солнечный демон](monsters/sun-demon.md)
+- [Адский страж](monsters/hell-sentinel.md)
+- [Ледяное исчадие](monsters/ice-fiend.md)
+- [Серное исчадие](monsters/brimstone-fiend.md)
 
 ## Состояния
 
