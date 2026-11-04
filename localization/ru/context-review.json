@@ -24755,7 +24755,7 @@
       "translation_sha256": "226bd9202ab2f6f2c61fa2a6363ca2591fe1cf7fcfa69c23caa97e61a0029289"
     },
     "the open sea?": {
-      "context": "xom.cc",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
       "translation_sha256": "e9bf0cf330450add919766fda5d784c64b3865f2a1678d80bbaafeee328dcdb1"
     },
     "Your surroundings seem different!": {
@@ -55797,9 +55797,1204 @@
     "An exit from the tutorial": {
       "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs.",
       "translation_sha256": "7fb3bfb992eb8039371123eef11c3c8dcf894c42bfc823567c735928fb0792e6"
+    },
+    "A glowing golden altar of the Shining One": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "96aa845d9397fe4b5097a77f3e7e24e7186c49897a2567ffd1ed9c93e6c5cc6d"
+    },
+    "a glowing golden altar of the Shining One": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "96aa845d9397fe4b5097a77f3e7e24e7186c49897a2567ffd1ed9c93e6c5cc6d"
+    },
+    "the glowing golden altar of the Shining One": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "96aa845d9397fe4b5097a77f3e7e24e7186c49897a2567ffd1ed9c93e6c5cc6d"
+    },
+    "A broken altar of Ashenzari": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e17b87815fcbef4d07ac0ca18c9855ea36dfe313d1937f64da83a5768998f3b8"
+    },
+    "the broken altar of Ashenzari": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e17b87815fcbef4d07ac0ca18c9855ea36dfe313d1937f64da83a5768998f3b8"
+    },
+    "a broken altar of Ashenzari": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e17b87815fcbef4d07ac0ca18c9855ea36dfe313d1937f64da83a5768998f3b8"
+    },
+    "a roughly hewn altar of Beogh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "fef79ee971378f039f88dd62808919e15cd8f196df9478d06092fa6145a7d47a"
+    },
+    "the roughly hewn altar of Beogh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "fef79ee971378f039f88dd62808919e15cd8f196df9478d06092fa6145a7d47a"
+    },
+    "A roughly hewn altar of Beogh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "fef79ee971378f039f88dd62808919e15cd8f196df9478d06092fa6145a7d47a"
+    },
+    "A snail-covered altar of Cheibriados": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41b52fc1680e3a9dc38a64636e5aa711b58879676c48394e917f1c046e948511"
+    },
+    "a snail-covered altar of Cheibriados": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41b52fc1680e3a9dc38a64636e5aa711b58879676c48394e917f1c046e948511"
+    },
+    "the snail-covered altar of Cheibriados": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41b52fc1680e3a9dc38a64636e5aa711b58879676c48394e917f1c046e948511"
+    },
+    "a shadowy altar of Dithmenos": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "01c3dd2bf6890be22dd4fb1d41ff9c0431ce1295066caad02720616ad5fff00b"
+    },
+    "the shadowy altar of Dithmenos": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "01c3dd2bf6890be22dd4fb1d41ff9c0431ce1295066caad02720616ad5fff00b"
+    },
+    "A shadowy altar of Dithmenos": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "01c3dd2bf6890be22dd4fb1d41ff9c0431ce1295066caad02720616ad5fff00b"
+    },
+    "A white marble altar of Elyvilon": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9ee2b39e5e236b958ad3bd934a8ac924f2dfb1015659206db8898f2c8422478a"
+    },
+    "a white marble altar of Elyvilon": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9ee2b39e5e236b958ad3bd934a8ac924f2dfb1015659206db8898f2c8422478a"
+    },
+    "the white marble altar of Elyvilon": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9ee2b39e5e236b958ad3bd934a8ac924f2dfb1015659206db8898f2c8422478a"
+    },
+    "the blossoming altar of Fedhas": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f44af61dfc28594359dd960b0f2c2ec44fd3a385c0ecf7af1bf3931d85f5dfbc"
+    },
+    "a blossoming altar of Fedhas": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f44af61dfc28594359dd960b0f2c2ec44fd3a385c0ecf7af1bf3931d85f5dfbc"
+    },
+    "A blossoming altar of Fedhas": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f44af61dfc28594359dd960b0f2c2ec44fd3a385c0ecf7af1bf3931d85f5dfbc"
+    },
+    "an opulent altar of Gozag": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1da4baa9473c55225065d5f80e3d5eabd3e1422d5edd917d979b92a73ea86bd6"
+    },
+    "the opulent altar of Gozag": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1da4baa9473c55225065d5f80e3d5eabd3e1422d5edd917d979b92a73ea86bd6"
+    },
+    "An opulent altar of Gozag": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1da4baa9473c55225065d5f80e3d5eabd3e1422d5edd917d979b92a73ea86bd6"
+    },
+    "A hazy altar of Hepliaklqana": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6461bfc652a79f9aa911aab767b0177dad9c7a06c6255245487ffa473d43253c"
+    },
+    "a hazy altar of Hepliaklqana": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6461bfc652a79f9aa911aab767b0177dad9c7a06c6255245487ffa473d43253c"
+    },
+    "the hazy altar of Hepliaklqana": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6461bfc652a79f9aa911aab767b0177dad9c7a06c6255245487ffa473d43253c"
+    },
+    "a candlelit altar of Ignis": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "120f83f40846318ed2319c6ef4f70ce117b3e338ce94a0f60ea946d360ccfb0f"
+    },
+    "A candlelit altar of Ignis": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "120f83f40846318ed2319c6ef4f70ce117b3e338ce94a0f60ea946d360ccfb0f"
+    },
+    "the candlelit altar of Ignis": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "120f83f40846318ed2319c6ef4f70ce117b3e338ce94a0f60ea946d360ccfb0f"
+    },
+    "the viscous altar of Jiyva": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2013f04aa0b29da50cd837358bbcd957b3afe8c590fc02166f1e0e350bcc38b8"
+    },
+    "a viscous altar of Jiyva": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2013f04aa0b29da50cd837358bbcd957b3afe8c590fc02166f1e0e350bcc38b8"
+    },
+    "A viscous altar of Jiyva": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2013f04aa0b29da50cd837358bbcd957b3afe8c590fc02166f1e0e350bcc38b8"
+    },
+    "an ancient bone altar of Kikubaaqudgha": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7b4f72ee18607db07e37deaf3913ffafd791720b6b964663b523a327a27cdfc4"
+    },
+    "An ancient bone altar of Kikubaaqudgha": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7b4f72ee18607db07e37deaf3913ffafd791720b6b964663b523a327a27cdfc4"
+    },
+    "the ancient bone altar of Kikubaaqudgha": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7b4f72ee18607db07e37deaf3913ffafd791720b6b964663b523a327a27cdfc4"
+    },
+    "the corrupted altar of Lugonu": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "09bc254108ad097c17966612ff7870baeac179ef19ce405a4bfa5b36d6c3445e"
+    },
+    "A corrupted altar of Lugonu": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "09bc254108ad097c17966612ff7870baeac179ef19ce405a4bfa5b36d6c3445e"
+    },
+    "a corrupted altar of Lugonu": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "09bc254108ad097c17966612ff7870baeac179ef19ce405a4bfa5b36d6c3445e"
+    },
+    "a burning altar of Makhleb": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "72c85678dd16ec1e5a2c53b5bc0b148885b6c1fd089ae9f2195228a7eab76a76"
+    },
+    "A burning altar of Makhleb": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "72c85678dd16ec1e5a2c53b5bc0b148885b6c1fd089ae9f2195228a7eab76a76"
+    },
+    "the burning altar of Makhleb": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "72c85678dd16ec1e5a2c53b5bc0b148885b6c1fd089ae9f2195228a7eab76a76"
+    },
+    "a sparkling altar of Nemelex Xobeh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d3081636735cecb55797d257adc6dcc40287539e9eb833f950560e62df672c6"
+    },
+    "the sparkling altar of Nemelex Xobeh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d3081636735cecb55797d257adc6dcc40287539e9eb833f950560e62df672c6"
+    },
+    "A sparkling altar of Nemelex Xobeh": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d3081636735cecb55797d257adc6dcc40287539e9eb833f950560e62df672c6"
+    },
+    "an iron altar of Okawaru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f6429561ea4e51d3d5b9e688d5bb97637e3abe479e6f837a5924bad599556a6d"
+    },
+    "An iron altar of Okawaru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f6429561ea4e51d3d5b9e688d5bb97637e3abe479e6f837a5924bad599556a6d"
+    },
+    "the iron altar of Okawaru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f6429561ea4e51d3d5b9e688d5bb97637e3abe479e6f837a5924bad599556a6d"
+    },
+    "the stormy altar of Qazlal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e22346978d9dba5daa4e6928efec9e7dabe82af3094e069ca16b1503f635932a"
+    },
+    "a stormy altar of Qazlal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e22346978d9dba5daa4e6928efec9e7dabe82af3094e069ca16b1503f635932a"
+    },
+    "A stormy altar of Qazlal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e22346978d9dba5daa4e6928efec9e7dabe82af3094e069ca16b1503f635932a"
+    },
+    "A sacrificial altar of Ru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c7cc6d1adaf9b43f1a2bd62a018f54bad758b9061ede6cb67f32294263f67a56"
+    },
+    "the sacrificial altar of Ru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c7cc6d1adaf9b43f1a2bd62a018f54bad758b9061ede6cb67f32294263f67a56"
+    },
+    "a sacrificial altar of Ru": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c7cc6d1adaf9b43f1a2bd62a018f54bad758b9061ede6cb67f32294263f67a56"
+    },
+    "A shimmering blue altar of Sif Muna": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "afa4f6dd6dc1b89bc4b3a52f08ed258604ca16fd8e26f3a10bd643749d5e8d74"
+    },
+    "a shimmering blue altar of Sif Muna": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "afa4f6dd6dc1b89bc4b3a52f08ed258604ca16fd8e26f3a10bd643749d5e8d74"
+    },
+    "the shimmering blue altar of Sif Muna": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "afa4f6dd6dc1b89bc4b3a52f08ed258604ca16fd8e26f3a10bd643749d5e8d74"
+    },
+    "a bloodstained altar of Trog": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "25da022563dc12c176e1427e4d2bf64d804d79b6bf124dfebb706108f764a210"
+    },
+    "the bloodstained altar of Trog": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "25da022563dc12c176e1427e4d2bf64d804d79b6bf124dfebb706108f764a210"
+    },
+    "A bloodstained altar of Trog": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "25da022563dc12c176e1427e4d2bf64d804d79b6bf124dfebb706108f764a210"
+    },
+    "the hide-covered altar of Uskayaw": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "70bfbd354f9086324a2d138687281f5fced553434f90e6d3eeb4952441599165"
+    },
+    "a hide-covered altar of Uskayaw": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "70bfbd354f9086324a2d138687281f5fced553434f90e6d3eeb4952441599165"
+    },
+    "A hide-covered altar of Uskayaw": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "70bfbd354f9086324a2d138687281f5fced553434f90e6d3eeb4952441599165"
+    },
+    "a radiant altar of Vehumet": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "443c14cbf6362376a06ec02e3831900db2459ef7a0ddb0ae4ad2b6d67f8176b2"
+    },
+    "the radiant altar of Vehumet": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "443c14cbf6362376a06ec02e3831900db2459ef7a0ddb0ae4ad2b6d67f8176b2"
+    },
+    "A radiant altar of Vehumet": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "443c14cbf6362376a06ec02e3831900db2459ef7a0ddb0ae4ad2b6d67f8176b2"
+    },
+    "An ornate altar of the Wu Jian Council": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f80fb29243696f74afee215fdc4dae1559a1e7746e43bb758efb2eb2008fd5ba"
+    },
+    "an ornate altar of the Wu Jian Council": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f80fb29243696f74afee215fdc4dae1559a1e7746e43bb758efb2eb2008fd5ba"
+    },
+    "the ornate altar of the Wu Jian Council": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f80fb29243696f74afee215fdc4dae1559a1e7746e43bb758efb2eb2008fd5ba"
+    },
+    "A shimmering altar of Xom": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "02a52f5373919ad43d8e69df12954fde334cbedc18ad84e896cdd94b3e9d061a"
+    },
+    "the shimmering altar of Xom": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "02a52f5373919ad43d8e69df12954fde334cbedc18ad84e896cdd94b3e9d061a"
+    },
+    "a shimmering altar of Xom": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "02a52f5373919ad43d8e69df12954fde334cbedc18ad84e896cdd94b3e9d061a"
+    },
+    "A basalt altar of Yredelemnul": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "439c6fe2ec56cdbea9384fcce0b730adaf05da1583b1a1e017591ef14339863a"
+    },
+    "a basalt altar of Yredelemnul": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "439c6fe2ec56cdbea9384fcce0b730adaf05da1583b1a1e017591ef14339863a"
+    },
+    "the basalt altar of Yredelemnul": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "439c6fe2ec56cdbea9384fcce0b730adaf05da1583b1a1e017591ef14339863a"
+    },
+    "a glowing silver altar of Zin": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9e2ec4ca700fa6532d9d656438c908791e09411b25b4c98ac5a097d3ed54f2a4"
+    },
+    "A glowing silver altar of Zin": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9e2ec4ca700fa6532d9d656438c908791e09411b25b4c98ac5a097d3ed54f2a4"
+    },
+    "the glowing silver altar of Zin": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9e2ec4ca700fa6532d9d656438c908791e09411b25b4c98ac5a097d3ed54f2a4"
+    },
+    "the large window": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41c5bd3dadf0a5011f6239afd3ce2883107f2ca953e3a34f932327c57381ed88"
+    },
+    "A large window": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41c5bd3dadf0a5011f6239afd3ce2883107f2ca953e3a34f932327c57381ed88"
+    },
+    "a large window": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "41c5bd3dadf0a5011f6239afd3ce2883107f2ca953e3a34f932327c57381ed88"
+    },
+    "the ice covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c72313c0b22323b52ee749377a41496a4f83359637544e6ca66fb20ee7fa25d8"
+    },
+    "an ice covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c72313c0b22323b52ee749377a41496a4f83359637544e6ca66fb20ee7fa25d8"
+    },
+    "An ice covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c72313c0b22323b52ee749377a41496a4f83359637544e6ca66fb20ee7fa25d8"
+    },
+    "An endless expanse of salt": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "cca028404fa2e942a9b7df77e4dd26b700d19c1a700af4a0698f80c202f9e40e"
+    },
+    "an endless expanse of salt": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "cca028404fa2e942a9b7df77e4dd26b700d19c1a700af4a0698f80c202f9e40e"
+    },
+    "the endless expanse of salt": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "cca028404fa2e942a9b7df77e4dd26b700d19c1a700af4a0698f80c202f9e40e"
+    },
+    "a ruined idol": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4799023f954da5affe243ce1b581ad11a87805e1b689d229f3008d2e65a5f6fc"
+    },
+    "A ruined idol": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4799023f954da5affe243ce1b581ad11a87805e1b689d229f3008d2e65a5f6fc"
+    },
+    "the ruined idol": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4799023f954da5affe243ce1b581ad11a87805e1b689d229f3008d2e65a5f6fc"
+    },
+    "An autumnal tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "67c9bed4ea08378a4d2fd42a98425630598028f6466af8e45d595f3024293175"
+    },
+    "the autumnal tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "67c9bed4ea08378a4d2fd42a98425630598028f6466af8e45d595f3024293175"
+    },
+    "an autumnal tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "67c9bed4ea08378a4d2fd42a98425630598028f6466af8e45d595f3024293175"
+    },
+    "a crumbled stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5e6b1ab5d3c13526fdd3e56f386b13c5c844b1eaca84c9fda6398f0cf47f3f2c"
+    },
+    "A crumbled stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5e6b1ab5d3c13526fdd3e56f386b13c5c844b1eaca84c9fda6398f0cf47f3f2c"
+    },
+    "the crumbled stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5e6b1ab5d3c13526fdd3e56f386b13c5c844b1eaca84c9fda6398f0cf47f3f2c"
+    },
+    "A strange statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "abe5f58c2ec4b54e85c37a8f5a2c818efbcda4f6bc31605e169c2a5e8ad06be4"
+    },
+    "the strange statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "abe5f58c2ec4b54e85c37a8f5a2c818efbcda4f6bc31605e169c2a5e8ad06be4"
+    },
+    "a strange statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "abe5f58c2ec4b54e85c37a8f5a2c818efbcda4f6bc31605e169c2a5e8ad06be4"
+    },
+    "A strange rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "df2822af10612ed1fb09a563ed18dcebfef0e9292a057d9142ac4200071dcee7"
+    },
+    "the strange rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "df2822af10612ed1fb09a563ed18dcebfef0e9292a057d9142ac4200071dcee7"
+    },
+    "a strange rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "df2822af10612ed1fb09a563ed18dcebfef0e9292a057d9142ac4200071dcee7"
+    },
+    "A highly decorated stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c217229e304eb8fd646bf8f40faa062794c873021788063e88864cb4aaa498cc"
+    },
+    "the highly decorated stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c217229e304eb8fd646bf8f40faa062794c873021788063e88864cb4aaa498cc"
+    },
+    "a highly decorated stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c217229e304eb8fd646bf8f40faa062794c873021788063e88864cb4aaa498cc"
+    },
+    "the rough-hewn floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "d2ad21bfd12494368c117a5d81129ebacad2b74cfe886ee74099a0df519d81ed"
+    },
+    "The rough-hewn floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "d2ad21bfd12494368c117a5d81129ebacad2b74cfe886ee74099a0df519d81ed"
+    },
+    "viscous fluid": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "ae3318c4c0fc1e460469191434893865291e8eb8a292ed74a5b014f522173d3d"
+    },
+    "Viscous fluid": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "ae3318c4c0fc1e460469191434893865291e8eb8a292ed74a5b014f522173d3d"
+    },
+    "the sinewy wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0756f7ffc54b422822c2b3fad061260ec3a7311d0c4e659b5f2628ab01bed025"
+    },
+    "A sinewy wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0756f7ffc54b422822c2b3fad061260ec3a7311d0c4e659b5f2628ab01bed025"
+    },
+    "a sinewy wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0756f7ffc54b422822c2b3fad061260ec3a7311d0c4e659b5f2628ab01bed025"
+    },
+    "A thin membrane": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1e628835926300129ead77f51833af513b09a5a0acf118e2ecaa33bcd615159e"
+    },
+    "the thin membrane": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1e628835926300129ead77f51833af513b09a5a0acf118e2ecaa33bcd615159e"
+    },
+    "a thin membrane": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "1e628835926300129ead77f51833af513b09a5a0acf118e2ecaa33bcd615159e"
+    },
+    "The pulsating floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0fbc5ced039a382810b67e0e04cec7e1fb8f0e1d3406e5d1d06555225cf65248"
+    },
+    "the pulsating floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0fbc5ced039a382810b67e0e04cec7e1fb8f0e1d3406e5d1d06555225cf65248"
+    },
+    "A broken fleshy orifice": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8279bc1dd9ba09ecf8bd1534ba443ca0ba3cee5641b840e4b0c61f6439d8b3bb"
+    },
+    "the broken fleshy orifice": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8279bc1dd9ba09ecf8bd1534ba443ca0ba3cee5641b840e4b0c61f6439d8b3bb"
+    },
+    "a broken fleshy orifice": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8279bc1dd9ba09ecf8bd1534ba443ca0ba3cee5641b840e4b0c61f6439d8b3bb"
+    },
+    "Zonguldrok's gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "35b103bec31b34d300a166e6fd343ed783a83e324dc546430bfd6d65fa71b292"
+    },
+    "zonguldrok's gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "35b103bec31b34d300a166e6fd343ed783a83e324dc546430bfd6d65fa71b292"
+    },
+    "the gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2355ce1034a0fdf6e56301b3a34c90f8e643f722aa0808fac328edcb70bd06d1"
+    },
+    "a gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2355ce1034a0fdf6e56301b3a34c90f8e643f722aa0808fac328edcb70bd06d1"
+    },
+    "A gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2355ce1034a0fdf6e56301b3a34c90f8e643f722aa0808fac328edcb70bd06d1"
+    },
+    "A wall of crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "681868161d1f75b2c9745a6b16d4dd3280fe79b213f145f25a5305a869b25d4c"
+    },
+    "the wall of crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "681868161d1f75b2c9745a6b16d4dd3280fe79b213f145f25a5305a869b25d4c"
+    },
+    "a wall of crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "681868161d1f75b2c9745a6b16d4dd3280fe79b213f145f25a5305a869b25d4c"
+    },
+    "The damp floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e0c9ce52fc1a2e6174b4cd43b6995985ffef3004f0d278b4c41aa6e03475076e"
+    },
+    "the damp floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e0c9ce52fc1a2e6174b4cd43b6995985ffef3004f0d278b4c41aa6e03475076e"
+    },
+    "a wall of orange crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6ecb5b72b55dc0b22d542f3045048dd46d74fcbdb1ad0b6e1f44770a1f837661"
+    },
+    "the wall of orange crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6ecb5b72b55dc0b22d542f3045048dd46d74fcbdb1ad0b6e1f44770a1f837661"
+    },
+    "A wall of orange crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6ecb5b72b55dc0b22d542f3045048dd46d74fcbdb1ad0b6e1f44770a1f837661"
+    },
+    "A wall of white crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8da858fe684975654920ee35ec49455b813a31005713afc774826e238455dcc0"
+    },
+    "a wall of white crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8da858fe684975654920ee35ec49455b813a31005713afc774826e238455dcc0"
+    },
+    "the wall of white crystal": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8da858fe684975654920ee35ec49455b813a31005713afc774826e238455dcc0"
+    },
+    "the black wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a9c4e7fa936fe6b07710d9b320e2191ba8780e270af49af41d285b7299e10c39"
+    },
+    "a black wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a9c4e7fa936fe6b07710d9b320e2191ba8780e270af49af41d285b7299e10c39"
+    },
+    "A black wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a9c4e7fa936fe6b07710d9b320e2191ba8780e270af49af41d285b7299e10c39"
+    },
+    "a carved rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39960e95d18825e2e4c48853a4e794449b9bc314484fd6b7558a940433fc3c0c"
+    },
+    "the carved rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39960e95d18825e2e4c48853a4e794449b9bc314484fd6b7558a940433fc3c0c"
+    },
+    "A carved rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39960e95d18825e2e4c48853a4e794449b9bc314484fd6b7558a940433fc3c0c"
+    },
+    "a metal statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c0529cf4317fbd8cf4ee37195b068bf6a880e4ff8f459e2c7261fb20c61eb336"
+    },
+    "the metal statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c0529cf4317fbd8cf4ee37195b068bf6a880e4ff8f459e2c7261fb20c61eb336"
+    },
+    "A metal statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c0529cf4317fbd8cf4ee37195b068bf6a880e4ff8f459e2c7261fb20c61eb336"
+    },
+    "a decorative floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b061512bd4172744bd49ad7479d6c15eb7c977017457f3acc739510ca866d942"
+    },
+    "the decorative floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b061512bd4172744bd49ad7479d6c15eb7c977017457f3acc739510ca866d942"
+    },
+    "A decorative floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b061512bd4172744bd49ad7479d6c15eb7c977017457f3acc739510ca866d942"
+    },
+    "A tree of woe": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "429befdd66eb1862a014af3565ceb4be062214ce7445741ae7e870fca9556dab"
+    },
+    "the tree of woe": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "429befdd66eb1862a014af3565ceb4be062214ce7445741ae7e870fca9556dab"
+    },
+    "a tree of woe": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "429befdd66eb1862a014af3565ceb4be062214ce7445741ae7e870fca9556dab"
+    },
+    "the dead tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0331197401be9255cd121bf31d981f628aa25c1f3807566e8ba1e2171d9f252e"
+    },
+    "A dead tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0331197401be9255cd121bf31d981f628aa25c1f3807566e8ba1e2171d9f252e"
+    },
+    "a dead tree": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0331197401be9255cd121bf31d981f628aa25c1f3807566e8ba1e2171d9f252e"
+    },
+    "A dead mangrove": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "d4786ba568dde6a9f325cd1e71c817ad30b61c1bc583f61582a7541b77cf3f3c"
+    },
+    "the dead mangrove": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "d4786ba568dde6a9f325cd1e71c817ad30b61c1bc583f61582a7541b77cf3f3c"
+    },
+    "a dead mangrove": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "d4786ba568dde6a9f325cd1e71c817ad30b61c1bc583f61582a7541b77cf3f3c"
+    },
+    "a bloodied mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7c4df5bcd1116125c2fa2a4c24001d0102a7bb33d6c50cd81c06a5a0b53927fd"
+    },
+    "the bloodied mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7c4df5bcd1116125c2fa2a4c24001d0102a7bb33d6c50cd81c06a5a0b53927fd"
+    },
+    "A bloodied mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7c4df5bcd1116125c2fa2a4c24001d0102a7bb33d6c50cd81c06a5a0b53927fd"
+    },
+    "an iron statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e60339ac02e38464fd3f56c59c638443d9b22a2a69393f42b3ccca951048472c"
+    },
+    "the iron statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e60339ac02e38464fd3f56c59c638443d9b22a2a69393f42b3ccca951048472c"
+    },
+    "An iron statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e60339ac02e38464fd3f56c59c638443d9b22a2a69393f42b3ccca951048472c"
+    },
+    "an infernal standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8227c60440379e579100640ea6d578328846b9597e77af260bea60f837e0d0b3"
+    },
+    "the infernal standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8227c60440379e579100640ea6d578328846b9597e77af260bea60f837e0d0b3"
+    },
+    "An infernal standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8227c60440379e579100640ea6d578328846b9597e77af260bea60f837e0d0b3"
+    },
+    "Ashen ground": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "3576ee129e4cbb4a29936cbe8c15831f3f8e1a9b5fea7b36cad5fd58b4eee8e4"
+    },
+    "ashen ground": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "3576ee129e4cbb4a29936cbe8c15831f3f8e1a9b5fea7b36cad5fd58b4eee8e4"
+    },
+    "a tempered metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "86146bc1eb49a983baa4f7c70538e30f4ae2b7a95c4cd8fbaa349c41fce99f9e"
+    },
+    "the tempered metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "86146bc1eb49a983baa4f7c70538e30f4ae2b7a95c4cd8fbaa349c41fce99f9e"
+    },
+    "A tempered metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "86146bc1eb49a983baa4f7c70538e30f4ae2b7a95c4cd8fbaa349c41fce99f9e"
+    },
+    "the ice-covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "53b1ae8eff7953e563f46bbccb5f0ef047d74350593d1c0a3413ed5cd83695bd"
+    },
+    "an ice-covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "53b1ae8eff7953e563f46bbccb5f0ef047d74350593d1c0a3413ed5cd83695bd"
+    },
+    "An ice-covered rock wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "53b1ae8eff7953e563f46bbccb5f0ef047d74350593d1c0a3413ed5cd83695bd"
+    },
+    "an ice-covered stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "884e3f976423e02a615f72f73f4a77126920200dca4760e3f840cdd9749521fa"
+    },
+    "An ice-covered stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "884e3f976423e02a615f72f73f4a77126920200dca4760e3f840cdd9749521fa"
+    },
+    "the ice-covered stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "884e3f976423e02a615f72f73f4a77126920200dca4760e3f840cdd9749521fa"
+    },
+    "frost-covered floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "fd5206eabf7295f62591351fd186fc628adb71bd51c4b6d35e22b74129d785bb"
+    },
+    "Frost-covered floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "fd5206eabf7295f62591351fd186fc628adb71bd51c4b6d35e22b74129d785bb"
+    },
+    "a golden statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e938201d1343e9f32e00a734703f3262dc5ffe7b37c8395f76a5b29e402da00c"
+    },
+    "A golden statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e938201d1343e9f32e00a734703f3262dc5ffe7b37c8395f76a5b29e402da00c"
+    },
+    "the golden statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e938201d1343e9f32e00a734703f3262dc5ffe7b37c8395f76a5b29e402da00c"
+    },
+    "A silver statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4dc679004981836c894811b0386cf8ef43e88bd80a59dcea40a6d3c2396b54b6"
+    },
+    "the silver statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4dc679004981836c894811b0386cf8ef43e88bd80a59dcea40a6d3c2396b54b6"
+    },
+    "a silver statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4dc679004981836c894811b0386cf8ef43e88bd80a59dcea40a6d3c2396b54b6"
+    },
+    "a scintillating statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8b28796541ae0b968058b8a370f1da90bc53ed25594d6309ff2450b434e7ebb0"
+    },
+    "A scintillating statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8b28796541ae0b968058b8a370f1da90bc53ed25594d6309ff2450b434e7ebb0"
+    },
+    "the scintillating statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "8b28796541ae0b968058b8a370f1da90bc53ed25594d6309ff2450b434e7ebb0"
+    },
+    "the mystic cage": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c8921e05e2b3ea7f7b6cd74d473d8f751a7ee7f76b6a6ad52441bf3326834824"
+    },
+    "a mystic cage": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c8921e05e2b3ea7f7b6cd74d473d8f751a7ee7f76b6a6ad52441bf3326834824"
+    },
+    "A mystic cage": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c8921e05e2b3ea7f7b6cd74d473d8f751a7ee7f76b6a6ad52441bf3326834824"
+    },
+    "An arcane conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9fe6f7e6f6ba656846dcb67d24daaa310001cfdb964312adfacdf1712031cc64"
+    },
+    "the arcane conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9fe6f7e6f6ba656846dcb67d24daaa310001cfdb964312adfacdf1712031cc64"
+    },
+    "an arcane conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "9fe6f7e6f6ba656846dcb67d24daaa310001cfdb964312adfacdf1712031cc64"
+    },
+    "A misfortune conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7030489636411cb3433cf8a3a4c0bbc60e93b8aee44d22c8ac4b174d8bca5f51"
+    },
+    "a misfortune conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7030489636411cb3433cf8a3a4c0bbc60e93b8aee44d22c8ac4b174d8bca5f51"
+    },
+    "the misfortune conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "7030489636411cb3433cf8a3a4c0bbc60e93b8aee44d22c8ac4b174d8bca5f51"
+    },
+    "a dimensional conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2fc0cef0c9d486d123d300bc5779c885129b8bcf2ddad2319b10c6c7b2e2bf55"
+    },
+    "A dimensional conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2fc0cef0c9d486d123d300bc5779c885129b8bcf2ddad2319b10c6c7b2e2bf55"
+    },
+    "the dimensional conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "2fc0cef0c9d486d123d300bc5779c885129b8bcf2ddad2319b10c6c7b2e2bf55"
+    },
+    "the soul conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "dff8975820e50b2b7f071d3c18664aea0e095efc2c680720a737b8bda83a23c4"
+    },
+    "A soul conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "dff8975820e50b2b7f071d3c18664aea0e095efc2c680720a737b8bda83a23c4"
+    },
+    "a soul conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "dff8975820e50b2b7f071d3c18664aea0e095efc2c680720a737b8bda83a23c4"
+    },
+    "the alchemical conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c4849ea3af0a54f5385c47ae3c52c8bf87842b70483d3aae7cfc70956c26f495"
+    },
+    "An alchemical conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c4849ea3af0a54f5385c47ae3c52c8bf87842b70483d3aae7cfc70956c26f495"
+    },
+    "an alchemical conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c4849ea3af0a54f5385c47ae3c52c8bf87842b70483d3aae7cfc70956c26f495"
+    },
+    "the fiery conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d0632c0bb4907cf2837ed8003fbf42de4c33001ac3eb769e82c5b5b4b4f3a0d"
+    },
+    "A fiery conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d0632c0bb4907cf2837ed8003fbf42de4c33001ac3eb769e82c5b5b4b4f3a0d"
+    },
+    "a fiery conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4d0632c0bb4907cf2837ed8003fbf42de4c33001ac3eb769e82c5b5b4b4f3a0d"
+    },
+    "An icy conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4c0ac4a6ce9e8931d7a703b197b25401e3dfbb4a30096e010154ffdcbf3a4bbc"
+    },
+    "the icy conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4c0ac4a6ce9e8931d7a703b197b25401e3dfbb4a30096e010154ffdcbf3a4bbc"
+    },
+    "an icy conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4c0ac4a6ce9e8931d7a703b197b25401e3dfbb4a30096e010154ffdcbf3a4bbc"
+    },
+    "the earthen conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b7edace8389d597a5e029204a0c275362a1368c8550e0f9701bea5b2ccd8dd28"
+    },
+    "an earthen conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b7edace8389d597a5e029204a0c275362a1368c8550e0f9701bea5b2ccd8dd28"
+    },
+    "An earthen conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b7edace8389d597a5e029204a0c275362a1368c8550e0f9701bea5b2ccd8dd28"
+    },
+    "the storm conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6457e75f6397eabb693eb21fea7d203d00add988edc35800761682fbbabed9b2"
+    },
+    "a storm conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6457e75f6397eabb693eb21fea7d203d00add988edc35800761682fbbabed9b2"
+    },
+    "A storm conduit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6457e75f6397eabb693eb21fea7d203d00add988edc35800761682fbbabed9b2"
+    },
+    "an enigmatic dynamo": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6d72e19c7a3cfe9ab2767088c63ee1784ba19810e6e37ed93c755831a388e109"
+    },
+    "An enigmatic dynamo": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6d72e19c7a3cfe9ab2767088c63ee1784ba19810e6e37ed93c755831a388e109"
+    },
+    "the enigmatic dynamo": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6d72e19c7a3cfe9ab2767088c63ee1784ba19810e6e37ed93c755831a388e109"
+    },
+    "the nascence circuit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0bf60d9b3f8686f46e692f53ff41082857fb98764c3ee93b53e6f12413b3ce95"
+    },
+    "a nascence circuit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0bf60d9b3f8686f46e692f53ff41082857fb98764c3ee93b53e6f12413b3ce95"
+    },
+    "A nascence circuit": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0bf60d9b3f8686f46e692f53ff41082857fb98764c3ee93b53e6f12413b3ce95"
+    },
+    "the floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "ce94c38080286772bd44e98cd91edc4be959e0384759f89b4a12f45584659a09"
+    },
+    "a floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "ce94c38080286772bd44e98cd91edc4be959e0384759f89b4a12f45584659a09"
+    },
+    "A floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "ce94c38080286772bd44e98cd91edc4be959e0384759f89b4a12f45584659a09"
+    },
+    "a garden patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6097ae5a168816b03e408174ab78f43eb99f0e82453cc93123c5cc67cb8f5bdb"
+    },
+    "the garden patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6097ae5a168816b03e408174ab78f43eb99f0e82453cc93123c5cc67cb8f5bdb"
+    },
+    "A garden patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6097ae5a168816b03e408174ab78f43eb99f0e82453cc93123c5cc67cb8f5bdb"
+    },
+    "a flower patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a497526f2361f8a858fb58048eab1865f4b4d0542a6c4206b628455cd78b8ec6"
+    },
+    "A flower patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a497526f2361f8a858fb58048eab1865f4b4d0542a6c4206b628455cd78b8ec6"
+    },
+    "the flower patch": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "a497526f2361f8a858fb58048eab1865f4b4d0542a6c4206b628455cd78b8ec6"
+    },
+    "a mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "75bf3420747788907ba1775ad0d783e4fe5bc7573339e1102abdd95aca31cd24"
+    },
+    "the mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "75bf3420747788907ba1775ad0d783e4fe5bc7573339e1102abdd95aca31cd24"
+    },
+    "A mop and bucket": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "75bf3420747788907ba1775ad0d783e4fe5bc7573339e1102abdd95aca31cd24"
+    },
+    "the fur brush": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c6ab234c814c7aca4f09825ca5797158a0bf625dd46ad447e8d229068e52105c"
+    },
+    "a fur brush": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c6ab234c814c7aca4f09825ca5797158a0bf625dd46ad447e8d229068e52105c"
+    },
+    "A fur brush": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "c6ab234c814c7aca4f09825ca5797158a0bf625dd46ad447e8d229068e52105c"
+    },
+    "the set of bottled spirits": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e0b5d51d7f4e0999bd973ac6082ec563fbc4d7c85219c5f6804a936c88165add"
+    },
+    "A set of bottled spirits": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e0b5d51d7f4e0999bd973ac6082ec563fbc4d7c85219c5f6804a936c88165add"
+    },
+    "a set of bottled spirits": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e0b5d51d7f4e0999bd973ac6082ec563fbc4d7c85219c5f6804a936c88165add"
+    },
+    "the djembe set": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f4510de048e845e3c5dd6246e6062d22df5ca8cd30a3b053b213146422970ba8"
+    },
+    "A djembe set": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f4510de048e845e3c5dd6246e6062d22df5ca8cd30a3b053b213146422970ba8"
+    },
+    "a djembe set": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f4510de048e845e3c5dd6246e6062d22df5ca8cd30a3b053b213146422970ba8"
+    },
+    "the caliginous standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f5e6732e298797837fbd4a8e7f0de6f437aba70fd7565ff86ddb373cc353e2"
+    },
+    "A caliginous standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f5e6732e298797837fbd4a8e7f0de6f437aba70fd7565ff86ddb373cc353e2"
+    },
+    "a caliginous standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f5e6732e298797837fbd4a8e7f0de6f437aba70fd7565ff86ddb373cc353e2"
+    },
+    "a skull pike": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4059b444d6d73784a50b35ec45d15b991fa8797215685533609b1c90f07f10ae"
+    },
+    "the skull pike": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "4059b444d6d73784a50b35ec45d15b991fa8797215685533609b1c90f07f10ae"
+    },
+    "the assortment of trash": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f3f827945c906137be011589f779fa36cb4aa1d68ba490f16342347eee8aec00"
+    },
+    "an assortment of trash": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f3f827945c906137be011589f779fa36cb4aa1d68ba490f16342347eee8aec00"
+    },
+    "An assortment of trash": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "f3f827945c906137be011589f779fa36cb4aa1d68ba490f16342347eee8aec00"
+    },
+    "a mourning vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0fb7f644d769a0068b351f4ace4f4168cde053d1069047218194204ddee4e1ce"
+    },
+    "A mourning vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0fb7f644d769a0068b351f4ace4f4168cde053d1069047218194204ddee4e1ce"
+    },
+    "the mourning vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0fb7f644d769a0068b351f4ace4f4168cde053d1069047218194204ddee4e1ce"
+    },
+    "a broken floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "367dadb34515ae9212419038f0e34b5171d3fde546c8dd78819a091ae259a071"
+    },
+    "the broken floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "367dadb34515ae9212419038f0e34b5171d3fde546c8dd78819a091ae259a071"
+    },
+    "A broken floral vase": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "367dadb34515ae9212419038f0e34b5171d3fde546c8dd78819a091ae259a071"
+    },
+    "a weapon-inlaid floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5f6df7b5ae27541d70687e93785ffa46697d895d7c6f2f9aa5a883b7adf01419"
+    },
+    "the weapon-inlaid floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5f6df7b5ae27541d70687e93785ffa46697d895d7c6f2f9aa5a883b7adf01419"
+    },
+    "A weapon-inlaid floor": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "5f6df7b5ae27541d70687e93785ffa46697d895d7c6f2f9aa5a883b7adf01419"
+    },
+    "the orcish standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b527ab63233cacde84423f7f41c7fea189cc8abaaa27aef6e43891e128cfb518"
+    },
+    "An orcish standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b527ab63233cacde84423f7f41c7fea189cc8abaaa27aef6e43891e128cfb518"
+    },
+    "an orcish standard": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "b527ab63233cacde84423f7f41c7fea189cc8abaaa27aef6e43891e128cfb518"
+    },
+    "the silver wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0379b69364bc8a880861015bd562496b8b05abdb9abcdc135076a2a338a92d6f"
+    },
+    "a silver wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0379b69364bc8a880861015bd562496b8b05abdb9abcdc135076a2a338a92d6f"
+    },
+    "A silver wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "0379b69364bc8a880861015bd562496b8b05abdb9abcdc135076a2a338a92d6f"
+    },
+    "A rune-carved stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "30e59d12ff9f3224ed752e2919aba27662660438041a6d8f39661a066de4b582"
+    },
+    "a rune-carved stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "30e59d12ff9f3224ed752e2919aba27662660438041a6d8f39661a066de4b582"
+    },
+    "the rune-carved stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "30e59d12ff9f3224ed752e2919aba27662660438041a6d8f39661a066de4b582"
+    },
+    "a rune-carved clear stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "411bf4da16e36bd319ea4258ce27c3e91aedb9e15763f5f8b43380c97de3747d"
+    },
+    "the rune-carved clear stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "411bf4da16e36bd319ea4258ce27c3e91aedb9e15763f5f8b43380c97de3747d"
+    },
+    "A rune-carved clear stone wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "411bf4da16e36bd319ea4258ce27c3e91aedb9e15763f5f8b43380c97de3747d"
+    },
+    "A sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "3c56beab21f2d96d2380051ee752003dc468602c5dc310790c9c0bfee953ce91"
+    },
+    "a sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "3c56beab21f2d96d2380051ee752003dc468602c5dc310790c9c0bfee953ce91"
+    },
+    "the sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "3c56beab21f2d96d2380051ee752003dc468602c5dc310790c9c0bfee953ce91"
+    },
+    "a heavily etched metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f34e198b52ea7071d91496fef990c4c88f8d48d97444b885f095442a2aee5f"
+    },
+    "A heavily etched metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f34e198b52ea7071d91496fef990c4c88f8d48d97444b885f095442a2aee5f"
+    },
+    "the heavily etched metal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "39f34e198b52ea7071d91496fef990c4c88f8d48d97444b885f095442a2aee5f"
+    },
+    "a heavily etched crystal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "20100de314dfb9ec85465f1d887b5a94f7d220f51696bb52cae4064b021ce33e"
+    },
+    "the heavily etched crystal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "20100de314dfb9ec85465f1d887b5a94f7d220f51696bb52cae4064b021ce33e"
+    },
+    "A heavily etched crystal wall": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "20100de314dfb9ec85465f1d887b5a94f7d220f51696bb52cae4064b021ce33e"
+    },
+    "an adventurer's gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "99a1645a3087e08e929f2cf2045c06125104eb7f0c481006d7d612f4afd10e58"
+    },
+    "the adventurer's gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "99a1645a3087e08e929f2cf2045c06125104eb7f0c481006d7d612f4afd10e58"
+    },
+    "An adventurer's gravestone": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "99a1645a3087e08e929f2cf2045c06125104eb7f0c481006d7d612f4afd10e58"
+    },
+    "An elephant-shaped statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "435a0e34b68bd2b84e19471e393426ce7e6fa99e7560fa312969d0382f99fff7"
+    },
+    "the elephant-shaped statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "435a0e34b68bd2b84e19471e393426ce7e6fa99e7560fa312969d0382f99fff7"
+    },
+    "an elephant-shaped statue": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "435a0e34b68bd2b84e19471e393426ce7e6fa99e7560fa312969d0382f99fff7"
+    },
+    "A weirdly glowing ball": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6707e90e65ad73db3ed186acfa0ba445e6ed24125c27e859e65a25ebf70366b2"
+    },
+    "a weirdly glowing ball": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6707e90e65ad73db3ed186acfa0ba445e6ed24125c27e859e65a25ebf70366b2"
+    },
+    "the weirdly glowing ball": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "6707e90e65ad73db3ed186acfa0ba445e6ed24125c27e859e65a25ebf70366b2"
+    },
+    "a sealed sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "66f3ed433c917c09159dd01e5c0df4f6b4626f944588ded928b01b6ff0d1c1c7"
+    },
+    "A sealed sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "66f3ed433c917c09159dd01e5c0df4f6b4626f944588ded928b01b6ff0d1c1c7"
+    },
+    "the sealed sarcophagus": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "66f3ed433c917c09159dd01e5c0df4f6b4626f944588ded928b01b6ff0d1c1c7"
+    },
+    "An open sea?": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e9bf0cf330450add919766fda5d784c64b3865f2a1678d80bbaafeee328dcdb1"
+    },
+    "an open sea?": {
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "translation_sha256": "e9bf0cf330450add919766fda5d784c64b3865f2a1678d80bbaafeee328dcdb1"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
   "message_source_sha256": "7689e20d541686fa0d13f5dd170b57996ec8415be94191fed9f8e39e86ae7053",
-  "artifact_power_fields_sha256": "4576e142a19be9b8114118007e6f203098f09a070412255bb97bc181622e6881"
+  "artifact_power_fields_sha256": "4576e142a19be9b8114118007e6f203098f09a070412255bb97bc181622e6881",
+  "runtime_monster_name_coverage": {
+    "source": "crawl-ref/source/mon-data.h: declared display-name strings",
+    "entries": 684,
+    "source_names_sha256": "6bb1c228a590959bef142249fb5d355d5490f1ea2756893e17b9b29a0911fcf9",
+    "translations_sha256": "9a772439fb9a78f7a589dd323a879d117556a7ec8b172e3dd16e6c8eea84651d",
+    "context": "Bounded exact-key coverage audit after manually authored glossary additions. This is not a review of all old Russian descriptions, declensions, runtime epithets or names assembled from multiple fragments. Test and legacy declarations are included; raw enum IDs remain unchanged."
+  }
 }

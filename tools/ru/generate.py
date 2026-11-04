@@ -5,6 +5,7 @@ Standard-library only. Unknown/unfinished messages keep the engine's English fal
 from pathlib import Path
 from collections import Counter
 import argparse
+import hashlib
 import json
 import re
 from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, read_db, write_db, reviewed_descriptions, reviewed_random_messages, artifact_power_fields
@@ -17,6 +18,16 @@ CASES = ("nom", "gen", "dat", "acc", "ins", "prep")
 def page_slug(key):
     # Colons create alternate data streams on Windows, rather than wiki pages.
     return re.sub(r'-+', '-', re.sub(r'[<>:"/\\|?*\x00-\x20]+', '-', key.lower())).strip('-. ')
+
+
+def feature_page_slugs(keys):
+    keys = tuple(keys)
+    counts = Counter(page_slug(key) for key in keys)
+    result = {key: page_slug(key) + ('-' + hashlib.sha256(key.encode()).hexdigest()[:8]
+                                  if counts[page_slug(key)] > 1 else '') for key in keys}
+    if len(set(result.values())) != len(result):
+        raise ValueError('Conflicting feature wiki paths')
+    return result
 
 
 def load_entities():
@@ -105,8 +116,10 @@ def outputs(entities):
     for category, group in terms.items():
         for english, russian in group.items():
             term_entries[english] = russian
-            term_entries["the " + english] = russian if category == "gods" else russian.lower()
-            term_entries["a " + english] = russian if category == "gods" else russian.lower()
+            article_name = (russian if category in ("gods", "monsters", "genus")
+                            else russian[:1].lower() + russian[1:])
+            term_entries["the " + english] = article_name
+            term_entries["a " + english] = article_name
     result[ROOT / "crawl-ref/source/dat/translate/ru/terms.txt"] = serialize_db(term_entries)
     system_messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
     result[ROOT / "crawl-ref/source/dat/translate/ru/system.txt"] = write_db(
@@ -208,6 +221,7 @@ def outputs(entities):
             powers.append(dict(label=title, text=description, source_field=field["field"]))
     for filename, group in reviewed.items():
         source = read_db(ROOT / f"crawl-ref/source/dat/descript/{filename}.txt")
+        feature_slugs = feature_page_slugs(source) if filename == "features" else {}
         target_path = ROOT / f"crawl-ref/source/dat/descript/ru/{filename}.txt"
         previous = read_db(target_path) if target_path.exists() else {}
         merged = {k: v for k, v in previous.items() if k in source}
@@ -222,7 +236,7 @@ def outputs(entities):
             reference[filename][key] = dict(title=title, text=entry["text"], source_sha256=entry["source_sha256"])
             if not title:
                 continue  # Shared description fragments and ego lookup keys are not item names.
-            slug = page_slug(key)
+            slug = feature_slugs.get(key, page_slug(key))
             if filename == "status":
                 # These are meaningful HUD variants, not discardable filename
                 # punctuation (Orb/Orb?, Rev/Rev*, Swift/-Swift, ...).

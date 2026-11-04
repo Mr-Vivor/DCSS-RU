@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools/ru"))
 from catalog import STATIC_FILES, DESCRIPTION_FILES, DATABASE_FILES, TOKEN, read_db, tokens, reviewed_descriptions, reviewed_random_messages, message_syntax_matches, artifact_power_fields
 from message_catalog import SOURCE, catalog as message_catalog, coverage as message_coverage, translations
-from generate import page_slug
+from generate import page_slug, feature_page_slugs
 
 
 class StaticTranslationTests(unittest.TestCase):
@@ -52,6 +52,35 @@ class StaticTranslationTests(unittest.TestCase):
             self.assertRegex(title, r"[А-Яа-яЁё]", key)
             page = ROOT / "wiki/ru/reference/monsters" / (page_slug(key) + ".md")
             self.assertIn("**English:** " + key, page.read_text(encoding="utf8"))
+
+    def test_ice_wall_variants_have_distinct_readable_pages(self):
+        source = read_db(ROOT / "crawl-ref/source/dat/descript/features.txt")
+        paths = feature_page_slugs(source)
+        first, second = "An ice covered rock wall", "An ice-covered rock wall"
+        self.assertNotEqual(paths[first], paths[second])
+        for key in (first, second):
+            page = ROOT / "wiki/ru/reference/features" / (paths[key] + ".md")
+            self.assertIn("**English:** " + key, page.read_text(encoding="utf8"))
+
+    def test_articles_preserve_proper_names_in_shared_terms(self):
+        terms = read_db(ROOT / "crawl-ref/source/dat/translate/ru/terms.txt", True)
+        self.assertEqual(terms["the Bai Suzhen"], "Бай Сучжэнь")
+        self.assertEqual(terms["a staff of Olgreb"], "посох Олгреба")
+
+    def test_declared_runtime_monster_names_have_russian_entries(self):
+        source = (ROOT / "crawl-ref/source/mon-data.h").read_text(encoding="utf8")
+        names = sorted(set(re.findall(r'^\s+MONS_[A-Z0-9_]+,.*?"([^"\n]+)"\s*,\s*$', source, re.M)))
+        self.assertGreater(len(names), 600)
+        known = translations()
+        values = {}
+        for name in names:
+            value = re.sub(r"^(?:\{[^}]+\})+", "", known.get(name, ""))
+            self.assertRegex(value, r"[А-Яа-яЁё]", name)
+            values[name] = value
+        review = json.loads((ROOT / "localization/ru/context-review.json").read_text(encoding="utf8"))["runtime_monster_name_coverage"]
+        self.assertEqual(review["entries"], len(names))
+        self.assertEqual(review["source_names_sha256"], hashlib.sha256(json.dumps(names, ensure_ascii=False).encode()).hexdigest())
+        self.assertEqual(review["translations_sha256"], hashlib.sha256(json.dumps(values, ensure_ascii=False, sort_keys=True).encode()).hexdigest())
 
     def test_ancestor_reference_pages_have_portable_distinct_paths(self):
         from generate import page_slug
@@ -168,7 +197,9 @@ class StaticTranslationTests(unittest.TestCase):
             for key, entry in data[filename].items():
                 self.assertEqual(wiki[key]["text"], entry["text"], key)
                 if wiki[key]["title"]:
-                    page = (ROOT / "wiki/ru/reference" / filename / (page_slug(key) + ".md")).read_text(encoding="utf8")
+                    slug = (feature_page_slugs(read_db(ROOT / "crawl-ref/source/dat/descript/features.txt"))[key]
+                            if filename == "features" else page_slug(key))
+                    page = (ROOT / "wiki/ru/reference" / filename / (slug + ".md")).read_text(encoding="utf8")
                     self.assertIn(entry.get("wiki_text", entry["text"]), page, key)
 
     def test_token_protection_distinguishes_contexts_and_natural_percentages(self):

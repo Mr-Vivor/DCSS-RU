@@ -6440,7 +6440,7 @@
     },
     "crawling flesh cage": {
       "source_sha256": "dffcaf8268202a0a092accc5938ecca54fc6435e518bd47ca8402fe68113f4d4",
-      "text": "Современный прорыв магических исследований: эта подвижная тюремная камера превращает в оружие живые фрагменты некогда сбежавших уродливых тварей. Удлинённые отростки позволяют ей хлестать сразу нескольких врагов на расстоянии.",
+      "text": "Современный прорыв магических исследований: эта подвижная тюремная камера превращает в оружие живые фрагменты некогда сбежавших уродливых существ. Удлинённые отростки позволяют ей хлестать сразу нескольких врагов на расстоянии.",
       "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
     },
     "pile of flesh": {
@@ -6886,7 +6886,7 @@
     },
     "morphogenic ooze": {
       "source_sha256": "359d671c38336ced2f94941c5bd07a9efeddaa4c71b3d6080a7f499dd5b70ff6",
-      "text": "Разноцветное месиво бурлящей плоти и меняющейся слизи, которое безуспешно пытается обрести большую цельность, чем прочие слизни. Как новый носитель губительной заразы, охватившей Слизневые ямы, он способен обречь других на ту же ужасную участь. Для вас превращение может оказаться временным, но слияние тела со снаряжением и сильное ослабление заклинаний всё равно способны сделать его смертельным.",
+      "text": "Разноцветное месиво бурлящей плоти и меняющейся слизи, которое безуспешно пытается обрести большую цельность, чем прочие слизни. Как новый носитель губительной заразы, охватившей Слизистые ямы, он способен обречь других на ту же ужасную участь. Для вас превращение может оказаться временным, но слияние тела со снаряжением и сильное ослабление заклинаний всё равно способны сделать его смертельным.",
       "context": "Current monsters.txt guardians, kobolds, revenants and summons. Existing translated names retained. Inugami retreat to spiritual form rather than promise ordinary resurrection at a fixed delay. Mountain-shell protection has adjacent-source weaknesses, not universal invulnerability. Morphogenic slime temporarily melds equipment and weakens spells, not permanent loss of equipment or all magic. Orc apostle follower is the same role after proving oneself, not a new kind of apostle. Proper type IDs and lookup keys unchanged. "
     },
     "mountainshell": {
@@ -7008,6 +7008,601 @@
       "source_sha256": "ecfa1861d6b350738b5894f8f70e4979034c92dc5fa54fb740432f59144bd8d7",
       "text": "Особенно густое золотистое студенистое существо. Под самой поверхностью его тела плавают и пульсируют мелкие слизни, готовые вырваться наружу при малейшем прикосновении.",
       "context": "Current monsters.txt guardians, kobolds, revenants and summons. Existing translated names retained. Inugami retreat to spiritual form rather than promise ordinary resurrection at a fixed delay. Mountain-shell protection has adjacent-source weaknesses, not universal invulnerability. Morphogenic slime temporarily melds equipment and weakens spells, not permanent loss of equipment or all magic. Orc apostle follower is the same role after proving oneself, not a new kind of apostle. Proper type IDs and lookup keys unchanged. "
+    },
+    "rusted inspector": {
+      "source_sha256": "9a094efb0ff5f7b527ed8aacca2b5c4bc5f2a26ba317cf58551d7ebfa4b827ec",
+      "text": "Скользящий металлический конструкт, некогда созданный для выявления мутировавших существ, вторгающихся в Хранилища, и давно заброшенный. Он всё ещё подавляет большую часть нежелательной магии, но без должного ухода покрылся чрезвычайно едкой мистической ржавчиной.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "sacred lotus": {
+      "source_sha256": "0fced8b01b6445d156cc678e6e73af89fd102a37c82b3e91f9ab70abf96808b7",
+      "text": "Крупный яркий цветок, безмятежно плывущий по поверхности воды. Чаша его лепестков сияет вечностью и изяществом. Он совершенно безвреден, но для его уничтожения потребовались бы огромные усилия.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "saltling": {
+      "source_sha256": "c1d16e660d2321dbbfd2bb47b0784c09ea028a1c2d51e52a736a21013f505be3",
+      "text": "Небольшое скопление соли в человеческом облике. Его создали последние беглые сторонники павшей восточной империи, вынужденные в отчаянии строить големов из местных материалов ради собственной защиты.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "scrapshell chimera": {
+      "source_sha256": "6f4ba44fa37202dfc7767ae1d19e0c492d0dbff9c8ce59c6e727b757471d8a29",
+      "text": "Живой механизм из плоти водных животных, сросшейся с колоссальной массой зачарованного металлолома. Подобные гибридные ужасы, возможно, стали самыми удачными опытами в этих отравленных водах. Настроенный на некромантию панцирь и питание яростными утонувшими ворами дали даже этому мечущемуся зверю власть над затонувшими душами бесчисленных жертв.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "screaming refraction": {
+      "source_sha256": "4a1b345b98b4256fdee089af882216df96663efe8f8c9e702520c34b8f023f5c",
+      "text": "Глубоко несчастная душа, почти целиком превращённая в кристалл зловещим разрывом реальности. На ближайшие поверхности и врагов проецируются бесплотные отражения её прошлых и будущих страданий.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "scrub nettle": {
+      "source_sha256": "d7b517d71bdac1a7c72865655e1fc789798d3e077a694acccd4a19ba68641def",
+      "text": "Раздражительный колючий куст. Он отгоняет всех, кто мог бы им полакомиться, выстреливая частью своих бесчисленных ядовитых жалящих волосков.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "seismosaurus": {
+      "source_sha256": "2491168119cc66cb7a957f40469e638d129a64f456a030fc7ecba7f5a21fcb31",
+      "text": "Упрямая ящерица с силой горы, яростно защищающая свою территорию. Грохот её шагов предвещает мощные подземные толчки.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "seismosaurus egg": {
+      "source_sha256": "e2d56c520b8b1896d666e115a2a7a5ae55b89d94a1de34d77a471686d8b33792",
+      "text": "Яйцо ящерицы размером с небольшой валун и почти такое же твёрдое. Возможно, ради защиты при появлении хищников из него быстро вылупляется детёныш. Даже новорождённый заставит почти любое чудовище задуматься о более лёгкой добыче.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "seraph": {
+      "source_sha256": "38a183929a1fa6b8a9b930c22e5dd94784f4e176ee1da0eccb6f50a38185a3d4",
+      "text": "Шестикрылый слуга добрых богов, принадлежащий к высшему чину ангельских воинств. Его глаза пылают божественным огнём.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "servant of whispers": {
+      "source_sha256": "d2c9eadd7ab8db2b2991a2ce20461dcdf5ae01ddbb2865581bb5220e8ceacd89",
+      "text": "Член монашеского ордена, отказавшегося от прежней веры. Теперь он служит малому божеству ветра и шёпота, позволяющему успокаивать воздух, а в крайней нужде — нарушать тишину божественным громом.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "sewage sovereign": {
+      "source_sha256": "91042fa514c1a4fda2a35b7ece76e44b4ed27b5d56c883f44719c4d3f6dc4617",
+      "text": "Грузная свинья-мутант, по-королевски пирующая обильными грибами своих владений. Других обитателей она держит в повиновении грубой силой и неудержимой массой.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow": {
+      "source_sha256": "d28e7171a7ac37c3066f2caf34cbbde2e905877b2a86d1fdcdb3cb7649470950",
+      "text": "Безликий силуэт вашего тела, самостоятельно движущийся божественной силой Дитменоса. Сколько бы раз его ни уничтожали, он будет возникать вновь: тень невозможно погасить, пока существует то, что её отбрасывает.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadowghast": {
+      "source_sha256": "19577873a0444fda47a6a2b1228dabbefaa96f5097b1b746bac9f7a8f85cdd69",
+      "text": "Крадущийся призрак, маскирующийся под безобидную тень. Приспособившись к сумраку Подземелья, он по желанию исчезает из виду и появляется вновь, стремительно переходя от одной тени к другой и безошибочно поражая слепые зоны тех, кто его не видит.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow demon": {
+      "source_sha256": "f706db4053b80baff5c273cafd176f52e05efea3a0c66436940915415f15f4dd",
+      "text": "Таинственная демоническая фигура, с трудом различимая на фоне окружающей тьмы. Она сплетает из теней могущественных приспешников.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow imp": {
+      "source_sha256": "777f76f5e418cff1ba9f52b5a0b02ed48d2da94c7dce00eb86ecdd489e875cec",
+      "text": "Малый теневой демон, тяготеющий к некромантии.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow prism": {
+      "source_sha256": "51e82ca9a6c7aaef6befea198b58423c6b7eed65ab1c96019eb8b278c17ef9f6",
+      "text": "Похожий на призму силуэт, колеблющийся от едва сдерживаемой разрушительной энергии. Любой удар, нарушающий его форму, вызовет мощный взрыв тени.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow puppet": {
+      "source_sha256": "b932309cbffa33cc7eaec23dbc4536e26155afaf507e82a0e62455cac5b65098",
+      "text": "Малый прислужник из живой тени, чьи очертания постоянно балансируют на грани узнавания, словно за почти знакомым предметом мерцает невидимый свет.\n\nСила его атак растёт пропорционально мощности заклинания, которым его призвали.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow turret": {
+      "source_sha256": "41680db253541c06ba83af59d343934641a606affd9cf3a79b9116e680db62c4",
+      "text": "Странно неподвижный силуэт, очертаниями напоминающий большую пушку. Порох ему не нужен, но с каждым выстрелом в глубине ствола злобно мерцает свет, будто воспоминание об огненной вспышке воспламенения.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "shadow wraith": {
+      "source_sha256": "cc33866cafcbe99f81bfc217296e9edab5847a1992769eaef9e7f16191a6b4a6",
+      "text": "Окутанная туманом скелетная тень, висящая в воздухе. Она высасывает жизненную силу живых существ.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "simulacrum": {
+      "source_sha256": "387af78a6cd584ad20da502b85d0b39c9bb726c93e915d14cd71c3229e49bcb3",
+      "text": "Ледяная копия монстра, оживлённая еретической магией.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "skeleton": {
+      "source_sha256": "62664af09b71d2fbb6c21d31bf10dcc4ffbfbdea2f1e3e09b2b7d08856f97bee",
+      "text": "Скелет, принуждённый к нежизни некромантией.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "snaplasher vine": {
+      "source_sha256": "c29d353a247df6914d6eba7fb8d7297c67f70c4ffe0836131832104e31f5909e",
+      "text": "Быстрая гибкая лоза, оживлённая магией дриады. Она стремительно хватает и опутывает врагов дриады, утаскивая их обратно в лес, из которого вырывается сама.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "snaplasher vine segment": {
+      "source_sha256": "a6e4d772240f98afe34d4c56e9bfee26cd89613103b7db8b667e3c22b84432e2",
+      "text": "Часть быстрой гибкой лозы, оживлённой магией дриады. Она стремительно хватает и опутывает врагов дриады, утаскивая их обратно в лес, из которого вырывается сама.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "solar ember": {
+      "source_sha256": "fa41c77ebc7eac2258b3726d30509a24bbc48f25092c87b91c14386218942fe6",
+      "text": "Частица ослепительного света и жара, созданная солнечным скарабеем. Она связана с его сущностью и никогда не покидает его, вновь и вновь возникая после угасания.\n\nПо некоторым мифам, солнце, освещающее внешний мир, тоже некогда носил с собой такой скарабей.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "soul wisp": {
+      "source_sha256": "c041f1f7a1a2ca2fc503fc8051b8d704a19f87065c7a40db35268939ee42b470",
+      "text": "Крошечный фрагмент живой души, отколотый от родного тела. Он слишком неразумен для полного подчинения и стремится лишь вновь соединиться с большей частью себя. К несчастью, это соединение обычно оказывается ещё более насильственным, чем создавшая его магия.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "spectral weapon": {
+      "source_sha256": "c7f0e6ccc912086aefd59a4cb95684be921075d7b44d4a7db0d39342602c4ec8",
+      "text": "Дух, извлечённый из оружия; самостоятельно он никогда не атакует. Часть нанесённого ему урона передаётся заклинателю.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "star jelly": {
+      "source_sha256": "7369ca774c814d800c03482c0b4afd79eccc071e100cacc9e65b375d79bf1db8",
+      "text": "Белая студенистая масса, пульсирующая странными радужными переливами. Её тело впитывает магическую энергию как губка; получив достаточно тяжёлые раны, она высвобождает её шквалом падающих звёзд.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "starflower": {
+      "source_sha256": "87cffc0236a734f0b632aaca8aa6493e4661eae7d2f196c851cd85d5c33e5946",
+      "text": "Сплетение хлещущих лоз и щупалец, растущее из оболочки мёртвой звезды. По древесине и лубу его ветвей течёт само пространство, и кажется, будто они находятся сразу во многих местах.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "starspawn tentacle": {
+      "source_sha256": "40db8d13e8241db7dc47791ded87399c01a72b97a6139de1d416f993602be1ca",
+      "text": "Извивающийся придаток звёздного отродья со щупальцами, способный схватить почти любую добычу и утащить её на съедение. Любой нанесённый ему урон ранит всё существо.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "starspawn tentacle segment": {
+      "source_sha256": "e105d6b4c094f4725ac53e24a70ae9ce2ed78410fcffd5e9646a5ca771d31784",
+      "text": "Гибкий участок вытянутого щупальца звёздного отродья. Любой нанесённый ему урон ранит всё существо.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "statue": {
+      "source_sha256": "e31c4e7a4dfc2578034f8b10fb7443bbc02d2672a8af43f3d64e7db563f4b77e",
+      "text": "Изваянный кусок гранита со светящимися красными глазами. Он прикреплён к основанию, но всё ещё может двигать отдельными частями тела.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "stoker": {
+      "source_sha256": "bea1ce939721246f48eb0b0bc795db7231cec7b3f0867e7f68934e7b13a75786",
+      "text": "Смертный, при жизни заключивший нечестивую сделку, а теперь в уплату прикованный к нежизни и уходу за адским огнём.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "strange machine": {
+      "source_sha256": "f30fe6ca186d7f21101db80f0a5e6f11ebfeb831f7e347cd65bcd58552e2f618",
+      "text": "Странный механизм, шипящий и потрескивающий. По его отражающей поверхности будто пляшут тени.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "sun moth": {
+      "source_sha256": "1dec148057e79290a86cd1e75741556dd65f57e43b2792cf696bd048ee97a9c8",
+      "text": "Моль неземной красоты, покрытая самовоспламеняющимися чешуйками. В её следе танцуют и кружатся крошечные угольки; со взмахом крыльев они вспыхивают столь ослепительно, что можно почти забыть, как далеко отсюда солнце.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "tainted leviathan": {
+      "source_sha256": "31f3825580fd87aa6780079234581e2c6d1c4d283fd2eb54faff98cbc90ccc15",
+      "text": "Ещё до того, как древнейшие личи подчинили жизнь и смерть, группа титанов попыталась вырваться из смертности одной грубой силой. Они почти преуспели, прежде чем гниение утянуло их к Эрешкигаль. В них ещё теплится отблеск прежней красоты, притягательный даже сквозь зловоние.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "telencephalon": {
+      "source_sha256": "0fe34a5bb7f3df15dee55189da543b0becf91f783a5248e68da04af72a78d644",
+      "text": "Заброшенный магический опыт с первоначальной целью, непостижимой даже по меркам подобных опытов. Он состоит из магического кристалла, сросшегося с мутировавшей мозговой тканью, и беспорядочно плавает сам по себе, непрерывно искря.\n\nПри тяжёлых повреждениях он высвобождает мощную телекинетическую ударную волну, отбрасывающую окружающих и вызывающую непреодолимое замешательство у всех, кто мог бы ему навредить.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "thermic dynamo": {
+      "source_sha256": "bf4bc80896bc35a23c22fac1297e9d5335acebdc12edfffa5848eebe64f0ee1a",
+      "text": "Бурлящая буря безграничной энергии, стекающей в самоцветы-конденсаторы. Вихри огня и льда порой вырываются наружу и неистово рикошетят от стен.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "tyrant leech": {
+      "source_sha256": "97c80922a0acabc9a4858ffc251eca7004ff90d9282b5e8c7205a700f9d39d6b",
+      "text": "Исключительно агрессивный кровососущий кольчатый червь, процветающий в болотах и топях.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "Tzitzimitl": {
+      "source_sha256": "a605830055d52954a11a9517b661ff380fbd60d0d9dd491ca2242e22a1ef09a9",
+      "text": "Ужасное павшее божество со скрежещущими каменными челюстями и ожерельем из звёздных органов. Оно сеет болезни и отчаяние и терпеливо ждёт конца времён, когда сможет пожрать солнце.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "ugly thing": {
+      "source_sha256": "3d6cc83fe584714d29c68fef6f63449e838e6ae4a6263e94227371afc20ecdf9",
+      "text": "Уродливое существо. По легенде, это потустороннее порождение селекционных опытов волшебника. Фу.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "undertaker": {
+      "source_sha256": "0c328949d7b5d3b114173e64be05066c3ffa6cc449f09374d34e00869f956e86",
+      "text": "Огромные хранилища мёртвых Подземелья и лежащие за ними нечестивые царства требуют постоянного пополнения и переустройства, с которым беспокойные мертвецы не справились бы сами. Эти конструкты-сборщики трупов роют землю и командуют отрядами оживлённых рук, помогающих похищать падаль. При случае они способны насильно создать и новые трупы для своих нужд.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "unseen horror": {
+      "source_sha256": "9964e3ad16a65411838824592a00f5a4e9d6a6338f1c92a51a0c7b63ce5f3c29",
+      "text": "Существо, которое мало кому удавалось увидеть; немногие видевшие предпочли бы этого не делать. Передвигается беспорядочно.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "ushabti": {
+      "source_sha256": "fa498bcec40adcb1f01921b5d686eecd66ba5271721fd034be53fd533fa85e7c",
+      "text": "Погребальная каменная фигурка, которую держат в гробнице для служения умершему в загробном мире. На ней начертаны заклинания, призванные вечно защищать погребённого.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "vampire bloodprince": {
+      "source_sha256": "9c889fc8b2c778690ba6786da78fbc68fc83c9f15fd6a865e3c40354a3c44694",
+      "text": "Презрительный отпрыск знатного рода, перед которым преклоняют колени даже другие вампиры. Власть над магией крови позволяет ему питаться жизненной силой целых армий сразу.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "very ugly thing": {
+      "source_sha256": "41f96559aca4b5275b87e405d088eae27f6c040761cca60a208aaceb12f53ceb",
+      "text": "Очень уродливое существо. По легенде, это потустороннее порождение селекционных опытов волшебника. Двойное фу!",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "walking alembic": {
+      "source_sha256": "49b0dfd9f384d7512815a954d02acd83d93dc9ee764065add712663ae64c6ce2",
+      "text": "Подвижная боевая алхимическая мануфактура, использующая трение ближнего боя для приготовления разнообразных полезных зелий. Накопив достаточно тепла для завершения синтеза, она автоматически раздаёт готовые зелья ближайшим союзникам и распадается.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "war gargoyle": {
+      "source_sha256": "246c5b560de269520f94df0558407f5f7923663a1b83386063ce07f61fbd2d9f",
+      "text": "Редкая горгулья, созданная из цельной стальной статуи и наделённая свирепой силой, быстротой и боевым дыханием.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "weeping skull": {
+      "source_sha256": "4befe2ab80ddcb760bc2f1810708eb4904888140790da6c030b2b1c4398a2c8f",
+      "text": "Череп-нежить, удерживаемый в воздухе нечестивыми облаками общей скорби, которые медленно плывут в его следе. Он бесконечно оплакивает и живых, и мёртвых, и собственную прежнюю жизнь.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "wendigo": {
+      "source_sha256": "28f6d492e33e4e9c2c195a4ef081362d8dd0d676b00cb400eb26e0c06ec175e3",
+      "text": "Исхудавший дух ледяного голода, настолько ненасытный, что пожирает и друзей, и врагов. По легенде, если отрубить ему ноги, он начнёт есть собственный костный мозг. Он преследует заблудившихся в холоде и охотится с силой метелей.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "wyrmhole": {
+      "source_sha256": "d402d2efb4f2eef3a96081c92c9d23c59a674edbc5b16a13c47c8dbfd2ad4e8d",
+      "text": "Небольшая, странно змееподобная складка пространства и времени. Учёные некогда предположили, что лёгкий доступ из Подземелья во множество нечестивых царств объясняется тоннелями ещё не открытых драконов перемещений. Правда это или нет, бесконечное тело этого дрейка испещрено далёкими звёздами, а измерения гнутся по прихоти его извивов.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "yaktaur": {
+      "source_sha256": "2f0ae26ba5d6c90248f61eecd4a4d126f536fd153b4d3b138fba74a60db2a716",
+      "text": "Гибрид с крепким человеческим торсом на теле яка. Превосходен в дальнем бою и грозен вблизи.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "zombie": {
+      "source_sha256": "1998360601f55addcd3f5581789e759aa9312fa27278bf484185c3346790e4a9",
+      "text": "Труп, поднятый некромантией к нежизни.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "zykzyl": {
+      "source_sha256": "cc543d6a01af6ee3c1e9619e0f26fb4f2066d1d220cfba92b34806d050cd1e3f",
+      "text": "Демон, рождённый завистью смертных. При каждом движении его плоть колышется с тошнотворной влажностью. Единственное его желание — сделать всё прекрасное столь же отвратительным, как он сам.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "ghost": {
+      "source_sha256": "171bbd53c97295df95c31b035751ca58b187266fa1c5c7ae8ae9548306fcccc1",
+      "text": "Останки монстра, существовавшего в более ранней версии игры и впоследствии удалённого.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "sensed monster": {
+      "source_sha256": "103ab14741f01a4f02b2a13dc6a64e2496fc79ecab84ad7caba13207fd50e6ac",
+      "text": "Враждебное существо, присутствие которого было обнаружено.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "trivial sensed monster": {
+      "source_sha256": "74a0df379eaeaf65a477c3658ee964946441f60932cc8189854872ea0b39b51c",
+      "text": "Ничтожно слабое существо, чьё присутствие раскрыто силой Ашензари.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "easy sensed monster": {
+      "source_sha256": "87725c1ca2ac8c8165a8ed90a49b0be3563d7d204f58c87cd20ca46beb7f623a",
+      "text": "Слабое существо, чьё присутствие раскрыто силой Ашензари.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "tough sensed monster": {
+      "source_sha256": "033c03416c98024c080403305dd33792cfc686212f2d2f70aa8c6c26c6f1efb9",
+      "text": "Довольно опасное существо, чьё присутствие раскрыто силой Ашензари.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "nasty sensed monster": {
+      "source_sha256": "dd29af445b418948b95556c43b9f2a2ed46acaa7bf7c55b3d43f3482db37f3f4",
+      "text": "Очень опасное существо, чьё присутствие раскрыто силой Ашензари.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+    },
+    "friendly sensed monster": {
+      "source_sha256": "a7b328152eebd8802f41a096d76d4e6c944619d3959d72023bb6b0441a7edf5d",
+      "text": "Дружественное существо, чьё присутствие {{\n    if you.god() == \"Ashenzari\" then\n        return \"раскрыто силой Ашензари\"\n    else\n        return \"обнаружено\"\n    end\n}}.",
+      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. ",
+      "lua_strings": {
+        "revealed by the power of Ashenzari": "раскрыто силой Ашензари",
+        "detected": "обнаружено"
+      },
+      "wiki_text": "Дружественное существо, чьё присутствие было обнаружено. При поклонении Ашензари его раскрывает сила бога."
+    },
+    "Cloud Mage": {
+      "source_sha256": "974b91355fa273f745fb9c80f8e2e781dea3345564751b9f155214875cd56ab9",
+      "text": "Странный волшебник, в совершенстве овладевший облаками. Он делает ловкие и зловещие магические жесты.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "Head Instructor": {
+      "source_sha256": "4529086b292c9b85e37970cf91b5d416abd78ce8109ff50c321f86a6fafef863",
+      "text": "Могущественный воин-маг, обучающий начинающих учеников физическому, магическому и антимагическому бою.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "Hellbinder": {
+      "source_sha256": "7b3249be9ff42d375b6802af36b1ed83bfdcf30b81a1ac61a4acea0a494d6970",
+      "text": "Могучий заклинатель, окружённый магическими энергиями и бормочущий нечестивые заклятия.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "Master Blaster": {
+      "source_sha256": "0878205c5f29f39779faa8e0727dbeb235e7c54877e14a3a7a5a25b86020747f",
+      "text": "Могучий старый лич, известный привычкой обрушивать на людей мощные разрушительные заклинания при малейшем поводе или просто по прихоти.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "Statue of Wucad Mu": {
+      "source_sha256": "7b260b6cd3e128d6b940dee1bf9ff70993d18207afa7267a3a3bf1e74576c366",
+      "text": "Статуя из превосходного стекловидного оранжевого кристалла. Она изображает Вукад Му, мистика, овладевшего тайнами разума, и наделена его силами для мысленного боя.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "moon troll": {
+      "source_sha256": "2eefd98eef3a9571ff22ffeeb8595a7984ca0544a0542b4f0bebdae59cbdc636",
+      "text": "Причудливая разновидность разумных троллей, светящаяся таинственной силой из-за пределов этого мира. Эта сила защищает от урона, кроме нанесённого с близкого расстояния.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "air elementalist statue": {
+      "source_sha256": "e67c8eaec079025c434f155d4ae342857fe5e80c63ec09bce48ae271a4cccc9d",
+      "text": "Изящная статуя тэнгу, скользящего по воздуху. Выглядит почти бесплотной.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "antique champion": {
+      "source_sha256": "eb8c5df0cf48240bf7af9777134f6c4cfe6863af888a9b3c7ff311523e9a00f3",
+      "text": "Непостижимо дорогой скелет. На его костях выгравированы бесчисленные знаки, и от него пульсирует призрачное присутствие.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "archer statue": {
+      "source_sha256": "b5081953e515fb8f19b698224668300e6e53196a978a26b3311a4612653ab53d",
+      "text": "Статуя прекрасного эльфийского лучника из лучшего мрамора. Она держит поднятый лук и, по-видимому, оживлена магией, позволяющей изрешетить незваных гостей стрелами.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "bog mummy": {
+      "source_sha256": "950ed4a41f6e97fce5c7b369d0f0c902d1dcc5487120d630da3af8dfdb1011b9",
+      "text": "Нежить, чьё тело сохранилось в солоноватых болотных водах. Оно уже сильно разложилось и выглядит хрупким.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "captured wizard": {
+      "source_sha256": "d128281c0aeccab04665930c6bf42b530cd0166a0c687b0270d7c9b256b78e38",
+      "text": "Волшебник с диким взглядом и отрезанным языком. Он лихорадочно бормочет и размахивает руками, но не способен сотворить ни единого заклинания.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "charred statue": {
+      "source_sha256": "88ea3b17e3299798198160813d51c48d91665514954ba3bd8cc97f944499255f",
+      "text": "Статуя, наделённая пламенем и потому способная применять простые огненные заклинания школы Разрушения.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "Cigotuvi's Monster": {
+      "source_sha256": "b9ccf531e06fd1e291e2597852cbdd0e92b62a6bfb43d8c8fadd91abaaf8d27d",
+      "text": "Ужасающее создание, словно собранное из частей тел всех мыслимых чудовищ. Из его тела растут извивающиеся щупальца.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "conjurer statue": {
+      "source_sha256": "184dbc08ede2c8478e62b16fcbdef85785d86661ce5dc3e575fb6b3701e8bd54",
+      "text": "Статуя, способная использовать самые могущественные заклинания чистого Разрушения, когда-либо созданные Искендеруном.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "deformed humanoid": {
+      "source_sha256": "f2fe50b4fe9498bc3d2888664b223ae8b146e39312b947a5a120736d3d3bde02",
+      "text": "Несчастное существо, выглядящее чудовищно изуродованным.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "demonic plant": {
+      "source_sha256": "2bd23ba51c578438b9a7178134ca1d89995bbe6c8475357fab75eb8987363654",
+      "text": "Демоническое подобие растения, покрытое загадочными придатками и извивающимися щупальцами. Кажется безвредным.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "dimme": {
+      "source_sha256": "0c49f81a2d21483249bee90005f2b352f3f4edcbbf761824f1af667275be3fa4",
+      "text": "Ужасное существо демонического происхождения. Его присутствие пугает, но сверхъестественно притягивает.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "drunken dwarf": {
+      "source_sha256": "b5df6ddd4fffbf9566b0b40325eb70992561382f37daef111b73e0bbd45f8f10",
+      "text": "Дворф, который, похоже, проверяет качество эля и получает от работы немного слишком много удовольствия.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "earth elementalist statue": {
+      "source_sha256": "90336141cd18fb562368c1dcce9a755446e4bc0cc3bd3943cdf776d4dc974ef3",
+      "text": "Простая статуя дворфа с киркой. Выглядит невероятно тяжёлой.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "fire elementalist statue": {
+      "source_sha256": "af9b7d8274f75155a13873f55abba5e94f440bf30d6b19f67c8042949aad9f31",
+      "text": "Богато отделанная статуя орка с поднятым факелом, высеченная из чёрного базальта. Воздух вокруг неё дрожит.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "frost-covered statue": {
+      "source_sha256": "eb8e99dd8841c781158f0457b3122241afd11a04ce3e043d0526265796f01164",
+      "text": "Статуя мага, поверхность которой непрерывно покрывается инеем.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "goblin sharper": {
+      "source_sha256": "abb2fc15d7fdf3ac4b44482c027c233c5ffe61b8be555b8fa91b1f7c4f04023c",
+      "text": "Гоблин, недавно обратившийся к Немелексу Зобеху. Он ещё разбирается во всех картах и, к счастью, не собирается применять их против вас.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "greater air elemental": {
+      "source_sha256": "85cf67479c2aa4288942531e5c5a5b81e78bfc47ed0097c8314eadde32d71c03",
+      "text": "Могущественный дух, призванный со стихийного плана воздуха и окружённый смертоносным морозным вихрем.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "flame-cult kobold": {
+      "source_sha256": "ba9c6f53a94ca1b87ca2e92b97f7d6e8eb4dc707733861332f366365a96de40e",
+      "text": "Кобольд, зачарованный так, чтобы взорваться вспышкой пламени.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "malarious merfolk avatar": {
+      "source_sha256": "f2685bd19a9ca15e8429baee8a50aa73c22ad5e77e5d87b27229b5cabf1b2bb5",
+      "text": "Молодая русалка, выглядящая тяжело больной, но всё ещё способная околдовывать слушателей.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "spectator": {
+      "source_sha256": "0acfefc68b976f5ccdec187886fdaa47c41d2e0f87de5e7e2f38d8e9043bbefd",
+      "text": "Последователь Окавару, удостоенный чести наблюдать за смертельным поединком.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "oklob plant annihilator": {
+      "source_sha256": "8c2543dddc09285fb093f519e4f1484e6b1f729b1b6c4f1d1d3566a4f3d605c0",
+      "text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "oklob sapling priest": {
+      "source_sha256": "4fe659628304e54d52b61dc635cb0b756098b7890980691f220155c414308672",
+      "text": "Молодое растение-оклоб, которое будто бормочет молитвы... погодите, что?!",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "pristine statue": {
+      "source_sha256": "50d30e4a3de165041ce3ddccabf21f5be3e6bec13bb011b0535d6e2871d8fd4b",
+      "text": "Безукоризненно изваянная порфировая статуя стрелка, приготовившегося выпустить болт. У бедра висит полный колчан.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "rotten bat": {
+      "source_sha256": "8bd35507e5715b834ef1e6263eee2638ac0007549f41ef6432dc26c729d09fa7",
+      "text": "Летучая мышь, чей срок годности истёк очень давно.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "sickly merfolk siren": {
+      "source_sha256": "17b8221580016dca6e3552b4a9a2b9e8a716b33aad14011c279080fde65e269e",
+      "text": "Молодая русалка, выглядящая довольно больной, но всё ещё способная завораживать жертв.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "still boulder": {
+      "source_sha256": "cebe7023e36b9adc11a90340b141edc3044be0d6eb4e8fa3e1cfee5095f64ec5",
+      "text": "Исполинская масса камня, пребывающая в покое.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "water elementalist statue": {
+      "source_sha256": "1db70d3cff40c8ac569c0757a5473f42d7ffbbfef9e5f55b28174ceff6e7ce93",
+      "text": "Гладкая статуя прекрасной русалки, купающейся в фонтане, изваянная из сливочного травертина с лёгким розовым оттенком. Она мягко блестит на свету.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "witch": {
+      "source_sha256": "fcbd70d2540e10a57669bfd0364d80a71f2f033f87cfbd774de51a9358abd2d9",
+      "text": "Старая, неестественно уродливая женщина в одеяниях, испачканных, похоже, болотной тиной, копотью котла и ингредиентами зелий.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "withered plant": {
+      "source_sha256": "a680a3dfadfdd380de64fa364f277499a4ec69aeb0fcc5ac654cf784606b9b2a",
+      "text": "Растение, из которого вытянута жизнь, хотя его оболочка осталась целой. Похоже, оно погибло много {{ if you.branch() == \"Crypt\" or\nyou.branch() == \"Tomb\" or you.branch() == \"Zot\" then return \"веков\";\nelse return \"лет\"; end }} назад.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. ",
+      "lua_strings": {
+        "centuries": "веков",
+        "years": "лет"
+      },
+      "wiki_text": "Растение, из которого вытянута жизнь, хотя его оболочка осталась целой. Оно выглядит давно погибшим."
+    },
+    "zin angel": {
+      "source_sha256": "c5dd9953649da095c9951c1a7768e684d998db530a406406b6c37bf0c264345c",
+      "text": "Божественный посланник Зина — высокая крылатая фигура с аурой ослепительно белого света. Его лицо искажено хмурым выражением, словно рвение к борьбе с любым настоящим или мнимым пороком затмевает доброту.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "zot statue": {
+      "source_sha256": "0eb42d35f501e6c405709dbc1ad09c71b95df23a6d1d5a4c955b3b03beb61167",
+      "text": "Глубоко тревожащая статуя, высеченная из цельного куска тёмного габбро, мерцающего крошечными кристаллами. Невозможно понять, изображает ли она какое-либо существо или личность либо является совершенно отвлечённой фигурой.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "bag of meat": {
+      "source_sha256": "7591c1a1844c3111dcac604a6311e58ba233e8ac20c48f4f8865c3f52e98f3ae",
+      "text": "Одно из легиона отродий, созданных ваятелями плоти. Это ужасное подражание человеческому телу: неузнаваемая сшитая масса мяса с будто случайно приделанными конечностями. Местами кожа свободно свисает, а местами отвратительно вздувается. На каждом вырезан большой знак — отметина гордости исковерканного создателя.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "large bag of meat": {
+      "source_sha256": "e7534fbcd8182fcc9dcb68d7db50cbb827eb33e010324e80bb22db48d083329e",
+      "text": "Одно из легиона отродий, созданных ваятелями плоти. Его раздувшаяся туша непрерывно пульсирует и содрогается от проклятого пламени. Кажется, в любой миг она может взорваться потоком внутренностей.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "meat berserker": {
+      "source_sha256": "f196821114ba6f3cb23b8af3ef0ea772e09840ba24f6c68cc95df1d30ba05239",
+      "text": "Одно из легиона отродий, созданных ваятелями плоти. Его тело велико и мускулисто. Он движется стремительно и с безрассудной яростью, одержимый единственной мыслью — с упоением разорвать вас. Его неистовство сопровождает оглушительная какофония.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "meat hydra": {
+      "source_sha256": "355bb5567e9f9feb891270b80f725d63101c61fe4bec92b7d960c432b0af3e09",
+      "text": "Одно из легиона отродий, созданных ваятелями плоти. Каждая из восьми шей вздута и вытянута из колоссального смятого тела, истекающего ихором. Многочисленные головы изрыгают кровь, извиваясь и содрогаясь в агонии. Она причиняет мучения и самой себе, и каждому, кто видит её мерзкий облик.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "meat beast": {
+      "source_sha256": "9fec66e1a78cfd5a4d7c466820e15025bc3eeecd585898defa6871a82c0c8351",
+      "text": "Одно из легиона отродий, созданных ваятелями плоти. Пылая демоническим неистовством, оно бодает и топчет с несравненной свирепостью. Кожа содрана, обнажая блестящие мышцы и сухожилия, а зубы в пещеристой пасти запятнаны кровью.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "sculptor of flesh": {
+      "source_sha256": "1a1900b86d90bee0efade3bb5078a3ae0ad413d54e4e45bf9c58a9bd5ed2ec81",
+      "text": "Мастер нежизни в облике мрачного скелета. Шесть длинных рук заканчиваются изуродованными кистями со сломанными пальцами, на которых он ползает словно паук. Череп ненормально велик и полон дыр. Покрасневшие потрескавшиеся кости исписаны нечестивыми заклятиями, которыми он собирает своих марионеток.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "destroyer": {
+      "source_sha256": "45bc7602f6c1da338bc550c2085977090488dc3ec88edd12d6f071590a0a94e5",
+      "text": "Уничтожители сходятся на вас. Они приходят во множестве и в ярости, с пастями, разверстыми словно бездонная пропасть погибели. Они несут вашу гибель и будут пировать на останках.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "accursed": {
+      "source_sha256": "756405794030f27fd2c3fba3ca7e161e06e7ac8e45d0d795a7d48d988bb48b33",
+      "text": "Проклятые — те, кто пришёл прежде. Теперь они явились, чтобы вы разделили их участь.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "tyrant": {
+      "source_sha256": "b232538e74e376a7c3b6e828519c4e0625de5cae47d078edb5ffc012a2d78999",
+      "text": "Колоссальная масса костей и черепов, ходячая гробница. С её приближением слышны крики и вопли. Каждый сокрушительный шаг отламывает кости, но она вновь собирает себя в вечном беспокойстве.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "dread": {
+      "source_sha256": "ccb18281c90f3c6fe174a507cce004f8218b5e828c28cb636da96542b694c367",
+      "text": "Оскорбление самому существованию, пустота, в которой есть лишь мучение и адская кара. Его неземной облик изорван и искривлён, чёрен и пуст. Оно лишено разумной мысли и знает лишь ненависть и жажду осквернить вашу душу.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "scourge": {
+      "source_sha256": "4df257a315b31b71802f11451738523855a784b08168ba7ddb9175f375c600f6",
+      "text": "Огромное змееподобное тело с обнажённой больной кожей, сочащееся желчью и гноем, извергающее яд и заразу.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "observer": {
+      "source_sha256": "f0cd2c4260a6df15257342eed66111cde055de632c0047acd33a8a085ed41a0f",
+      "text": "Вы видите незримое: вы смотрите, и они смотрят в ответ. Они шепчут и смеются, скалятся и плачут, презрительно косятся на вас и взирают с обожанием. Они наблюдатели, они судят вашу ценность и решат, каков будет ваш конец.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "wretched soul": {
+      "source_sha256": "587954defc471ff13aff14b336e64e35c183f9755c5ce2b4ff380bd327e4b537",
+      "text": "Призрак, пытающийся покинуть смертный мир, в котором заточён. Он отнимает силы и у живых, и у нежити, с которыми соприкасается.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "fleshlord": {
+      "source_sha256": "b6bde77c6788d52d1027d3d61201adceadc3ec43a6212da71b9d918ca2aff0ef",
+      "text": "Один из величайших слуг Владыки мяса. Мускулист, подвижен и полон злобы.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "vile": {
+      "source_sha256": "5b34091d754e57f70459de4db93944138cff3a270ef766807a01b789a7309a13",
+      "text": "Истощённая фигура, преисполненная адской кары и чумы. Её появление знаменует конец времён.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "The Servant": {
+      "source_sha256": "3a5be3361247cf334875f3ee219e8e004737ff7dc647bc2ce92aeb5b7ebd0334",
+      "text": "Его глефа пылает адским огнём.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "The Captor": {
+      "source_sha256": "0f52cb0d5854cc1bbfa09cbb1901d80cd17692ee3f01339a78328c7fb7aac847",
+      "text": "Вошедшим не сбежать.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "The Defiler": {
+      "source_sha256": "f567e77998643c6d3c84ef7a990d7780a09aa57ecf0337bb2660af38f54d8b8b",
+      "text": "Его щит украшен изображениями адского пламени.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "The Meatlord": {
+      "source_sha256": "3d83adb520511dc9091dceeacf633005dd5df50ffbf24eae610f29813dbc3507",
+      "text": "Перед вами воплощение грязи, скверны и порока — Владыка мяса. Его мерзкое тело раздуто до крайности, сочится вязкой жидкостью и смердит смертью. У него кабанья голова с выпученными глазами и расщеплёнными надвое клыками. Ноздри раздуваются и текут, пока он хрюкает и визжит при виде вас; беззубая щель рта заливает землю кровавой слюной и извергает отвратительные останки. Вытянутая шея клонится вперёд, кожа отвисает. Необъятное брюхо извивается и меняет форму: личинки внутри ждут своего омерзительного выхода. Ноги — неузнаваемые массы плоти, покрытые выростами и пульсирующими нарывами. Разум мутится от вида этой чудовищной формы, а чувства начинают отключаться, пытаясь сохранить рассудок, пока вы задыхаетесь от гнетущей вони.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "The Unspeakable": {
+      "source_sha256": "2992cc82a64ef18a62c71392af551141e9c76f0bbd777403fe2d5e82e4301f08",
+      "text": "С его приближением за оглушительным рёвом звёзд слышатся отголоски планет. Это пасть бездны. Изнутри оно выпускает ползучий хаос. Это последнее, что вы когда-либо увидите.",
+      "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
     }
   },
   "status": {
@@ -10164,6 +10759,517 @@
       "source_sha256": "184d2322fe300b142b10152761342e1ad282f20ec06b118efcfb8bd9e5e132fc",
       "text": "Путь из Подземелья, позволяющий завершить этот урок.",
       "context": "Current features.txt, l-you.cc:l_you_genus and database.cc rendered Lua translation. Keep the web species query byte-for-byte; Russian predicate accepts nominative genus labels without falsely declining raw Lua species IDs. Faded altar converts to unknown deity; do not promise a choice, exact piety or identify the god. Ice/volcanic/generic exits explicitly forbid returning after departure. Metal wall grounds bounding lightning, unlike crystal wall reflection. Bloodstone is indestructible but ordinary metal is only nearly so. Ice fragments do not turn deep water into walkable ice. Spawn/tutorial labels retain their specific modes, not new properties of ordinary stairs."
+    },
+    "A glowing golden altar of the Shining One": {
+      "source_sha256": "f579baaa7300a3ff07dcc99c98ee257db8beed413a98152cf3e09c501d220fd2",
+      "text": "Алтарь Сияющего из чистейшего золота, почти ослепляющий своим блеском.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A broken altar of Ashenzari": {
+      "source_sha256": "11eb00e64344b276d74b5db59c4031fd4c7e72fbcacf75564f64464ad719dd7d",
+      "text": "Кристаллический алтарь, расколовшийся в миг проклятия Ашензари. В нём ещё остаётся огромная сила: тёмная аура удерживает осколки посреди взрыва, подвесив их во времени и пространстве, подобно самому божеству.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A roughly hewn altar of Beogh": {
+      "source_sha256": "4a5dca874b516bf8c584b515b8bbc668b2c9d1040902702c9e777d37e57767f6",
+      "text": "Алтарь Беога, по которому сразу видно грубую работу орочьих мастеров.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A snail-covered altar of Cheibriados": {
+      "source_sha256": "f2ee07c742f933174569ae1012e511baecc3c63c0dc7f072aa1075c3934efc50",
+      "text": "Неподвластный времени алтарь Чейбриадоса Созерцателя.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A shadowy altar of Dithmenos": {
+      "source_sha256": "0eca943612271c75a5837879bec3c0889cd5c703e24c9aa9d43c4f2a23db391f",
+      "text": "Алтарь Теневого Дитменоса. Кажется, он поглощает окружающий свет.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A white marble altar of Elyvilon": {
+      "source_sha256": "275db8d9b1793f65683e8675cacedf477a66a363b6a94eb304bc1f5b2e880b64",
+      "text": "Алтарь исцеляющего божества Эливилон из белого мрамора, наполненного живительной силой. Его венчает изваяние Чаши очищения.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A blossoming altar of Fedhas": {
+      "source_sha256": "484b3691078cb7a594abd8cf102347e49408ce3a69aa348e45c465b3d51b7b7e",
+      "text": "Алтарь Федхаса Мадаша, покрытый яркой разноцветной растительностью.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An opulent altar of Gozag": {
+      "source_sha256": "924f9d9bdbe3ddab49bd7de71f89e316be8e6d7ef3f816253f0236f16af6680f",
+      "text": "Сверкающий золотой алтарь алчного Гозага Им Сагоза, украшенный самоцветами. Он ярко сияет даже в тусклом свете Подземелья.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A hazy altar of Hepliaklqana": {
+      "source_sha256": "047baeebf9edf412c216f55b6c74b57031e06deea72368fa47e33d494007ab89",
+      "text": "Алтарь Хеплиаклканы, Забытого божества, окутанный туманом и с трудом различимый. Что-то в нём кажется ужасно знакомым, но невозможно понять, что именно.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A candlelit altar of Ignis": {
+      "source_sha256": "5ce11abb94d72c5d652d4d05f7b8e47da59cc3c3b5254a31b2eeb3f01b4898aa",
+      "text": "Алтарь Игниса, Угасающего пламени. Его сплошь покрывают свечи всех форм и размеров, но горит лишь одна: её тонкий огонёк дрожит от малейшего ветерка.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A viscous altar of Jiyva": {
+      "source_sha256": "98f14b970284c08884297e9bc0744da711fd0c72d82a80c4a9f1501e54f25214",
+      "text": "Склизкий, непрестанно меняющийся алтарь Джийвы. Вы не уверены, из чего он сделан, и не особенно хотите это узнавать.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An ancient bone altar of Kikubaaqudgha": {
+      "source_sha256": "2798802e0dfadff6eb91effcb817f2dfe72392e4e9f76c47756b501e1b25b8cc",
+      "text": "Алтарь из груд древних костей, посвящённый страшному богу-демону Кикубаакудге.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A corrupted altar of Lugonu": {
+      "source_sha256": "76555b08fbe6a5c90b96ff7403d1e3b8f2f4e7b9626793b2017be55c5bfa240f",
+      "text": "Алтарь Бесформенного божества Лугону. Возможно, до необратимого осквернения он был посвящён иной силе.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A burning altar of Makhleb": {
+      "source_sha256": "73187dbfe50935882b101bd3d36295692c045612ea6234d4677e4f474073ae1f",
+      "text": "Вечно пылающий алтарь Махлеба Разрушителя. В огне видны странные извивающиеся фигуры.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A sparkling altar of Nemelex Xobeh": {
+      "source_sha256": "31fd07aebdba862d5d84500657a0bc30da0f7edf1d848a3b167f1097801f877d",
+      "text": "Алтарь, чья световая феерия ярче любого игорного дома и призвана привлекать последователей Немелекса Зобеха.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An iron altar of Okawaru": {
+      "source_sha256": "be59c9beeac97ef0dbc7b4923407fd7c70b5dcf03f9d9d5d902ff4ca2d7c0861",
+      "text": "Алтарь из железа и стали, посвящённый военачальнику Окавару. Его края удивительно остры.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A stormy altar of Qazlal": {
+      "source_sha256": "a991fc3f23741e14c77dc62fd6630b9e67c4c9a7520c1349e1d088ede9eaad39",
+      "text": "Алтарь Казлала, Несущего бури, окружённый свирепыми ветрами, электрическими разрядами, вспышками огня и магмы и редкими подземными толчками.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A sacrificial altar of Ru": {
+      "source_sha256": "91fe75f9013e25fb24344beeec80cd0a9bc82d73368e2e1285cc8bb5a2339c55",
+      "text": "Алтарь Пробуждённого Ру в форме весов. В одной чаше лежит сердце, в другой — знак могущества и просветления.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A shimmering blue altar of Sif Muna": {
+      "source_sha256": "fe78bfc2c26335a7c79fef9f9d1fb189826d1ebe3a1ac8d513ce9d6152673c48",
+      "text": "Алтарь Сиф Муны, хранящей знания, покрытый затейливыми узорами и письменами на давно забытых языках. Над тёмно-синим постаментом парит мерцающее сгущение чистой магии.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A bloodstained altar of Trog": {
+      "source_sha256": "5b72a027cd5e5513188336dc70560870fa96974d68235ecd3ad59b1149fa35cb",
+      "text": "Алтарь Гневного Трога, грубо сделанный будто великаньими руками и покрытый пятнами крови.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A hide-covered altar of Uskayaw": {
+      "source_sha256": "38b74cfdf5c0a9d3d9af13980822a7bb22c0df4105f29ba7c81e6b775a5f2906",
+      "text": "Алтарь любящего веселье Ускайава. Похоже, он полый и обтянут шкурой, образующей звучную поверхность. Сбоку вырезаны группы фигур: возможно, они танцуют, предаются любви или сражаются.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A radiant altar of Vehumet": {
+      "source_sha256": "90ef94f95de51eb2a6fbf3f7b6a66622ffb2f0d1c5573a4f3a7630e7d5bc29c3",
+      "text": "Алтарь, пылающий огнями Искендеруна и обещающий великую разрушительную силу тем, кто последует за Вехуметом.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An ornate altar of the Wu Jian Council": {
+      "source_sha256": "6caa038206abca4089e84797fea301be7dc396a87e73d75e43048b3d78a9c102",
+      "text": "Красно-золотой алтарь Совета У Цзян. В тихом воздухе вокруг него плывут острые стальные осколки.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A shimmering altar of Xom": {
+      "source_sha256": "1cf306c0b41475e8679b1db114f9166db35d16de44694531048df9ba7e13c597",
+      "text": "Алтарь, непрестанно переливающийся всеми видимыми и, вероятно, некоторыми невидимыми цветами в согласии с прихотями Непредсказуемого Ксома.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A basalt altar of Yredelemnul": {
+      "source_sha256": "70f5811911c9cffc6355ccf053901d73b79e6afb8a002a6ea1ab77f4a6fc90e4",
+      "text": "Алтарь Тёмного Йредэлемнула, вытесанный из столбчатого базальта.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A glowing silver altar of Zin": {
+      "source_sha256": "a900ccafe6148c513118efeb86c5e165ce24b3733ba187c66d71e63faea24a31",
+      "text": "Алтарь Зина Законодателя, сделанный из столь же безупречного серебра, какими должны быть его последователи, и мягко светящийся.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A large window": {
+      "source_sha256": "0b3537d0cae1a2920b572967a8088ab4eb141345ae62e39cf182c7b4c1d61133",
+      "text": "Окно в стенке огромной металлической трубы, позволяющее наблюдать за текущей внутри водой.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An ice covered rock wall": {
+      "source_sha256": "3927e60d0a74b68dbb3219aadf785bba4159a611f58b58a7f63de24534ec9aca",
+      "text": "Скальная стена, покрытая толстым слоем инея и льда.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An endless expanse of salt": {
+      "source_sha256": "bc6f0929d448b3f6e61ac250b28c277683f9517f56ec9ceda5b0dbaf4e618aff",
+      "text": "Кажущаяся бесконечной плоская равнина, терзаемая ослепительными соляными бурями. Любой, кто отважится пересечь её, быстро потеряется без всякой надежды на спасение.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A ruined idol": {
+      "source_sha256": "e263d54ee1fb25b2c9ff7a07b47416db302f821bf851c2d11310912afff21e12",
+      "text": "Памятник славе мёртвого бога. Статую методично изуродовали, не оставив ни единой узнаваемой черты.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An autumnal tree": {
+      "source_sha256": "978a26509471afccb7f1b676e728e4c6ecf3bd4ceed1536d82ec802e79494f2c",
+      "text": "Большое дерево, словно навечно застывшее в одном осеннем мгновении. Красные и золотые листья падают с ветвей и плавно летят к полу, но, не достигнув земли, мерцают и вновь оказываются на ветвях, готовые падать снова.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A crumbled stone wall": {
+      "source_sha256": "883e1b458fa70de6432e419c020d692f41271439cac015791d93885404945be9",
+      "text": "Каменная стена, почти готовая рухнуть от ветхости, но каким-то образом всё ещё стоящая, словно застыв во времени.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A strange statue": {
+      "source_sha256": "355069525e0b7b3aff825bc91b9a11da473e28724d43c6580d380d2fcc89fc1c",
+      "text": "Статуя со странными чуждыми чертами. Стала ли она неузнаваемой от износа и потускнения? Или изначально изображала нечто демоническое и злое?",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A strange rock wall": {
+      "source_sha256": "bb3a34307f7171151e8fdfb74829ac408e2d5fd435b2a6f75b1ef7ea6ab59883",
+      "text": "Стена, украшенная изображениями, которые можно встретить в гробнице.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A highly decorated stone wall": {
+      "source_sha256": "2f043b6f360ffb529f9e88cafac023f374bc5563a78d694587e728831d65039a",
+      "text": "Стена, покрытая тревожными и ужасающими изображениями.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "The rough-hewn floor": {
+      "source_sha256": "30b984372a8b20794ed4a69fec8a90d5a1a0efb47693cc8ff89f0ae83332e844",
+      "text": "Пол. Местами он грубый и неровный.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "Viscous fluid": {
+      "source_sha256": "8484e5f40b6eb01f6b8c92b9f3c3541e6e06e4e2a51f9cf81494be99613472b0",
+      "text": "Липкая жидкость, которую, похоже, выделяют ближайшие стены. Выглядит отвратительно.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A sinewy wall": {
+      "source_sha256": "5e886395a48bdccff6a84b7303d6d571027bc450a473a21cab348285663af499",
+      "text": "Стена, странно напоминающая живую ткань, но невероятно крепкая и прочная.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A thin membrane": {
+      "source_sha256": "26883c5018348848b867616fe8c65d8661493b4ecbfc5e151912ba058311cb69",
+      "text": "Странная перепонка, достаточно тонкая, чтобы сквозь неё можно было видеть.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "The pulsating floor": {
+      "source_sha256": "735b27cf7af4fb848d98459b7f3499566639fdd401fa3a7aeabdf68a18156b7f",
+      "text": "Пол. Он пульсирует в неведомом ритме.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A broken fleshy orifice": {
+      "source_sha256": "15ee414910f9666d54d857c8ead5c662d6d9b187dc022a1b18865ac2fa76bab4",
+      "text": "Из него едва заметно сочится жидкость. Лучше не трогать.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "Zonguldrok's gravestone": {
+      "source_sha256": "344af5f2ccf5ac5193db53ba658475e44ebc2850102e3dd2e1ca3cd2ce00bddc",
+      "text": "Надгробие рода Зонгулдрока, с которого всё ещё капает солоноватый ихор.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A gravestone": {
+      "source_sha256": "5571dcbd734fcd44ee645648a75918fd489d1e48cb1e8f8416df49aeef39cb87",
+      "text": "Безымянная могила.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A wall of crystal": {
+      "source_sha256": "c76ba43b65d2568ba29a6a7dc907d8b2097d59a39beda9bec294c2d3a3ef6185",
+      "text": "<A crystal wall>",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
+      "wiki_text": "Стена из полированного кристалла, насыщенного тайной магией. Чары мешают её разрушить и заставляют отражать жар и холод."
+    },
+    "The damp floor": {
+      "source_sha256": "dc1c495664de334f7d81e2759563cdfe4f0f2c3b79053537a50ed7a2b44a34dc",
+      "text": "Пол. Он вечно остаётся сырым — возможно, из-за влажности или непрерывного движения облаков.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A wall of orange crystal": {
+      "source_sha256": "e79fba3b413b5e4ea831e3ecdaf00298f2092e6a34e684df9453d72cf13a96bb",
+      "text": "Стена из оранжевого кристалла с умопомрачительным блеском.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A wall of white crystal": {
+      "source_sha256": "c4310d7eae7b4a61d682067049361bd90fe0ba1250eed68f76e7f4e26f7d3ba2",
+      "text": "Стена из низкокачественного кристалла с опаловым отливом.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A black wall": {
+      "source_sha256": "0d70a34db2848af9e8dac92d105c709258bb29566ffc785ff76d0b7a02ef6d55",
+      "text": "Стена, быть может, из камня, твёрдого древесного угля или вещества, встречающегося лишь в глубочайших Адах.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A carved rock wall": {
+      "source_sha256": "9bb974663ad181109a93874a77c1830adc18b0bb78c8f8fec640be925ec35b88",
+      "text": "Стена, украшенная изображениями смерти и разрушения.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A metal statue": {
+      "source_sha256": "72a9e21faec857d1de6bb9656621fb584dc74a804b0f67a990d56764874ba429",
+      "text": "Базовая статуя для других разновидностей. Если вы видите это описание, сообщите об ошибке.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A decorative floor": {
+      "source_sha256": "e2b2fcb887a7260c882e228f27e27d1a0e946822fa1a91f7a43867924da4cf08",
+      "text": "Базовый тип пола для различных украшений, по которым можно ходить. Если вы видите это описание, сообщите об ошибке.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A tree of woe": {
+      "source_sha256": "6c858755e2301e760ce5e47a674e81d9d7b381237f05ece817e1c8ea59319973",
+      "text": "Полуживое дерево, отягощённое плодами кристаллизованной скорби.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A dead tree": {
+      "source_sha256": "59e149325894c72fcdda065c29063541ce45dbdeb86909a7ac1d3e9c7e2a3722",
+      "text": "Сухие останки давно погибшего дерева.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A dead mangrove": {
+      "source_sha256": "e9807de9ca704759dc340362998ba1be70f37cbc5cd89f664f2af23fa22eae73",
+      "text": "Сухие останки давно погибшего мангра.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A bloodied mop and bucket": {
+      "source_sha256": "b5119b4480276b1cdfb5020ce3de79e78c51512e4a4bb7b900fa1542b74ffb26",
+      "text": "Швабра и ведро, пропитанные кровавыми следами демонических пыток.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An iron statue": {
+      "source_sha256": "fa1828cfd0d50b7c83bee973f72ca515a877730e12ab3e1f53dfce632692060c",
+      "text": "Статуя древнего воина, увешанная трофеями поверженных жертв. Из щелей забрала сочится тёмная субстанция. Наверняка это масло?..",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An infernal standard": {
+      "source_sha256": "9bedabf6d267c6bba57f717cdf81cf7cacc989df7e1cc9ce2501519563dbbf59",
+      "text": "Пылающее знамя жестокого завоевания, установленное среди руин многих павших царств, чтобы объявить их пепел собственностью Ада.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "Ashen ground": {
+      "source_sha256": "6a6fb06e238db49211535282a5ddaea4609c73fa81c6f9fb084cfdc104ab2deb",
+      "text": "Пепел и угли, усеянные разбитыми сокровищами и бесполезными монетами давно павших царств.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A tempered metal wall": {
+      "source_sha256": "eff6d3f19f049095da3dbc826b0190435c601ab5f40baacda454c58209a2eb5f",
+      "text": "Стены из латуни и никеля, покрытые тонкой золотой фольгой, которая неуклонно отслаивается в постоянной гнетущей жаре. Узоры изображают сделки смертных с дьяволами, но первые редко выходят из них в выигрыше.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An ice-covered rock wall": {
+      "source_sha256": "f2382b52e3002a3b95172353a15b94e771a05cd701cf674d2c846b11d679afed",
+      "text": "Скальная стена под толстым слоем льда. Под поверхностью злобно смотрят искажённые лица, навечно застывшие в гримасах ярости и предательства.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An ice-covered stone wall": {
+      "source_sha256": "8d437c897c7730f3c5107dd8085eeedb2bd4ee5f430398a5398ee65192b37db2",
+      "text": "Каменная стена под толстым слоем льда. Под поверхностью злобно смотрят искажённые лица, навечно застывшие в гримасах ярости и предательства.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "Frost-covered floor": {
+      "source_sha256": "f53913aa9ccb17e992ff255713ab8695a81fc330b2d6a90f8d9e4430d6b93c2f",
+      "text": "Земля, навечно скованная морозом и холодом. Она кажется нестареющей и неизменной, словно существует в таком виде целую вечность.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A golden statue": {
+      "source_sha256": "7e82a7620d8ca0b1a3c950255c4891cdff5edabaa244d78545b77c02aebeff53",
+      "text": "Статуя святого из чистого золота.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A silver statue": {
+      "source_sha256": "6cb29040691045c8e5a10f682072f47052f4cd2b069c2848663eb7b15030afa1",
+      "text": "Геометрическая статуя из чистого серебра, и материалом, и формой прославляющая защищённость и неподвижность.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A scintillating statue": {
+      "source_sha256": "2714a690e2808229ccf61c2525eb08929a2c92f25c7a3ef77443e09325824042",
+      "text": "Магически меняющаяся статуя, довольная, кажется, тем, что мерцает и танцует на месте. Посвящена непостижимым космическим играм хаоса.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A mystic cage": {
+      "source_sha256": "719bba8c1707ff9b00654a03bb72ffbac977f79490b48a6628c0386bb7ed0a7f",
+      "text": "Крепкая металлическая клетка, покрытая таинственными магическими знаками. Кто бы прежде ни находился внутри — человек, зверь или плод опыта, — его, очевидно, уже выпустили в ответ на проникновение в Подземелье чужаков вроде вас.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An arcane conduit": {
+      "source_sha256": "48b153a3fae0b3596d3394cad3da680fd1f68d8fab16caee3abb1e6545ceb0b9",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его разрушительная мистическая энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A misfortune conduit": {
+      "source_sha256": "2c38f6e41b6a0462e8985d0cf3a88cb06cc30abfa32885d884338b4b9127f60d",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его зловещая энергия проклятий безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A dimensional conduit": {
+      "source_sha256": "d02934ff2af3d8e694aee84009876ff8ba09ca3b4141530da28afaf4b36bc8be",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его энергия пространственного искривления из иных планов безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A soul conduit": {
+      "source_sha256": "2667dea1e94b8e993307de519d133b1b0a4ddac9cb4349addb0de1705f652866",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его отрицательная энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An alchemical conduit": {
+      "source_sha256": "f8fcb013f7760dc80ac69befe77afb102ff042d650ceb60c81e83cbffe537bae",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его бурлящая ядовитая энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A fiery conduit": {
+      "source_sha256": "20ffbe253e7fe8403ef42086e9c008dd7fd9c8ca1ace65207b3252cbfe496f70",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его вечно пылающая энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An icy conduit": {
+      "source_sha256": "b500872c8f3b90d52783732546c5d1635d9f157302837966486f42a01b76ad7d",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его ледяная энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An earthen conduit": {
+      "source_sha256": "7d2d0ba622bb7556c4ccea57ffd3353ac551f074bf98f903aee9152947e7b2f8",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его сейсмическая энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A storm conduit": {
+      "source_sha256": "8d9fa7e77a40ed15da0bc9572444c81306dd33725384f64cab94c7dec3f8385f",
+      "text": "Странный, но безвредный металлический конструкт, исследующий сырую магическую энергию окружения. Если достаточно мощная магия разрушит его и нарушит работу, его потрескивающая энергия безвредно рассеется.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An enigmatic dynamo": {
+      "source_sha256": "9ca9a1d78e4792c8f918652fc91d9a0cced15f6464e229810d9a281ca7ecdb60",
+      "text": "Безвредный, но прочный металлический конструкт с таинственными источником силы и назначением. Что бы он ни исследовал, обрабатывал, питал или производил, чужаки вроде вас не способны ни разобраться в этом, ни воспользоваться им.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A nascence circuit": {
+      "source_sha256": "35b73542d8c5fabe0274a76cc1a51359d45f27db68c15fe65ad83378770752b4",
+      "text": "Сверкающий искровой промежуток между двумя электродами непостижимо развитой технологии. Такие устройства создают и питают магические конструкты, но это уже разрядилось. Несмотря на непрерывный треск, оно способно лишь безвредно искриться, словно радуясь сотворению жизни.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A floral vase": {
+      "source_sha256": "dbae398450a10c4547c853f0f09c5b1b7f090936dd9d4b7b9c6ab2d52785ba2b",
+      "text": "Яркий букет в глиняном сосуде, поддерживаемый обилием воды и небольшой магией.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A garden patch": {
+      "source_sha256": "1267178f94d903128f9e2c14b059a7d234ffcd543b414da9fc20ddc509c8d9e5",
+      "text": "Небольшая декоративная цветочная грядка, обнесённая булыжниками.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A flower patch": {
+      "source_sha256": "80c2e14375780d0e34f015bad7ca71f51da70dd55e498828f24daacbafcf5a46",
+      "text": "Заросли выносливых полевых цветов, несмотря ни на что процветающих в этом месте.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A mop and bucket": {
+      "source_sha256": "f44ec5147a9550a97c3185ce91452f4eaa24a5cdc080978d41f0b197285713c5",
+      "text": "Швабра и ведро, полезные для поддержания порядка и чистоты. Жаль только, что теперь здесь вы.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A fur brush": {
+      "source_sha256": "927b45ded1345fcbb25e850160bd1a754303b92d9de25d8bfde1643d22342ffb",
+      "text": "Щётка для ухода за шерстью, лежащая рядом с кучей спутанной свалявшейся шерсти яка.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A set of bottled spirits": {
+      "source_sha256": "b2c124bfb20dcb8e9f026378e150f73fb78fdbb8cb489c662df57af82f8b5de0",
+      "text": "Набор разных алкогольных напитков с истёртыми этикетками. К несчастью, сохраняющая магия, запечатывающая каждую бутылку, не позволяет попробовать содержимое, не разбив её.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A djembe set": {
+      "source_sha256": "1d82900ba62c2b183be2e1f88f28d376594f167b82e56c671996fb96ddb50823",
+      "text": "Набор барабанов, чей ритм служит мирным развлечением здесь, в глубинах земли.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A caliginous standard": {
+      "source_sha256": "7edc35895a3f729ee241eb92c0a81983f2d5d47b1d5a8bd212c775206995d300",
+      "text": "Тёмное знамя мрачного завоевания, мерцающее мерзкой энергией и установленное во имя великого разорительного похода.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "a skull pike": {
+      "source_sha256": "17ba944604f8d91e471090739fab58f7d267bafe22530b1267f1cdbcb0765857",
+      "text": "Кости в Подземелье обычны, но выставленные напоказ черепа, насаженные как добыча сорокопута, несут чужакам ясное предупреждение: на пике хватит места ещё для одного черепа, и её хозяин с радостью поможет владельцу с ним расстаться.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An assortment of trash": {
+      "source_sha256": "a9103a56e1a73e8cd00d0c6eed9600e6a88655c58dd283afcf17f428862922ad",
+      "text": "Разбросанная мешанина расколотого и рассыпающегося мусора, покрытая пеплом и грязью.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A mourning vase": {
+      "source_sha256": "d241e4662d34eeb4c45689bcade63e3e9116bbb6b01010bb5278b845217f0399",
+      "text": "Одинокий цветок, пропитанный унынием и удерживаемый керамической хваткой. Трудно понять, жив ли он ещё.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A broken floral vase": {
+      "source_sha256": "bb67e0a892f915f9950b7bf90c59af50fb7e5eeed692d8ba0593f6084ccf37bf",
+      "text": "Нежная композиция, разбитая вдребезги и обречённая на медленное голодание.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A weapon-inlaid floor": {
+      "source_sha256": "7463f2c793312f3da6777de91ad733bc380e7318f8da8309f5bff2cc9d914dd7",
+      "text": "Эльфийская декоративная инкрустация оружием отмечает Зал Клинков. Отсюда происходит немало острейшего оружия Подземелья, магически оживлённого, чтобы доказать свою смертоносность возможным ворам.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An orcish standard": {
+      "source_sha256": "2c0459c40beb4cb2ca58bbb92ebd4cd6bc8a63b3b7e2ca49b55f409ddaf3d33e",
+      "text": "Знамя Беога, поднятое в знак того, что укрепление принадлежит одному из подразделений орочьего войска Подземелья.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A silver wall": {
+      "source_sha256": "1f9d0a78ad7cdfad60931b3a9f28fa846b7c48b13a44d055ad7ad20aa7cc6956",
+      "text": "Стена из чистого серебра.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A rune-carved stone wall": {
+      "source_sha256": "27beedc0ab97917c468160b9aa3d76eb6f155f4ba515a71425ce2a9b2678b233",
+      "text": "Каменная стена, странным образом свободная от слизи и сплошь покрытая бесчисленными защитными рунами.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A rune-carved clear stone wall": {
+      "source_sha256": "2454619f44a9c0f05a45d852de2fb7d0252b183e87db9d898684c9d9f2db600a",
+      "text": "Каменная стена, странным образом свободная от слизи. В её прозрачной глубине мерцают причудливые огни. На поверхности разбросаны мистические руны, по-видимому упоминающие существо «Королевский слизень».",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A sarcophagus": {
+      "source_sha256": "996cbf6bab41f21bdb159bdcd848cdf07019467c69f6d0db840de256d765d693",
+      "text": "Древний саркофаг. Кажется пустым.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A heavily etched metal wall": {
+      "source_sha256": "2824c50d4e681d6554400c2608de91f0730afe1b9b91c8b93a5ecc96f789fa85",
+      "text": "Металлическая стена с выгравированными картинами, в подробных и жутких деталях показывающими, что именно сделают с тем, кого поймают на краже из Хранилищ.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A heavily etched crystal wall": {
+      "source_sha256": "b8a772431b99bfe5e9fcddc627b45475c3f2d2127c7b76c0d4a0a18727e30ec4",
+      "text": "Кристаллическая стена с выгравированными картинами, в подробных и жутких деталях показывающими, что именно сделают с тем, кого поймают на краже из Хранилищ.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An adventurer's gravestone": {
+      "source_sha256": "a0bea5c15c64d206771cd5ba825c39547c4114c862aabe5578a65cac3cfdc4d9",
+      "text": "Могила искателя приключений, приблизившегося к победе.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An elephant-shaped statue": {
+      "source_sha256": "6c1beaca7a99668edb282ce875094beece7d63593ff425d7f45c876d80d9c30c",
+      "text": "Потёртая гранитная статуя слона, стоящего на страже.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A weirdly glowing ball": {
+      "source_sha256": "4d04752fc222db4a860a0dfb0c7a8253334aa63f414bd874b9a12d7497fd415b",
+      "text": "Парящий шар, излучающий мерцающий свет.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "A sealed sarcophagus": {
+      "source_sha256": "207a0359a8152b5a4a7a82d35da734f332ed0d734e9413807a9f46cb3c17a949",
+      "text": "Древний саркофаг. Он наглухо запечатан.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+    },
+    "An open sea?": {
+      "source_sha256": "2768bef3d738b259f5789f40053d17d1062744607738d2511f6bbfaa4c1dcd35",
+      "text": "Это резко противоречит всем известным вам законам физики и геометрии, но отрицать невозможно: здесь, в крошечной комнате, плещется огромное страшное море немыслимых размеров.\n\nЛибо это просто синяя стена.",
+      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
     }
   },
   "mutations": {
