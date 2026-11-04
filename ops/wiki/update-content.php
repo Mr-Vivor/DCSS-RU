@@ -59,6 +59,16 @@ class UpdateDcssWiki extends Maintenance {
                 $block = $begin . "\n" . $entry['text'] . "\n" . $end;
                 $first = strpos( $old, $begin );
                 $last = strpos( $old, $end );
+                // A reviewed title can acquire a new source key after splitting
+                // previously ambiguous entries. Only migrate our unchanged block.
+                if ( $first === false && isset( $state[$name] ) ) {
+                    $pattern = $css ? '/\/\* DCSS-AUTO-BEGIN:([0-9a-f]{20}) \*\/.*?\/\* DCSS-AUTO-END:\1 \*\//s'
+                        : '/<!-- DCSS-AUTO-BEGIN:([0-9a-f]{20}) -->.*?<!-- DCSS-AUTO-END:\1 -->/s';
+                    if ( preg_match( $pattern, $old, $match, PREG_OFFSET_CAPTURE ) ) {
+                        $first = $match[0][1];
+                        $last = $first + strlen( $match[0][0] ) - strlen( $end );
+                    }
+                }
                 if ( $old === '' || ( $this->hasOption( 'initial' ) && $name === 'Заглавная страница' && $first === false ) ) {
                     $new = $block;
                 } elseif ( $first !== false && $last !== false && $last >= $first ) {

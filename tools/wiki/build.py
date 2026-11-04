@@ -43,6 +43,30 @@ FLAG_LABELS = {"flies":"Полёт", "see_invis":"Видит невидимых"
     "stationary":"Неподвижность", "insubstantial":"Бестелесность", "unique":"Уникальный противник", "no_regen":"Не восстанавливает здоровье"}
 ATTACKS = {"hit":"удар", "bite":"укус", "claw":"когти", "sting":"жало", "peck":"клюв", "constrict":"сдавливание",
     "trample":"растаптывание", "gore":"рога", "tentacle_slap":"удар щупальцем", "touch":"касание", "tail_slap":"удар хвостом"}
+PAGE_TITLES = {
+    ("monsters","ghost"):"Призрак (архив)",
+    ("monsters","orc apostle follower"):"Апостол орков (последователь)",
+    ("ability","Jump ability"):"Прыжок (случайное приземление)",
+    ("status","Heavenly status"):"Небесная буря (состояние)",
+    ("status","Storm status"):"Буря (облик)",
+    ("status","Fusillade status"):"Залп (Алхимический шквал)",
+    ("status","Flux status"):"Нестабильность (облик)",
+    ("status","Unstable status"):"Нестабильность (пространственные скачки)",
+    ("status","Water status"):"Вода (местоположение)",
+    ("status","Aqua status"):"Вода (облик)",
+    ("mutations","formless mutation"):"Бестелесность (Полтергейст)",
+    ("mutations","insubstantial mutation"):"Бестелесность (невосприимчивость)"}
+DISAMBIGUATIONS = {
+    "Буря":["Небесная буря (состояние)","Буря (облик)"],
+    "Вода":["Вода (местоположение)","Вода (облик)"],
+    "Нестаб.":["Нестабильность (облик)","Нестабильность (пространственные скачки)"],
+    "Нестабильность":["Нестабильность (облик)","Нестабильность (пространственные скачки)"],
+    "Бестелесность":["Бестелесность (Полтергейст)","Бестелесность (невосприимчивость)"]}
+VARIANT_HEADINGS = {
+    "Serpent of Hell gehenna":"Геенна", "Serpent of Hell cocytus":"Коцит",
+    "Serpent of Hell dis":"Дис", "Serpent of Hell tartarus":"Тартар",
+    "flaming (flame) weapon ego":"Общий эффект", "flaming (flame) weapon ego blade":"Клинковое оружие",
+    "heavy (heavy) weapon ego":"Ближний бой", "heavy (heavy) weapon ego ranged":"Дальний бой"}
 
 
 def load(path):
@@ -95,6 +119,7 @@ class Builder:
         self.terms = load(ROOT / "localization/ru/terms.json")
         self.entities = load(ROOT / "localization/ru/entities.json")
         self.reference = load(ROOT / "wiki/ru/reference/descriptions.json")
+        self.reviewed = load(ROOT / "localization/ru/descriptions.json")
         self.messages = load(ROOT / "localization/ru/system-messages.json")
         self.static = load(ROOT / "localization/ru/static.json")
         self.notes = load(ROOT / "wiki/site/notes.json")
@@ -150,7 +175,7 @@ class Builder:
         title = clean_title(title)
         if not re.search(r"[А-Яа-яЁё]", title):
             raise ValueError(("Untranslated page title",group,key,title))
-        candidate = title
+        candidate = PAGE_TITLES.get((group,key),title)
         if candidate in self.rows and self.rows[candidate]["group"] != group:
             candidate += " (" + GROUPS[group][1] + ")"
         if candidate not in self.rows:
@@ -243,7 +268,8 @@ class Builder:
                                 path=self.find_sprite("i-"+plain[len(prefix):].replace(" ","-"),("item",))
                                 break
                 elif group == "mutations":path=self.find_sprite(plain,("mutations",))
-                row=self.register(group,key,title,entry["text"],sprite=self.sprite(path))
+                prose=self.reviewed.get(group,{}).get(key,{}).get('wiki_text',entry['text'])
+                row=self.register(group,key,title,prose,sprite=self.sprite(path))
                 row.setdefault("powers",[]).extend(entry.get("powers",[]))
         return self
 
@@ -298,8 +324,8 @@ class Builder:
                 features=[FLAG_LABELS[f] for f in data.get("flags",[]) if f in FLAG_LABELS]
                 if features:rows.append(("Особенности",", ".join(features)))
                 text+="\n== Характеристики ==\n"+self.table(rows)+"Базовые значения могут изменяться у конкретного существа из-за его состояния, снаряжения или особенностей разновидности. Урон указан до учёта защиты цели.\n"
-            else:
-                text+='\n<div class="dc-notice">Это дополнительная запись игрового каталога. Она может относиться к старой разновидности, отдельному эффекту или особому режиму; её появление как обычного противника в текущей партии не подтверждено.</div>\n'
+            elif not key.startswith('Serpent of Hell '):
+                text+='\n<div class="dc-notice">Дополнительное описание игрового каталога. Характеристики и встречаемость могут зависеть от конкретной разновидности, эффекта или режима.</div>\n'
         elif group == "species":
             data=self.species.get(key.casefold(),{})
             rows=[(label,data[field]) for field,label in [("str","Начальная сила"),("int","Начальный интеллект"),("dex","Начальная ловкость")] if field in data]
@@ -359,7 +385,11 @@ class Builder:
             seen=set()
             for entry in row["entries"]:
                 value=self.prose(entry["text"])
-                if value not in seen:body+="\n"+value+"\n";seen.add(value)
+                if not value.strip():raise ValueError(('Empty wiki description',group,entry['key']))
+                if value not in seen:
+                    heading=VARIANT_HEADINGS.get(entry['key']) if len(row['entries'])>1 else None
+                    if heading:body+='\n== '+heading+' ==\n'
+                    body+="\n"+value+"\n";seen.add(value)
             body+=self.metadata(row)
             advice=self.notes.get(group,{}).get(key)
             if advice:body+="\n== Советы по игре ==\n"+advice+"\n"
@@ -373,6 +403,8 @@ class Builder:
             pages[category]=dict(text=content,key="index:"+group,kind="index")
             pages["Категория:"+category]=dict(text="См. полный справочник: [["+category+"]].",key="category:"+group,kind="category")
         self.add_site(pages,counts)
+        for title,targets in DISAMBIGUATIONS.items():
+            pages[title]=dict(text="Так может называться несколько разных эффектов. Выберите нужный контекст:\n\n"+"\n".join('* [['+v+']]' for v in targets),key='disambiguation:'+title,kind='guide')
         # English lookup redirects make familiar upstream names searchable.
         for title,row in self.rows.items():
             for entry in row["entries"]:
