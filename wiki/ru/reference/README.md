@@ -943,6 +943,21 @@
 - [Мечущийся ужас](monsters/thrashing-horror.md)
 - [Притаившийся ужас](monsters/lurking-horror.md)
 - [Пространственный водоворот](monsters/spatial-maelstrom.md)
+- [Некоксек](monsters/neqoxec.md)
+- [Какодемон](monsters/cacodemon.md)
+- [Сфера огня](monsters/orb-of-fire.md)
+- [Древний лич](monsters/ancient-lich.md)
+- [Проклятый палец ноги](monsters/curse-toe.md)
+- [Проклятый череп](monsters/curse-skull.md)
+- [Початок смерти](monsters/death-cob.md)
+- [Электрический голем](monsters/electric-golem.md)
+- [Клоун-убийца](monsters/killer-klown.md)
+- [Бледная поганка](monsters/deathcap.md)
+- [Терновый охотник](monsters/thorn-hunter.md)
+- [Бродячий мангр](monsters/shambling-mangrove.md)
+- [Блуждающий огонёк](monsters/will-o-the-wisp.md)
+- [Смотритель Хранилищ](monsters/vault-warden.md)
+- [Закованный в железо заступник](monsters/ironbound-preserver.md)
 
 ## Состояния
 

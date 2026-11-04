@@ -1778,9 +1778,10 @@
         "acc": "древних личей",
         "ins": "древними личами",
         "prep": "древних личах"
-      }
+      },
+      "counted_few": "древних лича"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.slime_creature",
@@ -6776,6 +6777,398 @@
         "prep": "пространственных водоворотах"
       },
       "counted_few": "пространственных водоворота"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.neqoxec",
+    "kind": "monster",
+    "en": "neqoxec",
+    "en_plural": "neqoxecs",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "некоксек",
+        "gen": "некоксека",
+        "dat": "некоксеку",
+        "acc": "некоксека",
+        "ins": "некоксеком",
+        "prep": "некоксеке"
+      },
+      "plural": {
+        "nom": "некоксеки",
+        "gen": "некоксеков",
+        "dat": "некоксекам",
+        "acc": "некоксеков",
+        "ins": "некоксеками",
+        "prep": "некоксеках"
+      },
+      "counted_few": "некоксека"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.cacodemon",
+    "kind": "monster",
+    "en": "cacodemon",
+    "en_plural": "cacodemons",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "какодемон",
+        "gen": "какодемона",
+        "dat": "какодемону",
+        "acc": "какодемона",
+        "ins": "какодемоном",
+        "prep": "какодемоне"
+      },
+      "plural": {
+        "nom": "какодемоны",
+        "gen": "какодемонов",
+        "dat": "какодемонам",
+        "acc": "какодемонов",
+        "ins": "какодемонами",
+        "prep": "какодемонах"
+      },
+      "counted_few": "какодемона"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.orb_of_fire",
+    "kind": "monster",
+    "en": "orb of fire",
+    "en_plural": "orbs of fire",
+    "gender": "f",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "сфера огня",
+        "gen": "сферы огня",
+        "dat": "сфере огня",
+        "acc": "сферу огня",
+        "ins": "сферой огня",
+        "prep": "сфере огня"
+      },
+      "plural": {
+        "nom": "сферы огня",
+        "gen": "сфер огня",
+        "dat": "сферам огня",
+        "acc": "сферы огня",
+        "ins": "сферами огня",
+        "prep": "сферах огня"
+      },
+      "counted_few": "сферы огня"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.curse_toe",
+    "kind": "monster",
+    "en": "curse toe",
+    "en_plural": "curse toes",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "проклятый палец ноги",
+        "gen": "проклятого пальца ноги",
+        "dat": "проклятому пальцу ноги",
+        "acc": "проклятый палец ноги",
+        "ins": "проклятым пальцем ноги",
+        "prep": "проклятом пальце ноги"
+      },
+      "plural": {
+        "nom": "проклятые пальцы ног",
+        "gen": "проклятых пальцев ног",
+        "dat": "проклятым пальцам ног",
+        "acc": "проклятые пальцы ног",
+        "ins": "проклятыми пальцами ног",
+        "prep": "проклятых пальцах ног"
+      },
+      "counted_few": "проклятых пальца ног"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.curse_skull",
+    "kind": "monster",
+    "en": "curse skull",
+    "en_plural": "curse skulls",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "проклятый череп",
+        "gen": "проклятого черепа",
+        "dat": "проклятому черепу",
+        "acc": "проклятый череп",
+        "ins": "проклятым черепом",
+        "prep": "проклятом черепе"
+      },
+      "plural": {
+        "nom": "проклятые черепа",
+        "gen": "проклятых черепов",
+        "dat": "проклятым черепам",
+        "acc": "проклятые черепа",
+        "ins": "проклятыми черепами",
+        "prep": "проклятых черепах"
+      },
+      "counted_few": "проклятых черепа"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.death_cob",
+    "kind": "monster",
+    "en": "death cob",
+    "en_plural": "death cobs",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "початок смерти",
+        "gen": "початка смерти",
+        "dat": "початку смерти",
+        "acc": "початок смерти",
+        "ins": "початком смерти",
+        "prep": "початке смерти"
+      },
+      "plural": {
+        "nom": "початки смерти",
+        "gen": "початков смерти",
+        "dat": "початкам смерти",
+        "acc": "початки смерти",
+        "ins": "початками смерти",
+        "prep": "початках смерти"
+      },
+      "counted_few": "початка смерти"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.electric_golem",
+    "kind": "monster",
+    "en": "electric golem",
+    "en_plural": "electric golems",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "электрический голем",
+        "gen": "электрического голема",
+        "dat": "электрическому голему",
+        "acc": "электрического голема",
+        "ins": "электрическим големом",
+        "prep": "электрическом големе"
+      },
+      "plural": {
+        "nom": "электрические големы",
+        "gen": "электрических големов",
+        "dat": "электрическим големам",
+        "acc": "электрических големов",
+        "ins": "электрическими големами",
+        "prep": "электрических големах"
+      },
+      "counted_few": "электрических голема"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.killer_klown",
+    "kind": "monster",
+    "en": "Killer Klown",
+    "en_plural": "Killer Klowns",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "клоун-убийца",
+        "gen": "клоуна-убийцы",
+        "dat": "клоуну-убийце",
+        "acc": "клоуна-убийцу",
+        "ins": "клоуном-убийцей",
+        "prep": "клоуне-убийце"
+      },
+      "plural": {
+        "nom": "клоуны-убийцы",
+        "gen": "клоунов-убийц",
+        "dat": "клоунам-убийцам",
+        "acc": "клоунов-убийц",
+        "ins": "клоунами-убийцами",
+        "prep": "клоунах-убийцах"
+      },
+      "counted_few": "клоуна-убийцы"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.deathcap",
+    "kind": "monster",
+    "en": "deathcap",
+    "en_plural": "deathcaps",
+    "gender": "f",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "бледная поганка",
+        "gen": "бледной поганки",
+        "dat": "бледной поганке",
+        "acc": "бледную поганку",
+        "ins": "бледной поганкой",
+        "prep": "бледной поганке"
+      },
+      "plural": {
+        "nom": "бледные поганки",
+        "gen": "бледных поганок",
+        "dat": "бледным поганкам",
+        "acc": "бледные поганки",
+        "ins": "бледными поганками",
+        "prep": "бледных поганках"
+      },
+      "counted_few": "бледные поганки"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.thorn_hunter",
+    "kind": "monster",
+    "en": "thorn hunter",
+    "en_plural": "thorn hunters",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "терновый охотник",
+        "gen": "тернового охотника",
+        "dat": "терновому охотнику",
+        "acc": "тернового охотника",
+        "ins": "терновым охотником",
+        "prep": "терновом охотнике"
+      },
+      "plural": {
+        "nom": "терновые охотники",
+        "gen": "терновых охотников",
+        "dat": "терновым охотникам",
+        "acc": "терновых охотников",
+        "ins": "терновыми охотниками",
+        "prep": "терновых охотниках"
+      },
+      "counted_few": "терновых охотника"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.shambling_mangrove",
+    "kind": "monster",
+    "en": "shambling mangrove",
+    "en_plural": "shambling mangroves",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "бродячий мангр",
+        "gen": "бродячего мангра",
+        "dat": "бродячему мангру",
+        "acc": "бродячий мангр",
+        "ins": "бродячим мангром",
+        "prep": "бродячем мангре"
+      },
+      "plural": {
+        "nom": "бродячие мангры",
+        "gen": "бродячих мангров",
+        "dat": "бродячим манграм",
+        "acc": "бродячие мангры",
+        "ins": "бродячими манграми",
+        "prep": "бродячих манграх"
+      },
+      "counted_few": "бродячих мангра"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.will-o-the-wisp",
+    "kind": "monster",
+    "en": "will-o-the-wisp",
+    "en_plural": "will-o-the-wisps",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "блуждающий огонёк",
+        "gen": "блуждающего огонька",
+        "dat": "блуждающему огоньку",
+        "acc": "блуждающий огонёк",
+        "ins": "блуждающим огоньком",
+        "prep": "блуждающем огоньке"
+      },
+      "plural": {
+        "nom": "блуждающие огоньки",
+        "gen": "блуждающих огоньков",
+        "dat": "блуждающим огонькам",
+        "acc": "блуждающие огоньки",
+        "ins": "блуждающими огоньками",
+        "prep": "блуждающих огоньках"
+      },
+      "counted_few": "блуждающих огонька"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.vault_warden",
+    "kind": "monster",
+    "en": "vault warden",
+    "en_plural": "vault wardens",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "смотритель Хранилищ",
+        "gen": "смотрителя Хранилищ",
+        "dat": "смотрителю Хранилищ",
+        "acc": "смотрителя Хранилищ",
+        "ins": "смотрителем Хранилищ",
+        "prep": "смотрителе Хранилищ"
+      },
+      "plural": {
+        "nom": "смотрители Хранилищ",
+        "gen": "смотрителей Хранилищ",
+        "dat": "смотрителям Хранилищ",
+        "acc": "смотрителей Хранилищ",
+        "ins": "смотрителями Хранилищ",
+        "prep": "смотрителях Хранилищ"
+      },
+      "counted_few": "смотрителя Хранилищ"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.ironbound_preserver",
+    "kind": "monster",
+    "en": "ironbound preserver",
+    "en_plural": "ironbound preservers",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "закованный в железо заступник",
+        "gen": "закованного в железо заступника",
+        "dat": "закованному в железо заступнику",
+        "acc": "закованного в железо заступника",
+        "ins": "закованным в железо заступником",
+        "prep": "закованном в железо заступнике"
+      },
+      "plural": {
+        "nom": "закованные в железо заступники",
+        "gen": "закованных в железо заступников",
+        "dat": "закованным в железо заступникам",
+        "acc": "закованных в железо заступников",
+        "ins": "закованными в железо заступниками",
+        "prep": "закованных в железо заступниках"
+      },
+      "counted_few": "закованных в железо заступника"
     },
     "review": "reviewed"
   }

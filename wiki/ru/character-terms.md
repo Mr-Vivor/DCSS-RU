@@ -1312,3 +1312,17 @@
 | thrashing horror | мечущийся ужас |
 | lurking horror | притаившийся ужас |
 | spatial maelstrom | пространственный водоворот |
+| neqoxec | некоксек |
+| cacodemon | какодемон |
+| orb of fire | сфера огня |
+| curse toe | проклятый палец ноги |
+| curse skull | проклятый череп |
+| death cob | початок смерти |
+| electric golem | электрический голем |
+| Killer Klown | клоун-убийца |
+| thorn hunter | терновый охотник |
+| shambling mangrove | бродячий мангр |
+| will-o-the-wisp | блуждающий огонёк |
+| vault warden | смотритель Хранилищ |
+| ironbound preserver | закованный в железо заступник |
+| ancient lich | древний лич |

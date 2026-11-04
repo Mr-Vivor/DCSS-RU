@@ -73,7 +73,7 @@
 | `monster.phantom` | [Фантом](pages/monster.phantom.md) | phantom | draft |
 | `monster.shadowghast` | [Теневой дух](pages/monster.shadowghast.md) | shadowghast | draft |
 | `monster.lich` | [Лич](pages/monster.lich.md) | lich | draft |
-| `monster.ancient_lich` | [Древний лич](pages/monster.ancient_lich.md) | ancient lich | draft |
+| `monster.ancient_lich` | [Древний лич](pages/monster.ancient_lich.md) | ancient lich | reviewed |
 | `monster.slime_creature` | [Слизистое существо](pages/monster.slime_creature.md) | slime creature | draft |
 | `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | draft |
 | `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | draft |
@@ -257,3 +257,17 @@
 | `monster.thrashing_horror` | [Мечущийся ужас](pages/monster.thrashing_horror.md) | thrashing horror | reviewed |
 | `monster.lurking_horror` | [Притаившийся ужас](pages/monster.lurking_horror.md) | lurking horror | reviewed |
 | `monster.spatial_maelstrom` | [Пространственный водоворот](pages/monster.spatial_maelstrom.md) | spatial maelstrom | reviewed |
+| `monster.neqoxec` | [Некоксек](pages/monster.neqoxec.md) | neqoxec | reviewed |
+| `monster.cacodemon` | [Какодемон](pages/monster.cacodemon.md) | cacodemon | reviewed |
+| `monster.orb_of_fire` | [Сфера огня](pages/monster.orb_of_fire.md) | orb of fire | reviewed |
+| `monster.curse_toe` | [Проклятый палец ноги](pages/monster.curse_toe.md) | curse toe | reviewed |
+| `monster.curse_skull` | [Проклятый череп](pages/monster.curse_skull.md) | curse skull | reviewed |
+| `monster.death_cob` | [Початок смерти](pages/monster.death_cob.md) | death cob | reviewed |
+| `monster.electric_golem` | [Электрический голем](pages/monster.electric_golem.md) | electric golem | reviewed |
+| `monster.killer_klown` | [Клоун-убийца](pages/monster.killer_klown.md) | Killer Klown | reviewed |
+| `monster.deathcap` | [Бледная поганка](pages/monster.deathcap.md) | deathcap | reviewed |
+| `monster.thorn_hunter` | [Терновый охотник](pages/monster.thorn_hunter.md) | thorn hunter | reviewed |
+| `monster.shambling_mangrove` | [Бродячий мангр](pages/monster.shambling_mangrove.md) | shambling mangrove | reviewed |
+| `monster.will-o-the-wisp` | [Блуждающий огонёк](pages/monster.will-o-the-wisp.md) | will-o-the-wisp | reviewed |
+| `monster.vault_warden` | [Смотритель хранилищ](pages/monster.vault_warden.md) | vault warden | reviewed |
+| `monster.ironbound_preserver` | [Закованный в железо заступник](pages/monster.ironbound_preserver.md) | ironbound preserver | reviewed |
