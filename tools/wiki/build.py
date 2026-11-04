@@ -385,6 +385,18 @@ class Builder:
             pages["Файл:"+name]=dict(text=body,key="file:"+name,kind="file")
         revision=self.revision or subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()
         payload=dict(schema=1,version="0.35-a0",source_revision=revision,pages=pages,assets=self.assets,counts=counts)
+        extracts={}
+        for title,row in self.rows.items():
+            plain=self.prose(row['entries'][0]['text']).split('\n\n',1)[0]
+            plain=re.sub(r'<[^>]*>','',plain)
+            plain=re.sub(r'\[\[([^\]|]+\|)?([^\]]+)\]\]',lambda m:m[2],plain)
+            plain=re.sub(r'\s+',' ',plain).strip()
+            extracts[title]=plain[:300]+('…' if len(plain)>300 else '')
+        for title,row in pages.items():
+            if row['kind']=='redirect':
+                match=re.search(r'\[\[([^\]]+)\]\]',row['text'])
+                if match and match[1] in extracts:extracts[title]=extracts[match[1]]
+        (self.output/'search-extracts.json').write_text(json.dumps(extracts,ensure_ascii=False)+'\n',encoding='utf8')
         (self.output/"pages.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
         report=dict(article_counts=counts,pages=len(pages),sprites=len(self.assets),unresolved_references=sorted(self.unresolved),sprite_coverage={g:sum(bool(r.get("sprite")) for r in self.rows.values() if r["group"]==g) for g in GROUPS})
         (self.output/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf8")

@@ -20,6 +20,7 @@ $wgUseInstantCommons = false;
 // CLI content updates and FPM must share invalidation state.
 $wgMainCacheType = CACHE_DB;
 $wgJobRunRate = 0.1;
+$wgArticleCountMethod = 'any';
 $wgCookieSecure = true;
 $wgCookiePrefix = 'dcsswiki';
 $wgGroupPermissions['*']['read'] = true;
@@ -39,6 +40,18 @@ $wgHooks['BeforePageDisplay'][] = static function ( $out, $skin ) {
     if ( is_file( $theme ) ) {
         $out->addLink( [ 'rel' => 'stylesheet',
             'href' => '/resources/dcss/theme.css?v=' . substr( hash_file( 'sha256', $theme ), 0, 12 ) ] );
+    }
+};
+$wgHooks['ShowSearchHit'][] = static function ( $searchPage, $result, $terms, &$link,
+    &$redirect, &$section, &$extract, &$score, &$size, &$date, &$related, &$html ) {
+    static $summaries = null;
+    if ( $summaries === null ) {
+        $path = '/srv/dcss-wiki/shared/search-extracts.json';
+        $summaries = is_file( $path ) ? json_decode( file_get_contents( $path ), true ) : [];
+    }
+    $title = $result->getTitle();
+    if ( $title && isset( $summaries[$title->getPrefixedText()] ) ) {
+        $extract = '<div class="searchresult">' . htmlspecialchars( $summaries[$title->getPrefixedText()], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8' ) . '</div>';
     }
 };
 $wgRightsText = 'GNU FDL; условия файлов указаны на их страницах';
