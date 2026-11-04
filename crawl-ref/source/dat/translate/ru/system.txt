@@ -10674,7 +10674,7 @@ You pounce on @arg@ unawares!
 %%%%
 @Arg@ blocks your attack.
 
-@Arg@ блокирует вашу атаку.
+@Arg@ блокирует атаку.
 %%%%
 @Arg1@ blocks @arg2@'s attack.
 
@@ -11446,11 +11446,11 @@ Your divine stamina protects you from poison!
 %%%%
 @Arg@ drains your magic.
 
-@Arg@ вытягивает вашу магию.
+@Arg@ высасывает магию жертвы.
 %%%%
 @Arg@ drains your power.
 
-@Arg@ вытягивает вашу силу.
+@Arg@ высасывает силу жертвы.
 %%%%
 @Arg1@ drains @arg2@ magic.
 
@@ -11606,11 +11606,11 @@ You are held in place!
 %%%%
 @Arg@ is held in place!
 
-На месте удерживается: @Arg@!
+@Arg@ не может сдвинуться с места!
 %%%%
 You hold your ground!
 
-Вы удерживаете позицию!
+Вы удерживаетесь на месте!
 %%%%
 @Arg@ stands fast!
 
@@ -11618,19 +11618,19 @@ You hold your ground!
 %%%%
 You stumble backwards!
 
-Вы спотыкаетесь и отступаете!
+Вы спотыкаетесь и отступаете назад!
 %%%%
 @Arg@ stumbles backwards!
 
-@Arg@ спотыкается и отступает!
+@Arg@ спотыкается и отступает назад!
 %%%%
 You are shoved backwards!
 
-Вас отталкивают назад!
+Вы отлетаете назад!
 %%%%
 @Arg@ is shoved backwards!
 
-Назад отталкивается: @Arg@!
+@Arg@ отлетает назад!
 %%%%
 You bite @arg@, and draw blood!
 
@@ -52339,3 +52339,655 @@ There's something jamming the gateway.
 There's a thick-headed creature in the gateway!
 
 В проходе в воротах стоит одно упрямое существо!
+%%%%
+The grapnel guides your strike.
+
+Кинетический крюк направляет ваш удар.
+%%%%
+@Arg@ is struck blind.
+
+@Arg@ теряет зрение.
+%%%%
+@Arg@ begins to glow.
+
+@Arg@ начинает светиться.
+%%%%
+@Arg@ glows dangerously bright.
+
+@Arg@ светится опасно ярко.
+%%%%
+The last of your unstable energy dissipates and you return to your previous form.
+
+Остатки вашей нестабильной энергии рассеиваются, и вы возвращаетесь к прежнему облику.
+%%%%
+You feel the transmutational energy in your body is nearly expended.
+
+Вы чувствуете, что энергия превращения в вашем теле почти иссякла.
+%%%%
+Mushrooms sprout behind @arg@.
+
+Позади {gen}@arg@ прорастают грибы.
+%%%%
+A bog forms beneath you!
+
+Под вами образуется трясина!
+%%%%
+A bog forms beneath @arg@!
+
+Под {ins}@arg@ образуется трясина!
+%%%%
+@Arg@ is engulfed in spores.
+
+Споры окутывают {acc}@Arg@.
+%%%%
+@Arg@ decays.
+
+@Arg@ подвергается тлетворному воздействию.
+%%%%
+You devour @arg@!
+
+Вы пожираете {acc}@arg@!
+%%%%
+You devour half of @arg@!
+
+Вы пожираете половину {gen}@arg@!
+%%%%
+You devour a chunk of @arg@!
+
+Вы пожираете кусок {gen}@arg@!
+%%%%
+It tastes like @arg@.
+
+На вкус напоминает {acc}@arg@.
+%%%%
+Spicy!
+
+Остро!
+%%%%
+You revel in your kill!
+
+Вы упиваетесь убийством!
+%%%%
+You raise your head to howl, but no sound comes out.
+
+Вы запрокидываете голову, собираясь завыть, но не можете издать ни звука.
+%%%%
+You let out a blood-chilling howl!
+
+Вы издаёте леденящий кровь вой!
+%%%%
+@Arg@ freezes in fear!
+
+@Arg@ замирает от страха!
+%%%%
+Your @arg1@ misses @arg2@.
+
+Ваша дополнительная атака «@arg1@» не попадает по {dat}@arg2@.
+%%%%
+Your blow resonates through @arg@.
+
+Ваш удар отдаётся резонансом в {prep}@arg@.
+%%%%
+You draw in some of the released energy.
+
+Вы поглощаете часть высвободившейся энергии.
+%%%%
+A spider bursts forth from the wound!
+
+Из раны выскакивает паук!
+%%%%
+Faint brimstone surges around @arg@!
+
+Вокруг {gen}@arg@ вспыхивает бледное серное свечение!
+%%%%
+@Arg@ enters a blood-rage!
+
+@Arg@ впадает в кровавую ярость!
+%%%%
+@Arg@ tastes blood and grows stronger!
+
+@Arg@ пробует кровь и становится сильнее!
+%%%%
+You start to liquefy!
+
+Вы начинаете растекаться!
+%%%%
+You liquefy further!
+
+Ваше тело растекается ещё сильнее!
+%%%%
+@Arg@ vents fumes.
+
+@Arg@ выпускает испарения.
+%%%%
+Your doom draws closer.
+
+Ваша Обречённость нарастает.
+%%%%
+@Arg@ is burned by your cloak of flames.
+
+Ваша огненная мантия обжигает {acc}@Arg@.
+%%%%
+@Arg@ is struck by your quills.
+
+Ваши иглы пронзают {acc}@Arg@.
+%%%%
+@Arg@ is seared by the foul flame within you@punct@
+
+Нечестивое пламя внутри вас обжигает {acc}@Arg@@punct@
+%%%%
+@Arg@ are held in place!
+
+@Arg@ не может сдвинуться с места!
+%%%%
+@Arg1@ drags @arg2@ backwards!
+
+@Arg1@ тащит {acc}@arg2@ назад!
+%%%%
+Your spellmotor activates!
+
+Ваш Спеллмотор срабатывает!
+%%%%
+@Arg@ turns aside your attack!
+
+@Arg@ отводит атаку в сторону!
+%%%%
+You turn aside your attack!
+
+Вы отводите атаку в сторону!
+%%%%
+You block your attack.
+
+Вы блокируете атаку.
+%%%%
+@Arg@ is struck blind by the light of your divine shield.
+
+Свет вашего божественного щита ослепляет {acc}@Arg@.
+%%%%
+You are blinded by the light of your divine shield.
+
+Свет вашего божественного щита ослепляет вас.
+%%%%
+You knock @arg@ out of your grip!
+
+Вы выбиваете {acc}@arg@ из чужой хватки!
+%%%%
+You sink your fangs into @arg1@ and drink your @arg2@.
+
+Вы вонзаете клыки в {acc}@arg1@ и пьёте {acc}@arg2@.
+%%%%
+You sap your willpower!
+
+Вы ослабляете чужую Волю!
+%%%%
+You drain your magic.
+
+Вы высасываете магию жертвы.
+%%%%
+You drain your power.
+
+Вы высасываете силу жертвы.
+%%%%
+Your slimy shroud breaks as it bends your attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends your attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+@Arg@ holds your ground!
+
+@Arg@ удерживается на месте!
+%%%%
+@Arg@ turns aside his attack!
+
+@Arg@ отводит атаку в сторону!
+%%%%
+You turn aside his attack!
+
+Вы отводите атаку в сторону!
+%%%%
+@Arg@ blocks his attack.
+
+@Arg@ блокирует атаку.
+%%%%
+You block his attack.
+
+Вы блокируете атаку.
+%%%%
+@Arg@ is struck blind by the light of his divine shield.
+
+Свет его божественного щита ослепляет {acc}@Arg@.
+%%%%
+You are blinded by the light of his divine shield.
+
+Свет его божественного щита ослепляет вас.
+%%%%
+You knock @arg@ out of his grip!
+
+Вы выбиваете {acc}@arg@ из чужой хватки!
+%%%%
+You sink your fangs into @arg1@ and drink his @arg2@.
+
+Вы вонзаете клыки в {acc}@arg1@ и пьёте {acc}@arg2@.
+%%%%
+You sap his willpower!
+
+Вы ослабляете чужую Волю!
+%%%%
+You drain his magic.
+
+Вы высасываете магию жертвы.
+%%%%
+@Arg@ drains his magic.
+
+@Arg@ высасывает магию жертвы.
+%%%%
+You drain his power.
+
+Вы высасываете силу жертвы.
+%%%%
+@Arg@ drains his power.
+
+@Arg@ высасывает силу жертвы.
+%%%%
+Your slimy shroud breaks as it bends his attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends his attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+@Arg@ holds his ground!
+
+@Arg@ удерживается на месте!
+%%%%
+You hold his ground!
+
+Вы удерживаетесь на месте!
+%%%%
+@Arg@ turns aside her attack!
+
+@Arg@ отводит атаку в сторону!
+%%%%
+You turn aside her attack!
+
+Вы отводите атаку в сторону!
+%%%%
+@Arg@ blocks her attack.
+
+@Arg@ блокирует атаку.
+%%%%
+You block her attack.
+
+Вы блокируете атаку.
+%%%%
+@Arg@ is struck blind by the light of her divine shield.
+
+Свет её божественного щита ослепляет {acc}@Arg@.
+%%%%
+You are blinded by the light of her divine shield.
+
+Свет её божественного щита ослепляет вас.
+%%%%
+You knock @arg@ out of her grip!
+
+Вы выбиваете {acc}@arg@ из чужой хватки!
+%%%%
+You sink your fangs into @arg1@ and drink her @arg2@.
+
+Вы вонзаете клыки в {acc}@arg1@ и пьёте {acc}@arg2@.
+%%%%
+You sap her willpower!
+
+Вы ослабляете чужую Волю!
+%%%%
+You drain her magic.
+
+Вы высасываете магию жертвы.
+%%%%
+@Arg@ drains her magic.
+
+@Arg@ высасывает магию жертвы.
+%%%%
+You drain her power.
+
+Вы высасываете силу жертвы.
+%%%%
+@Arg@ drains her power.
+
+@Arg@ высасывает силу жертвы.
+%%%%
+Your slimy shroud breaks as it bends her attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends her attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+@Arg@ holds her ground!
+
+@Arg@ удерживается на месте!
+%%%%
+You hold her ground!
+
+Вы удерживаетесь на месте!
+%%%%
+@Arg@ turns aside its attack!
+
+@Arg@ отводит атаку в сторону!
+%%%%
+You turn aside its attack!
+
+Вы отводите атаку в сторону!
+%%%%
+@Arg@ blocks its attack.
+
+@Arg@ блокирует атаку.
+%%%%
+You block its attack.
+
+Вы блокируете атаку.
+%%%%
+@Arg@ is struck blind by the light of its divine shield.
+
+Свет его божественного щита ослепляет {acc}@Arg@.
+%%%%
+You are blinded by the light of its divine shield.
+
+Свет его божественного щита ослепляет вас.
+%%%%
+You knock @arg@ out of its grip!
+
+Вы выбиваете {acc}@arg@ из чужой хватки!
+%%%%
+You sink your fangs into @arg1@ and drink its @arg2@.
+
+Вы вонзаете клыки в {acc}@arg1@ и пьёте {acc}@arg2@.
+%%%%
+You sap its willpower!
+
+Вы ослабляете чужую Волю!
+%%%%
+You drain its magic.
+
+Вы высасываете магию жертвы.
+%%%%
+@Arg@ drains its magic.
+
+@Arg@ высасывает магию жертвы.
+%%%%
+You drain its power.
+
+Вы высасываете силу жертвы.
+%%%%
+@Arg@ drains its power.
+
+@Arg@ высасывает силу жертвы.
+%%%%
+Your slimy shroud breaks as it bends its attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends its attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+@Arg@ holds its ground!
+
+@Arg@ удерживается на месте!
+%%%%
+You hold its ground!
+
+Вы удерживаетесь на месте!
+%%%%
+@Arg@ turns aside their attack!
+
+@Arg@ отводит атаку в сторону!
+%%%%
+You turn aside their attack!
+
+Вы отводите атаку в сторону!
+%%%%
+@Arg@ blocks their attack.
+
+@Arg@ блокирует атаку.
+%%%%
+You block their attack.
+
+Вы блокируете атаку.
+%%%%
+@Arg@ is struck blind by the light of their divine shield.
+
+Свет их божественного щита ослепляет {acc}@Arg@.
+%%%%
+You are blinded by the light of their divine shield.
+
+Свет их божественного щита ослепляет вас.
+%%%%
+You knock @arg@ out of their grip!
+
+Вы выбиваете {acc}@arg@ из чужой хватки!
+%%%%
+You sink your fangs into @arg1@ and drink their @arg2@.
+
+Вы вонзаете клыки в {acc}@arg1@ и пьёте {acc}@arg2@.
+%%%%
+You sap their willpower!
+
+Вы ослабляете чужую Волю!
+%%%%
+You drain their magic.
+
+Вы высасываете магию жертвы.
+%%%%
+@Arg@ drains their magic.
+
+@Arg@ высасывает магию жертвы.
+%%%%
+You drain their power.
+
+Вы высасываете силу жертвы.
+%%%%
+@Arg@ drains their power.
+
+@Arg@ высасывает силу жертвы.
+%%%%
+Your slimy shroud breaks as it bends their attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends their attack away@punct@
+
+Ваша слизистая пелена отводит атаку и разрушается@punct@
+%%%%
+@Arg@ holds their ground!
+
+@Arg@ удерживается на месте!
+%%%%
+You hold their ground!
+
+Вы удерживаетесь на месте!
+%%%%
+Your orb emits a pulse of dizzying energy.
+
+Ваша сфера испускает импульс головокружительной энергии.
+%%%%
+His orb emits a pulse of dizzying energy.
+
+Сфера его испускает импульс головокружительной энергии.
+%%%%
+Her orb emits a pulse of dizzying energy.
+
+Сфера её испускает импульс головокружительной энергии.
+%%%%
+Its orb emits a pulse of dizzying energy.
+
+Сфера его испускает импульс головокружительной энергии.
+%%%%
+Their orb emits a pulse of dizzying energy.
+
+Сфера их испускает импульс головокружительной энергии.
+%%%%
+You sink your fangs into @arg@ and drain him dry!
+
+Вы вонзаете клыки в {acc}@arg@ и высасываете жертву досуха!
+%%%%
+You sink your fangs into @arg@ and drain her dry!
+
+Вы вонзаете клыки в {acc}@arg@ и высасываете жертву досуха!
+%%%%
+You sink your fangs into @arg@ and drain it dry!
+
+Вы вонзаете клыки в {acc}@arg@ и высасываете жертву досуха!
+%%%%
+You sink your fangs into @arg@ and drain them dry!
+
+Вы вонзаете клыки в {acc}@arg@ и высасываете жертву досуха!
+%%%%
+You spit out @arg@ as he twists & changes in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as he twist & change in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as she twists & changes in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as she twist & change in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as it twists & changes in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as it twist & change in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as they twists & changes in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+You spit out @arg@ as they twist & change in your maw!
+
+Вы выплёвываете {acc}@arg@: жертва корчится и меняет облик в вашей пасти!
+%%%%
+@Arg1@ turns aside @arg2@'s attack!
+
+@Arg1@ отводит атаку {gen}@arg2@ в сторону!
+%%%%
+You turn aside @arg@'s attack!
+
+Вы отводите атаку {gen}@arg@ в сторону!
+%%%%
+@Arg1@ is struck blind by the light of @arg2@'s divine shield.
+
+Свет божественного щита {gen}@arg2@ ослепляет {acc}@Arg1@.
+%%%%
+You are blinded by the light of @arg@'s divine shield.
+
+Свет божественного щита {gen}@arg@ ослепляет вас.
+%%%%
+You knock @arg1@ out of @arg2@'s grip!
+
+Вы выбиваете {acc}@arg1@ из хватки {gen}@arg2@!
+%%%%
+@Arg@'s orb emits a pulse of dizzying energy.
+
+Сфера {gen}@Arg@ испускает импульс головокружительной энергии.
+%%%%
+Your slimy shroud breaks as it bends @arg@'s attack away@punct@
+
+Ваша слизистая пелена отводит атаку {gen}@arg@ и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends @arg@'s attack away@punct@
+
+Ваша слизистая пелена отводит атаку {gen}@arg@ и разрушается@punct@
+%%%%
+@Arg1@ turns aside @arg2@' attack!
+
+@Arg1@ отводит атаку {gen}@arg2@ в сторону!
+%%%%
+You turn aside @arg@' attack!
+
+Вы отводите атаку {gen}@arg@ в сторону!
+%%%%
+@Arg1@ is struck blind by the light of @arg2@' divine shield.
+
+Свет божественного щита {gen}@arg2@ ослепляет {acc}@Arg1@.
+%%%%
+You are blinded by the light of @arg@' divine shield.
+
+Свет божественного щита {gen}@arg@ ослепляет вас.
+%%%%
+You knock @arg1@ out of @arg2@' grip!
+
+Вы выбиваете {acc}@arg1@ из хватки {gen}@arg2@!
+%%%%
+@Arg@' orb emits a pulse of dizzying energy.
+
+Сфера {gen}@Arg@ испускает импульс головокружительной энергии.
+%%%%
+Your slimy shroud breaks as it bends @arg@' attack away@punct@
+
+Ваша слизистая пелена отводит атаку {gen}@arg@ и разрушается@punct@
+%%%%
+your slimy shroud breaks as it bends @arg@' attack away@punct@
+
+Ваша слизистая пелена отводит атаку {gen}@arg@ и разрушается@punct@
+%%%%
+@Arg@ is engulfed in a cloud of dizzying spores!
+
+Споры, вызывающие головокружение, окутывают {acc}@Arg@!
+%%%%
+@Arg@ is afflicted by dizzying energies!
+
+Головокружительная энергия поражает {acc}@Arg@!
+%%%%
+@Arg@ is skewered by barbed spikes.
+
+Зазубренные колючки пронзают {acc}@Arg@.
+%%%%
+@Arg@ is engulfed in a cloud of soporific spores!
+
+Усыпляющие споры окутывают {acc}@Arg@!
+%%%%
+@Arg@ are engulfed in a cloud of dizzying spores!
+
+Споры, вызывающие головокружение, окутывают {acc}@Arg@!
+%%%%
+@Arg@ are afflicted by dizzying energies!
+
+Головокружительная энергия поражает {acc}@Arg@!
+%%%%
+@Arg@ are skewered by barbed spikes.
+
+Зазубренные колючки пронзают {acc}@Arg@.
+%%%%
+@Arg@ are engulfed in a cloud of soporific spores!
+
+Усыпляющие споры окутывают {acc}@Arg@!
+%%%%
+@Arg@ slips backwards!
+
+@Arg@ скользит назад!
+%%%%
+You slip backwards!
+
+Вы скользите назад!
+%%%%
+You block its own attack.
+
+Вы блокируете собственную атаку.
+%%%%
+@Arg@ blocks its own attack.
+
+@Arg@ блокирует собственную атаку.
