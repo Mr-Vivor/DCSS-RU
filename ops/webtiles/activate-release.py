@@ -15,6 +15,8 @@ import tempfile
 import time
 import urllib.request
 
+from dcss_ru_retention import prune_releases
+
 BASE = Path("/srv/dcss-ru")
 
 def unpack(archive, revision):
@@ -116,11 +118,16 @@ if __name__ == "__main__":
     parser.add_argument("--archive")
     parser.add_argument("--revision")
     parser.add_argument("--pending", action="store_true")
+    parser.add_argument("--prune", action="store_true")
     args = parser.parse_args()
     if os.geteuid() != 0:
         raise SystemExit("Activation must run via the restricted sudo command")
     with (BASE / "deploy.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
-        if args.archive:
-            unpack(args.archive, args.revision)
-        activate()
+        if not args.prune:
+            if args.archive:
+                unpack(args.archive, args.revision)
+            activate()
+        removed = prune_releases()
+        if removed:
+            print("Removed unused release directories:", len(removed))

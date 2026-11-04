@@ -22,6 +22,7 @@ for directory in rc saves morgues sockets running ttyrecs; do
 done
 install -m 0755 "$script_dir/init-player.py" "$base/bin/init-player.py"
 install -m 0755 "$script_dir/receive-release.py" "$base/bin/receive-release.py"
+install -m 0644 "$script_dir/retention.py" /usr/local/sbin/dcss_ru_retention.py
 install -m 0755 "$script_dir/activate-release.py" /usr/local/sbin/dcss-ru-activate
 install -m 0644 "$script_dir/config.yml.in" "$base/config.yml.in"
 for unit in dcss-ru.service dcss-ru-apply.service dcss-ru-apply.timer; do

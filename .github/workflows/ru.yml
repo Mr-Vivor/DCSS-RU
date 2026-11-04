@@ -32,6 +32,8 @@ jobs:
           python-version: '3.13'
       - run: python tools/ru/generate.py --check
       - run: python -m unittest discover -s tools/ru/tests -v
+      - name: Verify safe release retention
+        run: python -m unittest discover -s ops/webtiles/tests -v
       - name: Install compiler and dependencies
         run: |
           sudo apt-get update
