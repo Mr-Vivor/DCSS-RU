@@ -218,10 +218,14 @@ def outputs(entities):
             if not title:
                 continue  # Shared description fragments and ego lookup keys are not item names.
             slug = page_slug(key)
-            if filename == "status" and key.startswith("-"):
-                # A blocked/cooling-down state must not overwrite its active
-                # counterpart (Swift/-Swift, Regen/-Regen, Tele/-Tele, ...).
-                slug = "no-" + page_slug(key[1:])
+            if filename == "status":
+                # These are meaningful HUD variants, not discardable filename
+                # punctuation (Orb/Orb?, Rev/Rev*, Swift/-Swift, ...).
+                slug = page_slug(key.replace("?", "-question-").replace("*", "-star-"))
+                if key.startswith("-"):
+                    slug = "no-" + slug
+                if ROOT / "wiki/ru/reference/status" / (slug + ".md") in result:
+                    raise ValueError("Duplicate status wiki page: " + key)
             body = entry.get("wiki_text", entry["text"])
             if filename == "unrand":
                 power_key = key.lower()

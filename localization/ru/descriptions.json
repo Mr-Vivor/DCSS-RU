@@ -5635,6 +5635,623 @@
       "source_sha256": "d1a845d1ad84325115d2c3b9f3843cbd7fb5c690f75b199ddbc1b2712279cc10",
       "text": "Вы нестабильны на самом глубоком уровне. Каждое касание накладывает на врагов опасное магическое загрязнение. Накопив достаточно загрязнения, цель подвергается крайне локальному магическому распаду, наносящему огромный урон.\n\nЭта нестабильность не позволяет вам пользоваться оружием, щитами и нательной бронёй. Кроме того, вы светитесь, что снижает скрытность и мешает невидимости. Ваши удары в ближнем бою слабее, потому что конечности иногда теряют устойчивость посреди замаха.",
       "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+    },
+    "Serpent status": {
+      "source_sha256": "a59e7a0625de8588fb187218996631096591420d51526c6922308d7da5358a1d",
+      "text": "Вы превратились в гигантского холоднокровного змея, устойчивого к яду и готового обвивать врагов кольцами и сдавливать их насмерть.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Maw status": {
+      "source_sha256": "92bc4e610b7180b63ca262dec5c4e4dbd3b393645b72228d47b59b56606f8b87",
+      "text": "Ваша середина тела превратилась в гигантскую пасть, которая скрежещет зубами и готова пожирать врагов. Пасть может поглощать убитых существ, исцеляя вас. Сила исцеления зависит от навыка «Оборотничество» и силы съеденного существа. Навык также увеличивает урон пасти.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Statue status": {
+      "source_sha256": "3f7a5585b0565e122f01f45371dceee816f6ae371f7138517f810fce737e4d95",
+      "text": "Вы превратились в медлительную, но чрезвычайно прочную каменную статую. Ваш урон в ближнем бою значительно повышен как без оружия, так и с ним. Каменное тело невосприимчиво к яду и миазмам и получает сопротивление электричеству, отрицательной энергии и мучению.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Dragon status": {
+      "source_sha256": "168fb090494738521a87995519a6da0d733b658ee638fadcb0e4362e52d06bb8",
+      "text": "{{\n    local desc = \"Вы превратились в могучего\"\n\n    if you.race():find(\"Draconian\") then\n        desc = desc .. \" дракона\"\n        if you.race() ~= \"Grey Draconian\" then\n            desc = desc .. \", усилив свои врождённые дыхательные атаки\"\n        end\n        if you.race() == \"Red Draconian\" then\n            desc = desc .. \". Вы очень хорошо сопротивляетесь огню и \" ..\n                           \"устойчивы к яду, но уязвимы к холоду\"\n        elseif you.race() == \"White Draconian\" then\n            desc = desc .. \". Вы очень хорошо сопротивляетесь холоду и \" ..\n                           \"устойчивы к яду, но уязвимы к огню\"\n        elseif you.race() == \"Green Draconian\" then\n            desc = desc .. \", сохранив свой природный цвет\"\n        else\n            desc = desc .. \". Вы сохранили свой природный цвет и \" ..\n                           \"также устойчивы к яду\"\n        end\n    else\n        desc = desc .. \" огнедышащего дракона. Вы очень хорошо сопротивляетесь \" ..\n                       \"огню и устойчивы к яду, но уязвимы к \" ..\n                       \"холоду\"\n    end\n\n    desc = desc .. \".\"\n\n    return desc\n}} Ваши атаки в ближнем бою наносят невероятный урон. Вы стали гораздо крепче, но хуже уклоняетесь.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "lua_strings": {
+        "You have been transformed into a mighty": "Вы превратились в могучего",
+        " dragon": " дракона",
+        ", increasing the power of any innate breath attacks": ", усилив свои врождённые дыхательные атаки",
+        ". You are highly resistant to fire and ": ". Вы очень хорошо сопротивляетесь огню и ",
+        "resistant to poison, but vulnerable to cold": "устойчивы к яду, но уязвимы к холоду",
+        ". You are highly resistant to cold and ": ". Вы очень хорошо сопротивляетесь холоду и ",
+        "resistant to poison, but vulnerable to fire": "устойчивы к яду, но уязвимы к огню",
+        " and retaining your innate colour": ", сохранив свой природный цвет",
+        ". You retain your innate colour, and are ": ". Вы сохранили свой природный цвет и ",
+        "also resistant to poison": "также устойчивы к яду",
+        ", fire-breathing dragon. You are highly resistant ": " огнедышащего дракона. Вы очень хорошо сопротивляетесь ",
+        "to fire and resistant to poison, but vulnerable to ": "огню и устойчивы к яду, но уязвимы к ",
+        "cold": "холоду"
+      },
+      "wiki_text": "Вы превращены в могучего дракона: урон в ближнем бою и живучесть значительно повышены, но уклонение снижено. Для драконианов сохраняются особенности природного цвета и усиливается врождённое дыхательное оружие, если оно есть. Красные драконианы сильно сопротивляются огню и устойчивы к яду, но уязвимы к холоду; белые — наоборот, сильно сопротивляются холоду и устойчивы к яду, но уязвимы к огню. Для других видов это огнедышащий дракон с сильным сопротивлением огню, устойчивостью к яду и уязвимостью к холоду."
+    },
+    "Storm status": {
+      "source_sha256": "67bfa6a50ff242d855d29b35347912f2c9cf51021fbb98568da710c1c3027910",
+      "text": "Вы превратились в бурю, пронизанную молниями. Ваши удары в ближнем бою усилены, заряжены электричеством и поражают всех соседних врагов. Вы получаете полёт, повышенное уклонение, невосприимчивость к яду, миазмам, окаменению и сдавливанию, а также сопротивление электричеству. Вы можете устремляться к врагам в виде молнии.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Death status": {
+      "source_sha256": "3b752eceb807027de978db6f37679ec298cef0da062e378f4a82b97707c7b874",
+      "text": "Вы превратились в бессмертное надругательство над самой жизнью.\n\nВраги, поражённые вашими руками или оружием ближнего боя, слабеют, замедляются и подвергаются высасыванию жизненной силы. Вы можете исцелять себя, мучая ближайших живых врагов. Кроме того, вы сопротивляетесь холоду, обладаете усиленной Волей и невосприимчивы к яду, миазмам, отрицательной энергии и мучению. Однако вы уязвимы к святому урону и заклинанию «Рассеивание нежити» и не можете пить зелья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Bat status": {
+      "source_sha256": "3288af8ca06032f12c83a2634ed7c493b540729a0f22fc63f9eb28a0c93a8aa8",
+      "text": "Вы превратились в стремительную летучую мышь: ваше уклонение повысилось, но атаки в ближнем бою значительно ослабли.\n\nНадетые оружие, броня и кольца сливаются с телом и перестают действовать. Вы не можете колдовать. Сила атак в ближнем бою в этом облике зависит от уровня опыта, а не от навыка «Безоружный бой».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Pig status": {
+      "source_sha256": "58e085f9b48018d7c1579e5c58607e0c406aba3ba355e2352bf43e99e17eadac",
+      "text": "Вы превратились в свинью. Вы быстро передвигаетесь, но хуже сражаетесь в ближнем бою.\n\nНадетые оружие, броня и кольца сливаются с телом и перестают действовать. Вы не можете колдовать. Сила атак в ближнем бою в этом облике зависит от уровня опыта, а не от навыка «Безоружный бой».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "App status": {
+      "source_sha256": "7e1d8c2cb09adac66f8a46d44b8e29becc473ca8a6b157d5e2512cf176d18be2",
+      "text": "{{\n    if you.race() == \"Octopode\" then\n        return \"Из одного из ваших щупалец вырос острый шип, \" ..\n               \"увеличивающий урон дополнительных атак щупальцами.\"\n    else\n        return \"На вашем теле выросли чудовищные рога или когти, \" ..\n               \"дающие шанс дополнительной атаки в ближнем бою.\"\n    end\n}}",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "lua_strings": {
+        "A vicious spike has grown from one of your tentacles, ": "Из одного из ваших щупалец вырос острый шип, ",
+        "increasing the damage of your extra tentacle attacks.": "увеличивающий урон дополнительных атак щупальцами.",
+        "Monstrous horns or talons have grown from your body, ": "На вашем теле выросли чудовищные рога или когти, ",
+        "granting a chance of making an extra attack in melee.": "дающие шанс дополнительной атаки в ближнем бою."
+      },
+      "wiki_text": "У осьминога из одного щупальца вырастает шип, усиливающий дополнительные атаки щупальцами. У других видов вырастают рога или когти, дающие шанс дополнительной атаки в ближнем бою."
+    },
+    "Tree status": {
+      "source_sha256": "2a87118720e8aab64a4eee469f8639c0dfaa662a89072f8051917de0147927b9",
+      "text": "Вы превратились в баньян и укоренились в земле: нельзя двигаться или телепортироваться. Уклонение минимально, зато запас здоровья и природная броня увеличены. Вы устойчивы к яду, невосприимчивы к мучению, отрицательной энергии, сну и ослеплению и не нуждаетесь в дыхании.\n\nНадетые плащ, шлем, перчатки, сапоги и нательная броня сливаются с телом и перестают действовать.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Wisp status": {
+      "source_sha256": "3ad8ead70402ac211e3b80df05a6788b78ee18d35906e0366aaf6b13696e6a2d",
+      "text": "Вы превратились в бестелесный сгусток газа. Вы прекрасно уклоняетесь, сопротивляетесь огню, холоду, электричеству и кислоте и невосприимчивы к яду и отрицательной энергии.\n\nНадетые оружие, броня и украшения сливаются с телом и перестают действовать. Вы не можете колдовать. Сила атак в ближнем бою в этом облике зависит от уровня опыта, а не от навыка «Безоружный бой».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Fungus status": {
+      "source_sha256": "56f8bd5f1c9f0b608d19ea2dcc41cd074ea4975f298759356a74e480b8bf958e",
+      "text": "Вы превратились в разумный гриб. Вы прекрасно уклоняетесь и можете вызывать замешательство, выпуская споры при атаках в ближнем бою, но не можете двигаться в присутствии враждебных существ. Вы устойчивы к яду и невосприимчивы к отрицательной энергии.\n\nНадетые оружие и броня сливаются с телом и перестают действовать. Вы не можете колдовать. Сила атак в ближнем бою в этом облике зависит от уровня опыта, а не от навыка «Безоружный бой».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Shadow status": {
+      "source_sha256": "009bb9e68db6518c3207e9e87c0ff82868020d2f31b5db15a318a460cd042046",
+      "text": "Вы превратились в клубящуюся массу тёмных теней. Вы постоянно невидимы и невосприимчивы к яду, высасыванию жизненной силы и мучению. Весь получаемый урон уменьшен вдвое; любая входящая атака заставляет вас истекать дымом, а ваша Воля безгранична. Однако ваш урон в ближнем и дальнем бою уменьшен вдвое, мощность заклинаний сильно снижена, а при получении урона дополнительно уменьшается ваш максимальный запас здоровья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Orb status": {
+      "source_sha256": "ecb2589fba3ee4e2d57f05271f3b323fe0ea4b201b3c52035e9981765f7020cc",
+      "text": "Вы находитесь рядом со Сферой Зота или несёте её. Её энергия нарушает магию перемещений: телепортация занимает больше времени, а свитки скачка могут переносить вас немного в сторону от выбранного места.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Orb? status": {
+      "source_sha256": "779105d701c86fa57dbbe56eaec57d0daa9df9de85315ad28e24e69092ce2b20",
+      "text": "Вы несёте Сферу шарлатана. Её энергия нарушает магию перемещений: телепортация занимает больше времени, а свитки скачка могут переносить вас немного в сторону от выбранного места.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Hop status": {
+      "source_sha256": "e8ba1062dadd62f5540c223035b7d6319a8e526f64d013e657f57c1ead95b7c5",
+      "text": "Ваши ноги устали, и вы не можете прыгать. Чтобы восстановиться, нужно несколько ходов не двигаться. Другие действия, например атаки или сотворение заклинаний, не мешают восстановлению.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Ray status": {
+      "source_sha256": "66272ca9639b42f46915a502edd0ef44f954cf12fb366b03d35de5163dda5704",
+      "text": "Вы поддерживаете луч обжигающей магической энергии. Нажимайте <w>.</w> или <w>s</w>, чтобы ждать на месте: это сохраняет и усиливает луч, расходуя 1 единицу магии за ход. Любое другое действие, в том числе повторное сотворение заклинания, прекращает луч.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Lash status": {
+      "source_sha256": "4e5981bdc1975ff20138698d3a241d03fa90f005da7cc94a94f0a83ab3e8c6d0",
+      "text": "Вы движетесь со сверхъестественной скоростью: передвижение не занимает времени. Боевые приёмы, выполняемые при таком движении, наносят повышенный урон и никогда не промахиваются.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "SlowM status": {
+      "source_sha256": "c02920c7be50cf05aaa79019abc0df4bcea2c06f2c1fa809af8774c3c3021a42",
+      "text": "Жидкая почва замедляет ваше передвижение.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Alive status": {
+      "source_sha256": "521ab58be39d2f9fda9c9cf9dcc0abc7ef7ab6bca01424d2926b8deb47474174",
+      "text": "Ваше тело полно крови, и здоровье быстро восстанавливается.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Aug status": {
+      "source_sha256": "7d59d1feac58870ee917975ca8d0522ef6ac3e529c408ac395f868c84ddee783",
+      "text": "Вы получаете бонусы к мощности заклинаний, точности и урону атак. Размер бонусов зависит от вашего здоровья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Beogh status": {
+      "source_sha256": "ef9b7ed5fa5a9fdaf7b33ed45ecb98ba10d0d6c04ae04ebfaa234fb1c478e21f",
+      "text": "Вы можете присягнуть Беогу, богу всех орков, через ближайшего жреца. Для этого выберите способность «Принять веру Беога» в меню способностей.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Bloodless status": {
+      "source_sha256": "85a69f4a1e19f8e39889dc79ca432c77ba315b5ca6894a1107ed4de747664e6b",
+      "text": "В вашем теле совсем нет крови. Максимальный запас здоровья уменьшен, а здоровье не восстанавливается, пока вы видите монстров. Вы невосприимчивы к яду и отрицательной энергии, значительно сопротивляетесь холоду и получаете сопротивление мучению.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Bribe status": {
+      "source_sha256": "76a76fed824f068a2f1767466a888c7fe52bde2a3af053dec70a67b4ee479210",
+      "text": "Вы подкупаете обитателей текущей ветви подземелья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Cloud status": {
+      "source_sha256": "facb1612471aec89b07fe9afe647f3685ed1d8e6a0c823d2b2ad95ecef5be928",
+      "text": "Вы находитесь в облаке.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Clouds status": {
+      "source_sha256": "20c0b7e5eeb39d9af7a04bd3122a71fdaca5ba8022f30d6f5ab958154f8d1061",
+      "text": "Воздух слишком неподвижен, чтобы могли образовываться облака.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Dig status": {
+      "source_sha256": "11fe511c4365c3e35de1157126e60371b2daba1c42a1abdf95d0c6bd4e350c77",
+      "text": "Вы роете проход.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Elixir status": {
+      "source_sha256": "a127939d614df1aec62ee85bc031ed16e5f4a49e73ab5c784730183000756f00",
+      "text": "Ваше здоровье и/или запас магии быстро восстанавливаются. Здоровье ваших союзников также быстро восстанавливается.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Fast+Slow status": {
+      "source_sha256": "bed1d98b889025b77899971fb5b72e3f0aa872a6a63b23ab46c6fd8768133ac5",
+      "text": "На вас одновременно действуют ускорение и замедление.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Lava status": {
+      "source_sha256": "7092758c8b210bf2dee42a31faf8848a9d9b0d22a10286280ba70f10d6511e9f",
+      "text": "Вы летите над лавой.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Recall status": {
+      "source_sha256": "8a680fdeabdfa86998585d97ee1a2b5d067b9424096c80c72dedfe00b086d224",
+      "text": "Вы созываете своих союзников.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Water status": {
+      "source_sha256": "c9c75d69c06ccf8c9275a652fd6309dcebe41ae0238173590ee059a569312a91",
+      "text": "{{\n    local verb = you.flying() and \"flying over\" or\n                 you.race() == \"Merfolk\" and \"swimming in\" or \"standing in\"\n    local feat = view.feature_at(0, 0):gsub(\"_\", \" \")\n\n    if feat ~= \"deep water\" and feat ~= \"shallow water\" then\n        feat = \"water\"\n        verb = \"over\"\n    end\n\n    return \"You are currently \" .. verb .. \" \" .. feat .. \".\"\n}}",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "wiki_text": "Описание сообщает, летите ли вы над водой, плаваете или стоите в ней, и различает глубокую и мелкую воду."
+    },
+    "Attr status": {
+      "source_sha256": "9f62618379aec925b353edccc70a8f4f59d1cbeb6ef5070acf5521dfa60c822c",
+      "text": "Враги магическим образом перемещаются к вам. Это не будит спящих врагов.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Zot status": {
+      "source_sha256": "cc82edddae791a13112a9760ec85ad4ea2e2991fd9b19793c2b5887d399c76bf",
+      "text": "Вы провели слишком много времени в одной ветви, и зловещая сила Зота вас заметила. Если вы проведёте здесь указанное число ходов, не спустившись на новый этаж, Зот найдёт вас и навсегда уменьшит ваш максимальный запас здоровья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Zot count status": {
+      "source_sha256": "3249da479542bac5cf2624f1aca646491a2df42467a1f030e3f9aa65c1987986",
+      "text": "Если вы проведёте в этой ветви указанное число ходов, не спустившись на новый этаж, Зот найдёт вас и навсегда уменьшит ваш максимальный запас здоровья.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Gem status": {
+      "source_sha256": "11ac287d78900c199860d56d815f2563b7a33660db668b1f438bd655552cdc7e",
+      "text": "Если вы проведёте в этой ветви указанное число ходов, сила Зота обнаружит и разобьёт её самоцвет.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Gem (*) status": {
+      "source_sha256": "a43f3f268efd413cb7ed9d556c30633262b1018d00310367eea480914795e5e9",
+      "text": "Сила Зота больше не охотится за вами, но самоцвет этой ветви ещё цел.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Blink status": {
+      "source_sha256": "d073a3778745350e216993d3e6f0f7fcd77681d2604d2ca60b1f4e51793721b9",
+      "text": "Пространство вокруг вас нестабильно. Некоторое время нельзя колдовать «Скачок» и применять активируемые способности скачка. Более мощная магия перемещений, например свитки скачка, игнорирует это ограничение. Оно также не мешает скачкам, вызванным внешними силами и не зависящим от вас.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Bbolt status": {
+      "source_sha256": "1818b985538b52e81898ad9129df6d5bfdecc7dcfc0e2ddc79c5e5c32cf091aa",
+      "text": "Вы восстанавливаетесь после превращения в молнию и некоторое время не можете повторить скачок молнией.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Charge- status": {
+      "source_sha256": "7664c16d3746ab355691e55cb6411f1640d8152ccbea64915ce5668137470e69",
+      "text": "Вы накапливаете электрический заряд. Нажимайте <w>.</w> или <w>s</w>, чтобы ждать на месте и продолжать накопление до разряда. Любое другое действие, в том числе повторное сотворение заклинания, безвредно рассеивает заряд.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Wave status": {
+      "source_sha256": "cca0bb4ccde05798069623dbd44ea83ccc44194021d95aa0013936d2c570b26c",
+      "text": "Вы поддерживаете волны пламени. Нажимайте <w>.</w> или <w>s</w>, чтобы ждать на месте: это сохраняет и усиливает волны, расходуя 1 единицу магии за ход. Любое другое действие, в том числе повторное сотворение заклинания, прекращает эффект.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Ramparts status": {
+      "source_sha256": "1449afd3f1c70536153525c5f0fb01de1177e9bd2725dbe52e494abb74e319bf",
+      "text": "Вы покрываете ближайшие стены льдом. Если вы переместитесь в другую клетку, лёд растрескается и осыплется.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Bog status": {
+      "source_sha256": "67feaa84ea349a0cecf43be10f340422467bc98696505f7f7c6decc4ce1ab0be",
+      "text": "Вы создаёте ядовитую трясину поблизости и невосприимчивы к её воздействию. Вы не можете поддерживать это превращение местности вне поля зрения.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Enlightened status": {
+      "source_sha256": "91ecc9abd08d265046cc5dfd3a0bab913bf698c6851a747fe9d32343d7ef646a",
+      "text": "Вы приобщились к высшей истине, что усилило ваше сопротивление воздействиям, проверяющим Волю. Увы, это прозрение скоро пройдёт.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Reap status": {
+      "source_sha256": "5d18ed2e502ec1271018b2563699f071cba7b4361bc3fb6f429ecc2eab6cf731",
+      "text": "Мертвецы шевелятся! Убитые вами живые существа могут восстать слугами-зомби.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Peek status": {
+      "source_sha256": "ad6ca84a3c15309430f0d39012211044733d9543b2e200a8a720b6b3981df2c5",
+      "text": "Вы заглядываете вниз по лестнице. Пока ещё можно свободно вернуться на предыдущий этаж, но после любого действия на этом этаже все лестницы, ведущие обратно наверх, обрушатся.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Fragile status": {
+      "source_sha256": "cf8d5fbd13a25edf08087636acf0dd38bc3b3e5f895d3d3715868cab81f898fe",
+      "text": "Ваше тело хрупко, как стекло. Урон из любых источников увеличен.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Ooze status": {
+      "source_sha256": "e21e657fb43589e95708590aba6258176ddb580c2fb6233299ea68236cc5012e",
+      "text": "Кислотная слизь сочится из стен вокруг вас. Каждый ход враги получают урон, зависящий от числа слизистых стен по соседству с ними.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Dog status": {
+      "source_sha256": "cdf820d1e6538612a20e18f6b19cbe13d42698cdb687ee5a4b2c65e35b3af46f",
+      "text": "Ваш пёс-фамильяр оправляется от ран. Некоторое время его нельзя призвать снова.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Siphon status": {
+      "source_sha256": "8585d57a33c8cee6ffe184a36895e475fd33d35813a581d2209d40272a59a61f",
+      "text": "Вы недавно поглощали сущность живых и некоторое время не можете сделать это снова.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Word status": {
+      "source_sha256": "e30a8b2bf9149cecb4e4a876c036fe48ead1a27734fc86c52f7ec94b1ae52ddf",
+      "text": "Вы устали после недавно произнесённого Слова хаоса и некоторое время не можете повторить его.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Jinx status": {
+      "source_sha256": "cd40ba5e5de5faf91def82b1cdd26809db262b2a36e718611f5e907af557bfd5",
+      "text": "Вас окружают духи невезения. Когда вы атакуете, они сглазят врагов, не прошедших проверку Воли: те получают урон и теряют жизненную силу. Духи быстро исчезают, когда в поле зрения нет врагов.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Rise status": {
+      "source_sha256": "05f8d977798e71d4451bb8c3af2b6ffc574c36330a412623f830ff9579ba2e8b",
+      "text": "Вы поднимаетесь к потолку. После небольшой задержки сила Игниса выбросит вас на этаж выше.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Challenge status": {
+      "source_sha256": "1383919ae0938f499df938f4eab11e7c0bb8c44ee6bcc7e2a1c08e82a12dff78",
+      "text": "Избранный апостол Беога бросил вам вызов. Он знает ваше местоположение в любой точке этого этажа. Победите его, и сможете принять его в свои ряды. Если вы сбежите с этажа, Беог накажет вас, временно лишив союзников.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Vengeance status": {
+      "source_sha256": "41b2da0b5625a9417024f794326b3095717d52b06222ab7eb48524eee32ea04e",
+      "text": "Один из ваших апостолов погиб, и ещё не все причастные к его смерти враги убиты. Убейте их всех, чтобы Беог воскресил апостола быстрее.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Pray status": {
+      "source_sha256": "669879b49e2f982159b79f2d971d890495580d865e76c5df020baf3b614363dc",
+      "text": "Вы призвали божественную помощь, чтобы отомстить за павшего апостола. Орки будут непрерывно приходить вам на помощь, но молитва закончится быстрее, если рядом не останется врагов.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Recruit status": {
+      "source_sha256": "3407f12dc6d504006fcd6d13cf07fe5e02987f1eeb4ba02aca9de367264a0ec1",
+      "text": "Вы можете принять орочьего апостола в постоянные спутники. Для этого используйте способность «Принять апостола».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Shackles status": {
+      "source_sha256": "f8362706140fac7ebbf5a4e54d7ef781c15d835bfa820edb5e09e0b53b40f1f7",
+      "text": "Хватка Йредэлемнула опутывает область цепями, похищающими жизненную силу.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Rev status": {
+      "source_sha256": "bd58e8dd3382ed855b58784995e8848d89ab38e14bef9b9faa80385c2daefbda",
+      "text": "Вы начинаете разогреваться. Ваши атаки оружием и без оружия приближаются к полной силе и с каждым ударом будут становиться мощнее.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Rev+ status": {
+      "source_sha256": "d739b8fc64edd3686d5eb1b3ecbea2fb4370a103e300921bffefa93f846ba499",
+      "text": "Вы разогреваетесь. Ваши атаки оружием и без оружия уже близки к полной силе и с каждым ударом будут становиться мощнее.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Rev* status": {
+      "source_sha256": "3e691efb3f4d6c61da93984039d1a4d22324d51bd1315b81569263fc2a80afb0",
+      "text": "Вы разогрелись. Ваши атаки оружием и без оружия достигли полной силы. Усиление сохраняется, пока вы продолжаете атаковать, и ещё некоторое время после этого.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Gavotte status": {
+      "source_sha256": "c8b38147bb1d48976ca974a741a6422ba03e015dc44baad7be19982434d7ebc5",
+      "text": "Гравитация вокруг вас всё ещё нестабильна. Пока она не придёт в норму, вы не можете повторить заклинание «Гавот Гелла».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Fusillade status": {
+      "source_sha256": "30fb9818d3c733c1180ece582332f3df3549fc21d061589335b8e3c299fe508d",
+      "text": "Вы швыряете сотворённые алхимические реагенты в ближайших монстров.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Nightfall status": {
+      "source_sha256": "6aa5e9ae5054381faddb89412d4db85307898599c415332a2f88ae94494951a4",
+      "text": "Вы поддерживаете первозданную ночь, резко сокращая дальность своего зрения. Со временем она постепенно вернётся к обычной.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Blind status": {
+      "source_sha256": "6c295e6f2d297ca97e87acab81b581fc8f3ed21e3fa6b139137e2e2dde19ae17",
+      "text": "Ваше зрение сильно ухудшено. Все ваши заклинания и атаки, которые не попадают автоматически, чаще промахиваются. Чем дальше цель, тем сильнее этот штраф.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Ruin status": {
+      "source_sha256": "120f48fc66c6d33fd2062876ec1150abdfdd960751608c4073b266db20bfb605",
+      "text": "На вас наложена печать погибели. Любая атака в ближнем бою, нанёсшая вам урон, также сильно истощает вашу жизненную силу и случайным образом замедляет, ослабляет или ослепляет вас.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-GClaw status": {
+      "source_sha256": "f4a76877880e4aa09b0e17d69f2426a1bcede6bead898445064c67d8870373d5",
+      "text": "Вы ещё не накопили достаточно силы смерти, чтобы снова сотворить «Могильный коготь».",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Legion status": {
+      "source_sha256": "02ae4a7eaf92152fdb342a71b07528901f1b0e152b1a741a89ba0645cd0088fc",
+      "text": "Вы призываете легионы хаоса: рядом с вами периодически появляются демоны, существующие недолго.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "-Bloodrite status": {
+      "source_sha256": "9248864069a201fdd377fcc6fa674e9908f358fec05ec19e1c2ba8ab18a65c7e",
+      "text": "Вы недавно совершили адский кровавый обряд. Следующий обряд станет доступен только после полного исцеления.",
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+    },
+    "Execution status": {
+      "source_sha256": "8f45625055a1da2f73b821d0838039eab353d5794d01181069514d28cc3b6561",
+      "text": "Вы делите тело с палачом. Это даёт мощную дополнительную атаку, которая также срабатывает при уклонении от атак, и позволяет совершать натиск на врагов. Эффект быстро закончится, если вы перестанете атаковать.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Destr status": {
+      "source_sha256": "14fac11ce507ae1de11008f8023b845d3abfff835cd30661d50366488db6a75e",
+      "text": "При последовательных применениях способности «Высвободить разрушительную силу» её мощь нарастает.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Destr+++ status": {
+      "source_sha256": "d8bd1b261ab34b9e98a27ee49bc28494a2446db57f15895b973b1544c51e4b9a",
+      "text": "<Destr status>\nСледующее применение выпустит залп дополнительных магических снарядов по случайным целям, после чего накопленное усиление сбросится.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "wiki_text": "При последовательных применениях способности «Высвободить разрушительную силу» её мощь нарастает.\n\nСледующее применение выпустит залп дополнительных магических снарядов по случайным целям, после чего накопленное усиление сбросится."
+    },
+    "Slaughter status": {
+      "source_sha256": "6ace63cca27dbb655d73176d27b745937caf53f9caafe5cc4327f7af89e9a829",
+      "text": "Вы стали орудием разрушительной воли Махлеба. Ваши мощь и защита значительно усилены, но после окончания эффекта вам предстоит пройти Горнило плоти.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Pact status": {
+      "source_sha256": "c55193879e09836428e94425a618b5f119cc3340cb9798e8fd20b93169149cb8",
+      "text": "Махлеб явился взыскать обещанное.\n{{ if you.religion == \"Makhleb\" then\n        return \"Исполните клятву, став орудием Махлеба: убивайте испуганных \" ..\n               \"смертных, собранных здесь, и божество, возможно, дарует вам \" ..\n               \"свободу вновь.\"\n   else\n        return \"Сражайтесь и проливайте кровь — возможно, вам снова даруют свободу.\"\n    end}}",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "lua_strings": {
+        "Fulfill your oath as their instrument by slaying the terrified ": "Исполните клятву, став орудием Махлеба: убивайте испуганных ",
+        "mortals that have been gathered here, and they may grant you ": "смертных, собранных здесь, и божество, возможно, дарует вам ",
+        "freedom once again.": "свободу вновь.",
+        "Fight and bleed and you may be granted freedom once again.": "Сражайтесь и проливайте кровь — возможно, вам снова даруют свободу."
+      },
+      "wiki_text": "Махлеб явился взыскать обещанное. Последователи Махлеба должны исполнить клятву, убивая испуганных смертных, собранных здесь. Для остальных путь к свободе также лежит через бой и кровь."
+    },
+    "Escape! status": {
+      "source_sha256": "e637f728cf3e97a2e775d1efe712463f5c9e03f1e781994715b7ff43eaf5393c",
+      "text": "Из Горнила открылся выход. Найдите его и верните себе свободу. На время.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Blast status": {
+      "source_sha256": "2689847a7d214d08b26c8ef1fe04b414fb560c491a81fd9fd0b8853d29bfc244",
+      "text": "Вы готовите кинетическую ударную волну и не можете двигаться, пока подготовка не закончится.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Winding status": {
+      "source_sha256": "b2fa896369910d119211721f200090d23b0d8608c2987464a242c8c8a6d719a5",
+      "text": "Вы заводите механическую пчелу. Пока она не будет полностью заведена, она не сможет атаковать свою цель.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Unstable status": {
+      "source_sha256": "ee5b5bba54a3a3fe02eea6c96a2d7f7e70ec092246fce02b6df218f9e591fc68",
+      "text": "Ваша связь с пространством нарушена: каждый ход вы совершаете случайный скачок, всякий раз получая небольшой урон.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Vainglory status": {
+      "source_sha256": "9a32350d30f51e665c360b4b0a928163b8fba6f756b484f8e6d1294c6be6c934",
+      "text": "Вы недавно объявили о своём царственном присутствии. Столь скорый уход с этажа был бы совершенно недопустим.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Protected status": {
+      "source_sha256": "8038d50d0977f970386cb2ba08432c4e23d098a4c2fed2afbac0c21ed11606c0",
+      "text": "Ваш платиновый идеал находится достаточно близко, чтобы иногда парировать направленные на вас атаки.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Vexed status": {
+      "source_sha256": "3a020ec2cfe68b6e26a06b41fd578db17884dc69ee7279eed38d44fb2628dcf3",
+      "text": "Ваш разум затуманен досадой. Несколько следующих ходов вы будете бесконтрольно атаковать случайных соседних существ — и друзей, и врагов — или даже пустое место.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Drowsy status": {
+      "source_sha256": "899872f006de0a5f7ce98049725e24a0fb4074ae3f618362219ba2fd14154963",
+      "text": "Вас стремительно клонит в сон, и вскоре вы можете полностью уснуть.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Vampire status": {
+      "source_sha256": "27d19e47519b47fa4ecee69eaa0e2f71bee8dca2a94c4ad7757f3f87a0e1502e",
+      "text": "Вы вампир — существо на границе жизни и нежизни. Вы можете пить кровь живых, чтобы исцеляться, и даже превращать незаметно убитых жертв в вампирских слуг. Однако в присутствии монстров ваше здоровье не восстанавливается.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Swarm status": {
+      "source_sha256": "4d01320760bb66c96c4f65a957e5fee7cbd024b448fe4ef4eb4640a9f57796dc",
+      "text": "Вы превратились в рой летучих мышей-вампиров. Вы быстро передвигаетесь и хорошо уклоняетесь, а за вами могут оставаться облака летучих мышей.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Cacophony status": {
+      "source_sha256": "4b0643e061b7a773e88a96d05e417df91e9a4eb8ad2f74b9059c84f685da305a",
+      "text": "Вся ваша броня с грохотом бросилась в бой. Каждый одержимый вами предмет брони действует самостоятельно. Получаемый им урон не вредит вам, вы можете беспрепятственно стрелять сквозь него, а его атаки могут ошеломлять врагов, высасывать их жизненную силу или вызывать замешательство.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Catalyst status": {
+      "source_sha256": "e6af6f96735765f88fe24c8d9a9b70c80c6e7c743914cdcbbfa265e42773e240",
+      "text": "Вы подготовили взрывчатый катализатор. При каждом попадании в ближнем бою он взрывается, нанося урон огнём основной цели атаки и всем врагам рядом с ней. Атаки продлевают действие катализатора, даже если вы промахиваетесь.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Shroud status": {
+      "source_sha256": "5526bc6746ab9549710e74fd685ea84480dece1445ce30d610e18bb2b691d7b5",
+      "text": "Вас покрывает тонкая пелена слизи, способная отразить атаку в ближнем бою. Отразив удар, пелена ненадолго разрушается, но вскоре восстанавливается сама.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Yak status": {
+      "source_sha256": "6c4255784c35fbdb24aae387a17b05c1e9218eb5219e42f72fcb41ca2ce67c46",
+      "text": "Вы покрытый инеем як с обледеневшей шерстью.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Spider status": {
+      "source_sha256": "202536a8208e472cccaaefb0c002530c7d4c30e1f03896264dd0f317a26bf16a",
+      "text": "Вы ловкий паук-скакун, чьи атаки могут опутывать врагов паутиной.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Quill status": {
+      "source_sha256": "553a052948bce179621f607c94c4f800bb710b401f8fc704845c03f69bb4adcd",
+      "text": "Из вашего тела растут острые иглы, способные ранить атакующих вас в ближнем бою.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Hive status": {
+      "source_sha256": "a48b3b6d7312a7e67a76bb04c1db8692f96efe23091dd2bf1211cd1921dedd08",
+      "text": "Вы живой улей, гудящий от хлопотливых насекомых.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "-Swarm status": {
+      "source_sha256": "c0c89901343193ab17384b506de346403b95d8bfcba0a4805f55e7eb3c7a66c3",
+      "text": "Обитающие в вас насекомые недавно вылетали защищать вас. Они не смогут сделать это снова, пока ваше здоровье полностью не восстановится.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Aqua status": {
+      "source_sha256": "060f4490c8d9bc8fd5fc6f956bf1f0f218a5514f3f33f0fbc85767e441beadc4",
+      "text": "Ваше тело состоит преимущественно из стихийной воды, которая может вытягиваться, атакуя и топя врагов.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Sphinx status": {
+      "source_sha256": "ab05cff072f5d0bb8cb771000b3471c074c1c3f46f9d9608aed543e7137406f0",
+      "text": "Вы хитрый сфинкс, любящий загадки. В ваших лапах заключена сила бури.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Werewolf status": {
+      "source_sha256": "337e1c944d2f9aad13f04164d2f1d08a461e90c357daa34fb6e0bf8685f45f2a",
+      "text": "Вы свирепый вервольф.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Slay status": {
+      "source_sha256": "fd82c65909cdbd97c1703c928fe3260cc5d90c4fe103406d911fd4f515be5c0a",
+      "text": "Урон и точность ваших атак временно повышены.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Scroll status": {
+      "source_sha256": "e7eb5c359a6264f517c2e09259c8555929d60127679de3ae7b3d4ebf6c708952",
+      "text": "Вы ходячий свиток из хрустящего пергамента, наполненный магией.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Crab status": {
+      "source_sha256": "45b6a557baf8916efae1adb9b814e709e3a2efd066779192a6c84bf2249a746f",
+      "text": "Вы краб с тяжёлым панцирем и дыханием, вызывающим ржавчину.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Scarab status": {
+      "source_sha256": "65a9983b5532cfeead85b61c118acd21f6cde8231d26ade5a3502157e89c10d3",
+      "text": "Вы солнечный скарабей. Рядом с вами пылает солнечный огонь.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Medusa status": {
+      "source_sha256": "0a3831c8afd3512f395d100e6dcfeed81850868f0c2c304f2b0481d06ed593cc",
+      "text": "Вместо волос у вас грива ядовитых отростков.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "-Lithotox status": {
+      "source_sha256": "ed33253f28942687a98b2d6c28d552fd022037291ff609499f34b60f40eaa1ef",
+      "text": "Ваш литотоксин недавно сработал и не сработает снова, пока вы полностью не исцелитесь.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Doom status": {
+      "source_sha256": "c622cf9a35e917f736c9e7345437b29a8d437f1dcd105551655c72cb76f9996f",
+      "text": "Вокруг вас сгущается злая судьба. Когда Обречённость достигнет 100%, на вас ляжет случайное проклятие, а Обречённость сбросится до 0. Проклятия вызывают разнообразные отрицательные эффекты, способные надолго поставить персонажа под серьёзную угрозу.\n\nИ Обречённость, и проклятия снимаются только получением опыта. Проклятия обычно держатся гораздо дольше.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Ostracised status": {
+      "source_sha256": "19d70ab76a79e63adf9eaeafc899c67792868f9273d61b70822994abf32932e1",
+      "text": "Ваша связь с божественным частично прервана: действенный уровень благочестия временно снижен. Получение опыта постепенно вернёт всё благочестие, заблокированное этим эффектом.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Tesseract status": {
+      "source_sha256": "9e5665abdbf7151965161eb7c61d28ad2676cb0af7fd666cfc88dc9844f7b017",
+      "text": "Безграничный тессеракт стягивает силы из параллельной реальности. Новые монстры будут непрерывно появляться в случайных местах этажа, пока один из двух тессерактов не будет уничтожен. Если это продолжится очень долго, монстры иногда начнут появляться рядом с вами.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "-Star status": {
+      "source_sha256": "74418b75c6e1011ed34c0c91df8ca0741ff0de54ef781aed6111be5254d90a59",
+      "text": "Ваша сфера звёздной пыли недавно израсходовала энергию. Она перезарядится после нескольких ходов, в течение которых ваш запас магии полон и в поле зрения нет врагов.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "-Mesm status": {
+      "source_sha256": "77cc05ab4b271d79369cec2169a17620715b64ed52f6a07f137c6b0839dd7d32",
+      "text": "Ваша сфера завораживания недавно израсходовала энергию. Она перезарядится через небольшое время, но в ходы, когда вы двигаетесь, заряд не восстанавливается.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Phobia status": {
+      "source_sha256": "fdebad9fddff1d71120eb2d72095f82eb9156458704e8bf5c4f8f55e5ddbf455",
+      "text": "Клаустрофобия снижает точность и урон ваших атак. Размер штрафа зависит от числа окружающих вас стен.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Dim status": {
+      "source_sha256": "3ba0cd185fd7c1c35500bc9b0ba3d8099d8fc7023ae9a3d1d4fd4924c07f37cf",
+      "text": "Мощность всех ваших заклинаний уменьшена вдвое.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Sunder status": {
+      "source_sha256": "088ad8066a3519516387181b71146b325b969c60abd59d188e3b4f8a86d4f609",
+      "text": "Ваша следующая атака будет точнее, нанесёт тройной урон и рассечёт врагов на увеличенной дальности. Усиление пропадёт, если вы совершите любое действие, кроме атаки.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Devious status": {
+      "source_sha256": "6ecebc5f6c0f76ce1abc0ae835901d8c8f3b8bc56978cf00f6d79cb10f11b20c",
+      "text": "Ваше уклонение, точность и урон атак повышены. Эффект складывается до 3 раз и не заканчивается, пока вы продолжаете атаковать в ближнем бою.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Slimifying status": {
+      "source_sha256": "3ce3f562c769be22a4105c8915ee2e6b03d294221675dd65d0b6377ebff8f857",
+      "text": "Ваше тело медленно превращается в слизь. Даже если превращение завершится, вашей силы воли хватит, чтобы со временем вернуть прежний облик.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Jelly status": {
+      "source_sha256": "d819bad7b3f28c6748d7a597e49ead27b7e320129807455bd874fce39caefc78",
+      "text": "Вы временно превратились в слизня. Вы получили ряд необычных сопротивлений и дополнительное здоровье, но ваши заклинания сильно ослабли.\n\nНадетые оружие и броня сливаются с телом и перестают действовать. Сила ваших атак в ближнем бою, теперь кислотных, зависит от уровня опыта, а не от навыка «Безоружный бой».",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Eel status": {
+      "source_sha256": "83f0bda8092bb366a3f1a5764cdfe6b85deb5081a94ef92debdac33cfb9e4ae5",
+      "text": "Ваши руки превратились в двух электрических угрей.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Blade status": {
+      "source_sha256": "76ccbb6de4b036b90c524dcbb4a1cefded6447a6cf171aa2395686994ce446a0",
+      "text": "Из вашего тела растут многочисленные острые клинки.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Spore status": {
+      "source_sha256": "329b036871f9454dc1eaa9464c2a82125ceff04404bb14beced372e2f302deaa",
+      "text": "Ваша рука превратилась в скопление разноцветных грибов.",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua."
+    },
+    "Stampede status": {
+      "source_sha256": "b5adb7518d0af926d6c0e1e444992f0f6cb67d79ec5b549f9e7b235a15846bfc",
+      "text": "Вы несётесь вперёд. При движении в клетку врага вы оттесняете его назад, но эффект закончится, как только вы совершите любое действие{{\n    if you.mutation(\"East Wind's embodiment\") > 0 then\n        return \", кроме натиска, движения с оттеснением врагов и сотворения заклинаний.\"\n    else\n        return \", кроме натиска и движения с оттеснением врагов.\"\n    end\n}}",
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "lua_strings": {
+        "besides rampaging, stampeding, or casting spells.": ", кроме натиска, движения с оттеснением врагов и сотворения заклинаний.",
+        "besides rampaging or stampeding.": ", кроме натиска и движения с оттеснением врагов."
+      },
+      "wiki_text": "Вы несётесь вперёд и при движении в клетку врага оттесняете его назад. Эффект заканчивается от любого действия, кроме натиска и движения с оттеснением врагов. Воплощение Восточного ветра также позволяет колдовать, не прерывая эффект."
     }
   },
   "cards": {

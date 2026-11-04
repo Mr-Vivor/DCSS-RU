@@ -49030,6 +49030,282 @@
     "@Arg@ is petrifying.": {
       "context": "status.cc and output.cc/tileweb.cc status-context rendering; current status.txt full descriptions. Short HUD labels and wiki reference headings use one dictionary. rF0 is a resistance symbol, not English prose. monster-props petrifying means turning to stone, not stun; complete player/monster sentence frames preserve agreement. Raw status lookup IDs unchanged.",
       "translation_sha256": "b99f226cb9f0d48208bcf4c2556b0812191088645bdd41980d8e82725c38a664"
+    },
+    "You are currently flying over deep water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "c8ab1fb7684b4595512e0698ea60d444d61d1123cfd43b999bff782923d89332"
+    },
+    "You are currently flying over shallow water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "9cf694ca8eabd491541c765b88b014b82b149674d0801d3e6975060d0e48c2a7"
+    },
+    "You are currently swimming in deep water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "d32d76650c1e07f46a1783747f4c0750f784f2a622dfbfb83d55da1a46d61d18"
+    },
+    "You are currently swimming in shallow water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "44c4afa24f72fe38cae50f0ff2265cd00e6f2ee9b32c21b4bed11b6fcf96c9e9"
+    },
+    "You are currently standing in deep water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "a828bc062b78117e32723b7cfcef6054431b7ccde09354f79bd5be106307c7d1"
+    },
+    "You are currently standing in shallow water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "6a711a902cecadc494b70ab05797c542457f674217f65065202ff4d5476f16e8"
+    },
+    "You are currently over water.": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "725efccaa0aef13b6dbde8f376b1340b61d8d4abb049dbe965efa1e9c017d1eb"
+    },
+    "{status}Serpent": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "d5832be8d0cabe8458f4cafdc6c3eb8bddfe18596d16233375f15e2dacbdb29e"
+    },
+    "{status}Maw": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "f6196e6914a87521bd8a2537a5078a74c07d7d7166141944add29435b9bc1df7"
+    },
+    "{status}Storm": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "866995882f3040af21e114a08f01d4e56d7e7e2c4a2286407d0630d76997587c"
+    },
+    "{status}Death": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "b58f4fdb54f4f9207d0ae45377799537acf9907707b82ca75bd441f78afed5ad"
+    },
+    "{status}App": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "4e52287adf7d0e991a78c9a4bd25650ee2fde83474d503c70e0423b96251a626"
+    },
+    "{status}Wisp": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "1b7607562d374a009a3dbf3923128e28b4ced707d165545bd52d491180f5941d"
+    },
+    "{status}Fungus": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "635170f823b091ef070ac57c72e6e014d072c30a245356751a747b65945710a0"
+    },
+    "{status}Shadow": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "e3d459a3f80c95a74a09d20e73a72c9e5058ee29f607ad8f9a78a9d1d4d3be2d"
+    },
+    "{status}Lash": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "8fa3ab265f5e15c74e7cc5e8a5b148ce82c04094a0c39d21f29e9a75258afbcc"
+    },
+    "{status}Zot count": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "f42738852cacc2dbc35dac59d2a06928ae462cc59d0f6de1a940e0dcb50fa36a"
+    },
+    "{status}Gem": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "1c92a2e6ab9890b6708ac1b8fba7754850fe4d57a038e019007e91ba7dedff9c"
+    },
+    "{status}Wave": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "b57463fb78fec55e928b0a627862fdb259fb97d4de646333f46342cfe5bc30b9"
+    },
+    "{status}Enlightened": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "3337a35c1f75f29b6b389b5d77273c8673599fc6df35ff4fbab0bd607d4d4a51"
+    },
+    "{status}Jinx": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "101e4fbcf64691d3108896839da0e93d179418050a84f5c7c932fca8c9b44981"
+    },
+    "{status}Rev": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "43537e55580e9d8c09f26f27d362ae557a9f5dd00e3bc5b0293e3ad4279aba31"
+    },
+    "{status}Rev+": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "dda60524987e5e4f6eeeb91774a205a9a7d455651ac6526e373bbd8b7fc5eace"
+    },
+    "{status}Rev*": {
+      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Experience removes Zot-related and other explicit experience-based penalties; waiting does not. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved.",
+      "translation_sha256": "678ebbfae5a56431f41460ffc59afe814c1c322ac35ae9ad551e90d37238e9ae"
+    },
+    "{status}Execution": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "f525a6ddd5b85fae04530dc89029aea23520728c20fa0e1528cd4a960c560513"
+    },
+    "{status}Destr": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "ad78546015c33c0b13552fc5341daecaee636888dc65ed173ddd79c5a01b5bfa"
+    },
+    "{status}Destr+++": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "5f16488c067a319e1576b6c6c9e33ea1598fa3ba03251766390b338f787c6df6"
+    },
+    "{status}Slaughter": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "0561c8070d0b28d75ad7a345f890493a390263a87e2d847e45dec469c42cea3e"
+    },
+    "{status}Pact": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "d406d01cc3c484cd441a114760d90c3095ea4dfdecf7920c89065a3fdceac3b3"
+    },
+    "{status}Escape!": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "9b6ac072089bf82e89ead389399bf74530eff900c7c3350223b70af90df64f33"
+    },
+    "{status}Blast": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "3efeca1be9426f1c8f90785af1eba9110bae8324c6d34b3c2982e24abf2dae00"
+    },
+    "{status}Winding": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "c2eaabf496a98fc12d2d97d56fadf45985e0f0868390c9e70c1647272c07eb36"
+    },
+    "{status}Unstable": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "524e2917e780df3e60935e556979631c0844e5907341c04710945eb607c7afb0"
+    },
+    "{status}Vainglory": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "1d8d2d116896ade1233a4967b437575cfe74e94efab6f264d13426a00ad9ab12"
+    },
+    "{status}Protected": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "559476c7107ae53c512e663904c476f4b19d1e704de80b4ab9c8dcd295f67a96"
+    },
+    "{status}Vexed": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "4f2778bf7dc4c0635a41f9dcc94ae6176214d12360a51cd198ad751f431bed83"
+    },
+    "{status}Drowsy": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "706d94e784cd5255317e2bf7f62b7139cd979f257a2459ecb180f5408e951e17"
+    },
+    "{status}Vampire": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "7cb2236d23b05a73fd4c937c81f86b57523e3cd0bd6e094ae13dead1358d9643"
+    },
+    "{status}Swarm": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "fcba383105c3b1d9da46fc8dd55fed497c15f90f1686c6c5dfe38451b5088c3a"
+    },
+    "{status}Cacophony": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "0e844dcd7c3384f33026d06da32280efc777e219180ccb736770c80c743d2bca"
+    },
+    "{status}Catalyst": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "a3488820fbfc6650b7d7b6fdde14d3aa35e6289651a92ee3a94acc43567a8b71"
+    },
+    "{status}Shroud": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "188172d56062a8538404663747132f4e95a141c58f7e1a3d5ec71a8fee3208b4"
+    },
+    "{status}Yak": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "de340b7deceb317bfeec5d3d3f656eee92a0ea41ca17bfbe58dd0de61a674087"
+    },
+    "{status}Spider": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "2701e80b2e1b9e45928e98a70262b5fe4e036cb31c6ebfde324c8349c232cda7"
+    },
+    "{status}Quill": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "cae62e37c910c7c97ff0b898101dda184b3e6969a449fc6bf526c3f2934d7958"
+    },
+    "{status}Hive": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "acc337227097db8c15c9abcfcff86ee89f9d5baad6793e00be35e55b7b2b29b8"
+    },
+    "{status}Aqua": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "9b1a8f6bbcef998b107e323997b6b9efcf15e388f5e746e4bb710ca16432445c"
+    },
+    "{status}Sphinx": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "6898de6abe1239fdb0c7065e7cc24da3d81ba90cc0fe5b16a057f9ec9dd269f6"
+    },
+    "{status}Werewolf": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "776c190db1d5380f17b661adc5132f23e48b2261a3a68898693e1c3fa1804e30"
+    },
+    "{status}Slay": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "2aaa770d7e42f0a000aab919c607e019a0abd5349bdfc4521f0477d19c86ba6c"
+    },
+    "{status}Scroll": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "0a9c2a582134ddba4bcb7e0046ee9af4a3bcf19c2b975572b82855217ab9be4a"
+    },
+    "{status}Crab": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "792d62e4eb0b6966c0631f0ba7ed1ce6e235dac068999076362668b2e52847e6"
+    },
+    "{status}Scarab": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "ccd1f9a1ae6e18d66cac338e4d25a02f13953ad5d074461bfbb2ebbd27754f93"
+    },
+    "{status}Medusa": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "75d43ea76115c668355462a4d6f80494e6f50cad3370485a2b4ab1136e44e4dd"
+    },
+    "{status}-Lithotox": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "83bbc5c235bfa576d79fef044887ea24143cad0a814c6845af332f0e1c3dd5fe"
+    },
+    "{status}Ostracised": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "7f56402ef22503f58aeae51fc2e8316da9606dc99c6f834bbbef511ea6ba1437"
+    },
+    "{status}Tesseract": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "6b906fe4dddf97d4057640763eb770602e15de5de90150a33469368cab9a3c8c"
+    },
+    "{status}-Star": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "01727da7de235197fbe089f43035dd7ea5f938c8eab1119994053069ef76106c"
+    },
+    "{status}-Mesm": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "35b0eb64252e4db5783c7a4549fe4259ee6ffccea5397b561cd542ddac2178e4"
+    },
+    "{status}Phobia": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "4aec227d5ba44d746019241ce3e5953c0e58b539b667474c4cebbe926624f0fc"
+    },
+    "{status}Dim": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "8d73cc111e93a9670b5051e7d0b5062622900c49da8652679925cfb6f08eb252"
+    },
+    "{status}Sunder": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "574f8cdd3df733777cfed1b1dd8b8a316f069929fb80854e423b9fafa678840f"
+    },
+    "{status}Devious": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "66f5fc893bd564c6efc5fdf3d27864d092c415356c2032643b4d3797d59b15c9"
+    },
+    "{status}Slimifying": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "1b67e3a88efca5231c47526deaf73c49dd0edad0bee70097ad9dae1c251ce2a0"
+    },
+    "{status}Jelly": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "1e03c0102631e3c6371f08030c55b6d7e1c7e8cc96068c22dd6682cf1169c6e6"
+    },
+    "{status}Eel": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "e08b849eb348bc167931b4026737ad8ff381a8c5d0ef2daf6d62b3df89afdffd"
+    },
+    "{status}Blade": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "2aa6815140c02d63b3a7c32e8766d38c20aa69ebbfdf0ae595b543162a69241e"
+    },
+    "{status}Spore": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "35fa17266e89cc2e360cfd11ef2d2225d9b2d8821cbe7baf89098d43de6a911b"
+    },
+    "{status}Stampede": {
+      "context": "Current status.txt late-game transformations, Makhleb marks, divine limitations, doom, gear cooldowns and stampede. Distinguish slaying accuracy/damage from Strength; drained maximum health from healing; experience-based recovery from timed or full-health recovery. Catalyst hits any adjacent enemy, not allies, and misses extend duration. Chaos summons are temporary. Sunder requires uninterrupted attacks; Devious persists with melee attacks only. East Wind casting exception uses unchanged raw mutation selector. References and Lua branches unchanged; wiki descriptions explain conditional effects instead of displaying executable Lua.",
+      "translation_sha256": "dba96ffc54b4c1a35570a113f1cb2931ca2c9780a5a85c99445852a878054adb"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
