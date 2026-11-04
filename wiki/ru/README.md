@@ -240,3 +240,20 @@
 | `monster.boulder_beetle` | [Жук-валун](pages/monster.boulder_beetle.md) | boulder beetle | reviewed |
 | `monster.clockwork_bee` | [Заводная пчела](pages/monster.clockwork_bee.md) | clockwork bee | reviewed |
 | `monster.erythrospite` | [Эритроспайт](pages/monster.erythrospite.md) | erythrospite | reviewed |
+| `monster.shining_eye` | [Сияющее око](pages/monster.shining_eye.md) | shining eye | reviewed |
+| `monster.eye_of_devastation` | [Око опустошения](pages/monster.eye_of_devastation.md) | eye of devastation | reviewed |
+| `monster.golden_eye` | [Золотое око](pages/monster.golden_eye.md) | golden eye | reviewed |
+| `monster.great_orb_of_eyes` | [Большая сфера глаз](pages/monster.great_orb_of_eyes.md) | great orb of eyes | reviewed |
+| `monster.acid_blob` | [Кислотный сгусток](pages/monster.acid_blob.md) | acid blob | reviewed |
+| `monster.azure_jelly` | [Лазурный слизень](pages/monster.azure_jelly.md) | azure jelly | reviewed |
+| `monster.rockslime` | [Каменный слизень](pages/monster.rockslime.md) | rockslime | reviewed |
+| `monster.slymdra` | [Слаймдра](pages/monster.slymdra.md) | slymdra | reviewed |
+| `monster.void_ooze` | [Слизень пустоты](pages/monster.void_ooze.md) | void ooze | reviewed |
+| `monster.searing_wretch` | [Пылающий страдалец](pages/monster.searing_wretch.md) | searing wretch | reviewed |
+| `monster.wretched_star` | [Мерзостная звезда](pages/monster.wretched_star.md) | wretched star | reviewed |
+| `monster.starcursed_mass` | [Проклятая звёздная масса](pages/monster.starcursed_mass.md) | starcursed mass | reviewed |
+| `monster.tentacled_starspawn` | [Звёздное отродье со щупальцами](pages/monster.tentacled_starspawn.md) | tentacled starspawn | reviewed |
+| `monster.apocalypse_crab` | [Краб апокалипсиса](pages/monster.apocalypse_crab.md) | apocalypse crab | reviewed |
+| `monster.thrashing_horror` | [Мечущийся ужас](pages/monster.thrashing_horror.md) | thrashing horror | reviewed |
+| `monster.lurking_horror` | [Притаившийся ужас](pages/monster.lurking_horror.md) | lurking horror | reviewed |
+| `monster.spatial_maelstrom` | [Пространственный водоворот](pages/monster.spatial_maelstrom.md) | spatial maelstrom | reviewed |

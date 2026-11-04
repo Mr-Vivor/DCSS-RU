@@ -6302,5 +6302,481 @@
       "counted_few": "эритроспайта"
     },
     "review": "reviewed"
+  },
+  {
+    "id": "monster.shining_eye",
+    "kind": "monster",
+    "en": "shining eye",
+    "en_plural": "shining eyes",
+    "gender": "n",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "сияющее око",
+        "gen": "сияющего ока",
+        "dat": "сияющему оку",
+        "acc": "сияющее око",
+        "ins": "сияющим оком",
+        "prep": "сияющем оке"
+      },
+      "plural": {
+        "nom": "сияющие очи",
+        "gen": "сияющих очей",
+        "dat": "сияющим очам",
+        "acc": "сияющие очи",
+        "ins": "сияющими очами",
+        "prep": "сияющих очах"
+      },
+      "counted_few": "сияющих ока"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.eye_of_devastation",
+    "kind": "monster",
+    "en": "eye of devastation",
+    "en_plural": "eyes of devastation",
+    "gender": "n",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "око опустошения",
+        "gen": "ока опустошения",
+        "dat": "оку опустошения",
+        "acc": "око опустошения",
+        "ins": "оком опустошения",
+        "prep": "оке опустошения"
+      },
+      "plural": {
+        "nom": "очи опустошения",
+        "gen": "очей опустошения",
+        "dat": "очам опустошения",
+        "acc": "очи опустошения",
+        "ins": "очами опустошения",
+        "prep": "очах опустошения"
+      },
+      "counted_few": "ока опустошения"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.golden_eye",
+    "kind": "monster",
+    "en": "golden eye",
+    "en_plural": "golden eyes",
+    "gender": "n",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "золотое око",
+        "gen": "золотого ока",
+        "dat": "золотому оку",
+        "acc": "золотое око",
+        "ins": "золотым оком",
+        "prep": "золотом оке"
+      },
+      "plural": {
+        "nom": "золотые очи",
+        "gen": "золотых очей",
+        "dat": "золотым очам",
+        "acc": "золотые очи",
+        "ins": "золотыми очами",
+        "prep": "золотых очах"
+      },
+      "counted_few": "золотых ока"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.great_orb_of_eyes",
+    "kind": "monster",
+    "en": "great orb of eyes",
+    "en_plural": "great orbs of eyes",
+    "gender": "f",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "большая сфера глаз",
+        "gen": "большой сферы глаз",
+        "dat": "большой сфере глаз",
+        "acc": "большую сферу глаз",
+        "ins": "большой сферой глаз",
+        "prep": "большой сфере глаз"
+      },
+      "plural": {
+        "nom": "большие сферы глаз",
+        "gen": "больших сфер глаз",
+        "dat": "большим сферам глаз",
+        "acc": "большие сферы глаз",
+        "ins": "большими сферами глаз",
+        "prep": "больших сферах глаз"
+      },
+      "counted_few": "большие сферы глаз"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.acid_blob",
+    "kind": "monster",
+    "en": "acid blob",
+    "en_plural": "acid blobs",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "кислотный сгусток",
+        "gen": "кислотного сгустка",
+        "dat": "кислотному сгустку",
+        "acc": "кислотный сгусток",
+        "ins": "кислотным сгустком",
+        "prep": "кислотном сгустке"
+      },
+      "plural": {
+        "nom": "кислотные сгустки",
+        "gen": "кислотных сгустков",
+        "dat": "кислотным сгусткам",
+        "acc": "кислотные сгустки",
+        "ins": "кислотными сгустками",
+        "prep": "кислотных сгустках"
+      },
+      "counted_few": "кислотных сгустка"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.azure_jelly",
+    "kind": "monster",
+    "en": "azure jelly",
+    "en_plural": "azure jellies",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "лазурный слизень",
+        "gen": "лазурного слизня",
+        "dat": "лазурному слизню",
+        "acc": "лазурного слизня",
+        "ins": "лазурным слизнем",
+        "prep": "лазурном слизне"
+      },
+      "plural": {
+        "nom": "лазурные слизни",
+        "gen": "лазурных слизней",
+        "dat": "лазурным слизням",
+        "acc": "лазурных слизней",
+        "ins": "лазурными слизнями",
+        "prep": "лазурных слизнях"
+      },
+      "counted_few": "лазурных слизня"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.rockslime",
+    "kind": "monster",
+    "en": "rockslime",
+    "en_plural": "rockslimes",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "каменный слизень",
+        "gen": "каменного слизня",
+        "dat": "каменному слизню",
+        "acc": "каменного слизня",
+        "ins": "каменным слизнем",
+        "prep": "каменном слизне"
+      },
+      "plural": {
+        "nom": "каменные слизни",
+        "gen": "каменных слизней",
+        "dat": "каменным слизням",
+        "acc": "каменных слизней",
+        "ins": "каменными слизнями",
+        "prep": "каменных слизнях"
+      },
+      "counted_few": "каменных слизня"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.slymdra",
+    "kind": "monster",
+    "en": "slymdra",
+    "en_plural": "slymdras",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "слаймдра",
+        "gen": "слаймдры",
+        "dat": "слаймдре",
+        "acc": "слаймдру",
+        "ins": "слаймдрой",
+        "prep": "слаймдре"
+      },
+      "plural": {
+        "nom": "слаймдры",
+        "gen": "слаймдр",
+        "dat": "слаймдрам",
+        "acc": "слаймдр",
+        "ins": "слаймдрами",
+        "prep": "слаймдрах"
+      },
+      "counted_few": "слаймдры"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.void_ooze",
+    "kind": "monster",
+    "en": "void ooze",
+    "en_plural": "void oozes",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "слизень пустоты",
+        "gen": "слизня пустоты",
+        "dat": "слизню пустоты",
+        "acc": "слизня пустоты",
+        "ins": "слизнем пустоты",
+        "prep": "слизне пустоты"
+      },
+      "plural": {
+        "nom": "слизни пустоты",
+        "gen": "слизней пустоты",
+        "dat": "слизням пустоты",
+        "acc": "слизней пустоты",
+        "ins": "слизнями пустоты",
+        "prep": "слизнях пустоты"
+      },
+      "counted_few": "слизня пустоты"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.searing_wretch",
+    "kind": "monster",
+    "en": "searing wretch",
+    "en_plural": "searing wretches",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "пылающий страдалец",
+        "gen": "пылающего страдальца",
+        "dat": "пылающему страдальцу",
+        "acc": "пылающего страдальца",
+        "ins": "пылающим страдальцем",
+        "prep": "пылающем страдальце"
+      },
+      "plural": {
+        "nom": "пылающие страдальцы",
+        "gen": "пылающих страдальцев",
+        "dat": "пылающим страдальцам",
+        "acc": "пылающих страдальцев",
+        "ins": "пылающими страдальцами",
+        "prep": "пылающих страдальцах"
+      },
+      "counted_few": "пылающих страдальца"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.wretched_star",
+    "kind": "monster",
+    "en": "wretched star",
+    "en_plural": "wretched stars",
+    "gender": "f",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "мерзостная звезда",
+        "gen": "мерзостной звезды",
+        "dat": "мерзостной звезде",
+        "acc": "мерзостную звезду",
+        "ins": "мерзостной звездой",
+        "prep": "мерзостной звезде"
+      },
+      "plural": {
+        "nom": "мерзостные звёзды",
+        "gen": "мерзостных звёзд",
+        "dat": "мерзостным звёздам",
+        "acc": "мерзостные звёзды",
+        "ins": "мерзостными звёздами",
+        "prep": "мерзостных звёздах"
+      },
+      "counted_few": "мерзостные звёзды"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.starcursed_mass",
+    "kind": "monster",
+    "en": "starcursed mass",
+    "en_plural": "starcursed masses",
+    "gender": "f",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "проклятая звёздная масса",
+        "gen": "проклятой звёздной массы",
+        "dat": "проклятой звёздной массе",
+        "acc": "проклятую звёздную массу",
+        "ins": "проклятой звёздной массой",
+        "prep": "проклятой звёздной массе"
+      },
+      "plural": {
+        "nom": "проклятые звёздные массы",
+        "gen": "проклятых звёздных масс",
+        "dat": "проклятым звёздным массам",
+        "acc": "проклятые звёздные массы",
+        "ins": "проклятыми звёздными массами",
+        "prep": "проклятых звёздных массах"
+      },
+      "counted_few": "проклятые звёздные массы"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.tentacled_starspawn",
+    "kind": "monster",
+    "en": "tentacled starspawn",
+    "en_plural": "tentacled starspawn",
+    "gender": "n",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "звёздное отродье со щупальцами",
+        "gen": "звёздного отродья со щупальцами",
+        "dat": "звёздному отродью со щупальцами",
+        "acc": "звёздное отродье со щупальцами",
+        "ins": "звёздным отродьем со щупальцами",
+        "prep": "звёздном отродье со щупальцами"
+      },
+      "plural": {
+        "nom": "звёздные отродья со щупальцами",
+        "gen": "звёздных отродий со щупальцами",
+        "dat": "звёздным отродьям со щупальцами",
+        "acc": "звёздных отродий со щупальцами",
+        "ins": "звёздными отродьями со щупальцами",
+        "prep": "звёздных отродьях со щупальцами"
+      },
+      "counted_few": "звёздных отродья со щупальцами"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.apocalypse_crab",
+    "kind": "monster",
+    "en": "apocalypse crab",
+    "en_plural": "apocalypse crabs",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "краб апокалипсиса",
+        "gen": "краба апокалипсиса",
+        "dat": "крабу апокалипсиса",
+        "acc": "краба апокалипсиса",
+        "ins": "крабом апокалипсиса",
+        "prep": "крабе апокалипсиса"
+      },
+      "plural": {
+        "nom": "крабы апокалипсиса",
+        "gen": "крабов апокалипсиса",
+        "dat": "крабам апокалипсиса",
+        "acc": "крабов апокалипсиса",
+        "ins": "крабами апокалипсиса",
+        "prep": "крабах апокалипсиса"
+      },
+      "counted_few": "краба апокалипсиса"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.thrashing_horror",
+    "kind": "monster",
+    "en": "thrashing horror",
+    "en_plural": "thrashing horrors",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "мечущийся ужас",
+        "gen": "мечущегося ужаса",
+        "dat": "мечущемуся ужасу",
+        "acc": "мечущийся ужас",
+        "ins": "мечущимся ужасом",
+        "prep": "мечущемся ужасе"
+      },
+      "plural": {
+        "nom": "мечущиеся ужасы",
+        "gen": "мечущихся ужасов",
+        "dat": "мечущимся ужасам",
+        "acc": "мечущиеся ужасы",
+        "ins": "мечущимися ужасами",
+        "prep": "мечущихся ужасах"
+      },
+      "counted_few": "мечущихся ужаса"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.lurking_horror",
+    "kind": "monster",
+    "en": "lurking horror",
+    "en_plural": "lurking horrors",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "притаившийся ужас",
+        "gen": "притаившегося ужаса",
+        "dat": "притаившемуся ужасу",
+        "acc": "притаившийся ужас",
+        "ins": "притаившимся ужасом",
+        "prep": "притаившемся ужасе"
+      },
+      "plural": {
+        "nom": "притаившиеся ужасы",
+        "gen": "притаившихся ужасов",
+        "dat": "притаившимся ужасам",
+        "acc": "притаившиеся ужасы",
+        "ins": "притаившимися ужасами",
+        "prep": "притаившихся ужасах"
+      },
+      "counted_few": "притаившихся ужаса"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spatial_maelstrom",
+    "kind": "monster",
+    "en": "spatial maelstrom",
+    "en_plural": "spatial maelstroms",
+    "gender": "m",
+    "animate": false,
+    "forms": {
+      "singular": {
+        "nom": "пространственный водоворот",
+        "gen": "пространственного водоворота",
+        "dat": "пространственному водовороту",
+        "acc": "пространственный водоворот",
+        "ins": "пространственным водоворотом",
+        "prep": "пространственном водовороте"
+      },
+      "plural": {
+        "nom": "пространственные водовороты",
+        "gen": "пространственных водоворотов",
+        "dat": "пространственным водоворотам",
+        "acc": "пространственные водовороты",
+        "ins": "пространственными водоворотами",
+        "prep": "пространственных водоворотах"
+      },
+      "counted_few": "пространственных водоворота"
+    },
+    "review": "reviewed"
   }
 ]

@@ -926,6 +926,23 @@
 - [Жук-валун](monsters/boulder-beetle.md)
 - [Заводная пчела](monsters/clockwork-bee.md)
 - [Эритроспайт](monsters/erythrospite.md)
+- [Сияющее око](monsters/shining-eye.md)
+- [Око опустошения](monsters/eye-of-devastation.md)
+- [Золотое око](monsters/golden-eye.md)
+- [Большая сфера глаз](monsters/great-orb-of-eyes.md)
+- [Кислотный сгусток](monsters/acid-blob.md)
+- [Лазурный слизень](monsters/azure-jelly.md)
+- [Каменный слизень](monsters/rockslime.md)
+- [Слаймдра](monsters/slymdra.md)
+- [Слизень пустоты](monsters/void-ooze.md)
+- [Пылающий страдалец](monsters/searing-wretch.md)
+- [Мерзостная звезда](monsters/wretched-star.md)
+- [Проклятая звёздная масса](monsters/starcursed-mass.md)
+- [Звёздное отродье со щупальцами](monsters/tentacled-starspawn.md)
+- [Краб апокалипсиса](monsters/apocalypse-crab.md)
+- [Мечущийся ужас](monsters/thrashing-horror.md)
+- [Притаившийся ужас](monsters/lurking-horror.md)
+- [Пространственный водоворот](monsters/spatial-maelstrom.md)
 
 ## Состояния
 

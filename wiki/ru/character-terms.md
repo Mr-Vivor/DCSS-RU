@@ -1295,3 +1295,20 @@
 | undying armoury | неумирающий арсенал |
 | merfolk avatar | аватар русалок |
 | erythrospite | эритроспайт |
+| shining eye | сияющее око |
+| eye of devastation | око опустошения |
+| golden eye | золотое око |
+| great orb of eyes | большая сфера глаз |
+| acid blob | кислотный сгусток |
+| azure jelly | лазурный слизень |
+| rockslime | каменный слизень |
+| slymdra | слаймдра |
+| void ooze | слизень пустоты |
+| searing wretch | пылающий страдалец |
+| wretched star | мерзостная звезда |
+| starcursed mass | проклятая звёздная масса |
+| tentacled starspawn | звёздное отродье со щупальцами |
+| apocalypse crab | краб апокалипсиса |
+| thrashing horror | мечущийся ужас |
+| lurking horror | притаившийся ужас |
+| spatial maelstrom | пространственный водоворот |
