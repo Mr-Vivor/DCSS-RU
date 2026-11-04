@@ -30,6 +30,14 @@ GROUPS = {
 EGO_NAMES = dict(zip(
     ["acid","antimagic","chaos","concussion","distortion","devious","draining","electrocution","entangling","flaming","freezing","foul flame","heavy","holy wrath","penetration","protection","reaping","rebuke","spectralising","speed","sundering","valour","vampirism","venom","air","archery","attunement","cold resistance","command","corrosion resistance","death","dexterity","earth","energy","fire","fire resistance","flying","glass","guile","harm","hurling","ice","infusion","intelligence","invisibility","light","mayhem","mesmerism","parrying","poison resistance","ponderousness","positive energy","pyromania","rampaging","reflection","repulsion","resistance","resonance","see invisible","shadows","sniping","spirit shield","stardust","stealth","strength","the Archmagi","willpower","wrath","atropa-tipped","curare-tipped","datura-tipped","disjunction","dispersal","poisoned","silver","pain"],
     ["Кислота","Антимагия","Хаос","Сотрясение","Искажение","Коварство","Истощение","Электричество","Опутывание","Пламя","Холод","Нечестивое пламя","Тяжесть","Священный гнев","Пробивание","Защита","Жатва","Воздаяние","Призрачность","Скорость","Рассечение","Доблесть","Вампиризм","Яд","Воздух","Стрельба","Настройка","Сопротивление холоду","Командование","Сопротивление коррозии","Смерть","Ловкость","Земля","Энергия","Огонь","Сопротивление огню","Полёт","Стекло","Хитрость","Вред","Метание","Лёд","Наполнение","Интеллект","Невидимость","Свет","Погром","Гипноз","Парирование","Сопротивление яду","Неповоротливость","Положительная энергия","Пиромания","Натиск","Отражение","Отталкивание","Сопротивление стихиям","Резонанс","Обнаружение невидимого","Тени","Снайперство","Духовный щит","Звёздная пыль","Скрытность","Сила","Архимаг","Воля","Ярость","Атропа","Кураре","Дурман","Разрыв пространства","Рассеивание","Отравление","Серебро","Боль"]))
+# Follow the reviewed in-game inscriptions, rather than independently choosing
+# synonyms for the same property. Abbreviated labels also appear on each page.
+EGO_REFINEMENTS={"concussion":"Отбрасывание","foul flame":"Скверное пламя","holy wrath":"Святость",
+    "penetration":"Пробитие","spectralising":"Призрак","sundering":"Сокрушение","venom":"Отрава",
+    "attunement":"Созвучие","glass":"Остекление","guile":"Лукавство","harm":"Усиление урона",
+    "light":"Сияние","mayhem":"Неистовство","repulsion":"Отвод снарядов","poisoned":"Яд"}
+EGO_OLD_NAMES={k:EGO_NAMES[k] for k in EGO_REFINEMENTS}
+EGO_NAMES.update(EGO_REFINEMENTS)
 FEATURE_NAMES = {"haloed":"Священная аура", "umbraed":"Аура тьмы", "liquefied":"Разжиженная земля",
     "disjunction haloed":"Поле разрыва пространства", "ice covered":"Ледяное покрытие", "awoken":"Пробуждённое дерево",
     "tree burning":"Горящее дерево", "mangrove burning":"Горящий мангр", "demonic tree burning":"Горящее демоническое дерево"}
@@ -122,6 +130,7 @@ class Builder:
         self.reviewed = load(ROOT / "localization/ru/descriptions.json")
         self.messages = load(ROOT / "localization/ru/system-messages.json")
         self.static = load(ROOT / "localization/ru/static.json")
+        self.annotations={k.casefold():v for k,v in self.static['annotations'].items()}
         self.notes = load(ROOT / "wiki/site/notes.json")
         self.community = load(community or ROOT / "wiki/site/community-revisions.json")["pages"]
         self.community_by_key = {k.casefold():v for k,v in self.community.items()}
@@ -369,6 +378,10 @@ class Builder:
             for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство")]:
                 value=gods.get(key+suffix)
                 if value:text+="\n== "+heading+" ==\n"+self.prose(value)+"\n"
+        elif group == "egos":
+            short=re.search(r'\(([^)]+)\)',key)
+            label=self.annotations.get(short[1].casefold()) if short else None
+            if label:text+='\n== Обозначение в игре ==\n'+self.prose(label)+'\n'
         if row.get("powers"):
             text+="\n== Особые свойства ==\n"+"\n".join("* '''"+v["label"]+".''' "+self.prose(v["text"]) for v in row["powers"])+"\n"
         return text
@@ -405,6 +418,12 @@ class Builder:
         self.add_site(pages,counts)
         for title,targets in DISAMBIGUATIONS.items():
             pages[title]=dict(text="Так может называться несколько разных эффектов. Выберите нужный контекст:\n\n"+"\n".join('* [['+v+']]' for v in targets),key='disambiguation:'+title,kind='guide')
+        for row in self.rows.values():
+            if row['group']=='egos':
+                base=row['entries'][0]['key'].split(' (',1)[0]
+                if base in EGO_OLD_NAMES:
+                    old=EGO_OLD_NAMES[base]+row['name'][len(EGO_NAMES[base]):]
+                    if old not in pages:pages[old]=dict(text='#REDIRECT [['+row['title']+']]',key='redirect:'+old,kind='redirect')
         # English lookup redirects make familiar upstream names searchable.
         for title,row in self.rows.items():
             for entry in row["entries"]:
