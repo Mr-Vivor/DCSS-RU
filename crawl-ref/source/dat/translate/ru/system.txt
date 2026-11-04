@@ -4370,7 +4370,7 @@ Insubst
 %%%%
 insubstantial
 
-неосязаемый
+Бестелесность
 %%%%
 You are insubstantial.
 
@@ -30074,7 +30074,7 @@ Your @scales@ scales are hard. (AC +@num@)
 %%%%
 fleshless physiology
 
-Тело без плоти
+Отсутствие плоти
 %%%%
 plant physiology
 
@@ -37506,7 +37506,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}reduced EV
 
-{form-trait}сниженное уклонение
+{form-trait}ослабленное уклонение
 %%%%
 {form-trait}constrict
 
@@ -37538,11 +37538,11 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}no potions
 
-{form-trait}невозможность пить зелья
+{form-trait}запрет зелий
 %%%%
 {form-trait}accursed
 
-{form-trait}затяжные обречённость и проклятия
+{form-trait}проклятость
 %%%%
 {form-trait}extremely fast
 
@@ -37574,7 +37574,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}insubstantial
 
-{form-trait}неосязаемость
+{form-trait}бестелесность
 %%%%
 {form-trait}highly resistant
 
@@ -37650,15 +37650,15 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}maw attack
 
-{form-trait}удары пастью
+{form-trait}атака пастью
 %%%%
 {form-trait}devouring maw
 
-{form-trait}регенерация от пожирания
+{form-trait}пожирающая пасть
 %%%%
 {form-trait}growling stomach
 
-{form-trait}голодная пасть
+{form-trait}урчащий желудок
 %%%%
 {form-trait}low body AC
 
@@ -37666,7 +37666,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}contaminating
 
-{form-trait}магическое загрязнение врагов
+{form-trait}магическое загрязнение
 %%%%
 {form-trait}glow
 
@@ -37706,7 +37706,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}inhibited regeneration
 
-{form-trait}регенерация подавлена врагами
+{form-trait}подавленная регенерация
 %%%%
 {form-trait}frigid aura
 
@@ -37718,7 +37718,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}hive swarm
 
-{form-trait}защитный рой
+{form-trait}рой улья
 %%%%
 {form-trait}hive regen
 
@@ -37730,7 +37730,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}water splatter
 
-{form-trait}лужи из ран
+{form-trait}водяные брызги
 %%%%
 {form-trait}watery grave
 
@@ -37742,11 +37742,11 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}freeze response
 
-{form-trait}обледенение от холода
+{form-trait}обмерзание от холода
 %%%%
 {form-trait}airstrike attack
 
-{form-trait}удары режущим ветром
+{form-trait}удар ветра
 %%%%
 {form-trait}hex mastery
 
@@ -37782,7 +37782,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}armoured shell
 
-{form-trait}панцирь из доспеха
+{form-trait}бронированный панцирь
 %%%%
 {form-trait}rust breath
 
@@ -37806,19 +37806,19 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}stinger hair
 
-{form-trait}ядовитые щупальца
+{form-trait}жалящие волосы
 %%%%
 {form-trait}lithotoxin
 
-{form-trait}окаменяющий токсин
+{form-trait}литотоксин
 %%%%
 {form-trait}eel punch
 
-{form-trait}разряды при ударах
+{form-trait}удар угрями
 %%%%
 {form-trait}eeljolt
 
-{form-trait}разряд из ран
+{form-trait}разряд угрей
 %%%%
 {form-trait}weakening spores
 
@@ -37826,7 +37826,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}sporulate
 
-{form-trait}выращивание взрывогрибов
+{form-trait}спороношение
 %%%%
 {form-trait}glimmercast
 
@@ -37834,7 +37834,7 @@ You extract magical energy from the potion.
 %%%%
 {form-trait}see invisible
 
-{form-trait}обнаружение невидимого
+{form-trait}зрение невидимого
 %%%%
 {form-trait}elemental crystals
 
@@ -46214,7 +46214,7 @@ You begin to regenerate regardless of the presence of monsters.
 %%%%
 no potion heal
 
-ослабленное лечение зельями
+Непереносимость целебных зелий
 %%%%
 Potions are less effective at restoring your health.
 
@@ -46286,7 +46286,7 @@ You feel more in control of your magic.
 %%%%
 subdued magic
 
-приглушённая магия
+Смирённая магия
 %%%%
 Your spells are a little easier to cast, but a little less powerful.
 
@@ -46338,7 +46338,7 @@ Your skin warms up.
 %%%%
 demonic willpower
 
-демоническая воля
+Демоническая воля
 %%%%
 You punish those that try to bend your will. (Will+)
 
@@ -46350,7 +46350,7 @@ You feel wilful.
 %%%%
 hated by all
 
-всеобщая ненависть
+Всеобщая ненависть
 %%%%
 You are hated by all.
 
@@ -46382,7 +46382,7 @@ Your magical appetite wanes.
 %%%%
 magic shield
 
-магический щит
+Магический щит
 %%%%
 When hurt, damage is shared between your health and your magic reserves.
 
@@ -46394,7 +46394,7 @@ You feel your magical essence form a protective shroud around your flesh.
 %%%%
 magic link
 
-связь здоровья и магии
+Магическая связь
 %%%%
 When low on magic, you restore magic in place of health.
 
@@ -46406,7 +46406,7 @@ You feel your life force and your magical essence meld.
 %%%%
 magic regeneration
 
-восстановление магии
+Восстановление магии
 %%%%
 You regenerate magic rapidly.
 
@@ -46454,7 +46454,7 @@ You move with supernatural speed. (Speed+++)
 %%%%
 teleportitis
 
-непроизвольная телепортация
+Телепортит
 %%%%
 You are occasionally teleported next to monsters.
 
@@ -46478,7 +46478,7 @@ You feel stable.
 %%%%
 distributed training
 
-равномерное обучение
+Равномерное обучение
 %%%%
 Your experience applies equally to all skills.
 
@@ -46494,7 +46494,7 @@ Your experience no longer applies equally to all skills.
 %%%%
 screaming
 
-неконтролируемые крики
+Крикливость
 %%%%
 You occasionally shout uncontrollably at those who injure you.
 
@@ -46522,7 +46522,7 @@ Your urge to scream lessens.
 %%%%
 no regeneration
 
-нет восстановления здоровья
+Отсутствие регенерации
 %%%%
 You do not regenerate.
 
@@ -46690,7 +46690,7 @@ You expend health (3 HP) to strengthen your wands.
 %%%%
 inability to use devices
 
-запрет волшебных устройств
+Невозможность пользоваться устройствами
 %%%%
 You cannot study or use magical devices.
 
@@ -46706,7 +46706,7 @@ You can once more study and use magical devices.
 %%%%
 no potions
 
-запрет зелий
+Запрет зелий
 %%%%
 You cannot drink.
 
@@ -46722,7 +46722,7 @@ You gain the ability to drink.
 %%%%
 inability to train dodging
 
-запрет тренировки Уклонения
+Запрет навыка «Уклонение»
 %%%%
 You cannot train Dodging skill.
 
@@ -46738,7 +46738,7 @@ You can once more train Dodging skill.
 %%%%
 no armour
 
-запрет доспехов
+Отказ от брони
 %%%%
 You cannot wear armour.
 
@@ -46754,7 +46754,7 @@ You can now wear armour.
 %%%%
 missing a hand
 
-отсутствующая кисть
+Недостающая рука
 %%%%
 You are missing a hand.
 
@@ -47010,7 +47010,7 @@ Your tail will grow strong enough to constrict your foes.
 %%%%
 tentacles
 
-щупальца
+Щупальца
 %%%%
 You have tentacles for arms and can constrict enemies.
 
@@ -47174,7 +47174,7 @@ You feel more resistant to negative energy.
 %%%%
 no air magic
 
-запрет школы «Магия воздуха»
+Запрет навыка «Магия воздуха»
 %%%%
 You cannot study or cast Air magic.
 
@@ -47190,7 +47190,7 @@ You can once more study and cast Air magic.
 %%%%
 no conjurations magic
 
-запрет школы «Разрушение»
+Запрет навыка «Разрушение»
 %%%%
 You cannot study or cast Conjurations magic.
 
@@ -47206,7 +47206,7 @@ You can once more study and cast Conjurations magic.
 %%%%
 no earth magic
 
-запрет школы «Магия земли»
+Запрет навыка «Магия земли»
 %%%%
 You cannot study or cast Earth magic.
 
@@ -47222,7 +47222,7 @@ You can once more study and cast Earth magic.
 %%%%
 no fire magic
 
-запрет школы «Магия огня»
+Запрет навыка «Магия огня»
 %%%%
 You cannot study or cast Fire magic.
 
@@ -47238,7 +47238,7 @@ You can once more study and cast Fire magic.
 %%%%
 no hexes magic
 
-запрет школы «Проклятия»
+Запрет навыка «Проклятия»
 %%%%
 You cannot study or cast Hexes magic.
 
@@ -47254,7 +47254,7 @@ You can once more study and cast Hexes magic.
 %%%%
 no ice magic
 
-запрет школы «Магия льда»
+Запрет навыка «Магия льда»
 %%%%
 You cannot study or cast Ice magic.
 
@@ -47270,7 +47270,7 @@ You can once more study and cast Ice magic.
 %%%%
 no necromancy magic
 
-запрет школы «Некромантия»
+Запрет навыка «Некромантия»
 %%%%
 You cannot study or cast Necromancy magic.
 
@@ -47286,7 +47286,7 @@ You can once more study and cast Necromancy magic.
 %%%%
 no alchemy magic
 
-запрет школы «Алхимия»
+Запрет навыка «Алхимия»
 %%%%
 You cannot study or cast Alchemy magic.
 
@@ -47302,7 +47302,7 @@ You can once more study and cast Alchemy magic.
 %%%%
 no forgecraft magic
 
-запрет школы «Кузнечная магия»
+Запрет навыка «Кузнечная магия»
 %%%%
 You cannot study or cast Forgecraft magic.
 
@@ -47318,7 +47318,7 @@ You can once more study and cast Forgecraft magic.
 %%%%
 no summoning magic
 
-запрет школы «Призывание»
+Запрет навыка «Призывание»
 %%%%
 You cannot study or cast Summoning magic.
 
@@ -47334,7 +47334,7 @@ You can once more study and cast Summoning magic.
 %%%%
 no translocations magic
 
-запрет школы «Перемещения»
+Запрет навыка «Перемещения»
 %%%%
 You cannot study or cast Translocations magic.
 
@@ -50283,3 +50283,967 @@ You feel a sudden disregard for your own safety.
 You feel a little less reckless.
 
 Вы становитесь немного осторожнее.
+%%%%
+deformed body
+
+Деформированное тело
+%%%%
+poor constitution
+
+Слабое телосложение
+%%%%
+persistent drain
+
+Стойкое истощение
+%%%%
+contamination susceptible
+
+Чувствительность к загрязнению
+%%%%
+initially attractive
+
+Первое притяжение
+%%%%
+booming voice
+
+Громоподобный голос
+%%%%
+potion fungus
+
+Зельевой грибок
+%%%%
+spatial entanglement
+
+Пространственная запутанность
+%%%%
+meek
+
+робкий
+%%%%
+demonic guardian
+
+Демонический страж
+%%%%
+powered by pain
+
+Сила боли
+%%%%
+foul stench
+
+Зловоние
+%%%%
+spiny
+
+Шипы
+%%%%
+augmentation
+
+Усиление
+%%%%
+demonic magic
+
+Демоническая магия
+%%%%
+icemail
+
+Ледяная броня
+%%%%
+condensation shield
+
+Ледяной щит
+%%%%
+powered by death
+
+Сила смерти
+%%%%
+sturdy frame
+
+Прочный костяк
+%%%%
+sanguine armour
+
+Кровавая броня
+%%%%
+big brain
+
+Большой мозг
+%%%%
+ignite blood
+
+Воспламенение крови
+%%%%
+corrupting presence
+
+Разлагающее присутствие
+%%%%
+black mark
+
+Чёрная метка
+%%%%
+aura of silence
+
+Аура безмолвия
+%%%%
+bedevilling
+
+Усиление проклятий
+%%%%
+hurl damnation
+
+Метание адской кары
+%%%%
+word of chaos
+
+Слово хаоса
+%%%%
+freezing cloud immunity
+
+Невосприимчивость к ледяным облакам
+%%%%
+flame cloud immunity
+
+Невосприимчивость к облакам пламени
+%%%%
+spit poison
+
+Плевок ядом
+%%%%
+in touch with death
+
+Связь со смертью
+%%%%
+acrobatic
+
+Акробатика
+%%%%
+evasive flight
+
+Ловкий полёт
+%%%%
+big wings
+
+Большие крылья
+%%%%
+float
+
+Парение
+%%%%
+innate caster
+
+Врождённое колдовство
+%%%%
+hp casting
+
+Колдовство за здоровье
+%%%%
+frog-like legs
+
+Лягушачьи ноги
+%%%%
+forlorn
+
+Безбожие
+%%%%
+nightstalker
+
+Обитатель ночи
+%%%%
+stone body
+
+Каменное тело
+%%%%
+cold-blooded
+
+Холоднокровие
+%%%%
+stealthy paws
+
+Бесшумные лапы
+%%%%
+four strong arms
+
+Четыре сильные руки
+%%%%
+retaliatory headbutt
+
+Ответный удар рогами
+%%%%
+multi-lived
+
+Запасные жизни
+%%%%
+nimble swimmer
+
+Ловкий пловец
+%%%%
+mertail
+
+Хвост русалки
+%%%%
+treasure sense
+
+Чутьё сокровищ
+%%%%
+gelatinous body
+
+Студенистое тело
+%%%%
+eyeballs
+
+Золотые глаза
+%%%%
+translucent skin
+
+Прозрачная кожа
+%%%%
+slime shroud
+
+Слизистая пелена
+%%%%
+tendrils
+
+Отростки
+%%%%
+jelly sensing items
+
+Слизень, чувствующий предметы
+%%%%
+jelly absorbing missiles
+
+Слизень, поглощающий снаряды
+%%%%
+faith
+
+Вера
+%%%%
+devour on kill
+
+Поглощение жизненной силы
+%%%%
+rollpage
+
+Натиск кувырком
+%%%%
+off-hand wielding
+
+Оружие во второй руке
+%%%%
+slow wielding
+
+Медленная смена оружия
+%%%%
+warmup strikes
+
+Разогрев в бою
+%%%%
+no rings
+
+Невозможность носить кольца
+%%%%
+iron-fused scales
+
+Железная чешуя
+%%%%
+inviolate magic
+
+Ненарушимая магия
+%%%%
+undead
+
+Нежить
+%%%%
+vampire fangs
+
+Вампирские клыки
+%%%%
+bloodcurse
+
+Кровавое проклятие
+%%%%
+frigid aura
+
+Ледяная аура
+%%%%
+hive swarm
+
+Рой улья
+%%%%
+water reaching
+
+Дальние водяные удары
+%%%%
+water splatter
+
+Водяные брызги
+%%%%
+freeze response
+
+Обмерзание от холода
+%%%%
+steam response
+
+Пар от огня
+%%%%
+airstrike attack
+
+Удар ветра
+%%%%
+hex mastery
+
+Мастерство проклятий
+%%%%
+riddle compulsion
+
+Загадки для врагов
+%%%%
+werefury
+
+Ярость оборотня
+%%%%
+werehowl
+
+Вой оборотня
+%%%%
+stinger hair
+
+Жалящие волосы
+%%%%
+lithotoxin
+
+Литотоксин
+%%%%
+contaminating
+
+Магическое загрязнение
+%%%%
+maw attack
+
+Атака пастью
+%%%%
+devouring maw
+
+Пожирающая пасть
+%%%%
+growling stomach
+
+Урчащий желудок
+%%%%
+eel punch
+
+Удар угрями
+%%%%
+eeljolt
+
+Разряд угрей
+%%%%
+blade parry
+
+Парирование клинками
+%%%%
+sporulate
+
+Спороношение
+%%%%
+armoured shell
+
+Бронированный панцирь
+%%%%
+hypnotic gaze
+
+Гипнотический взгляд
+%%%%
+glimmercast
+
+Магическое мерцание
+%%%%
+elemental crystals
+
+Кристаллы стихий
+%%%%
+autotomy
+
+Отбрасывание хвоста
+%%%%
+gather mist
+
+Сбор тумана
+%%%%
+potion clouds
+
+Облака от зелий
+%%%%
+renounce potions
+
+Отказ от зелий
+%%%%
+renounce scrolls
+
+Отказ от свитков
+%%%%
+no stealth
+
+Отсутствие скрытности
+%%%%
+no forms
+
+Отказ от превращений
+%%%%
+cowardly
+
+Трусость
+%%%%
+disrupted magic
+
+Нарушенная магия
+%%%%
+unskilled
+
+Бездарность
+%%%%
+reduced AC
+
+Ослабленная броня
+%%%%
+reduced EV
+
+Ослабленное уклонение
+%%%%
+inexperienced
+
+Неопытность
+%%%%
+missing an eye
+
+Недостающий глаз
+%%%%
+no weapons or thrown items
+
+Отказ от оружия и метания
+%%%%
+inability to train armour
+
+Запрет навыка «Доспехи»
+%%%%
+Your scales are fused with iron. (AC + 5)
+
+Ваша чешуя сплавлена с железом. (Броня +5)
+%%%%
+Iron fuses itself to your scales.
+
+Железо сплавляется с вашей чешуёй.
+%%%%
+The iron flakes away from your scales.
+
+Железо осыпается с вашей чешуи.
+%%%%
+Iron will fuse itself to your scales. (AC + 5)
+
+Железо сплавится с вашей чешуёй. (Броня +5)
+%%%%
+Your magical power and effects resist disruption.
+
+Ваш запас магии защищён от истощения, а магические эффекты — от рассеивания.
+%%%%
+Your magical power grows resistant to disruption.
+
+Ваша магия становится устойчивее к вмешательству.
+%%%%
+Your magical power loses its resistance to disruption.
+
+Ваша магия теряет устойчивость к вмешательству.
+%%%%
+Your magical power will grow resistant to disruption.
+
+Ваша магия станет устойчивее к вмешательству.
+%%%%
+You are vulnerable to electric shocks. (rElec-)
+
+Вы уязвимы к электричеству. (rElec-)
+%%%%
+You are weak. (Str -3)
+
+Вы слабы. (Сила -3)
+%%%%
+You are very weak. (Str -6)
+
+Вы очень слабы. (Сила -6)
+%%%%
+You are dopey. (Int -3)
+
+Ваш ум притуплён. (Интеллект -3)
+%%%%
+You are very dopey. (Int -6)
+
+Ваш ум сильно притуплён. (Интеллект -6)
+%%%%
+You are clumsy. (Dex -3)
+
+Вы неуклюжи. (Ловкость -3)
+%%%%
+You are very clumsy. (Dex -6)
+
+Вы очень неуклюжи. (Ловкость -6)
+%%%%
+Your attacks are a little less effective. (Slay -3)
+
+Ваши атаки немного слабее. (Точность и урон -3)
+%%%%
+Your attacks are less effective. (Slay -5)
+
+Ваши атаки слабее. (Точность и урон -5)
+%%%%
+Your attacks are much less effective. (Slay -7)
+
+Ваши атаки значительно слабее. (Точность и урон -7)
+%%%%
+You feel meek.
+
+Вы чувствуете робость.
+%%%%
+You feel even more meek.
+
+Вы чувствуете ещё большую робость.
+%%%%
+You feel meek as a lamb.
+
+Вы чувствуете себя робким ягнёнком.
+%%%%
+You feel aggression return to you.
+
+Вы чувствуете, как к вам возвращается боевой пыл.
+%%%%
+You feel a little less meek.
+
+Вы чувствуете немного меньше робости.
+%%%%
+Your health recovers twice as slowly from being drained.
+
+Максимальное здоровье после высасывания жизненной силы восстанавливается вдвое медленнее.
+%%%%
+You begin to recover more slowly from draining effects.
+
+Вы начинаете медленнее восстанавливаться после высасывания жизненной силы.
+%%%%
+You recover from draining at a normal speed again.
+
+Вы снова восстанавливаетесь после высасывания жизненной силы с обычной скоростью.
+%%%%
+You absorb twice as much mutagenic energy from being contaminated.
+
+При магическом загрязнении вы поглощаете вдвое больше мутагенной энергии.
+%%%%
+You feel more susceptible to contamination.
+
+Вы чувствуете себя уязвимее к магическому загрязнению.
+%%%%
+You feel less susceptible to contamination.
+
+Вы чувствуете себя менее уязвимыми к магическому загрязнению.
+%%%%
+You have supernaturally acute vision. (SInv)
+
+Ваше зрение сверхъестественно остро. (Зрение невидимого)
+%%%%
+Your body sometimes grows weak upon taking damage.
+
+При получении урона вы иногда ненадолго слабеете.
+%%%%
+Your body sometimes grows weak and slow upon taking damage.
+
+При получении урона вы иногда ненадолго слабеете и замедляетесь.
+%%%%
+You feel your constitution weaken.
+
+Вы чувствуете, что ваше тело слабеет.
+%%%%
+You feel your constitution grow even weaker.
+
+Вы чувствуете, что ваше тело слабеет ещё сильнее.
+%%%%
+You feel your constitution return to normal.
+
+Вы чувствуете, что к вашему телу вернулась обычная крепость.
+%%%%
+You feel your constitution improve a little.
+
+Вы чувствуете, что ваше тело немного окрепло.
+%%%%
+You have hidden genetic potential.
+
+В вас скрыт генетический потенциал.
+%%%%
+You have great hidden genetic potential.
+
+В вас скрыт большой генетический потенциал.
+%%%%
+You feel a hidden potential growing inside you.
+
+Вы чувствуете, как внутри вас зарождается скрытый потенциал.
+%%%%
+Your hidden genetic potential grows.
+
+Ваш скрытый генетический потенциал растёт.
+%%%%
+You no longer feel a hidden potential within.
+
+Вы больше не чувствуете в себе скрытого потенциала.
+%%%%
+Your hidden genetic potential wanes.
+
+Ваш скрытый генетический потенциал ослабевает.
+%%%%
+You have hidden genetic defects.
+
+В вас скрыты генетические изъяны.
+%%%%
+You have terrible hidden genetic defects.
+
+В вас скрыты тяжёлые генетические изъяны.
+%%%%
+You feel a hidden malignance growing inside you.
+
+Вы чувствуете, как внутри вас зарождается скрытый изъян.
+%%%%
+The malignance inside you grows.
+
+Скрытый внутри вас изъян усиливается.
+%%%%
+You no longer feel a malignance within.
+
+Вы больше не чувствуете в себе скрытого изъяна.
+%%%%
+Your genetic malignance weakens.
+
+Ваш генетический изъян ослабевает.
+%%%%
+Your magical flight helps you evade attacks. (EV +4)
+
+Магический полёт помогает вам уклоняться от атак. (Уклонение +4)
+%%%%
+Your magical nature develops, letting you fly evasively.
+
+Ваша магическая природа развивается, позволяя ловко маневрировать в полёте.
+%%%%
+Your magical flight will help you evade attacks. (EV + 4)
+
+Магический полёт будет помогать вам уклоняться от атак. (Уклонение +4)
+%%%%
+You can magically evade attacks while moving or waiting.
+
+Магия помогает вам уклоняться от атак при движении или ожидании.
+%%%%
+You can wield a second weapon in your off-hand.
+
+Вы можете держать второе оружие в свободной руке.
+%%%%
+It takes a long time for you to wield or remove held weapons.
+
+Взятие оружия в руки или убирание его занимает у вас много времени.
+%%%%
+You sometimes pull newly seen creatures towards you.
+
+Вы иногда притягиваете к себе впервые увиденных существ.
+%%%%
+You frequently pull newly seen creatures towards you.
+
+Вы часто притягиваете к себе впервые увиденных существ.
+%%%%
+You feel strangely attractive.
+
+Вы чувствуете странную притягательность.
+%%%%
+You feel even more attractive.
+
+Вы чувствуете себя ещё притягательнее.
+%%%%
+You feel less attractive.
+
+Вы чувствуете себя менее притягательными.
+%%%%
+You feel a little less attractive.
+
+Вы чувствуете себя немного менее притягательными.
+%%%%
+Your first few attacks do less damage.
+
+Первые несколько ваших атак наносят меньше урона.
+%%%%
+no jewellery
+
+Невозможность носить украшения
+%%%%
+You cannot equip rings or amulets.
+
+Вы не можете носить кольца и амулеты.
+%%%%
+Your tentacle spike disappears.
+
+Шип на вашем щупальце исчезает.
+%%%%
+Your tail ends in a venomous barb.
+
+На конце вашего хвоста есть ядовитое жало.
+%%%%
+Your tail ends in a sharp venomous barb.
+
+На конце вашего хвоста есть острое ядовитое жало.
+%%%%
+Your tail ends in a wickedly sharp and venomous barb.
+
+На конце вашего хвоста есть чрезвычайно острое ядовитое жало.
+%%%%
+A venomous barb forms on the end of your tail.
+
+На конце вашего хвоста вырастает ядовитое жало.
+%%%%
+You can hop short distances, but move slowly.
+
+Вы можете прыгать на небольшое расстояние, но медленно ходите.
+%%%%
+You can hop long distances, but move slowly.
+
+Вы можете прыгать далеко, но медленно ходите.
+%%%%
+You have an armoured tail.
+
+У вас бронированный хвост.
+%%%%
+You have a heavy armoured tail.
+
+У вас тяжёлый бронированный хвост.
+%%%%
+Your shaggy fur will keep you warm. (AC + 3, rC+)
+
+Густая шерсть будет защищать вас от холода. (Броня +3, rC+)
+%%%%
+A meltable icy envelope protects you from harm. (AC +@num@)
+
+Вас защищает ледяной покров, который может растаять. (Броня +@num@)
+%%%%
+A thick, meltable icy envelope protects you from harm. (AC +@num@)
+
+Вас защищает толстый ледяной покров, который может растаять. (Броня +@num@)
+%%%%
+A meltable shield of frost defends you. (SH +@num@)
+
+Вас защищает ледяной щит, который может растаять. (Щит +@num@)
+%%%%
+Your body has grown eyes which may confuse attackers. (Acc +3)
+
+На вашем теле выросли глаза, способные вызвать замешательство у атакующих. (Точность +3)
+%%%%
+Your body has grown many eyes which may confuse attackers. (Acc +5)
+
+На вашем теле выросло много глаз, способных вызвать замешательство у атакующих. (Точность +5)
+%%%%
+Your body is covered in eyes which may confuse attackers. (Acc +7, SInv)
+
+Ваше тело покрыто глазами, способными вызвать замешательство у атакующих. (Точность +7, зрение невидимого)
+%%%%
+A fragile, slimy shroud covers you, deflecting attacks.
+
+Вас покрывает хрупкая слизистая пелена, отражающая атаки.
+%%%%
+A thin film of slime covers your body.
+
+Ваше тело покрывает тонкая плёнка слизи.
+%%%%
+Your film of slime dries up.
+
+Покрывающая вас слизистая плёнка высыхает.
+%%%%
+When you translocate, a monster is sometimes pulled along with you.
+
+При магическом перемещении за вами иногда переносится монстр.
+%%%%
+You feel space start to knot itself around you.
+
+Вы чувствуете, как пространство вокруг вас запутывается.
+%%%%
+You feel space untangle itself from you.
+
+Вы чувствуете, как пространство вокруг вас распутывается.
+%%%%
+When seriously injured, your blood forms armour. (AC +@num@)
+
+При тяжёлых ранах ваша кровь образует броню. (Броня +@num@)
+%%%%
+When seriously injured, your blood forms thick armour. (AC +@num@)
+
+При тяжёлых ранах ваша кровь образует толстую броню. (Броня +@num@)
+%%%%
+When seriously injured, your blood forms very thick armour. (AC +@num@)
+
+При тяжёлых ранах ваша кровь образует очень толстую броню. (Броня +@num@)
+%%%%
+You have a small jelly attached to you that may absorb projectiles.
+
+К вам прикреплён маленький слизень, способный поглощать снаряды.
+%%%%
+Your stone body is resiliant and immune to petrification. (AC +@num@)
+
+Ваше каменное тело прочно и невосприимчиво к окаменению. (Броня +@num@)
+%%%%
+You have a small tail.
+
+У вас небольшой хвост.
+%%%%
+You have a tail ending in a sharp stinger.
+
+Ваш хвост оканчивается острым жалом.
+%%%%
+You have a sharp stinger which inflicts weakening toxins.
+
+У вас острое жало, вводящее ослабляющие токсины.
+%%%%
+You grow a small tail.
+
+У вас вырастает небольшой хвост.
+%%%%
+Your tail grows a sharp stinger.
+
+На вашем хвосте вырастает острое жало.
+%%%%
+Your stinger grows larger and begins to produce weakening toxins.
+
+Ваше жало увеличивается и начинает вырабатывать ослабляющие токсины.
+%%%%
+You are immune to clouds of flame.
+
+Вы невосприимчивы к облакам пламени.
+%%%%
+You feel less concerned about heat.
+
+Жара начинает меньше вас беспокоить.
+%%%%
+You are immune to freezing clouds.
+
+Вы невосприимчивы к ледяным облакам.
+%%%%
+You feel less concerned about cold.
+
+Холод начинает меньше вас беспокоить.
+%%%%
+You refuse to drink potions in combat unless seriously injured.
+
+Вы отказываетесь пить зелья в бою, пока не получите тяжёлых ран.
+%%%%
+You renounce the hedonism of uninhibited drinking.
+
+Вы отрекаетесь от удовольствия пить без ограничений.
+%%%%
+You feel willing to use your potions freely once again.
+
+Вы снова готовы пить зелья без ограничений.
+%%%%
+You refuse to read scrolls in combat unless seriously injured.
+
+Вы отказываетесь читать свитки в бою, пока не получите тяжёлых ран.
+%%%%
+You renounce the frivolity of worldly writings.
+
+Вы отрекаетесь от суеты мирских писаний.
+%%%%
+You feel willing to use your scrolls freely once again.
+
+Вы снова готовы читать свитки без ограничений.
+%%%%
+You read scrolls incredibly loudly when enemies are in sight.
+
+В поле зрения врагов вы читаете свитки невероятно громко.
+%%%%
+You feel your voice swell to a thunderous volume.
+
+Вы чувствуете, как ваш голос становится громоподобным.
+%%%%
+You voice quiets to a reasonable volume.
+
+Ваш голос снова становится умеренно громким.
+%%%%
+You may spread the effect of potions you drink to nearby monsters.
+
+Эффекты выпитых вами зелий иногда передаются ближайшим монстрам.
+%%%%
+A symbiotic fungus spreads across your body.
+
+По вашему телу разрастается грибок-симбионт.
+%%%%
+The fungus across your body shrivels and falls away.
+
+Грибок на вашем теле съёживается и отпадает.
+%%%%
+Your cowardice makes you less effective in combat with threatening foes.
+
+Трусость ослабляет вас в бою с опасными врагами.
+%%%%
+You are somewhat inexperienced. (-1 XL)
+
+Вам немного недостаёт опыта. (Уровень опыта -1)
+%%%%
+You are inexperienced. (-2 XL)
+
+Вам недостаёт опыта. (Уровень опыта -2)
+%%%%
+You are extremely inexperienced. (-3 XL)
+
+Вам сильно недостаёт опыта. (Уровень опыта -3)
+%%%%
+You cannot voluntarily change form.
+
+Вы не можете добровольно менять облик.
+%%%%
+You can no longer voluntarily change form.
+
+Вы больше не можете добровольно менять облик.
+%%%%
+You can once more change form.
+
+Вы снова можете менять облик.
+%%%%
+You have an uncanny knack for detecting items.
+
+У вас необычайное чутьё на предметы.
+%%%%
+You suddenly feel aware of treasure.
+
+Вы внезапно начинаете чувствовать сокровища.
+%%%%
+You no longer feel aware of treasure.
+
+Вы больше не чувствуете сокровища.
+%%%%
+You have a special connection with the divine. (Faith)
+
+У вас особая связь с божественным. (Вера)
+%%%%
+You feel connected to something greater than you.
+
+Вы чувствуете связь с чем-то большим, чем вы сами.
+%%%%
+You feel rebellious.
+
+Вы чувствуете бунтарский дух.
+%%%%
+You are camouflaged when in or above water. (Stealth+)
+
+В воде и над водой вы сливаетесь с окружением. (Скрытность+)
+%%%%
+You are very nimble when in or above water. (Stealth+, EV+, Speed+++)
+
+В воде и над водой вы очень подвижны. (Скрытность+, уклонение+, скорость+++)
+%%%%
+You feel hungry for flesh.
+
+Вы чувствуете голод по живой плоти.
+%%%%
+You feel less hungry for flesh.
+
+Ваш голод по живой плоти ослабевает.
+%%%%
+Removed Mutation
+
+Удалённая мутация
+%%%%
+Removed mutation
+
+Удалённая мутация

@@ -3852,10 +3852,6 @@ sanguine armoured
 
 защищён кровавой бронёй
 %%%%
-sanguine armour
-
-кровавая броня
-%%%%
 Your shed blood clings to and protects you.
 
 Пролитая кровь обволакивает вас и защищает.
@@ -3911,10 +3907,6 @@ no blinkbolt
 You feel energetic enough to blinkbolt again.
 
 У вас снова достаточно сил для Скачка молнии.
-%%%%
-acrobatic
-
-акробатический
 %%%%
 acrobat
 
@@ -4019,10 +4011,6 @@ transformation
 excruciating wounds
 
 мучительные раны
-%%%%
-demonic guardian
-
-демонический страж
 %%%%
 pbd
 
@@ -9568,10 +9556,6 @@ Spores
 
 Споры
 %%%%
-sporulate
-
-выпускать споры
-%%%%
 a sporulate
 
 спорулят
@@ -11668,10 +11652,6 @@ Your vision seems duller.
 
 Ваше зрение кажется более тусклым.
 %%%%
-deformed body
-
-деформированный кузов
-%%%%
 Armour fits poorly on your strangely shaped body.
 
 Доспехи плохо сидит на вашем теле странной формы.
@@ -11683,10 +11663,6 @@ Your body twists and deforms.
 Your body's shape seems more normal.
 
 Форма вашего тела кажется более нормальной.
-%%%%
-spit poison
-
-плюется ядом
 %%%%
 You can spit poison.
 
@@ -11856,10 +11832,6 @@ You feel a very strange anaesthesia.
 
 Вы чувствуете очень странную анестезию.
 %%%%
-in touch with death
-
-в контакте со смертью
-%%%%
 You are in touch with the powers of death.
 
 Вы соприкасаетесь с силами смерти.
@@ -11883,10 +11855,6 @@ Your magical nature lets you fly swiftly and evasively.
 Your magical nature develops, letting you fly swiftly and evasively.
 
 Ваша магическая природа развивается, позволяя вам летать быстро и уклончиво.
-%%%%
-hurl damnation
-
-швыряет проклятия
 %%%%
 You can hurl damnation.
 
@@ -11979,10 +11947,6 @@ The barb on your tail disappears.
 The barb on your tail seems less sharp.
 
 Шипа на твоем хвосте кажется менее острой.
-%%%%
-big wings
-
-большие крылья
 %%%%
 Your large and strong wings let you fly.
 
@@ -12092,10 +12056,6 @@ Your shaggy fur recedes somewhat.
 
 Твоя лохматая шерсть несколько выпадает.
 %%%%
-demonic magic
-
-демоническая магия
-%%%%
 Spells you cast may paralyse adjacent enemies.
 
 Применяемые вами заклинания могут парализовать соседних врагов.
@@ -12119,10 +12079,6 @@ Your magic grows more menacing.
 Your wands become infused with your menacing aura.
 
 Ваши палочки наполняются вашей угрожающей аурой.
-%%%%
-forlorn
-
-несчастный
 %%%%
 You shall have no god before yourself.
 
@@ -12164,14 +12120,6 @@ You feel slightly disoriented.
 
 Вы чувствуете себя слегка дезориентированным.
 %%%%
-A meltable icy envelope protects you from harm. (AC +@num@)
-
-Тающий ледяной конверт защитит вас от вреда. (АС + @num@)
-%%%%
-A thick, meltable icy envelope protects you from harm. (AC +@num@)
-
-Толстая тающая ледяная оболочка защитит вас от вреда. (АС + @num@)
-%%%%
 An icy envelope takes form around you.
 
 Вокруг вас формируется ледяная оболочка.
@@ -12180,21 +12128,9 @@ Your icy envelope grows thicker.
 
 Твой ледяной конверт становится толще.
 %%%%
-condensation shield
-
-защита от конденсата
-%%%%
-A meltable shield of frost defends you. (SH +@num@)
-
-Вас защитит плавкий морозный щит. (Ш + @num@)
-%%%%
 Frost condenses into a shield before you.
 
 Мороз сгущается щитом перед вами.
-%%%%
-nightstalker
-
-ночной охотник
 %%%%
 You are slightly more attuned to the shadows.
 
@@ -12228,10 +12164,6 @@ Your affinity for the darkness weakens.
 
 Ваша близость к тьме ослабевает.
 %%%%
-spiny
-
-колючий
-%%%%
 You are partially covered in sharp spines.
 
 Вы частично покрыты острыми шипами.
@@ -12264,10 +12196,6 @@ Your sharp spines retract somewhat.
 
 Твои острые шипы несколько втягиваются.
 %%%%
-powered by death
-
-питается смертью
-%%%%
 You regenerate a little health from kills.
 
 Вы восстанавливаете немного здоровья за убийства.
@@ -12296,10 +12224,6 @@ Your control of surrounding life forces weakens.
 
 Ваш контроль над окружающими жизненными силами ослабевает.
 %%%%
-powered by pain
-
-питается болью
-%%%%
 You sometimes gain a little power by taking damage.
 
 Иногда вы получаете немного силы, получая урон.
@@ -12324,10 +12248,6 @@ You feel completely energised by your suffering.
 
 Вы чувствуете полный прилив энергии от своих страданий.
 %%%%
-augmentation
-
-аугментация
-%%%%
 Your magical and physical power is slightly enhanced at high health.
 
 Ваша магическая и физическая сила немного увеличивается при высоком уровне здоровья.
@@ -12351,10 +12271,6 @@ You feel power rushing into your body.
 You feel saturated with power.
 
 Вы чувствуете насыщение силой.
-%%%%
-gelatinous body
-
-желеобразное тело
 %%%%
 Your rubbery body absorbs attacks. (AC +1, EV +1)
 
@@ -12392,10 +12308,6 @@ Your body becomes less viscous.
 
 Ваше тело становится менее вязким.
 %%%%
-eyeballs
-
-глазные яблоки
-%%%%
 Your body has grown golden eyes which may confuse attackers. (Acc +3)
 
 На вашем теле выросли золотые глаза, которые могут сбить с толку злоумышленников. (Акк +3)
@@ -12427,10 +12339,6 @@ The eyeballs on your body disappear.
 The eyeballs on your body recede somewhat.
 
 Глазные яблоки на вашем теле несколько опускаются.
-%%%%
-translucent skin
-
-полупрозрачный скин
 %%%%
 Your translucent skin slightly reduces your foes' accuracy. (Stealth+)
 
@@ -12852,10 +12760,6 @@ Your sharp scales recede somewhat.
 
 Твоя острая чешуя несколько отступает.
 %%%%
-sturdy frame
-
-прочная рама
-%%%%
 Your movements are slightly less encumbered by armour. (ER -2)
 
 Броня немного меньше сковывает ваши движения. (ЭР-2)
@@ -12903,10 +12807,6 @@ You feel your blood become entirely quiescent.
 You feel your blood thin.
 
 У тебя жидкая кровь.
-%%%%
-big brain
-
-большой мозг
 %%%%
 You have an unusually large brain. (Int +2)
 
@@ -12964,10 +12864,6 @@ Your natural camouflage becomes less effective.
 
 Ваш естественный камуфляж становится менее эффективным.
 %%%%
-ignite blood
-
-зажечь кровь
-%%%%
 Your demonic aura sometimes causes spilled blood to erupt in flames.
 
 Из-за вашей демонической ауры пролитая кровь иногда вспыхивает пламенем.
@@ -12991,10 +12887,6 @@ Your blood runs red-hot!
 Your blood burns even hotter!
 
 Твоя кровь горит еще жарче!
-%%%%
-foul stench
-
-неприятный запах
 %%%%
 You may rarely emit foul miasma when damaged in melee.
 
@@ -13020,10 +12912,6 @@ You begin to radiate miasma.
 
 Вы начинаете излучать миазмы.
 %%%%
-tendrils
-
-усики
-%%%%
 You are covered in slimy tendrils that may disarm your opponents.
 
 Вы покрыты склизкими щупальцами, которые могут обезоружить ваших противников.
@@ -13036,10 +12924,6 @@ Your tendrils retract into your body.
 
 Ваши усики втягиваются в тело.
 %%%%
-jelly sensing items
-
-элементы, чувствительные к желе
-%%%%
 You have a small jelly attached to you that senses nearby items.
 
 К вам прикреплено небольшое желе, которое чувствует близлежащие предметы.
@@ -13051,10 +12935,6 @@ Your body partially splits into a small jelly.
 The jelly growth is reabsorbed into your body.
 
 Желеобразный нарост реабсорбируется вашим телом.
-%%%%
-jelly absorbing missiles
-
-желепоглощающие ракеты
 %%%%
 You have a small jelly attached to you that may absorb incoming projectiles.
 
@@ -13084,10 +12964,6 @@ An ominous black mark forms on your body.
 
 На вашем теле образуется зловещая черная метка.
 %%%%
-aura of silence
-
-аура тишины
-%%%%
 You are surrounded by an aura of silence.
 
 Вас окружает аура тишины.
@@ -13108,10 +12984,6 @@ You feel devilish.
 
 Ты чувствуешь себя дьявольски.
 %%%%
-corrupting presence
-
-развращающее присутствие
-%%%%
 Your presence sometimes corrodes those you injure.
 
 Иногда ваше присутствие разъедает тех, кого вы раните.
@@ -13128,10 +13000,6 @@ Your corrupting presence intensifies.
 
 Ваше развращающее присутствие усиливается.
 %%%%
-word of chaos
-
-слово хаоса
-%%%%
 You can speak a Word of Chaos.
 
 Вы можете произнести Слово Хаоса.
@@ -13143,10 +13011,6 @@ Your tongue twists.
 You feel willful.
 
 Вы чувствуете своенравие.
-%%%%
-cold-blooded
-
-хладнокровный
 %%%%
 You are cold-blooded and may be slowed by cold attacks.
 
@@ -13192,10 +13056,6 @@ You can once more read scrolls while threatened.
 
 Вы снова можете читать свитки, находясь под угрозой.
 %%%%
-no stealth
-
-никакой скрытности
-%%%%
 You cannot be stealthy.
 
 Ты не можешь быть скрытным.
@@ -13208,10 +13068,6 @@ You can once more be stealthy.
 
 Вы снова можете действовать скрытно.
 %%%%
-cowardly
-
-трусливый
-%%%%
 Your cowardice makes you less effective in combat with threatening monsters.
 
 Ваша трусость делает вас менее эффективным в бою с угрожающими монстрами.
@@ -13223,10 +13079,6 @@ You have lost your courage.
 You have regained your courage.
 
 К вам вернулось мужество.
-%%%%
-inability to train armour
-
-невозможность тренировки брони
 %%%%
 You cannot train Armour skill.
 
@@ -13272,10 +13124,6 @@ You can once more study and cast Transmutations magic.
 
 Вы снова можете изучать и использовать магию Трансмутации.
 %%%%
-reduced AC
-
-пониженный переменный ток
-%%%%
 You take slightly more damage. (AC -5)
 
 Вы получаете немного больше урона. (АК -5)
@@ -13299,10 +13147,6 @@ You no longer feel extra vulnerable to harm.
 You feel less vulnerable to harm.
 
 Вы чувствуете себя менее уязвимым к вреду.
-%%%%
-reduced EV
-
-уменьшен EV
 %%%%
 You have somewhat slow reflexes. (EV -5)
 
@@ -13360,10 +13204,6 @@ You feel less weak-willed.
 
 Вы чувствуете себя менее безвольным.
 %%%%
-disrupted magic
-
-нарушил магию
-%%%%
 Your casting is slightly disrupted.
 
 Ваш кастинг немного прерван.
@@ -13392,10 +13232,6 @@ Your ability to control magic is less disrupted.
 
 Ваша способность контролировать магию меньше нарушена.
 %%%%
-unskilled
-
-неквалифицированный
-%%%%
 You are somewhat unskilled. (-1 Apt)
 
 Вы несколько неопытны. (-1 кв.)
@@ -13419,10 +13255,6 @@ You regain all your skill.
 You regain some skill.
 
 Вы восстанавливаете некоторые навыки.
-%%%%
-inexperienced
-
-неопытный
 %%%%
 You are somewhat inexperienced. (-2 XL)
 
@@ -13448,17 +13280,9 @@ You regain some potential.
 
 Вы восстанавливаете некоторый потенциал.
 %%%%
-stealthy paws
-
-скрытные лапы
-%%%%
 Your paws help you pounce on unaware monsters.
 
 Ваши лапы помогают вам нападать на ничего не подозревающих монстров.
-%%%%
-missing an eye
-
-отсутствует глаз
 %%%%
 You are missing an eye, making it more difficult to aim.
 
@@ -13512,10 +13336,6 @@ You feel less resistant to acid.
 
 Вы чувствуете себя менее устойчивым к кислоте.
 %%%%
-four strong arms
-
-четыре сильных руки
-%%%%
 Your four strong arms can wield two-handed weapons with a shield.
 
 Ваши четыре сильные руки могут использовать двуручное оружие со щитом.
@@ -13531,10 +13351,6 @@ You grow two extra arms.
 You do not drink.
 
 Ты не пьешь.
-%%%%
-retaliatory headbutt
-
-ответный удар головой
 %%%%
 You reflexively headbutt those who attack you in melee.
 
@@ -13560,10 +13376,6 @@ You are no longer immune to the effects of steam.
 
 Вы больше не защищены от воздействия пара.
 %%%%
-no weapons or thrown items
-
-нет оружия и метательных предметов.
-%%%%
 You are incapable of wielding weapons or throwing items.
 
 Вы не можете владеть оружием или бросать предметы.
@@ -13576,10 +13388,6 @@ You can now grasp objects.
 
 Теперь вы можете брать предметы.
 %%%%
-multi-lived
-
-многожильный
-%%%%
 You gain extra lives every three experience levels.
 
 Вы получаете дополнительные жизни каждые три уровня опыта.
@@ -13591,10 +13399,6 @@ You are no longer multi-lived.
 You can now gain extra lives.
 
 Теперь вы можете получить дополнительные жизни.
-%%%%
-nimble swimmer
-
-ловкий пловец
 %%%%
 You are camouflaged near water. (Stealth+)
 
@@ -13644,10 +13448,6 @@ You can no longer turn into a bat.
 
 Вы больше не можете превратиться в летучую мышь.
 %%%%
-mertail
-
-товар
-%%%%
 Your lower body shifts to a powerful aquatic tail in water.
 
 В воде нижняя часть тела превращается в мощный водный хвост.
@@ -13659,10 +13459,6 @@ Your legs feel aquatic.
 Your legs no longer feel aquatic.
 
 Ваши ноги больше не кажутся водными.
-%%%%
-float
-
-поплавок
 %%%%
 You float through the air rather than walking.
 
@@ -13676,10 +13472,6 @@ You feel dragged down by the weight of the world.
 
 Вы чувствуете, что вас тянет под тяжестью мира.
 %%%%
-innate caster
-
-врожденный заклинатель
-%%%%
 You learn spells naturally, not from books.
 
 Вы изучаете заклинания естественным путем, а не по книгам.
@@ -13691,10 +13483,6 @@ You feel mystic power welling inside you.
 You feel a greater respect for book-learning.
 
 Вы испытываете большее уважение к книжному обучению.
-%%%%
-hp casting
-
-литье л.с.
 %%%%
 You have superior vitality. (+4 HP)
 
@@ -17348,10 +17136,6 @@ absorbing vital energies
 
 поглощает жизненную энергию
 %%%%
-black mark
-
-черная метка
-%%%%
 black marks
 
 черные метки
@@ -17359,10 +17143,6 @@ black marks
 surrounded by an icy envelope
 
 в ледяном конверте
-%%%%
-icemail
-
-ледяная почта
 %%%%
 unusually resistant
 
