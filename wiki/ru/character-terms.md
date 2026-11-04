@@ -1480,3 +1480,29 @@
 | titan | титан |
 | guardian sphinx | сфинкс-страж |
 | wolf spider | паук-волк |
+| Sigmund | Зигмунд |
+| Robin | Робин |
+| Pikel | Пикел |
+| Fannar | Фаннар |
+| Nessos | Нессос |
+| Amaemon | Амаэмон |
+| Asterion | Астерион |
+| Jorgrun | Йоргрун |
+| Lodul | Лодул |
+| Maggie | Мэгги |
+| Nergalle | Нергалле |
+| Agnes | Агнес |
+| Bai Suzhen | Бай Сучжэнь |
+| Jory | Джори |
+| Josephine | Джозефин |
+| Kirke | Кирке |
+| Natasha | Наташа |
+| Erica | Эрика |
+| Arachne | Арахна |
+| Cassandra | Кассандра |
+| Josephina | Джозефина |
+| Louise | Луиза |
+| Enchantress | Чародейка |
+| Jeremiah | Джеремайя |
+| Prince Ribbit | принц Риббит |
+| Blorkula the Orcula | Блоркула Оркула |

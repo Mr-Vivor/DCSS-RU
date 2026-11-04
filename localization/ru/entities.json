@@ -13545,5 +13545,733 @@
       "counted_few": "паука-волка"
     },
     "review": "reviewed"
+  },
+  {
+    "id": "monster.sigmund",
+    "kind": "monster",
+    "en": "Sigmund",
+    "en_plural": "Sigmunds",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Зигмунд",
+        "gen": "Зигмунда",
+        "dat": "Зигмунду",
+        "acc": "Зигмунда",
+        "ins": "Зигмундом",
+        "prep": "Зигмунде"
+      },
+      "plural": {
+        "nom": "Зигмунды",
+        "gen": "Зигмундов",
+        "dat": "Зигмундам",
+        "acc": "Зигмундов",
+        "ins": "Зигмундами",
+        "prep": "Зигмундах"
+      },
+      "counted_few": "Зигмунда"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.robin",
+    "kind": "monster",
+    "en": "Robin",
+    "en_plural": "Robins",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Робин",
+        "gen": "Робина",
+        "dat": "Робину",
+        "acc": "Робина",
+        "ins": "Робином",
+        "prep": "Робине"
+      },
+      "plural": {
+        "nom": "Робины",
+        "gen": "Робинов",
+        "dat": "Робинам",
+        "acc": "Робинов",
+        "ins": "Робинами",
+        "prep": "Робинах"
+      },
+      "counted_few": "Робина"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.pikel",
+    "kind": "monster",
+    "en": "Pikel",
+    "en_plural": "Pikels",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Пикел",
+        "gen": "Пикела",
+        "dat": "Пикелу",
+        "acc": "Пикела",
+        "ins": "Пикелом",
+        "prep": "Пикеле"
+      },
+      "plural": {
+        "nom": "Пикелы",
+        "gen": "Пикелов",
+        "dat": "Пикелам",
+        "acc": "Пикелов",
+        "ins": "Пикелами",
+        "prep": "Пикелах"
+      },
+      "counted_few": "Пикела"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.fannar",
+    "kind": "monster",
+    "en": "Fannar",
+    "en_plural": "Fannars",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Фаннар",
+        "gen": "Фаннара",
+        "dat": "Фаннару",
+        "acc": "Фаннара",
+        "ins": "Фаннаром",
+        "prep": "Фаннаре"
+      },
+      "plural": {
+        "nom": "Фаннары",
+        "gen": "Фаннаров",
+        "dat": "Фаннарам",
+        "acc": "Фаннаров",
+        "ins": "Фаннарами",
+        "prep": "Фаннарах"
+      },
+      "counted_few": "Фаннара"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.nessos",
+    "kind": "monster",
+    "en": "Nessos",
+    "en_plural": "Nessos",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Нессос",
+        "gen": "Нессоса",
+        "dat": "Нессосу",
+        "acc": "Нессоса",
+        "ins": "Нессосом",
+        "prep": "Нессосе"
+      },
+      "plural": {
+        "nom": "Нессосы",
+        "gen": "Нессосов",
+        "dat": "Нессосам",
+        "acc": "Нессосов",
+        "ins": "Нессосами",
+        "prep": "Нессосах"
+      },
+      "counted_few": "Нессоса"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.amaemon",
+    "kind": "monster",
+    "en": "Amaemon",
+    "en_plural": "Amaemons",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Амаэмон",
+        "gen": "Амаэмона",
+        "dat": "Амаэмону",
+        "acc": "Амаэмона",
+        "ins": "Амаэмоном",
+        "prep": "Амаэмоне"
+      },
+      "plural": {
+        "nom": "Амаэмоны",
+        "gen": "Амаэмонов",
+        "dat": "Амаэмонам",
+        "acc": "Амаэмонов",
+        "ins": "Амаэмонами",
+        "prep": "Амаэмонах"
+      },
+      "counted_few": "Амаэмона"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.asterion",
+    "kind": "monster",
+    "en": "Asterion",
+    "en_plural": "Asterions",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Астерион",
+        "gen": "Астериона",
+        "dat": "Астериону",
+        "acc": "Астериона",
+        "ins": "Астерионом",
+        "prep": "Астерионе"
+      },
+      "plural": {
+        "nom": "Астерионы",
+        "gen": "Астерионов",
+        "dat": "Астерионам",
+        "acc": "Астерионов",
+        "ins": "Астерионами",
+        "prep": "Астерионах"
+      },
+      "counted_few": "Астериона"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.jorgrun",
+    "kind": "monster",
+    "en": "Jorgrun",
+    "en_plural": "Jorgruns",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Йоргрун",
+        "gen": "Йоргруна",
+        "dat": "Йоргруну",
+        "acc": "Йоргруна",
+        "ins": "Йоргруном",
+        "prep": "Йоргруне"
+      },
+      "plural": {
+        "nom": "Йоргруны",
+        "gen": "Йоргрунов",
+        "dat": "Йоргрунам",
+        "acc": "Йоргрунов",
+        "ins": "Йоргрунами",
+        "prep": "Йоргрунах"
+      },
+      "counted_few": "Йоргруна"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.lodul",
+    "kind": "monster",
+    "en": "Lodul",
+    "en_plural": "Loduls",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Лодул",
+        "gen": "Лодула",
+        "dat": "Лодулу",
+        "acc": "Лодула",
+        "ins": "Лодулом",
+        "prep": "Лодуле"
+      },
+      "plural": {
+        "nom": "Лодулы",
+        "gen": "Лодулов",
+        "dat": "Лодулам",
+        "acc": "Лодулов",
+        "ins": "Лодулами",
+        "prep": "Лодулах"
+      },
+      "counted_few": "Лодула"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.maggie",
+    "kind": "monster",
+    "en": "Maggie",
+    "en_plural": "Maggies",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Мэгги",
+        "gen": "Мэгги",
+        "dat": "Мэгги",
+        "acc": "Мэгги",
+        "ins": "Мэгги",
+        "prep": "Мэгги"
+      },
+      "plural": {
+        "nom": "Мэгги",
+        "gen": "Мэгги",
+        "dat": "Мэгги",
+        "acc": "Мэгги",
+        "ins": "Мэгги",
+        "prep": "Мэгги"
+      },
+      "counted_few": "Мэгги"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.nergalle",
+    "kind": "monster",
+    "en": "Nergalle",
+    "en_plural": "Nergalles",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Нергалле",
+        "gen": "Нергалле",
+        "dat": "Нергалле",
+        "acc": "Нергалле",
+        "ins": "Нергалле",
+        "prep": "Нергалле"
+      },
+      "plural": {
+        "nom": "Нергалле",
+        "gen": "Нергалле",
+        "dat": "Нергалле",
+        "acc": "Нергалле",
+        "ins": "Нергалле",
+        "prep": "Нергалле"
+      },
+      "counted_few": "Нергалле"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.agnes",
+    "kind": "monster",
+    "en": "Agnes",
+    "en_plural": "Agnes",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Агнес",
+        "gen": "Агнес",
+        "dat": "Агнес",
+        "acc": "Агнес",
+        "ins": "Агнес",
+        "prep": "Агнес"
+      },
+      "plural": {
+        "nom": "Агнес",
+        "gen": "Агнес",
+        "dat": "Агнес",
+        "acc": "Агнес",
+        "ins": "Агнес",
+        "prep": "Агнес"
+      },
+      "counted_few": "Агнес"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.bai_suzhen",
+    "kind": "monster",
+    "en": "Bai Suzhen",
+    "en_plural": "Bai Suzhens",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Бай Сучжэнь",
+        "gen": "Бай Сучжэнь",
+        "dat": "Бай Сучжэнь",
+        "acc": "Бай Сучжэнь",
+        "ins": "Бай Сучжэнь",
+        "prep": "Бай Сучжэнь"
+      },
+      "plural": {
+        "nom": "Бай Сучжэнь",
+        "gen": "Бай Сучжэнь",
+        "dat": "Бай Сучжэнь",
+        "acc": "Бай Сучжэнь",
+        "ins": "Бай Сучжэнь",
+        "prep": "Бай Сучжэнь"
+      },
+      "counted_few": "Бай Сучжэнь"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.jory",
+    "kind": "monster",
+    "en": "Jory",
+    "en_plural": "Jories",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Джори",
+        "gen": "Джори",
+        "dat": "Джори",
+        "acc": "Джори",
+        "ins": "Джори",
+        "prep": "Джори"
+      },
+      "plural": {
+        "nom": "Джори",
+        "gen": "Джори",
+        "dat": "Джори",
+        "acc": "Джори",
+        "ins": "Джори",
+        "prep": "Джори"
+      },
+      "counted_few": "Джори"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.josephine",
+    "kind": "monster",
+    "en": "Josephine",
+    "en_plural": "Josephines",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Джозефин",
+        "gen": "Джозефин",
+        "dat": "Джозефин",
+        "acc": "Джозефин",
+        "ins": "Джозефин",
+        "prep": "Джозефин"
+      },
+      "plural": {
+        "nom": "Джозефин",
+        "gen": "Джозефин",
+        "dat": "Джозефин",
+        "acc": "Джозефин",
+        "ins": "Джозефин",
+        "prep": "Джозефин"
+      },
+      "counted_few": "Джозефин"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.kirke",
+    "kind": "monster",
+    "en": "Kirke",
+    "en_plural": "Kirkes",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Кирке",
+        "gen": "Кирке",
+        "dat": "Кирке",
+        "acc": "Кирке",
+        "ins": "Кирке",
+        "prep": "Кирке"
+      },
+      "plural": {
+        "nom": "Кирке",
+        "gen": "Кирке",
+        "dat": "Кирке",
+        "acc": "Кирке",
+        "ins": "Кирке",
+        "prep": "Кирке"
+      },
+      "counted_few": "Кирке"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.natasha",
+    "kind": "monster",
+    "en": "Natasha",
+    "en_plural": "Natashas",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Наташа",
+        "gen": "Наташи",
+        "dat": "Наташе",
+        "acc": "Наташу",
+        "ins": "Наташей",
+        "prep": "Наташе"
+      },
+      "plural": {
+        "nom": "Наташи",
+        "gen": "Наташ",
+        "dat": "Наташам",
+        "acc": "Наташ",
+        "ins": "Наташами",
+        "prep": "Наташах"
+      },
+      "counted_few": "Наташи"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.erica",
+    "kind": "monster",
+    "en": "Erica",
+    "en_plural": "Ericas",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Эрика",
+        "gen": "Эрики",
+        "dat": "Эрике",
+        "acc": "Эрику",
+        "ins": "Эрикой",
+        "prep": "Эрике"
+      },
+      "plural": {
+        "nom": "Эрики",
+        "gen": "Эрик",
+        "dat": "Эрикам",
+        "acc": "Эрик",
+        "ins": "Эриками",
+        "prep": "Эриках"
+      },
+      "counted_few": "Эрики"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.arachne",
+    "kind": "monster",
+    "en": "Arachne",
+    "en_plural": "Arachnes",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Арахна",
+        "gen": "Арахны",
+        "dat": "Арахне",
+        "acc": "Арахну",
+        "ins": "Арахной",
+        "prep": "Арахне"
+      },
+      "plural": {
+        "nom": "Арахны",
+        "gen": "Арахн",
+        "dat": "Арахнам",
+        "acc": "Арахн",
+        "ins": "Арахнами",
+        "prep": "Арахнах"
+      },
+      "counted_few": "Арахны"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.cassandra",
+    "kind": "monster",
+    "en": "Cassandra",
+    "en_plural": "Cassandras",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Кассандра",
+        "gen": "Кассандры",
+        "dat": "Кассандре",
+        "acc": "Кассандру",
+        "ins": "Кассандрой",
+        "prep": "Кассандре"
+      },
+      "plural": {
+        "nom": "Кассандры",
+        "gen": "Кассандр",
+        "dat": "Кассандрам",
+        "acc": "Кассандр",
+        "ins": "Кассандрами",
+        "prep": "Кассандрах"
+      },
+      "counted_few": "Кассандры"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.josephina",
+    "kind": "monster",
+    "en": "Josephina",
+    "en_plural": "Josephinas",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Джозефина",
+        "gen": "Джозефины",
+        "dat": "Джозефине",
+        "acc": "Джозефину",
+        "ins": "Джозефиной",
+        "prep": "Джозефине"
+      },
+      "plural": {
+        "nom": "Джозефины",
+        "gen": "Джозефин",
+        "dat": "Джозефинам",
+        "acc": "Джозефин",
+        "ins": "Джозефинами",
+        "prep": "Джозефинах"
+      },
+      "counted_few": "Джозефины"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.louise",
+    "kind": "monster",
+    "en": "Louise",
+    "en_plural": "Louises",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Луиза",
+        "gen": "Луизы",
+        "dat": "Луизе",
+        "acc": "Луизу",
+        "ins": "Луизой",
+        "prep": "Луизе"
+      },
+      "plural": {
+        "nom": "Луизы",
+        "gen": "Луиз",
+        "dat": "Луизам",
+        "acc": "Луиз",
+        "ins": "Луизами",
+        "prep": "Луизах"
+      },
+      "counted_few": "Луизы"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.enchantress",
+    "kind": "monster",
+    "en": "Enchantress",
+    "en_plural": "Enchantresses",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Чародейка",
+        "gen": "Чародейки",
+        "dat": "Чародейке",
+        "acc": "Чародейку",
+        "ins": "Чародейкой",
+        "prep": "Чародейке"
+      },
+      "plural": {
+        "nom": "Чародейки",
+        "gen": "Чародеек",
+        "dat": "Чародейкам",
+        "acc": "Чародеек",
+        "ins": "Чародейками",
+        "prep": "Чародейках"
+      },
+      "counted_few": "Чародейки"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.jeremiah",
+    "kind": "monster",
+    "en": "Jeremiah",
+    "en_plural": "Jeremiahs",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Джеремайя",
+        "gen": "Джеремайи",
+        "dat": "Джеремайе",
+        "acc": "Джеремайю",
+        "ins": "Джеремайей",
+        "prep": "Джеремайе"
+      },
+      "plural": {
+        "nom": "Джеремайи",
+        "gen": "Джеремай",
+        "dat": "Джеремайям",
+        "acc": "Джеремай",
+        "ins": "Джеремайями",
+        "prep": "Джеремайях"
+      },
+      "counted_few": "Джеремайи"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.prince_ribbit",
+    "kind": "monster",
+    "en": "Prince Ribbit",
+    "en_plural": "Prince Ribbits",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "принц Риббит",
+        "gen": "принца Риббита",
+        "dat": "принцу Риббиту",
+        "acc": "принца Риббита",
+        "ins": "принцем Риббитом",
+        "prep": "принце Риббите"
+      },
+      "plural": {
+        "nom": "принцы Риббиты",
+        "gen": "принцев Риббитов",
+        "dat": "принцам Риббитам",
+        "acc": "принцев Риббитов",
+        "ins": "принцами Риббитами",
+        "prep": "принцах Риббитах"
+      },
+      "counted_few": "принца Риббита"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.blorkula_the_orcula",
+    "kind": "monster",
+    "en": "Blorkula the Orcula",
+    "en_plural": "Blorkula the Orculas",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "Блоркула Оркула",
+        "gen": "Блоркулы Оркулы",
+        "dat": "Блоркуле Оркуле",
+        "acc": "Блоркулу Оркулу",
+        "ins": "Блоркулой Оркулой",
+        "prep": "Блоркуле Оркуле"
+      },
+      "plural": {
+        "nom": "Блоркулы Оркулы",
+        "gen": "Блоркул Оркул",
+        "dat": "Блоркулам Оркулам",
+        "acc": "Блоркул Оркул",
+        "ins": "Блоркулами Оркулами",
+        "prep": "Блоркулах Оркулах"
+      },
+      "counted_few": "Блоркулы Оркулы"
+    },
+    "review": "reviewed"
   }
 ]

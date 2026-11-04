@@ -496,3 +496,29 @@
 | `monster.guardian_sphinx` | [Сфинкс-страж](pages/monster.guardian_sphinx.md) | guardian sphinx | reviewed |
 | `monster.sphinx_marauder` | [Сфинкс-мародёр](pages/monster.sphinx_marauder.md) | sphinx marauder | reviewed |
 | `monster.wolf_spider` | [Паук-волк](pages/monster.wolf_spider.md) | wolf spider | reviewed |
+| `monster.sigmund` | [Зигмунд](pages/monster.sigmund.md) | Sigmund | reviewed |
+| `monster.robin` | [Робин](pages/monster.robin.md) | Robin | reviewed |
+| `monster.pikel` | [Пикел](pages/monster.pikel.md) | Pikel | reviewed |
+| `monster.fannar` | [Фаннар](pages/monster.fannar.md) | Fannar | reviewed |
+| `monster.nessos` | [Нессос](pages/monster.nessos.md) | Nessos | reviewed |
+| `monster.amaemon` | [Амаэмон](pages/monster.amaemon.md) | Amaemon | reviewed |
+| `monster.asterion` | [Астерион](pages/monster.asterion.md) | Asterion | reviewed |
+| `monster.jorgrun` | [Йоргрун](pages/monster.jorgrun.md) | Jorgrun | reviewed |
+| `monster.lodul` | [Лодул](pages/monster.lodul.md) | Lodul | reviewed |
+| `monster.maggie` | [Мэгги](pages/monster.maggie.md) | Maggie | reviewed |
+| `monster.nergalle` | [Нергалле](pages/monster.nergalle.md) | Nergalle | reviewed |
+| `monster.agnes` | [Агнес](pages/monster.agnes.md) | Agnes | reviewed |
+| `monster.bai_suzhen` | [Бай сучжэнь](pages/monster.bai_suzhen.md) | Bai Suzhen | reviewed |
+| `monster.jory` | [Джори](pages/monster.jory.md) | Jory | reviewed |
+| `monster.josephine` | [Джозефин](pages/monster.josephine.md) | Josephine | reviewed |
+| `monster.kirke` | [Кирке](pages/monster.kirke.md) | Kirke | reviewed |
+| `monster.natasha` | [Наташа](pages/monster.natasha.md) | Natasha | reviewed |
+| `monster.erica` | [Эрика](pages/monster.erica.md) | Erica | reviewed |
+| `monster.arachne` | [Арахна](pages/monster.arachne.md) | Arachne | reviewed |
+| `monster.cassandra` | [Кассандра](pages/monster.cassandra.md) | Cassandra | reviewed |
+| `monster.josephina` | [Джозефина](pages/monster.josephina.md) | Josephina | reviewed |
+| `monster.louise` | [Луиза](pages/monster.louise.md) | Louise | reviewed |
+| `monster.enchantress` | [Чародейка](pages/monster.enchantress.md) | Enchantress | reviewed |
+| `monster.jeremiah` | [Джеремайя](pages/monster.jeremiah.md) | Jeremiah | reviewed |
+| `monster.prince_ribbit` | [Принц риббит](pages/monster.prince_ribbit.md) | Prince Ribbit | reviewed |
+| `monster.blorkula_the_orcula` | [Блоркула оркула](pages/monster.blorkula_the_orcula.md) | Blorkula the Orcula | reviewed |
