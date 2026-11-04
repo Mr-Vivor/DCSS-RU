@@ -87,9 +87,10 @@
         "species.cc:name(SPNAME_GENUS), species-data.h and l-you.cc:l_you_genus",
         "Genus is not always species: Felid -> Cat, Coglin -> Goblin, Barachi -> Frog.",
         "Canonical Dwarf/Draconian/Merfolk/Tengu/Vine Stalker terminology; plural Octopi/Djinn.",
-        "Preserve {pl} selectors and obsolete Onis/Palentongas keys; no raw species IDs changed."
+        "Preserve {pl} selectors and obsolete Onis/Palentongas keys; no raw species IDs changed.",
+        "Vine Stalker renamed to Лозовик at user request; singular, plural, adjective and case forms agree with species text and shared glossary."
       ],
-      "translations_sha256": "82cc26cafa7edad90450fe081d884a77c91c8ec1a9d1a2c2f185132ae12756cd",
+      "translations_sha256": "db972ebd6760d05190623765c487eedc754b3c0509ac438b969010528ce8bf72",
       "entries": 43
     }
   },
@@ -56991,10 +56992,10 @@
   "message_source_sha256": "7689e20d541686fa0d13f5dd170b57996ec8415be94191fed9f8e39e86ae7053",
   "artifact_power_fields_sha256": "4576e142a19be9b8114118007e6f203098f09a070412255bb97bc181622e6881",
   "runtime_monster_name_coverage": {
-    "source": "crawl-ref/source/mon-data.h: declared display-name strings",
+    "source": "crawl-ref/source/dat/mons/*.yaml: declared display-name strings used to generate mon-data.h",
     "entries": 684,
     "source_names_sha256": "6bb1c228a590959bef142249fb5d355d5490f1ea2756893e17b9b29a0911fcf9",
-    "translations_sha256": "9a772439fb9a78f7a589dd323a879d117556a7ec8b172e3dd16e6c8eea84651d",
+    "translations_sha256": "d1bd6e78611698af6200c03be355a76541097788dfd953186e0d296de5ffe0d0",
     "context": "Bounded exact-key coverage audit after manually authored glossary additions. This is not a review of all old Russian descriptions, declensions, runtime epithets or names assembled from multiple fragments. Test and legacy declarations are included; raw enum IDs remain unchanged."
   }
 }

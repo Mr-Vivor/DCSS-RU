@@ -535,7 +535,7 @@
 | `monster.ghoul` | [Гуль](pages/monster.ghoul.md) | ghoul | reviewed |
 | `monster.human` | [Человек](pages/monster.human.md) | human | reviewed |
 | `monster.oni` | [Они](pages/monster.oni.md) | oni | reviewed |
-| `monster.vine_stalker` | [Лозовый преследователь](pages/monster.vine_stalker.md) | vine stalker | reviewed |
+| `monster.vine_stalker` | [Лозовик](pages/monster.vine_stalker.md) | vine stalker | reviewed |
 | `genus.frog` | [Лягушка](pages/genus.frog.md) | frog | reviewed |
 | `genus.cat` | [Кошка](pages/genus.cat.md) | cat | reviewed |
 | `genus.ant` | [Муравей](pages/genus.ant.md) | ant | reviewed |

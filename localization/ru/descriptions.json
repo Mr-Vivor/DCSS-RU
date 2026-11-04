@@ -7603,6 +7603,243 @@
       "source_sha256": "2992cc82a64ef18a62c71392af551141e9c76f0bbd777403fe2d5e82e4301f08",
       "text": "С его приближением за оглушительным рёвом звёзд слышатся отголоски планет. Это пасть бездны. Изнутри оно выпускает ползучий хаос. Это последнее, что вы когда-либо увидите.",
       "context": "Current monsters.txt remaining special-mode enemies, statues and legacy placeholders. Preserve differences between caster schools, ill variants and normal merfolk, harmless spectators/plants and hostile creatures. The legacy ghost explicitly refers to a removed monster rather than a modern player ghost. Wucad Mu, Cigotuvi, Iskenderun, Nemelex, Okawaru and Zin use existing names. Withered-plant Lua selectors Crypt/Tomb/Zot stay unchanged; only age words are translated. Meat-mode lore is translated without new attacks or game rules. "
+    },
+    "__(_suffix_examine": {
+      "source_sha256": "97df38e9f347f399d5dbd8cd366bed0aaa59d69ed7c4101b2fac9ef9bcde769a",
+      "text": "Чары позволяют этому оружию летать по воздуху и атаковать самостоятельно.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Aizul": {
+      "source_sha256": "870a758f1df7324f58a96368c137b3ac80cc3072d561cb2fbc994ca67078bda7",
+      "text": "Прежде она была главной змеёй-стражем легендарной сокровищницы, но впала в немилость, когда воры разграбили её во время её сна. Теперь она пытается искупить свою вину, охраняя единственное сокровище, которое грабители не заметили: драгоценный талисман.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Asmodeus": {
+      "source_sha256": "f45ed05a0461a98f72bb1a6d37abc981d3504308ed81224c11e8d57476bbb9af",
+      "text": "Величайший и хитрейший из повелителей Ада, Асмодей родился, когда в сердце смертного впервые вспыхнули два огня — алчность и предательство. Его чудовищное тело вечно объято пламенем.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Azrael": {
+      "source_sha256": "4129412f88e8f32ea99a2beaa63faf531a4b8ba53e6ed50001c144b6b10cf3fb",
+      "text": "Могущественный и воинственный ифрит. А разве бывают другие?",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Boris": {
+      "source_sha256": "212087dea44ab3da6c62a21c797a2ab6ce5ef9562def7cd20e3fddd425e97916",
+      "text": "Древний и могущественный лич. Как и все истинные личи, Борис бессмертен: его иссохшие останки восстановятся, даже если от них не останется ни пылинки. Того же нельзя сказать о бесчисленных жертвах, которых он погубил за многие века. Их предсмертные страдания и сожаления он собирает и обращает в свою силу.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Cerebov": {
+      "source_sha256": "53b8e888d76f9585e8210a4f114bb0e9e5ab8bd0cdcb82d7fce779faaa9b0d67",
+      "text": "Жестокий и гневливый демон, Церебов выглядит как исполин в сияющих золотых доспехах, вооружённый огромным мечом с витым лезвием.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Chuck": {
+      "source_sha256": "5f8672ddd82c01f7ad208a19c2ac44d9e56485f560e1438bded116a2e0ac2f25",
+      "text": "Каменный великан Чак обожает камни: чем больше, тем лучше! За долгие годы он собрал внушительную коллекцию, в том числе несколько редких зачарованных экземпляров.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Crazy Yiuf": {
+      "source_sha256": "b7f1c7d01c2743174a3d25493e571c51f8fe9261342e7b1c0f3554a509d75c83",
+      "text": "Дряхлый старый гнолл с длинной серебристой бородой, в плаще и с посохом. Вылитый герой древних преданий! Постойте, неужели борода прикреплена к его ушам крючками?",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Dispater": {
+      "source_sha256": "6556ee7b98159fd5078a2f8e12d5ce34b5906cda839ad9269d0259026d08d649",
+      "text": "Величайший и безжалостнейший из повелителей Ада, Диспатер родился, когда железный меч впервые испил крови смертного. Он презирает тщеславие смертных и их погоню за «разумом» и «красотой». Единственное искусство, которое ему по душе, — искусство войны.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Dissolution": {
+      "source_sha256": "ec6f36daa4c3eda384aa1c8ec1d197f8a431a2145385113fb6716c921191b8d2",
+      "text": "Некогда на месте Слизистых ям процветала цивилизация, а Растворение был пророком её бога. Когда город захватили его нынешние обитатели, выжил лишь Растворение: он один искренне обратился к Богу слизи. Он превратился в громадную массу едкой слизи, но сохранил разум. Его переполняет ненависть ко всему, что способно сохранять определённую форму.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Donald": {
+      "source_sha256": "7bb473c0cd673ccfab5fc48b0d6871df085f6b0e485241bd9d3c8f6035033619",
+      "text": "{{\n    local descript = \"Такой же искатель приключений, как и вы: он тоже ищет Сферу.\"\n\n    if you.race() ~= \"Merfolk\" and you.race() ~= \"Octopode\" then\n        descript = descript .. \" В отличие от вас, он п\"\n    else\n        descript = descript .. \" Он п\"\n    end\n\n    descript = descript .. \"рекрасно плавает, хотя и ненавидит воду: прямо \" ..\n                           \"водоплавающая птица.\"\n\n    return descript\n}}",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. ",
+      "lua_strings": {
+        "An adventurer just like you, trying to find the Orb.": "Такой же искатель приключений, как и вы: он тоже ищет Сферу.",
+        " Unlike you, and d": " В отличие от вас, он п",
+        " D": " Он п",
+        "espite his hatred of it, he takes to water ": "рекрасно плавает, хотя и ненавидит воду: прямо ",
+        "like a fowl.": "водоплавающая птица."
+      },
+      "wiki_text": "Искатель приключений, который, как и вы, ищет Сферу. Несмотря на ненависть к воде, прекрасно плавает — словно водоплавающая птица. Если ваш вид не русалка и не октопод, он ещё и подчёркивает это отличие от вас."
+    },
+    "Dowan": {
+      "source_sha256": "f38538357e1fd94795828022f0021f00e7343cbbe1bbe085d2721fc78372b686",
+      "text": "Красивый, но тщеславный глубинный эльф, талантливый в магии и почти ни в чём другом. Его колдовство прекрасно дополняет боевое мастерство сестры-близнеца Дувессы. В поисках более могущественных заклинаний он вместе с ней направляется на поверхность.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Duvessa": {
+      "source_sha256": "cc4a773199235d7f69250c1fefdeb1b03df905451d1cb4d7c44ab555625bf8d4",
+      "text": "Невзрачная глубинная эльфийка, виртуозно владеющая многими видами боя и оттого чрезмерно самоуверенная. Её мастерство дополняет магия брата-близнеца Дована. Она направляется на поверхность, чтобы бросить вызов тамошним величайшим воинам.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Edmund": {
+      "source_sha256": "f121add1ca15366796b118c120e7eb145b0ffa23cc001c011bcfe8f350451b0c",
+      "text": "Завистливый брат Зигмунда, самый младший из девяти братьев. Магических талантов Зигмунда у него нет, зато есть боевое мастерство и деловая хватка. Он стремится доказать своё превосходство, убивая незадачливых искателей приключений дорогим цепом и пуская в ход смекалку.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Ereshkigal": {
+      "source_sha256": "97f16f87d9668a10ca7f839a9c1ae29a98fd91af546c8df4758e15bb08ad9a30",
+      "text": "Величайшая и неумолимейшая из повелителей Ада, Эрешкигаль родилась, когда первая смертная испустила последний вздох. Окутанная могильной тишиной, она беззвучно смеётся над оборванными жизнями и близкими, которых разлучила безвременная смерть.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Erolcha": {
+      "source_sha256": "5d639cf4deb3cfac0342c60ba361c3d1607ed14c2e48770ad91c7a9e949560a1",
+      "text": "Особенно коварная огр-маг.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Eustachio": {
+      "source_sha256": "c57e6dda054986eb91c9f877538d329eaa64c48346f390d35ba4c7e3e424bbb1",
+      "text": "Начинающий призыватель с пышными усами. У него своеобразные представления о чести.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Frances": {
+      "source_sha256": "8846bd4351a9676130c523e5693002e29db9d9392ba7b8846a9e17840713234a",
+      "text": "Крепкая воительница, некогда одолевшая в бою могущественного повелителя Пандемониума и завладевшая его царством и вассалами. Та битва оставила глубокий шрам на её лице. Она носит его как знак доблести, а не позора.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Frederick": {
+      "source_sha256": "855d7acf6cdbc69af1aa1c9025b94bd453c48884a5b2fc890181a64fcb3427cc",
+      "text": "Стройный воин-маг с моноклем в золотой оправе. Он чтит традиции, а в его жилах течёт кровь богов. Здесь он ищет достойного противника, но пока такого не встретил.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Gastronok": {
+      "source_sha256": "5b068025c6db06b3587f4409437202dda5ec571fedbcd111dcacee575d1da066",
+      "text": "Прожорливый и на удивление умный слизень, посвятивший себя поеданию всего и всех на своём пути. На его голове лихо сидит остроконечная шляпа. Он заполучил её так же, как разум и знание заклинаний: съев прежнего владельца, могущественного волшебника.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Gloorx Vloq": {
+      "source_sha256": "c31d7783762b5e19073bf5c5f96b7ae9721808f369b6b8eb644c133406b437ab",
+      "text": "Смутная фигура, окутанная непроглядной тьмой.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Grinder": {
+      "source_sha256": "af9d8b55b26db786565762d5d902661f58bded5a4d239fd98130baea05d5bda5",
+      "text": "Не слишком умелая теневая бесовка, прежде служившая палачом в одном из нижних кругов Ада. Она любит жаловаться и говорить бессмыслицу.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Grum": {
+      "source_sha256": "40681b758e56799e6e12ccced7690392a5dcbbc8ab3f816c191b2440881e2b51",
+      "text": "Грозного вида гнолл в шкуре одного из своих прежних боевых псов.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Harold": {
+      "source_sha256": "c9e1b02ee1b6f8aa3e62b50fa5e1858d71506182ffa2bb79d164be4d54c93814",
+      "text": "Охотник за головами средних лет, мечтающий уйти на покой после последнего заказа. На деньги за последнюю добычу — вас — он надеется обосноваться где-нибудь с семьёй и зажить спокойно.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Ignacio": {
+      "source_sha256": "146f3fc4e10fbc93b5b1348e88b1144aebb46e1dfc498632250a518c7e0a461a",
+      "text": "Смертному не стать демоном без божественного вмешательства. Именно оно и случилось с Игнасио: Махлеб увидел, как тот любит своё дело, и благословил его. Теперь он сможет наслаждаться любимым занятием целую вечность.\n\nХотя из его демонических конечностей теперь растут огромные лезвия, острые как бритва, он сохранил любимый топор и с радостью даст вам испытать его остроту.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Ijyb": {
+      "source_sha256": "4f9b18f1a96f63935caf7f1341f3f36e2672b8f519014530bddd0b902d1abab7",
+      "text": "Маленькая и смышлёная гоблинша-изобретательница в синих, покрытых копотью лохмотьях. Она объявила этот уровень Подземелья своим владением. Незваных гостей встречает направленная на них самодельная палочка.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Jessica": {
+      "source_sha256": "68ccf286c4b3b6c4bfbe8d145392bd800204528720b13f86fed20b7803569785",
+      "text": "Начинающая злая колдунья. Она спустилась в Подземелье в поисках тихого, уединённого места, где никто не помешает ей изучать тёмные искусства.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Joseph": {
+      "source_sha256": "3cfac63c05f46f6fb9833dd40831c471169f64eeab1e0bb45dca30e6070658a9",
+      "text": "Похож на наёмника в дурацкой шляпе.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Margery": {
+      "source_sha256": "a31505e9a78a047eb2365276e8d7e9d912cd23ef9893997de53a242f0f104437",
+      "text": "Стройная заклинательница на службе у сил Ада. Её долг — следить, чтобы обитатели Подземелья не забывали своего места. Древнего дракона, из шкуры которого сделаны её необычные доспехи, она убила собственноручно.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Maurice": {
+      "source_sha256": "98e1a6a7ecebb98b275351d9854a1f2e69e0592391456dc9695b2a90775ee9bf",
+      "text": "Хитрый, коварный вор, самопровозглашённая легенда своего ремесла. Среди воров и проходимцев, которых манила Сфера, он был одним из самых умелых. Магические лозы-паразиты, завладевшие его телом, намерены продолжить дело его жизни. А если с воровством не выйдет, у них наготове свирепая пасть, высасывающая магию, и мощные палочки.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Menkaure": {
+      "source_sha256": "e9154bf72ca40b7da709b34bcac0fe2ece81e9206c18f9c9c1d06c5cb9a444db",
+      "text": "Справедливый и благородный правитель древнего могущественного царства, мумифицированный после ранней смерти. Верные жрецы наполнили его великой магической силой, надеясь даровать вечную жизнь. Теперь он забыт: от былого величия остались лишь истлевшие бинты и сухие хрупкие кости.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Mennas": {
+      "source_sha256": "3cc03d826d736bb02baecd44a66aada362712b3a66af58c1059715cc8984113b",
+      "text": "Когда-то жил человек, жрец по имени Меннас. Он странствовал повсюду как миссионер Зина и нередко забирался даже в земли орков. Он призывал орков оставить ложные племена и вернуться к народам, среди которых родился каждый из них: лишь свет Зина мог очистить их от тяжести греха, исказившей их тела.\n\nСудя по всему, оркам Меннас не нравился. В конце концов несколько орков потребовали, чтобы он отрёкся от своих слов. Когда Меннас промолчал, они отрезали ему язык.\n\nТот ли самый Меннас этот ангел — загадка: похоже, говорить ему трудно.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Mnoleg": {
+      "source_sha256": "7edef6544975d978f331680e28d4e075ba06955f0e123686c1b6b25c12deac29",
+      "text": "Странно светящаяся фигура, танцующая в искажённом воздухе Пандемониума.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Nellie": {
+      "source_sha256": "67ed2559505331bcd2a9a20da5c5d9e8e2cf9bfd4be68ff4dd3632e927c004dc",
+      "text": "Необычайно умная слониха, странствовавшая с цирком. Однажды тёмной ночью она освободилась от цепи и исчезла в Пандемониуме. С тех пор её никто не видел.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Nikola": {
+      "source_sha256": "4989adefac7c43bb87dcbe5c0f95bfffd68a07e94514771a6f9dcecd70edf4ad",
+      "text": "Гениальный учёный, одержимый электричеством. Пытаясь усовершенствовать своего электрического голема, он попал в страшную аварию. Теперь он то исчезает из реальности, то появляется вновь.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Pargi": {
+      "source_sha256": "6d6335420216f8e1b215b3968ef1ea775595fc42ba48a5fa87ece3ee61736edc",
+      "text": "Необычайно слабый тролль.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Polyphemus": {
+      "source_sha256": "f483bd5c48a720fd80454b35857c8c4f2717364b5423cb905e7b279161da6c4f",
+      "text": "Циклоп-пастух, который ревностно оберегает своих подопечных и не сводит с них огромного единственного глаза. Но в трудную минуту он без колебаний метнёт их во врага: лучшая защита — нападение.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Rupert": {
+      "source_sha256": "90aeec647bdf33d8af2b59ced13433734eac9278198d0407605b3e3daf7b4f3d",
+      "text": "Перекатывающиеся мышцы, лоснящаяся грудь, невероятные ягодицы — Руперт достиг вершины телесного совершенства. И всё же даже столь великолепное телосложение не объясняет мощи его рёва. Может, у него есть талисман, наделяющий голос сверхъестественной силой?",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Saint Roka": {
+      "source_sha256": "31f783023c9d588be8be76f8fbee1a192ebbd59fec855e52f517611ab1495a60",
+      "text": "Могучий военачальник. Некоторые орки даже называют его Избранным Беога.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Snorg": {
+      "source_sha256": "fc4993b0402742879cfb57aab33cb9f2f2035ba5659f7b5a4bb3cb97d9cf9361",
+      "text": "Особенно тучный и вспыльчивый тролль с внушительным брюхом. Сфера Снорга не интересует. Его радует бесконечная череда искателей приключений, которых она привлекает: ведь каждый — лёгкая добыча на обед.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Sonja": {
+      "source_sha256": "102b54d8ed29013e1a3f6b2960a5e42625a609da772b587da1cfca8c42ef88db",
+      "text": "Грациозная кобольд-убийца. Полюбуйтесь её изящными пируэтами и головокружительными прыжками! Но берегитесь её ножей!",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Terence": {
+      "source_sha256": "87b70fbf908c8e3451bd2a76d0327b88ffec100d7aa2a2eb1d618fc1737153eb",
+      "text": "Ветеран войны против арматавров, сражавшихся верхом на слонах. Недавно он оставил службу и решил обосноваться в Подземелье.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "Urug": {
+      "source_sha256": "51936e11ba6120cb0ea8e5420614d71374e53da5d9b139597705c0d9305c95a4",
+      "text": "Грубая долговязая орчиха. Уруг потеряла глаз в схватке с гарпией и поклялась истребить их всех до единой. К несчастью, оставшийся глаз видит плохо, и она приняла вас за одну из них.\n{{\n    if you.can_smell() then\n        return \"От неё ужасно пахнет.\"\n    end\n}}",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. ",
+      "lua_strings": {
+        "She smells terrible.": "От неё ужасно пахнет."
+      },
+      "wiki_text": "Грубая долговязая орчиха. Уруг потеряла глаз в схватке с гарпией и поклялась истребить их всех до единой. К несчастью, оставшийся глаз видит плохо, и она приняла вас за одну из них. Если ваш персонаж способен чувствовать запахи, описание также сообщает, что от неё ужасно пахнет."
+    },
+    "Xtahua": {
+      "source_sha256": "b686c5a9e10a412c34336bc2684491484d9b94885e0887d8c68cba849149dd25",
+      "text": "Древний и могучий дракон.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "adder": {
+      "source_sha256": "8c133098f09192101ae265a086bd2cc87ea5adb8dbe83907b27b70cf6670a897",
+      "text": "Обычная пещерная змея — одна из рептилий, приспособленных к жизни под землёй.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
     }
   },
   "status": {

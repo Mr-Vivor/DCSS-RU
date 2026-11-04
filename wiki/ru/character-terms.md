@@ -19,7 +19,7 @@
 | Octopode | [Осьминог](characters/species/octopode.md) |
 | Felid | [Фелид](characters/species/felid.md) |
 | Formicid | [Формицид](characters/species/formicid.md) |
-| Vine Stalker | [Лозовый преследователь](characters/species/vine-stalker.md) |
+| Vine Stalker | [Лозовик](characters/species/vine-stalker.md) |
 | Demonspawn | [Порождение демонов](characters/species/demonspawn.md) |
 | Demigod | [Полубог](characters/species/demigod.md) |
 | Draconian | [Дракониан](characters/species/draconian.md) |
@@ -1517,7 +1517,7 @@
 | ghoul | гуль |
 | human | человек |
 | oni | они |
-| vine stalker | лозовый преследователь |
+| vine stalker | лозовик |
 | broodmother | паучья матка |
 | culicivora | кулицивора |
 | jorogumo | дзёрогумо |
@@ -1992,6 +1992,8 @@
 | warg | варг |
 | Xtahua | Кстахуа |
 | yaktaur captain | яктавр-капитан |
+| __(_suffix_examine | Зачарованное оружие |
+| adder | гадюка |
 
 ## genus
 
