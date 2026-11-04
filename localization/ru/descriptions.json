@@ -5282,6 +5282,101 @@
       "source_sha256": "7b01bd75f3e57bd07346158a3abc800a373f3fc8c59a692aa989a57d42aae2ca",
       "text": "Огромный могущественный демон с большими чешуйчатыми крыльями, окружённый адской карой. Один из самых страшных обитателей всех адов.",
       "context": "Current monsters.txt demons and english.cc plurals: ufetubus -> ufetubi. Preserve source capitalisation of Hell Sentinel/Ice Fiend/Brimstone Fiend database keys and raw monster IDs. Existing Hellion, Hellwing, Reaper, Sun/Orange Demons and Red Devil names retained; old case tables read and checked, counted adjective forms fixed. Existing Hellwing крыло is grammatically inanimate despite its demonic game nature. Ynoxinul/Balrug/Ufetubus are transliterated rather than given newly invented creatures. Torment is мучение; damnation is адская кара; negative energy is not a stat or spell-capacity modifier. Demonic scales are skin plates, not weighing devices; the Red Devil barbs are painful spikes, not insults."
+    },
+    "vault guard": {
+      "source_sha256": "ad4e57dfae16e813fd17d0e5f9765ca9dcfb15c8511cca5f10c4e4cccdb0bdee",
+      "text": "Тяжеловооружённый страж Хранилищ, облачённый в прочные доспехи.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "vault sentinel": {
+      "source_sha256": "6a701dd1b2cd94eb6f677ece0dcbf7e5d94523e72c83429dcfce15cb09aa21a4",
+      "text": "Бдительный дозорный, который немедленно предупреждает соратников о вторжении. Он накладывает на чужаков мощную магическую метку: куда бы они ни бежали, скрыться от преследователей им не удастся.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "ironbound convoker": {
+      "source_sha256": "cf59abbb2dccfdf291f5f700b7faa71a15d2e19842c7bc7bda43d50d21e8306c",
+      "text": "Маг-страж в доспехах с вытравленными узорами. Произнося слова силы, он переносит к себе далёких союзников и наделяет их неестественной мощью.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "ironbound frostheart": {
+      "source_sha256": "194524fbddc346ac661feac98fffaa6403c3c4d88f41957921469bb4a5519384",
+      "text": "Измождённый воин-маг, обязанный охранять сокровища, на которые давно зарятся чужаки. Он извлекает из окружающего пространства смертоносный холод, замораживая врагов рядом со стенами.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "ironbound thunderhulk": {
+      "source_sha256": "ba373f84f241bdb1697fc79c72e0d034504d0ee6a22072274e53d8e09dc71884",
+      "text": "Грубый великан, наспех облачённый в обрывки кожи и металла для боя с грозным незваным гостем. За его спиной закреплён древний магический «громоотвод», обрушивающий молнии на далёких врагов. По ближайшим целям он попасть не может.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "ironbound beastmaster": {
+      "source_sha256": "8dc2242f6d85c77e6a37b1ce9ac9f679ebe5038856f51d95fbca32917cfaeda4",
+      "text": "Жестокий и неукротимый громила, рычащий на языке диких зверей. Одним своим присутствием он подстёгивает неразумных живых зверей и слизней, заставляя их двигаться в бешеном темпе и изнуряя их.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "ragged hierophant": {
+      "source_sha256": "9148c3ed7dcde8e349268bb8bd25dc2b760549df6ac10d782745fbdb2909f0f4",
+      "text": "Потрёпанный жрец, чьи некогда роскошные одеяния покрыты солью и пылью. Боги отвернулись от него, и теперь он полагается на защиту конструктов.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "halazid warlock": {
+      "source_sha256": "3e3acdd096713705a00fb56520d054fd6451f75874f91e35af6dd4ad220eefd2",
+      "text": "Древний чародей-нежить, которого живые божества Шеза и Саргол извлекли из могилы и заставили денно и нощно трудиться, удерживая их в этом мире. Даже после падения божественных близнецов он продолжает работу, чтобы воскресить своих поверженных хозяев.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf annihilator": {
+      "source_sha256": "2784557fa68a22752fc737b20d8d4a9708074f91162b56636092a90822d351ff",
+      "text": "Глубинный эльф, упивающийся магическим хаосом и разрушением. Его повсеместно ненавидят и боятся — как за мощь, так и за точность его разрушительных заклинаний.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf death mage": {
+      "source_sha256": "738c696c865fdccbd8a3aa728a2134b608336f0eacddefa750fefa4e822a4fe4",
+      "text": "Глубинный эльф, окружённый мерцающей аурой отрицательной энергии — следствием его занятий некромантией и магией, вытягивающей жизненные силы.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf high priest": {
+      "source_sha256": "904c702b295827822af59c6f979169539ad5a771147f192b973e29e838b8077e",
+      "text": "Высокопоставленный служитель древнего тёмного бога глубинных эльфов, купающийся в адской магии смерти.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf sorcerer": {
+      "source_sha256": "3b9c2649accee87b3b129400898742350e23be1d5301a6b78c0ea0c82c62a9ee",
+      "text": "Могущественный заклинатель, черпающий силу в самих Адах и владеющий смертоносной магией.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf blademaster": {
+      "source_sha256": "5fc1e1589d9aea99fff0448d0f26ec5fd1340fb3ffc8e0677edc5738b75c5c8f",
+      "text": "Прославленный воин глубинных эльфов, презирающий магию и посвятивший себя искусству меча. Он с поразительной ловкостью и быстротой орудует оружием в обеих руках.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf master archer": {
+      "source_sha256": "2e1606d9767a88980219d6d8a9e853911df004de22cac7e33d1f4b5786524d75",
+      "text": "Глубинный эльф-лучник, посвятивший всю жизнь совершенствованию стрельбы из лука и отвергающий магию как пустое отвлечение.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf demonologist": {
+      "source_sha256": "60e8dbb40d6425c4e9f9cdbce09308a6589682ce25ab0ef2ddb2d8cd93ea2c0b",
+      "text": "Глубинный эльф, на котором оставили глубокий след долгие годы общения с противоестественными демоническими силами и созданиями Бездны.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf archer": {
+      "source_sha256": "93d17c5aa8d15b8430a3fef32e28cb59b8469eb9f2c41364c0a7d1afecb5bd8b",
+      "text": "Опытный воин глубинных эльфов, предпочитающий сражаться на расстоянии.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf knight": {
+      "source_sha256": "b83437232dfd59ccdbee7450bb692da727e1bf6a019f39b4490b95e3b8c0221d",
+      "text": "Закалённый в боях воин глубинных эльфов.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf pyromancer": {
+      "source_sha256": "5dc78a0745fdbb45efa393dbb178978510b31c9b228ce0367d04dc009c8a82c8",
+      "text": "Глубинный эльф, сведущий в огненной магии. Он владеет множеством испепеляющих заклинаний.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+    },
+    "deep elf zephyrmancer": {
+      "source_sha256": "875cc24b7ffdf79244c4085b267df77574484037bda550614cac6907fad8db06",
+      "text": "Эльф, всецело сосредоточившийся на магии воздуха: времени на изучение чего-либо ещё у него почти не остаётся.",
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
     }
   },
   "status": {

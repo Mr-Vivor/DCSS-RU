@@ -78,9 +78,9 @@
 | `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | draft |
 | `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | draft |
 | `monster.orc_sorcerer` | [Орк-колдун](pages/monster.orc_sorcerer.md) | orc sorcerer | draft |
-| `monster.deep_elf_archer` | [Глубинный эльф-лучник](pages/monster.deep_elf_archer.md) | deep elf archer | draft |
-| `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | draft |
-| `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | draft |
+| `monster.deep_elf_archer` | [Глубинный эльф-лучник](pages/monster.deep_elf_archer.md) | deep elf archer | reviewed |
+| `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | reviewed |
+| `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | reviewed |
 | `monster.stone_giant` | [Каменный великан](pages/monster.stone_giant.md) | stone giant | draft |
 | `monster.fire_giant` | [Огненный великан](pages/monster.fire_giant.md) | fire giant | draft |
 | `monster.frost_giant` | [Морозный великан](pages/monster.frost_giant.md) | frost giant | draft |
@@ -281,3 +281,19 @@
 | `monster.hell_sentinel` | [Адский страж](pages/monster.hell_sentinel.md) | Hell Sentinel | reviewed |
 | `monster.ice_fiend` | [Ледяное исчадие](pages/monster.ice_fiend.md) | Ice Fiend | reviewed |
 | `monster.brimstone_fiend` | [Серное исчадие](pages/monster.brimstone_fiend.md) | Brimstone Fiend | reviewed |
+| `monster.vault_guard` | [Страж хранилищ](pages/monster.vault_guard.md) | vault guard | reviewed |
+| `monster.vault_sentinel` | [Дозорный хранилищ](pages/monster.vault_sentinel.md) | vault sentinel | reviewed |
+| `monster.ironbound_convoker` | [Закованный в железо призыватель](pages/monster.ironbound_convoker.md) | ironbound convoker | reviewed |
+| `monster.ironbound_thunderhulk` | [Закованный в железо громовержец](pages/monster.ironbound_thunderhulk.md) | ironbound thunderhulk | reviewed |
+| `monster.ironbound_beastmaster` | [Закованный в железо повелитель зверей](pages/monster.ironbound_beastmaster.md) | ironbound beastmaster | reviewed |
+| `monster.ironbound_frostheart` | [Закованное в железо ледяное сердце](pages/monster.ironbound_frostheart.md) | ironbound frostheart | reviewed |
+| `monster.ragged_hierophant` | [Оборванный иерофант](pages/monster.ragged_hierophant.md) | ragged hierophant | reviewed |
+| `monster.halazid_warlock` | [Халазидский чернокнижник](pages/monster.halazid_warlock.md) | halazid warlock | reviewed |
+| `monster.deep_elf_annihilator` | [Глубинный эльф-уничтожитель](pages/monster.deep_elf_annihilator.md) | deep elf annihilator | reviewed |
+| `monster.deep_elf_death_mage` | [Глубинный эльф-маг смерти](pages/monster.deep_elf_death_mage.md) | deep elf death mage | reviewed |
+| `monster.deep_elf_sorcerer` | [Глубинный эльф-чародей](pages/monster.deep_elf_sorcerer.md) | deep elf sorcerer | reviewed |
+| `monster.deep_elf_blademaster` | [Глубинный эльф-мастер клинка](pages/monster.deep_elf_blademaster.md) | deep elf blademaster | reviewed |
+| `monster.deep_elf_demonologist` | [Глубинный эльф-демонолог](pages/monster.deep_elf_demonologist.md) | deep elf demonologist | reviewed |
+| `monster.deep_elf_zephyrmancer` | [Глубинный эльф-аэромант](pages/monster.deep_elf_zephyrmancer.md) | deep elf zephyrmancer | reviewed |
+| `monster.deep_elf_high_priest` | [Верховный жрец глубинных эльфов](pages/monster.deep_elf_high_priest.md) | deep elf high priest | reviewed |
+| `monster.deep_elf_master_archer` | [Глубинный эльф-мастер стрельбы](pages/monster.deep_elf_master_archer.md) | deep elf master archer | reviewed |

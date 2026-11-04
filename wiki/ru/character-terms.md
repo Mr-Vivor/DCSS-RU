@@ -1341,3 +1341,21 @@
 | red devil | красный дьявол |
 | hellwing | адское крыло |
 | sun demon | солнечный демон |
+| vault guard | страж Хранилищ |
+| vault sentinel | дозорный Хранилищ |
+| ironbound convoker | закованный в железо призыватель |
+| ironbound thunderhulk | закованный в железо громовержец |
+| ironbound beastmaster | закованный в железо повелитель зверей |
+| ironbound frostheart | закованное в железо ледяное сердце |
+| ragged hierophant | оборванный иерофант |
+| halazid warlock | халазидский чернокнижник |
+| deep elf annihilator | глубинный эльф-уничтожитель |
+| deep elf death mage | глубинный эльф-маг смерти |
+| deep elf sorcerer | глубинный эльф-чародей |
+| deep elf demonologist | глубинный эльф-демонолог |
+| deep elf archer | глубинный эльф-лучник |
+| deep elf knight | глубинный эльф-рыцарь |
+| deep elf pyromancer | глубинный эльф-пиромант |
+| deep elf zephyrmancer | глубинный эльф-аэромант |
+| deep elf high priest | верховный жрец глубинных эльфов |
+| deep elf master archer | глубинный эльф-мастер стрельбы |

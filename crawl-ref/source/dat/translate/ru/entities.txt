@@ -163,14 +163,38 @@
 @num@ deathcaps
 @num@ бледных поганок
 %%%%
+@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 @num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 @num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 @num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 @num@ demon blades
 @num@ демонических клинков
@@ -277,6 +301,9 @@
 @num@ griffons
 @num@ грифонов
 %%%%
+@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 @num@ halberds
 @num@ алебард
 %%%%
@@ -328,8 +355,20 @@
 @num@ iron imps
 @num@ железных бесов
 %%%%
+@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердец
+%%%%
 @num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 @num@ jackals
 @num@ шакалов
@@ -495,6 +534,9 @@
 %%%%
 @num@ quokkas
 @num@ квокк
+%%%%
+@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 @num@ rapiers
 @num@ рапир
@@ -750,6 +792,12 @@
 %%%%
 @num@ vampires
 @num@ вампиров
+%%%%
+@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+@num@ vault sentinels
+@num@ дозорных Хранилищ
 %%%%
 @num@ vault wardens
 @num@ смотрителей Хранилищ
@@ -1180,11 +1228,41 @@ a deathcap
 a deathcap's
 {f}бледной поганки
 %%%%
+a deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+a deep elf annihilator's
+{m}глубинного эльфа-уничтожителя
+%%%%
 a deep elf archer
 {m}глубинный эльф-лучник
 %%%%
 a deep elf archer's
 {m}глубинного эльфа-лучника
+%%%%
+a deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+a deep elf blademaster's
+{m}глубинного эльфа-мастера клинка
+%%%%
+a deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+a deep elf death mage's
+{m}глубинного эльфа-мага смерти
+%%%%
+a deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+a deep elf demonologist's
+{m}глубинного эльфа-демонолога
+%%%%
+a deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+a deep elf high priest's
+{m}верховного жреца глубинных эльфов
 %%%%
 a deep elf knight
 {m}глубинный эльф-рыцарь
@@ -1192,11 +1270,29 @@ a deep elf knight
 a deep elf knight's
 {m}глубинного эльфа-рыцаря
 %%%%
+a deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+a deep elf master archer's
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 a deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
 a deep elf pyromancer's
 {m}глубинного эльфа-пироманта
+%%%%
+a deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+a deep elf sorcerer's
+{m}глубинного эльфа-чародея
+%%%%
+a deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+a deep elf zephyrmancer's
+{m}глубинного эльфа-аэроманта
 %%%%
 a demon blade
 {m}демонический клинок
@@ -1408,6 +1504,12 @@ a griffon
 a griffon's
 {m}грифона
 %%%%
+a halazid warlock
+{m}халазидский чернокнижник
+%%%%
+a halazid warlock's
+{m}халазидского чернокнижника
+%%%%
 a halberd
 {f}алебарда
 %%%%
@@ -1510,11 +1612,35 @@ a iron imp
 a iron imp's
 {m}железного беса
 %%%%
+a ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+a ironbound beastmaster's
+{m}закованного в железо повелителя зверей
+%%%%
+a ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+a ironbound convoker's
+{m}закованного в железо призывателя
+%%%%
+a ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+a ironbound frostheart's
+{n}закованного в железо ледяного сердца
+%%%%
 a ironbound preserver
 {m}закованный в железо заступник
 %%%%
 a ironbound preserver's
 {m}закованного в железо заступника
+%%%%
+a ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+a ironbound thunderhulk's
+{m}закованного в железо громовержца
 %%%%
 a jackal
 {m}шакал
@@ -1845,6 +1971,12 @@ a quokka
 %%%%
 a quokka's
 {f}квокки
+%%%%
+a ragged hierophant
+{m}оборванный иерофант
+%%%%
+a ragged hierophant's
+{m}оборванного иерофанта
 %%%%
 a rapier
 {f}рапира
@@ -2355,6 +2487,18 @@ a vampire
 %%%%
 a vampire's
 {m}вампира
+%%%%
+a vault guard
+{m}страж Хранилищ
+%%%%
+a vault guard's
+{m}стража Хранилищ
+%%%%
+a vault sentinel
+{m}дозорный Хранилищ
+%%%%
+a vault sentinel's
+{m}дозорного Хранилищ
 %%%%
 a vault warden
 {m}смотритель Хранилищ
@@ -2917,11 +3061,41 @@ an deathcap
 an deathcap's
 {f}бледной поганки
 %%%%
+an deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+an deep elf annihilator's
+{m}глубинного эльфа-уничтожителя
+%%%%
 an deep elf archer
 {m}глубинный эльф-лучник
 %%%%
 an deep elf archer's
 {m}глубинного эльфа-лучника
+%%%%
+an deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+an deep elf blademaster's
+{m}глубинного эльфа-мастера клинка
+%%%%
+an deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+an deep elf death mage's
+{m}глубинного эльфа-мага смерти
+%%%%
+an deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+an deep elf demonologist's
+{m}глубинного эльфа-демонолога
+%%%%
+an deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+an deep elf high priest's
+{m}верховного жреца глубинных эльфов
 %%%%
 an deep elf knight
 {m}глубинный эльф-рыцарь
@@ -2929,11 +3103,29 @@ an deep elf knight
 an deep elf knight's
 {m}глубинного эльфа-рыцаря
 %%%%
+an deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+an deep elf master archer's
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 an deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
 an deep elf pyromancer's
 {m}глубинного эльфа-пироманта
+%%%%
+an deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+an deep elf sorcerer's
+{m}глубинного эльфа-чародея
+%%%%
+an deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+an deep elf zephyrmancer's
+{m}глубинного эльфа-аэроманта
 %%%%
 an demon blade
 {m}демонический клинок
@@ -3145,6 +3337,12 @@ an griffon
 an griffon's
 {m}грифона
 %%%%
+an halazid warlock
+{m}халазидский чернокнижник
+%%%%
+an halazid warlock's
+{m}халазидского чернокнижника
+%%%%
 an halberd
 {f}алебарда
 %%%%
@@ -3247,11 +3445,35 @@ an iron imp
 an iron imp's
 {m}железного беса
 %%%%
+an ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+an ironbound beastmaster's
+{m}закованного в железо повелителя зверей
+%%%%
+an ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+an ironbound convoker's
+{m}закованного в железо призывателя
+%%%%
+an ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+an ironbound frostheart's
+{n}закованного в железо ледяного сердца
+%%%%
 an ironbound preserver
 {m}закованный в железо заступник
 %%%%
 an ironbound preserver's
 {m}закованного в железо заступника
+%%%%
+an ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+an ironbound thunderhulk's
+{m}закованного в железо громовержца
 %%%%
 an jackal
 {m}шакал
@@ -3582,6 +3804,12 @@ an quokka
 %%%%
 an quokka's
 {f}квокки
+%%%%
+an ragged hierophant
+{m}оборванный иерофант
+%%%%
+an ragged hierophant's
+{m}оборванного иерофанта
 %%%%
 an rapier
 {f}рапира
@@ -4093,6 +4321,18 @@ an vampire
 an vampire's
 {m}вампира
 %%%%
+an vault guard
+{m}страж Хранилищ
+%%%%
+an vault guard's
+{m}стража Хранилищ
+%%%%
+an vault sentinel
+{m}дозорный Хранилищ
+%%%%
+an vault sentinel's
+{m}дозорного Хранилищ
+%%%%
 an vault warden
 {m}смотритель Хранилищ
 %%%%
@@ -4582,6 +4822,15 @@ deathcap's
 deathcaps
 {pl}бледные поганки
 %%%%
+deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+deep elf annihilator's
+{m}глубинного эльфа-уничтожителя
+%%%%
+deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 deep elf archer
 {m}глубинный эльф-лучник
 %%%%
@@ -4590,6 +4839,42 @@ deep elf archer's
 %%%%
 deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+deep elf blademaster's
+{m}глубинного эльфа-мастера клинка
+%%%%
+deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+deep elf death mage's
+{m}глубинного эльфа-мага смерти
+%%%%
+deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+deep elf demonologist's
+{m}глубинного эльфа-демонолога
+%%%%
+deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+deep elf high priest's
+{m}верховного жреца глубинных эльфов
+%%%%
+deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 deep elf knight
 {m}глубинный эльф-рыцарь
@@ -4600,6 +4885,15 @@ deep elf knight's
 deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+deep elf master archer's
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
@@ -4608,6 +4902,24 @@ deep elf pyromancer's
 %%%%
 deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+deep elf sorcerer's
+{m}глубинного эльфа-чародея
+%%%%
+deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+deep elf zephyrmancer's
+{m}глубинного эльфа-аэроманта
+%%%%
+deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 demon blade
 {m}демонический клинок
@@ -4921,6 +5233,15 @@ griffon's
 griffons
 {pl}грифоны
 %%%%
+halazid warlock
+{m}халазидский чернокнижник
+%%%%
+halazid warlock's
+{m}халазидского чернокнижника
+%%%%
+halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 halberd
 {f}алебарда
 %%%%
@@ -5074,6 +5395,33 @@ iron imp's
 iron imps
 {pl}железные бесы
 %%%%
+ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+ironbound beastmaster's
+{m}закованного в железо повелителя зверей
+%%%%
+ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+ironbound convoker's
+{m}закованного в железо призывателя
+%%%%
+ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+ironbound frostheart's
+{n}закованного в железо ледяного сердца
+%%%%
+ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 ironbound preserver
 {m}закованный в железо заступник
 %%%%
@@ -5082,6 +5430,15 @@ ironbound preserver's
 %%%%
 ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+ironbound thunderhulk's
+{m}закованного в железо громовержца
+%%%%
+ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 jackal
 {m}шакал
@@ -5577,6 +5934,15 @@ quokka's
 %%%%
 quokkas
 {pl}квокки
+%%%%
+ragged hierophant
+{m}оборванный иерофант
+%%%%
+ragged hierophant's
+{m}оборванного иерофанта
+%%%%
+ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 rapier
 {f}рапира
@@ -6679,6 +7045,15 @@ the deathcap's
 the deathcaps
 {pl}бледные поганки
 %%%%
+the deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+the deep elf annihilator's
+{m}глубинного эльфа-уничтожителя
+%%%%
+the deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 the deep elf archer
 {m}глубинный эльф-лучник
 %%%%
@@ -6687,6 +7062,42 @@ the deep elf archer's
 %%%%
 the deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+the deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+the deep elf blademaster's
+{m}глубинного эльфа-мастера клинка
+%%%%
+the deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+the deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+the deep elf death mage's
+{m}глубинного эльфа-мага смерти
+%%%%
+the deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+the deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+the deep elf demonologist's
+{m}глубинного эльфа-демонолога
+%%%%
+the deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+the deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+the deep elf high priest's
+{m}верховного жреца глубинных эльфов
+%%%%
+the deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 the deep elf knight
 {m}глубинный эльф-рыцарь
@@ -6697,6 +7108,15 @@ the deep elf knight's
 the deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+the deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+the deep elf master archer's
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+the deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 the deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
@@ -6705,6 +7125,24 @@ the deep elf pyromancer's
 %%%%
 the deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+the deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+the deep elf sorcerer's
+{m}глубинного эльфа-чародея
+%%%%
+the deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+the deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+the deep elf zephyrmancer's
+{m}глубинного эльфа-аэроманта
+%%%%
+the deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 the demon blade
 {m}демонический клинок
@@ -7018,6 +7456,15 @@ the griffon's
 the griffons
 {pl}грифоны
 %%%%
+the halazid warlock
+{m}халазидский чернокнижник
+%%%%
+the halazid warlock's
+{m}халазидского чернокнижника
+%%%%
+the halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 the halberd
 {f}алебарда
 %%%%
@@ -7171,6 +7618,33 @@ the iron imp's
 the iron imps
 {pl}железные бесы
 %%%%
+the ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+the ironbound beastmaster's
+{m}закованного в железо повелителя зверей
+%%%%
+the ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+the ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+the ironbound convoker's
+{m}закованного в железо призывателя
+%%%%
+the ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+the ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+the ironbound frostheart's
+{n}закованного в железо ледяного сердца
+%%%%
+the ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 the ironbound preserver
 {m}закованный в железо заступник
 %%%%
@@ -7179,6 +7653,15 @@ the ironbound preserver's
 %%%%
 the ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+the ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+the ironbound thunderhulk's
+{m}закованного в железо громовержца
+%%%%
+the ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 the jackal
 {m}шакал
@@ -7674,6 +8157,15 @@ the quokka's
 %%%%
 the quokkas
 {pl}квокки
+%%%%
+the ragged hierophant
+{m}оборванный иерофант
+%%%%
+the ragged hierophant's
+{m}оборванного иерофанта
+%%%%
+the ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 the rapier
 {f}рапира
@@ -8434,6 +8926,24 @@ the vampire's
 the vampires
 {pl}вампиры
 %%%%
+the vault guard
+{m}страж Хранилищ
+%%%%
+the vault guard's
+{m}стража Хранилищ
+%%%%
+the vault guards
+{pl}стражи Хранилищ
+%%%%
+the vault sentinel
+{m}дозорный Хранилищ
+%%%%
+the vault sentinel's
+{m}дозорного Хранилищ
+%%%%
+the vault sentinels
+{pl}дозорные Хранилищ
+%%%%
 the vault warden
 {m}смотритель Хранилищ
 %%%%
@@ -8784,6 +9294,24 @@ vampire's
 %%%%
 vampires
 {pl}вампиры
+%%%%
+vault guard
+{m}страж Хранилищ
+%%%%
+vault guard's
+{m}стража Хранилищ
+%%%%
+vault guards
+{pl}стражи Хранилищ
+%%%%
+vault sentinel
+{m}дозорный Хранилищ
+%%%%
+vault sentinel's
+{m}дозорного Хранилищ
+%%%%
+vault sentinels
+{pl}дозорные Хранилищ
 %%%%
 vault warden
 {m}смотритель Хранилищ
@@ -9478,6 +10006,15 @@ your deathcap's
 your deathcaps
 {pl}бледные поганки
 %%%%
+your deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+your deep elf annihilator's
+{m}глубинного эльфа-уничтожителя
+%%%%
+your deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 your deep elf archer
 {m}глубинный эльф-лучник
 %%%%
@@ -9486,6 +10023,42 @@ your deep elf archer's
 %%%%
 your deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+your deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+your deep elf blademaster's
+{m}глубинного эльфа-мастера клинка
+%%%%
+your deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+your deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+your deep elf death mage's
+{m}глубинного эльфа-мага смерти
+%%%%
+your deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+your deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+your deep elf demonologist's
+{m}глубинного эльфа-демонолога
+%%%%
+your deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+your deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+your deep elf high priest's
+{m}верховного жреца глубинных эльфов
+%%%%
+your deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 your deep elf knight
 {m}глубинный эльф-рыцарь
@@ -9496,6 +10069,15 @@ your deep elf knight's
 your deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+your deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+your deep elf master archer's
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+your deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 your deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
@@ -9504,6 +10086,24 @@ your deep elf pyromancer's
 %%%%
 your deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+your deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+your deep elf sorcerer's
+{m}глубинного эльфа-чародея
+%%%%
+your deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+your deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+your deep elf zephyrmancer's
+{m}глубинного эльфа-аэроманта
+%%%%
+your deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 your demon blade
 {m}демонический клинок
@@ -9817,6 +10417,15 @@ your griffon's
 your griffons
 {pl}грифоны
 %%%%
+your halazid warlock
+{m}халазидский чернокнижник
+%%%%
+your halazid warlock's
+{m}халазидского чернокнижника
+%%%%
+your halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 your halberd
 {f}алебарда
 %%%%
@@ -9970,6 +10579,33 @@ your iron imp's
 your iron imps
 {pl}железные бесы
 %%%%
+your ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+your ironbound beastmaster's
+{m}закованного в железо повелителя зверей
+%%%%
+your ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+your ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+your ironbound convoker's
+{m}закованного в железо призывателя
+%%%%
+your ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+your ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+your ironbound frostheart's
+{n}закованного в железо ледяного сердца
+%%%%
+your ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 your ironbound preserver
 {m}закованный в железо заступник
 %%%%
@@ -9978,6 +10614,15 @@ your ironbound preserver's
 %%%%
 your ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+your ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+your ironbound thunderhulk's
+{m}закованного в железо громовержца
+%%%%
+your ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 your jackal
 {m}шакал
@@ -10473,6 +11118,15 @@ your quokka's
 %%%%
 your quokkas
 {pl}квокки
+%%%%
+your ragged hierophant
+{m}оборванный иерофант
+%%%%
+your ragged hierophant's
+{m}оборванного иерофанта
+%%%%
+your ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 your rapier
 {f}рапира
@@ -11233,6 +11887,24 @@ your vampire's
 your vampires
 {pl}вампиры
 %%%%
+your vault guard
+{m}страж Хранилищ
+%%%%
+your vault guard's
+{m}стража Хранилищ
+%%%%
+your vault guards
+{pl}стражи Хранилищ
+%%%%
+your vault sentinel
+{m}дозорный Хранилищ
+%%%%
+your vault sentinel's
+{m}дозорного Хранилищ
+%%%%
+your vault sentinels
+{pl}дозорные Хранилищ
+%%%%
 your vault warden
 {m}смотритель Хранилищ
 %%%%
@@ -11602,14 +12274,38 @@ your ynoxinuls
 {acc_few}@num@ deathcaps
 @num@ бледной поганки
 %%%%
+{acc_few}@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 {acc_few}@num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+{acc_few}@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+{acc_few}@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+{acc_few}@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+{acc_few}@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 {acc_few}@num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+{acc_few}@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 {acc_few}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+{acc_few}@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+{acc_few}@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 {acc_few}@num@ demon blades
 @num@ демонического клинка
@@ -11716,6 +12412,9 @@ your ynoxinuls
 {acc_few}@num@ griffons
 @num@ грифонов
 %%%%
+{acc_few}@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 {acc_few}@num@ halberds
 @num@ алебарды
 %%%%
@@ -11767,8 +12466,20 @@ your ynoxinuls
 {acc_few}@num@ iron imps
 @num@ железных бесов
 %%%%
+{acc_few}@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+{acc_few}@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+{acc_few}@num@ ironbound frosthearts
+@num@ закованного в железо ледяного сердца
+%%%%
 {acc_few}@num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+{acc_few}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 {acc_few}@num@ jackals
 @num@ шакалов
@@ -11934,6 +12645,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ quokkas
 @num@ квокк
+%%%%
+{acc_few}@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 {acc_few}@num@ rapiers
 @num@ рапиры
@@ -12190,6 +12904,12 @@ your ynoxinuls
 {acc_few}@num@ vampires
 @num@ вампиров
 %%%%
+{acc_few}@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+{acc_few}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {acc_few}@num@ vault wardens
 @num@ смотрителей Хранилищ
 %%%%
@@ -12421,14 +13141,38 @@ your ynoxinuls
 {acc_many}@num@ deathcaps
 @num@ бледных поганок
 %%%%
+{acc_many}@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 {acc_many}@num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+{acc_many}@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+{acc_many}@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+{acc_many}@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+{acc_many}@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 {acc_many}@num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+{acc_many}@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 {acc_many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+{acc_many}@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+{acc_many}@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 {acc_many}@num@ demon blades
 @num@ демонических клинков
@@ -12535,6 +13279,9 @@ your ynoxinuls
 {acc_many}@num@ griffons
 @num@ грифонов
 %%%%
+{acc_many}@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 {acc_many}@num@ halberds
 @num@ алебард
 %%%%
@@ -12586,8 +13333,20 @@ your ynoxinuls
 {acc_many}@num@ iron imps
 @num@ железных бесов
 %%%%
+{acc_many}@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+{acc_many}@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+{acc_many}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердец
+%%%%
 {acc_many}@num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+{acc_many}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 {acc_many}@num@ jackals
 @num@ шакалов
@@ -12753,6 +13512,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ quokkas
 @num@ квокк
+%%%%
+{acc_many}@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 {acc_many}@num@ rapiers
 @num@ рапир
@@ -13009,6 +13771,12 @@ your ynoxinuls
 {acc_many}@num@ vampires
 @num@ вампиров
 %%%%
+{acc_many}@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+{acc_many}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {acc_many}@num@ vault wardens
 @num@ смотрителей Хранилищ
 %%%%
@@ -13240,14 +14008,38 @@ your ynoxinuls
 {acc_one}@num@ deathcaps
 @num@ бледную поганку
 %%%%
+{acc_one}@num@ deep elf annihilators
+@num@ глубинного эльфа-уничтожителя
+%%%%
 {acc_one}@num@ deep elf archers
 @num@ глубинного эльфа-лучника
+%%%%
+{acc_one}@num@ deep elf blademasters
+@num@ глубинного эльфа-мастера клинка
+%%%%
+{acc_one}@num@ deep elf death magi
+@num@ глубинного эльфа-мага смерти
+%%%%
+{acc_one}@num@ deep elf demonologists
+@num@ глубинного эльфа-демонолога
+%%%%
+{acc_one}@num@ deep elf high priests
+@num@ верховного жреца глубинных эльфов
 %%%%
 {acc_one}@num@ deep elf knights
 @num@ глубинного эльфа-рыцаря
 %%%%
+{acc_one}@num@ deep elf master archers
+@num@ глубинного эльфа-мастера стрельбы
+%%%%
 {acc_one}@num@ deep elf pyromancers
 @num@ глубинного эльфа-пироманта
+%%%%
+{acc_one}@num@ deep elf sorcerers
+@num@ глубинного эльфа-чародея
+%%%%
+{acc_one}@num@ deep elf zephyrmancers
+@num@ глубинного эльфа-аэроманта
 %%%%
 {acc_one}@num@ demon blades
 @num@ демонический клинок
@@ -13354,6 +14146,9 @@ your ynoxinuls
 {acc_one}@num@ griffons
 @num@ грифона
 %%%%
+{acc_one}@num@ halazid warlocks
+@num@ халазидского чернокнижника
+%%%%
 {acc_one}@num@ halberds
 @num@ алебарду
 %%%%
@@ -13405,8 +14200,20 @@ your ynoxinuls
 {acc_one}@num@ iron imps
 @num@ железного беса
 %%%%
+{acc_one}@num@ ironbound beastmasters
+@num@ закованного в железо повелителя зверей
+%%%%
+{acc_one}@num@ ironbound convokers
+@num@ закованного в железо призывателя
+%%%%
+{acc_one}@num@ ironbound frosthearts
+@num@ закованное в железо ледяное сердце
+%%%%
 {acc_one}@num@ ironbound preservers
 @num@ закованного в железо заступника
+%%%%
+{acc_one}@num@ ironbound thunderhulks
+@num@ закованного в железо громовержца
 %%%%
 {acc_one}@num@ jackals
 @num@ шакала
@@ -13572,6 +14379,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ quokkas
 @num@ квокку
+%%%%
+{acc_one}@num@ ragged hierophants
+@num@ оборванного иерофанта
 %%%%
 {acc_one}@num@ rapiers
 @num@ рапиру
@@ -13828,6 +14638,12 @@ your ynoxinuls
 {acc_one}@num@ vampires
 @num@ вампира
 %%%%
+{acc_one}@num@ vault guards
+@num@ стража Хранилищ
+%%%%
+{acc_one}@num@ vault sentinels
+@num@ дозорного Хранилищ
+%%%%
 {acc_one}@num@ vault wardens
 @num@ смотрителя Хранилищ
 %%%%
@@ -14083,14 +14899,38 @@ your ynoxinuls
 {acc}a deathcap
 {f}бледную поганку
 %%%%
+{acc}a deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
 {acc}a deep elf archer
 {m}глубинного эльфа-лучника
+%%%%
+{acc}a deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{acc}a deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{acc}a deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{acc}a deep elf high priest
+{m}верховного жреца глубинных эльфов
 %%%%
 {acc}a deep elf knight
 {m}глубинного эльфа-рыцаря
 %%%%
+{acc}a deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 {acc}a deep elf pyromancer
 {m}глубинного эльфа-пироманта
+%%%%
+{acc}a deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{acc}a deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
 %%%%
 {acc}a demon blade
 {m}демонический клинок
@@ -14197,6 +15037,9 @@ your ynoxinuls
 {acc}a griffon
 {m}грифона
 %%%%
+{acc}a halazid warlock
+{m}халазидского чернокнижника
+%%%%
 {acc}a halberd
 {f}алебарду
 %%%%
@@ -14248,8 +15091,20 @@ your ynoxinuls
 {acc}a iron imp
 {m}железного беса
 %%%%
+{acc}a ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{acc}a ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{acc}a ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
 {acc}a ironbound preserver
 {m}закованного в железо заступника
+%%%%
+{acc}a ironbound thunderhulk
+{m}закованного в железо громовержца
 %%%%
 {acc}a jackal
 {m}шакала
@@ -14415,6 +15270,9 @@ your ynoxinuls
 %%%%
 {acc}a quokka
 {f}квокку
+%%%%
+{acc}a ragged hierophant
+{m}оборванного иерофанта
 %%%%
 {acc}a rapier
 {f}рапиру
@@ -14670,6 +15528,12 @@ your ynoxinuls
 %%%%
 {acc}a vampire
 {m}вампира
+%%%%
+{acc}a vault guard
+{m}стража Хранилищ
+%%%%
+{acc}a vault sentinel
+{m}дозорного Хранилищ
 %%%%
 {acc}a vault warden
 {m}смотрителя Хранилищ
@@ -14968,14 +15832,38 @@ your ynoxinuls
 {acc}an deathcap
 {f}бледную поганку
 %%%%
+{acc}an deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
 {acc}an deep elf archer
 {m}глубинного эльфа-лучника
+%%%%
+{acc}an deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{acc}an deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{acc}an deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{acc}an deep elf high priest
+{m}верховного жреца глубинных эльфов
 %%%%
 {acc}an deep elf knight
 {m}глубинного эльфа-рыцаря
 %%%%
+{acc}an deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 {acc}an deep elf pyromancer
 {m}глубинного эльфа-пироманта
+%%%%
+{acc}an deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{acc}an deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
 %%%%
 {acc}an demon blade
 {m}демонический клинок
@@ -15082,6 +15970,9 @@ your ynoxinuls
 {acc}an griffon
 {m}грифона
 %%%%
+{acc}an halazid warlock
+{m}халазидского чернокнижника
+%%%%
 {acc}an halberd
 {f}алебарду
 %%%%
@@ -15133,8 +16024,20 @@ your ynoxinuls
 {acc}an iron imp
 {m}железного беса
 %%%%
+{acc}an ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{acc}an ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{acc}an ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
 {acc}an ironbound preserver
 {m}закованного в железо заступника
+%%%%
+{acc}an ironbound thunderhulk
+{m}закованного в железо громовержца
 %%%%
 {acc}an jackal
 {m}шакала
@@ -15300,6 +16203,9 @@ your ynoxinuls
 %%%%
 {acc}an quokka
 {f}квокку
+%%%%
+{acc}an ragged hierophant
+{m}оборванного иерофанта
 %%%%
 {acc}an rapier
 {f}рапиру
@@ -15555,6 +16461,12 @@ your ynoxinuls
 %%%%
 {acc}an vampire
 {m}вампира
+%%%%
+{acc}an vault guard
+{m}стража Хранилищ
+%%%%
+{acc}an vault sentinel
+{m}дозорного Хранилищ
 %%%%
 {acc}an vault warden
 {m}смотрителя Хранилищ
@@ -15859,11 +16771,41 @@ your ynoxinuls
 {acc}deathcaps
 {pl}бледные поганки
 %%%%
+{acc}deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{acc}deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {acc}deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {acc}deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{acc}deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{acc}deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{acc}deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{acc}deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{acc}deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{acc}deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{acc}deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{acc}deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {acc}deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -15871,11 +16813,29 @@ your ynoxinuls
 {acc}deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{acc}deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{acc}deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {acc}deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {acc}deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{acc}deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{acc}deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{acc}deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{acc}deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {acc}demon blade
 {m}демонический клинок
@@ -16084,6 +17044,12 @@ your ynoxinuls
 {acc}griffons
 {pl}грифонов
 %%%%
+{acc}halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{acc}halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {acc}halberd
 {f}алебарду
 %%%%
@@ -16186,11 +17152,35 @@ your ynoxinuls
 {acc}iron imps
 {pl}железных бесов
 %%%%
+{acc}ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{acc}ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{acc}ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{acc}ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{acc}ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{acc}ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {acc}ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {acc}ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{acc}ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{acc}ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {acc}jackal
 {m}шакала
@@ -16521,6 +17511,12 @@ your ynoxinuls
 %%%%
 {acc}quokkas
 {pl}квокк
+%%%%
+{acc}ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{acc}ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {acc}rapier
 {f}рапиру
@@ -17254,11 +18250,41 @@ your ynoxinuls
 {acc}the deathcaps
 {pl}бледные поганки
 %%%%
+{acc}the deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{acc}the deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {acc}the deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {acc}the deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{acc}the deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{acc}the deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{acc}the deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{acc}the deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{acc}the deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{acc}the deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{acc}the deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{acc}the deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {acc}the deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -17266,11 +18292,29 @@ your ynoxinuls
 {acc}the deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{acc}the deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{acc}the deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {acc}the deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {acc}the deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{acc}the deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{acc}the deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{acc}the deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{acc}the deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {acc}the demon blade
 {m}демонический клинок
@@ -17479,6 +18523,12 @@ your ynoxinuls
 {acc}the griffons
 {pl}грифонов
 %%%%
+{acc}the halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{acc}the halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {acc}the halberd
 {f}алебарду
 %%%%
@@ -17581,11 +18631,35 @@ your ynoxinuls
 {acc}the iron imps
 {pl}железных бесов
 %%%%
+{acc}the ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{acc}the ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{acc}the ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{acc}the ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{acc}the ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{acc}the ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {acc}the ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {acc}the ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{acc}the ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{acc}the ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {acc}the jackal
 {m}шакала
@@ -17916,6 +18990,12 @@ your ynoxinuls
 %%%%
 {acc}the quokkas
 {pl}квокк
+%%%%
+{acc}the ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{acc}the ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {acc}the rapier
 {f}рапиру
@@ -18421,6 +19501,18 @@ your ynoxinuls
 {acc}the vampires
 {pl}вампиров
 %%%%
+{acc}the vault guard
+{m}стража Хранилищ
+%%%%
+{acc}the vault guards
+{pl}стражей Хранилищ
+%%%%
+{acc}the vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{acc}the vault sentinels
+{pl}дозорных Хранилищ
+%%%%
 {acc}the vault warden
 {m}смотрителя Хранилищ
 %%%%
@@ -18654,6 +19746,18 @@ your ynoxinuls
 %%%%
 {acc}vampires
 {pl}вампиров
+%%%%
+{acc}vault guard
+{m}стража Хранилищ
+%%%%
+{acc}vault guards
+{pl}стражей Хранилищ
+%%%%
+{acc}vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{acc}vault sentinels
+{pl}дозорных Хранилищ
 %%%%
 {acc}vault warden
 {m}смотрителя Хранилищ
@@ -19117,11 +20221,41 @@ your ynoxinuls
 {acc}your deathcaps
 {pl}бледные поганки
 %%%%
+{acc}your deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{acc}your deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {acc}your deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {acc}your deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{acc}your deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{acc}your deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{acc}your deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{acc}your deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{acc}your deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{acc}your deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{acc}your deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{acc}your deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {acc}your deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -19129,11 +20263,29 @@ your ynoxinuls
 {acc}your deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{acc}your deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{acc}your deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {acc}your deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {acc}your deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{acc}your deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{acc}your deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{acc}your deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{acc}your deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {acc}your demon blade
 {m}демонический клинок
@@ -19342,6 +20494,12 @@ your ynoxinuls
 {acc}your griffons
 {pl}грифонов
 %%%%
+{acc}your halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{acc}your halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {acc}your halberd
 {f}алебарду
 %%%%
@@ -19444,11 +20602,35 @@ your ynoxinuls
 {acc}your iron imps
 {pl}железных бесов
 %%%%
+{acc}your ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{acc}your ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{acc}your ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{acc}your ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{acc}your ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{acc}your ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {acc}your ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {acc}your ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{acc}your ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{acc}your ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {acc}your jackal
 {m}шакала
@@ -19779,6 +20961,12 @@ your ynoxinuls
 %%%%
 {acc}your quokkas
 {pl}квокк
+%%%%
+{acc}your ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{acc}your ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {acc}your rapier
 {f}рапиру
@@ -20284,6 +21472,18 @@ your ynoxinuls
 {acc}your vampires
 {pl}вампиров
 %%%%
+{acc}your vault guard
+{m}стража Хранилищ
+%%%%
+{acc}your vault guards
+{pl}стражей Хранилищ
+%%%%
+{acc}your vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{acc}your vault sentinels
+{pl}дозорных Хранилищ
+%%%%
 {acc}your vault warden
 {m}смотрителя Хранилищ
 %%%%
@@ -20584,14 +21784,38 @@ your ynoxinuls
 {dat_few}@num@ deathcaps
 @num@ бледным поганкам
 %%%%
+{dat_few}@num@ deep elf annihilators
+@num@ глубинным эльфам-уничтожителям
+%%%%
 {dat_few}@num@ deep elf archers
 @num@ глубинным эльфам-лучникам
+%%%%
+{dat_few}@num@ deep elf blademasters
+@num@ глубинным эльфам-мастерам клинка
+%%%%
+{dat_few}@num@ deep elf death magi
+@num@ глубинным эльфам-магам смерти
+%%%%
+{dat_few}@num@ deep elf demonologists
+@num@ глубинным эльфам-демонологам
+%%%%
+{dat_few}@num@ deep elf high priests
+@num@ верховным жрецам глубинных эльфов
 %%%%
 {dat_few}@num@ deep elf knights
 @num@ глубинным эльфам-рыцарям
 %%%%
+{dat_few}@num@ deep elf master archers
+@num@ глубинным эльфам-мастерам стрельбы
+%%%%
 {dat_few}@num@ deep elf pyromancers
 @num@ глубинным эльфам-пиромантам
+%%%%
+{dat_few}@num@ deep elf sorcerers
+@num@ глубинным эльфам-чародеям
+%%%%
+{dat_few}@num@ deep elf zephyrmancers
+@num@ глубинным эльфам-аэромантам
 %%%%
 {dat_few}@num@ demon blades
 @num@ демоническим клинкам
@@ -20698,6 +21922,9 @@ your ynoxinuls
 {dat_few}@num@ griffons
 @num@ грифонам
 %%%%
+{dat_few}@num@ halazid warlocks
+@num@ халазидским чернокнижникам
+%%%%
 {dat_few}@num@ halberds
 @num@ алебардам
 %%%%
@@ -20749,8 +21976,20 @@ your ynoxinuls
 {dat_few}@num@ iron imps
 @num@ железным бесам
 %%%%
+{dat_few}@num@ ironbound beastmasters
+@num@ закованным в железо повелителям зверей
+%%%%
+{dat_few}@num@ ironbound convokers
+@num@ закованным в железо призывателям
+%%%%
+{dat_few}@num@ ironbound frosthearts
+@num@ закованным в железо ледяным сердцам
+%%%%
 {dat_few}@num@ ironbound preservers
 @num@ закованным в железо заступникам
+%%%%
+{dat_few}@num@ ironbound thunderhulks
+@num@ закованным в железо громовержцам
 %%%%
 {dat_few}@num@ jackals
 @num@ шакалам
@@ -20916,6 +22155,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ quokkas
 @num@ квоккам
+%%%%
+{dat_few}@num@ ragged hierophants
+@num@ оборванным иерофантам
 %%%%
 {dat_few}@num@ rapiers
 @num@ рапирам
@@ -21172,6 +22414,12 @@ your ynoxinuls
 {dat_few}@num@ vampires
 @num@ вампирам
 %%%%
+{dat_few}@num@ vault guards
+@num@ стражам Хранилищ
+%%%%
+{dat_few}@num@ vault sentinels
+@num@ дозорным Хранилищ
+%%%%
 {dat_few}@num@ vault wardens
 @num@ смотрителям Хранилищ
 %%%%
@@ -21403,14 +22651,38 @@ your ynoxinuls
 {dat_many}@num@ deathcaps
 @num@ бледным поганкам
 %%%%
+{dat_many}@num@ deep elf annihilators
+@num@ глубинным эльфам-уничтожителям
+%%%%
 {dat_many}@num@ deep elf archers
 @num@ глубинным эльфам-лучникам
+%%%%
+{dat_many}@num@ deep elf blademasters
+@num@ глубинным эльфам-мастерам клинка
+%%%%
+{dat_many}@num@ deep elf death magi
+@num@ глубинным эльфам-магам смерти
+%%%%
+{dat_many}@num@ deep elf demonologists
+@num@ глубинным эльфам-демонологам
+%%%%
+{dat_many}@num@ deep elf high priests
+@num@ верховным жрецам глубинных эльфов
 %%%%
 {dat_many}@num@ deep elf knights
 @num@ глубинным эльфам-рыцарям
 %%%%
+{dat_many}@num@ deep elf master archers
+@num@ глубинным эльфам-мастерам стрельбы
+%%%%
 {dat_many}@num@ deep elf pyromancers
 @num@ глубинным эльфам-пиромантам
+%%%%
+{dat_many}@num@ deep elf sorcerers
+@num@ глубинным эльфам-чародеям
+%%%%
+{dat_many}@num@ deep elf zephyrmancers
+@num@ глубинным эльфам-аэромантам
 %%%%
 {dat_many}@num@ demon blades
 @num@ демоническим клинкам
@@ -21517,6 +22789,9 @@ your ynoxinuls
 {dat_many}@num@ griffons
 @num@ грифонам
 %%%%
+{dat_many}@num@ halazid warlocks
+@num@ халазидским чернокнижникам
+%%%%
 {dat_many}@num@ halberds
 @num@ алебардам
 %%%%
@@ -21568,8 +22843,20 @@ your ynoxinuls
 {dat_many}@num@ iron imps
 @num@ железным бесам
 %%%%
+{dat_many}@num@ ironbound beastmasters
+@num@ закованным в железо повелителям зверей
+%%%%
+{dat_many}@num@ ironbound convokers
+@num@ закованным в железо призывателям
+%%%%
+{dat_many}@num@ ironbound frosthearts
+@num@ закованным в железо ледяным сердцам
+%%%%
 {dat_many}@num@ ironbound preservers
 @num@ закованным в железо заступникам
+%%%%
+{dat_many}@num@ ironbound thunderhulks
+@num@ закованным в железо громовержцам
 %%%%
 {dat_many}@num@ jackals
 @num@ шакалам
@@ -21735,6 +23022,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ quokkas
 @num@ квоккам
+%%%%
+{dat_many}@num@ ragged hierophants
+@num@ оборванным иерофантам
 %%%%
 {dat_many}@num@ rapiers
 @num@ рапирам
@@ -21991,6 +23281,12 @@ your ynoxinuls
 {dat_many}@num@ vampires
 @num@ вампирам
 %%%%
+{dat_many}@num@ vault guards
+@num@ стражам Хранилищ
+%%%%
+{dat_many}@num@ vault sentinels
+@num@ дозорным Хранилищ
+%%%%
 {dat_many}@num@ vault wardens
 @num@ смотрителям Хранилищ
 %%%%
@@ -22222,14 +23518,38 @@ your ynoxinuls
 {dat_one}@num@ deathcaps
 @num@ бледной поганке
 %%%%
+{dat_one}@num@ deep elf annihilators
+@num@ глубинному эльфу-уничтожителю
+%%%%
 {dat_one}@num@ deep elf archers
 @num@ глубинному эльфу-лучнику
+%%%%
+{dat_one}@num@ deep elf blademasters
+@num@ глубинному эльфу-мастеру клинка
+%%%%
+{dat_one}@num@ deep elf death magi
+@num@ глубинному эльфу-магу смерти
+%%%%
+{dat_one}@num@ deep elf demonologists
+@num@ глубинному эльфу-демонологу
+%%%%
+{dat_one}@num@ deep elf high priests
+@num@ верховному жрецу глубинных эльфов
 %%%%
 {dat_one}@num@ deep elf knights
 @num@ глубинному эльфу-рыцарю
 %%%%
+{dat_one}@num@ deep elf master archers
+@num@ глубинному эльфу-мастеру стрельбы
+%%%%
 {dat_one}@num@ deep elf pyromancers
 @num@ глубинному эльфу-пироманту
+%%%%
+{dat_one}@num@ deep elf sorcerers
+@num@ глубинному эльфу-чародею
+%%%%
+{dat_one}@num@ deep elf zephyrmancers
+@num@ глубинному эльфу-аэроманту
 %%%%
 {dat_one}@num@ demon blades
 @num@ демоническому клинку
@@ -22336,6 +23656,9 @@ your ynoxinuls
 {dat_one}@num@ griffons
 @num@ грифону
 %%%%
+{dat_one}@num@ halazid warlocks
+@num@ халазидскому чернокнижнику
+%%%%
 {dat_one}@num@ halberds
 @num@ алебарде
 %%%%
@@ -22387,8 +23710,20 @@ your ynoxinuls
 {dat_one}@num@ iron imps
 @num@ железному бесу
 %%%%
+{dat_one}@num@ ironbound beastmasters
+@num@ закованному в железо повелителю зверей
+%%%%
+{dat_one}@num@ ironbound convokers
+@num@ закованному в железо призывателю
+%%%%
+{dat_one}@num@ ironbound frosthearts
+@num@ закованному в железо ледяному сердцу
+%%%%
 {dat_one}@num@ ironbound preservers
 @num@ закованному в железо заступнику
+%%%%
+{dat_one}@num@ ironbound thunderhulks
+@num@ закованному в железо громовержцу
 %%%%
 {dat_one}@num@ jackals
 @num@ шакалу
@@ -22554,6 +23889,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ quokkas
 @num@ квокке
+%%%%
+{dat_one}@num@ ragged hierophants
+@num@ оборванному иерофанту
 %%%%
 {dat_one}@num@ rapiers
 @num@ рапире
@@ -22810,6 +24148,12 @@ your ynoxinuls
 {dat_one}@num@ vampires
 @num@ вампиру
 %%%%
+{dat_one}@num@ vault guards
+@num@ стражу Хранилищ
+%%%%
+{dat_one}@num@ vault sentinels
+@num@ дозорному Хранилищ
+%%%%
 {dat_one}@num@ vault wardens
 @num@ смотрителю Хранилищ
 %%%%
@@ -23065,14 +24409,38 @@ your ynoxinuls
 {dat}a deathcap
 {f}бледной поганке
 %%%%
+{dat}a deep elf annihilator
+{m}глубинному эльфу-уничтожителю
+%%%%
 {dat}a deep elf archer
 {m}глубинному эльфу-лучнику
+%%%%
+{dat}a deep elf blademaster
+{m}глубинному эльфу-мастеру клинка
+%%%%
+{dat}a deep elf death mage
+{m}глубинному эльфу-магу смерти
+%%%%
+{dat}a deep elf demonologist
+{m}глубинному эльфу-демонологу
+%%%%
+{dat}a deep elf high priest
+{m}верховному жрецу глубинных эльфов
 %%%%
 {dat}a deep elf knight
 {m}глубинному эльфу-рыцарю
 %%%%
+{dat}a deep elf master archer
+{m}глубинному эльфу-мастеру стрельбы
+%%%%
 {dat}a deep elf pyromancer
 {m}глубинному эльфу-пироманту
+%%%%
+{dat}a deep elf sorcerer
+{m}глубинному эльфу-чародею
+%%%%
+{dat}a deep elf zephyrmancer
+{m}глубинному эльфу-аэроманту
 %%%%
 {dat}a demon blade
 {m}демоническому клинку
@@ -23179,6 +24547,9 @@ your ynoxinuls
 {dat}a griffon
 {m}грифону
 %%%%
+{dat}a halazid warlock
+{m}халазидскому чернокнижнику
+%%%%
 {dat}a halberd
 {f}алебарде
 %%%%
@@ -23230,8 +24601,20 @@ your ynoxinuls
 {dat}a iron imp
 {m}железному бесу
 %%%%
+{dat}a ironbound beastmaster
+{m}закованному в железо повелителю зверей
+%%%%
+{dat}a ironbound convoker
+{m}закованному в железо призывателю
+%%%%
+{dat}a ironbound frostheart
+{n}закованному в железо ледяному сердцу
+%%%%
 {dat}a ironbound preserver
 {m}закованному в железо заступнику
+%%%%
+{dat}a ironbound thunderhulk
+{m}закованному в железо громовержцу
 %%%%
 {dat}a jackal
 {m}шакалу
@@ -23397,6 +24780,9 @@ your ynoxinuls
 %%%%
 {dat}a quokka
 {f}квокке
+%%%%
+{dat}a ragged hierophant
+{m}оборванному иерофанту
 %%%%
 {dat}a rapier
 {f}рапире
@@ -23652,6 +25038,12 @@ your ynoxinuls
 %%%%
 {dat}a vampire
 {m}вампиру
+%%%%
+{dat}a vault guard
+{m}стражу Хранилищ
+%%%%
+{dat}a vault sentinel
+{m}дозорному Хранилищ
 %%%%
 {dat}a vault warden
 {m}смотрителю Хранилищ
@@ -23950,14 +25342,38 @@ your ynoxinuls
 {dat}an deathcap
 {f}бледной поганке
 %%%%
+{dat}an deep elf annihilator
+{m}глубинному эльфу-уничтожителю
+%%%%
 {dat}an deep elf archer
 {m}глубинному эльфу-лучнику
+%%%%
+{dat}an deep elf blademaster
+{m}глубинному эльфу-мастеру клинка
+%%%%
+{dat}an deep elf death mage
+{m}глубинному эльфу-магу смерти
+%%%%
+{dat}an deep elf demonologist
+{m}глубинному эльфу-демонологу
+%%%%
+{dat}an deep elf high priest
+{m}верховному жрецу глубинных эльфов
 %%%%
 {dat}an deep elf knight
 {m}глубинному эльфу-рыцарю
 %%%%
+{dat}an deep elf master archer
+{m}глубинному эльфу-мастеру стрельбы
+%%%%
 {dat}an deep elf pyromancer
 {m}глубинному эльфу-пироманту
+%%%%
+{dat}an deep elf sorcerer
+{m}глубинному эльфу-чародею
+%%%%
+{dat}an deep elf zephyrmancer
+{m}глубинному эльфу-аэроманту
 %%%%
 {dat}an demon blade
 {m}демоническому клинку
@@ -24064,6 +25480,9 @@ your ynoxinuls
 {dat}an griffon
 {m}грифону
 %%%%
+{dat}an halazid warlock
+{m}халазидскому чернокнижнику
+%%%%
 {dat}an halberd
 {f}алебарде
 %%%%
@@ -24115,8 +25534,20 @@ your ynoxinuls
 {dat}an iron imp
 {m}железному бесу
 %%%%
+{dat}an ironbound beastmaster
+{m}закованному в железо повелителю зверей
+%%%%
+{dat}an ironbound convoker
+{m}закованному в железо призывателю
+%%%%
+{dat}an ironbound frostheart
+{n}закованному в железо ледяному сердцу
+%%%%
 {dat}an ironbound preserver
 {m}закованному в железо заступнику
+%%%%
+{dat}an ironbound thunderhulk
+{m}закованному в железо громовержцу
 %%%%
 {dat}an jackal
 {m}шакалу
@@ -24282,6 +25713,9 @@ your ynoxinuls
 %%%%
 {dat}an quokka
 {f}квокке
+%%%%
+{dat}an ragged hierophant
+{m}оборванному иерофанту
 %%%%
 {dat}an rapier
 {f}рапире
@@ -24537,6 +25971,12 @@ your ynoxinuls
 %%%%
 {dat}an vampire
 {m}вампиру
+%%%%
+{dat}an vault guard
+{m}стражу Хранилищ
+%%%%
+{dat}an vault sentinel
+{m}дозорному Хранилищ
 %%%%
 {dat}an vault warden
 {m}смотрителю Хранилищ
@@ -24841,11 +26281,41 @@ your ynoxinuls
 {dat}deathcaps
 {pl}бледным поганкам
 %%%%
+{dat}deep elf annihilator
+{m}глубинному эльфу-уничтожителю
+%%%%
+{dat}deep elf annihilators
+{pl}глубинным эльфам-уничтожителям
+%%%%
 {dat}deep elf archer
 {m}глубинному эльфу-лучнику
 %%%%
 {dat}deep elf archers
 {pl}глубинным эльфам-лучникам
+%%%%
+{dat}deep elf blademaster
+{m}глубинному эльфу-мастеру клинка
+%%%%
+{dat}deep elf blademasters
+{pl}глубинным эльфам-мастерам клинка
+%%%%
+{dat}deep elf death mage
+{m}глубинному эльфу-магу смерти
+%%%%
+{dat}deep elf death magi
+{pl}глубинным эльфам-магам смерти
+%%%%
+{dat}deep elf demonologist
+{m}глубинному эльфу-демонологу
+%%%%
+{dat}deep elf demonologists
+{pl}глубинным эльфам-демонологам
+%%%%
+{dat}deep elf high priest
+{m}верховному жрецу глубинных эльфов
+%%%%
+{dat}deep elf high priests
+{pl}верховным жрецам глубинных эльфов
 %%%%
 {dat}deep elf knight
 {m}глубинному эльфу-рыцарю
@@ -24853,11 +26323,29 @@ your ynoxinuls
 {dat}deep elf knights
 {pl}глубинным эльфам-рыцарям
 %%%%
+{dat}deep elf master archer
+{m}глубинному эльфу-мастеру стрельбы
+%%%%
+{dat}deep elf master archers
+{pl}глубинным эльфам-мастерам стрельбы
+%%%%
 {dat}deep elf pyromancer
 {m}глубинному эльфу-пироманту
 %%%%
 {dat}deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
+%%%%
+{dat}deep elf sorcerer
+{m}глубинному эльфу-чародею
+%%%%
+{dat}deep elf sorcerers
+{pl}глубинным эльфам-чародеям
+%%%%
+{dat}deep elf zephyrmancer
+{m}глубинному эльфу-аэроманту
+%%%%
+{dat}deep elf zephyrmancers
+{pl}глубинным эльфам-аэромантам
 %%%%
 {dat}demon blade
 {m}демоническому клинку
@@ -25066,6 +26554,12 @@ your ynoxinuls
 {dat}griffons
 {pl}грифонам
 %%%%
+{dat}halazid warlock
+{m}халазидскому чернокнижнику
+%%%%
+{dat}halazid warlocks
+{pl}халазидским чернокнижникам
+%%%%
 {dat}halberd
 {f}алебарде
 %%%%
@@ -25168,11 +26662,35 @@ your ynoxinuls
 {dat}iron imps
 {pl}железным бесам
 %%%%
+{dat}ironbound beastmaster
+{m}закованному в железо повелителю зверей
+%%%%
+{dat}ironbound beastmasters
+{pl}закованным в железо повелителям зверей
+%%%%
+{dat}ironbound convoker
+{m}закованному в железо призывателю
+%%%%
+{dat}ironbound convokers
+{pl}закованным в железо призывателям
+%%%%
+{dat}ironbound frostheart
+{n}закованному в железо ледяному сердцу
+%%%%
+{dat}ironbound frosthearts
+{pl}закованным в железо ледяным сердцам
+%%%%
 {dat}ironbound preserver
 {m}закованному в железо заступнику
 %%%%
 {dat}ironbound preservers
 {pl}закованным в железо заступникам
+%%%%
+{dat}ironbound thunderhulk
+{m}закованному в железо громовержцу
+%%%%
+{dat}ironbound thunderhulks
+{pl}закованным в железо громовержцам
 %%%%
 {dat}jackal
 {m}шакалу
@@ -25503,6 +27021,12 @@ your ynoxinuls
 %%%%
 {dat}quokkas
 {pl}квоккам
+%%%%
+{dat}ragged hierophant
+{m}оборванному иерофанту
+%%%%
+{dat}ragged hierophants
+{pl}оборванным иерофантам
 %%%%
 {dat}rapier
 {f}рапире
@@ -26236,11 +27760,41 @@ your ynoxinuls
 {dat}the deathcaps
 {pl}бледным поганкам
 %%%%
+{dat}the deep elf annihilator
+{m}глубинному эльфу-уничтожителю
+%%%%
+{dat}the deep elf annihilators
+{pl}глубинным эльфам-уничтожителям
+%%%%
 {dat}the deep elf archer
 {m}глубинному эльфу-лучнику
 %%%%
 {dat}the deep elf archers
 {pl}глубинным эльфам-лучникам
+%%%%
+{dat}the deep elf blademaster
+{m}глубинному эльфу-мастеру клинка
+%%%%
+{dat}the deep elf blademasters
+{pl}глубинным эльфам-мастерам клинка
+%%%%
+{dat}the deep elf death mage
+{m}глубинному эльфу-магу смерти
+%%%%
+{dat}the deep elf death magi
+{pl}глубинным эльфам-магам смерти
+%%%%
+{dat}the deep elf demonologist
+{m}глубинному эльфу-демонологу
+%%%%
+{dat}the deep elf demonologists
+{pl}глубинным эльфам-демонологам
+%%%%
+{dat}the deep elf high priest
+{m}верховному жрецу глубинных эльфов
+%%%%
+{dat}the deep elf high priests
+{pl}верховным жрецам глубинных эльфов
 %%%%
 {dat}the deep elf knight
 {m}глубинному эльфу-рыцарю
@@ -26248,11 +27802,29 @@ your ynoxinuls
 {dat}the deep elf knights
 {pl}глубинным эльфам-рыцарям
 %%%%
+{dat}the deep elf master archer
+{m}глубинному эльфу-мастеру стрельбы
+%%%%
+{dat}the deep elf master archers
+{pl}глубинным эльфам-мастерам стрельбы
+%%%%
 {dat}the deep elf pyromancer
 {m}глубинному эльфу-пироманту
 %%%%
 {dat}the deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
+%%%%
+{dat}the deep elf sorcerer
+{m}глубинному эльфу-чародею
+%%%%
+{dat}the deep elf sorcerers
+{pl}глубинным эльфам-чародеям
+%%%%
+{dat}the deep elf zephyrmancer
+{m}глубинному эльфу-аэроманту
+%%%%
+{dat}the deep elf zephyrmancers
+{pl}глубинным эльфам-аэромантам
 %%%%
 {dat}the demon blade
 {m}демоническому клинку
@@ -26461,6 +28033,12 @@ your ynoxinuls
 {dat}the griffons
 {pl}грифонам
 %%%%
+{dat}the halazid warlock
+{m}халазидскому чернокнижнику
+%%%%
+{dat}the halazid warlocks
+{pl}халазидским чернокнижникам
+%%%%
 {dat}the halberd
 {f}алебарде
 %%%%
@@ -26563,11 +28141,35 @@ your ynoxinuls
 {dat}the iron imps
 {pl}железным бесам
 %%%%
+{dat}the ironbound beastmaster
+{m}закованному в железо повелителю зверей
+%%%%
+{dat}the ironbound beastmasters
+{pl}закованным в железо повелителям зверей
+%%%%
+{dat}the ironbound convoker
+{m}закованному в железо призывателю
+%%%%
+{dat}the ironbound convokers
+{pl}закованным в железо призывателям
+%%%%
+{dat}the ironbound frostheart
+{n}закованному в железо ледяному сердцу
+%%%%
+{dat}the ironbound frosthearts
+{pl}закованным в железо ледяным сердцам
+%%%%
 {dat}the ironbound preserver
 {m}закованному в железо заступнику
 %%%%
 {dat}the ironbound preservers
 {pl}закованным в железо заступникам
+%%%%
+{dat}the ironbound thunderhulk
+{m}закованному в железо громовержцу
+%%%%
+{dat}the ironbound thunderhulks
+{pl}закованным в железо громовержцам
 %%%%
 {dat}the jackal
 {m}шакалу
@@ -26898,6 +28500,12 @@ your ynoxinuls
 %%%%
 {dat}the quokkas
 {pl}квоккам
+%%%%
+{dat}the ragged hierophant
+{m}оборванному иерофанту
+%%%%
+{dat}the ragged hierophants
+{pl}оборванным иерофантам
 %%%%
 {dat}the rapier
 {f}рапире
@@ -27403,6 +29011,18 @@ your ynoxinuls
 {dat}the vampires
 {pl}вампирам
 %%%%
+{dat}the vault guard
+{m}стражу Хранилищ
+%%%%
+{dat}the vault guards
+{pl}стражам Хранилищ
+%%%%
+{dat}the vault sentinel
+{m}дозорному Хранилищ
+%%%%
+{dat}the vault sentinels
+{pl}дозорным Хранилищ
+%%%%
 {dat}the vault warden
 {m}смотрителю Хранилищ
 %%%%
@@ -27636,6 +29256,18 @@ your ynoxinuls
 %%%%
 {dat}vampires
 {pl}вампирам
+%%%%
+{dat}vault guard
+{m}стражу Хранилищ
+%%%%
+{dat}vault guards
+{pl}стражам Хранилищ
+%%%%
+{dat}vault sentinel
+{m}дозорному Хранилищ
+%%%%
+{dat}vault sentinels
+{pl}дозорным Хранилищ
 %%%%
 {dat}vault warden
 {m}смотрителю Хранилищ
@@ -28099,11 +29731,41 @@ your ynoxinuls
 {dat}your deathcaps
 {pl}бледным поганкам
 %%%%
+{dat}your deep elf annihilator
+{m}глубинному эльфу-уничтожителю
+%%%%
+{dat}your deep elf annihilators
+{pl}глубинным эльфам-уничтожителям
+%%%%
 {dat}your deep elf archer
 {m}глубинному эльфу-лучнику
 %%%%
 {dat}your deep elf archers
 {pl}глубинным эльфам-лучникам
+%%%%
+{dat}your deep elf blademaster
+{m}глубинному эльфу-мастеру клинка
+%%%%
+{dat}your deep elf blademasters
+{pl}глубинным эльфам-мастерам клинка
+%%%%
+{dat}your deep elf death mage
+{m}глубинному эльфу-магу смерти
+%%%%
+{dat}your deep elf death magi
+{pl}глубинным эльфам-магам смерти
+%%%%
+{dat}your deep elf demonologist
+{m}глубинному эльфу-демонологу
+%%%%
+{dat}your deep elf demonologists
+{pl}глубинным эльфам-демонологам
+%%%%
+{dat}your deep elf high priest
+{m}верховному жрецу глубинных эльфов
+%%%%
+{dat}your deep elf high priests
+{pl}верховным жрецам глубинных эльфов
 %%%%
 {dat}your deep elf knight
 {m}глубинному эльфу-рыцарю
@@ -28111,11 +29773,29 @@ your ynoxinuls
 {dat}your deep elf knights
 {pl}глубинным эльфам-рыцарям
 %%%%
+{dat}your deep elf master archer
+{m}глубинному эльфу-мастеру стрельбы
+%%%%
+{dat}your deep elf master archers
+{pl}глубинным эльфам-мастерам стрельбы
+%%%%
 {dat}your deep elf pyromancer
 {m}глубинному эльфу-пироманту
 %%%%
 {dat}your deep elf pyromancers
 {pl}глубинным эльфам-пиромантам
+%%%%
+{dat}your deep elf sorcerer
+{m}глубинному эльфу-чародею
+%%%%
+{dat}your deep elf sorcerers
+{pl}глубинным эльфам-чародеям
+%%%%
+{dat}your deep elf zephyrmancer
+{m}глубинному эльфу-аэроманту
+%%%%
+{dat}your deep elf zephyrmancers
+{pl}глубинным эльфам-аэромантам
 %%%%
 {dat}your demon blade
 {m}демоническому клинку
@@ -28324,6 +30004,12 @@ your ynoxinuls
 {dat}your griffons
 {pl}грифонам
 %%%%
+{dat}your halazid warlock
+{m}халазидскому чернокнижнику
+%%%%
+{dat}your halazid warlocks
+{pl}халазидским чернокнижникам
+%%%%
 {dat}your halberd
 {f}алебарде
 %%%%
@@ -28426,11 +30112,35 @@ your ynoxinuls
 {dat}your iron imps
 {pl}железным бесам
 %%%%
+{dat}your ironbound beastmaster
+{m}закованному в железо повелителю зверей
+%%%%
+{dat}your ironbound beastmasters
+{pl}закованным в железо повелителям зверей
+%%%%
+{dat}your ironbound convoker
+{m}закованному в железо призывателю
+%%%%
+{dat}your ironbound convokers
+{pl}закованным в железо призывателям
+%%%%
+{dat}your ironbound frostheart
+{n}закованному в железо ледяному сердцу
+%%%%
+{dat}your ironbound frosthearts
+{pl}закованным в железо ледяным сердцам
+%%%%
 {dat}your ironbound preserver
 {m}закованному в железо заступнику
 %%%%
 {dat}your ironbound preservers
 {pl}закованным в железо заступникам
+%%%%
+{dat}your ironbound thunderhulk
+{m}закованному в железо громовержцу
+%%%%
+{dat}your ironbound thunderhulks
+{pl}закованным в железо громовержцам
 %%%%
 {dat}your jackal
 {m}шакалу
@@ -28761,6 +30471,12 @@ your ynoxinuls
 %%%%
 {dat}your quokkas
 {pl}квоккам
+%%%%
+{dat}your ragged hierophant
+{m}оборванному иерофанту
+%%%%
+{dat}your ragged hierophants
+{pl}оборванным иерофантам
 %%%%
 {dat}your rapier
 {f}рапире
@@ -29266,6 +30982,18 @@ your ynoxinuls
 {dat}your vampires
 {pl}вампирам
 %%%%
+{dat}your vault guard
+{m}стражу Хранилищ
+%%%%
+{dat}your vault guards
+{pl}стражам Хранилищ
+%%%%
+{dat}your vault sentinel
+{m}дозорному Хранилищ
+%%%%
+{dat}your vault sentinels
+{pl}дозорным Хранилищ
+%%%%
 {dat}your vault warden
 {m}смотрителю Хранилищ
 %%%%
@@ -29566,14 +31294,38 @@ your ynoxinuls
 {few}@num@ deathcaps
 @num@ бледные поганки
 %%%%
+{few}@num@ deep elf annihilators
+@num@ глубинных эльфа-уничтожителя
+%%%%
 {few}@num@ deep elf archers
-@num@ глубинного эльфа-лучника
+@num@ глубинных эльфа-лучника
+%%%%
+{few}@num@ deep elf blademasters
+@num@ глубинных эльфа-мастера клинка
+%%%%
+{few}@num@ deep elf death magi
+@num@ глубинных эльфа-мага смерти
+%%%%
+{few}@num@ deep elf demonologists
+@num@ глубинных эльфа-демонолога
+%%%%
+{few}@num@ deep elf high priests
+@num@ верховных жреца глубинных эльфов
 %%%%
 {few}@num@ deep elf knights
-@num@ глубинного эльфа-рыцаря
+@num@ глубинных эльфа-рыцаря
+%%%%
+{few}@num@ deep elf master archers
+@num@ глубинных эльфа-мастера стрельбы
 %%%%
 {few}@num@ deep elf pyromancers
-@num@ глубинного эльфа-пироманта
+@num@ глубинных эльфа-пироманта
+%%%%
+{few}@num@ deep elf sorcerers
+@num@ глубинных эльфа-чародея
+%%%%
+{few}@num@ deep elf zephyrmancers
+@num@ глубинных эльфа-аэроманта
 %%%%
 {few}@num@ demon blades
 @num@ демонических клинка
@@ -29680,6 +31432,9 @@ your ynoxinuls
 {few}@num@ griffons
 @num@ грифона
 %%%%
+{few}@num@ halazid warlocks
+@num@ халазидских чернокнижника
+%%%%
 {few}@num@ halberds
 @num@ алебарды
 %%%%
@@ -29731,8 +31486,20 @@ your ynoxinuls
 {few}@num@ iron imps
 @num@ железного беса
 %%%%
+{few}@num@ ironbound beastmasters
+@num@ закованных в железо повелителя зверей
+%%%%
+{few}@num@ ironbound convokers
+@num@ закованных в железо призывателя
+%%%%
+{few}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердца
+%%%%
 {few}@num@ ironbound preservers
 @num@ закованных в железо заступника
+%%%%
+{few}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержца
 %%%%
 {few}@num@ jackals
 @num@ шакала
@@ -29898,6 +31665,9 @@ your ynoxinuls
 %%%%
 {few}@num@ quokkas
 @num@ квокки
+%%%%
+{few}@num@ ragged hierophants
+@num@ оборванных иерофанта
 %%%%
 {few}@num@ rapiers
 @num@ рапиры
@@ -30154,6 +31924,12 @@ your ynoxinuls
 {few}@num@ vampires
 @num@ вампира
 %%%%
+{few}@num@ vault guards
+@num@ стража Хранилищ
+%%%%
+{few}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {few}@num@ vault wardens
 @num@ смотрителя Хранилищ
 %%%%
@@ -30385,14 +32161,38 @@ your ynoxinuls
 {gen_few}@num@ deathcaps
 @num@ бледных поганок
 %%%%
+{gen_few}@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 {gen_few}@num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+{gen_few}@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+{gen_few}@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+{gen_few}@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+{gen_few}@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 {gen_few}@num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+{gen_few}@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 {gen_few}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+{gen_few}@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+{gen_few}@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 {gen_few}@num@ demon blades
 @num@ демонических клинков
@@ -30499,6 +32299,9 @@ your ynoxinuls
 {gen_few}@num@ griffons
 @num@ грифонов
 %%%%
+{gen_few}@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 {gen_few}@num@ halberds
 @num@ алебард
 %%%%
@@ -30550,8 +32353,20 @@ your ynoxinuls
 {gen_few}@num@ iron imps
 @num@ железных бесов
 %%%%
+{gen_few}@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+{gen_few}@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+{gen_few}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердец
+%%%%
 {gen_few}@num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+{gen_few}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 {gen_few}@num@ jackals
 @num@ шакалов
@@ -30717,6 +32532,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ quokkas
 @num@ квокк
+%%%%
+{gen_few}@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 {gen_few}@num@ rapiers
 @num@ рапир
@@ -30973,6 +32791,12 @@ your ynoxinuls
 {gen_few}@num@ vampires
 @num@ вампиров
 %%%%
+{gen_few}@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+{gen_few}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {gen_few}@num@ vault wardens
 @num@ смотрителей Хранилищ
 %%%%
@@ -31204,14 +33028,38 @@ your ynoxinuls
 {gen_many}@num@ deathcaps
 @num@ бледных поганок
 %%%%
+{gen_many}@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 {gen_many}@num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+{gen_many}@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+{gen_many}@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+{gen_many}@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+{gen_many}@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 {gen_many}@num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+{gen_many}@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 {gen_many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+{gen_many}@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+{gen_many}@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 {gen_many}@num@ demon blades
 @num@ демонических клинков
@@ -31318,6 +33166,9 @@ your ynoxinuls
 {gen_many}@num@ griffons
 @num@ грифонов
 %%%%
+{gen_many}@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 {gen_many}@num@ halberds
 @num@ алебард
 %%%%
@@ -31369,8 +33220,20 @@ your ynoxinuls
 {gen_many}@num@ iron imps
 @num@ железных бесов
 %%%%
+{gen_many}@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+{gen_many}@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+{gen_many}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердец
+%%%%
 {gen_many}@num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+{gen_many}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 {gen_many}@num@ jackals
 @num@ шакалов
@@ -31536,6 +33399,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ quokkas
 @num@ квокк
+%%%%
+{gen_many}@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 {gen_many}@num@ rapiers
 @num@ рапир
@@ -31792,6 +33658,12 @@ your ynoxinuls
 {gen_many}@num@ vampires
 @num@ вампиров
 %%%%
+{gen_many}@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+{gen_many}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {gen_many}@num@ vault wardens
 @num@ смотрителей Хранилищ
 %%%%
@@ -32023,14 +33895,38 @@ your ynoxinuls
 {gen_one}@num@ deathcaps
 @num@ бледной поганки
 %%%%
+{gen_one}@num@ deep elf annihilators
+@num@ глубинного эльфа-уничтожителя
+%%%%
 {gen_one}@num@ deep elf archers
 @num@ глубинного эльфа-лучника
+%%%%
+{gen_one}@num@ deep elf blademasters
+@num@ глубинного эльфа-мастера клинка
+%%%%
+{gen_one}@num@ deep elf death magi
+@num@ глубинного эльфа-мага смерти
+%%%%
+{gen_one}@num@ deep elf demonologists
+@num@ глубинного эльфа-демонолога
+%%%%
+{gen_one}@num@ deep elf high priests
+@num@ верховного жреца глубинных эльфов
 %%%%
 {gen_one}@num@ deep elf knights
 @num@ глубинного эльфа-рыцаря
 %%%%
+{gen_one}@num@ deep elf master archers
+@num@ глубинного эльфа-мастера стрельбы
+%%%%
 {gen_one}@num@ deep elf pyromancers
 @num@ глубинного эльфа-пироманта
+%%%%
+{gen_one}@num@ deep elf sorcerers
+@num@ глубинного эльфа-чародея
+%%%%
+{gen_one}@num@ deep elf zephyrmancers
+@num@ глубинного эльфа-аэроманта
 %%%%
 {gen_one}@num@ demon blades
 @num@ демонического клинка
@@ -32137,6 +34033,9 @@ your ynoxinuls
 {gen_one}@num@ griffons
 @num@ грифона
 %%%%
+{gen_one}@num@ halazid warlocks
+@num@ халазидского чернокнижника
+%%%%
 {gen_one}@num@ halberds
 @num@ алебарды
 %%%%
@@ -32188,8 +34087,20 @@ your ynoxinuls
 {gen_one}@num@ iron imps
 @num@ железного беса
 %%%%
+{gen_one}@num@ ironbound beastmasters
+@num@ закованного в железо повелителя зверей
+%%%%
+{gen_one}@num@ ironbound convokers
+@num@ закованного в железо призывателя
+%%%%
+{gen_one}@num@ ironbound frosthearts
+@num@ закованного в железо ледяного сердца
+%%%%
 {gen_one}@num@ ironbound preservers
 @num@ закованного в железо заступника
+%%%%
+{gen_one}@num@ ironbound thunderhulks
+@num@ закованного в железо громовержца
 %%%%
 {gen_one}@num@ jackals
 @num@ шакала
@@ -32355,6 +34266,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ quokkas
 @num@ квокки
+%%%%
+{gen_one}@num@ ragged hierophants
+@num@ оборванного иерофанта
 %%%%
 {gen_one}@num@ rapiers
 @num@ рапиры
@@ -32611,6 +34525,12 @@ your ynoxinuls
 {gen_one}@num@ vampires
 @num@ вампира
 %%%%
+{gen_one}@num@ vault guards
+@num@ стража Хранилищ
+%%%%
+{gen_one}@num@ vault sentinels
+@num@ дозорного Хранилищ
+%%%%
 {gen_one}@num@ vault wardens
 @num@ смотрителя Хранилищ
 %%%%
@@ -32866,14 +34786,38 @@ your ynoxinuls
 {gen}a deathcap
 {f}бледной поганки
 %%%%
+{gen}a deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
 {gen}a deep elf archer
 {m}глубинного эльфа-лучника
+%%%%
+{gen}a deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{gen}a deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{gen}a deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{gen}a deep elf high priest
+{m}верховного жреца глубинных эльфов
 %%%%
 {gen}a deep elf knight
 {m}глубинного эльфа-рыцаря
 %%%%
+{gen}a deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 {gen}a deep elf pyromancer
 {m}глубинного эльфа-пироманта
+%%%%
+{gen}a deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{gen}a deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
 %%%%
 {gen}a demon blade
 {m}демонического клинка
@@ -32980,6 +34924,9 @@ your ynoxinuls
 {gen}a griffon
 {m}грифона
 %%%%
+{gen}a halazid warlock
+{m}халазидского чернокнижника
+%%%%
 {gen}a halberd
 {f}алебарды
 %%%%
@@ -33031,8 +34978,20 @@ your ynoxinuls
 {gen}a iron imp
 {m}железного беса
 %%%%
+{gen}a ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{gen}a ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{gen}a ironbound frostheart
+{n}закованного в железо ледяного сердца
+%%%%
 {gen}a ironbound preserver
 {m}закованного в железо заступника
+%%%%
+{gen}a ironbound thunderhulk
+{m}закованного в железо громовержца
 %%%%
 {gen}a jackal
 {m}шакала
@@ -33198,6 +35157,9 @@ your ynoxinuls
 %%%%
 {gen}a quokka
 {f}квокки
+%%%%
+{gen}a ragged hierophant
+{m}оборванного иерофанта
 %%%%
 {gen}a rapier
 {f}рапиры
@@ -33453,6 +35415,12 @@ your ynoxinuls
 %%%%
 {gen}a vampire
 {m}вампира
+%%%%
+{gen}a vault guard
+{m}стража Хранилищ
+%%%%
+{gen}a vault sentinel
+{m}дозорного Хранилищ
 %%%%
 {gen}a vault warden
 {m}смотрителя Хранилищ
@@ -33751,14 +35719,38 @@ your ynoxinuls
 {gen}an deathcap
 {f}бледной поганки
 %%%%
+{gen}an deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
 {gen}an deep elf archer
 {m}глубинного эльфа-лучника
+%%%%
+{gen}an deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{gen}an deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{gen}an deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{gen}an deep elf high priest
+{m}верховного жреца глубинных эльфов
 %%%%
 {gen}an deep elf knight
 {m}глубинного эльфа-рыцаря
 %%%%
+{gen}an deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
 {gen}an deep elf pyromancer
 {m}глубинного эльфа-пироманта
+%%%%
+{gen}an deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{gen}an deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
 %%%%
 {gen}an demon blade
 {m}демонического клинка
@@ -33865,6 +35857,9 @@ your ynoxinuls
 {gen}an griffon
 {m}грифона
 %%%%
+{gen}an halazid warlock
+{m}халазидского чернокнижника
+%%%%
 {gen}an halberd
 {f}алебарды
 %%%%
@@ -33916,8 +35911,20 @@ your ynoxinuls
 {gen}an iron imp
 {m}железного беса
 %%%%
+{gen}an ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{gen}an ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{gen}an ironbound frostheart
+{n}закованного в железо ледяного сердца
+%%%%
 {gen}an ironbound preserver
 {m}закованного в железо заступника
+%%%%
+{gen}an ironbound thunderhulk
+{m}закованного в железо громовержца
 %%%%
 {gen}an jackal
 {m}шакала
@@ -34083,6 +36090,9 @@ your ynoxinuls
 %%%%
 {gen}an quokka
 {f}квокки
+%%%%
+{gen}an ragged hierophant
+{m}оборванного иерофанта
 %%%%
 {gen}an rapier
 {f}рапиры
@@ -34338,6 +36348,12 @@ your ynoxinuls
 %%%%
 {gen}an vampire
 {m}вампира
+%%%%
+{gen}an vault guard
+{m}стража Хранилищ
+%%%%
+{gen}an vault sentinel
+{m}дозорного Хранилищ
 %%%%
 {gen}an vault warden
 {m}смотрителя Хранилищ
@@ -34642,11 +36658,41 @@ your ynoxinuls
 {gen}deathcaps
 {pl}бледных поганок
 %%%%
+{gen}deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{gen}deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {gen}deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {gen}deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{gen}deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{gen}deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{gen}deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{gen}deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{gen}deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{gen}deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{gen}deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{gen}deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {gen}deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -34654,11 +36700,29 @@ your ynoxinuls
 {gen}deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{gen}deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{gen}deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {gen}deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {gen}deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{gen}deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{gen}deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{gen}deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{gen}deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {gen}demon blade
 {m}демонического клинка
@@ -34867,6 +36931,12 @@ your ynoxinuls
 {gen}griffons
 {pl}грифонов
 %%%%
+{gen}halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{gen}halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {gen}halberd
 {f}алебарды
 %%%%
@@ -34969,11 +37039,35 @@ your ynoxinuls
 {gen}iron imps
 {pl}железных бесов
 %%%%
+{gen}ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{gen}ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{gen}ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{gen}ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{gen}ironbound frostheart
+{n}закованного в железо ледяного сердца
+%%%%
+{gen}ironbound frosthearts
+{pl}закованных в железо ледяных сердец
+%%%%
 {gen}ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {gen}ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{gen}ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{gen}ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {gen}jackal
 {m}шакала
@@ -35304,6 +37398,12 @@ your ynoxinuls
 %%%%
 {gen}quokkas
 {pl}квокк
+%%%%
+{gen}ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{gen}ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {gen}rapier
 {f}рапиры
@@ -36037,11 +38137,41 @@ your ynoxinuls
 {gen}the deathcaps
 {pl}бледных поганок
 %%%%
+{gen}the deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{gen}the deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {gen}the deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {gen}the deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{gen}the deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{gen}the deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{gen}the deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{gen}the deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{gen}the deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{gen}the deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{gen}the deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{gen}the deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {gen}the deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -36049,11 +38179,29 @@ your ynoxinuls
 {gen}the deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{gen}the deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{gen}the deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {gen}the deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {gen}the deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{gen}the deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{gen}the deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{gen}the deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{gen}the deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {gen}the demon blade
 {m}демонического клинка
@@ -36262,6 +38410,12 @@ your ynoxinuls
 {gen}the griffons
 {pl}грифонов
 %%%%
+{gen}the halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{gen}the halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {gen}the halberd
 {f}алебарды
 %%%%
@@ -36364,11 +38518,35 @@ your ynoxinuls
 {gen}the iron imps
 {pl}железных бесов
 %%%%
+{gen}the ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{gen}the ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{gen}the ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{gen}the ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{gen}the ironbound frostheart
+{n}закованного в железо ледяного сердца
+%%%%
+{gen}the ironbound frosthearts
+{pl}закованных в железо ледяных сердец
+%%%%
 {gen}the ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {gen}the ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{gen}the ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{gen}the ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {gen}the jackal
 {m}шакала
@@ -36699,6 +38877,12 @@ your ynoxinuls
 %%%%
 {gen}the quokkas
 {pl}квокк
+%%%%
+{gen}the ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{gen}the ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {gen}the rapier
 {f}рапиры
@@ -37204,6 +39388,18 @@ your ynoxinuls
 {gen}the vampires
 {pl}вампиров
 %%%%
+{gen}the vault guard
+{m}стража Хранилищ
+%%%%
+{gen}the vault guards
+{pl}стражей Хранилищ
+%%%%
+{gen}the vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{gen}the vault sentinels
+{pl}дозорных Хранилищ
+%%%%
 {gen}the vault warden
 {m}смотрителя Хранилищ
 %%%%
@@ -37437,6 +39633,18 @@ your ynoxinuls
 %%%%
 {gen}vampires
 {pl}вампиров
+%%%%
+{gen}vault guard
+{m}стража Хранилищ
+%%%%
+{gen}vault guards
+{pl}стражей Хранилищ
+%%%%
+{gen}vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{gen}vault sentinels
+{pl}дозорных Хранилищ
 %%%%
 {gen}vault warden
 {m}смотрителя Хранилищ
@@ -37900,11 +40108,41 @@ your ynoxinuls
 {gen}your deathcaps
 {pl}бледных поганок
 %%%%
+{gen}your deep elf annihilator
+{m}глубинного эльфа-уничтожителя
+%%%%
+{gen}your deep elf annihilators
+{pl}глубинных эльфов-уничтожителей
+%%%%
 {gen}your deep elf archer
 {m}глубинного эльфа-лучника
 %%%%
 {gen}your deep elf archers
 {pl}глубинных эльфов-лучников
+%%%%
+{gen}your deep elf blademaster
+{m}глубинного эльфа-мастера клинка
+%%%%
+{gen}your deep elf blademasters
+{pl}глубинных эльфов-мастеров клинка
+%%%%
+{gen}your deep elf death mage
+{m}глубинного эльфа-мага смерти
+%%%%
+{gen}your deep elf death magi
+{pl}глубинных эльфов-магов смерти
+%%%%
+{gen}your deep elf demonologist
+{m}глубинного эльфа-демонолога
+%%%%
+{gen}your deep elf demonologists
+{pl}глубинных эльфов-демонологов
+%%%%
+{gen}your deep elf high priest
+{m}верховного жреца глубинных эльфов
+%%%%
+{gen}your deep elf high priests
+{pl}верховных жрецов глубинных эльфов
 %%%%
 {gen}your deep elf knight
 {m}глубинного эльфа-рыцаря
@@ -37912,11 +40150,29 @@ your ynoxinuls
 {gen}your deep elf knights
 {pl}глубинных эльфов-рыцарей
 %%%%
+{gen}your deep elf master archer
+{m}глубинного эльфа-мастера стрельбы
+%%%%
+{gen}your deep elf master archers
+{pl}глубинных эльфов-мастеров стрельбы
+%%%%
 {gen}your deep elf pyromancer
 {m}глубинного эльфа-пироманта
 %%%%
 {gen}your deep elf pyromancers
 {pl}глубинных эльфов-пиромантов
+%%%%
+{gen}your deep elf sorcerer
+{m}глубинного эльфа-чародея
+%%%%
+{gen}your deep elf sorcerers
+{pl}глубинных эльфов-чародеев
+%%%%
+{gen}your deep elf zephyrmancer
+{m}глубинного эльфа-аэроманта
+%%%%
+{gen}your deep elf zephyrmancers
+{pl}глубинных эльфов-аэромантов
 %%%%
 {gen}your demon blade
 {m}демонического клинка
@@ -38125,6 +40381,12 @@ your ynoxinuls
 {gen}your griffons
 {pl}грифонов
 %%%%
+{gen}your halazid warlock
+{m}халазидского чернокнижника
+%%%%
+{gen}your halazid warlocks
+{pl}халазидских чернокнижников
+%%%%
 {gen}your halberd
 {f}алебарды
 %%%%
@@ -38227,11 +40489,35 @@ your ynoxinuls
 {gen}your iron imps
 {pl}железных бесов
 %%%%
+{gen}your ironbound beastmaster
+{m}закованного в железо повелителя зверей
+%%%%
+{gen}your ironbound beastmasters
+{pl}закованных в железо повелителей зверей
+%%%%
+{gen}your ironbound convoker
+{m}закованного в железо призывателя
+%%%%
+{gen}your ironbound convokers
+{pl}закованных в железо призывателей
+%%%%
+{gen}your ironbound frostheart
+{n}закованного в железо ледяного сердца
+%%%%
+{gen}your ironbound frosthearts
+{pl}закованных в железо ледяных сердец
+%%%%
 {gen}your ironbound preserver
 {m}закованного в железо заступника
 %%%%
 {gen}your ironbound preservers
 {pl}закованных в железо заступников
+%%%%
+{gen}your ironbound thunderhulk
+{m}закованного в железо громовержца
+%%%%
+{gen}your ironbound thunderhulks
+{pl}закованных в железо громовержцев
 %%%%
 {gen}your jackal
 {m}шакала
@@ -38562,6 +40848,12 @@ your ynoxinuls
 %%%%
 {gen}your quokkas
 {pl}квокк
+%%%%
+{gen}your ragged hierophant
+{m}оборванного иерофанта
+%%%%
+{gen}your ragged hierophants
+{pl}оборванных иерофантов
 %%%%
 {gen}your rapier
 {f}рапиры
@@ -39067,6 +41359,18 @@ your ynoxinuls
 {gen}your vampires
 {pl}вампиров
 %%%%
+{gen}your vault guard
+{m}стража Хранилищ
+%%%%
+{gen}your vault guards
+{pl}стражей Хранилищ
+%%%%
+{gen}your vault sentinel
+{m}дозорного Хранилищ
+%%%%
+{gen}your vault sentinels
+{pl}дозорных Хранилищ
+%%%%
 {gen}your vault warden
 {m}смотрителя Хранилищ
 %%%%
@@ -39367,14 +41671,38 @@ your ynoxinuls
 {ins_few}@num@ deathcaps
 @num@ бледными поганками
 %%%%
+{ins_few}@num@ deep elf annihilators
+@num@ глубинными эльфами-уничтожителями
+%%%%
 {ins_few}@num@ deep elf archers
 @num@ глубинными эльфами-лучниками
+%%%%
+{ins_few}@num@ deep elf blademasters
+@num@ глубинными эльфами-мастерами клинка
+%%%%
+{ins_few}@num@ deep elf death magi
+@num@ глубинными эльфами-магами смерти
+%%%%
+{ins_few}@num@ deep elf demonologists
+@num@ глубинными эльфами-демонологами
+%%%%
+{ins_few}@num@ deep elf high priests
+@num@ верховными жрецами глубинных эльфов
 %%%%
 {ins_few}@num@ deep elf knights
 @num@ глубинными эльфами-рыцарями
 %%%%
+{ins_few}@num@ deep elf master archers
+@num@ глубинными эльфами-мастерами стрельбы
+%%%%
 {ins_few}@num@ deep elf pyromancers
 @num@ глубинными эльфами-пиромантами
+%%%%
+{ins_few}@num@ deep elf sorcerers
+@num@ глубинными эльфами-чародеями
+%%%%
+{ins_few}@num@ deep elf zephyrmancers
+@num@ глубинными эльфами-аэромантами
 %%%%
 {ins_few}@num@ demon blades
 @num@ демоническими клинками
@@ -39481,6 +41809,9 @@ your ynoxinuls
 {ins_few}@num@ griffons
 @num@ грифонами
 %%%%
+{ins_few}@num@ halazid warlocks
+@num@ халазидскими чернокнижниками
+%%%%
 {ins_few}@num@ halberds
 @num@ алебардами
 %%%%
@@ -39532,8 +41863,20 @@ your ynoxinuls
 {ins_few}@num@ iron imps
 @num@ железными бесами
 %%%%
+{ins_few}@num@ ironbound beastmasters
+@num@ закованными в железо повелителями зверей
+%%%%
+{ins_few}@num@ ironbound convokers
+@num@ закованными в железо призывателями
+%%%%
+{ins_few}@num@ ironbound frosthearts
+@num@ закованными в железо ледяными сердцами
+%%%%
 {ins_few}@num@ ironbound preservers
 @num@ закованными в железо заступниками
+%%%%
+{ins_few}@num@ ironbound thunderhulks
+@num@ закованными в железо громовержцами
 %%%%
 {ins_few}@num@ jackals
 @num@ шакалами
@@ -39699,6 +42042,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ quokkas
 @num@ квокками
+%%%%
+{ins_few}@num@ ragged hierophants
+@num@ оборванными иерофантами
 %%%%
 {ins_few}@num@ rapiers
 @num@ рапирами
@@ -39955,6 +42301,12 @@ your ynoxinuls
 {ins_few}@num@ vampires
 @num@ вампирами
 %%%%
+{ins_few}@num@ vault guards
+@num@ стражами Хранилищ
+%%%%
+{ins_few}@num@ vault sentinels
+@num@ дозорными Хранилищ
+%%%%
 {ins_few}@num@ vault wardens
 @num@ смотрителями Хранилищ
 %%%%
@@ -40186,14 +42538,38 @@ your ynoxinuls
 {ins_many}@num@ deathcaps
 @num@ бледными поганками
 %%%%
+{ins_many}@num@ deep elf annihilators
+@num@ глубинными эльфами-уничтожителями
+%%%%
 {ins_many}@num@ deep elf archers
 @num@ глубинными эльфами-лучниками
+%%%%
+{ins_many}@num@ deep elf blademasters
+@num@ глубинными эльфами-мастерами клинка
+%%%%
+{ins_many}@num@ deep elf death magi
+@num@ глубинными эльфами-магами смерти
+%%%%
+{ins_many}@num@ deep elf demonologists
+@num@ глубинными эльфами-демонологами
+%%%%
+{ins_many}@num@ deep elf high priests
+@num@ верховными жрецами глубинных эльфов
 %%%%
 {ins_many}@num@ deep elf knights
 @num@ глубинными эльфами-рыцарями
 %%%%
+{ins_many}@num@ deep elf master archers
+@num@ глубинными эльфами-мастерами стрельбы
+%%%%
 {ins_many}@num@ deep elf pyromancers
 @num@ глубинными эльфами-пиромантами
+%%%%
+{ins_many}@num@ deep elf sorcerers
+@num@ глубинными эльфами-чародеями
+%%%%
+{ins_many}@num@ deep elf zephyrmancers
+@num@ глубинными эльфами-аэромантами
 %%%%
 {ins_many}@num@ demon blades
 @num@ демоническими клинками
@@ -40300,6 +42676,9 @@ your ynoxinuls
 {ins_many}@num@ griffons
 @num@ грифонами
 %%%%
+{ins_many}@num@ halazid warlocks
+@num@ халазидскими чернокнижниками
+%%%%
 {ins_many}@num@ halberds
 @num@ алебардами
 %%%%
@@ -40351,8 +42730,20 @@ your ynoxinuls
 {ins_many}@num@ iron imps
 @num@ железными бесами
 %%%%
+{ins_many}@num@ ironbound beastmasters
+@num@ закованными в железо повелителями зверей
+%%%%
+{ins_many}@num@ ironbound convokers
+@num@ закованными в железо призывателями
+%%%%
+{ins_many}@num@ ironbound frosthearts
+@num@ закованными в железо ледяными сердцами
+%%%%
 {ins_many}@num@ ironbound preservers
 @num@ закованными в железо заступниками
+%%%%
+{ins_many}@num@ ironbound thunderhulks
+@num@ закованными в железо громовержцами
 %%%%
 {ins_many}@num@ jackals
 @num@ шакалами
@@ -40518,6 +42909,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ quokkas
 @num@ квокками
+%%%%
+{ins_many}@num@ ragged hierophants
+@num@ оборванными иерофантами
 %%%%
 {ins_many}@num@ rapiers
 @num@ рапирами
@@ -40774,6 +43168,12 @@ your ynoxinuls
 {ins_many}@num@ vampires
 @num@ вампирами
 %%%%
+{ins_many}@num@ vault guards
+@num@ стражами Хранилищ
+%%%%
+{ins_many}@num@ vault sentinels
+@num@ дозорными Хранилищ
+%%%%
 {ins_many}@num@ vault wardens
 @num@ смотрителями Хранилищ
 %%%%
@@ -41005,14 +43405,38 @@ your ynoxinuls
 {ins_one}@num@ deathcaps
 @num@ бледной поганкой
 %%%%
+{ins_one}@num@ deep elf annihilators
+@num@ глубинным эльфом-уничтожителем
+%%%%
 {ins_one}@num@ deep elf archers
 @num@ глубинным эльфом-лучником
+%%%%
+{ins_one}@num@ deep elf blademasters
+@num@ глубинным эльфом-мастером клинка
+%%%%
+{ins_one}@num@ deep elf death magi
+@num@ глубинным эльфом-магом смерти
+%%%%
+{ins_one}@num@ deep elf demonologists
+@num@ глубинным эльфом-демонологом
+%%%%
+{ins_one}@num@ deep elf high priests
+@num@ верховным жрецом глубинных эльфов
 %%%%
 {ins_one}@num@ deep elf knights
 @num@ глубинным эльфом-рыцарем
 %%%%
+{ins_one}@num@ deep elf master archers
+@num@ глубинным эльфом-мастером стрельбы
+%%%%
 {ins_one}@num@ deep elf pyromancers
 @num@ глубинным эльфом-пиромантом
+%%%%
+{ins_one}@num@ deep elf sorcerers
+@num@ глубинным эльфом-чародеем
+%%%%
+{ins_one}@num@ deep elf zephyrmancers
+@num@ глубинным эльфом-аэромантом
 %%%%
 {ins_one}@num@ demon blades
 @num@ демоническим клинком
@@ -41119,6 +43543,9 @@ your ynoxinuls
 {ins_one}@num@ griffons
 @num@ грифоном
 %%%%
+{ins_one}@num@ halazid warlocks
+@num@ халазидским чернокнижником
+%%%%
 {ins_one}@num@ halberds
 @num@ алебардой
 %%%%
@@ -41170,8 +43597,20 @@ your ynoxinuls
 {ins_one}@num@ iron imps
 @num@ железным бесом
 %%%%
+{ins_one}@num@ ironbound beastmasters
+@num@ закованным в железо повелителем зверей
+%%%%
+{ins_one}@num@ ironbound convokers
+@num@ закованным в железо призывателем
+%%%%
+{ins_one}@num@ ironbound frosthearts
+@num@ закованным в железо ледяным сердцем
+%%%%
 {ins_one}@num@ ironbound preservers
 @num@ закованным в железо заступником
+%%%%
+{ins_one}@num@ ironbound thunderhulks
+@num@ закованным в железо громовержцем
 %%%%
 {ins_one}@num@ jackals
 @num@ шакалом
@@ -41337,6 +43776,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ quokkas
 @num@ квоккой
+%%%%
+{ins_one}@num@ ragged hierophants
+@num@ оборванным иерофантом
 %%%%
 {ins_one}@num@ rapiers
 @num@ рапирой
@@ -41593,6 +44035,12 @@ your ynoxinuls
 {ins_one}@num@ vampires
 @num@ вампиром
 %%%%
+{ins_one}@num@ vault guards
+@num@ стражем Хранилищ
+%%%%
+{ins_one}@num@ vault sentinels
+@num@ дозорным Хранилищ
+%%%%
 {ins_one}@num@ vault wardens
 @num@ смотрителем Хранилищ
 %%%%
@@ -41848,14 +44296,38 @@ your ynoxinuls
 {ins}a deathcap
 {f}бледной поганкой
 %%%%
+{ins}a deep elf annihilator
+{m}глубинным эльфом-уничтожителем
+%%%%
 {ins}a deep elf archer
 {m}глубинным эльфом-лучником
+%%%%
+{ins}a deep elf blademaster
+{m}глубинным эльфом-мастером клинка
+%%%%
+{ins}a deep elf death mage
+{m}глубинным эльфом-магом смерти
+%%%%
+{ins}a deep elf demonologist
+{m}глубинным эльфом-демонологом
+%%%%
+{ins}a deep elf high priest
+{m}верховным жрецом глубинных эльфов
 %%%%
 {ins}a deep elf knight
 {m}глубинным эльфом-рыцарем
 %%%%
+{ins}a deep elf master archer
+{m}глубинным эльфом-мастером стрельбы
+%%%%
 {ins}a deep elf pyromancer
 {m}глубинным эльфом-пиромантом
+%%%%
+{ins}a deep elf sorcerer
+{m}глубинным эльфом-чародеем
+%%%%
+{ins}a deep elf zephyrmancer
+{m}глубинным эльфом-аэромантом
 %%%%
 {ins}a demon blade
 {m}демоническим клинком
@@ -41962,6 +44434,9 @@ your ynoxinuls
 {ins}a griffon
 {m}грифоном
 %%%%
+{ins}a halazid warlock
+{m}халазидским чернокнижником
+%%%%
 {ins}a halberd
 {f}алебардой
 %%%%
@@ -42013,8 +44488,20 @@ your ynoxinuls
 {ins}a iron imp
 {m}железным бесом
 %%%%
+{ins}a ironbound beastmaster
+{m}закованным в железо повелителем зверей
+%%%%
+{ins}a ironbound convoker
+{m}закованным в железо призывателем
+%%%%
+{ins}a ironbound frostheart
+{n}закованным в железо ледяным сердцем
+%%%%
 {ins}a ironbound preserver
 {m}закованным в железо заступником
+%%%%
+{ins}a ironbound thunderhulk
+{m}закованным в железо громовержцем
 %%%%
 {ins}a jackal
 {m}шакалом
@@ -42180,6 +44667,9 @@ your ynoxinuls
 %%%%
 {ins}a quokka
 {f}квоккой
+%%%%
+{ins}a ragged hierophant
+{m}оборванным иерофантом
 %%%%
 {ins}a rapier
 {f}рапирой
@@ -42435,6 +44925,12 @@ your ynoxinuls
 %%%%
 {ins}a vampire
 {m}вампиром
+%%%%
+{ins}a vault guard
+{m}стражем Хранилищ
+%%%%
+{ins}a vault sentinel
+{m}дозорным Хранилищ
 %%%%
 {ins}a vault warden
 {m}смотрителем Хранилищ
@@ -42733,14 +45229,38 @@ your ynoxinuls
 {ins}an deathcap
 {f}бледной поганкой
 %%%%
+{ins}an deep elf annihilator
+{m}глубинным эльфом-уничтожителем
+%%%%
 {ins}an deep elf archer
 {m}глубинным эльфом-лучником
+%%%%
+{ins}an deep elf blademaster
+{m}глубинным эльфом-мастером клинка
+%%%%
+{ins}an deep elf death mage
+{m}глубинным эльфом-магом смерти
+%%%%
+{ins}an deep elf demonologist
+{m}глубинным эльфом-демонологом
+%%%%
+{ins}an deep elf high priest
+{m}верховным жрецом глубинных эльфов
 %%%%
 {ins}an deep elf knight
 {m}глубинным эльфом-рыцарем
 %%%%
+{ins}an deep elf master archer
+{m}глубинным эльфом-мастером стрельбы
+%%%%
 {ins}an deep elf pyromancer
 {m}глубинным эльфом-пиромантом
+%%%%
+{ins}an deep elf sorcerer
+{m}глубинным эльфом-чародеем
+%%%%
+{ins}an deep elf zephyrmancer
+{m}глубинным эльфом-аэромантом
 %%%%
 {ins}an demon blade
 {m}демоническим клинком
@@ -42847,6 +45367,9 @@ your ynoxinuls
 {ins}an griffon
 {m}грифоном
 %%%%
+{ins}an halazid warlock
+{m}халазидским чернокнижником
+%%%%
 {ins}an halberd
 {f}алебардой
 %%%%
@@ -42898,8 +45421,20 @@ your ynoxinuls
 {ins}an iron imp
 {m}железным бесом
 %%%%
+{ins}an ironbound beastmaster
+{m}закованным в железо повелителем зверей
+%%%%
+{ins}an ironbound convoker
+{m}закованным в железо призывателем
+%%%%
+{ins}an ironbound frostheart
+{n}закованным в железо ледяным сердцем
+%%%%
 {ins}an ironbound preserver
 {m}закованным в железо заступником
+%%%%
+{ins}an ironbound thunderhulk
+{m}закованным в железо громовержцем
 %%%%
 {ins}an jackal
 {m}шакалом
@@ -43065,6 +45600,9 @@ your ynoxinuls
 %%%%
 {ins}an quokka
 {f}квоккой
+%%%%
+{ins}an ragged hierophant
+{m}оборванным иерофантом
 %%%%
 {ins}an rapier
 {f}рапирой
@@ -43320,6 +45858,12 @@ your ynoxinuls
 %%%%
 {ins}an vampire
 {m}вампиром
+%%%%
+{ins}an vault guard
+{m}стражем Хранилищ
+%%%%
+{ins}an vault sentinel
+{m}дозорным Хранилищ
 %%%%
 {ins}an vault warden
 {m}смотрителем Хранилищ
@@ -43624,11 +46168,41 @@ your ynoxinuls
 {ins}deathcaps
 {pl}бледными поганками
 %%%%
+{ins}deep elf annihilator
+{m}глубинным эльфом-уничтожителем
+%%%%
+{ins}deep elf annihilators
+{pl}глубинными эльфами-уничтожителями
+%%%%
 {ins}deep elf archer
 {m}глубинным эльфом-лучником
 %%%%
 {ins}deep elf archers
 {pl}глубинными эльфами-лучниками
+%%%%
+{ins}deep elf blademaster
+{m}глубинным эльфом-мастером клинка
+%%%%
+{ins}deep elf blademasters
+{pl}глубинными эльфами-мастерами клинка
+%%%%
+{ins}deep elf death mage
+{m}глубинным эльфом-магом смерти
+%%%%
+{ins}deep elf death magi
+{pl}глубинными эльфами-магами смерти
+%%%%
+{ins}deep elf demonologist
+{m}глубинным эльфом-демонологом
+%%%%
+{ins}deep elf demonologists
+{pl}глубинными эльфами-демонологами
+%%%%
+{ins}deep elf high priest
+{m}верховным жрецом глубинных эльфов
+%%%%
+{ins}deep elf high priests
+{pl}верховными жрецами глубинных эльфов
 %%%%
 {ins}deep elf knight
 {m}глубинным эльфом-рыцарем
@@ -43636,11 +46210,29 @@ your ynoxinuls
 {ins}deep elf knights
 {pl}глубинными эльфами-рыцарями
 %%%%
+{ins}deep elf master archer
+{m}глубинным эльфом-мастером стрельбы
+%%%%
+{ins}deep elf master archers
+{pl}глубинными эльфами-мастерами стрельбы
+%%%%
 {ins}deep elf pyromancer
 {m}глубинным эльфом-пиромантом
 %%%%
 {ins}deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
+%%%%
+{ins}deep elf sorcerer
+{m}глубинным эльфом-чародеем
+%%%%
+{ins}deep elf sorcerers
+{pl}глубинными эльфами-чародеями
+%%%%
+{ins}deep elf zephyrmancer
+{m}глубинным эльфом-аэромантом
+%%%%
+{ins}deep elf zephyrmancers
+{pl}глубинными эльфами-аэромантами
 %%%%
 {ins}demon blade
 {m}демоническим клинком
@@ -43849,6 +46441,12 @@ your ynoxinuls
 {ins}griffons
 {pl}грифонами
 %%%%
+{ins}halazid warlock
+{m}халазидским чернокнижником
+%%%%
+{ins}halazid warlocks
+{pl}халазидскими чернокнижниками
+%%%%
 {ins}halberd
 {f}алебардой
 %%%%
@@ -43951,11 +46549,35 @@ your ynoxinuls
 {ins}iron imps
 {pl}железными бесами
 %%%%
+{ins}ironbound beastmaster
+{m}закованным в железо повелителем зверей
+%%%%
+{ins}ironbound beastmasters
+{pl}закованными в железо повелителями зверей
+%%%%
+{ins}ironbound convoker
+{m}закованным в железо призывателем
+%%%%
+{ins}ironbound convokers
+{pl}закованными в железо призывателями
+%%%%
+{ins}ironbound frostheart
+{n}закованным в железо ледяным сердцем
+%%%%
+{ins}ironbound frosthearts
+{pl}закованными в железо ледяными сердцами
+%%%%
 {ins}ironbound preserver
 {m}закованным в железо заступником
 %%%%
 {ins}ironbound preservers
 {pl}закованными в железо заступниками
+%%%%
+{ins}ironbound thunderhulk
+{m}закованным в железо громовержцем
+%%%%
+{ins}ironbound thunderhulks
+{pl}закованными в железо громовержцами
 %%%%
 {ins}jackal
 {m}шакалом
@@ -44286,6 +46908,12 @@ your ynoxinuls
 %%%%
 {ins}quokkas
 {pl}квокками
+%%%%
+{ins}ragged hierophant
+{m}оборванным иерофантом
+%%%%
+{ins}ragged hierophants
+{pl}оборванными иерофантами
 %%%%
 {ins}rapier
 {f}рапирой
@@ -45019,11 +47647,41 @@ your ynoxinuls
 {ins}the deathcaps
 {pl}бледными поганками
 %%%%
+{ins}the deep elf annihilator
+{m}глубинным эльфом-уничтожителем
+%%%%
+{ins}the deep elf annihilators
+{pl}глубинными эльфами-уничтожителями
+%%%%
 {ins}the deep elf archer
 {m}глубинным эльфом-лучником
 %%%%
 {ins}the deep elf archers
 {pl}глубинными эльфами-лучниками
+%%%%
+{ins}the deep elf blademaster
+{m}глубинным эльфом-мастером клинка
+%%%%
+{ins}the deep elf blademasters
+{pl}глубинными эльфами-мастерами клинка
+%%%%
+{ins}the deep elf death mage
+{m}глубинным эльфом-магом смерти
+%%%%
+{ins}the deep elf death magi
+{pl}глубинными эльфами-магами смерти
+%%%%
+{ins}the deep elf demonologist
+{m}глубинным эльфом-демонологом
+%%%%
+{ins}the deep elf demonologists
+{pl}глубинными эльфами-демонологами
+%%%%
+{ins}the deep elf high priest
+{m}верховным жрецом глубинных эльфов
+%%%%
+{ins}the deep elf high priests
+{pl}верховными жрецами глубинных эльфов
 %%%%
 {ins}the deep elf knight
 {m}глубинным эльфом-рыцарем
@@ -45031,11 +47689,29 @@ your ynoxinuls
 {ins}the deep elf knights
 {pl}глубинными эльфами-рыцарями
 %%%%
+{ins}the deep elf master archer
+{m}глубинным эльфом-мастером стрельбы
+%%%%
+{ins}the deep elf master archers
+{pl}глубинными эльфами-мастерами стрельбы
+%%%%
 {ins}the deep elf pyromancer
 {m}глубинным эльфом-пиромантом
 %%%%
 {ins}the deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
+%%%%
+{ins}the deep elf sorcerer
+{m}глубинным эльфом-чародеем
+%%%%
+{ins}the deep elf sorcerers
+{pl}глубинными эльфами-чародеями
+%%%%
+{ins}the deep elf zephyrmancer
+{m}глубинным эльфом-аэромантом
+%%%%
+{ins}the deep elf zephyrmancers
+{pl}глубинными эльфами-аэромантами
 %%%%
 {ins}the demon blade
 {m}демоническим клинком
@@ -45244,6 +47920,12 @@ your ynoxinuls
 {ins}the griffons
 {pl}грифонами
 %%%%
+{ins}the halazid warlock
+{m}халазидским чернокнижником
+%%%%
+{ins}the halazid warlocks
+{pl}халазидскими чернокнижниками
+%%%%
 {ins}the halberd
 {f}алебардой
 %%%%
@@ -45346,11 +48028,35 @@ your ynoxinuls
 {ins}the iron imps
 {pl}железными бесами
 %%%%
+{ins}the ironbound beastmaster
+{m}закованным в железо повелителем зверей
+%%%%
+{ins}the ironbound beastmasters
+{pl}закованными в железо повелителями зверей
+%%%%
+{ins}the ironbound convoker
+{m}закованным в железо призывателем
+%%%%
+{ins}the ironbound convokers
+{pl}закованными в железо призывателями
+%%%%
+{ins}the ironbound frostheart
+{n}закованным в железо ледяным сердцем
+%%%%
+{ins}the ironbound frosthearts
+{pl}закованными в железо ледяными сердцами
+%%%%
 {ins}the ironbound preserver
 {m}закованным в железо заступником
 %%%%
 {ins}the ironbound preservers
 {pl}закованными в железо заступниками
+%%%%
+{ins}the ironbound thunderhulk
+{m}закованным в железо громовержцем
+%%%%
+{ins}the ironbound thunderhulks
+{pl}закованными в железо громовержцами
 %%%%
 {ins}the jackal
 {m}шакалом
@@ -45681,6 +48387,12 @@ your ynoxinuls
 %%%%
 {ins}the quokkas
 {pl}квокками
+%%%%
+{ins}the ragged hierophant
+{m}оборванным иерофантом
+%%%%
+{ins}the ragged hierophants
+{pl}оборванными иерофантами
 %%%%
 {ins}the rapier
 {f}рапирой
@@ -46186,6 +48898,18 @@ your ynoxinuls
 {ins}the vampires
 {pl}вампирами
 %%%%
+{ins}the vault guard
+{m}стражем Хранилищ
+%%%%
+{ins}the vault guards
+{pl}стражами Хранилищ
+%%%%
+{ins}the vault sentinel
+{m}дозорным Хранилищ
+%%%%
+{ins}the vault sentinels
+{pl}дозорными Хранилищ
+%%%%
 {ins}the vault warden
 {m}смотрителем Хранилищ
 %%%%
@@ -46419,6 +49143,18 @@ your ynoxinuls
 %%%%
 {ins}vampires
 {pl}вампирами
+%%%%
+{ins}vault guard
+{m}стражем Хранилищ
+%%%%
+{ins}vault guards
+{pl}стражами Хранилищ
+%%%%
+{ins}vault sentinel
+{m}дозорным Хранилищ
+%%%%
+{ins}vault sentinels
+{pl}дозорными Хранилищ
 %%%%
 {ins}vault warden
 {m}смотрителем Хранилищ
@@ -46882,11 +49618,41 @@ your ynoxinuls
 {ins}your deathcaps
 {pl}бледными поганками
 %%%%
+{ins}your deep elf annihilator
+{m}глубинным эльфом-уничтожителем
+%%%%
+{ins}your deep elf annihilators
+{pl}глубинными эльфами-уничтожителями
+%%%%
 {ins}your deep elf archer
 {m}глубинным эльфом-лучником
 %%%%
 {ins}your deep elf archers
 {pl}глубинными эльфами-лучниками
+%%%%
+{ins}your deep elf blademaster
+{m}глубинным эльфом-мастером клинка
+%%%%
+{ins}your deep elf blademasters
+{pl}глубинными эльфами-мастерами клинка
+%%%%
+{ins}your deep elf death mage
+{m}глубинным эльфом-магом смерти
+%%%%
+{ins}your deep elf death magi
+{pl}глубинными эльфами-магами смерти
+%%%%
+{ins}your deep elf demonologist
+{m}глубинным эльфом-демонологом
+%%%%
+{ins}your deep elf demonologists
+{pl}глубинными эльфами-демонологами
+%%%%
+{ins}your deep elf high priest
+{m}верховным жрецом глубинных эльфов
+%%%%
+{ins}your deep elf high priests
+{pl}верховными жрецами глубинных эльфов
 %%%%
 {ins}your deep elf knight
 {m}глубинным эльфом-рыцарем
@@ -46894,11 +49660,29 @@ your ynoxinuls
 {ins}your deep elf knights
 {pl}глубинными эльфами-рыцарями
 %%%%
+{ins}your deep elf master archer
+{m}глубинным эльфом-мастером стрельбы
+%%%%
+{ins}your deep elf master archers
+{pl}глубинными эльфами-мастерами стрельбы
+%%%%
 {ins}your deep elf pyromancer
 {m}глубинным эльфом-пиромантом
 %%%%
 {ins}your deep elf pyromancers
 {pl}глубинными эльфами-пиромантами
+%%%%
+{ins}your deep elf sorcerer
+{m}глубинным эльфом-чародеем
+%%%%
+{ins}your deep elf sorcerers
+{pl}глубинными эльфами-чародеями
+%%%%
+{ins}your deep elf zephyrmancer
+{m}глубинным эльфом-аэромантом
+%%%%
+{ins}your deep elf zephyrmancers
+{pl}глубинными эльфами-аэромантами
 %%%%
 {ins}your demon blade
 {m}демоническим клинком
@@ -47107,6 +49891,12 @@ your ynoxinuls
 {ins}your griffons
 {pl}грифонами
 %%%%
+{ins}your halazid warlock
+{m}халазидским чернокнижником
+%%%%
+{ins}your halazid warlocks
+{pl}халазидскими чернокнижниками
+%%%%
 {ins}your halberd
 {f}алебардой
 %%%%
@@ -47209,11 +49999,35 @@ your ynoxinuls
 {ins}your iron imps
 {pl}железными бесами
 %%%%
+{ins}your ironbound beastmaster
+{m}закованным в железо повелителем зверей
+%%%%
+{ins}your ironbound beastmasters
+{pl}закованными в железо повелителями зверей
+%%%%
+{ins}your ironbound convoker
+{m}закованным в железо призывателем
+%%%%
+{ins}your ironbound convokers
+{pl}закованными в железо призывателями
+%%%%
+{ins}your ironbound frostheart
+{n}закованным в железо ледяным сердцем
+%%%%
+{ins}your ironbound frosthearts
+{pl}закованными в железо ледяными сердцами
+%%%%
 {ins}your ironbound preserver
 {m}закованным в железо заступником
 %%%%
 {ins}your ironbound preservers
 {pl}закованными в железо заступниками
+%%%%
+{ins}your ironbound thunderhulk
+{m}закованным в железо громовержцем
+%%%%
+{ins}your ironbound thunderhulks
+{pl}закованными в железо громовержцами
 %%%%
 {ins}your jackal
 {m}шакалом
@@ -47544,6 +50358,12 @@ your ynoxinuls
 %%%%
 {ins}your quokkas
 {pl}квокками
+%%%%
+{ins}your ragged hierophant
+{m}оборванным иерофантом
+%%%%
+{ins}your ragged hierophants
+{pl}оборванными иерофантами
 %%%%
 {ins}your rapier
 {f}рапирой
@@ -48049,6 +50869,18 @@ your ynoxinuls
 {ins}your vampires
 {pl}вампирами
 %%%%
+{ins}your vault guard
+{m}стражем Хранилищ
+%%%%
+{ins}your vault guards
+{pl}стражами Хранилищ
+%%%%
+{ins}your vault sentinel
+{m}дозорным Хранилищ
+%%%%
+{ins}your vault sentinels
+{pl}дозорными Хранилищ
+%%%%
 {ins}your vault warden
 {m}смотрителем Хранилищ
 %%%%
@@ -48349,14 +51181,38 @@ your ynoxinuls
 {many}@num@ deathcaps
 @num@ бледных поганок
 %%%%
+{many}@num@ deep elf annihilators
+@num@ глубинных эльфов-уничтожителей
+%%%%
 {many}@num@ deep elf archers
 @num@ глубинных эльфов-лучников
+%%%%
+{many}@num@ deep elf blademasters
+@num@ глубинных эльфов-мастеров клинка
+%%%%
+{many}@num@ deep elf death magi
+@num@ глубинных эльфов-магов смерти
+%%%%
+{many}@num@ deep elf demonologists
+@num@ глубинных эльфов-демонологов
+%%%%
+{many}@num@ deep elf high priests
+@num@ верховных жрецов глубинных эльфов
 %%%%
 {many}@num@ deep elf knights
 @num@ глубинных эльфов-рыцарей
 %%%%
+{many}@num@ deep elf master archers
+@num@ глубинных эльфов-мастеров стрельбы
+%%%%
 {many}@num@ deep elf pyromancers
 @num@ глубинных эльфов-пиромантов
+%%%%
+{many}@num@ deep elf sorcerers
+@num@ глубинных эльфов-чародеев
+%%%%
+{many}@num@ deep elf zephyrmancers
+@num@ глубинных эльфов-аэромантов
 %%%%
 {many}@num@ demon blades
 @num@ демонических клинков
@@ -48463,6 +51319,9 @@ your ynoxinuls
 {many}@num@ griffons
 @num@ грифонов
 %%%%
+{many}@num@ halazid warlocks
+@num@ халазидских чернокнижников
+%%%%
 {many}@num@ halberds
 @num@ алебард
 %%%%
@@ -48514,8 +51373,20 @@ your ynoxinuls
 {many}@num@ iron imps
 @num@ железных бесов
 %%%%
+{many}@num@ ironbound beastmasters
+@num@ закованных в железо повелителей зверей
+%%%%
+{many}@num@ ironbound convokers
+@num@ закованных в железо призывателей
+%%%%
+{many}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердец
+%%%%
 {many}@num@ ironbound preservers
 @num@ закованных в железо заступников
+%%%%
+{many}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцев
 %%%%
 {many}@num@ jackals
 @num@ шакалов
@@ -48681,6 +51552,9 @@ your ynoxinuls
 %%%%
 {many}@num@ quokkas
 @num@ квокк
+%%%%
+{many}@num@ ragged hierophants
+@num@ оборванных иерофантов
 %%%%
 {many}@num@ rapiers
 @num@ рапир
@@ -48937,6 +51811,12 @@ your ynoxinuls
 {many}@num@ vampires
 @num@ вампиров
 %%%%
+{many}@num@ vault guards
+@num@ стражей Хранилищ
+%%%%
+{many}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {many}@num@ vault wardens
 @num@ смотрителей Хранилищ
 %%%%
@@ -49192,14 +52072,38 @@ your ynoxinuls
 {nom}a deathcap
 {f}бледная поганка
 %%%%
+{nom}a deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
 {nom}a deep elf archer
 {m}глубинный эльф-лучник
+%%%%
+{nom}a deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+{nom}a deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+{nom}a deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+{nom}a deep elf high priest
+{m}верховный жрец глубинных эльфов
 %%%%
 {nom}a deep elf knight
 {m}глубинный эльф-рыцарь
 %%%%
+{nom}a deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
 {nom}a deep elf pyromancer
 {m}глубинный эльф-пиромант
+%%%%
+{nom}a deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+{nom}a deep elf zephyrmancer
+{m}глубинный эльф-аэромант
 %%%%
 {nom}a demon blade
 {m}демонический клинок
@@ -49306,6 +52210,9 @@ your ynoxinuls
 {nom}a griffon
 {m}грифон
 %%%%
+{nom}a halazid warlock
+{m}халазидский чернокнижник
+%%%%
 {nom}a halberd
 {f}алебарда
 %%%%
@@ -49357,8 +52264,20 @@ your ynoxinuls
 {nom}a iron imp
 {m}железный бес
 %%%%
+{nom}a ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+{nom}a ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+{nom}a ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
 {nom}a ironbound preserver
 {m}закованный в железо заступник
+%%%%
+{nom}a ironbound thunderhulk
+{m}закованный в железо громовержец
 %%%%
 {nom}a jackal
 {m}шакал
@@ -49524,6 +52443,9 @@ your ynoxinuls
 %%%%
 {nom}a quokka
 {f}квокка
+%%%%
+{nom}a ragged hierophant
+{m}оборванный иерофант
 %%%%
 {nom}a rapier
 {f}рапира
@@ -49779,6 +52701,12 @@ your ynoxinuls
 %%%%
 {nom}a vampire
 {m}вампир
+%%%%
+{nom}a vault guard
+{m}страж Хранилищ
+%%%%
+{nom}a vault sentinel
+{m}дозорный Хранилищ
 %%%%
 {nom}a vault warden
 {m}смотритель Хранилищ
@@ -50077,14 +53005,38 @@ your ynoxinuls
 {nom}an deathcap
 {f}бледная поганка
 %%%%
+{nom}an deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
 {nom}an deep elf archer
 {m}глубинный эльф-лучник
+%%%%
+{nom}an deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+{nom}an deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+{nom}an deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+{nom}an deep elf high priest
+{m}верховный жрец глубинных эльфов
 %%%%
 {nom}an deep elf knight
 {m}глубинный эльф-рыцарь
 %%%%
+{nom}an deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
 {nom}an deep elf pyromancer
 {m}глубинный эльф-пиромант
+%%%%
+{nom}an deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+{nom}an deep elf zephyrmancer
+{m}глубинный эльф-аэромант
 %%%%
 {nom}an demon blade
 {m}демонический клинок
@@ -50191,6 +53143,9 @@ your ynoxinuls
 {nom}an griffon
 {m}грифон
 %%%%
+{nom}an halazid warlock
+{m}халазидский чернокнижник
+%%%%
 {nom}an halberd
 {f}алебарда
 %%%%
@@ -50242,8 +53197,20 @@ your ynoxinuls
 {nom}an iron imp
 {m}железный бес
 %%%%
+{nom}an ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+{nom}an ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+{nom}an ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
 {nom}an ironbound preserver
 {m}закованный в железо заступник
+%%%%
+{nom}an ironbound thunderhulk
+{m}закованный в железо громовержец
 %%%%
 {nom}an jackal
 {m}шакал
@@ -50409,6 +53376,9 @@ your ynoxinuls
 %%%%
 {nom}an quokka
 {f}квокка
+%%%%
+{nom}an ragged hierophant
+{m}оборванный иерофант
 %%%%
 {nom}an rapier
 {f}рапира
@@ -50664,6 +53634,12 @@ your ynoxinuls
 %%%%
 {nom}an vampire
 {m}вампир
+%%%%
+{nom}an vault guard
+{m}страж Хранилищ
+%%%%
+{nom}an vault sentinel
+{m}дозорный Хранилищ
 %%%%
 {nom}an vault warden
 {m}смотритель Хранилищ
@@ -50968,11 +53944,41 @@ your ynoxinuls
 {nom}deathcaps
 {pl}бледные поганки
 %%%%
+{nom}deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+{nom}deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 {nom}deep elf archer
 {m}глубинный эльф-лучник
 %%%%
 {nom}deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+{nom}deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+{nom}deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+{nom}deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+{nom}deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+{nom}deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+{nom}deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+{nom}deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+{nom}deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 {nom}deep elf knight
 {m}глубинный эльф-рыцарь
@@ -50980,11 +53986,29 @@ your ynoxinuls
 {nom}deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+{nom}deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+{nom}deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 {nom}deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
 {nom}deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+{nom}deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+{nom}deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+{nom}deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+{nom}deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 {nom}demon blade
 {m}демонический клинок
@@ -51193,6 +54217,12 @@ your ynoxinuls
 {nom}griffons
 {pl}грифоны
 %%%%
+{nom}halazid warlock
+{m}халазидский чернокнижник
+%%%%
+{nom}halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 {nom}halberd
 {f}алебарда
 %%%%
@@ -51295,11 +54325,35 @@ your ynoxinuls
 {nom}iron imps
 {pl}железные бесы
 %%%%
+{nom}ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+{nom}ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+{nom}ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+{nom}ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+{nom}ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{nom}ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {nom}ironbound preserver
 {m}закованный в железо заступник
 %%%%
 {nom}ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+{nom}ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+{nom}ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 {nom}jackal
 {m}шакал
@@ -51630,6 +54684,12 @@ your ynoxinuls
 %%%%
 {nom}quokkas
 {pl}квокки
+%%%%
+{nom}ragged hierophant
+{m}оборванный иерофант
+%%%%
+{nom}ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 {nom}rapier
 {f}рапира
@@ -52363,11 +55423,41 @@ your ynoxinuls
 {nom}the deathcaps
 {pl}бледные поганки
 %%%%
+{nom}the deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+{nom}the deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 {nom}the deep elf archer
 {m}глубинный эльф-лучник
 %%%%
 {nom}the deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+{nom}the deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+{nom}the deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+{nom}the deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+{nom}the deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+{nom}the deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+{nom}the deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+{nom}the deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+{nom}the deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 {nom}the deep elf knight
 {m}глубинный эльф-рыцарь
@@ -52375,11 +55465,29 @@ your ynoxinuls
 {nom}the deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+{nom}the deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+{nom}the deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 {nom}the deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
 {nom}the deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+{nom}the deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+{nom}the deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+{nom}the deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+{nom}the deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 {nom}the demon blade
 {m}демонический клинок
@@ -52588,6 +55696,12 @@ your ynoxinuls
 {nom}the griffons
 {pl}грифоны
 %%%%
+{nom}the halazid warlock
+{m}халазидский чернокнижник
+%%%%
+{nom}the halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 {nom}the halberd
 {f}алебарда
 %%%%
@@ -52690,11 +55804,35 @@ your ynoxinuls
 {nom}the iron imps
 {pl}железные бесы
 %%%%
+{nom}the ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+{nom}the ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+{nom}the ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+{nom}the ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+{nom}the ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{nom}the ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {nom}the ironbound preserver
 {m}закованный в железо заступник
 %%%%
 {nom}the ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+{nom}the ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+{nom}the ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 {nom}the jackal
 {m}шакал
@@ -53025,6 +56163,12 @@ your ynoxinuls
 %%%%
 {nom}the quokkas
 {pl}квокки
+%%%%
+{nom}the ragged hierophant
+{m}оборванный иерофант
+%%%%
+{nom}the ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 {nom}the rapier
 {f}рапира
@@ -53530,6 +56674,18 @@ your ynoxinuls
 {nom}the vampires
 {pl}вампиры
 %%%%
+{nom}the vault guard
+{m}страж Хранилищ
+%%%%
+{nom}the vault guards
+{pl}стражи Хранилищ
+%%%%
+{nom}the vault sentinel
+{m}дозорный Хранилищ
+%%%%
+{nom}the vault sentinels
+{pl}дозорные Хранилищ
+%%%%
 {nom}the vault warden
 {m}смотритель Хранилищ
 %%%%
@@ -53763,6 +56919,18 @@ your ynoxinuls
 %%%%
 {nom}vampires
 {pl}вампиры
+%%%%
+{nom}vault guard
+{m}страж Хранилищ
+%%%%
+{nom}vault guards
+{pl}стражи Хранилищ
+%%%%
+{nom}vault sentinel
+{m}дозорный Хранилищ
+%%%%
+{nom}vault sentinels
+{pl}дозорные Хранилищ
 %%%%
 {nom}vault warden
 {m}смотритель Хранилищ
@@ -54226,11 +57394,41 @@ your ynoxinuls
 {nom}your deathcaps
 {pl}бледные поганки
 %%%%
+{nom}your deep elf annihilator
+{m}глубинный эльф-уничтожитель
+%%%%
+{nom}your deep elf annihilators
+{pl}глубинные эльфы-уничтожители
+%%%%
 {nom}your deep elf archer
 {m}глубинный эльф-лучник
 %%%%
 {nom}your deep elf archers
 {pl}глубинные эльфы-лучники
+%%%%
+{nom}your deep elf blademaster
+{m}глубинный эльф-мастер клинка
+%%%%
+{nom}your deep elf blademasters
+{pl}глубинные эльфы-мастера клинка
+%%%%
+{nom}your deep elf death mage
+{m}глубинный эльф-маг смерти
+%%%%
+{nom}your deep elf death magi
+{pl}глубинные эльфы-маги смерти
+%%%%
+{nom}your deep elf demonologist
+{m}глубинный эльф-демонолог
+%%%%
+{nom}your deep elf demonologists
+{pl}глубинные эльфы-демонологи
+%%%%
+{nom}your deep elf high priest
+{m}верховный жрец глубинных эльфов
+%%%%
+{nom}your deep elf high priests
+{pl}верховные жрецы глубинных эльфов
 %%%%
 {nom}your deep elf knight
 {m}глубинный эльф-рыцарь
@@ -54238,11 +57436,29 @@ your ynoxinuls
 {nom}your deep elf knights
 {pl}глубинные эльфы-рыцари
 %%%%
+{nom}your deep elf master archer
+{m}глубинный эльф-мастер стрельбы
+%%%%
+{nom}your deep elf master archers
+{pl}глубинные эльфы-мастера стрельбы
+%%%%
 {nom}your deep elf pyromancer
 {m}глубинный эльф-пиромант
 %%%%
 {nom}your deep elf pyromancers
 {pl}глубинные эльфы-пироманты
+%%%%
+{nom}your deep elf sorcerer
+{m}глубинный эльф-чародей
+%%%%
+{nom}your deep elf sorcerers
+{pl}глубинные эльфы-чародеи
+%%%%
+{nom}your deep elf zephyrmancer
+{m}глубинный эльф-аэромант
+%%%%
+{nom}your deep elf zephyrmancers
+{pl}глубинные эльфы-аэроманты
 %%%%
 {nom}your demon blade
 {m}демонический клинок
@@ -54451,6 +57667,12 @@ your ynoxinuls
 {nom}your griffons
 {pl}грифоны
 %%%%
+{nom}your halazid warlock
+{m}халазидский чернокнижник
+%%%%
+{nom}your halazid warlocks
+{pl}халазидские чернокнижники
+%%%%
 {nom}your halberd
 {f}алебарда
 %%%%
@@ -54553,11 +57775,35 @@ your ynoxinuls
 {nom}your iron imps
 {pl}железные бесы
 %%%%
+{nom}your ironbound beastmaster
+{m}закованный в железо повелитель зверей
+%%%%
+{nom}your ironbound beastmasters
+{pl}закованные в железо повелители зверей
+%%%%
+{nom}your ironbound convoker
+{m}закованный в железо призыватель
+%%%%
+{nom}your ironbound convokers
+{pl}закованные в железо призыватели
+%%%%
+{nom}your ironbound frostheart
+{n}закованное в железо ледяное сердце
+%%%%
+{nom}your ironbound frosthearts
+{pl}закованные в железо ледяные сердца
+%%%%
 {nom}your ironbound preserver
 {m}закованный в железо заступник
 %%%%
 {nom}your ironbound preservers
 {pl}закованные в железо заступники
+%%%%
+{nom}your ironbound thunderhulk
+{m}закованный в железо громовержец
+%%%%
+{nom}your ironbound thunderhulks
+{pl}закованные в железо громовержцы
 %%%%
 {nom}your jackal
 {m}шакал
@@ -54888,6 +58134,12 @@ your ynoxinuls
 %%%%
 {nom}your quokkas
 {pl}квокки
+%%%%
+{nom}your ragged hierophant
+{m}оборванный иерофант
+%%%%
+{nom}your ragged hierophants
+{pl}оборванные иерофанты
 %%%%
 {nom}your rapier
 {f}рапира
@@ -55393,6 +58645,18 @@ your ynoxinuls
 {nom}your vampires
 {pl}вампиры
 %%%%
+{nom}your vault guard
+{m}страж Хранилищ
+%%%%
+{nom}your vault guards
+{pl}стражи Хранилищ
+%%%%
+{nom}your vault sentinel
+{m}дозорный Хранилищ
+%%%%
+{nom}your vault sentinels
+{pl}дозорные Хранилищ
+%%%%
 {nom}your vault warden
 {m}смотритель Хранилищ
 %%%%
@@ -55693,14 +58957,38 @@ your ynoxinuls
 {one}@num@ deathcaps
 @num@ бледная поганка
 %%%%
+{one}@num@ deep elf annihilators
+@num@ глубинный эльф-уничтожитель
+%%%%
 {one}@num@ deep elf archers
 @num@ глубинный эльф-лучник
+%%%%
+{one}@num@ deep elf blademasters
+@num@ глубинный эльф-мастер клинка
+%%%%
+{one}@num@ deep elf death magi
+@num@ глубинный эльф-маг смерти
+%%%%
+{one}@num@ deep elf demonologists
+@num@ глубинный эльф-демонолог
+%%%%
+{one}@num@ deep elf high priests
+@num@ верховный жрец глубинных эльфов
 %%%%
 {one}@num@ deep elf knights
 @num@ глубинный эльф-рыцарь
 %%%%
+{one}@num@ deep elf master archers
+@num@ глубинный эльф-мастер стрельбы
+%%%%
 {one}@num@ deep elf pyromancers
 @num@ глубинный эльф-пиромант
+%%%%
+{one}@num@ deep elf sorcerers
+@num@ глубинный эльф-чародей
+%%%%
+{one}@num@ deep elf zephyrmancers
+@num@ глубинный эльф-аэромант
 %%%%
 {one}@num@ demon blades
 @num@ демонический клинок
@@ -55807,6 +59095,9 @@ your ynoxinuls
 {one}@num@ griffons
 @num@ грифон
 %%%%
+{one}@num@ halazid warlocks
+@num@ халазидский чернокнижник
+%%%%
 {one}@num@ halberds
 @num@ алебарда
 %%%%
@@ -55858,8 +59149,20 @@ your ynoxinuls
 {one}@num@ iron imps
 @num@ железный бес
 %%%%
+{one}@num@ ironbound beastmasters
+@num@ закованный в железо повелитель зверей
+%%%%
+{one}@num@ ironbound convokers
+@num@ закованный в железо призыватель
+%%%%
+{one}@num@ ironbound frosthearts
+@num@ закованное в железо ледяное сердце
+%%%%
 {one}@num@ ironbound preservers
 @num@ закованный в железо заступник
+%%%%
+{one}@num@ ironbound thunderhulks
+@num@ закованный в железо громовержец
 %%%%
 {one}@num@ jackals
 @num@ шакал
@@ -56025,6 +59328,9 @@ your ynoxinuls
 %%%%
 {one}@num@ quokkas
 @num@ квокка
+%%%%
+{one}@num@ ragged hierophants
+@num@ оборванный иерофант
 %%%%
 {one}@num@ rapiers
 @num@ рапира
@@ -56281,6 +59587,12 @@ your ynoxinuls
 {one}@num@ vampires
 @num@ вампир
 %%%%
+{one}@num@ vault guards
+@num@ страж Хранилищ
+%%%%
+{one}@num@ vault sentinels
+@num@ дозорный Хранилищ
+%%%%
 {one}@num@ vault wardens
 @num@ смотритель Хранилищ
 %%%%
@@ -56512,14 +59824,38 @@ your ynoxinuls
 {prep_few}@num@ deathcaps
 @num@ бледных поганках
 %%%%
+{prep_few}@num@ deep elf annihilators
+@num@ глубинных эльфах-уничтожителях
+%%%%
 {prep_few}@num@ deep elf archers
 @num@ глубинных эльфах-лучниках
+%%%%
+{prep_few}@num@ deep elf blademasters
+@num@ глубинных эльфах-мастерах клинка
+%%%%
+{prep_few}@num@ deep elf death magi
+@num@ глубинных эльфах-магах смерти
+%%%%
+{prep_few}@num@ deep elf demonologists
+@num@ глубинных эльфах-демонологах
+%%%%
+{prep_few}@num@ deep elf high priests
+@num@ верховных жрецах глубинных эльфов
 %%%%
 {prep_few}@num@ deep elf knights
 @num@ глубинных эльфах-рыцарях
 %%%%
+{prep_few}@num@ deep elf master archers
+@num@ глубинных эльфах-мастерах стрельбы
+%%%%
 {prep_few}@num@ deep elf pyromancers
 @num@ глубинных эльфах-пиромантах
+%%%%
+{prep_few}@num@ deep elf sorcerers
+@num@ глубинных эльфах-чародеях
+%%%%
+{prep_few}@num@ deep elf zephyrmancers
+@num@ глубинных эльфах-аэромантах
 %%%%
 {prep_few}@num@ demon blades
 @num@ демонических клинках
@@ -56626,6 +59962,9 @@ your ynoxinuls
 {prep_few}@num@ griffons
 @num@ грифонах
 %%%%
+{prep_few}@num@ halazid warlocks
+@num@ халазидских чернокнижниках
+%%%%
 {prep_few}@num@ halberds
 @num@ алебардах
 %%%%
@@ -56677,8 +60016,20 @@ your ynoxinuls
 {prep_few}@num@ iron imps
 @num@ железных бесах
 %%%%
+{prep_few}@num@ ironbound beastmasters
+@num@ закованных в железо повелителях зверей
+%%%%
+{prep_few}@num@ ironbound convokers
+@num@ закованных в железо призывателях
+%%%%
+{prep_few}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердцах
+%%%%
 {prep_few}@num@ ironbound preservers
 @num@ закованных в железо заступниках
+%%%%
+{prep_few}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцах
 %%%%
 {prep_few}@num@ jackals
 @num@ шакалах
@@ -56844,6 +60195,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ quokkas
 @num@ квокках
+%%%%
+{prep_few}@num@ ragged hierophants
+@num@ оборванных иерофантах
 %%%%
 {prep_few}@num@ rapiers
 @num@ рапирах
@@ -57100,6 +60454,12 @@ your ynoxinuls
 {prep_few}@num@ vampires
 @num@ вампирах
 %%%%
+{prep_few}@num@ vault guards
+@num@ стражах Хранилищ
+%%%%
+{prep_few}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {prep_few}@num@ vault wardens
 @num@ смотрителях Хранилищ
 %%%%
@@ -57331,14 +60691,38 @@ your ynoxinuls
 {prep_many}@num@ deathcaps
 @num@ бледных поганках
 %%%%
+{prep_many}@num@ deep elf annihilators
+@num@ глубинных эльфах-уничтожителях
+%%%%
 {prep_many}@num@ deep elf archers
 @num@ глубинных эльфах-лучниках
+%%%%
+{prep_many}@num@ deep elf blademasters
+@num@ глубинных эльфах-мастерах клинка
+%%%%
+{prep_many}@num@ deep elf death magi
+@num@ глубинных эльфах-магах смерти
+%%%%
+{prep_many}@num@ deep elf demonologists
+@num@ глубинных эльфах-демонологах
+%%%%
+{prep_many}@num@ deep elf high priests
+@num@ верховных жрецах глубинных эльфов
 %%%%
 {prep_many}@num@ deep elf knights
 @num@ глубинных эльфах-рыцарях
 %%%%
+{prep_many}@num@ deep elf master archers
+@num@ глубинных эльфах-мастерах стрельбы
+%%%%
 {prep_many}@num@ deep elf pyromancers
 @num@ глубинных эльфах-пиромантах
+%%%%
+{prep_many}@num@ deep elf sorcerers
+@num@ глубинных эльфах-чародеях
+%%%%
+{prep_many}@num@ deep elf zephyrmancers
+@num@ глубинных эльфах-аэромантах
 %%%%
 {prep_many}@num@ demon blades
 @num@ демонических клинках
@@ -57445,6 +60829,9 @@ your ynoxinuls
 {prep_many}@num@ griffons
 @num@ грифонах
 %%%%
+{prep_many}@num@ halazid warlocks
+@num@ халазидских чернокнижниках
+%%%%
 {prep_many}@num@ halberds
 @num@ алебардах
 %%%%
@@ -57496,8 +60883,20 @@ your ynoxinuls
 {prep_many}@num@ iron imps
 @num@ железных бесах
 %%%%
+{prep_many}@num@ ironbound beastmasters
+@num@ закованных в железо повелителях зверей
+%%%%
+{prep_many}@num@ ironbound convokers
+@num@ закованных в железо призывателях
+%%%%
+{prep_many}@num@ ironbound frosthearts
+@num@ закованных в железо ледяных сердцах
+%%%%
 {prep_many}@num@ ironbound preservers
 @num@ закованных в железо заступниках
+%%%%
+{prep_many}@num@ ironbound thunderhulks
+@num@ закованных в железо громовержцах
 %%%%
 {prep_many}@num@ jackals
 @num@ шакалах
@@ -57663,6 +61062,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ quokkas
 @num@ квокках
+%%%%
+{prep_many}@num@ ragged hierophants
+@num@ оборванных иерофантах
 %%%%
 {prep_many}@num@ rapiers
 @num@ рапирах
@@ -57919,6 +61321,12 @@ your ynoxinuls
 {prep_many}@num@ vampires
 @num@ вампирах
 %%%%
+{prep_many}@num@ vault guards
+@num@ стражах Хранилищ
+%%%%
+{prep_many}@num@ vault sentinels
+@num@ дозорных Хранилищ
+%%%%
 {prep_many}@num@ vault wardens
 @num@ смотрителях Хранилищ
 %%%%
@@ -58150,14 +61558,38 @@ your ynoxinuls
 {prep_one}@num@ deathcaps
 @num@ бледной поганке
 %%%%
+{prep_one}@num@ deep elf annihilators
+@num@ глубинном эльфе-уничтожителе
+%%%%
 {prep_one}@num@ deep elf archers
 @num@ глубинном эльфе-лучнике
+%%%%
+{prep_one}@num@ deep elf blademasters
+@num@ глубинном эльфе-мастере клинка
+%%%%
+{prep_one}@num@ deep elf death magi
+@num@ глубинном эльфе-маге смерти
+%%%%
+{prep_one}@num@ deep elf demonologists
+@num@ глубинном эльфе-демонологе
+%%%%
+{prep_one}@num@ deep elf high priests
+@num@ верховном жреце глубинных эльфов
 %%%%
 {prep_one}@num@ deep elf knights
 @num@ глубинном эльфе-рыцаре
 %%%%
+{prep_one}@num@ deep elf master archers
+@num@ глубинном эльфе-мастере стрельбы
+%%%%
 {prep_one}@num@ deep elf pyromancers
 @num@ глубинном эльфе-пироманте
+%%%%
+{prep_one}@num@ deep elf sorcerers
+@num@ глубинном эльфе-чародее
+%%%%
+{prep_one}@num@ deep elf zephyrmancers
+@num@ глубинном эльфе-аэроманте
 %%%%
 {prep_one}@num@ demon blades
 @num@ демоническом клинке
@@ -58264,6 +61696,9 @@ your ynoxinuls
 {prep_one}@num@ griffons
 @num@ грифоне
 %%%%
+{prep_one}@num@ halazid warlocks
+@num@ халазидском чернокнижнике
+%%%%
 {prep_one}@num@ halberds
 @num@ алебарде
 %%%%
@@ -58315,8 +61750,20 @@ your ynoxinuls
 {prep_one}@num@ iron imps
 @num@ железном бесе
 %%%%
+{prep_one}@num@ ironbound beastmasters
+@num@ закованном в железо повелителе зверей
+%%%%
+{prep_one}@num@ ironbound convokers
+@num@ закованном в железо призывателе
+%%%%
+{prep_one}@num@ ironbound frosthearts
+@num@ закованном в железо ледяном сердце
+%%%%
 {prep_one}@num@ ironbound preservers
 @num@ закованном в железо заступнике
+%%%%
+{prep_one}@num@ ironbound thunderhulks
+@num@ закованном в железо громовержце
 %%%%
 {prep_one}@num@ jackals
 @num@ шакале
@@ -58482,6 +61929,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ quokkas
 @num@ квокке
+%%%%
+{prep_one}@num@ ragged hierophants
+@num@ оборванном иерофанте
 %%%%
 {prep_one}@num@ rapiers
 @num@ рапире
@@ -58738,6 +62188,12 @@ your ynoxinuls
 {prep_one}@num@ vampires
 @num@ вампире
 %%%%
+{prep_one}@num@ vault guards
+@num@ страже Хранилищ
+%%%%
+{prep_one}@num@ vault sentinels
+@num@ дозорном Хранилищ
+%%%%
 {prep_one}@num@ vault wardens
 @num@ смотрителе Хранилищ
 %%%%
@@ -58993,14 +62449,38 @@ your ynoxinuls
 {prep}a deathcap
 {f}бледной поганке
 %%%%
+{prep}a deep elf annihilator
+{m}глубинном эльфе-уничтожителе
+%%%%
 {prep}a deep elf archer
 {m}глубинном эльфе-лучнике
+%%%%
+{prep}a deep elf blademaster
+{m}глубинном эльфе-мастере клинка
+%%%%
+{prep}a deep elf death mage
+{m}глубинном эльфе-маге смерти
+%%%%
+{prep}a deep elf demonologist
+{m}глубинном эльфе-демонологе
+%%%%
+{prep}a deep elf high priest
+{m}верховном жреце глубинных эльфов
 %%%%
 {prep}a deep elf knight
 {m}глубинном эльфе-рыцаре
 %%%%
+{prep}a deep elf master archer
+{m}глубинном эльфе-мастере стрельбы
+%%%%
 {prep}a deep elf pyromancer
 {m}глубинном эльфе-пироманте
+%%%%
+{prep}a deep elf sorcerer
+{m}глубинном эльфе-чародее
+%%%%
+{prep}a deep elf zephyrmancer
+{m}глубинном эльфе-аэроманте
 %%%%
 {prep}a demon blade
 {m}демоническом клинке
@@ -59107,6 +62587,9 @@ your ynoxinuls
 {prep}a griffon
 {m}грифоне
 %%%%
+{prep}a halazid warlock
+{m}халазидском чернокнижнике
+%%%%
 {prep}a halberd
 {f}алебарде
 %%%%
@@ -59158,8 +62641,20 @@ your ynoxinuls
 {prep}a iron imp
 {m}железном бесе
 %%%%
+{prep}a ironbound beastmaster
+{m}закованном в железо повелителе зверей
+%%%%
+{prep}a ironbound convoker
+{m}закованном в железо призывателе
+%%%%
+{prep}a ironbound frostheart
+{n}закованном в железо ледяном сердце
+%%%%
 {prep}a ironbound preserver
 {m}закованном в железо заступнике
+%%%%
+{prep}a ironbound thunderhulk
+{m}закованном в железо громовержце
 %%%%
 {prep}a jackal
 {m}шакале
@@ -59325,6 +62820,9 @@ your ynoxinuls
 %%%%
 {prep}a quokka
 {f}квокке
+%%%%
+{prep}a ragged hierophant
+{m}оборванном иерофанте
 %%%%
 {prep}a rapier
 {f}рапире
@@ -59580,6 +63078,12 @@ your ynoxinuls
 %%%%
 {prep}a vampire
 {m}вампире
+%%%%
+{prep}a vault guard
+{m}страже Хранилищ
+%%%%
+{prep}a vault sentinel
+{m}дозорном Хранилищ
 %%%%
 {prep}a vault warden
 {m}смотрителе Хранилищ
@@ -59878,14 +63382,38 @@ your ynoxinuls
 {prep}an deathcap
 {f}бледной поганке
 %%%%
+{prep}an deep elf annihilator
+{m}глубинном эльфе-уничтожителе
+%%%%
 {prep}an deep elf archer
 {m}глубинном эльфе-лучнике
+%%%%
+{prep}an deep elf blademaster
+{m}глубинном эльфе-мастере клинка
+%%%%
+{prep}an deep elf death mage
+{m}глубинном эльфе-маге смерти
+%%%%
+{prep}an deep elf demonologist
+{m}глубинном эльфе-демонологе
+%%%%
+{prep}an deep elf high priest
+{m}верховном жреце глубинных эльфов
 %%%%
 {prep}an deep elf knight
 {m}глубинном эльфе-рыцаре
 %%%%
+{prep}an deep elf master archer
+{m}глубинном эльфе-мастере стрельбы
+%%%%
 {prep}an deep elf pyromancer
 {m}глубинном эльфе-пироманте
+%%%%
+{prep}an deep elf sorcerer
+{m}глубинном эльфе-чародее
+%%%%
+{prep}an deep elf zephyrmancer
+{m}глубинном эльфе-аэроманте
 %%%%
 {prep}an demon blade
 {m}демоническом клинке
@@ -59992,6 +63520,9 @@ your ynoxinuls
 {prep}an griffon
 {m}грифоне
 %%%%
+{prep}an halazid warlock
+{m}халазидском чернокнижнике
+%%%%
 {prep}an halberd
 {f}алебарде
 %%%%
@@ -60043,8 +63574,20 @@ your ynoxinuls
 {prep}an iron imp
 {m}железном бесе
 %%%%
+{prep}an ironbound beastmaster
+{m}закованном в железо повелителе зверей
+%%%%
+{prep}an ironbound convoker
+{m}закованном в железо призывателе
+%%%%
+{prep}an ironbound frostheart
+{n}закованном в железо ледяном сердце
+%%%%
 {prep}an ironbound preserver
 {m}закованном в железо заступнике
+%%%%
+{prep}an ironbound thunderhulk
+{m}закованном в железо громовержце
 %%%%
 {prep}an jackal
 {m}шакале
@@ -60210,6 +63753,9 @@ your ynoxinuls
 %%%%
 {prep}an quokka
 {f}квокке
+%%%%
+{prep}an ragged hierophant
+{m}оборванном иерофанте
 %%%%
 {prep}an rapier
 {f}рапире
@@ -60465,6 +64011,12 @@ your ynoxinuls
 %%%%
 {prep}an vampire
 {m}вампире
+%%%%
+{prep}an vault guard
+{m}страже Хранилищ
+%%%%
+{prep}an vault sentinel
+{m}дозорном Хранилищ
 %%%%
 {prep}an vault warden
 {m}смотрителе Хранилищ
@@ -60769,11 +64321,41 @@ your ynoxinuls
 {prep}deathcaps
 {pl}бледных поганках
 %%%%
+{prep}deep elf annihilator
+{m}глубинном эльфе-уничтожителе
+%%%%
+{prep}deep elf annihilators
+{pl}глубинных эльфах-уничтожителях
+%%%%
 {prep}deep elf archer
 {m}глубинном эльфе-лучнике
 %%%%
 {prep}deep elf archers
 {pl}глубинных эльфах-лучниках
+%%%%
+{prep}deep elf blademaster
+{m}глубинном эльфе-мастере клинка
+%%%%
+{prep}deep elf blademasters
+{pl}глубинных эльфах-мастерах клинка
+%%%%
+{prep}deep elf death mage
+{m}глубинном эльфе-маге смерти
+%%%%
+{prep}deep elf death magi
+{pl}глубинных эльфах-магах смерти
+%%%%
+{prep}deep elf demonologist
+{m}глубинном эльфе-демонологе
+%%%%
+{prep}deep elf demonologists
+{pl}глубинных эльфах-демонологах
+%%%%
+{prep}deep elf high priest
+{m}верховном жреце глубинных эльфов
+%%%%
+{prep}deep elf high priests
+{pl}верховных жрецах глубинных эльфов
 %%%%
 {prep}deep elf knight
 {m}глубинном эльфе-рыцаре
@@ -60781,11 +64363,29 @@ your ynoxinuls
 {prep}deep elf knights
 {pl}глубинных эльфах-рыцарях
 %%%%
+{prep}deep elf master archer
+{m}глубинном эльфе-мастере стрельбы
+%%%%
+{prep}deep elf master archers
+{pl}глубинных эльфах-мастерах стрельбы
+%%%%
 {prep}deep elf pyromancer
 {m}глубинном эльфе-пироманте
 %%%%
 {prep}deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
+%%%%
+{prep}deep elf sorcerer
+{m}глубинном эльфе-чародее
+%%%%
+{prep}deep elf sorcerers
+{pl}глубинных эльфах-чародеях
+%%%%
+{prep}deep elf zephyrmancer
+{m}глубинном эльфе-аэроманте
+%%%%
+{prep}deep elf zephyrmancers
+{pl}глубинных эльфах-аэромантах
 %%%%
 {prep}demon blade
 {m}демоническом клинке
@@ -60994,6 +64594,12 @@ your ynoxinuls
 {prep}griffons
 {pl}грифонах
 %%%%
+{prep}halazid warlock
+{m}халазидском чернокнижнике
+%%%%
+{prep}halazid warlocks
+{pl}халазидских чернокнижниках
+%%%%
 {prep}halberd
 {f}алебарде
 %%%%
@@ -61096,11 +64702,35 @@ your ynoxinuls
 {prep}iron imps
 {pl}железных бесах
 %%%%
+{prep}ironbound beastmaster
+{m}закованном в железо повелителе зверей
+%%%%
+{prep}ironbound beastmasters
+{pl}закованных в железо повелителях зверей
+%%%%
+{prep}ironbound convoker
+{m}закованном в железо призывателе
+%%%%
+{prep}ironbound convokers
+{pl}закованных в железо призывателях
+%%%%
+{prep}ironbound frostheart
+{n}закованном в железо ледяном сердце
+%%%%
+{prep}ironbound frosthearts
+{pl}закованных в железо ледяных сердцах
+%%%%
 {prep}ironbound preserver
 {m}закованном в железо заступнике
 %%%%
 {prep}ironbound preservers
 {pl}закованных в железо заступниках
+%%%%
+{prep}ironbound thunderhulk
+{m}закованном в железо громовержце
+%%%%
+{prep}ironbound thunderhulks
+{pl}закованных в железо громовержцах
 %%%%
 {prep}jackal
 {m}шакале
@@ -61431,6 +65061,12 @@ your ynoxinuls
 %%%%
 {prep}quokkas
 {pl}квокках
+%%%%
+{prep}ragged hierophant
+{m}оборванном иерофанте
+%%%%
+{prep}ragged hierophants
+{pl}оборванных иерофантах
 %%%%
 {prep}rapier
 {f}рапире
@@ -62164,11 +65800,41 @@ your ynoxinuls
 {prep}the deathcaps
 {pl}бледных поганках
 %%%%
+{prep}the deep elf annihilator
+{m}глубинном эльфе-уничтожителе
+%%%%
+{prep}the deep elf annihilators
+{pl}глубинных эльфах-уничтожителях
+%%%%
 {prep}the deep elf archer
 {m}глубинном эльфе-лучнике
 %%%%
 {prep}the deep elf archers
 {pl}глубинных эльфах-лучниках
+%%%%
+{prep}the deep elf blademaster
+{m}глубинном эльфе-мастере клинка
+%%%%
+{prep}the deep elf blademasters
+{pl}глубинных эльфах-мастерах клинка
+%%%%
+{prep}the deep elf death mage
+{m}глубинном эльфе-маге смерти
+%%%%
+{prep}the deep elf death magi
+{pl}глубинных эльфах-магах смерти
+%%%%
+{prep}the deep elf demonologist
+{m}глубинном эльфе-демонологе
+%%%%
+{prep}the deep elf demonologists
+{pl}глубинных эльфах-демонологах
+%%%%
+{prep}the deep elf high priest
+{m}верховном жреце глубинных эльфов
+%%%%
+{prep}the deep elf high priests
+{pl}верховных жрецах глубинных эльфов
 %%%%
 {prep}the deep elf knight
 {m}глубинном эльфе-рыцаре
@@ -62176,11 +65842,29 @@ your ynoxinuls
 {prep}the deep elf knights
 {pl}глубинных эльфах-рыцарях
 %%%%
+{prep}the deep elf master archer
+{m}глубинном эльфе-мастере стрельбы
+%%%%
+{prep}the deep elf master archers
+{pl}глубинных эльфах-мастерах стрельбы
+%%%%
 {prep}the deep elf pyromancer
 {m}глубинном эльфе-пироманте
 %%%%
 {prep}the deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
+%%%%
+{prep}the deep elf sorcerer
+{m}глубинном эльфе-чародее
+%%%%
+{prep}the deep elf sorcerers
+{pl}глубинных эльфах-чародеях
+%%%%
+{prep}the deep elf zephyrmancer
+{m}глубинном эльфе-аэроманте
+%%%%
+{prep}the deep elf zephyrmancers
+{pl}глубинных эльфах-аэромантах
 %%%%
 {prep}the demon blade
 {m}демоническом клинке
@@ -62389,6 +66073,12 @@ your ynoxinuls
 {prep}the griffons
 {pl}грифонах
 %%%%
+{prep}the halazid warlock
+{m}халазидском чернокнижнике
+%%%%
+{prep}the halazid warlocks
+{pl}халазидских чернокнижниках
+%%%%
 {prep}the halberd
 {f}алебарде
 %%%%
@@ -62491,11 +66181,35 @@ your ynoxinuls
 {prep}the iron imps
 {pl}железных бесах
 %%%%
+{prep}the ironbound beastmaster
+{m}закованном в железо повелителе зверей
+%%%%
+{prep}the ironbound beastmasters
+{pl}закованных в железо повелителях зверей
+%%%%
+{prep}the ironbound convoker
+{m}закованном в железо призывателе
+%%%%
+{prep}the ironbound convokers
+{pl}закованных в железо призывателях
+%%%%
+{prep}the ironbound frostheart
+{n}закованном в железо ледяном сердце
+%%%%
+{prep}the ironbound frosthearts
+{pl}закованных в железо ледяных сердцах
+%%%%
 {prep}the ironbound preserver
 {m}закованном в железо заступнике
 %%%%
 {prep}the ironbound preservers
 {pl}закованных в железо заступниках
+%%%%
+{prep}the ironbound thunderhulk
+{m}закованном в железо громовержце
+%%%%
+{prep}the ironbound thunderhulks
+{pl}закованных в железо громовержцах
 %%%%
 {prep}the jackal
 {m}шакале
@@ -62826,6 +66540,12 @@ your ynoxinuls
 %%%%
 {prep}the quokkas
 {pl}квокках
+%%%%
+{prep}the ragged hierophant
+{m}оборванном иерофанте
+%%%%
+{prep}the ragged hierophants
+{pl}оборванных иерофантах
 %%%%
 {prep}the rapier
 {f}рапире
@@ -63331,6 +67051,18 @@ your ynoxinuls
 {prep}the vampires
 {pl}вампирах
 %%%%
+{prep}the vault guard
+{m}страже Хранилищ
+%%%%
+{prep}the vault guards
+{pl}стражах Хранилищ
+%%%%
+{prep}the vault sentinel
+{m}дозорном Хранилищ
+%%%%
+{prep}the vault sentinels
+{pl}дозорных Хранилищ
+%%%%
 {prep}the vault warden
 {m}смотрителе Хранилищ
 %%%%
@@ -63564,6 +67296,18 @@ your ynoxinuls
 %%%%
 {prep}vampires
 {pl}вампирах
+%%%%
+{prep}vault guard
+{m}страже Хранилищ
+%%%%
+{prep}vault guards
+{pl}стражах Хранилищ
+%%%%
+{prep}vault sentinel
+{m}дозорном Хранилищ
+%%%%
+{prep}vault sentinels
+{pl}дозорных Хранилищ
 %%%%
 {prep}vault warden
 {m}смотрителе Хранилищ
@@ -64027,11 +67771,41 @@ your ynoxinuls
 {prep}your deathcaps
 {pl}бледных поганках
 %%%%
+{prep}your deep elf annihilator
+{m}глубинном эльфе-уничтожителе
+%%%%
+{prep}your deep elf annihilators
+{pl}глубинных эльфах-уничтожителях
+%%%%
 {prep}your deep elf archer
 {m}глубинном эльфе-лучнике
 %%%%
 {prep}your deep elf archers
 {pl}глубинных эльфах-лучниках
+%%%%
+{prep}your deep elf blademaster
+{m}глубинном эльфе-мастере клинка
+%%%%
+{prep}your deep elf blademasters
+{pl}глубинных эльфах-мастерах клинка
+%%%%
+{prep}your deep elf death mage
+{m}глубинном эльфе-маге смерти
+%%%%
+{prep}your deep elf death magi
+{pl}глубинных эльфах-магах смерти
+%%%%
+{prep}your deep elf demonologist
+{m}глубинном эльфе-демонологе
+%%%%
+{prep}your deep elf demonologists
+{pl}глубинных эльфах-демонологах
+%%%%
+{prep}your deep elf high priest
+{m}верховном жреце глубинных эльфов
+%%%%
+{prep}your deep elf high priests
+{pl}верховных жрецах глубинных эльфов
 %%%%
 {prep}your deep elf knight
 {m}глубинном эльфе-рыцаре
@@ -64039,11 +67813,29 @@ your ynoxinuls
 {prep}your deep elf knights
 {pl}глубинных эльфах-рыцарях
 %%%%
+{prep}your deep elf master archer
+{m}глубинном эльфе-мастере стрельбы
+%%%%
+{prep}your deep elf master archers
+{pl}глубинных эльфах-мастерах стрельбы
+%%%%
 {prep}your deep elf pyromancer
 {m}глубинном эльфе-пироманте
 %%%%
 {prep}your deep elf pyromancers
 {pl}глубинных эльфах-пиромантах
+%%%%
+{prep}your deep elf sorcerer
+{m}глубинном эльфе-чародее
+%%%%
+{prep}your deep elf sorcerers
+{pl}глубинных эльфах-чародеях
+%%%%
+{prep}your deep elf zephyrmancer
+{m}глубинном эльфе-аэроманте
+%%%%
+{prep}your deep elf zephyrmancers
+{pl}глубинных эльфах-аэромантах
 %%%%
 {prep}your demon blade
 {m}демоническом клинке
@@ -64252,6 +68044,12 @@ your ynoxinuls
 {prep}your griffons
 {pl}грифонах
 %%%%
+{prep}your halazid warlock
+{m}халазидском чернокнижнике
+%%%%
+{prep}your halazid warlocks
+{pl}халазидских чернокнижниках
+%%%%
 {prep}your halberd
 {f}алебарде
 %%%%
@@ -64354,11 +68152,35 @@ your ynoxinuls
 {prep}your iron imps
 {pl}железных бесах
 %%%%
+{prep}your ironbound beastmaster
+{m}закованном в железо повелителе зверей
+%%%%
+{prep}your ironbound beastmasters
+{pl}закованных в железо повелителях зверей
+%%%%
+{prep}your ironbound convoker
+{m}закованном в железо призывателе
+%%%%
+{prep}your ironbound convokers
+{pl}закованных в железо призывателях
+%%%%
+{prep}your ironbound frostheart
+{n}закованном в железо ледяном сердце
+%%%%
+{prep}your ironbound frosthearts
+{pl}закованных в железо ледяных сердцах
+%%%%
 {prep}your ironbound preserver
 {m}закованном в железо заступнике
 %%%%
 {prep}your ironbound preservers
 {pl}закованных в железо заступниках
+%%%%
+{prep}your ironbound thunderhulk
+{m}закованном в железо громовержце
+%%%%
+{prep}your ironbound thunderhulks
+{pl}закованных в железо громовержцах
 %%%%
 {prep}your jackal
 {m}шакале
@@ -64689,6 +68511,12 @@ your ynoxinuls
 %%%%
 {prep}your quokkas
 {pl}квокках
+%%%%
+{prep}your ragged hierophant
+{m}оборванном иерофанте
+%%%%
+{prep}your ragged hierophants
+{pl}оборванных иерофантах
 %%%%
 {prep}your rapier
 {f}рапире
@@ -65193,6 +69021,18 @@ your ynoxinuls
 %%%%
 {prep}your vampires
 {pl}вампирах
+%%%%
+{prep}your vault guard
+{m}страже Хранилищ
+%%%%
+{prep}your vault guards
+{pl}стражах Хранилищ
+%%%%
+{prep}your vault sentinel
+{m}дозорном Хранилищ
+%%%%
+{prep}your vault sentinels
+{pl}дозорных Хранилищ
 %%%%
 {prep}your vault warden
 {m}смотрителе Хранилищ

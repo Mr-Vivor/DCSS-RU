@@ -93,7 +93,10 @@ def serialize_db(entries):
 
 def outputs(entities):
     def quoted(value):
-        return '"' + value + '"' if value != value.strip() else value
+        # The text DB removes one pair of outer quotes. Preserve literal
+        # quotation marks in dialogue keys as well as boundary whitespace.
+        needs_quotes = value != value.strip() or (value.startswith('"') and value.endswith('"'))
+        return '"' + value + '"' if needs_quotes else value
 
     result = {ROOT / "crawl-ref/source/dat/translate/ru/entities.txt": serialize_db(game_entries(entities))}
     terms = json.loads((ROOT / "localization/ru/terms.json").read_text(encoding="utf8"))
