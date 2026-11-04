@@ -43,14 +43,14 @@
 | `monster.griffon` | [Грифон](pages/monster.griffon.md) | griffon | draft |
 | `monster.hydra` | [Гидра](pages/monster.hydra.md) | hydra | draft |
 | `monster.ice_dragon` | [Ледяной дракон](pages/monster.ice_dragon.md) | ice dragon | draft |
-| `monster.fire_dragon` | [Огненный дракон](pages/monster.fire_dragon.md) | fire dragon | draft |
+| `monster.fire_dragon` | [Огненный дракон](pages/monster.fire_dragon.md) | fire dragon | reviewed |
 | `monster.quicksilver_dragon` | [Ртутный дракон](pages/monster.quicksilver_dragon.md) | quicksilver dragon | draft |
 | `monster.golden_dragon` | [Золотой дракон](pages/monster.golden_dragon.md) | golden dragon | draft |
 | `monster.storm_dragon` | [Штормовой дракон](pages/monster.storm_dragon.md) | storm dragon | draft |
-| `monster.shadow_dragon` | [Теневой дракон](pages/monster.shadow_dragon.md) | shadow dragon | draft |
+| `monster.shadow_dragon` | [Теневой дракон](pages/monster.shadow_dragon.md) | shadow dragon | reviewed |
 | `monster.iron_dragon` | [Железный дракон](pages/monster.iron_dragon.md) | iron dragon | draft |
 | `monster.steam_dragon` | [Паровой дракон](pages/monster.steam_dragon.md) | steam dragon | draft |
-| `monster.acid_dragon` | [Кислотный дракон](pages/monster.acid_dragon.md) | acid dragon | draft |
+| `monster.acid_dragon` | [Кислотный дракон](pages/monster.acid_dragon.md) | acid dragon | reviewed |
 | `monster.wyvern` | [Виверна](pages/monster.wyvern.md) | wyvern | draft |
 | `monster.scorpion` | [Скорпион](pages/monster.scorpion.md) | scorpion | draft |
 | `monster.killer_bee` | [Пчела-убийца](pages/monster.killer_bee.md) | killer bee | draft |
@@ -82,7 +82,7 @@
 | `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | reviewed |
 | `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | reviewed |
 | `monster.stone_giant` | [Каменный великан](pages/monster.stone_giant.md) | stone giant | draft |
-| `monster.fire_giant` | [Огненный великан](pages/monster.fire_giant.md) | fire giant | draft |
+| `monster.fire_giant` | [Огненный великан](pages/monster.fire_giant.md) | fire giant | reviewed |
 | `monster.frost_giant` | [Морозный великан](pages/monster.frost_giant.md) | frost giant | draft |
 | `monster.cyclops` | [Циклоп](pages/monster.cyclops.md) | cyclops | draft |
 | `monster.ettin` | [Эттин](pages/monster.ettin.md) | ettin | draft |
@@ -468,3 +468,31 @@
 | `item.there_and_back_book` | [Книга «туда и обратно»](pages/item.there_and_back_book.md) | There-And-Back Book | reviewed |
 | `item.treatise_on_traps` | [Трактат о ловушках](pages/item.treatise_on_traps.md) | Treatise on Traps | reviewed |
 | `item.handbook_of_applied_construction` | [Руководство по прикладному строительству](pages/item.handbook_of_applied_construction.md) | Handbook of Applied Construction | reviewed |
+| `monster.draconian` | [Дракониан](pages/monster.draconian.md) | draconian | reviewed |
+| `monster.black_draconian` | [Чёрный дракониан](pages/monster.black_draconian.md) | black draconian | reviewed |
+| `monster.green_draconian` | [Зелёный дракониан](pages/monster.green_draconian.md) | green draconian | reviewed |
+| `monster.grey_draconian` | [Серый дракониан](pages/monster.grey_draconian.md) | grey draconian | reviewed |
+| `monster.pale_draconian` | [Бледный дракониан](pages/monster.pale_draconian.md) | pale draconian | reviewed |
+| `monster.purple_draconian` | [Пурпурный дракониан](pages/monster.purple_draconian.md) | purple draconian | reviewed |
+| `monster.red_draconian` | [Красный дракониан](pages/monster.red_draconian.md) | red draconian | reviewed |
+| `monster.white_draconian` | [Белый дракониан](pages/monster.white_draconian.md) | white draconian | reviewed |
+| `monster.yellow_draconian` | [Жёлтый дракониан](pages/monster.yellow_draconian.md) | yellow draconian | reviewed |
+| `monster.draconian_knight` | [Дракониан-рыцарь](pages/monster.draconian_knight.md) | draconian knight | reviewed |
+| `monster.draconian_monk` | [Дракониан-монах](pages/monster.draconian_monk.md) | draconian monk | reviewed |
+| `monster.draconian_scorcher` | [Дракониан-испепелитель](pages/monster.draconian_scorcher.md) | draconian scorcher | reviewed |
+| `monster.draconian_stormcaller` | [Дракониан-заклинатель бурь](pages/monster.draconian_stormcaller.md) | draconian stormcaller | reviewed |
+| `monster.pearl_dragon` | [Жемчужный дракон](pages/monster.pearl_dragon.md) | pearl dragon | reviewed |
+| `monster.bone_dragon` | [Костяной дракон](pages/monster.bone_dragon.md) | bone dragon | reviewed |
+| `monster.iron_giant` | [Железный великан](pages/monster.iron_giant.md) | iron giant | reviewed |
+| `monster.cactus_giant` | [Кактусовый великан](pages/monster.cactus_giant.md) | cactus giant | reviewed |
+| `monster.blazeheart_golem` | [Пламенный голем](pages/monster.blazeheart_golem.md) | blazeheart golem | reviewed |
+| `monster.orb_golem` | [Сферный голем](pages/monster.orb_golem.md) | orb golem | reviewed |
+| `monster.crystal_guardian` | [Кристаллический страж](pages/monster.crystal_guardian.md) | crystal guardian | reviewed |
+| `monster.blazeheart_core` | [Пламенное ядро](pages/monster.blazeheart_core.md) | blazeheart core | reviewed |
+| `monster.flesh_golem` | [Голем из плоти](pages/monster.flesh_golem.md) | flesh golem | reviewed |
+| `monster.polterguardian` | [Польтергардиан](pages/monster.polterguardian.md) | polterguardian | reviewed |
+| `monster.juggernaut` | [Джаггернаут](pages/monster.juggernaut.md) | juggernaut | reviewed |
+| `monster.titan` | [Титан](pages/monster.titan.md) | titan | reviewed |
+| `monster.guardian_sphinx` | [Сфинкс-страж](pages/monster.guardian_sphinx.md) | guardian sphinx | reviewed |
+| `monster.sphinx_marauder` | [Сфинкс-мародёр](pages/monster.sphinx_marauder.md) | sphinx marauder | reviewed |
+| `monster.wolf_spider` | [Паук-волк](pages/monster.wolf_spider.md) | wolf spider | reviewed |

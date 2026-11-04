@@ -1,13 +1,13 @@
 {
-  "entities": 460,
+  "entities": 488,
   "kinds": {
-    "monster": 193,
+    "monster": 221,
     "item": 267
   },
-  "generated_game_keys": 36695,
+  "generated_game_keys": 38935,
   "review": {
-    "draft": 120,
-    "reviewed": 340
+    "draft": 116,
+    "reviewed": 372
   },
   "wiki_articles": 3,
   "additional_terms": {
@@ -24,7 +24,7 @@
     "banes": 13,
     "gizmo_effects": 4,
     "item_classes": 1,
-    "monsters": 145
+    "monsters": 175
   },
   "static_catalogs": {
     "ui": 477,
@@ -76,7 +76,7 @@
     "egos": 80,
     "spells": 398,
     "ability": 155,
-    "monsters": 121,
+    "monsters": 153,
     "status": 233,
     "cards": 24,
     "unrand": 153,
