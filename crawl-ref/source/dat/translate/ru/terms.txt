@@ -2048,7 +2048,7 @@ Spellcasting
 Колдовство
 %%%%
 Spellspark Servitor
-Прислужник искры заклинаний
+Искровой прислужник
 %%%%
 Sphinx Sisters
 Сёстры-сфинксы
@@ -4577,7 +4577,7 @@ a Spellcasting
 колдовство
 %%%%
 a Spellspark Servitor
-прислужник искры заклинаний
+искровой прислужник
 %%%%
 a Sphinx Sisters
 сёстры-сфинксы
@@ -5242,6 +5242,9 @@ a baked corpse
 a ball lightning
 шаровая молния
 %%%%
+a ball python
+королевский питон
+%%%%
 a ballistomycete
 баллистомицет
 %%%%
@@ -5257,6 +5260,12 @@ a barachi
 a barding
 бардинг
 %%%%
+a basilisk
+василиск
+%%%%
+a bat
+летучая мышь
+%%%%
 a battlesphere
 боевая сфера
 %%%%
@@ -5269,8 +5278,14 @@ a bennu
 a bes kemwar
 бес кемвар
 %%%%
+a black bear
+чёрный медведь
+%%%%
 a black draconian
 чёрный дракониан
+%%%%
+a black mamba
+чёрная мамба
 %%%%
 a blade talisman
 талисман клинков
@@ -5280,6 +5295,9 @@ a blazeheart core
 %%%%
 a blazeheart golem
 пламенный голем
+%%%%
+a blink frog
+мерцающая лягушка
 %%%%
 a blizzard demon
 демон метели
@@ -5737,6 +5755,9 @@ a burstshroom
 a bush
 куст
 %%%%
+a butterfly
+бабочка
+%%%%
 a cacodemon
 какодемон
 %%%%
@@ -5763,6 +5784,12 @@ a caustic shrike
 %%%%
 a caustic sporangium
 едкий спорангий
+%%%%
+a centaur
+кентавр
+%%%%
+a centaur warrior
+кентавр-воин
 %%%%
 a centipede bauble
 фигурка многоножки
@@ -5836,6 +5863,9 @@ a creeping inferno
 a creeping plasmodium
 ползучий плазмодий
 %%%%
+a crimson imp
+багровый бес
+%%%%
 a crocodile
 крокодил
 %%%%
@@ -5872,6 +5902,9 @@ a curse toe
 a cutlass
 абордажный клинок
 %%%%
+a cyclops
+циклоп
+%%%%
 a daeva
 дэва
 %%%%
@@ -5901,6 +5934,9 @@ a death knight
 %%%%
 a death scarab
 скарабей смерти
+%%%%
+a death yak
+смертоносный як
 %%%%
 a deathcap
 бледная поганка
@@ -6033,6 +6069,9 @@ a dire elephant
 %%%%
 a dire flail
 тяжёлый цеп
+%%%%
+a dire wolf spider
+лютый паук-волк
 %%%%
 a djinni
 джинн
@@ -6185,10 +6224,10 @@ a eudemon blade
 эвдемонический клинок
 %%%%
 a eveningstar
-вечерняя звезда
+шипастая булава
 %%%%
 a eveningstar "Brilliance"
-вечерняя звезда «Сияние»
+шипастая булава «Сияние»
 %%%%
 a everburning encyclopedia
 вечно пылающая энциклопедия
@@ -6301,6 +6340,9 @@ a frilled lizard
 a frog
 лягушка
 %%%%
+a frost giant
+морозный великан
+%%%%
 a frost-covered statue
 покрытая инеем статуя
 %%%%
@@ -6349,8 +6391,14 @@ a ghost crab claws
 a ghost moth
 призрачная моль
 %%%%
+a ghost-faced bat
+летучая мышь с призрачной мордой
+%%%%
 a ghoul
 гуль
+%%%%
+a giant anaconda
+гигантская анаконда
 %%%%
 a giant club
 гигантская дубина
@@ -6369,6 +6417,9 @@ a giant spiked club
 %%%%
 a giant spiked club "Carina at Dusk"
 гигантская шипастая дубина «Карина в сумерках»
+%%%%
+a giga bat
+гигантская раздувшаяся летучая мышь
 %%%%
 a glaive of the Guard
 глефа Стража
@@ -6400,6 +6451,9 @@ a gnoll bouda
 a gnoll sergeant
 гнолл-сержант
 %%%%
+a goblin
+гоблин
+%%%%
 a goblin rider
 гоблин-всадник
 %%%%
@@ -6414,6 +6468,9 @@ a god wrath avatar
 %%%%
 a gold piece
 золотая монета
+%%%%
+a golden dragon
+золотой дракон
 %%%%
 a golden dragon scales
 чешуя золотого дракона
@@ -6430,6 +6487,9 @@ a goliath frog
 a grand grimoire
 великий гримуар
 %%%%
+a grandmaster elementalist
+великий мастер стихий
+%%%%
 a granite talisman
 гранитный талисман
 %%%%
@@ -6443,7 +6503,7 @@ a great mace "Undeadhunter"
 огромная булава «Охотник на нежить»
 %%%%
 a great orb of eyes
-большая сфера глаз
+большая глазастая сфера
 %%%%
 a great wizards, vol. ii
 великие чародеи, том II
@@ -6453,6 +6513,9 @@ a great wizards, vol. vii
 %%%%
 a greater air elemental
 высший воздушный элементаль
+%%%%
+a greater orb of eyes
+огромная глазастая сфера
 %%%%
 a greatsling
 большая праща
@@ -6556,11 +6619,17 @@ a herald of the abyss
 a hexer
 заклинатель чар
 %%%%
+a hippogriff
+гиппогриф
+%%%%
 a hive talisman
 талисман улья
 %%%%
 a hoarfrost cannon
 инейная пушка
+%%%%
+a hobgoblin
+хобгоблин
 %%%%
 a hog
 боров
@@ -6577,17 +6646,32 @@ a horn of Geryon
 a hornet
 шершень
 %%%%
+a hound
+гончая
+%%%%
 a howler monkey
 обезьяна-ревун
 %%%%
 a human
 человек
 %%%%
+a hydra
+гидра
+%%%%
 a hypnotail
 гипнохвост
 %%%%
+a ice bat
+ледяная летучая мышь
+%%%%
 a ice beast
 ледяной зверь
+%%%%
+a ice devil
+ледяной дьявол
+%%%%
+a ice dragon
+ледяной дракон
 %%%%
 a ice dragon arcanist's scales
 чешуя ледяной драконицы-чародейки
@@ -6610,6 +6694,9 @@ a inkwell talisman
 a inugami
 инугами
 %%%%
+a iron dragon
+железный дракон
+%%%%
 a iron elemental
 железный элементаль
 %%%%
@@ -6619,35 +6706,44 @@ a iron giant
 a iron golem
 железный голем
 %%%%
+a iron imp
+железный бес
+%%%%
 a iron troll
 железный тролль
 %%%%
 a ironbound beastmaster
-закованный в железо повелитель зверей
+повелитель зверей Железного ордена
 %%%%
 a ironbound convoker
-закованный в железо призыватель
+призыватель Железного ордена
 %%%%
 a ironbound frostheart
-закованное в железо ледяное сердце
+криомант Железного ордена
 %%%%
 a ironbound mechanist
-закованный в железо механик
+механик Железного ордена
 %%%%
 a ironbound preserver
-закованный в железо заступник
+заступник Железного ордена
 %%%%
 a ironbound thunderhulk
-закованный в железо громовержец
+громовержец Железного ордена
 %%%%
 a ivory gem
 самоцвет слоновой кости
+%%%%
+a jackal
+шакал
 %%%%
 a jade gem
 нефритовый самоцвет
 %%%%
 a jade talisman
 нефритовый талисман
+%%%%
+a jelly
+слизень
 %%%%
 a jiangshi
 цзянши
@@ -6667,6 +6763,9 @@ a justicar's regalia
 a katana
 катана
 %%%%
+a killer bee
+пчела-убийца
+%%%%
 a knife
 нож
 %%%%
@@ -6675,6 +6774,9 @@ a knife of Accuracy
 %%%%
 a knight
 рыцарь
+%%%%
+a kobold
+кобольд
 %%%%
 a kobold blastminer
 кобольд-взрывник
@@ -6690,6 +6792,9 @@ a kobold fleshcrafter
 %%%%
 a kobold geomancer
 кобольд-геомант
+%%%%
+a komodo dragon
+комодский варан
 %%%%
 a kraken
 кракен
@@ -6724,6 +6829,9 @@ a lava snake
 a lemure
 лемур
 %%%%
+a lich
+лич
+%%%%
 a lightning rod
 жезл молний
 %%%%
@@ -6748,6 +6856,9 @@ a longbow "Zephyr"
 a lost soul
 заблудшая душа
 %%%%
+a lunar statue
+лунная статуя
+%%%%
 a lupine talisman
 волчий талисман
 %%%%
@@ -6764,7 +6875,7 @@ a malarious merfolk avatar
 больной аватар русалок
 %%%%
 a mana viper
-гадюка маны
+мановая гадюка
 %%%%
 a manticore
 мантикора
@@ -6780,6 +6891,9 @@ a martyred shade
 %%%%
 a mask of the Dragon
 маска Дракона
+%%%%
+a master elementalist
+мастер стихий
 %%%%
 a maul
 молот
@@ -6801,6 +6915,9 @@ a meat hydra
 %%%%
 a medusa talisman
 талисман медузы
+%%%%
+a megabat
+мегалетучая мышь
 %%%%
 a meliai
 мелия
@@ -6825,6 +6942,9 @@ a merfolk siren
 %%%%
 a meteoran
 метеоран
+%%%%
+a microbat
+микролетучая мышь
 %%%%
 a midnight gem
 полуночный самоцвет
@@ -6901,6 +7021,9 @@ a naga ritualist
 a naga sharpshooter
 нага-снайпер
 %%%%
+a naga warlord
+нага-военачальник
+%%%%
 a naga warrior
 нага-воин
 %%%%
@@ -6958,6 +7081,9 @@ a octopode
 a octopus
 осьминог
 %%%%
+a ogre
+огр
+%%%%
 a ogre mage
 огр-маг
 %%%%
@@ -6967,11 +7093,29 @@ a oklob plant
 a oklob plant annihilator
 оклоб-уничтожитель
 %%%%
+a oklob plant conjurer
+оклоб-разрушитель
+%%%%
+a oklob plant demonologist
+оклоб-демонолог
+%%%%
+a oklob plant meteorologist
+оклоб-метеоролог
+%%%%
+a oklob plant shifter
+оклоб-перемещатель
+%%%%
+a oklob plant summoner
+оклоб-призыватель
+%%%%
 a oklob sapling
 росток оклоба
 %%%%
 a oklob sapling priest
 молодой оклоб-жрец
+%%%%
+a oklob sapling wizard
+саженец оклоба-волшебник
 %%%%
 a oni
 они
@@ -7099,11 +7243,20 @@ a phalanx beetle
 a phantasmal warrior
 призрачный воин
 %%%%
+a phantom
+фантом
+%%%%
 a phantom mirror
 призрачное зеркало
 %%%%
 a pharaoh ant
 муравей-фараон
+%%%%
+a phase bat
+фазовая летучая мышь
+%%%%
+a phase spider
+фазовый паук
 %%%%
 a phial of floods
 флакон потопа
@@ -7138,11 +7291,14 @@ a player illusion
 a plutonium sword
 плутониевый меч
 %%%%
+a polar bear
+белый медведь
+%%%%
 a poltergeist
 полтергейст
 %%%%
 a polterguardian
-польтергардиан
+полтергардиан
 %%%%
 a potion
 зелье
@@ -7231,6 +7387,12 @@ a putrid mouth
 a quad damage
 четырёхкратный урон
 %%%%
+a queen bee
+пчелиная матка
+%%%%
+a quicksilver dragon
+ртутный дракон
+%%%%
 a quicksilver dragon scales
 чешуя ртутного дракона
 %%%%
@@ -7239,6 +7401,9 @@ a quicksilver elemental
 %%%%
 a quill talisman
 талисман игл
+%%%%
+a quokka
+квокка
 %%%%
 a radroach
 радроуч
@@ -7251,6 +7416,9 @@ a raiju
 %%%%
 a rakshasa
 ракшас
+%%%%
+a rat
+крыса
 %%%%
 a ratskin cloak
 плащ из крысиных шкур
@@ -7462,6 +7630,9 @@ a sceptre of Torment
 a scimitar of Flaming Death
 скимитар Пылающей смерти
 %%%%
+a scorpion
+скорпион
+%%%%
 a scourge
 бич
 %%%%
@@ -7657,6 +7828,9 @@ a sin beast
 a sixfirhy
 сиксфирхи
 %%%%
+a skeletal bat
+скелет летучей мыши
+%%%%
 a skeletal warrior
 скелет-воин
 %%%%
@@ -7680,6 +7854,9 @@ a sleepcap
 %%%%
 a slick slippers
 скользкие туфли
+%%%%
+a slime creature
+слизистое существо
 %%%%
 a slymdra
 слаймдра
@@ -7736,7 +7913,7 @@ a spectral weapon
 призрачное оружие
 %%%%
 a spellspark servitor
-прислужник искры заклинаний
+искровой прислужник
 %%%%
 a sphere of Battle
 сфера Битвы
@@ -7764,6 +7941,9 @@ a spriggan
 %%%%
 a spriggan air mage
 спригган-маг воздуха
+%%%%
+a spriggan baker
+спригган-пекарь
 %%%%
 a spriggan berserker
 спригган-берсерк
@@ -7831,6 +8011,9 @@ a starspawn tentacle segment
 a statue
 статуя
 %%%%
+a steam dragon
+паровой дракон
+%%%%
 a steam dragon scales
 чешуя парового дракона
 %%%%
@@ -7843,8 +8026,14 @@ a still boulder
 a stoker
 кочегар
 %%%%
+a stone giant
+каменный великан
+%%%%
 a storm bow
 грозовой лук
+%%%%
+a storm dragon
+грозовой дракон
 %%%%
 a storm dragon scales
 чешуя грозового дракона
@@ -7854,6 +8043,9 @@ a storm talisman
 %%%%
 a strange machine
 странная машина
+%%%%
+a sulphuric acid blob
+сернокислотный сгусток
 %%%%
 a sun demon
 солнечный демон
@@ -7905,6 +8097,9 @@ a tengu reaver
 %%%%
 a tengu warrior
 тэнгу-воин
+%%%%
+a tentacle
+щупальце
 %%%%
 a tentacle segment
 сегмент щупальца
@@ -8009,7 +8204,7 @@ a toadstool
 поганка
 %%%%
 a toenail golem
-голем из ногтей на ногах
+ногтевой голем
 %%%%
 a toga "Victory"
 тога «Победа»
@@ -8028,6 +8223,9 @@ a tower shield "Bullseye"
 %%%%
 a tower shield of Ignorance
 башенный щит Невежества
+%%%%
+a training dummy
+учебный манекен
 %%%%
 a treatise on traps
 трактат о ловушках
@@ -8053,11 +8251,17 @@ a trismegistus codex
 a trivial sensed monster
 ничтожное обнаруженное существо
 %%%%
+a troll
+тролль
+%%%%
 a troll leather armour
 доспех из кожи тролля
 %%%%
 a twister
 смерч
+%%%%
+a two-headed ogre
+двухголовый огр
 %%%%
 a tyrant
 тиран
@@ -8106,6 +8310,9 @@ a vampire mosquito
 %%%%
 a vault guard
 страж Хранилищ
+%%%%
+a vault guard captain
+капитан стражи Хранилищ
 %%%%
 a vault sentinel
 дозорный Хранилищ
@@ -8203,6 +8410,9 @@ a water elemental
 a water elementalist statue
 статуя мага воды
 %%%%
+a water moccasin
+водяной щитомордник
+%%%%
 a water nymph
 водяная нимфа
 %%%%
@@ -8221,6 +8431,12 @@ a whip "Snakebite"
 a white draconian
 белый дракониан
 %%%%
+a white imp
+белый бес
+%%%%
+a wight
+умертвие
+%%%%
 a will-o-the-wisp
 блуждающий огонёк
 %%%%
@@ -8233,6 +8449,9 @@ a witch
 a withered plant
 иссохшее растение
 %%%%
+a wolf
+волк
+%%%%
 a wolf spider
 паук-волк
 %%%%
@@ -8242,6 +8461,12 @@ a woodcutter's axe
 a worldbinder
 связующий миры
 %%%%
+a worm
+червь
+%%%%
+a wraith
+призрак
+%%%%
 a wretched soul
 несчастная душа
 %%%%
@@ -8250,6 +8475,12 @@ a wretched star
 %%%%
 a wyrmhole
 вирмхол
+%%%%
+a wyvern
+виверна
+%%%%
+a yak
+як
 %%%%
 a yaktaur
 яктавр
@@ -8458,6 +8689,9 @@ baked corpse
 ball lightning
 шаровая молния
 %%%%
+ball python
+королевский питон
+%%%%
 ballistomycete
 баллистомицет
 %%%%
@@ -8473,6 +8707,12 @@ barachi
 barding
 бардинг
 %%%%
+basilisk
+василиск
+%%%%
+bat
+летучая мышь
+%%%%
 battlesphere
 боевая сфера
 %%%%
@@ -8485,8 +8725,14 @@ bennu
 bes kemwar
 бес кемвар
 %%%%
+black bear
+чёрный медведь
+%%%%
 black draconian
 чёрный дракониан
+%%%%
+black mamba
+чёрная мамба
 %%%%
 blade talisman
 талисман клинков
@@ -8496,6 +8742,9 @@ blazeheart core
 %%%%
 blazeheart golem
 пламенный голем
+%%%%
+blink frog
+мерцающая лягушка
 %%%%
 blizzard demon
 демон метели
@@ -8950,6 +9199,9 @@ burstshroom
 bush
 куст
 %%%%
+butterfly
+бабочка
+%%%%
 cacodemon
 какодемон
 %%%%
@@ -8976,6 +9228,12 @@ caustic shrike
 %%%%
 caustic sporangium
 едкий спорангий
+%%%%
+centaur
+кентавр
+%%%%
+centaur warrior
+кентавр-воин
 %%%%
 centipede bauble
 фигурка многоножки
@@ -9049,6 +9307,9 @@ creeping inferno
 creeping plasmodium
 ползучий плазмодий
 %%%%
+crimson imp
+багровый бес
+%%%%
 crocodile
 крокодил
 %%%%
@@ -9085,6 +9346,9 @@ curse toe
 cutlass
 абордажный клинок
 %%%%
+cyclops
+циклоп
+%%%%
 daeva
 дэва
 %%%%
@@ -9114,6 +9378,9 @@ death knight
 %%%%
 death scarab
 скарабей смерти
+%%%%
+death yak
+смертоносный як
 %%%%
 deathcap
 бледная поганка
@@ -9246,6 +9513,9 @@ dire elephant
 %%%%
 dire flail
 тяжёлый цеп
+%%%%
+dire wolf spider
+лютый паук-волк
 %%%%
 djinni
 джинн
@@ -9398,10 +9668,10 @@ eudemon blade
 эвдемонический клинок
 %%%%
 eveningstar
-вечерняя звезда
+шипастая булава
 %%%%
 eveningstar "Brilliance"
-вечерняя звезда «Сияние»
+шипастая булава «Сияние»
 %%%%
 everburning encyclopedia
 вечно пылающая энциклопедия
@@ -9514,6 +9784,9 @@ frilled lizard
 frog
 лягушка
 %%%%
+frost giant
+морозный великан
+%%%%
 frost-covered statue
 покрытая инеем статуя
 %%%%
@@ -9562,8 +9835,14 @@ ghost crab claws
 ghost moth
 призрачная моль
 %%%%
+ghost-faced bat
+летучая мышь с призрачной мордой
+%%%%
 ghoul
 гуль
+%%%%
+giant anaconda
+гигантская анаконда
 %%%%
 giant club
 гигантская дубина
@@ -9582,6 +9861,9 @@ giant spiked club
 %%%%
 giant spiked club "Carina at Dusk"
 гигантская шипастая дубина «Карина в сумерках»
+%%%%
+giga bat
+гигантская раздувшаяся летучая мышь
 %%%%
 glaive of the Guard
 глефа Стража
@@ -9613,6 +9895,9 @@ gnoll bouda
 gnoll sergeant
 гнолл-сержант
 %%%%
+goblin
+гоблин
+%%%%
 goblin rider
 гоблин-всадник
 %%%%
@@ -9627,6 +9912,9 @@ god wrath avatar
 %%%%
 gold piece
 золотая монета
+%%%%
+golden dragon
+золотой дракон
 %%%%
 golden dragon scales
 чешуя золотого дракона
@@ -9643,6 +9931,9 @@ goliath frog
 grand grimoire
 великий гримуар
 %%%%
+grandmaster elementalist
+великий мастер стихий
+%%%%
 granite talisman
 гранитный талисман
 %%%%
@@ -9656,7 +9947,7 @@ great mace "Undeadhunter"
 огромная булава «Охотник на нежить»
 %%%%
 great orb of eyes
-большая сфера глаз
+большая глазастая сфера
 %%%%
 great wizards, vol. ii
 великие чародеи, том II
@@ -9666,6 +9957,9 @@ great wizards, vol. vii
 %%%%
 greater air elemental
 высший воздушный элементаль
+%%%%
+greater orb of eyes
+огромная глазастая сфера
 %%%%
 greatsling
 большая праща
@@ -9769,11 +10063,17 @@ herald of the abyss
 hexer
 заклинатель чар
 %%%%
+hippogriff
+гиппогриф
+%%%%
 hive talisman
 талисман улья
 %%%%
 hoarfrost cannon
 инейная пушка
+%%%%
+hobgoblin
+хобгоблин
 %%%%
 hog
 боров
@@ -9790,17 +10090,32 @@ horn of Geryon
 hornet
 шершень
 %%%%
+hound
+гончая
+%%%%
 howler monkey
 обезьяна-ревун
 %%%%
 human
 человек
 %%%%
+hydra
+гидра
+%%%%
 hypnotail
 гипнохвост
 %%%%
+ice bat
+ледяная летучая мышь
+%%%%
 ice beast
 ледяной зверь
+%%%%
+ice devil
+ледяной дьявол
+%%%%
+ice dragon
+ледяной дракон
 %%%%
 ice dragon arcanist's scales
 чешуя ледяной драконицы-чародейки
@@ -9823,6 +10138,9 @@ inkwell talisman
 inugami
 инугами
 %%%%
+iron dragon
+железный дракон
+%%%%
 iron elemental
 железный элементаль
 %%%%
@@ -9832,35 +10150,44 @@ iron giant
 iron golem
 железный голем
 %%%%
+iron imp
+железный бес
+%%%%
 iron troll
 железный тролль
 %%%%
 ironbound beastmaster
-закованный в железо повелитель зверей
+повелитель зверей Железного ордена
 %%%%
 ironbound convoker
-закованный в железо призыватель
+призыватель Железного ордена
 %%%%
 ironbound frostheart
-закованное в железо ледяное сердце
+криомант Железного ордена
 %%%%
 ironbound mechanist
-закованный в железо механик
+механик Железного ордена
 %%%%
 ironbound preserver
-закованный в железо заступник
+заступник Железного ордена
 %%%%
 ironbound thunderhulk
-закованный в железо громовержец
+громовержец Железного ордена
 %%%%
 ivory gem
 самоцвет слоновой кости
+%%%%
+jackal
+шакал
 %%%%
 jade gem
 нефритовый самоцвет
 %%%%
 jade talisman
 нефритовый талисман
+%%%%
+jelly
+слизень
 %%%%
 jiangshi
 цзянши
@@ -9880,6 +10207,9 @@ justicar's regalia
 katana
 катана
 %%%%
+killer bee
+пчела-убийца
+%%%%
 knife
 нож
 %%%%
@@ -9888,6 +10218,9 @@ knife of Accuracy
 %%%%
 knight
 рыцарь
+%%%%
+kobold
+кобольд
 %%%%
 kobold blastminer
 кобольд-взрывник
@@ -9903,6 +10236,9 @@ kobold fleshcrafter
 %%%%
 kobold geomancer
 кобольд-геомант
+%%%%
+komodo dragon
+комодский варан
 %%%%
 kraken
 кракен
@@ -9937,6 +10273,9 @@ lava snake
 lemure
 лемур
 %%%%
+lich
+лич
+%%%%
 lightning rod
 жезл молний
 %%%%
@@ -9961,6 +10300,9 @@ longbow "Zephyr"
 lost soul
 заблудшая душа
 %%%%
+lunar statue
+лунная статуя
+%%%%
 lupine talisman
 волчий талисман
 %%%%
@@ -9977,7 +10319,7 @@ malarious merfolk avatar
 больной аватар русалок
 %%%%
 mana viper
-гадюка маны
+мановая гадюка
 %%%%
 manticore
 мантикора
@@ -9993,6 +10335,9 @@ martyred shade
 %%%%
 mask of the Dragon
 маска Дракона
+%%%%
+master elementalist
+мастер стихий
 %%%%
 maul
 молот
@@ -10014,6 +10359,9 @@ meat hydra
 %%%%
 medusa talisman
 талисман медузы
+%%%%
+megabat
+мегалетучая мышь
 %%%%
 meliai
 мелия
@@ -10038,6 +10386,9 @@ merfolk siren
 %%%%
 meteoran
 метеоран
+%%%%
+microbat
+микролетучая мышь
 %%%%
 midnight gem
 полуночный самоцвет
@@ -10114,6 +10465,9 @@ naga ritualist
 naga sharpshooter
 нага-снайпер
 %%%%
+naga warlord
+нага-военачальник
+%%%%
 naga warrior
 нага-воин
 %%%%
@@ -10171,6 +10525,9 @@ octopode
 octopus
 осьминог
 %%%%
+ogre
+огр
+%%%%
 ogre mage
 огр-маг
 %%%%
@@ -10180,11 +10537,29 @@ oklob plant
 oklob plant annihilator
 оклоб-уничтожитель
 %%%%
+oklob plant conjurer
+оклоб-разрушитель
+%%%%
+oklob plant demonologist
+оклоб-демонолог
+%%%%
+oklob plant meteorologist
+оклоб-метеоролог
+%%%%
+oklob plant shifter
+оклоб-перемещатель
+%%%%
+oklob plant summoner
+оклоб-призыватель
+%%%%
 oklob sapling
 росток оклоба
 %%%%
 oklob sapling priest
 молодой оклоб-жрец
+%%%%
+oklob sapling wizard
+саженец оклоба-волшебник
 %%%%
 oni
 они
@@ -10312,11 +10687,20 @@ phalanx beetle
 phantasmal warrior
 призрачный воин
 %%%%
+phantom
+фантом
+%%%%
 phantom mirror
 призрачное зеркало
 %%%%
 pharaoh ant
 муравей-фараон
+%%%%
+phase bat
+фазовая летучая мышь
+%%%%
+phase spider
+фазовый паук
 %%%%
 phial of floods
 флакон потопа
@@ -10351,11 +10735,14 @@ player illusion
 plutonium sword
 плутониевый меч
 %%%%
+polar bear
+белый медведь
+%%%%
 poltergeist
 полтергейст
 %%%%
 polterguardian
-польтергардиан
+полтергардиан
 %%%%
 potion
 зелье
@@ -10444,6 +10831,12 @@ putrid mouth
 quad damage
 четырёхкратный урон
 %%%%
+queen bee
+пчелиная матка
+%%%%
+quicksilver dragon
+ртутный дракон
+%%%%
 quicksilver dragon scales
 чешуя ртутного дракона
 %%%%
@@ -10452,6 +10845,9 @@ quicksilver elemental
 %%%%
 quill talisman
 талисман игл
+%%%%
+quokka
+квокка
 %%%%
 radroach
 радроуч
@@ -10464,6 +10860,9 @@ raiju
 %%%%
 rakshasa
 ракшас
+%%%%
+rat
+крыса
 %%%%
 ratskin cloak
 плащ из крысиных шкур
@@ -10675,6 +11074,9 @@ sceptre of Torment
 scimitar of Flaming Death
 скимитар Пылающей смерти
 %%%%
+scorpion
+скорпион
+%%%%
 scourge
 бич
 %%%%
@@ -10870,6 +11272,9 @@ sin beast
 sixfirhy
 сиксфирхи
 %%%%
+skeletal bat
+скелет летучей мыши
+%%%%
 skeletal warrior
 скелет-воин
 %%%%
@@ -10893,6 +11298,9 @@ sleepcap
 %%%%
 slick slippers
 скользкие туфли
+%%%%
+slime creature
+слизистое существо
 %%%%
 slymdra
 слаймдра
@@ -10949,7 +11357,7 @@ spectral weapon
 призрачное оружие
 %%%%
 spellspark servitor
-прислужник искры заклинаний
+искровой прислужник
 %%%%
 sphere of Battle
 сфера Битвы
@@ -10977,6 +11385,9 @@ spriggan
 %%%%
 spriggan air mage
 спригган-маг воздуха
+%%%%
+spriggan baker
+спригган-пекарь
 %%%%
 spriggan berserker
 спригган-берсерк
@@ -11044,6 +11455,9 @@ starspawn tentacle segment
 statue
 статуя
 %%%%
+steam dragon
+паровой дракон
+%%%%
 steam dragon scales
 чешуя парового дракона
 %%%%
@@ -11056,8 +11470,14 @@ still boulder
 stoker
 кочегар
 %%%%
+stone giant
+каменный великан
+%%%%
 storm bow
 грозовой лук
+%%%%
+storm dragon
+грозовой дракон
 %%%%
 storm dragon scales
 чешуя грозового дракона
@@ -11067,6 +11487,9 @@ storm talisman
 %%%%
 strange machine
 странная машина
+%%%%
+sulphuric acid blob
+сернокислотный сгусток
 %%%%
 sun demon
 солнечный демон
@@ -11118,6 +11541,9 @@ tengu reaver
 %%%%
 tengu warrior
 тэнгу-воин
+%%%%
+tentacle
+щупальце
 %%%%
 tentacle segment
 сегмент щупальца
@@ -13214,7 +13640,7 @@ the Spellcasting
 колдовство
 %%%%
 the Spellspark Servitor
-прислужник искры заклинаний
+искровой прислужник
 %%%%
 the Sphinx Sisters
 сёстры-сфинксы
@@ -13897,6 +14323,9 @@ the baked corpse
 the ball lightning
 шаровая молния
 %%%%
+the ball python
+королевский питон
+%%%%
 the ballistomycete
 баллистомицет
 %%%%
@@ -13912,6 +14341,12 @@ the barachi
 the barding
 бардинг
 %%%%
+the basilisk
+василиск
+%%%%
+the bat
+летучая мышь
+%%%%
 the battlesphere
 боевая сфера
 %%%%
@@ -13924,8 +14359,14 @@ the bennu
 the bes kemwar
 бес кемвар
 %%%%
+the black bear
+чёрный медведь
+%%%%
 the black draconian
 чёрный дракониан
+%%%%
+the black mamba
+чёрная мамба
 %%%%
 the blade talisman
 талисман клинков
@@ -13935,6 +14376,9 @@ the blazeheart core
 %%%%
 the blazeheart golem
 пламенный голем
+%%%%
+the blink frog
+мерцающая лягушка
 %%%%
 the blizzard demon
 демон метели
@@ -14389,6 +14833,9 @@ the burstshroom
 the bush
 куст
 %%%%
+the butterfly
+бабочка
+%%%%
 the cacodemon
 какодемон
 %%%%
@@ -14415,6 +14862,12 @@ the caustic shrike
 %%%%
 the caustic sporangium
 едкий спорангий
+%%%%
+the centaur
+кентавр
+%%%%
+the centaur warrior
+кентавр-воин
 %%%%
 the centipede bauble
 фигурка многоножки
@@ -14488,6 +14941,9 @@ the creeping inferno
 the creeping plasmodium
 ползучий плазмодий
 %%%%
+the crimson imp
+багровый бес
+%%%%
 the crocodile
 крокодил
 %%%%
@@ -14524,6 +14980,9 @@ the curse toe
 the cutlass
 абордажный клинок
 %%%%
+the cyclops
+циклоп
+%%%%
 the daeva
 дэва
 %%%%
@@ -14553,6 +15012,9 @@ the death knight
 %%%%
 the death scarab
 скарабей смерти
+%%%%
+the death yak
+смертоносный як
 %%%%
 the deathcap
 бледная поганка
@@ -14685,6 +15147,9 @@ the dire elephant
 %%%%
 the dire flail
 тяжёлый цеп
+%%%%
+the dire wolf spider
+лютый паук-волк
 %%%%
 the djinni
 джинн
@@ -14837,10 +15302,10 @@ the eudemon blade
 эвдемонический клинок
 %%%%
 the eveningstar
-вечерняя звезда
+шипастая булава
 %%%%
 the eveningstar "Brilliance"
-вечерняя звезда «Сияние»
+шипастая булава «Сияние»
 %%%%
 the everburning encyclopedia
 вечно пылающая энциклопедия
@@ -14953,6 +15418,9 @@ the frilled lizard
 the frog
 лягушка
 %%%%
+the frost giant
+морозный великан
+%%%%
 the frost-covered statue
 покрытая инеем статуя
 %%%%
@@ -15001,8 +15469,14 @@ the ghost crab claws
 the ghost moth
 призрачная моль
 %%%%
+the ghost-faced bat
+летучая мышь с призрачной мордой
+%%%%
 the ghoul
 гуль
+%%%%
+the giant anaconda
+гигантская анаконда
 %%%%
 the giant club
 гигантская дубина
@@ -15021,6 +15495,9 @@ the giant spiked club
 %%%%
 the giant spiked club "Carina at Dusk"
 гигантская шипастая дубина «Карина в сумерках»
+%%%%
+the giga bat
+гигантская раздувшаяся летучая мышь
 %%%%
 the glaive of the Guard
 глефа Стража
@@ -15052,6 +15529,9 @@ the gnoll bouda
 the gnoll sergeant
 гнолл-сержант
 %%%%
+the goblin
+гоблин
+%%%%
 the goblin rider
 гоблин-всадник
 %%%%
@@ -15066,6 +15546,9 @@ the god wrath avatar
 %%%%
 the gold piece
 золотая монета
+%%%%
+the golden dragon
+золотой дракон
 %%%%
 the golden dragon scales
 чешуя золотого дракона
@@ -15082,6 +15565,9 @@ the goliath frog
 the grand grimoire
 великий гримуар
 %%%%
+the grandmaster elementalist
+великий мастер стихий
+%%%%
 the granite talisman
 гранитный талисман
 %%%%
@@ -15095,7 +15581,7 @@ the great mace "Undeadhunter"
 огромная булава «Охотник на нежить»
 %%%%
 the great orb of eyes
-большая сфера глаз
+большая глазастая сфера
 %%%%
 the great wizards, vol. ii
 великие чародеи, том II
@@ -15105,6 +15591,9 @@ the great wizards, vol. vii
 %%%%
 the greater air elemental
 высший воздушный элементаль
+%%%%
+the greater orb of eyes
+огромная глазастая сфера
 %%%%
 the greatsling
 большая праща
@@ -15208,11 +15697,17 @@ the herald of the abyss
 the hexer
 заклинатель чар
 %%%%
+the hippogriff
+гиппогриф
+%%%%
 the hive talisman
 талисман улья
 %%%%
 the hoarfrost cannon
 инейная пушка
+%%%%
+the hobgoblin
+хобгоблин
 %%%%
 the hog
 боров
@@ -15229,17 +15724,32 @@ the horn of Geryon
 the hornet
 шершень
 %%%%
+the hound
+гончая
+%%%%
 the howler monkey
 обезьяна-ревун
 %%%%
 the human
 человек
 %%%%
+the hydra
+гидра
+%%%%
 the hypnotail
 гипнохвост
 %%%%
+the ice bat
+ледяная летучая мышь
+%%%%
 the ice beast
 ледяной зверь
+%%%%
+the ice devil
+ледяной дьявол
+%%%%
+the ice dragon
+ледяной дракон
 %%%%
 the ice dragon arcanist's scales
 чешуя ледяной драконицы-чародейки
@@ -15262,6 +15772,9 @@ the inkwell talisman
 the inugami
 инугами
 %%%%
+the iron dragon
+железный дракон
+%%%%
 the iron elemental
 железный элементаль
 %%%%
@@ -15271,35 +15784,44 @@ the iron giant
 the iron golem
 железный голем
 %%%%
+the iron imp
+железный бес
+%%%%
 the iron troll
 железный тролль
 %%%%
 the ironbound beastmaster
-закованный в железо повелитель зверей
+повелитель зверей Железного ордена
 %%%%
 the ironbound convoker
-закованный в железо призыватель
+призыватель Железного ордена
 %%%%
 the ironbound frostheart
-закованное в железо ледяное сердце
+криомант Железного ордена
 %%%%
 the ironbound mechanist
-закованный в железо механик
+механик Железного ордена
 %%%%
 the ironbound preserver
-закованный в железо заступник
+заступник Железного ордена
 %%%%
 the ironbound thunderhulk
-закованный в железо громовержец
+громовержец Железного ордена
 %%%%
 the ivory gem
 самоцвет слоновой кости
+%%%%
+the jackal
+шакал
 %%%%
 the jade gem
 нефритовый самоцвет
 %%%%
 the jade talisman
 нефритовый талисман
+%%%%
+the jelly
+слизень
 %%%%
 the jiangshi
 цзянши
@@ -15319,6 +15841,9 @@ the justicar's regalia
 the katana
 катана
 %%%%
+the killer bee
+пчела-убийца
+%%%%
 the knife
 нож
 %%%%
@@ -15327,6 +15852,9 @@ the knife of Accuracy
 %%%%
 the knight
 рыцарь
+%%%%
+the kobold
+кобольд
 %%%%
 the kobold blastminer
 кобольд-взрывник
@@ -15342,6 +15870,9 @@ the kobold fleshcrafter
 %%%%
 the kobold geomancer
 кобольд-геомант
+%%%%
+the komodo dragon
+комодский варан
 %%%%
 the kraken
 кракен
@@ -15376,6 +15907,9 @@ the lava snake
 the lemure
 лемур
 %%%%
+the lich
+лич
+%%%%
 the lightning rod
 жезл молний
 %%%%
@@ -15400,6 +15934,9 @@ the longbow "Zephyr"
 the lost soul
 заблудшая душа
 %%%%
+the lunar statue
+лунная статуя
+%%%%
 the lupine talisman
 волчий талисман
 %%%%
@@ -15416,7 +15953,7 @@ the malarious merfolk avatar
 больной аватар русалок
 %%%%
 the mana viper
-гадюка маны
+мановая гадюка
 %%%%
 the manticore
 мантикора
@@ -15432,6 +15969,9 @@ the martyred shade
 %%%%
 the mask of the Dragon
 маска Дракона
+%%%%
+the master elementalist
+мастер стихий
 %%%%
 the maul
 молот
@@ -15453,6 +15993,9 @@ the meat hydra
 %%%%
 the medusa talisman
 талисман медузы
+%%%%
+the megabat
+мегалетучая мышь
 %%%%
 the meliai
 мелия
@@ -15477,6 +16020,9 @@ the merfolk siren
 %%%%
 the meteoran
 метеоран
+%%%%
+the microbat
+микролетучая мышь
 %%%%
 the midnight gem
 полуночный самоцвет
@@ -15553,6 +16099,9 @@ the naga ritualist
 the naga sharpshooter
 нага-снайпер
 %%%%
+the naga warlord
+нага-военачальник
+%%%%
 the naga warrior
 нага-воин
 %%%%
@@ -15610,6 +16159,9 @@ the octopode
 the octopus
 осьминог
 %%%%
+the ogre
+огр
+%%%%
 the ogre mage
 огр-маг
 %%%%
@@ -15619,11 +16171,29 @@ the oklob plant
 the oklob plant annihilator
 оклоб-уничтожитель
 %%%%
+the oklob plant conjurer
+оклоб-разрушитель
+%%%%
+the oklob plant demonologist
+оклоб-демонолог
+%%%%
+the oklob plant meteorologist
+оклоб-метеоролог
+%%%%
+the oklob plant shifter
+оклоб-перемещатель
+%%%%
+the oklob plant summoner
+оклоб-призыватель
+%%%%
 the oklob sapling
 росток оклоба
 %%%%
 the oklob sapling priest
 молодой оклоб-жрец
+%%%%
+the oklob sapling wizard
+саженец оклоба-волшебник
 %%%%
 the oni
 они
@@ -15751,11 +16321,20 @@ the phalanx beetle
 the phantasmal warrior
 призрачный воин
 %%%%
+the phantom
+фантом
+%%%%
 the phantom mirror
 призрачное зеркало
 %%%%
 the pharaoh ant
 муравей-фараон
+%%%%
+the phase bat
+фазовая летучая мышь
+%%%%
+the phase spider
+фазовый паук
 %%%%
 the phial of floods
 флакон потопа
@@ -15790,11 +16369,14 @@ the player illusion
 the plutonium sword
 плутониевый меч
 %%%%
+the polar bear
+белый медведь
+%%%%
 the poltergeist
 полтергейст
 %%%%
 the polterguardian
-польтергардиан
+полтергардиан
 %%%%
 the potion
 зелье
@@ -15883,6 +16465,12 @@ the putrid mouth
 the quad damage
 четырёхкратный урон
 %%%%
+the queen bee
+пчелиная матка
+%%%%
+the quicksilver dragon
+ртутный дракон
+%%%%
 the quicksilver dragon scales
 чешуя ртутного дракона
 %%%%
@@ -15891,6 +16479,9 @@ the quicksilver elemental
 %%%%
 the quill talisman
 талисман игл
+%%%%
+the quokka
+квокка
 %%%%
 the radroach
 радроуч
@@ -15903,6 +16494,9 @@ the raiju
 %%%%
 the rakshasa
 ракшас
+%%%%
+the rat
+крыса
 %%%%
 the ratskin cloak
 плащ из крысиных шкур
@@ -16114,6 +16708,9 @@ the sceptre of Torment
 the scimitar of Flaming Death
 скимитар Пылающей смерти
 %%%%
+the scorpion
+скорпион
+%%%%
 the scourge
 бич
 %%%%
@@ -16309,6 +16906,9 @@ the sin beast
 the sixfirhy
 сиксфирхи
 %%%%
+the skeletal bat
+скелет летучей мыши
+%%%%
 the skeletal warrior
 скелет-воин
 %%%%
@@ -16332,6 +16932,9 @@ the sleepcap
 %%%%
 the slick slippers
 скользкие туфли
+%%%%
+the slime creature
+слизистое существо
 %%%%
 the slymdra
 слаймдра
@@ -16388,7 +16991,7 @@ the spectral weapon
 призрачное оружие
 %%%%
 the spellspark servitor
-прислужник искры заклинаний
+искровой прислужник
 %%%%
 the sphere of Battle
 сфера Битвы
@@ -16416,6 +17019,9 @@ the spriggan
 %%%%
 the spriggan air mage
 спригган-маг воздуха
+%%%%
+the spriggan baker
+спригган-пекарь
 %%%%
 the spriggan berserker
 спригган-берсерк
@@ -16483,6 +17089,9 @@ the starspawn tentacle segment
 the statue
 статуя
 %%%%
+the steam dragon
+паровой дракон
+%%%%
 the steam dragon scales
 чешуя парового дракона
 %%%%
@@ -16495,8 +17104,14 @@ the still boulder
 the stoker
 кочегар
 %%%%
+the stone giant
+каменный великан
+%%%%
 the storm bow
 грозовой лук
+%%%%
+the storm dragon
+грозовой дракон
 %%%%
 the storm dragon scales
 чешуя грозового дракона
@@ -16506,6 +17121,9 @@ the storm talisman
 %%%%
 the strange machine
 странная машина
+%%%%
+the sulphuric acid blob
+сернокислотный сгусток
 %%%%
 the sun demon
 солнечный демон
@@ -16557,6 +17175,9 @@ the tengu reaver
 %%%%
 the tengu warrior
 тэнгу-воин
+%%%%
+the tentacle
+щупальце
 %%%%
 the tentacle segment
 сегмент щупальца
@@ -16661,7 +17282,7 @@ the toadstool
 поганка
 %%%%
 the toenail golem
-голем из ногтей на ногах
+ногтевой голем
 %%%%
 the toga "Victory"
 тога «Победа»
@@ -16680,6 +17301,9 @@ the tower shield "Bullseye"
 %%%%
 the tower shield of Ignorance
 башенный щит Невежества
+%%%%
+the training dummy
+учебный манекен
 %%%%
 the treatise on traps
 трактат о ловушках
@@ -16705,11 +17329,17 @@ the trismegistus codex
 the trivial sensed monster
 ничтожное обнаруженное существо
 %%%%
+the troll
+тролль
+%%%%
 the troll leather armour
 доспех из кожи тролля
 %%%%
 the twister
 смерч
+%%%%
+the two-headed ogre
+двухголовый огр
 %%%%
 the tyrant
 тиран
@@ -16761,6 +17391,9 @@ the vampire mosquito
 %%%%
 the vault guard
 страж Хранилищ
+%%%%
+the vault guard captain
+капитан стражи Хранилищ
 %%%%
 the vault sentinel
 дозорный Хранилищ
@@ -16855,6 +17488,9 @@ the water elemental
 the water elementalist statue
 статуя мага воды
 %%%%
+the water moccasin
+водяной щитомордник
+%%%%
 the water nymph
 водяная нимфа
 %%%%
@@ -16873,6 +17509,12 @@ the whip "Snakebite"
 the white draconian
 белый дракониан
 %%%%
+the white imp
+белый бес
+%%%%
+the wight
+умертвие
+%%%%
 the will-o-the-wisp
 блуждающий огонёк
 %%%%
@@ -16885,6 +17527,9 @@ the witch
 the withered plant
 иссохшее растение
 %%%%
+the wolf
+волк
+%%%%
 the wolf spider
 паук-волк
 %%%%
@@ -16894,6 +17539,12 @@ the woodcutter's axe
 the worldbinder
 связующий миры
 %%%%
+the worm
+червь
+%%%%
+the wraith
+призрак
+%%%%
 the wretched soul
 несчастная душа
 %%%%
@@ -16902,6 +17553,12 @@ the wretched star
 %%%%
 the wyrmhole
 вирмхол
+%%%%
+the wyvern
+виверна
+%%%%
+the yak
+як
 %%%%
 the yaktaur
 яктавр
@@ -16955,7 +17612,7 @@ toadstool
 поганка
 %%%%
 toenail golem
-голем из ногтей на ногах
+ногтевой голем
 %%%%
 toga "Victory"
 тога «Победа»
@@ -16974,6 +17631,9 @@ tower shield "Bullseye"
 %%%%
 tower shield of Ignorance
 башенный щит Невежества
+%%%%
+training dummy
+учебный манекен
 %%%%
 treatise on traps
 трактат о ловушках
@@ -16999,11 +17659,17 @@ trismegistus codex
 trivial sensed monster
 ничтожное обнаруженное существо
 %%%%
+troll
+тролль
+%%%%
 troll leather armour
 доспех из кожи тролля
 %%%%
 twister
 смерч
+%%%%
+two-headed ogre
+двухголовый огр
 %%%%
 tyrant
 тиран
@@ -17052,6 +17718,9 @@ vampire mosquito
 %%%%
 vault guard
 страж Хранилищ
+%%%%
+vault guard captain
+капитан стражи Хранилищ
 %%%%
 vault sentinel
 дозорный Хранилищ
@@ -17146,6 +17815,9 @@ water elemental
 water elementalist statue
 статуя мага воды
 %%%%
+water moccasin
+водяной щитомордник
+%%%%
 water nymph
 водяная нимфа
 %%%%
@@ -17164,6 +17836,12 @@ whip "Snakebite"
 white draconian
 белый дракониан
 %%%%
+white imp
+белый бес
+%%%%
+wight
+умертвие
+%%%%
 will-o-the-wisp
 блуждающий огонёк
 %%%%
@@ -17176,6 +17854,9 @@ witch
 withered plant
 иссохшее растение
 %%%%
+wolf
+волк
+%%%%
 wolf spider
 паук-волк
 %%%%
@@ -17185,6 +17866,12 @@ woodcutter's axe
 worldbinder
 связующий миры
 %%%%
+worm
+червь
+%%%%
+wraith
+призрак
+%%%%
 wretched soul
 несчастная душа
 %%%%
@@ -17193,6 +17880,12 @@ wretched star
 %%%%
 wyrmhole
 вирмхол
+%%%%
+wyvern
+виверна
+%%%%
+yak
+як
 %%%%
 yaktaur
 яктавр

@@ -238,7 +238,7 @@
 | Rimeblight | Инеевый мор |
 | Permafrost Eruption | Извержение вечной мерзлоты |
 | Hellfire Mortar | Адская мортира |
-| Spellspark Servitor | Прислужник искры заклинаний |
+| Spellspark Servitor | Искровой прислужник |
 | Platinum Paragon | Платиновый идеал |
 | Awaken Armour | Пробуждение доспеха |
 | Conjure Living Spells | Создание живых заклинаний |
@@ -596,7 +596,7 @@
 | dire flail | тяжёлый цеп |
 | double sword | двойной меч |
 | eudemon blade | эвдемонический клинок |
-| eveningstar | вечерняя звезда |
+| eveningstar | шипастая булава |
 | hammer | молот |
 | orb | сфера |
 | orb of zot | Сфера Зота |
@@ -1130,7 +1130,7 @@
 | faerie dragon scales | чешуя волшебного дракона |
 | demon blade "Bloodbane" | демонический клинок «Бладбейн» |
 | scimitar of Flaming Death | скимитар Пылающей смерти |
-| eveningstar "Brilliance" | вечерняя звезда «Сияние» |
+| eveningstar "Brilliance" | шипастая булава «Сияние» |
 | demon blade "Leech" | демонический клинок «Пиявка» |
 | dagger of Chilly Death | кинжал Ледяной смерти |
 | dagger "Morg" | кинжал «Морг» |
@@ -1305,7 +1305,7 @@
 
 | English | Русское название |
 |---|---|
-| spellspark servitor | прислужник искры заклинаний |
+| spellspark servitor | искровой прислужник |
 | platinum paragon | платиновый идеал |
 | martyred shade | тень мученика |
 | nameless horror | безымянный ужас |
@@ -1347,7 +1347,7 @@
 | shining eye | сияющее око |
 | eye of devastation | око опустошения |
 | golden eye | золотое око |
-| great orb of eyes | большая сфера глаз |
+| great orb of eyes | большая глазастая сфера |
 | acid blob | кислотный сгусток |
 | azure jelly | лазурный слизень |
 | rockslime | каменный слизень |
@@ -1373,7 +1373,7 @@
 | shambling mangrove | бродячий мангр |
 | will-o-the-wisp | блуждающий огонёк |
 | vault warden | смотритель Хранилищ |
-| ironbound preserver | закованный в железо заступник |
+| ironbound preserver | заступник Железного ордена |
 | ancient lich | древний лич |
 | ynoxinul | иноксинул |
 | balrug | балруг |
@@ -1392,10 +1392,10 @@
 | sun demon | солнечный демон |
 | vault guard | страж Хранилищ |
 | vault sentinel | дозорный Хранилищ |
-| ironbound convoker | закованный в железо призыватель |
-| ironbound thunderhulk | закованный в железо громовержец |
-| ironbound beastmaster | закованный в железо повелитель зверей |
-| ironbound frostheart | закованное в железо ледяное сердце |
+| ironbound convoker | призыватель Железного ордена |
+| ironbound thunderhulk | громовержец Железного ордена |
+| ironbound beastmaster | повелитель зверей Железного ордена |
+| ironbound frostheart | криомант Железного ордена |
 | ragged hierophant | оборванный иерофант |
 | halazid warlock | халазидский чернокнижник |
 | deep elf annihilator | глубинный эльф-уничтожитель |
@@ -1429,7 +1429,7 @@
 | salamander mystic | саламандра-мистик |
 | salamander tyrant | саламандра-тиран |
 | guardian serpent | змей-страж |
-| mana viper | гадюка маны |
+| mana viper | мановая гадюка |
 | anaconda | анаконда |
 | merfolk | русалка |
 | merfolk impaler | русалка-копейщица |
@@ -1475,7 +1475,7 @@
 | crystal guardian | кристаллический страж |
 | blazeheart core | пламенное ядро |
 | flesh golem | голем из плоти |
-| polterguardian | польтергардиан |
+| polterguardian | полтергардиан |
 | juggernaut | джаггернаут |
 | titan | титан |
 | guardian sphinx | сфинкс-страж |
@@ -1680,7 +1680,7 @@
 | goblin rider | гоблин-всадник |
 | harpy | гарпия |
 | imperial myrmidon | имперский мирмидон |
-| ironbound mechanist | закованный в железо механик |
+| ironbound mechanist | механик Железного ордена |
 | jiangshi | цзянши |
 | kobold brigand | кобольд-разбойник |
 | kobold blastminer | кобольд-взрывник |
@@ -1982,7 +1982,7 @@
 | tentacled monstrosity | чудовище со щупальцами |
 | Terence | Теренс |
 | toadstool | поганка |
-| toenail golem | голем из ногтей на ногах |
+| toenail golem | ногтевой голем |
 | twister | смерч |
 | Urug | Уруг |
 | vampire bat | летучая мышь-вампир |
@@ -1994,6 +1994,83 @@
 | yaktaur captain | яктавр-капитан |
 | __(_suffix_examine | Зачарованное оружие |
 | adder | гадюка |
+| ball python | королевский питон |
+| basilisk | василиск |
+| bat | летучая мышь |
+| black bear | чёрный медведь |
+| black mamba | чёрная мамба |
+| blink frog | мерцающая лягушка |
+| butterfly | бабочка |
+| centaur | кентавр |
+| centaur warrior | кентавр-воин |
+| crimson imp | багровый бес |
+| cyclops | циклоп |
+| death yak | смертоносный як |
+| frost giant | морозный великан |
+| goblin | гоблин |
+| golden dragon | золотой дракон |
+| hippogriff | гиппогриф |
+| hobgoblin | хобгоблин |
+| hound | гончая |
+| hydra | гидра |
+| ice devil | ледяной дьявол |
+| ice dragon | ледяной дракон |
+| iron dragon | железный дракон |
+| iron imp | железный бес |
+| jackal | шакал |
+| jelly | слизень |
+| killer bee | пчела-убийца |
+| kobold | кобольд |
+| komodo dragon | комодский варан |
+| lich | лич |
+| ogre | огр |
+| phantom | фантом |
+| polar bear | белый медведь |
+| queen bee | пчелиная матка |
+| quicksilver dragon | ртутный дракон |
+| quokka | квокка |
+| rat | крыса |
+| scorpion | скорпион |
+| slime creature | слизистое существо |
+| steam dragon | паровой дракон |
+| stone giant | каменный великан |
+| storm dragon | грозовой дракон |
+| tentacle | щупальце |
+| training dummy | учебный манекен |
+| troll | тролль |
+| two-headed ogre | двухголовый огр |
+| water moccasin | водяной щитомордник |
+| white imp | белый бес |
+| wight | умертвие |
+| wolf | волк |
+| wraith | призрак |
+| wyvern | виверна |
+| yak | як |
+| lunar statue | лунная статуя |
+| ghost-faced bat | летучая мышь с призрачной мордой |
+| giga bat | гигантская раздувшаяся летучая мышь |
+| ice bat | ледяная летучая мышь |
+| master elementalist | мастер стихий |
+| megabat | мегалетучая мышь |
+| microbat | микролетучая мышь |
+| oklob plant conjurer | оклоб-разрушитель |
+| oklob plant demonologist | оклоб-демонолог |
+| oklob plant meteorologist | оклоб-метеоролог |
+| oklob plant shifter | оклоб-перемещатель |
+| oklob plant summoner | оклоб-призыватель |
+| oklob sapling wizard | саженец оклоба-волшебник |
+| phase bat | фазовая летучая мышь |
+| phase spider | фазовый паук |
+| skeletal bat | скелет летучей мыши |
+| spriggan baker | спригган-пекарь |
+| worm | червь |
+| dire wolf spider | лютый паук-волк |
+| giant anaconda | гигантская анаконда |
+| greater orb of eyes | огромная глазастая сфера |
+| naga warlord | нага-военачальник |
+| sulphuric acid blob | сернокислотный сгусток |
+| vault guard captain | капитан стражи Хранилищ |
+| grandmaster elementalist | великий мастер стихий |
 
 ## genus
 

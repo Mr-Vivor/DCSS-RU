@@ -1,4 +1,4 @@
-# Прислужник искры заклинаний
+# Искровой прислужник
 
 **English:** Spellspark Servitor spell
 

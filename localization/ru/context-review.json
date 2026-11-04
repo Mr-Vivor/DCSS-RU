@@ -76,10 +76,11 @@
     },
     "abilities": {
       "context": [
-        "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs"
+        "ability.cc _get_ability_list() and dat/descript/ability.txt; current and legacy labels and costs",
+        "Jelly creature labels use слизень; transformed protoplasm is сгусток слизи, not a dessert."
       ],
       "entries": 235,
-      "translations_sha256": "32d9d1d212d87e7fa5804438435f484eac2d79cd85de720fd91dcc8b9b533956"
+      "translations_sha256": "02980820f720e6d95f5d738e615ff37c78741f04ee10c0d338bccb24e7679b52"
     },
     "player-genus": {
       "context": [
@@ -16772,8 +16773,8 @@
       "translation_sha256": "2245d01b12ffaaf8dd4ae8c637a9becd2a536ac3c644f5fb66c5edb05e451477"
     },
     "A cloud of jellies burst out of the Royal Jelly as the current ripples through it!": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "7b210e91810beba8f5c020e61f14fc2ce0093828f74f73a5c0083c6dbf7000e1"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "cc64a51ac6dee50c85567e54be7b2c950f254a5f4d901912f09a8f69a7558fdc"
     },
     "The electricity discharges through @arg@!": {
       "context": "spl-damage.cc",
@@ -19020,8 +19021,8 @@
       "translation_sha256": "9d8271509367e9e237b2f6a7f5e163c75e2a5038f8120345bebe1ff315417147"
     },
     "@Arg@'s form twists and warps, and jellies spill out!": {
-      "context": "mon-poly.cc",
-      "translation_sha256": "de85b00e85dca19a4298ef0054d058516f8780cfead980b859b9b09091155b74"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "ca0e288a81bfe91b56d3852a7b29bcea16d55c9ab83f95a4510a00fd683e6438"
     },
     "@Arg@'s appearance momentarily alters.": {
       "context": "mon-poly.cc",
@@ -20676,8 +20677,8 @@
       "translation_sha256": "ce3e743362d0354ba5612329a849e2b38f845ebc3ab489025df4a17b785ef58c"
     },
     "@Arg@ explodes violently into a cloud of jellies!": {
-      "context": "god-abil.cc",
-      "translation_sha256": "c24274ba517954800c18f253e6968e8a5c3d74fa936623957dc8d91a8873c55a"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "bbaca8f1011e95987c533b05bd73ef23ca825c25d6ae0e34ebb06e3b82db147a"
     },
     "@Arg@ explodes violently!": {
       "context": "god-abil.cc",
@@ -22704,12 +22705,12 @@
       "translation_sha256": "365e04d97dc524f3752463d40cdcb5c98c2eb5103438630b7ca83a60a1d0178a"
     },
     "It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.": {
-      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
-      "translation_sha256": "b041de1c24cd76663adba39092aadf4c39b917c5da25bc45303e931d17892df4"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "c7ae1da2fd934e2b2e1abde3c30fc3fe7adf9f24a8f64288da385da512e54015"
     },
     "It will release all of its jellies when polymorphed.": {
-      "context": "describe.cc monster stats and hit chance, mon-info.cc speed_description. Display strings only, preserving all perception/stealth/to-hit/EV/SH formulae and action-energy ratios. Russian-specific layouts require initialized localisation; English source output retained. Resistance labels use nominative lists. Combat values, raw pronouns, species, item and attack IDs unchanged. Full static trait sentences expand the four actual source pronouns and their conjugated verbs before matching, so no Russian gender agreement is required.",
-      "translation_sha256": "e5fbd2276f7ca4dddac0e33375585372618645fe846ae8746906846948224fa3"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "e8d7441aacb7304c85110cf09fb6289fa8730cc5614a56fb55838f1e0e3e13b1"
     },
     "It is quivering @arg@.": {
       "context": "describe.cc",
@@ -23064,20 +23065,20 @@
       "translation_sha256": "1da64b5fbfe21e10d7f3b3552c2704cf9e83070b330a4480db6c23d2aced81cc"
     },
     "@Arg@ spits out another jelly.": {
-      "context": "fineff.cc",
-      "translation_sha256": "3ae33c82e38ca65d57978c220d003acb33eba33013528ff7e1f93c9759a81ce8"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "04ef063d9e12a43d9d38be5b3bd23dbcea4c7f04b52dceacbfa7144ffc17e3cb"
     },
     "@Arg@ spits out @num@ more jellies.": {
-      "context": "fineff.cc",
-      "translation_sha256": "a21fb0bc365744f416ec39c22b2410942e07da234c0869f8999830e7d3766399"
+      "context": "Current fineff.cc Royal Jelly slime spawning, canonical names. Quantity in parentheses preserves the number without incorrect Russian counted forms.",
+      "translation_sha256": "4ea288da5c9964f28e8e084f4eb293a63ac03df033d2d94a795c04516ccb1201"
     },
     "One of the Royal Jelly's fragments survives.": {
-      "context": "fineff.cc",
-      "translation_sha256": "142f3ba109ba011ce3199a500c6894e1e9a69fc7532a51a959e20a2bb6251127"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "b5d01d8292e6080f0446951dba98a3ea5899e3396b1b3ec0f7ed957332c33ea9"
     },
     "The dying Royal Jelly spits out @num@ more jellies.": {
-      "context": "fineff.cc",
-      "translation_sha256": "32a4b9e5f2028f15aedebfb766ae9de545bab147fa1b3cf52c8bdc073f667392"
+      "context": "Current fineff.cc Royal Jelly slime spawning, canonical names. Quantity in parentheses preserves the number without incorrect Russian counted forms.",
+      "translation_sha256": "326ffe3c01089b6d072b72b40e250dc07e8d53dab6e40fa0bf43d30244176015"
     },
     "@Arg@ shudders and is absorbed by its neighbour.": {
       "context": "fineff.cc",
@@ -29132,8 +29133,8 @@
       "translation_sha256": "3cfa1c34605394bb72266becfa91655781c05376882538d2a377a6de5c5a47d2"
     },
     "<lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>": {
-      "context": "evoke.cc/status.cc manual study display and funded bribe branches; skill-menu.cc temporary skill modifiers and help; spl-book.cc available memorisation levels, Exegesis/servitor selection, miscast danger and memorisation confirmation; item-use.cc drunken brawling/metabolism, ability.cc footer. Skill names and modifier causes localized before full printf templates. Manual helper is UI-only, no skill identifier changes. Skill enhancement is temporary, does not imply permanent training gain. Costs are spell-level capacity, not MP or character XP; Exegesis explicitly uses MP. Miscast severity is danger, not failure probability. Bribe status lists funded branches without guaranteeing loyalty of all residents. Potion action conjugated for player, metabolism text does not invent an additional numerical effect. Confirmation defaults, costs, equipment, duration and skill computation unchanged; English/uninitialised memorisation layout retained.",
-      "translation_sha256": "e30bae16febd4c7b0b1cc369dafc6741580a470b3057dd3acf5d7668972bda17"
+      "context": "evoke.cc/status.cc manual study display and funded bribe branches; skill-menu.cc temporary skill modifiers and help; spl-book.cc available memorisation levels, Exegesis/servitor selection, miscast danger and memorisation confirmation; item-use.cc drunken brawling/metabolism, ability.cc footer. Skill names and modifier causes localized before full printf templates. Manual helper is UI-only, no skill identifier changes. Skill enhancement is temporary, does not imply permanent training gain. Costs are spell-level capacity, not MP or character XP; Exegesis explicitly uses MP. Miscast severity is danger, not failure probability. Bribe status lists funded branches without guaranteeing loyalty of all residents. Potion action conjugated for player, metabolism text does not invent an additional numerical effect. Confirmation defaults, costs, equipment, duration and skill computation unchanged; English/uninitialised memorisation layout retained. Canonical creature/item display name refined with shared glossary.",
+      "translation_sha256": "bff6400926f3fde5293b63af3f0bda20c8652df879b7d433484fa9cf7b85c364"
     },
     " search   [<w>?</w>] help": {
       "context": "spl-book.cc:SpellLibraryMenu; learn_spell",
@@ -44108,8 +44109,8 @@
       "translation_sha256": "15ff794638913d4f4c5cd8f05a6ca7daed461f4752c24fcb7a9efe40f5164016"
     },
     "{form-description}a lump of jelly.": {
-      "context": "transform.cc Form::get_description/transform_message, partial-form overrides, melding categories and UI unarmed attack names; form-data.h descriptive phrases; player-act.cc base_hand_name and species.cc hand_name. Current/past status is distinct, past does not imply death. Full descriptions avoid standalone English are/were/is/had. Eel count follows arm_count, front Felid paws/main Octopode tentacles kept, no invented two-eel guarantee for many arms. Hand kinds use canonical body terms; Coglin grasper is a grasping part and Poltergeist tendril is an ectoplasmic appendage, not insect antenna. Stone/storm attack names have explicit singular gender/plural forms and eel names explicit count. Melding lists blocked categories rather than claiming item destruction. Raw form data, save names, anatomical lookup getters, raw hand_transform_parts, capability flags, arm counts, equipment slots, form statistics and mechanics unchanged. Language-specific frames require initialised RU; other-language fallback retained. status.cc Gem timer light labels are localized at rendering only; raw light_text and status description database IDs are preserved.",
-      "translation_sha256": "b0897c92a4df433a024adf5c4d1c69e9f35bf882389cf2e417c1e15bc5ff49f7"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "c45146318b2bdd0b0e5c221be2c18f223de61f395f80da9c4ccb515598e2bef2"
     },
     "{form-description}a sentient fungus.": {
       "context": "transform.cc Form::get_description/transform_message, partial-form overrides, melding categories and UI unarmed attack names; form-data.h descriptive phrases; player-act.cc base_hand_name and species.cc hand_name. Current/past status is distinct, past does not imply death. Full descriptions avoid standalone English are/were/is/had. Eel count follows arm_count, front Felid paws/main Octopode tentacles kept, no invented two-eel guarantee for many arms. Hand kinds use canonical body terms; Coglin grasper is a grasping part and Poltergeist tendril is an ectoplasmic appendage, not insect antenna. Stone/storm attack names have explicit singular gender/plural forms and eel names explicit count. Melding lists blocked categories rather than claiming item destruction. Raw form data, save names, anatomical lookup getters, raw hand_transform_parts, capability flags, arm counts, equipment slots, form statistics and mechanics unchanged. Language-specific frames require initialised RU; other-language fallback retained. status.cc Gem timer light labels are localized at rendering only; raw light_text and status description database IDs are preserved.",
@@ -44204,8 +44205,8 @@
       "translation_sha256": "ce7cbe6f73476029d79dfc0c6c070468543e0ef20060599334d27d91cf2b6987"
     },
     "{form-description}a fearsome storm dragon!": {
-      "context": "transform.cc Form::get_description/transform_message, partial-form overrides, melding categories and UI unarmed attack names; form-data.h descriptive phrases; player-act.cc base_hand_name and species.cc hand_name. Current/past status is distinct, past does not imply death. Full descriptions avoid standalone English are/were/is/had. Eel count follows arm_count, front Felid paws/main Octopode tentacles kept, no invented two-eel guarantee for many arms. Hand kinds use canonical body terms; Coglin grasper is a grasping part and Poltergeist tendril is an ectoplasmic appendage, not insect antenna. Stone/storm attack names have explicit singular gender/plural forms and eel names explicit count. Melding lists blocked categories rather than claiming item destruction. Raw form data, save names, anatomical lookup getters, raw hand_transform_parts, capability flags, arm counts, equipment slots, form statistics and mechanics unchanged. Language-specific frames require initialised RU; other-language fallback retained. status.cc Gem timer light labels are localized at rendering only; raw light_text and status description database IDs are preserved.",
-      "translation_sha256": "c8b684ed9367b738f9e3c793cff916afbc72866b254a5d81ad57947a3bd9717d"
+      "context": "transform.cc Form::get_description/transform_message, partial-form overrides, melding categories and UI unarmed attack names; form-data.h descriptive phrases; player-act.cc base_hand_name and species.cc hand_name. Current/past status is distinct, past does not imply death. Full descriptions avoid standalone English are/were/is/had. Eel count follows arm_count, front Felid paws/main Octopode tentacles kept, no invented two-eel guarantee for many arms. Hand kinds use canonical body terms; Coglin grasper is a grasping part and Poltergeist tendril is an ectoplasmic appendage, not insect antenna. Stone/storm attack names have explicit singular gender/plural forms and eel names explicit count. Melding lists blocked categories rather than claiming item destruction. Raw form data, save names, anatomical lookup getters, raw hand_transform_parts, capability flags, arm counts, equipment slots, form statistics and mechanics unchanged. Language-specific frames require initialised RU; other-language fallback retained. status.cc Gem timer light labels are localized at rendering only; raw light_text and status description database IDs are preserved. Canonical creature/item display name refined with shared glossary.",
+      "translation_sha256": "878768ba4569f7fb79f1565bd7c26dddf607b732d225cb8296dc7435311cf6a8"
     },
     "{form-description}a fearsome quicksilver dragon!": {
       "context": "transform.cc Form::get_description/transform_message, partial-form overrides, melding categories and UI unarmed attack names; form-data.h descriptive phrases; player-act.cc base_hand_name and species.cc hand_name. Current/past status is distinct, past does not imply death. Full descriptions avoid standalone English are/were/is/had. Eel count follows arm_count, front Felid paws/main Octopode tentacles kept, no invented two-eel guarantee for many arms. Hand kinds use canonical body terms; Coglin grasper is a grasping part and Poltergeist tendril is an ectoplasmic appendage, not insect antenna. Stone/storm attack names have explicit singular gender/plural forms and eel names explicit count. Melding lists blocked categories rather than claiming item destruction. Raw form data, save names, anatomical lookup getters, raw hand_transform_parts, capability flags, arm counts, equipment slots, form statistics and mechanics unchanged. Language-specific frames require initialised RU; other-language fallback retained. status.cc Gem timer light labels are localized at rendering only; raw light_text and status description database IDs are preserved.",
@@ -44656,8 +44657,8 @@
       "translation_sha256": "a64db6e91e88d861ccfcef40ca4ea300f023b67c78de01a5f4cd782ba92014e0"
     },
     "Your attached jelly eats the %s!": {
-      "context": "ranged-attack.cc block/reflection, margin-of-miss text, hit/no damage, mulch-bonus shattering, Jiyva attached jelly; item-prop.cc launched_projectile_name and Missile_prop, throw.cc wind-blessed West Wind shot. Slug here is a hand-cannon bullet, not a gastropod; bolt is crossbow ammunition, damnation bolt is not ordinary fire. Only visible/display strings localized: raw proj_name, set_projectile_prefix, aux_source and score/death attribution unchanged. Existing evasion_margin_adverb constructs exact two-argument templates, preserving thresholds and varying near-miss wording. Block subject has player/monster verb forms, suffix pronoun refers to generic masculine projectile; reflection is distinct from repulsion. No-damage and bonus-damage shatter messages stay separate. Attached jelly follows shared indeclinable jelly noun. English/inactive observable shield wording retained. No damage, ammo use/destruction chances, reflection, visibility, outcomes, RNG or game logic changed.",
-      "translation_sha256": "155e45d50f021b9ef37f6b60864f9fe0c9daef728fa68d8d68147be26999b1ba"
+      "context": "Current Royal Jelly/slime fragment messages and attached jelly projectile interception. Jelly is a creature слизень; metaphorical jelly in trembling limbs is unchanged. Explicit genitive creature token inflects plural after an existing number placeholder.",
+      "translation_sha256": "4e7c0262e8ca67694a26ef5080b664a7fca55050d2e15af53698cfcf86aa9dc9"
     },
     "The %s %s %s%s but does no damage.": {
       "context": "ranged-attack.cc block/reflection, margin-of-miss text, hit/no damage, mulch-bonus shattering, Jiyva attached jelly; item-prop.cc launched_projectile_name and Missile_prop, throw.cc wind-blessed West Wind shot. Slug here is a hand-cannon bullet, not a gastropod; bolt is crossbow ammunition, damnation bolt is not ordinary fire. Only visible/display strings localized: raw proj_name, set_projectile_prefix, aux_source and score/death attribution unchanged. Existing evasion_margin_adverb constructs exact two-argument templates, preserving thresholds and varying near-miss wording. Block subject has player/monster verb forms, suffix pronoun refers to generic masculine projectile; reflection is distinct from repulsion. No-damage and bonus-damage shatter messages stay separate. Attached jelly follows shared indeclinable jelly noun. English/inactive observable shield wording retained. No damage, ammo use/destruction chances, reflection, visibility, outcomes, RNG or game logic changed.",
@@ -56995,7 +56996,7 @@
     "source": "crawl-ref/source/dat/mons/*.yaml: declared display-name strings used to generate mon-data.h",
     "entries": 684,
     "source_names_sha256": "6bb1c228a590959bef142249fb5d355d5490f1ea2756893e17b9b29a0911fcf9",
-    "translations_sha256": "d1bd6e78611698af6200c03be355a76541097788dfd953186e0d296de5ffe0d0",
+    "translations_sha256": "7fd9793bdc5731881def941a3a4a521746ad4d2a3c96f34a595400b8d3bad351",
     "context": "Bounded exact-key coverage audit after manually authored glossary additions. This is not a review of all old Russian descriptions, declensions, runtime epithets or names assembled from multiple fragments. Test and legacy declarations are included; raw enum IDs remain unchanged."
   }
 }

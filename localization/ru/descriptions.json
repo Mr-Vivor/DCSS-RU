@@ -502,7 +502,7 @@
     },
     "eveningstar": {
       "source_sha256": "35f65653704e12e712f410dca179e838254f688357407fd6328b0999f267ac9d",
-      "text": "Противоположность моргенштерну. Сбалансированная булава с длинной рукоятью и металлическим навершием, покрытым смертоносными шипами.",
+      "text": "Сбалансированная булава с длинной рукоятью и металлическим навершием, покрытым смертоносными шипами.",
       "context": "dat/descript/items.txt; equipment mechanics and physical description in the selected gameplay version"
     },
     "executioner's axe": {
@@ -5061,7 +5061,7 @@
     "great orb of eyes": {
       "source_sha256": "ba8f85889dc8ac394e502c1b7e522c972fcd0fbd77f240a94f642ccb6405ddf1",
       "text": "Парящий шар, покрытый злобными глазами и гудящий от жуткой магической энергии. Ужасающие клыки этого создания разорвали на части немало искателей приключений.",
-      "context": "Current monsters.txt Slime/Abyss creatures and english.cc pluralise_monster: eyes of devastation and great orbs of eyes pluralise before of; tentacled starspawn has invariant English plural. Exact shared Russian names and all singular/plural case forms. Slymdra transliterated as Слаймдра, not a newly invented substitute creature. Regrown heads replace one with two, flaming cauterisation prevents it. Void Ooze weakens spells, not Strength or spell MP capacity. Lurking Horror torment and watched-movement hesitation retained. Eye hypnosis and the Starcursed Mass chorus are described without inventing extra named status immunities. Grammar animacy follows Russian nouns, not game holiness."
+      "context": "Current monsters.txt Slime/Abyss creatures and english.cc pluralise_monster: eyes of devastation and great orbs of eyes pluralise before of; tentacled starspawn has invariant English plural. Exact shared Russian names and all singular/plural case forms. Slymdra transliterated as Слаймдра, not a newly invented substitute creature. Regrown heads replace one with two, flaming cauterisation prevents it. Void Ooze weakens spells, not Strength or spell MP capacity. Lurking Horror torment and watched-movement hesitation retained. Eye hypnosis and the Starcursed Mass chorus are described without inventing extra named status immunities. Grammar animacy follows Russian nouns, not game holiness. Display name individually refined against current creature description and shared case table."
     },
     "acid blob": {
       "source_sha256": "ecae55477c1e4bba1c034d1a0d685c3a242ed43df09cef6b4b175a18da291a8d",
@@ -5301,7 +5301,7 @@
     "ironbound frostheart": {
       "source_sha256": "194524fbddc346ac661feac98fffaa6403c3c4d88f41957921469bb4a5519384",
       "text": "Измождённый воин-маг, обязанный охранять сокровища, на которые давно зарятся чужаки. Он извлекает из окружающего пространства смертоносный холод, замораживая врагов рядом со стенами.",
-      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose. Display name individually refined against current creature description and shared case table."
     },
     "ironbound thunderhulk": {
       "source_sha256": "ba373f84f241bdb1697fc79c72e0d034504d0ee6a22072274e53d8e09dc71884",
@@ -5486,7 +5486,7 @@
     "mana viper": {
       "source_sha256": "3ea8de5195808e63a88e2937dd6ad292bd5f3ab9e602ab7de99f69be988c04e2",
       "text": "Змея с фиолетовой чешуёй и слабо светящимися глазами. Она жаждет и плоти, и магии; её укусы способны вмиг опустошить магический запас даже могущественного мага.",
-      "context": "Current monsters.txt, mon-spell.h, mon-gear.cc and english.cc plural rules. Orc priest damage is divine, not weapon damage; high priest calls netherworld aid. Naga sharpshooter can have a crossbow, so do not narrow it to an archer. Mana viper drains magic, not intelligence or a permanent maximum. Spriggan druid death heals and temporarily strengthens nearby animals. Hornet is шершень rather than an unspecified wasp; naga and merfolk retain existing нага/русалка terminology. Tengu is indeclinable; merfolk plural invariant in English. Gnoll Bouda is transliterated; its old invariant plural corrected. Ordinary nouns, compound professions and all counted 2–4 forms checked manually. Source prose is translated without adding unsupported ranges, durations or spell lists."
+      "context": "Current monsters.txt, mon-spell.h, mon-gear.cc and english.cc plural rules. Orc priest damage is divine, not weapon damage; high priest calls netherworld aid. Naga sharpshooter can have a crossbow, so do not narrow it to an archer. Mana viper drains magic, not intelligence or a permanent maximum. Spriggan druid death heals and temporarily strengthens nearby animals. Hornet is шершень rather than an unspecified wasp; naga and merfolk retain existing нага/русалка terminology. Tengu is indeclinable; merfolk plural invariant in English. Gnoll Bouda is transliterated; its old invariant plural corrected. Ordinary nouns, compound professions and all counted 2–4 forms checked manually. Source prose is translated without adding unsupported ranges, durations or spell lists. Display name individually refined against current creature description and shared case table."
     },
     "anaconda": {
       "source_sha256": "c5105d30ab7877b4214a9d801726d5d308018203c535755108518d7fcdf62667",
@@ -5700,7 +5700,7 @@
     },
     "polterguardian": {
       "source_sha256": "940c7c76b871c9eda84d6ea4c802492d74d6ea66a3e4a342a4961197d2669b9c",
-      "text": "Многие полтергейсты ревниво оберегают места, где они поселились, но эти защищают и живущих там людей. По одним рассказам, это неупокоенные души тех, кто при жизни охранял Хранилища; по другим, орден Закованных в железо просто привлёк их к общему делу. Как бы то ни было, одно их присутствие укрывает других существ от снарядов: и пращные камни, и заклинания в последний миг отклоняются от цели.",
+      "text": "Многие полтергейсты ревниво оберегают места, где они поселились, но эти защищают и живущих там людей. По одним рассказам, это неупокоенные души тех, кто при жизни охранял Хранилища; по другим, Железный орден просто привлёк их к общему делу. Как бы то ни было, одно их присутствие укрывает других существ от снарядов: и пращные камни, и заклинания в последний миг отклоняются от цели.",
       "context": "Current monsters.txt, mon-data.h, mon-spell.h and english.cc. Retain canonical Дракониан, Казлал, Ковка пламенного голема, кактусовый великан and сфинкс-мародёр. Coloured draconian descriptions do not invent breath types or resistances absent from prose. Sphinx Marauder winds are its AF_AIRSTRIKE attack, not an invented extra castable spell. Blazeheart core explodes after shell destruction, not necessarily at every golem death. Crystal fragments cause brittleness, not a claim of instant petrification; polterguardian deflects missiles rather than reflecting all damage. Juggernaut moves quickly but rests between attacks. Polterguardian and Juggernaut transliterated, ordinary nouns translated. All case tables and counted forms checked; grammatical animacy is distinct from monster holiness."
     },
     "flesh golem": {
@@ -5880,7 +5880,7 @@
     },
     "Lodul": {
       "source_sha256": "ce520da36add096b84b28dd1ca3be6e9ec2eb51c81c65a53e1bc511f8c7c76d3",
-      "text": "Огр — посланник ордена Закованных в железо, отправленный искать и останавливать чужаков до того, как они войдут в Хранилища. Обладая незаурядной харизмой, он собрал небольшую армию сородичей и впечатлил их дальнобойной установкой молний, которую носит за спиной. Большой кошель монет, прихваченный из Хранилищ, тоже оказался весьма убедителен.",
+      "text": "Огр — посланник Железного ордена, отправленный искать и останавливать чужаков до того, как они войдут в Хранилища. Обладая незаурядной харизмой, он собрал небольшую армию сородичей и впечатлил их дальнобойной установкой молний, которую носит за спиной. Большой кошель монет, прихваченный из Хранилищ, тоже оказался весьма убедителен.",
       "context": "Current monsters.txt named enemies, not historical wiki descriptions. Erica is an octopode, not an old human adventuress; Blorkula is now an orc splitting into colours, not the old vampire bat-splitting version; Arachne has jorogumo students. Natasha survives more than one death but does not have nine lives; no unsupported exact life count added. Bai Suzhen transformation, Kirke pig warning, Nessos poison and Lodul lightning gear retained. Josephina and Josephine deliberately keep distinct Cyrillic names to avoid wiki/game collisions. Established gods and Ironbound Order terminology kept. Proper names transliterated, Enchantress title translated; indeclinable female consonant names and foreign vowel endings checked. English plurals follow english.cc including invariant Nessos/Agnes and Jory -> Jories. Raw IDs unchanged."
     },
     "dwarf": {
@@ -6806,7 +6806,7 @@
     },
     "ironbound mechanist": {
       "source_sha256": "0f167b75d2eb450ec7fcb37aec3c633aa33b963fe21b4b95223abbbb39aedbce",
-      "text": "Хорошо защищённый доспехами коглин. Орден Закованных в железо использует его талант к механизмам для ремонта и усиления многочисленных конструктов, охраняющих Хранилища.",
+      "text": "Хорошо защищённый доспехами коглин. Железный орден использует его талант к механизмам для ремонта и усиления многочисленных конструктов, охраняющих Хранилища.",
       "context": "Current monsters.txt guardians, kobolds, revenants and summons. Existing translated names retained. Inugami retreat to spiritual form rather than promise ordinary resurrection at a fixed delay. Mountain-shell protection has adjacent-source weaknesses, not universal invulnerability. Morphogenic slime temporarily melds equipment and weakens spells, not permanent loss of equipment or all magic. Orc apostle follower is the same role after proving oneself, not a new kind of apostle. Proper type IDs and lookup keys unchanged. "
     },
     "jiangshi": {
@@ -7665,7 +7665,7 @@
         "espite his hatred of it, he takes to water ": "рекрасно плавает, хотя и ненавидит воду: прямо ",
         "like a fowl.": "водоплавающая птица."
       },
-      "wiki_text": "Искатель приключений, который, как и вы, ищет Сферу. Несмотря на ненависть к воде, прекрасно плавает — словно водоплавающая птица. Если ваш вид не русалка и не октопод, он ещё и подчёркивает это отличие от вас."
+      "wiki_text": "Искатель приключений, который, как и вы, ищет Сферу. Несмотря на ненависть к воде, прекрасно плавает — словно водоплавающая птица. Если ваш вид не русалка и не осьминог, он ещё и подчёркивает это отличие от вас."
     },
     "Dowan": {
       "source_sha256": "f38538357e1fd94795828022f0021f00e7343cbbe1bbe085d2721fc78372b686",
@@ -7689,7 +7689,7 @@
     },
     "Erolcha": {
       "source_sha256": "5d639cf4deb3cfac0342c60ba361c3d1607ed14c2e48770ad91c7a9e949560a1",
-      "text": "Особенно коварная огр-маг.",
+      "text": "Особенно коварная огриха, владеющая магией.",
       "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
     },
     "Eustachio": {
@@ -7719,7 +7719,7 @@
     },
     "Grinder": {
       "source_sha256": "af9d8b55b26db786565762d5d902661f58bded5a4d239fd98130baea05d5bda5",
-      "text": "Не слишком умелая теневая бесовка, прежде служившая палачом в одном из нижних кругов Ада. Она любит жаловаться и говорить бессмыслицу.",
+      "text": "Не слишком умелая теневая демонесса, прежде служившая палачом в одном из нижних кругов Ада. Она любит жаловаться и говорить бессмыслицу.",
       "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
     },
     "Grum": {
@@ -7809,8 +7809,8 @@
     },
     "Snorg": {
       "source_sha256": "fc4993b0402742879cfb57aab33cb9f2f2035ba5659f7b5a4bb3cb97d9cf9361",
-      "text": "Особенно тучный и вспыльчивый тролль с внушительным брюхом. Сфера Снорга не интересует. Его радует бесконечная череда искателей приключений, которых она привлекает: ведь каждый — лёгкая добыча на обед.",
-      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+      "text": "Особенно тучная и вспыльчивая троллиха с внушительным брюхом. Сфера Снорг не интересует. Её радует бесконечная череда искателей приключений, которых она привлекает: ведь каждый — лёгкая добыча на обед.",
+      "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated.  Female flag verified in current dat/mons/snorg.yaml; personal name is indeclinable in Russian."
     },
     "Sonja": {
       "source_sha256": "102b54d8ed29013e1a3f6b2960a5e42625a609da772b587da1cfca8c42ef88db",
@@ -7840,6 +7840,900 @@
       "source_sha256": "8c133098f09192101ae265a086bd2cc87ea5adb8dbe83907b27b70cf6670a897",
       "text": "Обычная пещерная змея — одна из рептилий, приспособленных к жизни под землёй.",
       "context": "Manually retranslated against current monsters.txt, not obsolete Russian lore. Unique names checked against shared glossary. Aizul protects a talisman and is female; Boris channels victims' final regrets; Maurice is a vine symbiont; Terence is a retired veteran. Lua selectors and concatenation remain unchanged, only explicit string literals translated. "
+    },
+    "air elemental": {
+      "source_sha256": "696892049117056220d956315b3bd30c1557ad92fb101d206b5e7431e092f224",
+      "text": "Дух, призванный из стихийного плана воздуха. В этом мире он мечет молнии, оглушая врагов трескучими разрядами.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "alligator": {
+      "source_sha256": "7325cb0e07e8eeaed9043c83d103f519fef9c3e85354ef378f3f3a48e0eac60e",
+      "text": "Агрессивная рептилия из семейства крокодиловых с мощными челюстями, полными острых зубов.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "alligator snapping turtle": {
+      "source_sha256": "be3e24bb3566497d05394dafc9cb464247f41f3dd23b71c4df9266b99f731a4c",
+      "text": "Особенно крупная и злобная родственница каймановой черепахи. Как и её меньшая родня, она способна вытянуть шею и укусить издалека.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "ancient champion": {
+      "source_sha256": "4fbc7a8b330f7831520c59ee603adad5c3e2e2776a864bb1aa65a2be555380c7",
+      "text": "Невообразимо древний скелет. На его костях вырезаны сотни золотых магических знаков, а сам он пульсирует ужасной нечестивой силой.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "angel": {
+      "source_sha256": "25a66c594affe8f6d6c851ef34b448ab228360179cab125474292ade9ffd5a6e",
+      "text": "Божественный воин Сияющего — высокая крылатая фигура неземной красоты, окружённая ослепительно белой аурой.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "apis": {
+      "source_sha256": "290d7dcf16b97c52829117d5b003d18f83212ed28e0ff1a0f0260d35ecbff238",
+      "text": "Кроткий священный бык Эливилон. Как возвышенный посланник Целительницы, он одним своим присутствием удваивает здоровье союзников.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "ball lightning": {
+      "source_sha256": "d6d4a67297d6c2f72d7cf2d6301254f3805743a5ba6a42455d2b3771904c34f7",
+      "text": "Стремительная сфера искрящейся электрической энергии. Она взорвётся от малейшего воздействия.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "ball python": {
+      "source_sha256": "ead4fc0138a5b1cb11910b3198d21bfa98c3cbfea5fd1396b6e9095d942731ff",
+      "text": "Небольшая змея, которая не только кусает, но и сдавливает кольцами тела существ небольшого размера.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "basilisk": {
+      "source_sha256": "0ed6efbe1007d05bd3dcd00efcc00c19862bf803bbac18623ebfc4d05834ba7d",
+      "text": "Ящерица среднего размера с гребнем на голове и страшным взглядом, обращающим в камень.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "bat": {
+      "source_sha256": "490ced3c5fd3ef24c488913cf025cd01f31d030202fc6f28ae37279a0e6ee7e8",
+      "text": "Крупная серая летучая мышь. Несмотря на растительную диету, довольно агрессивна. Близорука и ориентируется с помощью эхолокации.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "black bear": {
+      "source_sha256": "44ef813abfcbd633a5b0553fd39fdfbd862f31b50625428d616d6b3c5a910f73",
+      "text": "Небольшой чёрный медведь. Как и другие медведи, впадает в ярость при тяжёлых ранениях.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "black mamba": {
+      "source_sha256": "d342ea2194ba1218fcf2ffecb2de30fc025cb63f3a54eea87fe8f60449dc3b7c",
+      "text": "Поразительно быстрая тропическая змея со смертельно ядовитым укусом.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "blink frog": {
+      "source_sha256": "5fcb071b1b78ada2a679bd6269755fd1ded9d732e62a20ec58d699f39b8833e6",
+      "text": "Лягушка, способная совершать короткие мгновенные перемещения по своей воле: оказаться рядом с добычей или ускользнуть от опасности. Обычно держится стаями.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "brain worm": {
+      "source_sha256": "c86181e5889aeb3e82008c02907ce8d50732425e350d0fdce50d3918d015d8c4",
+      "text": "Склизкий светящийся червь с сильно раздутой головой. Он питается чужим разумом, извиваясь в потусторонней грязи.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "bush": {
+      "source_sha256": "c3e6a379861cb9773b57addddc0b2b47cc8e101262edbf6d475ae253dd407cf6",
+      "text": "Деревянистое растение, достаточно сухое, чтобы легко загореться. Его редкая листва не препятствует ни магии, ни снарядам. Однако корни держат крепко, и уничтожить куст непросто.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "butterfly": {
+      "source_sha256": "c50e0cb614045f244a67d4ad83c6239dca427f32c6237e04525b1967a1e159f5",
+      "text": "Крупная яркая бабочка с прекрасным узором на крыльях, удивительно неуместная во мраке пещеры.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "catoblepas": {
+      "source_sha256": "962c1c378d725c551732b3c22e9844227978bdc3d968898d42b1bbc6291f082c",
+      "text": "Неповоротливый чёрный буйвол, покрытый тусклой чешуёй. Его похожая на кабанью голова почти касается земли, а шею защищает жёсткая щетинистая грива. Страшное дыхание этого зверя обращает плоть в камень.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "centaur": {
+      "source_sha256": "f93a7bfaa61a74172ba55bb35efa29eb727b584f9baead6fdd734c740eaac10b",
+      "text": "Существо с человеческим торсом на лошадином теле, искусно владеющее луком.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "centaur warrior": {
+      "source_sha256": "6f60b1666698563914bb2a499bbc0446f1f2e531691721a646f61b6747747231",
+      "text": "Мускулистый кентавр, ветеран множества сражений. Он вооружён добротно сделанным оружием и умело им пользуется.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "chaos spawn": {
+      "source_sha256": "38fd8cdfbc838aa456c19322a7eeea464338e418820b5f4e71b2c8a0dbf83041",
+      "text": "Воплощение чистого хаоса. Его облик непрерывно меняется: глаза, рты, когти и щупальца то вырастают, то исчезают. Оно искажает всё, к чему прикасается.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "crimson imp": {
+      "source_sha256": "7e6c7fe1d4f7c3827b2be057ce6c550baad7e04ee5ecbcb27666ac90fc0480cc",
+      "text": "Маленький уродливый младший демон. Его клыкастая пасть словно навеки застыла в злобной ухмылке, а из чешуйчатой головы непристойно торчат рога.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "crocodile": {
+      "source_sha256": "adfcdeb4439cfb2ba452cf7a075ea8f6f6d0f1a47a00725845530d8dd15cdf14",
+      "text": "Крокодил с мощными челюстями.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "cyclops": {
+      "source_sha256": "0ea39134199ef024a129f3e32fc1894e5927ea4fc0ac71226241939938d3e182",
+      "text": "Великан с единственным глазом посреди лба. Отсутствие бинокулярного зрения не мешает ему метать валуны с пугающей точностью.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "daeva": {
+      "source_sha256": "5ed95b4cddbd4a7e1732d85f7cad40040c952681d82db45d160f1ebe228d0caf",
+      "text": "Высокая крылатая фигура, излучающая яркий золотой свет. Это божественный посланник Сияющего.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "dancing weapon": {
+      "source_sha256": "7673c09ba338bdf6a86426a22b21498b8db8c86d75b0de9cb6c327fdcdfa06d7",
+      "text": "Оружие, зачарованное летать по воздуху и атаковать самостоятельно.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "death drake": {
+      "source_sha256": "14d29bed94160a9e00175382dc17b99acb2b1958583bcac1911b6384894a57ff",
+      "text": "Мрачный и зловещий малый дракон. Из его смердящей пасти вырываются смертельно опасные миазмы.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "death yak": {
+      "source_sha256": "f68c381a491fdd35cbe49c487f389d6a9c9c905e4f3e60fce4987cf4c9b91b6b",
+      "text": "Более крупный и мощный родственник обычного подземного яка. В его маленьких красных глазах горит жажда живой плоти.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "deep elf elementalist": {
+      "source_sha256": "2acd8349c9df67a5392e4d6d3f2349d4095ce36035aef14de017a58580550a73",
+      "text": "Глубинный эльф, повелевающий первозданными силами вселенной. Он славится умением настигать даже самых неуловимых врагов мощной магией, от которой невозможно уклониться.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "demonic crawler": {
+      "source_sha256": "9bb658ac6f6061a94472916198ed7963b35accc54203793db5ad5a66923aa2a0",
+      "text": "Адское насекомоподобное существо. Некая инфернальная сила непрерывно восстанавливает хитиновые сегменты его тела. Надолго остановить его может лишь смертельный удар.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "dire elephant": {
+      "source_sha256": "cf14c78117c927894fec93df13d266bb46132ba1e11bf1cf1002f9e4dabdcae9",
+      "text": "Огромный слон, более дикий и свирепый, чем его обычные сородичи. У него очень толстая шкура, мощные ноги и память, от которой можно умереть.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "draconian annihilator": {
+      "source_sha256": "5d34c38390640c749d2b1f949ec9e30dbac66bf9cc8a4c38cdef6c60e2d5ac08",
+      "text": "Дракониан, уничтожающий мощными заклинаниями Разрушения любого, кто осмелится встать у него на пути.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "draconian shifter": {
+      "source_sha256": "090ab4d31ecb4c9c2ded6241c194db1ff9dd0a1838d1cd667fc1e312106e62a0",
+      "text": "Дракониан, постигший тайны искривления пространства. Он способен переместить себя или любое другое существо куда угодно — в этом мире или за его пределами.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "earth elemental": {
+      "source_sha256": "35256f799dc30d6cd04dd5060085c54eae432e8c9928ca1d391bf23f154fcd5c",
+      "text": "Дух, призванный из стихийного плана земли. В этом мире он существует как извивающийся поток ила и камня, способный беспрепятственно течь сквозь сплошную скалу.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "efreet": {
+      "source_sha256": "fc578c0f1ac71b0cb71a3a0840d2e6f17a2ae6c3a2849d917c3fee93d3200da7",
+      "text": "Внушительная мускулистая фигура, окутанная облаком обжигающего пламени.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "eidolon": {
+      "source_sha256": "1f43b70d8fa0284d3f06e91da0a4a929318d1c9f6e44c6e933f716a00ad37c03",
+      "text": "Древний скелетообразный призрак в облаке тумана. Его облик сияет добела раскалённой, изнуряющей энергией.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "electric eel": {
+      "source_sha256": "805ccf7179b16a74667af8d5f991f43f756eac91ec4ea88761c192ff41c620ad",
+      "text": "Рыба, способная создавать мощное электрическое поле.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "emperor scorpion": {
+      "source_sha256": "7093e251e50eee8ccac194d770bc9f58de11b59c53c99386590e641f6a3e4204",
+      "text": "Гигантский скорпион с массивным жалом на хвосте, с которого капает смертельный яд. Один из крупнейших известных паукообразных.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "Executioner": {
+      "source_sha256": "7a1e591a9899cee3088a90a2afc947cfafda0d881449904323910849bb9ba2ae",
+      "text": "Ужасающе могучий и стремительный демон. Его очертания скрывает облако кружащихся лезвий, похожих на косы.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "felid": {
+      "source_sha256": "80c2a9e492e0eea0792e0af391e69cdab80aad9a15e96c8d6cbfbec4f65240df",
+      "text": "Кошачье существо, обретшее разум благодаря магии. Дар речи оно использует, чтобы требовать молока, лакомств и кошачьей мяты.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "fire bat": {
+      "source_sha256": "86d90a48d0f4a5729fdc241d9971ad9c49de3145ac7a582a4884d55cc032a95f",
+      "text": "Летучая мышь, чьё кожистое тело пылает жарким пламенем.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "fire crab": {
+      "source_sha256": "50221f33b86d30183ac28482212690064be3822d27fd982a745548ac5e438ac6",
+      "text": "Краб, чей великолепный панцирь сверкает самоцветами и высоко ценится. Добыть такой панцирь особенно трудно: краб с почти сверхъестественной лёгкостью ходит по расплавленной лаве и извергает огромные потоки пламени.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "fire elemental": {
+      "source_sha256": "9e84b7121470f1bfd7282f11482321eeb8e494c648ea782f3a08f41fd93e012f",
+      "text": "Дух, призванный из стихийного плана огня. В этом мире он принимает вид ослепительного столба бушующего пламени.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "fire vortex": {
+      "source_sha256": "3b09d4777b04a982bc3188be57e1fbd80467edef3d31713d4fc66fe20db7d921",
+      "text": "Клубящееся облако пламени. Ударив врага, оно рассеивается.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "freezing wraith": {
+      "source_sha256": "7593ea54e546db406150b60040c9b08aa7bac4951a93f83d4962d875d5aeecd2",
+      "text": "Бестелесный скелетообразный призрак в облаке морозного воздуха — вероятно, останки неудачливого искателя приключений. Теперь он медленно парит по Подземелью, желая обречь других на ту же участь.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "frost giant": {
+      "source_sha256": "7df0f4579a22ed13ee1a390173f4671fd42d8fb48983abac89260bc522236565",
+      "text": "Великан с синей кожей и волосами, похожими на лёд и снег. Его глаза холодны, как зимнее небо. Он мрачно выступает в бой с огромным ледяным топором и завывающими порывами стужи.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "fungus": {
+      "source_sha256": "e023d44c30b8e04528ebe12fb727c2cbdb2f815d8fc96b78e1c89b1048ec9c76",
+      "text": "Бугристый {{ if you.branch() == \"Gulch\" then return \"лиловый\"; else return \"серый\";\nend }} гриб, прекрасно чувствующий себя в сыром Подземелье.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. ",
+      "lua_strings": {
+        "mauve": "лиловый",
+        "grey": "серый"
+      },
+      "wiki_text": "Бугристый гриб, прекрасно чувствующий себя в сыром Подземелье. В Ущелье он лиловый, в других местах — серый."
+    },
+    "glowing shapeshifter": {
+      "source_sha256": "91df5d4aa3b183256b6f1a40d3a369f21864045477529df2eda2146ece5fe9a1",
+      "text": "Оборотень, утративший контроль над своими превращениями и непрерывно меняющий облик.",
+      "context": "Individual context review against current monsters.txt and shared glossary. Removed obsolete mechanics and invented details from old Russian text. Air elemental stuns; apis doubles allied health; demonic crawler regenerates rapidly; turtle description no longer promises retreat into shell. Existing English IDs and explicit Lua conditions retained. "
+    },
+    "goblin": {
+      "source_sha256": "b3eaad241183f40ba5e0c44c231f75283e8c6c9f9bb4f0650245aa04ac1ea2b7",
+      "text": "Низкорослое, нетерпеливое и недружелюбное человекоподобное существо. Гоблины появились всего несколько лет назад, но уже стали на удивление многочисленны. Увы, никакие шумные гоблинские пирушки не делают их приветливее к искателям приключений.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "golden dragon": {
+      "source_sha256": "baafb2ff40e0443237e5d9a76dd675d4c0e485dd0a3598475a1b2687e81f9ff6",
+      "text": "Огромный крылатый дракон, покрытый сияющей золотой чешуёй. Легенды гласят, что его кровь одновременно горяча, холодна и вдобавок ядовита.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "guardian mummy": {
+      "source_sha256": "d4e4c64dc307efb3d1ca5441dadc247c79020613702210d9469b4ec60f518368",
+      "text": "Древний воин, забальзамированный и обречённый вечно скитаться в облике нежити.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "sin beast": {
+      "source_sha256": "81d6ce20d1e962ec50077d208cd0b4f37b45487189130c93cd2bcbbd20a7a080",
+      "text": "Ненасытный демонический зверь — наполовину животное, наполовину разумное существо. Он родился из скопившейся порочности смертных и с одинаковой жадностью поглощает злобу и магию.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hell hog": {
+      "source_sha256": "ce69bead728d768049afe91edd7a45a1a731d2518c7d8a97ade99984ade5f39d",
+      "text": "Огромный агрессивный боров, выведенный в Аду. Его дыхание обращает врагов в пепел.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hell hound": {
+      "source_sha256": "006c6694f355d8d29083416abe246f669f518f1aa1100a3abbe9468bd82e828e",
+      "text": "Огромный чёрный пёс с горящими красными глазами. Из его клыкастой пасти валит дым.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hell knight": {
+      "source_sha256": "2a654882ad550eafc23702bd302df98fa8e5a25a1f2e0997b9817df011ab815d",
+      "text": "Воин в тяжёлых доспехах, заключивший союз с силами Ада. Обычно его сопровождают столь же зловещие приспешники.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hell rat": {
+      "source_sha256": "ae26f4a134966a73eaa03da3e234f6804d2d03350d7c17a530d3261604d6d3c8",
+      "text": "Необычайно крупная крыса. Её странная бугристая оранжевая кожа светится адской энергией, породившей это создание.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hellephant": {
+      "source_sha256": "4385434b42c7880bb37f5d03e9274888c009e793ad1618cef6de669a4110089c",
+      "text": "Отвратительный потомок демонов в облике слона. Изнутри его жжёт пламя Ада.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hippogriff": {
+      "source_sha256": "ab403eee9de61b11ba18b981f90567616c66c1e4a60a29742a3ab34ead243ca4",
+      "text": "Крупное существо с задней частью тела лошади, крыльями, головой и когтями огромного орла. Гиппогрифы часто встречаются на гербах. В некоторых крепостях их держат и как символ, и как защитников: незваных гостей они швыряют прямо под клинки своих хозяев.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hobgoblin": {
+      "source_sha256": "0ec2cb42e5227fe1a130714d28148528356823e8cc4f9b145e80bd8cbd8f938a",
+      "text": "Более крупный и ещё более грубый родственник гоблина. Хобгоблины вполне умеют обращаться с оружием, но большинство предпочитает забивать противников голыми руками.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hog": {
+      "source_sha256": "0a33cc08b06f73d0ca35647651096acba98dc54dd23a023dd72c4687d835d7e1",
+      "text": "Крупное парнокопытное животное. Как и человек, оно всеядно, сообразительно и почти лишено волосяного покрова.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "holy swine": {
+      "source_sha256": "8425c2fd9170b3dfb25db563a164855b56c565fe348cf27f2572d085c538930a",
+      "text": "Редкая небесная разновидность обычно нечистоплотного животного. Говорят, это ангельское существо, ставшее жертвой враждебной магии.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hound": {
+      "source_sha256": "2e92b667c63d93f97a12b33656c8fbb58a79429b0638de283109a1c575721731",
+      "text": "Грозная охотничья собака, гибкая и бдительная.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "hydra": {
+      "source_sha256": "c292dc1e4d9de2384bac90a07b7cfa00f5ba410e9a034833eb91a1196b33ddbc",
+      "text": "Огромное кошмарное ящероподобное чудовище. У неё много голов — и может вырасти ещё больше!\n\nУдар клинковым оружием крупнее короткого клинка может отсечь голову, после чего на её месте вырастут две новые. Очень крупные когти, например тролльи, тоже способны отрубить голову. Только оружие со свойством пламени прижигает рану и не даёт новым головам вырасти.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ice beast": {
+      "source_sha256": "bd41cd6ce21077be9f99483a1da55d83c1206067193b64b212c98e73fc0d9ddf",
+      "text": "Ужасное существо из снега и кристаллического льда. Там, где оно ступает, на полу остаются лужи ледяной воды.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ice devil": {
+      "source_sha256": "291742a15333adbda52d2252b78d24f0e8c27267d06df4c3a179b11b47842964",
+      "text": "Демон ростом с человека, покрытый сверкающим льдом.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ice dragon": {
+      "source_sha256": "a14b284c8b2ca907a3aa0f2b453d65d6afb442659f39ce329a6149c82800be9b",
+      "text": "Белый дракон, покрытый инеем. Из его ноздрей сыплются снежинки.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ice statue": {
+      "source_sha256": "51ea3b9ca756a97b510bddfcfd2fb00465aced0a3067b7962ead08cf98f4b083",
+      "text": "Внушительный идол безымянного арктического бога, вырезанный из сверкающего тёмно-синего льда. Вокруг клубится морозный пар, а воздух пронизывает стужа.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "iron dragon": {
+      "source_sha256": "e32541bb0256b96d3dd66fc2e8b0c133923ac6f6d2d224388c1e5dfdf0ac0906",
+      "text": "Очень тяжёлый, медленный и, по-видимому, нелетающий дракон. Он назван так за свою чешую: она настолько прочна, будто сделана из железа. Из его ноздрей сыплются металлические хлопья.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "iron elemental": {
+      "source_sha256": "474db46bbdbdc4c4adf092da2cc81b0449350165dae13cd038e78ae9581f7fe5",
+      "text": "Редкий могущественный дух из стихийного плана земли. В этом мире он обитает внутри громадной массы железа.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "iron golem": {
+      "source_sha256": "1c428fafc5125b5882d3e843c9884d332732c3b1976caccb3ba21af0bdc9fee8",
+      "text": "Крупная, тяжёлая и чрезвычайно прочная металлическая статуя, наделённая способностью двигаться с помощью неких тайных знаний.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "iron imp": {
+      "source_sha256": "0d09e0761a8854469267352163bfef2fda484c331cad72462f5fa25e1aabfdc3",
+      "text": "Маленький уродливый, скрюченный демон с металлической кожей.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "iron troll": {
+      "source_sha256": "a9cba072fa0a300938b6b857641dfb00ca3f3e8aa309af6c14e4991c23cd085a",
+      "text": "Огромный тролль с могучими конечностями. Его толстая чешуя напоминает слегка проржавевшее железо — особенно своей твёрдостью.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "jackal": {
+      "source_sha256": "0a7234b1d2a727e3d6f82b9e6a9709d6a96a143685f8617b9f84a18bded807a5",
+      "text": "Небольшой падальщик из семейства псовых. Стаи шакалов бродят по подземному миру в поисках падали.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "jelly": {
+      "source_sha256": "c446ab4dc1726daabdd4ababda14b0636ce88ff51a4ff821f6cb883596007b81",
+      "text": "Пульсирующая масса кислотной протоплазмы.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional.  Display name individually refined against current creature description and shared case table."
+    },
+    "jumping spider": {
+      "source_sha256": "caca12f498d6d6a4c625fdb23ecc656f58c4fcac30ae5f4b35bcb2c7fa58f54b",
+      "text": "Паук, плетущий паутину между передними ногами. Он прыгает на добычу и опутывает её этой сетью. Скорость его прыжков почти сверхъестественна.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "killer bee": {
+      "source_sha256": "c8b8a978663833a4db27a96891b9e40d0ba293c711443d3e18b9c5af73f97511",
+      "text": "Гигантская пчела со смертоносным жалом, которым она может жалить многократно.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "kobold": {
+      "source_sha256": "46f697697f1d6e4de756e22218f9f40517d34ebc692e0903c8cb8fa40114dc95",
+      "text": "Небольшое сероватое существо с повадками и обликом одичавшей собаки. Никто не знает наверняка, откуда взялись кобольды. Среди возможных виновников называют древних демонических богов, злых духов и волшебников, вмешавшихся не в своё дело.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "kobold demonologist": {
+      "source_sha256": "e0acd7f7a5518c70d7d3663aefeaf117cabe70e3d86dc6911891abb6b9073999",
+      "text": "Кобольд, вступивший в союз с демоническими силами и способный призывать существ из глубин Ада.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "komodo dragon": {
+      "source_sha256": "d4dd98768798c01869984caf01924b3b11186ed1e9b7d29461d1947c00b4bffc",
+      "text": "Огромный варан, вполне способный охотиться на крупных животных.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "large abomination": {
+      "source_sha256": "d407293f1a8de893a1ae8af0a1e45ee7866983cfbf48871d8421bceb4038326a",
+      "text": "Отвратительное скопление изувеченных частей тел, одержимое и перекроенное так, что рассудку трудно это вынести. Скорость, сила и живучесть каждого такого создания зависят от несчастных, из которых его собрали.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "lich": {
+      "source_sha256": "e30f62ed66dfb1bcde68d03d0040f26855f5e23cb2d11848c0e55a9fcc46ede5",
+      "text": "Могущественный волшебник, научившийся обманывать саму смерть. Теперь это иссохший скелетообразный труп, который не даёт распасться могучая тёмная магия.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "lindwurm": {
+      "source_sha256": "1b9bbda9e25095497dfcfdf1aa45a83429dd69b06a95aea8adaac3d056875e34",
+      "text": "Небольшой змееподобный дракон с парой сильных передних лап. Его толстая чешуя испускает жутковатое красное свечение.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "manticore": {
+      "source_sha256": "5ed21383a15703b8304b02163ef2e24918ea8156730acb3d5d52d120101ef3dd",
+      "text": "Чудовищный гибрид с чертами человека и льва и огромными крыльями летучей мыши. Её хвост ощетинился шипами, которыми она стреляет в будущую добычу.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "moth of wrath": {
+      "source_sha256": "8fbf6b58a810a513fa2e71805142a6a460d1d3abca896c325ca864d0b34bd114",
+      "text": "Мотылёк, способный приводить врагов в ярость прикосновением, а союзников — одним лишь взглядом. По какой-то совершенно непонятной причине его истребили на поверхности много веков назад.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "mummy priest": {
+      "source_sha256": "8d2fb499b6a7904c8188a9ae0c8fc811d211fe7d6a748214f1a4d84826eeb29f",
+      "text": "Древний служитель давно забытого бога, забальзамированный и обречённый вечно скитаться в облике нежити.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "necromancer": {
+      "source_sha256": "e41f33d9876b377e01ab6da064bdba6a4f879c698b4d2b51109514fd9f013ce0",
+      "text": "Злой волшебник, посвятивший себя магии смерти, подчинению нечестивых энергий и оживлению трупов в жалкой пародии на жизнь.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "necrophage": {
+      "source_sha256": "2fa9353cd9182d85cacdfde4af7dedfa711fe446662737d597d2bfb044d0709b",
+      "text": "Мерзкое создание самой нечестивой некромантии, собранное из разлагающихся трупов человекоподобных существ. Оно существует, чтобы распространять болезни и гниение.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "octopode": {
+      "source_sha256": "808447f67ee8767569816b5811358379143698f9b7b3def0bbb9f1c16478d14e",
+      "text": "Более разумный родственник могучего кракена, способный пользоваться орудиями и заклинаниями. Осьминоги одинаково хорошо живут на суше и в воде, но большинство предпочитает оставаться под волнами и служить своему Королю.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ogre": {
+      "source_sha256": "0b024dafb202ba9dcb7f211a193f9254c3ebd6c42475221845a882ed5860222d",
+      "text": "Крупное, уродливое и толстое существо, дальний родственник гоблинов. Невероятно силён и любит сражаться бок о бок со своими друзьями-орками.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ogre mage": {
+      "source_sha256": "dceb2fd6522eaf3044bcd58d84ce1a2c2ab1af1acfb64806a2fd7b00f61b73d3",
+      "text": "Редкий огр, искусный в магии. Обычно такие становятся вождями своих сородичей.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "oklob plant": {
+      "source_sha256": "91c7b60c3bf54d2b1c9dacfdc3fafc17a6ae5b4a604b230f17519bec532e2ff8",
+      "text": "Крайне опасное растение, которое отгоняет хищников струями едкой кислоты. Даже опытные искатели приключений обходят оклоб стороной.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "ophan": {
+      "source_sha256": "a2fc71a5bc1ea59fc6838434468a7c6745fe538df5d6dfd16928b445ff9a016d",
+      "text": "Существо из небесных сфер: колесо внутри другого колеса, и оба усеяны глазами. По нему мерцают странные языки священного пламени. Его бесчисленные глаза высвечивают жертву и клеймят её как отступника — добычу для союзников этого существа.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "Orb Guardian": {
+      "source_sha256": "5cc24a55e44a8eb1e4629dd075d3f9a5faab847afc21bc5117fc8cb28087fcd8",
+      "text": "Огромное светящееся фиолетовое существо с четырьмя конечностями и обострёнными чувствами, созданное самой Сферой. Оно охраняет её с неистовой тщательностью и жестокостью. Его смерть побуждает все безграничные тессеракты на уровне создавать подкрепления.\n\nПока Сферу не потревожили, страж не оставит свой пост и не покинет этаж.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "pandemonium lord": {
+      "source_sha256": "1a2b5e7e4e9a2572e1e59155123778bb7d707edd0134bd559c7a0837c8d64a99",
+      "text": "Грозный владыка демонов, обитающий в бесконечных залах Пандемониума. Каждый из них непохож на остальных и обладает собственными сильными и слабыми сторонами.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "phantom": {
+      "source_sha256": "ce5b42a28ef9c5a884bbaf4a79c43a7a3ba11ad27ad7e1ba86a78769b30c410d",
+      "text": "Почти прозрачный дух нежити. Некоторые мудрецы считают его выродившимся призраком, утратившим все воспоминания о прежней жизни. Он редко задерживается на одном месте надолго.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "pillar of salt": {
+      "source_sha256": "d516b06b050dbac3e3c1860eda56bf3514714cf542b2c6f21eddf04a7a4b7721",
+      "text": "Соляной столп, похожий на статую, но созданный не руками живых.",
+      "context": "Individually compared with current source and canonical glossary. Hydra regrows two heads after severing; short blades exempt, large troll claws count, flaming brand cauterises. Removed old item-eating jelly and komodo disease claims; moth of wrath distinguishes hostile touch from allied gaze. Orb Guardian death alerts Boundless Tesseracts and floor departure stays conditional. "
+    },
+    "plant": {
+      "source_sha256": "0de414b21f50f8d933828b9938fe6739399fb689e8d7672478e03ca49eb63f16",
+      "text": "Растение, приспособившееся к суровым условиям Подземелья. Оно каким-то образом процветает под землёй, даже без солнечного света.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "player ghost": {
+      "source_sha256": "e4720dbe839052586f669dfbff852b578afca96427752352cd3ae6e128458290",
+      "text": "Призрак неудачливого искателя приключений, сохранивший многие прижизненные навыки и способности. Он обречён преследовать живых на этом этаже Подземелья и яростно нападать на следующего искателя приключений, который встретится ему на пути.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "polar bear": {
+      "source_sha256": "44d98bf14ee72ea417f91c25c94bdd5bc44d8e99ca5f64ed491dbe35b58ccc94",
+      "text": "Медведь с блестящим белым мехом, привыкший к холоду. Как и другие медведи, впадает в ярость при тяжёлых ранениях.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "profane servitor": {
+      "source_sha256": "3b30cd4305ab85bafcd40a7e74a42c769810fff4a68d23ed8f13d5f6676fb2df",
+      "text": "Кощунственное создание, некогда бывшее ангелом Сияющего. Теперь это неживое доказательство того, что даже самые святые существа не защищены от власти Йредэлемнула.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "queen bee": {
+      "source_sha256": "537cff679f1fd3ff8b818eaefbfb86bf8e491d88cdbc9cbdc1685a1c4ce517ee",
+      "text": "Владычица пчелиного роя, ещё более крупная и опасная, чем её многочисленное потомство.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "quicksilver dragon": {
+      "source_sha256": "27a8199823a2893a2da9908c6ae4e574c0620c1ef9c83810b007281e17ff7caf",
+      "text": "Длинный гибкий дракон, словно почти целиком состоящий из шеи и хвоста. Его кожа блестит как расплавленная ртуть, с заострённой морды срываются дуги магической энергии, а двигается он с ужасающей быстротой.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "quokka": {
+      "source_sha256": "aa25166b15773aceaaad3df9bbd80f00cda689755f7eebd0b4e2d5c3fa32c33c",
+      "text": "Надоедливое маленькое сумчатое, немного похожее на крысу, но всё же не крыса.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "rakshasa": {
+      "source_sha256": "03cb3181a4200bb2fc2e263d1bd7eb8376cde5dddde21e9aea3cb6c613a14daa",
+      "text": "Звероподобный уродливый демон-людоед, ищущий тайную силу и знания. Он исключительно умён и жесток, а в искусстве иллюзий ему мало равных.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "rat": {
+      "source_sha256": "8bc46da58b449d23e8aff5b21b207a8fa01d5872e06929df1fc730f052116653",
+      "text": "Грязный грызун, вымахавший в Подземелье до немалых размеров и ставший агрессивным.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "hornet": {
+      "source_sha256": "e574ee98729bf085a30e40673a83a59fb68fe131a7a0bfcafa3d623738fe5404",
+      "text": "Жужжащий шершень с устрашающим жалом, с которого капает парализующий яд.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "redback": {
+      "source_sha256": "16262bb16a7687c89f7e986a7a5f81a35cf8e2ddd61babf5204eea0c4a6ce584",
+      "text": "Злобный чёрный паук с красным пятном на раздутом брюшке. С его жвал капает смертельный яд.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "royal mummy": {
+      "source_sha256": "4d025f6db275a41bfa3f3f6b09e8db0733577ad3cc39b19feb25fa38083979f5",
+      "text": "Древний фараон, забальзамированный и проклятием обращённый в нежить. Теперь он способен творить великую и ужасающую магию.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "scorpion": {
+      "source_sha256": "5cafee25579ceca9a28d01e931f6756de8c13ac59a4905e3b3427983896cde63",
+      "text": "Мерзкое паукообразное, вооружённое до зубов. Тело защищает толстый панцирь, хвост оканчивается ядовитым жалом, а передние конечности снабжены парой острых хватательных клешней.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "sea snake": {
+      "source_sha256": "c3bf6b88b8fc51ba92af021cca30482099c9e29cd62bf214f44a6355bf5880c9",
+      "text": "Ярко окрашенная змея, прекрасно чувствующая себя в воде. Её укус чрезвычайно ядовит.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "shapeshifter": {
+      "source_sha256": "50dadcf7c7c03b560643b84a800560928aeea6c5d62e18d2610dd897485fb50d",
+      "text": "Жутковатое создание, способное менять облик. Живым в естественном облике его видят крайне редко.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "silent spectre": {
+      "source_sha256": "44c44b12fefb6d18e31ea23798450f72aa900a6a1b5181531a156cbbee81092b",
+      "text": "Ужасный дух, окружённый неземной тишиной. В ней невозможно произнести магические слова, необходимые для сотворения заклинаний и чтения свитков.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "sixfirhy": {
+      "source_sha256": "3a871c2e1a4fcdb53a7034100247a86fde699b01b5d4bed073056ca1dd9174a7",
+      "text": "Маленькое мерзкое создание, двигающееся рывками: оно то замирает, то срывается с места с быстротой молнии. На ходу оно рассыпает искры.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "skeletal warrior": {
+      "source_sha256": "8b653ad006d4e4fb453b064cc60fec1e1ad004569736cd1b00d598ccfd76ac5f",
+      "text": "Злобный, хорошо вооружённый скелет человекоподобного существа, оживлённый нечестивой силой.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "sky beast": {
+      "source_sha256": "ca23defccd9131e1bb88e1141bc827fa3cbfa8fa267fe4c47b52b433a5ca219d",
+      "text": "Странное воздушное существо из мясистых облаков и электрических перьев. С каждым ударом оно направляет слабые воздушные потоки Подземелья против жертвы. Чем больше вокруг неё открытого пространства, тем сильнее её треплет ветер.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "slime creature": {
+      "source_sha256": "b343b306908e22f606a2f6379b1a9fb1b06135f1ebf8a67ddb4179c0cbf41b68",
+      "text": "Мерзкий комок слизи, ползущий по земле. Может сливаться с другими такими же существами и становиться намного опаснее. Особенно охотно делает это в тесноте.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "small abomination": {
+      "source_sha256": "8f12b15316e3e9584c454ad733aafccc9e612d255bc3fc08954bac790c145300",
+      "text": "Отвратительная масса из частей тел. Скорость, сила и живучесть каждого такого создания зависят от несчастных, из которых его собрали.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "smoke demon": {
+      "source_sha256": "73d9cab41d52b21fc6260962c9d99628a91abb0e21000414db6c6a115c1b485c",
+      "text": "Адский демон в облике клубящегося облака дыма. Он искусно повелевает огнём и очень опасен для врагов даже на расстоянии.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "snapping turtle": {
+      "source_sha256": "c9286e526954aef53994e4a030fdb2f479f8e5a2dd6386933b168f694c7df928",
+      "text": "Воинственная черепаха в прочном панцире. Её шея удивительно хорошо вытягивается, позволяя кусать издалека.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "spatial vortex": {
+      "source_sha256": "6e0ddcff671b3c0aa41009fae588a780bc2ca95cd644cbcc3e7573154ae1658d",
+      "text": "Хаотично меняющееся завихрение в ткани реальности.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "spectral thing": {
+      "source_sha256": "baadd7a32114de1b8f3cd3e0473009b2abda9ecba9cef93c78c119d8fc48594d",
+      "text": "Отвратительное светящееся привидение.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "steam dragon": {
+      "source_sha256": "419bd64a7376aecbe91f1e9b9b40a7cd995d7adacedd576a510e1fcfa9e16596",
+      "text": "Сравнительно небольшой серый дракон с прочной на вид чешуйчатой шкурой. Из его пасти валит пар.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "stone giant": {
+      "source_sha256": "5c54a918a2fd09eb813dfa1c8be5d82723aed85a0fe2e2f8507c4622ccda92ed",
+      "text": "Огромное человекоподобное существо с серой кожей, твёрдой почти как камень. Оно носит с собой несколько валунов и вполне способно метать их на большое расстояние.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "storm dragon": {
+      "source_sha256": "d2beaa6f52e5804d4b384773a7aad24f547d40e36211d7e0dafa8aebe84a0c5a",
+      "text": "Могущественный дракон с толстой матовой чешуёй, похожей на синюю резину. На огромных чешуйчатых крыльях с треском вспыхивают искры.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed.  Display name individually refined against current creature description and shared case table."
+    },
+    "swamp dragon": {
+      "source_sha256": "4489324e7d03710cdd3330b2eaa402bde40958a2c2a5eabbdfc5638d63b520c1",
+      "text": "Склизкий дракон с бугристой шкурой, покрытой болотной грязью. Из его морды сочатся ядовитые газы.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "swamp drake": {
+      "source_sha256": "844cab5d1c6a69b8f926f767df5a9a98d864781d3bb1ed5336f70e0802439299",
+      "text": "Маленький склизкий дракон, покрытый болотной грязью и испускающий ужасное зловоние.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "swamp worm": {
+      "source_sha256": "563a7823a83fea2851a1064272f0ed98f25d09baf9eb0a9d3c070a0939b85619",
+      "text": "Крупный склизкий червь, ловко передвигающийся по болотам и топям.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "tentacle": {
+      "source_sha256": "116c271aadf56f27ca1c0b7022fd2ae9748fde976a48d02963e86bb9110c82d5",
+      "text": "Могучее щупальце кракена. Любой нанесённый ему урон ранит всё существо.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "tentacle segment": {
+      "source_sha256": "4d39155e989d64f619ed3556b9904c99e0687893f7652535fbeff2a7a73f23f8",
+      "text": "Часть могучего щупальца кракена. Любой нанесённый ей урон ранит всё существо.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "tentacled monstrosity": {
+      "source_sha256": "7cd0217fbda1870b2957e3e2a18dd71d2e9d9fb873ef28a01f79cdb0fbbb6b20",
+      "text": "Извивающаяся масса щупалец, покрытых гнилостной слизью.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "toadstool": {
+      "source_sha256": "b6493d69b204e44d54bc7416faa605c6a35fa5921306fb162d3d7b33c4379532",
+      "text": "Недолговечный гриб, обычно растущий на разлагающейся органике или рядом с ней.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "toenail golem": {
+      "source_sha256": "f749e3e737f76a4d1f0b415da03c6d41e53bc9e2a6cc03918238b7a14f8d0d03",
+      "text": "Огромная оживлённая статуя, целиком сделанная из обрезков ногтей на ногах. У некоторых явно слишком много свободного времени.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed.  Display name individually refined against current creature description and shared case table."
+    },
+    "training dummy": {
+      "source_sha256": "e9ad3a38b86345588655cedfdbe29e51d14479c2e8c2eb678538957eb8227d2f",
+      "text": "Манекен для боевых тренировок.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "troll": {
+      "source_sha256": "edb3a34105d3c681376062a736b1d0389d98d87b3e86661168d4e292badde5e1",
+      "text": "Огромное и очень сильное человекоподобное существо. Умом не блещет, зато мускулов хватает. Его толстая бугристая шкура быстро затягивает большинство ран.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "twister": {
+      "source_sha256": "5b262d845d930798f408574c52f554dcdcb99f55bdb39e828513cbd2425c3243",
+      "text": "Кружащийся вихрь ледяного холода.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "two-headed ogre": {
+      "source_sha256": "43a92f454402f9912627b04c9bdadce5e68051586b948f9761b58f22479cfb55",
+      "text": "Огромный огр с двумя головами над раздутым телом. В каждой из своих громадных рук он может держать оружие.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "vampire bat": {
+      "source_sha256": "1b1f3faa0afc66e42eba180cd1993362dc273e9e486c00c3cd0be4ee36fb155d",
+      "text": "Крупная чёрная летучая мышь с устрашающими клыками, питающаяся кровью. Вампиры охотно принимают этот облик, чтобы скрыться.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "vampire knight": {
+      "source_sha256": "18273ea0a51ba1c6e9c1a0ce414ebaf206be04a0bcb947f04f4ad97f202da4b0",
+      "text": "Могущественный вампир из знати, дополняющий боевое мастерство тёмной магией.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "vampire mage": {
+      "source_sha256": "99ad03e0c806a9f484144753f0cce6360ce02baef28c5a5696179ebab732616e",
+      "text": "Колдун, случайно или намеренно ставший жертвой вампирского проклятия. Как бы то ни было, после смерти он наконец в совершенстве овладел тёмной магией.",
+      "context": "Individual source/glossary review, including current frost twister, hostile versus allied effects, shared kraken damage, and removed turtle-shell behaviour. No old Lua inserted when current English no longer contains it. Standard names preserved unless separately reviewed. "
+    },
+    "vampire mosquito": {
+      "source_sha256": "d222c2c4ca5acdb188ada7e622b0489f336a97200dfa80118f3f6415cc522da6",
+      "text": "Комар, напившийся осквернённой крови и превратившийся в отвратительное заразное насекомое-нежить. Он стремится высосать из жертв кровь до последней капли.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "wandering mushroom": {
+      "source_sha256": "236797ada8a3f75508a0da241cf5b2b078680ce0d1a0db1c48c61988da8dfa1d",
+      "text": "Крупный мясистый гриб, медленно бродящий по Подземелью. От природы он одновременно любопытен и невероятно застенчив, поэтому следует за теми, кто его заинтересовал, лишь пока остаётся вне их поля зрения. Вокруг шляпки кружат ядовитые споры.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "warg": {
+      "source_sha256": "87bcc7ca6034d09ac88eb937586a7246836b1ada84570c7a43084a524cc962c1",
+      "text": "Особенно зловещего вида волк, обычно встречающийся в компании орков.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "water moccasin": {
+      "source_sha256": "ce808abfe5c5a7f1ccd51513db36bbd17d19416ab80dee917dfbeaf4384092d5",
+      "text": "Довольно крупная ядовитая коричневая змея. Обычно живёт у воды и хорошо плавает.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "white imp": {
+      "source_sha256": "709e8dcb6607883b94c2d20524e061dcef4b89d5f32b7dc5e48cc6a968294462",
+      "text": "Маленький проказливый младший демон, покрытый инеем.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "wight": {
+      "source_sha256": "5a16a8b893690a0bce370bf8c02dd5b07278356baf9c12dd0d143c6c616fd5eb",
+      "text": "Древний воин, которого желание с честью погибнуть в бою удерживает в вечном состоянии нежити.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "wolf": {
+      "source_sha256": "51e9b8e3a99e9f3a163665b58bd849c0a49b94638e52a4622df1ffd4d37082b3",
+      "text": "Сильный дикий зверь из семейства псовых, с острыми зубами и здоровым аппетитом.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "wraith": {
+      "source_sha256": "968f009d571612f47c35125cdfc9a121fd95e7ee8468a57366c20955f48c0146",
+      "text": "Облако чёрного тумана вокруг бесплотного скелетообразного силуэта. Его глаза пылают нечестивой злобой и жаждой жизненной силы, которой он питается.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "wyvern": {
+      "source_sha256": "9dea1802f2c4806a32c367d89f456adc1978bdca65a57fbdbe35661701ee392d",
+      "text": "Драконоподобное существо с длинным острым хвостом. Хотя оно меньше и не столь грозно, как настоящий дракон, недооценивать такого противника нельзя.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "yak": {
+      "source_sha256": "90c95ad6edea1cfada89f9803a8ea409dd49203aad7adb00ec3a7ed1697c96e0",
+      "text": "Обычный подземный як, покрытый косматой ячьей шерстью и вооружённый внушительной парой ячьих рогов.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "yaktaur captain": {
+      "source_sha256": "42c1af9c48654d67e622cd0aa479faf397a4a627e98787c924d5651b3b9e0c0d",
+      "text": "Исключительно сильный и грубый яктавр, способный помыкать более слабыми сородичами и заставлять их исполнять свои приказы.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "test spawner": {
+      "source_sha256": "f9fe03c054debb30513f30a1a5a30339611762bc6477153ec4fc825a5c677942",
+      "text": "Если вы видите это вне режима отладки или арены, это ошибка.\n\nЧем бы оно ни было, оно способно порождать бесчисленных монстров заклинанием «Теневые существа» и само практически неуничтожимо.\n\nЧтобы уничтожить его, опустите центральный столб лифта, а затем стреляйте ракетами в отверстие в обнажившемся мозгу, когда столб поднимется на нужную высоту. Спрыгивая вниз, можно выпустить ещё одну ракету.\n\nХотя постойте, это из другой игры.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "lunar statue": {
+      "source_sha256": "880133642dca93d3aa760353782013cb2a101794eeb8acb6f6c99806a075650f",
+      "text": "<zot statue>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Глубоко тревожащая статуя, высеченная из цельного куска тёмного габбро, мерцающего крошечными кристаллами. Невозможно понять, изображает ли она какое-либо существо или личность либо является совершенно отвлечённой фигурой."
+    },
+    "ghost-faced bat": {
+      "source_sha256": "a7d592d388b4f359bad195a5758929a0b39a86d81cbbf5cf96da7782e532a0f2",
+      "text": "Летучая мышь с призрачной мордой.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "giga bat": {
+      "source_sha256": "9d846e925123ff3b61511ad6e2386e932de50c34c9ecd6cdc845a372851441f9",
+      "text": "Огромная раздувшаяся летучая мышь.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "ice bat": {
+      "source_sha256": "e387eb4a5414e104d7df7edf6d65372fe57216af8b0c9cbb068b4506a8ff04f8",
+      "text": "Ледяная нежить в облике летучей мыши.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "master elementalist": {
+      "source_sha256": "62275da05ef204239caaa0dfe47b06dd5caeda9dab7dac6900773282515846a4",
+      "text": "Безумный волшебник, повелевающий первозданными силами вселенной.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "megabat": {
+      "source_sha256": "63b907a04419f013c9dffa644f8178fa1ce5e54ae4af99fb7286c9dfe99d8ea2",
+      "text": "Огромная чёрная летучая мышь.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "microbat": {
+      "source_sha256": "a06d8c1b325c5deae168e6220e30aa00712039efdc69e3b3df2917b1de258fbb",
+      "text": "Летучая мышь, которая, вопреки названию, ничуть не меньше мегалетучей мыши.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "oklob plant conjurer": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "oklob plant demonologist": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "oklob plant meteorologist": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "oklob plant shifter": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "oklob plant summoner": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "oklob sapling wizard": {
+      "source_sha256": "17417f6d2d363885b917877f851308606cecf82c01e016019cadd4543f873fba",
+      "text": "<oklob plant annihilator>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Обычное растение, каким-то непостижимым колдовством обретшее разум и способность к магии."
+    },
+    "phase bat": {
+      "source_sha256": "77d1fa4ea4f4615426a12dc48a53df810288dd2c20045e4d60c71011862776cc",
+      "text": "Странная светящаяся летучая мышь, порхающая в большем числе измерений, чем обычные летучие мыши.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "phase spider": {
+      "source_sha256": "8258f5a3fdc77df31da15cec261c1de9fb37cd74446648aa254d74f26a46a432",
+      "text": "Потусторонний паук, способный перемещаться на короткие и средние расстояния, ненадолго переходя между планами реальности. Это помогает ему ловить добычу.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "skeletal bat": {
+      "source_sha256": "33bf9e523dd18e004065b7cbbf3abd7d210dafd3059453c9ae751ec31546c98b",
+      "text": "Скелет летучей мыши, которому недостаёт приличия лежать неподвижно, как положено мёртвым летучим мышам.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "spriggan baker": {
+      "source_sha256": "4c07e2b13271b5677e20d811089b5705a3cf60a043eb23c50a156b810f52ed80",
+      "text": "Спригган, овладевший кулинарным искусством.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "worm": {
+      "source_sha256": "50075802ebbadf8db2e039aac9486d73e84833022acbe128bd0a36ae9753c3a4",
+      "text": "Гигантский кольчатый червь, блестящий от слизи, с необычайно большими зубами.",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs. "
+    },
+    "dire wolf spider": {
+      "source_sha256": "e3d5d5b1066d32fbf224523c62d3e0559680bd52932b3a9ec8dd1f1367bd266d",
+      "text": "<wolf spider>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Мохнатый, быстро бегающий паук-охотник с жестокими жвалами, размером с волка. Он рыщет по Подземелью в поисках добычи и убивает её смертоносным ядом."
+    },
+    "giant anaconda": {
+      "source_sha256": "ed944553dffef81d5148108dc5a5f50655804b0e37f10b59648a203820658acf",
+      "text": "<anaconda>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Огромная змея, передвигающаяся с поразительной быстротой. Она убивает добычу не ядом, а сжимая её в своих кольцах."
+    },
+    "greater orb of eyes": {
+      "source_sha256": "01f90be9836b569a9c3b7e666c332e7954b34f148fb25f88dc2484506bc1744a",
+      "text": "<great orb of eyes>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Парящий шар, покрытый злобными глазами и гудящий от жуткой магической энергии. Ужасающие клыки этого создания разорвали на части немало искателей приключений."
+    },
+    "naga warlord": {
+      "source_sha256": "6cc261cb8d9f69c9f79d5478be9b701e458ce0daf236f45b89c5f46fc1fadbe3",
+      "text": "<naga warrior>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Грозный воин наг в прочных доспехах и с мощным оружием."
+    },
+    "sulphuric acid blob": {
+      "source_sha256": "f0ca52cf90cc7315cab06889eab67f7fb9359074d4c8db6341c6be5b61c533f9",
+      "text": "<acid blob>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Комок болезненной гнойной плоти, с которого стекает смертельная кислота."
+    },
+    "vault guard captain": {
+      "source_sha256": "ad0286edfc8970429e9fd5d31927fc2e0226a74864dafdad797608685e80b5a8",
+      "text": "<vault guard>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Тяжеловооружённый страж Хранилищ, облачённый в прочные доспехи."
+    },
+    "grandmaster elementalist": {
+      "source_sha256": "84d783afe191adfbe36e188166d0a39b1203d2332c11707146c3de3727a7c1ac",
+      "text": "<master elementalist>",
+      "context": "Final individually read old Russian monster entries and legacy description aliases. Alias lookup keys remain unchanged in game data; wiki bodies resolve to the reviewed target prose. Test-spawner Doom joke retained without presenting it as normal Crawl mechanics. Fictional legacy labels transliterated or translated literally without changing enum IDs.  Wiki resolves this source alias to the reviewed target description without altering the raw game lookup.",
+      "wiki_text": "Безумный волшебник, повелевающий первозданными силами вселенной."
     }
   },
   "status": {
@@ -9269,7 +10163,7 @@
     },
     "eveningstar \"Brilliance\"": {
       "source_sha256": "a6b2f88ed9a4a5d62d4cc62e766215e9c944bb65ea3616e805218a5d225fdbd5",
-      "text": "Вскоре после падения Йредэлемнул попытался извратить святую энергию, превратив её в тёмную насмешку над собой, направленную против своих создателей и ослабленную против нежити и демонов. Слишком поздно выяснилось, что столь полное извращение неуправляемо: нечестивое пламя дестабилизировало или уничтожало всё, куда его вселяли, кроме нескольких демонов-подопытных и одного похищенного святого оружия. Более слабый и устойчивый вариант оказался пригоднее и стал тенью Йредэлемнула.\n\nВот то самое оружие: вопреки названию свет давно покинул эту вечернюю звезду, а её тень отталкивает тех, кого прежде утешало её сияние…",
+      "text": "Вскоре после падения Йредэлемнул попытался извратить святую энергию, превратив её в тёмную насмешку над собой, направленную против своих создателей и ослабленную против нежити и демонов. Слишком поздно выяснилось, что столь полное извращение неуправляемо: нечестивое пламя дестабилизировало или уничтожало всё, куда его вселяли, кроме нескольких демонов-подопытных и одного похищенного святого оружия. Более слабый и устойчивый вариант оказался пригоднее и стал тенью Йредэлемнула.\n\nВот то самое оружие: вопреки названию свет давно покинул эту шипастую булаву, а её тень отталкивает тех, кого прежде утешало её сияние…",
       "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
     },
     "demon blade \"Leech\"": {

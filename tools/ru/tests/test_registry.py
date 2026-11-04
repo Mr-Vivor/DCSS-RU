@@ -66,7 +66,7 @@ class SharedRegistryTests(unittest.TestCase):
         self.assertEqual(self.entries["{acc_few}@num@ demon blades"],
                          "@num@ демонических клинка")
         self.assertEqual(self.entries["{acc_few}@num@ great orbs of eyes"],
-                         "@num@ большие сферы глаз")
+                         "@num@ большие глазастые сферы")
         self.assertEqual(self.entries["{acc_few}@num@ ice dragons"],
                          "@num@ ледяных драконов")
 

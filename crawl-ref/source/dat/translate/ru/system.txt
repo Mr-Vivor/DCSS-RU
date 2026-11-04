@@ -17202,7 +17202,7 @@ Your charge dissipates without a target.
 %%%%
 A cloud of jellies burst out of the Royal Jelly as the current ripples through it!
 
-Когда ток проходит сквозь Королевское желе, из него вырывается целое облако желе!
+Когда ток проходит сквозь Королевского слизня, из него вырывается целый рой слизней!
 %%%%
 The electricity discharges through @arg@!
 
@@ -19450,7 +19450,7 @@ Warning: monster '@arg@' is not yet fully coded.
 %%%%
 @Arg@'s form twists and warps, and jellies spill out!
 
-Тело {gen}@Arg@ искажается и скручивается, из него вываливаются желе!
+Тело {gen}@Arg@ искажается и скручивается, и из него вываливаются слизни!
 %%%%
 @Arg@'s appearance momentarily alters.
 
@@ -21106,7 +21106,7 @@ You can't perceive a target there!
 %%%%
 @Arg@ explodes violently into a cloud of jellies!
 
-@Arg@ с силой взрывается облаком желе!
+@Arg@ с силой взрывается, разлетаясь роем слизней!
 %%%%
 @Arg@ explodes violently!
 
@@ -23134,11 +23134,11 @@ It can @arg@
 %%%%
 It will release varied jellies when damaged or killed, with the number of jellies proportional to the amount of damage.
 
-При ранении или гибели оно выпускает различных желе; их число пропорционально полученному урону.
+При получении урона или гибели выпускает слизней разных видов. Их число пропорционально полученному урону.
 %%%%
 It will release all of its jellies when polymorphed.
 
-При превращении оно выпускает всех своих желе.
+При превращении выпускает всех своих слизней.
 %%%%
 It is quivering @arg@.
 
@@ -23494,19 +23494,19 @@ Your damage is reflected back at you!
 %%%%
 @Arg@ spits out another jelly.
 
-@Arg@ выплёвывает ещё одно желе.
+@Arg@ выплёвывает ещё одного слизня.
 %%%%
 @Arg@ spits out @num@ more jellies.
 
-@Arg@ выплёвывает ещё @num@ желе.
+@Arg@ выплёвывает ещё слизней (@num@).
 %%%%
 One of the Royal Jelly's fragments survives.
 
-Один из фрагментов Королевского желе выживает.
+Один из фрагментов Королевского слизня выживает.
 %%%%
 The dying Royal Jelly spits out @num@ more jellies.
 
-Умирающее Королевское желе выплёвывает ещё @num@ желе.
+Умирающий Королевский слизень выплёвывает ещё слизней (@num@).
 %%%%
 @Arg@ shudders and is absorbed by its neighbour.
 
@@ -29538,7 +29538,7 @@ slimy stone staircase leading up
 %%%%
 <lightgreen>Select a spell to imbue your Spellspark Servitor with:</lightgreen>
 
-<lightgreen>Выберите заклинание для вашего прислужника искры заклинаний:</lightgreen>
+<lightgreen>Выберите заклинание для вашего искрового прислужника:</lightgreen>
 %%%%
 " search   [<w>?</w>] help"
 
@@ -44450,7 +44450,7 @@ Your head is a mane of billowing mist.
 %%%%
 {form-description}a lump of jelly.
 
-{form-description}сгусток желе.
+{form-description}сгусток слизи.
 %%%%
 {form-description}a sentient fungus.
 
@@ -44546,7 +44546,7 @@ Your head is a mane of billowing mist.
 %%%%
 {form-description}a fearsome storm dragon!
 
-{form-description}грозный штормовой дракон!
+{form-description}грозный грозовой дракон!
 %%%%
 {form-description}a fearsome quicksilver dragon!
 
@@ -44998,7 +44998,7 @@ There is no room for %s to move out of your way! (Try telling them to retreat wi
 %%%%
 Your attached jelly eats the %s!
 
-Прикреплённое к вам желе поглощает снаряд «%s»!
+Прикрепившийся к вам слизень поглощает снаряд «%s»!
 %%%%
 The %s %s %s%s but does no damage.
 

@@ -21,7 +21,7 @@
 | `monster.dart_slug` | [Слизень-стрелок](pages/monster.dart_slug.md) | dart slug | draft |
 | `monster.ribbon_worm` | [Ленточный червь](pages/monster.ribbon_worm.md) | ribbon worm | draft |
 | `monster.endoplasm` | [Эндоплазма](pages/monster.endoplasm.md) | endoplasm | draft |
-| `monster.jelly` | [Желе](pages/monster.jelly.md) | jelly | draft |
+| `monster.jelly` | [Слизень](pages/monster.jelly.md) | jelly | reviewed |
 | `monster.orc` | [Орк](pages/monster.orc.md) | orc | reviewed |
 | `monster.orc_priest` | [Орк-жрец](pages/monster.orc_priest.md) | orc priest | reviewed |
 | `monster.orc_wizard` | [Орк-волшебник](pages/monster.orc_wizard.md) | orc wizard | reviewed |
@@ -46,7 +46,7 @@
 | `monster.fire_dragon` | [Огненный дракон](pages/monster.fire_dragon.md) | fire dragon | reviewed |
 | `monster.quicksilver_dragon` | [Ртутный дракон](pages/monster.quicksilver_dragon.md) | quicksilver dragon | draft |
 | `monster.golden_dragon` | [Золотой дракон](pages/monster.golden_dragon.md) | golden dragon | draft |
-| `monster.storm_dragon` | [Штормовой дракон](pages/monster.storm_dragon.md) | storm dragon | draft |
+| `monster.storm_dragon` | [Грозовой дракон](pages/monster.storm_dragon.md) | storm dragon | reviewed |
 | `monster.shadow_dragon` | [Теневой дракон](pages/monster.shadow_dragon.md) | shadow dragon | reviewed |
 | `monster.iron_dragon` | [Железный дракон](pages/monster.iron_dragon.md) | iron dragon | draft |
 | `monster.steam_dragon` | [Паровой дракон](pages/monster.steam_dragon.md) | steam dragon | draft |
@@ -211,7 +211,7 @@
 | `item.demon_trident` | [Демонический трезубец](pages/item.demon_trident.md) | demon trident | reviewed |
 | `item.double_sword` | [Двойной меч](pages/item.double_sword.md) | double sword | reviewed |
 | `item.triple_sword` | [Тройной меч](pages/item.triple_sword.md) | triple sword | reviewed |
-| `item.eveningstar` | [Вечерняя звезда](pages/item.eveningstar.md) | eveningstar | reviewed |
+| `item.eveningstar` | [Шипастая булава](pages/item.eveningstar.md) | eveningstar | reviewed |
 | `item.dire_flail` | [Тяжёлый цеп](pages/item.dire_flail.md) | dire flail | reviewed |
 | `item.giant_club` | [Гигантская дубина](pages/item.giant_club.md) | giant club | reviewed |
 | `item.giant_spiked_club` | [Гигантская шипастая дубина](pages/item.giant_spiked_club.md) | giant spiked club | reviewed |
@@ -243,7 +243,7 @@
 | `monster.shining_eye` | [Сияющее око](pages/monster.shining_eye.md) | shining eye | reviewed |
 | `monster.eye_of_devastation` | [Око опустошения](pages/monster.eye_of_devastation.md) | eye of devastation | reviewed |
 | `monster.golden_eye` | [Золотое око](pages/monster.golden_eye.md) | golden eye | reviewed |
-| `monster.great_orb_of_eyes` | [Большая сфера глаз](pages/monster.great_orb_of_eyes.md) | great orb of eyes | reviewed |
+| `monster.great_orb_of_eyes` | [Большая глазастая сфера](pages/monster.great_orb_of_eyes.md) | great orb of eyes | reviewed |
 | `monster.acid_blob` | [Кислотный сгусток](pages/monster.acid_blob.md) | acid blob | reviewed |
 | `monster.azure_jelly` | [Лазурный слизень](pages/monster.azure_jelly.md) | azure jelly | reviewed |
 | `monster.rockslime` | [Каменный слизень](pages/monster.rockslime.md) | rockslime | reviewed |
@@ -270,7 +270,7 @@
 | `monster.shambling_mangrove` | [Бродячий мангр](pages/monster.shambling_mangrove.md) | shambling mangrove | reviewed |
 | `monster.will-o-the-wisp` | [Блуждающий огонёк](pages/monster.will-o-the-wisp.md) | will-o-the-wisp | reviewed |
 | `monster.vault_warden` | [Смотритель Хранилищ](pages/monster.vault_warden.md) | vault warden | reviewed |
-| `monster.ironbound_preserver` | [Закованный в железо заступник](pages/monster.ironbound_preserver.md) | ironbound preserver | reviewed |
+| `monster.ironbound_preserver` | [Заступник Железного ордена](pages/monster.ironbound_preserver.md) | ironbound preserver | reviewed |
 | `monster.ufetubus` | [Уфетубус](pages/monster.ufetubus.md) | ufetubus | reviewed |
 | `monster.ynoxinul` | [Иноксинул](pages/monster.ynoxinul.md) | ynoxinul | reviewed |
 | `monster.balrug` | [Балруг](pages/monster.balrug.md) | balrug | reviewed |
@@ -283,10 +283,10 @@
 | `monster.brimstone_fiend` | [Серное исчадие](pages/monster.brimstone_fiend.md) | Brimstone Fiend | reviewed |
 | `monster.vault_guard` | [Страж Хранилищ](pages/monster.vault_guard.md) | vault guard | reviewed |
 | `monster.vault_sentinel` | [Дозорный Хранилищ](pages/monster.vault_sentinel.md) | vault sentinel | reviewed |
-| `monster.ironbound_convoker` | [Закованный в железо призыватель](pages/monster.ironbound_convoker.md) | ironbound convoker | reviewed |
-| `monster.ironbound_thunderhulk` | [Закованный в железо громовержец](pages/monster.ironbound_thunderhulk.md) | ironbound thunderhulk | reviewed |
-| `monster.ironbound_beastmaster` | [Закованный в железо повелитель зверей](pages/monster.ironbound_beastmaster.md) | ironbound beastmaster | reviewed |
-| `monster.ironbound_frostheart` | [Закованное в железо ледяное сердце](pages/monster.ironbound_frostheart.md) | ironbound frostheart | reviewed |
+| `monster.ironbound_convoker` | [Призыватель Железного ордена](pages/monster.ironbound_convoker.md) | ironbound convoker | reviewed |
+| `monster.ironbound_thunderhulk` | [Громовержец Железного ордена](pages/monster.ironbound_thunderhulk.md) | ironbound thunderhulk | reviewed |
+| `monster.ironbound_beastmaster` | [Повелитель зверей Железного ордена](pages/monster.ironbound_beastmaster.md) | ironbound beastmaster | reviewed |
+| `monster.ironbound_frostheart` | [Криомант Железного ордена](pages/monster.ironbound_frostheart.md) | ironbound frostheart | reviewed |
 | `monster.ragged_hierophant` | [Оборванный иерофант](pages/monster.ragged_hierophant.md) | ragged hierophant | reviewed |
 | `monster.halazid_warlock` | [Халазидский чернокнижник](pages/monster.halazid_warlock.md) | halazid warlock | reviewed |
 | `monster.deep_elf_annihilator` | [Глубинный эльф-уничтожитель](pages/monster.deep_elf_annihilator.md) | deep elf annihilator | reviewed |
@@ -306,7 +306,7 @@
 | `monster.salamander_mystic` | [Саламандра-мистик](pages/monster.salamander_mystic.md) | salamander mystic | reviewed |
 | `monster.salamander_tyrant` | [Саламандра-тиран](pages/monster.salamander_tyrant.md) | salamander tyrant | reviewed |
 | `monster.guardian_serpent` | [Змей-страж](pages/monster.guardian_serpent.md) | guardian serpent | reviewed |
-| `monster.mana_viper` | [Гадюка маны](pages/monster.mana_viper.md) | mana viper | reviewed |
+| `monster.mana_viper` | [Мановая гадюка](pages/monster.mana_viper.md) | mana viper | reviewed |
 | `monster.anaconda` | [Анаконда](pages/monster.anaconda.md) | anaconda | reviewed |
 | `monster.merfolk` | [Русалка](pages/monster.merfolk.md) | merfolk | reviewed |
 | `monster.merfolk_impaler` | [Русалка-копейщица](pages/monster.merfolk_impaler.md) | merfolk impaler | reviewed |
@@ -490,7 +490,7 @@
 | `monster.crystal_guardian` | [Кристаллический страж](pages/monster.crystal_guardian.md) | crystal guardian | reviewed |
 | `monster.blazeheart_core` | [Пламенное ядро](pages/monster.blazeheart_core.md) | blazeheart core | reviewed |
 | `monster.flesh_golem` | [Голем из плоти](pages/monster.flesh_golem.md) | flesh golem | reviewed |
-| `monster.polterguardian` | [Польтергардиан](pages/monster.polterguardian.md) | polterguardian | reviewed |
+| `monster.polterguardian` | [Полтергардиан](pages/monster.polterguardian.md) | polterguardian | reviewed |
 | `monster.juggernaut` | [Джаггернаут](pages/monster.juggernaut.md) | juggernaut | reviewed |
 | `monster.titan` | [Титан](pages/monster.titan.md) | titan | reviewed |
 | `monster.guardian_sphinx` | [Сфинкс-страж](pages/monster.guardian_sphinx.md) | guardian sphinx | reviewed |
@@ -541,3 +541,25 @@
 | `genus.ant` | [Муравей](pages/genus.ant.md) | ant | reviewed |
 | `genus.octopus` | [Осьминог](pages/genus.octopus.md) | octopus | reviewed |
 | `genus.palentonga` | [Палентонга](pages/genus.palentonga.md) | palentonga | reviewed |
+| `monster.toenail_golem` | [Ногтевой голем](pages/monster.toenail_golem.md) | toenail golem | reviewed |
+| `monster.ironbound_mechanist` | [Механик Железного ордена](pages/monster.ironbound_mechanist.md) | ironbound mechanist | reviewed |
+| `monster.aizul` | [Айзул](pages/monster.aizul.md) | Aizul | reviewed |
+| `monster.duvessa` | [Дувесса](pages/monster.duvessa.md) | Duvessa | reviewed |
+| `monster.ereshkigal` | [Эрешкигаль](pages/monster.ereshkigal.md) | Ereshkigal | reviewed |
+| `monster.erolcha` | [Эролча](pages/monster.erolcha.md) | Erolcha | reviewed |
+| `monster.frances` | [Фрэнсис](pages/monster.frances.md) | Frances | reviewed |
+| `monster.grinder` | [Гриндер](pages/monster.grinder.md) | Grinder | reviewed |
+| `monster.ijyb` | [Иджиб](pages/monster.ijyb.md) | Ijyb | reviewed |
+| `monster.ilsuiw` | [Илсуив](pages/monster.ilsuiw.md) | Ilsuiw | reviewed |
+| `monster.jessica` | [Джессика](pages/monster.jessica.md) | Jessica | reviewed |
+| `monster.margery` | [Марджери](pages/monster.margery.md) | Margery | reviewed |
+| `monster.nellie` | [Нелли](pages/monster.nellie.md) | Nellie | reviewed |
+| `monster.roxanne` | [Роксана](pages/monster.roxanne.md) | Roxanne | reviewed |
+| `monster.snorg` | [Снорг](pages/monster.snorg.md) | Snorg | reviewed |
+| `monster.sojobo` | [Содзёбо](pages/monster.sojobo.md) | Sojobo | reviewed |
+| `monster.sonja` | [Соня](pages/monster.sonja.md) | Sonja | reviewed |
+| `monster.tiamat` | [Тиамат](pages/monster.tiamat.md) | Tiamat | reviewed |
+| `monster.urug` | [Уруг](pages/monster.urug.md) | Urug | reviewed |
+| `monster.vashnia` | [Вашния](pages/monster.vashnia.md) | Vashnia | reviewed |
+| `monster.vv` | [Вв](pages/monster.vv.md) | Vv | reviewed |
+| `monster.zenata` | [Зената](pages/monster.zenata.md) | Zenata | reviewed |
