@@ -1,0 +1,7 @@
+[Unit]
+Description=Back up DCSS MediaWiki database, uploads and configuration
+[Service]
+Type=oneshot
+UMask=0077
+Nice=10
+ExecStart=/usr/bin/python3 /usr/local/sbin/dcss-wiki-backup.py

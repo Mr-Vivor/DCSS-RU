@@ -1,0 +1,867 @@
+{
+  "site": "CrawlWiki",
+  "license": "GNU FDL",
+  "pages": {
+    "Armour": {
+      "title": "Armour",
+      "revision": 85899,
+      "timestamp": "2026-05-16T20:10:51Z",
+      "sha256": "867e876463072bce6c62882cf2ae0170b888e98c919bc41d929cc5c0e0e625d6",
+      "url": "http://crawl.chaosforge.org/index.php?title=Armour&oldid=85899"
+    },
+    "Background": {
+      "title": "Background",
+      "revision": 83251,
+      "timestamp": "2025-05-03T16:31:32Z",
+      "sha256": "0796193c5761638fbfecd95b556c7d2daff3ec0ecb05e1e9f23fd169a2a519fe",
+      "url": "http://crawl.chaosforge.org/index.php?title=Background&oldid=83251"
+    },
+    "Background and race combinations for beginners": {
+      "title": "Background and race combinations for beginners",
+      "revision": 86501,
+      "timestamp": "2026-06-30T14:34:12Z",
+      "sha256": "0c58781d1f6948d26da84cc819692a8dbc4900475641ef8f2d10c24d37a92bdd",
+      "url": "http://crawl.chaosforge.org/index.php?title=Background+and+race+combinations+for+beginners&oldid=86501"
+    },
+    "Choosing a god": {
+      "title": "Choosing a god",
+      "revision": 77242,
+      "timestamp": "2024-01-08T17:17:22Z",
+      "sha256": "001d866d7a59a6fbf7b788f1c7d8f85afd53f2485592d341a7d99f18001e91ee",
+      "url": "http://crawl.chaosforge.org/index.php?title=Choosing+a+god&oldid=77242"
+    },
+    "Crawl Wiki": {
+      "title": "Crawl Wiki",
+      "revision": 86989,
+      "timestamp": "2026-09-17T10:18:48Z",
+      "sha256": "b42430d0d2af6ed900c1998025c11482b8300eb97a88b692fc0a92a54bb086a9",
+      "url": "http://crawl.chaosforge.org/index.php?title=Crawl+Wiki&oldid=86989"
+    },
+    "Dungeon branches": {
+      "title": "Dungeon branches",
+      "revision": 81759,
+      "timestamp": "2024-11-07T21:23:27Z",
+      "sha256": "9ca460b35643dc1ab2a23b851685260fcd6331c01dcf7d5b70fe5341b0cbfa9a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Dungeon+branches&oldid=81759"
+    },
+    "Escaping from (and avoiding) trouble": {
+      "title": "Escaping from (and avoiding) trouble",
+      "revision": 82583,
+      "timestamp": "2025-02-22T23:43:42Z",
+      "sha256": "57e4eff311836708d90283a01e79641234e66aa3bf681641b196c0ca39ae7563",
+      "url": "http://crawl.chaosforge.org/index.php?title=Escaping+from+%28and+avoiding%29+trouble&oldid=82583"
+    },
+    "Experience": {
+      "title": "Experience",
+      "revision": 84784,
+      "timestamp": "2025-12-28T18:23:00Z",
+      "sha256": "3f3ba1b028a46200b86dafcb019e1440dd524f6329d061c64c24e0ce258b0f04",
+      "url": "http://crawl.chaosforge.org/index.php?title=Experience&oldid=84784"
+    },
+    "God": {
+      "title": "God",
+      "revision": 85736,
+      "timestamp": "2026-04-20T04:30:19Z",
+      "sha256": "19747695b89ef9694361105867fc143f89633306e96f168208da9b1eca2d58b5",
+      "url": "http://crawl.chaosforge.org/index.php?title=God&oldid=85736"
+    },
+    "Hit points": {
+      "title": "Hit points",
+      "revision": 85843,
+      "timestamp": "2026-05-09T22:57:42Z",
+      "sha256": "2becf96d31c4733c81e7f469fa4e4de95221820daffa6b9875ef5fb99d6ba844",
+      "url": "http://crawl.chaosforge.org/index.php?title=Hit+points&oldid=85843"
+    },
+    "Magic points": {
+      "title": "Magic points",
+      "revision": 87478,
+      "timestamp": "2026-10-01T09:17:59Z",
+      "sha256": "bd2f31fde8a518f0f491fccf5817f90a11da4359e94b2c0dcf9c4346ec2c9c8b",
+      "url": "http://crawl.chaosforge.org/index.php?title=Magic+points&oldid=87478"
+    },
+    "Rune of Zot": {
+      "title": "Rune of Zot",
+      "revision": 82711,
+      "timestamp": "2025-03-15T04:01:51Z",
+      "sha256": "e3f25dd20f23ba55f07766ddd7deadd7410b296fec445e282397e6311880286b",
+      "url": "http://crawl.chaosforge.org/index.php?title=Rune+of+Zot&oldid=82711"
+    },
+    "Skill": {
+      "title": "Skill",
+      "revision": 83833,
+      "timestamp": "2025-09-11T21:46:21Z",
+      "sha256": "83078170dc4b72fb3bc8b4c334c877339598f574959ef6c56a3d9976ef0b19ca",
+      "url": "http://crawl.chaosforge.org/index.php?title=Skill&oldid=83833"
+    },
+    "Species": {
+      "title": "Species",
+      "revision": 83252,
+      "timestamp": "2025-05-03T16:41:34Z",
+      "sha256": "a6b20860574ec9f168ea8dbec7cf24c28d78c62572a198617687db6a375174fb",
+      "url": "http://crawl.chaosforge.org/index.php?title=Species&oldid=83252"
+    },
+    "Spell": {
+      "title": "Spell",
+      "revision": 85958,
+      "timestamp": "2026-05-21T07:17:52Z",
+      "sha256": "f937794e593e1acbe85116256a76bfa355963d98c9713dfea3b1f098f8ae6297",
+      "url": "http://crawl.chaosforge.org/index.php?title=Spell&oldid=85958"
+    },
+    "Stats": {
+      "title": "Stats",
+      "revision": 85664,
+      "timestamp": "2026-03-16T22:36:19Z",
+      "sha256": "7f35143a31236f5579f411e6b4e121b6e618444e3e4df0076d7a0da27c06e83a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Stats&oldid=85664"
+    },
+    "Tips and tricks": {
+      "title": "Tips and tricks",
+      "revision": 86500,
+      "timestamp": "2026-06-30T14:31:50Z",
+      "sha256": "ee0c39a307752ddae5d9a2f3d150ed24f0c19c0a063728cdcfe64bce5215d53d",
+      "url": "http://crawl.chaosforge.org/index.php?title=Tips+and+tricks&oldid=86500"
+    },
+    "Walkthrough": {
+      "title": "Walkthrough",
+      "revision": 80248,
+      "timestamp": "2024-04-23T04:40:04Z",
+      "sha256": "a320e45c9f380e06fac8e46bcb35ea88b698760d55ef47109cb8960671901476",
+      "url": "http://crawl.chaosforge.org/index.php?title=Walkthrough&oldid=80248"
+    },
+    "Weapon": {
+      "title": "Weapon",
+      "revision": 84960,
+      "timestamp": "2026-01-23T17:23:04Z",
+      "sha256": "a71f813b3c177d6166d742896fd2b4ffa413568163a417e3ee5534b9fc867681",
+      "url": "http://crawl.chaosforge.org/index.php?title=Weapon&oldid=84960"
+    },
+    "Autoexplore": {
+      "title": "Autoexplore",
+      "revision": 62553,
+      "timestamp": "2022-07-31T03:27:44Z",
+      "sha256": "6e9566f71dcf41ec73a2fb435b702427e63aea01790a2581764d3b9b19bb1357",
+      "url": "http://crawl.chaosforge.org/index.php?title=Autoexplore&oldid=62553"
+    },
+    "Line of sight": {
+      "title": "Line of sight",
+      "revision": 82223,
+      "timestamp": "2025-01-17T19:26:03Z",
+      "sha256": "ffd1086d119297a0d333fb6ef116f02ecaf5a18da6e0d82742aa6e77cf90cb12",
+      "url": "http://crawl.chaosforge.org/index.php?title=Line+of+sight&oldid=82223"
+    },
+    "Noise": {
+      "title": "Noise",
+      "revision": 83289,
+      "timestamp": "2025-05-05T16:14:33Z",
+      "sha256": "50b5c2f4ba025fbae102e1083d28535cfb267fbfee8b39ae19b6f6a8d7c732f2",
+      "url": "http://crawl.chaosforge.org/index.php?title=Noise&oldid=83289"
+    },
+    "Orb of Zot": {
+      "title": "Orb of Zot",
+      "revision": 85113,
+      "timestamp": "2026-02-04T16:32:17Z",
+      "sha256": "533e1274c9c17436a910be4d8baccca9ffaaf216a596cd809431355f6783d96b",
+      "url": "http://crawl.chaosforge.org/index.php?title=Orb+of+Zot&oldid=85113"
+    },
+    "Potion": {
+      "title": "Potion",
+      "revision": 83662,
+      "timestamp": "2025-07-13T22:45:37Z",
+      "sha256": "314421198dedb1c26fc5cc0df290c54c135552808774323b4f15a548ad6451e3",
+      "url": "http://crawl.chaosforge.org/index.php?title=Potion&oldid=83662"
+    },
+    "Scroll": {
+      "title": "Scroll",
+      "revision": 79634,
+      "timestamp": "2024-02-27T14:38:04Z",
+      "sha256": "b30a1b5549a5c92edfecc266a2971fc77f6bd23ec017d9a29cc0c8f3ebb73216",
+      "url": "http://crawl.chaosforge.org/index.php?title=Scroll&oldid=79634"
+    },
+    "Speed": {
+      "title": "Speed",
+      "revision": 40864,
+      "timestamp": "2016-01-30T22:40:57Z",
+      "sha256": "df1b2f78c10f7641bce28102bf508ce83b6e5522158643077bc3c323e4f853a9",
+      "url": "http://crawl.chaosforge.org/index.php?title=Speed&oldid=40864"
+    },
+    "Stabbing": {
+      "title": "Stabbing",
+      "revision": 86119,
+      "timestamp": "2026-05-26T06:22:39Z",
+      "sha256": "dcb43c81d7841f37043657c22ef349e1e8ac5099ab2de5dfe5f8bf8a4ae1ec50",
+      "url": "http://crawl.chaosforge.org/index.php?title=Stabbing&oldid=86119"
+    },
+    "Stealth": {
+      "title": "Stealth",
+      "revision": 87852,
+      "timestamp": "2026-11-04T08:36:54Z",
+      "sha256": "a8767177c2a22a537851c4b35019a9669d296154767a7bd17a6bba00a5931582",
+      "url": "http://crawl.chaosforge.org/index.php?title=Stealth&oldid=87852"
+    },
+    "Turn": {
+      "title": "Turn",
+      "revision": 81304,
+      "timestamp": "2024-09-19T18:31:14Z",
+      "sha256": "3fd9e7e8d0153c97bfe20579583ad7fad8692b130fed2ef6d61e888259ee7d4a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Turn&oldid=81304"
+    },
+    "Wand": {
+      "title": "Wand",
+      "revision": 83698,
+      "timestamp": "2025-07-22T18:04:11Z",
+      "sha256": "1a09002d9faba53f4f4890279ec00735d99dc6c2b2705b27fdde5d2443aab9d2",
+      "url": "http://crawl.chaosforge.org/index.php?title=Wand&oldid=83698"
+    },
+    "Willpower": {
+      "title": "Willpower",
+      "revision": 80568,
+      "timestamp": "2024-06-25T15:45:02Z",
+      "sha256": "0da05f0b00867073f135416167e0c0d2af85136054ac98d8699e81be7c07a7dc",
+      "url": "http://crawl.chaosforge.org/index.php?title=Willpower&oldid=80568"
+    },
+    "Armour class": {
+      "title": "Armour class",
+      "revision": 85898,
+      "timestamp": "2026-05-16T20:09:32Z",
+      "sha256": "a1dae20a6209f16e02ae2f0ab2d5c8d9e24e5f8b05b194955b5d54648b0bee44",
+      "url": "http://crawl.chaosforge.org/index.php?title=Armour+class&oldid=85898"
+    },
+    "Dungeon feature": {
+      "title": "Dungeon feature",
+      "revision": 84012,
+      "timestamp": "2025-10-20T05:49:24Z",
+      "sha256": "6fd0797283e7cf1043ce3be93300a312cb9698c7d004235ce8c13b36e116cff6",
+      "url": "http://crawl.chaosforge.org/index.php?title=Dungeon+feature&oldid=84012"
+    },
+    "Evasion": {
+      "title": "Evasion",
+      "revision": 87456,
+      "timestamp": "2026-09-29T09:17:00Z",
+      "sha256": "246f191adb96d90f87a56a2807757ebecd5990928ef7ae5f8df1a5b58238d511",
+      "url": "http://crawl.chaosforge.org/index.php?title=Evasion&oldid=87456"
+    },
+    "Shield (stat)": {
+      "title": "Shield (stat)",
+      "revision": 84481,
+      "timestamp": "2025-11-14T08:13:17Z",
+      "sha256": "2b997a7124c8efe03f470bffad4d679d890189bccebb7f031f34bb0db8ebd2c9",
+      "url": "http://crawl.chaosforge.org/index.php?title=Shield+%28stat%29&oldid=84481"
+    },
+    "Spell Power": {
+      "title": "Spell Power",
+      "revision": 86463,
+      "timestamp": "2026-06-26T23:15:50Z",
+      "sha256": "0ebbebe571f8984a5fdc4f85fb219648a1a8421460f9b91451f78f9bd4b9a146",
+      "url": "http://crawl.chaosforge.org/index.php?title=Spell+Power&oldid=86463"
+    },
+    "Spell Success": {
+      "title": "Spell Success",
+      "revision": 85431,
+      "timestamp": "2026-02-14T20:37:18Z",
+      "sha256": "bbc25fab7468ac79c6468208b42b40839d1ca0cc562542d2bccb845d492781e5",
+      "url": "http://crawl.chaosforge.org/index.php?title=Spell+Success&oldid=85431"
+    },
+    "0.34": {
+      "title": "0.34",
+      "revision": 85505,
+      "timestamp": "2026-02-23T21:12:47Z",
+      "sha256": "7291138bf70f0f985239b8d81ce2f3dd01d08ae6f3220e73bebe134a4787f45f",
+      "url": "http://crawl.chaosforge.org/index.php?title=0.34&oldid=85505"
+    },
+    "Deep Elf": {
+      "title": "Deep Elf",
+      "revision": 80870,
+      "timestamp": "2024-08-29T23:15:06Z",
+      "sha256": "770ee0d8f08a9f62a7c7297b9996b7b4f987e1e9fbee409de72ca05d92c042d4",
+      "url": "http://crawl.chaosforge.org/index.php?title=Deep+Elf&oldid=80870"
+    },
+    "Demonspawn": {
+      "title": "Demonspawn",
+      "revision": 81084,
+      "timestamp": "2024-09-02T02:34:30Z",
+      "sha256": "6e008ce8d8bfaa0b9c0980c89a741c4887f83ba6f001178d17a1c99e264fa03e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Demonspawn&oldid=81084"
+    },
+    "Felid": {
+      "title": "Felid",
+      "revision": 84920,
+      "timestamp": "2026-01-21T20:46:36Z",
+      "sha256": "7e82176125497e258e17fe059c8d1872a20c199c4890f1f00a130e9dd20b46ab",
+      "url": "http://crawl.chaosforge.org/index.php?title=Felid&oldid=84920"
+    },
+    "Formicid": {
+      "title": "Formicid",
+      "revision": 84716,
+      "timestamp": "2025-12-07T20:44:44Z",
+      "sha256": "9fdf68b1343e5372daba3bfe167dac700d96b7803ee332df519e2ee3def01acb",
+      "url": "http://crawl.chaosforge.org/index.php?title=Formicid&oldid=84716"
+    },
+    "Gargoyle": {
+      "title": "Gargoyle",
+      "revision": 85735,
+      "timestamp": "2026-04-19T23:10:01Z",
+      "sha256": "02dd3fa4416993f19d7e85fa9ef2bcdc1d19dee5989f0b9f6a803ef1ae3f3886",
+      "url": "http://crawl.chaosforge.org/index.php?title=Gargoyle&oldid=85735"
+    },
+    "Human": {
+      "title": "Human",
+      "revision": 78882,
+      "timestamp": "2024-02-04T20:55:11Z",
+      "sha256": "e01b2cf97cab3c9b3e5244e446707cedd4b28b2438da2ed782e9f20bfb404467",
+      "url": "http://crawl.chaosforge.org/index.php?title=Human&oldid=78882"
+    },
+    "Identification": {
+      "title": "Identification",
+      "revision": 86711,
+      "timestamp": "2026-07-11T09:08:49Z",
+      "sha256": "bf63250dc2c2e8204ee20f2817746651071ce841c757cca413f4762254154fe9",
+      "url": "http://crawl.chaosforge.org/index.php?title=Identification&oldid=86711"
+    },
+    "Item": {
+      "title": "Item",
+      "revision": 84326,
+      "timestamp": "2025-11-03T17:19:33Z",
+      "sha256": "9e758b29970e721357d150f089c802a09ac28d3354f555e16b04b7674fcd6260",
+      "url": "http://crawl.chaosforge.org/index.php?title=Item&oldid=84326"
+    },
+    "Merfolk": {
+      "title": "Merfolk",
+      "revision": 83914,
+      "timestamp": "2025-10-13T08:44:43Z",
+      "sha256": "a9182e8eec3c6b8c681dbe7e8e2981049f404bc1a85259d1712f09b8412c21a6",
+      "url": "http://crawl.chaosforge.org/index.php?title=Merfolk&oldid=83914"
+    },
+    "Minotaur": {
+      "title": "Minotaur",
+      "revision": 86904,
+      "timestamp": "2026-08-15T11:38:32Z",
+      "sha256": "0e5758186b169dcb7800ef98f88b60d88f14bd54b1ab777c00dc44ebed7e6a20",
+      "url": "http://crawl.chaosforge.org/index.php?title=Minotaur&oldid=86904"
+    },
+    "Mountain Dwarf": {
+      "title": "Mountain Dwarf",
+      "revision": 83320,
+      "timestamp": "2025-05-06T22:40:47Z",
+      "sha256": "dccfa44e212f04b3fcf53ef64e2676cee8367ecc1936ee18ed6c0a851eb55269",
+      "url": "http://crawl.chaosforge.org/index.php?title=Mountain+Dwarf&oldid=83320"
+    },
+    "Naga": {
+      "title": "Naga",
+      "revision": 87131,
+      "timestamp": "2026-09-20T05:25:44Z",
+      "sha256": "05709a356a8424a669e70e7e05ab650fb2f2f13432ca3cdeebd1049c4807f208",
+      "url": "http://crawl.chaosforge.org/index.php?title=Naga&oldid=87131"
+    },
+    "Octopode": {
+      "title": "Octopode",
+      "revision": 84864,
+      "timestamp": "2026-01-17T18:26:18Z",
+      "sha256": "3a232983d2148e86a63ef33e6049a884224512b419ab27e07038f10a7949e6db",
+      "url": "http://crawl.chaosforge.org/index.php?title=Octopode&oldid=84864"
+    },
+    "Spriggan": {
+      "title": "Spriggan",
+      "revision": 86311,
+      "timestamp": "2026-06-06T01:05:51Z",
+      "sha256": "2855c9ebd579827311ec61fe01fe3836fd109af5963d5ff86fd4c19175626eb0",
+      "url": "http://crawl.chaosforge.org/index.php?title=Spriggan&oldid=86311"
+    },
+    "Tengu": {
+      "title": "Tengu",
+      "revision": 86889,
+      "timestamp": "2026-07-28T09:07:00Z",
+      "sha256": "c83f130d4f304dc746b071e6711843e4f463b8f40451db7dac940590207be553",
+      "url": "http://crawl.chaosforge.org/index.php?title=Tengu&oldid=86889"
+    },
+    "Troll": {
+      "title": "Troll",
+      "revision": 84731,
+      "timestamp": "2025-12-15T19:24:46Z",
+      "sha256": "d58f247ba2263bf6f04bc949b448b641bb59c30e7c0e8f657af3add272052182",
+      "url": "http://crawl.chaosforge.org/index.php?title=Troll&oldid=84731"
+    },
+    "Vine Stalker": {
+      "title": "Vine Stalker",
+      "revision": 86735,
+      "timestamp": "2026-07-14T15:49:58Z",
+      "sha256": "db6944691e38e2645b8675758868dd9c61dd2a37a4fd96ffd4fe620b7142d6ef",
+      "url": "http://crawl.chaosforge.org/index.php?title=Vine+Stalker&oldid=86735"
+    },
+    "CrawlWiki:Copyrights": {
+      "title": "CrawlWiki:Copyrights",
+      "revision": 72470,
+      "timestamp": "2023-07-18T14:33:23Z",
+      "sha256": "9f57e3a202a3e0d68db247db182fcc6da78efe0d70b724e003976cf80a018d0a",
+      "url": "http://crawl.chaosforge.org/index.php?title=CrawlWiki%3ACopyrights&oldid=72470"
+    },
+    "Trunk": {
+      "title": "Trunk",
+      "revision": 79967,
+      "timestamp": "2024-03-12T14:02:03Z",
+      "sha256": "bb87cef0e51a61bf6c1639dbcb96ef0e566d9aeeb2b46378612a1775593cb606",
+      "url": "http://crawl.chaosforge.org/index.php?title=Trunk&oldid=79967"
+    },
+    "Barachi": {
+      "title": "Barachi",
+      "revision": 85787,
+      "timestamp": "2026-05-09T08:42:21Z",
+      "sha256": "843bad2312dc78c183b56ef4dcad4cae98d6c70c2c288bfca5c2c414ff2e6f20",
+      "url": "http://crawl.chaosforge.org/index.php?title=Barachi&oldid=85787"
+    },
+    "Berserker": {
+      "title": "Berserker",
+      "revision": 84552,
+      "timestamp": "2025-11-18T09:23:07Z",
+      "sha256": "47858af5b8b8642445b6b8e8be8d5be1b31e554512a2d62fd1dafef719b0f16c",
+      "url": "http://crawl.chaosforge.org/index.php?title=Berserker&oldid=84552"
+    },
+    "Brigand": {
+      "title": "Brigand",
+      "revision": 86842,
+      "timestamp": "2026-07-20T02:14:50Z",
+      "sha256": "e2d2ff7ebda35e51c2125e160edafcff72ebbabf690d4e41f3e90dc92dd5f7a2",
+      "url": "http://crawl.chaosforge.org/index.php?title=Brigand&oldid=86842"
+    },
+    "Chaos Knight": {
+      "title": "Chaos Knight",
+      "revision": 81398,
+      "timestamp": "2024-10-01T00:02:37Z",
+      "sha256": "7e38ef0e484238ab14fc4865d3fe441e36b2acff0e463363ecebaf0f6757723a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Chaos+Knight&oldid=81398"
+    },
+    "Cinder Acolyte": {
+      "title": "Cinder Acolyte",
+      "revision": 81769,
+      "timestamp": "2024-11-09T19:05:48Z",
+      "sha256": "892327c78edcdf243236e8c17f752493308be3285269e9d541c557322bd8c9ae",
+      "url": "http://crawl.chaosforge.org/index.php?title=Cinder+Acolyte&oldid=81769"
+    },
+    "Coglin": {
+      "title": "Coglin",
+      "revision": 86935,
+      "timestamp": "2026-09-15T02:48:23Z",
+      "sha256": "2375ba1472c49989c596a57e8eb3feaa3c87adfc79439ab14fba123e8656b3bd",
+      "url": "http://crawl.chaosforge.org/index.php?title=Coglin&oldid=86935"
+    },
+    "Demigod": {
+      "title": "Demigod",
+      "revision": 83132,
+      "timestamp": "2025-04-30T10:45:05Z",
+      "sha256": "92fe2e86b3242f83ff9a093df154a291892c1b9a86b2638c90d03bff5155a333",
+      "url": "http://crawl.chaosforge.org/index.php?title=Demigod&oldid=83132"
+    },
+    "Djinni": {
+      "title": "Djinni",
+      "revision": 83921,
+      "timestamp": "2025-10-13T08:59:18Z",
+      "sha256": "d2e20d6eb1cb814637f66745434af3673b62d630376585c068fee21adc04af15",
+      "url": "http://crawl.chaosforge.org/index.php?title=Djinni&oldid=83921"
+    },
+    "Draconian": {
+      "title": "Draconian",
+      "revision": 87830,
+      "timestamp": "2026-10-28T20:55:15Z",
+      "sha256": "2f30d44b856f29a64bbda023d1496584c442bb805e1aa0869284437ea0ac4e86",
+      "url": "http://crawl.chaosforge.org/index.php?title=Draconian&oldid=87830"
+    },
+    "Fighter": {
+      "title": "Fighter",
+      "revision": 83321,
+      "timestamp": "2025-05-07T14:42:24Z",
+      "sha256": "e914005a0577d0e8e7f7714a84531b6e355f5b4f3fd50f33c40facf50cdd4d4a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Fighter&oldid=83321"
+    },
+    "Gale Centaur": {
+      "title": "Gale Centaur",
+      "revision": 87297,
+      "timestamp": "2026-09-26T17:20:43Z",
+      "sha256": "d2ca65f02979ad8d7fed225eb111a2a446de22c0a75804307ff96d19f0b8f19a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Gale+Centaur&oldid=87297"
+    },
+    "Gladiator": {
+      "title": "Gladiator",
+      "revision": 81326,
+      "timestamp": "2024-09-20T17:47:48Z",
+      "sha256": "4c0c6d9e01ee4561541c13c31731a6bddc90c5a59b1e3f85fc814eb6103e2c87",
+      "url": "http://crawl.chaosforge.org/index.php?title=Gladiator&oldid=81326"
+    },
+    "Gnoll": {
+      "title": "Gnoll",
+      "revision": 87743,
+      "timestamp": "2026-10-20T08:32:19Z",
+      "sha256": "1fa1dffb5310bf6b4f8911ab385ae205a8b341a6c8b918df6c55bed13c0aab9c",
+      "url": "http://crawl.chaosforge.org/index.php?title=Gnoll&oldid=87743"
+    },
+    "Hunter": {
+      "title": "Hunter",
+      "revision": 77494,
+      "timestamp": "2024-01-14T15:27:10Z",
+      "sha256": "cf2d8e5be73d9a223253884525fb8530c255a741431d2e8f0418372ed4e7ac61",
+      "url": "http://crawl.chaosforge.org/index.php?title=Hunter&oldid=77494"
+    },
+    "Kobold": {
+      "title": "Kobold",
+      "revision": 86310,
+      "timestamp": "2026-06-06T01:02:47Z",
+      "sha256": "8458dbe9a46ac0d2c46046886431c3b871dc0ce24e497511f34ab5715f7d960e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Kobold&oldid=86310"
+    },
+    "Monk": {
+      "title": "Monk",
+      "revision": 81178,
+      "timestamp": "2024-09-07T04:26:05Z",
+      "sha256": "50078b116abfcf4169c792598d32c0557b332cc1b5bbb7ca2aeb0fe8bf90b0a8",
+      "url": "http://crawl.chaosforge.org/index.php?title=Monk&oldid=81178"
+    },
+    "Mummy": {
+      "title": "Mummy",
+      "revision": 85648,
+      "timestamp": "2026-03-11T03:17:39Z",
+      "sha256": "288faf75bcaf976989d2d78a657fab3aedf197467378b99853a483dcaa17e26e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Mummy&oldid=85648"
+    },
+    "Oni": {
+      "title": "Oni",
+      "revision": 83589,
+      "timestamp": "2025-06-16T18:22:46Z",
+      "sha256": "54cc19151f0a5b31ce238d1f51b260d1c4f22781517e3cb79a8eba6b47d05b3d",
+      "url": "http://crawl.chaosforge.org/index.php?title=Oni&oldid=83589"
+    },
+    "Poltergeist": {
+      "title": "Poltergeist",
+      "revision": 87436,
+      "timestamp": "2026-09-27T21:48:04Z",
+      "sha256": "50f5593c386eb068266aa138586360cd3de72154f99fca78d5f461979aecc7fb",
+      "url": "http://crawl.chaosforge.org/index.php?title=Poltergeist&oldid=87436"
+    },
+    "Revenant": {
+      "title": "Revenant",
+      "revision": 87836,
+      "timestamp": "2026-10-31T10:33:46Z",
+      "sha256": "a2792e47078fd64ab6b4e5fbb36e7e5fcbc49846f99b443381cec956998dc7ef",
+      "url": "http://crawl.chaosforge.org/index.php?title=Revenant&oldid=87836"
+    },
+    "Air Elementalist": {
+      "title": "Air Elementalist",
+      "revision": 85150,
+      "timestamp": "2026-02-05T01:06:09Z",
+      "sha256": "698917f62562f18dd459291ebf61f4db539631c187065d0baf98ee3b11db2cce",
+      "url": "http://crawl.chaosforge.org/index.php?title=Air+Elementalist&oldid=85150"
+    },
+    "Alchemist": {
+      "title": "Alchemist",
+      "revision": 86614,
+      "timestamp": "2026-07-06T12:27:56Z",
+      "sha256": "0855997b4e944d4cc97a4f18cf73f438e7ee7e8605368c004da96d39ce3cacf2",
+      "url": "http://crawl.chaosforge.org/index.php?title=Alchemist&oldid=86614"
+    },
+    "Artificer": {
+      "title": "Artificer",
+      "revision": 84301,
+      "timestamp": "2025-11-02T19:57:34Z",
+      "sha256": "2fea36f535ab2d250056154c60871dc1006a36734b0af9a6d148b497fe77d6f2",
+      "url": "http://crawl.chaosforge.org/index.php?title=Artificer&oldid=84301"
+    },
+    "Conjurer": {
+      "title": "Conjurer",
+      "revision": 77636,
+      "timestamp": "2024-01-15T08:21:45Z",
+      "sha256": "21118c49e7988112c568f11a8f854d9f416f5327bdb13f5aa4eb8b0c76780810",
+      "url": "http://crawl.chaosforge.org/index.php?title=Conjurer&oldid=77636"
+    },
+    "Delver": {
+      "title": "Delver",
+      "revision": 82790,
+      "timestamp": "2025-03-19T21:24:53Z",
+      "sha256": "6562f3582a550b75b15d22c48aa1b0c06d3e665ec2c7f526d48e645278b5976e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Delver&oldid=82790"
+    },
+    "Earth Elementalist": {
+      "title": "Earth Elementalist",
+      "revision": 84536,
+      "timestamp": "2025-11-17T18:37:40Z",
+      "sha256": "1d6972528c1a804be90081caf8a7bfe4132f2393194145bd2306e956bdfa1de7",
+      "url": "http://crawl.chaosforge.org/index.php?title=Earth+Elementalist&oldid=84536"
+    },
+    "Enchanter": {
+      "title": "Enchanter",
+      "revision": 86890,
+      "timestamp": "2026-07-29T02:58:27Z",
+      "sha256": "a9756dfb65eb912bbd1a38d2fac08e1f2101d3085c059ce6c92dcb0975ed0fdd",
+      "url": "http://crawl.chaosforge.org/index.php?title=Enchanter&oldid=86890"
+    },
+    "Fire Elementalist": {
+      "title": "Fire Elementalist",
+      "revision": 82274,
+      "timestamp": "2025-01-20T20:47:57Z",
+      "sha256": "e4b5bdbe95f155d5adff78b1a981cda43bc94a5906779fd4a5ba43e51396e8c4",
+      "url": "http://crawl.chaosforge.org/index.php?title=Fire+Elementalist&oldid=82274"
+    },
+    "Forgewright": {
+      "title": "Forgewright",
+      "revision": 85644,
+      "timestamp": "2026-03-08T17:35:00Z",
+      "sha256": "061c47b1a5d75b04d74962552f0bcb98fef6d6f9eb2c40d0b6b6b923b073c006",
+      "url": "http://crawl.chaosforge.org/index.php?title=Forgewright&oldid=85644"
+    },
+    "Hedge Wizard": {
+      "title": "Hedge Wizard",
+      "revision": 86891,
+      "timestamp": "2026-07-30T08:18:53Z",
+      "sha256": "f916d0a5f30ceb57ad46d578e332b9ab6421af8171295b553592208203002127",
+      "url": "http://crawl.chaosforge.org/index.php?title=Hedge+Wizard&oldid=86891"
+    },
+    "Hexslinger": {
+      "title": "Hexslinger",
+      "revision": 80178,
+      "timestamp": "2024-04-11T20:38:00Z",
+      "sha256": "e6db08ecd1d21241e6267e8fa9531fd981f30f73cd5793a3e5a601a0be85cf9b",
+      "url": "http://crawl.chaosforge.org/index.php?title=Hexslinger&oldid=80178"
+    },
+    "Ice Elementalist": {
+      "title": "Ice Elementalist",
+      "revision": 85848,
+      "timestamp": "2026-05-09T23:10:49Z",
+      "sha256": "49b25184f038236058461fa13712f2d7dbcfcff0c7a5c67d9331b4b82e1cd098",
+      "url": "http://crawl.chaosforge.org/index.php?title=Ice+Elementalist&oldid=85848"
+    },
+    "Mystic": {
+      "title": "Mystic",
+      "revision": 87745,
+      "timestamp": "2026-10-20T09:45:23Z",
+      "sha256": "cd6111825aaec4638070ced6db0e0fd80462db7bccaf5279cca41a458477067e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Mystic&oldid=87745"
+    },
+    "Necromancer": {
+      "title": "Necromancer",
+      "revision": 82618,
+      "timestamp": "2025-02-27T15:07:47Z",
+      "sha256": "de6fb5de7486587540037e67d932d8fd4a2086d13394eecf9f1ec9647722530d",
+      "url": "http://crawl.chaosforge.org/index.php?title=Necromancer&oldid=82618"
+    },
+    "Reaver": {
+      "title": "Reaver",
+      "revision": 84549,
+      "timestamp": "2025-11-18T08:51:06Z",
+      "sha256": "d19495152495d5a7d763741e3b241bc6097b28076293b4ee2edb77fd89079ace",
+      "url": "http://crawl.chaosforge.org/index.php?title=Reaver&oldid=84549"
+    },
+    "Shapeshifter": {
+      "title": "Shapeshifter",
+      "revision": 87737,
+      "timestamp": "2026-10-20T06:55:48Z",
+      "sha256": "986afe713a2248155cfc60d8cbf3d2c91ab82634d41d5bb806e4924f71110d1a",
+      "url": "http://crawl.chaosforge.org/index.php?title=Shapeshifter&oldid=87737"
+    },
+    "Stalker": {
+      "title": "Stalker",
+      "revision": 87767,
+      "timestamp": "2026-10-25T03:40:04Z",
+      "sha256": "05be9d0aac6550e21bbe3c4d9dfe78766a44e9927092eb4675d5081df69a15b7",
+      "url": "http://crawl.chaosforge.org/index.php?title=Stalker&oldid=87767"
+    },
+    "Summoner": {
+      "title": "Summoner",
+      "revision": 86754,
+      "timestamp": "2026-07-16T19:02:59Z",
+      "sha256": "9ed37d9fe83e094f1fbe16508a02dd11fbe61a80123a1c38fa447ddf7209f1c4",
+      "url": "http://crawl.chaosforge.org/index.php?title=Summoner&oldid=86754"
+    },
+    "Wanderer": {
+      "title": "Wanderer",
+      "revision": 82856,
+      "timestamp": "2025-03-31T05:21:54Z",
+      "sha256": "8ba022bc5fd80deb2c9479897f81bdb9cfaeca2d4dcf1f84b34bab9dfd8f5539",
+      "url": "http://crawl.chaosforge.org/index.php?title=Wanderer&oldid=82856"
+    },
+    "Warper": {
+      "title": "Warper",
+      "revision": 84962,
+      "timestamp": "2026-01-24T03:45:54Z",
+      "sha256": "47bdb9710fd4556d508914d2a2c935d74906de6ae7002f9c31f863b6cab8a857",
+      "url": "http://crawl.chaosforge.org/index.php?title=Warper&oldid=84962"
+    },
+    "Ashenzari": {
+      "title": "Ashenzari",
+      "revision": 84863,
+      "timestamp": "2026-01-17T18:21:55Z",
+      "sha256": "e3ae6bf5d3b5c93e2c965f85df284337b1e35c55aa7018009c23c15e6a738210",
+      "url": "http://crawl.chaosforge.org/index.php?title=Ashenzari&oldid=84863"
+    },
+    "Beogh": {
+      "title": "Beogh",
+      "revision": 84888,
+      "timestamp": "2026-01-19T12:09:28Z",
+      "sha256": "d6a2c9822e16768a357bdc8b4eed5feda2cb9a547945424733ec007e0a9b192c",
+      "url": "http://crawl.chaosforge.org/index.php?title=Beogh&oldid=84888"
+    },
+    "Cheibriados": {
+      "title": "Cheibriados",
+      "revision": 87140,
+      "timestamp": "2026-09-20T15:54:46Z",
+      "sha256": "3763c4f5a525ec3764df83ee93a8bdc7813c8729061d2841e97d2560e5ea9aac",
+      "url": "http://crawl.chaosforge.org/index.php?title=Cheibriados&oldid=87140"
+    },
+    "Dithmenos": {
+      "title": "Dithmenos",
+      "revision": 86902,
+      "timestamp": "2026-08-12T02:39:03Z",
+      "sha256": "641fe9f72ff51defd410f233e84c4adcbb7826ebf35a4aa459912d42dac80d82",
+      "url": "http://crawl.chaosforge.org/index.php?title=Dithmenos&oldid=86902"
+    },
+    "Elyvilon": {
+      "title": "Elyvilon",
+      "revision": 87583,
+      "timestamp": "2026-10-08T08:15:31Z",
+      "sha256": "b23e3a63c3b5ef697de842d8e374baf16823279ede0aa5c5c932d132f97b12b7",
+      "url": "http://crawl.chaosforge.org/index.php?title=Elyvilon&oldid=87583"
+    },
+    "Hepliaklqana": {
+      "title": "Hepliaklqana",
+      "revision": 86322,
+      "timestamp": "2026-06-09T00:09:06Z",
+      "sha256": "853f58e7b0b63f8c15f02f1d37908226dbbb1c85273633f5ca856875811b83fa",
+      "url": "http://crawl.chaosforge.org/index.php?title=Hepliaklqana&oldid=86322"
+    },
+    "Ignis": {
+      "title": "Ignis",
+      "revision": 84273,
+      "timestamp": "2025-10-30T17:36:50Z",
+      "sha256": "1c566133f568cb06ef04fb0f4ed7946c6705817edb46109ffaddeafe2d862aa7",
+      "url": "http://crawl.chaosforge.org/index.php?title=Ignis&oldid=84273"
+    },
+    "Jiyva": {
+      "title": "Jiyva",
+      "revision": 85401,
+      "timestamp": "2026-02-13T01:05:18Z",
+      "sha256": "2abe6e7358b4de2dfcad547363f9edcc78e7d1490701b19c98f14c25680b6b6e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Jiyva&oldid=85401"
+    },
+    "Kikubaaqudgha": {
+      "title": "Kikubaaqudgha",
+      "revision": 87572,
+      "timestamp": "2026-10-08T00:11:52Z",
+      "sha256": "a311c6d00c30ed72d68d0159abe28851b927d23ba1ecb4de4de97906a3d5ce2e",
+      "url": "http://crawl.chaosforge.org/index.php?title=Kikubaaqudgha&oldid=87572"
+    },
+    "Lugonu": {
+      "title": "Lugonu",
+      "revision": 87580,
+      "timestamp": "2026-10-08T03:17:16Z",
+      "sha256": "ebde87d44a5fb4eed1609eacea8606f5dfc0a6087ea03e43c94f598702e2b1ae",
+      "url": "http://crawl.chaosforge.org/index.php?title=Lugonu&oldid=87580"
+    },
+    "Makhleb": {
+      "title": "Makhleb",
+      "revision": 87274,
+      "timestamp": "2026-09-25T10:08:21Z",
+      "sha256": "97a80b9aa1f4a7602c6c6f4b935fd926bbdf20c6a39c77dd57523d31006c4ebe",
+      "url": "http://crawl.chaosforge.org/index.php?title=Makhleb&oldid=87274"
+    },
+    "Nemelex Xobeh": {
+      "title": "Nemelex Xobeh",
+      "revision": 87451,
+      "timestamp": "2026-09-28T15:30:19Z",
+      "sha256": "1f735ff6bb1236236b119e73aa6b49b422a6516c783bb0f26e7c93fbdff57eb7",
+      "url": "http://crawl.chaosforge.org/index.php?title=Nemelex+Xobeh&oldid=87451"
+    },
+    "Okawaru": {
+      "title": "Okawaru",
+      "revision": 87452,
+      "timestamp": "2026-09-28T15:32:59Z",
+      "sha256": "f7d07cc9547b020d76ee775906f7a137846d0479c0820f4965d0364a069bb40b",
+      "url": "http://crawl.chaosforge.org/index.php?title=Okawaru&oldid=87452"
+    },
+    "Ru": {
+      "title": "Ru",
+      "revision": 86743,
+      "timestamp": "2026-07-15T18:21:15Z",
+      "sha256": "a4583d5caac09780e435498a4e5996a32454f4c31e4b144d58d89d0c7b9add37",
+      "url": "http://crawl.chaosforge.org/index.php?title=Ru&oldid=86743"
+    },
+    "Sif Muna": {
+      "title": "Sif Muna",
+      "revision": 87244,
+      "timestamp": "2026-09-24T18:22:46Z",
+      "sha256": "aead8fa68efd628cb9f78ec03218e8a14ee2df4ae367d141a3de6bf2f9401f57",
+      "url": "http://crawl.chaosforge.org/index.php?title=Sif+Muna&oldid=87244"
+    },
+    "The Shining One": {
+      "title": "The Shining One",
+      "revision": 87231,
+      "timestamp": "2026-09-24T10:58:47Z",
+      "sha256": "910180bfa57947a2d04e2246651e9b5e28d015c12f63e9f043f5d92403397008",
+      "url": "http://crawl.chaosforge.org/index.php?title=The+Shining+One&oldid=87231"
+    },
+    "Trog": {
+      "title": "Trog",
+      "revision": 87761,
+      "timestamp": "2026-10-23T21:50:03Z",
+      "sha256": "98ac6e160f5f31ce37a1cee73b706d6ae1baf5b9e324efeb2a917b3deacb0a08",
+      "url": "http://crawl.chaosforge.org/index.php?title=Trog&oldid=87761"
+    },
+    "Fedhas Madash": {
+      "title": "Fedhas Madash",
+      "revision": 87110,
+      "timestamp": "2026-09-19T23:40:29Z",
+      "sha256": "c2f4df121be35548702d722024775cf7fecaccf7aadef8eefdf48c7fa487fdab",
+      "url": "http://crawl.chaosforge.org/index.php?title=Fedhas+Madash&oldid=87110"
+    },
+    "Gozag Ym Sagoz": {
+      "title": "Gozag Ym Sagoz",
+      "revision": 87166,
+      "timestamp": "2026-09-22T04:59:34Z",
+      "sha256": "77510e64b1e3a39c4871025b3e24ff2773b107889f68e3ab51c33d06828a82bc",
+      "url": "http://crawl.chaosforge.org/index.php?title=Gozag+Ym+Sagoz&oldid=87166"
+    },
+    "Qazlal Stormbringer": {
+      "title": "Qazlal Stormbringer",
+      "revision": 85879,
+      "timestamp": "2026-05-11T20:53:39Z",
+      "sha256": "59df764f63ffd780e53d51509ca7656890e7f1ad9e6ca9987947bc74363813da",
+      "url": "http://crawl.chaosforge.org/index.php?title=Qazlal+Stormbringer&oldid=85879"
+    },
+    "Uskayaw": {
+      "title": "Uskayaw",
+      "revision": 82619,
+      "timestamp": "2025-02-27T21:56:31Z",
+      "sha256": "301a4f65a6f90515451e0890396601d6002bb9d243583281926ae09d5542edc0",
+      "url": "http://crawl.chaosforge.org/index.php?title=Uskayaw&oldid=82619"
+    },
+    "Vehumet": {
+      "title": "Vehumet",
+      "revision": 86840,
+      "timestamp": "2026-07-19T18:11:14Z",
+      "sha256": "7615056e6c03de0fd7a5a6adedd2b8ccded2ff9647c48872b4483914dc52d059",
+      "url": "http://crawl.chaosforge.org/index.php?title=Vehumet&oldid=86840"
+    },
+    "Wu Jian": {
+      "title": "Wu Jian",
+      "revision": 86482,
+      "timestamp": "2026-06-28T18:10:04Z",
+      "sha256": "c712f3da742ae0af579690a895157d6b98e217b03209a67c2674c18d855f6968",
+      "url": "http://crawl.chaosforge.org/index.php?title=Wu+Jian&oldid=86482"
+    },
+    "Xom": {
+      "title": "Xom",
+      "revision": 87326,
+      "timestamp": "2026-09-26T19:51:25Z",
+      "sha256": "5edfa8278fcfc36c07772f9b24099efadbbda1273ae666ebccb6d0daf42fd5d9",
+      "url": "http://crawl.chaosforge.org/index.php?title=Xom&oldid=87326"
+    },
+    "Yredelemnul": {
+      "title": "Yredelemnul",
+      "revision": 86479,
+      "timestamp": "2026-06-27T22:23:35Z",
+      "sha256": "2b0e58eea2bf5d0549db52284c6e19e0596cb8c011ecc0db986d2ee60c1b0d93",
+      "url": "http://crawl.chaosforge.org/index.php?title=Yredelemnul&oldid=86479"
+    },
+    "Zin": {
+      "title": "Zin",
+      "revision": 86908,
+      "timestamp": "2026-08-21T12:32:13Z",
+      "sha256": "5619f2964593ca4c5beb29b8733debc8c9bf55e3a784faf0e9f340c9035998c6",
+      "url": "http://crawl.chaosforge.org/index.php?title=Zin&oldid=86908"
+    }
+  }
+}

@@ -39,6 +39,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y build-essential libncursesw5-dev bison flex liblua5.4-dev libsqlite3-dev zlib1g-dev pkg-config
           python -m pip install PyYAML
+      - name: Build the shared Russian wiki catalogue
+        run: |
+          python tools/wiki/build.py --output "$RUNNER_TEMP/dcss-wiki"
+          python tools/wiki/check.py "$RUNNER_TEMP/dcss-wiki"
+      - name: Upload MediaWiki content and original game sprites
+        uses: actions/upload-artifact@v4
+        with:
+          name: dcss-ru-mediawiki-content
+          path: ${{ runner.temp }}/dcss-wiki
+          if-no-files-found: error
       - uses: hendrikmuhs/ccache-action@v1.2
         with:
           key: ru-linux

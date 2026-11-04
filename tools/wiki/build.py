@@ -1,0 +1,448 @@
+"""Build a Russian MediaWiki seed from the game's shared, reviewed catalogues.
+
+Build output is disposable. The updater replaces only unchanged generated blocks;
+editor-written text outside those blocks is preserved on subsequent deployments.
+"""
+from pathlib import Path
+import argparse
+import hashlib
+import html
+import json
+import re
+import shutil
+import subprocess
+import sys
+import unicodedata
+import yaml
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools/ru"))
+from catalog import read_db
+
+GROUPS = {
+    "species": ("Виды", "вид"), "background": ("Предыстории", "предыстория"),
+    "gods": ("Боги", "бог"), "skills": ("Навыки", "навык"),
+    "items": ("Предметы", "предмет"), "unrand": ("Артефакты", "артефакт"),
+    "spells": ("Заклинания", "заклинание"), "ability": ("Способности", "способность"),
+    "monsters": ("Существа", "существо"), "status": ("Состояния", "состояние"),
+    "mutations": ("Мутации", "мутация"), "features": ("Местность", "местность"),
+    "cards": ("Карты", "карта"), "egos": ("Свойства снаряжения", "свойство")}
+EGO_NAMES = dict(zip(
+    ["acid","antimagic","chaos","concussion","distortion","devious","draining","electrocution","entangling","flaming","freezing","foul flame","heavy","holy wrath","penetration","protection","reaping","rebuke","spectralising","speed","sundering","valour","vampirism","venom","air","archery","attunement","cold resistance","command","corrosion resistance","death","dexterity","earth","energy","fire","fire resistance","flying","glass","guile","harm","hurling","ice","infusion","intelligence","invisibility","light","mayhem","mesmerism","parrying","poison resistance","ponderousness","positive energy","pyromania","rampaging","reflection","repulsion","resistance","resonance","see invisible","shadows","sniping","spirit shield","stardust","stealth","strength","the Archmagi","willpower","wrath","atropa-tipped","curare-tipped","datura-tipped","disjunction","dispersal","poisoned","silver","pain"],
+    ["Кислота","Антимагия","Хаос","Сотрясение","Искажение","Коварство","Истощение","Электричество","Опутывание","Пламя","Холод","Нечестивое пламя","Тяжесть","Священный гнев","Пробивание","Защита","Жатва","Воздаяние","Призрачность","Скорость","Рассечение","Доблесть","Вампиризм","Яд","Воздух","Стрельба","Настройка","Сопротивление холоду","Командование","Сопротивление коррозии","Смерть","Ловкость","Земля","Энергия","Огонь","Сопротивление огню","Полёт","Стекло","Хитрость","Вред","Метание","Лёд","Наполнение","Интеллект","Невидимость","Свет","Погром","Гипноз","Парирование","Сопротивление яду","Неповоротливость","Положительная энергия","Пиромания","Натиск","Отражение","Отталкивание","Сопротивление стихиям","Резонанс","Обнаружение невидимого","Тени","Снайперство","Духовный щит","Звёздная пыль","Скрытность","Сила","Архимаг","Воля","Ярость","Атропа","Кураре","Дурман","Разрыв пространства","Рассеивание","Отравление","Серебро","Боль"]))
+FEATURE_NAMES = {"haloed":"Священная аура", "umbraed":"Аура тьмы", "liquefied":"Разжиженная земля",
+    "disjunction haloed":"Поле разрыва пространства", "ice covered":"Ледяное покрытие", "awoken":"Пробуждённое дерево",
+    "tree burning":"Горящее дерево", "mangrove burning":"Горящий мангр", "demonic tree burning":"Горящее демоническое дерево"}
+SPECIES_SPRITES = {"Human":"human_m", "Mountain Dwarf":"dwarf_m", "Deep Elf":"deep_elf_m", "Minotaur":"minotaur_m",
+    "Merfolk":"merfolk_water_m", "Tengu":"tengu_wingless_m", "Spriggan":"spriggan_m", "Gargoyle":"gargoyle_m",
+    "Troll":"troll_m", "Naga":"naga_m", "Octopode":"octopode1", "Felid":"felid", "Formicid":"formicid",
+    "Vine Stalker":"vine_stalker_green_m", "Demonspawn":"demonspawn_red_m", "Demigod":"demigod_m", "Draconian":"draconian",
+    "Kobold":"kobold_m", "Gnoll":"gnoll_m", "Barachi":"frog_m", "Djinni":"djinni_red_m", "Coglin":"coglin",
+    "Gale Centaur":"gale_centaur_m", "Mummy":"mummy_m", "Oni":"oni_red_m", "Poltergeist":"poltergeist", "Revenant":"revenant"}
+FLAG_LABELS = {"flies":"Полёт", "see_invis":"Видит невидимых", "invis":"Невидимость", "fast_regen":"Быстрая регенерация",
+    "stationary":"Неподвижность", "insubstantial":"Бестелесность", "unique":"Уникальный противник", "no_regen":"Не восстанавливает здоровье"}
+ATTACKS = {"hit":"удар", "bite":"укус", "claw":"когти", "sting":"жало", "peck":"клюв", "constrict":"сдавливание",
+    "trample":"растаптывание", "gore":"рога", "tentacle_slap":"удар щупальцем", "touch":"касание", "tail_slap":"удар хвостом"}
+
+
+def load(path):
+    return json.loads(path.read_text(encoding="utf8"))
+
+
+def cap(value):
+    return value[:1].upper() + value[1:]
+
+
+def clean_title(value):
+    return cap(re.sub(r"\{[^{}]*\}|<[^<>]*>", "", value).strip().replace("_", " "))
+
+
+def tile_map(filename):
+    directory = ""
+    result = {}
+    for line in (ROOT / "crawl-ref/source/rltiles" / filename).read_text(encoding="utf8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line.startswith("%sdir "):
+            directory = line.split(maxsplit=1)[1]
+        elif line and not line.startswith("%"):
+            parts = line.split()
+            if len(parts) > 1:
+                path = ROOT / "crawl-ref/source/rltiles" / directory / (parts[0] + ".png")
+                if path.is_file():
+                    for label in parts[1:]:
+                        result.setdefault(label, path)
+    return result
+
+
+def spell_data():
+    text = (ROOT / "crawl-ref/source/spl-data.h").read_text(encoding="utf8")
+    result = {}
+    for match in re.finditer(r'\{\s*(SPELL_[A-Z0-9_]+),\s*"([^"\n]+)",(.+?)\n\},', text, re.S):
+        body = re.sub(r"//[^\n]*|/\*.*?\*/", "", match[3], flags=re.S)
+        fields = [v.strip() for v in body.split(",")]
+        if len(fields) >= 8:
+            result[match[2].casefold()] = {"enum":match[1], "schools":re.findall(r"spschool::(\w+)", fields[0]),
+                "level":fields[2], "tile":fields[7].removeprefix("TILEG_")}
+    return result
+
+
+class Builder:
+    def __init__(self, output, community=None, revision=None):
+        self.output = output
+        self.output.mkdir(parents=True, exist_ok=True)
+        self.revision=revision
+        (output / "sprites").mkdir(exist_ok=True)
+        self.terms = load(ROOT / "localization/ru/terms.json")
+        self.entities = load(ROOT / "localization/ru/entities.json")
+        self.reference = load(ROOT / "wiki/ru/reference/descriptions.json")
+        self.messages = load(ROOT / "localization/ru/system-messages.json")
+        self.static = load(ROOT / "localization/ru/static.json")
+        self.notes = load(ROOT / "wiki/site/notes.json")
+        self.community = load(community or ROOT / "wiki/site/community-revisions.json")["pages"]
+        self.community_by_key = {k.casefold():v for k,v in self.community.items()}
+        self.titles = {}
+        self.rows = {}
+        self.keys = {}
+        self.assets = {}
+        self.sprite_map = {}
+        self.unresolved = set()
+        self.mon_tiles = tile_map("dc-mon.txt")
+        self.gui_tiles = tile_map("dc-gui.txt")
+        self.spell_tiles = tile_map("dc-spells.txt")
+        self.feature_tiles = tile_map("dc-feat.txt")
+        self.item_tiles = tile_map("dc-item.txt")
+        self.spells = spell_data()
+        self.artifacts = {}
+        art_text = (ROOT / "crawl-ref/source/art-data.txt").read_text(encoding="utf8")
+        for block in re.split(r"\n\s*\n",art_text):
+            fields=dict(re.findall(r"^([A-Z_]+):\s*(.+)$",block,re.M))
+            if "NAME" in fields and "TILE" in fields:
+                self.artifacts[fields["NAME"].casefold()]=fields
+        self.pngs = list((ROOT / "crawl-ref/source/rltiles").rglob("*.png"))
+        self.by_stem = {}
+        for path in self.pngs:
+            if "UNUSED" not in path.parts:
+                self.by_stem.setdefault(path.stem.casefold(), []).append(path)
+                normalized=re.sub(r"[^a-z0-9]+","_",path.stem.casefold()).strip("_")
+                if normalized!=path.stem.casefold():self.by_stem.setdefault(normalized,[]).append(path)
+        self.monsters = {}
+        self.species = {}
+        self.backgrounds = {}
+        for folder, target in [("mons", self.monsters), ("species", self.species), ("jobs", self.backgrounds)]:
+            for path in (ROOT / "crawl-ref/source/dat" / folder).glob("*.yaml"):
+                row = yaml.safe_load(path.read_text(encoding="utf8"))
+                if not isinstance(row, dict) or "name" not in row:
+                    continue
+                row["_path"] = path.relative_to(ROOT).as_posix()
+                target.setdefault(row["name"].casefold(), row)
+        self.lexicon = {k.casefold():v["forms"]["singular"]["nom"] for v in self.entities for k in [v["en"]]}
+        for group in self.terms.values():
+            for key,value in group.items():
+                self.lexicon.setdefault(key.casefold(), value)
+
+    def skill_key(self,value):
+        value=value.replace("_"," ").casefold()
+        aliases={"maces and flails":"Maces & Flails","fire":"Fire Magic","ice":"Ice Magic","air":"Air Magic","earth":"Earth Magic",
+            "conjuration":"Conjurations","hexes":"Hexes","summoning":"Summonings","translocation":"Translocations"}
+        return aliases.get(value, next((k for k in self.terms["skill"] if k.casefold()==value),value))
+
+    def register(self, group, key, title, text, **extra):
+        title = clean_title(title)
+        if not re.search(r"[А-Яа-яЁё]", title):
+            raise ValueError(("Untranslated page title",group,key,title))
+        candidate = title
+        if candidate in self.rows and self.rows[candidate]["group"] != group:
+            candidate += " (" + GROUPS[group][1] + ")"
+        if candidate not in self.rows:
+            self.rows[candidate] = dict(group=group, title=candidate, name=title, entries=[], **extra)
+        self.rows[candidate]["entries"].append(dict(key=key, text=text))
+        self.keys[(group,key)] = candidate
+        self.titles.setdefault(key.casefold(), candidate)
+        self.titles.setdefault(re.sub(r" (spell|ability|card|mutation|status|skill)$", "",key).casefold(), candidate)
+        return self.rows[candidate]
+
+    def translate(self, value):
+        return self.lexicon.get(value.casefold(), self.messages.get(value, ""))
+
+    def sprite(self, path):
+        if not path or not path.is_file():
+            return None
+        relative = path.relative_to(ROOT / "crawl-ref/source/rltiles").as_posix()
+        name = "Dcss-" + re.sub(r"[^A-Za-z0-9_.-]", "-", relative.replace("/", "-"))
+        if name not in self.assets:
+            shutil.copyfile(path, self.output / "sprites" / name)
+            self.assets[name] = dict(path="crawl-ref/source/rltiles/"+relative,
+                sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+        return name
+
+    def find_sprite(self, name, folders=()):
+        stem = re.sub(r"[^a-z0-9]+", "_", name.casefold()).strip("_")
+        for candidate in (stem, stem+"0", stem+"1", stem+"01", stem+"_m"):
+            paths = self.by_stem.get(candidate, [])
+            if folders:
+                paths = [p for p in paths if any(f in p.parts for f in folders)]
+            if paths:
+                return paths[0]
+        return None
+
+    def collect(self):
+        characters = load(ROOT / "localization/ru/character-descriptions.json")
+        for key,name in self.terms["species"].items():
+            stem = SPECIES_SPRITES[key]
+            path = ROOT / "crawl-ref/source/rltiles/player/base" / (stem+".png")
+            if not path.is_file():
+                path = ROOT/"crawl-ref/source/rltiles/player/felids/cat1.png" if key=="Felid" else self.find_sprite(key, ("mon","player"))
+            # Complete in-game species portraits read better than an unequipped
+            # doll layer. Coglins and Gale Centaurs have distinct player bodies.
+            data=self.species.get(key.casefold(),{})
+            if key not in ("Coglin","Gale Centaur"):
+                path=self.mon_tiles.get(data.get("monster")) or path
+            self.register("species",key,name,characters["species"][key],sprite=self.sprite(path))
+        for key,name in self.terms["background"].items():
+            data = self.backgrounds.get(key.casefold(),{})
+            enum = data.get("enum", "JOB_"+key.upper().replace(" ","_"))
+            self.register("background",key,name,characters["backgrounds"][key],sprite=self.sprite(self.gui_tiles.get(enum.replace("JOB_","JOB_RECOMMENDED_"))))
+        gods = read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
+        for key,name in self.terms["gods"].items():
+            enum="DNGN_ALTAR_"+key.removeprefix("the ").upper().replace(" ","_")
+            self.register("gods",key,name,gods[key],sprite=self.sprite(self.feature_tiles.get(enum)))
+        for group in ("skills","items","unrand","spells","ability","monsters","status","mutations","features","cards","egos"):
+            for key,entry in self.reference[group].items():
+                if key.startswith("__(_"):
+                    continue
+                title = entry["title"]
+                if not title:
+                    if group == "egos":
+                        base = key.split(" (",1)[0]
+                        title = EGO_NAMES[base]
+                        if "armour ego" in key: title += " (свойство брони)"
+                        elif "missile ego" in key:title += " (свойство снарядов)"
+                        else:title += " (свойство оружия)"
+                    elif group == "features":title = FEATURE_NAMES[key]
+                    elif key == "player invis desc":title = "Невидимый персонаж"
+                path = None
+                plain = re.sub(r" (spell|ability|card|mutation|status)$", "",key)
+                if group == "spells":
+                    info = self.spells.get(plain.casefold(),{})
+                    path = self.spell_tiles.get(info.get("tile"))
+                elif group == "monsters":
+                    data = self.monsters.get(key.casefold(),{})
+                    enum = data.get("enum", "MONS_"+key.upper().replace(" ","_").replace("'",""))
+                    if not enum.startswith("MONS_"):enum="MONS_"+enum.upper()
+                    path=self.mon_tiles.get(enum) or self.find_sprite(data.get("tile",key),("mon",))
+                elif group == "skills":path=self.find_sprite(plain,("skills",))
+                elif group in ("items","unrand"):
+                    path=self.find_sprite(plain,("item",))
+                    artifact=self.artifacts.get(plain.casefold())
+                    if not artifact:
+                        artifact=next((a for n,a in self.artifacts.items() if '"'+n+'"' in plain.casefold()),None)
+                    if artifact:path=self.find_sprite(artifact["TILE"],("item",))
+                    if not path:
+                        for prefix in ("potion of ","scroll of ","wand of ","ring of ","amulet of "):
+                            if plain.startswith(prefix):
+                                path=self.find_sprite("i-"+plain[len(prefix):].replace(" ","-"),("item",))
+                                break
+                elif group == "mutations":path=self.find_sprite(plain,("mutations",))
+                row=self.register(group,key,title,entry["text"],sprite=self.sprite(path))
+                row.setdefault("powers",[]).extend(entry.get("powers",[]))
+        return self
+
+    def prose(self, text):
+        text = re.sub(r"\{\{.*?\}\}", "",text,flags=re.S)
+        text = re.sub(r"</?(?:w|light\w+|dark\w+|white|red|green|blue|yellow|brown|cyan|magenta|black|h|v|u)>|#Lua#", "",text)
+        def link(match):
+            key=match[1]
+            title=self.titles.get(key.casefold())
+            if title:return "[["+title+"]]"
+            translation=self.translate(key)
+            if translation:return clean_title(translation)
+            self.unresolved.add(key)
+            return "связанное описание"
+        return re.sub(r"\[\[([^\[\]]+)\]\]",link,text)
+
+    def source(self, row):
+        group=row["group"];key=row["entries"][0]["key"]
+        en=re.sub(r" (spell|ability|card|mutation|status)$", "",key)
+        community=self.community_by_key.get(en.casefold())
+        links=[]
+        if community:
+            links.append("["+community["url"]+" CrawlWiki, редакция от "+community["timestamp"][:10]+"]")
+        source={"species":"species.txt","background":"backgrounds.txt","gods":"gods.txt"}.get(group,group+".txt")
+        links.append("[https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/crawl-ref/source/dat/descript/"+source+" Описание русского форка]")
+        return '<div class="dc-source">Источники: '+" · ".join(links)+". Описание и характеристики сверены с веткой 0.35-a0. Советы — рекомендации, а не гарантия победы.</div>"
+
+    def table(self, rows):
+        if not rows:return ""
+        return '{| class="wikitable"\n! Параметр !! Значение\n'+"\n".join("|-\n| "+str(a)+" || "+str(b) for a,b in rows)+"\n|}\n"
+
+    def object_link(self, value):
+        value=self.skill_key(value) if self.skill_key(value) in self.terms["skill"] else value
+        title=self.titles.get(value.casefold())
+        return "[["+title+"]]" if title else self.translate(value)
+
+    def metadata(self, row):
+        group=row["group"];key=row["entries"][0]["key"]
+        text=""
+        if group == "monsters":
+            data=self.monsters.get(key.casefold())
+            if data:
+                rows=[]
+                for field,label in [("hp_10x","Среднее здоровье"),("ac","Броня (AC)"),("ev","Уклонение (EV)"),("will","Воля"),("speed","Базовая скорость")]:
+                    value=data.get(field)
+                    if value is not None:
+                        if field=="hp_10x":value=f"{value/10:g}"
+                        if field=="will" and value=="immune":value="Неуязвимость к проверкам Воли"
+                        rows.append((label,value))
+                attacks=[str(a["damage"])+" ("+ATTACKS.get(a.get("type"),"атака")+")" for a in (data.get("attacks") or []) if isinstance(a.get("damage"),int) and a["damage"]>0]
+                if attacks:rows.append(("Базовый урон отдельных атак",", ".join(attacks)))
+                features=[FLAG_LABELS[f] for f in data.get("flags",[]) if f in FLAG_LABELS]
+                if features:rows.append(("Особенности",", ".join(features)))
+                text+="\n== Характеристики ==\n"+self.table(rows)+"Базовые значения могут изменяться у конкретного существа из-за его состояния, снаряжения или особенностей разновидности. Урон указан до учёта защиты цели.\n"
+            else:
+                text+='\n<div class="dc-notice">Это дополнительная запись игрового каталога. Она может относиться к старой разновидности, отдельному эффекту или особому режиму; её появление как обычного противника в текущей партии не подтверждено.</div>\n'
+        elif group == "species":
+            data=self.species.get(key.casefold(),{})
+            rows=[(label,data[field]) for field,label in [("str","Начальная сила"),("int","Начальный интеллект"),("dex","Начальная ловкость")] if field in data]
+            if rows:text+="\n== Начальные характеристики ==\n"+self.table(rows)+"К ним добавляются бонусы выбранной [[Предыстории|предыстории]].\n"
+            apt=[]
+            for skill,value in data.get("aptitudes",{}).items():
+                label=self.terms["skill"].get(self.skill_key(skill))
+                if label and skill not in ("xp","hp","mp_mod","wl"):
+                    apt.append((self.object_link(skill.replace("_"," ")) or label,f"{value:+g}"))
+            if apt:text+="\n== Склонности к обучению ==\nЧем выше значение, тем быстрее развивается навык при одинаковых затратах опыта.\n"+self.table(apt)
+            recommended=[self.object_link(v) for v in data.get("recommended_jobs",[])]
+            if any(recommended):text+="\n== Рекомендуемые предыстории ==\n"+", ".join(v for v in recommended if v)+".\n"
+        elif group == "background":
+            data=self.backgrounds.get(key.casefold(),{})
+            rows=[(label,f"+{data[field]}") for field,label in [("str","Сила"),("int","Интеллект"),("dex","Ловкость")] if data.get(field)]
+            if rows:text+="\n== Бонусы характеристик ==\n"+self.table(rows)
+            equipment=[]
+            for item in data.get("equipment",[]):
+                base=item.split(" q:")[0].split(" plus:")[0].split(" ego:")[0]
+                display=self.object_link(base)
+                if display:
+                    count=re.search(r"\bq:(\d+)",item)
+                    equipment.append(display+(" × "+count[1] if count else ""))
+            if equipment:text+="\n== Начальное снаряжение ==\n"+"\n".join("* "+v for v in equipment)+"\n"
+            if data.get("weapon_choice"):text+="\nОсновное оружие выбирается при создании персонажа.\n"
+            skills=[]
+            for name,value in data.get("skills",{}).items():
+                label="Выбранное оружие" if name=="weapon" else self.object_link(name.replace("_"," "))
+                if label:skills.append((label,value))
+            if skills:text+="\n== Начальные навыки ==\n"+self.table(skills)
+            text+="\nСнаряжение и навыки могут корректироваться в зависимости от выбранного вида. Предыстория задаёт старт, а не ограничивает дальнейшее развитие.\n"
+        elif group == "spells":
+            plain=key.removesuffix(" spell");data=self.spells.get(plain.casefold(),{})
+            rows=[]
+            if data.get("level","").isdigit():rows.append(("Уровень заклинания",data["level"]))
+            labels=[self.terms["skill"][self.skill_key(s)] for s in data.get("schools",[]) if self.skill_key(s) in self.terms["skill"]]
+            if labels:rows.append(("Школы",", ".join(labels)))
+            if rows:text+="\n== Параметры ==\n"+self.table(rows)
+        elif group == "gods":
+            gods=read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
+            for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство")]:
+                value=gods.get(key+suffix)
+                if value:text+="\n== "+heading+" ==\n"+self.prose(value)+"\n"
+        if row.get("powers"):
+            text+="\n== Особые свойства ==\n"+"\n".join("* '''"+v["label"]+".''' "+self.prose(v["text"]) for v in row["powers"])+"\n"
+        return text
+
+    def render(self):
+        pages={}
+        counts={g:0 for g in GROUPS}
+        for title,row in self.rows.items():
+            group=row["group"];key=row["entries"][0]["key"];counts[group]+=1
+            sprite=row.get("sprite")
+            if sprite:self.sprite_map[title]=sprite
+            image='<div class="dc-article-sprite">[[Файл:'+sprite+'|32px|link=|'+row["name"]+']]</div>' if sprite else ""
+            body='<div class="dc-article-top">'+image+'<div><div class="dc-kicker">'+GROUPS[group][0]+' · 0.35-a0</div><div class="dc-native">'+row["name"]+'</div><div class="dc-meta">Английское название: '+html.escape(re.sub(r" (spell|ability|card|mutation|status)$","",key))+'</div></div></div>\n'
+            seen=set()
+            for entry in row["entries"]:
+                value=self.prose(entry["text"])
+                if value not in seen:body+="\n"+value+"\n";seen.add(value)
+            body+=self.metadata(row)
+            advice=self.notes.get(group,{}).get(key)
+            if advice:body+="\n== Советы по игре ==\n"+advice+"\n"
+            body+=self.source(row)
+            body+="\n[[Категория:"+GROUPS[group][0]+"]]"
+            pages[title]=dict(text=body,key=group+":"+key,kind="article")
+        for group,(category,_) in GROUPS.items():
+            links=sorted([r["title"] for r in self.rows.values() if r["group"]==group],key=str.casefold)
+            content="Все названия согласованы с русской игрой. В скобках в заголовке иногда указан тип, чтобы различать одноимённые объекты.\n\n"
+            content+='<div class="dc-index">\n'+"\n".join("* [["+t+"]]" for t in links)+"\n</div>"
+            pages[category]=dict(text=content,key="index:"+group,kind="index")
+            pages["Категория:"+category]=dict(text="См. полный справочник: [["+category+"]].",key="category:"+group,kind="category")
+        self.add_site(pages,counts)
+        # English lookup redirects make familiar upstream names searchable.
+        for title,row in self.rows.items():
+            for entry in row["entries"]:
+                en=re.sub(r" (spell|ability|card|mutation|status)$","",entry["key"])
+                en=cap(en)
+                if en not in pages and not any(c in en for c in "[]{}|<>#"):
+                    pages[en]=dict(text="#REDIRECT [["+title+"]]",key="redirect:"+en,kind="redirect")
+        for name,source in self.assets.items():
+            body="Игровой спрайт Dungeon Crawl Stone Soup.\n\nИсточник: [https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/"+source["path"]+" исходный файл].\n\nАвторы — участники проекта DCSS. Условия использования: [https://github.com/crawl/crawl/blob/master/LICENSE лицензия проекта]; большинство тайлов опубликованы как CC0, отдельные старые ресурсы могут иметь другие совместимые условия.\n[[Категория:Спрайты игры]]"
+            pages["Файл:"+name]=dict(text=body,key="file:"+name,kind="file")
+        revision=self.revision or subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()
+        payload=dict(schema=1,version="0.35-a0",source_revision=revision,pages=pages,assets=self.assets,counts=counts)
+        (self.output/"pages.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+        report=dict(article_counts=counts,pages=len(pages),sprites=len(self.assets),unresolved_references=sorted(self.unresolved),sprite_coverage={g:sum(bool(r.get("sprite")) for r in self.rows.values() if r["group"]==g) for g in GROUPS})
+        (self.output/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+        shutil.copyfile(ROOT/"wiki/site/wiki-logo.svg",self.output/"wiki-logo.svg")
+        shutil.copyfile(ROOT/"wiki/site/theme.css",self.output/"theme.css")
+        fallback=ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png"
+        shutil.copyfile(fallback,self.output/"favicon.png")
+        print(json.dumps(report,ensure_ascii=False,indent=2))
+
+    def add_site(self,pages,counts):
+        guides=load(ROOT/"wiki/site/guides.json")
+        for title,row in guides.items():
+            text=row["text"]
+            sources=[]
+            for key in row.get("sources",[]):
+                source=self.community_by_key.get(key.casefold())
+                if source:sources.append("["+source["url"]+" "+source["title"]+"]")
+            if sources:text+='\n<div class="dc-source">Перевод и адаптация материалов CrawlWiki: '+" · ".join(sources)+". Авторы исходных страниц перечислены в их истории. Механики сверяются с 0.35-a0, рекомендации могут зависеть от персонажа.</div>"
+            pages[title]=dict(text=text,key="guide:"+title,kind="guide")
+        provenance="Конкретные редакции CrawlWiki, использованные при подготовке русского справочника. Численные игровые данные сверяются отдельно с русским форком.\n\n"+"\n".join("* ["+v["url"]+" "+k+"] — "+v["timestamp"][:10] for k,v in sorted(self.community.items()))+"\n[[Категория:Проект]]"
+        pages["Dungeon Crawl:Источники"]=dict(text=provenance,key="community-provenance",kind="project")
+        pages["MediaWiki:Common.css"]=dict(text=(ROOT/"wiki/site/theme.css").read_text(encoding="utf8"),key="theme",kind="css")
+        sidebar="* Навигация\n** mainpage|Заглавная страница\n** https://dungeoncrawl.ru/|Играть в браузере\n** Первые шаги|Первый заход\n** Управление|Клавиши и команды\n* Персонаж\n** Виды|Виды\n** Предыстории|Предыстории\n** Навыки|Навыки\n** Боги|Боги\n** Заклинания|Заклинания\n** Способности|Способности\n* Подземелье\n** Существа|Существа\n** Предметы|Предметы\n** Артефакты|Артефакты\n** Местность|Местность\n** Состояния|Состояния\n** Мутации|Мутации\n** Карты|Карты\n* Сообщество\n** Версия игры|Версия игры\n** Dungeon Crawl:О вики|О вики и источники\n** Справка:Редактирование|Помочь с вики\n** recentchanges-url|Свежие правки\n** randompage-url|Случайная статья\n** https://github.com/Mr-Vivor/DCSS-RU|GitHub проекта\n* SEARCH\n* TOOLBOX\n* LANGUAGES"
+        pages["MediaWiki:Sidebar"]=dict(text=sidebar,key="sidebar",kind="system")
+        pages["MediaWiki:Mainpage"]=dict(text="Заглавная страница",key="mainpage-name",kind="message")
+        for key,value in {"Aboutpage":"Dungeon Crawl:О вики","Privacypage":"Dungeon Crawl:Конфиденциальность","Disclaimerpage":"Версия игры"}.items():
+            pages["MediaWiki:"+key]=dict(text=value,key="interface:"+key,kind="message")
+        main=self.main_page(counts)
+        pages["Заглавная страница"]=dict(text=main,key="mainpage",kind="main")
+
+    def grid(self,group):
+        items=[]
+        for row in self.rows.values():
+            if row["group"]!=group:continue
+            image="[[Файл:"+row["sprite"]+"|32px|link="+row["title"]+"|"+row["name"]+"]]" if row.get("sprite") else ""
+            items.append('<div class="dc-sprite-card">'+image+'[['+row["title"]+'|'+row["name"]+']]</div>')
+        return '<div class="dc-sprite-grid">'+"\n".join(items)+"</div>"
+
+    def main_page(self,counts):
+        emblem=self.sprite(ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png")
+        def panel(title,body,kind=""):
+            return '<div class="dc-panel '+kind+'"><h2>'+title+'</h2><div class="dc-panel-body">'+body+'</div></div>'
+        links=lambda entries:'<div class="dc-links">'+"\n".join("[["+a+"|"+b+"]]" for a,b in entries)+"</div>"
+        start=panel("Первый спуск",links([("Первые шаги","С чего начать"),("Управление","Клавиши и команды"),("Первый персонаж","Кого выбрать"),("Как выжить","Как выбраться из опасности"),("Развитие персонажа","Опыт и обучение"),("Выбор бога","Религия и божественные силы")]))
+        reference=panel("Под рукой",links([("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
+        world=panel("От лестницы до Сферы",links([("Путь к Сфере","Маршрут и руны"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
+        gods=panel("Боги",links([(r["title"],r["name"]) for r in self.rows.values() if r["group"]=="gods"]),"dc-gold")
+        intro='<div class="dc-intro"><div class="dc-emblem">[[Файл:'+emblem+'|32px|link=]]</div><div><div class="dc-kicker">Dungeon Crawl Stone Soup</div><div class="dc-title">Русская вики <span class="dc-version">0.35-a0</span></div><p>Справочник для тех, кто спускается за Сферой Зота.</p><div class="dc-muted">Виды, заклинания, боги и обитатели Подземелья — с теми же названиями, что в русской игре.</div></div></div>'
+        notice='<div class="dc-main-note">Наш сервер использует ветку разработки <b>0.35-a0</b>. Статьи сообщества адаптируются под неё; подробности — [[Версия игры|на странице версии]]. [https://dungeoncrawl.ru/ Играть в браузере]</div>'
+        footer=panel("Сообщество и редактура","Материалы основаны на [[Dungeon Crawl:О вики|CrawlWiki и исходниках игры]]. Правки доступны приглашённым редакторам. Нашли неточность? Проверьте название и версию, затем оставьте замечание на странице обсуждения или в [https://github.com/Mr-Vivor/DCSS-RU/issues задачах проекта].\n\n[[Справка:Редактирование|Как устроены страницы и как помочь]] · [[Служебная:Статистика|Статистика вики]]")
+        summary='<div class="dc-quickstats"><span>27 видов</span><span>28 предысторий</span><span>26 богов</span><span>'+str(counts["spells"])+" описаний заклинаний</span></div>"
+        return "__NOTOC__\n"+intro+notice+summary+'<div class="dc-layout"><div>'+start+reference+world+gods+'</div><div>'+panel("Виды",self.grid("species"),"dc-green")+panel("Предыстории",self.grid("background"),"dc-violet")+'</div></div>'+footer
+
+
+if __name__ == "__main__":
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--output",type=Path,required=True)
+    parser.add_argument("--community",type=Path)
+    parser.add_argument("--revision",help="Source commit when building from a git archive")
+    args=parser.parse_args()
+    Builder(args.output,args.community,args.revision).collect().render()

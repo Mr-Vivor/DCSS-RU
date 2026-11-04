@@ -1,0 +1,11 @@
+[Unit]
+Description=Synchronize DCSS wiki with the active tested game release
+After=network-online.target
+[Service]
+Type=oneshot
+User=dcsswiki
+Group=dcsswiki
+WorkingDirectory=/srv/dcss-wiki
+ExecStart=/usr/bin/python3 /usr/local/sbin/dcss-wiki-sync.py
+TimeoutStartSec=20min
+Nice=10

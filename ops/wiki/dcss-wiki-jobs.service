@@ -1,0 +1,10 @@
+[Unit]
+Description=Process DCSS MediaWiki links, cache and indexing jobs
+After=php8.3-fpm.service
+[Service]
+Type=oneshot
+User=dcsswiki
+Group=dcsswiki
+WorkingDirectory=/srv/dcss-wiki/current
+ExecStart=/usr/bin/php maintenance/run.php runJobs --maxjobs=250 --maxtime=30 --memory-limit=256M --quiet
+Nice=10

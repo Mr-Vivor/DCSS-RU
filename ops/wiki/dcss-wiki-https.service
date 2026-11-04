@@ -1,0 +1,6 @@
+[Unit]
+Description=Enable HTTPS for wiki.dungeoncrawl.ru once DNS is ready
+After=network-online.target nginx.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/dcss-wiki-enable-https

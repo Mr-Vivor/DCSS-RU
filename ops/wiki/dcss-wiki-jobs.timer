@@ -1,0 +1,8 @@
+[Unit]
+Description=Run DCSS wiki jobs every minute
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=1min
+Persistent=true
+[Install]
+WantedBy=timers.target

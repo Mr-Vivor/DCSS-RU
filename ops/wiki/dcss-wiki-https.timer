@@ -1,0 +1,8 @@
+[Unit]
+Description=Retry DCSS wiki certificate setup while DNS propagates
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+Persistent=true
+[Install]
+WantedBy=timers.target
