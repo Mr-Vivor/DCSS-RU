@@ -1359,3 +1359,45 @@
 | deep elf zephyrmancer | глубинный эльф-аэромант |
 | deep elf high priest | верховный жрец глубинных эльфов |
 | deep elf master archer | глубинный эльф-мастер стрельбы |
+| orc | орк |
+| orc priest | орк-жрец |
+| orc wizard | орк-волшебник |
+| orc warrior | орк-воин |
+| orc knight | орк-рыцарь |
+| orc sorcerer | орк-колдун |
+| orc warlord | орк-полководец |
+| orc high priest | верховный жрец орков |
+| gnoll | гнолл |
+| gnoll sergeant | гнолл-сержант |
+| naga | нага |
+| gnoll bouda | гнолл-буда |
+| naga mage | нага-маг |
+| naga warrior | нага-воин |
+| naga ritualist | нага-ритуалист |
+| naga sharpshooter | нага-снайпер |
+| nagaraja | нагараджа |
+| salamander | саламандра |
+| salamander mystic | саламандра-мистик |
+| salamander tyrant | саламандра-тиран |
+| guardian serpent | змей-страж |
+| mana viper | гадюка маны |
+| anaconda | анаконда |
+| merfolk | русалка |
+| merfolk impaler | русалка-копейщица |
+| merfolk javelineer | русалка-метательница копий |
+| merfolk aquamancer | русалка-аквамант |
+| merfolk siren | русалка-сирена |
+| satyr | сатир |
+| faun | фавн |
+| spriggan | спригган |
+| spriggan berserker | спригган-берсерк |
+| spriggan druid | спригган-друид |
+| spriggan air mage | спригган-маг воздуха |
+| spriggan rider | спригган-всадник |
+| tengu | тэнгу |
+| tengu conjurer | тэнгу-разрушитель |
+| tengu warrior | тэнгу-воин |
+| tengu reaver | тэнгу-разоритель |
+| deep troll | глубинный тролль |
+| deep troll earth mage | глубинный тролль-маг земли |
+| deep troll shaman | глубинный тролль-шаман |

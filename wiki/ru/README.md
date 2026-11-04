@@ -22,15 +22,15 @@
 | `monster.ribbon_worm` | [Ленточный червь](pages/monster.ribbon_worm.md) | ribbon worm | draft |
 | `monster.endoplasm` | [Эндоплазма](pages/monster.endoplasm.md) | endoplasm | draft |
 | `monster.jelly` | [Желе](pages/monster.jelly.md) | jelly | draft |
-| `monster.orc` | [Орк](pages/monster.orc.md) | orc | draft |
-| `monster.orc_priest` | [Орк-жрец](pages/monster.orc_priest.md) | orc priest | draft |
-| `monster.orc_wizard` | [Орк-волшебник](pages/monster.orc_wizard.md) | orc wizard | draft |
-| `monster.orc_warrior` | [Орк-воин](pages/monster.orc_warrior.md) | orc warrior | draft |
-| `monster.orc_knight` | [Орк-рыцарь](pages/monster.orc_knight.md) | orc knight | draft |
-| `monster.orc_warlord` | [Орк-полководец](pages/monster.orc_warlord.md) | orc warlord | draft |
-| `monster.gnoll` | [Гнолл](pages/monster.gnoll.md) | gnoll | draft |
-| `monster.gnoll_bouda` | [Гнолл-буда](pages/monster.gnoll_bouda.md) | gnoll bouda | draft |
-| `monster.gnoll_sergeant` | [Гнолл-сержант](pages/monster.gnoll_sergeant.md) | gnoll sergeant | draft |
+| `monster.orc` | [Орк](pages/monster.orc.md) | orc | reviewed |
+| `monster.orc_priest` | [Орк-жрец](pages/monster.orc_priest.md) | orc priest | reviewed |
+| `monster.orc_wizard` | [Орк-волшебник](pages/monster.orc_wizard.md) | orc wizard | reviewed |
+| `monster.orc_warrior` | [Орк-воин](pages/monster.orc_warrior.md) | orc warrior | reviewed |
+| `monster.orc_knight` | [Орк-рыцарь](pages/monster.orc_knight.md) | orc knight | reviewed |
+| `monster.orc_warlord` | [Орк-полководец](pages/monster.orc_warlord.md) | orc warlord | reviewed |
+| `monster.gnoll` | [Гнолл](pages/monster.gnoll.md) | gnoll | reviewed |
+| `monster.gnoll_bouda` | [Гнолл-буда](pages/monster.gnoll_bouda.md) | gnoll bouda | reviewed |
+| `monster.gnoll_sergeant` | [Гнолл-сержант](pages/monster.gnoll_sergeant.md) | gnoll sergeant | reviewed |
 | `monster.ogre` | [Огр](pages/monster.ogre.md) | ogre | draft |
 | `monster.two_headed_ogre` | [Двухголовый огр](pages/monster.two_headed_ogre.md) | two-headed ogre | draft |
 | `monster.troll` | [Тролль](pages/monster.troll.md) | troll | draft |
@@ -65,7 +65,7 @@
 | `monster.basilisk` | [Василиск](pages/monster.basilisk.md) | basilisk | draft |
 | `monster.black_mamba` | [Чёрная мамба](pages/monster.black_mamba.md) | black mamba | draft |
 | `monster.water_moccasin` | [Водяной щитомордник](pages/monster.water_moccasin.md) | water moccasin | draft |
-| `monster.naga` | [Нага](pages/monster.naga.md) | naga | draft |
+| `monster.naga` | [Нага](pages/monster.naga.md) | naga | reviewed |
 | `monster.mummy` | [Мумия](pages/monster.mummy.md) | mummy | draft |
 | `monster.vampire` | [Вампир](pages/monster.vampire.md) | vampire | draft |
 | `monster.wight` | [Умертвие](pages/monster.wight.md) | wight | draft |
@@ -77,7 +77,7 @@
 | `monster.slime_creature` | [Слизистое существо](pages/monster.slime_creature.md) | slime creature | draft |
 | `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | draft |
 | `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | draft |
-| `monster.orc_sorcerer` | [Орк-колдун](pages/monster.orc_sorcerer.md) | orc sorcerer | draft |
+| `monster.orc_sorcerer` | [Орк-колдун](pages/monster.orc_sorcerer.md) | orc sorcerer | reviewed |
 | `monster.deep_elf_archer` | [Глубинный эльф-лучник](pages/monster.deep_elf_archer.md) | deep elf archer | reviewed |
 | `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | reviewed |
 | `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | reviewed |
@@ -86,7 +86,7 @@
 | `monster.frost_giant` | [Морозный великан](pages/monster.frost_giant.md) | frost giant | draft |
 | `monster.cyclops` | [Циклоп](pages/monster.cyclops.md) | cyclops | draft |
 | `monster.ettin` | [Эттин](pages/monster.ettin.md) | ettin | draft |
-| `monster.orc_high_priest` | [Верховный жрец орков](pages/monster.orc_high_priest.md) | orc high priest | draft |
+| `monster.orc_high_priest` | [Верховный жрец орков](pages/monster.orc_high_priest.md) | orc high priest | reviewed |
 | `monster.reaper` | [Жнец](pages/monster.reaper.md) | reaper | reviewed |
 | `monster.hellion` | [Адский демон](pages/monster.hellion.md) | hellion | reviewed |
 | `monster.sun_demon` | [Солнечный демон](pages/monster.sun_demon.md) | sun demon | reviewed |
@@ -297,3 +297,34 @@
 | `monster.deep_elf_zephyrmancer` | [Глубинный эльф-аэромант](pages/monster.deep_elf_zephyrmancer.md) | deep elf zephyrmancer | reviewed |
 | `monster.deep_elf_high_priest` | [Верховный жрец глубинных эльфов](pages/monster.deep_elf_high_priest.md) | deep elf high priest | reviewed |
 | `monster.deep_elf_master_archer` | [Глубинный эльф-мастер стрельбы](pages/monster.deep_elf_master_archer.md) | deep elf master archer | reviewed |
+| `monster.naga_mage` | [Нага-маг](pages/monster.naga_mage.md) | naga mage | reviewed |
+| `monster.naga_warrior` | [Нага-воин](pages/monster.naga_warrior.md) | naga warrior | reviewed |
+| `monster.naga_ritualist` | [Нага-ритуалист](pages/monster.naga_ritualist.md) | naga ritualist | reviewed |
+| `monster.naga_sharpshooter` | [Нага-снайпер](pages/monster.naga_sharpshooter.md) | naga sharpshooter | reviewed |
+| `monster.nagaraja` | [Нагараджа](pages/monster.nagaraja.md) | nagaraja | reviewed |
+| `monster.salamander` | [Саламандра](pages/monster.salamander.md) | salamander | reviewed |
+| `monster.salamander_mystic` | [Саламандра-мистик](pages/monster.salamander_mystic.md) | salamander mystic | reviewed |
+| `monster.salamander_tyrant` | [Саламандра-тиран](pages/monster.salamander_tyrant.md) | salamander tyrant | reviewed |
+| `monster.guardian_serpent` | [Змей-страж](pages/monster.guardian_serpent.md) | guardian serpent | reviewed |
+| `monster.mana_viper` | [Гадюка маны](pages/monster.mana_viper.md) | mana viper | reviewed |
+| `monster.anaconda` | [Анаконда](pages/monster.anaconda.md) | anaconda | reviewed |
+| `monster.merfolk` | [Русалка](pages/monster.merfolk.md) | merfolk | reviewed |
+| `monster.merfolk_impaler` | [Русалка-копейщица](pages/monster.merfolk_impaler.md) | merfolk impaler | reviewed |
+| `monster.merfolk_javelineer` | [Русалка-метательница копий](pages/monster.merfolk_javelineer.md) | merfolk javelineer | reviewed |
+| `monster.merfolk_aquamancer` | [Русалка-аквамант](pages/monster.merfolk_aquamancer.md) | merfolk aquamancer | reviewed |
+| `monster.merfolk_siren` | [Русалка-сирена](pages/monster.merfolk_siren.md) | merfolk siren | reviewed |
+| `monster.satyr` | [Сатир](pages/monster.satyr.md) | satyr | reviewed |
+| `monster.faun` | [Фавн](pages/monster.faun.md) | faun | reviewed |
+| `monster.spriggan` | [Спригган](pages/monster.spriggan.md) | spriggan | reviewed |
+| `monster.spriggan_berserker` | [Спригган-берсерк](pages/monster.spriggan_berserker.md) | spriggan berserker | reviewed |
+| `monster.spriggan_druid` | [Спригган-друид](pages/monster.spriggan_druid.md) | spriggan druid | reviewed |
+| `monster.spriggan_air_mage` | [Спригган-маг воздуха](pages/monster.spriggan_air_mage.md) | spriggan air mage | reviewed |
+| `monster.spriggan_rider` | [Спригган-всадник](pages/monster.spriggan_rider.md) | spriggan rider | reviewed |
+| `monster.spriggan_defender` | [Спригган-защитник](pages/monster.spriggan_defender.md) | spriggan defender | reviewed |
+| `monster.tengu` | [Тэнгу](pages/monster.tengu.md) | tengu | reviewed |
+| `monster.tengu_conjurer` | [Тэнгу-разрушитель](pages/monster.tengu_conjurer.md) | tengu conjurer | reviewed |
+| `monster.tengu_warrior` | [Тэнгу-воин](pages/monster.tengu_warrior.md) | tengu warrior | reviewed |
+| `monster.tengu_reaver` | [Тэнгу-разоритель](pages/monster.tengu_reaver.md) | tengu reaver | reviewed |
+| `monster.deep_troll` | [Глубинный тролль](pages/monster.deep_troll.md) | deep troll | reviewed |
+| `monster.deep_troll_earth_mage` | [Глубинный тролль-маг земли](pages/monster.deep_troll_earth_mage.md) | deep troll earth mage | reviewed |
+| `monster.deep_troll_shaman` | [Глубинный тролль-шаман](pages/monster.deep_troll_shaman.md) | deep troll shaman | reviewed |

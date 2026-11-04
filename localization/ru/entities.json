@@ -400,9 +400,10 @@
         "acc": "орков",
         "ins": "орками",
         "prep": "орках"
-      }
+      },
+      "counted_few": "орка"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_priest",
@@ -427,9 +428,10 @@
         "acc": "орков-жрецов",
         "ins": "орками-жрецами",
         "prep": "орках-жрецах"
-      }
+      },
+      "counted_few": "орка-жреца"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_wizard",
@@ -454,9 +456,10 @@
         "acc": "орков-волшебников",
         "ins": "орками-волшебниками",
         "prep": "орках-волшебниках"
-      }
+      },
+      "counted_few": "орка-волшебника"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_warrior",
@@ -481,9 +484,10 @@
         "acc": "орков-воинов",
         "ins": "орками-воинами",
         "prep": "орках-воинах"
-      }
+      },
+      "counted_few": "орка-воина"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_knight",
@@ -508,9 +512,10 @@
         "acc": "орков-рыцарей",
         "ins": "орками-рыцарями",
         "prep": "орках-рыцарях"
-      }
+      },
+      "counted_few": "орка-рыцаря"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_warlord",
@@ -535,9 +540,10 @@
         "acc": "орков-полководцев",
         "ins": "орками-полководцами",
         "prep": "орках-полководцах"
-      }
+      },
+      "counted_few": "орка-полководца"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.gnoll",
@@ -562,9 +568,10 @@
         "acc": "гноллов",
         "ins": "гноллами",
         "prep": "гноллах"
-      }
+      },
+      "counted_few": "гнолла"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.gnoll_bouda",
@@ -578,20 +585,21 @@
         "nom": "гнолл-буда",
         "gen": "гнолла-буды",
         "dat": "гноллу-буде",
-        "acc": "гнолла-буды",
+        "acc": "гнолла-буду",
         "ins": "гноллом-будой",
         "prep": "гнолле-буде"
       },
       "plural": {
-        "nom": "гнолл-буда",
-        "gen": "гнолл-буда",
-        "dat": "гнолл-буда",
-        "acc": "гнолл-буда",
-        "ins": "гнолл-буда",
-        "prep": "гнолл-буда"
-      }
+        "nom": "гноллы-буды",
+        "gen": "гноллов-буд",
+        "dat": "гноллам-будам",
+        "acc": "гноллов-буд",
+        "ins": "гноллами-будами",
+        "prep": "гноллах-будах"
+      },
+      "counted_few": "гнолла-буды"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.gnoll_sergeant",
@@ -616,9 +624,10 @@
         "acc": "гноллов-сержантов",
         "ins": "гноллами-сержантами",
         "prep": "гноллах-сержантах"
-      }
+      },
+      "counted_few": "гнолла-сержанта"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ogre",
@@ -1562,9 +1571,10 @@
         "acc": "наг",
         "ins": "нагами",
         "prep": "нагах"
-      }
+      },
+      "counted_few": "наги"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.mummy",
@@ -1887,9 +1897,10 @@
         "acc": "орков-колдунов",
         "ins": "орками-колдунами",
         "prep": "орках-колдунах"
-      }
+      },
+      "counted_few": "орка-колдуна"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.deep_elf_archer",
@@ -2133,9 +2144,10 @@
         "acc": "верховных жрецов орков",
         "ins": "верховными жрецами орков",
         "prep": "верховных жрецах орков"
-      }
+      },
+      "counted_few": "верховных жреца орков"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.reaper",
@@ -7906,6 +7918,874 @@
         "prep": "глубинных эльфах-мастерах стрельбы"
       },
       "counted_few": "глубинных эльфа-мастера стрельбы"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.naga_mage",
+    "kind": "monster",
+    "en": "naga mage",
+    "en_plural": "naga magi",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "нага-маг",
+        "gen": "наги-мага",
+        "dat": "наге-магу",
+        "acc": "нагу-мага",
+        "ins": "нагой-магом",
+        "prep": "наге-маге"
+      },
+      "plural": {
+        "nom": "наги-маги",
+        "gen": "наг-магов",
+        "dat": "нагам-магам",
+        "acc": "наг-магов",
+        "ins": "нагами-магами",
+        "prep": "нагах-магах"
+      },
+      "counted_few": "наги-мага"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.naga_warrior",
+    "kind": "monster",
+    "en": "naga warrior",
+    "en_plural": "naga warriors",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "нага-воин",
+        "gen": "наги-воина",
+        "dat": "наге-воину",
+        "acc": "нагу-воина",
+        "ins": "нагой-воином",
+        "prep": "наге-воине"
+      },
+      "plural": {
+        "nom": "наги-воины",
+        "gen": "наг-воинов",
+        "dat": "нагам-воинам",
+        "acc": "наг-воинов",
+        "ins": "нагами-воинами",
+        "prep": "нагах-воинах"
+      },
+      "counted_few": "наги-воина"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.naga_ritualist",
+    "kind": "monster",
+    "en": "naga ritualist",
+    "en_plural": "naga ritualists",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "нага-ритуалист",
+        "gen": "наги-ритуалиста",
+        "dat": "наге-ритуалисту",
+        "acc": "нагу-ритуалиста",
+        "ins": "нагой-ритуалистом",
+        "prep": "наге-ритуалисте"
+      },
+      "plural": {
+        "nom": "наги-ритуалисты",
+        "gen": "наг-ритуалистов",
+        "dat": "нагам-ритуалистам",
+        "acc": "наг-ритуалистов",
+        "ins": "нагами-ритуалистами",
+        "prep": "нагах-ритуалистах"
+      },
+      "counted_few": "наги-ритуалиста"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.naga_sharpshooter",
+    "kind": "monster",
+    "en": "naga sharpshooter",
+    "en_plural": "naga sharpshooters",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "нага-снайпер",
+        "gen": "наги-снайпера",
+        "dat": "наге-снайперу",
+        "acc": "нагу-снайпера",
+        "ins": "нагой-снайпером",
+        "prep": "наге-снайпере"
+      },
+      "plural": {
+        "nom": "наги-снайперы",
+        "gen": "наг-снайперов",
+        "dat": "нагам-снайперам",
+        "acc": "наг-снайперов",
+        "ins": "нагами-снайперами",
+        "prep": "нагах-снайперах"
+      },
+      "counted_few": "наги-снайпера"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.nagaraja",
+    "kind": "monster",
+    "en": "nagaraja",
+    "en_plural": "nagarajas",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "нагараджа",
+        "gen": "нагараджи",
+        "dat": "нагарадже",
+        "acc": "нагараджу",
+        "ins": "нагараджей",
+        "prep": "нагарадже"
+      },
+      "plural": {
+        "nom": "нагараджи",
+        "gen": "нагарадж",
+        "dat": "нагараджам",
+        "acc": "нагарадж",
+        "ins": "нагараджами",
+        "prep": "нагараджах"
+      },
+      "counted_few": "нагараджи"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.salamander",
+    "kind": "monster",
+    "en": "salamander",
+    "en_plural": "salamanders",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "саламандра",
+        "gen": "саламандры",
+        "dat": "саламандре",
+        "acc": "саламандру",
+        "ins": "саламандрой",
+        "prep": "саламандре"
+      },
+      "plural": {
+        "nom": "саламандры",
+        "gen": "саламандр",
+        "dat": "саламандрам",
+        "acc": "саламандр",
+        "ins": "саламандрами",
+        "prep": "саламандрах"
+      },
+      "counted_few": "саламандры"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.salamander_mystic",
+    "kind": "monster",
+    "en": "salamander mystic",
+    "en_plural": "salamander mystics",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "саламандра-мистик",
+        "gen": "саламандры-мистика",
+        "dat": "саламандре-мистику",
+        "acc": "саламандру-мистика",
+        "ins": "саламандрой-мистиком",
+        "prep": "саламандре-мистике"
+      },
+      "plural": {
+        "nom": "саламандры-мистики",
+        "gen": "саламандр-мистиков",
+        "dat": "саламандрам-мистикам",
+        "acc": "саламандр-мистиков",
+        "ins": "саламандрами-мистиками",
+        "prep": "саламандрах-мистиках"
+      },
+      "counted_few": "саламандры-мистика"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.salamander_tyrant",
+    "kind": "monster",
+    "en": "salamander tyrant",
+    "en_plural": "salamander tyrants",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "саламандра-тиран",
+        "gen": "саламандры-тирана",
+        "dat": "саламандре-тирану",
+        "acc": "саламандру-тирана",
+        "ins": "саламандрой-тираном",
+        "prep": "саламандре-тиране"
+      },
+      "plural": {
+        "nom": "саламандры-тираны",
+        "gen": "саламандр-тиранов",
+        "dat": "саламандрам-тиранам",
+        "acc": "саламандр-тиранов",
+        "ins": "саламандрами-тиранами",
+        "prep": "саламандрах-тиранах"
+      },
+      "counted_few": "саламандры-тирана"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.guardian_serpent",
+    "kind": "monster",
+    "en": "guardian serpent",
+    "en_plural": "guardian serpents",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "змей-страж",
+        "gen": "змея-стража",
+        "dat": "змею-стражу",
+        "acc": "змея-стража",
+        "ins": "змеем-стражем",
+        "prep": "змее-страже"
+      },
+      "plural": {
+        "nom": "змеи-стражи",
+        "gen": "змеев-стражей",
+        "dat": "змеям-стражам",
+        "acc": "змеев-стражей",
+        "ins": "змеями-стражами",
+        "prep": "змеях-стражах"
+      },
+      "counted_few": "змея-стража"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.mana_viper",
+    "kind": "monster",
+    "en": "mana viper",
+    "en_plural": "mana vipers",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "гадюка маны",
+        "gen": "гадюки маны",
+        "dat": "гадюке маны",
+        "acc": "гадюку маны",
+        "ins": "гадюкой маны",
+        "prep": "гадюке маны"
+      },
+      "plural": {
+        "nom": "гадюки маны",
+        "gen": "гадюк маны",
+        "dat": "гадюкам маны",
+        "acc": "гадюк маны",
+        "ins": "гадюками маны",
+        "prep": "гадюках маны"
+      },
+      "counted_few": "гадюки маны"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.anaconda",
+    "kind": "monster",
+    "en": "anaconda",
+    "en_plural": "anacondas",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "анаконда",
+        "gen": "анаконды",
+        "dat": "анаконде",
+        "acc": "анаконду",
+        "ins": "анакондой",
+        "prep": "анаконде"
+      },
+      "plural": {
+        "nom": "анаконды",
+        "gen": "анаконд",
+        "dat": "анакондам",
+        "acc": "анаконд",
+        "ins": "анакондами",
+        "prep": "анакондах"
+      },
+      "counted_few": "анаконды"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk",
+    "kind": "monster",
+    "en": "merfolk",
+    "en_plural": "merfolk",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "русалка",
+        "gen": "русалки",
+        "dat": "русалке",
+        "acc": "русалку",
+        "ins": "русалкой",
+        "prep": "русалке"
+      },
+      "plural": {
+        "nom": "русалки",
+        "gen": "русалок",
+        "dat": "русалкам",
+        "acc": "русалок",
+        "ins": "русалками",
+        "prep": "русалках"
+      },
+      "counted_few": "русалки"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk_impaler",
+    "kind": "monster",
+    "en": "merfolk impaler",
+    "en_plural": "merfolk impalers",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "русалка-копейщица",
+        "gen": "русалки-копейщицы",
+        "dat": "русалке-копейщице",
+        "acc": "русалку-копейщицу",
+        "ins": "русалкой-копейщицей",
+        "prep": "русалке-копейщице"
+      },
+      "plural": {
+        "nom": "русалки-копейщицы",
+        "gen": "русалок-копейщиц",
+        "dat": "русалкам-копейщицам",
+        "acc": "русалок-копейщиц",
+        "ins": "русалками-копейщицами",
+        "prep": "русалках-копейщицах"
+      },
+      "counted_few": "русалки-копейщицы"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk_javelineer",
+    "kind": "monster",
+    "en": "merfolk javelineer",
+    "en_plural": "merfolk javelineers",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "русалка-метательница копий",
+        "gen": "русалки-метательницы копий",
+        "dat": "русалке-метательнице копий",
+        "acc": "русалку-метательницу копий",
+        "ins": "русалкой-метательницей копий",
+        "prep": "русалке-метательнице копий"
+      },
+      "plural": {
+        "nom": "русалки-метательницы копий",
+        "gen": "русалок-метательниц копий",
+        "dat": "русалкам-метательницам копий",
+        "acc": "русалок-метательниц копий",
+        "ins": "русалками-метательницами копий",
+        "prep": "русалках-метательницах копий"
+      },
+      "counted_few": "русалки-метательницы копий"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk_aquamancer",
+    "kind": "monster",
+    "en": "merfolk aquamancer",
+    "en_plural": "merfolk aquamancers",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "русалка-аквамант",
+        "gen": "русалки-акваманта",
+        "dat": "русалке-акваманту",
+        "acc": "русалку-акваманта",
+        "ins": "русалкой-аквамантом",
+        "prep": "русалке-акваманте"
+      },
+      "plural": {
+        "nom": "русалки-акваманты",
+        "gen": "русалок-аквамантов",
+        "dat": "русалкам-аквамантам",
+        "acc": "русалок-аквамантов",
+        "ins": "русалками-аквамантами",
+        "prep": "русалках-аквамантах"
+      },
+      "counted_few": "русалки-акваманта"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.merfolk_siren",
+    "kind": "monster",
+    "en": "merfolk siren",
+    "en_plural": "merfolk sirens",
+    "gender": "f",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "русалка-сирена",
+        "gen": "русалки-сирены",
+        "dat": "русалке-сирене",
+        "acc": "русалку-сирену",
+        "ins": "русалкой-сиреной",
+        "prep": "русалке-сирене"
+      },
+      "plural": {
+        "nom": "русалки-сирены",
+        "gen": "русалок-сирен",
+        "dat": "русалкам-сиренам",
+        "acc": "русалок-сирен",
+        "ins": "русалками-сиренами",
+        "prep": "русалках-сиренах"
+      },
+      "counted_few": "русалки-сирены"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.satyr",
+    "kind": "monster",
+    "en": "satyr",
+    "en_plural": "satyrs",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "сатир",
+        "gen": "сатира",
+        "dat": "сатиру",
+        "acc": "сатира",
+        "ins": "сатиром",
+        "prep": "сатире"
+      },
+      "plural": {
+        "nom": "сатиры",
+        "gen": "сатиров",
+        "dat": "сатирам",
+        "acc": "сатиров",
+        "ins": "сатирами",
+        "prep": "сатирах"
+      },
+      "counted_few": "сатира"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.faun",
+    "kind": "monster",
+    "en": "faun",
+    "en_plural": "fauns",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "фавн",
+        "gen": "фавна",
+        "dat": "фавну",
+        "acc": "фавна",
+        "ins": "фавном",
+        "prep": "фавне"
+      },
+      "plural": {
+        "nom": "фавны",
+        "gen": "фавнов",
+        "dat": "фавнам",
+        "acc": "фавнов",
+        "ins": "фавнами",
+        "prep": "фавнах"
+      },
+      "counted_few": "фавна"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan",
+    "kind": "monster",
+    "en": "spriggan",
+    "en_plural": "spriggans",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган",
+        "gen": "сприггана",
+        "dat": "сприггану",
+        "acc": "сприггана",
+        "ins": "спригганом",
+        "prep": "сприггане"
+      },
+      "plural": {
+        "nom": "спригганы",
+        "gen": "спригганов",
+        "dat": "спригганам",
+        "acc": "спригганов",
+        "ins": "спригганами",
+        "prep": "спригганах"
+      },
+      "counted_few": "сприггана"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan_berserker",
+    "kind": "monster",
+    "en": "spriggan berserker",
+    "en_plural": "spriggan berserkers",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган-берсерк",
+        "gen": "сприггана-берсерка",
+        "dat": "сприггану-берсерку",
+        "acc": "сприггана-берсерка",
+        "ins": "спригганом-берсерком",
+        "prep": "сприггане-берсерке"
+      },
+      "plural": {
+        "nom": "спригганы-берсерки",
+        "gen": "спригганов-берсерков",
+        "dat": "спригганам-берсеркам",
+        "acc": "спригганов-берсерков",
+        "ins": "спригганами-берсерками",
+        "prep": "спригганах-берсерках"
+      },
+      "counted_few": "сприггана-берсерка"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan_druid",
+    "kind": "monster",
+    "en": "spriggan druid",
+    "en_plural": "spriggan druids",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган-друид",
+        "gen": "сприггана-друида",
+        "dat": "сприггану-друиду",
+        "acc": "сприггана-друида",
+        "ins": "спригганом-друидом",
+        "prep": "сприггане-друиде"
+      },
+      "plural": {
+        "nom": "спригганы-друиды",
+        "gen": "спригганов-друидов",
+        "dat": "спригганам-друидам",
+        "acc": "спригганов-друидов",
+        "ins": "спригганами-друидами",
+        "prep": "спригганах-друидах"
+      },
+      "counted_few": "сприггана-друида"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan_air_mage",
+    "kind": "monster",
+    "en": "spriggan air mage",
+    "en_plural": "spriggan air magi",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган-маг воздуха",
+        "gen": "сприггана-мага воздуха",
+        "dat": "сприггану-магу воздуха",
+        "acc": "сприггана-мага воздуха",
+        "ins": "спригганом-магом воздуха",
+        "prep": "сприггане-маге воздуха"
+      },
+      "plural": {
+        "nom": "спригганы-маги воздуха",
+        "gen": "спригганов-магов воздуха",
+        "dat": "спригганам-магам воздуха",
+        "acc": "спригганов-магов воздуха",
+        "ins": "спригганами-магами воздуха",
+        "prep": "спригганах-магах воздуха"
+      },
+      "counted_few": "сприггана-мага воздуха"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan_rider",
+    "kind": "monster",
+    "en": "spriggan rider",
+    "en_plural": "spriggan riders",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган-всадник",
+        "gen": "сприггана-всадника",
+        "dat": "сприггану-всаднику",
+        "acc": "сприггана-всадника",
+        "ins": "спригганом-всадником",
+        "prep": "сприггане-всаднике"
+      },
+      "plural": {
+        "nom": "спригганы-всадники",
+        "gen": "спригганов-всадников",
+        "dat": "спригганам-всадникам",
+        "acc": "спригганов-всадников",
+        "ins": "спригганами-всадниками",
+        "prep": "спригганах-всадниках"
+      },
+      "counted_few": "сприггана-всадника"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.spriggan_defender",
+    "kind": "monster",
+    "en": "spriggan defender",
+    "en_plural": "spriggan defenders",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "спригган-защитник",
+        "gen": "сприггана-защитника",
+        "dat": "сприггану-защитнику",
+        "acc": "сприггана-защитника",
+        "ins": "спригганом-защитником",
+        "prep": "сприггане-защитнике"
+      },
+      "plural": {
+        "nom": "спригганы-защитники",
+        "gen": "спригганов-защитников",
+        "dat": "спригганам-защитникам",
+        "acc": "спригганов-защитников",
+        "ins": "спригганами-защитниками",
+        "prep": "спригганах-защитниках"
+      },
+      "counted_few": "сприггана-защитника"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.tengu",
+    "kind": "monster",
+    "en": "tengu",
+    "en_plural": "tengu",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "тэнгу",
+        "gen": "тэнгу",
+        "dat": "тэнгу",
+        "acc": "тэнгу",
+        "ins": "тэнгу",
+        "prep": "тэнгу"
+      },
+      "plural": {
+        "nom": "тэнгу",
+        "gen": "тэнгу",
+        "dat": "тэнгу",
+        "acc": "тэнгу",
+        "ins": "тэнгу",
+        "prep": "тэнгу"
+      },
+      "counted_few": "тэнгу"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.tengu_conjurer",
+    "kind": "monster",
+    "en": "tengu conjurer",
+    "en_plural": "tengu conjurers",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "тэнгу-разрушитель",
+        "gen": "тэнгу-разрушителя",
+        "dat": "тэнгу-разрушителю",
+        "acc": "тэнгу-разрушителя",
+        "ins": "тэнгу-разрушителем",
+        "prep": "тэнгу-разрушителе"
+      },
+      "plural": {
+        "nom": "тэнгу-разрушители",
+        "gen": "тэнгу-разрушителей",
+        "dat": "тэнгу-разрушителям",
+        "acc": "тэнгу-разрушителей",
+        "ins": "тэнгу-разрушителями",
+        "prep": "тэнгу-разрушителях"
+      },
+      "counted_few": "тэнгу-разрушителя"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.tengu_warrior",
+    "kind": "monster",
+    "en": "tengu warrior",
+    "en_plural": "tengu warriors",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "тэнгу-воин",
+        "gen": "тэнгу-воина",
+        "dat": "тэнгу-воину",
+        "acc": "тэнгу-воина",
+        "ins": "тэнгу-воином",
+        "prep": "тэнгу-воине"
+      },
+      "plural": {
+        "nom": "тэнгу-воины",
+        "gen": "тэнгу-воинов",
+        "dat": "тэнгу-воинам",
+        "acc": "тэнгу-воинов",
+        "ins": "тэнгу-воинами",
+        "prep": "тэнгу-воинах"
+      },
+      "counted_few": "тэнгу-воина"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.tengu_reaver",
+    "kind": "monster",
+    "en": "tengu reaver",
+    "en_plural": "tengu reavers",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "тэнгу-разоритель",
+        "gen": "тэнгу-разорителя",
+        "dat": "тэнгу-разорителю",
+        "acc": "тэнгу-разорителя",
+        "ins": "тэнгу-разорителем",
+        "prep": "тэнгу-разорителе"
+      },
+      "plural": {
+        "nom": "тэнгу-разорители",
+        "gen": "тэнгу-разорителей",
+        "dat": "тэнгу-разорителям",
+        "acc": "тэнгу-разорителей",
+        "ins": "тэнгу-разорителями",
+        "prep": "тэнгу-разорителях"
+      },
+      "counted_few": "тэнгу-разорителя"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.deep_troll",
+    "kind": "monster",
+    "en": "deep troll",
+    "en_plural": "deep trolls",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "глубинный тролль",
+        "gen": "глубинного тролля",
+        "dat": "глубинному троллю",
+        "acc": "глубинного тролля",
+        "ins": "глубинным троллем",
+        "prep": "глубинном тролле"
+      },
+      "plural": {
+        "nom": "глубинные тролли",
+        "gen": "глубинных троллей",
+        "dat": "глубинным троллям",
+        "acc": "глубинных троллей",
+        "ins": "глубинными троллями",
+        "prep": "глубинных троллях"
+      },
+      "counted_few": "глубинных тролля"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.deep_troll_earth_mage",
+    "kind": "monster",
+    "en": "deep troll earth mage",
+    "en_plural": "deep troll earth magi",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "глубинный тролль-маг земли",
+        "gen": "глубинного тролля-мага земли",
+        "dat": "глубинному троллю-магу земли",
+        "acc": "глубинного тролля-мага земли",
+        "ins": "глубинным троллем-магом земли",
+        "prep": "глубинном тролле-маге земли"
+      },
+      "plural": {
+        "nom": "глубинные тролли-маги земли",
+        "gen": "глубинных троллей-магов земли",
+        "dat": "глубинным троллям-магам земли",
+        "acc": "глубинных троллей-магов земли",
+        "ins": "глубинными троллями-магами земли",
+        "prep": "глубинных троллях-магах земли"
+      },
+      "counted_few": "глубинных тролля-мага земли"
+    },
+    "review": "reviewed"
+  },
+  {
+    "id": "monster.deep_troll_shaman",
+    "kind": "monster",
+    "en": "deep troll shaman",
+    "en_plural": "deep troll shamans",
+    "gender": "m",
+    "animate": true,
+    "forms": {
+      "singular": {
+        "nom": "глубинный тролль-шаман",
+        "gen": "глубинного тролля-шамана",
+        "dat": "глубинному троллю-шаману",
+        "acc": "глубинного тролля-шамана",
+        "ins": "глубинным троллем-шаманом",
+        "prep": "глубинном тролле-шамане"
+      },
+      "plural": {
+        "nom": "глубинные тролли-шаманы",
+        "gen": "глубинных троллей-шаманов",
+        "dat": "глубинным троллям-шаманам",
+        "acc": "глубинных троллей-шаманов",
+        "ins": "глубинными троллями-шаманами",
+        "prep": "глубинных троллях-шаманах"
+      },
+      "counted_few": "глубинных тролля-шамана"
     },
     "review": "reviewed"
   }
