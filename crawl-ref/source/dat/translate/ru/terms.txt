@@ -4399,6 +4399,9 @@ a acid blob
 a acid dragon scales
 чешуя кислотного дракона
 %%%%
+a amulet
+амулет
+%%%%
 a amulet of Cekugob
 амулет секугоба
 %%%%
@@ -4431,6 +4434,12 @@ a amulet of magic regeneration
 %%%%
 a amulet of nothing
 амулет без свойств
+%%%%
+a amulet of reflection
+амулет отражения
+%%%%
+a amulet of regeneration
+амулет регенерации
 %%%%
 a amulet of the Air
 амулет воздуха
@@ -5590,20 +5599,65 @@ a platinum paragon
 a plutonium sword
 плутониевый меч
 %%%%
+a potion
+зелье
+%%%%
+a potion of ambrosia
+зелье амброзии
+%%%%
+a potion of attraction
+зелье притяжения
+%%%%
+a potion of berserk rage
+зелье ярости
+%%%%
 a potion of blood
 зелье крови
 %%%%
 a potion of brilliance
 зелье гениальности
 %%%%
+a potion of cancellation
+зелье отмены
+%%%%
+a potion of curing
+зелье исцеления
+%%%%
+a potion of enlightenment
+зелье просветления
+%%%%
 a potion of experience
 зелье опыта
+%%%%
+a potion of haste
+зелье ускорения
+%%%%
+a potion of heal wounds
+зелье лечения ран
+%%%%
+a potion of invisibility
+зелье невидимости
+%%%%
+a potion of lignification
+зелье одревеснения
+%%%%
+a potion of magic
+зелье магии
+%%%%
+a potion of might
+зелье мощи
 %%%%
 a potion of mist
 зелье тумана
 %%%%
 a potion of moonshine
 зелье самогона
+%%%%
+a potion of mutation
+зелье мутации
+%%%%
+a potion of resistance
+зелье сопротивления
 %%%%
 a prismatic gem
 призматический самоцвет
@@ -5638,11 +5692,29 @@ a riddle talisman
 a rimehorn talisman
 талисман морозного рога
 %%%%
+a ring
+кольцо
+%%%%
 a ring of Shadows
 кольцо теней
 %%%%
+a ring of dexterity
+кольцо ловкости
+%%%%
+a ring of evasion
+кольцо уклонения
+%%%%
+a ring of fire
+кольцо огня
+%%%%
 a ring of flight
 кольцо полёта
+%%%%
+a ring of ice
+кольцо льда
+%%%%
+a ring of intelligence
+кольцо интеллекта
 %%%%
 a ring of magical power
 кольцо запаса магии
@@ -5652,6 +5724,9 @@ a ring of poison resistance
 %%%%
 a ring of positive energy
 кольцо положительной энергии
+%%%%
+a ring of protection
+кольцо защиты
 %%%%
 a ring of protection from cold
 кольцо защиты от холода
@@ -5667,6 +5742,9 @@ a ring of see invisible
 %%%%
 a ring of slaying
 кольцо боевого мастерства
+%%%%
+a ring of strength
+кольцо силы
 %%%%
 a ring of the Hare
 кольцо зайца
@@ -5761,17 +5839,65 @@ a sceptre of Torment
 a scimitar of Flaming Death
 скимитар пылающей смерти
 %%%%
+a scroll
+свиток
+%%%%
+a scroll of acquirement
+свиток приобретения
+%%%%
 a scroll of amnesia
 свиток амнезии
+%%%%
+a scroll of blinking
+свиток скачка
+%%%%
+a scroll of brand weapon
+свиток наделения оружия свойством
 %%%%
 a scroll of butterflies
 свиток бабочек
 %%%%
+a scroll of enchant armour
+свиток зачарования доспехов
+%%%%
+a scroll of enchant weapon
+свиток зачарования оружия
+%%%%
+a scroll of fear
+свиток страха
+%%%%
+a scroll of fog
+свиток тумана
+%%%%
+a scroll of identify
+свиток опознания
+%%%%
+a scroll of immolation
+свиток воспламенения
+%%%%
 a scroll of noise
 свиток шума
 %%%%
+a scroll of poison
+свиток яда
+%%%%
+a scroll of revelation
+свиток откровения
+%%%%
+a scroll of silence
+свиток тишины
+%%%%
 a scroll of summoning
 свиток призыва
+%%%%
+a scroll of teleportation
+свиток телепортации
+%%%%
+a scroll of torment
+свиток мучения
+%%%%
+a scroll of vulnerability
+свиток уязвимости
 %%%%
 a scythe
 коса
@@ -6103,11 +6229,32 @@ a void ooze
 a walking alembic
 шагающий перегонный куб
 %%%%
+a wand of acid
+палочка кислоты
+%%%%
 a wand of charming
 палочка очарования
 %%%%
+a wand of digging
+палочка копания
+%%%%
+a wand of flame
+палочка пламени
+%%%%
+a wand of iceblast
+палочка ледяного взрыва
+%%%%
+a wand of light
+палочка света
+%%%%
 a wand of mindburst
 палочка взрыва разума
+%%%%
+a wand of paralysis
+палочка паралича
+%%%%
+a wand of polymorph
+палочка превращения
 %%%%
 a wand of quicksilver
 палочка ртути
@@ -6154,6 +6301,9 @@ acid blob
 acid dragon scales
 чешуя кислотного дракона
 %%%%
+amulet
+амулет
+%%%%
 amulet of Cekugob
 амулет Секугоба
 %%%%
@@ -6186,6 +6336,12 @@ amulet of magic regeneration
 %%%%
 amulet of nothing
 амулет без свойств
+%%%%
+amulet of reflection
+амулет отражения
+%%%%
+amulet of regeneration
+амулет регенерации
 %%%%
 amulet of the Air
 амулет Воздуха
@@ -7342,20 +7498,65 @@ platinum paragon
 plutonium sword
 плутониевый меч
 %%%%
+potion
+зелье
+%%%%
+potion of ambrosia
+зелье амброзии
+%%%%
+potion of attraction
+зелье притяжения
+%%%%
+potion of berserk rage
+зелье ярости
+%%%%
 potion of blood
 зелье крови
 %%%%
 potion of brilliance
 зелье гениальности
 %%%%
+potion of cancellation
+зелье отмены
+%%%%
+potion of curing
+зелье исцеления
+%%%%
+potion of enlightenment
+зелье просветления
+%%%%
 potion of experience
 зелье опыта
+%%%%
+potion of haste
+зелье ускорения
+%%%%
+potion of heal wounds
+зелье лечения ран
+%%%%
+potion of invisibility
+зелье невидимости
+%%%%
+potion of lignification
+зелье одревеснения
+%%%%
+potion of magic
+зелье магии
+%%%%
+potion of might
+зелье мощи
 %%%%
 potion of mist
 зелье тумана
 %%%%
 potion of moonshine
 зелье самогона
+%%%%
+potion of mutation
+зелье мутации
+%%%%
+potion of resistance
+зелье сопротивления
 %%%%
 prismatic gem
 призматический самоцвет
@@ -7390,11 +7591,29 @@ riddle talisman
 rimehorn talisman
 талисман морозного рога
 %%%%
+ring
+кольцо
+%%%%
 ring of Shadows
 кольцо Теней
 %%%%
+ring of dexterity
+кольцо ловкости
+%%%%
+ring of evasion
+кольцо уклонения
+%%%%
+ring of fire
+кольцо огня
+%%%%
 ring of flight
 кольцо полёта
+%%%%
+ring of ice
+кольцо льда
+%%%%
+ring of intelligence
+кольцо интеллекта
 %%%%
 ring of magical power
 кольцо запаса магии
@@ -7404,6 +7623,9 @@ ring of poison resistance
 %%%%
 ring of positive energy
 кольцо положительной энергии
+%%%%
+ring of protection
+кольцо защиты
 %%%%
 ring of protection from cold
 кольцо защиты от холода
@@ -7419,6 +7641,9 @@ ring of see invisible
 %%%%
 ring of slaying
 кольцо боевого мастерства
+%%%%
+ring of strength
+кольцо силы
 %%%%
 ring of the Hare
 кольцо Зайца
@@ -7513,17 +7738,65 @@ sceptre of Torment
 scimitar of Flaming Death
 скимитар Пылающей смерти
 %%%%
+scroll
+свиток
+%%%%
+scroll of acquirement
+свиток приобретения
+%%%%
 scroll of amnesia
 свиток амнезии
+%%%%
+scroll of blinking
+свиток скачка
+%%%%
+scroll of brand weapon
+свиток наделения оружия свойством
 %%%%
 scroll of butterflies
 свиток бабочек
 %%%%
+scroll of enchant armour
+свиток зачарования доспехов
+%%%%
+scroll of enchant weapon
+свиток зачарования оружия
+%%%%
+scroll of fear
+свиток страха
+%%%%
+scroll of fog
+свиток тумана
+%%%%
+scroll of identify
+свиток опознания
+%%%%
+scroll of immolation
+свиток воспламенения
+%%%%
 scroll of noise
 свиток шума
 %%%%
+scroll of poison
+свиток яда
+%%%%
+scroll of revelation
+свиток откровения
+%%%%
+scroll of silence
+свиток тишины
+%%%%
 scroll of summoning
 свиток призыва
+%%%%
+scroll of teleportation
+свиток телепортации
+%%%%
+scroll of torment
+свиток мучения
+%%%%
+scroll of vulnerability
+свиток уязвимости
 %%%%
 scythe
 коса
@@ -9973,6 +10246,9 @@ the acid blob
 the acid dragon scales
 чешуя кислотного дракона
 %%%%
+the amulet
+амулет
+%%%%
 the amulet of Cekugob
 амулет секугоба
 %%%%
@@ -10005,6 +10281,12 @@ the amulet of magic regeneration
 %%%%
 the amulet of nothing
 амулет без свойств
+%%%%
+the amulet of reflection
+амулет отражения
+%%%%
+the amulet of regeneration
+амулет регенерации
 %%%%
 the amulet of the Air
 амулет воздуха
@@ -11161,20 +11443,65 @@ the platinum paragon
 the plutonium sword
 плутониевый меч
 %%%%
+the potion
+зелье
+%%%%
+the potion of ambrosia
+зелье амброзии
+%%%%
+the potion of attraction
+зелье притяжения
+%%%%
+the potion of berserk rage
+зелье ярости
+%%%%
 the potion of blood
 зелье крови
 %%%%
 the potion of brilliance
 зелье гениальности
 %%%%
+the potion of cancellation
+зелье отмены
+%%%%
+the potion of curing
+зелье исцеления
+%%%%
+the potion of enlightenment
+зелье просветления
+%%%%
 the potion of experience
 зелье опыта
+%%%%
+the potion of haste
+зелье ускорения
+%%%%
+the potion of heal wounds
+зелье лечения ран
+%%%%
+the potion of invisibility
+зелье невидимости
+%%%%
+the potion of lignification
+зелье одревеснения
+%%%%
+the potion of magic
+зелье магии
+%%%%
+the potion of might
+зелье мощи
 %%%%
 the potion of mist
 зелье тумана
 %%%%
 the potion of moonshine
 зелье самогона
+%%%%
+the potion of mutation
+зелье мутации
+%%%%
+the potion of resistance
+зелье сопротивления
 %%%%
 the prismatic gem
 призматический самоцвет
@@ -11209,11 +11536,29 @@ the riddle talisman
 the rimehorn talisman
 талисман морозного рога
 %%%%
+the ring
+кольцо
+%%%%
 the ring of Shadows
 кольцо теней
 %%%%
+the ring of dexterity
+кольцо ловкости
+%%%%
+the ring of evasion
+кольцо уклонения
+%%%%
+the ring of fire
+кольцо огня
+%%%%
 the ring of flight
 кольцо полёта
+%%%%
+the ring of ice
+кольцо льда
+%%%%
+the ring of intelligence
+кольцо интеллекта
 %%%%
 the ring of magical power
 кольцо запаса магии
@@ -11223,6 +11568,9 @@ the ring of poison resistance
 %%%%
 the ring of positive energy
 кольцо положительной энергии
+%%%%
+the ring of protection
+кольцо защиты
 %%%%
 the ring of protection from cold
 кольцо защиты от холода
@@ -11238,6 +11586,9 @@ the ring of see invisible
 %%%%
 the ring of slaying
 кольцо боевого мастерства
+%%%%
+the ring of strength
+кольцо силы
 %%%%
 the ring of the Hare
 кольцо зайца
@@ -11332,17 +11683,65 @@ the sceptre of Torment
 the scimitar of Flaming Death
 скимитар пылающей смерти
 %%%%
+the scroll
+свиток
+%%%%
+the scroll of acquirement
+свиток приобретения
+%%%%
 the scroll of amnesia
 свиток амнезии
+%%%%
+the scroll of blinking
+свиток скачка
+%%%%
+the scroll of brand weapon
+свиток наделения оружия свойством
 %%%%
 the scroll of butterflies
 свиток бабочек
 %%%%
+the scroll of enchant armour
+свиток зачарования доспехов
+%%%%
+the scroll of enchant weapon
+свиток зачарования оружия
+%%%%
+the scroll of fear
+свиток страха
+%%%%
+the scroll of fog
+свиток тумана
+%%%%
+the scroll of identify
+свиток опознания
+%%%%
+the scroll of immolation
+свиток воспламенения
+%%%%
 the scroll of noise
 свиток шума
 %%%%
+the scroll of poison
+свиток яда
+%%%%
+the scroll of revelation
+свиток откровения
+%%%%
+the scroll of silence
+свиток тишины
+%%%%
 the scroll of summoning
 свиток призыва
+%%%%
+the scroll of teleportation
+свиток телепортации
+%%%%
+the scroll of torment
+свиток мучения
+%%%%
+the scroll of vulnerability
+свиток уязвимости
 %%%%
 the scythe
 коса
@@ -11674,11 +12073,32 @@ the void ooze
 the walking alembic
 шагающий перегонный куб
 %%%%
+the wand of acid
+палочка кислоты
+%%%%
 the wand of charming
 палочка очарования
 %%%%
+the wand of digging
+палочка копания
+%%%%
+the wand of flame
+палочка пламени
+%%%%
+the wand of iceblast
+палочка ледяного взрыва
+%%%%
+the wand of light
+палочка света
+%%%%
 the wand of mindburst
 палочка взрыва разума
+%%%%
+the wand of paralysis
+палочка паралича
+%%%%
+the wand of polymorph
+палочка превращения
 %%%%
 the wand of quicksilver
 палочка ртути
@@ -11794,11 +12214,32 @@ void ooze
 walking alembic
 шагающий перегонный куб
 %%%%
+wand of acid
+палочка кислоты
+%%%%
 wand of charming
 палочка очарования
 %%%%
+wand of digging
+палочка копания
+%%%%
+wand of flame
+палочка пламени
+%%%%
+wand of iceblast
+палочка ледяного взрыва
+%%%%
+wand of light
+палочка света
+%%%%
 wand of mindburst
 палочка взрыва разума
+%%%%
+wand of paralysis
+палочка паралича
+%%%%
+wand of polymorph
+палочка превращения
 %%%%
 wand of quicksilver
 палочка ртути

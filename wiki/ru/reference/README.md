@@ -76,7 +76,7 @@
 - [Палочка света](items/wand-of-light.md)
 - [Палочка взрыва разума](items/wand-of-mindburst.md)
 - [Палочка паралича](items/wand-of-paralysis.md)
-- [Палочка полиморфа](items/wand-of-polymorph.md)
+- [Палочка превращения](items/wand-of-polymorph.md)
 - [Палочка ртути](items/wand-of-quicksilver.md)
 - [Палочка корней](items/wand-of-roots.md)
 - [Палочка искривления](items/wand-of-warping.md)

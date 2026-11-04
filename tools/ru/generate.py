@@ -79,7 +79,8 @@ def game_entries(entities):
             elif entity["animate"]:
                 value = plural_forms["gen"]
             else:
-                value = singular_forms["gen"] if category == "few" else plural_forms["gen"]
+                value = (entity["forms"].get("counted_few", singular_forms["gen"])
+                         if category == "few" else plural_forms["gen"])
             add("{acc_" + category + "}" + counted, "@num@ " + value)
     return entries
 

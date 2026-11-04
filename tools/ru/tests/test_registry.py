@@ -50,6 +50,14 @@ class SharedRegistryTests(unittest.TestCase):
         self.assertEqual(self.entries["{few}" + key], "@num@ свитка телепортации")
         self.assertEqual(self.entries["{many}" + key], "@num@ свитков телепортации")
 
+    def test_counted_accusative_agrees_with_adjectives_and_animacy(self):
+        self.assertEqual(self.entries["{acc_few}@num@ demon blades"],
+                         "@num@ демонических клинка")
+        self.assertEqual(self.entries["{acc_few}@num@ great orbs of eyes"],
+                         "@num@ большие сферы глаз")
+        self.assertEqual(self.entries["{acc_few}@num@ ice dragons"],
+                         "@num@ ледяных драконов")
+
     def test_every_generated_file_is_current(self):
         for path, content in generate.outputs(self.entities).items():
             self.assertEqual(path.read_text(encoding="utf8"), content, str(path))

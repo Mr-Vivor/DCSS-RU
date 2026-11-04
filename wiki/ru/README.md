@@ -144,55 +144,55 @@
 | `item.buckler` | [Баклер](pages/item.buckler.md) | buckler | draft |
 | `item.kite_shield` | [Каплевидный щит](pages/item.kite_shield.md) | kite shield | draft |
 | `item.tower_shield` | [Башенный щит](pages/item.tower_shield.md) | tower shield | draft |
-| `item.potion` | [Зелье](pages/item.potion.md) | potion | draft |
-| `item.potion_of_curing` | [Зелье исцеления](pages/item.potion_of_curing.md) | potion of curing | draft |
-| `item.potion_of_heal_wounds` | [Зелье лечения ран](pages/item.potion_of_heal_wounds.md) | potion of heal wounds | draft |
-| `item.potion_of_might` | [Зелье мощи](pages/item.potion_of_might.md) | potion of might | draft |
-| `item.potion_of_haste` | [Зелье ускорения](pages/item.potion_of_haste.md) | potion of haste | draft |
-| `item.potion_of_magic` | [Зелье магии](pages/item.potion_of_magic.md) | potion of magic | draft |
-| `item.potion_of_berserk_rage` | [Зелье ярости](pages/item.potion_of_berserk_rage.md) | potion of berserk rage | draft |
-| `item.potion_of_lignification` | [Зелье одревеснения](pages/item.potion_of_lignification.md) | potion of lignification | draft |
-| `item.potion_of_mutation` | [Зелье мутации](pages/item.potion_of_mutation.md) | potion of mutation | draft |
-| `item.potion_of_cancellation` | [Зелье отмены](pages/item.potion_of_cancellation.md) | potion of cancellation | draft |
-| `item.potion_of_invisibility` | [Зелье невидимости](pages/item.potion_of_invisibility.md) | potion of invisibility | draft |
-| `item.potion_of_resistance` | [Зелье сопротивления](pages/item.potion_of_resistance.md) | potion of resistance | draft |
-| `item.potion_of_enlightenment` | [Зелье просветления](pages/item.potion_of_enlightenment.md) | potion of enlightenment | draft |
-| `item.potion_of_attraction` | [Зелье притяжения](pages/item.potion_of_attraction.md) | potion of attraction | draft |
-| `item.potion_of_ambrosia` | [Зелье амброзии](pages/item.potion_of_ambrosia.md) | potion of ambrosia | draft |
-| `item.scroll` | [Свиток](pages/item.scroll.md) | scroll | draft |
-| `item.scroll_of_identify` | [Свиток опознания](pages/item.scroll_of_identify.md) | scroll of identify | draft |
-| `item.scroll_of_teleportation` | [Свиток телепортации](pages/item.scroll_of_teleportation.md) | scroll of teleportation | draft |
-| `item.scroll_of_blinking` | [Свиток скачка](pages/item.scroll_of_blinking.md) | scroll of blinking | draft |
-| `item.scroll_of_fear` | [Свиток страха](pages/item.scroll_of_fear.md) | scroll of fear | draft |
-| `item.scroll_of_revelation` | [Свиток откровения](pages/item.scroll_of_revelation.md) | scroll of revelation | draft |
-| `item.scroll_of_enchant_weapon` | [Свиток зачарования оружия](pages/item.scroll_of_enchant_weapon.md) | scroll of enchant weapon | draft |
-| `item.scroll_of_enchant_armour` | [Свиток зачарования доспехов](pages/item.scroll_of_enchant_armour.md) | scroll of enchant armour | draft |
-| `item.scroll_of_brand_weapon` | [Свиток наделения оружия свойством](pages/item.scroll_of_brand_weapon.md) | scroll of brand weapon | draft |
-| `item.scroll_of_acquirement` | [Свиток приобретения](pages/item.scroll_of_acquirement.md) | scroll of acquirement | draft |
-| `item.scroll_of_fog` | [Свиток тумана](pages/item.scroll_of_fog.md) | scroll of fog | draft |
-| `item.scroll_of_silence` | [Свиток тишины](pages/item.scroll_of_silence.md) | scroll of silence | draft |
-| `item.scroll_of_immolation` | [Свиток воспламенения](pages/item.scroll_of_immolation.md) | scroll of immolation | draft |
-| `item.scroll_of_poison` | [Свиток яда](pages/item.scroll_of_poison.md) | scroll of poison | draft |
-| `item.scroll_of_vulnerability` | [Свиток уязвимости](pages/item.scroll_of_vulnerability.md) | scroll of vulnerability | draft |
-| `item.scroll_of_torment` | [Свиток мучения](pages/item.scroll_of_torment.md) | scroll of torment | draft |
-| `item.wand_of_flame` | [Палочка пламени](pages/item.wand_of_flame.md) | wand of flame | draft |
-| `item.wand_of_paralysis` | [Палочка паралича](pages/item.wand_of_paralysis.md) | wand of paralysis | draft |
-| `item.wand_of_polymorph` | [Палочка полиморфа](pages/item.wand_of_polymorph.md) | wand of polymorph | draft |
-| `item.wand_of_digging` | [Палочка копания](pages/item.wand_of_digging.md) | wand of digging | draft |
-| `item.wand_of_acid` | [Палочка кислоты](pages/item.wand_of_acid.md) | wand of acid | draft |
-| `item.wand_of_iceblast` | [Палочка ледяного взрыва](pages/item.wand_of_iceblast.md) | wand of iceblast | draft |
-| `item.wand_of_light` | [Палочка света](pages/item.wand_of_light.md) | wand of light | draft |
-| `item.ring` | [Кольцо](pages/item.ring.md) | ring | draft |
-| `item.ring_of_protection` | [Кольцо защиты](pages/item.ring_of_protection.md) | ring of protection | draft |
-| `item.ring_of_evasion` | [Кольцо уклонения](pages/item.ring_of_evasion.md) | ring of evasion | draft |
-| `item.ring_of_strength` | [Кольцо силы](pages/item.ring_of_strength.md) | ring of strength | draft |
-| `item.ring_of_intelligence` | [Кольцо интеллекта](pages/item.ring_of_intelligence.md) | ring of intelligence | draft |
-| `item.ring_of_dexterity` | [Кольцо ловкости](pages/item.ring_of_dexterity.md) | ring of dexterity | draft |
-| `item.ring_of_fire` | [Кольцо огня](pages/item.ring_of_fire.md) | ring of fire | draft |
-| `item.ring_of_ice` | [Кольцо льда](pages/item.ring_of_ice.md) | ring of ice | draft |
-| `item.amulet` | [Амулет](pages/item.amulet.md) | amulet | draft |
-| `item.amulet_of_reflection` | [Амулет отражения](pages/item.amulet_of_reflection.md) | amulet of reflection | draft |
-| `item.amulet_of_regeneration` | [Амулет регенерации](pages/item.amulet_of_regeneration.md) | amulet of regeneration | draft |
+| `item.potion` | [Зелье](pages/item.potion.md) | potion | reviewed |
+| `item.potion_of_curing` | [Зелье исцеления](pages/item.potion_of_curing.md) | potion of curing | reviewed |
+| `item.potion_of_heal_wounds` | [Зелье лечения ран](pages/item.potion_of_heal_wounds.md) | potion of heal wounds | reviewed |
+| `item.potion_of_might` | [Зелье мощи](pages/item.potion_of_might.md) | potion of might | reviewed |
+| `item.potion_of_haste` | [Зелье ускорения](pages/item.potion_of_haste.md) | potion of haste | reviewed |
+| `item.potion_of_magic` | [Зелье магии](pages/item.potion_of_magic.md) | potion of magic | reviewed |
+| `item.potion_of_berserk_rage` | [Зелье ярости](pages/item.potion_of_berserk_rage.md) | potion of berserk rage | reviewed |
+| `item.potion_of_lignification` | [Зелье одревеснения](pages/item.potion_of_lignification.md) | potion of lignification | reviewed |
+| `item.potion_of_mutation` | [Зелье мутации](pages/item.potion_of_mutation.md) | potion of mutation | reviewed |
+| `item.potion_of_cancellation` | [Зелье отмены](pages/item.potion_of_cancellation.md) | potion of cancellation | reviewed |
+| `item.potion_of_invisibility` | [Зелье невидимости](pages/item.potion_of_invisibility.md) | potion of invisibility | reviewed |
+| `item.potion_of_resistance` | [Зелье сопротивления](pages/item.potion_of_resistance.md) | potion of resistance | reviewed |
+| `item.potion_of_enlightenment` | [Зелье просветления](pages/item.potion_of_enlightenment.md) | potion of enlightenment | reviewed |
+| `item.potion_of_attraction` | [Зелье притяжения](pages/item.potion_of_attraction.md) | potion of attraction | reviewed |
+| `item.potion_of_ambrosia` | [Зелье амброзии](pages/item.potion_of_ambrosia.md) | potion of ambrosia | reviewed |
+| `item.scroll` | [Свиток](pages/item.scroll.md) | scroll | reviewed |
+| `item.scroll_of_identify` | [Свиток опознания](pages/item.scroll_of_identify.md) | scroll of identify | reviewed |
+| `item.scroll_of_teleportation` | [Свиток телепортации](pages/item.scroll_of_teleportation.md) | scroll of teleportation | reviewed |
+| `item.scroll_of_blinking` | [Свиток скачка](pages/item.scroll_of_blinking.md) | scroll of blinking | reviewed |
+| `item.scroll_of_fear` | [Свиток страха](pages/item.scroll_of_fear.md) | scroll of fear | reviewed |
+| `item.scroll_of_revelation` | [Свиток откровения](pages/item.scroll_of_revelation.md) | scroll of revelation | reviewed |
+| `item.scroll_of_enchant_weapon` | [Свиток зачарования оружия](pages/item.scroll_of_enchant_weapon.md) | scroll of enchant weapon | reviewed |
+| `item.scroll_of_enchant_armour` | [Свиток зачарования доспехов](pages/item.scroll_of_enchant_armour.md) | scroll of enchant armour | reviewed |
+| `item.scroll_of_brand_weapon` | [Свиток наделения оружия свойством](pages/item.scroll_of_brand_weapon.md) | scroll of brand weapon | reviewed |
+| `item.scroll_of_acquirement` | [Свиток приобретения](pages/item.scroll_of_acquirement.md) | scroll of acquirement | reviewed |
+| `item.scroll_of_fog` | [Свиток тумана](pages/item.scroll_of_fog.md) | scroll of fog | reviewed |
+| `item.scroll_of_silence` | [Свиток тишины](pages/item.scroll_of_silence.md) | scroll of silence | reviewed |
+| `item.scroll_of_immolation` | [Свиток воспламенения](pages/item.scroll_of_immolation.md) | scroll of immolation | reviewed |
+| `item.scroll_of_poison` | [Свиток яда](pages/item.scroll_of_poison.md) | scroll of poison | reviewed |
+| `item.scroll_of_vulnerability` | [Свиток уязвимости](pages/item.scroll_of_vulnerability.md) | scroll of vulnerability | reviewed |
+| `item.scroll_of_torment` | [Свиток мучения](pages/item.scroll_of_torment.md) | scroll of torment | reviewed |
+| `item.wand_of_flame` | [Палочка пламени](pages/item.wand_of_flame.md) | wand of flame | reviewed |
+| `item.wand_of_paralysis` | [Палочка паралича](pages/item.wand_of_paralysis.md) | wand of paralysis | reviewed |
+| `item.wand_of_polymorph` | [Палочка превращения](pages/item.wand_of_polymorph.md) | wand of polymorph | reviewed |
+| `item.wand_of_digging` | [Палочка копания](pages/item.wand_of_digging.md) | wand of digging | reviewed |
+| `item.wand_of_acid` | [Палочка кислоты](pages/item.wand_of_acid.md) | wand of acid | reviewed |
+| `item.wand_of_iceblast` | [Палочка ледяного взрыва](pages/item.wand_of_iceblast.md) | wand of iceblast | reviewed |
+| `item.wand_of_light` | [Палочка света](pages/item.wand_of_light.md) | wand of light | reviewed |
+| `item.ring` | [Кольцо](pages/item.ring.md) | ring | reviewed |
+| `item.ring_of_protection` | [Кольцо защиты](pages/item.ring_of_protection.md) | ring of protection | reviewed |
+| `item.ring_of_evasion` | [Кольцо уклонения](pages/item.ring_of_evasion.md) | ring of evasion | reviewed |
+| `item.ring_of_strength` | [Кольцо силы](pages/item.ring_of_strength.md) | ring of strength | reviewed |
+| `item.ring_of_intelligence` | [Кольцо интеллекта](pages/item.ring_of_intelligence.md) | ring of intelligence | reviewed |
+| `item.ring_of_dexterity` | [Кольцо ловкости](pages/item.ring_of_dexterity.md) | ring of dexterity | reviewed |
+| `item.ring_of_fire` | [Кольцо огня](pages/item.ring_of_fire.md) | ring of fire | reviewed |
+| `item.ring_of_ice` | [Кольцо льда](pages/item.ring_of_ice.md) | ring of ice | reviewed |
+| `item.amulet` | [Амулет](pages/item.amulet.md) | amulet | reviewed |
+| `item.amulet_of_reflection` | [Амулет отражения](pages/item.amulet_of_reflection.md) | amulet of reflection | reviewed |
+| `item.amulet_of_regeneration` | [Амулет регенерации](pages/item.amulet_of_regeneration.md) | amulet of regeneration | reviewed |
 | `item.stone` | [Камень](pages/item.stone.md) | stone | draft |
 | `item.javelin` | [Дротик](pages/item.javelin.md) | javelin | draft |
 | `item.throwing_net` | [Метательная сеть](pages/item.throwing_net.md) | throwing net | draft |
@@ -328,3 +328,143 @@
 | `monster.deep_troll` | [Глубинный тролль](pages/monster.deep_troll.md) | deep troll | reviewed |
 | `monster.deep_troll_earth_mage` | [Глубинный тролль-маг земли](pages/monster.deep_troll_earth_mage.md) | deep troll earth mage | reviewed |
 | `monster.deep_troll_shaman` | [Глубинный тролль-шаман](pages/monster.deep_troll_shaman.md) | deep troll shaman | reviewed |
+| `item.potion_of_blood` | [Зелье крови](pages/item.potion_of_blood.md) | potion of blood | reviewed |
+| `item.potion_of_brilliance` | [Зелье гениальности](pages/item.potion_of_brilliance.md) | potion of brilliance | reviewed |
+| `item.potion_of_experience` | [Зелье опыта](pages/item.potion_of_experience.md) | potion of experience | reviewed |
+| `item.potion_of_mist` | [Зелье тумана](pages/item.potion_of_mist.md) | potion of mist | reviewed |
+| `item.potion_of_moonshine` | [Зелье самогона](pages/item.potion_of_moonshine.md) | potion of moonshine | reviewed |
+| `item.scroll_of_amnesia` | [Свиток амнезии](pages/item.scroll_of_amnesia.md) | scroll of amnesia | reviewed |
+| `item.scroll_of_butterflies` | [Свиток бабочек](pages/item.scroll_of_butterflies.md) | scroll of butterflies | reviewed |
+| `item.scroll_of_noise` | [Свиток шума](pages/item.scroll_of_noise.md) | scroll of noise | reviewed |
+| `item.scroll_of_summoning` | [Свиток призыва](pages/item.scroll_of_summoning.md) | scroll of summoning | reviewed |
+| `item.wand_of_charming` | [Палочка очарования](pages/item.wand_of_charming.md) | wand of charming | reviewed |
+| `item.wand_of_mindburst` | [Палочка взрыва разума](pages/item.wand_of_mindburst.md) | wand of mindburst | reviewed |
+| `item.wand_of_quicksilver` | [Палочка ртути](pages/item.wand_of_quicksilver.md) | wand of quicksilver | reviewed |
+| `item.wand_of_roots` | [Палочка корней](pages/item.wand_of_roots.md) | wand of roots | reviewed |
+| `item.wand_of_warping` | [Палочка искривления](pages/item.wand_of_warping.md) | wand of warping | reviewed |
+| `item.ring_of_flight` | [Кольцо полёта](pages/item.ring_of_flight.md) | ring of flight | reviewed |
+| `item.ring_of_resist_corrosion` | [Кольцо сопротивления коррозии](pages/item.ring_of_resist_corrosion.md) | ring of resist corrosion | reviewed |
+| `item.ring_of_see_invisible` | [Кольцо обнаружения невидимого](pages/item.ring_of_see_invisible.md) | ring of see invisible | reviewed |
+| `item.amulet_of_dissipation` | [Амулет рассеивания](pages/item.amulet_of_dissipation.md) | amulet of dissipation | reviewed |
+| `item.amulet_of_nothing` | [Амулет без свойств](pages/item.amulet_of_nothing.md) | amulet of nothing | reviewed |
+| `item.amulet_of_wildshape` | [Амулет оборотничества](pages/item.amulet_of_wildshape.md) | amulet of wildshape | reviewed |
+| `item.staff_of_air` | [Посох воздуха](pages/item.staff_of_air.md) | staff of air | reviewed |
+| `item.staff_of_alchemy` | [Посох алхимии](pages/item.staff_of_alchemy.md) | staff of alchemy | reviewed |
+| `item.staff_of_cold` | [Посох холода](pages/item.staff_of_cold.md) | staff of cold | reviewed |
+| `item.staff_of_conjuration` | [Посох разрушения](pages/item.staff_of_conjuration.md) | staff of conjuration | reviewed |
+| `item.staff_of_necromancy` | [Посох некромантии](pages/item.staff_of_necromancy.md) | staff of necromancy | reviewed |
+| `item.staff_of_earth` | [Посох земли](pages/item.staff_of_earth.md) | staff of earth | reviewed |
+| `item.staff_of_fire` | [Посох огня](pages/item.staff_of_fire.md) | staff of fire | reviewed |
+| `item.staff_of_olgreb` | [Посох олгреба](pages/item.staff_of_olgreb.md) | staff of Olgreb | reviewed |
+| `item.book_of_minor_magic` | [Книга малой магии](pages/item.book_of_minor_magic.md) | book of Minor Magic | reviewed |
+| `item.book_of_conjurations` | [Книга разрушения](pages/item.book_of_conjurations.md) | book of Conjurations | reviewed |
+| `item.book_of_flames` | [Книга пламени](pages/item.book_of_flames.md) | book of Flames | reviewed |
+| `item.book_of_frost` | [Книга мороза](pages/item.book_of_frost.md) | book of Frost | reviewed |
+| `item.book_of_the_wilderness` | [Книга дикой природы](pages/item.book_of_the_wilderness.md) | book of the Wilderness | reviewed |
+| `item.book_of_fire` | [Книга огня](pages/item.book_of_fire.md) | book of Fire | reviewed |
+| `item.book_of_ice` | [Книга льда](pages/item.book_of_ice.md) | book of Ice | reviewed |
+| `item.book_of_spatial_translocations` | [Книга пространственных перемещений](pages/item.book_of_spatial_translocations.md) | book of Spatial Translocations | reviewed |
+| `item.book_of_hexes` | [Книга проклятий](pages/item.book_of_hexes.md) | book of Hexes | reviewed |
+| `item.book_of_lightning` | [Книга молний](pages/item.book_of_lightning.md) | book of Lightning | reviewed |
+| `item.book_of_death` | [Книга смерти](pages/item.book_of_death.md) | book of Death | reviewed |
+| `item.book_of_misfortune` | [Книга несчастий](pages/item.book_of_misfortune.md) | book of Misfortune | reviewed |
+| `item.book_of_spontaneous_combustion` | [Книга самовозгорания](pages/item.book_of_spontaneous_combustion.md) | book of Spontaneous Combustion | reviewed |
+| `item.book_of_battle` | [Книга битвы](pages/item.book_of_battle.md) | book of Battle | reviewed |
+| `item.book_of_necromancy` | [Книга некромантии](pages/item.book_of_necromancy.md) | book of Necromancy | reviewed |
+| `item.book_of_callings` | [Книга призывов](pages/item.book_of_callings.md) | book of Callings | reviewed |
+| `item.book_of_air` | [Книга воздуха](pages/item.book_of_air.md) | book of Air | reviewed |
+| `item.book_of_the_warp` | [Книга искривления](pages/item.book_of_the_warp.md) | book of the Warp | reviewed |
+| `item.book_of_annihilations` | [Книга уничтожения](pages/item.book_of_annihilations.md) | book of Annihilations | reviewed |
+| `item.book_of_unlife` | [Книга нежизни](pages/item.book_of_unlife.md) | book of Unlife | reviewed |
+| `item.book_of_geomancy` | [Книга геомантии](pages/item.book_of_geomancy.md) | book of Geomancy | reviewed |
+| `item.book_of_the_earth` | [Книга земли](pages/item.book_of_the_earth.md) | book of the Earth | reviewed |
+| `item.book_of_power` | [Книга могущества](pages/item.book_of_power.md) | book of Power | reviewed |
+| `item.book_of_cantrips` | [Книга простых чар](pages/item.book_of_cantrips.md) | book of Cantrips | reviewed |
+| `item.book_of_party_tricks` | [Книга праздничных фокусов](pages/item.book_of_party_tricks.md) | book of Party Tricks | reviewed |
+| `item.book_of_debilitation` | [Книга ослабления](pages/item.book_of_debilitation.md) | book of Debilitation | reviewed |
+| `item.book_of_the_dragon` | [Книга дракона](pages/item.book_of_the_dragon.md) | book of the Dragon | reviewed |
+| `item.book_of_burglary` | [Книга взлома](pages/item.book_of_burglary.md) | book of Burglary | reviewed |
+| `item.book_of_dreams` | [Книга сновидений](pages/item.book_of_dreams.md) | book of Dreams | reviewed |
+| `item.book_of_transmutation` | [Книга превращения веществ](pages/item.book_of_transmutation.md) | book of Transmutation | reviewed |
+| `item.book_of_beasts` | [Книга зверей](pages/item.book_of_beasts.md) | book of Beasts | reviewed |
+| `item.book_of_spectacle` | [Книга зрелищ](pages/item.book_of_spectacle.md) | book of Spectacle | reviewed |
+| `item.book_of_winter` | [Книга зимы](pages/item.book_of_winter.md) | book of Winter | reviewed |
+| `item.book_of_the_spheres` | [Книга сфер](pages/item.book_of_the_spheres.md) | book of the Spheres | reviewed |
+| `item.book_of_armaments` | [Книга вооружения](pages/item.book_of_armaments.md) | book of Armaments | reviewed |
+| `item.book_of_decay` | [Книга тления](pages/item.book_of_decay.md) | book of Decay | reviewed |
+| `item.book_of_displacement` | [Книга смещения](pages/item.book_of_displacement.md) | book of Displacement | reviewed |
+| `item.book_of_the_senses` | [Книга чувств](pages/item.book_of_the_senses.md) | book of the Senses | reviewed |
+| `item.book_of_blasting` | [Книга взрывов](pages/item.book_of_blasting.md) | book of Blasting | reviewed |
+| `item.book_of_iron` | [Книга железа](pages/item.book_of_iron.md) | book of Iron | reviewed |
+| `item.book_of_the_tundra` | [Книга тундры](pages/item.book_of_the_tundra.md) | book of the Tundra | reviewed |
+| `item.book_of_the_moon` | [Книга луны](pages/item.book_of_the_moon.md) | book of the Moon | reviewed |
+| `item.book_of_storms` | [Книга бурь](pages/item.book_of_storms.md) | book of Storms | reviewed |
+| `item.book_of_weapons` | [Книга оружия](pages/item.book_of_weapons.md) | book of Weapons | reviewed |
+| `item.book_of_sloth` | [Книга лености](pages/item.book_of_sloth.md) | book of Sloth | reviewed |
+| `item.book_of_blood` | [Книга крови](pages/item.book_of_blood.md) | book of Blood | reviewed |
+| `item.book_of_dangerous_friends` | [Книга опасных друзей](pages/item.book_of_dangerous_friends.md) | book of Dangerous Friends | reviewed |
+| `item.book_of_touch` | [Книга прикосновений](pages/item.book_of_touch.md) | book of Touch | reviewed |
+| `item.book_of_chaos` | [Книга хаоса](pages/item.book_of_chaos.md) | book of Chaos | reviewed |
+| `item.book_of_the_hunter` | [Книга охотника](pages/item.book_of_the_hunter.md) | book of the Hunter | reviewed |
+| `item.book_of_scorching` | [Книга зноя](pages/item.book_of_scorching.md) | book of Scorching | reviewed |
+| `item.book_of_movement` | [Книга движения](pages/item.book_of_movement.md) | book of Movement | reviewed |
+| `item.book_of_wicked_creation` | [Книга нечестивого созидания](pages/item.book_of_wicked_creation.md) | book of Wicked Creation | reviewed |
+| `item.book_of_maladies` | [Книга недугов](pages/item.book_of_maladies.md) | book of Maladies | reviewed |
+| `item.book_of_the_fortress` | [Книга крепости](pages/item.book_of_the_fortress.md) | book of the Fortress | reviewed |
+| `item.book_of_cryoformation` | [Книга ледяного зодчества](pages/item.book_of_cryoformation.md) | book of Cryoformation | reviewed |
+| `item.book_of_the_grave` | [Книга могилы](pages/item.book_of_the_grave.md) | book of the Grave | reviewed |
+| `item.book_of_metalworking` | [Книга обработки металлов](pages/item.book_of_metalworking.md) | book of Metalworking | reviewed |
+| `item.book_of_duality` | [Книга двойственности](pages/item.book_of_duality.md) | book of Duality | reviewed |
+| `item.book_of_contraptions` | [Книга механизмов](pages/item.book_of_contraptions.md) | book of Contraptions | reviewed |
+| `item.blade_talisman` | [Талисман клинков](pages/item.blade_talisman.md) | blade talisman | reviewed |
+| `item.dragon_coil_talisman` | [Талисман драконьего кольца](pages/item.dragon_coil_talisman.md) | dragon-coil talisman | reviewed |
+| `item.fortress_talisman` | [Талисман крепости](pages/item.fortress_talisman.md) | fortress talisman | reviewed |
+| `item.gecko_talisman` | [Талисман геккона](pages/item.gecko_talisman.md) | gecko talisman | reviewed |
+| `item.hive_talisman` | [Талисман улья](pages/item.hive_talisman.md) | hive talisman | reviewed |
+| `item.inkwell_talisman` | [Талисман чернильницы](pages/item.inkwell_talisman.md) | inkwell talisman | reviewed |
+| `item.maw_talisman` | [Талисман пасти](pages/item.maw_talisman.md) | maw talisman | reviewed |
+| `item.medusa_talisman` | [Талисман медузы](pages/item.medusa_talisman.md) | medusa talisman | reviewed |
+| `item.mist_talisman` | [Талисман тумана](pages/item.mist_talisman.md) | mist talisman | reviewed |
+| `item.quill_talisman` | [Талисман игл](pages/item.quill_talisman.md) | quill talisman | reviewed |
+| `item.riddle_talisman` | [Талисман загадки](pages/item.riddle_talisman.md) | riddle talisman | reviewed |
+| `item.rimehorn_talisman` | [Талисман морозного рога](pages/item.rimehorn_talisman.md) | rimehorn talisman | reviewed |
+| `item.scarab_talisman` | [Талисман скарабея](pages/item.scarab_talisman.md) | scarab talisman | reviewed |
+| `item.serpent_talisman` | [Талисман змея](pages/item.serpent_talisman.md) | serpent talisman | reviewed |
+| `item.spider_talisman` | [Талисман паука](pages/item.spider_talisman.md) | spider talisman | reviewed |
+| `item.spore_talisman` | [Талисман спор](pages/item.spore_talisman.md) | spore talisman | reviewed |
+| `item.storm_talisman` | [Талисман бури](pages/item.storm_talisman.md) | storm talisman | reviewed |
+| `item.talisman_of_death` | [Талисман смерти](pages/item.talisman_of_death.md) | talisman of death | reviewed |
+| `item.vision_talisman` | [Талисман зрения](pages/item.vision_talisman.md) | vision talisman | reviewed |
+| `item.wellspring_talisman` | [Талисман источника](pages/item.wellspring_talisman.md) | wellspring talisman | reviewed |
+| `item.eel_talisman` | [Талисман угря](pages/item.eel_talisman.md) | eel talisman | reviewed |
+| `item.azure_gem` | [Лазурный самоцвет](pages/item.azure_gem.md) | azure gem | reviewed |
+| `item.earthy_gem` | [Землистый самоцвет](pages/item.earthy_gem.md) | earthy gem | reviewed |
+| `item.gem` | [Самоцвет](pages/item.gem.md) | gem | reviewed |
+| `item.granite_talisman` | [Гранитный талисман](pages/item.granite_talisman.md) | granite talisman | reviewed |
+| `item.ivory_gem` | [Самоцвет слоновой кости](pages/item.ivory_gem.md) | ivory gem | reviewed |
+| `item.jade_gem` | [Нефритовый самоцвет](pages/item.jade_gem.md) | jade gem | reviewed |
+| `item.jade_talisman` | [Нефритовый талисман](pages/item.jade_talisman.md) | jade talisman | reviewed |
+| `item.lupine_talisman` | [Волчий талисман](pages/item.lupine_talisman.md) | lupine talisman | reviewed |
+| `item.midnight_gem` | [Полуночный самоцвет](pages/item.midnight_gem.md) | midnight gem | reviewed |
+| `item.milky_white_gem` | [Молочно-белый самоцвет](pages/item.milky_white_gem.md) | milky-white gem | reviewed |
+| `item.mossy_gem` | [Мшистый самоцвет](pages/item.mossy_gem.md) | mossy gem | reviewed |
+| `item.prismatic_gem` | [Призматический самоцвет](pages/item.prismatic_gem.md) | prismatic gem | reviewed |
+| `item.protean_talisman` | [Изменчивый талисман](pages/item.protean_talisman.md) | protean talisman | reviewed |
+| `item.sanguine_talisman` | [Кровавый талисман](pages/item.sanguine_talisman.md) | sanguine talisman | reviewed |
+| `item.sanguine_gem` | [Кровавый самоцвет](pages/item.sanguine_gem.md) | sanguine gem | reviewed |
+| `item.shining_gem` | [Сияющий самоцвет](pages/item.shining_gem.md) | shining gem | reviewed |
+| `item.shimmering_gem` | [Мерцающий самоцвет](pages/item.shimmering_gem.md) | shimmering gem | reviewed |
+| `item.smoky_gem` | [Дымчатый самоцвет](pages/item.smoky_gem.md) | smoky gem | reviewed |
+| `item.starry_gem` | [Звёздный самоцвет](pages/item.starry_gem.md) | starry gem | reviewed |
+| `item.book_of_fixed_theme` | [Тематическая книга заклинаний](pages/item.book_of_fixed_theme.md) | book of Fixed Theme | reviewed |
+| `item.codex_of_conductivity` | [Кодекс проводимости](pages/item.codex_of_conductivity.md) | Codex of Conductivity | reviewed |
+| `item.trismegistus_codex` | [Кодекс трисмегиста](pages/item.trismegistus_codex.md) | Trismegistus Codex | reviewed |
+| `item.compendium_of_siegecraft` | [Свод осадного искусства](pages/item.compendium_of_siegecraft.md) | Compendium of Siegecraft | reviewed |
+| `item.fen_folio` | [Болотный фолиант](pages/item.fen_folio.md) | Fen Folio | reviewed |
+| `item.everburning_encyclopedia` | [Вечно пылающая энциклопедия](pages/item.everburning_encyclopedia.md) | Everburning Encyclopedia | reviewed |
+| `item.necronomicon` | [Некрономикон](pages/item.necronomicon.md) | Necronomicon | reviewed |
+| `item.grand_grimoire` | [Великий гримуар](pages/item.grand_grimoire.md) | Grand Grimoire | reviewed |
+| `item.young_poisoner_s_handbook` | [Пособие юного отравителя](pages/item.young_poisoner_s_handbook.md) | Young Poisoner's Handbook | reviewed |
+| `item.there_and_back_book` | [Книга «туда и обратно»](pages/item.there_and_back_book.md) | There-And-Back Book | reviewed |
+| `item.treatise_on_traps` | [Трактат о ловушках](pages/item.treatise_on_traps.md) | Treatise on Traps | reviewed |
+| `item.handbook_of_applied_construction` | [Руководство по прикладному строительству](pages/item.handbook_of_applied_construction.md) | Handbook of Applied Construction | reviewed |
