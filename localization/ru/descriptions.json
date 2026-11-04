@@ -6197,6 +6197,387 @@
       "source_sha256": "8f4edadd42399f9d79c7a5842e323046926ba93d5c26c7e3b840d0b0ec3d0100",
       "text": "Нежить, покрытая бинтами и бальзамирующими составами, которую заставляет двигаться древнее проклятие. От неё исходит зловещая аура.",
       "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "Antaeus": {
+      "source_sha256": "96565b31eaaba1601be3632fe1c746aefa28b2de56d5885fd8e12e8f2741cdc5",
+      "text": "Некогда герой среди титанов, Антей позавидовал их царице. Он вызвал её на поединок и убил, за что был изгнан и сошёл в Ады. Обнаружив, что здешние обитатели не могут сравниться с ним силой, Антей вырвал из их материи четвёртый Ад — Коцит, царство, рождённое из ледяной злобы.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Geryon": {
+      "source_sha256": "9027b5fec767cc20a21faf445f44d9c2d0cfecd875993b4c67ba9d4cbcb1822c",
+      "text": "Огромный крылатый архидемон с тремя головами, страж четырёх Адов. По преданию, его серебряный рог способен вызывать ужасных зверей на помощь в бою.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Goji": {
+      "source_sha256": "23dc87287034b023f0f0014e6b55df3aa6469b3253e583f0d52c41c534550f44",
+      "text": "Бесстрашный гоблин, каким-то образом приручивший призрачную моль и оседлавший её. Замысловатое переплетение верёвок, помогающее ему держаться верхом, наверняка стесняет движения самой моли, но даже такая моль может оказаться смертельным противником.\n\nА Годзи? Что ж. Он тоже здесь.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Grunn": {
+      "source_sha256": "8ca690bda3fddc95e30b5c2e51c0d03ca28925c0ff4467cce774f9a9cb608821",
+      "text": "Жестоко исковерканный гнолл-нежить, навеки служащий Эрешкигаль, владычице Тартара. По легенде, он продал душу, чтобы вернуть к жизни любимую охотничью собаку. Никто не знает, есть ли эта гончая в его нынешней стае.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Ilsuiw": {
+      "source_sha256": "32632cc061c7e76decc03128e257dc59e3b85d3e234193c52f353d2eb56170b8",
+      "text": "Смертоносная водяная ведьма русалок. Властью над приливами она заманивает неосторожных искателей приключений навстречу гибели.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Khufu": {
+      "source_sha256": "cc963d1237ddb680190f25b9895e05df6948a63f8b57ae3e23deea636ea260c0",
+      "text": "Невероятно могущественный император, идущий к божественности. Он умер довольно давно, но не видит причин из-за этого останавливаться.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Lernaean hydra": {
+      "source_sha256": "7564f4a08ac73a7782cb5b4ca4cf776832d51c1eba5113755d7b063309dbfc88",
+      "text": "Огромная тварь, сильнейшая из гидр, печально известная по мифам и легендам. Она несётся по воде быстрее бегущего человека, отбрасывая деревья словно спички. Её многочисленные головы непрестанно истекают слюной и скрежещут зубами, пока она ищет добычу, способную утолить бездонный голод.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Lom Lobon": {
+      "source_sha256": "dc82e811db7bd4adef02dc0334f4b6f72cb1db0f8c57930c19b16a5cd5cb5a5d",
+      "text": "Невозмутимый и непостижимый древний демон, прославленный владением магией. По слухам, это самое учёное существо в чертогах Пандемониума; смертные волшебники порой приходят к нему, предлагая души в обмен на тайные знания. В единственном глазу Лом Лобона нет страшной ярости большинства демонов — за ним скрывается холодная, беспристрастная жестокость.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Mara": {
+      "source_sha256": "267eed05853391964760b3ffb1aea0b668a38638732378fe52fd3bffd20eba3b",
+      "text": "Этот высокий могучий демон — Мара, Владыка иллюзий, великий среди сновидцев. Он способен создавать иллюзии с мельчайшими подробностями: они настолько правдоподобны, что почти столь же смертоносны, как существа, которых изображают.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Mlioglotl": {
+      "source_sha256": "928aa63b3f02aeec8cd8e22dc8cebbe9bd706edc2f57c8a0b6656bf6a5e4172d",
+      "text": "Некогда князь демонов жаждал власти с силой, исключительной даже для его сородичей. Он предал своё царство Лугону, а наградой стало превращение в эту исковерканную массу скверны, ныне известную лишь как Млиоглотль.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Murray": {
+      "source_sha256": "f4e79940535e51105369a3b64575d1d16a1262370ad4aa21a987adad0fd71b70",
+      "text": "Демонический череп, катящийся по земле.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Nobody": {
+      "source_sha256": "8eb7e27dc36764c59037126e80ef4e55c64f81b0f97b99ef3b59d309b4c62924",
+      "text": "Затерянный во времени ревенант, возникший из смерти не одного человека, а множества существ: его кости срослись из останков молодых и старых, принадлежавших к разным видам. Были ли они жертвами одной резни или тысячью душ, забытых за тысячу лет, теперь не узнать. История их не помнит.\n\nЯсно лишь одно: они будут сражаться, чтобы это изменить, пока не выгорит последнее оставшееся у них воспоминание.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Norris": {
+      "source_sha256": "7da8b57c4c022330192b5e89f253c7068d84439f445ceadd9f7ae534b3dba4fd",
+      "text": "Безмятежный последователь культа воды со здоровым загаром и успокаивающим голосом. Его не особенно волнует, кто умрёт — вы или он. «Оба» было бы, пожалуй, лучшим вариантом.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Parghit": {
+      "source_sha256": "273c92d653cf12fbe3d7d5871deb69da46aff3e4f1a20bcf9f1c33e955753e4a",
+      "text": "Необычайно сильный тролль, чьё могучее тело покрыто шрамами от множества побед вопреки всему. Его ранили столько раз, что тело приспособилось и теперь заживает почти мгновенно. Ожерелье из тролльих когтей служит памятью о тех, кто его недооценил.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Roxanne": {
+      "source_sha256": "8ee2726e1240e28428453a596f9a0f5ed998e686c13a0f9b5831555249d04754",
+      "text": "Поразительно правдоподобная сапфировая статуя знаменитой чародейки земли, исчезнувшей после катастрофического происшествия с волшебным талисманом.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Sprozz": {
+      "source_sha256": "04badf100621511de03f11df5360151775eb317748b964259473a0b6a0d5dc2e",
+      "text": "Бывший ученик пчеловода с честолюбивой мечтой: обновить пчеловодство всего мира при помощи надёжного металла, которому не страшны болезни. Его методы сомнительны, цели спорны, но жало его опытного образца всё равно выглядит ужасно острым...",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Sojobo": {
+      "source_sha256": "6f9f66c1b3eaf2b9f55fd2e26ea816d4df7f71a8a110ed7e95fd11fdd26da791",
+      "text": "Царица тэнгу, легендарно искусная во владении мечом, тактике и магии. По рассказам, однажды она заточила бушующую бурю в бутылку и оставила её себе как талисман.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Tiamat": {
+      "source_sha256": "2652dfd6f27b4a66035a65c01aa8abc29e061a3c3af825bdac193c66c38a510a",
+      "text": "Земное воплощение Тиамат, божества драконьего рода, явившееся здесь в облике могучей воительницы-дракониана. Её чешуя будто мерцает и меняет цвет прямо у вас на глазах.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Wiglaf": {
+      "source_sha256": "7ac4ce6d4fd8fa3543fa00bffea29266c87eeeeb30f243135ba0feea477f24d8",
+      "text": "Сварливый дворф в нелепой шляпе. Он угрюмо косится на вас, словно решая, насколько сильно обидеться на ваш взгляд, прикованный к его головному убору.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Vashnia": {
+      "source_sha256": "e9fa3f6ab2826d9ef681d05a13c579d24393a3bf8a1ecde7e26dafb66b3218c4",
+      "text": "Отборный снайпер наг, возглавляющий искусную команду стрелков. Особенно сведуща в магии перемещений.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Vv": {
+      "source_sha256": "3c5a7a9e64e0c727f9382f876ab342152bf87c58301ba49fb245c6223ac200cf",
+      "text": "Одна из камнерождённых, возникшая неисчислимые века назад и в совершенстве повелевающая камнем. Её народ укрывается глубоко в живой земле, поэтому причина, вынудившая Вв выйти на угнетающий простор Подземелья, должна быть поистине страшной. Но что бы это ни было, она об этом не говорит...",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Xak'krixis": {
+      "source_sha256": "02b77f99c1bf9138e950cbbf599dab9f213afe99654ad35b2d57466b414cfb59",
+      "text": "С тех пор как чужаков в последний раз пускали в огромные пещерные библиотеки формицидов, прошли века. Но их посланников всё ещё изредка видят в других землях: они ищут ресурсы и научные открытия, способные помочь колонии.\n\nИсследование магических волокон, выделяемых пауками-сферами, уже привело этого посланника к алхимическому прорыву: он умеет придавать взрывным призмам такую форму, что их взрывы направлены только на врагов. Увы, его желание провести полевые испытания сулит мало хорошего вашему здоровью.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Zenata": {
+      "source_sha256": "c52f8a473f0956046a992c394657044610263a41921aa0129cd0ac6ff61f71d8",
+      "text": "Искусная оружейница, чья плоть столь плавно переходит в сталь, что границу между ними трудно различить. Она вошла в Подземелье за тайнами древнего, давно подавленного культа, который, по слухам, ставил металл выше плоти. Ценой знания стала её человечность — и она охотно заплатила эту цену.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Serpent of Hell gehenna": {
+      "source_sha256": "76eb678aa705b0cfe1aeec871d208f964fbc111febabf530382ea5e3870bb30a",
+      "text": "Огромный трёхголовый дракон, светящийся красным и окутанный адской карой. Им владеет сама сущность Геенны и её вечного огня.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Serpent of Hell cocytus": {
+      "source_sha256": "f262e781f51717b4ea6dae2e0814f971115b553d93e862897724655a3a4a7060",
+      "text": "Огромный белый трёхголовый дракон, покрытый осколками сверкающего льда и всецело одержимый кошмарным холодом Коцита.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Serpent of Hell dis": {
+      "source_sha256": "ed9b172b840bbf4385f174961b23236c970c10b93ef4717c8369a9eb44bc2c1b",
+      "text": "Громадное трёхголовое чудовище, у которого вместо зубов целая армия мечей. Каждая его чешуйка — щит с острым как бритва краем.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "Serpent of Hell tartarus": {
+      "source_sha256": "07cf5270ae017b7e91749d6b6d5a8f070aecb93ab33bae21b8eeb62a45c4f77e",
+      "text": "Поначалу видны лишь три пары жутких пурпурных глаз, висящих во тьме; позади едва различимы очертания огромного извивающегося дракона. Его злоба почти осязаема.",
+      "context": "Current monsters.txt unique enemies and Hell Serpent forms; do not reuse historical human Norris, male Sojobo or spell-miscast Roxanne descriptions. Proper names transliterated or kept in their established forms. Vashnia uses translocation and ranged weapons, not generic summoning. Each Hell Serpent description is a location-specific database key, not a different public monster name. Names and wiki headings come from the same glossary. "
+    },
+    "orb spider": {
+      "source_sha256": "cc0b3a812c7c10c6add6e905710d53f22b26597fe7545fcce636bfc1652cdf82",
+      "text": "Паук с жутким свечением, из паутинных желёз которого тянутся нити чистой энергии. Похоже, он предпочитает держаться на расстоянии.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "ghost moth": {
+      "source_sha256": "5ed0e9d8d8911bc8207e845477b6959ede0df6dc0c20f46797fdab6ab5eb779e",
+      "text": "Отвратительный межпространственный хищник, питающийся жизненной силой живых существ. Напоминает огромную шипастую моль.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "airy jade": {
+      "source_sha256": "11fbb136446e1ff36b39f86ab87abe04b3c0a3ce0210b9c1aaf7cd03048c9ce6",
+      "text": "Парящий осколок кристаллического нефрита, резонирующий с вашей магией воздуха.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "earthen jade": {
+      "source_sha256": "dc2ab906e57ebd3badfb858dbc1bae2d20f0136fd22a8aafbe152e8547c09073",
+      "text": "Парящий осколок кристаллического нефрита, резонирующий с вашей магией земли.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "fiery jade": {
+      "source_sha256": "87ed220bc6739dd14bfe906b4895b658402c472932c1b228250e8fe0966a972a",
+      "text": "Парящий осколок кристаллического нефрита, резонирующий с вашей магией огня.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "icy jade": {
+      "source_sha256": "9d8cd342ec60ed0d79b3629593dc77c07e4416ea5a9c6ed020941a74a81bd6a9",
+      "text": "Парящий осколок кристаллического нефрита, резонирующий с вашей магией льда.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "arcanist": {
+      "source_sha256": "b7496e10897ace216a8a03da7b2afa65ed3934b0ce3c82cf7b8bed4f3274142a",
+      "text": "Волшебник, любящий зрелища и разрушение. Он презирает трусость других магов, которые прячутся от врагов, вместо того чтобы попросту испепелить их.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "elementalist": {
+      "source_sha256": "e1fd8cb4fc08471bffe84de68956a58e1738c3271321315d335a86443c13aeee",
+      "text": "Человекоподобное создание из бесплотных воспоминаний, парящее в воздухе. Пусть его облик изменился и различимых черт почти не осталось, оно всё ещё напоминает мага из далёкого, смутно помнящегося прошлого, искусного в разрушительной магии стихий.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "hexer": {
+      "source_sha256": "8e0f8f30eb660d593f49382dfdbe68c6dce0aa013ee968f8450f66bf4c45d8d0",
+      "text": "Человекоподобное создание из бесплотных воспоминаний, парящее в воздухе. Пусть его облик изменился и различимых черт почти не осталось, оно всё ещё напоминает воина из далёкого, смутно помнящегося прошлого, готового пустить в ход ослабляющие заклинания и смертоносный нож.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "knight": {
+      "source_sha256": "035e66345d97c6eb0b2d8cc7c6912bb592f2d982213dff656c8f58ccfa826295",
+      "text": "Человекоподобное создание из бесплотных воспоминаний, парящее в воздухе. Пусть его облик изменился и различимых черт почти не осталось, оно всё ещё напоминает воина из далёкого, смутно помнящегося прошлого, хорошо оснащённого оружием и доспехами.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "ancestor": {
+      "source_sha256": "4f57edafa199d3cf4bcc954eb51c4dd82be9b006e2efe29450b488fde97d8933",
+      "text": "Человекоподобное создание из бесплотных воспоминаний, парящее в воздухе. Пусть его облик изменился и различимых черт почти не осталось, оно всё ещё напоминает воина из далёкого, смутно помнящегося прошлого. Воспоминание и тот, кто хранит память, сражаются сообща и могут стрелять мимо друг друга, не задевая союзника.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "armour echo": {
+      "source_sha256": "cd5065a22a52f35fc24a15773c4317fac85dcdc4d65c5ad070722f487bf8f439",
+      "text": "Пот и труд мастера, работающего с кожей и сталью, наделяют его творение намерением — особой искрой внутри каждого нагрудника, наплечника и наруча. Искусный маг-кузнец способен придать этим намерениям физическую форму, позволяя доспеху защищать владельца гораздо решительнее, чем обычно полагается доспехам.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "battlesphere": {
+      "source_sha256": "d606a46bb4d99105ccf9578ccd14133c3e44929b0571ed84e43f711236482e87",
+      "text": "Небольшая сфера разрушительной энергии. Каждый раз, когда её создатель применяет боевое заклинание, она обстреливает магией наиболее раненого из ближайших врагов, до которого способна достать.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "boundless tesseract": {
+      "source_sha256": "3622b7530d6e9a2364a6b03ebd79fb996408bf7e0b846b25b21c802df4aee008",
+      "text": "Невозможная фигура, переливающаяся неземными цветами. Сквозь неё струится сила Зота, накладывая на эту реальность бесчисленные другие, в которых его владения всё ещё неприкосновенны.\n\nТессеракты неразрывно связаны друг с другом: уничтожение одного уничтожит оба, изгонит всех призванных ими в эту реальность существ и ошеломит даже тех, кого они не призывали. Но пока тессеракты существуют, силы, стремящиеся не допустить вас к Сфере, будут неисчерпаемы.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "bound soul": {
+      "source_sha256": "3e4b455a55b9a90a4658b33342d5e1e76f791e393e5373c0422a9b8279988b52",
+      "text": "Душа живого, священного или демонического существа, захваченная тёмной жертвой Йредэлемнулу. Связанная душа следует за пленителем по лестницам и откликается на призыв с другого уровня.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "bomblet": {
+      "source_sha256": "30a275851c613b697c8190a85d334b246c16b4dce9cbd3c3475b55f2d8eec173",
+      "text": "Небольшая металлическая сфера с ядром дремлющей огненной магии. По нужной команде она взрывается металлом и пламенем; сопротивление огню защищает от этого взрыва лишь частично.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "monarch bomb": {
+      "source_sha256": "ad7a0664b4fe7fc3dcab7b1a8f63cbc3e9294bb6d344334fe75b3171119b0c4d",
+      "text": "Летающий завод боеприпасов, удерживаемый в воздухе струями огненного выхлопа и до краёв набитый взрывчаткой. Он быстро заполняет окрестности бомбочками, а по приказу создателя взрывает их все вместе с собой, вызывая опустошительные разрушения.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "caustic sporangium": {
+      "source_sha256": "74fdd8faa943d7af2899802eb79ed25be9d0bc343e57b3271a6053e031ddd61a",
+      "text": "Похожий на воздушный шар мешок со спорами слизевика, взвешенными в питательной взвеси, которая поддерживает их в поисках нового пристанища. К великому несчастью ближайших искателей приключений, эта взвесь также является чрезвычайно сильной кислотой.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "nascent plasmodium": {
+      "source_sha256": "e25855ee399b4e4c189f473c9f599a1469aad395e40caa927846d9183174a874",
+      "text": "Колония слизевика на ранней стадии жизненного цикла. Она ещё недостаточно созрела для размножения, но уже умеет защищаться, выстреливая сгустками сильной кислоты.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "creeping plasmodium": {
+      "source_sha256": "8a2b019695b33bce3f8865d2e60e13b73232d14a39d3127702e01d1951fde006",
+      "text": "Огромная и пугающе подвижная колония слизевика. Она ползает по трещинам стен в поисках питательных веществ и распространяется на новые места, запуская громадные спорангии.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "aspiring flesh": {
+      "source_sha256": "029c6d240b91d403e0d44473615ec6dce7c58381cd2fdfd51138f203178fff0b",
+      "text": "Разделившиеся и бурлящие останки изменчивого прародителя, отчаянно стремящиеся обрести форму. Во что бы они ни превратились, последние силы прародителя сделают это существо сильнее и быстрее любого такого же обитателя Подземелья.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "crawling flesh cage": {
+      "source_sha256": "dffcaf8268202a0a092accc5938ecca54fc6435e518bd47ca8402fe68113f4d4",
+      "text": "Современный прорыв магических исследований: эта подвижная тюремная камера превращает в оружие живые фрагменты некогда сбежавших уродливых тварей. Удлинённые отростки позволяют ей хлестать сразу нескольких врагов на расстоянии.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "pile of flesh": {
+      "source_sha256": "0855d2421ae2cd2c3858c514e34c93c6a38a6e74ad0a0a153a2f7208346aab9d",
+      "text": "Оставшаяся после чего-то мешанина сломанных костей, безжизненных хватательных органов и клочьев кожи. Некоторые узкие специалисты среди колдунов способны её оживить, но сама по себе она безвредна. Возможно, это остатки работы ушедшего или рассеянного мага.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "pile of debris": {
+      "source_sha256": "e2ac3dd122e6f6431b94de2eb886913926f1835d30035e45f5c0c1e34623071c",
+      "text": "Сильно разрушенная каменная кладка, окружённая обломками.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "stack of scrap": {
+      "source_sha256": "c6cd03a1c83c81d6391b10cb6fc59ba150feae97a26b9ce3b42ec92ea42eb727",
+      "text": "Высокая потускневшая груда наполовину собранных конструктов и сломанных запасных деталей.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "diamond sawblade": {
+      "source_sha256": "e99a0d4ae72ff37a4009fdcbbb589374e228c2a53881d5af334b4359ebc624d7",
+      "text": "Зазубренный диск, выкованный из материала с бритвенно острыми краями. Он с огромной скоростью вращается на месте, разрывая и плоть, и металл.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "diamond obelisk": {
+      "source_sha256": "de8fa88bf040ef5502fff52c7bceef47559163aea6e24f393df9ac7d6df4fced",
+      "text": "Высокий обелиск, окружённый мощной бурей.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "clockroach": {
+      "source_sha256": "8e7057d18adadf29b7d2e1f5f0004c7dfaf9b71e3e6728c540a6e39af5d64551",
+      "text": "Обычный вредитель Подземелья, сочетающий худшие черты насекомого-падальщика и неумолимо тикающих часов.\n\nВремя вокруг него течёт странно: любой нанесённый ему урон отматывается назад, если его источник не находится достаточно близко, чтобы попасть в тот же поток времени.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "dormant clockwork bee": {
+      "source_sha256": "2f954b2f10f320037eb7d90cc937913171d2b22c20d718143dd287fa0dad801a",
+      "text": "Механическое насекомое, приводимое в движение сложной системой шестерёнок и пружин. Его завод иссяк; вновь завести пчелу может только создатель, шагнувший на её клетку.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "rending blade": {
+      "source_sha256": "6138348039b3f7b266d162fc42c8a6e0a062f25e46d9089c434704fafb9454f4",
+      "text": "Потрескивающее оружие из сгущённой магической энергии. Каждый раз, когда создатель попадает атакой в ближнем бою, оно способно прорезать целые ряды противников.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "spellspark servitor": {
+      "source_sha256": "5f8ef94b2c5d7cd1f8af27549f939150902ff5532eb532bf71b4ecd52af22aec",
+      "text": "Магический конструкт, выкованный вокруг искры магической силы самого создателя. Благодаря этому он может самостоятельно применять некоторые его разрушительные заклинания.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "shooting star": {
+      "source_sha256": "f3ee1c4bc094a595934543ebb0de0b163ad725b19a174b340ae8ebe25775cd3b",
+      "text": "Мерцающая искра магической энергии. Она ищет ближайших врагов, чтобы израсходовать себя, нанеся им урон и оттолкнув назад.\n\nОна не перекрывает союзникам линию огня.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "lightning spire": {
+      "source_sha256": "ced62bb35f80af16593d56e9a6d90f565ad00f73834e03bb2296ae29d3727dab",
+      "text": "Жужжащее устройство из катушки и стержня. Время от времени оно поражает электричеством самого далёкого врага в пределах досягаемости.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "hoarfrost cannon": {
+      "source_sha256": "6d829bd30fc3caea4417488f13e204e7d8af5d1e9540a7bd7d82fe4a189b8ae9",
+      "text": "Изящное осадное орудие, магически вылепленное из кристаллического льда. Оно недолговечно, как летняя метель: каждый залп расходует часть самой пушки, пока от неё не останется одна вода.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "hellfire mortar": {
+      "source_sha256": "2fc16adc1474e1275f410915672b01a2d764035c4069eca6d2fa9fa1aef8ba2f",
+      "text": "Устрашающее орудие, высеченное из расплавленной породы. Оно обрушивает огненное разрушение на врагов создателя.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "foxfire": {
+      "source_sha256": "a5e7c094bc2dabc6f59516fc39bac45463cf8c8bf282ac666fb30ffa1317273e",
+      "text": "Тонкий огонёк пылающего болотного газа. Он обжигает первое враждебное существо, которого коснётся, а затем рассеивается.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "fulminant prism": {
+      "source_sha256": "2978100f6e7075b4116d03cbab156b45094cc281474ab766b18b5e14b77bb6c0",
+      "text": "Тонкая призма из нестабильного мягкого золота, потрескивающая от едва сдерживаемой разрушительной энергии. Удар, расколовший её хрупкую поверхность, скорее всего вызовет мощный взрыв.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "globe of annihilation": {
+      "source_sha256": "3032811fdbbfcfee225c72c51c8150923b361c893fc1c83d0723134371ef7853",
+      "text": "Бурлящая сфера могучих разрушительных сил, извлечённых из самой ткани Адов. Она неумолимо преследует назначенную цель и растёт по мере движения. При столкновении с существом или стеной сфера мощно взрывается, но её создатель защищён от высвобождаемого разрушения.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "orb of destruction": {
+      "source_sha256": "ae33441cca02fbb1c82701bf44cc42ffeee3d10dc15891d2113425e3b6b0bb45",
+      "text": "Сотворённая сфера чистой магии, наводящаяся на назначенную цель, но обладающая огромной инерцией. Сообразительный и подвижный противник может сойти с её пути и заставить промахнуться. Навык «Уклонение» от неё не спасает; вблизи цели сфера способна резко поворачивать, чтобы попасть в неё.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "orb of entropy": {
+      "source_sha256": "add28d8280be559804983d95879350a80e6321c08236387612bd31ad52d70cc3",
+      "text": "Сфера абсолютного небытия и забвения, ожидающего всё сущее — плоть, души и даже само время. Когда вселенная прекратит существование, останутся только они.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "orb of winter": {
+      "source_sha256": "851d58c3a261b374a721f7d951b2e61a18bb81664f234a52acb1b44796689c53",
+      "text": "Сфера глубочайшего холода, сохранившегося с времён, когда звёзды ещё не озарили небеса. Она способна окутать душу таким морозом, что даже боги не смогут до неё дотянуться.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "pillar of rime": {
+      "source_sha256": "f7d57870b3f85868ccbb60748ef60a8310df66f4145922e03e0bd462c8d015ec",
+      "text": "Шпиль из странно мрачного льда. Его хрупкие отростки тянутся к небу, словно пальцы раскрытой ладони. {{\n    if spells.memorised(\"rimeblight\") then\n        return \"Если бы каждый предсмертный вздох души рождал подобное искусство.\"\n    else\n        return \"Это даже могло бы быть красиво, если бы вы не знали, каким жутким \" ..\n               \"способом оно возникло.\"\n    end\n}}",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. ",
+      "lua_strings": {
+        "If only the dying breath of every soul could create such art.": "Если бы каждый предсмертный вздох души рождал подобное искусство.",
+        "It might even be beautiful if you didn't know the gruesome ": "Это даже могло бы быть красиво, если бы вы не знали, каким жутким ",
+        "way it formed.": "способом оно возникло."
+      },
+      "wiki_text": "Шпиль из странно мрачного льда. Его хрупкие отростки тянутся к небу, словно пальцы раскрытой ладони."
+    },
+    "splinterfrost barricade": {
+      "source_sha256": "fb42835da13fff2fd578c3bf014a4c0f85442e37475d4aab5803ad8ebd9cff2e",
+      "text": "Прочная баррикада из льда, усиленного кузнечной магией. Прямо под её поверхностью видна сеть точных тончайших трещин: получив критические повреждения, она распадается на шквал бритвенно острых снарядов.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "walking tome": {
+      "source_sha256": "2e55a781b7227159111105dab208a1b7d8043cd11c0b9b865595b53ef6b7ad64",
+      "text": "Книга заклинаний, которую слишком долго никто не читал. Она переполняется магией, создавая толстую броню из переплёта, ноги из страниц и время от времени извергая стайки свободно парящих заклинаний, которые творят себя сами.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "walking earthen tome": {
+      "source_sha256": "f04c99c36a8547e1ce03158869f92f48d0a737ac651b2f166ecb4cb3fbce6bda",
+      "text": "Книга заклинаний, которую слишком долго никто не читал. Она переполняется магией, создавая толстую броню из переплёта, ноги из страниц и время от времени извергая стайки свободно парящих заклинаний, которые творят себя сами.\n\nЕё покрывает неправдоподобно древняя пыль.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "walking crystal tome": {
+      "source_sha256": "743cb2a397fbbd3eb1193bcb52311767b4cba7141a04507b13022ff4e60fe1d5",
+      "text": "Книга заклинаний, которую слишком долго никто не читал. Она переполняется магией, создавая толстую броню из переплёта, ноги из страниц и время от времени извергая стайки свободно парящих заклинаний, которые творят себя сами.\n\nЕё покрывают длинные острые кристаллы, выглядящие смертельно опасными.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "walking divine tome": {
+      "source_sha256": "11edebd111d12654a6582387e0ec20428298faac7fe0f09df06f5b0c30ba2538",
+      "text": "Книга заклинаний, которую слишком долго никто не читал. Она переполняется магией, создавая толстую броню из переплёта, ноги из страниц и время от времени извергая стайки свободно парящих заклинаний, которые творят себя сами.\n\nНа обложке изображён давно забытый бог, всё ещё преисполненный гнева.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+    },
+    "walking frostbound tome": {
+      "source_sha256": "342db3819225f5e6d6a24f4d62683272dc7d96a83b40264a14a9657f46a7da26",
+      "text": "Книга заклинаний, которую слишком долго никто не читал. Она переполняется магией, создавая толстую броню из переплёта, ноги из страниц и время от времени извергая стайки свободно парящих заклинаний, которые творят себя сами.\n\nОна блестит под толстым слоем нетающего льда.",
+      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
     }
   },
   "status": {
