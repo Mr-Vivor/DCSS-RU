@@ -1638,6 +1638,86 @@
 | walking crystal tome | ходячий кристаллический фолиант |
 | walking divine tome | ходячий божественный фолиант |
 | walking frostbound tome | ходячий обледеневший фолиант |
+| alderking | ольховый король |
+| assassin centipede monster | многоножка-убийца |
+| assassin centipede | многоножка-убийца |
+| ballistomycete | баллистомицет |
+| ballistomycete spore | спора баллистомицета |
+| barachi | барачи |
+| bennu | бенну |
+| bes kemwar | бес кемвар |
+| block of ice | ледяная глыба |
+| boggart | боггарт |
+| boulder | валун |
+| briar patch | терновые заросли |
+| burial acolyte | погребальный послушник |
+| burstshroom | взрывной гриб |
+| cerulean imp | лазурный бес |
+| cherub | херувим |
+| chonchon | чончон |
+| colossal amoeba | колоссальная амёба |
+| crystal echidna | кристаллическая ехидна |
+| death knight | рыцарь смерти |
+| demonspawn blood saint | кровавый святой из порождений демонов |
+| demonspawn corrupter | осквернитель из порождений демонов |
+| demonspawn soul scholar | знаток душ из порождений демонов |
+| demonspawn warmonger | разжигатель войн из порождений демонов |
+| draugr | драугр |
+| dread lich | жуткий лич |
+| drowned soul | душа утопленника |
+| dryad | дриада |
+| eldritch tentacle | потустороннее щупальце |
+| eldritch tentacle segment | сегмент потустороннего щупальца |
+| elemental wellspring | стихийный источник |
+| elephant | слон |
+| ettin | эттин |
+| eye of draining | око истощения |
+| flayed ghost | освежёванный призрак |
+| formicid | формицид |
+| fungal shambler | грибной бродяга |
+| glass eye | стеклянное око |
+| glowing orange brain | светящийся оранжевый мозг |
+| goblin rider | гоблин-всадник |
+| harpy | гарпия |
+| imperial myrmidon | имперский мирмидон |
+| ironbound mechanist | закованный в железо механик |
+| jiangshi | цзянши |
+| kobold brigand | кобольд-разбойник |
+| kobold blastminer | кобольд-взрывник |
+| kobold fleshcrafter | кобольд-ваятель плоти |
+| kobold geomancer | кобольд-геомант |
+| kraken | кракен |
+| laughing skull | хохочущий череп |
+| lava snake | лавовая змея |
+| lemure | лемур |
+| marrowcuda | маррокуда |
+| meliai | мелия |
+| molten gargoyle | расплавленная горгулья |
+| mongrel wurm | вурм-помесь |
+| morphogenic ooze | морфогенный слизень |
+| mountainshell | черепаха-гора |
+| mutant beast | зверь-мутант |
+| obsidian bat | обсидиановая летучая мышь |
+| obsidian statue | обсидиановая статуя |
+| occultist | оккультист |
+| oklob sapling | росток оклоба |
+| oni incarcerator | они-тюремщик |
+| orange crystal statue | оранжевая кристаллическая статуя |
+| orc apostle | апостол орков |
+| orc apostle follower | апостол орков |
+| peacekeeper | миротворец |
+| petrified flower | окаменевший цветок |
+| phantasmal warrior | призрачный воин |
+| poltergeist | полтергейст |
+| program bug | ошибка программы |
+| protean progenitor | изменчивый прародитель |
+| putrid mouth | гнилостная пасть |
+| quicksilver elemental | ртутный элементаль |
+| raven | ворон |
+| revenant soulmonger | ревенант-собиратель душ |
+| roaming sludgefish | странствующая иловая рыба |
+| Royal Jelly | Королевский слизень |
+| the Royal Jelly | Королевский слизень |
 
 ## genus
 
