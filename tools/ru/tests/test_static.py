@@ -43,6 +43,16 @@ class StaticTranslationTests(unittest.TestCase):
                 self.assertIn(text, page, key)
                 self.assertIn(text, [power["text"] for power in reference[key]["powers"]], key)
 
+    def test_reviewed_monster_descriptions_have_named_wiki_pages(self):
+        reviewed = reviewed_descriptions()["monsters"]
+        reference = json.loads((ROOT / "wiki/ru/reference/descriptions.json").read_text(encoding="utf8"))["monsters"]
+        for key in reviewed:
+            title = reference[key]["title"]
+            self.assertIsNotNone(title, key)
+            self.assertRegex(title, r"[А-Яа-яЁё]", key)
+            page = ROOT / "wiki/ru/reference/monsters" / (page_slug(key) + ".md")
+            self.assertIn("**English:** " + key, page.read_text(encoding="utf8"))
+
     def test_ancestor_reference_pages_have_portable_distinct_paths(self):
         from generate import page_slug
         paths = []

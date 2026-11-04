@@ -5942,6 +5942,261 @@
       "source_sha256": "7d881fd490e7a094f403e9bb6131930215e43428b1cb252bd4792e4a917311a2",
       "text": "Причудливое симбиотическое существо: плотоядная лоза, магически соединённая с человекоподобным телом.",
       "context": "Current monsters.txt and canonical species/genus nouns, not a new species list. Dwarf matches Mountain Dwarf дворф; Vine Stalker is not a grape hunter. Human plural is люди; oni and demonspawn English plurals invariant. Gauntlet is the existing Испытание branch. Raw lookup keys preserved."
+    },
+    "broodmother": {
+      "source_sha256": "7ecda503bcb71339356c9c11f16f696538bfd22740c18d6fc5482313bb580ac7",
+      "text": "Гигантская паучиха, раздувшаяся от яиц. Её бесчисленное потомство всегда готово явиться на зов.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "culicivora": {
+      "source_sha256": "5bfaff3be05d1ed448f3bb491009a6c3d8e796fd067f98d628195c61c6c53446",
+      "text": "Небольшой паук с зачаточными целительскими способностями. Хотя он и не нежить, его вампирический укус весьма опасен.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "jorogumo": {
+      "source_sha256": "9763bad44cdb5dfbce3610796bcf7aaf899a2eda6e5438637d240a3d68c2b882",
+      "text": "Паучий дух, принимающий человеческий облик. Он сплетает смертоносные чары, чтобы обездвижить и убить добычу.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "entropy weaver": {
+      "source_sha256": "74a616abdb502e7490095620f5d8d05f8234675919e4e9415e7dc2fbd82bf2f7",
+      "text": "Исхудавшее человекоподобное существо с бледным шелушащимся хитином. Его тонкие конечности заканчиваются острыми как бритва когтями и способны двигаться с поразительной быстротой.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "radroach": {
+      "source_sha256": "40000e0636905aeb4d11819f35b379a68ccf907045a251d6f1616efe8f5c189f",
+      "text": "Гигантский таракан, подвергшийся мощному воздействию мутагенной энергии. Ужасающие мутации лишь сделали его сильнее.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "steelbarb worm": {
+      "source_sha256": "a40f1959893cfb5276bb8b66e4475f328535f54fb286799c07d6b7e3de3ad8bc",
+      "text": "Крупный червь, покрытый прочными шипастыми металлическими пластинами. Несмотря на кажущуюся тяжесть наружной брони, он довольно быстр.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "spark wasp": {
+      "source_sha256": "14de24441d8efb52c14cce62e0d7e968124aa62cb4c721013b431beac59cd8c9",
+      "text": "Совершенно противоестественное насекомое, покрытое пластинами, отдалённо напоминающими металл. Его жало потрескивает электричеством и способно сильно ударить током неосторожную жертву. Оно сближается с добычей с поразительной, смертоносной быстротой.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "tarantella": {
+      "source_sha256": "887417b230b0a82f0bcb634e6d1fb862a3db860599b93f24870fb673fdb87e1c",
+      "text": "Небольшой паук, внушающий огромный страх. Одно его прикосновение заставляет жертв пускаться в безумную пляску.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "pharaoh ant": {
+      "source_sha256": "0540848cd9b17eecd80fb450319405e3e20e96adcadaaa95d21ff8f1c000fcbe",
+      "text": "Царственный муравей, возвращённый к нежизни странным и, вероятно, ужасающим способом. Погибая, он связывает души союзников, позволяя им после смерти продолжить бой в виде симулякров.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "torpor snail": {
+      "source_sha256": "182e792e1dc55999f600d1d2e6d5e32aebcc0e51547d96586748d9552c8c814a",
+      "text": "Неповоротливый брюхоногий моллюск с твёрдой как камень раковиной. Говорят, он каким-то образом связан с Чейбриадосом. Одно его присутствие замедляет неосторожных искателей приключений, превращая их в лёгкую добычу для страшной, непрестанно скрежещущей тёрки во рту улитки.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "bunyip": {
+      "source_sha256": "60a63f68edbb3636536236169d17a84777202f9354b58a564d2132c4e7d769ab",
+      "text": "Плотоядный зверь, использующий конечности и хвост наравне друг с другом. Он передвигается с пугающей быстротой, но после каждой атаки вынужден делать паузу, чтобы вновь привести тело в порядок. Его характерные вопли разносятся далеко вокруг.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "eleionoma": {
+      "source_sha256": "f3d8cece6a5470afadd6879c2e87ad89b14f5915f76a967bc8b2474a9bf83e86",
+      "text": "Духи болот и трясин. Сила этих свирепых хранителей исходит от болотных кипарисов и ив. Они перетекают по сучьям и ветвям и выходят из деревьев рядом с врагами, чтобы нанести удар.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "fenstrider witch": {
+      "source_sha256": "6062c280067e482f95edee22327d1677d6741479d3cc84b08ca26b1c09a81a50",
+      "text": "Последовательницы древних болотных обычаев, эти ведьмы возвышаются над грязью и топью на паре куриных ног, длинных как ходули. Они владеют искусством боли и яда.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "formless jellyfish": {
+      "source_sha256": "aae8af8d21cadafbbef0b2cb1573a72a5fdca234f4999855fa63cf08d31fd6e0",
+      "text": "Студенистое сплетение щупалец и яда, оставляющее блестящий след при скольжении. Неужели подобное глумление над жизнью могло возникнуть естественным путём?..",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "ghost crab": {
+      "source_sha256": "6fca547edb024dfc2bbdbbf06649ac13adde4289cc5178b9ef906903316e6c0c",
+      "text": "Краб, искажённый близостью отрицательной энергии. Вокруг него кружатся едва различимые призраки мёртвых.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "goliath frog": {
+      "source_sha256": "04f4a74cfd2b19b7bbcacf01690fcd0ce5c1a334027f63c8afe53d6f0a94ad68",
+      "text": "Лягушка исключительных, даже для лягушки, размеров. Она хлещет добычу языком на расстоянии, покрывая её едкими желудочными соками.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "bog body": {
+      "source_sha256": "b233525487742310169e5d651adc0c626608b87b92bd3eaf755f193303a193af",
+      "text": "Нежить, чьё тело сохранилось в солоноватых болотных водах и было оживлено неизвестной магией.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "bloated husk": {
+      "source_sha256": "ecd6bbc294975824dc66e420b0c755899fe2b271e3e63f00328b079ddb660513",
+      "text": "Разлагающийся оживший труп. Когда он добирается до жертвы или его уничтожают раньше, скопившиеся внутри газы вырываются наружу, вызывая мощный взрыв с сильной ударной волной.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "cane toad": {
+      "source_sha256": "00fe60d8dbf6cefb9d152df18982007c9153b8a49e2e6bdf1c87d76307c0d080",
+      "text": "Отвратительная жаба, чья толстая бородавчатая кожа покрыта ядовитыми железами. В отличие от небольших наземных сородичей, этот обитатель Подземелья размером с волка.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "bullfrog": {
+      "source_sha256": "af03266154a0f45d8847a4d714bd21f975034706dca3d99f5daf9a93c21058d2",
+      "text": "Необычайно агрессивное земноводное, преследующее добычу быстрыми прыжками. Его кваканье громко и узнаваемо, но, в отличие от мелких наземных сородичей, эта лягушка действительно столь же велика, как можно предположить по её голосу.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "water nymph": {
+      "source_sha256": "0ce7f206b109474a7d5223c2b240b136237b0a28fc1c106a9a3129bf122c7222",
+      "text": "Капризный дух природы, тесно связанный с водами, в которых живёт. Она может следовать за любым их течением, а пруды и реки вздымаются и бурлят по её прихоти.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "water elemental": {
+      "source_sha256": "f355fc56d12635862d5c547463a20b6f8d378f19178a1db19e61d3e5e415d684",
+      "text": "Дух, призванный со стихийного плана воды. В этом мире он существует как часть водоёма и может поглощать других существ своим телом, лишая их дыхания и голоса.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "wind drake": {
+      "source_sha256": "24f8699f31e4e83e7241b3d19de3ca7a6b717bba609d3e4a42ed546da222279d",
+      "text": "Небольшой, но могучий дракон, особенно искусный среди сородичей в управлении воздушными потоками вокруг себя. Он способен выдыхать мощные порывы ветра.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "skyshark": {
+      "source_sha256": "460da82a13fe4ed0f1c05a9d48f5d592998f65fedfa9c324756981af82b25f8d",
+      "text": "Небесные акулы рассекают воздух с непринуждённой лёгкостью. Достаточно одного вкуса крови, чтобы придать им яростную силу, а новые порции приводят их в бешенство.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "caustic shrike": {
+      "source_sha256": "361bebcd959b4645463f1573e41d109f79a6794a3edcab5f403a3b0803d8fca7",
+      "text": "Быстрая кошмарная птица, с острых как бритва металлических перьев которой капает едкая кислота.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "shard shrike": {
+      "source_sha256": "1640c5e697626aaf1f67de22ed5a85defb86bac70e887c73e99802014f0164ee",
+      "text": "Невероятно быстрая птица, известная тем, что сначала пронзает добычу осколками льда, а затем разрывает на части. Она приспособилась к безжизненным пустошам Коцита и окружена проклятым холодом.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "fravashi": {
+      "source_sha256": "e9eb3a0bde784325a4a2147605a3ac1b6075b6cd52b56eddbefbb6b410edc54e",
+      "text": "Благосклонный отголосок бесчисленных смертных рыцарей, служащих Сияющему. В божественной иерархии воинствам этих духов отведено направлять легионы в праведной борьбе. При необходимости они могут призвать смертных рыцарей для собственной защиты.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "haunted armour": {
+      "source_sha256": "c810cd3a72af2c1222975087d19de5ffeec79e5ebfcd54b3d4961d501f49222a",
+      "text": "Обычный доспех, удерживаемый вашей призрачной хваткой. Он может атаковать ближайших врагов, но должен вернуться к вам, если вы отойдёте от него слишком далеко.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "ancient zyme": {
+      "source_sha256": "237e24b748515ada79092793f7a3ee7c80b86664b556fc20c8e325b55b899adc",
+      "text": "Средоточие разумных опухолей и болезней, которое, возможно, удерживается в воздухе одной лишь злобой. Его природа обрекает всех живых существ поблизости на изнуряющую хворь.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "abyssal acolyte": {
+      "source_sha256": "e05c4e930415835f452dde22a4212e8e412284e048e5f423a2fee27817819a1c",
+      "text": "Миссионер Лугону, чьи останки обезглавленного тела вываливаются из блуждающего пространственного разлома. Он стремится приобщить других к радости и силе постепенного отделения от этого плана реальности.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "herald of the abyss": {
+      "source_sha256": "62e927b11f36da78f64260e5408fbe47a07b6a39081ef0a84bf724d0a66eaf78",
+      "text": "Мутировавший последователь Лугону, искажённый годами жизни в Бездне. Он возвысился до воплощения злобы Лугону ко всему остальному сущему и торжественно разрывает реальность во имя своего божества.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "worldbinder": {
+      "source_sha256": "7e3f8a446fbd2d3016b8ff1230379988ac6e91123a708565c0bb3f945bfa9acf",
+      "text": "Облако густого тумана, из которого непрерывно тянутся бледные слабые когти, чтобы снова раствориться в нём. При угрозе оно вызывает существ, изгнанных в пустоту между реальностями, и использует их для защиты.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "drude": {
+      "source_sha256": "577a5650c351fad454e541365bc6bb259025e04f796a5ffdb39c67727d7abcb9",
+      "text": "Коварный демон, рождённый кошмарами спящих магов. Он наслаждается тем, что превращает воображаемые страхи смертных в реальность.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "nargun": {
+      "source_sha256": "bbff81032a1d7bd0d125622c5d1492f4f3822256dcc6f295e7f4018a93358807",
+      "text": "Древнее каменное существо, обитавшее в этих замёрзших пещерах ещё до того, как Антей сотворил Коцит. Оно неохотно терпит новых соседей, предпочитая общество окаменевших врагов. Его промёрзшую каменную плоть пронизывают ледяные жилы.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "raiju": {
+      "source_sha256": "3550e35dc862891d58eaed4f38c874f0f77853e1c4d2e28ec6ea18c3da645223",
+      "text": "Совершенно противоестественная гончая, потрескивающая электричеством. Она передвигается стаями и преодолевает огромные расстояния, вспыхивая живой молнией.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "nekomata": {
+      "source_sha256": "7f4e7b414c525b3bccb4ad3f8c2f1e703afacc571d2971de6bba27bf8330709e",
+      "text": "Старый демон-плут, похожий на прямоходящую кошку. Его раздвоенный хвост охвачен мерцающей дымкой. Он глубоко презирает смертных человекоподобных существ, снисходительно жалеет смертных кошек и обладает достаточной магической мощью, чтобы подчинить и тех и других.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "hypnotail": {
+      "source_sha256": "df7d826d529f466f267da093588e1a40fcc0a85df6cfb14ed1119f084d7b58e7",
+      "text": "Сброшенный хвост гипногеккона. Он всё ещё пульсирует завораживающими цветами, заставляя ближайших хищников смотреть на него, а не на несчастную ящерицу, которой он прежде принадлежал.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "cognitogaunt": {
+      "source_sha256": "250b02554f709e75b9e63eb2fb9c0c688d095bd6f0c6286d075e62e9c0aaf676",
+      "text": "Высохший обезглавленный труп, оживлённый не обычной некромантией, а скорбной злобой мёртвых звёзд. Его призрачные глаза плывут отдельно от движений тела и неустанно вгрызаются в разум жертв.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "phalanx beetle": {
+      "source_sha256": "f4d763c3f3dd0500f6bc541a5029cf343f4da9a3ee050bc3e1bf3aadc6756cfe",
+      "text": "Искусно устроенный механический жук с укреплёнными металлическими пластинами, напоминающими щит. Находясь рядом с создателем, он окружает его кинетическим барьером, повышающим броню.\n\nОн никогда добровольно не покинет создателя; если его оттолкнуть, он прежде всего постарается вернуться к нему.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "bombardier beetle": {
+      "source_sha256": "dda4a36b31ab7903f66dbe060512960c2519f91147b6088297ec3613e67ba605",
+      "text": "Неприметный жук, наполненный невероятным количеством самовоспламеняющейся жидкости. Его липкие брызги способны поджечь и хищника, и неосторожного искателя приключений. Более опытные путники знают, что ради спасения от огненной могилы нужно продолжать двигаться.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "river rat": {
+      "source_sha256": "1f2c2ec99f84df85c50e72990e2d92e846f4647347573d89199ccf878c176f26",
+      "text": "Грызун с шерстью необычайного зелёного цвета и мощным укусом. Склонен собираться с сородичами в огромные стаи.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "ribbon worm": {
+      "source_sha256": "485771ea1cc593891ce987a4e56760c23d226eb2d8c77324b410c780da37015e",
+      "text": "Гигантский кольчатый червь, блестящий от слизи и наделённый необычайно крупными зубами. Он выбрасывает наружу части собственных внутренностей, чтобы опутать ничего не подозревающую добычу.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "dart slug": {
+      "source_sha256": "f7ab87c34d6ff3fa5e08b2cfcb8b431086c7046941ad7520e1c20a4f7b195672",
+      "text": "Небольшое беспозвоночное. Охотится на добычу значительно крупнее себя, выстреливая хитиновыми иглами: скрытый воздушный мешок придаёт им поразительную дальность и силу.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "frilled lizard": {
+      "source_sha256": "8472eb96a9d721abce5e75ebd439d5493cb03a0ed6eceb3acb85ba44c1066d82",
+      "text": "Ящерица с огромным ярким воротником, сложенным вокруг шеи. Угрожая жертвам, она расправляет этот впечатляющий воротник и злобно шипит.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "howler monkey": {
+      "source_sha256": "7caa8aa368bab074075d0b54020b55655959da7c401d081d2c5e11e3728c86ee",
+      "text": "Примат, яростно защищающий свою территорию. Известен поразительным разнообразием и громкостью издаваемых звуков.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "endoplasm": {
+      "source_sha256": "4e46c017809d785e7f65be46eeb3a30bd5e721322a4f3597a2b6185fc7f039be",
+      "text": "Комок серой слизи, каким-то образом обретший зачатки сознания и ограниченную подвижность. Чтобы поддерживать своё существование, он время от времени вытягивает тепло из окружения, замораживая врагов, которым не повезло оказаться рядом.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "sleepcap": {
+      "source_sha256": "4c00a20df6384b30bcde17949075e514cd928b5aad1d42f98f56c35535ceb4df",
+      "text": "Удивительно подвижный гриб. Он окутывает добычу спорами, погружая её в глубокий сон, после чего легко убивает и пожирает. Его грибнице могут понадобиться месяцы, чтобы полностью пронизать и переварить жертву.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "rime drake": {
+      "source_sha256": "089d6d37f9e909aae91dccc482fbbb747bb373494d490b1bb523c5edfa18d151",
+      "text": "Небольшой, но опасный дракон. Его дыхание видно даже в самый тёплый день.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "rust devil": {
+      "source_sha256": "51ba150e698848551ea1b8863f201eeebeb0b15de0139b395e373232746479fd",
+      "text": "Отвратительное человекоподобное существо с металлической кожей, покрытой пятнами ржавчины. Оно распространяет коррозию и тление на всё, к чему прикасается.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "vampire": {
+      "source_sha256": "3bfa92cfaf72ad06226dbff54512d89d181f7e05239eef02e47c8fc505eed2a6",
+      "text": "Человек, проклятый вампиризмом и застывший между жизнью и нежитью, вечно жаждущий крови живых.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+    },
+    "mummy": {
+      "source_sha256": "8f4edadd42399f9d79c7a5842e323046926ba93d5c26c7e3b840d0b0ec3d0100",
+      "text": "Нежить, покрытая бинтами и бальзамирующими составами, которую заставляет двигаться древнее проклятие. От неё исходит зловещая аура.",
+      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
     }
   },
   "status": {

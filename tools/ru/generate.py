@@ -185,7 +185,8 @@ def outputs(entities):
             **{key: system_messages.get(key.removesuffix(" mutation"))
                for key in reviewed.get("mutations", {}) if key.endswith(" mutation")},
         },
-        "monsters": {e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"},
+        "monsters": {**terms.get("monsters", {}),
+                     **{e["en"]: e["forms"]["singular"]["nom"] for e in entities if e["kind"] == "monster"}},
         "status": status_names,
     }
     reference_headings = {"items": "Предметы", "skills": "Навыки", "mutations": "Мутации и проклятия", "status": "Состояния",
