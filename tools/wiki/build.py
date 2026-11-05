@@ -178,7 +178,6 @@ class Builder:
         self.gui_tiles = tile_map("dc-gui.txt")
         self.spell_tiles = tile_map("dc-spells.txt")
         self.feature_tiles = tile_map("dc-feat.txt")
-        self.item_tiles = tile_map("dc-item.txt")
         self.spells = spell_data()
         self.weapons,self.armour,self.missiles=equipment_data(ROOT)
         self.books=spellbook_data(ROOT)
