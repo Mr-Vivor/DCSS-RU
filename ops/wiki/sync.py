@@ -66,7 +66,7 @@ def main():
                 shutil.copyfile(output/name,shared/'resources'/name)
             shutil.copyfile(output/'report.json',shared/'build-report.json')
             shutil.copyfile(output/'search-extracts.json',shared/'search-extracts.json')
-            data=urllib.parse.urlencode(dict(action='purge',format='json',titles='Заглавная страница|Виды|Предыстории|Боги|Заклинания|Существа|Предметы')).encode()
+            data=urllib.parse.urlencode(dict(action='purge',format='json',titles='Заглавная страница|Виды|Предыстории|Боги|Заклинания|Существа|Предметы|Навыки|Артефакты')).encode()
             request=urllib.request.Request('https://wiki.dungeoncrawl.ru/api.php',data=data,headers={'User-Agent':'DCSS-RU-wiki-sync/1.0'})
             with urllib.request.urlopen(request,timeout=30) as response:json.load(response)
             cursor.write_text(sha+'\n')

@@ -48,6 +48,18 @@ SPECIES_SPRITES = {"Human":"human_m", "Mountain Dwarf":"dwarf_m", "Deep Elf":"de
     "Vine Stalker":"vine_stalker_green_m", "Demonspawn":"demonspawn_red_m", "Demigod":"demigod_m", "Draconian":"draconian",
     "Kobold":"kobold_m", "Gnoll":"gnoll_m", "Barachi":"frog_m", "Djinni":"djinni_red_m", "Coglin":"coglin",
     "Gale Centaur":"gale_centaur_m", "Mummy":"mummy_m", "Oni":"oni_red_m", "Poltergeist":"poltergeist", "Revenant":"revenant"}
+# The renderer selects these dynamically rather than assigning one static
+# monster tile. Use one of the actual in-game poses for the reference card.
+DYNAMIC_MONSTER_TILES = {
+    "orc apostle follower":"MONS_ORC_APOSTLE",
+    "eldritch tentacle":"MONS_ELDRITCH_TENTACLE_PORTAL",
+    "eldritch tentacle segment":"MONS_ELDRITCH_TENTACLE_SEGMENT_E_W",
+    "starspawn tentacle":"MONS_STARSPAWN_TENTACLE_S",
+    "starspawn tentacle segment":"MONS_STARSPAWN_TENTACLE_SEGMENT_E_W",
+    "snaplasher vine":"MONS_VINE_S",
+    "snaplasher vine segment":"MONS_VINE_SEGMENT_E_W",
+    "tentacle":"MONS_KRAKEN_TENTACLE_WATER",
+    "tentacle segment":"MONS_KRAKEN_TENTACLE_SEGMENT_WATER"}
 FLAG_LABELS = {"flies":"Полёт", "see_invis":"Видит невидимых", "invis":"Невидимость", "fast_regen":"Быстрая регенерация",
     "stationary":"Неподвижность", "insubstantial":"Бестелесность", "unique":"Уникальный противник", "no_regen":"Не восстанавливает здоровье"}
 ATTACKS = {"hit":"удар", "bite":"укус", "claw":"когти", "sting":"жало", "peck":"клюв", "constrict":"сдавливание",
@@ -98,6 +110,8 @@ def tile_map(filename):
         line = line.split("#", 1)[0].strip()
         if line.startswith("%sdir "):
             directory = line.split(maxsplit=1)[1]
+        elif line.startswith("%include "):
+            result.update(tile_map(line.split(maxsplit=1)[1]))
         elif line and not line.startswith("%"):
             parts = line.split()
             if len(parts) > 1:
@@ -160,6 +174,7 @@ class Builder:
         self.sprite_map = {}
         self.unresolved = set()
         self.mon_tiles = tile_map("dc-mon.txt")
+        self.misc_tiles = tile_map("dc-misc.txt")
         self.gui_tiles = tile_map("dc-gui.txt")
         self.spell_tiles = tile_map("dc-spells.txt")
         self.feature_tiles = tile_map("dc-feat.txt")
@@ -285,7 +300,14 @@ class Builder:
                     data = self.monsters.get(key.casefold(),{})
                     enum = data.get("enum", "MONS_"+key.upper().replace(" ","_").replace("'",""))
                     if not enum.startswith("MONS_"):enum="MONS_"+enum.upper()
-                    path=self.mon_tiles.get(enum) or self.find_sprite(data.get("tile",key),("mon",))
+                    tile = data.get("tile", "").upper().removeprefix("TILEP_").removeprefix("TILE_")
+                    path=(self.mon_tiles.get(DYNAMIC_MONSTER_TILES.get(key,enum))
+                          or self.mon_tiles.get(tile) or self.mon_tiles.get("MONS_"+tile)
+                          or self.misc_tiles.get(tile))
+                    if key == "draconian" or key.endswith(" draconian") and key.split()[0] in ('black','green','grey','pale','purple','red','white','yellow'):
+                        colour = 'brown' if key == 'draconian' else key.split()[0]
+                        path = self.find_sprite('draco-base-'+colour,('mon',))
+                    path=path or self.find_sprite(data.get("tile",key.removesuffix(' monster')),("mon",))
                 elif group == "skills":path=self.find_sprite({'Alchemy':'poison_magic','Ranged Weapons':'bows'}.get(plain,plain),("skills",))
                 elif group in ("items","unrand"):
                     path=self.find_sprite(plain,("item",))
