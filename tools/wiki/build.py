@@ -52,6 +52,7 @@ FLAG_LABELS = {"flies":"Полёт", "see_invis":"Видит невидимых"
 ATTACKS = {"hit":"удар", "bite":"укус", "claw":"когти", "sting":"жало", "peck":"клюв", "constrict":"сдавливание",
     "trample":"растаптывание", "gore":"рога", "tentacle_slap":"удар щупальцем", "touch":"касание", "tail_slap":"удар хвостом"}
 PAGE_TITLES = {
+    ("status","Bog status"):"Болото (состояние)",
     ("monsters","ghost"):"Призрак (архив)",
     ("monsters","orc apostle follower"):"Апостол орков (последователь)",
     ("ability","Jump ability"):"Прыжок (случайное приземление)",
@@ -115,6 +116,22 @@ def spell_data():
         if len(fields) >= 8:
             result[match[2].casefold()] = {"enum":match[1], "schools":re.findall(r"spschool::(\w+)", fields[0]),
                 "level":fields[2], "tile":fields[7].removeprefix("TILEG_")}
+    return result
+
+
+def branch_data():
+    """Read the entry ranges and lengths from this fork, not an old wiki map."""
+    text = (ROOT / "crawl-ref/source/branch-data.h").read_text(encoding="utf8")
+    result = {}
+    pattern = r'\{\s*BRANCH_([A-Z_]+),\s*([A-Z_]+),\s*(-?\d+),\s*(-?\d+),\s*(\d+),'
+    for match in re.finditer(pattern, text):
+        row = dict(parent=match[2].removeprefix("BRANCH_"),
+                   first=int(match[3]), last=int(match[4]), levels=int(match[5]))
+        # Compatibility definitions repeat Depths/Gauntlet with the same map
+        # data. Fail visibly if that ever ceases to be true.
+        if match[1] in result and result[match[1]] != row:
+            raise ValueError(("Ambiguous branch parameters", match[1]))
+        result[match[1]] = row
     return result
 
 
@@ -389,6 +406,10 @@ class Builder:
     def render(self):
         pages={}
         counts={g:0 for g in GROUPS}
+        for group,entries in self.notes.items():
+            for key in entries:
+                if (group,key) not in self.keys:
+                    raise ValueError(('Advice has no matching game entry',group,key))
         for title,row in self.rows.items():
             group=row["group"];key=row["entries"][0]["key"];counts[group]+=1
             sprite=row.get("sprite")
@@ -405,7 +426,10 @@ class Builder:
                     body+="\n"+value+"\n";seen.add(value)
             body+=self.metadata(row)
             advice=self.notes.get(group,{}).get(key)
-            if advice:body+="\n== Советы по игре ==\n"+advice+"\n"
+            if advice:
+                if isinstance(advice,str):advice={"text":advice}
+                body+="\n== Советы по игре ==\n"+advice['text']+"\n"
+                body+=self.community_sources(advice.get('sources',[]))
             body+=self.source(row)
             body+="\n[[Категория:"+GROUPS[group][0]+"]]"
             pages[title]=dict(text=body,key=group+":"+key,kind="article")
@@ -444,12 +468,23 @@ class Builder:
             plain=re.sub(r'\s+',' ',plain).strip()
             extracts[title]=plain[:300]+('…' if len(plain)>300 else '')
         for title,row in pages.items():
+            if row['kind']=='guide' and title not in extracts:
+                plain=re.sub(r'<[^>]*>|__\w+__|^=+.*?=+\s*$', '', row['text'], flags=re.M)
+                plain=re.sub(r'\[\[([^\]|]+\|)?([^\]]+)\]\]',lambda m:m[2],plain)
+                plain=re.sub(r'\[https?://[^\s\]]+\s+([^\]]+)\]',lambda m:m[1],plain)
+                plain=re.sub(r"'{2,}", '', plain)
+                plain=re.sub(r'\s+',' ',plain).strip()
+                extracts[title]=plain[:300]+('…' if len(plain)>300 else '')
+        for title,row in pages.items():
             if row['kind']=='redirect':
                 match=re.search(r'\[\[([^\]]+)\]\]',row['text'])
                 if match and match[1] in extracts:extracts[title]=extracts[match[1]]
         (self.output/'search-extracts.json').write_text(json.dumps(extracts,ensure_ascii=False)+'\n',encoding='utf8')
         (self.output/"pages.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
-        report=dict(article_counts=counts,pages=len(pages),sprites=len(self.assets),unresolved_references=sorted(self.unresolved),sprite_coverage={g:sum(bool(r.get("sprite")) for r in self.rows.values() if r["group"]==g) for g in GROUPS})
+        report=dict(article_counts=counts,pages=len(pages),sprites=len(self.assets),unresolved_references=sorted(self.unresolved),sprite_coverage={g:sum(bool(r.get("sprite")) for r in self.rows.values() if r["group"]==g) for g in GROUPS},
+            editorial=dict(advice_counts={g:len(entries) for g,entries in self.notes.items()},
+                branches=len(load(ROOT/'wiki/site/branches.json')),mechanics=len(load(ROOT/'wiki/site/mechanics.json')),
+                attributed_community_revisions=len(self.community)))
         (self.output/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
         shutil.copyfile(ROOT/"wiki/site/wiki-logo.svg",self.output/"wiki-logo.svg")
         shutil.copyfile(ROOT/"wiki/site/theme.css",self.output/"theme.css")
@@ -457,20 +492,65 @@ class Builder:
         shutil.copyfile(fallback,self.output/"favicon.png")
         print(json.dumps(report,ensure_ascii=False,indent=2))
 
+    def community_sources(self, keys):
+        sources=[]
+        for key in keys:
+            source=self.community_by_key.get(key.casefold())
+            if not source:raise ValueError(('Missing community attribution',key))
+            sources.append("["+source["url"]+" "+source["title"]+"]")
+        if not sources:return ''
+        return '\n<div class="dc-source">Перевод и адаптация материалов CrawlWiki: '+" · ".join(sources)+". Авторы исходных страниц перечислены в их истории. Материал адаптирован для 0.35-a0; выбор тактики зависит от персонажа.</div>"
+
+    def add_branches(self,pages):
+        records=load(ROOT/'wiki/site/branches.json')
+        stats=branch_data()
+        names={key:row.get('title',self.terms['branches'].get(row['label'],self.static['dungeon'].get(row['label']))) for key,row in records.items()}
+        if not all(names.values()):raise ValueError('Missing shared branch name')
+        overview=[]
+        for key,row in records.items():
+            title=names[key];data=stats[key]
+            text=row['text']
+            values=[('Название в игре',self.static['dungeon'].get(row['label'],title)),('Обозначение этажа',row['abbrev']),('Число уровней',str(data['levels']))]
+            parent=names.get(data['parent'])
+            if parent and data['first']>=0:
+                floor=str(data['first'])+('–'+str(data['last']) if data['last']!=data['first'] else '')
+                values.append(('Вход','[['+parent+']], этаж '+floor))
+            if row.get('reward'):values.append(('Главная цель',row['reward']))
+            sprite=self.sprite(self.feature_tiles.get('DNGN_ENTER_'+key))
+            # Most entry tiles use the same enum suffix as their branch; Hell
+            # and portal spellings have explicit overrides where necessary.
+            if row.get('tile'):sprite=self.sprite(self.feature_tiles.get('DNGN_'+row['tile']))
+            image='[[Файл:'+sprite+'|32px|link=|'+title+']] ' if sprite else ''
+            body='<div class="dc-kicker">Ветви и порталы · 0.35-a0</div>\n'+image+text+'\n\n== Расположение и устройство ==\n'+self.table(values)
+            body+='\nПараметры входа и длина ветви взяты из [https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/crawl-ref/source/branch-data.h текущего исходного кода]. Для порталов действуют особые правила входа; наличие записи в таблице не означает обычную лестницу в Подземелье.\n'
+            body+=self.community_sources(row.get('sources',[]))
+            body+='\nСм. также: [[Ветви подземелья]], [[Порталы]], [[Путь к Сфере]].\n[[Категория:Ветви подземелья]]'
+            if title in pages:raise ValueError(('Branch page collision',title))
+            pages[title]=dict(text=body,key='branch:'+key,kind='guide')
+            for alias in row.get('aliases',[]):
+                if alias!=title and alias not in pages:pages[alias]=dict(text='#REDIRECT [['+title+']]',key='redirect:'+alias,kind='redirect')
+            overview.append('* [['+title+']] — '+row['summary'])
+        world=load(ROOT/'wiki/site/world-guide.json')
+        pages['Ветви подземелья']=dict(text=world['text']+'\n\n== Справочник ветвей и порталов ==\n'+'\n'.join(overview)+self.community_sources(world.get('sources',[]))+'\n[[Категория:Руководства]]',key='guide:branches',kind='guide')
+        pages['Категория:Ветви подземелья']=dict(text='Карта связей и полный список: [[Ветви подземелья]].',key='category:branches',kind='category')
+
     def add_site(self,pages,counts):
+        self.add_branches(pages)
         guides=load(ROOT/"wiki/site/guides.json")
+        for title,row in load(ROOT/'wiki/site/mechanics.json').items():
+            if title in guides:raise ValueError(('Duplicate guide',title))
+            guides[title]=row
         for title,row in guides.items():
             text=row["text"]
-            sources=[]
-            for key in row.get("sources",[]):
-                source=self.community_by_key.get(key.casefold())
-                if source:sources.append("["+source["url"]+" "+source["title"]+"]")
-            if sources:text+='\n<div class="dc-source">Перевод и адаптация материалов CrawlWiki: '+" · ".join(sources)+". Авторы исходных страниц перечислены в их истории. Механики сверяются с 0.35-a0, рекомендации могут зависеть от персонажа.</div>"
+            text+=self.community_sources(row.get('sources',[]))
+            if title in pages:raise ValueError(('Guide would replace a catalogue page',title))
             pages[title]=dict(text=text,key="guide:"+title,kind="guide")
+            for alias in row.get('aliases',[]):
+                if alias not in pages:pages[alias]=dict(text='#REDIRECT [['+title+']]',key='redirect:'+alias,kind='redirect')
         provenance="Конкретные редакции CrawlWiki, использованные при подготовке русского справочника. Численные игровые данные сверяются отдельно с русским форком.\n\n"+"\n".join("* ["+v["url"]+" "+k+"] — "+v["timestamp"][:10] for k,v in sorted(self.community.items()))+"\n[[Категория:Проект]]"
         pages["Dungeon Crawl:Источники"]=dict(text=provenance,key="community-provenance",kind="project")
         pages["MediaWiki:Common.css"]=dict(text=(ROOT/"wiki/site/theme.css").read_text(encoding="utf8"),key="theme",kind="css")
-        sidebar="* Навигация\n** mainpage|Заглавная страница\n** https://dungeoncrawl.ru/|Играть в браузере\n** Первые шаги|Первый заход\n** Управление|Клавиши и команды\n* Персонаж\n** Виды|Виды\n** Предыстории|Предыстории\n** Навыки|Навыки\n** Боги|Боги\n** Заклинания|Заклинания\n** Способности|Способности\n* Подземелье\n** Существа|Существа\n** Предметы|Предметы\n** Артефакты|Артефакты\n** Местность|Местность\n** Состояния|Состояния\n** Мутации|Мутации\n** Карты|Карты\n* Сообщество\n** Версия игры|Версия игры\n** Dungeon Crawl:О вики|О вики и источники\n** Справка:Редактирование|Помочь с вики\n** recentchanges-url|Свежие правки\n** randompage-url|Случайная статья\n** https://github.com/Mr-Vivor/DCSS-RU|GitHub проекта\n* SEARCH\n* TOOLBOX\n* LANGUAGES"
+        sidebar="* Навигация\n** mainpage|Заглавная страница\n** https://dungeoncrawl.ru/|Играть в браузере\n** Первые шаги|Первый заход\n** Управление|Клавиши и команды\n** Механики игры|Механики игры\n* Персонаж\n** Виды|Виды\n** Предыстории|Предыстории\n** Навыки|Навыки\n** Боги|Боги\n** Заклинания|Заклинания\n** Способности|Способности\n* Подземелье\n** Ветви подземелья|Ветви и маршрут\n** Порталы|Порталы\n** Существа|Существа\n** Предметы|Предметы\n** Артефакты|Артефакты\n** Местность|Местность\n** Состояния|Состояния\n** Мутации|Мутации\n** Карты|Карты\n* Сообщество\n** Версия игры|Версия игры\n** Dungeon Crawl:О вики|О вики и источники\n** Справка:Редактирование|Помочь с вики\n** recentchanges-url|Свежие правки\n** randompage-url|Случайная статья\n** https://github.com/Mr-Vivor/DCSS-RU|GitHub проекта\n* SEARCH\n* TOOLBOX\n* LANGUAGES"
         pages["MediaWiki:Sidebar"]=dict(text=sidebar,key="sidebar",kind="system")
         pages["MediaWiki:Mainpage"]=dict(text="Заглавная страница",key="mainpage-name",kind="message")
         for key,value in {"Aboutpage":"Dungeon Crawl:О вики","Privacypage":"Dungeon Crawl:Конфиденциальность","Disclaimerpage":"Версия игры"}.items():
@@ -493,7 +573,7 @@ class Builder:
         links=lambda entries:'<div class="dc-links">'+"\n".join("[["+a+"|"+b+"]]" for a,b in entries)+"</div>"
         start=panel("Первый спуск",links([("Первые шаги","С чего начать"),("Управление","Клавиши и команды"),("Первый персонаж","Кого выбрать"),("Как выжить","Как выбраться из опасности"),("Развитие персонажа","Опыт и обучение"),("Выбор бога","Религия и божественные силы")]))
         reference=panel("Под рукой",links([("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
-        world=panel("От лестницы до Сферы",links([("Путь к Сфере","Маршрут и руны"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
+        world=panel("От лестницы до Сферы",links([("Ветви подземелья","Ветви и маршрут"),("Порталы","Временные порталы"),("Механики игры","Бой и механики"),("Путь к Сфере","Руны и победа"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
         gods=panel("Боги",links([(r["title"],r["name"]) for r in self.rows.values() if r["group"]=="gods"]),"dc-gold")
         intro='<div class="dc-intro"><div class="dc-emblem">[[Файл:'+emblem+'|32px|link=]]</div><div><div class="dc-kicker">Dungeon Crawl Stone Soup</div><div class="dc-title">Русская вики <span class="dc-version">0.35-a0</span></div><p>Справочник для тех, кто спускается за Сферой Зота.</p><div class="dc-muted">Виды, заклинания, боги и обитатели Подземелья — с теми же названиями, что в русской игре.</div></div></div>'
         notice='<div class="dc-main-note">Наш сервер использует ветку разработки <b>0.35-a0</b>. Статьи сообщества адаптируются под неё; подробности — [[Версия игры|на странице версии]]. [https://dungeoncrawl.ru/ Играть в браузере]</div>'
