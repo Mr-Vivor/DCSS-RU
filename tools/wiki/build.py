@@ -14,6 +14,7 @@ import subprocess
 import sys
 import unicodedata
 import yaml
+from game_data import equipment_data, spellbook_data
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools/ru"))
@@ -115,7 +116,8 @@ def spell_data():
         fields = [v.strip() for v in body.split(",")]
         if len(fields) >= 8:
             result[match[2].casefold()] = {"enum":match[1], "schools":re.findall(r"spschool::(\w+)", fields[0]),
-                "level":fields[2], "tile":fields[7].removeprefix("TILEG_")}
+                "level":fields[2], "tile":fields[7].removeprefix("TILEG_"),
+                "monster_only":'spflag::monster' in fields[1]}
     return result
 
 
@@ -163,6 +165,9 @@ class Builder:
         self.feature_tiles = tile_map("dc-feat.txt")
         self.item_tiles = tile_map("dc-item.txt")
         self.spells = spell_data()
+        self.weapons,self.armour,self.missiles=equipment_data(ROOT)
+        self.books=spellbook_data(ROOT)
+        self.spells_by_enum={v['enum']:k for k,v in self.spells.items()}
         self.artifacts = {}
         art_text = (ROOT / "crawl-ref/source/art-data.txt").read_text(encoding="utf8")
         for block in re.split(r"\n\s*\n",art_text):
@@ -281,10 +286,12 @@ class Builder:
                     enum = data.get("enum", "MONS_"+key.upper().replace(" ","_").replace("'",""))
                     if not enum.startswith("MONS_"):enum="MONS_"+enum.upper()
                     path=self.mon_tiles.get(enum) or self.find_sprite(data.get("tile",key),("mon",))
-                elif group == "skills":path=self.find_sprite(plain,("skills",))
+                elif group == "skills":path=self.find_sprite({'Alchemy':'poison_magic','Ranged Weapons':'bows'}.get(plain,plain),("skills",))
                 elif group in ("items","unrand"):
                     path=self.find_sprite(plain,("item",))
                     artifact=self.artifacts.get(plain.casefold())
+                    if not artifact and plain in ('Sulking Sword','Screaming Sword'):
+                        artifact=self.artifacts.get('singing sword')
                     if not artifact:
                         artifact=next((a for n,a in self.artifacts.items() if '"'+n+'"' in plain.casefold()),None)
                     if artifact:path=self.find_sprite(artifact["TILE"],("item",))
@@ -389,7 +396,37 @@ class Builder:
             if data.get("level","").isdigit():rows.append(("Уровень заклинания",data["level"]))
             labels=[self.terms["skill"][self.skill_key(s)] for s in data.get("schools",[]) if self.skill_key(s) in self.terms["skill"]]
             if labels:rows.append(("Школы",", ".join(labels)))
+            if data:rows.append(('Доступность','Сила существа или особого источника; не обычное изучаемое заклинание' if data['monster_only'] else 'Заклинание персонажа'))
             if rows:text+="\n== Параметры ==\n"+self.table(rows)
+        elif group == 'items':
+            rows=[]
+            if key in self.weapons:
+                data=self.weapons[key]
+                skill_names={'SK_MACES_FLAILS':'Maces & Flails','SK_SHORT_BLADES':'Short Blades','SK_LONG_BLADES':'Long Blades','SK_AXES':'Axes','SK_POLEARMS':'Polearms','SK_STAVES':'Staves','SK_RANGED_WEAPONS':'Ranged Weapons'}
+                rows=[('Базовый урон',str(data['damage'])),('Базовый бонус точности',f"{data['accuracy']:+}"),('Базовая задержка',f"{data['delay']/10:g}")]
+                skill=skill_names.get(data['skill'])
+                if skill:rows.append(('Навык',self.object_link(skill)))
+                rows.append(('Сравнение','[[Скорость атаки]] · [[Оружие и выбор навыка]]'))
+            elif key in self.armour:
+                data=self.armour[key]
+                shield=data['slot']=='SLOT_OFFHAND'
+                rows=[('Базовый показатель щита' if shield else 'Базовая броня AC',str(data['ac']))]
+                if data['slot'] in ('SLOT_BODY_ARMOUR','SLOT_OFFHAND'):rows.append(('Тяжесть',f"{data['encumbrance']:g}"))
+                rows.append(('Сравнение','[[Тяжесть доспехов и щитов]]'))
+            elif key in self.missiles:rows=[('Базовый урон',str(self.missiles[key]['damage'])),('Применение','[[Дальний бой и метание]]')]
+            if rows:
+                text+='\n== Базовые параметры ==\n'+self.table(rows)
+                text+='\nЭто параметры типа предмета из [https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/crawl-ref/source/item-prop.cc текущего исходного кода]. Итоговые показатели зависят от навыков, характеристик, зачарования, свойств, формы и другого снаряжения. Задержка указана в обычных единицах времени (1,0 = стандартное действие), до обучения и прочих изменений. Базовый урон не равен гарантированному урону за попадание.\n'
+            if key in self.books:
+                links=[]
+                for enum in self.books[key]:
+                    name=self.spells_by_enum.get(enum)
+                    if not name:raise ValueError(('Unknown spell in current book',key,enum))
+                    title=self.titles.get(name)
+                    if not title:raise ValueError(('Missing translated spell page',key,name))
+                    links.append('* [['+title+']] — уровень '+self.spells[name]['level'])
+                text+='\n== Заклинания в книге ==\n'+'\n'.join(links)
+                text+='\n\nСостав взят из [https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/crawl-ref/source/book-data.h шаблонов книг активной версии]. Нахождение книги добавляет знания в библиотеку; само по себе не даёт навыков, надёжности или свободных уровней для заучивания.\n'
         elif group == "gods":
             gods=read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
             for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство")]:
@@ -436,7 +473,14 @@ class Builder:
         for group,(category,_) in GROUPS.items():
             links=sorted([r["title"] for r in self.rows.values() if r["group"]==group],key=str.casefold)
             content="Все названия согласованы с русской игрой. В скобках в заголовке иногда указан тип, чтобы различать одноимённые объекты.\n\n"
-            content+='<div class="dc-index">\n'+"\n".join("* [["+t+"]]" for t in links)+"\n</div>"
+            if group in ('skills','unrand','monsters'):
+                entries=[]
+                for title in links:
+                    row=self.rows[title];sprite=row.get('sprite')
+                    icon='[[Файл:'+sprite+'|24px|link='+title+'|'+row['name']+']]' if sprite else '<span class="dc-icon-empty" aria-hidden="true"></span>'
+                    entries.append('<div class="dc-icon-entry">'+icon+' [['+title+']]</div>')
+                content+='<div class="dc-icon-index">\n'+'\n'.join(entries)+'\n</div>'
+            else:content+='<div class="dc-index">\n'+"\n".join("* [["+t+"]]" for t in links)+"\n</div>"
             pages[category]=dict(text=content,key="index:"+group,kind="index")
             pages["Категория:"+category]=dict(text="См. полный справочник: [["+category+"]].",key="category:"+group,kind="category")
         self.add_site(pages,counts)
@@ -536,6 +580,14 @@ class Builder:
 
     def add_site(self,pages,counts):
         self.add_branches(pages)
+        weapon_guide="Базовый урон, точность и скорость — разные стороны оружия. Большое число урона само по себе не показывает, сколько ответных действий получит противник и насколько полезно свойство оружия.\n\n== Как выбирать ==\nСначала обеспечьте надёжный бой текущим оружием. Для замены сравнивайте реальную задержку с вашим навыком, свойства, зачарование, возможность носить щит и урон по ближайшим врагам. Не начинайте дорогое обучение ради редкого типа, если доступное оружие уже решает задачу.\n\nКороткие клинки особенно подходят для [[Удары исподтишка|ударов исподтишка]]. Топоры помогают против нескольких соседних целей, но не делают окружение безопасным. Древковое оружие позволяет атаковать через клетку. Дробящее оружие удобно против гидр, у которых режущие атаки могут вызывать рост голов. Посох и дальнее оружие требуют своих навыков; одно название «магический» не отменяет цену ближнего применения.\n\n== Базовые параметры типов ==\nЗначения ниже взяты из активной игры. Задержка указана до обучения и модификаторов: 1,0 — стандартное действие. При смене оружия проверяйте показанное игрой время атаки. Минимальная задержка, свойства и особые многократные удары требуют отдельной оценки: одна строка таблицы не является расчётом урона за ход.\n"
+        weapon_guide+='\n{| class="wikitable"\n! Оружие !! Урон !! Бонус точности !! Базовая задержка\n'
+        for key,data in self.weapons.items():
+            title=self.keys.get(('items',key))
+            if title:weapon_guide+='|-\n| [['+title+']] || '+str(data['damage'])+' || '+f"{data['accuracy']:+}"+' || '+f"{data['delay']/10:g}"+'\n'
+        weapon_guide+='|}\n\n== После минимальной задержки ==\nДальнейший навык может улучшать атаку, но опыт нужно сравнивать с пользой здоровья, уклонения, щитов и вспомогательных средств. Целевое значение в меню навыков помогает вовремя пересмотреть распределение.\n\nСм. [[Скорость атаки]], [[Тяжесть доспехов и щитов]], [[Предметы]].\n[[Категория:Руководства]]'
+        weapon_guide+=self.community_sources(['Weapon','Attack speed','Weapon speed'])
+        pages['Оружие и выбор навыка']=dict(text=weapon_guide,key='guide:weapon-comparison',kind='guide')
         guides=load(ROOT/"wiki/site/guides.json")
         for title,row in load(ROOT/'wiki/site/mechanics.json').items():
             if title in guides:raise ValueError(('Duplicate guide',title))
@@ -574,7 +626,12 @@ class Builder:
         start=panel("Первый спуск",links([("Первые шаги","С чего начать"),("Управление","Клавиши и команды"),("Первый персонаж","Кого выбрать"),("Как выжить","Как выбраться из опасности"),("Развитие персонажа","Опыт и обучение"),("Выбор бога","Религия и божественные силы")]))
         reference=panel("Под рукой",links([("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
         world=panel("От лестницы до Сферы",links([("Ветви подземелья","Ветви и маршрут"),("Порталы","Временные порталы"),("Механики игры","Бой и механики"),("Путь к Сфере","Руны и победа"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
-        gods=panel("Боги",links([(r["title"],r["name"]) for r in self.rows.values() if r["group"]=="gods"]),"dc-gold")
+        god_links=[]
+        for row in self.rows.values():
+            if row['group']!='gods':continue
+            if not row.get('sprite'):raise ValueError(('Missing altar sprite',row['name']))
+            god_links.append('<div class="dc-god-card">[[Файл:'+row['sprite']+'|20px|link='+row['title']+'|Алтарь: '+row['name']+']] [['+row['title']+'|'+row['name']+']]</div>')
+        gods=panel("Боги",'<div class="dc-links dc-gods">'+"\n".join(god_links)+'</div>',"dc-gold")
         intro='<div class="dc-intro"><div class="dc-emblem">[[Файл:'+emblem+'|32px|link=]]</div><div><div class="dc-kicker">Dungeon Crawl Stone Soup</div><div class="dc-title">Русская вики <span class="dc-version">0.35-a0</span></div><p>Справочник для тех, кто спускается за Сферой Зота.</p><div class="dc-muted">Виды, заклинания, боги и обитатели Подземелья — с теми же названиями, что в русской игре.</div></div></div>'
         notice='<div class="dc-main-note">Наш сервер использует ветку разработки <b>0.35-a0</b>. Статьи сообщества адаптируются под неё; подробности — [[Версия игры|на странице версии]]. [https://dungeoncrawl.ru/ Играть в браузере]</div>'
         footer=panel("Сообщество и редактура","Материалы основаны на [[Dungeon Crawl:О вики|CrawlWiki и исходниках игры]]. Правки доступны приглашённым редакторам. Нашли неточность? Проверьте название и версию, затем оставьте замечание на странице обсуждения или в [https://github.com/Mr-Vivor/DCSS-RU/issues задачах проекта].\n\n[[Справка:Редактирование|Как устроены страницы и как помочь]] · [[Служебная:Статистика|Статистика вики]]")
