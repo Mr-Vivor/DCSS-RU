@@ -382,13 +382,33 @@ def main():
                         ("trap_dispersal_inactive", ("перезаряжается", "в поле зрения", "нескольких ходов"), ("[[A dispersal trap]]", "Anyone stepping")),
                         ("stone_stairs_down_i", ("Каменная лестница вниз", "каменная лестница", "клавишей", "Вы находитесь здесь", "спуститься"), ("While standing", "You are here", "the stone staircase", "go down")),
                     ):
+                        # Closing a popup removes it before the server's next
+                        # command-ready message necessarily arrives. Wait for
+                        # the public game input mode rather than sending the
+                        # next command into a lingering prompt/more screen.
+                        spell_page.wait_for_function("""() => new Promise(resolve => {
+                            require(['game-' + game_version + '/game',
+                                     'game-' + game_version + '/enums'],
+                                (game, enums) => resolve(game.get_input_mode() === enums.mouse_mode.COMMAND));
+                        })""")
                         spell_page.keyboard.type("&(")
                         feature_input = spell_page.locator("#messages .game_message input")
                         feature_input.wait_for(state="visible")
                         feature_input.fill(feature)
                         spell_page.keyboard.press("Enter")
                         feature_input.wait_for(state="detached")
-                        spell_page.keyboard.type("xrv", delay=80)
+                        spell_page.keyboard.press("Escape")
+                        spell_page.wait_for_function("""() => new Promise(resolve => {
+                            require(['game-' + game_version + '/game',
+                                     'game-' + game_version + '/enums'],
+                                (game, enums) => resolve(game.get_input_mode() === enums.mouse_mode.COMMAND));
+                        })""")
+                        spell_page.keyboard.type("x")
+                        spell_page.wait_for_function("""() => new Promise(resolve => {
+                            require(['game-' + game_version + '/game'],
+                                game => resolve(game.can_target()));
+                        })""")
+                        spell_page.keyboard.type("rv", delay=80)
                         popup = spell_page.locator("#ui-stack > .ui-popup").last
                         popup.wait_for(state="visible")
                         feature_text = popup.inner_text()

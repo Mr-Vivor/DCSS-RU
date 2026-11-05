@@ -427,6 +427,17 @@ class Builder:
                     links.append('* [['+title+']] — уровень '+self.spells[name]['level'])
                 text+='\n== Заклинания в книге ==\n'+'\n'.join(links)
                 text+='\n\nСостав взят из [https://github.com/Mr-Vivor/DCSS-RU/blob/ru-bootstrap/crawl-ref/source/book-data.h шаблонов книг активной версии]. Нахождение книги добавляет знания в библиотеку; само по себе не даёт навыков, надёжности или свободных уровней для заучивания.\n'
+        elif group == 'skills':
+            learned={enum for values in self.books.values() for enum in values}
+            related=[]
+            for name,data in self.spells.items():
+                if data['enum'] not in learned:continue
+                if key not in [self.skill_key(s) for s in data['schools']]:continue
+                title=self.titles.get(name)
+                if title and data['level'].isdigit():related.append((int(data['level']),title))
+            if related:
+                text+='\n== Заклинания школы в книгах ==\n'+'\n'.join('* [['+title+']] — уровень '+str(level) for level,title in sorted(set(related)))
+                text+='\n\nСписок относится к книгам нашей версии. Наличие заклинания не означает, что его можно надёжно применять без подходящего обучения и снаряжения.\n'
         elif group == "gods":
             gods=read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
             for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство")]:
