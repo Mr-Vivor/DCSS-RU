@@ -294,7 +294,9 @@ class Builder:
                 plain = re.sub(r" (spell|ability|card|mutation|status)$", "",key)
                 if group == "spells":
                     info = self.spells.get(plain.casefold(),{})
-                    path = self.spell_tiles.get(info.get("tile"))
+                    tile = info.get("tile")
+                    path = (self.spell_tiles.get(tile) or self.gui_tiles.get(tile)
+                            or self.spell_tiles.get(plain.upper().replace(' ', '_')))
                 elif group == "monsters":
                     data = self.monsters.get(key.casefold(),{})
                     enum = data.get("enum", "MONS_"+key.upper().replace(" ","_").replace("'",""))
@@ -505,7 +507,7 @@ class Builder:
         for group,(category,_) in GROUPS.items():
             links=sorted([r["title"] for r in self.rows.values() if r["group"]==group],key=str.casefold)
             content="Все названия согласованы с русской игрой. В скобках в заголовке иногда указан тип, чтобы различать одноимённые объекты.\n\n"
-            if group in ('skills','unrand','monsters'):
+            if group in ('skills','unrand','monsters','spells'):
                 entries=[]
                 for title in links:
                     row=self.rows[title];sprite=row.get('sprite')
