@@ -9,42 +9,6 @@
     [
       "input",
       {
-        "id": "username",
-        "name": "username",
-        "type": "text"
-      }
-    ],
-    [
-      "label",
-      {
-        "for": "password"
-      }
-    ],
-    [
-      "input",
-      {
-        "id": "password",
-        "name": "password",
-        "type": "password"
-      }
-    ],
-    [
-      "input",
-      {
-        "id": "submit",
-        "name": "submit",
-        "type": "submit"
-      }
-    ],
-    [
-      "label",
-      {
-        "for": "username"
-      }
-    ],
-    [
-      "input",
-      {
         "id": "reg_username",
         "name": "username",
         "type": "text"
@@ -351,6 +315,42 @@
         "id": "admin_pw_reset_clear",
         "name": "admin_pw_reset_clear",
         "type": "button"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "username"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "username",
+        "name": "username",
+        "type": "text"
+      }
+    ],
+    [
+      "label",
+      {
+        "for": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "password",
+        "name": "password",
+        "type": "password"
+      }
+    ],
+    [
+      "input",
+      {
+        "id": "submit",
+        "name": "submit",
+        "type": "submit"
       }
     ],
     [
