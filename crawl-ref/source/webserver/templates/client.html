@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ru">
   <head>
+    <meta charset="utf-8">
     <title>Веб-тайлы — Dungeon Crawl Stone Soup</title>
     <link rel="icon" href="/static/stone_soup_icon-32x32.png" type="image/png">
     <script type="text/javascript">
@@ -20,28 +21,6 @@
     <noscript>Пожалуйста, включите JavaScript!</noscript>
 
     <div id="lobby" style="display: none;">
-      <div class="login_placeholder">
-        <a class="dc-server-brand" href="#lobby"><img src="{{ static_url('stone_soup_icon-32x32.png') }}" alt="" width="32" height="32"><span>Dungeon Crawl<small>Русский сервер</small></span></a>
-        <div id="login">
-          <span id="login_message"></span>
-          <form action="#" id="login_form">
-            <label for="username">Игрок:</label>
-            <input class="text" type="text" name="username" id="username">
-            <label for="password">Пароль:</label>
-            <input class="text" type="password" name="password" id="password">
-            <input class="button" type="submit" name="submit" id="submit" value="Войти">
-          </form>
-          <span class="extra_links">
-          <a id="reg_link" href="javascript:">Регистрация</a>
-{% if getattr(config, "allow_password_reset", False) %}
-          <a id="forgot_link" href="javascript:">Забыли пароль</a>
-{% end %}
-          <a id="chem_link" href="javascript:" style="display: none;">Изменить адрес электронной почты</a>
-          <a id="chpw_link" href="javascript:" style="display: none;">Изменить пароль</a>
-          <a id="logout_link" href="javascript:" style="display: none;">Выход</a></span>
-        </div>
-      </div>
-
       <div id="register" class="floating_dialog" style="display: none;">
         <span id="register_message"></span>
         <form action="#" id="register_form">
@@ -204,12 +183,31 @@
       </div>
 
       <div id="play_now"></div>
-      <p class="dc-lobby-footer">Каждый спуск — новая история. Смерть завершает приключение.</p>
+
+      <div class="login_placeholder">
+        <div id="login">
+          <span id="login_message"></span>
+          <form action="#" id="login_form">
+            <label for="username">Игрок:</label>
+            <input class="text" type="text" name="username" id="username" autocomplete="username">
+            <label for="password">Пароль:</label>
+            <input class="text" type="password" name="password" id="password" autocomplete="current-password">
+            <input class="button" type="submit" name="submit" id="submit" value="Войти">
+          </form>
+          <span class="extra_links">
+          <a id="reg_link" href="javascript:">Регистрация</a>
+{% if getattr(config, "allow_password_reset", False) %}
+          <a id="forgot_link" href="javascript:">Забыли пароль</a>
+{% end %}
+          <a id="chem_link" href="javascript:" style="display: none;">Изменить адрес электронной почты</a>
+          <a id="chpw_link" href="javascript:" style="display: none;">Изменить пароль</a>
+          <a id="logout_link" href="javascript:" style="display: none;">Выход</a></span>
+        </div>
+      </div>
+      <p class="dc-lobby-footer"><a href="https://crawl.develz.org/" target="_blank" rel="noopener">Оригинальная игра</a><span aria-hidden="true"> · </span><a href="https://github.com/Mr-Vivor/DCSS-RU" target="_blank" rel="noopener">Русский проект на GitHub</a></p>
 
       <div id="lobby_body">
-        <span>
-          Игры, которые сейчас работают:
-        </span>
+        <h2 class="dc-spectate-title">Сейчас играют</h2>
         <table id="player_list" class="no_game_times">
           <thead>
             <tr>

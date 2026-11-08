@@ -1,5 +1,6 @@
-<div class="dc-mode-list">
+<nav class="dc-mode-list" aria-label="Меню игры">
 {% set rcs = set() %}
+{% set settings = [] %}
 {% for id in games %}
     {% try %}
         {% set saved = save_info[id] %}
@@ -8,16 +9,23 @@
         {% set saved = None %}
         {% set unavailable = False %}
     {% end %}
-    <div class="dc-mode-entry">
-        {% if unavailable %}<span class="dc-mode dc-mode-disabled" aria-disabled="true">{% else %}<a class="dc-mode{% if id == 'dcss-ru' %} dc-mode-primary{% end %}" href="#play-{{ id }}">{% end %}
-            <span class="dc-mode-label">{% if id == 'dcss-ru' %}{% if saved %}Продолжить{% else %}Играть{% end %}{% elif id == 'tutorial-ru' %}Обучение{% else %}{{ games[id]['name'] }}{% end %} <span class="dc-menu-version"></span></span>
-            <span class="dc-mode-detail"{% if saved and not unavailable %} title="{{ saved }}"{% end %}>{% if unavailable %}Слоты персонажей заняты{% elif saved %}{{ saved }}{% elif id == 'tutorial-ru' %}Первые шаги в игре{% else %}Спуститься в Подземелье{% end %}</span>
-        {% if unavailable %}</span>{% else %}</a>{% end %}
-        {% if games[id]['rcfile_path'] not in rcs %}
-            <a href="javascript:" class="edit_rc_link" data-game_id="{{ id }}">Настройки игры</a>
-            {% set rcs.add(games[id]['rcfile_path']) %}
-        {% end %}
-    </div>
+    {% if unavailable %}<span class="dc-mode dc-mode-disabled" aria-disabled="true">{% else %}<a class="dc-mode{% if id == 'dcss-ru' %} dc-mode-primary{% end %}" href="#play-{{ id }}">{% end %}
+        <img class="dc-mode-icon" src="{{ static_url('lobby/manual.png' if id == 'tutorial-ru' else 'lobby/stairs.png') }}" alt="" width="32" height="32">
+        <span class="dc-mode-copy">
+            <span class="dc-mode-label">{% if id == 'dcss-ru' %}{% if saved %}Продолжить{% else %}Играть{% end %}{% elif id == 'tutorial-ru' %}Обучение{% else %}{{ games[id]['name'] }}{% end %}</span>
+            {% if unavailable %}<span class="dc-mode-detail">Слоты персонажей заняты</span>{% elif saved %}<span class="dc-mode-detail" title="{{ saved }}">{{ saved }}</span>{% end %}
+        </span>
+        <span class="dc-menu-version"></span>
+    {% if unavailable %}</span>{% else %}</a>{% end %}
+    {% if games[id]['rcfile_path'] not in rcs %}
+        {% set rcs.add(games[id]['rcfile_path']) %}
+        {% set settings.append(id) %}
+    {% end %}
 {% end %}
-    <div class="dc-mode-entry"><a class="dc-mode dc-mode-wiki" href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener"><span class="dc-mode-label">Русская вики <span class="dc-mode-arrow" aria-hidden="true">↗</span></span><span class="dc-mode-detail">Виды, боги, предметы и заклинания</span></a></div>
+    <a class="dc-mode dc-mode-wiki" href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener"><img class="dc-mode-icon" src="{{ static_url('lobby/scroll.png') }}" alt="" width="32" height="32"><span class="dc-mode-copy"><span class="dc-mode-label">Русская вики</span></span><span class="dc-mode-external" aria-hidden="true">↗</span></a>
+</nav>
+<div class="dc-mode-settings">
+{% for id in settings %}
+    <a href="javascript:" class="edit_rc_link" data-game_id="{{ id }}">Настройки игры{% if len(settings) > 1 %}: {{ games[id]['name'] }}{% end %}</a>
+{% end %}
 </div>

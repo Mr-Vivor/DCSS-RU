@@ -1,24 +1,11 @@
 <header class="dc-lobby-heading">
-  <div class="dc-lobby-stage">
-    <div class="dc-lobby-story">
-      <p class="dc-lobby-kicker">Dungeon Crawl Stone Soup · Русская версия</p>
-      <h1>За Сферой<br>Зота.</h1>
-      <p class="dc-lobby-intro">Выбери героя. Найди руны.<br>Вернись из глубин Подземелья.</p>
-      <p class="dc-lobby-genre">Пошаговый roguelike с одной жизнью</p>
-    </div>
-    <figure class="dc-lobby-art">
-      <div class="dc-lobby-art-window"><img src="{{ static_url('title_white_noise_entering_the_dungeon.png') }}" alt="Воин входит с мечом в каменное подземелье" width="400" height="400"></div>
-      <figcaption>White Noise · оригинальная иллюстрация DCSS</figcaption>
-    </figure>
-  </div>
-  {% if username %}
-    <p class="dc-lobby-welcome">С возвращением, {{ username }}.</p>
-  {% else %}
-    <div class="dc-mode-list dc-guest-actions">
-      <a class="dc-mode dc-mode-primary" href="#play-dcss-ru"><span class="dc-mode-label">Играть <span class="dc-menu-version"></span></span><span class="dc-mode-detail">Спуститься в Подземелье</span></a>
-      <a class="dc-mode" href="#play-tutorial-ru"><span class="dc-mode-label">Обучение <span class="dc-menu-version"></span></span><span class="dc-mode-detail">Освоить управление и первые бои</span></a>
-      <a class="dc-mode dc-mode-wiki" href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener"><span class="dc-mode-label">Русская вики <span class="dc-mode-arrow" aria-hidden="true">↗</span></span><span class="dc-mode-detail">Виды, боги, предметы и заклинания</span></a>
-    </div>
-    <p class="dc-lobby-signin">Для игры войдите в аккаунт или зарегистрируйтесь.</p>
+  <h1 class="dc-title-mark"><img src="{{ static_url('title_white_noise_entering_the_dungeon.png') }}" alt="Dungeon Crawl Stone Soup" width="400" height="400"></h1>
+  <p class="dc-lobby-caption">Русская версия</p>
+  {% if not username %}
+    <nav class="dc-mode-list dc-guest-actions" aria-label="Меню игры">
+      <a class="dc-mode dc-mode-primary" href="#play-dcss-ru"><img class="dc-mode-icon" src="{{ static_url('lobby/stairs.png') }}" alt="" width="32" height="32"><span class="dc-mode-copy"><span class="dc-mode-label">Играть</span></span><span class="dc-menu-version"></span></a>
+      <a class="dc-mode" href="#play-tutorial-ru"><img class="dc-mode-icon" src="{{ static_url('lobby/manual.png') }}" alt="" width="32" height="32"><span class="dc-mode-copy"><span class="dc-mode-label">Обучение</span></span><span class="dc-menu-version"></span></a>
+      <a class="dc-mode dc-mode-wiki" href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener"><img class="dc-mode-icon" src="{{ static_url('lobby/scroll.png') }}" alt="" width="32" height="32"><span class="dc-mode-copy"><span class="dc-mode-label">Русская вики</span></span><span class="dc-mode-external" aria-hidden="true">↗</span></a>
+    </nav>
   {% end %}
 </header>
