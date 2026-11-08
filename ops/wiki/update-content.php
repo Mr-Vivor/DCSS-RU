@@ -43,7 +43,7 @@ class UpdateDcssWiki extends Maintenance {
             $content = $page->getContent();
             $old = $content ? $content->serialize() : '';
             $id = substr( hash( 'sha256', $entry['key'] ), 0, 20 );
-            $css = ( $entry['kind'] === 'css' );
+            $css = in_array( $entry['kind'], [ 'css', 'javascript' ], true );
             $begin = $css ? "/* DCSS-AUTO-BEGIN:$id */" : "<!-- DCSS-AUTO-BEGIN:$id -->";
             $end = $css ? "/* DCSS-AUTO-END:$id */" : "<!-- DCSS-AUTO-END:$id -->";
             // Redirect magic words must remain at the beginning of the page.

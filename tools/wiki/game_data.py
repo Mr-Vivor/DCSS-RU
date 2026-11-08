@@ -34,3 +34,13 @@ def spellbook_data(root):
         result[title]=spells
     if 'book of minor magic' not in result:raise ValueError('Spellbook table changed')
     return result
+
+
+def monster_spellbook_data(root):
+    text=(root/'crawl-ref/source/mon-spell.h').read_text(encoding='utf8')
+    result={}
+    for match in re.finditer(r'\{\s*MST_([A-Z0-9_]+),\s*\{(.*?)\n\s*\}\s*\n\s*\}',text,re.S):
+        result[match[1].casefold()]=list(dict.fromkeys(re.findall(r'\bSPELL_[A-Z0-9_]+\b',match[2])))
+    if 'ancient_lich' not in result or 'SPELL_PETRIFY' not in result['ancient_lich']:
+        raise ValueError('Monster spellbook table changed; review the wiki extractor')
+    return result
