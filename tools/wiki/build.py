@@ -711,11 +711,12 @@ class Builder(WikiNavigation, WikiPresentation):
         emblem=self.sprite(ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png")
         def panel(title,body,kind=""):
             return '<div class="dc-panel '+kind+'"><h2>'+title+'</h2><div class="dc-panel-body">'+body+'</div></div>'
-        links=lambda entries:'<div class="dc-links">'+"\n".join(self.illustrated_link(a,b) for a,b in entries)+"</div>"
+        links=lambda entries:'<div class="dc-links dc-home-links">'+"\n".join('<div class="dc-home-link">'+self.illustrated_link(a,b)+'</div>' for a,b in entries)+"</div>"
         start=panel("Первый спуск",links([("Первые шаги","С чего начать"),("Управление","Клавиши и команды"),("Первый персонаж","Кого выбрать"),("Как выжить","Как выбраться из опасности"),("Развитие персонажа","Опыт и обучение"),("Выбор бога","Религия и божественные силы")]))
-        reference=panel("Под рукой",links([("Справочник","Все разделы вики"),("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
-        branch_preview='<div class="dc-main-branches">'+' '.join(self.branch_link(k) for k in ('DUNGEON','TEMPLE','LAIR','ORC','VAULTS','DEPTHS','ZOT'))+'</div>'
-        world=panel("От лестницы до Сферы",branch_preview+links([("Ветви подземелья","Карта ветвей с входами и рунами"),("Порталы","Временные порталы"),("Механики игры","Бой и механики"),("Путь к Сфере","Руны и победа"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
+        reference=panel("Под рукой",links([("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Навыки","Навыки"),("Свойства снаряжения","Свойства снаряжения"),("Состояния","Состояния и эффекты"),("Мутации","Мутации")]),"dc-violet")
+        branch_preview='<div class="dc-main-branches">'+''.join('<div class="dc-home-branch'+(' dc-home-branch-goal' if k=='ZOT' else '')+'">'+self.branch_link(k)+'</div>' for k in ('DUNGEON','TEMPLE','LAIR','ORC','VAULTS','DEPTHS','ZOT'))+'</div>'
+        world_map='<div class="dc-home-map">[[Ветви подземелья|Карта ветвей подземелья →]]<span>Все входы, глубины и руны на одной схеме</span></div>'
+        world=panel("От лестницы до Сферы",world_map+branch_preview+'<div class="dc-home-guides">'+links([("Порталы","Временные порталы"),("Путь к Сфере","Руны и победа"),("Механики игры","Бой и механики"),("Снаряжение и расходники","Что брать в бой"),("Местность","Объекты подземелья"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")])+'</div>',"dc-gold")
         god_links=[]
         for row in self.rows.values():
             if row['group']!='gods':continue
@@ -726,7 +727,8 @@ class Builder(WikiNavigation, WikiPresentation):
         notice='<div class="dc-main-note">Наш сервер использует ветку разработки <b>0.35-a0</b>. Статьи сообщества адаптируются под неё; подробности — [[Версия игры|на странице версии]]. [https://dungeoncrawl.ru/ Играть в браузере]</div>'
         footer=panel("Сообщество и редактура","Материалы основаны на [[Dungeon Crawl:О вики|CrawlWiki и исходниках игры]]. Правки доступны приглашённым редакторам. Нашли неточность? Проверьте название и версию, затем оставьте замечание на странице обсуждения или в [https://github.com/Mr-Vivor/DCSS-RU/issues задачах проекта].\n\n[[Справка:Редактирование|Как устроены страницы и как помочь]] · [[Служебная:Статистика|Статистика вики]]")
         summary='<div class="dc-quickstats"><span>27 видов</span><span>28 предысторий</span><span>26 богов</span><span>'+str(counts["spells"])+" описаний заклинаний</span></div>"
-        return "__NOTOC__\n"+intro+notice+summary+'<div class="dc-layout"><div>'+start+reference+world+gods+'</div><div>'+panel("Виды",self.grid("species"),"dc-green")+panel("Предыстории",self.grid("background"),"dc-violet")+'</div></div>'+footer
+        toolbar='<div class="dc-main-toolbar">'+summary+'<div class="dc-directory-shortcut">[[Справочник|Все разделы вики →]]</div></div>'
+        return "__NOTOC__\n"+intro+notice+toolbar+'<div class="dc-layout"><div>'+start+reference+world+gods+'</div><div>'+panel("Виды",self.grid("species"),"dc-green")+panel("Предыстории",self.grid("background"),"dc-violet")+'</div></div>'+footer
 
 
 if __name__ == "__main__":
