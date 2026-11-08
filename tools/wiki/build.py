@@ -16,6 +16,7 @@ import unicodedata
 import yaml
 from game_data import equipment_data, spellbook_data, monster_spellbook_data
 from navigation import WikiNavigation, PORTALS, SPECIAL_WORLDS
+from presentation import WikiPresentation
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools/ru"))
@@ -154,7 +155,7 @@ def branch_data():
     return result
 
 
-class Builder(WikiNavigation):
+class Builder(WikiNavigation, WikiPresentation):
     def __init__(self, output, community=None, revision=None):
         self.output = output
         self.output.mkdir(parents=True, exist_ok=True)
@@ -163,6 +164,7 @@ class Builder(WikiNavigation):
         self.terms = load(ROOT / "localization/ru/terms.json")
         self.entities = load(ROOT / "localization/ru/entities.json")
         self.reference = load(ROOT / "wiki/ru/reference/descriptions.json")
+        self.group_names={key:value[0] for key,value in GROUPS.items()}
         self.reviewed = load(ROOT / "localization/ru/descriptions.json")
         self.messages = load(ROOT / "localization/ru/system-messages.json")
         self.static = load(ROOT / "localization/ru/static.json")
@@ -347,6 +349,7 @@ class Builder(WikiNavigation):
                 row=self.register(group,key,title,prose,sprite=self.sprite(path))
                 row.setdefault("powers",[]).extend(entry.get("powers",[]))
         self.prepare_navigation(ROOT,branch_data())
+        self.prepare_presentation()
         return self
 
     def prose(self, text):
@@ -416,8 +419,9 @@ class Builder(WikiNavigation):
             for skill,value in data.get("aptitudes",{}).items():
                 label=self.terms["skill"].get(self.skill_key(skill))
                 if label and skill not in ("xp","hp","mp_mod","wl"):
-                    apt.append((self.object_link(skill.replace("_"," ")) or label,f"{value:+g}"))
-            if apt:text+="\n== Склонности к обучению ==\nЧем выше значение, тем быстрее развивается навык при одинаковых затратах опыта.\n"+self.table(apt)
+                    tone='positive' if value>0 else 'negative' if value<0 else 'neutral'
+                    apt.append((self.object_link(skill.replace("_"," ")) or label,'<span class="dc-apt-'+tone+'">'+f"{value:+g}"+'</span>'))
+            if apt:text+="\n== Склонности к обучению ==\nЧем выше значение, тем быстрее развивается навык при одинаковых затратах опыта.\n"+self.table(apt).replace('! Параметр !! Значение','! Навык !! Склонность')
             recommended=[self.object_link(v) for v in data.get("recommended_jobs",[])]
             if any(recommended):text+="\n== Рекомендуемые предыстории ==\n"+", ".join(v for v in recommended if v)+".\n"
         elif group == "background":
@@ -437,7 +441,7 @@ class Builder(WikiNavigation):
             for name,value in data.get("skills",{}).items():
                 label="Выбранное оружие" if name=="weapon" else self.object_link(name.replace("_"," "))
                 if label:skills.append((label,value))
-            if skills:text+="\n== Начальные навыки ==\n"+self.table(skills)
+            if skills:text+="\n== Начальные навыки ==\n"+self.table(skills).replace('! Параметр !! Значение','! Навык !! Начальный уровень')
             text+="\nСнаряжение и навыки могут корректироваться в зависимости от выбранного вида. Предыстория задаёт старт, а не ограничивает дальнейшее развитие.\n"
         elif group == "spells":
             plain=key.removesuffix(" spell");data=self.spells.get(plain.casefold(),{})
@@ -449,6 +453,8 @@ class Builder(WikiNavigation):
             if rows:text+="\n== Параметры ==\n"+self.table(rows)
             books=[self.keys[('items',name)] for name,enums in self.books.items() if data.get('enum') in enums and ('items',name) in self.keys]
             if books:text+='\n== Где найти ==\nЭта магия встречается в следующих шаблонах книг нашей версии:\n\n<div class="dc-related-links">'+' '.join(self.illustrated_link(v) for v in sorted(set(books)))+'</div>\n'
+            users=self.spell_users.get(data.get('enum'),[])
+            if users:text+='\n== Кто использует ==\nВ базовых наборах следующих существ нашей версии есть это заклинание. Разновидности и особые состояния могут менять набор сил.\n\n<div class="dc-related-links">'+' '.join(self.illustrated_link(t) for t in users)+'</div>\n'
         elif group == 'items':
             rows=[]
             if key in self.weapons:
@@ -489,11 +495,30 @@ class Builder(WikiNavigation):
             if related:
                 text+='\n== Заклинания школы в книгах ==\n'+'\n'.join('* '+self.illustrated_link(title)+' — уровень '+str(level) for level,title in sorted(set(related)))
                 text+='\n\nСписок относится к книгам нашей версии. Наличие заклинания не означает, что его можно надёжно применять без подходящего обучения и снаряжения.\n'
+            weapon_skills={'Maces & Flails':'SK_MACES_FLAILS','Short Blades':'SK_SHORT_BLADES','Long Blades':'SK_LONG_BLADES','Axes':'SK_AXES','Polearms':'SK_POLEARMS','Staves':'SK_STAVES','Ranged Weapons':'SK_RANGED_WEAPONS'}
+            related_items=[]
+            for name,data in self.weapons.items():
+                if data['skill']==weapon_skills.get(key) and ('items',name) in self.keys:related_items.append(self.keys[('items',name)])
+            if key=='Throwing':related_items=[self.keys[('items',name)] for name in self.missiles if ('items',name) in self.keys]
+            if key in ('Armour','Shields'):
+                slot='SLOT_BODY_ARMOUR' if key=='Armour' else 'SLOT_OFFHAND'
+                related_items=[self.keys[('items',name)] for name,data in self.armour.items() if data['slot']==slot and ('items',name) in self.keys]
+            if related_items:text+='\n== Связанные предметы ==\n<div class="dc-related-links">'+' '.join(self.illustrated_link(t) for t in sorted(set(related_items)))+'</div>\n'
         elif group == "gods":
+            linked=self.linked_powers(key)
+            if linked:text+='\n== Связанные способности ==\n<div class="dc-related-links">'+' '.join(self.illustrated_link(r['title']) for r in linked)+'</div>\nУсловия получения и применения указаны в описании конкретной силы.\n'
             gods=read_db(ROOT / "crawl-ref/source/dat/descript/ru/gods.txt")
-            for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство")]:
+            for suffix,heading in [(" powers","Божественные силы"),(" likes","Что одобряет бог"),(" dislikes","Что вызывает недовольство"),(" wrath","Божественный гнев")]:
                 value=gods.get(key+suffix)
                 if value:text+="\n== "+heading+" ==\n"+self.prose(value)+"\n"
+        elif group=='unrand':
+            artifact=self.artifact_for(row)
+            base=artifact.get('OBJ','').split('/')[-1]
+            base_name=next((name for name,data in self.weapons.items() if data.get('enum')==base),None)
+            if not base_name:base_name=next((name for name,data in self.armour.items() if data.get('enum')==base),None)
+            values=[('Тип предмета',self.illustrated_link(self.keys[('items',base_name)]))] if base_name and ('items',base_name) in self.keys else []
+            if artifact.get('PLUS') and re.fullmatch(r'[+-]?\d+',artifact['PLUS']):values.append(('Зачарование',artifact['PLUS']))
+            if values:text+='\n== Базовые параметры ==\n'+self.table(values)
         elif group == "egos":
             short=re.search(r'\(([^)]+)\)',key)
             label=self.annotations.get(short[1].casefold()) if short else None
@@ -514,7 +539,8 @@ class Builder(WikiNavigation):
             sprite=row.get("sprite")
             if sprite:self.sprite_map[title]=sprite
             image='<div class="dc-article-sprite">[[Файл:'+sprite+'|32px|link=|'+row["name"]+']]</div>' if sprite else ""
-            body=self.breadcrumbs(GROUPS[group][0],row['name'])+'<div class="dc-article-top">'+image+'<div><div class="dc-kicker">'+GROUPS[group][0]+' · 0.35-a0</div><div class="dc-native">'+row["name"]+'</div><div class="dc-meta">Английское название: '+html.escape(re.sub(r" (spell|ability|card|mutation|status)$","",key))+'</div></div></div>\n'
+            prefix=self.breadcrumbs(GROUPS[group][0],row['name'])+'<div class="dc-article-top">'+image+'<div><div class="dc-kicker">'+GROUPS[group][0]+' · 0.35-a0</div><div class="dc-native">'+row["name"]+'</div><div class="dc-meta">Английское название: '+html.escape(re.sub(r" (spell|ability|card|mutation|status)$","",key))+'</div></div></div>\n'
+            body=''
             seen=set()
             for entry in row["entries"]:
                 value=self.prose(entry["text"])
@@ -529,7 +555,7 @@ class Builder(WikiNavigation):
                 if isinstance(advice,str):advice={"text":advice}
                 body+="\n== Советы по игре ==\n"+advice['text']+"\n"
                 body+=self.community_sources(advice.get('sources',[]))
-            body+=self.article_navigation(row,GROUPS[group][0])+self.source(row)
+            body=prefix+self.article_layout(body)+self.article_navigation(row,GROUPS[group][0])+self.source(row)
             body+="\n[[Категория:"+GROUPS[group][0]+"]]"
             pages[title]=dict(text=body,key=group+":"+key,kind="article")
         for group,(category,_) in GROUPS.items():
@@ -654,6 +680,7 @@ class Builder(WikiNavigation):
         for title,row in pages.items():
             if row['kind']=='guide' and 'dc-breadcrumbs' not in row['text']:
                 row['text']=self.breadcrumbs('Механики игры',title)+row['text']+self.guide_navigation(title,pages)
+        self.topic_portals(pages)
         provenance="Конкретные редакции CrawlWiki, использованные при подготовке русского справочника. Численные игровые данные сверяются отдельно с русским форком.\n\n"+"\n".join("* ["+v["url"]+" "+k+"] — "+v["timestamp"][:10] for k,v in sorted(self.community.items()))+"\n[[Категория:Проект]]"
         pages["Dungeon Crawl:Источники"]=dict(text=provenance,key="community-provenance",kind="project")
         pages["MediaWiki:Common.css"]=dict(text=(ROOT/"wiki/site/theme.css").read_text(encoding="utf8"),key="theme",kind="css")
@@ -665,6 +692,7 @@ class Builder(WikiNavigation):
         }.items():pages['Категория:'+title]=dict(text=text,key='category:'+title,kind='category')
         sidebar="* Навигация\n** mainpage|Заглавная страница\n** https://dungeoncrawl.ru/|Играть в браузере\n** Первые шаги|Первый заход\n** Управление|Клавиши и команды\n** Механики игры|Механики игры\n* Персонаж\n** Виды|Виды\n** Предыстории|Предыстории\n** Навыки|Навыки\n** Боги|Боги\n** Заклинания|Заклинания\n** Способности|Способности\n* Подземелье\n** Ветви подземелья|Ветви и маршрут\n** Порталы|Порталы\n** Существа|Существа\n** Предметы|Предметы\n** Артефакты|Артефакты\n** Местность|Местность\n** Состояния|Состояния\n** Мутации|Мутации\n** Карты|Карты\n* Сообщество\n** Версия игры|Версия игры\n** Dungeon Crawl:О вики|О вики и источники\n** Справка:Редактирование|Помочь с вики\n** recentchanges-url|Свежие правки\n** randompage-url|Случайная статья\n** https://github.com/Mr-Vivor/DCSS-RU|GitHub проекта\n* SEARCH\n* TOOLBOX\n* LANGUAGES"
         pages["MediaWiki:Sidebar"]=dict(text=sidebar,key="sidebar",kind="system")
+        pages['MediaWiki:Sidebar']['text']=sidebar.replace('* Персонаж','** Справочник|Все разделы\n* Персонаж')
         pages["MediaWiki:Mainpage"]=dict(text="Заглавная страница",key="mainpage-name",kind="message")
         for key,value in {"Aboutpage":"Dungeon Crawl:О вики","Privacypage":"Dungeon Crawl:Конфиденциальность","Disclaimerpage":"Версия игры"}.items():
             pages["MediaWiki:"+key]=dict(text=value,key="interface:"+key,kind="message")
@@ -683,9 +711,9 @@ class Builder(WikiNavigation):
         emblem=self.sprite(ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png")
         def panel(title,body,kind=""):
             return '<div class="dc-panel '+kind+'"><h2>'+title+'</h2><div class="dc-panel-body">'+body+'</div></div>'
-        links=lambda entries:'<div class="dc-links">'+"\n".join("[["+a+"|"+b+"]]" for a,b in entries)+"</div>"
+        links=lambda entries:'<div class="dc-links">'+"\n".join(self.illustrated_link(a,b) for a,b in entries)+"</div>"
         start=panel("Первый спуск",links([("Первые шаги","С чего начать"),("Управление","Клавиши и команды"),("Первый персонаж","Кого выбрать"),("Как выжить","Как выбраться из опасности"),("Развитие персонажа","Опыт и обучение"),("Выбор бога","Религия и божественные силы")]))
-        reference=panel("Под рукой",links([("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
+        reference=panel("Под рукой",links([("Справочник","Все разделы вики"),("Существа","Существа"),("Заклинания","Заклинания"),("Предметы","Предметы и оружие"),("Артефакты","Уникальные артефакты"),("Состояния","Состояния и эффекты"),("Мутации","Мутации"),("Свойства снаряжения","Свойства снаряжения"),("Навыки","Навыки")]),"dc-violet")
         branch_preview='<div class="dc-main-branches">'+' '.join(self.branch_link(k) for k in ('DUNGEON','TEMPLE','LAIR','ORC','VAULTS','DEPTHS','ZOT'))+'</div>'
         world=panel("От лестницы до Сферы",branch_preview+links([("Ветви подземелья","Карта ветвей с входами и рунами"),("Порталы","Временные порталы"),("Механики игры","Бой и механики"),("Путь к Сфере","Руны и победа"),("Местность","Объекты подземелья"),("Снаряжение и расходники","Что брать в бой"),("Магия","Как пользоваться магией"),("Защита и сопротивления","Броня, уклонение и Воля"),("Шум и разведка","Что слышат противники")]),"dc-gold")
         god_links=[]

@@ -5,6 +5,13 @@
         return value.toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[’‘]/g, "'").trim();
     }
     function initialise(root) {
+        var parentLink = document.querySelector('.dc-breadcrumbs a:last-of-type');
+        document.querySelectorAll('#mw-panel a').forEach(function (link) {
+            var current = link.pathname === window.location.pathname;
+            var section = parentLink && link.pathname === parentLink.pathname;
+            link.classList.toggle('dc-nav-active', Boolean(current || section));
+            if (current) link.setAttribute('aria-current', 'page');
+        });
         var heading = document.getElementById('firstHeading');
         if (heading && document.querySelector('.mw-parser-output') && !document.querySelector('.dc-mobile-quicknav')) {
             var navigation = document.createElement('nav');

@@ -99,7 +99,7 @@ class WikiNavigation:
 
     def illustrated_link(self, title, label=None, size=20):
         row=self.rows.get(title)
-        sprite=row.get('sprite') if row else None
+        sprite=row.get('sprite') if row else getattr(self,'guide_sprites',{}).get(title)
         if title in self.branch_names.values():
             key=next(k for k,v in self.branch_names.items() if v==title)
             sprite=self.branch_sprites[key]
@@ -134,7 +134,6 @@ class WikiNavigation:
     def directory(self, group, category):
         rows=self.sorted_groups[group]
         sections=[]
-        intro='Названия совпадают с русской игрой. Можно искать по русскому или английскому названию.'
         if group=='items':
             for kind,label in ITEM_LABELS.items():
                 chosen=[r for r in rows if self.item_group(r['entries'][0]['key'])==kind]
@@ -146,24 +145,22 @@ class WikiNavigation:
                 if chosen:sections.append(('level-'+str(level),'Уровень '+str(level),chosen))
             chosen=[r for r in rows if self.spells.get(r['entries'][0]['key'].removesuffix(' spell').casefold(),{}).get('enum') not in learned]
             sections.append(('other','Силы существ и другие источники',chosen))
-            intro+=' Сначала перечислены заклинания из книг нашей версии по уровню, затем — остальные силы. Наличие статьи не означает возможность обычного заучивания.'
-        elif group=='monsters':
-            uniques=[r for r in rows if 'unique' in self.monsters.get(r['entries'][0]['key'].casefold(),{}).get('flags',[])]
-            if uniques:sections.append(('unique','Уникальные противники',uniques))
-            ordinary=[r for r in rows if r not in uniques]
-            sections.append(('others','Все остальные существа',ordinary))
         else:sections=[('all',category,rows)]
+        custom=self.directory_sections(group,rows)
+        if custom:sections=custom
         jump='<div class="dc-section-jumps">'+' '.join('[[#dc-'+group+'-'+key+'|'+label+']]' for key,label,chosen in sections if chosen)+'</div>' if len(sections)>1 else ''
-        text='__NOTOC__\n'+self.breadcrumbs(category)+'<div class="dc-directory-lead">'+intro+'</div>\n'+jump+'\n<div class="dc-directory" data-dc-directory="'+group+'"><div class="dc-directory-tools"></div>\n'
+        text='__NOTOC__\n'+self.breadcrumbs(category)+self.directory_cover(group,category,len(rows))+'<div class="dc-directory-lead">Поиск понимает русские и английские названия. [[Справочник|Все разделы вики]].</div>\n'+jump+'\n<div class="dc-directory" data-dc-directory="'+group+'"><div class="dc-directory-tools"></div>\n'
         for key,label,chosen in sections:
             if not chosen:continue
-            text+='<div class="dc-directory-section"><h2 id="dc-'+group+'-'+key+'">'+label+' <span class="dc-section-count">'+str(len(chosen))+'</span></h2><div class="dc-icon-index">\n'
+            gallery=group in ('species','background','gods')
+            text+='<div class="dc-directory-section"><h2 id="dc-'+group+'-'+key+'">'+label+' <span class="dc-section-count">'+str(len(chosen))+'</span></h2><div class="dc-icon-index'+(' dc-profile-grid' if gallery else '')+'">\n'
             for row in chosen:
                 detail=''
                 if group=='spells':
                     data=self.spells.get(row['entries'][0]['key'].removesuffix(' spell').casefold(),{})
                     detail=' · '.join(self.terms['skill'][self.skill_key(s)] for s in data.get('schools',[]) if self.skill_key(s) in self.terms['skill'])
-                text+=self.icon_entry(row,detail)+'\n'
+                if group=='unrand':detail=self.excerpt(row,105)
+                text+=(self.profile_entry(row) if gallery else self.icon_entry(row,detail))+'\n'
             text+='</div></div>\n'
         return text+'</div>\n'
 
