@@ -1436,7 +1436,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function update_lobby_version()
     {
-        var version = (game_version || "").match(/^(\d+\.\d+(?:\.\d+)?(?:-[a-z]+\d+)?)/i);
+        var version = (window.game_version || "").match(/^(\d+\.\d+(?:\.\d+)?(?:-[a-z]+\d+)?)/i);
         $(".dc-menu-version").text(version ? version[1] : "");
     }
 
