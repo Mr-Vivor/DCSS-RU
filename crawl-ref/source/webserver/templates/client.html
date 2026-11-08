@@ -204,14 +204,14 @@
           <a id="logout_link" href="javascript:" style="display: none;">Выход</a></span>
         </div>
       </div>
-      <p class="dc-lobby-footer"><a href="https://crawl.develz.org/" target="_blank" rel="noopener">Оригинальная игра</a><span aria-hidden="true"> · </span><a href="https://github.com/Mr-Vivor/DCSS-RU" target="_blank" rel="noopener">Русский проект на GitHub</a></p>
-
       <div id="lobby_body">
-        <h2 class="dc-spectate-title">Сейчас играют</h2>
-        <table id="player_list" class="no_game_times">
+        <div class="dc-live-heading"><h2 class="dc-spectate-title">Наблюдение за игроками</h2><span id="lobby_live_summary" aria-live="polite"></span></div>
+        <p id="lobby_empty" class="dc-lobby-note" role="status">Получаем список активных игр…</p>
+        <table id="player_list" class="no_game_times" style="display:none;" aria-label="Активные игры для наблюдения">
           <thead>
             <tr>
               <th class="username">Игрок</th>
+              <th class="watch">Наблюдение</th>
               <th class="game_id">Игра</th>
               <th class="xl">Ур.</th>
               <th class="char">Персонаж</th>
@@ -231,6 +231,7 @@
           <table>
             <tr id="game_entry_template">
               <td class="username"></td>
+              <td class="watch"></td>
               <td class="game_id"></td>
               <td class="xl"></td>
               <td class="char"></td>
@@ -251,6 +252,18 @@
         </div>
       </div>
 
+      <section id="lobby_statistics" style="display:none;" aria-labelledby="lobby_statistics_title">
+        <h2 id="lobby_statistics_title" class="dc-spectate-title">Статистика сервера</h2>
+        <dl id="server_stats_values" class="dc-server-statistics">
+          <div><dt>Завершено игр</dt><dd id="server_stats_completed">—</dd></div>
+          <div><dt>Побед</dt><dd id="server_stats_wins">—</dd></div>
+          <div><dt>Рекорд очков</dt><dd id="server_stats_best">—</dd></div>
+          <div><dt>Время в игре</dt><dd id="server_stats_time">—</dd></div>
+        </dl>
+        <p id="server_stats_note" class="dc-lobby-note">По завершённым обычным играм. Обучение и технические запуски не учитываются.</p>
+        <p id="server_stats_error" class="dc-lobby-note" role="status" style="display:none;"></p>
+      </section>
+      <p class="dc-lobby-footer"><a href="https://crawl.develz.org/" target="_blank" rel="noopener">Оригинальная игра</a><span aria-hidden="true"> · </span><a href="https://github.com/Mr-Vivor/DCSS-RU" target="_blank" rel="noopener">Русский проект на GitHub</a></p>
       <div id="footer">{% include footer.html %}</div>
     </div>
 

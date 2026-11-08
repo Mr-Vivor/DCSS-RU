@@ -1,8 +1,11 @@
+import logging
+import sqlite3
 import tornado.web
 from tornado.escape import json_encode
+from tornado.ioloop import IOLoop
 
 import webtiles
-from webtiles import config, ws_handler, server
+from webtiles import config, ws_handler, server, userdb, server_statistics
 
 class LobbyHandler(tornado.web.RequestHandler):
     def get(self):
@@ -46,3 +49,28 @@ class LobbyHandler(tornado.web.RequestHandler):
 class VersionHandler(tornado.web.RequestHandler):
     def get(self):
         self.write(json_encode(server.version_data()))
+
+
+class StatisticsHandler(tornado.web.RequestHandler):
+    async def get(self):
+        self.set_header("Cache-Control", "no-store")
+        directory = config.get('lobby_stats_directory')
+        if not directory:
+            self.write(dict(available=False))
+            return
+        excluded = set(config.get('lobby_stats_excluded_players') or [])
+        try:
+            if config.get('dgl_mode'):
+                # Match the lobby's privacy rules; never read passwords or email.
+                with userdb.user_db.execute(
+                    'SELECT username FROM dglusers WHERE (COALESCE(flags, 0) & ?) != 0',
+                    (userdb.DGLACCT_ACCOUNT_HOLD | userdb.DGLACCT_BOT,)
+                ) as rows:
+                    excluded.update(row[0] for row in rows)
+            result = await IOLoop.current().run_in_executor(
+                None, server_statistics.cached_statistics, directory, excluded)
+            self.write(result)
+        except (OSError, sqlite3.Error):
+            logging.exception("Could not read public server statistics")
+            self.set_status(503)
+            self.write(dict(available=False))

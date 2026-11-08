@@ -280,6 +280,7 @@ def bind_server(nonsecure_sockets, secure_sockets):
             (r"/socket", ws_handler.CrawlWebSocket),
             (r"/gamedata/([0-9a-f]*\/.*)", game_data_handler.GameDataHandler),
             (r"/status/lobby/", status.LobbyHandler),
+            (r"/status/statistics/", status.StatisticsHandler),
             (r"/status/version/", status.VersionHandler),
             ]
 

@@ -17,6 +17,8 @@ server_socket_path: /srv/dcss-ru/shared/sockets
 enable_ttyrecs: false
 max_connections: 30
 use_game_yaml: false
+lobby_stats_directory: /srv/dcss-ru/shared/saves
+lobby_stats_excluded_players: [RuServerProbe, RuVpsFresh]
 games:
   dcss-ru: &dcss_ru
     name: 'DCSS-RU — Подземелье'

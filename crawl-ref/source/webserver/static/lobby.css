@@ -21,7 +21,7 @@
     outline: 2px solid var(--menu-gold);
     outline-offset: 4px;
 }
-#banner { width: 440px; max-width: 100%; margin: clamp(32px, 8vh, 88px) auto 0; }
+#banner { width: 440px; max-width: 100%; margin: clamp(24px, 5vh, 48px) auto 0; }
 #lobby .dc-title-mark {
     width: 400px;
     max-width: 100%;
@@ -38,7 +38,7 @@
 #play_now { width: 440px; max-width: 100%; margin: 26px auto 0; padding: 0; }
 #play_now:empty { display: none; }
 .dc-mode-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
-.dc-guest-actions { margin-top: 26px; }
+.dc-guest-actions { margin-top: 20px; }
 #lobby .dc-mode {
     box-sizing: border-box;
     display: flex;
@@ -68,7 +68,7 @@
 #lobby .dc-mode-disabled { opacity: .55; cursor: default; }
 #lobby .dc-mode-disabled:hover { background: var(--menu-panel); border-color: var(--menu-line); }
 .dc-mode-settings { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; margin-top: 14px; font-size: 11px; }
-#lobby > .login_placeholder { width: 440px; max-width: 100%; margin: 28px auto 0; }
+#lobby > .login_placeholder { width: 440px; max-width: 100%; margin: 20px auto 0; }
 #lobby #login { float: none; text-align: center; font-size: 12px; }
 #lobby #login_form {
     display: grid;
@@ -105,8 +105,18 @@
 .dc-lobby-footer { margin: 28px auto 0; text-align: center; color: #818f7a; font-size: 11px; }
 #lobby .dc-lobby-footer a { color: #96a28b; }
 #lobby .dc-lobby-footer a:hover { color: #d4d9b9; }
-#lobby_body { max-width: 1080px; margin: 44px auto 0; padding-top: 20px; border-top: 1px solid #3b443a; overflow-x: auto; font-size: 12px; text-align: left; }
+#lobby_body, #lobby_statistics { max-width: 1080px; margin: 26px auto 0; padding-top: 16px; border-top: 1px solid #3b443a; font-size: 12px; text-align: left; }
+#lobby_body { overflow-x: auto; }
 #lobby .dc-spectate-title { margin: 0 0 14px; font-size: 14px; font-weight: normal; color: #c6ccad; }
+.dc-live-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; margin-bottom: 12px; }
+#lobby .dc-live-heading h2 { margin: 0; }
+#lobby_live_summary { font-size: 11px; color: #acb79d; }
+.dc-lobby-note { margin: 0; color: #a0ad95; font-size: 11px; line-height: 1.7; }
+#lobby .dc-watch-link { display: inline-block; padding: 5px 9px; border: 1px solid #626f55; background: #293325; white-space: nowrap; }
+#lobby .dc-watch-link:hover { border-color: #bea871; background: #39412c; }
+.dc-server-statistics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px 28px; margin: 0 0 12px; }
+.dc-server-statistics dt { color: #a6b29a; font-size: 11px; }
+.dc-server-statistics dd { margin: 3px 0 0; font-size: 18px; color: #ded7b9; }
 #lobby #player_list { border-collapse: collapse; line-height: 1.5; }
 #lobby #player_list th, #lobby #player_list td { padding-top: 7px; padding-bottom: 7px; border-bottom: 1px solid #333d32; }
 #lobby #player_list tr:hover { background: #253022; }
@@ -120,6 +130,9 @@
     #lobby #login_form input { height: 44px; }
     #lobby #login_form .button { padding: 6px 10px; }
     #lobby .extra_links a { display: inline-flex; align-items: center; min-height: 36px; }
+    .dc-server-statistics { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 20px; }
+    #lobby #player_list .game_id, #lobby #player_list .god, #lobby #player_list .idle_time,
+    #lobby #player_list .milestone_col, #lobby #player_list .turn, #lobby #player_list .dur { display: none; }
     .dc-lobby-footer { font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) { #lobby .dc-mode { transition: none; } }

@@ -69,6 +69,8 @@ defaults = {
     'milestone_file': [],
     'status_file_update_rate': 30,
     'lobby_update_rate': 2,
+    'lobby_stats_directory': None,
+    'lobby_stats_excluded_players': [],
     'recording_term_size': (80, 24),
     'max_connections': 100,
     'connection_timeout': 10 * 60,

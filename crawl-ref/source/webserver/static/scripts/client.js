@@ -196,6 +196,8 @@ function (exports, $, key_conversion, chat, comm) {
             : "width=860, initial-scale=1.0");
 
         chat.reset_visibility(in_game());
+        if (layer == "lobby")
+            refresh_lobby_statistics(true);
     }
 
     function register_layer(name)
@@ -1188,7 +1190,15 @@ function (exports, $, key_conversion, chat, comm) {
         var username_entry = $(make_watch_link(data));
         username_entry.text(data.username);
         set("username", username_entry);
-        set("game_id", data.game_id);
+        var watch_link = $(make_watch_link(data));
+        if (watch_link.is("a"))
+            watch_link.text("Смотреть").addClass("dc-watch-link")
+                .attr("aria-label", "Смотреть игру " + data.username);
+        else
+            watch_link.text("Недоступно");
+        set("watch", watch_link);
+        var mode_names = { "dcss-ru": "Подземелье", "tutorial-ru": "Обучение" };
+        set("game_id", mode_names[data.game_id] || data.game_id);
         set("xl", data.xl);
         set("char", data.char);
         set("place", data.place);
@@ -1242,8 +1252,7 @@ function (exports, $, key_conversion, chat, comm) {
     function lobby_remove(data)
     {
         $("#game-" + data.id).remove();
-        if ($("#player_list tbody tr").length == 0)
-            $("#lobby_body").hide();
+        update_lobby_overview();
     }
 
     function lobby_clear()
@@ -1257,7 +1266,6 @@ function (exports, $, key_conversion, chat, comm) {
         var sortlist;
         if (new_list.find("tbody tr").length > 0)
         {
-            $("#lobby_body").show();
             if (old_list[0].config)
                 sortlist = old_list[0].config.sortList;
             else
@@ -1265,18 +1273,74 @@ function (exports, $, key_conversion, chat, comm) {
             new_list.tablesorter({
                 sortList: sortlist,
                 textExtraction: extract_text_or_data,
-                headers: { 0: { sorter: "text" } }
+                headers: { 0: { sorter: "text" }, 1: { sorter: false } }
             });
         }
-        else
-            $("#lobby_body").hide();
         old_list.replaceWith(new_list);
         new_list = null;
+        update_lobby_overview();
     }
+
+    function update_lobby_overview()
+    {
+        var rows = $("#player_list tbody tr");
+        var viewers = 0;
+        rows.each(function () {
+            viewers += parseInt($(this).find(".spectator_count").text(), 10) || 0;
+        });
+        var summary = "Активных игр: " + rows.length + " · Зрителей: " + viewers;
+        if ($("#lobby_live_summary").text() !== summary)
+            $("#lobby_live_summary").text(summary);
+        $("#player_list").toggle(rows.length > 0);
+        var empty_message = "Сейчас активных игр нет. Когда игрок начнёт забег, здесь появится ссылка «Смотреть».";
+        if ($("#lobby_empty").text() !== empty_message)
+            $("#lobby_empty").text(empty_message);
+        $("#lobby_empty").toggle(rows.length === 0);
+    }
+
+    var statistics_pending = false;
+    var statistics_requested_at = 0;
+    function refresh_lobby_statistics(force)
+    {
+        if (current_layer !== "lobby" || statistics_pending
+            || (!force && Date.now() - statistics_requested_at < 60000))
+            return;
+        statistics_pending = true;
+        statistics_requested_at = Date.now();
+        $.ajax({ url: "/status/statistics/", dataType: "json", timeout: 10000 }).done(function (data) {
+            if (!data.available)
+            {
+                $("#lobby_statistics").hide();
+                return;
+            }
+            function number(value)
+            {
+                return typeof value === "number" && isFinite(value) && value >= 0
+                    ? value.toLocaleString("ru-RU") : "—";
+            }
+            $("#server_stats_completed").text(number(data.completed));
+            $("#server_stats_wins").text(number(data.wins));
+            $("#server_stats_best").text(number(data.best_score));
+            var seconds = Math.max(0, Math.floor(Number(data.total_seconds) || 0));
+            var hours = Math.floor(seconds / 3600);
+            var minutes = Math.floor(seconds / 60) % 60;
+            $("#server_stats_time").text(hours > 0 ? hours + " ч " + minutes + " мин"
+                : seconds >= 60 ? minutes + " мин" : seconds + " с");
+            $("#server_stats_values, #server_stats_note, #lobby_statistics").show();
+            $("#server_stats_error").hide();
+        }).fail(function () {
+            $("#lobby_statistics").show();
+            $("#server_stats_values, #server_stats_note").hide();
+            $("#server_stats_error").text("Статистика временно недоступна. Попробуем обновить её автоматически.").show();
+        }).always(function () {
+            statistics_pending = false;
+        });
+    }
+    setInterval(function () { refresh_lobby_statistics(false); }, 60000);
 
     function make_watch_link(data)
     {
-        if (data.username.startsWith("[блокировка счета]"))
+        if (data.username.startsWith("[блокировка счета]") || data.username.startsWith("[account hold]"))
             return "<b></b>"; // don't linkify, watching disabled
         else
             return "<a href='#watch-" + data.username + "'></a>";
@@ -1291,16 +1355,16 @@ function (exports, $, key_conversion, chat, comm) {
         }
         else if (seconds < 60)
         {
-            elem.text(seconds + "s");
+            elem.text(seconds + " с");
         }
         else if (seconds < (60 * 60))
         {
-            elem.text(Math.floor(seconds / 60) + "m");
+            elem.text(Math.floor(seconds / 60) + " мин");
         }
         else
         {
-            elem.text(Math.floor(seconds / (60 * 60)) + "h " +
-                (Math.floor(seconds / 60) % 60) + "m");
+            elem.text(Math.floor(seconds / (60 * 60)) + " ч " +
+                (Math.floor(seconds / 60) % 60) + " мин");
         }
         return elem;
     }
@@ -1314,15 +1378,15 @@ function (exports, $, key_conversion, chat, comm) {
         }
         else if (seconds < 120)
         {
-            elem.text(seconds + "s");
+            elem.text(seconds + " с");
         }
         else if (seconds < (60 * 60))
         {
-            elem.text(Math.round(seconds / 60) + "m");
+            elem.text(Math.round(seconds / 60) + " мин");
         }
         else
         {
-            elem.text(Math.round(seconds / (60 * 60)) + "h");
+            elem.text(Math.round(seconds / (60 * 60)) + " ч");
         }
         return elem;
     }
