@@ -708,7 +708,10 @@ class Builder(WikiNavigation, WikiPresentation):
         return '<div class="dc-sprite-grid">'+"\n".join(items)+"</div>"
 
     def main_page(self,counts):
-        emblem=self.sprite(ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png")
+        art_source=ROOT/'crawl-ref/source/dat/tiles/title_white_noise_entering_the_dungeon.png'
+        art_name='Dcss-art-entering-the-dungeon.png'
+        shutil.copyfile(art_source,self.output/'sprites'/art_name)
+        self.assets[art_name]=dict(path=art_source.relative_to(ROOT).as_posix(),sha256=hashlib.sha256(art_source.read_bytes()).hexdigest())
         def panel(title,body,kind=""):
             return '<div class="dc-panel '+kind+'"><h2>'+title+'</h2><div class="dc-panel-body">'+body+'</div></div>'
         links=lambda entries:'<div class="dc-links dc-home-links">'+"\n".join('<div class="dc-home-link">'+self.illustrated_link(a,b)+'</div>' for a,b in entries)+"</div>"
@@ -723,12 +726,12 @@ class Builder(WikiNavigation, WikiPresentation):
             if not row.get('sprite'):raise ValueError(('Missing altar sprite',row['name']))
             god_links.append('<div class="dc-god-card">[[Файл:'+row['sprite']+'|20px|link='+row['title']+'|Алтарь: '+row['name']+']] [['+row['title']+'|'+row['name']+']]</div>')
         gods=panel("Боги",'<div class="dc-links dc-gods">'+"\n".join(god_links)+'</div>',"dc-gold")
-        intro='<div class="dc-intro"><div class="dc-emblem">[[Файл:'+emblem+'|32px|link=]]</div><div><div class="dc-kicker">Dungeon Crawl Stone Soup</div><div class="dc-title">Русская вики <span class="dc-version">0.35-a0</span></div><p>Справочник для тех, кто спускается за Сферой Зота.</p><div class="dc-muted">Виды, заклинания, боги и обитатели Подземелья — с теми же названиями, что в русской игре.</div></div></div>'
+        intro='<div class="dc-intro dc-wiki-hero"><div class="dc-wiki-hero-copy"><div class="dc-kicker">Dungeon Crawl Stone Soup</div><div class="dc-title" role="heading" aria-level="1">Знания для<br>следующего спуска.</div><p>Русская вики <span class="dc-version">0.35-a0</span></p><div class="dc-muted">От первого героя до Сферы Зота. Механики, тактика и названия — как в русской игре.</div></div><div class="dc-wiki-hero-art">[[Файл:'+art_name+'|320px|link=|Воин у входа в Подземелье. Иллюстрация White Noise.]]</div></div>'
         notice='<div class="dc-main-note">Наш сервер использует ветку разработки <b>0.35-a0</b>. Статьи сообщества адаптируются под неё; подробности — [[Версия игры|на странице версии]]. [https://dungeoncrawl.ru/ Играть в браузере]</div>'
         footer=panel("Сообщество и редактура","Материалы основаны на [[Dungeon Crawl:О вики|CrawlWiki и исходниках игры]]. Правки доступны приглашённым редакторам. Нашли неточность? Проверьте название и версию, затем оставьте замечание на странице обсуждения или в [https://github.com/Mr-Vivor/DCSS-RU/issues задачах проекта].\n\n[[Справка:Редактирование|Как устроены страницы и как помочь]] · [[Служебная:Статистика|Статистика вики]]")
         summary='<div class="dc-quickstats"><span>27 видов</span><span>28 предысторий</span><span>26 богов</span><span>'+str(counts["spells"])+" описаний заклинаний</span></div>"
         toolbar='<div class="dc-main-toolbar">'+summary+'<div class="dc-directory-shortcut">[[Справочник|Все разделы вики →]]</div></div>'
-        return "__NOTOC__\n"+intro+notice+toolbar+'<div class="dc-layout"><div>'+start+reference+world+gods+'</div><div>'+panel("Виды",self.grid("species"),"dc-green")+panel("Предыстории",self.grid("background"),"dc-violet")+'</div></div>'+footer
+        return "__NOTOC__\n"+intro+toolbar+'<div class="dc-home-priority">'+start+reference+'</div>'+notice+'<div class="dc-layout"><div>'+world+gods+'</div><div>'+panel("Виды",self.grid("species"),"dc-green")+panel("Предыстории",self.grid("background"),"dc-violet")+'</div></div>'+footer+'<div class="dc-art-credit">Иллюстрация на главной: White Noise, DCSS.</div>'
 
 
 if __name__ == "__main__":

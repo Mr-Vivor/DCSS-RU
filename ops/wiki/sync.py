@@ -17,6 +17,7 @@ MIRROR=Path('/srv/dcss-ru/repository.git')
 PATHS=['tools/wiki','tools/ru','wiki/site','wiki/ru/reference/descriptions.json',
        'localization/ru','crawl-ref/source/rltiles','crawl-ref/source/dat/mons',
        'crawl-ref/source/dat/species','crawl-ref/source/dat/jobs',
+       'crawl-ref/source/dat/tiles/title_white_noise_entering_the_dungeon.png',
        'crawl-ref/source/dat/descript/ru','crawl-ref/source/spl-data.h','crawl-ref/source/art-data.txt',
        'crawl-ref/source/branch-data.h','crawl-ref/source/item-prop.cc','crawl-ref/source/book-data.h',
        'crawl-ref/source/ability.cc','crawl-ref/source/tilepick.cc','crawl-ref/source/mon-spell.h']

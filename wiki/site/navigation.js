@@ -5,6 +5,28 @@
         return value.toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[’‘]/g, "'").trim();
     }
     function initialise(root) {
+        var hero = document.querySelector('.dc-wiki-hero');
+        if (hero && !document.querySelector('.dc-wiki-search')) {
+            var search = document.createElement('form');
+            search.className = 'dc-wiki-search';
+            search.action = '/index.php';
+            search.method = 'get';
+            search.setAttribute('role', 'search');
+            var title = document.createElement('input');
+            title.type = 'hidden';
+            title.name = 'title';
+            title.value = 'Служебная:Поиск';
+            var query = document.createElement('input');
+            query.type = 'search';
+            query.name = 'search';
+            query.placeholder = 'Заклинание, предмет, существо…';
+            query.setAttribute('aria-label', 'Поиск по русской вики');
+            var submit = document.createElement('button');
+            submit.type = 'submit';
+            submit.textContent = 'Найти';
+            search.append(title, query, submit);
+            hero.insertAdjacentElement('afterend', search);
+        }
         var parentLink = document.querySelector('.dc-breadcrumbs a:last-of-type');
         document.querySelectorAll('#mw-panel a').forEach(function (link) {
             var current = link.pathname === window.location.pathname;

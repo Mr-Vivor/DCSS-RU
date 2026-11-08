@@ -1,14 +1,23 @@
 <header class="dc-lobby-heading">
-  <img class="dc-lobby-emblem" src="{{ static_url('stone_soup_icon-32x32.png') }}" alt="" width="64" height="64">
-  <p class="dc-lobby-kicker">Dungeon Crawl Stone Soup</p>
-  <h1>Подземелье ждёт</h1>
-  <p class="dc-lobby-intro">Русская версия. Один герой, один спуск — и целый мир под землёй.</p>
+  <div class="dc-lobby-stage">
+    <div class="dc-lobby-story">
+      <p class="dc-lobby-kicker">Dungeon Crawl Stone Soup · Русская версия</p>
+      <h1>За Сферой<br>Зота.</h1>
+      <p class="dc-lobby-intro">Выбери героя. Найди руны.<br>Вернись из глубин Подземелья.</p>
+      <p class="dc-lobby-genre">Пошаговый roguelike с одной жизнью</p>
+    </div>
+    <figure class="dc-lobby-art">
+      <div class="dc-lobby-art-window"><img src="{{ static_url('title_white_noise_entering_the_dungeon.png') }}" alt="Воин входит с мечом в каменное подземелье" width="400" height="400"></div>
+      <figcaption>White Noise · оригинальная иллюстрация DCSS</figcaption>
+    </figure>
+  </div>
   {% if username %}
     <p class="dc-lobby-welcome">С возвращением, {{ username }}.</p>
   {% else %}
     <div class="dc-mode-list dc-guest-actions">
       <a class="dc-mode dc-mode-primary" href="#play-dcss-ru"><span class="dc-mode-label">Играть <span class="dc-menu-version"></span></span><span class="dc-mode-detail">Спуститься в Подземелье</span></a>
-      <a class="dc-mode" href="#play-tutorial-ru"><span class="dc-mode-label">Обучение <span class="dc-menu-version"></span></span><span class="dc-mode-detail">Первые шаги в игре</span></a>
+      <a class="dc-mode" href="#play-tutorial-ru"><span class="dc-mode-label">Обучение <span class="dc-menu-version"></span></span><span class="dc-mode-detail">Освоить управление и первые бои</span></a>
+      <a class="dc-mode dc-mode-wiki" href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener"><span class="dc-mode-label">Русская вики <span class="dc-mode-arrow" aria-hidden="true">↗</span></span><span class="dc-mode-detail">Виды, боги, предметы и заклинания</span></a>
     </div>
     <p class="dc-lobby-signin">Для игры войдите в аккаунт или зарегистрируйтесь.</p>
   {% end %}
