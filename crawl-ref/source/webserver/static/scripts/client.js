@@ -190,6 +190,10 @@ function (exports, $, key_conversion, chat, comm) {
                 $("#" + l).hide();
         });
         current_layer = layer;
+        // The lobby fits phones; keep the existing game viewport unchanged.
+        $("meta[name='viewport']").attr("content", layer == "lobby"
+            ? "width=device-width, initial-scale=1.0"
+            : "width=860, initial-scale=1.0");
 
         chat.reset_visibility(in_game());
     }
@@ -1142,8 +1146,8 @@ function (exports, $, key_conversion, chat, comm) {
     {
         cleanup();
         show_loading_screen();
-        show_prompt("Для игры в <span id='prompt_game'> требуется вход"
-                    + data.game + "</span>:",
+        show_prompt("Чтобы начать игру <span id='prompt_game'>"
+                    + data.game + "</span>, войдите в аккаунт:",
                     "<a href='#lobby'> Вернуться в лобби </a>");
     }
 
@@ -1430,9 +1434,16 @@ function (exports, $, key_conversion, chat, comm) {
         }
     }
 
+    function update_lobby_version()
+    {
+        var version = (game_version || "").match(/^(\d+\.\d+(?:\.\d+)?(?:-[a-z]+\d+)?)/i);
+        $(".dc-menu-version").text(version ? version[1] : "");
+    }
+
     function set_game_links(data)
     {
         $("#play_now").html(data.content);
+        update_lobby_version();
         $("#play_now .edit_rc_link").click(function (ev) {
             // $(this).data("game_id") will return a number for values like
             // "0.24", so explicitly coerce to string.
@@ -1444,6 +1455,8 @@ function (exports, $, key_conversion, chat, comm) {
     function set_html(data)
     {
         $("#" + data.id).html(data.content);
+        if (data.id == "banner")
+            update_lobby_version();
     }
 
     requirejs.onResourceLoad = function (context, map, depArray) {
@@ -1624,6 +1637,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     $(document).ready(function () {
         bind_document_events();
+        update_lobby_version();
 
         $(window).resize(function (ev) {
             do_layout();

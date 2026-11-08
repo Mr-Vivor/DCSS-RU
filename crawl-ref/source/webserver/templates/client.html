@@ -10,6 +10,7 @@
     </script>
     <script src="{{ static_url("scripts/contrib/require.js") }}" data-main="/static/scripts/app"></script>
     <link rel="stylesheet" type="text/css" href="{{ static_url("style.css") }}">
+    <link rel="stylesheet" type="text/css" href="{{ static_url("lobby.css") }}">
     <link rel="stylesheet" type="text/css" href="{{ static_url("fonts/fonts.css") }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -29,7 +30,7 @@
             <input class="text" type="password" name="password" id="password">
             <input class="button" type="submit" name="submit" id="submit" value="Войти">
           </form>
-          <span class="extra_links">|
+          <span class="extra_links">
           <a id="reg_link" href="javascript:">Регистрация</a>
 {% if getattr(config, "allow_password_reset", False) %}
           <a id="forgot_link" href="javascript:">Забыли пароль</a>
@@ -202,8 +203,7 @@
       </div>
 
       <div id="play_now"></div>
-
-      <br>
+      <div class="dc-lobby-wiki"><a href="https://wiki.dungeoncrawl.ru/" target="_blank" rel="noopener">Русская вики <span aria-hidden="true">↗</span></a><p>Виды, боги, заклинания и всё, что пригодится в Подземелье</p></div>
 
       <div id="lobby_body">
         <span>
