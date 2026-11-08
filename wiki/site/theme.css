@@ -139,8 +139,8 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .dc-cover-title{font:1.7em/1.25 Georgia,"Times New Roman",serif;color:#eddfbf;margin:4px 0 7px;text-wrap:balance}
 .dc-directory-cover p{max-width:70ch;font-size:.92em;color:#c3cfdd;margin:6px 0 10px}
 .dc-cover-count{font-size:.76em;letter-spacing:.02em;color:var(--dc-muted);font-variant-numeric:tabular-nums}
-.dc-links>.dc-inline-link{display:flex;align-items:center;gap:8px;padding:8px 10px;background:#2b323e;border:1px solid #414a5b;border-radius:3px;font-weight:600}
-.dc-links>.dc-inline-link a{display:inline;padding:0;background:none;border:0;border-radius:0}.dc-links>.dc-inline-link:hover{background:#303c4b}
+.dc-links .dc-inline-link{display:flex;align-items:center;gap:8px;padding:8px 10px;background:#2b323e;border:1px solid #414a5b;border-radius:3px;font-weight:600}
+.dc-links .dc-inline-link a{display:inline;padding:0;background:none;border:0;border-radius:0}.dc-links .dc-inline-link:hover{background:#303c4b}
 #mw-panel .vector-menu-portal .vector-menu-content li a.dc-nav-active{display:block;border-left:2px solid var(--dc-gold);background:#2a3541;color:#ebd3a6!important;font-weight:600;padding:3px 7px;margin-left:-9px}
 .dc-profile-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:12px}
 .dc-icon-entry.dc-profile-entry{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:start;gap:14px;padding:15px;border:1px solid #3f4b59;border-left:2px solid #76684b;background:#242b34;min-height:135px}
