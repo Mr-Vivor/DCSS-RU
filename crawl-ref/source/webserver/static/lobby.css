@@ -62,8 +62,9 @@
 @media (max-width: 700px) {
     #lobby { padding: 18px 20px 32px; }
     #lobby #login { justify-content: center; }
-    #lobby #login_form { justify-content: center; }
-    #lobby #login_form .text { width: 120px; }
+    #lobby #login_form { display: grid; grid-template-columns: auto minmax(0, 180px); justify-content: center; }
+    #lobby #login_form .text { width: 100%; }
+    #lobby #login_form .button { grid-column: 2; }
     #banner { margin-top: 38px; }
     .dc-mode-list { grid-template-columns: 1fr; gap: 12px; }
     #lobby .dc-mode { min-height: 96px; padding: 18px 22px; }
