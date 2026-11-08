@@ -5,6 +5,20 @@
         return value.toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[’‘]/g, "'").trim();
     }
     function initialise(root) {
+        var heading = document.getElementById('firstHeading');
+        if (heading && document.querySelector('.mw-parser-output') && !document.querySelector('.dc-mobile-quicknav')) {
+            var navigation = document.createElement('nav');
+            navigation.className = 'dc-mobile-quicknav';
+            navigation.setAttribute('aria-label', 'Разделы вики');
+            [['Вики', 'Заглавная страница'], ['Карта', 'Ветви подземелья'],
+             ['Предметы', 'Предметы'], ['Заклинания', 'Заклинания'], ['Существа', 'Существа']].forEach(function (item) {
+                var link = document.createElement('a');
+                link.textContent = item[0];
+                link.href = '/wiki/' + encodeURIComponent(item[1].replace(/ /g, '_'));
+                navigation.appendChild(link);
+            });
+            heading.parentNode.insertBefore(navigation, heading);
+        }
         root.querySelectorAll('.dc-directory').forEach(function (directory) {
             if (directory.dataset.dcReady) return;
             directory.dataset.dcReady = '1';

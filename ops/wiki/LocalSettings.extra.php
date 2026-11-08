@@ -62,6 +62,10 @@ wfLoadExtension( 'Cite' );
 wfLoadExtension( 'InputBox' );
 
 // DCSS-NAVIGATION-RUNTIME-BEGIN
+$wgHooks['OutputPageAfterGetHeadLinksArray'][] = static function ( &$tags, $out ) {
+    // Legacy Vector forces a desktop viewport even with project mobile CSS.
+    $tags['meta-viewport'] = '<meta name="viewport" content="width=device-width, initial-scale=1">';
+};
 $wgHooks['BeforePageDisplay'][] = static function ( $out, $skin ) {
     $script = '/srv/dcss-wiki/shared/resources/navigation.js';
     if ( is_file( $script ) ) {
