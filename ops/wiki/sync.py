@@ -57,13 +57,21 @@ def main():
                 bundle.extractall(source,filter='data')
             output=scratch/'output'
             run(['python3',str(source/'tools/wiki/build.py'),'--output',str(output),'--revision',sha])
-            # Main article text is updated before new file metadata is uploaded.
-            summary=run(['php',str(BASE/'bin/update-content.php'),'--memory-limit=512M',str(output/'pages.json')])
-            print(summary.splitlines()[-1])
+            # Create managed file descriptions first, then upload their bytes.
+            # Articles are parsed only after the images exist, so their first
+            # cached rendering cannot contain missing-file links.
+            payload=json.loads((output/'pages.json').read_text())
+            file_payload=dict(payload)
+            file_payload['pages']={k:v for k,v in payload['pages'].items() if v['kind']=='file'}
+            (output/'files.json').write_text(json.dumps(file_payload,ensure_ascii=False))
+            run(['php',str(BASE/'bin/update-content.php'),'--memory-limit=512M',str(output/'files.json')])
             images=run(['php','maintenance/run.php','importImages',str(output/'sprites'),
                 '--user=Vivor','--comment=Спрайты активной версии русского форка','--memory-limit=512M'],cwd=BASE/'current')
             print('\n'.join(images.splitlines()[-2:]))
-            for name in ('wiki-logo.svg','favicon.png','theme.css'):
+            summary=run(['php',str(BASE/'bin/update-content.php'),'--memory-limit=512M',str(output/'pages.json')])
+            print(summary.splitlines()[-1])
+            for name in ('wiki-logo.svg','favicon.png','theme.css','navigation.js'):
+                if name=='navigation.js' and not (output/name).is_file():continue
                 shutil.copyfile(output/name,shared/'resources'/name)
             shutil.copyfile(output/'report.json',shared/'build-report.json')
             shutil.copyfile(output/'search-extracts.json',shared/'search-extracts.json')

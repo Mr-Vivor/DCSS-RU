@@ -60,3 +60,13 @@ $wgRightsIcon = '';
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Cite' );
 wfLoadExtension( 'InputBox' );
+
+// DCSS-NAVIGATION-RUNTIME-BEGIN
+$wgHooks['BeforePageDisplay'][] = static function ( $out, $skin ) {
+    $script = '/srv/dcss-wiki/shared/resources/navigation.js';
+    if ( is_file( $script ) ) {
+        $url = '/resources/dcss/navigation.js?v=' . substr( hash_file( 'sha256', $script ), 0, 12 );
+        $out->addHeadItem( 'dcss-directory-filter', '<script defer src="' . $url . '"></script>' );
+    }
+};
+// DCSS-NAVIGATION-RUNTIME-END

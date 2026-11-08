@@ -4,8 +4,8 @@
     function normalise(value) {
         return value.toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[’‘]/g, "'").trim();
     }
-    mw.hook('wikipage.content').add(function ($content) {
-        $content[0].querySelectorAll('.dc-directory').forEach(function (directory) {
+    function initialise(root) {
+        root.querySelectorAll('.dc-directory').forEach(function (directory) {
             if (directory.dataset.dcReady) return;
             directory.dataset.dcReady = '1';
             var tools = directory.querySelector('.dc-directory-tools');
@@ -65,5 +65,13 @@
             }
             filter();
         });
-    });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () { initialise(document); });
+    } else {
+        initialise(document);
+    }
+    if (typeof mw !== 'undefined' && mw.hook) {
+        mw.hook('wikipage.content').add(function ($content) { initialise($content[0]); });
+    }
 }());

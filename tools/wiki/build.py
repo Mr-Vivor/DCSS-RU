@@ -585,6 +585,7 @@ class Builder(WikiNavigation):
         (self.output/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
         shutil.copyfile(ROOT/"wiki/site/wiki-logo.svg",self.output/"wiki-logo.svg")
         shutil.copyfile(ROOT/"wiki/site/theme.css",self.output/"theme.css")
+        shutil.copyfile(ROOT/'wiki/site/navigation.js',self.output/'navigation.js')
         fallback=ROOT/"crawl-ref/source/rltiles/gui/startup/stonesoup.png"
         shutil.copyfile(fallback,self.output/"favicon.png")
         print(json.dumps(report,ensure_ascii=False,indent=2))
@@ -656,7 +657,12 @@ class Builder(WikiNavigation):
         provenance="Конкретные редакции CrawlWiki, использованные при подготовке русского справочника. Численные игровые данные сверяются отдельно с русским форком.\n\n"+"\n".join("* ["+v["url"]+" "+k+"] — "+v["timestamp"][:10] for k,v in sorted(self.community.items()))+"\n[[Категория:Проект]]"
         pages["Dungeon Crawl:Источники"]=dict(text=provenance,key="community-provenance",kind="project")
         pages["MediaWiki:Common.css"]=dict(text=(ROOT/"wiki/site/theme.css").read_text(encoding="utf8"),key="theme",kind="css")
-        pages['MediaWiki:Common.js']=dict(text=(ROOT/'wiki/site/navigation.js').read_text(encoding='utf8'),key='wiki-navigation-js',kind='javascript')
+        pages['MediaWiki:Common.js']=dict(text='/* Directory filtering is served from /resources/dcss/navigation.js. */',key='wiki-navigation-js',kind='javascript')
+        for title,text in {
+            'Руководства':'Практические материалы: [[Первые шаги]], [[Механики игры]], [[Ветви подземелья]], [[Магия]], [[Снаряжение и расходники]].',
+            'Проект':'О русском справочнике: [[Dungeon Crawl:О вики]], [[Dungeon Crawl:Источники]], [[Версия игры]], [[Справка:Редактирование]].',
+            'Спрайты игры':'Оригинальные игровые изображения русского форка. Источник и условия использования указаны на странице каждого файла.'
+        }.items():pages['Категория:'+title]=dict(text=text,key='category:'+title,kind='category')
         sidebar="* Навигация\n** mainpage|Заглавная страница\n** https://dungeoncrawl.ru/|Играть в браузере\n** Первые шаги|Первый заход\n** Управление|Клавиши и команды\n** Механики игры|Механики игры\n* Персонаж\n** Виды|Виды\n** Предыстории|Предыстории\n** Навыки|Навыки\n** Боги|Боги\n** Заклинания|Заклинания\n** Способности|Способности\n* Подземелье\n** Ветви подземелья|Ветви и маршрут\n** Порталы|Порталы\n** Существа|Существа\n** Предметы|Предметы\n** Артефакты|Артефакты\n** Местность|Местность\n** Состояния|Состояния\n** Мутации|Мутации\n** Карты|Карты\n* Сообщество\n** Версия игры|Версия игры\n** Dungeon Crawl:О вики|О вики и источники\n** Справка:Редактирование|Помочь с вики\n** recentchanges-url|Свежие правки\n** randompage-url|Случайная статья\n** https://github.com/Mr-Vivor/DCSS-RU|GitHub проекта\n* SEARCH\n* TOOLBOX\n* LANGUAGES"
         pages["MediaWiki:Sidebar"]=dict(text=sidebar,key="sidebar",kind="system")
         pages["MediaWiki:Mainpage"]=dict(text="Заглавная страница",key="mainpage-name",kind="message")
