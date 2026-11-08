@@ -5,8 +5,8 @@ import re
 
 
 PORTALS = ('SEWER','OSSUARY','BAILEY','GULCH','GAUNTLET','ICE_CAVE','VOLCANO',
-           'BAZAAR','TROVE','WIZLAB','DESOLATION')
-SPECIAL_WORLDS = ('NECROPOLIS','CRUCIBLE','ARENA')
+           'BAZAAR','TROVE','WIZLAB','DESOLATION','NECROPOLIS')
+SPECIAL_WORLDS = ('CRUCIBLE','ARENA')
 TREE_ORDER = ('DUNGEON','TEMPLE','LAIR','SWAMP','SHOALS','SNAKE','SPIDER','SLIME',
               'ORC','ELF','VAULTS','CRYPT','TOMB','ABYSS','DEPTHS','ZOT',
               'VESTIBULE','DIS','GEHENNA','COCYTUS','TARTARUS','PANDEMONIUM','ZIGGURAT')
@@ -201,7 +201,6 @@ class WikiNavigation:
         if key=='DUNGEON':return 'начало партии; Проходчик — D:5'
         if key=='ABYSS':return 'D:13–15; также изгнание и другие входы'
         if key in ('VESTIBULE','PANDEMONIUM'):return 'порталы в Глубинах'
-        if key=='NECROPOLIS':return 'испытание Кикубаакудги'
         if key=='CRUCIBLE':return 'испытание Махлеба'
         if key=='ARENA':return 'испытание Окавару'
         parent=self.branch_parent(key);data=self.branch_stats[key]
