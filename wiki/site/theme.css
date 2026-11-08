@@ -151,7 +151,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .dc-home-guides{padding-top:14px;border-top:1px solid var(--dc-line)}
 @media(max-width:480px){.dc-home-links{grid-template-columns:1fr}.dc-main-toolbar{align-items:stretch}.dc-directory-shortcut{width:100%}.dc-directory-shortcut a{display:block;text-align:center}.dc-main-branches{gap:0 10px}.dc-home-branch .dc-branch-link{font-size:.9em;gap:5px}}
 #mw-panel .vector-menu-portal .vector-menu-content li a.dc-nav-active{display:block;border-left:2px solid var(--dc-gold);background:#2a3541;color:#ebd3a6!important;font-weight:600;padding:3px 7px;margin-left:-9px}
-.dc-profile-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:12px}
+.dc-profile-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:12px}
 .dc-icon-entry.dc-profile-entry{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:start;gap:14px;padding:15px;border:1px solid #3f4b59;border-left:2px solid #76684b;background:#242e2d;min-height:135px}
 .dc-icon-entry.dc-profile-entry:hover{background:#2a3441;border-color:#8f7d59}
 .dc-profile-art{padding-top:3px;text-align:center}.dc-profile-entry .dc-profile-art img{width:60px!important;height:78px!important;object-fit:contain;image-rendering:pixelated}
