@@ -10250,7 +10250,7 @@ The net is caught on something unseen!
 %%%%
 The net passes right through @arg@!
 
-Сеть проходит насквозь через: @arg@!
+Сеть проходит насквозь через {acc}@arg@!
 %%%%
 @Arg@ is caught in the net!
 
@@ -35346,43 +35346,43 @@ Your power is siphoned away as the spells of %s are empowered!
 %%%%
 @monster@ invokes a tyrant's trap upon you!
 
-@monster@ обращает против вас ловушку тирана!
+@Monster@ обращает против вас ловушку тирана!
 %%%%
 @monster@ sets off a tyrant's trap!
 
-@monster@ запускает ловушку тирана!
+@Monster@ запускает ловушку тирана!
 %%%%
 @monster@ invokes an archmage's trap upon you!
 
-@monster@ обращает против вас ловушку архимага!
+@Monster@ обращает против вас ловушку архимага!
 %%%%
 @monster@ sets off an archmage's trap!
 
-@monster@ запускает ловушку архимага!
+@Monster@ запускает ловушку архимага!
 %%%%
 @monster@ invokes a harlequin's trap!
 
-@monster@ активирует ловушку арлекина!
+@Monster@ активирует ловушку арлекина!
 %%%%
 @monster@ sets off a harlequin's trap!
 
-@monster@ запускает ловушку арлекина!
+@Monster@ запускает ловушку арлекина!
 %%%%
 @monster@ enters a harlequin's trap.
 
-@monster@ наступает на ловушку арлекина.
+@Monster@ наступает на ловушку арлекина.
 %%%%
 @monster@ invokes an devourer's trap upon you!
 
-@monster@ обращает против вас ловушку пожирателя!
+@Monster@ обращает против вас ловушку пожирателя!
 %%%%
 @monster@ sets off an devourer's trap!
 
-@monster@ запускает ловушку пожирателя!
+@Monster@ запускает ловушку пожирателя!
 %%%%
 @monster@ enters a devourer's trap.
 
-@monster@ наступает на ловушку пожирателя.
+@Monster@ наступает на ловушку пожирателя.
 %%%%
 You set off the alarm!
 
@@ -38986,7 +38986,7 @@ examine gizmo
 %%%%
 <yellow>You have %d gold pieces and a voucher.</yellow>
 
-<yellow>Золото: %d. Есть ваучер.</yellow>
+<yellow>Золото: %d. Есть купон магазина.</yellow>
 %%%%
 <yellow>You have %d gold pieces</yellow>
 
@@ -63811,3 +63811,35 @@ They will inflict a necromantic curse on their foe when destroyed.
 They will inflict a powerful necromantic curse on their foe when destroyed.
 
 При уничтожении накладывает на противника мощное некромантическое проклятие.
+%%%%
+@Intro@ the attacks of @targets@ are laced with chaos!
+
+@Intro@ атаки {gen}@targets@ пронизаны хаосом!
+%%%%
+You slip through the net.
+
+Вы проскальзываете сквозь сеть.
+%%%%
+The net passes straight through you.
+
+Сеть проходит сквозь вас.
+%%%%
+@Monster@ effortlessly oozes through the net!
+
+{nom}@Monster@ без труда просачивается сквозь сеть!
+%%%%
+You feel a twinge of divine disapproval.
+
+Вы ощущаете лёгкое неодобрение своего божества.
+%%%%
+The trap's stomach acid
+
+Желудочная кислота ловушки
+%%%%
+The trap's stomach acid corrodes you!
+
+Желудочная кислота ловушки вызывает коррозию!
+%%%%
+A malevolent force fills @branch@...
+
+Зловещая сила наполняет ветвь «@branch@»...

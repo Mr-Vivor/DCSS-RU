@@ -335,6 +335,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Как назвать предка «Борис»? ");
     CHECK(localise("Your weapon, crown and divine halo glow too brightly for you to become invisible.")
           == "Невидимости мешает яркое свечение: оружие, корона и божественный ореол.");
+    const string harlequin_intro = getMiscString("harlequin_trap_lines");
+    REQUIRE(harlequin_intro.find(", и") != string::npos);
+    CHECK(localise(harlequin_intro + " the attacks of the bat and the orc are laced with chaos!")
+          == harlequin_intro + " атаки летучей мыши и орка пронизаны хаосом!");
     CHECK(localise("You are dangerously contaminated with residual magic. (up to 12 damage)")
           == "Вы опасно загрязнены остаточной магией. (урон: до 12)");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
