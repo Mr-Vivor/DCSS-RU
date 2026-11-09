@@ -187,6 +187,9 @@
 @num@ acid blobs
 @num@ кислотных сгустков
 %%%%
+@num@ acid dragon scales
+@num@ чешуй кислотного дракона
+%%%%
 @num@ acid dragons
 @num@ кислотных драконов
 %%%%
@@ -658,6 +661,9 @@
 @num@ electric golems
 @num@ электрических големов
 %%%%
+@num@ eleionomae
+@num@ элеионом
+%%%%
 @num@ elephants
 @num@ слонов
 %%%%
@@ -690,6 +696,12 @@
 %%%%
 @num@ fauns
 @num@ фавнов
+%%%%
+@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+@num@ fire dragon scales
+@num@ чешуй огненного дракона
 %%%%
 @num@ fire dragons
 @num@ огненных драконов
@@ -753,6 +765,9 @@
 %%%%
 @num@ gold pieces
 @num@ золотых монет
+%%%%
+@num@ golden dragon scales
+@num@ чешуй золотого дракона
 %%%%
 @num@ golden dragons
 @num@ золотых драконов
@@ -837,6 +852,9 @@
 %%%%
 @num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+@num@ ice dragon scales
+@num@ чешуй ледяного дракона
 %%%%
 @num@ ice dragons
 @num@ ледяных драконов
@@ -1054,6 +1072,9 @@
 @num@ palentongas
 @num@ палентонг
 %%%%
+@num@ pearl dragon scales
+@num@ чешуй жемчужного дракона
+%%%%
 @num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -1146,6 +1167,9 @@
 %%%%
 @num@ quick blades
 @num@ быстрых клинков
+%%%%
+@num@ quicksilver dragon scales
+@num@ чешуй ртутного дракона
 %%%%
 @num@ quicksilver dragons
 @num@ ртутных драконов
@@ -1360,6 +1384,9 @@
 @num@ serpent talismans
 @num@ талисманов змея
 %%%%
+@num@ shadow dragon scales
+@num@ чешуй теневого дракона
+%%%%
 @num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -1468,6 +1495,9 @@
 @num@ staves of necromancy
 @num@ посохов некромантии
 %%%%
+@num@ steam dragon scales
+@num@ чешуй парового дракона
+%%%%
 @num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -1477,6 +1507,9 @@
 @num@ stones
 @num@ камней
 %%%%
+@num@ storm dragon scales
+@num@ чешуй грозового дракона
+%%%%
 @num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -1485,6 +1518,9 @@
 %%%%
 @num@ sun demons
 @num@ солнечных демонов
+%%%%
+@num@ swamp dragon scales
+@num@ чешуй болотного дракона
 %%%%
 @num@ talismans of death
 @num@ талисманов смерти
@@ -1539,6 +1575,9 @@
 %%%%
 @num@ trishulas
 @num@ тришул
+%%%%
+@num@ troll leather armours
+@num@ доспехов из кожи тролля
 %%%%
 @num@ trolls
 @num@ троллей
@@ -2584,6 +2623,12 @@ a acid blob's
 a acid dragon
 {m}кислотный дракон
 %%%%
+a acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
+a acid dragon scales's
+{f}чешуи кислотного дракона
+%%%%
 a acid dragon's
 {m}кислотного дракона
 %%%%
@@ -3523,6 +3568,12 @@ a electric golem
 a electric golem's
 {m}электрического голема
 %%%%
+a eleionoma
+{f}элеионома
+%%%%
+a eleionoma's
+{f}элеиономы
+%%%%
 a elephant
 {m}слон
 %%%%
@@ -3589,8 +3640,20 @@ a faun
 a faun's
 {m}фавна
 %%%%
+a fenstrider witch
+{f}болотная ведьма
+%%%%
+a fenstrider witch's
+{f}болотной ведьмы
+%%%%
 a fire dragon
 {m}огненный дракон
+%%%%
+a fire dragon scales
+{f}чешуя огненного дракона
+%%%%
+a fire dragon scales's
+{f}чешуи огненного дракона
 %%%%
 a fire dragon's
 {m}огненного дракона
@@ -3717,6 +3780,12 @@ a gold piece's
 %%%%
 a golden dragon
 {m}золотой дракон
+%%%%
+a golden dragon scales
+{f}чешуя золотого дракона
+%%%%
+a golden dragon scales's
+{f}чешуи золотого дракона
 %%%%
 a golden dragon's
 {m}золотого дракона
@@ -3885,6 +3954,12 @@ a ice devil's
 %%%%
 a ice dragon
 {m}ледяной дракон
+%%%%
+a ice dragon scales
+{f}чешуя ледяного дракона
+%%%%
+a ice dragon scales's
+{f}чешуи ледяного дракона
 %%%%
 a ice dragon's
 {m}ледяного дракона
@@ -4318,6 +4393,12 @@ a palentonga's
 a pearl dragon
 {m}жемчужный дракон
 %%%%
+a pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
+a pearl dragon scales's
+{f}чешуи жемчужного дракона
+%%%%
 a pearl dragon's
 {m}жемчужного дракона
 %%%%
@@ -4503,6 +4584,12 @@ a quick blade's
 %%%%
 a quicksilver dragon
 {m}ртутный дракон
+%%%%
+a quicksilver dragon scales
+{f}чешуя ртутного дракона
+%%%%
+a quicksilver dragon scales's
+{f}чешуи ртутного дракона
 %%%%
 a quicksilver dragon's
 {m}ртутного дракона
@@ -4930,6 +5017,12 @@ a serpent talisman's
 a shadow dragon
 {m}теневой дракон
 %%%%
+a shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
+a shadow dragon scales's
+{f}чешуи теневого дракона
+%%%%
 a shadow dragon's
 {m}теневого дракона
 %%%%
@@ -5146,6 +5239,12 @@ a starry gem's
 a steam dragon
 {m}паровой дракон
 %%%%
+a steam dragon scales
+{f}чешуя парового дракона
+%%%%
+a steam dragon scales's
+{f}чешуи парового дракона
+%%%%
 a steam dragon's
 {m}парового дракона
 %%%%
@@ -5164,6 +5263,12 @@ a stone's
 a storm dragon
 {m}грозовой дракон
 %%%%
+a storm dragon scales
+{f}чешуя грозового дракона
+%%%%
+a storm dragon scales's
+{f}чешуи грозового дракона
+%%%%
 a storm dragon's
 {m}грозового дракона
 %%%%
@@ -5178,6 +5283,12 @@ a sun demon
 %%%%
 a sun demon's
 {m}солнечного демона
+%%%%
+a swamp dragon scales
+{f}чешуя болотного дракона
+%%%%
+a swamp dragon scales's
+{f}чешуи болотного дракона
 %%%%
 a talisman of death
 {m}талисман смерти
@@ -5289,6 +5400,12 @@ a trishula's
 %%%%
 a troll
 {m}тролль
+%%%%
+a troll leather armour
+{m}доспех из кожи тролля
+%%%%
+a troll leather armour's
+{m}доспеха из кожи тролля
 %%%%
 a troll's
 {m}тролля
@@ -5550,6 +5667,12 @@ acid blobs
 %%%%
 acid dragon
 {m}кислотный дракон
+%%%%
+acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
+acid dragon scales's
+{f}чешуи кислотного дракона
 %%%%
 acid dragon's
 {m}кислотного дракона
@@ -6039,6 +6162,12 @@ an acid blob's
 %%%%
 an acid dragon
 {m}кислотный дракон
+%%%%
+an acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
+an acid dragon scales's
+{f}чешуи кислотного дракона
 %%%%
 an acid dragon's
 {m}кислотного дракона
@@ -6979,6 +7108,12 @@ an electric golem
 an electric golem's
 {m}электрического голема
 %%%%
+an eleionoma
+{f}элеионома
+%%%%
+an eleionoma's
+{f}элеиономы
+%%%%
 an elephant
 {m}слон
 %%%%
@@ -7045,8 +7180,20 @@ an faun
 an faun's
 {m}фавна
 %%%%
+an fenstrider witch
+{f}болотная ведьма
+%%%%
+an fenstrider witch's
+{f}болотной ведьмы
+%%%%
 an fire dragon
 {m}огненный дракон
+%%%%
+an fire dragon scales
+{f}чешуя огненного дракона
+%%%%
+an fire dragon scales's
+{f}чешуи огненного дракона
 %%%%
 an fire dragon's
 {m}огненного дракона
@@ -7173,6 +7320,12 @@ an gold piece's
 %%%%
 an golden dragon
 {m}золотой дракон
+%%%%
+an golden dragon scales
+{f}чешуя золотого дракона
+%%%%
+an golden dragon scales's
+{f}чешуи золотого дракона
 %%%%
 an golden dragon's
 {m}золотого дракона
@@ -7341,6 +7494,12 @@ an ice devil's
 %%%%
 an ice dragon
 {m}ледяной дракон
+%%%%
+an ice dragon scales
+{f}чешуя ледяного дракона
+%%%%
+an ice dragon scales's
+{f}чешуи ледяного дракона
 %%%%
 an ice dragon's
 {m}ледяного дракона
@@ -7774,6 +7933,12 @@ an palentonga's
 an pearl dragon
 {m}жемчужный дракон
 %%%%
+an pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
+an pearl dragon scales's
+{f}чешуи жемчужного дракона
+%%%%
 an pearl dragon's
 {m}жемчужного дракона
 %%%%
@@ -7959,6 +8124,12 @@ an quick blade's
 %%%%
 an quicksilver dragon
 {m}ртутный дракон
+%%%%
+an quicksilver dragon scales
+{f}чешуя ртутного дракона
+%%%%
+an quicksilver dragon scales's
+{f}чешуи ртутного дракона
 %%%%
 an quicksilver dragon's
 {m}ртутного дракона
@@ -8386,6 +8557,12 @@ an serpent talisman's
 an shadow dragon
 {m}теневой дракон
 %%%%
+an shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
+an shadow dragon scales's
+{f}чешуи теневого дракона
+%%%%
 an shadow dragon's
 {m}теневого дракона
 %%%%
@@ -8602,6 +8779,12 @@ an starry gem's
 an steam dragon
 {m}паровой дракон
 %%%%
+an steam dragon scales
+{f}чешуя парового дракона
+%%%%
+an steam dragon scales's
+{f}чешуи парового дракона
+%%%%
 an steam dragon's
 {m}парового дракона
 %%%%
@@ -8620,6 +8803,12 @@ an stone's
 an storm dragon
 {m}грозовой дракон
 %%%%
+an storm dragon scales
+{f}чешуя грозового дракона
+%%%%
+an storm dragon scales's
+{f}чешуи грозового дракона
+%%%%
 an storm dragon's
 {m}грозового дракона
 %%%%
@@ -8634,6 +8823,12 @@ an sun demon
 %%%%
 an sun demon's
 {m}солнечного демона
+%%%%
+an swamp dragon scales
+{f}чешуя болотного дракона
+%%%%
+an swamp dragon scales's
+{f}чешуи болотного дракона
 %%%%
 an talisman of death
 {m}талисман смерти
@@ -8745,6 +8940,12 @@ an trishula's
 %%%%
 an troll
 {m}тролль
+%%%%
+an troll leather armour
+{m}доспех из кожи тролля
+%%%%
+an troll leather armour's
+{m}доспеха из кожи тролля
 %%%%
 an troll's
 {m}тролля
@@ -10285,6 +10486,15 @@ electric golem's
 electric golems
 {pl}электрические големы
 %%%%
+eleionoma
+{f}элеионома
+%%%%
+eleionoma's
+{f}элеиономы
+%%%%
+eleionomae
+{pl}элеиономы
+%%%%
 elephant
 {m}слон
 %%%%
@@ -10384,8 +10594,23 @@ faun's
 fauns
 {pl}фавны
 %%%%
+fenstrider witch
+{f}болотная ведьма
+%%%%
+fenstrider witch's
+{f}болотной ведьмы
+%%%%
+fenstrider witches
+{pl}болотные ведьмы
+%%%%
 fire dragon
 {m}огненный дракон
+%%%%
+fire dragon scales
+{f}чешуя огненного дракона
+%%%%
+fire dragon scales's
+{f}чешуи огненного дракона
 %%%%
 fire dragon's
 {m}огненного дракона
@@ -10575,6 +10800,12 @@ gold pieces
 %%%%
 golden dragon
 {m}золотой дракон
+%%%%
+golden dragon scales
+{f}чешуя золотого дракона
+%%%%
+golden dragon scales's
+{f}чешуи золотого дракона
 %%%%
 golden dragon's
 {m}золотого дракона
@@ -10827,6 +11058,12 @@ ice devils
 %%%%
 ice dragon
 {m}ледяной дракон
+%%%%
+ice dragon scales
+{f}чешуя ледяного дракона
+%%%%
+ice dragon scales's
+{f}чешуи ледяного дракона
 %%%%
 ice dragon's
 {m}ледяного дракона
@@ -11470,6 +11707,12 @@ palentongas
 pearl dragon
 {m}жемчужный дракон
 %%%%
+pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
+pearl dragon scales's
+{f}чешуи жемчужного дракона
+%%%%
 pearl dragon's
 {m}жемчужного дракона
 %%%%
@@ -11748,6 +11991,12 @@ quick blades
 %%%%
 quicksilver dragon
 {m}ртутный дракон
+%%%%
+quicksilver dragon scales
+{f}чешуя ртутного дракона
+%%%%
+quicksilver dragon scales's
+{f}чешуи ртутного дракона
 %%%%
 quicksilver dragon's
 {m}ртутного дракона
@@ -12385,6 +12634,12 @@ serpent talismans
 shadow dragon
 {m}теневой дракон
 %%%%
+shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
+shadow dragon scales's
+{f}чешуи теневого дракона
+%%%%
 shadow dragon's
 {m}теневого дракона
 %%%%
@@ -12709,6 +12964,12 @@ staves of necromancy
 steam dragon
 {m}паровой дракон
 %%%%
+steam dragon scales
+{f}чешуя парового дракона
+%%%%
+steam dragon scales's
+{f}чешуи парового дракона
+%%%%
 steam dragon's
 {m}парового дракона
 %%%%
@@ -12736,6 +12997,12 @@ stones
 storm dragon
 {m}грозовой дракон
 %%%%
+storm dragon scales
+{f}чешуя грозового дракона
+%%%%
+storm dragon scales's
+{f}чешуи грозового дракона
+%%%%
 storm dragon's
 {m}грозового дракона
 %%%%
@@ -12759,6 +13026,12 @@ sun demon's
 %%%%
 sun demons
 {pl}солнечные демоны
+%%%%
+swamp dragon scales
+{f}чешуя болотного дракона
+%%%%
+swamp dragon scales's
+{f}чешуи болотного дракона
 %%%%
 talisman of death
 {m}талисман смерти
@@ -13362,6 +13635,12 @@ the acid blobs
 %%%%
 the acid dragon
 {m}кислотный дракон
+%%%%
+the acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
+the acid dragon scales's
+{f}чешуи кислотного дракона
 %%%%
 the acid dragon's
 {m}кислотного дракона
@@ -14767,6 +15046,15 @@ the electric golem's
 the electric golems
 {pl}электрические големы
 %%%%
+the eleionoma
+{f}элеионома
+%%%%
+the eleionoma's
+{f}элеиономы
+%%%%
+the eleionomae
+{pl}элеиономы
+%%%%
 the elephant
 {m}слон
 %%%%
@@ -14866,8 +15154,23 @@ the faun's
 the fauns
 {pl}фавны
 %%%%
+the fenstrider witch
+{f}болотная ведьма
+%%%%
+the fenstrider witch's
+{f}болотной ведьмы
+%%%%
+the fenstrider witches
+{pl}болотные ведьмы
+%%%%
 the fire dragon
 {m}огненный дракон
+%%%%
+the fire dragon scales
+{f}чешуя огненного дракона
+%%%%
+the fire dragon scales's
+{f}чешуи огненного дракона
 %%%%
 the fire dragon's
 {m}огненного дракона
@@ -15057,6 +15360,12 @@ the gold pieces
 %%%%
 the golden dragon
 {m}золотой дракон
+%%%%
+the golden dragon scales
+{f}чешуя золотого дракона
+%%%%
+the golden dragon scales's
+{f}чешуи золотого дракона
 %%%%
 the golden dragon's
 {m}золотого дракона
@@ -15309,6 +15618,12 @@ the ice devils
 %%%%
 the ice dragon
 {m}ледяной дракон
+%%%%
+the ice dragon scales
+{f}чешуя ледяного дракона
+%%%%
+the ice dragon scales's
+{f}чешуи ледяного дракона
 %%%%
 the ice dragon's
 {m}ледяного дракона
@@ -15952,6 +16267,12 @@ the palentongas
 the pearl dragon
 {m}жемчужный дракон
 %%%%
+the pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
+the pearl dragon scales's
+{f}чешуи жемчужного дракона
+%%%%
 the pearl dragon's
 {m}жемчужного дракона
 %%%%
@@ -16230,6 +16551,12 @@ the quick blades
 %%%%
 the quicksilver dragon
 {m}ртутный дракон
+%%%%
+the quicksilver dragon scales
+{f}чешуя ртутного дракона
+%%%%
+the quicksilver dragon scales's
+{f}чешуи ртутного дракона
 %%%%
 the quicksilver dragon's
 {m}ртутного дракона
@@ -16867,6 +17194,12 @@ the serpent talismans
 the shadow dragon
 {m}теневой дракон
 %%%%
+the shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
+the shadow dragon scales's
+{f}чешуи теневого дракона
+%%%%
 the shadow dragon's
 {m}теневого дракона
 %%%%
@@ -17191,6 +17524,12 @@ the staves of necromancy
 the steam dragon
 {m}паровой дракон
 %%%%
+the steam dragon scales
+{f}чешуя парового дракона
+%%%%
+the steam dragon scales's
+{f}чешуи парового дракона
+%%%%
 the steam dragon's
 {m}парового дракона
 %%%%
@@ -17218,6 +17557,12 @@ the stones
 the storm dragon
 {m}грозовой дракон
 %%%%
+the storm dragon scales
+{f}чешуя грозового дракона
+%%%%
+the storm dragon scales's
+{f}чешуи грозового дракона
+%%%%
 the storm dragon's
 {m}грозового дракона
 %%%%
@@ -17241,6 +17586,12 @@ the sun demon's
 %%%%
 the sun demons
 {pl}солнечные демоны
+%%%%
+the swamp dragon scales
+{f}чешуя болотного дракона
+%%%%
+the swamp dragon scales's
+{f}чешуи болотного дракона
 %%%%
 the talisman of death
 {m}талисман смерти
@@ -17400,6 +17751,15 @@ the trishulas
 %%%%
 the troll
 {m}тролль
+%%%%
+the troll leather armour
+{m}доспех из кожи тролля
+%%%%
+the troll leather armour's
+{m}доспеха из кожи тролля
+%%%%
+the troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 the troll's
 {m}тролля
@@ -17886,6 +18246,15 @@ trishulas
 %%%%
 troll
 {m}тролль
+%%%%
+troll leather armour
+{m}доспех из кожи тролля
+%%%%
+troll leather armour's
+{m}доспеха из кожи тролля
+%%%%
+troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 troll's
 {m}тролля
@@ -18816,6 +19185,12 @@ your acid blobs
 %%%%
 your acid dragon
 {m}кислотный дракон
+%%%%
+your acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
+your acid dragon scales's
+{f}чешуи кислотного дракона
 %%%%
 your acid dragon's
 {m}кислотного дракона
@@ -20221,6 +20596,15 @@ your electric golem's
 your electric golems
 {pl}электрические големы
 %%%%
+your eleionoma
+{f}элеионома
+%%%%
+your eleionoma's
+{f}элеиономы
+%%%%
+your eleionomae
+{pl}элеиономы
+%%%%
 your elephant
 {m}слон
 %%%%
@@ -20320,8 +20704,23 @@ your faun's
 your fauns
 {pl}фавны
 %%%%
+your fenstrider witch
+{f}болотная ведьма
+%%%%
+your fenstrider witch's
+{f}болотной ведьмы
+%%%%
+your fenstrider witches
+{pl}болотные ведьмы
+%%%%
 your fire dragon
 {m}огненный дракон
+%%%%
+your fire dragon scales
+{f}чешуя огненного дракона
+%%%%
+your fire dragon scales's
+{f}чешуи огненного дракона
 %%%%
 your fire dragon's
 {m}огненного дракона
@@ -20511,6 +20910,12 @@ your gold pieces
 %%%%
 your golden dragon
 {m}золотой дракон
+%%%%
+your golden dragon scales
+{f}чешуя золотого дракона
+%%%%
+your golden dragon scales's
+{f}чешуи золотого дракона
 %%%%
 your golden dragon's
 {m}золотого дракона
@@ -20763,6 +21168,12 @@ your ice devils
 %%%%
 your ice dragon
 {m}ледяной дракон
+%%%%
+your ice dragon scales
+{f}чешуя ледяного дракона
+%%%%
+your ice dragon scales's
+{f}чешуи ледяного дракона
 %%%%
 your ice dragon's
 {m}ледяного дракона
@@ -21406,6 +21817,12 @@ your palentongas
 your pearl dragon
 {m}жемчужный дракон
 %%%%
+your pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
+your pearl dragon scales's
+{f}чешуи жемчужного дракона
+%%%%
 your pearl dragon's
 {m}жемчужного дракона
 %%%%
@@ -21684,6 +22101,12 @@ your quick blades
 %%%%
 your quicksilver dragon
 {m}ртутный дракон
+%%%%
+your quicksilver dragon scales
+{f}чешуя ртутного дракона
+%%%%
+your quicksilver dragon scales's
+{f}чешуи ртутного дракона
 %%%%
 your quicksilver dragon's
 {m}ртутного дракона
@@ -22321,6 +22744,12 @@ your serpent talismans
 your shadow dragon
 {m}теневой дракон
 %%%%
+your shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
+your shadow dragon scales's
+{f}чешуи теневого дракона
+%%%%
 your shadow dragon's
 {m}теневого дракона
 %%%%
@@ -22645,6 +23074,12 @@ your staves of necromancy
 your steam dragon
 {m}паровой дракон
 %%%%
+your steam dragon scales
+{f}чешуя парового дракона
+%%%%
+your steam dragon scales's
+{f}чешуи парового дракона
+%%%%
 your steam dragon's
 {m}парового дракона
 %%%%
@@ -22672,6 +23107,12 @@ your stones
 your storm dragon
 {m}грозовой дракон
 %%%%
+your storm dragon scales
+{f}чешуя грозового дракона
+%%%%
+your storm dragon scales's
+{f}чешуи грозового дракона
+%%%%
 your storm dragon's
 {m}грозового дракона
 %%%%
@@ -22695,6 +23136,12 @@ your sun demon's
 %%%%
 your sun demons
 {pl}солнечные демоны
+%%%%
+your swamp dragon scales
+{f}чешуя болотного дракона
+%%%%
+your swamp dragon scales's
+{f}чешуи болотного дракона
 %%%%
 your talisman of death
 {m}талисман смерти
@@ -22854,6 +23301,15 @@ your trishulas
 %%%%
 your troll
 {m}тролль
+%%%%
+your troll leather armour
+{m}доспех из кожи тролля
+%%%%
+your troll leather armour's
+{m}доспеха из кожи тролля
+%%%%
+your troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 your troll's
 {m}тролля
@@ -23416,6 +23872,9 @@ your ynoxinuls
 {acc_few}@num@ acid blobs
 @num@ кислотных сгустка
 %%%%
+{acc_few}@num@ acid dragon scales
+@num@ чешуи кислотного дракона
+%%%%
 {acc_few}@num@ acid dragons
 @num@ кислотных драконов
 %%%%
@@ -23887,6 +24346,9 @@ your ynoxinuls
 {acc_few}@num@ electric golems
 @num@ электрических големов
 %%%%
+{acc_few}@num@ eleionomae
+@num@ элеионом
+%%%%
 {acc_few}@num@ elephants
 @num@ слонов
 %%%%
@@ -23919,6 +24381,12 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ fauns
 @num@ фавнов
+%%%%
+{acc_few}@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+{acc_few}@num@ fire dragon scales
+@num@ чешуи огненного дракона
 %%%%
 {acc_few}@num@ fire dragons
 @num@ огненных драконов
@@ -23982,6 +24450,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ gold pieces
 @num@ золотые монеты
+%%%%
+{acc_few}@num@ golden dragon scales
+@num@ чешуи золотого дракона
 %%%%
 {acc_few}@num@ golden dragons
 @num@ золотых драконов
@@ -24066,6 +24537,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+{acc_few}@num@ ice dragon scales
+@num@ чешуи ледяного дракона
 %%%%
 {acc_few}@num@ ice dragons
 @num@ ледяных драконов
@@ -24283,6 +24757,9 @@ your ynoxinuls
 {acc_few}@num@ palentongas
 @num@ палентонг
 %%%%
+{acc_few}@num@ pearl dragon scales
+@num@ чешуи жемчужного дракона
+%%%%
 {acc_few}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -24375,6 +24852,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ quick blades
 @num@ быстрых клинка
+%%%%
+{acc_few}@num@ quicksilver dragon scales
+@num@ чешуи ртутного дракона
 %%%%
 {acc_few}@num@ quicksilver dragons
 @num@ ртутных драконов
@@ -24589,6 +25069,9 @@ your ynoxinuls
 {acc_few}@num@ serpent talismans
 @num@ талисмана змея
 %%%%
+{acc_few}@num@ shadow dragon scales
+@num@ чешуи теневого дракона
+%%%%
 {acc_few}@num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -24697,6 +25180,9 @@ your ynoxinuls
 {acc_few}@num@ staves of necromancy
 @num@ посоха некромантии
 %%%%
+{acc_few}@num@ steam dragon scales
+@num@ чешуи парового дракона
+%%%%
 {acc_few}@num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -24706,6 +25192,9 @@ your ynoxinuls
 {acc_few}@num@ stones
 @num@ камня
 %%%%
+{acc_few}@num@ storm dragon scales
+@num@ чешуи грозового дракона
+%%%%
 {acc_few}@num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -24714,6 +25203,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ sun demons
 @num@ солнечных демонов
+%%%%
+{acc_few}@num@ swamp dragon scales
+@num@ чешуи болотного дракона
 %%%%
 {acc_few}@num@ talismans of death
 @num@ талисмана смерти
@@ -24768,6 +25260,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ trishulas
 @num@ тришулы
+%%%%
+{acc_few}@num@ troll leather armours
+@num@ доспеха из кожи тролля
 %%%%
 {acc_few}@num@ trolls
 @num@ троллей
@@ -25080,6 +25575,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ acid blobs
 @num@ кислотных сгустков
+%%%%
+{acc_many}@num@ acid dragon scales
+@num@ чешуй кислотного дракона
 %%%%
 {acc_many}@num@ acid dragons
 @num@ кислотных драконов
@@ -25552,6 +26050,9 @@ your ynoxinuls
 {acc_many}@num@ electric golems
 @num@ электрических големов
 %%%%
+{acc_many}@num@ eleionomae
+@num@ элеионом
+%%%%
 {acc_many}@num@ elephants
 @num@ слонов
 %%%%
@@ -25584,6 +26085,12 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ fauns
 @num@ фавнов
+%%%%
+{acc_many}@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+{acc_many}@num@ fire dragon scales
+@num@ чешуй огненного дракона
 %%%%
 {acc_many}@num@ fire dragons
 @num@ огненных драконов
@@ -25647,6 +26154,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ gold pieces
 @num@ золотых монет
+%%%%
+{acc_many}@num@ golden dragon scales
+@num@ чешуй золотого дракона
 %%%%
 {acc_many}@num@ golden dragons
 @num@ золотых драконов
@@ -25731,6 +26241,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+{acc_many}@num@ ice dragon scales
+@num@ чешуй ледяного дракона
 %%%%
 {acc_many}@num@ ice dragons
 @num@ ледяных драконов
@@ -25948,6 +26461,9 @@ your ynoxinuls
 {acc_many}@num@ palentongas
 @num@ палентонг
 %%%%
+{acc_many}@num@ pearl dragon scales
+@num@ чешуй жемчужного дракона
+%%%%
 {acc_many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -26040,6 +26556,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ quick blades
 @num@ быстрых клинков
+%%%%
+{acc_many}@num@ quicksilver dragon scales
+@num@ чешуй ртутного дракона
 %%%%
 {acc_many}@num@ quicksilver dragons
 @num@ ртутных драконов
@@ -26254,6 +26773,9 @@ your ynoxinuls
 {acc_many}@num@ serpent talismans
 @num@ талисманов змея
 %%%%
+{acc_many}@num@ shadow dragon scales
+@num@ чешуй теневого дракона
+%%%%
 {acc_many}@num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -26362,6 +26884,9 @@ your ynoxinuls
 {acc_many}@num@ staves of necromancy
 @num@ посохов некромантии
 %%%%
+{acc_many}@num@ steam dragon scales
+@num@ чешуй парового дракона
+%%%%
 {acc_many}@num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -26371,6 +26896,9 @@ your ynoxinuls
 {acc_many}@num@ stones
 @num@ камней
 %%%%
+{acc_many}@num@ storm dragon scales
+@num@ чешуй грозового дракона
+%%%%
 {acc_many}@num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -26379,6 +26907,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ sun demons
 @num@ солнечных демонов
+%%%%
+{acc_many}@num@ swamp dragon scales
+@num@ чешуй болотного дракона
 %%%%
 {acc_many}@num@ talismans of death
 @num@ талисманов смерти
@@ -26433,6 +26964,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ trishulas
 @num@ тришул
+%%%%
+{acc_many}@num@ troll leather armours
+@num@ доспехов из кожи тролля
 %%%%
 {acc_many}@num@ trolls
 @num@ троллей
@@ -26745,6 +27279,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ acid blobs
 @num@ кислотный сгусток
+%%%%
+{acc_one}@num@ acid dragon scales
+@num@ чешую кислотного дракона
 %%%%
 {acc_one}@num@ acid dragons
 @num@ кислотного дракона
@@ -27217,6 +27754,9 @@ your ynoxinuls
 {acc_one}@num@ electric golems
 @num@ электрического голема
 %%%%
+{acc_one}@num@ eleionomae
+@num@ элеионому
+%%%%
 {acc_one}@num@ elephants
 @num@ слона
 %%%%
@@ -27249,6 +27789,12 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ fauns
 @num@ фавна
+%%%%
+{acc_one}@num@ fenstrider witches
+@num@ болотную ведьму
+%%%%
+{acc_one}@num@ fire dragon scales
+@num@ чешую огненного дракона
 %%%%
 {acc_one}@num@ fire dragons
 @num@ огненного дракона
@@ -27312,6 +27858,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ gold pieces
 @num@ золотую монету
+%%%%
+{acc_one}@num@ golden dragon scales
+@num@ чешую золотого дракона
 %%%%
 {acc_one}@num@ golden dragons
 @num@ золотого дракона
@@ -27396,6 +27945,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ ice devils
 @num@ ледяного дьявола
+%%%%
+{acc_one}@num@ ice dragon scales
+@num@ чешую ледяного дракона
 %%%%
 {acc_one}@num@ ice dragons
 @num@ ледяного дракона
@@ -27613,6 +28165,9 @@ your ynoxinuls
 {acc_one}@num@ palentongas
 @num@ палентонгу
 %%%%
+{acc_one}@num@ pearl dragon scales
+@num@ чешую жемчужного дракона
+%%%%
 {acc_one}@num@ pearl dragons
 @num@ жемчужного дракона
 %%%%
@@ -27705,6 +28260,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ quick blades
 @num@ быстрый клинок
+%%%%
+{acc_one}@num@ quicksilver dragon scales
+@num@ чешую ртутного дракона
 %%%%
 {acc_one}@num@ quicksilver dragons
 @num@ ртутного дракона
@@ -27919,6 +28477,9 @@ your ynoxinuls
 {acc_one}@num@ serpent talismans
 @num@ талисман змея
 %%%%
+{acc_one}@num@ shadow dragon scales
+@num@ чешую теневого дракона
+%%%%
 {acc_one}@num@ shadow dragons
 @num@ теневого дракона
 %%%%
@@ -28027,6 +28588,9 @@ your ynoxinuls
 {acc_one}@num@ staves of necromancy
 @num@ посох некромантии
 %%%%
+{acc_one}@num@ steam dragon scales
+@num@ чешую парового дракона
+%%%%
 {acc_one}@num@ steam dragons
 @num@ парового дракона
 %%%%
@@ -28036,6 +28600,9 @@ your ynoxinuls
 {acc_one}@num@ stones
 @num@ камень
 %%%%
+{acc_one}@num@ storm dragon scales
+@num@ чешую грозового дракона
+%%%%
 {acc_one}@num@ storm dragons
 @num@ грозового дракона
 %%%%
@@ -28044,6 +28611,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ sun demons
 @num@ солнечного демона
+%%%%
+{acc_one}@num@ swamp dragon scales
+@num@ чешую болотного дракона
 %%%%
 {acc_one}@num@ talismans of death
 @num@ талисман смерти
@@ -28098,6 +28668,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ trishulas
 @num@ тришулу
+%%%%
+{acc_one}@num@ troll leather armours
+@num@ доспех из кожи тролля
 %%%%
 {acc_one}@num@ trolls
 @num@ тролля
@@ -28774,6 +29347,9 @@ your ynoxinuls
 {acc}a acid dragon
 {m}кислотного дракона
 %%%%
+{acc}a acid dragon scales
+{f}чешую кислотного дракона
+%%%%
 {acc}a adder
 {f}гадюку
 %%%%
@@ -29242,6 +29818,9 @@ your ynoxinuls
 {acc}a electric golem
 {m}электрического голема
 %%%%
+{acc}a eleionoma
+{f}элеионому
+%%%%
 {acc}a elephant
 {m}слона
 %%%%
@@ -29275,8 +29854,14 @@ your ynoxinuls
 {acc}a faun
 {m}фавна
 %%%%
+{acc}a fenstrider witch
+{f}болотную ведьму
+%%%%
 {acc}a fire dragon
 {m}огненного дракона
+%%%%
+{acc}a fire dragon scales
+{f}чешую огненного дракона
 %%%%
 {acc}a fire giant
 {m}огненного великана
@@ -29340,6 +29925,9 @@ your ynoxinuls
 %%%%
 {acc}a golden dragon
 {m}золотого дракона
+%%%%
+{acc}a golden dragon scales
+{f}чешую золотого дракона
 %%%%
 {acc}a golden eye
 {n}золотое око
@@ -29424,6 +30012,9 @@ your ynoxinuls
 %%%%
 {acc}a ice dragon
 {m}ледяного дракона
+%%%%
+{acc}a ice dragon scales
+{f}чешую ледяного дракона
 %%%%
 {acc}a iguana
 {f}игуану
@@ -29641,6 +30232,9 @@ your ynoxinuls
 {acc}a pearl dragon
 {m}жемчужного дракона
 %%%%
+{acc}a pearl dragon scales
+{f}чешую жемчужного дракона
+%%%%
 {acc}a phantom
 {m}фантома
 %%%%
@@ -29733,6 +30327,9 @@ your ynoxinuls
 %%%%
 {acc}a quicksilver dragon
 {m}ртутного дракона
+%%%%
+{acc}a quicksilver dragon scales
+{f}чешую ртутного дракона
 %%%%
 {acc}a quill talisman
 {m}талисман игл
@@ -29947,6 +30544,9 @@ your ynoxinuls
 {acc}a shadow dragon
 {m}теневого дракона
 %%%%
+{acc}a shadow dragon scales
+{f}чешую теневого дракона
+%%%%
 {acc}a shadow imp
 {m}теневого беса
 %%%%
@@ -30055,6 +30655,9 @@ your ynoxinuls
 {acc}a steam dragon
 {m}парового дракона
 %%%%
+{acc}a steam dragon scales
+{f}чешую парового дракона
+%%%%
 {acc}a stone
 {m}камень
 %%%%
@@ -30064,11 +30667,17 @@ your ynoxinuls
 {acc}a storm dragon
 {m}грозового дракона
 %%%%
+{acc}a storm dragon scales
+{f}чешую грозового дракона
+%%%%
 {acc}a storm talisman
 {m}талисман бури
 %%%%
 {acc}a sun demon
 {m}солнечного демона
+%%%%
+{acc}a swamp dragon scales
+{f}чешую болотного дракона
 %%%%
 {acc}a talisman of death
 {m}талисман смерти
@@ -30126,6 +30735,9 @@ your ynoxinuls
 %%%%
 {acc}a troll
 {m}тролля
+%%%%
+{acc}a troll leather armour
+{m}доспех из кожи тролля
 %%%%
 {acc}a two-headed ogre
 {m}двухголового огра
@@ -30258,6 +30870,9 @@ your ynoxinuls
 %%%%
 {acc}acid dragon
 {m}кислотного дракона
+%%%%
+{acc}acid dragon scales
+{f}чешую кислотного дракона
 %%%%
 {acc}acid dragons
 {pl}кислотных драконов
@@ -30522,6 +31137,9 @@ your ynoxinuls
 %%%%
 {acc}an acid dragon
 {m}кислотного дракона
+%%%%
+{acc}an acid dragon scales
+{f}чешую кислотного дракона
 %%%%
 {acc}an adder
 {f}гадюку
@@ -30991,6 +31609,9 @@ your ynoxinuls
 {acc}an electric golem
 {m}электрического голема
 %%%%
+{acc}an eleionoma
+{f}элеионому
+%%%%
 {acc}an elephant
 {m}слона
 %%%%
@@ -31024,8 +31645,14 @@ your ynoxinuls
 {acc}an faun
 {m}фавна
 %%%%
+{acc}an fenstrider witch
+{f}болотную ведьму
+%%%%
 {acc}an fire dragon
 {m}огненного дракона
+%%%%
+{acc}an fire dragon scales
+{f}чешую огненного дракона
 %%%%
 {acc}an fire giant
 {m}огненного великана
@@ -31089,6 +31716,9 @@ your ynoxinuls
 %%%%
 {acc}an golden dragon
 {m}золотого дракона
+%%%%
+{acc}an golden dragon scales
+{f}чешую золотого дракона
 %%%%
 {acc}an golden eye
 {n}золотое око
@@ -31173,6 +31803,9 @@ your ynoxinuls
 %%%%
 {acc}an ice dragon
 {m}ледяного дракона
+%%%%
+{acc}an ice dragon scales
+{f}чешую ледяного дракона
 %%%%
 {acc}an iguana
 {f}игуану
@@ -31390,6 +32023,9 @@ your ynoxinuls
 {acc}an pearl dragon
 {m}жемчужного дракона
 %%%%
+{acc}an pearl dragon scales
+{f}чешую жемчужного дракона
+%%%%
 {acc}an phantom
 {m}фантома
 %%%%
@@ -31482,6 +32118,9 @@ your ynoxinuls
 %%%%
 {acc}an quicksilver dragon
 {m}ртутного дракона
+%%%%
+{acc}an quicksilver dragon scales
+{f}чешую ртутного дракона
 %%%%
 {acc}an quill talisman
 {m}талисман игл
@@ -31696,6 +32335,9 @@ your ynoxinuls
 {acc}an shadow dragon
 {m}теневого дракона
 %%%%
+{acc}an shadow dragon scales
+{f}чешую теневого дракона
+%%%%
 {acc}an shadow imp
 {m}теневого беса
 %%%%
@@ -31804,6 +32446,9 @@ your ynoxinuls
 {acc}an steam dragon
 {m}парового дракона
 %%%%
+{acc}an steam dragon scales
+{f}чешую парового дракона
+%%%%
 {acc}an stone
 {m}камень
 %%%%
@@ -31813,11 +32458,17 @@ your ynoxinuls
 {acc}an storm dragon
 {m}грозового дракона
 %%%%
+{acc}an storm dragon scales
+{f}чешую грозового дракона
+%%%%
 {acc}an storm talisman
 {m}талисман бури
 %%%%
 {acc}an sun demon
 {m}солнечного демона
+%%%%
+{acc}an swamp dragon scales
+{f}чешую болотного дракона
 %%%%
 {acc}an talisman of death
 {m}талисман смерти
@@ -31875,6 +32526,9 @@ your ynoxinuls
 %%%%
 {acc}an troll
 {m}тролля
+%%%%
+{acc}an troll leather armour
+{m}доспех из кожи тролля
 %%%%
 {acc}an two-headed ogre
 {m}двухголового огра
@@ -32857,6 +33511,12 @@ your ynoxinuls
 {acc}electric golems
 {pl}электрических големов
 %%%%
+{acc}eleionoma
+{f}элеионому
+%%%%
+{acc}eleionomae
+{pl}элеионом
+%%%%
 {acc}elephant
 {m}слона
 %%%%
@@ -32923,8 +33583,17 @@ your ynoxinuls
 {acc}fauns
 {pl}фавнов
 %%%%
+{acc}fenstrider witch
+{f}болотную ведьму
+%%%%
+{acc}fenstrider witches
+{pl}болотных ведьм
+%%%%
 {acc}fire dragon
 {m}огненного дракона
+%%%%
+{acc}fire dragon scales
+{f}чешую огненного дракона
 %%%%
 {acc}fire dragons
 {pl}огненных драконов
@@ -33051,6 +33720,9 @@ your ynoxinuls
 %%%%
 {acc}golden dragon
 {m}золотого дракона
+%%%%
+{acc}golden dragon scales
+{f}чешую золотого дракона
 %%%%
 {acc}golden dragons
 {pl}золотых драконов
@@ -33219,6 +33891,9 @@ your ynoxinuls
 %%%%
 {acc}ice dragon
 {m}ледяного дракона
+%%%%
+{acc}ice dragon scales
+{f}чешую ледяного дракона
 %%%%
 {acc}ice dragons
 {pl}ледяных драконов
@@ -33646,6 +34321,9 @@ your ynoxinuls
 {acc}pearl dragon
 {m}жемчужного дракона
 %%%%
+{acc}pearl dragon scales
+{f}чешую жемчужного дракона
+%%%%
 {acc}pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -33831,6 +34509,9 @@ your ynoxinuls
 %%%%
 {acc}quicksilver dragon
 {m}ртутного дракона
+%%%%
+{acc}quicksilver dragon scales
+{f}чешую ртутного дракона
 %%%%
 {acc}quicksilver dragons
 {pl}ртутных драконов
@@ -34255,6 +34936,9 @@ your ynoxinuls
 {acc}shadow dragon
 {m}теневого дракона
 %%%%
+{acc}shadow dragon scales
+{f}чешую теневого дракона
+%%%%
 {acc}shadow dragons
 {pl}теневых драконов
 %%%%
@@ -34471,6 +35155,9 @@ your ynoxinuls
 {acc}steam dragon
 {m}парового дракона
 %%%%
+{acc}steam dragon scales
+{f}чешую парового дракона
+%%%%
 {acc}steam dragons
 {pl}паровых драконов
 %%%%
@@ -34489,6 +35176,9 @@ your ynoxinuls
 {acc}storm dragon
 {m}грозового дракона
 %%%%
+{acc}storm dragon scales
+{f}чешую грозового дракона
+%%%%
 {acc}storm dragons
 {pl}грозовых драконов
 %%%%
@@ -34503,6 +35193,9 @@ your ynoxinuls
 %%%%
 {acc}sun demons
 {pl}солнечных демонов
+%%%%
+{acc}swamp dragon scales
+{f}чешую болотного дракона
 %%%%
 {acc}talisman of death
 {m}талисман смерти
@@ -34902,6 +35595,9 @@ your ynoxinuls
 %%%%
 {acc}the acid dragon
 {m}кислотного дракона
+%%%%
+{acc}the acid dragon scales
+{f}чешую кислотного дракона
 %%%%
 {acc}the acid dragons
 {pl}кислотных драконов
@@ -35836,6 +36532,12 @@ your ynoxinuls
 {acc}the electric golems
 {pl}электрических големов
 %%%%
+{acc}the eleionoma
+{f}элеионому
+%%%%
+{acc}the eleionomae
+{pl}элеионом
+%%%%
 {acc}the elephant
 {m}слона
 %%%%
@@ -35902,8 +36604,17 @@ your ynoxinuls
 {acc}the fauns
 {pl}фавнов
 %%%%
+{acc}the fenstrider witch
+{f}болотную ведьму
+%%%%
+{acc}the fenstrider witches
+{pl}болотных ведьм
+%%%%
 {acc}the fire dragon
 {m}огненного дракона
+%%%%
+{acc}the fire dragon scales
+{f}чешую огненного дракона
 %%%%
 {acc}the fire dragons
 {pl}огненных драконов
@@ -36030,6 +36741,9 @@ your ynoxinuls
 %%%%
 {acc}the golden dragon
 {m}золотого дракона
+%%%%
+{acc}the golden dragon scales
+{f}чешую золотого дракона
 %%%%
 {acc}the golden dragons
 {pl}золотых драконов
@@ -36198,6 +36912,9 @@ your ynoxinuls
 %%%%
 {acc}the ice dragon
 {m}ледяного дракона
+%%%%
+{acc}the ice dragon scales
+{f}чешую ледяного дракона
 %%%%
 {acc}the ice dragons
 {pl}ледяных драконов
@@ -36625,6 +37342,9 @@ your ynoxinuls
 {acc}the pearl dragon
 {m}жемчужного дракона
 %%%%
+{acc}the pearl dragon scales
+{f}чешую жемчужного дракона
+%%%%
 {acc}the pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -36810,6 +37530,9 @@ your ynoxinuls
 %%%%
 {acc}the quicksilver dragon
 {m}ртутного дракона
+%%%%
+{acc}the quicksilver dragon scales
+{f}чешую ртутного дракона
 %%%%
 {acc}the quicksilver dragons
 {pl}ртутных драконов
@@ -37234,6 +37957,9 @@ your ynoxinuls
 {acc}the shadow dragon
 {m}теневого дракона
 %%%%
+{acc}the shadow dragon scales
+{f}чешую теневого дракона
+%%%%
 {acc}the shadow dragons
 {pl}теневых драконов
 %%%%
@@ -37450,6 +38176,9 @@ your ynoxinuls
 {acc}the steam dragon
 {m}парового дракона
 %%%%
+{acc}the steam dragon scales
+{f}чешую парового дракона
+%%%%
 {acc}the steam dragons
 {pl}паровых драконов
 %%%%
@@ -37468,6 +38197,9 @@ your ynoxinuls
 {acc}the storm dragon
 {m}грозового дракона
 %%%%
+{acc}the storm dragon scales
+{f}чешую грозового дракона
+%%%%
 {acc}the storm dragons
 {pl}грозовых драконов
 %%%%
@@ -37482,6 +38214,9 @@ your ynoxinuls
 %%%%
 {acc}the sun demons
 {pl}солнечных демонов
+%%%%
+{acc}the swamp dragon scales
+{f}чешую болотного дракона
 %%%%
 {acc}the talisman of death
 {m}талисман смерти
@@ -37587,6 +38322,12 @@ your ynoxinuls
 %%%%
 {acc}the troll
 {m}тролля
+%%%%
+{acc}the troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{acc}the troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {acc}the trolls
 {pl}троллей
@@ -37911,6 +38652,12 @@ your ynoxinuls
 %%%%
 {acc}troll
 {m}тролля
+%%%%
+{acc}troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{acc}troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {acc}trolls
 {pl}троллей
@@ -38529,6 +39276,9 @@ your ynoxinuls
 %%%%
 {acc}your acid dragon
 {m}кислотного дракона
+%%%%
+{acc}your acid dragon scales
+{f}чешую кислотного дракона
 %%%%
 {acc}your acid dragons
 {pl}кислотных драконов
@@ -39463,6 +40213,12 @@ your ynoxinuls
 {acc}your electric golems
 {pl}электрических големов
 %%%%
+{acc}your eleionoma
+{f}элеионому
+%%%%
+{acc}your eleionomae
+{pl}элеионом
+%%%%
 {acc}your elephant
 {m}слона
 %%%%
@@ -39529,8 +40285,17 @@ your ynoxinuls
 {acc}your fauns
 {pl}фавнов
 %%%%
+{acc}your fenstrider witch
+{f}болотную ведьму
+%%%%
+{acc}your fenstrider witches
+{pl}болотных ведьм
+%%%%
 {acc}your fire dragon
 {m}огненного дракона
+%%%%
+{acc}your fire dragon scales
+{f}чешую огненного дракона
 %%%%
 {acc}your fire dragons
 {pl}огненных драконов
@@ -39657,6 +40422,9 @@ your ynoxinuls
 %%%%
 {acc}your golden dragon
 {m}золотого дракона
+%%%%
+{acc}your golden dragon scales
+{f}чешую золотого дракона
 %%%%
 {acc}your golden dragons
 {pl}золотых драконов
@@ -39825,6 +40593,9 @@ your ynoxinuls
 %%%%
 {acc}your ice dragon
 {m}ледяного дракона
+%%%%
+{acc}your ice dragon scales
+{f}чешую ледяного дракона
 %%%%
 {acc}your ice dragons
 {pl}ледяных драконов
@@ -40252,6 +41023,9 @@ your ynoxinuls
 {acc}your pearl dragon
 {m}жемчужного дракона
 %%%%
+{acc}your pearl dragon scales
+{f}чешую жемчужного дракона
+%%%%
 {acc}your pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -40437,6 +41211,9 @@ your ynoxinuls
 %%%%
 {acc}your quicksilver dragon
 {m}ртутного дракона
+%%%%
+{acc}your quicksilver dragon scales
+{f}чешую ртутного дракона
 %%%%
 {acc}your quicksilver dragons
 {pl}ртутных драконов
@@ -40861,6 +41638,9 @@ your ynoxinuls
 {acc}your shadow dragon
 {m}теневого дракона
 %%%%
+{acc}your shadow dragon scales
+{f}чешую теневого дракона
+%%%%
 {acc}your shadow dragons
 {pl}теневых драконов
 %%%%
@@ -41077,6 +41857,9 @@ your ynoxinuls
 {acc}your steam dragon
 {m}парового дракона
 %%%%
+{acc}your steam dragon scales
+{f}чешую парового дракона
+%%%%
 {acc}your steam dragons
 {pl}паровых драконов
 %%%%
@@ -41095,6 +41878,9 @@ your ynoxinuls
 {acc}your storm dragon
 {m}грозового дракона
 %%%%
+{acc}your storm dragon scales
+{f}чешую грозового дракона
+%%%%
 {acc}your storm dragons
 {pl}грозовых драконов
 %%%%
@@ -41109,6 +41895,9 @@ your ynoxinuls
 %%%%
 {acc}your sun demons
 {pl}солнечных демонов
+%%%%
+{acc}your swamp dragon scales
+{f}чешую болотного дракона
 %%%%
 {acc}your talisman of death
 {m}талисман смерти
@@ -41214,6 +42003,12 @@ your ynoxinuls
 %%%%
 {acc}your troll
 {m}тролля
+%%%%
+{acc}your troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{acc}your troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {acc}your trolls
 {pl}троллей
@@ -41649,6 +42444,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ acid blobs
 @num@ кислотным сгусткам
+%%%%
+{dat_few}@num@ acid dragon scales
+@num@ чешуям кислотного дракона
 %%%%
 {dat_few}@num@ acid dragons
 @num@ кислотным драконам
@@ -42121,6 +42919,9 @@ your ynoxinuls
 {dat_few}@num@ electric golems
 @num@ электрическим големам
 %%%%
+{dat_few}@num@ eleionomae
+@num@ элеиономам
+%%%%
 {dat_few}@num@ elephants
 @num@ слонам
 %%%%
@@ -42153,6 +42954,12 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ fauns
 @num@ фавнам
+%%%%
+{dat_few}@num@ fenstrider witches
+@num@ болотным ведьмам
+%%%%
+{dat_few}@num@ fire dragon scales
+@num@ чешуям огненного дракона
 %%%%
 {dat_few}@num@ fire dragons
 @num@ огненным драконам
@@ -42216,6 +43023,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ gold pieces
 @num@ золотым монетам
+%%%%
+{dat_few}@num@ golden dragon scales
+@num@ чешуям золотого дракона
 %%%%
 {dat_few}@num@ golden dragons
 @num@ золотым драконам
@@ -42300,6 +43110,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ ice devils
 @num@ ледяным дьяволам
+%%%%
+{dat_few}@num@ ice dragon scales
+@num@ чешуям ледяного дракона
 %%%%
 {dat_few}@num@ ice dragons
 @num@ ледяным драконам
@@ -42517,6 +43330,9 @@ your ynoxinuls
 {dat_few}@num@ palentongas
 @num@ палентонгам
 %%%%
+{dat_few}@num@ pearl dragon scales
+@num@ чешуям жемчужного дракона
+%%%%
 {dat_few}@num@ pearl dragons
 @num@ жемчужным драконам
 %%%%
@@ -42609,6 +43425,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ quick blades
 @num@ быстрым клинкам
+%%%%
+{dat_few}@num@ quicksilver dragon scales
+@num@ чешуям ртутного дракона
 %%%%
 {dat_few}@num@ quicksilver dragons
 @num@ ртутным драконам
@@ -42823,6 +43642,9 @@ your ynoxinuls
 {dat_few}@num@ serpent talismans
 @num@ талисманам змея
 %%%%
+{dat_few}@num@ shadow dragon scales
+@num@ чешуям теневого дракона
+%%%%
 {dat_few}@num@ shadow dragons
 @num@ теневым драконам
 %%%%
@@ -42931,6 +43753,9 @@ your ynoxinuls
 {dat_few}@num@ staves of necromancy
 @num@ посохам некромантии
 %%%%
+{dat_few}@num@ steam dragon scales
+@num@ чешуям парового дракона
+%%%%
 {dat_few}@num@ steam dragons
 @num@ паровым драконам
 %%%%
@@ -42940,6 +43765,9 @@ your ynoxinuls
 {dat_few}@num@ stones
 @num@ камням
 %%%%
+{dat_few}@num@ storm dragon scales
+@num@ чешуям грозового дракона
+%%%%
 {dat_few}@num@ storm dragons
 @num@ грозовым драконам
 %%%%
@@ -42948,6 +43776,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ sun demons
 @num@ солнечным демонам
+%%%%
+{dat_few}@num@ swamp dragon scales
+@num@ чешуям болотного дракона
 %%%%
 {dat_few}@num@ talismans of death
 @num@ талисманам смерти
@@ -43002,6 +43833,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ trishulas
 @num@ тришулам
+%%%%
+{dat_few}@num@ troll leather armours
+@num@ доспехам из кожи тролля
 %%%%
 {dat_few}@num@ trolls
 @num@ троллям
@@ -43314,6 +44148,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ acid blobs
 @num@ кислотным сгусткам
+%%%%
+{dat_many}@num@ acid dragon scales
+@num@ чешуям кислотного дракона
 %%%%
 {dat_many}@num@ acid dragons
 @num@ кислотным драконам
@@ -43786,6 +44623,9 @@ your ynoxinuls
 {dat_many}@num@ electric golems
 @num@ электрическим големам
 %%%%
+{dat_many}@num@ eleionomae
+@num@ элеиономам
+%%%%
 {dat_many}@num@ elephants
 @num@ слонам
 %%%%
@@ -43818,6 +44658,12 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ fauns
 @num@ фавнам
+%%%%
+{dat_many}@num@ fenstrider witches
+@num@ болотным ведьмам
+%%%%
+{dat_many}@num@ fire dragon scales
+@num@ чешуям огненного дракона
 %%%%
 {dat_many}@num@ fire dragons
 @num@ огненным драконам
@@ -43881,6 +44727,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ gold pieces
 @num@ золотым монетам
+%%%%
+{dat_many}@num@ golden dragon scales
+@num@ чешуям золотого дракона
 %%%%
 {dat_many}@num@ golden dragons
 @num@ золотым драконам
@@ -43965,6 +44814,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ ice devils
 @num@ ледяным дьяволам
+%%%%
+{dat_many}@num@ ice dragon scales
+@num@ чешуям ледяного дракона
 %%%%
 {dat_many}@num@ ice dragons
 @num@ ледяным драконам
@@ -44182,6 +45034,9 @@ your ynoxinuls
 {dat_many}@num@ palentongas
 @num@ палентонгам
 %%%%
+{dat_many}@num@ pearl dragon scales
+@num@ чешуям жемчужного дракона
+%%%%
 {dat_many}@num@ pearl dragons
 @num@ жемчужным драконам
 %%%%
@@ -44274,6 +45129,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ quick blades
 @num@ быстрым клинкам
+%%%%
+{dat_many}@num@ quicksilver dragon scales
+@num@ чешуям ртутного дракона
 %%%%
 {dat_many}@num@ quicksilver dragons
 @num@ ртутным драконам
@@ -44488,6 +45346,9 @@ your ynoxinuls
 {dat_many}@num@ serpent talismans
 @num@ талисманам змея
 %%%%
+{dat_many}@num@ shadow dragon scales
+@num@ чешуям теневого дракона
+%%%%
 {dat_many}@num@ shadow dragons
 @num@ теневым драконам
 %%%%
@@ -44596,6 +45457,9 @@ your ynoxinuls
 {dat_many}@num@ staves of necromancy
 @num@ посохам некромантии
 %%%%
+{dat_many}@num@ steam dragon scales
+@num@ чешуям парового дракона
+%%%%
 {dat_many}@num@ steam dragons
 @num@ паровым драконам
 %%%%
@@ -44605,6 +45469,9 @@ your ynoxinuls
 {dat_many}@num@ stones
 @num@ камням
 %%%%
+{dat_many}@num@ storm dragon scales
+@num@ чешуям грозового дракона
+%%%%
 {dat_many}@num@ storm dragons
 @num@ грозовым драконам
 %%%%
@@ -44613,6 +45480,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ sun demons
 @num@ солнечным демонам
+%%%%
+{dat_many}@num@ swamp dragon scales
+@num@ чешуям болотного дракона
 %%%%
 {dat_many}@num@ talismans of death
 @num@ талисманам смерти
@@ -44667,6 +45537,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ trishulas
 @num@ тришулам
+%%%%
+{dat_many}@num@ troll leather armours
+@num@ доспехам из кожи тролля
 %%%%
 {dat_many}@num@ trolls
 @num@ троллям
@@ -44979,6 +45852,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ acid blobs
 @num@ кислотному сгустку
+%%%%
+{dat_one}@num@ acid dragon scales
+@num@ чешуе кислотного дракона
 %%%%
 {dat_one}@num@ acid dragons
 @num@ кислотному дракону
@@ -45451,6 +46327,9 @@ your ynoxinuls
 {dat_one}@num@ electric golems
 @num@ электрическому голему
 %%%%
+{dat_one}@num@ eleionomae
+@num@ элеиономе
+%%%%
 {dat_one}@num@ elephants
 @num@ слону
 %%%%
@@ -45483,6 +46362,12 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ fauns
 @num@ фавну
+%%%%
+{dat_one}@num@ fenstrider witches
+@num@ болотной ведьме
+%%%%
+{dat_one}@num@ fire dragon scales
+@num@ чешуе огненного дракона
 %%%%
 {dat_one}@num@ fire dragons
 @num@ огненному дракону
@@ -45546,6 +46431,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ gold pieces
 @num@ золотой монете
+%%%%
+{dat_one}@num@ golden dragon scales
+@num@ чешуе золотого дракона
 %%%%
 {dat_one}@num@ golden dragons
 @num@ золотому дракону
@@ -45630,6 +46518,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ ice devils
 @num@ ледяному дьяволу
+%%%%
+{dat_one}@num@ ice dragon scales
+@num@ чешуе ледяного дракона
 %%%%
 {dat_one}@num@ ice dragons
 @num@ ледяному дракону
@@ -45847,6 +46738,9 @@ your ynoxinuls
 {dat_one}@num@ palentongas
 @num@ палентонге
 %%%%
+{dat_one}@num@ pearl dragon scales
+@num@ чешуе жемчужного дракона
+%%%%
 {dat_one}@num@ pearl dragons
 @num@ жемчужному дракону
 %%%%
@@ -45939,6 +46833,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ quick blades
 @num@ быстрому клинку
+%%%%
+{dat_one}@num@ quicksilver dragon scales
+@num@ чешуе ртутного дракона
 %%%%
 {dat_one}@num@ quicksilver dragons
 @num@ ртутному дракону
@@ -46153,6 +47050,9 @@ your ynoxinuls
 {dat_one}@num@ serpent talismans
 @num@ талисману змея
 %%%%
+{dat_one}@num@ shadow dragon scales
+@num@ чешуе теневого дракона
+%%%%
 {dat_one}@num@ shadow dragons
 @num@ теневому дракону
 %%%%
@@ -46261,6 +47161,9 @@ your ynoxinuls
 {dat_one}@num@ staves of necromancy
 @num@ посоху некромантии
 %%%%
+{dat_one}@num@ steam dragon scales
+@num@ чешуе парового дракона
+%%%%
 {dat_one}@num@ steam dragons
 @num@ паровому дракону
 %%%%
@@ -46270,6 +47173,9 @@ your ynoxinuls
 {dat_one}@num@ stones
 @num@ камню
 %%%%
+{dat_one}@num@ storm dragon scales
+@num@ чешуе грозового дракона
+%%%%
 {dat_one}@num@ storm dragons
 @num@ грозовому дракону
 %%%%
@@ -46278,6 +47184,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ sun demons
 @num@ солнечному демону
+%%%%
+{dat_one}@num@ swamp dragon scales
+@num@ чешуе болотного дракона
 %%%%
 {dat_one}@num@ talismans of death
 @num@ талисману смерти
@@ -46332,6 +47241,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ trishulas
 @num@ тришуле
+%%%%
+{dat_one}@num@ troll leather armours
+@num@ доспеху из кожи тролля
 %%%%
 {dat_one}@num@ trolls
 @num@ троллю
@@ -47008,6 +47920,9 @@ your ynoxinuls
 {dat}a acid dragon
 {m}кислотному дракону
 %%%%
+{dat}a acid dragon scales
+{f}чешуе кислотного дракона
+%%%%
 {dat}a adder
 {f}гадюке
 %%%%
@@ -47476,6 +48391,9 @@ your ynoxinuls
 {dat}a electric golem
 {m}электрическому голему
 %%%%
+{dat}a eleionoma
+{f}элеиономе
+%%%%
 {dat}a elephant
 {m}слону
 %%%%
@@ -47509,8 +48427,14 @@ your ynoxinuls
 {dat}a faun
 {m}фавну
 %%%%
+{dat}a fenstrider witch
+{f}болотной ведьме
+%%%%
 {dat}a fire dragon
 {m}огненному дракону
+%%%%
+{dat}a fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {dat}a fire giant
 {m}огненному великану
@@ -47574,6 +48498,9 @@ your ynoxinuls
 %%%%
 {dat}a golden dragon
 {m}золотому дракону
+%%%%
+{dat}a golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {dat}a golden eye
 {n}золотому оку
@@ -47658,6 +48585,9 @@ your ynoxinuls
 %%%%
 {dat}a ice dragon
 {m}ледяному дракону
+%%%%
+{dat}a ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {dat}a iguana
 {f}игуане
@@ -47875,6 +48805,9 @@ your ynoxinuls
 {dat}a pearl dragon
 {m}жемчужному дракону
 %%%%
+{dat}a pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {dat}a phantom
 {m}фантому
 %%%%
@@ -47967,6 +48900,9 @@ your ynoxinuls
 %%%%
 {dat}a quicksilver dragon
 {m}ртутному дракону
+%%%%
+{dat}a quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {dat}a quill talisman
 {m}талисману игл
@@ -48181,6 +49117,9 @@ your ynoxinuls
 {dat}a shadow dragon
 {m}теневому дракону
 %%%%
+{dat}a shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {dat}a shadow imp
 {m}теневому бесу
 %%%%
@@ -48289,6 +49228,9 @@ your ynoxinuls
 {dat}a steam dragon
 {m}паровому дракону
 %%%%
+{dat}a steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {dat}a stone
 {m}камню
 %%%%
@@ -48298,11 +49240,17 @@ your ynoxinuls
 {dat}a storm dragon
 {m}грозовому дракону
 %%%%
+{dat}a storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {dat}a storm talisman
 {m}талисману бури
 %%%%
 {dat}a sun demon
 {m}солнечному демону
+%%%%
+{dat}a swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {dat}a talisman of death
 {m}талисману смерти
@@ -48360,6 +49308,9 @@ your ynoxinuls
 %%%%
 {dat}a troll
 {m}троллю
+%%%%
+{dat}a troll leather armour
+{m}доспеху из кожи тролля
 %%%%
 {dat}a two-headed ogre
 {m}двухголовому огру
@@ -48492,6 +49443,9 @@ your ynoxinuls
 %%%%
 {dat}acid dragon
 {m}кислотному дракону
+%%%%
+{dat}acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {dat}acid dragons
 {pl}кислотным драконам
@@ -48756,6 +49710,9 @@ your ynoxinuls
 %%%%
 {dat}an acid dragon
 {m}кислотному дракону
+%%%%
+{dat}an acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {dat}an adder
 {f}гадюке
@@ -49225,6 +50182,9 @@ your ynoxinuls
 {dat}an electric golem
 {m}электрическому голему
 %%%%
+{dat}an eleionoma
+{f}элеиономе
+%%%%
 {dat}an elephant
 {m}слону
 %%%%
@@ -49258,8 +50218,14 @@ your ynoxinuls
 {dat}an faun
 {m}фавну
 %%%%
+{dat}an fenstrider witch
+{f}болотной ведьме
+%%%%
 {dat}an fire dragon
 {m}огненному дракону
+%%%%
+{dat}an fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {dat}an fire giant
 {m}огненному великану
@@ -49323,6 +50289,9 @@ your ynoxinuls
 %%%%
 {dat}an golden dragon
 {m}золотому дракону
+%%%%
+{dat}an golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {dat}an golden eye
 {n}золотому оку
@@ -49407,6 +50376,9 @@ your ynoxinuls
 %%%%
 {dat}an ice dragon
 {m}ледяному дракону
+%%%%
+{dat}an ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {dat}an iguana
 {f}игуане
@@ -49624,6 +50596,9 @@ your ynoxinuls
 {dat}an pearl dragon
 {m}жемчужному дракону
 %%%%
+{dat}an pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {dat}an phantom
 {m}фантому
 %%%%
@@ -49716,6 +50691,9 @@ your ynoxinuls
 %%%%
 {dat}an quicksilver dragon
 {m}ртутному дракону
+%%%%
+{dat}an quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {dat}an quill talisman
 {m}талисману игл
@@ -49930,6 +50908,9 @@ your ynoxinuls
 {dat}an shadow dragon
 {m}теневому дракону
 %%%%
+{dat}an shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {dat}an shadow imp
 {m}теневому бесу
 %%%%
@@ -50038,6 +51019,9 @@ your ynoxinuls
 {dat}an steam dragon
 {m}паровому дракону
 %%%%
+{dat}an steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {dat}an stone
 {m}камню
 %%%%
@@ -50047,11 +51031,17 @@ your ynoxinuls
 {dat}an storm dragon
 {m}грозовому дракону
 %%%%
+{dat}an storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {dat}an storm talisman
 {m}талисману бури
 %%%%
 {dat}an sun demon
 {m}солнечному демону
+%%%%
+{dat}an swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {dat}an talisman of death
 {m}талисману смерти
@@ -50109,6 +51099,9 @@ your ynoxinuls
 %%%%
 {dat}an troll
 {m}троллю
+%%%%
+{dat}an troll leather armour
+{m}доспеху из кожи тролля
 %%%%
 {dat}an two-headed ogre
 {m}двухголовому огру
@@ -51091,6 +52084,12 @@ your ynoxinuls
 {dat}electric golems
 {pl}электрическим големам
 %%%%
+{dat}eleionoma
+{f}элеиономе
+%%%%
+{dat}eleionomae
+{pl}элеиономам
+%%%%
 {dat}elephant
 {m}слону
 %%%%
@@ -51157,8 +52156,17 @@ your ynoxinuls
 {dat}fauns
 {pl}фавнам
 %%%%
+{dat}fenstrider witch
+{f}болотной ведьме
+%%%%
+{dat}fenstrider witches
+{pl}болотным ведьмам
+%%%%
 {dat}fire dragon
 {m}огненному дракону
+%%%%
+{dat}fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {dat}fire dragons
 {pl}огненным драконам
@@ -51285,6 +52293,9 @@ your ynoxinuls
 %%%%
 {dat}golden dragon
 {m}золотому дракону
+%%%%
+{dat}golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {dat}golden dragons
 {pl}золотым драконам
@@ -51453,6 +52464,9 @@ your ynoxinuls
 %%%%
 {dat}ice dragon
 {m}ледяному дракону
+%%%%
+{dat}ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {dat}ice dragons
 {pl}ледяным драконам
@@ -51880,6 +52894,9 @@ your ynoxinuls
 {dat}pearl dragon
 {m}жемчужному дракону
 %%%%
+{dat}pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {dat}pearl dragons
 {pl}жемчужным драконам
 %%%%
@@ -52065,6 +53082,9 @@ your ynoxinuls
 %%%%
 {dat}quicksilver dragon
 {m}ртутному дракону
+%%%%
+{dat}quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {dat}quicksilver dragons
 {pl}ртутным драконам
@@ -52489,6 +53509,9 @@ your ynoxinuls
 {dat}shadow dragon
 {m}теневому дракону
 %%%%
+{dat}shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {dat}shadow dragons
 {pl}теневым драконам
 %%%%
@@ -52705,6 +53728,9 @@ your ynoxinuls
 {dat}steam dragon
 {m}паровому дракону
 %%%%
+{dat}steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {dat}steam dragons
 {pl}паровым драконам
 %%%%
@@ -52723,6 +53749,9 @@ your ynoxinuls
 {dat}storm dragon
 {m}грозовому дракону
 %%%%
+{dat}storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {dat}storm dragons
 {pl}грозовым драконам
 %%%%
@@ -52737,6 +53766,9 @@ your ynoxinuls
 %%%%
 {dat}sun demons
 {pl}солнечным демонам
+%%%%
+{dat}swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {dat}talisman of death
 {m}талисману смерти
@@ -53136,6 +54168,9 @@ your ynoxinuls
 %%%%
 {dat}the acid dragon
 {m}кислотному дракону
+%%%%
+{dat}the acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {dat}the acid dragons
 {pl}кислотным драконам
@@ -54070,6 +55105,12 @@ your ynoxinuls
 {dat}the electric golems
 {pl}электрическим големам
 %%%%
+{dat}the eleionoma
+{f}элеиономе
+%%%%
+{dat}the eleionomae
+{pl}элеиономам
+%%%%
 {dat}the elephant
 {m}слону
 %%%%
@@ -54136,8 +55177,17 @@ your ynoxinuls
 {dat}the fauns
 {pl}фавнам
 %%%%
+{dat}the fenstrider witch
+{f}болотной ведьме
+%%%%
+{dat}the fenstrider witches
+{pl}болотным ведьмам
+%%%%
 {dat}the fire dragon
 {m}огненному дракону
+%%%%
+{dat}the fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {dat}the fire dragons
 {pl}огненным драконам
@@ -54264,6 +55314,9 @@ your ynoxinuls
 %%%%
 {dat}the golden dragon
 {m}золотому дракону
+%%%%
+{dat}the golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {dat}the golden dragons
 {pl}золотым драконам
@@ -54432,6 +55485,9 @@ your ynoxinuls
 %%%%
 {dat}the ice dragon
 {m}ледяному дракону
+%%%%
+{dat}the ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {dat}the ice dragons
 {pl}ледяным драконам
@@ -54859,6 +55915,9 @@ your ynoxinuls
 {dat}the pearl dragon
 {m}жемчужному дракону
 %%%%
+{dat}the pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {dat}the pearl dragons
 {pl}жемчужным драконам
 %%%%
@@ -55044,6 +56103,9 @@ your ynoxinuls
 %%%%
 {dat}the quicksilver dragon
 {m}ртутному дракону
+%%%%
+{dat}the quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {dat}the quicksilver dragons
 {pl}ртутным драконам
@@ -55468,6 +56530,9 @@ your ynoxinuls
 {dat}the shadow dragon
 {m}теневому дракону
 %%%%
+{dat}the shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {dat}the shadow dragons
 {pl}теневым драконам
 %%%%
@@ -55684,6 +56749,9 @@ your ynoxinuls
 {dat}the steam dragon
 {m}паровому дракону
 %%%%
+{dat}the steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {dat}the steam dragons
 {pl}паровым драконам
 %%%%
@@ -55702,6 +56770,9 @@ your ynoxinuls
 {dat}the storm dragon
 {m}грозовому дракону
 %%%%
+{dat}the storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {dat}the storm dragons
 {pl}грозовым драконам
 %%%%
@@ -55716,6 +56787,9 @@ your ynoxinuls
 %%%%
 {dat}the sun demons
 {pl}солнечным демонам
+%%%%
+{dat}the swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {dat}the talisman of death
 {m}талисману смерти
@@ -55821,6 +56895,12 @@ your ynoxinuls
 %%%%
 {dat}the troll
 {m}троллю
+%%%%
+{dat}the troll leather armour
+{m}доспеху из кожи тролля
+%%%%
+{dat}the troll leather armours
+{pl}доспехам из кожи тролля
 %%%%
 {dat}the trolls
 {pl}троллям
@@ -56145,6 +57225,12 @@ your ynoxinuls
 %%%%
 {dat}troll
 {m}троллю
+%%%%
+{dat}troll leather armour
+{m}доспеху из кожи тролля
+%%%%
+{dat}troll leather armours
+{pl}доспехам из кожи тролля
 %%%%
 {dat}trolls
 {pl}троллям
@@ -56763,6 +57849,9 @@ your ynoxinuls
 %%%%
 {dat}your acid dragon
 {m}кислотному дракону
+%%%%
+{dat}your acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {dat}your acid dragons
 {pl}кислотным драконам
@@ -57697,6 +58786,12 @@ your ynoxinuls
 {dat}your electric golems
 {pl}электрическим големам
 %%%%
+{dat}your eleionoma
+{f}элеиономе
+%%%%
+{dat}your eleionomae
+{pl}элеиономам
+%%%%
 {dat}your elephant
 {m}слону
 %%%%
@@ -57763,8 +58858,17 @@ your ynoxinuls
 {dat}your fauns
 {pl}фавнам
 %%%%
+{dat}your fenstrider witch
+{f}болотной ведьме
+%%%%
+{dat}your fenstrider witches
+{pl}болотным ведьмам
+%%%%
 {dat}your fire dragon
 {m}огненному дракону
+%%%%
+{dat}your fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {dat}your fire dragons
 {pl}огненным драконам
@@ -57891,6 +58995,9 @@ your ynoxinuls
 %%%%
 {dat}your golden dragon
 {m}золотому дракону
+%%%%
+{dat}your golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {dat}your golden dragons
 {pl}золотым драконам
@@ -58059,6 +59166,9 @@ your ynoxinuls
 %%%%
 {dat}your ice dragon
 {m}ледяному дракону
+%%%%
+{dat}your ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {dat}your ice dragons
 {pl}ледяным драконам
@@ -58486,6 +59596,9 @@ your ynoxinuls
 {dat}your pearl dragon
 {m}жемчужному дракону
 %%%%
+{dat}your pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {dat}your pearl dragons
 {pl}жемчужным драконам
 %%%%
@@ -58671,6 +59784,9 @@ your ynoxinuls
 %%%%
 {dat}your quicksilver dragon
 {m}ртутному дракону
+%%%%
+{dat}your quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {dat}your quicksilver dragons
 {pl}ртутным драконам
@@ -59095,6 +60211,9 @@ your ynoxinuls
 {dat}your shadow dragon
 {m}теневому дракону
 %%%%
+{dat}your shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {dat}your shadow dragons
 {pl}теневым драконам
 %%%%
@@ -59311,6 +60430,9 @@ your ynoxinuls
 {dat}your steam dragon
 {m}паровому дракону
 %%%%
+{dat}your steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {dat}your steam dragons
 {pl}паровым драконам
 %%%%
@@ -59329,6 +60451,9 @@ your ynoxinuls
 {dat}your storm dragon
 {m}грозовому дракону
 %%%%
+{dat}your storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {dat}your storm dragons
 {pl}грозовым драконам
 %%%%
@@ -59343,6 +60468,9 @@ your ynoxinuls
 %%%%
 {dat}your sun demons
 {pl}солнечным демонам
+%%%%
+{dat}your swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {dat}your talisman of death
 {m}талисману смерти
@@ -59448,6 +60576,12 @@ your ynoxinuls
 %%%%
 {dat}your troll
 {m}троллю
+%%%%
+{dat}your troll leather armour
+{m}доспеху из кожи тролля
+%%%%
+{dat}your troll leather armours
+{pl}доспехам из кожи тролля
 %%%%
 {dat}your trolls
 {pl}троллям
@@ -59883,6 +61017,9 @@ your ynoxinuls
 %%%%
 {few}@num@ acid blobs
 @num@ кислотных сгустка
+%%%%
+{few}@num@ acid dragon scales
+@num@ чешуи кислотного дракона
 %%%%
 {few}@num@ acid dragons
 @num@ кислотных дракона
@@ -60355,6 +61492,9 @@ your ynoxinuls
 {few}@num@ electric golems
 @num@ электрических голема
 %%%%
+{few}@num@ eleionomae
+@num@ элеиономы
+%%%%
 {few}@num@ elephants
 @num@ слона
 %%%%
@@ -60387,6 +61527,12 @@ your ynoxinuls
 %%%%
 {few}@num@ fauns
 @num@ фавна
+%%%%
+{few}@num@ fenstrider witches
+@num@ болотные ведьмы
+%%%%
+{few}@num@ fire dragon scales
+@num@ чешуи огненного дракона
 %%%%
 {few}@num@ fire dragons
 @num@ огненных дракона
@@ -60450,6 +61596,9 @@ your ynoxinuls
 %%%%
 {few}@num@ gold pieces
 @num@ золотые монеты
+%%%%
+{few}@num@ golden dragon scales
+@num@ чешуи золотого дракона
 %%%%
 {few}@num@ golden dragons
 @num@ золотых дракона
@@ -60534,6 +61683,9 @@ your ynoxinuls
 %%%%
 {few}@num@ ice devils
 @num@ ледяных дьявола
+%%%%
+{few}@num@ ice dragon scales
+@num@ чешуи ледяного дракона
 %%%%
 {few}@num@ ice dragons
 @num@ ледяных дракона
@@ -60751,6 +61903,9 @@ your ynoxinuls
 {few}@num@ palentongas
 @num@ палентонги
 %%%%
+{few}@num@ pearl dragon scales
+@num@ чешуи жемчужного дракона
+%%%%
 {few}@num@ pearl dragons
 @num@ жемчужных дракона
 %%%%
@@ -60843,6 +61998,9 @@ your ynoxinuls
 %%%%
 {few}@num@ quick blades
 @num@ быстрых клинка
+%%%%
+{few}@num@ quicksilver dragon scales
+@num@ чешуи ртутного дракона
 %%%%
 {few}@num@ quicksilver dragons
 @num@ ртутных дракона
@@ -61057,6 +62215,9 @@ your ynoxinuls
 {few}@num@ serpent talismans
 @num@ талисмана змея
 %%%%
+{few}@num@ shadow dragon scales
+@num@ чешуи теневого дракона
+%%%%
 {few}@num@ shadow dragons
 @num@ теневых дракона
 %%%%
@@ -61165,6 +62326,9 @@ your ynoxinuls
 {few}@num@ staves of necromancy
 @num@ посоха некромантии
 %%%%
+{few}@num@ steam dragon scales
+@num@ чешуи парового дракона
+%%%%
 {few}@num@ steam dragons
 @num@ паровых дракона
 %%%%
@@ -61174,6 +62338,9 @@ your ynoxinuls
 {few}@num@ stones
 @num@ камня
 %%%%
+{few}@num@ storm dragon scales
+@num@ чешуи грозового дракона
+%%%%
 {few}@num@ storm dragons
 @num@ грозовых дракона
 %%%%
@@ -61182,6 +62349,9 @@ your ynoxinuls
 %%%%
 {few}@num@ sun demons
 @num@ солнечных демона
+%%%%
+{few}@num@ swamp dragon scales
+@num@ чешуи болотного дракона
 %%%%
 {few}@num@ talismans of death
 @num@ талисмана смерти
@@ -61236,6 +62406,9 @@ your ynoxinuls
 %%%%
 {few}@num@ trishulas
 @num@ тришулы
+%%%%
+{few}@num@ troll leather armours
+@num@ доспеха из кожи тролля
 %%%%
 {few}@num@ trolls
 @num@ тролля
@@ -61548,6 +62721,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ acid blobs
 @num@ кислотных сгустков
+%%%%
+{gen_few}@num@ acid dragon scales
+@num@ чешуй кислотного дракона
 %%%%
 {gen_few}@num@ acid dragons
 @num@ кислотных драконов
@@ -62020,6 +63196,9 @@ your ynoxinuls
 {gen_few}@num@ electric golems
 @num@ электрических големов
 %%%%
+{gen_few}@num@ eleionomae
+@num@ элеионом
+%%%%
 {gen_few}@num@ elephants
 @num@ слонов
 %%%%
@@ -62052,6 +63231,12 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ fauns
 @num@ фавнов
+%%%%
+{gen_few}@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+{gen_few}@num@ fire dragon scales
+@num@ чешуй огненного дракона
 %%%%
 {gen_few}@num@ fire dragons
 @num@ огненных драконов
@@ -62115,6 +63300,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ gold pieces
 @num@ золотых монет
+%%%%
+{gen_few}@num@ golden dragon scales
+@num@ чешуй золотого дракона
 %%%%
 {gen_few}@num@ golden dragons
 @num@ золотых драконов
@@ -62199,6 +63387,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+{gen_few}@num@ ice dragon scales
+@num@ чешуй ледяного дракона
 %%%%
 {gen_few}@num@ ice dragons
 @num@ ледяных драконов
@@ -62416,6 +63607,9 @@ your ynoxinuls
 {gen_few}@num@ palentongas
 @num@ палентонг
 %%%%
+{gen_few}@num@ pearl dragon scales
+@num@ чешуй жемчужного дракона
+%%%%
 {gen_few}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -62508,6 +63702,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ quick blades
 @num@ быстрых клинков
+%%%%
+{gen_few}@num@ quicksilver dragon scales
+@num@ чешуй ртутного дракона
 %%%%
 {gen_few}@num@ quicksilver dragons
 @num@ ртутных драконов
@@ -62722,6 +63919,9 @@ your ynoxinuls
 {gen_few}@num@ serpent talismans
 @num@ талисманов змея
 %%%%
+{gen_few}@num@ shadow dragon scales
+@num@ чешуй теневого дракона
+%%%%
 {gen_few}@num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -62830,6 +64030,9 @@ your ynoxinuls
 {gen_few}@num@ staves of necromancy
 @num@ посохов некромантии
 %%%%
+{gen_few}@num@ steam dragon scales
+@num@ чешуй парового дракона
+%%%%
 {gen_few}@num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -62839,6 +64042,9 @@ your ynoxinuls
 {gen_few}@num@ stones
 @num@ камней
 %%%%
+{gen_few}@num@ storm dragon scales
+@num@ чешуй грозового дракона
+%%%%
 {gen_few}@num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -62847,6 +64053,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ sun demons
 @num@ солнечных демонов
+%%%%
+{gen_few}@num@ swamp dragon scales
+@num@ чешуй болотного дракона
 %%%%
 {gen_few}@num@ talismans of death
 @num@ талисманов смерти
@@ -62901,6 +64110,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ trishulas
 @num@ тришул
+%%%%
+{gen_few}@num@ troll leather armours
+@num@ доспехов из кожи тролля
 %%%%
 {gen_few}@num@ trolls
 @num@ троллей
@@ -63213,6 +64425,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ acid blobs
 @num@ кислотных сгустков
+%%%%
+{gen_many}@num@ acid dragon scales
+@num@ чешуй кислотного дракона
 %%%%
 {gen_many}@num@ acid dragons
 @num@ кислотных драконов
@@ -63685,6 +64900,9 @@ your ynoxinuls
 {gen_many}@num@ electric golems
 @num@ электрических големов
 %%%%
+{gen_many}@num@ eleionomae
+@num@ элеионом
+%%%%
 {gen_many}@num@ elephants
 @num@ слонов
 %%%%
@@ -63717,6 +64935,12 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ fauns
 @num@ фавнов
+%%%%
+{gen_many}@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+{gen_many}@num@ fire dragon scales
+@num@ чешуй огненного дракона
 %%%%
 {gen_many}@num@ fire dragons
 @num@ огненных драконов
@@ -63780,6 +65004,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ gold pieces
 @num@ золотых монет
+%%%%
+{gen_many}@num@ golden dragon scales
+@num@ чешуй золотого дракона
 %%%%
 {gen_many}@num@ golden dragons
 @num@ золотых драконов
@@ -63864,6 +65091,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+{gen_many}@num@ ice dragon scales
+@num@ чешуй ледяного дракона
 %%%%
 {gen_many}@num@ ice dragons
 @num@ ледяных драконов
@@ -64081,6 +65311,9 @@ your ynoxinuls
 {gen_many}@num@ palentongas
 @num@ палентонг
 %%%%
+{gen_many}@num@ pearl dragon scales
+@num@ чешуй жемчужного дракона
+%%%%
 {gen_many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -64173,6 +65406,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ quick blades
 @num@ быстрых клинков
+%%%%
+{gen_many}@num@ quicksilver dragon scales
+@num@ чешуй ртутного дракона
 %%%%
 {gen_many}@num@ quicksilver dragons
 @num@ ртутных драконов
@@ -64387,6 +65623,9 @@ your ynoxinuls
 {gen_many}@num@ serpent talismans
 @num@ талисманов змея
 %%%%
+{gen_many}@num@ shadow dragon scales
+@num@ чешуй теневого дракона
+%%%%
 {gen_many}@num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -64495,6 +65734,9 @@ your ynoxinuls
 {gen_many}@num@ staves of necromancy
 @num@ посохов некромантии
 %%%%
+{gen_many}@num@ steam dragon scales
+@num@ чешуй парового дракона
+%%%%
 {gen_many}@num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -64504,6 +65746,9 @@ your ynoxinuls
 {gen_many}@num@ stones
 @num@ камней
 %%%%
+{gen_many}@num@ storm dragon scales
+@num@ чешуй грозового дракона
+%%%%
 {gen_many}@num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -64512,6 +65757,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ sun demons
 @num@ солнечных демонов
+%%%%
+{gen_many}@num@ swamp dragon scales
+@num@ чешуй болотного дракона
 %%%%
 {gen_many}@num@ talismans of death
 @num@ талисманов смерти
@@ -64566,6 +65814,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ trishulas
 @num@ тришул
+%%%%
+{gen_many}@num@ troll leather armours
+@num@ доспехов из кожи тролля
 %%%%
 {gen_many}@num@ trolls
 @num@ троллей
@@ -64878,6 +66129,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ acid blobs
 @num@ кислотного сгустка
+%%%%
+{gen_one}@num@ acid dragon scales
+@num@ чешуи кислотного дракона
 %%%%
 {gen_one}@num@ acid dragons
 @num@ кислотного дракона
@@ -65350,6 +66604,9 @@ your ynoxinuls
 {gen_one}@num@ electric golems
 @num@ электрического голема
 %%%%
+{gen_one}@num@ eleionomae
+@num@ элеиономы
+%%%%
 {gen_one}@num@ elephants
 @num@ слона
 %%%%
@@ -65382,6 +66639,12 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ fauns
 @num@ фавна
+%%%%
+{gen_one}@num@ fenstrider witches
+@num@ болотной ведьмы
+%%%%
+{gen_one}@num@ fire dragon scales
+@num@ чешуи огненного дракона
 %%%%
 {gen_one}@num@ fire dragons
 @num@ огненного дракона
@@ -65445,6 +66708,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ gold pieces
 @num@ золотой монеты
+%%%%
+{gen_one}@num@ golden dragon scales
+@num@ чешуи золотого дракона
 %%%%
 {gen_one}@num@ golden dragons
 @num@ золотого дракона
@@ -65529,6 +66795,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ ice devils
 @num@ ледяного дьявола
+%%%%
+{gen_one}@num@ ice dragon scales
+@num@ чешуи ледяного дракона
 %%%%
 {gen_one}@num@ ice dragons
 @num@ ледяного дракона
@@ -65746,6 +67015,9 @@ your ynoxinuls
 {gen_one}@num@ palentongas
 @num@ палентонги
 %%%%
+{gen_one}@num@ pearl dragon scales
+@num@ чешуи жемчужного дракона
+%%%%
 {gen_one}@num@ pearl dragons
 @num@ жемчужного дракона
 %%%%
@@ -65838,6 +67110,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ quick blades
 @num@ быстрого клинка
+%%%%
+{gen_one}@num@ quicksilver dragon scales
+@num@ чешуи ртутного дракона
 %%%%
 {gen_one}@num@ quicksilver dragons
 @num@ ртутного дракона
@@ -66052,6 +67327,9 @@ your ynoxinuls
 {gen_one}@num@ serpent talismans
 @num@ талисмана змея
 %%%%
+{gen_one}@num@ shadow dragon scales
+@num@ чешуи теневого дракона
+%%%%
 {gen_one}@num@ shadow dragons
 @num@ теневого дракона
 %%%%
@@ -66160,6 +67438,9 @@ your ynoxinuls
 {gen_one}@num@ staves of necromancy
 @num@ посоха некромантии
 %%%%
+{gen_one}@num@ steam dragon scales
+@num@ чешуи парового дракона
+%%%%
 {gen_one}@num@ steam dragons
 @num@ парового дракона
 %%%%
@@ -66169,6 +67450,9 @@ your ynoxinuls
 {gen_one}@num@ stones
 @num@ камня
 %%%%
+{gen_one}@num@ storm dragon scales
+@num@ чешуи грозового дракона
+%%%%
 {gen_one}@num@ storm dragons
 @num@ грозового дракона
 %%%%
@@ -66177,6 +67461,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ sun demons
 @num@ солнечного демона
+%%%%
+{gen_one}@num@ swamp dragon scales
+@num@ чешуи болотного дракона
 %%%%
 {gen_one}@num@ talismans of death
 @num@ талисмана смерти
@@ -66231,6 +67518,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ trishulas
 @num@ тришулы
+%%%%
+{gen_one}@num@ troll leather armours
+@num@ доспеха из кожи тролля
 %%%%
 {gen_one}@num@ trolls
 @num@ тролля
@@ -66907,6 +68197,9 @@ your ynoxinuls
 {gen}a acid dragon
 {m}кислотного дракона
 %%%%
+{gen}a acid dragon scales
+{f}чешуи кислотного дракона
+%%%%
 {gen}a adder
 {f}гадюки
 %%%%
@@ -67375,6 +68668,9 @@ your ynoxinuls
 {gen}a electric golem
 {m}электрического голема
 %%%%
+{gen}a eleionoma
+{f}элеиономы
+%%%%
 {gen}a elephant
 {m}слона
 %%%%
@@ -67408,8 +68704,14 @@ your ynoxinuls
 {gen}a faun
 {m}фавна
 %%%%
+{gen}a fenstrider witch
+{f}болотной ведьмы
+%%%%
 {gen}a fire dragon
 {m}огненного дракона
+%%%%
+{gen}a fire dragon scales
+{f}чешуи огненного дракона
 %%%%
 {gen}a fire giant
 {m}огненного великана
@@ -67473,6 +68775,9 @@ your ynoxinuls
 %%%%
 {gen}a golden dragon
 {m}золотого дракона
+%%%%
+{gen}a golden dragon scales
+{f}чешуи золотого дракона
 %%%%
 {gen}a golden eye
 {n}золотого ока
@@ -67557,6 +68862,9 @@ your ynoxinuls
 %%%%
 {gen}a ice dragon
 {m}ледяного дракона
+%%%%
+{gen}a ice dragon scales
+{f}чешуи ледяного дракона
 %%%%
 {gen}a iguana
 {f}игуаны
@@ -67774,6 +69082,9 @@ your ynoxinuls
 {gen}a pearl dragon
 {m}жемчужного дракона
 %%%%
+{gen}a pearl dragon scales
+{f}чешуи жемчужного дракона
+%%%%
 {gen}a phantom
 {m}фантома
 %%%%
@@ -67866,6 +69177,9 @@ your ynoxinuls
 %%%%
 {gen}a quicksilver dragon
 {m}ртутного дракона
+%%%%
+{gen}a quicksilver dragon scales
+{f}чешуи ртутного дракона
 %%%%
 {gen}a quill talisman
 {m}талисмана игл
@@ -68080,6 +69394,9 @@ your ynoxinuls
 {gen}a shadow dragon
 {m}теневого дракона
 %%%%
+{gen}a shadow dragon scales
+{f}чешуи теневого дракона
+%%%%
 {gen}a shadow imp
 {m}теневого беса
 %%%%
@@ -68188,6 +69505,9 @@ your ynoxinuls
 {gen}a steam dragon
 {m}парового дракона
 %%%%
+{gen}a steam dragon scales
+{f}чешуи парового дракона
+%%%%
 {gen}a stone
 {m}камня
 %%%%
@@ -68197,11 +69517,17 @@ your ynoxinuls
 {gen}a storm dragon
 {m}грозового дракона
 %%%%
+{gen}a storm dragon scales
+{f}чешуи грозового дракона
+%%%%
 {gen}a storm talisman
 {m}талисмана бури
 %%%%
 {gen}a sun demon
 {m}солнечного демона
+%%%%
+{gen}a swamp dragon scales
+{f}чешуи болотного дракона
 %%%%
 {gen}a talisman of death
 {m}талисмана смерти
@@ -68259,6 +69585,9 @@ your ynoxinuls
 %%%%
 {gen}a troll
 {m}тролля
+%%%%
+{gen}a troll leather armour
+{m}доспеха из кожи тролля
 %%%%
 {gen}a two-headed ogre
 {m}двухголового огра
@@ -68391,6 +69720,9 @@ your ynoxinuls
 %%%%
 {gen}acid dragon
 {m}кислотного дракона
+%%%%
+{gen}acid dragon scales
+{f}чешуи кислотного дракона
 %%%%
 {gen}acid dragons
 {pl}кислотных драконов
@@ -68655,6 +69987,9 @@ your ynoxinuls
 %%%%
 {gen}an acid dragon
 {m}кислотного дракона
+%%%%
+{gen}an acid dragon scales
+{f}чешуи кислотного дракона
 %%%%
 {gen}an adder
 {f}гадюки
@@ -69124,6 +70459,9 @@ your ynoxinuls
 {gen}an electric golem
 {m}электрического голема
 %%%%
+{gen}an eleionoma
+{f}элеиономы
+%%%%
 {gen}an elephant
 {m}слона
 %%%%
@@ -69157,8 +70495,14 @@ your ynoxinuls
 {gen}an faun
 {m}фавна
 %%%%
+{gen}an fenstrider witch
+{f}болотной ведьмы
+%%%%
 {gen}an fire dragon
 {m}огненного дракона
+%%%%
+{gen}an fire dragon scales
+{f}чешуи огненного дракона
 %%%%
 {gen}an fire giant
 {m}огненного великана
@@ -69222,6 +70566,9 @@ your ynoxinuls
 %%%%
 {gen}an golden dragon
 {m}золотого дракона
+%%%%
+{gen}an golden dragon scales
+{f}чешуи золотого дракона
 %%%%
 {gen}an golden eye
 {n}золотого ока
@@ -69306,6 +70653,9 @@ your ynoxinuls
 %%%%
 {gen}an ice dragon
 {m}ледяного дракона
+%%%%
+{gen}an ice dragon scales
+{f}чешуи ледяного дракона
 %%%%
 {gen}an iguana
 {f}игуаны
@@ -69523,6 +70873,9 @@ your ynoxinuls
 {gen}an pearl dragon
 {m}жемчужного дракона
 %%%%
+{gen}an pearl dragon scales
+{f}чешуи жемчужного дракона
+%%%%
 {gen}an phantom
 {m}фантома
 %%%%
@@ -69615,6 +70968,9 @@ your ynoxinuls
 %%%%
 {gen}an quicksilver dragon
 {m}ртутного дракона
+%%%%
+{gen}an quicksilver dragon scales
+{f}чешуи ртутного дракона
 %%%%
 {gen}an quill talisman
 {m}талисмана игл
@@ -69829,6 +71185,9 @@ your ynoxinuls
 {gen}an shadow dragon
 {m}теневого дракона
 %%%%
+{gen}an shadow dragon scales
+{f}чешуи теневого дракона
+%%%%
 {gen}an shadow imp
 {m}теневого беса
 %%%%
@@ -69937,6 +71296,9 @@ your ynoxinuls
 {gen}an steam dragon
 {m}парового дракона
 %%%%
+{gen}an steam dragon scales
+{f}чешуи парового дракона
+%%%%
 {gen}an stone
 {m}камня
 %%%%
@@ -69946,11 +71308,17 @@ your ynoxinuls
 {gen}an storm dragon
 {m}грозового дракона
 %%%%
+{gen}an storm dragon scales
+{f}чешуи грозового дракона
+%%%%
 {gen}an storm talisman
 {m}талисмана бури
 %%%%
 {gen}an sun demon
 {m}солнечного демона
+%%%%
+{gen}an swamp dragon scales
+{f}чешуи болотного дракона
 %%%%
 {gen}an talisman of death
 {m}талисмана смерти
@@ -70008,6 +71376,9 @@ your ynoxinuls
 %%%%
 {gen}an troll
 {m}тролля
+%%%%
+{gen}an troll leather armour
+{m}доспеха из кожи тролля
 %%%%
 {gen}an two-headed ogre
 {m}двухголового огра
@@ -70990,6 +72361,12 @@ your ynoxinuls
 {gen}electric golems
 {pl}электрических големов
 %%%%
+{gen}eleionoma
+{f}элеиономы
+%%%%
+{gen}eleionomae
+{pl}элеионом
+%%%%
 {gen}elephant
 {m}слона
 %%%%
@@ -71056,8 +72433,17 @@ your ynoxinuls
 {gen}fauns
 {pl}фавнов
 %%%%
+{gen}fenstrider witch
+{f}болотной ведьмы
+%%%%
+{gen}fenstrider witches
+{pl}болотных ведьм
+%%%%
 {gen}fire dragon
 {m}огненного дракона
+%%%%
+{gen}fire dragon scales
+{f}чешуи огненного дракона
 %%%%
 {gen}fire dragons
 {pl}огненных драконов
@@ -71184,6 +72570,9 @@ your ynoxinuls
 %%%%
 {gen}golden dragon
 {m}золотого дракона
+%%%%
+{gen}golden dragon scales
+{f}чешуи золотого дракона
 %%%%
 {gen}golden dragons
 {pl}золотых драконов
@@ -71352,6 +72741,9 @@ your ynoxinuls
 %%%%
 {gen}ice dragon
 {m}ледяного дракона
+%%%%
+{gen}ice dragon scales
+{f}чешуи ледяного дракона
 %%%%
 {gen}ice dragons
 {pl}ледяных драконов
@@ -71779,6 +73171,9 @@ your ynoxinuls
 {gen}pearl dragon
 {m}жемчужного дракона
 %%%%
+{gen}pearl dragon scales
+{f}чешуи жемчужного дракона
+%%%%
 {gen}pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -71964,6 +73359,9 @@ your ynoxinuls
 %%%%
 {gen}quicksilver dragon
 {m}ртутного дракона
+%%%%
+{gen}quicksilver dragon scales
+{f}чешуи ртутного дракона
 %%%%
 {gen}quicksilver dragons
 {pl}ртутных драконов
@@ -72388,6 +73786,9 @@ your ynoxinuls
 {gen}shadow dragon
 {m}теневого дракона
 %%%%
+{gen}shadow dragon scales
+{f}чешуи теневого дракона
+%%%%
 {gen}shadow dragons
 {pl}теневых драконов
 %%%%
@@ -72604,6 +74005,9 @@ your ynoxinuls
 {gen}steam dragon
 {m}парового дракона
 %%%%
+{gen}steam dragon scales
+{f}чешуи парового дракона
+%%%%
 {gen}steam dragons
 {pl}паровых драконов
 %%%%
@@ -72622,6 +74026,9 @@ your ynoxinuls
 {gen}storm dragon
 {m}грозового дракона
 %%%%
+{gen}storm dragon scales
+{f}чешуи грозового дракона
+%%%%
 {gen}storm dragons
 {pl}грозовых драконов
 %%%%
@@ -72636,6 +74043,9 @@ your ynoxinuls
 %%%%
 {gen}sun demons
 {pl}солнечных демонов
+%%%%
+{gen}swamp dragon scales
+{f}чешуи болотного дракона
 %%%%
 {gen}talisman of death
 {m}талисмана смерти
@@ -73035,6 +74445,9 @@ your ynoxinuls
 %%%%
 {gen}the acid dragon
 {m}кислотного дракона
+%%%%
+{gen}the acid dragon scales
+{f}чешуи кислотного дракона
 %%%%
 {gen}the acid dragons
 {pl}кислотных драконов
@@ -73969,6 +75382,12 @@ your ynoxinuls
 {gen}the electric golems
 {pl}электрических големов
 %%%%
+{gen}the eleionoma
+{f}элеиономы
+%%%%
+{gen}the eleionomae
+{pl}элеионом
+%%%%
 {gen}the elephant
 {m}слона
 %%%%
@@ -74035,8 +75454,17 @@ your ynoxinuls
 {gen}the fauns
 {pl}фавнов
 %%%%
+{gen}the fenstrider witch
+{f}болотной ведьмы
+%%%%
+{gen}the fenstrider witches
+{pl}болотных ведьм
+%%%%
 {gen}the fire dragon
 {m}огненного дракона
+%%%%
+{gen}the fire dragon scales
+{f}чешуи огненного дракона
 %%%%
 {gen}the fire dragons
 {pl}огненных драконов
@@ -74163,6 +75591,9 @@ your ynoxinuls
 %%%%
 {gen}the golden dragon
 {m}золотого дракона
+%%%%
+{gen}the golden dragon scales
+{f}чешуи золотого дракона
 %%%%
 {gen}the golden dragons
 {pl}золотых драконов
@@ -74331,6 +75762,9 @@ your ynoxinuls
 %%%%
 {gen}the ice dragon
 {m}ледяного дракона
+%%%%
+{gen}the ice dragon scales
+{f}чешуи ледяного дракона
 %%%%
 {gen}the ice dragons
 {pl}ледяных драконов
@@ -74758,6 +76192,9 @@ your ynoxinuls
 {gen}the pearl dragon
 {m}жемчужного дракона
 %%%%
+{gen}the pearl dragon scales
+{f}чешуи жемчужного дракона
+%%%%
 {gen}the pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -74943,6 +76380,9 @@ your ynoxinuls
 %%%%
 {gen}the quicksilver dragon
 {m}ртутного дракона
+%%%%
+{gen}the quicksilver dragon scales
+{f}чешуи ртутного дракона
 %%%%
 {gen}the quicksilver dragons
 {pl}ртутных драконов
@@ -75367,6 +76807,9 @@ your ynoxinuls
 {gen}the shadow dragon
 {m}теневого дракона
 %%%%
+{gen}the shadow dragon scales
+{f}чешуи теневого дракона
+%%%%
 {gen}the shadow dragons
 {pl}теневых драконов
 %%%%
@@ -75583,6 +77026,9 @@ your ynoxinuls
 {gen}the steam dragon
 {m}парового дракона
 %%%%
+{gen}the steam dragon scales
+{f}чешуи парового дракона
+%%%%
 {gen}the steam dragons
 {pl}паровых драконов
 %%%%
@@ -75601,6 +77047,9 @@ your ynoxinuls
 {gen}the storm dragon
 {m}грозового дракона
 %%%%
+{gen}the storm dragon scales
+{f}чешуи грозового дракона
+%%%%
 {gen}the storm dragons
 {pl}грозовых драконов
 %%%%
@@ -75615,6 +77064,9 @@ your ynoxinuls
 %%%%
 {gen}the sun demons
 {pl}солнечных демонов
+%%%%
+{gen}the swamp dragon scales
+{f}чешуи болотного дракона
 %%%%
 {gen}the talisman of death
 {m}талисмана смерти
@@ -75720,6 +77172,12 @@ your ynoxinuls
 %%%%
 {gen}the troll
 {m}тролля
+%%%%
+{gen}the troll leather armour
+{m}доспеха из кожи тролля
+%%%%
+{gen}the troll leather armours
+{pl}доспехов из кожи тролля
 %%%%
 {gen}the trolls
 {pl}троллей
@@ -76044,6 +77502,12 @@ your ynoxinuls
 %%%%
 {gen}troll
 {m}тролля
+%%%%
+{gen}troll leather armour
+{m}доспеха из кожи тролля
+%%%%
+{gen}troll leather armours
+{pl}доспехов из кожи тролля
 %%%%
 {gen}trolls
 {pl}троллей
@@ -76662,6 +78126,9 @@ your ynoxinuls
 %%%%
 {gen}your acid dragon
 {m}кислотного дракона
+%%%%
+{gen}your acid dragon scales
+{f}чешуи кислотного дракона
 %%%%
 {gen}your acid dragons
 {pl}кислотных драконов
@@ -77596,6 +79063,12 @@ your ynoxinuls
 {gen}your electric golems
 {pl}электрических големов
 %%%%
+{gen}your eleionoma
+{f}элеиономы
+%%%%
+{gen}your eleionomae
+{pl}элеионом
+%%%%
 {gen}your elephant
 {m}слона
 %%%%
@@ -77662,8 +79135,17 @@ your ynoxinuls
 {gen}your fauns
 {pl}фавнов
 %%%%
+{gen}your fenstrider witch
+{f}болотной ведьмы
+%%%%
+{gen}your fenstrider witches
+{pl}болотных ведьм
+%%%%
 {gen}your fire dragon
 {m}огненного дракона
+%%%%
+{gen}your fire dragon scales
+{f}чешуи огненного дракона
 %%%%
 {gen}your fire dragons
 {pl}огненных драконов
@@ -77790,6 +79272,9 @@ your ynoxinuls
 %%%%
 {gen}your golden dragon
 {m}золотого дракона
+%%%%
+{gen}your golden dragon scales
+{f}чешуи золотого дракона
 %%%%
 {gen}your golden dragons
 {pl}золотых драконов
@@ -77958,6 +79443,9 @@ your ynoxinuls
 %%%%
 {gen}your ice dragon
 {m}ледяного дракона
+%%%%
+{gen}your ice dragon scales
+{f}чешуи ледяного дракона
 %%%%
 {gen}your ice dragons
 {pl}ледяных драконов
@@ -78385,6 +79873,9 @@ your ynoxinuls
 {gen}your pearl dragon
 {m}жемчужного дракона
 %%%%
+{gen}your pearl dragon scales
+{f}чешуи жемчужного дракона
+%%%%
 {gen}your pearl dragons
 {pl}жемчужных драконов
 %%%%
@@ -78570,6 +80061,9 @@ your ynoxinuls
 %%%%
 {gen}your quicksilver dragon
 {m}ртутного дракона
+%%%%
+{gen}your quicksilver dragon scales
+{f}чешуи ртутного дракона
 %%%%
 {gen}your quicksilver dragons
 {pl}ртутных драконов
@@ -78994,6 +80488,9 @@ your ynoxinuls
 {gen}your shadow dragon
 {m}теневого дракона
 %%%%
+{gen}your shadow dragon scales
+{f}чешуи теневого дракона
+%%%%
 {gen}your shadow dragons
 {pl}теневых драконов
 %%%%
@@ -79210,6 +80707,9 @@ your ynoxinuls
 {gen}your steam dragon
 {m}парового дракона
 %%%%
+{gen}your steam dragon scales
+{f}чешуи парового дракона
+%%%%
 {gen}your steam dragons
 {pl}паровых драконов
 %%%%
@@ -79228,6 +80728,9 @@ your ynoxinuls
 {gen}your storm dragon
 {m}грозового дракона
 %%%%
+{gen}your storm dragon scales
+{f}чешуи грозового дракона
+%%%%
 {gen}your storm dragons
 {pl}грозовых драконов
 %%%%
@@ -79242,6 +80745,9 @@ your ynoxinuls
 %%%%
 {gen}your sun demons
 {pl}солнечных демонов
+%%%%
+{gen}your swamp dragon scales
+{f}чешуи болотного дракона
 %%%%
 {gen}your talisman of death
 {m}талисмана смерти
@@ -79347,6 +80853,12 @@ your ynoxinuls
 %%%%
 {gen}your troll
 {m}тролля
+%%%%
+{gen}your troll leather armour
+{m}доспеха из кожи тролля
+%%%%
+{gen}your troll leather armours
+{pl}доспехов из кожи тролля
 %%%%
 {gen}your trolls
 {pl}троллей
@@ -79782,6 +81294,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ acid blobs
 @num@ кислотными сгустками
+%%%%
+{ins_few}@num@ acid dragon scales
+@num@ чешуями кислотного дракона
 %%%%
 {ins_few}@num@ acid dragons
 @num@ кислотными драконами
@@ -80254,6 +81769,9 @@ your ynoxinuls
 {ins_few}@num@ electric golems
 @num@ электрическими големами
 %%%%
+{ins_few}@num@ eleionomae
+@num@ элеиономами
+%%%%
 {ins_few}@num@ elephants
 @num@ слонами
 %%%%
@@ -80286,6 +81804,12 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ fauns
 @num@ фавнами
+%%%%
+{ins_few}@num@ fenstrider witches
+@num@ болотными ведьмами
+%%%%
+{ins_few}@num@ fire dragon scales
+@num@ чешуями огненного дракона
 %%%%
 {ins_few}@num@ fire dragons
 @num@ огненными драконами
@@ -80349,6 +81873,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ gold pieces
 @num@ золотыми монетами
+%%%%
+{ins_few}@num@ golden dragon scales
+@num@ чешуями золотого дракона
 %%%%
 {ins_few}@num@ golden dragons
 @num@ золотыми драконами
@@ -80433,6 +81960,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ ice devils
 @num@ ледяными дьяволами
+%%%%
+{ins_few}@num@ ice dragon scales
+@num@ чешуями ледяного дракона
 %%%%
 {ins_few}@num@ ice dragons
 @num@ ледяными драконами
@@ -80650,6 +82180,9 @@ your ynoxinuls
 {ins_few}@num@ palentongas
 @num@ палентонгами
 %%%%
+{ins_few}@num@ pearl dragon scales
+@num@ чешуями жемчужного дракона
+%%%%
 {ins_few}@num@ pearl dragons
 @num@ жемчужными драконами
 %%%%
@@ -80742,6 +82275,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ quick blades
 @num@ быстрыми клинками
+%%%%
+{ins_few}@num@ quicksilver dragon scales
+@num@ чешуями ртутного дракона
 %%%%
 {ins_few}@num@ quicksilver dragons
 @num@ ртутными драконами
@@ -80956,6 +82492,9 @@ your ynoxinuls
 {ins_few}@num@ serpent talismans
 @num@ талисманами змея
 %%%%
+{ins_few}@num@ shadow dragon scales
+@num@ чешуями теневого дракона
+%%%%
 {ins_few}@num@ shadow dragons
 @num@ теневыми драконами
 %%%%
@@ -81064,6 +82603,9 @@ your ynoxinuls
 {ins_few}@num@ staves of necromancy
 @num@ посохами некромантии
 %%%%
+{ins_few}@num@ steam dragon scales
+@num@ чешуями парового дракона
+%%%%
 {ins_few}@num@ steam dragons
 @num@ паровыми драконами
 %%%%
@@ -81073,6 +82615,9 @@ your ynoxinuls
 {ins_few}@num@ stones
 @num@ камнями
 %%%%
+{ins_few}@num@ storm dragon scales
+@num@ чешуями грозового дракона
+%%%%
 {ins_few}@num@ storm dragons
 @num@ грозовыми драконами
 %%%%
@@ -81081,6 +82626,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ sun demons
 @num@ солнечными демонами
+%%%%
+{ins_few}@num@ swamp dragon scales
+@num@ чешуями болотного дракона
 %%%%
 {ins_few}@num@ talismans of death
 @num@ талисманами смерти
@@ -81135,6 +82683,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ trishulas
 @num@ тришулами
+%%%%
+{ins_few}@num@ troll leather armours
+@num@ доспехами из кожи тролля
 %%%%
 {ins_few}@num@ trolls
 @num@ троллями
@@ -81447,6 +82998,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ acid blobs
 @num@ кислотными сгустками
+%%%%
+{ins_many}@num@ acid dragon scales
+@num@ чешуями кислотного дракона
 %%%%
 {ins_many}@num@ acid dragons
 @num@ кислотными драконами
@@ -81919,6 +83473,9 @@ your ynoxinuls
 {ins_many}@num@ electric golems
 @num@ электрическими големами
 %%%%
+{ins_many}@num@ eleionomae
+@num@ элеиономами
+%%%%
 {ins_many}@num@ elephants
 @num@ слонами
 %%%%
@@ -81951,6 +83508,12 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ fauns
 @num@ фавнами
+%%%%
+{ins_many}@num@ fenstrider witches
+@num@ болотными ведьмами
+%%%%
+{ins_many}@num@ fire dragon scales
+@num@ чешуями огненного дракона
 %%%%
 {ins_many}@num@ fire dragons
 @num@ огненными драконами
@@ -82014,6 +83577,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ gold pieces
 @num@ золотыми монетами
+%%%%
+{ins_many}@num@ golden dragon scales
+@num@ чешуями золотого дракона
 %%%%
 {ins_many}@num@ golden dragons
 @num@ золотыми драконами
@@ -82098,6 +83664,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ ice devils
 @num@ ледяными дьяволами
+%%%%
+{ins_many}@num@ ice dragon scales
+@num@ чешуями ледяного дракона
 %%%%
 {ins_many}@num@ ice dragons
 @num@ ледяными драконами
@@ -82315,6 +83884,9 @@ your ynoxinuls
 {ins_many}@num@ palentongas
 @num@ палентонгами
 %%%%
+{ins_many}@num@ pearl dragon scales
+@num@ чешуями жемчужного дракона
+%%%%
 {ins_many}@num@ pearl dragons
 @num@ жемчужными драконами
 %%%%
@@ -82407,6 +83979,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ quick blades
 @num@ быстрыми клинками
+%%%%
+{ins_many}@num@ quicksilver dragon scales
+@num@ чешуями ртутного дракона
 %%%%
 {ins_many}@num@ quicksilver dragons
 @num@ ртутными драконами
@@ -82621,6 +84196,9 @@ your ynoxinuls
 {ins_many}@num@ serpent talismans
 @num@ талисманами змея
 %%%%
+{ins_many}@num@ shadow dragon scales
+@num@ чешуями теневого дракона
+%%%%
 {ins_many}@num@ shadow dragons
 @num@ теневыми драконами
 %%%%
@@ -82729,6 +84307,9 @@ your ynoxinuls
 {ins_many}@num@ staves of necromancy
 @num@ посохами некромантии
 %%%%
+{ins_many}@num@ steam dragon scales
+@num@ чешуями парового дракона
+%%%%
 {ins_many}@num@ steam dragons
 @num@ паровыми драконами
 %%%%
@@ -82738,6 +84319,9 @@ your ynoxinuls
 {ins_many}@num@ stones
 @num@ камнями
 %%%%
+{ins_many}@num@ storm dragon scales
+@num@ чешуями грозового дракона
+%%%%
 {ins_many}@num@ storm dragons
 @num@ грозовыми драконами
 %%%%
@@ -82746,6 +84330,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ sun demons
 @num@ солнечными демонами
+%%%%
+{ins_many}@num@ swamp dragon scales
+@num@ чешуями болотного дракона
 %%%%
 {ins_many}@num@ talismans of death
 @num@ талисманами смерти
@@ -82800,6 +84387,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ trishulas
 @num@ тришулами
+%%%%
+{ins_many}@num@ troll leather armours
+@num@ доспехами из кожи тролля
 %%%%
 {ins_many}@num@ trolls
 @num@ троллями
@@ -83112,6 +84702,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ acid blobs
 @num@ кислотным сгустком
+%%%%
+{ins_one}@num@ acid dragon scales
+@num@ чешуёй кислотного дракона
 %%%%
 {ins_one}@num@ acid dragons
 @num@ кислотным драконом
@@ -83584,6 +85177,9 @@ your ynoxinuls
 {ins_one}@num@ electric golems
 @num@ электрическим големом
 %%%%
+{ins_one}@num@ eleionomae
+@num@ элеиономой
+%%%%
 {ins_one}@num@ elephants
 @num@ слоном
 %%%%
@@ -83616,6 +85212,12 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ fauns
 @num@ фавном
+%%%%
+{ins_one}@num@ fenstrider witches
+@num@ болотной ведьмой
+%%%%
+{ins_one}@num@ fire dragon scales
+@num@ чешуёй огненного дракона
 %%%%
 {ins_one}@num@ fire dragons
 @num@ огненным драконом
@@ -83679,6 +85281,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ gold pieces
 @num@ золотой монетой
+%%%%
+{ins_one}@num@ golden dragon scales
+@num@ чешуёй золотого дракона
 %%%%
 {ins_one}@num@ golden dragons
 @num@ золотым драконом
@@ -83763,6 +85368,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ ice devils
 @num@ ледяным дьяволом
+%%%%
+{ins_one}@num@ ice dragon scales
+@num@ чешуёй ледяного дракона
 %%%%
 {ins_one}@num@ ice dragons
 @num@ ледяным драконом
@@ -83980,6 +85588,9 @@ your ynoxinuls
 {ins_one}@num@ palentongas
 @num@ палентонгой
 %%%%
+{ins_one}@num@ pearl dragon scales
+@num@ чешуёй жемчужного дракона
+%%%%
 {ins_one}@num@ pearl dragons
 @num@ жемчужным драконом
 %%%%
@@ -84072,6 +85683,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ quick blades
 @num@ быстрым клинком
+%%%%
+{ins_one}@num@ quicksilver dragon scales
+@num@ чешуёй ртутного дракона
 %%%%
 {ins_one}@num@ quicksilver dragons
 @num@ ртутным драконом
@@ -84286,6 +85900,9 @@ your ynoxinuls
 {ins_one}@num@ serpent talismans
 @num@ талисманом змея
 %%%%
+{ins_one}@num@ shadow dragon scales
+@num@ чешуёй теневого дракона
+%%%%
 {ins_one}@num@ shadow dragons
 @num@ теневым драконом
 %%%%
@@ -84394,6 +86011,9 @@ your ynoxinuls
 {ins_one}@num@ staves of necromancy
 @num@ посохом некромантии
 %%%%
+{ins_one}@num@ steam dragon scales
+@num@ чешуёй парового дракона
+%%%%
 {ins_one}@num@ steam dragons
 @num@ паровым драконом
 %%%%
@@ -84403,6 +86023,9 @@ your ynoxinuls
 {ins_one}@num@ stones
 @num@ камнем
 %%%%
+{ins_one}@num@ storm dragon scales
+@num@ чешуёй грозового дракона
+%%%%
 {ins_one}@num@ storm dragons
 @num@ грозовым драконом
 %%%%
@@ -84411,6 +86034,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ sun demons
 @num@ солнечным демоном
+%%%%
+{ins_one}@num@ swamp dragon scales
+@num@ чешуёй болотного дракона
 %%%%
 {ins_one}@num@ talismans of death
 @num@ талисманом смерти
@@ -84465,6 +86091,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ trishulas
 @num@ тришулой
+%%%%
+{ins_one}@num@ troll leather armours
+@num@ доспехом из кожи тролля
 %%%%
 {ins_one}@num@ trolls
 @num@ троллем
@@ -85141,6 +86770,9 @@ your ynoxinuls
 {ins}a acid dragon
 {m}кислотным драконом
 %%%%
+{ins}a acid dragon scales
+{f}чешуёй кислотного дракона
+%%%%
 {ins}a adder
 {f}гадюкой
 %%%%
@@ -85609,6 +87241,9 @@ your ynoxinuls
 {ins}a electric golem
 {m}электрическим големом
 %%%%
+{ins}a eleionoma
+{f}элеиономой
+%%%%
 {ins}a elephant
 {m}слоном
 %%%%
@@ -85642,8 +87277,14 @@ your ynoxinuls
 {ins}a faun
 {m}фавном
 %%%%
+{ins}a fenstrider witch
+{f}болотной ведьмой
+%%%%
 {ins}a fire dragon
 {m}огненным драконом
+%%%%
+{ins}a fire dragon scales
+{f}чешуёй огненного дракона
 %%%%
 {ins}a fire giant
 {m}огненным великаном
@@ -85707,6 +87348,9 @@ your ynoxinuls
 %%%%
 {ins}a golden dragon
 {m}золотым драконом
+%%%%
+{ins}a golden dragon scales
+{f}чешуёй золотого дракона
 %%%%
 {ins}a golden eye
 {n}золотым оком
@@ -85791,6 +87435,9 @@ your ynoxinuls
 %%%%
 {ins}a ice dragon
 {m}ледяным драконом
+%%%%
+{ins}a ice dragon scales
+{f}чешуёй ледяного дракона
 %%%%
 {ins}a iguana
 {f}игуаной
@@ -86008,6 +87655,9 @@ your ynoxinuls
 {ins}a pearl dragon
 {m}жемчужным драконом
 %%%%
+{ins}a pearl dragon scales
+{f}чешуёй жемчужного дракона
+%%%%
 {ins}a phantom
 {m}фантомом
 %%%%
@@ -86100,6 +87750,9 @@ your ynoxinuls
 %%%%
 {ins}a quicksilver dragon
 {m}ртутным драконом
+%%%%
+{ins}a quicksilver dragon scales
+{f}чешуёй ртутного дракона
 %%%%
 {ins}a quill talisman
 {m}талисманом игл
@@ -86314,6 +87967,9 @@ your ynoxinuls
 {ins}a shadow dragon
 {m}теневым драконом
 %%%%
+{ins}a shadow dragon scales
+{f}чешуёй теневого дракона
+%%%%
 {ins}a shadow imp
 {m}теневым бесом
 %%%%
@@ -86422,6 +88078,9 @@ your ynoxinuls
 {ins}a steam dragon
 {m}паровым драконом
 %%%%
+{ins}a steam dragon scales
+{f}чешуёй парового дракона
+%%%%
 {ins}a stone
 {m}камнем
 %%%%
@@ -86431,11 +88090,17 @@ your ynoxinuls
 {ins}a storm dragon
 {m}грозовым драконом
 %%%%
+{ins}a storm dragon scales
+{f}чешуёй грозового дракона
+%%%%
 {ins}a storm talisman
 {m}талисманом бури
 %%%%
 {ins}a sun demon
 {m}солнечным демоном
+%%%%
+{ins}a swamp dragon scales
+{f}чешуёй болотного дракона
 %%%%
 {ins}a talisman of death
 {m}талисманом смерти
@@ -86493,6 +88158,9 @@ your ynoxinuls
 %%%%
 {ins}a troll
 {m}троллем
+%%%%
+{ins}a troll leather armour
+{m}доспехом из кожи тролля
 %%%%
 {ins}a two-headed ogre
 {m}двухголовым огром
@@ -86625,6 +88293,9 @@ your ynoxinuls
 %%%%
 {ins}acid dragon
 {m}кислотным драконом
+%%%%
+{ins}acid dragon scales
+{f}чешуёй кислотного дракона
 %%%%
 {ins}acid dragons
 {pl}кислотными драконами
@@ -86889,6 +88560,9 @@ your ynoxinuls
 %%%%
 {ins}an acid dragon
 {m}кислотным драконом
+%%%%
+{ins}an acid dragon scales
+{f}чешуёй кислотного дракона
 %%%%
 {ins}an adder
 {f}гадюкой
@@ -87358,6 +89032,9 @@ your ynoxinuls
 {ins}an electric golem
 {m}электрическим големом
 %%%%
+{ins}an eleionoma
+{f}элеиономой
+%%%%
 {ins}an elephant
 {m}слоном
 %%%%
@@ -87391,8 +89068,14 @@ your ynoxinuls
 {ins}an faun
 {m}фавном
 %%%%
+{ins}an fenstrider witch
+{f}болотной ведьмой
+%%%%
 {ins}an fire dragon
 {m}огненным драконом
+%%%%
+{ins}an fire dragon scales
+{f}чешуёй огненного дракона
 %%%%
 {ins}an fire giant
 {m}огненным великаном
@@ -87456,6 +89139,9 @@ your ynoxinuls
 %%%%
 {ins}an golden dragon
 {m}золотым драконом
+%%%%
+{ins}an golden dragon scales
+{f}чешуёй золотого дракона
 %%%%
 {ins}an golden eye
 {n}золотым оком
@@ -87540,6 +89226,9 @@ your ynoxinuls
 %%%%
 {ins}an ice dragon
 {m}ледяным драконом
+%%%%
+{ins}an ice dragon scales
+{f}чешуёй ледяного дракона
 %%%%
 {ins}an iguana
 {f}игуаной
@@ -87757,6 +89446,9 @@ your ynoxinuls
 {ins}an pearl dragon
 {m}жемчужным драконом
 %%%%
+{ins}an pearl dragon scales
+{f}чешуёй жемчужного дракона
+%%%%
 {ins}an phantom
 {m}фантомом
 %%%%
@@ -87849,6 +89541,9 @@ your ynoxinuls
 %%%%
 {ins}an quicksilver dragon
 {m}ртутным драконом
+%%%%
+{ins}an quicksilver dragon scales
+{f}чешуёй ртутного дракона
 %%%%
 {ins}an quill talisman
 {m}талисманом игл
@@ -88063,6 +89758,9 @@ your ynoxinuls
 {ins}an shadow dragon
 {m}теневым драконом
 %%%%
+{ins}an shadow dragon scales
+{f}чешуёй теневого дракона
+%%%%
 {ins}an shadow imp
 {m}теневым бесом
 %%%%
@@ -88171,6 +89869,9 @@ your ynoxinuls
 {ins}an steam dragon
 {m}паровым драконом
 %%%%
+{ins}an steam dragon scales
+{f}чешуёй парового дракона
+%%%%
 {ins}an stone
 {m}камнем
 %%%%
@@ -88180,11 +89881,17 @@ your ynoxinuls
 {ins}an storm dragon
 {m}грозовым драконом
 %%%%
+{ins}an storm dragon scales
+{f}чешуёй грозового дракона
+%%%%
 {ins}an storm talisman
 {m}талисманом бури
 %%%%
 {ins}an sun demon
 {m}солнечным демоном
+%%%%
+{ins}an swamp dragon scales
+{f}чешуёй болотного дракона
 %%%%
 {ins}an talisman of death
 {m}талисманом смерти
@@ -88242,6 +89949,9 @@ your ynoxinuls
 %%%%
 {ins}an troll
 {m}троллем
+%%%%
+{ins}an troll leather armour
+{m}доспехом из кожи тролля
 %%%%
 {ins}an two-headed ogre
 {m}двухголовым огром
@@ -89224,6 +90934,12 @@ your ynoxinuls
 {ins}electric golems
 {pl}электрическими големами
 %%%%
+{ins}eleionoma
+{f}элеиономой
+%%%%
+{ins}eleionomae
+{pl}элеиономами
+%%%%
 {ins}elephant
 {m}слоном
 %%%%
@@ -89290,8 +91006,17 @@ your ynoxinuls
 {ins}fauns
 {pl}фавнами
 %%%%
+{ins}fenstrider witch
+{f}болотной ведьмой
+%%%%
+{ins}fenstrider witches
+{pl}болотными ведьмами
+%%%%
 {ins}fire dragon
 {m}огненным драконом
+%%%%
+{ins}fire dragon scales
+{f}чешуёй огненного дракона
 %%%%
 {ins}fire dragons
 {pl}огненными драконами
@@ -89418,6 +91143,9 @@ your ynoxinuls
 %%%%
 {ins}golden dragon
 {m}золотым драконом
+%%%%
+{ins}golden dragon scales
+{f}чешуёй золотого дракона
 %%%%
 {ins}golden dragons
 {pl}золотыми драконами
@@ -89586,6 +91314,9 @@ your ynoxinuls
 %%%%
 {ins}ice dragon
 {m}ледяным драконом
+%%%%
+{ins}ice dragon scales
+{f}чешуёй ледяного дракона
 %%%%
 {ins}ice dragons
 {pl}ледяными драконами
@@ -90013,6 +91744,9 @@ your ynoxinuls
 {ins}pearl dragon
 {m}жемчужным драконом
 %%%%
+{ins}pearl dragon scales
+{f}чешуёй жемчужного дракона
+%%%%
 {ins}pearl dragons
 {pl}жемчужными драконами
 %%%%
@@ -90198,6 +91932,9 @@ your ynoxinuls
 %%%%
 {ins}quicksilver dragon
 {m}ртутным драконом
+%%%%
+{ins}quicksilver dragon scales
+{f}чешуёй ртутного дракона
 %%%%
 {ins}quicksilver dragons
 {pl}ртутными драконами
@@ -90622,6 +92359,9 @@ your ynoxinuls
 {ins}shadow dragon
 {m}теневым драконом
 %%%%
+{ins}shadow dragon scales
+{f}чешуёй теневого дракона
+%%%%
 {ins}shadow dragons
 {pl}теневыми драконами
 %%%%
@@ -90838,6 +92578,9 @@ your ynoxinuls
 {ins}steam dragon
 {m}паровым драконом
 %%%%
+{ins}steam dragon scales
+{f}чешуёй парового дракона
+%%%%
 {ins}steam dragons
 {pl}паровыми драконами
 %%%%
@@ -90856,6 +92599,9 @@ your ynoxinuls
 {ins}storm dragon
 {m}грозовым драконом
 %%%%
+{ins}storm dragon scales
+{f}чешуёй грозового дракона
+%%%%
 {ins}storm dragons
 {pl}грозовыми драконами
 %%%%
@@ -90870,6 +92616,9 @@ your ynoxinuls
 %%%%
 {ins}sun demons
 {pl}солнечными демонами
+%%%%
+{ins}swamp dragon scales
+{f}чешуёй болотного дракона
 %%%%
 {ins}talisman of death
 {m}талисманом смерти
@@ -91269,6 +93018,9 @@ your ynoxinuls
 %%%%
 {ins}the acid dragon
 {m}кислотным драконом
+%%%%
+{ins}the acid dragon scales
+{f}чешуёй кислотного дракона
 %%%%
 {ins}the acid dragons
 {pl}кислотными драконами
@@ -92203,6 +93955,12 @@ your ynoxinuls
 {ins}the electric golems
 {pl}электрическими големами
 %%%%
+{ins}the eleionoma
+{f}элеиономой
+%%%%
+{ins}the eleionomae
+{pl}элеиономами
+%%%%
 {ins}the elephant
 {m}слоном
 %%%%
@@ -92269,8 +94027,17 @@ your ynoxinuls
 {ins}the fauns
 {pl}фавнами
 %%%%
+{ins}the fenstrider witch
+{f}болотной ведьмой
+%%%%
+{ins}the fenstrider witches
+{pl}болотными ведьмами
+%%%%
 {ins}the fire dragon
 {m}огненным драконом
+%%%%
+{ins}the fire dragon scales
+{f}чешуёй огненного дракона
 %%%%
 {ins}the fire dragons
 {pl}огненными драконами
@@ -92397,6 +94164,9 @@ your ynoxinuls
 %%%%
 {ins}the golden dragon
 {m}золотым драконом
+%%%%
+{ins}the golden dragon scales
+{f}чешуёй золотого дракона
 %%%%
 {ins}the golden dragons
 {pl}золотыми драконами
@@ -92565,6 +94335,9 @@ your ynoxinuls
 %%%%
 {ins}the ice dragon
 {m}ледяным драконом
+%%%%
+{ins}the ice dragon scales
+{f}чешуёй ледяного дракона
 %%%%
 {ins}the ice dragons
 {pl}ледяными драконами
@@ -92992,6 +94765,9 @@ your ynoxinuls
 {ins}the pearl dragon
 {m}жемчужным драконом
 %%%%
+{ins}the pearl dragon scales
+{f}чешуёй жемчужного дракона
+%%%%
 {ins}the pearl dragons
 {pl}жемчужными драконами
 %%%%
@@ -93177,6 +94953,9 @@ your ynoxinuls
 %%%%
 {ins}the quicksilver dragon
 {m}ртутным драконом
+%%%%
+{ins}the quicksilver dragon scales
+{f}чешуёй ртутного дракона
 %%%%
 {ins}the quicksilver dragons
 {pl}ртутными драконами
@@ -93601,6 +95380,9 @@ your ynoxinuls
 {ins}the shadow dragon
 {m}теневым драконом
 %%%%
+{ins}the shadow dragon scales
+{f}чешуёй теневого дракона
+%%%%
 {ins}the shadow dragons
 {pl}теневыми драконами
 %%%%
@@ -93817,6 +95599,9 @@ your ynoxinuls
 {ins}the steam dragon
 {m}паровым драконом
 %%%%
+{ins}the steam dragon scales
+{f}чешуёй парового дракона
+%%%%
 {ins}the steam dragons
 {pl}паровыми драконами
 %%%%
@@ -93835,6 +95620,9 @@ your ynoxinuls
 {ins}the storm dragon
 {m}грозовым драконом
 %%%%
+{ins}the storm dragon scales
+{f}чешуёй грозового дракона
+%%%%
 {ins}the storm dragons
 {pl}грозовыми драконами
 %%%%
@@ -93849,6 +95637,9 @@ your ynoxinuls
 %%%%
 {ins}the sun demons
 {pl}солнечными демонами
+%%%%
+{ins}the swamp dragon scales
+{f}чешуёй болотного дракона
 %%%%
 {ins}the talisman of death
 {m}талисманом смерти
@@ -93954,6 +95745,12 @@ your ynoxinuls
 %%%%
 {ins}the troll
 {m}троллем
+%%%%
+{ins}the troll leather armour
+{m}доспехом из кожи тролля
+%%%%
+{ins}the troll leather armours
+{pl}доспехами из кожи тролля
 %%%%
 {ins}the trolls
 {pl}троллями
@@ -94278,6 +96075,12 @@ your ynoxinuls
 %%%%
 {ins}troll
 {m}троллем
+%%%%
+{ins}troll leather armour
+{m}доспехом из кожи тролля
+%%%%
+{ins}troll leather armours
+{pl}доспехами из кожи тролля
 %%%%
 {ins}trolls
 {pl}троллями
@@ -94896,6 +96699,9 @@ your ynoxinuls
 %%%%
 {ins}your acid dragon
 {m}кислотным драконом
+%%%%
+{ins}your acid dragon scales
+{f}чешуёй кислотного дракона
 %%%%
 {ins}your acid dragons
 {pl}кислотными драконами
@@ -95830,6 +97636,12 @@ your ynoxinuls
 {ins}your electric golems
 {pl}электрическими големами
 %%%%
+{ins}your eleionoma
+{f}элеиономой
+%%%%
+{ins}your eleionomae
+{pl}элеиономами
+%%%%
 {ins}your elephant
 {m}слоном
 %%%%
@@ -95896,8 +97708,17 @@ your ynoxinuls
 {ins}your fauns
 {pl}фавнами
 %%%%
+{ins}your fenstrider witch
+{f}болотной ведьмой
+%%%%
+{ins}your fenstrider witches
+{pl}болотными ведьмами
+%%%%
 {ins}your fire dragon
 {m}огненным драконом
+%%%%
+{ins}your fire dragon scales
+{f}чешуёй огненного дракона
 %%%%
 {ins}your fire dragons
 {pl}огненными драконами
@@ -96024,6 +97845,9 @@ your ynoxinuls
 %%%%
 {ins}your golden dragon
 {m}золотым драконом
+%%%%
+{ins}your golden dragon scales
+{f}чешуёй золотого дракона
 %%%%
 {ins}your golden dragons
 {pl}золотыми драконами
@@ -96192,6 +98016,9 @@ your ynoxinuls
 %%%%
 {ins}your ice dragon
 {m}ледяным драконом
+%%%%
+{ins}your ice dragon scales
+{f}чешуёй ледяного дракона
 %%%%
 {ins}your ice dragons
 {pl}ледяными драконами
@@ -96619,6 +98446,9 @@ your ynoxinuls
 {ins}your pearl dragon
 {m}жемчужным драконом
 %%%%
+{ins}your pearl dragon scales
+{f}чешуёй жемчужного дракона
+%%%%
 {ins}your pearl dragons
 {pl}жемчужными драконами
 %%%%
@@ -96804,6 +98634,9 @@ your ynoxinuls
 %%%%
 {ins}your quicksilver dragon
 {m}ртутным драконом
+%%%%
+{ins}your quicksilver dragon scales
+{f}чешуёй ртутного дракона
 %%%%
 {ins}your quicksilver dragons
 {pl}ртутными драконами
@@ -97228,6 +99061,9 @@ your ynoxinuls
 {ins}your shadow dragon
 {m}теневым драконом
 %%%%
+{ins}your shadow dragon scales
+{f}чешуёй теневого дракона
+%%%%
 {ins}your shadow dragons
 {pl}теневыми драконами
 %%%%
@@ -97444,6 +99280,9 @@ your ynoxinuls
 {ins}your steam dragon
 {m}паровым драконом
 %%%%
+{ins}your steam dragon scales
+{f}чешуёй парового дракона
+%%%%
 {ins}your steam dragons
 {pl}паровыми драконами
 %%%%
@@ -97462,6 +99301,9 @@ your ynoxinuls
 {ins}your storm dragon
 {m}грозовым драконом
 %%%%
+{ins}your storm dragon scales
+{f}чешуёй грозового дракона
+%%%%
 {ins}your storm dragons
 {pl}грозовыми драконами
 %%%%
@@ -97476,6 +99318,9 @@ your ynoxinuls
 %%%%
 {ins}your sun demons
 {pl}солнечными демонами
+%%%%
+{ins}your swamp dragon scales
+{f}чешуёй болотного дракона
 %%%%
 {ins}your talisman of death
 {m}талисманом смерти
@@ -97581,6 +99426,12 @@ your ynoxinuls
 %%%%
 {ins}your troll
 {m}троллем
+%%%%
+{ins}your troll leather armour
+{m}доспехом из кожи тролля
+%%%%
+{ins}your troll leather armours
+{pl}доспехами из кожи тролля
 %%%%
 {ins}your trolls
 {pl}троллями
@@ -98016,6 +99867,9 @@ your ynoxinuls
 %%%%
 {many}@num@ acid blobs
 @num@ кислотных сгустков
+%%%%
+{many}@num@ acid dragon scales
+@num@ чешуй кислотного дракона
 %%%%
 {many}@num@ acid dragons
 @num@ кислотных драконов
@@ -98488,6 +100342,9 @@ your ynoxinuls
 {many}@num@ electric golems
 @num@ электрических големов
 %%%%
+{many}@num@ eleionomae
+@num@ элеионом
+%%%%
 {many}@num@ elephants
 @num@ слонов
 %%%%
@@ -98520,6 +100377,12 @@ your ynoxinuls
 %%%%
 {many}@num@ fauns
 @num@ фавнов
+%%%%
+{many}@num@ fenstrider witches
+@num@ болотных ведьм
+%%%%
+{many}@num@ fire dragon scales
+@num@ чешуй огненного дракона
 %%%%
 {many}@num@ fire dragons
 @num@ огненных драконов
@@ -98583,6 +100446,9 @@ your ynoxinuls
 %%%%
 {many}@num@ gold pieces
 @num@ золотых монет
+%%%%
+{many}@num@ golden dragon scales
+@num@ чешуй золотого дракона
 %%%%
 {many}@num@ golden dragons
 @num@ золотых драконов
@@ -98667,6 +100533,9 @@ your ynoxinuls
 %%%%
 {many}@num@ ice devils
 @num@ ледяных дьяволов
+%%%%
+{many}@num@ ice dragon scales
+@num@ чешуй ледяного дракона
 %%%%
 {many}@num@ ice dragons
 @num@ ледяных драконов
@@ -98884,6 +100753,9 @@ your ynoxinuls
 {many}@num@ palentongas
 @num@ палентонг
 %%%%
+{many}@num@ pearl dragon scales
+@num@ чешуй жемчужного дракона
+%%%%
 {many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
@@ -98976,6 +100848,9 @@ your ynoxinuls
 %%%%
 {many}@num@ quick blades
 @num@ быстрых клинков
+%%%%
+{many}@num@ quicksilver dragon scales
+@num@ чешуй ртутного дракона
 %%%%
 {many}@num@ quicksilver dragons
 @num@ ртутных драконов
@@ -99190,6 +101065,9 @@ your ynoxinuls
 {many}@num@ serpent talismans
 @num@ талисманов змея
 %%%%
+{many}@num@ shadow dragon scales
+@num@ чешуй теневого дракона
+%%%%
 {many}@num@ shadow dragons
 @num@ теневых драконов
 %%%%
@@ -99298,6 +101176,9 @@ your ynoxinuls
 {many}@num@ staves of necromancy
 @num@ посохов некромантии
 %%%%
+{many}@num@ steam dragon scales
+@num@ чешуй парового дракона
+%%%%
 {many}@num@ steam dragons
 @num@ паровых драконов
 %%%%
@@ -99307,6 +101188,9 @@ your ynoxinuls
 {many}@num@ stones
 @num@ камней
 %%%%
+{many}@num@ storm dragon scales
+@num@ чешуй грозового дракона
+%%%%
 {many}@num@ storm dragons
 @num@ грозовых драконов
 %%%%
@@ -99315,6 +101199,9 @@ your ynoxinuls
 %%%%
 {many}@num@ sun demons
 @num@ солнечных демонов
+%%%%
+{many}@num@ swamp dragon scales
+@num@ чешуй болотного дракона
 %%%%
 {many}@num@ talismans of death
 @num@ талисманов смерти
@@ -99369,6 +101256,9 @@ your ynoxinuls
 %%%%
 {many}@num@ trishulas
 @num@ тришул
+%%%%
+{many}@num@ troll leather armours
+@num@ доспехов из кожи тролля
 %%%%
 {many}@num@ trolls
 @num@ троллей
@@ -100045,6 +101935,9 @@ your ynoxinuls
 {nom}a acid dragon
 {m}кислотный дракон
 %%%%
+{nom}a acid dragon scales
+{f}чешуя кислотного дракона
+%%%%
 {nom}a adder
 {f}гадюка
 %%%%
@@ -100513,6 +102406,9 @@ your ynoxinuls
 {nom}a electric golem
 {m}электрический голем
 %%%%
+{nom}a eleionoma
+{f}элеионома
+%%%%
 {nom}a elephant
 {m}слон
 %%%%
@@ -100546,8 +102442,14 @@ your ynoxinuls
 {nom}a faun
 {m}фавн
 %%%%
+{nom}a fenstrider witch
+{f}болотная ведьма
+%%%%
 {nom}a fire dragon
 {m}огненный дракон
+%%%%
+{nom}a fire dragon scales
+{f}чешуя огненного дракона
 %%%%
 {nom}a fire giant
 {m}огненный великан
@@ -100611,6 +102513,9 @@ your ynoxinuls
 %%%%
 {nom}a golden dragon
 {m}золотой дракон
+%%%%
+{nom}a golden dragon scales
+{f}чешуя золотого дракона
 %%%%
 {nom}a golden eye
 {n}золотое око
@@ -100695,6 +102600,9 @@ your ynoxinuls
 %%%%
 {nom}a ice dragon
 {m}ледяной дракон
+%%%%
+{nom}a ice dragon scales
+{f}чешуя ледяного дракона
 %%%%
 {nom}a iguana
 {f}игуана
@@ -100912,6 +102820,9 @@ your ynoxinuls
 {nom}a pearl dragon
 {m}жемчужный дракон
 %%%%
+{nom}a pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
 {nom}a phantom
 {m}фантом
 %%%%
@@ -101004,6 +102915,9 @@ your ynoxinuls
 %%%%
 {nom}a quicksilver dragon
 {m}ртутный дракон
+%%%%
+{nom}a quicksilver dragon scales
+{f}чешуя ртутного дракона
 %%%%
 {nom}a quill talisman
 {m}талисман игл
@@ -101218,6 +103132,9 @@ your ynoxinuls
 {nom}a shadow dragon
 {m}теневой дракон
 %%%%
+{nom}a shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
 {nom}a shadow imp
 {m}теневой бес
 %%%%
@@ -101326,6 +103243,9 @@ your ynoxinuls
 {nom}a steam dragon
 {m}паровой дракон
 %%%%
+{nom}a steam dragon scales
+{f}чешуя парового дракона
+%%%%
 {nom}a stone
 {m}камень
 %%%%
@@ -101335,11 +103255,17 @@ your ynoxinuls
 {nom}a storm dragon
 {m}грозовой дракон
 %%%%
+{nom}a storm dragon scales
+{f}чешуя грозового дракона
+%%%%
 {nom}a storm talisman
 {m}талисман бури
 %%%%
 {nom}a sun demon
 {m}солнечный демон
+%%%%
+{nom}a swamp dragon scales
+{f}чешуя болотного дракона
 %%%%
 {nom}a talisman of death
 {m}талисман смерти
@@ -101397,6 +103323,9 @@ your ynoxinuls
 %%%%
 {nom}a troll
 {m}тролль
+%%%%
+{nom}a troll leather armour
+{m}доспех из кожи тролля
 %%%%
 {nom}a two-headed ogre
 {m}двухголовый огр
@@ -101529,6 +103458,9 @@ your ynoxinuls
 %%%%
 {nom}acid dragon
 {m}кислотный дракон
+%%%%
+{nom}acid dragon scales
+{f}чешуя кислотного дракона
 %%%%
 {nom}acid dragons
 {pl}кислотные драконы
@@ -101793,6 +103725,9 @@ your ynoxinuls
 %%%%
 {nom}an acid dragon
 {m}кислотный дракон
+%%%%
+{nom}an acid dragon scales
+{f}чешуя кислотного дракона
 %%%%
 {nom}an adder
 {f}гадюка
@@ -102262,6 +104197,9 @@ your ynoxinuls
 {nom}an electric golem
 {m}электрический голем
 %%%%
+{nom}an eleionoma
+{f}элеионома
+%%%%
 {nom}an elephant
 {m}слон
 %%%%
@@ -102295,8 +104233,14 @@ your ynoxinuls
 {nom}an faun
 {m}фавн
 %%%%
+{nom}an fenstrider witch
+{f}болотная ведьма
+%%%%
 {nom}an fire dragon
 {m}огненный дракон
+%%%%
+{nom}an fire dragon scales
+{f}чешуя огненного дракона
 %%%%
 {nom}an fire giant
 {m}огненный великан
@@ -102360,6 +104304,9 @@ your ynoxinuls
 %%%%
 {nom}an golden dragon
 {m}золотой дракон
+%%%%
+{nom}an golden dragon scales
+{f}чешуя золотого дракона
 %%%%
 {nom}an golden eye
 {n}золотое око
@@ -102444,6 +104391,9 @@ your ynoxinuls
 %%%%
 {nom}an ice dragon
 {m}ледяной дракон
+%%%%
+{nom}an ice dragon scales
+{f}чешуя ледяного дракона
 %%%%
 {nom}an iguana
 {f}игуана
@@ -102661,6 +104611,9 @@ your ynoxinuls
 {nom}an pearl dragon
 {m}жемчужный дракон
 %%%%
+{nom}an pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
 {nom}an phantom
 {m}фантом
 %%%%
@@ -102753,6 +104706,9 @@ your ynoxinuls
 %%%%
 {nom}an quicksilver dragon
 {m}ртутный дракон
+%%%%
+{nom}an quicksilver dragon scales
+{f}чешуя ртутного дракона
 %%%%
 {nom}an quill talisman
 {m}талисман игл
@@ -102967,6 +104923,9 @@ your ynoxinuls
 {nom}an shadow dragon
 {m}теневой дракон
 %%%%
+{nom}an shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
 {nom}an shadow imp
 {m}теневой бес
 %%%%
@@ -103075,6 +105034,9 @@ your ynoxinuls
 {nom}an steam dragon
 {m}паровой дракон
 %%%%
+{nom}an steam dragon scales
+{f}чешуя парового дракона
+%%%%
 {nom}an stone
 {m}камень
 %%%%
@@ -103084,11 +105046,17 @@ your ynoxinuls
 {nom}an storm dragon
 {m}грозовой дракон
 %%%%
+{nom}an storm dragon scales
+{f}чешуя грозового дракона
+%%%%
 {nom}an storm talisman
 {m}талисман бури
 %%%%
 {nom}an sun demon
 {m}солнечный демон
+%%%%
+{nom}an swamp dragon scales
+{f}чешуя болотного дракона
 %%%%
 {nom}an talisman of death
 {m}талисман смерти
@@ -103146,6 +105114,9 @@ your ynoxinuls
 %%%%
 {nom}an troll
 {m}тролль
+%%%%
+{nom}an troll leather armour
+{m}доспех из кожи тролля
 %%%%
 {nom}an two-headed ogre
 {m}двухголовый огр
@@ -104128,6 +106099,12 @@ your ynoxinuls
 {nom}electric golems
 {pl}электрические големы
 %%%%
+{nom}eleionoma
+{f}элеионома
+%%%%
+{nom}eleionomae
+{pl}элеиономы
+%%%%
 {nom}elephant
 {m}слон
 %%%%
@@ -104194,8 +106171,17 @@ your ynoxinuls
 {nom}fauns
 {pl}фавны
 %%%%
+{nom}fenstrider witch
+{f}болотная ведьма
+%%%%
+{nom}fenstrider witches
+{pl}болотные ведьмы
+%%%%
 {nom}fire dragon
 {m}огненный дракон
+%%%%
+{nom}fire dragon scales
+{f}чешуя огненного дракона
 %%%%
 {nom}fire dragons
 {pl}огненные драконы
@@ -104322,6 +106308,9 @@ your ynoxinuls
 %%%%
 {nom}golden dragon
 {m}золотой дракон
+%%%%
+{nom}golden dragon scales
+{f}чешуя золотого дракона
 %%%%
 {nom}golden dragons
 {pl}золотые драконы
@@ -104490,6 +106479,9 @@ your ynoxinuls
 %%%%
 {nom}ice dragon
 {m}ледяной дракон
+%%%%
+{nom}ice dragon scales
+{f}чешуя ледяного дракона
 %%%%
 {nom}ice dragons
 {pl}ледяные драконы
@@ -104917,6 +106909,9 @@ your ynoxinuls
 {nom}pearl dragon
 {m}жемчужный дракон
 %%%%
+{nom}pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
 {nom}pearl dragons
 {pl}жемчужные драконы
 %%%%
@@ -105102,6 +107097,9 @@ your ynoxinuls
 %%%%
 {nom}quicksilver dragon
 {m}ртутный дракон
+%%%%
+{nom}quicksilver dragon scales
+{f}чешуя ртутного дракона
 %%%%
 {nom}quicksilver dragons
 {pl}ртутные драконы
@@ -105526,6 +107524,9 @@ your ynoxinuls
 {nom}shadow dragon
 {m}теневой дракон
 %%%%
+{nom}shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
 {nom}shadow dragons
 {pl}теневые драконы
 %%%%
@@ -105742,6 +107743,9 @@ your ynoxinuls
 {nom}steam dragon
 {m}паровой дракон
 %%%%
+{nom}steam dragon scales
+{f}чешуя парового дракона
+%%%%
 {nom}steam dragons
 {pl}паровые драконы
 %%%%
@@ -105760,6 +107764,9 @@ your ynoxinuls
 {nom}storm dragon
 {m}грозовой дракон
 %%%%
+{nom}storm dragon scales
+{f}чешуя грозового дракона
+%%%%
 {nom}storm dragons
 {pl}грозовые драконы
 %%%%
@@ -105774,6 +107781,9 @@ your ynoxinuls
 %%%%
 {nom}sun demons
 {pl}солнечные демоны
+%%%%
+{nom}swamp dragon scales
+{f}чешуя болотного дракона
 %%%%
 {nom}talisman of death
 {m}талисман смерти
@@ -106173,6 +108183,9 @@ your ynoxinuls
 %%%%
 {nom}the acid dragon
 {m}кислотный дракон
+%%%%
+{nom}the acid dragon scales
+{f}чешуя кислотного дракона
 %%%%
 {nom}the acid dragons
 {pl}кислотные драконы
@@ -107107,6 +109120,12 @@ your ynoxinuls
 {nom}the electric golems
 {pl}электрические големы
 %%%%
+{nom}the eleionoma
+{f}элеионома
+%%%%
+{nom}the eleionomae
+{pl}элеиономы
+%%%%
 {nom}the elephant
 {m}слон
 %%%%
@@ -107173,8 +109192,17 @@ your ynoxinuls
 {nom}the fauns
 {pl}фавны
 %%%%
+{nom}the fenstrider witch
+{f}болотная ведьма
+%%%%
+{nom}the fenstrider witches
+{pl}болотные ведьмы
+%%%%
 {nom}the fire dragon
 {m}огненный дракон
+%%%%
+{nom}the fire dragon scales
+{f}чешуя огненного дракона
 %%%%
 {nom}the fire dragons
 {pl}огненные драконы
@@ -107301,6 +109329,9 @@ your ynoxinuls
 %%%%
 {nom}the golden dragon
 {m}золотой дракон
+%%%%
+{nom}the golden dragon scales
+{f}чешуя золотого дракона
 %%%%
 {nom}the golden dragons
 {pl}золотые драконы
@@ -107469,6 +109500,9 @@ your ynoxinuls
 %%%%
 {nom}the ice dragon
 {m}ледяной дракон
+%%%%
+{nom}the ice dragon scales
+{f}чешуя ледяного дракона
 %%%%
 {nom}the ice dragons
 {pl}ледяные драконы
@@ -107896,6 +109930,9 @@ your ynoxinuls
 {nom}the pearl dragon
 {m}жемчужный дракон
 %%%%
+{nom}the pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
 {nom}the pearl dragons
 {pl}жемчужные драконы
 %%%%
@@ -108081,6 +110118,9 @@ your ynoxinuls
 %%%%
 {nom}the quicksilver dragon
 {m}ртутный дракон
+%%%%
+{nom}the quicksilver dragon scales
+{f}чешуя ртутного дракона
 %%%%
 {nom}the quicksilver dragons
 {pl}ртутные драконы
@@ -108505,6 +110545,9 @@ your ynoxinuls
 {nom}the shadow dragon
 {m}теневой дракон
 %%%%
+{nom}the shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
 {nom}the shadow dragons
 {pl}теневые драконы
 %%%%
@@ -108721,6 +110764,9 @@ your ynoxinuls
 {nom}the steam dragon
 {m}паровой дракон
 %%%%
+{nom}the steam dragon scales
+{f}чешуя парового дракона
+%%%%
 {nom}the steam dragons
 {pl}паровые драконы
 %%%%
@@ -108739,6 +110785,9 @@ your ynoxinuls
 {nom}the storm dragon
 {m}грозовой дракон
 %%%%
+{nom}the storm dragon scales
+{f}чешуя грозового дракона
+%%%%
 {nom}the storm dragons
 {pl}грозовые драконы
 %%%%
@@ -108753,6 +110802,9 @@ your ynoxinuls
 %%%%
 {nom}the sun demons
 {pl}солнечные демоны
+%%%%
+{nom}the swamp dragon scales
+{f}чешуя болотного дракона
 %%%%
 {nom}the talisman of death
 {m}талисман смерти
@@ -108858,6 +110910,12 @@ your ynoxinuls
 %%%%
 {nom}the troll
 {m}тролль
+%%%%
+{nom}the troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{nom}the troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {nom}the trolls
 {pl}тролли
@@ -109182,6 +111240,12 @@ your ynoxinuls
 %%%%
 {nom}troll
 {m}тролль
+%%%%
+{nom}troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{nom}troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {nom}trolls
 {pl}тролли
@@ -109800,6 +111864,9 @@ your ynoxinuls
 %%%%
 {nom}your acid dragon
 {m}кислотный дракон
+%%%%
+{nom}your acid dragon scales
+{f}чешуя кислотного дракона
 %%%%
 {nom}your acid dragons
 {pl}кислотные драконы
@@ -110734,6 +112801,12 @@ your ynoxinuls
 {nom}your electric golems
 {pl}электрические големы
 %%%%
+{nom}your eleionoma
+{f}элеионома
+%%%%
+{nom}your eleionomae
+{pl}элеиономы
+%%%%
 {nom}your elephant
 {m}слон
 %%%%
@@ -110800,8 +112873,17 @@ your ynoxinuls
 {nom}your fauns
 {pl}фавны
 %%%%
+{nom}your fenstrider witch
+{f}болотная ведьма
+%%%%
+{nom}your fenstrider witches
+{pl}болотные ведьмы
+%%%%
 {nom}your fire dragon
 {m}огненный дракон
+%%%%
+{nom}your fire dragon scales
+{f}чешуя огненного дракона
 %%%%
 {nom}your fire dragons
 {pl}огненные драконы
@@ -110928,6 +113010,9 @@ your ynoxinuls
 %%%%
 {nom}your golden dragon
 {m}золотой дракон
+%%%%
+{nom}your golden dragon scales
+{f}чешуя золотого дракона
 %%%%
 {nom}your golden dragons
 {pl}золотые драконы
@@ -111096,6 +113181,9 @@ your ynoxinuls
 %%%%
 {nom}your ice dragon
 {m}ледяной дракон
+%%%%
+{nom}your ice dragon scales
+{f}чешуя ледяного дракона
 %%%%
 {nom}your ice dragons
 {pl}ледяные драконы
@@ -111523,6 +113611,9 @@ your ynoxinuls
 {nom}your pearl dragon
 {m}жемчужный дракон
 %%%%
+{nom}your pearl dragon scales
+{f}чешуя жемчужного дракона
+%%%%
 {nom}your pearl dragons
 {pl}жемчужные драконы
 %%%%
@@ -111708,6 +113799,9 @@ your ynoxinuls
 %%%%
 {nom}your quicksilver dragon
 {m}ртутный дракон
+%%%%
+{nom}your quicksilver dragon scales
+{f}чешуя ртутного дракона
 %%%%
 {nom}your quicksilver dragons
 {pl}ртутные драконы
@@ -112132,6 +114226,9 @@ your ynoxinuls
 {nom}your shadow dragon
 {m}теневой дракон
 %%%%
+{nom}your shadow dragon scales
+{f}чешуя теневого дракона
+%%%%
 {nom}your shadow dragons
 {pl}теневые драконы
 %%%%
@@ -112348,6 +114445,9 @@ your ynoxinuls
 {nom}your steam dragon
 {m}паровой дракон
 %%%%
+{nom}your steam dragon scales
+{f}чешуя парового дракона
+%%%%
 {nom}your steam dragons
 {pl}паровые драконы
 %%%%
@@ -112366,6 +114466,9 @@ your ynoxinuls
 {nom}your storm dragon
 {m}грозовой дракон
 %%%%
+{nom}your storm dragon scales
+{f}чешуя грозового дракона
+%%%%
 {nom}your storm dragons
 {pl}грозовые драконы
 %%%%
@@ -112380,6 +114483,9 @@ your ynoxinuls
 %%%%
 {nom}your sun demons
 {pl}солнечные демоны
+%%%%
+{nom}your swamp dragon scales
+{f}чешуя болотного дракона
 %%%%
 {nom}your talisman of death
 {m}талисман смерти
@@ -112485,6 +114591,12 @@ your ynoxinuls
 %%%%
 {nom}your troll
 {m}тролль
+%%%%
+{nom}your troll leather armour
+{m}доспех из кожи тролля
+%%%%
+{nom}your troll leather armours
+{pl}доспехи из кожи тролля
 %%%%
 {nom}your trolls
 {pl}тролли
@@ -112920,6 +115032,9 @@ your ynoxinuls
 %%%%
 {one}@num@ acid blobs
 @num@ кислотный сгусток
+%%%%
+{one}@num@ acid dragon scales
+@num@ чешуя кислотного дракона
 %%%%
 {one}@num@ acid dragons
 @num@ кислотный дракон
@@ -113392,6 +115507,9 @@ your ynoxinuls
 {one}@num@ electric golems
 @num@ электрический голем
 %%%%
+{one}@num@ eleionomae
+@num@ элеионома
+%%%%
 {one}@num@ elephants
 @num@ слон
 %%%%
@@ -113424,6 +115542,12 @@ your ynoxinuls
 %%%%
 {one}@num@ fauns
 @num@ фавн
+%%%%
+{one}@num@ fenstrider witches
+@num@ болотная ведьма
+%%%%
+{one}@num@ fire dragon scales
+@num@ чешуя огненного дракона
 %%%%
 {one}@num@ fire dragons
 @num@ огненный дракон
@@ -113487,6 +115611,9 @@ your ynoxinuls
 %%%%
 {one}@num@ gold pieces
 @num@ золотая монета
+%%%%
+{one}@num@ golden dragon scales
+@num@ чешуя золотого дракона
 %%%%
 {one}@num@ golden dragons
 @num@ золотой дракон
@@ -113571,6 +115698,9 @@ your ynoxinuls
 %%%%
 {one}@num@ ice devils
 @num@ ледяной дьявол
+%%%%
+{one}@num@ ice dragon scales
+@num@ чешуя ледяного дракона
 %%%%
 {one}@num@ ice dragons
 @num@ ледяной дракон
@@ -113788,6 +115918,9 @@ your ynoxinuls
 {one}@num@ palentongas
 @num@ палентонга
 %%%%
+{one}@num@ pearl dragon scales
+@num@ чешуя жемчужного дракона
+%%%%
 {one}@num@ pearl dragons
 @num@ жемчужный дракон
 %%%%
@@ -113880,6 +116013,9 @@ your ynoxinuls
 %%%%
 {one}@num@ quick blades
 @num@ быстрый клинок
+%%%%
+{one}@num@ quicksilver dragon scales
+@num@ чешуя ртутного дракона
 %%%%
 {one}@num@ quicksilver dragons
 @num@ ртутный дракон
@@ -114094,6 +116230,9 @@ your ynoxinuls
 {one}@num@ serpent talismans
 @num@ талисман змея
 %%%%
+{one}@num@ shadow dragon scales
+@num@ чешуя теневого дракона
+%%%%
 {one}@num@ shadow dragons
 @num@ теневой дракон
 %%%%
@@ -114202,6 +116341,9 @@ your ynoxinuls
 {one}@num@ staves of necromancy
 @num@ посох некромантии
 %%%%
+{one}@num@ steam dragon scales
+@num@ чешуя парового дракона
+%%%%
 {one}@num@ steam dragons
 @num@ паровой дракон
 %%%%
@@ -114211,6 +116353,9 @@ your ynoxinuls
 {one}@num@ stones
 @num@ камень
 %%%%
+{one}@num@ storm dragon scales
+@num@ чешуя грозового дракона
+%%%%
 {one}@num@ storm dragons
 @num@ грозовой дракон
 %%%%
@@ -114219,6 +116364,9 @@ your ynoxinuls
 %%%%
 {one}@num@ sun demons
 @num@ солнечный демон
+%%%%
+{one}@num@ swamp dragon scales
+@num@ чешуя болотного дракона
 %%%%
 {one}@num@ talismans of death
 @num@ талисман смерти
@@ -114273,6 +116421,9 @@ your ynoxinuls
 %%%%
 {one}@num@ trishulas
 @num@ тришула
+%%%%
+{one}@num@ troll leather armours
+@num@ доспех из кожи тролля
 %%%%
 {one}@num@ trolls
 @num@ тролль
@@ -114585,6 +116736,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ acid blobs
 @num@ кислотных сгустках
+%%%%
+{prep_few}@num@ acid dragon scales
+@num@ чешуях кислотного дракона
 %%%%
 {prep_few}@num@ acid dragons
 @num@ кислотных драконах
@@ -115057,6 +117211,9 @@ your ynoxinuls
 {prep_few}@num@ electric golems
 @num@ электрических големах
 %%%%
+{prep_few}@num@ eleionomae
+@num@ элеиономах
+%%%%
 {prep_few}@num@ elephants
 @num@ слонах
 %%%%
@@ -115089,6 +117246,12 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ fauns
 @num@ фавнах
+%%%%
+{prep_few}@num@ fenstrider witches
+@num@ болотных ведьмах
+%%%%
+{prep_few}@num@ fire dragon scales
+@num@ чешуях огненного дракона
 %%%%
 {prep_few}@num@ fire dragons
 @num@ огненных драконах
@@ -115152,6 +117315,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ gold pieces
 @num@ золотых монетах
+%%%%
+{prep_few}@num@ golden dragon scales
+@num@ чешуях золотого дракона
 %%%%
 {prep_few}@num@ golden dragons
 @num@ золотых драконах
@@ -115236,6 +117402,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ ice devils
 @num@ ледяных дьяволах
+%%%%
+{prep_few}@num@ ice dragon scales
+@num@ чешуях ледяного дракона
 %%%%
 {prep_few}@num@ ice dragons
 @num@ ледяных драконах
@@ -115453,6 +117622,9 @@ your ynoxinuls
 {prep_few}@num@ palentongas
 @num@ палентонгах
 %%%%
+{prep_few}@num@ pearl dragon scales
+@num@ чешуях жемчужного дракона
+%%%%
 {prep_few}@num@ pearl dragons
 @num@ жемчужных драконах
 %%%%
@@ -115545,6 +117717,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ quick blades
 @num@ быстрых клинках
+%%%%
+{prep_few}@num@ quicksilver dragon scales
+@num@ чешуях ртутного дракона
 %%%%
 {prep_few}@num@ quicksilver dragons
 @num@ ртутных драконах
@@ -115759,6 +117934,9 @@ your ynoxinuls
 {prep_few}@num@ serpent talismans
 @num@ талисманах змея
 %%%%
+{prep_few}@num@ shadow dragon scales
+@num@ чешуях теневого дракона
+%%%%
 {prep_few}@num@ shadow dragons
 @num@ теневых драконах
 %%%%
@@ -115867,6 +118045,9 @@ your ynoxinuls
 {prep_few}@num@ staves of necromancy
 @num@ посохах некромантии
 %%%%
+{prep_few}@num@ steam dragon scales
+@num@ чешуях парового дракона
+%%%%
 {prep_few}@num@ steam dragons
 @num@ паровых драконах
 %%%%
@@ -115876,6 +118057,9 @@ your ynoxinuls
 {prep_few}@num@ stones
 @num@ камнях
 %%%%
+{prep_few}@num@ storm dragon scales
+@num@ чешуях грозового дракона
+%%%%
 {prep_few}@num@ storm dragons
 @num@ грозовых драконах
 %%%%
@@ -115884,6 +118068,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ sun demons
 @num@ солнечных демонах
+%%%%
+{prep_few}@num@ swamp dragon scales
+@num@ чешуях болотного дракона
 %%%%
 {prep_few}@num@ talismans of death
 @num@ талисманах смерти
@@ -115938,6 +118125,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ trishulas
 @num@ тришулах
+%%%%
+{prep_few}@num@ troll leather armours
+@num@ доспехах из кожи тролля
 %%%%
 {prep_few}@num@ trolls
 @num@ троллях
@@ -116250,6 +118440,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ acid blobs
 @num@ кислотных сгустках
+%%%%
+{prep_many}@num@ acid dragon scales
+@num@ чешуях кислотного дракона
 %%%%
 {prep_many}@num@ acid dragons
 @num@ кислотных драконах
@@ -116722,6 +118915,9 @@ your ynoxinuls
 {prep_many}@num@ electric golems
 @num@ электрических големах
 %%%%
+{prep_many}@num@ eleionomae
+@num@ элеиономах
+%%%%
 {prep_many}@num@ elephants
 @num@ слонах
 %%%%
@@ -116754,6 +118950,12 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ fauns
 @num@ фавнах
+%%%%
+{prep_many}@num@ fenstrider witches
+@num@ болотных ведьмах
+%%%%
+{prep_many}@num@ fire dragon scales
+@num@ чешуях огненного дракона
 %%%%
 {prep_many}@num@ fire dragons
 @num@ огненных драконах
@@ -116817,6 +119019,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ gold pieces
 @num@ золотых монетах
+%%%%
+{prep_many}@num@ golden dragon scales
+@num@ чешуях золотого дракона
 %%%%
 {prep_many}@num@ golden dragons
 @num@ золотых драконах
@@ -116901,6 +119106,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ ice devils
 @num@ ледяных дьяволах
+%%%%
+{prep_many}@num@ ice dragon scales
+@num@ чешуях ледяного дракона
 %%%%
 {prep_many}@num@ ice dragons
 @num@ ледяных драконах
@@ -117118,6 +119326,9 @@ your ynoxinuls
 {prep_many}@num@ palentongas
 @num@ палентонгах
 %%%%
+{prep_many}@num@ pearl dragon scales
+@num@ чешуях жемчужного дракона
+%%%%
 {prep_many}@num@ pearl dragons
 @num@ жемчужных драконах
 %%%%
@@ -117210,6 +119421,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ quick blades
 @num@ быстрых клинках
+%%%%
+{prep_many}@num@ quicksilver dragon scales
+@num@ чешуях ртутного дракона
 %%%%
 {prep_many}@num@ quicksilver dragons
 @num@ ртутных драконах
@@ -117424,6 +119638,9 @@ your ynoxinuls
 {prep_many}@num@ serpent talismans
 @num@ талисманах змея
 %%%%
+{prep_many}@num@ shadow dragon scales
+@num@ чешуях теневого дракона
+%%%%
 {prep_many}@num@ shadow dragons
 @num@ теневых драконах
 %%%%
@@ -117532,6 +119749,9 @@ your ynoxinuls
 {prep_many}@num@ staves of necromancy
 @num@ посохах некромантии
 %%%%
+{prep_many}@num@ steam dragon scales
+@num@ чешуях парового дракона
+%%%%
 {prep_many}@num@ steam dragons
 @num@ паровых драконах
 %%%%
@@ -117541,6 +119761,9 @@ your ynoxinuls
 {prep_many}@num@ stones
 @num@ камнях
 %%%%
+{prep_many}@num@ storm dragon scales
+@num@ чешуях грозового дракона
+%%%%
 {prep_many}@num@ storm dragons
 @num@ грозовых драконах
 %%%%
@@ -117549,6 +119772,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ sun demons
 @num@ солнечных демонах
+%%%%
+{prep_many}@num@ swamp dragon scales
+@num@ чешуях болотного дракона
 %%%%
 {prep_many}@num@ talismans of death
 @num@ талисманах смерти
@@ -117603,6 +119829,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ trishulas
 @num@ тришулах
+%%%%
+{prep_many}@num@ troll leather armours
+@num@ доспехах из кожи тролля
 %%%%
 {prep_many}@num@ trolls
 @num@ троллях
@@ -117915,6 +120144,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ acid blobs
 @num@ кислотном сгустке
+%%%%
+{prep_one}@num@ acid dragon scales
+@num@ чешуе кислотного дракона
 %%%%
 {prep_one}@num@ acid dragons
 @num@ кислотном драконе
@@ -118387,6 +120619,9 @@ your ynoxinuls
 {prep_one}@num@ electric golems
 @num@ электрическом големе
 %%%%
+{prep_one}@num@ eleionomae
+@num@ элеиономе
+%%%%
 {prep_one}@num@ elephants
 @num@ слоне
 %%%%
@@ -118419,6 +120654,12 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ fauns
 @num@ фавне
+%%%%
+{prep_one}@num@ fenstrider witches
+@num@ болотной ведьме
+%%%%
+{prep_one}@num@ fire dragon scales
+@num@ чешуе огненного дракона
 %%%%
 {prep_one}@num@ fire dragons
 @num@ огненном драконе
@@ -118482,6 +120723,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ gold pieces
 @num@ золотой монете
+%%%%
+{prep_one}@num@ golden dragon scales
+@num@ чешуе золотого дракона
 %%%%
 {prep_one}@num@ golden dragons
 @num@ золотом драконе
@@ -118566,6 +120810,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ ice devils
 @num@ ледяном дьяволе
+%%%%
+{prep_one}@num@ ice dragon scales
+@num@ чешуе ледяного дракона
 %%%%
 {prep_one}@num@ ice dragons
 @num@ ледяном драконе
@@ -118783,6 +121030,9 @@ your ynoxinuls
 {prep_one}@num@ palentongas
 @num@ палентонге
 %%%%
+{prep_one}@num@ pearl dragon scales
+@num@ чешуе жемчужного дракона
+%%%%
 {prep_one}@num@ pearl dragons
 @num@ жемчужном драконе
 %%%%
@@ -118875,6 +121125,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ quick blades
 @num@ быстром клинке
+%%%%
+{prep_one}@num@ quicksilver dragon scales
+@num@ чешуе ртутного дракона
 %%%%
 {prep_one}@num@ quicksilver dragons
 @num@ ртутном драконе
@@ -119089,6 +121342,9 @@ your ynoxinuls
 {prep_one}@num@ serpent talismans
 @num@ талисмане змея
 %%%%
+{prep_one}@num@ shadow dragon scales
+@num@ чешуе теневого дракона
+%%%%
 {prep_one}@num@ shadow dragons
 @num@ теневом драконе
 %%%%
@@ -119197,6 +121453,9 @@ your ynoxinuls
 {prep_one}@num@ staves of necromancy
 @num@ посохе некромантии
 %%%%
+{prep_one}@num@ steam dragon scales
+@num@ чешуе парового дракона
+%%%%
 {prep_one}@num@ steam dragons
 @num@ паровом драконе
 %%%%
@@ -119206,6 +121465,9 @@ your ynoxinuls
 {prep_one}@num@ stones
 @num@ камне
 %%%%
+{prep_one}@num@ storm dragon scales
+@num@ чешуе грозового дракона
+%%%%
 {prep_one}@num@ storm dragons
 @num@ грозовом драконе
 %%%%
@@ -119214,6 +121476,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ sun demons
 @num@ солнечном демоне
+%%%%
+{prep_one}@num@ swamp dragon scales
+@num@ чешуе болотного дракона
 %%%%
 {prep_one}@num@ talismans of death
 @num@ талисмане смерти
@@ -119268,6 +121533,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ trishulas
 @num@ тришуле
+%%%%
+{prep_one}@num@ troll leather armours
+@num@ доспехе из кожи тролля
 %%%%
 {prep_one}@num@ trolls
 @num@ тролле
@@ -119944,6 +122212,9 @@ your ynoxinuls
 {prep}a acid dragon
 {m}кислотном драконе
 %%%%
+{prep}a acid dragon scales
+{f}чешуе кислотного дракона
+%%%%
 {prep}a adder
 {f}гадюке
 %%%%
@@ -120412,6 +122683,9 @@ your ynoxinuls
 {prep}a electric golem
 {m}электрическом големе
 %%%%
+{prep}a eleionoma
+{f}элеиономе
+%%%%
 {prep}a elephant
 {m}слоне
 %%%%
@@ -120445,8 +122719,14 @@ your ynoxinuls
 {prep}a faun
 {m}фавне
 %%%%
+{prep}a fenstrider witch
+{f}болотной ведьме
+%%%%
 {prep}a fire dragon
 {m}огненном драконе
+%%%%
+{prep}a fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {prep}a fire giant
 {m}огненном великане
@@ -120510,6 +122790,9 @@ your ynoxinuls
 %%%%
 {prep}a golden dragon
 {m}золотом драконе
+%%%%
+{prep}a golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {prep}a golden eye
 {n}золотом оке
@@ -120594,6 +122877,9 @@ your ynoxinuls
 %%%%
 {prep}a ice dragon
 {m}ледяном драконе
+%%%%
+{prep}a ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {prep}a iguana
 {f}игуане
@@ -120811,6 +123097,9 @@ your ynoxinuls
 {prep}a pearl dragon
 {m}жемчужном драконе
 %%%%
+{prep}a pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {prep}a phantom
 {m}фантоме
 %%%%
@@ -120903,6 +123192,9 @@ your ynoxinuls
 %%%%
 {prep}a quicksilver dragon
 {m}ртутном драконе
+%%%%
+{prep}a quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {prep}a quill talisman
 {m}талисмане игл
@@ -121117,6 +123409,9 @@ your ynoxinuls
 {prep}a shadow dragon
 {m}теневом драконе
 %%%%
+{prep}a shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {prep}a shadow imp
 {m}теневом бесе
 %%%%
@@ -121225,6 +123520,9 @@ your ynoxinuls
 {prep}a steam dragon
 {m}паровом драконе
 %%%%
+{prep}a steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {prep}a stone
 {m}камне
 %%%%
@@ -121234,11 +123532,17 @@ your ynoxinuls
 {prep}a storm dragon
 {m}грозовом драконе
 %%%%
+{prep}a storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {prep}a storm talisman
 {m}талисмане бури
 %%%%
 {prep}a sun demon
 {m}солнечном демоне
+%%%%
+{prep}a swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {prep}a talisman of death
 {m}талисмане смерти
@@ -121296,6 +123600,9 @@ your ynoxinuls
 %%%%
 {prep}a troll
 {m}тролле
+%%%%
+{prep}a troll leather armour
+{m}доспехе из кожи тролля
 %%%%
 {prep}a two-headed ogre
 {m}двухголовом огре
@@ -121428,6 +123735,9 @@ your ynoxinuls
 %%%%
 {prep}acid dragon
 {m}кислотном драконе
+%%%%
+{prep}acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {prep}acid dragons
 {pl}кислотных драконах
@@ -121692,6 +124002,9 @@ your ynoxinuls
 %%%%
 {prep}an acid dragon
 {m}кислотном драконе
+%%%%
+{prep}an acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {prep}an adder
 {f}гадюке
@@ -122161,6 +124474,9 @@ your ynoxinuls
 {prep}an electric golem
 {m}электрическом големе
 %%%%
+{prep}an eleionoma
+{f}элеиономе
+%%%%
 {prep}an elephant
 {m}слоне
 %%%%
@@ -122194,8 +124510,14 @@ your ynoxinuls
 {prep}an faun
 {m}фавне
 %%%%
+{prep}an fenstrider witch
+{f}болотной ведьме
+%%%%
 {prep}an fire dragon
 {m}огненном драконе
+%%%%
+{prep}an fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {prep}an fire giant
 {m}огненном великане
@@ -122259,6 +124581,9 @@ your ynoxinuls
 %%%%
 {prep}an golden dragon
 {m}золотом драконе
+%%%%
+{prep}an golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {prep}an golden eye
 {n}золотом оке
@@ -122343,6 +124668,9 @@ your ynoxinuls
 %%%%
 {prep}an ice dragon
 {m}ледяном драконе
+%%%%
+{prep}an ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {prep}an iguana
 {f}игуане
@@ -122560,6 +124888,9 @@ your ynoxinuls
 {prep}an pearl dragon
 {m}жемчужном драконе
 %%%%
+{prep}an pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {prep}an phantom
 {m}фантоме
 %%%%
@@ -122652,6 +124983,9 @@ your ynoxinuls
 %%%%
 {prep}an quicksilver dragon
 {m}ртутном драконе
+%%%%
+{prep}an quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {prep}an quill talisman
 {m}талисмане игл
@@ -122866,6 +125200,9 @@ your ynoxinuls
 {prep}an shadow dragon
 {m}теневом драконе
 %%%%
+{prep}an shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {prep}an shadow imp
 {m}теневом бесе
 %%%%
@@ -122974,6 +125311,9 @@ your ynoxinuls
 {prep}an steam dragon
 {m}паровом драконе
 %%%%
+{prep}an steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {prep}an stone
 {m}камне
 %%%%
@@ -122983,11 +125323,17 @@ your ynoxinuls
 {prep}an storm dragon
 {m}грозовом драконе
 %%%%
+{prep}an storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {prep}an storm talisman
 {m}талисмане бури
 %%%%
 {prep}an sun demon
 {m}солнечном демоне
+%%%%
+{prep}an swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {prep}an talisman of death
 {m}талисмане смерти
@@ -123045,6 +125391,9 @@ your ynoxinuls
 %%%%
 {prep}an troll
 {m}тролле
+%%%%
+{prep}an troll leather armour
+{m}доспехе из кожи тролля
 %%%%
 {prep}an two-headed ogre
 {m}двухголовом огре
@@ -124027,6 +126376,12 @@ your ynoxinuls
 {prep}electric golems
 {pl}электрических големах
 %%%%
+{prep}eleionoma
+{f}элеиономе
+%%%%
+{prep}eleionomae
+{pl}элеиономах
+%%%%
 {prep}elephant
 {m}слоне
 %%%%
@@ -124093,8 +126448,17 @@ your ynoxinuls
 {prep}fauns
 {pl}фавнах
 %%%%
+{prep}fenstrider witch
+{f}болотной ведьме
+%%%%
+{prep}fenstrider witches
+{pl}болотных ведьмах
+%%%%
 {prep}fire dragon
 {m}огненном драконе
+%%%%
+{prep}fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {prep}fire dragons
 {pl}огненных драконах
@@ -124221,6 +126585,9 @@ your ynoxinuls
 %%%%
 {prep}golden dragon
 {m}золотом драконе
+%%%%
+{prep}golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {prep}golden dragons
 {pl}золотых драконах
@@ -124389,6 +126756,9 @@ your ynoxinuls
 %%%%
 {prep}ice dragon
 {m}ледяном драконе
+%%%%
+{prep}ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {prep}ice dragons
 {pl}ледяных драконах
@@ -124816,6 +127186,9 @@ your ynoxinuls
 {prep}pearl dragon
 {m}жемчужном драконе
 %%%%
+{prep}pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {prep}pearl dragons
 {pl}жемчужных драконах
 %%%%
@@ -125001,6 +127374,9 @@ your ynoxinuls
 %%%%
 {prep}quicksilver dragon
 {m}ртутном драконе
+%%%%
+{prep}quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {prep}quicksilver dragons
 {pl}ртутных драконах
@@ -125425,6 +127801,9 @@ your ynoxinuls
 {prep}shadow dragon
 {m}теневом драконе
 %%%%
+{prep}shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {prep}shadow dragons
 {pl}теневых драконах
 %%%%
@@ -125641,6 +128020,9 @@ your ynoxinuls
 {prep}steam dragon
 {m}паровом драконе
 %%%%
+{prep}steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {prep}steam dragons
 {pl}паровых драконах
 %%%%
@@ -125659,6 +128041,9 @@ your ynoxinuls
 {prep}storm dragon
 {m}грозовом драконе
 %%%%
+{prep}storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {prep}storm dragons
 {pl}грозовых драконах
 %%%%
@@ -125673,6 +128058,9 @@ your ynoxinuls
 %%%%
 {prep}sun demons
 {pl}солнечных демонах
+%%%%
+{prep}swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {prep}talisman of death
 {m}талисмане смерти
@@ -126072,6 +128460,9 @@ your ynoxinuls
 %%%%
 {prep}the acid dragon
 {m}кислотном драконе
+%%%%
+{prep}the acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {prep}the acid dragons
 {pl}кислотных драконах
@@ -127006,6 +129397,12 @@ your ynoxinuls
 {prep}the electric golems
 {pl}электрических големах
 %%%%
+{prep}the eleionoma
+{f}элеиономе
+%%%%
+{prep}the eleionomae
+{pl}элеиономах
+%%%%
 {prep}the elephant
 {m}слоне
 %%%%
@@ -127072,8 +129469,17 @@ your ynoxinuls
 {prep}the fauns
 {pl}фавнах
 %%%%
+{prep}the fenstrider witch
+{f}болотной ведьме
+%%%%
+{prep}the fenstrider witches
+{pl}болотных ведьмах
+%%%%
 {prep}the fire dragon
 {m}огненном драконе
+%%%%
+{prep}the fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {prep}the fire dragons
 {pl}огненных драконах
@@ -127200,6 +129606,9 @@ your ynoxinuls
 %%%%
 {prep}the golden dragon
 {m}золотом драконе
+%%%%
+{prep}the golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {prep}the golden dragons
 {pl}золотых драконах
@@ -127368,6 +129777,9 @@ your ynoxinuls
 %%%%
 {prep}the ice dragon
 {m}ледяном драконе
+%%%%
+{prep}the ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {prep}the ice dragons
 {pl}ледяных драконах
@@ -127795,6 +130207,9 @@ your ynoxinuls
 {prep}the pearl dragon
 {m}жемчужном драконе
 %%%%
+{prep}the pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {prep}the pearl dragons
 {pl}жемчужных драконах
 %%%%
@@ -127980,6 +130395,9 @@ your ynoxinuls
 %%%%
 {prep}the quicksilver dragon
 {m}ртутном драконе
+%%%%
+{prep}the quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {prep}the quicksilver dragons
 {pl}ртутных драконах
@@ -128404,6 +130822,9 @@ your ynoxinuls
 {prep}the shadow dragon
 {m}теневом драконе
 %%%%
+{prep}the shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {prep}the shadow dragons
 {pl}теневых драконах
 %%%%
@@ -128620,6 +131041,9 @@ your ynoxinuls
 {prep}the steam dragon
 {m}паровом драконе
 %%%%
+{prep}the steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {prep}the steam dragons
 {pl}паровых драконах
 %%%%
@@ -128638,6 +131062,9 @@ your ynoxinuls
 {prep}the storm dragon
 {m}грозовом драконе
 %%%%
+{prep}the storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {prep}the storm dragons
 {pl}грозовых драконах
 %%%%
@@ -128652,6 +131079,9 @@ your ynoxinuls
 %%%%
 {prep}the sun demons
 {pl}солнечных демонах
+%%%%
+{prep}the swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {prep}the talisman of death
 {m}талисмане смерти
@@ -128757,6 +131187,12 @@ your ynoxinuls
 %%%%
 {prep}the troll
 {m}тролле
+%%%%
+{prep}the troll leather armour
+{m}доспехе из кожи тролля
+%%%%
+{prep}the troll leather armours
+{pl}доспехах из кожи тролля
 %%%%
 {prep}the trolls
 {pl}троллях
@@ -129081,6 +131517,12 @@ your ynoxinuls
 %%%%
 {prep}troll
 {m}тролле
+%%%%
+{prep}troll leather armour
+{m}доспехе из кожи тролля
+%%%%
+{prep}troll leather armours
+{pl}доспехах из кожи тролля
 %%%%
 {prep}trolls
 {pl}троллях
@@ -129699,6 +132141,9 @@ your ynoxinuls
 %%%%
 {prep}your acid dragon
 {m}кислотном драконе
+%%%%
+{prep}your acid dragon scales
+{f}чешуе кислотного дракона
 %%%%
 {prep}your acid dragons
 {pl}кислотных драконах
@@ -130633,6 +133078,12 @@ your ynoxinuls
 {prep}your electric golems
 {pl}электрических големах
 %%%%
+{prep}your eleionoma
+{f}элеиономе
+%%%%
+{prep}your eleionomae
+{pl}элеиономах
+%%%%
 {prep}your elephant
 {m}слоне
 %%%%
@@ -130699,8 +133150,17 @@ your ynoxinuls
 {prep}your fauns
 {pl}фавнах
 %%%%
+{prep}your fenstrider witch
+{f}болотной ведьме
+%%%%
+{prep}your fenstrider witches
+{pl}болотных ведьмах
+%%%%
 {prep}your fire dragon
 {m}огненном драконе
+%%%%
+{prep}your fire dragon scales
+{f}чешуе огненного дракона
 %%%%
 {prep}your fire dragons
 {pl}огненных драконах
@@ -130827,6 +133287,9 @@ your ynoxinuls
 %%%%
 {prep}your golden dragon
 {m}золотом драконе
+%%%%
+{prep}your golden dragon scales
+{f}чешуе золотого дракона
 %%%%
 {prep}your golden dragons
 {pl}золотых драконах
@@ -130995,6 +133458,9 @@ your ynoxinuls
 %%%%
 {prep}your ice dragon
 {m}ледяном драконе
+%%%%
+{prep}your ice dragon scales
+{f}чешуе ледяного дракона
 %%%%
 {prep}your ice dragons
 {pl}ледяных драконах
@@ -131422,6 +133888,9 @@ your ynoxinuls
 {prep}your pearl dragon
 {m}жемчужном драконе
 %%%%
+{prep}your pearl dragon scales
+{f}чешуе жемчужного дракона
+%%%%
 {prep}your pearl dragons
 {pl}жемчужных драконах
 %%%%
@@ -131607,6 +134076,9 @@ your ynoxinuls
 %%%%
 {prep}your quicksilver dragon
 {m}ртутном драконе
+%%%%
+{prep}your quicksilver dragon scales
+{f}чешуе ртутного дракона
 %%%%
 {prep}your quicksilver dragons
 {pl}ртутных драконах
@@ -132031,6 +134503,9 @@ your ynoxinuls
 {prep}your shadow dragon
 {m}теневом драконе
 %%%%
+{prep}your shadow dragon scales
+{f}чешуе теневого дракона
+%%%%
 {prep}your shadow dragons
 {pl}теневых драконах
 %%%%
@@ -132247,6 +134722,9 @@ your ynoxinuls
 {prep}your steam dragon
 {m}паровом драконе
 %%%%
+{prep}your steam dragon scales
+{f}чешуе парового дракона
+%%%%
 {prep}your steam dragons
 {pl}паровых драконах
 %%%%
@@ -132265,6 +134743,9 @@ your ynoxinuls
 {prep}your storm dragon
 {m}грозовом драконе
 %%%%
+{prep}your storm dragon scales
+{f}чешуе грозового дракона
+%%%%
 {prep}your storm dragons
 {pl}грозовых драконах
 %%%%
@@ -132279,6 +134760,9 @@ your ynoxinuls
 %%%%
 {prep}your sun demons
 {pl}солнечных демонах
+%%%%
+{prep}your swamp dragon scales
+{f}чешуе болотного дракона
 %%%%
 {prep}your talisman of death
 {m}талисмане смерти
@@ -132384,6 +134868,12 @@ your ynoxinuls
 %%%%
 {prep}your troll
 {m}тролле
+%%%%
+{prep}your troll leather armour
+{m}доспехе из кожи тролля
+%%%%
+{prep}your troll leather armours
+{pl}доспехах из кожи тролля
 %%%%
 {prep}your trolls
 {pl}троллях

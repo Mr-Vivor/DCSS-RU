@@ -18359,12 +18359,12 @@
       "translation_sha256": "9b4bb291d5270b1af9ac27b6bc44bf2d4d8f748987cf5a90849c3611e2340fbe"
     },
     "@Arg@ are intact enough to wear.": {
-      "context": "mon-death.cc",
-      "translation_sha256": "06399bd26ea009d17dc0c0a04a2d0cda88d2cf6991f802b03d3f1b5bd0a52a0e"
+      "context": "mon-death.cc _create_monster_hide: intact enough refers to wearable remains automatically dropped as armour, not crafting materials. Dragon scales are a plural English name but singular Russian чешуя; troll armour can have different grammatical genders. Accusative item form avoids masculine/English-plural agreement assumptions.",
+      "translation_sha256": "c7619116fe3de2fafc698f253f40f5d1f8da7efd5db130bae1e8f667a29c5621"
     },
     "@Arg@ is intact enough to wear.": {
-      "context": "mon-death.cc",
-      "translation_sha256": "e61178824b43cb0114528bf42c87c28cc3ca0981041a5a164699adfbbd87efbb"
+      "context": "mon-death.cc _create_monster_hide: intact enough refers to wearable remains automatically dropped as armour, not crafting materials. Dragon scales are a plural English name but singular Russian чешуя; troll armour can have different grammatical genders. Accusative item form avoids masculine/English-plural agreement assumptions.",
+      "translation_sha256": "c7619116fe3de2fafc698f253f40f5d1f8da7efd5db130bae1e8f667a29c5621"
     },
     "@Arg1@ protects @arg2@ from harm!": {
       "context": "mon-death.cc",
@@ -64625,6 +64625,174 @@
     "No longer under Kirke's spell, the hogs return to their original forms!": {
       "context": "mon-death.cc destroy_tentacles and hogs_to_humans: kraken tentacles disappear on head death. Kirke release actually selects plural forms for multiple hogs; keep previous singular source keys too. All-human victims return to human form; mixed/originally nonhuman victims return to original forms.",
       "translation_sha256": "71f287a8e58c405677bbe93cbd5b1a3d7fbba451df95e64215019a73be7c8d66"
+    },
+    "@Arg@ bone magically twists into @item@.": {
+      "context": "mon-death.cc _create_monster_wand: only eleionoma and fenstrider witch leave a bone that magically becomes a fully identified, random wand. Creature genitive and item accusative; no English adjective construction or assumption that the player is casting polymorph.",
+      "translation_sha256": "a7ce2a315eef903e0431f07a0a62656f195adbe12cb846027cbb07300491afad"
+    },
+    "@Arg@ rises to serve you!": {
+      "context": "mon-death.cc _vampire_make_thrall and derived undead: vampire thrall rises to serve, not a generic resurrection promise. Yredelemnul uses black mist, simulacra freezing mist, other spectres glowing mist. Simulacrum naming follows the shared симулякр term.",
+      "translation_sha256": "ac5251964461a3050f6a7e4171d7b9a1bfd04f260a315e69b5e808fcfd6e1680"
+    },
+    "A black mist starts to gather...": {
+      "context": "mon-death.cc _vampire_make_thrall and derived undead: vampire thrall rises to serve, not a generic resurrection promise. Yredelemnul uses black mist, simulacra freezing mist, other spectres glowing mist. Simulacrum naming follows the shared симулякр term.",
+      "translation_sha256": "b80b3d3c9f6f5227078f7dcd0bfe4bb3947f77511d04aaaef47781e5c8fff34d"
+    },
+    "Kikubaaqudgha cackles.": {
+      "context": "mon-death.cc _vampire_make_thrall and derived undead: vampire thrall rises to serve, not a generic resurrection promise. Yredelemnul uses black mist, simulacra freezing mist, other spectres glowing mist. Simulacrum naming follows the shared симулякр term.",
+      "translation_sha256": "7ab96af5bb62e1976c27c6d6e5838b17941af69c0108893c90712cf249bc073f"
+    },
+    "Your @arg@ simulacrum begins to move.": {
+      "context": "mon-death.cc _vampire_make_thrall and derived undead: vampire thrall rises to serve, not a generic resurrection promise. Yredelemnul uses black mist, simulacra freezing mist, other spectres glowing mist. Simulacrum naming follows the shared симулякр term.",
+      "translation_sha256": "61b63a098e777e44ca56229f7696bae7e86c8c49b9d56d381de3f9dab4ad0fb8"
+    },
+    "@Arg@'s spirit is torn from its body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@' spirit is torn from its body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@'s spirit is torn from his body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@' spirit is torn from his body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@'s spirit is torn from her body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@' spirit is torn from her body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@'s spirit is torn from their body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@' spirit is torn from their body!": {
+      "context": "mon-death.cc _mons_reaped: possessed weapon reaping tears the victim spirit from its own body and creates a spectral ally of the killer. DESC_ITS supplies apostrophised names; pronoun follows monster gender/plurality. Do not assign an arbitrary masculine pronoun in Russian.",
+      "translation_sha256": "d387e679aa5d6d89116669ada5315378ff491f1428ced2badc6c391fa44f0391"
+    },
+    "@Arg@'s shape twists and changes as it dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@' shape twists and changes as it dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@ returns to its original shape as it dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "7ce3d88f3efc3e01ea6a07ab313271322eac9ddda95f7cd90be72eae7826450f"
+    },
+    "@Arg@'s shape twists and changes as he dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@' shape twists and changes as he dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@ returns to his original shape as he dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "7ce3d88f3efc3e01ea6a07ab313271322eac9ddda95f7cd90be72eae7826450f"
+    },
+    "@Arg@'s shape twists and changes as she dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@' shape twists and changes as she dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@ returns to her original shape as she dies.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "7ce3d88f3efc3e01ea6a07ab313271322eac9ddda95f7cd90be72eae7826450f"
+    },
+    "@Arg@'s shape twists and changes as they die.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@' shape twists and changes as they die.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "3f322173956c2ceb822fe844d21ea61fb937281389536c18920d13da5ad8d296"
+    },
+    "@Arg@ returns to their original shape as they die.": {
+      "context": "mon-death.cc _special_corpse_messaging: unknown shapeshifter body changes on death; other polymorphed monsters and Bai Suzhen return to original form. The subject is the dead creature, not player transformation. Finite it/he/she/they variants and apostrophised names preserve source behaviour.",
+      "translation_sha256": "7ce3d88f3efc3e01ea6a07ab313271322eac9ddda95f7cd90be72eae7826450f"
+    },
+    "@Arg@ returns to where it belongs.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "e65be485416ff687a2b8ad41b1e5fbd2ecdf32f60252cb3dfaa16971fd4fce8a"
+    },
+    "@Arg@ falls apart and the last of its fire goes out.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "478c8c23e5a4cbc659cd2bc06a2c55b0f29fdec4fa2cf5c3d71f3031e2297438"
+    },
+    "@Arg@ returns to its hive.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "93b9e9a8ea83ff9daff44772a822e8e3f68bd7e599d0b0dfdfe68aa95184b53f"
+    },
+    "@Arg@ returns to the shadows of the Dungeon.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "d592a431f0ae738957cb094b13b7db13448e90e1ae5a4eeb81765b874bc5d226"
+    },
+    "@Arg@ collapses into dust.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "987823dde504b118b5064af2ed2891f8cc67ddb480987aa2430d5033f66b3ac3"
+    },
+    "@Arg@ runs out of power.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "588da84202321f70335df35fe5786ce0c7f1ee5357dae5ea59ce8da7ae3d9ba8"
+    },
+    "@Arg@ expends the last of its power.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "a17dc714c6a68a4d9f3fd3ee64ee46461b52a8e9ff825916e0d8dfbc017439f0"
+    },
+    "@Arg@ implodes with a snap.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "53d55cc7ecb5b7d1e864946eef94f3a21c24a9ccf32515daaab0bde8c3151587"
+    },
+    "@Arg@ expends the last of its anger.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "2a330f022e1660aa30252b48986e30eb94674d294427f24ce749dd076749adbf"
+    },
+    "@Arg@ shrivels and dies.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "aed936ad7d60d203c4a40f1ea75e2c12c35fbbfcb721ca932e394c5e9f36302e"
+    },
+    "@Arg@ shrivels and falls limp.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "0d27f75f2c7d1804e6a33d2fb971b351ed6d9088840c820dae03d9c07099fca1"
+    },
+    "A nearby @arg@ perishes wretchedly.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "9c26f14d7a29ed365c675df34bba507110e2d7548bb0bea133f763045762cf50"
+    },
+    "A nearby @arg@ withers and dies.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "0995577d131f81f13031248d711bcc92c0d83ff337d0403a84891010e21f56d2"
+    },
+    "@Arg@ sinks to the bottom.": {
+      "context": "mon-death.cc nonabjurable constructs and timed allies: Soul Splinter wisp returns to its living source, removing weakness; distant blazeheart golem dies without exposing a core. Hive and ratskin-cloak allies retreat. Clockwork bee exhausts energy, paragon spends power, rending blade implodes, erythrospite spends anger. Hypnotail is a shed decoy, not the player tail.",
+      "translation_sha256": "003d1e8233bdcce8b24011b8d43503127b55df55117d3d312d306447802ff61c"
+    },
+    "@Arg@ disappears in a burst of colours!": {
+      "context": "mon-death.cc summoned_poof_msg: butterflies vanish in colours, Yredelemnul summons return to grave, Sticks to Snakes undo animation. Full monster/corpse phrase translated at message output; source suffix strings stay English because cloud-generation logic tests them for smoke/chaos.",
+      "translation_sha256": "c108101cab6806e60a0517e307740294482283426a9cac47083990e636544de0"
+    },
+    "@Arg@ returns to the grave!": {
+      "context": "mon-death.cc summoned_poof_msg: butterflies vanish in colours, Yredelemnul summons return to grave, Sticks to Snakes undo animation. Full monster/corpse phrase translated at message output; source suffix strings stay English because cloud-generation logic tests them for smoke/chaos.",
+      "translation_sha256": "0d8a43c9f4d9501d1e53cd93a59964fe5a2c23429c1fd658b064983717f2a876"
+    },
+    "@Arg@ turns back into a lifeless stick!": {
+      "context": "mon-death.cc summoned_poof_msg: butterflies vanish in colours, Yredelemnul summons return to grave, Sticks to Snakes undo animation. Full monster/corpse phrase translated at message output; source suffix strings stay English because cloud-generation logic tests them for smoke/chaos.",
+      "translation_sha256": "37133c583c514762cb215d58c64f9eba88aea998b5686c70b09d406c7b93d0b7"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

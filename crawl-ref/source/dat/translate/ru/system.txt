@@ -18742,11 +18742,11 @@ Error, exp for monster with no damage: @arg@
 %%%%
 @Arg@ are intact enough to wear.
 
-@Arg@ достаточно целы, чтобы их носить.
+Повреждения не мешают носить {acc}@arg@.
 %%%%
 @Arg@ is intact enough to wear.
 
-@Arg@ достаточно цел, чтобы его носить.
+Повреждения не мешают носить {acc}@arg@.
 %%%%
 @Arg1@ protects @arg2@ from harm!
 
@@ -64859,3 +64859,171 @@ No longer under Kirke's spell, the hogs return to their human forms!
 No longer under Kirke's spell, the hogs return to their original forms!
 
 Освободившись от чар Кирки, свиньи возвращаются в свой исходный облик!
+%%%%
+@Arg@ bone magically twists into @item@.
+
+Кость {gen}@arg@ волшебным образом превращается в {acc}@item@.
+%%%%
+@Arg@ rises to serve you!
+
+@Arg@ восстаёт, чтобы служить вам!
+%%%%
+A black mist starts to gather...
+
+Начинает сгущаться чёрный туман...
+%%%%
+Kikubaaqudgha cackles.
+
+Кикубаакудга злорадно хохочет.
+%%%%
+Your @arg@ simulacrum begins to move.
+
+Симулякр {gen}@arg@ начинает двигаться.
+%%%%
+@Arg@'s spirit is torn from its body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@' spirit is torn from its body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@'s spirit is torn from his body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@' spirit is torn from his body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@'s spirit is torn from her body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@' spirit is torn from her body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@'s spirit is torn from their body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@' spirit is torn from their body!
+
+Дух {gen}@arg@ вырывается из тела!
+%%%%
+@Arg@'s shape twists and changes as it dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@' shape twists and changes as it dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@ returns to its original shape as it dies.
+
+Погибая, {nom}@arg@ возвращается в свой первоначальный облик.
+%%%%
+@Arg@'s shape twists and changes as he dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@' shape twists and changes as he dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@ returns to his original shape as he dies.
+
+Погибая, {nom}@arg@ возвращается в свой первоначальный облик.
+%%%%
+@Arg@'s shape twists and changes as she dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@' shape twists and changes as she dies.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@ returns to her original shape as she dies.
+
+Погибая, {nom}@arg@ возвращается в свой первоначальный облик.
+%%%%
+@Arg@'s shape twists and changes as they die.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@' shape twists and changes as they die.
+
+Облик {gen}@arg@ искажается и меняется при гибели.
+%%%%
+@Arg@ returns to their original shape as they die.
+
+Погибая, {nom}@arg@ возвращается в свой первоначальный облик.
+%%%%
+@Arg@ returns to where it belongs.
+
+@Arg@ возвращается к своему владельцу.
+%%%%
+@Arg@ falls apart and the last of its fire goes out.
+
+@Arg@ разваливается, и последние языки пламени гаснут.
+%%%%
+@Arg@ returns to its hive.
+
+@Arg@ возвращается в улей.
+%%%%
+@Arg@ returns to the shadows of the Dungeon.
+
+@Arg@ скрывается во мраке Подземелья.
+%%%%
+@Arg@ collapses into dust.
+
+@Arg@ рассыпается в прах.
+%%%%
+@Arg@ runs out of power.
+
+@Arg@ исчерпывает запас энергии.
+%%%%
+@Arg@ expends the last of its power.
+
+@Arg@ расходует остатки сил.
+%%%%
+@Arg@ implodes with a snap.
+
+@Arg@ со щелчком схлопывается.
+%%%%
+@Arg@ expends the last of its anger.
+
+@Arg@ исчерпывает свою ярость.
+%%%%
+@Arg@ shrivels and dies.
+
+@Arg@ ссыхается и погибает.
+%%%%
+@Arg@ shrivels and falls limp.
+
+@Arg@ сморщивается и безвольно обвисает.
+%%%%
+A nearby @arg@ perishes wretchedly.
+
+Поблизости в муках гибнет {nom}@arg@.
+%%%%
+A nearby @arg@ withers and dies.
+
+Поблизости увядает и погибает {nom}@arg@.
+%%%%
+@Arg@ sinks to the bottom.
+
+@Arg@ опускается на дно.
+%%%%
+@Arg@ disappears in a burst of colours!
+
+@Arg@ исчезает во вспышке красок!
+%%%%
+@Arg@ returns to the grave!
+
+@Arg@ возвращается в могилу!
+%%%%
+@Arg@ turns back into a lifeless stick!
+
+@Arg@ вновь превращается в безжизненную палку!

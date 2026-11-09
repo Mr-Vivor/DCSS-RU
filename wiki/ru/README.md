@@ -563,3 +563,16 @@
 | `monster.vashnia` | [Вашния](pages/monster.vashnia.md) | Vashnia | reviewed |
 | `monster.vv` | [Вв](pages/monster.vv.md) | Vv | reviewed |
 | `monster.zenata` | [Зената](pages/monster.zenata.md) | Zenata | reviewed |
+| `monster.eleionoma` | [Элеионома](pages/monster.eleionoma.md) | eleionoma | reviewed |
+| `monster.fenstrider_witch` | [Болотная ведьма](pages/monster.fenstrider_witch.md) | fenstrider witch | reviewed |
+| `item.troll_leather_armour` | [Доспех из кожи тролля](pages/item.troll_leather_armour.md) | troll leather armour | reviewed |
+| `item.fire_dragon_scales` | [Чешуя огненного дракона](pages/item.fire_dragon_scales.md) | fire dragon scales | reviewed |
+| `item.ice_dragon_scales` | [Чешуя ледяного дракона](pages/item.ice_dragon_scales.md) | ice dragon scales | reviewed |
+| `item.steam_dragon_scales` | [Чешуя парового дракона](pages/item.steam_dragon_scales.md) | steam dragon scales | reviewed |
+| `item.acid_dragon_scales` | [Чешуя кислотного дракона](pages/item.acid_dragon_scales.md) | acid dragon scales | reviewed |
+| `item.storm_dragon_scales` | [Чешуя грозового дракона](pages/item.storm_dragon_scales.md) | storm dragon scales | reviewed |
+| `item.golden_dragon_scales` | [Чешуя золотого дракона](pages/item.golden_dragon_scales.md) | golden dragon scales | reviewed |
+| `item.swamp_dragon_scales` | [Чешуя болотного дракона](pages/item.swamp_dragon_scales.md) | swamp dragon scales | reviewed |
+| `item.pearl_dragon_scales` | [Чешуя жемчужного дракона](pages/item.pearl_dragon_scales.md) | pearl dragon scales | reviewed |
+| `item.shadow_dragon_scales` | [Чешуя теневого дракона](pages/item.shadow_dragon_scales.md) | shadow dragon scales | reviewed |
+| `item.quicksilver_dragon_scales` | [Чешуя ртутного дракона](pages/item.quicksilver_dragon_scales.md) | quicksilver dragon scales | reviewed |
