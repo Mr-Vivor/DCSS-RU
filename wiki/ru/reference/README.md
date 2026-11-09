@@ -1816,7 +1816,7 @@
 - [-СкМол](status/no-bbolt-status.md)
 - [Заряд-](status/charge-status.md)
 - [Волны](status/wave-status.md)
-- [ЛедСтены](status/ramparts-status.md)
+- [Ледяные стены](status/ramparts-status.md)
 - [Болото](status/bog-status.md)
 - [Прозрение](status/enlightened-status.md)
 - [Жатва](status/reap-status.md)

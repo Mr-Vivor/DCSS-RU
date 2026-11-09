@@ -1,4 +1,4 @@
-# ЛедСтены
+# Ледяные стены
 
 **English:** Ramparts status
 
