@@ -152,6 +152,7 @@ class StaticTranslationTests(unittest.TestCase):
         self.assertTrue(message_syntax_matches("Roots grab @arg@.", "Корни хватают {acc}@arg@."))
         self.assertTrue(message_syntax_matches("You can @arg@.", "Вы можете {verb-inf}@arg@."))
         self.assertTrue(message_syntax_matches("The @sinners@...", "{zin-sinners-nom}@sinners@..."))
+        self.assertTrue(message_syntax_matches("Blocked: @reasons@.", "Запрет: {teleport-blocker}@reasons@."))
         self.assertFalse(message_syntax_matches("You hit @arg@.", "Вы ударяете {acc}."))
         self.assertFalse(message_syntax_matches("<red>@arg@</red>", "{acc}@arg@"))
         self.assertFalse(message_syntax_matches("Hit @arg@.", "Удар {shop}@arg@."))

@@ -325,6 +325,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(make_stringf(localise("%s has regained 2 charges.").c_str(),
                        localise("phial of floods").c_str())
           == "Предмет «флакон потопа» восстановил 2 заряда.");
+    CHECK(localise("You cannot blink because you are locked down by a dimension anchor and wielding a dagger.")
+          == "Нельзя совершить скачок: действует пространственный якорь и у вас в руках кинжал.");
+    CHECK(localise("Your weapon, crown and divine halo glow too brightly for you to become invisible.")
+          == "Невидимости мешает яркое свечение: оружие, корона и божественный ореол.");
+    CHECK(localise("You are dangerously contaminated with residual magic. (up to 12 damage)")
+          == "Вы опасно загрязнены остаточной магией. (урон: до 12)");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
           == "Вы сжимаете фигурку многоножки манипулятором. Она обвивается вокруг руки и срастается с вашим телом.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")

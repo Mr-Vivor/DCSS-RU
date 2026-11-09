@@ -87,13 +87,13 @@ def message_syntax_matches(source, target):
     translated = Counter(map(argument_identity, tokens(target)))
     grammatical = {"{nom}", "{gen}", "{dat}", "{acc}", "{ins}", "{prep}",
                    "{verb-inf}", "{verb-you}"}
-    # Recite uses nouns, predicative adjectives and participles with different
-    # senses from equipment/status labels. These finite, scoped dictionaries
-    # use the engine's existing context tokens; arguments remain protected.
+    # Recite and teleport blockers need senses/forms distinct from equipment
+    # labels. Finite scoped dictionaries use existing engine context tokens;
+    # arguments remain protected.
     grammatical.update("{" + name + "}" for name in (
         "zin-sinners-nom", "zin-sinners-gen", "zin-sinners-acc", "zin-sinners-dat",
         "zin-sin-adj", "zin-sin-noun", "zin-virtue", "zin-virtuous",
-        "zin-smite", "zin-smitten"))
+        "zin-smite", "zin-smitten", "teleport-blocker"))
     return not (original - translated) and all(t in grammatical for t in translated - original)
 
 

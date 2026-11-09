@@ -51826,11 +51826,11 @@ More barbed spikes become lodged in your body.
 %%%%
 You can't survive in this terrain! You fly above the lava, but the process is draining.
 
-Здесь вы не выживете! Вы держитесь в воздухе над лавой, но это истощает ваши жизненные силы.
+Здесь вы не выживете! Вы держитесь в воздухе над лавой, но это уменьшает ваш максимальный запас здоровья.
 %%%%
 You can't survive in this terrain! You fly above the water, but the process is draining.
 
-Здесь вы не выживете! Вы держитесь в воздухе над водой, но это истощает ваши жизненные силы.
+Здесь вы не выживете! Вы держитесь в воздухе над водой, но это уменьшает ваш максимальный запас здоровья.
 %%%%
 You shrug off the repeated attempt to disable you.
 
@@ -63391,3 +63391,127 @@ Angry insects surge out from beneath @treant@' foliage!
 @Arg@' lost momentum returns!
 
 @Arg@ вновь начинает быстро двигаться!
+%%%%
+You are dangerously contaminated with residual magic.
+
+Вы опасно загрязнены остаточной магией.
+%%%%
+You are extremely contaminated with residual magic.
+
+На вас крайне много остаточной магии.
+%%%%
+You are completely saturated with residual magic!
+
+Остаточная магия переполняет вас!
+%%%%
+lightly contaminated
+
+слабое магическое загрязнение
+%%%%
+dangerously contaminated
+
+опасное магическое загрязнение
+%%%%
+extremely contaminated
+
+крайне сильное магическое загрязнение
+%%%%
+completely saturated
+
+предельное магическое загрязнение
+%%%%
+@Description@ (up to @num@ damage)
+
+@Description@ (урон: до @num@)
+%%%%
+Your body glows too brightly to become invisible.
+
+Ваше тело светится слишком ярко для невидимости.
+%%%%
+Your @sources@ glows too brightly for you to become invisible.
+
+Невидимости мешает яркое свечение: {nom}@sources@.
+%%%%
+Your @sources@ glow too brightly for you to become invisible.
+
+Невидимости мешает яркое свечение: {nom}@sources@.
+%%%%
+You are backlit; invisibility will do you no good right now.
+
+Свечение выдаёт вас; невидимость сейчас не поможет.
+%%%%
+You are backlit; invisibility will do you no good right now; use anyway?
+
+Свечение выдаёт вас; невидимость сейчас не поможет. Всё равно использовать?
+%%%%
+You cannot blink because you are @reasons@.
+
+Нельзя совершить скачок: {teleport-blocker}@reasons@.
+%%%%
+You cannot teleport because you are @reasons@.
+
+Нельзя телепортироваться: {teleport-blocker}@reasons@.
+%%%%
+{teleport-blocker}locked down by a dimension anchor
+
+{teleport-blocker}действует пространственный якорь
+%%%%
+{teleport-blocker}held in place by your roots
+
+{teleport-blocker}вас удерживают корни
+%%%%
+{teleport-blocker}wielding @arg@
+
+{teleport-blocker}у вас в руках {nom}@arg@
+%%%%
+{teleport-blocker}wearing @arg@
+
+{teleport-blocker}на вас {nom}@arg@
+%%%%
+{teleport-blocker_one}wearing @num@ artefacts preventing teleportation
+
+{teleport-blocker_one}на вас @num@ артефакт, блокирующий телепортацию
+%%%%
+{teleport-blocker_few}wearing @num@ artefacts preventing teleportation
+
+{teleport-blocker_few}на вас @num@ артефакта, блокирующих телепортацию
+%%%%
+{teleport-blocker_many}wearing @num@ artefacts preventing teleportation
+
+{teleport-blocker_many}на вас @num@ артефактов, блокирующих телепортацию
+%%%%
+{teleport-blocker}wearing @num@ artefacts preventing teleportation
+
+{teleport-blocker}на вас @num@ артефактов, блокирующих телепортацию
+%%%%
+{teleport-blocker_one}wearing @num@ items preventing teleportation
+
+{teleport-blocker_one}на вас @num@ предмет, блокирующий телепортацию
+%%%%
+{teleport-blocker_few}wearing @num@ items preventing teleportation
+
+{teleport-blocker_few}на вас @num@ предмета, блокирующих телепортацию
+%%%%
+{teleport-blocker_many}wearing @num@ items preventing teleportation
+
+{teleport-blocker_many}на вас @num@ предметов, блокирующих телепортацию
+%%%%
+{teleport-blocker}wearing @num@ items preventing teleportation
+
+{teleport-blocker}на вас @num@ предметов, блокирующих телепортацию
+%%%%
+{nom}weapon
+
+{nom}оружие
+%%%%
+{nom}crown
+
+{nom}корона
+%%%%
+{nom}armour
+
+{nom}броня
+%%%%
+{nom}divine halo
+
+{nom}божественный ореол
