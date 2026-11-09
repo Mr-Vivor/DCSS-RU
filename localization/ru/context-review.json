@@ -32067,12 +32067,12 @@
       "translation_sha256": "56925b9503c7bc6f831edb6312bf74a992fd330b7ad4e23a941c0c707e80b67d"
     },
     "Could not pick up @arg@ here; Ignore it?": {
-      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
-      "translation_sha256": "8a5db5def9525eaf3cc907a8a66cec4ff2201e42cf6ec7c146fa958fc3c2f8ef"
+      "context": "travel.cc auto-pickup ignore prompt. Imported @arg@ and newer @items@ are structurally identical matching patterns, so both aliases must carry the same reviewed wording and accusative case. Keep the required imported key; do not depend on runtime dictionary iteration order.",
+      "translation_sha256": "cc99ebf02bea7c4bb304f604cb68676b03c88339ca4dd2c64f286f255506d756"
     },
     "Could not pick up @arg@ here; Ignore them?": {
-      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
-      "translation_sha256": "fc5e91b820fcf40e2a3a704be5336c64ccb05ae1f6d365e427e3fc8fc133a12d"
+      "context": "travel.cc auto-pickup ignore prompt. Imported @arg@ and newer @items@ are structurally identical matching patterns, so both aliases must carry the same reviewed wording and accusative case. Keep the required imported key; do not depend on runtime dictionary iteration order.",
+      "translation_sha256": "9f3e44d49df49cfc8eef4bdb957aecbfb6dc8ca2b636c24f03007cb8c1c8ee13"
     },
     "You appear to be waiting for the end of something which may never occur. Examine your explore_auto_rest_status option.": {
       "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
