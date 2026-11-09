@@ -1292,7 +1292,7 @@ function (exports, $, key_conversion, chat, comm) {
         if ($("#lobby_live_summary").text() !== summary)
             $("#lobby_live_summary").text(summary);
         $("#player_list").toggle(rows.length > 0);
-        var empty_message = "Сейчас активных игр нет. Когда игрок начнёт забег, здесь появится ссылка «Смотреть».";
+        var empty_message = "Сейчас активных игр нет. Когда кто-нибудь начнёт игру, здесь появится кнопка «Смотреть».";
         if ($("#lobby_empty").text() !== empty_message)
             $("#lobby_empty").text(empty_message);
         $("#lobby_empty").toggle(rows.length === 0);
@@ -1326,11 +1326,11 @@ function (exports, $, key_conversion, chat, comm) {
             var minutes = Math.floor(seconds / 60) % 60;
             $("#server_stats_time").text(hours > 0 ? hours + " ч " + minutes + " мин"
                 : seconds >= 60 ? minutes + " мин" : seconds + " с");
-            $("#server_stats_values, #server_stats_note, #lobby_statistics").show();
+            $("#server_stats_values, #lobby_statistics").show();
             $("#server_stats_error").hide();
         }).fail(function () {
             $("#lobby_statistics").show();
-            $("#server_stats_values, #server_stats_note").hide();
+            $("#server_stats_values").hide();
             $("#server_stats_error").text("Статистика временно недоступна. Попробуем обновить её автоматически.").show();
         }).always(function () {
             statistics_pending = false;
