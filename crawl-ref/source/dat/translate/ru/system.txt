@@ -2886,7 +2886,7 @@ It may silence you when you take damage.
 %%%%
 It inflicts you with a random bane when you equip it.
 
-При надевании накладывает на вас случайное пагубное свойство.
+При надевании накладывает на вас случайное проклятие.
 %%%%
 It increases your willpower.
 
@@ -3578,7 +3578,7 @@ oozemancy
 %%%%
 You are calling forth ooze from nearby walls.
 
-Вы призываете слизь из ближайших стен.
+Вы призываете слизь из стен поблизости.
 %%%%
 You stop calling forth ooze.
 
@@ -12738,7 +12738,7 @@ Ashenzari grants you astral sight.
 %%%%
 step into the shadows of nearby creatures
 
-шагать в тени ближайших существ
+шагать в тени существ поблизости
 %%%%
 You will now sometimes bleed smoke when heavily injured by enemies.
 
@@ -12826,7 +12826,7 @@ call upon nature to destroy your foes
 %%%%
 give life to nearby clouds
 
-оживлять ближайшие облака
+оживлять облака поблизости
 %%%%
 The storm surrounding you is now powerful enough to repel missiles.
 
@@ -12934,7 +12934,7 @@ heal and protect your ancestor
 %%%%
 drain nearby creatures when transferring your ancestor
 
-вытягивать силу ближайших существ при перемещении предка
+вытягивать жизненную силу существ поблизости при перемещении предка
 %%%%
 perform damaging attacks by moving towards foes
 
@@ -30802,7 +30802,7 @@ It extends the wielder's berserk rage when killing foes.
 %%%%
 It occasionally unleashes arcs of chaos on nearby creatures upon striking a foe.
 
-При попадании по врагу иногда выпускает дуги хаоса в ближайших существ.
+При попадании по врагу иногда выпускает дуги хаоса в существ поблизости.
 %%%%
 {unrand-prop}Prune
 
@@ -31082,7 +31082,7 @@ It allows the wearer to make particularly effective stabbing attacks against hel
 %%%%
 It radiates cold, occasionally slowing all nearby creatures who are not resistant to cold.
 
-Излучает холод, иногда замедляя всех ближайших существ без сопротивления холоду.
+Излучает холод, иногда замедляя всех существ поблизости без сопротивления холоду.
 %%%%
 {unrand-prop}Flames
 
@@ -31186,7 +31186,7 @@ It extends the wearer's berserk rage when killing foes.
 %%%%
 It occasionally creates storm clouds above nearby enemies.
 
-Иногда создаёт грозовые облака над ближайшими врагами.
+Иногда создаёт грозовые облака над врагами поблизости.
 %%%%
 {unrand-prop}rCloud
 
@@ -31374,7 +31374,7 @@ It enhances your destructive magic, and weakens non-destructive magic.
 %%%%
 It gathers nearby corpses to temporarily increase the armour it provides.
 
-Собирает ближайшие тела, временно усиливая свою броню.
+Собирает трупы поблизости, временно усиливая защиту, которую даёт.
 %%%%
 {unrand-prop}rMiasma
 
@@ -31626,7 +31626,7 @@ Your cloak can equip an additional pair of gloves.
 %%%%
 You are bathed in light that prevents you from turning invisible. Whenever you enter a new floor, you announce yourself to nearby enemies and refuse to leave the floor again for some time.
 
-Вы залиты светом, не позволяющим стать невидимыми. При входе на новый этаж объявляете о себе ближайшим врагам и некоторое время отказываетесь уходить с этажа.
+Вы залиты светом, не позволяющим стать невидимыми. При входе на новый этаж объявляете о себе врагам поблизости и некоторое время отказываетесь уходить с этажа.
 %%%%
 {unrand-prop}Ring++
 
@@ -36178,7 +36178,7 @@ Lugonu protects you from the effects of unwielding distortion weapons.
 %%%%
 Lugonu may banish nearby foes when other gods try to punish you.
 
-Лугону может изгнать ближайших врагов, когда другие боги пытаются наказать вас.
+Лугону может изгнать врагов поблизости, когда другие боги пытаются наказать вас.
 %%%%
 recall your apostles
 
@@ -36222,7 +36222,7 @@ Jiyva will mutate your body as you gain piety.
 %%%%
 call acidic ooze from nearby walls
 
-призывать едкую слизь из ближайших стен
+призывать едкую слизь из стен поблизости
 %%%%
 Ashenzari will now identify your possessions.
 
@@ -36246,11 +36246,11 @@ Ashenzari protects you from the dungeon's malevolent forces.
 %%%%
 Ashenzari reveals the structure of the nearby dungeon.
 
-Ашензари раскрывает устройство ближайшей части подземелья.
+Ашензари раскрывает устройство подземелья вокруг вас.
 %%%%
 Ashenzari no longer reveals the structure of the nearby dungeon.
 
-Ашензари больше не раскрывает устройство ближайшей части подземелья.
+Ашензари больше не раскрывает устройство подземелья вокруг вас.
 %%%%
 Dithmenos quiets all noise in your surroundings.
 
@@ -47722,19 +47722,19 @@ A fragment of @arg@ soul is dislodged from their body.
 %%%%
 @Arg@ draws nearby shadows into himself.
 
-@Arg@ втягивает в себя ближайшие тени.
+@Arg@ втягивает в себя окружающие тени.
 %%%%
 @Arg@ draws nearby shadows into herself.
 
-@Arg@ втягивает в себя ближайшие тени.
+@Arg@ втягивает в себя окружающие тени.
 %%%%
 @Arg@ draws nearby shadows into itself.
 
-@Arg@ втягивает в себя ближайшие тени.
+@Arg@ втягивает в себя окружающие тени.
 %%%%
 @Arg@ draws nearby shadows into themselves.
 
-@Arg@ втягивает в себя ближайшие тени.
+@Arg@ втягивает в себя окружающие тени.
 %%%%
 @Arg@ corrupts the dungeon around him!
 
@@ -48058,7 +48058,7 @@ You cannot occupy @arg@.
 %%%%
 Slime begins to ooze from the nearby walls!
 
-Из ближайших стен начинает сочиться слизь!
+Из стен поблизости начинает сочиться слизь!
 %%%%
 You challenge @arg@ to single combat, but he is merely a clone!
 
@@ -49142,11 +49142,11 @@ Whenever you drink a potion, you attack all enemies around you.
 %%%%
 You brawl whenever you drink a potion.
 
-Теперь вы вступаете в драку всякий раз, когда пьёте зелье.
+Теперь, выпивая зелье, вы также атакуете всех врагов в пределах ближнего боя.
 %%%%
 You no longer brawl whenever you drink a potion.
 
-Питьё зелий больше не заставляет вас вступать в драку.
+Питьё зелий больше не сопровождается атаками по окружающим врагам.
 %%%%
 You can use scrolls of enchantment on lesser artefacts.
 
@@ -49190,7 +49190,7 @@ You will be able to unleash your equipped armour.
 %%%%
 You gain AC when you inflict magical misfortune on nearby enemies.
 
-Накладывая вредоносные магические эффекты на ближайших врагов, вы усиливаете свою броню.
+Накладывая вредоносные магические эффекты на врагов поблизости, вы усиливаете свою броню.
 %%%%
 You can enhance your damage-dealing spells by burning harvested memories.
 
@@ -51150,7 +51150,7 @@ You feel willing to use your scrolls freely once again.
 %%%%
 You read scrolls incredibly loudly when enemies are in sight.
 
-В поле зрения врагов вы читаете свитки невероятно громко.
+Когда поблизости есть замеченные вами враги, вы читаете свитки невероятно громко.
 %%%%
 You feel your voice swell to a thunderous volume.
 
@@ -51162,7 +51162,7 @@ You voice quiets to a reasonable volume.
 %%%%
 You may spread the effect of potions you drink to nearby monsters.
 
-Эффекты выпитых вами зелий иногда передаются ближайшим монстрам.
+Эффекты выпитых вами зелий иногда передаются монстрам поблизости.
 %%%%
 A symbiotic fungus spreads across your body.
 
@@ -54346,7 +54346,7 @@ roll
 %%%%
 You can roll at nearby foes to attack.
 
-Вы можете перекатываться к ближайшим врагам и атаковать их.
+Вы можете атаковать врагов поблизости перекатом.
 %%%%
 You can roll at foes to attack.
 
@@ -54426,11 +54426,11 @@ Spells you cast may paralyse adjacent enemies.
 %%%%
 Spells you cast may paralyse nearby enemies.
 
-Ваши заклинания могут парализовать ближайших врагов.
+Ваши заклинания могут парализовать врагов поблизости.
 %%%%
 Spells you cast and wands you use may paralyse nearby enemies.
 
-Ваши заклинания и палочки могут парализовать ближайших врагов.
+Ваши заклинания и палочки могут парализовать врагов поблизости.
 %%%%
 A menacing aura infuses your magic.
 
@@ -55290,7 +55290,7 @@ Your tendrils retract into your body.
 %%%%
 You have a small jelly attached to you that senses nearby items.
 
-К вам прикреплён маленький слизень, чувствующий ближайшие предметы.
+К вам прикреплён маленький слизень, чувствующий предметы поблизости.
 %%%%
 Your body partially splits into a small jelly.
 
@@ -55678,7 +55678,7 @@ strong nose
 %%%%
 Your uncanny sense of smell can sniff out nearby items.
 
-Ваше сверхъестественное обоняние позволяет чуять ближайшие предметы.
+Ваше сверхъестественное обоняние позволяет чуять предметы поблизости.
 %%%%
 Your sense of smell grows stronger.
 

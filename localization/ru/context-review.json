@@ -2499,8 +2499,8 @@
       "translation_sha256": "708b61b0067567075e6bb4270649381ba6775a7cc74f4e92a76bec426b44e434"
     },
     "It inflicts you with a random bane when you equip it.": {
-      "context": "describe.cc",
-      "translation_sha256": "98f30744282087d53be43be30ee258fb0677a4c065497452d25cc7ab70b467a5"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "693f91bce4604d691c016fca9dc4f4567a4bb79c38d0df664217806d0894d945"
     },
     "It increases your willpower.": {
       "context": "describe.cc",
@@ -3195,8 +3195,8 @@
       "translation_sha256": "b00064bb1f1f23bc76191b1be3870c0dc799f0a31f10d2967fcb8c829548c19a"
     },
     "You are calling forth ooze from nearby walls.": {
-      "context": "duration-data.h (current 0.35 effects); status.cc",
-      "translation_sha256": "0591f88899d587f3002eb44bd46747bcad3ca1dde271a21599cff6908bc2fc3a"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "90f4bb1f915ca4d553e43fc81067594bb1907e341ac1b9da7269a689544909af"
     },
     "You stop calling forth ooze.": {
       "context": "duration-data.h (current 0.35 effects); status.cc",
@@ -12355,8 +12355,8 @@
       "translation_sha256": "9294a4c3aaf5a092784964376c96930a1522b79d4673a7b50f1870938d0cd5a8"
     },
     "step into the shadows of nearby creatures": {
-      "context": "religion.cc",
-      "translation_sha256": "da7f65c1776410adea8d3c17e070e7e5f8cefb7e5e714af56d4d4e8e055be712"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "96f89e81ef2a12f580c382df92168442521266c6a08913384f14d36362cf09bb"
     },
     "You will now sometimes bleed smoke when heavily injured by enemies.": {
       "context": "religion.cc",
@@ -12443,8 +12443,8 @@
       "translation_sha256": "d2a3f20654b9e56d01bd8a357073d762f1b2f73db1bed421f27e16c10242a9f2"
     },
     "give life to nearby clouds": {
-      "context": "religion.cc",
-      "translation_sha256": "679c5be8b6553ece7ac843fe6581b507251c35020af3fa9ef4905277bb3136ef"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "c74fe4b1f58e305fdb3465e7d76609cf8c3b208dae5a1fe4cedc13f38191faa2"
     },
     "The storm surrounding you is now powerful enough to repel missiles.": {
       "context": "religion.cc",
@@ -12551,8 +12551,8 @@
       "translation_sha256": "dec017afc09d2c9e66b4bed1d869d1fbd4dbc4c8a3136b510756641cfc4f5f79"
     },
     "drain nearby creatures when transferring your ancestor": {
-      "context": "religion.cc",
-      "translation_sha256": "6fbb3107cb2a88958eeb9a2058f9f3585b1154ea82065a6120dc752be27e999a"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "56b4b62b87eeac142e29bd0bd62e9c4c124812c435eb1d8ef99c51b1fa1e912c"
     },
     "perform damaging attacks by moving towards foes": {
       "context": "religion.cc",
@@ -30447,8 +30447,8 @@
       "translation_sha256": "eecf3377660e9d3e623980e920ee2b8da088647206c85939237a01ce81739c03"
     },
     "It occasionally unleashes arcs of chaos on nearby creatures upon striking a foe.": {
-      "context": "art-data.txt:mace of Variability:DBRAND; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "45e4026c63fbc4c0419d3ea1476abc0b1f3361c416d5d92807cd397afb1444cc"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "8e9d8c36c3698908c2ef756855f02345b3a2289660490c2bf34ff285d85866e5"
     },
     "{unrand-prop}Prune": {
       "context": "art-data.txt:partisan of Prune:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -30727,8 +30727,8 @@
       "translation_sha256": "01ee0017879c29927034edeb972b2b8220f90575284ebd77aa351802b5296fd5"
     },
     "It radiates cold, occasionally slowing all nearby creatures who are not resistant to cold.": {
-      "context": "art-data.txt:skin of Zhor:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "349a3949be8a760f0d010afbde638486d073b79ac79c5538e590367459e96f76"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "29df7b582675b44b171d6086b9a40f3d3c77fdce048cb8f582b84ba7f0eab27a"
     },
     "{unrand-prop}Flames": {
       "context": "art-data.txt:salamander hide armour:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -30831,8 +30831,8 @@
       "translation_sha256": "6ec9ac9abf4f9547b3425cd0836f029cd1afe9d47d22a96e5fe7e38fad9bb648"
     },
     "It occasionally creates storm clouds above nearby enemies.": {
-      "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "fc75d9ef9ebfd9e909c775aa6d1cfcb1e29d660ae434bc7328d093dcd58eccb0"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "50747d3ada72cc0b5a451fe56a66788fa8781ae1ebd81fa80839f8f4abb46950"
     },
     "{unrand-prop}rCloud": {
       "context": "art-data.txt:robe of Clouds:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -31019,8 +31019,8 @@
       "translation_sha256": "56499f4f01985d2b0c60325340ec393bd68dd6213061f8405ad8cbadb0933745"
     },
     "It gathers nearby corpses to temporarily increase the armour it provides.": {
-      "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "f5c5bbd66ddda1097e717d44bf45363bfbf6e44c48bb20d55de6ef06bb5847ac"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "b7f712e99141d14d189cbdd869f32c85855cebd2b31c38cf292254a1dda325a9"
     },
     "{unrand-prop}rMiasma": {
       "context": "art-data.txt:Cigotuvi's embrace:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -31271,8 +31271,8 @@
       "translation_sha256": "e7be4174a9e0b7928a79e2dc11b564b16cc88a90dd78f573a449dd1692d1ba59"
     },
     "You are bathed in light that prevents you from turning invisible. Whenever you enter a new floor, you announce yourself to nearby enemies and refuse to leave the floor again for some time.": {
-      "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
-      "translation_sha256": "2bdf6541d318f4806745a09a851dac5655d23b7c5604096451a689cc46251a6e"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "87aec790ac6522b978e7f7da32c4e4a7b8a8f066c98d0fdd7acaa1fef5933168"
     },
     "{unrand-prop}Ring++": {
       "context": "art-data.txt:crown of vainglory:DESCRIP; current ability, condition, cost and exceptions checked",
@@ -35867,8 +35867,8 @@
       "translation_sha256": "8ff4d930d7b9052c33d77ebec33a59013e3e1ce48a08591ed6542615f9588acc"
     },
     "Lugonu may banish nearby foes when other gods try to punish you.": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "92703cd9493d00148388e8ee0c664ad0f2e5e83658b2b0e27bef0eb493698bea"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "b93d9097bc28b7f1dbf64dbff2483ab7793ac3f0865783feb10790a42a97e019"
     },
     "recall your apostles": {
       "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
@@ -35911,8 +35911,8 @@
       "translation_sha256": "49ddb43d68f95c2be07a192d076e68213c9f595c9bc392d100dc34d540320729"
     },
     "call acidic ooze from nearby walls": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "14498cdaa0ae7db967ed1f18ec3888ab3e7dd623109828340d7bf1a14261643a"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "f8743c8f080e20aadc25f7160824612f047d1091015bd06b96d0c421a9fce4f3"
     },
     "Ashenzari will now identify your possessions.": {
       "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
@@ -35935,12 +35935,12 @@
       "translation_sha256": "5a3ee4465207b8037b5ed126a0343d90ba9fe6d4a7d997d6ac33ec7c48df101d"
     },
     "Ashenzari reveals the structure of the nearby dungeon.": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "4f708844fc9135a229467c5bbd00ffa788397859edf65e52a1a6a4eb3401d3d2"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "9349e389394730eb4cdb91b497704f775bf6c22baea275aac07e5eef8389544a"
     },
     "Ashenzari no longer reveals the structure of the nearby dungeon.": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "bff9354d0da3a328def6413ab12c1abd5521e8b3b8585b3c9628a0a53da618ef"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "09f7b0636c7078c28007acc3443c2af4c3502de62a50364d2670e98f2600e3f5"
     },
     "Dithmenos quiets all noise in your surroundings.": {
       "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
@@ -47427,20 +47427,20 @@
       "translation_sha256": "41e3e8314b224d624e4f83c6ce2688f5f5416b7b431961d2957fb6729de2c37d"
     },
     "@Arg@ draws nearby shadows into himself.": {
-      "context": "mon-cast.cc BOLSTER/PHASE_SHIFT/SHADOW_BIND/SHADOW_DRAINING/SHRED, _brain_bite/_print_battlecry_announcement/_awaken_flesh/_corrupt_locale, _prayer_of_brilliance/_mons_mesmerise/_mesmerise_los/_mons_vortex, WATERSTRIKE/VANQUISHED_VANGUARD/BESTOW_ARMS/LAUNCH_SPORANGIUM and simple_monster_message need_possessive in message.cc. spl-summoning.cc armour echo, sphinx sisters, prisms, marshlight, ice cannonade, hellfire mortar, soul splinter, alembic and bomblets; spl-damage.cc Scorch/Glaciate/Jinxbite and spl-clouds.cc holy flames. Whole current rendered frames, not blind word substitutions. Shadow binding restricts movement without claiming paralysis. Hunting Call increases movement speed; Bolster is not healing or max HP. Healing does not promise full health; Scorch reduces fire resistance. Possessive pronoun variants are fixed English text so no incorrect Russian reflexive pronouns are assembled. Waterstrike punctuation and actor accusative are retained. Visible/unseen casters, one/multiple piles, one/pair of sphinxes and cannons remain distinct. Raw names, spell IDs, damage, resistances, timers, targets, visibility, RNG and resources unchanged.",
-      "translation_sha256": "799c19cb3b00e6fc175839282eaf5cfb9d998992974c267af5dae8bba30d6ff6"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "3a79dfdd46d0d9b412dc6c813e4c371596608c94452006fd4abf3f35544eb31c"
     },
     "@Arg@ draws nearby shadows into herself.": {
-      "context": "mon-cast.cc BOLSTER/PHASE_SHIFT/SHADOW_BIND/SHADOW_DRAINING/SHRED, _brain_bite/_print_battlecry_announcement/_awaken_flesh/_corrupt_locale, _prayer_of_brilliance/_mons_mesmerise/_mesmerise_los/_mons_vortex, WATERSTRIKE/VANQUISHED_VANGUARD/BESTOW_ARMS/LAUNCH_SPORANGIUM and simple_monster_message need_possessive in message.cc. spl-summoning.cc armour echo, sphinx sisters, prisms, marshlight, ice cannonade, hellfire mortar, soul splinter, alembic and bomblets; spl-damage.cc Scorch/Glaciate/Jinxbite and spl-clouds.cc holy flames. Whole current rendered frames, not blind word substitutions. Shadow binding restricts movement without claiming paralysis. Hunting Call increases movement speed; Bolster is not healing or max HP. Healing does not promise full health; Scorch reduces fire resistance. Possessive pronoun variants are fixed English text so no incorrect Russian reflexive pronouns are assembled. Waterstrike punctuation and actor accusative are retained. Visible/unseen casters, one/multiple piles, one/pair of sphinxes and cannons remain distinct. Raw names, spell IDs, damage, resistances, timers, targets, visibility, RNG and resources unchanged.",
-      "translation_sha256": "799c19cb3b00e6fc175839282eaf5cfb9d998992974c267af5dae8bba30d6ff6"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "3a79dfdd46d0d9b412dc6c813e4c371596608c94452006fd4abf3f35544eb31c"
     },
     "@Arg@ draws nearby shadows into itself.": {
-      "context": "mon-cast.cc BOLSTER/PHASE_SHIFT/SHADOW_BIND/SHADOW_DRAINING/SHRED, _brain_bite/_print_battlecry_announcement/_awaken_flesh/_corrupt_locale, _prayer_of_brilliance/_mons_mesmerise/_mesmerise_los/_mons_vortex, WATERSTRIKE/VANQUISHED_VANGUARD/BESTOW_ARMS/LAUNCH_SPORANGIUM and simple_monster_message need_possessive in message.cc. spl-summoning.cc armour echo, sphinx sisters, prisms, marshlight, ice cannonade, hellfire mortar, soul splinter, alembic and bomblets; spl-damage.cc Scorch/Glaciate/Jinxbite and spl-clouds.cc holy flames. Whole current rendered frames, not blind word substitutions. Shadow binding restricts movement without claiming paralysis. Hunting Call increases movement speed; Bolster is not healing or max HP. Healing does not promise full health; Scorch reduces fire resistance. Possessive pronoun variants are fixed English text so no incorrect Russian reflexive pronouns are assembled. Waterstrike punctuation and actor accusative are retained. Visible/unseen casters, one/multiple piles, one/pair of sphinxes and cannons remain distinct. Raw names, spell IDs, damage, resistances, timers, targets, visibility, RNG and resources unchanged.",
-      "translation_sha256": "799c19cb3b00e6fc175839282eaf5cfb9d998992974c267af5dae8bba30d6ff6"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "3a79dfdd46d0d9b412dc6c813e4c371596608c94452006fd4abf3f35544eb31c"
     },
     "@Arg@ draws nearby shadows into themselves.": {
-      "context": "mon-cast.cc BOLSTER/PHASE_SHIFT/SHADOW_BIND/SHADOW_DRAINING/SHRED, _brain_bite/_print_battlecry_announcement/_awaken_flesh/_corrupt_locale, _prayer_of_brilliance/_mons_mesmerise/_mesmerise_los/_mons_vortex, WATERSTRIKE/VANQUISHED_VANGUARD/BESTOW_ARMS/LAUNCH_SPORANGIUM and simple_monster_message need_possessive in message.cc. spl-summoning.cc armour echo, sphinx sisters, prisms, marshlight, ice cannonade, hellfire mortar, soul splinter, alembic and bomblets; spl-damage.cc Scorch/Glaciate/Jinxbite and spl-clouds.cc holy flames. Whole current rendered frames, not blind word substitutions. Shadow binding restricts movement without claiming paralysis. Hunting Call increases movement speed; Bolster is not healing or max HP. Healing does not promise full health; Scorch reduces fire resistance. Possessive pronoun variants are fixed English text so no incorrect Russian reflexive pronouns are assembled. Waterstrike punctuation and actor accusative are retained. Visible/unseen casters, one/multiple piles, one/pair of sphinxes and cannons remain distinct. Raw names, spell IDs, damage, resistances, timers, targets, visibility, RNG and resources unchanged.",
-      "translation_sha256": "799c19cb3b00e6fc175839282eaf5cfb9d998992974c267af5dae8bba30d6ff6"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "3a79dfdd46d0d9b412dc6c813e4c371596608c94452006fd4abf3f35544eb31c"
     },
     "@Arg@ corrupts the dungeon around him!": {
       "context": "mon-cast.cc BOLSTER/PHASE_SHIFT/SHADOW_BIND/SHADOW_DRAINING/SHRED, _brain_bite/_print_battlecry_announcement/_awaken_flesh/_corrupt_locale, _prayer_of_brilliance/_mons_mesmerise/_mesmerise_los/_mons_vortex, WATERSTRIKE/VANQUISHED_VANGUARD/BESTOW_ARMS/LAUNCH_SPORANGIUM and simple_monster_message need_possessive in message.cc. spl-summoning.cc armour echo, sphinx sisters, prisms, marshlight, ice cannonade, hellfire mortar, soul splinter, alembic and bomblets; spl-damage.cc Scorch/Glaciate/Jinxbite and spl-clouds.cc holy flames. Whole current rendered frames, not blind word substitutions. Shadow binding restricts movement without claiming paralysis. Hunting Call increases movement speed; Bolster is not healing or max HP. Healing does not promise full health; Scorch reduces fire resistance. Possessive pronoun variants are fixed English text so no incorrect Russian reflexive pronouns are assembled. Waterstrike punctuation and actor accusative are retained. Visible/unseen casters, one/multiple piles, one/pair of sphinxes and cannons remain distinct. Raw names, spell IDs, damage, resistances, timers, targets, visibility, RNG and resources unchanged.",
@@ -47767,8 +47767,8 @@
       "translation_sha256": "c1c0402b561366f32c6b5c1935dad0cd5467e08f511ade25dfdf930e89f7835c"
     },
     "Slime begins to ooze from the nearby walls!": {
-      "context": "Current god-abil.cc Okawaru duel targeting, clone failure, arena healing; Makhleb infernal servant hostility, infernal marks, Atrocity, Legion, Vessel and Crucible; Hepliaklqana idealise/transference. religion.cc _regain_memory/_regain_item_memory/upgrade_hepliaklqana_ancestor and weapon/shield upgrade tables. mutation-data.h exact names, gain/status messages for nine marks and four destruction upgrades; current mutations.txt. Mark names have shared nominative/accusative contexts. Destruction is not damnation or ordinary fire; Magma replaces cold, Devastation replaces lightning, Dis replaces negative energy. Idealisation can partially heal; arena roar heals half missing HP, not full health. Nostalgia drains monsters rather than slows them. Ancestor remembers equipment and abilities, not player skill levels; fixed possessive pronoun variants avoid wrong gender. Celebrant triggers at HP <= 50% per god-passive.cc, despite below in the English database; fineff.cc can fire leftover blood arrows randomly. No costs, thresholds, target checks, spell/weapon IDs, save data or RNG changed.",
-      "translation_sha256": "301b9722f7c38e714f634a761e500f0e232dacfeff0508c46d3c8db479a6479a"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "9fe19ab97c9574729b4f6b8a9ff1c959354fc6e3292ddea8c4db93556bfb53aa"
     },
     "You challenge @arg@ to single combat, but he is merely a clone!": {
       "context": "spl-goditem.cc dispelling resistance, Fortress Blast cancellation and dreamshard rescue; spl-monench.cc Enfeeble, Rimeblight, Sign of Ruin and Gloom; spl-selfench.cc fiery armour, Fugue, Jinxbite and catalyst; spl-damage.cc cold/fire attacks, Jinxbite side messages and chain lightning; god-abil.cc equipment blessings, Beogh blood prayer and Okawaru illusion challenge. Messages translate completed runtime sentences rather than printf placeholders. Expand known verbs/pronouns and punctuation only; do not alter damage, targets, visibility or spell decisions. Case markers apply to creature/item/body-part names, not English possessive pronouns. Use existing spell names and distinguish slowed energy recovery from paralysis.",
@@ -48851,12 +48851,12 @@
       "translation_sha256": "15fa2ff400fb361a52e7a62a54ab0b495912f3cbc3cc9b53faa81b8a43dc70d8"
     },
     "You brawl whenever you drink a potion.": {
-      "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
-      "translation_sha256": "92fa5c4104a3b5f60d39fb18b9ef97d52b3308aa64b23357ef755b4a8e193d13"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "02058dbed703dfd33f6afef4ce1ee09be4fe933a39d514da94d99371fa29d4da"
     },
     "You no longer brawl whenever you drink a potion.": {
-      "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
-      "translation_sha256": "0a7c0e7e5a64b088375e27217c010bd11a563fac802e8068af2a2058075c2bce"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "8d13e579af54db45eec05142cd6520c3c8464f3440f0273f2c5a123bf956ef9d"
     },
     "You can use scrolls of enchantment on lesser artefacts.": {
       "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
@@ -48899,8 +48899,8 @@
       "translation_sha256": "a5534925e7387a52340e5e5ba1fcffa05a838ffebb4e7ccc41ff9f89a0c33262"
     },
     "You gain AC when you inflict magical misfortune on nearby enemies.": {
-      "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
-      "translation_sha256": "ee44bdb7490fb02b09df9c4cc4b22820ffc1fbb12184916a85125547ab169d0d"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "29edc82886927e1d1b7cffebe2ac362679f1a22ac4018e7a3e7380b5ab2d75d2"
     },
     "You can enhance your damage-dealing spells by burning harvested memories.": {
       "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
@@ -50859,8 +50859,8 @@
       "translation_sha256": "9eb2105f0344eecb22610b4736e5f0fe47eec92d12b7b0d5eecb14e7a1ea4c9e"
     },
     "You read scrolls incredibly loudly when enemies are in sight.": {
-      "context": "Current mutation-data.h exact have/gain/lose/will-gain strings and mutation.cc assembled numeric armour/shield lines. Current bad attributes are -3 per level; Meek Slay is -3/-5/-7. Evolution/Devolution have beneficial/detrimental hidden potential respectively. Inexperience reduces XL rather than training all skills. Renounced potions/scrolls work below half HP; plentiful food does not replace HP recovery. Retain actual dynamic AC/SH values in full patterns instead of translating unfinished numeric prefixes. Distinguish no jewellery from no rings. Maw status reconciled with melee-attack.cc _devour and FormMaw: devouring grants Engorged regeneration, stronger victims extend duration and Shapeshifting improves rate. Fleshless is lack of flesh/metabolism, not an insubstantial-body immunity claim.",
-      "translation_sha256": "9fa825e757ff06214a431a069bb2b6d1ef59162d16e97b36fdd800526e1f622a"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "1712ad02427f4aeace268416fa6c9eb1cb56369aef3ef52b15c9c87b87b8a67f"
     },
     "You feel your voice swell to a thunderous volume.": {
       "context": "Current mutation-data.h exact have/gain/lose/will-gain strings and mutation.cc assembled numeric armour/shield lines. Current bad attributes are -3 per level; Meek Slay is -3/-5/-7. Evolution/Devolution have beneficial/detrimental hidden potential respectively. Inexperience reduces XL rather than training all skills. Renounced potions/scrolls work below half HP; plentiful food does not replace HP recovery. Retain actual dynamic AC/SH values in full patterns instead of translating unfinished numeric prefixes. Distinguish no jewellery from no rings. Maw status reconciled with melee-attack.cc _devour and FormMaw: devouring grants Engorged regeneration, stronger victims extend duration and Shapeshifting improves rate. Fleshless is lack of flesh/metabolism, not an insubstantial-body immunity claim.",
@@ -50871,8 +50871,8 @@
       "translation_sha256": "73a4dab58e1deaf944de93f6e3f2d512bf7585f372ba110c8290e28d8692be42"
     },
     "You may spread the effect of potions you drink to nearby monsters.": {
-      "context": "Current mutation-data.h exact have/gain/lose/will-gain strings and mutation.cc assembled numeric armour/shield lines. Current bad attributes are -3 per level; Meek Slay is -3/-5/-7. Evolution/Devolution have beneficial/detrimental hidden potential respectively. Inexperience reduces XL rather than training all skills. Renounced potions/scrolls work below half HP; plentiful food does not replace HP recovery. Retain actual dynamic AC/SH values in full patterns instead of translating unfinished numeric prefixes. Distinguish no jewellery from no rings. Maw status reconciled with melee-attack.cc _devour and FormMaw: devouring grants Engorged regeneration, stronger victims extend duration and Shapeshifting improves rate. Fleshless is lack of flesh/metabolism, not an insubstantial-body immunity claim.",
-      "translation_sha256": "6c567bd0012cb805a153acd85f1d2e40ba81328a26fbb8cd5d34346a1fd4bb26"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "1ba056c6b7e30a7880ca6b02f4e5b4d1a1f8e29228041cc29da65a57d1a549ef"
     },
     "A symbiotic fungus spreads across your body.": {
       "context": "Current mutation-data.h exact have/gain/lose/will-gain strings and mutation.cc assembled numeric armour/shield lines. Current bad attributes are -3 per level; Meek Slay is -3/-5/-7. Evolution/Devolution have beneficial/detrimental hidden potential respectively. Inexperience reduces XL rather than training all skills. Renounced potions/scrolls work below half HP; plentiful food does not replace HP recovery. Retain actual dynamic AC/SH values in full patterns instead of translating unfinished numeric prefixes. Distinguish no jewellery from no rings. Maw status reconciled with melee-attack.cc _devour and FormMaw: devouring grants Engorged regeneration, stronger victims extend duration and Shapeshifting improves rate. Fleshless is lack of flesh/metabolism, not an insubstantial-body immunity claim.",
@@ -54107,8 +54107,8 @@
       "translation_sha256": "6aa8426c96e7d97cdcae2a740ac3ac6d858f7f6672409fde173bd869cc012fd4"
     },
     "You can roll at nearby foes to attack.": {
-      "context": "Mutation short have/gain/lose catalogue: appendages, tails, wings, roll, fur, mapping, Demonspawn powers, gelatinous body, eyes, translucency, pseudopods, repulsion, scales and sanguine armour. Detailed mechanics checked against reviewed current mutation descriptions. Tentacle spike grows/shrinks, not the whole tentacle. Roll means movement toward foes, not a roll of material or retreat. Wands are палочки. Slay is accuracy/damage, Wiz spell success, ER armour encumbrance, regeneration health recovery, augmentation not Strength. Source numeric suffixes are preserved exactly and only their labels translated; legacy strings keep legacy values. Repulsion deflects missiles, not reflection back at the attacker. Miasma, invisibility detection and spellcasting remain distinct. Raw game IDs unchanged.",
-      "translation_sha256": "39a145699299a7320fef13215ec69e71a65894565fd5edb25390017403055170"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "dc978f382213d69db3abe4569b1fc154ff91d65428801a7f72ec370705c3b309"
     },
     "You can roll at foes to attack.": {
       "context": "Mutation short have/gain/lose catalogue: appendages, tails, wings, roll, fur, mapping, Demonspawn powers, gelatinous body, eyes, translucency, pseudopods, repulsion, scales and sanguine armour. Detailed mechanics checked against reviewed current mutation descriptions. Tentacle spike grows/shrinks, not the whole tentacle. Roll means movement toward foes, not a roll of material or retreat. Wands are палочки. Slay is accuracy/damage, Wiz spell success, ER armour encumbrance, regeneration health recovery, augmentation not Strength. Source numeric suffixes are preserved exactly and only their labels translated; legacy strings keep legacy values. Repulsion deflects missiles, not reflection back at the attacker. Miasma, invisibility detection and spellcasting remain distinct. Raw game IDs unchanged.",
@@ -54187,12 +54187,12 @@
       "translation_sha256": "8df1c64c922a4f3276091051ff6c903fd2d496094a287e68bd09398533ed52f8"
     },
     "Spells you cast may paralyse nearby enemies.": {
-      "context": "Mutation short have/gain/lose catalogue: appendages, tails, wings, roll, fur, mapping, Demonspawn powers, gelatinous body, eyes, translucency, pseudopods, repulsion, scales and sanguine armour. Detailed mechanics checked against reviewed current mutation descriptions. Tentacle spike grows/shrinks, not the whole tentacle. Roll means movement toward foes, not a roll of material or retreat. Wands are палочки. Slay is accuracy/damage, Wiz spell success, ER armour encumbrance, regeneration health recovery, augmentation not Strength. Source numeric suffixes are preserved exactly and only their labels translated; legacy strings keep legacy values. Repulsion deflects missiles, not reflection back at the attacker. Miasma, invisibility detection and spellcasting remain distinct. Raw game IDs unchanged.",
-      "translation_sha256": "c0b8e0192ac6d06915a5576ba1d9e94fc6064fe1ef78ed2e12438cf7d71fc7ad"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "e3bc45e9d54c86b0bb30eb7081e98670a9585606ab4a1fee4e6e7bfe726280d9"
     },
     "Spells you cast and wands you use may paralyse nearby enemies.": {
-      "context": "Mutation short have/gain/lose catalogue: appendages, tails, wings, roll, fur, mapping, Demonspawn powers, gelatinous body, eyes, translucency, pseudopods, repulsion, scales and sanguine armour. Detailed mechanics checked against reviewed current mutation descriptions. Tentacle spike grows/shrinks, not the whole tentacle. Roll means movement toward foes, not a roll of material or retreat. Wands are палочки. Slay is accuracy/damage, Wiz spell success, ER armour encumbrance, regeneration health recovery, augmentation not Strength. Source numeric suffixes are preserved exactly and only their labels translated; legacy strings keep legacy values. Repulsion deflects missiles, not reflection back at the attacker. Miasma, invisibility detection and spellcasting remain distinct. Raw game IDs unchanged.",
-      "translation_sha256": "141e381bcaaf2cfc89c47cf6fc5f33a242bd3e87aeab429bcca7f2b9420e60f5"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "4812bb59d8a5e187f1a3ed2dfb4f6eb669a5691980e605418619f8950a2e2397"
     },
     "A menacing aura infuses your magic.": {
       "context": "Mutation short have/gain/lose catalogue: appendages, tails, wings, roll, fur, mapping, Demonspawn powers, gelatinous body, eyes, translucency, pseudopods, repulsion, scales and sanguine armour. Detailed mechanics checked against reviewed current mutation descriptions. Tentacle spike grows/shrinks, not the whole tentacle. Roll means movement toward foes, not a roll of material or retreat. Wands are палочки. Slay is accuracy/damage, Wiz spell success, ER armour encumbrance, regeneration health recovery, augmentation not Strength. Source numeric suffixes are preserved exactly and only their labels translated; legacy strings keep legacy values. Repulsion deflects missiles, not reflection back at the attacker. Miasma, invisibility detection and spellcasting remain distinct. Raw game IDs unchanged.",
@@ -55051,8 +55051,8 @@
       "translation_sha256": "890bfd27d4820bf6da2eddf31a2a4d7afeccefd68e5cfb5aed788f7775fae2a4"
     },
     "You have a small jelly attached to you that senses nearby items.": {
-      "context": "Final gameplay portion of the legacy short mutation catalogue: camouflage, blood ignition, miasma, slime helpers, silence/hexes, Ru sacrifices, aptitude vs XL, eyes, extra arms, steam, extra lives, vampirism and innate casting. Legacy Poison/Transmutations school names and old XL penalties retained as source compatibility strings, not relabelled Alchemy or assigned modern values. Casting disruption increases spell failure rather than cancelling a sustained spell. Unskilled makes learning harder; it does not set all skills to zero. Might/Will and health terms follow shared names; holy/unholy and poison/acid remain distinct. Corrupting Presence means blight, not political bribery. Steam immunity is damage immunity; lack of physical hands does not mean inventory disappearance. Seven technical category selectors are deliberately left for their separate caller context. Raw IDs and numbers kept.",
-      "translation_sha256": "653a407e86a6a6159233a37b0ad59b836ac65f578cb92fa292c94c681488236e"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "758c66c26c57dc7e88d7fa393810108192d90d01632be772085d65aef09be07e"
     },
     "Your body partially splits into a small jelly.": {
       "context": "Final gameplay portion of the legacy short mutation catalogue: camouflage, blood ignition, miasma, slime helpers, silence/hexes, Ru sacrifices, aptitude vs XL, eyes, extra arms, steam, extra lives, vampirism and innate casting. Legacy Poison/Transmutations school names and old XL penalties retained as source compatibility strings, not relabelled Alchemy or assigned modern values. Casting disruption increases spell failure rather than cancelling a sustained spell. Unskilled makes learning harder; it does not set all skills to zero. Might/Will and health terms follow shared names; holy/unholy and poison/acid remain distinct. Corrupting Presence means blight, not political bribery. Steam immunity is damage immunity; lack of physical hands does not mean inventory disappearance. Seven technical category selectors are deliberately left for their separate caller context. Raw IDs and numbers kept.",
@@ -55439,8 +55439,8 @@
       "translation_sha256": "a27bfed714889ebee56dfedbbd67fe4bdbbb2fa394cfa44289eca6278171cb77"
     },
     "Your uncanny sense of smell can sniff out nearby items.": {
-      "context": "Final gameplay portion of the legacy short mutation catalogue: camouflage, blood ignition, miasma, slime helpers, silence/hexes, Ru sacrifices, aptitude vs XL, eyes, extra arms, steam, extra lives, vampirism and innate casting. Legacy Poison/Transmutations school names and old XL penalties retained as source compatibility strings, not relabelled Alchemy or assigned modern values. Casting disruption increases spell failure rather than cancelling a sustained spell. Unskilled makes learning harder; it does not set all skills to zero. Might/Will and health terms follow shared names; holy/unholy and poison/acid remain distinct. Corrupting Presence means blight, not political bribery. Steam immunity is damage immunity; lack of physical hands does not mean inventory disappearance. Seven technical category selectors are deliberately left for their separate caller context. Raw IDs and numbers kept.",
-      "translation_sha256": "c3c03a8a4c1b49e4efe55354333ff3ec33b14ab61132424b3f5cf44c46412409"
+      "context": "mutation-data.h; item-use.cc:oni_drunken_swing and nearby_mons/booming voice; nearby-danger.cc:get_nearby_monsters; describe.cc:ARTP_BANE; contextual nearby does not require a nearest-target selection.",
+      "translation_sha256": "b34be032d64f6bbaa95385606bb2ceaa8be09754f4fd62f3bbaf13a6a6b1b6b1"
     },
     "Your sense of smell grows stronger.": {
       "context": "Final gameplay portion of the legacy short mutation catalogue: camouflage, blood ignition, miasma, slime helpers, silence/hexes, Ru sacrifices, aptitude vs XL, eyes, extra arms, steam, extra lives, vampirism and innate casting. Legacy Poison/Transmutations school names and old XL penalties retained as source compatibility strings, not relabelled Alchemy or assigned modern values. Casting disruption increases spell failure rather than cancelling a sustained spell. Unskilled makes learning harder; it does not set all skills to zero. Might/Will and health terms follow shared names; holy/unholy and poison/acid remain distinct. Corrupting Presence means blight, not political bribery. Steam immunity is damage immunity; lack of physical hands does not mean inventory disappearance. Seven technical category selectors are deliberately left for their separate caller context. Raw IDs and numbers kept.",

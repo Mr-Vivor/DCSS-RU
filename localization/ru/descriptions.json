@@ -267,8 +267,8 @@
     },
     "scroll of fear": {
       "source_sha256": "f09d3de0af08044313b5eb1da25e1a48967a7468ab6f8ae86f34e4fd0752f468",
-      "text": "Вселяет сильный страх в ближайших врагов. Они бегут, пока не подвергнутся атаке, не окажутся загнаны в угол или пока не пройдёт достаточно времени.\n\nНеживые существа, нежить и растения невосприимчивы к страху. Существа в ярости или неистовстве тоже не поддаются ему.",
-      "context": "Current upstream item description; effects, restrictions and timing checked against the English source."
+      "text": "Вселяет сильный страх во врагов поблизости. Они бегут, пока не подвергнутся атаке, не окажутся загнаны в угол или пока не пройдёт достаточно времени.\n\nНеживые существа, нежить и растения невосприимчивы к страху. Существа в ярости или неистовстве тоже не поддаются ему.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "scroll of fog": {
       "source_sha256": "79bde04961f5aa9fd5c6ee16fd3236f2568ce66ae88520d021fb89f2d0d855e1",
@@ -317,13 +317,13 @@
     },
     "scroll of torment": {
       "source_sha256": "c43f22a1695e4bb49d1ce7b084490428b1d5b375424d12831c96d767b5a8d287",
-      "text": "Призывает силы тьмы, причиняющие страшную боль всем ближайшим существам, включая читающего! Живые существа теряют половину текущего здоровья, а священные — примерно треть. Сам по себе этот эффект никогда не убивает.",
-      "context": "Current upstream item description; effects, restrictions and timing checked against the English source."
+      "text": "Призывает силы тьмы, причиняющие страшную боль всем существам поблизости, включая читающего! Живые существа теряют половину текущего здоровья, а священные — примерно треть. Сам по себе этот эффект никогда не убивает.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "scroll of vulnerability": {
       "source_sha256": "0dbca80fe78d4318bd4e8a96f2839d60197fb51c7f64cd9d3777a0e22b052fdc",
-      "text": "На короткое время вдвое уменьшает Волю читающего и ближайших существ, делая их уязвимыми ко многим магическим воздействиям. Не действует на существ с полной невосприимчивостью к таким эффектам.",
-      "context": "Current upstream item description; effects, restrictions and timing checked against the English source."
+      "text": "На короткое время вдвое уменьшает Волю читающего и существ поблизости, делая их уязвимыми ко многим магическим воздействиям. Не действует на существ с полной невосприимчивостью к таким эффектам.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "wand of acid": {
       "source_sha256": "3023494192901e81ac83d5a38dccbd6e8341b1fb01cc9cba033ac19d5b4dc952",
@@ -1437,8 +1437,8 @@
     },
     "medusa talisman": {
       "source_sha256": "367f6ea9b8b0f0f56dc98ff744ee41b860e07ee7645ff6fcd471a78f01104eea",
-      "text": "Окаменевший полип медузы с начертанными печатями. Из головы владельца вырастает грива длинных жалящих щупалец. При каждой его атаке они хлещут ближайших врагов и отравляют их. Чувствуя угрозу жизни хозяина, щупальца могут даже обратить отравленных врагов в камень.",
-      "context": "Current items.txt: talisman form mechanics, resource recovery, gem timers and item/book lore checked."
+      "text": "Окаменевший полип медузы с начертанными печатями. Из головы владельца вырастает грива длинных жалящих щупалец. При каждой его атаке они хлещут врагов поблизости и отравляют их. Чувствуя угрозу жизни хозяина, щупальца могут даже обратить отравленных врагов в камень.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "midnight gem": {
       "source_sha256": "6ccfbc7abdd3d72b8c082672924e3408f393cf05d761ce1172749902871f2ada",
@@ -1612,8 +1612,8 @@
     },
     "vision talisman": {
       "source_sha256": "711c7020ee52e44ae151fab01c4704322db20669760220a164af7abe34fca34d",
-      "text": "Маленький оберег с изображением глаза. Даёт владельцу сверхъестественное зрение, позволяющее видеть облака магических остатков после сотворения заклинаний. Прикосновение к ним превращает оставшуюся магию в безошибочно попадающие снаряды против ближайших врагов.\n\nТретий глаз даже позволяет видеть дальше обычного{{\n    if you.get_base_mutation_level(\"+LOS\") > 0 then\n        return \" (но ваше поле зрения и так уже достигло предела).\"\n    else\n        return \", но помните: существа, которых вы так увидите, тоже увидят вас.\"\n    end\n}}",
-      "context": "Current items.txt: talisman form mechanics, resource recovery, gem timers and item/book lore checked.",
+      "text": "Маленький оберег с изображением глаза. Даёт владельцу сверхъестественное зрение, позволяющее видеть облака магических остатков после сотворения заклинаний. Прикосновение к ним превращает оставшуюся магию в безошибочно попадающие снаряды против врагов поблизости.\n\nТретий глаз даже позволяет видеть дальше обычного{{\n    if you.get_base_mutation_level(\"+LOS\") > 0 then\n        return \" (но ваше поле зрения и так уже достигло предела).\"\n    else\n        return \", но помните: существа, которых вы так увидите, тоже увидят вас.\"\n    end\n}}",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained.",
       "lua_strings": {
         " (but your own vision is already as long as possible).": " (но ваше поле зрения и так уже достигло предела).",
         ", but be warned - creatures perceived this way will perceive you back.": ", но помните: существа, которых вы так увидите, тоже увидят вас."
@@ -1902,8 +1902,8 @@
     },
     "rebuke (rebuke) weapon ego": {
       "source_sha256": "72154284f99d7103ad00e39f4fd4644091990d7ad5dc3c7525473261ff67038c",
-      "text": "Даёт защиту щитом, если вашим последним действием была ближняя атака (+10 к щиту), и перенаправляет заблокированные ближние атаки в других ближайших врагов.",
-      "context": "Current upstream mechanics; cross-training, skill scaling, conditions and drawbacks retained."
+      "text": "Даёт защиту щитом, если вашим последним действием была ближняя атака (+10 к щиту), и перенаправляет заблокированные ближние атаки в других врагов поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "spectralising (spect) weapon ego": {
       "source_sha256": "f41a66f9b01a324876cdf343cd4a8e202d9c0d18c409442a07e6e9953f94d866",
@@ -2052,8 +2052,8 @@
     },
     "mesmerism (Mesmerism) armour ego": {
       "source_sha256": "931b1cff9b2cba018ec80b39f24e16fcba6b488ae2257e669f9fd872434a47fd",
-      "text": "Когда вас бьют в ближнем бою, ненадолго ослепляет всех ближайших врагов. Затем требует перезарядки: некоторое время нужно стоять на месте. Управление устройствами увеличивает длительность, радиус и скорость перезарядки.\n\nПри переходе на другой этаж ненадолго перестаёт действовать.",
-      "context": "Current upstream mechanics; cross-training, skill scaling, conditions and drawbacks retained."
+      "text": "При получении урона в ближнем бою испускает импульс, ненадолго ошеломляющий всех врагов поблизости. Затем требует перезарядки: некоторое время нужно стоять на месте. Управление устройствами увеличивает длительность, радиус и скорость перезарядки.\n\nПри переходе на другой этаж ненадолго перестаёт действовать.",
+      "context": "melee-attack.cc:maybe_do_mesmerism applies actor::daze; monster::cannot_act includes ENCH_DAZED. It does not apply ENCH_BLIND."
     },
     "parrying (Parrying) armour ego": {
       "source_sha256": "2f908a1e7c0b43da050a4dc337fdab7c6e6a47ea75aed1168efe34ea05c4798e",
@@ -2284,8 +2284,8 @@
     },
     "Iskenderun's Mystic Blast spell": {
       "source_sha256": "b3a914b5cf5aff25ad1e3919c61d8b4266549fcf7e32595519b46f4c5e5dfbc2",
-      "text": "Взрывает потрескивающую сферу разрушительной энергии. Взрыв бьёт физической силой по всем ближайшим монстрам и отбрасывает тех, кому нанесён урон. Сила заклинания повышает урон и дальность отбрасывания.",
-      "context": "Current upstream spells.txt: target, range, channeling, side effects, immunities and upkeep checked; name shared with game/wiki."
+      "text": "Взрывает потрескивающую сферу разрушительной энергии. Взрыв бьёт физической силой по всем монстрам поблизости и отбрасывает тех, кому нанесён урон. Сила заклинания повышает урон и дальность отбрасывания.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Sandblast spell": {
       "source_sha256": "4dbb1106f64f1fff4955040273e1f8c408afb2a80296a43cd28014613ad1fcb4",
@@ -2409,8 +2409,8 @@
     },
     "Hailstorm spell": {
       "source_sha256": "5da1b2c31ee9fc1ae6d839b4c32addd6b340e5432af17907f3c7d836e102d411",
-      "text": "Обрушивает град на ближайших существ, которые не сумеют уклониться. Глаз бури достаточно широк, чтобы существа на соседних с заклинателем клетках оставались невредимы. Благодаря силе удара и острым граням льдин половина урона обходит сопротивление холоду.",
-      "context": "Current upstream spells.txt: target, range, channeling, side effects, immunities and upkeep checked; name shared with game/wiki."
+      "text": "Обрушивает град на существ поблизости, которые не сумеют уклониться. Глаз бури достаточно широк, чтобы существа на соседних с заклинателем клетках оставались невредимы. Благодаря силе удара и острым граням льдин половина урона обходит сопротивление холоду.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Summon Ice Beast spell": {
       "source_sha256": "c86e4457eda4a219c21d0ba3c77df52f9af2f15e8ae33f0081f2a3975e47133a",
@@ -2519,8 +2519,8 @@
     },
     "Iskenderun's Battlesphere spell": {
       "source_sha256": "f216edff6d6c99bca31c03c1775b09cb4d4bf72120b15c9e5505cbfe623de017",
-      "text": "Создаёт небольшую сферу разрушительной энергии. Каждый раз, когда её создатель применяет наступательное заклинание, сфера выпускает безошибочно попадающий залп энергии в самого раненого из ближайших врагов, до которых может достать.\n\nСоздатель сферы может свободно стрелять сквозь её клетку, не причиняя ей вреда.",
-      "context": "Current spells.txt: Will checks, delayed teleportation, target selection, resistance bypass and friendly fire checked."
+      "text": "Создаёт небольшую сферу разрушительной энергии. Каждый раз, когда её создатель применяет наступательное заклинание, сфера выпускает безошибочно попадающий залп энергии в наиболее раненого врага в пределах досягаемости.\n\nСоздатель сферы может свободно стрелять сквозь её клетку, не причиняя ей вреда.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Freezing Cloud spell": {
       "source_sha256": "3168cdbf8c4bacc46a6e64ba00a9af76053127aed02def71611b1b305c0968f0",
@@ -2799,8 +2799,8 @@
     },
     "Kinetic Grapnel spell": {
       "source_sha256": "3e216d69c94cc8215d254907822527d626862aa93b52f456d7fc71c2e6213994",
-      "text": "Обвивает оружие ближнего боя тонкой кинетической нитью и запускает её свободный конец в ближайшего врага. Если крюк попадает и наносит урон, он застревает в цели. Следующая атака заклинателя в ближнем бою по этой цели тогда попадёт без промаха и получит небольшую прибавку к урону.",
-      "context": "Current spells.txt and spl-data.h, with targeting in spl-cast.cc and effect code in spl-clouds.cc, spl-damage.cc, spl-summoning.cc and spl-transloc.cc. All 24 spells still occur in current spell table; four are monster/ability spells. Putrefaction temporarily drains maximum HP; Anguish reflects damage without protecting its recipients; Dimensional Bullseye duplicates shots aimed at a different enemy. Charging, ally hazards, sustain MP, automatic effects vs Will checks and recast restrictions retained. Raw lookup and spell IDs unchanged."
+      "text": "Обвивает оружие ближнего боя тонкой кинетической нитью и запускает её свободный конец во врага поблизости. Если крюк попадает и наносит урон, он застревает в цели. Следующая атака заклинателя в ближнем бою по этой цели тогда попадёт без промаха и получит небольшую прибавку к урону.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Maxwell's Portable Piledriver spell": {
       "source_sha256": "5536bb66681186bd33e91b0a738408dfa3ca2c56bc1608f0639814b154efd8fc",
@@ -2934,8 +2934,8 @@
     },
     "Rending Blade spell": {
       "source_sha256": "2c560cabfee811780e1e3a3f44a3fc0cd99a39e473a6227111663c197c2bedf6",
-      "text": "Сгущает магическую энергию заклинателя в яростно потрескивающий клинок. Пока он существует, каждое успешное попадание в ближнем бою заставляет клинок прорезать путь туда и обратно через ближайших врагов, нанося урон, которому невозможно сопротивляться.\n\nДля создания клинка временно изымается *весь* оставшийся запас магии заклинателя. Он вернётся, как только клинок исчезнет. Каждое очко магии, вложенное таким образом, немного увеличивает урон клинка.",
-      "context": "Current spells.txt and spl-data.h; player and evocable spells selected. Checked spl-selfench.cc detonation catalyst, spl-monench.cc englaciation and is_valid_tempering_target/cast_percussive_tempering, spl-summoning.cc simulacrum and rending blade, spl-damage.cc momentum strike, spl-other.cc binding sigils. Healing constructs differs from offensive augmentation; player tempering requires a construct from their own Forgecraft, unlike monster All-Purpose Tempering. Remaining MP is reserved and returned, not maximum MP or permanent drain. Refrigeration hits allies too; adjacent allies insulate each other. Cold resistance affects only part of Polar Vortex and Iceblast damage. Bound creatures can still act/dodge, other creatures gain swiftness afterward, and swiftness prevents binding. Momentum immobilises on a damaging hit; it is not paralysis. Armour bypass and willpower check are distinct in Mindburst; Curse of Agony has two subsequent melee triggers, not immediate halving. Threats, chance, resistance, delays and numerical limits preserved."
+      "text": "Сгущает магическую энергию заклинателя в яростно потрескивающий клинок. Пока он существует, каждое успешное попадание в ближнем бою заставляет клинок прорезать путь туда и обратно через врагов поблизости, нанося урон, которому невозможно сопротивляться.\n\nДля создания клинка временно изымается *весь* оставшийся запас магии заклинателя. Он вернётся, как только клинок исчезнет. Каждое очко магии, вложенное таким образом, немного увеличивает урон клинка.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Sigil of Binding spell": {
       "source_sha256": "983bf91c04c0519664ab09ab8a85cf891378e3956f0393231c651df900e095ef",
@@ -3034,8 +3034,8 @@
     },
     "Gloom spell": {
       "source_sha256": "29223742f71e9d49aa23ba84bb945af5c4dc312fde5f43a02637759e16e79ad3",
-      "text": "Распространяет волну зловещего мрака, пытающегося погасить свет вокруг ближайших существ. Попавшие под её действие живые, демонические и святые существа могут ненадолго потерять зрение и начать двигаться вслепую.\n\nВоля не защищает от этого заклинания, но более сильные существа всё же могут избежать его действия.",
-      "context": "Current spells.txt and spl-data.h; player and evocable spells selected. Checked spl-selfench.cc detonation catalyst, spl-monench.cc englaciation and is_valid_tempering_target/cast_percussive_tempering, spl-summoning.cc simulacrum and rending blade, spl-damage.cc momentum strike, spl-other.cc binding sigils. Healing constructs differs from offensive augmentation; player tempering requires a construct from their own Forgecraft, unlike monster All-Purpose Tempering. Remaining MP is reserved and returned, not maximum MP or permanent drain. Refrigeration hits allies too; adjacent allies insulate each other. Cold resistance affects only part of Polar Vortex and Iceblast damage. Bound creatures can still act/dodge, other creatures gain swiftness afterward, and swiftness prevents binding. Momentum immobilises on a damaging hit; it is not paralysis. Armour bypass and willpower check are distinct in Mindburst; Curse of Agony has two subsequent melee triggers, not immediate halving. Threats, chance, resistance, delays and numerical limits preserved."
+      "text": "Распространяет волну зловещего мрака, пытающегося погасить свет вокруг существ поблизости. Попавшие под её действие живые, демонические и святые существа могут ненадолго потерять зрение и начать двигаться вслепую.\n\nВоля не защищает от этого заклинания, но более сильные существа всё же могут избежать его действия.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Phantom Mirror spell": {
       "source_sha256": "6874a878b3c9300fbc3b0388463a0f334f5470cdb45e5b351f756f067adfaa5a",
@@ -3079,8 +3079,8 @@
     },
     "Berserk Other spell": {
       "source_sha256": "3790e55e8a4bc048adfa3bf5c2f6ad90ebd71cd79215ba399ee3c1b4fc3cd677",
-      "text": "Приводит ближайшего союзника в ярость берсерка. Она временно увеличивает его здоровье, скорость и урон в ближнем бою.",
-      "context": "Current spells.txt hostile hexes, gazes and support spells. Checked mon-cast.cc _cast_draining_gaze, paralysis gaze dispatch and Injury Bond; monster.cc ENCH_INJURY_BOND damage splitting. Draining Gaze causes player temporary maximum-HP drain, not ordinary direct damage; creature targets instead lose HD. Injury Bond halves allies damage and gives caster half of the prevented portion, not all prevented damage. Sap Magic blocks further spells after the victim casts, not immediate MP drain. Dimension Anchor blocks involuntary translocations too but explicitly not Banishment. Gazes distinguish visibility from unobstructed line of fire, paralysis preparation from item charges, and willpower from electrical resistance. Doom uses existing canonical term obrechennost; Doom at 100% is not misrepresented as immediate death. Nonlethal halving, temporary effects, immunities, cooldowns and one-use limits preserved. Names are plain Russian mechanical concepts, not transliteration of accidental machine words."
+      "text": "Приводит союзника поблизости в ярость берсерка. Она временно увеличивает его здоровье, скорость и урон в ближнем бою.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Dimension Anchor spell": {
       "source_sha256": "55b2f94700d3b87b953cba9b09ba0ce88ce73139e2503bf8f9b4943343b6049b",
@@ -3124,8 +3124,8 @@
     },
     "Injury Bond spell": {
       "source_sha256": "286ac21fc155423619b74445b7e0995280559f35f0e1aba3e55c1e40bdd064a5",
-      "text": "Связывает заклинателя с ближайшими союзниками. Получаемый ими урон уменьшается вдвое; сам заклинатель получает половину предотвращённого урона.",
-      "context": "Current spells.txt hostile hexes, gazes and support spells. Checked mon-cast.cc _cast_draining_gaze, paralysis gaze dispatch and Injury Bond; monster.cc ENCH_INJURY_BOND damage splitting. Draining Gaze causes player temporary maximum-HP drain, not ordinary direct damage; creature targets instead lose HD. Injury Bond halves allies damage and gives caster half of the prevented portion, not all prevented damage. Sap Magic blocks further spells after the victim casts, not immediate MP drain. Dimension Anchor blocks involuntary translocations too but explicitly not Banishment. Gazes distinguish visibility from unobstructed line of fire, paralysis preparation from item charges, and willpower from electrical resistance. Doom uses existing canonical term obrechennost; Doom at 100% is not misrepresented as immediate death. Nonlethal halving, temporary effects, immunities, cooldowns and one-use limits preserved. Names are plain Russian mechanical concepts, not transliteration of accidental machine words."
+      "text": "Связывает заклинателя с союзниками поблизости. Получаемый ими урон уменьшается вдвое; сам заклинатель получает половину предотвращённого урона.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Injury Mirror spell": {
       "source_sha256": "d7bc209978d7a610a14a6575678642f8c71399bd1d3d4fb87f54c3bc7c05fb76",
@@ -3164,8 +3164,8 @@
     },
     "Siphon Essence spell": {
       "source_sha256": "66a639851f158f173d0c0a7fcf357b47728ab31275e5eb66ff2c8a9a5218ebfb",
-      "text": "Подвергает ближайших живых врагов мучению, уменьшая их текущее здоровье вдвое. Сам по себе этот урон никогда не бывает смертельным. Причинённая боль затем исцеляет применившего заклинание.",
-      "context": "Current spells.txt hostile hexes, gazes and support spells. Checked mon-cast.cc _cast_draining_gaze, paralysis gaze dispatch and Injury Bond; monster.cc ENCH_INJURY_BOND damage splitting. Draining Gaze causes player temporary maximum-HP drain, not ordinary direct damage; creature targets instead lose HD. Injury Bond halves allies damage and gives caster half of the prevented portion, not all prevented damage. Sap Magic blocks further spells after the victim casts, not immediate MP drain. Dimension Anchor blocks involuntary translocations too but explicitly not Banishment. Gazes distinguish visibility from unobstructed line of fire, paralysis preparation from item charges, and willpower from electrical resistance. Doom uses existing canonical term obrechennost; Doom at 100% is not misrepresented as immediate death. Nonlethal halving, temporary effects, immunities, cooldowns and one-use limits preserved. Names are plain Russian mechanical concepts, not transliteration of accidental machine words."
+      "text": "Подвергает живых врагов поблизости мучению, уменьшая их текущее здоровье вдвое. Сам по себе этот урон никогда не бывает смертельным. Причинённая боль затем исцеляет применившего заклинание.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Ill Omen spell": {
       "source_sha256": "54a3052ce736415179233d7664bef97332a0411e0300c2291f552a77ad26acef",
@@ -3229,8 +3229,8 @@
     },
     "Shadow Bind spell": {
       "source_sha256": "55a71beb2c23a1e21204dc7142b6100a52d5f965803e625654fc3525876b18b6",
-      "text": "Приковывает нескольких случайных ближайших врагов к их собственным теням, ненадолго лишая возможности передвигаться. Чем выше сила заклинания, тем больше врагов оно затрагивает одновременно.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Приковывает нескольких случайных врагов поблизости к их собственным теням, ненадолго лишая возможности передвигаться. Чем выше сила заклинания, тем больше врагов оно затрагивает одновременно.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Bind Souls spell": {
       "source_sha256": "bc5fcc745902c206dcd185905f91d69499008314931648c8ac98699fb53eac2d",
@@ -3239,33 +3239,33 @@
     },
     "Dominate Undead spell": {
       "source_sha256": "0af57ed19c295e3809f676353d3ee658602e3e1dbc156ece49a1a4bd4233e2c0",
-      "text": "Пытается насильно подчинить всю ближайшую нежить, которая ещё не верна заклинателю.\n\nИскатели приключений слишком своевольны для полного подчинения. Вместо этого они на время теряют самообладание и беспорядочно атакуют стоящих рядом друзей и врагов.\n\nГибель заклинателя может досрочно прекратить действие заклинания.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Пытается насильно подчинить всю нежить поблизости, которая ещё не верна заклинателю.\n\nИскатели приключений слишком своевольны для полного подчинения. Вместо этого они на время теряют самообладание и беспорядочно атакуют стоящих рядом друзей и врагов.\n\nГибель заклинателя может досрочно прекратить действие заклинания.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Haste Other spell": {
       "source_sha256": "4c7a375e7ddfea72c72d32e652baeee3f3d3708619ed45c38cc5d34831a657ff",
-      "text": "Ускоряет действия ближайшего союзника.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Ускоряет действия союзника поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Might Other spell": {
       "source_sha256": "4d5d988dcf4c013a7c8b3e86e3a3265dde443615b0861101599a02101841c2af",
-      "text": "Значительно увеличивает урон ближайшего союзника в ближнем бою.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Значительно увеличивает урон союзника поблизости в ближнем бою.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Battlecry spell": {
       "source_sha256": "9aaf9dc84a9e2734a6e073486a63466030787ebdd956b2d7d38516c84a8cdcfe",
-      "text": "Воодушевляет ближайших союзников заклинателя, побуждая их сражаться яростнее и усиливая их удары.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Воодушевляет союзников поблизости от заклинателя, побуждая их сражаться яростнее и усиливая их удары.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Invisibility Other spell": {
       "source_sha256": "b8f5253b34cdd2bb10d2a8116ee6ec701542b8851c9e06ba978ebc27144e57d0",
-      "text": "Делает ближайшего союзника невидимым.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Делает союзника поблизости невидимым.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Heal Other spell": {
       "source_sha256": "1930d035b2ed797ddf1184c7e06a9e8cb6662d86f5ae1c3533b6da83e8f0a706",
-      "text": "Исцеляет ближайшего союзника.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Исцеляет союзника поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Mass Regeneration spell": {
       "source_sha256": "45eb2dd6e258a4f21abd653ee0ddce42a71f8f2aab4fe5cc41a5bbd9fbe75724",
@@ -3279,8 +3279,8 @@
     },
     "Drain Life spell": {
       "source_sha256": "1cb6b556deb01a2059b7f681e67d307a6c44df92ea8d13944a8c03cf1e0d6936",
-      "text": "Поглощает жизненную силу всех ближайших врагов, исцеляя заклинателя пропорционально нанесённому урону.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Поглощает жизненную силу всех врагов поблизости, исцеляя заклинателя пропорционально нанесённому урону.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Flay spell": {
       "source_sha256": "bc68b25f4f1e4a2b23a4e1d4ed6c5194050afae849f8167e7773a45e5848ec38",
@@ -3299,8 +3299,8 @@
     },
     "Cage of Brambles spell": {
       "source_sha256": "718e1411deab2e010a668d78f01886deda67bfb080e58095046aa1bc4aeceee0",
-      "text": "Выращивает стены колючих зарослей кольцом вокруг всех ближайших врагов. Снаряды союзников заклинателя беспрепятственно проходят сквозь эти заросли; остальным попытка разрушить их может причинить боль.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Выращивает стены колючих зарослей кольцом вокруг всех врагов поблизости. Снаряды союзников заклинателя беспрепятственно проходят сквозь эти заросли; остальным попытка разрушить их может причинить боль.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Grasping Roots spell": {
       "source_sha256": "a48eee96900d47ef42c92ebc84c08da6fba0b7a141ab57baedfafe486aca5566",
@@ -3319,8 +3319,8 @@
     },
     "Warning Cry spell": {
       "source_sha256": "9a6a0a7d864f27f2d67ebba8c08cbe02c07edefc089e98c738f2bde3a92d7893",
-      "text": "Издаёт громкий звук, предупреждая ближайших врагов.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Издаёт громкий звук, предупреждая врагов поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Word of Recall spell": {
       "source_sha256": "156537fc40a39372177d8a8a0b24b2c7dfff1d3c5ef6609fbcf98723c6e674d7",
@@ -3344,8 +3344,8 @@
     },
     "Hunting Call spell": {
       "source_sha256": "7e81ac64cd14cabec26547705a185b3734e4a6a74c3ac63933002961c32114f8",
-      "text": "Воодушевляет ближайших союзников, ускоряя их передвижение.",
-      "context": "Current spells.txt and mon-cast.cc dispatch: Vex, Antimagic Gaze, Ostracise, Brain Bite, Dominate Undead, regeneration and Still Winds; _cast_brain_bite doubles damage at low MP, drains current magic rather than spell power, needs no line of fire. Other-target buffs use allies, Haste changes actions while Hunting Call changes movement. Vex attacks adjacent spaces including empty spaces and allies, not controlled hostile target selection. Ostracism lowers effective divine favour, stacks, clears with experience and cannot directly excommunicate. Plane is an adjacent reality, not an aeroplane; Overlay creates local monsters elsewhere, Forceful Invitation varies by caster, Plane Rend varies by cast. Flay wounds are illusory and nonlethal, expire or vanish on caster death; Dominate Undead has different player behaviour and can end on caster death. Flash Freeze slows movement only, half damage bypasses cold resistance. Roots hold and constrict, shadow binding only prevents moving; no paralysis invented. Regeneration is temporary and scales with maximum health. Still Winds suppresses cloud formation, allows Polar Vortex and ends on caster death. Word of Recall retrieves intelligent allies on this floor after a delay, not newly summoned creatures. Shared branch and spell titles follow actual location/effect context. No numerical values, target rules, AI, spell IDs, damage or resource formulas changed."
+      "text": "Воодушевляет союзников поблизости, ускоряя их передвижение.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Acid Ball spell": {
       "source_sha256": "15589e470b8ac9b7e9072354ace2069c53df78f339e8d9c2f7a9493e0d814ed6",
@@ -3474,8 +3474,8 @@
     },
     "Seismic Stomp spell": {
       "source_sha256": "7ad64d31536a78a7549c156403fc59de98508a67edbeffdebeaa92ca52658ae2",
-      "text": "Мощно топает по земле, посылая ударные волны и раскалывая почву под несколькими ближайшими врагами. Летающие существа получают гораздо меньше урона. Стоящие на земле иногда теряют равновесие; пока они пытаются удержаться на неровной почве, их следующее действие откладывается.",
-      "context": "Current spells.txt hostile damage spells; mon-cast.cc Seracfall _mons_seracfall_source/_prepare_seracfall consumes an allied simulacrum, _find_nearby_constructs counts adjacent nonliving allies of the caster, Resonance Strike applies AC; beam.cc get_cloud_type distinguishes Noxious Cloud mephitic/confusion gas from Poisonous Cloud poison gas, and BEAM_POISON_ARROW forces poison even when resisted; zap-data.h Hurl Sludge. Penetrating beams do not become ordinary crossbow bolts. Fire/cold resistance bypass and armour bypass are distinct; magma and icicle retain the half resistance bypass, lightning and electrical orb bypass half AC. Doom means canonical obrechennost, not guaranteed death. Devastation halves Will. Harpoon collision differs from clean pulling; barbs punish movement and sticky liquid fire is shed faster by movement and cannot stick to insubstantial targets. Hoarfrost cannon loses durability every shot and has its special fifth shot. Seismic Stomp flight reduces damage, does not grant immunity; loss of footing delays an action, not long paralysis. Sleetstrike scales with empty surrounding space, slows movement only. Waterstrike also reaches creatures flying over water. No damage formulas, dice, target rules, immunities, charges or spell IDs changed."
+      "text": "Мощно топает по земле, посылая ударные волны и раскалывая почву под несколькими врагами поблизости. Летающие существа получают гораздо меньше урона. Стоящие на земле иногда теряют равновесие; пока они пытаются удержаться на неровной почве, их следующее действие откладывается.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Sleetstrike spell": {
       "source_sha256": "7326dbf0a64e43f82925a690bedab0974a60b3b377d47bbb2fded320972d9231",
@@ -3509,8 +3509,8 @@
     },
     "Blink Allies Away spell": {
       "source_sha256": "e7db843b188f130e5ab70a2a9fd8d8c53bc7c4b28831340625b979580892bea2",
-      "text": "Переносит союзников в поле зрения заклинателя подальше от ближайшего врага.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Переносит союзников в поле зрения заклинателя подальше от врага поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Blink Allies Encircling spell": {
       "source_sha256": "d6ef5b803bdc622345fb2bced416e753a77efc50af5bccb15950a1434aa8c2f7",
@@ -3579,8 +3579,8 @@
     },
     "Spawn Tentacles spell": {
       "source_sha256": "0adcd4acf978b20bfb3bbbaf4fec4b24beec47f3645ea5184ff065d4d4761834",
-      "text": "Вытягивает большие щупальца для атаки ближайших врагов.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Вытягивает большие щупальца для атаки врагов поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Sticks to Snakes spell": {
       "source_sha256": "3b4006d11d702b1db103562e174f9c10ba7f9229ebaa4e8b6ea40bfa22126cbd",
@@ -3794,8 +3794,8 @@
     },
     "Landbreaker spell": {
       "source_sha256": "8d678aa898931224b87b747f1b9ee481b52b22e7cecb1e43651e7cab08e4d4d7",
-      "text": "С силой раскалывает местность, обрушивая обломки на нескольких ближайших врагов и на землю позади них, затрудняя отступление от заклинателя.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "С силой раскалывает местность, обрушивая обломки на нескольких врагов поблизости и на землю позади них, затрудняя отступление от заклинателя.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Roll spell": {
       "source_sha256": "e2152926690272fd486c5abf3f62f02320660af53d69a5d87ea2757a02048b6f",
@@ -3804,8 +3804,8 @@
     },
     "Throw Ally spell": {
       "source_sha256": "09497fbd17e092e3cacf394472a25c53e1da4c57cf3fb7b67e6e4e0a641970a7",
-      "text": "Бросает ближайшего союзника во врага. Это наносит небольшой урон, после чего брошенное существо приземляется поблизости.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Бросает союзника поблизости во врага. Это наносит небольшой урон, после чего брошенное существо приземляется поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Throw Klown Pie spell": {
       "source_sha256": "fb32efb237822f0f35c2b814fa5ff7209de13c09a28ca41e028f4000fa3d0007",
@@ -3839,8 +3839,8 @@
     },
     "Chain of Chaos spell": {
       "source_sha256": "5d3e11e140dbe15e82c0851513472000bd47c13dbc2e7da833c28c62af59c144",
-      "text": "Создаёт дугу чистого хаоса, поражающую ближайших существ непредсказуемыми эффектами. Дуга может коснуться заклинателя, не причинив ему вреда.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Создаёт дугу чистого хаоса, поражающую существ поблизости непредсказуемыми эффектами. Дуга может коснуться заклинателя, не причинив ему вреда.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Legendary Destruction spell": {
       "source_sha256": "3dc10f8b0870b9254c426fbae5c25a69850d788a4e766afdc3eb20701b7e8afd",
@@ -3879,8 +3879,8 @@
     },
     "Avatar Song spell": {
       "source_sha256": "443abe28ca6ae8c7f99f84e5485faa3ae8449db5891f274f63a6ebc249ba7024",
-      "text": "Поёт необычайно чарующую песню. Искатели приключений, не сумевшие ей сопротивляться, не могут отходить от певца, а иногда невольно приближаются к нему. Остальные существа вместо этого впадают в оцепенение.\n\nКроме того, песня может вызывать души утопленников из ближайших участков глубокой воды.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Поёт необычайно чарующую песню. Искатели приключений, не сумевшие ей сопротивляться, не могут отходить от певца, а иногда невольно приближаются к нему. Остальные существа вместо этого оказываются ошеломлены.\n\nКроме того, песня может вызывать души утопленников из участков глубокой воды поблизости.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
+      "context": "Dazed is ENCH_DAZED, distinct from blindness and petrification; normal movement-control effect on the player is separate."
     },
     "Awaken Flesh spell": {
       "source_sha256": "ed476e2220fa2bc6073e60ccff36175f11fba54743d2fe501ac45ff19517f31f",
@@ -3889,18 +3889,18 @@
     },
     "Awaken Vines spell": {
       "source_sha256": "5bf84b1a3bc9543b7c548a1e7a2edabd9451683669aa536a09a56697df20caa2",
-      "text": "Заставляет лозы прорастать из земли. Они хватают незваных гостей и тащат их к ближайшим деревьям.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Заставляет лозы прорастать из земли. Они хватают незваных гостей и тащат их к деревьям поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Bestow Arms spell": {
       "source_sha256": "755381eecb0e6c09a1ef014f987ca8a11c56f0c99ae0f9b4f851b3a9d84a02d7",
-      "text": "Временно наделяет многочисленных ближайших союзников магическим оружием из арсенала. Оно существует, пока сохраняются души, удерживающие его воедино.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Временно наделяет многочисленных союзников поблизости магическим оружием из арсенала. Оно существует, пока сохраняются души, удерживающие его воедино.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Call of Chaos spell": {
       "source_sha256": "d0132329b40c379f34643b552829a05498dda4a21cbff1bf28247b8fadbfb082",
-      "text": "Призывает силы хаоса, чтобы усилить ближайших союзников: ускорить их, наделить мощью, удвоить запас здоровья или улучшить сопротивления. Иногда хаотическая магия даёт сбой: вместо усиления союзники теряют Волю, впадают в ярость, меняют облик или наполняются внутренним пламенем.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Призывает силы хаоса, чтобы усилить союзников поблизости: ускорить их, наделить мощью, удвоить запас здоровья или улучшить сопротивления. Иногда хаотическая магия даёт сбой: вместо усиления союзники теряют Волю, впадают в ярость, меняют облик или наполняются внутренним пламенем.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Call Tide spell": {
       "source_sha256": "6d93bae91c98d758f44409b3caf9174df56200da65a0ba938e2160420b41b23f",
@@ -3919,8 +3919,8 @@
     },
     "Creeping Shadow spell": {
       "source_sha256": "e8cd271270971a227abc09448ef25dbda0ce21b8abebff379f366e98d9866298",
-      "text": "Вызывает тени из углов ближайших стен. Они наносят удары всем врагам заклинателя, стоящим рядом с этими углами.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Вызывает тени из углов стен поблизости. Они наносят удары всем врагам заклинателя, стоящим рядом с этими углами.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Death Rattle spell": {
       "source_sha256": "23eb3e6b3dfa916454bc787d66d9ad6bbdeb2df2587d098793d7377c5f860050",
@@ -3944,8 +3944,8 @@
     },
     "Funeral Dirge spell": {
       "source_sha256": "7ac90ed61f8a6a2cbef08f84d2b40ab9f2c7cc60aa183e703cdfbd7aa44db20c",
-      "text": "Ритуальным песнопением ненадолго воодушевляет нескольких ближайших союзников-нежить, позволяя им быстрее двигаться и сильнее бить.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Ритуальным песнопением ненадолго воодушевляет нескольких союзников-нежить поблизости, позволяя им быстрее двигаться и сильнее бить.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Holy Flames spell": {
       "source_sha256": "3567cfb0ac18e86f55f1f2b15727b7f8cd699d84e0b6e96a43e5b0b39877841e",
@@ -3964,8 +3964,8 @@
     },
     "Mesmerise spell": {
       "source_sha256": "c4067ef8747e1a331e839a80ef427b75ebacfbf4ca82a0aa3a468ecf190ee2e9",
-      "text": "Пытается заворожить всех врагов в поле зрения. Искатели приключений, не сумевшие сопротивляться, не могут отходить от заклинателя. Остальные существа вместо этого впадают в оцепенение.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Пытается заворожить всех врагов в поле зрения. Искатели приключений, не сумевшие сопротивляться, не могут отходить от заклинателя. Остальные существа вместо этого оказываются ошеломлены.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
+      "context": "Dazed is ENCH_DAZED, distinct from blindness and petrification; normal movement-control effect on the player is separate."
     },
     "Might spell": {
       "source_sha256": "e6739b5aa0f635e97e5bc561e199c5e951916a0f50f31b8654cfbf19aa4859a9",
@@ -4004,8 +4004,8 @@
     },
     "Prayer of Brilliance spell": {
       "source_sha256": "da273df031cf47307966cd7ff30b042ec16aab43ddedd0ccdb34d662989a942e",
-      "text": "Усиливает магию ближайших союзников-чародеев, позволяя им применять заклинания с большей силой и чаще.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Усиливает магию союзников-чародеев поблизости, позволяя им применять заклинания с большей силой и чаще.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Pyrrhic Recollection spell": {
       "source_sha256": "904b9ecf0f132d4538f93e37defb998946f1c0dbe8f80a34c9a8ec6b95177587",
@@ -4014,13 +4014,13 @@
     },
     "Seal Doors spell": {
       "source_sha256": "2d3b3e5624ce513811db156e43498ac8fbc7b94bfe3cb628d7522b70dffab262",
-      "text": "Накладывает печати на ближайшие двери и лестницы, запрещая пользоваться ими всем, кто не является союзником заклинателя.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Накладывает печати на двери и лестницы поблизости, запрещая пользоваться ими всем, кто не является союзником заклинателя.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Siren Song spell": {
       "source_sha256": "3ae58bb1b6d15b160aebeac9533899b7cdbdc93b66e07307a7381eec3aeb8e0c",
-      "text": "Поёт чарующую песню, завораживающую ближайших слушателей. Искатели приключений, не сумевшие ей сопротивляться, не могут отходить от певца. Остальные существа вместо этого впадают в оцепенение.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Поёт чарующую песню, завораживающую слушателей поблизости. Искатели приключений, не сумевшие ей сопротивляться, не могут отходить от певца. Остальные существа вместо этого оказываются ошеломлены.\n\nВыйдя из поля зрения заклинателя, можно избавиться от ограничения передвижения.",
+      "context": "Dazed is ENCH_DAZED, distinct from blindness and petrification; normal movement-control effect on the player is separate."
     },
     "Stampede spell": {
       "source_sha256": "f1884c2d6050cd27a7533a12b36646191f9fc76c68e8d63b4ef5d3be6e2b45ff",
@@ -4034,8 +4034,8 @@
     },
     "Touch of Paradox spell": {
       "source_sha256": "5303e8de41d6e6cfa83756b183816c240f6b8b96562b7fa434a3b28b05541b84",
-      "text": "Освобождает случайного ближайшего союзника от оков пространства и наделяет его природной способностью «Множественная атака». Она позволяет одним ударом в ближнем бою поразить нескольких далёких врагов без возможности промаха. При её применении союзник также может совершить скачок.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Освобождает случайного союзника поблизости от оков пространства и наделяет его природной способностью «Множественная атака». Она позволяет одним ударом в ближнем бою поразить нескольких далёких врагов без возможности промаха. При её применении союзник также может совершить скачок.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Woodweal spell": {
       "source_sha256": "0906eafc729fb571fba934ef784079018846c7d908d326e2908ff5fe61c4b0c7",
@@ -4044,8 +4044,8 @@
     },
     "Abjuration spell": {
       "source_sha256": "ac4fba9543dfbcc964e13dacaa924add0898f8fe1859565a467769b3e8f4f98e",
-      "text": "Сокращает оставшееся время существования ближайших враждебных призванных существ.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Сокращает оставшееся время существования враждебных призванных существ поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Confuse spell": {
       "source_sha256": "d129958f79a47d821651b8216062207896ef7b568a6ca166c98b4105037d71f1",
@@ -4079,8 +4079,8 @@
     },
     "Malign Offering spell": {
       "source_sha256": "1bba40a22011d2459f4fbb7d38d5cf4ce7880572ecf58ed5c24df48eac3a0d26",
-      "text": "Вытягивает жизненную силу из врага, исцеляя при этом ближайших союзников.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Вытягивает жизненную силу из врага, исцеляя при этом союзников поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Mass Confusion spell": {
       "source_sha256": "efdfdf2055ded616744ff4d7f680e38af5d9b511696ab22a08505b5a27f7e2e4",
@@ -4124,8 +4124,8 @@
     },
     "Shadow Draining spell": {
       "source_sha256": "78be08520bc178979510b420a28bb6de088f808b849571408a48b6f03391f6bc",
-      "text": "Силой отрывает частицы теней всех ближайших врагов, нанося урон, полностью игнорирующий броню жертв.",
-      "context": "Current spells.txt final pass: summons, translocations, breath weapons, terrain and shadow attacks. Exact source fingerprints and engine tokens retained. Short translocation is Blink/skachok, not blinking eyes. Will cannot resist Blink Other; range variant remains visible. Summon Illusion copies an enemy, Mara copies the caster; stronger snakes come from stronger casters. Species/proper names are Cyrillic transliterations where appropriate; ordinary words retain gameplay meaning. Existing reviewed ability/UI names take precedence over fresh synonyms. Misery clouds deal periodic current-HP damage based on max HP; they do not lower maximum HP. Mourning Wail skips cloud placement on vulnerable creatures. Might increases melee damage, Fleetfoot movement speed only; Phase Shift permits see-invisible counterplay. Agonising Touch and Torment halve current health without directly killing. Shadow Draining bypasses armour; Sojourning Bolt is spatial travel, not a time attack. Poison resistance and immunity remain distinct. No spell IDs, targets, formulas, resources or engine conditions changed."
+      "text": "Силой отрывает частицы теней всех врагов поблизости, нанося урон, полностью игнорирующий броню жертв.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Shadow Prism spell": {
       "source_sha256": "8284b8f56b62da2ad5ebdbf924a980731ff65f15f695315b28210242ce83ee8a",
@@ -4306,8 +4306,8 @@
     },
     "Word of Chaos ability": {
       "source_sha256": "1c35e8e8c24a71ae20e184f24fa2268a6f1066e493ca9e4227032e0362701133",
-      "text": "Произносит слово хаоса, заставляя ближайших врагов перенестись подальше от пользователя. Затронутые существа также могут замедлиться, запутаться или впасть в ужас. Произнесение слова хаоса немного уменьшает максимум здоровья, после чего способность некоторое время недоступна.",
-      "context": "Current upstream ability.txt: actual target, immunity, duration, resource cost, recovery and side effects checked."
+      "text": "Произносит слово хаоса, заставляя врагов поблизости перенестись подальше от пользователя. Затронутые существа также могут замедлиться, запутаться или впасть в ужас. Произнесение слова хаоса немного уменьшает максимум здоровья, после чего способность некоторое время недоступна.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Heal Wounds ability": {
       "source_sha256": "8735461abd2bbf6f3db9bd88015e4ee8bc5725d55babef7d2a3b8376d5564ffe",
@@ -5081,8 +5081,8 @@
     },
     "slymdra": {
       "source_sha256": "817f66e90d8e1fe592401e6e3ba71412f930442786e88838caff6e58a78b6bce",
-      "text": "Дрожащая масса вязкой слизи. Её многочисленные ложноножки хватают воздух, словно целая стая рептильих пастей. Она быстро поглощает ближайших слизистых существ, отращивая за каждое новую «голову» и становясь ещё крепче.\n\nТо ли благодаря сходному пути эволюции, то ли из-за генетической памяти она обладает и самой печально известной особенностью гидры: на месте головы, отрубленной клинком, вырастают две новые, если не прижечь рану огненным оружием.\n\nКогда она не выслеживает добычу, составляющие её слизи могут снова отделяться — возможно, чтобы самостоятельно искать новую пищу.",
-      "context": "Current monsters.txt Slime/Abyss creatures and english.cc pluralise_monster: eyes of devastation and great orbs of eyes pluralise before of; tentacled starspawn has invariant English plural. Exact shared Russian names and all singular/plural case forms. Slymdra transliterated as Слаймдра, not a newly invented substitute creature. Regrown heads replace one with two, flaming cauterisation prevents it. Void Ooze weakens spells, not Strength or spell MP capacity. Lurking Horror torment and watched-movement hesitation retained. Eye hypnosis and the Starcursed Mass chorus are described without inventing extra named status immunities. Grammar animacy follows Russian nouns, not game holiness."
+      "text": "Дрожащая масса вязкой слизи. Её многочисленные ложноножки хватают воздух, словно целая стая рептильих пастей. Она быстро поглощает слизистых существ поблизости, отращивая за каждое новую «голову» и становясь ещё крепче.\n\nТо ли благодаря сходному пути эволюции, то ли из-за генетической памяти она обладает и самой печально известной особенностью гидры: на месте головы, отрубленной клинком, вырастают две новые, если не прижечь рану огненным оружием.\n\nКогда она не выслеживает добычу, составляющие её слизи могут снова отделяться — возможно, чтобы самостоятельно искать новую пищу.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "void ooze": {
       "source_sha256": "33f2e169adeb0f15e2c8bb3c5f70c4ca60548c71bc6f19bc238d0038ab0678dd",
@@ -5196,8 +5196,8 @@
     },
     "vault warden": {
       "source_sha256": "ecd092228b83eb13c06f2e55f630d2f2c68877d54d7608ab5a9c125ab9b315ad",
-      "text": "Опытный командир, способный запечатывать ближайшие двери и лестницы, чтобы незваные гости не смогли ни пройти дальше, ни сбежать живыми.",
-      "context": "Current monsters.txt dangerous demons, Zot/Vaults and plant enemies. Mutagenic energy and flesh distortion are not Strength loss; spell help supplies exact mechanical details. Vault Warden blocks doors and stairs, Ironbound Preserver takes part of allied damage, Thorn Hunter can barricade itself and Shambling Mangrove roots interfere with footing. Preserve established Ancient Lich and Deathcap names, transliterate Neqoxec/Cacodemon; Killer Klown is an ordinary translated descriptive compound. Retain humorous undead corn description. English plurals follow english.cc, Russian compounds decline both components and have explicit counted-few forms. Animacy follows Russian creature/object noun usage."
+      "text": "Опытный командир, способный запечатывать двери и лестницы поблизости, чтобы незваные гости не смогли ни пройти дальше, ни сбежать живыми.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "ironbound preserver": {
       "source_sha256": "f3af8d83cca9ae42b62a6873ab3c2669ef84c8fbfa7d707e26570e65c789aabc",
@@ -5306,8 +5306,8 @@
     },
     "ironbound thunderhulk": {
       "source_sha256": "ba373f84f241bdb1697fc79c72e0d034504d0ee6a22072274e53d8e09dc71884",
-      "text": "Грубый великан, наспех облачённый в обрывки кожи и металла для боя с грозным незваным гостем. За его спиной закреплён древний магический «громоотвод», обрушивающий молнии на далёких врагов. По ближайшим целям он попасть не может.",
-      "context": "Current monsters.txt and mon-spell.h: Vault Sentinel marks and alerts; Convoker recalls existing allies and grants Might rather than creating new creatures; Frostheart attacks foes next to walls; Thunderhulk cannot hit nearby foes; Beastmaster accelerates nonsapient living beasts and slimes, not every ally. Deep elf professions share existing глубинный эльф naming, including the established мастер клинка. Preserve all engine IDs. Halazid, Sheza and Sargol are transliterated. Both elf and profession decline in compound names; counted 2–4 forms checked separately. No new gameplay claims, durations, percentages or spell lists added to source prose."
+      "text": "Грубый великан, наспех облачённый в обрывки кожи и металла для боя с грозным незваным гостем. За его спиной закреплён древний магический «громоотвод», обрушивающий молнии на далёких врагов. По целям вблизи он попасть не может.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "ironbound beastmaster": {
       "source_sha256": "8dc2242f6d85c77e6a37b1ce9ac9f679ebe5038856f51d95fbca32917cfaeda4",
@@ -5541,8 +5541,8 @@
     },
     "spriggan druid": {
       "source_sha256": "7150c2d30f41cf0c19ff0bc743434de0bbdb27c6abec92dde2b1657cb03e6564",
-      "text": "Спригган, чья связь с птицами и зверями особенно сильна. Если он погибнет, его жертва исцелит и на время усилит ближайших животных.",
-      "context": "Current monsters.txt, mon-spell.h, mon-gear.cc and english.cc plural rules. Orc priest damage is divine, not weapon damage; high priest calls netherworld aid. Naga sharpshooter can have a crossbow, so do not narrow it to an archer. Mana viper drains magic, not intelligence or a permanent maximum. Spriggan druid death heals and temporarily strengthens nearby animals. Hornet is шершень rather than an unspecified wasp; naga and merfolk retain existing нага/русалка terminology. Tengu is indeclinable; merfolk plural invariant in English. Gnoll Bouda is transliterated; its old invariant plural corrected. Ordinary nouns, compound professions and all counted 2–4 forms checked manually. Source prose is translated without adding unsupported ranges, durations or spell lists."
+      "text": "Спригган, чья связь с птицами и зверями особенно сильна. Если он погибнет, его жертва исцелит и на время усилит животных поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "spriggan air mage": {
       "source_sha256": "5b83209c7d42d390476896cf52f9fb17a981886180dd092ff139d38e734f737d",
@@ -6081,8 +6081,8 @@
     },
     "haunted armour": {
       "source_sha256": "c810cd3a72af2c1222975087d19de5ffeec79e5ebfcd54b3d4961d501f49222a",
-      "text": "Обычный доспех, удерживаемый вашей призрачной хваткой. Он может атаковать ближайших врагов, но должен вернуться к вам, если вы отойдёте от него слишком далеко.",
-      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+      "text": "Обычный доспех, удерживаемый вашей призрачной хваткой. Он может атаковать врагов поблизости, но должен вернуться к вам, если вы отойдёте от него слишком далеко.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "ancient zyme": {
       "source_sha256": "237e24b748515ada79092793f7a3ee7c80b86664b556fc20c8e325b55b899adc",
@@ -6126,8 +6126,8 @@
     },
     "hypnotail": {
       "source_sha256": "df7d826d529f466f267da093588e1a40fcc0a85df6cfb14ed1119f084d7b58e7",
-      "text": "Сброшенный хвост гипногеккона. Он всё ещё пульсирует завораживающими цветами, заставляя ближайших хищников смотреть на него, а не на несчастную ящерицу, которой он прежде принадлежал.",
-      "context": "Current monsters.txt, with mechanics cross-checked against the described abilities rather than historical wiki versions. Phalanx Beetle increases AC, not evasion; broodmother calls offspring; pharaoh ant binds allies on its own death and enables their later simulacra. Bunyip speed is distinct from its recovery after attacks. Water elemental suppresses breath and voice. Existing names are retained; fantasy names transliterated. Canonical titles feed game and wiki immediately, complete case tables are tracked separately. "
+      "text": "Сброшенный хвост гипногеккона. Он всё ещё пульсирует завораживающими цветами, заставляя хищников поблизости смотреть на него, а не на несчастную ящерицу, которой он прежде принадлежал.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "cognitogaunt": {
       "source_sha256": "250b02554f709e75b9e63eb2fb9c0c688d095bd6f0c6286d075e62e9c0aaf676",
@@ -6396,8 +6396,8 @@
     },
     "battlesphere": {
       "source_sha256": "d606a46bb4d99105ccf9578ccd14133c3e44929b0571ed84e43f711236482e87",
-      "text": "Небольшая сфера разрушительной энергии. Каждый раз, когда её создатель применяет боевое заклинание, она обстреливает магией наиболее раненого из ближайших врагов, до которого способна достать.",
-      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+      "text": "Небольшая сфера разрушительной энергии. Каждый раз, когда её создатель применяет боевое заклинание, она обстреливает магией наиболее раненого врага в пределах досягаемости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "boundless tesseract": {
       "source_sha256": "3622b7530d6e9a2364a6b03ebd79fb996408bf7e0b846b25b21c802df4aee008",
@@ -6491,8 +6491,8 @@
     },
     "shooting star": {
       "source_sha256": "f3ee1c4bc094a595934543ebb0de0b163ad725b19a174b340ae8ebe25775cd3b",
-      "text": "Мерцающая искра магической энергии. Она ищет ближайших врагов, чтобы израсходовать себя, нанеся им урон и оттолкнув назад.\n\nОна не перекрывает союзникам линию огня.",
-      "context": "Current monsters.txt constructs, summons, ancestor roles and spell manifestations, with canonical ability/spell titles from terms.json. Keep damage versus fire resistance distinct, tesseract expulsion versus killing distinct, Orb of Destruction inertia versus Dodging distinct, and cannon consumption versus ammunition regeneration distinct. Lua condition rimeblight is unchanged; only exact returned prose literals are translated. Names and readable wiki descriptions share the same glossary. "
+      "text": "Мерцающая искра магической энергии. Она ищет врагов поблизости, чтобы израсходовать себя, нанеся им урон и оттолкнув назад.\n\nОна не перекрывает союзникам линию огня.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "lightning spire": {
       "source_sha256": "ced62bb35f80af16593d56e9a6d90f565ad00f73834e03bb2296ae29d3727dab",
@@ -6777,8 +6777,8 @@
     },
     "glowing orange brain": {
       "source_sha256": "b685f125887f148f38144cea02238ebcb22fe665e601d6d336263087b9e094b5",
-      "text": "Огромный пульсирующий мозг, парящий невысоко над полом и светящийся мутагенной энергией. Он постоянно воздействует разумом на ближайших союзников, усиливая их колдовские способности своим необъятным интеллектом.",
-      "context": "Current monsters.txt demons, plants, undead and deep-dungeon enemies. Names of gods, species and existing creatures retained. Soul fragments, stationary plants and tentacle segments are not silently turned into independent mobile monsters. Friendly fire passage through briars is preserved. Mutagenic energy, spellpower support, vampiric feeding, death curses and damage are not replaced with stat loss or generic corruption. This batch adds canonical names and reviewed prose; full declensions remain separate work. "
+      "text": "Огромный пульсирующий мозг, парящий невысоко над полом и светящийся мутагенной энергией. Он постоянно воздействует разумом на союзников поблизости, усиливая их колдовские способности своим необъятным интеллектом.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "glowmurk ghast": {
       "source_sha256": "ef078172f7f45c429bec22f0a647ff90923bfaa6412619866a1ec927a125e894",
@@ -7032,8 +7032,8 @@
     },
     "screaming refraction": {
       "source_sha256": "4a1b345b98b4256fdee089af882216df96663efe8f8c9e702520c34b8f023f5c",
-      "text": "Глубоко несчастная душа, почти целиком превращённая в кристалл зловещим разрывом реальности. На ближайшие поверхности и врагов проецируются бесплотные отражения её прошлых и будущих страданий.",
-      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+      "text": "Глубоко несчастная душа, почти целиком превращённая в кристалл зловещим разрывом реальности. На поверхности и врагов поблизости проецируются бесплотные отражения её прошлых и будущих страданий.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "scrub nettle": {
       "source_sha256": "d7b517d71bdac1a7c72865655e1fc789798d3e077a694acccd4a19ba68641def",
@@ -7237,8 +7237,8 @@
     },
     "walking alembic": {
       "source_sha256": "49b0dfd9f384d7512815a954d02acd83d93dc9ee764065add712663ae64c6ce2",
-      "text": "Подвижная боевая алхимическая мануфактура, использующая трение ближнего боя для приготовления разнообразных полезных зелий. Накопив достаточно тепла для завершения синтеза, она автоматически раздаёт готовые зелья ближайшим союзникам и распадается.",
-      "context": "Current monsters.txt final standard-game enemies, shadows and detection descriptions. Dithmenos shadow is the divine ally, not the former hostile shadow. Damage to a spectral weapon is only partially transferred. Simulacra are icy replicas; starspawn segment damage affects its whole creature. Telekinetic confusion, solar ember recreation, ancestor compatibility and ally filtering retain their original scope. Friendly-detection Lua retains the raw Ashenzari selector and translates only returned prose. "
+      "text": "Подвижная боевая алхимическая мануфактура, использующая трение ближнего боя для приготовления разнообразных полезных зелий. Накопив достаточно тепла для завершения синтеза, она автоматически раздаёт готовые зелья союзникам поблизости и распадается.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "war gargoyle": {
       "source_sha256": "246c5b560de269520f94df0558407f5f7923663a1b83386063ce07f61fbd2d9f",
@@ -9227,8 +9227,8 @@
     },
     "Recite status": {
       "source_sha256": "41a56364e9868d6dd40952dda458e596aa5b2ddd1047761bcb7270caa06a3cac",
-      "text": "Вы читаете законы Зина ближайшим монстрам. Их воздействие зависит от цели. Закончив чтение, вы некоторое время не сможете повторить его.",
-      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+      "text": "Вы читаете законы Зина монстрам поблизости. Их воздействие зависит от цели. Закончив чтение, вы некоторое время не сможете повторить его.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "-Recite status": {
       "source_sha256": "3d7a8d6d27b1c189d07b043c705a1657751173aa709532ab39e1513cdf7cd737",
@@ -9252,8 +9252,8 @@
     },
     "Forest status": {
       "source_sha256": "a7fa581c2e0906213584e21bec839924886aacf4d35f363eae43b925b445e084",
-      "text": "Вы временно вызываете лесное измерение и пробуждаете ближайшие деревья, чтобы они причиняли вред вашим врагам.",
-      "context": "Current status.txt combat restrictions, enchantments, divine powers and shapeshifting. Separate reduced Will from immunity; petrifying from fully petrified; movement speed from attack speed. Heroism boosts combat skills, Finesse attacks; Death Door blocks healing and has recast delay. Slime next successful hit and eligible corporeal victims preserved. Ambrosia regeneration ends with confusion; Dragon Call spends magic per dragon. Contamination is not Strength, Flux equipment restrictions and melee penalty retained. Status lookup keys and all mechanics unchanged."
+      "text": "Вы временно вызываете лесное измерение и пробуждаете деревья поблизости, чтобы они причиняли вред вашим врагам.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Dragoncall status": {
       "source_sha256": "f0dab2e731f86e4d225f28ce65a410f0dbbe49e2a8fdc692a68141681b3bc0e7",
@@ -9373,8 +9373,8 @@
     },
     "Death status": {
       "source_sha256": "3b752eceb807027de978db6f37679ec298cef0da062e378f4a82b97707c7b874",
-      "text": "Вы превратились в бессмертное надругательство над самой жизнью.\n\nВраги, поражённые вашими руками или оружием ближнего боя, слабеют, замедляются и подвергаются высасыванию жизненной силы. Вы можете исцелять себя, мучая ближайших живых врагов. Кроме того, вы сопротивляетесь холоду, обладаете усиленной Волей и невосприимчивы к яду, миазмам, отрицательной энергии и мучению. Однако вы уязвимы к святому урону и заклинанию «Рассеивание нежити» и не можете пить зелья.",
-      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+      "text": "Вы превратились в бессмертное надругательство над самой жизнью.\n\nВраги, поражённые вашими руками или оружием ближнего боя, слабеют, замедляются и подвергаются высасыванию жизненной силы. Вы можете исцелять себя, мучая живых врагов поблизости. Кроме того, вы сопротивляетесь холоду, обладаете усиленной Волей и невосприимчивы к яду, миазмам, отрицательной энергии и мучению. Однако вы уязвимы к святому урону и заклинанию «Рассеивание нежити» и не можете пить зелья.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Bat status": {
       "source_sha256": "3288af8ca06032f12c83a2634ed7c493b540729a0f22fc63f9eb28a0c93a8aa8",
@@ -9460,8 +9460,8 @@
     },
     "Beogh status": {
       "source_sha256": "ef9b7ed5fa5a9fdaf7b33ed45ecb98ba10d0d6c04ae04ebfaa234fb1c478e21f",
-      "text": "Вы можете присягнуть Беогу, богу всех орков, через ближайшего жреца. Для этого выберите способность «Принять веру Беога» в меню способностей.",
-      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+      "text": "Вы можете присягнуть Беогу, богу всех орков, через жреца поблизости. Для этого выберите способность «Принять веру Беога» в меню способностей.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Bloodless status": {
       "source_sha256": "85a69f4a1e19f8e39889dc79ca432c77ba315b5ca6894a1107ed4de747664e6b",
@@ -9561,8 +9561,8 @@
     },
     "Ramparts status": {
       "source_sha256": "1449afd3f1c70536153525c5f0fb01de1177e9bd2725dbe52e494abb74e319bf",
-      "text": "Вы покрываете ближайшие стены льдом. Если вы переместитесь в другую клетку, лёд растрескается и осыплется.",
-      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+      "text": "Вы покрываете стены поблизости льдом. Если вы переместитесь в другую клетку, лёд растрескается и осыплется.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Bog status": {
       "source_sha256": "67feaa84ea349a0cecf43be10f340422467bc98696505f7f7c6decc4ce1ab0be",
@@ -9666,8 +9666,8 @@
     },
     "Fusillade status": {
       "source_sha256": "30fb9818d3c733c1180ece582332f3df3549fc21d061589335b8e3c299fe508d",
-      "text": "Вы швыряете сотворённые алхимические реагенты в ближайших монстров.",
-      "context": "Current status.txt transformations, sustained spells, translocation limits and divine effects; database.cc translates Lua results only after raw species/feature selectors run. Preserve all Lua conditions and status IDs. Distinguish maximum HP drain from current HP damage, spell power from Intelligence, movement from attack speed, and living from undead. Zot permanently reduces maximum health; only explicitly experience-based penalties recover through experience. In-world invented names follow the shared terminology. Water return strings are translated as complete sentences after Lua, with raw feature IDs unchanged. Conditional dragon colours and octopode appendages preserved."
+      "text": "Вы швыряете сотворённые алхимические реагенты в монстров поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Nightfall status": {
       "source_sha256": "6aa5e9ae5054381faddb89412d4db85307898599c415332a2f88ae94494951a4",
@@ -9961,8 +9961,8 @@
     },
     "Exile card": {
       "source_sha256": "b59711cea761e84c54bc9bccf978fb209c4bb10272c52dbfb4dbb3080fd57200",
-      "text": "На карте бесконечные руки из зияющего портала хватают паникующую фигуру.\n\nПри вытягивании: Может изгнать ближайших существ в Бездну. Чем сильнее карта, тем больше целей. Самого пользователя не изгоняет никогда.",
-      "context": "Current cards.txt: effects, scaling, hostile summons, walls and punishment checked."
+      "text": "На карте бесконечные руки из зияющего портала хватают паникующую фигуру.\n\nПри вытягивании: Может изгнать существ поблизости в Бездну. Чем сильнее карта, тем больше целей. Самого пользователя не изгоняет никогда.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "the Shaft card": {
       "source_sha256": "5baa4ceabf284a833d21402467be8562bd223a0135cca918de34a5699a432b86",
@@ -10001,8 +10001,8 @@
     },
     "Degeneration card": {
       "source_sha256": "ba8ce9f9043a392fa52df97b3362594dec83f9242694028b35c3e91e5bae38ba",
-      "text": "На карте с дракона сползает чешуя, открывая скрытую под ней овцу.\n\nПри вытягивании: Пытается превратить ближайших врагов в более слабые формы и наделить вредными мутациями. Тех, кого нельзя превратить, ненадолго ошеломляет.",
-      "context": "Current cards.txt: effects, scaling, hostile summons, walls and punishment checked."
+      "text": "На карте с дракона сползает чешуя, открывая скрытую под ней овцу.\n\nПри вытягивании: Пытается превратить врагов поблизости в более слабые формы и наделить вредными мутациями. Тех, кого нельзя превратить, ненадолго ошеломляет.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Wild Magic card": {
       "source_sha256": "14f0842bf69897f7a7a437663da1c00a3fecc94c8d65d808217bc99f637d4aaf",
@@ -10648,8 +10648,8 @@
     },
     "demon trident \"Rift\"": {
       "source_sha256": "d822957c4584ae6b91dbf6d9cc30d03acd0aaa4225fe05886d0be82a9138102b",
-      "text": "Небольшая складка в самой ткани реальности, магически привязанная к древку безумным служителем Лугону. По воле владельца его атаки могут искажать ближайшее пространство.",
-      "context": "Current unrand.txt; lore, names, affected creatures, immunity exceptions and temporary effects checked."
+      "text": "Небольшая складка в самой ткани реальности, магически привязанная к древку безумным служителем Лугону. По воле владельца его атаки могут искажать окружающее пространство.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "sphere of Battle": {
       "source_sha256": "1f887939a2dd7a8a42217f912fe185053523f228050d8a84baa8de8e3472d534",
@@ -12074,8 +12074,8 @@
     },
     "Viscous fluid": {
       "source_sha256": "8484e5f40b6eb01f6b8c92b9f3c3541e6e06e4e2a51f9cf81494be99613472b0",
-      "text": "Липкая жидкость, которую, похоже, выделяют ближайшие стены. Выглядит отвратительно.",
-      "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged."
+      "text": "Липкая жидкость, которую, похоже, выделяют стены поблизости. Выглядит отвратительно.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "A sinewy wall": {
       "source_sha256": "5e886395a48bdccff6a84b7303d6d571027bc450a473a21cab348285663af499",
@@ -12531,8 +12531,8 @@
     },
     "Mark of the Celebrant mutation": {
       "source_sha256": "d53aea190827fa2cd4a026c1d13869488bf6edcdaad4d3495681dc36dc2f6bd7",
-      "text": "Когда ваше здоровье снижается до 50% от максимума или ниже, вы совершаете адский ритуал и выпускаете шквал кровавых стрел в ближайших врагов. В каждую подходящую цель полетит хотя бы одна стрела; если целей мало, стрел может быть больше. Часть дополнительных стрел может полететь в случайных направлениях. Навык Молитв увеличивает их урон. Махлеб всегда дарует вам исцеление за врагов, убитых этими стрелами.\n\nПосле кровавого ритуала нельзя совершить следующий, пока здоровье не восстановится полностью.",
-      "context": "Current god-abil.cc Okawaru duel targeting, clone failure, arena healing; Makhleb infernal servant hostility, infernal marks, Atrocity, Legion, Vessel and Crucible; Hepliaklqana idealise/transference. religion.cc _regain_memory/_regain_item_memory/upgrade_hepliaklqana_ancestor and weapon/shield upgrade tables. mutation-data.h exact names, gain/status messages for nine marks and four destruction upgrades; current mutations.txt. Mark names have shared nominative/accusative contexts. Destruction is not damnation or ordinary fire; Magma replaces cold, Devastation replaces lightning, Dis replaces negative energy. Idealisation can partially heal; arena roar heals half missing HP, not full health. Nostalgia drains monsters rather than slows them. Ancestor remembers equipment and abilities, not player skill levels; fixed possessive pronoun variants avoid wrong gender. Celebrant triggers at HP <= 50% per god-passive.cc, despite below in the English database; fineff.cc can fire leftover blood arrows randomly. No costs, thresholds, target checks, spell/weapon IDs, save data or RNG changed."
+      "text": "Когда ваше здоровье снижается до 50% от максимума или ниже, вы совершаете адский ритуал и выпускаете шквал кровавых стрел во врагов поблизости. В каждую подходящую цель полетит хотя бы одна стрела; если целей мало, стрел может быть больше. Часть дополнительных стрел может полететь в случайных направлениях. Навык Молитв увеличивает их урон. Махлеб всегда дарует вам исцеление за врагов, убитых этими стрелами.\n\nПосле кровавого ритуала нельзя совершить следующий, пока здоровье не восстановится полностью.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "Mark of Execution mutation": {
       "source_sha256": "88f622138f8fbfbab16d62dc369cd61f64e7309a15a8971b91c0eeff19a46a75",
@@ -12611,8 +12611,8 @@
     },
     "trickster mutation": {
       "source_sha256": "ccd90b6e06cb86198fd71f9d1f99e27e6056a05ff4b1c98458b4ced7e18598db",
-      "text": "Ваша связь с миром живых крепнет, когда вы сеете несчастья.\n\nКогда вы или союзники накладываете новые отрицательные состояния, кроме отравления, на ближайших врагов, ваша броня временно усиливается. Прибавка растёт с числом разных затронутых врагов, но постепенно убывает, если вы не продолжаете насылать новые несчастья.\n\nНа вашем текущем уровне опыта максимальная прибавка к броне составляет {{return 6 + you.xl() * 4 / 5;}}.",
-      "context": "Current mutation-data.h modern innate/substance traits; mutations.txt and corresponding player.cc/melee-attack.cc/spl-cast.cc/skills.cc/movement.cc/throw.cc/ouch.cc/zot.cc behavior. Extra vitality adds max HP, not Strength. Double potion healing affects HP/MP restored, not all potion effects. Runic armour relief affects spell success, not armour AC or every penalty. Formless permits six auxiliary items and no body armour. Trickster excludes poison, counts different victims and new negative effects, and decays. Spellclaws chooses most current HP in melee reach and reduced damage for slow attacks. North Wind regenerates damage after it is taken, not a shield. Wind skill selector includes Unarmed for North and only magic schools for East, excluding Spellcasting/Invocations/Evocations. Zot loss is permanent maximum HP; Spiteful Blood can recur only after full healing. Lua formulas and raw mutation IDs kept unchanged; random vs unique artefacts distinct.",
+      "text": "Ваша связь с миром живых крепнет, когда вы сеете несчастья.\n\nКогда вы или союзники накладываете новые отрицательные состояния, кроме отравления, на врагов поблизости, ваша броня временно усиливается. Прибавка растёт с числом разных затронутых врагов, но постепенно убывает, если вы не продолжаете насылать новые несчастья.\n\nНа вашем текущем уровне опыта максимальная прибавка к броне составляет {{return 6 + you.xl() * 4 / 5;}}.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained.",
       "wiki_text": "Ваша связь с миром живых крепнет, когда вы сеете несчастья.\n\nКогда вы или союзники накладываете новые отрицательные состояния, кроме отравления, на ближайших врагов, ваша броня временно усиливается. Прибавка растёт с числом разных затронутых врагов, но постепенно убывает, если вы не продолжаете насылать новые несчастья.\n\nНа вашем текущем уровне опыта максимальная прибавка к броне составляет 6 + 4 × уровень опыта / 5."
     },
     "mnemnophage mutation": {
@@ -12873,8 +12873,8 @@
     },
     "antennae mutation": {
       "source_sha256": "f82902fa3c078b035d2ae4e900c0e4ea726c88a96d8dee00d7c4441782eb46a0",
-      "text": "У вас усики, позволяющие чувствовать ближайших монстров, но мешающие носить шлемы. Каждый уровень мутации увеличивает дальность обнаружения. На третьем уровне нельзя носить никакие головные уборы, зато вы видите невидимых монстров.",
-      "context": "Current mutations.txt and mutation-data.h; player.cc protections, spl-util.cc efficient spell cost floor, ability.cc non-free invocations and ouch.cc blood haste threshold. MP is magic capacity, never fuel consumption; scales are skin plates, never weighing scales. Movement speed does not change attacks/casting. Strong/Clever/Agile include both attribute penalties. Slaying means accuracy and damage for melee/ranged attacks. Helmets are rigid headgear; horns/antennae level three forbid even soft headgear. Poison resistance is not immunity; Clarity prevents involuntary berserk only. Spell cost has minimum 1 MP. Potion duration doubles all granted status effects, not healing. Protean Grace excludes itself and innate mutations, caps at seven and survives form suppression; exact Lua count preserved. Time-warped Blood triggers at no more than two-thirds HP and resets only after full healing. Names shared by game and wiki."
+      "text": "У вас усики, позволяющие чувствовать монстров поблизости, но мешающие носить шлемы. Каждый уровень мутации увеличивает дальность обнаружения. На третьем уровне нельзя носить никакие головные уборы, зато вы видите невидимых монстров.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "tentacle spike mutation": {
       "source_sha256": "1d958c9fc5df3e8c97f96d757dc91a427c41b60cbc03a19087eb01a0c393c52e",
@@ -13098,8 +13098,8 @@
     },
     "potion fungus mutation": {
       "source_sha256": "456bdb8435092b4ecd911e3ac1d153579d2b1af2f46ff21d85d86e64800cd275",
-      "text": "Ваше тело покрывает грибок, усваивающий выпитые вами полезные зелья. Иногда он выпускает споры, передающие эффекты зелий ближайшим монстрам — и друзьям, и врагам.",
-      "context": "Current mutations.txt detrimental, demonspawn and species-specific mechanics, with shared skill/spell/god names. Distinguish teleport warning/suppression from cancellation, potion healing from Gozag divine help, experience recovery from timed regeneration, armour base AC from enchantments, and accuracy/damage from Strength. Body equipment slots and auxiliary attacks follow current descriptions; dual-wield delay is mean of the two weapons. Magic Link replaces HP recovery with MP recovery when low, and HP Casting has no MP pool. Powered by Death restores HP per kill, not old regeneration mechanic. Demonic magic level three also works with wands. All input command markers retained. Retired traits remain faithful to their documented mechanics instead of being silently applied to modern species."
+      "text": "Ваше тело покрывает грибок, усваивающий выпитые вами полезные зелья. Иногда он выпускает споры, передающие эффекты зелий монстрам поблизости — и друзьям, и врагам.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "spatial entanglement mutation": {
       "source_sha256": "891f1ba65ddbcc3b8a7596b60831cc58489dcb70fb51c1185fc06f1849e9d0ae",
@@ -13348,8 +13348,8 @@
     },
     "treasure sense mutation": {
       "source_sha256": "433fe97006ea56ecd353e135e4cb0ac8ed50de806fb63662834e415afa40e729",
-      "text": "Вы удивительно хорошо чувствуете, где находятся предметы. При исследовании подземелья ближайшие ещё не виденные предметы отмечаются на карте, даже если вы не видите их напрямую.",
-      "context": "Current mutations.txt detrimental, demonspawn and species-specific mechanics, with shared skill/spell/god names. Distinguish teleport warning/suppression from cancellation, potion healing from Gozag divine help, experience recovery from timed regeneration, armour base AC from enchantments, and accuracy/damage from Strength. Body equipment slots and auxiliary attacks follow current descriptions; dual-wield delay is mean of the two weapons. Magic Link replaces HP recovery with MP recovery when low, and HP Casting has no MP pool. Powered by Death restores HP per kill, not old regeneration mechanic. Demonic magic level three also works with wands. All input command markers retained. Retired traits remain faithful to their documented mechanics instead of being silently applied to modern species."
+      "text": "Вы удивительно хорошо чувствуете, где находятся предметы. При исследовании подземелья ещё не виденные предметы поблизости отмечаются на карте, даже если вы не видите их напрямую.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "gelatinous body mutation": {
       "source_sha256": "b819e51b801b6b2bbea2471b07e466111145b8e6c955cc8769fd0e9e0135d9c9",
@@ -13378,8 +13378,8 @@
     },
     "jelly sensing items mutation": {
       "source_sha256": "57cc444f60a13e8bc7dbda1d3a7e633b14c046f3f990f165f16fc4725447ef5e",
-      "text": "К вам прикреплён маленький слизень, чувствующий ближайшие предметы.",
-      "context": "Current mutations.txt detrimental, demonspawn and species-specific mechanics, with shared skill/spell/god names. Distinguish teleport warning/suppression from cancellation, potion healing from Gozag divine help, experience recovery from timed regeneration, armour base AC from enchantments, and accuracy/damage from Strength. Body equipment slots and auxiliary attacks follow current descriptions; dual-wield delay is mean of the two weapons. Magic Link replaces HP recovery with MP recovery when low, and HP Casting has no MP pool. Powered by Death restores HP per kill, not old regeneration mechanic. Demonic magic level three also works with wands. All input command markers retained. Retired traits remain faithful to their documented mechanics instead of being silently applied to modern species."
+      "text": "К вам прикреплён маленький слизень, чувствующий предметы поблизости.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "jelly absorbing missiles mutation": {
       "source_sha256": "8b3fa537c26ad2a8e9f04815c2a2670cbe15544fc7111451796269c2b32fc315",
@@ -13463,8 +13463,8 @@
     },
     "frigid aura mutation": {
       "source_sha256": "8b6137288edcef454ce34b5868a046cd977a2c20efdf3cd79ec308e958a34665",
-      "text": "Ваше дыхание излучает сильный холод, замораживающий ближайшие стены во время боя.\n\nКаждая ваша атака замораживает случайную стену рядом с вами или целью. Морозные стены каждый ход наносят урон соседним врагам. При максимальном числе таких стен рядом с врагом урон достигает двойного. Урон растёт с навыком «Оборотничество».\n\nЕсли вы перестанете атаковать, стены быстро оттают.",
-      "context": "Current mutations.txt form powers and Ru sacrifices; ouch.cc confirms Hive at HP <=50%, Medusa lithotoxin at <=60%, Eeljolt at <=40%, versus player-reacts.cc renunciation exception strictly below 50%. Full healing or exploration recharge conditions are distinct. Water reaching does not extend stabs or axe cleaving. Maw damage adds 75% of Strength, not 75% of base damage; attack interval is in aut. Preserve potion-cloud literal newline separators. Crystal triggers require enemies in range. Summons, sleeping victims and lifeless immunity are distinguished. Ru restrictions use exact shared skill labels and zero training values. All raw IDs and input markers retained; dictionaries supply display names only."
+      "text": "Ваше дыхание излучает сильный холод, замораживающий стены поблизости во время боя.\n\nКаждая ваша атака замораживает случайную стену рядом с вами или целью. Морозные стены каждый ход наносят урон соседним врагам. При максимальном числе таких стен рядом с врагом урон достигает двойного. Урон растёт с навыком «Оборотничество».\n\nЕсли вы перестанете атаковать, стены быстро оттают.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "hive swarm mutation": {
       "source_sha256": "b0a96c806270687b88f6f50328388a9521f360751cb07b03e9b9941ccaa55e93",
@@ -13513,8 +13513,8 @@
     },
     "werehowl mutation": {
       "source_sha256": "0073ddabff79defa8ef3d61d2316b0ef13fe83987a51820d2589d5dd57a354dc",
-      "text": "Убив врага в ближнем бою при бонусе ярости оборотня не ниже 5, вы можете издать ужасающий вой. Он пытается приковать всех ближайших врагов к месту страхом, преодолевая их Волю.",
-      "context": "Current mutations.txt form powers and Ru sacrifices; ouch.cc confirms Hive at HP <=50%, Medusa lithotoxin at <=60%, Eeljolt at <=40%, versus player-reacts.cc renunciation exception strictly below 50%. Full healing or exploration recharge conditions are distinct. Water reaching does not extend stabs or axe cleaving. Maw damage adds 75% of Strength, not 75% of base damage; attack interval is in aut. Preserve potion-cloud literal newline separators. Crystal triggers require enemies in range. Summons, sleeping victims and lifeless immunity are distinguished. Ru restrictions use exact shared skill labels and zero training values. All raw IDs and input markers retained; dictionaries supply display names only."
+      "text": "Убив врага в ближнем бою при бонусе ярости оборотня не ниже 5, вы можете издать ужасающий вой. Он пытается приковать всех врагов поблизости к месту страхом, преодолевая их Волю.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "stinger hair mutation": {
       "source_sha256": "b6a73f5919e9fdfc971c0236a96d57eecfe9b994ada2689bb4c6d62b8aa1b8a8",
@@ -13563,8 +13563,8 @@
     },
     "sporulate mutation": {
       "source_sha256": "758a144273079d63863de3be90874e532aedbb87d2a736f2092a855b1f7f75e8",
-      "text": "Ваши атаки в ближнем бою вызывают рост нескольких взрывогрибов на свободных клетках за целью. Если дать им вырасти в течение нескольких ходов, они взрываются спорами, нанося урон ближайшим врагам и иногда ненадолго ошеломляя их.",
-      "context": "Current mutations.txt form powers and Ru sacrifices; ouch.cc confirms Hive at HP <=50%, Medusa lithotoxin at <=60%, Eeljolt at <=40%, versus player-reacts.cc renunciation exception strictly below 50%. Full healing or exploration recharge conditions are distinct. Water reaching does not extend stabs or axe cleaving. Maw damage adds 75% of Strength, not 75% of base damage; attack interval is in aut. Preserve potion-cloud literal newline separators. Crystal triggers require enemies in range. Summons, sleeping victims and lifeless immunity are distinguished. Ru restrictions use exact shared skill labels and zero training values. All raw IDs and input markers retained; dictionaries supply display names only."
+      "text": "Ваши атаки в ближнем бою вызывают рост нескольких взрывогрибов на свободных клетках за целью. Если дать им вырасти в течение нескольких ходов, они взрываются спорами, нанося урон врагам поблизости и иногда ненадолго ошеломляя их.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "armoured shell mutation": {
       "source_sha256": "353b907d50824bf5a0af5931c0b1343090804ac505e3fe0beeb62e84890d5ac0",
@@ -13578,8 +13578,8 @@
     },
     "glimmercast mutation": {
       "source_sha256": "4f8f70eb23b43e5d6a248f9b60bb5a881d5a4c066bccc81f9dfe591c6a47fa85",
-      "text": "Когда вы колдуете в поле зрения врагов или видите, как колдуют монстры, остаточная магическая энергия сгущается в недолговечное облако мерцания. При вашем прикосновении оно превращается в небольшой снаряд, без промаха поражающий ближайшего врага.\n\nДругие существа, входя в такие облака, лишь отталкивают их в сторону.",
-      "context": "Current mutations.txt form powers and Ru sacrifices; ouch.cc confirms Hive at HP <=50%, Medusa lithotoxin at <=60%, Eeljolt at <=40%, versus player-reacts.cc renunciation exception strictly below 50%. Full healing or exploration recharge conditions are distinct. Water reaching does not extend stabs or axe cleaving. Maw damage adds 75% of Strength, not 75% of base damage; attack interval is in aut. Preserve potion-cloud literal newline separators. Crystal triggers require enemies in range. Summons, sleeping victims and lifeless immunity are distinguished. Ru restrictions use exact shared skill labels and zero training values. All raw IDs and input markers retained; dictionaries supply display names only."
+      "text": "Когда вы колдуете в присутствии замеченных врагов или видите, как колдуют монстры, остаточная магическая энергия сгущается в недолговечное облако мерцания. При вашем прикосновении оно превращается в небольшой снаряд, без промаха поражающий ближайшего подходящего врага.\n\nДругие существа, входя в такие облака, лишь отталкивают их в сторону.",
+      "context": "spl-cast.cc checks there_are_monsters_nearby(true,true,false); mon-cast.cc checks visible monster casting. cloud.cc:enter_glimmer_cloud chooses the first suitable target by distance from the cloud, retaining nearest-target meaning here."
     },
     "elemental crystals mutation": {
       "source_sha256": "1ae5af5fe3f17733b1cf713df889c3539ee3eb8368a60ff5294a3391eb3329fe",
@@ -13588,8 +13588,8 @@
     },
     "autotomy mutation": {
       "source_sha256": "ec382356a701d32031fb7e757ba4ff3efc8a1b7ba265df734141a01ee3453a94",
-      "text": "При тяжёлых ранах вы автоматически отбрасываете хвост и отступаете в соседнюю клетку. Отброшенный хвост переливается яркими цветами, отвлекая всех ближайших монстров и заставляя их атаковать его вместо вас.\n\nХвост со временем отрастает, пока вы исследуете новые участки подземелья.",
-      "context": "Current mutations.txt form powers and Ru sacrifices; ouch.cc confirms Hive at HP <=50%, Medusa lithotoxin at <=60%, Eeljolt at <=40%, versus player-reacts.cc renunciation exception strictly below 50%. Full healing or exploration recharge conditions are distinct. Water reaching does not extend stabs or axe cleaving. Maw damage adds 75% of Strength, not 75% of base damage; attack interval is in aut. Preserve potion-cloud literal newline separators. Crystal triggers require enemies in range. Summons, sleeping victims and lifeless immunity are distinguished. Ru restrictions use exact shared skill labels and zero training values. All raw IDs and input markers retained; dictionaries supply display names only."
+      "text": "При тяжёлых ранах вы автоматически отбрасываете хвост и отступаете в соседнюю клетку. Отброшенный хвост переливается яркими цветами, отвлекая всех монстров поблизости и заставляя их атаковать его вместо вас.\n\nХвост со временем отрастает, пока вы исследуете новые участки подземелья.",
+      "context": "Nearby describes range/proximity, not a nearest-target selection. Wording checked against the complete current English description; all numbers, Lua selectors and drawbacks retained."
     },
     "gather mist mutation": {
       "source_sha256": "a81f4227a97d72228ac5398fa2dde221505bf99dcd815176d1b4a7146572cc5b",
