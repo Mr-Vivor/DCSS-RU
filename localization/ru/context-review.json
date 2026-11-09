@@ -127,6 +127,15 @@
       ],
       "entries": 67,
       "translations_sha256": "e117a08e9e95a75ccf5dcc2dbdbc71b2299ca9a9660b90db4db75f1e4ecd3e9e"
+    },
+    "dungeon": {
+      "context": [
+        "dat/translate/dungeon.txt: HUD, possessive, direction, abbreviation and location sections",
+        "branch-data.h and branch.cc: branch identities and portal names; preserve raw shortcuts and log IDs",
+        "wiki/site/branches.json: preserve previous page titles as aliases"
+      ],
+      "entries": 251,
+      "translations_sha256": "df8497f7ffe1d88723c997d74b56ba5852ed67051c278c452c142cc2e0f48b78"
     }
   },
   "messages": {
