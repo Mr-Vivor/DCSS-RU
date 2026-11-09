@@ -4071,8 +4071,8 @@
       "translation_sha256": "5d0ca50979b2da40538a24372af5e8788c749aaeaca3089f7341bb879f1795a3"
     },
     "fortress blast charging": {
-      "context": "duration-data.h (current 0.35 effects); status.cc",
-      "translation_sha256": "9a15e80163f9e40b76fd9e4a879ea9bc52064dd115a7bca1e99d70d48d6362c3"
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "aa94e29e5d75a9ca88b410ee6b87fb8765650e4753ba9d5cb71884688c604a7f"
     },
     "phalanx barrier": {
       "context": "duration-data.h (current 0.35 effects); status.cc",
@@ -14611,12 +14611,12 @@
       "translation_sha256": "dca152ee04d152ba749e4f1309c13c475d277e19221811f6950874dddc4ff760"
     },
     "You feel the corruption within you wane completely.": {
-      "context": "mutation.cc",
-      "translation_sha256": "e2447915b5f7e76e469f35c2afba71235217f8e17d164b512ecc75b120c24fb6"
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "832c5b479630a8d51b012c6fc13fc8e2ba500d3653cb5e2941d2f7ec2776eeb9"
     },
     "You feel the corruption within you wane somewhat.": {
-      "context": "mutation.cc",
-      "translation_sha256": "c94cb6e91b9bbaf8b7e1f2d5b9a73d0ff19caf7c44a46bd069ea3fb2c691043c"
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "4788724cdcfb989af3a140a1d7cc5bd46d722011371df3324fe2b5b973589e50"
     },
     "A demonic guardian appears!": {
       "context": "mutation.cc",
@@ -59921,6 +59921,82 @@
     "{gen}ectoplasmic tendril": {
       "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
       "translation_sha256": "e80934b36ec036a3eaea5b234c5bfe80ced8e1af6431e9d53bf3493ebb165c52"
+    },
+    "Your lungs are flooded with water and you cannot breathe.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "4910f8dc5f9539677603c217f1430d452930680500ec1b271f1b0d54fe6b3cc7"
+    },
+    "Your lungs are flooded with ooze and you cannot breathe.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "29aa2b1a70722fc79837e1d05ccedb316b5e64d192ef7f277ec86009be755d62"
+    },
+    "You are bolstered by spread misfortune (+@num@ AC)": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "251665b1ad2cae5173d5f19baf0d8d4f8955c7a5f7e03f587a70be050dc2d83a"
+    },
+    "trickster (+@num@ AC)": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "94f30eaf792e6afa81fee0a2c8dacc25a961823f51a5b5ead2d21633facf7896"
+    },
+    "fortress blast": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "b27f1f046ac98a3bbe970c0f9cd6d11ddc7a9cf5d581e40659799f878a487652"
+    },
+    " (but backlit and visible)": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "7866b871881904574aa05f71432ab1d955ff022a2d25a51bbe6e205dc8c1d249"
+    },
+    "invisible (but backlit and visible)": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "6b7a83942cbe2ed4589b3154014cc1ec778555c6169b7637c3e17a07ceaa20bc"
+    },
+    "You can breathe a blast of fire, cold, and poison.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "cfd0d164107d6a9eed9476e6c15995092594827003ecc6c47d500f3dcaefe711"
+    },
+    "Your facial features look somewhat orcish.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "b3f1cfb02128246ebb43d602277621e81f2d765a9d9b8dcf4528f66df4c52aba"
+    },
+    "Your facial features are unmistakably orcish.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "f3bb62a4fe3de9afaad5224794e761613780277fd31ace79db7f81116eac2a6a"
+    },
+    "You cannot fit into any form of body armour or wear helmets.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "f653eb3c184831c21a8c522d505981348eaafde0c32d863893751f406cc90d0e"
+    },
+    "You are undead, granting you many immunities and vulnerabilities.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "79d6847e2c108205b61ac542fab49f638d1ca60bb6e3b6c101c30ba0edb4bb95"
+    },
+    "Your @mutation@ mutation feels more permanent.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "d2dcc58640f8d41e24f9c331038fbf8a8741c116ce965fdf76b429d91c8f4daf"
+    },
+    "Zin forbids you from drinking this foul brew!": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "c4775c9e0778ac4344db03ac24a8c53603724d5af6a0cbb820b1416b6255cc4e"
+    },
+    "You must return to life before you may mutate.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "147a45df93525aac79486b05279aa0422a956bbba51eaa0bcc31c59b46cc3d58"
+    },
+    "Sadly, you cannot mutate.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "9f97ab72beca4297f00e7b29a13d97990a5e3170fe97707c9a6222b28c95d83e"
+    },
+    "You break open the mutation catalyst, and crackling magic pours forth!": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "d4f472502dc507ecdfbf3dd52f68e123a9b0f6888dd592cc69f9a177c3d78f76"
+    },
+    "You bathe in the mists of the mutagenic serum and feel extremely strange.": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "1be7bab2f827ab855de3cc5149696c89ba2dee89453672f61b3f5492585219ab"
+    },
+    "empty mutation catalyst": {
+      "context": "status.cc:DUR_FLOODED, STATUS_TRICKSTER, Fortress Blast and backlit invisibility; actor/player/monster::floodify have water default and ooze AF_FLOOD/OOZE_FLOOD; mutation.cc:use_mutation_catalyst is an interaction with a dungeon feature, not drinking a potion. temp_mutation_wanes removes temporary mutations. Beogh appearance changes and innate draconian armour restrictions are not new species.",
+      "translation_sha256": "3491a9c5c9b99dab4cd827f6fe018c82f9f86574a0fa7f78d9b623525d1bb863"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

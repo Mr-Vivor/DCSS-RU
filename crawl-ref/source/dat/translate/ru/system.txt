@@ -4454,7 +4454,7 @@ paragon active
 %%%%
 fortress blast charging
 
-подготовка крепостного залпа
+подготовка Крепостного взрыва
 %%%%
 phalanx barrier
 
@@ -14994,11 +14994,11 @@ You feel rather odd for a moment.
 %%%%
 You feel the corruption within you wane completely.
 
-Вы чувствуете, как порча внутри вас полностью убывает.
+Вы чувствуете, как временная скверна в вашем теле полностью рассеивается.
 %%%%
 You feel the corruption within you wane somewhat.
 
-Вы чувствуете, как порча внутри вас немного убывает.
+Вы чувствуете, как временная скверна в вашем теле ослабевает.
 %%%%
 A demonic guardian appears!
 
@@ -60155,3 +60155,79 @@ tendril
 {gen}ectoplasmic tendril
 
 {gen}эктоплазматического отростка
+%%%%
+Your lungs are flooded with water and you cannot breathe.
+
+Ваши лёгкие заполнены водой, и вы не можете дышать.
+%%%%
+Your lungs are flooded with ooze and you cannot breathe.
+
+Ваши лёгкие заполнены слизью, и вы не можете дышать.
+%%%%
+You are bolstered by spread misfortune (+@num@ AC)
+
+Чужие несчастья усиливают вашу броню (+@num@ к броне)
+%%%%
+trickster (+@num@ AC)
+
+Плутовство (+@num@ к броне)
+%%%%
+fortress blast
+
+крепостной взрыв
+%%%%
+" (but backlit and visible)"
+
+" (но свечение выдаёт вас)"
+%%%%
+invisible (but backlit and visible)
+
+невидимость (свечение выдаёт вас)
+%%%%
+You can breathe a blast of fire, cold, and poison.
+
+Вы можете выдыхать огонь, холод и яд.
+%%%%
+Your facial features look somewhat orcish.
+
+В ваших чертах лица есть что-то орочье.
+%%%%
+Your facial features are unmistakably orcish.
+
+Ваши черты лица явно орочьи.
+%%%%
+You cannot fit into any form of body armour or wear helmets.
+
+Вы не можете носить нательную броню и шлемы.
+%%%%
+You are undead, granting you many immunities and vulnerabilities.
+
+Вы принадлежите к нежити, что даёт вам ряд невосприимчивостей и уязвимостей.
+%%%%
+Your @mutation@ mutation feels more permanent.
+
+Мутация «@mutation@» закрепляется в вашем теле прочнее.
+%%%%
+Zin forbids you from drinking this foul brew!
+
+Зин запрещает вам использовать этот мутационный катализатор!
+%%%%
+You must return to life before you may mutate.
+
+Для этого сначала нужно выйти из нынешнего облика нежити.
+%%%%
+Sadly, you cannot mutate.
+
+Увы, вы не можете получать мутации.
+%%%%
+You break open the mutation catalyst, and crackling magic pours forth!
+
+Вы вскрываете мутационный катализатор, высвобождая потоки потрескивающей магии!
+%%%%
+You bathe in the mists of the mutagenic serum and feel extremely strange.
+
+Вас окутывает туман мутагенной сыворотки, и вы чувствуете нечто очень странное.
+%%%%
+empty mutation catalyst
+
+пустой мутационный катализатор
