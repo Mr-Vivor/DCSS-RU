@@ -304,7 +304,7 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "An untranslated message about MrVivor.");
     CHECK(localise("<red>You die...</red>") == "<red>Вы погибаете...</red>");
     CHECK(localise("You headbutt the hydra!") == "Вы бодаете гидру!");
-    CHECK(localise("The orc misses the bat.") == "Орк промахивается по летучей мыши.");
+    CHECK(localise("The orc misses the bat.") == "Орк не попадает по летучей мыши.");
     CHECK(localise("Roots grab the bat.") == "Корни хватают летучую мышь.");
     CHECK(localise("You can now recite Zin's Axioms of Law.")
           == "Теперь вы можете читать Аксиомы Закона Зина.");
