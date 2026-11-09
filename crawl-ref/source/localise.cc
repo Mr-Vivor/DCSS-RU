@@ -664,7 +664,10 @@ static string _localise_parameterised_string(const string& s, bool full_sentence
     {
         // store all params with lowercase keys
         string key = lowercase_first(param_keys[i]);
-        string value = maybe_lowercase_first(param_vals[i]);
+        const bool literal = key == "player_name" || key == "key"
+                             || starts_with(key, "key_");
+        string value = literal ? param_vals[i]
+                               : maybe_lowercase_first(param_vals[i]);
         params[key] = value;
     }
 

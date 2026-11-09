@@ -327,6 +327,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Предмет «флакон потопа» восстановил 2 заряда.");
     CHECK(localise("You cannot blink because you are locked down by a dimension anchor and wielding a dagger.")
           == "Нельзя совершить скачок: действует пространственный якорь и у вас в руках кинжал.");
+    CHECK(localise("You cannot teleport because you are wearing 4 artefacts preventing teleportation.")
+          == "Нельзя телепортироваться: на вас 4 артефакта, блокирующих телепортацию.");
+    CHECK(localise("Remember Something's name as what? ")
+          == "Как назвать предка «Something»? ");
+    CHECK(localise("Remember Борис's name as what? ")
+          == "Как назвать предка «Борис»? ");
     CHECK(localise("Your weapon, crown and divine halo glow too brightly for you to become invisible.")
           == "Невидимости мешает яркое свечение: оружие, корона и божественный ореол.");
     CHECK(localise("You are dangerously contaminated with residual magic. (up to 12 damage)")

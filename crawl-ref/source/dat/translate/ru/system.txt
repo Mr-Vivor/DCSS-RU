@@ -63539,3 +63539,35 @@ up to @num@ damage
 {teleport-blocker}held in place by your roots, @more@
 
 {teleport-blocker}вас удерживают корни, {teleport-blocker}@more@
+%%%%
+wearing @num@ artefacts preventing teleportation
+
+на вас @num@ артефактов, блокирующих телепортацию
+%%%%
+wearing @num@ items preventing teleportation
+
+на вас @num@ предметов, блокирующих телепортацию
+%%%%
+locked down by a dimension anchor and @more@
+
+действует пространственный якорь и {teleport-blocker}@more@
+%%%%
+locked down by a dimension anchor, @more@
+
+действует пространственный якорь, {teleport-blocker}@more@
+%%%%
+held in place by your roots and @more@
+
+вас удерживают корни и {teleport-blocker}@more@
+%%%%
+held in place by your roots, @more@
+
+вас удерживают корни, {teleport-blocker}@more@
+%%%%
+"Remember @player_name@'s name as what? "
+
+"Как назвать предка «@player_name@»? "
+%%%%
+"Remember @player_name@' name as what? "
+
+"Как назвать предка «@player_name@»? "

@@ -6317,8 +6317,8 @@ spret hepliaklqana_transference(const coord_def& target, bool fail)
 static void _hepliaklqana_choose_name()
 {
     const string old_name = hepliaklqana_ally_name();
-    string prompt  = make_stringf("Remember %s name as what? ",
-                                  apostrophise(old_name).c_str());
+    string prompt = localise(make_stringf("Remember %s name as what? ",
+                                         apostrophise(old_name).c_str()));
 
     char buf[18];
     int ret = msgwin_get_line(prompt, buf, sizeof buf, nullptr, old_name);
