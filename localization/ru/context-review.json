@@ -13,16 +13,10 @@
     },
     "annotations": {
       "context": [
-        "dat/translate/annotations.txt",
-        "item-name.cc",
-        "artefact.cc",
-        "dat/descript/egos.txt",
-        "describe.cc",
-        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged.",
-        "Reviewed current wand category and gizmo effect labels against terms.json and item-name.cc; invented module names transliterated, raw identifiers unchanged."
+        "item-name.cc and artefact inscriptions; Damnation uses the same name as the spell/ability and ignores fire resistance"
       ],
-      "translations_sha256": "b6b0b66a0b36f7992954ecca9a9135908de6bcc6c4a78002f804ea1949fdf605",
-      "entries": 187
+      "entries": 187,
+      "translations_sha256": "739eb2f9e8479dea849d3931adc73f630a62d41c6956880af763b6748bd9d95b"
     },
     "skills": {
       "context": [
@@ -136,6 +130,15 @@
       ],
       "entries": 251,
       "translations_sha256": "df8497f7ffe1d88723c997d74b56ba5852ed67051c278c452c142cc2e0f48b78"
+    },
+    "hiscores": {
+      "context": [
+        "dat/translate/hiscores.txt and hiscores.cc: verbose summaries, death causes, projectiles, summoners and dates",
+        "Raw score, logfile and xlog identifiers remain English; generic directional left and action quit not reinterpreted as death states",
+        "Russian actual kill attribution and cases; no photography, pregnancy, mirror damage to an object or deliberate suicide inferred from targeting accidents"
+      ],
+      "entries": 246,
+      "translations_sha256": "8207fb28b5173798508b6d6e99114f7bd54f307d8a7da4754c622deb0838f55b"
     }
   },
   "messages": {
@@ -16356,8 +16359,8 @@
       "translation_sha256": "0b66b75fe1f1bca00a3954510b1b6093d3ecf3e2fd4ffa2022efe882247a3088"
     },
     "You call forth a pillar of damnation!": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "ce60c0bda28e20dc21076eb25f3d51b18f0bcf6607a3642e886916573ca7d029"
+      "context": "hiscores.cc:death_description and damage/summoner causes; spl-damage.cc:cast_damnation and forest_damage; preserve raw log fields",
+      "translation_sha256": "2a6a943ea6a2222dd8b63966df972c4fcbf4f5fa22c7f8522878d4682c7f88ca"
     },
     "Chain Lightning might hit @arg@. Cast it anyway?": {
       "context": "spl-damage.cc",
@@ -16464,8 +16467,8 @@
       "translation_sha256": "12619bd660a06ac11e1f69011e5cab572018e1cfdae7eec42c6bd2ce2459462c"
     },
     "You freeze @arg@ but do no damage.": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "c58865bd4a1375344833a153d575a5193eaf4e7b58d6b7aded9c5688f9b9bb0d"
+      "context": "hiscores.cc:death_description and damage/summoner causes; spl-damage.cc:cast_damnation and forest_damage; preserve raw log fields",
+      "translation_sha256": "52da689b110d9eb8a554d870fe1a97652c8a060626ceda4d959c662fb766fb4b"
     },
     "The air twists around and strikes @arg@ but does no damage.": {
       "context": "spl-damage.cc",
@@ -16652,8 +16655,8 @@
       "translation_sha256": "90aeece5be20b63d19253ba32e10b58a073586bc3f7aca90eaba3184c036e5a6"
     },
     "You are waved at by a branch.": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "a41714c80744dbddcdd53131df21a8cb35f3b01c4764ddb278d111cc22453fc0"
+      "context": "hiscores.cc:death_description and damage/summoner causes; spl-damage.cc:cast_damnation and forest_damage; preserve raw log fields",
+      "translation_sha256": "448da62ae73093493dbac308d9533187ac939d750447b54468d65b721d5ab73b"
     },
     "A tree reaches out but misses you.": {
       "context": "spl-damage.cc",
@@ -16664,8 +16667,8 @@
       "translation_sha256": "a020ce426e41384b685f142025db39e3c46588d56f67eb39df677045775dc08c"
     },
     "@foe@ is waved at by a branch.": {
-      "context": "spl-damage.cc",
-      "translation_sha256": "27420c601537c98c6c91414715f0ad2fd2cc60e4f976f06440b2f7db387e5c0c"
+      "context": "hiscores.cc:death_description and damage/summoner causes; spl-damage.cc:cast_damnation and forest_damage; preserve raw log fields",
+      "translation_sha256": "bf00a090b41764fc29a5c68ce6a1b840b8bb6d12af8cd09a935c734303647d39"
     },
     "A tree reaches out but misses @foe@.": {
       "context": "spl-damage.cc",
@@ -22264,8 +22267,8 @@
       "translation_sha256": "9b1bc09f6488e4077ddedba3c78702c358f4cdce7c697b3050b5b1b2e96c4352"
     },
     " Its body is scourged by damnation.": {
-      "context": "describe.cc",
-      "translation_sha256": "ae9ee0c6c19d2fcb6616380c54b35fcd13137aaa91f392be6352144b0269221f"
+      "context": "hiscores.cc:death_description and damage/summoner causes; spl-damage.cc:cast_damnation and forest_damage; preserve raw log fields",
+      "translation_sha256": "958cb155ae73d6c6d662091d678e959b2b0eda554bacaea399fd2327b2f10fee"
     },
     " Its body is extensively scarred.": {
       "context": "describe.cc",

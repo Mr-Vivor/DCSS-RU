@@ -16742,7 +16742,7 @@ You can't place the storm on @arg@.
 %%%%
 You call forth a pillar of damnation!
 
-Вы призываете столп адского пламени!
+Вы призываете столп адской кары!
 %%%%
 Chain Lightning might hit @arg@. Cast it anyway?
 
@@ -16850,7 +16850,7 @@ You feel very cold.
 %%%%
 You freeze @arg@ but do no damage.
 
-Вы замораживаете {acc}@arg@, но не наносите урона.
+Вы обдаёте {acc}@arg@ холодом, но не наносите урона.
 %%%%
 The air twists around and strikes @arg@ but does no damage.
 
@@ -17038,7 +17038,7 @@ Tree limbs sway around you.
 %%%%
 You are waved at by a branch.
 
-Ветка машет вам.
+Ветка проносится мимо вас.
 %%%%
 A tree reaches out but misses you.
 
@@ -17050,7 +17050,7 @@ A root lunges up near you.
 %%%%
 @foe@ is waved at by a branch.
 
-Ветка машет {dat}@foe@.
+Ветка проносится мимо {gen}@foe@.
 %%%%
 A tree reaches out but misses @foe@.
 
@@ -22650,7 +22650,7 @@ a slithering body
 %%%%
 " Its body is scourged by damnation."
 
-" Его тело истерзано адским пламенем."
+" Его тело истерзано адской карой."
 %%%%
 " Its body is extensively scarred."
 

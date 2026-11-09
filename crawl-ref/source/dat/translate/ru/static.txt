@@ -7962,7 +7962,7 @@ in the Desolation of Salt
 %%%%
 " (damnation)"
 
-" (адское пламя)"
+" (адская кара)"
 %%%%
 " (the Realm of Zot)"
 
@@ -9366,11 +9366,11 @@ E
 %%%%
 Dungeon Crawl Stone Soup: High Scores
 
-Dungeon Crawl Stone Soup : Рекорды
+Dungeon Crawl Stone Soup: рекорды
 %%%%
 Began as @arg@
 
-Началось как @arg@
+Начальный персонаж: @arg@
 %%%%
 (@num@ damage)
 
@@ -9378,19 +9378,19 @@ Began as @arg@
 %%%%
 *WIZ*
 
-*WIZ*
+*ОТЛАДКА*
 %%%%
 *EXPLORE*
 
-*УЗНАТЬ*
+*ИССЛЕДОВАНИЕ*
 %%%%
 (level @num1@, @num2@/@num3@ (@num4@) HPs)
 
-(уровень @num1@, @num2@ / @num3@ (@num4@) HPs)
+(уровень @num1@, ОЗ @num2@/@num3@ (@num4@))
 %%%%
 (level @num1@, @num2@/@num3@ HPs)
 
-(уровень @num1@, @num2@ / @num3@ HPs)
+(уровень @num1@, ОЗ @num2@/@num3@)
 %%%%
 (level @num@)
 
@@ -9398,71 +9398,71 @@ Began as @arg@
 %%%%
 " on @mon@ @d@, @yyyy@"
 
-" на @mon@ @d@, @yyyy@"
+" @d@ @mon@ @yyyy@ года"
 %%%%
 Jan
 
-Январь
+января
 %%%%
 Feb
 
-февраль
+февраля
 %%%%
 Mar
 
-Мар
+марта
 %%%%
 Apr
 
-Апрель
+апреля
 %%%%
 May
 
-Май
+мая
 %%%%
 June
 
-июнь
+июня
 %%%%
 July
 
-июль
+июля
 %%%%
 Aug
 
-август
+августа
 %%%%
 Sept
 
-Сентябрь
+сентября
 %%%%
 Oct
 
-октябрь
+октября
 %%%%
 Nov
 
-ноябрь
+ноября
 %%%%
 Dec
 
-декабрь
+декабря
 %%%%
 Was a Favourite Plaything of Xom.
 
-был любимой игрушкой Ксом.
+Был любимой игрушкой Ксома.
 %%%%
 Was a Plaything of Xom.
 
-был игрушкой Ксом.
+Был игрушкой Ксома.
 %%%%
 Was @arg@ of @god@.
 
-Был @arg@ из @god@.
+Служение божеству «@god@»: @arg@.
 %%%%
 Was @arg@ of @god@ (penitent).
 
-Был @arg@ или @god@ (кающийся).
+Служение божеству «@god@»: @arg@ (в немилости).
 %%%%
 the Champion
 
@@ -9498,11 +9498,11 @@ Escaped with the Orb
 %%%%
 ... and @num@ runes
 
-... и @num@
+... число собранных рун: @num@
 %%%%
 Quit the game
 
-Выйти из игры.
+Прервал игру
 %%%%
 Got out of the dungeon
 
@@ -9522,11 +9522,11 @@ Got out of the dungeon alive
 %%%%
 ... with @num@ runes
 
-... с рунами @num@
+... число собранных рун: @num@
 %%%%
 Entered wizard mode
 
-Вошёл в режим мастера.
+Перешёл в режим отладки
 %%%%
 left
 
@@ -9550,75 +9550,75 @@ wizmode
 %%%%
 @arg@ by themself
 
-@arg@ сами по себе
+@arg@ собственным действием
 %%%%
 Slain
 
-Убито
+Убит
 %%%%
 Mangled
 
-Искалеченный
+Растерзан
 %%%%
 Demolished
 
-Снесен
+Сокрушён
 %%%%
 Annihilated
 
-уничтожен
+Уничтожен
 %%%%
 shot by themself
 
-сняты самими собой
+погиб от собственного выстрела
 %%%%
 shot by @arg@
 
-снято @arg@
+застрелен {ins}@arg@
 %%%%
 hit from afar by @arg@
 
-поражен издалека @arg@
+поражён издали {ins}@arg@
 %%%%
 blasted by themself
 
-взорвали сами
+погиб от собственной атаки
 %%%%
 blasted by @arg@
 
-взорван @arg@
+погиб от атаки {gen}@arg@
 %%%%
 slain by @arg@
 
-убит @arg@
+убит {ins}@arg@
 %%%%
 @arg@ headbutt
 
-@arg@ удар головой
+удар головой {gen}@arg@
 %%%%
 squashed by @arg@
 
-раздавлен @arg@
+раздавлен {ins}@arg@
 %%%%
 @arg@ spines
 
-@arg@ шипы
+шипы {gen}@arg@
 %%%%
 Impaled on @arg@ spines
 
-Пронзён шипами @arg@
+Пронзён шипами {gen}@arg@
 %%%%
 poisoned by @arg@
 
-отравлен @arg@
+отравлен {ins}@arg@
 %%%%
 Succumbed to @arg1@ @arg2@
 
-поддался @arg1@ @arg2@
+Погиб от {gen}@arg1@ {gen}@arg2@
 %%%%
 cloud of @arg@
 
-облако @arg@
+облако {gen}@arg@
 %%%%
 self
 
@@ -9626,27 +9626,27 @@ self
 %%%%
 Engulfed by their own cloud of @arg@
 
-Поглощены собственным облаком @arg@.
+Погиб в собственном облаке {gen}@arg@
 %%%%
 Engulfed by @arg@
 
-поглощен @arg@
+Погиб от {gen}@arg@
 %%%%
 Killed by themself
 
-Убит своими руками
+Погиб от собственного действия
 %%%%
 Killed from afar by themself
 
-Убиты издалека самими собой.
+Погиб от собственной дальней атаки
 %%%%
 Turned to ash by lava
 
-Превратился в пепел лавой
+Обратился в пепел в лаве
 %%%%
 Took a swim in molten lava
 
-Искупался в расплавленной лаве.
+Искупался в расплавленной лаве
 %%%%
 fell apart
 
@@ -9654,19 +9654,19 @@ fell apart
 %%%%
 Soaked and fell apart
 
-Намок и развалился.
+Размок и рассыпался
 %%%%
 Sank and fell apart
 
-Затонул и развалился.
+Утонул и рассыпался
 %%%%
 drowned by @arg@
 
-утонул @arg@
+утоплен {ins}@arg@
 %%%%
 Drowned by @arg@
 
-утоплен @arg@
+Утоплен {ins}@arg@
 %%%%
 drowned
 
@@ -9682,7 +9682,7 @@ stupidity
 %%%%
 Forgot to exist
 
-Забыл о существовании
+Забыл, как существовать
 %%%%
 Forgot to breathe
 
@@ -9690,7 +9690,7 @@ Forgot to breathe
 %%%%
 collapsed
 
-свернут
+обессилел
 %%%%
 Collapsed under their own weight
 
@@ -9706,15 +9706,15 @@ Slipped on a banana peel
 %%%%
 Killed by triggering @arg@
 
-Убит при срабатывании @arg@
+Погиб, приведя в действие {acc}@arg@
 %%%%
 Drained of all life by @arg@
 
-Опустошил всю жизнь @arg@
+Лишён жизненной силы {ins}@arg@
 %%%%
 Drained of all life
 
-Лишен всей жизни
+Полностью лишён жизненной силы
 %%%%
 starvation
 
@@ -9730,7 +9730,7 @@ Frozen to death
 %%%%
 Frozen to death by @arg@
 
-Заморожен до смерти @arg@
+Заморожен насмерть {ins}@arg@
 %%%%
 burnt
 
@@ -9738,7 +9738,7 @@ burnt
 %%%%
 Incinerated by @arg@
 
-Сожжен @arg@
+Испепелён {ins}@arg@
 %%%%
 Burnt to a crisp
 
@@ -9754,7 +9754,7 @@ xom
 %%%%
 Killed for Xom's enjoyment
 
-Убит ради удовольствия Ксом
+Погиб на потеху Ксому
 %%%%
 rotting
 
@@ -9770,51 +9770,51 @@ shot self
 %%%%
 Killed themself with bad targeting
 
-Покончил с собой из-за неправильного прицеливания.
+Погиб из-за неудачного прицеливания
 %%%%
 Killed themself with a badly aimed @arg@
 
-Покончил с собой из-за плохо направленного @arg@.
+Погиб из-за неудачного применения атаки «@arg@»
 %%%%
 reflected bolt
 
-отраженный болт
+отражённый снаряд
 %%%%
 Killed by a reflected bolt
 
-Убит отраженным выстрелом.
+Погиб от отражённого снаряда
 %%%%
 Killed by a reflected @arg@
 
-Убит отраженным @arg@.
+Погиб от отражённой атаки «@arg@»
 %%%%
 ... reflected by @arg@
 
-... отражено @arg@
+... отражено {ins}@arg@
 %%%%
 bounced beam
 
-отраженный луч
+отскочивший луч
 %%%%
 Killed themself with a bounced beam
 
-Покончил с собой отскочившим лучом.
+Погиб от отскочившего собственного луча
 %%%%
 Killed themself with a bounced @arg@
 
-Покончил с собой отскочившим @arg@
+Погиб от отскочившей собственной атаки «@arg@»
 %%%%
 suicidal targeting
 
-самоубийственное нацеливание
+попадание собственной атакой в себя
 %%%%
 Shot themself with a beam
 
-Застрелился лучом
+Погиб от собственного луча
 %%%%
 Shot themself with @arg@
 
-Застрелился: @arg@
+Погиб от собственной атаки «@arg@»
 %%%%
 spore
 
@@ -9822,27 +9822,27 @@ spore
 %%%%
 Killed by an exploding spore
 
-Убит взрывающейся спорой.
+Погиб от взрыва споры
 %%%%
 Killed by an exploding @arg@
 
-Погиб в результате взрыва @arg@.
+Погиб от взрыва {gen}@arg@
 %%%%
 smitten by Shining One
 
-поражен Сияющим
+поражён карой Сияющего
 %%%%
 Smitten by the Shining One
 
-поражен Сияющий
+Поражён карой Сияющего
 %%%%
 smitten by Beogh
 
-поражен Беог
+поражён карой Беога
 %%%%
 Smitten by Beogh
 
-Поражён Беог
+Поражён карой Беога
 %%%%
 Turned to stone
 
@@ -9858,27 +9858,27 @@ Died
 %%%%
 fell downstairs
 
-упал вниз.
+упал с лестницы
 %%%%
 Fell down a flight of stairs
 
-Упал с лестницы.
+Упал с лестницы
 %%%%
 fell through a gate
 
-провалился в ворота
+упал, проходя через врата
 %%%%
 Fell down through a gate
 
-Упал через ворота.
+Упал, проходя через врата
 %%%%
 Splashed by @arg@ acid
 
-Забрызган кислотой @arg@
+Погиб от брызг кислоты {gen}@arg@
 %%%%
 Splashed with acid
 
-Обрызган кислотой
+Погиб от брызг кислоты
 %%%%
 asphyx
 
@@ -9902,7 +9902,7 @@ disintegration
 %%%%
 mirror damage
 
-повреждение зеркала
+отражённый урон
 %%%%
 frailty
 
@@ -9910,7 +9910,7 @@ frailty
 %%%%
 Became unviable by @arg@
 
-Стал нежизнеспособным из-за @arg@
+Не смог выжить из-за эффекта «@arg@»
 %%%%
 barbs
 
@@ -9918,11 +9918,11 @@ barbs
 %%%%
 @arg@ throw
 
-@arg@ бросок
+бросок {gen}@arg@
 %%%%
 @arg@ collision
 
-@arg@ столкновение
+столкновение с {ins}@arg@
 %%%%
 constriction
 
@@ -9930,111 +9930,111 @@ constriction
 %%%%
 ... with damnation
 
-... с проклятием
+... от адской кары
 %%%%
 ... by creeping frost
 
-...ползущим морозом
+... от ползучего мороза
 %%%%
 ... while paralysed by @arg@
 
-... пока парализован @arg@
+... будучи парализованным {ins}@arg@
 %%%%
 ... while paralysed
 
-... пока парализован
+... будучи парализованным
 %%%%
 ... while petrified by @arg@
 
-... пока окаменел от @arg@
+... после окаменения из-за {gen}@arg@
 %%%%
 ... while petrified
 
-... пока окаменел
+... в окаменевшем состоянии
 %%%%
 Hit by @arg1@ thrown by @arg2@
 
-Удар @arg1@, брошенный @arg2@
+Погиб от попадания предмета «@arg1@», брошенного {ins}@arg2@
 %%%%
 Shot with @arg1@ by @arg2@
 
-Снимок с @arg1@ от @arg2@
+Погиб от попадания снаряда «@arg1@», выпущенного {ins}@arg2@
 %%%%
 led by @arg@
 
-во главе с @arg@
+под предводительством {gen}@arg@
 %%%%
 summoned by @arg@
 
-вызван @arg@
+призван {ins}@arg@
 %%%%
 woven by @arg@
 
-соткан @arg@
+соткан {ins}@arg@
 %%%%
 animated by @arg@
 
-, анимированный @arg@
+оживлён {ins}@arg@
 %%%%
 called by a doom hound
 
-вызван роковой собакой
+призван гончей рока
 %%%%
 called by @arg@
 
-вызывает @arg@
+призван {ins}@arg@
 %%%%
 called from beyond by @arg@
 
-вызван извне @arg@
+призван из потустороннего мира {ins}@arg@
 %%%%
 created by @arg@
 
-создан @arg@
+создан {ins}@arg@
 %%%%
 created by the rage of @arg@
 
-, созданный яростью @arg@
+создан яростью {gen}@arg@
 %%%%
 hexed by the player character
 
-проклят персонажем игрока
+Внутреннее пламя наложено персонажем игрока
 %%%%
 hexed by @arg@
 
-проклят @arg@
+Внутреннее пламя наложено {ins}@arg@
 %%%%
 mirrored by the player character
 
-отражается персонажем игрока
+создан Призрачным зеркалом персонажа игрока
 %%%%
 smitten by @arg@
 
-поражен @arg@
+поражён карой {gen}@arg@
 %%%%
 attached to @arg@
 
-прикреплен к @arg@
+прикреплён к {dat}@arg@
 %%%%
 ignited by their inner flame
 
-загорелся своим внутренним пламенем
+воспламенение из-за заклинания «Внутреннее пламя»
 %%%%
 ignited by themself
 
-загорелись сами по себе
+воспламенение вызвано самим персонажем
 %%%%
 ignited by their pet
 
-поджег их питомец
+воспламенение вызвано союзником персонажа
 %%%%
 set off by themself
 
-отправились сами
+взрыв вызван самим персонажем
 %%%%
 set off by their pet
 
-отправил их питомец
+взрыв вызван союзником персонажа
 %%%%
 the player character
 
@@ -10050,11 +10050,11 @@ their own shadow
 %%%%
 {acc}their own shadow
 
-{acc} их собственная тень
+{acc} собственную тень
 %%%%
 {dat}their own shadow
 
-{dat} их собственная тень
+{dat} собственной тени
 %%%%
 unknown source
 
@@ -10070,15 +10070,15 @@ static electricity
 %%%%
 arena miscast
 
-ошибка арены
+осечка на арене
 %%%%
 curare-induced apnoea
 
-Апноэ, вызванное кураре
+удушье от кураре
 %%%%
 a malign offering
 
-злонамеренное предложение
+Зловещее подношение
 %%%%
 nerve-wracking pain
 
@@ -10086,7 +10086,7 @@ nerve-wracking pain
 %%%%
 the mindburst bolt
 
-заряд разума
+Взрыв разума
 %%%%
 the storm
 
@@ -10094,7 +10094,7 @@ the storm
 %%%%
 a card of wild magic
 
-карта дикой магии.
+карта дикой магии
 %%%%
 accursed screaming
 
@@ -10106,23 +10106,23 @@ divine providence
 %%%%
 the blast of fiery breath
 
-взрыв огненного дыхания
+поток огненного дыхания
 %%%%
 the blast of searing breath
 
-взрыв обжигающего дыхания
+поток обжигающего дыхания
 %%%%
 the blast of chaotic breath
 
-взрыв хаотического дыхания
+поток хаотического дыхания
 %%%%
 the blast of icy breath
 
-порыв ледяного дыхания
+поток ледяного дыхания
 %%%%
 the blast of chilling breath
 
-порыв леденящего дыхания
+поток леденящего дыхания
 %%%%
 the creeping frost
 
@@ -10142,23 +10142,23 @@ the air
 %%%%
 entering a malign gateway
 
-входит в вредоносный шлюз
+вход в Зловещие врата
 %%%%
 gaining the @arg@ mutation
 
-получает мутацию @arg@
+приобретение мутации «@arg@»
 %%%%
 losing the @arg@ mutation
 
-теряет мутацию @arg@
+утрата мутации «@arg@»
 %%%%
 the malice of Kikubaaqudgha
 
-злоба Кикубаакудга
+злоба Кикубаакудги
 %%%%
 the malice of Vehumet
 
-злоба Вехумет
+злоба Вехумета
 %%%%
 the arc of chain lightning
 
@@ -10182,11 +10182,11 @@ the cleansing flame
 %%%%
 the Shining One's cleansing flame
 
-Очищающее пламя Сияющий
+очищающее пламя Сияющего
 %%%%
 miscasting @arg@
 
-ошибочное преобразование @arg@
+неудачное сотворение заклинания «@arg@»
 %%%%
 the magical explosion
 
@@ -10194,11 +10194,11 @@ the magical explosion
 %%%%
 gaining the @arg@ transformation
 
-получает трансформацию @arg@
+принятие формы «@arg@»
 %%%%
 losing the @arg@ form
 
-потеря формы: @arg@
+утрата формы «@arg@»
 %%%%
 testing miscast
 
@@ -10210,7 +10210,7 @@ Xom's lightning strike
 %%%%
 Xom's destruction
 
-Ксом
+разрушительная сила Ксома
 %%%%
 " (shapeshifter)"
 
@@ -10226,7 +10226,7 @@ Xom's destruction
 %%%%
 Death's Door abortion
 
-Аборт в «Двери смерти»
+прерывание «Порога смерти»
 %%%%
 @owner@'s General Store
 
