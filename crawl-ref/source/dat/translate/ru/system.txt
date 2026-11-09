@@ -5630,19 +5630,19 @@ The hatch slams shut behind you.
 %%%%
 You fly up through the gate.
 
-Вы взлетаете через врата.
+Вы пролетаете через врата вверх.
 %%%%
 You go up through the gate.
 
-Вы поднимаетесь через врата.
+Вы проходите через врата вверх.
 %%%%
 You fly down through the gate.
 
-Вы слетаете вниз через врата.
+Вы пролетаете через врата вниз.
 %%%%
 You go down through the gate.
 
-Вы спускаетесь через врата.
+Вы проходите через врата вниз.
 %%%%
 You fly upwards.
 
@@ -5994,11 +5994,11 @@ unvisited transporter
 %%%%
 can't reach some items
 
-некоторые предметы недоступны
+не удаётся добраться до части предметов
 %%%%
 can't reach some places
 
-некоторые места недоступны
+остались недоступные области
 %%%%
 Partly explored, @arg@.
 
@@ -32430,7 +32430,7 @@ Done exploring.
 %%%%
 can't reach some items and places
 
-некоторые предметы и места недоступны
+часть предметов и областей недоступна
 %%%%
 Could not pick up @arg@ here; Ignore it?
 
@@ -61731,3 +61731,1207 @@ your living iceblast spells
 {acc_many}@num@ living iceblast spells
 
 {acc_many}@num@ живых заклинаний «Ледяной взрыв»
+%%%%
+You push @target@ out of the way.
+
+Вы отодвигаете {acc}@target@ с дороги.
+%%%%
+Your @effects@ will break if you move. Continue?
+
+Перемещение разрушит {acc}@effects@. Продолжить?
+%%%%
+{acc}icy armour
+
+{acc}ледяную броню
+%%%%
+{acc}frozen ramparts
+
+{acc}ледяные стены
+%%%%
+If you enter this portal you could be pulled as deep as Abyss:@depth@ and might not be able to return immediately. Continue?
+
+Этот портал может затянуть вас на уровень Бездна:@depth@; сразу вернуться может не получиться. Продолжить?
+%%%%
+If you enter this portal, the magical contamination on the other side will temporarily mutate you thrice. Continue?
+
+Магическое загрязнение за порталом вызовет три временные мутации, а у безжизненной нежити вместо этого уменьшит максимальный запас здоровья. Продолжить?
+%%%%
+This entrance appears to skip some branches and may be quite dangerous. Continue anyway?
+
+Этот вход, похоже, ведёт в обход некоторых ветвей и может быть очень опасен. Всё равно продолжить?
+%%%%
+You cannot dig through the dense trees.
+
+Нельзя прогрызаться сквозь эти густые деревья.
+%%%%
+The malign portal rejects you as you step towards it.
+
+Зловещие врата не пропускают вас.
+%%%%
+Trying to dig through that would dissolve your mandibles.
+
+Прогрызть эту стену нельзя: едкая слизь растворила бы ваши жвалы.
+%%%%
+You feel something solid in that direction.
+
+Вы ощущаете что-то твёрдое в этом направлении.
+%%%%
+You cannot move. (Use ctrl+direction or * direction to attack while stationary and confused.)
+
+Вы не можете двигаться. (Для атаки в неподвижности и замешательстве: Ctrl+направление либо *, затем направление.)
+%%%%
+A bitter wind exposes @target@.
+
+Леденящий ветер делает {acc}@target@ уязвимее к магии.
+%%%%
+You weave more energy into your solar ember.
+
+Вы подпитываете солнечный уголёк новой энергией.
+%%%%
+You ooze up the stairs.
+
+Вы перетекаете вверх по лестнице.
+%%%%
+You slide down the stairs, becoming coated in regenerative ooze.
+
+Вы скользите вниз по лестнице, покрываясь слизью, ускоряющей восстановление здоровья и магии.
+%%%%
+With a burst of heat and light, you rocket upward!
+
+Вы взмываете вверх во вспышке жара и света!
+%%%%
+In a burst of heat and light, you rocket briefly upward... but you can't rise from here.
+
+Во вспышке жара и света вы ненадолго взмываете вверх... но отсюда подняться нельзя.
+%%%%
+You announce your regal presence to all who would look upon you.
+
+Вы возвещаете о своём царственном присутствии всем, кто может вас увидеть.
+%%%%
+Your cacophony subsides as you depart the area.
+
+Вы покидаете эту область, и ваша Какофония стихает.
+%%%%
+The door slams shut behind you.
+
+Дверь с грохотом захлопывается за вами.
+%%%%
+Mutagenic energy floods into you!
+
+Мутагенная энергия наполняет вас!
+%%%%
+Could not pick up @items@ here; Ignore it?
+
+Здесь не удалось подобрать {acc}@items@. Игнорировать этот предмет при автоподборе?
+%%%%
+Could not pick up @items@ here; Ignore them?
+
+Здесь не удалось подобрать {acc}@items@. Игнорировать эти предметы при автоподборе?
+%%%%
+mutation catalyst
+
+мутационный катализатор
+%%%%
+{nom}mutation catalyst
+
+{nom}мутационный катализатор
+%%%%
+{gen}mutation catalyst
+
+{gen}мутационного катализатора
+%%%%
+{dat}mutation catalyst
+
+{dat}мутационному катализатору
+%%%%
+{acc}mutation catalyst
+
+{acc}мутационный катализатор
+%%%%
+{ins}mutation catalyst
+
+{ins}мутационным катализатором
+%%%%
+{prep}mutation catalyst
+
+{prep}мутационном катализаторе
+%%%%
+the mutation catalyst
+
+мутационный катализатор
+%%%%
+{nom}the mutation catalyst
+
+{nom}мутационный катализатор
+%%%%
+{gen}the mutation catalyst
+
+{gen}мутационного катализатора
+%%%%
+{dat}the mutation catalyst
+
+{dat}мутационному катализатору
+%%%%
+{acc}the mutation catalyst
+
+{acc}мутационный катализатор
+%%%%
+{ins}the mutation catalyst
+
+{ins}мутационным катализатором
+%%%%
+{prep}the mutation catalyst
+
+{prep}мутационном катализаторе
+%%%%
+a mutation catalyst
+
+мутационный катализатор
+%%%%
+{nom}a mutation catalyst
+
+{nom}мутационный катализатор
+%%%%
+{gen}a mutation catalyst
+
+{gen}мутационного катализатора
+%%%%
+{dat}a mutation catalyst
+
+{dat}мутационному катализатору
+%%%%
+{acc}a mutation catalyst
+
+{acc}мутационный катализатор
+%%%%
+{ins}a mutation catalyst
+
+{ins}мутационным катализатором
+%%%%
+{prep}a mutation catalyst
+
+{prep}мутационном катализаторе
+%%%%
+an mutation catalyst
+
+мутационный катализатор
+%%%%
+{nom}an mutation catalyst
+
+{nom}мутационный катализатор
+%%%%
+{gen}an mutation catalyst
+
+{gen}мутационного катализатора
+%%%%
+{dat}an mutation catalyst
+
+{dat}мутационному катализатору
+%%%%
+{acc}an mutation catalyst
+
+{acc}мутационный катализатор
+%%%%
+{ins}an mutation catalyst
+
+{ins}мутационным катализатором
+%%%%
+{prep}an mutation catalyst
+
+{prep}мутационном катализаторе
+%%%%
+your mutation catalyst
+
+мутационный катализатор
+%%%%
+{nom}your mutation catalyst
+
+{nom}мутационный катализатор
+%%%%
+{gen}your mutation catalyst
+
+{gen}мутационного катализатора
+%%%%
+{dat}your mutation catalyst
+
+{dat}мутационному катализатору
+%%%%
+{acc}your mutation catalyst
+
+{acc}мутационный катализатор
+%%%%
+{ins}your mutation catalyst
+
+{ins}мутационным катализатором
+%%%%
+{prep}your mutation catalyst
+
+{prep}мутационном катализаторе
+%%%%
+mutation catalysts
+
+мутационные катализаторы
+%%%%
+{nom}mutation catalysts
+
+{nom}мутационные катализаторы
+%%%%
+{gen}mutation catalysts
+
+{gen}мутационных катализаторов
+%%%%
+{dat}mutation catalysts
+
+{dat}мутационным катализаторам
+%%%%
+{acc}mutation catalysts
+
+{acc}мутационные катализаторы
+%%%%
+{ins}mutation catalysts
+
+{ins}мутационными катализаторами
+%%%%
+{prep}mutation catalysts
+
+{prep}мутационных катализаторах
+%%%%
+the mutation catalysts
+
+мутационные катализаторы
+%%%%
+{nom}the mutation catalysts
+
+{nom}мутационные катализаторы
+%%%%
+{gen}the mutation catalysts
+
+{gen}мутационных катализаторов
+%%%%
+{dat}the mutation catalysts
+
+{dat}мутационным катализаторам
+%%%%
+{acc}the mutation catalysts
+
+{acc}мутационные катализаторы
+%%%%
+{ins}the mutation catalysts
+
+{ins}мутационными катализаторами
+%%%%
+{prep}the mutation catalysts
+
+{prep}мутационных катализаторах
+%%%%
+your mutation catalysts
+
+мутационные катализаторы
+%%%%
+{nom}your mutation catalysts
+
+{nom}мутационные катализаторы
+%%%%
+{gen}your mutation catalysts
+
+{gen}мутационных катализаторов
+%%%%
+{dat}your mutation catalysts
+
+{dat}мутационным катализаторам
+%%%%
+{acc}your mutation catalysts
+
+{acc}мутационные катализаторы
+%%%%
+{ins}your mutation catalysts
+
+{ins}мутационными катализаторами
+%%%%
+{prep}your mutation catalysts
+
+{prep}мутационных катализаторах
+%%%%
+@num@ mutation catalyst
+
+@num@ мутационных катализаторов
+%%%%
+{one}@num@ mutation catalyst
+
+{one}@num@ мутационный катализатор
+%%%%
+{few}@num@ mutation catalyst
+
+{few}@num@ мутационных катализатора
+%%%%
+{many}@num@ mutation catalyst
+
+{many}@num@ мутационных катализаторов
+%%%%
+{gen_one}@num@ mutation catalyst
+
+{gen_one}@num@ мутационного катализатора
+%%%%
+{gen_few}@num@ mutation catalyst
+
+{gen_few}@num@ мутационных катализаторов
+%%%%
+{gen_many}@num@ mutation catalyst
+
+{gen_many}@num@ мутационных катализаторов
+%%%%
+{dat_one}@num@ mutation catalyst
+
+{dat_one}@num@ мутационному катализатору
+%%%%
+{dat_few}@num@ mutation catalyst
+
+{dat_few}@num@ мутационным катализаторам
+%%%%
+{dat_many}@num@ mutation catalyst
+
+{dat_many}@num@ мутационным катализаторам
+%%%%
+{ins_one}@num@ mutation catalyst
+
+{ins_one}@num@ мутационным катализатором
+%%%%
+{ins_few}@num@ mutation catalyst
+
+{ins_few}@num@ мутационными катализаторами
+%%%%
+{ins_many}@num@ mutation catalyst
+
+{ins_many}@num@ мутационными катализаторами
+%%%%
+{prep_one}@num@ mutation catalyst
+
+{prep_one}@num@ мутационном катализаторе
+%%%%
+{prep_few}@num@ mutation catalyst
+
+{prep_few}@num@ мутационных катализаторах
+%%%%
+{prep_many}@num@ mutation catalyst
+
+{prep_many}@num@ мутационных катализаторах
+%%%%
+{acc_one}@num@ mutation catalyst
+
+{acc_one}@num@ мутационный катализатор
+%%%%
+{acc_few}@num@ mutation catalyst
+
+{acc_few}@num@ мутационных катализатора
+%%%%
+{acc_many}@num@ mutation catalyst
+
+{acc_many}@num@ мутационных катализаторов
+%%%%
+@num@ mutation catalysts
+
+@num@ мутационных катализаторов
+%%%%
+{one}@num@ mutation catalysts
+
+{one}@num@ мутационный катализатор
+%%%%
+{few}@num@ mutation catalysts
+
+{few}@num@ мутационных катализатора
+%%%%
+{many}@num@ mutation catalysts
+
+{many}@num@ мутационных катализаторов
+%%%%
+{gen_one}@num@ mutation catalysts
+
+{gen_one}@num@ мутационного катализатора
+%%%%
+{gen_few}@num@ mutation catalysts
+
+{gen_few}@num@ мутационных катализаторов
+%%%%
+{gen_many}@num@ mutation catalysts
+
+{gen_many}@num@ мутационных катализаторов
+%%%%
+{dat_one}@num@ mutation catalysts
+
+{dat_one}@num@ мутационному катализатору
+%%%%
+{dat_few}@num@ mutation catalysts
+
+{dat_few}@num@ мутационным катализаторам
+%%%%
+{dat_many}@num@ mutation catalysts
+
+{dat_many}@num@ мутационным катализаторам
+%%%%
+{ins_one}@num@ mutation catalysts
+
+{ins_one}@num@ мутационным катализатором
+%%%%
+{ins_few}@num@ mutation catalysts
+
+{ins_few}@num@ мутационными катализаторами
+%%%%
+{ins_many}@num@ mutation catalysts
+
+{ins_many}@num@ мутационными катализаторами
+%%%%
+{prep_one}@num@ mutation catalysts
+
+{prep_one}@num@ мутационном катализаторе
+%%%%
+{prep_few}@num@ mutation catalysts
+
+{prep_few}@num@ мутационных катализаторах
+%%%%
+{prep_many}@num@ mutation catalysts
+
+{prep_many}@num@ мутационных катализаторах
+%%%%
+{acc_one}@num@ mutation catalysts
+
+{acc_one}@num@ мутационный катализатор
+%%%%
+{acc_few}@num@ mutation catalysts
+
+{acc_few}@num@ мутационных катализатора
+%%%%
+{acc_many}@num@ mutation catalysts
+
+{acc_many}@num@ мутационных катализаторов
+%%%%
+purified mutation catalyst
+
+очищенный мутационный катализатор
+%%%%
+{nom}purified mutation catalyst
+
+{nom}очищенный мутационный катализатор
+%%%%
+{gen}purified mutation catalyst
+
+{gen}очищенного мутационного катализатора
+%%%%
+{dat}purified mutation catalyst
+
+{dat}очищенному мутационному катализатору
+%%%%
+{acc}purified mutation catalyst
+
+{acc}очищенный мутационный катализатор
+%%%%
+{ins}purified mutation catalyst
+
+{ins}очищенным мутационным катализатором
+%%%%
+{prep}purified mutation catalyst
+
+{prep}очищенном мутационном катализаторе
+%%%%
+{nom}the purified mutation catalyst
+
+{nom}очищенный мутационный катализатор
+%%%%
+{gen}the purified mutation catalyst
+
+{gen}очищенного мутационного катализатора
+%%%%
+{dat}the purified mutation catalyst
+
+{dat}очищенному мутационному катализатору
+%%%%
+{acc}the purified mutation catalyst
+
+{acc}очищенный мутационный катализатор
+%%%%
+{ins}the purified mutation catalyst
+
+{ins}очищенным мутационным катализатором
+%%%%
+{prep}the purified mutation catalyst
+
+{prep}очищенном мутационном катализаторе
+%%%%
+{nom}a purified mutation catalyst
+
+{nom}очищенный мутационный катализатор
+%%%%
+{gen}a purified mutation catalyst
+
+{gen}очищенного мутационного катализатора
+%%%%
+{dat}a purified mutation catalyst
+
+{dat}очищенному мутационному катализатору
+%%%%
+{acc}a purified mutation catalyst
+
+{acc}очищенный мутационный катализатор
+%%%%
+{ins}a purified mutation catalyst
+
+{ins}очищенным мутационным катализатором
+%%%%
+{prep}a purified mutation catalyst
+
+{prep}очищенном мутационном катализаторе
+%%%%
+an purified mutation catalyst
+
+очищенный мутационный катализатор
+%%%%
+{nom}an purified mutation catalyst
+
+{nom}очищенный мутационный катализатор
+%%%%
+{gen}an purified mutation catalyst
+
+{gen}очищенного мутационного катализатора
+%%%%
+{dat}an purified mutation catalyst
+
+{dat}очищенному мутационному катализатору
+%%%%
+{acc}an purified mutation catalyst
+
+{acc}очищенный мутационный катализатор
+%%%%
+{ins}an purified mutation catalyst
+
+{ins}очищенным мутационным катализатором
+%%%%
+{prep}an purified mutation catalyst
+
+{prep}очищенном мутационном катализаторе
+%%%%
+your purified mutation catalyst
+
+очищенный мутационный катализатор
+%%%%
+{nom}your purified mutation catalyst
+
+{nom}очищенный мутационный катализатор
+%%%%
+{gen}your purified mutation catalyst
+
+{gen}очищенного мутационного катализатора
+%%%%
+{dat}your purified mutation catalyst
+
+{dat}очищенному мутационному катализатору
+%%%%
+{acc}your purified mutation catalyst
+
+{acc}очищенный мутационный катализатор
+%%%%
+{ins}your purified mutation catalyst
+
+{ins}очищенным мутационным катализатором
+%%%%
+{prep}your purified mutation catalyst
+
+{prep}очищенном мутационном катализаторе
+%%%%
+purified mutation catalysts
+
+очищенные мутационные катализаторы
+%%%%
+{nom}purified mutation catalysts
+
+{nom}очищенные мутационные катализаторы
+%%%%
+{gen}purified mutation catalysts
+
+{gen}очищенных мутационных катализаторов
+%%%%
+{dat}purified mutation catalysts
+
+{dat}очищенным мутационным катализаторам
+%%%%
+{acc}purified mutation catalysts
+
+{acc}очищенные мутационные катализаторы
+%%%%
+{ins}purified mutation catalysts
+
+{ins}очищенными мутационными катализаторами
+%%%%
+{prep}purified mutation catalysts
+
+{prep}очищенных мутационных катализаторах
+%%%%
+the purified mutation catalysts
+
+очищенные мутационные катализаторы
+%%%%
+{nom}the purified mutation catalysts
+
+{nom}очищенные мутационные катализаторы
+%%%%
+{gen}the purified mutation catalysts
+
+{gen}очищенных мутационных катализаторов
+%%%%
+{dat}the purified mutation catalysts
+
+{dat}очищенным мутационным катализаторам
+%%%%
+{acc}the purified mutation catalysts
+
+{acc}очищенные мутационные катализаторы
+%%%%
+{ins}the purified mutation catalysts
+
+{ins}очищенными мутационными катализаторами
+%%%%
+{prep}the purified mutation catalysts
+
+{prep}очищенных мутационных катализаторах
+%%%%
+your purified mutation catalysts
+
+очищенные мутационные катализаторы
+%%%%
+{nom}your purified mutation catalysts
+
+{nom}очищенные мутационные катализаторы
+%%%%
+{gen}your purified mutation catalysts
+
+{gen}очищенных мутационных катализаторов
+%%%%
+{dat}your purified mutation catalysts
+
+{dat}очищенным мутационным катализаторам
+%%%%
+{acc}your purified mutation catalysts
+
+{acc}очищенные мутационные катализаторы
+%%%%
+{ins}your purified mutation catalysts
+
+{ins}очищенными мутационными катализаторами
+%%%%
+{prep}your purified mutation catalysts
+
+{prep}очищенных мутационных катализаторах
+%%%%
+@num@ purified mutation catalyst
+
+@num@ очищенных мутационных катализаторов
+%%%%
+{one}@num@ purified mutation catalyst
+
+{one}@num@ очищенный мутационный катализатор
+%%%%
+{few}@num@ purified mutation catalyst
+
+{few}@num@ очищенных мутационных катализатора
+%%%%
+{many}@num@ purified mutation catalyst
+
+{many}@num@ очищенных мутационных катализаторов
+%%%%
+{gen_one}@num@ purified mutation catalyst
+
+{gen_one}@num@ очищенного мутационного катализатора
+%%%%
+{gen_few}@num@ purified mutation catalyst
+
+{gen_few}@num@ очищенных мутационных катализаторов
+%%%%
+{gen_many}@num@ purified mutation catalyst
+
+{gen_many}@num@ очищенных мутационных катализаторов
+%%%%
+{dat_one}@num@ purified mutation catalyst
+
+{dat_one}@num@ очищенному мутационному катализатору
+%%%%
+{dat_few}@num@ purified mutation catalyst
+
+{dat_few}@num@ очищенным мутационным катализаторам
+%%%%
+{dat_many}@num@ purified mutation catalyst
+
+{dat_many}@num@ очищенным мутационным катализаторам
+%%%%
+{ins_one}@num@ purified mutation catalyst
+
+{ins_one}@num@ очищенным мутационным катализатором
+%%%%
+{ins_few}@num@ purified mutation catalyst
+
+{ins_few}@num@ очищенными мутационными катализаторами
+%%%%
+{ins_many}@num@ purified mutation catalyst
+
+{ins_many}@num@ очищенными мутационными катализаторами
+%%%%
+{prep_one}@num@ purified mutation catalyst
+
+{prep_one}@num@ очищенном мутационном катализаторе
+%%%%
+{prep_few}@num@ purified mutation catalyst
+
+{prep_few}@num@ очищенных мутационных катализаторах
+%%%%
+{prep_many}@num@ purified mutation catalyst
+
+{prep_many}@num@ очищенных мутационных катализаторах
+%%%%
+{acc_one}@num@ purified mutation catalyst
+
+{acc_one}@num@ очищенный мутационный катализатор
+%%%%
+{acc_few}@num@ purified mutation catalyst
+
+{acc_few}@num@ очищенных мутационных катализатора
+%%%%
+{acc_many}@num@ purified mutation catalyst
+
+{acc_many}@num@ очищенных мутационных катализаторов
+%%%%
+@num@ purified mutation catalysts
+
+@num@ очищенных мутационных катализаторов
+%%%%
+{one}@num@ purified mutation catalysts
+
+{one}@num@ очищенный мутационный катализатор
+%%%%
+{few}@num@ purified mutation catalysts
+
+{few}@num@ очищенных мутационных катализатора
+%%%%
+{many}@num@ purified mutation catalysts
+
+{many}@num@ очищенных мутационных катализаторов
+%%%%
+{gen_one}@num@ purified mutation catalysts
+
+{gen_one}@num@ очищенного мутационного катализатора
+%%%%
+{gen_few}@num@ purified mutation catalysts
+
+{gen_few}@num@ очищенных мутационных катализаторов
+%%%%
+{gen_many}@num@ purified mutation catalysts
+
+{gen_many}@num@ очищенных мутационных катализаторов
+%%%%
+{dat_one}@num@ purified mutation catalysts
+
+{dat_one}@num@ очищенному мутационному катализатору
+%%%%
+{dat_few}@num@ purified mutation catalysts
+
+{dat_few}@num@ очищенным мутационным катализаторам
+%%%%
+{dat_many}@num@ purified mutation catalysts
+
+{dat_many}@num@ очищенным мутационным катализаторам
+%%%%
+{ins_one}@num@ purified mutation catalysts
+
+{ins_one}@num@ очищенным мутационным катализатором
+%%%%
+{ins_few}@num@ purified mutation catalysts
+
+{ins_few}@num@ очищенными мутационными катализаторами
+%%%%
+{ins_many}@num@ purified mutation catalysts
+
+{ins_many}@num@ очищенными мутационными катализаторами
+%%%%
+{prep_one}@num@ purified mutation catalysts
+
+{prep_one}@num@ очищенном мутационном катализаторе
+%%%%
+{prep_few}@num@ purified mutation catalysts
+
+{prep_few}@num@ очищенных мутационных катализаторах
+%%%%
+{prep_many}@num@ purified mutation catalysts
+
+{prep_many}@num@ очищенных мутационных катализаторах
+%%%%
+{acc_one}@num@ purified mutation catalysts
+
+{acc_one}@num@ очищенный мутационный катализатор
+%%%%
+{acc_few}@num@ purified mutation catalysts
+
+{acc_few}@num@ очищенных мутационных катализатора
+%%%%
+{acc_many}@num@ purified mutation catalysts
+
+{acc_many}@num@ очищенных мутационных катализаторов
+%%%%
+{nom}empty mutation catalyst
+
+{nom}пустой мутационный катализатор
+%%%%
+{gen}empty mutation catalyst
+
+{gen}пустого мутационного катализатора
+%%%%
+{dat}empty mutation catalyst
+
+{dat}пустому мутационному катализатору
+%%%%
+{acc}empty mutation catalyst
+
+{acc}пустой мутационный катализатор
+%%%%
+{ins}empty mutation catalyst
+
+{ins}пустым мутационным катализатором
+%%%%
+{prep}empty mutation catalyst
+
+{prep}пустом мутационном катализаторе
+%%%%
+{nom}the empty mutation catalyst
+
+{nom}пустой мутационный катализатор
+%%%%
+{gen}the empty mutation catalyst
+
+{gen}пустого мутационного катализатора
+%%%%
+{dat}the empty mutation catalyst
+
+{dat}пустому мутационному катализатору
+%%%%
+{acc}the empty mutation catalyst
+
+{acc}пустой мутационный катализатор
+%%%%
+{ins}the empty mutation catalyst
+
+{ins}пустым мутационным катализатором
+%%%%
+{prep}the empty mutation catalyst
+
+{prep}пустом мутационном катализаторе
+%%%%
+a empty mutation catalyst
+
+пустой мутационный катализатор
+%%%%
+{nom}a empty mutation catalyst
+
+{nom}пустой мутационный катализатор
+%%%%
+{gen}a empty mutation catalyst
+
+{gen}пустого мутационного катализатора
+%%%%
+{dat}a empty mutation catalyst
+
+{dat}пустому мутационному катализатору
+%%%%
+{acc}a empty mutation catalyst
+
+{acc}пустой мутационный катализатор
+%%%%
+{ins}a empty mutation catalyst
+
+{ins}пустым мутационным катализатором
+%%%%
+{prep}a empty mutation catalyst
+
+{prep}пустом мутационном катализаторе
+%%%%
+{nom}an empty mutation catalyst
+
+{nom}пустой мутационный катализатор
+%%%%
+{gen}an empty mutation catalyst
+
+{gen}пустого мутационного катализатора
+%%%%
+{dat}an empty mutation catalyst
+
+{dat}пустому мутационному катализатору
+%%%%
+{acc}an empty mutation catalyst
+
+{acc}пустой мутационный катализатор
+%%%%
+{ins}an empty mutation catalyst
+
+{ins}пустым мутационным катализатором
+%%%%
+{prep}an empty mutation catalyst
+
+{prep}пустом мутационном катализаторе
+%%%%
+your empty mutation catalyst
+
+пустой мутационный катализатор
+%%%%
+{nom}your empty mutation catalyst
+
+{nom}пустой мутационный катализатор
+%%%%
+{gen}your empty mutation catalyst
+
+{gen}пустого мутационного катализатора
+%%%%
+{dat}your empty mutation catalyst
+
+{dat}пустому мутационному катализатору
+%%%%
+{acc}your empty mutation catalyst
+
+{acc}пустой мутационный катализатор
+%%%%
+{ins}your empty mutation catalyst
+
+{ins}пустым мутационным катализатором
+%%%%
+{prep}your empty mutation catalyst
+
+{prep}пустом мутационном катализаторе
+%%%%
+empty mutation catalysts
+
+пустые мутационные катализаторы
+%%%%
+{nom}empty mutation catalysts
+
+{nom}пустые мутационные катализаторы
+%%%%
+{gen}empty mutation catalysts
+
+{gen}пустых мутационных катализаторов
+%%%%
+{dat}empty mutation catalysts
+
+{dat}пустым мутационным катализаторам
+%%%%
+{acc}empty mutation catalysts
+
+{acc}пустые мутационные катализаторы
+%%%%
+{ins}empty mutation catalysts
+
+{ins}пустыми мутационными катализаторами
+%%%%
+{prep}empty mutation catalysts
+
+{prep}пустых мутационных катализаторах
+%%%%
+the empty mutation catalysts
+
+пустые мутационные катализаторы
+%%%%
+{nom}the empty mutation catalysts
+
+{nom}пустые мутационные катализаторы
+%%%%
+{gen}the empty mutation catalysts
+
+{gen}пустых мутационных катализаторов
+%%%%
+{dat}the empty mutation catalysts
+
+{dat}пустым мутационным катализаторам
+%%%%
+{acc}the empty mutation catalysts
+
+{acc}пустые мутационные катализаторы
+%%%%
+{ins}the empty mutation catalysts
+
+{ins}пустыми мутационными катализаторами
+%%%%
+{prep}the empty mutation catalysts
+
+{prep}пустых мутационных катализаторах
+%%%%
+your empty mutation catalysts
+
+пустые мутационные катализаторы
+%%%%
+{nom}your empty mutation catalysts
+
+{nom}пустые мутационные катализаторы
+%%%%
+{gen}your empty mutation catalysts
+
+{gen}пустых мутационных катализаторов
+%%%%
+{dat}your empty mutation catalysts
+
+{dat}пустым мутационным катализаторам
+%%%%
+{acc}your empty mutation catalysts
+
+{acc}пустые мутационные катализаторы
+%%%%
+{ins}your empty mutation catalysts
+
+{ins}пустыми мутационными катализаторами
+%%%%
+{prep}your empty mutation catalysts
+
+{prep}пустых мутационных катализаторах
+%%%%
+@num@ empty mutation catalyst
+
+@num@ пустых мутационных катализаторов
+%%%%
+{one}@num@ empty mutation catalyst
+
+{one}@num@ пустой мутационный катализатор
+%%%%
+{few}@num@ empty mutation catalyst
+
+{few}@num@ пустых мутационных катализатора
+%%%%
+{many}@num@ empty mutation catalyst
+
+{many}@num@ пустых мутационных катализаторов
+%%%%
+{gen_one}@num@ empty mutation catalyst
+
+{gen_one}@num@ пустого мутационного катализатора
+%%%%
+{gen_few}@num@ empty mutation catalyst
+
+{gen_few}@num@ пустых мутационных катализаторов
+%%%%
+{gen_many}@num@ empty mutation catalyst
+
+{gen_many}@num@ пустых мутационных катализаторов
+%%%%
+{dat_one}@num@ empty mutation catalyst
+
+{dat_one}@num@ пустому мутационному катализатору
+%%%%
+{dat_few}@num@ empty mutation catalyst
+
+{dat_few}@num@ пустым мутационным катализаторам
+%%%%
+{dat_many}@num@ empty mutation catalyst
+
+{dat_many}@num@ пустым мутационным катализаторам
+%%%%
+{ins_one}@num@ empty mutation catalyst
+
+{ins_one}@num@ пустым мутационным катализатором
+%%%%
+{ins_few}@num@ empty mutation catalyst
+
+{ins_few}@num@ пустыми мутационными катализаторами
+%%%%
+{ins_many}@num@ empty mutation catalyst
+
+{ins_many}@num@ пустыми мутационными катализаторами
+%%%%
+{prep_one}@num@ empty mutation catalyst
+
+{prep_one}@num@ пустом мутационном катализаторе
+%%%%
+{prep_few}@num@ empty mutation catalyst
+
+{prep_few}@num@ пустых мутационных катализаторах
+%%%%
+{prep_many}@num@ empty mutation catalyst
+
+{prep_many}@num@ пустых мутационных катализаторах
+%%%%
+{acc_one}@num@ empty mutation catalyst
+
+{acc_one}@num@ пустой мутационный катализатор
+%%%%
+{acc_few}@num@ empty mutation catalyst
+
+{acc_few}@num@ пустых мутационных катализатора
+%%%%
+{acc_many}@num@ empty mutation catalyst
+
+{acc_many}@num@ пустых мутационных катализаторов
+%%%%
+@num@ empty mutation catalysts
+
+@num@ пустых мутационных катализаторов
+%%%%
+{one}@num@ empty mutation catalysts
+
+{one}@num@ пустой мутационный катализатор
+%%%%
+{few}@num@ empty mutation catalysts
+
+{few}@num@ пустых мутационных катализатора
+%%%%
+{many}@num@ empty mutation catalysts
+
+{many}@num@ пустых мутационных катализаторов
+%%%%
+{gen_one}@num@ empty mutation catalysts
+
+{gen_one}@num@ пустого мутационного катализатора
+%%%%
+{gen_few}@num@ empty mutation catalysts
+
+{gen_few}@num@ пустых мутационных катализаторов
+%%%%
+{gen_many}@num@ empty mutation catalysts
+
+{gen_many}@num@ пустых мутационных катализаторов
+%%%%
+{dat_one}@num@ empty mutation catalysts
+
+{dat_one}@num@ пустому мутационному катализатору
+%%%%
+{dat_few}@num@ empty mutation catalysts
+
+{dat_few}@num@ пустым мутационным катализаторам
+%%%%
+{dat_many}@num@ empty mutation catalysts
+
+{dat_many}@num@ пустым мутационным катализаторам
+%%%%
+{ins_one}@num@ empty mutation catalysts
+
+{ins_one}@num@ пустым мутационным катализатором
+%%%%
+{ins_few}@num@ empty mutation catalysts
+
+{ins_few}@num@ пустыми мутационными катализаторами
+%%%%
+{ins_many}@num@ empty mutation catalysts
+
+{ins_many}@num@ пустыми мутационными катализаторами
+%%%%
+{prep_one}@num@ empty mutation catalysts
+
+{prep_one}@num@ пустом мутационном катализаторе
+%%%%
+{prep_few}@num@ empty mutation catalysts
+
+{prep_few}@num@ пустых мутационных катализаторах
+%%%%
+{prep_many}@num@ empty mutation catalysts
+
+{prep_many}@num@ пустых мутационных катализаторах
+%%%%
+{acc_one}@num@ empty mutation catalysts
+
+{acc_one}@num@ пустой мутационный катализатор
+%%%%
+{acc_few}@num@ empty mutation catalysts
+
+{acc_few}@num@ пустых мутационных катализатора
+%%%%
+{acc_many}@num@ empty mutation catalysts
+
+{acc_many}@num@ пустых мутационных катализаторов
