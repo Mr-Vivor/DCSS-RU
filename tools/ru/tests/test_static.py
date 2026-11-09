@@ -162,6 +162,34 @@ class StaticTranslationTests(unittest.TestCase):
         self.assertFalse(message_syntax_matches("@Arg@ and @arg@.", "Удар {acc}@arg@."))
         self.assertFalse(message_syntax_matches("Hit @ArgName@.", "Удар {acc}@argname@."))
 
+    def test_message_aliases_with_identical_literal_structure_agree(self):
+        # The engine sorts patterns by literal length. Renaming a capture
+        # does not give a duplicate pattern a reliable priority.
+        messages = json.loads((ROOT / "localization/ru/system-messages.json").read_text(encoding="utf8"))
+        parameter = re.compile(r"@([^@\n]+)@")
+        aliases = {}
+        for source, target in messages.items():
+            arguments = parameter.findall(source)
+            if not arguments:
+                continue
+            positions = {name[:1].lower() + name[1:]: index
+                         for index, name in enumerate(arguments)}
+
+            def position(match):
+                name = match.group(1)
+                identity = name[:1].lower() + name[1:]
+                capital = "upper" if name[0].isupper() else "lower"
+                return f"@{capital}_{positions[identity]}@"
+
+            normalized = parameter.sub(position, target)
+            shape = parameter.sub("@ARG@", source)
+            aliases.setdefault(shape, []).append((source, normalized))
+        for shape, variants in aliases.items():
+            if len(variants) > 1:
+                with self.subTest(pattern=shape):
+                    self.assertEqual(len({target for _, target in variants}), 1,
+                                     f"Overlapping aliases render differently: {variants}")
+
     def test_current_duration_hud_labels_are_covered(self):
         # Check the current engine, not just the older imported English catalog.
         source = (ROOT / "crawl-ref/source/duration-data.h").read_text(encoding="utf8")

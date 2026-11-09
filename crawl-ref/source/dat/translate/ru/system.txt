@@ -730,15 +730,15 @@ You don't have any such object.
 %%%%
 Really unwield @arg@?
 
-Убрать оружие из руки: @arg@?
+Убрать из рук: @arg@?
 %%%%
 Really take off @arg@?
 
-Снять доспех: @arg@?
+Снять доспехи: @arg@?
 %%%%
 Really remove @arg@?
 
-Снять украшение: @arg@?
+Снять: @arg@?
 %%%%
 " Item will be destroyed."
 
@@ -750,7 +750,7 @@ Really remove @arg@?
 %%%%
 Really wield @arg@?
 
-Взять в руку: @arg@?
+Взять в руки: @arg@?
 %%%%
 Really quaff @arg@?
 
@@ -758,15 +758,15 @@ Really quaff @arg@?
 %%%%
 Really drop @arg@?
 
-Бросить: @arg@?
+Выбросить: @arg@?
 %%%%
 Really wear @arg@?
 
-Надеть доспех: @arg@?
+Надеть доспехи: @arg@?
 %%%%
 Really put on @arg@?
 
-Надеть украшение: @arg@?
+Надеть: @arg@?
 %%%%
 Really read @arg@?
 
@@ -774,11 +774,11 @@ Really read @arg@?
 %%%%
 Really memorise from @arg@?
 
-Выучить заклинание из книги: @arg@?
+Изучить заклинания: @arg@?
 %%%%
 Really zap @arg@?
 
-Использовать палочку: @arg@?
+Применить палочку: @arg@?
 %%%%
 Really fire @arg@?
 
@@ -786,7 +786,7 @@ Really fire @arg@?
 %%%%
 Really evoke @arg@?
 
-Активировать: @arg@?
+Применить: @arg@?
 %%%%
 Really destroy @arg@?
 
@@ -898,7 +898,7 @@ You are already wielding that!
 %%%%
 You can't shoot while berserk! Really wield @arg@?
 
-В ярости нельзя стрелять! Всё равно взять в руку: @arg@?
+В ярости нельзя стрелять! Всё равно взять в руки: @arg@?
 %%%%
 You can't wear that!
 
@@ -2514,7 +2514,7 @@ Invalid player spell, attempting to cast it as monster spell.
 %%%%
 Really cast @arg@?
 
-Сотворить «@arg@»?
+Сотворить заклинание «@arg@»?
 %%%%
 It is impossible to cast this spell (100%% risk of failure)!
 
@@ -3062,7 +3062,7 @@ At a training level of @num1@% you would reach @num2@.@num3@ in @any@.
 %%%%
 @Arg@ slightly slows your attacks with this weapon.
 
-Немного замедляет ваши атаки этим оружием: @Arg@.
+@Arg@ немного замедляет ваши атаки этим оружием.
 %%%%
 Wearing @arg@ would reduce your attack speed with this weapon.
 
@@ -4626,7 +4626,7 @@ You begin the revivification ritual.
 %%%%
 Really put on @arg@ while about to teleport?
 
-Вы вот-вот телепортируетесь. Всё равно надеть: @arg@?
+Этот предмет заблокирует ожидаемую телепортацию. Всё равно надеть: @arg@?
 %%%%
 You finish memorising.
 
@@ -6322,7 +6322,7 @@ That deck is empty!
 %%%%
 Really use @arg@?
 
-Использовать «@arg@»?
+Применить способность «@arg@»?
 %%%%
 There's no appreciative audience!
 
@@ -7974,11 +7974,11 @@ You really shouldn't be using a wizardly item like this.
 %%%%
 @Arg@ is covered in frost.
 
-Инеем покрывается: @Arg@.
+Иней покрывает {acc}@arg@.
 %%%%
 @Arg@ glows with a cold blue light!
 
-Холодным синим светом сияет: @Arg@!
+От {gen}@arg@ исходит холодное голубое свечение!
 %%%%
 @Arg@ softly glows with a divine radiance!
 
@@ -8066,7 +8066,7 @@ You feel a bond with @arg@.
 %%%%
 @Arg@ stops crackling.
 
-Больше не потрескивает: @Arg@.
+Электрическое потрескивание {gen}@arg@ стихает.
 %%%%
 @Arg@ stops dripping with poison.
 
@@ -19946,15 +19946,15 @@ not bribed
 %%%%
 @Arg@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!
 
-@Arg@ не терпит отречения и обрушит страшные кары на неверных последователей!
+@Arg@ не терпит отказа от веры и обрушит страшные кары на отступников!
 %%%%
 @Arg@'s wrath lasts for a relatively long duration.
 
-Гнев {gen}@Arg@ длится сравнительно долго.
+@Arg@: гнев продолжается сравнительно долго.
 %%%%
 @Arg@'s wrath lasts for a relatively short duration.
 
-Гнев {gen}@Arg@ длится сравнительно недолго.
+@Arg@: гнев продолжается сравнительно недолго.
 %%%%
 Named Followers:
 
@@ -19982,11 +19982,11 @@ Martial attacks:
 %%%%
 @Arg@'s powers are not affected by the Invocations skill.
 
-Навык «Молитвы» не влияет на способности {gen}@Arg@.
+@Arg@: навык Молитв не влияет на божественные способности.
 %%%%
 @Arg1@'s powers are based on @arg2@ instead of Invocations skill.
 
-Способности {gen}@Arg1@ зависят от навыка «{nom}@arg2@», а не от навыка «Молитвы».
+@Arg1@: способности зависят от навыка «@arg2@», а не от Молитв.
 %%%%
 @Arg@ is ambivalent towards you.
 
@@ -27150,7 +27150,7 @@ Wearing a shield would reduce your attack speed with this weapon.
 %%%%
 @arg@ slightly slows your attacks with this weapon.
 
-@arg@ немного замедляет ваши атаки этим оружием.
+@Arg@ немного замедляет ваши атаки этим оружием.
 %%%%
 It can be maximally enchanted to +@num@.
 
@@ -27434,23 +27434,23 @@ XL              Upgrade
 %%%%
 @god@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any@ are evil gods.)
 
-@god@ прощает уход из веры, но наказывает тех, кто затем начинает поклоняться злому богу. (Злые боги: @any@.)
+@God@ прощает отказ от веры, но наказывает бывших последователей за переход к злому богу. (Злые боги: @any@.)
 %%%%
 @god@ forgives followers for abandonment; however, those who later take up the worship of an evil or chaotic god will be scourged. (@any1@ are evil, and @any2@ are chaotic.)
 
-@god@ прощает уход из веры, но наказывает тех, кто затем начинает поклоняться злому или хаотичному богу. (Злые боги: @any1@; хаотичные: @any2@.)
+@God@ прощает отказ от веры, но наказывает бывших последователей за переход к злому или хаотичному богу. (Злые боги: @any1@; хаотичные: @any2@.)
 %%%%
 @god@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!
 
-@god@ не прощает ухода из веры и обрушит страшные кары на отступников!
+@God@ не терпит отказа от веры и обрушит страшные кары на отступников!
 %%%%
 @god@'s wrath lasts for a relatively long duration.
 
-Гнев бога @god@ длится сравнительно долго.
+@God@: гнев продолжается сравнительно долго.
 %%%%
 @god@'s wrath lasts for a relatively short duration.
 
-Гнев бога @god@ длится сравнительно недолго.
+@God@: гнев продолжается сравнительно недолго.
 %%%%
 " stacked deck: "
 
@@ -27458,11 +27458,11 @@ XL              Upgrade
 %%%%
 @god@'s powers are not affected by the Invocations skill.
 
-Навык Молитв не влияет на силы, даруемые богом @god@.
+@God@: навык Молитв не влияет на божественные способности.
 %%%%
 @god@'s powers are based on @skill@ instead of Invocations skill.
 
-Силы, даруемые богом @god@, зависят от навыка «@skill@», а не от Молитв.
+@God@: способности зависят от навыка «@skill@», а не от Молитв.
 %%%%
 Orcs frequently recognise you as Beogh's chosen one.
 
@@ -27474,7 +27474,7 @@ Orcs sometimes recognise you as one of their own.
 %%%%
 @god@ prevents you from stabbing unaware foes.
 
-@god@ запрещает вам наносить скрытные удары по врагам, не заметившим вас.
+@God@ не позволяет вам наносить внезапные удары ничего не подозревающим врагам.
 %%%%
 You radiate a righteous aura, and foes within it are easier to hit.
 
@@ -27510,19 +27510,19 @@ Your health and magic regeneration is very greatly accelerated.
 %%%%
 @god@ slows your movement.
 
-@god@ замедляет ваше передвижение.
+@God@ замедляет ваше передвижение.
 %%%%
 @god@ greatly slows your movement.
 
-@god@ значительно замедляет ваше передвижение.
+@God@ сильно замедляет ваше передвижение.
 %%%%
 @god@ slightly slows your movement.
 
-@god@ немного замедляет ваше передвижение.
+@God@ немного замедляет ваше передвижение.
 %%%%
 @god@ supports your attributes. (+@num@)
 
-@god@ повышает ваши характеристики. (+@num@)
+@God@ повышает ваши характеристики. (+@num@)
 %%%%
 some of Vehumet's most lethal spells
 
@@ -27582,23 +27582,23 @@ Jiyva will unlock the Slime Pits vaults.
 %%%%
 @god@ carefully guards your life.
 
-@god@ особенно тщательно оберегает вашу жизнь.
+@God@ особенно тщательно оберегает вашу жизнь.
 %%%%
 @god@ often guards your life.
 
-@god@ часто оберегает вашу жизнь.
+@God@ часто оберегает вашу жизнь.
 %%%%
 @god@ sometimes guards your life.
 
-@god@ иногда оберегает вашу жизнь.
+@God@ иногда оберегает вашу жизнь.
 %%%%
 @god@ occasionally guards your life.
 
-@god@ время от времени оберегает вашу жизнь.
+@God@ время от времени оберегает вашу жизнь.
 %%%%
 @god@ always shields you from chaos.
 
-@god@ всегда защищает вас от хаоса.
+@God@ всегда защищает вас от хаоса.
 %%%%
 @god@ always shields you from Hell.
 
@@ -27606,27 +27606,27 @@ Jiyva will unlock the Slime Pits vaults.
 %%%%
 @god@ often shields you from chaos.
 
-@god@ часто защищает вас от хаоса.
+@God@ часто защищает вас от хаоса.
 %%%%
 @god@ often shields you from Hell.
 
-@god@ часто защищает вас от воздействий Ада.
+@God@ часто защищает вас от воздействий Ада.
 %%%%
 @god@ sometimes shields you from chaos.
 
-@god@ иногда защищает вас от хаоса.
+@God@ иногда защищает вас от хаоса.
 %%%%
 @god@ sometimes shields you from Hell.
 
-@god@ иногда защищает вас от воздействий Ада.
+@God@ иногда защищает вас от воздействий Ада.
 %%%%
 @god@ occasionally shields you from chaos.
 
-@god@ время от времени защищает вас от хаоса.
+@God@ время от времени защищает вас от хаоса.
 %%%%
 @god@ occasionally shields you from Hell.
 
-@god@ время от времени защищает вас от воздействий Ада.
+@God@ время от времени защищает вас от воздействий Ада.
 %%%%
 @god@ rarely shields you from chaos.
 
@@ -27634,19 +27634,19 @@ Jiyva will unlock the Slime Pits vaults.
 %%%%
 @god@ rarely shields you from Hell.
 
-@god@ редко защищает вас от воздействий Ада.
+@God@ изредка защищает вас от воздействий Ада.
 %%%%
 @god@ completely shields you from negative energy.
 
-@god@ полностью защищает вас от отрицательной энергии.
+@God@ полностью защищает вас от отрицательной энергии.
 %%%%
 @god@ mostly shields you from negative energy.
 
-@god@ в значительной степени защищает вас от отрицательной энергии.
+@God@ в значительной мере защищает вас от отрицательной энергии.
 %%%%
 @god@ partially shields you from negative energy.
 
-@god@ частично защищает вас от отрицательной энергии.
+@God@ частично защищает вас от отрицательной энергии.
 %%%%
 [<w>!</w>]: Overview|Powers|Wrath
 
@@ -27746,7 +27746,7 @@ If you bind an item with this ritual Ashenzari will enhance the following skills
 %%%%
 After this sacrifice, you will find that @any@.
 
-После этой жертвы произойдут следующие изменения: @any@.
+После этой жертвы: @any@.
 %%%%
 Accept @arg@
 
@@ -27754,7 +27754,7 @@ Accept @arg@
 %%%%
 Recast @arg@
 
-Повторно сотворить: @arg@
+Повторить «@arg@»
 %%%%
 Confirm evoke
 
@@ -29098,7 +29098,7 @@ You can't see any susceptible monsters within range!@any_hint@
 %%%%
 Really cast @spell@?
 
-Действительно применить заклинание «@spell@»?
+Сотворить заклинание «@spell@»?
 %%%%
 (Press <w>%</w> to intensify the flame waves.)
 
@@ -29198,7 +29198,7 @@ by vampiric draining
 %%%%
 You can't shoot while berserk! Really wield @item@?
 
-В ярости вы не можете стрелять! Всё равно взять в руки {acc}@item@?
+В ярости нельзя стрелять! Всё равно взять в руки: @item@?
 %%%%
 twirl @item@
 
@@ -29342,7 +29342,7 @@ Shopping list: @num_count@ items, total cost @num_cost@ gold pieces
 %%%%
 Travel to: @item@
 
-Идти за предметом: {acc}@item@
+Отправиться: @item@
 %%%%
 You cannot afford this item; travel there anyway? (y/N)
 
@@ -29682,7 +29682,7 @@ Raging Flame
 %%%%
 @God@ does not appreciate abandonment, and will call down fearful punishments on disloyal followers!
 
-@God@ не терпит отказа от веры и обрушит страшные кары на неверных последователей!
+@God@ не терпит отказа от веры и обрушит страшные кары на отступников!
 %%%%
 @God@ forgives followers for abandonment; however, those who later take up the worship of an evil god will be punished. (@any_evil@ are evil gods.)
 
@@ -29842,7 +29842,7 @@ Recast @spell@
 %%%%
 Really use @ability@?
 
-Действительно применить способность «@ability@»?
+Применить способность «@ability@»?
 %%%%
 Range: @any_range@
 
@@ -29870,7 +29870,7 @@ Body Armour
 %%%%
 Really wield @any_item@?
 
-Действительно взять в руки {acc}@any_item@?
+Взять в руки: @any_item@?
 %%%%
 Really wield @any_item@ while about to teleport?
 
@@ -29878,7 +29878,7 @@ Really wield @any_item@ while about to teleport?
 %%%%
 Really unwield @any_item@?
 
-Действительно убрать из рук {acc}@any_item@?
+Убрать из рук: @any_item@?
 %%%%
 Really unwield @any_item@ while about to teleport?
 
@@ -29886,7 +29886,7 @@ Really unwield @any_item@ while about to teleport?
 %%%%
 Really quaff @any_item@?
 
-Действительно выпить {acc}@any_item@?
+Выпить: @any_item@?
 %%%%
 Really quaff @any_item@ while about to teleport?
 
@@ -29894,7 +29894,7 @@ Really quaff @any_item@ while about to teleport?
 %%%%
 Really drop @any_item@?
 
-Действительно бросить {acc}@any_item@?
+Выбросить: @any_item@?
 %%%%
 Really drop @any_item@ while about to teleport?
 
@@ -29902,7 +29902,7 @@ Really drop @any_item@ while about to teleport?
 %%%%
 Really take off @any_item@?
 
-Действительно снять {acc}@any_item@?
+Снять доспехи: @any_item@?
 %%%%
 Really take off @any_item@ while about to teleport?
 
@@ -29910,7 +29910,7 @@ Really take off @any_item@ while about to teleport?
 %%%%
 Really wear @any_item@?
 
-Действительно надеть {acc}@any_item@?
+Надеть доспехи: @any_item@?
 %%%%
 Really wear @any_item@ while about to teleport?
 
@@ -29918,15 +29918,15 @@ Really wear @any_item@ while about to teleport?
 %%%%
 Really put on @any_item@?
 
-Действительно надеть {acc}@any_item@?
+Надеть: @any_item@?
 %%%%
 Really put on @any_item@ while about to teleport?
 
-Вы ожидаете телепортации. Всё равно надеть {acc}@any_item@?
+Этот предмет заблокирует ожидаемую телепортацию. Всё равно надеть: @any_item@?
 %%%%
 Really remove @any_item@?
 
-Действительно снять {acc}@any_item@?
+Снять: @any_item@?
 %%%%
 Really remove @any_item@ while about to teleport?
 
@@ -29934,7 +29934,7 @@ Really remove @any_item@ while about to teleport?
 %%%%
 Really read @any_item@?
 
-Действительно прочитать {acc}@any_item@?
+Прочитать: @any_item@?
 %%%%
 Really read @any_item@ while about to teleport?
 
@@ -29942,7 +29942,7 @@ Really read @any_item@ while about to teleport?
 %%%%
 Really memorise from @any_item@?
 
-Действительно изучить заклинания из {gen}@any_item@?
+Изучить заклинания: @any_item@?
 %%%%
 Really memorise from @any_item@ while about to teleport?
 
@@ -29950,7 +29950,7 @@ Really memorise from @any_item@ while about to teleport?
 %%%%
 Really zap @any_item@?
 
-Действительно применить {acc}@any_item@?
+Применить палочку: @any_item@?
 %%%%
 Really zap @any_item@ while about to teleport?
 
@@ -29958,7 +29958,7 @@ Really zap @any_item@ while about to teleport?
 %%%%
 Really fire @any_item@?
 
-Действительно выстрелить с помощью {gen}@any_item@?
+Выстрелить: @any_item@?
 %%%%
 Really fire @any_item@ while about to teleport?
 
@@ -29966,7 +29966,7 @@ Really fire @any_item@ while about to teleport?
 %%%%
 Really evoke @any_item@?
 
-Действительно применить {acc}@any_item@?
+Применить: @any_item@?
 %%%%
 Really evoke @any_item@ while about to teleport?
 
@@ -29974,7 +29974,7 @@ Really evoke @any_item@ while about to teleport?
 %%%%
 Really quiver @any_item@?
 
-Действительно подготовить {acc}@any_item@?
+Подготовить: @any_item@?
 %%%%
 Really quiver @any_item@ while about to teleport?
 
@@ -29998,7 +29998,7 @@ Really unequip @any_item@ while about to teleport?
 %%%%
 Really choose @any_item@?
 
-Действительно выбрать {acc}@any_item@?
+Выбрать: @any_item@?
 %%%%
 Really choose @any_item@ while about to teleport?
 
@@ -30062,7 +30062,7 @@ Your serpentine skin is tough. (AC +@num@)
 %%%%
 Your @scales@ scales are hard. (AC +@num@)
 
-У вас прочная чешуя: @scales@. (Бр +@num@)
+У вас прочная чешуя: @scales@. (Броня +@num@)
 %%%%
 fleshless physiology
 
@@ -30306,7 +30306,7 @@ you need to wait for the hot winds to gather around you again.
 %%%%
 This spell would have no effect right now because @reason@
 
-Сейчас это заклинание не подействует: @reason@
+Сейчас заклинание не подействует: @reason@
 %%%%
 You cannot cast this spell: @reason@
 
@@ -30394,7 +30394,7 @@ You can't remove jewellery in your present form.
 %%%%
 You can't shoot while berserk! Really wield @any_item@?
 
-В ярости вы не можете стрелять! Всё равно взять в руки {acc}@any_item@?
+В ярости нельзя стрелять! Всё равно взять в руки: @any_item@?
 %%%%
 you need at least @num@ shapeshifting skill to use this effectively.
 
@@ -53534,7 +53534,7 @@ Your @arg@ scales are very hard. (AC +@num@)
 %%%%
 Your @arg@ scales are hard. (AC +@num@)
 
-Ваша @arg@ чешуя прочна. (Броня +@num@)
+У вас прочная чешуя: @arg@. (Броня +@num@)
 %%%%
 @num@ rings
 
