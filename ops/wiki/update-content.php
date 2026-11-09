@@ -71,6 +71,13 @@ class UpdateDcssWiki extends Maintenance {
                 }
                 if ( $old === '' || ( $this->hasOption( 'initial' ) && $name === 'Заглавная страница' && $first === false ) ) {
                     $new = $block;
+                } elseif ( $content->isRedirect() && ( $state[$name] ?? null ) === hash( 'sha256', $old ) ) {
+                    // A former alias can become the canonical article title.
+                    // Redirect state hashes cover the entire page, whereas
+                    // article state hashes cover only the managed block. Use
+                    // the full-page check before promoting an unchanged alias;
+                    // any editor modification must still cause a conflict.
+                    $new = $block;
                 } elseif ( $first !== false && $last !== false && $last >= $first ) {
                     $existing = substr( $old, $first, $last + strlen( $end ) - $first );
                     $expected = $state[$name] ?? null;
