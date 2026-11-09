@@ -15499,8 +15499,8 @@
       "translation_sha256": "d9133d6b1915097acbc12382a952860e7fac97c49a5ad873f8a2d91e996b3ab2"
     },
     "A mana viper appears with a sibilant hiss.": {
-      "context": "spl-summoning.cc",
-      "translation_sha256": "5546d54afa2a988940e80dd98403365f5e30c01ba75fc9b32879fb23d7e1e555"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "fa790837e75f1bf921f5f92becfb0ee8bd40357ad49e030b05ef9c74aa758ad0"
     },
     "the rage of @arg@": {
       "context": "spl-summoning.cc",
@@ -15567,12 +15567,12 @@
       "translation_sha256": "76b3e97737b0eb518a3ef8d7c419604db94de55f198a0083c270c080f42c5d61"
     },
     "A metallic apparition takes form in the air.": {
-      "context": "spl-summoning.cc",
-      "translation_sha256": "10159f8bfd772454a0ba63b8b135eb3b69782152b09c273d8af25b79a6d1bade"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "223b52aae551aad0883abc0febefb82a9eec7e6579007ff1e0b6e1220036aa1c"
     },
     "A shadowy apparition takes form in the air.": {
-      "context": "spl-summoning.cc",
-      "translation_sha256": "b20dbe5e222c4f553ab4dcd0e433e07d42944944a78011eec18afcb997146794"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "07b1d31710fbbab8189945b3a9bd712875da8f9f524b106b0ef818b9b83fe467"
     },
     "A beastly little devil appears in a puff of flame.": {
       "context": "spl-summoning.cc",
@@ -15887,24 +15887,24 @@
       "translation_sha256": "ddea4dda2a1fbe12227a5e8419d392bbf7da79b66eec4e97b0210c03451d9358"
     },
     "You can't roll into that!": {
-      "context": "spl-transloc.cc",
-      "translation_sha256": "7310b5892d067ebc69fa8094d80efc8068d67ed0735d1a773eae2ba42e01cf53"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "4e7a60f190a3c1587dc2edfc8676fe4256dfdcdbdacdef412ae4cf8f069ac57d"
     },
     "Roll where?": {
       "context": "spl-transloc.cc",
       "translation_sha256": "c094fbd89e9dd568c9742bf1c052ca9464074c0dba726e189ed7527d6bef93e8"
     },
     "Cancelling rolling charge due to HUP.": {
-      "context": "spl-transloc.cc",
-      "translation_sha256": "65a6d940c538646b805a68a9c54016294498dc56c4f43d2db81c5cdef841f1dc"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "7845b545a1bba3975250744a29f9b78cefa67e97f1590c2332efa132c57370ff"
     },
     "You cannot roll away from @arg@!": {
       "context": "spl-transloc.cc",
       "translation_sha256": "5a1a98cd88b5e25e372f0861076bcb9bb4945a26a9e45827ae410c4055d8a2a7"
     },
     "You cannot roll closer to @arg@!": {
-      "context": "spl-transloc.cc",
-      "translation_sha256": "1292f0d4cc0540fcfa34503be2a2f6203a7bd9fd29865546603f606d4fd3d2fe"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "b032d47539e042998bb7e7f32e12d88bb94bd4084c9ad7bb99ea1bab6d6ae906"
     },
     "You can't roll through that!": {
       "context": "spl-transloc.cc",
@@ -15943,12 +15943,12 @@
       "translation_sha256": "8098ab1911db9e0af457982a01c7d61a69e4b34b85c1deae2d7debe964d5d2cd"
     },
     "You are suddenly yanked towards a nearby monster!": {
-      "context": "spl-transloc.cc",
-      "translation_sha256": "38cfbe5f844fd46934850a8ba1173666e32f09170cd234d44a127eb48e8750bc"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "9e857da2ab8e7fdd0bba369e11730244ab64038174761efe54f5efbac792d4d3"
     },
     "You are suddenly yanked towards some nearby monsters!": {
-      "context": "spl-transloc.cc",
-      "translation_sha256": "6843f4d1a2a7c8de7320ae8b5a6f2bb97af65e8ff7a41b3e4e334a6d34996f05"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "26bcc63a39c5b907be28cbe0aaed5bc264e7bc71d2c00592e74b315a2600008b"
     },
     "Your surroundings flicker for a moment.": {
       "context": "spl-transloc.cc",
@@ -16007,8 +16007,8 @@
       "translation_sha256": "47a43f872f1354236b577fd1c57f5c808fb6c4aa91f22a37b60f701be8484d00"
     },
     "Not with that terrain in the way!": {
-      "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
-      "translation_sha256": "baf930cc45c2c56b6d3733728387ef822e94ac9f8c878d6e5f7a8196f2ffc729"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "38691acf00ef596889334bc2639ae49cf654993c628737500c992eed8cbcb9d6"
     },
     "Yoink! You pull the item towards yourself.": {
       "context": "spl-transloc.cc and spl-other.cc current movement and terrain effects. Complete templates translated before actor names or numeric counts. Blink/hop use separate action and infinitive contexts. Electric charge keeps the raw properly. suffix used to prioritize visibility hints; the chosen explanation is localized after priority selection without lowercasing creature names. Binding sigils prevent walking rather than all actions. Apport partial distance is not partial item quantity. Terrain, targeting, movement, duration and MP rules unchanged.",
@@ -16227,8 +16227,8 @@
       "translation_sha256": "ba5aafbf2009afe685b58d626e0d0efca0a36f10e44c7b0561fc15a4345e0758"
     },
     "the dungeon can only cope with one malign gateway at a time.": {
-      "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",
-      "translation_sha256": "0b5f4ac65d68f2b5f69496fd8ce21a9604c17d833ce0cd6b17348dc2a2f82cc3"
+      "context": "spl-summoning.cc:cast_summon_mana_viper and imp appearances; spl-transloc.cc teleport/rolling/apportation safe-landing loop; spl-util.cc: unique Malign Gateway",
+      "translation_sha256": "6c379d77048468b52fe54c186cb9a7a8da33b599c5914b0ee9afefc0e127972c"
     },
     "you can only summon one forest at a time.": {
       "context": "spl-util.cc/describe.cc/quiver.cc: spell availability, real casting restrictions and menu captions",

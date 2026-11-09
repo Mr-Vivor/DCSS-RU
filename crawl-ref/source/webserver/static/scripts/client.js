@@ -1085,7 +1085,7 @@ function (exports, $, key_conversion, chat, comm) {
 
     function cleanup()
     {
-        document.title = "Веб-тайлы — Dungeon Crawl Stone Soup";
+        document.title = "Dungeon Crawl Stone Soup";
 
         hide_dialog();
 
