@@ -24,8 +24,9 @@ install -m 0755 "$script_dir/init-player.py" "$base/bin/init-player.py"
 install -m 0755 "$script_dir/receive-release.py" "$base/bin/receive-release.py"
 install -m 0644 "$script_dir/retention.py" /usr/local/sbin/dcss_ru_retention.py
 install -m 0755 "$script_dir/activate-release.py" /usr/local/sbin/dcss-ru-activate
+install -m 0755 "$script_dir/compact-backups.py" /usr/local/sbin/dcss-ru-compact-backups
 install -m 0644 "$script_dir/config.yml.in" "$base/config.yml.in"
-for unit in dcss-ru.service dcss-ru-apply.service dcss-ru-apply.timer; do
+for unit in dcss-ru.service dcss-ru-apply.service dcss-ru-apply.timer dcss-ru-compact-backups.service dcss-ru-compact-backups.timer; do
     install -m 0644 "$script_dir/$unit" "/etc/systemd/system/$unit"
 done
 printf '%s\n' 'dcssdeploy ALL=(root) NOPASSWD: /usr/local/sbin/dcss-ru-activate' > /etc/sudoers.d/dcss-ru-deploy
@@ -41,7 +42,8 @@ else
     git -C "$base/repository.git" fetch origin ru-bootstrap
 fi
 systemctl daemon-reload
-systemctl enable dcss-ru.service dcss-ru-apply.timer
+systemctl enable dcss-ru.service dcss-ru-apply.timer dcss-ru-compact-backups.timer
 install -m 0600 -o dcssdeploy -g dcssdeploy "$archive" "$base/incoming/bootstrap.tar.gz"
 /usr/local/sbin/dcss-ru-activate --archive "$base/incoming/bootstrap.tar.gz" --revision "$revision"
 systemctl start dcss-ru-apply.timer
+systemctl start dcss-ru-compact-backups.timer
