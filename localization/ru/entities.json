@@ -24,7 +24,7 @@
         "prep": "крысах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.quokka",
@@ -51,7 +51,7 @@
         "prep": "квокках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.bat",
@@ -76,9 +76,10 @@
         "acc": "летучих мышей",
         "ins": "летучими мышами",
         "prep": "летучих мышах"
-      }
+      },
+      "counted_few": "летучие мыши"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.goblin",
@@ -105,7 +106,7 @@
         "prep": "гоблинах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.hobgoblin",
@@ -132,7 +133,7 @@
         "prep": "хобгоблинах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.kobold",
@@ -159,7 +160,7 @@
         "prep": "кобольдах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ball_python",
@@ -184,9 +185,10 @@
         "acc": "королевских питонов",
         "ins": "королевскими питонами",
         "prep": "королевских питонах"
-      }
+      },
+      "counted_few": "королевских питона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.adder",
@@ -213,7 +215,7 @@
         "prep": "гадюках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.jackal",
@@ -240,7 +242,7 @@
         "prep": "шакалах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.hound",
@@ -267,7 +269,7 @@
         "prep": "гончих"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.dart_slug",
@@ -294,7 +296,7 @@
         "prep": "слизнях-стрелках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ribbon_worm",
@@ -319,9 +321,10 @@
         "acc": "ленточных червей",
         "ins": "ленточными червями",
         "prep": "ленточных червях"
-      }
+      },
+      "counted_few": "ленточных червя"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.endoplasm",
@@ -655,7 +658,7 @@
         "prep": "ограх"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.two_headed_ogre",
@@ -680,9 +683,10 @@
         "acc": "двухголовых огров",
         "ins": "двухголовыми ограми",
         "prep": "двухголовых ограх"
-      }
+      },
+      "counted_few": "двухголовых огра"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.troll",
@@ -709,7 +713,7 @@
         "prep": "троллях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.centaur",
@@ -736,7 +740,7 @@
         "prep": "кентаврах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.centaur_warrior",
@@ -763,7 +767,7 @@
         "prep": "кентаврах-воинах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.yak",
@@ -790,7 +794,7 @@
         "prep": "яках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.death_yak",
@@ -815,9 +819,10 @@
         "acc": "смертоносных яков",
         "ins": "смертоносными яками",
         "prep": "смертоносных яках"
-      }
+      },
+      "counted_few": "смертоносных яка"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.elephant",
@@ -844,7 +849,7 @@
         "prep": "слонах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.hippogriff",
@@ -871,7 +876,7 @@
         "prep": "гиппогрифах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.griffon",
@@ -898,7 +903,7 @@
         "prep": "грифонах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.hydra",
@@ -925,7 +930,7 @@
         "prep": "гидрах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ice_dragon",
@@ -950,9 +955,10 @@
         "acc": "ледяных драконов",
         "ins": "ледяными драконами",
         "prep": "ледяных драконах"
-      }
+      },
+      "counted_few": "ледяных дракона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.fire_dragon",
@@ -1005,9 +1011,10 @@
         "acc": "ртутных драконов",
         "ins": "ртутными драконами",
         "prep": "ртутных драконах"
-      }
+      },
+      "counted_few": "ртутных дракона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.golden_dragon",
@@ -1032,9 +1039,10 @@
         "acc": "золотых драконов",
         "ins": "золотыми драконами",
         "prep": "золотых драконах"
-      }
+      },
+      "counted_few": "золотых дракона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.storm_dragon",
@@ -1115,9 +1123,10 @@
         "acc": "железных драконов",
         "ins": "железными драконами",
         "prep": "железных драконах"
-      }
+      },
+      "counted_few": "железных дракона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.steam_dragon",
@@ -1142,9 +1151,10 @@
         "acc": "паровых драконов",
         "ins": "паровыми драконами",
         "prep": "паровых драконах"
-      }
+      },
+      "counted_few": "паровых дракона"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.acid_dragon",
@@ -1199,7 +1209,7 @@
         "prep": "вивернах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.scorpion",
@@ -1226,7 +1236,7 @@
         "prep": "скорпионах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.killer_bee",
@@ -1253,7 +1263,7 @@
         "prep": "пчёлах-убийцах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.queen_bee",
@@ -1278,9 +1288,10 @@
         "acc": "пчелиных маток",
         "ins": "пчелиными матками",
         "prep": "пчелиных матках"
-      }
+      },
+      "counted_few": "пчелиные матки"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.wolf",
@@ -1307,7 +1318,7 @@
         "prep": "волках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.black_bear",
@@ -1332,9 +1343,10 @@
         "acc": "чёрных медведей",
         "ins": "чёрными медведями",
         "prep": "чёрных медведях"
-      }
+      },
+      "counted_few": "чёрных медведя"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.polar_bear",
@@ -1359,9 +1371,10 @@
         "acc": "белых медведей",
         "ins": "белыми медведями",
         "prep": "белых медведях"
-      }
+      },
+      "counted_few": "белых медведя"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.bullfrog",
@@ -1388,7 +1401,7 @@
         "prep": "лягушках-быках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.blink_frog",
@@ -1413,9 +1426,10 @@
         "acc": "мерцающих лягушек",
         "ins": "мерцающими лягушками",
         "prep": "мерцающих лягушках"
-      }
+      },
+      "counted_few": "мерцающие лягушки"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.cane_toad",
@@ -1442,7 +1456,7 @@
         "prep": "жабах-агах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.komodo_dragon",
@@ -1467,9 +1481,10 @@
         "acc": "комодских варанов",
         "ins": "комодскими варанами",
         "prep": "комодских варанах"
-      }
+      },
+      "counted_few": "комодских варана"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.basilisk",
@@ -1496,7 +1511,7 @@
         "prep": "василисках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.black_mamba",
@@ -1521,9 +1536,10 @@
         "acc": "чёрных мамб",
         "ins": "чёрными мамбами",
         "prep": "чёрных мамбах"
-      }
+      },
+      "counted_few": "чёрные мамбы"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.water_moccasin",
@@ -1551,7 +1567,7 @@
       },
       "counted_few": "водяных щитомордника"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.naga",
@@ -1606,7 +1622,7 @@
         "prep": "мумиях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.vampire",
@@ -1633,7 +1649,7 @@
         "prep": "вампирах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.wight",
@@ -1660,7 +1676,7 @@
         "prep": "умертвиях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.wraith",
@@ -1687,7 +1703,7 @@
         "prep": "призраках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.phantom",
@@ -1714,7 +1730,7 @@
         "prep": "фантомах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.shadowghast",
@@ -1739,9 +1755,10 @@
         "acc": "теневых духов",
         "ins": "теневыми духами",
         "prep": "теневых духах"
-      }
+      },
+      "counted_few": "теневых духа"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.lich",
@@ -1804,7 +1821,7 @@
     "en": "slime creature",
     "en_plural": "slime creatures",
     "gender": "n",
-    "animate": false,
+    "animate": true,
     "forms": {
       "singular": {
         "nom": "слизистое существо",
@@ -1818,12 +1835,13 @@
         "nom": "слизистые существа",
         "gen": "слизистых существ",
         "dat": "слизистым существам",
-        "acc": "слизистые существа",
+        "acc": "слизистых существ",
         "ins": "слизистыми существами",
         "prep": "слизистых существах"
-      }
+      },
+      "counted_few": "слизистых существа"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ugly_thing",
@@ -1831,7 +1849,7 @@
     "en": "ugly thing",
     "en_plural": "ugly things",
     "gender": "n",
-    "animate": false,
+    "animate": true,
     "forms": {
       "singular": {
         "nom": "уродливое существо",
@@ -1845,12 +1863,13 @@
         "nom": "уродливые существа",
         "gen": "уродливых существ",
         "dat": "уродливым существам",
-        "acc": "уродливые существа",
+        "acc": "уродливых существ",
         "ins": "уродливыми существами",
         "prep": "уродливых существах"
-      }
+      },
+      "counted_few": "уродливых существа"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.very_ugly_thing",
@@ -1858,7 +1877,7 @@
     "en": "very ugly thing",
     "en_plural": "very ugly things",
     "gender": "n",
-    "animate": false,
+    "animate": true,
     "forms": {
       "singular": {
         "nom": "очень уродливое существо",
@@ -1872,12 +1891,13 @@
         "nom": "очень уродливые существа",
         "gen": "очень уродливых существ",
         "dat": "очень уродливым существам",
-        "acc": "очень уродливые существа",
+        "acc": "очень уродливых существ",
         "ins": "очень уродливыми существами",
         "prep": "очень уродливых существах"
-      }
+      },
+      "counted_few": "очень уродливых существа"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_sorcerer",
@@ -2014,9 +2034,10 @@
         "acc": "каменных великанов",
         "ins": "каменными великанами",
         "prep": "каменных великанах"
-      }
+      },
+      "counted_few": "каменных великана"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.fire_giant",
@@ -2069,9 +2090,10 @@
         "acc": "морозных великанов",
         "ins": "морозными великанами",
         "prep": "морозных великанах"
-      }
+      },
+      "counted_few": "морозных великана"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.cyclops",
@@ -2098,7 +2120,7 @@
         "prep": "циклопах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.ettin",
@@ -2125,7 +2147,7 @@
         "prep": "эттинах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orc_high_priest",
@@ -2262,9 +2284,10 @@
         "acc": "ледяных дьяволов",
         "ins": "ледяными дьяволами",
         "prep": "ледяных дьяволах"
-      }
+      },
+      "counted_few": "ледяных дьявола"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.orange_demon",
@@ -2373,9 +2396,10 @@
         "acc": "багровых бесов",
         "ins": "багровыми бесами",
         "prep": "багровых бесах"
-      }
+      },
+      "counted_few": "багровых беса"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.white_imp",
@@ -2400,9 +2424,10 @@
         "acc": "белых бесов",
         "ins": "белыми бесами",
         "prep": "белых бесах"
-      }
+      },
+      "counted_few": "белых беса"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.iron_imp",
@@ -2427,9 +2452,10 @@
         "acc": "железных бесов",
         "ins": "железными бесами",
         "prep": "железных бесах"
-      }
+      },
+      "counted_few": "железных беса"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.shadow_imp",
@@ -2454,9 +2480,10 @@
         "acc": "теневых бесов",
         "ins": "теневыми бесами",
         "prep": "теневых бесах"
-      }
+      },
+      "counted_few": "теневых беса"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.butterfly",
@@ -2483,7 +2510,7 @@
         "prep": "бабочках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.horse",
@@ -2510,7 +2537,7 @@
         "prep": "лошадях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.club",
@@ -2537,7 +2564,7 @@
         "prep": "дубинках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.whip",
@@ -2556,15 +2583,15 @@
         "prep": "кнуте"
       },
       "plural": {
-        "nom": "кнут",
-        "gen": "кнут",
-        "dat": "кнут",
-        "acc": "кнут",
-        "ins": "кнут",
-        "prep": "кнут"
+        "nom": "кнуты",
+        "gen": "кнутов",
+        "dat": "кнутам",
+        "acc": "кнуты",
+        "ins": "кнутами",
+        "prep": "кнутах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.mace",
@@ -2591,7 +2618,7 @@
         "prep": "булавах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.flail",
@@ -2618,7 +2645,7 @@
         "prep": "цепах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.morningstar",
@@ -2645,7 +2672,7 @@
         "prep": "моргенштернах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.dagger",
@@ -2672,7 +2699,7 @@
         "prep": "кинжалах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.quick_blade",
@@ -2697,9 +2724,10 @@
         "acc": "быстрые клинки",
         "ins": "быстрыми клинками",
         "prep": "быстрых клинках"
-      }
+      },
+      "counted_few": "быстрых клинка"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.short_sword",
@@ -2724,9 +2752,10 @@
         "acc": "короткие мечи",
         "ins": "короткими мечами",
         "prep": "коротких мечах"
-      }
+      },
+      "counted_few": "коротких меча"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.rapier",
@@ -2753,7 +2782,7 @@
         "prep": "рапирах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.falchion",
@@ -2780,7 +2809,7 @@
         "prep": "фальшионах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.long_sword",
@@ -2805,9 +2834,10 @@
         "acc": "длинные мечи",
         "ins": "длинными мечами",
         "prep": "длинных мечах"
-      }
+      },
+      "counted_few": "длинных меча"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.scimitar",
@@ -2834,7 +2864,7 @@
         "prep": "скимитарах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.great_sword",
@@ -2859,9 +2889,10 @@
         "acc": "двуручные мечи",
         "ins": "двуручными мечами",
         "prep": "двуручных мечах"
-      }
+      },
+      "counted_few": "двуручных меча"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.hand_axe",
@@ -2886,9 +2917,10 @@
         "acc": "ручные топоры",
         "ins": "ручными топорами",
         "prep": "ручных топорах"
-      }
+      },
+      "counted_few": "ручных топора"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.war_axe",
@@ -2913,9 +2945,10 @@
         "acc": "боевые топоры",
         "ins": "боевыми топорами",
         "prep": "боевых топорах"
-      }
+      },
+      "counted_few": "боевых топора"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.broad_axe",
@@ -2940,9 +2973,10 @@
         "acc": "широкие топоры",
         "ins": "широкими топорами",
         "prep": "широких топорах"
-      }
+      },
+      "counted_few": "широких топора"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.battleaxe",
@@ -2969,7 +3003,7 @@
         "prep": "секирах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.executioner_s_axe",
@@ -2996,7 +3030,7 @@
         "prep": "топорах палача"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.spear",
@@ -3023,7 +3057,7 @@
         "prep": "копьях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.trident",
@@ -3050,7 +3084,7 @@
         "prep": "трезубцах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.halberd",
@@ -3077,7 +3111,7 @@
         "prep": "алебардах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.glaive",
@@ -3104,7 +3138,7 @@
         "prep": "глефах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.bardiche",
@@ -3131,7 +3165,7 @@
         "prep": "бердышах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.quarterstaff",
@@ -3156,9 +3190,10 @@
         "acc": "боевые посохи",
         "ins": "боевыми посохами",
         "prep": "боевых посохах"
-      }
+      },
+      "counted_few": "боевых посоха"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.lajatang",
@@ -3185,7 +3220,7 @@
         "prep": "ладжатангах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.scythe",
@@ -3212,7 +3247,7 @@
         "prep": "косах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.sling",
@@ -3239,7 +3274,7 @@
         "prep": "пращах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.shortbow",
@@ -3264,9 +3299,10 @@
         "acc": "короткие луки",
         "ins": "короткими луками",
         "prep": "коротких луках"
-      }
+      },
+      "counted_few": "коротких лука"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.longbow",
@@ -3291,9 +3327,10 @@
         "acc": "длинные луки",
         "ins": "длинными луками",
         "prep": "длинных луках"
-      }
+      },
+      "counted_few": "длинных лука"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.arbalest",
@@ -3320,7 +3357,7 @@
         "prep": "арбалетах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.hand_cannon",
@@ -3345,9 +3382,10 @@
         "acc": "ручные пушки",
         "ins": "ручными пушками",
         "prep": "ручных пушках"
-      }
+      },
+      "counted_few": "ручные пушки"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.robe",
@@ -3374,7 +3412,7 @@
         "prep": "мантиях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.leather_armour",
@@ -3399,9 +3437,10 @@
         "acc": "кожаные доспехи",
         "ins": "кожаными доспехами",
         "prep": "кожаных доспехах"
-      }
+      },
+      "counted_few": "кожаных доспеха"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.ring_mail",
@@ -3426,9 +3465,10 @@
         "acc": "кольчатые доспехи",
         "ins": "кольчатыми доспехами",
         "prep": "кольчатых доспехах"
-      }
+      },
+      "counted_few": "кольчатых доспеха"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.scale_mail",
@@ -3453,9 +3493,10 @@
         "acc": "чешуйчатые доспехи",
         "ins": "чешуйчатыми доспехами",
         "prep": "чешуйчатых доспехах"
-      }
+      },
+      "counted_few": "чешуйчатых доспеха"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.chain_mail",
@@ -3482,7 +3523,7 @@
         "prep": "кольчугах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.plate_armour",
@@ -3507,9 +3548,10 @@
         "acc": "латные доспехи",
         "ins": "латными доспехами",
         "prep": "латных доспехах"
-      }
+      },
+      "counted_few": "латных доспеха"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.helmet",
@@ -3536,7 +3578,7 @@
         "prep": "шлемах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.hat",
@@ -3563,7 +3605,7 @@
         "prep": "шляпах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.cloak",
@@ -3590,7 +3632,7 @@
         "prep": "плащах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.scarf",
@@ -3617,7 +3659,7 @@
         "prep": "шарфах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.buckler",
@@ -3644,7 +3686,7 @@
         "prep": "баклерах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.kite_shield",
@@ -3669,9 +3711,10 @@
         "acc": "каплевидные щиты",
         "ins": "каплевидными щитами",
         "prep": "каплевидных щитах"
-      }
+      },
+      "counted_few": "каплевидных щита"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.tower_shield",
@@ -3696,9 +3739,10 @@
         "acc": "башенные щиты",
         "ins": "башенными щитами",
         "prep": "башенных щитах"
-      }
+      },
+      "counted_few": "башенных щита"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.potion",
@@ -5097,7 +5141,7 @@
         "prep": "камнях"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.javelin",
@@ -5124,7 +5168,7 @@
         "prep": "дротиках"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.throwing_net",
@@ -5149,9 +5193,10 @@
         "acc": "метательные сети",
         "ins": "метательными сетями",
         "prep": "метательных сетях"
-      }
+      },
+      "counted_few": "метательные сети"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.boomerang",
@@ -5178,7 +5223,7 @@
         "prep": "бумерангах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.dart",
@@ -5205,7 +5250,7 @@
         "prep": "иглах"
       }
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "item.gold_piece",
@@ -5230,9 +5275,10 @@
         "acc": "золотые монеты",
         "ins": "золотыми монетами",
         "prep": "золотых монетах"
-      }
+      },
+      "counted_few": "золотые монеты"
     },
-    "review": "draft"
+    "review": "reviewed"
   },
   {
     "id": "monster.iguana",

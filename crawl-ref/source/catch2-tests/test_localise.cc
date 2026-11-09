@@ -298,6 +298,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Здесь лежит зелье исцеления.");
     CHECK(localise("You see 2 rats and 21 scrolls of teleportation.")
           == "Вы видите 2 крыс и 21 свиток телепортации.");
+    CHECK(localise("2 ice dragons") == "2 ледяных дракона");
+    CHECK(localise("2 bats") == "2 летучие мыши");
+    CHECK(localise("You see 2 very ugly things and 5 whips.")
+          == "Вы видите 2 очень уродливых существ и 5 кнутов.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")
           == "Вы видите +2 кинжал и 21 свиток телепортации.");
     CHECK(localise("You hit the bat!") == "Вы ударяете летучую мышь!");

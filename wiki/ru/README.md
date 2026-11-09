@@ -8,18 +8,18 @@
 
 | ID | Название | English | Статус |
 |---|---|---|---|
-| `monster.rat` | [Крыса](pages/monster.rat.md) | rat | draft |
-| `monster.quokka` | [Квокка](pages/monster.quokka.md) | quokka | draft |
-| `monster.bat` | [Летучая мышь](pages/monster.bat.md) | bat | draft |
-| `monster.goblin` | [Гоблин](pages/monster.goblin.md) | goblin | draft |
-| `monster.hobgoblin` | [Хобгоблин](pages/monster.hobgoblin.md) | hobgoblin | draft |
-| `monster.kobold` | [Кобольд](pages/monster.kobold.md) | kobold | draft |
-| `monster.ball_python` | [Королевский питон](pages/monster.ball_python.md) | ball python | draft |
-| `monster.adder` | [Гадюка](pages/monster.adder.md) | adder | draft |
-| `monster.jackal` | [Шакал](pages/monster.jackal.md) | jackal | draft |
-| `monster.hound` | [Гончая](pages/monster.hound.md) | hound | draft |
-| `monster.dart_slug` | [Слизень-стрелок](pages/monster.dart_slug.md) | dart slug | draft |
-| `monster.ribbon_worm` | [Ленточный червь](pages/monster.ribbon_worm.md) | ribbon worm | draft |
+| `monster.rat` | [Крыса](pages/monster.rat.md) | rat | reviewed |
+| `monster.quokka` | [Квокка](pages/monster.quokka.md) | quokka | reviewed |
+| `monster.bat` | [Летучая мышь](pages/monster.bat.md) | bat | reviewed |
+| `monster.goblin` | [Гоблин](pages/monster.goblin.md) | goblin | reviewed |
+| `monster.hobgoblin` | [Хобгоблин](pages/monster.hobgoblin.md) | hobgoblin | reviewed |
+| `monster.kobold` | [Кобольд](pages/monster.kobold.md) | kobold | reviewed |
+| `monster.ball_python` | [Королевский питон](pages/monster.ball_python.md) | ball python | reviewed |
+| `monster.adder` | [Гадюка](pages/monster.adder.md) | adder | reviewed |
+| `monster.jackal` | [Шакал](pages/monster.jackal.md) | jackal | reviewed |
+| `monster.hound` | [Гончая](pages/monster.hound.md) | hound | reviewed |
+| `monster.dart_slug` | [Слизень-стрелок](pages/monster.dart_slug.md) | dart slug | reviewed |
+| `monster.ribbon_worm` | [Ленточный червь](pages/monster.ribbon_worm.md) | ribbon worm | reviewed |
 | `monster.endoplasm` | [Эндоплазма](pages/monster.endoplasm.md) | endoplasm | draft |
 | `monster.jelly` | [Слизень](pages/monster.jelly.md) | jelly | reviewed |
 | `monster.orc` | [Орк](pages/monster.orc.md) | orc | reviewed |
@@ -31,119 +31,119 @@
 | `monster.gnoll` | [Гнолл](pages/monster.gnoll.md) | gnoll | reviewed |
 | `monster.gnoll_bouda` | [Гнолл-буда](pages/monster.gnoll_bouda.md) | gnoll bouda | reviewed |
 | `monster.gnoll_sergeant` | [Гнолл-сержант](pages/monster.gnoll_sergeant.md) | gnoll sergeant | reviewed |
-| `monster.ogre` | [Огр](pages/monster.ogre.md) | ogre | draft |
-| `monster.two_headed_ogre` | [Двухголовый огр](pages/monster.two_headed_ogre.md) | two-headed ogre | draft |
-| `monster.troll` | [Тролль](pages/monster.troll.md) | troll | draft |
-| `monster.centaur` | [Кентавр](pages/monster.centaur.md) | centaur | draft |
-| `monster.centaur_warrior` | [Кентавр-воин](pages/monster.centaur_warrior.md) | centaur warrior | draft |
-| `monster.yak` | [Як](pages/monster.yak.md) | yak | draft |
-| `monster.death_yak` | [Смертоносный як](pages/monster.death_yak.md) | death yak | draft |
-| `monster.elephant` | [Слон](pages/monster.elephant.md) | elephant | draft |
-| `monster.hippogriff` | [Гиппогриф](pages/monster.hippogriff.md) | hippogriff | draft |
-| `monster.griffon` | [Грифон](pages/monster.griffon.md) | griffon | draft |
-| `monster.hydra` | [Гидра](pages/monster.hydra.md) | hydra | draft |
-| `monster.ice_dragon` | [Ледяной дракон](pages/monster.ice_dragon.md) | ice dragon | draft |
+| `monster.ogre` | [Огр](pages/monster.ogre.md) | ogre | reviewed |
+| `monster.two_headed_ogre` | [Двухголовый огр](pages/monster.two_headed_ogre.md) | two-headed ogre | reviewed |
+| `monster.troll` | [Тролль](pages/monster.troll.md) | troll | reviewed |
+| `monster.centaur` | [Кентавр](pages/monster.centaur.md) | centaur | reviewed |
+| `monster.centaur_warrior` | [Кентавр-воин](pages/monster.centaur_warrior.md) | centaur warrior | reviewed |
+| `monster.yak` | [Як](pages/monster.yak.md) | yak | reviewed |
+| `monster.death_yak` | [Смертоносный як](pages/monster.death_yak.md) | death yak | reviewed |
+| `monster.elephant` | [Слон](pages/monster.elephant.md) | elephant | reviewed |
+| `monster.hippogriff` | [Гиппогриф](pages/monster.hippogriff.md) | hippogriff | reviewed |
+| `monster.griffon` | [Грифон](pages/monster.griffon.md) | griffon | reviewed |
+| `monster.hydra` | [Гидра](pages/monster.hydra.md) | hydra | reviewed |
+| `monster.ice_dragon` | [Ледяной дракон](pages/monster.ice_dragon.md) | ice dragon | reviewed |
 | `monster.fire_dragon` | [Огненный дракон](pages/monster.fire_dragon.md) | fire dragon | reviewed |
-| `monster.quicksilver_dragon` | [Ртутный дракон](pages/monster.quicksilver_dragon.md) | quicksilver dragon | draft |
-| `monster.golden_dragon` | [Золотой дракон](pages/monster.golden_dragon.md) | golden dragon | draft |
+| `monster.quicksilver_dragon` | [Ртутный дракон](pages/monster.quicksilver_dragon.md) | quicksilver dragon | reviewed |
+| `monster.golden_dragon` | [Золотой дракон](pages/monster.golden_dragon.md) | golden dragon | reviewed |
 | `monster.storm_dragon` | [Грозовой дракон](pages/monster.storm_dragon.md) | storm dragon | reviewed |
 | `monster.shadow_dragon` | [Теневой дракон](pages/monster.shadow_dragon.md) | shadow dragon | reviewed |
-| `monster.iron_dragon` | [Железный дракон](pages/monster.iron_dragon.md) | iron dragon | draft |
-| `monster.steam_dragon` | [Паровой дракон](pages/monster.steam_dragon.md) | steam dragon | draft |
+| `monster.iron_dragon` | [Железный дракон](pages/monster.iron_dragon.md) | iron dragon | reviewed |
+| `monster.steam_dragon` | [Паровой дракон](pages/monster.steam_dragon.md) | steam dragon | reviewed |
 | `monster.acid_dragon` | [Кислотный дракон](pages/monster.acid_dragon.md) | acid dragon | reviewed |
-| `monster.wyvern` | [Виверна](pages/monster.wyvern.md) | wyvern | draft |
-| `monster.scorpion` | [Скорпион](pages/monster.scorpion.md) | scorpion | draft |
-| `monster.killer_bee` | [Пчела-убийца](pages/monster.killer_bee.md) | killer bee | draft |
-| `monster.queen_bee` | [Пчелиная матка](pages/monster.queen_bee.md) | queen bee | draft |
-| `monster.wolf` | [Волк](pages/monster.wolf.md) | wolf | draft |
-| `monster.black_bear` | [Чёрный медведь](pages/monster.black_bear.md) | black bear | draft |
-| `monster.polar_bear` | [Белый медведь](pages/monster.polar_bear.md) | polar bear | draft |
-| `monster.bullfrog` | [Лягушка-бык](pages/monster.bullfrog.md) | bullfrog | draft |
-| `monster.blink_frog` | [Мерцающая лягушка](pages/monster.blink_frog.md) | blink frog | draft |
-| `monster.cane_toad` | [Жаба-ага](pages/monster.cane_toad.md) | cane toad | draft |
-| `monster.komodo_dragon` | [Комодский варан](pages/monster.komodo_dragon.md) | komodo dragon | draft |
-| `monster.basilisk` | [Василиск](pages/monster.basilisk.md) | basilisk | draft |
-| `monster.black_mamba` | [Чёрная мамба](pages/monster.black_mamba.md) | black mamba | draft |
-| `monster.water_moccasin` | [Водяной щитомордник](pages/monster.water_moccasin.md) | water moccasin | draft |
+| `monster.wyvern` | [Виверна](pages/monster.wyvern.md) | wyvern | reviewed |
+| `monster.scorpion` | [Скорпион](pages/monster.scorpion.md) | scorpion | reviewed |
+| `monster.killer_bee` | [Пчела-убийца](pages/monster.killer_bee.md) | killer bee | reviewed |
+| `monster.queen_bee` | [Пчелиная матка](pages/monster.queen_bee.md) | queen bee | reviewed |
+| `monster.wolf` | [Волк](pages/monster.wolf.md) | wolf | reviewed |
+| `monster.black_bear` | [Чёрный медведь](pages/monster.black_bear.md) | black bear | reviewed |
+| `monster.polar_bear` | [Белый медведь](pages/monster.polar_bear.md) | polar bear | reviewed |
+| `monster.bullfrog` | [Лягушка-бык](pages/monster.bullfrog.md) | bullfrog | reviewed |
+| `monster.blink_frog` | [Мерцающая лягушка](pages/monster.blink_frog.md) | blink frog | reviewed |
+| `monster.cane_toad` | [Жаба-ага](pages/monster.cane_toad.md) | cane toad | reviewed |
+| `monster.komodo_dragon` | [Комодский варан](pages/monster.komodo_dragon.md) | komodo dragon | reviewed |
+| `monster.basilisk` | [Василиск](pages/monster.basilisk.md) | basilisk | reviewed |
+| `monster.black_mamba` | [Чёрная мамба](pages/monster.black_mamba.md) | black mamba | reviewed |
+| `monster.water_moccasin` | [Водяной щитомордник](pages/monster.water_moccasin.md) | water moccasin | reviewed |
 | `monster.naga` | [Нага](pages/monster.naga.md) | naga | reviewed |
-| `monster.mummy` | [Мумия](pages/monster.mummy.md) | mummy | draft |
-| `monster.vampire` | [Вампир](pages/monster.vampire.md) | vampire | draft |
-| `monster.wight` | [Умертвие](pages/monster.wight.md) | wight | draft |
-| `monster.wraith` | [Призрак](pages/monster.wraith.md) | wraith | draft |
-| `monster.phantom` | [Фантом](pages/monster.phantom.md) | phantom | draft |
-| `monster.shadowghast` | [Теневой дух](pages/monster.shadowghast.md) | shadowghast | draft |
+| `monster.mummy` | [Мумия](pages/monster.mummy.md) | mummy | reviewed |
+| `monster.vampire` | [Вампир](pages/monster.vampire.md) | vampire | reviewed |
+| `monster.wight` | [Умертвие](pages/monster.wight.md) | wight | reviewed |
+| `monster.wraith` | [Призрак](pages/monster.wraith.md) | wraith | reviewed |
+| `monster.phantom` | [Фантом](pages/monster.phantom.md) | phantom | reviewed |
+| `monster.shadowghast` | [Теневой дух](pages/monster.shadowghast.md) | shadowghast | reviewed |
 | `monster.lich` | [Лич](pages/monster.lich.md) | lich | draft |
 | `monster.ancient_lich` | [Древний лич](pages/monster.ancient_lich.md) | ancient lich | reviewed |
-| `monster.slime_creature` | [Слизистое существо](pages/monster.slime_creature.md) | slime creature | draft |
-| `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | draft |
-| `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | draft |
+| `monster.slime_creature` | [Слизистое существо](pages/monster.slime_creature.md) | slime creature | reviewed |
+| `monster.ugly_thing` | [Уродливое существо](pages/monster.ugly_thing.md) | ugly thing | reviewed |
+| `monster.very_ugly_thing` | [Очень уродливое существо](pages/monster.very_ugly_thing.md) | very ugly thing | reviewed |
 | `monster.orc_sorcerer` | [Орк-колдун](pages/monster.orc_sorcerer.md) | orc sorcerer | reviewed |
 | `monster.deep_elf_archer` | [Глубинный эльф-лучник](pages/monster.deep_elf_archer.md) | deep elf archer | reviewed |
 | `monster.deep_elf_pyromancer` | [Глубинный эльф-пиромант](pages/monster.deep_elf_pyromancer.md) | deep elf pyromancer | reviewed |
 | `monster.deep_elf_knight` | [Глубинный эльф-рыцарь](pages/monster.deep_elf_knight.md) | deep elf knight | reviewed |
-| `monster.stone_giant` | [Каменный великан](pages/monster.stone_giant.md) | stone giant | draft |
+| `monster.stone_giant` | [Каменный великан](pages/monster.stone_giant.md) | stone giant | reviewed |
 | `monster.fire_giant` | [Огненный великан](pages/monster.fire_giant.md) | fire giant | reviewed |
-| `monster.frost_giant` | [Морозный великан](pages/monster.frost_giant.md) | frost giant | draft |
-| `monster.cyclops` | [Циклоп](pages/monster.cyclops.md) | cyclops | draft |
-| `monster.ettin` | [Эттин](pages/monster.ettin.md) | ettin | draft |
+| `monster.frost_giant` | [Морозный великан](pages/monster.frost_giant.md) | frost giant | reviewed |
+| `monster.cyclops` | [Циклоп](pages/monster.cyclops.md) | cyclops | reviewed |
+| `monster.ettin` | [Эттин](pages/monster.ettin.md) | ettin | reviewed |
 | `monster.orc_high_priest` | [Верховный жрец орков](pages/monster.orc_high_priest.md) | orc high priest | reviewed |
 | `monster.reaper` | [Жнец](pages/monster.reaper.md) | reaper | reviewed |
 | `monster.hellion` | [Адский демон](pages/monster.hellion.md) | hellion | reviewed |
 | `monster.sun_demon` | [Солнечный демон](pages/monster.sun_demon.md) | sun demon | reviewed |
-| `monster.ice_devil` | [Ледяной дьявол](pages/monster.ice_devil.md) | ice devil | draft |
+| `monster.ice_devil` | [Ледяной дьявол](pages/monster.ice_devil.md) | ice devil | reviewed |
 | `monster.orange_demon` | [Оранжевый демон](pages/monster.orange_demon.md) | orange demon | reviewed |
 | `monster.hellwing` | [Адское крыло](pages/monster.hellwing.md) | hellwing | reviewed |
 | `monster.red_devil` | [Красный дьявол](pages/monster.red_devil.md) | red devil | reviewed |
-| `monster.crimson_imp` | [Багровый бес](pages/monster.crimson_imp.md) | crimson imp | draft |
-| `monster.white_imp` | [Белый бес](pages/monster.white_imp.md) | white imp | draft |
-| `monster.iron_imp` | [Железный бес](pages/monster.iron_imp.md) | iron imp | draft |
-| `monster.shadow_imp` | [Теневой бес](pages/monster.shadow_imp.md) | shadow imp | draft |
-| `monster.butterfly` | [Бабочка](pages/monster.butterfly.md) | butterfly | draft |
-| `monster.horse` | [Лошадь](pages/monster.horse.md) | horse | draft |
-| `item.club` | [Дубинка](pages/item.club.md) | club | draft |
-| `item.whip` | [Кнут](pages/item.whip.md) | whip | draft |
-| `item.mace` | [Булава](pages/item.mace.md) | mace | draft |
-| `item.flail` | [Цеп](pages/item.flail.md) | flail | draft |
-| `item.morningstar` | [Моргенштерн](pages/item.morningstar.md) | morningstar | draft |
-| `item.dagger` | [Кинжал](pages/item.dagger.md) | dagger | draft |
-| `item.quick_blade` | [Быстрый клинок](pages/item.quick_blade.md) | quick blade | draft |
-| `item.short_sword` | [Короткий меч](pages/item.short_sword.md) | short sword | draft |
-| `item.rapier` | [Рапира](pages/item.rapier.md) | rapier | draft |
-| `item.falchion` | [Фальшион](pages/item.falchion.md) | falchion | draft |
-| `item.long_sword` | [Длинный меч](pages/item.long_sword.md) | long sword | draft |
-| `item.scimitar` | [Скимитар](pages/item.scimitar.md) | scimitar | draft |
-| `item.great_sword` | [Двуручный меч](pages/item.great_sword.md) | great sword | draft |
-| `item.hand_axe` | [Ручной топор](pages/item.hand_axe.md) | hand axe | draft |
-| `item.war_axe` | [Боевой топор](pages/item.war_axe.md) | war axe | draft |
-| `item.broad_axe` | [Широкий топор](pages/item.broad_axe.md) | broad axe | draft |
-| `item.battleaxe` | [Секира](pages/item.battleaxe.md) | battleaxe | draft |
-| `item.executioner_s_axe` | [Топор палача](pages/item.executioner_s_axe.md) | executioner's axe | draft |
-| `item.spear` | [Копьё](pages/item.spear.md) | spear | draft |
-| `item.trident` | [Трезубец](pages/item.trident.md) | trident | draft |
-| `item.halberd` | [Алебарда](pages/item.halberd.md) | halberd | draft |
-| `item.glaive` | [Глефа](pages/item.glaive.md) | glaive | draft |
-| `item.bardiche` | [Бердыш](pages/item.bardiche.md) | bardiche | draft |
-| `item.quarterstaff` | [Боевой посох](pages/item.quarterstaff.md) | quarterstaff | draft |
-| `item.lajatang` | [Ладжатанг](pages/item.lajatang.md) | lajatang | draft |
-| `item.scythe` | [Коса](pages/item.scythe.md) | scythe | draft |
-| `item.sling` | [Праща](pages/item.sling.md) | sling | draft |
-| `item.shortbow` | [Короткий лук](pages/item.shortbow.md) | shortbow | draft |
-| `item.longbow` | [Длинный лук](pages/item.longbow.md) | longbow | draft |
-| `item.arbalest` | [Арбалет](pages/item.arbalest.md) | arbalest | draft |
-| `item.hand_cannon` | [Ручная пушка](pages/item.hand_cannon.md) | hand cannon | draft |
-| `item.robe` | [Мантия](pages/item.robe.md) | robe | draft |
-| `item.leather_armour` | [Кожаный доспех](pages/item.leather_armour.md) | leather armour | draft |
-| `item.ring_mail` | [Кольчатый доспех](pages/item.ring_mail.md) | ring mail | draft |
-| `item.scale_mail` | [Чешуйчатый доспех](pages/item.scale_mail.md) | scale mail | draft |
-| `item.chain_mail` | [Кольчуга](pages/item.chain_mail.md) | chain mail | draft |
-| `item.plate_armour` | [Латный доспех](pages/item.plate_armour.md) | plate armour | draft |
-| `item.helmet` | [Шлем](pages/item.helmet.md) | helmet | draft |
-| `item.hat` | [Шляпа](pages/item.hat.md) | hat | draft |
-| `item.cloak` | [Плащ](pages/item.cloak.md) | cloak | draft |
-| `item.scarf` | [Шарф](pages/item.scarf.md) | scarf | draft |
-| `item.buckler` | [Баклер](pages/item.buckler.md) | buckler | draft |
-| `item.kite_shield` | [Каплевидный щит](pages/item.kite_shield.md) | kite shield | draft |
-| `item.tower_shield` | [Башенный щит](pages/item.tower_shield.md) | tower shield | draft |
+| `monster.crimson_imp` | [Багровый бес](pages/monster.crimson_imp.md) | crimson imp | reviewed |
+| `monster.white_imp` | [Белый бес](pages/monster.white_imp.md) | white imp | reviewed |
+| `monster.iron_imp` | [Железный бес](pages/monster.iron_imp.md) | iron imp | reviewed |
+| `monster.shadow_imp` | [Теневой бес](pages/monster.shadow_imp.md) | shadow imp | reviewed |
+| `monster.butterfly` | [Бабочка](pages/monster.butterfly.md) | butterfly | reviewed |
+| `monster.horse` | [Лошадь](pages/monster.horse.md) | horse | reviewed |
+| `item.club` | [Дубинка](pages/item.club.md) | club | reviewed |
+| `item.whip` | [Кнут](pages/item.whip.md) | whip | reviewed |
+| `item.mace` | [Булава](pages/item.mace.md) | mace | reviewed |
+| `item.flail` | [Цеп](pages/item.flail.md) | flail | reviewed |
+| `item.morningstar` | [Моргенштерн](pages/item.morningstar.md) | morningstar | reviewed |
+| `item.dagger` | [Кинжал](pages/item.dagger.md) | dagger | reviewed |
+| `item.quick_blade` | [Быстрый клинок](pages/item.quick_blade.md) | quick blade | reviewed |
+| `item.short_sword` | [Короткий меч](pages/item.short_sword.md) | short sword | reviewed |
+| `item.rapier` | [Рапира](pages/item.rapier.md) | rapier | reviewed |
+| `item.falchion` | [Фальшион](pages/item.falchion.md) | falchion | reviewed |
+| `item.long_sword` | [Длинный меч](pages/item.long_sword.md) | long sword | reviewed |
+| `item.scimitar` | [Скимитар](pages/item.scimitar.md) | scimitar | reviewed |
+| `item.great_sword` | [Двуручный меч](pages/item.great_sword.md) | great sword | reviewed |
+| `item.hand_axe` | [Ручной топор](pages/item.hand_axe.md) | hand axe | reviewed |
+| `item.war_axe` | [Боевой топор](pages/item.war_axe.md) | war axe | reviewed |
+| `item.broad_axe` | [Широкий топор](pages/item.broad_axe.md) | broad axe | reviewed |
+| `item.battleaxe` | [Секира](pages/item.battleaxe.md) | battleaxe | reviewed |
+| `item.executioner_s_axe` | [Топор палача](pages/item.executioner_s_axe.md) | executioner's axe | reviewed |
+| `item.spear` | [Копьё](pages/item.spear.md) | spear | reviewed |
+| `item.trident` | [Трезубец](pages/item.trident.md) | trident | reviewed |
+| `item.halberd` | [Алебарда](pages/item.halberd.md) | halberd | reviewed |
+| `item.glaive` | [Глефа](pages/item.glaive.md) | glaive | reviewed |
+| `item.bardiche` | [Бердыш](pages/item.bardiche.md) | bardiche | reviewed |
+| `item.quarterstaff` | [Боевой посох](pages/item.quarterstaff.md) | quarterstaff | reviewed |
+| `item.lajatang` | [Ладжатанг](pages/item.lajatang.md) | lajatang | reviewed |
+| `item.scythe` | [Коса](pages/item.scythe.md) | scythe | reviewed |
+| `item.sling` | [Праща](pages/item.sling.md) | sling | reviewed |
+| `item.shortbow` | [Короткий лук](pages/item.shortbow.md) | shortbow | reviewed |
+| `item.longbow` | [Длинный лук](pages/item.longbow.md) | longbow | reviewed |
+| `item.arbalest` | [Арбалет](pages/item.arbalest.md) | arbalest | reviewed |
+| `item.hand_cannon` | [Ручная пушка](pages/item.hand_cannon.md) | hand cannon | reviewed |
+| `item.robe` | [Мантия](pages/item.robe.md) | robe | reviewed |
+| `item.leather_armour` | [Кожаный доспех](pages/item.leather_armour.md) | leather armour | reviewed |
+| `item.ring_mail` | [Кольчатый доспех](pages/item.ring_mail.md) | ring mail | reviewed |
+| `item.scale_mail` | [Чешуйчатый доспех](pages/item.scale_mail.md) | scale mail | reviewed |
+| `item.chain_mail` | [Кольчуга](pages/item.chain_mail.md) | chain mail | reviewed |
+| `item.plate_armour` | [Латный доспех](pages/item.plate_armour.md) | plate armour | reviewed |
+| `item.helmet` | [Шлем](pages/item.helmet.md) | helmet | reviewed |
+| `item.hat` | [Шляпа](pages/item.hat.md) | hat | reviewed |
+| `item.cloak` | [Плащ](pages/item.cloak.md) | cloak | reviewed |
+| `item.scarf` | [Шарф](pages/item.scarf.md) | scarf | reviewed |
+| `item.buckler` | [Баклер](pages/item.buckler.md) | buckler | reviewed |
+| `item.kite_shield` | [Каплевидный щит](pages/item.kite_shield.md) | kite shield | reviewed |
+| `item.tower_shield` | [Башенный щит](pages/item.tower_shield.md) | tower shield | reviewed |
 | `item.potion` | [Зелье](pages/item.potion.md) | potion | reviewed |
 | `item.potion_of_curing` | [Зелье исцеления](pages/item.potion_of_curing.md) | potion of curing | reviewed |
 | `item.potion_of_heal_wounds` | [Зелье лечения ран](pages/item.potion_of_heal_wounds.md) | potion of heal wounds | reviewed |
@@ -193,12 +193,12 @@
 | `item.amulet` | [Амулет](pages/item.amulet.md) | amulet | reviewed |
 | `item.amulet_of_reflection` | [Амулет отражения](pages/item.amulet_of_reflection.md) | amulet of reflection | reviewed |
 | `item.amulet_of_regeneration` | [Амулет регенерации](pages/item.amulet_of_regeneration.md) | amulet of regeneration | reviewed |
-| `item.stone` | [Камень](pages/item.stone.md) | stone | draft |
-| `item.javelin` | [Дротик](pages/item.javelin.md) | javelin | draft |
-| `item.throwing_net` | [Метательная сеть](pages/item.throwing_net.md) | throwing net | draft |
-| `item.boomerang` | [Бумеранг](pages/item.boomerang.md) | boomerang | draft |
-| `item.dart` | [Игла](pages/item.dart.md) | dart | draft |
-| `item.gold_piece` | [Золотая монета](pages/item.gold_piece.md) | gold piece | draft |
+| `item.stone` | [Камень](pages/item.stone.md) | stone | reviewed |
+| `item.javelin` | [Дротик](pages/item.javelin.md) | javelin | reviewed |
+| `item.throwing_net` | [Метательная сеть](pages/item.throwing_net.md) | throwing net | reviewed |
+| `item.boomerang` | [Бумеранг](pages/item.boomerang.md) | boomerang | reviewed |
+| `item.dart` | [Игла](pages/item.dart.md) | dart | reviewed |
+| `item.gold_piece` | [Золотая монета](pages/item.gold_piece.md) | gold piece | reviewed |
 | `monster.iguana` | [Игуана](pages/monster.iguana.md) | iguana | reviewed |
 | `monster.rock_fish` | [Каменная рыба](pages/monster.rock_fish.md) | rock fish | reviewed |
 | `monster.worm` | [Червь](pages/monster.worm.md) | worm | reviewed |
