@@ -1840,7 +1840,7 @@
 - [Залп](status/fusillade-status.md)
 - [Ночь](status/nightfall-status.md)
 - [Слепота](status/blind-status.md)
-- [Погибель](status/ruin-status.md)
+- [Разрушение](status/ruin-status.md)
 - [-Мог.ког.](status/no-gclaw-status.md)
 - [Легион](status/legion-status.md)
 - [-КровРитуал](status/no-bloodrite-status.md)
