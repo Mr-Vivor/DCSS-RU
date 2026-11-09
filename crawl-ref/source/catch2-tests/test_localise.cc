@@ -310,6 +310,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "В руках подрагивает ручной топор.");
     CHECK(localise("You feel magic pooling in your eel graspers.")
           == "Вы чувствуете, как в угрях (манипуляторы) собирается магия.");
+    CHECK(localise("The bats swarm back together and Blorkula the Orcula reappears in a puff of iridescent mist.")
+          == "Летучие мыши вновь собираются вместе, и в облачке радужного тумана появляется Блоркула Оркула.");
+    CHECK(localise("You siphon power from the bat's fading poison and negative energy.")
+          == "Вы черпаете силу из яда и отрицательной энергии, покидающих тело летучей мыши.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
     CHECK(localise("Your paragon deflects the bat's attack away from you.")

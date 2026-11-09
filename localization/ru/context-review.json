@@ -64421,6 +64421,210 @@
     "eel pincers": {
       "context": "player-equip.cc SPARM_INFUSION only changes magic perceived in player::hand_name(true); removing armour does not spend the entire MP reserve. player-act.cc base_hand_name uses hands/claws/paws/tentacles/tendrils/graspers/fists plus form pincer names, and prefixes eel for Eel Hands. Eight singular/plural body lexemes use explicit six cases. Eel variants preserve existing form-attack nomenclature Угорь/Угри with the original body part as a parenthetical label; inflect the eel, retain the label. Coglin grasper is consistently манипулятор in form-body-part and form-attack too. Safe distortion removal/rebranding are distinct and do not assume one human hand. Body/source IDs and item effects unchanged.",
       "translation_sha256": "60a745ad8ddff8f6dcff4962d4f5c3969d81546577324df5ad40bab1fc46e200"
+    },
+    "@Arg@ attempts to avoid another deathblow, but is too exhausted to transform.": {
+      "context": "mon-death.cc _blorkula_bat_split/_blorkula_bat_merge_message: death avoidance has a cooldown, can fail if no bat fits, and reforms from one or several surviving coloured bats. Use present tense without assuming a grammatical gender; polymorph can preserve these mechanics.",
+      "translation_sha256": "87f7c86c98351b4a82f65d78bbe8a8b37e2eb603115237457cd4422ba8e16ee6"
+    },
+    "@Arg@ attempts to avoid the deathblow, but fails!": {
+      "context": "mon-death.cc _blorkula_bat_split/_blorkula_bat_merge_message: death avoidance has a cooldown, can fail if no bat fits, and reforms from one or several surviving coloured bats. Use present tense without assuming a grammatical gender; polymorph can preserve these mechanics.",
+      "translation_sha256": "58a3221b0ef3e6f68b4ecf483d389bfb15546c19bac1847f3300a7fa730aa289"
+    },
+    "@Arg@ avoids the killing blow by scattering into a rainbow of bats!": {
+      "context": "mon-death.cc _blorkula_bat_split/_blorkula_bat_merge_message: death avoidance has a cooldown, can fail if no bat fits, and reforms from one or several surviving coloured bats. Use present tense without assuming a grammatical gender; polymorph can preserve these mechanics.",
+      "translation_sha256": "ce5a1b9f420819db21c400132bc26eb4c50007ba8008763068d75086f04a23cb"
+    },
+    "The bat shimmers and @arg@ reappears in a puff of iridescent mist.": {
+      "context": "mon-death.cc _blorkula_bat_split/_blorkula_bat_merge_message: death avoidance has a cooldown, can fail if no bat fits, and reforms from one or several surviving coloured bats. Use present tense without assuming a grammatical gender; polymorph can preserve these mechanics.",
+      "translation_sha256": "086b316199ae601a26c4828f063833cf5e19d7f896a0955844d34e4bf5ec7af6"
+    },
+    "The bats swarm back together and @arg@ reappears in a puff of iridescent mist.": {
+      "context": "mon-death.cc _blorkula_bat_split/_blorkula_bat_merge_message: death avoidance has a cooldown, can fail if no bat fits, and reforms from one or several surviving coloured bats. Use present tense without assuming a grammatical gender; polymorph can preserve these mechanics.",
+      "translation_sha256": "78bc4120c671b8fe45de1bfe45f72f3fb3634486374a613e7fa83822fc2880a1"
+    },
+    "Beogh pulls their child back from the Abyss.": {
+      "context": "mon-death.cc _monster_avoided_death: Beogh pulls a challenged apostle back from banishment while Touch of Beogh is active, then wins the challenge and heals the apostle. This is not a general resurrection promise.",
+      "translation_sha256": "8adf06ef003659af0a049c1832165594dbdabedd4ee3d8060209b4d529b21e4b"
+    },
+    "With its final breath, @arg@ offers up its power to the beasts of the wild!": {
+      "context": "mon-death.cc _druid_final_boon, _protean_explosion and _martyr_death_wail: druid empowers allied beasts; protean progenitor briefly takes a candidate form before splitting explosively; martyr shade relives death and becomes a flayed ghost. Accusative creature form after напоминать, no masculine pronoun for arbitrary forms.",
+      "translation_sha256": "2326de199069d2c16e844fd78e9d6f7fe570b04bcc8ef4ab12223b7b1577aae3"
+    },
+    "For just a moment, @arg@ begins to look like @creature@, then it explodes!": {
+      "context": "mon-death.cc _druid_final_boon, _protean_explosion and _martyr_death_wail: druid empowers allied beasts; protean progenitor briefly takes a candidate form before splitting explosively; martyr shade relives death and becomes a flayed ghost. Accusative creature form after напоминать, no masculine pronoun for arbitrary forms.",
+      "translation_sha256": "c66512527aa190b1f30673f551eaf2413779e639c6e8a8d36a90145353ff4e91"
+    },
+    "@Arg@ wails in agony as it relives its own death.": {
+      "context": "mon-death.cc _druid_final_boon, _protean_explosion and _martyr_death_wail: druid empowers allied beasts; protean progenitor briefly takes a candidate form before splitting explosively; martyr shade relives death and becomes a flayed ghost. Accusative creature form after напоминать, no masculine pronoun for arbitrary forms.",
+      "translation_sha256": "402f0bdd1160d3e1145ff236eb0206ca48edb1cf7e6b98bcacd30cab53918d8c"
+    },
+    "You siphon power from @arg@'s fading poison.": {
+      "context": "mon-death.cc _player_on_kill_effects MUT_FEED_OFF_SUFFERING: gain HP and/or MP from a poisoned/drained dead foe. The poison/negative energy belongs to the victim; not a fresh poison application or a drain penalty to the player. Three actual suffixes selected in source.",
+      "translation_sha256": "a4f804319ce3b4052d1cf953c541e165ef07d1736173f99e733217e60bc28e96"
+    },
+    "You siphon power from @arg@'s fading negative energy.": {
+      "context": "mon-death.cc _player_on_kill_effects MUT_FEED_OFF_SUFFERING: gain HP and/or MP from a poisoned/drained dead foe. The poison/negative energy belongs to the victim; not a fresh poison application or a drain penalty to the player. Three actual suffixes selected in source.",
+      "translation_sha256": "2286f9792fd2c63b2e128f9d922775cc5f540240d09192051aca2cedf78f6876"
+    },
+    "You siphon power from @arg@'s fading poison and negative energy.": {
+      "context": "mon-death.cc _player_on_kill_effects MUT_FEED_OFF_SUFFERING: gain HP and/or MP from a poisoned/drained dead foe. The poison/negative energy belongs to the victim; not a fresh poison application or a drain penalty to the player. Three actual suffixes selected in source.",
+      "translation_sha256": "502f9cdf81017768d2a015ed7d8a1696db968633df9179071b2c5547aa3eb536"
+    },
+    "The wailing of the fallen reaches a fever pitch!": {
+      "context": "mon-death.cc _player_on_kill_effects MUT_FEED_OFF_SUFFERING: gain HP and/or MP from a poisoned/drained dead foe. The poison/negative energy belongs to the victim; not a fresh poison application or a drain penalty to the player. Three actual suffixes selected in source.",
+      "translation_sha256": "11c154dba16c6c419e15f5eddb4a0a7be4bef3f840cde983565b179066e767d7"
+    },
+    "@Arg@'s allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "9b0a793c019317a0482e1a35f95f4368c8a3afc93e2fa468a15637e322cad3d5"
+    },
+    "@Arg@' allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "9b0a793c019317a0482e1a35f95f4368c8a3afc93e2fa468a15637e322cad3d5"
+    },
+    "Its allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "60cda2a0b76c0440a7080eb45ea4fd8ebc2f034a66fd17d974399dfa9de625e1"
+    },
+    "His allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "60cda2a0b76c0440a7080eb45ea4fd8ebc2f034a66fd17d974399dfa9de625e1"
+    },
+    "Her allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "970d9dc4be0e17642052459086f4106c85297d91f8c237064bbcf45945d496fd"
+    },
+    "Their allies are healed!": {
+      "context": "mon-death.cc BANE_SUCCOUR heals allies of the dying monster, not necessarily the player. DESC_ITS supplies an apostrophised creature name, or an unseen/pronoun possessive. Keep victim ownership explicit.",
+      "translation_sha256": "3b7b850ef317ad6afbe21c7532ad4cddc1a25ae84b5940dada755ad4674c9a78"
+    },
+    "@Arg@ falls apart, revealing its core!": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "2ad6f8fbf98c0b5e7ac0868b6b05e110caf34f1d9ae7bcbba8404829d1e932a9"
+    },
+    "You feel your sun fade away.": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "cf1857d7160a3e1d0e9bc2c1bcf9ec9e02e7d60e97e2e462996405eab9ec3745"
+    },
+    "Your magic returns to you!": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "0ca44ebf9087fb326a2874f05cab1dadd9e15ee0f408258835b1cbbb8789db03"
+    },
+    "@Arg@ is driven back to you.": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "2210f1b6e70c3b9c8edd95903da3d394d1ad4ab67a564b0dec5033bb7cee9de3"
+    },
+    "@Arg@ returns to the armoury!": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "449378b94f596bfbc5bc129f478da4e29f98df2cee49f3c4c99809137166961e"
+    },
+    "@Arg@ briefly glints gold and then vanishes.": {
+      "context": "mon-death.cc special deaths: active adjacent blazeheart golem exposes its core, solar ember unseen death schedules revival, rending blade refunds its reserved MP. Cacophony armour is forced back; balestra weapon returns to its summoning armoury. No claim of permanent destruction for these constructs.",
+      "translation_sha256": "5df2bfdbf5d92197971c6df8371a1018e8b6b4566ff49306b5f7ea827c25f71b"
+    },
+    "@Arg@ broadcasts a psychic alarm as it dies.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "13a0bf2f4bfef7778ce9e7bd707eb27bb477e080730488413b9e531d6f1f50be"
+    },
+    "@Arg@ broadcasts a psychic alarm as it disappears.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "fb62dc214b80503954d99abe709c849ec84b2aa8d6548f10529045c4aa1d933c"
+    },
+    "You feel something broadcast a psychic alarm.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "2a112f6797406c46c1c0670b95ba9b545f5ff5531752f7731a5edcb59f2f17a0"
+    },
+    "A wave of disorienting energy ripples outward as you feel the reach of Zot diminish.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "0ee9ca5573621da2d620c66cb277cc3bd975f09271cec6a38d33c918c5fa83d5"
+    },
+    "@Arg@ is cast back into its original reality.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "0d28349ee299ecdedb002f5dada9680f888118b65747a86eb6c9da49d2eb3467"
+    },
+    "@Arg@ is cast back into his original reality.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "0d28349ee299ecdedb002f5dada9680f888118b65747a86eb6c9da49d2eb3467"
+    },
+    "@Arg@ is cast back into her original reality.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "0d28349ee299ecdedb002f5dada9680f888118b65747a86eb6c9da49d2eb3467"
+    },
+    "@Arg@ is cast back into their original reality.": {
+      "context": "mon-death.cc Zot: orb guardian death/banishment/disappearance triggers psychic alarm only while boundless tesseracts remain. Killing tesseract removes both tesseracts and their spawns, returning the latter to their original reality and dazing nearby hostiles. This is not an ordinary sound alarm or a promise that all of Zot is cleared.",
+      "translation_sha256": "0d28349ee299ecdedb002f5dada9680f888118b65747a86eb6c9da49d2eb3467"
+    },
+    "Tendrils of ice devour @arg@'s body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "1eba6326fcfabc8a8c531fe0e3a97625e3cd87c6e8df95b0bafcf4ffd3e82222"
+    },
+    "Tendrils of ice devour @arg@' body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "1eba6326fcfabc8a8c531fe0e3a97625e3cd87c6e8df95b0bafcf4ffd3e82222"
+    },
+    "Tendrils of ice devour its body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "477e84f0d810e4064260385168a0eeaa865a84e6127f4257b0e52a5f9b070864"
+    },
+    "Tendrils of ice devour his body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "477e84f0d810e4064260385168a0eeaa865a84e6127f4257b0e52a5f9b070864"
+    },
+    "Tendrils of ice devour her body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "0b6eb9b9bc9a05d43eb4800b19a2695afbd727e9acc404a5af95a55f59c421ac"
+    },
+    "Tendrils of ice devour their body!": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "716ffbb3d28ad7cdf407788dcfcf0ecd674856e0835faae34692c72f82fc7379"
+    },
+    "Plague seeps from the dead @arg@.": {
+      "context": "mon-death.cc Rimeblight: ice engulfs the corpse visually when instant-death threshold is met, leaving a pillar of rime; corpse is not mechanically consumed for necromancy/Gozag. On death plague can spread to nearby nonfriendly monsters. No assumption about grammatical gender of the dead creature.",
+      "translation_sha256": "116d7f4b393550a7d79f17e032e077c9135de6844db3cf6d9ea1727ea5cf68eb"
+    },
+    "You feel as though you may have cheated fate.": {
+      "context": "mon-death.cc _cassandra_death_ambush: a successful spawn sets hostile ambushers outside sight and seals stairs temporarily; cheating fate message is used if no ambush can be placed. Do not imply an actual stat penalty or an already visible ambush.",
+      "translation_sha256": "922c2e5cb5642c456931a2e305dee1741e21006936e87610a8c9a146bd13cbfd"
+    },
+    "You feel an ambush drawing close....": {
+      "context": "mon-death.cc _cassandra_death_ambush: a successful spawn sets hostile ambushers outside sight and seals stairs temporarily; cheating fate message is used if no ambush can be placed. Do not imply an actual stat penalty or an already visible ambush.",
+      "translation_sha256": "8f4a9ce20811d87cacc2bbb96dbd2884fa9232fa015e9c976ded6eb80d8b1207"
+    },
+    "The dead are swimming!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "6e0b6f436dfb4a5b50d7e460e09fd3ebc8ed66e9a260621226fece174639e1d9"
+    },
+    "The dead are flying!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "6bd568950b20c5746bc2e7e4d21c5f1580b688ce952ba54f180c25300389338e"
+    },
+    "The dead are slithering!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "9761b163bd4b23a7e7e5ea8708ff2b78504499c9f08ad2ab276e531872657566"
+    },
+    "The dead are crawling!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "83d2960785d6cf405ce3c25e6624f436d85593252a832d5a75c0e773d3b4b36d"
+    },
+    "The dead are hopping!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "77e7fea96fdad76cdbd563b3e97624659d81336c4c41742374856718220c3b5c"
+    },
+    "The dead are walking!": {
+      "context": "mon-death.cc _derived_undead_message: undead locomotion depends on habitat, flight and body shape; plural message applies to creation of derived undead, not ordinary monster movement.",
+      "translation_sha256": "49c38d229a124b4fa561ea1836b6b6e23442a7eabf55bfdd189adde8dbdbd343"
+    },
+    "The kraken's tentacles disappear.": {
+      "context": "mon-death.cc destroy_tentacles and hogs_to_humans: kraken tentacles disappear on head death. Kirke release actually selects plural forms for multiple hogs; keep previous singular source keys too. All-human victims return to human form; mixed/originally nonhuman victims return to original forms.",
+      "translation_sha256": "9578106faf43c1f4fdc4b80d7260a554c3032c5206408848fbfbcca364abc45d"
+    },
+    "No longer under Kirke's spell, the hogs return to their human forms!": {
+      "context": "mon-death.cc destroy_tentacles and hogs_to_humans: kraken tentacles disappear on head death. Kirke release actually selects plural forms for multiple hogs; keep previous singular source keys too. All-human victims return to human form; mixed/originally nonhuman victims return to original forms.",
+      "translation_sha256": "c0c9f7ba2603d5de9a0e4a78b100e80252ffc6000354294b720674a965cbbb3b"
+    },
+    "No longer under Kirke's spell, the hogs return to their original forms!": {
+      "context": "mon-death.cc destroy_tentacles and hogs_to_humans: kraken tentacles disappear on head death. Kirke release actually selects plural forms for multiple hogs; keep previous singular source keys too. All-human victims return to human form; mixed/originally nonhuman victims return to original forms.",
+      "translation_sha256": "71f287a8e58c405677bbe93cbd5b1a3d7fbba451df95e64215019a73be7c8d66"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
