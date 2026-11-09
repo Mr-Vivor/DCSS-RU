@@ -58093,6 +58093,458 @@
     "@the_monster@ is overcome by clouds of grey smoke": {
       "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
       "translation_sha256": "f4c25d30282e643a3111ee1cdff100032e24a46e69bac76398c88da1b0165e7d"
+    },
+    "Waves of @colour@ light ripple over your body": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "d9407c265e8b4dd2fe0700fd3ff52b9d9de4796a59c688c6bdd818d455d55d24"
+    },
+    "Waves of @colour@ light ripple over @the_monster@'s body": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "afbeb5c4184d634949ba69a1887b79bb04a17f8e5a771eee3e426a9f489d9cb4"
+    },
+    "You are overcome by clouds of @colour@ smoke": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "5fbcd36b63e7b2b33011b67398aa78e317c28d826502df63f6c4176a4c36e1ff"
+    },
+    "@the_monster@ is overcome by clouds of @colour@ smoke": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "70a807a67c2549af75fdf0840ead5fa99dd6e763d5e900c0e077bf267d59797e"
+    },
+    "The inside of your mouth momentarily tastes like @colour@": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e6e63d4aec5a8124e274119a95b4e2268568c343aae8829a313b1dcab0ac8c5d"
+    },
+    "Your skin changes to @pattern@": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "2ca113cd7304430b4cd5e76d1a01d342ea8368db87fa4d0494c2c0553d230bd4"
+    },
+    "@the_monster@'s skin changes to @pattern@": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "f7ff2d3c937e346b79b8a03ddd952b80c50b6c4907dca696598fd3f717eca8f0"
+    },
+    "You are surrounded by clouds of @colour@ dust": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "37c39109e7700ca8e0d879c6ea8ea63bb104a59339336bdbcffc7070c4ad8f32"
+    },
+    "@the_monster@ is surrounded by clouds of @colour@ dust": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "c5e84d2f9d8680f8973ee8b7b97c86311f949b200e4e7037cf78c6d0db9cd2ea"
+    },
+    "@the_feature@ briefly glows @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "eb1e2693b71ac4f875bf6038f7112bf7c644725d27719156013d432f8db03d23"
+    },
+    "@the_feature@ briefly flashes @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "1cd8e8657df382379b3dc8dc8252d5e403f9b68778b0ae41909f8c2b4690fc54"
+    },
+    "Faint @colour@ flames crawl over @the_feature@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "42f832f3e4a3724e76e5e4ff8fe8b041a8e47942dfbab4ce4c8f0f761e627d7d"
+    },
+    "@the_feature@ is briefly covered in @pattern@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "5f8809d9bccf63102910e05def844cc5ec4200624eb1ab866043e1869ab4143f"
+    },
+    "@the_feature@ briefly shows a translucent wall covered in @pattern@ on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "f1fa3884d6a3cb253e87b3672192074f566667b545ff69d0d07911b1797aef4b"
+    },
+    "@your_item@ briefly glows @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "cf261725deccf426ed08e16f5d323b9f16631447802a96f3376ff29a3d554c92"
+    },
+    "@your_item@ briefly flashes @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0a7225ff9312bbe8d47e58404613597783f1b945a17ae49d97f92dd0ccbc8cdb"
+    },
+    "One of @your_item@ briefly glows @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "ff64debcc88e6a00ac61a856b82a0306b50d94c6149d4b21510cf13745272e7a"
+    },
+    "One of @your_item@ briefly flashes @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "fb8460eae91bd5775696b8b5525b656f8dc848b0ea8baaa4cb7c1c82bebb28dc"
+    },
+    "@your_item@ briefly glow @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "cf261725deccf426ed08e16f5d323b9f16631447802a96f3376ff29a3d554c92"
+    },
+    "@your_item@ briefly flash @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0a7225ff9312bbe8d47e58404613597783f1b945a17ae49d97f92dd0ccbc8cdb"
+    },
+    "A burst of @colour@ light briefly shoots from your eye!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "3c92b7d93465baea2dca9a173a09ee2df2454336096cbb64538bb08634f1c923"
+    },
+    "Bursts of @colour@ light briefly shoot from your eyes!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "2bb3d749f2204f3f5cfffa924f511e9fdc3f5575a191dda6a6fce57c80e4e950"
+    },
+    "@your_item@ is briefly covered in @pattern@!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "9450cb620684facd3ded77d2faa19329aed09352537c34650933e3bec5ede19b"
+    },
+    "@your_item@ briefly flashes @colour@!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "81b9891568a92eee6996631cb5515b563b073fa214f4e72ffc3d1cd621a93cbb"
+    },
+    "@your_item@ flares @colour@, then returns to normal.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "9fb1d5858ed7fe8132c25648d3df008960c62c933f0b3368d42ce9a101cdf921"
+    },
+    "@your_item@ leaks @colour@ smoke!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "447d2f638b885c6cec75575607e45708f19979aa0fd643506870c6591ae39062"
+    },
+    "With a gout of @colour@ light, Xom rebuilds you.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "63666074f2f5f0c4ef4515e6e3352ad6c8d0502c62613e8b2cb47313df02917c"
+    },
+    "With a flash of @colour@ light, Xom rebuilds you.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "aa1ac58c895a72f0fac2e8265d224d7b44c3f60a79675ed1e435a5c36d02241d"
+    },
+    "Xom saves you before everything goes @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "8e27ea1c9ed10eeebba2475bfe69fbb8fc4d35a2a71e40ce5273f4a1043734b5"
+    },
+    "The fountain pulses with strange @pattern@, and you decide not to drink from it.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "f9d3f2a11087ed4e7b9048fd808a6e19d55f4cfbbd74b472c19e9e52f462c021"
+    },
+    "The sparkling fountain shimmers a faint @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "8ef6a6d891f5e1057fa3346bf18ab1cdd22ee123e484f5fd69d19b5e07a755a7"
+    },
+    "You've found all the gems! Together, they sparkle an otherworldly @colour@!": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "3af6594faaa425771921fb6ae8f4fd3b700803c1257bdf2c5092e8e52ab83f34"
+    },
+    "@the_monster@ is briefly surrounded by a halo of @colour@ light.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "63621a61ad600d1b6739ae04e5a6d577c358213bed4084d7d57b93f229890b9f"
+    },
+    "@the_monster@'s eyes glow @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "ff5a38f3a3035af4c8850b279a779eae5f3226b4406a27ccaa8271fc3eda3dc2"
+    },
+    "@the_monster@ says, \"My favourite colour of blood is @colour1@. Wait, no, @colour2@.\"": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "9b2ba3674ffc90f2cb7bf65eef10b93cc8b7edf8f0bb1eedc958e1cf97fc3c12"
+    },
+    "@the_monster@ contemplates whether Beogh's temples would look better painted @colour@.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "963679f2e29dbbd12ffcd8f9a64ab3fe19bb6c336d197393a5a09f6d12eca70d"
+    },
+    "@the_monster@ mutters, \"Why is everything @colour@ all of a sudden?\"": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6dd3bffb0c348f8a0d884e95258107b1ef95de8fdcff5372e6b3750534ef3bd6"
+    },
+    "@the_feature@ briefly shows strange bright figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "bc5e983ab6d5b66ee5f6d007e803a6736191729bed927e7f12a50548a30ca1d8"
+    },
+    "@the_feature@ briefly shows bizarre bright buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "773846d338761a5f6567a55584377701c650af1de2e5f6965339c10e7cf15d64"
+    },
+    "@the_feature@ briefly shows strange яркий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "bc5e983ab6d5b66ee5f6d007e803a6736191729bed927e7f12a50548a30ca1d8"
+    },
+    "@the_feature@ briefly shows bizarre яркий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "773846d338761a5f6567a55584377701c650af1de2e5f6965339c10e7cf15d64"
+    },
+    "@the_feature@ briefly shows strange brilliant figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "2adda2e53b10d702ea2a875791e39688704500eaf7dc980e6de5797512a7822e"
+    },
+    "@the_feature@ briefly shows bizarre brilliant buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "9025cafd1138dede5b54d8a0f66cc67692440a378865a01143905ce2f305ceaf"
+    },
+    "@the_feature@ briefly shows strange ослепительный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "2adda2e53b10d702ea2a875791e39688704500eaf7dc980e6de5797512a7822e"
+    },
+    "@the_feature@ briefly shows bizarre ослепительный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "9025cafd1138dede5b54d8a0f66cc67692440a378865a01143905ce2f305ceaf"
+    },
+    "@the_feature@ briefly shows strange dark figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "328e6e0032fee5a5f9c9f370df313d7f5804e6e0fa154a1608cd21c4c3402526"
+    },
+    "@the_feature@ briefly shows bizarre dark buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e3aa6b0cbe94cf587362cc7222bdd896f11cffd3d9258b1f39fb5d519d43441f"
+    },
+    "@the_feature@ briefly shows strange тёмный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "328e6e0032fee5a5f9c9f370df313d7f5804e6e0fa154a1608cd21c4c3402526"
+    },
+    "@the_feature@ briefly shows bizarre тёмный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e3aa6b0cbe94cf587362cc7222bdd896f11cffd3d9258b1f39fb5d519d43441f"
+    },
+    "@the_feature@ briefly shows strange deep figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0292ac3ed5208cec54578d5233dca51ae31d40fa4e94d3ca69df41d2c374ecce"
+    },
+    "@the_feature@ briefly shows bizarre deep buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "a8fe89a8c467a090786a68c1fd8039b0be2799c3213bc1086c421692edafdf3d"
+    },
+    "@the_feature@ briefly shows strange глубокий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0292ac3ed5208cec54578d5233dca51ae31d40fa4e94d3ca69df41d2c374ecce"
+    },
+    "@the_feature@ briefly shows bizarre глубокий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "a8fe89a8c467a090786a68c1fd8039b0be2799c3213bc1086c421692edafdf3d"
+    },
+    "@the_feature@ briefly shows strange dull figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "c38b6286604a09896d7dece0b20b91acdd1fe601204634eb19595bb8171ede46"
+    },
+    "@the_feature@ briefly shows bizarre dull buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0b59c490c61dfe4f0d7dbc06af8decf7e7751c950ae71196d6e2791022926c25"
+    },
+    "@the_feature@ briefly shows strange тусклый figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "c38b6286604a09896d7dece0b20b91acdd1fe601204634eb19595bb8171ede46"
+    },
+    "@the_feature@ briefly shows bizarre тусклый buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0b59c490c61dfe4f0d7dbc06af8decf7e7751c950ae71196d6e2791022926c25"
+    },
+    "@the_feature@ briefly shows strange dusky figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "de2601c3f2b3e4f34a3703d46329cecabb214074cdd31802192d67a4cf74267d"
+    },
+    "@the_feature@ briefly shows bizarre dusky buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "688cc218d16848f7db1ae31e1ad3dd576bcde9a4cf96911092e928dab1911234"
+    },
+    "@the_feature@ briefly shows strange сумрачный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "de2601c3f2b3e4f34a3703d46329cecabb214074cdd31802192d67a4cf74267d"
+    },
+    "@the_feature@ briefly shows bizarre сумрачный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "688cc218d16848f7db1ae31e1ad3dd576bcde9a4cf96911092e928dab1911234"
+    },
+    "@the_feature@ briefly shows strange faint figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "5662f8d47a37f28eaa84b194443e8fc3c4bb545b7e05d79e483f2d5edc48c1d9"
+    },
+    "@the_feature@ briefly shows bizarre faint buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6540e98ed4021bfa0b22c6b8a9d9d0cb9ad9874a831d4cef8d8321c964777447"
+    },
+    "@the_feature@ briefly shows strange блёклый figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "5662f8d47a37f28eaa84b194443e8fc3c4bb545b7e05d79e483f2d5edc48c1d9"
+    },
+    "@the_feature@ briefly shows bizarre блёклый buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6540e98ed4021bfa0b22c6b8a9d9d0cb9ad9874a831d4cef8d8321c964777447"
+    },
+    "@the_feature@ briefly shows strange gleaming figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "7aca6377c3b29598bba992f69e27a35a2d74f64c10092f5482701ab2ac315294"
+    },
+    "@the_feature@ briefly shows bizarre gleaming buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6002d122c3c39b39c701886872993e809f74a162fd2b7f0d92407be0dbfa5da3"
+    },
+    "@the_feature@ briefly shows strange блестящий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "7aca6377c3b29598bba992f69e27a35a2d74f64c10092f5482701ab2ac315294"
+    },
+    "@the_feature@ briefly shows bizarre блестящий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6002d122c3c39b39c701886872993e809f74a162fd2b7f0d92407be0dbfa5da3"
+    },
+    "@the_feature@ briefly shows strange glossy figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "60c0dd5ce80ee22ea80519c2ac74d019fca630a2f998affc216424c5a40a307d"
+    },
+    "@the_feature@ briefly shows bizarre glossy buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "66f26ca066dde6a76905907a7cec7554691140743054d8ed981e5b0eb80d875a"
+    },
+    "@the_feature@ briefly shows strange глянцевый figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "60c0dd5ce80ee22ea80519c2ac74d019fca630a2f998affc216424c5a40a307d"
+    },
+    "@the_feature@ briefly shows bizarre глянцевый buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "66f26ca066dde6a76905907a7cec7554691140743054d8ed981e5b0eb80d875a"
+    },
+    "@the_feature@ briefly shows strange intense figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0292ac3ed5208cec54578d5233dca51ae31d40fa4e94d3ca69df41d2c374ecce"
+    },
+    "@the_feature@ briefly shows bizarre intense buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "a8fe89a8c467a090786a68c1fd8039b0be2799c3213bc1086c421692edafdf3d"
+    },
+    "@the_feature@ briefly shows strange насыщенный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0292ac3ed5208cec54578d5233dca51ae31d40fa4e94d3ca69df41d2c374ecce"
+    },
+    "@the_feature@ briefly shows bizarre насыщенный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "a8fe89a8c467a090786a68c1fd8039b0be2799c3213bc1086c421692edafdf3d"
+    },
+    "@the_feature@ briefly shows strange luminous figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e39e0e7a5a7b852c20f388d2eace95a4765b6a2e10ab9a134c4896b3222dc818"
+    },
+    "@the_feature@ briefly shows bizarre luminous buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "32bfa508bb71e61652aad4c8c16e94a4e3df3a5bd9086152789ae1652c35e8ae"
+    },
+    "@the_feature@ briefly shows strange светящийся figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e39e0e7a5a7b852c20f388d2eace95a4765b6a2e10ab9a134c4896b3222dc818"
+    },
+    "@the_feature@ briefly shows bizarre светящийся buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "32bfa508bb71e61652aad4c8c16e94a4e3df3a5bd9086152789ae1652c35e8ae"
+    },
+    "@the_feature@ briefly shows strange lurid figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "4b5f131f3190aa70c0488ed238e50b0f565300f0b6551916b9dd8fbd9bf9e51f"
+    },
+    "@the_feature@ briefly shows bizarre lurid buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "8b21bad3f646d15b14569d72c0f6c53c467a1b5b0037d6a2d607ddeffad765b2"
+    },
+    "@the_feature@ briefly shows strange кричащий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "4b5f131f3190aa70c0488ed238e50b0f565300f0b6551916b9dd8fbd9bf9e51f"
+    },
+    "@the_feature@ briefly shows bizarre кричащий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "8b21bad3f646d15b14569d72c0f6c53c467a1b5b0037d6a2d607ddeffad765b2"
+    },
+    "@the_feature@ briefly shows strange lustrous figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "7aca6377c3b29598bba992f69e27a35a2d74f64c10092f5482701ab2ac315294"
+    },
+    "@the_feature@ briefly shows bizarre lustrous buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6002d122c3c39b39c701886872993e809f74a162fd2b7f0d92407be0dbfa5da3"
+    },
+    "@the_feature@ briefly shows strange переливчатый figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "7aca6377c3b29598bba992f69e27a35a2d74f64c10092f5482701ab2ac315294"
+    },
+    "@the_feature@ briefly shows bizarre переливчатый buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "6002d122c3c39b39c701886872993e809f74a162fd2b7f0d92407be0dbfa5da3"
+    },
+    "@the_feature@ briefly shows strange mottled figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "01c0c8c176fb2438a6ece42550275b02cb74fe630af5fe518262ca68d7745763"
+    },
+    "@the_feature@ briefly shows bizarre mottled buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "537fbfeb2fc24cfdc7ed2db3086c11987b6bf8955745ff8891174eb3886a78ea"
+    },
+    "@the_feature@ briefly shows strange пёстрый figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "01c0c8c176fb2438a6ece42550275b02cb74fe630af5fe518262ca68d7745763"
+    },
+    "@the_feature@ briefly shows bizarre пёстрый buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "537fbfeb2fc24cfdc7ed2db3086c11987b6bf8955745ff8891174eb3886a78ea"
+    },
+    "@the_feature@ briefly shows strange murky figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "1647abc9bee07dad1340ca2c066c9b9a42f9e0ead8ab040e7bcf8e8905f92b57"
+    },
+    "@the_feature@ briefly shows bizarre murky buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e2849df7d3e2e60b912e76e90474053df9676b9613eb772bbc36e23b4956fa9f"
+    },
+    "@the_feature@ briefly shows strange мутный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "1647abc9bee07dad1340ca2c066c9b9a42f9e0ead8ab040e7bcf8e8905f92b57"
+    },
+    "@the_feature@ briefly shows bizarre мутный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e2849df7d3e2e60b912e76e90474053df9676b9613eb772bbc36e23b4956fa9f"
+    },
+    "@the_feature@ briefly shows strange pale figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e5c2d039111266fafd8034c7fea90f9cdda3efec3bf3d409e151f95ae3e4b03d"
+    },
+    "@the_feature@ briefly shows bizarre pale buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "dc9fd82f3f9c74ad9c57b805934e9a45601f1a7d06429101c82399a896e3bbe5"
+    },
+    "@the_feature@ briefly shows strange бледный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "e5c2d039111266fafd8034c7fea90f9cdda3efec3bf3d409e151f95ae3e4b03d"
+    },
+    "@the_feature@ briefly shows bizarre бледный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "dc9fd82f3f9c74ad9c57b805934e9a45601f1a7d06429101c82399a896e3bbe5"
+    },
+    "@the_feature@ briefly shows strange shimmering figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "1bf0be6be4e80c4f8afd51547af8ea5b4ef18a35d8f39770de790c086074f416"
+    },
+    "@the_feature@ briefly shows bizarre shimmering buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0877dedd5841b474faa7bb08e7d1baa19369ebfe51da76c10f4550f8f22c1f0f"
+    },
+    "@the_feature@ briefly shows strange мерцающий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "1bf0be6be4e80c4f8afd51547af8ea5b4ef18a35d8f39770de790c086074f416"
+    },
+    "@the_feature@ briefly shows bizarre мерцающий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "0877dedd5841b474faa7bb08e7d1baa19369ebfe51da76c10f4550f8f22c1f0f"
+    },
+    "@the_feature@ briefly shows strange shining figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "33291ddb9aca8200844f06f38470fe6d834c81bfcb3aa6756bb27b9c8f425cda"
+    },
+    "@the_feature@ briefly shows bizarre shining buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "43fad77a3f980684b77d99b5b21de47458c9c51dd9ec1bd115f0e1262b60ef27"
+    },
+    "@the_feature@ briefly shows strange сияющий figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "33291ddb9aca8200844f06f38470fe6d834c81bfcb3aa6756bb27b9c8f425cda"
+    },
+    "@the_feature@ briefly shows bizarre сияющий buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "43fad77a3f980684b77d99b5b21de47458c9c51dd9ec1bd115f0e1262b60ef27"
+    },
+    "@the_feature@ briefly shows strange vivid figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "bc5e983ab6d5b66ee5f6d007e803a6736191729bed927e7f12a50548a30ca1d8"
+    },
+    "@the_feature@ briefly shows bizarre vivid buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "773846d338761a5f6567a55584377701c650af1de2e5f6965339c10e7cf15d64"
+    },
+    "@the_feature@ briefly shows strange сочный figures on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "bc5e983ab6d5b66ee5f6d007e803a6736191729bed927e7f12a50548a30ca1d8"
+    },
+    "@the_feature@ briefly shows bizarre сочный buildings on the other side.": {
+      "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
+      "translation_sha256": "773846d338761a5f6567a55584377701c650af1de2e5f6965339c10e7cf15d64"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

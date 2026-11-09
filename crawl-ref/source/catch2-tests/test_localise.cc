@@ -319,6 +319,14 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Ядовитые испарения окутывают орка");
     CHECK(localise("Hit by a stone thrown by the orc")
           == "Погиб от попадания предмета «камень», брошенного орком");
+    // Random colour leaves are translated by the recursive speech database;
+    // the surrounding English template must still decline the actor's name.
+    const string random_colour = getSpeakString("any_colour");
+    REQUIRE_FALSE(random_colour.empty());
+    CHECK(random_colour.find_first_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+          == string::npos);
+    CHECK(localise("Waves of " + random_colour + " light ripple over the orc's body")
+          == "По телу орка пробегают волны света оттенка «" + random_colour + "»");
     CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
     CHECK(localise("Your soul already belongs to Yredelemnul.")
           == "Ваша душа уже принадлежит Йредэлемнулу.");
