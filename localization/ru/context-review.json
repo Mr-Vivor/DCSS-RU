@@ -62689,6 +62689,18 @@
     "{acc_many}@num@ empty mutation catalysts": {
       "context": "movement.cc portal, impassable terrain, solar ember heal and ENCH_EXPOSED; monster.cc exposed lowers Will and increases non-attack, non-poison damage. stairs.cc Gulch gives three temporary mutations OR max-HP drain to undead; Jiyva ooze stairs apply DUR_OOZE_REGEN, affecting HP and MP in player.cc. travel.cc discoveries and auto-pickup ignore prompts; english.cc numbers remain digits during localisation. Service keys, notes and level identifiers unchanged.",
       "translation_sha256": "5b5769ba6eff6f2f7bfa742cc3c20db769a5a1963a4218cfd388b3038b00ca7a"
+    },
+    "can't reach some items": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "cda78b6e6ca071721f7d43bf2f7d0cc637d08296053ed0f941fb76da9920b6eb"
+    },
+    "can't reach some places": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "f39c35543b89d6d84a651f8810cc4422d3cb651078aa81cc9e08bc1355c3f281"
+    },
+    "can't reach some items and places": {
+      "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
+      "translation_sha256": "25d58efc0e6a68dcb9fbef2781a8cfb8771da2fa52f5095684278f7e440c11bd"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
