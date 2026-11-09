@@ -14046,7 +14046,7 @@ Your demonic guardian avoids your attack.
 %%%%
 @Arg@'s wounds heal themselves!
 
-Раны существа «@Arg@» заживают сами собой!
+Раны {gen}@arg@ заживают сами собой!
 %%%%
 @Arg@ is healed somewhat.
 
@@ -17070,7 +17070,7 @@ A root barely touches you from below.
 %%%%
 A tree reaches out and scrapes @foe@.
 
-Дерево тянется к {dat}@foe@ и царапает его.
+Дерево царапает {acc}@foe@ вытянутой ветвью.
 %%%%
 A root barely touches @foe@ from below.
 
@@ -47658,7 +47658,7 @@ Your fire resistance burns away!
 %%%%
 A fragment of @arg@ soul is dislodged from his body.
 
-Частица души {nom}@arg@ вырывается из тела.
+Частица души {gen}@arg@ вырывается из тела.
 %%%%
 @Arg@ is pinned to her own shadow.
 
@@ -47674,7 +47674,7 @@ A fragment of @arg@ soul is dislodged from his body.
 %%%%
 A fragment of @arg@ soul is dislodged from her body.
 
-Частица души {nom}@arg@ вырывается из тела.
+Частица души {gen}@arg@ вырывается из тела.
 %%%%
 @Arg@ is pinned to its own shadow.
 
@@ -47690,7 +47690,7 @@ A fragment of @arg@ soul is dislodged from her body.
 %%%%
 A fragment of @arg@ soul is dislodged from its body.
 
-Частица души {nom}@arg@ вырывается из тела.
+Частица души {gen}@arg@ вырывается из тела.
 %%%%
 @Arg@ is pinned to their own shadow.
 
@@ -47706,7 +47706,7 @@ A fragment of @arg@ soul is dislodged from its body.
 %%%%
 A fragment of @arg@ soul is dislodged from their body.
 
-Частица души {nom}@arg@ вырывается из тела.
+Частица души {gen}@arg@ вырывается из тела.
 %%%%
 @Arg@ draws nearby shadows into himself.
 
@@ -47870,7 +47870,7 @@ The ward upon @arg@ fades away.
 %%%%
 @Arg@ is no longer haunted by guilt.
 
-Чувство вины больше не преследует {acc}@Arg@.
+Чувство вины больше не мучает {acc}@arg@.
 %%%%
 @Arg@ recovers from rimeblight.
 
@@ -49822,7 +49822,7 @@ A giggling sprite leaps out and plays with @arg@.
 %%%%
 A giggling sprite leaps out and bonks @arg1@ with his @arg2@.
 
-Хихикающий дух выскакивает и колотит {acc}@arg1@ собственным оружием жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и колотит {acc}@arg1@ оружием самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and makes @arg1@ trip over his own @arg2@.
 
@@ -49830,11 +49830,11 @@ A giggling sprite leaps out and makes @arg1@ trip over his own @arg2@.
 %%%%
 A giggling sprite leaps out and smacks @arg1@ with his own @arg2@.
 
-Хихикающий дух выскакивает и бьёт {acc}@arg1@ собственной конечностью жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и бьёт {acc}@arg1@ конечностью самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and bonks @arg1@ with her @arg2@.
 
-Хихикающий дух выскакивает и колотит {acc}@arg1@ собственным оружием жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и колотит {acc}@arg1@ оружием самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and makes @arg1@ trip over her own @arg2@.
 
@@ -49842,11 +49842,11 @@ A giggling sprite leaps out and makes @arg1@ trip over her own @arg2@.
 %%%%
 A giggling sprite leaps out and smacks @arg1@ with her own @arg2@.
 
-Хихикающий дух выскакивает и бьёт {acc}@arg1@ собственной конечностью жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и бьёт {acc}@arg1@ конечностью самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and bonks @arg1@ with its @arg2@.
 
-Хихикающий дух выскакивает и колотит {acc}@arg1@ собственным оружием жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и колотит {acc}@arg1@ оружием самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and makes @arg1@ trip over its own @arg2@.
 
@@ -49854,11 +49854,11 @@ A giggling sprite leaps out and makes @arg1@ trip over its own @arg2@.
 %%%%
 A giggling sprite leaps out and smacks @arg1@ with its own @arg2@.
 
-Хихикающий дух выскакивает и бьёт {acc}@arg1@ собственной конечностью жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и бьёт {acc}@arg1@ конечностью самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and bonks @arg1@ with their @arg2@.
 
-Хихикающий дух выскакивает и колотит {acc}@arg1@ собственным оружием жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и колотит {acc}@arg1@ оружием самой жертвы — {ins}@arg2@.
 %%%%
 A giggling sprite leaps out and makes @arg1@ trip over their own @arg2@.
 
@@ -49866,7 +49866,7 @@ A giggling sprite leaps out and makes @arg1@ trip over their own @arg2@.
 %%%%
 A giggling sprite leaps out and smacks @arg1@ with their own @arg2@.
 
-Хихикающий дух выскакивает и бьёт {acc}@arg1@ собственной конечностью жертвы: {ins}@arg2@.
+Хихикающий дух выскакивает и бьёт {acc}@arg1@ конечностью самой жертвы — {ins}@arg2@.
 %%%%
 You challenge @arg@ to single combat, but they are merely a clone!
 
@@ -63011,3 +63011,203 @@ Your catalyst becomes inert.
 You are blinded by the light of something's divine shield.
 
 Свет Божественного щита незримого противника ослепляет вас.
+%%%%
+You feel your willpower being sapped.
+
+Вы чувствуете, как слабеет ваша Воля.
+%%%%
+The roots grab @target@!
+
+Корни хватают {acc}@target@!
+%%%%
+Zombie hands grab @target@ from below!
+
+Руки мертвецов хватают {acc}@target@ снизу!
+%%%%
+The roots grab you!
+
+Корни хватают вас!
+%%%%
+Zombie hands grab you from below!
+
+Руки мертвецов хватают вас снизу!
+%%%%
+You jump in place.
+
+Вы подпрыгиваете на месте.
+%%%%
+A tiny devil pulls itself out of the air.
+
+Крошечный бес выбирается из воздуха.
+%%%%
+Somewhere, a butterfly flaps its wings.
+
+Где-то бабочка взмахивает крыльями.
+%%%%
+You hear the flapping of tiny wings.
+
+Вы слышите трепет крошечных крыльев.
+%%%%
+You sigh wistfully at the memory of the taste.
+
+Вы с тоской вздыхаете, вспоминая этот вкус.
+%%%%
+@Block@ fragments into a salvo of icicles!
+
+{nom}@Block@ разлетается залпом сосулек!
+%%%%
+A crocodile bursts forth beneath @caster@ and grabs @target@ in its jaws!
+
+Из-под {gen}@caster@ вырывается крокодил и хватает {acc}@target@ челюстями!
+%%%%
+A crocodile bursts forth beneath you and grabs @target@ in its jaws!
+
+Из-под вас вырывается крокодил и хватает {acc}@target@ челюстями!
+%%%%
+A crocodile bursts forth beneath @caster@ and grabs you in its jaws!
+
+Из-под {gen}@caster@ вырывается крокодил и хватает вас челюстями!
+%%%%
+You dismount your crocodile.
+
+Вы спешиваетесь с крокодила.
+%%%%
+A fragment of your soul is dislodged from your body.
+
+Частица вашей души вырывается из тела.
+%%%%
+@Arg@ is haunted by guilt!
+
+Чувство вины мучает {acc}@arg@!
+%%%%
+@target@' wounds heal themselves!
+
+Раны {gen}@target@ заживают сами собой!
+%%%%
+@Rider@ dismounts his crocodile.
+
+{nom}@Rider@ спешивается с крокодила.
+%%%%
+A fragment of @victim@'s soul is dislodged from his body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+A fragment of @victim@' soul is dislodged from his body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+@Rider@ dismounts her crocodile.
+
+{nom}@Rider@ спешивается с крокодила.
+%%%%
+A fragment of @victim@'s soul is dislodged from her body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+A fragment of @victim@' soul is dislodged from her body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+@Rider@ dismounts its crocodile.
+
+{nom}@Rider@ спешивается с крокодила.
+%%%%
+A fragment of @victim@'s soul is dislodged from its body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+A fragment of @victim@' soul is dislodged from its body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+@Rider@ dismounts their crocodile.
+
+{nom}@Rider@ спешивается с крокодила.
+%%%%
+A fragment of @victim@'s soul is dislodged from their body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+A fragment of @victim@' soul is dislodged from their body.
+
+Частица души {gen}@victim@ вырывается из тела.
+%%%%
+A pair of sphinxes answers @caster@'s call!
+
+На зов {gen}@caster@ откликается пара сфинксов!
+%%%%
+@Sphinx@ answers @caster@'s call!
+
+{nom}@Sphinx@ откликается на зов {gen}@caster@!
+%%%%
+A giggling sprite leaps out and ties @victim@'s tail in a knot.
+
+Хихикающий дух выскакивает и завязывает хвост {gen}@victim@ в узел.
+%%%%
+A giggling sprite leaps out and insults @victim@'s ancestors.
+
+Хихикающий дух выскакивает и оскорбляет предков {gen}@victim@.
+%%%%
+A giggling sprite leaps out and doodles on @victim@'s face.
+
+Хихикающий дух выскакивает и разрисовывает лицо {gen}@victim@.
+%%%%
+Your grip on @victim@'s soul is slipping...
+
+Ваша власть над душой {gen}@victim@ ослабевает...
+%%%%
+A pair of sphinxes answers @caster@' call!
+
+На зов {gen}@caster@ откликается пара сфинксов!
+%%%%
+@Sphinx@ answers @caster@' call!
+
+{nom}@Sphinx@ откликается на зов {gen}@caster@!
+%%%%
+A giggling sprite leaps out and ties @victim@' tail in a knot.
+
+Хихикающий дух выскакивает и завязывает хвост {gen}@victim@ в узел.
+%%%%
+A giggling sprite leaps out and insults @victim@' ancestors.
+
+Хихикающий дух выскакивает и оскорбляет предков {gen}@victim@.
+%%%%
+A giggling sprite leaps out and doodles on @victim@' face.
+
+Хихикающий дух выскакивает и разрисовывает лицо {gen}@victim@.
+%%%%
+Your grip on @victim@' soul is slipping...
+
+Ваша власть над душой {gen}@victim@ ослабевает...
+%%%%
+A pair of sphinxes answers his call!
+
+На его зов откликается пара сфинксов!
+%%%%
+@Sphinx@ answers his call!
+
+{nom}@Sphinx@ откликается на его зов!
+%%%%
+A pair of sphinxes answers her call!
+
+На её зов откликается пара сфинксов!
+%%%%
+@Sphinx@ answers her call!
+
+{nom}@Sphinx@ откликается на её зов!
+%%%%
+A pair of sphinxes answers its call!
+
+На его зов откликается пара сфинксов!
+%%%%
+@Sphinx@ answers its call!
+
+{nom}@Sphinx@ откликается на его зов!
+%%%%
+A pair of sphinxes answers their call!
+
+На их зов откликается пара сфинксов!
+%%%%
+@Sphinx@ answers their call!
+
+{nom}@Sphinx@ откликается на их зов!

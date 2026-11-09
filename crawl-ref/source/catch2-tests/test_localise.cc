@@ -316,6 +316,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Ваш платиновый идеал отводит от вас атаку незримого противника.");
     CHECK(localise("The bat fails to defend itself.")
           == "Летучей мыши не удаётся защититься от вашей атаки.");
+    CHECK(localise("The bat's wounds heal themselves!")
+          == "Раны летучей мыши заживают сами собой!");
+    CHECK(localise("A giggling sprite leaps out and ties the naga's tail in a knot.")
+          == "Хихикающий дух выскакивает и завязывает хвост наги в узел.");
+    CHECK(localise("A crocodile bursts forth beneath you and grabs the bat in its jaws!")
+          == "Из-под вас вырывается крокодил и хватает летучую мышь челюстями!");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
           == "Вы сжимаете фигурку многоножки манипулятором. Она обвивается вокруг руки и срастается с вашим телом.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")

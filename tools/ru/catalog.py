@@ -74,7 +74,17 @@ def tokens(text):
 
 def message_syntax_matches(source, target):
     """Allow Russian case instructions; never lose arguments or engine markup."""
-    original, translated = Counter(tokens(source)), Counter(tokens(target))
+    def argument_identity(token):
+        # localise.cc stores captures with lowercase_first(key). The first
+        # letter's case only controls output capitalisation, so a subject
+        # moved into the middle of a Russian sentence may use @arg@ instead
+        # of @Arg@. The rest of the name and its occurrence count stay strict.
+        if re.fullmatch(r"@[A-Za-z][^@\n]*@", token):
+            return token[:1] + token[1].lower() + token[2:]
+        return token
+
+    original = Counter(map(argument_identity, tokens(source)))
+    translated = Counter(map(argument_identity, tokens(target)))
     grammatical = {"{nom}", "{gen}", "{dat}", "{acc}", "{ins}", "{prep}",
                    "{verb-inf}", "{verb-you}"}
     # Recite uses nouns, predicative adjectives and participles with different

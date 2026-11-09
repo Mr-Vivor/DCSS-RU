@@ -156,7 +156,10 @@ class StaticTranslationTests(unittest.TestCase):
         self.assertFalse(message_syntax_matches("<red>@arg@</red>", "{acc}@arg@"))
         self.assertFalse(message_syntax_matches("Hit @arg@.", "Удар {shop}@arg@."))
         self.assertFalse(message_syntax_matches("The @sinners@...", "{zin-sinners-nom}..."))
-        self.assertFalse(message_syntax_matches("Hit @Arg@.", "Удар {acc}@arg@."))
+        self.assertTrue(message_syntax_matches("Hit @Arg@.", "Удар {acc}@arg@."))
+        self.assertFalse(message_syntax_matches("Hit @Arg1@.", "Удар {acc}@arg2@."))
+        self.assertFalse(message_syntax_matches("@Arg@ and @arg@.", "Удар {acc}@arg@."))
+        self.assertFalse(message_syntax_matches("Hit @ArgName@.", "Удар {acc}@argname@."))
 
     def test_current_duration_hud_labels_are_covered(self):
         # Check the current engine, not just the older imported English catalog.
