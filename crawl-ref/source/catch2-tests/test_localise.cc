@@ -677,7 +677,7 @@ TEST_CASE("Russian navigation and multi-turn actions keep their meaning", "[loca
     CHECK(localise("Partly explored, can't reach some items and places.")
           == "Этаж исследован частично: некоторые предметы и места недоступны.");
     CHECK(localise("Could not pick up a dagger here; Ignore it?")
-          == "Здесь не удалось подобрать: кинжал. Игнорировать этот предмет?");
+          == "Здесь не удалось подобрать кинжал. Игнорировать этот предмет при автоподборе?");
     CHECK(localise("Calm down first, please.")
           == "Сначала дождитесь окончания ярости берсерка.");
     CHECK(localise("You start attuning to your weapon.")

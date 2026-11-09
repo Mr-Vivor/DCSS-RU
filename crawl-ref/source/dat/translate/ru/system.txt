@@ -5992,14 +5992,6 @@ unvisited transporter
 
 непосещённый транспортёр
 %%%%
-can't reach some items
-
-не удаётся добраться до части предметов
-%%%%
-can't reach some places
-
-остались недоступные области
-%%%%
 Partly explored, @arg@.
 
 Этаж исследован частично: @arg@.
@@ -32427,10 +32419,6 @@ It is a two-tendriled weapon.
 Done exploring.
 
 Исследование завершено.
-%%%%
-can't reach some items and places
-
-часть предметов и областей недоступна
 %%%%
 Could not pick up @arg@ here; Ignore it?
 
