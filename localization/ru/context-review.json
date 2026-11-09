@@ -296,8 +296,8 @@
       "translation_sha256": "69a0ec450db05599da05fddc7801cbd69b1078dc3c61123519ee857249ff245e"
     },
     " This could place you under penance!": {
-      "context": "invent.cc",
-      "translation_sha256": "acce7ff418d8e50a8cb47eaa5f2cbd2b3c7daaa7b953f1a62621baea842d2845"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "eaa976323d6b4af6eebab586441722a2f29ec2fa5b0d9ca6530d0a4e76711f35"
     },
     "Really wield @arg@?": {
       "context": "invent.cc",
@@ -352,8 +352,8 @@
       "translation_sha256": "11f4cefb1e3656286d8e3f6a0a1ace22d182ba6932328fde3196b18e1b302fef"
     },
     " This could place you under penance AND you're about to teleport!": {
-      "context": "invent.cc",
-      "translation_sha256": "d62a279f9d07001b0af7d3753f59f943d4db1196ca733864436dde366e1dfedc"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "3eac5ddb6722245d984efbe7bbb8582010526ae6cba17f5e522654a8d0eec83e"
     },
     " You're about to teleport!": {
       "context": "invent.cc",
@@ -460,12 +460,12 @@
       "translation_sha256": "6148aa324e8c366e657973ed47f2e91a4d28fa88bb4b72b718b6fd8d168f64c8"
     },
     "Your wings won't fit in that.": {
-      "context": "item-use.cc",
-      "translation_sha256": "004c7303ab8807fd3fe6be8b773424937f017973a192d4fda7c9d1ec954f7d91"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "abab76df254ab961313315cec1db02ae67fab48b8cf4944e67ddd1ee9a04319a"
     },
     "Your wings, even vestigial as they are, won't fit in that.": {
-      "context": "item-use.cc",
-      "translation_sha256": "16f83d9cd09df316a4710a30bef77aee227b8d95c2d9b37f7d2d7d49bfec43d7"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "613e26440a0dc14cad4d97ade2ff0aa3bb0dbcc409f6fc63b284f43feb41f9df"
     },
     "You need the rest of your tentacles for walking.": {
       "context": "item-use.cc",
@@ -668,8 +668,8 @@
       "translation_sha256": "251964508525a1144fea2fa7617515d54bf8b41c99a405f2bae17009b0af4e43"
     },
     "You're already wearing @num@ cursed rings! Isn't that enough for you?": {
-      "context": "item-use.cc",
-      "translation_sha256": "662b7ce298941089f00009880619805a5b32ba0858d23d807b209a0e3d93878c"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "b2a325e68add01f10ffc07d7dbfca68ea7733cdf261971649c6ba2ef713ac709"
     },
     "Put ring where? (<w>Esc</w> to cancel)": {
       "context": "item-use.cc",
@@ -716,8 +716,8 @@
       "translation_sha256": "77a363ce5ba023d3a1b5894ae1772e677e0e61f361750bbf5f92ee2279c79d22"
     },
     "You aren't wearing any unmelded rings or amulets.": {
-      "context": "item-use.cc",
-      "translation_sha256": "863cf4f2a4f84a2ced9f70439a29e8307a60171438ccc0b788f96f943f49d83c"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "34bb627cbe59174fc03b3aef615c50c3b33ec1eed0dc4856b36078c9b351049c"
     },
     "You aren't wearing any rings or amulets.": {
       "context": "item-use.cc",
@@ -776,56 +776,56 @@
       "translation_sha256": "a951cd42688e2409a4f729fa37ebbfb5775f5f3f6c98503a523d72b9c3d3ffc0"
     },
     " This action would place you under penance!": {
-      "context": "item-use.cc",
-      "translation_sha256": "065e33111c0ae1f6f295bfce015cb400a88b9b3315a7392b75bc3830944f2351"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "6dd1b83e3c0b3dcea916f4cef2ad7566a3aec47c945c0b63c473fd31842d227a"
     },
     "@Arg@ petitions for your drink to fail.": {
       "context": "item-use.cc",
       "translation_sha256": "837e772043a2a9d60aab1746d775603f75a614e6baa3524dac93363baffdab82"
     },
     "@Arg@ emits a brilliant flash of light!": {
-      "context": "item-use.cc",
-      "translation_sha256": "03c19ba499e9f187d0d881d6a9114734d9c4a3e445583bacf194e456f04e9db0"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "0d2a4e6ab23c8063dc56c7f4764251a810febf9801cd817d4c86000109e3e07c"
     },
     "@Arg@ projects an invisible shield of force!": {
-      "context": "item-use.cc",
-      "translation_sha256": "3dd4f16468a5b2ae48284b684f0daa9aa503bdc7af27d36811fa4a0f9316e38e"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "ae37f2c8a1fe7cd7d6535db1948140635dbf9808d7fe8903eba74aa1d0590fe4"
     },
     "@Arg@ is engulfed in flames!": {
-      "context": "item-use.cc",
-      "translation_sha256": "d0ac0a7f9ece9b577df9f10c4f798b400b107f47e3500033cf4e2941ef5a19a7"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "808587456aab5174277426abe61f79f405a255c884af18f8e5c8cfe37d1385b6"
     },
     "@Arg@ is covered with a thin layer of ice!": {
-      "context": "item-use.cc",
-      "translation_sha256": "3b2b8ea5ab6e811db7757a5b80076669d733fd3179a4f8109db947e15aa1a949"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "53ca55972581562b370c26d87ee8ff00a9a268e6a9ef4a1fa8a5ddda3517f085"
     },
     "@Arg@ craves living souls!": {
-      "context": "item-use.cc",
-      "translation_sha256": "9e2c21d0b7767839bacc23dfca24504087387c2c4cc22e8692560e5f8565ea75"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "0b0bc9697a12186c01120e3350b5989e7a3507450d1a6b5d3606a4fb9106732b"
     },
     "@Arg@ thirsts for the lives of mortals!": {
-      "context": "item-use.cc",
-      "translation_sha256": "88d43112cef3edab3a9f360162fc9733c53389e34b85cc21a970aaf174f9175c"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "73f95d44fdb0e43a4ead809ed8074583356fbf2ab533326cfbc8382ddad51258"
     },
     "@Arg@ drips with poison.": {
-      "context": "item-use.cc",
-      "translation_sha256": "f49a8979a47360d4f2196985e3d6c89a4271fe2e5cca01215d4803dd66a4211f"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "00ceba9a288c22d9104a59e940cf727d6cf2dc4c336c7d54943494eccb69d745"
     },
     "@Arg@ crackles with electricity.": {
-      "context": "item-use.cc",
-      "translation_sha256": "fa7796c66eb91e371834a4b50e46073971967e64eaac59339f84b51707fc4c1e"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "364bda84a311f0dbfd0307012c2500ee0debe84a33651027ea3756f3c2e72bef"
     },
     "@Arg@ erupts in a glittering mayhem of colour.": {
-      "context": "item-use.cc",
-      "translation_sha256": "8cd1b9612b5211ef644ef79cf0a1ee4cb1dce10968f6447b6c0859890107455d"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "8f65e7a35853c4da80d0ee120f5f12aabd1ae358b842d8f68807c2bd93294ecd"
     },
     "@Arg@ oozes corrosive slime.": {
-      "context": "item-use.cc",
-      "translation_sha256": "6696fb2daf576d404c402108e85bb02d8795849d856d183f35bdecf0d34428b2"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "6b83e858856f14f66bf34047e319143d486c6947de2dd165491b048013c296df"
     },
     "@Arg@ acquires a faint afterimage.": {
-      "context": "item-use.cc",
-      "translation_sha256": "1afc937b96021be0af97f37876c4e95cbbe8a456e22f4839b6451d5eaa84167a"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "3e5c2b37739c214e3b56994b3355944dde2dca6a4a3934c580a6b1acb9ed714e"
     },
     "Really abort (and waste the scroll)?": {
       "context": "item-use.cc/invent.cc/throw.cc: real item-selection UI and handling warnings, loss of flight, interrupted teleport, bound/summoned/fragile item destruction, enchant/brand feedback and talisman prerequisites. Translate before variable substitution; retain command letters and inscriptions; raw item names/operation IDs unchanged.",
@@ -836,20 +836,20 @@
       "translation_sha256": "e1385c4fd005827f8f59d7f0e86bd8e75744393e2b4019db607399886c8bc30f"
     },
     "@Arg@ glows red for a moment.": {
-      "context": "item-use.cc",
-      "translation_sha256": "dbd84dfab3872042867de90918ff5b20b075eab5e5f644765a64c1831555c903"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "4894c3869fc2eeb2d32a5106aed890d44ec89aa10bc6a9dab28eebc10ec7ef92"
     },
     "Identify which item? (\\ to view known items)": {
       "context": "item-use.cc",
       "translation_sha256": "e4a23ffd22323ab20898e4e2735cb20c0a61792ef68fa2e93cf90760e8936119"
     },
     "@Arg@ glow green for a moment.": {
-      "context": "item-use.cc",
-      "translation_sha256": "c91362af4d85d59b5323749f54c05caa0edf38ce82934e9f07f398790d4ac566"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "76db54ae2aa66a091b2f5d93cb07f81d597defdb6981b1cdf7affae5c7fe72f2"
     },
     "@Arg@ glows green for a moment.": {
-      "context": "item-use.cc",
-      "translation_sha256": "206cd17618b765b21bc04924b8713d533babaa67790618e4aeb7013feb45da10"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "5f3bf76b6de2ff7791bcb9cdf5f0be0c3367b38d4f219d3ce93f08a0bacb49d3"
     },
     "Enchant which item?": {
       "context": "item-use.cc",
@@ -888,8 +888,8 @@
       "translation_sha256": "134e88f2fee718b33d71d1fa040b176b64203143628886f96ae5966db65fb203"
     },
     "infinite will": {
-      "context": "item-use.cc",
-      "translation_sha256": "31d69ba3f7a187de7cb606aaf650b9a005daea731299838b85b8b42009c707c6"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "6483ba97975d24da19cc89f6b58201d849327bddea7c4dfbaab7982a40dd9cf2"
     },
     "susceptible": {
       "context": "item-use.cc",
@@ -904,8 +904,8 @@
       "translation_sha256": "45e9f79c095c289cd7ac17f5ba649159bd8c0228ddb2af7304133a2651520e82"
     },
     "read @arg@": {
-      "context": "item-use.cc",
-      "translation_sha256": "b11deb86d2d131faa09c32630cfdd957d2e1e02f5aaf9e16052b5bf78fb4f1f4"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "e43237021e7baf05bfc49aea8880664b64c9bdfa1ee02dd2b3cbe6a6e8c7bccd"
     },
     " And you can't even see any enemies this would affect!": {
       "context": "item-use.cc",
@@ -916,8 +916,8 @@
       "translation_sha256": "2a132f5ef5471cb23a95ea7299c8f34060ad700dcddaf7e4e65db93b34b656d9"
     },
     "You can't see any enemies this would affect, really read @arg@?": {
-      "context": "item-use.cc",
-      "translation_sha256": "be8b5d01e32fe81fd2bfeb273309dd3c3e96df3b4b4b6979eb66ff016cd5e134"
+      "context": "item-use.cc: equipment checks, weapon branding, reading scrolls; Russian subject is the named item, not a postposed label",
+      "translation_sha256": "40235f0e171608205229e1539c20c61fa13dd03ff07efb745278a8739e3f10cb"
     },
     "You almost manage to decipher the scroll, but fail in this attempt.": {
       "context": "item-use.cc",
@@ -2100,8 +2100,8 @@
       "translation_sha256": "8b68af3df6d78b880405f3444c046197e642b8908414c0ccd4ede36168ea75b8"
     },
     "Casting this spell will place you under penance. Really cast?": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "2a76700f9a35386de848714f983608db47f00d869200f1803a67933c4919e3fe"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "f49e4e821a4b183a9ff05bc0cf4f961b9c45ade820011410e520409c893683bb"
     },
     "Your control over your magic is sapped.": {
       "context": "spl-cast.cc",
@@ -6108,8 +6108,8 @@
       "translation_sha256": "e3df6e4adc229b267596cb79edfeee0ea5f647ba228bcb3493473a0d70c4cf9b"
     },
     "@Arg@ will bless one of your weapons.": {
-      "context": "ability.cc",
-      "translation_sha256": "252453b1b2d8c541fdd5a70304c2fec95816e804b993aabe51544cf292e43c15"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "b291203db009409ed197374466c5f5f2e383b77a8c344fa48d089a5b17bf253d"
     },
     "There are no corpses to sacrifice!": {
       "context": "ability.cc",
@@ -6120,8 +6120,8 @@
       "translation_sha256": "5db0461ec9d8d048f3036ffbc32c26a03a576291b741e60668374ee1eec1afbd"
     },
     "@Arg@ will bloody one of your weapons with pain.": {
-      "context": "ability.cc",
-      "translation_sha256": "9cbdcc3db3ea7f192e31ef53bcf7cb14c74d6d152cf9f2fbfcfa07f60f228670"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "ed29eb721a9c85d4cce15a608fa2c3bd6e3ff863b7b1d55a44cf51f1700aace7"
     },
     "Another wave of unholy energy enters you.": {
       "context": "ability.cc",
@@ -6196,16 +6196,16 @@
       "translation_sha256": "ff49db2912d73ffcbaf8f3c25514406a088d0851d6c57fa6c1e3eac30ca7a440"
     },
     "@Arg@ will brand one of your weapons with the corruption of the Abyss.": {
-      "context": "ability.cc",
-      "translation_sha256": "bf26737f7d9ed0e2eccf5ba833d148b2d1634371bac287582067b29ed6e088da"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "7288ef616ec0732369c547fb8ad4626d3689dce2861a90d544bc534cca5b4dce"
     },
     "You stop recalling your allies.": {
       "context": "ability.cc",
       "translation_sha256": "579e4a6eabbf54fbe5043932782440077ca29fc3494e35069f58742715b78ff3"
     },
     "A thick mucus forms on @arg@.": {
-      "context": "ability.cc",
-      "translation_sha256": "abe7e2e1aa5315768434d7fc9e6e71332a822a8f4caf73a3430748f400f57786"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "1533efa378e4e89e680fb39c10a4a4c1cacf36ee0f66cfe672a1e92533c56f2f"
     },
     "You're too exhausted to draw out your power.": {
       "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
@@ -7416,20 +7416,20 @@
       "translation_sha256": "669af36a4cf2bf948089e4fc6a027b3d9bbfde767f29c735f13033d1f24d77af"
     },
     "@Arg@ are blown away by the wind.": {
-      "context": "evoke.cc",
-      "translation_sha256": "9840bc10703bda37bf4fccdc126663cda77ba78427f6c7a8cf4c7a0d99846e01"
+      "context": "evoke.cc: phial, phantom mirror and wind effects; preserve target cases and device recharge meaning",
+      "translation_sha256": "589dae0a843a0277f8cda65a417d64571429013d181551f9201917f28c8f3384"
     },
     "@Arg@ is blown away by the wind.": {
-      "context": "evoke.cc",
-      "translation_sha256": "9840bc10703bda37bf4fccdc126663cda77ba78427f6c7a8cf4c7a0d99846e01"
+      "context": "evoke.cc: phial, phantom mirror and wind effects; preserve target cases and device recharge meaning",
+      "translation_sha256": "589dae0a843a0277f8cda65a417d64571429013d181551f9201917f28c8f3384"
     },
     "The monsters around you are blown away!": {
       "context": "evoke.cc",
       "translation_sha256": "79880b1eecf450a8c8c9339d99dda85a7dc7bf7b4de469be233ec83ca09f918b"
     },
     "Aim the phial where?": {
-      "context": "evoke.cc",
-      "translation_sha256": "090cc5bc84a5c61e5cfaa272c22025fb6e3bfe9883f1bf710f93dec097c7f1d7"
+      "context": "evoke.cc: phial, phantom mirror and wind effects; preserve target cases and device recharge meaning",
+      "translation_sha256": "558d5c022e5de7e4487d34757073690802369d614de05d115abc985679b83fca"
     },
     "Aiming: <white>Phantom Mirror</white>": {
       "context": "evoke.cc",
@@ -7448,8 +7448,8 @@
       "translation_sha256": "9a1b326266d6ac1ccb5db44fc90528a46cad704376befabc0065fbbad96e9e6b"
     },
     "You reflect @arg@ with the mirror!": {
-      "context": "evoke.cc",
-      "translation_sha256": "740f088d89e02940c5828616029b4e7e0d25bf9cdae6beb1a033cdd728318b13"
+      "context": "evoke.cc: phial, phantom mirror and wind effects; preserve target cases and device recharge meaning",
+      "translation_sha256": "3809a6a51fcb3096c4f2c61fc718408ac1a096d0e8a4090da561740a532d9ac7"
     },
     "You can't see anything, release a tremorstone anyway?": {
       "context": "evoke.cc",
@@ -7496,8 +7496,8 @@
       "translation_sha256": "05de82d964aba89cd39f864632ded0af1bffdaba762fdcffdf47f441fab6e3b6"
     },
     "@Arg@ is presently inert.": {
-      "context": "Current cannot_read_item_reason, cannot_drink_item_reason, cannot_evoke_item_reason and potion.cc can_quaff/effect branches. Healing HP is distinct from removing poison/confusion; Deaths Door is a spell, not low HP. Inert XP evokers recharge through experience; Moonshine is useful for Oni drunken attacks. Spell-memory, stasis, temporary renunciation, contamination and potion prerequisites checked in source. Data-only review; item IDs and effect logic unchanged.",
-      "translation_sha256": "89e74d4f76ab73c9ff0d1bd432d19c8f88951bec2848b922fd420fecb567e606"
+      "context": "evoke.cc: phial, phantom mirror and wind effects; preserve target cases and device recharge meaning",
+      "translation_sha256": "111ab9a5db5b8bd423077993a0cd20e49518705c245522a3e797071b111e1370"
     },
     "Evoke which item? (* to show all)": {
       "context": "evoke.cc",
@@ -10284,12 +10284,12 @@
       "translation_sha256": "70a711d6e06606106e25923fbdd7fdaf750bb5296bf46bbc4109b844fe9e39c9"
     },
     "@Arg@ fails to defend against your attack.": {
-      "context": "attack.cc",
-      "translation_sha256": "fbd49d796beca57f7bfce11296b1e60659cff8f3ef05b7ca56eaa4458747128c"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "416fb530a2ae82773d826ff2de770692cb76a5a4d81eb84f9826db4438c5f54b"
     },
     "@Arg@ blocks your attack.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "9dd9dccfd9a27117fa591766daf3e8ba7691c1c0008fe12bde233f782712870e"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "b2f1d1530da37fbf5e2629241d114a21f476c4e4c26bdf42afd33639a4e3b0be"
     },
     "@Arg1@ blocks @arg2@'s attack.": {
       "context": "attack.cc",
@@ -10384,8 +10384,8 @@
       "translation_sha256": "3ce6de7f814a91ceb281b308cf0b2dd9800fe1841d99da39e5de4c8f7e52955c"
     },
     "This could place you under penance!": {
-      "context": "fight.cc",
-      "translation_sha256": "0219981d699ce9eeb1c972ec0de716d8c212c868ad81b73ade56bddae5b4c7de"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "9872afe6593b9dfef3480c22ef8f3936ef2c5542c20e6d844299a57fe395bd75"
     },
     "Really fire at @ally@?@suffix@": {
       "context": "fight.cc",
@@ -10400,8 +10400,8 @@
       "translation_sha256": "a20afa20cafe013d7d1d85ea65c1b5484daa8854f03ce4fd16b9248e7557f9f3"
     },
     "This attack would place you under penance!": {
-      "context": "fight.cc",
-      "translation_sha256": "177cab53ee063afecbfc932de22f49c2a4d2a0cdd949534650866314986c047f"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "3b3a7db419b1394135b995307a2f17b0f1fd81c1fe1e6efb4ec98aae626afeb6"
     },
     "Really @verb@ @ally@?@suffix@": {
       "context": "fight.cc",
@@ -10444,8 +10444,8 @@
       "translation_sha256": "b46a837c7226c8063a525028c15dbbdbcdf17963526a824c96fd1ebf9231fde4"
     },
     "@Arg1@ misses @arg2@.": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "d92870edfca2a43eff143c575aa54d1eaae2701312f35530995857b4eceb9616"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "22da3ae90fd310f39eb3446dc0791ba6bcdb3a01affe77dc085381f4b0da2c67"
     },
     "@Arg1@ closely misses @arg2@.": {
       "context": "melee-attack.cc",
@@ -10588,8 +10588,8 @@
       "translation_sha256": "5a0d1a95a8988b11b3606d4c77a9c978daca97d3ab597dcf0294b26ae42ba48d"
     },
     "You stick @arg@ like a pincushion@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "7264df2e0eca4f797d33e5c0518e39a382cdd2ac3853b5a995d522691928443c"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "c48c828dbf2aaff25e75ec8458d5a4473170c023767b233a1e7d065eedc8d478"
     },
     "You perforate @arg@ like a sieve@punct@": {
       "context": "melee-attack.cc",
@@ -10708,16 +10708,16 @@
       "translation_sha256": "7ab822cd689a450aaba9718244d1054b7ae4dec23721569cb41ebcd44ce917b8"
     },
     "You buffet @arg@@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "6e248c49ce618e3a41f6e94abc23bc1291f52419917e3c80f74dd2d7c83b6e5f"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "a07312bf69b16d5ea0f16517a6c1f1ab5e08a01ece30f742a3f3237faa90add1"
     },
     "You batter @arg@@punct@": {
       "context": "melee-attack.cc",
       "translation_sha256": "1e977fb3a96f699056a8c7a9c30cf947809adccaea81455bed5deed536a8869a"
     },
     "You blast @arg@@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "83692c259171f54b5b12f2f7acc9605103fe29f4a0baaee779a2da767f830ddf"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "445f3ca20a54c7d636b40e8a6d47a929b5a95921c3b81a4c13b6f9fe48897f26"
     },
     "You mangle @arg@@punct@": {
       "context": "melee-attack.cc",
@@ -10824,16 +10824,16 @@
       "translation_sha256": "981eb22c18a67f93a4f28df667987fec0e7687875785f070735983830ea52681"
     },
     "@Arg@ blasts you@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "3e04946eb25cbb1a0597b7c3f7defaad54e26182d44981c9899a3a34fff0887a"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "9e640447376315e9752473e1b86d453a5da4eeb2acfe3a08c79ce506342911e2"
     },
     "@Arg1@ blasts @arg2@@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "0cbc9903db1c32db5283c77db683aa7bb456988f11e2342f3830ef827535a9ba"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "7d21258a8ae3fd071b4a2c02d7ce216b45e7cc79fd1a37885a218225f8985c9f"
     },
     "@Arg@ blasts itself@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "9acad867d5819b86a028316440d6f2345e95b69dccedd8a097d24e449252f985"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "b3537fc0fa054c197208fbbffb910723c997d4c7651223cfba51d6da48a86b50"
     },
     "@Arg@ pokes you@punct@": {
       "context": "melee-attack.cc",
@@ -10884,12 +10884,12 @@
       "translation_sha256": "3b08928f69108434fa4ed1ea212663baef4670a81d8f56ba06a3c0d5e1df1f07"
     },
     "@Arg@ defenestrates you@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "eacb15ed3d2f50e23ff6789dc50630f9782bb82a44fbe16b9e1f85e6cb932c37"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "5463d7701d841adfbb2be0ec370dad79c908e7f2179540eaaadb5138d3c02e46"
     },
     "@Arg1@ defenestrates @arg2@@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "a19604bcb476ff9bcb4033f73691709a8cb900e064acb1d149fde706c505ba86"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "688bd6df3ba1792ada709b983e1b144470c2b0c17aeb050737ffb3a455c46647"
     },
     "@Arg@ sucker-punches you@punct@": {
       "context": "melee-attack.cc",
@@ -10940,12 +10940,12 @@
       "translation_sha256": "674ea54e91707598334402cd83f453d5aa933c838723ce6ff9cd56debabd1032"
     },
     "@Arg@ eye-gouges you@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "cb054798149fd52f66af03875000e184fd38ed02286edded434a423413a6fb7c"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "a02af97a4b4946cc817d092e0dc49ffb60a938b4a5d8aa6c3bc0f6ca9fb7bba5"
     },
     "@Arg1@ eye-gouges @arg2@@punct@": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "fa8d84e5bc4a7b118283e2d09381942248baf8886de4e03199daa9d5ba00ac41"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "7aeb6a51ca83d9994f829339e15d7fb89e5a0fd51e362a55befdb23d10596549"
     },
     "@Arg@ karate-kicks you@punct@": {
       "context": "melee-attack.cc",
@@ -11060,24 +11060,24 @@
       "translation_sha256": "94b43d578c0c63a7fa060372458ecacb2dcb319247ed63ebfa3c626a79282001"
     },
     "@Arg@ drains your magic.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "cad61761deac99f4b6fe316dad36d35ef6d4a65a41232a9ef6c877d9bac8191a"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "247aa1d58391ee3dad30ea5fc06dbc900a7a155586cc809e95986d3521b58cb3"
     },
     "@Arg@ drains your power.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "4a2a7e7590e7d0b0184d828977fdaf5b37b3ad24dd1b2b32ae98c75c8090d6ab"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "0021d5a18b689da82e5f229512c5e5302702b6beb7b46b9796f39e70f8619dc6"
     },
     "@Arg1@ drains @arg2@ magic.": {
       "context": "melee-attack.cc",
       "translation_sha256": "77a5d7883e30364dc13506b64f782daab7e802eb63b7ce86d16d40c899bce820"
     },
     "@Arg1@ drains @arg2@ power.": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "82f271c4aac212205ce6a12106a568f48fcf446e668283102710aa51997fe0c2"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "129e2dd454d60ce5690499801bb7edc2eb4dcfc294e2abcfb28d6b8e61969195"
     },
     "@Arg@ looks very invigorated.": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "a640f38efd4269e5fe3f95abc11f7af318b7bbea140b0419b22b5892418a24f4"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "3f86abd13af509dc2638d02b33034bea757cf656708e50a5e4a4b1cb066b2e49"
     },
     "@Arg@ looks invigorated.": {
       "context": "melee-attack.cc",
@@ -11808,8 +11808,8 @@
       "translation_sha256": "c341432b9a322184bcde3c67e331c11d7743a14adff39fcfcf601f03d02414e7"
     },
     "You pay a tithe of @num@ gold.": {
-      "context": "god-prayer.cc",
-      "translation_sha256": "d7d573abfdb46b5636859ed83be5b5d180efa9c4f2135e82d01aafa56da03ddc"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "bbe8390cf608137714ddb98c303c5d65439199f0bf356ef5fa0619ec941eec4e"
     },
     "@Arg@ ignores your late donation.": {
       "context": "god-prayer.cc",
@@ -13160,8 +13160,8 @@
       "translation_sha256": "2ef66114d904c90e9fb57a04b72bbae5e8311697d70dafabec92b2d25cbc5f8d"
     },
     "Animating this weapon would place you under penance. Really cast this spell?": {
-      "context": "beam.cc",
-      "translation_sha256": "a80ec9ac3768e18cf1f0edb08c973edcdc4079e0b69594404127a49edfe2a2f3"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "ad8b5c7efcb7d9125949ba9c4ac501e0a57ed520e3b53a749cb9498b6f3a9542"
     },
     "@Arg@ appears from out of thin air!": {
       "context": "beam.cc",
@@ -13252,12 +13252,12 @@
       "translation_sha256": "dd1b54050552cdcec812c578d8eff63a65019e08c1c76163808baf2c65324125"
     },
     "@Arg@ is doused terribly!": {
-      "context": "beam.cc",
-      "translation_sha256": "c2dfd2b572daa949f0c854cea7637ac5da19c680f3020caedcf5519eae6c0960"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "94e3f2f84081234969684769d9e35e3d3b9c1ecb6358e249be9e2eedfee63c21"
     },
     "@Arg@ is frozen!": {
-      "context": "beam.cc",
-      "translation_sha256": "5449f6b14be3ceb97ca9ebc0cff8d156feee84e85eec014269598056ad47a1d0"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "fc4e26a84d0aa4df08db634e1f3173a814337e25ce19f6aee8c86a320651b017"
     },
     "@Arg@ is electrocuted!": {
       "context": "beam.cc",
@@ -13376,8 +13376,8 @@
       "translation_sha256": "bc52919b8141bd929ea1d1fbaa6ef0e4a4fb0b6f5f596ac291c5d974b4e41665"
     },
     "@Arg@ is repelled.": {
-      "context": "beam.cc",
-      "translation_sha256": "b849cc914ef9f63263b5fb68954ddfb792da1df0fb6c082f9e0eb590235e69f2"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "74ec7c9026521a34e32e92e58ac2c333528896ee0de9823a0244037adbd57973"
     },
     "Something tries to affect you, but you are unaffected.": {
       "context": "beam.cc current player/monster enchantments, Grave Claw immobilisation, Bolas, Gehenna fire vulnerability, Cocytus movement freezing, Warp Body, rimeblight, abjurable Unravelling and doubled vigour; actor.cc end_constriction/knockback/stumble_away_from/resist_margin_phrase; mon-ench.cc visibility after charm, breath recovery, corrosion and silence. Initial petrification is not full stone; blindness is not invisibility; binding only prevents movement. Sap Magic interferes with casting, not MP. Doubled vigour doubles current and maximum HP, not attack strength. Water-form evaporation is partial, not a death announcement. Names are localised in the required case; fixed actor pronouns avoid gender guessing. No visibility, hidden actor identity, targets, durations, damage, resistances, raw beam names, saves, resources or source attribution changed.",
@@ -13596,16 +13596,16 @@
       "translation_sha256": "4f858c043c34ef16fffc4b326ff089521a97ee20411c6108742b90cf37dfca20"
     },
     "@Arg1@ is knocked back by @arg2@.": {
-      "context": "beam.cc current player/monster enchantments, Grave Claw immobilisation, Bolas, Gehenna fire vulnerability, Cocytus movement freezing, Warp Body, rimeblight, abjurable Unravelling and doubled vigour; actor.cc end_constriction/knockback/stumble_away_from/resist_margin_phrase; mon-ench.cc visibility after charm, breath recovery, corrosion and silence. Initial petrification is not full stone; blindness is not invisibility; binding only prevents movement. Sap Magic interferes with casting, not MP. Doubled vigour doubles current and maximum HP, not attack strength. Water-form evaporation is partial, not a death announcement. Names are localised in the required case; fixed actor pronouns avoid gender guessing. No visibility, hidden actor identity, targets, durations, damage, resistances, raw beam names, saves, resources or source attribution changed.",
-      "translation_sha256": "7a60eb00cb9b4491b3d884cc9613a50b92dfb643cbeeead60830d17873840f6a"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "6da8570bc07075662aadbbca269294023dd5796c21c416b9b5c3cfa0d4c89c35"
     },
     "You are yanked forward by @arg@.": {
       "context": "beam.cc",
       "translation_sha256": "3cf95f1f9b8fcc976fb533aa887fd915db63725b0270a112731fb875b036d5eb"
     },
     "@Arg1@ is yanked forward by @arg2@.": {
-      "context": "beam.cc",
-      "translation_sha256": "35e1851156de9ee3cf5b7a1cbc519b4e7f00dbbbc3ca818a318c6825d0932d86"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "1077f595d6403949672549b66b781edd81341199587ce40ca2afe415ef92a597"
     },
     "@Arg1@ reflects off @arg2@ @arg3@!": {
       "context": "beam.cc",
@@ -13632,8 +13632,8 @@
       "translation_sha256": "ba7c25d579fc9d7a5f1a87ec4c5b4856f1f95f4426f786d43a3cd1815603130e"
     },
     "@Arg1@ repels @arg2@!": {
-      "context": "beam.cc",
-      "translation_sha256": "963cfa7cbfa27536d796011d019a1cdc122364d956f11bdbe64b7a80843762ec"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "b34d0089b2068fc814e8564e40aec1f4a448464513ddc636036f1e92786a7a86"
     },
     "@Arg1@ misses @arg2@!": {
       "context": "beam.cc",
@@ -13728,8 +13728,8 @@
       "translation_sha256": "7736600723a5b7c6292764b6264838e4daa8525c5f1eed9383a871ce99879d48"
     },
     "@Arg@ suddenly seems more resistant.": {
-      "context": "beam.cc",
-      "translation_sha256": "4e1ebed2b627dc77e0024e115015faaef4662fa6d40140ad21dcbe60e99c65f7"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "c131cc127b44ef077cd1a48c32ca5960670e852e9e2b55ac989c1271dceac755"
     },
     "@Arg@ is infested!": {
       "context": "beam.cc",
@@ -19448,16 +19448,16 @@
       "translation_sha256": "c17c54eb8cf4b4ed35c6bf3155ab24eb6532d0b69399f58a17a3f615b0463f6b"
     },
     "You are under penance.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "cdbb3f5de70717c2f4dfe77345f9979d9058f1de534e6df9d08f328304a060b2"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "b7fc0cf2f623b98b19b710c5319a32acd5ef053762b54b72f77688dd18c43654"
     },
     "You should show more discipline.": {
       "context": "describe-god.cc",
       "translation_sha256": "ae9d0ae20444c0e9a33b48a8bf3733fbd4e06366d709e5d6111c4849e5e3ab5d"
     },
     "A prized avatar of @arg@.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "c24b4164bf76af4f99dfa3858efc11cbf408f32235ce469ac91112f8e044022c"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "76931889178daf3084f3c1f193d8e16322c05d0219f119d618a0aa41b658848c"
     },
     "A favoured servant of @arg@.": {
       "context": "describe-god.cc",
@@ -19480,8 +19480,8 @@
       "translation_sha256": "bbc5e4923d14aa3170e195c21f266ccb79b50db09b4d6e2069b705550e583d9f"
     },
     "@Arg@ is noncommittal.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "1cda3efd51a8c6047b72f35e4465af699466d09313635747cd05b37279637d81"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "1f9771fb0152a83fa5bc2195b78478fc2e5ece8fdbd47168beb36e40c6181a30"
     },
     "Bound item": {
       "context": "describe-god.cc",
@@ -19592,8 +19592,8 @@
       "translation_sha256": "09c305c563301c227892adb69ed7376902b18f545fdf3bf799dfbac6307b2f38"
     },
     "stacked deck:": {
-      "context": "describe-god.cc",
-      "translation_sha256": "e2761d7308d6208d994f585c400d796a1ee2cd461a057988252b50a4b1610d28"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "1190817e586bc28b65cb6ecf393fd4529b902bab4754f6d742ba8b6606573e7b"
     },
     "Ashenzari supports the following skill groups because of your curses:": {
       "context": "describe-god.cc",
@@ -19604,12 +19604,12 @@
       "translation_sha256": "4999ec825439ab8986b00fdb792a2f4da065aa7c6933debf439e9f3434268612"
     },
     "@Arg@'s powers are not affected by the Invocations skill.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "17a639e299d2d4ec5e93b558da4c82bb5b86b1d7f9b2242570e514fdc3b465e3"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "8245119819bf15aae08b32310e38afa0ef7ab6338b1d249a257c3fa4adefef6d"
     },
     "@Arg1@'s powers are based on @arg2@ instead of Invocations skill.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "652d146dd392fc85373831b8ba0ff4f9d59c7593f13d337c77b7c54f0678511c"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "a754e98ddbfcc182e7c03f959490add788e123ed0318910bd3cb474c7e4d9c6c"
     },
     "@Arg@ is ambivalent towards you.": {
       "context": "describe-god.cc",
@@ -19744,8 +19744,8 @@
       "translation_sha256": "453b8a92226fb3190a89681be4a0c5a8a3a196869738d1ed121f2e8c3a3d9b08"
     },
     "You can memorise @arg@.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "53a0a22103b532325d4ea1910633d918a6f00c2ed924e4fd2ea7463909b4e221"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "a7ad80b3b070318087d8c7601b643176381e75dfc87ea1b2df69fe049b0ee06c"
     },
     "You can memorise some of Vehumet's most lethal spells.": {
       "context": "describe-god.cc:divine titles, wrath, passive powers and joining Gozag",
@@ -19788,8 +19788,8 @@
       "translation_sha256": "4f47a690e815d6114e60a7e3928ecf92ffd212223c3ddb5c791a84e18b0dfabf"
     },
     "You are protected from the effects of unwielding distortion weapons.": {
-      "context": "describe-god.cc",
-      "translation_sha256": "620021ccc12b372a7fab217d49af05f403f990fed65b6cfb87d0861708feb02b"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "50ff12bb581a36681d229448e90fdb15759afc0cd42007a2e81b16d552264d76"
     },
     "You can @arg@.": {
       "context": "describe-god.cc",
@@ -19876,8 +19876,8 @@
       "translation_sha256": "525cfd1e27f4dcef75e2bd7c1d84c886bed4909abdb58f0fd8081a88f5d76137"
     },
     "Brand which weapon?": {
-      "context": "god-abil.cc",
-      "translation_sha256": "15feaa0a97306bd9f63eef0ba8b645758db63de10f80063ccbd71b1793296fc5"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "50a2a50f6e750d14579591ebb12f17ede3e3ac101c6e894e311b7ea8255d11e7"
     },
     "Do you wish to have @arg@ bloodied with pain?": {
       "context": "god-abil.cc",
@@ -19944,8 +19944,8 @@
       "translation_sha256": "f8370ff55fd7403676fefe173ccfba60afb25bba3d12db315eb5b85682698cd9"
     },
     "You feel that Zin will soon be noncommittal.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "7e4454a12636b2a5b6526694420ee1978784334c6b06d533ebb69cb5d3fd6f43"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "28ebbbc4a76ed1964d6d56a41c75e176ecccb574a3283be4280c615fd110d4f6"
     },
     "Finish your current sermon first, please.": {
       "context": "god-abil.cc",
@@ -20216,8 +20216,8 @@
       "translation_sha256": "abeb0e8ba0a2fe760a3c65b5de69839f81e26ddf53e4a88c3ab07e1721a0d090"
     },
     "There's no one hasty visible. Invoke Slouch anyway?": {
-      "context": "god-abil.cc",
-      "translation_sha256": "45304a2dd526c21f30e4e0944b3c07654de500c6173feb4f162b96a63a884619"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "607270f1976f23de90b0074359875867c1a1395626b2b4ecb1c2d08119a69908"
     },
     "You can feel time thicken for a moment.": {
       "context": "god-abil.cc",
@@ -20356,12 +20356,12 @@
       "translation_sha256": "8ba86ac111865901a119cc41e24507a1c59c26c85ba98a9ffb09c69dcb5e0e61"
     },
     "The priest welcomes you and lets you live.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "29d8b3859810dc2a83f198b55db3f7010506ae08daa9ff3a1f6072259ac84c46"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "ac0395594ddfff9f627b5a60b994fac0d22ee4cf1abdaafd3f5736f2103124ac"
     },
     "With a roar of approval, the orcs welcome you as one of their own, and spare your life.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "0cbad722c540403e846ad0d93a49056f288effaf0e246df92601590f1f28a018"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "425a30e320207b2a320c6fb97e20327dea6c3f2c4e8d6665759853334e7232fe"
     },
     "Aiming: <white>Shadow Step</white>": {
       "context": "god-abil.cc",
@@ -20400,8 +20400,8 @@
       "translation_sha256": "7d68bb33ce3c1856441d9e33ad8eeca81bcf8ec25d95497353b611176585883b"
     },
     "You need to be standing on open floor to call a merchant.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "56cee486460cc7c08ad04fb621d175c0ebaa316d5d91851eaf05b79c75b8c2f7"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "ea8da17e973bacd0c775ed1b785f14acc4177aed0da9fa1dc931296df4294be5"
     },
     "  [%c] %5d gold - @arg@": {
       "context": "god-abil.cc",
@@ -20420,8 +20420,8 @@
       "translation_sha256": "592c4685281840953d111f4c28aa37a7510d9e69fb74665d80d029de5d19471f"
     },
     "Your bribe of @arg@ has been exhausted.": {
-      "context": "god-abil.cc",
-      "translation_sha256": "cc75f634a0ec033483ea7726278efdb9f7c97e77524ed9e7c57d9a05b58460fa"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "f2a0622ee6660db6703bbd07bb531620c9f23a9fa1dbfa936ff856b989bdfc58"
     },
     "You need at least @num@ gold to offer a bribe.": {
       "context": "god-abil.cc",
@@ -20748,8 +20748,8 @@
       "translation_sha256": "924425c338b646350ca371a6d50be07bb0d364f936ad339ecfd23a93e9f14934"
     },
     "@Arg@ is not nearby!": {
-      "context": "ability.cc, skill-menu.cc, item-use.cc, god-abil.cc, god-prayer.cc: MP/HP/piety costs and percentages, irreversible sacrifices, actual skill targets and harmful item confirmations. XP-recharged cooldowns distinguished from resting, maximum MP from current MP, Deaths Door from low HP. Raw item/ability IDs unchanged.",
-      "translation_sha256": "59056c4c34f9453275699c364e6babe01f3c2668886ec1fb19917fc24734d0ef"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "9bd59a2d1f1d219d5e0680d009d9cbf8662069a1a00ffb45b5678bafad2f1d56"
     },
     "@Arg1@ grants @arg2@ healing and protection!": {
       "context": "Current god-abil.cc Okawaru duel targeting, clone failure, arena healing; Makhleb infernal servant hostility, infernal marks, Atrocity, Legion, Vessel and Crucible; Hepliaklqana idealise/transference. religion.cc _regain_memory/_regain_item_memory/upgrade_hepliaklqana_ancestor and weapon/shield upgrade tables. mutation-data.h exact names, gain/status messages for nine marks and four destruction upgrades; current mutations.txt. Mark names have shared nominative/accusative contexts. Destruction is not damnation or ordinary fire; Magma replaces cold, Devastation replaces lightning, Dis replaces negative energy. Idealisation can partially heal; arena roar heals half missing HP, not full health. Nostalgia drains monsters rather than slows them. Ancestor remembers equipment and abilities, not player skill levels; fixed possessive pronoun variants avoid wrong gender. Celebrant triggers at HP <= 50% per god-passive.cc, despite below in the English database; fineff.cc can fire leftover blood arrows randomly. No costs, thresholds, target checks, spell/weapon IDs, save data or RNG changed.",
@@ -20780,8 +20780,8 @@
       "translation_sha256": "c485d527f07c435ef44a4533613ebb34a439cfce13c1fd32b33fa2c9114d59f7"
     },
     "@Arg@ can't be transferred there.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
-      "translation_sha256": "9d96ad86e01f814ae9bf9932a93dfd736a87e5e8ddcbd763a6a38fdedb60b655"
+      "context": "ability.cc and god-abil.cc:bless_weapon (inventory choice), Slouch target predicate and movement speed; penance is a separate state from divine retribution",
+      "translation_sha256": "fd7cf81530aff640fc599c2e667806d0228b5788f7e058393092d1bca77a0946"
     },
     "You swap with @arg@!": {
       "context": "Current god-abil.cc Okawaru duel targeting, clone failure, arena healing; Makhleb infernal servant hostility, infernal marks, Atrocity, Legion, Vessel and Crucible; Hepliaklqana idealise/transference. religion.cc _regain_memory/_regain_item_memory/upgrade_hepliaklqana_ancestor and weapon/shield upgrade tables. mutation-data.h exact names, gain/status messages for nine marks and four destruction upgrades; current mutations.txt. Mark names have shared nominative/accusative contexts. Destruction is not damnation or ordinary fire; Magma replaces cold, Devastation replaces lightning, Dis replaces negative energy. Idealisation can partially heal; arena roar heals half missing HP, not full health. Nostalgia drains monsters rather than slows them. Ancestor remembers equipment and abilities, not player skill levels; fixed possessive pronoun variants avoid wrong gender. Celebrant triggers at HP <= 50% per god-passive.cc, despite below in the English database; fineff.cc can fire leftover blood arrows randomly. No costs, thresholds, target checks, spell/weapon IDs, save data or RNG changed.",
@@ -21112,12 +21112,12 @@
       "translation_sha256": "69e058d1087effa5d072895cce437dc8c7aec96608bee9c90300a34d70d9f1d4"
     },
     "@Arg@ throws an implement of electrocution at you.": {
-      "context": "god-wrath.cc",
-      "translation_sha256": "1bc874e0daa03b56a0f990c988035b16ecf69647ec719c77a81dd3fd3e803e4d"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "5d3bc73ffb844caada325aab53cc2b65aaf87eaa15d327b69240d85a8709384e"
     },
     "@Arg@ throws implements of electrocution at you.": {
-      "context": "god-wrath.cc",
-      "translation_sha256": "815e4b4a99a75f5097d99f7c4be14c3b8003401ac32963bba88cf609310e03e7"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "a55a02b1f4672ecc7ee10306340c76ae1ba6d4bc85673905c38741b2c1385995"
     },
     "@Arg@ sends forth an army of orcs.": {
       "context": "god-wrath.cc",
@@ -21148,8 +21148,8 @@
       "translation_sha256": "0db6e135a3ca0fb7356d274dff143c3f5d3dbf423c13b6f6906e049e8c6ca942"
     },
     "@Arg@ draws you home!": {
-      "context": "god-wrath.cc",
-      "translation_sha256": "f579f78c5351258af82b2d18d2e03a217243b6cd9a8cb236d9bcdd70f207ef24"
+      "context": "describe-god.cc:piety ranks, curse groups, ancestor equipment and passive protections; god-wrath.cc:Lugonu banishment and divine weapons",
+      "translation_sha256": "7d98a36a144d71813052f13d9ca39d938981bd286622a669471b45e3e0d38a81"
     },
     "@Arg@ makes you draw from the deck of Punishment.": {
       "context": "god-wrath.cc",
@@ -27520,8 +27520,8 @@
       "translation_sha256": "75d0dd591579fa4aeba3365405c357fab4829c808ff36401993f1579659a7d75"
     },
     "under penance": {
-      "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
-      "translation_sha256": "2f57575998dcb5dff9b9aa53b6c396528f250d59287445ca1b5608ce01b8d36d"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "2c55c8c662ffc942db5e2cf9ef192237af4368ee8f90d32b6621cd0d2f8a2ce5"
     },
     "Wizard mode": {
       "context": "hiscores.cc: displayed end-of-game causes and typed WebTiles summary; xlog and morgue output unchanged",
@@ -39332,8 +39332,8 @@
       "translation_sha256": "dbe7d4b32571d7903e132f96cf367ac470d5bfb3b9a3c07b2d6700d16cc454f5"
     },
     "Are you sure you wish to flee a divine trial? This will place you under penance!": {
-      "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
-      "translation_sha256": "a0c4226f75f7663f0879366e6564c0b8b6ea2ec870ffec14fca196091c67d61f"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "205210e662308d1923e771f751b090c32f43aa9be23360fe425c14219cc36b69"
     },
     "Beogh appreciates your bravery.": {
       "context": "skills.cc, describe.cc skill panels, ability.cc activation, god-abil.cc invocation feedback. Full format translated before names and values. Base skill is distinct from modified skill; target completion still disables training. Spell failure differences are percentage points, with sub-rounding changes described as slight. Divine Alms extends only short summon timers, Beogh heals actual companions, and Dithmenos does not teleport into dangerous terrain. Raw skill names, IDs, note records, target logic, percentages and yes/no defaults unchanged.",
@@ -42552,8 +42552,8 @@
       "translation_sha256": "60ac886f6af757b54e830dec35ca7b9ea75b1acb8ec6556e47bbab263d19c2f7"
     },
     "The %s is repelled.": {
-      "context": "beam.cc hit/miss/block/reflection display, zap-data.h projectile nouns and monster-cast beam aliases, melee-attack.cc auxiliary attack stats and player.cc constriction display. Raw bolt names, hit verbs, beam flavours, source/death IDs and comparisons unchanged; translate only presentation arguments. Hits use accusative context for targets, player has explicit accusative. Main singular/plural beam verbs are separate; collective nouns used for most default-singular beams, jagged bones and ice thorns retain true plural used by Grave Claw/terrain.cc. Damage punctuation, shield reflection, repulsion, chaos effect type and zero-damage conditions retained. Aux chances/damage are base values, not guaranteed attacks. Constriction counts free usable tentacles, does not promise simultaneous extra attacks. Debug/buggy projectiles omitted. Names follow spell terminology where they name the spell, use projectile nouns where it is a separate attack. No combat values, visibility, RNG, targeting, damage or status effects changed.",
-      "translation_sha256": "fbe634d91229e6d33cbfc59053c4207df55a4e890d052b112ff8d5e1c0a214db"
+      "context": "beam.cc: damage resistance feedback, projectile deflection and knockback; damage messages are not immobilising enchantments",
+      "translation_sha256": "5bc2e0517c2a59621a329e004b867fb29389f0b550cb27eda06b1703fd90b65f"
     },
     "The %s misses you.": {
       "context": "beam.cc hit/miss/block/reflection display, zap-data.h projectile nouns and monster-cast beam aliases, melee-attack.cc auxiliary attack stats and player.cc constriction display. Raw bolt names, hit verbs, beam flavours, source/death IDs and comparisons unchanged; translate only presentation arguments. Hits use accusative context for targets, player has explicit accusative. Main singular/plural beam verbs are separate; collective nouns used for most default-singular beams, jagged bones and ice thorns retain true plural used by Grave Claw/terrain.cc. Damage punctuation, shield reflection, repulsion, chaos effect type and zero-damage conditions retained. Aux chances/damage are base values, not guaranteed attacks. Constriction counts free usable tentacles, does not promise simultaneous extra attacks. Debug/buggy projectiles omitted. Names follow spell terminology where they name the spell, use projectile nouns where it is a separate attack. No combat values, visibility, RNG, targeting, damage or status effects changed.",
@@ -43772,8 +43772,8 @@
       "translation_sha256": "d93c2c46ac6e9fa905e70b79b6a86d7ae70c5bc9d862ef50b2da0e203b45b17e"
     },
     " This would place you under penance!": {
-      "context": "fight.cc warn_about_bad_targets and stop_summoning_prompt; beam.cc cancel_beam_prompt self-hit and vulnerable charm. Source/spell/projectile, target names and follow-up question localized before full printf. Additional bad-target count remains exact, penance is definite only when source says would. Self-hit upper bound is a possibility, single-hit warning retains likely. Summon reasons use poison-resistance/flight flags and active radiation/bog/vortex/reagents conditions unchanged; warning can also apply to charming an existing creature, hence new ally rather than summoned creature. Effects/reasons are explanatory display contexts; raw spell IDs, checks, target sets, harm predicates, costs, confirmation defaults and outcomes unchanged.",
-      "translation_sha256": "7e9be1530459bcfa1d60ef59f52597f151a49c2e97cf77478c2c0ce3f11cebb1"
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "ef52648a6e44a3754243bb793e1806ebce93de65f85f5298c411a6db8246efe6"
     },
     "Really %s while %s?": {
       "context": "fight.cc warn_about_bad_targets and stop_summoning_prompt; beam.cc cancel_beam_prompt self-hit and vulnerable charm. Source/spell/projectile, target names and follow-up question localized before full printf. Additional bad-target count remains exact, penance is definite only when source says would. Self-hit upper bound is a possibility, single-hit warning retains likely. Summon reasons use poison-resistance/flight flags and active radiation/bog/vortex/reagents conditions unchanged; warning can also apply to charming an existing creature, hence new ally rather than summoned creature. Effects/reasons are explanatory display contexts; raw spell IDs, checks, target sets, harm predicates, costs, confirmation defaults and outcomes unchanged.",
@@ -55612,8 +55612,8 @@
       "translation_sha256": "326fe9ca00e1c4c53b662433ac672ff95572beca6d80e29c8a77cd48079d8c95"
     },
     "Your melee attacks may engulf your foes in ooze.": {
-      "context": "Final gameplay portion of the legacy short mutation catalogue: camouflage, blood ignition, miasma, slime helpers, silence/hexes, Ru sacrifices, aptitude vs XL, eyes, extra arms, steam, extra lives, vampirism and innate casting. Legacy Poison/Transmutations school names and old XL penalties retained as source compatibility strings, not relabelled Alchemy or assigned modern values. Casting disruption increases spell failure rather than cancelling a sustained spell. Unskilled makes learning harder; it does not set all skills to zero. Might/Will and health terms follow shared names; holy/unholy and poison/acid remain distinct. Corrupting Presence means blight, not political bribery. Steam immunity is damage immunity; lack of physical hands does not mean inventory disappearance. Seven technical category selectors are deliberately left for their separate caller context. Raw IDs and numbers kept.",
-      "translation_sha256": "493108c7fa09629aa8a15161dcbcaec36d8107da28e9a60ae76474758bcab17f"
+      "context": "attack.cc:player_stab_check and shield blocking; melee-attack.cc: damage messages, antimagic and actual attack verbs",
+      "translation_sha256": "bae8c0ea3851db0953406251d37ebecfd4527107c09085c807db93c3eb6e8f0e"
     },
     "Options error: Bad monster_list_colour: '@any@'": {
       "context": "Current initfile.cc constructors, _bindkey and report_error; files.cc _convert_obsolete_species; newgame.cc tournament prompt; dgl-message.cc _read_each_message; god-companions.cc flee_apostle_challenge; player-notices.cc Wyrmbane. Translate complete rendered UI frames after sprintf, not raw format strings or rc/Lua identifiers. @any@ is bounded by specific diagnostic frames because file paths, regexes and key definitions may contain punctuation. Multiline legacy conversion prompts split exactly as localise_in_context does. Conversion is to a different species, not equipment or an optional stat bonus. Preserve source keybindings and colour tags. Unreachable removed bane retained only as a legacy compatibility label; no changes to raw selectors or save data.",
@@ -57398,6 +57398,10 @@
     "sharing their pain": {
       "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
       "translation_sha256": "6396cd6338d68e7492525e8e623c6af509cbdd5706c802a2a060b29e2e84dce2"
+    },
+    "You are not under penance.": {
+      "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
+      "translation_sha256": "3ff8886f8d55b0bc3acbe5d335e11b512ffab2ca5542975d574b82b28071dab7"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

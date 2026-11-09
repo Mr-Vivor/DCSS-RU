@@ -414,7 +414,7 @@ You are not religious!
 %%%%
 You are not under penance.
 
-Вы не отбываете покаяние.
+Вы не находитесь в немилости божества.
 %%%%
 @Arg@ welcomes you!
 
@@ -746,7 +746,7 @@ Really remove @arg@?
 %%%%
 " This could place you under penance!"
 
-" Это может навлечь гнев вашего бога!"
+" Это может навлечь на вас немилость божества!"
 %%%%
 Really wield @arg@?
 
@@ -802,7 +802,7 @@ Really choose @arg@?
 %%%%
 " This could place you under penance AND you're about to teleport!"
 
-" Это может навлечь гнев бога, и вы вот-вот телепортируетесь!"
+" Это может навлечь на вас немилость божества, и вы вот-вот телепортируетесь!"
 %%%%
 " You're about to teleport!"
 
@@ -910,11 +910,11 @@ You can wear that only in your normal form.
 %%%%
 Your wings won't fit in that.
 
-Вашим крыльям здесь нет места.
+Ваши крылья мешают надеть эти доспехи.
 %%%%
 Your wings, even vestigial as they are, won't fit in that.
 
-Даже вашим недоразвитым крыльям здесь нет места.
+Даже ваши недоразвитые крылья мешают надеть эти доспехи.
 %%%%
 You need the rest of your tentacles for walking.
 
@@ -1118,7 +1118,7 @@ You're already wearing two cursed rings!
 %%%%
 You're already wearing @num@ cursed rings! Isn't that enough for you?
 
-На вас уже проклятые кольца: @num@! Вам мало?
+Проклятых колец на вас: @num@! Вам этого мало?
 %%%%
 Put ring where? (<w>Esc</w> to cancel)
 
@@ -1166,7 +1166,7 @@ Put on which piece of jewellery (* to show all)?
 %%%%
 You aren't wearing any unmelded rings or amulets.
 
-Все ваши надетые украшения слиты с телом.
+На вас нет колец или амулетов, которые можно снять: украшения, слитые с телом, недоступны.
 %%%%
 You aren't wearing any rings or amulets.
 
@@ -1222,7 +1222,7 @@ You can't drink that!
 %%%%
 " This action would place you under penance!"
 
-" Это действие навлечёт на вас гнев бога!"
+" Это действие навлечёт на вас немилость божества!"
 %%%%
 @Arg@ petitions for your drink to fail.
 
@@ -1230,47 +1230,47 @@ You can't drink that!
 %%%%
 @Arg@ emits a brilliant flash of light!
 
-Ослепительно вспыхивает: @Arg@!
+@Arg@ ослепительно вспыхивает!
 %%%%
 @Arg@ projects an invisible shield of force!
 
-Создаёт невидимый силовой щит: @Arg@!
+@Arg@ создаёт невидимый силовой щит!
 %%%%
 @Arg@ is engulfed in flames!
 
-Покрывается пламенем: @Arg@!
+Пламя охватывает {acc}@Arg@!
 %%%%
 @Arg@ is covered with a thin layer of ice!
 
-Покрывается тонким слоем льда: @Arg@!
+Тонкий слой льда покрывает {acc}@Arg@!
 %%%%
 @Arg@ craves living souls!
 
-Жаждет живых душ: @Arg@!
+@Arg@ жаждет живых душ!
 %%%%
 @Arg@ thirsts for the lives of mortals!
 
-Жаждет жизней смертных: @Arg@!
+@Arg@ жаждет жизней смертных!
 %%%%
 @Arg@ drips with poison.
 
-Источает яд: @Arg@.
+@Arg@ источает яд.
 %%%%
 @Arg@ crackles with electricity.
 
-Потрескивает от электричества: @Arg@.
+@Arg@ потрескивает от электричества.
 %%%%
 @Arg@ erupts in a glittering mayhem of colour.
 
-Переливается буйством сверкающих красок: @Arg@.
+@Arg@ переливается буйством сверкающих красок.
 %%%%
 @Arg@ oozes corrosive slime.
 
-Источает едкую слизь: @Arg@.
+@Arg@ источает едкую слизь.
 %%%%
 @Arg@ acquires a faint afterimage.
 
-Оставляет за собой едва заметный призрачный след: @Arg@.
+За предметом «@Arg@» появляется едва заметный призрачный след.
 %%%%
 Really abort (and waste the scroll)?
 
@@ -1282,7 +1282,7 @@ Enchant which weapon?
 %%%%
 @Arg@ glows red for a moment.
 
-На миг вспыхивает красным: @Arg@.
+@Arg@ на миг вспыхивает красным.
 %%%%
 Identify which item? (\ to view known items)
 
@@ -1290,11 +1290,11 @@ Identify which item? (\ to view known items)
 %%%%
 @Arg@ glow green for a moment.
 
-На миг вспыхивают зелёным: @Arg@.
+@Arg@ на миг вспыхивают зелёным.
 %%%%
 @Arg@ glows green for a moment.
 
-На миг вспыхивает зелёным: @Arg@.
+@Arg@ на миг вспыхивает зелёным.
 %%%%
 Enchant which item?
 
@@ -1334,7 +1334,7 @@ You have no spells to forget!
 %%%%
 infinite will
 
-бесконечная воля
+непреодолимая Воля
 %%%%
 susceptible
 
@@ -1346,7 +1346,7 @@ not susceptible
 %%%%
 read @arg@
 
-прочитать: @arg@
+прочитать {acc}@arg@
 %%%%
 " And you can't even see any enemies this would affect!"
 
@@ -1358,7 +1358,7 @@ read @arg@
 %%%%
 You can't see any enemies this would affect, really read @arg@?
 
-Вы не видите врагов, на которых это подействует. Всё равно прочитать: @arg@?
+Не видно врагов, на которых это подействует. Всё равно прочитать {acc}@arg@?
 %%%%
 You almost manage to decipher the scroll, but fail in this attempt.
 
@@ -2494,7 +2494,7 @@ Casting this spell will cause instant excommunication! Really cast?
 %%%%
 Casting this spell will place you under penance. Really cast?
 
-Это заклинание навлечёт гнев вашего бога. Всё равно сотворить?
+Это заклинание навлечёт на вас немилость божества. Всё равно сотворить его?
 %%%%
 Your control over your magic is sapped.
 
@@ -6494,7 +6494,7 @@ You cannot imprison a law-abiding creature!
 %%%%
 @Arg@ will bless one of your weapons.
 
-@Arg@ благословит одно из ваших оружий.
+@Arg@ благословит выбранное вами оружие.
 %%%%
 There are no corpses to sacrifice!
 
@@ -6506,7 +6506,7 @@ There are no corpses to sacrifice!
 %%%%
 @Arg@ will bloody one of your weapons with pain.
 
-@Arg@ напоит одно из ваших оружий болью и кровью.
+@Arg@ напоит выбранное вами оружие кровью и наделит его свойством боли.
 %%%%
 Another wave of unholy energy enters you.
 
@@ -6582,7 +6582,7 @@ You cannot banish yourself!
 %%%%
 @Arg@ will brand one of your weapons with the corruption of the Abyss.
 
-@Arg@ наделит одно из ваших оружий искажением Бездны.
+@Arg@ наделит выбранное вами оружие искажением Бездны.
 %%%%
 You stop recalling your allies.
 
@@ -6590,7 +6590,7 @@ You stop recalling your allies.
 %%%%
 A thick mucus forms on @arg@.
 
-Густая слизь покрывает: @arg@.
+Густая слизь покрывает {acc}@arg@.
 %%%%
 You're too exhausted to draw out your power.
 
@@ -7802,11 +7802,11 @@ You are blown backwards!
 %%%%
 @Arg@ are blown away by the wind.
 
-Ветер сдувает: @Arg@.
+Ветер отбрасывает {acc}@Arg@.
 %%%%
 @Arg@ is blown away by the wind.
 
-Ветер сдувает: @Arg@.
+Ветер отбрасывает {acc}@Arg@.
 %%%%
 The monsters around you are blown away!
 
@@ -7814,7 +7814,7 @@ The monsters around you are blown away!
 %%%%
 Aim the phial where?
 
-Куда направить фиал?
+Куда направить струю из фиала?
 %%%%
 Aiming: <white>Phantom Mirror</white>
 
@@ -7834,7 +7834,7 @@ The mirror can't reflect that.
 %%%%
 You reflect @arg@ with the mirror!
 
-Вы создаёте зеркальное отражение: @arg@!
+Вы создаёте зеркальное отражение {gen}@arg@!
 %%%%
 You can't see anything, release a tremorstone anyway?
 
@@ -7882,7 +7882,7 @@ This wand has no charges.
 %%%%
 @Arg@ is presently inert.
 
-Устройство «@Arg@» разряжено. Заряды восстанавливаются при получении опыта.
+Предмет «@Arg@» пока разряжен. Заряды восстанавливаются при получении опыта.
 %%%%
 Evoke which item? (* to show all)
 
@@ -10670,11 +10670,11 @@ You pounce on @arg@ unawares!
 %%%%
 @Arg@ fails to defend against your attack.
 
-@Arg@ не удаётся защититься от вашей атаки.
+{dat}@Arg@ не удаётся защититься от вашей атаки.
 %%%%
 @Arg@ blocks your attack.
 
-@Arg@ блокирует атаку.
+@Arg@ блокирует вашу атаку.
 %%%%
 @Arg1@ blocks @arg2@'s attack.
 
@@ -10770,7 +10770,7 @@ Really charge while wielding nothing?
 %%%%
 This could place you under penance!
 
-Это может навлечь гнев вашего бога!
+Это может навлечь на вас немилость божества!
 %%%%
 Really fire at @ally@?@suffix@
 
@@ -10786,7 +10786,7 @@ Really attack @ally@?@suffix@
 %%%%
 This attack would place you under penance!
 
-Эта атака навлечёт гнев вашего бога!
+Эта атака навлечёт на вас немилость божества!
 %%%%
 Really @verb@ @ally@?@suffix@
 
@@ -10830,7 +10830,7 @@ You attempt to attack @arg@, but flinch away in fear!
 %%%%
 @Arg1@ misses @arg2@.
 
-@Arg1@ промахивается по {dat}@arg2@.
+@Arg1@ не попадает по {dat}@arg2@.
 %%%%
 @Arg1@ closely misses @arg2@.
 
@@ -10974,7 +10974,7 @@ You skewer @arg@ like a kebab@punct@
 %%%%
 You stick @arg@ like a pincushion@punct@
 
-Вы утыкиваете {acc}@arg@ ударами, как игольницу@punct@
+Вы превращаете {acc}@arg@ в подобие игольницы@punct@
 %%%%
 You perforate @arg@ like a sieve@punct@
 
@@ -11094,7 +11094,7 @@ You release spores at @arg@@punct@
 %%%%
 You buffet @arg@@punct@
 
-Вы бьёте {acc}@arg@ крыльями@punct@
+Вы хлещете {acc}@arg@@punct@
 %%%%
 You batter @arg@@punct@
 
@@ -11102,7 +11102,7 @@ You batter @arg@@punct@
 %%%%
 You blast @arg@@punct@
 
-Вы поражаете {acc}@arg@ взрывом@punct@
+Вы поражаете {acc}@arg@@punct@
 %%%%
 You mangle @arg@@punct@
 
@@ -11210,15 +11210,15 @@ You shatter @arg@@punct@
 %%%%
 @Arg@ blasts you@punct@
 
-@Arg@ поражает вас взрывом@punct@
+@Arg@ поражает вас@punct@
 %%%%
 @Arg1@ blasts @arg2@@punct@
 
-@Arg1@ поражает {acc}@arg2@ взрывом@punct@
+@Arg1@ поражает {acc}@arg2@@punct@
 %%%%
 @Arg@ blasts itself@punct@
 
-@Arg@ поражает взрывом себя@punct@
+@Arg@ поражает себя@punct@
 %%%%
 @Arg@ pokes you@punct@
 
@@ -11270,11 +11270,11 @@ You shatter @arg@@punct@
 %%%%
 @Arg@ defenestrates you@punct@
 
-@Arg@ выбрасывает вас из окна@punct@
+@Arg@ швыряет вас@punct@
 %%%%
 @Arg1@ defenestrates @arg2@@punct@
 
-@Arg1@ выбрасывает {acc}@arg2@ из окна@punct@
+@Arg1@ швыряет {acc}@arg2@@punct@
 %%%%
 @Arg@ sucker-punches you@punct@
 
@@ -11326,11 +11326,11 @@ You shatter @arg@@punct@
 %%%%
 @Arg@ eye-gouges you@punct@
 
-@Arg@ выкалывает вам глаза@punct@
+@Arg@ бьёт вас в глаза@punct@
 %%%%
 @Arg1@ eye-gouges @arg2@@punct@
 
-@Arg1@ выкалывает глаза {dat}@arg2@@punct@
+@Arg1@ бьёт {acc}@arg2@ в глаза@punct@
 %%%%
 @Arg@ karate-kicks you@punct@
 
@@ -11446,11 +11446,11 @@ Your divine stamina protects you from poison!
 %%%%
 @Arg@ drains your magic.
 
-@Arg@ высасывает магию жертвы.
+@Arg@ вытягивает вашу магию.
 %%%%
 @Arg@ drains your power.
 
-@Arg@ высасывает силу жертвы.
+@Arg@ вытягивает ваши силы.
 %%%%
 @Arg1@ drains @arg2@ magic.
 
@@ -11458,11 +11458,11 @@ Your divine stamina protects you from poison!
 %%%%
 @Arg1@ drains @arg2@ power.
 
-@Arg1@ вытягивает силу из {gen}@arg2@.
+@Arg1@ вытягивает силы {gen}@arg2@.
 %%%%
 @Arg@ looks very invigorated.
 
-@Arg@ выглядит полным сил.
+@Arg@ выглядит исполненным сил.
 %%%%
 @Arg@ looks invigorated.
 
@@ -12194,7 +12194,7 @@ You offer a prayer to @arg@.
 %%%%
 You pay a tithe of @num@ gold.
 
-Вы платите десятину; золота: @num@.
+Вы отдаёте десятину: @num@ золота.
 %%%%
 @Arg@ ignores your late donation.
 
@@ -13546,7 +13546,7 @@ You hear a mighty clap of thunder!
 %%%%
 Animating this weapon would place you under penance. Really cast this spell?
 
-Оживление этого оружия навлечёт гнев вашего бога. Всё равно сотворить заклинание?
+Оживление этого оружия навлечёт на вас немилость божества. Всё равно сотворить заклинание?
 %%%%
 @Arg@ appears from out of thin air!
 
@@ -13638,11 +13638,11 @@ Your line of fire to the targeted location is blocked by @arg@. Continue anyway?
 %%%%
 @Arg@ is doused terribly!
 
-Вода страшно обдаёт {acc}@Arg@!
+Вода наносит тяжёлый урон {dat}@Arg@!
 %%%%
 @Arg@ is frozen!
 
-Мороз сковывает {acc}@Arg@!
+Лютый холод поражает {acc}@Arg@!
 %%%%
 @Arg@ is electrocuted!
 
@@ -13762,7 +13762,7 @@ That beam is likely to hit you. Continue anyway?
 %%%%
 @Arg@ is repelled.
 
-@Arg@ отталкивается.
+@Arg@ отклоняется в сторону.
 %%%%
 Something tries to affect you, but you are unaffected.
 
@@ -13982,7 +13982,7 @@ You are knocked back by @arg@.
 %%%%
 @Arg1@ is knocked back by @arg2@.
 
-{acc}@Arg1@ отбрасывает назад: {nom}@arg2@.
+{acc}@Arg1@ отбрасывает назад {nom}@arg2@.
 %%%%
 You are yanked forward by @arg@.
 
@@ -13990,7 +13990,7 @@ You are yanked forward by @arg@.
 %%%%
 @Arg1@ is yanked forward by @arg2@.
 
-@Arg1@ резко утягивается вперёд под действием {gen}@arg2@.
+{acc}@Arg1@ резко тянет вперёд {nom}@arg2@.
 %%%%
 @Arg1@ reflects off @arg2@ @arg3@!
 
@@ -14018,7 +14018,7 @@ Your demonic guardian avoids your attack.
 %%%%
 @Arg1@ repels @arg2@!
 
-@Arg1@ отталкивает {acc}@arg2@!
+@Arg1@ отводит в сторону {acc}@arg2@!
 %%%%
 @Arg1@ misses @arg2@!
 
@@ -14114,7 +14114,7 @@ Your demonic guardian avoids your attack.
 %%%%
 @Arg@ suddenly seems more resistant.
 
-Защита существа «@Arg@» внезапно усиливается.
+Сопротивления {gen}@Arg@ внезапно усиливаются.
 %%%%
 @Arg@ is infested!
 
@@ -19834,7 +19834,7 @@ You've transgressed heavily! Be penitent!
 %%%%
 You are under penance.
 
-Вы отбываете покаяние.
+Вы находитесь в немилости божества.
 %%%%
 You should show more discipline.
 
@@ -19842,7 +19842,7 @@ You should show more discipline.
 %%%%
 A prized avatar of @arg@.
 
-Драгоценное воплощение {gen}@arg@.
+Высоко ценимое воплощение божества «@arg@».
 %%%%
 A favoured servant of @arg@.
 
@@ -19866,7 +19866,7 @@ A rising star in the eyes of @arg@.
 %%%%
 @Arg@ is noncommittal.
 
-@Arg@ не выражает предпочтений.
+@Arg@ не проявляет к вам особого расположения.
 %%%%
 Bound item
 
@@ -19978,7 +19978,7 @@ Decks of power:
 %%%%
 stacked deck:
 
-сложенная колода:
+подготовленная колода:
 %%%%
 Ashenzari supports the following skill groups because of your curses:
 
@@ -19990,11 +19990,11 @@ Martial attacks:
 %%%%
 @Arg@'s powers are not affected by the Invocations skill.
 
-Навык Молитвы не влияет на способности {gen}@Arg@.
+Навык «Молитвы» не влияет на способности {gen}@Arg@.
 %%%%
 @Arg1@'s powers are based on @arg2@ instead of Invocations skill.
 
-Способности {gen}@Arg1@ зависят от «{nom}@arg2@», а не от навыка Молитвы.
+Способности {gen}@Arg1@ зависят от навыка «{nom}@arg2@», а не от навыка «Молитвы».
 %%%%
 @Arg@ is ambivalent towards you.
 
@@ -20130,7 +20130,7 @@ Cheibriados supports your attributes. (+@num@)
 %%%%
 You can memorise @arg@.
 
-Вы можете запомнить заклинание «@arg@».
+Вы можете выучить заклинание «@arg@».
 %%%%
 You can memorise some of Vehumet's most lethal spells.
 
@@ -20174,7 +20174,7 @@ Your ancestor manifests to aid you.
 %%%%
 You are protected from the effects of unwielding distortion weapons.
 
-Вы защищены от последствий смены оружия с искажением.
+Вы защищены от побочных эффектов, когда убираете из рук оружие с искажением.
 %%%%
 You can @arg@.
 
@@ -20262,7 +20262,7 @@ Are you sure you want to abandon @arg@?
 %%%%
 Brand which weapon?
 
-На какое оружие наложить клеймо?
+Какое оружие наделить особым свойством?
 %%%%
 Do you wish to have @arg@ bloodied with pain?
 
@@ -20330,7 +20330,7 @@ You feel that Zin will soon be aware of your devotion.
 %%%%
 You feel that Zin will soon be noncommittal.
 
-Вы чувствуете, что скоро Зин перестанет выражать предпочтения.
+Вы чувствуете, что Зин вскоре будет относиться к вам нейтрально.
 %%%%
 Finish your current sermon first, please.
 
@@ -20602,7 +20602,7 @@ Cheibriados rebukes @arg@.
 %%%%
 There's no one hasty visible. Invoke Slouch anyway?
 
-Не видно никого торопливого. Всё равно применить «Леность»?
+Не видно существ, которым «Леность» нанесёт урон. Всё равно применить способность?
 %%%%
 You can feel time thicken for a moment.
 
@@ -20742,11 +20742,11 @@ You shatter the curse binding @arg@!
 %%%%
 The priest welcomes you and lets you live.
 
-Жрец приветствует вас и дарует вам жизнь.
+Жрец приветствует вас и щадит вашу жизнь.
 %%%%
 With a roar of approval, the orcs welcome you as one of their own, and spare your life.
 
-С одобрительным рёвом орки принимают вас за своего и даруют вам жизнь.
+С одобрительным рёвом орки принимают вас за своего и оставляют в живых.
 %%%%
 Aiming: <white>Shadow Step</white>
 
@@ -20786,7 +20786,7 @@ No merchants are willing to come to this location.
 %%%%
 You need to be standing on open floor to call a merchant.
 
-Чтобы призвать торговца, нужно стоять на открытом полу.
+Чтобы призвать торговца, нужно стоять на свободном участке пола.
 %%%%
 "  [%c] %5d gold - @arg@"
 
@@ -20806,7 +20806,7 @@ You don't have enough gold to fund that merchant!
 %%%%
 Your bribe of @arg@ has been exhausted.
 
-Ваш подкуп обитателей «@arg@» исчерпан.
+Средства на подкуп обитателей ветви «@arg@» исчерпаны.
 %%%%
 You need at least @num@ gold to offer a bribe.
 
@@ -21134,7 +21134,7 @@ You have no ancestor to preserve!
 %%%%
 @Arg@ is not nearby!
 
-Предка нет поблизости: @Arg@!
+Предок «@Arg@» не находится поблизости!
 %%%%
 @Arg1@ grants @arg2@ healing and protection!
 
@@ -21166,7 +21166,7 @@ You can't transfer that.
 %%%%
 @Arg@ can't be transferred there.
 
-Цель нельзя переместить туда: @Arg@.
+Нельзя переместить {acc}@Arg@ туда.
 %%%%
 You swap with @arg@!
 
@@ -21498,11 +21498,11 @@ You suddenly feel lethargic!
 %%%%
 @Arg@ throws an implement of electrocution at you.
 
-@Arg@ бросает в вас оружие электричества.
+@Arg@ бросает в вас оружие, заряженное электричеством.
 %%%%
 @Arg@ throws implements of electrocution at you.
 
-@Arg@ бросает в вас оружия электричества.
+@Arg@ бросает в вас несколько орудий, заряженных электричеством.
 %%%%
 @Arg@ sends forth an army of orcs.
 
@@ -21534,7 +21534,7 @@ Space warps around you!
 %%%%
 @Arg@ draws you home!
 
-@Arg@ тянет вас домой!
+@Arg@ тащит вас «домой» — в Бездну!
 %%%%
 @Arg@ makes you draw from the deck of Punishment.
 
@@ -27882,7 +27882,7 @@ Faith rank: Plaything
 %%%%
 under penance
 
-под божественной карой
+в немилости божества
 %%%%
 Wizard mode
 
@@ -39630,7 +39630,7 @@ Your followers are invigorated by your prowess.
 %%%%
 Are you sure you wish to flee a divine trial? This will place you under penance!
 
-Бежать с божественного испытания? Это навлечёт на вас гнев бога!
+Бежать с божественного испытания? Это навлечёт на вас немилость божества!
 %%%%
 Beogh appreciates your bravery.
 
@@ -42850,7 +42850,7 @@ You block the %s... and reflect it back!
 %%%%
 The %s is repelled.
 
-Атака «%s» оттолкнута.
+Атака «%s» отклоняется в сторону.
 %%%%
 The %s misses you.
 
@@ -44070,7 +44070,7 @@ A blast of power from the earth%s strikes %s!
 %%%%
 " This would place you under penance!"
 
-" Это навлечёт на вас гнев бога!"
+" Это навлечёт на вас немилость божества!"
 %%%%
 Really %s while %s?
 
@@ -55854,7 +55854,7 @@ You have superior vitality. (+4 HP)
 %%%%
 Your melee attacks may engulf your foes in ooze.
 
-Ваши атаки в ближнем бою могут заполнять врагов слизью.
+Ваши атаки в ближнем бою могут обволакивать врагов слизью.
 %%%%
 Options error: Bad monster_list_colour: '@any@'
 
