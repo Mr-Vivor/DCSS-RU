@@ -317,7 +317,7 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("The fire dragon scales are intact enough to wear.")
           == "Повреждения не мешают носить чешую огненного дракона.");
     CHECK(localise("An eleionoma bone magically twists into a wand of flame.")
-          == "Кость элеиономы волшебным образом превращается в жезл пламени.");
+          == "Кость элеиономы волшебным образом превращается в палочку пламени.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
     CHECK(localise("Your paragon deflects the bat's attack away from you.")
