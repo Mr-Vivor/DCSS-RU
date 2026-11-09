@@ -13111,12 +13111,12 @@
       "translation_sha256": "ec9ded0f14c1534efb08b93c5763e8d8dbdd41cecf1e3faa75c925cbb7485948"
     },
     "The substance of the Abyss twists violently, and a gateway leading down appears!": {
-      "context": "abyss.cc",
-      "translation_sha256": "aba24f731d80922cd58e7c472377f7446cabac5e37882ba8f670633c425992e1"
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "f12bd6d04521759041884c9041bd5e9c42cb7f153a905bd73678e0a8982c452c"
     },
     "The substance of the Abyss twists violently, and a gateway leading out appears!": {
-      "context": "abyss.cc",
-      "translation_sha256": "19e88a13eeae40a50860db02da66352cd00f497936d0a17038e30961bf67137f"
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "af22b00f46990bf62b36e387ae36795d6d3842c2546396bbde3e96bf019c23ed"
     },
     "@Arg@ revokes the gift of sanctuary.": {
       "context": "areas.cc",
@@ -63609,6 +63609,30 @@
     "A malevolent force fills @branch@...": {
       "context": "traps.cc _net_immune_reason: slippery slippers slip through a net; insubstantial/amorphous bodies let it pass through. Amorphous monsters ooze through. Harlequin trap combines an already translated miscname introduction with an English attacks-of-list predicate; translate the final full template with genitive list. Divine disapproval is a flavour warning, not penance or wrath. Devourer stomach acid calls player::corrode (temporary corrosion), not direct HP damage or item destruction. _malev_msg names the current branch; quoted branch label avoids unknown branch cases. Shop voucher uses canonical купон магазина.",
       "translation_sha256": "aeea922589be32a4f613eaf6f4c2ab14f6f419dfb3cb236de246a1cb0980c4f8"
+    },
+    "Your memory of the abyssal rune fades away.": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "1597738c01f4250d22e1df47f264bfb2a34f306526b67d82a36d5d57f27e2d5b"
+    },
+    "The abyss shimmers again as the detected abyssal rune vanishes from your memory.": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "62cc5329b48baaa75fcd22baf87622ff46fa58072d444d888e8082a46c1bdb99"
+    },
+    "The abyss shimmers again as the detected abyssal rune vanishes from your memory and reappears.": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "4d46de7e5b2537822c61157522166316fe4412a9c64f1c2b28eb487892313abb"
+    },
+    "The abyssal matter surrounding you shimmers strangely.": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "024b2a9a5729e5b477b8425ae36e66dc51015f16226d31ec71140b9b6278a02d"
+    },
+    "You detect the abyssal rune!": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "3c70f526a4a463bf2be02b2ad5c499e9200dee3be2e77a1f6fbff04a2a26c531"
+    },
+    "Adjust (g)ear, (s)pells, (a)bilities, (p)otions, sc(r)olls or e(v)ocables?": {
+      "context": "abyss.cc clear_abyssal_rune_knowledge and _update_abyssal_map_knowledge change remembered rune location, not possession of an already collected rune. Detection may restore the location after a map shift. abyss_maybe_spawn_xp_exit creates either stairs deeper into the Abyss or an exit from the Abyss; out does not mean leaving the entire dungeon. adjust.cc current categories add gear, potions, scrolls and evocables; preserve all six Latin input keys exactly. Existing short adjust-item/spell/ability prompts already translate after whitespace trimming.",
+      "translation_sha256": "a354cdd39246878dbde16d2b623e798735c268a6603d60dbead0dc879cd79d8a"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
