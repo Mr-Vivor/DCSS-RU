@@ -1678,7 +1678,7 @@ The percentage of the progress done before reaching next level is in <cyan>cyan<
 %%%%
 The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).
 
-Относительная стоимость развития навыка показана <cyan>голубым</cyan>, а с бонусом учебника — <lightred>красным</lightred>.
+Относительная стоимость повышения каждого навыка показана <cyan>голубым</cyan> (или <lightred>красным</lightred> при усилении учебником).
 %%%%
 "Enter a skill target for @arg@: "
 
@@ -8254,7 +8254,7 @@ The amulet feels cold and inert.
 %%%%
 The amulet cannot attune itself to your exhausted body.
 
-Амулет не может настроиться на ваше истощённое тело.
+Для настройки амулета нужно полностью восстановить запас магии.
 %%%%
 You feel a shielding aura gather around you.
 
@@ -36010,7 +36010,7 @@ special effects listed below.
 %%%%
 The relative cost of raising each skill is in <cyan>cyan</cyan>.
 
-Относительная стоимость развития навыка показана <cyan>голубым</cyan>.
+Относительная стоимость повышения каждого навыка показана <cyan>голубым</cyan>.
 %%%%
 You have gained great experience. Select the skills to train.
 
@@ -59751,3 +59751,407 @@ Apostates @chapter@:@verse@
 Anathema @chapter@:@verse@
 
 Анафема @chapter@:@verse@
+%%%%
+Keeper of the Flame
+
+Хранитель пламени
+%%%%
+Pinnacle of Evolution
+
+Вершина эволюции
+%%%%
+You can't wear armour!
+
+Вы не можете носить доспехи!
+%%%%
+You don't have a head.
+
+У вас нет головы.
+%%%%
+You don't have hands.
+
+У вас нет кистей рук.
+%%%%
+You don't have any feet!
+
+У вас нет ступней!
+%%%%
+You can't wear boots.
+
+Вы не можете носить сапоги.
+%%%%
+You can't fit into that!
+
+Это снаряжение вам не подходит!
+%%%%
+You can't wear any rings.
+
+Вы не можете носить кольца.
+%%%%
+You can't wear amulets.
+
+Вы не можете носить амулеты.
+%%%%
+Your can't wear that!
+
+Вы не можете это надеть!
+%%%%
+You feel a malign power afflict you.
+
+Вас поражает зловещая сила.
+%%%%
+You grip the centipede bauble in your @hand@ and it winds around your @arm@ and fuses with it.
+
+Вы сжимаете фигурку многоножки {ins}@hand@. Она обвивается вокруг {gen}@arm@ и срастается с вашим телом.
+%%%%
+@weapon@ is covered in frost.
+
+Иней покрывает {acc}@weapon@.
+%%%%
+@weapon@ glows with a cold blue light!
+
+От {gen}@weapon@ исходит холодное голубое свечение!
+%%%%
+@weapon@ sits dull and lifeless in your grasp.
+
+У {gen}@weapon@ в вашей хватке нет ни блеска, ни признаков жизни.
+%%%%
+Trog suppresses @weapon@'s necromantic effect.
+
+Трог подавляет некромантическое действие {gen}@weapon@.
+%%%%
+Trog suppresses @weapon@' necromantic effect.
+
+Трог подавляет некромантическое действие {gen}@weapon@.
+%%%%
+@weapon@ quivers in your @hands@.
+
+В {prep}@hands@ подрагивает {nom}@weapon@.
+%%%%
+Your weapon gleams with eagerness.
+
+Ваше оружие сияет боевым пылом.
+%%%%
+@weapon@ feels dull in your @hands@.
+
+В {prep}@hands@ словно угасает пыл {gen}@weapon@.
+%%%%
+Vines begin sprouting from @weapon@.
+
+Из {gen}@weapon@ начинают прорастать лозы.
+%%%%
+@weapon@ gleams with a vicious edge.
+
+Острый край {gen}@weapon@ зловеще поблёскивает.
+%%%%
+@weapon@ radiates an overwhelming force.
+
+От {gen}@weapon@ исходит сокрушительная сила.
+%%%%
+You feel a baleful cunning.
+
+Вы ощущаете прилив зловещего коварства.
+%%%%
+Your athame gleams mockingly in your nearly-dead state.
+
+Ваш атам издевательски поблёскивает: вы и без того при смерти.
+%%%%
+Your athame gleams mockingly in your nearly-destroyed state.
+
+Ваш атам издевательски поблёскивает: вы и без того на грани уничтожения.
+%%%%
+Your athame demands its blood price!
+
+Ваш атам требует плату кровью!
+%%%%
+Your athame demands its blood price! (Figuratively speaking.)
+
+Ваш атам требует плату кровью! (В переносном смысле.)
+%%%%
+@weapon@ stops crackling.
+
+Электрическое потрескивание {gen}@weapon@ стихает.
+%%%%
+@weapon@ stops quivering.
+
+Дрожь {gen}@weapon@ прекращается.
+%%%%
+You feel very meek.
+
+Вас охватывают робость и слабость.
+%%%%
+The vines retreat back into @weapon@.
+
+Лозы втягиваются обратно в {acc}@weapon@.
+%%%%
+@weapon@ goes dull.
+
+Блеск {gen}@weapon@ тускнеет.
+%%%%
+@weapon@ stops radiating force.
+
+От {gen}@weapon@ больше не исходит сокрушительная сила.
+%%%%
+You feel guileless.
+
+Вы чувствуете себя простодушнее.
+%%%%
+Now linked to your health, your magic stops regenerating.
+
+Ваш запас магии теперь связан со здоровьем и больше не восстанавливается самостоятельно.
+%%%%
+You already have all the faith you need.
+
+Эффект Веры уже действует; этот амулет его не усилит.
+%%%%
+You feel no more acrobatic than usual.
+
+Вы не чувствуете себя ловчее обычного.
+%%%%
+You feel a wild power.
+
+Вы ощущаете первобытную силу.
+%%%%
+You feel a deeper understanding of alchemy.
+
+Вам кажется, что теперь вы глубже понимаете алхимию.
+%%%%
+You feel as though your troubles will go away faster.
+
+Вам кажется, что теперь напасти будут рассеиваться быстрее.
+%%%%
+You assemble @device@ and install it in your exoskeleton!
+
+Вы собираете {acc}@device@ и устанавливаете в свой экзоскелет!
+%%%%
+You don't have room to hold a gizmo! Drop something first.
+
+В инвентаре нет места для механизма! Сначала что-нибудь выбросьте.
+%%%%
+Your brain swirls with designs for @device@. You just need some more time...
+
+В голове роятся чертежи устройства «@device@». Нужно лишь ещё немного времени...
+%%%%
+The @item@ feels cold and inert.
+
+Предмет «@item@» холоден и безжизнен на ощупь.
+%%%%
+The @item@ feel cold and inert.
+
+Предметы «@item@» холодны и безжизненны на ощупь.
+%%%%
+The @item@ throbs as it attunes itself to your body.
+
+Предмет «@item@» пульсирует, настраиваясь на ваше тело.
+%%%%
+The @item@ throbs as it attunes itself to your uninjured body.
+
+Предмет «@item@» пульсирует, настраиваясь на ваше здоровое тело.
+%%%%
+The @item@ cannot attune itself to your injured body.
+
+Для настройки предмета «@item@» нужно полностью восстановить здоровье.
+%%%%
+The @item@ cannot attune itself to your exhausted body.
+
+Для настройки предмета «@item@» нужно полностью восстановить запас магии.
+%%%%
+The @item@ throb as they attune themselves to your body.
+
+Предметы «@item@» пульсируют, настраиваясь на ваше тело.
+%%%%
+The @item@ throb as they attune themselves to your uninjured body.
+
+Предметы «@item@» пульсируют, настраиваясь на ваше здоровое тело.
+%%%%
+The @item@ cannot attune themselves to your injured body.
+
+Для настройки предметов «@item@» нужно полностью восстановить здоровье.
+%%%%
+The @item@ cannot attune themselves to your exhausted body.
+
+Для настройки предметов «@item@» нужно полностью восстановить запас магии.
+%%%%
+grasper
+
+манипулятор
+%%%%
+{nom}grasper
+
+{nom}манипулятор
+%%%%
+{gen}grasper
+
+{gen}манипулятора
+%%%%
+{dat}grasper
+
+{dat}манипулятору
+%%%%
+{acc}grasper
+
+{acc}манипулятор
+%%%%
+{ins}grasper
+
+{ins}манипулятором
+%%%%
+{prep}grasper
+
+{prep}манипуляторе
+%%%%
+graspers
+
+манипуляторы
+%%%%
+{nom}graspers
+
+{nom}манипуляторы
+%%%%
+{gen}graspers
+
+{gen}манипуляторов
+%%%%
+{dat}graspers
+
+{dat}манипуляторам
+%%%%
+{acc}graspers
+
+{acc}манипуляторы
+%%%%
+{ins}graspers
+
+{ins}манипуляторами
+%%%%
+{prep}graspers
+
+{prep}манипуляторах
+%%%%
+tendril
+
+отросток
+%%%%
+{nom}tendril
+
+{nom}отросток
+%%%%
+{gen}tendril
+
+{gen}отростка
+%%%%
+{dat}tendril
+
+{dat}отростку
+%%%%
+{acc}tendril
+
+{acc}отросток
+%%%%
+{ins}tendril
+
+{ins}отростком
+%%%%
+{prep}tendril
+
+{prep}отростке
+%%%%
+{nom}tendrils
+
+{nom}отростки
+%%%%
+{gen}tendrils
+
+{gen}отростков
+%%%%
+{dat}tendrils
+
+{dat}отросткам
+%%%%
+{acc}tendrils
+
+{acc}отростки
+%%%%
+{ins}tendrils
+
+{ins}отростками
+%%%%
+{prep}tendrils
+
+{prep}отростках
+%%%%
+{prep}hand
+
+{prep}руке
+%%%%
+{prep}hands
+
+{prep}руках
+%%%%
+{prep}claw
+
+{prep}когте
+%%%%
+{prep}claws
+
+{prep}когтях
+%%%%
+{prep}paw
+
+{prep}лапе
+%%%%
+{prep}paws
+
+{prep}лапах
+%%%%
+{prep}tentacle
+
+{prep}щупальце
+%%%%
+{prep}tentacles
+
+{prep}щупальцах
+%%%%
+{prep}pincer
+
+{prep}клешне
+%%%%
+{prep}pincers
+
+{prep}клешнях
+%%%%
+{prep}fist
+
+{prep}кулаке
+%%%%
+{prep}fists
+
+{prep}кулаках
+%%%%
+{prep}wing
+
+{prep}крыле
+%%%%
+{prep}wings
+
+{prep}крыльях
+%%%%
+{ins}fist
+
+{ins}кулаком
+%%%%
+{ins}fists
+
+{ins}кулаками
+%%%%
+{gen}stony arm
+
+{gen}каменной руки
+%%%%
+{gen}fossilised arm
+
+{gen}окаменелой руки
+%%%%
+{gen}ectoplasmic tendril
+
+{gen}эктоплазматического отростка

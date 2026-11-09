@@ -1243,8 +1243,8 @@
       "translation_sha256": "12c087aa9191418e9f7f4fce65fbc584c6e3a29c443fdec8c681ffa92e91b5f1"
     },
     "The relative cost of raising each skill is in <cyan>cyan</cyan> (or <lightred>red</lightred> if enhanced by a manual).": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "1576e6ae2346578abee4c9c0ab4bd46f32c1e2c74b9349f8bb26394e6f8c7001"
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "d2abd390f39100e8d11b461c0581324480c854dd9f1c60ff788e031125a00225"
     },
     "Enter a skill target for @arg@: ": {
       "context": "skill-menu.cc / skill training and actual menu controls",
@@ -7871,8 +7871,8 @@
       "translation_sha256": "0fc6405d857d94c618e1b2b5e602115c80d0dd6da623a22dc4f99c938c72ee72"
     },
     "The amulet cannot attune itself to your exhausted body.": {
-      "context": "player-equip.cc",
-      "translation_sha256": "1ec54f84830eb723b9af398e790103db0ca004f4ca043be7702747aee1aef16b"
+      "context": "player-equip.cc regen_mp && low_mp prevents attunement until the magic reserve is full. No assertion about unrelated artefact properties being inert.",
+      "translation_sha256": "4c4a7ad8fe3611386888d8c345212d547c6d61441775c2f8fe4006195b01c5d2"
     },
     "You feel a shielding aura gather around you.": {
       "context": "player-equip.cc",
@@ -35699,8 +35699,8 @@
       "translation_sha256": "6ec3ba829ab7731431afa449231336e129e57a0a863e82a23b8747a511e4ac38"
     },
     "The relative cost of raising each skill is in <cyan>cyan</cyan>.": {
-      "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
-      "translation_sha256": "4f4dcff874b4dbe46c8473f2653f367e78a5e0a8c60d3969637e108596e1ad83"
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "d12c787e86c47c07857b0c717a27d4c44deb2548b29b71e72b29d00042f5e63d"
     },
     "You have gained great experience. Select the skills to train.": {
       "context": "skill-menu.cc legacy CRT display and religion.cc get_all_god_powers: skill training, targets, coloured legends and divine gain/loss/general fields; chance, one-use gifts, temporary followers and acquiring vs recalling allies preserved.",
@@ -59517,6 +59517,410 @@
     "Anathema @chapter@:@verse@": {
       "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
       "translation_sha256": "1aacc84c848a1205fb32237c2bf47a1e634959fb3e76e54108e3faf17f3a10cf"
+    },
+    "Keeper of the Flame": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "228961b8a334fa90a50529eb4f11ae19865743672d423f20fb98903a60046998"
+    },
+    "Pinnacle of Evolution": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "93b478e7aadc39b776102d077d689bf8b886cbd472d7765f215e0c9bbce1971a"
+    },
+    "You can't wear armour!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "caa3e3a872e7f784bcc9e18a094927d99b26cc363905b97b712bc1b32a0449de"
+    },
+    "You don't have a head.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "b255d8c72c14309d979312a283f52c4464bba0ec7d7b732ef89f1c6be62b909b"
+    },
+    "You don't have hands.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0f1e8ce2e367a6dabed96c94254c2721b0584165cdc89229fae0909b0501624a"
+    },
+    "You don't have any feet!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "b8818cc662b4194622ad047c5ee008071726001a4afe34c1aa5445dcb84c0bda"
+    },
+    "You can't wear boots.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "1c87cb39d6eec471fa77a4b3e874583c9ac1e7c8d6442593aa6fa5e7562052cd"
+    },
+    "You can't fit into that!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "14bbf1866142b79c470c8d6f6dc97b16d270a8bbc21dc5942472c57108500201"
+    },
+    "You can't wear any rings.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "d6d4a9b2b4e49d7cd499ecc20ba9f3ea9e21e066aaeb5feebe896a2dc56b3701"
+    },
+    "You can't wear amulets.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "9250ca36ba3171ce09abdd796fcee165d9224e83ab9acd4249ef3d3ce86a282e"
+    },
+    "Your can't wear that!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0b24aa0c87d8ec093ca922e135b5b4c2a328401efdb383eef6556845415f829d"
+    },
+    "You feel a malign power afflict you.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "7c5084a377d863ca60585718fdaebb55d32a973b55a0ca1441b7978885b51668"
+    },
+    "You grip the centipede bauble in your @hand@ and it winds around your @arm@ and fuses with it.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "d110c36094da4574f470b60d01c0656fbb5a7b1e0d15363d7f4c1e778441d2ef"
+    },
+    "@weapon@ is covered in frost.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6294f778fe10c755f1c9d5cbd4a474a73a43d47c73b5dc5d44b8bdcb7155cec5"
+    },
+    "@weapon@ glows with a cold blue light!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "994cef7f09ab7344e72b51b8881b94d435a2069fd46d631c2765ffb9d9a75223"
+    },
+    "@weapon@ sits dull and lifeless in your grasp.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6e5d733b3527d75c480718e2c3b04a231ae13a11c92bf6004470509f53c8f93c"
+    },
+    "Trog suppresses @weapon@'s necromantic effect.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "8f3b4f1d5b4eb1b448db46566a7b7514174c5f0e44a2651c3b8ec416b8f8e843"
+    },
+    "Trog suppresses @weapon@' necromantic effect.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "8f3b4f1d5b4eb1b448db46566a7b7514174c5f0e44a2651c3b8ec416b8f8e843"
+    },
+    "@weapon@ quivers in your @hands@.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "73234ae44efe971975501a2b1e70a8fd75ba90f1e715b5909ad221b5cc4ab231"
+    },
+    "Your weapon gleams with eagerness.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "e48ef9a5f884e36f6a89d41b22ee7ab93f8ca2efe79d83f0cc327127475a4c1e"
+    },
+    "@weapon@ feels dull in your @hands@.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6b1f50ca049dcbaf4a08af6cddb8e742b7d425ab0fc9df50e1698dc4deb420dc"
+    },
+    "Vines begin sprouting from @weapon@.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "9ba691d7633d197d5c2dbff76101cec860b77bcd52714651170311066a4db2e0"
+    },
+    "@weapon@ gleams with a vicious edge.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "ee5038abdfde86e09d637636bf2bfd5977ca3e54954f53521fa802ae04b9b038"
+    },
+    "@weapon@ radiates an overwhelming force.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "493b64970f0b085bb5be42f7195bcf1456a88a2de05e049b3fad62dfb06fdbd3"
+    },
+    "You feel a baleful cunning.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "39040a4ac443074906bba57f2d44a0e57f3109c6a24112f8b0529f0eeba0a35a"
+    },
+    "Your athame gleams mockingly in your nearly-dead state.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3c8d540a8b4af556d8806e2c18ecd5a706b7592bac174cb76b7c9222816e297b"
+    },
+    "Your athame gleams mockingly in your nearly-destroyed state.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "c841787672753a67993dbeed4d6139ec3e2e1c4764578a671d0e514e0084ac10"
+    },
+    "Your athame demands its blood price!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "84194cb5ba53530154b764cebd2daeb01b97cabd2ad757120770ff637d542486"
+    },
+    "Your athame demands its blood price! (Figuratively speaking.)": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "2de0804721097d1b341e0831b3eb74540eadcc129b1ad2a7fca846ac975bd4ff"
+    },
+    "@weapon@ stops crackling.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "4ed13f5400533b5697b68171dc15beb00ce245acc3b304f9d6930c53838aee89"
+    },
+    "@weapon@ stops quivering.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3da6ae4bd6ec9c8daa09ab7ce548e5948f0f6672635f9a308d88c820166ea564"
+    },
+    "You feel very meek.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "71ecfdb239a44a76037750c8e0b74213df5f81c485cfc31f30dd98d50fefa439"
+    },
+    "The vines retreat back into @weapon@.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "a73bece27f44722394ae95b04b4d101eb024c3abed578752f2c084660445c147"
+    },
+    "@weapon@ goes dull.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "5081c11539becd411f754de8913216a9efe36bd28d0db5b5c17c507e5b0d11b3"
+    },
+    "@weapon@ stops radiating force.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0bcb6868a2c7e0c35db8cc08625bef039fb31a70ede8a91646c804128daf4291"
+    },
+    "You feel guileless.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "29595e4387abdc8434697ae985b5c7b9148215a6a2db9d35549599783498013d"
+    },
+    "Now linked to your health, your magic stops regenerating.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "da99d0d9e021917a25aa0e7abc1429c7a90c96b0dac1896c3a73675c32a6e037"
+    },
+    "You already have all the faith you need.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "02505341a1416d7a83790b3356280c9b55d76e5202a69131f7e42cdce080eb85"
+    },
+    "You feel no more acrobatic than usual.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "fa53b192c73f5bf375ecd716c4b076ef37b6174d665838727f07274f05747b0c"
+    },
+    "You feel a wild power.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "59039047a6a8d9ab966815deb9b9d3f85229eb87bf816d44e3ca89842432fa45"
+    },
+    "You feel a deeper understanding of alchemy.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0b65a4ca0bd042c33d4363822461214f05538297b845452f8059fbc800cfdef8"
+    },
+    "You feel as though your troubles will go away faster.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "9da3f5b5cd57a38397368257a323b3cb5460977dfc43cec5e9b1c50967d31225"
+    },
+    "You assemble @device@ and install it in your exoskeleton!": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0559f1a116804d4b1c5cca50c5d280ad98c3a40ad2adaae71634a3c5a8ad373b"
+    },
+    "You don't have room to hold a gizmo! Drop something first.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "9774e5572a623ddecf138de97acef5483fc88d8ca16ac5f95ff0c85d9a03f88e"
+    },
+    "Your brain swirls with designs for @device@. You just need some more time...": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "7d859729070f683ebc34b09b860fb3689af1af0f60b78b637a9340412141ac11"
+    },
+    "The @item@ feels cold and inert.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "609910dcdd74222f3d0f21026a77837233a596d9982a4f20bd8f5e14ac9a4ba5"
+    },
+    "The @item@ feel cold and inert.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "290c8c1c6fa5a0a6fd63f797c809c96d4c314928d8281b1fe97d5e511c85bd27"
+    },
+    "The @item@ throbs as it attunes itself to your body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3da23e7925898b5b5850b08dda56f8bf0e74cf4bc4b720f61bd102aef7cd6fca"
+    },
+    "The @item@ throbs as it attunes itself to your uninjured body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "e58c03f7e2c83d5f57a9f69e4a6301f9c00ecbf0d08e716a223eb2cc6cc53686"
+    },
+    "The @item@ cannot attune itself to your injured body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "4930f44e8250bfebc463edbcba81652475dbb9ed56b699980bbf314d460c8ee2"
+    },
+    "The @item@ cannot attune itself to your exhausted body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "fe75911cc44b87d3f4c833fc20f047a8848212e68ee008cc3aeb703cd2870fb3"
+    },
+    "The @item@ throb as they attune themselves to your body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6af3f96078afb3fe014cce699f3a99b7e190a93d639510e812bb3978d64ed127"
+    },
+    "The @item@ throb as they attune themselves to your uninjured body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "79c9d5d8a08cf30e702cd3461841c7ca5d6a191ff8e689c5b68994f87ca1e422"
+    },
+    "The @item@ cannot attune themselves to your injured body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "88f05ee8e4bb47ed0a3e943b639da3f5fecaca9b6612be24333254ff26e50d98"
+    },
+    "The @item@ cannot attune themselves to your exhausted body.": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "48510a6f5fd30e7bdfdd93ea1ef3ea511f1824a73bcd79bc2dd4afad66e93d5c"
+    },
+    "grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6040f156c6154dec56b950dde6cb4aa203ae7c9ac6b1557974724661045c685e"
+    },
+    "{nom}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "a09f96d897224f7b954f8d40c3451cc54a3f33ebc0aaa24a3acfa4a5cc298e6e"
+    },
+    "{gen}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "11f41e3fe0e440d1668cac140fc673304de641255499ac14e38826e3ae7c6c94"
+    },
+    "{dat}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "bdc4333b842e8c900087287d364da43ea7e7cc0b870d302c996549f26754a7cf"
+    },
+    "{acc}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0ee9e2400c2c9e3b0ab0e37a069b7153898ca929591bfbbf29c3061dd27d258f"
+    },
+    "{ins}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "1d37425568ef5b58851d1c2d48296f7db2202ed4563cf78bb9edb20395d2378b"
+    },
+    "{prep}grasper": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "31a22e4ff5ebe4f3aa756b0a684c3de324fd49fbd40cff25f6a3171c6ed35db9"
+    },
+    "graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "525d288ce58b4ab1707606ff5677fb28b684f445bef66fb04122dadf22eb5e6c"
+    },
+    "{nom}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "0475e72fe539829dbb55af3577fe5d50fb3e10ac800e887b246474f254cd72c2"
+    },
+    "{gen}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "359b2845f4d9d345d7ddec72638b2f10756c25b7763c3bee6434aa1c87a639be"
+    },
+    "{dat}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "169b29d6317adb128d42e60df30978732e38597c298fba51a0ff8af5804c274f"
+    },
+    "{acc}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "44a93422344ee1152fa3569f7d8028445f189d52d003273c1336aac3de1c832b"
+    },
+    "{ins}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "deae7be84d61e2ccb23fd9cda90d2735749630cca51b83c8d440962c08c865a5"
+    },
+    "{prep}graspers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "2ebe022e889fe1fe844a2288c93e1a7476f562bcfe51d8f2ffdd7f458ab67d97"
+    },
+    "tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "022f4f98c828264646f4efb2f412d4c1fc6d58b336c20075ae6a5e0dc249e2d2"
+    },
+    "{nom}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "ae5262373610a6675dc1826694048bf946bc7c9332cec26510165bd0269508fe"
+    },
+    "{gen}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "28ab4e709a45b121b3a4ed2e210a57db2fb8f3c1eda9b69b4aeffbd7f48782e8"
+    },
+    "{dat}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3132c25e56c6948dec6ac05d5846e0413e0b36ed8e06cce699b43dcc57ebe56d"
+    },
+    "{acc}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3ac60606eb2f10e86e23acea17df40929c538956ab8488dac6bf8d87e4bcb9af"
+    },
+    "{ins}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "154f80877335116fd7bcfd930e6f239444c2944580d8bf990e21cb286056ffd7"
+    },
+    "{prep}tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "cd477430eb5fe6f9e56eed2864e527e7627bda6e6861d7b321f6289d91e4d5d6"
+    },
+    "{nom}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "bd4bce705102ba92ff6a87a7e7fda90d9e8a3c9db642a445a1ca73f981351f9c"
+    },
+    "{gen}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "b436b2ae0786ef0bdaf5a119cf998e78a652d8b4754561336f36cb4afda98862"
+    },
+    "{dat}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "156cd92a809d22f6080dfb40a139192f8967b9d5ced5f9fc9b40cb96f5479275"
+    },
+    "{acc}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "86fd5d9e6369e0dea0ca925e31eaeb67e41cc88e6f1bba8033a502da2d59a309"
+    },
+    "{ins}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "76c178799044481ce5e679a63950e42351b792ecc98be52d8cb2dab1d39746cc"
+    },
+    "{prep}tendrils": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "36bdc686cfa331972681727a810384494383c8d4e241169d0e81a0e5ebdd39e8"
+    },
+    "{prep}hand": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "f4de1d5c69f04521c63221972d89d768569ae7bed80a8d52608c7eda951bfdfd"
+    },
+    "{prep}hands": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6b920056bb4b61b548c78fbc934a1da571d7dc6d8b39a03ecc601d32521d0dd2"
+    },
+    "{prep}claw": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "3036eef8706463a7a1e6e807943b27e165fb139f654cbed8709f3c8f925dcb99"
+    },
+    "{prep}claws": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "60e53bfa9ea8258ed31d77784c298ad0cf6eec511ed950770f31bac313e8b790"
+    },
+    "{prep}paw": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "7e71dd06aca73038a9ebf2b6a53f961b910d1b4c7562b877e440cb6d03455948"
+    },
+    "{prep}paws": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "432bca582f912ce60b4bc603d5c53ad6a28dceed49dae92d02f17738a1f4e21a"
+    },
+    "{prep}tentacle": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6619bee99e90c0fe709a8c29efc036d961030029119ce5ded1191dd7485143cd"
+    },
+    "{prep}tentacles": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "6acfebcb376123c9f68b870c28c0b7e3ca3400ee527a87d64ea0c821cfe45ccc"
+    },
+    "{prep}pincer": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "ee7579552e48f44d250f3372c95658ea98bdc6ac8a3d108bf3e2bc88b6e9821b"
+    },
+    "{prep}pincers": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "774da39d086ad97b8cf3bbb55b3479e83bf7f7955cea46102190d674c9c6d52c"
+    },
+    "{prep}fist": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "a290031e9a3618bb8b4353ef3808e2728d1bf3a4751bfc7f3a82efe8f65caee5"
+    },
+    "{prep}fists": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "aa96f2d076e147af2755e9c64d90ee478fa4d50c3b43e6ebf38e0e73100a77e5"
+    },
+    "{prep}wing": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "bfd5d1352c7e7cb3df5763f564384e06732b6eba75303c7bcbbe2c2c15704787"
+    },
+    "{prep}wings": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "c4e747bd383be2ef65bf40b71337b02a50b19e0df3e6a38eb430a08c45fbdf5b"
+    },
+    "{ins}fist": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "96e234aa832bdf6f6a30f8cf138522c79fe01a21d8ded4f0f2b346764d284142"
+    },
+    "{ins}fists": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "5a3a76a383f0b6a4d72303603ebe394edff2920ebd59b7daadd6287deaa6ee8f"
+    },
+    "{gen}stony arm": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "1efa523981c09cf71bff56bb665e071017db98fafd53958e55d81eeb79f9b937"
+    },
+    "{gen}fossilised arm": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "915d9ffedb8a8edaac92fcd0554f1d011a455a49ab2f64d7e2dbe8f2ccfac9e4"
+    },
+    "{gen}ectoplasmic tendril": {
+      "context": "Current player-equip.cc:_equip_weapon_effect, _unequip_weapon_effect, _attune_regen_item, amulet effects and Bane; skill-menu.cc relative cost suffix; skills.cc endgame titles; acquire.cc gizmo inventory and installation; species.cc:hand_name/arm_name; player-act.cc body-part names. No anatomy inferred from the weapon name.",
+      "translation_sha256": "e80934b36ec036a3eaea5b234c5bfe80ced8e1af6431e9d53bf3493ebb165c52"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

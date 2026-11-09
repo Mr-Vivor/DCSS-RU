@@ -302,6 +302,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("2 bats") == "2 летучие мыши");
     CHECK(localise("You see 2 very ugly things and 5 whips.")
           == "Вы видите 2 очень уродливых существ и 5 кнутов.");
+    CHECK(localise("Your hand axe quivers in your hands.")
+          == "В руках подрагивает ваш ручной топор.");
+    CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
+          == "Вы сжимаете фигурку многоножки манипулятором. Она обвивается вокруг руки и срастается с вашим телом.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")
           == "Вы видите +2 кинжал и 21 свиток телепортации.");
     CHECK(localise("You hit the bat!") == "Вы ударяете летучую мышь!");
