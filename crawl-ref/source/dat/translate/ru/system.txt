@@ -2566,7 +2566,7 @@ will probably split
 %%%%
 will become @arg@
 
-превратится: @arg@
+превратится в {acc}@arg@
 %%%%
 Restarting spell
 
@@ -15698,11 +15698,11 @@ You radiate an aura of cold.
 %%%%
 You can't draw power from your own body while in death's door.
 
-На пороге смерти нельзя черпать силу из собственного тела.
+На пороге смерти нельзя восстанавливать магию за счёт собственного тела.
 %%%%
 You don't have enough blood to draw power from your own body.
 
-У вас недостаточно крови, чтобы черпать силу из собственного тела.
+У вас недостаточно крови, чтобы восстановить магию за счёт собственного тела.
 %%%%
 Your body is bloodless.
 
@@ -15710,7 +15710,7 @@ Your body is bloodless.
 %%%%
 Your attempt to draw power from your own body fails.
 
-Попытка извлечь силу из собственного тела не удалась.
+Вам не удаётся восстановить магию за счёт собственного тела.
 %%%%
 You draw magical energy from your own body!
 
@@ -15798,7 +15798,7 @@ A film of ice covers your body!
 %%%%
 Your body is healed in an amazingly painful way.
 
-Ваше тело исцеляется поразительно болезненным способом.
+Ваше тело мучительно исцеляется, полностью восстанавливая здоровье ценой части его максимума.
 %%%%
 Your life is in your own hands once again.
 
@@ -17262,7 +17262,7 @@ Energy rips through your body
 %%%%
 You are caught in a violent explosion
 
-Вы попадаете в мощный взрыв
+Вас накрывает мощный взрыв
 %%%%
 You are blasted with magical energy
 
@@ -17290,7 +17290,7 @@ The air around @the_monster@ crackles with energy
 %%%%
 @The_monster@ is caught in a violent explosion
 
-@The_monster@ попадает в мощный взрыв
+Мощный взрыв накрывает {acc}@The_monster@
 %%%%
 @The_monster@ is blasted with magical energy
 
@@ -17670,7 +17670,7 @@ You are blasted with fire
 %%%%
 You are caught in a fiery explosion
 
-Вы попадаете в огненный взрыв
+Вас накрывает огненный взрыв
 %%%%
 You are blasted with searing flames
 
@@ -17706,7 +17706,7 @@ Flames sear @the_monster@
 %%%%
 @The_monster@ is caught in a fiery explosion
 
-@The_monster@ попадает в огненный взрыв
+Огненный взрыв накрывает {acc}@The_monster@
 %%%%
 @The_monster@ is blasted with searing flames
 
@@ -17762,7 +17762,7 @@ Heat is drained from your body
 %%%%
 You are caught in an explosion of ice and frost
 
-Вы попадаете во взрыв льда и инея
+Вас накрывает взрыв льда и инея
 %%%%
 You are encased in ice
 
@@ -17790,7 +17790,7 @@ Heat is drained from @the_monster@
 %%%%
 @The_monster@ is caught in an explosion of ice and frost
 
-@The_monster@ попадает во взрыв льда и инея
+Взрыв льда и инея накрывает {acc}@The_monster@
 %%%%
 @The_monster@ is encased in ice
 
@@ -17798,7 +17798,7 @@ Heat is drained from @the_monster@
 %%%%
 Wisps of condensation drift in the air
 
-В воздухе плывут клочки сконденсировавшегося пара
+В воздухе плывут клочки тумана
 %%%%
 Ice and frost explode from out of thin air
 
@@ -17834,7 +17834,7 @@ Electricity courses through your body
 %%%%
 You are caught in an explosion of electrical discharges
 
-Вы попадаете во взрыв электрических разрядов
+Вас накрывает взрыв электрических разрядов
 %%%%
 @The_monster@ bobs in the air for a moment
 
@@ -17842,7 +17842,7 @@ You are caught in an explosion of electrical discharges
 %%%%
 Sparks of electricity dance between @the_monster@'s @hands@
 
-Между конечностями ({nom}@hands@) {gen}@the_monster@ пляшут электрические искры
+Между {ins}@hands@ {gen}@the_monster@ пляшут электрические искры
 %%%%
 @The_monster@ is blasted with air
 
@@ -17862,7 +17862,7 @@ The wind whips around @the_monster@
 %%%%
 @The_monster@ is caught in an explosion of electrical discharges
 
-@The_monster@ попадает во взрыв электрических разрядов
+Взрыв электрических разрядов накрывает {acc}@The_monster@
 %%%%
 @The_monster@ is struck by twisting air
 
@@ -17914,7 +17914,7 @@ Rocks fall onto you out of nowhere
 %%%%
 You are caught in an explosion of flying shrapnel
 
-Вы попадаете во взрыв разлетающихся осколков
+Вас накрывает взрыв разлетающихся осколков
 %%%%
 Sand pours from @the_monster@'s @hands@
 
@@ -17934,7 +17934,7 @@ Rocks fall onto @the_monster@ out of nowhere
 %%%%
 @The_monster@ is caught in an explosion of flying shrapnel
 
-@The_monster@ попадает во взрыв разлетающихся осколков
+Взрыв разлетающихся осколков накрывает {acc}@The_monster@
 %%%%
 Flying rocks appear out of thin air
 
@@ -57639,3 +57639,691 @@ catching their breath
 sharing their pain
 
 узы общей боли
+%%%%
+A strange surge of energy strikes you from nowhere
+
+Неизвестно откуда вас поражает странный всплеск энергии
+%%%%
+You feel as though something walked over your grave
+
+Вам становится не по себе, словно кто-то прошёл по вашей могиле
+%%%%
+The space around something warps impossibly
+
+Пространство вокруг чего-то изгибается немыслимым образом
+%%%%
+A piece of empty space twists and distorts
+
+Участок пустого пространства скручивается и искажается
+%%%%
+Cinders fly from your @hands@
+
+У вас из {gen}@hands@ разлетаются тлеющие угольки
+%%%%
+Ashes fly from your @hands@
+
+У вас из {gen}@hands@ разлетается пепел
+%%%%
+Cinders fly from @the_monster@'s @hands@
+
+Из {gen}@hands@ {gen}@the_monster@ разлетаются тлеющие угольки
+%%%%
+Ashes fly from @the_monster@'s @hands@
+
+Из {gen}@hands@ {gen}@the_monster@ разлетается пепел
+%%%%
+You are blasted with searing fire
+
+Вас поражает обжигающий огонь
+%%%%
+You are blasted with flames
+
+Вас поражает пламя
+%%%%
+You feel a little bit cold
+
+Вам немного холодно
+%%%%
+Ice covers your body
+
+Лёд покрывает ваше тело
+%%%%
+You are encased in frost
+
+Иней окутывает вас
+%%%%
+You are covered in a thin layer of frost
+
+Вас покрывает тонкий слой инея
+%%%%
+An unseen figure is encased in frost
+
+Иней окутывает невидимую фигуру
+%%%%
+The wind whips up out of nowhere
+
+Неведомо откуда налетает порывистый ветер
+%%%%
+Gravel pours from your @hands@
+
+У вас из {gen}@hands@ сыплется гравий
+%%%%
+Gravel pours from @the_monster@'s @hands@
+
+Из {gen}@hands@ {gen}@the_monster@ сыплется гравий
+%%%%
+The floor shudders beneath you alarmingly
+
+Пол под вами угрожающе содрогается
+%%%%
+The floor quakes beneath you alarmingly
+
+Пол под вами угрожающе сотрясается
+%%%%
+The floor rumbles beneath you alarmingly
+
+Пол под вами угрожающе грохочет
+%%%%
+You are engulfed in toxic fumes
+
+Вас окутывают ядовитые испарения
+%%%%
+There is a flash of cinnabar
+
+Вспыхивает облако киноварной пыли
+%%%%
+Parts of your body briefly turn golden
+
+Части вашего тела на миг становятся золотистыми
+%%%%
+Parts of your body briefly turn silvery
+
+Части вашего тела на миг становятся серебристыми
+%%%%
+Parts of your body briefly turn metallic
+
+Части вашего тела на миг приобретают металлический вид
+%%%%
+Parts of your body briefly turn leaden
+
+Части вашего тела на миг становятся свинцовыми
+%%%%
+Parts of your body briefly turn crystalline
+
+Части вашего тела на миг становятся кристаллическими
+%%%%
+Sulphurous heat explodes from thin air
+
+Из пустоты вырывается волна сернистого жара
+%%%%
+An unseen figure is coated in salt
+
+Соль покрывает невидимую фигуру
+%%%%
+You lose structural integrity
+
+Ваше тело теряет прочность
+%%%%
+You feel yourself deconstruct slightly
+
+Вы ощущаете, как нарушается целостность вашего тела
+%%%%
+A buzzing sound echoes in your mind
+
+В вашем сознании эхом раздаётся жужжание
+%%%%
+A clanking sound echoes in your mind
+
+В вашем сознании эхом раздаётся металлический лязг
+%%%%
+A creaking sound echoes in your mind
+
+В вашем сознании эхом раздаётся скрип
+%%%%
+A whirring sound echoes in your mind
+
+В вашем сознании эхом раздаётся механическое гудение
+%%%%
+Metal odds and ends fall onto you out of nowhere
+
+Из ниоткуда на вас падает металлический хлам
+%%%%
+You are covered in metallic shards
+
+Вас осыпают металлические осколки
+%%%%
+You are caught in an explosion of metallic debris
+
+Вас накрывает взрыв металлических обломков
+%%%%
+Metal odds and ends fall onto @the_monster@ out of nowhere
+
+Из ниоткуда на {acc}@the_monster@ падает металлический хлам
+%%%%
+Metal odds and ends rain from above
+
+Сверху сыплется металлический хлам
+%%%%
+An unseen figure is covered in metallic shards
+
+Металлические осколки осыпают невидимую фигуру
+%%%%
+Metallic debris explodes from thin air
+
+Из пустоты с взрывом разлетаются металлические обломки
+%%%%
+Mercury flows from your @hands@
+
+У вас из {gen}@hands@ льётся ртуть
+%%%%
+Quicksilver flows from your @hands@
+
+У вас из {gen}@hands@ льётся ртуть
+%%%%
+Fool's gold flows from your @hands@
+
+У вас из {gen}@hands@ сыплется пирит
+%%%%
+Saltpeter flows from your @hands@
+
+У вас из {gen}@hands@ сыплется селитра
+%%%%
+Sulphur flows from your @hands@
+
+У вас из {gen}@hands@ сыплется сера
+%%%%
+Liquid metal flows from your @hands@
+
+У вас из {gen}@hands@ льётся жидкий металл
+%%%%
+@The_monster@ looks as though something walked over his grave
+
+@The_monster@ выглядит встревоженно — словно кто-то прошёл по его могиле
+%%%%
+@The_monster@ looks as though something walked over her grave
+
+@The_monster@ выглядит встревоженно — словно кто-то прошёл по её могиле
+%%%%
+@The_monster@ looks as though something walked over its grave
+
+@The_monster@ выглядит встревоженно — словно кто-то прошёл по его могиле
+%%%%
+@The_monster@ looks as though something walked over their grave
+
+@The_monster@ выглядит встревоженно — словно кто-то прошёл по их могиле
+%%%%
+Waves of red light ripple over your body
+
+По вашему телу пробегают волны красного света
+%%%%
+Waves of red light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны красного света
+%%%%
+You are overcome by clouds of red smoke
+
+Вас окутывают облака красного дыма
+%%%%
+Waves of orange light ripple over your body
+
+По вашему телу пробегают волны оранжевого света
+%%%%
+Waves of orange light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны оранжевого света
+%%%%
+You are overcome by clouds of orange smoke
+
+Вас окутывают облака оранжевого дыма
+%%%%
+Waves of yellow light ripple over your body
+
+По вашему телу пробегают волны жёлтого света
+%%%%
+Waves of yellow light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны жёлтого света
+%%%%
+You are overcome by clouds of yellow smoke
+
+Вас окутывают облака жёлтого дыма
+%%%%
+Waves of green light ripple over your body
+
+По вашему телу пробегают волны зелёного света
+%%%%
+Waves of green light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны зелёного света
+%%%%
+You are overcome by clouds of green smoke
+
+Вас окутывают облака зелёного дыма
+%%%%
+Waves of blue light ripple over your body
+
+По вашему телу пробегают волны синего света
+%%%%
+Waves of blue light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны синего света
+%%%%
+You are overcome by clouds of blue smoke
+
+Вас окутывают облака синего дыма
+%%%%
+Waves of indigo light ripple over your body
+
+По вашему телу пробегают волны света цвета индиго
+%%%%
+Waves of indigo light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны света цвета индиго
+%%%%
+You are overcome by clouds of indigo smoke
+
+Вас окутывают облака дыма цвета индиго
+%%%%
+Waves of violet light ripple over your body
+
+По вашему телу пробегают волны фиолетового света
+%%%%
+Waves of violet light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны фиолетового света
+%%%%
+You are overcome by clouds of violet smoke
+
+Вас окутывают облака фиолетового дыма
+%%%%
+Waves of black light ripple over your body
+
+По вашему телу пробегают волны чёрного света
+%%%%
+Waves of black light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны чёрного света
+%%%%
+You are overcome by clouds of black smoke
+
+Вас окутывают облака чёрного дыма
+%%%%
+Waves of white light ripple over your body
+
+По вашему телу пробегают волны белого света
+%%%%
+Waves of white light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны белого света
+%%%%
+You are overcome by clouds of white smoke
+
+Вас окутывают облака белого дыма
+%%%%
+Waves of grey light ripple over your body
+
+По вашему телу пробегают волны серого света
+%%%%
+Waves of grey light ripple over @the_monster@'s body
+
+По телу {gen}@the_monster@ пробегают волны серого света
+%%%%
+You are overcome by clouds of grey smoke
+
+Вас окутывают облака серого дыма
+%%%%
+{ins}hand
+
+{ins}рукой
+%%%%
+{ins}hands
+
+{ins}руками
+%%%%
+{ins}claw
+
+{ins}когтем
+%%%%
+{ins}claws
+
+{ins}когтями
+%%%%
+{ins}paw
+
+{ins}лапой
+%%%%
+{ins}paws
+
+{ins}лапами
+%%%%
+{ins}tentacle
+
+{ins}щупальцем
+%%%%
+{ins}tentacles
+
+{ins}щупальцами
+%%%%
+{ins}pincer
+
+{ins}клешнёй
+%%%%
+{ins}pincers
+
+{ins}клешнями
+%%%%
+{ins}wing
+
+{ins}крылом
+%%%%
+{ins}wings
+
+{ins}крыльями
+%%%%
+{ins}antenna
+
+{ins}усиком
+%%%%
+{ins}antennae
+
+{ins}усиками
+%%%%
+{ins}eye-stalk
+
+{ins}глазным стебельком
+%%%%
+{ins}eye-stalks
+
+{ins}глазными стебельками
+%%%%
+{ins}leaf
+
+{ins}листом
+%%%%
+{ins}leaves
+
+{ins}листьями
+%%%%
+{ins}rhizome
+
+{ins}корневищем
+%%%%
+{ins}rhizomes
+
+{ins}корневищами
+%%%%
+{ins}pupil
+
+{ins}зрачком
+%%%%
+{ins}pupils
+
+{ins}зрачками
+%%%%
+{ins}leg
+
+{ins}ногой
+%%%%
+{ins}legs
+
+{ins}ногами
+%%%%
+{ins}hoof
+
+{ins}копытом
+%%%%
+{ins}hooves
+
+{ins}копытами
+%%%%
+{ins}talon
+
+{ins}когтем
+%%%%
+{ins}talons
+
+{ins}когтями
+%%%%
+{ins}pseudopod
+
+{ins}ложноножкой
+%%%%
+{ins}pseudopods
+
+{ins}ложноножками
+%%%%
+{ins}foot
+
+{ins}ступнёй
+%%%%
+{ins}feet
+
+{ins}ступнями
+%%%%
+{ins}body
+
+{ins}телом
+%%%%
+{ins}stratum
+
+{ins}слоем
+%%%%
+{ins}strata
+
+{ins}слоями
+%%%%
+{ins}tail
+
+{ins}хвостом
+%%%%
+{ins}front paw
+
+{ins}передней лапой
+%%%%
+{ins}front paws
+
+{ins}передними лапами
+%%%%
+{ins}front leg
+
+{ins}передней лапой
+%%%%
+{ins}front legs
+
+{ins}передними лапами
+%%%%
+{ins}front foot
+
+{ins}передней ступнёй
+%%%%
+{ins}front feet
+
+{ins}передними ступнями
+%%%%
+{ins}front hoof
+
+{ins}передним копытом
+%%%%
+{ins}front hooves
+
+{ins}передними копытами
+%%%%
+{ins}front talon
+
+{ins}передним когтем
+%%%%
+{ins}front talons
+
+{ins}передними когтями
+%%%%
+{ins}front trotter
+
+{ins}передним копытцем
+%%%%
+{ins}front trotters
+
+{ins}передними копытцами
+%%%%
+{ins}blade hand
+
+{ins}рукой-клинком
+%%%%
+{ins}blade hands
+
+{ins}руками-клинками
+%%%%
+{ins}blade paw
+
+{ins}лапой-клинком
+%%%%
+{ins}blade paws
+
+{ins}лапами-клинками
+%%%%
+{ins}blade tentacle
+
+{ins}щупальцем-клинком
+%%%%
+{ins}blade tentacles
+
+{ins}щупальцами-клинками
+%%%%
+{gen}front foot
+
+{gen}передней ступни
+%%%%
+{gen}front feet
+
+{gen}передних ступней
+%%%%
+{gen}front hoof
+
+{gen}переднего копыта
+%%%%
+{gen}front hooves
+
+{gen}передних копыт
+%%%%
+{gen}front talon
+
+{gen}переднего когтя
+%%%%
+{gen}front talons
+
+{gen}передних когтей
+%%%%
+{gen}front trotter
+
+{gen}переднего копытца
+%%%%
+{gen}front trotters
+
+{gen}передних копытец
+%%%%
+{gen}stratum
+
+{gen}слоя
+%%%%
+{gen}strata
+
+{gen}слоёв
+%%%%
+@the_monster@'s features rearrange themselves for a while
+
+Черты {gen}@the_monster@ на время меняются местами
+%%%%
+@the_monster@ is blasted with searing fire
+
+Обжигающий огонь поражает {acc}@the_monster@
+%%%%
+@the_monster@ is blasted with flames
+
+Пламя поражает {acc}@the_monster@
+%%%%
+@the_monster@ is covered in a thin layer of frost
+
+Тонкий слой инея покрывает {acc}@the_monster@
+%%%%
+@the_monster@ is encased in frost
+
+Иней окутывает {acc}@the_monster@
+%%%%
+@the_monster@ is engulfed in toxic fumes
+
+Ядовитые испарения окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is blasted with cinnabar dust
+
+Облако киноварной пыли поражает {acc}@the_monster@
+%%%%
+@the_monster@ is blasted with sulphur dust
+
+Облако серной пыли поражает {acc}@the_monster@
+%%%%
+@the_monster@ is coated with cinnabar dust
+
+Киноварная пыль покрывает {acc}@the_monster@
+%%%%
+@the_monster@ is coated with sulphur dust
+
+Серная пыль покрывает {acc}@the_monster@
+%%%%
+@the_monster@ is coated in salt
+
+Соль покрывает {acc}@the_monster@
+%%%%
+@the_monster@ starts coughing violently
+
+{acc}@the_monster@ сотрясает сильный кашель
+%%%%
+@the_monster@ loses structural integrity
+
+Тело {gen}@the_monster@ теряет прочность
+%%%%
+@the_monster@ is covered in metallic shards
+
+Металлические осколки осыпают {acc}@the_monster@
+%%%%
+@the_monster@ is caught in an explosion of metallic debris
+
+Взрыв металлических обломков накрывает {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of red smoke
+
+Облака красного дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of orange smoke
+
+Облака оранжевого дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of yellow smoke
+
+Облака жёлтого дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of green smoke
+
+Облака зелёного дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of blue smoke
+
+Облака синего дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of indigo smoke
+
+Облака дыма цвета индиго окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of violet smoke
+
+Облака фиолетового дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of black smoke
+
+Облака чёрного дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of white smoke
+
+Облака белого дыма окутывают {acc}@the_monster@
+%%%%
+@the_monster@ is overcome by clouds of grey smoke
+
+Облака серого дыма окутывают {acc}@the_monster@

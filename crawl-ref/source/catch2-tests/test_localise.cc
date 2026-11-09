@@ -313,6 +313,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("His hands briefly pass through it before he manages to get a firm grip on it.")
           == "Его руки на миг проходят сквозь предмет, прежде чем он умудряется крепко его схватить.");
     CHECK(localise("Sparks fly from your hands") == "У вас из рук сыплются искры");
+    CHECK(localise("Sparks of electricity dance between the orc's hands")
+          == "Между руками орка пляшут электрические искры");
+    CHECK(localise("The orc is engulfed in toxic fumes")
+          == "Ядовитые испарения окутывают орка");
     CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
     CHECK(localise("Your soul already belongs to Yredelemnul.")
           == "Ваша душа уже принадлежит Йредэлемнулу.");

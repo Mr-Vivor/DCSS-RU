@@ -2172,8 +2172,8 @@
       "translation_sha256": "26543619dd86e0f4ffeebe42cfef5b706e0330a40cc9bd80252178b4cf09ed31"
     },
     "will become @arg@": {
-      "context": "spl-cast.cc",
-      "translation_sha256": "3dad56864d0c3e60f369850d2d08c6d35b0d720eb98f1567470b1a02fb1c54ec"
+      "context": "spl-cast.cc target descriptions; spl-other.cc Sublimation of Blood; spl-selfench.cc:cast_revivification dec_max_hp followed by set_hp(max)",
+      "translation_sha256": "772d35fc70e4512e1154a722882997ef23f321fb6f700ea5b56f179b8a232598"
     },
     "Restarting spell": {
       "context": "spl-cast.cc",
@@ -15312,20 +15312,20 @@
       "translation_sha256": "eb515b49b48bfcaa56ce03f74245d7a590c9a22fb01d6fbe81909e50234a5213"
     },
     "You can't draw power from your own body while in death's door.": {
-      "context": "spl-other.cc",
-      "translation_sha256": "f5e7c24a0f08ed6f1b79a18a22c8044c1b8c65dc3c206929750b7cc8f670038a"
+      "context": "spl-cast.cc target descriptions; spl-other.cc Sublimation of Blood; spl-selfench.cc:cast_revivification dec_max_hp followed by set_hp(max)",
+      "translation_sha256": "75274f73a1804511e0b9ad5436bcdc9d04d24419550c46d02f0a8f87c4693744"
     },
     "You don't have enough blood to draw power from your own body.": {
-      "context": "spl-other.cc",
-      "translation_sha256": "b62fc0f16d593cdf051d357b998ce9b3ee85f8d1a2df05075d1860204a6339a1"
+      "context": "spl-cast.cc target descriptions; spl-other.cc Sublimation of Blood; spl-selfench.cc:cast_revivification dec_max_hp followed by set_hp(max)",
+      "translation_sha256": "1fbb508c0d7a06fb896286929b831beb6fbb4ca31dcd23f11b8ae12f600cfc22"
     },
     "Your body is bloodless.": {
       "context": "spl-other.cc",
       "translation_sha256": "2056d5ae2bba102349373e1864785dfa38a53a7f3fad99eea36f12391962f3d6"
     },
     "Your attempt to draw power from your own body fails.": {
-      "context": "spl-other.cc",
-      "translation_sha256": "775fe6aa300900dd589e21bca11bce705fe71377c6d572aee2edd3e9bcf6b8f0"
+      "context": "spl-cast.cc target descriptions; spl-other.cc Sublimation of Blood; spl-selfench.cc:cast_revivification dec_max_hp followed by set_hp(max)",
+      "translation_sha256": "984ce647694b65ede51e774fa98e8346dfd21e0a1dc794b326e3ac9b5e35bce5"
     },
     "You draw magical energy from your own body!": {
       "context": "spl-other.cc",
@@ -15412,8 +15412,8 @@
       "translation_sha256": "7e32f39d3604a75c08753327634341e3555fbd031926c64b50744415647cace0"
     },
     "Your body is healed in an amazingly painful way.": {
-      "context": "spl-selfench.cc",
-      "translation_sha256": "14f1beeb94e5a82990ae83c257553a6aca3d3ddce4ac63efbe5447607aa79baa"
+      "context": "spl-cast.cc target descriptions; spl-other.cc Sublimation of Blood; spl-selfench.cc:cast_revivification dec_max_hp followed by set_hp(max)",
+      "translation_sha256": "da5c11e9ccf2788770da46a7c6d72ed236749caf7f9bdfc74f5d20180a302b74"
     },
     "Your life is in your own hands once again.": {
       "context": "spl-selfench.cc",
@@ -16876,8 +16876,8 @@
       "translation_sha256": "7fab159fa4d344dbfe588bde7793d5df46aad71f7645014b19562fe3b5167a59"
     },
     "You are caught in a violent explosion": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "8a54d146c0f93862570e908ae3d654ff8c6aff03d474391124aad26c2300aa98"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f4d18df4252936c13197583ef70fd2647074ae6a170b80618b787fa70ffae185"
     },
     "You are blasted with magical energy": {
       "context": "spl-miscast.cc",
@@ -16904,8 +16904,8 @@
       "translation_sha256": "cc405467f93ddda55b709ce7decedcd42930f9685ec730b652cd11125904b8a0"
     },
     "@The_monster@ is caught in a violent explosion": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "ed7256813f8196345d15da67eebe0179ae6ea8aab783d99b470f63ce2d37df4b"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d1227ba1d1c75d109e3701919319a6e27ab6ac20caf7bd9b60ec064608975b53"
     },
     "@The_monster@ is blasted with magical energy": {
       "context": "spl-miscast.cc",
@@ -17284,8 +17284,8 @@
       "translation_sha256": "03aa0864694510bb8f1fb67b84e31e4c98925c9bbcc28ff76c3b3dcb889fd4d6"
     },
     "You are caught in a fiery explosion": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "63345d6e1be7fac65350397bbd4e55c22bb38fb614af8ccc07a1573d7ccd7e05"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5f2d388ea674f8368047985a7185c231da473e1c23c3a777defb63d34f9bda9e"
     },
     "You are blasted with searing flames": {
       "context": "spl-miscast.cc",
@@ -17320,8 +17320,8 @@
       "translation_sha256": "f494c2c489397173fc1d437f23519b4d1e0ceaad75236889fd3f7fa083fd98db"
     },
     "@The_monster@ is caught in a fiery explosion": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "9086c20c7e307b13bd49b252589bf2cd7e2d7a84786a3f7e75b65b7b9ddb8a86"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d791e9ae84e73c9b2f8de3fddac428e6b4effb12607c96006e764e8e5756b6d3"
     },
     "@The_monster@ is blasted with searing flames": {
       "context": "spl-miscast.cc",
@@ -17376,8 +17376,8 @@
       "translation_sha256": "54f6be4baa47768fe3e85e8d7a9f35792be6dcaa86dfe103728ee6461b358025"
     },
     "You are caught in an explosion of ice and frost": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "55d74f85bc6aef3902e17854781ed54717160553b71b1a31b2b926e07439cd62"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "09f58d4f1df49bc03d2b1d902cd35140c9b0099248b805da6ca09385137c668d"
     },
     "You are encased in ice": {
       "context": "spl-miscast.cc",
@@ -17404,16 +17404,16 @@
       "translation_sha256": "d04edbffa0852ed18051321032e5d01d6c3ad9db888a44d82a79ffe5e0313f73"
     },
     "@The_monster@ is caught in an explosion of ice and frost": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "9c9ad052e80cf8e4653751a16523adbdab0dc7b41d74289b82892c4c7033572f"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2181535c310f92bac73ffb16a7260acfc3806379828956d8e15503c36bceeb52"
     },
     "@The_monster@ is encased in ice": {
       "context": "spl-miscast.cc",
       "translation_sha256": "62bb0abea1695a6b8ba88a08865b1c743a74a375e94a3dc311b293e859e77d3f"
     },
     "Wisps of condensation drift in the air": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "eda5b6977d87c29ca1cb204fcc16c7e7d048582204bdc9a6cdfb676475b3248b"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "41c4051f5f9c7573bf001628b39b7d1d9fd15cc4de6f498e5b118e0a0e9315ce"
     },
     "Ice and frost explode from out of thin air": {
       "context": "spl-miscast.cc",
@@ -17448,16 +17448,16 @@
       "translation_sha256": "d55b5df6d820791f749706dee49a15abffb9724b90af2c7a0b9dd324d2533ac1"
     },
     "You are caught in an explosion of electrical discharges": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "e005b35477d6c8367a74f71d705849dfed732226ffe7d0681f54c5b72235b56e"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2943e619370c6082daacac09fb2433579fd82c5fe953477c9d68a5814a2920d4"
     },
     "@The_monster@ bobs in the air for a moment": {
       "context": "spl-miscast.cc",
       "translation_sha256": "6a0412c06bacef2ece4b766fc80ebc31e606c1575aa6105d8caa694d61711a85"
     },
     "Sparks of electricity dance between @the_monster@'s @hands@": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "2a60deb0367c06882b72468e930d555f00e05b4389373613130794d32ec526c7"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "0f71ed4b76f0bd8985d2f97d1aad1e6a4c292cff1277bbe58e418404a04345bb"
     },
     "@The_monster@ is blasted with air": {
       "context": "spl-miscast.cc",
@@ -17476,8 +17476,8 @@
       "translation_sha256": "f0c7cd26659dcf1d9aca4a30ac7169444733d8fdd1c27294c7f48f069ed83575"
     },
     "@The_monster@ is caught in an explosion of electrical discharges": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "18c4a3add7da9d23029e40df0722a8252129191ae08635f334ee08049a14355f"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "e3fbeebc061f9d21f36c6c35e52f7f0af71a564f5956fa2c6b93128ecb901c1b"
     },
     "@The_monster@ is struck by twisting air": {
       "context": "spl-miscast.cc",
@@ -17528,8 +17528,8 @@
       "translation_sha256": "f06f95e3b79321758168d7e195d2454e9a03cb3b8809f8dd0f1886fb4797699e"
     },
     "You are caught in an explosion of flying shrapnel": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "dfd9ff16292bd4d0c0cd4df57ad76730bcadecfc7a6ce4692fe7fcb4e1216d98"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "4d72d4139d06f7b11bb04d503bda4a706bf2146aaec6f946d73af406eba1633d"
     },
     "Sand pours from @the_monster@'s @hands@": {
       "context": "spl-miscast.cc",
@@ -17548,8 +17548,8 @@
       "translation_sha256": "0313bc5d16509b3dd1bb0b5930b19315edb98a76347e9e3dab17dde4c98c54cc"
     },
     "@The_monster@ is caught in an explosion of flying shrapnel": {
-      "context": "spl-miscast.cc",
-      "translation_sha256": "ee2cf6a331ee72b017aadf4b1b1b6f403f2ded5185e7153a5b70033258d1619e"
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "986f589827bf5bea0548900041bfdab40b5224fb81f23b789c38d7c2cdf36d7a"
     },
     "Flying rocks appear out of thin air": {
       "context": "spl-miscast.cc",
@@ -57402,6 +57402,694 @@
     "You are not under penance.": {
       "context": "describe-god.cc:_describe_favour, religion.cc/player_under_penance and targeting conduct warnings: penance = немилость божества",
       "translation_sha256": "3ff8886f8d55b0bc3acbe5d335e11b512ffab2ca5542975d574b82b28071dab7"
+    },
+    "A strange surge of energy strikes you from nowhere": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "422d77849bd6a3d56569fe4723cb54d56ab70839e216b4c2e78ecd98ef7974a2"
+    },
+    "You feel as though something walked over your grave": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "e97decbe0d3dea9d906a1abd6887e996fdaf593e391201b166f6c61752587420"
+    },
+    "The space around something warps impossibly": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b56f99942f49f8f66ddb3e933cf14c836a558ae94c9aad14f4fffffca15e30a3"
+    },
+    "A piece of empty space twists and distorts": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "6ec17ab98963abd2e358a115cb7a321347c63ae72702b6f5e8a3ca4c798b25b8"
+    },
+    "Cinders fly from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f7a366d5e3e828fc31034cb3fa2f8ffdf4d24e4dc2f9a0c0c76a405fb6334568"
+    },
+    "Ashes fly from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "811dc47363e9525106943ad66d4405381b9bea0bd190bf7121b1cc8559022a3f"
+    },
+    "Cinders fly from @the_monster@'s @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2998da11890e73a44cb72ba3146e506727247ac715262f2329c098236e4ee03a"
+    },
+    "Ashes fly from @the_monster@'s @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "fd9b04a7e0f4f1fda9fd42270acf16854df34d89614f77fee711ee65445832c7"
+    },
+    "You are blasted with searing fire": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "674862b628b44fe826346993e865dff86ba0f1a17bc0f8ae1c7fd7b5661636ee"
+    },
+    "You are blasted with flames": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "4a849e0e7faeaafffacc77321025149c3a9be4984269bd0b6f3fa2dbc3bbe968"
+    },
+    "You feel a little bit cold": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "08d5228d97eee035b726ffa0f827b9b28882a9f41bdcaea5d94865162a5b9c44"
+    },
+    "Ice covers your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2caf3b65f8385c9fc1ce86a229e47f488f31f9b2a242fedc00edbc662e9720ce"
+    },
+    "You are encased in frost": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5d2629904878f7cb34d8926cc30bce4260c8889c8f730e81839e0aa3c1efbd9a"
+    },
+    "You are covered in a thin layer of frost": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "29215417b0498e9d9836e094173d64670adcbd6109dd8e63f083e1957184f937"
+    },
+    "An unseen figure is encased in frost": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "aeeeeb77bddb7f51a2923a42c92c4d66e05a50885a915d5982c35542bcf5d0a1"
+    },
+    "The wind whips up out of nowhere": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "a44899201780e55f52926c2b78ea6936f4b2f468e634be302a3ec534829eaf02"
+    },
+    "Gravel pours from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b4f54f2b52c9f0b1a1e10e6878723e5f00e03c69a5727dc17b4c8bfba508f4eb"
+    },
+    "Gravel pours from @the_monster@'s @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "08a17f2681fa2f96b2263467b222a116e25228eb848003057786595aaacc1746"
+    },
+    "The floor shudders beneath you alarmingly": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "432977bc0f2af4b8aec75bc37458df1d92043e32ebd851ceab17fc5e182a6d2e"
+    },
+    "The floor quakes beneath you alarmingly": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d89cbf3b3f11772c19d2f0bad68e0b006b2df051bca2881196a601da62faef7a"
+    },
+    "The floor rumbles beneath you alarmingly": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "323e95ce87cbe9b0f551d64aa5f5ddde617c4f556a5e708931e5010f33b69fd2"
+    },
+    "You are engulfed in toxic fumes": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2f66b75055727cb8c35014463f5c4c656889dd9df1b95de735b56780217b7510"
+    },
+    "There is a flash of cinnabar": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9624503a1d7809b9318a59f518b484c45d5d40032a6624e916f5cebf0efdbcdb"
+    },
+    "Parts of your body briefly turn golden": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "719c616d89ee88981bc74b2fc1efdb3c1d4558935a77ee51366089f4ae521055"
+    },
+    "Parts of your body briefly turn silvery": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "61ea4aa820eb435b2bb88c7416330cbfe04820bcff981501bb25f7524ace56aa"
+    },
+    "Parts of your body briefly turn metallic": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d0d9e7c3f8abd71690bfd00242c335385a9f9e67b6ae71ffb6cf85c851a9ef86"
+    },
+    "Parts of your body briefly turn leaden": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "85c24feca5fa483278295cfcdda2dffcab23823ec6bb3180a2c354632e527af7"
+    },
+    "Parts of your body briefly turn crystalline": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "8b6a57b1d4b3dfe9d1fec07ea6f8e1287740049a42d405bf4dad41039025cb71"
+    },
+    "Sulphurous heat explodes from thin air": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "53cf8f8d9a5eddc1dc508b8766a55f3cdadd739636950843ad0390df6d7c062d"
+    },
+    "An unseen figure is coated in salt": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "6977239948c9dc999d08468ba4936d74446fe71417ee3db9baa5b1837ffb57e2"
+    },
+    "You lose structural integrity": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "8f4c6175526c1027355d796465b84e7ae878b0e1329316dc8ea4dc319f82be8a"
+    },
+    "You feel yourself deconstruct slightly": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5882be75c89f75753236be48ac918b3c171b9c450018f4ad86633d2500599267"
+    },
+    "A buzzing sound echoes in your mind": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "64e8dfc0965954136513c0dbe4bdc0100e3759ffa64168ec88c811fdccb62732"
+    },
+    "A clanking sound echoes in your mind": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "2e08c9860cb2c79d814c58016782d6eae8ffa03abb8f28d08d59761bcfa14b23"
+    },
+    "A creaking sound echoes in your mind": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "48ae6720576cb5c21847b2c5269efa234ab30e1066263615eefa3f4f0092a58a"
+    },
+    "A whirring sound echoes in your mind": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "4e03e1c8069ce6cec98d6d595814469b7f1af7f08f727754efd15ebe2589433f"
+    },
+    "Metal odds and ends fall onto you out of nowhere": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "e9fe9ced722d70a05a43bb8fc414ad8eaa487d5b0e3beb35fd2e28078ce30c94"
+    },
+    "You are covered in metallic shards": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "10bfe1920c06337cb55e97d8aeb21fc8848ad2286552241e4777a0787ffe3564"
+    },
+    "You are caught in an explosion of metallic debris": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "34fe3943dc5050faf4d806258e96d881d3906e04f3459ec0e8cdf769ce23c441"
+    },
+    "Metal odds and ends fall onto @the_monster@ out of nowhere": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "05e17ce95dd57e826ea8ae3261d2eba2f2007266b907a751c70d9ccc698fddfb"
+    },
+    "Metal odds and ends rain from above": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "38ac4bed6dbb5325778ab5933de150a220dd0007848b27ebe6025f5899dab024"
+    },
+    "An unseen figure is covered in metallic shards": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "36ad731eceab195336ac5724d7433d5fa7feaa99854ace0bec9a1930f669c9c7"
+    },
+    "Metallic debris explodes from thin air": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5506ffbbcaf70c79ea44906b166098c69961244d320f55473eb645990570ad76"
+    },
+    "Mercury flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "71c70f8631b9f6a9e29d12e88435ed0fb0173b70553e55b95004e844c6fcf347"
+    },
+    "Quicksilver flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "71c70f8631b9f6a9e29d12e88435ed0fb0173b70553e55b95004e844c6fcf347"
+    },
+    "Fool's gold flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5a859ef98fc5300da4b44f5bd58b98c80a1db7d3440e6bd811e1db2febba97bc"
+    },
+    "Saltpeter flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "60f37c3f74fdbc61c60c149da6fe24c99b024d63a4c6c998f03517c41f3a4686"
+    },
+    "Sulphur flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b9e49cfe32235783ffabd6e7873ee3ccb5acee4f30cad0c35a36f202c7171042"
+    },
+    "Liquid metal flows from your @hands@": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f23943b47b047e7276336d3b9513a7686d0d68cf5b2aeb470276a9df66809cdd"
+    },
+    "@The_monster@ looks as though something walked over his grave": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "c1abe9c54665127e63939899379a7b914cd3ce25b9049807375a40d13f217b58"
+    },
+    "@The_monster@ looks as though something walked over her grave": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "1b16d4a2391da3fc066bf23977ee71ba99382761f377efc31ef57a92f6061b51"
+    },
+    "@The_monster@ looks as though something walked over its grave": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "c1abe9c54665127e63939899379a7b914cd3ce25b9049807375a40d13f217b58"
+    },
+    "@The_monster@ looks as though something walked over their grave": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9942d31a2f81069f71686dd39addcf8e02684c2454fdfd85e2bb93bbe3812b9d"
+    },
+    "Waves of red light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "eb958d5af6783b8bce5fd8796e394651e4cabc5eb7aa453aad7c9f031914b6dc"
+    },
+    "Waves of red light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "70d61c915572463d32c1d7d512d28665c4602d99aca84fd6754d481325132a4e"
+    },
+    "You are overcome by clouds of red smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "332b1542b47460a283fbdd8bb90b3706a560f9ef09cdc29b9e0815a113214965"
+    },
+    "Waves of orange light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b27be902154063d493ca300183fbce220541bdc1234873717306749e0bf7b216"
+    },
+    "Waves of orange light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "843b69a25c6b54c45f98b8e41905c001b95d0f5646464d039d9428bc37ba0600"
+    },
+    "You are overcome by clouds of orange smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "fe99a73f54ef4fe13c6b560b679c9fd5cbd76b25f5d2a8895f563752b6eecd8b"
+    },
+    "Waves of yellow light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "3a009edca4a8cb3031e25ee139487aa766662beeb18565953b8d42634f85ae39"
+    },
+    "Waves of yellow light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "bd15b0b58bf5fa2cecc33e5ce43589c7f7f3e4a3dd4b4a83c7e77e941f7cb04c"
+    },
+    "You are overcome by clouds of yellow smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b0b8ff29bd6a6bd473988f5fc10cca0287fd69e36505f327d1f39b2ec75a31b6"
+    },
+    "Waves of green light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "46e5d5f7dc392ea627e807e655bbaa06a031cb074126dc71e7fa7df52523d05c"
+    },
+    "Waves of green light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d95144faef49126098c838710ea423a187a419df2cc8662b367a677866747ac6"
+    },
+    "You are overcome by clouds of green smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9ddb9c9d468c6acf7dccfbeb0cbf8f2597ee3b6079ba4553604f4c94eded84ac"
+    },
+    "Waves of blue light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "d3e5b7bdc30600dfa73c4e9c6e2fe15c866aea8a4a1e976c2893c61af9e091b8"
+    },
+    "Waves of blue light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "0aa4934af2b3b84b9bb0791dcec59741471be67af60981c66d9f93970574450a"
+    },
+    "You are overcome by clouds of blue smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "6421bdd45fe3a77b178d16a710fa8457edd68f5dad8955cdde316a4041f0c0ed"
+    },
+    "Waves of indigo light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "66c7c78668886cda7911eb31d16defff02e3092d9de45a82d3666505b3336ee7"
+    },
+    "Waves of indigo light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "5b73c9abccff120991176bdcd1b13f660a353ea2be9496a63d980d5e651ecb1c"
+    },
+    "You are overcome by clouds of indigo smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "002f08a2f0b676a08131a5e288d16da80010d9586c3b0167ffef9d08953de0b5"
+    },
+    "Waves of violet light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "a844a74812c021b91334bd9dd608555ff3d04bd105423d2974a293997e986666"
+    },
+    "Waves of violet light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "19a5ae7c8f04be1a323333e4c4b68d61e408b16c856e16baf812f63ee58f5c44"
+    },
+    "You are overcome by clouds of violet smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "067acb51b113520aedb84634b63fc47064f29b3836794a07ab5d3b6e77a649a3"
+    },
+    "Waves of black light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "de4b525587ada36a21f7a920bf8d7caaf88c9faf929080abfd7a8cfc0d7009fe"
+    },
+    "Waves of black light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "4e7a50e1b28a21300639fb950e9295271d138ecf172be34c141feaa13a440a6f"
+    },
+    "You are overcome by clouds of black smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "8c12e612ab808e2272a348f4e411775c4927f549162267cd1d9d27f82f35c649"
+    },
+    "Waves of white light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "6ed9dd6d64b98f133772b2ace9950d353d258a53dc929754cc7474a004e311f2"
+    },
+    "Waves of white light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "ca253ee4e08479d6ad384c99f6f577a333902b637ab5742754b45f9a01af797a"
+    },
+    "You are overcome by clouds of white smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "513cf4df3ef9338c53b3d5ba8b9c1183918f0ffc3ae20ddb802ac4ed64e4de16"
+    },
+    "Waves of grey light ripple over your body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9dc2e2ce3c2050136495f44f7bb79a12ad29a274251a62214359f2c828a4ac42"
+    },
+    "Waves of grey light ripple over @the_monster@'s body": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "908e9d00d51844db92ca6f7bde147b5ed67916213343df79b2b82c475d02cc9c"
+    },
+    "You are overcome by clouds of grey smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "a2243d0b7013c4f9b2db5edd09b72e7d6789ee7a2c19493d2eea57af801f43f9"
+    },
+    "{ins}hand": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "ecac5d3e6dd5d62247266e3ca3342b237f4ce16ffb0be3cf99b65e10a6b14b15"
+    },
+    "{ins}hands": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "240b1b557e9decb26f6d0403f03df4f4d0e9c0b94ed92d33149f0f100676a85e"
+    },
+    "{ins}claw": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "550f2b7c83941c30831b284cbaba4820d03b26bdf1d4c65796c74c0bca248b64"
+    },
+    "{ins}claws": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "391cc3fe52ea59bdaa8ac2c1686b48fbfd2fe219e602e7799a1b8e3c6602fc23"
+    },
+    "{ins}paw": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "05d7ffa3c39168f1d985dae6adab40bbb11250efc9c2bc55e77cc391cfd2ab00"
+    },
+    "{ins}paws": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "21dd4aeab4882e50ac965ad2875f85ef54ba71df6e1b448d225651b8bb89b067"
+    },
+    "{ins}tentacle": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "25bb59d0f23b1231297dd9fe929b9980ed07a84a0fccd8450a5ab7a37c5b3412"
+    },
+    "{ins}tentacles": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "80746e7035e54bedab8f3a79df8227768902b852d6ad385c882622c51e0e2a34"
+    },
+    "{ins}pincer": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "06156a9a7333ea4d9e38a5a45c0a73e1114c9ae1f4a8b92beafe1eb81233a9b0"
+    },
+    "{ins}pincers": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "0c2e4a262f162b9aa40396520a4ce8abfd69c8581b995943c67c370e25d93a65"
+    },
+    "{ins}wing": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "360d257a9296989fc1358ada3bcba3f6322fd1529b06bdeb9610b0dd06ef21b5"
+    },
+    "{ins}wings": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "6a80ce2808b63124b7e06acfa0139be29cd1be8f857af8466be66b5d9d62946a"
+    },
+    "{ins}antenna": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "39b6a984111c2bec3ad384103a3d155e3cc07e738508303bfb10083b229b35d5"
+    },
+    "{ins}antennae": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "1d0829fb72ce4b6e44aa2a0a97c7ebfa22a3887236389db5d6f8fd1ce9fc979c"
+    },
+    "{ins}eye-stalk": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "2d820da1869ee58d92344be06260d7a235ee9b32e5f2832c5eb35d7bd895ee0a"
+    },
+    "{ins}eye-stalks": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "537ee548ab5305d7218ac45cbf918f1fa4d51d6f252fb4a8949f72077895b5a7"
+    },
+    "{ins}leaf": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "351fee1795fa5ffef49e715ca19f01b1ab3ed342ea247182b006b7f960cf3e37"
+    },
+    "{ins}leaves": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "aaabd3094317a0cd1926c3569cda4421d93438df7c503bab28e274df36f39d67"
+    },
+    "{ins}rhizome": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "07e3b165b9e0b501455dd67676b74b97eabb6b328a257ea44f9ba0103e0ad3c0"
+    },
+    "{ins}rhizomes": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "421d1bd528540cabee80a9a52eeb84c65fd808df60846818849b5073d8947e40"
+    },
+    "{ins}pupil": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "cc715fbde76d63762562977ee285b3bd44b9693a66db6dc0ac0b1b6ca8c30644"
+    },
+    "{ins}pupils": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "fa34db1121a0608a49745172a449c99c62060647dd6e93795b9ccaa7d383c259"
+    },
+    "{ins}leg": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "1ce6e8b0677fa16b9aa9430b87fd46a2865f6ce6208e6cadd99a10bdf5c15e17"
+    },
+    "{ins}legs": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "aed74d34fcb806f677ab8b69d26c2547fa832a1c999ee44cbdfacc3c2b4dac7f"
+    },
+    "{ins}hoof": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "a32a055a37b3924daa2e07ee248d6fb1fe21be6dd8ce408b9596cac725b3e0a2"
+    },
+    "{ins}hooves": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "6c60e9bb5935622b27bdaf291937218d8dc89e9bcbe68306e6998b697b79a629"
+    },
+    "{ins}talon": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "550f2b7c83941c30831b284cbaba4820d03b26bdf1d4c65796c74c0bca248b64"
+    },
+    "{ins}talons": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "391cc3fe52ea59bdaa8ac2c1686b48fbfd2fe219e602e7799a1b8e3c6602fc23"
+    },
+    "{ins}pseudopod": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "99e1bb178ead831cf96e85d8de4015de6d3e682ac4c243244832a45802ffa749"
+    },
+    "{ins}pseudopods": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "94a5c53493520f6ef9c1638c7f9d41baf7a6c51baa59430c48d7df58990df80f"
+    },
+    "{ins}foot": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "719b646ff48639daa820a94c3ac417ed07d409bc37296dc29a5839c5027afc61"
+    },
+    "{ins}feet": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "9aee3ed69c17aafc41e36c17aecd40d31bafae89be700eebdf8aefab9f66d975"
+    },
+    "{ins}body": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "3fa5263c055ead352fd288eb09eae979165b23a4c37de9635727a4b263234005"
+    },
+    "{ins}stratum": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "4713be2be85f84c22f183efaf9ce546cac4265264cf3c76252eac7b2983f2aed"
+    },
+    "{ins}strata": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "efb9b1921e74a3abaf76d1856fa0338d7683890e250d5a34f40df0fb0173b125"
+    },
+    "{ins}tail": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "c31abd1d79a35941d0227943bb21659d260afb7f57cc4810a8df1c3d2872d4ac"
+    },
+    "{ins}front paw": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "2b0b58cdf7f2baed6a3226577f75773844276b1d10e71527b32fe09fda043437"
+    },
+    "{ins}front paws": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "33670f7968fa75d0a58790b442907050b2db87e88ad5eabeba2a80fcbd43238c"
+    },
+    "{ins}front leg": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "2b0b58cdf7f2baed6a3226577f75773844276b1d10e71527b32fe09fda043437"
+    },
+    "{ins}front legs": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "33670f7968fa75d0a58790b442907050b2db87e88ad5eabeba2a80fcbd43238c"
+    },
+    "{ins}front foot": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "0560223bae096c55fcdf617f4040fefea50e082317404a44459cbb4808f0380e"
+    },
+    "{ins}front feet": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "976e8e4b95f0efa83260806eff0b05bd9ab0cfb0bcfd9468e0863d1622dc5d56"
+    },
+    "{ins}front hoof": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "30f6281b29797f12cde976372704dcd905778a3244f3347608b656b2fe28e9a9"
+    },
+    "{ins}front hooves": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "ea1e3e6bf7c3e793aef7e76a8f4a24f826e07be217ed8f98d0716f56804b77aa"
+    },
+    "{ins}front talon": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "84b1d1932bc112ac3f77a94c8ab8653c2f81b63dd4a69c9e7b4fde9b3827b583"
+    },
+    "{ins}front talons": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "398b1d7c77587ac37840b419dfe91666dc1d0c4499f08b8e83ccd078c54d0f5d"
+    },
+    "{ins}front trotter": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "0a30742133937de48c1fd02eb80c97fdd69f8ee90137a1a4a76804b8839c8a79"
+    },
+    "{ins}front trotters": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "9460364a37c0df6dfeeeb62a75d42794ae7255aa94f9a2dba5d4e33e4e202b05"
+    },
+    "{ins}blade hand": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "d8e2f40f5c5230fdee3ab0f8291361808cc9cdeb8c3ff49cd7878dc5f88aa4d9"
+    },
+    "{ins}blade hands": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "bb2d245a60fd8d3bda7350c602864b4d69b0463b7f2fc5bf1fcffdaafcffd01e"
+    },
+    "{ins}blade paw": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "6b383d7b0c1c367b36f4fa47a76aac31d2c5c14319f238762ad911f85da78cd2"
+    },
+    "{ins}blade paws": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "212cd06188641ce994d23311e5eabbd142e3385745234760ff5b51f7fc66ca8f"
+    },
+    "{ins}blade tentacle": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "66c6106e6424ce053d2b4801e0490db83111605260295e0dd7c2e5aaef93a9f7"
+    },
+    "{ins}blade tentacles": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "70d296a2bed6c70a3f17b2e3204efc320a57f342905b9db03427a3afb8d0938e"
+    },
+    "{gen}front foot": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "09b5baf1cd3e819825bb2f57799cf63466ec5985c1807727b267f88fd13a3dd7"
+    },
+    "{gen}front feet": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "a96e6ea3be10926f15c17e5c417f59aaf09c5cb846eec9221b8a9a90121f9eed"
+    },
+    "{gen}front hoof": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "619eb71da3cf93bb7de290798712eb35fa9759a29c61eb858772d8960d3f7261"
+    },
+    "{gen}front hooves": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "ba5e0be8ced95903ee1aec663365ceea4d94bf27a93df06d18e709e176be72f2"
+    },
+    "{gen}front talon": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "aae512d475937d024be8370ece23387aa66851836860581441289dd4463a5a0e"
+    },
+    "{gen}front talons": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "3cc039ba83396da0440a904a91d0d6de00c024f6b12949d910abeeba116dff8b"
+    },
+    "{gen}front trotter": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "60b2d43924b48dd136a1a67c4a81bae8857c5ba4cfc7929daee282f04cbb3fef"
+    },
+    "{gen}front trotters": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "14c7c18ba52bceccea5726916dad8d1513067bed880015394a0aff6b09dcd474"
+    },
+    "{gen}stratum": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "2a8960f751ba22c7a8e5233933555bc4274f81e1ce7b21d43bc4665b9042a013"
+    },
+    "{gen}strata": {
+      "context": "monster.cc:hand_name/foot_name and player-act.cc:base_hand_name; Russian body-part forms for spell messages",
+      "translation_sha256": "f3b67d5ecd0cd97a8f8c24eb49720fe8c1d9befb1ddd69c62e9253dee7143fb1"
+    },
+    "@the_monster@'s features rearrange themselves for a while": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "39b878538187a02c86bc02dcf2090846857b0b7873481ff036fd2395d1f182bb"
+    },
+    "@the_monster@ is blasted with searing fire": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "909d068b2909600f59a33c14607de55485305e8d38cacd93beea6b40a74c44e8"
+    },
+    "@the_monster@ is blasted with flames": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "a97dba85ff9e1ab3c3d152551a28043a342233ca364fa8c6002aadef7075f6bc"
+    },
+    "@the_monster@ is covered in a thin layer of frost": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "909b21e54533a26a2e18d9c972507b84b0da9ec1e91ea395dcd87aa8f3056177"
+    },
+    "@the_monster@ is encased in frost": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "24a2449ec3fdc82d4f54f099fd46c8f4551faa7ee8d341144ec84c986ad6e9cd"
+    },
+    "@the_monster@ is engulfed in toxic fumes": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "fe4bbb1ed2bafe74d14d8d2c6b69cf4c42011b1aaf4d0ce1108d3025f1aeaa49"
+    },
+    "@the_monster@ is blasted with cinnabar dust": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "7a0e5e4a4f9019c16f20d04b01d8a0b8e187ba03d97bec09dc28383f34b67069"
+    },
+    "@the_monster@ is blasted with sulphur dust": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9718886b223ca35fcfce2b19b820e32a4c573b06f2c41e3d5a455a9d59b5a6cf"
+    },
+    "@the_monster@ is coated with cinnabar dust": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "cd116ff38dbdd0cae113305788cf70e239c7dac1896ecf8d7667bdab235c78b8"
+    },
+    "@the_monster@ is coated with sulphur dust": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "577beec1cfe5f2e03d5878e16d2630e5e5068aa47e1250ebd38d14238364cfd0"
+    },
+    "@the_monster@ is coated in salt": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "6c6c95033a16b4d372f326282f038733742d1bdc48eec6df425460987e1c15fb"
+    },
+    "@the_monster@ starts coughing violently": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "89c6bc68a2710ef94e53119e4591c453a56bf916ffc417f7d12b08b7aa376252"
+    },
+    "@the_monster@ loses structural integrity": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "cdf370b5810255fb8af9991ccaeb85c93e4c2e808a6bdcbe303002a85245cea4"
+    },
+    "@the_monster@ is covered in metallic shards": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "7567b1a23df9ab5e74f7d3b8449461c528a5f3f55ed7922cf19a810db1eddc63"
+    },
+    "@the_monster@ is caught in an explosion of metallic debris": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "67a61add559fa3da561462bfac154ee8e77c11e8c7f0083f856f944d377a521a"
+    },
+    "@the_monster@ is overcome by clouds of red smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f0d45b0592735076de4e34718be31f662e9306e8be6fc860dcc5b7bb6f88143c"
+    },
+    "@the_monster@ is overcome by clouds of orange smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "c9362dc39bf9708bfb13cf62188c576d5a8027d53f5218e97be870574454bd25"
+    },
+    "@the_monster@ is overcome by clouds of yellow smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "b19b71c4df0592dd2ed895c1088454bc35d2e02f2512a9b2c7ea37c75781fa35"
+    },
+    "@the_monster@ is overcome by clouds of green smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "402022bcb140127a6084ed5acb685e723cb00f2c57bf29468aaa1df4c3af5e98"
+    },
+    "@the_monster@ is overcome by clouds of blue smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "cf661f1ccb7cce2770047ed438a6c2c9db3e2055b3399b888ed3fe600aa778b2"
+    },
+    "@the_monster@ is overcome by clouds of indigo smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "9a2499170601c3d0d3f6c209b8a3b4b560d9b45d8822a1bd1f9f6bb73574f885"
+    },
+    "@the_monster@ is overcome by clouds of violet smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "73a5c958defa9c58b183227dfa2b42bf4b9866ec9bb91a699e63cf772cb023f8"
+    },
+    "@the_monster@ is overcome by clouds of black smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f50518573fe79482bb97298bb42add06c51ad7ef9dff7e619d2ed2ca8924cbdb"
+    },
+    "@the_monster@ is overcome by clouds of white smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "bce3cdb79cfed62038a44b8994bf6d7ba65a2a5d7c39abe1ecdca1f528591013"
+    },
+    "@the_monster@ is overcome by clouds of grey smoke": {
+      "context": "spl-miscast.cc:_do_msg and dat/database/miscast.txt: actual random variants, hand names substituted before localisation; no gameplay effect inferred from flavour alone",
+      "translation_sha256": "f4c25d30282e643a3111ee1cdff100032e24a46e69bac76398c88da1b0165e7d"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
