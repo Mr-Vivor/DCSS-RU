@@ -63337,6 +63337,14 @@
     "Remember @player_name@' name as what? ": {
       "context": "god-abil.cc _hepliaklqana_choose_name asks to rename a user-named ancestor. Strip the English possessive in the pattern and use literal @player_name@ to preserve Cyrillic and English names without translating, declining or changing their case. Keep the prompt trailing space.",
       "translation_sha256": "2315f90ca907390fa4857767180a5f35ba3604d379c2ab976ed14dee8cedaf30"
+    },
+    "Remember @player_name@'s name as what?": {
+      "context": "localise.cc trims boundary whitespace before trying a parameterised prompt, and restores it afterward. Provide the trimmed possessive template as well as the prompt variant with a trailing space, preventing the imported generic @arg@ fallback from capturing the English possessive. Literal captured ancestor name is preserved.",
+      "translation_sha256": "190fe95a182db11584145786f1d766bda08f02397e7fbb0158de5fa62191c85b"
+    },
+    "Remember @player_name@' name as what?": {
+      "context": "localise.cc trims boundary whitespace before trying a parameterised prompt, and restores it afterward. Provide the trimmed possessive template as well as the prompt variant with a trailing space, preventing the imported generic @arg@ fallback from capturing the English possessive. Literal captured ancestor name is preserved.",
+      "translation_sha256": "190fe95a182db11584145786f1d766bda08f02397e7fbb0158de5fa62191c85b"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
