@@ -310,6 +310,12 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "В руках подрагивает ручной топор.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
+    CHECK(localise("Your paragon deflects the bat's attack away from you.")
+          == "Ваш платиновый идеал отводит от вас атаку летучей мыши.");
+    CHECK(localise("Your paragon deflects something's attack away from you.")
+          == "Ваш платиновый идеал отводит от вас атаку незримого противника.");
+    CHECK(localise("The bat fails to defend itself.")
+          == "Летучей мыши не удаётся защититься от вашей атаки.");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
           == "Вы сжимаете фигурку многоножки манипулятором. Она обвивается вокруг руки и срастается с вашим телом.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")

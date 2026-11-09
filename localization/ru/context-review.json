@@ -11195,12 +11195,12 @@
       "translation_sha256": "1bf7079b728503f7111d3aa4ddf6036f4e071f7c50f1d8b7b700738e9c9e6a15"
     },
     "@The_monster@'s sight is seared by the starlight!": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "45d00686c847ae49401d95cd234e521286c73ba3d64e86bdebe7ac16cf70f120"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "48fa153f0823c52d0472da84bc90614de23e49abbb495da52ec0ee9040a87047"
     },
     "@The_monster@'s vision is obscured by starry radiance!": {
-      "context": "melee-attack.cc",
-      "translation_sha256": "51332f98f78b2074ed92dbdcbf656381c5717d4cefb3f38891328b220fd95724"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "07c594392d376270c3ce8ce88818083d9fdf1f7c33d4bbc74ff507299dc3f6d2"
     },
     "You riposte.": {
       "context": "melee-attack.cc",
@@ -13779,8 +13779,8 @@
       "translation_sha256": "f7f4eb59f27a0656c0e2b73259903058ac3aa19bbc9f514b4b94505a5c5475bc"
     },
     "You hear the shriek of haunting fire!": {
-      "context": "beam.cc",
-      "translation_sha256": "03e11af45d1a5c81719d5db5129b2a5fd4bae0463d8e2e07e3cf60a08d79eee1"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "3b3c3c93912e0c6dc2562b54df6fdf2d98502268bdd6bebd65b6acb868b72a37"
     },
     "The enchantments explode!": {
       "context": "beam.cc",
@@ -52543,20 +52543,20 @@
       "translation_sha256": "bdf484be9cafc7a5275de8700b111681294b2a316574cf4b27e7b621b1578257"
     },
     "His orb emits a pulse of dizzying energy.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "5c8da3219147379e338c05b550494bfa11d14cc6f12b40b68325d9bf4f9e696c"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "6d32312c0662e9ca5142dd3feaf99641698c5eff3f1219c036433dde4dac1db2"
     },
     "Her orb emits a pulse of dizzying energy.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "d64c32524342587684ce4733f39cb65b835a93e8471ba3fe3e8190f5230a2090"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "9933b8e5a4c792317cf9bbeeb3623938e920ec5bfd8e66b3a6bdfd8e26bef821"
     },
     "Its orb emits a pulse of dizzying energy.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "5c8da3219147379e338c05b550494bfa11d14cc6f12b40b68325d9bf4f9e696c"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "6d32312c0662e9ca5142dd3feaf99641698c5eff3f1219c036433dde4dac1db2"
     },
     "Their orb emits a pulse of dizzying energy.": {
-      "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
-      "translation_sha256": "feaef9100fedfc72e2fda3cc1c5b4d1e5ae25a52be9e1e3c219fccd2bf755a1f"
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "11b70480c55b2d9e5517f1bd1fec0cd3e977d44640d09c7e06c5121d95726480"
     },
     "You sink your fangs into @arg@ and drain him dry!": {
       "context": "Current melee-attack.cc block/redirect and divine-shield blindness, slime disarm, vampire lifesteal/enthralling, Flux energy, orb pulse, burstshrooms/bog, spores, decay, shroud interception, Maw devouring, werewolf howl, vulnerability/antimagic auxiliary attacks, thorn retaliation and trample/drag. Expand literal pronouns and actor conjugations without altering combat decisions, damage or visibility. Blood type remains a captured display noun; drain-dry sentence does not imply every target has ordinary red blood. Weakness, antimagic and drain are distinct; acid/foul flame/shroud messages preserve punctuation. SpellMotor follows established transliteration Спеллмотор. Mushroom/terrain creation announces the actual target position, not a new summon allegiance.",
@@ -62701,6 +62701,82 @@
     "can't reach some items and places": {
       "context": "travel.cc: current exploration, unreachable targets, dangerous Zot clock, branch travel and waypoint prompts; actual fixed keys and rc option preserved",
       "translation_sha256": "25d58efc0e6a68dcb9fbef2781a8cfb8771da2fa52f5095684278f7e440c11bd"
+    },
+    "@Attacker@ draws vitality from your wounds!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "3702f53c491a49439c43d4837a738dd73746c487eeb9c1058804d48375250090"
+    },
+    "@target@ is completely immune to your confusing touch!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "621ef4b7be6ea37a7753a570f922d7fbc28f67928f6b31667c1f60edddac4076"
+    },
+    "@target@ becomes entangled by vines.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "5eb91afab5407e34d76e308e3d910c926877815d2110b73c9d1ccc7a652b64a7"
+    },
+    "The winds around you quicken.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "6ebb4e5ba9a81d465c66d2693fe62c3edb9ac3e7b6112d0b5484cd4fd4d246f0"
+    },
+    "Your autodazzler retaliates!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "2f11a25d22743c7efac7357e70f885ec2ef47504e9762b0f391793dd9d7138af"
+    },
+    "Your paragon deflects @attacker@'s attack away from you.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "5c43c864ce906cf80494d0d02979e69ed527a7380c3871546dfc9b3bd9ea36aa"
+    },
+    "Your paragon deflects @attacker@' attack away from you.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "5c43c864ce906cf80494d0d02979e69ed527a7380c3871546dfc9b3bd9ea36aa"
+    },
+    "Your paragon deflects something's attack away from you.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "9940b777c92213d5e299580891730875d874115d07fd86dd954720bb2ae203b8"
+    },
+    "You knock @weapon@ out of something's grip!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "ffe45ccfd9c898ef341fe9c683cd9f065f50af95c228813b4e2cd8cce0dbfcda"
+    },
+    "You pounce on the unaware @target@!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "2845ee12223c460e9305d1aea03cda01f1c29f7bb63feeb0a694a61095c1af05"
+    },
+    "Your catalyst becomes inert.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "bdc13e5b095d1a16932401947b18540b6be944882ed5b9fd2ef2506ac111028f"
+    },
+    "@Target@' sight is seared by the starlight!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "bf8fa636e5fad3afe9b290055b81383b222aa75c273a5803a9b60e3e32cddb32"
+    },
+    "@Target@' vision is obscured by starry radiance!": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "b158fce5694bee141f8036616b2d15b88786ed20e68f58e11a74f340cbd874c4"
+    },
+    "@Target@ fails to defend himself.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "341db924e5a826408203fe2dac48925742566a90cda18eb3814912da4ddb99c3"
+    },
+    "@Target@ fails to defend herself.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "341db924e5a826408203fe2dac48925742566a90cda18eb3814912da4ddb99c3"
+    },
+    "@Target@ fails to defend itself.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "341db924e5a826408203fe2dac48925742566a90cda18eb3814912da4ddb99c3"
+    },
+    "@Target@ fails to defend themselves.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "341db924e5a826408203fe2dac48925742566a90cda18eb3814912da4ddb99c3"
+    },
+    "@target@ is struck blind by the light of something's divine shield.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "3e28f83625f0d0861b8889649272c878517341acad812fbb67ddcd1b3c083f14"
+    },
+    "You are blinded by the light of something's divine shield.": {
+      "context": "attack.cc: vampiric brand heals its wielder; confusing touch immunity; entangling vines; MUT_SOUTH_WIND; AutoDazzle canonical gizmo name; paragon is the Platinum Paragon summon, not a gizmo. monster.cc DESC_ITS for unseen actor returns something's. melee-attack.cc starlight applies temporary ENCH_BLIND without permanent eye injury. stab_message uses current reflexive pronouns. player-reacts.cc DUR_DETONATION_CATALYST expiry refers to the spell, not a mutation catalyst. Existing bolas and divine-shield named-owner templates already work and are retained.",
+      "translation_sha256": "36cd4acd16e185b7687ac60c18d984b44f8a2334fac552d209cd4b1f00f0f13b"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
