@@ -64953,6 +64953,102 @@
     "Ru asks you to sacrifice one of your eel pincers.": {
       "context": "Current sacrifice-data.h offers ability to read/drink unless badly injured. player-reacts.cc _handle_hoarding clears RENOUNCE_*_TIMER_KEY only at 2*HP < maxHP; otherwise nearby hostiles renew the timer, which persists several turns after combat. Exact half HP does not unlock consumables. item-name.cc denial strings are permanent Ru sacrifice consequences with a temporary combat lock, not a new voluntary temporary refusal or generic inability to drink/read. Full mutation descriptions already explain the postcombat interval. Old while threatened keys retained as historical phrases without rewriting their source meaning. god-abil.cc ru_do_sacrifice appends player::hand_name(true): translate the actual one-of-your-limbs construction, agree Russian один/одна with each body part. Eel Hands retain shared угри (body label) nomenclature; no change to sacrifice effects or English logs.",
       "translation_sha256": "ea4111351ee128e26af6993ec252114be2493f6758ec355907055482af280ac3"
+    },
+    "A slime creature is ejected from @owner@'s body as it begins to warp and change.": {
+      "context": "mon-abil.cc slymdra_polymorph and slymdra_merge: polymorph ejects slime creatures before changing form; absorption of adjacent slime creatures grows new heads and scales HP. Two independent noun-phrase captures carry their own counts, so the count of creatures cannot control the case of heads. Keep shared слаймдра and слизистое существо names; nominative creature owner avoids feminine pronoun assumptions.",
+      "translation_sha256": "004c60079ad4ea378177fe7669d4a89c54d95875040d196faf514620096f832d"
+    },
+    "@Slimes@ are ejected from @owner@'s body as it begins to warp and change.": {
+      "context": "mon-abil.cc slymdra_polymorph and slymdra_merge: polymorph ejects slime creatures before changing form; absorption of adjacent slime creatures grows new heads and scales HP. Two independent noun-phrase captures carry their own counts, so the count of creatures cannot control the case of heads. Keep shared слаймдра and слизистое существо names; nominative creature owner avoids feminine pronoun assumptions.",
+      "translation_sha256": "f6f1369f8e12d5d839229e7082e58c2cecae941fa6c100dda1da829ae980610e"
+    },
+    "@Arg@ absorbs @slimes@ and sprouts @heads@.": {
+      "context": "mon-abil.cc slymdra_polymorph and slymdra_merge: polymorph ejects slime creatures before changing form; absorption of adjacent slime creatures grows new heads and scales HP. Two independent noun-phrase captures carry their own counts, so the count of creatures cannot control the case of heads. Keep shared слаймдра and слизистое существо names; nominative creature owner avoids feminine pronoun assumptions.",
+      "translation_sha256": "4141c4c12dcf5e56f3a12f979f149785e79b040ba57351884f078c1419b74a71"
+    },
+    "a nearby slime creature": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "ca0af81f645be8f1f00f1e391d80bcdb207de5ff54fcbade9c9c4f21232eb712"
+    },
+    "{acc}a nearby slime creature": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "f8f2d204966603e1519699ecfeee52c33f0a074bb084ee76cb1188b4b72d981b"
+    },
+    "@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "64d2a9fb869a6b59047c6c0eb6a2cfaec5d7638787260457d28b7c8d3ac6a163"
+    },
+    "{one}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "7cda7a481d3241482b2c5129845b6486d030974969211d85e87a840f372e8102"
+    },
+    "{few}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "091c7f146d4be20c1e34d908bff2a42a6d91329270a6eafde0c0ecad88f758fa"
+    },
+    "{many}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "992c38d7d5fa562e66b0dd1390214e481fd3c79d6084747693e69bde117ed476"
+    },
+    "{acc_one}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "3dd8ba47969a97b4bb53f17168d007655271ab8cc499f39e46c1a867fa94b290"
+    },
+    "{acc_few}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "3fcdf4b6df956a2728b768abb82f1c8342313544888b69813a6e05f715003f02"
+    },
+    "{acc_many}@num@ nearby slime creatures": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "5fb52ece7ac5640f7d809d96014ffe7d51dba3123b39584e40d6c07338aaaf92"
+    },
+    "a new head": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "6f85e195422cb22a8f36b196caed964c7ddcb013b5c992f0d6938bef61f36b18"
+    },
+    "{acc}a new head": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "9a66b5809a4877a4ffe3c5db13158f930f80e2f025df12a26390a3e7ff861ff3"
+    },
+    "@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "62054683b9a8d684cc226179605305fc43506bce8820b06e8222f136a1d8db30"
+    },
+    "{one}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "69e3a824247d3e104a77e9f950f7d726c36d9a96d02000ea96531a6a7992df56"
+    },
+    "{few}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "8f351039572d7ebe937ed378bac0109de70583e0d6a746d3f1abe6538e55fe2d"
+    },
+    "{many}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "639170a2fe927cf3bc66a9446defe371b6b7007ad46b7fe1beed667d99d21f35"
+    },
+    "{acc_one}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "ba8b2dd1e51ad8b237cef666f3bc5be67f7fcff5eb8131f5211e940db8f1dd32"
+    },
+    "{acc_few}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "a45876fe955339af5ec3b2ce387659f3c8c04774bc4b0c5409637b1a8f78a7ea"
+    },
+    "{acc_many}@num@ new heads": {
+      "context": "mon-abil.cc slymdra_merge counted fragments: alive slime creature has animate accusative (2 слизистых существ); head is inanimate feminine (2 новые головы, 5 новых голов). Unscoped carriers are required to register the patterns; combined case/count contexts are selected separately per noun phrase. These are grammar fragments, not new gameplay events.",
+      "translation_sha256": "5bd0f8d594beb3f8dbdcf3f09383f25361ebe5ddcd4d8d645f8180404b8e40e4"
+    },
+    "@Arg1@ writhes as voices assail @arg2@ being.": {
+      "context": "mon-abil.cc _starcursed_scream: brainless monster targets use being instead of mind and do not receive the in pain suffix. Damage still occurs. Four ordinary possessive pronouns are translated through existing his/her/its/their vocabulary; do not invent a brain for a brainless creature.",
+      "translation_sha256": "ec5fc2c2ad2572883ff5f9ed09166326ca8519591f5f558b54316a2545a0d60e"
+    },
+    "@Arg@ ignites a memory of @spells@ to re-knit themselves.": {
+      "context": "mon-abil.cc pyrrhic_recollection (MONS_NAMELESS_REVENANT is actually the unique Nobody in mon-data.h, canonical Никто): burns one memory, changes spell list, and heals the creature; does not cast all the listed spells at the player. Injured and full-health branches differ by to re-knit themselves. Spell list uses nominative canonical titles, including actual Marshlight/Scorch pair. Original spell and unique IDs unchanged.",
+      "translation_sha256": "2494a07216ebf99ca9919f0d6ab8c2ad586e377d07662fdae545a29ed66d285f"
+    },
+    "@Arg@ ignites a memory of @spells@.": {
+      "context": "mon-abil.cc pyrrhic_recollection (MONS_NAMELESS_REVENANT is actually the unique Nobody in mon-data.h, canonical Никто): burns one memory, changes spell list, and heals the creature; does not cast all the listed spells at the player. Injured and full-health branches differ by to re-knit themselves. Spell list uses nominative canonical titles, including actual Marshlight/Scorch pair. Original spell and unique IDs unchanged.",
+      "translation_sha256": "8b5cb8f9bf22706b58b562ce8eeb65f6b18cbb0c0268e00657e664d01b8415f5"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

@@ -65175,3 +65175,99 @@ Ru asks you to sacrifice one of your pincers.
 Ru asks you to sacrifice one of your eel pincers.
 
 Ру просит пожертвовать одним из ваших угрей (клешни).
+%%%%
+A slime creature is ejected from @owner@'s body as it begins to warp and change.
+
+Начав менять облик, {nom}@owner@ выбрасывает из тела слизистое существо.
+%%%%
+@Slimes@ are ejected from @owner@'s body as it begins to warp and change.
+
+Начав менять облик, {nom}@owner@ выбрасывает из тела {acc}@slimes@.
+%%%%
+@Arg@ absorbs @slimes@ and sprouts @heads@.
+
+@Arg@ поглощает {acc}@slimes@ и отращивает {acc}@heads@.
+%%%%
+a nearby slime creature
+
+слизистое существо поблизости
+%%%%
+{acc}a nearby slime creature
+
+{acc}слизистое существо поблизости
+%%%%
+@num@ nearby slime creatures
+
+@num@ слизистых существ поблизости
+%%%%
+{one}@num@ nearby slime creatures
+
+{one}@num@ слизистое существо поблизости
+%%%%
+{few}@num@ nearby slime creatures
+
+{few}@num@ слизистых существа поблизости
+%%%%
+{many}@num@ nearby slime creatures
+
+{many}@num@ слизистых существ поблизости
+%%%%
+{acc_one}@num@ nearby slime creatures
+
+{acc_one}@num@ слизистое существо поблизости
+%%%%
+{acc_few}@num@ nearby slime creatures
+
+{acc_few}@num@ слизистых существ поблизости
+%%%%
+{acc_many}@num@ nearby slime creatures
+
+{acc_many}@num@ слизистых существ поблизости
+%%%%
+a new head
+
+новая голова
+%%%%
+{acc}a new head
+
+{acc}новую голову
+%%%%
+@num@ new heads
+
+@num@ новых голов
+%%%%
+{one}@num@ new heads
+
+{one}@num@ новая голова
+%%%%
+{few}@num@ new heads
+
+{few}@num@ новые головы
+%%%%
+{many}@num@ new heads
+
+{many}@num@ новых голов
+%%%%
+{acc_one}@num@ new heads
+
+{acc_one}@num@ новую голову
+%%%%
+{acc_few}@num@ new heads
+
+{acc_few}@num@ новые головы
+%%%%
+{acc_many}@num@ new heads
+
+{acc_many}@num@ новых голов
+%%%%
+@Arg1@ writhes as voices assail @arg2@ being.
+
+@Arg1@ корчится: голоса терзают @arg2@ сущность.
+%%%%
+@Arg@ ignites a memory of @spells@ to re-knit themselves.
+
+@Arg@ пробуждает пылающее воспоминание о магии ({nom}@spells@) и восстанавливает своё тело.
+%%%%
+@Arg@ ignites a memory of @spells@.
+
+@Arg@ пробуждает пылающее воспоминание о магии: {nom}@spells@.

@@ -318,6 +318,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Повреждения не мешают носить чешую огненного дракона.");
     CHECK(localise("An eleionoma bone magically twists into a wand of flame.")
           == "Кость элеиономы волшебным образом превращается в палочку пламени.");
+    CHECK(localise("The slymdra absorbs 2 nearby slime creatures and sprouts 5 new heads.")
+          == "Слаймдра поглощает 2 слизистых существ поблизости и отращивает 5 новых голов.");
+    CHECK(localise("Nobody ignites a memory of Marshlight and Scorch to re-knit themselves.")
+          == "Никто пробуждает пылающее воспоминание о магии (Болотные огоньки и Ожог) и восстанавливает своё тело.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
     CHECK(localise("Your paragon deflects the bat's attack away from you.")
