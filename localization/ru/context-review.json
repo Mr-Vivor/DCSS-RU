@@ -5,17 +5,11 @@
   "catalogs": {
     "ui": {
       "context": [
-        "dat/translate/ui.txt",
-        "startup.cc",
-        "newgame.cc",
-        "tileweb.cc",
-        "player.cc:get_exp_progress",
-        "skill-menu.cc",
-        "tilereg-doll.cc",
-        "Reviewed canonical wand category labels against terms.json and item-name.cc; raw category and operation IDs unchanged."
+        "dat/translate/ui.txt, startup/newgame, skill-menu.cc, item actions, spell lists and tilereg-doll.cc",
+        "2026-11-09: reread 477 entries; no further contextual corrections required in this pass"
       ],
-      "translations_sha256": "ebb2d7d06dc4e523469871f23c725cda3112a812f68c75d2e56d5f9f72fa44d2",
-      "entries": 477
+      "entries": 477,
+      "translations_sha256": "ebb2d7d06dc4e523469871f23c725cda3112a812f68c75d2e56d5f9f72fa44d2"
     },
     "annotations": {
       "context": [
@@ -49,13 +43,11 @@
     },
     "statuses": {
       "context": [
-        "dat/translate/statuses.txt",
-        "status.cc",
-        "duration-data.h",
-        "dat/descript/status.txt"
+        "duration-data.h, status.cc and dat/descript/status.txt; labels and explanatory text",
+        "Shared terms for Frozen Ramparts, Disjunction and Zin Recite; distinguish deflection, reflection and water engulfment"
       ],
       "entries": 527,
-      "translations_sha256": "d53467d512b81d2d2f469935fa04c79b34ba40b47959af0799ce35099d55b7d6"
+      "translations_sha256": "d203dbc84d79d7d68681f31207ee4b6dfc424d8ee2f249cb2a5e89e1f64ed627"
     },
     "verbs": {
       "context": [
@@ -93,6 +85,48 @@
       ],
       "translations_sha256": "db972ebd6760d05190623765c487eedc754b3c0509ac438b969010528ce8bf72",
       "entries": 43
+    },
+    "monster-props": {
+      "context": [
+        "mon-info-flag-name.h: all legacy short/long/grouped status labels; current labels added to system messages",
+        "mon-info.cc: constriction, ally targets; mon-ench.cc and dat/descript/spells.txt/status.txt",
+        "Unscoped giant retains the existing monster name; plural/gender agreement remains a separate task"
+      ],
+      "entries": 195,
+      "translations_sha256": "75a0deb94111f7004a026b1d12f663df74d7e9cfac08710e4c778217b5587681"
+    },
+    "shops": {
+      "context": [
+        "shopping.cc:shop_name and owner placeholders",
+        "dat/des/builder/shops.des: actual stock of special shops",
+        "dat/des/builder/alphashops.des and dat/des/branches/shoals.des; retain shop purpose and names, no staff/personnel or blood/bar homonyms"
+      ],
+      "entries": 110,
+      "translations_sha256": "abcf0fd15ca95f2aef74046030dc8de2078c69d534479c5a1ec74d14eaeca6c3"
+    },
+    "gods": {
+      "context": [
+        "dat/translate/gods.txt, mon-util.cc:god naming; Russian possessive forms",
+        "god-conduct.cc and describe-god.cc: actions approved/disapproved, avoid homonyms and mixed ты/вы"
+      ],
+      "entries": 170,
+      "translations_sha256": "6ac248838c93b13be788cf7b361720f5c860d44010c180dcfa5bd4a47c4c8bc7"
+    },
+    "transforms": {
+      "context": [
+        "form-data.h, species.cc:felid and frog shout names, transformed limbs and body materials",
+        "transform.cc prayer descriptions; bark is a sound, trotters are pig feet, branches are tree limbs"
+      ],
+      "entries": 185,
+      "translations_sha256": "938178334220be19a900de02e2f4ba8764b9744995f357a92c8b89cc1e7ea30e"
+    },
+    "misc": {
+      "context": [
+        "dat/translate/misc.txt section headings: keyboard key names and numeric separator, not everyday homonyms",
+        "mon-util.cc:throw_monster_bits acid splash; beam.cc living/dead player target"
+      ],
+      "entries": 67,
+      "translations_sha256": "e117a08e9e95a75ccf5dcc2dbdbc71b2299ca9a9660b90db4db75f1e4ecd3e9e"
     }
   },
   "messages": {
@@ -3109,16 +3143,16 @@
       "translation_sha256": "0839756d59c999d9b063f673fe84f0d9e1dc5c615b93d15bb14c1c09e361bc12"
     },
     "vexed": {
-      "context": "duration-data.h (current 0.35 effects); status.cc",
-      "translation_sha256": "5b9afd0f65cf056fc9774f0924e71f7b02440c9cd4b96a57c14920f09c9d7a9a"
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "56b3ef39c30b15de31e04e5827844712ffbb1ff00128728985592c1c69555f7a"
     },
     "vex": {
       "context": "duration-data.h (current 0.35 effects); status.cc",
       "translation_sha256": "5d9db35425d40a19cfae6713317cff861c60a5337d5fa35f59ba46a2d5f33080"
     },
     "You are vexed.": {
-      "context": "duration-data.h (current 0.35 effects); status.cc",
-      "translation_sha256": "920179a9933037a156cf045347fdea9da7c82bc933801359b5227a77b03e3c3f"
+      "context": "duration-data.h DUR_VEXED and dat/descript/status.txt: involuntary attacks, not a generic spell-failure penalty",
+      "translation_sha256": "48df6013cc28ebc75444778e0d88c16de106cd87fc8fd9a1824835048eabba45"
     },
     "You feel more in control of yourself again.": {
       "context": "duration-data.h (current 0.35 effects); status.cc",
@@ -3965,8 +3999,8 @@
       "translation_sha256": "e00f47de89dca43a8149cd54f9ffe6d7f015cfdd493f4d165bd3d1a386193053"
     },
     "flooded": {
-      "context": "duration-data.h (current 0.35 effects); status.cc",
-      "translation_sha256": "778e52f172a0c0767197c17b127a514aea27c341587409c8224b0e8df924fc49"
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "9d90b4d5ca358764f7f4dc0b50128ebf23e644316b861f2527a49ce127349247"
     },
     "flood immunity": {
       "context": "duration-data.h (current 0.35 effects); status.cc",
@@ -56987,6 +57021,374 @@
     "an open sea?": {
       "context": "Current features.txt remaining altars, scenery, wall variants and harmless machinery. Gods use the shared glossary, spirits in bottles are alcohol rather than ghosts, scales on Ru's altar are weighing scales rather than skin. Conduits/dynamos are explicitly harmless and spent, not new combat hazards. Legacy base-tile diagnostics remain diagnostics. Crystal-wall alias keeps its raw key; source markup and source IDs unchanged.",
       "translation_sha256": "e9bf0cf330450add919766fda5d784c64b3865f2a1678d80bbaafeee328dcdb1"
+    },
+    "minion": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "adbde12b6d64aaa1a4851020efb610ce35f9d286db8eef4675ffe9528085cb56"
+    },
+    "unrewarding": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a5a2289d4e669381ddd4d1614eca2d236a8e5b5661c958c79343348be47e45d4"
+    },
+    "inner flame": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6b43c9b1545b31aba6906949b54e15214a37c649234d6b42f5a42ac87c5ebf58"
+    },
+    "pursuing": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "e31af7e7985106afe1fb47c73001102d792114c9bee498c5a1d391ed9a078098"
+    },
+    "pursuing quickly": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "3d638e8649c81261b08567bc5ef195b4af461ca3e530a30230141bff3fea3733"
+    },
+    "frenzied": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "fcdb69c04651366fb45b8a3179690ad73ca918c069b81ebfea8bcd6ccd327337"
+    },
+    "frenzied and wild": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "cccc81b8b5891f0fd602c9324599d8a625d3c56658a4964cb77c9d87bf79f872"
+    },
+    "deflects missiles": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "efd6a6250564f1dcf824789828580aa79c620c1e8fbdc18e3947722d667843ba"
+    },
+    "deflecting missiles": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "efd6a6250564f1dcf824789828580aa79c620c1e8fbdc18e3947722d667843ba"
+    },
+    "deflect missiles": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "f5cd74fffe8da5790a546bd0c4cf03eeb802c6e78ea64bf0776cfac2ec8137f6"
+    },
+    "marked with the sign of ruin": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "3a3461434f780793ed5b412fcfa675cd6de63a8b3bc8fbfb80f3f4a72fa2725a"
+    },
+    "signs of ruin": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "d8792ffcdc8ed389562be9c60fa4848db28410b31ffc5e05ce617868eebdd7c9"
+    },
+    "flame-wreathed": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "01f30ba6a3a0139bff51ee46009b654d16de7630ec367492f413a89e99047563"
+    },
+    "unsilenced": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "c7ce800d43f0beda2c14d6723cea150e91b4041a988e98e981f99941fea9c374"
+    },
+    "unaffected by silence": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "7b705984418102bc0d44b5cea8855bf7e0506618395bd1850156915a43908422"
+    },
+    "doubled vigour": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "79cec1b391b37152675f30699ce5f95fb5ccce119be1906373022bcec9f5e6cd"
+    },
+    "doubled in vigour": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "7bbd958da22bbbe556362119aeb509658948af11d5f758287f8d7b4fb50f997b"
+    },
+    "soul-gripped": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "930fd9dfe9a88f9cee0ad7be43ee657bf72bad040e2036ce20ebeffe058fdd3c"
+    },
+    "distracted": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "d8325a3e9346f896bdef5081d90b743a725352773df8e3189ddfbb8064978f16"
+    },
+    "not watching you": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "732b7d9c55ccb2eafe04eca66c440d2790d9e8cbb459c7a5aaa4de3c0056e58c"
+    },
+    "unable to see you": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "99adbf4d90bdf56b45985c0bcb34a1fee942654eb2ffdc6b393cddbb474a8898"
+    },
+    "pinned": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "692627f7d41784e27a9a9c70c1662fcf38d38dba2d3d6570e8a60b263db3bd28"
+    },
+    "contam": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "e521e90b67781e7167fa617f981ea3fdd6c6a58347fb9dbc0863bbd392a10e67"
+    },
+    "contaminated": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "e521e90b67781e7167fa617f981ea3fdd6c6a58347fb9dbc0863bbd392a10e67"
+    },
+    "heavy contam": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "92378c83b9b55c5ad92e5e90413e7290f4da38a9a7f7a3268aa6e85058e3e9de"
+    },
+    "heavily contaminated": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "92378c83b9b55c5ad92e5e90413e7290f4da38a9a7f7a3268aa6e85058e3e9de"
+    },
+    "combustible": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "2711e189f9d70794372be679d97fab2e3c10bfc1e36136cd9e90a26f253813ee"
+    },
+    "very drained": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "43f9b4de6f0df1ba0a940df41ebc263ce057360b5cc1f2f1426eae732f03e2e4"
+    },
+    "unable to breathe": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4d2837be320ae8a1528dce2490342c441a48be7da5a4fb34ed999456c9a9a478"
+    },
+    "magic disrupted": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "ea1d43951ebcf12255e126eb8e17a1272f90cc677458ac1bcdfc09b2a0b42f7b"
+    },
+    "anguished": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "f9a4c09e53b98b1a2b4436c06e3b7f0f4fd07b0f4a8c08b7b0e5953e046caa7b"
+    },
+    "reflecting": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "f2265f1b8e22cde3c3b0d51493ba2b68563f36dfba0d5bc52e3d63edae614253"
+    },
+    "reflecting blocked projectiles": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a348ab1dec715713634165cbd1c6dbaeaa002d09ebc6620e90d2d4b949925dbc"
+    },
+    "teleporting": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6ae74a9f122ad96066cabea133b8477c9d6483fc63884c11ed7180a92d9444a8"
+    },
+    "bound": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "3821e94c3ba4bff6e565091856fec55661a1cb0643e5b1b402fa29235298f812"
+    },
+    "bound in place": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "9c5921bbe1943e0e1dde360d3fc950d468ddf2ebe35916b6c2e565be01456c25"
+    },
+    "bullseye target": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "92f79d38a8b0115a03a2db5ab8aa8744613ea372518172f6044bbcffe8cab2d7"
+    },
+    "targeted by your dimensional bullseye": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "3f11c5eef5bb5a2f830ab9aa91c5a5dae58fd613d43f90b7b259032880c44210"
+    },
+    "fragile as glass": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "469a261ca299ea6a706caf62a14a4d573c2a84ea5d9fd446cfd50d30481a3111"
+    },
+    "agonized": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "414077745ed01301a14a53de45aa7aa92b8636182e3b8554cc1b8791330053e4"
+    },
+    "cursed with the promise of agony": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "7417c77e014277f70dd176cd85bec50cb1020450033ef8a941f4037e4d1b920f"
+    },
+    "cursed with agony": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "414077745ed01301a14a53de45aa7aa92b8636182e3b8554cc1b8791330053e4"
+    },
+    "retreating": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "07048c0dbe433b9d4f04cbfbcfb1224b1573509755fb36778aa546824305c571"
+    },
+    "divinely empowered": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6f899592f3f9a00dcd71dd1592052293764d754c309b8bdb07aa7211e7a6cbe6"
+    },
+    "empowered by the touch of Beogh": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6d23dceb82131245fccb02f91092fa1c528db3608ec5e6e2cc8eb7fc3de33dee"
+    },
+    "anointable": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "cf3c8fcfe54539967c591f5237cb6052d6af956146bf0eaffee8a7ddaf296458"
+    },
+    "ready to become your apostle": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "59ed6fe65e3496f11f28ccb27d22a88f73cd71441452fcf332645dcf685c7527"
+    },
+    "target of vengeance": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "03eac7bdeb44f4d8da484e0b3ea90c52c8fc6b8bb4cff4c916bf050d793eb6d8"
+    },
+    "target of orcish vengeance": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "1ec6f1766482721d1bd103d0946af77389f2a546b67755ae20e030b2d00a1d5c"
+    },
+    "targets of vengeance": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a3a8c37312881827b30e6212b6fb6965c34ab2c1b57ab0259851a905e639b82c"
+    },
+    "magnetised": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "70d7f77f5b0a044eb012ce59379dd87c05e671d057fd1df012a804445c4309d6"
+    },
+    "covered in magnetic dust": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "00f50bea08f7fed70a1d9f72cd3773519427506c98ba7304e5e48c961642ed74"
+    },
+    "rimeblight": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "7d474a0b6eb89c11e3676a985f00c6431159212190141f08abbdc2ee1f4ee47d"
+    },
+    "afflicted by rimeblight": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "ad51cd78bc1f09c640c4e4960d132ca89e006cd0c9e219cd1d57e36e13b8fb17"
+    },
+    "shadowless": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "392ea2e7816fb15e603510e1ee455b2735f258a94cf797d0d516be142f09ce70"
+    },
+    "missing a shadow": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "34e9956aae2d7c9c7a834a0e27464103653f6c297aeba368bff2661fd77f97fd"
+    },
+    "paralysed with fear": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "9eb33bf43db69ec3550c3c13026d388a995816b456f68a8205a0cb959160e199"
+    },
+    "soul-splintered": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a27094b3fd09250d004c2f7ed8abdd9a6b0ea3f8cba564ee738f77a2fa83ef9f"
+    },
+    "grapneled": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "03f52876f98827363b6d376c18437003537feb088e7a9820a75196d98007dbb3"
+    },
+    "tempered": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "31fed93b487b041fde7f893f279f51e683ba35b8204547741a2ba8074adfe570"
+    },
+    "untethered": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "e000714423d57c2be1021fc0f9b8c05d8e084533abc505247d034fc86731c8c2"
+    },
+    "untethered in space": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4ae816b3cb8d42490c658794b05cb4fe26fe7483432dd1e5273832185f564e33"
+    },
+    "chaos-laced": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "d59b235ce85e1251daafd9d67a3016d3d8c630896a1dcfb78da50973270924f4"
+    },
+    "interlaced with chaos": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "d59b235ce85e1251daafd9d67a3016d3d8c630896a1dcfb78da50973270924f4"
+    },
+    "lashing out in frustration": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "d2842674c3ac482278d0366c13a232afabfca02754667c8826d3a89007f32d89"
+    },
+    "ablaze": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "5017a9e2b826430b0dc6d4a5ab546f62452a552722d9621f8955e797ec7552df"
+    },
+    "ablaze with memories": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "58c59e16239b4ca0281f148d2886435ee93367ddde0939f0f3489bbc20b3a429"
+    },
+    "bee": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "9ae907e99ce265f046eebfaa54b2d5f99101819efc9546737e762a2e526f35eb"
+    },
+    "winding a clockwork bee": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "e977d8565686f18f8427d13404f0fc0b4dea540c3fd8a6050cfcb21a93f5c3dd"
+    },
+    "figment": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "7edd6b411820db374b02377b4c678e940724e0eafc33c3c39c1035fed9d7db04"
+    },
+    "feeble figment": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "292932c53389bf9f7202719d9c77f98ff85ae6a1d82b0d6d32193282fe850ee4"
+    },
+    "paradox": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "49d9cfedcae7e4367acd70689bda9b081490db238e3dcaaa8e79084c4a9ad58c"
+    },
+    "touched by paradox": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "54a19765b5dcd9b45aaa7c61e7ab985445e33b393a92388c430468d316d8a8c2"
+    },
+    "warded": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a1cd7e2001343d6cde979e747f4dc5f594746873b489d24c4f8efe7bee15a0de"
+    },
+    "damage-immune at range": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "27507597c89ec302ce9f3ce5adc1680a975d9bdfad4dd46679a85131f527c6a1"
+    },
+    "dim": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "5f66774962d31a4ba51c6f59184f7982352af1629ab85ecce61e3a4a49c95176"
+    },
+    "called by a tesseract": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "92bebc7fbb97ce3bee744924e2faa7d2055076c343439c97e9dbddad012229a0"
+    },
+    "ready to sunder": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "dd11c26cf44b01c88334e2aa0e2634ee25bced1eba3b8d093cfc22283ced7d38"
+    },
+    "exposed": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "a1f6adaaf29ea1c4d2143233525d70043c07f0ab3c508589caced9db6919d9a1"
+    },
+    "remembered": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "0e326b94502a72f24cc5d8ecb1637cc51f06f297cb906258f07fd3994652a8cf"
+    },
+    "phased": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "88e630c11e92bdc9cf5ce2aa5add920ddd39d022ff631be7bfff338a74282404"
+    },
+    "out of phase": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "fccc64d3f48eaad8111aa44a70e5d31e27d0e547efef72cdcb2c2a2820651eb4"
+    },
+    "divine shielded": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "36c1c25fe2ba3e1766d451fcdac8335b4879a87a5b390007c5448b888662b2d7"
+    },
+    "divinely shielded": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "2ccca863c9e116ae95915c14b315fb89155a0f827d2fe634180f1e213ebfc2f4"
+    },
+    "catching his breath": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4e176c13a935ab353d31b3441ddb7dbf975bfbb278185849f882be4cd762bdfb"
+    },
+    "sharing his pain": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6396cd6338d68e7492525e8e623c6af509cbdd5706c802a2a060b29e2e84dce2"
+    },
+    "catching her breath": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4e176c13a935ab353d31b3441ddb7dbf975bfbb278185849f882be4cd762bdfb"
+    },
+    "sharing her pain": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6396cd6338d68e7492525e8e623c6af509cbdd5706c802a2a060b29e2e84dce2"
+    },
+    "catching its breath": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4e176c13a935ab353d31b3441ddb7dbf975bfbb278185849f882be4cd762bdfb"
+    },
+    "sharing its pain": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6396cd6338d68e7492525e8e623c6af509cbdd5706c802a2a060b29e2e84dce2"
+    },
+    "catching their breath": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "4e176c13a935ab353d31b3441ddb7dbf975bfbb278185849f882be4cd762bdfb"
+    },
+    "sharing their pain": {
+      "context": "mon-info-flag-name.h and mon-info.cc:attributes/mons_conditions_string; enchantment mappings in mon-ench.cc, current spell/status descriptions",
+      "translation_sha256": "6396cd6338d68e7492525e8e623c6af509cbdd5706c802a2a060b29e2e84dce2"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",
