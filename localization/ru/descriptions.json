@@ -6857,8 +6857,8 @@
     },
     "living spell": {
       "source_sha256": "79e9a8ce3ffdd657619d55a770c27c894d0bdabc96dfe4d9005629af3c1ba414",
-      "text": "Заклинание, ждущее первого врага в пределах своей досягаемости, чтобы сотворить себя против него. После этого оно рассеется в эфире.",
-      "context": "Current monsters.txt guardians, kobolds, revenants and summons. Existing translated names retained. Inugami retreat to spiritual form rather than promise ordinary resurrection at a fixed delay. Mountain-shell protection has adjacent-source weaknesses, not universal invulnerability. Morphogenic slime temporarily melds equipment and weakens spells, not permanent loss of equipment or all magic. Orc apostle follower is the same role after proving oneself, not a new kind of apostle. Proper type IDs and lookup keys unchanged. "
+      "text": "Заклинание, ждущее первого врага в пределах своей досягаемости, чтобы сотворить себя против него. После этого оно рассеется в эфире.\n\nВстречаются варианты «живое заклинание „Окаменение“», «живое заклинание „Хрустальное копьё Лехудиба“», «живое заклинание „Божественная кара“» и «живое заклинание „Ледяной взрыв“». Это разные проявления одного вида, с соответствующим заклинанием внутри.",
+      "context": "mon-info.cc and mon-cast.cc: four named living-spell specialisations with spell-specific sprites share this base creature; it casts once and then disappears. Display names match the system dictionary."
     },
     "lost soul": {
       "source_sha256": "977253b60f401caa4b0a3bdd8143de2872012ad95fe7583e53ed49fb2e00a8d8",

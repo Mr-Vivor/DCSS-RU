@@ -302,6 +302,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("2 bats") == "2 летучие мыши");
     CHECK(localise("You see 2 very ugly things and 5 whips.")
           == "Вы видите 2 очень уродливых существ и 5 кнутов.");
+    CHECK(localise("You hit the living crystal spell!")
+          == "Вы ударяете живое заклинание «Хрустальное копьё Лехудиба»!");
+    CHECK(localise("You see 2 living petrification spells and 5 living iceblast spells.")
+          == "Вы видите 2 живых заклинания «Окаменение» и 5 живых заклинаний «Ледяной взрыв».");
     CHECK(localise("Your hand axe quivers in your hands.")
           == "В руках подрагивает ручной топор.");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
