@@ -63515,3 +63515,27 @@ You cannot teleport because you are @reasons@.
 {nom}divine halo
 
 {nom}божественный ореол
+%%%%
+(You may use Imprint Weapon from the <w>%s</w>bility menu to change which weapon your Paragon wields.)
+
+(Оружие будущих платиновых идеалов можно сменить способностью «Запечатлеть оружие» в меню способностей — <w>%s</w>.)
+%%%%
+up to @num@ damage
+
+урон: до @num@
+%%%%
+{teleport-blocker}locked down by a dimension anchor and @more@
+
+{teleport-blocker}действует пространственный якорь и {teleport-blocker}@more@
+%%%%
+{teleport-blocker}locked down by a dimension anchor, @more@
+
+{teleport-blocker}действует пространственный якорь, {teleport-blocker}@more@
+%%%%
+{teleport-blocker}held in place by your roots and @more@
+
+{teleport-blocker}вас удерживают корни и {teleport-blocker}@more@
+%%%%
+{teleport-blocker}held in place by your roots, @more@
+
+{teleport-blocker}вас удерживают корни, {teleport-blocker}@more@

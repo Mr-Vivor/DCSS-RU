@@ -385,8 +385,8 @@ bool add_spell_to_memory(spell_type spell)
     else if (spell == SPELL_PLATINUM_PARAGON)
     {
         mprf(MSGCH_TUTORIAL,
-             "(You may use Imprint Weapon from the <w>%s</w>bility menu to change "
-             "which weapon your Paragon wields.)",
+             localise("(You may use Imprint Weapon from the <w>%s</w>bility menu to change "
+             "which weapon your Paragon wields.)").c_str(),
                 command_to_string(CMD_USE_ABILITY).c_str());
     }
     // Give a free charge upon learning this spell for the first time, so the

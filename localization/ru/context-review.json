@@ -63281,6 +63281,30 @@
     "{nom}divine halo": {
       "context": "player.cc describe_contamination has four current levels with optional maximum explosion damage, unlike the imported old severity strings. invis_allowed distinguishes impossible invisibility from backlit warning with optional override; four halo sources remain a nominative list. no_tele_reason composes player-specific clauses from roots, dimension anchor and held/worn items. Use a scoped teleport-blocker context so third-person monster equipment labels keep their meaning. player-reacts.cc _handle_emergency_flight calls drain_player repeatedly: maximum HP loss, not immediate ordinary damage. English keys, reason construction and gameplay logic unchanged.",
       "translation_sha256": "cb72bb3114c670af66df5fbde2bf8e3ac3b47af93bfe38aef1c639578f8f276e"
+    },
+    "(You may use Imprint Weapon from the <w>%s</w>bility menu to change which weapon your Paragon wields.)": {
+      "context": "spl-util.cc learns Platinum Paragon. ability.cc Imprint Weapon removes the existing summon and begins ImprintDelay; delay.cc writes PARAGON_WEAPON_KEY for future summons. Canonical ability and summon names retained. Translate printf format before substitution, keeping command_to_string binding literal and styled.",
+      "translation_sha256": "451bacaa85831f2c0b893e18b9c40c5780481f9076f0adff7d85c88f89fec1c6"
+    },
+    "up to @num@ damage": {
+      "context": "localise.cc tries general parameterised preposition templates before splitting comma/and lists. Scope the two literal teleport blockers plus remaining clauses so generic by cannot consume the compound reason. Postfix annotations localise their inner text separately, requiring up to N damage as a separate fragment. No expected results weakened.",
+      "translation_sha256": "6e68bf3f15d804f613721c65e61a45e2f32d3939a17c1371c0cdf955e5209ab6"
+    },
+    "{teleport-blocker}locked down by a dimension anchor and @more@": {
+      "context": "localise.cc tries general parameterised preposition templates before splitting comma/and lists. Scope the two literal teleport blockers plus remaining clauses so generic by cannot consume the compound reason. Postfix annotations localise their inner text separately, requiring up to N damage as a separate fragment. No expected results weakened.",
+      "translation_sha256": "545bd93fea2c3ac4b7de6d676a995ea70c7823b70ee3ad99b4cdb2c5f9542498"
+    },
+    "{teleport-blocker}locked down by a dimension anchor, @more@": {
+      "context": "localise.cc tries general parameterised preposition templates before splitting comma/and lists. Scope the two literal teleport blockers plus remaining clauses so generic by cannot consume the compound reason. Postfix annotations localise their inner text separately, requiring up to N damage as a separate fragment. No expected results weakened.",
+      "translation_sha256": "027e1162dfb3d421a9222f6ca7b4ea69eb43f4292b5447a19620b1bbd18f8f51"
+    },
+    "{teleport-blocker}held in place by your roots and @more@": {
+      "context": "localise.cc tries general parameterised preposition templates before splitting comma/and lists. Scope the two literal teleport blockers plus remaining clauses so generic by cannot consume the compound reason. Postfix annotations localise their inner text separately, requiring up to N damage as a separate fragment. No expected results weakened.",
+      "translation_sha256": "e9d27fb1add11e008a4ef9fea462e243a77570adf605b8d0dfd047b03b7dd801"
+    },
+    "{teleport-blocker}held in place by your roots, @more@": {
+      "context": "localise.cc tries general parameterised preposition templates before splitting comma/and lists. Scope the two literal teleport blockers plus remaining clauses so generic by cannot consume the compound reason. Postfix annotations localise their inner text separately, requiring up to N damage as a separate fragment. No expected results weakened.",
+      "translation_sha256": "11ae06636cdfea3d57d9e8f185b073b4c32d42d5448338cef436f883808f4221"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

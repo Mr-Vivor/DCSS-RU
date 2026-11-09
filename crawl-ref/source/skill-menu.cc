@@ -1197,8 +1197,8 @@ void SkillMenu::help()
         if (is_set(SKMF_SIMPLE))
             text = hints_skills_description_info();
         else
-            text = localise("Press the letter of a skill to read its description.\n"
-                   "Press <w>?</w> for a general explanation"
+            text = localise("Press the letter of a skill to read its description.")
+                   + "\n" + localise("Press <w>?</w> for a general explanation"
                    " of skilling and the various toggles.");
         set_help(text);
     }
