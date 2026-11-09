@@ -19178,7 +19178,7 @@ The forest calms down.
 %%%%
 @Arg@'s inner flame fades away.
 
-Внутреннее пламя {gen}@Arg@ угасает.
+Внутреннее пламя {gen}@arg@ угасает.
 %%%%
 @Arg@ is no longer mute.
 
@@ -19330,7 +19330,7 @@ Shadowy forms rise from the deep at @arg@ song!
 %%%%
 @Arg@'s dark mirror aura disappears.
 
-Аура тёмного зеркала {gen}@Arg@ исчезает.
+Аура тёмного зеркала {gen}@arg@ исчезает.
 %%%%
 The flames covering @arg@ go out.
 
@@ -47538,7 +47538,7 @@ The residue of @arg@ spell condenses into glimmer.
 %%%%
 @Arg@ trance deepens.
 
-Оцепенение {nom}@Arg@ усиливается.
+Ошеломление {gen}@arg@ усиливается.
 %%%%
 @Arg1@ is mesmerised by @arg2@!
 
@@ -47838,7 +47838,7 @@ The ward upon @arg@ fades away.
 %%%%
 @Arg@'s magic is no longer disrupted.
 
-Антимагия больше не мешает {dat}@Arg@ колдовать.
+Антимагия больше не мешает {dat}@arg@ колдовать.
 %%%%
 @Arg@ is no longer exposed.
 
@@ -47850,7 +47850,7 @@ The ward upon @arg@ fades away.
 %%%%
 @Arg@'s divine shield fades away.
 
-Божественный щит {gen}@Arg@ угасает.
+Божественный щит {gen}@arg@ угасает.
 %%%%
 @Arg@ is no longer glowing with power.
 
@@ -47862,7 +47862,7 @@ The ward upon @arg@ fades away.
 %%%%
 @Arg@'s divine vigour fades away.
 
-Божественная жизненная сила {gen}@Arg@ угасает.
+Божественная жизненная сила {gen}@arg@ угасает.
 %%%%
 @Arg@ is no longer deflecting missiles.
 
@@ -48658,7 +48658,7 @@ A stygian plague fills @arg@ body.
 %%%%
 @Arg@'s sign of ruin fades away.
 
-Знак разрушения {gen}@Arg@ угасает.
+Знак разрушения {gen}@arg@ угасает.
 %%%%
 @Arg@ is no longer corroded.
 
@@ -63211,3 +63211,183 @@ A pair of sphinxes answers their call!
 @Sphinx@ answers their call!
 
 {nom}@Sphinx@ откликается на их зов!
+%%%%
+You hear a sling whirr.
+
+Вы слышите свист пращи.
+%%%%
+You hear a bow twang.
+
+Вы слышите звон тетивы лука.
+%%%%
+You hear a crossbow thunk.
+
+Вы слышите лязг арбалета.
+%%%%
+You hear a triple crossbow go thunk-thunk-thunk.
+
+Вы слышите три глухих щелчка тройного арбалета.
+%%%%
+You hear a hand cannon's boom.
+
+Вы слышите грохот ручной пушки.
+%%%%
+%s has regained 1 charge.
+
+Предмет «%s» восстановил 1 заряд.
+%%%%
+%s has regained @num@ charges.
+
+Предмет «%s» восстановил зарядов: @num@.
+%%%%
+{one}%s has regained @num@ charges.
+
+{one}Предмет «%s» восстановил @num@ заряд.
+%%%%
+{few}%s has regained @num@ charges.
+
+{few}Предмет «%s» восстановил @num@ заряда.
+%%%%
+{many}%s has regained @num@ charges.
+
+{many}Предмет «%s» восстановил @num@ зарядов.
+%%%%
+You feel the power of Zot begin to gather its forces!
+
+Вы чувствуете, как Зот начинает собирать свои силы!
+%%%%
+@target@ is distracted by your tail.
+
+Гипнохвост отвлекает {acc}@target@.
+%%%%
+@Ember@ blazes with a fierce heat.
+
+{nom}@Ember@ пылает нестерпимым жаром.
+%%%%
+The solar flare engulfs @target@.
+
+Солнечная вспышка охватывает {acc}@target@.
+%%%%
+The solar flare engulfs @target@ but does no damage.
+
+Солнечная вспышка охватывает {acc}@target@, но не наносит урона.
+%%%%
+@target@'s trance deepens.
+
+Ошеломление {gen}@target@ усиливается.
+%%%%
+Jet-black ravens fly out from beneath @treant@'s foliage!
+
+Из-под листвы {gen}@treant@ вылетают угольно-чёрные вороны!
+%%%%
+Angry insects surge out from beneath @treant@'s foliage!
+
+Из-под листвы {gen}@treant@ вырывается рой разъярённых насекомых!
+%%%%
+@target@' trance deepens.
+
+Ошеломление {gen}@target@ усиливается.
+%%%%
+Jet-black ravens fly out from beneath @treant@' foliage!
+
+Из-под листвы {gen}@treant@ вылетают угольно-чёрные вороны!
+%%%%
+Angry insects surge out from beneath @treant@' foliage!
+
+Из-под листвы {gen}@treant@ вырывается рой разъярённых насекомых!
+%%%%
+@Target@ finishes expelling the water from his lungs.
+
+{nom}@Target@ наконец очищает лёгкие от воды.
+%%%%
+@Target@ finishes expelling the water from his airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от воды.
+%%%%
+@Target@ finishes expelling the ooze from his lungs.
+
+{nom}@Target@ наконец очищает лёгкие от слизи.
+%%%%
+@Target@ finishes expelling the ooze from his airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от слизи.
+%%%%
+@Target@ finishes expelling the water from her lungs.
+
+{nom}@Target@ наконец очищает лёгкие от воды.
+%%%%
+@Target@ finishes expelling the water from her airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от воды.
+%%%%
+@Target@ finishes expelling the ooze from her lungs.
+
+{nom}@Target@ наконец очищает лёгкие от слизи.
+%%%%
+@Target@ finishes expelling the ooze from her airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от слизи.
+%%%%
+@Target@ finishes expelling the water from its lungs.
+
+{nom}@Target@ наконец очищает лёгкие от воды.
+%%%%
+@Target@ finishes expelling the water from its airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от воды.
+%%%%
+@Target@ finishes expelling the ooze from its lungs.
+
+{nom}@Target@ наконец очищает лёгкие от слизи.
+%%%%
+@Target@ finishes expelling the ooze from its airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от слизи.
+%%%%
+@Target@ finishes expelling the water from their lungs.
+
+{nom}@Target@ наконец очищает лёгкие от воды.
+%%%%
+@Target@ finishes expelling the water from their airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от воды.
+%%%%
+@Target@ finishes expelling the ooze from their lungs.
+
+{nom}@Target@ наконец очищает лёгкие от слизи.
+%%%%
+@Target@ finishes expelling the ooze from their airways.
+
+{nom}@Target@ наконец очищает дыхательные пути от слизи.
+%%%%
+@Arg@' divine vigour fades away.
+
+Божественная жизненная сила {gen}@arg@ угасает.
+%%%%
+@Arg@' inner flame fades away.
+
+Внутреннее пламя {gen}@arg@ угасает.
+%%%%
+@Arg@' sign of ruin fades away.
+
+Знак разрушения {gen}@arg@ угасает.
+%%%%
+@Arg@' dark mirror aura disappears.
+
+Аура тёмного зеркала {gen}@arg@ исчезает.
+%%%%
+@Arg@' divine shield fades away.
+
+Божественный щит {gen}@arg@ угасает.
+%%%%
+@Arg@' magic is no longer disrupted.
+
+Антимагия больше не мешает {dat}@arg@ колдовать.
+%%%%
+@Arg@' memory burns away to nothing.
+
+@Arg@ теряет догорающее воспоминание.
+%%%%
+@Arg@' lost momentum returns!
+
+@Arg@ вновь начинает быстро двигаться!

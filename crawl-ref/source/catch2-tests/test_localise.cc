@@ -322,6 +322,9 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Хихикающий дух выскакивает и завязывает хвост наги в узел.");
     CHECK(localise("A crocodile bursts forth beneath you and grabs the bat in its jaws!")
           == "Из-под вас вырывается крокодил и хватает летучую мышь челюстями!");
+    CHECK(make_stringf(localise("%s has regained 2 charges.").c_str(),
+                       localise("phial of floods").c_str())
+          == "Предмет «флакон потопа» восстановил 2 заряда.");
     CHECK(localise("You grip the centipede bauble in your grasper and it winds around your arm and fuses with it.")
           == "Вы сжимаете фигурку многоножки манипулятором. Она обвивается вокруг руки и срастается с вашим телом.");
     CHECK(localise("You see a +2 dagger and 21 scrolls of teleportation.")
