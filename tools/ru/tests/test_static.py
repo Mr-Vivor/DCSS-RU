@@ -151,9 +151,11 @@ class StaticTranslationTests(unittest.TestCase):
     def test_case_instructions_do_not_relax_argument_or_markup_protection(self):
         self.assertTrue(message_syntax_matches("Roots grab @arg@.", "Корни хватают {acc}@arg@."))
         self.assertTrue(message_syntax_matches("You can @arg@.", "Вы можете {verb-inf}@arg@."))
+        self.assertTrue(message_syntax_matches("The @sinners@...", "{zin-sinners-nom}@sinners@..."))
         self.assertFalse(message_syntax_matches("You hit @arg@.", "Вы ударяете {acc}."))
         self.assertFalse(message_syntax_matches("<red>@arg@</red>", "{acc}@arg@"))
         self.assertFalse(message_syntax_matches("Hit @arg@.", "Удар {shop}@arg@."))
+        self.assertFalse(message_syntax_matches("The @sinners@...", "{zin-sinners-nom}..."))
         self.assertFalse(message_syntax_matches("Hit @Arg@.", "Удар {acc}@arg@."))
 
     def test_current_duration_hud_labels_are_covered(self):

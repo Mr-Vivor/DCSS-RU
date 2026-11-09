@@ -58685,6 +58685,838 @@
     "You become more transparent, but the glow from the @sources@, and form prevents you from becoming completely invisible.": {
       "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
       "translation_sha256": "9d1849ee2311d400a962507a5f416755d75f7d7830e3a5b0ff8e21fe945646b6"
+    },
+    "You can't see any nearby targets.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "9f03418df585f38809e082a7ae785ac34a90510bd57930032cde6e73c1ee4aee"
+    },
+    "You offer up the Black Torch's flame, and Yredelemnul is glorified by your conquest!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8ab8d4a8c05d6ad14beb74858f5b046a5e770be0d74ef296cf6eb473053054fc"
+    },
+    "You offer up the Black Torch's flame, and Yredelemnul is satisfied with your conquest.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e389ccf470b6480299fb5ef67d4c3aaaf4fdb2ce2ea2414a0cb4b32c621ef6f5"
+    },
+    "You offer up the Black Torch's flame, and feel Yredelemnul's disappointment in your meagre crusade.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2ce6ebfc40b67f4cc8682b5a3ab60917c0ca4b5e5a67b462380ad006fae544ac"
+    },
+    "You offer up the Black Torch's flame, and feel Yredelemnul's disdain for your failure.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "032184dada85466806cff1355c212b4f479c97140388e7265a14ed2e2a28a9ec"
+    },
+    "@god@ blesses @ally@ with protection!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "118b33862615396ed1e69ee7cdf0a0e01e1d45a23f083ede7d08f5cbce934745"
+    },
+    "@god@ blesses @ally@ with fervor!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0e14686221c983619acb89c9cc3b55771690889ba9d9c6edbfc6eeee292a88b1"
+    },
+    "Ignis anoints @targets@ as an instrument of vengeance!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "68f61b792936b1641baabea5c0cae4037891c4fe03a3030cc2c7a5dd9ee80536"
+    },
+    "Ignis anoints @targets@ as instruments of vengeance!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "01b8e48c381c696f066e7de04d167561336ae2eb6510666fe5f4059aa78de005"
+    },
+    "It was the word of Zin that there would not be @sin_noun@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8a07391f1da8c818875718bc8568bb577ea7aa3d88ee73f3b003f116da851dde"
+    },
+    "...and did the people not suffer until they had @smitten@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "989246de851e7a2c28900f6d07c6b9f5c642b64f4a885ca148d60db7d0642171"
+    },
+    "...the @sinners@, after which all was well?": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c9e26b0d9e59e416b0ce47bedefc101e92baba434f9961f0e2cd8563273ffa84"
+    },
+    "The voice of Zin, pure and clear, did say that the @sinners@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cf8564b5fa51e434b5a3cc45b93ca3e50c51f6f174a058e41489cda3c7bfefaf"
+    },
+    "...were not @virtuous@! And hearing this, the people rose up...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f704c236c6c7fd8738d11c7d86397784fec8f86378cee1ec6122500442655093"
+    },
+    "...and embraced @virtue@, for they feared Zin's wrath.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "69865372758e53726af89c1e150ebfc0c6a85ee719c30c94413404f6e510075e"
+    },
+    "Zin spoke of the doctrine of @virtue@, and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5b92474ee29bf0339c03053d9d00b69782ad0e05aa8556c71f4c07b3f48cde09"
+    },
+    "...saw the @sinners@ filled with fear, for they were...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0bc863b8977be39086336f6c598135a255528707f6d5a70b6dc6822108e828f8"
+    },
+    "...@sin_adj@ and knew Zin's wrath would come for them.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8637a4318d1f7ff0d257a76d1a5ff3d8cfc6af1a37b257c9388714692dadd219"
+    },
+    "And so Zin bade the @sinners@ to come before...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c0b76f4027dacc4d0a7077474ecdca33da4fd304d4a7114a44a3014a34f2a972"
+    },
+    "...the altar, that judgement might be passed...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "14dfa03de868f54759314c78f03254eae750845ad874264716524a82179439c6"
+    },
+    "...upon those who were not @virtuous@.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "25d0b7770d9d279057145864db2caa03a3858cd77910a5b6078f7ef70c501e61"
+    },
+    "To the devout, Zin provideth. From the rest...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7495abd4dc7cb3a4e188339e521713cb69ae59a8a8895f9d0413b1f998706bea"
+    },
+    "...ye @sinners@, ye guilty...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4f16cf279e9d336559e693bea139774b87bdf793f83e69426083d7930c5b226f"
+    },
+    "...of @sin_noun@, Zin taketh.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "92c2e32bce7183e2082918bcdaf92ef6c6495c182d9955fd6b55ad5d08e81922"
+    },
+    "Zin saw the @sin_noun@ of the @sinners@, and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cdd98830cddb403a6756a7b55322ef0292bf8c22a74595a33e0549bfaf3cc198"
+    },
+    "...was displeased, for did the law not say that...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cf80cfb5d843f02285db7b709244e3d077e8639d1f7a342e1da2bf89444206e7"
+    },
+    "...those who did not become @virtuous@ would be @smitten@?": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a29dcfe1e9acd363052748842b0c3f17e59493f9c258b2507342584659e0e216"
+    },
+    "Zin said that @virtue@ shall be the law of the land, and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b69a83f5fd135dfaa3c4ff7b6fbba2d99b0fc633fb053538681217c2dbb0c096"
+    },
+    "...those who turn to @sin_noun@ will be @smitten@. This was fair...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "37760ea551d2c4116dea87b1ac847084fe8a67cfc9f2fe1128028b7b10608b3b"
+    },
+    "...and just, and not a voice dissented.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "fd01dc7461eba4956dbeae174dc437211468500c5b07d346594da4d94b392ea5"
+    },
+    "Damned, damned be the @sinners@ and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "92ab6653fe9d2e940c1652666676df26d72bcee1d480d993aa1d3feeaa0e25a8"
+    },
+    "...all else who abandon @virtue@! Let them...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2a4d52550f7e5f75addc13c7f07dcd7138832c533da7425d2a0b79ca8bcccf6b"
+    },
+    "...be @smitten@ by the jurisprudence of Zin!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8635a3d9a575aea582041657c2cca12dc7f73c63032163f290e9b3ea94f02af2"
+    },
+    "And Zin said to all in attendance, 'Which of ye...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "fe9fc654028e7020f7d0b36ab91ecc10ee1ca8829ea6f336a1d48147d6c8d535"
+    },
+    "...number among the @sinners@? Come before me, that...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6cd5a8a4bcc2e6340df6359de0b4658be6d9498d6f090cc226542ec9b26926a2"
+    },
+    "...I may @smite@ you now for your @sin_noun@!'": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "997a44baa51088e1f93053a2b218dddb8719f781cfe9f32b8673525eeed959eb"
+    },
+    "Yea, I say unto thee, bring forth...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ef2c581e5e2b5b61be4b23430e25ad55e50a9aef0c4c3f89ec477ee9b5805bba"
+    },
+    "...the @sinners@ that they may know...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2b546b3d5cde2021e183790472b6056a42f6d7931d6f7cc5a635e6c5ff8be97b"
+    },
+    "...the wrath of Zin, and thus be @smitten@!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f4938070675b509bfd4f5689e6cda119040958cbbaca17fb7fac18fe0ccba0a4"
+    },
+    "In a great set of silver scales are weighed the...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a9f9c9089b6bc9fac68e52d18bfc58153421d24eba806c260122cf668b839542"
+    },
+    "...souls of the @sinners@, and with their @sin_adj@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b1a7bd1d04ffe548ce2cd69a1a7f2d36026273f0a16b631741c4ef0b973e5880"
+    },
+    "...ways, the balance hath tipped against them!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "dc5ac6cad793f1751d9f372009e9f7a071fdd9ae6917a132d9d0800395f291d1"
+    },
+    "It is just that the @sinners@ shall be @smitten@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "544838cabd640e602cee68f67c4c8bca49e0f377d4cb735017c792c52cac6641"
+    },
+    "...in due time, for @virtue@ is what Zin has declared...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6408729c412757cb4cbbaf4ccafa5e03885a2378b9a3e8396d5da21fef9adce4"
+    },
+    "...the law of the land, and Zin's word is law!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e0e21333e06b34a9b688756e00aa0be14794f15369530642413b5357aef5693c"
+    },
+    "Thus the people made the covenant of @virtue@ with...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "10efbbc5be4a632ca7159515c9c725a83cb1d9bbda8004e2bfdbf4e1c12f5a2f"
+    },
+    "...Zin, and all was good, for they knew that the...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1d04180299f9f2d1bf1e02dd179cac7f5f51c46ff566cf8741329c486444d69f"
+    },
+    "...@sinners@ would trouble them no longer.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cf1f91edb38640db6810664482246d3e8127a9437a9c3d5b2724f88deee65004"
+    },
+    "What of the @sinners@? @Smitten@ for their...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b8c4097fad2d866f66d90b59041dcd6e51154207948c6abd91b1fd0f3e84abeb"
+    },
+    "...@sin_noun@ they shall be! Zin will @smite@ them again...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8d83d9469befa0de8fe3fdfc9ccb27a9f87f57628935e08f9805b83dc4f89845"
+    },
+    "...and again, and again!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "88ace303ae70e143137f2a5edb8823bb4acdfedd03c9e131bb0455ed1ec2c833"
+    },
+    "And lo, the wrath of Zin did find...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c9add56e4efbd92c6fd36ffab090f7ab67efb8a93b8ede7dd120d5fc95381312"
+    },
+    "...them wherever they hid, and the @sinners@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c9e1e035db0d49620ab33e8eb36acb750ffdf8b67288d0025347211c92fb7e98"
+    },
+    "...were @smitten@ for their @sin_noun@!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2cc30cef665674fa9e1312a8a74fe131620a77278ea0fee270a85dedc7e2b12c"
+    },
+    "Zin looked out upon the remains of the @sinners@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8fd0a17c8c20155d447f8b4266027a91c66e96ab11358e17a600c12827e17061"
+    },
+    "...and declared it good that they had been...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e3a02f00362944bc172b52b1d4ed0e562de24925a011ae5176d2eef755494319"
+    },
+    "...@smitten@. And thus justice was done.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cca866ea3d2d0a7ae56dbe376c989bbdd023843790a9223ed37777289cb2feda"
+    },
+    "The law of Zin demands thee...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "904fda515603cb244e7ca8920a72812c549a51c8bc917a59f60f207e54000c15"
+    },
+    "...be @virtuous@, and that the punishment for @sin_noun@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c32a45081c205904515e47ba3be986f73fe3c347d55c800811357174bfd13fc9"
+    },
+    "...shall be swift and harsh!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cb201361d9392f3749d9f32db20cf2307e088f153cfc368819d36d67604b0451"
+    },
+    "It was then that Zin bade them...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4f75284c44919232bb72a9b69912c329193313ec92311f47eb243e2ccc98522c"
+    },
+    "...not to stray from @virtue@, lest...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "882d7288f49601a51b77f813b9bc2936868615eb81719dccd03efdaa7d27c4f1"
+    },
+    "...they become as damned as the @sinners@.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e7cde77da0339bcad91974b01b3bd28a32d795211585d62b71b38dd4fba6ce2a"
+    },
+    "Only the @virtuous@ shall be judged worthy, and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2f7e8c2b2d575f2b819686390bb91b2d11dfee9a55ad740fe591402dadfa6fb8"
+    },
+    "...all the @sinners@ will be found wanting. Such is...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2141a580c259c541048fd28598dd7d21207eb54ab76218d816bb5261a0bd5051"
+    },
+    "...the word of Zin, and such is the law!": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0483672b0dfb9c22960dc32da70c8c195f8173cdd1eaa19ddc0c103d6b7d3674"
+    },
+    "To those who would swear an oath of @virtue@ on my altar...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "717052662093ec34033f1526c38201e0d6128c5692a6ce88acd46d68d070ef02"
+    },
+    "...I bring ye salvation. To the rest, ye @sinners@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c0e4d82307350227e0ec81c0b847da5a72df2e2a60e4d5444816ff92461932a9"
+    },
+    "...and the @sin_adj@, the name of Zin shall be thy damnation.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1f0ab18b8a7ca224c63317780fc906fe698f0d17c018251745ed58495c7244ec"
+    },
+    "And Zin decreed that the people would be...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "9692e1bfa7e8b25bef4667bcac86a8ba5f1aaacccd00ef08061a04ff42ec6443"
+    },
+    "...protected from @sin_noun@ in all its forms, and...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "10fc74d68aa50507eb1645ddf1a02b221c04508c749b3d16ea46134865db519b"
+    },
+    "...preserved in their @virtue@ for all the days to come.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ba44c2f68ebed8e26840881c6af5165d2132264bfee6d153fb47cbb9fafc65e9"
+    },
+    "For those who would enter Zin's holy bosom...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "26f99f95e5b93a6a740eb0da84ad5c073f0c8f84f1b1d63a1ba009ad36553cfe"
+    },
+    "...and live in @virtue@, Zin provideth. Such is...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7437f614a8151cad6bf1dd81aebc030240e2e2afe687e94d3753511987017422"
+    },
+    "...the covenant, and such is the way of things.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "957a486988fed92ce7b4538bb6c72606fc4723540ad0d58c14080dc964f994fb"
+    },
+    "Zin hath not damned the @sinners@, but it is they...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e256c0d894103a3a64e3de2ec8d1a3380e49c8e3ea947c79216dd2b8faf67b2b"
+    },
+    "...that have damned themselves for their @sin_noun@, for...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "29803fc74958349d181fb8382462bca8946abef2c603cf53629195f878b3dac1"
+    },
+    "...did Zin not decree that to be @sin_adj@ was wrong?": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a4da667f35173895d4de788f56cdf35b60f261fdffdadda073b295ee74ce194f"
+    },
+    "And Zin, furious at their @sin_noun@, held...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "369bfae84ae2055dbe22bb9d828b4fe4db3683a2358aea263b2900961b204f38"
+    },
+    "...aloft a silver sceptre! The @sinners@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e18543c957260c586a89d2d84019ac8cefcf53e25b1b57548cb01b801e9d89d6"
+    },
+    "...were @smitten@, and thus the way of things was maintained.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "643744fee188fad31eaba9cce74009b58606a4c9a9013be4fda2b22eb1101104"
+    },
+    "When the law of the land faltered, Zin rose...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f6dca9b6afb7c346ee91496240a641a2e493ca37c35aff5af5189531e7336a43"
+    },
+    "...from the silver throne, and the @sinners@ were...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "597d6c28ecea88179d231df1c9e37506daf48bf9069ba9ec76df8513b5585089"
+    },
+    "...@smitten@. And it was thus that the law was made good.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "90465c722a79e74f919b4ad5ea63e5eb1bdd6b7c3ec28afa0a6154e4ec02f46c"
+    },
+    "Zin descended from on high in a silver chariot...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5b7c233418ce6215bb8e7fc0628a84dd4d85cd701c70991d6d26fe2a94ea5f69"
+    },
+    "...to @smite@ the @sinners@ for their...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "49fd8cc37eb671e16f1219c3b32fcefc5c1f1a599388195c85c6ee12f69c59c7"
+    },
+    "...@sin_noun@, and thus judgement was rendered.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "9afbbc7e3510b085ca1a99c5ef6b007badb175ccde3d55f1bed9d363386a9e67"
+    },
+    "The @sinners@ stood before Zin, and in that instant...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "74262662703d601b4e6200f35a98da6db41aa9b9f7807daa2944c8ae3a80dcfb"
+    },
+    "...they knew they would be found guilty of @sin_noun@...": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5c379ca27211fce9924bb1ddd471fc9175c850f7c75be8385dbf392253870d13"
+    },
+    "...for that is the word of Zin, and Zin's word is law.": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e90aa9bac3629af147a7772005ce5133170080314ca8caca57b8b1abc11b7498"
+    },
+    "{zin-sinners-nom}unbelievers": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "29e091e4bf2439d2b17150b531798a6a144a59774622343c90fcd2d857f278a6"
+    },
+    "{zin-sinners-nom}heretics": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7a225bce6eeac28fb7c283eb6fd10d0750efd11e5bfa248803e438f2461cc9b1"
+    },
+    "{zin-sinners-nom}guilty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "41fed3d6eb625f5f5a90ecd501d0b9a7fd09921ea81d7d126a54b5578d26b053"
+    },
+    "{zin-sinners-nom}hordes of the Abyss": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8e8ed26600804014c0abff99348716ccc923cbff1a0ba95dca9f611b8d82bf88"
+    },
+    "{zin-sinners-nom}bastard children of Xom": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "bc464b6f433e845d4f3d6a71e7b12a5c565a7e7c927048165ea37dbb3d5d0e4c"
+    },
+    "{zin-sinners-nom}amorphous wretches": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "75a8853f0c16d71ad75af9ddd357e69abdd20e2b46c185da2e2f65f0c3baa6b3"
+    },
+    "{zin-sinners-nom}fetid masses": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6cb29cec9b3132038b45608f979437d952e7f156b416bd6d6ed6c88369a34296"
+    },
+    "{zin-sinners-nom}agents of filth": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "26c5d637bdd66d74a1ea5343aa8c6b5dc115f6562835aa3128eaf52c92c68799"
+    },
+    "{zin-sinners-nom}squalid dregs": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c44f0d424bc82a8b2dd34d7885e19ae19d7a483b5401b4de8a4a8a9c49b2eee9"
+    },
+    "{zin-sinners-nom}legions of the damned": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "510a423a5c730ba105cececf85dc58f4d7fcc73a0881a38b3b0bc010b60910b5"
+    },
+    "{zin-sinners-nom}servants of Hell": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "55fe4480918cac92009183e7cdb3c02910f8b9d53b3935bed6234282776f9361"
+    },
+    "{zin-sinners-nom}forces of darkness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6d7dff9904fc7e8daae4245360cb67b92e24fd36110ee99b567bbd9538725370"
+    },
+    "{zin-sinners-gen}unbelievers": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "451a89639538c2cc832b227524585e43e4a457da0adb9a6763ee038ea1e56370"
+    },
+    "{zin-sinners-gen}heretics": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e933a338abfa1be238fa48024e2d70c0a70228bd34c978ab25ddbab94f2cacad"
+    },
+    "{zin-sinners-gen}guilty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f64b518338d1247963f128d9d43f17ebcd0d553023c022ad278e55d0a23093e5"
+    },
+    "{zin-sinners-gen}hordes of the Abyss": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "88049480f8472e0e30b014a727af0b4ba23bec38c8193b643b61bcdb5ff66697"
+    },
+    "{zin-sinners-gen}bastard children of Xom": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b783bf2f8e2ea6851ce42dd19fde0c627a466e82c9a4c1f44c53d23a9797b64b"
+    },
+    "{zin-sinners-gen}amorphous wretches": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "d52b1739cfd728fdbc2d607137511d7947039026312f9c09fad757db1d828233"
+    },
+    "{zin-sinners-gen}fetid masses": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "dcb0ee025cc83ceb81be68e15b55c3fc81cdf0a11df3064a055a6f220f090cea"
+    },
+    "{zin-sinners-gen}agents of filth": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6044e221d4a8788c20f61b6a13c7eb3679b71879891ee63838b3d2e35131e13f"
+    },
+    "{zin-sinners-gen}squalid dregs": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f9f37e1c910aaf3f270c00d7f156592c10d594748682e57f38a0ae347cdaf649"
+    },
+    "{zin-sinners-gen}legions of the damned": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "75095121a69d181da9b70580fbd6dab7fcf7e797850a32cbf3fcaa20099ae23e"
+    },
+    "{zin-sinners-gen}servants of Hell": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e4839a3eec4d1f38990eb67c491deaaff7705e94c728a545a016996cd14f7070"
+    },
+    "{zin-sinners-gen}forces of darkness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "3f81e4bfef6bf17216d4c3b820201134a8f455067614e06fb1bd2970ac2493cd"
+    },
+    "{zin-sinners-acc}unbelievers": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e32b57d7200be7b067aca6500673eb9c32d0b33ed3b38e27900225418d5d30a0"
+    },
+    "{zin-sinners-acc}heretics": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "36c79d7951c57cf97cd237ccbf402961c8227da349f464ab64215f6172bbca8f"
+    },
+    "{zin-sinners-acc}guilty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6c65c8ef722525b90473993589f952908a569358a8a9d93a012ec2d1efb70696"
+    },
+    "{zin-sinners-acc}hordes of the Abyss": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "fa2d4ae052a56f4647fc3c63a485acb0ad9417d48534c1504d0d83d250ac51e0"
+    },
+    "{zin-sinners-acc}bastard children of Xom": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "506c5b9e6d14e9689049f00ac5173388a9fbf1c15ef9429eec2d2a9d08608979"
+    },
+    "{zin-sinners-acc}amorphous wretches": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "182490519cf729399cc2d07275a3d9cb30bbf25fb5797eb1c394ba453abdca79"
+    },
+    "{zin-sinners-acc}fetid masses": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f9975a697615b661961917e6a826b8f89368af0685edda506b8f32aa2902a4aa"
+    },
+    "{zin-sinners-acc}agents of filth": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c43e31aa61f031b01a51ddd19e3388b99967b20ee994c53cca9c86d6fc905bfd"
+    },
+    "{zin-sinners-acc}squalid dregs": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "202f3f9a8508b369d5f0253037c26e0c4c46da3a840207d876471c052a804e65"
+    },
+    "{zin-sinners-acc}legions of the damned": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7327c826658929f948324f445900d0805e0f02c38af43431f4141d1397e87ada"
+    },
+    "{zin-sinners-acc}servants of Hell": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0a462c73ca888a4f4877b3cab0a3eb03b4c1eaf95940d9c1650ab7a53c6b427f"
+    },
+    "{zin-sinners-acc}forces of darkness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7b70386601e314451e7cbe9af93ae1cd7dbd49f3e5355eba1d8e8be2039de236"
+    },
+    "{zin-sinners-dat}unbelievers": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a1a5fe56c879cf29bf558ba4dafc9bcb9d041df70e2d8f2315799c3604a14d35"
+    },
+    "{zin-sinners-dat}heretics": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5429426b25e309c199dbecf7dd7f29b0aa0eadf55dbbd41dad7f63019c2a1893"
+    },
+    "{zin-sinners-dat}guilty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8b8199afdf1234232f2576f5071284b924c02999cb2a30940d683e5a83cc41be"
+    },
+    "{zin-sinners-dat}hordes of the Abyss": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c632e1cb541381aac6c7def66d499a95ce311b8534e93ea95dfd8722c635b151"
+    },
+    "{zin-sinners-dat}bastard children of Xom": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "9388adfd91b87b0f78d910cda7d4e3a261f0c14f2fe0027c373069a5a37d170a"
+    },
+    "{zin-sinners-dat}amorphous wretches": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "d655aeaa42cf50a1ecd2591c7a9f459370c780ea9af506e91345a87e302f2448"
+    },
+    "{zin-sinners-dat}fetid masses": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f29416cd00cbced09e82ee7e1c2e700b080e26564b4cf0fa04ecddeb8772603c"
+    },
+    "{zin-sinners-dat}agents of filth": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6746dbc0638c5e5beaf46a6a3da90b2561a8c9196b10fcab85d22020c2a8e3de"
+    },
+    "{zin-sinners-dat}squalid dregs": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4e359ee3bb020dbcd017e4e36ff49747032626af77a1f3e1cfd4199da7f83168"
+    },
+    "{zin-sinners-dat}legions of the damned": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "cdf989c05973d1c9b7ec04f4d7c9f1b21e6e09cfd2562b311e77e3bacb1142f4"
+    },
+    "{zin-sinners-dat}servants of Hell": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ec099ca136b0889dc97478d324a30208d6a77ed36348833c997c5425b6089de6"
+    },
+    "{zin-sinners-dat}forces of darkness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "819e5637d93a59ef18cb2933b37c4901ae1b17b444a9ff24f1069858188aed5f"
+    },
+    "{zin-sin-adj}unfaithful": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "336e164386e8e1c15f86fb25e58c8e3bbcb087bbe25fd89c3b74929c617e7945"
+    },
+    "{zin-sin-adj}disloyal": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "428d2b0b207e62faf6fc4ef4b92468d9f5afb17c52e0fdf50f21bf4c2e4eaf72"
+    },
+    "{zin-sin-adj}doubting": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "62b958cbff2584ab33a77ce6522a7b4a1aa84b341b519b1504ddca8d81c4204c"
+    },
+    "{zin-sin-adj}chaotic": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "3542ca4a1765ddc0e5774b1356e8fb423250ae11ad2200f16f51052ba93aede9"
+    },
+    "{zin-sin-adj}discordant": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "452727573062accd8fdcdcfa575e79ed26659ebc509ebcb30deab02a99e105c3"
+    },
+    "{zin-sin-adj}anarchic": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a634fe6e30486853959a77ede2d96672f6548a27c467b1a0c25dfdef7d51d94c"
+    },
+    "{zin-sin-adj}unclean": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0fe65642f4477c536445f2f46490baea9cbedeb7430ed0e1767fd5f2629bfb69"
+    },
+    "{zin-sin-adj}impure": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b7fda9c525b7c59b1af478f58ca8a3a83aa5facb4ea02e20eb5fbb128b15c655"
+    },
+    "{zin-sin-adj}contaminated": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4f780cd1309847c088c2de9e69786c739c20bd078bc6f3598021ee2813126b15"
+    },
+    "{zin-sin-adj}profane": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5887239610a76f7871086c85f53df13324a19b564e546679522ee82f7b60b0fc"
+    },
+    "{zin-sin-adj}blasphemous": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b49226aa355702cc1f79a219e1b6719148a3977adde1a6d3595240072afb80af"
+    },
+    "{zin-sin-adj}sacrilegious": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "eb3af5bd62911124f191a881809069dfe0096d60232f957bff73564791367ae5"
+    },
+    "{zin-sin-noun}unfaithfulness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "74f537803a3880b1c6fb7643187e7340b82630ad4a7277bb76d6ea7a4cbd0684"
+    },
+    "{zin-sin-noun}disloyalty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7c6d43e863bbbb603839a287757492c7760a62dc6aa91c3272a12beaf2bd8e36"
+    },
+    "{zin-sin-noun}doubt": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "02a23ea85f12bfc2d8a2d0626002671cb9f8550945729433b914f7128cf2c653"
+    },
+    "{zin-sin-noun}chaos": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7eeae075973d096e02dffe6e96016630791f34c57af284fa1ed12613bd0bf58b"
+    },
+    "{zin-sin-noun}discord": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "197f58871f92da0e5bb672105c0e29dfe84a4fc3d0ffbc4f91102118421b4c08"
+    },
+    "{zin-sin-noun}anarchy": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8de755c8351360d6419e8db77fed31b815d06634f9962e3e33457afc1525dee2"
+    },
+    "{zin-sin-noun}uncleanliness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a88265680d707410ee260601656e72be0bb272eb63a34d56052d2aee4fab856f"
+    },
+    "{zin-sin-noun}impurity": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "8fe8119dd1f8846c6adff2b63d699ba6259fc841989215eda24f32fd35b93c36"
+    },
+    "{zin-sin-noun}contamination": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b2b0b7521235579381511658b4691c6aa49a3fc339dd34bddf1562e2778224a4"
+    },
+    "{zin-sin-noun}profanity": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e8c64b4e3286e03788957b411166fbb0ef5f070f7aff5d9b90d12dd4f05c4ad2"
+    },
+    "{zin-sin-noun}blasphemy": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7741ef2d3b883fa79b8e78c6b1aa05c90803a24cd75a466d59cd5496f8087604"
+    },
+    "{zin-sin-noun}sacrilege": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "54e4055a2c805daa99fe787782d3f0ce525496ffe307f4aa3b64b16aad9495c5"
+    },
+    "{zin-virtuous}faithful": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "dbba5a1468a8253f20afde052949ce78e638a795d78367bde4c02c5e438270e8"
+    },
+    "{zin-virtuous}loyal": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "67e219d7bc360eb25c4d1b83e9c0dae0cb649f28dd3476125172bd0b6bc5998f"
+    },
+    "{zin-virtuous}believing": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "293a304c5dbbd6dedcffeaa095e9d40514bed1c5fae12b8ab11a74f4913b6161"
+    },
+    "{zin-virtuous}ordered": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4dad43952d556f95083ae7544bdd22beb84b7a6e2361c928197b58d7798fe7a1"
+    },
+    "{zin-virtuous}harmonic": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "0be43f568d40b5b405817aa91318ddea0e017febba05198a22c2af0df31f519b"
+    },
+    "{zin-virtuous}lawful": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6f76c07ab199952cea345f20ccb9c14759b59b04c98e3ecd2d4112b8841fec37"
+    },
+    "{zin-virtuous}clean": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "710f6bca612f4fab48088ccc468812f5ef52886d95e32aaa20fac0acf7f74f47"
+    },
+    "{zin-virtuous}pure": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "272bb316bfe9a75914d20f4915a4fcd16ea9905498854d7ab4af0373b1734728"
+    },
+    "{zin-virtuous}hygienic": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "bbe98dd8b94b12b7759bcd2060c15b59902542e809fe2607f7fd6e1d282383df"
+    },
+    "{zin-virtuous}reverent": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "5178820a26a6d4560f68d5175bf2ca1d3f3f2358efb301392eb73bae79cc7de3"
+    },
+    "{zin-virtuous}pious": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "961e05430cfb06c1622511a9e0b27f7295803f840f394e72b8697f72aefa0e05"
+    },
+    "{zin-virtuous}obedient": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1a5260385358d671e89e68bc2c4e244c831fe555f841471b98a90afe952dc133"
+    },
+    "{zin-virtue}faithfulness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a18f1e6d526cacb9da439b8388e90eba6f5a6f8e4ae03df73a82f43365cd1dbc"
+    },
+    "{zin-virtue}loyalty": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "87a4fff37b3fbaf88109e40e152227eebbb7d09de9ebdddedba988048c5d0f8a"
+    },
+    "{zin-virtue}belief": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f60c0e076bed060452f6e5e3a007a956a113a741fd9510e541167cb29654681d"
+    },
+    "{zin-virtue}order": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b9e5181a563303a66806c30ebf7a39b7b767f9c660953b36cb6754445960ee52"
+    },
+    "{zin-virtue}harmony": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ad1b0b53a3208dce56ef9dcd9e5f2e3a4511935d95e37166851a0cd8e24d50f3"
+    },
+    "{zin-virtue}lawfulness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "df33d3ddd3668b645016d3ac1606d43fc1f7e90fe4eb773b1f8a2b7673a967e3"
+    },
+    "{zin-virtue}cleanliness": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "63cb58ea2784f5dbb09d5513460929371ea2f57a8d65fa36d32faa6d02a8f6e6"
+    },
+    "{zin-virtue}purity": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "4e4a619ee8be1958adac563d528a46246149eee3a6d36b0981bd0a24f59de8d7"
+    },
+    "{zin-virtue}hygiene": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a0e58e07185c2b84c8dc8a928922ef63925128fc4683f13103fa84af7d1ef39a"
+    },
+    "{zin-virtue}reverence": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "9f9fd02c1f790c63f0df067cfe2262629ae9edbad5bf153cb2d885f6dcbd6e79"
+    },
+    "{zin-virtue}piety": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1414e9142ba8fcd389df025fcc209e5c21893e21b0e859921c0ff597f5f3c162"
+    },
+    "{zin-virtue}obedience": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "185474e73672e210f1ace733d404a8f945b410bb766dd7fd0c60615bf6830a1a"
+    },
+    "{zin-smite}purify": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "91df0ffe186212172218463b8d4726c10b883c85ed1dda1ccb9b446f32d96bfc"
+    },
+    "{zin-smite}censure": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "701373a9f0049c5ff2821915b3add4cf10b3eddb525886ca5936b4c0e32a759e"
+    },
+    "{zin-smite}condemn": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1e5e18f6afe7486ea020751d8efb7911f79f5ec8c7656296aca22cfa5d3f5a8a"
+    },
+    "{zin-smite}strike down": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "21ab64e6d4aec11d75de91afdb7b59aa925deaad1be870d570cb60c2898a614d"
+    },
+    "{zin-smite}expel": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "15829a81b1e8c67676a6093ac9b226d9aa416b59f13b855d7fb0e99fe8322c92"
+    },
+    "{zin-smite}oust": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "835be61eb3e019018d605f4ee664828d3fa010e3b5299a41ad275ca94920e952"
+    },
+    "{zin-smite}smite": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "095ebf3130f55424440bea30a5d3967de04452460d9023094508e74a5d18513b"
+    },
+    "{zin-smite}castigate": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "21255129cc90f479c6bfcc95f0fb2bd5d21dc654d20a10e4c92bac7b242332d8"
+    },
+    "{zin-smite}rebuke": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "b6003f72a93d735733e120f5ebcae2c3a87c7c5e155b597cbeaa2607f499c3b7"
+    },
+    "{zin-smitten}purified": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "3b109ec985bdbd8d12c97af40c0c709f01128c4206ba4ec662e6294b53648c50"
+    },
+    "{zin-smitten}censured": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "2c2468726ce5abc6d77c7c0ef36ec614a3be293b3fc3cade54e4a5f179e8bd0b"
+    },
+    "{zin-smitten}condemned": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ea26a44a9013e01b58b4540e29b275ecdeaf3fcdea240ac0d28128aea1a703c1"
+    },
+    "{zin-smitten}struck down": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "ad6630d029b1c299f429c891f2b1ead853a8a7f62833f680a13d638d9e2e9752"
+    },
+    "{zin-smitten}expelled": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "f3342681beef1081b96af1ea18ee933a57f7445149986b2ae55f892996ffc574"
+    },
+    "{zin-smitten}ousted": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "821a0ac6bce6211923b3107c416f586c6e2e2a81da687ffd65e686a1bdc83b1c"
+    },
+    "{zin-smitten}smitten": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "6e7e082d4b2894281b386a69eca07f1bbc0764eb2c6852411765b9f54d53deac"
+    },
+    "{zin-smitten}castigated": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "c4d9de491a9478f2631e1bbb377afb7a2bd49c825e6853c354dbfeda18d7da09"
+    },
+    "{zin-smitten}rebuked": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "a5de7082b7c62b0cdf2a4153396f016beb4899bcac43dd21b49dec4aea3dd6b0"
+    },
+    "Abominations @chapter@:@verse@": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "7861e925aeb7e1956df63fda30da978eb09994395217d727c4c30e7cb21d8f5a"
+    },
+    "Ablutions @chapter@:@verse@": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "e60a1ce46a37f905946cdf42e0780675605cff15e456acb5c8029a419f17c653"
+    },
+    "Apostates @chapter@:@verse@": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "94d766c4946d131cda43bf73b9820109a600a1b169d87e58e4416072ff08cd03"
+    },
+    "Anathema @chapter@:@verse@": {
+      "context": "god-abil.cc:book_of_zin (27 three-line chapters), sinner/sin/virtue/smite tables and deterministic zin_recite_text; yred_torch_ending; god-passive.cc:tso_maybe_bless_follower; god-wrath.cc:_ignis_champion; ability.cc:infernal servant target check. Scoped recitation lexemes do not change general equipment/status terms.",
+      "translation_sha256": "1aacc84c848a1205fb32237c2bf47a1e634959fb3e76e54108e3faf17f3a10cf"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

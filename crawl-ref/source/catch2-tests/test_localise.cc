@@ -12,6 +12,7 @@
 #include "initfile.h"
 #include "invent.h"
 #include "hiscores.h"
+#include "god-abil.h"
 #include "localise.h"
 #include "macro.h"
 #include "map-cell.h"
@@ -329,6 +330,14 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "По телу орка пробегают волны света оттенка «" + random_colour + "»");
     CHECK(localise("You become transparent, but the glow from your halo, magical contamination and form prevents you from becoming completely invisible.")
           == "Вы становитесь прозрачным, но вас по-прежнему выдаёт свечение (ореол, магическое загрязнение и ваша нынешняя форма).");
+    // Real seeded recitations, not synthetic placeholder strings: retain the
+    // chapter, inflect the selected audience and keep religious senses scoped.
+    CHECK(localise(zin_recite_text(0, RECITE_HERETIC, 2))
+          == "Слово Зина гласило: да не станет неверия...");
+    CHECK(localise(zin_recite_text(3, RECITE_UNHOLY, 2))
+          == "И повелел Зин легионам проклятых предстать пред...");
+    CHECK(localise(zin_recite_text(25, RECITE_IMPURE, 1))
+          == "...дабы очистить зловонные полчища за их...");
     CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
     CHECK(localise("Your soul already belongs to Yredelemnul.")
           == "Ваша душа уже принадлежит Йредэлемнулу.");
