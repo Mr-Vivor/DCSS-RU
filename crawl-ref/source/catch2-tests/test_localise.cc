@@ -308,6 +308,8 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Вы видите 2 живых заклинания «Окаменение» и 5 живых заклинаний «Ледяной взрыв».");
     CHECK(localise("Your hand axe quivers in your hands.")
           == "В руках подрагивает ручной топор.");
+    CHECK(localise("You feel magic pooling in your eel graspers.")
+          == "Вы чувствуете, как в угрях (манипуляторы) собирается магия.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
     CHECK(localise("Your paragon deflects the bat's attack away from you.")
