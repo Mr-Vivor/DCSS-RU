@@ -32751,12 +32751,12 @@
       "translation_sha256": "48ac82c7596caf316326e942efb9af7cf9234695d3e5dc20eb3edff9a6c34417"
     },
     "You cannot do harm to @arg@.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
-      "translation_sha256": "4a1a31d5a62bc0c96a55b0f659e3609582fd89820258d1a3e0a11cdd6ab7d059"
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "fbb6701399b71eb1093ef6e9899ede180416c361f88fbe89526b87d64db3492c"
     },
     "@Arg@ has no magical effects to unravel.": {
-      "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
-      "translation_sha256": "379703da0b9a1fbca9f0af6ebe4b4eda509be2bb9b6b8f04485faa249e4c79d2"
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "8afdeab96629e61306fcae6c143d3b0f5edec51a8f3f53cae305fcd959a61f68"
     },
     "The unravelling is likely to hit you. Continue anyway?": {
       "context": "directn.cc/target.cc/spl-cast.cc: targeting, safe/invalid targets, Hepliaklqana position swap, magical power enhancement and channelled spells; fixed key placeholders preserved before command insertion; temporary describes terrain, not a permanent map change.",
@@ -65049,6 +65049,134 @@
     "@Arg@ ignites a memory of @spells@.": {
       "context": "mon-abil.cc pyrrhic_recollection (MONS_NAMELESS_REVENANT is actually the unique Nobody in mon-data.h, canonical Никто): burns one memory, changes spell list, and heals the creature; does not cast all the listed spells at the player. Injured and full-health branches differ by to re-knit themselves. Spell list uses nominative canonical titles, including actual Marshlight/Scorch pair. Original spell and unique IDs unchanged.",
       "translation_sha256": "8b5cb8f9bf22706b58b562ce8eeb65f6b18cbb0c0268e00657e664d01b8415f5"
+    },
+    "You can't see that clearly enough.": {
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "7d93d96ad6c4ce3ab3ee3f9675f90904efbf5948b1605dd10359d08d1bbe29a0"
+    },
+    "You can't reach that far!": {
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "169628c0f2ec99811dd94183eb84c99c6fc8c6ee84d2951b1c351db3bf8d8c84"
+    },
+    "You can't place harmful clouds in a sanctuary.": {
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "4441830ed6b43b45fb3f1f8738c213f068f64b17cf56a643cff2ec7faa8d96e5"
+    },
+    "@Arg@ cannot be affected by poisonous vapours.": {
+      "context": "target.cc phantom mirror visibility, cleave reach, sanctuary clouds, poisonous vapours and unravelling. notify_fail assigns why_not and directn.cc emits it through mprf; these return-string messages were missing from imported message extraction. Do not reveal unseen monsters or claim poison immunity to all poison damage.",
+      "translation_sha256": "e7775a42b7ed45c52c48ee13bea7cfba4579a85eaa7fc128b0ed3b1606daa2e0"
+    },
+    "There's a thick-headed creature in the way.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "ca83d60cf49afe00a84f3cc676efad58c6b981397c8f8185461b4e31829471a2"
+    },
+    "You can only roll a boulder in a compass direction.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "5aecbe2bc3ce00589e8de44a2ef725cea6f90a529aa6ad99e344aebcb084ef90"
+    },
+    "You cannot conjure a boulder there.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "d53d21fabbd9a1e093605dd8c239a69bfb14f90ba5d01406700ce8d517c5a0c8"
+    },
+    "You cannot conjure a boulder in an occupied space.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "421290c0ea45c40e60d4622a1ebc347c3e23d2a3285dfe92c5993306fad73158"
+    },
+    "Gravity is already pointing downward.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "c2ce72c17605aa42ca317f2cb2bc74a36c1adbe315e54e8044b24e987b114a06"
+    },
+    "You can only reorient gravity in a cardinal direction.": {
+      "context": "target.cc targeter_boulder and targeter_gavotte. Boulder compass test accepts cardinal AND diagonal directions (delta.x/y equal magnitude); the gavotte range-one implementation also allows all eight adjacent cells, despite its cardinal wording. Translate actual allowed grid directions, not an erroneous restriction to four. Self-target boulder message is only used when a==agent->pos(). No mechanics changed.",
+      "translation_sha256": "504d9684c90187e4ac9149efb63d49d2994adc8049d1603fd02381cdc192b2ea"
+    },
+    "You can't see anything there.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "2d12e17e8f7ef33f1595242ee2de9a3a4d5c3a0c571690b275a5194403fff747"
+    },
+    "You cannot bind the soul of an ally.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "e0ffa19b2caa9531a28cdbea30132dfc7bb60bc9d4822cffc653dbab304ad9c3"
+    },
+    "You are unable to grasp such an alien soul.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "6f38a8070fc11ea48bc0a5453552a562a18b1c6284137f4c37f1992d3aed561b"
+    },
+    "You cannot bind the soul of a summoned being.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "b3a27e2c3bcc39dedc60fda4c35608ae3dba2c2748ae557a9911e318532ac19f"
+    },
+    "That does not possess a soul you can bind.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "b77308ac5d0325fe19e1fdcfbb720da71bc88100c294ec8f53ad5be297f193ca"
+    },
+    "Their soul is too badly injured.": {
+      "context": "target.cc targeter_bind_soul uses yred_can_bind_soul: reject allies, alien Pandemonium lords, summons and creatures without eligible souls. Existing wounds beyond MDAM_LIGHTLY_DAMAGED prevent binding; this is not proof of low player HP, lack of MP, or a generic willpower failure.",
+      "translation_sha256": "2257da366d9e21277a44eae99b1090d7c813ae6a74f2727ce64835c208d77ea2"
+    },
+    "Their shadow is too faded to take hold of.": {
+      "context": "target.cc targeter_marionette: Dithmenos needs a nonfaded enemy shadow with a remaining useful spell; actual summons except illusions are too ephemeral. No assumption about enemy gender and no accusation that all enemy spells are useless forever.",
+      "translation_sha256": "5e198b2c1ee94f4a3a798f01ad7a96b47af9695b67709c8bfce31d205c09daf7"
+    },
+    "A summoned shadow is too ephemeral to take hold of.": {
+      "context": "target.cc targeter_marionette: Dithmenos needs a nonfaded enemy shadow with a remaining useful spell; actual summons except illusions are too ephemeral. No assumption about enemy gender and no accusation that all enemy spells are useless forever.",
+      "translation_sha256": "f51b18765e14efde2cb828565ac79d5fac4d56bcd84dddcd7d84deaf6f3b9d89"
+    },
+    "They have no useful spells to cast right now.": {
+      "context": "target.cc targeter_marionette: Dithmenos needs a nonfaded enemy shadow with a remaining useful spell; actual summons except illusions are too ephemeral. No assumption about enemy gender and no accusation that all enemy spells are useless forever.",
+      "translation_sha256": "b888f008aef33bd3c41e03c297e84cb4868a948d253be0d31e8042b5867727f1"
+    },
+    "You cannot putrefy a friendly monster.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "6f303155d4385346ead5d1f35441863dd73ca24b2883758a43ed289201d3097d"
+    },
+    "You can only putrefy natural creatures.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "45deac24e2ee7aa1fa25aa1482120cda95ebd21241de2852cda6d26af67d439f"
+    },
+    "This isn't wounded badly enough.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "7795eb94eef29b5973c24b7e80291f90734b25e71c7670d53bfc7b2267a998dd"
+    },
+    "There's nothing to be tempered there.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "50e29f5bf96b9a6a46fb08bf2c8bd88e8b13e36947055ffbe91b0680e8161103"
+    },
+    "You cannot target a construct which is already augmented.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "bf093011869fc92c16df615ae13934e535ba9664788c197324d33c9b73d88b22"
+    },
+    "You can only target your own Forgecraft constructs.": {
+      "context": "target.cc targeter_putrefaction: only unaligned MH_NATURAL creatures at least heavily damaged. Natural is the living creature category, not the adjective natural applied to plants, nor all undead/demonic/artificial creatures. Targeter_tempering requires friendly untempered valid own Forgecraft constructs; ENCH_TEMPERED cannot be stacked.",
+      "translation_sha256": "d561529b1ce6c16b63c6a2e3a5c8f631fe918dea07552ed9004f318f76b3f362"
+    },
+    "You see nothing there you can launch.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "3416e6643d397b1af3b90bab4d541a809781126b4b26b2a66164a9542e847939"
+    },
+    "That cannot be teleported.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "5cbfa1735cefc489a5461e34421337fc1a5ad18e076d797d7ce9dfb0b928f459"
+    },
+    "You can see nowhere safe to land near that.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "3901f8ee89a0816634f8435ef729b1aa6621a33a8fe0d23edb988c69c07104e4"
+    },
+    "You must target an enemy who is afraid.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "90352718713e78b1df7140b2b32427c48ae279ee6e17d71026810244ad897832"
+    },
+    "Your paragon could not survive being deployed there.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "326408690ca52719c069d07ce02fdca1f568f854c6d8e63a7a9839afcfeae275"
+    },
+    "This spell must target an enemy.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "9b1186a3545c33827dc38577a38ed12e09cca332758c6926c53fa7fe24dddaf0"
+    },
+    "There is nowhere near that target where thorns could grow.": {
+      "context": "target.cc targeter_piledriver, teleport_other, bestial_takedown, paragon_deploy, ice_thorns: launching needs a valid line target; no-tele creature cannot be teleported. Bestial landing requires a frightened enemy and a visible safe adjacent spot. Platinum paragon habitat must allow deployment. Ice Thorns needs a hostile target and adjacent visible floor, not a friendly creature or empty cell.",
+      "translation_sha256": "c17722dca70aa1d334c44414717f008617554f6f03aa96e5522e807fe3fb3cd1"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

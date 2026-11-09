@@ -33062,11 +33062,11 @@ You can't see that clearly enough to target.
 %%%%
 You cannot do harm to @arg@.
 
-Вы не можете причинить вред этой цели: @arg@.
+Вы не можете причинить вред {dat}@arg@.
 %%%%
 @Arg@ has no magical effects to unravel.
 
-На цели нет магических чар, которые можно рассеять: @Arg@.
+На {prep}@arg@ нет магических эффектов, которые можно развеять.
 %%%%
 The unravelling is likely to hit you. Continue anyway?
 
@@ -65271,3 +65271,131 @@ a new head
 @Arg@ ignites a memory of @spells@.
 
 @Arg@ пробуждает пылающее воспоминание о магии: {nom}@spells@.
+%%%%
+You can't see that clearly enough.
+
+Вы недостаточно отчётливо видите цель.
+%%%%
+You can't reach that far!
+
+Вы не достаёте так далеко!
+%%%%
+You can't place harmful clouds in a sanctuary.
+
+В святилище нельзя создавать вредоносные облака.
+%%%%
+@Arg@ cannot be affected by poisonous vapours.
+
+Ядовитые испарения не действуют на {acc}@arg@.
+%%%%
+There's a thick-headed creature in the way.
+
+Нельзя направить валун на самого себя.
+%%%%
+You can only roll a boulder in a compass direction.
+
+Валун можно катить только в одном из восьми направлений.
+%%%%
+You cannot conjure a boulder there.
+
+Здесь нельзя создать валун.
+%%%%
+You cannot conjure a boulder in an occupied space.
+
+Нельзя создать валун на занятой клетке.
+%%%%
+Gravity is already pointing downward.
+
+Гравитация уже направлена вниз.
+%%%%
+You can only reorient gravity in a cardinal direction.
+
+Гравитацию можно направить только в одном из восьми направлений.
+%%%%
+You can't see anything there.
+
+Вы ничего там не видите.
+%%%%
+You cannot bind the soul of an ally.
+
+Нельзя связать душу союзника.
+%%%%
+You are unable to grasp such an alien soul.
+
+Эта душа слишком чужда вам: вы не можете её захватить.
+%%%%
+You cannot bind the soul of a summoned being.
+
+Нельзя связать душу призванного существа.
+%%%%
+That does not possess a soul you can bind.
+
+У этой цели нет души, которую вы могли бы связать.
+%%%%
+Their soul is too badly injured.
+
+Душа этого существа слишком изранена для связывания.
+%%%%
+Their shadow is too faded to take hold of.
+
+Тень этого существа слишком бледна, чтобы ею завладеть.
+%%%%
+A summoned shadow is too ephemeral to take hold of.
+
+Тень призванного существа слишком эфемерна, чтобы ею завладеть.
+%%%%
+They have no useful spells to cast right now.
+
+Сейчас у этого существа нет заклинаний, которые можно использовать.
+%%%%
+You cannot putrefy a friendly monster.
+
+Нельзя подвергнуть гниению дружественное существо.
+%%%%
+You can only putrefy natural creatures.
+
+Целью может быть только обычное живое существо.
+%%%%
+This isn't wounded badly enough.
+
+Раны этого существа ещё недостаточно тяжёлые.
+%%%%
+There's nothing to be tempered there.
+
+Здесь нет подходящего создания для закалки.
+%%%%
+You cannot target a construct which is already augmented.
+
+Это создание уже закалено.
+%%%%
+You can only target your own Forgecraft constructs.
+
+Можно закалить только собственное создание Ковки.
+%%%%
+You see nothing there you can launch.
+
+Вы не видите здесь ничего, что можно запустить вперёд.
+%%%%
+That cannot be teleported.
+
+Эту цель нельзя телепортировать.
+%%%%
+You can see nowhere safe to land near that.
+
+Рядом с этой целью вы не видите безопасного места для приземления.
+%%%%
+You must target an enemy who is afraid.
+
+Нужно выбрать испуганного врага.
+%%%%
+Your paragon could not survive being deployed there.
+
+Ваш платиновый идеал не выживет на этой клетке.
+%%%%
+This spell must target an enemy.
+
+Это заклинание нужно направить на врага.
+%%%%
+There is nowhere near that target where thorns could grow.
+
+Рядом с этой целью нет места, где могли бы вырасти шипы.
