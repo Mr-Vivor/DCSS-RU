@@ -58545,6 +58545,146 @@
     "@the_feature@ briefly shows bizarre сочный buildings on the other side.": {
       "context": "colourname.txt recursive palette; miscast.txt, godspeak.txt, monspeak.txt, decorlines.txt; items.cc:_get_gem. Colour labels stay scoped to random DB, actor cases belong to final sentence.",
       "translation_sha256": "773846d338761a5f6567a55584377701c650af1de2e5f6965339c10e7cf15d64"
+    },
+    "@the_monster@'s magic is enhanced!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "ccd5706b9cddd81f6814b28ae9c26ac4537e8d1013bb16ff209714fc785822b4"
+    },
+    "@the_monster@ is enlightened!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "a841cc57196bd5ab6bd36b97d0bf9cfb18af184646e3fbf07e1e3c78ce7507a0"
+    },
+    "@the_monster@ becomes insubstantial!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "e609b90c0c089a0dcb643589682d3d5beeb6f97d072c851f1e88c845d6c678bc"
+    },
+    "will become unable to see you": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "ac0785be401c307d44db3769d15872d3ceafb956f2587e7a5497250066a29ed2"
+    },
+    "halo": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "a6c458d1bd1cad1da9a6ab72b64bbd5159b6b364d7bae731781feaa1bb77a882"
+    },
+    "magical contamination": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "e521e90b67781e7167fa617f981ea3fdd6c6a58347fb9dbc0863bbd392a10e67"
+    },
+    "!!!QUAD DAMAGE!!!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "53a86a9159ad9443cd3b65aca8d54d614b666ad54cc020506d23c03492a9df53"
+    },
+    "@item@ enhances the restoration.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "aa5e3c705a23c86f0de8f57261f7d19d226d767beaa2ed7c998469d95d3476c7"
+    },
+    "Your fungus emits curing spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "51a6bded21d931a48b75b3507b8cb0e19ad77b81bdfb86ae0a34e25bbb4d64f4"
+    },
+    "Your fungus emits healing spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "78e222a20c0f6ee578e8494ea96bf3ee60b5a2e301237a069ee4507af9c3daab"
+    },
+    "Your fungus emits quickening spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "984cd389befb057f8efda911003dd23566d881807b4b3b2ae2aeece5e51b0603"
+    },
+    "Your fungus emits strenghtening spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f1adc63b62a31109f4f9e7b372f9a0f154edb1f7b972c05c08ed3f0cc8bbc834"
+    },
+    "Your fungus emits amplifying spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "30759ad47b0c582146e324b14af4d2b98aee75b1b80a10950fe6be4d3c79d333"
+    },
+    "Your fungus emits enlightening spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "3cfee9934fdb0cdf1e93afb5b7a3e500713631f43df54192d16a23298d3b7685"
+    },
+    "Your fungus emits invisible spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "60a5c4bc3e64fd3af49a1c27b7da09bb249507cc766ef9f4741ce023abdbdc2d"
+    },
+    "Your fungus emits magical spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "a6c2ac377c7589686caa9867ae3e0720da9b37ea85db87e3dd84f57ab20cf247"
+    },
+    "Your fungus emits infuriating spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "03c70d6a7bc5eb5673b4b978d413cf76d4002ed72194e21c733541607f1c0e06"
+    },
+    "Your fungus emits bolstering spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f3bdd8a2d5cf5961fb656d39e5a9dced4ca32ceaca33c7749f103c3fc6fc4f13"
+    },
+    "Your fungus emits insubstantial spores!": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "0b94f32f038ac95c1c5b404c4fe538b3170f484884d9bc35c2559e4c13c0ac72"
+    },
+    "You become transparent, but the glow from your @sources@ prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "15db429f19dbeb53a65983fbd77da377544b1c8645c4e313f7ab7d70866fd15b"
+    },
+    "You become transparent, but the glow from your form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "781994554b74d627ae51d9dd90b4752facd15fe7ee0cb6f596de094dadaa6606"
+    },
+    "You become transparent, but the glow from the @sources@ prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "15db429f19dbeb53a65983fbd77da377544b1c8645c4e313f7ab7d70866fd15b"
+    },
+    "You become transparent, but the glow from the form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "781994554b74d627ae51d9dd90b4752facd15fe7ee0cb6f596de094dadaa6606"
+    },
+    "You become more transparent, but the glow from your @sources@ prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f41d947d8d0bbbf9db2078ab61c6e5b9d43447ad8549da4eb32c7fc2904b0b65"
+    },
+    "You become more transparent, but the glow from your form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "e4838b3e82058f1da97465437c74d9618f013d415b6dd9666505715bcb95e8a8"
+    },
+    "You become more transparent, but the glow from the @sources@ prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f41d947d8d0bbbf9db2078ab61c6e5b9d43447ad8549da4eb32c7fc2904b0b65"
+    },
+    "You become more transparent, but the glow from the form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "e4838b3e82058f1da97465437c74d9618f013d415b6dd9666505715bcb95e8a8"
+    },
+    "You become transparent, but the glow from your @sources@ and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f25e8c4d1b8c61d713e1c693501a6f4f580b8ad680ca524ebceaf89802aaa0ac"
+    },
+    "You become transparent, but the glow from your @sources@, and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f25e8c4d1b8c61d713e1c693501a6f4f580b8ad680ca524ebceaf89802aaa0ac"
+    },
+    "You become transparent, but the glow from the @sources@ and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f25e8c4d1b8c61d713e1c693501a6f4f580b8ad680ca524ebceaf89802aaa0ac"
+    },
+    "You become transparent, but the glow from the @sources@, and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "f25e8c4d1b8c61d713e1c693501a6f4f580b8ad680ca524ebceaf89802aaa0ac"
+    },
+    "You become more transparent, but the glow from your @sources@ and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "9d1849ee2311d400a962507a5f416755d75f7d7830e3a5b0ff8e21fe945646b6"
+    },
+    "You become more transparent, but the glow from your @sources@, and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "9d1849ee2311d400a962507a5f416755d75f7d7830e3a5b0ff8e21fe945646b6"
+    },
+    "You become more transparent, but the glow from the @sources@ and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "9d1849ee2311d400a962507a5f416755d75f7d7830e3a5b0ff8e21fe945646b6"
+    },
+    "You become more transparent, but the glow from the @sources@, and form prevents you from becoming completely invisible.": {
+      "context": "potion.cc: _handle_potion_fungus, mons_potion_effect, PotionMagic (Kryia), PotionInvisibility affliction list; item-use.cc:_desc_see_invis. The fungus can buff hostile monsters; magic spores remove antimagic instead of granting monster MP.",
+      "translation_sha256": "9d1849ee2311d400a962507a5f416755d75f7d7830e3a5b0ff8e21fe945646b6"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

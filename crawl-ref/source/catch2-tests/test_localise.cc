@@ -327,6 +327,8 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == string::npos);
     CHECK(localise("Waves of " + random_colour + " light ripple over the orc's body")
           == "По телу орка пробегают волны света оттенка «" + random_colour + "»");
+    CHECK(localise("You become transparent, but the glow from your halo, magical contamination and form prevents you from becoming completely invisible.")
+          == "Вы становитесь прозрачным, но вас по-прежнему выдаёт свечение (ореол, магическое загрязнение и ваша нынешняя форма).");
     CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
     CHECK(localise("Your soul already belongs to Yredelemnul.")
           == "Ваша душа уже принадлежит Йредэлемнулу.");
