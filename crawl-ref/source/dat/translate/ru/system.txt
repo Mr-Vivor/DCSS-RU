@@ -23146,7 +23146,7 @@ It is quivering @arg@.
 %%%%
 To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range
 
-Для чтения описания нажмите клавишу из списка выше. (AdB) — урон: сумма A бросков B-гранного кубика; (x%%) — вероятность преодолеть вашу силу воли; (y) — дальность заклинания
+Для чтения описания нажмите клавишу из списка выше. (AdB) — урон: сумма A бросков B-гранного кубика; (x%%) — вероятность преодолеть вашу Волю; (y) — дальность заклинания
 %%%%
 ; shown in red if you are in range
 
@@ -23334,7 +23334,7 @@ It can can be affected by reciting Zin's laws.
 %%%%
 " (Recite power: @num1@, Hit Dice: @num2@)"
 
-" (Сила проповеди: @num1@, кости здоровья: @num2@)"
+" (Сила проповеди: @num1@, сила существа (HD): @num2@)"
 %%%%
 The apparition of @arg@.
 
@@ -25514,7 +25514,7 @@ Defense
 %%%%
 @Arg@: HD @num1@   AC @num2@   EV @num3@
 
-@Arg@: КЗ @num1@   БК @num2@   УК @num3@
+@Arg@: сила (HD) @num1@   броня @num2@   уклонение @num3@
 %%%%
 Cannot wield weapon
 

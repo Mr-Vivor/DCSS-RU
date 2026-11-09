@@ -4637,8 +4637,8 @@
     },
     "Grow Ballistomycete ability": {
       "source_sha256": "d1e94155443709568dd9b97d6b4f7ff7ce78b0f9b298593a70f631ddb4b70632",
-      "text": "Выращивает в выбранном месте недолговечный баллистомицет. Тот выпускает самонаводящиеся споры, которые бурно взрываются, нанося урон всем живым существам поблизости и вызывая у них замешательство. Навык Молитв увеличивает здоровье и время жизни растения, а также урон спор.",
-      "context": "Current ability.txt and god-abil.cc; targets, exceptions, skill scaling, delays and permanent sacrifices checked."
+      "text": "Выращивает в выбранном месте недолговечный баллистомицет. Тот время от времени выпускает самонаводящиеся споры, которые бурно взрываются, нанося урон всем живым существам поблизости и вызывая у них замешательство. Навык Молитв увеличивает здоровье и время жизни растения, а также урон спор.",
+      "context": "Periodically releases spores; no claim of a new spore on every turn. Invocations scaling and indiscriminate explosion against living targets retained."
     },
     "Overgrow ability": {
       "source_sha256": "f6649799489f12b147c4f6d6974088f68b0d4cfd8ea1a6f12328f3e85d10f806",

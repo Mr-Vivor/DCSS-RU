@@ -22763,8 +22763,8 @@
       "translation_sha256": "2e284793a8b7a7584e9f5fc235809cb73d36e94cdd75652e1557233171472daf"
     },
     "To read a description, press the key listed above. (AdB) indicates damage (the sum of A B-sided dice), (x%%) indicates the chance to defeat your Will, and (y) indicates the spell range": {
-      "context": "describe.cc monster attack panel, brands, thrown missiles, notice chance, spell legend and habitat. Same numeric max damage, per-hit amounts, range, conditions and perception/stealth formula. Poison-plus-paralysis damage assembled as a full template rather than searching an English substring inside translated prose. Russian attack rows render without English column truncation. No attack/resistance values or monster data changed.",
-      "translation_sha256": "1baa3f8231d6f46950fd3563066b5e89b7a7abc1d08b4fc68e2c4af25f1fd61c"
+      "context": "God recitation resistance diagnostics: HD is creature power, not current HP. Genuine damage dice AdB remain dice; Will uses the canonical stat label. Greeting/death text is authored in godspeak random DB; machine keys and weights unchanged.",
+      "translation_sha256": "c1ffb172f052477fdfc4c754284a01bea8e1e108b5ff8bc139464946a5795b26"
     },
     "; shown in red if you are in range": {
       "context": "describe.cc",
@@ -22951,8 +22951,8 @@
       "translation_sha256": "a088020b0cd668bc1826be89fe004bc7dac4c8e72abc51b893de636684d07dd4"
     },
     " (Recite power: @num1@, Hit Dice: @num2@)": {
-      "context": "describe.cc",
-      "translation_sha256": "ad8a2e0adfcc1dcab9b2bb5f3b73081f8615a54898689e266f22deac73f4326b"
+      "context": "God recitation resistance diagnostics: HD is creature power, not current HP. Genuine damage dice AdB remain dice; Will uses the canonical stat label. Greeting/death text is authored in godspeak random DB; machine keys and weights unchanged.",
+      "translation_sha256": "4d968945519ffc0276eb07ac594644895c881cc537cbe4cb392352225187fc52"
     },
     "The apparition of @arg@.": {
       "context": "describe.cc",
@@ -25131,8 +25131,8 @@
       "translation_sha256": "4b4ddadc0edfc73c6af851e9ea658b0b4a2d4cdc071ac9b886d1a411408d6208"
     },
     "@Arg@: HD @num1@   AC @num2@   EV @num3@": {
-      "context": "wiz-fsim.cc",
-      "translation_sha256": "240bba06fd37b75ec170c5084475a34851e24ae47b693e633c59be4c2fe67164"
+      "context": "God recitation resistance diagnostics: HD is creature power, not current HP. Genuine damage dice AdB remain dice; Will uses the canonical stat label. Greeting/death text is authored in godspeak random DB; machine keys and weights unchanged.",
+      "translation_sha256": "fbaedaab5c08f3a341ea31537929dc7fd84902258bba83eddab429ee74811b41"
     },
     "Cannot wield weapon": {
       "context": "wiz-fsim.cc",
