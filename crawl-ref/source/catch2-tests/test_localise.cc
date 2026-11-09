@@ -317,6 +317,8 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Между руками орка пляшут электрические искры");
     CHECK(localise("The orc is engulfed in toxic fumes")
           == "Ядовитые испарения окутывают орка");
+    CHECK(localise("Hit by a stone thrown by the orc")
+          == "Погиб от попадания предмета «камень», брошенного орком");
     CHECK(localise("You collide with the bat!") == "Вы сталкиваетесь с летучей мышью!");
     CHECK(localise("Your soul already belongs to Yredelemnul.")
           == "Ваша душа уже принадлежит Йредэлемнулу.");

@@ -277,7 +277,12 @@ class StaticTranslationTests(unittest.TestCase):
             for key in source:
                 value = data[filename][key]
                 self.assertTrue(value.strip(), (filename, key))
-                self.assertEqual(tokens(key), tokens(value), (filename, key))
+                if filename == "hiscores":
+                    # Death attribution reorders actor/projectile names and
+                    # needs the same grammatical cases as system messages.
+                    self.assertTrue(message_syntax_matches(key, value), (filename, key))
+                else:
+                    self.assertEqual(tokens(key), tokens(value), (filename, key))
                 self.assertNotRegex(value, r"ZX[PQ]\d{4}[PQ]XZ", (filename, key))
 
     def test_descriptions_preserve_all_commands_and_markup(self):
