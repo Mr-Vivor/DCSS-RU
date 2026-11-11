@@ -56,23 +56,11 @@ jobs:
         working-directory: crawl-ref/source
         run: make -j2 CXX='ccache g++' STDFLAG=-std=c++14 catch2-tests-executable
       - name: Run Russian grammar tests
+        timeout-minutes: 2
         working-directory: crawl-ref/source
         env:
           LANG: C.UTF-8
-        run: |
-          command -v gdb || (sudo apt-get update && sudo apt-get install -y gdb)
-          stdbuf -oL -eL ./catch2-tests-executable 'Russian apostle cards*' --reporter compact --success > /tmp/apostle-card.log 2>&1 &
-          card_pid=$!
-          sleep 5
-          if kill -0 "$card_pid" 2>/dev/null; then
-            sudo gdb --batch -ex 'set pagination off' -ex 'thread apply all bt' -p "$card_pid" || true
-            kill -TERM "$card_pid"
-            wait "$card_pid" || true
-            cat /tmp/apostle-card.log
-            exit 1
-          fi
-          wait "$card_pid"
-          cat /tmp/apostle-card.log
+        run: ./catch2-tests-executable '[localise]'
       - name: Run engine regression suite
         working-directory: crawl-ref/source
         env:
