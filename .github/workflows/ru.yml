@@ -140,12 +140,17 @@ jobs:
           cp -R crawl-ref/source/dat crawl-ref/source/webserver crawl-ref/docs crawl-ref/settings dist/dcss-ru-web/
           cp README.ru.md dist/dcss-ru-web/
           tar -czf dist/dcss-ru-web-ubuntu24.tar.gz -C dist dcss-ru-web
-      - uses: actions/upload-artifact@v4
-        if: always()
+      - name: Save browser failure diagnostics
+        uses: actions/upload-artifact@v4
+        if: failure()
+        timeout-minutes: 2
+        continue-on-error: true
         with:
           name: dcss-ru-web-smoke
           path: web-smoke
-      - uses: actions/upload-artifact@v4
+      - name: Upload verified Linux package
+        uses: actions/upload-artifact@v4
+        timeout-minutes: 3
         with:
           name: dcss-ru-web-ubuntu24
           path: dist/dcss-ru-web-ubuntu24.tar.gz
