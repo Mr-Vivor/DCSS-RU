@@ -25,6 +25,7 @@
 #include "fineff.h"
 #include "ghost.h"
 #include "items.h"
+#include "localise.h"
 #include "macro.h"
 #include "message.h"
 #include "mon-death.h"
@@ -1137,22 +1138,22 @@ string apostle_short_description(int slot)
     string status;
 
     if (slot == 0)
-        status = "<green>**Available to recruit**</green>";
+        status = localise("<green>**Available to recruit**</green>");
     else if (!beogh_apostle_is_alive(slot))
-        status = "<lightred>**DEAD**</lightred>";
+        status = localise("<lightred>**DEAD**</lightred>");
     else if (apostle_d.state == STATE_BANISHED)
-        status = "<magenta>**BANISHED**</magenta>";
+        status = localise("<magenta>**BANISHED**</magenta>");
 
     // Make title line
     string str = make_stringf("%s (<%s>%s</%s>)     %s\n",
-        apostle.name(DESC_PLAIN, true).c_str(),
+        localise(apostle.name(DESC_PLAIN, true)).c_str(),
         _apostle_type_colours[atype],
-        apostle_type_names[atype].c_str(),
+        localise_in_context("apostle-role", apostle_type_names[atype]).c_str(),
         _apostle_type_colours[atype],
         status.c_str());
 
     // Stat line
-    str += make_stringf("HP: %d    AC: %d    Damage:%d (w/weapon)\n",
+    str += make_stringf(localise("HP: %d    AC: %d    Damage:%d (w/weapon)\n").c_str(),
         apostle.max_hit_points, apostle.armour_class(),
         _calc_attack_damage(apostle));
 
@@ -1160,7 +1161,7 @@ string apostle_short_description(int slot)
     for (unsigned int i = 0; i < NUM_MONSTER_SLOTS; ++i)
     {
         if (apostle.inv[i] != NON_ITEM)
-            str += env.item[apostle.inv[i]].name(DESC_PLAIN, false, false, true, false) + "\n";
+            str += localise(env.item[apostle.inv[i]].name(DESC_PLAIN, false, false, true, false)) + "\n";
     }
 
     string spell_str;
@@ -1168,7 +1169,7 @@ string apostle_short_description(int slot)
     {
         if (!spell_str.empty())
             spell_str += ", ";
-        spell_str += spell_title(apostle.spells[i].spell);
+        spell_str += localise(spell_title(apostle.spells[i].spell));
     }
 
     while (!spell_str.empty())

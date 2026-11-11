@@ -13,6 +13,8 @@
 #include "invent.h"
 #include "hiscores.h"
 #include "god-abil.h"
+#include "god-companions.h"
+#include "ghost.h"
 #include "localise.h"
 #include "macro.h"
 #include "map-cell.h"
@@ -34,6 +36,7 @@
 #include "spl-cast.h"
 #include "spl-util.h"
 #include "unicode.h"
+#include "unwind.h"
 
 namespace
 {
@@ -212,6 +215,51 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
     Options.language = lang_t::RU;
 }
 
+TEST_CASE("Russian apostle cards translate before formatting and wrapping", "[localise][single-file]")
+{
+    russian_localisation language;
+    unwind_var<vector<apostle_data>> saved_apostles(apostles, {});
+    apostles.resize(2);
+    for (auto &record : apostles)
+    {
+        monster &mon = record.apostle.mons;
+        mon.type = MONS_ORC;
+        mon.hit_points = mon.max_hit_points = 123;
+        mon.set_hit_dice(5);
+        mon.mname = "Борис";
+        mon.flags |= MF_NAME_REPLACE;
+        mon.props[APOSTLE_TYPE_KEY] = static_cast<int>(APOSTLE_WIZARD);
+        mon.spells.emplace_back(SPELL_SCORCH, 10, MON_SPELL_WIZARD);
+        item_def &weapon = record.apostle.items[MSLOT_WEAPON];
+        weapon.base_type = OBJ_WEAPONS;
+        weapon.sub_type = WPN_DAGGER;
+        weapon.quantity = 1;
+        weapon.brand = SPWPN_NORMAL;
+    }
+    const string recruit = apostle_short_description(0);
+    CHECK(recruit.find("Борис") != string::npos);
+    CHECK(recruit.find(">маг<") != string::npos);
+    CHECK(recruit.find("**МОЖНО ПРИНЯТЬ**") != string::npos);
+    CHECK(recruit.find("ОЗ: 123") != string::npos);
+    CHECK(recruit.find("Бр:") != string::npos);
+    CHECK(recruit.find("(с оружием)") != string::npos);
+    CHECK(recruit.find("кинжал") != string::npos);
+    CHECK(recruit.find("Ожог") != string::npos);
+    for (const string &line : split_string("\n", recruit, false, true))
+        CHECK(strwidth(formatted_string::parse_string(line).tostring()) <= 71);
+    apostles[1].state = STATE_DEAD;
+    CHECK(apostle_short_description(1).find("**НЕ В ЖИВЫХ**") != string::npos);
+    apostles[1].state = STATE_BANISHED;
+    CHECK(apostle_short_description(1).find("**ИЗГНАНИЕ**") != string::npos);
+    Options.language = lang_t::EN;
+    const string english = apostle_short_description(0);
+    CHECK(english.find(">wizard<") != string::npos);
+    CHECK(english.find("**Available to recruit**") != string::npos);
+    CHECK(english.find("HP: 123") != string::npos);
+    CHECK(english.find("Scorch") != string::npos);
+    Options.language = lang_t::RU;
+}
+
 TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
 {
     russian_localisation language;
@@ -322,6 +370,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Слаймдра поглощает 2 слизистых существ поблизости и отращивает 5 новых голов.");
     CHECK(localise("Nobody ignites a memory of Marshlight and Scorch to re-knit themselves.")
           == "Никто пробуждает пылающее воспоминание о магии (Болотные огоньки и Ожог) и восстанавливает своё тело.");
+    CHECK(localise("Beogh will allow you to induct the orc into your service. (press <w>I</w> on the <w>a</w>bility menu to recruit an apostle)")
+          == "Беог разрешает принять орка к себе на службу. (чтобы принять апостола, откройте меню способностей клавишей <w>a</w> и нажмите <w>I</w>)");
+    CHECK(localise("Beogh breathes life back into the orc and the bat.")
+          == "Беог возвращает к жизни орка и летучую мышь.");
     CHECK(localise("Your icy armour and frozen ramparts will break if you move. Continue?")
           == "Перемещение разрушит ледяную броню и ледяные стены. Продолжить?");
     CHECK(localise("Your paragon deflects the bat's attack away from you.")

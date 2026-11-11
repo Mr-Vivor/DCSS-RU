@@ -55958,7 +55958,7 @@ Your messages:
 %%%%
 ""Reflect upon your actions, mortal!""
 
-«Подумай о своих поступках, смертный!»
+«Обдумай свои поступки, смертный!»
 %%%%
 <green>Wyrmbane glows as a worthy foe approaches.</green>
 
@@ -65399,3 +65399,135 @@ This spell must target an enemy.
 There is nowhere near that target where thorns could grow.
 
 Рядом с этой целью нет места, где могли бы вырасти шипы.
+%%%%
+Beogh sends your followers elsewhere.
+
+Беог отсылает ваших спутников прочь.
+%%%%
+Beogh is disappointed with your cowardice.
+
+Беог разочарован вашей трусостью.
+%%%%
+Beogh will allow you to induct @ally@ into your service.
+
+Беог разрешает принять {acc}@ally@ к себе на службу.
+%%%%
+(press <w>@key_recruit@</w> on the <w>@key_menu@</w>bility menu to recruit an apostle)
+
+(чтобы принять апостола, откройте меню способностей клавишей <w>@key_menu@</w> и нажмите <w>@key_recruit@</w>)
+%%%%
+@Ally@ is recalled by Beogh.
+
+Беог отзывает {acc}@ally@.
+%%%%
+@Ally@ is recalled by the power of Beogh.
+
+Божественная сила Беога отзывает {acc}@ally@.
+%%%%
+Really dismiss @ally@?
+
+Отпустить {acc}@ally@ со службы?
+%%%%
+You release @ally@ from your service.
+
+Вы отпускаете {acc}@ally@ со службы.
+%%%%
+You swear to avenge @ally@'s death!
+
+Вы клянётесь отомстить за смерть {gen}@ally@!
+%%%%
+You swear to avenge @ally@' death!
+
+Вы клянётесь отомстить за смерть {gen}@ally@!
+%%%%
+You feel as though your fallen companions have been avenged.
+
+Вы чувствуете, что отомстили за павших спутников.
+%%%%
+@Ally@ has fought their way back out of the Abyss!
+
+@Ally@ с боем возвращается из Бездны!
+%%%%
+Your apostles return to your side.
+
+Ваши апостолы возвращаются к вам.
+%%%%
+Beogh breathes life back into @allies@.
+
+Беог возвращает к жизни {acc}@allies@.
+%%%%
+**Available to recruit**
+
+**МОЖНО ПРИНЯТЬ**
+%%%%
+**DEAD**
+
+**НЕ В ЖИВЫХ**
+%%%%
+**BANISHED**
+
+**ИЗГНАНИЕ**
+%%%%
+{apostle-role}warrior
+
+{apostle-role}воин
+%%%%
+{apostle-role}wizard
+
+{apostle-role}маг
+%%%%
+{apostle-role}priest
+
+{apostle-role}жрец
+%%%%
+HP: %d    AC: %d    Damage:%d (w/weapon)
+
+ОЗ: %d    Бр: %d    Урон:%d (с оружием)
+%%%%
+You anoint @ally@ with ash and charcoal and welcome him as a companion.
+
+Вы помазываете {acc}@ally@ пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh recalls @ally@ to your side and you anoint him with ash and charcoal and welcome him as a companion.
+
+Беог призывает к вам {acc}@ally@. Вы помазываете его пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh breathes life back into @ally@ and you anoint him with ash and charcoal and welcome him as a companion.
+
+Беог возвращает к жизни {acc}@ally@. Вы помазываете его пеплом и древесным углём и принимаете на службу.
+%%%%
+You anoint @ally@ with ash and charcoal and welcome her as a companion.
+
+Вы помазываете {acc}@ally@ пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh recalls @ally@ to your side and you anoint her with ash and charcoal and welcome her as a companion.
+
+Беог призывает к вам {acc}@ally@. Вы помазываете её пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh breathes life back into @ally@ and you anoint her with ash and charcoal and welcome her as a companion.
+
+Беог возвращает к жизни {acc}@ally@. Вы помазываете её пеплом и древесным углём и принимаете на службу.
+%%%%
+You anoint @ally@ with ash and charcoal and welcome it as a companion.
+
+Вы помазываете {acc}@ally@ пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh recalls @ally@ to your side and you anoint it with ash and charcoal and welcome it as a companion.
+
+Беог призывает к вам {acc}@ally@. Вы помазываете его пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh breathes life back into @ally@ and you anoint it with ash and charcoal and welcome it as a companion.
+
+Беог возвращает к жизни {acc}@ally@. Вы помазываете его пеплом и древесным углём и принимаете на службу.
+%%%%
+You anoint @ally@ with ash and charcoal and welcome them as a companion.
+
+Вы помазываете {acc}@ally@ пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh recalls @ally@ to your side and you anoint them with ash and charcoal and welcome them as a companion.
+
+Беог призывает к вам {acc}@ally@. Вы помазываете апостола пеплом и древесным углём и принимаете на службу.
+%%%%
+Beogh breathes life back into @ally@ and you anoint them with ash and charcoal and welcome them as a companion.
+
+Беог возвращает к жизни {acc}@ally@. Вы помазываете апостола пеплом и древесным углём и принимаете на службу.
