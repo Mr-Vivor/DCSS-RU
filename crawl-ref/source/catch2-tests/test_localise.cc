@@ -218,6 +218,7 @@ TEST_CASE("Russian spell and ability rows are translated before column padding",
 TEST_CASE("Russian apostle cards translate before formatting and wrapping", "[localise][single-file]")
 {
     russian_localisation language;
+    fprintf(stderr, "Apostle card diagnostic: database ready\n");
     unwind_var<vector<apostle_data>> saved_apostles(apostles, {});
     apostles.resize(2);
     for (auto &record : apostles)
@@ -236,7 +237,9 @@ TEST_CASE("Russian apostle cards translate before formatting and wrapping", "[lo
         weapon.quantity = 1;
         weapon.brand = SPWPN_NORMAL;
     }
+    fprintf(stderr, "Apostle card diagnostic: fixture ready\n");
     const string recruit = apostle_short_description(0);
+    fprintf(stderr, "Apostle card diagnostic: recruit rendered\n");
     CHECK(recruit.find("Борис") != string::npos);
     CHECK(recruit.find(">маг<") != string::npos);
     CHECK(recruit.find("**МОЖНО ПРИНЯТЬ**") != string::npos);

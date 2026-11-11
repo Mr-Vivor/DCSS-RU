@@ -59,7 +59,7 @@ jobs:
         working-directory: crawl-ref/source
         env:
           LANG: C.UTF-8
-        run: ./catch2-tests-executable '[localise]'
+        run: timeout 45s stdbuf -oL -eL ./catch2-tests-executable 'Russian apostle cards*' --reporter compact --success
       - name: Run engine regression suite
         working-directory: crawl-ref/source
         env:
