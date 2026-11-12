@@ -1778,7 +1778,7 @@ static void _construct_weapon_menu(const newgame_def& ng,
         label->set_text(formatted_string(text, fg));
 
         hbox->set_main_alignment(Widget::Align::STRETCH);
-        string apt_text = make_stringf("(%+d apt)",
+        string apt_text = make_stringf(localise("(%+d apt)").c_str(),
                 species_apt(choice.skill, ng.species));
         auto suffix = make_shared<Text>(formatted_string(apt_text, fg));
         hbox->add_child(suffix);

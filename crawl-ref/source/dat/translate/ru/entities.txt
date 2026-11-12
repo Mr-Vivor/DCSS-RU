@@ -61,6 +61,9 @@
 @num@ Franceses
 @num@ Фрэнсис
 %%%%
+@num@ Gell's gravitambourines
+@num@ гравитационных бубнов Гелла
+%%%%
 @num@ Grand Grimoires
 @num@ великих гримуаров
 %%%%
@@ -235,6 +238,9 @@
 @num@ ancient liches
 @num@ древних личей
 %%%%
+@num@ animal skins
+@num@ звериных шкур
+%%%%
 @num@ ants
 @num@ муравьёв
 %%%%
@@ -261,6 +267,9 @@
 %%%%
 @num@ bardiches
 @num@ бердышей
+%%%%
+@num@ bardings
+@num@ бардингов
 %%%%
 @num@ basilisks
 @num@ василисков
@@ -487,6 +496,9 @@
 @num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+@num@ boxes of beasts
+@num@ ящиков зверей
+%%%%
 @num@ broad axes
 @num@ широких топоров
 %%%%
@@ -529,11 +541,17 @@
 @num@ clubs
 @num@ дубинок
 %%%%
+@num@ condenser vanes
+@num@ конденсаторов облаков
+%%%%
 @num@ crimson imps
 @num@ багровых бесов
 %%%%
 @num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+@num@ crystal plate armours
+@num@ кристаллических латных доспехов
 %%%%
 @num@ curse skulls
 @num@ проклятых черепов
@@ -700,6 +718,9 @@
 @num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+@num@ figurines of a ziggurat
+@num@ фигурок зиккурата
+%%%%
 @num@ fire dragon scales
 @num@ чешуй огненного дракона
 %%%%
@@ -838,6 +859,9 @@
 @num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+@num@ horns of Geryon
+@num@ рогов Гериона
+%%%%
 @num@ horses
 @num@ лошадей
 %%%%
@@ -928,11 +952,17 @@
 @num@ lajatangs
 @num@ ладжатангов
 %%%%
+@num@ large rocks
+@num@ больших камней
+%%%%
 @num@ leather armours
 @num@ кожаных доспехов
 %%%%
 @num@ liches
 @num@ личей
+%%%%
+@num@ lightning rods
+@num@ жезлов молний
 %%%%
 @num@ long swords
 @num@ длинных мечей
@@ -1039,6 +1069,9 @@
 @num@ orb golems
 @num@ сферных големов
 %%%%
+@num@ orbs
+@num@ сфер
+%%%%
 @num@ orbs of fire
 @num@ сфер огня
 %%%%
@@ -1063,6 +1096,9 @@
 @num@ orc wizards
 @num@ орков-волшебников
 %%%%
+@num@ orcbows
+@num@ орочьих луков
+%%%%
 @num@ orcs
 @num@ орков
 %%%%
@@ -1078,8 +1114,14 @@
 @num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+@num@ phantom mirrors
+@num@ призрачных зеркал
+%%%%
 @num@ phantoms
 @num@ фантомов
+%%%%
+@num@ phials of floods
+@num@ флаконов потопа
 %%%%
 @num@ plate armours
 @num@ латных доспехов
@@ -1278,6 +1320,9 @@
 %%%%
 @num@ rockslimes
 @num@ каменных слизней
+%%%%
+@num@ sacks of spiders
+@num@ мешков пауков
 %%%%
 @num@ sacred scourges
 @num@ священных бичей
@@ -1548,6 +1593,9 @@
 %%%%
 @num@ throwing nets
 @num@ метательных сетей
+%%%%
+@num@ tins of tremorstones
+@num@ коробок сотрясающих камней
 %%%%
 @num@ titans
 @num@ титанов
@@ -1881,6 +1929,15 @@ Frances's
 %%%%
 Franceses
 {pl}Фрэнсис
+%%%%
+Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+Gell's gravitambourine's
+{m}гравитационного бубна Гелла
+%%%%
+Gell's gravitambourines
+{pl}гравитационные бубны Гелла
 %%%%
 Grand Grimoire
 {m}великий гримуар
@@ -2368,6 +2425,12 @@ a Frances
 a Frances's
 {f}Фрэнсис
 %%%%
+a Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+a Gell's gravitambourine's
+{m}гравитационного бубна Гелла
+%%%%
 a Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -2716,6 +2779,12 @@ a ancient lich
 a ancient lich's
 {m}древнего лича
 %%%%
+a animal skin
+{f}звериная шкура
+%%%%
+a animal skin's
+{f}звериной шкуры
+%%%%
 a ant
 {m}муравей
 %%%%
@@ -2769,6 +2838,12 @@ a bardiche
 %%%%
 a bardiche's
 {m}бердыша
+%%%%
+a barding
+{m}бардинг
+%%%%
+a barding's
+{m}бардинга
 %%%%
 a basilisk
 {m}василиск
@@ -3220,6 +3295,12 @@ a boulder beetle
 a boulder beetle's
 {m}жука-валуна
 %%%%
+a box of beasts
+{m}ящик зверей
+%%%%
+a box of beasts's
+{m}ящика зверей
+%%%%
 a broad axe
 {m}широкий топор
 %%%%
@@ -3304,6 +3385,12 @@ a club
 a club's
 {f}дубинки
 %%%%
+a condenser vane
+{m}конденсатор облаков
+%%%%
+a condenser vane's
+{m}конденсатора облаков
+%%%%
 a crimson imp
 {m}багровый бес
 %%%%
@@ -3315,6 +3402,12 @@ a crystal guardian
 %%%%
 a crystal guardian's
 {m}кристаллического стража
+%%%%
+a crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+a crystal plate armour's
+{m}кристаллического латного доспеха
 %%%%
 a curse skull
 {m}проклятый череп
@@ -3646,6 +3739,12 @@ a fenstrider witch
 a fenstrider witch's
 {f}болотной ведьмы
 %%%%
+a figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+a figurine of a ziggurat's
+{f}фигурки зиккурата
+%%%%
 a fire dragon
 {m}огненный дракон
 %%%%
@@ -3922,6 +4021,12 @@ a hobgoblin
 a hobgoblin's
 {m}хобгоблина
 %%%%
+a horn of Geryon
+{m}рог Гериона
+%%%%
+a horn of Geryon's
+{m}рога Гериона
+%%%%
 a horse
 {f}лошадь
 %%%%
@@ -4102,6 +4207,12 @@ a lajatang
 a lajatang's
 {m}ладжатанга
 %%%%
+a large rock
+{m}большой камень
+%%%%
+a large rock's
+{m}большого камня
+%%%%
 a leather armour
 {m}кожаный доспех
 %%%%
@@ -4113,6 +4224,12 @@ a lich
 %%%%
 a lich's
 {m}лича
+%%%%
+a lightning rod
+{m}жезл молний
+%%%%
+a lightning rod's
+{m}жезла молний
 %%%%
 a long sword
 {m}длинный меч
@@ -4318,6 +4435,9 @@ a orange demon
 a orange demon's
 {m}оранжевого демона
 %%%%
+a orb
+{f}сфера
+%%%%
 a orb golem
 {m}сферный голем
 %%%%
@@ -4329,6 +4449,9 @@ a orb of fire
 %%%%
 a orb of fire's
 {f}сферы огня
+%%%%
+a orb's
+{f}сферы
 %%%%
 a orc
 {m}орк
@@ -4378,6 +4501,12 @@ a orc wizard's
 a orc's
 {m}орка
 %%%%
+a orcbow
+{m}орочий лук
+%%%%
+a orcbow's
+{m}орочьего лука
+%%%%
 a pale draconian
 {m}бледный дракониан
 %%%%
@@ -4405,8 +4534,20 @@ a pearl dragon's
 a phantom
 {m}фантом
 %%%%
+a phantom mirror
+{n}призрачное зеркало
+%%%%
+a phantom mirror's
+{n}призрачного зеркала
+%%%%
 a phantom's
 {m}фантома
+%%%%
+a phial of floods
+{m}флакон потопа
+%%%%
+a phial of floods's
+{m}флакона потопа
 %%%%
 a plate armour
 {m}латный доспех
@@ -4803,6 +4944,12 @@ a rockslime
 %%%%
 a rockslime's
 {m}каменного слизня
+%%%%
+a sack of spiders
+{m}мешок пауков
+%%%%
+a sack of spiders's
+{m}мешка пауков
 %%%%
 a sacred scourge
 {m}священный бич
@@ -5343,6 +5490,12 @@ a throwing net
 %%%%
 a throwing net's
 {f}метательной сети
+%%%%
+a tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+a tin of tremorstones's
+{f}коробки сотрясающих камней
 %%%%
 a titan
 {m}титан
@@ -5908,6 +6061,12 @@ an Frances
 an Frances's
 {f}Фрэнсис
 %%%%
+an Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+an Gell's gravitambourine's
+{m}гравитационного бубна Гелла
+%%%%
 an Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -6256,6 +6415,12 @@ an ancient lich
 an ancient lich's
 {m}древнего лича
 %%%%
+an animal skin
+{f}звериная шкура
+%%%%
+an animal skin's
+{f}звериной шкуры
+%%%%
 an ant
 {m}муравей
 %%%%
@@ -6309,6 +6474,12 @@ an bardiche
 %%%%
 an bardiche's
 {m}бердыша
+%%%%
+an barding
+{m}бардинг
+%%%%
+an barding's
+{m}бардинга
 %%%%
 an basilisk
 {m}василиск
@@ -6760,6 +6931,12 @@ an boulder beetle
 an boulder beetle's
 {m}жука-валуна
 %%%%
+an box of beasts
+{m}ящик зверей
+%%%%
+an box of beasts's
+{m}ящика зверей
+%%%%
 an broad axe
 {m}широкий топор
 %%%%
@@ -6844,6 +7021,12 @@ an club
 an club's
 {f}дубинки
 %%%%
+an condenser vane
+{m}конденсатор облаков
+%%%%
+an condenser vane's
+{m}конденсатора облаков
+%%%%
 an crimson imp
 {m}багровый бес
 %%%%
@@ -6855,6 +7038,12 @@ an crystal guardian
 %%%%
 an crystal guardian's
 {m}кристаллического стража
+%%%%
+an crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+an crystal plate armour's
+{m}кристаллического латного доспеха
 %%%%
 an curse skull
 {m}проклятый череп
@@ -7186,6 +7375,12 @@ an fenstrider witch
 an fenstrider witch's
 {f}болотной ведьмы
 %%%%
+an figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+an figurine of a ziggurat's
+{f}фигурки зиккурата
+%%%%
 an fire dragon
 {m}огненный дракон
 %%%%
@@ -7462,6 +7657,12 @@ an hobgoblin
 an hobgoblin's
 {m}хобгоблина
 %%%%
+an horn of Geryon
+{m}рог Гериона
+%%%%
+an horn of Geryon's
+{m}рога Гериона
+%%%%
 an horse
 {f}лошадь
 %%%%
@@ -7642,6 +7843,12 @@ an lajatang
 an lajatang's
 {m}ладжатанга
 %%%%
+an large rock
+{m}большой камень
+%%%%
+an large rock's
+{m}большого камня
+%%%%
 an leather armour
 {m}кожаный доспех
 %%%%
@@ -7653,6 +7860,12 @@ an lich
 %%%%
 an lich's
 {m}лича
+%%%%
+an lightning rod
+{m}жезл молний
+%%%%
+an lightning rod's
+{m}жезла молний
 %%%%
 an long sword
 {m}длинный меч
@@ -7858,6 +8071,9 @@ an orange demon
 an orange demon's
 {m}оранжевого демона
 %%%%
+an orb
+{f}сфера
+%%%%
 an orb golem
 {m}сферный голем
 %%%%
@@ -7869,6 +8085,9 @@ an orb of fire
 %%%%
 an orb of fire's
 {f}сферы огня
+%%%%
+an orb's
+{f}сферы
 %%%%
 an orc
 {m}орк
@@ -7918,6 +8137,12 @@ an orc wizard's
 an orc's
 {m}орка
 %%%%
+an orcbow
+{m}орочий лук
+%%%%
+an orcbow's
+{m}орочьего лука
+%%%%
 an pale draconian
 {m}бледный дракониан
 %%%%
@@ -7945,8 +8170,20 @@ an pearl dragon's
 an phantom
 {m}фантом
 %%%%
+an phantom mirror
+{n}призрачное зеркало
+%%%%
+an phantom mirror's
+{n}призрачного зеркала
+%%%%
 an phantom's
 {m}фантома
+%%%%
+an phial of floods
+{m}флакон потопа
+%%%%
+an phial of floods's
+{m}флакона потопа
 %%%%
 an plate armour
 {m}латный доспех
@@ -8343,6 +8580,12 @@ an rockslime
 %%%%
 an rockslime's
 {m}каменного слизня
+%%%%
+an sack of spiders
+{m}мешок пауков
+%%%%
+an sack of spiders's
+{m}мешка пауков
 %%%%
 an sacred scourge
 {m}священный бич
@@ -8884,6 +9127,12 @@ an throwing net
 an throwing net's
 {f}метательной сети
 %%%%
+an tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+an tin of tremorstones's
+{f}коробки сотрясающих камней
+%%%%
 an titan
 {m}титан
 %%%%
@@ -9214,6 +9463,15 @@ ancient lich's
 ancient liches
 {pl}древние личи
 %%%%
+animal skin
+{f}звериная шкура
+%%%%
+animal skin's
+{f}звериной шкуры
+%%%%
+animal skins
+{pl}звериные шкуры
+%%%%
 ant
 {m}муравей
 %%%%
@@ -9294,6 +9552,15 @@ bardiche's
 %%%%
 bardiches
 {pl}бердыши
+%%%%
+barding
+{m}бардинг
+%%%%
+barding's
+{m}бардинга
+%%%%
+bardings
+{pl}бардинги
 %%%%
 basilisk
 {m}василиск
@@ -9970,6 +10237,15 @@ boulder beetle's
 boulder beetles
 {pl}жуки-валуны
 %%%%
+box of beasts
+{m}ящик зверей
+%%%%
+box of beasts's
+{m}ящика зверей
+%%%%
+boxes of beasts
+{pl}ящики зверей
+%%%%
 broad axe
 {m}широкий топор
 %%%%
@@ -10096,6 +10372,15 @@ club's
 clubs
 {pl}дубинки
 %%%%
+condenser vane
+{m}конденсатор облаков
+%%%%
+condenser vane's
+{m}конденсатора облаков
+%%%%
+condenser vanes
+{pl}конденсаторы облаков
+%%%%
 crimson imp
 {m}багровый бес
 %%%%
@@ -10113,6 +10398,15 @@ crystal guardian's
 %%%%
 crystal guardians
 {pl}кристаллические стражи
+%%%%
+crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+crystal plate armour's
+{m}кристаллического латного доспеха
+%%%%
+crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 curse skull
 {m}проклятый череп
@@ -10603,6 +10897,15 @@ fenstrider witch's
 fenstrider witches
 {pl}болотные ведьмы
 %%%%
+figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+figurine of a ziggurat's
+{f}фигурки зиккурата
+%%%%
+figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 fire dragon
 {m}огненный дракон
 %%%%
@@ -11011,6 +11314,15 @@ hobgoblin's
 hobgoblins
 {pl}хобгоблины
 %%%%
+horn of Geryon
+{m}рог Гериона
+%%%%
+horn of Geryon's
+{m}рога Гериона
+%%%%
+horns of Geryon
+{pl}рога Гериона
+%%%%
 horse
 {f}лошадь
 %%%%
@@ -11278,6 +11590,15 @@ lajatang's
 lajatangs
 {pl}ладжатанги
 %%%%
+large rock
+{m}большой камень
+%%%%
+large rock's
+{m}большого камня
+%%%%
+large rocks
+{pl}большие камни
+%%%%
 leather armour
 {m}кожаный доспех
 %%%%
@@ -11295,6 +11616,15 @@ lich's
 %%%%
 liches
 {pl}личи
+%%%%
+lightning rod
+{m}жезл молний
+%%%%
+lightning rod's
+{m}жезла молний
+%%%%
+lightning rods
+{pl}жезлы молний
 %%%%
 long sword
 {m}длинный меч
@@ -11596,6 +11926,9 @@ orange demon's
 orange demons
 {pl}оранжевые демоны
 %%%%
+orb
+{f}сфера
+%%%%
 orb golem
 {m}сферный голем
 %%%%
@@ -11610,6 +11943,12 @@ orb of fire
 %%%%
 orb of fire's
 {f}сферы огня
+%%%%
+orb's
+{f}сферы
+%%%%
+orbs
+{pl}сферы
 %%%%
 orbs of fire
 {pl}сферы огня
@@ -11683,6 +12022,15 @@ orc wizards
 orc's
 {m}орка
 %%%%
+orcbow
+{m}орочий лук
+%%%%
+orcbow's
+{m}орочьего лука
+%%%%
+orcbows
+{pl}орочьи луки
+%%%%
 orcs
 {pl}орки
 %%%%
@@ -11722,11 +12070,29 @@ pearl dragons
 phantom
 {m}фантом
 %%%%
+phantom mirror
+{n}призрачное зеркало
+%%%%
+phantom mirror's
+{n}призрачного зеркала
+%%%%
+phantom mirrors
+{pl}призрачные зеркала
+%%%%
 phantom's
 {m}фантома
 %%%%
 phantoms
 {pl}фантомы
+%%%%
+phial of floods
+{m}флакон потопа
+%%%%
+phial of floods's
+{m}флакона потопа
+%%%%
+phials of floods
+{pl}флаконы потопа
 %%%%
 plate armour
 {m}латный доспех
@@ -12315,6 +12681,15 @@ rockslime's
 %%%%
 rockslimes
 {pl}каменные слизни
+%%%%
+sack of spiders
+{m}мешок пауков
+%%%%
+sack of spiders's
+{m}мешка пауков
+%%%%
+sacks of spiders
+{pl}мешки пауков
 %%%%
 sacred scourge
 {m}священный бич
@@ -13258,6 +13633,15 @@ the Frances's
 the Franceses
 {pl}Фрэнсис
 %%%%
+the Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+the Gell's gravitambourine's
+{m}гравитационного бубна Гелла
+%%%%
+the Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 the Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -13774,6 +14158,15 @@ the ancient lich's
 the ancient liches
 {pl}древние личи
 %%%%
+the animal skin
+{f}звериная шкура
+%%%%
+the animal skin's
+{f}звериной шкуры
+%%%%
+the animal skins
+{pl}звериные шкуры
+%%%%
 the ant
 {m}муравей
 %%%%
@@ -13854,6 +14247,15 @@ the bardiche's
 %%%%
 the bardiches
 {pl}бердыши
+%%%%
+the barding
+{m}бардинг
+%%%%
+the barding's
+{m}бардинга
+%%%%
+the bardings
+{pl}бардинги
 %%%%
 the basilisk
 {m}василиск
@@ -14530,6 +14932,15 @@ the boulder beetle's
 the boulder beetles
 {pl}жуки-валуны
 %%%%
+the box of beasts
+{m}ящик зверей
+%%%%
+the box of beasts's
+{m}ящика зверей
+%%%%
+the boxes of beasts
+{pl}ящики зверей
+%%%%
 the broad axe
 {m}широкий топор
 %%%%
@@ -14656,6 +15067,15 @@ the club's
 the clubs
 {pl}дубинки
 %%%%
+the condenser vane
+{m}конденсатор облаков
+%%%%
+the condenser vane's
+{m}конденсатора облаков
+%%%%
+the condenser vanes
+{pl}конденсаторы облаков
+%%%%
 the crimson imp
 {m}багровый бес
 %%%%
@@ -14673,6 +15093,15 @@ the crystal guardian's
 %%%%
 the crystal guardians
 {pl}кристаллические стражи
+%%%%
+the crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+the crystal plate armour's
+{m}кристаллического латного доспеха
+%%%%
+the crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 the curse skull
 {m}проклятый череп
@@ -15163,6 +15592,15 @@ the fenstrider witch's
 the fenstrider witches
 {pl}болотные ведьмы
 %%%%
+the figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+the figurine of a ziggurat's
+{f}фигурки зиккурата
+%%%%
+the figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 the fire dragon
 {m}огненный дракон
 %%%%
@@ -15571,6 +16009,15 @@ the hobgoblin's
 the hobgoblins
 {pl}хобгоблины
 %%%%
+the horn of Geryon
+{m}рог Гериона
+%%%%
+the horn of Geryon's
+{m}рога Гериона
+%%%%
+the horns of Geryon
+{pl}рога Гериона
+%%%%
 the horse
 {f}лошадь
 %%%%
@@ -15838,6 +16285,15 @@ the lajatang's
 the lajatangs
 {pl}ладжатанги
 %%%%
+the large rock
+{m}большой камень
+%%%%
+the large rock's
+{m}большого камня
+%%%%
+the large rocks
+{pl}большие камни
+%%%%
 the leather armour
 {m}кожаный доспех
 %%%%
@@ -15855,6 +16311,15 @@ the lich's
 %%%%
 the liches
 {pl}личи
+%%%%
+the lightning rod
+{m}жезл молний
+%%%%
+the lightning rod's
+{m}жезла молний
+%%%%
+the lightning rods
+{pl}жезлы молний
 %%%%
 the long sword
 {m}длинный меч
@@ -16156,6 +16621,9 @@ the orange demon's
 the orange demons
 {pl}оранжевые демоны
 %%%%
+the orb
+{f}сфера
+%%%%
 the orb golem
 {m}сферный голем
 %%%%
@@ -16170,6 +16638,12 @@ the orb of fire
 %%%%
 the orb of fire's
 {f}сферы огня
+%%%%
+the orb's
+{f}сферы
+%%%%
+the orbs
+{pl}сферы
 %%%%
 the orbs of fire
 {pl}сферы огня
@@ -16243,6 +16717,15 @@ the orc wizards
 the orc's
 {m}орка
 %%%%
+the orcbow
+{m}орочий лук
+%%%%
+the orcbow's
+{m}орочьего лука
+%%%%
+the orcbows
+{pl}орочьи луки
+%%%%
 the orcs
 {pl}орки
 %%%%
@@ -16282,11 +16765,29 @@ the pearl dragons
 the phantom
 {m}фантом
 %%%%
+the phantom mirror
+{n}призрачное зеркало
+%%%%
+the phantom mirror's
+{n}призрачного зеркала
+%%%%
+the phantom mirrors
+{pl}призрачные зеркала
+%%%%
 the phantom's
 {m}фантома
 %%%%
 the phantoms
 {pl}фантомы
+%%%%
+the phial of floods
+{m}флакон потопа
+%%%%
+the phial of floods's
+{m}флакона потопа
+%%%%
+the phials of floods
+{pl}флаконы потопа
 %%%%
 the plate armour
 {m}латный доспех
@@ -16875,6 +17376,15 @@ the rockslime's
 %%%%
 the rockslimes
 {pl}каменные слизни
+%%%%
+the sack of spiders
+{m}мешок пауков
+%%%%
+the sack of spiders's
+{m}мешка пауков
+%%%%
+the sacks of spiders
+{pl}мешки пауков
 %%%%
 the sacred scourge
 {m}священный бич
@@ -17668,6 +18178,15 @@ the throwing net's
 the throwing nets
 {pl}метательные сети
 %%%%
+the tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+the tin of tremorstones's
+{f}коробки сотрясающих камней
+%%%%
+the tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 the titan
 {m}титан
 %%%%
@@ -18162,6 +18681,15 @@ throwing net's
 %%%%
 throwing nets
 {pl}метательные сети
+%%%%
+tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+tin of tremorstones's
+{f}коробки сотрясающих камней
+%%%%
+tins of tremorstones
+{pl}коробки сотрясающих камней
 %%%%
 titan
 {m}титан
@@ -18808,6 +19336,15 @@ your Frances's
 your Franceses
 {pl}Фрэнсис
 %%%%
+your Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+your Gell's gravitambourine's
+{m}гравитационного бубна Гелла
+%%%%
+your Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 your Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -19324,6 +19861,15 @@ your ancient lich's
 your ancient liches
 {pl}древние личи
 %%%%
+your animal skin
+{f}звериная шкура
+%%%%
+your animal skin's
+{f}звериной шкуры
+%%%%
+your animal skins
+{pl}звериные шкуры
+%%%%
 your ant
 {m}муравей
 %%%%
@@ -19404,6 +19950,15 @@ your bardiche's
 %%%%
 your bardiches
 {pl}бердыши
+%%%%
+your barding
+{m}бардинг
+%%%%
+your barding's
+{m}бардинга
+%%%%
+your bardings
+{pl}бардинги
 %%%%
 your basilisk
 {m}василиск
@@ -20080,6 +20635,15 @@ your boulder beetle's
 your boulder beetles
 {pl}жуки-валуны
 %%%%
+your box of beasts
+{m}ящик зверей
+%%%%
+your box of beasts's
+{m}ящика зверей
+%%%%
+your boxes of beasts
+{pl}ящики зверей
+%%%%
 your broad axe
 {m}широкий топор
 %%%%
@@ -20206,6 +20770,15 @@ your club's
 your clubs
 {pl}дубинки
 %%%%
+your condenser vane
+{m}конденсатор облаков
+%%%%
+your condenser vane's
+{m}конденсатора облаков
+%%%%
+your condenser vanes
+{pl}конденсаторы облаков
+%%%%
 your crimson imp
 {m}багровый бес
 %%%%
@@ -20223,6 +20796,15 @@ your crystal guardian's
 %%%%
 your crystal guardians
 {pl}кристаллические стражи
+%%%%
+your crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+your crystal plate armour's
+{m}кристаллического латного доспеха
+%%%%
+your crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 your curse skull
 {m}проклятый череп
@@ -20713,6 +21295,15 @@ your fenstrider witch's
 your fenstrider witches
 {pl}болотные ведьмы
 %%%%
+your figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+your figurine of a ziggurat's
+{f}фигурки зиккурата
+%%%%
+your figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 your fire dragon
 {m}огненный дракон
 %%%%
@@ -21121,6 +21712,15 @@ your hobgoblin's
 your hobgoblins
 {pl}хобгоблины
 %%%%
+your horn of Geryon
+{m}рог Гериона
+%%%%
+your horn of Geryon's
+{m}рога Гериона
+%%%%
+your horns of Geryon
+{pl}рога Гериона
+%%%%
 your horse
 {f}лошадь
 %%%%
@@ -21388,6 +21988,15 @@ your lajatang's
 your lajatangs
 {pl}ладжатанги
 %%%%
+your large rock
+{m}большой камень
+%%%%
+your large rock's
+{m}большого камня
+%%%%
+your large rocks
+{pl}большие камни
+%%%%
 your leather armour
 {m}кожаный доспех
 %%%%
@@ -21405,6 +22014,15 @@ your lich's
 %%%%
 your liches
 {pl}личи
+%%%%
+your lightning rod
+{m}жезл молний
+%%%%
+your lightning rod's
+{m}жезла молний
+%%%%
+your lightning rods
+{pl}жезлы молний
 %%%%
 your long sword
 {m}длинный меч
@@ -21706,6 +22324,9 @@ your orange demon's
 your orange demons
 {pl}оранжевые демоны
 %%%%
+your orb
+{f}сфера
+%%%%
 your orb golem
 {m}сферный голем
 %%%%
@@ -21720,6 +22341,12 @@ your orb of fire
 %%%%
 your orb of fire's
 {f}сферы огня
+%%%%
+your orb's
+{f}сферы
+%%%%
+your orbs
+{pl}сферы
 %%%%
 your orbs of fire
 {pl}сферы огня
@@ -21793,6 +22420,15 @@ your orc wizards
 your orc's
 {m}орка
 %%%%
+your orcbow
+{m}орочий лук
+%%%%
+your orcbow's
+{m}орочьего лука
+%%%%
+your orcbows
+{pl}орочьи луки
+%%%%
 your orcs
 {pl}орки
 %%%%
@@ -21832,11 +22468,29 @@ your pearl dragons
 your phantom
 {m}фантом
 %%%%
+your phantom mirror
+{n}призрачное зеркало
+%%%%
+your phantom mirror's
+{n}призрачного зеркала
+%%%%
+your phantom mirrors
+{pl}призрачные зеркала
+%%%%
 your phantom's
 {m}фантома
 %%%%
 your phantoms
 {pl}фантомы
+%%%%
+your phial of floods
+{m}флакон потопа
+%%%%
+your phial of floods's
+{m}флакона потопа
+%%%%
+your phials of floods
+{pl}флаконы потопа
 %%%%
 your plate armour
 {m}латный доспех
@@ -22425,6 +23079,15 @@ your rockslime's
 %%%%
 your rockslimes
 {pl}каменные слизни
+%%%%
+your sack of spiders
+{m}мешок пауков
+%%%%
+your sack of spiders's
+{m}мешка пауков
+%%%%
+your sacks of spiders
+{pl}мешки пауков
 %%%%
 your sacred scourge
 {m}священный бич
@@ -23218,6 +23881,15 @@ your throwing net's
 your throwing nets
 {pl}метательные сети
 %%%%
+your tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+your tin of tremorstones's
+{f}коробки сотрясающих камней
+%%%%
+your tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 your titan
 {m}титан
 %%%%
@@ -23746,6 +24418,9 @@ your ynoxinuls
 {acc_few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{acc_few}@num@ Gell's gravitambourines
+@num@ гравитационного бубна Гелла
+%%%%
 {acc_few}@num@ Grand Grimoires
 @num@ великих гримуара
 %%%%
@@ -23920,6 +24595,9 @@ your ynoxinuls
 {acc_few}@num@ ancient liches
 @num@ древних личей
 %%%%
+{acc_few}@num@ animal skins
+@num@ звериные шкуры
+%%%%
 {acc_few}@num@ ants
 @num@ муравьёв
 %%%%
@@ -23946,6 +24624,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ bardiches
 @num@ бердыша
+%%%%
+{acc_few}@num@ bardings
+@num@ бардинга
 %%%%
 {acc_few}@num@ basilisks
 @num@ василисков
@@ -24172,6 +24853,9 @@ your ynoxinuls
 {acc_few}@num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+{acc_few}@num@ boxes of beasts
+@num@ ящика зверей
+%%%%
 {acc_few}@num@ broad axes
 @num@ широких топора
 %%%%
@@ -24214,11 +24898,17 @@ your ynoxinuls
 {acc_few}@num@ clubs
 @num@ дубинки
 %%%%
+{acc_few}@num@ condenser vanes
+@num@ конденсатора облаков
+%%%%
 {acc_few}@num@ crimson imps
 @num@ багровых бесов
 %%%%
 {acc_few}@num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+{acc_few}@num@ crystal plate armours
+@num@ кристаллического латного доспеха
 %%%%
 {acc_few}@num@ curse skulls
 @num@ проклятых черепа
@@ -24385,6 +25075,9 @@ your ynoxinuls
 {acc_few}@num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+{acc_few}@num@ figurines of a ziggurat
+@num@ фигурки зиккурата
+%%%%
 {acc_few}@num@ fire dragon scales
 @num@ чешуи огненного дракона
 %%%%
@@ -24523,6 +25216,9 @@ your ynoxinuls
 {acc_few}@num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+{acc_few}@num@ horns of Geryon
+@num@ рога Гериона
+%%%%
 {acc_few}@num@ horses
 @num@ лошадей
 %%%%
@@ -24613,11 +25309,17 @@ your ynoxinuls
 {acc_few}@num@ lajatangs
 @num@ ладжатанга
 %%%%
+{acc_few}@num@ large rocks
+@num@ большого камня
+%%%%
 {acc_few}@num@ leather armours
 @num@ кожаных доспеха
 %%%%
 {acc_few}@num@ liches
 @num@ личей
+%%%%
+{acc_few}@num@ lightning rods
+@num@ жезла молний
 %%%%
 {acc_few}@num@ long swords
 @num@ длинных меча
@@ -24724,6 +25426,9 @@ your ynoxinuls
 {acc_few}@num@ orb golems
 @num@ сферных големов
 %%%%
+{acc_few}@num@ orbs
+@num@ сферы
+%%%%
 {acc_few}@num@ orbs of fire
 @num@ сферы огня
 %%%%
@@ -24748,6 +25453,9 @@ your ynoxinuls
 {acc_few}@num@ orc wizards
 @num@ орков-волшебников
 %%%%
+{acc_few}@num@ orcbows
+@num@ орочьего лука
+%%%%
 {acc_few}@num@ orcs
 @num@ орков
 %%%%
@@ -24763,8 +25471,14 @@ your ynoxinuls
 {acc_few}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+{acc_few}@num@ phantom mirrors
+@num@ призрачного зеркала
+%%%%
 {acc_few}@num@ phantoms
 @num@ фантомов
+%%%%
+{acc_few}@num@ phials of floods
+@num@ флакона потопа
 %%%%
 {acc_few}@num@ plate armours
 @num@ латных доспеха
@@ -24963,6 +25677,9 @@ your ynoxinuls
 %%%%
 {acc_few}@num@ rockslimes
 @num@ каменных слизней
+%%%%
+{acc_few}@num@ sacks of spiders
+@num@ мешка пауков
 %%%%
 {acc_few}@num@ sacred scourges
 @num@ священных бича
@@ -25234,6 +25951,9 @@ your ynoxinuls
 {acc_few}@num@ throwing nets
 @num@ метательные сети
 %%%%
+{acc_few}@num@ tins of tremorstones
+@num@ коробки сотрясающих камней
+%%%%
 {acc_few}@num@ titans
 @num@ титанов
 %%%%
@@ -25450,6 +26170,9 @@ your ynoxinuls
 {acc_many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{acc_many}@num@ Gell's gravitambourines
+@num@ гравитационных бубнов Гелла
+%%%%
 {acc_many}@num@ Grand Grimoires
 @num@ великих гримуаров
 %%%%
@@ -25624,6 +26347,9 @@ your ynoxinuls
 {acc_many}@num@ ancient liches
 @num@ древних личей
 %%%%
+{acc_many}@num@ animal skins
+@num@ звериных шкур
+%%%%
 {acc_many}@num@ ants
 @num@ муравьёв
 %%%%
@@ -25650,6 +26376,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ bardiches
 @num@ бердышей
+%%%%
+{acc_many}@num@ bardings
+@num@ бардингов
 %%%%
 {acc_many}@num@ basilisks
 @num@ василисков
@@ -25876,6 +26605,9 @@ your ynoxinuls
 {acc_many}@num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+{acc_many}@num@ boxes of beasts
+@num@ ящиков зверей
+%%%%
 {acc_many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -25918,11 +26650,17 @@ your ynoxinuls
 {acc_many}@num@ clubs
 @num@ дубинок
 %%%%
+{acc_many}@num@ condenser vanes
+@num@ конденсаторов облаков
+%%%%
 {acc_many}@num@ crimson imps
 @num@ багровых бесов
 %%%%
 {acc_many}@num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+{acc_many}@num@ crystal plate armours
+@num@ кристаллических латных доспехов
 %%%%
 {acc_many}@num@ curse skulls
 @num@ проклятых черепов
@@ -26089,6 +26827,9 @@ your ynoxinuls
 {acc_many}@num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+{acc_many}@num@ figurines of a ziggurat
+@num@ фигурок зиккурата
+%%%%
 {acc_many}@num@ fire dragon scales
 @num@ чешуй огненного дракона
 %%%%
@@ -26227,6 +26968,9 @@ your ynoxinuls
 {acc_many}@num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+{acc_many}@num@ horns of Geryon
+@num@ рогов Гериона
+%%%%
 {acc_many}@num@ horses
 @num@ лошадей
 %%%%
@@ -26317,11 +27061,17 @@ your ynoxinuls
 {acc_many}@num@ lajatangs
 @num@ ладжатангов
 %%%%
+{acc_many}@num@ large rocks
+@num@ больших камней
+%%%%
 {acc_many}@num@ leather armours
 @num@ кожаных доспехов
 %%%%
 {acc_many}@num@ liches
 @num@ личей
+%%%%
+{acc_many}@num@ lightning rods
+@num@ жезлов молний
 %%%%
 {acc_many}@num@ long swords
 @num@ длинных мечей
@@ -26428,6 +27178,9 @@ your ynoxinuls
 {acc_many}@num@ orb golems
 @num@ сферных големов
 %%%%
+{acc_many}@num@ orbs
+@num@ сфер
+%%%%
 {acc_many}@num@ orbs of fire
 @num@ сфер огня
 %%%%
@@ -26452,6 +27205,9 @@ your ynoxinuls
 {acc_many}@num@ orc wizards
 @num@ орков-волшебников
 %%%%
+{acc_many}@num@ orcbows
+@num@ орочьих луков
+%%%%
 {acc_many}@num@ orcs
 @num@ орков
 %%%%
@@ -26467,8 +27223,14 @@ your ynoxinuls
 {acc_many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+{acc_many}@num@ phantom mirrors
+@num@ призрачных зеркал
+%%%%
 {acc_many}@num@ phantoms
 @num@ фантомов
+%%%%
+{acc_many}@num@ phials of floods
+@num@ флаконов потопа
 %%%%
 {acc_many}@num@ plate armours
 @num@ латных доспехов
@@ -26667,6 +27429,9 @@ your ynoxinuls
 %%%%
 {acc_many}@num@ rockslimes
 @num@ каменных слизней
+%%%%
+{acc_many}@num@ sacks of spiders
+@num@ мешков пауков
 %%%%
 {acc_many}@num@ sacred scourges
 @num@ священных бичей
@@ -26938,6 +27703,9 @@ your ynoxinuls
 {acc_many}@num@ throwing nets
 @num@ метательных сетей
 %%%%
+{acc_many}@num@ tins of tremorstones
+@num@ коробок сотрясающих камней
+%%%%
 {acc_many}@num@ titans
 @num@ титанов
 %%%%
@@ -27154,6 +27922,9 @@ your ynoxinuls
 {acc_one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{acc_one}@num@ Gell's gravitambourines
+@num@ гравитационный бубен Гелла
+%%%%
 {acc_one}@num@ Grand Grimoires
 @num@ великий гримуар
 %%%%
@@ -27328,6 +28099,9 @@ your ynoxinuls
 {acc_one}@num@ ancient liches
 @num@ древнего лича
 %%%%
+{acc_one}@num@ animal skins
+@num@ звериную шкуру
+%%%%
 {acc_one}@num@ ants
 @num@ муравья
 %%%%
@@ -27354,6 +28128,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ bardiches
 @num@ бердыш
+%%%%
+{acc_one}@num@ bardings
+@num@ бардинг
 %%%%
 {acc_one}@num@ basilisks
 @num@ василиска
@@ -27580,6 +28357,9 @@ your ynoxinuls
 {acc_one}@num@ boulder beetles
 @num@ жука-валуна
 %%%%
+{acc_one}@num@ boxes of beasts
+@num@ ящик зверей
+%%%%
 {acc_one}@num@ broad axes
 @num@ широкий топор
 %%%%
@@ -27622,11 +28402,17 @@ your ynoxinuls
 {acc_one}@num@ clubs
 @num@ дубинку
 %%%%
+{acc_one}@num@ condenser vanes
+@num@ конденсатор облаков
+%%%%
 {acc_one}@num@ crimson imps
 @num@ багрового беса
 %%%%
 {acc_one}@num@ crystal guardians
 @num@ кристаллического стража
+%%%%
+{acc_one}@num@ crystal plate armours
+@num@ кристаллический латный доспех
 %%%%
 {acc_one}@num@ curse skulls
 @num@ проклятый череп
@@ -27793,6 +28579,9 @@ your ynoxinuls
 {acc_one}@num@ fenstrider witches
 @num@ болотную ведьму
 %%%%
+{acc_one}@num@ figurines of a ziggurat
+@num@ фигурку зиккурата
+%%%%
 {acc_one}@num@ fire dragon scales
 @num@ чешую огненного дракона
 %%%%
@@ -27931,6 +28720,9 @@ your ynoxinuls
 {acc_one}@num@ hobgoblins
 @num@ хобгоблина
 %%%%
+{acc_one}@num@ horns of Geryon
+@num@ рог Гериона
+%%%%
 {acc_one}@num@ horses
 @num@ лошадь
 %%%%
@@ -28021,11 +28813,17 @@ your ynoxinuls
 {acc_one}@num@ lajatangs
 @num@ ладжатанг
 %%%%
+{acc_one}@num@ large rocks
+@num@ большой камень
+%%%%
 {acc_one}@num@ leather armours
 @num@ кожаный доспех
 %%%%
 {acc_one}@num@ liches
 @num@ лича
+%%%%
+{acc_one}@num@ lightning rods
+@num@ жезл молний
 %%%%
 {acc_one}@num@ long swords
 @num@ длинный меч
@@ -28132,6 +28930,9 @@ your ynoxinuls
 {acc_one}@num@ orb golems
 @num@ сферного голема
 %%%%
+{acc_one}@num@ orbs
+@num@ сферу
+%%%%
 {acc_one}@num@ orbs of fire
 @num@ сферу огня
 %%%%
@@ -28156,6 +28957,9 @@ your ynoxinuls
 {acc_one}@num@ orc wizards
 @num@ орка-волшебника
 %%%%
+{acc_one}@num@ orcbows
+@num@ орочий лук
+%%%%
 {acc_one}@num@ orcs
 @num@ орка
 %%%%
@@ -28171,8 +28975,14 @@ your ynoxinuls
 {acc_one}@num@ pearl dragons
 @num@ жемчужного дракона
 %%%%
+{acc_one}@num@ phantom mirrors
+@num@ призрачное зеркало
+%%%%
 {acc_one}@num@ phantoms
 @num@ фантома
+%%%%
+{acc_one}@num@ phials of floods
+@num@ флакон потопа
 %%%%
 {acc_one}@num@ plate armours
 @num@ латный доспех
@@ -28371,6 +29181,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ rockslimes
 @num@ каменного слизня
+%%%%
+{acc_one}@num@ sacks of spiders
+@num@ мешок пауков
 %%%%
 {acc_one}@num@ sacred scourges
 @num@ священный бич
@@ -28641,6 +29454,9 @@ your ynoxinuls
 %%%%
 {acc_one}@num@ throwing nets
 @num@ метательную сеть
+%%%%
+{acc_one}@num@ tins of tremorstones
+@num@ коробку сотрясающих камней
 %%%%
 {acc_one}@num@ titans
 @num@ титана
@@ -28914,6 +29730,12 @@ your ynoxinuls
 %%%%
 {acc}Franceses
 {pl}Фрэнсис
+%%%%
+{acc}Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{acc}Gell's gravitambourines
+{pl}гравитационные бубны Гелла
 %%%%
 {acc}Grand Grimoire
 {m}великий гримуар
@@ -29218,6 +30040,9 @@ your ynoxinuls
 {acc}a Frances
 {f}Фрэнсис
 %%%%
+{acc}a Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
 {acc}a Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -29392,6 +30217,9 @@ your ynoxinuls
 {acc}a ancient lich
 {m}древнего лича
 %%%%
+{acc}a animal skin
+{f}звериную шкуру
+%%%%
 {acc}a ant
 {m}муравья
 %%%%
@@ -29418,6 +30246,9 @@ your ynoxinuls
 %%%%
 {acc}a bardiche
 {m}бердыш
+%%%%
+{acc}a barding
+{m}бардинг
 %%%%
 {acc}a basilisk
 {m}василиска
@@ -29644,6 +30475,9 @@ your ynoxinuls
 {acc}a boulder beetle
 {m}жука-валуна
 %%%%
+{acc}a box of beasts
+{m}ящик зверей
+%%%%
 {acc}a broad axe
 {m}широкий топор
 %%%%
@@ -29686,11 +30520,17 @@ your ynoxinuls
 {acc}a club
 {f}дубинку
 %%%%
+{acc}a condenser vane
+{m}конденсатор облаков
+%%%%
 {acc}a crimson imp
 {m}багрового беса
 %%%%
 {acc}a crystal guardian
 {m}кристаллического стража
+%%%%
+{acc}a crystal plate armour
+{m}кристаллический латный доспех
 %%%%
 {acc}a curse skull
 {m}проклятый череп
@@ -29857,6 +30697,9 @@ your ynoxinuls
 {acc}a fenstrider witch
 {f}болотную ведьму
 %%%%
+{acc}a figurine of a ziggurat
+{f}фигурку зиккурата
+%%%%
 {acc}a fire dragon
 {m}огненного дракона
 %%%%
@@ -29995,6 +30838,9 @@ your ynoxinuls
 {acc}a hobgoblin
 {m}хобгоблина
 %%%%
+{acc}a horn of Geryon
+{m}рог Гериона
+%%%%
 {acc}a horse
 {f}лошадь
 %%%%
@@ -30085,11 +30931,17 @@ your ynoxinuls
 {acc}a lajatang
 {m}ладжатанг
 %%%%
+{acc}a large rock
+{m}большой камень
+%%%%
 {acc}a leather armour
 {m}кожаный доспех
 %%%%
 {acc}a lich
 {m}лича
+%%%%
+{acc}a lightning rod
+{m}жезл молний
 %%%%
 {acc}a long sword
 {m}длинный меч
@@ -30193,6 +31045,9 @@ your ynoxinuls
 {acc}a orange demon
 {m}оранжевого демона
 %%%%
+{acc}a orb
+{f}сферу
+%%%%
 {acc}a orb golem
 {m}сферного голема
 %%%%
@@ -30223,6 +31078,9 @@ your ynoxinuls
 {acc}a orc wizard
 {m}орка-волшебника
 %%%%
+{acc}a orcbow
+{m}орочий лук
+%%%%
 {acc}a pale draconian
 {m}бледного дракониана
 %%%%
@@ -30237,6 +31095,12 @@ your ynoxinuls
 %%%%
 {acc}a phantom
 {m}фантома
+%%%%
+{acc}a phantom mirror
+{n}призрачное зеркало
+%%%%
+{acc}a phial of floods
+{m}флакон потопа
 %%%%
 {acc}a plate armour
 {m}латный доспех
@@ -30435,6 +31299,9 @@ your ynoxinuls
 %%%%
 {acc}a rockslime
 {m}каменного слизня
+%%%%
+{acc}a sack of spiders
+{m}мешок пауков
 %%%%
 {acc}a sacred scourge
 {m}священный бич
@@ -30705,6 +31572,9 @@ your ynoxinuls
 %%%%
 {acc}a throwing net
 {f}метательную сеть
+%%%%
+{acc}a tin of tremorstones
+{f}коробку сотрясающих камней
 %%%%
 {acc}a titan
 {m}титана
@@ -31009,6 +31879,9 @@ your ynoxinuls
 {acc}an Frances
 {f}Фрэнсис
 %%%%
+{acc}an Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
 {acc}an Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -31183,6 +32056,9 @@ your ynoxinuls
 {acc}an ancient lich
 {m}древнего лича
 %%%%
+{acc}an animal skin
+{f}звериную шкуру
+%%%%
 {acc}an ant
 {m}муравья
 %%%%
@@ -31209,6 +32085,9 @@ your ynoxinuls
 %%%%
 {acc}an bardiche
 {m}бердыш
+%%%%
+{acc}an barding
+{m}бардинг
 %%%%
 {acc}an basilisk
 {m}василиска
@@ -31435,6 +32314,9 @@ your ynoxinuls
 {acc}an boulder beetle
 {m}жука-валуна
 %%%%
+{acc}an box of beasts
+{m}ящик зверей
+%%%%
 {acc}an broad axe
 {m}широкий топор
 %%%%
@@ -31477,11 +32359,17 @@ your ynoxinuls
 {acc}an club
 {f}дубинку
 %%%%
+{acc}an condenser vane
+{m}конденсатор облаков
+%%%%
 {acc}an crimson imp
 {m}багрового беса
 %%%%
 {acc}an crystal guardian
 {m}кристаллического стража
+%%%%
+{acc}an crystal plate armour
+{m}кристаллический латный доспех
 %%%%
 {acc}an curse skull
 {m}проклятый череп
@@ -31648,6 +32536,9 @@ your ynoxinuls
 {acc}an fenstrider witch
 {f}болотную ведьму
 %%%%
+{acc}an figurine of a ziggurat
+{f}фигурку зиккурата
+%%%%
 {acc}an fire dragon
 {m}огненного дракона
 %%%%
@@ -31786,6 +32677,9 @@ your ynoxinuls
 {acc}an hobgoblin
 {m}хобгоблина
 %%%%
+{acc}an horn of Geryon
+{m}рог Гериона
+%%%%
 {acc}an horse
 {f}лошадь
 %%%%
@@ -31876,11 +32770,17 @@ your ynoxinuls
 {acc}an lajatang
 {m}ладжатанг
 %%%%
+{acc}an large rock
+{m}большой камень
+%%%%
 {acc}an leather armour
 {m}кожаный доспех
 %%%%
 {acc}an lich
 {m}лича
+%%%%
+{acc}an lightning rod
+{m}жезл молний
 %%%%
 {acc}an long sword
 {m}длинный меч
@@ -31984,6 +32884,9 @@ your ynoxinuls
 {acc}an orange demon
 {m}оранжевого демона
 %%%%
+{acc}an orb
+{f}сферу
+%%%%
 {acc}an orb golem
 {m}сферного голема
 %%%%
@@ -32014,6 +32917,9 @@ your ynoxinuls
 {acc}an orc wizard
 {m}орка-волшебника
 %%%%
+{acc}an orcbow
+{m}орочий лук
+%%%%
 {acc}an pale draconian
 {m}бледного дракониана
 %%%%
@@ -32028,6 +32934,12 @@ your ynoxinuls
 %%%%
 {acc}an phantom
 {m}фантома
+%%%%
+{acc}an phantom mirror
+{n}призрачное зеркало
+%%%%
+{acc}an phial of floods
+{m}флакон потопа
 %%%%
 {acc}an plate armour
 {m}латный доспех
@@ -32226,6 +33138,9 @@ your ynoxinuls
 %%%%
 {acc}an rockslime
 {m}каменного слизня
+%%%%
+{acc}an sack of spiders
+{m}мешок пауков
 %%%%
 {acc}an sacred scourge
 {m}священный бич
@@ -32497,6 +33412,9 @@ your ynoxinuls
 {acc}an throwing net
 {f}метательную сеть
 %%%%
+{acc}an tin of tremorstones
+{f}коробку сотрясающих камней
+%%%%
 {acc}an titan
 {m}титана
 %%%%
@@ -32665,6 +33583,12 @@ your ynoxinuls
 {acc}ancient liches
 {pl}древних личей
 %%%%
+{acc}animal skin
+{f}звериную шкуру
+%%%%
+{acc}animal skins
+{pl}звериные шкуры
+%%%%
 {acc}ant
 {m}муравья
 %%%%
@@ -32718,6 +33642,12 @@ your ynoxinuls
 %%%%
 {acc}bardiches
 {pl}бердыши
+%%%%
+{acc}barding
+{m}бардинг
+%%%%
+{acc}bardings
+{pl}бардинги
 %%%%
 {acc}basilisk
 {m}василиска
@@ -33169,6 +34099,12 @@ your ynoxinuls
 {acc}boulder beetles
 {pl}жуков-валунов
 %%%%
+{acc}box of beasts
+{m}ящик зверей
+%%%%
+{acc}boxes of beasts
+{pl}ящики зверей
+%%%%
 {acc}broad axe
 {m}широкий топор
 %%%%
@@ -33253,6 +34189,12 @@ your ynoxinuls
 {acc}clubs
 {pl}дубинки
 %%%%
+{acc}condenser vane
+{m}конденсатор облаков
+%%%%
+{acc}condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {acc}crimson imp
 {m}багрового беса
 %%%%
@@ -33264,6 +34206,12 @@ your ynoxinuls
 %%%%
 {acc}crystal guardians
 {pl}кристаллических стражей
+%%%%
+{acc}crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{acc}crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {acc}curse skull
 {m}проклятый череп
@@ -33589,6 +34537,12 @@ your ynoxinuls
 {acc}fenstrider witches
 {pl}болотных ведьм
 %%%%
+{acc}figurine of a ziggurat
+{f}фигурку зиккурата
+%%%%
+{acc}figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {acc}fire dragon
 {m}огненного дракона
 %%%%
@@ -33859,6 +34813,12 @@ your ynoxinuls
 {acc}hobgoblins
 {pl}хобгоблинов
 %%%%
+{acc}horn of Geryon
+{m}рог Гериона
+%%%%
+{acc}horns of Geryon
+{pl}рога Гериона
+%%%%
 {acc}horse
 {f}лошадь
 %%%%
@@ -34036,6 +34996,12 @@ your ynoxinuls
 {acc}lajatangs
 {pl}ладжатанги
 %%%%
+{acc}large rock
+{m}большой камень
+%%%%
+{acc}large rocks
+{pl}большие камни
+%%%%
 {acc}leather armour
 {m}кожаный доспех
 %%%%
@@ -34047,6 +35013,12 @@ your ynoxinuls
 %%%%
 {acc}liches
 {pl}личей
+%%%%
+{acc}lightning rod
+{m}жезл молний
+%%%%
+{acc}lightning rods
+{pl}жезлы молний
 %%%%
 {acc}long sword
 {m}длинный меч
@@ -34246,6 +35218,9 @@ your ynoxinuls
 {acc}orange demons
 {pl}оранжевых демонов
 %%%%
+{acc}orb
+{f}сферу
+%%%%
 {acc}orb golem
 {m}сферного голема
 %%%%
@@ -34254,6 +35229,9 @@ your ynoxinuls
 %%%%
 {acc}orb of fire
 {f}сферу огня
+%%%%
+{acc}orbs
+{pl}сферы
 %%%%
 {acc}orbs of fire
 {pl}сферы огня
@@ -34303,6 +35281,12 @@ your ynoxinuls
 {acc}orc wizards
 {pl}орков-волшебников
 %%%%
+{acc}orcbow
+{m}орочий лук
+%%%%
+{acc}orcbows
+{pl}орочьи луки
+%%%%
 {acc}orcs
 {pl}орков
 %%%%
@@ -34330,8 +35314,20 @@ your ynoxinuls
 {acc}phantom
 {m}фантома
 %%%%
+{acc}phantom mirror
+{n}призрачное зеркало
+%%%%
+{acc}phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {acc}phantoms
 {pl}фантомов
+%%%%
+{acc}phial of floods
+{m}флакон потопа
+%%%%
+{acc}phials of floods
+{pl}флаконы потопа
 %%%%
 {acc}plate armour
 {m}латный доспех
@@ -34722,6 +35718,12 @@ your ynoxinuls
 %%%%
 {acc}rockslimes
 {pl}каменных слизней
+%%%%
+{acc}sack of spiders
+{m}мешок пауков
+%%%%
+{acc}sacks of spiders
+{pl}мешки пауков
 %%%%
 {acc}sacred scourge
 {m}священный бич
@@ -35344,6 +36346,12 @@ your ynoxinuls
 {acc}the Franceses
 {pl}Фрэнсис
 %%%%
+{acc}the Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{acc}the Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 {acc}the Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -35686,6 +36694,12 @@ your ynoxinuls
 {acc}the ancient liches
 {pl}древних личей
 %%%%
+{acc}the animal skin
+{f}звериную шкуру
+%%%%
+{acc}the animal skins
+{pl}звериные шкуры
+%%%%
 {acc}the ant
 {m}муравья
 %%%%
@@ -35739,6 +36753,12 @@ your ynoxinuls
 %%%%
 {acc}the bardiches
 {pl}бердыши
+%%%%
+{acc}the barding
+{m}бардинг
+%%%%
+{acc}the bardings
+{pl}бардинги
 %%%%
 {acc}the basilisk
 {m}василиска
@@ -36190,6 +37210,12 @@ your ynoxinuls
 {acc}the boulder beetles
 {pl}жуков-валунов
 %%%%
+{acc}the box of beasts
+{m}ящик зверей
+%%%%
+{acc}the boxes of beasts
+{pl}ящики зверей
+%%%%
 {acc}the broad axe
 {m}широкий топор
 %%%%
@@ -36274,6 +37300,12 @@ your ynoxinuls
 {acc}the clubs
 {pl}дубинки
 %%%%
+{acc}the condenser vane
+{m}конденсатор облаков
+%%%%
+{acc}the condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {acc}the crimson imp
 {m}багрового беса
 %%%%
@@ -36285,6 +37317,12 @@ your ynoxinuls
 %%%%
 {acc}the crystal guardians
 {pl}кристаллических стражей
+%%%%
+{acc}the crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{acc}the crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {acc}the curse skull
 {m}проклятый череп
@@ -36610,6 +37648,12 @@ your ynoxinuls
 {acc}the fenstrider witches
 {pl}болотных ведьм
 %%%%
+{acc}the figurine of a ziggurat
+{f}фигурку зиккурата
+%%%%
+{acc}the figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {acc}the fire dragon
 {m}огненного дракона
 %%%%
@@ -36880,6 +37924,12 @@ your ynoxinuls
 {acc}the hobgoblins
 {pl}хобгоблинов
 %%%%
+{acc}the horn of Geryon
+{m}рог Гериона
+%%%%
+{acc}the horns of Geryon
+{pl}рога Гериона
+%%%%
 {acc}the horse
 {f}лошадь
 %%%%
@@ -37057,6 +38107,12 @@ your ynoxinuls
 {acc}the lajatangs
 {pl}ладжатанги
 %%%%
+{acc}the large rock
+{m}большой камень
+%%%%
+{acc}the large rocks
+{pl}большие камни
+%%%%
 {acc}the leather armour
 {m}кожаный доспех
 %%%%
@@ -37068,6 +38124,12 @@ your ynoxinuls
 %%%%
 {acc}the liches
 {pl}личей
+%%%%
+{acc}the lightning rod
+{m}жезл молний
+%%%%
+{acc}the lightning rods
+{pl}жезлы молний
 %%%%
 {acc}the long sword
 {m}длинный меч
@@ -37267,6 +38329,9 @@ your ynoxinuls
 {acc}the orange demons
 {pl}оранжевых демонов
 %%%%
+{acc}the orb
+{f}сферу
+%%%%
 {acc}the orb golem
 {m}сферного голема
 %%%%
@@ -37275,6 +38340,9 @@ your ynoxinuls
 %%%%
 {acc}the orb of fire
 {f}сферу огня
+%%%%
+{acc}the orbs
+{pl}сферы
 %%%%
 {acc}the orbs of fire
 {pl}сферы огня
@@ -37324,6 +38392,12 @@ your ynoxinuls
 {acc}the orc wizards
 {pl}орков-волшебников
 %%%%
+{acc}the orcbow
+{m}орочий лук
+%%%%
+{acc}the orcbows
+{pl}орочьи луки
+%%%%
 {acc}the orcs
 {pl}орков
 %%%%
@@ -37351,8 +38425,20 @@ your ynoxinuls
 {acc}the phantom
 {m}фантома
 %%%%
+{acc}the phantom mirror
+{n}призрачное зеркало
+%%%%
+{acc}the phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {acc}the phantoms
 {pl}фантомов
+%%%%
+{acc}the phial of floods
+{m}флакон потопа
+%%%%
+{acc}the phials of floods
+{pl}флаконы потопа
 %%%%
 {acc}the plate armour
 {m}латный доспех
@@ -37743,6 +38829,12 @@ your ynoxinuls
 %%%%
 {acc}the rockslimes
 {pl}каменных слизней
+%%%%
+{acc}the sack of spiders
+{m}мешок пауков
+%%%%
+{acc}the sacks of spiders
+{pl}мешки пауков
 %%%%
 {acc}the sacred scourge
 {m}священный бич
@@ -38266,6 +39358,12 @@ your ynoxinuls
 {acc}the throwing nets
 {pl}метательные сети
 %%%%
+{acc}the tin of tremorstones
+{f}коробку сотрясающих камней
+%%%%
+{acc}the tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 {acc}the titan
 {m}титана
 %%%%
@@ -38595,6 +39693,12 @@ your ynoxinuls
 %%%%
 {acc}throwing nets
 {pl}метательные сети
+%%%%
+{acc}tin of tremorstones
+{f}коробку сотрясающих камней
+%%%%
+{acc}tins of tremorstones
+{pl}коробки сотрясающих камней
 %%%%
 {acc}titan
 {m}титана
@@ -39025,6 +40129,12 @@ your ynoxinuls
 {acc}your Franceses
 {pl}Фрэнсис
 %%%%
+{acc}your Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{acc}your Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 {acc}your Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -39367,6 +40477,12 @@ your ynoxinuls
 {acc}your ancient liches
 {pl}древних личей
 %%%%
+{acc}your animal skin
+{f}звериную шкуру
+%%%%
+{acc}your animal skins
+{pl}звериные шкуры
+%%%%
 {acc}your ant
 {m}муравья
 %%%%
@@ -39420,6 +40536,12 @@ your ynoxinuls
 %%%%
 {acc}your bardiches
 {pl}бердыши
+%%%%
+{acc}your barding
+{m}бардинг
+%%%%
+{acc}your bardings
+{pl}бардинги
 %%%%
 {acc}your basilisk
 {m}василиска
@@ -39871,6 +40993,12 @@ your ynoxinuls
 {acc}your boulder beetles
 {pl}жуков-валунов
 %%%%
+{acc}your box of beasts
+{m}ящик зверей
+%%%%
+{acc}your boxes of beasts
+{pl}ящики зверей
+%%%%
 {acc}your broad axe
 {m}широкий топор
 %%%%
@@ -39955,6 +41083,12 @@ your ynoxinuls
 {acc}your clubs
 {pl}дубинки
 %%%%
+{acc}your condenser vane
+{m}конденсатор облаков
+%%%%
+{acc}your condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {acc}your crimson imp
 {m}багрового беса
 %%%%
@@ -39966,6 +41100,12 @@ your ynoxinuls
 %%%%
 {acc}your crystal guardians
 {pl}кристаллических стражей
+%%%%
+{acc}your crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{acc}your crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {acc}your curse skull
 {m}проклятый череп
@@ -40291,6 +41431,12 @@ your ynoxinuls
 {acc}your fenstrider witches
 {pl}болотных ведьм
 %%%%
+{acc}your figurine of a ziggurat
+{f}фигурку зиккурата
+%%%%
+{acc}your figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {acc}your fire dragon
 {m}огненного дракона
 %%%%
@@ -40561,6 +41707,12 @@ your ynoxinuls
 {acc}your hobgoblins
 {pl}хобгоблинов
 %%%%
+{acc}your horn of Geryon
+{m}рог Гериона
+%%%%
+{acc}your horns of Geryon
+{pl}рога Гериона
+%%%%
 {acc}your horse
 {f}лошадь
 %%%%
@@ -40738,6 +41890,12 @@ your ynoxinuls
 {acc}your lajatangs
 {pl}ладжатанги
 %%%%
+{acc}your large rock
+{m}большой камень
+%%%%
+{acc}your large rocks
+{pl}большие камни
+%%%%
 {acc}your leather armour
 {m}кожаный доспех
 %%%%
@@ -40749,6 +41907,12 @@ your ynoxinuls
 %%%%
 {acc}your liches
 {pl}личей
+%%%%
+{acc}your lightning rod
+{m}жезл молний
+%%%%
+{acc}your lightning rods
+{pl}жезлы молний
 %%%%
 {acc}your long sword
 {m}длинный меч
@@ -40948,6 +42112,9 @@ your ynoxinuls
 {acc}your orange demons
 {pl}оранжевых демонов
 %%%%
+{acc}your orb
+{f}сферу
+%%%%
 {acc}your orb golem
 {m}сферного голема
 %%%%
@@ -40956,6 +42123,9 @@ your ynoxinuls
 %%%%
 {acc}your orb of fire
 {f}сферу огня
+%%%%
+{acc}your orbs
+{pl}сферы
 %%%%
 {acc}your orbs of fire
 {pl}сферы огня
@@ -41005,6 +42175,12 @@ your ynoxinuls
 {acc}your orc wizards
 {pl}орков-волшебников
 %%%%
+{acc}your orcbow
+{m}орочий лук
+%%%%
+{acc}your orcbows
+{pl}орочьи луки
+%%%%
 {acc}your orcs
 {pl}орков
 %%%%
@@ -41032,8 +42208,20 @@ your ynoxinuls
 {acc}your phantom
 {m}фантома
 %%%%
+{acc}your phantom mirror
+{n}призрачное зеркало
+%%%%
+{acc}your phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {acc}your phantoms
 {pl}фантомов
+%%%%
+{acc}your phial of floods
+{m}флакон потопа
+%%%%
+{acc}your phials of floods
+{pl}флаконы потопа
 %%%%
 {acc}your plate armour
 {m}латный доспех
@@ -41424,6 +42612,12 @@ your ynoxinuls
 %%%%
 {acc}your rockslimes
 {pl}каменных слизней
+%%%%
+{acc}your sack of spiders
+{m}мешок пауков
+%%%%
+{acc}your sacks of spiders
+{pl}мешки пауков
 %%%%
 {acc}your sacred scourge
 {m}священный бич
@@ -41947,6 +43141,12 @@ your ynoxinuls
 {acc}your throwing nets
 {pl}метательные сети
 %%%%
+{acc}your tin of tremorstones
+{f}коробку сотрясающих камней
+%%%%
+{acc}your tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 {acc}your titan
 {m}титана
 %%%%
@@ -42319,6 +43519,9 @@ your ynoxinuls
 {dat_few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{dat_few}@num@ Gell's gravitambourines
+@num@ гравитационным бубнам Гелла
+%%%%
 {dat_few}@num@ Grand Grimoires
 @num@ великим гримуарам
 %%%%
@@ -42493,6 +43696,9 @@ your ynoxinuls
 {dat_few}@num@ ancient liches
 @num@ древним личам
 %%%%
+{dat_few}@num@ animal skins
+@num@ звериным шкурам
+%%%%
 {dat_few}@num@ ants
 @num@ муравьям
 %%%%
@@ -42519,6 +43725,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ bardiches
 @num@ бердышам
+%%%%
+{dat_few}@num@ bardings
+@num@ бардингам
 %%%%
 {dat_few}@num@ basilisks
 @num@ василискам
@@ -42745,6 +43954,9 @@ your ynoxinuls
 {dat_few}@num@ boulder beetles
 @num@ жукам-валунам
 %%%%
+{dat_few}@num@ boxes of beasts
+@num@ ящикам зверей
+%%%%
 {dat_few}@num@ broad axes
 @num@ широким топорам
 %%%%
@@ -42787,11 +43999,17 @@ your ynoxinuls
 {dat_few}@num@ clubs
 @num@ дубинкам
 %%%%
+{dat_few}@num@ condenser vanes
+@num@ конденсаторам облаков
+%%%%
 {dat_few}@num@ crimson imps
 @num@ багровым бесам
 %%%%
 {dat_few}@num@ crystal guardians
 @num@ кристаллическим стражам
+%%%%
+{dat_few}@num@ crystal plate armours
+@num@ кристаллическим латным доспехам
 %%%%
 {dat_few}@num@ curse skulls
 @num@ проклятым черепам
@@ -42958,6 +44176,9 @@ your ynoxinuls
 {dat_few}@num@ fenstrider witches
 @num@ болотным ведьмам
 %%%%
+{dat_few}@num@ figurines of a ziggurat
+@num@ фигуркам зиккурата
+%%%%
 {dat_few}@num@ fire dragon scales
 @num@ чешуям огненного дракона
 %%%%
@@ -43096,6 +44317,9 @@ your ynoxinuls
 {dat_few}@num@ hobgoblins
 @num@ хобгоблинам
 %%%%
+{dat_few}@num@ horns of Geryon
+@num@ рогам Гериона
+%%%%
 {dat_few}@num@ horses
 @num@ лошадям
 %%%%
@@ -43186,11 +44410,17 @@ your ynoxinuls
 {dat_few}@num@ lajatangs
 @num@ ладжатангам
 %%%%
+{dat_few}@num@ large rocks
+@num@ большим камням
+%%%%
 {dat_few}@num@ leather armours
 @num@ кожаным доспехам
 %%%%
 {dat_few}@num@ liches
 @num@ личам
+%%%%
+{dat_few}@num@ lightning rods
+@num@ жезлам молний
 %%%%
 {dat_few}@num@ long swords
 @num@ длинным мечам
@@ -43297,6 +44527,9 @@ your ynoxinuls
 {dat_few}@num@ orb golems
 @num@ сферным големам
 %%%%
+{dat_few}@num@ orbs
+@num@ сферам
+%%%%
 {dat_few}@num@ orbs of fire
 @num@ сферам огня
 %%%%
@@ -43321,6 +44554,9 @@ your ynoxinuls
 {dat_few}@num@ orc wizards
 @num@ оркам-волшебникам
 %%%%
+{dat_few}@num@ orcbows
+@num@ орочьим лукам
+%%%%
 {dat_few}@num@ orcs
 @num@ оркам
 %%%%
@@ -43336,8 +44572,14 @@ your ynoxinuls
 {dat_few}@num@ pearl dragons
 @num@ жемчужным драконам
 %%%%
+{dat_few}@num@ phantom mirrors
+@num@ призрачным зеркалам
+%%%%
 {dat_few}@num@ phantoms
 @num@ фантомам
+%%%%
+{dat_few}@num@ phials of floods
+@num@ флаконам потопа
 %%%%
 {dat_few}@num@ plate armours
 @num@ латным доспехам
@@ -43536,6 +44778,9 @@ your ynoxinuls
 %%%%
 {dat_few}@num@ rockslimes
 @num@ каменным слизням
+%%%%
+{dat_few}@num@ sacks of spiders
+@num@ мешкам пауков
 %%%%
 {dat_few}@num@ sacred scourges
 @num@ священным бичам
@@ -43807,6 +45052,9 @@ your ynoxinuls
 {dat_few}@num@ throwing nets
 @num@ метательным сетям
 %%%%
+{dat_few}@num@ tins of tremorstones
+@num@ коробкам сотрясающих камней
+%%%%
 {dat_few}@num@ titans
 @num@ титанам
 %%%%
@@ -44023,6 +45271,9 @@ your ynoxinuls
 {dat_many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{dat_many}@num@ Gell's gravitambourines
+@num@ гравитационным бубнам Гелла
+%%%%
 {dat_many}@num@ Grand Grimoires
 @num@ великим гримуарам
 %%%%
@@ -44197,6 +45448,9 @@ your ynoxinuls
 {dat_many}@num@ ancient liches
 @num@ древним личам
 %%%%
+{dat_many}@num@ animal skins
+@num@ звериным шкурам
+%%%%
 {dat_many}@num@ ants
 @num@ муравьям
 %%%%
@@ -44223,6 +45477,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ bardiches
 @num@ бердышам
+%%%%
+{dat_many}@num@ bardings
+@num@ бардингам
 %%%%
 {dat_many}@num@ basilisks
 @num@ василискам
@@ -44449,6 +45706,9 @@ your ynoxinuls
 {dat_many}@num@ boulder beetles
 @num@ жукам-валунам
 %%%%
+{dat_many}@num@ boxes of beasts
+@num@ ящикам зверей
+%%%%
 {dat_many}@num@ broad axes
 @num@ широким топорам
 %%%%
@@ -44491,11 +45751,17 @@ your ynoxinuls
 {dat_many}@num@ clubs
 @num@ дубинкам
 %%%%
+{dat_many}@num@ condenser vanes
+@num@ конденсаторам облаков
+%%%%
 {dat_many}@num@ crimson imps
 @num@ багровым бесам
 %%%%
 {dat_many}@num@ crystal guardians
 @num@ кристаллическим стражам
+%%%%
+{dat_many}@num@ crystal plate armours
+@num@ кристаллическим латным доспехам
 %%%%
 {dat_many}@num@ curse skulls
 @num@ проклятым черепам
@@ -44662,6 +45928,9 @@ your ynoxinuls
 {dat_many}@num@ fenstrider witches
 @num@ болотным ведьмам
 %%%%
+{dat_many}@num@ figurines of a ziggurat
+@num@ фигуркам зиккурата
+%%%%
 {dat_many}@num@ fire dragon scales
 @num@ чешуям огненного дракона
 %%%%
@@ -44800,6 +46069,9 @@ your ynoxinuls
 {dat_many}@num@ hobgoblins
 @num@ хобгоблинам
 %%%%
+{dat_many}@num@ horns of Geryon
+@num@ рогам Гериона
+%%%%
 {dat_many}@num@ horses
 @num@ лошадям
 %%%%
@@ -44890,11 +46162,17 @@ your ynoxinuls
 {dat_many}@num@ lajatangs
 @num@ ладжатангам
 %%%%
+{dat_many}@num@ large rocks
+@num@ большим камням
+%%%%
 {dat_many}@num@ leather armours
 @num@ кожаным доспехам
 %%%%
 {dat_many}@num@ liches
 @num@ личам
+%%%%
+{dat_many}@num@ lightning rods
+@num@ жезлам молний
 %%%%
 {dat_many}@num@ long swords
 @num@ длинным мечам
@@ -45001,6 +46279,9 @@ your ynoxinuls
 {dat_many}@num@ orb golems
 @num@ сферным големам
 %%%%
+{dat_many}@num@ orbs
+@num@ сферам
+%%%%
 {dat_many}@num@ orbs of fire
 @num@ сферам огня
 %%%%
@@ -45025,6 +46306,9 @@ your ynoxinuls
 {dat_many}@num@ orc wizards
 @num@ оркам-волшебникам
 %%%%
+{dat_many}@num@ orcbows
+@num@ орочьим лукам
+%%%%
 {dat_many}@num@ orcs
 @num@ оркам
 %%%%
@@ -45040,8 +46324,14 @@ your ynoxinuls
 {dat_many}@num@ pearl dragons
 @num@ жемчужным драконам
 %%%%
+{dat_many}@num@ phantom mirrors
+@num@ призрачным зеркалам
+%%%%
 {dat_many}@num@ phantoms
 @num@ фантомам
+%%%%
+{dat_many}@num@ phials of floods
+@num@ флаконам потопа
 %%%%
 {dat_many}@num@ plate armours
 @num@ латным доспехам
@@ -45240,6 +46530,9 @@ your ynoxinuls
 %%%%
 {dat_many}@num@ rockslimes
 @num@ каменным слизням
+%%%%
+{dat_many}@num@ sacks of spiders
+@num@ мешкам пауков
 %%%%
 {dat_many}@num@ sacred scourges
 @num@ священным бичам
@@ -45511,6 +46804,9 @@ your ynoxinuls
 {dat_many}@num@ throwing nets
 @num@ метательным сетям
 %%%%
+{dat_many}@num@ tins of tremorstones
+@num@ коробкам сотрясающих камней
+%%%%
 {dat_many}@num@ titans
 @num@ титанам
 %%%%
@@ -45727,6 +47023,9 @@ your ynoxinuls
 {dat_one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{dat_one}@num@ Gell's gravitambourines
+@num@ гравитационному бубну Гелла
+%%%%
 {dat_one}@num@ Grand Grimoires
 @num@ великому гримуару
 %%%%
@@ -45901,6 +47200,9 @@ your ynoxinuls
 {dat_one}@num@ ancient liches
 @num@ древнему личу
 %%%%
+{dat_one}@num@ animal skins
+@num@ звериной шкуре
+%%%%
 {dat_one}@num@ ants
 @num@ муравью
 %%%%
@@ -45927,6 +47229,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ bardiches
 @num@ бердышу
+%%%%
+{dat_one}@num@ bardings
+@num@ бардингу
 %%%%
 {dat_one}@num@ basilisks
 @num@ василиску
@@ -46153,6 +47458,9 @@ your ynoxinuls
 {dat_one}@num@ boulder beetles
 @num@ жуку-валуну
 %%%%
+{dat_one}@num@ boxes of beasts
+@num@ ящику зверей
+%%%%
 {dat_one}@num@ broad axes
 @num@ широкому топору
 %%%%
@@ -46195,11 +47503,17 @@ your ynoxinuls
 {dat_one}@num@ clubs
 @num@ дубинке
 %%%%
+{dat_one}@num@ condenser vanes
+@num@ конденсатору облаков
+%%%%
 {dat_one}@num@ crimson imps
 @num@ багровому бесу
 %%%%
 {dat_one}@num@ crystal guardians
 @num@ кристаллическому стражу
+%%%%
+{dat_one}@num@ crystal plate armours
+@num@ кристаллическому латному доспеху
 %%%%
 {dat_one}@num@ curse skulls
 @num@ проклятому черепу
@@ -46366,6 +47680,9 @@ your ynoxinuls
 {dat_one}@num@ fenstrider witches
 @num@ болотной ведьме
 %%%%
+{dat_one}@num@ figurines of a ziggurat
+@num@ фигурке зиккурата
+%%%%
 {dat_one}@num@ fire dragon scales
 @num@ чешуе огненного дракона
 %%%%
@@ -46504,6 +47821,9 @@ your ynoxinuls
 {dat_one}@num@ hobgoblins
 @num@ хобгоблину
 %%%%
+{dat_one}@num@ horns of Geryon
+@num@ рогу Гериона
+%%%%
 {dat_one}@num@ horses
 @num@ лошади
 %%%%
@@ -46594,11 +47914,17 @@ your ynoxinuls
 {dat_one}@num@ lajatangs
 @num@ ладжатангу
 %%%%
+{dat_one}@num@ large rocks
+@num@ большому камню
+%%%%
 {dat_one}@num@ leather armours
 @num@ кожаному доспеху
 %%%%
 {dat_one}@num@ liches
 @num@ личу
+%%%%
+{dat_one}@num@ lightning rods
+@num@ жезлу молний
 %%%%
 {dat_one}@num@ long swords
 @num@ длинному мечу
@@ -46705,6 +48031,9 @@ your ynoxinuls
 {dat_one}@num@ orb golems
 @num@ сферному голему
 %%%%
+{dat_one}@num@ orbs
+@num@ сфере
+%%%%
 {dat_one}@num@ orbs of fire
 @num@ сфере огня
 %%%%
@@ -46729,6 +48058,9 @@ your ynoxinuls
 {dat_one}@num@ orc wizards
 @num@ орку-волшебнику
 %%%%
+{dat_one}@num@ orcbows
+@num@ орочьему луку
+%%%%
 {dat_one}@num@ orcs
 @num@ орку
 %%%%
@@ -46744,8 +48076,14 @@ your ynoxinuls
 {dat_one}@num@ pearl dragons
 @num@ жемчужному дракону
 %%%%
+{dat_one}@num@ phantom mirrors
+@num@ призрачному зеркалу
+%%%%
 {dat_one}@num@ phantoms
 @num@ фантому
+%%%%
+{dat_one}@num@ phials of floods
+@num@ флакону потопа
 %%%%
 {dat_one}@num@ plate armours
 @num@ латному доспеху
@@ -46944,6 +48282,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ rockslimes
 @num@ каменному слизню
+%%%%
+{dat_one}@num@ sacks of spiders
+@num@ мешку пауков
 %%%%
 {dat_one}@num@ sacred scourges
 @num@ священному бичу
@@ -47214,6 +48555,9 @@ your ynoxinuls
 %%%%
 {dat_one}@num@ throwing nets
 @num@ метательной сети
+%%%%
+{dat_one}@num@ tins of tremorstones
+@num@ коробке сотрясающих камней
 %%%%
 {dat_one}@num@ titans
 @num@ титану
@@ -47487,6 +48831,12 @@ your ynoxinuls
 %%%%
 {dat}Franceses
 {pl}Фрэнсис
+%%%%
+{dat}Gell's gravitambourine
+{m}гравитационному бубну Гелла
+%%%%
+{dat}Gell's gravitambourines
+{pl}гравитационным бубнам Гелла
 %%%%
 {dat}Grand Grimoire
 {m}великому гримуару
@@ -47791,6 +49141,9 @@ your ynoxinuls
 {dat}a Frances
 {f}Фрэнсис
 %%%%
+{dat}a Gell's gravitambourine
+{m}гравитационному бубну Гелла
+%%%%
 {dat}a Grand Grimoire
 {m}великому гримуару
 %%%%
@@ -47965,6 +49318,9 @@ your ynoxinuls
 {dat}a ancient lich
 {m}древнему личу
 %%%%
+{dat}a animal skin
+{f}звериной шкуре
+%%%%
 {dat}a ant
 {m}муравью
 %%%%
@@ -47991,6 +49347,9 @@ your ynoxinuls
 %%%%
 {dat}a bardiche
 {m}бердышу
+%%%%
+{dat}a barding
+{m}бардингу
 %%%%
 {dat}a basilisk
 {m}василиску
@@ -48217,6 +49576,9 @@ your ynoxinuls
 {dat}a boulder beetle
 {m}жуку-валуну
 %%%%
+{dat}a box of beasts
+{m}ящику зверей
+%%%%
 {dat}a broad axe
 {m}широкому топору
 %%%%
@@ -48259,11 +49621,17 @@ your ynoxinuls
 {dat}a club
 {f}дубинке
 %%%%
+{dat}a condenser vane
+{m}конденсатору облаков
+%%%%
 {dat}a crimson imp
 {m}багровому бесу
 %%%%
 {dat}a crystal guardian
 {m}кристаллическому стражу
+%%%%
+{dat}a crystal plate armour
+{m}кристаллическому латному доспеху
 %%%%
 {dat}a curse skull
 {m}проклятому черепу
@@ -48430,6 +49798,9 @@ your ynoxinuls
 {dat}a fenstrider witch
 {f}болотной ведьме
 %%%%
+{dat}a figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
 {dat}a fire dragon
 {m}огненному дракону
 %%%%
@@ -48568,6 +49939,9 @@ your ynoxinuls
 {dat}a hobgoblin
 {m}хобгоблину
 %%%%
+{dat}a horn of Geryon
+{m}рогу Гериона
+%%%%
 {dat}a horse
 {f}лошади
 %%%%
@@ -48658,11 +50032,17 @@ your ynoxinuls
 {dat}a lajatang
 {m}ладжатангу
 %%%%
+{dat}a large rock
+{m}большому камню
+%%%%
 {dat}a leather armour
 {m}кожаному доспеху
 %%%%
 {dat}a lich
 {m}личу
+%%%%
+{dat}a lightning rod
+{m}жезлу молний
 %%%%
 {dat}a long sword
 {m}длинному мечу
@@ -48766,6 +50146,9 @@ your ynoxinuls
 {dat}a orange demon
 {m}оранжевому демону
 %%%%
+{dat}a orb
+{f}сфере
+%%%%
 {dat}a orb golem
 {m}сферному голему
 %%%%
@@ -48796,6 +50179,9 @@ your ynoxinuls
 {dat}a orc wizard
 {m}орку-волшебнику
 %%%%
+{dat}a orcbow
+{m}орочьему луку
+%%%%
 {dat}a pale draconian
 {m}бледному дракониану
 %%%%
@@ -48810,6 +50196,12 @@ your ynoxinuls
 %%%%
 {dat}a phantom
 {m}фантому
+%%%%
+{dat}a phantom mirror
+{n}призрачному зеркалу
+%%%%
+{dat}a phial of floods
+{m}флакону потопа
 %%%%
 {dat}a plate armour
 {m}латному доспеху
@@ -49008,6 +50400,9 @@ your ynoxinuls
 %%%%
 {dat}a rockslime
 {m}каменному слизню
+%%%%
+{dat}a sack of spiders
+{m}мешку пауков
 %%%%
 {dat}a sacred scourge
 {m}священному бичу
@@ -49278,6 +50673,9 @@ your ynoxinuls
 %%%%
 {dat}a throwing net
 {f}метательной сети
+%%%%
+{dat}a tin of tremorstones
+{f}коробке сотрясающих камней
 %%%%
 {dat}a titan
 {m}титану
@@ -49582,6 +50980,9 @@ your ynoxinuls
 {dat}an Frances
 {f}Фрэнсис
 %%%%
+{dat}an Gell's gravitambourine
+{m}гравитационному бубну Гелла
+%%%%
 {dat}an Grand Grimoire
 {m}великому гримуару
 %%%%
@@ -49756,6 +51157,9 @@ your ynoxinuls
 {dat}an ancient lich
 {m}древнему личу
 %%%%
+{dat}an animal skin
+{f}звериной шкуре
+%%%%
 {dat}an ant
 {m}муравью
 %%%%
@@ -49782,6 +51186,9 @@ your ynoxinuls
 %%%%
 {dat}an bardiche
 {m}бердышу
+%%%%
+{dat}an barding
+{m}бардингу
 %%%%
 {dat}an basilisk
 {m}василиску
@@ -50008,6 +51415,9 @@ your ynoxinuls
 {dat}an boulder beetle
 {m}жуку-валуну
 %%%%
+{dat}an box of beasts
+{m}ящику зверей
+%%%%
 {dat}an broad axe
 {m}широкому топору
 %%%%
@@ -50050,11 +51460,17 @@ your ynoxinuls
 {dat}an club
 {f}дубинке
 %%%%
+{dat}an condenser vane
+{m}конденсатору облаков
+%%%%
 {dat}an crimson imp
 {m}багровому бесу
 %%%%
 {dat}an crystal guardian
 {m}кристаллическому стражу
+%%%%
+{dat}an crystal plate armour
+{m}кристаллическому латному доспеху
 %%%%
 {dat}an curse skull
 {m}проклятому черепу
@@ -50221,6 +51637,9 @@ your ynoxinuls
 {dat}an fenstrider witch
 {f}болотной ведьме
 %%%%
+{dat}an figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
 {dat}an fire dragon
 {m}огненному дракону
 %%%%
@@ -50359,6 +51778,9 @@ your ynoxinuls
 {dat}an hobgoblin
 {m}хобгоблину
 %%%%
+{dat}an horn of Geryon
+{m}рогу Гериона
+%%%%
 {dat}an horse
 {f}лошади
 %%%%
@@ -50449,11 +51871,17 @@ your ynoxinuls
 {dat}an lajatang
 {m}ладжатангу
 %%%%
+{dat}an large rock
+{m}большому камню
+%%%%
 {dat}an leather armour
 {m}кожаному доспеху
 %%%%
 {dat}an lich
 {m}личу
+%%%%
+{dat}an lightning rod
+{m}жезлу молний
 %%%%
 {dat}an long sword
 {m}длинному мечу
@@ -50557,6 +51985,9 @@ your ynoxinuls
 {dat}an orange demon
 {m}оранжевому демону
 %%%%
+{dat}an orb
+{f}сфере
+%%%%
 {dat}an orb golem
 {m}сферному голему
 %%%%
@@ -50587,6 +52018,9 @@ your ynoxinuls
 {dat}an orc wizard
 {m}орку-волшебнику
 %%%%
+{dat}an orcbow
+{m}орочьему луку
+%%%%
 {dat}an pale draconian
 {m}бледному дракониану
 %%%%
@@ -50601,6 +52035,12 @@ your ynoxinuls
 %%%%
 {dat}an phantom
 {m}фантому
+%%%%
+{dat}an phantom mirror
+{n}призрачному зеркалу
+%%%%
+{dat}an phial of floods
+{m}флакону потопа
 %%%%
 {dat}an plate armour
 {m}латному доспеху
@@ -50799,6 +52239,9 @@ your ynoxinuls
 %%%%
 {dat}an rockslime
 {m}каменному слизню
+%%%%
+{dat}an sack of spiders
+{m}мешку пауков
 %%%%
 {dat}an sacred scourge
 {m}священному бичу
@@ -51070,6 +52513,9 @@ your ynoxinuls
 {dat}an throwing net
 {f}метательной сети
 %%%%
+{dat}an tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
 {dat}an titan
 {m}титану
 %%%%
@@ -51238,6 +52684,12 @@ your ynoxinuls
 {dat}ancient liches
 {pl}древним личам
 %%%%
+{dat}animal skin
+{f}звериной шкуре
+%%%%
+{dat}animal skins
+{pl}звериным шкурам
+%%%%
 {dat}ant
 {m}муравью
 %%%%
@@ -51291,6 +52743,12 @@ your ynoxinuls
 %%%%
 {dat}bardiches
 {pl}бердышам
+%%%%
+{dat}barding
+{m}бардингу
+%%%%
+{dat}bardings
+{pl}бардингам
 %%%%
 {dat}basilisk
 {m}василиску
@@ -51742,6 +53200,12 @@ your ynoxinuls
 {dat}boulder beetles
 {pl}жукам-валунам
 %%%%
+{dat}box of beasts
+{m}ящику зверей
+%%%%
+{dat}boxes of beasts
+{pl}ящикам зверей
+%%%%
 {dat}broad axe
 {m}широкому топору
 %%%%
@@ -51826,6 +53290,12 @@ your ynoxinuls
 {dat}clubs
 {pl}дубинкам
 %%%%
+{dat}condenser vane
+{m}конденсатору облаков
+%%%%
+{dat}condenser vanes
+{pl}конденсаторам облаков
+%%%%
 {dat}crimson imp
 {m}багровому бесу
 %%%%
@@ -51837,6 +53307,12 @@ your ynoxinuls
 %%%%
 {dat}crystal guardians
 {pl}кристаллическим стражам
+%%%%
+{dat}crystal plate armour
+{m}кристаллическому латному доспеху
+%%%%
+{dat}crystal plate armours
+{pl}кристаллическим латным доспехам
 %%%%
 {dat}curse skull
 {m}проклятому черепу
@@ -52162,6 +53638,12 @@ your ynoxinuls
 {dat}fenstrider witches
 {pl}болотным ведьмам
 %%%%
+{dat}figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{dat}figurines of a ziggurat
+{pl}фигуркам зиккурата
+%%%%
 {dat}fire dragon
 {m}огненному дракону
 %%%%
@@ -52432,6 +53914,12 @@ your ynoxinuls
 {dat}hobgoblins
 {pl}хобгоблинам
 %%%%
+{dat}horn of Geryon
+{m}рогу Гериона
+%%%%
+{dat}horns of Geryon
+{pl}рогам Гериона
+%%%%
 {dat}horse
 {f}лошади
 %%%%
@@ -52609,6 +54097,12 @@ your ynoxinuls
 {dat}lajatangs
 {pl}ладжатангам
 %%%%
+{dat}large rock
+{m}большому камню
+%%%%
+{dat}large rocks
+{pl}большим камням
+%%%%
 {dat}leather armour
 {m}кожаному доспеху
 %%%%
@@ -52620,6 +54114,12 @@ your ynoxinuls
 %%%%
 {dat}liches
 {pl}личам
+%%%%
+{dat}lightning rod
+{m}жезлу молний
+%%%%
+{dat}lightning rods
+{pl}жезлам молний
 %%%%
 {dat}long sword
 {m}длинному мечу
@@ -52819,6 +54319,9 @@ your ynoxinuls
 {dat}orange demons
 {pl}оранжевым демонам
 %%%%
+{dat}orb
+{f}сфере
+%%%%
 {dat}orb golem
 {m}сферному голему
 %%%%
@@ -52827,6 +54330,9 @@ your ynoxinuls
 %%%%
 {dat}orb of fire
 {f}сфере огня
+%%%%
+{dat}orbs
+{pl}сферам
 %%%%
 {dat}orbs of fire
 {pl}сферам огня
@@ -52876,6 +54382,12 @@ your ynoxinuls
 {dat}orc wizards
 {pl}оркам-волшебникам
 %%%%
+{dat}orcbow
+{m}орочьему луку
+%%%%
+{dat}orcbows
+{pl}орочьим лукам
+%%%%
 {dat}orcs
 {pl}оркам
 %%%%
@@ -52903,8 +54415,20 @@ your ynoxinuls
 {dat}phantom
 {m}фантому
 %%%%
+{dat}phantom mirror
+{n}призрачному зеркалу
+%%%%
+{dat}phantom mirrors
+{pl}призрачным зеркалам
+%%%%
 {dat}phantoms
 {pl}фантомам
+%%%%
+{dat}phial of floods
+{m}флакону потопа
+%%%%
+{dat}phials of floods
+{pl}флаконам потопа
 %%%%
 {dat}plate armour
 {m}латному доспеху
@@ -53295,6 +54819,12 @@ your ynoxinuls
 %%%%
 {dat}rockslimes
 {pl}каменным слизням
+%%%%
+{dat}sack of spiders
+{m}мешку пауков
+%%%%
+{dat}sacks of spiders
+{pl}мешкам пауков
 %%%%
 {dat}sacred scourge
 {m}священному бичу
@@ -53917,6 +55447,12 @@ your ynoxinuls
 {dat}the Franceses
 {pl}Фрэнсис
 %%%%
+{dat}the Gell's gravitambourine
+{m}гравитационному бубну Гелла
+%%%%
+{dat}the Gell's gravitambourines
+{pl}гравитационным бубнам Гелла
+%%%%
 {dat}the Grand Grimoire
 {m}великому гримуару
 %%%%
@@ -54259,6 +55795,12 @@ your ynoxinuls
 {dat}the ancient liches
 {pl}древним личам
 %%%%
+{dat}the animal skin
+{f}звериной шкуре
+%%%%
+{dat}the animal skins
+{pl}звериным шкурам
+%%%%
 {dat}the ant
 {m}муравью
 %%%%
@@ -54312,6 +55854,12 @@ your ynoxinuls
 %%%%
 {dat}the bardiches
 {pl}бердышам
+%%%%
+{dat}the barding
+{m}бардингу
+%%%%
+{dat}the bardings
+{pl}бардингам
 %%%%
 {dat}the basilisk
 {m}василиску
@@ -54763,6 +56311,12 @@ your ynoxinuls
 {dat}the boulder beetles
 {pl}жукам-валунам
 %%%%
+{dat}the box of beasts
+{m}ящику зверей
+%%%%
+{dat}the boxes of beasts
+{pl}ящикам зверей
+%%%%
 {dat}the broad axe
 {m}широкому топору
 %%%%
@@ -54847,6 +56401,12 @@ your ynoxinuls
 {dat}the clubs
 {pl}дубинкам
 %%%%
+{dat}the condenser vane
+{m}конденсатору облаков
+%%%%
+{dat}the condenser vanes
+{pl}конденсаторам облаков
+%%%%
 {dat}the crimson imp
 {m}багровому бесу
 %%%%
@@ -54858,6 +56418,12 @@ your ynoxinuls
 %%%%
 {dat}the crystal guardians
 {pl}кристаллическим стражам
+%%%%
+{dat}the crystal plate armour
+{m}кристаллическому латному доспеху
+%%%%
+{dat}the crystal plate armours
+{pl}кристаллическим латным доспехам
 %%%%
 {dat}the curse skull
 {m}проклятому черепу
@@ -55183,6 +56749,12 @@ your ynoxinuls
 {dat}the fenstrider witches
 {pl}болотным ведьмам
 %%%%
+{dat}the figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{dat}the figurines of a ziggurat
+{pl}фигуркам зиккурата
+%%%%
 {dat}the fire dragon
 {m}огненному дракону
 %%%%
@@ -55453,6 +57025,12 @@ your ynoxinuls
 {dat}the hobgoblins
 {pl}хобгоблинам
 %%%%
+{dat}the horn of Geryon
+{m}рогу Гериона
+%%%%
+{dat}the horns of Geryon
+{pl}рогам Гериона
+%%%%
 {dat}the horse
 {f}лошади
 %%%%
@@ -55630,6 +57208,12 @@ your ynoxinuls
 {dat}the lajatangs
 {pl}ладжатангам
 %%%%
+{dat}the large rock
+{m}большому камню
+%%%%
+{dat}the large rocks
+{pl}большим камням
+%%%%
 {dat}the leather armour
 {m}кожаному доспеху
 %%%%
@@ -55641,6 +57225,12 @@ your ynoxinuls
 %%%%
 {dat}the liches
 {pl}личам
+%%%%
+{dat}the lightning rod
+{m}жезлу молний
+%%%%
+{dat}the lightning rods
+{pl}жезлам молний
 %%%%
 {dat}the long sword
 {m}длинному мечу
@@ -55840,6 +57430,9 @@ your ynoxinuls
 {dat}the orange demons
 {pl}оранжевым демонам
 %%%%
+{dat}the orb
+{f}сфере
+%%%%
 {dat}the orb golem
 {m}сферному голему
 %%%%
@@ -55848,6 +57441,9 @@ your ynoxinuls
 %%%%
 {dat}the orb of fire
 {f}сфере огня
+%%%%
+{dat}the orbs
+{pl}сферам
 %%%%
 {dat}the orbs of fire
 {pl}сферам огня
@@ -55897,6 +57493,12 @@ your ynoxinuls
 {dat}the orc wizards
 {pl}оркам-волшебникам
 %%%%
+{dat}the orcbow
+{m}орочьему луку
+%%%%
+{dat}the orcbows
+{pl}орочьим лукам
+%%%%
 {dat}the orcs
 {pl}оркам
 %%%%
@@ -55924,8 +57526,20 @@ your ynoxinuls
 {dat}the phantom
 {m}фантому
 %%%%
+{dat}the phantom mirror
+{n}призрачному зеркалу
+%%%%
+{dat}the phantom mirrors
+{pl}призрачным зеркалам
+%%%%
 {dat}the phantoms
 {pl}фантомам
+%%%%
+{dat}the phial of floods
+{m}флакону потопа
+%%%%
+{dat}the phials of floods
+{pl}флаконам потопа
 %%%%
 {dat}the plate armour
 {m}латному доспеху
@@ -56316,6 +57930,12 @@ your ynoxinuls
 %%%%
 {dat}the rockslimes
 {pl}каменным слизням
+%%%%
+{dat}the sack of spiders
+{m}мешку пауков
+%%%%
+{dat}the sacks of spiders
+{pl}мешкам пауков
 %%%%
 {dat}the sacred scourge
 {m}священному бичу
@@ -56839,6 +58459,12 @@ your ynoxinuls
 {dat}the throwing nets
 {pl}метательным сетям
 %%%%
+{dat}the tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{dat}the tins of tremorstones
+{pl}коробкам сотрясающих камней
+%%%%
 {dat}the titan
 {m}титану
 %%%%
@@ -57168,6 +58794,12 @@ your ynoxinuls
 %%%%
 {dat}throwing nets
 {pl}метательным сетям
+%%%%
+{dat}tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{dat}tins of tremorstones
+{pl}коробкам сотрясающих камней
 %%%%
 {dat}titan
 {m}титану
@@ -57598,6 +59230,12 @@ your ynoxinuls
 {dat}your Franceses
 {pl}Фрэнсис
 %%%%
+{dat}your Gell's gravitambourine
+{m}гравитационному бубну Гелла
+%%%%
+{dat}your Gell's gravitambourines
+{pl}гравитационным бубнам Гелла
+%%%%
 {dat}your Grand Grimoire
 {m}великому гримуару
 %%%%
@@ -57940,6 +59578,12 @@ your ynoxinuls
 {dat}your ancient liches
 {pl}древним личам
 %%%%
+{dat}your animal skin
+{f}звериной шкуре
+%%%%
+{dat}your animal skins
+{pl}звериным шкурам
+%%%%
 {dat}your ant
 {m}муравью
 %%%%
@@ -57993,6 +59637,12 @@ your ynoxinuls
 %%%%
 {dat}your bardiches
 {pl}бердышам
+%%%%
+{dat}your barding
+{m}бардингу
+%%%%
+{dat}your bardings
+{pl}бардингам
 %%%%
 {dat}your basilisk
 {m}василиску
@@ -58444,6 +60094,12 @@ your ynoxinuls
 {dat}your boulder beetles
 {pl}жукам-валунам
 %%%%
+{dat}your box of beasts
+{m}ящику зверей
+%%%%
+{dat}your boxes of beasts
+{pl}ящикам зверей
+%%%%
 {dat}your broad axe
 {m}широкому топору
 %%%%
@@ -58528,6 +60184,12 @@ your ynoxinuls
 {dat}your clubs
 {pl}дубинкам
 %%%%
+{dat}your condenser vane
+{m}конденсатору облаков
+%%%%
+{dat}your condenser vanes
+{pl}конденсаторам облаков
+%%%%
 {dat}your crimson imp
 {m}багровому бесу
 %%%%
@@ -58539,6 +60201,12 @@ your ynoxinuls
 %%%%
 {dat}your crystal guardians
 {pl}кристаллическим стражам
+%%%%
+{dat}your crystal plate armour
+{m}кристаллическому латному доспеху
+%%%%
+{dat}your crystal plate armours
+{pl}кристаллическим латным доспехам
 %%%%
 {dat}your curse skull
 {m}проклятому черепу
@@ -58864,6 +60532,12 @@ your ynoxinuls
 {dat}your fenstrider witches
 {pl}болотным ведьмам
 %%%%
+{dat}your figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{dat}your figurines of a ziggurat
+{pl}фигуркам зиккурата
+%%%%
 {dat}your fire dragon
 {m}огненному дракону
 %%%%
@@ -59134,6 +60808,12 @@ your ynoxinuls
 {dat}your hobgoblins
 {pl}хобгоблинам
 %%%%
+{dat}your horn of Geryon
+{m}рогу Гериона
+%%%%
+{dat}your horns of Geryon
+{pl}рогам Гериона
+%%%%
 {dat}your horse
 {f}лошади
 %%%%
@@ -59311,6 +60991,12 @@ your ynoxinuls
 {dat}your lajatangs
 {pl}ладжатангам
 %%%%
+{dat}your large rock
+{m}большому камню
+%%%%
+{dat}your large rocks
+{pl}большим камням
+%%%%
 {dat}your leather armour
 {m}кожаному доспеху
 %%%%
@@ -59322,6 +61008,12 @@ your ynoxinuls
 %%%%
 {dat}your liches
 {pl}личам
+%%%%
+{dat}your lightning rod
+{m}жезлу молний
+%%%%
+{dat}your lightning rods
+{pl}жезлам молний
 %%%%
 {dat}your long sword
 {m}длинному мечу
@@ -59521,6 +61213,9 @@ your ynoxinuls
 {dat}your orange demons
 {pl}оранжевым демонам
 %%%%
+{dat}your orb
+{f}сфере
+%%%%
 {dat}your orb golem
 {m}сферному голему
 %%%%
@@ -59529,6 +61224,9 @@ your ynoxinuls
 %%%%
 {dat}your orb of fire
 {f}сфере огня
+%%%%
+{dat}your orbs
+{pl}сферам
 %%%%
 {dat}your orbs of fire
 {pl}сферам огня
@@ -59578,6 +61276,12 @@ your ynoxinuls
 {dat}your orc wizards
 {pl}оркам-волшебникам
 %%%%
+{dat}your orcbow
+{m}орочьему луку
+%%%%
+{dat}your orcbows
+{pl}орочьим лукам
+%%%%
 {dat}your orcs
 {pl}оркам
 %%%%
@@ -59605,8 +61309,20 @@ your ynoxinuls
 {dat}your phantom
 {m}фантому
 %%%%
+{dat}your phantom mirror
+{n}призрачному зеркалу
+%%%%
+{dat}your phantom mirrors
+{pl}призрачным зеркалам
+%%%%
 {dat}your phantoms
 {pl}фантомам
+%%%%
+{dat}your phial of floods
+{m}флакону потопа
+%%%%
+{dat}your phials of floods
+{pl}флаконам потопа
 %%%%
 {dat}your plate armour
 {m}латному доспеху
@@ -59997,6 +61713,12 @@ your ynoxinuls
 %%%%
 {dat}your rockslimes
 {pl}каменным слизням
+%%%%
+{dat}your sack of spiders
+{m}мешку пауков
+%%%%
+{dat}your sacks of spiders
+{pl}мешкам пауков
 %%%%
 {dat}your sacred scourge
 {m}священному бичу
@@ -60520,6 +62242,12 @@ your ynoxinuls
 {dat}your throwing nets
 {pl}метательным сетям
 %%%%
+{dat}your tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{dat}your tins of tremorstones
+{pl}коробкам сотрясающих камней
+%%%%
 {dat}your titan
 {m}титану
 %%%%
@@ -60892,6 +62620,9 @@ your ynoxinuls
 {few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{few}@num@ Gell's gravitambourines
+@num@ гравитационного бубна Гелла
+%%%%
 {few}@num@ Grand Grimoires
 @num@ великих гримуара
 %%%%
@@ -61066,6 +62797,9 @@ your ynoxinuls
 {few}@num@ ancient liches
 @num@ древних лича
 %%%%
+{few}@num@ animal skins
+@num@ звериные шкуры
+%%%%
 {few}@num@ ants
 @num@ муравья
 %%%%
@@ -61092,6 +62826,9 @@ your ynoxinuls
 %%%%
 {few}@num@ bardiches
 @num@ бердыша
+%%%%
+{few}@num@ bardings
+@num@ бардинга
 %%%%
 {few}@num@ basilisks
 @num@ василиска
@@ -61318,6 +63055,9 @@ your ynoxinuls
 {few}@num@ boulder beetles
 @num@ жука-валуна
 %%%%
+{few}@num@ boxes of beasts
+@num@ ящика зверей
+%%%%
 {few}@num@ broad axes
 @num@ широких топора
 %%%%
@@ -61360,11 +63100,17 @@ your ynoxinuls
 {few}@num@ clubs
 @num@ дубинки
 %%%%
+{few}@num@ condenser vanes
+@num@ конденсатора облаков
+%%%%
 {few}@num@ crimson imps
 @num@ багровых беса
 %%%%
 {few}@num@ crystal guardians
 @num@ кристаллических стража
+%%%%
+{few}@num@ crystal plate armours
+@num@ кристаллического латного доспеха
 %%%%
 {few}@num@ curse skulls
 @num@ проклятых черепа
@@ -61531,6 +63277,9 @@ your ynoxinuls
 {few}@num@ fenstrider witches
 @num@ болотные ведьмы
 %%%%
+{few}@num@ figurines of a ziggurat
+@num@ фигурки зиккурата
+%%%%
 {few}@num@ fire dragon scales
 @num@ чешуи огненного дракона
 %%%%
@@ -61669,6 +63418,9 @@ your ynoxinuls
 {few}@num@ hobgoblins
 @num@ хобгоблина
 %%%%
+{few}@num@ horns of Geryon
+@num@ рога Гериона
+%%%%
 {few}@num@ horses
 @num@ лошади
 %%%%
@@ -61759,11 +63511,17 @@ your ynoxinuls
 {few}@num@ lajatangs
 @num@ ладжатанга
 %%%%
+{few}@num@ large rocks
+@num@ большого камня
+%%%%
 {few}@num@ leather armours
 @num@ кожаных доспеха
 %%%%
 {few}@num@ liches
 @num@ лича
+%%%%
+{few}@num@ lightning rods
+@num@ жезла молний
 %%%%
 {few}@num@ long swords
 @num@ длинных меча
@@ -61870,6 +63628,9 @@ your ynoxinuls
 {few}@num@ orb golems
 @num@ сферных голема
 %%%%
+{few}@num@ orbs
+@num@ сферы
+%%%%
 {few}@num@ orbs of fire
 @num@ сферы огня
 %%%%
@@ -61894,6 +63655,9 @@ your ynoxinuls
 {few}@num@ orc wizards
 @num@ орка-волшебника
 %%%%
+{few}@num@ orcbows
+@num@ орочьего лука
+%%%%
 {few}@num@ orcs
 @num@ орка
 %%%%
@@ -61909,8 +63673,14 @@ your ynoxinuls
 {few}@num@ pearl dragons
 @num@ жемчужных дракона
 %%%%
+{few}@num@ phantom mirrors
+@num@ призрачного зеркала
+%%%%
 {few}@num@ phantoms
 @num@ фантома
+%%%%
+{few}@num@ phials of floods
+@num@ флакона потопа
 %%%%
 {few}@num@ plate armours
 @num@ латных доспеха
@@ -62109,6 +63879,9 @@ your ynoxinuls
 %%%%
 {few}@num@ rockslimes
 @num@ каменных слизня
+%%%%
+{few}@num@ sacks of spiders
+@num@ мешка пауков
 %%%%
 {few}@num@ sacred scourges
 @num@ священных бича
@@ -62380,6 +64153,9 @@ your ynoxinuls
 {few}@num@ throwing nets
 @num@ метательные сети
 %%%%
+{few}@num@ tins of tremorstones
+@num@ коробки сотрясающих камней
+%%%%
 {few}@num@ titans
 @num@ титана
 %%%%
@@ -62596,6 +64372,9 @@ your ynoxinuls
 {gen_few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{gen_few}@num@ Gell's gravitambourines
+@num@ гравитационных бубнов Гелла
+%%%%
 {gen_few}@num@ Grand Grimoires
 @num@ великих гримуаров
 %%%%
@@ -62770,6 +64549,9 @@ your ynoxinuls
 {gen_few}@num@ ancient liches
 @num@ древних личей
 %%%%
+{gen_few}@num@ animal skins
+@num@ звериных шкур
+%%%%
 {gen_few}@num@ ants
 @num@ муравьёв
 %%%%
@@ -62796,6 +64578,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ bardiches
 @num@ бердышей
+%%%%
+{gen_few}@num@ bardings
+@num@ бардингов
 %%%%
 {gen_few}@num@ basilisks
 @num@ василисков
@@ -63022,6 +64807,9 @@ your ynoxinuls
 {gen_few}@num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+{gen_few}@num@ boxes of beasts
+@num@ ящиков зверей
+%%%%
 {gen_few}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -63064,11 +64852,17 @@ your ynoxinuls
 {gen_few}@num@ clubs
 @num@ дубинок
 %%%%
+{gen_few}@num@ condenser vanes
+@num@ конденсаторов облаков
+%%%%
 {gen_few}@num@ crimson imps
 @num@ багровых бесов
 %%%%
 {gen_few}@num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+{gen_few}@num@ crystal plate armours
+@num@ кристаллических латных доспехов
 %%%%
 {gen_few}@num@ curse skulls
 @num@ проклятых черепов
@@ -63235,6 +65029,9 @@ your ynoxinuls
 {gen_few}@num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+{gen_few}@num@ figurines of a ziggurat
+@num@ фигурок зиккурата
+%%%%
 {gen_few}@num@ fire dragon scales
 @num@ чешуй огненного дракона
 %%%%
@@ -63373,6 +65170,9 @@ your ynoxinuls
 {gen_few}@num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+{gen_few}@num@ horns of Geryon
+@num@ рогов Гериона
+%%%%
 {gen_few}@num@ horses
 @num@ лошадей
 %%%%
@@ -63463,11 +65263,17 @@ your ynoxinuls
 {gen_few}@num@ lajatangs
 @num@ ладжатангов
 %%%%
+{gen_few}@num@ large rocks
+@num@ больших камней
+%%%%
 {gen_few}@num@ leather armours
 @num@ кожаных доспехов
 %%%%
 {gen_few}@num@ liches
 @num@ личей
+%%%%
+{gen_few}@num@ lightning rods
+@num@ жезлов молний
 %%%%
 {gen_few}@num@ long swords
 @num@ длинных мечей
@@ -63574,6 +65380,9 @@ your ynoxinuls
 {gen_few}@num@ orb golems
 @num@ сферных големов
 %%%%
+{gen_few}@num@ orbs
+@num@ сфер
+%%%%
 {gen_few}@num@ orbs of fire
 @num@ сфер огня
 %%%%
@@ -63598,6 +65407,9 @@ your ynoxinuls
 {gen_few}@num@ orc wizards
 @num@ орков-волшебников
 %%%%
+{gen_few}@num@ orcbows
+@num@ орочьих луков
+%%%%
 {gen_few}@num@ orcs
 @num@ орков
 %%%%
@@ -63613,8 +65425,14 @@ your ynoxinuls
 {gen_few}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+{gen_few}@num@ phantom mirrors
+@num@ призрачных зеркал
+%%%%
 {gen_few}@num@ phantoms
 @num@ фантомов
+%%%%
+{gen_few}@num@ phials of floods
+@num@ флаконов потопа
 %%%%
 {gen_few}@num@ plate armours
 @num@ латных доспехов
@@ -63813,6 +65631,9 @@ your ynoxinuls
 %%%%
 {gen_few}@num@ rockslimes
 @num@ каменных слизней
+%%%%
+{gen_few}@num@ sacks of spiders
+@num@ мешков пауков
 %%%%
 {gen_few}@num@ sacred scourges
 @num@ священных бичей
@@ -64084,6 +65905,9 @@ your ynoxinuls
 {gen_few}@num@ throwing nets
 @num@ метательных сетей
 %%%%
+{gen_few}@num@ tins of tremorstones
+@num@ коробок сотрясающих камней
+%%%%
 {gen_few}@num@ titans
 @num@ титанов
 %%%%
@@ -64300,6 +66124,9 @@ your ynoxinuls
 {gen_many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{gen_many}@num@ Gell's gravitambourines
+@num@ гравитационных бубнов Гелла
+%%%%
 {gen_many}@num@ Grand Grimoires
 @num@ великих гримуаров
 %%%%
@@ -64474,6 +66301,9 @@ your ynoxinuls
 {gen_many}@num@ ancient liches
 @num@ древних личей
 %%%%
+{gen_many}@num@ animal skins
+@num@ звериных шкур
+%%%%
 {gen_many}@num@ ants
 @num@ муравьёв
 %%%%
@@ -64500,6 +66330,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ bardiches
 @num@ бердышей
+%%%%
+{gen_many}@num@ bardings
+@num@ бардингов
 %%%%
 {gen_many}@num@ basilisks
 @num@ василисков
@@ -64726,6 +66559,9 @@ your ynoxinuls
 {gen_many}@num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+{gen_many}@num@ boxes of beasts
+@num@ ящиков зверей
+%%%%
 {gen_many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -64768,11 +66604,17 @@ your ynoxinuls
 {gen_many}@num@ clubs
 @num@ дубинок
 %%%%
+{gen_many}@num@ condenser vanes
+@num@ конденсаторов облаков
+%%%%
 {gen_many}@num@ crimson imps
 @num@ багровых бесов
 %%%%
 {gen_many}@num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+{gen_many}@num@ crystal plate armours
+@num@ кристаллических латных доспехов
 %%%%
 {gen_many}@num@ curse skulls
 @num@ проклятых черепов
@@ -64939,6 +66781,9 @@ your ynoxinuls
 {gen_many}@num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+{gen_many}@num@ figurines of a ziggurat
+@num@ фигурок зиккурата
+%%%%
 {gen_many}@num@ fire dragon scales
 @num@ чешуй огненного дракона
 %%%%
@@ -65077,6 +66922,9 @@ your ynoxinuls
 {gen_many}@num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+{gen_many}@num@ horns of Geryon
+@num@ рогов Гериона
+%%%%
 {gen_many}@num@ horses
 @num@ лошадей
 %%%%
@@ -65167,11 +67015,17 @@ your ynoxinuls
 {gen_many}@num@ lajatangs
 @num@ ладжатангов
 %%%%
+{gen_many}@num@ large rocks
+@num@ больших камней
+%%%%
 {gen_many}@num@ leather armours
 @num@ кожаных доспехов
 %%%%
 {gen_many}@num@ liches
 @num@ личей
+%%%%
+{gen_many}@num@ lightning rods
+@num@ жезлов молний
 %%%%
 {gen_many}@num@ long swords
 @num@ длинных мечей
@@ -65278,6 +67132,9 @@ your ynoxinuls
 {gen_many}@num@ orb golems
 @num@ сферных големов
 %%%%
+{gen_many}@num@ orbs
+@num@ сфер
+%%%%
 {gen_many}@num@ orbs of fire
 @num@ сфер огня
 %%%%
@@ -65302,6 +67159,9 @@ your ynoxinuls
 {gen_many}@num@ orc wizards
 @num@ орков-волшебников
 %%%%
+{gen_many}@num@ orcbows
+@num@ орочьих луков
+%%%%
 {gen_many}@num@ orcs
 @num@ орков
 %%%%
@@ -65317,8 +67177,14 @@ your ynoxinuls
 {gen_many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+{gen_many}@num@ phantom mirrors
+@num@ призрачных зеркал
+%%%%
 {gen_many}@num@ phantoms
 @num@ фантомов
+%%%%
+{gen_many}@num@ phials of floods
+@num@ флаконов потопа
 %%%%
 {gen_many}@num@ plate armours
 @num@ латных доспехов
@@ -65517,6 +67383,9 @@ your ynoxinuls
 %%%%
 {gen_many}@num@ rockslimes
 @num@ каменных слизней
+%%%%
+{gen_many}@num@ sacks of spiders
+@num@ мешков пауков
 %%%%
 {gen_many}@num@ sacred scourges
 @num@ священных бичей
@@ -65788,6 +67657,9 @@ your ynoxinuls
 {gen_many}@num@ throwing nets
 @num@ метательных сетей
 %%%%
+{gen_many}@num@ tins of tremorstones
+@num@ коробок сотрясающих камней
+%%%%
 {gen_many}@num@ titans
 @num@ титанов
 %%%%
@@ -66004,6 +67876,9 @@ your ynoxinuls
 {gen_one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{gen_one}@num@ Gell's gravitambourines
+@num@ гравитационного бубна Гелла
+%%%%
 {gen_one}@num@ Grand Grimoires
 @num@ великого гримуара
 %%%%
@@ -66178,6 +68053,9 @@ your ynoxinuls
 {gen_one}@num@ ancient liches
 @num@ древнего лича
 %%%%
+{gen_one}@num@ animal skins
+@num@ звериной шкуры
+%%%%
 {gen_one}@num@ ants
 @num@ муравья
 %%%%
@@ -66204,6 +68082,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ bardiches
 @num@ бердыша
+%%%%
+{gen_one}@num@ bardings
+@num@ бардинга
 %%%%
 {gen_one}@num@ basilisks
 @num@ василиска
@@ -66430,6 +68311,9 @@ your ynoxinuls
 {gen_one}@num@ boulder beetles
 @num@ жука-валуна
 %%%%
+{gen_one}@num@ boxes of beasts
+@num@ ящика зверей
+%%%%
 {gen_one}@num@ broad axes
 @num@ широкого топора
 %%%%
@@ -66472,11 +68356,17 @@ your ynoxinuls
 {gen_one}@num@ clubs
 @num@ дубинки
 %%%%
+{gen_one}@num@ condenser vanes
+@num@ конденсатора облаков
+%%%%
 {gen_one}@num@ crimson imps
 @num@ багрового беса
 %%%%
 {gen_one}@num@ crystal guardians
 @num@ кристаллического стража
+%%%%
+{gen_one}@num@ crystal plate armours
+@num@ кристаллического латного доспеха
 %%%%
 {gen_one}@num@ curse skulls
 @num@ проклятого черепа
@@ -66643,6 +68533,9 @@ your ynoxinuls
 {gen_one}@num@ fenstrider witches
 @num@ болотной ведьмы
 %%%%
+{gen_one}@num@ figurines of a ziggurat
+@num@ фигурки зиккурата
+%%%%
 {gen_one}@num@ fire dragon scales
 @num@ чешуи огненного дракона
 %%%%
@@ -66781,6 +68674,9 @@ your ynoxinuls
 {gen_one}@num@ hobgoblins
 @num@ хобгоблина
 %%%%
+{gen_one}@num@ horns of Geryon
+@num@ рога Гериона
+%%%%
 {gen_one}@num@ horses
 @num@ лошади
 %%%%
@@ -66871,11 +68767,17 @@ your ynoxinuls
 {gen_one}@num@ lajatangs
 @num@ ладжатанга
 %%%%
+{gen_one}@num@ large rocks
+@num@ большого камня
+%%%%
 {gen_one}@num@ leather armours
 @num@ кожаного доспеха
 %%%%
 {gen_one}@num@ liches
 @num@ лича
+%%%%
+{gen_one}@num@ lightning rods
+@num@ жезла молний
 %%%%
 {gen_one}@num@ long swords
 @num@ длинного меча
@@ -66982,6 +68884,9 @@ your ynoxinuls
 {gen_one}@num@ orb golems
 @num@ сферного голема
 %%%%
+{gen_one}@num@ orbs
+@num@ сферы
+%%%%
 {gen_one}@num@ orbs of fire
 @num@ сферы огня
 %%%%
@@ -67006,6 +68911,9 @@ your ynoxinuls
 {gen_one}@num@ orc wizards
 @num@ орка-волшебника
 %%%%
+{gen_one}@num@ orcbows
+@num@ орочьего лука
+%%%%
 {gen_one}@num@ orcs
 @num@ орка
 %%%%
@@ -67021,8 +68929,14 @@ your ynoxinuls
 {gen_one}@num@ pearl dragons
 @num@ жемчужного дракона
 %%%%
+{gen_one}@num@ phantom mirrors
+@num@ призрачного зеркала
+%%%%
 {gen_one}@num@ phantoms
 @num@ фантома
+%%%%
+{gen_one}@num@ phials of floods
+@num@ флакона потопа
 %%%%
 {gen_one}@num@ plate armours
 @num@ латного доспеха
@@ -67221,6 +69135,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ rockslimes
 @num@ каменного слизня
+%%%%
+{gen_one}@num@ sacks of spiders
+@num@ мешка пауков
 %%%%
 {gen_one}@num@ sacred scourges
 @num@ священного бича
@@ -67491,6 +69408,9 @@ your ynoxinuls
 %%%%
 {gen_one}@num@ throwing nets
 @num@ метательной сети
+%%%%
+{gen_one}@num@ tins of tremorstones
+@num@ коробки сотрясающих камней
 %%%%
 {gen_one}@num@ titans
 @num@ титана
@@ -67764,6 +69684,12 @@ your ynoxinuls
 %%%%
 {gen}Franceses
 {pl}Фрэнсис
+%%%%
+{gen}Gell's gravitambourine
+{m}гравитационного бубна Гелла
+%%%%
+{gen}Gell's gravitambourines
+{pl}гравитационных бубнов Гелла
 %%%%
 {gen}Grand Grimoire
 {m}великого гримуара
@@ -68068,6 +69994,9 @@ your ynoxinuls
 {gen}a Frances
 {f}Фрэнсис
 %%%%
+{gen}a Gell's gravitambourine
+{m}гравитационного бубна Гелла
+%%%%
 {gen}a Grand Grimoire
 {m}великого гримуара
 %%%%
@@ -68242,6 +70171,9 @@ your ynoxinuls
 {gen}a ancient lich
 {m}древнего лича
 %%%%
+{gen}a animal skin
+{f}звериной шкуры
+%%%%
 {gen}a ant
 {m}муравья
 %%%%
@@ -68268,6 +70200,9 @@ your ynoxinuls
 %%%%
 {gen}a bardiche
 {m}бердыша
+%%%%
+{gen}a barding
+{m}бардинга
 %%%%
 {gen}a basilisk
 {m}василиска
@@ -68494,6 +70429,9 @@ your ynoxinuls
 {gen}a boulder beetle
 {m}жука-валуна
 %%%%
+{gen}a box of beasts
+{m}ящика зверей
+%%%%
 {gen}a broad axe
 {m}широкого топора
 %%%%
@@ -68536,11 +70474,17 @@ your ynoxinuls
 {gen}a club
 {f}дубинки
 %%%%
+{gen}a condenser vane
+{m}конденсатора облаков
+%%%%
 {gen}a crimson imp
 {m}багрового беса
 %%%%
 {gen}a crystal guardian
 {m}кристаллического стража
+%%%%
+{gen}a crystal plate armour
+{m}кристаллического латного доспеха
 %%%%
 {gen}a curse skull
 {m}проклятого черепа
@@ -68707,6 +70651,9 @@ your ynoxinuls
 {gen}a fenstrider witch
 {f}болотной ведьмы
 %%%%
+{gen}a figurine of a ziggurat
+{f}фигурки зиккурата
+%%%%
 {gen}a fire dragon
 {m}огненного дракона
 %%%%
@@ -68845,6 +70792,9 @@ your ynoxinuls
 {gen}a hobgoblin
 {m}хобгоблина
 %%%%
+{gen}a horn of Geryon
+{m}рога Гериона
+%%%%
 {gen}a horse
 {f}лошади
 %%%%
@@ -68935,11 +70885,17 @@ your ynoxinuls
 {gen}a lajatang
 {m}ладжатанга
 %%%%
+{gen}a large rock
+{m}большого камня
+%%%%
 {gen}a leather armour
 {m}кожаного доспеха
 %%%%
 {gen}a lich
 {m}лича
+%%%%
+{gen}a lightning rod
+{m}жезла молний
 %%%%
 {gen}a long sword
 {m}длинного меча
@@ -69043,6 +70999,9 @@ your ynoxinuls
 {gen}a orange demon
 {m}оранжевого демона
 %%%%
+{gen}a orb
+{f}сферы
+%%%%
 {gen}a orb golem
 {m}сферного голема
 %%%%
@@ -69073,6 +71032,9 @@ your ynoxinuls
 {gen}a orc wizard
 {m}орка-волшебника
 %%%%
+{gen}a orcbow
+{m}орочьего лука
+%%%%
 {gen}a pale draconian
 {m}бледного дракониана
 %%%%
@@ -69087,6 +71049,12 @@ your ynoxinuls
 %%%%
 {gen}a phantom
 {m}фантома
+%%%%
+{gen}a phantom mirror
+{n}призрачного зеркала
+%%%%
+{gen}a phial of floods
+{m}флакона потопа
 %%%%
 {gen}a plate armour
 {m}латного доспеха
@@ -69285,6 +71253,9 @@ your ynoxinuls
 %%%%
 {gen}a rockslime
 {m}каменного слизня
+%%%%
+{gen}a sack of spiders
+{m}мешка пауков
 %%%%
 {gen}a sacred scourge
 {m}священного бича
@@ -69555,6 +71526,9 @@ your ynoxinuls
 %%%%
 {gen}a throwing net
 {f}метательной сети
+%%%%
+{gen}a tin of tremorstones
+{f}коробки сотрясающих камней
 %%%%
 {gen}a titan
 {m}титана
@@ -69859,6 +71833,9 @@ your ynoxinuls
 {gen}an Frances
 {f}Фрэнсис
 %%%%
+{gen}an Gell's gravitambourine
+{m}гравитационного бубна Гелла
+%%%%
 {gen}an Grand Grimoire
 {m}великого гримуара
 %%%%
@@ -70033,6 +72010,9 @@ your ynoxinuls
 {gen}an ancient lich
 {m}древнего лича
 %%%%
+{gen}an animal skin
+{f}звериной шкуры
+%%%%
 {gen}an ant
 {m}муравья
 %%%%
@@ -70059,6 +72039,9 @@ your ynoxinuls
 %%%%
 {gen}an bardiche
 {m}бердыша
+%%%%
+{gen}an barding
+{m}бардинга
 %%%%
 {gen}an basilisk
 {m}василиска
@@ -70285,6 +72268,9 @@ your ynoxinuls
 {gen}an boulder beetle
 {m}жука-валуна
 %%%%
+{gen}an box of beasts
+{m}ящика зверей
+%%%%
 {gen}an broad axe
 {m}широкого топора
 %%%%
@@ -70327,11 +72313,17 @@ your ynoxinuls
 {gen}an club
 {f}дубинки
 %%%%
+{gen}an condenser vane
+{m}конденсатора облаков
+%%%%
 {gen}an crimson imp
 {m}багрового беса
 %%%%
 {gen}an crystal guardian
 {m}кристаллического стража
+%%%%
+{gen}an crystal plate armour
+{m}кристаллического латного доспеха
 %%%%
 {gen}an curse skull
 {m}проклятого черепа
@@ -70498,6 +72490,9 @@ your ynoxinuls
 {gen}an fenstrider witch
 {f}болотной ведьмы
 %%%%
+{gen}an figurine of a ziggurat
+{f}фигурки зиккурата
+%%%%
 {gen}an fire dragon
 {m}огненного дракона
 %%%%
@@ -70636,6 +72631,9 @@ your ynoxinuls
 {gen}an hobgoblin
 {m}хобгоблина
 %%%%
+{gen}an horn of Geryon
+{m}рога Гериона
+%%%%
 {gen}an horse
 {f}лошади
 %%%%
@@ -70726,11 +72724,17 @@ your ynoxinuls
 {gen}an lajatang
 {m}ладжатанга
 %%%%
+{gen}an large rock
+{m}большого камня
+%%%%
 {gen}an leather armour
 {m}кожаного доспеха
 %%%%
 {gen}an lich
 {m}лича
+%%%%
+{gen}an lightning rod
+{m}жезла молний
 %%%%
 {gen}an long sword
 {m}длинного меча
@@ -70834,6 +72838,9 @@ your ynoxinuls
 {gen}an orange demon
 {m}оранжевого демона
 %%%%
+{gen}an orb
+{f}сферы
+%%%%
 {gen}an orb golem
 {m}сферного голема
 %%%%
@@ -70864,6 +72871,9 @@ your ynoxinuls
 {gen}an orc wizard
 {m}орка-волшебника
 %%%%
+{gen}an orcbow
+{m}орочьего лука
+%%%%
 {gen}an pale draconian
 {m}бледного дракониана
 %%%%
@@ -70878,6 +72888,12 @@ your ynoxinuls
 %%%%
 {gen}an phantom
 {m}фантома
+%%%%
+{gen}an phantom mirror
+{n}призрачного зеркала
+%%%%
+{gen}an phial of floods
+{m}флакона потопа
 %%%%
 {gen}an plate armour
 {m}латного доспеха
@@ -71076,6 +73092,9 @@ your ynoxinuls
 %%%%
 {gen}an rockslime
 {m}каменного слизня
+%%%%
+{gen}an sack of spiders
+{m}мешка пауков
 %%%%
 {gen}an sacred scourge
 {m}священного бича
@@ -71347,6 +73366,9 @@ your ynoxinuls
 {gen}an throwing net
 {f}метательной сети
 %%%%
+{gen}an tin of tremorstones
+{f}коробки сотрясающих камней
+%%%%
 {gen}an titan
 {m}титана
 %%%%
@@ -71515,6 +73537,12 @@ your ynoxinuls
 {gen}ancient liches
 {pl}древних личей
 %%%%
+{gen}animal skin
+{f}звериной шкуры
+%%%%
+{gen}animal skins
+{pl}звериных шкур
+%%%%
 {gen}ant
 {m}муравья
 %%%%
@@ -71568,6 +73596,12 @@ your ynoxinuls
 %%%%
 {gen}bardiches
 {pl}бердышей
+%%%%
+{gen}barding
+{m}бардинга
+%%%%
+{gen}bardings
+{pl}бардингов
 %%%%
 {gen}basilisk
 {m}василиска
@@ -72019,6 +74053,12 @@ your ynoxinuls
 {gen}boulder beetles
 {pl}жуков-валунов
 %%%%
+{gen}box of beasts
+{m}ящика зверей
+%%%%
+{gen}boxes of beasts
+{pl}ящиков зверей
+%%%%
 {gen}broad axe
 {m}широкого топора
 %%%%
@@ -72103,6 +74143,12 @@ your ynoxinuls
 {gen}clubs
 {pl}дубинок
 %%%%
+{gen}condenser vane
+{m}конденсатора облаков
+%%%%
+{gen}condenser vanes
+{pl}конденсаторов облаков
+%%%%
 {gen}crimson imp
 {m}багрового беса
 %%%%
@@ -72114,6 +74160,12 @@ your ynoxinuls
 %%%%
 {gen}crystal guardians
 {pl}кристаллических стражей
+%%%%
+{gen}crystal plate armour
+{m}кристаллического латного доспеха
+%%%%
+{gen}crystal plate armours
+{pl}кристаллических латных доспехов
 %%%%
 {gen}curse skull
 {m}проклятого черепа
@@ -72439,6 +74491,12 @@ your ynoxinuls
 {gen}fenstrider witches
 {pl}болотных ведьм
 %%%%
+{gen}figurine of a ziggurat
+{f}фигурки зиккурата
+%%%%
+{gen}figurines of a ziggurat
+{pl}фигурок зиккурата
+%%%%
 {gen}fire dragon
 {m}огненного дракона
 %%%%
@@ -72709,6 +74767,12 @@ your ynoxinuls
 {gen}hobgoblins
 {pl}хобгоблинов
 %%%%
+{gen}horn of Geryon
+{m}рога Гериона
+%%%%
+{gen}horns of Geryon
+{pl}рогов Гериона
+%%%%
 {gen}horse
 {f}лошади
 %%%%
@@ -72886,6 +74950,12 @@ your ynoxinuls
 {gen}lajatangs
 {pl}ладжатангов
 %%%%
+{gen}large rock
+{m}большого камня
+%%%%
+{gen}large rocks
+{pl}больших камней
+%%%%
 {gen}leather armour
 {m}кожаного доспеха
 %%%%
@@ -72897,6 +74967,12 @@ your ynoxinuls
 %%%%
 {gen}liches
 {pl}личей
+%%%%
+{gen}lightning rod
+{m}жезла молний
+%%%%
+{gen}lightning rods
+{pl}жезлов молний
 %%%%
 {gen}long sword
 {m}длинного меча
@@ -73096,6 +75172,9 @@ your ynoxinuls
 {gen}orange demons
 {pl}оранжевых демонов
 %%%%
+{gen}orb
+{f}сферы
+%%%%
 {gen}orb golem
 {m}сферного голема
 %%%%
@@ -73104,6 +75183,9 @@ your ynoxinuls
 %%%%
 {gen}orb of fire
 {f}сферы огня
+%%%%
+{gen}orbs
+{pl}сфер
 %%%%
 {gen}orbs of fire
 {pl}сфер огня
@@ -73153,6 +75235,12 @@ your ynoxinuls
 {gen}orc wizards
 {pl}орков-волшебников
 %%%%
+{gen}orcbow
+{m}орочьего лука
+%%%%
+{gen}orcbows
+{pl}орочьих луков
+%%%%
 {gen}orcs
 {pl}орков
 %%%%
@@ -73180,8 +75268,20 @@ your ynoxinuls
 {gen}phantom
 {m}фантома
 %%%%
+{gen}phantom mirror
+{n}призрачного зеркала
+%%%%
+{gen}phantom mirrors
+{pl}призрачных зеркал
+%%%%
 {gen}phantoms
 {pl}фантомов
+%%%%
+{gen}phial of floods
+{m}флакона потопа
+%%%%
+{gen}phials of floods
+{pl}флаконов потопа
 %%%%
 {gen}plate armour
 {m}латного доспеха
@@ -73572,6 +75672,12 @@ your ynoxinuls
 %%%%
 {gen}rockslimes
 {pl}каменных слизней
+%%%%
+{gen}sack of spiders
+{m}мешка пауков
+%%%%
+{gen}sacks of spiders
+{pl}мешков пауков
 %%%%
 {gen}sacred scourge
 {m}священного бича
@@ -74194,6 +76300,12 @@ your ynoxinuls
 {gen}the Franceses
 {pl}Фрэнсис
 %%%%
+{gen}the Gell's gravitambourine
+{m}гравитационного бубна Гелла
+%%%%
+{gen}the Gell's gravitambourines
+{pl}гравитационных бубнов Гелла
+%%%%
 {gen}the Grand Grimoire
 {m}великого гримуара
 %%%%
@@ -74536,6 +76648,12 @@ your ynoxinuls
 {gen}the ancient liches
 {pl}древних личей
 %%%%
+{gen}the animal skin
+{f}звериной шкуры
+%%%%
+{gen}the animal skins
+{pl}звериных шкур
+%%%%
 {gen}the ant
 {m}муравья
 %%%%
@@ -74589,6 +76707,12 @@ your ynoxinuls
 %%%%
 {gen}the bardiches
 {pl}бердышей
+%%%%
+{gen}the barding
+{m}бардинга
+%%%%
+{gen}the bardings
+{pl}бардингов
 %%%%
 {gen}the basilisk
 {m}василиска
@@ -75040,6 +77164,12 @@ your ynoxinuls
 {gen}the boulder beetles
 {pl}жуков-валунов
 %%%%
+{gen}the box of beasts
+{m}ящика зверей
+%%%%
+{gen}the boxes of beasts
+{pl}ящиков зверей
+%%%%
 {gen}the broad axe
 {m}широкого топора
 %%%%
@@ -75124,6 +77254,12 @@ your ynoxinuls
 {gen}the clubs
 {pl}дубинок
 %%%%
+{gen}the condenser vane
+{m}конденсатора облаков
+%%%%
+{gen}the condenser vanes
+{pl}конденсаторов облаков
+%%%%
 {gen}the crimson imp
 {m}багрового беса
 %%%%
@@ -75135,6 +77271,12 @@ your ynoxinuls
 %%%%
 {gen}the crystal guardians
 {pl}кристаллических стражей
+%%%%
+{gen}the crystal plate armour
+{m}кристаллического латного доспеха
+%%%%
+{gen}the crystal plate armours
+{pl}кристаллических латных доспехов
 %%%%
 {gen}the curse skull
 {m}проклятого черепа
@@ -75460,6 +77602,12 @@ your ynoxinuls
 {gen}the fenstrider witches
 {pl}болотных ведьм
 %%%%
+{gen}the figurine of a ziggurat
+{f}фигурки зиккурата
+%%%%
+{gen}the figurines of a ziggurat
+{pl}фигурок зиккурата
+%%%%
 {gen}the fire dragon
 {m}огненного дракона
 %%%%
@@ -75730,6 +77878,12 @@ your ynoxinuls
 {gen}the hobgoblins
 {pl}хобгоблинов
 %%%%
+{gen}the horn of Geryon
+{m}рога Гериона
+%%%%
+{gen}the horns of Geryon
+{pl}рогов Гериона
+%%%%
 {gen}the horse
 {f}лошади
 %%%%
@@ -75907,6 +78061,12 @@ your ynoxinuls
 {gen}the lajatangs
 {pl}ладжатангов
 %%%%
+{gen}the large rock
+{m}большого камня
+%%%%
+{gen}the large rocks
+{pl}больших камней
+%%%%
 {gen}the leather armour
 {m}кожаного доспеха
 %%%%
@@ -75918,6 +78078,12 @@ your ynoxinuls
 %%%%
 {gen}the liches
 {pl}личей
+%%%%
+{gen}the lightning rod
+{m}жезла молний
+%%%%
+{gen}the lightning rods
+{pl}жезлов молний
 %%%%
 {gen}the long sword
 {m}длинного меча
@@ -76117,6 +78283,9 @@ your ynoxinuls
 {gen}the orange demons
 {pl}оранжевых демонов
 %%%%
+{gen}the orb
+{f}сферы
+%%%%
 {gen}the orb golem
 {m}сферного голема
 %%%%
@@ -76125,6 +78294,9 @@ your ynoxinuls
 %%%%
 {gen}the orb of fire
 {f}сферы огня
+%%%%
+{gen}the orbs
+{pl}сфер
 %%%%
 {gen}the orbs of fire
 {pl}сфер огня
@@ -76174,6 +78346,12 @@ your ynoxinuls
 {gen}the orc wizards
 {pl}орков-волшебников
 %%%%
+{gen}the orcbow
+{m}орочьего лука
+%%%%
+{gen}the orcbows
+{pl}орочьих луков
+%%%%
 {gen}the orcs
 {pl}орков
 %%%%
@@ -76201,8 +78379,20 @@ your ynoxinuls
 {gen}the phantom
 {m}фантома
 %%%%
+{gen}the phantom mirror
+{n}призрачного зеркала
+%%%%
+{gen}the phantom mirrors
+{pl}призрачных зеркал
+%%%%
 {gen}the phantoms
 {pl}фантомов
+%%%%
+{gen}the phial of floods
+{m}флакона потопа
+%%%%
+{gen}the phials of floods
+{pl}флаконов потопа
 %%%%
 {gen}the plate armour
 {m}латного доспеха
@@ -76593,6 +78783,12 @@ your ynoxinuls
 %%%%
 {gen}the rockslimes
 {pl}каменных слизней
+%%%%
+{gen}the sack of spiders
+{m}мешка пауков
+%%%%
+{gen}the sacks of spiders
+{pl}мешков пауков
 %%%%
 {gen}the sacred scourge
 {m}священного бича
@@ -77116,6 +79312,12 @@ your ynoxinuls
 {gen}the throwing nets
 {pl}метательных сетей
 %%%%
+{gen}the tin of tremorstones
+{f}коробки сотрясающих камней
+%%%%
+{gen}the tins of tremorstones
+{pl}коробок сотрясающих камней
+%%%%
 {gen}the titan
 {m}титана
 %%%%
@@ -77445,6 +79647,12 @@ your ynoxinuls
 %%%%
 {gen}throwing nets
 {pl}метательных сетей
+%%%%
+{gen}tin of tremorstones
+{f}коробки сотрясающих камней
+%%%%
+{gen}tins of tremorstones
+{pl}коробок сотрясающих камней
 %%%%
 {gen}titan
 {m}титана
@@ -77875,6 +80083,12 @@ your ynoxinuls
 {gen}your Franceses
 {pl}Фрэнсис
 %%%%
+{gen}your Gell's gravitambourine
+{m}гравитационного бубна Гелла
+%%%%
+{gen}your Gell's gravitambourines
+{pl}гравитационных бубнов Гелла
+%%%%
 {gen}your Grand Grimoire
 {m}великого гримуара
 %%%%
@@ -78217,6 +80431,12 @@ your ynoxinuls
 {gen}your ancient liches
 {pl}древних личей
 %%%%
+{gen}your animal skin
+{f}звериной шкуры
+%%%%
+{gen}your animal skins
+{pl}звериных шкур
+%%%%
 {gen}your ant
 {m}муравья
 %%%%
@@ -78270,6 +80490,12 @@ your ynoxinuls
 %%%%
 {gen}your bardiches
 {pl}бердышей
+%%%%
+{gen}your barding
+{m}бардинга
+%%%%
+{gen}your bardings
+{pl}бардингов
 %%%%
 {gen}your basilisk
 {m}василиска
@@ -78721,6 +80947,12 @@ your ynoxinuls
 {gen}your boulder beetles
 {pl}жуков-валунов
 %%%%
+{gen}your box of beasts
+{m}ящика зверей
+%%%%
+{gen}your boxes of beasts
+{pl}ящиков зверей
+%%%%
 {gen}your broad axe
 {m}широкого топора
 %%%%
@@ -78805,6 +81037,12 @@ your ynoxinuls
 {gen}your clubs
 {pl}дубинок
 %%%%
+{gen}your condenser vane
+{m}конденсатора облаков
+%%%%
+{gen}your condenser vanes
+{pl}конденсаторов облаков
+%%%%
 {gen}your crimson imp
 {m}багрового беса
 %%%%
@@ -78816,6 +81054,12 @@ your ynoxinuls
 %%%%
 {gen}your crystal guardians
 {pl}кристаллических стражей
+%%%%
+{gen}your crystal plate armour
+{m}кристаллического латного доспеха
+%%%%
+{gen}your crystal plate armours
+{pl}кристаллических латных доспехов
 %%%%
 {gen}your curse skull
 {m}проклятого черепа
@@ -79141,6 +81385,12 @@ your ynoxinuls
 {gen}your fenstrider witches
 {pl}болотных ведьм
 %%%%
+{gen}your figurine of a ziggurat
+{f}фигурки зиккурата
+%%%%
+{gen}your figurines of a ziggurat
+{pl}фигурок зиккурата
+%%%%
 {gen}your fire dragon
 {m}огненного дракона
 %%%%
@@ -79411,6 +81661,12 @@ your ynoxinuls
 {gen}your hobgoblins
 {pl}хобгоблинов
 %%%%
+{gen}your horn of Geryon
+{m}рога Гериона
+%%%%
+{gen}your horns of Geryon
+{pl}рогов Гериона
+%%%%
 {gen}your horse
 {f}лошади
 %%%%
@@ -79588,6 +81844,12 @@ your ynoxinuls
 {gen}your lajatangs
 {pl}ладжатангов
 %%%%
+{gen}your large rock
+{m}большого камня
+%%%%
+{gen}your large rocks
+{pl}больших камней
+%%%%
 {gen}your leather armour
 {m}кожаного доспеха
 %%%%
@@ -79599,6 +81861,12 @@ your ynoxinuls
 %%%%
 {gen}your liches
 {pl}личей
+%%%%
+{gen}your lightning rod
+{m}жезла молний
+%%%%
+{gen}your lightning rods
+{pl}жезлов молний
 %%%%
 {gen}your long sword
 {m}длинного меча
@@ -79798,6 +82066,9 @@ your ynoxinuls
 {gen}your orange demons
 {pl}оранжевых демонов
 %%%%
+{gen}your orb
+{f}сферы
+%%%%
 {gen}your orb golem
 {m}сферного голема
 %%%%
@@ -79806,6 +82077,9 @@ your ynoxinuls
 %%%%
 {gen}your orb of fire
 {f}сферы огня
+%%%%
+{gen}your orbs
+{pl}сфер
 %%%%
 {gen}your orbs of fire
 {pl}сфер огня
@@ -79855,6 +82129,12 @@ your ynoxinuls
 {gen}your orc wizards
 {pl}орков-волшебников
 %%%%
+{gen}your orcbow
+{m}орочьего лука
+%%%%
+{gen}your orcbows
+{pl}орочьих луков
+%%%%
 {gen}your orcs
 {pl}орков
 %%%%
@@ -79882,8 +82162,20 @@ your ynoxinuls
 {gen}your phantom
 {m}фантома
 %%%%
+{gen}your phantom mirror
+{n}призрачного зеркала
+%%%%
+{gen}your phantom mirrors
+{pl}призрачных зеркал
+%%%%
 {gen}your phantoms
 {pl}фантомов
+%%%%
+{gen}your phial of floods
+{m}флакона потопа
+%%%%
+{gen}your phials of floods
+{pl}флаконов потопа
 %%%%
 {gen}your plate armour
 {m}латного доспеха
@@ -80274,6 +82566,12 @@ your ynoxinuls
 %%%%
 {gen}your rockslimes
 {pl}каменных слизней
+%%%%
+{gen}your sack of spiders
+{m}мешка пауков
+%%%%
+{gen}your sacks of spiders
+{pl}мешков пауков
 %%%%
 {gen}your sacred scourge
 {m}священного бича
@@ -80797,6 +83095,12 @@ your ynoxinuls
 {gen}your throwing nets
 {pl}метательных сетей
 %%%%
+{gen}your tin of tremorstones
+{f}коробки сотрясающих камней
+%%%%
+{gen}your tins of tremorstones
+{pl}коробок сотрясающих камней
+%%%%
 {gen}your titan
 {m}титана
 %%%%
@@ -81169,6 +83473,9 @@ your ynoxinuls
 {ins_few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{ins_few}@num@ Gell's gravitambourines
+@num@ гравитационными бубнами Гелла
+%%%%
 {ins_few}@num@ Grand Grimoires
 @num@ великими гримуарами
 %%%%
@@ -81343,6 +83650,9 @@ your ynoxinuls
 {ins_few}@num@ ancient liches
 @num@ древними личами
 %%%%
+{ins_few}@num@ animal skins
+@num@ звериными шкурами
+%%%%
 {ins_few}@num@ ants
 @num@ муравьями
 %%%%
@@ -81369,6 +83679,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ bardiches
 @num@ бердышами
+%%%%
+{ins_few}@num@ bardings
+@num@ бардингами
 %%%%
 {ins_few}@num@ basilisks
 @num@ василисками
@@ -81595,6 +83908,9 @@ your ynoxinuls
 {ins_few}@num@ boulder beetles
 @num@ жуками-валунами
 %%%%
+{ins_few}@num@ boxes of beasts
+@num@ ящиками зверей
+%%%%
 {ins_few}@num@ broad axes
 @num@ широкими топорами
 %%%%
@@ -81637,11 +83953,17 @@ your ynoxinuls
 {ins_few}@num@ clubs
 @num@ дубинками
 %%%%
+{ins_few}@num@ condenser vanes
+@num@ конденсаторами облаков
+%%%%
 {ins_few}@num@ crimson imps
 @num@ багровыми бесами
 %%%%
 {ins_few}@num@ crystal guardians
 @num@ кристаллическими стражами
+%%%%
+{ins_few}@num@ crystal plate armours
+@num@ кристаллическими латными доспехами
 %%%%
 {ins_few}@num@ curse skulls
 @num@ проклятыми черепами
@@ -81808,6 +84130,9 @@ your ynoxinuls
 {ins_few}@num@ fenstrider witches
 @num@ болотными ведьмами
 %%%%
+{ins_few}@num@ figurines of a ziggurat
+@num@ фигурками зиккурата
+%%%%
 {ins_few}@num@ fire dragon scales
 @num@ чешуями огненного дракона
 %%%%
@@ -81946,6 +84271,9 @@ your ynoxinuls
 {ins_few}@num@ hobgoblins
 @num@ хобгоблинами
 %%%%
+{ins_few}@num@ horns of Geryon
+@num@ рогами Гериона
+%%%%
 {ins_few}@num@ horses
 @num@ лошадьми
 %%%%
@@ -82036,11 +84364,17 @@ your ynoxinuls
 {ins_few}@num@ lajatangs
 @num@ ладжатангами
 %%%%
+{ins_few}@num@ large rocks
+@num@ большими камнями
+%%%%
 {ins_few}@num@ leather armours
 @num@ кожаными доспехами
 %%%%
 {ins_few}@num@ liches
 @num@ личами
+%%%%
+{ins_few}@num@ lightning rods
+@num@ жезлами молний
 %%%%
 {ins_few}@num@ long swords
 @num@ длинными мечами
@@ -82147,6 +84481,9 @@ your ynoxinuls
 {ins_few}@num@ orb golems
 @num@ сферными големами
 %%%%
+{ins_few}@num@ orbs
+@num@ сферами
+%%%%
 {ins_few}@num@ orbs of fire
 @num@ сферами огня
 %%%%
@@ -82171,6 +84508,9 @@ your ynoxinuls
 {ins_few}@num@ orc wizards
 @num@ орками-волшебниками
 %%%%
+{ins_few}@num@ orcbows
+@num@ орочьими луками
+%%%%
 {ins_few}@num@ orcs
 @num@ орками
 %%%%
@@ -82186,8 +84526,14 @@ your ynoxinuls
 {ins_few}@num@ pearl dragons
 @num@ жемчужными драконами
 %%%%
+{ins_few}@num@ phantom mirrors
+@num@ призрачными зеркалами
+%%%%
 {ins_few}@num@ phantoms
 @num@ фантомами
+%%%%
+{ins_few}@num@ phials of floods
+@num@ флаконами потопа
 %%%%
 {ins_few}@num@ plate armours
 @num@ латными доспехами
@@ -82386,6 +84732,9 @@ your ynoxinuls
 %%%%
 {ins_few}@num@ rockslimes
 @num@ каменными слизнями
+%%%%
+{ins_few}@num@ sacks of spiders
+@num@ мешками пауков
 %%%%
 {ins_few}@num@ sacred scourges
 @num@ священными бичами
@@ -82657,6 +85006,9 @@ your ynoxinuls
 {ins_few}@num@ throwing nets
 @num@ метательными сетями
 %%%%
+{ins_few}@num@ tins of tremorstones
+@num@ коробками сотрясающих камней
+%%%%
 {ins_few}@num@ titans
 @num@ титанами
 %%%%
@@ -82873,6 +85225,9 @@ your ynoxinuls
 {ins_many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{ins_many}@num@ Gell's gravitambourines
+@num@ гравитационными бубнами Гелла
+%%%%
 {ins_many}@num@ Grand Grimoires
 @num@ великими гримуарами
 %%%%
@@ -83047,6 +85402,9 @@ your ynoxinuls
 {ins_many}@num@ ancient liches
 @num@ древними личами
 %%%%
+{ins_many}@num@ animal skins
+@num@ звериными шкурами
+%%%%
 {ins_many}@num@ ants
 @num@ муравьями
 %%%%
@@ -83073,6 +85431,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ bardiches
 @num@ бердышами
+%%%%
+{ins_many}@num@ bardings
+@num@ бардингами
 %%%%
 {ins_many}@num@ basilisks
 @num@ василисками
@@ -83299,6 +85660,9 @@ your ynoxinuls
 {ins_many}@num@ boulder beetles
 @num@ жуками-валунами
 %%%%
+{ins_many}@num@ boxes of beasts
+@num@ ящиками зверей
+%%%%
 {ins_many}@num@ broad axes
 @num@ широкими топорами
 %%%%
@@ -83341,11 +85705,17 @@ your ynoxinuls
 {ins_many}@num@ clubs
 @num@ дубинками
 %%%%
+{ins_many}@num@ condenser vanes
+@num@ конденсаторами облаков
+%%%%
 {ins_many}@num@ crimson imps
 @num@ багровыми бесами
 %%%%
 {ins_many}@num@ crystal guardians
 @num@ кристаллическими стражами
+%%%%
+{ins_many}@num@ crystal plate armours
+@num@ кристаллическими латными доспехами
 %%%%
 {ins_many}@num@ curse skulls
 @num@ проклятыми черепами
@@ -83512,6 +85882,9 @@ your ynoxinuls
 {ins_many}@num@ fenstrider witches
 @num@ болотными ведьмами
 %%%%
+{ins_many}@num@ figurines of a ziggurat
+@num@ фигурками зиккурата
+%%%%
 {ins_many}@num@ fire dragon scales
 @num@ чешуями огненного дракона
 %%%%
@@ -83650,6 +86023,9 @@ your ynoxinuls
 {ins_many}@num@ hobgoblins
 @num@ хобгоблинами
 %%%%
+{ins_many}@num@ horns of Geryon
+@num@ рогами Гериона
+%%%%
 {ins_many}@num@ horses
 @num@ лошадьми
 %%%%
@@ -83740,11 +86116,17 @@ your ynoxinuls
 {ins_many}@num@ lajatangs
 @num@ ладжатангами
 %%%%
+{ins_many}@num@ large rocks
+@num@ большими камнями
+%%%%
 {ins_many}@num@ leather armours
 @num@ кожаными доспехами
 %%%%
 {ins_many}@num@ liches
 @num@ личами
+%%%%
+{ins_many}@num@ lightning rods
+@num@ жезлами молний
 %%%%
 {ins_many}@num@ long swords
 @num@ длинными мечами
@@ -83851,6 +86233,9 @@ your ynoxinuls
 {ins_many}@num@ orb golems
 @num@ сферными големами
 %%%%
+{ins_many}@num@ orbs
+@num@ сферами
+%%%%
 {ins_many}@num@ orbs of fire
 @num@ сферами огня
 %%%%
@@ -83875,6 +86260,9 @@ your ynoxinuls
 {ins_many}@num@ orc wizards
 @num@ орками-волшебниками
 %%%%
+{ins_many}@num@ orcbows
+@num@ орочьими луками
+%%%%
 {ins_many}@num@ orcs
 @num@ орками
 %%%%
@@ -83890,8 +86278,14 @@ your ynoxinuls
 {ins_many}@num@ pearl dragons
 @num@ жемчужными драконами
 %%%%
+{ins_many}@num@ phantom mirrors
+@num@ призрачными зеркалами
+%%%%
 {ins_many}@num@ phantoms
 @num@ фантомами
+%%%%
+{ins_many}@num@ phials of floods
+@num@ флаконами потопа
 %%%%
 {ins_many}@num@ plate armours
 @num@ латными доспехами
@@ -84090,6 +86484,9 @@ your ynoxinuls
 %%%%
 {ins_many}@num@ rockslimes
 @num@ каменными слизнями
+%%%%
+{ins_many}@num@ sacks of spiders
+@num@ мешками пауков
 %%%%
 {ins_many}@num@ sacred scourges
 @num@ священными бичами
@@ -84361,6 +86758,9 @@ your ynoxinuls
 {ins_many}@num@ throwing nets
 @num@ метательными сетями
 %%%%
+{ins_many}@num@ tins of tremorstones
+@num@ коробками сотрясающих камней
+%%%%
 {ins_many}@num@ titans
 @num@ титанами
 %%%%
@@ -84577,6 +86977,9 @@ your ynoxinuls
 {ins_one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{ins_one}@num@ Gell's gravitambourines
+@num@ гравитационным бубном Гелла
+%%%%
 {ins_one}@num@ Grand Grimoires
 @num@ великим гримуаром
 %%%%
@@ -84751,6 +87154,9 @@ your ynoxinuls
 {ins_one}@num@ ancient liches
 @num@ древним личем
 %%%%
+{ins_one}@num@ animal skins
+@num@ звериной шкурой
+%%%%
 {ins_one}@num@ ants
 @num@ муравьём
 %%%%
@@ -84777,6 +87183,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ bardiches
 @num@ бердышом
+%%%%
+{ins_one}@num@ bardings
+@num@ бардингом
 %%%%
 {ins_one}@num@ basilisks
 @num@ василиском
@@ -85003,6 +87412,9 @@ your ynoxinuls
 {ins_one}@num@ boulder beetles
 @num@ жуком-валуном
 %%%%
+{ins_one}@num@ boxes of beasts
+@num@ ящиком зверей
+%%%%
 {ins_one}@num@ broad axes
 @num@ широким топором
 %%%%
@@ -85045,11 +87457,17 @@ your ynoxinuls
 {ins_one}@num@ clubs
 @num@ дубинкой
 %%%%
+{ins_one}@num@ condenser vanes
+@num@ конденсатором облаков
+%%%%
 {ins_one}@num@ crimson imps
 @num@ багровым бесом
 %%%%
 {ins_one}@num@ crystal guardians
 @num@ кристаллическим стражем
+%%%%
+{ins_one}@num@ crystal plate armours
+@num@ кристаллическим латным доспехом
 %%%%
 {ins_one}@num@ curse skulls
 @num@ проклятым черепом
@@ -85216,6 +87634,9 @@ your ynoxinuls
 {ins_one}@num@ fenstrider witches
 @num@ болотной ведьмой
 %%%%
+{ins_one}@num@ figurines of a ziggurat
+@num@ фигуркой зиккурата
+%%%%
 {ins_one}@num@ fire dragon scales
 @num@ чешуёй огненного дракона
 %%%%
@@ -85354,6 +87775,9 @@ your ynoxinuls
 {ins_one}@num@ hobgoblins
 @num@ хобгоблином
 %%%%
+{ins_one}@num@ horns of Geryon
+@num@ рогом Гериона
+%%%%
 {ins_one}@num@ horses
 @num@ лошадью
 %%%%
@@ -85444,11 +87868,17 @@ your ynoxinuls
 {ins_one}@num@ lajatangs
 @num@ ладжатангом
 %%%%
+{ins_one}@num@ large rocks
+@num@ большим камнем
+%%%%
 {ins_one}@num@ leather armours
 @num@ кожаным доспехом
 %%%%
 {ins_one}@num@ liches
 @num@ личем
+%%%%
+{ins_one}@num@ lightning rods
+@num@ жезлом молний
 %%%%
 {ins_one}@num@ long swords
 @num@ длинным мечом
@@ -85555,6 +87985,9 @@ your ynoxinuls
 {ins_one}@num@ orb golems
 @num@ сферным големом
 %%%%
+{ins_one}@num@ orbs
+@num@ сферой
+%%%%
 {ins_one}@num@ orbs of fire
 @num@ сферой огня
 %%%%
@@ -85579,6 +88012,9 @@ your ynoxinuls
 {ins_one}@num@ orc wizards
 @num@ орком-волшебником
 %%%%
+{ins_one}@num@ orcbows
+@num@ орочьим луком
+%%%%
 {ins_one}@num@ orcs
 @num@ орком
 %%%%
@@ -85594,8 +88030,14 @@ your ynoxinuls
 {ins_one}@num@ pearl dragons
 @num@ жемчужным драконом
 %%%%
+{ins_one}@num@ phantom mirrors
+@num@ призрачным зеркалом
+%%%%
 {ins_one}@num@ phantoms
 @num@ фантомом
+%%%%
+{ins_one}@num@ phials of floods
+@num@ флаконом потопа
 %%%%
 {ins_one}@num@ plate armours
 @num@ латным доспехом
@@ -85794,6 +88236,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ rockslimes
 @num@ каменным слизнем
+%%%%
+{ins_one}@num@ sacks of spiders
+@num@ мешком пауков
 %%%%
 {ins_one}@num@ sacred scourges
 @num@ священным бичом
@@ -86064,6 +88509,9 @@ your ynoxinuls
 %%%%
 {ins_one}@num@ throwing nets
 @num@ метательной сетью
+%%%%
+{ins_one}@num@ tins of tremorstones
+@num@ коробкой сотрясающих камней
 %%%%
 {ins_one}@num@ titans
 @num@ титаном
@@ -86337,6 +88785,12 @@ your ynoxinuls
 %%%%
 {ins}Franceses
 {pl}Фрэнсис
+%%%%
+{ins}Gell's gravitambourine
+{m}гравитационным бубном Гелла
+%%%%
+{ins}Gell's gravitambourines
+{pl}гравитационными бубнами Гелла
 %%%%
 {ins}Grand Grimoire
 {m}великим гримуаром
@@ -86641,6 +89095,9 @@ your ynoxinuls
 {ins}a Frances
 {f}Фрэнсис
 %%%%
+{ins}a Gell's gravitambourine
+{m}гравитационным бубном Гелла
+%%%%
 {ins}a Grand Grimoire
 {m}великим гримуаром
 %%%%
@@ -86815,6 +89272,9 @@ your ynoxinuls
 {ins}a ancient lich
 {m}древним личем
 %%%%
+{ins}a animal skin
+{f}звериной шкурой
+%%%%
 {ins}a ant
 {m}муравьём
 %%%%
@@ -86841,6 +89301,9 @@ your ynoxinuls
 %%%%
 {ins}a bardiche
 {m}бердышом
+%%%%
+{ins}a barding
+{m}бардингом
 %%%%
 {ins}a basilisk
 {m}василиском
@@ -87067,6 +89530,9 @@ your ynoxinuls
 {ins}a boulder beetle
 {m}жуком-валуном
 %%%%
+{ins}a box of beasts
+{m}ящиком зверей
+%%%%
 {ins}a broad axe
 {m}широким топором
 %%%%
@@ -87109,11 +89575,17 @@ your ynoxinuls
 {ins}a club
 {f}дубинкой
 %%%%
+{ins}a condenser vane
+{m}конденсатором облаков
+%%%%
 {ins}a crimson imp
 {m}багровым бесом
 %%%%
 {ins}a crystal guardian
 {m}кристаллическим стражем
+%%%%
+{ins}a crystal plate armour
+{m}кристаллическим латным доспехом
 %%%%
 {ins}a curse skull
 {m}проклятым черепом
@@ -87280,6 +89752,9 @@ your ynoxinuls
 {ins}a fenstrider witch
 {f}болотной ведьмой
 %%%%
+{ins}a figurine of a ziggurat
+{f}фигуркой зиккурата
+%%%%
 {ins}a fire dragon
 {m}огненным драконом
 %%%%
@@ -87418,6 +89893,9 @@ your ynoxinuls
 {ins}a hobgoblin
 {m}хобгоблином
 %%%%
+{ins}a horn of Geryon
+{m}рогом Гериона
+%%%%
 {ins}a horse
 {f}лошадью
 %%%%
@@ -87508,11 +89986,17 @@ your ynoxinuls
 {ins}a lajatang
 {m}ладжатангом
 %%%%
+{ins}a large rock
+{m}большим камнем
+%%%%
 {ins}a leather armour
 {m}кожаным доспехом
 %%%%
 {ins}a lich
 {m}личем
+%%%%
+{ins}a lightning rod
+{m}жезлом молний
 %%%%
 {ins}a long sword
 {m}длинным мечом
@@ -87616,6 +90100,9 @@ your ynoxinuls
 {ins}a orange demon
 {m}оранжевым демоном
 %%%%
+{ins}a orb
+{f}сферой
+%%%%
 {ins}a orb golem
 {m}сферным големом
 %%%%
@@ -87646,6 +90133,9 @@ your ynoxinuls
 {ins}a orc wizard
 {m}орком-волшебником
 %%%%
+{ins}a orcbow
+{m}орочьим луком
+%%%%
 {ins}a pale draconian
 {m}бледным драконианом
 %%%%
@@ -87660,6 +90150,12 @@ your ynoxinuls
 %%%%
 {ins}a phantom
 {m}фантомом
+%%%%
+{ins}a phantom mirror
+{n}призрачным зеркалом
+%%%%
+{ins}a phial of floods
+{m}флаконом потопа
 %%%%
 {ins}a plate armour
 {m}латным доспехом
@@ -87858,6 +90354,9 @@ your ynoxinuls
 %%%%
 {ins}a rockslime
 {m}каменным слизнем
+%%%%
+{ins}a sack of spiders
+{m}мешком пауков
 %%%%
 {ins}a sacred scourge
 {m}священным бичом
@@ -88128,6 +90627,9 @@ your ynoxinuls
 %%%%
 {ins}a throwing net
 {f}метательной сетью
+%%%%
+{ins}a tin of tremorstones
+{f}коробкой сотрясающих камней
 %%%%
 {ins}a titan
 {m}титаном
@@ -88432,6 +90934,9 @@ your ynoxinuls
 {ins}an Frances
 {f}Фрэнсис
 %%%%
+{ins}an Gell's gravitambourine
+{m}гравитационным бубном Гелла
+%%%%
 {ins}an Grand Grimoire
 {m}великим гримуаром
 %%%%
@@ -88606,6 +91111,9 @@ your ynoxinuls
 {ins}an ancient lich
 {m}древним личем
 %%%%
+{ins}an animal skin
+{f}звериной шкурой
+%%%%
 {ins}an ant
 {m}муравьём
 %%%%
@@ -88632,6 +91140,9 @@ your ynoxinuls
 %%%%
 {ins}an bardiche
 {m}бердышом
+%%%%
+{ins}an barding
+{m}бардингом
 %%%%
 {ins}an basilisk
 {m}василиском
@@ -88858,6 +91369,9 @@ your ynoxinuls
 {ins}an boulder beetle
 {m}жуком-валуном
 %%%%
+{ins}an box of beasts
+{m}ящиком зверей
+%%%%
 {ins}an broad axe
 {m}широким топором
 %%%%
@@ -88900,11 +91414,17 @@ your ynoxinuls
 {ins}an club
 {f}дубинкой
 %%%%
+{ins}an condenser vane
+{m}конденсатором облаков
+%%%%
 {ins}an crimson imp
 {m}багровым бесом
 %%%%
 {ins}an crystal guardian
 {m}кристаллическим стражем
+%%%%
+{ins}an crystal plate armour
+{m}кристаллическим латным доспехом
 %%%%
 {ins}an curse skull
 {m}проклятым черепом
@@ -89071,6 +91591,9 @@ your ynoxinuls
 {ins}an fenstrider witch
 {f}болотной ведьмой
 %%%%
+{ins}an figurine of a ziggurat
+{f}фигуркой зиккурата
+%%%%
 {ins}an fire dragon
 {m}огненным драконом
 %%%%
@@ -89209,6 +91732,9 @@ your ynoxinuls
 {ins}an hobgoblin
 {m}хобгоблином
 %%%%
+{ins}an horn of Geryon
+{m}рогом Гериона
+%%%%
 {ins}an horse
 {f}лошадью
 %%%%
@@ -89299,11 +91825,17 @@ your ynoxinuls
 {ins}an lajatang
 {m}ладжатангом
 %%%%
+{ins}an large rock
+{m}большим камнем
+%%%%
 {ins}an leather armour
 {m}кожаным доспехом
 %%%%
 {ins}an lich
 {m}личем
+%%%%
+{ins}an lightning rod
+{m}жезлом молний
 %%%%
 {ins}an long sword
 {m}длинным мечом
@@ -89407,6 +91939,9 @@ your ynoxinuls
 {ins}an orange demon
 {m}оранжевым демоном
 %%%%
+{ins}an orb
+{f}сферой
+%%%%
 {ins}an orb golem
 {m}сферным големом
 %%%%
@@ -89437,6 +91972,9 @@ your ynoxinuls
 {ins}an orc wizard
 {m}орком-волшебником
 %%%%
+{ins}an orcbow
+{m}орочьим луком
+%%%%
 {ins}an pale draconian
 {m}бледным драконианом
 %%%%
@@ -89451,6 +91989,12 @@ your ynoxinuls
 %%%%
 {ins}an phantom
 {m}фантомом
+%%%%
+{ins}an phantom mirror
+{n}призрачным зеркалом
+%%%%
+{ins}an phial of floods
+{m}флаконом потопа
 %%%%
 {ins}an plate armour
 {m}латным доспехом
@@ -89649,6 +92193,9 @@ your ynoxinuls
 %%%%
 {ins}an rockslime
 {m}каменным слизнем
+%%%%
+{ins}an sack of spiders
+{m}мешком пауков
 %%%%
 {ins}an sacred scourge
 {m}священным бичом
@@ -89920,6 +92467,9 @@ your ynoxinuls
 {ins}an throwing net
 {f}метательной сетью
 %%%%
+{ins}an tin of tremorstones
+{f}коробкой сотрясающих камней
+%%%%
 {ins}an titan
 {m}титаном
 %%%%
@@ -90088,6 +92638,12 @@ your ynoxinuls
 {ins}ancient liches
 {pl}древними личами
 %%%%
+{ins}animal skin
+{f}звериной шкурой
+%%%%
+{ins}animal skins
+{pl}звериными шкурами
+%%%%
 {ins}ant
 {m}муравьём
 %%%%
@@ -90141,6 +92697,12 @@ your ynoxinuls
 %%%%
 {ins}bardiches
 {pl}бердышами
+%%%%
+{ins}barding
+{m}бардингом
+%%%%
+{ins}bardings
+{pl}бардингами
 %%%%
 {ins}basilisk
 {m}василиском
@@ -90592,6 +93154,12 @@ your ynoxinuls
 {ins}boulder beetles
 {pl}жуками-валунами
 %%%%
+{ins}box of beasts
+{m}ящиком зверей
+%%%%
+{ins}boxes of beasts
+{pl}ящиками зверей
+%%%%
 {ins}broad axe
 {m}широким топором
 %%%%
@@ -90676,6 +93244,12 @@ your ynoxinuls
 {ins}clubs
 {pl}дубинками
 %%%%
+{ins}condenser vane
+{m}конденсатором облаков
+%%%%
+{ins}condenser vanes
+{pl}конденсаторами облаков
+%%%%
 {ins}crimson imp
 {m}багровым бесом
 %%%%
@@ -90687,6 +93261,12 @@ your ynoxinuls
 %%%%
 {ins}crystal guardians
 {pl}кристаллическими стражами
+%%%%
+{ins}crystal plate armour
+{m}кристаллическим латным доспехом
+%%%%
+{ins}crystal plate armours
+{pl}кристаллическими латными доспехами
 %%%%
 {ins}curse skull
 {m}проклятым черепом
@@ -91012,6 +93592,12 @@ your ynoxinuls
 {ins}fenstrider witches
 {pl}болотными ведьмами
 %%%%
+{ins}figurine of a ziggurat
+{f}фигуркой зиккурата
+%%%%
+{ins}figurines of a ziggurat
+{pl}фигурками зиккурата
+%%%%
 {ins}fire dragon
 {m}огненным драконом
 %%%%
@@ -91282,6 +93868,12 @@ your ynoxinuls
 {ins}hobgoblins
 {pl}хобгоблинами
 %%%%
+{ins}horn of Geryon
+{m}рогом Гериона
+%%%%
+{ins}horns of Geryon
+{pl}рогами Гериона
+%%%%
 {ins}horse
 {f}лошадью
 %%%%
@@ -91459,6 +94051,12 @@ your ynoxinuls
 {ins}lajatangs
 {pl}ладжатангами
 %%%%
+{ins}large rock
+{m}большим камнем
+%%%%
+{ins}large rocks
+{pl}большими камнями
+%%%%
 {ins}leather armour
 {m}кожаным доспехом
 %%%%
@@ -91470,6 +94068,12 @@ your ynoxinuls
 %%%%
 {ins}liches
 {pl}личами
+%%%%
+{ins}lightning rod
+{m}жезлом молний
+%%%%
+{ins}lightning rods
+{pl}жезлами молний
 %%%%
 {ins}long sword
 {m}длинным мечом
@@ -91669,6 +94273,9 @@ your ynoxinuls
 {ins}orange demons
 {pl}оранжевыми демонами
 %%%%
+{ins}orb
+{f}сферой
+%%%%
 {ins}orb golem
 {m}сферным големом
 %%%%
@@ -91677,6 +94284,9 @@ your ynoxinuls
 %%%%
 {ins}orb of fire
 {f}сферой огня
+%%%%
+{ins}orbs
+{pl}сферами
 %%%%
 {ins}orbs of fire
 {pl}сферами огня
@@ -91726,6 +94336,12 @@ your ynoxinuls
 {ins}orc wizards
 {pl}орками-волшебниками
 %%%%
+{ins}orcbow
+{m}орочьим луком
+%%%%
+{ins}orcbows
+{pl}орочьими луками
+%%%%
 {ins}orcs
 {pl}орками
 %%%%
@@ -91753,8 +94369,20 @@ your ynoxinuls
 {ins}phantom
 {m}фантомом
 %%%%
+{ins}phantom mirror
+{n}призрачным зеркалом
+%%%%
+{ins}phantom mirrors
+{pl}призрачными зеркалами
+%%%%
 {ins}phantoms
 {pl}фантомами
+%%%%
+{ins}phial of floods
+{m}флаконом потопа
+%%%%
+{ins}phials of floods
+{pl}флаконами потопа
 %%%%
 {ins}plate armour
 {m}латным доспехом
@@ -92145,6 +94773,12 @@ your ynoxinuls
 %%%%
 {ins}rockslimes
 {pl}каменными слизнями
+%%%%
+{ins}sack of spiders
+{m}мешком пауков
+%%%%
+{ins}sacks of spiders
+{pl}мешками пауков
 %%%%
 {ins}sacred scourge
 {m}священным бичом
@@ -92767,6 +95401,12 @@ your ynoxinuls
 {ins}the Franceses
 {pl}Фрэнсис
 %%%%
+{ins}the Gell's gravitambourine
+{m}гравитационным бубном Гелла
+%%%%
+{ins}the Gell's gravitambourines
+{pl}гравитационными бубнами Гелла
+%%%%
 {ins}the Grand Grimoire
 {m}великим гримуаром
 %%%%
@@ -93109,6 +95749,12 @@ your ynoxinuls
 {ins}the ancient liches
 {pl}древними личами
 %%%%
+{ins}the animal skin
+{f}звериной шкурой
+%%%%
+{ins}the animal skins
+{pl}звериными шкурами
+%%%%
 {ins}the ant
 {m}муравьём
 %%%%
@@ -93162,6 +95808,12 @@ your ynoxinuls
 %%%%
 {ins}the bardiches
 {pl}бердышами
+%%%%
+{ins}the barding
+{m}бардингом
+%%%%
+{ins}the bardings
+{pl}бардингами
 %%%%
 {ins}the basilisk
 {m}василиском
@@ -93613,6 +96265,12 @@ your ynoxinuls
 {ins}the boulder beetles
 {pl}жуками-валунами
 %%%%
+{ins}the box of beasts
+{m}ящиком зверей
+%%%%
+{ins}the boxes of beasts
+{pl}ящиками зверей
+%%%%
 {ins}the broad axe
 {m}широким топором
 %%%%
@@ -93697,6 +96355,12 @@ your ynoxinuls
 {ins}the clubs
 {pl}дубинками
 %%%%
+{ins}the condenser vane
+{m}конденсатором облаков
+%%%%
+{ins}the condenser vanes
+{pl}конденсаторами облаков
+%%%%
 {ins}the crimson imp
 {m}багровым бесом
 %%%%
@@ -93708,6 +96372,12 @@ your ynoxinuls
 %%%%
 {ins}the crystal guardians
 {pl}кристаллическими стражами
+%%%%
+{ins}the crystal plate armour
+{m}кристаллическим латным доспехом
+%%%%
+{ins}the crystal plate armours
+{pl}кристаллическими латными доспехами
 %%%%
 {ins}the curse skull
 {m}проклятым черепом
@@ -94033,6 +96703,12 @@ your ynoxinuls
 {ins}the fenstrider witches
 {pl}болотными ведьмами
 %%%%
+{ins}the figurine of a ziggurat
+{f}фигуркой зиккурата
+%%%%
+{ins}the figurines of a ziggurat
+{pl}фигурками зиккурата
+%%%%
 {ins}the fire dragon
 {m}огненным драконом
 %%%%
@@ -94303,6 +96979,12 @@ your ynoxinuls
 {ins}the hobgoblins
 {pl}хобгоблинами
 %%%%
+{ins}the horn of Geryon
+{m}рогом Гериона
+%%%%
+{ins}the horns of Geryon
+{pl}рогами Гериона
+%%%%
 {ins}the horse
 {f}лошадью
 %%%%
@@ -94480,6 +97162,12 @@ your ynoxinuls
 {ins}the lajatangs
 {pl}ладжатангами
 %%%%
+{ins}the large rock
+{m}большим камнем
+%%%%
+{ins}the large rocks
+{pl}большими камнями
+%%%%
 {ins}the leather armour
 {m}кожаным доспехом
 %%%%
@@ -94491,6 +97179,12 @@ your ynoxinuls
 %%%%
 {ins}the liches
 {pl}личами
+%%%%
+{ins}the lightning rod
+{m}жезлом молний
+%%%%
+{ins}the lightning rods
+{pl}жезлами молний
 %%%%
 {ins}the long sword
 {m}длинным мечом
@@ -94690,6 +97384,9 @@ your ynoxinuls
 {ins}the orange demons
 {pl}оранжевыми демонами
 %%%%
+{ins}the orb
+{f}сферой
+%%%%
 {ins}the orb golem
 {m}сферным големом
 %%%%
@@ -94698,6 +97395,9 @@ your ynoxinuls
 %%%%
 {ins}the orb of fire
 {f}сферой огня
+%%%%
+{ins}the orbs
+{pl}сферами
 %%%%
 {ins}the orbs of fire
 {pl}сферами огня
@@ -94747,6 +97447,12 @@ your ynoxinuls
 {ins}the orc wizards
 {pl}орками-волшебниками
 %%%%
+{ins}the orcbow
+{m}орочьим луком
+%%%%
+{ins}the orcbows
+{pl}орочьими луками
+%%%%
 {ins}the orcs
 {pl}орками
 %%%%
@@ -94774,8 +97480,20 @@ your ynoxinuls
 {ins}the phantom
 {m}фантомом
 %%%%
+{ins}the phantom mirror
+{n}призрачным зеркалом
+%%%%
+{ins}the phantom mirrors
+{pl}призрачными зеркалами
+%%%%
 {ins}the phantoms
 {pl}фантомами
+%%%%
+{ins}the phial of floods
+{m}флаконом потопа
+%%%%
+{ins}the phials of floods
+{pl}флаконами потопа
 %%%%
 {ins}the plate armour
 {m}латным доспехом
@@ -95166,6 +97884,12 @@ your ynoxinuls
 %%%%
 {ins}the rockslimes
 {pl}каменными слизнями
+%%%%
+{ins}the sack of spiders
+{m}мешком пауков
+%%%%
+{ins}the sacks of spiders
+{pl}мешками пауков
 %%%%
 {ins}the sacred scourge
 {m}священным бичом
@@ -95689,6 +98413,12 @@ your ynoxinuls
 {ins}the throwing nets
 {pl}метательными сетями
 %%%%
+{ins}the tin of tremorstones
+{f}коробкой сотрясающих камней
+%%%%
+{ins}the tins of tremorstones
+{pl}коробками сотрясающих камней
+%%%%
 {ins}the titan
 {m}титаном
 %%%%
@@ -96018,6 +98748,12 @@ your ynoxinuls
 %%%%
 {ins}throwing nets
 {pl}метательными сетями
+%%%%
+{ins}tin of tremorstones
+{f}коробкой сотрясающих камней
+%%%%
+{ins}tins of tremorstones
+{pl}коробками сотрясающих камней
 %%%%
 {ins}titan
 {m}титаном
@@ -96448,6 +99184,12 @@ your ynoxinuls
 {ins}your Franceses
 {pl}Фрэнсис
 %%%%
+{ins}your Gell's gravitambourine
+{m}гравитационным бубном Гелла
+%%%%
+{ins}your Gell's gravitambourines
+{pl}гравитационными бубнами Гелла
+%%%%
 {ins}your Grand Grimoire
 {m}великим гримуаром
 %%%%
@@ -96790,6 +99532,12 @@ your ynoxinuls
 {ins}your ancient liches
 {pl}древними личами
 %%%%
+{ins}your animal skin
+{f}звериной шкурой
+%%%%
+{ins}your animal skins
+{pl}звериными шкурами
+%%%%
 {ins}your ant
 {m}муравьём
 %%%%
@@ -96843,6 +99591,12 @@ your ynoxinuls
 %%%%
 {ins}your bardiches
 {pl}бердышами
+%%%%
+{ins}your barding
+{m}бардингом
+%%%%
+{ins}your bardings
+{pl}бардингами
 %%%%
 {ins}your basilisk
 {m}василиском
@@ -97294,6 +100048,12 @@ your ynoxinuls
 {ins}your boulder beetles
 {pl}жуками-валунами
 %%%%
+{ins}your box of beasts
+{m}ящиком зверей
+%%%%
+{ins}your boxes of beasts
+{pl}ящиками зверей
+%%%%
 {ins}your broad axe
 {m}широким топором
 %%%%
@@ -97378,6 +100138,12 @@ your ynoxinuls
 {ins}your clubs
 {pl}дубинками
 %%%%
+{ins}your condenser vane
+{m}конденсатором облаков
+%%%%
+{ins}your condenser vanes
+{pl}конденсаторами облаков
+%%%%
 {ins}your crimson imp
 {m}багровым бесом
 %%%%
@@ -97389,6 +100155,12 @@ your ynoxinuls
 %%%%
 {ins}your crystal guardians
 {pl}кристаллическими стражами
+%%%%
+{ins}your crystal plate armour
+{m}кристаллическим латным доспехом
+%%%%
+{ins}your crystal plate armours
+{pl}кристаллическими латными доспехами
 %%%%
 {ins}your curse skull
 {m}проклятым черепом
@@ -97714,6 +100486,12 @@ your ynoxinuls
 {ins}your fenstrider witches
 {pl}болотными ведьмами
 %%%%
+{ins}your figurine of a ziggurat
+{f}фигуркой зиккурата
+%%%%
+{ins}your figurines of a ziggurat
+{pl}фигурками зиккурата
+%%%%
 {ins}your fire dragon
 {m}огненным драконом
 %%%%
@@ -97984,6 +100762,12 @@ your ynoxinuls
 {ins}your hobgoblins
 {pl}хобгоблинами
 %%%%
+{ins}your horn of Geryon
+{m}рогом Гериона
+%%%%
+{ins}your horns of Geryon
+{pl}рогами Гериона
+%%%%
 {ins}your horse
 {f}лошадью
 %%%%
@@ -98161,6 +100945,12 @@ your ynoxinuls
 {ins}your lajatangs
 {pl}ладжатангами
 %%%%
+{ins}your large rock
+{m}большим камнем
+%%%%
+{ins}your large rocks
+{pl}большими камнями
+%%%%
 {ins}your leather armour
 {m}кожаным доспехом
 %%%%
@@ -98172,6 +100962,12 @@ your ynoxinuls
 %%%%
 {ins}your liches
 {pl}личами
+%%%%
+{ins}your lightning rod
+{m}жезлом молний
+%%%%
+{ins}your lightning rods
+{pl}жезлами молний
 %%%%
 {ins}your long sword
 {m}длинным мечом
@@ -98371,6 +101167,9 @@ your ynoxinuls
 {ins}your orange demons
 {pl}оранжевыми демонами
 %%%%
+{ins}your orb
+{f}сферой
+%%%%
 {ins}your orb golem
 {m}сферным големом
 %%%%
@@ -98379,6 +101178,9 @@ your ynoxinuls
 %%%%
 {ins}your orb of fire
 {f}сферой огня
+%%%%
+{ins}your orbs
+{pl}сферами
 %%%%
 {ins}your orbs of fire
 {pl}сферами огня
@@ -98428,6 +101230,12 @@ your ynoxinuls
 {ins}your orc wizards
 {pl}орками-волшебниками
 %%%%
+{ins}your orcbow
+{m}орочьим луком
+%%%%
+{ins}your orcbows
+{pl}орочьими луками
+%%%%
 {ins}your orcs
 {pl}орками
 %%%%
@@ -98455,8 +101263,20 @@ your ynoxinuls
 {ins}your phantom
 {m}фантомом
 %%%%
+{ins}your phantom mirror
+{n}призрачным зеркалом
+%%%%
+{ins}your phantom mirrors
+{pl}призрачными зеркалами
+%%%%
 {ins}your phantoms
 {pl}фантомами
+%%%%
+{ins}your phial of floods
+{m}флаконом потопа
+%%%%
+{ins}your phials of floods
+{pl}флаконами потопа
 %%%%
 {ins}your plate armour
 {m}латным доспехом
@@ -98847,6 +101667,12 @@ your ynoxinuls
 %%%%
 {ins}your rockslimes
 {pl}каменными слизнями
+%%%%
+{ins}your sack of spiders
+{m}мешком пауков
+%%%%
+{ins}your sacks of spiders
+{pl}мешками пауков
 %%%%
 {ins}your sacred scourge
 {m}священным бичом
@@ -99370,6 +102196,12 @@ your ynoxinuls
 {ins}your throwing nets
 {pl}метательными сетями
 %%%%
+{ins}your tin of tremorstones
+{f}коробкой сотрясающих камней
+%%%%
+{ins}your tins of tremorstones
+{pl}коробками сотрясающих камней
+%%%%
 {ins}your titan
 {m}титаном
 %%%%
@@ -99742,6 +102574,9 @@ your ynoxinuls
 {many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{many}@num@ Gell's gravitambourines
+@num@ гравитационных бубнов Гелла
+%%%%
 {many}@num@ Grand Grimoires
 @num@ великих гримуаров
 %%%%
@@ -99916,6 +102751,9 @@ your ynoxinuls
 {many}@num@ ancient liches
 @num@ древних личей
 %%%%
+{many}@num@ animal skins
+@num@ звериных шкур
+%%%%
 {many}@num@ ants
 @num@ муравьёв
 %%%%
@@ -99942,6 +102780,9 @@ your ynoxinuls
 %%%%
 {many}@num@ bardiches
 @num@ бердышей
+%%%%
+{many}@num@ bardings
+@num@ бардингов
 %%%%
 {many}@num@ basilisks
 @num@ василисков
@@ -100168,6 +103009,9 @@ your ynoxinuls
 {many}@num@ boulder beetles
 @num@ жуков-валунов
 %%%%
+{many}@num@ boxes of beasts
+@num@ ящиков зверей
+%%%%
 {many}@num@ broad axes
 @num@ широких топоров
 %%%%
@@ -100210,11 +103054,17 @@ your ynoxinuls
 {many}@num@ clubs
 @num@ дубинок
 %%%%
+{many}@num@ condenser vanes
+@num@ конденсаторов облаков
+%%%%
 {many}@num@ crimson imps
 @num@ багровых бесов
 %%%%
 {many}@num@ crystal guardians
 @num@ кристаллических стражей
+%%%%
+{many}@num@ crystal plate armours
+@num@ кристаллических латных доспехов
 %%%%
 {many}@num@ curse skulls
 @num@ проклятых черепов
@@ -100381,6 +103231,9 @@ your ynoxinuls
 {many}@num@ fenstrider witches
 @num@ болотных ведьм
 %%%%
+{many}@num@ figurines of a ziggurat
+@num@ фигурок зиккурата
+%%%%
 {many}@num@ fire dragon scales
 @num@ чешуй огненного дракона
 %%%%
@@ -100519,6 +103372,9 @@ your ynoxinuls
 {many}@num@ hobgoblins
 @num@ хобгоблинов
 %%%%
+{many}@num@ horns of Geryon
+@num@ рогов Гериона
+%%%%
 {many}@num@ horses
 @num@ лошадей
 %%%%
@@ -100609,11 +103465,17 @@ your ynoxinuls
 {many}@num@ lajatangs
 @num@ ладжатангов
 %%%%
+{many}@num@ large rocks
+@num@ больших камней
+%%%%
 {many}@num@ leather armours
 @num@ кожаных доспехов
 %%%%
 {many}@num@ liches
 @num@ личей
+%%%%
+{many}@num@ lightning rods
+@num@ жезлов молний
 %%%%
 {many}@num@ long swords
 @num@ длинных мечей
@@ -100720,6 +103582,9 @@ your ynoxinuls
 {many}@num@ orb golems
 @num@ сферных големов
 %%%%
+{many}@num@ orbs
+@num@ сфер
+%%%%
 {many}@num@ orbs of fire
 @num@ сфер огня
 %%%%
@@ -100744,6 +103609,9 @@ your ynoxinuls
 {many}@num@ orc wizards
 @num@ орков-волшебников
 %%%%
+{many}@num@ orcbows
+@num@ орочьих луков
+%%%%
 {many}@num@ orcs
 @num@ орков
 %%%%
@@ -100759,8 +103627,14 @@ your ynoxinuls
 {many}@num@ pearl dragons
 @num@ жемчужных драконов
 %%%%
+{many}@num@ phantom mirrors
+@num@ призрачных зеркал
+%%%%
 {many}@num@ phantoms
 @num@ фантомов
+%%%%
+{many}@num@ phials of floods
+@num@ флаконов потопа
 %%%%
 {many}@num@ plate armours
 @num@ латных доспехов
@@ -100959,6 +103833,9 @@ your ynoxinuls
 %%%%
 {many}@num@ rockslimes
 @num@ каменных слизней
+%%%%
+{many}@num@ sacks of spiders
+@num@ мешков пауков
 %%%%
 {many}@num@ sacred scourges
 @num@ священных бичей
@@ -101229,6 +104106,9 @@ your ynoxinuls
 %%%%
 {many}@num@ throwing nets
 @num@ метательных сетей
+%%%%
+{many}@num@ tins of tremorstones
+@num@ коробок сотрясающих камней
 %%%%
 {many}@num@ titans
 @num@ титанов
@@ -101502,6 +104382,12 @@ your ynoxinuls
 %%%%
 {nom}Franceses
 {pl}Фрэнсис
+%%%%
+{nom}Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{nom}Gell's gravitambourines
+{pl}гравитационные бубны Гелла
 %%%%
 {nom}Grand Grimoire
 {m}великий гримуар
@@ -101806,6 +104692,9 @@ your ynoxinuls
 {nom}a Frances
 {f}Фрэнсис
 %%%%
+{nom}a Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
 {nom}a Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -101980,6 +104869,9 @@ your ynoxinuls
 {nom}a ancient lich
 {m}древний лич
 %%%%
+{nom}a animal skin
+{f}звериная шкура
+%%%%
 {nom}a ant
 {m}муравей
 %%%%
@@ -102006,6 +104898,9 @@ your ynoxinuls
 %%%%
 {nom}a bardiche
 {m}бердыш
+%%%%
+{nom}a barding
+{m}бардинг
 %%%%
 {nom}a basilisk
 {m}василиск
@@ -102232,6 +105127,9 @@ your ynoxinuls
 {nom}a boulder beetle
 {m}жук-валун
 %%%%
+{nom}a box of beasts
+{m}ящик зверей
+%%%%
 {nom}a broad axe
 {m}широкий топор
 %%%%
@@ -102274,11 +105172,17 @@ your ynoxinuls
 {nom}a club
 {f}дубинка
 %%%%
+{nom}a condenser vane
+{m}конденсатор облаков
+%%%%
 {nom}a crimson imp
 {m}багровый бес
 %%%%
 {nom}a crystal guardian
 {m}кристаллический страж
+%%%%
+{nom}a crystal plate armour
+{m}кристаллический латный доспех
 %%%%
 {nom}a curse skull
 {m}проклятый череп
@@ -102445,6 +105349,9 @@ your ynoxinuls
 {nom}a fenstrider witch
 {f}болотная ведьма
 %%%%
+{nom}a figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
 {nom}a fire dragon
 {m}огненный дракон
 %%%%
@@ -102583,6 +105490,9 @@ your ynoxinuls
 {nom}a hobgoblin
 {m}хобгоблин
 %%%%
+{nom}a horn of Geryon
+{m}рог Гериона
+%%%%
 {nom}a horse
 {f}лошадь
 %%%%
@@ -102673,11 +105583,17 @@ your ynoxinuls
 {nom}a lajatang
 {m}ладжатанг
 %%%%
+{nom}a large rock
+{m}большой камень
+%%%%
 {nom}a leather armour
 {m}кожаный доспех
 %%%%
 {nom}a lich
 {m}лич
+%%%%
+{nom}a lightning rod
+{m}жезл молний
 %%%%
 {nom}a long sword
 {m}длинный меч
@@ -102781,6 +105697,9 @@ your ynoxinuls
 {nom}a orange demon
 {m}оранжевый демон
 %%%%
+{nom}a orb
+{f}сфера
+%%%%
 {nom}a orb golem
 {m}сферный голем
 %%%%
@@ -102811,6 +105730,9 @@ your ynoxinuls
 {nom}a orc wizard
 {m}орк-волшебник
 %%%%
+{nom}a orcbow
+{m}орочий лук
+%%%%
 {nom}a pale draconian
 {m}бледный дракониан
 %%%%
@@ -102825,6 +105747,12 @@ your ynoxinuls
 %%%%
 {nom}a phantom
 {m}фантом
+%%%%
+{nom}a phantom mirror
+{n}призрачное зеркало
+%%%%
+{nom}a phial of floods
+{m}флакон потопа
 %%%%
 {nom}a plate armour
 {m}латный доспех
@@ -103023,6 +105951,9 @@ your ynoxinuls
 %%%%
 {nom}a rockslime
 {m}каменный слизень
+%%%%
+{nom}a sack of spiders
+{m}мешок пауков
 %%%%
 {nom}a sacred scourge
 {m}священный бич
@@ -103293,6 +106224,9 @@ your ynoxinuls
 %%%%
 {nom}a throwing net
 {f}метательная сеть
+%%%%
+{nom}a tin of tremorstones
+{f}коробка сотрясающих камней
 %%%%
 {nom}a titan
 {m}титан
@@ -103597,6 +106531,9 @@ your ynoxinuls
 {nom}an Frances
 {f}Фрэнсис
 %%%%
+{nom}an Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
 {nom}an Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -103771,6 +106708,9 @@ your ynoxinuls
 {nom}an ancient lich
 {m}древний лич
 %%%%
+{nom}an animal skin
+{f}звериная шкура
+%%%%
 {nom}an ant
 {m}муравей
 %%%%
@@ -103797,6 +106737,9 @@ your ynoxinuls
 %%%%
 {nom}an bardiche
 {m}бердыш
+%%%%
+{nom}an barding
+{m}бардинг
 %%%%
 {nom}an basilisk
 {m}василиск
@@ -104023,6 +106966,9 @@ your ynoxinuls
 {nom}an boulder beetle
 {m}жук-валун
 %%%%
+{nom}an box of beasts
+{m}ящик зверей
+%%%%
 {nom}an broad axe
 {m}широкий топор
 %%%%
@@ -104065,11 +107011,17 @@ your ynoxinuls
 {nom}an club
 {f}дубинка
 %%%%
+{nom}an condenser vane
+{m}конденсатор облаков
+%%%%
 {nom}an crimson imp
 {m}багровый бес
 %%%%
 {nom}an crystal guardian
 {m}кристаллический страж
+%%%%
+{nom}an crystal plate armour
+{m}кристаллический латный доспех
 %%%%
 {nom}an curse skull
 {m}проклятый череп
@@ -104236,6 +107188,9 @@ your ynoxinuls
 {nom}an fenstrider witch
 {f}болотная ведьма
 %%%%
+{nom}an figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
 {nom}an fire dragon
 {m}огненный дракон
 %%%%
@@ -104374,6 +107329,9 @@ your ynoxinuls
 {nom}an hobgoblin
 {m}хобгоблин
 %%%%
+{nom}an horn of Geryon
+{m}рог Гериона
+%%%%
 {nom}an horse
 {f}лошадь
 %%%%
@@ -104464,11 +107422,17 @@ your ynoxinuls
 {nom}an lajatang
 {m}ладжатанг
 %%%%
+{nom}an large rock
+{m}большой камень
+%%%%
 {nom}an leather armour
 {m}кожаный доспех
 %%%%
 {nom}an lich
 {m}лич
+%%%%
+{nom}an lightning rod
+{m}жезл молний
 %%%%
 {nom}an long sword
 {m}длинный меч
@@ -104572,6 +107536,9 @@ your ynoxinuls
 {nom}an orange demon
 {m}оранжевый демон
 %%%%
+{nom}an orb
+{f}сфера
+%%%%
 {nom}an orb golem
 {m}сферный голем
 %%%%
@@ -104602,6 +107569,9 @@ your ynoxinuls
 {nom}an orc wizard
 {m}орк-волшебник
 %%%%
+{nom}an orcbow
+{m}орочий лук
+%%%%
 {nom}an pale draconian
 {m}бледный дракониан
 %%%%
@@ -104616,6 +107586,12 @@ your ynoxinuls
 %%%%
 {nom}an phantom
 {m}фантом
+%%%%
+{nom}an phantom mirror
+{n}призрачное зеркало
+%%%%
+{nom}an phial of floods
+{m}флакон потопа
 %%%%
 {nom}an plate armour
 {m}латный доспех
@@ -104814,6 +107790,9 @@ your ynoxinuls
 %%%%
 {nom}an rockslime
 {m}каменный слизень
+%%%%
+{nom}an sack of spiders
+{m}мешок пауков
 %%%%
 {nom}an sacred scourge
 {m}священный бич
@@ -105085,6 +108064,9 @@ your ynoxinuls
 {nom}an throwing net
 {f}метательная сеть
 %%%%
+{nom}an tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
 {nom}an titan
 {m}титан
 %%%%
@@ -105253,6 +108235,12 @@ your ynoxinuls
 {nom}ancient liches
 {pl}древние личи
 %%%%
+{nom}animal skin
+{f}звериная шкура
+%%%%
+{nom}animal skins
+{pl}звериные шкуры
+%%%%
 {nom}ant
 {m}муравей
 %%%%
@@ -105306,6 +108294,12 @@ your ynoxinuls
 %%%%
 {nom}bardiches
 {pl}бердыши
+%%%%
+{nom}barding
+{m}бардинг
+%%%%
+{nom}bardings
+{pl}бардинги
 %%%%
 {nom}basilisk
 {m}василиск
@@ -105757,6 +108751,12 @@ your ynoxinuls
 {nom}boulder beetles
 {pl}жуки-валуны
 %%%%
+{nom}box of beasts
+{m}ящик зверей
+%%%%
+{nom}boxes of beasts
+{pl}ящики зверей
+%%%%
 {nom}broad axe
 {m}широкий топор
 %%%%
@@ -105841,6 +108841,12 @@ your ynoxinuls
 {nom}clubs
 {pl}дубинки
 %%%%
+{nom}condenser vane
+{m}конденсатор облаков
+%%%%
+{nom}condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {nom}crimson imp
 {m}багровый бес
 %%%%
@@ -105852,6 +108858,12 @@ your ynoxinuls
 %%%%
 {nom}crystal guardians
 {pl}кристаллические стражи
+%%%%
+{nom}crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{nom}crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {nom}curse skull
 {m}проклятый череп
@@ -106177,6 +109189,12 @@ your ynoxinuls
 {nom}fenstrider witches
 {pl}болотные ведьмы
 %%%%
+{nom}figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+{nom}figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {nom}fire dragon
 {m}огненный дракон
 %%%%
@@ -106447,6 +109465,12 @@ your ynoxinuls
 {nom}hobgoblins
 {pl}хобгоблины
 %%%%
+{nom}horn of Geryon
+{m}рог Гериона
+%%%%
+{nom}horns of Geryon
+{pl}рога Гериона
+%%%%
 {nom}horse
 {f}лошадь
 %%%%
@@ -106624,6 +109648,12 @@ your ynoxinuls
 {nom}lajatangs
 {pl}ладжатанги
 %%%%
+{nom}large rock
+{m}большой камень
+%%%%
+{nom}large rocks
+{pl}большие камни
+%%%%
 {nom}leather armour
 {m}кожаный доспех
 %%%%
@@ -106635,6 +109665,12 @@ your ynoxinuls
 %%%%
 {nom}liches
 {pl}личи
+%%%%
+{nom}lightning rod
+{m}жезл молний
+%%%%
+{nom}lightning rods
+{pl}жезлы молний
 %%%%
 {nom}long sword
 {m}длинный меч
@@ -106834,6 +109870,9 @@ your ynoxinuls
 {nom}orange demons
 {pl}оранжевые демоны
 %%%%
+{nom}orb
+{f}сфера
+%%%%
 {nom}orb golem
 {m}сферный голем
 %%%%
@@ -106842,6 +109881,9 @@ your ynoxinuls
 %%%%
 {nom}orb of fire
 {f}сфера огня
+%%%%
+{nom}orbs
+{pl}сферы
 %%%%
 {nom}orbs of fire
 {pl}сферы огня
@@ -106891,6 +109933,12 @@ your ynoxinuls
 {nom}orc wizards
 {pl}орки-волшебники
 %%%%
+{nom}orcbow
+{m}орочий лук
+%%%%
+{nom}orcbows
+{pl}орочьи луки
+%%%%
 {nom}orcs
 {pl}орки
 %%%%
@@ -106918,8 +109966,20 @@ your ynoxinuls
 {nom}phantom
 {m}фантом
 %%%%
+{nom}phantom mirror
+{n}призрачное зеркало
+%%%%
+{nom}phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {nom}phantoms
 {pl}фантомы
+%%%%
+{nom}phial of floods
+{m}флакон потопа
+%%%%
+{nom}phials of floods
+{pl}флаконы потопа
 %%%%
 {nom}plate armour
 {m}латный доспех
@@ -107310,6 +110370,12 @@ your ynoxinuls
 %%%%
 {nom}rockslimes
 {pl}каменные слизни
+%%%%
+{nom}sack of spiders
+{m}мешок пауков
+%%%%
+{nom}sacks of spiders
+{pl}мешки пауков
 %%%%
 {nom}sacred scourge
 {m}священный бич
@@ -107932,6 +110998,12 @@ your ynoxinuls
 {nom}the Franceses
 {pl}Фрэнсис
 %%%%
+{nom}the Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{nom}the Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 {nom}the Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -108274,6 +111346,12 @@ your ynoxinuls
 {nom}the ancient liches
 {pl}древние личи
 %%%%
+{nom}the animal skin
+{f}звериная шкура
+%%%%
+{nom}the animal skins
+{pl}звериные шкуры
+%%%%
 {nom}the ant
 {m}муравей
 %%%%
@@ -108327,6 +111405,12 @@ your ynoxinuls
 %%%%
 {nom}the bardiches
 {pl}бердыши
+%%%%
+{nom}the barding
+{m}бардинг
+%%%%
+{nom}the bardings
+{pl}бардинги
 %%%%
 {nom}the basilisk
 {m}василиск
@@ -108778,6 +111862,12 @@ your ynoxinuls
 {nom}the boulder beetles
 {pl}жуки-валуны
 %%%%
+{nom}the box of beasts
+{m}ящик зверей
+%%%%
+{nom}the boxes of beasts
+{pl}ящики зверей
+%%%%
 {nom}the broad axe
 {m}широкий топор
 %%%%
@@ -108862,6 +111952,12 @@ your ynoxinuls
 {nom}the clubs
 {pl}дубинки
 %%%%
+{nom}the condenser vane
+{m}конденсатор облаков
+%%%%
+{nom}the condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {nom}the crimson imp
 {m}багровый бес
 %%%%
@@ -108873,6 +111969,12 @@ your ynoxinuls
 %%%%
 {nom}the crystal guardians
 {pl}кристаллические стражи
+%%%%
+{nom}the crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{nom}the crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {nom}the curse skull
 {m}проклятый череп
@@ -109198,6 +112300,12 @@ your ynoxinuls
 {nom}the fenstrider witches
 {pl}болотные ведьмы
 %%%%
+{nom}the figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+{nom}the figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {nom}the fire dragon
 {m}огненный дракон
 %%%%
@@ -109468,6 +112576,12 @@ your ynoxinuls
 {nom}the hobgoblins
 {pl}хобгоблины
 %%%%
+{nom}the horn of Geryon
+{m}рог Гериона
+%%%%
+{nom}the horns of Geryon
+{pl}рога Гериона
+%%%%
 {nom}the horse
 {f}лошадь
 %%%%
@@ -109645,6 +112759,12 @@ your ynoxinuls
 {nom}the lajatangs
 {pl}ладжатанги
 %%%%
+{nom}the large rock
+{m}большой камень
+%%%%
+{nom}the large rocks
+{pl}большие камни
+%%%%
 {nom}the leather armour
 {m}кожаный доспех
 %%%%
@@ -109656,6 +112776,12 @@ your ynoxinuls
 %%%%
 {nom}the liches
 {pl}личи
+%%%%
+{nom}the lightning rod
+{m}жезл молний
+%%%%
+{nom}the lightning rods
+{pl}жезлы молний
 %%%%
 {nom}the long sword
 {m}длинный меч
@@ -109855,6 +112981,9 @@ your ynoxinuls
 {nom}the orange demons
 {pl}оранжевые демоны
 %%%%
+{nom}the orb
+{f}сфера
+%%%%
 {nom}the orb golem
 {m}сферный голем
 %%%%
@@ -109863,6 +112992,9 @@ your ynoxinuls
 %%%%
 {nom}the orb of fire
 {f}сфера огня
+%%%%
+{nom}the orbs
+{pl}сферы
 %%%%
 {nom}the orbs of fire
 {pl}сферы огня
@@ -109912,6 +113044,12 @@ your ynoxinuls
 {nom}the orc wizards
 {pl}орки-волшебники
 %%%%
+{nom}the orcbow
+{m}орочий лук
+%%%%
+{nom}the orcbows
+{pl}орочьи луки
+%%%%
 {nom}the orcs
 {pl}орки
 %%%%
@@ -109939,8 +113077,20 @@ your ynoxinuls
 {nom}the phantom
 {m}фантом
 %%%%
+{nom}the phantom mirror
+{n}призрачное зеркало
+%%%%
+{nom}the phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {nom}the phantoms
 {pl}фантомы
+%%%%
+{nom}the phial of floods
+{m}флакон потопа
+%%%%
+{nom}the phials of floods
+{pl}флаконы потопа
 %%%%
 {nom}the plate armour
 {m}латный доспех
@@ -110331,6 +113481,12 @@ your ynoxinuls
 %%%%
 {nom}the rockslimes
 {pl}каменные слизни
+%%%%
+{nom}the sack of spiders
+{m}мешок пауков
+%%%%
+{nom}the sacks of spiders
+{pl}мешки пауков
 %%%%
 {nom}the sacred scourge
 {m}священный бич
@@ -110854,6 +114010,12 @@ your ynoxinuls
 {nom}the throwing nets
 {pl}метательные сети
 %%%%
+{nom}the tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+{nom}the tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 {nom}the titan
 {m}титан
 %%%%
@@ -111183,6 +114345,12 @@ your ynoxinuls
 %%%%
 {nom}throwing nets
 {pl}метательные сети
+%%%%
+{nom}tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+{nom}tins of tremorstones
+{pl}коробки сотрясающих камней
 %%%%
 {nom}titan
 {m}титан
@@ -111613,6 +114781,12 @@ your ynoxinuls
 {nom}your Franceses
 {pl}Фрэнсис
 %%%%
+{nom}your Gell's gravitambourine
+{m}гравитационный бубен Гелла
+%%%%
+{nom}your Gell's gravitambourines
+{pl}гравитационные бубны Гелла
+%%%%
 {nom}your Grand Grimoire
 {m}великий гримуар
 %%%%
@@ -111955,6 +115129,12 @@ your ynoxinuls
 {nom}your ancient liches
 {pl}древние личи
 %%%%
+{nom}your animal skin
+{f}звериная шкура
+%%%%
+{nom}your animal skins
+{pl}звериные шкуры
+%%%%
 {nom}your ant
 {m}муравей
 %%%%
@@ -112008,6 +115188,12 @@ your ynoxinuls
 %%%%
 {nom}your bardiches
 {pl}бердыши
+%%%%
+{nom}your barding
+{m}бардинг
+%%%%
+{nom}your bardings
+{pl}бардинги
 %%%%
 {nom}your basilisk
 {m}василиск
@@ -112459,6 +115645,12 @@ your ynoxinuls
 {nom}your boulder beetles
 {pl}жуки-валуны
 %%%%
+{nom}your box of beasts
+{m}ящик зверей
+%%%%
+{nom}your boxes of beasts
+{pl}ящики зверей
+%%%%
 {nom}your broad axe
 {m}широкий топор
 %%%%
@@ -112543,6 +115735,12 @@ your ynoxinuls
 {nom}your clubs
 {pl}дубинки
 %%%%
+{nom}your condenser vane
+{m}конденсатор облаков
+%%%%
+{nom}your condenser vanes
+{pl}конденсаторы облаков
+%%%%
 {nom}your crimson imp
 {m}багровый бес
 %%%%
@@ -112554,6 +115752,12 @@ your ynoxinuls
 %%%%
 {nom}your crystal guardians
 {pl}кристаллические стражи
+%%%%
+{nom}your crystal plate armour
+{m}кристаллический латный доспех
+%%%%
+{nom}your crystal plate armours
+{pl}кристаллические латные доспехи
 %%%%
 {nom}your curse skull
 {m}проклятый череп
@@ -112879,6 +116083,12 @@ your ynoxinuls
 {nom}your fenstrider witches
 {pl}болотные ведьмы
 %%%%
+{nom}your figurine of a ziggurat
+{f}фигурка зиккурата
+%%%%
+{nom}your figurines of a ziggurat
+{pl}фигурки зиккурата
+%%%%
 {nom}your fire dragon
 {m}огненный дракон
 %%%%
@@ -113149,6 +116359,12 @@ your ynoxinuls
 {nom}your hobgoblins
 {pl}хобгоблины
 %%%%
+{nom}your horn of Geryon
+{m}рог Гериона
+%%%%
+{nom}your horns of Geryon
+{pl}рога Гериона
+%%%%
 {nom}your horse
 {f}лошадь
 %%%%
@@ -113326,6 +116542,12 @@ your ynoxinuls
 {nom}your lajatangs
 {pl}ладжатанги
 %%%%
+{nom}your large rock
+{m}большой камень
+%%%%
+{nom}your large rocks
+{pl}большие камни
+%%%%
 {nom}your leather armour
 {m}кожаный доспех
 %%%%
@@ -113337,6 +116559,12 @@ your ynoxinuls
 %%%%
 {nom}your liches
 {pl}личи
+%%%%
+{nom}your lightning rod
+{m}жезл молний
+%%%%
+{nom}your lightning rods
+{pl}жезлы молний
 %%%%
 {nom}your long sword
 {m}длинный меч
@@ -113536,6 +116764,9 @@ your ynoxinuls
 {nom}your orange demons
 {pl}оранжевые демоны
 %%%%
+{nom}your orb
+{f}сфера
+%%%%
 {nom}your orb golem
 {m}сферный голем
 %%%%
@@ -113544,6 +116775,9 @@ your ynoxinuls
 %%%%
 {nom}your orb of fire
 {f}сфера огня
+%%%%
+{nom}your orbs
+{pl}сферы
 %%%%
 {nom}your orbs of fire
 {pl}сферы огня
@@ -113593,6 +116827,12 @@ your ynoxinuls
 {nom}your orc wizards
 {pl}орки-волшебники
 %%%%
+{nom}your orcbow
+{m}орочий лук
+%%%%
+{nom}your orcbows
+{pl}орочьи луки
+%%%%
 {nom}your orcs
 {pl}орки
 %%%%
@@ -113620,8 +116860,20 @@ your ynoxinuls
 {nom}your phantom
 {m}фантом
 %%%%
+{nom}your phantom mirror
+{n}призрачное зеркало
+%%%%
+{nom}your phantom mirrors
+{pl}призрачные зеркала
+%%%%
 {nom}your phantoms
 {pl}фантомы
+%%%%
+{nom}your phial of floods
+{m}флакон потопа
+%%%%
+{nom}your phials of floods
+{pl}флаконы потопа
 %%%%
 {nom}your plate armour
 {m}латный доспех
@@ -114012,6 +117264,12 @@ your ynoxinuls
 %%%%
 {nom}your rockslimes
 {pl}каменные слизни
+%%%%
+{nom}your sack of spiders
+{m}мешок пауков
+%%%%
+{nom}your sacks of spiders
+{pl}мешки пауков
 %%%%
 {nom}your sacred scourge
 {m}священный бич
@@ -114535,6 +117793,12 @@ your ynoxinuls
 {nom}your throwing nets
 {pl}метательные сети
 %%%%
+{nom}your tin of tremorstones
+{f}коробка сотрясающих камней
+%%%%
+{nom}your tins of tremorstones
+{pl}коробки сотрясающих камней
+%%%%
 {nom}your titan
 {m}титан
 %%%%
@@ -114907,6 +118171,9 @@ your ynoxinuls
 {one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{one}@num@ Gell's gravitambourines
+@num@ гравитационный бубен Гелла
+%%%%
 {one}@num@ Grand Grimoires
 @num@ великий гримуар
 %%%%
@@ -115081,6 +118348,9 @@ your ynoxinuls
 {one}@num@ ancient liches
 @num@ древний лич
 %%%%
+{one}@num@ animal skins
+@num@ звериная шкура
+%%%%
 {one}@num@ ants
 @num@ муравей
 %%%%
@@ -115107,6 +118377,9 @@ your ynoxinuls
 %%%%
 {one}@num@ bardiches
 @num@ бердыш
+%%%%
+{one}@num@ bardings
+@num@ бардинг
 %%%%
 {one}@num@ basilisks
 @num@ василиск
@@ -115333,6 +118606,9 @@ your ynoxinuls
 {one}@num@ boulder beetles
 @num@ жук-валун
 %%%%
+{one}@num@ boxes of beasts
+@num@ ящик зверей
+%%%%
 {one}@num@ broad axes
 @num@ широкий топор
 %%%%
@@ -115375,11 +118651,17 @@ your ynoxinuls
 {one}@num@ clubs
 @num@ дубинка
 %%%%
+{one}@num@ condenser vanes
+@num@ конденсатор облаков
+%%%%
 {one}@num@ crimson imps
 @num@ багровый бес
 %%%%
 {one}@num@ crystal guardians
 @num@ кристаллический страж
+%%%%
+{one}@num@ crystal plate armours
+@num@ кристаллический латный доспех
 %%%%
 {one}@num@ curse skulls
 @num@ проклятый череп
@@ -115546,6 +118828,9 @@ your ynoxinuls
 {one}@num@ fenstrider witches
 @num@ болотная ведьма
 %%%%
+{one}@num@ figurines of a ziggurat
+@num@ фигурка зиккурата
+%%%%
 {one}@num@ fire dragon scales
 @num@ чешуя огненного дракона
 %%%%
@@ -115684,6 +118969,9 @@ your ynoxinuls
 {one}@num@ hobgoblins
 @num@ хобгоблин
 %%%%
+{one}@num@ horns of Geryon
+@num@ рог Гериона
+%%%%
 {one}@num@ horses
 @num@ лошадь
 %%%%
@@ -115774,11 +119062,17 @@ your ynoxinuls
 {one}@num@ lajatangs
 @num@ ладжатанг
 %%%%
+{one}@num@ large rocks
+@num@ большой камень
+%%%%
 {one}@num@ leather armours
 @num@ кожаный доспех
 %%%%
 {one}@num@ liches
 @num@ лич
+%%%%
+{one}@num@ lightning rods
+@num@ жезл молний
 %%%%
 {one}@num@ long swords
 @num@ длинный меч
@@ -115885,6 +119179,9 @@ your ynoxinuls
 {one}@num@ orb golems
 @num@ сферный голем
 %%%%
+{one}@num@ orbs
+@num@ сфера
+%%%%
 {one}@num@ orbs of fire
 @num@ сфера огня
 %%%%
@@ -115909,6 +119206,9 @@ your ynoxinuls
 {one}@num@ orc wizards
 @num@ орк-волшебник
 %%%%
+{one}@num@ orcbows
+@num@ орочий лук
+%%%%
 {one}@num@ orcs
 @num@ орк
 %%%%
@@ -115924,8 +119224,14 @@ your ynoxinuls
 {one}@num@ pearl dragons
 @num@ жемчужный дракон
 %%%%
+{one}@num@ phantom mirrors
+@num@ призрачное зеркало
+%%%%
 {one}@num@ phantoms
 @num@ фантом
+%%%%
+{one}@num@ phials of floods
+@num@ флакон потопа
 %%%%
 {one}@num@ plate armours
 @num@ латный доспех
@@ -116124,6 +119430,9 @@ your ynoxinuls
 %%%%
 {one}@num@ rockslimes
 @num@ каменный слизень
+%%%%
+{one}@num@ sacks of spiders
+@num@ мешок пауков
 %%%%
 {one}@num@ sacred scourges
 @num@ священный бич
@@ -116395,6 +119704,9 @@ your ynoxinuls
 {one}@num@ throwing nets
 @num@ метательная сеть
 %%%%
+{one}@num@ tins of tremorstones
+@num@ коробка сотрясающих камней
+%%%%
 {one}@num@ titans
 @num@ титан
 %%%%
@@ -116611,6 +119923,9 @@ your ynoxinuls
 {prep_few}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{prep_few}@num@ Gell's gravitambourines
+@num@ гравитационных бубнах Гелла
+%%%%
 {prep_few}@num@ Grand Grimoires
 @num@ великих гримуарах
 %%%%
@@ -116785,6 +120100,9 @@ your ynoxinuls
 {prep_few}@num@ ancient liches
 @num@ древних личах
 %%%%
+{prep_few}@num@ animal skins
+@num@ звериных шкурах
+%%%%
 {prep_few}@num@ ants
 @num@ муравьях
 %%%%
@@ -116811,6 +120129,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ bardiches
 @num@ бердышах
+%%%%
+{prep_few}@num@ bardings
+@num@ бардингах
 %%%%
 {prep_few}@num@ basilisks
 @num@ василисках
@@ -117037,6 +120358,9 @@ your ynoxinuls
 {prep_few}@num@ boulder beetles
 @num@ жуках-валунах
 %%%%
+{prep_few}@num@ boxes of beasts
+@num@ ящиках зверей
+%%%%
 {prep_few}@num@ broad axes
 @num@ широких топорах
 %%%%
@@ -117079,11 +120403,17 @@ your ynoxinuls
 {prep_few}@num@ clubs
 @num@ дубинках
 %%%%
+{prep_few}@num@ condenser vanes
+@num@ конденсаторах облаков
+%%%%
 {prep_few}@num@ crimson imps
 @num@ багровых бесах
 %%%%
 {prep_few}@num@ crystal guardians
 @num@ кристаллических стражах
+%%%%
+{prep_few}@num@ crystal plate armours
+@num@ кристаллических латных доспехах
 %%%%
 {prep_few}@num@ curse skulls
 @num@ проклятых черепах
@@ -117250,6 +120580,9 @@ your ynoxinuls
 {prep_few}@num@ fenstrider witches
 @num@ болотных ведьмах
 %%%%
+{prep_few}@num@ figurines of a ziggurat
+@num@ фигурках зиккурата
+%%%%
 {prep_few}@num@ fire dragon scales
 @num@ чешуях огненного дракона
 %%%%
@@ -117388,6 +120721,9 @@ your ynoxinuls
 {prep_few}@num@ hobgoblins
 @num@ хобгоблинах
 %%%%
+{prep_few}@num@ horns of Geryon
+@num@ рогах Гериона
+%%%%
 {prep_few}@num@ horses
 @num@ лошадях
 %%%%
@@ -117478,11 +120814,17 @@ your ynoxinuls
 {prep_few}@num@ lajatangs
 @num@ ладжатангах
 %%%%
+{prep_few}@num@ large rocks
+@num@ больших камнях
+%%%%
 {prep_few}@num@ leather armours
 @num@ кожаных доспехах
 %%%%
 {prep_few}@num@ liches
 @num@ личах
+%%%%
+{prep_few}@num@ lightning rods
+@num@ жезлах молний
 %%%%
 {prep_few}@num@ long swords
 @num@ длинных мечах
@@ -117589,6 +120931,9 @@ your ynoxinuls
 {prep_few}@num@ orb golems
 @num@ сферных големах
 %%%%
+{prep_few}@num@ orbs
+@num@ сферах
+%%%%
 {prep_few}@num@ orbs of fire
 @num@ сферах огня
 %%%%
@@ -117613,6 +120958,9 @@ your ynoxinuls
 {prep_few}@num@ orc wizards
 @num@ орках-волшебниках
 %%%%
+{prep_few}@num@ orcbows
+@num@ орочьих луках
+%%%%
 {prep_few}@num@ orcs
 @num@ орках
 %%%%
@@ -117628,8 +120976,14 @@ your ynoxinuls
 {prep_few}@num@ pearl dragons
 @num@ жемчужных драконах
 %%%%
+{prep_few}@num@ phantom mirrors
+@num@ призрачных зеркалах
+%%%%
 {prep_few}@num@ phantoms
 @num@ фантомах
+%%%%
+{prep_few}@num@ phials of floods
+@num@ флаконах потопа
 %%%%
 {prep_few}@num@ plate armours
 @num@ латных доспехах
@@ -117828,6 +121182,9 @@ your ynoxinuls
 %%%%
 {prep_few}@num@ rockslimes
 @num@ каменных слизнях
+%%%%
+{prep_few}@num@ sacks of spiders
+@num@ мешках пауков
 %%%%
 {prep_few}@num@ sacred scourges
 @num@ священных бичах
@@ -118099,6 +121456,9 @@ your ynoxinuls
 {prep_few}@num@ throwing nets
 @num@ метательных сетях
 %%%%
+{prep_few}@num@ tins of tremorstones
+@num@ коробках сотрясающих камней
+%%%%
 {prep_few}@num@ titans
 @num@ титанах
 %%%%
@@ -118315,6 +121675,9 @@ your ynoxinuls
 {prep_many}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{prep_many}@num@ Gell's gravitambourines
+@num@ гравитационных бубнах Гелла
+%%%%
 {prep_many}@num@ Grand Grimoires
 @num@ великих гримуарах
 %%%%
@@ -118489,6 +121852,9 @@ your ynoxinuls
 {prep_many}@num@ ancient liches
 @num@ древних личах
 %%%%
+{prep_many}@num@ animal skins
+@num@ звериных шкурах
+%%%%
 {prep_many}@num@ ants
 @num@ муравьях
 %%%%
@@ -118515,6 +121881,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ bardiches
 @num@ бердышах
+%%%%
+{prep_many}@num@ bardings
+@num@ бардингах
 %%%%
 {prep_many}@num@ basilisks
 @num@ василисках
@@ -118741,6 +122110,9 @@ your ynoxinuls
 {prep_many}@num@ boulder beetles
 @num@ жуках-валунах
 %%%%
+{prep_many}@num@ boxes of beasts
+@num@ ящиках зверей
+%%%%
 {prep_many}@num@ broad axes
 @num@ широких топорах
 %%%%
@@ -118783,11 +122155,17 @@ your ynoxinuls
 {prep_many}@num@ clubs
 @num@ дубинках
 %%%%
+{prep_many}@num@ condenser vanes
+@num@ конденсаторах облаков
+%%%%
 {prep_many}@num@ crimson imps
 @num@ багровых бесах
 %%%%
 {prep_many}@num@ crystal guardians
 @num@ кристаллических стражах
+%%%%
+{prep_many}@num@ crystal plate armours
+@num@ кристаллических латных доспехах
 %%%%
 {prep_many}@num@ curse skulls
 @num@ проклятых черепах
@@ -118954,6 +122332,9 @@ your ynoxinuls
 {prep_many}@num@ fenstrider witches
 @num@ болотных ведьмах
 %%%%
+{prep_many}@num@ figurines of a ziggurat
+@num@ фигурках зиккурата
+%%%%
 {prep_many}@num@ fire dragon scales
 @num@ чешуях огненного дракона
 %%%%
@@ -119092,6 +122473,9 @@ your ynoxinuls
 {prep_many}@num@ hobgoblins
 @num@ хобгоблинах
 %%%%
+{prep_many}@num@ horns of Geryon
+@num@ рогах Гериона
+%%%%
 {prep_many}@num@ horses
 @num@ лошадях
 %%%%
@@ -119182,11 +122566,17 @@ your ynoxinuls
 {prep_many}@num@ lajatangs
 @num@ ладжатангах
 %%%%
+{prep_many}@num@ large rocks
+@num@ больших камнях
+%%%%
 {prep_many}@num@ leather armours
 @num@ кожаных доспехах
 %%%%
 {prep_many}@num@ liches
 @num@ личах
+%%%%
+{prep_many}@num@ lightning rods
+@num@ жезлах молний
 %%%%
 {prep_many}@num@ long swords
 @num@ длинных мечах
@@ -119293,6 +122683,9 @@ your ynoxinuls
 {prep_many}@num@ orb golems
 @num@ сферных големах
 %%%%
+{prep_many}@num@ orbs
+@num@ сферах
+%%%%
 {prep_many}@num@ orbs of fire
 @num@ сферах огня
 %%%%
@@ -119317,6 +122710,9 @@ your ynoxinuls
 {prep_many}@num@ orc wizards
 @num@ орках-волшебниках
 %%%%
+{prep_many}@num@ orcbows
+@num@ орочьих луках
+%%%%
 {prep_many}@num@ orcs
 @num@ орках
 %%%%
@@ -119332,8 +122728,14 @@ your ynoxinuls
 {prep_many}@num@ pearl dragons
 @num@ жемчужных драконах
 %%%%
+{prep_many}@num@ phantom mirrors
+@num@ призрачных зеркалах
+%%%%
 {prep_many}@num@ phantoms
 @num@ фантомах
+%%%%
+{prep_many}@num@ phials of floods
+@num@ флаконах потопа
 %%%%
 {prep_many}@num@ plate armours
 @num@ латных доспехах
@@ -119532,6 +122934,9 @@ your ynoxinuls
 %%%%
 {prep_many}@num@ rockslimes
 @num@ каменных слизнях
+%%%%
+{prep_many}@num@ sacks of spiders
+@num@ мешках пауков
 %%%%
 {prep_many}@num@ sacred scourges
 @num@ священных бичах
@@ -119803,6 +123208,9 @@ your ynoxinuls
 {prep_many}@num@ throwing nets
 @num@ метательных сетях
 %%%%
+{prep_many}@num@ tins of tremorstones
+@num@ коробках сотрясающих камней
+%%%%
 {prep_many}@num@ titans
 @num@ титанах
 %%%%
@@ -120019,6 +123427,9 @@ your ynoxinuls
 {prep_one}@num@ Franceses
 @num@ Фрэнсис
 %%%%
+{prep_one}@num@ Gell's gravitambourines
+@num@ гравитационном бубне Гелла
+%%%%
 {prep_one}@num@ Grand Grimoires
 @num@ великом гримуаре
 %%%%
@@ -120193,6 +123604,9 @@ your ynoxinuls
 {prep_one}@num@ ancient liches
 @num@ древнем личе
 %%%%
+{prep_one}@num@ animal skins
+@num@ звериной шкуре
+%%%%
 {prep_one}@num@ ants
 @num@ муравье
 %%%%
@@ -120219,6 +123633,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ bardiches
 @num@ бердыше
+%%%%
+{prep_one}@num@ bardings
+@num@ бардинге
 %%%%
 {prep_one}@num@ basilisks
 @num@ василиске
@@ -120445,6 +123862,9 @@ your ynoxinuls
 {prep_one}@num@ boulder beetles
 @num@ жуке-валуне
 %%%%
+{prep_one}@num@ boxes of beasts
+@num@ ящике зверей
+%%%%
 {prep_one}@num@ broad axes
 @num@ широком топоре
 %%%%
@@ -120487,11 +123907,17 @@ your ynoxinuls
 {prep_one}@num@ clubs
 @num@ дубинке
 %%%%
+{prep_one}@num@ condenser vanes
+@num@ конденсаторе облаков
+%%%%
 {prep_one}@num@ crimson imps
 @num@ багровом бесе
 %%%%
 {prep_one}@num@ crystal guardians
 @num@ кристаллическом страже
+%%%%
+{prep_one}@num@ crystal plate armours
+@num@ кристаллическом латном доспехе
 %%%%
 {prep_one}@num@ curse skulls
 @num@ проклятом черепе
@@ -120658,6 +124084,9 @@ your ynoxinuls
 {prep_one}@num@ fenstrider witches
 @num@ болотной ведьме
 %%%%
+{prep_one}@num@ figurines of a ziggurat
+@num@ фигурке зиккурата
+%%%%
 {prep_one}@num@ fire dragon scales
 @num@ чешуе огненного дракона
 %%%%
@@ -120796,6 +124225,9 @@ your ynoxinuls
 {prep_one}@num@ hobgoblins
 @num@ хобгоблине
 %%%%
+{prep_one}@num@ horns of Geryon
+@num@ роге Гериона
+%%%%
 {prep_one}@num@ horses
 @num@ лошади
 %%%%
@@ -120886,11 +124318,17 @@ your ynoxinuls
 {prep_one}@num@ lajatangs
 @num@ ладжатанге
 %%%%
+{prep_one}@num@ large rocks
+@num@ большом камне
+%%%%
 {prep_one}@num@ leather armours
 @num@ кожаном доспехе
 %%%%
 {prep_one}@num@ liches
 @num@ личе
+%%%%
+{prep_one}@num@ lightning rods
+@num@ жезле молний
 %%%%
 {prep_one}@num@ long swords
 @num@ длинном мече
@@ -120997,6 +124435,9 @@ your ynoxinuls
 {prep_one}@num@ orb golems
 @num@ сферном големе
 %%%%
+{prep_one}@num@ orbs
+@num@ сфере
+%%%%
 {prep_one}@num@ orbs of fire
 @num@ сфере огня
 %%%%
@@ -121021,6 +124462,9 @@ your ynoxinuls
 {prep_one}@num@ orc wizards
 @num@ орке-волшебнике
 %%%%
+{prep_one}@num@ orcbows
+@num@ орочьем луке
+%%%%
 {prep_one}@num@ orcs
 @num@ орке
 %%%%
@@ -121036,8 +124480,14 @@ your ynoxinuls
 {prep_one}@num@ pearl dragons
 @num@ жемчужном драконе
 %%%%
+{prep_one}@num@ phantom mirrors
+@num@ призрачном зеркале
+%%%%
 {prep_one}@num@ phantoms
 @num@ фантоме
+%%%%
+{prep_one}@num@ phials of floods
+@num@ флаконе потопа
 %%%%
 {prep_one}@num@ plate armours
 @num@ латном доспехе
@@ -121236,6 +124686,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ rockslimes
 @num@ каменном слизне
+%%%%
+{prep_one}@num@ sacks of spiders
+@num@ мешке пауков
 %%%%
 {prep_one}@num@ sacred scourges
 @num@ священном биче
@@ -121506,6 +124959,9 @@ your ynoxinuls
 %%%%
 {prep_one}@num@ throwing nets
 @num@ метательной сети
+%%%%
+{prep_one}@num@ tins of tremorstones
+@num@ коробке сотрясающих камней
 %%%%
 {prep_one}@num@ titans
 @num@ титане
@@ -121779,6 +125235,12 @@ your ynoxinuls
 %%%%
 {prep}Franceses
 {pl}Фрэнсис
+%%%%
+{prep}Gell's gravitambourine
+{m}гравитационном бубне Гелла
+%%%%
+{prep}Gell's gravitambourines
+{pl}гравитационных бубнах Гелла
 %%%%
 {prep}Grand Grimoire
 {m}великом гримуаре
@@ -122083,6 +125545,9 @@ your ynoxinuls
 {prep}a Frances
 {f}Фрэнсис
 %%%%
+{prep}a Gell's gravitambourine
+{m}гравитационном бубне Гелла
+%%%%
 {prep}a Grand Grimoire
 {m}великом гримуаре
 %%%%
@@ -122257,6 +125722,9 @@ your ynoxinuls
 {prep}a ancient lich
 {m}древнем личе
 %%%%
+{prep}a animal skin
+{f}звериной шкуре
+%%%%
 {prep}a ant
 {m}муравье
 %%%%
@@ -122283,6 +125751,9 @@ your ynoxinuls
 %%%%
 {prep}a bardiche
 {m}бердыше
+%%%%
+{prep}a barding
+{m}бардинге
 %%%%
 {prep}a basilisk
 {m}василиске
@@ -122509,6 +125980,9 @@ your ynoxinuls
 {prep}a boulder beetle
 {m}жуке-валуне
 %%%%
+{prep}a box of beasts
+{m}ящике зверей
+%%%%
 {prep}a broad axe
 {m}широком топоре
 %%%%
@@ -122551,11 +126025,17 @@ your ynoxinuls
 {prep}a club
 {f}дубинке
 %%%%
+{prep}a condenser vane
+{m}конденсаторе облаков
+%%%%
 {prep}a crimson imp
 {m}багровом бесе
 %%%%
 {prep}a crystal guardian
 {m}кристаллическом страже
+%%%%
+{prep}a crystal plate armour
+{m}кристаллическом латном доспехе
 %%%%
 {prep}a curse skull
 {m}проклятом черепе
@@ -122722,6 +126202,9 @@ your ynoxinuls
 {prep}a fenstrider witch
 {f}болотной ведьме
 %%%%
+{prep}a figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
 {prep}a fire dragon
 {m}огненном драконе
 %%%%
@@ -122860,6 +126343,9 @@ your ynoxinuls
 {prep}a hobgoblin
 {m}хобгоблине
 %%%%
+{prep}a horn of Geryon
+{m}роге Гериона
+%%%%
 {prep}a horse
 {f}лошади
 %%%%
@@ -122950,11 +126436,17 @@ your ynoxinuls
 {prep}a lajatang
 {m}ладжатанге
 %%%%
+{prep}a large rock
+{m}большом камне
+%%%%
 {prep}a leather armour
 {m}кожаном доспехе
 %%%%
 {prep}a lich
 {m}личе
+%%%%
+{prep}a lightning rod
+{m}жезле молний
 %%%%
 {prep}a long sword
 {m}длинном мече
@@ -123058,6 +126550,9 @@ your ynoxinuls
 {prep}a orange demon
 {m}оранжевом демоне
 %%%%
+{prep}a orb
+{f}сфере
+%%%%
 {prep}a orb golem
 {m}сферном големе
 %%%%
@@ -123088,6 +126583,9 @@ your ynoxinuls
 {prep}a orc wizard
 {m}орке-волшебнике
 %%%%
+{prep}a orcbow
+{m}орочьем луке
+%%%%
 {prep}a pale draconian
 {m}бледном дракониане
 %%%%
@@ -123102,6 +126600,12 @@ your ynoxinuls
 %%%%
 {prep}a phantom
 {m}фантоме
+%%%%
+{prep}a phantom mirror
+{n}призрачном зеркале
+%%%%
+{prep}a phial of floods
+{m}флаконе потопа
 %%%%
 {prep}a plate armour
 {m}латном доспехе
@@ -123300,6 +126804,9 @@ your ynoxinuls
 %%%%
 {prep}a rockslime
 {m}каменном слизне
+%%%%
+{prep}a sack of spiders
+{m}мешке пауков
 %%%%
 {prep}a sacred scourge
 {m}священном биче
@@ -123570,6 +127077,9 @@ your ynoxinuls
 %%%%
 {prep}a throwing net
 {f}метательной сети
+%%%%
+{prep}a tin of tremorstones
+{f}коробке сотрясающих камней
 %%%%
 {prep}a titan
 {m}титане
@@ -123874,6 +127384,9 @@ your ynoxinuls
 {prep}an Frances
 {f}Фрэнсис
 %%%%
+{prep}an Gell's gravitambourine
+{m}гравитационном бубне Гелла
+%%%%
 {prep}an Grand Grimoire
 {m}великом гримуаре
 %%%%
@@ -124048,6 +127561,9 @@ your ynoxinuls
 {prep}an ancient lich
 {m}древнем личе
 %%%%
+{prep}an animal skin
+{f}звериной шкуре
+%%%%
 {prep}an ant
 {m}муравье
 %%%%
@@ -124074,6 +127590,9 @@ your ynoxinuls
 %%%%
 {prep}an bardiche
 {m}бердыше
+%%%%
+{prep}an barding
+{m}бардинге
 %%%%
 {prep}an basilisk
 {m}василиске
@@ -124300,6 +127819,9 @@ your ynoxinuls
 {prep}an boulder beetle
 {m}жуке-валуне
 %%%%
+{prep}an box of beasts
+{m}ящике зверей
+%%%%
 {prep}an broad axe
 {m}широком топоре
 %%%%
@@ -124342,11 +127864,17 @@ your ynoxinuls
 {prep}an club
 {f}дубинке
 %%%%
+{prep}an condenser vane
+{m}конденсаторе облаков
+%%%%
 {prep}an crimson imp
 {m}багровом бесе
 %%%%
 {prep}an crystal guardian
 {m}кристаллическом страже
+%%%%
+{prep}an crystal plate armour
+{m}кристаллическом латном доспехе
 %%%%
 {prep}an curse skull
 {m}проклятом черепе
@@ -124513,6 +128041,9 @@ your ynoxinuls
 {prep}an fenstrider witch
 {f}болотной ведьме
 %%%%
+{prep}an figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
 {prep}an fire dragon
 {m}огненном драконе
 %%%%
@@ -124651,6 +128182,9 @@ your ynoxinuls
 {prep}an hobgoblin
 {m}хобгоблине
 %%%%
+{prep}an horn of Geryon
+{m}роге Гериона
+%%%%
 {prep}an horse
 {f}лошади
 %%%%
@@ -124741,11 +128275,17 @@ your ynoxinuls
 {prep}an lajatang
 {m}ладжатанге
 %%%%
+{prep}an large rock
+{m}большом камне
+%%%%
 {prep}an leather armour
 {m}кожаном доспехе
 %%%%
 {prep}an lich
 {m}личе
+%%%%
+{prep}an lightning rod
+{m}жезле молний
 %%%%
 {prep}an long sword
 {m}длинном мече
@@ -124849,6 +128389,9 @@ your ynoxinuls
 {prep}an orange demon
 {m}оранжевом демоне
 %%%%
+{prep}an orb
+{f}сфере
+%%%%
 {prep}an orb golem
 {m}сферном големе
 %%%%
@@ -124879,6 +128422,9 @@ your ynoxinuls
 {prep}an orc wizard
 {m}орке-волшебнике
 %%%%
+{prep}an orcbow
+{m}орочьем луке
+%%%%
 {prep}an pale draconian
 {m}бледном дракониане
 %%%%
@@ -124893,6 +128439,12 @@ your ynoxinuls
 %%%%
 {prep}an phantom
 {m}фантоме
+%%%%
+{prep}an phantom mirror
+{n}призрачном зеркале
+%%%%
+{prep}an phial of floods
+{m}флаконе потопа
 %%%%
 {prep}an plate armour
 {m}латном доспехе
@@ -125091,6 +128643,9 @@ your ynoxinuls
 %%%%
 {prep}an rockslime
 {m}каменном слизне
+%%%%
+{prep}an sack of spiders
+{m}мешке пауков
 %%%%
 {prep}an sacred scourge
 {m}священном биче
@@ -125362,6 +128917,9 @@ your ynoxinuls
 {prep}an throwing net
 {f}метательной сети
 %%%%
+{prep}an tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
 {prep}an titan
 {m}титане
 %%%%
@@ -125530,6 +129088,12 @@ your ynoxinuls
 {prep}ancient liches
 {pl}древних личах
 %%%%
+{prep}animal skin
+{f}звериной шкуре
+%%%%
+{prep}animal skins
+{pl}звериных шкурах
+%%%%
 {prep}ant
 {m}муравье
 %%%%
@@ -125583,6 +129147,12 @@ your ynoxinuls
 %%%%
 {prep}bardiches
 {pl}бердышах
+%%%%
+{prep}barding
+{m}бардинге
+%%%%
+{prep}bardings
+{pl}бардингах
 %%%%
 {prep}basilisk
 {m}василиске
@@ -126034,6 +129604,12 @@ your ynoxinuls
 {prep}boulder beetles
 {pl}жуках-валунах
 %%%%
+{prep}box of beasts
+{m}ящике зверей
+%%%%
+{prep}boxes of beasts
+{pl}ящиках зверей
+%%%%
 {prep}broad axe
 {m}широком топоре
 %%%%
@@ -126118,6 +129694,12 @@ your ynoxinuls
 {prep}clubs
 {pl}дубинках
 %%%%
+{prep}condenser vane
+{m}конденсаторе облаков
+%%%%
+{prep}condenser vanes
+{pl}конденсаторах облаков
+%%%%
 {prep}crimson imp
 {m}багровом бесе
 %%%%
@@ -126129,6 +129711,12 @@ your ynoxinuls
 %%%%
 {prep}crystal guardians
 {pl}кристаллических стражах
+%%%%
+{prep}crystal plate armour
+{m}кристаллическом латном доспехе
+%%%%
+{prep}crystal plate armours
+{pl}кристаллических латных доспехах
 %%%%
 {prep}curse skull
 {m}проклятом черепе
@@ -126454,6 +130042,12 @@ your ynoxinuls
 {prep}fenstrider witches
 {pl}болотных ведьмах
 %%%%
+{prep}figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{prep}figurines of a ziggurat
+{pl}фигурках зиккурата
+%%%%
 {prep}fire dragon
 {m}огненном драконе
 %%%%
@@ -126724,6 +130318,12 @@ your ynoxinuls
 {prep}hobgoblins
 {pl}хобгоблинах
 %%%%
+{prep}horn of Geryon
+{m}роге Гериона
+%%%%
+{prep}horns of Geryon
+{pl}рогах Гериона
+%%%%
 {prep}horse
 {f}лошади
 %%%%
@@ -126901,6 +130501,12 @@ your ynoxinuls
 {prep}lajatangs
 {pl}ладжатангах
 %%%%
+{prep}large rock
+{m}большом камне
+%%%%
+{prep}large rocks
+{pl}больших камнях
+%%%%
 {prep}leather armour
 {m}кожаном доспехе
 %%%%
@@ -126912,6 +130518,12 @@ your ynoxinuls
 %%%%
 {prep}liches
 {pl}личах
+%%%%
+{prep}lightning rod
+{m}жезле молний
+%%%%
+{prep}lightning rods
+{pl}жезлах молний
 %%%%
 {prep}long sword
 {m}длинном мече
@@ -127111,6 +130723,9 @@ your ynoxinuls
 {prep}orange demons
 {pl}оранжевых демонах
 %%%%
+{prep}orb
+{f}сфере
+%%%%
 {prep}orb golem
 {m}сферном големе
 %%%%
@@ -127119,6 +130734,9 @@ your ynoxinuls
 %%%%
 {prep}orb of fire
 {f}сфере огня
+%%%%
+{prep}orbs
+{pl}сферах
 %%%%
 {prep}orbs of fire
 {pl}сферах огня
@@ -127168,6 +130786,12 @@ your ynoxinuls
 {prep}orc wizards
 {pl}орках-волшебниках
 %%%%
+{prep}orcbow
+{m}орочьем луке
+%%%%
+{prep}orcbows
+{pl}орочьих луках
+%%%%
 {prep}orcs
 {pl}орках
 %%%%
@@ -127195,8 +130819,20 @@ your ynoxinuls
 {prep}phantom
 {m}фантоме
 %%%%
+{prep}phantom mirror
+{n}призрачном зеркале
+%%%%
+{prep}phantom mirrors
+{pl}призрачных зеркалах
+%%%%
 {prep}phantoms
 {pl}фантомах
+%%%%
+{prep}phial of floods
+{m}флаконе потопа
+%%%%
+{prep}phials of floods
+{pl}флаконах потопа
 %%%%
 {prep}plate armour
 {m}латном доспехе
@@ -127587,6 +131223,12 @@ your ynoxinuls
 %%%%
 {prep}rockslimes
 {pl}каменных слизнях
+%%%%
+{prep}sack of spiders
+{m}мешке пауков
+%%%%
+{prep}sacks of spiders
+{pl}мешках пауков
 %%%%
 {prep}sacred scourge
 {m}священном биче
@@ -128209,6 +131851,12 @@ your ynoxinuls
 {prep}the Franceses
 {pl}Фрэнсис
 %%%%
+{prep}the Gell's gravitambourine
+{m}гравитационном бубне Гелла
+%%%%
+{prep}the Gell's gravitambourines
+{pl}гравитационных бубнах Гелла
+%%%%
 {prep}the Grand Grimoire
 {m}великом гримуаре
 %%%%
@@ -128551,6 +132199,12 @@ your ynoxinuls
 {prep}the ancient liches
 {pl}древних личах
 %%%%
+{prep}the animal skin
+{f}звериной шкуре
+%%%%
+{prep}the animal skins
+{pl}звериных шкурах
+%%%%
 {prep}the ant
 {m}муравье
 %%%%
@@ -128604,6 +132258,12 @@ your ynoxinuls
 %%%%
 {prep}the bardiches
 {pl}бердышах
+%%%%
+{prep}the barding
+{m}бардинге
+%%%%
+{prep}the bardings
+{pl}бардингах
 %%%%
 {prep}the basilisk
 {m}василиске
@@ -129055,6 +132715,12 @@ your ynoxinuls
 {prep}the boulder beetles
 {pl}жуках-валунах
 %%%%
+{prep}the box of beasts
+{m}ящике зверей
+%%%%
+{prep}the boxes of beasts
+{pl}ящиках зверей
+%%%%
 {prep}the broad axe
 {m}широком топоре
 %%%%
@@ -129139,6 +132805,12 @@ your ynoxinuls
 {prep}the clubs
 {pl}дубинках
 %%%%
+{prep}the condenser vane
+{m}конденсаторе облаков
+%%%%
+{prep}the condenser vanes
+{pl}конденсаторах облаков
+%%%%
 {prep}the crimson imp
 {m}багровом бесе
 %%%%
@@ -129150,6 +132822,12 @@ your ynoxinuls
 %%%%
 {prep}the crystal guardians
 {pl}кристаллических стражах
+%%%%
+{prep}the crystal plate armour
+{m}кристаллическом латном доспехе
+%%%%
+{prep}the crystal plate armours
+{pl}кристаллических латных доспехах
 %%%%
 {prep}the curse skull
 {m}проклятом черепе
@@ -129475,6 +133153,12 @@ your ynoxinuls
 {prep}the fenstrider witches
 {pl}болотных ведьмах
 %%%%
+{prep}the figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{prep}the figurines of a ziggurat
+{pl}фигурках зиккурата
+%%%%
 {prep}the fire dragon
 {m}огненном драконе
 %%%%
@@ -129745,6 +133429,12 @@ your ynoxinuls
 {prep}the hobgoblins
 {pl}хобгоблинах
 %%%%
+{prep}the horn of Geryon
+{m}роге Гериона
+%%%%
+{prep}the horns of Geryon
+{pl}рогах Гериона
+%%%%
 {prep}the horse
 {f}лошади
 %%%%
@@ -129922,6 +133612,12 @@ your ynoxinuls
 {prep}the lajatangs
 {pl}ладжатангах
 %%%%
+{prep}the large rock
+{m}большом камне
+%%%%
+{prep}the large rocks
+{pl}больших камнях
+%%%%
 {prep}the leather armour
 {m}кожаном доспехе
 %%%%
@@ -129933,6 +133629,12 @@ your ynoxinuls
 %%%%
 {prep}the liches
 {pl}личах
+%%%%
+{prep}the lightning rod
+{m}жезле молний
+%%%%
+{prep}the lightning rods
+{pl}жезлах молний
 %%%%
 {prep}the long sword
 {m}длинном мече
@@ -130132,6 +133834,9 @@ your ynoxinuls
 {prep}the orange demons
 {pl}оранжевых демонах
 %%%%
+{prep}the orb
+{f}сфере
+%%%%
 {prep}the orb golem
 {m}сферном големе
 %%%%
@@ -130140,6 +133845,9 @@ your ynoxinuls
 %%%%
 {prep}the orb of fire
 {f}сфере огня
+%%%%
+{prep}the orbs
+{pl}сферах
 %%%%
 {prep}the orbs of fire
 {pl}сферах огня
@@ -130189,6 +133897,12 @@ your ynoxinuls
 {prep}the orc wizards
 {pl}орках-волшебниках
 %%%%
+{prep}the orcbow
+{m}орочьем луке
+%%%%
+{prep}the orcbows
+{pl}орочьих луках
+%%%%
 {prep}the orcs
 {pl}орках
 %%%%
@@ -130216,8 +133930,20 @@ your ynoxinuls
 {prep}the phantom
 {m}фантоме
 %%%%
+{prep}the phantom mirror
+{n}призрачном зеркале
+%%%%
+{prep}the phantom mirrors
+{pl}призрачных зеркалах
+%%%%
 {prep}the phantoms
 {pl}фантомах
+%%%%
+{prep}the phial of floods
+{m}флаконе потопа
+%%%%
+{prep}the phials of floods
+{pl}флаконах потопа
 %%%%
 {prep}the plate armour
 {m}латном доспехе
@@ -130608,6 +134334,12 @@ your ynoxinuls
 %%%%
 {prep}the rockslimes
 {pl}каменных слизнях
+%%%%
+{prep}the sack of spiders
+{m}мешке пауков
+%%%%
+{prep}the sacks of spiders
+{pl}мешках пауков
 %%%%
 {prep}the sacred scourge
 {m}священном биче
@@ -131131,6 +134863,12 @@ your ynoxinuls
 {prep}the throwing nets
 {pl}метательных сетях
 %%%%
+{prep}the tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{prep}the tins of tremorstones
+{pl}коробках сотрясающих камней
+%%%%
 {prep}the titan
 {m}титане
 %%%%
@@ -131460,6 +135198,12 @@ your ynoxinuls
 %%%%
 {prep}throwing nets
 {pl}метательных сетях
+%%%%
+{prep}tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{prep}tins of tremorstones
+{pl}коробках сотрясающих камней
 %%%%
 {prep}titan
 {m}титане
@@ -131890,6 +135634,12 @@ your ynoxinuls
 {prep}your Franceses
 {pl}Фрэнсис
 %%%%
+{prep}your Gell's gravitambourine
+{m}гравитационном бубне Гелла
+%%%%
+{prep}your Gell's gravitambourines
+{pl}гравитационных бубнах Гелла
+%%%%
 {prep}your Grand Grimoire
 {m}великом гримуаре
 %%%%
@@ -132232,6 +135982,12 @@ your ynoxinuls
 {prep}your ancient liches
 {pl}древних личах
 %%%%
+{prep}your animal skin
+{f}звериной шкуре
+%%%%
+{prep}your animal skins
+{pl}звериных шкурах
+%%%%
 {prep}your ant
 {m}муравье
 %%%%
@@ -132285,6 +136041,12 @@ your ynoxinuls
 %%%%
 {prep}your bardiches
 {pl}бердышах
+%%%%
+{prep}your barding
+{m}бардинге
+%%%%
+{prep}your bardings
+{pl}бардингах
 %%%%
 {prep}your basilisk
 {m}василиске
@@ -132736,6 +136498,12 @@ your ynoxinuls
 {prep}your boulder beetles
 {pl}жуках-валунах
 %%%%
+{prep}your box of beasts
+{m}ящике зверей
+%%%%
+{prep}your boxes of beasts
+{pl}ящиках зверей
+%%%%
 {prep}your broad axe
 {m}широком топоре
 %%%%
@@ -132820,6 +136588,12 @@ your ynoxinuls
 {prep}your clubs
 {pl}дубинках
 %%%%
+{prep}your condenser vane
+{m}конденсаторе облаков
+%%%%
+{prep}your condenser vanes
+{pl}конденсаторах облаков
+%%%%
 {prep}your crimson imp
 {m}багровом бесе
 %%%%
@@ -132831,6 +136605,12 @@ your ynoxinuls
 %%%%
 {prep}your crystal guardians
 {pl}кристаллических стражах
+%%%%
+{prep}your crystal plate armour
+{m}кристаллическом латном доспехе
+%%%%
+{prep}your crystal plate armours
+{pl}кристаллических латных доспехах
 %%%%
 {prep}your curse skull
 {m}проклятом черепе
@@ -133156,6 +136936,12 @@ your ynoxinuls
 {prep}your fenstrider witches
 {pl}болотных ведьмах
 %%%%
+{prep}your figurine of a ziggurat
+{f}фигурке зиккурата
+%%%%
+{prep}your figurines of a ziggurat
+{pl}фигурках зиккурата
+%%%%
 {prep}your fire dragon
 {m}огненном драконе
 %%%%
@@ -133426,6 +137212,12 @@ your ynoxinuls
 {prep}your hobgoblins
 {pl}хобгоблинах
 %%%%
+{prep}your horn of Geryon
+{m}роге Гериона
+%%%%
+{prep}your horns of Geryon
+{pl}рогах Гериона
+%%%%
 {prep}your horse
 {f}лошади
 %%%%
@@ -133603,6 +137395,12 @@ your ynoxinuls
 {prep}your lajatangs
 {pl}ладжатангах
 %%%%
+{prep}your large rock
+{m}большом камне
+%%%%
+{prep}your large rocks
+{pl}больших камнях
+%%%%
 {prep}your leather armour
 {m}кожаном доспехе
 %%%%
@@ -133614,6 +137412,12 @@ your ynoxinuls
 %%%%
 {prep}your liches
 {pl}личах
+%%%%
+{prep}your lightning rod
+{m}жезле молний
+%%%%
+{prep}your lightning rods
+{pl}жезлах молний
 %%%%
 {prep}your long sword
 {m}длинном мече
@@ -133813,6 +137617,9 @@ your ynoxinuls
 {prep}your orange demons
 {pl}оранжевых демонах
 %%%%
+{prep}your orb
+{f}сфере
+%%%%
 {prep}your orb golem
 {m}сферном големе
 %%%%
@@ -133821,6 +137628,9 @@ your ynoxinuls
 %%%%
 {prep}your orb of fire
 {f}сфере огня
+%%%%
+{prep}your orbs
+{pl}сферах
 %%%%
 {prep}your orbs of fire
 {pl}сферах огня
@@ -133870,6 +137680,12 @@ your ynoxinuls
 {prep}your orc wizards
 {pl}орках-волшебниках
 %%%%
+{prep}your orcbow
+{m}орочьем луке
+%%%%
+{prep}your orcbows
+{pl}орочьих луках
+%%%%
 {prep}your orcs
 {pl}орках
 %%%%
@@ -133897,8 +137713,20 @@ your ynoxinuls
 {prep}your phantom
 {m}фантоме
 %%%%
+{prep}your phantom mirror
+{n}призрачном зеркале
+%%%%
+{prep}your phantom mirrors
+{pl}призрачных зеркалах
+%%%%
 {prep}your phantoms
 {pl}фантомах
+%%%%
+{prep}your phial of floods
+{m}флаконе потопа
+%%%%
+{prep}your phials of floods
+{pl}флаконах потопа
 %%%%
 {prep}your plate armour
 {m}латном доспехе
@@ -134289,6 +138117,12 @@ your ynoxinuls
 %%%%
 {prep}your rockslimes
 {pl}каменных слизнях
+%%%%
+{prep}your sack of spiders
+{m}мешке пауков
+%%%%
+{prep}your sacks of spiders
+{pl}мешках пауков
 %%%%
 {prep}your sacred scourge
 {m}священном биче
@@ -134811,6 +138645,12 @@ your ynoxinuls
 %%%%
 {prep}your throwing nets
 {pl}метательных сетях
+%%%%
+{prep}your tin of tremorstones
+{f}коробке сотрясающих камней
+%%%%
+{prep}your tins of tremorstones
+{pl}коробках сотрясающих камней
 %%%%
 {prep}your titan
 {m}титане

@@ -65573,6 +65573,10 @@
     "{acc_many}@num@ @creature@ shaped blocks of ice": {
       "context": "mon-info.cc common_name MONS_PILLAR_OF_SALT/MONS_BLOCK_OF_ICE appends shaped pillar/block to base monster _core_name, with a SPACE, not a hyphen. Canonical head names remain соляной столп / ледяная глыба; these remnants are inanimate. The outer noun declines by requested case, while the dependent creature after в форме always takes genitive. Raw carriers are required for context templates. Singular/plural and count one/few/many are separate; 2 соляных столпа vs 2 ледяные глыбы. Counting remnants must not count the base creature. English a/the/your determiners remain part of the creature capture and existing entity lookups handle them. No new monster types, unique names, internal IDs or gameplay mechanics.",
       "translation_sha256": "fb3e67b4c25d734152bbcd198d6977b0afc2b65140c8b76e1700592429ff6f4c"
+    },
+    "Metamorph": {
+      "context": "job-groups.h/newgame.cc job_group heading for Shapeshifter, Stalker and Mystic. This is the character creation category, distinct from the Shapeshifter background. Also the ordinary Shapeshifting skill rank; Метаморф suits both contexts. Observed English heading in the real WebTiles background screen on 12 November. No job IDs changed.",
+      "translation_sha256": "961c8e39b17ba0843633c6cb14a7f59e1f5a5ada2272460173d276faf1e646a0"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

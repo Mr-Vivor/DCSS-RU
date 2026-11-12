@@ -101,9 +101,13 @@ def main():
                     page.screenshot(path=str(ARTIFACTS / "russian-species-choice.png"), full_page=True)
                     page.get_by_text("j - Человек", exact=True).click()
                     page.get_by_text("Выберите предысторию.", exact=False).wait_for(state="visible")
+                    assert "Метаморф" in page.locator("body").inner_text()
+                    assert "Metamorph" not in page.locator("body").inner_text()
                     page.screenshot(path=str(ARTIFACTS / "russian-background-choice.png"), full_page=True)
                     page.get_by_text("a - Воин", exact=True).click()
                     page.get_by_text("a - рапира", exact=True).wait_for(state="visible")
+                    assert "(+0 обуч.)" in page.locator("body").inner_text()
+                    assert " apt)" not in page.locator("body").inner_text()
                     # Reproduce the stale-process/error dialog left above a
                     # hidden lobby. The game can advance by keyboard while its
                     # full-screen overlay still intercepts pointer input.

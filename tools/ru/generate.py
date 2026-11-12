@@ -279,7 +279,10 @@ def outputs(entities):
         index.append(f"| `{entity['id']}` | [{title}](pages/{entity['id']}.md) | {entity['en']} | {entity['review']} |")
         page = [f"# {title}", "", f"**English:** {entity['en']}", f"**ID:** `{entity['id']}`", ""]
         content_path = ROOT / "wiki/ru/content" / (entity["id"] + ".md")
-        reviewed_entry = reviewed.get("items" if entity["kind"] == "item" else "monsters", {}).get(entity["en"])
+        descriptions = reviewed.get("items" if entity["kind"] == "item" else "monsters", {})
+        # DescriptionDB folds its keys; display names can retain a proper
+        # name's capital letter (e.g. Gell's gravitambourine).
+        reviewed_entry = descriptions.get(entity["en"]) or descriptions.get(entity["en"].lower())
         if reviewed_entry:
             page.extend(("## Описание в игре", "", reviewed_entry["text"], ""))
         if content_path.exists():

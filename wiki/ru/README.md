@@ -576,3 +576,19 @@
 | `item.pearl_dragon_scales` | [Чешуя жемчужного дракона](pages/item.pearl_dragon_scales.md) | pearl dragon scales | reviewed |
 | `item.shadow_dragon_scales` | [Чешуя теневого дракона](pages/item.shadow_dragon_scales.md) | shadow dragon scales | reviewed |
 | `item.quicksilver_dragon_scales` | [Чешуя ртутного дракона](pages/item.quicksilver_dragon_scales.md) | quicksilver dragon scales | reviewed |
+| `item.animal_skin` | [Звериная шкура](pages/item.animal_skin.md) | animal skin | reviewed |
+| `item.barding` | [Бардинг](pages/item.barding.md) | barding | reviewed |
+| `item.crystal_plate_armour` | [Кристаллический латный доспех](pages/item.crystal_plate_armour.md) | crystal plate armour | reviewed |
+| `item.orb` | [Сфера](pages/item.orb.md) | orb | reviewed |
+| `item.large_rock` | [Большой камень](pages/item.large_rock.md) | large rock | reviewed |
+| `item.orcbow` | [Орочий лук](pages/item.orcbow.md) | orcbow | reviewed |
+| `item.box_of_beasts` | [Ящик зверей](pages/item.box_of_beasts.md) | box of beasts | reviewed |
+| `item.condenser_vane` | [Конденсатор облаков](pages/item.condenser_vane.md) | condenser vane | reviewed |
+| `item.figurine_of_a_ziggurat` | [Фигурка зиккурата](pages/item.figurine_of_a_ziggurat.md) | figurine of a ziggurat | reviewed |
+| `item.horn_of_geryon` | [Рог Гериона](pages/item.horn_of_geryon.md) | horn of Geryon | reviewed |
+| `item.lightning_rod` | [Жезл молний](pages/item.lightning_rod.md) | lightning rod | reviewed |
+| `item.phial_of_floods` | [Флакон потопа](pages/item.phial_of_floods.md) | phial of floods | reviewed |
+| `item.sack_of_spiders` | [Мешок пауков](pages/item.sack_of_spiders.md) | sack of spiders | reviewed |
+| `item.tin_of_tremorstones` | [Коробка сотрясающих камней](pages/item.tin_of_tremorstones.md) | tin of tremorstones | reviewed |
+| `item.gells_gravitambourine` | [Гравитационный бубен Гелла](pages/item.gells_gravitambourine.md) | Gell's gravitambourine | reviewed |
+| `item.phantom_mirror` | [Призрачное зеркало](pages/item.phantom_mirror.md) | phantom mirror | reviewed |
