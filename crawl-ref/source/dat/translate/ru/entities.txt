@@ -24419,7 +24419,7 @@ your ynoxinuls
 @num@ Фрэнсис
 %%%%
 {acc_few}@num@ Gell's gravitambourines
-@num@ гравитационного бубна Гелла
+@num@ гравитационных бубна Гелла
 %%%%
 {acc_few}@num@ Grand Grimoires
 @num@ великих гримуара
@@ -24908,7 +24908,7 @@ your ynoxinuls
 @num@ кристаллических стражей
 %%%%
 {acc_few}@num@ crystal plate armours
-@num@ кристаллического латного доспеха
+@num@ кристаллических латных доспеха
 %%%%
 {acc_few}@num@ curse skulls
 @num@ проклятых черепа
@@ -25310,7 +25310,7 @@ your ynoxinuls
 @num@ ладжатанга
 %%%%
 {acc_few}@num@ large rocks
-@num@ большого камня
+@num@ больших камня
 %%%%
 {acc_few}@num@ leather armours
 @num@ кожаных доспеха
@@ -25454,7 +25454,7 @@ your ynoxinuls
 @num@ орков-волшебников
 %%%%
 {acc_few}@num@ orcbows
-@num@ орочьего лука
+@num@ орочьих лука
 %%%%
 {acc_few}@num@ orcs
 @num@ орков
@@ -25472,7 +25472,7 @@ your ynoxinuls
 @num@ жемчужных драконов
 %%%%
 {acc_few}@num@ phantom mirrors
-@num@ призрачного зеркала
+@num@ призрачных зеркала
 %%%%
 {acc_few}@num@ phantoms
 @num@ фантомов
@@ -62621,7 +62621,7 @@ your ynoxinuls
 @num@ Фрэнсис
 %%%%
 {few}@num@ Gell's gravitambourines
-@num@ гравитационного бубна Гелла
+@num@ гравитационных бубна Гелла
 %%%%
 {few}@num@ Grand Grimoires
 @num@ великих гримуара
@@ -63110,7 +63110,7 @@ your ynoxinuls
 @num@ кристаллических стража
 %%%%
 {few}@num@ crystal plate armours
-@num@ кристаллического латного доспеха
+@num@ кристаллических латных доспеха
 %%%%
 {few}@num@ curse skulls
 @num@ проклятых черепа
@@ -63512,7 +63512,7 @@ your ynoxinuls
 @num@ ладжатанга
 %%%%
 {few}@num@ large rocks
-@num@ большого камня
+@num@ больших камня
 %%%%
 {few}@num@ leather armours
 @num@ кожаных доспеха
@@ -63656,7 +63656,7 @@ your ynoxinuls
 @num@ орка-волшебника
 %%%%
 {few}@num@ orcbows
-@num@ орочьего лука
+@num@ орочьих лука
 %%%%
 {few}@num@ orcs
 @num@ орка
@@ -63674,7 +63674,7 @@ your ynoxinuls
 @num@ жемчужных дракона
 %%%%
 {few}@num@ phantom mirrors
-@num@ призрачного зеркала
+@num@ призрачных зеркала
 %%%%
 {few}@num@ phantoms
 @num@ фантома
@@ -102513,6 +102513,888 @@ your ynoxinuls
 %%%%
 {ins}your ynoxinuls
 {pl}иноксинулами
+%%%%
+{item-base}Codex of Conductivity
+кодекс проводимости
+%%%%
+{item-base}Compendium of Siegecraft
+свод осадного искусства
+%%%%
+{item-base}Everburning Encyclopedia
+вечно пылающая энциклопедия
+%%%%
+{item-base}Fen Folio
+болотный фолиант
+%%%%
+{item-base}Gell's gravitambourine
+гравитационный бубен Гелла
+%%%%
+{item-base}Grand Grimoire
+великий гримуар
+%%%%
+{item-base}Handbook of Applied Construction
+руководство по прикладному строительству
+%%%%
+{item-base}Necronomicon
+Некрономикон
+%%%%
+{item-base}There-And-Back Book
+книга «Туда и обратно»
+%%%%
+{item-base}Treatise on Traps
+трактат о ловушках
+%%%%
+{item-base}Trismegistus Codex
+кодекс Трисмегиста
+%%%%
+{item-base}Young Poisoner's Handbook
+пособие юного отравителя
+%%%%
+{item-base}acid dragon scales
+чешуя кислотного дракона
+%%%%
+{item-base}amulet
+амулет
+%%%%
+{item-base}amulet of chemistry
+амулет химии
+%%%%
+{item-base}amulet of dissipation
+амулет рассеивания
+%%%%
+{item-base}amulet of faith
+амулет веры
+%%%%
+{item-base}amulet of guardian spirit
+амулет духа-хранителя
+%%%%
+{item-base}amulet of magic regeneration
+амулет регенерации магии
+%%%%
+{item-base}amulet of nothing
+амулет без свойств
+%%%%
+{item-base}amulet of reflection
+амулет отражения
+%%%%
+{item-base}amulet of regeneration
+амулет регенерации
+%%%%
+{item-base}amulet of the acrobat
+амулет акробата
+%%%%
+{item-base}amulet of wildshape
+амулет оборотничества
+%%%%
+{item-base}animal skin
+звериная шкура
+%%%%
+{item-base}arbalest
+арбалет
+%%%%
+{item-base}athame
+атам
+%%%%
+{item-base}azure gem
+лазурный самоцвет
+%%%%
+{item-base}bardiche
+бердыш
+%%%%
+{item-base}barding
+бардинг
+%%%%
+{item-base}battleaxe
+секира
+%%%%
+{item-base}blade talisman
+талисман клинков
+%%%%
+{item-base}book of Air
+книга воздуха
+%%%%
+{item-base}book of Annihilations
+книга уничтожения
+%%%%
+{item-base}book of Armaments
+книга вооружения
+%%%%
+{item-base}book of Battle
+книга битвы
+%%%%
+{item-base}book of Beasts
+книга зверей
+%%%%
+{item-base}book of Blasting
+книга взрывов
+%%%%
+{item-base}book of Blood
+книга крови
+%%%%
+{item-base}book of Burglary
+книга взлома
+%%%%
+{item-base}book of Callings
+книга призывов
+%%%%
+{item-base}book of Cantrips
+книга простых чар
+%%%%
+{item-base}book of Chaos
+книга хаоса
+%%%%
+{item-base}book of Conjurations
+книга разрушения
+%%%%
+{item-base}book of Contraptions
+книга механизмов
+%%%%
+{item-base}book of Cryoformation
+книга ледяного зодчества
+%%%%
+{item-base}book of Dangerous Friends
+книга опасных друзей
+%%%%
+{item-base}book of Death
+книга смерти
+%%%%
+{item-base}book of Debilitation
+книга ослабления
+%%%%
+{item-base}book of Decay
+книга тления
+%%%%
+{item-base}book of Displacement
+книга смещения
+%%%%
+{item-base}book of Dreams
+книга сновидений
+%%%%
+{item-base}book of Duality
+книга двойственности
+%%%%
+{item-base}book of Fire
+книга огня
+%%%%
+{item-base}book of Fixed Theme
+тематическая книга заклинаний
+%%%%
+{item-base}book of Flames
+книга пламени
+%%%%
+{item-base}book of Frost
+книга мороза
+%%%%
+{item-base}book of Geomancy
+книга геомантии
+%%%%
+{item-base}book of Hexes
+книга проклятий
+%%%%
+{item-base}book of Ice
+книга льда
+%%%%
+{item-base}book of Iron
+книга железа
+%%%%
+{item-base}book of Lightning
+книга молний
+%%%%
+{item-base}book of Maladies
+книга недугов
+%%%%
+{item-base}book of Metalworking
+книга обработки металлов
+%%%%
+{item-base}book of Minor Magic
+книга малой магии
+%%%%
+{item-base}book of Misfortune
+книга несчастий
+%%%%
+{item-base}book of Movement
+книга движения
+%%%%
+{item-base}book of Necromancy
+книга некромантии
+%%%%
+{item-base}book of Party Tricks
+книга праздничных фокусов
+%%%%
+{item-base}book of Power
+книга могущества
+%%%%
+{item-base}book of Scorching
+книга зноя
+%%%%
+{item-base}book of Sloth
+книга лености
+%%%%
+{item-base}book of Spatial Translocations
+книга пространственных перемещений
+%%%%
+{item-base}book of Spectacle
+книга зрелищ
+%%%%
+{item-base}book of Spontaneous Combustion
+книга самовозгорания
+%%%%
+{item-base}book of Storms
+книга бурь
+%%%%
+{item-base}book of Touch
+книга прикосновений
+%%%%
+{item-base}book of Transmutation
+книга превращения веществ
+%%%%
+{item-base}book of Unlife
+книга нежизни
+%%%%
+{item-base}book of Weapons
+книга оружия
+%%%%
+{item-base}book of Wicked Creation
+книга нечестивого созидания
+%%%%
+{item-base}book of Winter
+книга зимы
+%%%%
+{item-base}book of the Dragon
+книга дракона
+%%%%
+{item-base}book of the Earth
+книга земли
+%%%%
+{item-base}book of the Fortress
+книга крепости
+%%%%
+{item-base}book of the Grave
+книга могилы
+%%%%
+{item-base}book of the Hunter
+книга охотника
+%%%%
+{item-base}book of the Moon
+книга луны
+%%%%
+{item-base}book of the Senses
+книга чувств
+%%%%
+{item-base}book of the Spheres
+книга сфер
+%%%%
+{item-base}book of the Tundra
+книга тундры
+%%%%
+{item-base}book of the Warp
+книга искривления
+%%%%
+{item-base}book of the Wilderness
+книга дикой природы
+%%%%
+{item-base}boomerang
+бумеранг
+%%%%
+{item-base}box of beasts
+ящик зверей
+%%%%
+{item-base}broad axe
+широкий топор
+%%%%
+{item-base}buckler
+баклер
+%%%%
+{item-base}chain mail
+кольчуга
+%%%%
+{item-base}cloak
+плащ
+%%%%
+{item-base}club
+дубинка
+%%%%
+{item-base}condenser vane
+конденсатор облаков
+%%%%
+{item-base}crystal plate armour
+кристаллический латный доспех
+%%%%
+{item-base}dagger
+кинжал
+%%%%
+{item-base}dart
+игла
+%%%%
+{item-base}demon blade
+демонический клинок
+%%%%
+{item-base}demon trident
+демонический трезубец
+%%%%
+{item-base}demon whip
+демонический кнут
+%%%%
+{item-base}dire flail
+тяжёлый цеп
+%%%%
+{item-base}double sword
+двойной меч
+%%%%
+{item-base}dragon-coil talisman
+талисман драконьего кольца
+%%%%
+{item-base}earthy gem
+землистый самоцвет
+%%%%
+{item-base}eel talisman
+талисман угря
+%%%%
+{item-base}eudemon blade
+эвдемонический клинок
+%%%%
+{item-base}eveningstar
+шипастая булава
+%%%%
+{item-base}executioner's axe
+топор палача
+%%%%
+{item-base}falchion
+фальшион
+%%%%
+{item-base}figurine of a ziggurat
+фигурка зиккурата
+%%%%
+{item-base}fire dragon scales
+чешуя огненного дракона
+%%%%
+{item-base}flail
+цеп
+%%%%
+{item-base}fortress talisman
+талисман крепости
+%%%%
+{item-base}gecko talisman
+талисман геккона
+%%%%
+{item-base}gem
+самоцвет
+%%%%
+{item-base}giant club
+гигантская дубина
+%%%%
+{item-base}giant spiked club
+гигантская шипастая дубина
+%%%%
+{item-base}glaive
+глефа
+%%%%
+{item-base}gold piece
+золотая монета
+%%%%
+{item-base}golden dragon scales
+чешуя золотого дракона
+%%%%
+{item-base}granite talisman
+гранитный талисман
+%%%%
+{item-base}great mace
+огромная булава
+%%%%
+{item-base}great sword
+двуручный меч
+%%%%
+{item-base}halberd
+алебарда
+%%%%
+{item-base}hand axe
+ручной топор
+%%%%
+{item-base}hand cannon
+ручная пушка
+%%%%
+{item-base}hat
+шляпа
+%%%%
+{item-base}helmet
+шлем
+%%%%
+{item-base}hive talisman
+талисман улья
+%%%%
+{item-base}horn of Geryon
+рог Гериона
+%%%%
+{item-base}ice dragon scales
+чешуя ледяного дракона
+%%%%
+{item-base}inkwell talisman
+талисман чернильницы
+%%%%
+{item-base}ivory gem
+самоцвет слоновой кости
+%%%%
+{item-base}jade gem
+нефритовый самоцвет
+%%%%
+{item-base}jade talisman
+нефритовый талисман
+%%%%
+{item-base}javelin
+дротик
+%%%%
+{item-base}kite shield
+каплевидный щит
+%%%%
+{item-base}lajatang
+ладжатанг
+%%%%
+{item-base}large rock
+большой камень
+%%%%
+{item-base}leather armour
+кожаный доспех
+%%%%
+{item-base}lightning rod
+жезл молний
+%%%%
+{item-base}long sword
+длинный меч
+%%%%
+{item-base}longbow
+длинный лук
+%%%%
+{item-base}lupine talisman
+волчий талисман
+%%%%
+{item-base}mace
+булава
+%%%%
+{item-base}maw talisman
+талисман пасти
+%%%%
+{item-base}medusa talisman
+талисман медузы
+%%%%
+{item-base}midnight gem
+полуночный самоцвет
+%%%%
+{item-base}milky-white gem
+молочно-белый самоцвет
+%%%%
+{item-base}mist talisman
+талисман тумана
+%%%%
+{item-base}morningstar
+моргенштерн
+%%%%
+{item-base}mossy gem
+мшистый самоцвет
+%%%%
+{item-base}orb
+сфера
+%%%%
+{item-base}orcbow
+орочий лук
+%%%%
+{item-base}pearl dragon scales
+чешуя жемчужного дракона
+%%%%
+{item-base}phantom mirror
+призрачное зеркало
+%%%%
+{item-base}phial of floods
+флакон потопа
+%%%%
+{item-base}plate armour
+латный доспех
+%%%%
+{item-base}potion
+зелье
+%%%%
+{item-base}potion of ambrosia
+зелье амброзии
+%%%%
+{item-base}potion of attraction
+зелье притяжения
+%%%%
+{item-base}potion of berserk rage
+зелье ярости
+%%%%
+{item-base}potion of blood
+зелье крови
+%%%%
+{item-base}potion of brilliance
+зелье гениальности
+%%%%
+{item-base}potion of cancellation
+зелье отмены
+%%%%
+{item-base}potion of curing
+зелье исцеления
+%%%%
+{item-base}potion of enlightenment
+зелье просветления
+%%%%
+{item-base}potion of experience
+зелье опыта
+%%%%
+{item-base}potion of haste
+зелье ускорения
+%%%%
+{item-base}potion of heal wounds
+зелье лечения ран
+%%%%
+{item-base}potion of invisibility
+зелье невидимости
+%%%%
+{item-base}potion of lignification
+зелье одревеснения
+%%%%
+{item-base}potion of magic
+зелье магии
+%%%%
+{item-base}potion of might
+зелье мощи
+%%%%
+{item-base}potion of mist
+зелье тумана
+%%%%
+{item-base}potion of moonshine
+зелье самогона
+%%%%
+{item-base}potion of mutation
+зелье мутации
+%%%%
+{item-base}potion of resistance
+зелье сопротивления
+%%%%
+{item-base}prismatic gem
+призматический самоцвет
+%%%%
+{item-base}protean talisman
+изменчивый талисман
+%%%%
+{item-base}quarterstaff
+боевой посох
+%%%%
+{item-base}quick blade
+быстрый клинок
+%%%%
+{item-base}quicksilver dragon scales
+чешуя ртутного дракона
+%%%%
+{item-base}quill talisman
+талисман игл
+%%%%
+{item-base}rapier
+рапира
+%%%%
+{item-base}riddle talisman
+талисман загадки
+%%%%
+{item-base}rimehorn talisman
+талисман морозного рога
+%%%%
+{item-base}ring
+кольцо
+%%%%
+{item-base}ring mail
+кольчатый доспех
+%%%%
+{item-base}ring of dexterity
+кольцо ловкости
+%%%%
+{item-base}ring of evasion
+кольцо уклонения
+%%%%
+{item-base}ring of fire
+кольцо огня
+%%%%
+{item-base}ring of flight
+кольцо полёта
+%%%%
+{item-base}ring of ice
+кольцо льда
+%%%%
+{item-base}ring of intelligence
+кольцо интеллекта
+%%%%
+{item-base}ring of magical power
+кольцо запаса магии
+%%%%
+{item-base}ring of poison resistance
+кольцо сопротивления яду
+%%%%
+{item-base}ring of positive energy
+кольцо положительной энергии
+%%%%
+{item-base}ring of protection
+кольцо защиты
+%%%%
+{item-base}ring of protection from cold
+кольцо защиты от холода
+%%%%
+{item-base}ring of protection from fire
+кольцо защиты от огня
+%%%%
+{item-base}ring of resist corrosion
+кольцо сопротивления коррозии
+%%%%
+{item-base}ring of see invisible
+кольцо обнаружения невидимого
+%%%%
+{item-base}ring of slaying
+кольцо боевого мастерства
+%%%%
+{item-base}ring of strength
+кольцо силы
+%%%%
+{item-base}ring of willpower
+кольцо воли
+%%%%
+{item-base}ring of wizardry
+кольцо чародейства
+%%%%
+{item-base}robe
+мантия
+%%%%
+{item-base}sack of spiders
+мешок пауков
+%%%%
+{item-base}sacred scourge
+священный бич
+%%%%
+{item-base}sanguine gem
+кровавый самоцвет
+%%%%
+{item-base}sanguine talisman
+кровавый талисман
+%%%%
+{item-base}scale mail
+чешуйчатый доспех
+%%%%
+{item-base}scarab talisman
+талисман скарабея
+%%%%
+{item-base}scarf
+шарф
+%%%%
+{item-base}scimitar
+скимитар
+%%%%
+{item-base}scroll
+свиток
+%%%%
+{item-base}scroll of acquirement
+свиток приобретения
+%%%%
+{item-base}scroll of amnesia
+свиток амнезии
+%%%%
+{item-base}scroll of blinking
+свиток скачка
+%%%%
+{item-base}scroll of brand weapon
+свиток наделения оружия свойством
+%%%%
+{item-base}scroll of butterflies
+свиток бабочек
+%%%%
+{item-base}scroll of enchant armour
+свиток зачарования доспехов
+%%%%
+{item-base}scroll of enchant weapon
+свиток зачарования оружия
+%%%%
+{item-base}scroll of fear
+свиток страха
+%%%%
+{item-base}scroll of fog
+свиток тумана
+%%%%
+{item-base}scroll of identify
+свиток опознания
+%%%%
+{item-base}scroll of immolation
+свиток воспламенения
+%%%%
+{item-base}scroll of noise
+свиток шума
+%%%%
+{item-base}scroll of poison
+свиток яда
+%%%%
+{item-base}scroll of revelation
+свиток откровения
+%%%%
+{item-base}scroll of silence
+свиток тишины
+%%%%
+{item-base}scroll of summoning
+свиток призыва
+%%%%
+{item-base}scroll of teleportation
+свиток телепортации
+%%%%
+{item-base}scroll of torment
+свиток мучения
+%%%%
+{item-base}scroll of vulnerability
+свиток уязвимости
+%%%%
+{item-base}scythe
+коса
+%%%%
+{item-base}serpent talisman
+талисман змея
+%%%%
+{item-base}shadow dragon scales
+чешуя теневого дракона
+%%%%
+{item-base}shimmering gem
+мерцающий самоцвет
+%%%%
+{item-base}shining gem
+сияющий самоцвет
+%%%%
+{item-base}short sword
+короткий меч
+%%%%
+{item-base}shortbow
+короткий лук
+%%%%
+{item-base}sling
+праща
+%%%%
+{item-base}smoky gem
+дымчатый самоцвет
+%%%%
+{item-base}spear
+копьё
+%%%%
+{item-base}spider talisman
+талисман паука
+%%%%
+{item-base}spore talisman
+талисман спор
+%%%%
+{item-base}staff of Olgreb
+посох Олгреба
+%%%%
+{item-base}staff of air
+посох воздуха
+%%%%
+{item-base}staff of alchemy
+посох алхимии
+%%%%
+{item-base}staff of cold
+посох холода
+%%%%
+{item-base}staff of conjuration
+посох разрушения
+%%%%
+{item-base}staff of earth
+посох земли
+%%%%
+{item-base}staff of fire
+посох огня
+%%%%
+{item-base}staff of necromancy
+посох некромантии
+%%%%
+{item-base}starry gem
+звёздный самоцвет
+%%%%
+{item-base}steam dragon scales
+чешуя парового дракона
+%%%%
+{item-base}stone
+камень
+%%%%
+{item-base}storm dragon scales
+чешуя грозового дракона
+%%%%
+{item-base}storm talisman
+талисман бури
+%%%%
+{item-base}swamp dragon scales
+чешуя болотного дракона
+%%%%
+{item-base}talisman of death
+талисман смерти
+%%%%
+{item-base}throwing net
+метательная сеть
+%%%%
+{item-base}tin of tremorstones
+коробка сотрясающих камней
+%%%%
+{item-base}tower shield
+башенный щит
+%%%%
+{item-base}trident
+трезубец
+%%%%
+{item-base}triple crossbow
+тройной арбалет
+%%%%
+{item-base}triple sword
+тройной меч
+%%%%
+{item-base}trishula
+тришула
+%%%%
+{item-base}troll leather armour
+доспех из кожи тролля
+%%%%
+{item-base}vision talisman
+талисман зрения
+%%%%
+{item-base}wand of acid
+палочка кислоты
+%%%%
+{item-base}wand of charming
+палочка очарования
+%%%%
+{item-base}wand of digging
+палочка копания
+%%%%
+{item-base}wand of flame
+палочка пламени
+%%%%
+{item-base}wand of iceblast
+палочка ледяного взрыва
+%%%%
+{item-base}wand of light
+палочка света
+%%%%
+{item-base}wand of mindburst
+палочка взрыва разума
+%%%%
+{item-base}wand of paralysis
+палочка паралича
+%%%%
+{item-base}wand of polymorph
+палочка превращения
+%%%%
+{item-base}wand of quicksilver
+палочка ртути
+%%%%
+{item-base}wand of roots
+палочка корней
+%%%%
+{item-base}wand of warping
+палочка искривления
+%%%%
+{item-base}war axe
+боевой топор
+%%%%
+{item-base}wellspring talisman
+талисман источника
+%%%%
+{item-base}whip
+кнут
 %%%%
 {many}@num@ Agnes
 @num@ Агнес

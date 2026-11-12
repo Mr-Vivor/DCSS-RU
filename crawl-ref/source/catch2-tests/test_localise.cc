@@ -281,7 +281,13 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
     CHECK(localise("a dagger, a club, and a rat") == "кинжал, дубинка и крыса");
     CHECK(localise("кинжал and дубинка") == "кинжал и дубинка");
     CHECK(localise("+0 buckler of the Valley {Will+++}")
-          == "+0 buckler of the Valley {Воля+++}");
+          == "+0 баклер Долины {Воля+++}");
+    CHECK(localise("You hit the orc with your buckler of the Valley!")
+          == "Вы ударяете орка баклером Долины!");
+    CHECK(localise_in_context("ins", "a ring of wizardry of the Valley of Death")
+          == "кольцом чародейства Долины смерти");
+    CHECK(localise("flurble of the Valley") == "flurble of the Valley");
+    CHECK(localise("a buckler of Vivor") == "a buckler of Vivor");
     CHECK(localise("Will/2") == "Воля/2");
     CHECK(localise("Covered") == "Латник");
     CHECK(localise("AC") == "Бр");

@@ -61,6 +61,10 @@ def game_entries(entities):
         en, plural = entity["en"], entity["en_plural"]
         singular_forms, plural_forms = entity["forms"]["singular"], entity["forms"]["plural"]
         gender = "{" + entity["gender"] + "}"
+        if entity["kind"] == "item":
+            # Explicit membership for composing reviewed artefact suffixes.
+            # Ordinary prose containing "of" must never become an item name.
+            add("{item-base}" + en, singular_forms["nom"])
         for prefix in ("", "the ", "a ", "an ", "your "):
             key = prefix + en
             add(key, gender + singular_forms["nom"])

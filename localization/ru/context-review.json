@@ -65577,6 +65577,138 @@
     "Metamorph": {
       "context": "job-groups.h/newgame.cc job_group heading for Shapeshifter, Stalker and Mystic. This is the character creation category, distinct from the Shapeshifter background. Also the ordinary Shapeshifting skill rank; Метаморф suits both contexts. Observed English heading in the real WebTiles background screen on 12 November. No job IDs changed.",
       "translation_sha256": "961c8e39b17ba0843633c6cb14a7f59e1f5a5ada2272460173d276faf1e646a0"
+    },
+    "{artefact-suffix}of Beyond": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "25a39b7c67ef6159dcfacb8aaa6c7e2ed949eaf8185da35e8290936728a6f651"
+    },
+    "{artefact-suffix}of Distant Shores": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "c036edcf12ea2c2b4b2f2a9c823436929fd8f93dc83a7bd39c5321d8997393fa"
+    },
+    "{artefact-suffix}of Distant Worlds": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "492965f62f9fda9f7c5a188028f0ff6a8a242850fe94a44d3c48eabf15e2b7a0"
+    },
+    "{artefact-suffix}of Parts Unknown": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "747a9cc84a4f4442fe95e1d05e60f6ad1e3e543b644b7531e98e5c74ed685f58"
+    },
+    "{artefact-suffix}of Proximity": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "ca7e0c2005bf9653a6baec2ef587e140e6142fe78ff69b9028a42870673488c0"
+    },
+    "{artefact-suffix}of Somewhere Else": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "eead9e0484d5d660cb2ac778780a13ffa2b49ed523b4744daa3fa47f8f00c886"
+    },
+    "{artefact-suffix}of the Blessed Realm": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "774cac57764db7a2bb92f33dea16d30dc80533b1c598c4644b23f6c6527485ee"
+    },
+    "{artefact-suffix}of the Desert": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "8c01c32bda2c43dcc90ac23f8338b41a6768cade931cfd301efdb723fc6cb7be"
+    },
+    "{artefact-suffix}of the Equator": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "6cdd7f838c3320b8ebaef7a29e249c9f1f0f5344b5761325ef4d0b480ea25693"
+    },
+    "{artefact-suffix}of the Eternal Void": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "5ba8c81a3a5ac6b35407bf957967ca4d2ded47e75d103f5bf52750e92c6f1d32"
+    },
+    "{artefact-suffix}of the Forest": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "987693320a6f75e9f96a35d88c9b5a4723c2ebfcb91367d2e7f9b0b3458d3cb7"
+    },
+    "{artefact-suffix}of the Hidden Vale": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "39f03eabe45dc3df74c9e3b8f1fef8d10afc65a21119c91c7d5ee74a5975d399"
+    },
+    "{artefact-suffix}of the Hills": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "9d6f9289285c9dd89622ea5b5cf17004379591b44b4b50737c3ecc67cc8d91b5"
+    },
+    "{artefact-suffix}of the Known World": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "fa7e10e9be90ef4377213f903eec08806e88a7985faeb465c4717677baf47239"
+    },
+    "{artefact-suffix}of the Land of Plenty": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "0c0b11fc8023f49ca3f9725fcca623470096325ef3116bd817503733e13254ea"
+    },
+    "{artefact-suffix}of the Maze": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "f11be4c22fbf7065877f910612b2e4ac19282927f1ba6eadffd67b83dcdb0c8c"
+    },
+    "{artefact-suffix}of the New World": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "fb4417e448fb291ef825b35082ccf503892fb6d708cdac3fce96d0835e9128b8"
+    },
+    "{artefact-suffix}of the Old World": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "670cebc61d65aba143dd6215b3f735c7c6c70e88bb3c7f1b0ba4c2cfc8cdcdad"
+    },
+    "{artefact-suffix}of the Other Side": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "c4c480a996aa694c99df6b2bb6087c7b7b020d5df91762a94a30d5d4d182dc11"
+    },
+    "{artefact-suffix}of the Pit": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "a974e606f4919c1d390708141c1e7ff509128737a541ed858295f4abfefa0526"
+    },
+    "{artefact-suffix}of the Poles": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "bb79e6cbc542bf14beaa641099ecd8ba9f0fca2ccd9f9cd271e3a16b6aece119"
+    },
+    "{artefact-suffix}of the Sea": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "56b40175e08678270ab943f67631a2da6924952e90c08da1ea924ba8362f807c"
+    },
+    "{artefact-suffix}of the Shore": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "7d2f512801cc2ca2deebd233779b7f1b4ae9c072d79208c6255199efbf40d123"
+    },
+    "{artefact-suffix}of the Spheres": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "7c654b2bcabdf9461576a45cf12f21915c8f5554fa657190cdf60483a1d1bda3"
+    },
+    "{artefact-suffix}of the Trees": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "c8d6116cb3195b7bc9a5e869f6a4d276f436ff17448fedae3c04410e4615dfbc"
+    },
+    "{artefact-suffix}of the Tundras": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "2fdf01f003aef982bb3c0eb67a050545e1d4ab9cc6fac4466075355e53ccf15a"
+    },
+    "{artefact-suffix}of the Unseen Realm": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "e49fc95c4d586bf4c3ec8522d0557db8565f766a633ae447a727dcb8f7a49f95"
+    },
+    "{artefact-suffix}of the Valley": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "ca78fd209cf7d6a72fc05a7d6bf11b452e7b25091932608774ba50b2e77ab146"
+    },
+    "{artefact-suffix}of the Valley of Death": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "4d53adb17f90d5e53ecde4bbdf9dfef34f2b3de3c5b02db963dbfab14100363f"
+    },
+    "{artefact-suffix}of the Volcano": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "7a6de9e330d765c69d755c05253e72154a67dffec90495e9d35ce2fbd020ccb2"
+    },
+    "{artefact-suffix}of the Wasteland": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "bf6f651d966cbdf9cf232b963715d2982771b591c315d9649151c585c9338251"
+    },
+    "{artefact-suffix}of the Wilderness": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "570eb0a820ec3844730120f55bdb3ecfe6a28fd36157fb14392f6b2d67e82f9f"
+    },
+    "{artefact-suffix}of the World": {
+      "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
+      "translation_sha256": "8e3878225529f3edeb923b01e3d684e556045473dcb6bad019e03c71a5a28739"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

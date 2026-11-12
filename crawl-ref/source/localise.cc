@@ -806,6 +806,37 @@ static string _localise_annotation(const string& s)
     return result;
 }
 
+static string _localise_named_item(const string& s)
+{
+    if (Options.language != lang_t::RU)
+        return "";
+
+    // Only compose a registered item head and a reviewed name suffix. A
+    // generic "@arg@ of @arg@" rule also matches prose and corrupts names.
+    // Try the longest head first: "ring of wizardry of the Valley".
+    size_t pos = s.rfind(" of ");
+    while (pos != string::npos)
+    {
+        const string head = s.substr(0, pos);
+        const string base = strip_determiner(head);
+        if (!_translate(add_context("item-base", base)).empty())
+        {
+            const string suffix = _translate(add_context("artefact-suffix", s.substr(pos + 1)));
+            if (!suffix.empty())
+            {
+                const string saved_context = _context;
+                const string translated_head = _localise_string(head);
+                _context = saved_context;
+                return translated_head + " " + strip_context(suffix);
+            }
+        }
+        if (pos == 0)
+            break;
+        pos = s.rfind(" of ", pos - 1);
+    }
+    return "";
+}
+
 static string _localise_string(const string& s, bool fallback_en)
 {
     if (s.empty())
@@ -927,6 +958,10 @@ static string _localise_string(const string& s, bool fallback_en)
         if (!result.empty() || rest.empty())
             return result + _localise_annotation(annotation);
     }
+
+    result = _localise_named_item(s);
+    if (!result.empty())
+        return result;
 
     auto sentences = separate_sentences(s);
     if (sentences.size() > 1)
