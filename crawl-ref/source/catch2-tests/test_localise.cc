@@ -357,6 +357,10 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "Вы ударяете живое заклинание «Хрустальное копьё Лехудиба»!");
     CHECK(localise("You see 2 living petrification spells and 5 living iceblast spells.")
           == "Вы видите 2 живых заклинания «Окаменение» и 5 живых заклинаний «Ледяной взрыв».");
+    CHECK(localise("You hit the bat shaped block of ice!")
+          == "Вы ударяете ледяную глыбу в форме летучей мыши!");
+    CHECK(localise("You see 2 bat shaped pillars of salt and 5 orc shaped blocks of ice.")
+          == "Вы видите 2 соляных столпа в форме летучей мыши и 5 ледяных глыб в форме орка.");
     CHECK(localise("Your hand axe quivers in your hands.")
           == "В руках подрагивает ручной топор.");
     CHECK(localise("You feel magic pooling in your eel graspers.")
