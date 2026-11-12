@@ -4,9 +4,37 @@ from pathlib import Path
 import json
 import re
 import shutil
+import subprocess
 
 BASE = Path('/srv/dcss-ru')
 REVISION = re.compile(r'[0-9a-f]{40}')
+
+
+def reject_stale_release(base, revision):
+    """A late CI run must not replace a newer active or pending build."""
+    base = Path(base)
+    if not REVISION.fullmatch(revision):
+        raise ValueError('Invalid proposed revision')
+    references = []
+    current = base / 'current' / 'REVISION'
+    if current.is_file():
+        references.append(current.read_text().strip())
+    pending = base / 'pending.json'
+    if pending.exists():
+        references.append(json.loads(pending.read_text())['revision'])
+    for reference in references:
+        if not isinstance(reference, str) or not REVISION.fullmatch(reference):
+            raise ValueError('Invalid active or pending revision')
+        if reference == revision:
+            continue
+        result = subprocess.run(['git', '--git-dir', str(base / 'repository.git'),
+                                 'merge-base', '--is-ancestor', revision, reference],
+                                stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
+                                text=True)
+        if result.returncode == 0:
+            raise ValueError('Refusing a release older than the active or pending revision')
+        if result.returncode != 1:
+            raise RuntimeError('Cannot verify release ancestry: ' + result.stderr.strip())
 
 
 def protected_revisions(base, proc_root=Path('/proc')):

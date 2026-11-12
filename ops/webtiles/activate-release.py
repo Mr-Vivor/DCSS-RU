@@ -15,7 +15,7 @@ import tempfile
 import time
 import urllib.request
 
-from dcss_ru_retention import prune_releases
+from dcss_ru_retention import prune_releases, reject_stale_release
 
 BASE = Path("/srv/dcss-ru")
 
@@ -30,6 +30,7 @@ def unpack(archive, revision):
         raise ValueError("Release already exists; use --pending to activate it")
     subprocess.run(["git", "--git-dir", str(BASE / "repository.git"), "fetch", "--no-tags", "origin", "ru-bootstrap"], check=True, timeout=90)
     subprocess.run(["git", "--git-dir", str(BASE / "repository.git"), "cat-file", "-e", revision + "^{commit}"], check=True)
+    reject_stale_release(BASE, revision)
     with tempfile.TemporaryDirectory(dir=BASE / "releases", prefix=".unpack-") as stage:
         with tarfile.open(archive, "r:gz") as package:
             members = package.getmembers()

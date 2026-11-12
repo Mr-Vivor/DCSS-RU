@@ -15,7 +15,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: ru-${{ github.ref }}
+  group: verified-release-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
