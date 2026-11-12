@@ -65709,6 +65709,46 @@
     "{artefact-suffix}of the World": {
       "context": "rand_wpn.txt _place_name_, referenced by randname.txt weapon/armour/god-gift suffixes. Full of-suffix in genitive, scoped to artefact-suffix and composed only with an explicit item-base entry. These are name epithets, not dungeon branch IDs: Pit is Яма, not the Abyss branch; Poles are geographical poles, not Polish people. Reviewed original spelling and all 33 current place choices. Does not translate player names, invent declensions for unknown suffixes, mutate saved item names, change random selection or affect English mode.",
       "translation_sha256": "8e3878225529f3edeb923b01e3d684e556045473dcb6bad019e03c71a5a28739"
+    },
+    "“Let who will boast their courage in the field,": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "9a5cb665df8d7af095e53e3614bdf876c5476badef622baf87f67e1e2b910789"
+    },
+    "I find but little safety from my shield.": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "dbbeee620889204f657d4eb83c782db2be506ae62cf1bac91502375cf6bf8572"
+    },
+    "Nature's, not honour's, law we must obey:": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "d9c54638257dadbcec2a56f6024ce132328c44c30ab72b1e1e8922669a05ed0a"
+    },
+    "This made me cast my useless shield away,": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "164917a34b7322123338b371834597d2069263ae7d5a4f7de00b1633d250b4dc"
+    },
+    "And by a prudent flight and cunning save": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "701c7b5204258e319b4626b16257e9bb4bed414b9f184ed6340b3c3d6ad113b3"
+    },
+    "A life, which valour could not, from the grave.": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "d97cda25a87b204129c5145e91b3857994d736fee4473884314532f9afa2e651"
+    },
+    "A better buckler I can soon regain;": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "7529624571cb6d22cbfe0469a81d23ac35e525cd6696ce439d2e5c39d9a1cd6e"
+    },
+    "But who can get another life again?”": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "bc3957f932cf8eed13b3b0fb52e78c33aa9d65ce62256cc093f6648cff2c9da6"
+    },
+    "-Archilochos. 7th cent. B.C.": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "a25daf4a0cd16007b4674bb8623d567dfe9001158f26e0752d592c464364fcf0"
+    },
+    "trans. William H. Goodwin, 1878.": {
+      "context": "quotes.txt buckler, Archilochus shield poem, public-domain English rendering credited to William H. Goodwin 1878. Seen in the actual inventory item description: generic phrase matching inserted Russian into an otherwise English stanza. All eight lines and two attribution lines translated coherently; Russian prose rendering explicitly credited as a retelling of the English version, not falsely attributed as Goodwin's Russian translation. Exact whole trimmed lines are translated before generic templates. Shield abandonment saves life, not cowardice debuff or an actual item ability. No quote database IDs or gameplay changed.",
+      "translation_sha256": "57d0cf2f40ab5f1568c2a61037a538188a2f12ccfbf1e0ab37118e34e8804ff8"
     }
   },
   "duration_source_sha256": "ad0aeabe9c3634c7d88841e26022abd410cd1956fd54c0011595ac73ee685fbb",

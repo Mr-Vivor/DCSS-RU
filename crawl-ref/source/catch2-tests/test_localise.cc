@@ -288,6 +288,9 @@ TEST_CASE("Russian names, grammar and game messages", "[localise][single-file]")
           == "кольцом чародейства Долины смерти");
     CHECK(localise("flurble of the Valley") == "flurble of the Valley");
     CHECK(localise("a buckler of Vivor") == "a buckler of Vivor");
+    const string buckler_quote = localise(getQuoteString("buckler"));
+    CHECK(buckler_quote.find("бросил бесполезный щит") != string::npos);
+    CHECK(buckler_quote.find("And by a prudent flight") == string::npos);
     CHECK(localise("Will/2") == "Воля/2");
     CHECK(localise("Covered") == "Латник");
     CHECK(localise("AC") == "Бр");

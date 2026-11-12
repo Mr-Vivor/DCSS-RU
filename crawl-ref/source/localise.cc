@@ -932,7 +932,11 @@ static string _localise_string(const string& s, bool fallback_en)
                 return xlated_name + result;
         }
     }
-
+    // Registered item names precede broad noun templates, including skill
+    // titles such as "@Genus_Short@ of Death".
+    result = _localise_named_item(s);
+    if (!result.empty())
+        return result;
 
     result = _localise_parameterised_string(s, false);
     if (!result.empty())
@@ -958,10 +962,6 @@ static string _localise_string(const string& s, bool fallback_en)
         if (!result.empty() || rest.empty())
             return result + _localise_annotation(annotation);
     }
-
-    result = _localise_named_item(s);
-    if (!result.empty())
-        return result;
 
     auto sentences = separate_sentences(s);
     if (sentences.size() > 1)
